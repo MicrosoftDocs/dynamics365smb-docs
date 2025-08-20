@@ -156,6 +156,29 @@ The following procedures describe how to rotate the access token used by the Sho
 3. Choose the **Request Access** action.
 4. If prompted, sign in to your Shopify account, review privacy and permissions, and then choose the **Install App** button.
 
+### Troubleshooting refunds
+
+When an error happens when you create a credit memo based on a refund, in addition to the **Has Error** field there's also a specific error message and the call stack in the **Last Error Info** page that can help you diagnose the issue. For example, it might show that you're missing a value in the **Refund Account No.** field on the *Shopify Shop Card* page.
+
+### Troubleshooting product creation when importing to Business Central
+
+When you import products from Shopify into [!INCLUDE [prod_short](../includes/prod_short.md)], Shopify Connector attempts to convert each Shopify product to an item in [!INCLUDE [prod_short](../includes/prod_short.md)]. Sometimes the connector encounters an issue, often caused by customizations, that prevents it from converting a Shopify product into an item, so the import fails.
+
+To help you identify and resolve these problems, go to the **Shopify Products** page and find entries where the **Has Error** field is selected. The **Error Message** field, similar to what you see for Shopify orders, displays the error message that explains why the item couldn't be created. This information can help you understand the root cause of the problem so you can take corrective actions. Afterward, you can use the **Create Item** action to manually restart the process of creating the item.
+
+### Shopify fields in archived sales orders can show manual adjustments
+
+Archived sales orders include following fields:
+
+- **Shpfy Order Id** and **Shpfy Order No.** in the **Sales Header Archive** table.
+- **Shpfy Order Line Id** and **Shpfy Order No.** in the **Sales Line Archive** table.
+
+The fields don't display on the page, but you can use page inspector to review them or explore the table to diagnose cases when an imported order was manually adjusted. Sometimes manual adjustments affect synchronization of shipments to Shopify flows.
+
+### Order Total FactBox
+
+The **Order total** part in the **Shopify Orders** page displays totals from both the order in Shopify and the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)]. The totals let you compare figures without opening each document, which can be helpful when you're testing customer and item templates.
+
 ## Known issues
 
 ### Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOUR SHOPIFY STORE'

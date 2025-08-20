@@ -17,47 +17,51 @@ ms.custom:
 ms.search.form: 4400, 4410
 ROBOTS: NOINDEX,NOFOLLOW
 ---
-# Process vendor invoices with Payables Agent (preview)
+# Supervise agent activities (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how to use Payables Agent to process vendor invoices received via email. The Payables Agent uses AI to analyze incoming invoices, create drafts for review, and reduce manual corrections.
+You interact with Business Central agents, such as sales order and payables agents, directly in Copilot's **Tasks** tab. You can monitor task status, review agent-generated drafts and suggestions, and provide confirmations or input to help tasks complete responsibly and accurately.
 
-The agent monitors a designated mailbox for email from vendors or employees with attached PDF invoices. When it detects an email, it starts to create a purchase invoice and keeps you informed and involved from your role center in Business Central. Learn more in [Payables Agent overview](payables-agent.md).
+The process flow is different for each agent. This article explains the common aspects of working in the **Tasks** tab for all agents and answers frequently asked questions.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
-## Supported languages
-
-[!INCLUDE[soa-language-support](includes/soa-language-support.md)]
-
 ## Prerequisites
 
-Payables Agent is activated, and you have permission to use it. Learn more in [Set up Payables Agent](payables-agent-setup.md).
+The agent is activated, and you have permission to use it. Learn more in [Set up Payables Agent](payables-agent-setup.md).
 
 ## Get started
 
-You collaborate with Payables Agent to process invoices using the **Tasks** tab in the **Copilot** pane. To access this tab, select ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent** on the upper right of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
+On the upper right of the navigation menu, select the icon for the agent:
+
+- ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent**
+- ![Shows Sales Order Agent icon.](media/soa-activated-number-icon.png) **Sales Order Agent**
+
+A red circle with a number on the icon indicates the tasks that need attention.
 
 ![Shows the agents task view with steps](media/payables-agent-tasks-pane.svg)
 
-The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
+Selecting the ![Shows the task view icon](media/sot-task-view-icon.png) icon opens the **Tasks** tab in the **Copilot** pane, where you can view tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
 
-For each invoice, the agent adds a task to track, review, and follow up on until the agent creates the purchase invoice. Each task has multiple steps that create a timeline of the process.
+For each inquiry the agent receives, like request for a quote or invoice, the agent adds a **task** to track, review, and follow up on until the agent creates the purchase invoice. Each task has multiple steps that create a timeline of the process. A timeline is a visual sequence that shows each step taken for the task, helping you understand the progress and history.
 
 > [!TIP]
-> Hover over the ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent** icon in the role or select the ![Show summary for Agent icon](media/soa-summary-icon.png) **Show summary for Payables Agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
+> Hover over the agent's icon or select the ![Show summary for Agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization.
 
 ## Review and assist
 
 The agent does most of the work autonomously, but it asks for user input when needed to move through the process. For example:
 
-- Review and confirm the vendor information.
-- Review and confirm the purchase invoice document draft.
+- Reviewing and confirming incoming and outgoing emails
+- Review and confirm contact or vendor information.
+- Review and confirm the draft documents, like quites, orders and purchase invoices.
 - Help the agent get unblocked, like by providing missing data.
 
-Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow).
+Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow) and [PaSales Order Agent process flow](sales-order-agent.md#how-the-agent-processes-requests).
+
+### Review a step
 
 Steps that need intervention appear under **Needs Attention** in the **Tasks** tab. To review a step, follow these instructions:
 
@@ -98,7 +102,7 @@ After you make the changes, return to the **Tasks** tab, select one of the follo
 If you change your mind while reviewing the outgoing message and decide to make more changes to the sales document, use the **Discard step** action to discard the email message generated by the agent. Then, update the sales document as needed and instruct the agent to create a new outgoing email with the updated attachment.
 -->
 
-## Reviewing drafts from the Inbound E-Documents page
+<!-- ## Reviewing drafts from the Inbound E-Documents page
 
 To understand how the Payables Agent drafted the purchase invoice document, you can also go directly to the **Inbound E-Documents** page and open a purchase document draft.  
 
@@ -116,7 +120,11 @@ To complete the review and elevate the draft to a purchase invoice document, cho
 > Fields recommended for review are provided as a convenience, and you aren't required to inspect all of them. Always review the entire purchase document draft, especially if you're new to the Payables Agent and are learning the limitations of how the agent works with your data.
 
 > [!NOTE]
-> While reviewing a purchase document draft, you can't use Copilot’s Autofill feature.
+> While reviewing a purchase document draft, you can't use Copilot’s Autofill feature.-->
+
+## Give instructions to the agent
+
+
 
 ## Stop a task
 

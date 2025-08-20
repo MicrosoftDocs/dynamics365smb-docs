@@ -85,7 +85,7 @@ The agent helps categorize imported PDF documents when it's uncertain if the PDF
 
 ### Drafting invoice details
 
-When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent couldn't identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf by using the **Additional instructions** field in the agent sidecar.
+When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent couldn't identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf by using the **Give instructions to the agent** field in the agent sidecar.
 
 **The agent will stop when it cannot identify the vendor:**
 
@@ -95,7 +95,7 @@ When the agent considers a PDF document a valid vendor invoice with high confide
 
 ![Agent is instructed to create the vendor](media/payables-agent-vendor-not-identified-create.png)
 
-You can provide additional instructions by selecting one of the suggested actions or typing your own instructions by using the small ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon. After you select one of these options, select **Confirm**. In the above example, the **Create vendor** instruction is selected. 
+You can provide more instructions by selecting one of the suggested actions or typing your own instructions in the **Type yor instructions** box by using the ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon. After you select one of these options, select **Confirm**. In the above example, the **Create vendor** instruction is selected. 
 
 **When the agent has created the vendor, it will ask the agent supervisor to review the newly created vendor:**
 

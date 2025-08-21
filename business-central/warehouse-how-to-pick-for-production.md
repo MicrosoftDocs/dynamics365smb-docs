@@ -90,7 +90,7 @@ You can create an inventory pick or inventory movement in three ways:
 
 ### To create multiple inventory picks or movements with a batch job
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Inventory Put-away/Pick/Movement**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Create Inventory Put-away/Pick/Movement**, and then choose the related link.  
 2. On the **Warehouse Request** FastTab, use the **Source Document** and **Source No.** fields to filter on types of documents or ranges of document numbers. For example, you might create picks only for productions orders.
 3. On the **Options** FastTab, turn on the **Create Invt. Pick** or **Create Invt. Movement** toggles.
 4. Choose the **OK** button.
@@ -107,7 +107,7 @@ To pick or move components for source documents in two steps, you must release t
 
 A warehouse employee assigned to picking items can create an inventory put-away document for the source document.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks** or **Inventory Movement**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Inventory Picks** or **Inventory Movement**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **Source Document** field, select the type of source document that the put-away is for.
 

@@ -17,7 +17,7 @@ To find your warehouse assignments, open the card page for a selected item. If w
 
 ## To find an instruction assigned to you
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
 
     All three pages show assignments for all warehouse locations.  
 

@@ -35,7 +35,7 @@ You can apply customer ledger entries in several ways:
 
 A cash receipt journal is a type of general journal. You can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts. You can apply the payment to one or more debit entries when you post the payment. You can also apply from the posted entries later.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cash Receipt Journals**, and then choose the related link.
 2. Choose the **Edit Journal** action.
 3. Select the relevant batch in the **Batch Name** field.
 4. Fill in the **Posting Date** field.  
@@ -56,7 +56,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 
 ## To apply a payment to a single customer ledger entry
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journal**, and choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cash Receipt Journal**, and choose the related link.
 2. Choose the **Edit Journal** action.
 3. On the first journal line, enter the relevant information about the entry to be applied.
 4. In the **Document Type** field, enter **Payment**.
@@ -72,7 +72,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 
 ## To apply a payment to multiple customer ledger entries
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journal**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cash Receipt Journal**, and then choose the related link.
 2. Choose the **Edit Journal** action.
 3. On the first journal line, enter the relevant information about the entry to be applied.
 4. In the **Document Type** field, enter **Payment**.
@@ -89,7 +89,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 
 ## To apply a credit memo to a single customer ledger entry
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Credit Memos**, and then choose the related link.
 2. Open the relevant sales credit memo.
 3. To apply the credit memo to a single customer ledger entry when posting, in the **Applies-to Doc. No.** field, select the entry to which you want to apply the payment.
 4. On the line in the **Amount to Apply** field, enter the amount you want to apply to the entry.  
@@ -100,7 +100,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 
 ## To apply a credit memo to multiple customer ledger entries
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Credit Memos**, and then choose the related link.
 2. Open the relevant sales credit memo.
 3. To apply the credit memo to multiple customer ledger entries when posting, choose the **Apply Entries** action.
 4. Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID** action.
@@ -112,7 +112,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 
 ## To apply posted customer ledger entries
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.
 2. Open the customer card for the customer with entries that you want to apply.
 3. Choose the **Ledger Entries** action from the **Related** tab, and then select the line with the entry that is the applying entry.
 4. Choose the **Apply Entries** action. The **Apply Customer Entries** page opens showing the open entries for the customer.
@@ -124,7 +124,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 8. Choose the **OK** button to post the application.
 
     If the posted application resulted in closed customer ledger entries, the **Open** field is cleared for these ledger entries.  
-9. To access the ledger entries, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link. Browse to the card for the customer to access the ledger entries.  
+9. To access the ledger entries, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Customers**, and then choose the related link. Browse to the card for the customer to access the ledger entries.  
 
 On the ledger entry list, on the line that contains the ledger entry that was fully applied to, notice that the **Open** checkbox isn't selected.  
 
@@ -139,7 +139,7 @@ Here's an example. You apply Entry A in one currency to Entry B in another curre
 
 Applying customer ledger entries in different currencies must be enabled. To learn more, go to [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipts Journal**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cash Receipts Journal**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.
 3. Choose the **Apply Entries** action.
 4. Select the line with the entry you want to apply to the entry in the cash receipt journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.
@@ -153,7 +153,7 @@ Applying customer ledger entries in different currencies must be enabled. To lea
 
 When you correct an application, correcting entries are created and posted for all entries. The correcting entries are the same as the originals but have an opposite sign in the **Amount** field. The correcting entries include all general ledger entries derived from the application. For example, the payment discount and currency gains/losses. The entries that the application closed are reopened.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.
 2. Open the relevant customer card.
 3. Choose the **Ledger Entries** action.
 4. Select the relevant ledger entry, and then choose the **Unapply Entries** action.

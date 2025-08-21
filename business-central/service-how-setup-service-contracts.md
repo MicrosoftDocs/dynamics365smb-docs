@@ -21,19 +21,19 @@ Before you can work with contracts, you must set up the following:
 * **Customer templates** that let you create quotes for contacts or potential customers who are not registered as customers in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## To set up a service contract group  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contract Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contract Groups**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **Disc. on Contr. Orders Only** check box if you want contract or service discounts to be valid only for contract service orders, such as maintenance.  
 
 ## To set up a service contract account group  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Serv. Contract Account Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Serv. Contract Account Groups**, and then choose the related link.  
 2. Create a new service contract account group.   
 3. Fill in the **Code** and **Description** fields. These fields describe the service account group.  
 4. Fill in the **Non-Prepaid Contract Acc.** field, choose general ledger account number for the non-prepaid account.  
 5. In the **Prepaid Contract Acc.** field, choose the general ledger account number for the prepaid account.  
 
 ## To set up a contract template  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contract Templates**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contract Templates**, and then choose the related link.  
 2. Create a new service contract template.  
 3. In the **No.** field, enter a number for the contract template.  
   
@@ -43,7 +43,7 @@ Before you can work with contracts, you must set up the following:
 5. Choose the **Service Discounts** action to add contract discounts.  
 
 ## To set up a customer template  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Templates**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customer Templates**, and then choose the related link.  
 2. Create a new customer template card.  
 3. On the **General** FastTab, enter a code and a description for the customer template in the **Code** and **Description** fields respectively. 
 4. To define search criteria, fill in the other fields, such as **Country/Region Code**, **Territory Code**, and **Language Code**.  

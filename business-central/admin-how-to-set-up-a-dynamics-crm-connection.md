@@ -87,7 +87,7 @@ The Dataverse Connection Setup guide can make it easier to connect the applicati
 > [!IMPORTANT]
 > Typically, you only use full synchronization when you're integrating the applications for the first time, and only one application contains data. Full synchronization can be useful in a demonstration environment because it automatically creates and couples records in each application, which makes it faster to start working with synchronized data. However, you should only run full synchronization if you want one row in [!INCLUDE[prod_short](includes/prod_short.md)] for each row in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] for the table mappings. Otherwise, the result can be duplicate records.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Assisted Setup**, and then choose the related link.
 2. Choose **Set up a connection to Microsoft Dataverse** to start the assisted setup guide.
 3. Fill in the fields as necessary.
 
@@ -98,7 +98,7 @@ The Dataverse Connection Setup guide can make it easier to connect the applicati
 
 The following procedure describes how to set up the connection manually on the **Dataverse Connection Setup** page. The **Dataverse Connection Setup** page is where you manage integration settings.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Dataverse Connection Setup**, and then choose the related link.
 2. Enter the following information for the connection from [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Field|Description|
@@ -240,7 +240,7 @@ The following steps assume that you use Microsoft Entra ID to manage identities 
 
 ### To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Dataverse Connection Setup**, and then choose the related link.
 2. On the **Dataverse Connection Setup** page, turn off the **Enabled** toggle.  
 
 ## Related information

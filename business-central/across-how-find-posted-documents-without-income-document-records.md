@@ -16,7 +16,7 @@ From the **Chart of Accounts** and **General Ledger Entries** pages, you can use
 
 ## To find posted documents without incoming document records
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.
 2. Select a line for a G/L account for whose general ledger entries you want to see posted purchase and sales documents without incoming document records, and then choose the **Posted Documents without Incoming Document** action.
 3. Alternatively, choose the **Ledger Entries** action.
 4. On the **General Ledger Entries** page, choose the **Posted Documents without Incoming Documents** action.

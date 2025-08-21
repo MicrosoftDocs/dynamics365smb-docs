@@ -32,7 +32,7 @@ After you add fixed assets to your list, the next step is to acquire them so you
 
 ### Add a fixed asset on the Fixed Asset Card page
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. On the **Depreciation Book** FastTab, fill in the fields as necessary. This step assigns a depreciation book to the fixed asset.  
 4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. To learn more, go to [To assign a depreciation book to a fixed asset](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
@@ -46,7 +46,7 @@ If you want to add numerous fixed assets, Edit in Excel is a great tool to use. 
 > [!NOTE]
 > To use the Edit in Excel action, you must have the Microsoft Dynamics Office Add-in installed. The add-in creates the connection between Excel and [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Get the Business Central Add-in for Excel](admin-deploy-excel-addin.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
 2. Choose the :::image type="content" source="media/share-icon.png" alt-text="Share this page with other users or apps icon."::: icon, and then choose **Edit in Excel**.
 3. Open the downloaded file, and enter information about the new fixed assets.
 
@@ -59,7 +59,7 @@ If you want to add numerous fixed assets, Edit in Excel is a great tool to use. 
 
 The following steps describe how to add a fixed asset from a purchase order. The steps are similar for a purchase invoice.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.
 2. Choose **New** to create a new purchase order.
 3. On the **General** FastTab, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 4. On the **Lines** FastTab, in the **Type** field, choose **Fixed Asset**.
@@ -70,7 +70,7 @@ The following steps describe how to add a fixed asset from a purchase order. The
 
 The following procedure describes how to acquire by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. To learn more, go to [Acquire a fixed asset by using a fixed asset G/L journal](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
 1. Choose the asset you want to acquire, and then choose the **Acquire** action.
 1. Follow the steps on the **Assisted Fixed Asset Acquisition** page to complete the acquisition.
 
@@ -86,7 +86,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 > [!NOTE]  
 > You can also post acquisition cost as credits. In that case, remember that the value in the **Amount** field must be with a minus sign to indicate a credit.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Asset G/L Journals**, and then choose the related link.
 2. On the **Fixed Asset G/L Journal** page, in the **FA Posting Type** field, select **Acquisition Cost**.
 3. Fill in the remaining fields as necessary.
 4. Choose the **Post** action.  
@@ -100,12 +100,12 @@ You can group your fixed assets into main assets and their components. For examp
 
 You must set up the main asset and all its components as individual fixed asset. After you set up a component list, [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **Main Assets/Component** and **Components of Main Asset** fields on the fixed assets.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that is the main asset, and then choose the **Main Asset Components** action.
 3. On the **Main Asset Components** page, choose the **FA No**. field, and then select the fixed asset that you want to add as a component of the main asset.
 4. Close the page.
 5. Repeat steps 3 and 4 for each component asset that you want to add.
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Setup**, and then choose the related link.
+6. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Asset Setup**, and then choose the related link.
 7. Turn on the **Allow Posting to Main Assets** toggle.
 
 ## To cancel an acquisition cost posting for one fixed asset
@@ -117,7 +117,7 @@ For example, if you post an acquisition with the wrong date, you must correct it
 > [!IMPORTANT]  
 > You can't use the **Reverse Transactions** action for fixed asset entries.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Ledger Entries**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Ledger Entries**, and then choose the related link.  
 2. In the **FA Ledger Entries** page, select the entry or entries that you want to cancel.  
 3. Choose the **Actions** menu, and then choose the **Cancel Entries** action.
 4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -133,7 +133,7 @@ You can post the salvage value together with the acquisition cost from a fixed a
 > [!NOTE]
 > This process might require that you personalize the Fixed Asset Journals page by adding the Salvage Value field. By default, the field is not displayed on the page. To learn more, go to [Personalize Your Workspace](ui-personalization-user.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Asset Journals**, and then choose the related link.
 2. On the **Fixed Asset Journals** page, create the acquisition line. To learn more, go to [To post a fixed asset acquisition manually with a fixed asset G/L journal](#to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal).
 3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (prefix the amount with a minus sign, for example, **-**100).
 4. Choose the **Post** action.

@@ -26,7 +26,7 @@ You assign resources to projects by creating project planning lines for the proj
 
 ## To record resource usage for a project
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Journals**, and then choose the related link.
 2. Open a relevant project journal batch, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. When the journal is complete, choose the **Post** action.
 

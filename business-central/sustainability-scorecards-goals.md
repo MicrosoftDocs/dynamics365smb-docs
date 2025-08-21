@@ -20,7 +20,7 @@ This article offers guidance on how to create scorecards and goals, and how to u
 
 To create a sustainability scorecard, follow these steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Scorecards**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Scorecards**, and then select the related link.
 2. On the **Sustainability Scorecards** page, select **New** to create a new scorecard.  
 3. Specify the **No.** and the **Name** fields on the **General** FastTab, and then add the **Owner**.
 
@@ -31,7 +31,7 @@ To create a sustainability scorecard, follow these steps:
 
 To create a new sustainability goal, follow these steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Scorecards**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Scorecards**, and then select the related link.
 2. Choose the **Goals** action to create a new sustainability goal for the scorecard.  
 3. Select **New** to start creating a goal.
 4. The **Scorecard No.** is automatically added based on the value from the sustainability scorecard, and you can't edit this field. [!INCLUDE [prod_short](includes/prod_short.md)] also fills in the **Unit of Measure** field based on the **Emission Unit of Measure Code** on the **Sustainability Setup** page.  

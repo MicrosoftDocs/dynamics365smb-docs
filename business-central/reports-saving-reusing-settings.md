@@ -24,7 +24,7 @@ If you have the proper permissions, you can view, create, and modify the saved s
 
 You manage saved settings on the **Reports Settings** page. There are two ways to open this page:
 
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Settings**, and then choose the related link.
+- [!INCLUDE[open-search](includes/open-search.md)], enter **Report Settings**, and then choose the related link.
 - In a report's request page, choose the lookup in the **Use default values from** field, and then choose the **Select from full list** action.
 
     This field is only visible if you have run the report at least once earlier. The list will only show settings that are available to you, either because they are your own settings, or because the settings are shared with you.

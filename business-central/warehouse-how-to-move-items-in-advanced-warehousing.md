@@ -41,7 +41,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 ### To move items with the warehouse movement worksheet
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Movement Worksheet**, and then choose the related link.  
 2. Fill in the fields on the worksheet lines manually, or use one of the following actions to automatically fill in the lines:
 
     * **Get Bin Content** fills in the worksheet lines with the contents of the bin or bins you specify.
@@ -58,7 +58,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 ### To register the warehouse movement
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movements**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Movements**, and then choose the related link.  
 2. Open the movement document to register.  
 3. On **Place** lines, specify where, which, and by when to move the item by choosing values in the **Zone Code**, **Bin Code**, **Qty. to Handle**, or **Due Date** fields.  
 4. On **Take** lines, in the **Qty. to Handle** field, specify the quantity of the bin content that you want to move. You can only edit this field on **Take** lines. 
@@ -76,7 +76,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 ### To create an internal pick  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Pick**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Whse. Internal Pick**, and then choose the related link.  
 2. Choose the **New** action.
 3. Fill in the **No.** field, **Location Code** field, and the **To Bin Code** field on the **General** FastTab. The **To Bin Code** field specifies the bin where you want to place the picked items. For production purposes, this bin would be the inbound production bin or the open shop bin. For other purposes, choose a bin code of a bin type that is not used for picking, most likely a staging, shipping, or special purpose bin.  
 4. Select an item in the **Item No.** field, and fill in the quantities you want to pick.  
@@ -85,7 +85,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 ### To register the warehouse pick
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Picks**, and then choose the related link.  
 
     To work on a particular pick, select the pick from the list, or filter the list to find the picks that are assigned to you.  
 2. If the **Assigned User ID** field is blank, enter your ID to identify yourself, if needed.  
@@ -99,7 +99,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 ### To create an internal put-away  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Internal Put-aways**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Internal Put-aways**, and then choose the related link.  
 2. Choose the **New** action.
 3. Fill in the **No.** and **Location Code** fields.
 4. Fill in a line for each item to move to the warehouse. The **Item No.** and the **Quantity** fields are required.
@@ -113,7 +113,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 ### To register the warehouse put away
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-aways**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Put-aways**, and then choose the related link.
 2. Open the warehouse put-away that's ready to handle.  
 3. If required, enter your user ID when you start work on a put-away.  
 
@@ -138,7 +138,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 If you must register the fact that items has been already moved to other bins without a put-away, pick, or movement, you can use the **Whse. Reclassification Journal** page to register the movement.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Reclassification Journal**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Whse. Reclassification Journal**, and then choose the related link.  
 2. Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
 3. Choose the **Register** action.  
 

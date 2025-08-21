@@ -30,7 +30,7 @@ Page customization starts from the **Profiles (Roles)** page, the administrator'
 
 ## Customize pages for a profile
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
 3. Choose the **Customize pages** action.
 

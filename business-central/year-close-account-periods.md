@@ -17,7 +17,7 @@ When a fiscal year is over, you must close the periods that comprise it.
 
 ## To close accounting periods
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
 
     If more than one fiscal year is open, the earliest one is automatically selected to be closed. A message identifies the year that will close and the results of its closing.

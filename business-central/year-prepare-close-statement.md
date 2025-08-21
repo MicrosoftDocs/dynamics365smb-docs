@@ -25,7 +25,7 @@ ms.reviewer: jswymer
 | Print a financial report to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries. |**Financial Report** |
 | Check whether customer and vendor ledger entries balance with corresponding general ledger entries. |**Reconcile Cust. and Vend. Accs** |
 
-To find a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
+To find a report, [!INCLUDE[open-search](includes/open-search-lowercase.md)], type the name as it appears in the table, and then choose the related link.
 
 ## Related information
 

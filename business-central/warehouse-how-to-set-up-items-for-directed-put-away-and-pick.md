@@ -17,7 +17,7 @@ When you set up a warehouse location for directed put-away and pick, you have ne
 
 ## To set up an item for directed put-away and pick  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Open the card for the item that you want to set up for directed put-away and pick.
 3. On the **Warehouse** FastTab of the item card, fill in the fields to define how the item should be handled in the warehouse.  
 4. Choose the **Units of Measure** action.
@@ -31,7 +31,7 @@ Directed put-away and pick gives you access to advanced warehouse configuration 
 
 To use the directed put-away and pick functionality, you must activate the functionality on the location card.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
 2. Select the location where you want to use directed put-away and pick, and then choose the **Edit** action.  
 3. On the **Warehouse** FastTab, select the **Directed Put-away and Pick** checkbox.  
 
@@ -48,7 +48,7 @@ You're now ready to set up zones, if you want. Using zones reduces the number of
 
 ## To set up a zone in your warehouse  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
 2. Select the location where you want to set up zone and open the location card, and then choose the **Zones** action.  
 3. On the **Zones** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

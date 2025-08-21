@@ -28,7 +28,7 @@ The layer structure enables you to divide the project into smaller tasks, and th
 
 You create a project card and then create project task lines and project planning lines for it.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To base the project on information from another project, choose the **Copy Project** action, fill in the fields as necessary, and then choose the **OK** button.
 
@@ -50,7 +50,7 @@ Optionally, mark actions on project as blocked using the **Blocked** field. The 
 
 A key part of creating a project is to specify the various tasks involved in the project. You specify tasks by creating one line per task on the **Tasks** FastTab on the **Project Card** page. Every project must have at least one task.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 2. Open the project card for a relevant project.
 3. On the **Tasks** FastTab, fill in the fields as necessary on a new line.
 4. To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Project Tasks** action.
@@ -101,7 +101,7 @@ A project planning line can have one of the types described in the following tab
 > [!NOTE]
 > While you enter information on project planning lines, cost information is automatically filled in. For example, the cost, price, and discount for resources and items are based on information from the resource and item.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 2. Open a relevant project card.
 3. Select a project task for which the **Project Task Type** field contains **Posting**, and then choose the **Project Planning Lines** action.  
 4. On the **Project Planning Lines** page, on a new line, fill in the fields as necessary.

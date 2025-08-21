@@ -21,9 +21,9 @@ Existing sale opportunities are available on the **Opportunity List** page. The 
 
 | To view opportunities for | Then |
 | --- | --- |
-| All salespeople and contacts |Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Opportunity List**, and then choose the related link. |
-| A specific sales person |Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
-| A specific contact |Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
+| All salespeople and contacts |[!INCLUDE[open-search](includes/open-search.md)], enter **Opportunity List**, and then choose the related link. |
+| A specific sales person |[!INCLUDE[open-search](includes/open-search.md)], enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
+| A specific contact |[!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
 
 Each of these tasks opens the **Opportunity List** page.
 
@@ -64,7 +64,7 @@ To delete closed opportunities from the **Opportunity List** page, select the op
 
 To delete closed opportunities by using the **Delete Opportunities** batch job, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Administration**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Data Administration**, and then choose the related link.
 2. Choose the **Delete Opportunities** action, and then set the filters that specify the closed opportunities to delete.
 3. Choose the **OK** button.
 

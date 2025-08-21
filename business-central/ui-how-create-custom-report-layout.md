@@ -31,7 +31,7 @@ You can also use custom report layouts to add content to email messages. Report 
 
 ## Create a custom layout
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.
 
     The **Report Layout Selection** page lists all the reports available in the company specified in the **Company Name** field at the top of the page.
 1. In the **Company Name** field, choose the company you want to create the report layout for.

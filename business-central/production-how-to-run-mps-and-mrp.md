@@ -41,7 +41,7 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
 
 ## To calculate the planning worksheet
   
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Planning Worksheets**, and then choose the related link.  
 2. Choose the **Calculate Regenerative Plan** action to open the **Calculate Plan** page.  
 3. On the **Options** FastTab, fill in the fields as described in the following table.  
 

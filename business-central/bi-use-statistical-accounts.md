@@ -29,7 +29,7 @@ There are a couple of key differences between statistical accounts and posting a
 
 ## Set up a statistical account
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Statistical Accounts**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Statistical Accounts**, then choose the related link.
 1. On the **General** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Post amounts to a statistical account
@@ -48,7 +48,7 @@ On the **Statistical Accounts** page, use the **Statistical Accounts Balance** a
 
 ## Include the statistical account in a financial report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Financial Reports**, then choose the related link.
 1. Create a new financial report in one of the following ways:
     1. To start from scratch, choose **New**. To learn more about creating financial reports, go to [Create a new financial report](bi-how-work-account-schedule.md#create-a-new-financial-report).
     1. To use settings from a similar report you already have, choose the report to copy, and then choose the **Copy Financial Report** action. You can edit the settings you copy in your new report.

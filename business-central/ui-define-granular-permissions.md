@@ -50,7 +50,7 @@ This article describes how to define, use, and apply permissions in [!INCLUDE [p
 
 When you add a system permission, your user-defined permission set is automatically updated with any changes that Microsoft makes to those permissions.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Permission Sets**, and then choose the related link.
 1. Choose the **New** action.
 1. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. Choose the **Permissions** action.
@@ -132,7 +132,7 @@ Create a new permission set by copying another. The new set includes all of the 
 
 ## Create or modify permissions by recording your actions
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Permission Sets**, and then choose the related link.
 
    Alternatively, on the **Users** page, choose the **Permission Sets** action.
 1. On the **Permission Sets** page, choose the **New** Action.
@@ -176,7 +176,7 @@ On the **Permission Sets** page, choose the **Remove Obsolete Permissions** acti
 
 Administrators can define periods of time during which specified users are able to post. Administrators can also specify if the system logs how much time users are signed in. Similarly, administrators can assign responsibility centers to users. To learn more, go to [Work with Responsibility Centers](inventory-responsibility-centers.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Setup**, and then choose the related link.
 1. On the **User Setup** page opens, choose the **New** action.
 1. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 1. Fill in the fields as necessary.
@@ -213,7 +213,7 @@ You can assign permissions sets to users in two ways:
 
 ### To assign a permission set on a user card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 1. Select the user that you want to assign permission to.
 
    Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
@@ -226,7 +226,7 @@ You can assign permissions sets to users in two ways:
 
 This method makes it easier for you to assign different permission sets to multiple users. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 1. On the **Users** page, choose the **Permission Set by User** action.
 1. If you want the permission sets to apply only to a specific company, set the **Company name** field to that company. If you want the permission set to apply to all companies, leave the **Company name** field blank. [Learn more](#control-access-to-specific-companies).
 1. On the **Permission Set by User** page, select the **[user name]** checkbox on a line for the relevant permission set to assign the set to the user.
@@ -239,7 +239,7 @@ You can view other users' effective permissions only if you're assigned to the S
 
 The **Effective Permissions** page offers additional information about the source of each permission. For example, whether the source is a security group, or a permission is inherited. The page also contains a column where administrators can review the security filters that are applied. To learn more about security filters, go to [Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 1. Open the card of the relevant user.
 1. Choose the **Effective Permissions** action.
 

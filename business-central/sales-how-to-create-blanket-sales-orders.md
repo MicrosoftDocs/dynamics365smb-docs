@@ -25,7 +25,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 
 ## To create a blanket sales order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Blanket Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.
@@ -54,7 +54,7 @@ The following applies to sales orders after they have been created from blanket 
 
 You can see the status of a blanket sales order on the **Sales Blanket Order Statistics** page. This might be relevant when you start to invoice the order that is created from the blanket sales order.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Blanket Sales Orders**, and then choose the related link.  
 2.  Select a blanket sales order, and then choose the **Statistics** action.  
 3.  On the **Sales Blanket Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket sales order lines.  
 
@@ -67,7 +67,7 @@ You can see the status of a blanket sales order on the **Sales Blanket Order Sta
 
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Blanket Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)] enter **Blanket Sales Orders**, and then choose the related link.
 2. Open the blanket sales order you want to view.
 3. To view unposted entries, select the line in question, choose the **Line** action, and then choose the **Unposted Lines** action. Choose one of the following options.  
 

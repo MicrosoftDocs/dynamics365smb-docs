@@ -25,7 +25,7 @@ Because the VAT rate change tool can't convert service contracts, these contract
 
 ## To correct an invoice for a prepaid service contract  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contract Management**, and then choose the related link.  
 2. Under **Lists**, choose **Service Contracts**.  
 3. Create a new prepaid service contract. Enter a start date of **01.01.2017** and an invoice period year for customer **20000**.  
 4. To sign the contract, choose the **Sign Contract** action.  

@@ -18,7 +18,7 @@ Fault reporting lets you establish standards for recording fault information for
 Fault codes describe the typical service item faults or the actions taken on service items. Depending on the level of fault reporting in your company, you might need to set up fault area codes and symptom codes before you set up fault codes. Fault areas describe areas of service item faults. Fault reason codes describe the reason for service item faults and, if needed, whether to exclude warranty and contract discounts. For example, you might want to exclude warranty and contract discounts if the customer was somehow responsible for the fault in the service item. You assign fault reason codes to service orders. For more information, see [Work on Service Tasks](service-how-to-work-on-service-tasks.md).  
 
 ## To specify the overall level of fault reporting
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Setup**, and then choose the related link.
 2. In the **Fault Reporting Level** field, choose one of the options described in the following table.  
 
     |**Fault Level**|**Description**|  
@@ -34,7 +34,7 @@ To complete the setup of fault reporting, you can also specify what repairs or r
 <!--this needs to go in a working with topic-->
 To be able to see the most common methods of repair for particular item faults when you are servicing the items, you need to build up information on fault/resolution codes relationships. Use the **Insert Fault/Resol. Codes Relationships** batch job to find all the combination of fault and resolution codes in posted service orders and record them on the **Fault/Resol. Codes Relationships** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insert Fault/Resol. Codes Relationships**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Insert Fault/Resol. Codes Relationships**, and then choose the related link.  
 2. Enter dates to define the period you want to include in the batch job.  
 3. To group the relationships by service item group, choose the **Relation Based on Service Item Group** check box.  
 4. To retain the records that you have already inserted manually on the **Fault/Resol. Codes Relationships** page, choose the **Retain Manually Inserted Rec.** check box.  

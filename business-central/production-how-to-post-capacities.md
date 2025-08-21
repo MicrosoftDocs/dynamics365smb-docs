@@ -17,7 +17,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 
 ## To post capacities  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Capacity Journals**, and then choose the related link.  
 2. Fill in the **Posting Date** and **Document No.** fields.  
 3. In the **Type** field, enter the type of the capacity, either **Machine Center** or **Work Center**, that you are posting.  
 4. In the **No.** field, enter the number of the machine center or work center.  
@@ -29,7 +29,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 ## To view work center ledger entries  
 
 In the **Work Center Card** and **Machine Center Card** pages, you can view the posted capacities as a result of finished production orders.    
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Work Centers**, and then choose the related link.  
 2. Open the relevant **Work Center** card from the list, and then choose the **Capacity Ledger Entries** action.  
 
     The **Capacity Ledger Entries** page displays the posted entries from the work center in the order they were posted.   

@@ -19,7 +19,7 @@ To help you get ready for doing business, you can visit the **Assisted Setup** p
 
 Alternatively, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
 
-You can also find the list of assisted setup guides if you choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+You can also find the list of assisted setup guides if you [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Assisted Setup**, and then choose the related link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

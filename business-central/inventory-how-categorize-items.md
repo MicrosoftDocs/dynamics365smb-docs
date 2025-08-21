@@ -22,7 +22,7 @@ To find items by characteristics, you can assign item attributes to items and al
 > [!Video https://learn-video.azurefd.net/vod/player?id=4c02e1d8-7569-4eb4-94cf-105899787978]
 
 ## To create an item category
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Categories**, and then choose the related link.
 2. On the **Item Categories** page, choose the **New** action.
 3. On the **Item Category Card** page, on the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. On the **Attributes** FastTab, specify any item attributes for the item category. For more information, see [To assign item attributes to item categories](inventory-how-work-item-attributes.md#assign-item-attributes-to-item-categories).
@@ -37,7 +37,7 @@ If you change your mind about an item category, you can delete it. However, if t
 
 ## To assign an item category to an item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. Open the card for the item that you want to assign to an item category.
 3. Choose the lookup button in the **Item Category Code** field and select an existing item category. Alternatively, choose the **New** action to first create a new item category as explained in [To create an item category](inventory-how-categorize-items.md#to-create-an-item-category).
 

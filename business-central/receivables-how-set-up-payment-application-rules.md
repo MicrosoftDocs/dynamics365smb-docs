@@ -30,7 +30,7 @@ In addition to the matching criteria, the following applies concerning the sign 
 - For positive amounts, a match is made first against open entries representing vendor invoices and then against customer credit memos.
 
 ## To set up a payment application rule
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Application Rules**, and then choose the related link.
 2. Define a new or edited payment application rule by filling the fields on a line as described in the following table.
 
 |Field|Description|

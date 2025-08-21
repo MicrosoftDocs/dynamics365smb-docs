@@ -24,7 +24,7 @@ In most cases, you send sales quotes to prospective customers. You often have a 
 
 ## To create a sales quote
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Quotes**, and then choose the related link.
 2. Specify the contact or customer that you want to send the sales quote to.
 
     - If the sales quote is for an existing contact, then specify the name in the **Contact No.** field.  

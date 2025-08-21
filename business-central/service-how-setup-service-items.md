@@ -22,7 +22,7 @@ You can set up groups of items that are related in terms of repair and maintenan
 
 You assign service item groups to items on the **Item** card, and to service items on the **Service Item** card.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Item Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Item Groups**, and then choose the related link.  
 2. Create a new service item group.  
 3. Fill in the **Code** and **Description** fields.  
 4. In the **Default Contract Discount %** field, enter the default contract discount percentage that you want the service items in the group to have.  
@@ -33,7 +33,7 @@ You assign service item groups to items on the **Item** card, and to service ite
 ## To set up service item components
 A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up on the **Service Item Component List** page. Additionally, if you want to set up components for service items that are BOMs, you can copy the BOM items and create them as service item components.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.
 2. Open the service item for which you want to set up components.  
 3. Choose the **Components** action. The **Service Item Component List** page opens.  
 4. Add a new component.  
@@ -41,7 +41,7 @@ A service item can consist of several components, which can be replaced with spa
 6. In the **No.** field, choose the item or service item that is a component of the service item.  
 
 ## To set up service item components from a BOM
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.  
 2. Open the service item for which you want to set up components from a BOM.  
 3. Choose the **Components** action. The **Service Item Component List** page opens.  
 4. Choose the **Copy from BOM** action.  
@@ -51,7 +51,7 @@ A service item can consist of several components, which can be replaced with spa
 ## To set up a service shelf
 You can set up service shelves that identify where you store your service items. You assign service shelves to service items on the **Service Order** and **Service Item Worksheet** pages.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Shelves**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Shelves**, and then choose the related link.
 2. Fill in the fields as necessary.
 
 ## Related information

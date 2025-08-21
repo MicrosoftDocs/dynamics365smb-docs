@@ -29,7 +29,7 @@ The following table describes where you can find information about the different
 |Define reports for value-added tax (VAT) reporting (Germany)|[Set Up Reports for VAT and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Your [!INCLUDE [prod_short](includes/prod_short.md)] can include additional **Report Selection** pages, depending on your location and industry, for example. To check your setup, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selection**, then choose the relevant link.
+> Your [!INCLUDE [prod_short](includes/prod_short.md)] can include additional **Report Selection** pages, depending on your location and industry, for example. To check your setup, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Report Selection**, then choose the relevant link.
 
 The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes the following **Report Selection** pages:
 

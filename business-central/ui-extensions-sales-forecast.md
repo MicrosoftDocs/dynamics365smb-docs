@@ -51,7 +51,7 @@ Before is uses the web service, [!INCLUDE[prod_short](includes/prod_short.md)] c
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you must create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
 2. Expand the **General** FastTab, and then fill in the API URL and API key fields.
 
 > [!NOTE]

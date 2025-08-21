@@ -18,7 +18,7 @@ When you add a new item, to save time, you can use the **Copy Item** function to
 
 ## To copy an existing item to a new item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Select the item that you want to copy, and then choose the **Copy Item** action.  
 
     If you cannot find the **Copy Item** action, choose to view more options, and then find it under **Actions**, **Functions**.  

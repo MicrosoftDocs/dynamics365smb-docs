@@ -23,7 +23,7 @@ Before you can use the **Incoming Documents** feature, you must perform the requ
 
 If you have set up the **Incoming Documents** feature to require approval to create documents, users with the appropriate rights must approve the records before they're processed. For more information, see [Set up approvers of incoming document records](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Incoming Documents**, and then choose the related link.
 2. Select the line with the document that you want to approve or reject, and then choose the **Approve** or **Reject** actions.
 
 If you approve the incoming document record, the **Released** check box on the incoming document line is selected. The user in charge of creating, for example, purchase invoices can proceed to process the record.
@@ -34,7 +34,7 @@ If you approve the incoming document record, the **Released** check box on the i
 > The following procedure only applies to the [!INCLUDE[prod_short](includes/prod_short.md)] tablet and phone clients.
 
 1. On the role center, choose the **Create Incoming Document from Camera** tile, and then go to step 4.
-2. Alternatively, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+2. Alternatively, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Incoming Documents**, and then choose the related link.
 3. On the **Incoming Documents** page, choose **New**, and then choose **Create from Camera**. The camera on the tablet or phone is activated.
 4. Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **Use** button.
 
@@ -45,7 +45,7 @@ If you approve the incoming document record, the **Released** check box on the i
 > [!NOTE]  
 > The following procedure only applies to the [!INCLUDE[prod_short](includes/prod_short.md)] tablet and phone clients.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Incoming Documents**, and then choose the related link.
 2. Open the card for an existing incoming document record.
 3. On the document record page, choose **Process**, and then choose **Attach Image from Camera**. The camera on the tablet or phone is activated.
 4. Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **Use** button.
@@ -54,7 +54,7 @@ If you approve the incoming document record, the **Released** check box on the i
 
 ## Create an incoming document record manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Incoming Documents**, and then choose the related link.
 2. Choose **New**, and then the **Create from File** action.  
 3. On the **Insert File** page, do one the following steps attach a file that represents the incoming document:
 

@@ -42,7 +42,7 @@ This video shows how to handle an extra shipping cost as part of inventory costi
 
 You use item charge numbers to distinguish between the different kinds of item charges.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Charges**, and then choose the related link.
 2. On the **Item Charges** page, choose the **New** action to create a new line.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -50,7 +50,7 @@ You use item charge numbers to distinguish between the different kinds of item c
 
 If you know the item charge when you post a purchase invoice for the item, follow this procedure.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.
 2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.

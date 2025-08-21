@@ -45,7 +45,7 @@ The following procedures are based on setting up basic warehouse activities arou
 
 ## To enable inventory documents for internal operation activities
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
 2. Open the location card you want to set up.  
 3. On the **Warehouse** FastTab, select **Inventory Put-Away** in the **Prod. Output Whse. Handling** field to indicate that when someone releases an internal source document with a bin code, an inventory put-away or movement document can be created.  
 4. To require that an inventory pick or an inventory movement document when you create an outbound or internal source document with a bin code, fill in the following fields:
@@ -55,7 +55,7 @@ The following procedures are based on setting up basic warehouse activities arou
 
 ## To define a default bin structure in the production area
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.  
 3. On the **Bins** FastTab, in the **Open Shop Floor Bin Code** field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin. Items that are placed in this bin are typically set up for automatic posting, or flushing. This setup means that the **Flushing Method** field contains **Forward**, **Backward**, or **Manual**.  
 
@@ -85,14 +85,14 @@ To learn more, go to [Assembly Management](assembly-assemble-items.md).
 
 ### To set up that an inventory movement is automatically created when the inventory pick for the assembly item is created
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Assembly Setup**, and then choose the related link.
 2. Select the **Create Movements Automatically** checkbox.
 
 ### To set up the bin in the assembly area where components are placed by default before they can be consumed in assembly
 
 The value in this field is automatically inserted in the **Bin Code** field on assembly order lines when this location is entered in the **Location Code** field on the assembly order line.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.
 3. Fill in the **To-Assembly Bin Code** field.
 
@@ -105,7 +105,7 @@ Bin codes that are set up on location cards define a default warehouse flow for 
 > [!NOTE]
 > This setup is only possible for locations where the **Bin Mandatory** field is selected.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.
 3. Fill in the **From-Assembly Bin Code** field.
 
@@ -127,7 +127,7 @@ If the **Asm.-to-Order Shpt. Bin Code** is blank, then the **From-Assembly Bin C
 
 The same bin code is in turn copied to the **Bin Code** field on the inventory pick line that manages the shipment of the assemble-to-order quantity. To learn more, go to [Handling assemble-to-order items with inventory picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.
 3. Fill in the **Asm.-to-Order Shpt. Bin Code** field.
 
@@ -144,7 +144,7 @@ Making a bin dedicated provides similar functionality to using bin types, which 
 > [!CAUTION]
 > Items in dedicated bins are not protected when they are picked and consumed as production components with the Inventory Pick page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link. Select the location that you want to update.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link. Select the location that you want to update.  
 2. Choose the **Bins** action.  
 3. Select the **Dedicated** field for each bin that you want to use exclusively for certain internal operations and where you want quantities to be reserved for that internal operation once placed there.  
 

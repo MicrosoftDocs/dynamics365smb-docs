@@ -20,7 +20,7 @@ When you have set up a salesperson on the **Salespeople** page, you can select i
 
 ## To set up a salesperson code
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Salespeople**, and then choose the related link.
 2. On the **Salespeople** page, choose the **New** action.
 
 You can use salespeople in various relationship management and marketing work. For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to. For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).

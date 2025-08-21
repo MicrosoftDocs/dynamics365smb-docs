@@ -21,7 +21,7 @@ The following procedure explains how to specify an external document number on a
 
 ## To enter external document numbers in a sales order  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Select the relevant sales order, and then choose the **Edit** action.  
 3. On the **General** FastTab, in the **External Document No.** field, enter the invoice number.  
 

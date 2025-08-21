@@ -18,7 +18,7 @@ The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_shor
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Checklist Administration**, and choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Checklist Administration**, and choose the related link.  
 
 3. Choose the **New** action, and then choose **Create checklist item**.  
 

@@ -45,7 +45,7 @@ Learn more at [Design Details: Inventory Costing](design-details-inventory-costi
 
 ## To create a purchase credit memo from a posted purchase invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Purchase Invoices**, and then choose the related link.  
 2. On the **Posted Purchase Invoices** page, select the posted purchase invoice that you want to reverse, and then choose the **Create Corrective Credit Memo** action.
 
     Most fields on the purchase credit memo header are filled with the information from the posted purchase invoice. You can edit all the fields, for example with new information that reflects the return agreement.
@@ -64,7 +64,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 
 ## To create a purchase credit memo by copying a posted purchase invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memos**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty purchase credit memo.
 3. In the **Vendor** field, enter the name of an existing vendor.
 4. Choose the **Copy from Document** action.
@@ -76,7 +76,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 
 ## To create a purchase return order based on one or more posted purchase documents
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Return Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Return Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields on the **General** FastTab as necessary.
 4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:
@@ -139,7 +139,7 @@ If you receive items that what you want, for example, the items are damaged, the
 
 You can post this reduced purchase cost as an item charge on a credit memo or return order and link it to the posted receipt. The following steps describe it for a purchase return order, but the same steps apply to a purchase credit memo.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memos**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty purchase credit memo.  
 3. Fill in the credit memo header with information about the vendor who sent you the purchase allowance.  
 4. On the **Lines** FastTab, in the **Type** field, select **Charge (Item)**.  
@@ -165,7 +165,7 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 > [!NOTE]  
 > The following procedure assumes that there are several purchase return orders for the vendor, and that they're posted as shipped.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memos**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Credit Memos**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **General** FastTab, fill in the fields as necessary.  
 4. Choose the **Get Return Shipment Lines** action.  
@@ -176,7 +176,7 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 
 ### To remove open purchase return orders after combined return shipment posting  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Return Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Delete Invoiced Purchase Return Orders**, and then choose the related link.  
 2. Fill in the fields as necessary, and then choose the **OK** button.  
 3. Alternatively, delete the individual purchase return orders manually.
 

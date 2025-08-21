@@ -24,7 +24,7 @@ You set up carbon credits in [!INCLUDE[prod_short](includes/prod_short.md)] as i
 
 To set up an item as a carbon credit, follow these steps:
   
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then select the related link.
 2. Create a new item. To learn more about how to create an item, go to [Register new items](inventory-how-register-new-items.md).
 3. On the **Sustainability** FastTab, turn on the **GHG Credit** toggle.
 4. In the **Carbon Credit Per UOM** field, enter the value of the carbon credit.

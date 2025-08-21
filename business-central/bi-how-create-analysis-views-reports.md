@@ -63,7 +63,7 @@ The following procedure is based on sales analysis views. The steps are similar 
 
 An analysis column template contains a set of lines, each representing an analysis column you want in the analysis report. To define a column, you must assign an analysis type code to a line. This analysis type code determines the type of source data in the item ledger entries that the analysis will be based on. Source data can include cost, sales amount, or quantity, and their associated value entries. You can set up as many column templates as you like, then use them to create new analysis reports.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Column Templates**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Column Templates**, then choose the related link.  
 2. Select the first empty line and fill in the fields as necessary.
 3. Choose the **Columns** action.  
 4. On the **Analysis Columns** page, fill the fields in to specify the columns you want in your analysis report.  
@@ -80,7 +80,7 @@ The following procedure is based on analysis reports for sales. The steps are si
 
 An analysis line template contains a set of lines, each representing an analysis line you want in the analysis report. A line can specify one or a range of items, customers, vendors, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, then use them to create new analysis reports.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Line Templates**, then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Lines** action.  
 4. On the **Analysis Lines** page, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
@@ -94,7 +94,7 @@ The following procedure is based on analysis reports for sales. The steps are si
 
 With analysis reports you can analyze the dynamics of your sales according to key sales performance indicators, such as sales turnover in both amounts and quantities, contribution margin, or progress of actual sales against the budget. You can also use analysis reports to analyze your average sales prices and evaluate the sales performance of your sales force.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Analysis Reports**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Analysis Reports**, then choose the related link.  
 2. On the **Analysis Report Sale** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Edit Analysis Report** action.

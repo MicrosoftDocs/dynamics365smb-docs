@@ -71,7 +71,7 @@ You can choose not to receive warnings when the customer's credit limit is excee
 
 ### To specify credit limit warnings
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales & Receivables Setup**, then choose the related link.
 
 2. On the **General** FastTab, in the **Credit Warnings** field, choose the relevant option as described in the following table:
 

@@ -61,7 +61,7 @@ The **Order Planning** page can be accessed from several different locations:
 
 ### To use the Order Planning page  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Order Planning**, and then choose the related link.  
 
      When the **Order Planning** page first opens, a plan must be calculated to show the new demand since it was last calculated.  
 
@@ -219,7 +219,7 @@ The **Order Planning** page can be accessed from several different locations:
 
      The message indicates that all required items are now supplied. Verify the firm planned production orders that are created.  
 
-13. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+13. [!INCLUDE[open-search](includes/open-search.md)], enter **Firm Planned Prod. Orders**, and then choose the related link.  
 
      On the **Firm Planned Prod. Orders** page review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
 

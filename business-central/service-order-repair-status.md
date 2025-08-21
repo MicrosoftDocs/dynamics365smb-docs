@@ -23,7 +23,7 @@ Before you can set up a repair status, you must set up service status priorities
 
 ## To set up service status priorities
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order Status**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Order Status**, and then choose the related link.  
 2. Select the service order status you want to set a priority for.  
 3. In the **Priority** field, choose the priority you want for this service order status.  
 
@@ -31,7 +31,7 @@ Repeat steps 2 and 3 until you have set the priority for each of the four status
 
 ## To set up a repair status
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Repair Status**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Repair Status**, and then choose the related link.
 2. Create a new repair status.  
 3. Fill in the **Code** and **Description** fields.  
 4. In the **Service Order Status** field, choose the order status to link the repair status to. The **Priority** field displays the priority of the service order status you have chosen.  

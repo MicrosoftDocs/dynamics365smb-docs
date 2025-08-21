@@ -22,7 +22,7 @@ If you have a large number of service orders, you can save time by using a batch
 
 ## To post a service order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Orders**, and then choose the related link.  
 2. Open the service order.  
 3. On the **Service Order** page, choose one of the following actions.  
 
@@ -48,7 +48,7 @@ When you post the order, [!INCLUDE [prod_short](includes/prod_short.md)] creates
 
 ## To batch post service orders
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Orders**, and then choose the related link.  
 2. Choose the **Post Batch** action.  
 3. You can set a filter to select specific service order numbers or an interval of order numbers for the batch job to process.  
 4. Choose **OK** to start the batch job.  
@@ -57,7 +57,7 @@ When you post the order, [!INCLUDE [prod_short](includes/prod_short.md)] creates
 
 After you create a service credit memo, you can post it when you're ready. If there are errors or a lack of information on the credit memo while posting, an error message displays and stops the process.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Credit Memos**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Credit Memos**, and then choose the related link.  
 2. Create a new service credit memo. Choose the **New** action.  
 3. Fill in the necessary fields.  
 4. Choose the **Post** action. If you want to print the credit memo at the same time as your post, choose the **Post and Print** action instead.  
@@ -71,7 +71,7 @@ After you create a service credit memo, you can post it when you're ready. If th
 
 The following procedure describes how to post the items, resource hours, and costs used for a specific service operation for which you won't charge your customer. You can post consumed items, hours, or costs only for a posted shipment that has no posted invoices or consumption.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Orders**, and then choose the related link.  
 2. Open the service order to post consumption for.  
 3. Choose the service item. Choose the **Service Lines** action.  
 4. Find the required entries, and specify the quantities for which you'll post consumption in the **Qty. to Consume** field. The quantity can't be larger than the quantity already shipped and the quantity remaining but not invoiced after partial invoicing of this shipment.  
@@ -89,7 +89,7 @@ After you specify the details of a service, you can adjust and post the quantiti
 
 The following procedure shows how to post shipment of service line items in locations that aren't set up to require warehouse handling.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Order**, and then choose the related link.
 2. Open the service order, and then choose the **Service Lines** action.  
 3. On the **Service Lines** page, find the required entries and then specify the quantity to post in the **Qty. to Ship** field.  
 
@@ -110,7 +110,7 @@ If needed, you can gather posted shipments that you haven't invoiced in a single
 
 You can cancel the consumption on the service orders. For example, because it was posted by mistake.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Shipments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Service Shipments**, and then choose the related link.  
 2. Open the posted service shipment for which the erroneous consumption was posted.  
 3. Choose the **Service Shipment Lines** action.  
 4. Choose the lines that contain the incorrect consumption, and then choose the **Undo Consumption** action.  
@@ -129,7 +129,7 @@ If you have to work on a service order for a considerable time without posting i
 
 The following procedure describes shipment posting directly from a service order in locations without warehouse handling set up. If the location is set up to require warehouse handling, then shipment posting happens in a different warehouse document, depending on the location setup.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Orders**, and then choose the related link.  
 2. Open the service order, and then choose the **Service Lines** action.  
 3. On the lines you're going to post, fill in the **Qty. to Ship**, **Qty. to Invoice**, and **Qty. to Consume** fields, depending on how you post the lines.  
 4. Choose the **Post** action.

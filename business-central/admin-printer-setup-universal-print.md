@@ -120,7 +120,7 @@ Adding printers individually let's you set up the same Universal Print printer i
 > Are you using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises? If so, go to the [next section](#add-printers-in-business-central-on-premises), the first time setup is slightly different.  
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Printer Management**, then select the related link.
 2. Select **Universal Print**, then choose one of the following options:
 
    - **Add all Universal Print printers** to add all printers not already added. You can use this option even if there are already printers added.
@@ -153,7 +153,7 @@ This is typically done the first time they connect to the Azure registered app u
 
 Complete these steps to connect to the Universal Print service for the first-time.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Printer Management**, then select the related link.
 2. Select **Universal Print** > **Add all Universal Print printers** to start the **Add Universal Print Printers** assisted setup guide (wizard).
 3. Follow the on-screen instructions until you get to the **MICROSOFT ENTRA SERVICE PERMISSIONS** page.
 

@@ -50,13 +50,13 @@ Transfer routes define how inventory items move between different locations, suc
 
 |Field|Example|
 |-|-|
-|Transfer-from location|NORTH|
-|Transfer-to location|SOUTH|
-|In-transit location (optional but useful for tracking)|EAST|
-|Shipping agent|Own logistics|
-|Shipping agent service|Next day delivery|
+|Transfer-from location|WEST|
+|Transfer-to location|EAST|
+|In-transit location (optional but useful for tracking)|OUT. LOG. (outsourced logistics)|
+|Shipping agent|DHL|
+|Shipping agent service|Overnight delivery|
 
-Once a route is set up, it can be used to automatically populate relevant fields in transfer orders. For example, suppose you set up a transfer route based on the examples in the table above. When you create a transfer order from NORTH to SOUTH, the EAST is automatically set as the in-transit location, along with shipping agent and service.
+Once a route is set up, it can be used to automatically populate relevant fields in transfer orders. For example, suppose you set up a transfer route based on the examples in the table above. When you create a transfer order from WEST to EAST, the OUT. LOG. is automatically set as the in-transit location, DHL as the shipping agent, and Overnight delivery as the service.
 
 Before you create a transfer route, [set up the locations](#set-up-a-location) you want in the routes. To create a transfer route, follow these steps:
 

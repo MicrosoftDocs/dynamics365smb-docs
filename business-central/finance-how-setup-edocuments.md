@@ -35,8 +35,12 @@ To set up an e-document service, follow these steps.
     | Description | Enter a brief description of the electronic export setup. |
     | Document Format | The export format of the electronic export setup. By default, there are two options in this field. You can select **PEPPOL BIS 3** as a generic code-based format or **Data Exchange** when you must set up predocuments of specific formats on the **Data Exchange Definition** FastTab.</p> |
     | Service Integration | Select the integration code for the electronic export setup. Currently, the only option is **No integration**. |
+    | Is a Clearance | Select this field only if your country uses a Clearance e-invoicing model. When selected, this E-Document Service will send your invoice only to the tax authorities for clearance. You must then configure an additional service to deliver the cleared invoice to the customer, along with a workflow that supports both the clearance and delivery steps. |
 
-3. On the **Importing** FastTab, configure the fields as described in the following table.
+    > [!NOTE]
+    > You cannot use the clearance model until you choose a dedicated Service Integration.
+
+4. On the **Importing** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
@@ -56,7 +60,7 @@ To set up an e-document service, follow these steps.
     | Batch Start Time | Specify the start time for import jobs. |
     | Minutes between runs | Specify the number of minutes between import job runs. |
 
-4. If you selected **Data Exchange** in the **Document Format** field on the **General** FastTab, on the **Data Exchange Definition** FastTab, fill in the fields as described in the following table.
+5. If you selected **Data Exchange** in the **Document Format** field on the **General** FastTab, on the **Data Exchange Definition** FastTab, fill in the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|

@@ -38,7 +38,7 @@ Choose the **Zones** or **Bins** actions to view information about zones and bin
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
 
 > [!NOTE]  
-> Many fields on the Location Card page are related to the handling of items in inbound and outbound warehouse processes. These fields are not relevant for companies that do not require complex warehouse functionality. To learn more, go to [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
+> Many fields on the Location Card page are related to the handling of items in inbound and outbound warehouse processes. These fields aren't relevant for companies that don't require complex warehouse functionality. To learn more, go to [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 You can change the configuration of a location as long as it doesn't have item ledger entries.  
 
@@ -52,16 +52,16 @@ Transfer routes define how inventory items move between different locations, suc
 |-|-|
 |Transfer-from location|WEST|
 |Transfer-to location|EAST|
-|In-transit location (optional but useful for tracking)|OUT. LOG. (outsourced logistics)|
+|In-transit location (optional but useful for tracking)|OUT. LOG. (Outsourced logistics)|
 |Shipping agent|DHL|
 |Shipping agent service|Overnight delivery|
 
-Once a route is set up, it can be used to automatically populate relevant fields in transfer orders. For example, suppose you set up a transfer route based on the examples in the table above. When you create a transfer order from WEST to EAST, the OUT. LOG. is automatically set as the in-transit location, DHL as the shipping agent, and Overnight delivery as the service.
+Once a route is set up, it can be used to automatically populate relevant fields in transfer orders. For example, suppose you set up a transfer route based on the examples in the table. When you create a transfer order from WEST to EAST, OUT. LOG. is automatically set as the in-transit location, DHL as the shipping agent, and Overnight delivery as the service.
 
 Before you create a transfer route, [set up the locations](#set-up-a-location) you want in the routes. To create a transfer route, follow these steps:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer Routes**, and then choose the related link.
-1. In **Transfer Routes Matrix**, transfer-from locations are listed on the left, and transfer-to locations are listed across the top. In the transfer-from location row for the route, select the cell on the transfer-to location you want for the routes.
+1. On the **Transfer Routes** page, the **Transfer Routes Matrix** section lists transfer-from locations in the leftmost column and transfer-to locations in the uppermost row. To define a transfer route, select the cell at the intersection of the transfer-from and transfer-to locations for the route.
 
    :::image type="content" source="media/transfer-routes-matrix.png"  alt-text="Transfer routes matrix showing transfer-from locations on the left and transfer-to locations on the top.":::
 

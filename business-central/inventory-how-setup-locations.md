@@ -30,7 +30,7 @@ Some option fields depend on settings in the **Location Card** page to restrict 
 
 Choose the **Zones** or **Bins** actions to view information about zones and bins that are defined for the location.
 
-### To set up a location
+### Set up a location
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
@@ -44,11 +44,28 @@ You can change the configuration of a location as long as it doesn't have item l
 
 If you have multiple locations, you can define transfer routes between locations. To learn more about transfer routes, go to [To create a transfer route](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### To create a transfer route
+### Create a transfer route
+
+Transfer routes define how inventory items move between different locations, such as warehouses or stores. These routes are essential for managing logistics, tracking items in transit, and ensuring accurate inventory records. A transfer route typically includes:
+
+|Field|Example|
+|-|-|
+|Transfer-from location|NORTH|
+|Transfer-to location|SOUTH|
+|In-transit location (optional but useful for tracking)|EAST|
+|Shipping agent|Own logistics|
+|Shipping agent service|Next day delivery|
+
+Once a route is set up, it can be used to automatically populate relevant fields in transfer orders. For example, suppose you set up a transfer route based on the examples in the table above. When you create a transfer order from NORTH to SOUTH, the EAST is automatically set as the in-transit location, along with shipping agent and service.
+
+Before you create a transfer route, [set up the locations](#set-up-a-location) you want in the routes. To create a transfer route, follow these steps:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer Routes**, and then choose the related link.
-2. Choose the **New** action.
-4. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. In **Transfer Routes Matrix**, transfer-from locations are listed on the left, and transfer-to locations are listed across the top. In the transfer-from location row for the route, select the cell on the transfer-to location you want for the routes.
+
+   :::image type="content" source="../media/ui-search/search_small.png"  alt-text="Transfer routes matrix showing transfer-from locations on the left and transfer-to locations on the top.":::
+
+1. On the **Trans. Route Spec.** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 You can now transfer inventory items between two locations. To learn more about transfers, go to [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
 

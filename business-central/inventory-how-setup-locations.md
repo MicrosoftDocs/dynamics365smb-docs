@@ -63,7 +63,7 @@ Before you create a transfer route, [set up the locations](#set-up-a-location) y
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer Routes**, and then choose the related link.
 1. In **Transfer Routes Matrix**, transfer-from locations are listed on the left, and transfer-to locations are listed across the top. In the transfer-from location row for the route, select the cell on the transfer-to location you want for the routes.
 
-   :::image type="content" source="../media/ui-search/search_small.png"  alt-text="Transfer routes matrix showing transfer-from locations on the left and transfer-to locations on the top.":::
+   :::image type="content" source="../media/transfer-routes-matrix.png"  alt-text="Transfer routes matrix showing transfer-from locations on the left and transfer-to locations on the top.":::
 
 1. On the **Trans. Route Spec.** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

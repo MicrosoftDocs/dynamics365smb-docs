@@ -42,7 +42,7 @@ Choose the **Zones** or **Bins** actions to view information about zones and bin
 
 You can change the configuration of a location as long as it doesn't have item ledger entries.  
 
-If you have multiple locations, you can define transfer routes between locations. To learn more about transfer routes, go to [To create a transfer route](inventory-how-setup-locations.md#to-create-a-transfer-route).
+If you have multiple locations, you can define transfer routes between locations. To learn more about transfer routes, go to [To create a transfer route](inventory-how-setup-locations.md#create-a-transfer-route).
 
 ### Create a transfer route
 

@@ -11,7 +11,6 @@ ms.search.keywords: bi, analysis, KPI, account schedule, financial report, Balan
 ms.search.form: 118, Report_151, Report_154, Report_155, Report_156, 
 ms.service: dynamics-365-business-central
 ---
-
 # Report selection for built-in finance reports
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides built-in finance reports for Balance Sheet, Income Statement, Cash Flow, and Retained Earnings. These reports all use the **Financial Reporting** feature for defining the data and the layouts used. You can replace the standard layouts provided in [!INCLUDE[prod_short](includes/prod_short.md)] with your own.

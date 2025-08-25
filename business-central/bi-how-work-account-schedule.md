@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Prepare financial reporting with financial data and account categories
 
-The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the Cash Flow chart, and the Income Statement and Balance Sheet reports. You access these two reports, for example, with the **Financial Statements** action in the Business Manager and Accountant home pages.  
+The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the Cash Flow chart, and the built-in Income Statement and Balance Sheet reports. You access these two reports, for example, with the **Financial Statements** action in the Business Manager and Accountant home pages.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away as templates. You can also set up your own reports to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of financial reports you can create is unlimited and require no involvement of a developer.  
 
@@ -30,6 +30,12 @@ G/L account categories simplify your financial report definitions and make them 
 Setting up dimensions allows you to slice and dice your financial data in ways that make sense for your organization. Learn more at [Work with Dimensions](finance-dimensions.md).
 
 If you want to view general ledger entries as percentages of budget entries, you must create G/L budgets. Learn more at [Create G/L Budgets](finance-how-create-budgets.md).
+
+# Report selection for built-in finance reports
+
+[!INCLUDE[prod_short](includes/prod_short.md)] provides built-in finance reports for Balance Sheet, Income Statement, Cash Flow, and Retained Earnings. These reports all use the **Financial Reporting** feature for defining the data and the layouts used. You can replace the standard layouts provided in [!INCLUDE[prod_short](includes/prod_short.md)] with your own.
+
+Learn more at [Report selection for finance reports](finance-financial-reporting-report-selection.md).
 
 ## Financial reports
 
@@ -198,6 +204,7 @@ To learn more, go to [How to print and save financial reports](./finance-financi
 
 ## Related information
 
+[Report selection for finance reports](finance-financial-reporting-report-selection.md)   
 [View a financial report](finance-financial-reporting-view-a-report.md)  
 [Row definitions in financial reporting](bi-row-definitions.md)  
 [Column definitions in financial reporting](bi-column-definitions.md)  

@@ -61,6 +61,10 @@ For example, on the **Report Selection - Sales** and **Report Selection - Purcha
 |**Email Body Layout Description**|Specify the email body layout to use. Typically, it's a custom report layout. |
 |**Report Layout**|Specify the layout to use for the report. Typically, it's a custom report layout. |
 
+## Report selection for finance reports
+
+Similar to document reports, the core finance reports such as Balance Sheet, Income Statement, and Retained Earnings can also be configured with which financial report definition should be used for them. To learn more, go to [Report selection for finance reports](finance-financial-reporting-report-selection.md).
+
 ## Related information
 
 [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
@@ -69,15 +73,7 @@ For example, on the **Report Selection - Sales** and **Report Selection - Purcha
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
-[Financial Reports and Analytics in Business Central](finance-reports.md)  
-[Accounts Receivable Reports and Analytics in Business Central](receivables-reports.md)  
-[Accounts Payable Reports and Analytics in Business Central](payables-reports.md)  
-[Fixed Assets Reports and Analytics in Business Central](fa-reports.md)  
-[Project Reports and Analytics in Business Central](project-reports.md)  
-[Sales Reports and Analytics in Business Central](sales-reports.md)  
-[Purchase Reports and Analytics in Business Central](purchase-reports.md)  
-[Inventory and Warehouse Reports and Analytics in Business Central](inventory-WMS-reports.md)  
-[Assembly Reports and Analytics in Business Central](assembly-reports.md)  
-[Production Reports and Analytics in Business Central](production-reports.md)  
+[Report selection for finance reports](finance-financial-reporting-report-selection.md)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

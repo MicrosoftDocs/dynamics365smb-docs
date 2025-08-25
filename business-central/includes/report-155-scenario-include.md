@@ -1,0 +1,1 @@
+Get an Statement of Cashflows showing an overview of Operating Activities, Investing Activities, and Financing Activities gathered in a single cashflow report.

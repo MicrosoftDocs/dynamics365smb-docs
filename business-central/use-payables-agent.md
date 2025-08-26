@@ -125,7 +125,9 @@ To complete the review and elevate the draft to a purchase invoice document, cho
 
 ## Give instructions to the agent
 
+When ere are steps where the agent asks for user intervention. That could be because it needs assistance, something needs reviewing, etc. In these cases the user can oftentimes help the agent by going into Business Central and making the necessary changes themselves, like making an item available, creating the right customer/contact/vendor, changing quantities in sales quotes, etc.
 
+With this new feature, we make it easier to work with the agents' assistance requests by simply telling the agent what to do through these (currently called) "additional instructions". The users can write short instructions to the agent in natural language, or pick one of the predefined context-aware suggestions for instructions, and very quickly proceed with the task, allowing the agent to resolve the issue itself.
 
 ## Stop a task
 

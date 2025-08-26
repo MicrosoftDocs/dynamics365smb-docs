@@ -1,2 +1,2 @@
 > [!TIP]
-> This reports use the **Financial Reporting** feature for defining the data and the layouts used. You can replace the standard layouts provided in [!INCLUDE[prod_short](prod_short.md)] with your own. To learn more, go to [Report selection for finance reports](../finance-financial-reporting-report-selection.md)
+> This report uses the **Financial Reporting** feature to define its data and layouts. You can replace the standard layouts provided in [!INCLUDE[prod_short](prod_short.md)] with your own. To learn more, go to [Report selection for finance reports](../finance-financial-reporting-report-selection.md)

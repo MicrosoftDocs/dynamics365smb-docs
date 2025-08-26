@@ -143,7 +143,7 @@ If you aren't using Microsoft Entra ID to manage identities and access, you need
 
 ## To stop logging email
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Logging**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Email Logging**, and then choose the related link.
 2. Turn off the **Enabled** toggle.
 
 ## To change the user account used for email logging
@@ -151,13 +151,13 @@ If you aren't using Microsoft Entra ID to manage identities and access, you need
 ### [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] with the account that the scheduled job uses to connect to the shared mailbox and process emails. This account must have access to both [!INCLUDE[prod_short](includes/prod_short.md)] and Exchange Online.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Logging**, and then choose the related link. 
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Email Logging**, and then choose the related link. 
 3. Choose **Related**, and then **Job Queue Entry**.
 4. Restart the **Email Logging** job.
 
 ### [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Logging**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Email Logging**, and then choose the related link.
 2. Choose **Actions**, and then **Renew Token**.
 3. Sign in with the Exchange Online account that the scheduled job uses to connect to the shared mailbox and process emails.
 

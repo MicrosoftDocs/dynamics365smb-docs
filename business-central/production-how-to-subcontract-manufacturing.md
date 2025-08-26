@@ -53,7 +53,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
 
 ### To calculate the subcontracting worksheet  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Subcontracting Worksheet**, and then choose the related link.  
 2. To calculate the worksheet, choose the **Calculate Subcontracts** action.  
 3. On the **Calculate Subcontracts** page, set filters for the subcontracted operations, or the work centers where they're performed, to calculate only the relevant production orders.  
 4. Choose the **OK** button.  
@@ -62,7 +62,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
 
 ### To create the subcontract purchase order  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Subcontracting Worksheet**, and then choose the related link.  
 2. Choose the **Carry Out Action Message** action.  
 3. Select the **Print Orders** field to print the purchase order as it is created.  
 4. Choose the **OK** button.  
@@ -77,7 +77,7 @@ After the Subcontractor Purchase Orders are created, they can be posted. Receivi
 
 ## To post a subcontract purchase order
  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then select the related link.  
 2. Open a purchase order that is created from the subcontracting worksheet.  
 
     On the purchase order lines, you see the same information that was in the worksheet. The **Prod. Order No.**, **Prod. Order Line No.**, **Operation No.**, and **Work Center No.** fields are filled in with the information from the source production order.  

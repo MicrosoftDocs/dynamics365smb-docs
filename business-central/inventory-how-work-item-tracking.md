@@ -32,7 +32,7 @@ You can create opening balances for the items you track. Because you can choose 
 
 ### Item journals
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Journals**, and then choose the related link.
 2. To open a list of item journal batches, choose the **Name** field.
 3. Choose **New** to create a new batch, and then turn on the **Item Tracking on Lines** toggle.
 4. Choose **OK** to select the batch you created.
@@ -45,7 +45,7 @@ You can create opening balances for the items you track. Because you can choose 
 
 ### Warehouse physical inventory journal for locations where directed pick and put-away is turned on  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Physical Inventory Journal**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Physical Inventory Journal**, and then choose the related link.
 2. Fill in the fields on the item journal line as necessary. The **Lot No.**, **Serial No.**, **Expiration Date**, **Warranty Date**, and **Package No.** fields are available if you enabled item tracking.
 3. Choose the **Register** action to make the inventory adjustments. Remember to synchronize the adjusted warehouse entries with the related item ledger entries. To learn more, go to [synchronize the adjusted warehouse entries](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
@@ -57,7 +57,7 @@ You might want to track items from the moment they arrive. In that case, the pur
 
 The tracking numbers automatically transfer to all outbound warehouse activities.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.  
 2. Either open an existing purchase order or create a new purchase order.
 3. Select the document line, and on the **Lines** FastTab, choose the **Line** action, and then choose the **Item Tracking Lines** action to open the **Edit - Item Tracking Lines** page.  
 
@@ -98,7 +98,7 @@ The functionality supports the following outbound processes:
 
 In these cases, the item tracking lines transfer to the invoice or credit memo, but the **Item Tracking Lines** page doesn't let you change the serial or lot numbers. You can only change the quantities.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then select the related link.  
 2. Open a purchase invoice for items that are purchase with serial or lot numbers.  
 3. From a purchase invoice line, on the **Lines** FastTab, choose the **Get Receipt Lines** action.  
 4. On the **Get Receipt Lines** page, select a receipt line that has item tracking lines, and then choose the **OK** button.  
@@ -189,7 +189,7 @@ Procedures for handling serial and lot numbers that you transfer between differe
 
 However, transfer orders are unique in that shipment and receipt are both done from the same transfer line and use the same instance of the **Item Tracking Lines** page. Item tracking numbers that shipped from one location must be received unchanged at the other location.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer Orders**, and then choose the related link.  
 2. Open the transfer order you want to process. On the **Lines** FastTab, choose the **Line** action, choose the **Item Tracking Lines** action, and then choose the **Shipment** action.  
 3. On the **Item Tracking Lines** page, assign or select serial or lot numbers as for any other outbound item transaction.  
 
@@ -219,7 +219,7 @@ You can modify created serial or lot information cards later.
 
 ## To modify existing serial or lot number information
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Select an item that has an item tracking code and has serial or lot number information.
 3. From the **Item Card** page, choose the **Related** action, choose the **Related** action, choose the **Entries** action, and then choose **Ledger Entries**.
 4. Choose the **Lot No.** or **Serial No.** field. If information exists for the item tracking number, then the **Lot No. Information List** or **Serial No. Information List** page opens.  
@@ -235,7 +235,7 @@ Reclassifying item tracking for an item means to change a lot or serial number t
 > [!NOTE]
 > [!INCLUDE [prod_short](includes/prod_short.md)] verifies that each line has a unique combination of serial, lot, and/or package numbers. If you want to split a lot, package, or a lot and package into several lots or packages, you must use multiple journal lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclassification Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Reclassification Journals**, and then choose the related link.  
 2. Fill in the line with the relevant information. For more information, see [Count Inventory Using Documents](inventory-how-count-inventory-with-documents.md) or [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 3. Choose the **Item Tracking Lines** action.  
 4. In the **Serial Nos.** or **Lot Nos.** field, select the current serial or lot number.  

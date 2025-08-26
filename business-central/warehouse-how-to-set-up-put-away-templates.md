@@ -18,7 +18,7 @@ You can set up a number of put-away templates and select one of them to govern p
 
 ## To set up put-away templates
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Put-away Templates**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Enter a code that is the unique identifier of the template you are about to create.  
 4. Enter a short description, if you wish.  

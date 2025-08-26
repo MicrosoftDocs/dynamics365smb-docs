@@ -24,7 +24,7 @@ When you have agreed on the prices that the group of customers will pay for cert
 
 ### To create sales prices for a group of customers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Price Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customer Price Groups**, and then choose the related link.  
 
 2. Select the line for the customer price group. If a line does not already exist you can create a new line. Select **New** to create a new entity and give it a name.  
     
@@ -50,7 +50,7 @@ After you have set up the customer price groups, you can enter the customer pric
 
 ### To enter customer price group codes on a customer card  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.  
 
 2. Open the relevant **Customer Card** for a customer that you want to be part of a customer price group.  
 

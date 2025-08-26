@@ -22,7 +22,7 @@ In cost accounting, you work with cost budgets in a similar way. To learn more, 
 
 ## To create a new G/L budget
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Edit Budget** action.
 4. At the top of the **Budget** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  

@@ -22,7 +22,7 @@ You can choose to have VAT amounts calculated and posted to a temporary general 
 
 To use accounts for unrealized VAT, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **General Ledger Setup**.
+1. [!INCLUDE[open-search](includes/open-search.md)], and enter **General Ledger Setup**.
 2. On the **General Ledger Setup** page, select the **Unrealized VAT** check box.
 3. Choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), and enter **VAT Posting Setup**.
 4. On the **VAT Posting Setup** page, choose the VAT posting group, and then choose the **Edit** action.

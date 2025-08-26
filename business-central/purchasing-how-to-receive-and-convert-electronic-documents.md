@@ -40,7 +40,7 @@ The following procedure describes how to receive a vendor invoice and convert it
 
 ### To receive and convert an electronic invoice to a purchase invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Incoming Documents**, and then choose the related link.  
 
 2. Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
 

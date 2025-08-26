@@ -19,14 +19,14 @@ Before you can manage fixed assets (FA), you must set up default G/L accounts, a
 
 Define the general behavior of the fixed asset functionality and its document number series on the **Fixed Assets Setup** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets Setup**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set up fixed asset posting groups
 
 Use posting groups to define groups of fixed assets. Entries for these posting groups post to the same general ledger accounts.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Posting Groups**, and then choose the related link.  
 2. Choose the **New** action.
 3. On the **FA Posting Group Card** page, fill in the fields as necessary.
 
@@ -42,7 +42,7 @@ A template is a predefined layout for a journal. The template contains informati
 
 [!INCLUDE[prod_short](includes/prod_short.md)] automatically creates a fixed asset journal template the first time that you open the **Fixed Asset Journal** page, but you can set up other journal templates.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journal Templates**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## To set up fixed asset class and subclass codes
@@ -53,14 +53,14 @@ In fixed assets, you can define a classification hierarchy that can be used to g
 
 Fixed asset classes are the top-level entries in the classification hierarchy in which you group assets. For example, use classes to divide assets into tangible or intangible assets. You must create at least one fixed asset class in your setup.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Classes**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Classes**, and then choose the related link.
 2. Enter codes and names for the fixed asset classes that you want to create.
 
 ### Fixed asset subclass codes
 
 Fixed asset subclasses are the second level entries in the classification hierarchy in which you group assets. Each subclass points to a top-level class. Use fixed asset subclass codes to group fixed assets in more specific categories, such as buildings, vehicles, furniture, or machinery. You must create at least one fixed asset subclass in your setup.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Subclasses**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Subclasses**, and then choose the related link.
 2. Enter codes and names for the fixed asset subclasses that you want to create.
 
 ## Start to register assets
@@ -74,7 +74,7 @@ The following procedure is used if fixed asset transactions are to be posted to 
 3. Create a fixed asset depreciation book for each depreciation purpose (such as tax and financial statements). For each depreciation book, define the terms and conditions, such as integration with the general ledger.
 
     Enable general ledger integration by following the next steps. First, ensure that general ledger integration isn't enabled for all depreciation books, then post the opening entries, and finally, turn on general ledger integration.  
-4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
+4. [!INCLUDE[open-search](includes/open-search.md)], enter **Depreciation Books**, and then choose the related link.  
 5. Select the relevant depreciation book, and then choose the **Edit** action to open the **Depreciation Book Card** page.
 6. On the **Integration** FastTab, turn off all of the toggles. If you have more than one depreciation book, repeat this step for each one.  
 7. In the fixed asset journal, enter the following lines for each asset:
@@ -92,7 +92,7 @@ If the fixed assets aren't integrated with the general ledger, skip steps six an
 
 Fixed asset location codes define identifiers for where assets can be located, such as sales department, reception, administration, production, or warehouse. You can use them to register the location of a fixed asset. This information is useful for insurance and inventory purposes.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA locations**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA locations**, and then choose the related link.
 2. Enter codes and names for the fixed asset locations that you want to create.
 
 ## To set up fixed asset allocation keys (optional)
@@ -101,7 +101,7 @@ Use allocation keys to allocate transactions to various departments or projects.
 
 Allocation keys apply to fixed asset classes, not to individual assets.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Posting Groups**, and then choose the related link.  
 2. On the **FA Posting Groups** page, choose the **Allocations** action, and then choose a posting type.
 3. On the **FA Allocations** page, fill in the fields as necessary.
 4. Repeat steps 2 and 3 for each posting type that you want to define allocation keys for.
@@ -110,7 +110,7 @@ Allocation keys apply to fixed asset classes, not to individual assets.
 
 You can set up multiple journal batches, which are individual journals for each journal template. For example, employees can have their own journal batch that uses the employee’s initials as the journal batch name. For more information, see [Work with General Journals](ui-work-general-journals.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journal Templates**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Journal Templates**, and then choose the related link.  
 2. Select the relevant journal template, and then choose the **Batches** action.
 3. On the **FA Journal Batches** page, fill in the fields as necessary.
 
@@ -118,14 +118,14 @@ You can set up multiple journal batches, which are individual journals for each 
 
 Use dedicated reclassification journals to transfer, split, or combine fixed assets. [!INCLUDE[prod_short](includes/prod_short.md)] automatically creates a fixed asset reclassification journal template the first time you open the **FA Reclass. Journal** page, but you can set up other reclassification journal templates. For more information, see [Work with General Journals](ui-work-general-journals.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Reclass. Journal Templates**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Reclass. Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## To set up fixed asset reclassification journal batches (optional)
 
 You can set up multiple journal batches, which are individual journals for each reclassification journal template. For example, employees can have their own reclassification journal batch that uses the employee’s initials as the reclassification journal batch name. For more information, see [Work with General Journals](ui-work-general-journals.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Reclass. Journal Templates**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Reclass. Journal Templates**, and then choose the related link.  
 2. Select the relevant journal template, and then choose the **Batches** action.
 3. On the **FA Reclass. Journal Batches** page, fill in the fields as necessary.
 

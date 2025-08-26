@@ -47,7 +47,7 @@ For situations where you need additional sample data, please talk to your resell
 
 <!--#### To create a company with complete sample data in a sandbox
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Companies**, and then choose the related link.  
 2. Choose the **New** action, and then choose **Create New Company**.  
 3. In the **Assisted Setup for Creating a Company** page, choose **Next**.  
 4. Specify a name for the new company, and then, in the **Select the data and setup to get started** field, choose **Advanced Evaluation - Complete Sample Data**.  

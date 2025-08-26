@@ -47,8 +47,9 @@ Selecting the ![Shows the task view icon](media/sot-task-view-icon.png) icon ope
 
 For each inquiry the agent receives, like request for a quote or invoice, the agent adds a **task** to track, review, and follow up on until the agent creates the purchase invoice. Each task has multiple steps that create a timeline of the process. A timeline is a visual sequence that shows each step taken for the task, helping you understand the progress and history.
 
-> [!TIP]
-> Hover over the agent's icon or select the ![Show summary for Agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization.
+## View summary of agent activities
+
+Hover over the agent's icon or select the ![Show summary for Agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) that measure the impact of the agent's work in your organization.
 
 ## Review and assist
 
@@ -76,7 +77,7 @@ Steps that need intervention appear under **Needs Attention** in the **Tasks** t
 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane.
 
-   If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task. Learn more in [Stop a task](#stop-a-task),
+   If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task. Learn more in [Stop a task](#stop-a-task).
 
 After confirmation, the agent continues with the task. When a new notification appears on the Payables Agent icon after some time, follow the same flow to review and confirm the results.
 

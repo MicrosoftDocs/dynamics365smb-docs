@@ -28,17 +28,17 @@ You can also create a WIP method that meets the needs of your organization and s
 
 If you want to view the result using a different method, change the method and recalculate WIP. You can recalculate WIP as often as you like. The value isn't automatically posted to the general ledger. After you calculate WIP using the method you prefer, you can post to the general ledger.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Methods**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project WIP Methods**, then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Close the page.
-4. To make this new method the default, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects Setup**, then choose the related link.  
+4. To make this new method the default, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Projects Setup**, then choose the related link.  
 5. In the **Default WIP Method** field, choose the method from the list.
 
 ## Define a WIP method for a project
 
 When you create a new project, you must specify which project WIP method applies. In some cases, the project WIP method you use is already set as the default.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, then choose the related link.
 2. Choose the **New** action. Learn more at [Create Projects](projects-how-create-jobs.md).  
 3. On the **Project Card** page, in the **WIP Method** field from the **Posting** FastTab, select a WIP method from the list. If a default method is defined, you can select another option if needed.  
 
@@ -89,7 +89,7 @@ You notice:
 
 You can determine the WIP amount to post to balance sheet accounts for the period end reporting by using the **Project Calculate WIP** batch job.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Calculate WIP**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Calculate WIP**, then choose the related link.  
 2. Choose the **Calculate WIP** action.
 3. On the **Project Calculate WIP** page, fill in the fields as necessary.
 4. Choose the **OK** button.  
@@ -101,7 +101,7 @@ You can determine the WIP amount to post to balance sheet accounts for the perio
 
 If your WIP calculation results in a *WIP was calculated with warnings* message, you might want to review the warnings.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Cockpit**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project WIP Cockpit**, and then choose the related link.  
 2. Select the project for which you want to review warnings. The **WIP Warnings** toggle is enabled for projects that have WIP warnings.
 3. Choose the **Show Warning** action.
 
@@ -109,7 +109,7 @@ If your WIP calculation results in a *WIP was calculated with warnings* message,
 
 If you want to try different WIP methods, you might get a *The Project Task cannot be modified because the project has associated project WIP entries* error. To be able to check WIP method, delete existing WIP entries.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Cockpit**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project WIP Cockpit**, and then choose the related link.  
 2. Select the project for which you want to delete WIP entries.
 3. Choose the **Delete WIP Entries** action.
 
@@ -117,7 +117,7 @@ If you want to try different WIP methods, you might get a *The Project Task cann
 
 When you calculate WIP, you can post it to balance sheet accounts for the period end reporting. Use the **Project Post WIP to G/L** batch job.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Post WIP to G/L**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Post WIP to G/L**, and then choose the related link.  
 2. On the **Project Post WIP to G/L** page, fill in the fields as necessary.  
 3. Choose the **OK** button.
 
@@ -125,7 +125,7 @@ When you calculate WIP, you can post it to balance sheet accounts for the period
 
 After you complete all activities for a project, including posting usage and invoicing, you must update the project's status to **Completed**. Then, you must reverse any WIP that was posted to the general ledger.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, then choose the related link.  
 2. Select an open project, and then choose the **Edit** action.
 3. On the **Posting** FastTab, in the **Status** field, select **Completed**.
 4. Follow the assistance steps to calculate and post the WIP, or follow steps 5 and 6 to do so manually.  
@@ -142,7 +142,7 @@ After you complete all activities for a project, including posting usage and inv
 
 All project-related entries are recorded in project registers and sequentially numbered, starting with 1. From the project register, you can get an overview of all project ledger entries.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Registers**, and choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Registers**, and choose the related link.
 2. Select a relevant register, and then choose **Project Ledger** action.
 
 On the **Project Ledger Entries** page, you can review the entries that are associated with any project.  

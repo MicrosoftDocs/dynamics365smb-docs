@@ -44,7 +44,7 @@ The Image Analyzer extension is built in to [!INCLUDE[prod_short](includes/prod_
 To enable the Image Analyzer extension, take one of the following actions:
 
 * Open an item or contact card. In the notification bar, choose **Analyze Picture**, then follow the steps in the assisted setup guide.  
-* Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
+* [!INCLUDE[open-search](includes/open-search.md)], enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
 
     > [!TIP]  
     > The **Image Analysis Setup** page is also where you can change the degree of confidence for attribute suggestions. For example, if you want to require a greater degree of confidence, you can enter a higher percentage.
@@ -53,7 +53,7 @@ To enable the Image Analyzer extension, take one of the following actions:
 
 The following steps describe how to analyze an image that was imported before you enabled the Image Analyzer extension.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Choose the item, and then choose the **Analyze Picture** action.  
 3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute or choose **Add to item description** to add the name of the attribute to the item description. For example, this action can be useful for quickly adding detail.
 
@@ -73,7 +73,7 @@ The **Action to perform** field has following options:
 
 The following steps describe how to analyze an image that was imported before you enabled the Image Analyzer extension.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, and then choose the related link.  
 2. Choose the contact person, and then choose the **Analyze Picture** action.  
 3. On the **Profile Questionnaire** FastTab, review the suggestions, and make corrections if needed. Learn more at [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md).  
 
@@ -94,7 +94,7 @@ The following steps describe how to analyze an image that was imported before yo
 
 You can also use your own account for the Computer Vision API, for example, if you want to analyze more images than the default integration offers.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Image Analysis Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Image Analysis Setup**, and then choose the related link.
 2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
 
     > [!NOTE]  
@@ -104,12 +104,12 @@ You can also use your own account for the Computer Vision API, for example, if y
 
 You can view the number of analyses you've done, and how many you can still do, in the current period.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Image Analysis Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Image Analysis Setup**, and then choose the related link.
 2. The **Limit Type**, **Limit Value**, and **Analyses Performed** fields provide the usage information.  
 
 ## Stop using the Image Analyzer extension
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analysis Setup**.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Connections**, and then choose **Image Analysis Setup**.  
 2. Clear the **Enable Image Analyzer** field.  
 
 Alternatively, uninstall the extension completely. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  

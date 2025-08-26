@@ -23,7 +23,7 @@ After you set up approval users, you can create workflow responses for approval 
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Approval User Setup**, then choose the related link.  
 2. Create a new line on the **Approval User Setup** page, and then fill the fields as described in the following table.  
 
    |Field|Description|

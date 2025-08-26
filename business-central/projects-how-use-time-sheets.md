@@ -32,7 +32,7 @@ You can use the **Create Time Sheets** page to set up time sheets for a specifie
 > [!IMPORTANT]
 > You must have permissions to create time sheets. To learn more about permissions, go to [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Time Sheets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Create Time Sheets**, and then choose the related link.
 
     > [!TIP]
     > You can also use the **Create Time Sheets** action on the **Resources** list page and the **Resource Card** page.
@@ -77,7 +77,7 @@ In this example, you can then register the hours across the relevant days for ea
 
 If your time sheet information remains the same from time period to time period, copy the lines from the previous time period to save time. Then, just enter your time usage for the new period.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Time Sheets**, and then choose the related link.  
 2. Open the time sheet for a period later than the period for an existing time sheet with lines.  
 3. Use the following actions to specify what to copy:
 
@@ -90,7 +90,7 @@ The lines are copied, including details such as type and description. For exampl
 
 The following procedure describes how to quickly add project planning lines to a time sheet.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Time Sheets**, and then choose the related link.  
 2. On the **Time Sheets** page, select a time sheet for the relevant time period.  
 3. Choose the **Create lines from project planning** action. Any project planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.** field on the time sheet.
 
@@ -112,7 +112,7 @@ You can define the work type for all-time sheet lines for service orders, projec
 
 Time sheet registration is tracked in hours, the standard base unit of measure for resources. By default, a time sheet shows the common work days of Monday through Friday.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Time Sheets**, and then choose the related link.  
 2. Select a time sheet for the relevant period.
 3. Fill in the fields on a line as necessary. Enter the number of hours used by the resource on each day of the week.  
 
@@ -146,7 +146,7 @@ A time sheet must be submitted for approval before it can be used. You can appro
 * A time sheet administrator can approve any time sheet.
 * The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets. To learn more about setting up approval, go to [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manager Time Sheets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Manager Time Sheets**, and then choose the related link.
 2. Select a time sheet from the list.  
 3. On the **Time Sheet** page:
     1. Choose the **Process** action, then choose the **Approve** action.
@@ -161,7 +161,7 @@ After you approve or reject a time sheet, if you want to update it you must reop
 
 ## Reopen a time sheet
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.
 2. Open a time sheet from the list.  
 
     > [!NOTE]  
@@ -194,7 +194,7 @@ On a project, you can specify a person who is responsible for the project. That 
 
 After you approve time sheet entries for a resource, you can post them to the relevant resource journal.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Resource Journals**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
 3. On the **Suggest Res. Jnl. Lines** page, in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 4. Choose the **OK** button. Entries for usage are created in the resource journal, where you can modify the information as needed.  
@@ -205,7 +205,7 @@ After you approve time sheet entries for a resource, you can post them to the re
 
 After you approve time sheet entries for a project, you can post them to the project journal.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Journals**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
 3. On the **Suggest Project Jnl. Lines** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 4. Choose the **OK** button. Entries for usage are created in the project journal, where you can modify the information as needed.  
@@ -222,10 +222,10 @@ After you post time sheets, you can archive them for future reference. You must 
 > [!NOTE]  
 > When you archive a time sheet, [!INCLUDE [prod_short](includes/prod_short.md)] removes it from the lists on the **Time Sheets** and **Manager Time Sheets** pages.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Time Sheets**, and then choose the related link.
 2. Select the **Move Time Sheets to Archive** action.  
 3. On the **Move Time Sheets to Archive** page, fill in the fields as necessary, and then choose the **OK** button.  
-4. To review archived time sheets, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
+4. To review archived time sheets, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
 
 ## Related information
 

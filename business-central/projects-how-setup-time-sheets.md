@@ -61,7 +61,7 @@ The following sections describe how to set up time sheets if you don't use the *
 
 ### Set up general information for time sheets manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Resources Setup**, and then choose the related link.  
 1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!IMPORTANT]
@@ -76,7 +76,7 @@ The following sections describe how to set up time sheets if you don't use the *
 
 ### Assign a time sheet administrator manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Setup**, and then choose the related link.  
 2. Select the user who will be the time sheet administrator, and then select the **Time Sheet Admin.** checkbox.  
 
 > [!TIP]  
@@ -84,7 +84,7 @@ The following sections describe how to set up time sheets if you don't use the *
 
 ### Assign a time sheets owner and approver manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Resources**, and then choose the related link.
 2. Select the resource for which you want to set up the ability to use time sheets, and then select the **Use Time Sheet** checkbox.  
 3. In the **Time Sheet Owner User ID** field, enter the ID of the owner of the time sheet. The owner can enter time usage on a time sheet and submit it for approval. Typically, when the resource is a person, that person is also the owner.  
 4. In the **Time Sheet Approver User ID** field, enter the ID of the approver of the time sheet. The approver can approve, reject, or reopen a time sheet.  

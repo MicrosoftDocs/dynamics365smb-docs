@@ -22,11 +22,11 @@ You may want to restructure your warehouse with new bin codes and new bin charac
 If your warehouse is set up to use bins but not directed put-away and pick, restructure your warehouse by creating the new bins that you want to use in the future.  
 
 ## To restructure a basic warehouse that uses bins only  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
 2.  On the **Warehouse** FastTab, set the **Default Bin Selection** field to **Last-Used Bin**.  
 3.  Move all the contents of your current bins to the new bins that you have just created.  
 
-    1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclassification Journal**, and then choose the related link.  
+    1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Item Reclassification Journal**, and then choose the related link.  
     2.  Select a journal line, and then choose the **Get Bin Content** action.  
     3.  On the **Bin Content** FastTab, set filters in the **Location Code**, **Bin Code**, and **Item No.** fields to specify the content that you want to move.  
     4.  Choose the **OK** button to fill a journal line.  
@@ -41,13 +41,13 @@ You have now emptied the bins where the items used to be. The default bins for y
 1.  Create the new bins that you want to use in the future. For more information, see [Create Bins](warehouse-how-to-create-individual-bins.md).  
 2.  Move all the contents of your current bins to the new bins that you just created.  
 
-    1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Reclassification Journal**, and then choose the related link.  
+    1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Reclassification Journal**, and then choose the related link.  
     2.  For the bins where no real movement of items is involved, create a line for each of your current bins in the **Warehouse Reclassification Journal** with the old bin code, **From Bin Code**, and the new bin code, **To Bin Code**.  
     3.  If some of the movements involve actual physical movements that you want employees to perform, use **Movement Worksheets** to prepare movement instructions instead of using the warehouse reclassification journal. For more information, see [Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  When the old bins are emptied, reclassify them as **QC** type bins to ensure that they are not included in item flows.  
 
-    1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+    1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
     2.  Select the line with the location, and then choose the **Bins** action.  
     3.  On the **Bins** page, in the **Bin Type Code** field, enter **QC** for each of the old bins that you emptied in step 3 in the previous procedure.  
 
@@ -55,7 +55,7 @@ You have now removed the bins from the warehouse flow, and reclassified them as 
 
 ## To delete a bin  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to delete bins. Choose the **Bins** action.  
 3.  Select the lines for the bins that you want to delete.  
 4.  Choose the **Delete** action.  
@@ -66,7 +66,7 @@ If you want to rename a bin so that all records associated with the bin are also
 
 ## To rename a bin and change the bin code in all records  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to rename a bin or change the bin code, and then choose the **Bins** action.  
 3.  Select the bin that you want to change and enter a new bin code in the **Code** field.  
 4.  Choose the **Yes** button.  

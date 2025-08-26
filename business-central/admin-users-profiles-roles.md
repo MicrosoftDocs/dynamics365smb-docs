@@ -78,7 +78,7 @@ On the **My Settings** page, users can define basic behavior of their account, s
 
 As an administrator, you can define settings for a profile. The settings apply to all users assigned to the role.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Profiles (Roles)**, and then select the related link.
 2. Select the line for the profile that you want to change user settings for, and then select the **User Personalizations List** action.
 3. On the **User Personalizations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalization Card** page, edit the fields as necessary.
@@ -128,7 +128,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 
 You can delete all changes that a user makes to any pages, which reverts the pages to the the original layout. Personalizations aren't associated with a profile (role). If a user personalizes a page, they experience the personalizations on the page no matter which role they're using.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Settings**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Settings**, and then select the related link.
 
     The **User Settings** page lists all users<!--who make personalizations-->.
 
@@ -143,7 +143,7 @@ You can also delete all page customizations for a profile. To learn more, go to 
 
 You can delete personalizations that one or more users make to specific pages. Deleting personalizations can be useful, for example, if a business process change means that a personalization isn't relevant. Deletions restore the page layout back to what the profile defines.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Personalized Pages**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Personalized Pages**, and then select the related link.
 
     The **Personalized Pages** page lists all personalized pages and the user they belong to.
 

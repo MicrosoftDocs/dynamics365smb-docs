@@ -20,7 +20,7 @@ The following procedure shows how to track a package from a posted sales shipmen
 > [!NOTE]
 > The following procedure uses the Posted Sales Shipment page as an example. The steps to track a package are the same on the Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Sales Shipment**, and then choose the related link.
 2. Open the shipment you want to track, and then choose the **Update Document** action.
 3. In the **Package Tracking No.** field, enter the package number you received from the shipping agent. 
 4. Make sure that the correct shipping agent and the level of service are correct, and then close the page.

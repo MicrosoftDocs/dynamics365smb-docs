@@ -26,7 +26,7 @@ Another tool that makes it easier to work with multiple units of measure for ite
 
 ## To set up units of measure
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Units of Measure**, and then choose the related link.  
 2. Choose the **New** action. A new empty line is inserted.  
 3. Fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. If you know that your organization sells items with this unit of measure to customers in other countries/regions, you can add translations.  
@@ -39,7 +39,7 @@ When you register a new item, you can choose the base unit of measure from the l
 
 ## To set up multiple item units of measure
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. Open the card of the item for which you want to set up alternate units of measure.
 3. Choose the **Units of Measure** action. The **Item Units of Measure** page opens.
 4. If the **Base Unit of Measure** field on the item card is filled, then that unit of measure is already set up.
@@ -59,7 +59,7 @@ You can now use the alternate units of measure on purchase, production, and sale
 
 When you sell items to foreign customers, you might want to specify the unit of measure in the customer's language. You can do that by specifying translations for units of measure.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Units of Measure**, and then choose the related link.
 2. Select the code for which you want to set up translations, and then choose the **Translations** action.
 3. In the **Language Code** field, select the drop-down arrow to see a list of available language codes. Select the language code for which you want to enter a translation, and then choose the OK button to copy the code to the field.
 4. In the **Description** field, enter the appropriate text.
@@ -69,7 +69,7 @@ When you sell items to foreign customers, you might want to specify the unit of 
 
 If you usually buy or sell in units different from the base unit of measure, you can specify separate units of measure for purchases and sales. To use separate units of measure, set up the units of measure on the **Item Units of Measure** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. Open the relevant item card for which you want to specify a default sales or purchase unit of measure code.
 3. For sales, on the **Invoicing** FastTab, in the **Sales Unit of Measure** field, open the **Item Units of Measure** page.
 4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measure** field, open the **Item Units of Measure** page.

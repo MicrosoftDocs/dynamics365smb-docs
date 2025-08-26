@@ -1,0 +1,1 @@
+Get an income statement that shows your income, cost of goods sold (COGS), gross profit, expenses, and net income.

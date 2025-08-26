@@ -32,7 +32,7 @@ The sales credit memo applies to all general ledger and inventory ledger entries
 
 ## To cancel a posted sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Sales Invoices**, and then choose the related link.  
 2. Select the posted sales invoice that you want to cancel.
 
     > [!NOTE]  
@@ -48,7 +48,7 @@ If the cancellation is related to a partial invoice posting, the originating sal
 
 ## To correct a posted sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Sales Invoices**, and then choose the related link.  
 2. Select the posted sales invoice that you want to correct.
 
     > [!NOTE]  

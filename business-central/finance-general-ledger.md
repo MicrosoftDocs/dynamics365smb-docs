@@ -71,7 +71,7 @@ You can define whether specific types of reports must include the accounts in ea
 
 For example, the default balance statement has a subcategory for *Cash* under *Current Assets*. If you want the balance statement to consider petty cash and checking, take the following steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Account Categories**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **G/L Account Categories**, then choose the related link.
    1. Alternatively, [open the page here](https://businesscentral.dynamics.com/?page=790).
 2. Choose the **Edit List** action.
 3. Add two new subcategories: One for petty cash, and one for your checking account:

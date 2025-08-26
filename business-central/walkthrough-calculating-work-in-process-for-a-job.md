@@ -54,7 +54,7 @@ In the following walkthrough, Tricia applies the Cost Value method, which is the
 
 ### To calculate WIP  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project**, and then choose the related link.  
 2. In the **Projects** list, select the **Deerfield** project, and then choose the **Edit** action. This opens the Project Card in edit mode.  
 
      WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, CRONUS uses the Cost Value method.  
@@ -84,7 +84,7 @@ In the following walkthrough, Tricia applies the Cost Value method, which is the
 
 ### To review WIP warnings  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Cockpit**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project WIP Cockpit**, and then choose the related link.  
 2. Select the **Deerfield** project, and then choose the **Show Warnings** action.  
 3. On the **Project WIP Warnings** page, review the warning associated with the project.  
 

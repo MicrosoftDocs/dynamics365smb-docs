@@ -1,1 +1,1 @@
-Get an overview of Retained Earnings from the start of the period in the report filter, Net Income, and Distributions to Shareholders gathered in a single report.
+Get an overview of retained earnings from the start of the period you specify in the report filter, net income, and distributions to shareholders.

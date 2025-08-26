@@ -19,7 +19,7 @@ ai.usage: ai-assisted
 
 The **Balance Sheet** report provides an overview of your balance across assets, liabilities, and equity.
 
-You must provide a filter of start date and end date for the general ledger data used to provide the balance. 
+Provide a start date and end date filter to define the period for which you want to show the balance.
 
 [!INCLUDE[finance-report-selection-for-oob-finance-reports](../includes/finance-report-selection-for-oob-finance-reports.md)]
 

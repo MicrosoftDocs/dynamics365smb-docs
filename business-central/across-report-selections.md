@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 11/28/2024
+ms.date: 08/26/2025
 ms.service: dynamics-365-business-central
 
 ---
@@ -63,7 +63,7 @@ For example, on the **Report Selection - Sales** and **Report Selection - Purcha
 
 ## Report selection for finance reports
 
-Similar to document reports, the core finance reports such as Balance Sheet, Income Statement, and Retained Earnings can also be configured with which financial report definition should be used for them. To learn more, go to [Report selection for finance reports](finance-financial-reporting-report-selection.md).
+Similar to document reports, you can also configure the financial report definition for core finance reports such as Balance Sheet, Income Statement, and Retained Earnings. To learn more, go to [Report selection for finance reports](finance-financial-reporting-report-selection.md).
 
 ## Related information
 

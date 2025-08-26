@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/14/2025
+ms.date: 08/26/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
@@ -33,9 +33,7 @@ If you want to view general ledger entries as percentages of budget entries, you
 
 ## Report selection for built-in finance reports
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides built-in finance reports for Balance Sheet, Income Statement, Cash Flow, and Retained Earnings. These reports all use the **Financial Reporting** feature for defining the data and the layouts used. You can replace the standard layouts provided in [!INCLUDE[prod_short](includes/prod_short.md)] with your own.
-
-Learn more at [Report selection for finance reports](finance-financial-reporting-report-selection.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] provides built-in Balance Sheet, Income Statement, Cash Flow, and Retained Earnings reports. The **Financial Reporting** feature defines the data and layouts for these reports. You can replace the standard layouts provided in [!INCLUDE[prod_short](includes/prod_short.md)] with your own. Learn more at [Report selection for finance reports](finance-financial-reporting-report-selection.md).
 
 ## Financial reports
 

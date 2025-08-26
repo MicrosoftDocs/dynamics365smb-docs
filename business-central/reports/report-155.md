@@ -1,6 +1,6 @@
 ---
 title: Statement of Cashflows (report)
-description: Get an Statement of Cashflows showing an overview of Operating Activities, Investing Activities, and Financing Activities gathered in a single cashflow report.
+description: Get an Statement of Cashflows that shows an overview of operating activities, investment activities, and finance activities.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Statement of Cashflows (report)
 
-The **Statement of Cashflows** report provides an overview of Operating Activities, Investing Activities, and Financing Activities gathered in a cashflow report.
+The **Statement of Cashflows** report shows an overview of operating activities, investment activities, and finance activities.
 
-You must provide a filter of start date and end date for the general ledger data used to provide the income statement. 
+Provide a start date and end date filter to define the period you want to explore.
 
 [!INCLUDE[finance-report-selection-for-oob-finance-reports](../includes/finance-report-selection-for-oob-finance-reports.md)]
 

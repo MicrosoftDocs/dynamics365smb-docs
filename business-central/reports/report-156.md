@@ -1,6 +1,6 @@
 ---
 title: Retained Earnings Statement (report)
-description: Get an Retained Earnings Statement showing an overview of Retained Earnings from the start of the period in the report filter, Net Income, and Distributions to Shareholders gathered in a single report.
+description: Get an Retained Earnings Statement that shows an overview of retained earnings from the start of a period, net income, and distributions to shareholders.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Retained Earnings Statement (report)
 
-The **Retained Earnings Statement** report provides an overview of Retained Earnings from the start of the period in the report filter, Net Income, and Distributions to Shareholders gathered in a single report.
+The **Retained Earnings Statement** report shows retained earnings, net income, and distributions to shareholders from the start of a period you specify.
 
-You must provide a filter of start date and end date for the general ledger data used to provide the Retained Earnings Statement. 
+Provide a start date and end date filter to define the period you want to explore.
 
 [!INCLUDE[finance-report-selection-for-oob-finance-reports](../includes/finance-report-selection-for-oob-finance-reports.md)]
 

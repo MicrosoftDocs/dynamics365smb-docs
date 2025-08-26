@@ -1,6 +1,6 @@
 ---
 title: Income Statement (report)
-description: Get an income statement showing your Income, Cost of Goods Sold (COGS), Gross Profit, Expenses, and Net Income.
+description: Get an income statement that shows your income, cost of goods sold (COGS), gross profit, expenses, and net income.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Income Statement (report)
 
-The **Income Statement** report provides an income statement showing your Income, Cost of Goods Sold (COGS), Gross Profit, Expenses, and Net Income.
+The **Income Statement** report provides an income statement that shows your income, cost of goods sold (COGS), gross profit, expenses, and net income.
 
-You must provide a filter of start date and end date for the general ledger data used to provide the income statement. 
+Provide a start date and end date filter to define the period for which you want to show the income statement.
 
 [!INCLUDE[finance-report-selection-for-oob-finance-reports](../includes/finance-report-selection-for-oob-finance-reports.md)]
 

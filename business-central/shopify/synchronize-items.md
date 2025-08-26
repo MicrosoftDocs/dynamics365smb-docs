@@ -361,26 +361,29 @@ You can start image synchronization in the ways described in the next sections i
 
 ## Sync prices with Shopify
 
-The connector can send one main price and one nondiscounted price to Shopify. 
+The connector for Shopify allows you to sync product pricing to your Shopify store. 
 
-If you use Markets in shopify, you can also set up the connector to sync prices for Shopify catalogs that link to those markects. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify). 
+It can send both the main selling price (shown as **Price** in Shopify) and the original, non-discounted price (displayed as **Compare at Price**) to the Shopify Product (Shopify Variant) pages. Learn more at [Synchronize market-specific prices with Shopify](#sync-prices-to-the-shopify-products-page). 
 
-The prices show in the **Price** and **Compare at Price** fields on the Shopify Product (Shopify Variant) page.
+If you use Markets in Shopify, which can represent different countries, B2B companies, or POS locations—you can link product catalogs to these markets and sync market-specific prices through the connector. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify). 
+
+For Shopify PLUS merchants, there is an additional option to connect catalogs to Company Locations, making it easier to manage B2B pricing scenarios. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify). 
+
+
+### Sync prices to the Shopify products page
 
 The following table describes the settings you can use to manage the process of defining and exporting prices.
 
 |Field|Description|
 |------|-----------|
-|**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used. The connector doesn't use the customer price group from the customer.|
-|**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field. The Connector doesn't use the customer discount group from the customer.|
+|**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used.|
+|**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field.|
 |**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
 |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. Learn more at [Set up Taxes](setup-taxes.md).|
-|**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. Use your group for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
+|**VAT Business Posting Group**|Only needed if you want to include taxes into price. Here you can specify which VAT business posting group is used to calculate prices with taxes in Shopify. Use your group for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
 |**Currency Code**|Enter a currency code only if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.|
 
-You can export prices for synchronized items in the ways described in the following sections in this article.
-
-### Sync prices from the Shopify products page
+To export prices for synchronized items do following:
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Sync Prices to Shopify** action.
@@ -418,18 +421,18 @@ You can only access catalogs linked to B2B companies. To learn more, go to [B2B 
    |**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used.|
    |**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field. |
    |**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
-   |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. |
-   |**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. This should be the group you use for domestic customers. |
+   |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. Learn more at [Set up Taxes](setup-taxes.md).||
+   |**VAT Business Posting Group**|Only needed if you want to include taxes into price. Here you can specify which VAT business posting group is used to calculate prices with taxes in Shopify. Use your group for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
 
    The second strategy is to use the **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
 
 3. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
 
-## Synchronize market-specific prices with Shopify
+### Synchronize market-specific prices with Shopify
 
 If you use Markets in Shopify, you can set up the connector to sync prices for Shopify catalogs that link to those markets.
 
-To sync catalogs from Shopify, select **Get Catalogs** on the **Shopify Market Catalogs** page.
+To sync catalogs from Shopify, select **Get Market Catalogs** on the **Shopify Market Catalogs** page.
 
 To sync prices for market catalogs, follow these steps:
 
@@ -437,12 +440,12 @@ To sync prices for market catalogs, follow these steps:
 
    |Field|Description|
    |------|-----------|
-   |**Customer Price Group**|Determines the price for an item in Shopify. The sales price for this customer price group is used. If you don't specify a group, the price on the item card is used.|
-   |**Customer Discount Group**|Determines the discount to use when calculating the price of an item in Shopify. The **Price** field shows discounted prices, and the **Compare at Price** field shows the full price. |
-   |**Allow Line Disc.**|Specifies whether to allow a line discount when calculating prices for Shopify. This setting applies only to prices on the item. Prices for the customer price group have their own toggle on lines.|
-   |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. |
-   |**VAT Business Posting Group**|Specifies which VAT business posting group to use to calculate prices in Shopify. Use the group for domestic customers. |
-	|**Currency Code**|Specifies the currency code for the catalog. |
+   |**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used.|
+   |**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field. |
+   |**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
+   |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. Learn more at [Set up Taxes](setup-taxes.md).||
+   |**VAT Business Posting Group**|Only needed if you want to include taxes into price. Here you can specify which VAT business posting group is used to calculate prices with taxes in Shopify. Use your group for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
+   |**Currency Code**|Specifies the currency code for the catalog. The specified currency must have exchange rates configured. If catalog uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], the field will be empty.|
 
 2. Enter the settings, turn on the **Sync Prices** toggle, and then select **Sync Prices** to synchronize catalog prices.
 

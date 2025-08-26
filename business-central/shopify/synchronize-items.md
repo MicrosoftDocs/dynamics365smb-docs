@@ -335,9 +335,9 @@ Based on the value in **Action for Removed Products and Blocked Items** on the *
 
 Synchronization of images can be configured for synchronized items. Choose from the following options:
 
-* **Disabled**: Image synchronization is deactivated.
-* **To Shopify**: Images of items are exported to Shopify.
-* **From Shopify**: Images from Shopify are imported to [!INCLUDE[prod_short](../includes/prod_short.md)].
+* **Disabled** - Image synchronization is deactivated.
+* **To Shopify** - Images of items are exported to Shopify.
+* **From Shopify** - Images from Shopify are imported to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 You can start image synchronization in the ways described in the next sections in this article.
 
@@ -363,12 +363,11 @@ You can start image synchronization in the ways described in the next sections i
 
 The connector for Shopify allows you to sync product pricing to your Shopify store. 
 
-It can send both the main selling price (shown as **Price** in Shopify) and the original, non-discounted price (displayed as **Compare at Price**) to the Shopify Product (Shopify Variant) pages. Learn more at [Synchronize market-specific prices with Shopify](#sync-prices-to-the-shopify-products-page). 
+It can send both the main selling price (shown as **Price** in Shopify) and the original, non-discounted price (displayed as **Compare at Price**) to the Shopify Product (Shopify Variant) pages. Learn more at [Synchronize market-specific prices with Shopify](#sync-prices-to-the-shopify-products-page).
 
-If you use Markets in Shopify, which can represent different countries, B2B companies, or POS locations—you can link product catalogs to these markets and sync market-specific prices through the connector. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify). 
+If you use Markets in Shopify, which can represent different countries/regions, B2B companies, or POS locations—you can link product catalogs to these markets and sync market-specific prices through the connector. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify).
 
-For Shopify PLUS merchants, there is an additional option to connect catalogs to Company Locations, making it easier to manage B2B pricing scenarios. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify). 
-
+For Shopify PLUS merchants, there is an additional option to connect catalogs to company locations, making it easier to manage B2B pricing scenarios. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify).
 
 ### Sync prices to the Shopify products page
 

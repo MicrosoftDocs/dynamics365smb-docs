@@ -3,11 +3,11 @@ title: Fixed assets analytics
 description: Learn how to gather, analyze, and share data about fixed assets for business intelligence.
 author: brentholtorf
 ms.author: kepontop
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5601, 5600, 5615, 5616, 5617, Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
-ms.date: 05/22/2024
+ms.date: 08/05/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -32,9 +32,9 @@ Businesses with fixed assets capture a lot of data about them during daily activ
 > [!NOTE]
 > Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecation, and insurance, but also data about future (projected) data, such as depreciation and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
 
-Each feature has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
+Each feature has its advantages and disadvantages, depending on the type of data analysis and the role of the user. Learn more in [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
-This article describes ways use these analytical features to get insights into your fixed assets.
+This article describes ways to use these analytical features to get insights into your fixed assets.
 
 ## Analytics needs in asset management
 
@@ -46,13 +46,13 @@ When it comes to data, people in different roles have different needs, and they 
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-| Role              | Data aggregation  | Typical ways to consume data                          | 
-|-------------------|-------------------| ----------------------------------------------------- |
-|CFO / COO / CEO                 | Performance data  | KPIs <br> Dashboards <br> Financial reports           |
-|Asset Management / Controller   | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
-|Bookkeeper                      | Detailed data     | Built-in operational reports <br> On-screen task data |
+| Role | Data aggregation | Typical ways to consume data |
+|--|--|--|
+| CFO / COO / CEO | Performance data | KPIs <br> Dashboards <br> Financial reports |
+| Asset Management / Controller | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis |
+| Bookkeeper | Detailed data | Built-in operational reports <br> On-screen task data |
 
-## Asset Management KPIs
+## Asset management KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In asset management, people often use the following KPIs to monitor their organization's use of assets:
 
@@ -63,15 +63,15 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for asset management, you can set up financial reports on the general ledger (G/L) accounts that you use to track fixed assets postings.
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more in [Work with Dimensions](finance-dimensions.md).
 
-To learn more about financial reporting, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
+Learn more in [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
 ## Finance reporting across business units or legal entities (related to fixed assets)
 
 Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for asset management, you might want to consolidate general ledger entries for your fixed assets accounts to be able to track fixed assets KPIs across business units or legal entities.
 
-To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md).
+Learn more in [Company consolidation](finance-consolidated-company-reporting.md).
 
 ## Ad-hoc analysis of fixed assets data
 
@@ -90,8 +90,7 @@ Similarly, you can use the **Open in Excel** action to open a list page for ledg
 
 [!INCLUDE [onedrive-excel-online](includes/onedrive-excel-online.md)]
 
-For more information on how to do ad-hoc analysis on Fixed Assets ledgers, see [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md).
-
+Learn more in [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) for information on how to do ad-hoc analysis on Fixed Assets ledgers.
 
 ## Built-in reports for fixed assets
 
@@ -124,7 +123,7 @@ Specifically for fixed assets, you can create a view on the Chart of Accounts pa
 
 :::image type="content" source="media/chart-of-accounts-page-fa.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page-fa.png":::
 
-To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
+Learn more in [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
 ### Analyze data by dimensions (related to fixed assets)
 
@@ -132,17 +131,17 @@ Dimensions are values that categorize entries so you can track and analyze them 
 
 So, instead of setting up separate general ledger accounts for each department or location, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts structure.
 
-To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
+Learn more in [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 
 ## Related information
 
-[Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
-[Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-[Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
-[Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)   
-[Built-in fixed assets reports](fa-reports.md)  
-[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+- [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
+- [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
+- [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
+- [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)   
+- [Built-in fixed assets reports](fa-reports.md)  
+- [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

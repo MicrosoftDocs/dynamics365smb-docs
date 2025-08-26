@@ -35,12 +35,12 @@ To set up an e-document service, follow these steps.
     | Description | Enter a brief description of the electronic export setup. |
     | Document Format | The export format of the electronic export setup. By default, there are two options in this field. You can select **PEPPOL BIS 3** as a generic code-based format or **Data Exchange** when you must set up predocuments of specific formats on the **Data Exchange Definition** FastTab.</p> |
     | Service Integration | Select the integration code for the electronic export setup. Currently, the only option is **No integration**. |
-    | Is a Clearance | Select this field only if your country uses a Clearance e-invoicing model. When selected, this E-Document Service will send your invoice only to the tax authorities for clearance. You must then configure an additional service to deliver the cleared invoice to the customer, along with a workflow that supports both the clearance and delivery steps. |
+    | Is a Clearance | Select this field only if your country/region uses a clearance e-invoicing model. When selected, the e-document service sends your invoice only to the tax authorities for clearance. You must configure another service to deliver the cleared invoice to the customer, along with a workflow that supports both the clearance and delivery steps. |
 
     > [!NOTE]
-    > You cannot use the clearance model until you choose a dedicated Service Integration.
+    > You can't use the clearance model until you choose a dedicated service integration.
 
-4. On the **Importing** FastTab, configure the fields as described in the following table.
+3. On the **Importing** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
@@ -49,7 +49,7 @@ To set up an e-document service, follow these steps.
     | Validate Receiving Company | Specify whether the receiving company information must be validated during import. |
     | Resolve Unit Of Measure | Specify whether to resolve the unit of measure during import. |
     | Lookup Item Reference | Specify whether to search for items by item reference during import. |
-    | Lookup Item GTIN | Specify whether to search for items by Global Trade Item Number (GTIN) during import. |
+    | Lookup Item GTIN | Specify whether to search for items by global trade item number (GTIN) during import. |
     | Lookup Account Mapping | Specify whether to search for accounts in **Account Mapping** by the incoming text during import. |
     | Validate Line Discount | Specify whether to validate a line discount during import. |
     | Apply Invoice Discount | Specify whether to apply an invoice discount during import. |

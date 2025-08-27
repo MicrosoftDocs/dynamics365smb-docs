@@ -21,7 +21,7 @@ Depreciation is used to allocate the cost of fixed assets, such as machinery and
 * Automatically, by running the **Calculate Depreciation** batch job.  
 * Manually, by using the fixed asset G/L journal.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. Learn more in [Depreciation Methods](fa-depreciation-methods.md).  
 
 If several departments use a fixed asset, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  
 
@@ -42,7 +42,7 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 4. [!INCLUDE[open-search](includes/open-search.md)], enter **FA G/L Journals**, and then choose the related link.  
 
    On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field, you can see how many days of depreciation were calculated.  
-1. Choose the **Post** action.  
+5. Choose the **Post** action.  
 
 > [!NOTE]
 > Known limitation: If you set the **Use Force No. of Days** field to Yes, and the **Force No. of Days** field is set to a value where **Posting Date** minus **Number of Days** results in a date in the previous calendar year, the system doesn't let you post the depreciation.
@@ -54,7 +54,7 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Asset G/L Journal**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary.  
 3. In the **FA Posting Type** field, select **Depreciation**.  
-4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
+4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. Learn more in [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).
 5. Choose the **Post** action to post the journal.  
 
 The **Book Value** field on the **Fixed Asset Card** page is updated accordingly.
@@ -67,7 +67,7 @@ In the **Ending Book Value** field on the **FA Depreciation Books** page, you ca
 
 > [!NOTE]
 > If the last depreciation means that the **Book Value** field on the **Fixed Asset Card** page is zero, the last depreciation is automatically reduced by this amount.<br><br/>
-> If the value in the **Book Value** field is greater than zero after the last depreciation, for example because of a rounding problem or because a salvage value exists, the value in the **Ending Book Value** field on the **FA Depreciation Books** page is ignored. For more information, see [Post the salvage value together with the acquisition cost](fa-how-acquire.md#post-the-salvage-value-together-with-the-acquisition-cost).
+> If the value in the **Book Value** field is greater than zero after the last depreciation, for example because of a rounding problem or because a salvage value exists, the value in the **Ending Book Value** field on the **FA Depreciation Books** page is ignored. Learn more in [Post the salvage value together with the acquisition cost](fa-how-acquire.md#post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## Calculate allocations for a fixed asset
 
@@ -83,7 +83,7 @@ In the **Ending Book Value** field on the **FA Depreciation Books** page, you ca
 
 ## Use duplication lists to prepare to post to multiple depreciation books
 
-When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book. Learn more in [Post entries to different depreciation books](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
+When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book. Learn more in [Post entries to different depreciation books](fa-how-depreciate-amortize.md#post-entries-to-different-depreciation-books).
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Depreciation Books**, and then choose the related link.  
 2. Open the depreciation book, and then select the **Part of Duplication List** check box.  
@@ -101,7 +101,7 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
 
    > [!NOTE]  
    > The **Fixed Asset Journal** page contains new lines for different depreciation books according to the duplication list.  
-1. Review or edit the lines, and then choose the **Post** action.  
+6. Review or edit the lines, and then choose the **Post** action.  
 
    > [!NOTE]  
    > Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.  

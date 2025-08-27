@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: repair, service, fixed assets, manage fixed assets, maintenance cost
 ms.search.form: 5642, 5625
-ms.date: 11/11/2024
+ms.date: 08/08/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -44,8 +44,8 @@ Every time you do maintenance for an asset, such as a service visit, you can rec
 7. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for maintenance posting.
 
    > [!NOTE]  
-   > Step 7 only works if you set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).
-1. Choose the **Post** action.
+   > Step 7 only works if you set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. Learn more in [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).
+8. Choose the **Post** action.
 
 ## Record maintenance cost from a purchase invoice
 
@@ -65,7 +65,6 @@ You can print the **Maintenance - Next Service** report to list the assets that 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Maintenance Next Service**, and then choose the related link.  
 2. Fill in the **Starting Date** and **Ending Date** fields.  
 3. Choose the **Print** or **Preview** button.
-
 
 ## Monitor maintenance costs
 

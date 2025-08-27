@@ -1,6 +1,6 @@
 ---
 title: Set Up General Fixed Assets (FA) Information
-description: Before working with fixed assets, set up default G/L accounts, FA posting groups, allocation keys, journal templates and batches, and class and subclass codes.
+description: Configure default G/L accounts, FA posting groups, allocation keys, journal templates and batches, and class and subclass codes before using fixed assets.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
@@ -33,7 +33,7 @@ Use posting groups to define groups of fixed assets. Entries for these posting g
 
     > [!NOTE]  
     > To make sure that balancing accounts for different fixed assets postings are automatically inserted when you choose the **Insert FA Bal. Account** action on journal lines, follow the next step, based on appreciation posting.
-1. On the **Balancing Account** FastTab, in the **Appreciation Bal. Account** field, select the general ledger account to which you want to post balancing entries for appreciation.
+4. On the **Balancing Account** FastTab, in the **Appreciation Bal. Account** field, select the general ledger account to which you want to post balancing entries for appreciation.
 
 Learn more in [Revalue Fixed Assets](fa-how-revalue.md) for information about using the **Insert FA Bal. Account** action on fixed asset G/L journal lines.
 
@@ -71,8 +71,8 @@ If you're using the fixed assets in [!INCLUDE[prod_short](includes/prod_short.md
 The following procedure is used if fixed asset transactions are to be posted to the general ledger.  
 
 1. Complete the basic setups for fixed assets.  
-1. Fill in a fixed asset card for each existing asset.  
-1. Create a fixed asset depreciation book for each depreciation purpose (such as tax and financial statements). For each depreciation book, define the terms and conditions, such as integration with the general ledger.
+2. Fill in a fixed asset card for each existing asset.  
+3. Create a fixed asset depreciation book for each depreciation purpose (such as tax and financial statements). For each depreciation book, define the terms and conditions, such as integration with the general ledger.
 
     Enable general ledger integration by following the next steps. First, ensure that general ledger integration isn't enabled for all depreciation books, then post the opening entries, and finally, turn on general ledger integration.  
 4. [!INCLUDE[open-search](includes/open-search.md)], enter **Depreciation Books**, and then choose the related link.  
@@ -84,7 +84,7 @@ The following procedure is used if fixed asset transactions are to be posted to 
    * A line with the accumulated depreciation from the start of the current fiscal year to the date that [!INCLUDE[prod_short](includes/prod_short.md)] is set to start calculating the depreciation.
 
     If you have other opening balances you can also enter them now, such as write-down and appreciation.  
-1. After you enter and post the journal lines for each asset, turn on general ledger integration in the
+8. After you enter and post the journal lines for each asset, turn on general ledger integration in the
 depreciation books.
 
 If the fixed assets aren't integrated with the general ledger, skip steps six and eight.

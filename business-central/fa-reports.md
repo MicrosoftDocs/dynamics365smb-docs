@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: article
-ms.search.keywords: reporting, fixed assets, report explorer
+ms.search.keywords: reporting, fixed assets, report explorer, maintenance reports
 ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610, Report_5611
 ms.date: 08/07/2025
 ms.service: dynamics-365-business-central

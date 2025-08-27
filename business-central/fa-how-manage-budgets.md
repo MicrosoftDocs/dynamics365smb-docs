@@ -27,7 +27,7 @@ When you post the acquisition cost, you enter the number of the budgeted fixed a
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
 2. Choose the **New** action to create a new fixed asset card for the budgeted fixed asset.
 3. Select the **Budgeted Asset** check box to prevent posting to the general ledger.
-4. Fill in the remaining fields, assign a depreciation book, and then post the first acquisition cost with the budgeted fixed asset entered in the **Budgeted FA No.** field on the journal line. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).
+4. Fill in the remaining fields, assign a depreciation book, and then post the first acquisition cost with the budgeted fixed asset entered in the **Budgeted FA No.** field on the journal line. Learn more in [Acquire Fixed Assets](fa-how-acquire.md).
 
 ## Budget the disposal of a fixed asset
 

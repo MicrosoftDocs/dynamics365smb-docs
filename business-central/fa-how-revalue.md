@@ -29,8 +29,8 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for appreciation posting.
 
     > [!NOTE]  
-    > Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Appreciation Account** field contains the general ledger debit account and the **Appreciation Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).  
-1. Choose the **Post** action.
+    > Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Appreciation Account** field contains the general ledger debit account and the **Appreciation Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. Learn more in [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).  
+5. Choose the **Post** action.
 
 ## Post a write-down from the fixed asset G/L journal
 
@@ -40,8 +40,8 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for write-down posting.
 
     > [!NOTE]  
-    > Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Write-Down Account** field contains the general ledger credit account and the **Write-Down Expense Account** field contains the general ledger debit account to which you want to post balancing entries for write-downs. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).
-1. Choose the **Post** action.
+    > Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Write-Down Account** field contains the general ledger credit account and the **Write-Down Expense Account** field contains the general ledger debit account to which you want to post balancing entries for write-downs. Learn more in [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).
+5. Choose the **Post** action.
 
 ## Perform general revaluation of fixed assets
 
@@ -51,7 +51,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 2. Fill in the fields as necessary.
 3. Choose the **OK** button.
 
-    Revaluation lines are created per your settings in step 2. The lines are created in either the fixed asset journal or the fixed asset G/L journal, depending on your template and batch setup on the **FA Journal Setup** page. For more information, see [Set Up General Fixed Asset Information](fa-how-setup-general.md).
+    Revaluation lines are created per your settings in step 2. The lines are created in either the fixed asset journal or the fixed asset G/L journal, depending on your template and batch setup on the **FA Journal Setup** page. Learn more in [Set Up General Fixed Asset Information](fa-how-setup-general.md).
 4. [!INCLUDE[open-search](includes/open-search.md)], enter **FA G/L Journals**, and then choose the related link.  
 5. Select the journal with the fixed assets that you want to revalue, and then choose the **Ledger Entries** action.  
 6. Check the created entries, and then choose the **Post** action to post the journal.
@@ -61,7 +61,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 
 ## Post other acquisition costs
 
-You post other acquisition cost for a fixed asset from a purchase invoice or from a fixed asset journal in the same way as you post the original acquisition cost. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).  
+You post other acquisition cost for a fixed asset from a purchase invoice or from a fixed asset journal in the same way as you post the original acquisition cost. Learn more in [Acquire Fixed Assets](fa-how-acquire.md).  
 
 If depreciation is already calculated for the fixed asset, select the **Depr. Acquisition Cost** checkbox to have the other acquisition cost less the salvage value depreciated in proportion to the amount by which the previously acquired fixed asset is depreciated. This method ensures that the depreciation period isn't changed.  
 

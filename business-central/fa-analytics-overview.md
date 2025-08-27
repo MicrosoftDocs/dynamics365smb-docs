@@ -98,7 +98,7 @@ Learn more in [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) for 
 
 [!INCLUDE [fa_reports_report_explorer](includes/fa-reports-report-explorer-include.md)]
 
-For more information about reports that are relevant for fixed assets, see [Built-in fixed assets reports](fa-reports.md).
+Learn more in [Built-in fixed assets reports](fa-reports.md) for information about reports that are relevant for fixed assets.
 
 ## On-screen fixed assets analytics
 
@@ -106,10 +106,10 @@ For more information about reports that are relevant for fixed assets, see [Buil
 
 - [Calculate depreciation, post depreciation, and analyze depreciation](fa-how-depreciate-amortize.md)
 - [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
-- [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-- [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-- [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-- [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+- [Monitor insurance coverage](fa-how-insure.md#monitor-insurance-coverage)
+- [View changed depreciation book values](fa-how-trans-split-combine.md#view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+- [View disposal ledger entries](fa-how-dispose-retire.md#view-disposal-ledger-entries)
+- [View projected disposal values](fa-how-manage-budgets.md#view-projected-disposal-values)
 
 ### Show fixed asset general ledger entries and balances from the Chart of Accounts page
 

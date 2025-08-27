@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: concept-article
-ms.search.keywords: machinery, buildings
+ms.search.keywords: machinery, buildings, fixed assets
 ms.search.form: 5607
 ms.date: 08/07/2025
 ms.service: dynamics-365-business-central

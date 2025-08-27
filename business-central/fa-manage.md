@@ -70,9 +70,9 @@ This section describes the analytical tools you can use to get insights into dat
 | Do ad-hoc analysis of fixed assets data directly on list pages and queries. | [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) |
 | Explore built-in reports for fixed assets. | [Built-in fixed assets reports](fa-reports.md) |
 | Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs) |
-| Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage) |
-| View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
-| View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
+| Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#monitor-insurance-coverage) |
+| View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#view-disposal-ledger-entries) |
+| View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#view-projected-disposal-values) |
 
 ## Register fixed assets
 
@@ -91,13 +91,13 @@ To track fixed asset depreciations and other financial transactions for fixed as
 1. Fill in a journal with the resulting entries.
 1. Post the journal.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] supports several depreciation methods. To learn more, go to [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books for each fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
+[!INCLUDE[prod_short](includes/prod_short.md)] supports several depreciation methods. Learn more in [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books for each fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
 
 | To | See |
 |--|--|
 | Learn about different fixed asset depreciation methods. | [Depreciation Methods](fa-depreciation-methods.md) |
 | Calculate depreciation, post depreciation, and analyze depreciation in fixed assets reports. | [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md) |
-| View changed depreciation book values. | [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
+| View changed depreciation book values. | [View changed depreciation book values](fa-how-trans-split-combine.md#view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Manually record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. | [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md) |
 
 ## Fixed assets maintenance and insurance
@@ -109,7 +109,7 @@ You can record maintenance costs and the next service date for each asset. Track
 | Record service visits, post maintenance costs, and monitor maintenance costs. | [Maintain Fixed Assets](fa-how-maintain.md) |
 | Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs) |
 | Update insurance information, post acquisition costs to insurance policies, modify insurance coverage, view insurance statistics, and list insurance policies. | [Insure Fixed Assets](fa-how-insure.md) |
-| Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage) |
+| Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#monitor-insurance-coverage) |
 
 ## Reclassify, transfer, split up/combine, adjust value, write-down, and dispose fixed assets
 
@@ -118,8 +118,8 @@ You can record maintenance costs and the next service date for each asset. Track
 | Reclassify fixed assets, transfer fixed assets to different locations, split up or combine assets. | [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md) |
 | Adjust values of fixed assets, post appreciation, and post write-down transactions. | [Revalue Fixed Assets](fa-how-revalue.md) |
 | Post disposal transactions, view disposal ledger entries, and post partial disposals. | [Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md) |
-| View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
-| View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
+| View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#view-disposal-ledger-entries) |
+| View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#view-projected-disposal-values) |
 
 ## Tips for improving your fixed asset accounting
 

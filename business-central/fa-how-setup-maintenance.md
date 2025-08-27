@@ -32,6 +32,7 @@ When you post maintenance costs from a general journal, you fill in the **Mainte
 2. On the **Maintenance** page, set up codes for different types of maintenance work.
 
 ## Set up maintenance expense accounts
+
 To post maintenance costs, you must first enter an account number on the **FA Posting Groups** page.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Posting Groups**, and then choose the related link.

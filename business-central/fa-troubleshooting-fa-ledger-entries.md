@@ -5,7 +5,7 @@ documentationcenter: ''
 author: brentholtorf
 ms.topic: troubleshooting-general
 ms.devlang: al
-ms.search.keywords: machinery, buildings, troubleshooting fixed assets
+ms.search.keywords: machinery, buildings, troubleshooting fixed assets, ledger entries
 ms.date: 08/07/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

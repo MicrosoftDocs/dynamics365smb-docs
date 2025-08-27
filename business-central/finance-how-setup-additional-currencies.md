@@ -50,7 +50,7 @@ To set up an ACY, follow these steps:
 
 ### To specify general ledger accounts for posting exchange rate adjustments  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Currencies**, and then choose the related link.  
 2. On the **Currencies** page, fill in the following fields for the ACY.  
 
 |Field|Description|  
@@ -67,7 +67,7 @@ For each general ledger account, you must specify how general ledger amounts for
 
 ### To specify the exchange rate adjustment method for all general ledger accounts
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, select the relevant account, and then choose the **Edit** action.  
 3. On the **GL Account Card** page, select the relevant method in the **Exchange Rate Adjustment** field.  
 
@@ -85,7 +85,7 @@ For each general ledger account, you must specify how general ledger amounts for
 
 ### To specify exchange rate adjustment method for VAT entries
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, select the relevant method in the **VAT Exchange Rate Adjustment** field.  
 3. If you post in an ACY, in the **VAT Exchange Rate Adjustment** field you can specify how the accounts set up for VAT posting on the **VAT Posting Setup** page are adjusted for exchange-rate fluctuations between LCY and the ACY.  
 
@@ -101,7 +101,7 @@ For each general ledger account, you must specify how general ledger amounts for
 
 ### To activate the ACY  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, in the **Additional Reporting Currency** field, choose the additional currency that you want to report in.  
 3. When you leave the field, [!INCLUDE[prod_short](includes/prod_short.md)] displays a confirmation message describing the effects of activating the ACY.  
 4. Choose the **Yes** button to confirm that you want to activate the currency.  

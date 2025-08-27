@@ -22,7 +22,7 @@ You can allocate costs can be to one or more intercompany partners using the fol
 ## To allocate costs using an intercompany general journal
 To enter a  line in an intercompany general journal, follow these steps. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journal** , and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany General Journal** , and then choose the related link.
 2. If required, in the **External Document No.** field, enter the document number on the invoice from the vendor.
 3. In the **Document Type** field, choose **Invoice**.
 4. In the **Account Type** field, choose **Vendor**.
@@ -49,7 +49,7 @@ The following procedure describes how to allocate costs using a purchase invoice
 > [!NOTE]
 > To complete these steps you must personalize the **Purchase Invoice** page by adding the **IC Partner Code**, **IC Partner Ref. Type**, and **IC Partner** fields. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** , and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoice** , and then choose the related link.
 2. In the **Type** field, choose **G/L Account**.
    
    G/L Account is the only option you can use to allocate costs.  
@@ -62,7 +62,7 @@ The following procedure describes how to allocate costs using a purchase invoice
 1. To post the purchase order, choose **Post**.
 
 ## To send the allocated costs to intercompany partners
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IC Outbox Transactions**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **IC Outbox Transactions**, and then choose the related link.
 2. Choose lines to send, and then choose the **Send to IC Partner** action. 
 3. To allocate the costs, choose the **Complete Line Actions** action.
 

@@ -18,7 +18,7 @@ ms.reviewer: jswymer
 After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines on the **Segment** page manually, but it is easier and faster to use the **Add Contacts** action.
 
 ## To add a contact to a segment
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Segments**, and then choose the related link.  
 2. Select the segment, and then choose the **Add Contacts** action. The **Add Contacts** batch job page opens.
 3. In the **Contact** section, set filters to specify the information by which you want to select contacts.
 

@@ -20,22 +20,22 @@ To manage fixed asset maintenance, you must first set up some general maintenanc
 
 If you set up the fields for maintenance, you can post maintenance expenses from the fixed asset journal.
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
-1. Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.
-1. On the **Maintenance** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
+2. Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.
+3. On the **Maintenance** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Set up maintenance codes
 
 When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance**, and then choose the related link.
-1. On the **Maintenance** page, set up codes for different types of maintenance work.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Maintenance**, and then choose the related link.
+2. On the **Maintenance** page, set up codes for different types of maintenance work.
 
 ## Set up maintenance expense accounts
 To post maintenance costs, you must first enter an account number on the **FA Posting Groups** page.
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.
-1. Fill in the **Maintenance Expense Account** field for each posting group.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **FA Posting Groups**, and then choose the related link.
+2. Fill in the **Maintenance Expense Account** field for each posting group.
 
 > [!NOTE]  
 > To define that maintenance costs are allocated to departments or projects, set up an allocation keys. Learn more in [Set Up General Fixed Assets Features](fa-how-setup-general.md).

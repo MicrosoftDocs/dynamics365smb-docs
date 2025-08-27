@@ -21,7 +21,7 @@ To account for salary payments and related transactions, you must import and pos
 
 ## To import a payroll file
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Journals**, and then choose the related link.
 2. In the relevant general journal batch, choose the **Import Payroll Transactions** action. An assisted setup guide opens.
 3. Follow the steps on the **Import Payroll Transactions** page.
 

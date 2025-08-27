@@ -22,11 +22,11 @@ Before you can create a combined shipment, you must post, but not invoice, more 
 
 ## Manually combine shipments on a single invoice
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
-1. Choose the **New** action, and then fill in the fields as necessary. Learn more in [Invoice Sales](sales-how-invoice-sales.md) or [Create service invoices or credit memos](service-how-create-invoices.md).
-1. In the **Sell-to Customer No.** field, enter the customer to invoice for the shipped items.  
-1. On the **Lines** FastTab, choose the **Get Shipment Lines** action.  
-1. Select the shipment line that you want to include in the invoice:  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Invoices**, and then choose the related link.  
+2. Choose the **New** action, and then fill in the fields as necessary. To learn more, go to [Invoice Sales](sales-how-invoice-sales.md) or [Create service invoices or credit memos](service-how-create-invoices.md).
+3. In the **Sell-to Customer No.** field, enter the customer to invoice for the shipped items.  
+4. On the **Lines** FastTab, choose the **Get Shipment Lines** action.  
+5. Select the shipment line that you want to include in the invoice:  
 
    - To insert all lines, select all lines and choose the **OK** button.  
    - To insert specific lines, select the lines and choose the **OK** button. You can use the Ctrl key to select multiple nonsequential lines.  
@@ -41,10 +41,10 @@ Before you can create a combined shipment, you must post, but not invoice, more 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] selects only sales orders where **Combine Shipments** is chosen.
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
-1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-1. Choose the **Post Invoices** checkbox.  
-1. Choose the **OK** button.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Choose the **Post Invoices** checkbox.  
+4. Choose the **OK** button.  
 
 > [!NOTE]  
 > You must manually post the invoices if the **Post Invoices** checkbox wasn't selected on the batch job.  
@@ -53,9 +53,9 @@ Before you can create a combined shipment, you must post, but not invoice, more 
 
 When you combine and post shipments on an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] creates a posted sales or service invoice for the invoiced lines. The **Quantity Invoiced** field on the original order updates based on the invoiced quantity. The orders from which you post the shipments still exist, even if they're fully shipped and invoiced.
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Sales Orders**, and then select the link.  
-1. Specify in the **No.** filter field which sales orders to delete.  
-1. Choose the **OK** button.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Delete Invoiced Sales Orders**, and then select the link.  
+2. Specify in the **No.** filter field which sales orders to delete.  
+3. Choose the **OK** button.  
 
 Alternatively, delete individual sales or service orders manually.  
 

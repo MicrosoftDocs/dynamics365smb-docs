@@ -29,19 +29,19 @@ Indexation is used to adjust values for general price-level changes. Use the **I
 
 Every time you do maintenance for an asset, such as a service visit, you can record it on the **Maintenance Registrations** page.  
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
-1. Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.
-1. On the **Maintenance Registration** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.  
+2. Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.
+3. On the **Maintenance Registration** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## Post maintenance costs from a fixed asset G/L journal
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Book List**, and then choose the related link.  
-1. Select the depreciation book that is assigned to the fixed asset, and then choose the **Edit** action.
-1. On the **Depreciation Book Card** page, make sure the **Maintenance** checkbox isn't selected so that you don't post maintenance costs to the general ledger.
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
-1. Create an initial journal line and fill in the fields as necessary.
-1. In the **FA Posting Type** field, select **Maintenance**.
-1. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for maintenance posting.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Depreciation Book List**, and then choose the related link.  
+2. Select the depreciation book that is assigned to the fixed asset, and then choose the **Edit** action.
+3. On the **Depreciation Book Card** page, make sure the **Maintenance** checkbox isn't selected so that you don't post maintenance costs to the general ledger.
+4. [!INCLUDE[open-search](includes/open-search.md)], enter **FA G/L Journals**, and then choose the related link.  
+5. Create an initial journal line and fill in the fields as necessary.
+6. In the **FA Posting Type** field, select **Maintenance**.
+7. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for maintenance posting.
 
    > [!NOTE]  
    > Step 7 only works if you set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).
@@ -51,20 +51,21 @@ Every time you do maintenance for an asset, such as a service visit, you can rec
 
 The following steps describe how to record maintenance costs for a fixed asset from a purchase invoice. The steps are similar for purchase orders.
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice**, and then choose the related link.
-1. On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-1. On the **Lines** FastTab, in the **Type** field, choose **Fixed Asset**.
-1. In the **No.** field, choose the asset, and then specify the quantity and cost.
-1. In the **FA Posting Type** field, choose **Maintenance**.
-1. Post the purchase invoice.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoice**, and then choose the related link.
+2. On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **Lines** FastTab, in the **Type** field, choose **Fixed Asset**.
+4. In the **No.** field, choose the asset, and then specify the quantity and cost.
+5. In the **FA Posting Type** field, choose **Maintenance**.
+6. Post the purchase invoice.
 
 ## Follow up on service visits
 
 You can print the **Maintenance - Next Service** report to list the assets that are scheduled for service. You can also use this report when you want to update the **Next Service Date** field on fixed asset cards.  
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance Next Service**, and then choose the related link.  
-1. Fill in the **Starting Date** and **Ending Date** fields.  
-1. Choose the **Print** or **Preview** button.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Maintenance Next Service**, and then choose the related link.  
+2. Fill in the **Starting Date** and **Ending Date** fields.  
+3. Choose the **Print** or **Preview** button.
+
 
 ## Monitor maintenance costs
 
@@ -76,10 +77,10 @@ Learn more in [Fixed assets maintenance reports](fa-reports.md#fixed-assets-main
 
 You can view statistics to monitor maintenance costs.  
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
-1. Select the fixed asset you want to view maintenance costs for, and then choose the **Depreciation Books** action.
-1. On the **FA Depreciation Books** page, select the relevant fixed asset depreciation book, and then choose the **Statistics** action.
-1. On the **Fixed Asset Statistics** page, choose the **Maintenance** field.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
+2. Select the fixed asset you want to view maintenance costs for, and then choose the **Depreciation Books** action.
+3. On the **FA Depreciation Books** page, select the relevant fixed asset depreciation book, and then choose the **Statistics** action.
+4. On the **Fixed Asset Statistics** page, choose the **Maintenance** field.
 
 Use the **Maintenance Ledger Entries** page to view the entries that make up the amount in the **Maintenance** field.
 
@@ -87,9 +88,9 @@ Use the **Maintenance Ledger Entries** page to view the entries that make up the
 
 In the **Maintenance - Analysis** report, you can select to examine maintenance based on one, two, or three maintenance codes for a specific date or period. The report can show the total for all selected assets, or a total for each asset.
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance Analysis**, and then choose the related link.
-1. Fill in the fields as necessary.
-1. Choose the **Print** or **Preview** button.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Maintenance Analysis**, and then choose the related link.
+2. Fill in the fields as necessary.
+3. Choose the **Print** or **Preview** button.
 
 Learn more in [Maintenance - Analysis](reports/report-5630.md).
 
@@ -97,17 +98,17 @@ Learn more in [Maintenance - Analysis](reports/report-5630.md).
 
 You can also explore maintenance costs by viewing the maintenance ledger entries.  
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
-1. Select the fixed asset that you want to view ledger entries for, and then choose the **Depreciation Books** action.
-1. On the **FA Depreciation Books** page, select the relevant fixed asset depreciation book, and then choose the **Maintenance Ledger Entries** action.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
+2. Select the fixed asset that you want to view ledger entries for, and then choose the **Depreciation Books** action.
+3. On the **FA Depreciation Books** page, select the relevant fixed asset depreciation book, and then choose the **Maintenance Ledger Entries** action.
 
 ## View or print maintenance ledger entries for multiple fixed assets
 
 In the **Maintenance - Details** report, you can view or print maintenance ledger entries for one or many fixed assets.  
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance Details**, and then choose the related link.
-1. Fill in the fields as necessary.
-1. Choose the **Print** or **Preview** button.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Maintenance Details**, and then choose the related link.
+2. Fill in the fields as necessary.
+3. Choose the **Print** or **Preview** button.
 
 ## Related information
 

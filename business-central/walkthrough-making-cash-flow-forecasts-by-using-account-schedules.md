@@ -49,7 +49,7 @@ The financial report name is the name you give the cash flow forecast that inclu
 
 ### Set up a new financial report name  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Financial Reports**, and then choose the related link.  
 2. On the **Financial Reports** page, choose **New** to create a new cash flow financial report name.  
 3. In the **Name** field, enter **Forecast**.  
 4. In the **Description** field, enter **Cash Flow Forecast**.  

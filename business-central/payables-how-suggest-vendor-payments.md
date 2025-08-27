@@ -33,7 +33,7 @@ To benefit fully from payment suggestions, you must prioritize your vendors. To 
 
 ## Use the Suggest Vendor Payments action
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then select the related link.  
 2. Open the journal, and then select the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Select the **OK** button.  

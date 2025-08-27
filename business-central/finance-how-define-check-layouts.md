@@ -19,7 +19,7 @@ Checks are designed to print in both the United States and Canadian check image 
 
 ## To select a check layout
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Report Selections Bank Account**, and then choose the related link.
 2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Check**.
 3. Select one of the following report IDs.
 

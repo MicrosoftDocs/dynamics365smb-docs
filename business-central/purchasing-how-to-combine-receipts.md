@@ -24,7 +24,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 
 ## To combine receipts
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action. For more information, see [Record Purchases](purchasing-how-record-purchases.md).  
 3. On the **Lines** FastTab, choose the **Get Receipt Lines** action.  
 4. Select multiple receipt lines that you want to include in the invoice.  
@@ -34,7 +34,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 
 ## To remove open purchase orders after combined receipt posting
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Orders**, and select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Delete Invoiced Purchase Orders**, and select the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Choose the **OK** button.  
 

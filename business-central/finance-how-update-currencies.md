@@ -127,7 +127,7 @@ You can use an external service to keep your currency exchange rates up to date.
 > [!NOTE]
 > Most exchange rate services provide data that is compatible with the import process in [!INCLUDE[prod_short](includes/prod_short.md)]. However, sometimes the data is formatted differently and you need to customize your import process. You can use the data exchange framework to do that by adding your own codeunit. You might need some help from a developer to do that. To learn more, go to [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Currency Exchange Rate Services**, and then select the related link.
 2. Select the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Map the fields from the XML file to the currency exchange rates table in the source field.
@@ -145,7 +145,7 @@ You can use an external service to keep your currency exchange rates up to date.
 
 Follow the steps given to update the currency exchange rates through a service:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Currencies**, and then select the related link.
 2. Select the **Update Exchange Rates** action.
 
 ## Correct mistakes

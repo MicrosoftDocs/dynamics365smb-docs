@@ -28,7 +28,7 @@ The first step to put away output is to create the inbound warehouse request. Th
 
 ### To create the inbound warehouse request  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Released Production Order**, and then choose the related link.  
 2. Choose the production order that's ready for put-away, and then choose the **Create Inbound Whse. Request** action.  
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ The first step to put away output is to create the inbound warehouse request. Th
 
 ### To put away output with an inventory put-away  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Inventory Put-away**, and then choose the related link.  
 2. Create a new inventory put-away. Learn more at [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3. To access the production order output, choose the **Get Source Documents** action, and then select the released production order.  
 4. Fill in the put-away lines as needed.

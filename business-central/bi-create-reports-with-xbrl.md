@@ -66,7 +66,7 @@ After you import or update the taxonomy, the lines of the schemas must filled ou
 
 You set up XBRL lines by mapping the data in the taxonomy to the data in your general ledger.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **XBRL Taxonomies**, then choose the related link.  
 2. On the **XBRL Taxonomies** page, select a taxonomy from the list.  
 3. Choose the **Lines** action.  
 4. Select a line and fill in the fields.  
@@ -87,7 +87,7 @@ You set up XBRL lines by mapping the data in the taxonomy to the data in your ge
 
 The first step in working with the XBRL functionality is to import a taxonomy into your company database. A taxonomy consists of one or more schemas and some linkbases. After you have completed the import of both schemas and linkbases and have applied the linkbases to the schema, you can set up the lines and map the general ledger accounts in the chart of accounts to the appropriate taxonomy lines.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **XBRL Taxonomies**, then choose the related link.  
 2. On the **XBRL Taxonomies** page, create a new line and enter the name and description of the taxonomy.  
 3. Choose the **Schemas** action, then insert the description of the schema.  
 4. To import the schema, on the **XBRL Schemas** page, choose the **Import** action, then do one of the following steps to upload the file:
@@ -106,7 +106,7 @@ The first step in working with the XBRL functionality is to import a taxonomy in
 
 When a taxonomy changes you need to update the current taxonomy accordingly. The reason for the update can be an altered schema, an altered linkbase, or a new linkbase. After updating the taxonomy, you only need to map the lines for the changed or new lines.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **XBRL Taxonomies**, then choose the related link.  
 2. On the **XBRL Taxonomies** page, choose the **Schemas** action.  
 3. To update a schema, select the schema you want to update, then choose the **Import** action.  
 4. To update or add a new linkbase, choose the **Linkbases** action.  

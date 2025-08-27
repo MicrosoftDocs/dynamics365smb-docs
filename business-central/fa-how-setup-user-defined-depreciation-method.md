@@ -25,9 +25,9 @@ The formula for calculating the depreciation amounts is:
 
 ## Assign a depreciation book to a fixed asset with a user-defined depreciation method
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
-1. Select the fixed asset that you want to set up a fixed asset depreciation book for.
-1. Choose the **Related** action, and then choose **Fixed Asset**, and then **Depreciation Books**. This opens the **FA Depreciation Books** page.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
+2. Select the fixed asset that you want to set up a fixed asset depreciation book for.
+3. Choose the **Related** action, and then choose **Fixed Asset**, and then **Depreciation Books**. This opens the **FA Depreciation Books** page.
 
    By default, some of the fields that need to be filled in per the instructions below are hidden, so you must display them. To do this, you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 1. In the field **Depreciation Method**, select **User-Defined**.
@@ -40,9 +40,9 @@ The formula for calculating the depreciation amounts is:
 
 On the **Depreciation Table** page, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
 
-1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables**, and then choose the related link.  
-1. On the **Depreciation Table List** page, choose the **New** action.  
-1. On the **Depreciation Table Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Depreciation Tables**, and then choose the related link.  
+2. On the **Depreciation Table List** page, choose the **New** action.  
+3. On the **Depreciation Table Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!TIP]
 > Use the **Create Sum of Digits Table** function to define a depreciation table based on the *Sum of Digits* method.

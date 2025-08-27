@@ -40,7 +40,7 @@ You can print up to 10 invoices on a page for a check stub. If a check applies t
 
 The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 2. Fill in the payment journal lines. To learn more, go to [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 3. In the **Payment Method Code** field, select **Check**.
 4. Choose the **Print Check** action.
@@ -68,7 +68,7 @@ After you post a check payment, you can only cancel (void) a check from the resu
 > [!IMPORTANT]
 > If the check is applied to an invoice, unapply the payment first so that the invoice can be repaid. To learn more, go to [To unapply an application of vendor entries](payables-how-apply-purchase-transactions-manually.md#to-unapply-an-application-of-vendor-entries). The steps are the same for customers. After you unapply the payment, void the check. If the check was printed but didn't pay an invoice, then choose **Void Check Only** as described in this section.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, and then choose the **Check Ledger Entries** action.
 3. On the **Check Ledger Entries** page, choose the **Void Check** action.
 4. Select the **Void Check Only** checkbox.
@@ -78,7 +78,7 @@ After you post a check payment, you can only cancel (void) a check from the resu
 
 If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Check Details** report.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Check Details**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Account - Check Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
 
 ## Related information

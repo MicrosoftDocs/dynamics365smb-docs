@@ -27,7 +27,7 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
 
 ## To change the database access intent
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Database Access Intent List**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Database Access Intent List**, and then choose the related link.
 
     The page lists all reports, pages, and queries. The **Access Intent** column includes one of the following values:
 

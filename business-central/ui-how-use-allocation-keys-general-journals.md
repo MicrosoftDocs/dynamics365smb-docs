@@ -16,7 +16,7 @@ ms.reviewer: bholtorf
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
 
 ## To set up allocation keys
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Recurring General Journal**, and then choose the related link.
 2. Choose the **Batch Name** field to open the **General Journal Batches** page.
 3. You can either modify allocations on an existing batch in the list or create a new batch with allocations.
    * To create a new batch, choose the **New** action, and go to the next step.
@@ -31,7 +31,7 @@ You can allocate an entry in a general journal to several different accounts whe
 11. Post the journal.
 
 ## To change an allocation key that has already been set up
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Recurring General Journal**, and then choose the related link.
 2. On the **Recurring General Journal** page, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
 4. Change the relevant fields, and then choose the **OK** button.

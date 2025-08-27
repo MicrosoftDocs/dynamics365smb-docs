@@ -53,11 +53,11 @@ Hover over the agent's icon or select the ![Show summary for Agent icon](media/s
 
 ## Review and assist
 
-The agent does most of the work autonomously, but sometimes it asks for user intervention to complete the process. Wnen intervention is needed depends on the agent and how it's set up, but here are some common situations:
+The agent does most of the work autonomously, but sometimes it asks for user intervention to complete the process. When intervention is needed depends on the agent and  its setup, but here are some common situations:
 
 - Reviewing and confirming incoming and outgoing emails
 - Review and confirm contact or vendor information.
-- Review and confirm the draft documents, like quites, orders and purchase invoices.
+- Review and confirm the draft documents, like quotes, orders and purchase invoices.
 - Help the agent get unblocked, like by providing missing data, creating a new contact for an order, or finding items.
 
 Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow) and [PaSales Order Agent process flow](sales-order-agent.md#how-the-agent-processes-requests).
@@ -75,9 +75,9 @@ Steps that need intervention appear under **Needs Attention** in the **Tasks** t
    The **Tasks** tab switches to **Review** mode, and the review content appears in the main display area.
 1. Review the contents and make changes as needed.
 
-1. If the agent assistance, a message appears at the top of the text explaining the problem
+1. If the agent need assistance, a message appears at the top of the text explaining the problem.
 
-   You can often help the agent by making the changes youself, like making an item available, creating the right customer, contact, or vendor, changing quantities in sales quotes, so on.
+   You can often help the agent by making the changes yourself, like making an item available, creating the right customer, contact, or vendor, changing quantities in sales quotes, so on.
 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane.
 
@@ -129,9 +129,24 @@ To complete the review and elevate the draft to a purchase invoice document, cho
 
 ## Give instructions to the agent
 
-When steps require intervention, you can often help the agent by making the changes youself, like making an item available, creating the right customer, contact, or vendor, changing quantities in sales quotes, so on.
+When you review a step, you might need to change something the agent created or help it get unblocked. For example, you might need to make an item available, create the correct customer or vendor, or change quantities in sales quotes. Instead of making the changes yourself, you can guide the agent to do the work by providing instructions in the **Tasks** tab.
 
-With this new feature, we make it easier to work with the agents' assistance requests by simply telling the agent what to do through these (currently called) "additional instructions". The users can write short instructions to the agent in natural language, or pick one of the predefined context-aware suggestions for instructions, and very quickly proceed with the task, allowing the agent to resolve the issue itself.
+:::image type="content" source="media/give-instructions-to-agent.svg" alt-text="Shows a step in Copilot Taks pane that includes the options to give instructions to the agent.":::
+
+In the **Give instructions to the agent** section of the step, you can choose from predefined, context-aware suggestions for instructions. Copilot generates these suggestions automatically based on the current task. In some cases, there are no suggestions. Alternatively, you can write your own instructions in the **Type your instruction** box. After you select a suggestion or type instructions, select **Confirm** to start the agent.
+
+### How to write instructions
+
+Here are some tips to get the best results:
+
+- Write instructions in everyday language.
+- Be specific and clear.
+- Keep instructions focused on what can be done related to the step.
+
+Here's what to avoid:
+
+- Instructions that directly alter the workflow, such as stopping the task, skipping or discarding a step.
+- Instructions that are out of scope of the step or task.
 
 ## Stop a task
 

@@ -18,11 +18,8 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 ## Enable the feature to send tax data using the 1099 form
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature Management**, and then choose the related link.
-1. Find the following feature: **Feature Update: Enable using 1099 forms to transmit the tax data to the IRS in the United States** that you want to enable.
-1. In the **Feature** column, choose the three vertical dots, and then choose the **Select More** action.
-1. Select the checkbox for all the features that you want to edit, and then choose **Edit List**.
-1. In the **Enabled for** column, change the status to **All Users**.
-1. Choose the **Yes** button.
+1. Find **Feature Update: Enable using 1099 forms to transmit the tax data to the IRS in the United States**.
+1. In the **Enabled for** column, choose **All Users**, and then choose **Yes** to confirm your choice.
 1. Become familiar with the feature, and then choose the **Next** button.
 1. Specify the relevant **Reporting Year**.
 1. Define the setup data you use for IRS forms.
@@ -42,7 +39,7 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
    * **Protect TIN** (Taxpayer Identification Number) to mask or protect TIN for vendors or for both vendors and your company. You can also choose not to protect TIN numbers.
 
    > [!NOTE]
-   > This protection option lets you print only the last four digits on your printing forms. The first five digits of the nine-digit number are truncated and replaced with Xs, following IRS regulations (example: XXXXX1234). This provides more security when sending documents via email, protecting the recipient from identity theft.  
+   > This protection option lets you print only the last four digits on your printing forms. The first five digits of the nine-digit number are truncated and replaced with Xs, following IRS regulations (example: XXXXX1234). This format provides more security when sending documents via email and helps protect the recipient from identity theft.  
 
  1. Finish the setup.
 
@@ -52,10 +49,10 @@ If you couldn't finish the setup when you enabled this feature, or you want to m
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Forms Setup**, and then choose the related link.
 1. On the **General** FastTab, you can change the setup for the **Collect Details For Line** and **Protect TIN** fields.  
-1. You can also set up details for the email you want to send to your recipients:
+1. You can also use the **Email Content Setup** action to set up the email you want to send to your recipients:
 
-   * Change the subject you in the **Email Subject** FastTab.  
-   * Change the email body in the **Email Body** FastTab. To edit your email body, use the rich text editor.  
+   * Change the subject on the **Email Subject** FastTab.  
+   * Change the email body text in the **Email Body** FastTab.  
 
 1. Close the page.
 
@@ -64,10 +61,10 @@ If you couldn't finish the setup when you enabled this feature, or you want to m
 To configure reporting periods and forms, follow the steps:
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Reporting Periods**, and then choose the related link.  
-1. On the **IRS Reporting Periods** page, specify the time period that the report applies to in the **Starting** and **Ending Date** fields.
-1. To set up specific 1099 forms for this period, use the **Forms** action to open the **IRS Reporting Periods** page.  
+1. To specify the time period that the report applies to, enter dates in the **Starting** and **Ending Date** fields.
+1. To set up specific 1099 forms for this period, use the **Forms** action to open the **IRS Reporting Forms** page. To learn more about the forms, go to [Types of IRS forms](introduction-to-the-irs-forms.md#types-of-irs-forms).
 1. On the **IRS 1099 Forms** page, specify 1099 form types, such as MISC, NEC, and so on. Because these form types have more than one source with different rules, you must set them up. To do so, run the **Form Boxes** action to open the **IRS 1099 Form Boxes** page.
-1. On the **IRS 1099 Form Boxes** page, set up sources for your form type using the **No.** and **Description** fields. You must fill in the **Minimum Reportable Amount** field based on the IRS instruction for this reporting year. The minimum reportable amounts can be populated whether or not you need to report a certain form box.
+1. On the **IRS 1099 Form Boxes** page, set up sources for your form type using the **No.** and **Description** fields. You must fill in the **Minimum Reportable Amount** field based on the IRS instructions for this reporting year.
 1. Close the **IRS 1099 Form Boxes** page.
 1. Close the **IRS 1099 Forms** page.
 
@@ -89,10 +86,10 @@ By choosing the **IRS Setup** action in the **Related** menu, you can do the sam
 > [!NOTE]
 > This vendor setup is related to the specific period you configured on the **IRS Reporting Periods** page.  
 
-You might need to do some more setup on the **Vendor card** page. To do so, follow the steps:
+You might need to do some more setup on the **Vendor Card** page. To do so, follow the steps:
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
-1. Details related to 1099 reporting are on the **Payments** FastTab. You can find default values for the following fields, based on the **IRS 1099 Vendor Form Box Setup** configuration:
+1. The fields related to 1099 reporting are on the **Payments** FastTab. You can find default values for the following fields, based on the **IRS 1099 Vendor Form Box Setup** configuration:
 
    * **IRS Reporting Period**
    * **IRS 1099 Form No.**
@@ -100,22 +97,22 @@ You might need to do some more setup on the **Vendor card** page. To do so, foll
 
 1. To configure more required information, you can:  
 
-   * Mark the **Receiving 1099 E-Form Consent** field to confirm that your vendor provided signed consent to receive their 1099 form electronically using email. You can't mark this field if a minimum email address isn't added for this vendor.
-   * To use different emails for delivering IRS related emails, you can enter this information in the **E-Mail For IRS** field. Otherwise, [!INCLUDE [prod_short](../../includes/prod_short.md)] uses the **Email** field.  
-   * Mark the **FATCA Requirement** field to specify if the vendor is set up to require FATCA filing.
+   * To confirm that your vendor provided signed consent to receive their 1099 form electronically using email, turn on the **Receiving 1099 E-Form Consent** toggle. To turn on this toggle, you must have an email address for the vendor in the **Email** field on the **Address & Contact** FastTab.
+   * To use a different email address for IRS-related emails, you can enter the address in the **E-Mail For IRS** field. Otherwise, [!INCLUDE [prod_short](../../includes/prod_short.md)] uses the address in the **Email** field.  
+   * If the vendor is set up to require FATCA filing, turn on the **FATCA Requirement** toggle.
 
 ## Print report configuration
 
-To print the form substitute documents, you must use a few setups. For every single printing form, there's a **Form Statement**. These statements are already configured, but you can change or update them. To do so, follow the steps:  
+To print the form substitute documents, you must have a few setups. A **Form Statement** is already configured for each form, but you can change or update them if needed. To do so, follow the steps:  
 
 1. To configure or customize the printed form, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the **IRS Reporting Periods**, and then choose the related link.
 1. Use the **Forms** action to open the **IRS 1099 Forms** page.
-1. When you open the **IRS 1099 Forms** page for a specific form **No.**, choose the **Edit Statement** action.  
+1. Choose the form, and then choose the **Edit Statement** action.  
 1. On the **IRS 1099 Form Statement** page, you can set up filters and rules that apply to the form document lines when you print. You can use the following fields to set up the 1099 form statement:  
 
    * **Row No.** – Specifies a number that identifies the line. The number is used as a form box number on the printed report.  
    * **Description** – Specifies a description of the 1099 form box on the printed report.  
-   * **Print Value Type** – Specifies the print value type of the statement. If **Amount** is selected, then the amount calculated by the filter expression is printed. If the **Yes/No** option is selected, then either **Yes** or **No** is printed based on the **Yes/No** condition.
+   * **Print Value Type** – Specifies the print value type of the statement. If **Amount** is selected, the amount calculated by the filter expression is printed. If the **Yes/No** option is selected, then either **Yes** or **No** is printed based on the **Yes/No** condition.
    * **Filter Expressions** - Specifies the filter expression of the statement.
    * **Row Totaling** – Specifies a row-number interval or a series of row numbers.  
    * **Print with** – Specifies whether amounts on the 1099 form box are printed with their original sign using the option **Sign** or with the sign reversed using the option **Opposite Sign**.
@@ -123,14 +120,15 @@ To print the form substitute documents, you must use a few setups. For every sin
 1. Close the page.
 
 > [!NOTE]  
-> Also, for every form you can set up the recipient instructions. These instructions are printed on the second page of the report layout. This is required for printing the form by the IRS because the instructions explain the meaning of each form box.
-> To do so, on the **IRS 1099 Forms** page, for the specific form **No.**, choose the **Edit Instructions** action to open the **IRS 1099 Form Instructions** page. On the **IRS 1099 Form Instructions** page, fill in the **Header** (it prints as a bold text) and **Description** fields (it prints as regular text).  
+> For every form, you can set up the recipient instructions. These instructions are printed on the second page of the report layout. The IRS requires this for printing the form because the instructions explain the meaning of each form box.
+>
+> To do so, on the **IRS 1099 Forms** page, choose a form and then choose the **Edit instructions** action to open the **IRS 1099 Form Instructions** page. On the **IRS 1099 Form Instructions** page, fill in the **Header** (prints as a bold text) and **Description** (prints as regular text) fields.  
 
 ## Related information
 
-- [United States Local Functionality](united-states-local-functionality.md)  
-- [How to submit and report the IRS 1099](set-up-use-irs1099-form-v24.md#print-report-configuration)  
-- [Register New Vendors](../../purchasing-how-register-new-vendors.md)  
-- [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[United States Local Functionality](united-states-local-functionality.md)  
+[How to submit and report the IRS 1099](set-up-use-irs1099-form-v24.md#print-report-configuration)  
+[Register New Vendors](../../purchasing-how-register-new-vendors.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,12 +53,12 @@ Hover over the agent's icon or select the ![Show summary for Agent icon](media/s
 
 ## Review and assist
 
-The agent does most of the work autonomously, but it asks for user input when needed to move through the process. For example:
+The agent does most of the work autonomously, but sometimes it asks for user intervention to complete the process. Wnen intervention is needed depends on the agent and how it's set up, but here are some common situations:
 
 - Reviewing and confirming incoming and outgoing emails
 - Review and confirm contact or vendor information.
 - Review and confirm the draft documents, like quites, orders and purchase invoices.
-- Help the agent get unblocked, like by providing missing data.
+- Help the agent get unblocked, like by providing missing data, creating a new contact for an order, or finding items.
 
 Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow) and [PaSales Order Agent process flow](sales-order-agent.md#how-the-agent-processes-requests).
 
@@ -74,6 +74,10 @@ Steps that need intervention appear under **Needs Attention** in the **Tasks** t
 
    The **Tasks** tab switches to **Review** mode, and the review content appears in the main display area.
 1. Review the contents and make changes as needed.
+
+1. If the agent assistance, a message appears at the top of the text explaining the problem
+
+   You can often help the agent by making the changes youself, like making an item available, creating the right customer, contact, or vendor, changing quantities in sales quotes, so on.
 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane.
 
@@ -125,7 +129,7 @@ To complete the review and elevate the draft to a purchase invoice document, cho
 
 ## Give instructions to the agent
 
-When ere are steps where the agent asks for user intervention. That could be because it needs assistance, something needs reviewing, etc. In these cases the user can oftentimes help the agent by going into Business Central and making the necessary changes themselves, like making an item available, creating the right customer/contact/vendor, changing quantities in sales quotes, etc.
+When steps require intervention, you can often help the agent by making the changes youself, like making an item available, creating the right customer, contact, or vendor, changing quantities in sales quotes, so on.
 
 With this new feature, we make it easier to work with the agents' assistance requests by simply telling the agent what to do through these (currently called) "additional instructions". The users can write short instructions to the agent in natural language, or pick one of the predefined context-aware suggestions for instructions, and very quickly proceed with the task, allowing the agent to resolve the issue itself.
 

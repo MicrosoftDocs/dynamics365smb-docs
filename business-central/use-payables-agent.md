@@ -146,10 +146,10 @@ Examples:
 
 |Scenario|Instructions|
 |-|-|
-|When requested quantity of an item isn't available|Change the quantity to 50.|
+|When requested quantity of an item isn't available|Change the quantity to 50|
 |When the agent can't determine the exact item|Give a quote for the Rome guest chair in blue|
 |When you want to change a field| Change the shipping date to 09/01|
-|When you want to specific information when creating an entity|Create vendor using OCR data.|
+|When you want to specific information when creating an entity|Create vendor using OCR data|
 
 Here's what to avoid:
 

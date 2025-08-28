@@ -30,7 +30,7 @@ The process flow is different for each agent. This article explains the common a
 
 ## Prerequisites
 
-The agent is activated, and you have permission to use it. Learn more in [Set up Payables Agent](payables-agent-setup.md).
+The agent is activated, and you have permission to use it. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md) and [Set up Payables Agent](payables-agent-setup.md).
 
 ## Get started
 
@@ -39,7 +39,7 @@ On the upper right of the navigation menu, select the icon for the agent:
 - ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent**
 - ![Shows Sales Order Agent icon.](media/soa-activated-number-icon.png) **Sales Order Agent**
 
-A red circle with a number on the icon indicates the tasks that need attention.
+A red circle with a number on the icon indicates the number of tasks that need attention.
 
 ![Shows the agents task view with steps](media/payables-agent-tasks-pane.svg)
 
@@ -131,22 +131,21 @@ To complete the review and elevate the draft to a purchase invoice document, cho
 
 When you review a step, you might need to change something the agent created or help it get unblocked. For example, you might need to make an item available, create the correct customer or vendor, or change quantities in sales quotes. Instead of making the changes yourself, you can guide the agent to do the work by providing instructions in the **Tasks** tab.
 
-:::image type="content" source="media/give-instructions-to-agent.svg" alt-text="Shows a step in Copilot Taks pane that includes the options to give instructions to the agent.":::
+:::image type="content" source="media/give-instructions-to-agent.svg" alt-text="Shows a step in Copilot Task pane that includes the options to give instructions to the agent.":::
 
 In the **Give instructions to the agent** section of the step, you can choose from predefined, context-aware suggestions for instructions. Copilot generates these suggestions automatically based on the current task. In some cases, there are no suggestions. Alternatively, you can write your own instructions in the **Type your instruction** box. After you select a suggestion or type instructions, select **Confirm** to start the agent.
 
 ### How to write instructions
 
-Here are some tips to get the best results:
+You're free to enter any text in the **Type your instruction** box, which lets you write instructions in plain, everyday language. Here are some tips to get the best results:
 
-- Write instructions in everyday language.
 - Be specific and clear.
-- Keep instructions focused on what can be done related to the step.
+- Keep instructions focused on actions relevant to the current step.
 
 Here's what to avoid:
 
-- Instructions that directly alter the workflow, such as stopping the task, skipping or discarding a step.
-- Instructions that are out of scope of the step or task.
+- Instructions that directly alter the workflow, such as stopping the task, skipping or discarding a step. These types of operations have dedicated actions in the interface rather than through freeform instructions.
+- Instructions that are out of scope for the step or task, asking the agent to update unrelated records or perform actions outside the current task's context.
 
 ## Stop a task
 

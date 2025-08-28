@@ -142,6 +142,15 @@ You're free to enter any text in the **Type your instruction** box, which lets y
 - Be specific and clear.
 - Keep instructions focused on actions relevant to the current step.
 
+#### Examples
+
+|Scenario|Instructions|
+|-|-|
+|When requested quantity of an item isn't available|Change the quantity to 50.|
+|When the agent can't determine the exact item|Give a quote for the Rome guest chair in blue|
+|When you want to change a field| Change the shipping date to 09/01|
+|When you want to specific information when creating an entity|Create vendor using OCR data.|
+
 Here's what to avoid:
 
 - Instructions that directly alter the workflow, such as stopping the task, skipping or discarding a step. These types of operations have dedicated actions in the interface rather than through freeform instructions.

@@ -2054,8 +2054,8 @@ ms.service: dynamics-365-business-central
 ###### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ###### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 ##### IRS1099
-###### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
-###### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+###### [Introduction to the IRS 1099 forms and functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+###### [Set up IRS 1099 forms](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 ###### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
 ###### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ###### Deprecated 1099 feature

@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: how-to
 ms.search.keywords: local, 1099, tax, IRS, IRIS, FIRE
 ms.search.form: 100136, 10037, 10048, 10050, 10051
-ms.date: 02/04/2025
+ms.date: 08/28/2025
 ms.author: altotovi
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Submit and report the IRS 1099 forms
 
-This article guides users on how to report and submit IRS 1099 forms using Dynamics 365 Business Central.
+This article describes how to report and submit IRS 1099 forms [!INCLUDE [prod_short](../../includes/prod_short.md)].
 
 ## Register with the IRS  
 
@@ -52,12 +52,27 @@ After calculation, you can use the **Print** action to print the document. When 
 - Copy C is for the sender.
 - Copy 2 is the second copy for the vendor.
 
+## Make a correction after you submitted the document
+
+If you discover a mistake after the IRS has accepted your submission, for example, you submitted incorrect amounts for some vendors, you can correct the error and resubmit.
+
+To correct a mistake and resubmit, follow these steps:
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **IRIS Transmissions**, and then choose the related link.
+1. Open the 1099 document that you want to correct, and choose the **Allow Correction** action.
+1. Choose the **Reopen** action, make your correction, choose the **Release** action, and then close the page.
+1. On the **IRIS Transmission** page, the **Needs Correction** checkbox is selected for the lines you corrected. 
+1. To resubmit the lines, choose the **Send Correction** action. [!INCLUDE [prod_short](../../includes/prod_short.md)] only sends the lines you corrected. 
+
+   > [!TIP]
+   > The **Corrected** field is useful for double-checking that the correction was made. If a line was corrected and accepted by the IRS, the field contains **Yes**.
+
 ## Email automation
 
 ### Prerequisites
 
 > [!NOTE]
-> You can't send the document via email if its **Status** isn't **Submitted**. This restriction helps you avoid sending an unsubmitted document to the vendor.
+> You can only send the document via email if its **Status** is **Submitted**. This restriction helps you avoid sending an unsubmitted document to the vendor.
 
 To send forms to your vendor, you must set up the consent and the email on the **Vendor Card** page. These settings include enabling the **Receiving 1099 E-Form Consent** field to acknowledge that your vendor provided signed consent to receive their 1099 form electronically using email.  
 
@@ -68,11 +83,11 @@ When the form document is created for a certain vendor, the values are inherited
 values on the **Email** FastTab of the document if you select **Show more**. After you create the document, you can't change the consent value in the document, but you can change the e-mail if needed. You can also change default values on the **Vendor Card** page. [!INCLUDE [prod_short](../../includes/prod_short.md)] will apply these changes to all open (where the **Status** is **Open**) 1099 form documents if you confirm with **Yes**.
 
 > [!NOTE]
-> Before you send emails, you must configure the accounts, you use for email on the **Email Accounts** page.  
+> Before you send emails, you must configure the accounts you use for email on the **Email Accounts** page.  
 
 ### Send emails
 
-To send 1099 form to one specific vendor, you can do so from the chosen **1099 Form Document** by choosing the **Send Email** action. It's also possible to automate this process, and to send emails for multiple 1099 documents. To do that, open the **IRS 1099 Form Documents** list page, select one or more documents, and choose the **Send Email** action.  
+To send 1099 form to a specific vendor, you can do so from the chosen **1099 Form Document** by choosing the **Send Email** action. It's also possible to automate this process, and to send emails for multiple 1099 documents. To do that, open the **IRS 1099 Form Documents** list page, select one or more documents, and choose the **Send Email** action.  
 
 After you run the **Send Email** action, select the report type you want to send. You can choose **Copy B** or **Copy 2** (required in some situations). By default, emails are sent only to vendors you haven't already sent them to. If you want to send emails for all selected documents (and resending for some of them), enable the **Resend Email** option on the request page.
 

@@ -142,7 +142,7 @@ You're free to enter any text in the **Type your instruction** box, which lets y
 - Be specific and clear.
 - Keep instructions focused on actions relevant to the current step.
 
-#### Examples
+Examples:
 
 |Scenario|Instructions|
 |-|-|

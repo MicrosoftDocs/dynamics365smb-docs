@@ -1,6 +1,6 @@
 ---
-title: Process Vendor Invoices with Payables Agent
-description: Payables Agent automates vendor invoice processing, tracks tasks, and keeps you informed. Discover how to simplify your accounts payable process.
+title: Supervise agent activities for processing orders and payables (preview)
+description: Monitor Payables and Sales Order agents in Copilot Tasks, review drafts, confirm steps, and keep invoices and orders accurate.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -15,9 +15,8 @@ ms.custom:
   - ai-gen-description
   - ai-seo-date:06/18/2025
 ms.search.form: 4400, 4410
-ROBOTS: NOINDEX,NOFOLLOW
 ---
-# Supervise agent activities (preview)
+# Supervise agent activities for processing orders and payables (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -36,16 +35,16 @@ The agent is activated, and you have permission to use it. Learn more in [Set up
 
 On the upper right of the navigation menu, select the icon for the agent:
 
-- ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent**
-- ![Shows Sales Order Agent icon.](media/soa-activated-number-icon.png) **Sales Order Agent**
+- ![Payables Agent icon in navigation menu.](media/payables-agent-activated-icon.png) **Payables Agent**
+- ![Sales Order Agent icon in navigation menu.](media/soa-activated-number-icon.png) **Sales Order Agent**
 
 A red circle with a number on the icon indicates the number of tasks that need attention.
 
-![Shows the agents task view with steps](media/payables-agent-tasks-pane.svg)
+![Shows the Payables Agent task view with process steps](media/payables-agent-tasks-pane.svg)
 
-Selecting the ![Shows the task view icon](media/sot-task-view-icon.png) icon opens the **Tasks** tab in the **Copilot** pane, where you can view tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
+Selecting the ![Task view icon in Copilot pane](media/sot-task-view-icon.png) icon opens the **Tasks** tab in the **Copilot** pane, where you can view tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
 
-For each inquiry the agent receives, like request for a quote or invoice, the agent adds a **task** to track, review, and follow up on until the agent creates the purchase invoice. Each task has multiple steps that create a timeline of the process. A timeline is a visual sequence that shows each step taken for the task, helping you understand the progress and history.
+For each inquiry the agent receives, like request for a quote or invoice, the agent adds a **task** to track, review, and follow up on until the agent creates the entity. Each task has multiple steps that create a timeline of the process. A timeline is a visual sequence that shows each step taken for the task, helping you understand the progress and history.
 
 ## View summary of agent activities
 

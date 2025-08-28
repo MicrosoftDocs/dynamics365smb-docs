@@ -60,7 +60,7 @@ The agent does most of the work autonomously, but sometimes it asks for user int
 - Review and confirm the draft documents, like quotes, orders and purchase invoices.
 - Help the agent get unblocked, like by providing missing data, creating a new contact for an order, or finding items.
 
-Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow) and [PaSales Order Agent process flow](sales-order-agent.md#how-the-agent-processes-requests).
+Learn more about the Payables Agent and its process flow in [Payables Agent process](payables-agent.md#payables-agent-process-flow) and [Sales Order Agent process](sales-order-agent.md#how-the-agent-processes-requests).
 
 ### Review a step
 

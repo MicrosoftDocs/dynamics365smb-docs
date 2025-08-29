@@ -175,10 +175,6 @@ Archived sales orders include following fields:
 
 The fields don't display on the page, but you can use page inspector to review them or explore the table to diagnose cases when an imported order was manually adjusted. Sometimes manual adjustments affect synchronization of shipments to Shopify flows.
 
-### Order Total FactBox
-
-The **Order total** part in the **Shopify Orders** page displays totals from both the order in Shopify and the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)]. The totals let you compare figures without opening each document, which can be helpful when you're testing customer and item templates.
-
 ## Known issues
 
 ### Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOUR SHOPIFY STORE'

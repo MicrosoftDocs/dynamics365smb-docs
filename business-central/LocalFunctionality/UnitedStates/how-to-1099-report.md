@@ -25,7 +25,8 @@ You can print or email 1099 copy substitutes to your vendors, including all the 
 
 [!INCLUDE [prod_short](../../includes/prod_short.md)] provides an API that integrates the IRS's Information Returns Intake System (IRIS) so that you can electronically file your returns. To learn more about IRIS, go to the [IRS website](https://go.microsoft.com/fwlink/?linkid=2334210).
 
-After create 1099 form documents for vendors, when you post invoices for vendors and apply payments to them, the **Amount** field on the **1099 Form Document** page updates. It's a good idea to review the amount before you submit the information. However, if you find a mistake later, you can correct it. Learn more at [Make a correction after you submitted the document](#make-a-correction-after-you-submitted-the-document).
+> [!NOTE]
+> After create 1099 form documents for vendors, when you post invoices for vendors and apply payments to them, the **Amount** field on the **1099 Form Document** page updates. It's a good idea to review the amount before you submit the information.
 
 To submit your 1099 form using IRIS, follow these steps:
 

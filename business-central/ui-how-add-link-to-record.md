@@ -39,7 +39,7 @@ The following procedure is based on a purchase invoice. The steps are similar fo
 > [!TIP]
 > If your attachment is specific to a line on a document, you can attach it to the line. Select the line, and then choose the **Attachments** action.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.
 1. Open the purchase invoice that you want to attach a file to.
 1. On the **FactBox** pane, choose the **Attachments** tab.
 1. Do one of the following steps:
@@ -65,7 +65,7 @@ Whenever you need to save a document as a file, you can use the **Attach as PDF*
 
 The following procedure is based on a sales order. The steps are similar for all supported documents.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
 2. Select a sales order, and then choose the **Attach as PDF** action.
 
 A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox.
@@ -76,7 +76,7 @@ You can add a link from a card or document to any URL. This is useful, for examp
 
 The following procedure is based on an item card. The steps are similar for all other supported cards and documents.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. Select the item that you want to add a link from, and then choose the **Attachments** tab in the FactBox.
 3. In the **Links**, choose the **+** icon.
 4. In the **Link Address** field, enter the link.
@@ -97,7 +97,7 @@ You can write a note on a document or card, for example, to communicate special 
 
 The following procedure is based on a sales order. The steps are similar for all other supported documents and cards.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
 2. Select the sales order that you want to write a note on, and then choose the **Attachments** tab in the FactBox.
 3. In the **Notes** section, choose the **+** icon.
 4. In the **Note** field, write any text, such as "This is an urgent order."

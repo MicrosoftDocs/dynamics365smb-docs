@@ -21,11 +21,11 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 
 ## To set up multiple interest rates
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Finance Charge Terms**, and then choose the related link.  
 2. On the **Finance Charge Terms** page, select the required finance term, and then choose the **Interest Rates** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.  
-5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
+5. [!INCLUDE[open-search](includes/open-search.md)], enter **Reminder Terms**, and then choose the related link.  
 6. On the **Reminder Terms** page, select the required reminder term, and then choose the **Levels** action.  
 7. On the **Reminder Levels** page, for the relevant reminder levels, select the **Calculate Interest** field.  
 

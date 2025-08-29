@@ -31,7 +31,7 @@ This article describes the standard settings for assemble to stock. There might 
 
 Follow the steps in this procedure to assemble an item to stock. To learn about assemble to order, go to [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Assembly Orders**, and then choose the related link.  
 2. Choose the **New** action. The **New Assembly Order** page opens.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Item No.** field, select the item that you want to assemble. You can select items that are set up for assembly and have an assembly BOM, or items without an assembly BOM. The latter is useful for unplanned assemblies or scenarios when you want to use item reclassification and track costs.  

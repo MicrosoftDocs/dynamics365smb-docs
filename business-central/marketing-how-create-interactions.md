@@ -19,7 +19,7 @@ Before you create interactions though, you must set up interaction templates. To
 
 ## To create an interaction with a contact
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, **Salesperson**, or **Interaction Log Entry**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, **Salesperson**, or **Interaction Log Entry**, and then choose the related link.
 2. Choose the **Create Interaction** action.
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
@@ -28,7 +28,7 @@ Before you create interactions though, you must set up interaction templates. To
 
 ## To create an interaction on a segment
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Segments**, and then choose the related link.
 2. Choose the **Create Interaction** action.
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ An interaction is recorded for each contact within the segment in the **Interact
 
 ## To finish setting up a postponed interaction
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Postponed Interactions**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Postponed Interactions**, and then choose the related link.
 2. Choose the interaction you want to finish, and then choose the **Resume** action.
 
 ## Related information

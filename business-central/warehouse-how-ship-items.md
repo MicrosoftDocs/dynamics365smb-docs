@@ -40,7 +40,7 @@ You can create a warehouse shipment in one of two ways:
 
 ## To ship items using a warehouse shipment document
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Shipments**, then choose the related link.  
 2. Choose **New**.  
 3. In the **No.** field, choose the number series to use to create an ID for the shipment.  
 4. In the **Location Code** field, choose the location you're shipping from. 

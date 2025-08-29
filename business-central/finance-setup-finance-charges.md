@@ -36,7 +36,7 @@ Additionally, each term in the Finance Charge Terms table is linked to a subtabl
 
 ### To set up finance charge terms
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Finance Charge Terms**, and then choose the related link.  
 2. Fill in the fields as necessary.
 3. To use more than one combination of finance charge terms, set up a code for each one.
 

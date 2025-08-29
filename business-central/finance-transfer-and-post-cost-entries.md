@@ -49,17 +49,17 @@ Before you run the process for transferring general ledger entries to cost entri
 
 ### To prepare the transfer  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Accounting Setup**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Cost Accounting Setup**, and then choose the related link.  
 2.  On the **Cost Accounting Setup** page, verify that the **Starting Date for G/L Transfer** field is set to the correct value.  
-3.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types**, and then choose the related link.  
+3.  [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Cost Types**, and then choose the related link.  
 4.  On the **Cost Type Card** page, verify that the **G/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
-5.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+5.  [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.  
 6.  For each relevant general ledger account, on the **G/L Account Card** page, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Setting Up Cost Accounting](finance-set-up-cost-accounting.md).  
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost center and a cost object.  
 
 ### To transfer general ledger entries to cost entries
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer GL Entries to CA**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer GL Entries to CA**, and then choose the related link.  
 2.  Choose the **Yes** button to start the transfer. The process transfers all general ledger entries that haven't already been transferred.  
 
 During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.

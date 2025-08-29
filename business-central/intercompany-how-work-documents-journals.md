@@ -27,7 +27,7 @@ You can send sales and purchase orders and return orders before posting. Invoice
 
 The following procedure describes how to create and send an intercompany sales order. The same steps apply to intercompany purchase orders and return orders, and to posted intercompany invoices and credit memos.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Choose **New** to create a new sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Make sure the customer is an intercompany partner.
@@ -40,7 +40,7 @@ The following procedure describes how to create and send an intercompany sales o
 
 When you post an intercompany general journal line in your company, a corresponding journal line is created in your intercompany outbox that you can transfer to your partner. With 2022 release wave 1, you can also set up the company to automatically create received intercompany transactions that partners posted in intercompany general journals. Your partner can then post the corresponding transaction in their company, without having to reenter the data.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany General Journals**, and then choose the related link.  
 2. Open the journal batch. For more information, see [Work with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/invoicing/includes/tooltip-inline-tip_md.md)]
 4. In the **IC Partner G/L Acc. No.** field, enter the intercompany general ledger account that the amount posts to in your partner's company.

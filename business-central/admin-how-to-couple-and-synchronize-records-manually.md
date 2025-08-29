@@ -73,7 +73,7 @@ Use the **Data import wizard** in the **Microsoft Power Platform admin center**.
 
 The following example describes how to bulk-insert and couple customers with accounts in Dataverse. Use the same process for other types of entities, such as vendors, items, and resources.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.
 2. Choose the **Open in Excel** action to open customer data in Excel.
 3. To map and import data to the **Account** entity in Dataverse, follow the steps described in [Import data (all record types) from multiple sources](/power-platform/admin/import-data-all-record-types).  
 

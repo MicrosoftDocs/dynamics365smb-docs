@@ -30,7 +30,7 @@ When you use the **Copy from Document** action to create new documents based on 
 
 ## To block an item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Depending on what you want to do, select the item, and then turn on one or more of the following toggles:
 
     * **Sales Blocked**
@@ -40,7 +40,7 @@ When you use the **Copy from Document** action to create new documents based on 
 
 ## To block an item variant  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Select the item that has a variant you want to block, choose **Variants**, and then select one or more of the following checkboxes:  
 
     * **Blocked**

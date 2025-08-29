@@ -174,7 +174,7 @@ For automatic searches, when you create a contact that already has a business re
 
 To manually search for duplicates, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Duplicate Contacts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Duplicate Contacts**, and then choose the related link.
 2. Choose the **Generate Duplicate Search String** action.
 3. On the **Generate Duplicate Search String** page, enter filter criteria that determine the match, and then choose **OK**.
 

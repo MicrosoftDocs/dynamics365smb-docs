@@ -20,7 +20,7 @@ You set up the description and code for each shipment method on the **Shipment M
 
 ## To set up a shipment method
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipment Methods**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Shipment Methods**, and then choose the related link.
 2. On the **Shipment Methods** page, choose the **New** action.
 3. On the new line, specify a code and description for the shipment method.
 

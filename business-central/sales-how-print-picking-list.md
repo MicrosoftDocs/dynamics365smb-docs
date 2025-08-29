@@ -35,7 +35,7 @@ You can also save the picking list as a document, for example, to send to someon
 
 You can use filters to consolidate picking for several sales documents into a single set of pick instructions.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
 1. Choose the **Pick Instruction** action.
 1. In the **Document Type** field, choose the type of document you're working with.
 1. In the **No.** field, enter a filter to identify the documents. The following are examples of ways to filter.

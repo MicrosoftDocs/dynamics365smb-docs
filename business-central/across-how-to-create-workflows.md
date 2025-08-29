@@ -48,7 +48,7 @@ The options for events and responses are system-defined. To add new options, you
 
 ## To create a workflow
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.  
 3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
 4. To create the workflow from a workflow template, on the **Workflows** page, choose the **New Workflow from Template** action. Learn more at [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -115,13 +115,13 @@ The options for events and responses are system-defined. To add new options, you
 > Don't enable a workflow until you're sure it's ready.  
 
 > [!TIP]  
-> To explore the relations between the tables used in workflows, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, then enter **Workflow – Table Relations**.  
+> To explore the relations between the tables used in workflows, [!INCLUDE[open-search](includes/open-search-lowercase.md)], then enter **Workflow – Table Relations**.  
 
 ## Example of creating a new workflow using existing events
 
 The following example creates a workflow to approve a change to the name of a vendor:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.
 3. In the workflow section, fill in the fields as described in the following table.
 

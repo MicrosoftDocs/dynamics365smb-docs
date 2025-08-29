@@ -26,7 +26,7 @@ Before you can set up a routing, the following setups must be in place:
 
 ## To create a production BOM
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOMs**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Production BOMs**, then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To edit the BOM, set the **Status** field to **New** or **Under Development**. To activate it, set the **Status** field to **Certified**.  
@@ -58,7 +58,7 @@ For example, use new versions of production BOMs when an item is replaced, or wh
 
 The starting date indicates the start of the period in which this version is valid. For all other considerations, the starting date is a filter criterion for calculations and evaluations. The BOM version is valid until the next version becomes valid for its starting date. You can quickly go to the certified BOM or BOM version that's valid on the work date by choosing the **Prod. Active BOM Version** action.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOMs**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Production BOMs**, then choose the related link.  
 2. Select the production BOM to be copied, then choose the **Versions** action.  
 3. Choose the **New** action.  
 4. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]

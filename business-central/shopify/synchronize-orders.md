@@ -248,7 +248,7 @@ If a customer is identified, their information fills in both the **Sell-to Custo
 
 For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** page because named customers are expected for B2B.
 
-Additionally, B2B order also contains company location details. The **Sell-to Customer No.** and **Bill-to Customer No.** fields, available on the **Shopify Company Location** page, impacts mapping.These fields are empty by default but can be populated as needed. When you import a Shopify orderassociated with a B2B company and location, the connector uses the data in these fields to map the sell-to and bill-to customers appropriately in the sales order.
+B2B orders also contain company location details. The **Sell-to Customer No.** and **Bill-to Customer No.** fields, available on the **Shopify Company Location** page, can affect the mapping. By default, these fields are empty, but you can fill them in if needed. When you import a Shopify order that's associated with a B2B company and location, the connector uses the data in these fields to map the sell-to and bill-to customers in the sales order.
 
 The following table shows examples of customer mappings.
 

@@ -76,7 +76,7 @@ Steps that need intervention appear under **Needs Attention** in the **Tasks** t
 
 1. If the agent need assistance, a message appears at the top of the text explaining the problem.
 
-   You can often help the agent by making the changes yourself, like making an item available, creating the right customer, contact, or vendor, changing quantities in sales quotes, so on.
+   You often help the agent by making changes yourself, like making an item available, creating the right customer, contact, or vendor, or changing quantities in sales quotes. You can also [give instructions](#give-instructions-to-the-agent) to guide the agent to make changes for you.
 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane.
 
@@ -148,7 +148,7 @@ Examples:
 |When requested quantity of an item isn't available|Change the quantity to 50|
 |When the agent can't determine the exact item|Give a quote for the Rome guest chair in blue|
 |When you want to change a field| Change the shipping date to 09/01|
-|When you want to specific information when creating an entity|Create vendor using OCR data|
+|When you want to give specific information when creating an entity|Create vendor using OCR data|
 
 Here's what to avoid:
 

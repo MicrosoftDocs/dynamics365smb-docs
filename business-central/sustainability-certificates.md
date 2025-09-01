@@ -14,7 +14,7 @@ ms.reviewer: solsen
 
 # Sustainability certificates
 
-In today’s business landscape, sustainability is more than a trend - it’s a necessity. As companies strive to reduce their environmental impact and meet growing consumer demand for responsible practices, sustainability certificates are now an essential tool for validating these efforts. These certificates serve as an independent verification that a company or its products meet specific environmental, social, and governance (ESG) standards, fostering trust and transparency in the marketplace.  
+In today’s business landscape, sustainability is more than a trend, it’s becoming a necessity. As companies strive to reduce their environmental effect and meet growing consumer demand for responsible practices, sustainability certificates are now an essential tool for validating these efforts. These certificates serve as an independent verification that a company or its products meet specific environmental, social, and governance (ESG) standards, fostering trust and transparency in the marketplace.  
 
 Sustainability certificates offer a clear and measurable way to assess the environmental and ethical credentials of both companies and their products. By prioritizing vendors who hold recognized sustainability certifications, businesses can enhance their supply chain integrity, reduce risks, and contribute to a more sustainable future.
 
@@ -30,7 +30,7 @@ The *sustainability certificate area* refers to the specific area covered by a p
 
 ## Sustainability certificate standards
 
-The *Sustainability certificate standard* refers to the specific standard for a particular certificate. Generally, it should provide third-party verified, transparent, and measurable criteria aligned with international ESG frameworks to promote responsible business practices.
+The *Sustainability certificate standard* refers to the specific standard for a particular certificate. Generally, certificates should provide verified, transparent, and measurable criteria aligned with international ESG frameworks to promote responsible business practices.
 
 To create a new sustainability certificate standard, follow these steps:
 
@@ -40,6 +40,15 @@ To create a new sustainability certificate standard, follow these steps:
 
 ## Create a sustainability certificate
 
+Typically, independent organization like the following issue sustainability certificates:
+  
+* Non-profit certifying bodies
+* Industry associations
+* Standards organizations
+* Specialized sustainability certification firms
+
+The issuers are responsible for assessing compliance with established sustainability standards.
+
 To create a new sustainability certificate, follow these steps:  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Certificates**, and then select the related link.
@@ -47,11 +56,10 @@ To create a new sustainability certificate, follow these steps:
 3. In the **Type** field, choose if this certificate is related to vendors or items, and enter the **No.** and **Name** fields.
 4. In the **Area** field, choose specific **Sust. Certificate Area** option and in the **Standard** field, choose adequate **Sust. Certificate Standard**.
 5. In the **Issuer** field, specify the issuer name.
-Sustainability certificates are typically issued by independent third-party organizations, which can include non-profit certifying bodies, industry associations, standards organizations, or specialized sustainability certification firms. The issuers are responsible for assessing compliance with established sustainability standards.
-6. If this certificate has a measurable value, enable the **Has Value** field and then fill in the **Value** field. 
+6. If this certificate has a measurable value, enable the **Has Value** field and then fill in the **Value** field.
 
 > [!NOTE]
-> You can also create a new sustainabilty certificate directly from the vendor or item card. In this case, the **Type** field is automatically filled in with **Item** or **Vendor** based on where you create the certificate.
+> You can also create a new sustainability certificate directly from the vendor or item card. In this case, the **Type** field is automatically filled in with **Item** or **Vendor** based on where you create the certificate.
 
 ### Add the sustainability certificate for vendors
 
@@ -75,11 +83,11 @@ To add a sustainability certificate to an item, follow the steps:
 
 Support for Digital Product Passport (DPP) reporting requirements empowers businesses to meet European Union sustainability regulations by capturing key environmental data in [!INCLUDE [prod_short](includes/prod_short.md)]. Structured reporting on recyclability, energy efficiency, and end-of-life handling can help enhance product transparency, support circular economy goals, and build trust with eco-conscious customers and partners. To learn more about DPP, go to the [European Union website](https://go.microsoft.com/fwlink/?linkid=2334243).
 
-To support DPP initiatives, there are sustainability-related fields on the **Sustainability** FastTab of the **Item Card** page. The following fields are specifically related to DPP:
+To support DPP initiatives, there are sustainability-related fields on the **Sustainability** FastTab of the **Item Card** page. The following fields are related to DPP:
 
-- **Recyclability Percentage**: Indicates the percentage of recyclable content in the product.
-- **Energy Efficiency Ratings**: Captures standardized energy efficiency information, such as the product category or label (for example, A–G rating).
-- **End-of-Life Information**: Provides disposal instructions, recycling options, return schemes, or environmental impact notes.
+* **Recyclability Percentage**: Indicates the percentage of recyclable content in the product.
+* **Energy Efficiency Ratings**: Captures standardized energy efficiency information, such as the product category or label (for example, A–G rating).
+* **End-of-Life Information**: Provides disposal instructions, recycling options, return schemes, or environmental effect notes.
 
 > [!NOTE]
 > [!INCLUDE [prod_short](includes/prod_short.md)] doesn't generate embedded QR codes for DPP. However, it does provide data that an external QR code tool can use.
@@ -88,7 +96,7 @@ To support DPP initiatives, there are sustainability-related fields on the **Sus
 
 [Sustainability management overview](finance-manage-sustainability.md)  
 [Sustainability setup](finance-sustainability-setup.md)  
-[Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)  
+[Ad hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

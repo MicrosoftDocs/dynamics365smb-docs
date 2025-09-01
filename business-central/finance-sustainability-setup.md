@@ -62,9 +62,10 @@ To configure these settings, follow these steps:
     | **Item Charge Emissions** | Enable default **Sustainability Account** emissions on the **Item Charge** (currently not operating) page. |
     | **Resource Emissions** | Enable default **Sustainability Account** emissions on the **Resource Card** page. |
     | **Work Machine Center Emissions** | Specifies the enablement of default **Sustainability Account** emissions on the **Work Center** and **Machine Center** pages. |
+    | **Use All Gasses As CO2e** |Specifies that you use carbon equivalent (CO2e) values for all gasses that you track. Use this feature when you don't have accurate information for all gases, but do have their carbon equivalent values. When you turn on this toggle, the captions for gases change from their names to their CO2e equivalents. For example, the **CH4** field becomes the **CO2e for CH4** field. The field values correspond to carbon equivalent values, not the original gas values. [!INCLUDE [prod_short](includes/prod_short.md)] sets the **Carbon Equivalent Factor** on the emission fees to **1** for all three gases.|
 
     > [!NOTE]
-    > The **Use Emissions in Purchase Documents** field makes the **Sustainability Account** and emission fields on purchase documents. However, when you post the document, [!INCLUDE [prod_short](includes/prod_short.md)] only creates **Sustainability Ledger Entries**. To activate posting to the **Sustainability Value Entries** and enable value chain tracking, you must also select the **Enable Value Chain Tracking** field.
+    > The **Use Emissions in Purchase Documents** field adds the **Sustainability Account** and emission fields on purchase documents. However, when you post the document, [!INCLUDE [prod_short](includes/prod_short.md)] only creates **Sustainability Ledger Entries**. To activate posting to the **Sustainability Value Entries** and enable value chain tracking, you must also select the **Enable Value Chain Tracking** field.
 
 4. On the **Calculations** FastTab, configure the required fields for the formulas that calculate emissions.
 

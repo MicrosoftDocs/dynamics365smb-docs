@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer:
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 37061_Primary, 37009, 37010, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37112, 37115, 37116, 37117
+ms.search.form: 37061_Primary, 37009, 37010, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021
 ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
 ---
@@ -88,10 +88,6 @@ The following table describes how you can use the reports in the Power BI Purcha
 | Analyze purchasing activities by purchaser to manage your purchasing teams and individual performance.|[Purchases by Purchaser](https://businesscentral.dynamics.com?page=37017)|[About Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)|  
 | Gain a comprehensive view of your purchase data across different warehouse locations, and identify trends and patterns in their purchasing activities.|[Purchases by Location](https://businesscentral.dynamics.com?page=37019)|[About Purchases by Location](purchases-powerbi-purchases-by-location.md)|  
 | Compare actual spending to allocated budget to ensure that spending aligns with financial plans.|[Actual vs Budget](https://businesscentral.dynamics.com?page=37021)|[About Actual vs. Budget](purchases-powerbi-actual-vs-budget.md)|
-| Identify the key factors driving purchase performance, highlighting the most impactful variables and trends based on purchase data like items, vendors, purchasers, dimensions and other dimensional data.|[Key Purchases Influences](https://businesscentral.dynamics.com?page=37117)|[About Key Purchases Influences](purchases-powerbi-key-purchases-influences.md)|
-| Get an overview of your organizations purchase returns, including return reasons and trends over time. {NEED TO ADD MORE}|[Purchase Returns Overview](https://businesscentral.dynamics.com?page=37116)|[About Purchase Returns Overview](purchases-powerbi-purchase-returns-overview.md)|
-| Get insights into future purchasing needs and trends based on historical data and predictive analytics.{NEED TO ADD MORE}|[Purchase Forecasting](https://businesscentral.dynamics.com?page=37112)|[About Purchase Forecasting](purchases-powerbi-purchase-forecasting.md)|
-| Evaluate vendor performance based on quality metrics which showcase vendor quality, reliance and purchase discount trends. {NEED TO ADD MORE} |[Vendor Quality Analysis](https://businesscentral.dynamics.com?page=37115)|[About Vendor Quality Analysis](purchases-powerbi-vendor-quality-analysis.md)|
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

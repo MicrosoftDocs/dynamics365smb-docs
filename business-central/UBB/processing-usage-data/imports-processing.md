@@ -60,7 +60,7 @@ Authentication (Service-to-Service, S2S) must happen when you open the API page.
 The following example shows the link to open the page externally: <br/>
 
 ```html
-https://api.businesscentral.dynamics.com/v2.0/<tenant_id>/<environment_name>/api/singhammerITConsulting/dyce/v1.0/companies(<company_id>)/usageDataImports?$expand=usageDataGenericImports
+https://api.businesscentral.dynamics.com/v2.0/<tenant_id>/<environment_name>/api/microsoft/subsBilling/v1.0/companies(<company_id>)/usageDataImports?$expand=usageDataGenericImports
 ```
 
 * tenant_id is from the customer system

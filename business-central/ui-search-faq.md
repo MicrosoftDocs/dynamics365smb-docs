@@ -15,6 +15,13 @@ ms.custom: bap-template
 
 This article answers questions that our advanced users often ask about the Tell me what you want to do feature.
 
+## Why isn't there an Advanced tab?
+
+There are a couple reasons why the **Advanced** tab isn't available:
+
+- You're using a Business Central on-premises version. The **Advanced** tab is only available in Business Central online.
+- The **Advanced Tell Me** feature isn't enabled in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
 ## Are all actions from my current page discoverable in Tell Me?
 
 No. Actions in parts, such as the Sales Lines part or FactBoxes, aren't displayed in Tell Me.

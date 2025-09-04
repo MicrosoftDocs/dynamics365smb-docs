@@ -554,6 +554,7 @@ ms.service: dynamics-365-business-central
 #### [Use E-Documents in purchases](finance-how-use-edocuments-purchase.md)
 #### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
 #### [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md)
+#### [Connect e-documents to Microsoft 365 applications](finance-connect-edocuments-microsoft365.md)
 #### [Extending E-Documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
@@ -2627,8 +2628,8 @@ ms.service: dynamics-365-business-central
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Map E-Documents (preview)
-### [Map E-Documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
-### [Responsible AI FAQ for mapping E-Documents with purchase orders using Copilot](faqs-map-edocuments.md)
+### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

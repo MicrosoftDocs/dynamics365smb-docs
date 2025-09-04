@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Purchases Return Overview** {placeholder for Purchases Return Overview description}
+The **Purchases Return Overview** report tracks purchase returns, showing trends by vendor, reason and item category. Key measures include return rate, purchase value and outstanding returns.
 
 **To do** Add correct link to image
 :::image type="content" source="media/purchases/{purchases-return-overview.png}" alt-text="Screenshot of the Purchases Return Overview Power BI report" lightbox="media/purchases/{purchases-return-overview.png}":::

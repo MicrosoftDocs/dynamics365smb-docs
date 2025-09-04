@@ -14,90 +14,81 @@ ms.custom: bap-template
 
 # Set up e-documents
 
-> [!IMPORTANT]
-> The E-Documents core module is a framework. By default, there's no **Service Integration** field available unless integration connectors are installed. If you find the **Document Format** options by default, remember that they're offered as examples. Localization apps must provide format detail because they're specific to local requirements.
-
-> [!NOTE]
-> A standard PEPPOL document format is a global format in the **Document Format** field. Keep in mind that you probably can't use this format as is. It's a W1 format that Microsoft provides to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use this format.
-
-The first step to configure electronic documents (e-documents) is to set up the E-Documents Service for e-document communication.
+This article describes how to configure electronic documents (e-documents), and how to set up the E-Documents Service for e-document communications.
 
 ## Set up an e-document service
 
 To set up an e-document service, follow these steps.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **E-Document Services**, and then select the related link.
-2. Select **New**, and then, on the **E-Document Service** page, on the **General** FastTab, configure the fields as described in the following table.
+2. Select **New**, and then configure the fields on the **General** FastTab as described in the following table.
 
-| Field | Description |
-|-------|-------------|
-| Code | Select the electronic export setup code. |
-| Description | Enter a brief description of the electronic export setup. |
-| Document Format | The export format of the electronic export setup. By default, there are two options in this field. You can select **PEPPOL BIS 3.0** as a generic code-based format or **Data Exchange** when you must set up predocuments of specific formats on the **Data Exchange Definition** FastTab. |
-| Service Integration | Select the integration code for the electronic export setup. By default, the only option is **No integration** unless integration connectors are installed. |
+   | Field | Description |
+   |-------|-------------|
+   | Code | Select the electronic export setup code. |
+   | Description | Enter a brief description of the electronic export setup. |
+   | Document Format | Select the export format of the electronic export setup. You can select **PEPPOL BIS 3.0** as a generic code-based format, or **Data Exchange** when you must set up documents of specific formats on the **Data Exchange Definition** FastTab. <br><br>**Note:** The default options in this field are provided as examples. Localization apps must provide format detail because they're specific to local requirements.<br><br> You probably can't use the default PEPPOL document format as is. Microsoft provides this option as an example of how to use this feature. We recommend that you test the existing PEPPOL format before you start to use it. |
+   | Service Integration | Select the integration code for the electronic export setup. By default, the only option is **No integration** unless integration connectors are installed.<br><br>**Important:** By default, the **Service Integration** field is available only if you install integration connectors. |
 
 3. On the **Importing** FastTab, configure the fields as described in the following table.
 
-| Field | Description |
-|-------|-------------|
-| Automatic Import | Specify whether documents should be automatically imported from the service by a background job. |
-| Import Start Time | Specify the start time for automatic import jobs. This field is only visible when **Automatic Import** is enabled. |
-| Import Minutes between runs | Specify the number of minutes between automatic import job runs. This field is only visible when **Automatic Import** is enabled. |
-| Automatic Processing | Specify whether [!INCLUDE [prod_short](includes/prod_short.md)] should automatically create a purchase document based on the received e-document. If you choose **No**, [!INCLUDE [prod_short](includes/prod_short.md)] creates the e-document, but you must review its details before creating the purchase document. |
-| Validate Receiving Company | Specify whether the receiving company information must be validated during import. |
-| Resolve Unit Of Measure | Specify whether to resolve the unit of measure during import. |
-| Lookup Item Reference | Specify whether to search for items by item reference during import. |
-| Lookup Item GTIN | Specify whether to search for items by global trade item number (GTIN) during import. |
-| Lookup Account Mapping | Specify whether to search for accounts in **Account Mapping** by the incoming text during import. |
-| Validate Line Discount | Specify whether to validate a line discount during import. |
-| Apply Invoice Discount | Specify whether to apply an invoice discount during import. |
-| Verify Totals | Specify whether to verify invoice totals during import. |
-| Create Journal Lines | Specify whether a journal line must be created instead of a purchase document. Select this option when you want to use journals as a destination for your invoices. |
-| General Journal Template Name | Specify the name of the general journal template that's used for journal line creation. This field is applicable when you want to use journals as a destination for your invoices. |
-| General Journal Batch Name | Specify the name of the general journal batch that's used for journal line creation. This field is applicable when you want to use journals as a destination for your invoices. |
+   | Field | Description |
+   |-------|-------------|
+   | Automatic Import | Specify whether a background job automatically imports documents from the service. |
+   | Import Start Time | Specify the start time for automatic import jobs. This field is available only when **Automatic Import** is enabled. |
+   | Import Minutes between runs | Specify the number of minutes to wait between runs of the automatic import job. This field is available only when **Automatic Import** is enabled. |
+   | Automatic Processing | Specify whether to automatically create a purchase document based on the received e-document. If you choose **No**, [!INCLUDE [prod_short](includes/prod_short.md)] creates the e-document, but you must review its details before creating the purchase document. |
+   | Validate Receiving Company | Specify whether the receiving company information must be validated during import. |
+   | Resolve Unit Of Measure | Specify whether to resolve the unit of measure during import. |
+   | Lookup Item Reference | Specify whether to search for items by item reference during import. |
+   | Lookup Item GTIN | Specify whether to search for items by Global Trade Item Number (GTIN) during import. |
+   | Lookup Account Mapping | Specify whether to search for accounts in **Account Mapping** by the incoming text during import. |
+   | Validate Line Discount | Specify whether to validate a line discount during import. |
+   | Apply Invoice Discount | Specify whether to apply an invoice discount during import. |
+   | Verify Totals | Specify whether to verify invoice totals during import. |
+   | Create Journal Lines | Specify whether a journal line must be created instead of a purchase document. Select this option when you want to use journals as a destination for your invoices. |
+   | General Journal Template Name | Specify the name of the general journal template that's used for journal line creation. This field is relevant when you want to use journals as a destination for your invoices. |
+   | General Journal Batch Name | Specify the name of the general journal batch that's used for journal line creation. This field is relevant when you want to use journals as a destination for your invoices. |
 
 4. On the **Exporting** FastTab, configure the fields as described in the following table.
 
-| Field | Description |
-|-------|-------------|
-| Batch Exporting | Specify whether the service uses batch processing to export e-documents. |
-| Batch Mode | Specify the mode of batch processing. Choose **Threshold** to send documents when a specified number of documents are ready, or **Recurrent** to send documents on a scheduled basis. This field is only visible when **Batch Exporting** is enabled. |
-| Batch Threshold | Specify the number of documents that must be ready before batch processing begins. This field is only visible when **Batch Mode** is set to **Threshold**. |
-| Batch Start Time | Specify the start time for batch processing jobs. This field is only visible when **Batch Mode** is set to **Recurrent**. |
-| Batch Minutes between runs | Specify the number of minutes between batch processing jobs. This field is only visible when **Batch Mode** is set to **Recurrent**. |
-| Embed PDF in export | Specify whether to embed a PDF version of the e-document in the e-document file when you export. This field is only visible when **Document Format** is set to **PEPPOL BIS 3.0**. |
-
-> [!NOTE]
-> The **Embed PDF in export** option can make life a little easier. When you post a document, [!INCLUDE [prod_short](includes/prod_short.md)] creates a PDF file and embeds it as a PDF attachment in the e-document. The PDF is a human-readable version that's easier to understand than the full XML of the PEPPOL format.
+   | Field | Description |
+   |-------|-------------|
+   | Batch Exporting | Specify whether the service uses batch processing to export e-documents. |
+   | Batch Mode | Specify the mode of batch processing. Choose **Threshold** to send documents when a specified number of documents are ready, or **Recurrent** to send documents on a scheduled basis. This field is available only when **Batch Exporting** is enabled. |
+   | Batch Threshold | Specify the number of documents that must be ready before batch processing begins. This field is only visible when **Batch Mode** is set to **Threshold**. |
+   | Batch Start Time | Specify the start time for batch processing jobs. This field is available only when the **Batch Mode** field is set to **Recurrent**. |
+   | Batch Minutes between runs | Specify the number of minutes between batch processing jobs. This field is available only when the **Batch Mode** field is set to **Recurrent**. |
+   | Embed PDF in export | Specify whether to embed a PDF version of the e-document in the e-document file when you export. This field is available only when the **Document Format** field is set to **PEPPOL BIS 3.0**. <br><br>**Note:** The **Embed PDF in export** option can make life a little easier. When you post a document, [!INCLUDE [prod_short](includes/prod_short.md)] creates a PDF file and embeds it as a PDF attachment in the e-document. The PDF is a human-readable version that's easier to understand than the full XML of the PEPPOL format. |
 
 5. If you selected **Data Exchange** in the **Document Format** field on the **General** FastTab, on the **Data Exchange Definition** FastTab, fill in the fields as described in the following table.
 
-| Field | Description |
-|-------|-------------|
-| Document Type | Specify the document type that uses data exchange to import and export the data. Examples include **Sales Invoice**, **Sales Credit memo**, and **Purchase Invoice**. |
-| Import Data Exchange Def. Code | Specify the data exchange code that's used to import the data. Use this field only to receive a document in the purchase process. |
-| Export Data Exchange Def. Code | Specify the data exchange code that's used to export the data. Use this field only to deliver documents in the sales process. |
+   | Field | Description |
+   |-------|-------------|
+   | Document Type | Specify the document type that uses data exchange to import and export the data. Examples include **Sales Invoice**, **Sales Credit memo**, and **Purchase Invoice**. |
+   | Import Data Exchange Def. Code | Specify the data exchange code that's used to import the data. Use this field only to receive a document in the purchase process. |
+   | Export Data Exchange Def. Code | Specify the data exchange code that's used to export the data. Use this field only to deliver documents in the sales process. |
 
-> [!NOTE]
-> There are data exchange definitions for the PEPPOL format that are related to sales and purchase documents. However, you likely can't use these definitions as is. They're all W1 formats that are provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use them. It's possible that using a specific localization reveals more formats, as some can be country/region-specific.
->
-> If you configured the **Data Exchange Definition** format in your localization, you can add a line for the document types that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
->
-> If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option for your format in the **Document Format** field.
+   > [!NOTE]
+   > There are data exchange definitions for the PEPPOL format that are related to sales and purchase documents. However, you likely can't use these definitions as is. They're generic formats that are provided to show how to use this feature. We recommend that you test the existing formats before you start to use them. It's possible that using a specific localization reveals more formats because some can be specific to a country/region.
+   >
+   > If you configured the **Data Exchange Definition** format in your localization, you can add a line for the document types that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
+   >
+   > If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option for your format in the **Document Format** field.
 
-## Additional configuration options
+## Other configuration options
 
-After setting up the basic e-document service, you can access additional configuration options:
+After you set up the basics for the e-document service, you can add more advanced options:
 
 - **Set up service integration** - Configure authentication and connection settings for your integration connector. This option is only available when integration connectors are installed.
-- **Configure documents to export** - Set up which document types the framework will export using this service.
+- **Configure documents to export** - Set up the document types the framework exports using this service.
 - **Export mapping setup** - Configure simple value mappings for export processes.
 - **Import mapping setup** - Configure simple value mappings for import processes.
 - **Receive** - Manually trigger the receipt of new e-documents from the integration service.
 
 ### Supported document types
 
-Support for document types is based on the **Document Format**. To check which document types are supported, on the **E-Document Services** page, choose the **Configure documents to export** action. The **E-Document Service Supported Source Document Types** page opens. In the **Source Document Type** column, you can choose different document types for the format you're planning to use. Only use the document type if that document is supported by your chosen format.
+Support for document types is based on the **Document Format**. To check which document types are supported, on the **E-Document Services** page, choose the **Configure documents to export** action. The **E-Document Service Supported Source Document Types** page opens. In the **Source Document Type** column, you can choose different document types for the format you're planning to use. Only use the document type if your chosen format supports that document.
 
 ## Set up a document sending profile
 
@@ -112,38 +103,38 @@ To enable the **E-Document** framework, you need to configure the **Document Sen
 3. On the **General** FastTab, fill in the required fields.
 4. On the **Sending Options** FastTab, configure the fields as described in the following table.
 
-| Field | Description | E-Document Framework Usage |
-|-------|-------------|----------------------------|
-| Printer | Specify whether to print the document. | Can be used together with e-document options. |
-| Email | Specify whether to email the document. | Can be used together with e-document options to send e-documents as email attachments. |
-| E-Mail Attachment | Specify what to attach to the email when emailing is enabled. Options include **PDF**, **E-Document**, and **PDF & E-Document**. | **E-Document** sends only the electronic file format. **PDF & E-Document** sends both the PDF report and the electronic file. |
-| Disk | Specify whether to save the document to disk. | Can be used together with e-document options. |
-| Electronic Document | Specify whether the document is sent as an e-document. Choose **Extended E-Document Service Flow** to use the E-Document framework. | Must choose **Extended E-Document Service Flow** to use the E-Document framework. |
-| E-Document Workflow | Specify the e-document workflow that's used to send documents. This field is required when **Extended E-Document Service Flow** is selected and must be an enabled workflow. | Required field when using the E-Document framework. |
+   | Field | Description | E-Document Framework Usage |
+   |-------|-------------|----------------------------|
+   | Printer | Specify whether to print the document. | Can be used together with e-document options. |
+   | Email | Specify whether to email the document. | Can be used together with e-document options to send e-documents as email attachments. |
+   | E-Mail Attachment | Specify what to attach to the email when emailing is enabled. Options include **PDF**, **E-Document**, and **PDF & E-Document**. | **E-Document** sends only the electronic file format. **PDF & E-Document** sends both the PDF report and the electronic file. |
+   | Disk | Specify whether to save the document to disk. | Can be used together with e-document options. |
+   | Electronic Document | Specify whether the document is sent as an e-document. Choose **Extended E-Document Service Flow** to use the E-Document framework. | You must choose **Extended E-Document Service Flow** to use the E-Document framework. |
+   | E-Document Workflow | Specify the e-document workflow that's used to send documents. This field is required when **Extended E-Document Service Flow** is selected and must be an enabled workflow. | Required field when using the E-Document framework. |
 
-> [!NOTE]
-> When you select **E-Document** or **PDF & E-Document** in the **E-Mail Attachment** field, you must set the **Electronic Document** field to **Extended E-Document Service Flow** and specify an **E-Document Workflow**. The specified workflow must be enabled.
+   > [!NOTE]
+   > When you select **E-Document** or **PDF & E-Document** in the **E-Mail Attachment** field, you must set the **Electronic Document** field to **Extended E-Document Service Flow** and specify an **E-Document Workflow**. The specified workflow must be enabled.
 
-> [!NOTE]
-> The **E-Document Workflow** field will only be visible when **Extended E-Document Service Flow** is selected in the **Electronic Document** field. Similarly, certain format-related fields are hidden when using e-document email attachments to prevent conflicts.
+   > [!NOTE]
+   > The **E-Document Workflow** field is available only when **Extended E-Document Service Flow** is selected in the **Electronic Document** field. Similarly, to prevent conflicts, certain format-related fields are hidden when you use e-document email attachments.
 
 ## Sending options combinations
 
-The E-Document framework now supports flexible sending combinations:
+The E-Document framework supports several options for sending documents:
 
 - **Service-based sending**: Use **Extended E-Document Service Flow** with an **E-Document Workflow** to send documents through configured service integrations.
-- **Email-based sending**: Enable **Email** and select **E-Document** or **PDF & E-Document** as the attachment type to send e-documents via email. Email-based sending relies on the e-document workflow to run in order to export the e-document, which is why the **E-Document Workflow** field must be configured for this functionality to work.
+- **Email-based sending**: Enable **Email** and select **E-Document** or **PDF & E-Document** as the attachment type to send e-documents via email. Email-based sending relies on the e-document workflow to run in order to export the e-document. To use this option, you must fill in the **E-Document Workflow** field.
 - **Combined sending**: Use both service-based and email-based sending together to send through a service integration and email the document simultaneously.
 
 ## Creating e-documents from posted documents
 
-After documents are posted, you can create e-documents from posted document pages:
+After you post documents, you can create or view e-documents from the pages that show posted documents. For example, the **Posted Sales Invoice** page.
 
-1. Open the posted document (such as **Posted Sales Invoice**).
-2. On the **E-Document** group, choose **Create** to manually create an e-document from the posted document.
-3. If an e-document already exists, choose **Open** to view the existing e-document.
+1. Open the posted document.
+1. To manually create an e-document from the posted document, choose **Create**.
+1. To view the existing e-document, choose **Open**.
 
-This functionality is useful when you need to send documents electronically after they were originally posted without e-document processing.
+This feature is useful when you need to send documents electronically after they were originally posted without e-document processing.
 
 ## Set up the workflow
 
@@ -180,10 +171,12 @@ To set up retention policies for e-documents, follow these steps.
 
 ## E-Documents demo data  
 
+To provide easier ways to test and demonstrate e-documents, Microsoft offers a demo module. 
+
 > [!NOTE]
 > From [!INCLUDE [prod_short](includes/prod_short.md)] version 24.0, you can set up demo data for E-Documents.
 
-To provide easier ways to test and demonstrate e-documents, Microsoft offers a demo module. To enable the module, follow these steps:  
+To enable the module, follow these steps:  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contoso Demo Tool**, and then select the related link.  
 2. Before you enable the **E-Document Contoso Module**, you must first enable the  **Common Module** and **Warehouse Module**.

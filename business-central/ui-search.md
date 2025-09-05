@@ -20,7 +20,12 @@ This article describes how the in-product search called *Tell me what you want t
 
 <!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 
-## How to use Tell me
+## Use Tell Me
+
+- Click the Search (Tell me what you want to do) icon or press <kbd>ALT</kbd>+<kbd>Q</kbd>.
+- Enter at least three characters; results update as you type.
+- Choose **Search company data** to find records, or **Search Help** for documentation; or pick an action, page, or report from the results.
+- Use <kbd>Tab</kbd>/<kbd>Arrow</kbd> keys and <kbd>Enter</kbd> to navigate results. Open the **Advanced** tab to use natural-language (semantic) search.
 
 When you need help with finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for it. You can also use <kbd>ALT</kbd>+<kbd>Q</kbd> to start a search.
 

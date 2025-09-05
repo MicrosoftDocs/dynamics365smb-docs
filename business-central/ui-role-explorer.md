@@ -56,10 +56,10 @@ To quickly locate a page or report, select the **Find** box near the top of the 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-If you don't find a match or aren't sure of the exact name, select **Try Advanced** (preview) under the **Find** box to open the **Tell Me** window and get more results in the **Advanced** tab. The **Advanced** tab uses AI-powered semantic search, so it finds results based on the meaning of your search instead of just matching exact words. You can enter natural language or descriptive phrases to find pages and reports instead of exact names. For example, you can type in natural language like "report that shows my best customers" to find the **Customer - Top 10** report.
+If you don't find a match or aren't sure of the exact name, select **Try Advanced** (preview) under the **Find** box to open the **Ad**Tell Me** window and get more results in the **Advanced** tab. The **Advanced** tab uses AI-powered semantic search, so it finds results based on the meaning of your search instead of just matching exact words. You can enter natural language or descriptive phrases to find pages and reports instead of exact names. For example, you can type in natural language like "report that shows my best customers" to find the **Customer - Top 10** report.
 
 > [!NOTE]
-> **Try Advanced** is available in preview only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> **Advanced** is available in preview only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 ## Explore other roles
 

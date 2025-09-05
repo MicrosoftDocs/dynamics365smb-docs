@@ -27,10 +27,9 @@ Add description of who the report is designed for and its use
 ## Key Performance Indicators (KPIs)
 
 The *Sales Forecasting* report includes the following KPIs and measures:   
-{Need to Confirm}
 
-- [**Return Rate Amount**](purchases-powerbi-kpis.md#return-rate-amount)
-- [**Total Credit Amount**](purchases-powerbi-kpis.md#total-credit-amount)
+- [**Sales (LCY) Forecasting**](purchases-powerbi-kpis.md#sales-lcy-forecasting)
+- [**Sales (LCY)**](purchases-powerbi-kpis.md#sales-lcy)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 

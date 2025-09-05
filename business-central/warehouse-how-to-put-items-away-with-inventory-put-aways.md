@@ -44,7 +44,7 @@ You can create an inventory put-away in three ways:
 
 ## To create multiple inventory put-aways with a batch job
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Inventory Put-away/Pick/Movement**, and then choose the related link. 
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Create Inventory Put-away/Pick/Movement**, and then choose the related link. 
 2. On the **Warehouse Request** FastTab, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers. For example, you can create put-aways for purchase orders only.
 3. On the **Options** FastTab, select the **Create Invt. Put-away** checkbox.
 4. Choose the **OK** button. The specified inventory put-aways are created.
@@ -55,14 +55,14 @@ You can create an inventory put-away in three ways:
 
 When you release purchase orders, sales return orders, and inbound transfer orders, the items on the orders become available to be put away. The following steps describe how to make the items on a purchase order ready to be put away.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.
 2. Select the purchase order that you want to release, and then choose the **Release** action.  
 
 ### To create an inventory put-away based on the source document
 
 A warehouse employee can create a new inventory put-away based on the released source document.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Inventory Put-away**, and then select the related link.  
 2. Choose the **New** action.  
 3. In the **Source Document** field, select the type of source document you are putting away for.  
 4. In the **Source No.** field, select the source document.  

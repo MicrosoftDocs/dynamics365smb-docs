@@ -151,6 +151,10 @@ The following fonts are installed and available to use in Excel, Word, and RDL r
 * `IDAutomationBI25XL`
 * `IDAutomationBI25XS`
 * `IDAutomationBI25XXL`
+* `IDAutomationC11L.ttf`
+* `IDAutomationC11M.ttf`
+* `IDAutomationC11S.ttf`
+* `IDAutomationC11XS.ttf`
 * `IDAutomationC128L`
 * `IDAutomationC128M`
 * `IDAutomationC128S`
@@ -158,12 +162,35 @@ The following fonts are installed and available to use in Excel, Word, and RDL r
 * `IDAutomationC128XS`
 * `IDAutomationC128XXL`
 * `IDAutomationC128XXS`
+* `IDAutomationC128L SymbolEncoded.ttf`
+* `IDAutomationC128M SymbolEncoded.ttf`
+* `IDAutomationC128S SymbolEncoded.ttf`
+* `IDAutomationC128XS SymbolEncoded.ttf`
+* `IDAutomationC128XXS SymbolEncoded.ttf`
+* `IDAutomationC25L.ttf`
+* `IDAutomationC25M.ttf`
+* `IDAutomationC25S.ttf`
+* `IDAutomationC25XS.ttf`
 * `IDAutomationC39L`
 * `IDAutomationC39M`
 * `IDAutomationC39S`
 * `IDAutomationC39XL`
 * `IDAutomationC39XS`
 * `IDAutomationC39XXL`
+* `IDAutomationC39n240m.ttf`
+* `IDAutomationC39n240s.ttf`
+* `IDAutomationC39n240xs.ttf`
+* `IDAutomationC39n240xxs.ttf`
+* `IDAutomationC39nL.ttf`
+* `IDAutomationC39nM.ttf`
+* `IDAutomationC39nS.ttf`
+* `IDAutomationC39nXL.ttf`
+* `IDAutomationC39nXS.ttf`
+* `IDAutomationHC39nL.ttf`
+* `IDAutomationHC39nM.ttf`
+* `IDAutomationHC39nS.ttf`
+* `IDAutomationHC39nXL.ttf`
+* `IDAutomationHC39nXS.ttf`
 * `IDAutomationC93L`
 * `IDAutomationC93M`
 * `IDAutomationC93S`
@@ -255,6 +282,11 @@ The following fonts are installed and available to use in Excel, Word, and RDL r
 * `IDAutomationMSIS`
 * `IDAutomationMSIXS`
 * `IDAutomationOCRa`
+* `IDAutomationOCRa6LPI.ttf`
+* `IDAutomationOCRaIII.ttf`
+* `IDAutomationOCRaIV.ttf`
+* `IDAutomationOCRbIII.ttf`
+* `IDAutomationOCRbIV.ttf`
 * `IDAutomationPLANET`
 * `IDAutomationPLANETn1`
 * `IDAutomationPLANETn2`
@@ -275,6 +307,18 @@ The following fonts are installed and available to use in Excel, Word, and RDL r
 * `IDAutomationUPCEANXSn`
 * `IDAutomationUPCEANXXS`
 * `IDAutomationUPCEANXXSn`
+* `IDAutomationUPCEANL Symbol.ttf`
+* `IDAutomationUPCEANM Symbol.ttf`
+* `IDAutomationUPCEANMne.ttf`
+* `IDAutomationUPCEANS Symbol.ttf`
+* `IDAutomationUPCEANSne.ttf`
+* `IDAutomationUPCEANXS Symbol.ttf`
+* `IDAutomationUPCEANXSne.ttf`
+* `IDAutomationUPCEANXXS Symbol.ttf`
+* `IDAutomationUPCEANXXSne.ttf`
+* `IDAutomationVBHI25L.ttf`
+* `IDAutomationVBHI25M.ttf`
+* `IDAutomationVBHI25XL.ttf`
 * `IDAutomationXC39L`
 * `IDAutomationXC39M`
 * `IDAutomationXC39S`

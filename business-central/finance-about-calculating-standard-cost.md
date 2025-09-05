@@ -124,9 +124,9 @@ Use the [**Implement Standard Cost Change**](#implement-standard-cost-change) ba
 
 ### To update standard costs
 
-1. Run the **Adjust Cost-Item Entries** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost-Item Entries**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
-2. Run the **Post Inventory Cost to G/L** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Cost Worksheet**, and then use one or more of the following actions:
+1. Run the **Adjust Cost-Item Entries** batch job. To start the batch job, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Adjust Cost-Item Entries**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
+2. Run the **Post Inventory Cost to G/L** batch job. To start the batch job, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Post Inventory Cost to G/L**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
+3. [!INCLUDE[open-search](includes/open-search.md)], enter **Standard Cost Worksheet**, and then use one or more of the following actions:
     1. Run the **Suggest Item Standard Cost** batch job.  
     2. Review the results and make changes as necessary.  
     3. Run the **Suggest Capacity Standard Cost** batch job.  

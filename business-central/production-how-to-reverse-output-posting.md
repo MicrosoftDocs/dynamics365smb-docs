@@ -17,7 +17,7 @@ There are times when output posting must be reversed. An example of this would b
 
 ## To reverse an output posting
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link. Select your batch.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Output Journal**, and then choose the related link. Select your batch.  
 2. Fill in the fields as necessary. For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).
 3. In the **Applies-To Entry** field, select the associated item ledger entry. This reverses the capacity and item ledger entries.  
 4. Post the reversal by posting the journal.  

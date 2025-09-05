@@ -26,7 +26,7 @@ Core approval workflows for purchases documents, sales documents, payment journa
 An approval user does the following task.
 
 1. On the page that presents the record, choose the **Send Approval Request** action.
-2. To see all your approval requests, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval Request Entries**, then choose the related link.  
+2. To see all your approval requests, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Approval Request Entries**, then choose the related link.  
 
 The status of the approval entry is updated from **Created** to **Open**. The status of the record, such as a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers approve the record.
 
@@ -48,7 +48,7 @@ An approval user with approver rights can approve or reject approval requests.
 
 You can process approval requests on the **Requests to Approve** page, including approving multiple requests at a time. Alternatively, you can approve individual records by choosing the link in the notification that you receive.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requests to Approve**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Requests to Approve**, and then choose the related link.
 2. Select one or more lines of the records you want to approve or reject.
 3. Choose the **Approve**, **Reject**, or **Delegate** actions.
 
@@ -64,7 +64,7 @@ An approval user with approver rights can delegate approval requests.
 
 To prevent records from piling up or otherwise blocking the workflow, the approver and the approval administrator can delegate an approval request to a substitute approver. The substitute can either be a designated substitute, the direct approver, or the approval administrator, in that order of priority. You typically use this feature if an approver is unavailable or unable to approve requests before the due date.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requests to Approve**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Requests to Approve**, then choose the related link.
 2. Select one or more lines of approval requests you want to delegate to a substitute approver, then choose the **Delegate** action.
 
 A notification to approve the request is sent to the substitute approver.
@@ -75,7 +75,7 @@ An approval user with approver rights can remind approval workflow users of over
 
 The **Send Overdue Approval Notifications** action checks for all open approval requests currently overdue. Each approver with at least one overdue approval entry receives a notification with the list of all their overdue approval requests. The notification is also sent to their approver and all the requesters of the overdue approvals. This last step helps if the overdue approval entry must be delegated to a substitute.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Overdue Approval Requests**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Overdue Approval Requests**, and then choose the related link.
 2. On the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.
 
 ## Related information

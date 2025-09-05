@@ -19,7 +19,7 @@ The requirement for enabling the sustainability value chain in manufacturing pro
 
 To do so, follow these steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Setup**, and then select the related link.
 2. Check whether the basic setup already exists. If it doesn't, follow [these instructions](finance-sustainability-setup.md) to set it up.  
 3. On the **Procurement** FastTab, fill in the following fields:
    1. **Enable Value Chain tracking** to enable sustainability value entry posting through value chain operations and the visibility of these fields on operational documents and journals.
@@ -53,7 +53,7 @@ To use a production order in the sustainability value chain process, add CO2e (c
 
 To do so, follow these steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released production orders**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Released production orders**, and then select the related link.
 2. Create a new production order. To learn more about production orders, go to [How to create a production order](production-how-to-create-production-orders.md).
 3. Run the **Refresh Production Order** action to calculate values for the line.  
 4. After you refresh the order, the value in the **Total CO2e** field updates based on emissions in the production BOM and routing for the production items.

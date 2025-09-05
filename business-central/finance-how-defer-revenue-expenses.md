@@ -23,7 +23,7 @@ To distribute revenues or expenses to accounting periods, you set up a deferral 
 
 ## To set up a G/L account for deferral
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary to create a G/L account for deferred revenues. For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).
 4. Repeat steps 2 and 3 to create a new G/L account for deferred expenses.
@@ -32,7 +32,7 @@ For both types of deferral, select **Balance Sheet** in the **Type** field, and 
 
 ## To set up a deferral template
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deferral Templates**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Deferral Templates**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. In the **Calc. Method** field, specify how to calculate the value in the **Amount** field for each period on the **Deferral Schedule** page. You can choose between the following options:
@@ -57,7 +57,7 @@ Example: The posting date is 02/06/2025. If you enter “Expenses deferred for %
 > [!NOTE]  
 > The steps in this procedure are the same as when you assign a deferral template to a G/L account or a resource.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.
 3. On the **Costs & Posting** FastTab, in the **Default Deferral Template** field, select the relevant deferral template.
 
@@ -66,7 +66,7 @@ Example: The posting date is 02/06/2025. If you enter “Expenses deferred for %
 > [!NOTE]  
 > The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Invoices**, and then choose the related link.
 2. Create a sales invoice for an item that has a deferral template assigned. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 
     Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.
@@ -90,7 +90,7 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 > [!NOTE]  
 > The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Deferral Summary**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Deferral Summary**, and then choose the related link.
 2. On the **Sales Deferral Summary** page, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.
 3. Choose the **Preview** button.
 
@@ -103,7 +103,7 @@ You can specify a period in which people can post transactions by entering dates
 
 If you do that, you must make an exception for deferrals to allow them to be posted outside the period. To define the period, follow these steps.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** or **User Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Ledger Setup** or **User Setup**, and then choose the related link.
 2. In the **Allow Deferral Posting From** and **Allow Deferral Posting To** fields, enter a start and end date for the period.
 
 ### Video guidance

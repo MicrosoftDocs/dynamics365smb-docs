@@ -26,7 +26,7 @@ When you receive the inventory items or the purchased service is complete, post 
 
 The following steps describe how to create a purchase invoice. The steps for creating a purchase order are similar. The main difference is that purchase orders have some extra fields and actions for physical handling of items.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**,  then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**,  then choose the related link.  
 2. In the **Vendor Name** field, enter the name of an existing vendor.
 
     Other fields on the **Purchase Invoice** page are now filled with standard information for the selected vendor. If the vendor isn't registered, follow these steps:
@@ -95,7 +95,7 @@ In all other aspects, purchase orders work the same as purchase invoices. The fo
 
 The following steps describe how to receive items with a purchase order. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, then choose the related link.
 2. Open an existing purchase order, or create a new one.
 3. In the **Qty. to Receive** field, enter the received quantity.
 
@@ -116,24 +116,26 @@ The following video shows how to work with over-receipts.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=61ce06f8-b3e7-42fd-b332-85f09d65a4e1]
 
-<!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
 ### Set up over-receipts
 
 Create over-receipt codes to define a percentage by which a received quantity can exceed the ordered quantity. Specify the percentage in the **Over-Receipt Tolerance %** field. You then assign the code on the Item Card or Vendor Card pages for items and vendors.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Over-Receipt Codes**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Over-Receipt Codes**, then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> You can set up an approval workflow that requires that someone approves over-receipts before they can be handled. Select the **Approval Required** checkbox on the **Over-Receipt Codes** page. Learn more at [Create Workflows](across-how-to-create-workflows.md).
 
 ### Assign the over-receipt code to an item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, then choose the related link.
 2. Open the **Item Card** page for the item.
 3. In the **Over-Receipt Code** field, choose the code that contains the percentage you want to allow for over-receipts.
 
 The over-receipt code is assigned to the item. Purchase orders or warehouse receipts for the item now allow you to receive more than the ordered quantity within the over-receipt tolerance percentage.
 
 > [!NOTE]
-> You can set up an approval workflow requiring over-receipts to be approved before they can be handled. Select the **Approval Required** checkbox on the **Over-Receipt Codes** page. Learn more at [Create Workflows](across-how-to-create-workflows.md).
+> You can't over-receive items for orders that were created from blanket purchase orders. Learn more at [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md).
 
 ### Over-receive an order
 

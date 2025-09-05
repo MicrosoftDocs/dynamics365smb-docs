@@ -30,7 +30,7 @@ To reconcile such payments, you can choose the **Transfer Difference to Account*
 >   Similar functionality exists to set up automatic reconciliation of recurring payments that cannot be applied to related open customer, vendor, or bank account ledger entries. For more information, see [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 ## To reconcile payments that can't be applied automatically
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open a payment reconciliation journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. Choose the **Transfer Difference to Account**. The **Transfer Difference to Account** page opens.
 4. In the **Account Type** field, specify if the type of account that the payment amount will be posted to.

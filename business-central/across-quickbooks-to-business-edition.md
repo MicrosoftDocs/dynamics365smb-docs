@@ -29,7 +29,7 @@ For more information, read about the extension that suits your QuickBooks app:
 
 ## Ready now?
 
-If you're ready to get started now, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
+If you're ready to get started now, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
 
 ## Related information
 

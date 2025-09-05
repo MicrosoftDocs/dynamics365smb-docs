@@ -88,7 +88,7 @@ The accountant receives an email notifying them that they have access to your Mi
 
 1. Sign in to [Business Central](https://businesscentral.dynamics.com).
 1. Open company that you want to give the accountant access to. Learn more in [Switching to Another Company or Environment](ui-organization-switch.md).
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then select the related link.  
 1. Select the **Get New Users from Microsoft 365** action.
 
 This action imports the user account that you created in the Azure portal to the company. Learn more in [To add a user in Business Central](ui-how-users-permissions.md#adduser).  

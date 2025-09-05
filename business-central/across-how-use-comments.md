@@ -27,7 +27,7 @@ The following describes how to add a comment to an item card. The steps are simi
 
 ## To add a comments to an item card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. Open the relevant item card.
 3. Choose the **Comments** action.
 4. On the **Comment Sheet** page, enter any text, and then choose the **OK** button.

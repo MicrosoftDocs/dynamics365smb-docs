@@ -22,7 +22,7 @@ For businesses with warehouses in multiple EU countries, managing VAT (Value Add
 
 To set up the alternative VAT registration numbers for different countries/regions, follow these steps: 
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Alternative Customer VAT Registration**, and then select the related link. 
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Alternative Customer VAT Registration**, and then select the related link. 
 2. Add the customer in the **Customer No** field and the country/region related to this VAT registration in the **VAT Country/Region Code**.  
 3. You must add the VAT number in the **VAT Registration No.** field. You must stick to the format when you use **Country/Region Code**. 
 4. If you want to use different VAT or general posting groups, you can alternatively add them to the setup in the **VAT Bus. Posting Group** and **Gen. Bus. Posting Group** fields. 

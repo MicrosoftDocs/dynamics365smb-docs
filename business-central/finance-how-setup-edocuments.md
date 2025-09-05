@@ -26,7 +26,7 @@ The first step to configure electronic documents (e-documents) is to set up the 
 
 To set up an e-document service, follow these steps.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **E-Document Services**, and then select the related link.
 2. Select **New**, and then, on the **E-Document Service** page, on the **General** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
@@ -93,7 +93,7 @@ This feature is used to set up electronic invoicing automation. If you're using 
 
 However, to enable the new **E-Document** framework, you need to configure the **Document Sending Profile** accordingly. To set up a document sending profile, follow these steps.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profile**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Document Sending Profile**, and then select the related link.
 2. On the **Document Sending Profiles** page, select **New**.
 3. On the **General** FastTab, fill in the required fields.
 4. On the **Sending Options** FastTab, set the **Printer**, **Email**, and **Disk** fields to **No**. Enabling any of these options prevent you from using the **E-Document** framework, limiting you to the legacy e-invoicing functionality instead.
@@ -117,9 +117,9 @@ However, to enable the new **E-Document** framework, you need to configure the *
 
 To set up a workflow for e-documents, follow these steps.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow Templates**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflow Templates**, and then select the related link.
 2. If you can't find **E-Document Workflow Templates** on the **Workflow Templates** page, select **Reset Microsoft Templates**. **E-Document Workflow Templates** should then appear. Close the page.
-3. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then select the related link.
+3. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, and then select the related link.
 4. Choose the **New Workflow from Template** action to select a template for the e-documents process. The available templates are **Send to one service** and **Send to multiple services**.
 5. Select **OK** to finish the workflow setup.
 6. In the **Then Response** field, select **Send E-Document using setup** to configure the workflow responses.
@@ -153,7 +153,7 @@ To set up retention policies for e-documents, follow these steps.
 
 To provide easier ways to test and demonstrate e-documents, Microsoft offers a demo module. To enable the module, follow these steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contoso Demo Tool**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contoso Demo Tool**, and then select the related link.  
 2. Before you enable the **E-Document Contoso Module**, you must first enable the  **Common Module** and **Warehouse Module**.
 3. After you enable the modules, select the **E-Documents Contoso Module**, and then choose the **Generate** action.
 4. Follow the steps.  

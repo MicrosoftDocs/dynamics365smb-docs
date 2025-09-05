@@ -40,7 +40,10 @@ The *Sales Forecasting* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- {Need to Confirm}
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entrie
 
 ## Try the report
 

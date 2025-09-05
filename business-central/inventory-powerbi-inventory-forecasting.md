@@ -26,10 +26,10 @@ The *Inventory Forecasting* report is designed for inventory managers and supply
 ## Key Performance Indicators (KPIs)
 
 The *Inventory Forecasting* report includes the following KPIs:  
-{Need To Confirm}
 
 - [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
-- [**Scheduled Receipt**](inventory-powerbi-kpis.md#scheduled-receipt)
+- [**Quantity (Forecasting)**](inventory-powerbi-kpis.md#quantity-forecasting)
+- [**Quantity**](inventory-powerbi-kpis.md#quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 

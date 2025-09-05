@@ -40,8 +40,9 @@ The *Inventory Forecasting* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-- Item
-- {Need to confirm}
+- Item Ledger Entries
+- Location
+- Item Category
 
 ## Try the report
 

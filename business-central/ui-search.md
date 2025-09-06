@@ -22,7 +22,8 @@ This article describes how the in-product search called *Tell me what you want t
 
 ## Use Tell Me
 
-- Click the Search (Tell me what you want to do) icon or press <kbd>ALT</kbd>+<kbd>Q</kbd>.
+1. [!INCLUDE[open-search](includes/open-search.md)].
+1. 
 - Enter at least three characters; results update as you type.
 - Choose **Search company data** to find records, or **Search Help** for documentation; or pick an action, page, or report from the results.
 - Use <kbd>Tab</kbd>/<kbd>Arrow</kbd> keys and <kbd>Enter</kbd> to navigate results. Open the **Advanced** tab to use natural-language (semantic) search.
@@ -63,17 +64,12 @@ The **Go to Reports and Analysis** section offers access to reporting tools. For
 
 ## Find a record or search the documentation
 
+Use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for data across [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you can find a customer by entering their name or address, or even find a specific record, such as a sales order. You can also use it to find information in our documentation.
+
 The **Search for \<keyword\>** section [!INCLUDE [prod_short](includes/prod_short.md)] offers a couple of ways to search:
 
 * Use the **Search company data** action to search all pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more about how the company data search works in [Search for a record in company data](ui-search-data.md).
 * Use the **Search Help** action to find an article in the Business Central documentation that contains your keyword.
-
-  > [!NOTE]  
-  > Your search results won't include documentation for third-party extensions.
-
-### Use Tell me what you want to do
-
-Use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for data across [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you can find a customer by entering their name or address, or even find a specific record, such as a sales order. You can also use it to find information in our documentation.
 
 Just enter at least three characters of a keyword, and then choose either **Search company data** or **Search Help**.
 
@@ -81,7 +77,8 @@ Just enter at least three characters of a keyword, and then choose either **Sear
 * If you search in our Help, the **Help** pane offers links to articles that contain your keywords. You'll also get a snippet from the article that can help you decide whether it's what you're interested in.
 
 > [!NOTE]
-> For data, searching everything in [!INCLUDE [prod_short](includes/prod_short.md)] might take time. To speed up results, use the **Show tables to search** action to choose the tables and fields that you want to include in your searches. The tables and fields that you can choose from vary, depending on your Role Center. By default, all tables and fields are chosen, which can slow down the search. We recommend that you exclude as many tables and fields as you can.
+> - Your search results won't include documentation for third-party extensions.
+> - Searching all data in [!INCLUDE [prod_short](includes/prod_short.md)] might take time. To speed up results, use the **Show tables to search** action to choose the tables and fields that you want to include in your searches. The tables and fields that you can choose from vary, depending on your Role Center. By default, all tables and fields are chosen, which can slow down the search. We recommend that you exclude as many tables and fields as you can.
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 

@@ -104,7 +104,7 @@ The **Go to Reports and Analysis** section offers access to reporting tools. For
 
 ## Find a record or search the documentation
 
-Use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for data across [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you can find a customer by entering their name or address, or even find a specific record, such as a sales order. You can also use it to find information in our documentation.
+Use Tell Me feature to search for data across [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you can find a customer by entering their name or address, or even find a specific record, such as a sales order. You can also use it to find information in our documentation.
 
 The **Search for \<keyword\>** section offers a couple of ways to search:
 

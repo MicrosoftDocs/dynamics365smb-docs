@@ -56,7 +56,7 @@ The Tell Me feature has two tabs, depending on your setup: **Tell Me** and **Adv
 
 # [Tell Me](#tab/tellme)
 
-The Tell Me tab is always available. If there's no Advanced tab is called **Tell me what you want to do**. Tell Me finds matches based on the exact letters, words, or phrases you type. When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word *product* and the results include *items*, that's because search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
+The **Tell Me** tab is always available. It has the name **Tell me what you want to do** if the **Advanced** tab is missing. Tell Me finds matches based on the exact letters, words, or phrases you type. When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. The search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports. For example, if you enter the word *product*, the results include *items*. 
 
 The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
@@ -65,14 +65,14 @@ The **exploring pages and reports** action opens a feature overview that shows a
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-**Advanced** uses AI (semantic search) to find results by the meaning of your search text, not exact words. Type what you are looking for in plain, everday language&mdash;short descriptive phrases or full sentences&mdash;and select **Search** :::image type="icon" source="media\ui-search\tell-me-advanced-search-icon.png" ::: in the box to run the search.
+**Advanced** uses AI (semantic search) to find results by the meaning of your search text, not exact words. Type what you are looking for in plain, everyday language&mdash;short descriptive phrases or full sentences&mdash;and select **Search** :::image type="icon" source="media\ui-search\tell-me-advanced-search-icon.png" ::: in the box to run the search.
 
 The Advanced tab is useful even if you don’t know the names of things you're looking for. For example, type a phrase like "report that shows my best customers" to find the Customer - Top 10 report.
 
 The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 > [!IMPORTANT]
-> - This is a production-ready preview feature.
+> - This feature is a production-ready preview feature.
 > - Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
 > - This feature is available in Business Central online only, not on-premises, and only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -114,10 +114,10 @@ The **Search for \<keyword\>** section [!INCLUDE [prod_short](includes/prod_shor
 Just enter at least three characters of a keyword, and then choose either **Search company data** or **Search Help**.
 
 * If you search for data, results display on the **Search in company data** page, where they're sorted by type.  
-* If you search in our Help, the **Help** pane offers links to articles that contain your keywords. You'll also get a snippet from the article that can help you decide whether it's what you're interested in.
+* If you search in our Help, the **Help** pane offers links to articles that contain your keywords. You also get a snippet from the article that can help you decide whether it's what you're interested in.
 
 > [!NOTE]
-> - Your search results won't include documentation for third-party extensions.
+> - Your search results don't include documentation for Non-Microsoft extensions.
 > - Searching all data in [!INCLUDE [prod_short](includes/prod_short.md)] might take time. To speed up results, use the **Show tables to search** action to choose the tables and fields that you want to include in your searches. The tables and fields that you can choose from vary, depending on your Role Center. By default, all tables and fields are chosen, which can slow down the search. We recommend that you exclude as many tables and fields as you can.
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]

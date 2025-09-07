@@ -20,17 +20,59 @@ This article describes how the in-product search called *Tell me what you want t
 
 <!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 
-## Use Tell Me
+## Get started with Tell Me
+<!--
+Tell Me feature — quick usage guide
 
-1. [!INCLUDE[open-search](includes/open-search.md)].
-1. 
-- Enter at least three characters; results update as you type.
-- Choose **Search company data** to find records, or **Search Help** for documentation; or pick an action, page, or report from the results.
-- Use <kbd>Tab</kbd>/<kbd>Arrow</kbd> keys and <kbd>Enter</kbd> to navigate results. Open the **Advanced** tab to use natural-language (semantic) search.
+How it works
+- The Tell Me feature has two tabs: "Tell Me" and "Advanced".
+- Both tabs search the same items, but use different methods:
+  - Tell Me: finds matches based on the exact words or keywords you type.
+  - Advanced: uses AI (semantic search) to find results based on the meaning of your query.
 
-When you need help with finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for it. You can also use <kbd>ALT</kbd>+<kbd>Q</kbd> to start a search.
+How to use
+1. Open Tell Me and select the tab you want: Tell Me or Advanced.
+2. Type your search as plain, everyday language — short phrases or full sentences both work.
+3. Press Enter or pick a result from the suggestions to go directly to the command, page, or report.
+
+When to use which tab
+- Use Tell Me when you know specific words or exact command names.
+- Use Advanced when you only know what you want to achieve but not the exact name. The AI interprets intent and returns relevant items even without exact matches.
+
+Example
+- Query: "report that shows my best customers"
+- Result (Advanced): finds the Customer - Top 10 report even if you don't know that exact report name.
+
+Tips
+- Be descriptive: include what you want to do (e.g., "create invoice for customer"), not just a single keyword.
+- Try the Advanced tab if Tell Me doesn't return useful results — semantic search will broaden the matches.
+-->
+
+When you need help with finding something, [!INCLUDE[open-search](includes/open-search-lowercase.md)] to open the **Tell Me** feature.
 
 [![Shows the Tell Me window in the role center](media/ui-search/tell-me.png)](media/ui-search/tell-me.png#lightbox)
+
+The Tell Me feature has two tabs, depending on your setup: **Tell Me** and **Advanced**. Both tabs search the same items based on text you enter, but use different methods:
+
+# [Tell Me](#tab/tellme)
+
+The Tell Me tab is always available. If there's no Advanced tab is called **Tell me what you want to do**. Tell Me finds matches based on the exact letters, words, or phrases you type. When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word *product* and the results include *items*, that's because search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
+
+# [Advanced (preview)](#tab/advanced)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+**Advanced** uses AI (semantic search) to find results based on the meaning of your search text, not exact words. Enter text in plain, everyday language&mdash;in short descriptive phrases or full sentences&mdash;and select the **Search** :::image type="icon" source="media\ui-search\tell-me-advanced-search-icon.png" :::. 
+
+The Advanced tab is useful even if you don’t know the names of things you're looking for. For example, type a phrase like "report that shows my best customers" to find the Customer - Top 10 report.
+
+> [!IMPORTANT]
+> - This is a production-ready preview feature.
+> - Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
+> - This feature is available in Business Central online only, not on-premises, and only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+---
+
 
 When you start typing characters on the **Tell me what you want to do** page, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word *product* and the results include *items*, that's because search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
 

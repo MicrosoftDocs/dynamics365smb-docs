@@ -58,13 +58,18 @@ The Tell Me feature has two tabs, depending on your setup: **Tell Me** and **Adv
 
 The Tell Me tab is always available. If there's no Advanced tab is called **Tell me what you want to do**. Tell Me finds matches based on the exact letters, words, or phrases you type. When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word *product* and the results include *items*, that's because search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
 
+The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
+
+
 # [Advanced (preview)](#tab/advanced)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-**Advanced** uses AI (semantic search) to find results based on the meaning of your search text, not exact words. Enter text in plain, everyday language&mdash;in short descriptive phrases or full sentences&mdash;and select the **Search** :::image type="icon" source="media\ui-search\tell-me-advanced-search-icon.png" :::. 
+**Advanced** uses AI (semantic search) to find results by the meaning of your search text, not exact words. Type what you are looking for in plain, everday language&mdash;short descriptive phrases or full sentences&mdash;and select **Search** :::image type="icon" source="media\ui-search\tell-me-advanced-search-icon.png" ::: in the box to run the search.
 
 The Advanced tab is useful even if you don’t know the names of things you're looking for. For example, type a phrase like "report that shows my best customers" to find the Customer - Top 10 report.
+
+The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 > [!IMPORTANT]
 > - This is a production-ready preview feature.
@@ -73,19 +78,12 @@ The Advanced tab is useful even if you don’t know the names of things you're l
 
 ---
 
+Search results display on the page the same way for the **Tell Me** or **Advanced** tab.
 
-When you start typing characters on the **Tell me what you want to do** page, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word *product* and the results include *items*, that's because search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
-
-The column to the right indicates the general category of the result. For example, whether it opens a list page or is an administrative task.  
-
-At the bottom of the **Tell me what you want to do** page, the **exploring pages and reports** action opens a feature overview that shows you all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
+The rigt-side column indicates the general category of the result. For example, whether it opens a list page or is an administrative task. The page categorizes results based on the data that you enter and the page you're working on. The following sections describe the categories.
 
 > [!TIP]  
 > If you prefer to use your keyboard, use the <kbd>Tab</kbd> key and <kbd>Arrow</kbd> keys to choose an item in the results. If you select the <kbd>Enter</kbd> key on your keyboard without choosing a result, [!INCLUDE[prod_short](includes/prod_short.md)] opens the result that is listed first.
-
-The Tell me feature now includes an **Advanced** tab. This tab works like the Tell tab but uses AI-powered semantic search to find results based on the meaning of your search, not just exact word matches. Enter natural language or descriptive phrases to find pages and reports, even if you don’t know the exact names. For example, type a phrase like "report that shows my best customers" to find the Customer - Top 10 report.
-
-The **Tell me what you want to do** page categorizes results based on the data that you enter and the page you're working on. The following sections describe the categories.
 
 ## Find an action on the current page
 

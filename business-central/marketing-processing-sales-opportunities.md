@@ -43,7 +43,7 @@ You can close opportunities when the negotiations are over. When you close an op
 > [!NOTE]
 > You can only create sales quotes from opportunities where the contact type is Company.
 
-1. On the **Opportunity List** page, select the opportunity, and then choose the **Assign Sales Quote** action. The **Sales Quote** page opens.
+1. On the **Opportunity List** page, select the opportunity, and then choose the **Create Sales Quote** action. The **Sales Quote** page opens.
 2. Fill in the relevant fields.
 
 ## Create sales orders for opportunities
@@ -51,7 +51,7 @@ You can close opportunities when the negotiations are over. When you close an op
 You can make sales orders from the sales quotes that you have created for your opportunities. Before you can create sales orders for your contacts, you must create the contact as a customer. For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
 1. On the **Opportunity List** page, find the opportunity that you have created a sales quote for.
-2. Choose the **Assign Sales Quote** action. The **Sales Quote** page opens to show the sales quote that you have assigned to the opportunity.
+2. Choose the **Create Sales Quote** action. The **Sales Quote** page opens to show the sales quote that you have assigned to the opportunity.
 3. Fill in the additional fields, and then choose the **Make Order** action.
 
 When handling sales opportunities, you may need to create a quote for the contact that the opportunity is linked to.

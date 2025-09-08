@@ -79,7 +79,7 @@ The following table lists the permissions needed to use the different Copilot an
 
 | Copilot or agent | Required permissions |
 |---|---|
-| Analysis assist | **Copilot Sys Features** permission set or execute permission on system object 9710 **Allow Copilot Analysis Assist**. |
+| Analysis assist | <ul><li>**Copilot Sys Features** permission set or execute permission on system object 9710 **Allow Copilot Analysis Assist**.</li><li>**Data Analysis - Exec.** permission set or include execute permission on the system object for permission to analysis mode.</li><li>**Add Related Fields** permission set for permission to add fields from related tables. |
 | Autofill | **Copilot Sys Features** permission set or execute permission on system object 9700 **Allow Copilot Autofill**. |
 | Bank reconciliation assist | Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**. |
 | Chat |**Copilot Sys Features** permission set or execute permission on system object 9690 **Allow Copilot Chat**. |

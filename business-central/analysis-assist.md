@@ -19,9 +19,9 @@ This article explains how to use *analysis assist* to help you analyze data on l
 
 ## About analysis assist
 
-Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, create an *analysis* tab where you transform the data to display the desired aggregations and summarizations—for example, arranging fields in rows and columns, specifying filters, sorting columns, and pivoting on fields.
+Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, create an analysis tab where you transform the data to display the desired aggregations and summarizations—for example, arranging fields in rows and columns, specify filters, sorting columns, and pivot on fields.
 
-With analysis assist, instead of doing these tasks manually you can express the structure you want in natural language and get a suggested layout as a starting point. Copilot can also help by adding fields from related tables (for example, showing items together with the purchasing vendor address) and by translating instructions like "sort on quantity from smallest to largest" or "show average cost per category" into the corresponding rows, columns, filters, and aggregations.
+With analysis assist, instead of doing these tasks manually, you can express the structure you want in natural language and get a suggested layout as a starting point. Copilot can also help by adding fields from related tables (for example, showing items together with the purchasing vendor address). It can translate instructions like "sort on quantity from smallest to largest" or "show average cost per category" into the corresponding rows, columns, filters, and aggregations.
 
 ## Supported languages
 
@@ -104,6 +104,9 @@ Prompt: `group items by vendor's country/region`
 
 This prompt groups items by the vendors' countries/regions. Because the country/region data is stored in the **Vendor** table, not the **Item** table, Copilot uses analysis mode to include fields from related tables. In this case, Copilot uses the vendor number from the item record to retrieve the country/region from the **Vendor** table and adds `Country/Region Code [Vendor, via: Vendor No. = No.]` in the **Row Groups** section of the **Columns** pane.
 
+> [!TIP]
+> Copilot performs better when you mention the related table from which you want to add more fields.
+
 ## How Copilot works with fields for analysis assist
 
 Copilot can use any of the visible or hidden fields on the list page and add them as columns to the analysis tab layout. Hidden fields are those fields that you would typically add to the list by personalizing the page.
@@ -114,6 +117,10 @@ When Copilot determines that a hidden field is useful for your analysis tab, the
 > If an administrator turned off personalization for your profile (role), Copilot isn't able to use hidden fields from the list.
 
 Copilot can't reach fields that are on the table but not on the page, and it can't use fields from other pages.
+
+## Using tabs created by Copilot in preview
+
+If you used the **Analysis Assist** feature while in preview, you might have asked Copilot to create analysis tabs that include hidden fields from the list. These tabs are no longer compatible. When you next open one of these analysis tabs, a message indicates which hidden fields have been removed. You can add these fields again manually, or ask Copilot to create a new tab for you.
 
 ## Related information
 

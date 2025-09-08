@@ -36,10 +36,10 @@ Create a project WIP method that meets the needs of your organization and set it
 > [!NOTE]
 > After you use a method to create WIP entries, you can't modify or delete the method.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Methods**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project WIP Methods**, and then choose the related link.  
 2. Choose the **New** action, select the appropriate values for the **Recognized Costs** and **Recognized Sales** fields, and then fill in the other fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Close the page.
-4. To make this method the default, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **projects setup**, and then choose the related link.  
+4. To make this method the default, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **projects setup**, and then choose the related link.  
 5. In the **Default WIP Method** field, choose the method from the list.
 
 ### Recognized cost

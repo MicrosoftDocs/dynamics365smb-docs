@@ -33,7 +33,7 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 
 ## To sell inventory items in assemble-to-order flows
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Create a sales order. To learn about creating sales orders, go to [Sell Products](sales-how-sell-products.md).  
 3. On a sales order line that contains an assemble-to-order item, in the **Quantity** field, enter the quantity.  
 4. In the **Sales Line Details** FactBox, determine whether some of all of the quantity is available.  

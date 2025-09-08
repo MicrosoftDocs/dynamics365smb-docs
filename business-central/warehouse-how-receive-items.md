@@ -38,7 +38,7 @@ You can create warehouse receipt in one of two ways:
 
 The following procedure describes how to create a warehouse receipt in a pull fashion.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Receipts**, then choose the related link.  
 2. Choose the **New** action.  
 
     Fill in the **Location Code** field on the **General** FastTab. When you retrieve source document lines, some of the information is copied to each line.

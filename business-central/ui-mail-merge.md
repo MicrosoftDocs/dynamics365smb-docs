@@ -70,7 +70,7 @@ For each entity, you can specify the fields that you want to be available for th
 
 ## To create a Word template in Business Central
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Word Templates**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Word Templates**, and then choose the related link.
 2. Choose **New**, then **Create a Template**, and then follow the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]

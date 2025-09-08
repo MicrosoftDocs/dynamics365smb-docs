@@ -40,7 +40,7 @@ Information about products is stored in multiple places in [!INCLUDE [prod_short
 
 This process describes how to get Copilot to suggest substitute items.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then select the related link.
 2. Select the item you want Copilot to find substitutes for.
 3. Choose the **Substitutions** action.
 4. On the **Item Substitution Entry** page, choose **Suggest with Copilot**.

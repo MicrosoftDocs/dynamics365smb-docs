@@ -80,7 +80,7 @@ Other permission sets are added automatically based on the user groups assigned 
 If this default configuration isn't the right setup for a particular environment, the admin can change that configuration. However, customized permissions affect only new users who are assigned that license. Permissions for existing users who are assigned the license aren't affected.  
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.  
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **License Configuration**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **License Configuration**, and then choose the related link.  
 
     <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. In the **License Configuration** page, choose the license that you want to customize, and then choose the **Configure** action.  
@@ -99,7 +99,7 @@ After you add users or change user information in the Microsoft 365 Admin Center
 > If you need to update user information and you have a lot of users, you can use the filter pane to narrow down the list. You can filter on basic information such as the user name, or set more technical filters, such as the user's security ID.
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.  
 3. Choose **Update Users from Microsoft 365**.
 
 > [!IMPORTANT]  
@@ -124,7 +124,7 @@ For more information about synchronizing user information with Microsoft 365, go
 
 You can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)] online. All references to the user are kept. However, the user can't sign in and active sessions for the user are stopped.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 2. Open the **User Card** page for the relevant user, and then, in the **Status** field, select **Disabled**.
 3. To give the user access again, set the **Status** field to **Enabled**.
 
@@ -166,7 +166,7 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 
 ### To edit or delete a user in an on-premises deployment
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 2. Select the user that you want to edit, and then choose the **Edit** action.
 3. On the **User Card** page, change the information as necessary.  
 4. To delete a user, select the user that you want to delete, and then choose the **Delete** action.

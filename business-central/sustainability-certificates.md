@@ -24,7 +24,7 @@ Sustainability certificates for companies cover a wide range of criteria, includ
 
 The *sustainability certificate area* refers to the specific area covered by a particular certificate. Generally, this method is used to categorize similar certificates based on distinct characteristics. To create new sustainability certificate area, follow these steps:   
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sust. Certificate Areas**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sust. Certificate Areas**, and then select the related link.
 2. On the **Sust. Certificate Areas** page, select **New**, and enter the **Number** and **Name** fields for new certificate area. 
 3. Close the page.   
 
@@ -32,7 +32,7 @@ The *sustainability certificate area* refers to the specific area covered by a p
 
 The *Sustainability certificate standard* refers to the specific standard for a particular certificate. Generally, it should provide third-party verified, transparent, and measurable criteria aligned with international ESG frameworks to promote responsible business practices. To create new sustainability certificate standard, follow these steps: 
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sust. Certificate Standards**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sust. Certificate Standards**, and then select the related link.
 2. On the **Sust. Certificate Standards** page, select **New**, and enter the **Number** and **Name** fields for new certificate standard. 
 3. Close the page.  
 
@@ -40,7 +40,7 @@ The *Sustainability certificate standard* refers to the specific standard for a 
 
 To create a new sustainability certificate, follow these steps:   
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Certificates**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Certificates**, and then select the related link.
 2. On the **Sustainability Certificates** page, select **New**.
 3. In the **Type** field, choose if this certificate is related to vendors or items, and enter the **No.** and **Name** fields.
 4. In the **Area** field, choose specific **Sust. Certificate Area** option and in the **Standard** field, choose adequate **Sust. Certificate Standard**.
@@ -55,7 +55,7 @@ Sustainability certificates are typically issued by independent third-party orga
 
 To add the sustainability certificate to the vendor follow the next steps:   
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then select the related link.
 2. Choose the vendor you want to work with.
 3. In the **General** FastTab, select the certificate in the **Sust. Certificate No.** field. If you don't see the field by default, select the **Show more** for the **General** FastTab.
 4. Close the page.  
@@ -64,7 +64,7 @@ To add the sustainability certificate to the vendor follow the next steps:
 
 To add the sustainability certificate to the item follow the steps:   
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then select the related link.
 2. Choose the item you want to work with.
 3. In the **Sustainability** FastTab, select the certificate in the **Sust. Certificate No.** field. 
 4. Close the page.

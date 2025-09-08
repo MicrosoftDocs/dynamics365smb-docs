@@ -38,7 +38,7 @@ The following procedure describes how to undo posted assembly orders that contai
 
 You can undo fully or partially posted assembly orders.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Assembly Orders**, and choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Assembly Orders**, and choose the related link.  
 
    Each partial posting creates a separate posted assembly order.  
 2. Open the posted assembly order that you want to undo, and then choose the **Undo Assembly** action.  

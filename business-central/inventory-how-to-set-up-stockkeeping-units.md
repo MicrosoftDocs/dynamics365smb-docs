@@ -20,7 +20,7 @@ Use stock keeping units (SKUs) to record information about items for a specific 
 
 ## To set up a SKU  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock keeping Units**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Stock keeping Units**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

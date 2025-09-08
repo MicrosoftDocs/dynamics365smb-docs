@@ -19,13 +19,13 @@ If several purchasers work at your company, you can set them up in a page and as
 
 ## To set up purchasers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Salespeople/Purchasers**, and then choose the related link.
 2. On the **Salespeople/Purchasers** page, choose **New**.
 3. On the **Salesperson/Purchaser Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign purchasers to vendors
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card for the vendor that will be assigned a purchaser.
 3. In the **Purchaser Code** field, select the applicable purchaser code and then close the page.
 

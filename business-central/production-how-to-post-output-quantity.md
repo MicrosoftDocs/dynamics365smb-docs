@@ -27,7 +27,7 @@ The **Production Journal** page lets you do the same tasks as the **Output Journ
 
 ## To post output quantities and/or register run times for one or more production order lines
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     You can use the **Explode Routing** function to generate journal lines from production orders.

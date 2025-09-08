@@ -19,7 +19,7 @@ On the **Financial Report KPI Web Service Setup** page, you set up how to show t
 
 ## Set up and publish a KPI web service based on financial reports
   
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Report KPI Web Service Setup**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Financial Report KPI Web Service Setup**, then choose the related link.
 2. On the **General** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. On the **Row Definitions** FastTab, fill in the fields.
 4. Repeat step 3 for all financial reports you want to base the financial report KPI web service on.  

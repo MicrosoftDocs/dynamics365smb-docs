@@ -72,7 +72,7 @@ You can set up items to have replacements, such as other items that can be used 
 
 ### To make an item substitution
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Find the relevant item, and then choose the **No.** to open the Item Card.  
 3. Choose the **Related** action, then choose **Item**, and then **Substitutions** to open the **Item Substitution Entry** page.  
 4. Choose the **Substitute No.** field, and then select the replacement item from the list.
@@ -108,7 +108,7 @@ To register items that you use in production orders, specify the replenishment s
 
 If you purchase the same item from more than one vendor, you can connect those vendors to the item. Use the **Vendors** action on the **Item Card** page to open the **Item Vendor Catalog** page. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Select the relevant item, and then choose the **Edit** action.  
 3. Choose the **Vendors** action.  
 4. Choose the **No.** field, and then select the vendor that you want to set up for the item.  

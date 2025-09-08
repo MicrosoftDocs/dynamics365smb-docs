@@ -42,13 +42,13 @@ Before you can process customer payments electronically by exporting direct debi
 
 ### To set up your bank account for SEPA Direct Debit
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.  
 2. Open the bank account that you want to use for direct debit.  
 3. On the **General** FastTab, in the **SEPA Direct Debit Exp. Format** field, choose the option for SEPA Direct Debit.  
 
 ### To set up the customer's payment method for SEPA Direct Debit
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Methods**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
 
@@ -61,14 +61,14 @@ Before you can process customer payments electronically by exporting direct debi
     >  Do not enter a value in the **Bal. Account No.** field.  
 
 4. Choose the **OK** button to close the **Payment Methods** page.  
-5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+5. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.  
 6. Open the customer card for the customer that you want to set up for SEPA Direct Debit collection.  
 7. Choose the **Payment Method Code** field, and then select the payment method code that you specified in step 3.  
 8. Repeat steps 6 and 7 for all customers that you want to set up for SEPA Direct Debit collection.  
 
 #### To set up the direct-debit mandate that represents the customer agreement
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.  
 2. Open the card for the customer that you want to set up for SEPA Direct Debits.  
 3. Choose the **Bank Accounts** action.  
 4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then choose the **Direct Debit Mandates** action from **New**.  
@@ -98,7 +98,7 @@ To instruct the bank to transfer the payment amount from the customer's bank acc
 
 ### To create a direct-debit collection  
 
- 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
+ 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Direct Debit Collections**, and then choose the related link.  
  2. On the **Direct Debit Collections** page, choose the **Create Direct Debit Collection** action.  
  3. On the **Create Direct Debit Collection** page, fill in the fields as described in the following table.  
 
@@ -148,7 +148,7 @@ You can post the payment receipt directly from the **Direct Debit Collections** 
 
 ### To post a direct-debit payment receipt from the Direct Debit Collections page
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Direct Debit Collections**, and then choose the related link.  
 2. Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank.
 3. Choose the **Post Payment Receipts** action.  
 4. On the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  

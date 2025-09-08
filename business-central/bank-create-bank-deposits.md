@@ -58,7 +58,7 @@ The lines on the bank deposit use the default dimensions you specified in the **
 
 ## Create a bank deposit
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Deposits**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Deposits**, and then choose the related link.
 2. Choose **New** to open the **Bank Deposit** page.
 3. Choose the general journal template that you created for bank deposits.  
 
@@ -104,7 +104,7 @@ The lines on the bank deposit use the default dimensions you specified in the **
 
 You can post lump sum deposits from multiple checks on deposit lines for customer ledger entries. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Deposits**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Deposits**, and then choose the related link.
 2. Create or choose a line for the customer, and in the **External Document No.** field, enter the check number.
 3. Choose **Apply Entries**.
 4. On the **Apply Customer Entries** page, for each document you want to apply the check to, in the **Applies-to ID** field, enter the check number.

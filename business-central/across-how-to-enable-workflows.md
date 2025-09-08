@@ -18,7 +18,7 @@ On the **Workflow** page, create a workflow by listing the involved steps on the
 
 ## Enable a workflow
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, then choose the related link.  
 2. Open the workflow that you want to enable.  
 3. On the **Workflow** page, turn on the **Enabled** toggle.  
 

@@ -17,7 +17,7 @@ When you are ready to post a document, such as an order, invoice, or a credit me
 >   The following procedure is about testing before posting a purchase document. The functionality works in the same way for sales documents.
 
 ## To print a test report before posting a purchase invoice
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then select the related link.
 2. Open the purchase invoice that you want to test.
 3. Choose the **Test Report** action.  
 

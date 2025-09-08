@@ -63,7 +63,7 @@ Centralized Deployment is a feature in the Microsoft 365 admin center that you u
 
 In this task, you work in both [!INCLUDE[prod_short](includes/prod_short.md)] and the Microsoft 365 admin center.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Excel Add-in Centralized Deployment**, and then choose the related link.
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Excel Add-in Centralized Deployment**, and then choose the related link.
 2. Read the information on the **Business Central Excel add-in setup** page and choose **Next**.
 3. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2163967) and go to **Integrated Apps**<!--**Add-ins**-->.
 

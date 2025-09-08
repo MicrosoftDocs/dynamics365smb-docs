@@ -28,7 +28,7 @@ When, for example, you're entering general journal lines for multiple expenses t
 
 ### To have the **Amount** field on balancing general journal lines filled automatically
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Journals**, and then choose the related link.
 1. On the line for your preferred general journal batch, choose the **Suggest Balancing Amount** check box.
 1. Open the general journal and proceed to register and post transactions using the described functionality for automatic entry of a field value.       
 
@@ -42,7 +42,7 @@ Your main actions on the page are to fill in the **Payment Made** check box and 
 
 ### To have the **Date Received** field on the **Payment Registration** page filled automatically
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Registration Setup**, and then choose the related link.
 1. Select the **Automatically Fill Date Received** check box.
 1. Open the **Register Customer Payments** page and proceed to process incoming customer payments using the described functionality for automatic entry of a field value.
 

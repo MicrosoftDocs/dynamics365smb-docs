@@ -28,7 +28,7 @@ Each dimension describes the focus of analysis. So, a two-dimensional analysis, 
 
 An analysis by dimensions uses a selected combination of dimensions. You store, retrieve, and update that dimension set by creating an **Analysis View** card.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Analysis Views**, then choose the related link.  
 2. On the **Analysis View List** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, then choose the **OK** button.  
@@ -38,7 +38,7 @@ An analysis by dimensions uses a selected combination of dimensions. You store, 
 
 Use analysis views you've already set up with the **Analysis by Dimensions** matrix to view the amounts in your general ledger.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Analysis Views**, then choose the related link.  
 2. Select the relevant analysis view, then choose the **Analysis by Dimensions** action.
 3. On the **Analysis by Dimensions** page, fill in the fields to define what data to show, and how.
 4. Choose the **Show Matrix** action to open the matrix page for the analysis view.
@@ -62,7 +62,7 @@ The amounts on the **Analysis by Dimensions** page give you a picture of the com
 
 Use the following procedure to update an analysis view from the **Analysis by Dimensions** page. The steps are similar to those for updating the **Analysis View Card** and **Analysis View List** pages.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Analysis Views**, then choose the related link.
 2. Select the relevant analysis view, then choose the **Analysis by Dimensions** action.
 3. On the **Analysis by Dimensions** page, choose the **Analysis View Code** field.  
 4. Select the line with the relevant analysis view.  

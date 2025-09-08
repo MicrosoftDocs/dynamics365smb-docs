@@ -125,6 +125,7 @@ You can open the pages or reports in a new window while keeping the role explore
 ## Related information
 
 [Finding Pages and Information with Tell Me](ui-search.md)  
+[Responsible aI FAQ for advanced Tell Me](faqs-advanced-tell-me.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

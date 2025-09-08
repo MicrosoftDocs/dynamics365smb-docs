@@ -60,7 +60,6 @@ The **Tell Me** tab is always available. It has the name **Tell me what you want
 
 The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
-
 # [Advanced (preview)](#tab/advanced)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]

@@ -139,6 +139,7 @@ We've shown search to a range of stakeholders, noted the questions that they had
 
 ## Related information
 
+[Responsible aI FAQ for advanced Tell Me](faqs-advanced-tell-me.md)  
 [Work with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)  
 [Save and Personalize List Views](ui-views.md)  

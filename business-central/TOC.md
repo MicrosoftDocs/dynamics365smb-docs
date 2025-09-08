@@ -2657,7 +2657,7 @@ ms.service: dynamics-365-business-central
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
-## [FAQ for Advanced Tell Me (preview)](faqs-advanced-tell-me.md?toc=/dynamics365/business-central/toc.json)
+## [FAQ for advanced Tell Me (preview)](faqs-advanced-tell-me.md?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)

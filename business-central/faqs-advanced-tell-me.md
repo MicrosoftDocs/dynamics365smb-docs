@@ -1,6 +1,6 @@
 ---
 title: Responsible AI FAQ for Advanced Tell Me (preview)
-description: Learn about the AI technology behind Advanced Tell Me semantic search in Business Central, including intended use, evaluation, limitations, mitigations, data, security, and feedback.
+description: Learn about the AI technology behind Advanced Tell Me semantic search. Get an overview, evaluation metrics, limits, mitigations, data use, security details, and feedback steps.
 ms.date: 09/08/2025
 ms.update-cycle: 180-days
 ms.custom:
@@ -9,18 +9,21 @@ ms.topic: faq
 author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
-ms.search.keywords: copilot, AI, search, semantic, navigation, advanced tell me
 ms.collection:
   - bap-ai-copilot
 ---
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+# Responsible AI FAQ for Advanced Tell Me (preview)
 
-These frequently asked questions (FAQ) describe the AI impact of Advanced Tell Me in [!INCLUDE[prod_short](includes/prod_short.md)]. For help using search, see [Finding pages and information](ui-search.md).
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+These frequently asked questions (FAQ) describe the AI impact of Advanced Tell Me in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more about using Tell Me for searching in [Finding pages and information with Tell Me](ui-search.md).
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is Advanced Tell Me?
 
-Advanced Tell Me is an AI-powered enhancement to the existing **Tell me what you want to do** (Alt+Q) feature. It provides semantic (meaning-based) search over product metadata—such as page captions, descriptions, additional search terms, and report or query metadata—so you can find pages, reports, and queries even when your wording doesn't match exact text.
+Advanced Tell Me is an AI-powered enhancement to the existing **Tell me what you want to do** (<kbd>Alt</kbd>+<kbd>Q</kbd>) feature. It provides semantic (meaning-based) search over product metadata&mdash;such as page captions, descriptions, additional search terms, and report or query metadata&mdash;so you can find pages, reports, and queries even when your wording doesn't match exact text.
 
 ## What can Advanced Tell Me do?
 
@@ -32,7 +35,7 @@ Advanced Tell Me improves navigation and discoverability by:
 
 ## What is the intended use of Advanced Tell Me?
 
-It’s intended to:
+Advanced Tell Me is intended to:
 
 - Help you efficiently locate pages, reports, and queries in Business Central
 - Reduce reliance on exact keyword matching required by classic Tell Me
@@ -49,7 +52,7 @@ Evaluation used 12,118 English test cases derived from application metadata vari
 - Common Business Central abbreviations and acronyms
 - Paraphrased or synonym-rich queries
 
-Primary metric: target object appears within the top 3 results (precision@3). Quality gates required acceptable aggregate performance across all query classes.
+Primary metric: target object appears within the top three results (precision@3). Quality gates required acceptable aggregate performance across all query classes.
 
 The feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
@@ -63,30 +66,30 @@ You can report poor or unexpected results through standard feedback and support 
 
 ### Limitations
 
-- Language: Validated and supported in English only; other languages may yield reduced quality.
-- Metadata dependence: Sparse or inaccurate captions, additional search terms, or about text lower result quality.
-- Scope: Doesn’t search live business data or external sources—only product metadata.
-- Ranking variance: The best match might not always appear first.
-- Not a data exploration tool: It won’t retrieve specific records by value (use other search or filtering features instead).
+- **Language:** Validated and supported in English only; other languages might yield reduced quality.
+- **Metadata dependence:** Sparse or inaccurate captions, additional search terms, or about text lower result quality.
+- **Scope:** Doesn’t search live business data or external sources—only product metadata.
+- **Ranking variance:** The best match might not always appear first.
+- **Not a data exploration tool:** It doesn't retrieve specific records by value (use other search or filtering features instead).
 
 ### Mitigations
 
 - Use clear, descriptive queries (short phrases or natural language).
-- Enrich metadata (captions, Additional Search Terms, About Text) for custom objects.
+- Enrich metadata (captions, additional search terms, about text) for custom objects.
 - Rephrase with distinctive domain terms if results are weak.
 - Fall back to the keyword tab for exact label searches.
 
 ## What operational factors affect responsible use?
 
-- Feature management: Advanced Tell Me can be turned on/off in **Feature Management**.
-- Metadata stewardship: Regularly review and enrich metadata for custom pages, reports, or queries to maintain high-quality results.
-- User guidance: Encourage users to review result context before navigating when similarly named objects exist.
+- **Feature management:** Advanced Tell Me can be turned on/off in **Feature Management**.
+- **Metadata stewardship:** Regularly review and enrich metadata for custom pages, reports, or queries to maintain high-quality results.
+- **User guidance:** Encourage users to review result context before navigating when similarly named objects exist.
 
-If prerequisites (like activation) aren’t met, the **Advanced** tab won’t appear.
+If prerequisites (like activation) aren’t met, the **Advanced** tab doesn't appear.
 
 ## What data does Advanced Tell Me use? Does it train on my data?
 
-It works on product metadata already present in the environment (captions, descriptions, search terms). Query text and interaction signals may be logged for service quality and safety. Microsoft doesn't use your company business data to train foundational AI models for the benefit of others.
+It works on product metadata already present in the environment (captions, descriptions, search terms). Query text and interaction signals might be logged for service quality and safety. Microsoft doesn't use your company business data to train foundational AI models for the benefit of others.
 
 Avoid entering sensitive data (passwords, secrets) into search queries.
 
@@ -117,6 +120,6 @@ Include the exact query and the object you expected.
 
 ## Related information
 
-[Finding pages and information](ui-search.md)  
+[Finding pages and information with Tell Me](ui-search.md)  
 [Responsible AI FAQ for Chat with Copilot](faqs-chat-with-copilot.md)  
 [Business Central documentation](index.md)  

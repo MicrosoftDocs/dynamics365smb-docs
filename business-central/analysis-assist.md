@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 06/19/2025
+ms.date: 09/08/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -13,17 +13,15 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 ms.collection:
   - bap-ai-copilot
 ---
-# Analyze data in lists with Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Analyze data in lists with Copilot
 
 This article explains how to use *analysis assist* to help you analyze data on list pages.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 ## About analysis assist
 
-Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, you create an *analysis* tab where you transform the data to display the desired aggregations and summarizations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. With analysis assist, instead of doing this task manually, you achieve much of the same&mdash;or least as a start&mdash;by using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category," analysis assist uses AI to generate a suggested layout on an analysis tab.
+Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, create an *analysis* tab where you transform the data to display the desired aggregations and summarizations—for example, arranging fields in rows and columns, specifying filters, sorting columns, and pivoting on fields.
+
+With analysis assist, instead of doing these tasks manually you can express the structure you want in natural language and get a suggested layout as a starting point. Copilot can also help by adding fields from related tables (for example, showing items together with the purchasing vendor address) and by translating instructions like "sort on quantity from smallest to largest" or "show average cost per category" into the corresponding rows, columns, filters, and aggregations.
 
 ## Supported languages
 

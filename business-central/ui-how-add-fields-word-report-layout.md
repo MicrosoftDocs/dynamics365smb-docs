@@ -26,10 +26,43 @@ If you're designing a Word report layout from scratch or adding new data fields,
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-## Embedding Fonts in Word Layouts for Consistency
+## Embedding fonts in Word layouts for consistency
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
+## Quickstart: Modify a Word layout
+
+Follow these steps to customize a Word layout for a report. 
+
+Before you can start making changes to a Word layout, you need the .docx file. If you don't have the file, export the layout from Report Layouts page in Business Central. When you have the file, open it in Word. Learn more in [Modify a Custom Report Layout](ui-get-started-layouts#modify-a-layout).
+## <a name="modify"></a>Modify a layout
+
+Follow these steps to modify an existing user-defined layout.
+
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Select the layout that you want to modify, and then select the **Export Layout** action.
+
+    The layout file downloads to your device.
+
+    > [!TIP]
+    > To find the layout that you want, use the search field, the filter pane, and column sorting.
+
+1. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
+
+    Learn more in the following articles:
+
+    * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+    * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
+    * [Working with RDLC Layouts](ui-rdlc-report-layouts.md)
+
+1. Make the required changes to the file, and then save it.
+1. On the **Report Layouts** page, select the existing layout, and then select the **Replace Layout** action.
+1. Select **OK** and then **Choose** to open File Explorer on your device.
+1. Find and select the Excel file, and then select **Open**.
+
+    The selected file is uploaded to the layout, and you're returned to the **Report Layouts** page.
+
+1. To view how the report looks with the new layout, select the layout in the list, and then select **Run Report**.
 ## Adding data fields
 
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
@@ -39,17 +72,13 @@ A report dataset can consist of fields that display labels, data, and images. Th
 
 ###  <a name="OpenXMLPart"></a> To open the Custom XML part for the Report in Word  
   
-1. If it's not already open, then open the Word report layout document in Word.  
-  
-     For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).  
-  
-2. Display the **Developer** tab in the ribbon of Microsoft Word.  
+1. Display the **Developer** tab in the ribbon of Microsoft Word.  
   
      By default, the **Developer** tab is not shown in the ribbon. Learn more at [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
-3. On the **Developer** tab, select **XML Mapping Pane**.  
+1. On the **Developer** tab, select **XML Mapping Pane**.  
   
-4. In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for [!INCLUDE[prod_short](includes/prod_short.md)] report, which is typically last in the list. The name of the custom XML part has the following format:  
+1. In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for [!INCLUDE[prod_short](includes/prod_short.md)] report, which is typically last in the list. The name of the custom XML part has the following format:  
   
      `urn:microsoft-dynamics-nav/reports/<report_name>/<ID>`  
 
@@ -63,7 +92,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 1. Place your cursor in the document where you want to add the control.  
   
-2. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
+1. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
   
     > [!NOTE]  
     > You cannot add a field by manually typing the dataset field name in the content control. You must use the **XML Mapping** pane to map the fields.  

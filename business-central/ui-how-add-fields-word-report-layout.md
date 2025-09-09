@@ -1,17 +1,16 @@
 ---
-title: How to Add Fields to a Word Report Layout
+title: Work with Word Layouts
 description: This topic describes how to add fields of a report dataset to an existing Word report layout for a report.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
-ms.date: 10/01/2024
+ms.date: 09/08/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-
-# Work with Word Layouts
+# Work with Word layouts
 
 A Word report layout determines the content and format of a report when it is previewed and printed from Business Central. You create and modify these layouts using Microsoft Word.
 
@@ -32,15 +31,15 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 ## Quickstart: Modify a Word layout
 
-Follow these steps to customize a Word layout for a report.
+To customize a Word layout for a report, follow these steps:
 
 1. Get the .docx file for the Word layout.
 
    In Business Central, you can export an existing layout from the **Report Layouts** page.
 1. Open the layout file in Word.
-1. Make the required changes. Learn more in the sections that follow.
+1. Make the required changes to the Word layout as described in the [Adding data fields](#adding-data-fields) and [Adding image fields](#adding-image-fields) sections below.
 1. Save the file.
-1. From the **Report Layouts** page in Business Central, import the modified layout to replace an existing layout or create a new layout.
+1. In Business Central, return to the **Report Layouts** page, and then import the modified layout to replace an existing layout or create a new layout.
 
 Learn more in [Modify a report Layout](ui-get-started-layouts#modify-a-layout).
 

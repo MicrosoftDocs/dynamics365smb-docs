@@ -114,7 +114,7 @@ ms.service: dynamics-365-business-central
 #### [Run batch jobs and XML ports](ui-how-run-batch-jobs.md)
 ### Change the look of externally facing documents
 #### [About report and document layouts](ui-manage-report-layouts.md)
-#### [Get started creating layouts](ui-get-started-layouts.md)
+#### [Get started creating and modifying layouts](ui-get-started-layouts.md)
 #### [Work with Word layouts](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel layouts](ui-excel-report-layouts.md)
 #### [Work with RDLC layouts](ui-rdlc-report-layouts.md)

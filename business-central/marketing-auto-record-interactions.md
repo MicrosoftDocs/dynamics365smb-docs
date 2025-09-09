@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 08/13/2025
+ms.date: 09/09/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.search.form: 5091, 5093
-ms.date: 08/13/2025
+ms.date: 09/09/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

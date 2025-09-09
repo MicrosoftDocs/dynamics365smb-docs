@@ -4,10 +4,11 @@ description: Outlines the tasks to specify information and codes, for example, a
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: relationship, prospect
-ms.date: 06/13/2025
+ms.date: 09/09/2025
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Set up information for contacts
 
 When you create contacts you can enter information about them, such as:
@@ -28,7 +29,7 @@ You can set up this information on their pages, or from the Contact Card page by
 
 This information helps you organize your contacts so they're easier to find when you want to communicate with them. For example, you can find all contacts based on a certain group.
 
-## To assign industry groups to a contact
+## Assign industry groups to a contact
 
 Industry groups indicate the type of industry that your contacts are in. For example, the retail industry or the automobile industry.
 
@@ -45,7 +46,7 @@ Repeat these steps to assign as many industry groups as you want. You can also a
 
 <!--The number of industry groups that you assigned to the contact displays in the **No. of Industry Groups** field in the **Segmentation** section on the **Contact Card** page. -->
 
-After you assign industry groups to your contacts, you can use this information to select contacts for your segments. To learn more, go to [Add Contacts to Segments](marketing-add-contact-segment.md).
+After you assign industry groups to your contacts, you can use this information to select contacts for your segments. Learn more in [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## Assign mailing groups to a contact
 
@@ -61,7 +62,7 @@ Repeat these steps to assign as many mailing groups as you want. You can also as
 
 <!--The number of mailing groups you have assigned to the contact is displayed in the **No. of Mailing Groups** field in the **Segmentation** section on the **Contact Card** page.-->
 
-After you assign mailing groups to your contacts, you can use the information to select contacts for your segments. To learn more, go to [Add Contacts to Segments](marketing-add-contact-segment.md).
+After you assign mailing groups to your contacts, you can use the information to select contacts for your segments. Learn more in [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## Define an alternate address for a contact
 
@@ -92,7 +93,7 @@ Repeat these steps to assign as many job responsibilities as you want. You can a
 
 <!--The number of job responsibilities you have assigned to the contact is displayed in the **No. of Job Responsibilities** field in the **Segmentation** section on the **Contact** page. -->
 
-After you assign job responsibilities to your contacts, you can use this information to select contacts for your segments. To learn more, go to [Add Contacts to Segments](marketing-add-contact-segment.md).
+After you assign job responsibilities to your contacts, you can use this information to select contacts for your segments. Learn more in [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## Assign organizational levels to a contact
 
@@ -108,7 +109,7 @@ The organizational level code defines the type or category of the organizational
 
 After you assign organizational levels to your contacts, you can use this information to create segments.
 
-After you assign job responsibilities to your contacts, you can use this information to select contacts for your segments. To learn more, go to [Add Contacts to Segments](marketing-add-contact-segment.md).
+After you assign job responsibilities to your contacts, you can use this information to select contacts for your segments. Learn more in [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## Assign web sources to a contact
 
@@ -139,7 +140,7 @@ Repeat these steps to assign as many business relations as you want.
 
 <!--The number of business relations you have assigned to the contact is displayed in the **No. of Business Relations** field in the **Segmentation** section on the **Contact** page. -->
 
-After you assign business relations to your contacts, you can use this information to select contacts for your segments. To learn more, go to [Add Contacts to Segments](marketing-add-contact-segment.md).
+After you assign business relations to your contacts, you can use this information to select contacts for your segments. Learn more in [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## Copy information from contact companies to contact persons
 
@@ -147,7 +148,7 @@ Some information about contact companies is the same for their contact persons. 
 
 When you change the value in one of these fields on the contact company, the same fields update on the contact person. The exception is if you manually change the field on the contact person.
 
-To learn more, go to [Create Contacts](marketing-create-contact-companies.md).
+Learn more in [Create Contacts](marketing-create-contact-companies.md).
 
 ## Use predefined default settings on new contacts
 
@@ -162,7 +163,7 @@ The settings for inheritance overwrite the default values you set up. For exampl
 
 To synchronize the contact card with a linked customer, vendor, or bank account, fill in the relevant field in the **Bus. Relation Code for** section on the **Interactions** FastTab on the **Marketing Setup** page.  
 
-To learn more, go to [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Learn more in [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## Search for duplicate contacts
 
@@ -178,14 +179,13 @@ To manually search for duplicates, follow these steps:
 2. Choose the **Generate Duplicate Search String** action.
 3. On the **Generate Duplicate Search String** page, enter filter criteria that determine the match, and then choose **OK**.
 
-When you find a duplicate contact, you can use the **Merge Contacts** action to merge it with a contact record that you want to keep. To learn more, go to [Merge Duplicate Records](sales-how-merge-duplicate-records.md). That article describes the process from the Customer Card page, but the steps are the same for contacts.
+When you find a duplicate contact, you can use the **Merge Contacts** action to merge it with a contact record that you want to keep. Learn more in [Merge Duplicate Records](sales-how-merge-duplicate-records.md). That article describes the process from the Customer Card page, but the steps are the same for contacts.
 
 ## Related information
 
-[Managing Contacts](marketing-contacts.md)  
-[Create Contacts](marketing-create-contact-companies.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+- [Managing Contacts](marketing-contacts.md)  
+- [Create Contacts](marketing-create-contact-companies.md)  
+- [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

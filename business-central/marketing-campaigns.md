@@ -22,7 +22,7 @@ Each campaign consists of various activities or tasks. You can combine multiple 
 Before you can create a campaign, you must set up *campaign status codes*. Using these codes help you manage your campaigns by assigning a status to the campaign. As you work through the stages of a campaign, you're able to see what step a campaign is at and what step comes next. You set up campaign status codes on the **Campaign Status** page.
 
 You can create a campaign card for each campaign that you want to keep track of. You can also view these campaign cards to view general information about your campaigns.
-You can delete campaign entries, such as if the entry records an action that has been canceled. Only canceled campaign entries can be deleted.
+You can delete campaign entries, such as if the entry records an action that is canceled. Only canceled campaign entries can be deleted.
 
 ### Selecting the target audience
 
@@ -30,9 +30,9 @@ After you have created a campaign, you can start creating segments that specify 
 
 ### Registering discount percentages
 
-When you have set up your campaign, decided what segments you want the campaign to cover, and set the starting and ending dates, you register the discount percentage that the customer will receive on the individual items on the lines on the **Sales Line Discounts** page. You can also register the sales prices for the individual items on the lines on the **Sales Prices** page. You can access both pages from the campaign card.
+When you have set up your campaign, decided what segments you want the campaign to cover, and set the starting and ending dates, you register the discount percentage that the customer receives on the individual items on the lines on the **Sales Line Discounts** page. You can also register the sales prices for the individual items on the lines on the **Sales Prices** page. You can access both pages from the campaign card.
 
- When you have set up the sales prices/line discounts and the segments on the campaign card, you must activate them so that the campaign prices/discounts will be reflected on the lines.
+ When you have set up the sales prices/line discounts and the segments on the campaign card, you must activate them so that the campaign prices/discounts are reflected on the lines.
 
 > [!NOTE]  
 > In order to activate the sales prices/line discounts, you must specify if the whole segment or only some contacts are targets of the campaign. If the sales prices/line discounts covers all the contacts in the segment, select the **Campaign Target** field on the **Campaign** FastTab of the **Segment** card.

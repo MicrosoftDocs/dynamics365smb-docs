@@ -1,17 +1,17 @@
 ---
 title: Process Sales Opportunities in Sales Cycles
-description: This topic describes the different ways you can process sales opportunities in sales cycles and move an opportunity through the stages of a sales cycle.
+description: Learn how to manage sales opportunities in sales cycles, including viewing, updating, closing, and moving opportunities through different sales stages.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: relationship, prospect
-ms.date: 12/28/2023
+ms.date: 09/09/2025
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
-# Process Sales Opportunities
+
+# Process sales opportunities
 
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.
 
@@ -20,10 +20,10 @@ After you create an opportunity, there are several features for managing the opp
 Existing sale opportunities are available on the **Opportunity List** page. The following table describes ways to access the page to process sales opportunities.
 
 | To view opportunities for | Then |
-| --- | --- |
-| All salespeople and contacts |[!INCLUDE[open-search](includes/open-search.md)], enter **Opportunity List**, and then choose the related link. |
-| A specific sales person |[!INCLUDE[open-search](includes/open-search.md)], enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
-| A specific contact |[!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
+|--|--|
+| All salespeople and contacts | [!INCLUDE[open-search](includes/open-search.md)], enter **Opportunity List**, and then choose the related link. |
+| A specific sales person | [!INCLUDE[open-search](includes/open-search.md)], enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
+| A specific contact | [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
 
 Each of these tasks opens the **Opportunity List** page.
 
@@ -48,7 +48,7 @@ You can close opportunities when the negotiations are over. When you close an op
 
 ## Create sales orders for opportunities
 
-You can make sales orders from the sales quotes that you have created for your opportunities. Before you can create sales orders for your contacts, you must create the contact as a customer. For more information, see [Create Contacts](marketing-create-contact-companies.md).
+You can make sales orders from the sales quotes that you have created for your opportunities. Before you can create sales orders for your contacts, you must create the contact as a customer. Learn more in [Create Contacts](marketing-create-contact-companies.md).
 
 1. On the **Opportunity List** page, find the opportunity that you have created a sales quote for.
 2. Choose the **Assign Sales Quote** action. The **Sales Quote** page opens to show the sales quote that you have assigned to the opportunity.
@@ -85,9 +85,8 @@ If an opportunity follows a sales cycle, you can move it to the next or previous
 
 ## Related information
 
-[Sales](sales-manage-sales.md)  
-[Creating and Managing Contacts](marketing-contacts.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+- [Sales](sales-manage-sales.md)  
+- [Creating and Managing Contacts](marketing-contacts.md)  
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

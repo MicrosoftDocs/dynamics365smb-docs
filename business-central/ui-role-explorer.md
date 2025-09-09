@@ -61,7 +61,7 @@ If you don't find a match or aren't sure of the exact name of what you're lookin
 Learn more about advanced Tell Me in [Finding pages and information with Tell Me](ui-search.md#advanced-preview).
 
 > [!NOTE]
-> **Advanced** is available in Business Central online as a preview when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> **Advanced** is available in Business Central online only, not on-premises, and only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 ## Explore other roles
 

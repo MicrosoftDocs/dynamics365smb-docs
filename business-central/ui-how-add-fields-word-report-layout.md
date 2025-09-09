@@ -32,37 +32,18 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 ## Quickstart: Modify a Word layout
 
-Follow these steps to customize a Word layout for a report. 
+Follow these steps to customize a Word layout for a report.
 
-Before you can start making changes to a Word layout, you need the .docx file. If you don't have the file, export the layout from Report Layouts page in Business Central. When you have the file, open it in Word. Learn more in [Modify a Custom Report Layout](ui-get-started-layouts#modify-a-layout).
-## <a name="modify"></a>Modify a layout
+1. Get the .docx file for the Word layout.
 
-Follow these steps to modify an existing user-defined layout.
+   In Business Central, you can export an existing layout from the **Report Layouts** page.
+1. Open the layout file in Word.
+1. Make the required changes. Learn more in the sections that follow.
+1. Save the file.
+1. From the **Report Layouts** page in Business Central, import the modified layout to replace an existing layout or create a new layout.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-1. Select the layout that you want to modify, and then select the **Export Layout** action.
+Learn more in [Modify a report Layout](ui-get-started-layouts#modify-a-layout).
 
-    The layout file downloads to your device.
-
-    > [!TIP]
-    > To find the layout that you want, use the search field, the filter pane, and column sorting.
-
-1. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
-
-    Learn more in the following articles:
-
-    * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
-    * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
-    * [Working with RDLC Layouts](ui-rdlc-report-layouts.md)
-
-1. Make the required changes to the file, and then save it.
-1. On the **Report Layouts** page, select the existing layout, and then select the **Replace Layout** action.
-1. Select **OK** and then **Choose** to open File Explorer on your device.
-1. Find and select the Excel file, and then select **Open**.
-
-    The selected file is uploaded to the layout, and you're returned to the **Report Layouts** page.
-
-1. To view how the report looks with the new layout, select the layout in the list, and then select **Run Report**.
 ## Adding data fields
 
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  

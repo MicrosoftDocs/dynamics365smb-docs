@@ -94,7 +94,21 @@ A report dataset can consist of fields that display labels, data, and images. Th
     2. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
   
     3. For each field, repeat steps a and b.  
-  
+
+### Add data fields to report layouts using the Word add-in
+
+You can also insert mapped fields by using the Business Central Word add-in instead of the XML Mapping pane.
+
+1. Open the .docx layout in Word.
+2. If needed, install or enable the Business Central Word add-in: Insert > Add-ins > Get Add-ins, then add the "Dynamics 365 Business Central" add-in.
+3. Open the add-in (Insert > My Add-ins > Dynamics 365 Business Central) and sign in if prompted.
+4. In the add-in pane, select the report or layout to display available data items and fields.
+5. To add a field, place the cursor where you want it and insert the field from the add-in (click or drag the field into the document). For images, insert a Picture control from the add-in.
+6. To create repeating rows, add a table row as a placeholder, then insert a repeating control for the parent data item and add the child fields into the row.
+7. Save the layout and reimport it into Business Central (Report Layouts page) to apply the changes.
+
+Use this method when you prefer a guided UI for dataset fields instead of working directly with the XML Mapping pane.
+
 ## Adding image fields
 
 A report dataset can include a field that contains an image, such as a company logo or a picture of an item. To add an image from the report dataset, you insert a **Picture** content control.  

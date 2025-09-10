@@ -43,6 +43,9 @@ To customize a Word layout for a report, follow these steps:
 
 Learn more in [Modify a report Layout](ui-get-started-layouts#modify-a-layout).
 
+> [!TIP]
+> Business Central offers an add-in to Word that lets you do several layout modifications, like adding data fields and labels, from a user-friendly task pane instead of the **XML Mapping Pane**. Learn more in [Use the Word add-in on report layouts](/dynamics365/business-central/dev-itpro/developer/word-layout-add-in).
+
 ## Adding data fields
 
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
@@ -83,31 +86,17 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
    This row will act as a placeholder for the repeating fields.  
   
-2. Select the entire row.  
+1. Select the entire row.  
   
-3. In the **XML Mapping** pane, right-click the control that corresponds to the report data item that contains the fields that you want repeated, choose **Insert Content Control**, and then choose **Repeating**.  
+1. In the **XML Mapping** pane, right-click the control that corresponds to the report data item that contains the fields that you want repeated, choose **Insert Content Control**, and then choose **Repeating**.  
   
-4. Add the repeating fields to the row as follows:  
+1. Add the repeating fields to the row as follows:  
   
     1. Place your pointer in a column.  
   
     2. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
   
-    3. For each field, repeat steps a and b.  
-
-### Add data fields to report layouts using the Word add-in
-
-You can also insert mapped fields by using the Business Central Word add-in instead of the XML Mapping pane.
-
-1. Open the .docx layout in Word.
-2. If needed, install or enable the Business Central Word add-in: Insert > Add-ins > Get Add-ins, then add the "Dynamics 365 Business Central" add-in.
-3. Open the add-in (Insert > My Add-ins > Dynamics 365 Business Central) and sign in if prompted.
-4. In the add-in pane, select the report or layout to display available data items and fields.
-5. To add a field, place the cursor where you want it and insert the field from the add-in (click or drag the field into the document). For images, insert a Picture control from the add-in.
-6. To create repeating rows, add a table row as a placeholder, then insert a repeating control for the parent data item and add the child fields into the row.
-7. Save the layout and reimport it into Business Central (Report Layouts page) to apply the changes.
-
-Use this method when you prefer a guided UI for dataset fields instead of working directly with the XML Mapping pane.
+    3. For each field, repeat steps a and b.
 
 ## Adding image fields
 
@@ -121,10 +110,8 @@ Images align in the top-left corner of the content control and resize automatica
 ### To add an image  
   
 1. Place your pointer in the document where you want to add the control.  
-  
-2. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Picture**.  
-  
-3. To increase or decrease the image size, drag a sizing handle away from or towards the center of the content control.  
+1. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Picture**.  
+1. To increase or decrease the image size, drag a sizing handle away from or towards the center of the content control.  
 
 ##  <a name="RemoveField"></a> Removing label and data fields
 
@@ -139,8 +126,7 @@ The name of the label or data field name displays in the content control. In the
 1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
 
      The content control is removed, but the field name remains as text.  
-
-2. Delete the remaining text as needed.
+1. Delete the remaining text as needed.
 
 ## Custom XML Part Overview
 

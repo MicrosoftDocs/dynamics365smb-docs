@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, sales, deliver
 ms.search.form: 42, 43, 132, 6103, 6133, 6121, 9301, 9305
-ms.date: 03/18/2025
+ms.date: 09/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -22,7 +22,9 @@ You can use configured electronic documents (e-documents) with the following sal
 - Service invoices
 - Service credit memos
 - Finance charge memos
+- Issued finance charge memos
 - Reminders
+- Issued reminders
 
 ## E-documents in sales  
 

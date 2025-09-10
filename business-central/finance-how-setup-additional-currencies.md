@@ -21,7 +21,7 @@ As companies operate in increasingly more countries/regions, it becomes more imp
 
 Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. If you designate a second currency as an additional reporting currency (ACY), [!INCLUDE[prod_short](includes/prod_short.md)] automatically records amounts in both LCY and ACY on each G/L entry and other entries, such as VAT entries.
 
-> [!Warning]
+> [!WARNING]
 > You shouldn't use the ACY feature as a basis for financial statement translation unless you understand its limitations. It can't translate foreign subsidiary financial statements as part of a company consolidation. The ACY can only be used to prepare reports in another currency, as if that currency was the company's LCY.
 >
 > For example, you have a large amount of accounts receivable in British pounds (GBP), and you have set up your ACY to be GBP. In this scenario, amounts in the accounts receivable that use GBP aren't adjusted for currency exchange gains/losses in the ACY, only amounts in the accounts receivable that are in other currencies. That means that if you use ACY to report your financial statements, it might result in understated or overstated outstanding balances of accounts receivable.
@@ -37,18 +37,18 @@ Several financial reports are based on G/L entries. To display report data in th
 
 ## Adjusting exchange rates
 
-Because exchange rates fluctuate constantly, ACY equivalents in your system must be adjusted periodically. If these adjustments aren't done, amounts that converted from foreign (or additional) currencies and posted to the general ledger in LCY can be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered. The **Adjust Exchange Rates** batch job is used to adjust the exchange rates of posted customer, vendor, and bank account entries. It can also update ACY amounts on G/L entries. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).
+Because exchange rates fluctuate constantly, ACY equivalents in your system must be adjusted periodically. If these adjustments aren't done, amounts that converted from foreign (or additional) currencies and posted to the general ledger in LCY can be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered. The **Adjust Exchange Rates** batch job is used to adjust the exchange rates of posted customer, vendor, and bank account entries. It can also update ACY amounts on G/L entries. To learn more, go to [Update Currency Exchange Rates](finance-how-update-currencies.md).
 
 ## Setting up an ACY
 
-To set up an ACY, follow these steps (in order):
+To set up an ACY, complete the following steps in this order:
 
-1. Specify general ledger accounts for posting exchange rate adjustments.  
-1. Specify the exchange rate adjustment method for all general ledger accounts.  
-1. Specify the exchange rate adjustment method for VAT entries.  
-1. Activate the ACY.  
+1. [Specify general ledger accounts for posting exchange rate adjustments](#specify-general-ledger-accounts-for-posting-exchange-rate-adjustments).  
+1. [Specify the exchange rate adjustment method for all general ledger accounts](#specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts).
+1. [Specify exchange rate adjustment method for VAT entries](#specify-exchange-rate-adjustment-method-for-vat-entries).
+1. [Activate the ACY](#activate-the-acy).  
 
-### To specify general ledger accounts for posting exchange rate adjustments  
+### Specify general ledger accounts for posting exchange rate adjustments  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Currencies**, and then choose the related link.  
 2. On the **Currencies** page, fill in the following fields for the ACY.  
@@ -65,7 +65,7 @@ To set up an ACY, follow these steps (in order):
 
 For each general ledger account, you must specify how general ledger amounts for that account are adjusted for exchange rate fluctuations between LCY and the ACY.  
 
-### To specify the exchange rate adjustment method for all general ledger accounts
+### Specify the exchange rate adjustment method for all general ledger accounts
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, select the relevant account, and then choose the **Edit** action.  
@@ -81,9 +81,9 @@ For each general ledger account, you must specify how general ledger amounts for
 
     Exchange rate gains and losses are posted when you run the **Adjust Exchange Rates** batch job. In that batch job, the adjustment exchange rate is identified on the **Currency Exchange Rates** page, and then the amounts in the **Amount** and **Additional-Currency Amount** fields on the general ledger entry are compared to determine whether there's an exchange rate gain or loss. The batch job uses the option that you select in the **Exchange Rate Adjustment** field to determine how to calculate and post exchange rate gains or losses for general ledger accounts.  
 
-4.  Close the **G/L Account Card** page.  
+4. Close the **G/L Account Card** page.  
 
-### To specify exchange rate adjustment method for VAT entries
+### Specify exchange rate adjustment method for VAT entries
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, select the relevant method in the **VAT Exchange Rate Adjustment** field.  
@@ -99,7 +99,7 @@ For each general ledger account, you must specify how general ledger amounts for
     |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields on the **Currencies** page.|  
     |**Adjust Additional-Currency Amount**|The ACY is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields on the **Currencies** page.|  
 
-### To activate the ACY  
+### Activate the ACY  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, in the **Additional Reporting Currency** field, choose the additional currency that you want to report in.  

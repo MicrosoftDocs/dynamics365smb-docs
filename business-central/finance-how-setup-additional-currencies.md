@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: multiple currencies, foreign exchange rates
-ms.search.form: 5, 16, 118, 483, 495
+ms.search.form: 5, 16, 118, 483, 495, Report_86_Primary
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 
@@ -41,12 +41,12 @@ Because exchange rates fluctuate constantly, ACY equivalents in your system must
 
 ## Setting up an ACY
 
-To set up an ACY, follow these steps:
+To set up an ACY, follow these steps (in order):
 
-- Specify general ledger accounts for posting exchange rate adjustments.  
-- Specify the exchange rate adjustment method for all general ledger accounts.  
-- Specify the exchange rate adjustment method for VAT entries.  
-- Activate the ACY.  
+1. Specify general ledger accounts for posting exchange rate adjustments.  
+1. Specify the exchange rate adjustment method for all general ledger accounts.  
+1. Specify the exchange rate adjustment method for VAT entries.  
+1. Activate the ACY.  
 
 ### To specify general ledger accounts for posting exchange rate adjustments  
 
@@ -107,11 +107,11 @@ For each general ledger account, you must specify how general ledger amounts for
 4. Choose the **Yes** button to confirm that you want to activate the currency.  
 5. The **Adjust Add. Reporting Currency** batch job opens.
 
-    This batch job converts LCY amounts on existing entries to the ACY. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date on the **Currency Exchange Rates** page. Residual amounts that occur on conversion of LCY to ACY are posted to the residual gains and losses accounts specified on the **Currencies** page. The posting date and document number for these entries are the same as for the original general ledger entry. After you post all residual entries, the batch job posts a rounding entry on the closing date of each closed year to the retained earnings account. This posting makes sure that the ending balance of the income accounts for each closed year is 0 in both LCY and the ACY.
+    This batch job converts LCY amounts on existing ledger entries to the ACY. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date on the **Currency Exchange Rates** page. Residual amounts that occur on conversion of LCY to ACY are posted to the residual gains and losses accounts specified on the **Currencies** page. The posting date and document number for these entries are the same as for the original general ledger entry. After you post all residual entries, the batch job posts a rounding entry on the closing date of each closed year to the retained earnings account. This posting makes sure that the ending balance of the income accounts for each closed year is 0 in both LCY and the ACY.
 6. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
-7. Choose the **OK** button to run the batch job.  
+7. Choose the **OK** button to run the batch job. If you have a lot of ledger entries in the company, consider running the batch job outside working hours.
 
-After you run the batch job, amounts on the following existing entries are in both the LCY and ACY:  
+After you run the batch job, amounts on the following existing ledger entries are in both the LCY and ACY:  
 
 - General ledger entries  
 - Item application entries  

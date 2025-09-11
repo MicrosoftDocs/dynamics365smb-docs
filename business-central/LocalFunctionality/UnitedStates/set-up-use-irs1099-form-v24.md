@@ -21,6 +21,9 @@ This article describes how to enable the features related to 1099 forms.
 
 To use 1099 forms in [!INCLUDE [prod_short](../../includes/prod_short.md)], you must enable **Feature Update: Enable using 1099 forms to transmit the tax data to the IRS in the United States**. When you do, you can use the **IRS Forms Guide** to set up the basics for 1099 forms. The following steps describe the settings in the guide.
 
+> [!IMPORTANT]
+> Automatic upgrade will upgrade your existing data only for the year 2025 because that year should be ready for reporting. Due to the potential for performance-related issues caused by a large amount of data, upgrade previous years manually from the application, if needed.
+
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature Management**, and then choose the related link.
 1. Find **Feature Update: Enable using 1099 forms to transmit the tax data to the IRS in the United States**.
 1. In the **Enabled for** column, choose **All Users**, and then choose **Yes** to confirm your choice.

@@ -52,8 +52,8 @@ To work with sustainability journals, follow these steps:
     > [!NOTE]
     > If you use a batch where the emission scope is configured, the **Emission Scope** value in the sustainability account must equal the **Emission Scope** value in the batch.
 
-1. In the **Energy Source Code** field, specify the source of sustainable energy. For example, biomass, hydropower, geothermal, wind, and solar.
-1. 1. You can either manually fill in the emission amounts or use formulas.
+1. In the **Energy Source Code** field, you can specify the source of sustainable energy if you want to use the journal to track energy consumption. For example, biomass, hydropower, geothermal, wind, and solar.
+1. You can either manually fill in the emission amounts or use formulas.
 
     - If you have accurate information about gas emission or water or waste intensity and want to post it (that is, if you have the information on the received invoice, or some other measured model), select the **Manual Input** field to indicate that you manually enter the amounts. In this case, you can't enter your data directly in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields because they become uneditable. However, the **Emission CO2**, **Emission CH4**, **Emission N2O**, **Water Intensity**, **Discharged Into Water**, and **Waste Intensity** fields remain editable, and you can enter your data directly in them.
     - If you don't have accurate knowledge of the gas emission or water or waste intensity and must calculate it, don't select the **Manual Input** field. In this case, the **Emission CO2**, **Emission CH4**, **Emission N2O**, **Water Intensity**, **Discharged Into Water**, and **Waste Intensity** fields become uneditable. However, you can enter your calculation details based on the formula that you're using. To learn more about the formulas that are defined in the **sustainability account category**, go to [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md#account-categories).  

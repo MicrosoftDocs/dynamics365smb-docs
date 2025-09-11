@@ -128,13 +128,17 @@ To review sustainability account subcategories, follow these steps:
 
 1. In the **Source** field, specify the source of the emission factor.
 1. Fill in the relevant factors.
+1. In the **Energy Source Code** field, choose the type of energy. For example, source codes such as solar, wind, nuclear, and so on.
 1. To require people to fill in the **Energy Consumption** field on purchase order lines and sustainability journals, select the **Energy Value Required** checkbox.
+1. If the subcategory is related to renewable energy, select the **Renewable Energy** field. However, you can select this field only if it's related to gas emissions and to water or waste.
+
+> [!NOTE]
+> If you select both the **Energy Value Required** and **Renewable Energy** checkboxes, the **Energy Consumption** field on purchase order lines and sustainability journals isn't mandatory.
+
 1. To specify that the energy source is located onsite, select the **Energy Onsite** checkbox.
 
    > [!NOTE]
-   > The **Import Data** and **Import From** fields are intended for integration with external systems that are used to collect emission factors. 
-
-1. If the subcategory is related to renewable energy, select the **Renewable Energy** field. However, you can select this field only if it's related to gas emissions and to water or waste.  
+   > The **Import Data** and **Import From** fields are intended for integration with external systems that are used to collect emission factors.   
 
 > [!TIP]
 > You can have more than one account subcategory for a sustainability account. For example, if you want to use one account for cars, but you have different types of cars with different emission factors. You can set up one account and create account subcategories for the different emission factors. When you work in a sustainability journal, you can change your account subcategory based on the car type.  

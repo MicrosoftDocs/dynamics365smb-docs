@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 5430,
-ms.date: 02/25/2025
+ms.date: 09/11/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -81,11 +81,10 @@ Global planning setup fields on the **Inventory Setup** page include:
 - Default Dampener Period  
 - Default Dampener Quantity  
 
-
 Global planning setup fields on the **Manufacturing Setup** page include:  
+
 - Dynamic Low-Level Code  
 - Components at Location  
-
 
 To learn more, go to [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 

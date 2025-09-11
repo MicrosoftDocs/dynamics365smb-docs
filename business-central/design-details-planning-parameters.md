@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/11/2025
+ms.date: 09/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 This article describes the planning parameters that you can use in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-How the planning system controls item supply is determined by various settings on the **Item Card**, **SKU**, **Inventory Setup** and **Manufacturing Setup** pages. The following table explains how planning uses these settings.  
+Various settings on the **Item Card**, **SKU**, **Inventory Setup** and **Manufacturing Setup** pages determine how the planning system controls item supply. The following table explains how planning uses these settings.  
 
 |Purpose|Settings|
 |-------------|---------------|
@@ -99,7 +99,7 @@ In the following examples, the black arrows represent existing supply (up) and d
 
 :::image type="content" source="media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png" alt-text="Dampener period, lot accumulation period, and change quantity.":::
 
-**Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D (zero days). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field on the **Inventory Setup** page is used.  
+**Default values:** The default value of the **Time Bucket** field and the three reorder period fields are blank. For all fields, except the **Dampener Period** field, this means 0D (zero days). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field on the **Inventory Setup** page is used.  
 
 ## Modify the supply orders  
 

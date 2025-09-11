@@ -12,15 +12,15 @@ ms.custom: bap-template
 
 # Walkthrough: Variants
 
-This article takes you through the steps to use the Contoso Coffee demo data to learn about variants.
+This article describes how to use the Contoso Coffee demo data to learn about variants.
 
 ## Scenario
 
-You're the production planner at Contoso Coffee, and you must update the demand forecast for each variant of item SP-SCM1006, AutoDripLite. Because each variant has a different color, you must make sure that you use the correct bill of materials (BOM) for them. Run the planning worksheet to calculate supply.  
+You're the production planner at Contoso Coffee, and you must update the demand forecast for each variant of item SP-SCM1006, AutoDripLite. Because each variant has a different color, you must make sure that you use the correct bill of materials (BOM) for them. To calculate supply, run the planning worksheet.  
 
 ## Steps
 
-1. Set up the stockkeeping units for item SP-SCM1006, AutoDripLite. Assign a BOM to SKU with the variants RED and WHITE.
+1. Set up the stockkeeping units (SKUs) for item SP-SCM1006, AutoDripLite. Assign a BOM to a SKU with the variants RED and WHITE.
 
     1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *items*, and then choose the related link.  
     2. Open the item **SP-SCM1006, AutoDripLite**.
@@ -30,8 +30,8 @@ You're the production planner at Contoso Coffee, and you must update the demand 
     6. Choose the **Stockkeeping Units** action.  
     7. Update the production BOMs for the following stockkeeping units:
 
-        1. RED on MAIN, set **SP-SCM1006-RED**.  
-        2. WHITE on MAIN, set **SP-SCM1006-WHITE**.  
+        1. For RED on MAIN, set **SP-SCM1006-RED**.  
+        2. For WHITE on MAIN, set **SP-SCM1006-WHITE**.  
         3. Leave the **Production BOM No.** field empty for BLACK on MAIN.  
 
 2. Update your inventory setup to respect demand forecast on locations and variants.  
@@ -53,9 +53,9 @@ You're the production planner at Contoso Coffee, and you must update the demand 
     8. Turn on the **Use forecast on variant** toggle.
     9. For each line, update the values in the May column, as follows:
 
-        1. RED on MAIN, set **100**.
-        2. WHITE on MAIN, set **200**.
-        3. BLACK on MAIN, set **300**.
+        1. For RED on MAIN, set **100**.
+        2. For WHITE on MAIN, set **200**.
+        3. For BLACK on MAIN, set **300**.
 
     10. Close the **Demand Forecast** page.
 

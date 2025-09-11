@@ -1,27 +1,27 @@
 ---
-title: Configure Production Processes
+title: Configure production processes
 description: To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
 author: brentholtorf
-ms.topic: concept-article
-ms.devlang: al
-ms.search.form: 99000768, 99000779, 99000780, 99000866
-ms.date: 04/01/2021
 ms.author: bholtorf
-
-ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.topic: concept-article
+ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.date: 09/11/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Setting Up Manufacturing
 
-To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
+# Setting up manufacturing
 
-Operators and machines are represented in the system as machine centers that may be organized in work centers and work center groups. When these resources are established, they can be loaded with operations according to the item's defined material (BOM) and process (routing) structure, and according to the capacity of the machine or work center. You can also set the production capacity of each resource. Capacity is defined by the work time available in the machine and work centers, and is governed by calendars for each level. A work center calendar specifies the working days or hours, shifts, holidays, and absence that determine the work center's gross available capacity (typically measured in minutes). All of this is determined by defined efficiency and capacity values.  
+To convert material into produced end items, you must set up production resources, such as bills of material, routings, machine operators, and machinery.
 
-When you have set up manufacturing, you can plan and execute production orders. For more information, see [Planning](production-planning.md) and [Manufacturing](production-manage-manufacturing.md).  
+In [!INCLUDE [prod_short](includes/prod_short.md)], machine centers represent operators and machines. You can organize machine centers in work centers and work center groups. When these resources are established, you can load them with operations according to the item's defined material (BOM) and process (routing) structure, and according to the capacity of the machine or work center. You can also set the production capacity of each resource. The work time available in the machine and work centers define capacity, governed by calendars for each level. A work center calendar specifies the working days or hours, shifts, holidays, and absence that determine the work center's gross available capacity (typically measured in minutes). The efficiency and capacity values you define determine all of this.  
 
-The following table describes a sequence of tasks, with links to the topics that describe them.
+After you set up manufacturing, you can plan and fulfill production orders. To learn more, go to [Planning](production-planning.md) and [Manufacturing](production-manage-manufacturing.md).  
 
-|**To**|**See**|  
+The following table describes a sequence of tasks, with links to the articles that describe them.
+
+|**To**|**Go to**|  
 |------------|-------------|  
 |Configure the manufacturing features, such as defining shop floor work hours and cost calculation parameters.|The **Manufacturing Setup** page.|
 |On the **Planning** tab on the **Inventory Setup** page, set global planning parameters that override parameters set on individual item cards.|[Design Details: Planning Parameters](design-details-planning-parameters.md)|

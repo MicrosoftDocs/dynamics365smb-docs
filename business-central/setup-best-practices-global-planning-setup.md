@@ -12,17 +12,26 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 # Setup Best Practices: Global Planning Setup
-The **Planning** FastTab on the **Manufacturing Setup** page contains several fields that define global rules for supply planning.  
+The **Planning** FastTab on the **Invenotry Setup** page contains several fields that define global rules for supply planning.  
 
- The following table provides best practices on how to set up selected global planning parameter fields. For more information about a field, choose the link in the **Setup field** column.  
+The following table provides best practices on how to set up selected global planning parameter fields.  
 
-|Setup field|Best practice|Comment|  
-|-----------------|-------------------|-------------|  
-|Use Forecast on Locations|Select if you have forecasts for specific locations.||  
-|Components at Location|If items are not defined as SKUs, select the location code of your main warehouse.|This also applies if you only use the requisition worksheet.|  
-|Blank Overflow Level|Select **Allow Default Calculation** if you are migrating from Microsoft Dynamics NAV 5.0 or earlier.|Use only if you want to allow all or some of your items to overflow the reorder point.|  
-|Default Dampener Period|Set between 1D and 5D.<br /><br /> If new to planning in [!INCLUDE[prod_short](includes/prod_short.md)], then set a longer period.|When users are more familiar with the different reasons for action messages, then shorten the dampener period to allow more change suggestions.|  
-|Default Dampener Quantity %|Set between 5 and 20 percent of the item’s lot size.||  
+|Setup field|Best practice|
+|-----------------|-------------------|
+|Use Forecast on Locations|Select if you have forecasts for specific locations.|
+|Use Forecast on Variants| Select if you have items with variants and want to specify forecast for each variant individaully| 
+|Blank Overflow Level|Use only if you want to allow all or some of your items to overflow the reorder point.||  
+|Default Dampener Period|Set between 1D and 5D.<br /><br /> If new to planning in [!INCLUDE[prod_short](includes/prod_short.md)], then set a longer period. When users are more familiar with the different reasons for action messages, then shorten the dampener period to allow more change suggestions.|  
+|Default Dampener Quantity %|Set between 5 and 20 percent of the item’s lot size.|
+
+The **Planning** FastTab on the **Manufacturing Setup** page also contains several fields that define global rules for supply planning.  
+
+The following table provides best practices on how to set up selected global planning parameter fields. 
+
+|Setup field|Best practice|
+|-----------------|-------------------|
+|Components at Location|If items are not defined as SKUs, select the location code of your main warehouse.This also applies if you only use the requisition worksheet.|  
+
 
 ## Related information  
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)   

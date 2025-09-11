@@ -50,7 +50,7 @@ The forecast period is valid from its starting date until the date the next fore
 
 ## Forecast by locations
 
-On the **Manufacturing Setup** page you can specify whether you want to consider the locations that are defined on forecasts when you calculate plans. 
+On the **Inventory Setup** page you can specify whether you want to consider the locations that are defined on forecasts when you calculate plans. 
 
 ### Use forecast by locations
 

@@ -70,18 +70,22 @@ The following order modifiers exist on the item or SKU card:
 - Maximum Order Quantity  
 - Order Multiple  
 
-Global planning setup fields on the **Manufacturing Setup** page include:  
+Global planning setup fields on the **Inventory Setup** page include:  
 
-- Dynamic Low-Level Code  
 - Current Demand Forecast  
-- Use Forecast on Locations  
+- Use Forecast on Locations
+- Use Forecast on Variants
 - Default Safety Lead Time  
 - Blank Overflow Level  
 - Combined MPS/MRP Calculation
-- Components at Location  
 - Default Dampener Period  
 - Default Dampener Quantity  
-- Default General Business Posting Group
+
+
+Global planning setup fields on the **Manufacturing Setup** page include:  
+- Dynamic Low-Level Code  
+- Components at Location  
+
 
 To learn more, go to [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 

@@ -45,7 +45,7 @@ Contrarily, if you do want the planning system to adjust the transfer order quan
 
 ## Planning parameters
 
-The planning parameters control when, how much, and how to replenish based on the various settings on the item card (or stockkeeping unit - SKU), and the manufacturing setup.  
+The planning parameters control when, how much, and how to replenish based on the various settings on the item card (or stockkeeping unit - SKU), and the inventory and manufacturing setups.  
 
 The following planning parameters exist on the item or SKU card:  
 

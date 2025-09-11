@@ -40,15 +40,15 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
         3. Keep Production BOM No. empty for BLACK on MAIN  
 
-2. Update Manufacturing Setup and respect demand forecast on locations and variants.  
+2. Update Inventory Setup and respect demand forecast on locations and variants.  
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *manufacturing setup*, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *inventory setup*, and then choose the related link.  
 
     2. Switch on the **Use forecast on location** field.
 
     3. Switch on the **Use forecast on variant** field.
 
-    4. Close the **Manufacturing Setup** window.
+    4. Close the **Inventory Setup** window.
 
 3. Create a new monthly demand forecast, *AUTODRIP*. Filter it by the item SP-SCM1006 and location MAIN. Set demand for May for each variant. 
 
@@ -86,7 +86,7 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
     3. Switch on the **MPS** field.
 
-    4. Switch off the **MPS** field.
+    4. Switch off the **MRP** field.
 
     5. In the **Starting Date** field, select *May,1*
 

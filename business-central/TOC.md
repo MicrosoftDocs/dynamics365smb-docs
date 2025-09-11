@@ -1194,6 +1194,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 #### [Built-in sustainability reports](sustainability-reports.md)
 #### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+#### [Handle external ESG compliance reporting](sustainability-esg-reporting.md)
 #### Power BI sustainability app
 ##### [Sustainability Power BI app](sustainability-powerbi-app.md)
 ##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)

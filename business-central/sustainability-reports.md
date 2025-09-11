@@ -46,7 +46,7 @@ On the **Item Card** page, you can track items of concern by using the **Item of
 * **Default CH4 Emission**
 * **Default N2O Emission**
 
-To track all inbound transactions, such as purchases and production output, and outbound transactions, such as sales, consumption, and negative adjustments for these items, use the **Track Item of Concern** report. The report provides detailed information grouped by inbound and outbound transactions, and it shows total emissions for CO2e, CO2, CH4, and N2O. To run the report, [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Track Item of Concern**, and then fill in the fields as necessary.
+To track all inbound transactions, such as purchases and production output, and outbound transactions, such as sales and consumption for these items, use the **Track Item of Concern** report. The report provides detailed information grouped by inbound and outbound transactions, and it shows total emissions for CO2e, CO2, CH4, and N2O. To run the report, [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Track Item of Concern**, and then fill in the fields as necessary.
 
 ## Related information
 

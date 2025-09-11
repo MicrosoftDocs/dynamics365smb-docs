@@ -83,14 +83,14 @@ To add a sustainability certificate to an item, follow the steps:
 
 Support for Digital Product Passport (DPP) reporting requirements empowers businesses to meet European Union sustainability regulations by capturing key environmental data in [!INCLUDE [prod_short](includes/prod_short.md)]. Structured reporting on recyclability, energy efficiency, and end-of-life handling can help enhance product transparency, support circular economy goals, and build trust with eco-conscious customers and partners. To learn more about DPP, go to the [European Union website](https://go.microsoft.com/fwlink/?linkid=2334243).
 
-To support DPP initiatives, there are sustainability-related fields on the **Sustainability** FastTab of the **Item Card** page. The following fields are related to DPP:
+To support DPP initiatives, there are sustainability-related fields on the **Item Card** page. Depending on your business needs, use these fields to comply with your local DPP standards.
 
 * **Recyclability Percentage**: Indicates the percentage of recyclable content in the product.
 * **Energy Efficiency Ratings**: Captures standardized energy efficiency information, such as the product category or label (for example, A–G rating).
 * **End-of-Life Information**: Provides disposal instructions, recycling options, return schemes, or environmental effect notes.
 
 > [!NOTE]
-> [!INCLUDE [prod_short](includes/prod_short.md)] doesn't generate embedded QR codes for DPP. However, it does provide data that an external QR code tool can use.
+> Because there are limitations to the amount of information that a QR code can contain, [!INCLUDE [prod_short](includes/prod_short.md)] doesn't generate embedded QR codes for DPP. However, it does provide data that you can expose to an external tool from where you can use a URL to the QR code.
 
 ## Related information
 

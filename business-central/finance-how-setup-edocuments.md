@@ -22,6 +22,43 @@ ms.custom: bap-template
 
 The first step to configure electronic documents (e-documents) is to set up the E-Documents Service for e-document communication.
 
+## Use the Clearance model if your country/region requires it
+
+Some countries/regions, such as Spain, India, Mexico, and Italy, require that a tax authority or third-party certifier pre-approves invoices before businesses can send them to customers. This requirement is referred to as the _Clearance model_.
+
+### Overview of the Clearance model process
+
+The following are high-level steps in the approval and certification process for the Clearance model.
+
+1. The seller creates an invoice, and generates an XML or JSON file. The file type depends on country/regional requirements.
+1. The seller submits the e-invoice to a third-party certifier for validation. For example, the certifier validates the schema structure, content, checks for duplicates, and so on. If the e-invoice is valid, the certifier adds a unique identifier that certifies the e-invoice and submits it to the tax authority. The certifier also sends the certified document to the seller with a digital signature or, for offline validation, a QR code.
+1. The seller submits the certified e-invoice to the tax authority. The tax authority returns it to the seller. Like the third-party certifier, the tax authority either digitally approves the e-invoice or adds a QR code. In some situations, the tax authority might send the e-invoice to the customer.
+
+> [!NOTE]
+> If the tax authority provides a QR code, the returned JSON file includes it as a base64-encoded string. When you create a PDF document for the e-invoice, [!INCLUDE [prod_short](includes/prod_short.md)] extracts the string and adds the QR code as an image in the PDF.
+
+1. The seller sends the certified e-invoice to the customer.
+
+### E-Document setups for the Clearance model
+
+You can set up an e-document service specifically for the Clearance model. The setup is almost the same as setting up any e-document service, with a few exceptions here and there. This section describes the settings that are specific to the Clearance model.
+
+- When you set up the e-document service, enter the following values in the following fields. To learn more, go to [Set up an e-document service](#set-up-an-e-document-service).
+
+   - Give the e-document service for the Clearance model a name in the **Code** field so it's easy differentiate it from the service provider.
+   - In the **Document Format** field, choose **PEPPOL BIS 3.0**.
+   - In the **Service Integration** field, choose **Clearance Service**.
+
+- When you create the workflow, use the structure outlined in the following table. Be sure to specify the correct service for the Clearance model and the provider for the then responses.
+
+|When event  |On condition  |Then Response  |
+|---------|---------|---------|
+| E-document Created            | \<Always> | Export E-Document using setup: \<service provider>  |
+| E-Document has been exported  | \<Always> | Send E-Document using setup: \<service provider>    |
+| E-Document has changed        | \<Always> | Export E-Document using setup: \<service provider>  |
+| E-Document has been exported  | \<Always> | Send E-Document using setup: \<service provider>    |
+| E-Document has changed        | \<Always> | Send E-Document to customer                         |
+
 ## Set up an e-document service
 
 To set up an e-document service, follow these steps.
@@ -89,15 +126,15 @@ Support for document types is based on the **Document Format**. To check which d
 
 You need to set up a preferred method of sending sales documents for each customer. On the **Document Sending Profiles** page, you can set up sending profiles and then select the one to use in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the profile for all customers for which a profile isn't specified in the **Document Sending Profile** field.
 
-This feature is used to set up electronic invoicing automation. If you're using [legacy e-invoices](sales-how-to-send-electronic-documents.md) before enabling the **E-Document** framework, the process is slightly different. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. The profile is either the profile set up for the customer or the default profile for all customers.
+This feature is used to set up electronic invoicing automation. If you're using [legacy e-invoices](sales-how-to-send-electronic-documents.md) and want to enable the **E-Document** framework, the process is slightly different. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. The profile is either the profile set up for the customer or the default profile for all customers.
 
-However, to enable the new **E-Document** framework, you need to configure the **Document Sending Profile** accordingly. To set up a document sending profile, follow these steps.
+However, to enable the new **E-Document** framework, you must configure the **Document Sending Profile** accordingly. To set up a document sending profile, follow these steps.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Document Sending Profile**, and then select the related link.
 2. On the **Document Sending Profiles** page, select **New**.
 3. On the **General** FastTab, fill in the required fields.
 4. On the **Sending Options** FastTab, set the **Printer**, **Email**, and **Disk** fields to **No**. Enabling any of these options prevent you from using the **E-Document** framework, limiting you to the legacy e-invoicing functionality instead.
-5. On the same FastTab fill in the fields as described in the following table.
+5. On the same FastTab, fill in the fields as described in the following table.
 
     | Field | Description | Set up options |
     |-------|-------------|----------------|
@@ -109,9 +146,9 @@ However, to enable the new **E-Document** framework, you need to configure the *
     > If you select **Extended E-Document Service Flow** in the **Electronic Document** field, you must already have the workflow configured for your e-documents.
 
     > [!IMPORTANT]
-    > The [legacy e-invoicing system](sales-how-to-send-electronic-documents.md) is still in use, which allows users to configure the **Electronic Document** field as **Through Document Exchange Service**. In this setup, the **Printer**, **Email**, and **Disk** fields are applicable and typically enabled. However, this configuration isn't supported in any of Microsoft’s e-invoicing localizations and is planned for deprecation.
-    > 
-    > To use the new **E-Document** framework, you must configure the **Electronic Document** field as **Extended E-Document Service Flow** and specify a value in the **Electronic Document Service Flow Code** field. 
+    > The [legacy e-invoicing system](sales-how-to-send-electronic-documents.md) is still in use, which allows you to configure the **Electronic Document** field as **Through Document Exchange Service**. In this setup, the **Printer**, **Email**, and **Disk** fields are applicable and typically enabled. However, this configuration isn't supported in any of Microsoft’s e-invoicing localizations and is planned for deprecation.
+    >
+    > To use the new **E-Document** framework, you must configure the **Electronic Document** field as **Extended E-Document Service Flow** and specify a value in the **Electronic Document Service Flow Code** field.
 
 ## Set up the workflow
 

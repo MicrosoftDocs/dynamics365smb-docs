@@ -32,11 +32,11 @@ Production supervisors use this report to analyze the load percentage and alloca
 
 The Machine Center Load report includes the following KPIs and measures:
 
-- [Machine Center Capacity Effective](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
-- [Machine Center Allocated Time](manufacturing-powerbi-kpis.md#machine-center-allocated-time)
-- [Machine Center Availability After Orders](manufacturing-powerbi-kpis.md#machine-center-availability-after-orders)
-- [Machine Center Load](manufacturing-powerbi-kpis.md#machine-center-load)
-- [Machine Center Expected Efficiency %](manufacturing-powerbi-kpis.md#machine-center-expected-efficiency-percent)
+- [**Machine Center Capacity Effective**](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
+- [**Machine Center Allocated Time**](manufacturing-powerbi-kpis.md#machine-center-allocated-time)
+- [**Machine Center Availability After Orders**](manufacturing-powerbi-kpis.md#machine-center-availability-after-orders)
+- [**Machine Center Load**](manufacturing-powerbi-kpis.md#machine-center-load)
+- [**Machine Center Expected Efficiency %**](manufacturing-powerbi-kpis.md#machine-center-expected-efficiency-percent)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

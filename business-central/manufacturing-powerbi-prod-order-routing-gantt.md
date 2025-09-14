@@ -50,8 +50,8 @@ Production supervisors rely on the report to manage day-to-day production tasks 
 
 The Prod. Order Routing Gantt report includes the following KPIs and measures:
 
-- [Total Duration Hours](manufacturing-powerbi-kpis.md#total-duration-hours)
-- [Total Duration Days](manufacturing-powerbi-kpis.md#total-duration-days)
+- [**Total Duration Hours**](manufacturing-powerbi-kpis.md#total-duration-hours)
+- [**Total Duration Days**](manufacturing-powerbi-kpis.md#total-duration-days)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

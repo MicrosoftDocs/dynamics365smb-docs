@@ -44,11 +44,11 @@ Together, these visuals provide both high-level and detailed perspectives on WIP
 
 The Production Order WIP report includes the following KPIs and measures:
 
-- [Beginning Balance Value](manufacturing-powerbi-kpis.md#beginning-balance-value)
-- [Consumption Value](manufacturing-powerbi-kpis.md#consumption-value)
-- [Output Value](manufacturing-powerbi-kpis.md#output-value)
-- [Capacity Value](manufacturing-powerbi-kpis.md#capacity-value)
-- [Ending Balance Value](manufacturing-powerbi-kpis.md#ending-balance-value)
+- [**Beginning Balance Value**](manufacturing-powerbi-kpis.md#beginning-balance-value)
+- [**Consumption Value**](manufacturing-powerbi-kpis.md#consumption-value)
+- [**Output Value**](manufacturing-powerbi-kpis.md#output-value)
+- [**Capacity Value**](manufacturing-powerbi-kpis.md#capacity-value)
+- [**Ending Balance Value**](manufacturing-powerbi-kpis.md#ending-balance-value)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

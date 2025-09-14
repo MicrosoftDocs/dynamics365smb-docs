@@ -67,17 +67,17 @@ Together, these visuals offer a comprehensive snapshot of production health, emp
 
 The Machine Center Load report includes the following KPIs and measures:
 
-- [Actual Capacity Cost](manufacturing-powerbi-kpis.md#actual-capacity-cost)
-- [Actual Capacity Cost Overhead](manufacturing-powerbi-kpis.md#actual-capacity-overhead-cost)
-- [Actual Manufacturing Overhead Cost](manufacturing-powerbi-kpis.md#actual-manufacturing-overhead-cost)
-- [Actual Material Cost](manufacturing-powerbi-kpis.md#actual-material-cost)
-- [Actual Subcontracted Cost](manufacturing-powerbi-kpis.md#actual-subcontracted-cost)
-- [Total Actual Cost](manufacturing-powerbi-kpis.md#total-actual-cost)
-- [Total Expected Cost](manufacturing-powerbi-kpis.md#total-expected-cost)
-- [Total Standard Cost](manufacturing-powerbi-kpis.md#total-standard-cost)
-- [No. of Production Orders](manufacturing-powerbi-kpis.md#no-of-production-orders)
-- [Finished %](manufacturing-powerbi-kpis.md#finished-percent)
-- [Remaining %](manufacturing-powerbi-kpis.md#remaining-percent)
+- [**Actual Capacity Cost**](manufacturing-powerbi-kpis.md#actual-capacity-cost)
+- [**Actual Capacity Cost Overhead**](manufacturing-powerbi-kpis.md#actual-capacity-overhead-cost)
+- [**Actual Manufacturing Overhead Cost**](manufacturing-powerbi-kpis.md#actual-manufacturing-overhead-cost)
+- [**Actual Material Cost**](manufacturing-powerbi-kpis.md#actual-material-cost)
+- [**Actual Subcontracted Cost**](manufacturing-powerbi-kpis.md#actual-subcontracted-cost)
+- [**Total Actual Cost**](manufacturing-powerbi-kpis.md#total-actual-cost)
+- [**Total Expected Cost**](manufacturing-powerbi-kpis.md#total-expected-cost)
+- [**Total Standard Cost**](manufacturing-powerbi-kpis.md#total-standard-cost)
+- [**No. of Production Orders**](manufacturing-powerbi-kpis.md#no-of-production-orders)
+- [**Finished %**](manufacturing-powerbi-kpis.md#finished-percent)
+- [**Remaining %**](manufacturing-powerbi-kpis.md#remaining-percent)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

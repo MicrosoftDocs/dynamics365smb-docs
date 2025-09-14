@@ -60,20 +60,20 @@ Production supervisors rely on this report to monitor machine center performance
 
 The Machine Center Statistics report includes the following KPIs and measures:
 
-- [Machine Center Total Capacity](manufacturing-powerbi-kpis.md#machine-center-capacity-total)
-- [Machine Center Capacity Effective](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
-- [Machine Center Expected Efficiency %](manufacturing-powerbi-kpis.md#machine-center-expected-efficiency-percent)
-- [Machine Center Actual Need](manufacturing-powerbi-kpis.md#machine-center-actual-need)
-- [Machine Center Actual Efficiency %](manufacturing-powerbi-kpis.md#machine-center-actual-efficiency-percent)
-- [Machine Center Actual Total Cost](manufacturing-powerbi-kpis.md#machine-center-actual-total-cost)
-- [Machine Center Allocated Time](manufacturing-powerbi-kpis.md#machine-center-allocated-time)
-- [Machine Center Output](manufacturing-powerbi-kpis.md#machine-center-output)
-- [Machine Center Scrap](manufacturing-powerbi-kpis.md#machine-center-scrap)
-- [Machine Center Scrap %](manufacturing-powerbi-kpis.md#machine-center-scrap-percent)
-- [Machine Center Run Time](manufacturing-powerbi-kpis.md#machine-center-run-time)
-- [Machine Center Stop Time](manufacturing-powerbi-kpis.md#machine-center-stop-time)
-- [Machine Center Stop %](manufacturing-powerbi-kpis.md#machine-center-stop-percent)
-- [Machine Center Load](manufacturing-powerbi-kpis.md#machine-center-load)
+- [**Machine Center Total Capacity**](manufacturing-powerbi-kpis.md#machine-center-capacity-total)
+- [**Machine Center Capacity Effective**](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
+- [**Machine Center Expected Efficiency %**](manufacturing-powerbi-kpis.md#machine-center-expected-efficiency-percent)
+- [**Machine Center Actual Need**](manufacturing-powerbi-kpis.md#machine-center-actual-need)
+- [**Machine Center Actual Efficiency %**](manufacturing-powerbi-kpis.md#machine-center-actual-efficiency-percent)
+- [**Machine Center Actual Total Cost**](manufacturing-powerbi-kpis.md#machine-center-actual-total-cost)
+- [**Machine Center Allocated Time**](manufacturing-powerbi-kpis.md#machine-center-allocated-time)
+- [**Machine Center Output**](manufacturing-powerbi-kpis.md#machine-center-output)
+- [**Machine Center Scrap**](manufacturing-powerbi-kpis.md#machine-center-scrap)
+- [**Machine Center Scrap %**](manufacturing-powerbi-kpis.md#machine-center-scrap-percent)
+- [**Machine Center Run Time**](manufacturing-powerbi-kpis.md#machine-center-run-time)
+- [**Machine Center Stop Time**](manufacturing-powerbi-kpis.md#machine-center-stop-time)
+- [**Machine Center Stop %**](manufacturing-powerbi-kpis.md#machine-center-stop-percent)
+- [**Machine Center Load**](manufacturing-powerbi-kpis.md#machine-center-load)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

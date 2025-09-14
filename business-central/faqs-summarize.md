@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for summarize (preview)
 description: Learn about the AI technology of summarize in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 04/14/2025
+ms.date: 09/14/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -68,7 +68,7 @@ to review and verify responses before making decisions that could affect stakeho
 
 - Geographic and language availability
 
-  [!INCLUDE [copilot-geo-and-language-availability-en-only](includes/copilot-geo-and-language-availability-en-only.md)]
+  [!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 - Certain industry, product, and subject limitations
 

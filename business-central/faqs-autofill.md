@@ -20,9 +20,9 @@ ms.search.keywords: copilot, AI, chat
 
 These frequently asked questions (FAQ) describe the AI effect of Copilot’s Autofill feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+<!-- [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]-->
 
 ## What is Autofill?
 

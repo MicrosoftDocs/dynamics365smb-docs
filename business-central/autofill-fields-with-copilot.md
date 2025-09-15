@@ -20,16 +20,14 @@ Copilot's autofill feature assists you by automatically filling in editable blan
 
 When Copilot generates suggestions, it only accesses the business data you can access. Copilot never saves suggestions automatically but presents them for you to decide what to keep. Copilot uses AI, and suggestions might not be correct.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
-
-<!--Suggestions are based on Business Central that only you have access to.-->
+<!-- [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]-->
 
 ## Prerequisites
 
 - Autofill is activated, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
-- (Sandbox environments on update 26.4 or later only) To enhance suggestions with results from the web, turn on **Enable Bing Search** in the **Copilot and agent capabilities** page. Learn more in [Searching the web with Copilot](ai-search-web-copilot.md).
+- To enhance suggestions with results from the web, turn on **Enable Bing Search** in the **Copilot and agent capabilities** page. Learn more in [Searching the web with Copilot](ai-search-web-copilot.md).
 
 ## Supported languages
 

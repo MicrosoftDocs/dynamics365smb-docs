@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 07/24/2025
+ms.date: 09/15/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -35,14 +35,13 @@ Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts prod
 [!INCLUDE[autofill-suggestions-source](includes/autofill-suggestions-source.md)]
 
 > [!IMPORTANT]
-> Copilot runs under your user context. It only has access to data that you already have access to. Your assigned permissions and all other security and compliance controls also apply when you use Copilot.
-
-> [!IMPORTANT]
-> Web Search is available from version 26.4 and above. The feature requires that you turn on **Bing Search** on the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
+>
+> - Copilot runs under your user context. It only has access to data that you already have access to. Your assigned permissions and all other security and compliance controls also apply when you use Copilot.
+> - Web search is available from version 26.4 and above. The feature requires that you turn on **Bing Search** on the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
 ## What is the intended use of Autofill?
 
-Autofill is an assistive feature intended to help people enter data into Business Central. It isn't designed to run autonomously and enter data on behalf of others. Since the suggestions aren't automatically saved to Business Central, you must review and accept each field for it to be saved. 
+Autofill is an assistive feature intended to help people enter data into Business Central. It isn't designed to run autonomously and enter data on behalf of others. Since the suggestions aren't automatically saved to Business Central, you must review and accept each field for it to be saved.
 
 When you choose to keep a suggestion, you're saving the change to Business Central as if you entered that value yourself without the assistance of Copilot.
 

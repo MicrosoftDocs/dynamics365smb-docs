@@ -30,7 +30,7 @@ The following table describes the actions on the **Usage Data Imports** page.
 
 |Action  |Description  |
 |---------|---------|
-|New Import  & file  |  Prepare a new import and open a dialog to chose a file to import.       |
+|New Import  & file  |  Prepare a new import and open a dialog to choose a file to import.       |
 |New Import    |  Prepare a new import.       |
 |Import file    |  Open a file dialog to add the an import file to the selected import.       |
 |Process  Data   |  Processes the imported usage data, but doesn't create invoices. The **Create Imported Lines**, **Process Imported Lines**, **Create Usage Data Billing**, and **Process Usage Data Billing** steps run automatically one after the other. These actions can also be called manually from the Related / Manual Processing menu.      |
@@ -41,11 +41,11 @@ The following table describes the actions on the **Usage Data Imports** page.
 |Process Imported Lines     |  When you process the imported lines, [!INCLUDE [prod_short](../../includes/prod_short.md)] tries to create a link between the usage data and the subscription lines. If errors occur during processing, you can use the **No. of Imported Line Errors** field to explore them. After you correct the errors, you can run the processing step again.       |
 |Create Usage Data Billing     | Generate the data you need to bill customers based on the imported lines. Depends on your configuration.        |
 |Process Usage Data Billing     | Determine pricing for the usage data. Pricing depends on the [methods for pricing](#methods-for-pricing) you use and the period. If errors occur during processing, you can use the lookup in the **No. of Usage Data Billing Errors** field to access the errors. After you correct the errors, you can run the processing step again.       |
-|Remove Usage Data Lines & Billing     |  Delete the usage data that the import file generated, and then regenerate it. This is useful, for example, if errors occur during processing that you can resolve by using a different [data exchange definition](../masterdata/dataexchangedefinitions.md).       |
+|Remove Usage Data Lines & Billing     |  Delete the usage data that the import file generated, and then regenerate it. This action is useful, for example, if errors occur during processing that you can resolve by using a different [data exchange definition](../masterdata/dataexchangedefinitions.md).       |
 |Usage Data Billing     | * **Customer Subscription Contracts** opens an overview of the customer subscription contracts in the import. <br>* **Customer Subscription Contract Invoices** opens an overview of the customer subscription contract invoices created for the import, but aren't posted. <br>* **Posted Customer Subscription Contract Invoices** opens an overview of the customer subscription contract invoices created and posted for the import. <br>* **Vendor Subscription Contracts** opens an overview of the vendor subscription contracts in the import. <br>* **Vendor Subscription Contract Invoices** opens an overview of the vendor contract invoices created for the import, but aren't posted. <br>* **Posted Vendor Subscription Contract Invoices** opens an overview of the vendor contract invoices created and posted for the import.        |
 
 > [!NOTE]
-> The **Usage Data Generic Import** page displays the raw data generated from the import file(s). This usually includes supplier information about the customers, the supplier subscriptions, and the billing period. The **Unit Cost** and **Cost Amount** fields let you import unit prices and total prices. If the total price is available in the **Cost Amount** field, the **Unit Cost** is calculated based on the quantity. If the total price isn't available, [!INCLUDE [prod_short](../../includes/prod_short.md)] calculates it based on the quantity and the unit cost.
+> The **Usage Data Generic Import** page displays the raw data generated from the import files. This data usually includes supplier information about the customers, the supplier subscriptions, and the billing period. The **Unit Cost** and **Cost Amount** fields let you import unit prices and total prices. If the total price is available in the **Cost Amount** field, the **Unit Cost** is calculated based on the quantity. If the total price isn't available, [!INCLUDE [prod_short](../../includes/prod_short.md)] calculates it based on the quantity and the unit cost.
 >
 > To open the **Usage Data Generic Import** page, use the lookup in the **No. of Imported Lines** field. To learn more about the processing steps, go to [Process: Import usage data](#import-usage-data).
 
@@ -93,7 +93,7 @@ These methods are described in the following sections.
 
 ### Usage Quantity
 
-Calculate the price based on the quantity contained in the usage data. The subscription lines find the subscription, and thus the related item. If needed, the appropriate price scale is determined through the quantity. The deciding factor here is the contract partner (in the **Sell-to Customer No.** field on the **Customer Subscription Contract** page), not the invoice recipient. Based on the period to be billed (which the **Charge Start Date** and **Charge End Date** fields define), the partial period is calculated to the day, with a corresponding daily price in the case of a pro-rata billing period.
+Calculate the price based on the quantity contained in the usage data. The subscription lines find the subscription, and thus the related item. If needed, the appropriate price scale is determined through the quantity. The deciding factor is the contract partner (in the **Sell-to Customer No.** field on the **Customer Subscription Contract** page), not the invoice recipient. Based on the period to bill (which the **Charge Start Date** and **Charge End Date** fields define), the partial period is calculated to the day, with a corresponding daily price if it's a pro-rata billing period.
 
 ### Fixed Quantity
 
@@ -109,16 +109,16 @@ In addition to these methods, partial periods are also taken into account when d
 
 * Partial periods exist if the time between **Charge Start Date** + **Dateformula** from the **Billing Base Period** field of the service differs from the time span between **Charge Start Date** and (inclusive) **Charge End Date** fields. For example, if there are one or more quantity changes within a billing period, or if it's not a complete billing period.
 * Because months have different numbers of days, the month in which the **Charge Start Date** on the **Usage Data Billing** page lies determines the daily price to use as the basis for calculating the partial period.
-* Provided that it's a full billing period, it doesn't matter whether the billing period is congruent with a calendar month or overlaps.
+* If it's a full billing period, it doesn't matter whether the billing period is congruent with a calendar month or overlaps.
 
 Usage data describing a change in quantity within a billing period usually contains several data records, with the periods matching the corresponding quantity in each case.
 
-When calculating prices for partial periods, [!INCLUDE [prod_short](../../includes/prod_short.md)] calculates with the daily price. The number of days in the **Billing Base Period** (from the subscription lines) is determined, in which the **Charge Start Date** lies. The billing period price is then multiplied, taking into account the quantity scale, based on the ratio of the two time periods.
+[!INCLUDE [prod_short](../../includes/prod_short.md)] calculates with the daily price for partial periods. The number of days in the **Billing Base Period** (from the subscription lines) is determined, in which the **Charge Start Date** lies. The billing period price is then multiplied, taking into account the quantity scale, based on the ratio of the two time periods.
 
-For a billing period of 1 month (the **Billing Base Period** field contains **1M**), the daily prices in a calendar month are always identical. Consequently, for two partial periods whose **Charge Start Date** is in two calendar months with different number of days, the daily price is also different.
+For a billing period of 1 month (the **Billing Base Period** field contains **1M**), the daily prices in a calendar month are always identical. So, for two partial periods whose **Charge Start Date** is in two calendar months with different number of days, the daily price is also different.
 
 > [!CAUTION]
-> If the monthly price is the same, the daily price in a month with 31 days (for example, January) is lower than in a month with only 28 days (such as February). However, this only applies if it's a partial period. The price of full billing periods, however, is always identical.
+> If the monthly price is the same, the daily price in a month with 31 days (for example, January) is lower than in a month with only 28 days (such as February). However, this difference only applies if it's a partial period. The price of full billing periods, however, is always identical.
 >
 > For a partial period that extends over several months with different numbers of days, the daily price of the respective month always applies. This ensures that for several partial periods within a month, the sum of the daily prices always corresponds to the monthly amount.
 
@@ -161,17 +161,17 @@ Then, the [usage data is processed](#process-usage-data).-->
 
 ## Process usage data
 
-On the **Usage Data Imports** page, use the **Process Data** action to process the usage data. The process involves several steps which can also be called separately from the Related / Manual Processing menu.
+On the **Usage Data Imports** page, use the **Process Data** action to process the usage data. The process involves several steps, which can also be called separately from the Related / Manual Processing menu.
 
 1. After you import the reconciliation file, the raw data is generated as individual lines based on the import file via the **Create Imported Lines** action. You can access the details by using the lookup in the **No. of Imported Lines** field.
 
-2. By processing the imported lines (**Process Imported Lines** action), the imported usage data merges with the subscription lines and thus the subscriptions. [Supplier subscriptions](../masterdata/customers-subscriptions.md) are the links that establish the connection into the contract lines. You can set up the supplier to create these records automatically. To learn more, go to [Settings on the supplier](../masterdata/suppliers.md#settings-on-the-supplier). Specifically, the usage data contains the ID of the supplier subscription to which it belongs. Each supplier subscription has a [usage data supplier reference](../masterdata/references.md) which is associated with the subscription lines through the **Supplier Reference Entry No.** field.
+2. By processing the imported lines (**Process Imported Lines** action), the imported usage data merges with the subscription lines and thus the subscriptions. [Supplier subscriptions](../masterdata/customers-subscriptions.md) are the links that establish the connection into the contract lines. You can set up the supplier to create these records automatically. To learn more, go to [Settings on the supplier](../masterdata/suppliers.md#settings-on-the-supplier). Specifically, the usage data contains the ID of the supplier subscription to which it belongs. Each supplier subscription has a [usage data supplier reference](../masterdata/references.md) associated with the subscription lines through the **Supplier Reference Entry No.** field.
 
 When usage data merges with subscription lines, among other things, the validity of the subscription lines is checked. If it isn't valid, an error shows. If you get an error, you can use the lookup in the **No. of Imported Line Errors** field to access the records.
 
-If there isn't a connection between a supplier's subscription and a subscription line, you can create one using the [Connect supplier subscriptions to subscriptions](connect-subscription-service-object.md) feature, provided that the subscription line and the subscription exist. If this isn't the case, you can create them using the [Extend Contract](extend-contract.md) action on the **Imported Lines** (page **Usage Data Generic Import**) or the customer subscription contract.
+If there isn't a connection between a supplier's subscription and a subscription line, you can create one using the [Connect supplier subscriptions to subscriptions](connect-subscription-service-object.md) feature, if the subscription line and the subscription exist. If that isn't the case, you can create them using the [Extend Contract](extend-contract.md) action on the **Imported Lines** (page **Usage Data Generic Import**) or the customer subscription contract.
 
-3. Usage data is typically supplier-side, which means it's probably missing the data you need for customer-side billing. You create the data for a customers (records where the **Partner** field contains **Customer**) for each vendor usage data record when you generate the **Usage Data Billing** (via **Create Usage Data Billing** action) to use later for customer-side billing. You can use the lookup in the **No. of Usage Data Billing** field to access the details.
+3. Usage data is typically supplier-side, which means it's probably missing the data you need for customer-side billing. You create the data for customers (records where the **Partner** field contains **Customer**) for each vendor usage data record when you generate the **Usage Data Billing** (via **Create Usage Data Billing** action) to use later for customer-side billing. You can use the lookup in the **No. of Usage Data Billing** field to access the details.
 
 Records in usage-based billing are vendor neutral, meaning all usage data is normalized regardless of the original source.
 
@@ -184,12 +184,12 @@ The next step is billing, which typically happens as follows:
 
 ## Vendor and customer usage data
 
-In addition to the import of vendor usage data, it might be that only customer usage data is available. This is usually the case when the subscription lines to bill are internal services. Both the subscription lines in the item master data and the subscription lines for the subscriptions are configured so that there are only subscription lines where **Customer** is chosen in the **Partner** field.
+In addition to the import of vendor usage data, it might be that only customer usage data is available. For example, when the subscription lines to bill are internal services. Both the subscription lines in the item master data and the subscription lines for the subscriptions are configured so that there are only subscription lines where **Customer** is chosen in the **Partner** field.
 
-The connections between subscriptions and subscription lines is always made through the **Supplier Reference** field (see above), whereby a vendor subscription line is always prioritized. However, if there is only one customer subscription line, the connection can also be established. When you process usage data, the assignment is made either via the vendor subscription lines or, if a vendor subscription line isn't available, then through the customer subscription lines.
+The connections between subscriptions and subscription lines are always made through the **Supplier Reference** field, whereby a vendor subscription line is always prioritized. However, if there's only one customer subscription line, the connection can also be established. When you process usage data, the assignment is made either via the vendor subscription lines or, if a vendor subscription line isn't available, then through the customer subscription lines.
 
 > [!NOTE]
-> If only a customer subscription line exists, only those where **Customer** is chosen in **Partner** field are created when processing the related usage data.
+> If only a customer subscription line exists, only lines where **Customer** is chosen in **Partner** field are created when processing the related usage data.
 
 ## Usage Data Billing Metadata
 

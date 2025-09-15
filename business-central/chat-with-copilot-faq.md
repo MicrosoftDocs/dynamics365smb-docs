@@ -7,7 +7,7 @@ ms.reviewer: solsen
 ms.topic: faq
 ms.collection:
   - bap-ai-copilot
-ms.date: 07/17/2025
+ms.date: 09/15/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template jswymer
 ---
@@ -33,11 +33,11 @@ No, the chat pane is only available on the [!INCLUDE[web_client](includes/web_cl
 
 ## In which countries or regions can I chat with Copilot?
 
-Starting in update 25.4, chat is available in all [!INCLUDE[prod_short](includes/prod_short.md)] countries and regions. If you're unable to access the chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
+Chat is available in all [!INCLUDE[prod_short](includes/prod_short.md)] countries and regions. If you're unable to access the chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
 
 ## I don't use Business Central in English. What are my options?
 
-As of January 2025, chat is available no matter which language you use in [!INCLUDE[prod_short](includes/prod_short.md)].
+Chat is available no matter which language you use in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 

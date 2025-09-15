@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.date: 06/27/2025
+ms.date: 09/15/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
@@ -38,7 +38,6 @@ Copilot's source responses are generated from the official [Microsoft Dynamics 3
 
 ## Prerequisites
 
-- For Business Central update 25.3 through 25.5, Chat with Copilot feature must be enabled on the **Feature Management** page by an administrator. Learn more in [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - The **Chat** capability is activated by an administrator. Learn more in [Configuring Copilot and agent capabilities](enable-ai.md).
 
 ## Get started using chat with Copilot

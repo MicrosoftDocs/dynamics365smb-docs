@@ -191,7 +191,7 @@ In the following example, Power BI identifies account **1001** as having a dupli
 1. Go to your chart of accounts.
 1. Filter the list by **Totaling**, and filter by the account number mentioned in the error message. The filter should include asterisks before and after the account number. For example, *1001*.
 1. Identify all end-total accounts that reference the duplicate account in the **Totaling** column.
-1. [Fix the totaling on your G/L Accounts](#fix-the-totalling-on-your-gl-accounts).
+1. [Fix the totaling on your G/L Accounts](#fix-the-totaling-on-your-gl-accounts).
 
 :::image type="content" source="media/powerbi/finance/duplicate-totalling-accounts-example.png" alt-text="Screenshot of the duplicate totalling accounts structure" lightbox="media/powerbi/finance/duplicate-totalling-accounts-example.png":::
 

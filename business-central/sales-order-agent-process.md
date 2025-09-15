@@ -159,11 +159,11 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
   
      `I want the ones with linen material`
 
-- Partial word matching fails in some local versions
+- Partial word matching in some local versions
 
   When a search term appears as part of a longer word, the system fails to match it. For example, suppose a customer requests a quote for `Züge von Wagonwheel` in the DE version. The inventory includes the items `WonderWagon Nachziehzug` and `WonderWagon Elektrischer Zug`. However, the agent only returns `WonderWagon Elektrischer Zug`.
 
-- Consumable search limitation in some local versions
+- Consumable search in some local versions
 
   Searches for related consumables often return the main product instead of the requested accessory or consumable. For example, suppose the customer requests a quote for `WonderWash Waschpulver` in the DE version. The inventory includes `WonderWash Waschmaschine` but not `WonderWash Waschpulver`. However, the agent returns `WonderWash Waschmaschine`.
 

@@ -180,7 +180,7 @@ Your totaling for an **End-Total** account must exactly reference both the **Beg
 
 #### How to identify the duplicate accounts in Business Central
 
-Power BI will present the **first** instance of a duplicate account in the error message. You may need to resolve multiple Totaling Accounts in sequence to resolve all duplicates.
+Power BI presents the first instance of a duplicate account in the error message. You might need to resolve multiple totaling accounts in sequence to resolve all duplicates.
 
 In the example below, Power BI identifies account **1001** as having a duplicate value in the G/L Account table in the Semantic Model.
 
@@ -188,27 +188,26 @@ In the example below, Power BI identifies account **1001** as having a duplicate
 
 ##### Steps to follow in Business Central
 
-1. Navigate to your Chart of Accounts in Business Central.
-1. Filter list by **Totalling** and filter by the account number mentioned in the error message. The filter should include asterisks before and after the account number, like this: `*1001*`
-1. Identify all End-Total accounts that reference the duplicate account in the Totalling column.
-1. [Fix the totaling on your G/L Accounts](#fix-the-totalling-on-your-gl-accounts)
+1. Go to your chart of accounts.
+1. Filter the list by **Totalling**, and filter by the account number mentioned in the error message. The filter should include asterisks before and after the account number. For example, *1001*.
+1. Identify all end-total accounts that reference the duplicate account in the **Totalling** column.
+1. [Fix the totaling on your G/L Accounts](#fix-the-totalling-on-your-gl-accounts).
 
 :::image type="content" source="media/powerbi/finance/duplicate-totalling-accounts-example.png" alt-text="Screenshot of the duplicate totalling accounts structure" lightbox="media/powerbi/finance/duplicate-totalling-accounts-example.png":::
 
 #### Fix the totalling on your G/L Accounts
 
-Sometimes, the issue is simply due to incorrect account references in the Totalling column. In these cases, removing any duplicate account references will usually fix the problem.
+Sometimes, the issue is due to incorrect account references in the **Totalling** column. Typically, removing duplicate account references fixes the problem.
 
-For more complex situations, you may need to introduce new Begin-Total accounts to better organize your end-totals. This requires restructuring your Chart of Accounts.
+For more complex situations, you might need to introduce new begin-total accounts to better organize your end-totals. Adding new accounts requires restructuring your chart of accounts.
 
-The example below illustrates the recommended approach for setting up totalling accounts as a best practice.
-
-> [!NOTE]
-> One Begin-Total account can only be used in one End-Total account.
+The following example illustrates the recommended approach for setting up totalling accounts.
 
 1. A **Begin-Total** account of **1300 (Vehicles)** and the **End-Total** account of **1390 (Vehicles, Total)**.
 2. The totaling defined for the **End-Total** is **1300..1390**. Any other combination for your totaling account (such as 1300..1340, 1310..1390, or 1310..1340, etc.) can cause the error.
-3. One **Begin-Total** account can only be used in one **End-Total** account. If you use a **Begin-Total** account in two or more **End-Total** accounts, the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)] can't match it to an **End-Total** account.
+
+> [!NOTE]
+> You can only use one **Begin-Total** account in one **End-Total** account. If you use a **Begin-Total** account in two or more **End-Total** accounts, the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)] can't match it to an **End-Total** account.
 
 :::image type="content" source="media/powerbi/finance/recommended-totalling-structure-for-power-bi-reporting.png" alt-text="Screenshot of the recommended totalling structure for power bi finance reporting" lightbox="media/powerbi/finance/recommended-totalling-structure-for-power-bi-reporting.png":::
 

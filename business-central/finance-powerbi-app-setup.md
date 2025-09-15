@@ -149,9 +149,9 @@ Data source error: Column '<oii>Entry No.</oii>' in Table '<oii>G/L Entries</oii
 ```
 
 > [!NOTE]
-> If you get this error, you're affected by a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)].
+> The cause of this error is a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)].
 
-This error indicates that there are duplicate G/L entries in the Finance fact table in the semantic model. The error displays when we attempt to combine the three sub-queries (Balance Sheet G/L Entries, Income Statement G/L Entries, and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
+This error indicates that there are duplicate G/L entries in the Finance fact table in the semantic model. The error displays when we attempt to combine the three subqueries (Balance Sheet G/L Entries, Income Statement G/L Entries, and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
 
 The current Balance Sheet G/L Entries query has a hard-coded filter transformation. This filter assumes that the source code for closing entries is CLSINCOME. This leads the model to allow closing entries to exist in both the Balance Sheet query and the Closing Entries query, resulting in duplicate entries.
 
@@ -167,9 +167,9 @@ Please try again later or contact support. If you contact support, please provid
 Data source error: Column 'G/L Account No.' in Table 'G/L Account' contains a duplicate value 'X' and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
 ```
 
-If you receive this error, you'll need to [identify the duplicate accounts in Business Central](#how-to-identify-the-duplicate-accounts-in-business-central), then apply the suggested changes.
+If you receive this error, you need to [identify the duplicate accounts in Business Central](#how-to-identify-the-duplicate-accounts-in-business-central), then apply the suggested changes.
 
-#### Why did this happen?
+#### Why did this error happen?
 
 This error can happen because the Finance Connector app relies on the totaling accounts for hierarchy and indentation purposes.
 
@@ -182,26 +182,26 @@ Your totaling for an **End-Total** account must exactly reference both the **Beg
 
 Power BI presents the first instance of a duplicate account in the error message. You might need to resolve multiple totaling accounts in sequence to resolve all duplicates.
 
-In the example below, Power BI identifies account **1001** as having a duplicate value in the G/L Account table in the Semantic Model.
+In the following example, Power BI identifies account **1001** as having a duplicate value in the G/L Account table in the Semantic Model.
 
 :::image type="content" source="media/powerbi/finance/duplicate-accounts-error-example.png" alt-text="Screenshot of the duplicate accounts error" lightbox="media/powerbi/finance/duplicate-accounts-error-example.png":::
 
 ##### Steps to follow in Business Central
 
 1. Go to your chart of accounts.
-1. Filter the list by **Totalling**, and filter by the account number mentioned in the error message. The filter should include asterisks before and after the account number. For example, *1001*.
-1. Identify all end-total accounts that reference the duplicate account in the **Totalling** column.
+1. Filter the list by **Totaling**, and filter by the account number mentioned in the error message. The filter should include asterisks before and after the account number. For example, *1001*.
+1. Identify all end-total accounts that reference the duplicate account in the **Totaling** column.
 1. [Fix the totaling on your G/L Accounts](#fix-the-totalling-on-your-gl-accounts).
 
 :::image type="content" source="media/powerbi/finance/duplicate-totalling-accounts-example.png" alt-text="Screenshot of the duplicate totalling accounts structure" lightbox="media/powerbi/finance/duplicate-totalling-accounts-example.png":::
 
-#### Fix the totalling on your G/L Accounts
+#### Fix the totaling on your G/L Accounts
 
-Sometimes, the issue is due to incorrect account references in the **Totalling** column. Typically, removing duplicate account references fixes the problem.
+Sometimes, the issue is due to incorrect account references in the **Totaling** column. Typically, removing duplicate account references fixes the problem.
 
 For more complex situations, you might need to introduce new begin-total accounts to better organize your end-totals. Adding new accounts requires restructuring your chart of accounts.
 
-The following example illustrates the recommended approach for setting up totalling accounts.
+The following example illustrates the recommended approach for setting up totaling accounts.
 
 1. A **Begin-Total** account of **1300 (Vehicles)** and the **End-Total** account of **1390 (Vehicles, Total)**.
 2. The totaling defined for the **End-Total** is **1300..1390**. Any other combination for your totaling account (such as 1300..1340, 1310..1390, or 1310..1340, etc.) can cause the error.

@@ -7,33 +7,42 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37115_Primary
-ms.date: 10/31/2024
+ms.date: 10/31/2025
 ms.service: dynamics-365-business-central
 ---
 
 # Vendor Quality Analysis (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[2025_releasewave2](includes/2025_releasewave2.md)]
 
-The **Vendor Quality Analysis** report analyzes vendor performance, showcasing vendor quality, reliance and purchase discount trends.
+The **Vendor Quality Analysis** report analyzes vendor performance, showcasing vendor quality, returns, reliance and purchase discount trends. By visualizing key purchasing metrics over time, item distribution and spending diversity, this report provides a breakdown of vendor behaviors to continuously improve supplier performance and mitigate  purchasing risks.
 
-**To do** Add correct link to image
-:::image type="content" source="media/purchases/{vendor-quality-analysis.png}" alt-text="Screenshot of the Vendor Quality Analysis Power BI report" lightbox="media/purchases/{vendor-quality-analysis.png}":::
+:::image type="content" source="media/purchases/{vendor-quality-analysis.png}" alt-text="Screenshot of the Vendor Quality Analysis Power BI report" lightbox="media/purchases/{purchases-vendor-quality-analysis.png}":::
 
 ## Use the report
 
-Add description of who the report is designed for and its use
+This report is designed for executives, purchasing managers and purchasers, to highlight effective vendor relationships and minimize supply chain risks.
+
+As a CEO, you want to monitor vendor performance and identify trusted vendors and supplier risks, to inform key business decisions. For example, by reviewing the vendor analysis details, you identify a vendor with the highest [Spend Reliance %](sales-powerbi-sales-kpis.md#spend-reliance-percent) who consistently performs poorly across returns and discounts. Using these insights, you decide to pursue an alternate supplier to improve supply-chain reliability, product quality and profit metrics.
+
+For purchasing managers, you want to track vendor performance and item dependence, to ensure a reliable supply-chain pipeline. Using the vendor reliance analysis, you identify a single-supplier item with the highest purchase amount. In response, you engage with additional vendors to diversify product supply and reduce over-reliance on a specific vendor. 
+
+As a purchaser, you want to analyze vendor behaviors to manage effective supplier relationships. Using the purchase discount amount over time, you might identify a vendor who is not consistently delivering discounts compared to other vendors. With this information, you are empowered to negotiate discounted purchase prices to improve profit metrics.
 
 ## Key Performance Indicators (KPIs)
 
 The *Vendor Quality Analysis* report includes the following KPIs and measures: 
 
-- [**No. of Vendors**](purchases-powerbi-kpis.md#no-of-vendors)
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 - [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**No. of Vendors**](purchases-powerbi-kpis.md#no-of-vendors)
+- [**No. of Distinct Items**](purchases-powerbi-kpis.md#no-of-distinct-items)
 - [**No. of Single Supplier Items**](purchases-powerbi-kpis.md#no-of-single-supplier-items)
-- [**Purchase Value Entries Discount %**](purchases-powerbi-kpis.md#purchase-value-entries-discount)
+- [**Purchase Value Entries Discount %**](purchases-powerbi-kpis.md#purchase-value-entries-discount-percent)
 - [**Purchase Value Entries Discount Amount**](purchases-powerbi-kpis.md#purchase-value-entries-discount-amount)
+- [**Return Rate (Amount)**](purchases-powerbi-kpis.md#return-rate-amount)
+- [**Spend Reliance %**](purchases-powerbi-kpis.md#spend-reliance-percent)
+- [**Item Reliance %**](purchases-powerbi-kpis.md#item-reliance-percent)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -43,8 +52,11 @@ The *Vendor Quality Analysis* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- {Need to Confirm these}
-
+- Value Entries
+- Purchase Invoice Lines
+- Purchase Credit Lines
+- Item
+- Vendor
 
 ## Try the report
 

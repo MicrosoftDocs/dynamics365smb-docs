@@ -33,11 +33,10 @@ The following is an example of the high-level steps in an approval and certifica
 1. The seller creates an invoice, and generates an XML or JSON file. The file type depends on country/regional requirements.
 1. The seller submits the e-invoice to the tax authority. The tax authority adds a unique ID or a QR code and returns it to the seller.
 1. The seller submits the e-invoice to a third-party certifier for validation. For example, the certifier validates the schema structure, content, checks for duplicates, and so on. If they approve the e-invoice, the certifier marks it as certified. For example, they might add a unique identifier, a digital signature, or a QR code.
-
-> [!NOTE]
-> If the tax authority provides a QR code, the returned JSON file includes it as a base64-encoded string. If you want to include the QR code in printed documents, you can update your document layout. [!INCLUDE [prod_short](includes/prod_short.md)] stores the QR code in the **Posted Sales Invoices** table. To learn more about document layouts, go to [Report and document layouts overview](ui-manage-report-layouts.md).
-
 1. The seller sends the certified e-invoice to the customer.
+
+> [!TIP]
+> If the tax authority provides a QR code, the returned JSON file includes it as a base64-encoded string. If you want to include the QR code in printed documents, you can update your document layout. [!INCLUDE [prod_short](includes/prod_short.md)] stores the QR code in the **Posted Sales Invoices** table. To learn more about document layouts, go to [Report and document layouts overview](ui-manage-report-layouts.md).
 
 ### E-Document setups for the Clearance model
 

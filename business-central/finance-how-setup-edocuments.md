@@ -28,33 +28,36 @@ Some countries/regions, such as Spain, India, Mexico, and Italy, require that a 
 
 ### Overview of the Clearance model process
 
-The following are high-level steps in the approval and certification process for the Clearance model.
+The following is an example of the high-level steps in an approval and certification process for the Clearance model. The process might differ in your country/region.
 
 1. The seller creates an invoice, and generates an XML or JSON file. The file type depends on country/regional requirements.
-1. The seller submits the e-invoice to a third-party certifier for validation. For example, the certifier validates the schema structure, content, checks for duplicates, and so on. If the e-invoice is valid, the certifier adds a unique identifier that certifies the e-invoice and submits it to the tax authority. The certifier also sends the certified document to the seller with a digital signature or, for offline validation, a QR code.
-1. The seller submits the certified e-invoice to the tax authority. The tax authority returns it to the seller. Like the third-party certifier, the tax authority either digitally approves the e-invoice or adds a QR code. In some situations, the tax authority might send the e-invoice to the customer.
+1. The seller submits the e-invoice to the tax authority. The tax authority adds a unique ID or a QR code and returns it to the seller.
+1. The seller submits the e-invoice to a third-party certifier for validation. For example, the certifier validates the schema structure, content, checks for duplicates, and so on. If they approve the e-invoice, the certifier marks it as certified. For example, they might add a unique identifier, a digital signature, or a QR code.
 
 > [!NOTE]
-> If the tax authority provides a QR code, the returned JSON file includes it as a base64-encoded string. When you create a PDF document for the e-invoice, [!INCLUDE [prod_short](includes/prod_short.md)] extracts the string and adds the QR code as an image in the PDF.
+> If the tax authority provides a QR code, the returned JSON file includes it as a base64-encoded string. If you want to include the QR code in printed documents, you can update your document layout. [!INCLUDE [prod_short](includes/prod_short.md)] stores the QR code in the **Posted Sales Invoices** table. To learn more about document layouts, go to [Report and document layouts overview](ui-manage-report-layouts.md).
 
 1. The seller sends the certified e-invoice to the customer.
 
 ### E-Document setups for the Clearance model
 
+> [!NOTE]
+> Because the Clearance model differs in countries/regions, support for the model in [!INCLUDE [prod_short](includes/prod_short.md)] is a framework only. You must create an extension that meets the requirements in your country/region, and use the extension in your e-document service setup. To explore an example of an extension, go to the samples in our **BCTech** repository on GitHub and find [ClearanceServiceSample](https://github.com/microsoft/BCTech/tree/master/samples/ClearanceServiceSample).
+
 You can set up an e-document service specifically for the Clearance model. The setup is almost the same as setting up any e-document service, with a few exceptions here and there. This section describes the settings that are specific to the Clearance model.
 
-- When you set up the e-document service, enter the following values in the following fields. To learn more, go to [Set up an e-document service](#set-up-an-e-document-service).
+- When you set up the e-document service on the **E-Documents Services Setup** page, enter the following values in the following fields. To learn more, go to [Set up an e-document service](#set-up-an-e-document-service).
 
-   - Give the e-document service for the Clearance model a name in the **Code** field so it's easy differentiate it from the service provider.
+   - In the **Code** field, give the e-document service for the Clearance model a name that's easy to differentiate from the service provider.
    - In the **Document Format** field, choose **PEPPOL BIS 3.0**.
-   - In the **Service Integration** field, choose **Clearance Service**.
+   - In the **Service Integration** field, choose the extension that you created for the Clearance model.
 
-- When you create the workflow, use the structure outlined in the following table. Be sure to specify the correct service for the Clearance model and the provider for the then responses.
+- Create a workflow that suits the process in your country/region. The following table shows an example of a workflow. Be sure to specify the correct service for the Clearance model and the provider for the then responses. To learn more about workflows, go to [Workflows in Business Central](across-workflow.md).
 
 |When event  |On condition  |Then Response  |
 |---------|---------|---------|
-| E-document Created            | \<Always> | Export E-Document using setup: \<service provider>  |
-| E-Document has been exported  | \<Always> | Send E-Document using setup: \<service provider>    |
+| E-document Created            | \<Always> | Export E-Document using setup: \<clearance>  |
+| E-Document has been exported  | \<Always> | Send E-Document using setup: \<clearance>    |
 | E-Document has changed        | \<Always> | Export E-Document using setup: \<service provider>  |
 | E-Document has been exported  | \<Always> | Send E-Document using setup: \<service provider>    |
 | E-Document has changed        | \<Always> | Send E-Document to customer                         |

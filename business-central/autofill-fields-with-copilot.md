@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 07/24/2025
+ms.date: 08/16/2025
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -61,9 +61,10 @@ The autofill feature isn't available on these fields regardless of the page type
 - Multiline text fields.
 - Masked fields like passwords and secrets.
 - Date and time fields.
-- Toggle switches.
+- Currency code fields.
 - Fields that uniquely identify a record like IDs and numbers from a series.
 - Certain fields depending on your Business Central environment settings. For example, Copilot can't make suggestions for address fields until your admin enables Bing Search with Copilot.
+- Toggle switches.
 
 ## Use autofill on fields
 

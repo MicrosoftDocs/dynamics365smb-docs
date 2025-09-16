@@ -46,7 +46,7 @@ The following is an example of the high-level steps in an approval and certifica
 
 You can set up an e-document service specifically for the Clearance model. The setup is almost the same as setting up any e-document service, with a few exceptions here and there. This section describes the settings that are specific to the Clearance model.
 
-- When you set up the e-document service on the **E-Documents Services Setup** page, enter the following values in the following fields. To learn more, go to [Set up an e-document service](#set-up-an-e-document-service).
+- When you set up the e-document service on the **E-Documents Services Setup** page, enter the following values in the following fields.
 
    - In the **Code** field, give the e-document service for the Clearance model a name that's easy to differentiate from the service provider.
    - In the **Document Format** field, choose **PEPPOL BIS 3.0**.
@@ -56,8 +56,8 @@ You can set up an e-document service specifically for the Clearance model. The s
 
 |When event  |On condition  |Then Response  |
 |---------|---------|---------|
-| E-document Created            | \<Always> | Export E-Document using setup: \<clearance>  |
-| E-Document has been exported  | \<Always> | Send E-Document using setup: \<clearance>    |
+| E-document Created            | \<Always> | Export E-Document using setup: \<clearance model service>  |
+| E-Document has been exported  | \<Always> | Send E-Document using setup: \<clearance model service>    |
 | E-Document has changed        | \<Always> | Export E-Document using setup: \<service provider>  |
 | E-Document has been exported  | \<Always> | Send E-Document using setup: \<service provider>    |
 | E-Document has changed        | \<Always> | Send E-Document to customer                         |

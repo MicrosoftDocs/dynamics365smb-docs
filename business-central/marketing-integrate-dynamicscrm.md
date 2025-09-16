@@ -41,7 +41,7 @@ The assisted setup guide lets you choose the data to synchronize. Later, you can
 
 For example, if you want to see accounts in [!INCLUDE[crm_md](includes/crm_md.md)] as customers in [!INCLUDE[prod_short](includes/prod_short.md)], you must couple the two types of records. To do that, on the **Customers** list page in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Set Up Coupling** action. Then specify which [!INCLUDE[prod_short](includes/prod_short.md)] customers to match to which accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-You can also create (and couple) an account in [!INCLUDE[crm_md](includes/crm_md.md)] based on, for example, a customer record in [!INCLUDE[prod_short](includes/prod_short.md)] using **Create Account in Dynamics 365 Sales**, or vice versa, using **Create Customer in [!INCLUDE[prod_short](includes/prod_short.md)]**.
+You can also create (and couple) an account in [!INCLUDE[crm_md](includes/crm_md.md)] based on, for example, a customer record in [!INCLUDE[prod_short](includes/prod_short.md)] using **Create Account in Dynamics 365 Sales**, or vice versa, using **Create Customer** in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 When you set up coupling between two records, you can also manually request current record, for example a customer, to be overwritten immediately by account data from Sales (or from [!INCLUDE[prod_short](includes/prod_short.md)]) using **Synchronize Now** action. The **Synchronize Now** action asks whether to overwrite Sales or [!INCLUDE[prod_short](includes/prod_short.md)] record data.
 
@@ -142,7 +142,7 @@ The new pricing experience synchronizes price lists that meet the following crit
 * **Allow Updating Defaults** is turned off.
 * The price type is **Sale**.
 * The amount type is **Price**.
-* The product type on the lines must be **Item** or **Resource**. 
+* The product type on the lines must be **Item** or **Resource**.
 * A minimum quantity isn't specified.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that apply to all customers. Default sales price lists are created based on the price in the **Unit Price** field on the **Item Card** page for the items.

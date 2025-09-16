@@ -18,7 +18,7 @@ Before you start using sales opportunities, you must set up sales cycles and sal
 
 To use opportunity sales cycles, you must set up the sales cycle, define the different stages of the cycle, and then assign the cycle to opportunities. Assigning the relevant activity or tasks to the opportunity may also be part of setting up a sales cycle.
 
-This article also describes how to set up tasks and activities, and how to assign tasks to activities. For more information, see [To set up activities with tasks](marketing-how-setup-opportunity-sales-cycles-stages.md#set-up-activities-with-tasks).
+This article also describes how to set up tasks and activities, and how to assign tasks to activities. Learn more in [To set up activities with tasks](marketing-how-setup-opportunity-sales-cycles-stages.md#set-up-activities-with-tasks).
 
 ## Set up opportunity sales cycle codes
 

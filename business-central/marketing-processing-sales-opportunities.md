@@ -10,6 +10,7 @@ ms.date: 09/10/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Process sales opportunities
 
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.

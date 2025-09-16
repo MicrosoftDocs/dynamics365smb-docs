@@ -38,7 +38,7 @@ Before you create interactions though, you must set up interaction templates. Le
 >
 > * Personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines.  
 > * Log the segment and interactions by choosing the **Log** action to open the **Log Segment** page.
-> * Create a new segment containing the same contacts by choosing the **Create Follow-up Segment** checkbox. This setting requires that a number series is specified for segments on the **Marketing Setup** page.
+> * Create a new segment containing the same contacts by choosing the **Create Follow-up Segment** check box. This setting requires that a number series is specified for segments on the **Marketing Setup** page.
 
 An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged. Logged segments are available on the **Logged Segment** page.
 

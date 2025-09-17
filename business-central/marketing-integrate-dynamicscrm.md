@@ -39,7 +39,7 @@ Conversely, order processors in [!INCLUDE[prod_short](includes/prod_short.md)] c
 
 The assisted setup guide lets you choose the data to synchronize. Later, you can also set up synchronization for specific records, which is referred to as *coupling*. For example, you can couple a specific account in [!INCLUDE[crm_md](includes/crm_md.md)] with a specific customer in [!INCLUDE[prod_short](includes/prod_short.md)]. This section describes what to consider when you couple records.
 
-For example, if you want to see accounts in [!INCLUDE[crm_md](includes/crm_md.md)] as customers in [!INCLUDE[prod_short](includes/prod_short.md)], you must couple the two types of records. To do that, on the **Customers** list page in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Set Up Coupling** action. Then specify which [!INCLUDE[prod_short](includes/prod_short.md)] customers to match to which accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
+For example, if you want to see accounts in [!INCLUDE[crm_md](includes/crm_md.md)] as customers in [!INCLUDE[prod_short](includes/prod_short.md)], you must couple the two types of records. To do that, on the **Customers list** page in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Set Up Coupling** action. Then specify which [!INCLUDE[prod_short](includes/prod_short.md)] customers to match to which accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 You can also create (and couple) an account in [!INCLUDE[crm_md](includes/crm_md.md)] based on, for example, a customer record in [!INCLUDE[prod_short](includes/prod_short.md)] using **Create Account in Dynamics 365 Sales**, or vice versa, using **Create Customer** in [!INCLUDE[prod_short](includes/prod_short.md)].
 

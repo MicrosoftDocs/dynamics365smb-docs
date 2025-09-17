@@ -2,22 +2,19 @@
 title: Record sustainability entries
 description: Learn how to record greenhouse gas (GHG) emissions.
 author: altotovi
+ms.author: altotovi
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, water, waste, intensity, CSRD, journal
 ms.search.form: 6216, 6219, 6220
-ms.date: 01/29/2025
-ms.author: altotovi
+ms.date: 09/15/2025
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # Record sustainability entries
 
-You can manually record greenhouse gas (GHG) emissions or water and waste intensity in the sustainability ledger by using sustainability journals. You can also use purchase documents or general journals to record GHG emissions.  
-
-<!--> [!NOTE]
-> Posting water and waste intensity and using general journals for posting emissions will be enabled starting *2025 release wave 1*.  -->
+You can manually record greenhouse gas (GHG) emissions or water and waste intensity in the sustainability ledger by using sustainability journals. You can also use purchase documents or general journals to record GHG emissions.
 
 ## Sustainability journals
 
@@ -60,7 +57,7 @@ To work with sustainability journals, follow these steps:
 6. To post the journal, select the **Post** action. When you post in a sustainability journal, entries are generated in the sustainability ledger.
 
 > [!NOTE]
-> For water and waste intensity calculation, you can only use a formula with the **Custom Amount** that's multiplied with the emission factor from the **Sustainability Account Subcategory**.  
+> For water and waste intensity calculation, you can only use a formula with the **Custom Amount** that multiplies with the emission factor from the **Sustainability Account Subcategory**.  
 
 > [!IMPORTANT]
 > If your formula is based on the **Calculate from General Ledger** option in the sustainability account category, you must use the **Collect Amount from G/L Entries** action before you post the journal. The action calculates emissions based on this data source. Additionally, if you made changes to the emission factors after the journal lines were filled in, you must select the **Recalculate** action to get the correct amount in the journal.
@@ -82,7 +79,7 @@ The **Recurring Method** field is important. It determines how the amount on the
 
 The **Recurring Frequency** field is also important and must be set. It's a date formula field that determines how often the entry on the journal line is posted. Learn more in [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
 
-The **Expiration Date** field determines the date when the line is posted for the last time. The line won't be posted after that date. The advantage of using the **Expiration Date** field is that the line isn't immediately deleted from the journal. You can enter a later date so that you can use the line in the future. If the field is blank, the line is posted every time, until you delete it from the journal.
+The **Expiration Date** field determines the date when the line is posted for the last time. The line won't be posted after that date. The advantage of using the **Expiration Date** field is that the line isn't immediately deleted from the journal. You can enter a later date so that you can use the line in the future. If the field is blank, the line posts every time until you delete it from the journal.
 
 ## Purchase documents  
 

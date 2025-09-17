@@ -90,7 +90,7 @@ The following topics describe the local functionality in the Czech version of [!
   * [Skip Update of Stockkeeping Unit on Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
   * [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Available Now**
   * [Use modern search in CZ applications](use-modern-search-cz.md) **Available Now**
-  * [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-document-reports.md) **Available Now**
+  * [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-documents-reports.md) **Available Now**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

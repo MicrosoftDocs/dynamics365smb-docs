@@ -52,6 +52,7 @@ The Prod. Order Routing Gantt report includes the following KPIs and measures:
 
 - [**Total Duration Hours**](manufacturing-powerbi-kpis.md#total-duration-hours)
 - [**Total Duration Days**](manufacturing-powerbi-kpis.md#total-duration-days)
+- [**Posted Output Quantity**](manufacturing-powerbi-kpis.md#posted-output-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

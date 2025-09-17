@@ -29,7 +29,7 @@ Add description of who the report is designed for and its use
 The *Purchases Quote Overview* report includes the following KPIs and measures: 
 
 - [**No. of Purchase Quotes**](purchases-powerbi-kpis.md#no-of-purchase-quotes)
-- [**Purchase Quote Purchase Amount**](purchases-powerbi-kpis.md#purchase-quote-purchase-amount)
+- [**Purchase Quote Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-quote-purchase-lcy)
 - [**Purchase Quote Quantity**](purchases-powerbi-kpis.md#purchase-quote-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 

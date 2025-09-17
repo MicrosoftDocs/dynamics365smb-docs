@@ -50,9 +50,9 @@ Production supervisors rely on the **Prod. Order List** report to manage day-to-
 
 The Prod. Order List report includes the following KPIs and measures:
 
-- [**Actual Total Cost**](manufacturing-powerbi-kpis.md#total-actual-cost)
-- [**Expected Total Cost**](manufacturing-powerbi-kpis.md#total-expected-cost)
-- [**Standard Total Cost**](manufacturing-powerbi-kpis.md#total-standard-cost)
+- [**Total Actual Cost**](manufacturing-powerbi-kpis.md#total-actual-cost)
+- [**Total Expected Cost**](manufacturing-powerbi-kpis.md#total-expected-cost)
+- [**Total Standard Cost**](manufacturing-powerbi-kpis.md#total-standard-cost)
 - [**Total Expected Cost Dev %**](manufacturing-powerbi-kpis.md#total-expected-cost-dev-percent)
 - [**Total Standard Cost Dev %**](manufacturing-powerbi-kpis.md#total-standard-cost-dev-percent)
 - [**No. of Production Orders**](manufacturing-powerbi-kpis.md#no-of-production-orders)

@@ -33,7 +33,6 @@ The *Allocated Hours* report includes the following KPIs and measures:
 
 - [**Allocated Time**](manufacturing-powerbi-kpis.md#allocated-time)
 - [**Prod Order Expected Capacity Need**](manufacturing-powerbi-kpis.md#prod-order-expected-capacity-need)
-- [**Prod Order Actual Capacity Need**](manufacturing-powerbi-kpis.md#prod-order-actual-capacity-need)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

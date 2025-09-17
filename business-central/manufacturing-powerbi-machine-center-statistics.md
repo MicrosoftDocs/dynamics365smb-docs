@@ -60,8 +60,8 @@ Production supervisors rely on this report to monitor machine center performance
 
 The Machine Center Statistics report includes the following KPIs and measures:
 
-- [**Machine Center Total Capacity**](manufacturing-powerbi-kpis.md#machine-center-capacity-total)
-- [**Machine Center Capacity Effective**](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
+- [**Machine Center Capacity (Total)**](manufacturing-powerbi-kpis.md#machine-center-capacity-total)
+- [**Machine Center Capacity (Effective)**](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
 - [**Machine Center Expected Efficiency %**](manufacturing-powerbi-kpis.md#machine-center-expected-efficiency-percent)
 - [**Machine Center Actual Need**](manufacturing-powerbi-kpis.md#machine-center-actual-need)
 - [**Machine Center Actual Efficiency %**](manufacturing-powerbi-kpis.md#machine-center-actual-efficiency-percent)

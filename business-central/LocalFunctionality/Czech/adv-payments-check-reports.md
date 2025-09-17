@@ -1,10 +1,9 @@
 ---
 title: Advance Payments activation and upgrade
-description: This section describes Advance Payments Localization for the Czech extension.
+description: This section describes the basic control reports for Advance Payments in the Czech version.
 author: v-pejano
 ms.reviewer: v-pejano
 ms.author: v-pejano
-ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Advance Payments, Localization
 ms.date: 09/17/2025

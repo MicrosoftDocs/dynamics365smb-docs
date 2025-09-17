@@ -1,11 +1,11 @@
 ---
 title: Create an advance letter 
-description: This section describes how to manually create an advance invoice using the Czech Advance Payments Localization extension.  
+description: This article describes how to manually create an advance invoice using Advance Payments in the Czech version.  
 author: v-pejano  
 ms.reviewer: v-pejano  
 ms.author: v-pejano  
 ms.service: dynamics365-business-central  
-ms.topic: article  
+ms.topic: how-to  
 ms.search.keywords: Czech, Advance Payments, Localization  
 ms.date: 09/17/2025
 ms.custom: bap-template  
@@ -28,7 +28,7 @@ To create an advance letter manually, follow these steps:
    > [!NOTE]
    > Releasing the document creates an **Initial Entry** in the advance entries, with the posting date from the document’s posting date and the full advance amount.  
    >
-   > This initial entry doesn't affect accounting impact. It's used solely to track the remaining amount available for payment.
+   > This initial entry doesn't affect accounting. It just tracks the remaining amount available for payment.
 
 9. You can print the advance invoice using the **Report – Advance Letter** action, or generate a PDF attachment using the **Report – Attach as PDF** action.
 10. If you need to modify the advance letter, you can reopen it using the **Reopen** action. This sets the status back to **New** and allows editing. A negative **Initial Entry** is automatically created to reverse the previous entry.

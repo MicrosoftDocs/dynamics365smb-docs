@@ -4,8 +4,7 @@ description: This section describes advance payments localization for the Czech 
 author: v-pejano
 ms.reviewer: v-pejano
 ms.author: v-pejano
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: how-to
 ms.search.keywords: Czech, Advance Payments, Localization
 ms.date: 09/17/2025
 ms.custom: bap-template
@@ -16,6 +15,7 @@ ms.custom: bap-template
 The Advance Payments application works with foreign currencies (FCY). However, you must use a unified currency throughout the entire process. For example, you must post the advance, payment, invoice, and closing in the same currency.
 
 > [!NOTE]
+>
 > - Advance entries are always recorded in both foreign and local currencies.
 > - If automatic creation of an advance VAT document is set for a sales advance, VAT is automatically posted using the exchange rate used for the advance payment. For manually created VAT documents in purchase advances, the payment exchange rate is pre-filled.
 > - If the exchange rate differs between the payment and the final invoice, a new entry of type **VAT Rate** is created in the advance entries to align the total advance amount, base, and VAT amount in the local currency.

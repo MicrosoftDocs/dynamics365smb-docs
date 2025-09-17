@@ -1,19 +1,18 @@
 ---
-title: Closing advance letters
-description: This section describes Advance Payments Localization for the Czech extension.
+title: Close advance letters
+description: This article describes how to close advance letters for Advance Payments in the Czech version.
 author: v-pejano
 ms.reviewer: v-pejano
 ms.author: v-pejano
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: how-to
 ms.search.keywords: Czech, Advance Payments, Localization
 ms.date: 09/17/2025
 ms.custom: bap-template
 ---
 
-# Closing an advance letter
+# Close an advance letter
 
-If you don't draw or fully utilize an unpaid advance letter, you can close it. The function for closing the advance is available from the **Sales Advance Letters** or **Purchase Advance Letter** pages by using the **Close Advance Letter** action. You don't close advances  from the advance history entries.
+If you don't draw or fully utilize an unpaid advance letter, you can close it. The function for closing the advance is available from the **Sales Advance Letters** or **Purchase Advance Letter** pages by using the **Close Advance Letter** action. You don't close advances from the advance history entries.
 
 To close an advance, follow these steps:
 
@@ -24,7 +23,7 @@ To close an advance, follow these steps:
 
 The unused part of the advance transfers to the customer's balance as an open customer ledger entry.  
 
-When closing the advance, a negative **Initial Entry** is automatically created so that the remaining payable amount of the advance is zero (initial original entry minus payments plus closing amount).
+When you close the advance, a negative **Initial Entry** is automatically created so that the remaining payable amount of the advance is zero (initial original entry minus payments plus closing amount).
 
 ## Related information
 

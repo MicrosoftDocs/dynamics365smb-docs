@@ -4,7 +4,7 @@ description: This article gives an overview of the reordering policies you can u
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -355,7 +355,7 @@ Because the supply order quantity is based on the actual demand, it can make sen
 * Increase the order to a specified minimum order quantity
 * Decrease the quantity to the specified maximum quantity (and thus create two or more supplies to reach the total needed quantity)
 
-## See Also  
+## Related information  
 
 [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  

@@ -4,7 +4,7 @@ description: The Power BI Finance app provides comprehensive finance analytics t
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: reporting
 ms.search.form: 37059_Primary, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993,36994, 36995, 36996, 36997
 ms.date: 10/30/2024
@@ -86,7 +86,7 @@ For the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.
 
 To learn more, go to [Setting up the Power BI finance app](finance-powerbi-app-setup.md).
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Setting up the Power BI finance app](finance-powerbi-app-setup.md)  

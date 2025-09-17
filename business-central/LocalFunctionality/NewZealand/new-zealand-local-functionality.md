@@ -1,10 +1,10 @@
 ---
 title: New Zealand local functionality
-description: The following articles describe the local functionality in the New Zealand version of Business Central.
+description: These articles describe the local functionality in the New Zealand version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: New Zealand, local functionality
-ms.date: 09/04/2024
+ms.date: 07/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -53,12 +53,12 @@ The following articles describe local functionality that is unique to the New Ze
 
 ## Future legislation requirements being investigated
 
-- ANZ Peppol format for E-Documents **Planned for 2025 release wave 1**  
-- Payment Times Reporting Bill Compliance **Planned for 2025 release wave 1**  
+- Investment Boost Deduction for Fixed Assets **Planned for 2026 release wave 1**  
+- Payment Times Reporting Bill Compliance **Planned for 2026 release wave 1**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
 - [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)

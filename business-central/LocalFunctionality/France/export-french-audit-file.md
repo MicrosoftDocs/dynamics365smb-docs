@@ -2,7 +2,7 @@
 title: Export entries for tax audits
 description: This article describes how to prepare and export audit files to comply with the specified tax regulations in France.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: export audit files, French tax regulations, French version, tax audits
 ms.search.form: 

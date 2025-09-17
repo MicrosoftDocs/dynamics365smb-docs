@@ -2,7 +2,7 @@
 title: Create bins
 description: Generate groups of similar bins in the bin creation worksheet, create bins individually on the location card, or automatically on the Bin Creation Worksheet. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 12/13/2023
@@ -16,7 +16,7 @@ The most effective way to create the bins of your warehouse is to generate group
 
 ## To create a bin from the location card
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and choose the related link.  
 2.  Select the location that you want to create a bin from, and then choose the **Bins** action.  
 3. Choose the **New** action.
 4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -36,7 +36,7 @@ A work center is set up with a bin code in the **To-Production Bin Code** field.
 
 ## To create bins individually in the bin creation worksheet
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Bin Creation Worksheet**, and choose the related link.  
 2.  Fill in on each line the fields that are necessary to name and characterize the bins you're creating.  
 3.  Choose the **Create Bins** action.  
 
@@ -49,7 +49,7 @@ Before you start creating bins automatically, you should determine the kind of b
 
 To work with the **Bin Creation Worksheet** page, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Bin Creation Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bins** action.
 3. On the **Calculate Bins** page, in the **Bin Template Code** field, select the bin template that you want to use as the model for the bins you're creating.
 4.  Fill in a description for the bins you are in the process of creating.  
@@ -70,7 +70,7 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 Repeat the process for another set of bins until you create all the bins in your warehouse.  
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  

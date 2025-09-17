@@ -2,7 +2,7 @@
 title: Belgian Electronic Banking
 description: Electronic banking enables quick and error-free data exchange with Belgian financial institutions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Belgian version, electronic banking, domiciliation, electronic banking setup, CODA
 ms.search.form: 11308

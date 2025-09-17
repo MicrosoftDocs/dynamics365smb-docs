@@ -4,7 +4,7 @@ description: Learn about the demand forecasting features, and how you can create
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 9245, 99000919, 99000921, 99000922
 ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
@@ -88,7 +88,7 @@ Then, you create a sales order with a quantity of 12 on location WEST. The plann
 
 ## To create a demand forecast
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Demand Forecast**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Demand Forecast**, and then choose the related link.  
 2. On the **General** FastTab, select a forecast in the **Demand Forecast Name** field. Multiple forecasts can exist and are differentiated by name and forecast type.  
 3. In the **Location Filter** field, select the location to which this forecast will apply.
 4. In the **View by** field to change the period that is displayed in each column. You can select from the following intervals: **Day**, **Week**, **Month**, **Quarter**, **Year**, or the **Accounting Period** as set up in your finance area.
@@ -104,7 +104,7 @@ Then, you create a sales order with a quantity of 12 on location WEST. The plann
 > [!NOTE]  
 > You can also edit an existing forecast. On the **Demand Forecast Matrix** page, choose the **Copy Demand Forecast** action and populate the **Demand Forecast** page with an existing forecast. You can then edit quantities as appropriate.  
 
-## See also
+## Related information
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)

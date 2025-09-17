@@ -1,13 +1,13 @@
 ---
 title: Inventory and warehouse reports and analytics
-description: See which inventory and warehouse reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
+description: Explore the inventory and warehouse reports and analytics that are available in the standard version of Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_704, Report_707, Report_711, Report_713, Report_716, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
-ms.date: 08/15/2024
+ms.date: 06/12/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -50,7 +50,7 @@ You can use the **Print Label** action to print 1D and 2D barcodes from the page
 >
 > Check with your equipment supplier to learn how to print Word documents on your device.  
 
-## See also
+## Related information
 
 [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  

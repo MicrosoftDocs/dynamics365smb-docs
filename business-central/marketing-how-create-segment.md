@@ -4,7 +4,7 @@ description: Describes how to create a segment for a group of contacts in Busine
 author: jswymer
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.form: 5091, 5093
@@ -18,7 +18,7 @@ ms.reviewer: jswymer
 You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.
 
 ## To create a segment
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Segments**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **General** section, in the **No.** field, enter a number for the segment.
 
@@ -27,7 +27,7 @@ You can create segments to select a group of contacts, for example, if you want 
 
 You can now add contacts to the segment. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
-## See Also
+## Related information
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

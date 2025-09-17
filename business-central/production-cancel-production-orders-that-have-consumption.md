@@ -4,7 +4,7 @@ description: Learn how to revert consumption or output transactions, return unus
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/08/2025
 ms.service: dynamics-365-business-central

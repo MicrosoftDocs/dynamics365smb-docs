@@ -2,7 +2,7 @@
 title: Create production orders
 description: You can create a production order manually, and the first step is to create a production order header.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 02/25/2025
 ms.author: bholtorf
@@ -16,7 +16,7 @@ Typically, businesses use the planning engine to create production orders automa
 
 ## To create a production order header
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Firm Planned Prod. Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **No.** field, add the next number in the number series you use for production orders.  
 4. In the **Source Type** field, select the source of the production order:

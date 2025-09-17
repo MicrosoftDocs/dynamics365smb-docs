@@ -2,7 +2,7 @@
 title: Print balance sheet reports [AU]
 description: Use the Balance Sheet report to view the company's balance sheet in the Australian version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: balance sheet, balance sheet report, Australian version
 ms.date: 03/26/2025

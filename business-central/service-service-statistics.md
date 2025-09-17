@@ -2,7 +2,7 @@
 title: Service Statistics
 description: Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021
@@ -78,7 +78,7 @@ A contract gain or loss entry is generated when a contract quote is converted to
 |**Contract Gain/Loss (Reasons)**|To view the contract gain/loss by reason code.|  
 |**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility center.|  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter the name of the page to display, and then choose the related link.  
 2. Fill in the filter criteria you want to apply. For example, on the **Contract Gain/Loss (Reasons)** page, choose a value for **Reason Code Filter**.  
 3. Choose the **Show Matrix** action.
 
@@ -102,7 +102,7 @@ You can use the **Service Credit Memo Statistics** page to get a statistical ove
 * The total amounts on the posted credit memo, displayed as quantity, amount, VAT, cost and profit. There is also information about the items on the service lines of the posted credit memo, such as quantity, weight, and volume.  
 * General information about the customer, such as the customer's credit limit and balance on the account.  
 
-## See Also  
+## Related information  
 [Create Service Orders](service-how-to-create-service-orders.md)   
 [Create Service Items](service-how-to-create-service-items.md)   
 [Planning Service](service-plan-service.md)  

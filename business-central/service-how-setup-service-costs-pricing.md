@@ -2,7 +2,7 @@
 title: Set Up Pricing and Costs for Services
 description: Learn how to use pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs and orders.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service, cost, service order
 ms.date: 06/25/2021
@@ -20,7 +20,7 @@ As your implementation requires, you can set up pricing groups and map them to s
 ## To set up a service price group
 You can set up groups containing service items that you want to receive the same special service pricing. You assign service price groups to service items on service item lines. You can also assign service price groups to service item groups.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Price Groups**, and then choose the related link.  
 2. Create a new service price group.  
 3. Fill in the **Code** and **Description** fields.  
 4. Choose the **Setup** action.  
@@ -32,7 +32,7 @@ You can set up groups containing service items that you want to receive the same
 ## To set up a service price adjustment group  
 You can set up price adjustment groups to adjust service pricing of service items. For example, you can set up price adjustment groups that adjust price of freight or spare parts.  
   
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Adjustment Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Price Adjustment Groups**, and then choose the related link.  
 2. Create a new service price adjustment group.  
 3. Fill in the **Code** and **Description** fields.  
 4. In the **Type** field, enter the type of the entry that you want to adjust.  
@@ -50,14 +50,14 @@ You can set up price adjustment groups to adjust service pricing of service item
 When you work with service items and service orders, you may need to register additional costs, such as travel costs to particular service zones or starting fees. When you create a service order, you can insert these costs and a line with the type **Cost** will be added to the order. Alternatively, if you want to apply the cost to all service orders, you can set up a default cost. For example, if you always want to apply a starting fee.
   
 ### To set up service costs
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Costs**, and then choose the related link. 
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Costs**, and then choose the related link. 
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### To specify a default cost for service orders
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Setup**, and then choose the related link. 
 2. In the **Service Order Starting Fee** field, choose the appropriate service cost.
 
-## See Also
+## Related information
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/13/2025
+ms.date: 08/26/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Prepare financial reporting with financial data and account categories
 
-The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the Cash Flow chart, and the Income Statement and Balance Sheet reports. You access these two reports, for example, with the **Financial Statements** action in the Business Manager and Accountant home pages.  
+The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the Cash Flow chart, and the built-in Income Statement and Balance Sheet reports. You access these two reports, for example, with the **Financial Statements** action in the Business Manager and Accountant home pages.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away as templates. You can also set up your own reports to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of financial reports you can create is unlimited and require no involvement of a developer.  
 
@@ -31,6 +31,10 @@ Setting up dimensions allows you to slice and dice your financial data in ways t
 
 If you want to view general ledger entries as percentages of budget entries, you must create G/L budgets. Learn more at [Create G/L Budgets](finance-how-create-budgets.md).
 
+## Report selection for built-in finance reports
+
+[!INCLUDE[prod_short](includes/prod_short.md)] provides built-in Balance Sheet, Income Statement, Cash Flow, and Retained Earnings reports. The **Financial Reporting** feature defines the data and layouts for these reports. You can replace the standard layouts provided in [!INCLUDE[prod_short](includes/prod_short.md)] with your own. Learn more at [Report selection for finance reports](finance-financial-reporting-report-selection.md).
+
 ## Financial reports
 
 Financial reports arrange accounts from your chart of accounts in ways that make data easier to present. You can set up various layouts to define the information you want to extract from the chart of accounts. Financial reports also provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. Another example is to calculate profit margins on dimensions such as departments or customer groups. Additionally, you can filter general ledger entries and budget entries, for example, by net change or debit amount.
@@ -41,7 +45,7 @@ Financial reports arrange accounts from your chart of accounts in ways that make
 > - A vector of row definitions that define what needs to be calculated.
 > - A vector of column definitions that defines the data for the calculation.
 >
-> The financial report is then the outer product of these two vectors, where each cell value is calculated according to the formula in the row applied to the data definition from the column.
+> The financial report is then the outer product of these two vectors. The value in each cell is calculated by applying the formula in the row applied to the data definition from the column.
 
 :::image type="content" source="media/financial-report-definition.svg" alt-text="Shows how a financial report is constructed from a row definition and a column definition." lightbox="media/financial-report-definition.svg":::
 
@@ -56,7 +60,7 @@ The **Financial Reports** page shows how all financial reports follow a pattern 
 :::image type="content" source="media/financial-reports.png" alt-text="Shows how all financial reports are constructed from a row definition and a column definition." lightbox="media/financial-reports.png":::
 
 > [!NOTE]
-> The sample finance reports in [!INCLUDE[prod_short](includes/prod_short.md)] aren't ready to use out of the box. Depending of the way you set up your G/L accounts, dimensions, G/L account categories, and budgets, you need to adjust the sample row and column definitions and the finance reports they're used in to match your setup.
+> The sample finance reports in [!INCLUDE[prod_short](includes/prod_short.md)] aren't ready to use out of the box. Depending on how you set up your G/L accounts, dimensions, G/L account categories, and budgets, you need to adjust the sample row and column definitions and the finance reports they're used in to match your setup.
 
 You can also use formulas to compare two or more financial reports and column definitions. Comparisons let can do the following things:
 
@@ -68,7 +72,7 @@ To learn more about comparisons, go to [When to use a comparison period formula 
 
 ## Learning path: Create financial reports in Microsoft Dynamics 365 Business Central
 
-Want to learn how to create budgets, and then use financial reports, dimensions, and row and column definitions to generate the financial reports that businesses typically need?
+Want to learn how to create budgets and use financial reports, dimensions, and row and column definitions to generate financial reports that businesses often need?
 
 Start on the following learning path [Create financial reports in Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central).
 
@@ -107,6 +111,16 @@ If you want the report output to include an introductory and/or a closing paragr
 [!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
 
 If you want to control how negative numbers show in the report output (both on-screen and in PDF), you use the **Negative Amount Format** action on the **Options** FastTab to choose your preferred format. The format can be a minus sign or parentheses.
+
+### Show amounts in an additional currency (ACY)
+
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. If you designate a second currency as an additional reporting currency (ACY), [!INCLUDE[prod_short](includes/prod_short.md)] automatically records amounts in both LCY and ACY on each G/L entry.
+
+Financial reports are based on G/L entries. To display report data in the additional reporting currency, select the **Show Amounts in Add. Reporting Currency** checkbox on the **Options** FastTab for the relevant report.
+
+> [!NOTE]
+> The **Show Amounts in Add. Reporting Currency** checkbox is only available if you set up an additional reporting currency (ACY).
+To learn more, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ### Create or edit a row definition
 
@@ -162,7 +176,7 @@ Financial report definitions aren't versioned. When you change a report definiti
 You can import and export financial report definitions as RapidStart configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
-> When you import financial report definitions, existing records with the same names as those you are importing are replaced with the new definitions. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.
+> When you import financial report definitions, the new definitions replace existing records with the same names. The configuration package for a report definition won't overwrite any existing row or column definitions that the report definition uses.
 
 To import or export financial report definitions, follow these steps:
 
@@ -187,9 +201,8 @@ You can print financial reports using your device's printing services. [!INCLUDE
 To learn more, go to [How to print and save financial reports](./finance-financial-reporting-view-a-report.md#print-and-save-financial-reports).
 
 ## Related information
-<!-- 
-2025w1: add link to administrator article for Financial Report Lifecycle telemetry 
--->
+
+[Report selection for finance reports](finance-financial-reporting-report-selection.md)   
 [View a financial report](finance-financial-reporting-view-a-report.md)  
 [Row definitions in financial reporting](bi-row-definitions.md)  
 [Column definitions in financial reporting](bi-column-definitions.md)  

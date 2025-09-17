@@ -2,7 +2,7 @@
 title: How to Set Up Electronic Document Sending and Receiving | Microsoft Docs
 description: As an alternative to emailing as file attachments, you can send and receive business documents electronically.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -140,7 +140,7 @@ The topic contains the following procedures:
     |---------------------------------|---------------------------------------|  
     |**G/L Account for Non-Item Lines**|Specifies the G/L account that is automatically inserted on purchase lines that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor's item number will be converted to a purchase line of type **G/L Account**, and the **No.** field on the purchase line will contain the account that you select in the **G/L Account for Non-Item Lines** field.<br /><br /> If you leave the **G/L Account for Non-Item Lines** field blank, and the incoming document has lines without identifiable items, then the purchase document will not be created. An error message will instruct you to fill the **G/L Account for Non-Item Lines** field before you can complete the task.|  
 
-## See Also  
+## Related information  
 [Exchanging Data Electronically](across-data-exchange.md)   
 [Invoice Sales](sales-how-invoice-sales.md)   
 [Record Purchases](purchasing-how-record-purchases.md)

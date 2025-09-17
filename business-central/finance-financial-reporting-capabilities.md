@@ -4,10 +4,10 @@ description: This article provides an overview of what you can do with financial
 author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: finace, reporting, business intelligence, BI
-ms.search.form: 
+ms.search.form: 108_Primary
 ms.date: 09/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -59,7 +59,7 @@ Financial reporting doesn't require that you know how to code. Finance professio
 * The basic differences between balance sheet and income statement accounts.
 * Basic formulas.
 
-## See also
+## Related information
 
 [Prepare financial reporting with financial data and account categories](bi-how-work-account-schedule.md)  
 [Design your own financial reports](bi-design-financial-reports.md)  

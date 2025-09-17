@@ -2,7 +2,7 @@
 title: Reconcile inventory costs with the general ledger
 description: At the end of accounting periods a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: warehouse, stock
 ms.search.form: 9297,
@@ -23,7 +23,7 @@ Unless you have selected the **Automatic Cost Posting** check box in the **Inven
 
 ## To post inventory costs manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Post Inventory Cost to G/L**, and then choose the related link.
 
 2. Post inventory costs to the general ledger manually by running the batch job. When you run this batch job, general ledger entries are created on the basis of value entries. To calculate the value to post, it uses the difference between the **Cost Amount (Actual)** field and the **Cost Posted to G/L** field in the value entries. If you have selected the **Expected Cost Posting to G/L** checkbox on the **Inventory Setup** page, the batch job also posts the difference between the **Cost Amount (Expected)** field and the **Exp. Cost Posted to G/L** field to interim accounts in the general ledger. You can post the entries so that they are summarized per posting group.
 
@@ -87,7 +87,7 @@ The following table describes them.
 |View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
 |Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
 
-## See also  
+## Related information  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Purchasing](purchasing-manage-purchasing.md)    
 [Sales](sales-manage-sales.md)    

@@ -4,7 +4,7 @@ description: Learn how to use e-documents functionality that is related to sales
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, sales, deliver
 ms.search.form: 42, 43, 132, 6103, 6133, 6121, 9301, 9305
 ms.date: 03/18/2025

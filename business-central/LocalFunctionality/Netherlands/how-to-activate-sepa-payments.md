@@ -2,7 +2,7 @@
 title: Activate SEPA payments in the Dutch version
 description: To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: submit vendor payments, SEPA, enable SEPA payments, electronic vendor payments, Dutch version, Netherlands
 ms.date: 03/17/2025

@@ -2,7 +2,7 @@
 title: Making Tax Digital - Submitting VAT Returns
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: making tax digital, VAT, HMRC
 ms.search.form: 743, 10530, 10531, 10532, 10537, 10538, 10539, 
 ms.date: 02/20/2025
@@ -179,7 +179,7 @@ Due to a limitation at HMRC, it isn't possible to send test submissions of VAT R
 
 Some online documentation at HMRC uses the term *Sandbox*. A sandbox is an environment that software developers, such as Microsoft and others, can use to test features during development. This environment isn't intended for customer testing, and it isn't related to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
 
-## See also
+## Related information
 
 - [Send Fraud Prevention Data](fraud-prevention-data.md)  
 - [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

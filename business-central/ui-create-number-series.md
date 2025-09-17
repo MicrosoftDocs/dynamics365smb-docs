@@ -4,7 +4,7 @@ description: Learn how to set up number series that assign unique ID codes to ac
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: numbers, numbering
 ms.search.form: 456_Primary, 457_Primary, 458_Primary, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 09/20/2024
@@ -66,7 +66,7 @@ When you open a new document or card that a number series exists for, the **No. 
 
 ## To create a new number series
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **No. Series**, and then choose the related link.
 2. Choose the **New** action.  
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **Lines** action.  
@@ -82,7 +82,7 @@ You can assign number series to the templates that you set up for the different 
 
 If you set up more than one number series for the same kind of information or transactions, you can create relationships between the series. This feature can help you decide among the codes when you use a number. When you set up a relationship between a group of number series, you associate all of the related series to one number series. Then, you can enter that code in a field on the **Numbering** FastTab on setup pages, such as **Sales & Receivables Setup**.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **No. Series**, and then choose the related link.
 2. Select the line with the number series you want to create relationships for and then choose **Relationships**.
 3. In the **Series Code** field, enter the code for the number series that you want to relate to the series you selected in step 2.
 4. Add a line for each code that you want to relate to the selected number series.
@@ -94,12 +94,12 @@ Now when you set up something that requires a number, you can use the relationsh
 
 The following procedure shows how to set up number series for the Sales area. The steps are similar for other areas.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales & Receivables**, and then choose the related link.
 2. On the **Sales & Receivables** page, on the **Number Series** FastTab, select the desired number series for each sales card or document.
 
 The selected number now fills in the **No.** field on the card or document according to your settings.  
 
-## See also
+## Related information
 
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

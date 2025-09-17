@@ -31,7 +31,7 @@ The report helps leadership and management teams track actual spending on purcha
 
 CEOs can use the report to keep track of purchasing activities. This report gives a clear picture of your total purchase amount, outstanding liabilities, and invoiced purchases. By analyzing purchase quantities by location and item category, and reviewing vendor information, you can gain valuable insights into your financial performance. With this information, you can make informed decisions about budget management and vendor relationships.
 
-Purchasing managers can identify where you might be overspending or underspending. For example, you might notice that your organization spent a lot on a specific item category, but the quantity of purchases was lower than expected. You might review vendor contracts, find alternative vendors with better prices, or negotiate better terms with existing vendors. By taking these actions, you can optimize purchasing activities, reduce costs, and comply with the overall budget.
+Purchasing managers can identify where you might be overspending or underspending. For example, you might notice that your organization spent a lot on a specific item category, but the quantity of purchases was lower than expected. You might review vendor subscription contracts, find alternative vendors with better prices, or negotiate better terms with existing vendors. By taking these actions, you can optimize purchasing activities, reduce costs, and comply with the overall budget.
 
 
 ## Key Performance Indicators (KPIs)
@@ -65,7 +65,7 @@ Try the report here: [Purchases Overview](https://businesscentral.dynamics.com?p
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

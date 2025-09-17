@@ -2,7 +2,7 @@
 title: How to set up export protocols [BE]
 description: Set up export protocols to define the file format for export payment history before using electronic banking.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: export protocols, define file format, export payment history, electronic banking, Belgian version
 ms.search.form: 2000005

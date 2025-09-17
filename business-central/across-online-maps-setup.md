@@ -3,7 +3,7 @@ title: Set Up Online Maps
 description: Learn how to configure Business Central to offer directions and location information with an online map service.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: how-to
 ms.search.form: 800, 804
 ms.date: 07/15/2022
 ms.author: bholtorf
@@ -28,7 +28,7 @@ To customize the online map feature beyond the options listed on the **Online Ma
 3. Fill in the fields to customize how [!INCLUDE[prod_short](includes/prod_short.md)] will generate the URLs for the available services. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
    * Refer to the **Online Map Substitution Parameter** list on the **FactBox** pane for the data available to generate URLs.
 
-## See also
+## Related information
 
 [Use Online Maps to Find Locations and Directions](across-online-maps.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

@@ -4,7 +4,7 @@ description: A Work Center card organizes the fixed values and requirements of t
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 06/13/2024
@@ -28,7 +28,7 @@ The planned capacity of a work center consists of the availability of the corres
 
 The following steps describe how to set up a work center. The steps to set up a machine center calendar are similar, except for the **Routing Setup** FastTab.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Work Centers**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Work Center Group Code** field, select the higher-level resource grouping that the work center is organized under, if relevant. Choose the **New** action in the drop-down list.  
@@ -171,7 +171,7 @@ On the **Capacity Constrained Resources** page, you can create a setup to preven
 
 When you plan with capacity-constrained resources, [!INCLUDE [prod_short](includes/prod_short.md)] ensures that resources aren't loaded above their capacity (critical load). It assigns each operation to the nearest available time slot. If the time slot isn't large enough to complete the entire operation, the operation is split into two or more parts in the nearest available time slots.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Constrained Resources**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Capacity Constrained Resources**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
 
@@ -180,7 +180,7 @@ When you plan with capacity-constrained resources, [!INCLUDE [prod_short](includ
 
 > In case of operation splitting, the setup time is only assigned one time because it's assumed that some manual adjustment is done to optimize the schedule.
 
-## See also
+## Related information
 
 [Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

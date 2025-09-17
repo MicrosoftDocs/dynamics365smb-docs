@@ -2,7 +2,7 @@
 title: Block vendors
 description: Read about how to block vendors from being included in any transactions, or just how to block new payments to them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 27,
@@ -26,7 +26,7 @@ The following table describes the options for blocking vendors.
 
 ## To block a vendor
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then choose the related link.
 2. Select the vendor that you want to block.
 3. In the **Blocked** field, choose one of the options for blocking.
 

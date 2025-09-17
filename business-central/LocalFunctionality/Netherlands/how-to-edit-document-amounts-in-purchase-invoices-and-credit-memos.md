@@ -2,7 +2,7 @@
 title: Edit Doc Amounts Purch Invoices Credit Memos
 description: In the Dutch version of Business Central, you can quickly edit amounts in purchase invoices and credit memos.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: purchase invoices, edit credit memos, document amounts, Dutch version, Netherlands
 ms.date: 03/17/2025

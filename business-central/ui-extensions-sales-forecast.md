@@ -2,7 +2,7 @@
 title: Using the Sales and Inventory Forecast extension to manage inventory
 description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853, 
@@ -51,7 +51,7 @@ Before is uses the web service, [!INCLUDE[prod_short](includes/prod_short.md)] c
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you must create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
 2. Expand the **General** FastTab, and then fill in the API URL and API key fields.
 
 > [!NOTE]
@@ -65,7 +65,7 @@ Regarding throughput, we estimate that [!INCLUDE [prod_short](includes/prod_shor
 
 The Sales and Inventory Forecast extension doesn't support filtering, means you can't split items into separate batches.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  

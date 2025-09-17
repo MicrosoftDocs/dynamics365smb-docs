@@ -43,7 +43,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, doesn't fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Predict when payments will be late for sales documents. | [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md) |
 
-## See also
+## Related information
 
 [Accounts receivable analytics](receivables-reports.md)   
 [Sales](sales-manage-sales.md)  

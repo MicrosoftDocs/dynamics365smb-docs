@@ -2,7 +2,7 @@
 title: Export General Ledger Entries Tax Audits [FR]
 description: Learn how to export general ledger entries to a text file for a tax audit.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: tax audit, audit file, tax audit file, export general ledger entries, French version
 ms.date: 04/15/2025
@@ -26,11 +26,13 @@ If you don't close your fiscal year or don't run the **Close Year** action befor
 > - JournalLib = BALANCE OUVERTURE  
 > - EcritureNum = 0  
 > - EcritureLib = Accounts prefixed with BAL OUV  
-> - ValidDate = Start date specified on the report's request page  
+> - ValidDate = Start date specified on the report's request page
+
 > [!NOTE]  
 > Before exporting general ledger entries, make sure you have marked G/L Accounts to be detailed when exporting opening balances. This is usually a requirement for bank, customer, and vendor G/L Accounts. This is done by enabling the checkbox in the field **Detailed Balance** on the **G/L Account Card** page.
 
 ## Export general ledger entries to a text file for a tax audit
+>>>>>>> main
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export G/L Entries – Tax Audit**, and then choose the relevant link.  
 1. On the **Export G/L Entries – Tax Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  

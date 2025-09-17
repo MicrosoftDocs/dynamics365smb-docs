@@ -2,7 +2,7 @@
 title: Payment Management [FR]
 description: Learn how to use the payment management function to manage bills of exchange, electronic payments, and vendor payments in the French version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: payment management function, payment management, payment class, payment, step, payment status, payment address, archive payment slip, French version
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880

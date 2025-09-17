@@ -2,7 +2,7 @@
 title: Set Up Bank Data Conversion
 description: You can set up bank accounts to keep track of transactions and import or export bank feeds, such as Yodlee.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
@@ -26,7 +26,7 @@ To import or export bank files, you must set up your own bank account and your v
 > The AMC Banking 365 Fundamentals extension may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded. It is recommended that bank statement files do not exceed 1000 lines as the processing time in the AMC Banking 365 Fundamentals extension may otherwise increase significantly.
 
 ## To sign your company up for the AMC Banking 365 Fundamentals extension
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Data Conv. Service Setup**, and then choose the related link.  
 2. The **Bank Data Conv. Service Setup** page opens with three fields prefilled with relevant URLs of the provider of AMC Banking 365 Fundamentals extension.
 
     > [!NOTE]  
@@ -43,7 +43,7 @@ To import or export bank files, you must set up your own bank account and your v
 > You login data is automatically encrypted.
 
 ## To view or update the list of currently supported bank data formats
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup** , and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Data Conv. Service Setup** , and then choose the related link.
 2. On the **Bank Data Conv. Service Setup** page, choose the **Bank Name - Data Conversion List** action to open the list of bank names representing bank data formats that are supported by the conversion service.
 3. On the **Bank Name - Data Conversion List** page, choose the **Update Bank Name List** action.
 
@@ -54,7 +54,7 @@ The list of bank data formats that are supported by the AMC Banking 365 Fundamen
 
 You have now signed up for the AMC Banking 365 Fundamentals extension. Proceed to reflect the sign-up information on every bank account that will use the service.
 
-## See Also
+## Related information
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

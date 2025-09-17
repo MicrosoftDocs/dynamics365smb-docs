@@ -2,7 +2,7 @@
 title: Data ownership models for synchronization
 description: Companies are both a legal and business constructs, and they are used to secure and visualize business data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
@@ -22,11 +22,11 @@ Because business units lack legal and business implications, you cannot force a 
 
 * We create a company table that is equivalent to the company table in [!INCLUDE[prod_short](includes/prod_short.md)]. The name of the company is suffixed with "BC Company ID." For example, Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * We create a default business unit that has the same name as the company. For example, Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
-* We create separate owner team with the same name as the company and associate it with the business unit. The name of the team is prefixed with "BCI -." For example, BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
+* We create a separate owner team with the same name as the company and associate it with the business unit. The name of the team is prefixed with "BCI -." For example, BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Records that are created and synchronized to [!INCLUDE[prod_short](includes/cds_long_md.md)] are assigned to the "BCI Owner" team that is linked to the business unit.
 
 > [!NOTE]
-> If you rename a company in [!INCLUDE[prod_short](includes/prod_short.md)], the names of the company, business, and team that we create automatically in [!INCLUDE[prod_short](includes/cds_long_md.md)] are not updated. Because only the company ID is used for integration, this does not affect synchronization. If you want the names to match you must update the company, business unit, and team in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+> If you rename a company in [!INCLUDE[prod_short](includes/prod_short.md)], the names of the company, business unit, and team that we create automatically in [!INCLUDE[prod_short](includes/cds_long_md.md)] are not updated. Because only the company ID is used for integration, this does not affect synchronization. If you want the names to match you must update the company, business unit, and team in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 The following image shows an example of this data setup in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -42,9 +42,9 @@ However, the 1:1 mapping between business unit, company, and team is just a star
 
 ![The security role controls data visibility.](media/cds_bu_team_company_2.png)
 
-In this example, a new EUR (Europe) root business unit is created in [!INCLUDE[prod_short](includes/cds_long_md.md)] as the parent for both Cronus DE (Gernamy) and Cronus ES (Spain). The EUR business unit is not related to synchronization. However, it can give members of the EUR Sales team access to account data in both Cronus DE and Cronus ES by setting the data visibility to **Parent/Child BU** on the associated security role in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+In this example, a new EUR (Europe) root business unit is created in [!INCLUDE[prod_short](includes/cds_long_md.md)] as the parent for both Cronus DE (Germany) and Cronus ES (Spain). The EUR business unit is not related to synchronization. However, it can give members of the EUR Sales team access to account data in both Cronus DE and Cronus ES by setting the data visibility to **Parent/Child BU** on the associated security role in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the BCI row. When a BCI record is enabled for synchronization we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronization is enabled for an table, administrators can change the owning team, but a team must always be assigned.
+Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the BCI row. When a BCI record is enabled for synchronization we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronization is enabled for a table, administrators can change the owning team, but a team must always be assigned.
 
 > [!NOTE]
 > Records become read-only after a company is added and saved, so be sure to choose the correct company.
@@ -63,7 +63,7 @@ The default business unit is used when the Person ownership model is chosen, and
 
 When you couple salespersons in [!INCLUDE[prod_short](includes/prod_short.md)] to users in [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)] will add the user to the default team in [!INCLUDE[prod_short](includes/cds_long_md.md)]. You can verify that users are added by looking at the **Default Team Member** column on the **Users - Common Data Service** page. If the user is not added, you can add them manually by using the **Add Coupled Users to Team** action. For more information, see [Synchronizing Data in Business Central with Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## See Also
+## Related information
 [About [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

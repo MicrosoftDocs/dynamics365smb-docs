@@ -18,14 +18,14 @@ When you receive an item that needs service, you can register it as a service it
 
 ## To create a service item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To create service items within a service order
 
 When you receive items for service that you want to register as service items, you can create them as service items in the **Service Order** or **Service Quote** pages.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Orders**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Create Service Item** action.  
 
@@ -37,7 +37,7 @@ When you ship items by posting either sales orders or sales invoices, the shippe
 
 The following procedure shows how to create service items when you ship items on sales orders.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Open the relevant sales order.  
 3. Choose the **Post** or **Post and Print** action.  
 4. Choose the **Ship** or **Ship and Invoice** action.  
@@ -50,7 +50,7 @@ The following procedure shows how to create service items when you ship items on
 
 ## To insert a starting fee for a service item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Tasks**, and then choose the related link.
 2. Choose the **Item Worksheet** action.
 3. Choose the service line, and then choose **Actions**, choose **Functions**, and then choose **Insert Starting Fee** action.  
 
@@ -114,7 +114,7 @@ This feature doesn't require additional setup. However, if you upgrade your [!IN
 - If you have items, item variants, or item templates where the **Sales Blocked** toggle is turned on, the **Service Blocked** field is also turned on for those records during upgrade. This ensures that the existing sales blocked logic also applies to service management transactions.
 - Data upgrades only if you have at least one service item in your company, which means you're using the service management functionality and need the data upgrade. If you don't have service items, the data upgrade is skipped and the **Service Blocked** toggle is turned off by default for all items, item variants, and item templates.
 
-## See also
+## Related information
 
 [Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
 [Setting Up Service Management](service-setup-service.md)  

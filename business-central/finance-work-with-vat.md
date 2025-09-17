@@ -4,7 +4,7 @@ description: This article describes the various ways of working with VAT both ma
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 05/29/2024
@@ -83,7 +83,7 @@ When you create new sales or purchase documents, the **VAT Date** is based on th
 
 If needed, you can change the VAT date posted documents. To change the date in the **VAT Date** field for posted documents, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link. 
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **VAT Entries**, and then choose the related link. 
 2. Find the entry with wrong VAT date.  
 3. Choose the **Edit list** action, and then enter the correct date in the **VAT Date** field.  
 4. When you close the page, the VAT date changes in related **G/L Entries** and in the posted document.  
@@ -148,15 +148,15 @@ Instead of using journals to post an import VAT invoice, you can use a purchase 
 
 1. Set up a vendor card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
 2. Create a **Gen. Product Posting Group** for the import VAT and set up an import VAT **Def. VAT Product Posting Group** for the related **Gen. Product Posting Group**.  
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+3. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.  
 4. Select the import VAT general ledger account, and then choose the **Edit** action.  
 5. On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import VAT. [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **VAT Prod. Posting Group** field.  
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
+6. [!INCLUDE[open-search](includes/open-search.md)], enter **General Posting Setup**, and then choose the related link.  
 7. Create a combination of the **Gen. Bus. Posting Group** for the VAT authority and the **Gen. Prod. Posting Group** for import VAT. For this combination, in the **Purchase Account** field, choose the import VAT general ledger account.  
 
 ### To create a new invoice for the import authority vendor after you complete the setup  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.  
 2. Create a new purchase invoice.  
 3. In the **Buy-from Vendor No.** field, choose the import authority vendor, and then choose the **OK** button.  
 4. In the purchase line, in the **Type** field, choose **G/L Account**, and in the **No.** field, choose the import VAT general ledger account.  
@@ -169,7 +169,7 @@ Instead of using journals to post an import VAT invoice, you can use a purchase 
 When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.  
 
 ### To view certificate of supply details  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose **Certificate of Supply Details**.  
 4. By default, if the **Certificate of Supply Required** check box is selected for VAT Posting Group setup for the customer, the **Status** field is set to **Required**. You can update the field to indicate whether the customer returned the certificate.  
@@ -189,7 +189,7 @@ When you sell goods to a customer in another EU country/region, you must send th
 
 ### To print a certificate of supply
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose the **Print Certificate of Supply** action.  
 
@@ -208,7 +208,7 @@ When you sell goods to a customer in another EU country/region, you must send th
 
 ### To update the status of a certificate of supply for a shipment  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. In the **Status** field, choose the relevant option.  
 
@@ -222,7 +222,7 @@ To view a group of certificates, start from the **Certificates of Supply** page,
 
 ### To update the status of a group of certificates of supply  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates of Supply**, and choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Certificates of Supply**, and choose the related link.  
 2. Filter the **Status** field to the value that you want in order to create the list of certificates that you want to manage.  
 3. To update the status information, choose **Edit List**.  
 4. In the **Status** field, choose the relevant option.  
@@ -237,7 +237,7 @@ To view a group of certificates, start from the **Certificates of Supply** page,
 > * To manually create a certificate of supply certificate  
 > * To print a certificate of supply.
 
-## See also
+## Related information
 
 [Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  

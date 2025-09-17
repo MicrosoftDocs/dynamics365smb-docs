@@ -2,7 +2,7 @@
 title: Create Payment Slips [FR]
 description: Learn ho to create payments slips to manage vendor and customer payments in the French version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create payment slips, vendor paymnt slip, French version
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880

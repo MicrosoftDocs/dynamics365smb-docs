@@ -1,8 +1,8 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 03/18/2025
-ms.topic: article
+ms.date: 07/14/2025
+ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
 ms.author: bholtorf
@@ -178,7 +178,7 @@ The following table outlines the effects of the **Barcode** field.
 
 Shopify's platform includes data models for fundamental commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform enables you to extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as a product or variant. The additional information stored in metafields can be almost anything related to a resource. Some examples are specifications, size charts, downloadable documents, release dates, images, or part numbers.
 
-You can import and export data stored in metafields. [!INCLUDE [prod_short](../includes/prod_short.md)] also provides an extensibility model that allows developers to map standard or custom fields, attributes, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
+You can import and export data stored in metafields. [!INCLUDE [prod_short](../includes/prod_short.md)]. Also, there's an extensibility model that allows developers to map standard or custom fields, attributes, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
 
 You can access and edit metafields on the **Shopify Metafields** page, which you open from the **Shopify Products** and **Shopify Variants** pages.
 
@@ -187,7 +187,12 @@ You can access and edit metafields on the **Shopify Metafields** page, which you
 > Further edits of records synchronize with Shopify during the next product synchronization.
 > You can't edit types that have AssistEdit functionality defined directly on the line.
 
+If standard metafields are defined, you can use the **Get Metafield Definitions** action to get the list from Shopify. All supported metafields are imported. You only need to update the values.
+
 #### Supported metafield content types
+
+> [!NOTE]
+> Metafields definitions with *List of values* aren't supported.
 
 **Date and time:**
 
@@ -221,9 +226,8 @@ You can access and edit metafields on the **Shopify Metafields** page, which you
 * File
 * Metaobject
 * Page
-
-> [!NOTE]
-> Company and Customer aren't supported.
+* Company
+* Customer
 
 **Other:**
 
@@ -231,8 +235,9 @@ You can access and edit metafields on the **Shopify Metafields** page, which you
 * Color
 * URL
 * Money
-* NOT SUPPORTED: Link
-* NOT SUPPORTED: Rating
+
+> [!NOTE]
+> Link and Rating aren't supported.
 
 **Advanced:**
 
@@ -283,7 +288,7 @@ Alternatively, you can sync one item by choosing the **Add to Shopify** action i
 > [!NOTE]  
 > Initial sync of items from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify doesn't consider **Sync Item** and **Can Update Shopify Products** settings. 
 
-### Adding item as variant to Shopify products
+### Adding an item as a variant to Shopify products
 
 If your products in Shopify have variants, but the list of items is flat on the [!INCLUDE [prod_short](../includes/prod_short.md)] side you can use the **Add item as Variant** action on the **Variants** FastTab of the **Shopify Products** page.
 
@@ -334,7 +339,7 @@ Synchronization of images can be configured for synchronized items. Choose from 
 * **To Shopify**: Images of items are exported to Shopify.
 * **From Shopify**: Images from Shopify are imported to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-Image synchronization can be initialized in the two ways described in the next sections in this article.
+You can start image synchronization in the ways described in the next sections in this article.
 
 ### Sync product images from the Shopify shop page
 
@@ -377,11 +382,12 @@ You can export prices for synchronized items in the ways described in the follow
 2. Choose the **Sync Prices to Shopify** action.
 
 > [!NOTE]
-> There are a few things to note about price calculations.
+> There are a few things to note about price calculations and synchronization.
 >
 > * When it determines a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. However, the lowest price logic ignores the unit price defined on the item card if a price is defined in the price group. This is true even if the unit price from the item card price is lower.
 > * To calculate prices, the connector creates a temporary sales quote for the item with a quantity of 1, and uses standard price calculation logic. Only prices and discounts that are applicable for quantity 1 are used. You can't export different prices or discounts based on quantity.
 > * The connector sends a request to update prices in Shopify if the price in [!INCLUDE[prod_short](../includes/prod_short.md)] changed. For example, if you synchronized products and prices and then changed a price in Shopify, choosing the **Sync Prices to Shopify** action doesn't affect the price in the Shopify because the new price calculated by the connector is the same as the price stored in the Shopify Variant from the previous sync. The **Compare at Price** is updated only if the main price changed.
+> * If there are 100 or more prices to be updated, the connector executes update asynchronously. You can check the status of the synchronization in the **Shopify Bulk Operations** page.
 
 ### Price synchronization for B2B
 
@@ -393,7 +399,13 @@ If you use Shopify B2B, you can configure the Connector to synchronize prices fo
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
-3. Select the entry for which to define and export prices, and then fill in the fields as necessary.
+
+You can only access catalogs linked to B2B companies. To learn more, go to [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't contain information about products. You manage catalog content in Shopify Admin.
+
+#### Sync prices for B2B Catalog
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
+2. Select the entry for which to define and export prices, and then fill in the fields as necessary.
 
    You can use two strategies. One is the default strategy, where you can use settings similar to the ones for synchronizing the **Price** and **Compare at Price** fields for Shopify products (Shopify variant). The following table describes settings for the default strategy.
 
@@ -405,19 +417,9 @@ If you use Shopify B2B, you can configure the Connector to synchronize prices fo
    |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. |
    |**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. This should be the group you use for domestic customers. |
 
-   The second strategy is to use the new **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
+   The second strategy is to use the **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
 
-4. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** to start synchronizing catalog prices.
-
-You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogs don't contain products. You manage catalog content in Shopify Admin.
-
-#### Sync prices for B2B Catalog
-
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
-2. Select the entry for which to define and export prices.
-3. Use the available settings to configure how to define prices. The settings are similar to ones used for synchronization of **Price** and **Compare at Price** fields in the Shopify Product (Shopify Variant).
-4. Turn on the **Sync Prices** toggle.
-5. Choose **Sync Prices**, and wait for synchronization to complete.
+3. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
 
 ## Sync inventory to Shopify
 
@@ -533,6 +535,9 @@ If the inventory level fails to sync with Shopify, try these checks.
 5. Go to the **Shopify Products** page, locate the specific product, and check the stock details in the **Shopify Inventory** FactBox. The FactBox gives an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. It also shows when when the specific inventory level was last synchronized. There's one record per location.
 6. Go to the **Shopify Log Entries** page, and check for entries with the **Has Error** enabled around the time the inventory level was synched (see previous step). To limit records, apply the **mutation inventorySetOnHandQuantities** filter to the **Request Preview** field. If such entries exist, open the **Shopify Log Entry** page and inspect the **Response Data** field. If there's a validation error on Shopify's side, the response includes the additional information in the **userErrors** section. To learn more about logging, go to [Logs](troubleshoot.md#logs).
 
-## See also
+## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)  
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  

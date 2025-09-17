@@ -2,7 +2,7 @@
 title: Register Employees and Modify Information
 description: Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
@@ -30,7 +30,7 @@ You can modify an employee's details at any time. Keeping employee records up-to
 
 ## To set up an employee
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Employees**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Employee Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -38,7 +38,7 @@ You can modify an employee's details at any time. Keeping employee records up-to
 
 If you have a picture of an employee, you can insert it on the employee card.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
 3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import**.
 4. On the **Select a picture to upload** page, then do one of the following steps to upload the picture file:
@@ -53,13 +53,13 @@ On the employee card, you can set up information, such as union membership, rela
 
 You can use alternate addresses to keep track of your employees’ location, for example if they are stationed abroad, on a long business trip, or residing at a summer residence.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
 3. Choose the **Alternate Addresses** action.
 4. **In the Alternate Address List** page, fill in the fields as necessary.
 5. Repeat step 4 for each alternate address.
 
-## See Also
+## Related information
 
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Finance](finance.md)  

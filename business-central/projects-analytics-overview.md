@@ -4,7 +4,7 @@ description: Business Central has features that can help you gather, analyze, an
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 37062, 37033, 37034, 37035, 37036, 37037, 37039, Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014, Report_1015
 ms.date: 11/11/2024
@@ -104,7 +104,7 @@ To learn more about reports that are relevant for project management, go to [Bui
 
 - [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
-## See also
+## Related information
 
 [Power BI Projects app](projects-powerbi-app.md)  
 [Monitor project progress and performance](projects-how-monitor-progress-performance.md)  

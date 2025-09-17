@@ -2,7 +2,7 @@
 title: How to Print the Intrastat Form Report [BE]
 description: The Intrastat Form report is used in Belgium for monthly reporting of goods movement. This report must be sent to both the statistics authorities and tax authorities.
 author: brentholtorf   
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: intrastat form report, intrastat report, intrastat declaration, statistics authorities, tax authorities, monthly reporting, Belgian version
 ms.date: 04/03/2025

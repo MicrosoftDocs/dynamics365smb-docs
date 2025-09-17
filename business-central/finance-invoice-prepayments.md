@@ -2,7 +2,7 @@
 title: Invoice prepayments
 description: Learn how to use prepayments to invoice and collect deposits from customers and remit deposits to vendors in Business Central. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
 ms.date: 07/19/2024
@@ -30,7 +30,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)|  
 |Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[Correct Prepayments](finance-how-to-correct-prepayments.md)|  
 
-## See also
+## Related information
 
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finance](finance.md)  

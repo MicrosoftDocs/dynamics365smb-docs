@@ -27,13 +27,15 @@ You can also select an Analysis View with a cash flow account source. This view 
 
 ## Use cases
 
+[!INCLUDE [report-27-scenario](../includes/report-27-scenario-include.md)]
+
 <!-- 
 Prompt
 
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with core finance.
 Format like this:    
   
-As a <persona>, use the report to    
+As a <persona>, can use the report to    
 * use case 1  
 * use case 2    
 
@@ -60,19 +62,19 @@ This report helps businesses analyze and summarize data by categorizing entries 
 Please include your data sources and URLs
 -->
 
-Financial analysts use the report to:
+Financial analysts can use the report to:
 
 * Analyze financial performance by reviewing the general ledger balance totals for different dimensions, such as department, project, or location.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
-Financial accountants use the report to:
+Financial accountants can use the report to:
 
 * Use the report data to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
 * Verify the accuracy of the financial data by ensuring that the general ledger balance totals for different dimensions are correct and balance.
 * Identify discrepancies or errors in financial data and investigate them.
 
-Financial controllers use the report to:
+Financial controllers can use the report to:
 
 * Monitor the financial health of the business by reviewing the general ledger balance totals for different dimensions, such as department, project, or location.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
@@ -84,7 +86,7 @@ Try the report here: [Dimensions - Total](https://businesscentral.dynamics.com?r
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

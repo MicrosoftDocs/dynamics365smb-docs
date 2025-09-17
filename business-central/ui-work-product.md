@@ -4,7 +4,7 @@ description: Describes how to interact with data in Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 11/13/2024
 ms.custom: bap-template
@@ -90,7 +90,7 @@ When you search for and open a list page, such as the **Sales Orders** list, it'
 
 When you open the same list page from your home page, the **Manage** action isn't available. Instead, to open an individual sales order, choose the **Number** field. In this view, you can't pin the action bar.  
 
-## See also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up Business Central](setup.md)  

@@ -38,7 +38,7 @@ A culture name is usually a lower-case language identifier and an upper-case loc
 | fr-FR              | French   | France        |
 | de-DE              | German   | Germany       |
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  

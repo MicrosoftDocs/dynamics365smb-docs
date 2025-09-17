@@ -4,7 +4,7 @@ description: Learn how to use job queue entries to run reports and codeunits.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/26/2024
 ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671
@@ -79,7 +79,7 @@ Setting a job queue entry to **On Hold** doesn't affect a job that's already run
 
 ### To view status for any job
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, and then choose the related link.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
 > [!TIP]
@@ -168,7 +168,7 @@ Administrators can use [Azure Application Insights](/azure/azure-monitor/app/app
 
 Telemetry lets administrators set up alerts on job queue issues that send a text message, email, or a message in Teams if something isn't right. To learn more about these alerts, go to [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
-## See also
+## Related information
 
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  

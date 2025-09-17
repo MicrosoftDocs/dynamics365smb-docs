@@ -4,7 +4,7 @@ description: The Sales by Item report gives a clear picture of your organization
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37004_Primary
 ms.date: 10/26/2024
@@ -59,7 +59,7 @@ Try the report here: [Sales by Item](https://businesscentral.dynamics.com?page=3
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  

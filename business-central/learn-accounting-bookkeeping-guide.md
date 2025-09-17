@@ -101,7 +101,7 @@ The following table describes a sequence of tasks and provides links to the arti
 | Enable global financial reporting to international accounting organizations by using the eXtensible Business Reporting Language (XBRL) standard. | [Create Reports with XBRL](bi-create-reports-with-xbrl.md) |
 | Change the database access intent on reports, pages of the API type, and queries to help reduce load and improve performance. | [Manage Database Access Intent](admin-data-access-intent.md) |
 
-## See also
+## Related information
 
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  

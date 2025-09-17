@@ -2,7 +2,7 @@
 title: How to Set Up Reports for VAT and Intrastat
 description: Learn how to specify the reports used to create documents for submission to authorities, such as the VAT statement and the Intrastat form.
 author: brentholtorf  
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT statement, Intrastat form, set up reports, German version
 ms.date: 03/12/2025

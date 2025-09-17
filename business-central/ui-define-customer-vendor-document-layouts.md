@@ -4,7 +4,7 @@ description: Use document layouts to control the appearance and format of docume
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 11/28/2024
@@ -22,7 +22,7 @@ The steps in the following sections describe how to define sales document layout
 
 ## Load the standard document layouts for sales documents for a customer
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.
 1. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
 1. On the **Document Layouts** page, choose the **Copy from Report Selection** action.
 
@@ -32,7 +32,7 @@ The **Document Layouts** page displays all layouts that are available for sales 
 
 The following steps assume that layout you want for the type of document is already created. Learn more about creating layouts in [Get started creating report layouts](ui-get-started-layouts.md).
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then select the related link.
 1. Open the **Customer Card** page for the customer, and then select the **Document Layouts** action.
 1. On the **Document Layouts** page, on the line for document layout that you want to use a report layout for, set the **Email Body Layout** and **Email Attachment Layout** fields. You can choose different layouts for each.
 

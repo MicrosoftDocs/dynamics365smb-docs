@@ -1,18 +1,18 @@
 ---
 title: Czech Local Functionality [CZ]
-description: The following topics describe the local functionality and features for the Czech version of Business Central.
+description: Learn about the local functionality and features available in the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, Cash Desk
-ms.date: 03/21/2024
-ms.reviewer: bholtorf
+ms.date: 09/17/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
-# Czech Local Functionality
+# Czech local functionality
 
-The following topics describe the local functionality in the Czech version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+The following articles describe the local functionality in the Czech version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
 ## Feature availability
 
@@ -92,12 +92,13 @@ The following topics describe the local functionality in the Czech version of [!
   * [Use modern search in CZ applications](use-modern-search-cz.md) **Available Now**
   * [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-documents-reports.md) **Available Now**
 
-If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+- [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+- [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 

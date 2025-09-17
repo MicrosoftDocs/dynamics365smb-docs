@@ -2,7 +2,7 @@
 title: Set up unrealized value added tax
 description: If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473
@@ -22,7 +22,7 @@ You can choose to have VAT amounts calculated and posted to a temporary general 
 
 To use accounts for unrealized VAT, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **General Ledger Setup**.
+1. [!INCLUDE[open-search](includes/open-search.md)], and enter **General Ledger Setup**.
 2. On the **General Ledger Setup** page, select the **Unrealized VAT** check box.
 3. Choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), and enter **VAT Posting Setup**.
 4. On the **VAT Posting Setup** page, choose the VAT posting group, and then choose the **Edit** action.
@@ -46,7 +46,7 @@ To use accounts for unrealized VAT, follow these steps:
 > [!NOTE]  
 > The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
-## See also
+## Related information
 [Set Up Calculations and Posting Methods for Value Added Tax](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

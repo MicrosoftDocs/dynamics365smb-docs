@@ -2,7 +2,7 @@
 title: Settle purchase invoices promptly
 description: If you need to pay the vendor by cash or check, you can have the necessary posting done when you post the invoice.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 51, 9308
 ms.date: 07/18/2024
 ms.author: bholtorf
@@ -19,7 +19,7 @@ If you need to pay the vendor by cash or check, you can post the payment when yo
 
 ## To settle purchase invoices promptly
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action.  
 3. To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.  
 
@@ -28,7 +28,7 @@ If you need to pay the vendor by cash or check, you can post the payment when yo
 >
 > This customization is only required if you do not specify balancing accounts on the payment methods as describe above.
 
-## See also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

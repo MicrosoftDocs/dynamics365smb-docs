@@ -4,7 +4,7 @@ description: The output quantity represents the work progress in the form of the
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 03/08/2025
 ms.service: dynamics-365-business-central
@@ -27,7 +27,7 @@ The **Production Journal** page lets you do the same tasks as the **Output Journ
 
 ## To post output quantities and/or register run times for one or more production order lines
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     You can use the **Explode Routing** function to generate journal lines from production orders.

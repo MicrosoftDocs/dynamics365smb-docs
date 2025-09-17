@@ -2,7 +2,7 @@
 title: Configuring OneDrive integration with Business Central on-premises
 description: Learn about how to set up Business Central on-premises to integrate with OneDrive for work or school (formerly known as OneDrive for Business).
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: OneDrive, share, browser
 ms.date: 09/01/2024
 ms.author: jswymer
@@ -60,7 +60,7 @@ Use this procedure if you're using Business Central 2022 release wave 2 (version
 
 ### Run OneDrive setup
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OneDrive Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **OneDrive Setup**, and then choose the related link.
 2. The first time you run the assisted setup, you see the **Your privacy**. Read the information on the page, and if you agree to the terms choose **Agree** to continue.
 3. On the **Configure file handling** page, you have the following options to choose from:
 
@@ -85,7 +85,7 @@ Use this procedure if you're using Business Central 2022 release wave 1 (version
 >* Exporting any report to a file will automatically copy the file to OneDrive, then open it in Excel Online, Word Online or OneDrive. 
 >* Other features may also automatically open in OneDrive.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft SharePoint Connection Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Microsoft SharePoint Connection Setup**, and then choose the related link.
 2. In the **Description** field, enter a description for the connection, like **OneDrive**.
 3. In the **Folder** field, enter **Business Central**.
 4. In the **Location** field, enter the URL for your OneDrive.

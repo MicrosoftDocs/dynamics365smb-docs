@@ -2,7 +2,7 @@
 title: Trace item-tracked items
 description: You can see where an item-tracked item was used, including how and when it was received, produced, or returned with Item Tracing and Find Entries features.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.forms: 6520,
@@ -25,7 +25,7 @@ These features can be useful in quality control when you need to find out which 
 
 ## To trace item-tracked items  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Item Tracing**, and then choose the related link.  
 2.  In the filter fields at the top of the page, enter the specific item numbers or a filter on the item numbers that you would like to trace.  
 3.  In the **Show Components** field, select whether to also see where the components for the items came from. The following table describes the options.  
 
@@ -54,12 +54,12 @@ These features can be useful in quality control when you need to find out which 
 
 ## To find item-tracked items with Find Entries  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Find Entries**, and then select the related link.  
 2. Choose **Search for item references**.
 3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
 4. Choose the **Find** action to find all instances of the serial or lot number in the database.  
 
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)  
 [Work with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)  

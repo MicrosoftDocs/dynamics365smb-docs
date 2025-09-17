@@ -4,7 +4,7 @@ description: Learn how to use posting groups to save time and avoid mistakes whe
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 08/13/2024
@@ -155,7 +155,7 @@ The following table lists the table for posting group and their IDs.
 [!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
 
-## See also
+## Related information
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)    
 [Setting Up Finance](finance-setup-finance.md)    

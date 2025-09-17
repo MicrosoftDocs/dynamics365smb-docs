@@ -30,7 +30,7 @@ You can create an invoice for a project or for one or more project tasks:
 
 The following procedure shows how to use a batch job to invoice multiple projects.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Create Sales Invoice**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Create Sales Invoice**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Set filters to specify the projects to invoice.
 4. Choose the **OK** button to create the invoices.  
@@ -44,7 +44,7 @@ You can review and post created invoices on the **Sales Invoices** page.
 
 You can create an invoice from a project planning lines, and specify the quantity of the item, resource, or general ledger account.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 2. Open a relevant project.
 3. Select a project task for which the **Project Task Type** field contains **Posting**, and then choose the **Project Planning Lines** action.  
 4. On a project planning line, in the **Qty. To Transfer to Invoice** field, enter the quantity of the item, resource, general ledger account type that you want to invoice.  
@@ -83,7 +83,7 @@ When a credit is due to a customer for something you invoiced for a project, you
 
 To issue a credit memo for a planning line, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 1. Open the project you want to issue a credit memo for.
 1. If the **Blocked** field is filled in, clear the field so that you can work with the project.
 1. In the **Status** field, change the status from **Completed** to **Open**.

@@ -2,7 +2,7 @@
 title: Apply and Unapply General Ledger Entries [NL]
 description: Apply temporary general ledger entries to allow companies to work with temporary and transfer accounts in the general ledger.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: temporary general ledger entries, apply GL entries, unapply GL entries, Dutch version, Netherlands, transfer accounts
 ms.date: 03/14/2025

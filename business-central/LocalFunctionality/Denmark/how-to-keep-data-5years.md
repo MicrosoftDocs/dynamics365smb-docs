@@ -2,7 +2,7 @@
 title: Keep transactional data for five years in Denmark 
 description: This article describes how to automatically keep data based on the Danish bookkeeping act.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: retain data, bookkeeping act, dk, denmark
 ms.search.form: 

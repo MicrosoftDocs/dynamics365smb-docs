@@ -2,7 +2,7 @@
 title: How to Set Up Bank Accounts for CODA [BE]
 description: Set up the necessary codes before using electronic banking for CODA statements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: CODA statements, electronic banking, Belgian version, protocol numbers, version codes, set up protocol numbers, set up version numbers
 ms.date: 04/03/2025

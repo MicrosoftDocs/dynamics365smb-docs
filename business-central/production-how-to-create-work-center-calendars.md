@@ -2,7 +2,7 @@
 title: Set Up Shop Calendars
 description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
@@ -20,7 +20,7 @@ As a foundation for calculating a specific work or machine center calendar, you 
 The following describes how to set up work center calendars. The steps are similar when setting up machine center calendars.  
 
 ## To create work shifts  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Shifts**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Work Shifts**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the work shift, for example, **1**.  
 3.  Describe the work shift in the **Description** field, for example, **1st shift**.  
 4.  Optionally, fill in lines for a second or third work shift.  
@@ -28,7 +28,7 @@ The following describes how to set up work center calendars. The steps are simil
 Even if your work centers do not work in different work shifts, enter at least one work shift code.  
 
 ## To set up a shop calendar  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shop Calendars**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Shop Calendars**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the shop calendar.  
 3.  Describe the shop calendar in the **Description** field.  
 4.  Choose the **Working Days** action.
@@ -63,7 +63,7 @@ The shop calendar can now be assigned to a work center to calculate the work sho
 
 ## To calculate a work center calendar  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Work Centers**, and then choose the related link.
 2. Open the work center that you want to update.  
 3. In the **Shop Calendar Code** field, select which shop calendar to use as the foundation for a work center calendar.  
 4. Choose the **Calendar** action.  
@@ -100,7 +100,7 @@ The calculated work center calendar will now define when and how much capacity i
 
 The capacity of the selected day has now decreased by the recorded absence time.  
 
-## See Also  
+## Related information  
 [Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
 [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

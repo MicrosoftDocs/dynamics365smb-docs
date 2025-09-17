@@ -4,7 +4,7 @@ description: You can adjust the inventory valuation of an item using the FIFO or
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 04/28/2025
 ms.service: dynamics-365-business-central
@@ -29,7 +29,7 @@ Cost adjustment processes only value entries that aren't adjusted. In a situatio
 
 ## To adjust item costs manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost - Item Entries**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Adjust Cost - Item Entries**, and then choose the related link.
 2. On the **Adjust Cost - Item Entries** page, specify which items to adjust costs for.
 3. Choose the **OK** button.
 

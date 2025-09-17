@@ -2,7 +2,7 @@
 title: Dutch Electronic Banking
 description: Learn how to create electronic payment files and direct debit files, and import electronic bank statements from supported bank software.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Dutch electronic banking, electronic banking, Dutch version, electronic payment files, direct debit files, import bank statements, telebanking, payment files, electronic bank statements, bank statement import, Netherlands
 ms.date: 03/14/2025

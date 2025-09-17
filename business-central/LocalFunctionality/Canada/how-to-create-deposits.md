@@ -2,7 +2,7 @@
 title: How to create deposits [CA]
 description: Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Canadian version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create deposits, transaction record, outstanding invoices, credit memos
 ms.search.form: 10140, 10141, 10143,10144,10146,10147,10148,36646
@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-## See also
+## Related information
 
 - [Canada Local Functionality](canada-local-functionality.md)  
 - [Finance](../../finance.md)  

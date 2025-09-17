@@ -73,7 +73,7 @@ Try the report here: [Item - Able to Make (Time)](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Assembly report overview](../assembly-reports.md)  
 

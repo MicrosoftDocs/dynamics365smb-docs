@@ -4,7 +4,7 @@ description: Learn how to track consumption of employee hours, machine hours, in
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 12/13/2023
 ms.service: dynamics-365-business-central
@@ -54,7 +54,7 @@ In the following walkthrough, Tricia applies the Cost Value method, which is the
 
 ### To calculate WIP  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project**, and then choose the related link.  
 2. In the **Projects** list, select the **Deerfield** project, and then choose the **Edit** action. This opens the Project Card in edit mode.  
 
      WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, CRONUS uses the Cost Value method.  
@@ -84,7 +84,7 @@ In the following walkthrough, Tricia applies the Cost Value method, which is the
 
 ### To review WIP warnings  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Cockpit**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project WIP Cockpit**, and then choose the related link.  
 2. Select the **Deerfield** project, and then choose the **Show Warnings** action.  
 3. On the **Project WIP Warnings** page, review the warning associated with the project.  
 
@@ -149,7 +149,7 @@ Tricia determines that the project tasks that were excluded from the calculation
     > [!NOTE]  
     > Suppose Tricia calculated and posted WIP for a project with incorrect dates. Following the method that was discussed earlier, Tricia can reverse the incorrect postings, correct the dates, and post to the general ledger.  
 
-## See also
+## Related information
 
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
 [Walkthrough: Managing Projects](walkthrough-managing-projects-with-jobs.md)  

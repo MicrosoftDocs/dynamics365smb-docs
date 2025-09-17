@@ -3,7 +3,7 @@ title: Set Up Opportunity Sales Cycles and Cycle Stages
 description: Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Business Central.
 author: brentholtorf
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119, 5098, 5096
@@ -23,7 +23,7 @@ This article also describes how to set up tasks and activities, and how to assig
 
 ## To set up opportunity sales cycle codes
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Cycles**, and then choose the related link. The **Sales Cycles** page opens, and lists all the existing sales cycles.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Cycles**, and then choose the related link. The **Sales Cycles** page opens, and lists all the existing sales cycles.
 2. Choose the **New** action, and fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Repeat these steps to set up as many sales cycles as you want. After you have set up opportunity sales cycles, you may want to set up the different stages within each cycle.
@@ -43,7 +43,7 @@ After you add the opportunities stage cycle, you can start to add sales opportun
 
 You can combine multiple tasks, such as tasks that each represent a step, in activities. Activity tasks are related to each other by a date formula. You can assign activities to opportunities, salespeople, or contacts.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Activities**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Activities**, and then choose the related link.
 2. Choose the **New** action, and fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. On the **Lines** FastTab, fill in the fields as necessary to define one or more tasks in the activity.
 
@@ -56,7 +56,7 @@ When you have set up a task, you can assign it to a sales opportunity and thereb
 
 The following procedure describes how to assign activity tasks to opportunities. The steps are similar when you assign tasks to salespeople and contacts.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Opportunities**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Opportunities**, and then choose the related link.
 2. Select an opportunity, and then choose the **Tasks** action.
 3. On the **Task List** page, choose the **Create Task** action.
 4. The **Create Task** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -67,7 +67,7 @@ The following procedure describes how to assign activity tasks to opportunities.
 6. On the **Task List** page, select the new task, and then choose the **Assign Activities** action.
 7. On the **Assign Activity** page, fill in the fields as necessary, and then choose the **OK** button.
 
-## See Also
+## Related information
 
 [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)  
 [Sales](sales-manage-sales.md)  

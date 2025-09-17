@@ -71,7 +71,7 @@ If you need to change the direct unit cost for several items, you can use the **
 
 The batch job changes the contents in the **Unit Price** field on the item card. The batch job changes the content of the field in the same way for all items or selected items. The batch job multiplies the value in the field by an adjustment factor that you specify.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Item Costs/Prices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Adjust Item Costs/Prices**, and then choose the related link.  
 2. In the **Adjust Field** field, specify which item or SKU card field you want to adjust.  
 3. In the **Adjustment Factor** field, specify the factor by which to adjust the value. For example, enter **1.5** to increase the value by 50%.  
 4. On the **Item** FastTab, set filters to specify, for example, which items to process with the batch job.  
@@ -80,7 +80,7 @@ The batch job changes the contents in the **Unit Price** field on the item card.
 -->
 
 
-## See also
+## Related information
 
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Registering New Items](inventory-how-register-new-items.md)    

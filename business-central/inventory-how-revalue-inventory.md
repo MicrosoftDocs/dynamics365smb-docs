@@ -3,7 +3,7 @@ title: Create new value entries for items in the inventory| Microsoft Docs
 description: Describes how to appreciate or depreciate the value entries of one or more items in inventory by posting their current, calculated value.
 documentationcenter: ''
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: costing, inventory cost, value entries
 ms.search.forms: 5803,
@@ -17,7 +17,7 @@ ms.reviewer: bholtorf
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.
 
 ## To revalue inventory
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Revaluation Journal**, and then choose the related link.
 2. Choose the **Calculate Inventory Value** action.
 3. On the **Calculate Inventory Value** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.
@@ -28,7 +28,7 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
 
 New value entries are now created to reflect the revaluations that you have posted. You can see the new values on the respective item cards.
 
-## See also
+## Related information
 [Design Details: Revaluation](design-details-revaluation.md)    
 [Inventory](inventory-manage-inventory.md)    
 [Sales](sales-manage-sales.md)    

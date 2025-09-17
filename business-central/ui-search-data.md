@@ -2,7 +2,7 @@
 title: Search for Specific Data
 description: You can use search when you want to find a specific record.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: data, search, record
 ms.search.form: 
 ms.date: 09/23/2024

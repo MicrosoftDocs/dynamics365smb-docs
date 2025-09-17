@@ -2,17 +2,17 @@
 title: Assign item charges to sales and purchases
 description: Assign item charges when you need inventory items to carry added costs, such as freight and physical handling.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
-ms.date: 07/19/2024
-ms.author: bholtorf
+ms.date: 06/17/2025
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
-# Use item charges to account for additional trade costs
+# Use item charges to account for extra trade costs
 
 To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all other direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
 
@@ -26,7 +26,7 @@ Before you can assign item charges, you must set up item charge numbers for the 
 
 For both purchase and sales documents, you can assign an item charge in two ways:
 
-* On the document that lists the items that the item charge relates to. Typically, you do this for documents that aren't yet fully posted.
+* On the document that lists the items that the item charge relates to. Typically, you use this method for documents that aren't yet fully posted.
 * On a separate invoice by linking the item charge to a posted receipt or shipment where the items that the item charge relates to are listed.
 
 > [!NOTE]  
@@ -42,7 +42,7 @@ This video shows how to handle an extra shipping cost as part of inventory costi
 
 You use item charge numbers to distinguish between the different kinds of item charges.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Charges**, and then choose the related link.
 2. On the **Item Charges** page, choose the **New** action to create a new line.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -50,7 +50,7 @@ You use item charge numbers to distinguish between the different kinds of item c
 
 If you know the item charge when you post a purchase invoice for the item, follow this procedure.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.
 2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.
@@ -79,7 +79,7 @@ If you received an invoice for the item charge after you posted the original pur
 3. On the **Purch. Receipt Lines** page, select the posted purchase receipt for the item that you want to assign the item charge to, and then choose the **OK** button.
 4. Choose the **Suggest Item Charge Assignment** action.
 
-The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt, thereby updating the item's inventory value with the cost of the item charge.
+The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt. The item's inventory value updates with the cost of the item charge.
 
 ## Handle item charges for partial receipts
 
@@ -96,7 +96,7 @@ To handle the item cost for the partial receipt, on the **Item Charge Assignment
 
 When you're ready to handle the item that was missing, update the **Quantity to Handle** field and post the order.
 
-## See also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  

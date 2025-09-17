@@ -2,7 +2,7 @@
 title: How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs
 description: You can create a service contract either manually or from a service contract quote. You can create a contract based on a service contract quote.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -14,7 +14,7 @@ ms.reviewer: bholtorf
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  
 
 ## To create a service contract or service contract quote  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
 2. Create a new service contract or service contract quote.  
 3. Fill in the **No.** field. A dialog box opens, asking whether you want to fill it with the common data from a contract template. If you want to create such a service contract or service contract quote, choose the **Yes** button. The **Service Contract Template List** page opens.  
 4. Select the appropriate template, and then choose **OK** to use it to create the service contract or service contract quote.  
@@ -39,7 +39,7 @@ For contracts that are not detailed, the invoiced amount is calculated as follow
 * Invoiced amount = (annual amount ÷ number of days in the year) × number of days in the starting period.  
 * If the contract expires before the starting period ends, the expiration date becomes the ending date of the starting period.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contract Quotes**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contract Quotes**, and then choose the related link.  
 2. Open the service contract quote you want to convert to a service contract.  
 3. Choose the **Make Contract** action.  
 4. If the starting date of the contract is before the beginning of the next invoice period, you are asked if you want to create an invoice for the starting period of the contract. Choose **Yes**.  
@@ -49,7 +49,7 @@ For contracts that are not detailed, the invoiced amount is calculated as follow
 ## To create contract service credit memos
 You can use a contract service credit memo when a customer cancels a prepaid service contract or removes a service item from a prepaid contract. You can also use it to correct an erroneous service invoice.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Credit Memos**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Credit Memos**, and then choose the related link.  
 2. Create a new service credit memo.  
 3. Fill in the **No.** field.  
 4. In the **Customer No.** field, enter the number of the customer in the service contract.  
@@ -57,7 +57,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
      The **Invoicing** FastTab shows information copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill-to Customer No.** field.  
 
     > [!NOTE]  
-    >  You can compare the credit memo to the original posted document on the **Posted Service Invoices** page. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoices**, and then choose the related link.  
+    >  You can compare the credit memo to the original posted document on the **Posted Service Invoices** page. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Service Invoices**, and then choose the related link.  
 
 5. Fill in the **Posting Date** and **Document Date** fields.  
 6. On the credit memo lines, enter information about the items that have been returned or removed, or the allowance that will be sent. You can also use the **Get Prepaid Contract Entries** batch job.  
@@ -74,7 +74,7 @@ You can change the status of the contract, initially set to **Locked**, add and 
 ## To add a contract line to a service contract or contract quote  
 When a customer purchases a new item and wants to include it in the existing service contract or contract quote, you can register the item as a service item and then add it as a new contract line to the contract or contract quote.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contracts**, and then choose the related link.  
 2. Open the relevant service contract or service contract quote that you want to add a new contract line for.  
 3. Choose the **Open Contract** action to open the service contract or service contract quote for editing.  
 4. On the **Invoice Details** FastTab, select the **Allow Unbalanced Amounts** field if you want to change the annual amount and distribute the annual amount difference manually on the contract lines. Otherwise, clear the check box in the **Allow Unbalanced Amounts** field. This will distribute the annual amount difference automatically on the contract lines after you change the annual amount.  
@@ -84,7 +84,7 @@ When a customer purchases a new item and wants to include it in the existing ser
 ## To remove contract lines  
 You may need to remove contract lines from the service contract as you remove corresponding service items from the service contract. Usually you remove a contract line that is expired or corresponds to the service item that has broken down.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contracts**, and then choose the related link.  
 2. Open the service contract from which you want to remove contract lines.  
 3. Choose the **Open Contract** action to open the service contract for editing.  
 4. Choose the contract line you want to remove. Fill in the **Contract Expiration Date** field with the date as of which you want to remove the line. For example, you could enter the date when the service item broke down.  
@@ -115,7 +115,7 @@ On a service contract lines, the amounts in the **Line Cost** and **Line Value**
 ## To add a contract discount to service contract quotes  
 You can add contract discounts on services for contract quotes and service contracts. The discounts can be on spare parts in particular service item groups, on resource hours for resources in particular resource groups, and on particular service costs.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contract Quotes**, and choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contract Quotes**, and choose the related link.  
 2. Choose the quote to add discounts for.  
 3. Choose the **Service Discounts** action. The **Contract/Service Discounts** page opens.  
 4. To create a new contract discount, choose the **New** action.  
@@ -135,7 +135,7 @@ You may need to change the owner of a service contract. If a service item in a s
 >   
 >  For example, suppose service item No. 8 is included in contracts SC00003 and SC00015. Contract SC00015 also contains service item No. 15, which is also included in the contract SC00080. In this case, the owner for all three contracts and service items will be changed.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link. Open the relevant service contract whose owner you want to change.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contracts**, and then choose the related link. Open the relevant service contract whose owner you want to change.  
 2. Choose the **Open Contract** action to open the contract for editing.  
 3. Choose the **Change Customer** action. The **Change Customer in Contract** page opens.  
 4. In the **Contract No.** and **Service Item No**. fields you can see the numbers of the contract and service item owned by the selected customer. If the customer owns more than one contract with more than one service item included, then the value of these fields will be **Multiple**. To see the list of related contracts or service items, select these field values.  
@@ -147,7 +147,7 @@ You may need to change the owner of a service contract. If a service item in a s
 ## To update a service contract price  
 You can update the prices on service contracts by specifying a price update percentage.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Update Service Contract Prices**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Update Service Contract Prices**, and then choose the related link.
 2. Choose the service contract.  
 3. In the **Update to Date** field, enter a date. The batch job will update prices for contracts with next price update dates on or before this date.  
 4. In the **Price Update %** field, enter the percentage that you want to update the prices by.  
@@ -158,7 +158,7 @@ If you work with prepaid service contracts, you must regularly post prepaid cont
 
 Before you can post prepaid contract entries, you must specify a number series in the **Prepaid Posting Document Nos.** field on the **Service Mgt. Setup** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Prepaid Contract Entries**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Post Prepaid Contract Entries**, and then choose the related link.  
 2. In the **Post until Date** field, enter a date. The batch job posts prepaid service ledger entries with posting dates up to this date.  
 4. In the **Posting Date** field, enter the date you want to use as the posting date on the general journal line.  
 5. In the **Action** field, choose **Post Prepaid Transactions**.  
@@ -176,7 +176,7 @@ You may need to cancel a service contract when the contract has expired or has b
 > [!NOTE]  
 >  You cannot reopen a contract after it is canceled.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contracts**, and then choose the related link.  
 2. Open the relevant service contract to cancel.  
 3. Choose the **Open Contract** action to open the service contract for editing.  
 4. In the **Cancel Reason Code** field, choose the relevant reason code. To add more reason codes, choose the **Advanced** action.  
@@ -189,7 +189,7 @@ You may need to cancel a service contract when the contract has expired or has b
 ## Filing a service contract or contract quote  
 You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[prod_short](includes/prod_short.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action in the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
 
-## See Also  
+## Related information  
 [Set Up Service Contracts](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
 [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  

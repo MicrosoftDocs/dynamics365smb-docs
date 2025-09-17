@@ -2,7 +2,7 @@
 title: How to Close Income Statement Accounts [FR]
 description: Learn how to close the income statement accounts in the French version of Business Central
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: income statement accounts, close income statement, close fiscal year, French version
 ms.date: 04/14/2025

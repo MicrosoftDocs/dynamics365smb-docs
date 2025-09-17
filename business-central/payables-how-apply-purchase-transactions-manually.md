@@ -2,7 +2,7 @@
 title: Reconcile vendor payment receipts or refunds in the payment journal
 description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
@@ -32,7 +32,7 @@ You can apply vendor payments manually to their related purchase documents when 
 You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. On the **Payment Reconciliation Journals** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 ## To apply a payment to a single or multiple vendor ledger entries
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 2. On the **Payment Journals** page, on the first journal line, enter the relevant information about the payment entry.
 3. To apply a single vendor ledger entry:
    1. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Vendor Entries** page.
@@ -50,7 +50,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 6. Choose the **Post** action to post the payment journal.
 
 ## To apply a credit memo to a single or multiple vendor ledger entries
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memos**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Credit Memos**, and then choose the related link.
 2. Open the credit memo that you want to apply.
 3. Enter the relevant information in the header.
 4. To apply a single vendor ledger entry, on the **Application** FastTab, in the **Applies-to Doc. No.** field, select the entry to apply the credit to, and then, in the **Amount to Apply** field, enter the amount to apply to the entry.
@@ -67,7 +67,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 7. Choose the **Post** button to post the purchase credit memo.
 
 ## To apply posted vendor ledger entries
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor with entries that have already been posted.
 3. Choose the **Ledger Entries** action, and then choose the **Apply Entries** action.
 4. On the **Apply Vendor Entries** page, you can see the open entries for the vendor.
@@ -88,7 +88,7 @@ If you buy from a vendor in one currency and make payment in another currency, y
 
 If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found on the **Currency Exchange Rates** page. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.
 3. Choose the **Apply Entries** action.
 4. Select the line with the entry you want to apply to the entry in the payment journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.
@@ -101,7 +101,7 @@ If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a diffe
 ## To unapply an application of vendor entries
 When you unapply an erroneous application, correcting entries that are identical to the original entry but with opposite sign in the amount field is created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses. The entries that were closed by the application are reopened.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card.
 3. Choose the **Ledger Entries** action.
 4. Select the relevant ledger entry, and then choose the **Unapply Entries** action.
@@ -112,7 +112,7 @@ When you unapply an erroneous application, correcting entries that are identical
 > [!IMPORTANT]  
 >   If an entry has been applied by more than one application entry, you must unapply the latest application entry first.
 
-## See Also
+## Related information
 [Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

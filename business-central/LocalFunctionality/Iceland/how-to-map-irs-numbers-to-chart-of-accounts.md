@@ -2,7 +2,7 @@
 title: Map IRS numbers to chart of accounts [IS]
 description: This article explains how to map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: prededined IRS, general ledger accounts, Internal Revenue Service
 ms.date: 02/06/2025
@@ -29,7 +29,7 @@ Companies in Iceland are required to send the tax authority a data file in a pre
 1. Select a general ledger account that has an **Account Type** of **Posting**.  
 1. In the **IRS Number** field, select an IRS number from the list.  
 
-## See also
+## Related information
 
  [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md)
 

@@ -4,7 +4,7 @@ description: This article gives an overview of the different ways to create rout
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
@@ -25,7 +25,7 @@ Before you can set up a routing, the following setups must be in place:
 
 ## To create a routing
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Routings**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Type** field, select one of the following options:
@@ -50,8 +50,7 @@ Before you can set up a routing, the following setups must be in place:
 15. You can now attach the new routing to the card of the production item in question, by filling in the **Routing No.** field. To learn more, go to [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> Remember to recalculate the item's standard cost from the **Item** card. Choose the **Production** action, the **Calc. Production Std. Cost** action, and then choose the **All Levels** action.  You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Update Standard Costs](finance-about-calculating-standard-cost.md#updating-standard-costs-with-standard-cost-worksheet).  
-
+> Remember to recalculate the item's standard cost from the **Item** card. Choose the **Production** action, the **Calc. Production Std. Cost** action, and then choose the **All Levels** action.  You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Updating standard costs with the Standard Cost Worksheet](finance-about-calculating-standard-cost.md#updating-standard-costs-with-the-standard-cost-worksheet).
 
 ## To create routing links
 
@@ -59,7 +58,7 @@ You can create routing links to connect components to specific operations to ret
 
 Another important benefit is that linked components and operations display in a logical process structure when you use the **Production Journal** page to post output and consumption.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Routings**, and then choose the related link.  
 2. Open the routing that contains the operations that you want to link.  
 
     Make sure the routing status is **Under Development**.  
@@ -91,7 +90,7 @@ The selected components are now linked to the selected operations when you creat
 
 If you require personnel with qualifications, special knowledge, or special authorization for an operation, you can assign these personnel to the operation. In addition, you can assign tools and quality requirements to the operation. This procedure describes how to assign personnel. The steps are similar for other types of operation information.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Routings**, and then choose the related link.  
 2. Open the relevant routing.  
 3. On the **Lines** FastTab, select the line that you want to process, choose the **Operations** action, and then choose the **Personnel** action.  
 4. Fill in the fields on the **Routing Personnel** page.  
@@ -101,7 +100,7 @@ If you require personnel with qualifications, special knowledge, or special auth
 
 The version principle enables you to manage several versions of a routing. The structure of the routing version corresponds to the structure of the routing consisting of the routing version header and the routing version lines. The starting date defines the basic difference.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Routings**, and then choose the related link.  
 2. Select the routing to copy, and then choose the **Versions** action.  
 3. On the **Routing Versions** page, choose the **New** action.
 4. In the **Version Code** field, enter the unique identification of the version. You can use any combination of numbers and letters.  
@@ -114,7 +113,7 @@ The version principle enables you to manage several versions of a routing. The s
 
 7. When you're done setting up the routing version, in the **Status** field, choose **Certified**.
 
-## See also
+## Related information
 
 [Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

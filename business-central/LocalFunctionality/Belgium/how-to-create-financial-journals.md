@@ -2,7 +2,7 @@
 title: Create Financial Journals [BE]
 description: Learn how to use the Journal Templates to create financial journals in the Belgian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: journal templates, financial journals, bank account transactions, Belgian version
 ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022

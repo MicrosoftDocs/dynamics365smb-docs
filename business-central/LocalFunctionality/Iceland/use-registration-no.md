@@ -2,7 +2,7 @@
 title: Registration numbers in the Icelandic localization
 description: This article provides instructions about how to use registration numbers in the Icelandic localization.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: registration numbers, Icelandic localization
 ms.date: 02/06/2025
@@ -27,7 +27,7 @@ The **Sender Reg. No.** field is added to the **Payment Export Data** table when
 > [!NOTE]
 > This field can be used in the following list of events: _OnBeforeInsertPmtExportDataJnlFromGenJnlLine_, _OnPreparePaymentExportDataCLEOnBeforeTempPaymentExportDataInsert_, and _OnBeforeInsertPmtExportDataJnlFromVendorLedgerEntry_.
 
-## See also
+## Related information
 
 - [The list of Iceland local functionalities](iceland-local-functionality.md)  
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

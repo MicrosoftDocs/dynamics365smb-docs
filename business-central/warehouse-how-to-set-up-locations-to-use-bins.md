@@ -30,7 +30,7 @@ The next step is to design the item flow at the location by specifying bin codes
 
 ## To set up a location to use bins
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
 2. Select the location where you want to use bins.  
 3. Choose the **Edit** action.  
 4. On the **Warehouse** FastTab, select the **Bin Mandatory** checkbox.  
@@ -52,7 +52,7 @@ The following flow chart shows how the **Bin Code** field on production order co
 
 :::image type="content" source="media/binflow.png" alt-text="Bin code field on production order component lines.":::
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

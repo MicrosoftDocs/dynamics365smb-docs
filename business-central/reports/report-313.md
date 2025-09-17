@@ -4,7 +4,7 @@ description: Analyze your item purchases per vendor to manage inventory procurem
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: Report_313_Primary
 ms.date: 10/14/2024

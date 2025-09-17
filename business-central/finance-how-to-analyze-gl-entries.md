@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: postpone
-ms.search.form: 20, 116_Primary
+ms.search.form: Report_3, 20, 116_Primary
 ms.date: 02/12/2025
 ms.service: dynamics-365-business-central
 ---
@@ -35,7 +35,7 @@ Depending on your need for details or aggregation when analyzing general ledger 
 - use the Chart of Accounts page to get a summary across all your G/L accounts. To learn more, go to [Analyze finance data from the Chart of Accounts](finance-general-ledger.md).
 - run or define a financial report. To learn more, go to [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md).
 
-## See also
+## Related information
 
 [Understand the general ledger](finance-general-ledger.md)  
 [Understand the chart of accounts](finance-chart-of-accounts.md)  

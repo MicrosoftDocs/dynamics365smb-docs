@@ -2,7 +2,7 @@
 title: Find Your Warehouse Assignments
 description: This topic explains how to find the warehouse assignments assigned to you on the Item Card page when instructions have been created for you.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9000
 ms.date: 06/24/2021
@@ -17,7 +17,7 @@ To find your warehouse assignments, open the card page for a selected item. If w
 
 ## To find an instruction assigned to you
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
 
     All three pages show assignments for all warehouse locations.  
 
@@ -26,7 +26,7 @@ To find your warehouse assignments, open the card page for a selected item. If w
 
 You can use the **Assigned User ID** field on the header to claim work assignments, if the warehouse manager does not assign particular instructions to individuals. Simply enter your user ID in the header of the warehouse before you begin work on an instruction. Your co-workers can then choose to work on other instructions, and the warehouse will avoid a duplication of effort.  
 
-## See Also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

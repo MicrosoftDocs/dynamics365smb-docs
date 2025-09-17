@@ -2,7 +2,7 @@
 title: Track Relations Between Demand and Supply
 description: This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 5830, 9101, 99000822, 99000855
 ms.date: 06/25/2021
@@ -22,7 +22,7 @@ Order tracking shows how sales orders, production orders, and purchase orders ar
 
 The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Firm Planned Prod. Order**, and then choose the related link.
 2. Open the relevant firm planned production order from the list.
 3. On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.
 
@@ -47,7 +47,7 @@ The page contains entries which account for an untracked surplus quantity in ord
 - Order multiple
 - Dampener (% of lot size)
 
-## See Also  
+## Related information  
 [Planning](production-planning.md)   
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

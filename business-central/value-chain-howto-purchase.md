@@ -2,7 +2,7 @@
 title: Sustainability value chain in purchasing
 description: Learn about understanding how value chain process starts with the purchase process.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain
 ms.search.form: 50, 51
@@ -21,7 +21,7 @@ The requirement for enabling the us of the sustainability value chain in the pur
 
 To do so, follow next steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Setup**, and then select the related link.
 2. Check whether the basic setup already exists. If it doesn't, follow [these instructions](finance-sustainability-setup.md) to set it up.  
 3. On the **Procurement** FastTab, fill in the fields that are related to the sustainability value chain features.  
    1. Select the **Use Emissions In Purchase Documents** field.

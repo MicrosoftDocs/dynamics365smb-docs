@@ -7,6 +7,7 @@ ms.reviewer: jswymer
 ms.topic: article
 ms.search.form:
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: bap-template
@@ -71,7 +72,7 @@ After you enter your prompt and choose **Generate**, Copilot creates proposals f
 |Maintain number series and prepare for next year.     | Set up a contract credit memo number series in the service management module for the next year.        |
 |Create number series in a completely empty company. This is where Copilot can save your hours, or even days, in new implementations.     | Create numbers series for the new company. Make sure all posted documents contain the last to digits of the current year.        |
 
-## See also
+## Related information
 
 [FAQ for Suggest Number Series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)  
 [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 663,
-ms.date: 05/29/2024
+ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -23,7 +23,7 @@ After you set up approval users, you can create workflow responses for approval 
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Approval User Setup**, then choose the related link.  
 2. Create a new line on the **Approval User Setup** page, and then fill the fields as described in the following table.  
 
    |Field|Description|
@@ -46,7 +46,7 @@ After you set up approval users, you can create workflow responses for approval 
 
 The next step is to specify how you want [!INCLUDE [prod_short](includes/prod_short.md)] to notify people that a request is pending their attention. Learn more at [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md).
 
-## See also
+## Related information
 
 [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

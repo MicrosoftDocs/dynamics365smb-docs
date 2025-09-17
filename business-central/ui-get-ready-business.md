@@ -4,7 +4,7 @@ description: Outlines the assisted setup guides, videos, help articles, and page
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 06/10/2024
@@ -19,7 +19,7 @@ To help you get ready for doing business, you can visit the **Assisted Setup** p
 
 Alternatively, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
 
-You can also find the list of assisted setup guides if you choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+You can also find the list of assisted setup guides if you [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Assisted Setup**, and then choose the related link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -98,7 +98,7 @@ The **Assisted Setup** page might contain other entries. When you finish a setup
 
 Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration. Check out the [quick start](quick-start-business-central.md) articles to help you take the first steps.  
 
-## See also
+## Related information
 
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

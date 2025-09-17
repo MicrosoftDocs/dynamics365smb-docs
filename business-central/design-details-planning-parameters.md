@@ -4,7 +4,7 @@ description: This article describes the different planning parameters that you c
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

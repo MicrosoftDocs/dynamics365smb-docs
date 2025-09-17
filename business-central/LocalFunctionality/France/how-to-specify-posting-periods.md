@@ -2,7 +2,7 @@
 title: How to Specify Posting Periods [FR]
 description: Learn how to specify posting periods to limit the period in which posting is allowed.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: posting period, French version
 ms.date: 04/24/2025

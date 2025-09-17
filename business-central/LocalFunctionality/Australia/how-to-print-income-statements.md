@@ -2,7 +2,7 @@
 title: Print income statements [AU]
 description: Learn how to view the company's annual income statement in the Australian version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: annual income statement, income statement report, legal report, auditing accounts, revenues, expenses, revenues and expenses, Australian version
 ms.date: 03/26/2025

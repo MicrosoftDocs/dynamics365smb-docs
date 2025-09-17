@@ -1,11 +1,11 @@
 ---
 title: Advanced Localization Pack for Czech (Extension) [CZ]
-description: This section describes Advanced Localization Application Pack for Czech extension functionality.
+description: Learn about the features and functionality provided by the Advanced Localization Pack for Czech extension.
 author: v-pejano
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 11/06/2023
-ms.reviewer: bholtorf
+ms.date: 06/06/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -29,7 +29,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Skip Update SKU on Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
   - [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Available Now**
 
-## See also
+## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  

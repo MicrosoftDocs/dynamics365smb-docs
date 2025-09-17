@@ -2,7 +2,7 @@
 title: Export positive pay files
 description: You can ensure your bank only clears validated checks and amounts by exporting a positive pay file that contains vendor and payment information.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: check, clearing
 ms.search.form: 1231, 1232, 1233, 1234
@@ -21,14 +21,14 @@ To make sure that your bank only clears validated checks and amounts, you can ex
 
 ## To set up a bank account for positive pay
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.
 2. Open the card for the bank that you want to use positive pay for.
 3. In the **Positive Pay Export Format** field, choose the format for your bank.
 4. Close the page.
 
 ## To export a positive pay file
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to export a positive pay file for.
 3. Choose **Positive Pay Export** action.
 
@@ -41,7 +41,7 @@ To make sure that your bank only clears validated checks and amounts, you can ex
 
 ## To view exported positive pay records
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to view positive pay export records for.
 3. Choose the **Positive Pay Entries** action.
 
@@ -51,7 +51,7 @@ To make sure that your bank only clears validated checks and amounts, you can ex
 
 ## To reexport positive pay files
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to reexport positive pay files for.
 3. Choose the **Positive Pay Entries** action.
 4. Select the line for the positive pay export file that you want to reexport.

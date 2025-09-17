@@ -1,12 +1,12 @@
 ---
 title: Compensation localization for Czech
-description: The application provides functionality for offsetting receivables and payables in Business Central for the Czech Republic.
+description: Enables offsetting receivables and payables in Business Central for Czech companies, supporting mutual settlements between customers and vendors.
 author: v-pejano
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Compensation, Finance, CZ, Cash
-ms.date: 11/23/2023
-ms.reviewer: v-pejano
-ms.author: v-jiurxo
+ms.date: 09/17/2025
+ms.reviewer: bv-soumramani
+ms.author: v-pejano
 ---
 
 # Compensation localization for Czech (extension)
@@ -61,9 +61,9 @@ Follow the steps below to check the posted compensation:
 2. Click on the Find Entries link.
 3. This will open a page tab with a list of related entries, where you can check which accounts the compensation has been posted to by selecting G/L Entry.
 
-## See also
+## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

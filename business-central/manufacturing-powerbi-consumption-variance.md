@@ -4,7 +4,7 @@ description: The Consumption Variance report highlights the variance between exp
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37046_Primary
 ms.date: 11/01/2024
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Consumption Variance** report highlights the variance between expected and actual consumption costs on a monthly basis. The report can give a better understanding of consumption and ways to optimize production processes.
 
-:::image type="content" source="media/manufacturing/consumption-variance.png" alt-text="Screenshot of the Consumption Variance Power BI Report" lightbox="media/manufacturing/consumption-variance.png":::
+:::image type="content" source="media/manufacturing/consumption-variance-v26.png" alt-text="Screenshot of the Consumption Variance Power BI Report" lightbox="media/manufacturing/consumption-variance-v26.png":::
 
 ## Use the report
 
@@ -29,14 +29,17 @@ Production supervisors use this report to track the consumption costs of product
 
 ## Key Performance Indicators (KPIs)
 
-The *Consumption Variance* report includes the following KPIs and measures: 
+The *Consumption Variance* report includes the following KPIs and measures:
 
-- [Consumption Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#consumption-cost-amt-deviation)
-- [Expected Consumption Cost Amount](manufacturing-powerbi-kpis.md#expected-consumption-cost-amount)
-- [Consumed Cost Amount (Actual)](manufacturing-powerbi-kpis.md#consumed-cost-amount-actual)
-- [Consumption Cost Amt. Variance](manufacturing-powerbi-kpis.md#consumption-cost-amt-variance)
+- [Actual Material Cost](manufacturing-powerbi-kpis.md#actual-material-cost)
+- [Expected Material Cost](manufacturing-powerbi-kpis.md#expected-material-cost)
+- [Standard Material Cost](manufacturing-powerbi-kpis.md#standard-material-cost)
+- [Expected Material Cost Variance](manufacturing-powerbi-kpis.md#expected-material-cost-variance)
+- [Expcted Material Cost Dev %](manufacturing-powerbi-kpis.md#expected-material-cost-dev-percent)
+- [Standard Material Cost Variance](manufacturing-powerbi-kpis.md#standard-material-cost-variance)
+- [Standard Material Cost Dev %](manufacturing-powerbi-kpis.md#standard-material-cost-dev-percent)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -53,7 +56,7 @@ Try the report here: [Consumption Variance](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

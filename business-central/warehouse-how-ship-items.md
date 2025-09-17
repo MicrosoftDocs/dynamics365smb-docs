@@ -4,7 +4,7 @@ description: This article describes how to ship items from your warehouse.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/10/2024
 ms.custom: bap-template
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
@@ -40,7 +40,7 @@ You can create a warehouse shipment in one of two ways:
 
 ## To ship items using a warehouse shipment document
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Shipments**, then choose the related link.  
 2. Choose **New**.  
 3. In the **No.** field, choose the number series to use to create an ID for the shipment.  
 4. In the **Location Code** field, choose the location you're shipping from. 
@@ -116,7 +116,7 @@ After you post the warehouse shipment, various fields on the sales order line ar
 >
 > The assemble-to-order quantity is handled as described in this article. The inventory quantity is handled as a regular warehouse shipment line. To learn more about combination scenarios, go to [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

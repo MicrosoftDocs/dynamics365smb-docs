@@ -2,7 +2,7 @@
 title: Set up and use the IRS 1099 form [US]
 description: Learn how to set up the 1099 tax form boxes so that you can submit the required reports.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: local, 1099
 ms.search.form: 26, 29, 50, 51, 10015, 10016, 10018, 10900
 ms.date: 02/04/2025
@@ -107,7 +107,7 @@ The report uses the codes that apply to the form amount boxes from the **1099 Fo
 >
 > - Regulatory changes affecting this report and the table data are handled in end-of-year updates.
 
-## See also
+## Related information
 
 - [Regulatory 1099 Format Changes and Details](tax-1099-changes.md)  
 - [United States Local Functionality](united-states-local-functionality.md)  

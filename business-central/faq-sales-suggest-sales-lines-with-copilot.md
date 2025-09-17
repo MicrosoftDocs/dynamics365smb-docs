@@ -4,9 +4,10 @@ description: This FAQ provides information about the AI technology used in Busin
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
-ms.topic: article
+ms.topic: faq
 ms.search.form:
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs

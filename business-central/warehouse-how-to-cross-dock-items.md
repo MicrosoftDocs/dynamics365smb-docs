@@ -4,7 +4,7 @@ description: Learn how to receive and ship items without putting them in storage
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: 15, 5703, 7302, 7332, 5768
@@ -48,14 +48,14 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 
     If you are using zones, create a zone for your cross-dock bins, and select the **Cross-Dock Bin Zone** field. If you are using directed put-away and picks, select bin type with **Pick** selected, for example you can use *PICK* or *PUTPICK*. To learn more about zones and bin types, go to [Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md) and [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
 
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Location**, and then choose the related link.  
 3. On the **Location** page, select the location that you want to set up the warehouse for cross-docking, and then choose the **Edit** action.  
 4. On the **Warehouse** FastTab, turn on the **Use Cross-Docking** toggle and fill in the **Cross-Dock Due Date Calc.** field with the time to search for cross-dock opportunities.
 
     The **Use Cross-Docking** option is only available if the **Require Receipt**, **Require Shipment**, **Require Pick**, and **Require Put-away** fields are selected.  
 
 5. If you're using bins, on the **Bins** FastTab, fill in the **Cross-Dock Bin Code** field with the code of the bin you would like to use as the default cross-dock bin.  
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Unit**, and select the related link.  
+6. [!INCLUDE[open-search](includes/open-search.md)], enter **Stockkeeping Unit**, and select the related link.  
 7. For each item or stockkeeping unit that you want to be able to cross-dock, select the item, and then choose the **Edit** action.
 8. On the **Stockkeeping Unit Card** page, select the **Use Cross-Docking** check box.  
 
@@ -64,7 +64,7 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 
 ## To cross-dock items without viewing the opportunities  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Receipts**, and then choose the related link.  
 2. Create a warehouse receipt for an item that's arrived and can be cross-docked. To learn more about receiving, go to [Receive Items](warehouse-how-receive-items.md).  
 3. Fill in the **Qty. to Receive** field, and then choose the **Calculate Cross-Dock** action.  
 
@@ -82,7 +82,7 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 
 ## To cross-dock items after viewing the opportunities  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Receipts**, and then choose the related link.  
 2. Create a warehouse receipt for an item that has arrived and can be cross-docked.  
 
     You want to view the source document lines that are requesting the item before you post the receipt.  
@@ -108,7 +108,7 @@ When a production order is released, the lines are available in the pick workshe
 
 If you aren't using bins, remember to check the cross-dock area from time to time, or rely on notifications from receipts that items for production have arrived.  
 
-## See Also  
+## Related information  
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

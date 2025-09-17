@@ -1,11 +1,11 @@
-﻿---
+---
 title: Introduction to Contoso Coffee Demo Data
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the capabilities in Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.date: 09/20/2023
-ms.topic: article
+ms.topic: concept-article
 ms.service: dynamics-365-business-central
 ms.search.form: 5194,
 ms.custom: bap-template
@@ -40,7 +40,7 @@ The following table describes the settings:
 
 After you configure the modules you want to try out, choose the **Generate** action to create demonstration data for them.
 
-## See also
+## Related information
 
 [Manufacturing](../production-manage-manufacturing.md)  
 [Warehousing](../warehouse-manage-warehouse.md)  

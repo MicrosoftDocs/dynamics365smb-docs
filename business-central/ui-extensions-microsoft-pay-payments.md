@@ -2,7 +2,7 @@
 title: Microsoft Pay Standard
 description: The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.form: 1080, 1081, 1083, 1085, 1087, 1089
 ms.date: 12/12/2023
@@ -36,7 +36,7 @@ The Microsoft Pay extension provides the following benefits:
 
 Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you'll need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  

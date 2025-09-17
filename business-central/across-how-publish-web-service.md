@@ -2,7 +2,7 @@
 title: Expose objects as web services
 description: Publish objects as web services to make them immediately available for your Business Central solution.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 810_Primary
 ms.date: 01/31/2025
 ms.author: bholtorf
@@ -21,7 +21,7 @@ The following steps explain how to create and publish a web service.
 
 ### To create and publish a web service  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Web Services**, and then choose the related link.  
 2. On the **Web Services** page, choose **New**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -62,7 +62,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## See Also
+## Related information
 
 [Administration](admin-setup-and-administration.md)  
 [Business Central Web Services for developers](/dynamics365/business-central/dev-itpro/webservices/web-services)  

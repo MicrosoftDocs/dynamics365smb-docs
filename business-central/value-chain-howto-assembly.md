@@ -2,7 +2,7 @@
 title: Sustainability value chain in assembly orders
 description: Learn how to work with assembly orders related to the sustainability value chain process.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain, assembly
 ms.search.form: 900,
@@ -20,7 +20,7 @@ The requirement for enabling the use of the sustainability value chain in the as
 
 To do so, follow next steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Setup**, and then select the related link.
 2. Check whether the basic setup already exists. If it doesn't, follow [these instructions](finance-sustainability-setup.md) to set it up.  
 3. On the **Procurement** FastTab, fill in the following fields:
    1. **Enable Value Chain tracking** to enable sustainability value entries postings through value chain operations and the visibility of these fields in operational documents and journals.
@@ -39,7 +39,7 @@ To use an assembly order in the sustainability value chain process, add CO2e (ca
 
 To do so, follow next steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly orders**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Assembly orders**, and then select the related link.
 2. Create a new assembly order, or open the existing order you want to use. To learn more about assembly orders, go to [To assemble an item to stock](assembly-how-to-assemble-items.md#to-assemble-an-item-to-stock).
 3. If your items and resources in the assembly order lines already have default sustainability accounts and emissions, the values are added in the **Sustainability Account No.** and **Total CO2e** fields. You can change these values if you want.
 4. If you didn't have these default values for your items or resources, choose a **Sustainability Account No.**, and then fill in the **Total CO2e** field with the total emission amount for this line. The amount is for the whole quantity, regardless how many items are assembled at this moment. [!INCLUDE [prod_short](includes/prod_short.md)] recalculates the value for the specific consumption.

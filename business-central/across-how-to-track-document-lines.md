@@ -2,7 +2,7 @@
 title: Track Order Lines to Related Documents
 description: View documents related to sales and purchase order lines, like quotes, shipments, receipts, and blanket orders, to identify documents used to process orders.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
@@ -16,7 +16,7 @@ You can view documents that are related to sales order lines and purchase order 
 ## To track documents related to a sales order line
 The following procedure describes how to track from a sales order line. The steps are similar for purchase order and blanket order lines.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2.  Open a sales order that you want to track from.  
 3.  Select a line, and then choose the **Document Line Tracking** action.
 4. On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.
@@ -24,7 +24,7 @@ The following procedure describes how to track from a sales order line. The step
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## See Also
+## Related information
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

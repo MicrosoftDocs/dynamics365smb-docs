@@ -2,7 +2,7 @@
 title: Walkthrough conducting a sales campaign
 description: This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 01/31/2024
@@ -62,7 +62,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### To set up a campaign  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Campaigns**, and then choose the related link.  
 2. Choose the **New** action to create a new campaign. On the campaign card, select <kbd>Enter</kbd> to have a campaign number automatically inserted.  
 3. In the **Description** field, enter a description for the campaign, for example, **Office Futurus trade show**.  
 4. Choose the **Status Code** field, and select the status code "1-PLAN". 
@@ -155,11 +155,11 @@ The marketing manager decides that the reduced list is the final list of contact
 
 The attachments are sent. When the process is done, choose the **OK** button for the message that states that the segment has been logged.  
 
- The letters are automatically printed and the segment is logged. Because the segment has been logged, it's no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
+ The letters are automatically printed and the segment is logged. Because the segment has been logged, it's no longer in the list of segments but is moved to the list of logged segments. To see that list, [!INCLUDE[open-search](includes/open-search.md)], enter **Logged Segments**, and then choose the related link.  
 
 After the segment is logged, each letter that is sent is recorded as an interaction, which you can view in the log.  
 
-Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries**, and then choose the related link. There's an entry for each sent letter.  
+[!INCLUDE[open-search](includes/open-search.md)], enter **Interaction Log Entries**, and then choose the related link. There's an entry for each sent letter.  
 
 ### To send an email message to a contact  
 
@@ -172,7 +172,7 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 7. Select the **Create Follow-up Segment** check box.  
 8. Choose the **OK** button.  
 
- The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it's no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
+ The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it's no longer in the list of segments but is saved in the list of logged segments. To see that list, [!INCLUDE[open-search](includes/open-search.md)], enter **Logged Segments**, and then choose the related link.  
 
 ## Register campaign responses
 
@@ -194,7 +194,7 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 7. On the **Segment** page, choose the **Log** action.  
 8. On the **Log Segment** page, clear the **Send Attachments** check box. Then choose the **OK** button to confirm the message that the segment has been logged.  
   
-## See also  
+## Related information  
 [Relationship Management](marketing-relationship-management.md)  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

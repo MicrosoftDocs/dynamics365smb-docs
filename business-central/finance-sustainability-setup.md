@@ -2,7 +2,7 @@
 title: Set up sustainability features in Business Central
 description: Learn how to configure the Sustainability module to track and report your greenhouse gas emissions and carbon fees.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, water, waste, value chain, role center, fees
 ms.search.form: 6221, 6235, 6245
@@ -22,7 +22,7 @@ If your primary responsibilities involve sustainability processes, we recommend 
 
 To configure the Role Center, follow the steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **My settings**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **My settings**, and then select the related link.
 2. In the **Role** field, select the **Available Roles** page.
 3. Choose **Sustainability Manager**.
 4. Select **OK**.
@@ -33,7 +33,7 @@ Specify some general settings for sustainability, such as the unit of measure fo
 
 To configure these settings, follow these steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Setup**, and then select the related link.
 2. On the **General** FastTab, configure the required fields that are related to sustainability.
 
     | Field | Description |
@@ -90,7 +90,7 @@ To configure these settings, follow these steps:
 
 To track internal carbon fees or calculate your emissions using carbon dioxide (CO2) equivalents, configure the **Emission Fees** page.  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Emission Fees**, and then select the related link. 
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Emission Fees**, and then select the related link. 
 2. In the **Emission Type** field, choose the greenhouse gas (GHG) emission you want to configure: **CO2**, **CH4**, or **N2O**. This field is mandatory.
 3. Specify the **Scope Type**. If you leave this field blank, it applies to all scopes, but you can configure it for each scope.  
 4. Specify a **Starting Date** and **Ending Date**. These dates let you use different configurations for different periods.

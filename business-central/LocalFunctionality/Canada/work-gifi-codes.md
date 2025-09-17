@@ -2,7 +2,7 @@
 title: GIFI Codes in Canada
 description: In Canada, you can set up General Index of Financial Information (GIFI) codes and assign them to posting accounts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: local, GIFI, posting accounts
 ms.search.form: 10017
@@ -60,7 +60,7 @@ You can export balance information using GIFI codes and save the exported file i
 * The balance is rounded to the nearest percentage, but the cell value maintains the same percentage as it does in the general ledger.
 * Negative numbers are represented as positive number in brackets. Accordingly, -123 is represented as (123).
 
-## See also
+## Related information
 
 - [Canada Local Functionality](canada-local-functionality.md)  
 - [Finance](../../finance.md)

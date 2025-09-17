@@ -2,7 +2,7 @@
 title: How to Fiscally Close Years
 description: Learn the process of fiscally closing periods in a fiscal year to prevent further general ledger postings.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: fiscal closing, close fiscal period, close accounting period, close fiscal year, French version
 ms.date: 04/15/2025

@@ -1,0 +1,1 @@
+Get an overview of retained earnings from the start of the period you specify in the report filter, net income, and distributions to shareholders.

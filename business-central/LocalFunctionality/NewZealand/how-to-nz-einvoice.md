@@ -1,12 +1,12 @@
 ---
 title: Electronic invoicing in New Zealand
-description: This article explains how to work with the New Zealand localization of the E-Document framework.
+description: Learn how to work with the New Zealand localization of the E-Document framework.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: E-Documents, E-Document framework, e-invoice, electronic invoice, Peppol, PINT A-NZ
 ms.search.form: 
-ms.date: 02/14/2025
+ms.date: 05/06/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -18,7 +18,7 @@ This article provides information on how to work with the New Zealand localizati
 
 ## E-Documents framework setup
 
-You can read detailed information on how to set up the E-Documents framework [here](../../finance-how-setup-edocuments.md).  
+You can read detailed information on how to set up the E-Documents framework in [Set up e-documents](../../finance-how-setup-edocuments.md).  
 
 ### Set up local formats  
 
@@ -40,7 +40,7 @@ To learn more about using the E-Documents framework into your purchasing and sal
 - [Use E-Documents in the sales process](../../finance-how-use-edocuments.md)
 - [Use E-Documents in the purchasing process](../../finance-how-use-edocuments-purchase.md)
 
-## See also
+## Related information
 
 - [Set up E-Documents](../../finance-how-setup-edocuments.md)  
 - [How to use E-Documents in sales](../../finance-how-use-edocuments.md)  

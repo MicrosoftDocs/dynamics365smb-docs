@@ -4,7 +4,7 @@ description: Provides an overview of all the features that support analytics tas
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: feature overview
 ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
@@ -19,7 +19,7 @@ ms.custom: bap-template
 |Analyze data with built-in Power BI reports. | [Work with Power BI Reports](across-working-with-powerbi.md) |
 |Get insight into which reports users use| [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## See also
+## Related information
 
 [Analytics overview](reports-bi-reporting.md)
 

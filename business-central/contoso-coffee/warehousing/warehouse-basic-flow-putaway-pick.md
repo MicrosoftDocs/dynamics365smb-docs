@@ -2,7 +2,7 @@
 title: Receiving, Puting-away, Picking and Shipping in Basic Warehouse Configuration
 description: In Business Central, the inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
@@ -167,7 +167,7 @@ This is a continuation of [Inbound flow: Receiving and Putting Away in Basic War
  - the item **Inventory** is decreased by the chosen quantity
 
 
-## See Also
+## Related information
 [Put-Away Items with Inventory Put-Aways](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Set Up Basic Warehouses with Operations Areas](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Design Details: Inbound Warehouse Flow](../../design-details-inbound-warehouse-flow.md) 

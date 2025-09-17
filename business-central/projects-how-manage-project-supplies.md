@@ -33,7 +33,7 @@ Later, you can review the purchase lines linked to the project either from the *
 
 ### Use a semi-automated replenishment process for a project
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 2. Open a project that you want to purchase items for.
 3. Choose the **Create Purchase Orders** action.
 4. The **Create Purchase Orders** page shows a line for each item on the project. Lines for both fully available quantities and unavailable quantities show by default. To show only unavailable quantities, choose the **Show Unavailable** action.
@@ -51,7 +51,7 @@ You can review the purchase lines linked to the project either from the **Projec
 
 The following procedure shows how to use a purchase invoice to purchase products for a project. The same steps apply when using a purchase order.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Order**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Order**, and then choose the related link.  
 2. Choose the **New** action and fill in the fields as necessary. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Project No.** and **Project Task No.** fields, select the information of the project that you want to purchase items or services for. Use the personalization tools if a field isn't visible. To learn more, go to [Personalize Your Workspace](ui-personalization-user.md).
 
@@ -68,7 +68,7 @@ Project ledger entries are created as follows:
 
 ### To view the value of purchases for a project
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 2. Open a relevant project card.
 
     On the **Tasks** FastTab, the **Outstanding Orders** field shows the total outstanding amount, in local currency, of inventory items and services on purchase documents for the project task line.  
@@ -80,7 +80,7 @@ Project ledger entries are created as follows:
 
 If you incur extraordinary or one-time project expenses, you can use the **Project G/L Journal** page to post them directly to the relevant project account.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project G/L Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project G/L Journals**, and then choose the related link.  
 2. Create a new line and enter information about the expense, including information in the **Project No.** and **Project Task No** fields.  
 3. When the journal is complete, choose the **Post** action.
 

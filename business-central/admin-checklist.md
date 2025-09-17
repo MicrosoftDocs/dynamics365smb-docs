@@ -2,7 +2,7 @@
 title: Onboard Users with Checklists
 description: Learn how to set up checklists that help users get started in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: checklist
 ms.search.keywords: setup, wizard, checklist
 ms.search.form: 1992, 1993, 1994, 1995, 1990, 1997, 1801
 ms.date: 04/01/2021
@@ -18,7 +18,7 @@ The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_shor
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Checklist Administration**, and choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Checklist Administration**, and choose the related link.  
 
 3. Choose the **New** action, and then choose **Create checklist item**.  
 
@@ -27,7 +27,7 @@ The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_shor
     > [!TIP]
     > If the step is for a setup guide, the **Task** field specifies the setup guide. If the step is for learning more, the **Task** field specifies the link to the article or e-learning module.
 
-## See also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  

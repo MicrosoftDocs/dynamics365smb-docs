@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - Statutory company information [CZ]
-description: This feature allows users to define company officials and designate them as General Manager, Accounting, and Finance Managers in internal and external documents.
+description: The Statutory company information feature enables users to define company officials and assign them roles for inclusion in internal and external documents.
 author: v-makune
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 11/20/2023
-ms.reviewer: bholtorf
+ms.date: 06/06/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -24,10 +24,10 @@ Users can define document footers in different languages. Such footers can be us
 
 Additional company registration numbers and other registration information can be stored on the **Company Information** page and used in documents.
 
-## See also
+## Related information
 
-[Czech local functionality](czech-local-functionality.md)  
-[Statutory statements](statutory-statements.md)
-[Finance](../../finance.md)
+- [Czech local functionality](czech-local-functionality.md)  
+- [Statutory statements](statutory-statements.md)
+- [Finance](../../finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

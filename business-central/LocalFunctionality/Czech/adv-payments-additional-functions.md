@@ -1,6 +1,6 @@
 ---
-title: Advance Payment Additional Features (Corrections)  
-description: This section explains the Advance Payment Additional Features (Corrections) in the Czech localization extension.  
+title: Extra features for Advance Payments (Corrections)  
+description: This article explains the extra features for Advance Payments (Corrections) in the Czech version.  
 author: v-pejano
 ms.reviewer: v-pejano  
 ms.author: v-pejano  
@@ -11,9 +11,9 @@ ms.date: 09/17/2025
 ms.custom: bap-template
 ---
 
-# Additional Features (Corrections)
+# Extra features for Advance Payments (Corrections)
 
-In addition to core functionality such as creating, paying, and applying advances, the Advance Payments application also provides several supplementary features to simplify work with advance documents. These additional features let you do things like:
+In addition to core functionality such as creating, paying, and applying advances, the Advance Payments application also provides several supplementary features to simplify work with advance documents. These extra features let you do things like:
 
 - Reverse an advance VAT document.
 - Unlink an incorrect payment from an advance.
@@ -55,7 +55,7 @@ To unlink a payment from an advance:
 
 ### Unlink a payment from advance via vendor or customer entries
 
-You can also unlink payments directly from vendor or customer entries. From a customer entry that have a **Document Type – Payment** and **Advance Letter No.**, use the **Unlink Advance Letter** function.
+You can also unlink payments directly from vendor or customer entries. From a customer entry that has a **Document Type – Payment** and **Advance Letter No.**, use the **Unlink Advance Letter** function.
 
 1. Find the vendor or customer entry used to pay the advance letter.
 2. Choose **Unlink Advance Letter**.
@@ -74,7 +74,7 @@ To link a payment to an advance retrospectively:
 4. In the **Advance Letter No.** field, select an available advance.
 5. Choose the advance, and confirm with **OK**.
 6. Confirm the linking page with **OK**.
-7. The payment is now linked to the advance. An entry with **Entry Type – Payment**, and possibly **VAT Payment**, is created. This is reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from a balancing account to an advance account.
+7. The payment is now linked to the advance. An entry with **Entry Type – Payment**, and possibly **VAT Payment**, is created. This entry is reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from a balancing account to an advance account.
 
 ## Unapply an advance from a posted invoice
 
@@ -92,7 +92,7 @@ To unapply an advance from a posted invoice:
 1. Find the posted invoice linked to the advance.
 2. Choose **Unapply Advance Letter**.
 3. Confirm the dialog.
-4. The advance is unapplied. In advance entries, opposite **Entry Type – Usage**, and possibly **VAT Usage**, lines are created. These are reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from a balancing account to an advance account.
+4. The advance is unapplied. In advance entries, opposite **Entry Type – Usage**, and possibly **VAT Usage**, lines are created. These entries are reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from a balancing account to an advance account.
 
 ## Add an advance to a posted invoice
 
@@ -104,7 +104,7 @@ If an advance wasn't linked when you posted a sales or purchase invoice, you can
 > - The original posting and VAT dates are reused.
 > - Preview isn't available before posting.
 > - The advance amount can't exceed the remaining balance of the posted invoice. If the invoice was partially paid, adjust the advance amount manually.
-> - The system doesn't auto-adjust the applied amount. You must enter it manually.
+> - The system doesn't automatically adjust the applied amount. You must enter it manually.
 
 To add an advance to a posted invoice:
 
@@ -116,7 +116,7 @@ To add an advance to a posted invoice:
 6. Repeat for more advances if needed.
 7. Adjust the **Amount** field so that it doesn't exceed the remaining invoice balance.
 8. Confirm the link with **OK**.
-9. The advance is now linked. Entries with **Entry Type – Usage**, and possibly **VAT Usage**, are created. These are reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from balancing accounts to advance accounts.
+9. The advance is now linked. Entries with **Entry Type – Usage**, and possibly **VAT Usage**, are created. These entries are reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from balancing accounts to advance accounts.
 
 ## Related information
 

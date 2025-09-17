@@ -1,17 +1,19 @@
 ---
-title: Czech local functionality - hide rows with zero quantity in cz document reports
-description: This functionality feature enable make Czech localization document reports clearer by hiding lines with zero quantity.
+title: Hide rows with zero quantity in document reports in the Chech version
+description: This article describes how to make document reports clearer by hiding lines with zero quantity in the Czech localization.
 author: v-makune
+ms.reviewer: v-pejano
+ms.author: v-jiurxo
 ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 11/07/2023
-ms.reviewer: v-pejano
-ms.author: v-jiurxo
+ms.date: 09/17/2025
+ms.custom: bap-template
 ---
-# Hide rows with zero quantity in CZ document reports
 
-By setting the Hide lines with zero quantity toggle in the dialog of these Czech localization document reports, the user can control whether to print or hide lines with zero quantity in the report:
+# Hide rows with zero quantity in document reports
+
+To streamline data in reports, the **Hide lines with zero quantity** toggle on the request page for the following reports lets you control whether to print or hide lines that have a quantity of zero:
 
 - Sales Invoice
 - Sales Shipment
@@ -19,7 +21,7 @@ By setting the Hide lines with zero quantity toggle in the dialog of these Czech
 - Sales Return Reciept
 - Purchase Invoice
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

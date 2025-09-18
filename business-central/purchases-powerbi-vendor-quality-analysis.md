@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Vendor Quality Analysis** report analyzes vendor performance, showcasing vendor quality, returns, reliance and purchase discount trends. By visualizing key purchasing metrics over time, item distribution and spending diversity, this report provides a breakdown of vendor behaviors to continuously improve supplier performance and mitigate  purchasing risks.
 
-:::image type="content" source="media/purchases/vendor-quality-analysis.png" alt-text="Screenshot of the Vendor Quality Analysis Power BI report" lightbox="media/purchases/purchases-vendor-quality-analysis.png":::
+:::image type="content" source="media/purchases/purchases-vendor-quality-analysis.png" alt-text="Screenshot of the Vendor Quality Analysis Power BI report" lightbox="media/purchases/purchases-vendor-quality-analysis.png":::
 
 ## Use the report
 

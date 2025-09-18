@@ -1,124 +1,125 @@
 ---
-title: Advance Payment Additional Features (Corrections)  
-description: This section explains the Advance Payment Additional Features (Corrections) in the Czech localization extension.  
+title: Extra features for Advance Payments (Corrections)  
+description: This article explains the extra features for Advance Payments (Corrections) in the Czech version.  
 author: v-pejano
-
-ms.service: dynamics-365-business-central  
-ms.topic: article  
-ms.search.keywords: Czech, Advance Payments, Localization  
-ms.date: 07/01/2025  
 ms.reviewer: v-pejano  
 ms.author: v-pejano  
+ms.service: dynamics-365-business-central  
+ms.topic: concept-article  
+ms.search.keywords: Czech, Advance Payments, Localization  
+ms.date: 09/17/2025  
+ms.custom: bap-template
 ---
 
-# Additional Features (Corrections)
+# Extra features for Advance Payments (Corrections)
 
-The Advance Payments application, in addition to core functionality such as creating, paying, and applying advances, also provides several supplementary features to simplify working with advance documents. These additional features include:
+In addition to core functionality such as creating, paying, and applying advances, the Advance Payments application also provides several supplementary features to simplify work with advance documents. These extra features let you do things like:
 
-- Reversing an advance VAT document
-- Unlinking an incorrect payment from an advance
-- Adding a payment to an advance retrospectively
-- Unapplying an advance from a posted invoice
-- Adding an advance to a posted invoice
+- Reverse an advance VAT document.
+- Unlink an incorrect payment from an advance.
+- Add a payment to an advance retrospectively.
+- Unapply an advance from a posted invoice.
+- Add an advance to a posted invoice.
 
-## Reversing an Advance VAT Document
+## Reverse an Advance VAT document
 
-This function is used when a VAT document was mistakenly posted for a purchase advance payment and needs to be reversed.
+Use this function when you need to reverse a VAT document you mistakenly posted for a purchase advance payment.
 
 To reverse an advance VAT document:
 
 1. Choose the ![Light bulb icon that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Advance Letters**, and then choose the related link.
 2. In the list, locate the paid purchase advance letter with a posted VAT document. Use the **Advance Letter Entries** function.
-3. In the list of purchase adv. letter entries, place the cursor on the line with **Entry Type – VAT Payment**.  
+3. In the list of purchase advance letter entries, choose the line with **Entry Type – VAT Payment**.  
+
    ![Purchase Advance Invoice Entries](Media/adv-payments-additional-function-cancel.png)
-4. On the action bar, choose **Post Credit Memo VAT**.
+4. Choose the **Post Credit Memo VAT** action.
 5. A page opens with prefilled information from the **VAT Payment** line. Review and confirm with **OK**.
-6. A new entry with **Entry Type – VAT Payment** and opposite sign is created. The entry is reflected in both general ledger and VAT entries.
+6. A new entry with **Entry Type – VAT Payment** and an opposite sign is created. The entry is reflected in both the general ledger and VAT entries.
 
-To post a new VAT document for the advance again, place the cursor on the **Payment** line and choose **Post Payment VAT**.
+To post a new VAT document for the advance again, choose the **Payment** line, and then choose **Post Payment VAT**.
 
-## Unlinking an Incorrect Payment from an Advance
+## Unlink an incorrect payment from an advance
 
-If an incorrect payment was linked to an advance, it can be unlinked. This function is available from the advance letter entries using **Unlink Advance Payment**. Unlinking is only possible if the payment has not yet been applied to a final document.
-
-### Unlinking a Payment from an Advance
+If an incorrect payment is linked to an advance, you can unlink it from the advance letter entries using **Unlink Advance Payment**. Unlinking is only possible if the payment isn't applied to a final document.
 
 To unlink a payment from an advance:
 
 1. Choose the ![Light bulb icon](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Advance Letters**, and choose the related link.
 2. In the list, find the paid purchase advance letter.
 3. Use the **Advance Letter Entries** function.
-4. Place the cursor on the line with **Entry Type – Payment**.  
+4. Choose the line with **Entry Type – Payment**.  
    ![Unlink advance payment](Media/adv-payments-additional-function-uncon.png)
 5. Choose the **Unlink Advance Payment** action.
-6. A new entry with **Entry Type – Payment** and opposite sign is created. If a VAT document (line with **Entry Type – VAT Payment**) existed for the payment, a new reversed **VAT Payment** entry is also created.
-7. The entry is reflected in general ledger and VAT. New vendor/customer entries are created to reclassify the advance account to standard balance account.
+6. A new entry with **Entry Type – Payment** and an opposite sign is created. If a VAT document (line with **Entry Type – VAT Payment**) existed for the payment, a new reversed **VAT Payment** entry is also created.
+7. The entry is reflected in the general ledger and VAT. New vendor/customer entries are created to reclassify the advance account to a standard balancing account.
 
-### Unlinking a Payment from Advance via Vendor/Customer Entries
+### Unlink a payment from advance via vendor or customer entries
 
-Unlinking can also be done directly from vendor or customer entries. From a customer entry with **Document Type – Payment** and filled **Advance Letter No.**, use the **Unlink Advance Letter** function.
+You can also unlink payments directly from vendor or customer entries. From a customer entry that has a **Document Type – Payment** and **Advance Letter No.**, use the **Unlink Advance Letter** function.
 
-1. Find the vendor/customer entry used to pay the advance letter.
+1. Find the vendor or customer entry used to pay the advance letter.
 2. Choose **Unlink Advance Letter**.
-3. A new entry with **Entry Type – Payment** and opposite sign is created. If a VAT document existed, a reversed **VAT Payment** is also created.
-4. The entry is reflected in general ledger and VAT. New vendor/customer entries are created to reclassify the item between advance and standard balance accounts.
+3. A new entry with **Entry Type – Payment** and an opposite sign is created. If a VAT document existed, a reversed **VAT Payment** is also created.
+4. The entry is reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify the item from advance to a standard balancing account.
 
-## Retrospective Payment Assignment to an Advance
+## Retrospective payment assignment to an advance
 
-If a vendor/customer payment was posted without being linked to an advance, it can be connected later from vendor/customer entries.
+If you post a vendor or customer payment without linking it to an advance, you can create the link later from vendor or customer entries.
 
 To link a payment to an advance retrospectively:
 
-1. Find an open vendor/customer entry with **Document Type = Payment**.
+1. Find an open vendor or customer entry with **Document Type = Payment**.
 2. Choose **Link Advance Letter**.
-3. On the opened page, choose *New*.
-4. Use the assist button in the **Advance Letter No.** field to select an available advance.
-5. Place the cursor on the desired advance and confirm with **OK**.
+3. On the page that opens, choose **New**.
+4. In the **Advance Letter No.** field, select an available advance.
+5. Choose the advance, and confirm with **OK**.
 6. Confirm the linking page with **OK**.
-7. The payment is now linked to the advance. An entry with **Entry Type – Payment**, and possibly **VAT Payment**, is created. This is reflected in general ledger and VAT. New vendor/customer entries are created to reclassify from balance account to advance account.
+7. The payment is now linked to the advance. An entry with **Entry Type – Payment**, and possibly **VAT Payment**, is created. This entry is reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from a balancing account to an advance account.
 
-## Unapplying an Advance from a Posted Invoice
+## Unapply an advance from a posted invoice
 
-If an advance was mistakenly applied to an invoice, the link can be removed.
+If you mistakenly applied an advance to an invoice, you can remove the link.
 
-Function limitations:
-
-- If multiple advances are applied to an invoice, they must all be removed together.
-- The reversal uses the same posting and VAT date as the original.
-- If the accounting period is closed or restricted, the reversal cannot be performed.
+> [!NOTE]
+> This function has a few limitations:
+>
+> - If multiple advances are applied to an invoice, they must all be removed together.
+> - The reversal uses the same posting and VAT date as the original.
+> - If the accounting period is closed or restricted, the reversal can't be done.
 
 To unapply an advance from a posted invoice:
 
 1. Find the posted invoice linked to the advance.
 2. Choose **Unapply Advance Letter**.
 3. Confirm the dialog.
-4. The advance is unapplied. In advance entries, opposite **Entry Type – Usage**, and possibly **VAT Usage**, lines are created. These are reflected in general ledger and VAT. New vendor/customer entries are created for reclassification between balance and advance accounts.
+4. The advance is unapplied. In advance entries, opposite **Entry Type – Usage**, and possibly **VAT Usage**, lines are created. These entries are reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from a balancing account to an advance account.
 
-## Adding an Advance to a Posted Invoice
+## Add an advance to a posted invoice
 
-If an advance was not linked during posting of a sales or purchase invoice, it can be added afterward from the posted invoice using **Apply Advance Letter**.
+If an advance wasn't linked when you posted a sales or purchase invoice, you can add it later from the posted invoice by using **Apply Advance Letter**.
 
-Function limitations:
-
-- The original posting and VAT dates are reused.
-- No preview is available before posting.
-- The advance amount must not exceed the remaining balance of the posted invoice. If the invoice was partially paid, the advance amount must be adjusted manually.
-- The system does not auto-adjust the applied amount—user must enter it.
+> [!NOTE]
+> This function has a few limitations:
+>
+> - The original posting and VAT dates are reused.
+> - Preview isn't available before posting.
+> - The advance amount can't exceed the remaining balance of the posted invoice. If the invoice was partially paid, adjust the advance amount manually.
+> - The system doesn't automatically adjust the applied amount. You must enter it manually.
 
 To add an advance to a posted invoice:
 
 1. Find the posted invoice without linked advance.
 2. Use **Apply Advance Letter**.
 3. On the opened page, choose **New**.
-4. Use the assist button in the **Advance Letter No.** field to select an advance.
-5. Place the cursor on the desired advance and confirm with **OK**.
+4. In the **Advance Letter No.** field, select an advance.
+5. Choose the advance, and confirm with **OK**.
 6. Repeat for more advances if needed.
-7. Adjust the **Amount** field to not exceed the remaining invoice balance.
-8. Confirm the linking with **OK**.
-9. The advance is now linked. Entries with **Entry Type – Usage**, and possibly **VAT Usage**, are created. These are reflected in general ledger and VAT. New vendor/customer entries are created for reclassification between balance and advance accounts.
+7. Adjust the **Amount** field so that it doesn't exceed the remaining invoice balance.
+8. Confirm the link with **OK**.
+9. The advance is now linked. Entries with **Entry Type – Usage**, and possibly **VAT Usage**, are created. These entries are reflected in the general ledger and VAT. New vendor or customer entries are created to reclassify them from balancing accounts to advance accounts.
 
-## See Also
+## Related information
 
 [Advance Payments for Czech Republic (extension)](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  

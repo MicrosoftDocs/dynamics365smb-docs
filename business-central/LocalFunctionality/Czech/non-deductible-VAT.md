@@ -10,19 +10,20 @@ ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
-# Non-deductible VAT for Czech
+# Non-Deductible VAT in the Czech version
 
 ## Non-deductible VAT
 
-If the VAT payer uses the received taxable supplies within their economic activities both for supplies eligible for tax deduction and for tax-exempt, they're entitled to deduct tax only in the reduced amount. VAT on input must be reduced by the calculated coefficient. Non-deductible VAT functionality allows the application of a shortening coefficient to accounting cases.
+If the VAT payer uses the received taxable supplies within their economic activities both for supplies eligible for tax deduction and for tax-exempt, they are entitled to deduct tax only in the shortened amount. VAT on input must be shortened by the calculated coefficient. Non-deductible VAT functionality allows the application of a shortening coefficient to accounting cases.
 
-The value of the VAT reduction coefficient can be set for the whole company in one place. The value is applied to all marked combinations of VAT posting groups. In addition to the input tax reduction through the shortening coefficient, it's also possible to set a 100% tax reduction in the VAT account group combination, that is, the case when there's no entitlement to apply VAT on the input side, but the output side (in the case of transactions under the reverse charge regime) has to report VAT in full. The VAT reduction also applies to the VAT Report and the VAT Control Reports, which include the entire unreduced amounts. After the end of the calendar year, it's possible, on the basis of the calculated settlement coefficient, recalculate all VAT entries from period and post the difference between the originally applied and the settlement coefficient.
+The value of the coefficient can be set for the whole company in one place. The value will be applied to all marked combinations of VAT posting setup. In addition to the input tax shortening through the shortening coefficient, it is also possible to set a 100% tax reduction in the VAT posting setup, i.e. the case when there is no entitlement to apply VAT on the input side, but the output side (in the case of transactions under the reverse charge regime) has to report VAT in full. The VAT reduction is also applies to the VAT Statement and the VAT Control Reports, which include the entire unabbreviated amounts. After the end of the calendar year, it is possible, on the basis of the calculated settlement coefficient, recalculate all VAT entries from period and post the difference between the originally applied and the settlement coefficient.
+
 
 ### Module functionality includes
 
 - Setting Non-Deductible VAT at a reduced or full amount
 - Adjustment of input VAT postings, inclusion of non-deductible VAT in related accounts, the purchase price of items or assets
-- Adjustment of VAT Reports and VAT Control Reports
+- Adjustment of VAT Statements and VAT Control Reports
 - Reports for VAT reconciliation
 - The settlement coefficient at the end of the calendar period
 
@@ -33,34 +34,35 @@ The value of the VAT reduction coefficient can be set for the whole company in o
 
 ## Activation of non-deductible VAT
 
-The activation of the Non-Deductible VAT functionality starts on the page **VAT Setup** by selecting the **Enable Non-Deductible VAT** field. If you have the **Core Localization Pack for Czech** application installed, the standard non-deductible VAT functionality is automatically extended for Czech posting and reporting purposes.
+The functionality is activated on the page **VAT Setup** by selecting the **Enable Non-Deductible VAT** field. If you have the **Core Localization Pack for Czech** application installed, the standard non-deductible VAT functionality is automatically extended for Czech posting and reporting purposes.
 
 Switch the value of the field **Enable Non-Deductible VAT** to YES, the other related fields are activated. By running functionality, new fields in the tables are automatically activated, enabling them is irreversible.
 
 ## Basic principles of posting non-deductible VAT
 
-When applying non-deductible input VAT (partial reduction through a reduction coefficient or full reduction without deduction), the value of the non-deductible VAT is added to the basic account where the posting case is posted.
+When using non-deductible VAT on input (partial shortening through a shortening coefficient or full shortening without deduction), the value of the non-deductible VAT is added to the to the basic account where the posting case is posted.
+
 
 If there's no account in the relevant VAT combination in the VAT Posting Setup
 in the **Non-Deductible Purchase VAT account** field, the amount of non-deductible VAT is added to the account used in the posting entry. Otherwise (that is, if you set any account), this
 account is used to post the non-deductible part of the VAT amount.
 
-The amount is posted to the VAT accounts at a reduced value (or not at all), but the amounts should be reported in the original amount according to the original VAT document in the VAT Report or VAT Control Reports. In order to distinguish between the amounts in the posting and the amounts in the reporting, the non-deductible VAT functionality has extended the VAT Entries table with new fields:
+The amount is posted to the VAT accounts at a reduced value (or not at all), but the amounts should be reported in the original amount according to the original VAT document in the VAT Statement or VAT Control Reports. In order to distinguish between the amounts in the posting and the amounts in the reporting, the non-deductible VAT functionality has extended the VAT Entries table with new fields:
 
 - **Base** - standard field, shows the amount of the reduced base
 - **Amount** - standard field, shows the amount of reduced VAT
 - **Non-deductible VAT base** - shows the amount of the base not applied in VAT
 - **Non-deductible amount of VAT** - shows the amount of VAT not applied in VAT
 - **Deductible VAT base** - shows the amount of the VAT base increased by non-deductible VAT
-- **% of non-deductible VAT** - shows the value of the VAT coefficient applied to the entry
-- **Amount of VAT base (original)** - shows the value of the VAT base on the original document
-- **Amount of VAT (original)** - shows the amount of VAT on the original document
+- **Non-Deductible VAT %** - shows the value of the VAT coefficient applied to the entry
+- **Original VAT Base** - shows the value of the VAT base on the original document
+- **Original VAT Amount** - shows the amount of VAT on the original document
 
 **VAT Return** must be reported in the original amounts in the original unreduced range. The parameterization of the VAT Statement should be adapted to this - see **VAT Report Setup**.
 
 The **VAT Control Report** should also be reported in the original amounts. The function for retrieving the lines of the control report is adapted so that it uses the **Original VAT Base** and **Original VAT Amount** from the VAT entry. Reduced values aren't included in the control report.
 
-At the end of the calendar period, the advance coefficient must be recalculated retrospectively (This isn't handled in the Business Central system, you need to proceed in your usual way.). The value of the calculated settlement coefficient is entered in the **Non-Deductible VAT Setup** in the appropriate field and at the same time it's set as the value of the advance coefficient for the following period. If the settlement coefficient differs from the advance coefficient, you must run a batch job **VAT Coefficient Correction** to recalculate the entries.
+At the end of the calendar period, the advance coefficient must be recalculated retrospectively (This is not handled in the Business Central system, you need to proceed in usual way.). The value of the calculated settlement coefficient is entered in the **Non-Deductible VAT Setup** in the appropriate field and at the same time it is set as the value of the advance coefficient for the following period. If the settlement coefficient differs from the advance coefficient, you must run a batch job **VAT Coefficient Correction** to recalculate the entries.
 
 This batch job goes through all VAT entries of the specified period with combinations of VAT posting groups set as input VAT reduction. It compares the value of the applied reduction coefficient in the field **Non-deductible VAT %** and the value of the posting coefficient. It calculates the difference and posts it as a new VAT entry in which it adjusts the VAT base and amount. The difference in VAT is posted to the **VAT Coefficient Correction Account** from **VAT Posting Setup**.
 
@@ -70,15 +72,15 @@ To work with the Non-Deductible VAT functionality, you need to carry out specifi
 
 ### Setting the range of use non-deductible VAT
 
-The functionality of Non-Deductible VAT is automatically applied when posting accounting cases with direct posting to financial accounts. You can also use it when posting the item cost, for job costs or fixed assets cost.
+The functionality of Non-Deductible VAT is automatically applied when posting accounting cases with direct posting to financial accounts simply by being turned on. You can also use it when posting the item cost, for project costs or fixed assets cost.
 
 On the **VAT Setup** page, activate the fields as required
 
 - **Use for Item Cost**
 - **Use for Fixed Asset Cost**
-- **Use for Job Cost**
+- **Use for Project Cost**
 
-Once activated, the value of the non-deductible VAT is automatically added to the purchase price of the items, the cost of the assets or the job costs.
+Once activated, the value of the non-deductible VAT will be automatically added to the purchase price of the items, the cost of the assets or the project costs.
 
 ### VAT product posting groups setup
 

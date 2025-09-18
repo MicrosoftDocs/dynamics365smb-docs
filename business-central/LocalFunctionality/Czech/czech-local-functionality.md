@@ -47,8 +47,6 @@ The following articles describe the local functionality in the Czech version of 
   * [Non-deductible VAT](non-deductible-vat.md) **Available Now**
   * [VAT Return CZ](vat-return-cz.md) **Available Now**
   * [Functional Currency – Czechia](functional-currency.md) **Available Now**
-
-* Intrastat
   * [Intrastat CZ (Extension)](ui-extensions-intrastat-localization-cz.md) **Available Now**
 
 * Fixed Assets
@@ -79,15 +77,15 @@ The following articles describe the local functionality in the Czech version of 
 
 * General
   * [Extended User Control](how-to-setup-extended-user-control.md) **Available Now**
-  * [Check of Posting Group Changing](check-of-posting-group-changing.md) **Available Now**
-  * [Check of Output Inventory Time Sequence](check-output-inventory-time-sequence.md) **Available Now**
+  * [Control of Posting Group Changes](check-of-posting-group-changing.md) **Available Now**
+  * [Control of Output Inventory Time Sequence](check-output-inventory-time-sequence.md) **Available Now**
   * [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   * [Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
-  * [Mandatory Return Exact Costs in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Available Now**
+  * [Mandatory Exact Cost Return in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Available Now**
   * [Automatic Creation and Update of Dimensions](how-to-setup-automatic-creation-and-update-dimensions.md) **Available Now**
   * [Additional Fields in Item Ledger Entries](how-to-use-add-fields-item-entries.md) **Available Now**
-  * [Genral Posting Group from Stockkeeping Unit](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**
-  * [Skip Update of Stockkeeping Unit on Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
+  * [General Production Posting Group in Stock keeping Unit](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**
+  * [Skip Update for Stock keeping Unit at Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
   * [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Available Now**
   * [Use modern search in CZ applications](use-modern-search-cz.md) **Available Now**
   * [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-documents-reports.md) **Available Now**

@@ -4,7 +4,7 @@ description: The *Sales by Customer* report gives a clear picture of your organi
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37005_Primary
 ms.date: 10/26/2024
@@ -59,7 +59,7 @@ Try the report here: [Sales by Customer](https://businesscentral.dynamics.com?pa
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  

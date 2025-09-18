@@ -2,7 +2,7 @@
 title: How to Create special orders
 description: Learn how to create a special order for a specific catalog item to be shipped to a specific customer.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 02/20/2024
@@ -20,12 +20,12 @@ Before you can use this feature, you must first set up the customer, vendor, and
 
 ## To create a special order
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Order**, and then choose the related link.  
 2. Choose the **New** action. Create and fill in a  sales order for the item. For more information, see [Sell Products](sales-how-sell-products.md).
 3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected.
 
     You must now create a purchase order from a requisition worksheet.  
-4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheets**, and then choose the related link.  
+4. [!INCLUDE[open-search](includes/open-search.md)], enter **Requisition Worksheets**, and then choose the related link.  
 5. Choose the **Special Order** action, and then choose the **Get Sales Orders** action.  
 6.  On the **Get Sales Orders** page, show results where the **Document No.** is the sales order number. Choose the **OK** button. A requisition worksheet line is created for the item.  
 7.  On the requisition worksheet line, in the **Action Message** field, select **New**.  
@@ -38,7 +38,7 @@ A purchase order created as a special order for a sales order is respected by th
 > [!NOTE]  
 >  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
 
-## See also
+## Related information
 
 [Work with Catalog Items](inventory-how-work-nonstock-items.md)  
 [Sales](sales-manage-sales.md)  

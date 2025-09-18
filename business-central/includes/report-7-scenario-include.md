@@ -1,0 +1,1 @@
+To check the debit and credit net change and closing balance compared to the same period in the previous calendar year, view a snapshot of your chart of accounts at a given point.

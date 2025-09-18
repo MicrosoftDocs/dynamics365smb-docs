@@ -2,7 +2,7 @@
 title: Change VAT Setup in Journals
 description: Add VAT setup information to journal lines if necessary. If items are entered without VAT, there's no need to manually remove VAT setup information.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: VAT, VAT setup, journal lines, British version
 ms.search.form: 39
@@ -29,7 +29,7 @@ You can add VAT setup information to journal lines if needed in the British vers
 
 1. Choose the **OK** button.  
 
-## See also
+## Related information
 
 - [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 - [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  

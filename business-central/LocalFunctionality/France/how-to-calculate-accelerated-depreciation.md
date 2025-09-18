@@ -2,7 +2,7 @@
 title: How to Calculate Accelerated Depreciation [FR]
 description: In Business Central, you calculate periodic depreciation for fixed assets by using the Calculate Depreciation batch job. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: periodic depreciation, fixed assets, calculate depreciation, accelerated depreciation, French version
 ms.search.form: 5610, 5611

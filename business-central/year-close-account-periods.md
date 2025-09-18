@@ -4,7 +4,7 @@ description: This article describes how to close the accounting periods that mak
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100,
 ms.date: 08/05/2024
@@ -17,7 +17,7 @@ When a fiscal year is over, you must close the periods that comprise it.
 
 ## To close accounting periods
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
 
     If more than one fiscal year is open, the earliest one is automatically selected to be closed. A message identifies the year that will close and the results of its closing.
@@ -32,7 +32,7 @@ Although a fiscal year is closed, you can still post general ledger entries to i
 
 After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed fiscal year.
 
-## See also
+## Related information
 
 [Closing Books](year-close-books.md)    
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)    

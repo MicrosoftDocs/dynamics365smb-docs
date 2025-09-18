@@ -4,7 +4,7 @@ description: Archiving data creates a low-cost backup of your records.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 01/30/2023
 ms.custom: bap-template
 ms.search.form: 630
@@ -55,6 +55,6 @@ To start archiving data when you run one of the batch jobs, turn on the **Archiv
 
 The archived data is stored in the **Tenant Media** table. We recommend that you export old archives to, for example, a CSV file and then delete the old archive records.
 
-## See Also
+## Related information
 
 [Manage Storage by Deleting Documents or Compressing Data](admin-manage-documents.md)

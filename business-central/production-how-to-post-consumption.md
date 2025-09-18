@@ -4,7 +4,7 @@ description: If the flushing method is Manual, post the components manually usin
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 99000846, 99000850
 ms.date: 03/20/2025
 ms.service: dynamics-365-business-central
@@ -22,7 +22,7 @@ You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatica
 
 ## To post consumption for one or more production order lines
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Consumption Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the consumption data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Use the **Calc. Consumption** action to generate journal lines from production orders based on the actual output (the quantity of finished goods that you reported) or on the expected output (the quantity of finished goods that you expect to produce).

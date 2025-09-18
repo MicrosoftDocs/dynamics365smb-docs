@@ -4,7 +4,7 @@ description: You create an assembly BOM to specify the components required to pu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: assembly bom, bills of material, 
 ms.search.form: 36, 5870, 5872, 5874
@@ -48,7 +48,7 @@ There are two parts to creating an assembly BOM:
 
 You can edit the lines on an assembly BOM at any time. However, the BOM might be in use by ongoing sales or assemblies of the parent. Changing the BOM might affect those activities. Choose the **Where-Used** action to explore the items that use it and whether sales or assembly orders might be affected.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, then choose the related link.
 2. Choose the **Yes** value in the **Assembly BOM** column.
 3. On the **Assembly BOM** page, choose the **Edit List** action, then change any field as needed.
 
@@ -56,7 +56,7 @@ You can edit the lines on an assembly BOM at any time. However, the BOM might be
 
 From the **Assembly BOM** page, you can open a separate page that shows the components and any resources indented according to their BOM position under the assembly item.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
 3. On the **Item Card** page, choose the **Assembly** action, then choose the **Assembly BOM** action.
 4. On the **Assembly BOM** page, choose the **Show BOM** action.
@@ -72,7 +72,7 @@ The **Explode BOM** action is also available on the **Assembly BOM** page as a w
 
 The following procedure is based on a sales invoice. The same steps apply to other sales documents and all purchase documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Invoices**, then choose the related link.
 2. Open a sales invoice that contains a line for an assembly item.
 3. Choose the line for an assembly item, then **Explode BOM** line action.
 
@@ -90,7 +90,7 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 > [!NOTE]
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
 3. On the **Item Card** page, choose the **Assembly BOM** action.
 4. On the **Assembly BOM** page, choose the **Calc. Standard Cost** action.
@@ -103,9 +103,9 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
 
-You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Update Standard Costs](finance-about-calculating-standard-cost.md#updating-standard-costs-with-standard-cost-worksheet).  
+You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Updating standard costs with the Standard Cost Worksheet](finance-about-calculating-standard-cost.md#updating-standard-costs-with-the-standard-cost-worksheet).
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Manage Product Variants](inventory-item-variants.md)  

@@ -2,7 +2,7 @@
 title: Transfer data from a QuickBooks app
 description: You can migrate data such as customers, vendors, inventory items, and G/L accounts from QuickBooks apps to Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.search.form: 1808 
@@ -29,9 +29,9 @@ For more information, read about the extension that suits your QuickBooks app:
 
 ## Ready now?
 
-If you're ready to get started now, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
+If you're ready to get started now, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
 
-## See also
+## Related information
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing Business Central Using Extensions](ui-extensions.md)   

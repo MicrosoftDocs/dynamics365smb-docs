@@ -2,7 +2,7 @@
 title: Set up and export sales VAT advance notifications
 description: Learn how to set up and export sales VAT advance notifications in Business Central by configuring the necessary declaration and setup pages.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT advance notifications, sales VAT notifications, export VAT notifications, German version
 ms.date: 03/12/2025

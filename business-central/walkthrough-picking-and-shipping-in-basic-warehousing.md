@@ -4,7 +4,7 @@ description: This article describes various levels of complexity in picking and 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
@@ -136,7 +136,7 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
-## See also
+## Related information
 
 [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

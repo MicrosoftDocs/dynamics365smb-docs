@@ -4,7 +4,7 @@ description: If your locations use picking and shipping, pick components for pro
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 03/19/2025
 ms.custom: bap-template    
@@ -68,7 +68,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
 ## To create pick documents in bulk with the pick worksheet
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Pick Worksheet**, and then choose the related link.  
 2. Choose the **Get Warehouse Documents** action.  
 
     The list shows the released production, projects, and assembly orders that have been forwarded to the pick function. The orders include those for which pick instructions are already created. Documents with pick lines that have been picked and registered aren't shown on this list.  
@@ -120,7 +120,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
 ## To pick items for a production order, assembly order, or project
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Picks**, and then choose the related link.  
 
     If you need to work on a particular pick, select the pick from the list or filter the list to find the picks that have been assigned to you. Open the pick card.  
 2. If the **Assigned User ID** field is empty, enter your ID to identify yourself, if needed.  

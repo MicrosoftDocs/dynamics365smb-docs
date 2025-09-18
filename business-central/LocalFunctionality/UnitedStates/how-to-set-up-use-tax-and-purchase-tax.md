@@ -2,7 +2,7 @@
 title: Set Up Use Tax and Purchase Tax [US]
 description: This article explains how sales tax includes taxes that companies pay for using items in the US version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: use tax, purchase tax, sales tax
 ms.search.form: 315, 466, 467, 468, 469
@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [use-tax-purchase-tax-setup](../includes/CAMXUS/use-tax-purchase-tax-setup.md)]
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [Reporting Sales Tax in the US](us-sales-tax.md)  

@@ -61,7 +61,7 @@ You can adjust the values of the **VAT Amount** and **Non-Deductible VAT Amount*
 > [!IMPORTANT]
 > You can't use non-deductible VAT on the prepayment invoices.
 
-## See also
+## Related information
 
 [Financial Management](finance.md)
 

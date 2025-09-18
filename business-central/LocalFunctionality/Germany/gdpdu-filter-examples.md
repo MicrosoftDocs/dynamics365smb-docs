@@ -2,7 +2,7 @@
 title: GoBD filter examples [DE]
 description: Learn how to use filter types when you set up your GoBD exports.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: GoBD exports, filter types, German version, set up export record source, table filter, date filter handling
 ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027

@@ -2,7 +2,7 @@
 title: Apply and Unapply General Ledger Entries [BE]
 description: Learn how to apply and unapply general ledger entries in the Belgian version of Business Central, to allow working with temporary and transfer accounts in the general ledger.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: apply general ledger entries, unapply general ledger entries, temporary accounts, transfer accounts
 ms.date: 04/01/2025

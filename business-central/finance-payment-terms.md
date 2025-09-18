@@ -4,7 +4,7 @@ description: Use payment terms to manage due dates and payment discounts.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 4,
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
@@ -24,7 +24,7 @@ If you want to send your customers reminders of overdue payments, you must set u
 
 ## To set up payment terms
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Terms**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 After you set up the payment terms, you assign them to customers and vendors. Optionally, assign payment terms to your payment methods.  
@@ -47,7 +47,7 @@ The following table lists the table for payment terms and its ID.
 [!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
 
-## See also
+## Related information
 
 [Set Up Payment Methods](finance-payment-methods.md)  
 [Set Up Prepayments](finance-set-up-prepayments.md)  

@@ -2,7 +2,7 @@
 title: Use Invoicing and Business Central
 description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365 Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
@@ -26,7 +26,7 @@ So you will have to sign in to [!INCLUDE[prod_short](includes/prod_short.md)] an
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)].
 2. In the top right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose **My Settings**.
 3. In the **Company** field, choose a different company.
-4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
+4. [!INCLUDE[open-search](includes/open-search.md)], enter **Companies**, and then choose the related link.  
 5. On the **Companies** page, choose **Edit List**.  
 6. Change the name of the *My Company* entry to something else.  
 
@@ -41,7 +41,7 @@ When you rename the original My Company, the database tables that store your exi
 
 If you use both Invoicing and [!INCLUDE[prod_short](includes/prod_short.md)], the data is stored in two different containers (the two companies). Nothing is shared, so you'll have to manage customers and items in both companies.  
 
-## See Also
+## Related information
 [Frequently Asked Questions](across-faq.yml)  
 [Administration](admin-setup-and-administration.md)  
 

@@ -2,7 +2,7 @@
 title: Set Up Codes for Standard Services
 description: Learn how to set up codes for regularly performed service activities with a predefined set of service lines.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 06/23/2021
@@ -21,17 +21,17 @@ When you perform typical service, you often have to create service documents tha
   
 ## To set up a standard service code
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Service Codes**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Standard Service Codes**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Fill in the service lines linked to this service code.  
 
 ## To assign a standard service code to a service item group
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service item Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service item Groups**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fill in the service lines linked to this service code.  
 
-## See Also
+## Related information
 
 [Service Management](service-service.md)
 

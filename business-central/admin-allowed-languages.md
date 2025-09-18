@@ -4,7 +4,7 @@ description: Learn how to build a list of the languages that are available in yo
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 
 ms.date: 02/19/2025
 ms.custom: bap-template
@@ -20,7 +20,7 @@ To avoid confusion and make it easier for people to select a language they can u
 
 ## Create a list of allowed languages
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Allowed Languages**, and choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Allowed Languages**, and choose the related link.
 1. In the **Language ID** field, choose the language to allow.
 1. Repeat step 2 for each language that you installed a language app for.
 

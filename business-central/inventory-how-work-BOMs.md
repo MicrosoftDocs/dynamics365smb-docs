@@ -4,7 +4,7 @@ description: You create an assembly BOM or production BOM to specify the compone
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: bills of material, assembly BOM, production BOM,
 ms.search.form: 
@@ -37,7 +37,7 @@ The concept of resources in production is much more advanced than in assembly ma
 
 Both assembly orders and production orders might be linked directly to sales orders. However, you can only use assembly orders to customize the end item directly for a customer request with the sales order.
 
-## See also
+## Related information
 
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)    
 [Create Production BOMs](production-how-to-create-production-boms.md)    

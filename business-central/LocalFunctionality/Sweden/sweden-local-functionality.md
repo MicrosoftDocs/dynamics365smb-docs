@@ -2,7 +2,7 @@
 title: Sweden Local Functionality [SE]
 description: The links in this article describe the different local functionality in the Swedish version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sweden localization, local functionality, Swedish version
 ms.date: 02/06/2025
@@ -36,7 +36,7 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 
 Starting with release 2023 wave 1 (v22.3), Swedish localization is updated to work as an extension on a top of W1 BaseApp. For the next three releases, you can choose whether to enable new features. After this period, old features will become obsolete and the new localization will be automatically enabled.
 
-## See also
+## Related information
 
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 - [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

@@ -2,7 +2,7 @@
 title: Sustainability default data
 description: Learn how to set up default sustainability values for your master data.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, emission, GHG, CSRD, carbon, CO2, value chain
 ms.search.form: 16, 30, 76, 5800, 99000754, 99000760
@@ -29,7 +29,7 @@ To simplify how you manage your sustainability accounts and emissions, you can c
 
 To set up a default sustainability account for a G/L account, follow these steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of accounts**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of accounts**, and then select the related link.
 2. In the **No.** field, choose the number for the account you want to configure to open the **G/L Account Card** page.  
 3. On the **Sustainability** FastTab, use the **Default Sust. Account** field to select the sustainability account you want to use as the default.
 4. Close the page.
@@ -40,14 +40,14 @@ For items, you can use the manually entered sustainability account, or use the d
 
 ### Specify a default sustainability account for an item category
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item categories**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item categories**, and then select the related link.
 2. In the **Code** field, choose the code for the category you want to configure to open the **Item Category Card** page.  
 3. On the **Sustainability** FastTab, use the **Default Sust. Account** field to select the sustainability account you want to use as the default for the category.
 4. Close the page.
 
 ### Specify default sustainability values for an item  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then select the related link.
 2. Open the card for an item for which you want to set up default values.  
 3. Add the default sustainability account:
 
@@ -77,7 +77,7 @@ For items, you can use the manually entered sustainability account, or use the d
 
 To set up default sustainability values for a resource, follow these steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **resources**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **resources**, and then select the related link.
 2. Open the card for a resource for which you want to set up default values.
 3. On the **Sustainability** FastTab, use the **Default Sust. Account** field to select the sustainability account to use as the default.  
 4. Fill in the following fields for default emissions for the resource:
@@ -100,7 +100,7 @@ To set up default sustainability values for a resource, follow these steps:
 
 To set up default sustainability values for a work center, follow these steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work centers**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Work centers**, and then select the related link.
 2. Open the **Work Center Card** page for a work center for which you want to set up default values.  
 3. On the **Sustainability** FastTab, use the **Default Sust. Account** field to select the sustainability account to use as the default.  
 4. Fill in the following fields for default emissions for this work center:
@@ -126,7 +126,7 @@ To set up default sustainability values for a work center, follow these steps:
 
 To set up default sustainability values for a machine center, follow these steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Machine centers**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Machine centers**, and then select the related link.
 2. Open the **Machine Center Card** for a machine center for which you want to set up default values.  
 3. On the **Sustainability** FastTab, use the **Default Sust. Account** field to select the sustainability account to use as the default.  
 4. Fill in the following fields for default emissions for this machine center:

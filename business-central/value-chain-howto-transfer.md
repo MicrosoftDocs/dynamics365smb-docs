@@ -2,7 +2,7 @@
 title: Sustainability value chain in transfers
 description: Learn how to work with transfer orders and their effect on the sustainability value chain process.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain, transfer
 ms.search.form: 5740,
@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 To use the sustainability value chain with transfer orders, you must enable the **Enable Value Chain Tracking** field on the **Sustainability Setup** page.  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Setup**, and then select the related link.
 2. Check whether the basic setup already exists. If it doesn't, follow [these instructions](finance-sustainability-setup.md) to set it up.  
 3. On the **Procurement** FastTab, select the **Enable Value Chain tracking** field.
 4. Close the page.
@@ -31,7 +31,7 @@ To use transfer orders in the sustainability value chain process, you must add t
 
 After you post a transfer order, you can find entries related to the transfer on the **Posted Transfer Shipment** page. To find the entries, follow these steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted transfer shipments**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted transfer shipments**, and then select the related link.
 2. Open the **Posted Transfer Shipment** you want to check, and then choose the **Find entries** action.
 3. On the **Find entries** page, choose **Sustainability Value Entry** to review the transactions related to this document.
 4. Close the page.

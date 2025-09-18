@@ -2,7 +2,7 @@
 title: Service Price Management
 description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021
@@ -45,7 +45,7 @@ You set up the actual types of service pricing (price adjustment type and price)
 For example, you can set up types of service pricing for a radio service price group. For customers without a price group, you can decide to have service pricing with maximum price on labor, which is the labor price adjustment group. For customers with a particular price group, you can decide to have service pricing with a fixed price on labor, the same labor price adjustment group.  
 
 #### [Current Experience](#tab/current-experience)
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.  
 2. Select the service item, expand the **Prices and Sales** FastTab, choose the **Resource**, **Item**, or **G/L Account** action.
 3. On the **Project Resource Prices**, **Project Item Prices**, or **Project G/L Account Prices** pages, fill in the fields as necessary.
 
@@ -65,7 +65,7 @@ The following table describes the calculations.
 |**Maximum**|This means that you put an upper limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total price exceeds the amount specified in the service price group.|  
 |**Minimum**|This means that you put a lower limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total amount is less than the amount specified on the service price group.|  
   
-## See Also  
+## Related information  
 [Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
 [Setting Up Service Management](service-setup-service.md)  
 

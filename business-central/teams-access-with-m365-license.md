@@ -23,6 +23,6 @@ To learn more about access with Microsoft 365 Licenses, go to [Business Central 
 
 [Set Up Business Central Access in Teams with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  
 
-## See also
+## Related information
 
 [Troubleshoot Access with Microsoft 365 Licenses](admin-access-with-m365-license-troubleshooting.md)  

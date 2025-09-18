@@ -2,7 +2,7 @@
 title: Make payments with AMC banking (US) or SEPA credit transfer (EU)
 description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
@@ -52,7 +52,7 @@ Before you can process payment electronically by exporting payment files in the 
 
 ### To set up a bank account for SEPA Credit Transfer
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.  
 2. Choose the bank account from which you export payment files in the SEPA Credit Transfer format.
 3. On the **General** FastTab, in the **Credit Transfer Msg. Nos.** field, choose a number series from which numbers are assigned to SEPA credit transfer entries.
 4. On the **Communication** FastTab, enter address and contact information for the bank. 
@@ -70,7 +70,7 @@ Before you can process payment electronically by exporting payment files in the 
 
 ### To set up a vendor card for SEPA Credit Transfer
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then choose the related link.  
 2. Open the card of the vendor you pay electronically using export payment files in the SEPA Credit Transfer format.  
 3. On the **Payments** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money transfers when it's processed by your electronic bank.  
@@ -79,14 +79,14 @@ Before you can process payment electronically by exporting payment files in the 
 
 ### To set the payment journal up to export payment files
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.  
 2. In the **Batch Name** field, choose the drop\-down button.  
 3. On the **General Journal Batches** page, choose the **Edit List** action.  
 4. On the line for the payment journal that you use to export payments, select the **Allow Payment Export** checkbox.  
 
 ### To connect the data exchange definition for one or more payment types with the relevant payment method or methods
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Methods**, and then choose the related link.  
 2. On the **Payment Methods** page, select the payment method that is used to export payments from, and then choose the **Pmt. Export Line Definition** field.  
 3. On the **Pmt. Export Line Definitions** page, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the "To describe the formatting of lines and columns in the file" section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
 
@@ -109,7 +109,7 @@ Use the **Credit Transfer Registers** page to view the payment files that export
 
 The following steps describe how to pay a vendor by check. The steps are similar to refund a customer by check.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 
     > [!NOTE]
@@ -155,14 +155,14 @@ You can re-export payment files from the **Credit Transfer Registers** page. Bef
 > [!NOTE]  
 > Exported EFT files are not shown on the **Credit Transfer Registers** page and cannot be re-exported.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Credit Transfer Registers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Credit Transfer Registers**, and then choose the related link.
 2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.
 
 ## Posting the payments
 
 After your bank processes the electronic payment, post the payments. For more information, see [Making Payments](payables-make-payments.md).
 
-## See also
+## Related information
 
 [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
 [Managing Payables](payables-manage-payables.md)  

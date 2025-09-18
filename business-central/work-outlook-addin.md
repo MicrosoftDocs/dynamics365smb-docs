@@ -2,7 +2,7 @@
 title: Using Business Central with Outlook
 description: This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 06/14/2024
@@ -69,11 +69,11 @@ The following sections lead you through some basic tasks to give you a general u
 
 ### View and change the contact details or switch company
 
-The action bar at the top of the [!INCLUDE[prod_short](includes/prod_short.md)] add-in pane includes several actions that let your dig deeper into details about the contact and change things.
+The action bar at the top of the [!INCLUDE[prod_short](includes/prod_short.md)] add-in pane includes several actions that let you dig deeper into details about the contact and change things.
 
 ![Business Central add-in action bar in Outlook.](media/outlook-addin-action-bar.png)
 
-For example, you can open the full contact details as you would see them in [!INCLUDE[prod_short](includes/prod_short.md)]. If you work with more that one [!INCLUDE[prod_short](includes/prod_short.md)] company, you can easily switch between companies.
+For example, you can open the full contact details as you would see them in [!INCLUDE[prod_short](includes/prod_short.md)]. If you work with more than one [!INCLUDE[prod_short](includes/prod_short.md)] company, you can easily switch between companies.
 
 ### Track incoming documents
 
@@ -93,7 +93,7 @@ Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](include
 
 Your email inbox often serves as a source of incoming files that initiate or unblock workflows. Files can include things like PDF invoice payments, photos of goods, or requirements in a Word document. When working in Outlook with Business Central records like vendors, customers, purchase invoices, or sales orders, you can attach these files to the records.
 
-There's a couple ways you can attach files. One way is to upload files from your device. The other way is upload files that are attached to an email. For example, suppose you get an email with files from a contact. The add-in will automatically display the contact record that matches the email sender. From there, you can navigate to a document for the contact, like the latest sales order. Once you've identified the order that the email relates to, you quickly upload the files from the email to that order.
+There's a couple ways you can attach files. One way is to upload files from your device. The other way is to upload files that are attached to an email. For example, suppose you get an email with files from a contact. The add-in will automatically display the contact record that matches the email sender. From there, you can navigate to a document for the contact, like the latest sales order. Once you've identified the order that the email relates to, you quickly upload the files from the email to that order.
 
 ![Shows how to add attachments from an email to records in Business Central.](media/outlook-attach-files.png)
 
@@ -122,7 +122,7 @@ If you're using the Outlook app, just choose **Document Link** at the top of the
 > [!TIP]
 > Starting in 2022 release wave 1, documents open in a new browser window with all the capabilities that you know from [!INCLUDE [prod_short](includes/prod_short.md)]. You can navigate from a document to a list and back again, open lists in Excel, send documents to be printed, and run or preview related reports. You also have all of the familiar keyboard shortcuts right there when you open documents from Outlook.  
 
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

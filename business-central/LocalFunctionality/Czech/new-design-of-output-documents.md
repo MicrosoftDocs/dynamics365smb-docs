@@ -1,20 +1,19 @@
 ---
 title: Czech Local Functionality - New design of output documents 
-description: This section describes local functionality - New design of output documents.
+description: Learn about the new standardized design of output documents in the Czech version, including enhancements to meet Czech legislative requirements.
 author: v-makune
-
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
-ms.reviewer: bholtorf
+ms.date: 06/05/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
+# New design of output documents in the Czech version
 
-# New Design of Output Documents in the Czech Version
+A new set of printed reports for external documents is created. All documents have the same layout design (headers, footers, font type, and size, etc.).
 
-A new set of printed reports for external documents is created. All documents have the same layout design (headers, footers, font type and size, etc.).
 Additionally to standardization, Dynamics NAV documents were extended according to all requirements required by the Czech legislation:  
 
 - Registration No., VAT Registration No.
@@ -23,11 +22,10 @@ Additionally to standardization, Dynamics NAV documents were extended according 
 - Naming of tax corrective documents based on Credit Memo type
 - Printout of documents related to advance payments
 
-## See Also
+## Related information
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
-
+- [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech local functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

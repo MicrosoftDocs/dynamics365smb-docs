@@ -1,10 +1,10 @@
 ---
-title: Keyboard shortcuts
+title: Keyboard Shortcuts
 description: View a list of key combinations (keyboard shortcuts) that you can use to work efficiently with your data.
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/03/2025
+ms.date: 08/04/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -21,7 +21,7 @@ You can find an overview of the most popular keyboard shortcuts in [Keyboard sho
 > [!TIP]
 > For a graphical view of the most-used keyboard shortcuts, select the following image, and download the PDF file.
 >
-> [![Icon for the PDF file.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2024.pdf "Icon that opens a PDF")
+> [![Icon for the PDF file.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2025.pdf "Icon that opens a PDF")
 
 ## Overview of keyboard shortcuts
 
@@ -47,7 +47,7 @@ The following table describes the keyboard shortcuts for navigating and accessin
 | <kbd>Alt</kbd>+<kbd>Down arrow</kbd> | Open a dropdown list or look up a value for a field. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd><kbd>Down Arrow</kbd>|Open a related record's card or list page filtered to the value in the lookup or assist edit field|
 | <kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Down arrow</kbd> | Open a related record's card or list page, which is filtered to the value in the lookup or assist-edit field. |
-| <kbd>Alt</kbd>+<kbd>Up arrow</kbd> | Show the tooltip for a field or a column header of a table. If the field has validation errors, select <kbd>Alt</kbd>+<kbd>Up arrow</kbd> to show the validation error. Select the <kbd>Esc</kbd> key or <kbd>Alt</kbd>+<kbd>Up arrow</kbd> to close the tooltip. |
+| <kbd>Alt</kbd>+<kbd>Up arrow</kbd> | Display more information about a field or column, including the field tooltip, validation error, Copilot's suggested value, or information about why an AI agent selected that value. If more than one of these are available, this shortcut toggles between them.<br><br> Select the <kbd>Esc</kbd> key to close this information and return to the field input box. |
 | <kbd>F2</kbd> | Switch between selecting the entire field value and placing the cursor at the end of the field value. |
 | <kbd>Alt</kbd>+<kbd>F2</kbd> | Show and hide the FactBox pane. |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F2</kbd> | Switch between **Details** and **Attachments** in the FactBox pane. |
@@ -187,7 +187,8 @@ These shortcuts apply to fields on card and document pages when the Autofill fie
 
 | Select these keys<br>(these keys in macOS) | To do this |
 |---|---|
-| <kbd>Alt</kbd>+<kbd>I</kbd> |On a selected field that shows the ![Suggest a value for this field and related fields](media/copilot-star-unfilled.png) icon, ask Copilot to suggest a value for the field and other editable fields in the FastTab.<br><br>On a selected field that includes a suggestion, show details about the suggestion. The shortcut does the same as selecting the ![Show details for a suggestion](media/autofill-info.png) icon.|
+| <kbd>Alt</kbd>+<kbd>I</kbd> |On a selected field that shows the ![Suggest a value for this field and related fields](media/copilot-star-unfilled.png) icon, ask Copilot to suggest a value for the field and other editable fields in the FastTab.|
+| <kbd>Alt</kbd>+<kbd>Up arrow</kbd> |On a selected field that includes a suggestion, show details about the suggestion. The shortcut does the same as selecting the ![Show details for a suggestion](media/autofill-info.png) icon. You can use <kbd>Alt</kbd>+<kbd>Up arrow</kbd> again to toggle between showing additional information about a field, such as the tooltip or validation error|
 |<kbd>Backspace</kbd>, <kbd>Delete</kbd>, or <kbd>Escape</kbd>|Discard the suggestion on a selected field to return to the value.|
 |<kbd>F2</kbd>|Edit a suggestion for a selected field.|
 

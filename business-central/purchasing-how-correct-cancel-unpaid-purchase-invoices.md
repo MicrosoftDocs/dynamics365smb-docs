@@ -4,7 +4,7 @@ description: Explains how to correct, cancel, or undo a posted purchase invoice 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
 ms.date: 04/19/2024
@@ -22,7 +22,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 
 ## To correct a posted purchase invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Purchase Invoices**, and then choose the related link.  
 2. Select the posted purchase invoice that you want to correct.  
 
     > [!NOTE]  
@@ -36,7 +36,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 
 ## To cancel a posted purchase invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Purchase Invoices**, and then choose the related link.  
 2. Select the posted purchase invoice that you want to cancel.
 
     > [!NOTE]  
@@ -50,7 +50,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 
 If the cancellation is related to a partial invoice posting, then the originating purchase order line is updated to reflect the canceled invoiced quantity. The **Qty. to Invoice** and **Quantity Invoiced** fields on the related purchase order line are reset to the values before the partial posting.
 
-## See also
+## Related information
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  

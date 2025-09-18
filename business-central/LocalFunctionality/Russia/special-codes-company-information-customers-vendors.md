@@ -1,11 +1,11 @@
 ---
 title: Special codes for company information, customers, and vendors (RU)
-description: Russian enhancements include additional information about your company and each customer and vendor.
+description: Russian localization adds special codes for company, customer, and vendor information required for compliance and reporting.
 author: DianaMalina
-ms.topic: conceptual
-ms.search.keywords:
-ms.date: 11/27/2023
-ms.reviewer: bholtorf
+ms.topic: article
+ms.search.keywords: special codes, company information, customer information, vendor information, compliance, reporting, Russia
+ms.date: 07/21/2025
+ms.reviewer: v-soumramani
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
@@ -20,7 +20,7 @@ In the **Company Information** page, you can specify the codes:
 
 Fast Tab **General**:
 
-- VAT registration No
+VAT registration No
 
 Fast Tab **Payments**:
 
@@ -61,16 +61,15 @@ In the **Customer Card** page, the following fields are added:
 
 Fast Tab **Invoicing**:
 
-- VAT Registration No
+VAT Registration No
 
 FastTab **Payments**:
 
 - KPP Code
 - OKPO Code
 
-## See also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Learn how to use the data analysis mode to analyze inventory data.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 516, 9300, 5119, 9301, 9305
 ms.date: 05/03/2024
@@ -117,7 +117,7 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 
 - For each purchase line, as applicable, entries are created in the **Item Ledger Entry** table (if the purchase line is of the Item type). In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables. To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
 
-## See also
+## Related information
 
 [Analyze list and query data with analysis mode](analysis-mode.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  

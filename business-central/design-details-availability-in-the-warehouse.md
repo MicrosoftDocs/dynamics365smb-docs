@@ -4,7 +4,7 @@ description: Learn about the different factors that affect item availability in 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -88,7 +88,7 @@ The following diagram shows the different elements of the calculation.
 
 ![Avaliable to reserve per warehouse allocation.](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
 
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [View the Availability of Items](inventory-how-availability-overview.md)

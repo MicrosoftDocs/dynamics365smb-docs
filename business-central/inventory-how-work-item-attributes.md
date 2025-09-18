@@ -4,7 +4,7 @@ description: Describes how to set up item attribute values, for example, that ca
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: categories, search words, facets
 ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
@@ -23,7 +23,7 @@ You can also assign item attributes to item categories, which then apply to the 
 
 ## Create item attributes
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Attributes**, and then choose the related link.
 2. On the **Item Attributes** page, choose the **New** action.
 3. On the **Item Attribute** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -32,13 +32,13 @@ You can also assign item attributes to item categories, which then apply to the 
 
 ## Create values for item attributes of type Option
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Attributes**, and then choose the related link.
 2. On the **Item Attributes** page, select an item attribute of type **Option** that you want to create values for, and then choose the **Item Attribute Values** action.
 3. On the **Item Attribute Values** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Assign item attributes to items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. On the **Items** page, select the item that you want to assign item attributes to, and then choose the **Attributes** action.
 3. On the **Item Attribute Values** page, choose the **New** action.
 4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in [To create item attributes](inventory-how-work-item-attributes.md#create-item-attributes).
@@ -48,7 +48,7 @@ You can also assign item attributes to item categories, which then apply to the 
 
 ## Assign item attributes to item categories
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Categories**, and then choose the related link.
 2. On the **Item Categories** page, select the item category that you want to assign item attributes to, and then choose the **Edit** action.
 3. On the **Item Category Card** page, on the **Attributes** FastTab, choose the **New** action.
 4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in [To create item attributes](inventory-how-work-item-attributes.md#create-item-attributes).
@@ -60,7 +60,7 @@ You can also assign item attributes to item categories, which then apply to the 
 
 ## Filter by item attributes
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. On the **Items** page, choose the **Filter by Attributes** action.
 3. On the **Filter Items by Attribute** page, choose the lookup button in the **Attribute** field and select an item attribute.
 4. In the **Value** field, choose the lookup button and select an attribute value to filter items by.
@@ -76,7 +76,7 @@ You can also assign item attributes to item categories, which then apply to the 
 
 The items on the **Items** page are filtered by the specified item attribute values.
 
-## See also
+## Related information
 
 [Categorize Items](inventory-how-categorize-items.md)    
 [Register New Items](inventory-how-register-new-items.md)    

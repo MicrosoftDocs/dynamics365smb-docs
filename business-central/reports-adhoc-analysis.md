@@ -28,7 +28,7 @@ The general content about ad-hoc data analysis is also available in special vers
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
-## See also
+## Related information
 
 [Analytics overview](reports-bi-reporting.md)   
 

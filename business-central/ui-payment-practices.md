@@ -2,7 +2,7 @@
 title: Payment practices report
 description: Learn how to easily create the Payment Practices report for vendors and customers. 
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: payment, practices, vendor, customer, report
 ms.search.form: 686, 687, 689 
@@ -58,7 +58,7 @@ To explore the calculations behind the values on the **Statistics** FastTab, cho
 
 To print the document, choose the **Print** action.
 
-## See also
+## Related information
 
 [Finance reports](finance-reports.md)  
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  

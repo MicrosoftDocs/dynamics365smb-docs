@@ -2,7 +2,7 @@
 title: Flush components according to operation output
 description: This article describes how to flush components according to operation output and other flushing methods involved.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 03/04/2025
@@ -90,18 +90,18 @@ You can achieve that by combining backward flushing method and routing link code
 
 ## To flush components according to operation output
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Choose the **Edit** action.  
 3. On the **Replenishment** FastTab, in the **Flushing Method** field, select **Backward**.  
 
     > [!NOTE]  
     > Select **Pick + Backward** if the component is used in a location that is set up for directed put-away and pick.  
 
-4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+4. [!INCLUDE[open-search](includes/open-search.md)], enter **Routings**, and then choose the related link.  
 5. Define routing link codes for every operation that consumes the component. For more information, see [Create Routings](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Don't use the same routing link for different operations in the routing. Using the same routing link would lead to registration of consumption of component for each linked operation.  
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
+6. [!INCLUDE[open-search](includes/open-search.md)], enter **Production BOM**, and then choose the related link.  
 7. Define routing link codes from each instance of the component to the operation that consumes it.
 
 The consumption is posted automatically when you register output. To learn more, go to [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).

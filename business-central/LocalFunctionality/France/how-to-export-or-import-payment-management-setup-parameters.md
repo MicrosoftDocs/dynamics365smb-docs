@@ -2,7 +2,7 @@
 title: Export or Import Payment Management Setup Parameters
 description: Learn how to export or import payment management setup parameters to an external disk, enabling their reuse for another company with similar requirements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: export payment parameters, import payment parameters, payment management setup, payment management parameters, French version
 ms.date: 04/15/2025

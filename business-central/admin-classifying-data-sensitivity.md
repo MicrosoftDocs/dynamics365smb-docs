@@ -4,7 +4,7 @@ description: You must specify which type of data you store about people so that 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: 1752,
 ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
@@ -45,7 +45,7 @@ For example, the Data Classification Worksheet page lets you do things like:
 > [!Tip]  
 > We have defined sample sensitivity classifications for the tables and fields in the Cronus demonstration company. You can use those classifications as inspiration when you classify your own tables and fields.
 
-## See also
+## Related information
 
 <!-- [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data) -->
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,17 @@
 ---
 title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
-description: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
-
+description: Learn how to calculate TCS under the Income Tax Act, 1961, and GST on sales transactions in Business Central.
 author: v-debapd
-
-    
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
-ms.search.keywords: India, local, IN, English
-ms.date: 04/01/2021
+ms.search.keywords: India, local, IN, English, TCS, IT Act, Income Tax Act, sales transactions
+ms.date: 06/25/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
 
+# Calculation of TCS as per the Income Tax Act, 1961 and GST on sales transactions
 
 The Government has placed the responsibility on the e-commerce operators to collect the ‘tax’ at a specified rate from the supplier. This shall be done by the Operator by paying the supplier the price of the product or services, less the tax, calculated at the specified rate.
 
@@ -23,15 +20,13 @@ The process of calculation of TCS and GST has been explained in this document.
 ## Create a sales invoice
 
 1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
+1. Select **Customer** on **Sales Invoice** header.
+1. Select **Item** on **Sales Invoice** line. GST Group Code, HSN/SAC Code shouldn't be blank on the Item.
 
-2. Select **Customer** on **Sales Invoice** header.
+For example, there's a sales invoice for INR 10,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) and 1% TCS as per Income Tax Act, 1961 has to be charged on the invoice amount.
 
-3. Select **Item** on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the Item. 
+- GST calculation appears in the Fact Box as following:
 
-For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) and 1% TCS as per Income Tax Act, 1961 has to be charged on the invoice amount.
-
--  GST calculation will appear in the Fact Box, as following:
-    
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
     |**GST Base Amount**|10,000|  
@@ -39,7 +34,7 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
     |**SGST**|900|
     |**TCS**|100|
 
--  On posting of sales invoice, GL Entries will be as following:
+- On posting of sales invoice, GL Entries are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -50,47 +45,10 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
     |**Sales Account**|-10000|
 
 > [!TIP]
-> In case of Inter-State Sales, IGST will be calculated with TCS as per the Income Tax Act, 1961.
+> In case of Inter-State Sales, IGST is calculated with TCS as per the Income Tax Act, 1961.
 
+## Related information
 
-
-
-
-
-
-
-
-
-
-
-
-
-## See Also 
 [GST Kerala Flood Cess](GST-and-Kerala-Flood-Cess-on-Sales.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

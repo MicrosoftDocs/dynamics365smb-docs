@@ -2,7 +2,7 @@
 title: Sales tax in the default version
 description: Learn about how the base version of Business Central supports sales tax, and get a description of the basic concept.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: tax, posting, sales tax
 ms.search.form: 10, 315, 466, 467, 468, 469, 10015, 10016, 10101
@@ -23,7 +23,7 @@ Typically, sales taxes apply to the retail sale of goods and services and are a 
 > [!IMPORTANT]
 > Although sales tax is available in the default version, Microsoft supports the use of sales tax in the United States and Canada only.
 
-## See also
+## Related information
 
 [Report Sales Tax in the US](localfunctionality/UnitedStates/us-sales-tax.md)    
 [Report Sales Tax in Canada](localfunctionality/canada/ca-sales-tax.md)    

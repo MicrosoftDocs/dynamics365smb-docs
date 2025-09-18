@@ -1,0 +1,1 @@
+Analyze balances for cost accounts and budgets to support financial planning and control. Use filters like fiscal year, cost type, or budget version to tailor insights and ensure accuracy.

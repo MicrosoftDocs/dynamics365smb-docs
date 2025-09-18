@@ -4,7 +4,7 @@ description: This article explains how to set up E-Documents functionality when 
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 04/07/2025
@@ -23,7 +23,7 @@ Before you use the functionality that this article describes, you must install t
 
 To install an E-Documents connector, follow these steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **E-Document Services**, and then select the related link.
 2. Choose the **Install E-Documents integration from AppSource** action to open the **Microsoft AppSource apps** page.
 3. Choose the connector you want, and then select the **View on AppSource** action.
 4. Install the app from the AppSource.
@@ -38,22 +38,24 @@ Based on the endpoint service provider, the next steps might be different. You c
 
 Before you start using e-documents, update your **Company Information** page by completing the following steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Company Information**, and then select the related link.
 2. In addition to filling in the usual fields, you must also fill in the following fields:
 
     | Field name | Description |
     |---|---|
-    | SWIFT Code | Specify the SWIFT code (international bank identifier code) of your primary bank. |
-    | Bank Branch No. | Specify the bank's four-digit branch number. |
-    | VAT Registration No. | Specify the company's value-added tax (VAT) registration number. |
+    | SWIFT Code | Specifies the SWIFT code (international bank identifier code) of your primary bank. |
+    | Bank Branch No. | Specifies the bank's four-digit branch number. |
+    | VAT Registration No. | Specifies the company's value-added tax (VAT) registration number. |
+    | GLN | Specifies your company in connection with electronic document exchange. |
+    | Use GLN in Electronic Document | Specifies whether the GLN is used in electronic documents as a party identification number. |
 
-3. Close the page.
+4. Close the page.
 
 ## Set up customers to receive e-documents
 
 To enable customers to receive your e-documents, complete the following steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then select the related link.
 2. Open the **Customer** card.
 3. In addition to filling in the usual fields, in the **GLN** field, specify the customer you send electronic documents to.
 4. Turn on the **Use GLN in Electronic Documents** toggle to indicate whether to use the global location number (GLN) as an identification number in electronic documents.
@@ -71,6 +73,7 @@ The following list of access point providers are covered by default:
 
 - Avalara
 - B2BRouter
+- Continia
 - Logiq
 - Pagero
 - SignUp

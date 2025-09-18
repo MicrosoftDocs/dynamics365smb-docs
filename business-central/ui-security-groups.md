@@ -4,14 +4,14 @@ description: This article describes how to use security groups to define user pe
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: access, right, security, permissions
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862, 9875_Primary, 9874_Primary, 9873_Primary, 9872_Primary, 9877_Primary, 9869_Primary, 9868_Primary, 9871_Primary
 ms.date: 09/13/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Control Access to Business Central Using Security Groups
+# Control access to Business Central using security groups
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -53,42 +53,7 @@ Afterward, create a corresponding security group in [!INCLUDE [prod_short](inclu
     * To assign multiple permission sets, choose the **Add multiple** action, and then choose the sets to assign.
 1. If you want the permission sets to apply only to a specific company, set the **Company** column to that company. If you want the permission set to apply to all companies, leave the **Company** column blank. [Learn more](ui-define-granular-permissions.md#control-access-to-specific-companies).
 
-## Review the permissions in a security group
-
-On the **Security Groups** page, the FactBox pane shows the **Permission Sets** that are assigned to the group. Each user listed in the **Members** card has those permissions. The **Permission Set by Security Group** action provides a more detailed view. There you can also explore the individual permissions in each security group.
-
-Permissions are also available on the **Users** page. The FactBox pane shows the **Permission Sets from Security Group** and **Security Group Memberships** cards for the selected user.
-
-## Security groups and user groups
-
-> [!NOTE]
-> User groups will no longer be available in a future release.
-
-Security groups are very similar to the user groups that are currently available. However, user groups are only relevant for [!INCLUDE [prod_short](includes/prod_short.md)]. Security groups are based on groups in Microsoft Entra ID or Windows Active Directory, depending on whether you're using [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises, respectively. Groups benefit administrators because they can use them with other Dynamics 365 apps. For example, if salespeople use [!INCLUDE [prod_short](includes/prod_short.md)] and SharePoint, administrators don't have to recreate the group and its members.
-
-### Optional: Convert user groups to permission sets
-
-In 2023 release wave 1 and later, you can convert user groups to permission sets in your tenant. The permission sets provide the same functionality as user groups. Here are some examples:
-
-* You can use the **Users** FactBox to manage permissions for users.
-* You can drill down on the permission set name to add other permission sets to the set you're working on. To learn more, go to [To add other permission sets](ui-define-granular-permissions.md#to-add-other-permission-sets).
-
-Use the **User Group Migration** assisted setup guide to convert your groups. To start the guide, on the **Feature Management** page, find **Feature: Convert user group permissions**, and then choose **All Users** in the **Enabled For** field. The assisted setup guide offers the following options for the conversion.
-
-|Option  |Description  |
-|---------|---------|
-|Assign to user     | Assign the permissions in user groups directly to the users who were assigned to the group, and remove their user group assignments.        |
-|Convert to a permission set     | Create a new permission for the permissions in each user group. The new permission set is assigned to all members of each user group.          |
-
-### License configurations still apply
-
-You can configure permissions in [!INCLUDE [prod_short](includes/prod_short.md)] based on licenses. Those permissions are directly assigned to new users. These configurations still apply, even if you start using security groups.
-
-To use security groups exclusively, we recommend that you remove the license configurations. To learn more about license configurations, go to [Create Users According to Licenses](ui-how-users-permissions.md).
-
-You can remove license configurations on the **License Configuration** page. Choose a license, and then delete all permission sets assigned to it.
-
-## See Also
+## Related information
 
 [Create Users According to Licenses](ui-how-users-permissions.md)  
 [Set Up Business Central Access in Teams with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  

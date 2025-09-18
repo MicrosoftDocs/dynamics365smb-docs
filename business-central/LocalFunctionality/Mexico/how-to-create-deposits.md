@@ -2,7 +2,7 @@
 title: How to create deposits [MX]
 description: Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Mexican version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: outstanding invoices, outstanding credit memos, maintain transaction record
 ms.search.form: 10140, 10141, 10143,10144,10146,10147,10148,36646

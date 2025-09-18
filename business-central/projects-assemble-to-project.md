@@ -4,7 +4,7 @@ description: Learn how to use assemble-to-order for project.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 08/03/2022
@@ -42,7 +42,7 @@ This section describes known limitations for assemble to project.
 * You can't enter a negative quantity in the **Quantity to Assemble to Order** field.
 * You can't undo an assembly.
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Assembly Management](assembly-assemble-items.md)  

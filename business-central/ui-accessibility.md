@@ -3,7 +3,7 @@ title: Assistive features
 description: This article provides information about keyboard shortcuts and other assistive features in Business Central for people with disabilities.
 author: jswymer
 
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
@@ -79,7 +79,7 @@ Tooltips are accessed in different ways, depending on the client (web or mobile)
 
 You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.
 
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

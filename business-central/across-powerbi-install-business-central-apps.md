@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 01/17/2025
+ms.date: 06/11/2025
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -63,17 +63,34 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 
 Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following table and select **Get it now**.
 
-| To get the template app for... | Use this install link             |
-|--------------------------------| --------------------------------- |
-| Finance                        | https://aka.ms/bc-pbi-finance-app                 |
-| Sales                          | https://aka.ms/bc-pbi-sales-app                   |
-| Purchasing                     | https://aka.ms/bc-pbi-purchase-app                |
-| Inventory                      | https://aka.ms/bc-pbi-inventory-app               |
-| Inventory Valuation            | https://aka.ms/bc-pbi-inventory-valuation-app     | 
-| Manufacturing                  | https://aka.ms/bc-pbi-manufacturing-app |
-| Projects                       | https://aka.ms/bc-pbi-projects-app      |
+| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
+|--------------------------------| -------------- | ------------------------------------------------- |
+| Finance                        | 26.2 and later | https://aka.ms/bc-pbi-finance-app                 |
+| Inventory                      | 26.2 and later | https://aka.ms/bc-pbi-inventory-app               |
+| Inventory Valuation            | 26.2 and later | https://aka.ms/bc-pbi-inventory-valuation-app     | 
+| Manufacturing                  | 26.2 and later | https://aka.ms/bc-pbi-manufacturing-app           |
+| Purchasing                     | 26.2 and later | https://aka.ms/bc-pbi-purchase-app                |
+| Projects                       | 26.2 and later | https://aka.ms/bc-pbi-projects-app                |
+| Sales                          | 26.2 and later | https://aka.ms/bc-pbi-sales-app                   |
+| Subscription Billing           | 26.2 and later | https://aka.ms/bc-pbi-subscription-billing-app    |
+| Sustainability                 | 26.2 and later | https://aka.ms/bc-pbi-sustainability-app          |
+
+
+| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
+|--------------------------------| ------------ | -------------------------------------------------- |
+| Finance                        | 25.2 to 26.1 | https://aka.ms/bc-pbi-finance-app-25-2             |
+| Inventory                      | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-app-25-2           |
+| Inventory Valuation            | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-valuation-app-25-2 | 
+| Manufacturing                  | 25.2 to 26.1 | https://aka.ms/bc-pbi-manufacturing-app-25-2       |
+| Purchasing                     | 25.2 to 26.1 | https://aka.ms/bc-pbi-purchase-app-25.2            |
+| Projects                       | 25.2 to 26.1 | https://aka.ms/bc-pbi-projects-app-25-2            |
+| Sales                          | 25.2 to 26.1 | https://aka.ms/bc-pbi-sales-app-25-2               |
 
 Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
+
+In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
+
+:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png"::::::
 
 After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app appears under **Apps** in [!INCLUDE [powerbi-name](includes/powerbi-name.md)], and there's a workspace with the same name that you can use to configure the app.
 
@@ -176,10 +193,10 @@ For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/po
 
 ## Want links to show up in Report Explorer?
 
-Profiles, sometimes called *Departmental Role Center Profiles*, control whether functional areas show in Report Explorer. To specify whether Departmental Role Center Profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
+The profiles (roles) selected to display in the Role Explorer control the functional areas that show in Report Explorer. To specify whether profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
 
 > [!TIP]
-> For the built-in Departmental Role Center Profiles, the **Description** field contains *Navigation menu only*.
+> For the built-in profiles that show in Report Explorer, the **Description** field contains **Navigation menu only**.
 
 ## Permissions
 

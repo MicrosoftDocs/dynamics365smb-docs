@@ -2,7 +2,7 @@
 title: Reopen Accounting Periods [FR]
 description: Learn how to reopen a fiscally closed accounting period to post general ledger entries in the French version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: reopen accounting periods, reopen fiscal period, French version
 ms.date: 04/16/2025

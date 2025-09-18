@@ -4,7 +4,7 @@ description: After you have created a segment, you can add contacts to the segme
 author: jswymer
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.search.form: 5091, 5093
@@ -18,7 +18,7 @@ ms.reviewer: jswymer
 After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines on the **Segment** page manually, but it is easier and faster to use the **Add Contacts** action.
 
 ## To add a contact to a segment
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Segments**, and then choose the related link.  
 2. Select the segment, and then choose the **Add Contacts** action. The **Add Contacts** batch job page opens.
 3. In the **Contact** section, set filters to specify the information by which you want to select contacts.
 
@@ -48,7 +48,7 @@ After you have selected the contacts within a segment, you may want to remove so
 
 You can reduce a segment as many times as you want. If you have refined the segment by mistake and want to go one step back, then choose the **Go Back** action.
 
-## See also
+## Related information
 [Create a Segment](marketing-how-create-segment.md)   
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

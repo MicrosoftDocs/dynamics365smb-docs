@@ -4,7 +4,7 @@ description: Word templates can make it easy to bulk create documents that are p
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/13/2024
 ms.custom: bap-template
 ms.search.forms: 9989_Primary, 13, 9992_Primary, 9983_Primary
@@ -70,7 +70,7 @@ For each entity, you can specify the fields that you want to be available for th
 
 ## To create a Word template in Business Central
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Word Templates**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Word Templates**, and then choose the related link.
 2. Choose **New**, then **Create a Template**, and then follow the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -105,7 +105,7 @@ You can make the following changes to your Word templates:
 * To replace the Word template with a new template, use the **Upload** action
 * Delete the template
 
-## See Also
+## Related information
 
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set Up Email](admin-how-setup-email.md)  

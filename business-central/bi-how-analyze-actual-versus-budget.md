@@ -2,7 +2,7 @@
 title: Analyze Actual Amounts Versus Budgeted Amounts
 description: This article describes how to analyze actual amounts versus budgeted amounts as a means of gathering, analyzing, and sharing your company data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
@@ -21,7 +21,7 @@ To analyze budgeted amounts, you must first create general ledger (G/L) budgets.
 
 In a budget with dimensions, you can filter the entries and see specific budgets.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **G/L Budgets**, then choose the related link.
 2. On the **G/L Budgets** page, open the budget you want to view.  
 3. At the top of the page, fill in the fields necessary to define what is shown. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -38,7 +38,7 @@ In a budget with dimensions, you can filter the entries and see specific budgets
 
 You can view general ledger budgets and compare them with actual figures in several areas of [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, then choose the related link.  
 2. On the **Chart of Accounts** page, choose the **G/L Balance/Budget** action.
 3. On the **Options** FastTab, fill in the fields as necessary to define what is displayed in the table.  
 4. Hover over a field on the table to read a short description about the displayed amount.
@@ -55,12 +55,12 @@ The leftmost columns contain the chart of accounts. Of the five columns on the r
 
 Instead of viewing the actual and budgeted amounts for all accounts within a single period, you can view a number of periods for a single account.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, then choose the related link.  
 2. On the **Chart of Accounts** page, select the relevant general ledger account, then choose the **G/L Account Balance/Budget** action.  
 3. On the **Options** FastTab, fill in the fields as necessary to define what is displayed in the table.  
 4. On the **Lines** FastTab, hover over a field on the table to read a short description about the displayed amount.  
 
-## See also
+## Related information
 
 [Financial Business Intelligence](bi.md)  
 [Work with Financial Reports](bi-how-work-account-schedule.md)  

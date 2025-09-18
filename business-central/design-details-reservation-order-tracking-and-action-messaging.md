@@ -2,7 +2,7 @@
 title: Design details - reservation, order tracking, and action messaging | Microsoft Docs
 description: The reservation system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: design, replenishment, reordering
 ms.date: 08/06/2024
@@ -283,7 +283,7 @@ When the planning system runs, it deletes all existing order tracking records an
 
 - The planning system creates links in a user-activated batch mode when it balances demand and supply, whereas order tracking creates the links automatically and dynamically as the user enters orders.  
 
-## See also  
+## Related information  
 
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)

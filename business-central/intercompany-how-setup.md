@@ -117,7 +117,7 @@ This process is only necessary if you want to connect with a partner whose [!INC
 
 #### Add and enable your registered app in Business Central
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Entra Application Card**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Microsoft Entra Application Card**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. In the **State** field, choose **Enabled**. 
 4. Choose the **Grant Consent** action. 
@@ -129,7 +129,7 @@ All partners must use the same intercompany chart of accounts, and map the accou
 
 If you're using an XML file that contains the intercompany chart of accounts, follow the steps in [Import or export an intercompany chart of accounts](intercompany-how-setup.md#import-or-export-an-intercompany-chart-of-accounts).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.
 2. Choose the **IC Chart of Accounts** action.
 3. To add accounts, do one of the following on the **Intercompany Chart of Accounts** page:
     * Choose **New**, and then enter each account on a line on the page.  
@@ -145,7 +145,7 @@ The next step is to map your chart of accounts to the intercompany chart of acco
 
 The synchronization company can share its chart of accounts with partners by exporting it to a file. Partners can import the file to get the chart of accounts.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.
 2. Choose the **IC Chart of Accounts** action.
 3. On the **Intercompany Chart of Accounts** page, choose the **Import/Export** action, and then choose either **Import** or **Export**.
 4. Choose the file to import or export.  
@@ -158,7 +158,7 @@ After you define or import the intercompany chart of accounts, map each intercom
 
 If the intercompany accounts and your accounts have the same numbers, you can map the accounts automatically.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.  
 2. Choose the **IC Chart of Accounts** action.
 
     > [!TIP]
@@ -182,7 +182,7 @@ If partners exchange transactions with dimensions linked to them, agree on the d
 
 If partners use the synchronization partner's intercompany dimensions, follow the steps in this section. If you want to share using an XML file that contains the intercompany dimensions, follow the steps in [Import or export intercompany dimensions](#import-or-export-intercompany-dimensions).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.  
 2. Choose the **IC Dimensions** action.
 3. To add dimensions, do one of the following on the **Intercompany Dimensions** page:
     * Choose **New**, and then enter each dimension on a line.  
@@ -196,7 +196,7 @@ If partners use the synchronization partner's intercompany dimensions, follow th
 
 The synchronization company can share its dimensions with partners by exporting them to a file. Partners can import the file to get the dimensions.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.
 2. Choose the **IC Dimensions** action.  
 3. On the **Intercompany Dimensions** page, choose the **Import/Export** action, and then choose either **Import** or **Export**.
 4. Choose the file to import or export.
@@ -214,7 +214,7 @@ If any of the intercompany dimensions have the same code as the corresponding di
 
 In the following steps, you first map intercompany dimensions to dimensions for incoming documents in the **Intercompany Dimensions** pane. Then, you map dimensions to intercompany dimensions for outgoing documents on the **Current Company Dimensions** pane.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.
 2. Choose the **IC Dimensions** action.
 3. On the **Intercompany Dimensions** page, choose the **Dimensions Mapping** action.
 4. You can map the dimensions manually, or automatically.
@@ -247,7 +247,7 @@ The following steps assume that a synchronization partner is set up with the cha
 > [!NOTE]
 > If you'll use a synchronization partner, leave the **Synchronization Partner** field blank when you set that company up for the partnership.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.  
 2. On the **Intercompany Setup** page, fill in the fields on the **General** FastTab. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -259,7 +259,7 @@ The next step is to set up the partner companies.
 
 Each partner must add all other companies in the partnership as a partner.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.
 2. On the **Intercompany Partners** FastTab, choose **Add**.
 3. In the **Transfer Type** field, specify how you send data to the partner.
 
@@ -274,7 +274,7 @@ Each partner must add all other companies in the partnership as a partner.
 
 ### Set up intercompany partners as customers and vendors
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.
 2. On the **Intercompany Partners** FastTab, open the card page for the partner.
 3. Depending on what you want to do, choose the customer or partner in the **Customer No.** or **Vendor No.** fields.
 
@@ -290,7 +290,7 @@ On the **G/L Account Card** page, for accounts that you regularly use on outgoin
 
 Then, when you enter a general ledger account in the **Bal. Account No.** field on an intercompany line with **Intercompany Partner** in the **Account Type** field, the **IC Partner G/L Account** field is automatically filled in.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.  
 2. Open the G/L account that's used for intercompany transactions, and in the **Default IC Partner G/L Account** field, enter the intercompany general ledger account that your partner post to when you post to the general ledger account on the line.
 3. Repeat step 2 for each account that you often enter in the **Bal. Account No.** field on a line in an intercompany journal or document.
 
@@ -317,7 +317,7 @@ To facilitate fast payments, specify one or more bank accounts to use for interc
 
 On the **Intercompany Setup** page, the **Intercompany Setup Diagnostics** pane contains tiles that indicate whether all of the components needed to exchange intercompany transactions are set up. The tiles are also available on the Business Manager Role Center. Choose the tiles to find out what's missing. For an overview of the required components, go to [Overview of the steps to get started](#overview-of-the-steps-to-get-started).
 
-## See Also
+## Related information
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

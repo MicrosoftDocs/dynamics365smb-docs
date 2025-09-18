@@ -4,7 +4,7 @@ description: Learn all about adding functionality and customizing Business Centr
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: solsen
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
 ms.date: 03/03/2025
@@ -73,7 +73,7 @@ View the list of suggested apps by choosing the **Connectivity Apps** action in 
 > [!NOTE]
 > The first person to open the **Connectivity Apps** page must allow the extension to connect to an external service. Allow the connection once or always. If you choose to block the connection, you must find the relevant apps on AppSource. If you allow the connection once or always, be aware that your information might be shared with third parties. Learn more in the section [Understanding the risks of installing apps](#understanding-the-risks-of-installing-apps).
 
-This external service generates a list of relevant apps based on your country or region
+This external service generates a list of relevant apps based on your country or region.
 
 ## Recommended apps
 
@@ -82,7 +82,7 @@ Microsoft partners and resellers can create an app that they can use to compile 
 > [!NOTE]
 > If you are a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in the administration content.
 
-## See also
+## Related information
 
 [Install and Uninstall Apps](ui-extensions-install-uninstall.md)  
 [Customize Business Central](ui-customizing-overview.md)  

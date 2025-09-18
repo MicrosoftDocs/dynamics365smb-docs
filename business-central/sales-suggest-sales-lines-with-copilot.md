@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.collection: bap-ai-copilot
@@ -107,7 +108,7 @@ The primary keywords "Coffee" and "Table" are required. The extra keyword "Red" 
 
 This process describes how to suggest lines on a sales order. The steps are the same for sales quotes and invoices.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Order**, and then choose the related link.
 1. Open a sales order or create a new one.
 1. On the **Lines** FastTab, choose **Suggest sales lines**.
 1. In the **Suggested sales lines** window, enter your prompt or select one from the prompt guides.

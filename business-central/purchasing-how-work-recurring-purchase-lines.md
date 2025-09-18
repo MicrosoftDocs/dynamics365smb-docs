@@ -2,7 +2,7 @@
 title: Standard recurring purchase lines
 description: Set up frequently used purchase lines to insert them on purchase documents and quickly fill the lines with standard information.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: trade, purchase, replenishment
 ms.search.form: 177
@@ -17,7 +17,7 @@ If you often need to create purchase lines with similar information, you can set
 
 ## Set up recurring purchase lines
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring Purchase Lines**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Recurring Purchase Lines**, and then choose the related link.
 2. On the **Recurring Purchase Lines** page, choose the **New** action.
 3. On the **General** FastTab, fill the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. On the **Lines** FastTab, enter the information in the fields that reflect the standard lines you expect to use as recurring lines on purchase documents.
@@ -31,7 +31,7 @@ If you often need to create purchase lines with similar information, you can set
 
 Assign one or more recurring purchase lines to a vendor so that they're available to insert on purchase documents from that vendor.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then choose the related link.
 2. Open the card for a relevant vendor.
 3. Choose the **Recurring Purchase Lines** action.
 4. On the **Recurring Purchase Lines** page, select codes for the recurring purchase lines that you want to be able to insert on purchase documents for the vendor.
@@ -48,13 +48,13 @@ Assign one or more recurring purchase lines to a vendor so that they're availabl
 
 If recurring purchase lines exist for the vendor, you can insert them, or have them automatically added, on all types of purchase documents, such as a purchase invoice. If you have activated the **Always Ask** options while assigning recurring purchase lines to vendors, you'll be informed if recurring purchase lines exist.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.
 2. Open the purchase invoice that you want to insert one or more standard purchase lines on.
 3. Choose the **Get Recurring Purchase Lines** action.
 4. On the **Recurring Purchase Lines** page, choose the lookup button in the **Code** field, and then select a set of standard purchase lines.
 5. Choose the **OK** button to insert the standard purchase lines on the invoice where you can reuse them as is or edit the information.
 
-## See also
+## Related information
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Set Up Purchasing](purchasing-setup-purchasing.md)  

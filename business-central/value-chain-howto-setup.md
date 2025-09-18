@@ -2,7 +2,7 @@
 title: Sustainability value chain setup
 description: Learn how to enable the sustainability value chain.
 author: altotovi
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, CO2e, value chain, setup
 ms.search.form: 6221, 6245
@@ -23,7 +23,7 @@ You need to specify some settings for the sustainability value chain functionali
 
 To configure these settings, follow these steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sustainability Setup**, and then select the related link.
 2. Check whether the basic setup already exists. If it doesn't, follow [these instructions](finance-sustainability-setup.md) to set it up.  
 3. On the **Procurement** FastTab, configure the fields related to the sustainability value chain. The following table describes the fields.
 
@@ -46,7 +46,7 @@ To configure these settings, follow these steps:
 
 To use the sustainability value chain features, you must configure carbon dioxide equivalents (CO2e). The value chain works only for CO2e, and not each type of greenhouse gas (GHG). You set up CO2e on the **Emission Fees** page.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Emission Fees**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Emission Fees**, and then select the related link.
 2. In the **Emission Type** field, choose the GHG emission you want to configure. This field is mandatory.
 3. The **Carbon Equivalent Factor** field specifies the coefficient that converts the effect of various GHGs into the equivalent amount of carbon dioxide based on their global warming potential (GWP). If the **Emission Type** is **CO2**, the **Carbon Equivalent Factor** is always **1**. You can't change this value because CO2 is the reference gas used to calculate the GWP of other greenhouse gases. Because CO2 is the baseline, its GWP is set to **1**. For other GHGs, you must configure the values manually.  
 

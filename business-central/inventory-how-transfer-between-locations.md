@@ -41,7 +41,7 @@ You can use the **Item Reclassification Journals** page to:
 
 ## To transfer items with a transfer order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer orders**, and then choose the related link.
 2. On the **Transfer Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
@@ -80,7 +80,7 @@ To complete the correction, reopen the transfer order, enter the correct quantit
 
 The following procedure explains how to post transfer orders in a batch.
 
-1. 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer orders**, and then choose the related link.  
+1. 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer orders**, and then choose the related link.  
 2. On the **Transfer Orders** page, select the orders to post.
 3. In the **No.** field, open the context menu and choose **Select More**.
 4. Select the checkbox for the lines for each order that you want to post.
@@ -155,7 +155,7 @@ For more information about warehouse handling, see [Warehouse management overvie
 
 ## To transfer items with the item reclassification journal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Reclass. Journals**, and then choose the related link.
 2. On the **Item Reclass. Journal** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In the **Location Code** field, enter the location where the items are currently stored.
 
@@ -167,7 +167,7 @@ For more information about warehouse handling, see [Warehouse management overvie
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## See also
+## Related information
 
 [Manage Inventory](inventory-manage-inventory.md)  
 [Set Up Locations](inventory-how-setup-locations.md)  

@@ -2,7 +2,7 @@
 title: EU Third-Party Purchase Transactions [SE]
 description: This article explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: EU, third party, purchase transactions
 ms.date: 02/07/2025
@@ -24,7 +24,7 @@ European Union (EU) third-party trade occurs when you receive a purchase invoice
 1. On the **Invoice Details** FastTab, select the **EU 3-Party Trade** check box.  
 1. Choose the **OK** button.  
 
-## See also
+## Related information
 
 - [Report VAT to Tax Authorities](../../finance-how-report-vat.md)   
 - [Sweden Local Functionality](sweden-local-functionality.md)

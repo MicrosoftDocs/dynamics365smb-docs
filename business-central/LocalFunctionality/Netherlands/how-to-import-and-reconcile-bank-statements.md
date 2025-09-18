@@ -2,7 +2,7 @@
 title: How to import and reconcile bank statements
 description: Banks offer electronic statements detailing all your financial transactions. These statements can be imported into the bank or giro journals.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: giro journals, bank journals, Dutch version, Netherlands, electronic statements, import bank statements
 ms.date: 03/17/2025

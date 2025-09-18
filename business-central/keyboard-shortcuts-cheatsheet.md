@@ -2,9 +2,9 @@
 title: Keyboard quick reference - PC only
 description: A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users.
 author: jswymer
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/13/2024
+ms.date: 08/04/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -18,7 +18,7 @@ ms.reviewer: jswymer
 
 |Select these keys|To do this|  
 |-|-|
-|<kbd>Alt</kbd>|Show access keys to navigate the action bar or navigation menu|
+|<kbd>Alt</kbd>|Show keyboard shortcuts (called access keys or key tips) for actions. Learn more in [Access keys](keyboard-shortcuts.md#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Show and hide the FactBox pane|
 |<kbd>Alt</kbd>+<kbd>N</kbd>|Create a new record|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>|Close a newly created record and create a new one|

@@ -2,7 +2,7 @@
 title: Belgian Direct Debit Using Domiciliation [BE]
 description: A domiciliation is a financial agreement between a business and its customers that facilitates the automatic collection of payments for customer invoices.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: domiciliation, direct debit, electronic banking, Belgian version
 ms.search.form: 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022

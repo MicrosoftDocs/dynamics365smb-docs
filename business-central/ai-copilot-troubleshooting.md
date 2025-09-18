@@ -8,6 +8,7 @@ ms.topic: troubleshooting
 ms.collection:
   - bap-ai-copilot
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.service: dynamics-365-business-central
 ---

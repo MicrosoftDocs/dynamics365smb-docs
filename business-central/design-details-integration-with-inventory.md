@@ -2,7 +2,7 @@
 title: Design Details - Integration with Inventory
 description: The Warehouse Management and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/15/2021
@@ -44,7 +44,7 @@ To adjust the bin content, use a warehouse item journal, where you can enter the
   
 If you enter a positive quantity and post the line, then the inventory stored in the bin increases, and the quantity of the default adjustment bin decreases correspondingly.  
   
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)  
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  

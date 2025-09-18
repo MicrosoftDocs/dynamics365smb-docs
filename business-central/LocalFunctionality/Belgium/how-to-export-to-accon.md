@@ -2,7 +2,7 @@
 title: Export to Accon [BE]
 description: Learn how to export the link to the Accon report. This link lets you create a file that can be imported into ACCON Plus for generating an annual income statement.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: annual income statement, Accon report, export to Accon, link to Accon, Accon plus, Belgian version
 ms.date: 04/02/2025

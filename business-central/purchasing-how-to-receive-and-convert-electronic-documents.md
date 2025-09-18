@@ -2,7 +2,7 @@
 title: Receive and convert electronic documents
 description: This article describes how to receive electronic documents directly from trading partners or from an OCR service.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 189, 190, 191 
@@ -40,7 +40,7 @@ The following procedure describes how to receive a vendor invoice and convert it
 
 ### To receive and convert an electronic invoice to a purchase invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Incoming Documents**, and then choose the related link.  
 
 2. Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
 
@@ -56,7 +56,7 @@ The following procedure describes how to receive a vendor invoice and convert it
 
     Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
 
-## See also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  

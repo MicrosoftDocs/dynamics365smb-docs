@@ -20,7 +20,7 @@ In some EU countries/regions, authorities require that businesses report the exp
 
 After you install the extension in your environment, you need to enable it.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set up an IRS 1096 feature**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Set up an IRS 1096 feature**, and then choose the related link.
 2. Follow steps in the assisted setup guide. The most of fields are configured by default.
 3. Add only **Service Transaction Types** in the second step by choosing the **Open the service transaction types page to specify the list of codes** option.
 4. Before you start, check the **Total number of codes** to understand how many service transaction types are already specified.
@@ -32,7 +32,7 @@ You can set up the extension manually, or by using a reporting file on the **Dat
 
 ### To set up Service Declaration manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Declaration Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Declaration Setup**, and then choose the related link.
 2. On the **General** FastTab, configure the fields described in the following table:
 
     |Field  |Description  |
@@ -44,12 +44,12 @@ You can set up the extension manually, or by using a reporting file on the **Dat
     |**Data Exch. Def. Code**  | Specifies the data exchange definition code used to generate the exported file for the service declaration.        |
     |**Enable Tax Registration No.**     |  Specifies whether the **Tax Registration No.** is enabled for the service declaration.       |
 
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Transaction Types**, and then choose the related link.
+3. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Transaction Types**, and then choose the related link.
 4. On the lines, specify **Codes** and **Descriptions** for the service transaction types you use.
 
 ### Set up a reporting file
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Data Exchange Definitions**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **General** FastTab, describe the data exchange definition by specifying the data file type, column separator, related codeunits, XMLport, and filling in the other fields.
 4. On the **Line Definitions** FastTab, describe the formatting of lines in the data file by filling the fields based on the **Line Type** field and where you need to define the number of columns for this line.
@@ -74,7 +74,7 @@ Before using the Service Declaration extension, configure some fields for items,
 
 Set up information related to Service Declaration on Item Card pages:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, then choose the related link.
 2. Select the item you want to configure.
 3. Expand the **Item** FastTab, and configure the following fields:
    1. In the **Type** field, choose **Service**.
@@ -85,7 +85,7 @@ Set up information related to Service Declaration on Item Card pages:
 
 Set up information related to Service Declaration on Resource Card pages:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Resources**, then choose the related link.
 2. Select the resource you want to configure.
 3. Expand the **General** FastTab, and configure the following fields:
    1. In the **Service Transaction Type Code** field, specify the code for a **Service transaction type**.
@@ -95,14 +95,14 @@ Set up information related to Service Declaration on Resource Card pages:
 
 Set up information related to Service Declaration for item charges:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Charges**, then choose the related link.
 2. Select the item charge you want to configure.
 3. In the **Service Transaction Type Code** field, specify the code for a **Service transaction type**.
 4. If you don’t want to include this item charge in service declarations, select the **Exclude From Service Declaration** field.
 
 ## Create new service declaration
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Declarations**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Declarations**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **General** FastTab, fill in the following fields:
     1. In the **Config. Code** field, specify the configuration code that is used to suggest lines and create files. You need to choose one as a **Service Declaration**.
@@ -128,7 +128,7 @@ After you create a service declaration, use the **Overview** action to get an ov
 
 You can submit the service declaration as a file based on different local authorities' requirements. To create a file:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Declarations**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Declarations**, then choose the related link.
 2. Choose the service declaration you want to report as a file.
 3. Fill in the service declaration manually, or choose the **Suggest Lines** action.
 4. Choose the **Create File** action.
@@ -155,7 +155,7 @@ You can change the values in these fields, but if you select the **Applicable Fo
 
 If you specify a value in the **Service Transaction Type Code** field but don’t select the **Applicable For Service Declaration** field, you can post the document, but the line isn't calculated.
 
-## See also
+## Related information
 
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
 [Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  

@@ -38,7 +38,7 @@ The following procedure describes how to undo posted assembly orders that contai
 
 You can undo fully or partially posted assembly orders.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Assembly Orders**, and choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Assembly Orders**, and choose the related link.  
 
    Each partial posting creates a separate posted assembly order.  
 2. Open the posted assembly order that you want to undo, and then choose the **Undo Assembly** action.  
@@ -51,7 +51,7 @@ The **Reversed** field on the assembly order changes to **Yes**. The assembly or
 > [!NOTE]  
 > To restore quantities from multiple partial postings in an assembly order, you must undo all the posted assembly orders by following steps 1 through 3.  
 
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  

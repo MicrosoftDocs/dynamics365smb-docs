@@ -4,11 +4,11 @@ description: Learn how you can configure how data from different companies in Bu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2025
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 240, 1826, 1827
+ms.search.form: 240, 1826, 1827, Report_16, Report_17, Report_18, Report_4410
 ms.service: dynamics-365-business-central
 ---
 
@@ -32,7 +32,7 @@ If your consolidation is straightforward, for example because you wholly own the
 
 To use the assisted setup guide, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Assisted Setup**, and then choose the related link.
 2. Choose **Process Consolidations**, and then complete each step in the Company Consolidation assisted setup guide.
 
 ## Advanced consolidation setup
@@ -89,7 +89,7 @@ You start the **Run Consolidation** batch job from the **Business Units** list p
 #### Create a business unit
 
 1. Sign in to the consolidated company.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Business Units**, and then choose the related link.  
 3. Choose **New**, and then fill in the required fields on the **General** and **G/L Accounts** FastTabs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -108,7 +108,7 @@ The chart of accounts for a company that you will consolidate must specify accou
 
 If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation. You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company.
 
-1. In each business unit's [!INCLUDE [prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. In each business unit's [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Chart of Accounts**, and then choose the related link.  
 2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -133,7 +133,7 @@ The following table describes the exchange rate methods you can use for accounts
 
 To specify exchange rates for a business unit, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Business Units**, and then choose the related link.  
 2. On the **Business Unit List** page, choose the business unit, and then choose the **Exchange Rates** action.  
 3. On the **Setup Business Unit Currencies** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
@@ -154,6 +154,12 @@ If you don't want to include a business unit in the consolidation, you can exclu
 ### <a name="include"></a>Include a partially owned company in consolidation
 
 If you own only part of a company, you can include a percentage of each transaction that reflects the percentage you own. For example, if you own 70% of the company, consolidation includes $70 of an invoice for $100. To specify the percentage of the company you own, go to the business unit card and enter the percentage in the **Consolidation %** field.  
+
+## Consolidation finance report overview
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
 
 ## Related information
 

@@ -21,7 +21,7 @@ For sales documents, if the original still exists and isn't posted, you can use 
 
 For archived documents where the original is deleted, you can reuse the content by copying the data, for example, by using the **Copy from Document** action.  
 
-To explore archived documents, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archive**, and then choose the related link. If the archive you're interested in doesn't display right away in the **Go to Reports and Analysis** section, you might need to choose **Show more**.
+To explore archived documents, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Archive**, and then choose the related link. If the archive you're interested in doesn't display right away in the **Go to Reports and Analysis** section, you might need to choose **Show more**.
 
 ## To set up automatic document archiving
 
@@ -38,7 +38,7 @@ The following steps describe how to set up automatic archiving of sales document
 * For projects, use the **Project Setup** page.
 * For services, use the **Service Management Setup** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.
 2. On the **Archiving** FastTab, specify whether to turn on automatic archiving for the various types of sales documents. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 The following table describes the options for the **Archive Quotes** field.
@@ -53,7 +53,7 @@ The following table describes the options for the **Archive Quotes** field.
 
 The following procedure describes how to manually archive a sales order. The steps are similar for all documents and projects that you can archive.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Open a sales order that you want to archive.  
 3. Choose the **Archive Document** action.
 
@@ -65,7 +65,7 @@ You can restore documents only if the original document isn't posted.
 
 The following procedure describes how to restore an archived sales order to the original sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order Archives**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Order Archives**, and then choose the related link.
 2. Select the archived sales order, or version of it, that you want to restore, and then choose the **Restore** action.  
 
 The contents of the original sales order or project are replaced with the archived version.

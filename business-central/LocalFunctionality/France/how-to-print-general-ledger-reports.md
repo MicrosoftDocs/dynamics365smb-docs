@@ -2,7 +2,7 @@
 title: Print General Ledger Reports [FR]
 description: Learn how to print general ledger reports that comply with financial accounting standards. These reports include details about ledger, customer, vendor, and bank entries.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: print general ledger entries, print G/L reports, French version
 ms.date: 04/16/2025

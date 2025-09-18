@@ -2,7 +2,7 @@
 title: How to Delete Approval Workflows
 description: If you're certain that a workflow is no longer being used, you can delete it. All workflow step instances defined in the workflow must be status **Completed**.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 1500, 
@@ -22,7 +22,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 
 ## Delete a workflow
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, then choose the related link.
 2. Select the workflow you want to delete.
 3. Choose the **Delete** action.
 4. Alternatively, open the workflow you want to delete.
@@ -31,7 +31,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 > [!NOTE]
 > Deleting a workflow requires it to be disabled. To disable a workflow, open it in the **Workflows** page, then turn off the **Enabled** toggle.
 
-## See also
+## Related information
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Enable Approval Workflows](across-how-to-enable-workflows.md)  

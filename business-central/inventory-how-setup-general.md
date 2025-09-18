@@ -2,7 +2,7 @@
 title: Set up general inventory information
 description: Describes how to define the general inventory setup so that you can manage your warehouse and stock.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: warehouse, stock
 ms.search.form: 30, 456, 461
 ms.date: 02/18/2025
@@ -17,7 +17,7 @@ You specify your general inventory setup on the **Inventory Setup** page.
 
 ## To set up general inventory information
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Inventory Setup**, and then choose the related link.
 2. On the **Inventory Setup** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### To set up inventory valuation and costing

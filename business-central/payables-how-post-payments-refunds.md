@@ -4,7 +4,7 @@ description: Read about how to record payments that you make to vendors, and ref
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
 ms.search.form: 256, 233, 624, 1228
@@ -32,7 +32,7 @@ Payment journals are general journals that are optimized for making payments. Yo
 
 ## To make payments in the payment journal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that you use for payments.
 3. If you know who to pay, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc. No.** field, on the **Apply Vendor Entries** page, select the relevant invoice or credit memo, and then choose the **OK** button.
@@ -54,7 +54,7 @@ Payment journals are general journals that are optimized for making payments. Yo
 9. In the **Applies To Doc. No.** field, select the documents that require a refund.  
 10. After you complete all payment journal lines, choose the **Post/Print** action, choose the **Post and Print** action, and then choose **Yes**.  
   
-## See also
+## Related information
 
 [Make Check Payments](payables-how-work-checks.md)  
 [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

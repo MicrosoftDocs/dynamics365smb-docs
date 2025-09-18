@@ -2,7 +2,7 @@
 title: Update Custom Report Layouts
 description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
@@ -24,7 +24,7 @@ Not all report dataset changes can be automatically updated in the report layout
 
 ## To update one or more custom report layouts  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.  
 
 2.  On the **Report Layout Selection** page, if you want to update a specific report, select the layout from the list, and then choose the **Update Layout** action. Or, if you want to update all custom report layouts for the company, choose the **Update All Layouts** action.  
 
@@ -32,7 +32,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 ## To test custom report layout updates  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.  
 
 2.  On the **Report Layout Selection** page, choose the **Test Layout Updates** action.  
 
@@ -58,7 +58,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 After you modify the layout, try to update the layout again.  
 
-## See Also  
+## Related information  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
  [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 

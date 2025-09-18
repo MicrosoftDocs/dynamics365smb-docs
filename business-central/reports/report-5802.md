@@ -79,7 +79,7 @@ Try the report here: [Production Order - WIP](https://businesscentral.dynamics.c
 
 - [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
-## See also
+## Related information
 
 [Production report overview](../production-reports.md)  
 

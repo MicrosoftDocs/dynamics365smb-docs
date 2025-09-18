@@ -1,12 +1,12 @@
 ---
 title: Core localization pack for Czech
-description: This section describes Core Localization Application Pack for Czech extension functionality.
+description: This article provides an overview of the features and functionality included in the Core Localization Application Pack extension for Czech.
 author: brentholtorf
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 11/07/2023
-ms.reviewer: bholtorf
+ms.date: 06/09/2025
+ms.reviewer: v-soumramani
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -66,9 +66,9 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   - [Templates for inventory Operations – Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
 
-## See also
+## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

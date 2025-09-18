@@ -4,7 +4,7 @@ description: Overview of how Business Central functionality is built on a platfo
 author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

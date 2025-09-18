@@ -31,7 +31,7 @@ The **Internal Movements** page lets you specify Take and Place lines when there
 
 ### To move items as an internal movement
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movements**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Internal Movements**, and then choose the related link.  
 2. Choose **New** action. Make sure that the **No.** field on the **General** FastTab is filled in.
 3. In the **Location Code** field, enter the location where the movement takes place.  
 
@@ -79,7 +79,7 @@ Instead of using movement documents, you can record movements by reclassifying b
 > [!NOTE]  
 > Movements posted with reclassification journals don't make the movement documents ready to move.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Reclass. Journal**, and then choose the related link.  
 2. On each journal line, define the bins to move the items from and to by filling in the **Bin Code** and the **New Bin Code** fields.  
 
     1. To move a bin's entire contents to another bin, choose the **Get Bin Contents** action.  
@@ -89,7 +89,7 @@ Instead of using movement documents, you can record movements by reclassifying b
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

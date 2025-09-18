@@ -2,7 +2,7 @@
 title: View Posted Tax Invoices [AU]
 description: Use the Posted Sales Tax Invoice page and Posted Purchase Tax Invoice page to view the details of posted sales tax invoices and posted purchase tax invoices.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Posted Sales Tax Invoice, Posted Purchase Tax Invoice, view posted tax invoices, view posted sales tax invoices, view posted purchase tax invoices, Australian version
 ms.search.form: 28071, 28073, 28081, 28082

@@ -4,8 +4,8 @@ description: Set up and run import and processing of sales orders from Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 03/20/2025
-ms.topic: article
+ms.date: 07/14/2025
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 ms.custom: bap-template
@@ -19,17 +19,23 @@ This article describes the settings and steps that you must complete to synchron
 
 Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
-You can access the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies. However, imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
+You can access the store currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. You can configure Shopify to accept different currencies. However, the orders you import to [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
+
+Enable **Auto Sync Orders** to receive real-time notifications whenever a new order is created in a Shopify store. When a notification is received, the Connector runs the **Sync Order from Shopify** batch job using **Job Queue Entries**. 
+> [!NOTE]
+> Because **Auto Sync Order** relies on the job queue features, it isn't available to people who have Delegated Admin permission.
+>
+> When the **Auto Sync Orders** creates the job queue entry, it doesn't set any parameters or filters.
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want to use for specific transaction types:
 
-* **Shipping Charges Account**: You can choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
-* **Sold Gift Card Account**: Learn more at [Gift Card](synchronize-orders.md#gift-cards)
+* **Shipping Charges Account**. You can also choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
+* **Sold Gift Card Account**. Learn more at [Gift Card](synchronize-orders.md#gift-cards)
 * **Tip account**  
 
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
 
-It can be useful for people who work with Shopify Admin to see whether orders synchronized to Business Central. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle gives you control over synchronization.
+People who work with Shopify Admin might want to check whether orders are synchronized with [!INCLUDE[prod_short](../includes/prod_short.md)] and processed. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle gives you control over synchronization. When enabled, after an order is processed in [!INCLUDE[prod_short](../includes/prod_short.md)] and the corresponding sales document is created, the document number is added as an attribute to the Shopify order. An entry appears in the order’s timeline to indicate that [!INCLUDE[prod_short](../includes/prod_short.md)] modified the order. The next round of order synchronization includes the modified Shopify order.
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
@@ -42,13 +48,14 @@ If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_shor
 
 In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
+#### Setup returns and refunds
+
 Specify how you process returns and refunds:
 
 * **Blank** specifies that you don't import and process returns and refunds.
 * **Import only** specifies that you import information, but you manually create the corresponding credit memo.
 * **Auto create credit memo** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
 
-#### Setup returns and refunds
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
@@ -61,7 +68,9 @@ The **Return Location Priority** field offers the following options:
 * **Default Return Location**: This is the default option. It uses the value from the Default Return Location field when creating sales credit memos.
 * **Original > Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
 
-* **Refund Account non-restock Items** specifies a G/L Account No. for items where you don't want to have an inventory correction.
+Some amounts associated with a refund post directly to the G/L account. Choose the G/L accounts that you want to use for specific transaction types:
+
+* **Refund Account non-restock Items** specifies a G/L account for items where you don't want to have an inventory correction.
 * **Refund Account** specifies a G/L account for the difference in the total refunded amount and the total amount of the items.
 
 Learn more at [Returns and refunds](synchronize-orders.md#returns-and-refunds)
@@ -108,6 +117,26 @@ The location mapping is required to fill in the **Location Code** for sales docu
 
 > [!NOTE]  
 > Location mapping is also used to sync inventory. To learn more, go to [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify).
+>
+> Shopify Connector also creates sales invoices for fulfilled documents and credit memos for refunds for locations where the **Directed Put-away and Pick** toggle is enabled. The warehouse entries post for the adjustment bin. To reconcile quantities with normal bins, use the **Warehouse physical inventory journal** page.
+
+### Payment terms mapping
+
+The payment mapping is used in the following cases:
+
+* Defining the payment term code and due date when you import orders.
+* Exporting posted sales invoices to Shopify.
+* Importing and exporting payment terms details in a B2B company.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+2. Select the shop for which you want to configure the mapping of payment terms to open the **Shopify Shop Card** page.
+3. Choose the **Payment Terms Mapping** action to open the **Shopify Payment Terms Mapping**.
+4. Choose the **Refresh** action to import all payment terms defined in Shopify.
+5. Enter the **Payment Terms Code** with the corresponding payment term in [!INCLUDE[prod_short](../includes/prod_short.md)].
+6. Turn on the **Is Primary** toggle for the **Fixed Date** entry. When you export posted sales invoices it will let you transfer the exact due date from [!INCLUDE[prod_short](../includes/prod_short.md)] to the order in Shopify. To learn more, go to [Export posted sales invoices to Shopify](#export-posted-sales-invoices-to-shopify)
+
+> [!NOTE]  
+> Shopify Connector keeps the due date from a Shopify order (such as for the payment terms **Fixed Date** or **Within X days**) in the sales document, regardless of the mapping. For payment terms without a set due date (such as **Due on receipt** or **Due on fulfillment**), the Connector calculates the due date using the formula from the mapped payment term. If no mapping exists, the customer's payment term applies. If that's also missing, the due date defaults to the document date.
   
 ## Run the order synchronization
 
@@ -209,10 +238,15 @@ The next steps depend on the **Customer Mapping Type**.
 * If it's **By EMail/Phone**, the connector tries to find the existing customer by ID first, then by email, and then by phone number. If the customer isn't found, the connector creates a new customer.
 * If it's **By Bill-to Info**, the connector tries to find the existing customer by ID first and then by the bill-to address information. If the customer isn't found, the connector creates a new customer.
 
-> [!NOTE]  
-> The connector uses information from the bill-to address and creates the bill-to customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. The sell-to customer is the same as the bill-to customer.
+If a customer is found, it's used to populate both the **Sell-to Customer No.** and the **Bill-to Customer No.** fields in the **Shopify Order** page. The connector ignores the **Bill-to Customer No.** value defined in the **Customer Card** page.
+If a customer is identified, their information fills in both the **Sell-to Customer No.** and the **Bill-to Customer No.** fields. The connector disregards any value specified in the **Bill-to Customer No.** on the **Customer Card** page.
 
-For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** because for B2B named customers are expected.
+> [!NOTE]  
+> The connector uses information from the bill-to address and creates the customer in [!INCLUDE[prod_short](../includes/prod_short.md)].
+>
+> The connector doesn't populate the **Bill-to Customer No.** field in the created customer.
+
+For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** because named customers are expected for B2B.
 
 ### Different processing rules for orders
 
@@ -235,6 +269,8 @@ Each job queue imports and processes orders within the defined filters and uses 
 
 > [!IMPORTANT]
 > To avoid conflicts when processing orders, use the same job queue category for both job queue entries.
+>
+> Don't rely on the **Auto Sync Orders** setting because it doesn't support filters and request page paremeters.
 
 ### Effect of order editing
 
@@ -386,17 +422,22 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 |Item |Item No.| Use for refunds related to products that were restocked. Valid for direct refunds or refunds linked to returns. The location code on the credit memo line is set based on the value selected for the return location.|
 |G/L Account| Refund Account | Use for other refunded amounts that aren't related to products or gift cards. For example, tips, or if you manually specified an amount to refund in Shopify. |
 
-> [!Note]
-> The return locations, including blank locations, defined in the **Shopify Shop Card** are used on the created credit memo. The system ignores the original locations from orders or shipments.
-
 ## Gift cards
 
 In the Shopify shop you can sell gift cards, which can be used to pay for real products.
 
-When dealing with gift cards, it's important to enter a value in the **Sold Gift Card Account** field in the **Shopify Shop Card** page. The sold gift card synchronizes together with the orders. An applied gift card also imports with the order, but now as a transaction. The gift card doesn't reduce the amount to invoice.
+When dealing with gift cards, it's important to enter a value in the **Sold Gift Card Account** field in the **Shopify Shop Card** page. The sold gift card synchronizes together with the orders and added to sales document as line of type *G/L Account*. 
+
+An applied gift card also imports with the order, but now as a payment transaction. The gift card doesn't reduce the amount to invoice. To learn how to reconcile payment transaction, go to [Transactions and payouts](transactions-and-payouts.md).
 
 To review the issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, then choose the related link.
 
-## See also
+> [!NOTE]
+> To import gift cards created manually or sold via old orders, that you don't want to import, you need to use configuration package. Use the 30110 **Shpfy Gift Card** table and **Id**, **Last Characters**, **Amount**.  You can export gift cards from Shopify Admin. You will need the **Id**, **Last Charaters** and **Current Balance** fields. 
 
-[Get started with the Shopify Connector](get-started.md)  
+## Related information
+
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  

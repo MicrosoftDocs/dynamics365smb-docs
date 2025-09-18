@@ -4,7 +4,7 @@ description: Learn how to browse and install AppSource apps from Business Centra
 author: SusanneWindfeldPedersen
 ms.author: solsen
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: app, apps, install, integration, AppSource
 ms.date: 04/08/2025
 ms.custom: bap-template
@@ -17,7 +17,7 @@ From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can discover, vi
 
 On the **Microsoft AppSource Apps** page, you can filter available AppSource apps by name, publisher name, install state, popularity, average rating, number of ratings, and last modified date. You can also select a given app and see the details for that specific app.
 
-To locate the page, in [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft AppSource Apps**, and then choose the related link.
+To locate the page, in [!INCLUDE[prod_short](includes/prod_short.md)], [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Microsoft AppSource Apps**, and then choose the related link.
 
 On the page, you find the following actions:
 
@@ -33,6 +33,6 @@ Install AppSource apps using the **Extension Management** page in [!INCLUDE[prod
 
 Upgrade AppSource apps using the [!INCLUDE[prod_short](includes/prod_short.md)] admin center. Learn more in [Managing Apps](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps).  
 
-## See also
+## Related information
 
 [Customizing Business Central online using apps](ui-extensions.md)  

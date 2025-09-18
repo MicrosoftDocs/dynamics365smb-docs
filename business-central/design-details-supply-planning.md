@@ -4,7 +4,7 @@ description: This article describes the concepts and principles in the supply pl
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: design, supply, planning, reordering, replenishment

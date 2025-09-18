@@ -33,7 +33,7 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 
 ## To sell inventory items in assemble-to-order flows
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Create a sales order. To learn about creating sales orders, go to [Sell Products](sales-how-sell-products.md).  
 3. On a sales order line that contains an assemble-to-order item, in the **Quantity** field, enter the quantity.  
 4. In the **Sales Line Details** FactBox, determine whether some of all of the quantity is available.  
@@ -48,7 +48,7 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 > [!CAUTION]  
 > The **Bin Code** field on the sales order might contain the value from the **Assemble-to-Order Shpt. Bin Code** or **From-Assembly Bin Code** fields on the location card. If it does, the **Bin Code** field on the sales order line might be incorrect for this combination of assemble-to-order and assemble-to-stock quantities. It's a good idea to double-check that the bin in the **Bin Code** field works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
 
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  

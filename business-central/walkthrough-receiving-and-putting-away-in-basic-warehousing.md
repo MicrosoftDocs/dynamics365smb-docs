@@ -4,7 +4,7 @@ description: Learn about the different ways to handle inbound processes for rece
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -66,7 +66,7 @@ To complete this walkthrough, you'll need:
 * CRONUS International Ltd. data  
 * To be a warehouse employee at SILVER location. To set yourself up, follow these steps:  
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+    1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Employees**, and then choose the related link.  
     2. Choose the **User ID** field, and select your user account on the **Users** page.  
     3. In the **Location Code** field, choose **SILVER**.  
     4. Select the **Default** checkbox.  
@@ -81,7 +81,7 @@ Settings on the **Location Card** page define the company's warehouse flows.
 
 ### To set up the location  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
 2. Open the SILVER location card.  
 3. Turn on the **Require Put-away** toggle.  
 
@@ -102,7 +102,7 @@ Purchase orders are the most common type of inbound source document.
 
 ### To create the purchase order  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
@@ -126,7 +126,7 @@ Use the **Inventory Put-away** page to manage all inbound warehouse activities f
 
 ### To receive and put the items away  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-aways**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Inventory Put-aways**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Select the **Source Document** field, and then select **Purchase Order**.  
 4. Select the **Source No.** field, select the line for the purchase from vendor 10000, and then choose the **OK** button.  
@@ -141,7 +141,7 @@ Use the **Inventory Put-away** page to manage all inbound warehouse activities f
 
     The 40 loudspeakers are now registered as put away in bin S-01-0001, and a positive item ledger entry is created reflecting the posted purchase receipt.  
 
-## See Also  
+## Related information  
 
 [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

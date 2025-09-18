@@ -4,7 +4,7 @@ description: This article explains how to register consumption and output for a 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 5510,
 ms.date: 04/08/2025
 ms.service: dynamics-365-business-central
@@ -22,7 +22,7 @@ Use the **Production Journal** page to register consumption output for a release
 
 ## To register consumption and output  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Released Prod. Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)] enter **Released Prod. Orders**, and then choose the related link.  
 2. Open a released production order line that's ready to register. On the **Lines** FastTab, choose the **Line** action, and then choose the **Production Journal** action.  
 
     The **Production Journal** page shows journal lines for the production order line according to the **Prod. Order Component** and **Prod. Order Routing** pages. These lines come from the production BOM and routing assigned to the item that is being produced. To learn more, go to [Create Production BOMs](production-how-to-create-routings.md).  

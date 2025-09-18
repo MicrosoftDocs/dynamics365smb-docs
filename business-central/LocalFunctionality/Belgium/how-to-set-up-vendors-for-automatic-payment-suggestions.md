@@ -2,7 +2,7 @@
 title: Set Up Vendors for Automatic Payment Suggestions [BE]
 description: Configure vendors to automatically include their unpaid invoices in payment suggestions for streamlined processing.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: unpaid invoices, payment suggestions, vendor setup, automatic payments, Belgian version
 ms.date: 04/04/2025

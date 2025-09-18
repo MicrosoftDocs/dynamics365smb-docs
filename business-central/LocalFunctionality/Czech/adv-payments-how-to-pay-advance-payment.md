@@ -1,10 +1,10 @@
 ---
 title: Pay an advance letter  
-description: This article describes how to pay an advance letter using the Czech Advance Payments Localization extension.  
+description: This article describes how to pay an advance letter using Advance Payments in the Czech version.  
 author: v-pejano  
 ms.reviewer: v-pejano  
 ms.author: v-pejano  
-ms.service: dynamics365-business-central  
+ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, Localization  
 ms.date: 09/17/2025  
@@ -21,7 +21,7 @@ If an advance letter has the status **To Pay**, it can be paid either via a gene
 2. Select a general journal template.
 3. To pay the advance letter, on the journal line, in the **Document Type** field, choose **Payment**.
 4. Depending on the type of advance letter (sales/purchase), enter the **Customer No.** or **Vendor No.**.
-5. In the **Advance Letter No.** field on the journal line, a list of all unpaid or partially paid advance letters is available. The list is filtered by the currency code selected on the journal line. Select the advance letter you want to pay and confirm your selection. You can reduce the proposed amount if you want to make a partial payment.  
+5. In the **Advance Letter No.** field on the journal line, a list of all unpaid or partially paid advance letters is available. The list is filtered on the currency code selected on the journal line. Select the advance letter you want to pay and confirm your selection. You can reduce the proposed amount if you want to make a partial payment.  
 
    > [!NOTE]
    > You can only link one advance letter per journal line. To pay multiple advance letters, use multiple journal lines.

@@ -1,10 +1,10 @@
 ---
-title: Understand the principles and lifecycle for Advance Payment  
-description: This article explains the core principles and lifecycle of advance payments in the Czech localization extension.  
+title: Understand the principles and lifecycle for Advance Payments  
+description: This article explains the core principles and lifecycle of advance payments in the Czech version.  
 author: v-pejano
 ms.reviewer: v-pejano  
 ms.author: v-pejano 
-ms.service: dynamics365-business-central  
+ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, Localization  
 ms.date: 09/17/2025  
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 # Understand the core principles and lifecycle of Advance Payments
 
-This article explains the core principles and lifecycle of advance payments in the Czech localization extension.
+This article explains the core principles and lifecycle of advance payments in the Czech version.
 
 ## Core principles
 
@@ -31,7 +31,7 @@ This article explains the core principles and lifecycle of advance payments in t
 
 The entire lifecycle of an advance is available from the **Sales (or Purchase) Advance Letter** page. The page lists all historical advance entries and you can access all related functions. For example, you can post VAT documents and credit memos, close an advance, run reports, and so on.
 
-The **Status** field shows the current stage of the advance. For example, whether it's issued, paid, or applied.
+The **Status** field shows the current stage of the advance. For example, whether the advance is issued, paid, or applied.
 
 ![Advance Payment Principles](Media/adv-payments-principes.png)
 

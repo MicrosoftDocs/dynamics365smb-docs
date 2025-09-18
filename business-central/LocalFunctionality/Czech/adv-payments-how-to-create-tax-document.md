@@ -1,10 +1,10 @@
 ---
 title: Create a VAT document for an advance letter  
-description: This section describes how to create and post a VAT document for an advance letter using the Czech Advance Payments Localization extension.  
+description: This article describes how to create and post a VAT document for an advance letter using Advance Payments in the Czech version.  
 author: v-pejano  
 ms.reviewer: v-pejano  
 ms.author: v-pejano
-ms.service: dynamics365-business-central  
+ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, VAT Document, Localization  
 ms.date: 09/17/2025  

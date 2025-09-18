@@ -1,10 +1,10 @@
 ---
 title: Set up advance payments in the Czech version  
-description: This article describes how to set up the Czech Advance Payments Localization extension.  
+description: This article describes how to set up Advance Payments in the Czech version.  
 author: v-pejano
 ms.reviewer: v-pejano  
 ms.author: v-pejano  
-ms.service: dynamics365-business-central  
+ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, Localization  
 ms.date: 09/17/2025  
@@ -37,8 +37,8 @@ To configure an advance letter template, follow these steps:
     - **Advance Letter Cr. Memo Nos.** – Number series for advance VAT credit memos.
     - **Advance Letter G/L Account** – G/L account used to track advance payments (advance balances).
     - **VAT Bus. Posting Group** – Default VAT business posting group for the template. If empty, the group from the customer or vendor is used. The setting in the template takes precedence.
-    - **Automatic Post VAT Document** – Indicates whether to automatically post the VAT on the advance when the advance is applied in a final invoice. For **sales**, this also controls automatic posting of the VAT document for the advance payment. For **purchases**, the VAT document must always be posted manually. The value can be changed per document.
-    - **Automatic Post Non-Deductible VAT** – Indicates whether to automatically post non-deductible VAT.
+    - **Automatic Post VAT Document** – Indicates whether to automatically post the VAT on the advance when the advance is applied in a final invoice. For **sales**, this setting also controls automatic posting of the VAT document for the advance payment. For **purchases**, the VAT document must always be posted manually. The value can be changed per document.
+    - **Automatic Post Non-Deductible VAT** – Indicates whether to automatically post nondeductible VAT.
     - **Post VAT document for Reverse charge** – Indicates whether post VAT document for reverse charge.
 3. After completing the setup, you can close the page.
 

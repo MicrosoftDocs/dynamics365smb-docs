@@ -4,7 +4,7 @@ description: This article describes how to manually create an advance invoice us
 author: v-pejano  
 ms.reviewer: v-pejano  
 ms.author: v-pejano  
-ms.service: dynamics365-business-central  
+ms.service: dynamics-365-business-central  
 ms.topic: how-to  
 ms.search.keywords: Czech, Advance Payments, Localization  
 ms.date: 09/17/2025

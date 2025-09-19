@@ -62,7 +62,7 @@ You must ensure that the **VAT Return** shows the original amounts in the origin
 
 The **VAT Control** report should also show the original amounts. The function for retrieving the lines of the control report is adapted so that it uses the **Original VAT Base** and **Original VAT Amount** from the VAT entry. Reduced values aren't included in the control report.
 
-At the end of the calendar period, the advance coefficient must be recalculated retrospectively (which [!INCLUDE [prod_short](../../includes/prod_short.md)] doesn't support, you need to proceed in your usual way). The value of the calculated settlement coefficient is entered in the **Non-Deductible VAT Setup** in the appropriate field. It's also set as the value of the advance coefficient for the next period. If the settlement coefficient differs from the advance coefficient, you must run the **VAT Coefficient Correction** batch job to recalculate the entries.
+At the end of the calendar period, the advance coefficient must be recalculated retrospectively (which [!INCLUDE [prod_short](../../includes/prod_short.md)] doesn't support, you need to proceed in your usual way). The value of the calculated settlement coefficient is entered in the **Non-Deductible VAT Setup** in the appropriate field. It also becomes the value of the advance coefficient for the next period. If the settlement coefficient differs from the advance coefficient, you must run the **VAT Coefficient Correction** batch job to recalculate the entries.
 
 This batch job goes through all VAT entries in the specified period with combinations of VAT posting groups set as input VAT reduction. It compares the value of the applied reduction coefficient in the **Non-deductible VAT %** field with the value of the posting coefficient. It calculates the difference and posts it as a new VAT entry with an adjusted VAT base and amount. The difference in VAT posts to the **VAT Coefficient Correction Account** specified on the **VAT Posting Setup** page.
 
@@ -106,7 +106,7 @@ For combinations of VAT posting groups marked with **Allow** in the **Allow Non-
 
 You set the value of the VAT shortening coefficient on the **Non-Deductible VAT Setup** page. For the calendar accounting period, you must set the **Advance Coefficient**, and then at the end of the period add the value of the recalculated **Settlement Coefficient**.
 
-Both coefficients are set as percentages of the non-applied part of VAT. That is, if the calculated shortening coefficient is 7% and therefore only 7% of input VAT is claimed, the value of the advance coefficient (the value of non-deductible VAT) is 93.
+Both coefficients are set as percentages of the nonapplied part of VAT. That is, if the calculated shortening coefficient is 7% and therefore only 7% of input VAT is claimed, the value of the advance coefficient (the value of non-deductible VAT) is 93.
 
 Setting the settlement coefficient is also related to the **Source Code Setup** page. On this page, you need to set the **Source Code** used in the annual posting of the difference between the advance and settlement coefficient. Set the value in the **VAT Coef. Correction** field.
 

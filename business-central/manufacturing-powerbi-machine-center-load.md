@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 37042_Primary 
+ms.search.form: 37096_Primary 
 ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -52,7 +52,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Machine Center Load](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Machine Center Load](https://businesscentral.dynamics.com?page=37096)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

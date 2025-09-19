@@ -6,8 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-# TODO correct page id must be added
-# ms.search.form: 37042_Primary 
+ms.search.form: 37098_Primary
 ms.date: 04/22/2024
 ms.service: dynamics-365-business-central
 ---
@@ -96,7 +95,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Production Order Overview](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Production Order Overview](https://businesscentral.dynamics.com?page=37098)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

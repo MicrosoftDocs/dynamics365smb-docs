@@ -172,7 +172,7 @@ The Invoiced (Total Price) measure calculates the total price of all project led
 ### Quantity
 
 **Formula**  
-The Quantity measure calculates the total quantity of a product or service used in a project by summing the quantity in the Project Ledger Entry table and converting the measure to a postive value.
+The Quantity measure calculates the total quantity of a product or service used in a project by summing the quantity in the Project Ledger Entry table and converting the measure to a positive value.
   
 **Data Sources**
 - Job Ledger Entry

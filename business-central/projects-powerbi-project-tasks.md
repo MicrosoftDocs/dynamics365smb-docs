@@ -27,14 +27,14 @@ Project Managers use the report to track the progress of project tasks and make 
 
 The *Project Tasks* report includes the following KPIs:
 
-- [**Actual (Total Price)**](projects-powerbi-kpis.md#actual-total-price)
-- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
 - [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
 - [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
-- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
-- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
-- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
 - [**Realization %**](projects-powerbi-kpis.md#realization-)
+- [**Total Usage Price**](projects-powerbi-kpis.md#total-usage-price)
+- [**Total Usage Cost**](projects-powerbi-kpis.md#total-usage-cost)
+- [**Total Invoiced Price**](projects-powerbi-kpis.md#total-invoiced-price)
+- [**Total Billable Price)**](projects-powerbi-kpis.md#total-billable-price)
+- [**Total Budget Cost**](projects-powerbi-kpis.md#total-budget-cost)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -44,10 +44,10 @@ The *Project Tasks* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Planning Lines
-- Project Ledger Entries
-- Task
+- Job
+- Job Task
+- Job Planning Lines
+- Job Ledger Entries
 
 ## Try the report
 

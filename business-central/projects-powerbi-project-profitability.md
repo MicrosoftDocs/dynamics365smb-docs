@@ -30,11 +30,11 @@ Leadership teams use the report to identify high and low performing projects, an
 The *Project Profitability* report includes the following KPIs:
 
 - [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
-- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
 - [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
-- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
-- [**Budget (Total Price)**](projects-powerbi-kpis.md#budget-total-price)
-- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
+- [**Total Usage Cost**](projects-powerbi-kpis.md#total-usage-cost)
+- [**Total Invoiced Price**](projects-powerbi-kpis.md#total-invoiced-profit)
+- [**Total Budget Price**](projects-powerbi-kpis.md#total-budget-price)
+- [**Total Budget Cost**](projects-powerbi-kpis.md#total-budget-cost)
 - [**Budget Profit Margin %**](projects-powerbi-kpis.md#budget-profit-margin-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
@@ -45,9 +45,9 @@ The *Project Profitability* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
-- Tasks
+- Job
+- Job Task
+- Job Ledger Entries
 
 ## Try the report
 

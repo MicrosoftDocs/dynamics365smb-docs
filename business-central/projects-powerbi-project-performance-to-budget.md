@@ -42,9 +42,9 @@ The *Project Performance to Budget* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entry
-- Project Planning Line
+- Job
+- Job Ledger Entry
+- Job Planning Line
 
 ## Try the report
 

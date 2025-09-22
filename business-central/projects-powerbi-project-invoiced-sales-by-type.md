@@ -42,8 +42,8 @@ The *Project Invoiced Sales by Type* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entry
+- Job
+- Job Ledger Entry
 
 ## Try the report
 

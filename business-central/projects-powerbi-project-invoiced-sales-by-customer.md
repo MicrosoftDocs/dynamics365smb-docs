@@ -33,10 +33,10 @@ People in leadership teams want to a high-level view of your project sales and w
 
 The *Project Invoiced Sales by Customer* report includes the following KPIs:
 
-- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
+- [**Invoiced (%)**](projects-powerbi-kpis.md#invoiced-)
 - [**Quantity**](projects-powerbi-kpis.md#quantity)
-- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
-- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
+- [**Total Invoiced Price**](projects-powerbi-kpis.md#total-invoiced-price)
+- [**Total Billable Price**](projects-powerbi-kpis.md#total-billable-price)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -47,9 +47,9 @@ The *Project Invoiced Sales by Customer* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
-- Project Planning Lines
+- Job
+- Job Ledger Entry
+- Job Planning Line
 
 ## Try the report
 

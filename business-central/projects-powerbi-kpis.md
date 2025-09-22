@@ -52,6 +52,8 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Duration (Days)
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 The Duration (Days) measure calculates the number of days between the earliest starting date and latest ending date for a given project in the Project table.
   
@@ -98,6 +100,8 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 
 ### Actual Profit
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 *Actual Profit = [Billable (Invoiced Price)](#billable-invoiced-price) - [Actual (Total Cost)](#actual-total-cost)*
   
@@ -106,6 +110,8 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 
 ### Actual Profit Margin %
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 *Actual Profit Margin % = [Actual Profit Margin %](#actual-profit-margin-) / [Billable (Invoiced Price)](#billable-invoiced-price)*
   
@@ -113,6 +119,9 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - Job Ledger Entry
 
 ### Budget Profit
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 *Budget Profit = - [Budget (Total Price)](#budget-total-price) - [Budget (Total Cost)](#budget-total-cost)*
 
@@ -121,6 +130,8 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - Job Planning Line
 
 ### Budget Profit Margin %
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 *Budget Profit Margin % = [Budget Profit](#budget-profit) / [Budget (Total Price)](#budget-total-price)*
@@ -139,6 +150,8 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 
 ### Actual (Total Price)
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 The Actual (Total Price) measure calculates the total actual cost of project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Usage". The result of this calculation is then converted to a positive value.
   
@@ -146,6 +159,8 @@ The Actual (Total Price) measure calculates the total actual cost of project ent
 - Job Ledger Entry
 
 ### Billable (Invoiced Price)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 The Billable (Invoiced Price) measure shows the total invoiced price of billable project entries by calculating the total price (in local currency) in the Project Ledger Entry table and selecting only those entries with an entry type of "Sale", which indicates that the project entry is billable.
@@ -155,6 +170,8 @@ The Billable (Invoiced Price) measure shows the total invoiced price of billable
 
 ### Invoiced (Total Cost)
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 The Invoiced (Total Cost) measure calculates the total cost of all project ledger entries where the entry type is "Sale" in the Project Ledger Entry table.
   
@@ -162,6 +179,8 @@ The Invoiced (Total Cost) measure calculates the total cost of all project ledge
 - Job Ledger Entry
 
 ### Invoiced (Total Price)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 The Invoiced (Total Price) measure calculates the total price of all project ledger entries where the entry type is "Sale" in the Project Ledger Entry table.
@@ -179,6 +198,8 @@ The Quantity measure calculates the total quantity of a product or service used 
 
 ### Total Price
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 The Total Price measure calculates the total price of all project ledger entries in the Project Ledger Entry table. It uses the SUMX function to iterate over each row in the table and multiply the quantity and unit price (in local currency) columns for each row. The results of each multiplication are then summed up to produce the total price.
 
@@ -193,6 +214,8 @@ The Total Price measure calculates the total price of all project ledger entries
 
 ### Actual (Total Cost)
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 The Actual (Total Cost) measure calculates the total cost (in local currency) of all project ledger entries where the type is "Usage" in the Project Ledger Entry table.
   
@@ -200,6 +223,8 @@ The Actual (Total Cost) measure calculates the total cost (in local currency) of
 - Job Ledger Entry
 
 ### Gen. Journal Usage (Total Cost)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 The Gen. Journal Usage (Total Cost) measure calculates the total cost of all project ledger entries where the type is "G/L Account" in the Project Ledger Entry table.
@@ -209,6 +234,8 @@ The Gen. Journal Usage (Total Cost) measure calculates the total cost of all pro
 
 ### Labour Usage (Total Cost)
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 The Labour Usage (Total Cost) measure calculates the total cost of all project ledger entries where the type is "Resource" in the Project Ledger Entry table.
   
@@ -216,6 +243,8 @@ The Labour Usage (Total Cost) measure calculates the total cost of all project l
 - Job Ledger Entry
 
 ### Material Usage (Total Cost)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 The Material Usage (Total Cost) measure calculates the total cost of all project ledger entries where the type is "Item" in the Project Ledger Entry table.
@@ -237,6 +266,8 @@ The Material Usage (Total Cost) measure calculates the total cost of all project
 
 ### Billable (Total Cost)
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 The Billable (Total Cost) measure calculates the total cost (in local currency) of all project planning lines where the line type is "Billable" or "Both Budget and Billable" in the Project Planning Line table.
   
@@ -244,6 +275,8 @@ The Billable (Total Cost) measure calculates the total cost (in local currency) 
 - Job Planning Line
 
 ### Billable (Total Price)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 The Billable (Total Price) measure calculates the total price (in local currency) of all project planning lines where the line type is "Billable" or "Both Budget and Billable" in the Project Planning Line table.
@@ -253,6 +286,8 @@ The Billable (Total Price) measure calculates the total price (in local currency
 
 ### Budget (Total Cost)
 
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
 **Formula**  
 The Budget (Total Cost) measure represents the budgeted cost of resources to be used in a project by calculating the total cost (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
 
@@ -260,6 +295,8 @@ The Budget (Total Cost) measure represents the budgeted cost of resources to be 
 - Job Ledger Entry
 
 ### Budget (Total Price)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 The Budget (Total Price) measure represents the budgeted price of resources to be used in a project by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".

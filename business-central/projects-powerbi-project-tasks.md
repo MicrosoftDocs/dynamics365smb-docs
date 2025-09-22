@@ -27,9 +27,9 @@ Project Managers use the report to track the progress of project tasks and make 
 
 The *Project Tasks* report includes the following KPIs:
 
-- [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
-- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
-- [**Realization %**](projects-powerbi-kpis.md#realization-)
+- [**Total Usage Profit**](projects-powerbi-kpis.md#total-usage-profit)
+- [**Total Usage Profit Margin %**](projects-powerbi-kpis.md#total-usage-profit-margin)
+- [**Realization (%)**](projects-powerbi-kpis.md#realization-)
 - [**Total Usage Price**](projects-powerbi-kpis.md#total-usage-price)
 - [**Total Usage Cost**](projects-powerbi-kpis.md#total-usage-cost)
 - [**Total Invoiced Price**](projects-powerbi-kpis.md#total-invoiced-price)

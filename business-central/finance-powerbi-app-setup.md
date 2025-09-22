@@ -211,8 +211,6 @@ The following example illustrates the recommended approach for setting up totali
 
 :::image type="content" source="media/powerbi/finance/recommended-totalling-structure-for-power-bi-reporting.png" alt-text="Screenshot of the recommended totalling structure for power bi finance reporting" lightbox="media/powerbi/finance/recommended-totalling-structure-for-power-bi-reporting.png":::
 
-:::image type="content" source="media/powerbi/finance/recommended-totalling-structure-for-power-bi-reporting.png" alt-text="Screenshot of the recommended totalling structure for power bi finance reporting" lightbox="media/powerbi/finance/recommended-totalling-structure-for-power-bi-reporting.png":::
-
 ## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  

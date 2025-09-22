@@ -47,9 +47,9 @@ The *Project Invoiced Sales by Customer* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-- Job
-- Job Ledger Entry
-- Job Planning Line
+- Project
+- Project Ledger Entry
+- Project Planning Line
 
 ## Try the report
 

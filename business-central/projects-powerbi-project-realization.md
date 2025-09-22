@@ -35,6 +35,7 @@ The *Project Realization* report includes the following KPIs:
 
 - [**Total Usage Price**](projects-powerbi-kpis.md#total-usage-price)
 - [**Total Invoiced Price**](projects-powerbi-kpis.md#total-invoiced-price)
+- [**Total Billable Price**](projects-powerbi-kpis.md#total-billable-price)
 - [**Realization %**](projects-powerbi-kpis.md#realization-)
 - [**Realization Variance**](projects-powerbi-kpis.md#realization-variance)
 

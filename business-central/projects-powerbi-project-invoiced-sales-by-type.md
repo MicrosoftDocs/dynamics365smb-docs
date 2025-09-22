@@ -27,11 +27,11 @@ Project managers use the report to track the different type of sales entries. Yo
 
 The *Project Invoiced Sales by Type* report includes the following KPIs:
 
-- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
+- [**Invoiced (%)**](projects-powerbi-kpis.md#invoiced-)
 - [**Quantity**](projects-powerbi-kpis.md#quantity)
-- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
-- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
-- [**Actual (Total Price)**](projects-powerbi-kpis.md#actual-total-price)
+- [**Total Invoiced Price**](projects-powerbi-kpis.md#total-invoiced-price)
+- [**Total Billable Price**](projects-powerbi-kpis.md#total-billable-price)
+- [**Total Usage Price**](projects-powerbi-kpis.md#total-usage-price)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -42,8 +42,8 @@ The *Project Invoiced Sales by Type* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
+- Job
+- Job Ledger Entry
 
 ## Try the report
 

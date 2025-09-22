@@ -24,28 +24,28 @@ Each KPI is described, including how it is calculated and what data was used in 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Project Measures
-- [% Invoiced](#-invoiced)
-- [% Complete](#-complete)
+- [Invoiced (%)](#invoiced)
+- [Complete (%)](#completed)
 - [Duration (Days)](#duration-days)
 - [Project Count](#project-count)
 - [Realization %](#realization-)
 - [Realization Variance](#realization-variance)
 - [Tasks Count](#tasks-count)
 
-### % Invoiced
+## Invoiced (%)
 
 **Formula**  
-*% Invoiced = [Billable (Invoiced Price)](#billable-invoiced-price) / [Billable (Total Price)](#billable-total-price)*
-  
+*Invoiced (%) = [Total Invoiced Price](#total-invoiced-price) / [Total Billable Price](#total-billable-price)*
+
 **Data Sources**
 - Job Ledger Entry
 - Job Planning Line
 
-### % Complete
+## Completed (%)
 
 **Formula**  
-*% Complete = [Actual (Total Cost)](#actual-total-cost) / [Budget (Total Cost)](#budget-total-cost)*
-  
+*Completed (%) = [Total Usage Cost](#total-usage-cost) / [Total Budget Cost](#total-budget-cost)*
+
 **Data Sources**
 - Job Ledger Entry
 - Job Planning Line
@@ -67,10 +67,10 @@ The Project Count measure counts the total number of projects in the Project tab
 **Data Sources**
 - Job
 
-### Realization %
+### Realization (%)
 
 **Formula**  
-*Realization % = [Billable (Invoiced Price)](#billable-invoiced-price) / [Actual (Total Price)](#actual-total-price)*
+*Realization (%) = [Total Billable Price)](#total-billable-price) / [Total Usage Price](#total-usage-price)*
   
 **Data Sources**
 - Job Ledger Entry
@@ -78,7 +78,7 @@ The Project Count measure counts the total number of projects in the Project tab
 ### Realization Variance
 
 **Formula**  
-*Realization Variance = [Billable (Invoiced Price)](#billable-invoiced-price) - [Actual (Total Price)](#actual-total-price)*
+*Realization Variance = [Total Billable Price](#total-billable-price) - [Total Usage Price](#total-usage-price)*
 
 **Data Sources**
 - Job Ledger Entry
@@ -880,14 +880,6 @@ The No. of Completed Projects measure calculates the number of projects where th
 **Data Sources**
 - Job
 
-## No. of Completed Projects
-
-**Formula**  
-The No. of Completed Projects measure calculates the number of projects where the Complete column is "Yes".
-
-**Data Sources**
-- Job
-
 ## Project Count
 
 **Formula**  
@@ -903,26 +895,6 @@ The Tasks Count measure calculates the number of all project tasks where the Job
 
 **Data Sources**
 - Job Task
-
-## Completed
-
-## Completed (%)
-
-**Formula**  
-*Completed (%) = [Total Usage Cost](#total-usage-cost) / [Total Budget Cost](#total-budget-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-- Job Planning Line
-
-## Invoiced (%)
-
-**Formula**  
-*Invoiced (%) = [Total Invoiced Price](#total-invoiced-price) / [Total Billable Price](#total-billable-price)*
-
-**Data Sources**
-- Job Ledger Entry
-- Job Planning Line
 
 ## Realization
 

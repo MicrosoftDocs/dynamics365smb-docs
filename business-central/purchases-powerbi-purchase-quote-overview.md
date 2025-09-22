@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Purchases Quote Overview** provides detailed information on purchase quotees, including the number of quotes, total value, purchase quantities and purchase amount over time.
+The **Purchases Quote Overview** provides detailed information on purchase quotes, including the number of quotes, total value, purchase quantities and purchase amount over time.
 
 **To do** Add correct link to image
 :::image type="content" source="media/purchases/{purchases-quote-overview.png}" alt-text="Screenshot of the Purchases Quote Overview Power BI report" lightbox="media/purchases/{purchases-quote-overview.png}":::

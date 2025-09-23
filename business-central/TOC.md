@@ -554,6 +554,7 @@ ms.service: dynamics-365-business-central
 #### [Use E-Documents in purchases](finance-how-use-edocuments-purchase.md)
 #### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
 #### [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md)
+#### [Connect e-documents to Microsoft 365 applications](finance-connect-edocuments-microsoft365.md)
 #### [Extending E-Documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
@@ -2055,8 +2056,8 @@ ms.service: dynamics-365-business-central
 ###### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ###### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 ##### IRS1099
-###### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
-###### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+###### [Introduction to the IRS 1099 forms and functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+###### [Set up IRS 1099 forms](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 ###### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
 ###### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ###### Deprecated 1099 feature
@@ -2628,8 +2629,8 @@ ms.service: dynamics-365-business-central
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Map E-Documents (preview)
-### [Map E-Documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
-### [Responsible AI FAQ for mapping E-Documents with purchase orders using Copilot](faqs-map-edocuments.md)
+### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

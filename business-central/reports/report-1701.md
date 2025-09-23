@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting, deferral, revenue recognition, sales
-ms.search.form: Report_1701
+ms.search.form: Report_1701_Primary
 ms.date: 06/21/2025
 ms.service: dynamics-365-business-central
 ms.custom:

@@ -9,6 +9,7 @@ ms.search.keywords: e-documents, Microsoft 365
 ms.search.form: 
 ms.date: 09/04/2025
 ms.custom: bap-template
+ROBOTS: NOINDEX
 ---
 
 # Connect e-documents to Microsoft 365 applications

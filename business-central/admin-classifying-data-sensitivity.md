@@ -66,6 +66,8 @@ Additional information:
 
 > [!NOTE]
 > To use masking, you must enable **Introduce UI support for masking sensitive data** on the **Feature Management** page. To learn more, go to [Introduce UI support for masking sensitive data feature key](/dynamics365/business-central/dev-itpro/developer/devenv-masktype-feature-key).
+>
+> We introduced masking in 2025 release wave 2. We'll make the feature a standard part of [!INCLUDE [prod_short](includes/prod_short.md)] in a future version and remove the feature key.
 
 ### Information about masking for developers
 

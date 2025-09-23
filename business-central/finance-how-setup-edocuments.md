@@ -122,11 +122,11 @@ To set up an e-document service, follow these steps.
 
 ### Supported document types
 
-Support for document types is based on the **Document Format**. To check which document types are supported, on the **E-Document Services** page, choose the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens. In the **Source Document Type** column, you can choose different document types for the format you're planning to use. Only use the document type if that document is selected.
+The types of documents you can use is based on your selection in the **Document Format** field on the **E-Document Service** page. To explore the types of documents that a document format supports, select the format, and then choose the **Configure documents to export** action. The **E-Document Service Supported Source Document Types** page opens, and the **Source Document Type** field shows the types of documents for the document format. Only use types of documents that the document format supports.
 
 ## Set up a document sending profile
 
-You need to set up a preferred method of sending sales documents for each customer. On the **Document Sending Profiles** page, you can set up sending profiles and then select the one to use in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the profile for all customers for which a profile isn't specified in the **Document Sending Profile** field.
+You need to set up a preferred method of sending sales documents for each customer. On the **Document Sending Profiles** page, you can set up sending profiles and then select the one to use in the **Document Sending Profile** field on a customer card page. You can select the **Default** checkbox to specify that a document sending profile is the profile for all customers for which a profile isn't specified in the **Document Sending Profile** field.
 
 This feature is used to set up electronic invoicing automation. If you're using [legacy e-invoices](sales-how-to-send-electronic-documents.md) and want to enable the **E-Document** framework, the process is slightly different. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. The profile is either the profile set up for the customer or the default profile for all customers.
 

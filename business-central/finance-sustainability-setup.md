@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, water, waste, value chain, role center, fees
 ms.search.form: 6221, 6235, 6245
-ms.date: 01/28/2025
+ms.date: 08/28/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -85,6 +85,8 @@ To configure these settings, follow these steps:
     | **Reporting UOM Factor** | Enter the unit of measure factor that you use to register emissions, if you use a different unit of measure when you report to authorities. |
     | **Emission Rounding Precision** | Enter the size of the interval that you use to round emission amounts when you report to authorities. |
     | **Emission Rounding Type** | Choose how to round emission amounts when you report to authorities. |
+    | **Energy Reporting Unit of Measure**| Enter the unit of measure in which you report energy consumption. When people fill in the **Energy Consumption** field on purchase documents and sustainability journals, this is the unit of measure for the value. You can use a different unit of measure when you report to authorities. This field isn't applicable to the standard reports.|
+    |**Energy Reporting UOM Factor**| Enter the unit of measure factor that you use to register energy consumption, if you use a different unit of measure when you report to authorities.|
 
 ## Emission fees
 

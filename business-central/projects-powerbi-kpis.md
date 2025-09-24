@@ -24,15 +24,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Project Measures
-- [Invoiced (%)](#invoiced)
-- [Complete (%)](#completed)
-- [Duration (Days)](#duration-days)
 - [Project Count](#project-count)
+- [Tasks Count](#tasks-count)
+- [Complete (%)](#completed)
+- [Invoiced (%)](#invoiced)
 - [Realization %](#realization-)
 - [Realization Variance](#realization-variance)
-- [Tasks Count](#tasks-count)
 
-## Invoiced (%)
+### Invoiced (%)
 
 **Formula**  
 *Invoiced (%) = [Total Invoiced Price](#total-invoiced-price) / [Total Billable Price](#total-billable-price)*
@@ -41,7 +40,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Job Ledger Entry
 - Job Planning Line
 
-## Completed (%)
+### Completed (%)
 
 **Formula**  
 *Completed (%) = [Total Usage Cost](#total-usage-cost) / [Total Budget Cost](#total-budget-cost)*
@@ -141,12 +140,28 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - Job Planning Line
 
 ## Project Ledger Measures
+- [Project Ledger Entry Quantity](#project-ledger-entry-quantity)
+- [Project Ledger Line Amount](#project-ledger-line-amount)
 - [Actual (Total Price)](#actual-total-price)
 - [Billable (Invoiced Price)](#billable-invoiced-price)
 - [Invoiced (Total Cost)](#invoiced-total-cost)
 - [Invoiced (Total Price)](#invoiced-total-price)
 - [Quantity](#quantity)
 - [Total Price](#total-price)
+
+### Project Ledger Entry Quantity
+**Formula**  
+The Project Ledger Entry Quantity measure aggregates the Qty. column of the Project Ledger Entry table. The sign is then inverted by multiplying by negative one.
+  
+**Data Sources**
+- Project Ledger Entry
+
+### Project Ledger Line Amount
+**Formula**  
+The Project Ledger Line Amount measure calculates the Project Ledger Line Amount by iterating over each Project Ledger Entry and multiplying Quantity by Unit Price (LCY).
+  
+**Data Sources**
+- Project Ledger Entry
 
 ### Actual (Total Price)
 

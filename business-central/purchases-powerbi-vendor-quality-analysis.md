@@ -23,7 +23,7 @@ The **Vendor Quality Analysis** report analyzes vendor performance, showcasing v
 
 This report is designed for executives, purchasing managers and purchasers, to highlight effective vendor relationships and minimize supply chain risks.
 
-As a CEO, you want to monitor vendor performance and identify trusted vendors and supplier risks, to inform key business decisions. For example, by reviewing the vendor analysis details, you identify a vendor with the highest [Spend Reliance %](sales-powerbi-sales-kpis.md#spend-reliance-percent) who consistently performs poorly across returns and discounts. Using these insights, you decide to pursue an alternate supplier to improve supply-chain reliability, product quality and profit metrics.
+As a CEO, you want to monitor vendor performance and identify trusted vendors and supplier risks, to inform key business decisions. For example, by reviewing the vendor analysis details, you identify a vendor with the highest [Spend Reliance %](purchases-powerbi-kpis.md#spend-reliance-) who consistently performs poorly across returns and discounts. Using these insights, you decide to pursue an alternate supplier to improve supply-chain reliability, product quality and profit metrics.
 
 For purchasing managers, you want to track vendor performance and item dependence, to ensure a reliable supply-chain pipeline. Using the vendor reliance analysis, you identify a single-supplier item with the highest purchase amount. In response, you engage with additional vendors to diversify product supply and reduce over-reliance on a specific vendor. 
 
@@ -38,11 +38,11 @@ The *Vendor Quality Analysis* report includes the following KPIs and measures:
 - [**No. of Vendors**](purchases-powerbi-kpis.md#no-of-vendors)
 - [**No. of Distinct Items**](purchases-powerbi-kpis.md#no-of-distinct-items)
 - [**No. of Single Supplier Items**](purchases-powerbi-kpis.md#no-of-single-supplier-items)
-- [**Purchase Value Entries Discount %**](purchases-powerbi-kpis.md#purchase-value-entries-discount-percent)
+- [**Purchase Value Entries Discount %**](purchases-powerbi-kpis.md#purchase-value-entries-discount-)
 - [**Purchase Value Entries Discount Amount**](purchases-powerbi-kpis.md#purchase-value-entries-discount-amount)
 - [**Return Rate (Amount)**](purchases-powerbi-kpis.md#return-rate-amount)
-- [**Spend Reliance %**](purchases-powerbi-kpis.md#spend-reliance-percent)
-- [**Item Reliance %**](purchases-powerbi-kpis.md#item-reliance-percent)
+- [**Spend Reliance %**](purchases-powerbi-kpis.md#spend-reliance-)
+- [**Item Reliance %**](purchases-powerbi-kpis.md#item-reliance-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 

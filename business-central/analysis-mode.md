@@ -3,16 +3,16 @@ title: Analyze list page and query data using data analysis
 description: Learn how to use the analysis mode in Business Central to analyze data.
 author: jswymer 
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 06/13/2024
+ms.date: 05/09/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
 # Analyze list page and query data using data analysis feature
 
-> **APPLIES TO:** Public preview in Business Central 2023 release wave 1 and later for analyzing list pages; Generally available in Business Central 2023 release wave 2 for analyzing data from list pages and queries.
+> **APPLIES TO:** Public preview in [!INCLUDE [prod_short](includes/prod_short.md)] 2023 release wave 1 for analyzing list pages. Generally available in [!INCLUDE [prod_short](includes/prod_short.md)] 2023 release wave 2 for analyzing data from list pages and queries.
 
 This article explains how to use the data analysis feature from list pages and queries. The data analysis lets you analyze data directly from the page, without having to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are: "My customers," "Follow up items," "Recently added vendors," "Sales statistics," or any other view you can imagine.
 
@@ -31,7 +31,7 @@ This article explains how to use the data analysis feature from list pages and q
 
 Follow these steps to start using the analysis mode.
 
->[!TIP]
+> [!TIP]
 > Analysis mode also includes a Copilot feature called *analysis assist* that can help you get started. [Learn more about analysis assist with Copilot.](analysis-assist.md)
 
 1. Open the list page or query.
@@ -66,7 +66,7 @@ In the analysis mode, the page is divided into two areas:
 
 The data area is where the rows and columns of the list page query are shown and data is summarized. The data area provides a versatile way to control the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in the last row, unless you define row groups. In this case, the sums appear as a subtotal for the groups.  
 
-![Shows an overview of a data area on a page in the analysis mode](media/analysis-mode-data-area.png)
+:::image type="content" source="media/analysis-mode-data-area.png" alt-text="Shows an overview of a data area on a page in the analysis mode" lightbox="media/analysis-mode-data-area.png":::
 
 - To move a column, select it and drag it to where it makes the most sense in your analysis.
 - To sort on a column, select the column header. To sort on multiple columns, select and hold the <kbd>Shift</kbd> key while selecting the column headers you want to sort on.
@@ -78,16 +78,13 @@ The data area is where the rows and columns of the list page query are shown and
 
 Note that in the data area, you can filter on all columns, including totals such as sum or count. 
 
-:::image type="content" source="media/analysis-mode-filter-on-totals.png" alt-text="Screenshot of how to filter on totals in analysis mode":::
-
-
-
+:::image type="content" source="media/analysis-mode-filter-on-totals.png" alt-text="Screenshot of how to filter on totals in analysis mode" lightbox="media/analysis-mode-filter-on-totals.png":::
 
 ### Summary bar (2)
 
 The summary bar is along the bottom of the page and displays statistics about the data in the list page or query. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data updates.
 
-![Shows an overview of a summary bar on the analysis mode](media/analysis-mode-totals-row.png)
+:::image type="content" source="media/analysis-mode-totals-row.png" alt-text="Shows an overview of a summary bar on the analysis mode" lightbox="media/analysis-mode-totals-row.png":::
 
 The following table describes the different numbers that are shown in the totals area:
 
@@ -106,7 +103,7 @@ The following table describes the different numbers that are shown in the totals
 
 The **Columns** pane is one of two panes that work together to define your analysis. The other area is the **Analysis filters** pane. The **Columns** pane is used to summarize the data. Use the **Columns** pane to define which columns should be included in the analysis.
 
-![Shows an overview of the columns pane in the analysis mode](media/analysis-mode-columns-3.png)
+:::image type="content" source="media/analysis-mode-columns-3.png" alt-text="Shows an overview of the columns pane in the analysis mode" lightbox="media/analysis-mode-columns-3.png":::
 
 |Areas|Description|
 |-|-|
@@ -117,11 +114,43 @@ The **Columns** pane is one of two panes that work together to define your analy
 
 To move a field from one area to another, select the grab icon ![Shows the button for grabbing a field in the analysis mode](media/column-grab-icon.png) next to the column in the list and drag it into the target area. You're prevented from moving a field to an area where it isn't allowed.
 
+> [!NOTE]
+> If you use personalization to add or remove fields from a list page, your choice of visibility is reflected in the **Columns** pane. An added field has the **Show** checkbox cleared. To include the added field in an analysis definition, select the checkbox in the **Columns** pane. To learn more about personalization, go to [Add/remove fields and columns on a page](ui-personalization-user.md#fields).
+
+#### Add fields from related tables
+
+> [!NOTE]
+> Adding fields from related tables is available from version 26.2 and to use it, you must have the **Add Related Fields** permission set. 
+>
+> The feature is enabled with the feature key `Add fields from related tables in analysis mode`. Learn more in [Add fields from related tables in analysis mode feature key](analysis-mode-feature-key.md).
+
+Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer** page, you can add fields from the **Location** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
+
+To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can also use the **Choose a source page** dropdown to navigate through and find fields that you'd like to see in your analysis view. When you have chosen the field or fields to add, these are added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab. 
+
+:::image type="content" source="media/analysis-view-add-columns.png" alt-text="Add columns from option":::
+
+If you want to see all table suggestions, choose **Other source...** from the **Add columns from** menu. This opens an **Insert column(s)** dialog, where you pick the source and related table, the source page they are available on, and then the field or fields to show on your analysis view.
+
+:::image type="content" source="media/analysis-view-other-source.png" alt-text="Add columns from another source":::
+
+##### Things to check
+
+If you don't find the table or field that you're looking for, there are a few things to check:
+
+- The table must be related to the source table of the page you're analyzing. 
+- You must have permission to access the table or field. If you don't have permission, the field won't be available in the list of fields to add.
+- The field must be a field that can be added to the analysis. For example, you can't add fields that are internal or not allowed in customizations.
+- The table or field must have a page associated with it. If the table or field doesn't have a page, you won't be able to add it to the analysis.
+- Certain types of fields, such as Media fields, aren't supported in analysis mode.
+- When you add related fields, all calculated fields are lost. 
+
+
 ### Analysis filters (4)
 
 The **Analysis filters** pane lets you set further data filters on columns to limit the entries in the list. Set filters on columns to limit the entries in the list and subsequent sums to only those entries you're interested in based on a criteria you define. For example, suppose you're only interested in data for a specific customer or sales orders that exceed a specific amount. To set a filter, select the column, choose the comparison operation from the list (like **Equals** or **Starts with**), and then enter the value.
 
-![Shows an overview of the filters pane in the analysis mode](media/analysis-mode-filters-2.png)
+:::image type="content" source="media/analysis-mode-filters-2.png" alt-text="Shows an overview of the filters pane in the analysis mode" lightbox="media/analysis-mode-filters-2.png":::
 
 > [!NOTE]
 > The additional filters only apply to the current analysis tab. This allows you to define exactly the extra data filters that are needed for a specific analysis.
@@ -200,13 +229,13 @@ After you prepare an analysis on a tab, you can share it as a link with coworker
 
 1. On the analysis tab, select the down arrow, and then select **Copy link**.
 
-   ![Shows the action for copying an analysis](media/analysis-mode-copy.png)
+   :::image type="content" source="media/analysis-mode-copy.png" alt-text="Shows the action for copying an analysis" lightbox="media/analysis-mode-copy.png":::
 
    The **Link to \<tab name\>** dialog opens.
 
 1. By default, the analysis you share links to the page or query in the company you're currently working in, which is indicated by `company=<company_name>` in the URL field next to the **Copy** button. If you want to send a link to an analysis that isn't associated with a specific company, set the **Company:** field to **Do not link to a specific company**.
 
-   ![Shows the copy link dialog for an analysis tab](media/analysis-link-copied.svg)
+   :::image type="content" source="media/analysis-link-copied.svg" alt-text="Shows the copy link dialog for an analysis tab" lightbox="media/analysis-link-copied.svg":::
 
 1. Select **Copy**.
 1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, or OneNote.
@@ -248,7 +277,7 @@ The public preview of this feature has the following limitations:
 - The share data analysis feature isn't available.
 - The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 
-## See also
+## Related information
 
 [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)   
 [Ad hoc data analysis](reports-adhoc-analysis.md)  

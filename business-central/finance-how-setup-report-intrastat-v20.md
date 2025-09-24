@@ -2,7 +2,7 @@
 title: Set up and report Intrastat
 description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries/regions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
@@ -57,7 +57,7 @@ You can export the entries to a file that you can send to your Intrastat authori
 > [!NOTE]
 > We recommended that you set up an Intrastat journal batch for each month.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Create a template for each Intrastat form you use.  
 3. To create batches, choose the **Batches** action.  
 4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Create a template for each Intrastat form you use.
@@ -67,14 +67,14 @@ You can export the entries to a file that you can send to your Intrastat authori
 
 ### To set up transport methods
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transport Methods**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transport Methods**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### To set up which Intrastat report fields are mandatory
 
 In some countries/regions, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales are over a certain threshold. On the **Intrastat Setup** page, you can select to make **Intrastat Checklist Setup** to set mandatory fields on the **Intrastat Journal** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat Setup**, and then choose the related link.
 2. Choose the **Intrastat Checklist Setup** action.
 3. On the **Intrastat Checklist Setup** page, select in the **Field Name** to pick Intrastat report field you want to make mandatory.
 
@@ -86,7 +86,7 @@ Specifically for Czech businesses, you must also set up commodity codes and tran
 
 All items that you buy or sell must have a commodity code.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Commodity Codes**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Commodity Codes**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. To assign a commodity code to an item, go to the **Item Card** page, expand the **Costs & Posting** FastTab, and then enter the code in the **Commodity Code** field.
 
@@ -96,7 +96,7 @@ Specifically for Italian businesses, you must also set up commodity codes and tr
 
 #### To set up transaction nature codes
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Nature Codes**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transaction Nature Codes**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!TIP]
@@ -108,7 +108,7 @@ After you fill in the Intrastat journal, you can run the **Checklist report** ac
 
 ### To fill in Intrastat journals
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal** and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat Journal** and then choose the related link.  
 2. On the **Intrastat Journal** page, in the **Batch Name** field, choose the relevant journal batch, and then choose **OK**.  
 3. Choose the **Suggest Lines** action. The **Starting Date** and **Ending Date** fields will already contain the dates specified for the statistics period on the journal batch.  
 4. In the **Cost Regulation %** field, you can enter a percentage to cover transport and insurance. If you enter a percentage, the content of the **Statistical Value** field in the journal is proportionally higher.  
@@ -121,7 +121,7 @@ The batch job retrieves all the item entries in the statistics period and insert
 
 ### To modify Intrastat journals lines
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat Journal**, and then choose the related link.  
 2. On the **Intrastat Journal** page, in the **Batch Name** field, choose the relevant journal batch, and then choose **OK**.  
 3. User filter pane to filter Intrastat Journal lines based on some criteria. For example, filter on **Partner VAT ID** fields with the value *QV999999999999*.
 4. Choose **Share** icon ![Share a page in another app.](media/share-icon.png) and select **Edit in Excel**
@@ -135,7 +135,7 @@ The batch job retrieves all the item entries in the statistics period and insert
 
 To get the information that is required on the Intrastat form from the statistical authorities, you must print the **Intrastat – Form** report. Before you can do this, you must prepare the Intrastat journal and fill it in. If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat Journals**, and then choose the related link.  
 2. On the **Intrastat Journal** page, choose the relevant journal batch in the **Batch Name** field.  
 3. If you have not already done this, fill in the journal manually or choose **Suggest Lines** action.  
 4. Choose the **Prints Intrastat Journal** action.  
@@ -146,7 +146,7 @@ To get the information that is required on the Intrastat form from the statistic
 
 You can submit the Intrastat report as a file. Before creating the file, you can print a checklist that contains the same information that will be in the file.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat Journal**, and then choose the related link.  
 2. On the **Intrastat Journal** page, select the relevant journal batch in the **Batch Name** field.  
 3. If you have not already done this, fill in the journal manually or by choosing the **Suggest Lines** action.  
 4. Choose the **Create File** action.  
@@ -161,7 +161,7 @@ You can submit the Intrastat report as a file. Before creating the file, you can
 
 Because you must submit an Intrastat report every month, and you create a new journal batch for each report, you will eventually have many journal batches. The journal lines are not deleted automatically. You may want to reorganize the journal batch names periodically. You do this by deleting the journal batches that you no longer need. The journal lines in these batches are also deleted.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat Journals**, and then choose the related link.  
 2. To view the options, choose the **Batch Name** field.  
 3. Choose the journal batches to be deleted, and then choose the **Delete** button.  
 
@@ -171,7 +171,7 @@ In many countries/regions, the customs and tax authorities establish 8-digit ite
 
 In the **Tariff Numbers** page, add all the codes that you use. You must enter the codes on the item card before you begin to post. When you have set up the codes, enter them in the **Tariff No.** field on the item card. You must also fill in the **Net Weight** field on the item card.
 
-## See also
+## Related information
 
 [Financial Management](finance.md)
 

@@ -1,51 +1,48 @@
 ---
 title: FA Depreciation Calculation 
-description: FA Depreciation Calculation
-
+description: Learn how to calculate fixed asset depreciation, including FA block, additional depreciation, and multiple shift scenarios for India in Business Central.
 author: v-debapd
-
-    
 ms.topic: article
 ms.devlang: al
-ms.search.keywords: India, local, IN, English
-ms.date: 04/01/2021
+ms.search.keywords: India, local, IN, English, FA depreciation calculation, FA block, multiple shifts
+ms.date: 06/19/2025
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# FA Depreciation Calculation
 
-## FA Depreciation Calculation with FA Block and Additional Depreciation
+# FA depreciation calculation
 
-### FA Block
+## FA depreciation calculation with FA block and additional depreciation
 
-Depreciation is allowed on block of assets. Block of assets is a group of assets falling within a class of assets. For Example :
+### FA block
 
-- Tangible assets, being building, machinery, plant or furniture,
-- Intangible assets, being know how, patents, copyrights, trade-marks, licenses, franchises or any other business or commercial rights of similar nature
+Depreciation is allowed on block of assets. Block of assets is a group of assets falling within a class of assets. For Example:
 
-### Additional Depreciation
+- Tangible assets, being building, machinery, plant, or furniture,
+- Intangible assets, being know how, patents, copyrights, trade-marks, licenses, franchises, or any other business or commercial rights of similar nature
 
-In case of any new machinery or plant acquired and installed after March 31, 2005 by an assessee who is engaged in the business of manufacturing or production of any article or thing - additional depreciation under Income Tax Act of 20% of actual cost shall be allowed. Where the asset is used for less than 180 days then 50% depreciation i.e, 1/2 of 20% (i.e. 10%) is available (Balance 50% of Additional Depreciation can be claimed in next year)
+### Additional depreciation
 
-### To calculate depreciation with FA Block and Additional Depreciation
+In case of any new machinery or plant acquired and installed after March 31, 2005 by an assessee who is engaged in the business of manufacturing or production of any article or thing - additional depreciation under Income Tax Act of 20% of actual cost shall be allowed. Where the asset is used for less than 180 days then 50% depreciation,  i.e, 1/2 of 20% (that is, 10%) is available (Balance 50% of Additional Depreciation can be claimed in next year)
+
+### Calculate depreciation with FA block and additional Depreciation
 
 1. Go to relevant **Fixed Asset** and **Add. Depr. Applicable** field should be marked true on General Tab.
-2. Select the relevant **FA Block Code** on Posting Tab of **Fixed Asset** card, **Add. Depreciation %** should have a value on the selected block code.
-3. Select **Depreciation Book** as Income Tax on **Depreciation Book** of **Fixed Asset** Card.
-5. Run the Calculate Depreciation batch job, fill the necessary fields and click ok to calculate depreciation. 
-6. The batch job calculates the depreciation and creates lines in the fixed asset journal.
-7. Choose the Post action.
+1. Select the relevant **FA Block Code** on Posting Tab of **Fixed Asset** card, **Add. Depreciation %** should have a value on the selected block code.
+1. Select **Depreciation Book** as Income Tax on **Depreciation Book** of **Fixed Asset** Card.
+1. Run the Calculate Depreciation batch job, fill the necessary fields and select ok to calculate depreciation. 
+1. The batch job calculates the depreciation and creates lines in the fixed asset journal.
+1. Choose the Post action.
 
-## FA Depreciation Calculation with Multiple Shifts
+## FA depreciation calculation with Multiple shifts
 
 Shift depreciation is used when manufacturing companies have multiple production shifts for parts of the year. For example, a company can have one, two, or three shifts during high production season but only one shift during the rest of the year. This means that some fixed assets are used more often than normal during the high production season and they would experience greater depreciation during that time. Being able to adjust the fixed asset's depreciation rates higher makes sense if the fixed asset is active for more than one shift. User can adjust the depreciation using calculated depreciation that is unique to each shift.
 
-### To calculate depreciation with multiple shifts
+### Calculate depreciation with multiple shifts
 
 1. Go to relevant **Fixed Asset**, select **Depreciation Book** as Company on **Depreciation Book** of **Fixed Asset** Card.
-2. Go to Related Information -> **Fixed Asset Shift**, fill in the fields as described in the following table.
+1. Go to Related Information > **Fixed Asset Shift**, fill in the fields as described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|
@@ -61,21 +58,12 @@ Shift depreciation is used when manufacturing companies have multiple production
     |**Industry Type**|Specifies the industry type, for example Normal, Seasonal, Non-Seasonal.|
     |**Used No. of Days**|Specifies the used number of days.|
 
-5. Run the Calculate Depreciation batch job, fill the necessary fields and click ok to calculate depreciation.
-6. The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.
-7. Choose the Post action.
+1. Run the Calculate Depreciation batch job, fill the necessary fields and select ok to calculate depreciation.
+1. The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.
+1. Choose the Post action.
 
+## Related information
 
-
-
-
-
-## See Also 
 [Fixed Asset Overview](FA_Overview.md)
-
-
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

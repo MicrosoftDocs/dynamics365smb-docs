@@ -2,15 +2,14 @@
 title: Set Up Reminder Terms and Levels
 description: Set up Business Central so you can send reminders about payments due and add charges, or fees because of the delay.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
-ms.date: 03/12/2024
+ms.date: 06/10/2025
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 # Set up reminder terms and levels
 
@@ -24,7 +23,7 @@ You can use reminders to inform customers about overdue amounts and to request p
 If customers have overdue payments, you must decide when and how to send a reminder. In addition, you might want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
 
 > [!NOTE]
-> If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending a reminder, use a [finance charge memo](finance-setup-finance-charges.md). For more information, see [Reminders](receivables-collect-outstanding-balances.md#reminders) or [Finance Charges](receivables-collect-outstanding-balances.md#finance-charges).
+> If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending a reminder, use a [finance charge memo](finance-setup-finance-charges.md). To learn more, go to [Reminders](receivables-collect-outstanding-balances.md#reminders) or [Finance Charges](receivables-collect-outstanding-balances.md#finance-charges).
 
 ### Set up attachment and email body texts for communications
 
@@ -39,7 +38,7 @@ When you send an email, the reminder is a report you attach to the email. You de
 
 ### Set up reminder terms
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Reminder Terms**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. To use more than one combination of reminder terms, set up a code for each one.
 
@@ -51,7 +50,7 @@ If you create more reminders than you define levels for, the conditions for the 
 
 ### To set up reminder levels
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Reminder Terms**, and then choose the related link.  
 2. On the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose the **Levels** action.  
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -103,13 +102,13 @@ If you create more reminders than you define levels for, the conditions for the 
     For example, if you write **You owe %9 %7 due on %2.**, the reminder contains the following text: **You owe USD 1.200,50 due on 02-02-2024.**.
 
     > [!NOTE]
-    > [!INCLUDE [prod_short](includes/prod_short.md)] calculates the due date according to the date formula that you enter. For more information, see [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
+    > [!INCLUDE [prod_short](includes/prod_short.md)] calculates the due date according to the date formula that you enter. To learn more, go to [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
 
 8. To specify the language for an email message, choose the **Add text for language** action. The **Language Code** field updates to show your selection. On the **Email Text** FastTab, enter the content of the message in the selected language.
 
-After you set up the reminder terms, you can assign them to customers on Customer Card pages. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
+After you set up the reminder terms, you can assign them to customers on Customer Card pages. To learn more, go to [Register New Customers](sales-how-register-new-customers.md).  
 
-## See also
+## Related information
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Send Reminders of Outstanding Balances](receivables-send-reminders.md)  

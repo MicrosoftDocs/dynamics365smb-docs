@@ -3,7 +3,7 @@ title: Process partial shipments
 description: Sales orders' shipments can be processed in Business Central with partial shipments using the Shipping Advice and Qty. to Ship fields.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: shipping advice, partial shipments, partial deliveries, trade, customer sales order 
 ms.date: 02/14/2024
 ms.author: bholtorf
@@ -19,7 +19,7 @@ By default, [!INCLUDE [prod_short](includes/prod_short.md)] sets the field in th
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## See also
+## Related information
 
 [Sell Products with a Customer Sales Order](sales-how-sell-products.md)  
 [Ship Items](warehouse-how-ship-items.md)  

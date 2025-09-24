@@ -34,7 +34,7 @@ Setting up access with Microsoft 365 licenses involves the following tasks:
 >
 > To run the assisted setup, do the following steps:
 >
-> 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+> 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Assisted Setup**, and then choose the related link.
 > 2. On the **Assisted Setup** page, go to the **Do more with Business Central** section and select **Access with Microsoft 365 licenses**.
 > 3. Follow the instructions.  
 
@@ -113,7 +113,7 @@ To verify that your setup is ready for production, the following steps will help
 > [!TIP]
 > Something went wrong? Learn more in [Business Central troubleshooting](/troubleshoot/dynamics-365/business-central/welcome-business-central).
 
-## See also
+## Related information
 
 [Overview of Business Central Access with Microsoft 365 licenses](admin-access-with-m365-license.md#minimum-requirements)  
 [Troubleshoot Access with Microsoft 365 Licenses](admin-access-with-m365-license-troubleshooting.md)  

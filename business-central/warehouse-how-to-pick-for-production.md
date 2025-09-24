@@ -1,12 +1,12 @@
 ---
-title: Pick or move items for production,aAssembly, or projects in basic warehouse configurations
+title: Pick or move items for production, assembly, or projects in basic warehouse configurations
 description: When your warehouse location requires that you process picks but not shipments, use the Inventory Pick page to record that components were picked.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
-ms.date: 08/12/2024
+ms.topic: how-to
+ms.date: 03/18/2025
 ms.custom: bap-template
 ms.search.forms: 9330, 931, 990008, 89, 900, 902
 ---
@@ -46,6 +46,10 @@ Use **Inventory Pick** documents for picking production components in the flow t
 
 For a location that uses bins, you can extend the flow to production by using **Inventory Movement** documents. Inventory movements are especially useful for component flushing. To learn more about how component consumption is flushed from the To-Production or Open Shop Floor Bins, go to [Flushing Production Components in a Basic Warehouse Configuration](#flushing-production-components-in-a-basic-warehouse-configuration).
 
+#### Over-picking in production
+
+[!INCLUDE [manufacturing-overpicks](includes/manufacturing-overpicks.md)]
+
 ### Assembly  
 
 Use **Inventory Movement** documents to move assembly components to the assembly area.
@@ -62,7 +66,7 @@ Use **Inventory Pick** documents to pick project components in the flow to proje
 For locations that use bins, you can extend the flow to project with **Inventory Movement** documents.
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the project planning line when it creates inventory picks. To use inventory picks for projects, you must turn on the **Apply Usage Link** toggle on the **Project Card** page for the projects. This lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity will stay at **0** and the inventory pick won't be created. Learn more at [To set up project usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the project planning line when it creates inventory picks. To use inventory picks for projects, you must turn on the **Apply Usage Link** toggle on the **Project Card** page for the projects. This setting lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity stays at **0** and the inventory pick isn't created. To learn more, go to [To set up project usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
 ## Pick or move for production, assembly, and projects in a basic warehouse configuration
 
@@ -86,7 +90,7 @@ You can create an inventory pick or inventory movement in three ways:
 
 ### To create multiple inventory picks or movements with a batch job
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Inventory Put-away/Pick/Movement**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Create Inventory Put-away/Pick/Movement**, and then choose the related link.  
 2. On the **Warehouse Request** FastTab, use the **Source Document** and **Source No.** fields to filter on types of documents or ranges of document numbers. For example, you might create picks only for productions orders.
 3. On the **Options** FastTab, turn on the **Create Invt. Pick** or **Create Invt. Movement** toggles.
 4. Choose the **OK** button.
@@ -103,7 +107,7 @@ To pick or move components for source documents in two steps, you must release t
 
 A warehouse employee assigned to picking items can create an inventory put-away document for the source document.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks** or **Inventory Movement**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Inventory Picks** or **Inventory Movement**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **Source Document** field, select the type of source document that the put-away is for.
 
@@ -122,10 +126,10 @@ A warehouse employee assigned to picking items can create an inventory put-away 
     If you must pick the items for a line from more than one bin, for example because a bin doesn't contain the full quantity, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.  
 4. Choose the **Post** action.  
 
-The following happens during the posting process:
+The following things happen during the posting process:
 
 * Post the consumption of the source document lines that were picked.
-* If the location uses bins, posting will create warehouse entries to post the changes to the bin quantity.
+* If the location uses bins, posting creates warehouse entries to post the changes to the bin quantity.
 
 [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
@@ -138,7 +142,7 @@ The following happens during the posting process:
     If you must take the items for a line from more than one bin, for example because a bin doesn't contain the full quantity, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.  
 4. Choose the **Register Invt. Movement** action.  
 
-The following happens during the posting process:
+The following things happen during the posting process:
 
 * Warehouse entries now indicate that the components are in the bins specified on the source document order lines. For example, the assembly order, production component, or project planning line.
 
@@ -147,12 +151,10 @@ The following happens during the posting process:
 
 ## Flushing production components in a basic warehouse configuration
 
-Flushing methods affect the flow of components in production. Learn more at [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md). Depending on the flushing method you select, you can pick components for production om the following ways:
+Flushing methods affect the flow of components in production. Learn more at [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md). Depending on the flushing method you select, you can pick components for production in the following ways:
 
-* Use an **Inventory Pick** document to record the pick for items that use the **Manual** flushing method. When you register an inventory pick, the consumption of the picked components is posted. 
-* Use an **Inventory Movement** document with a reference to a source document to record picks for components that use the **Manual** flushing method. You'll need to register consumption separately. Learn more at [Batch Post Production Consumption](production-how-to-post-consumption.md). 
-* Use an **Inventory Movement** document with a reference to a source document to record picks for components that use the **Pick + Forward**, **Pick + Backward** flushing method. Consumption of the components will happen automatically either when you change the status of the production order or by starting or ending an operation. All required components must be available. Otherwise, posting flushed consumption stop for that component.
-* Use an **Inventory Movement** document without a reference to a source document or other ways to record the movement of components that use the **Forward** or **Backward** flushing method. Consumption of the components will happen automatically either when you change of status of the production order or start or end an operation. All required components must be available. Otherwise, posting flushed consumption stops for that component. Learn more at [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
+* Use an **Inventory Pick** document to record the pick for items that use the **Pick + Manual** flushing method. When you register an inventory pick, the consumption of the picked components is posted.
+* Use an **Inventory Movement** document without a reference to a source document or other ways to record the movement of components that use the **Manual** flushing method. You must register consumption separately. Learn more at [Batch Post Production Consumption](production-how-to-post-consumption.md).
 
 ### Example
 
@@ -174,7 +176,7 @@ The following steps provide an example of the actions that different people take
 
 :::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
 
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

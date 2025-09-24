@@ -1,12 +1,12 @@
 ---
-title: Manage Customers Using Dynamics 365 Sales | Microsoft Docs
+title: Manage customers using Dynamics 365 Sales
 description: You can use Dynamics 365 Sales from inside Business Central with seamless integration and synchronization in the lead-to-cash process.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 09/12/2024
+ms.date: 04/25/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -14,22 +14,22 @@ ms.custom: bap-template
 ---
 # Use Dynamics 365 Sales from Business Central
 
-If you use Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[prod_short](includes/prod_short.md)] for backend activities:
+If you use [!INCLUDE [crm_md](includes/crm_md.md)] for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[prod_short](includes/prod_short.md)] for backend activities:
 
 * Process orders
 * Manage inventory
 * Do your finances
 
-Before you can use the integration capabilities, your system administrator must set up the connection and define users in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+Before you can use the integration capabilities, your system administrator must set up the connection and define users in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, go to [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
-> These steps describe the process of integrating online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)]. For information about on-premises configuration, see [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> These steps describe the process of integrating online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more about on-premises configurations, go to [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Integrating the applications lets you access data in Sales from [!INCLUDE[prod_short](includes/prod_short.md)], and in some cases the other way around. You can work with and synchronize data that both services have in common. For example, customers, contacts, and sales information. Synchronization keeps data up to date in both applications.  
 
-For example, a sales person in [!INCLUDE[crm_md](includes/crm_md.md)] can use the price lists from [!INCLUDE[prod_short](includes/prod_short.md)] when they create a sales order. When they add the item to the sales order line in [!INCLUDE[crm_md](includes/crm_md.md)], they can see the inventory level (availability) of the item from [!INCLUDE[prod_short](includes/prod_short.md)].
+For example, a sales person in [!INCLUDE[crm_md](includes/crm_md.md)] can use the price lists from [!INCLUDE[prod_short](includes/prod_short.md)] when they create a sales order. When they add the item to the sales order line in [!INCLUDE[crm_md](includes/crm_md.md)], they can check the inventory level (availability) of the item from [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Conversely, order processors in [!INCLUDE[prod_short](includes/prod_short.md)] can handle sales orders that are automatically or manually transferred from [!INCLUDE[crm_md](includes/crm_md.md)]. For example, they can create and post sales order lines for items or resources that were entered in [!INCLUDE[crm_md](includes/crm_md.md)] as write-in products. For more information, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handle-sales-order-data).
+Conversely, order processors in [!INCLUDE[prod_short](includes/prod_short.md)] can handle sales orders that are automatically or manually transferred from [!INCLUDE[crm_md](includes/crm_md.md)]. For example, they can create and post sales order lines for items or resources that were entered in [!INCLUDE[crm_md](includes/crm_md.md)] as write-in products. To learn more, go to [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handle-sales-order-data).
 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] integrates only with [!INCLUDE[crm_md](includes/crm_md.md)]. Other Dynamics 365 applications that change the standard workflow or data model in [!INCLUDE[crm_md](includes/crm_md.md)], for example Project Service Automation, can break the integration between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -65,6 +65,10 @@ To check the progress of individual jobs in a full synchronization, on the **Dyn
 
 From the **Microsoft Dynamics 365 Connection Setup** page, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** page to see details about the tables in [!INCLUDE[prod_short](includes/prod_short.md)] and Sales that must be synchronized.
 
+## Synchronize on a recurring schedule
+
+The integration provides a few default jobs in the job queue that synchronize data for you. The jobs synchronize data every 30 minutes, but you can change that schedule. To learn more about the default synchronization jobs, go to [Synchronization jobs for a Sales integration](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronization-jobs-for-a-sales-integration). To learn more about the job queue, go to [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md).
+
 ## Handle sales order data
 
 Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] transfer to [!INCLUDE[prod_short](includes/prod_short.md)] if you select the **Automatically Create Sales Orders** checkbox on the **Microsoft Dynamics 365 Connection Setup** page.
@@ -76,16 +80,16 @@ On such sales orders, the **Name** field on the original order is transferred an
 The same is true if the original sales order contains write-in products, meaning items or resources that aren't registered in either app. In that case, you must fill in the **Write-in Product Type** and **Write-in Product No.** fields on the **Sales & Receivables Setup** page so that sales of nonregistered products are mapped to a specified item or resource number.
 
 > [!NOTE]
-> You can't map a write-in to an item or resource in [!INCLUDE[prod_short](includes/prod_short.md)] that's coupled with a product in [!INCLUDE[crm_md](includes/crm_md.md)]. To allow for write-ins, we recommend that you create an item or resource specifically for that purpose, and don't couple it with a product in [!INCLUDE[crm_md](includes/crm_md.md)].
+> You can't map write-ins to items or resources in [!INCLUDE[prod_short](includes/prod_short.md)] that are coupled with a product in [!INCLUDE[crm_md](includes/crm_md.md)]. To allow for write-ins, we recommend that you create an item or resource specifically for that purpose, and don't couple it with a product in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 If the description of the item on the original sales order is long, another sales order line of the type **Comment** is created to hold the full text on the sales order in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Updates to fields on sales order headers, such as the **Last Shipment Date** or **Requested Delivery Date** fields, that are mapped in the **SALESORDER-ORDER** integration table mapping periodically synchronize to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing, shipping, and invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. When sales orders in [!INCLUDE [prod_short](includes/prod_short.md)] are completely shipped, the **Last Shipment Date** field updates, and the status of the order in [!INCLUDE[crm_md](includes/crm_md.md)] is set to **Fulfilled**. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/manage-activities). To enable posting and activities for orders in [!INCLUDE[crm_md](includes/crm_md.md)], see [Set up the Notes control to access information about posts for a custom entity](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) in the Customer Engagement documentation. The article refers to Customer Engagement on-premises, but the steps are the same for the online version.
+Updates to fields on sales order headers, such as the **Last Shipment Date** or **Requested Delivery Date** fields, that are mapped in the **SALESORDER-ORDER** integration table mapping periodically synchronize to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing, shipping, and invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. When sales orders in [!INCLUDE [prod_short](includes/prod_short.md)] are completely shipped, the **Last Shipment Date** field updates, and the status of the order in [!INCLUDE[crm_md](includes/crm_md.md)] is set to **Fulfilled**. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/manage-activities). To learn how to enable posting and activities for orders in [!INCLUDE[crm_md](includes/crm_md.md)], go to [Set up the Notes control to access information about posts for a custom entity](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) in the Customer Engagement documentation. The article refers to Customer Engagement on-premises, but the steps are the same for the online version.
 
 > [!NOTE]  
-> Periodical synchronization based on the **SALESORDER-ORDER** integration table mapping works only when sales order integration is enabled. For more information, see [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] synchronize. For more information, see [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodical synchronization based on the **SALESORDER-ORDER** integration table mapping works only when sales order integration is enabled. To learn more, go to [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] synchronize. To learn more, go to [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
+<!--> [!VIDEO https://go.microsoft] -->
 
 If someone changes the price of a product in [!INCLUDE [crm_md](includes/crm_md.md)] and you include the item in sales orders in [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE [prod_short](includes/prod_short.md)] creates a new sales price list for each order. To learn more about price lists, go to [Handle sales prices](#handle-sales-prices).
 
@@ -111,12 +115,12 @@ When the customer payment is received for the sales invoice in [!INCLUDE[prod_sh
 ## Handle sales prices
 
 > [!NOTE]
-> In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> In 2020 release wave 2, we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you're using the new experience depends on whether your administrator enabled the **New sales pricing experience** feature update in **Feature Management**. To learn more, go to [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 The steps to complete this process differ, depending on whether your administrator enabled the new pricing experience.
 
 > [!NOTE]
-> If the standard price synchronization does not work for you, we recommend using integration customization capabilities. For more information, see [Customizing an Integration with Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
+> If the standard price synchronization doesn't work for you, we recommend using integration customization capabilities. To learn more, go to [Customizing an Integration with Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
 
 #### [Current Experience](#tab/current-experience/)
 In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that: 
@@ -134,9 +138,9 @@ In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)
 The new pricing experience synchronizes price lists that meet the following criteria:
 
 * **Allow Updating Defaults** is turned off.
-* The price type is Sale.
-* The amount type is Price.
-* The product type on the lines must be Item or Resource. 
+* The price type is **Sale**.
+* The amount type is **Price**.
+* The product type on the lines must be **Item** or **Resource**. 
 * A minimum quantity isn't specified.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that apply to all customers. Default sales price lists are created based on the price in the **Unit Price** field on the **Item Card** page for the items.
@@ -147,13 +151,13 @@ To synchronize price lists, on the **Sales Price List** page, choose **Related**
 
 ---
 
-## See also
+## Related information
 
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Relationship Management](marketing-relationship-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
-[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Overview of Sales and Sales Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

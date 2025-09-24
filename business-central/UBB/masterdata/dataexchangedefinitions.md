@@ -1,10 +1,10 @@
 ---
 title: Data exchange definitions
-description: You can use data exchange definitions in usage based billing.
+description: You can use data exchange definitions in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -15,16 +15,16 @@ ms.custom: bap-template
 
 Data exchange is a standard feature in [!INCLUDE [prod_short](../../includes/prod_short.md)]. To learn more about data exchange and data exchange definitions, go to [Set up data exchange definitions](../../across-how-to-set-up-data-exchange-definitions.md). 
 
-Data exchange definitions are fundamental to import and process data in usage based billing. This article summarizes the key aspects.
+Data exchange definitions are fundamental to import and process data in usage-based billing. This article summarizes the key aspects.
 
-The data exchange definition example in this article refers to an import file for usage data. It's a CSV file in UTF-8 encoding with column separators as semicolons. To learn more, go to [Import data in usage based billing](../processing-usage-data/imports-processing.md).
+The data exchange definition example in this article refers to an import file for usage data. It's a CSV file in UTF-8 encoding with column separators as semicolons. To learn more, go to [Import data in usage-based billing](../processing-usage-data/imports-processing.md).
 
 ## Definition for data import
 
 For billing, you must first import and process data. To learn more, go to [Imports and processing](../processing-usage-data/imports-processing.md). For [!INCLUDE [prod_short](../../includes/prod_short.md)] to extract the data from the CSV file, it needs the data's schema. The schema is available on the [usage data supplier](suppliers.md).
 
 > [!NOTE]
-> Usage based billing provides the **USAGEBASED** data exchange definition as an example. You can use the definition, but you must adapt it to your setup. You can import and export data exchange definitions on the **Data Exchange Definition** page by using the **Import Data Exchange Definition** and **Export Data Exchange Definition** actions.
+> Usage-based billing provides the **USAGEBASED** data exchange definition as an example. You can use the definition, but you must adapt it to your setup. You can import and export data exchange definitions on the **Data Exchange Definition** page by using the **Import Data Exchange Definition** and **Export Data Exchange Definition** actions.
 
 The **Data Exchange Definitions** page has the following FastTabs:
 
@@ -46,6 +46,7 @@ These settings affect the import file. The following table describes the importa
 |File Encoding     | The encoding of unicode characters for the import file.        |
 |Column Separator     | Specifies the character that separates the columns in the import file. This is only relevant for the **Variable Text** file type.        |
 |Header Lines     | Sets how many header lines the import file contains. This ensures that the header data isn't imported.        |
+|Reading/Writing XMLport  |  For importing usage data, choose **1220**.  |
 
 ## Settings on the Line Definitions FastTab
 
@@ -78,15 +79,15 @@ The following table provides a complete example of a setup on the **Field Mappin
 |10   | Product Name |   18      |    Product Name     | |No | Yes| 0|
 |11   | Subscription Start Date  |  13  | Subscription Start Date| |No | No| 0|
 |12   | Subscription End Date    | 14  | Subscription End Date  | |No | No| 0|
-|13 | Billing Period Start Date| 15 | Billing Period Start Date | |No | No| 0|
-|14 | Billing Period End Date  | 16  | Billing Period End Date  | |No | No| 0|
+|13   | Billing Period Start Date| 15 | Billing Period Start Date | |No | No| 0|
+|14   | Billing Period End Date  | 16  | Billing Period End Date  | |No | No| 0|
 |16   | Cost        |  19      |   Unit Cost      | |No | No| 0|
 |17   | Quantity    |  21      |  Quantity        | |No | Yes| 0|
 |18   | Price       |  20      |  Unit Price      | |No | No| 0|
 |19   | Amount      |  24      |  Amount          | |No | No| 0|
 |22   | Cost Amount |   27     |  Cost Amount     | |No | No| 0|
 |23   | Currency    |  25      |  Currency        | |No | No| 0|
-|24   | Text1       | 20       |  Text1           | | No| No| 0|
+|24   | Text1       | 50       |  Text1           | | No| No| 0|
 
 ## Settings on the Column Definitions FastTab
 
@@ -101,6 +102,6 @@ The following table describes the settings that define the columns to import.
 |Data Formatting Culture     | Specifies the culture of the data format, if needed. For example, **en-US** for the **Decimal** data type indicates that a period is used as decimal separator according to US format.        |
 |Length     | Only relevant if the file type is set to **Fixed Text**.        |
 
-## See also
+## Related information
 
 [Imports and processing](../processing-usage-data/imports-processing.md)

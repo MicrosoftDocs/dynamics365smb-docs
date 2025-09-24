@@ -17,15 +17,7 @@ ms.custom: bap-template
 
 [!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
 
-| Functional area      | Landing page                 |
-|----------------------| ---------------------------- |
-| Finance              | [Power BI Finance app](finance-powerbi-app.md) |
-| Sales                | [Power BI Sales app](sales-powerbi-app.md) |
-| Purchasing           | [Power BI Purchasing app](purchases-powerbi-app.md) |
-| Inventory            | [Power BI Inventory app](inventory-powerbi-app.md) |
-| Inventory Valuation  | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
-| Projects             | [Power BI Projects app](projects-powerbi-app.md) |
-| Manufacturing        | [Power BI Manufacturing app](manufacturing-powerbi-app.md) |
+[!INCLUDE [powerbi-apps-overview-table](includes/powerbi-apps-overview-table.md)]
 
 ## Reports in the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)]
 
@@ -69,9 +61,10 @@ To learn more, go to [Power BI Projects app](projects-powerbi-app.md).
 
 For more information, see [Power BI Manufacturing app](manufacturing-powerbi-app.md).
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
+[Power BI apps FAQ](across-powerbi-apps-faq.md)   
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

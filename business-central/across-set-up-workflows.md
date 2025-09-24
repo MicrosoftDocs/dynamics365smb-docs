@@ -4,9 +4,9 @@ description: Set up workflows, workflow users and approval users to connect busi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: overview
 ms.search.keywords:
-ms.date: 12/09/2024
+ms.date: 06/12/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -22,7 +22,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 
 The following table describes a sequence of tasks, with links to the articles that describe them.
 
-|**To**|**See**|  
+|To...|Go to...|  
 |------------|-------------|  
 |Set up workflow users and user groups.|[Set Up Workflow Users](across-how-to-set-up-workflow-users.md)|  
 |Set up workflow users who take part in approval workflows.|[Set Up Approval Users](across-how-to-set-up-approval-users.md)|  

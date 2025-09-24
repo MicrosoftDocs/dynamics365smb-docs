@@ -22,7 +22,7 @@ After printers have been set up in Business Central, you can then specify which 
 
 Through the **Printer Management** page you set up a printer as a default printer for all print jobs. You can specify the printer as default for you only or for all users.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Printer Management**, then select the related link.
 
     > [!TIP]
     > You can also open the **Printer Management** page from the **Printer Selections** page by choosing **Printer Management**.  
@@ -35,7 +35,7 @@ Through the **Printer Management** page you set up a printer as a default printe
 
 The **Printer Selections** page lets you specify the printer a report use by default. Default printers are set on a user-account basis. You can set a default printer for just yourself, another user, or all users.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, then select the related link. Alternatively, select a printer on the **Printer Management** page, then choose the **Printer Selections** action.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Printer Selections**, then select the related link. Alternatively, select a printer on the **Printer Management** page, then choose the **Printer Selections** action.
 2. Choose the **New** action to add a printer selection for a specific report.
 3. Fill in the fields as necessary.
 
@@ -68,7 +68,7 @@ Instead of using the default printer when running a report, you can override thi
 
 Cloud printing is designed for documents of a reasonable size. Most cloud services, including PrintNode and HP ePrint, have a limit of 10 MB per job. If you need to print larger reports, you may have to split them in multiple printouts.
 
-## See also
+## Related information
 
 [Printer Management](admin-printer-setup-overview.md)  
 [Set Up Universal Print Printers](admin-printer-setup-universal-print.md)  

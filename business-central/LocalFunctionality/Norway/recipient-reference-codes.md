@@ -1,15 +1,16 @@
 ---
 title: Recipient reference codes [NO]
-description: The recipient reference code determines the message that is sent to the recipient and is displayed on the remittance account.
+description: Learn about the message sent to the recipient and shown on the remittance account, based on the recipient reference code.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
-ms.search.keywords:
-ms.date: 12/08/2023
+ms.search.keywords: remittance account, recipient reference, Norwegian version, recipient reference code
+ms.date: 05/16/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Recipient reference codes in the Norwegian version
 
 The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text isn't used.  
@@ -32,8 +33,8 @@ The recipient reference codes are described in the following table.
 |**%10**|The due date from the vendor ledger entry.|  
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
 
-## See also  
- [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)
+## Related information
 
+[Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

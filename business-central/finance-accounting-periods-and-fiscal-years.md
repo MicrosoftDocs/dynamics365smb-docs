@@ -4,7 +4,7 @@ description: Learn how to work with accounting periods to define when your compa
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 100,
 ms.date: 08/05/2024
 ms.service: dynamics-365-business-central
@@ -59,7 +59,7 @@ Closing the fiscal year is one of the tasks for closing the books. After you clo
 
 Although a fiscal year is closed, you can still post general ledger entries to it. When you do, the entries are marked as posted to a closed fiscal year and the **Prior Year Entry** check box is selected. By default, the check box isn't displayed on the page, but you can add it. The next steps are to close the income statement accounts and transfer the year's results to an account in the balance sheet. Repeat these steps each time you post entries to a closed fiscal year.
 
-## See also
+## Related information
 
 [Closing the Books](year-close-books.md)    
 [Closing Years and Periods](year-close-years-periods.md)    

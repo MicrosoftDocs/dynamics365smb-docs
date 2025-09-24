@@ -16,7 +16,7 @@ You must set up each user who performs warehouse activities as a warehouse emplo
 
 ## To set up warehouse employees  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Employees**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Select the **User ID** field, and then select the user to be added as a warehouse employee. Choose the **OK** button.  
 4. In the **Location Code** field, enter the code of the location where the user will be working.  
@@ -28,7 +28,7 @@ You must set up each user who performs warehouse activities as a warehouse emplo
 
 ## See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

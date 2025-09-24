@@ -2,7 +2,7 @@
 title: How to View Archived Workflow Step Instances
 description: All completed workflow step instances are saved on the Archived Workflow Step Instances page. Each step consists of a workflow event and workflow response.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 1530, 
@@ -22,16 +22,16 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 
 ## To view archived workflow step instances
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, then choose the related link.  
 2. Open the workflow for which you want to view all archived workflow step instances.  
 3. On the **Workflow** page, choose the **Archived Workflow Step Instances** action.  
 
    The **Archived Workflow Step Instances** page opens showing the archived workflow step instances of the selected workflow.  
-4. Alternatively, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Workflow Step Instances**, and then choose the related link.  
+4. Alternatively, [!INCLUDE[open-search](includes/open-search.md)], enter **Archived Workflow Step Instances**, and then choose the related link.  
 
    The **Archived Workflow Step Instances** page opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
 
-## See also
+## Related information
 
 [Delete Approval Workflows](across-how-to-delete-workflows.md)  
 [Create Approval Workflows](across-how-to-create-workflows.md)  

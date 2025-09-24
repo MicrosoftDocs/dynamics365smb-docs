@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 02/27/2024
+ms.date: 03/17/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -23,7 +23,7 @@ The following are some examples of the settings you can apply to service managem
 
 ## To enter general and mandatory settings
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Management Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Management Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## Set up service invoice posting policies for users
@@ -55,7 +55,13 @@ The following table describes the effects on different documents.
 > [!NOTE]
 > When you post service invoices and credit memos, you don't have any posting options. The documents always post physical and financial transactions together. You can't partially post service invoices and credit memos.
 
-## See also  
+## Send service documents to the right people
+
+Your business probably deals with multiple customer and vendor contacts who are responsible for different areas of operation. For example, accountants, purchasers, and warehouse staff. Because their interests typically differ, you might want to generate and send different types of documents to them. You can save time when you send documents to different customer or vendor contacts by setting up specific contacts to use with specific documents. For example, send service invoices to accountant contacts and service orders to your customers' purchasers.
+
+You can use the **Document Layouts** page to specify who to send service quotes, orders, invoices, and credit memos to for vendors and customers based on settings on the **Report Selection** page. To send specific documents to specific company contacts, choose the company contacts to use for specific document layouts. To learn more about document layouts, go to [Define document layouts for customers and vendors](ui-define-customer-vendor-document-layouts.md).
+
+## Related information  
 
 [Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
 [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  

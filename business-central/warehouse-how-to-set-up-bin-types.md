@@ -2,7 +2,7 @@
 title: Set Up Bin Types
 description: Assign types and basic flow activities to bins and, in doing so, define the way the bins are used for particular warehouse activities.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 7367
 ms.date: 06/25/2021
@@ -19,7 +19,7 @@ There are six types. You can operate your warehouse with all of the six possible
 
 ## To set up the bin types you want to use
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Types**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Bin Types**, and then choose the related link.  
 2.  On the **Bin Types** page, create a 10-character code for a bin type.  
 3.  Select the activities that can be performed with each bin type.  
 
@@ -39,7 +39,7 @@ The bin types that you can create are listed below.
 |PUTPICK|Items in bins that are suggested for both the put-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow.<br /><br /> **NOTE:** Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

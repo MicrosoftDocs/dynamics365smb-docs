@@ -2,7 +2,7 @@
 title: Managing OneDrive Integration with Business Central
 description: Learn about things you can do to manage an integration between Business Central and OneDrive for Business.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: OneDrive, share, browser
 ms.date: 06/13/2024
@@ -51,7 +51,7 @@ OneDrive integration is configured per environment, that is, your settings will 
 
 ### Configure OneDrive using OneDrive Setup
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OneDrive Setup**, and then choose the related link. 
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **OneDrive Setup**, and then choose the related link. 
 2. The first time you run the assisted setup, you'll see the **Your privacy**. Read the information on the page, and if you agree to the terms choose **Agree** to continue.
 3. On the **Configure OneDrive file handling** page, you have the following options to choose from:
 
@@ -86,7 +86,7 @@ The SharePoint admin center provides extensive control over policies that govern
 > [!NOTE]
 > Some features may be available only for specific plans.
 
-## See also
+## Related information
 
 [Business Central and OneDrive for Business Integration](across-onedrive-overview.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  

@@ -4,7 +4,7 @@ description: This article explains how to use our predictive model to predict wh
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951, 
 ms.date: 07/11/2024
@@ -21,7 +21,7 @@ When you open a posted sales document, a notification displays at the top of the
 
 To enable the extension manually, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 > [!NOTE]
@@ -40,7 +40,7 @@ If you enable the extension, a **Payments Predicted to be Late** tile is availab
 
 ## Design details
 
-Microsoft deploys and operates predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. Access to these web services is included in your [!INCLUDE[prod_short](includes/prod_short.md)] subscription. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
+Microsoft deploys and operates predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. Access to these web services is included in your [!INCLUDE[prod_short](includes/prod_short.md)] subscription. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://www.microsoft.com/dynamics-365/products/business-central/) website.
 
 The web services work in three modes:
 
@@ -89,7 +89,7 @@ If your processes don't match the standard model, you can use the extension but 
 
 #### To train and use your model
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. In the **Selected Model** field, choose **My Model**.
 3. Choose the **Create My Model** action, to train model on your data.  
 
@@ -97,11 +97,11 @@ If your processes don't match the standard model, you can use the extension but 
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you have to create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. Choose the **Use My Azure Subscription** check box.
 3. On the **Use My Azure Subscription** FastTab, enter the API URL and API key for your model.  
 
-## See also
+## Related information
 
 [Customizing Business Central Using Extensions](ui-extensions.md)    
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)    

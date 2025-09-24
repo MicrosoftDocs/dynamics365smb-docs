@@ -2,10 +2,10 @@
 title: Set up a VAT statement
 description: This article tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 317, 318, 320, 474
+ms.search.form: 315, 317, 318, 320, 474
 ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
@@ -20,7 +20,7 @@ Tax authorities can, and do, change their requirements for posting VAT. VAT Stat
 
 VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **VAT Statements**, and then choose the related link.  
 2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page.
 3. Fill in the required fields. Usually you want to have a setting for each VAT Bus. Posting Group / VAT Prod. Posting Group combination. For Row numbers it does make sense to use equivalent numbers or codes as in your official VAT Statement [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -40,7 +40,7 @@ After you define a VAT statement, you can preview it to make sure it meets your 
 4. On the lines where the **Type** field contains **VAT Entry Totaling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.
 5. You can use personalization to show more fields in the lines. For example the Unrealized Base Amount and Unrealized VAT Amount, if you're using unrealized VAT.
 
-## See also
+## Related information
 
 [Set Up Value-Added Tax](finance-setup-vat.md)    
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)    

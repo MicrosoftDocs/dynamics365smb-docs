@@ -18,7 +18,7 @@ You can mark a vendor ledger entry as **On hold** if there's a dispute about a s
 
 ## To set a vendor ledger entry on hold
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor ledger entries**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendor ledger entries**, and then choose the related link.
 2. Select the entry that you want to mark.
 3. Choose **Edit List**. You can now enter up to 3 characters (likely your initials) in the **On Hold** field to indicate the document is on hold. 
 

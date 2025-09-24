@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 01/27/2025
+ms.date: 07/14/2025
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -47,6 +47,52 @@ You can download the request and response values as files in a text format.
 To help keep the size of your database under control, log entries are included in a data retention policy named **Shpfy Log Entry**. Retention policies let you specify how long you want to store different types of data. By default, Shopify log entries are kept for one month. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
 
 Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
+
+## Troubleshoot export issues
+
+When you export data to Shopify, the Shopify Connector skips records that Shopify will reject or that aren't valid for export for other reasons. While the behavior is expected, you might be confused if some information wasn't processed as you expected. You can find those entries on the **Shopify Skipped Records** page, which shows all skipped records and provides the reasons and the date and time the records were skipped.
+
+The **Logging Mode** field controls the content of the **Shopify Skipped Records** page.
+
+> [!NOTE]
+> The **All** option works in the same way as **Error Only** and logs only skipped entries. It won't log entries that were previously skipped.
+
+The volume of records on the **Shopify Skipped Records** page increases over time. To help you keep the size of your database under control, you can use a retention policy. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
+
+### Cases that the Shopify Connector logs
+
+Customer:
+
+- A customer has an empty email.
+- A customer with the same email or phone number exists.
+
+Posted sales invoice:
+
+- Customer doesn't exist in Shopify.
+- Payment term mapping is missing.
+- Customer number is the default customer number for the Shopify Shop.
+- Customer number is used in the Shopify customer template.
+- No lines exist in the sales invoice.
+- Invalid (negative or fractional) quantity.
+- Empty number value.
+
+Product:
+
+- Item is blocked/sales blocked (item variant).
+- Item is blocked.
+- Item description is empty.
+
+Catalog:
+
+- Price sync if the catalog isn't found in Shopify.
+
+Shipments:
+
+- Related Shopify order doesn't exist.
+- No lines in the posted sales shipment are applicable for fulfillment.
+- No corresponding fulfillment is found in Shopify.
+
+If you run sync in the foreground you will get a notification if records were skipped. Choose **View Skipped Records** to open the **Shopify Skipped Records** page.
 
 ## Data capture
 
@@ -174,6 +220,8 @@ Request a new token because the updated version of the connector requires more p
 
 It seems that you tried to get an access token multiple times. Make sure that the browser allows pop-ups. If you're using a sandbox environment, [Verify and enable permissions to make HTTP requests in a nonproduction environment](#verify-and-enable-permissions-to-make-http-requests-in-a-nonproduction-environment).
 
-## See also
+## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  

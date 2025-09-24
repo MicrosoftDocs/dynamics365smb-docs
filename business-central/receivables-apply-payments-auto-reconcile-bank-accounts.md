@@ -4,7 +4,7 @@ description: Outlines tasks to reconcile your bank, receivables, and payables ac
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1291, 1293, 1294
@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the articles th
 | Link text on payments to specific customer, vendor, or general ledger accounts to always post recurring cash receipts or expenses to those accounts when no documents exist to apply to. |[Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Set up the rules to govern how payments/bank transactions should be automatically applied to their related open ledger entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page.|[Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)|
 
-## See also
+## Related information
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

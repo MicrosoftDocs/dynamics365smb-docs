@@ -2,7 +2,7 @@
 title: How to work with responsibility centers
 description: Responsibility center as administrative centers help companies set up user-specific views of sales and purchase documents related exclusively to each center.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.forms: 5714, 5715
@@ -21,12 +21,12 @@ Multiple locations allow companies to manage their inventory in multiple locatio
 
 ## To set up a responsibility center
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Responsibility Centers**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Responsibility Centers**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     If you're using responsibility centers to administer your company, it can be useful to have a default responsibility center.
-4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+4. [!INCLUDE[open-search](includes/open-search.md)], enter **Company Information**, and then choose the related link.
 5. On the **Shipping** FastTab, in the **Responsibility Center** field, enter a responsibility center code.
 
 This code is used on all purchase, sales, or service documents, if the user, customer, or vendor has no default responsibility center. On sales, purchase, or service documents, you can enter another responsibility center than the default.
@@ -40,7 +40,7 @@ You can set up users so that [!INCLUDE [prod_short](includes/prod_short.md)] ret
 
 To set this up, you assign responsibility centers to users in three functional areas: Purchases, Sales, and Service Management.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Setup**, and then choose the related link.  
 2. On the **User Setup** page, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
 3. In the **Sales Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to sales.  
 4. In the **Purchase Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to purchasing.  
@@ -49,7 +49,7 @@ To set this up, you assign responsibility centers to users in three functional a
 > [!NOTE]  
 > Users can view only those posted documents that related to their own responsibility center. However, they can view all ledger entries and navigate to other posted documents from the ledger entries.
 
-## See also
+## Related information
 
 [Setting Up Inventory](inventory-setup-inventory.md)    
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)    

@@ -8,6 +8,7 @@ ms.date: 06/13/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ms.custom: sfi-image-nochange
 ---
 
 # Business Central and OneDrive integration
@@ -56,7 +57,7 @@ The folder and its content are private until you decide to share them with other
 > [!NOTE]
 > You can also connect your [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to OneDrive. However, there are a few things to do to make it work. For more information, see [Configuring Business Central On-Premises](admin-onedrive-integration-onpremises.md).
 
-## See also
+## Related information
 
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  

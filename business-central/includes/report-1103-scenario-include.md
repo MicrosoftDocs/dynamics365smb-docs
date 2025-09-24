@@ -1,0 +1,1 @@
+Document a resource register's contents for internal or external audits.

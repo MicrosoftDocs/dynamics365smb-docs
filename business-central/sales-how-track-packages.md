@@ -2,7 +2,7 @@
 title: Track packages
 description: Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 03/06/2024
@@ -20,13 +20,13 @@ The following procedure shows how to track a package from a posted sales shipmen
 > [!NOTE]
 > The following procedure uses the Posted Sales Shipment page as an example. The steps to track a package are the same on the Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Sales Shipment**, and then choose the related link.
 2. Open the shipment you want to track, and then choose the **Update Document** action.
 3. In the **Package Tracking No.** field, enter the package number you received from the shipping agent. 
 4. Make sure that the correct shipping agent and the level of service are correct, and then close the page.
 5. Choose the **Track Package** action to open the shipping agent's package tracking service.
 
-## See also
+## Related information
 
 [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Sales](sales-manage-sales.md)  

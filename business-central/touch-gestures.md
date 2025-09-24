@@ -3,7 +3,7 @@ title: "Touch and pen gestures"
 description: "Learn about touch and pen gestures that help you work efficiently with your data from tablets and phones."
 author: jswymer
 
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: accessibility, shortcuts, charts, tiles
 ms.date: 04/29/2021
@@ -31,7 +31,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## See also
+## Related information
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  

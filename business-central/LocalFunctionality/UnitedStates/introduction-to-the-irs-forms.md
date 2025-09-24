@@ -2,18 +2,18 @@
 title: Introduction to the IRS 1099 tax forms [US]
 description: Discover the purposes and methods for using IRS 1099 Tax Forms in the US.
 author: altotovi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: local, 1099, IRS, tax
 ms.search.form: 10030, 10031, 10036, 10037
-ms.date: 05/23/2024
+ms.date: 02/04/2025
 ms.author: altotovi
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ---
 
 # Introduction to the IRS 1099 tax forms
 
-In this guide, you learn how to set up 1099 reporting, generate 1099 Tax Forms, submit them to the IRS, and send copies to vendors using Business Central.
+In this article, you learn how to set up 1099 reporting, generate 1099 Tax Forms, submit them to the IRS, and send copies to vendors using Business Central.
 
 ## IRS 1099 tax form introduction
 
@@ -35,9 +35,9 @@ There are several types of 1099 Tax Forms, each corresponding to a specific type
 > [!NOTE]
 > This guidance isn't intended as comprehensive instruction for tax reporting. Before making your final calculations, it's advisable to seek advice from your tax consultant, accountant, and representatives from the IRS.
 > [!IMPORTANT]
-> The functionality described here is active from Business Central  version 24.0 and it requires manual activation on the **Feature Management** page. Once, the user activates it, the old [1099 functionality](set-up-use-irs1099-form.md) will be deactivated.
+> The functionality described here is active from Business Central version 24.0 and it requires manual activation on the **Feature Management** page. After the user activates it, the old [1099 functionality](set-up-use-irs1099-form.md) is deactivated.
 
-This feature integrates with the IRS and doesn't print 1099 Tax Forms on preprinted original IRS 1099 Tax Forms. Instead, [!INCLUDE[prod_short](../../includes/prod_short.md)] submits 1099 Tax Forms through integration with IRS and send Copy B to vendors as *Copy Substitutions* printed on plain paper.  
+This feature integrates with the IRS and doesn't print 1099 Tax Forms on preprinted original IRS 1099 Tax Forms. Instead, [!INCLUDE[prod_short](../../includes/prod_short.md)] submits 1099 Tax Forms through integration with IRS and sends Copy B to vendors as *Copy Substitutions* printed on plain paper.  
 
 ## Features overview
 
@@ -49,12 +49,12 @@ To get started managing IRS 1099 functionality, see the following articles.
 | [Using IRS 1099](how-to-1099-use.md) | Learn how to prepare your document and how to create 1099 forms based on your entries. |
 | [Reporting IRS 1099](how-to-1099-report.md) | Learn how to submit your 1099 forms to the IRS and to send them to your vendors. |
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)
 - [How to setup the IRS 1099 forms](set-up-use-irs1099-form-v24.md)
 - [How to use the IRS 1099 forms](how-to-1099-use.md)
-- [How to submit and report the IRS 1099](set-up-use-irs1099-form-v24.md#to-print-report-configuration)
+- [How to submit and report the IRS 1099](set-up-use-irs1099-form-v24.md#print-report-configuration)
 - [Previous version of 1099 functionality](set-up-use-irs1099-form.md)
 - [Register New Vendors](../../purchasing-how-register-new-vendors.md)
 - [Record Purchase](../../purchasing-how-record-purchases.md)

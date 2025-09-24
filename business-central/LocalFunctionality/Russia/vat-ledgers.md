@@ -1,18 +1,16 @@
 ---
 title: VAT ledgers in Russia
-description: Russian enhancements include VAT ledgers.
+description: Russian localization provides features for managing and reporting VAT ledgers.
 author: DianaMalina
-
-
-ms.topic: conceptual
-ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: bholtorf
+ms.topic: article
+ms.search.keywords: VAT ledgers, VAT purchase ledger, VAT sales ledger, VAT purchase ledger additional sheet, VAT sales ledger additional sheet, Russia
+ms.date: 07/22/2025
+ms.reviewer: v-soumramani
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# VAT Ledgers
+# VAT ledgers
 
 The VAT ledger feature enables you to create and print the following windows:
 
@@ -21,11 +19,11 @@ The VAT ledger feature enables you to create and print the following windows:
 - VAT Purchase Ledger Additional Sheet
 - VAT Sales Ledger Additional Sheet
 
-## VAT Purchase Ledgers and VAT Sales Ledgers
+## VAT purchase ledgers and VAT sales ledgers
 
 Before you can create VAT ledgers, you must set up number series and vendor posting groups. You must also set up VAT posting groups to identify how VAT entries must be included in VAT ledgers. Also, for each VAT posting setup, you must specify if entries that use the setup must be included in VAT ledgers, and if the entries are VAT exempt. For more information, see [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md).
 
-You can create and store any number of VAT ledgers. For example, you can create the following: 
+You can create and store any number of VAT ledgers. For example, you can create the following:
 
 - Sales ledgers for different groups of customers.
 - Additional sales ledgers for amount differences and prepayments.
@@ -35,22 +33,21 @@ To create a VAT ledger, first you must define a VAT ledger type, and then you mu
 
 For more information, see [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md).
 
-## Marking a VAT Purchase Ledger
+## Marking a VAT purchase ledger
 
 The VAT for purchase documents must be reflected in the purchase ledger. Return orders of the customers must be reflected in purchase books.
 
-The following procedure shows how to mark a VAT purchase ledger. 
+The following procedure shows how to mark a VAT purchase ledger.
 
-1. In the **Sales Return Order** window or the **Sales Credit Memo** window, select the **Include in Purch. VAT Ledger** check box.
+In the **Sales Return Order** window or the **Sales Credit Memo** window, select the **Include in Purch. VAT Ledger** check box.
 
-These marked documents will be reflected in the purchase book or in the sales book. Sales return orders are marked by default.
+These marked documents are reflected in the purchase book or in the sales book. Sales return orders are marked by default.
 
-## See Also
+## Related information
 
-[Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
-[Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  
-[Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
-[Posting VAT on Sales](Posting-VAT-on-Sales.md)  
-
+- [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
+- [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  
+- [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
+- [Posting VAT on Sales](Posting-VAT-on-Sales.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

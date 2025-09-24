@@ -4,8 +4,9 @@ description: Learn how data that's used in copilot features in Dynamics 365 Busi
 author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
-ms.date: 11/22/2024
+ms.topic: article
+ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -16,7 +17,7 @@ ms.search.form: 7775
 
 Although Copilot in Business Central is available in all geographic areas where Business Central online is available, it requires Microsoft Azure OpenAI Service, which is available only in specific regions.  
 
-Depending on where your environment is hosted, you might need to allow data to move outside of your primary data residency to an Azure OpenAI endpoint located in another geography. You provide consent in the **Copilot & AI capabilities** page. If you don't provide consent, Copilot won't be available to your organization. Learn how to provide consent in [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).
+Depending on where your environment is hosted, you might need to allow data to move outside of your primary data residency to an Azure OpenAI endpoint located in another geography. You provide consent in the **Copilot & agent capabilities** page. If you don't provide consent, Copilot won't be available to your organization. Learn how to provide consent in [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).
 
 Individual Copilot features might not be available in all geographies. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external). Copilot and generative AI features from non-Microsoft publishers, such as those originating from customizations or AppSource apps you install, each define their own specific Azure OpenAI Service regions. Consult with the extension publisher to understand which regional Azure services are used by the extension.
 
@@ -42,7 +43,7 @@ The following table describes when and how data can move across geographies for 
 
 To find the Azure region where a Business Central environment is hosted, sign in to the Business Central admin center, choose the environment to display details, and then find the **Azure Region** field. Learn more: [Managing production and sandbox environments in the admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)
 
-![Shows the environment details in Business Central admin center](media/business-central-admin-center-azure-region.svg)
+![Shows the environment details in Business Central admin center](media/business-central-admin-center-azure-region.svg "Shows the environment details in Business Central admin center")
 
 ## Related information
 

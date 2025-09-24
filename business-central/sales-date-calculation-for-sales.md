@@ -2,7 +2,7 @@
 title: Delivery date calculation for sales
 description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 03/06/2024
@@ -36,7 +36,7 @@ If you don't specify a requested delivery date on the sales order line, or if th
 - *shipment date + outbound whse. handling time = planned shipment date*
 - *planned shipment date + shipping time = planned delivery date*
 
-## See also
+## Related information
 
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  

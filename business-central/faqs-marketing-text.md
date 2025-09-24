@@ -1,10 +1,11 @@
 ---
 title: FAQ for marketing text suggestions
 description: This FAQ provides information about the AI technology used in marketing text suggestions in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 11/11/2024
+ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer

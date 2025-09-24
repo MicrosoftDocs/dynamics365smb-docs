@@ -26,7 +26,7 @@ A catalog item typically has the item number of the vendor who supplies it. Befo
 
 ## Create a catalog item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalog Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Catalog Items**, and then choose the related link.
 2. On the **Catalog Items** page, choose the **New** action.
 3. On the **Catalog Item Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -34,12 +34,12 @@ A catalog item typically has the item number of the vendor who supplies it. Befo
 
 Before you can convert a catalog item to a regular item, you must specify how to convert vendor item numbers to the structure you use for item numbers.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalog Item Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Catalog Item Setup**, and then choose the related link.
 2. In the **No. Format** field, choose the option you prefer.
 
 ## Convert a catalog item to a normal item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalog Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Catalog Items**, and then choose the related link.
 2. Open the card for a catalog item that you want to convert to a normal item.
 3. On the **Catalog Item Card** page, choose the **Create Item** action.
 
@@ -52,7 +52,7 @@ A new item card prefilled with information from the catalog item and an item tem
 
 The following process uses a sales order, but the steps are the same for blanket sales orders and quotes.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
 2. Choose the **New** action. Fill in the fields on the **General** FastTab as for any sales order. For more information, see [Sell Products](sales-how-sell-products.md).
 3. On a new sales line, in the **Type** field, select **Item**, but leave the **No.** field empty.
 4. Choose the **Line** action, and then choose the **Select Catalog Items** action.
@@ -65,7 +65,7 @@ The following process uses a sales order, but the steps are the same for blanket
 >
 > The item is also deleted if you convert the item manually, or make changes such as adding new units of measure or updating prices or cost. However, the item won't be deleted if it's already used in sales or purchase lines, assembly BOMs, or has ledger entries.
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Special Orders](sales-how-to-create-special-orders.md)  

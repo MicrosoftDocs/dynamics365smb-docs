@@ -2,7 +2,7 @@
 title: Apply Entries in Different Currencies
 description: You can apply ledger entries in multiple currencies, for example, if you sell in one currency and receive payment in another.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460, 25
@@ -22,7 +22,7 @@ The following procedure describes how to set this up for vendor ledger entries o
 
 ## To enable application of vendor ledger entries in different currencies
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchases & Payables Setup**, and then choose the related link.
 2. In the **Appln. between Currencies** field, select one of the following options.
 
 | Option | Description |
@@ -38,12 +38,12 @@ If you apply entries in different currencies, you must set up the general ledger
 > [!NOTE]  
 > You must set up the general ledger accounts before you complete the task. For more information, see [Understanding the General Ledger and the Chart of Accounts](finance-general-ledger.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Posting Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customer Posting Groups**, and then choose the related link.  
 2. In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Groups**, and then choose the related link.  
+3. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendor Posting Groups**, and then choose the related link.  
 4. In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
 
-## See also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Managing Receivables](receivables-manage-receivables.md)  

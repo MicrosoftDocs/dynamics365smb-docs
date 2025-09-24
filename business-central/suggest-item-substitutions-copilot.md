@@ -3,9 +3,10 @@ title: Suggest substitute items with Copilot
 description: Assign substitute items faster with assistance from Copilot.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/02/2024
+ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -32,14 +33,14 @@ Information about products is stored in multiple places in [!INCLUDE [prod_short
 
 ## Prerequisites
 
-- Your administrator must activate the **Create product information** capability on the **Copilot & AI Capabilities** page. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
+- Your administrator must activate the **Create product information** capability on the **Copilot & agent capabilities** page. [Learn more about how to configure Copilot and agent capabilities](enable-ai.md).
 - You're familiar with creating and managing product (item) information.
 
 ## Suggest item substitutions on item substitution entries
 
 This process describes how to get Copilot to suggest substitute items.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then select the related link.
 2. Select the item you want Copilot to find substitutes for.
 3. Choose the **Substitutions** action.
 4. On the **Item Substitution Entry** page, choose **Suggest with Copilot**.
@@ -60,5 +61,5 @@ After Copilot suggests the items to add, review the suggestions and decide wheth
 ## Related information
 
 [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)  
-[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)

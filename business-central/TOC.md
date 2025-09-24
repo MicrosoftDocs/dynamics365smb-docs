@@ -121,7 +121,7 @@ ms.service: dynamics-365-business-central
 #### [Set the layout used by a report](ui-set-report-layout.md)
 #### [Define document layouts for customers and vendors](ui-define-customer-vendor-document-layouts.md)
 #### [Available fonts](ui-fonts.md)
-#### Use legacy features
+#### Use obsolete features
 ##### [Create and modify custom report layouts](ui-how-create-custom-report-layout.md)
 ##### [Import and export custom report layouts](ui-how-import-and-export-report-layout.md)
 ##### [Update custom report layouts](ui-update-report-layouts.md)
@@ -262,6 +262,8 @@ ms.service: dynamics-365-business-central
 
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
+##### [Report selection for finance reports](finance-financial-reporting-report-selection.md)
+##### [View a financial report](finance-financial-reporting-view-a-report.md)
 ##### [Organize report data using account categories](bi-account-categories.md)
 ##### [Design your own financial reports](bi-design-financial-reports.md)
 ##### [Row definitions in financial reporting](bi-row-definitions.md)
@@ -272,8 +274,9 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot financial reporting](bi-troubleshoot-financial-reports.md)
 ##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 ##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-##### [Audit changes in financial reporting](finance-financial-reporting-auditing.md)
+##### [Audit changes to financial reporting](finance-financial-reporting-auditing.md)
 ##### [Financial reporting FAQ](finance-financial-reporting-faq.md)
+
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 #### Built-in finance analysis tools
@@ -284,25 +287,63 @@ ms.service: dynamics-365-business-central
 ##### [Analyze your payment practices](ui-payment-practices.md)
 
 #### Built-in finance reports
-
+##### [Finance report overview](finance-reports.md)
 ##### Key finance reports
-
-###### [Key finance report overview](finance-reports.md)
+###### [Chart of Accounts](reports/report-1.md)
+###### [G/L Register](reports/report-3.md)
 ###### [Detail Trial Balance](reports/report-4.md)
+###### [Receivables-Payables](reports/report-5.md)
 ###### [Trial Balance Excel](reports/report-4405.md)
 ###### [Trial Balance (legacy)](reports/report-6.md) 
 ###### [Trial Balance/Previous Year](reports/report-7.md) 
 ###### [Trial Balance/Budget Excel](reports/report-4406.md)
 ###### [Trial Balance/Budget (legacy)](reports/report-9.md)
+###### [Trial Balance by Period](reports/report-38.md)
 ###### [Closing Trial Balance](reports/report-10.md)
-###### [Consolidated Trial Balance Excel](reports/report-4410.md)
+###### [Fiscal Year Balance](reports/report-36.md)
+###### [Balance Comp. - Prev. Year](reports/report-37.md)
+###### [Foreign Currency Balance](reports/report-503.md)
 ###### [Financial Report](reports/report-25.md)
 ###### [Dimensions - Total](reports/report-27.md)
 ###### [Dimensions - Detail](reports/report-28.md)
+###### [Dimension Check Value Posting](reports/report-30.md)
 ###### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
-###### [Trial Balance by Period](reports/report-38.md)
+###### [Balance Sheet](reports/report-151.md)
+###### [Income Statement](reports/report-154.md) 
+###### [Statement of Cashflows](reports/report-155.md) 
+###### [Retained Earnings Statement](reports/report-156.md) 
 
-##### [Built-in fixed assets reports](fa-reports.md)
+##### Deferral reports
+###### [G/L Deferral Summary](reports/report-1700.md)
+###### [Sales Deferral Summary](reports/report-1701.md)
+###### [Purchasing Deferral Summary](reports/report-1702.md)
+##### VAT reports
+###### [G/L - VAT Reconciliation](reports/report-11.md)
+###### [VAT Statement](reports/report-12.md)
+###### [VAT Register](reports/report-13.md)
+###### [VAT- VIES Declaration Tax Auth](reports/report-19.md)
+###### [Calc. and Post VAT Settlement](reports/report-20.md)
+###### [VAT Exceptions](reports/report-31.md)
+###### [VAT Registration No. Check](reports/report-32.md)
+###### [VAT Reconciliation Report](reports/report-743.md)
+###### [Day Book VAT Entry](reports/report-2500.md)
+##### Consolidation and intercompany reports
+###### [Consolidated Trial Balance Excel](reports/report-4410.md)
+###### [Consolidated Trial Balance](reports/report-17.md)
+###### [Consolidated Trial Balance (4)](reports/report-18.md)
+###### [Intercompany Transactions](reports/report-512.md) 
+###### [G/L Consolidation Eliminations (for IC)](reports/report-16.md)
+##### Cost accounting reports
+###### [Cost Acctg. Stmt. per Period](reports/report-1123.md)
+###### [Cost Types Details](reports/report-1125.md)
+###### [Cost Acctg. Statement](reports/report-1126.md)
+###### [Cost Acctg. Analysis](reports/report-1127.md)
+###### [Cost Acctg. Journal](reports/report-1128.md)
+###### [Cost Allocations](reports/report-1129.md)
+###### [Cost Acctg. Statement/Budget](reports/report-1133.md)
+###### [Cost Acctg. Balance/Budget](reports/report-1138.md)
+
+##### [Fixed assets reports](fa-reports.md)
 
 ##### Accounts payable analytics
 
@@ -334,7 +375,7 @@ ms.service: dynamics-365-business-central
 ###### [Customer Statement](reports/report-1316.md)
 
 ##### Legacy reports (will be removed)
-###### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+###### [Finance Excel reports (obsolete)](finance-analyze-excel.md)
 ###### [Customer - Top 10 List (legacy)](reports/report-111.md)
 ###### [Aged Accounts Receivables (Legacy)](reports/report-120.md)
 ###### [Vendor - List (legacy)](reports/report-301.md)
@@ -416,6 +457,8 @@ ms.service: dynamics-365-business-central
 #### [Define and allocate costs](finance-define-and-allocate-costs.md)
 #### [Create cost budgets](finance-create-cost-budgets.md)
 #### [Deleting cost budget entries](finance-how-to-delete-cost-budget-entries.md)
+#### [Cost accounting reports](finance-cost-accounting-reports.md)
+
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)
@@ -465,16 +508,17 @@ ms.service: dynamics-365-business-central
 ### Work with the chart of accounts and general ledger (G/L)
 #### [Understand the general ledger](finance-general-ledger.md)
 #### [Understand the chart of accounts](finance-chart-of-accounts.md)
-#### [Review accounts](finance-review-accounts.md)
+#### [Create G/L budgets](finance-how-create-budgets.md)
+#### [Review amounts in general ledger accounts](finance-review-accounts.md)
 #### [Revalue general ledger account balances](finance-revalue-account-balances.md)
 #### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
 #### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
 #### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
-#### [Create G/L budgets](finance-how-create-budgets.md)
-#### [Audit file export](finance-how-to-export-audit-files.md)
 #### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
 #### [Allocate recurring costs and income](year-allocate-costs-income.md)
 #### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
+#### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
+#### [Export data for auditing](finance-how-to-export-audit-files.md)
 
 ### Working with dimensions
 #### [Dimensions overview](finance-dimensions.md)
@@ -485,7 +529,7 @@ ms.service: dynamics-365-business-central
 #### [Currencies in Business Central](finance-currencies.md)
 #### [Update currency exchange rates](finance-how-update-currencies.md)
 
-### Working with VAT
+### Working with Value Added Tax (VAT)
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
 #### [Work with VAT on sales and purchases](finance-work-with-vat.md)
@@ -495,6 +539,7 @@ ms.service: dynamics-365-business-central
 #### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
 #### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
 #### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
+#### [VAT reports](finance-vat-reports.md)
 #### Set up VAT
 ##### [Set up value-added tax](finance-setup-vat.md)
 ##### [Post group setup](finance-posting-groups.md#tax-posting-groups)
@@ -502,29 +547,15 @@ ms.service: dynamics-365-business-central
 ##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
 ##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
 
-### Set up and use e-documents
+### Set up and use E-Documents
 #### [E-Documents overview](finance-edocuments-overview.md)
-#### [Set up e-documents](finance-how-setup-edocuments.md)
-#### [Use e-documents in sales](finance-how-use-edocuments.md)
-#### [Use e-documents in purchases](finance-how-use-edocuments-purchase.md)
-#### [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)
-#### [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md)
-#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Sustainability management
-#### [Sustainability management overview](finance-manage-sustainability.md)
-#### [Sustainability setup](finance-sustainability-setup.md)
-#### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
-#### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
-#### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
-#### [Work with carbon credit](sustainability-carbon-credit.md)
-#### [Sustainability certificates](sustainability-certificates.md)
-#### Sustainability analytics
-##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
-##### [Built-in sustainability reports](sustainability-reports.md)
-##### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
-#### Sustainability APIs
-##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
+#### [Set up E-Documents](finance-how-setup-edocuments.md)
+#### [Use E-Documents in sales](finance-how-use-edocuments.md)
+#### [Use E-Documents in purchases](finance-how-use-edocuments-purchase.md)
+#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md)
+#### [Connect e-documents to Microsoft 365 applications](finance-connect-edocuments-microsoft365.md)
+#### [Extending E-Documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -537,37 +568,6 @@ ms.service: dynamics-365-business-central
 ##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
-### Subscription billing
-#### [Overview of subscription billing](SRB/welcome.md)
-#### Contracts
-##### [Manage contracts, service objects, and service commitments](SRB/working-with-contracts/contracts-services-mgmt.md)
-##### [Create customer contracts](SRB/working-with-contracts/customer-contracts.md)
-##### [Create vendor contracts](SRB/working-with-contracts/vendor-contracts.md)
-##### [Use service objects](SRB/working-with-contracts/service-objects.md)
-##### [Use service commitments](SRB/working-with-contracts/so-service-commitments.md)
-##### [Update prices](SRB/working-with-contracts/price-update.md)
-##### [Renew contracts](SRB/working-with-contracts/contract-renewal.md)
-##### [Deferrals in contracts](SRB/working-with-contracts/contract-deferrals.md)
-##### [Terminate contract components](SRB/working-with-contracts/service-commitment-cancellation.md)
-#### Sales
-##### [Sales process](SRB/sales/sales-service-commitments.md)
-##### [Price determination of service commitments](SRB/sales/price-calculation.md)
-##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
-##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
-#### [Recurring billing](SRB/recurring-billing.md)
-#### [Posting documents](SRB/posting-documents.md)
-#### [Purchasing](SRB/purchases.md)
-### Usage based billing
-#### [Overview of usage based billing](UBB/welcome.md)
-#### [Import and process data](UBB/processing-usage-data/imports-processing.md) 
-#### [Use data exchange definitions](UBB/masterdata/dataexchangedefinitions.md)
-#### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
-#### [Manage usage data supplier references](UBB/masterdata/references.md)
-#### [Manage customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
-#### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
-#### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
-#### [Extend service commitments](UBB/masterdata/service-commitments.md)
-
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -578,14 +578,22 @@ ms.service: dynamics-365-business-central
 #### [Power BI sales app](sales-powerbi-app.md)
 ##### [Sales overview](sales-powerbi-sales-overview.md)
 ##### [Daily Sales](sales-powerbi-daily-sales.md)
+##### [Key Sales Influencers (Power BI Report)](sales-powerbi-key-sales-influencers.md)
+##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 ##### [Moving Average](sales-powerbi-moving-average.md)
 ##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
 ##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
+##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
+##### [Opportunity Overview (Power BI Report)](sales-powerbi-opportunity-overview.md)
+##### [Return Order Overview (Power BI Report)](sales-powerbi-return-order-overview.md)
 ##### [Sales by Item](sales-powerbi-sales-by-item.md)
 ##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
 ##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales Decomposition (Power BI Report)](sales-powerbi-sales-decomposition.md)
+##### [Sales Demographics (Power BI Report)](sales-powerbi-sales-demographics.md)
 ##### [Sales by Location](sales-powerbi-sales-by-location.md)
+##### [Sales Quote Overview (Power BI Report)](sales-powerbi-sales-quote-overview.md)
 ##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
 ##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
 
@@ -633,6 +641,37 @@ ms.service: dynamics-365-business-central
 ### [Merge duplicate records](sales-how-merge-duplicate-records.md)
 ### [Work with recurring revenue](finance-recurring-invoicing.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
+### Subscription billing
+#### [Overview of subscription billing](SRB/welcome.md)
+#### Contracts
+##### [Manage contracts, subscriptions, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
+##### [Create customer subscription contracts](SRB/working-with-contracts/customer-contracts.md)
+##### [Create vendor subscription contracts](SRB/working-with-contracts/vendor-contracts.md)
+##### [Use subscriptions](SRB/working-with-contracts/service-objects.md)
+##### [Use subscription lines](SRB/working-with-contracts/so-service-commitments.md)
+##### [Update prices](SRB/working-with-contracts/price-update.md)
+##### [Renew contracts](SRB/working-with-contracts/contract-renewal.md)
+##### [Defer revenue and expenses in contracts](SRB/working-with-contracts/contract-deferrals.md)
+##### [Terminate contract components](SRB/working-with-contracts/service-commitment-cancellation.md)
+#### Sales
+##### [Sales with subscription lines](SRB/sales/sales-service-commitments.md)
+##### [Price determination of subscription lines](SRB/sales/price-calculation.md)
+##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
+##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
+#### [Recurring billing](SRB/recurring-billing.md)
+#### [Posting documents](SRB/posting-documents.md)
+#### [Purchasing](SRB/purchases.md)
+#### Bill subscriptions based on usage
+##### [Overview of usage-based billing](UBB/welcome.md)
+##### [Import and process usage data](UBB/processing-usage-data/imports-processing.md) 
+##### [Use data exchange definitions to record usage](UBB/masterdata/dataexchangedefinitions.md)
+##### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
+##### [Manage usage data supplier references](UBB/masterdata/references.md)
+##### [Manage usage for customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
+##### [Link subscriptions with subscriptions](UBB/processing-usage-data/connect-subscription-service-object.md)
+##### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
+##### [Extend subscription lines](UBB/masterdata/service-commitments.md)
+
 
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
@@ -684,6 +723,7 @@ ms.service: dynamics-365-business-central
 ### [Record purchases](purchasing-how-record-purchases.md)
 ### [Request quotes](purchasing-how-request-quotes.md)
 ### [Purchase items for a sale](purchasing-how-purchase-products-sale.md)
+### [Check amounts on purchase invoices and credit memos](check-purchase-amounts.md)
 <!-- ### [Post Purchases](ui-post-purchases.md) -->
 ### [Correct or cancel unpaid purchase invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ### [Combine receipts on a single invoice](purchasing-how-to-combine-receipts.md)
@@ -805,6 +845,11 @@ ms.service: dynamics-365-business-central
 ##### [Items per Project](reports/report-1013.md)
 ##### [Project per Item](reports/report-1014.md)
 ##### [Project Register](reports/report-1015.md)
+##### [Resource – List](reports/report-1101.md)
+##### [Resource Register](reports/report-1103.md)
+##### [Resource Statistics](reports/report-1105.md)
+##### [Resource Utilization](reports/report-1106.md)
+##### [Resource - Cost Breakdown](reports/report-1107.md)
 <!-- Project management analytics end -->
 
 ### [Create projects](projects-how-create-jobs.md)
@@ -985,8 +1030,14 @@ ms.service: dynamics-365-business-central
 ##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Prod. Order List (Power BI Report)](manufacturing-powerbi-prod-order-list.md)
+##### [Production Order Overview (Power BI Report)](manufacturing-powerbi-production-order-overview.md)
+##### [Prod. Order Routing Gantt (Power BI Report)](manufacturing-powerbi-prod-order-routing-gantt.md)
+##### [Production Order WIP (Power BI Report)](manufacturing-powerbi-prod-order-wip.md)
+##### [Machine Center Load (Power BI Report)](manufacturing-powerbi-machine-center-load.md)
+##### [Machine Center Statistics (Power BI Report)](manufacturing-powerbi-machine-center-statistics.md)
 ##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
-
+##### [Work Center Statistics (Power BI Report)](manufacturing-powerbi-work-center-statistics.md)
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 
 #### Built-in production reports
@@ -995,27 +1046,27 @@ ms.service: dynamics-365-business-central
 ##### [Item - Able to Make (Time)](reports/report-5871.md) 
 ##### [BOM Cost Share Distribution](reports/report-5872.md) 
 ##### [Quantity Explosion of BOM](reports/report-99000753.md)
-##### [Rolled-up Cost Shares](reports/report-99000754.md) 
-##### [Single-Level Cost Shares](reports/report-99000755.md) 
-##### [Detailed Calculation](reports/report-99000756.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)
-##### [Item BOM Compare list](reports/report-99000758.md)
 ##### [Prod. Order - Job Card](reports/report-99000762.md) 
 ##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
-##### [Prod. Order - Calculation](reports/report-99000767.md)
 ##### [Prod. Order Detailed Calc](reports/report-99000768.md) 
 ##### [Capacity Task list](reports/report-99000780.md)
-##### [Work Center Load](reports/report-99000783.md)
-##### [Machine Center Load](reports/report-99000784.md)
-##### [Work Center Load](reports/report-99000785.md) 
-##### [Machine Center Load](reports/report-99000786.md) 
 ##### [Routing Sheet](reports/report-99000787.md) 
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
 ##### [Subcontractor Dispatch List](reports/report-99000789.md) 
 ##### [Production Order Statistics](reports/report-99000791.md)
-#### Legacy reports (will be removed)
-##### [Work Center List (legacy)](reports/report-99000759.md) 
-##### [Machine Center List (legacy)](reports/report-99000760.md) 
+#### Obsolete reports (will be removed)
+##### [Work Center List (obsolete)](reports/report-99000759.md) 
+##### [Machine Center List (obsolete)](reports/report-99000760.md) 
+##### [Rolled-up Cost Shares (obsolete)](reports/report-99000754.md) 
+##### [Single-Level Cost Shares (obsolete)](reports/report-99000755.md) 
+##### [Detailed Calculation (obsolete)](reports/report-99000756.md)
+##### [Item BOM Compare list (obsolete)](reports/report-99000758.md)
+##### [Work Center Load (obsolete)](reports/report-99000783.md)
+##### [Machine Center Load (obsolete)](reports/report-99000784.md)
+##### [Work Center Load (obsolete)](reports/report-99000785.md) 
+##### [Machine Center Load (obsolete)](reports/report-99000786.md) 
+##### [Prod. Order - Calculation (obsolete)](reports/report-99000767.md)
 <!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)
@@ -1023,6 +1074,7 @@ ms.service: dynamics-365-business-central
 ### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
 ### [Post consumption and output for one released production order line](production-how-to-register-consumption-and-output.md)
 ### [Batch post consumption](production-how-to-post-consumption.md)
+### [Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md)
 ### [Batch post output and run times](production-how-to-post-output-quantity.md)
 ### [Reverse output posting](production-how-to-reverse-output-posting.md)
 ### [Post scrap](production-how-to-post-scrap.md)
@@ -1136,8 +1188,47 @@ ms.service: dynamics-365-business-central
 #### [Post service orders and credit memos](service-how-to-post-service-orders.md)
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
 
+<!--Sustainability-->
+## Sustainability management
+### [Sustainability management overview](finance-manage-sustainability.md)
+### Sustainability analytics
+#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+#### [Built-in sustainability reports](sustainability-reports.md)
+#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+#### Power BI sustainability app
+##### [Sustainability Power BI app](sustainability-powerbi-app.md)
+##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)
+##### [Co2e Decomposition Tree (Power BI Report)](sustainability-powerbi-co2e-decomposition-tree.md)
+##### [Co2e Key Influences (Power BI Report)](sustainability-powerbi-co2e-key-influences.md)
+##### [Emissions by Category and Scope (Power BI Report)](sustainability-powerbi-emissions-by-category-and-scope.md)
+##### [Journey to Net Zero Carbon (Power BI Report)](sustainability-powerbi-journey-to-net-zero-carbon.md)
+##### [Power BI Sustainability app KPIs and measures](sustainability-powerbi-kpis.md)
+##### [Realized Emissions vs Baseline (Power BI Report)](sustainability-powerbi-realized-emissions-vs-baseline.md)
+##### [Realized Emissions vs Target (Power BI Report)](sustainability-powerbi-realized-emissions-vs-target.md)
+##### [Social Analysis (Power BI Report)](sustainability-powerbi-social-analysis.md)
+##### [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)
+##### [Water and Waste Analysis (Power BI Report)](sustainability-powerbi-water-and-waste-analysis.md)
+### [Sustainability setup](finance-sustainability-setup.md)
+### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
+### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
+### [Work with carbon credit](sustainability-carbon-credit.md)
+### [Sustainability certificates](sustainability-certificates.md)
+### Sustainability Value Chain
+#### [Sustainability Value Chain](value-chain-howto-overview.md)
+#### [Value Chain Setup](value-chain-howto-setup.md)
+#### [Default emission values](sustainability-howto-default.md)
+#### [Value Chain in Purchase](value-chain-howto-purchase.md)
+#### [Value Chain in Transfers](value-chain-howto-transfer.md)
+#### [Value Chain in Assembly process](value-chain-howto-assembly.md)
+#### [Value Chain in Production process](value-chain-howto-mfg.md)
+#### [Value Chain in Sales](value-chain-howto-sales.md)
+### Sustainability APIs
+#### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
+
 <!--Shopify-->
 ## Online store with Shopify
+### [Shopify connector overview](shopify/shopify-connector-overview.md)
 ### [Get started with the Shopify connector](shopify/get-started.md)
 #### [Create and set up a Shopify account](shopify/shopify-account.md)
 ### [Synchronize items and inventory with Shopify](shopify/synchronize-items.md)
@@ -1146,8 +1237,10 @@ ms.service: dynamics-365-business-central
 ### [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)
 ### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
 ### [Automate Shopify synchronization using the job queue](shopify/background.md)
+### [Working with Shopify POS](shopify/shopify-pos.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
+### [Support for the Shopify connector](shopify/shopify-support.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
@@ -1176,6 +1269,8 @@ ms.service: dynamics-365-business-central
 ##### [Calculate goods and services tax on prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Adjust settlement exchange rates for VAT entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Print goods and service tax settlement reports](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
+#### Electronic documents
+##### [E-Invoicing in Peppol PINT A-NZ Format](LocalFunctionality/Australia/how-to-au-einvoice.md)
 #### Banking & payments
 ##### [Compare bank cash flow](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
 ##### [Create check installments](LocalFunctionality/Australia/how-to-create-check-installments.md)
@@ -1275,17 +1370,18 @@ ms.service: dynamics-365-business-central
 ##### [Statutory Information About Company](LocalFunctionality/Czech/statutory-company-information.md)
 ##### [Internal Financial Documents](LocalFunctionality/Czech/internal-financial-documents.md)
 ##### [Accounting Output Documents](LocalFunctionality/Czech/accounting-output-documents.md)
-##### [Accounting schedule feature](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Financial report feature](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
 ##### [Statutory Statements](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
 ##### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [WIP Extended Posting](LocalFunctionality/Czech/wip-extended-posting.md)
 ##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
 ##### [VAT Statement](LocalFunctionality/Czech/vat-statement.md)
 ##### [Supplementary VAT Statement](LocalFunctionality/Czech/supplementary-vat-statement.md)
-##### [VIES](LocalFunctionality/Czech/vies-cz.md)
+##### [VIES CZ](LocalFunctionality/Czech/vies-cz.md)
 ##### [VIES – CZ Export](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
 ##### [Unreliable Payer](LocalFunctionality/Czech/unreliable-payer.md)
 ##### [VAT Exchange Rate](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
@@ -1294,18 +1390,18 @@ ms.service: dynamics-365-business-central
 ##### [VAT Reports](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
 ##### [Non-Deductible VAT](LocalFunctionality/Czech/non-deductible-VAT.md)
-##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [VAT Return CZ](LocalFunctionality/Czech/vat-return-cz.md)
+##### [Functional Currency – Czechia](LocalFunctionality/Czech/functional-currency.md)
 ##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Fixed Assets
 ##### [Fixed Asset Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banking and Payments
 ##### [Banking Documents Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
-##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
+#### Advance Payments
 ##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Payables and Receivables
 ##### [Exchange Rates Adjustment Feature](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
-##### [Multiple Payables and Receivables Accounts](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
 ##### [Customer and Vendor Reconciliations](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
 ##### [Sales Correcting Documents](LocalFunctionality/Czech/sales-correcting-documents.md)
 ##### [Update Contacts from ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
@@ -1325,13 +1421,13 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Movement Templates](LocalFunctionality/Czech/inventory-movement-templates.md)
 ##### [Stock keeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
 ##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
-##### [Default Bus Post Group in Manufacturing](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
-##### [Default Bus Post Group in Assembly Orders](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
 ##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
 ##### [General Production Posting Group in Stock keeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
 ##### [Skip Update for Stock keeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
 ##### [Nonstock Item Numbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
+##### [Use modern search in CZ applications](LocalFunctionality/Czech/use-modern-search-cz.md)
+##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1661,9 +1757,8 @@ ms.service: dynamics-365-business-central
 ##### [Apply and unapply general ledger entries](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Required descriptions in G/L entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 #### Purchasing
-##### [Check purchase amounts](LocalFunctionality/Netherlands/check-purchase-amounts.md)
+##### [Check amounts on purchase invoices and credit memos](check-purchase-amounts.md)
 ##### [Edit document amounts in purchase invoices and credit memos](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
-##### [Set up validation of purchase amounts](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 #### General
 ##### [CMR notes](LocalFunctionality/Netherlands/cmr-notes.md)
 ##### [Dutch postal codes](LocalFunctionality/Netherlands/dutch-post-codes.md)
@@ -1685,6 +1780,8 @@ ms.service: dynamics-365-business-central
 ##### [Adjust settlement exchange rates for VAT entries](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Calculate goods and services tax on prepayments](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Print goods and services tax settlement reports](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
+#### Electronic documents
+##### [E-Invoicing in Peppol PINT A-NZ Format](LocalFunctionality/NewZealand/how-to-nz-einvoice.md)
 #### Banking & payments
 ##### [Compare bank cash flow](LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow.md)
 ##### [Create check installments](LocalFunctionality/NewZealand/how-to-create-check-installments.md)
@@ -1856,10 +1953,12 @@ ms.service: dynamics-365-business-central
 ##### [Set up payment days and non-payment periods](LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md)
 ##### [Cash payments](LocalFunctionality/Spain/payments-in-cash.md)
 #### Electronic invoices
+##### [Electronic invoicing in Spain](LocalFunctionality/Spain/spain-einvoicing.md)
 ##### [Cartera module](LocalFunctionality/Spain/cartera-module.md)
 ##### [Receivables cartera module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments cartera module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Invoice and credit memo types in sales and purchase documents](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [VERI*FACTU compliance](LocalFunctionality/Spain/verifactu-setup.md)
 #### Core finance
 ##### [Set up and close income statement balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and validate chart of accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1957,8 +2056,8 @@ ms.service: dynamics-365-business-central
 ###### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ###### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 ##### IRS1099
-###### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
-###### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+###### [Introduction to the IRS 1099 forms and functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+###### [Set up IRS 1099 forms](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 ###### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
 ###### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ###### Deprecated 1099 feature
@@ -2009,11 +2108,11 @@ ms.service: dynamics-365-business-central
 ##### Overview
 ###### [General Setup](SRB/setup/general.md)
 ###### [Assign permissions](SRB/setup/permissions.md)
-###### [Set up contract types](SRB/setup/contract-types.md)
-###### [Import contracts and contract lines](SRB/setup/import.md)
+###### [Set up subscription contract types](SRB/setup/contract-types.md)
+###### [Import subscription contracts and contract lines](SRB/setup/import.md)
 ###### [Use the job queue](SRB/setup/job-queue.md)
-###### [Use service commitments and items](SRB/masterdata/items.md)
-###### [Manage service commitments](SRB/masterdata/service-commitments.md)
+###### [Use subscription lines and items](SRB/masterdata/items.md)
+###### [Manage subscription lines](SRB/masterdata/service-commitments.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)
@@ -2047,6 +2146,7 @@ ms.service: dynamics-365-business-central
 #### [Record special purchase prices and discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 #### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
+#### [Set up validation of purchase amounts](how-to-set-up-validation-of-purchase-amounts.md)
 ### Set up inventory
 #### [Set up inventory](inventory-setup-inventory.md)
 #### [Set up general inventory information](inventory-how-setup-general.md)
@@ -2117,6 +2217,7 @@ ms.service: dynamics-365-business-central
 #### [Set up service contracts](service-how-setup-service-contracts.md)
 ### Set up best practices for complex application areas 
 #### [Setup best practices](set-up-complex-application-areas-using-best-practices.md)
+### [Get Business Central on your desktop](install-desktop-app.md)
 #### Setup best practices: supply planning
 ##### [Setup supply planning](setup-best-practices-supply-planning.md)
 ##### [Setup best practices: Planning parameters](setup-best-practices-planning-parameters.md)
@@ -2125,6 +2226,9 @@ ms.service: dynamics-365-business-central
 #### [Setup best practices: Costing methods](setup-best-practices-costing-method.md)
 ### [Get Business Central on your mobile device](install-mobile-app.md)
 ### [Get Business Central on your desktop](install-desktop-app.md)
+
+### [Audit changes to your setup](across-setup-auditing.md)
+
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
 #### Set up your business inbox in Microsoft Outlook
@@ -2147,7 +2251,7 @@ ms.service: dynamics-365-business-central
 #### [Create workflows from workflow templates](across-how-to-create-workflows-from-workflow-templates.md)
 #### [Export and import approval workflows](across-how-to-export-and-import-workflows.md)
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-<!--Connectors-->
+<!--Connectors start-->
 ### Set up connections
 #### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
@@ -2192,6 +2296,7 @@ ms.service: dynamics-365-business-central
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Bulk invoices for Microsoft bookings](finance-bookings.md)
+<!-- Connectors end -->
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
 #### [Universal print Printers](admin-printer-setup-universal-print.md)
@@ -2223,7 +2328,7 @@ ms.service: dynamics-365-business-central
 #### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 #### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
 #### Design details: Posting date on adjustment value entry
-#### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
 #### [Design details: Expected cost posting](design-details-expected-cost-posting.md)  
@@ -2286,10 +2391,12 @@ ms.service: dynamics-365-business-central
 #### [Power BI overview](admin-powerbi.md)
 #### [Work with Power BI reports](across-working-with-powerbi.md)
 #### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
-#### Power BI apps for Business Central
-##### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-##### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
-##### [Power BI apps FAQ](across-powerbi-apps-faq.md)
+### Power BI apps for Business Central
+#### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Use back links to explore the data behind visuals](powerbi-back-links.md)
+#### [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md)
+#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Using Financial Reporting](bi-how-work-account-schedule.md)
 
 ## Ad-hoc data analysis
@@ -2387,8 +2494,9 @@ ms.service: dynamics-365-business-central
 ### [Application compliance](compliance/compliance-application-compliance.md)
 ### [Service compliance](compliance/compliance-service-compliance.md)
 ### [Certifications](compliance/compliance-certifications.md)
-## [Service overview (in English only)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-## [Trial features that connect to other Microsoft services](privacy-connected-services.md)
+### [Service overview (in English only)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
+### [Trial features that connect to other Microsoft services](privacy-connected-services.md)
+### [Self-responsible declaration of the computer billing system](localfunctionality/spain/compliance-self-responsible-declaration-billing-spain.md)
 
 # Development and administration
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
@@ -2418,6 +2526,7 @@ ms.service: dynamics-365-business-central
 #### [Define data retention policies](admin-data-retention-policies.md)
 #### [Manage data encryption](admin-manage-data-encryption.md)
 #### [View database locks](admin-view-database-locks.md)
+### [Specify the languages that are available in your Business Central environment](admin-allowed-languages.md)
 ### [Set up printers](ui-specify-printer-selection-reports.md)
 ### [Privacy notices status](privacy-notices-status.md)
 ### [Create new companies](about-new-company.md)
@@ -2430,7 +2539,7 @@ ms.service: dynamics-365-business-central
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
-## [Copilot and AI capabilities](enable-ai.md)
+## [Copilot and agent capabilities](enable-ai.md)
 ## Customize Business Central
 ### [Customization overview](ui-customizing-overview.md)
 ### [Customize pages for profiles](ui-personalization-manage.md)
@@ -2464,8 +2573,10 @@ ms.service: dynamics-365-business-central
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central extensions by other providers](ui-extensions-other.md)
 ## Integrate with other Dynamics 365 applications
-### [Integrate with Dynamics 365 Sales via data sync](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
+### [Integrate with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### Integrate with Dynamics Field Service
+#### [Set up an integration with Dynamics 365 Field Service](admin-integrate-field-service.md)
+#### [Use an integration with Dynamics 365 Field Service](admin-use-field-service-integration.md)
 ## Integrate with Microsoft Dataverse
 ### [Integrate with Dataverse via data sync](admin-common-data-service.md)
 ### [Data ownership models for synchronization](admin-cds-company-concept.md)
@@ -2496,16 +2607,20 @@ ms.service: dynamics-365-business-central
 ## [Security and protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
-# Copilot and AI capabilities
+# Copilot and agent capabilities
 ## [About Copilot in Business Central](copilot-overview.md)
-## Manage Copilot and AI capabilities
-### [Configure Copilot and AI capabilities](enable-ai.md)
+## Manage Copilot and agent capabilities
+### [Configure Copilot and agent capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Searching the web with Copilot (preview)](ai-search-web-copilot.md)
 ### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
-### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
+### [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)
+## Autofill (preview)
+### [Autofill fields with Copilot](autofill-fields-with-copilot.md)
+### [Responsible AI FAQ for autofill](faqs-autofill.md)
 ## Bank account reconciliation assist
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
@@ -2513,7 +2628,7 @@ ms.service: dynamics-365-business-central
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
-## Map e-documents (preview)
+## Map E-Documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 ### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 ## Marketing text suggestions
@@ -2523,27 +2638,37 @@ ms.service: dynamics-365-business-central
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [Responsible AI FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
-## Sales order agent (preview)
-### [Overview](sales-order-agent.md?toc=/dynamics365/business-central/toc.json)
+## Sales Order Agent (preview)
+### [Sales Order Agent overview](sales-order-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Sales Order Agent](sales-order-agent-setup.md?toc=/dynamics365/business-central/toc.json)
 ### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
-### [Responsible AI FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
+### [Responsible AI FAQ for Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
+## Payables Agent (preview)
+### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
+### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
+<!--### [Use Payables Agent](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)-->
+### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
 ### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)
 ### [Responsible AI FAQ for suggest number series with Copilot](faq-suggest-number-series-with-copilot.md)
+## Summarize (preview)
+### [Summarize records with Copilot](summarize-with-copilot.md)
+### [Responsible AI FAQ for summarize](faqs-summarize.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
+## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
-## [FAQ for mapping e-documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
+## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
-## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
+## [FAQ for Payables Agent](faqs-payables-agent.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
 ## [FAQ for Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
+## [FAQ for summarize (preview)](faqs-summarize.md)

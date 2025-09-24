@@ -25,7 +25,7 @@ When you convert a contact to a customer, vendor, or employee, for example, the 
 
 ## To create a contact manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, then choose the related link.
 2. Choose the **New** action.
 3. In the **No.** field, enter a number for the contact.
 
@@ -39,7 +39,7 @@ If you have existing customers, vendors, and bank accounts you want to create co
 > [!NOTE]  
 > Before you can create contacts based on existing data, you must specify a business relation code for customers, vendors, or bank accounts on the **Interactions** FastTab on the **Marketing Setup** page. Learn more at [Set up Contacts](marketing-setup-contacts.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter one of the following that matches the entity you want to create contacts from, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter one of the following that matches the entity you want to create contacts from, then choose the related link.
    * **Create Contacts from Customers**
    * **Create Contacts from Vendors**
    * **Create Contacts from Bank Accounts**
@@ -53,12 +53,14 @@ The next contact numbers in the number series are assigned to the new contacts. 
 
 ## To create a customer, vendor, employee, or bank account from a contact
 
-If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
+If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Before you can create customers, vendors, employees, or bank accounts from contacts, you must specify a business relation code on the **Marketing Setup** page on the **Interactions** FastTab. Learn more at [Setting up Contacts](marketing-setup-contacts.md).
+>
+>Also, you must also have at least one template set up for each of them. For example, to create a customer from a contact, you must have a customer template.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, then choose the related link.
 2. Select the contact you want to create as a customer, vendor, employee, or bank account.
 3. Choose the **Create as** action, then choose either **Customer**, **Vendor**, **Bank**, or **Employee**.
 4. Choose **OK**.
@@ -109,10 +111,10 @@ There are three ways to enable data synchronization between contacts and custome
 
 ## To view which customer, vendor, employee, or bank account a contact is related to
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, and then choose the related link.
 2. Select the line for a contact, choose the **Related Information** action, and then choose the **Customer/Vendor/Bank Account/Employee** action.
 
-## See also
+## Related information
 
 [Managing Contacts](marketing-contacts.md)  
 [Setting Up Contacts](marketing-setup-contacts.md)  

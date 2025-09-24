@@ -1,0 +1,1 @@
+For example, you can find out what changed, who changed it, and when the change was made.

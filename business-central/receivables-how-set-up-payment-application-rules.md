@@ -2,7 +2,7 @@
 title: Rules for automatic application of payments
 description: Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1294, 1287
@@ -30,7 +30,7 @@ In addition to the matching criteria, the following applies concerning the sign 
 - For positive amounts, a match is made first against open entries representing vendor invoices and then against customer credit memos.
 
 ## To set up a payment application rule
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Application Rules**, and then choose the related link.
 2. Define a new or edited payment application rule by filling the fields on a line as described in the following table.
 
 |Field|Description|
@@ -74,7 +74,7 @@ The following table describes the standard payment application rules in [!INCLUD
 | Low              | 4        | No                    | No                             | One Match                      |
 | Low              | 5        | No                    | No                             | Multiple Matches               |
 
-## See also
+## Related information
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

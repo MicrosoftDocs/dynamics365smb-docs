@@ -2,10 +2,10 @@
 title: Understanding the Chart of Accounts
 description: Describes the chart of accounts, how to set it up, and how to use it.
 author: kennienp
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: analysis, history, track
-ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 08/06/2024
+ms.search.form: Report_1, 18, 20, 37, 65, 99_Primary, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 08/20/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -15,19 +15,19 @@ ms.service: dynamics-365-business-central
 
 A chart of accounts (COA) serves as a comprehensive directory of financial accounts and their corresponding reference numbers. A COA typically has of two main categories of accounts:
 
-- Balance sheet accounts: These accounts track your company’s assets, debts, and net worth.
-- Income statement accounts: These accounts record income from various sources and also track expenses.
+* Balance sheet accounts: These accounts track your company’s assets, debts, and net worth.
+* Income statement accounts: These accounts record income from various sources and also track expenses.
 
 Balance sheet accounts are further categorized into three groups:
 
-1. Asset accounts: These accounts track all the valuable resources owned by your company.
-1. Liability accounts: They record your company’s debts.
-1. Equity accounts: Represent the residual value in the business after subtracting liabilities from assets.
+* Asset accounts: These accounts track all the valuable resources owned by your company.
+* Liability accounts: They record your company’s debts.
+* Equity accounts: Represent the residual value in the business after subtracting liabilities from assets.
 
 Income accounts are divided into two groups:
 
-1. Revenue accounts: These accounts capture your company’s income from various sources.
-1. Expense accounts: These accounts capture all your company’s expenses.
+* Revenue accounts: These accounts capture your company’s income from various sources.
+* Expense accounts: These accounts capture all your company’s expenses.
 
 Use the COA to record transactions in your organization’s general ledger. Each account typically has an identifier (account number) and a descriptive caption or header, and they're systematically coded based on their account type.
 
@@ -88,9 +88,32 @@ For more information, see [Organize general ledger (G/L) data using account cate
 
 The **Chart of Accounts** page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have many accounts, you might have to scroll to view different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is the same as the **Chart of Accounts** page (though with fewer columns), so it's easy to understand. You can expand or collapse the hierarchical levels. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the **Chart of Accounts** page.
 
+## Find out where a general ledger account is used in setup tables
+
+When you set up [!INCLUDE [prod_short](includes/prod_short.md)], you fill in setup tables (for example, the posting group tables) to specify which G/L account is used as posting accounts for which types of transactions.
+
+The **Chart of Accounts** and **G/L Account Card** pages offer a **Where-Used** action that opens an overview of which setup tables use the selected G/L account.
+
+Each line refers to one line in a setup table. The page can list several lines from the same setup table if, for example, the account is used for more than one posting group code in a posting setup table.
+
+You can review details for a line by choosing the **Show Details** action.
+
 ## Access to create and edit the chart of accounts
 
 In a small organization, such as the CRONUS demonstration company, most users can edit the chart of accounts, except those users with a TEAM MEMBER license. However, larger organizations typically use roles and permissions to limit access to editing the chart of accounts. If you're an administrator, or have the Business Manager or Accountant role, you can control user permissions to give the right people access to the relevant tables. To learn more, go to [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
+
+## Audit changes to G/L accounts setup
+
+You can use the Change Log feature to capture changes users make to your G/L accounts. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)] 
+
+The following table lists the table for G/L accounts and its ID.
+
+| Table | Table ID |
+| ----- | -------- |
+| G/L Account | 15 |
+
+[!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
+
 
 
 <!-- ## Standard chart of accounts in different regions
@@ -113,7 +136,7 @@ Here are some best practices that you might consider when you develop and mainta
 * Use dimensions to simplify your chart of accounts. Don't have specific G/L accounts for each product or department.
 * Add new G/L accounts as they come in, but remove accounts from your chart of accounts only during period-end of your finance period.
 
-## See also
+## Related information
 
 [Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)    
 [Organize general ledger (G/L) data using account categories](bi-account-categories.md)   

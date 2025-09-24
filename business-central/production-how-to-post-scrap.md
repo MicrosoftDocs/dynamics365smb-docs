@@ -2,7 +2,7 @@
 title: Post Scrap Manually
 description: If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000823
 ms.date: 03/08/2023
@@ -20,7 +20,7 @@ If scrap is produced during processing, it can be entered in the output journal.
 
 ## To post scrap manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. In the **Scrapped Quantity** field, enter the scrap quantity.  
 4. In the **Scrap Code** field, enter the scrap code.  
@@ -28,7 +28,7 @@ If scrap is produced during processing, it can be entered in the output journal.
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## See Also
+## Related information
 
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  

@@ -4,7 +4,7 @@ description: As an administrator, you can set up Cues that appear on the users' 
 author: jswymer
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9701, 9702
 ms.date: 04/01/2021
@@ -24,7 +24,7 @@ From the **Cue Setup** page, you set up indicators for all the Cues that are ava
 To set up the indicator, you specify up to two threshold values that define three ranges of data values (low, middle, and high) to which you can apply a different color (or style).  
 
 ### To set up colored indicators on Cues  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cue Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cue Setup**, and then choose the related link.  
 
      The **Cue Setup** page appears. The page lists the indicators that are currently setup up on Cues. Indicators that apply to all users in the company have a blank **User Name** field. Indicators that apply to a specific user include the user's name in the **User Name** field.  
 
@@ -60,7 +60,7 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Ambiguous**|Yellow|  
     |**Subordinate**|Gray|  
 
-## See Also
+## Related information
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

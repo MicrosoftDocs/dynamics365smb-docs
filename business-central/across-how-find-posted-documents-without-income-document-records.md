@@ -2,7 +2,7 @@
 title: Find Posted Documents without Incoming Documents
 description: You can search for general ledger entries for posted purchase and sales documents that don't have incoming electronic documents, such as imported invoices.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
@@ -16,7 +16,7 @@ From the **Chart of Accounts** and **General Ledger Entries** pages, you can use
 
 ## To find posted documents without incoming document records
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.
 2. Select a line for a G/L account for whose general ledger entries you want to see posted purchase and sales documents without incoming document records, and then choose the **Posted Documents without Incoming Document** action.
 3. Alternatively, choose the **Ledger Entries** action.
 4. On the **General Ledger Entries** page, choose the **Posted Documents without Incoming Documents** action.
@@ -31,7 +31,7 @@ The **Posted Documents without Incoming Document** page opens showing posted pur
 
 If a relevant incoming document record doesn't exist on the **Incoming Documents** page, then you can create it. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
-## See also
+## Related information
 
 [Create Incoming Document Records](across-how-create-income-document-records.md)
 [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)

@@ -87,8 +87,9 @@ Charles, the service manager, creates service orders for regular maintenance ord
 1. Run the service orders that fulfill the obligations of active service contracts.
 
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Contract Service Orders**, and then choose the related link.
-   2. Enter the beginning and ending dates of the month in the **Starting Date** and **Ending Date** fields on the **Options** FastTab.
-   3. Choose **OK** to confirm creation of service orders. You receive a confirmation message with the number of created service orders.
+   2. Enter *01* in the **Starting Date** field. It will be transformed into begining of the month based on work date. 
+   3. Enter the ending date of the month in the **Ending Date** field.
+   4. Choose **OK** to confirm creation of service orders. You receive a confirmation message with the number of created service orders.
 
 2. Review the orders awaiting assignment on the **Dispatch Board** page.
 
@@ -103,7 +104,7 @@ Charles, the service manager, creates service orders for regular maintenance ord
 
     |Service Item No.|Resource No.|Allocation Date|Allocated Hours|
     |----------------|------------|---------------|---------------|  
-    |SV000001|RESOURCE1|t|1|
+    |SV000001|RESOURCE1|Work date.</br> A fast way to enter the work date is to enter some or all of the word *work* in the language in which you use [!INCLUDE [prod_short](../../includes/prod_short.md)]. For example, in English, you can enter *w*. |1|
 
     3. The status of the allocation changes to **Active**.
     4. Refresh the Dispatch Board page to show that the **No of Allocations** changed from **0** to **1** for the service order.
@@ -140,7 +141,7 @@ The service technician registers their time directly against the service order, 
 
 - Service ledger entries are created and associated with the service item, service contract, and resource.
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../../contoso-coffee/contoso-coffee-intro.md)  
-[About Production Orders](../../production-about-production-orders.md)
+[Service](../../service-service.md)

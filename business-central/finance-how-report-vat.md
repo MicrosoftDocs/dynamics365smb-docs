@@ -2,10 +2,10 @@
 title: Submit VAT reports to tax authorities
 description: Learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
+ms.search.form: 315_Primary, 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 08/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
@@ -81,7 +81,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[p
 
 Optionally, if your business isn't located in the UK, use the **VAT Returns Periods** page to set up scheduled VAT returns. If your business is located in the UK, see [Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, fill in the fields to set up the first period. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
 3. Repeat step 2 for any additional periods that you want to add.  
 
@@ -148,7 +148,7 @@ The following table describes the codeunits that you must create for your report
 > [!Note]
 > When you create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2021** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.  
 
-## See also
+## Related information
 
 [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)    
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)    

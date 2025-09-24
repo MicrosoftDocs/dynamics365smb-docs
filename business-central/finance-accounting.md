@@ -2,14 +2,16 @@
 title: Accountant experiences in Business Central
 description: Learn about the Accountant Role Center and the Company Hub that support internal and external accountants in the client company.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
-ms.date: 01/03/2025
+ms.date: 06/12/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 ---
 # Accountant experiences in Business Central
 
@@ -47,7 +49,7 @@ It's easy to invite your external accountant. In [!INCLUDE [prod_short](includes
 
 ### Add your accountant to your Microsoft 365 tenant
 
-If your admin or reselling partner prefers not to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by Business Central and assign them the *External Accountant* license. You can add a user using the Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+If your admin or reselling partner prefers not to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by [!INCLUDE [prod_short](includes/prod_short.md)] and assign them the *External Accountant* license. You can add a user using the Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### Add your accountant as a guest user
 
@@ -86,7 +88,7 @@ The accountant receives an email notifying them that they have access to your Mi
 
 1. Sign in to [Business Central](https://businesscentral.dynamics.com).
 1. Open company that you want to give the accountant access to. Learn more in [Switching to Another Company or Environment](ui-organization-switch.md).
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then select the related link.  
 1. Select the **Get New Users from Microsoft 365** action.
 
 This action imports the user account that you created in the Azure portal to the company. Learn more in [To add a user in Business Central](ui-how-users-permissions.md#adduser).  

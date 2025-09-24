@@ -66,7 +66,7 @@ Try the report here: [Serv. Contract - Salesperson](https://businesscentral.dyna
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Service management report overview](../service-reports.md)  
 [Service management](../service-service.md)  

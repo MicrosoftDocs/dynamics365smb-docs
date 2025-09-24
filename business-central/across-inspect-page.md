@@ -1,7 +1,7 @@
 ---
 title: "Inspecting pages in Business Central"
 description: Use the page inspection feature to zoom into details about the page design and data source. Page inspector is ideal for troubleshooting issues with your data.
-ms.topic: conceptual
+ms.topic: concept-article
 
 author: jswymer
 ms.author: jswymer
@@ -27,7 +27,7 @@ The **Page inspection** pane opens on the side. When the pane first opens, it sh
 
 Use the keyboard or pointing device to move focus to different elements on the page. When you select a FactBox or a part on the main page, the bounding area is highlighted by a border, and the **Page Inspection** pane shows information about the selected element. For example, the previous figure shows information about the list part in the **Sales Order** page. As you navigate to other pages in the application, the **Page Inspection** pane will automatically update with page information as you move along.
 
-For more information about what is shown in page inspection, see [Inspecting and Troubleshooting Pages](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) in the Business Central Developer and IT Pro help.
+For more information about what is shown in page inspection, see [Inspecting and Troubleshooting Pages](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) in the [!INCLUDE[dev-itpro-docs](includes/dev-itpro-docs.md)].
 
 If you don't see the details that you expect to see in the **Page Inspection** pane, you probably don't have the required permissions, as described in the next section.
 
@@ -37,7 +37,7 @@ As an administrator, you can control access to the full details that are shown i
 
 Users who aren't granted permissions on **System object 5330** can still access the **Page Inspection** pane, but they will only see the **Page** and **Table** fields, which display basic details that they can pass on to their support team.
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

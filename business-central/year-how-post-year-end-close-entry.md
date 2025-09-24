@@ -2,7 +2,7 @@
 title: Post the Year-End Closing entry
 description: Describes how to open the journal you specified in the Close Income Statement batch job, and then review and post the year-end closing entry. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100
 ms.date: 08/05/2024
@@ -20,7 +20,7 @@ After you use the **Close Income Statement** batch job to generate the year-end 
 
 ## To post the year end closing entry
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Journals**, and then choose the related link.
 2. On the **General Journals** page, in the **Batch Name** field, select the batch that contains the closing entries.
 3. Review the entries.
 4. To post the journal, choose the **Post** action.
@@ -28,7 +28,7 @@ After you use the **Close Income Statement** batch job to generate the year-end 
 > [!NOTE]  
 > If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.
 
-## See also
+## Related information
 
 [Close Accounting Periods](year-close-account-periods.md)    
 [Closing Books](year-close-books.md)    

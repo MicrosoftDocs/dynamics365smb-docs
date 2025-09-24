@@ -2,7 +2,7 @@
 title: Send Reminders of Outstanding Balances
 description: Learn how to issue a reminder to a customer about an overdue payment.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 436, 437, 442, 431, 432, 434
 ms.date: 07/05/2024
@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## See Also
+## Related information
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Multiple Interest Rates for Delayed Payment](finance-how-to-set-up-multiple-interest-rates.md)  

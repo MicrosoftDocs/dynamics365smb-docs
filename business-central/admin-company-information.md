@@ -2,7 +2,7 @@
 title: Company information overview
 description: The Company Information page specifies basic information for a business entity, such as name, addresses, and shipping information. 
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 1
 ms.date: 04/24/2024
 ms.author: jswymer
@@ -67,7 +67,7 @@ The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)]
 
 For more information, go to [Change Which Features are Displayed](ui-experiences.md).  
 
-## See also
+## Related information
 
 [Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Company Information Quick Start](quick-start-company-information.md)  

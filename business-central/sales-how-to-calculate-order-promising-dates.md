@@ -2,7 +2,7 @@
 title: Calculate order promising dates
 description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 03/05/2024
@@ -76,7 +76,7 @@ In addition to the external order promising that you can perform on the **Order 
 
 ## To set up order promising
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Promising Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Order Promising Setup**, and then choose the related link.  
 2. Enter a number and time unit code in the **Offset(Time)** field. Select one of the following codes.  
 
     |Code|Description|  
@@ -98,12 +98,12 @@ If you want to include warehouse handling time in the order promising calculatio
 
 #### To enter default inbound and outbound warehouse handling times for sales and purchase documents
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Inventory Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Inbound Whse. Handling Time** and **Outbound Whse. Handling Time** fields, enter the number of days that you want to include in the order promising calculations.  
 
 #### To enter inbound and outbound warehouse handling times on locations
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Location**, and then choose the related link.  
 2.  Open the relevant location card.  
 3.  On the **Warehouse** FastTab, in the **Inbound Whse. Handling Time** and **Outbound Whse. Handling Time** fields, enter the number of days that you want to be included in the order promising calculations.  
 
@@ -113,13 +113,13 @@ If you want to include warehouse handling time in the order promising calculatio
 ## To make an item critical
 
 Before an item can be included in the order promising calculation, it must be marked as critical. This setup ensures that non-critical items don't cause irrelevant order promising calculations.   
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2.  Open the relevant item card.  
 3.  On the **Planning** FastTab, select the **Critical** field.  
 
 ## To calculate an order promising date
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Order**, and then choose the related link.  
 2.  Open the relevant sales order and select the sales order lines that you want application to calculate.  
 3.  Choose the **Order Promising** action, and then choose the **Order Promising Lines** action.  
 4.  Select a line, and then select one of the following options:  
@@ -128,7 +128,7 @@ Before an item can be included in the order promising calculation, it must be ma
     - Select **Capable-to-Promise** if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.  
 5.  Choose the **Accept** button to accept the earliest shipment date available.  
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  

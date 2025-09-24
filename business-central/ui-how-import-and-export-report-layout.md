@@ -2,7 +2,7 @@
 title: Import and Export a Report and Document Layout
 description: You can import and export an existing custom report layout as a file to and from a location on your computer and network.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# (Legacy) Import and Export Custom Report Layouts
+# (Obsolete) Import and Export Custom Report Layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -22,7 +22,7 @@ You can import and export an existing custom report layout as a file to and from
 
 ### To export a report layout to a file  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.  
 
 2.  Select the row for the report that contains the custom report layout that you want to export, and then choose the **Custom Layouts** action.  
 
@@ -36,7 +36,7 @@ You can import and export an existing custom report layout as a file to and from
 
      A Word report layout file must have the .docx file type extension. An RDLC report layout file must have the .rdlc or .rdl file type extension.  
 
-2.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+2.  [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.  
 
 3.  Select the row for the report to which you want to import the report layout, and then choose the **Custom Layouts** action.  
 
@@ -46,7 +46,7 @@ You can import and export an existing custom report layout as a file to and from
 
  The original custom report layout is replaced with the imported report layout.  
 
-## See Also
+## Related information
 
 [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

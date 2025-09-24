@@ -2,7 +2,7 @@
 title: Opening Business Central Files in OneDrive
 description: Learn how you can share Business Central data through OneDrive for Business. 
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 08/03/2022
 ms.author: jswymer
@@ -95,7 +95,7 @@ You can access your OneDrive from the **My Settings** page by choosing the link 
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## See also
+## Related information
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  

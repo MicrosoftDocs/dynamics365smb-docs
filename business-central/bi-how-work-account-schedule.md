@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 11/13/2024
+ms.date: 08/26/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Prepare financial reporting with financial data and account categories
 
-The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the Cash Flow chart, and the Income Statement and Balance Sheet reports. You access these two reports, for example, with the **Financial Statements** action in the Business Manager and Accountant home pages.  
+The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the Cash Flow chart, and the built-in Income Statement and Balance Sheet reports. You access these two reports, for example, with the **Financial Statements** action in the Business Manager and Accountant home pages.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away as templates. You can also set up your own reports to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of financial reports you can create is unlimited and require no involvement of a developer.  
 
@@ -27,21 +27,25 @@ Setting up financial reports requires an understanding of the structure of your 
 
 G/L account categories simplify your financial report definitions and make them more resilient to changes in the chart of accounts structure. Learn more at [Use G/L account categories to change the layout of your financial statements](bi-row-definitions.md#use-gl-account-categories-to-change-the-layout-of-your-financial-statements).
 
-Setting up dimensions allows you to slice and dice your financial data in ways that make sense for your organization. Learn more at [Work with Dimensions](finance-dimensions.md). 
+Setting up dimensions allows you to slice and dice your financial data in ways that make sense for your organization. Learn more at [Work with Dimensions](finance-dimensions.md).
 
 If you want to view general ledger entries as percentages of budget entries, you must create G/L budgets. Learn more at [Create G/L Budgets](finance-how-create-budgets.md).
+
+## Report selection for built-in finance reports
+
+[!INCLUDE[prod_short](includes/prod_short.md)] provides built-in Balance Sheet, Income Statement, Cash Flow, and Retained Earnings reports. The **Financial Reporting** feature defines the data and layouts for these reports. You can replace the standard layouts provided in [!INCLUDE[prod_short](includes/prod_short.md)] with your own. Learn more at [Report selection for finance reports](finance-financial-reporting-report-selection.md).
 
 ## Financial reports
 
 Financial reports arrange accounts from your chart of accounts in ways that make data easier to present. You can set up various layouts to define the information you want to extract from the chart of accounts. Financial reports also provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. Another example is to calculate profit margins on dimensions such as departments or customer groups. Additionally, you can filter general ledger entries and budget entries, for example, by net change or debit amount.
 
-> [!NOTE] 
+> [!NOTE]
 > Mathematically, think of a financial report as defined by two things:
 >
 > - A vector of row definitions that define what needs to be calculated.
 > - A vector of column definitions that defines the data for the calculation.
 >
-> The financial report is then the outer product of these two vectors, where each cell value is calculated according to the formula in the row applied to the data definition from the column.
+> The financial report is then the outer product of these two vectors. The value in each cell is calculated by applying the formula in the row applied to the data definition from the column.
 
 :::image type="content" source="media/financial-report-definition.svg" alt-text="Shows how a financial report is constructed from a row definition and a column definition." lightbox="media/financial-report-definition.svg":::
 
@@ -51,11 +55,12 @@ The **Financial Reports** page shows how all financial reports follow a pattern 
 - Description
 - Row definition
 - Column definition
+- Internal description (introduced in [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)])
 
 :::image type="content" source="media/financial-reports.png" alt-text="Shows how all financial reports are constructed from a row definition and a column definition." lightbox="media/financial-reports.png":::
 
 > [!NOTE]
-> The sample finance reports in [!INCLUDE[prod_short](includes/prod_short.md)] aren't ready to use out of the box. Depending of the way you set up your G/L accounts, dimensions, G/L account categories, and budgets, you need to adjust the sample row and column definitions and the finance reports they're used in to match your setup.
+> The sample finance reports in [!INCLUDE[prod_short](includes/prod_short.md)] aren't ready to use out of the box. Depending on how you set up your G/L accounts, dimensions, G/L account categories, and budgets, you need to adjust the sample row and column definitions and the finance reports they're used in to match your setup.
 
 You can also use formulas to compare two or more financial reports and column definitions. Comparisons let can do the following things:
 
@@ -67,7 +72,7 @@ To learn more about comparisons, go to [When to use a comparison period formula 
 
 ## Learning path: Create financial reports in Microsoft Dynamics 365 Business Central
 
-Want to learn how to create budgets, and then use financial reports, dimensions, and row and column definitions to generate the financial reports that businesses typically need?
+Want to learn how to create budgets and use financial reports, dimensions, and row and column definitions to generate financial reports that businesses often need?
 
 Start on the following learning path [Create financial reports in Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central).
 
@@ -79,16 +84,43 @@ The financial reports in the standard version of [!INCLUDE[prod_short](includes/
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.  
 1. On the **Financial Reports** page, choose the **New** action to create a new financial report name. Alternatively, to reuse settings from an existing financial report, choose the report, and then choose the **Copy Report Definition** action.
-1. Fill in the report short name (you can't change the name later) and description.
+1. In the **Name** field, enter a short name for the report
+
+   > [!NOTE]
+   > You can't change the name later.
+1. In the **Display Title** field, enter a description of the report.
 1. Choose a row definition and a column definition.
 1. Optionally, choose analysis views for the row and column definitions.
 1. Choose the **View Financial Report** action to access more properties on the financial report.
-1. On the **Options** FastTab, you can edit the report description, change the row and column definitions, and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierarchy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas).
+1. On the **Options** FastTab, you can edit the report title, change the row and column definitions, write an internal description, set the formatting for negative numbers, and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierarchy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas).
 1. On the **Dimensions** FastTab, you can define dimension filters for the report.
-1. You can preview the report in the area below the **Dimensions** FastTab.
+1. If you want the report output to include an introductory and/or a closing paragraph, add them from the *Definitions* menu (these fields are available from the [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)] and later).  
+1. You can now preview the report in the area below the **Dimensions** FastTab.
 
 > [!NOTE]
 > When you open a financial report in View or Edit mode, the Filter pane is available. Don't use the Filter pane to set filters for the data in your report. Such filters can cause errors or might not actually filter the data. Instead, use the fields on the **Options** and **Dimensions** FastTabs to set up filters for the report.
+
+### Adding introductory and/or closing paragraphs
+
+[!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
+
+If you want the report output to include an introductory and/or a closing paragraph, you can use the **Edit introductory/closing paragraphs** action on the **Definitions** menu. When you export the report to PDF or Excel, these paragraphs display before and after the report body.
+
+### Choosing a format for negative numbers
+
+[!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
+
+If you want to control how negative numbers show in the report output (both on-screen and in PDF), you use the **Negative Amount Format** action on the **Options** FastTab to choose your preferred format. The format can be a minus sign or parentheses.
+
+### Show amounts in an additional currency (ACY)
+
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. If you designate a second currency as an additional reporting currency (ACY), [!INCLUDE[prod_short](includes/prod_short.md)] automatically records amounts in both LCY and ACY on each G/L entry.
+
+Financial reports are based on G/L entries. To display report data in the additional reporting currency, select the **Show Amounts in Add. Reporting Currency** checkbox on the **Options** FastTab for the relevant report.
+
+> [!NOTE]
+> The **Show Amounts in Add. Reporting Currency** checkbox is only available if you set up an additional reporting currency (ACY).
+To learn more, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ### Create or edit a row definition
 
@@ -131,76 +163,6 @@ You can use a financial report to create a statement that compares general ledge
 
 Now you can copy and paste your budget statement into a spreadsheet.  
 
-## Integrate financial reports with Excel
-
-You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.
-
-### Set up Excel integration for a financial report (create an Excel template)
-
-To set up Excel integration for a financial report, follow these steps to create an Excel template.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
-1. On the **Financial Reports** page, select the financial report to enable with Excel, and then choose the **Export to Excel** action.
-1. Choose the **Create New Document** action. This action downloads a template Excel workbook with a single worksheet named after the report name.
-1. Copy the worksheet, and rename it to **Data**.
-1. Rename the report worksheet to your liking.
-1. In the report worksheet, mark all cells that show data from the financial report (including column and row headers). On the **Home** ribbon, find the **Number** menu and choose **General** as the format.
-1. Choose the left most cell of the area with data from the financial report, and set a reference to the equivalent cell in the Data worksheet. Drag the formula to the right to extend it to all cells in the first row, and then drag the row down to cover all rows in the financial report.
-1. Hide the **Data** worksheet.
-1. Format the report worksheet to suit your needs.
-1. Save the workbook in OneDrive, or a similar place where the file is backed up and versioned.
-1. Close the workbook.
-
-> [!NOTE]
-> If you make changes to the row or column definitions of the report you created a template for, you must update the template too. Each row and column in the Excel template must be in the same position as the generated report.
-
-### Example: Use and update an Excel template to create a monthly report
-
-You can create an Excel template that contains the reports that you include in your reporting package. Each report in the workbook must have a data tab and a tab that has the formatted report. When you update your monthly package, use the **Update Copy of Existing Document** for each report. Be sure to save after each update.
-
-Follow these steps to produce your monthly financial report.
-
-1. Choose the financial report you used to create the Excel template. 
-1. Change the date filter to the next month.
-1. Choose the **Export to Excel** and **Update Copy of Existing Document** actions.
-1. Select the template you saved. Make sure that the Excel file is closed. Otherwise, an error message will state that the file is in use.
-1. The next screen shows the tabs that are available in the Excel workbook. Choose the **Data** tab, and then choose **OK**. If you choose the tab labeled **IS**, your formatting will be overwritten and you'll need to start over.
-1. The Excel workbook is created. Be sure to enable editing to show your changes.
-1. Save the workbook with a different name than the original template.
-
-### Run a financial report with an Excel template
-
-To run a financial report with an Excel template, follow these steps:
-
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
-1. On the **Financial Reports** page, select the financial report to enable with Excel, and then choose the **Export to Excel** action.
-1. Choose the **Update Copy of Existing Document** action.
-1. Upload your Excel template (close the Excel workbook before uploading it).
-1. On the **Name/Value Lookup** page, choose the Data worksheet.
-1. [!INCLUDE[prod_short](includes/prod_short.md)] runs the financial report and merges the resulting data with your Excel template.
-
-## Print and save financial reports
-
-You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as Excel workbooks, Word documents, PDF, and XML files.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. On the **Financial Reports** page, select the report to print, then choose the **Print** action.
-1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-1. In the **Printer** field, select the device to which the report is sent.
-    1. The **(Handled by the browser)** option indicates there's no designated printer for the report. In this case, the browser handles the printout and display the standard printing steps, where you can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or app for Teams.
-1. Choose the **Print** action.
-
-### Schedule a financial report or save as a PDF, Word, or Excel document
-
-You can save a financial report in file formats such as PDF, XML, Word, or Excel. [!INCLUDE[prod_short](includes/prod_short.md)] can also generate recurring financial reports.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. On the **Financial Reports** page, choose the **Print** action.
-1. Set the report accordingly, then choose the **Send to** action.
-1. Select the file format or the **Schedule** action, and choose **OK**.
-1. To generate a scheduled or recurring financial report, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>For recurring financial reports, set the **Earliest Start Date/Time** and **Expiration Date/Time** fields with the first and last date, respectively, to generate the financial report. Also, select on which days the report is generated by setting the **Next Run Date Formula** field following the format explained in the [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas) section.
-
-
 ## Best practices for working with financial report definitions
 
 Financial report definitions aren't versioned. When you change a report definition, the old version is replaced when your change saves to the database. The following list contains some best practices for working with financial report definitions:
@@ -214,7 +176,7 @@ Financial report definitions aren't versioned. When you change a report definiti
 You can import and export financial report definitions as RapidStart configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
-> When you import financial report definitions, existing records with the same names as those you are importing are replaced with the new definitions. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.
+> When you import financial report definitions, the new definitions replace existing records with the same names. The configuration package for a report definition won't overwrite any existing row or column definitions that the report definition uses.
 
 To import or export financial report definitions, follow these steps:
 
@@ -226,11 +188,25 @@ To learn more about how to import or export financial report row or column defin
 - [Import or export financial reporting row definitions](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions), or
 - [Import or export financial reporting column definitions](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## See also
+## Integrate financial reports with Excel
 
+You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.
+
+To learn more, go to [How to integrate financial reports with Excel](finance-financial-reporting-view-a-report.md#integrate-financial-reports-with-excel).
+
+## Print and save financial reports
+
+You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as PDF files. 
+
+To learn more, go to [How to print and save financial reports](./finance-financial-reporting-view-a-report.md#print-and-save-financial-reports).
+
+## Related information
+
+[Report selection for finance reports](finance-financial-reporting-report-selection.md)   
+[View a financial report](finance-financial-reporting-view-a-report.md)  
 [Row definitions in financial reporting](bi-row-definitions.md)  
 [Column definitions in financial reporting](bi-column-definitions.md)  
-[Financial Reporting Auditing](finance-financial-reporting-auditing.md)   
+[Financial Reporting Auditing](finance-financial-reporting-auditing.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Financial analytics overview](bi.md)  
 [Finance](finance.md)  

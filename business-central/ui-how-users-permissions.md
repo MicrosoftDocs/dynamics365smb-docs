@@ -2,10 +2,10 @@
 title: Create users according to licenses
 description: Describes how to add users to Business Central online or on-premises based on licenses.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 119, 774_Primary, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9816, 9818, 9874
-ms.date: 05/03/2024
+ms.date: 06/10/2025
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -15,20 +15,20 @@ ms.custom: bap-template
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
-
 This article describes how administrators create users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)]. This article also describes how to assign permissions to different users according to your product licenses.
 
-When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you grant permissions to them through permission sets. You can also organize users in user groups. User groups make it easier to manage permissions and other settings for multiple users at the same time. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+## Basics
 
-For more information about the different types of licenses and how licensing works in [!INCLUDE[prod_short](includes/prod_short.md)], [download the Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+- When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you grant permissions to them through permission sets. 
+- You can also organize users in security groups. Security groups make it easier to manage permissions and other settings for multiple users at the same time.
+  [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+- There are several license types. Learn about the different types of licenses and how licensing works in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-> [!NOTE]
-> The process of managing users and licenses varies depending on whether [!INCLUDE[prod_short](includes/prod_short.md)] is deployed online or on-premises. For [!INCLUDE [prod_short](includes/prod_short.md)] online, you must add users from Microsoft 365. In on-premises deployments, you can create, edit, and delete users directly.  
+- The process of managing users and licenses varies depending on whether [!INCLUDE[prod_short](includes/prod_short.md)] is deployed online or on-premises. For [!INCLUDE [prod_short](includes/prod_short.md)] online, you must add users from Microsoft 365. In on-premises deployments, you can create, edit, and delete users directly.  
 
 ## Manage users and licenses in online tenants
 
-User accounts in [!INCLUDE[prod_short](includes/prod_short.md)] must be first created in the Microsoft 365 admin center. These user accounts aren't exclusive to [!INCLUDE [prod_short](includes/prod_short.md)]. If you subscribe to other plans, they can be used to sign in to other applications, such as Power BI. For information about creating users in the Microsoft 365 admin center, go to [Add users in Microsoft admin center](/microsoft-365/admin/add-users/add-users).
+User accounts in [!INCLUDE[prod_short](includes/prod_short.md)] online must be first created in the Microsoft 365 admin center. These user accounts aren't exclusive to [!INCLUDE [prod_short](includes/prod_short.md)]. If you subscribe to other plans, they can be used to sign in to other applications, such as Power BI. For information about creating users in the Microsoft 365 admin center, go to [Add users in Microsoft admin center](/microsoft-365/admin/add-users/add-users).
 
 Your subscription to [!INCLUDE[prod_short](includes/prod_short.md)] online defines how many [!INCLUDE[prod_short](includes/prod_short.md)] user licenses you're allowed. Users are added to your tenant in the Microsoft Partner Center, typically by your Microsoft partner. For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
@@ -57,9 +57,9 @@ Both approaches have their own advantages, and you can use them simultaneously. 
 >
 > However, users who experience this problem aren't actually blocked. They can either use the **Go back home** action, or simply sign in again to resolve the issue.
 
-[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+### Delegated admin users
 
-For more information, see [Delegated administrator access to Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ### <a name="licensespermissions"></a>Configure permissions based on licenses
 
@@ -80,7 +80,7 @@ Other permission sets are added automatically based on the user groups assigned 
 If this default configuration isn't the right setup for a particular environment, the admin can change that configuration. However, customized permissions affect only new users who are assigned that license. Permissions for existing users who are assigned the license aren't affected.  
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.  
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **License Configuration**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **License Configuration**, and then choose the related link.  
 
     <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. In the **License Configuration** page, choose the license that you want to customize, and then choose the **Configure** action.  
@@ -99,7 +99,7 @@ After you add users or change user information in the Microsoft 365 Admin Center
 > If you need to update user information and you have a lot of users, you can use the filter pane to narrow down the list. You can filter on basic information such as the user name, or set more technical filters, such as the user's security ID.
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.  
 3. Choose **Update Users from Microsoft 365**.
 
 > [!IMPORTANT]  
@@ -111,7 +111,7 @@ After you add users or change user information in the Microsoft 365 Admin Center
 The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you update a user with a license change, [!INCLUDE [prod_short](includes/prod_short.md)] assigns users to the appropriate user group and updates their permission sets. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> With 2024 release wave 1, a Premium license user can sign in to a company where the **User Experience** field is set to **Essentials** on the **Company Information** page. However, the Premium user can't use any of the features that the Premium license provides. This doesn't work in the opposite direction. Users who have an Essentials license can't sign in to a company where the **User Experience** is set to **Premium** on the **Company Information** page. For more information about licensing, go to [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
+> With 2024 release wave 1, a Premium license user can sign in to a company where the **User Experience** field is set to **Essentials** on the **Company Information** page. However, the Premium user can't use any of the features that the Premium license provides. This doesn't work in the opposite direction. Users who have an Essentials license can't sign in to a company where the **User Experience** is set to **Premium** on the **Company Information** page. For more information about licensing, go to [Business Central](https://www.microsoft.com/dynamics-365/products/business-central/) website.
 
 If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
@@ -124,7 +124,7 @@ For more information about synchronizing user information with Microsoft 365, go
 
 You can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)] online. All references to the user are kept. However, the user can't sign in and active sessions for the user are stopped.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 2. Open the **User Card** page for the relevant user, and then, in the **Status** field, select **Disabled**.
 3. To give the user access again, set the **Status** field to **Enabled**.
 
@@ -161,9 +161,12 @@ For on-premises deployments, the number of user licenses is specified in the lic
 
 For on-premises deployments, the administrator creates, edits, and deletes users directly from the **Users** page.
 
+> [!NOTE]
+> In [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, delegated admin access isn't available like it is in [!INCLUDE[prod_short](includes/prod_short.md)] online. Microsoft partners need standard user licenses to use [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more about licenses in the [Business Central on-premises licensing guide](https://go.microsoft.com/fwlink/?linkid=2009643).
+
 ### To edit or delete a user in an on-premises deployment
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 2. Select the user that you want to edit, and then choose the **Edit** action.
 3. On the **User Card** page, change the information as necessary.  
 4. To delete a user, select the user that you want to delete, and then choose the **Delete** action.
@@ -210,7 +213,7 @@ To analyze users by license type, follow these steps:
 1. Choose the **User Name**, **Full Name**, and **Authorization email** fields.
 1. Rename your analysis tab to **Users by license type**, or something that describes this analysis.
 
-## See also
+## Related information
 
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

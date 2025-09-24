@@ -4,11 +4,11 @@ description: This article explains how you can consolidate the general ledger en
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/13/2024
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.form: 240_Primary, Report_16, Report_17, Report_18, Report_4410, 1826, 1827
 ms.service: dynamics-365-business-central
 ---
 
@@ -43,7 +43,7 @@ Before you consolidate, it's a good idea to test your data before you transfer i
 ### Test the data before you consolidate
 
 1. Open the consolidated company.  
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Business Units**, and then choose the related link.  
 3. Test the file and database, as follows:  
 
     * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print**.  
@@ -96,6 +96,12 @@ A line is created for each account, following the structure of the chart of acco
 * The posting text copied from the general journal.
 * The consolidated company's total after the eliminations, if they're posted.
 
+## Consolidation finance report overview
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
+
 ## Export and import consolidated data between databases
 
 If data for a business unit is in another database, you can do a manual file-based transfer or automate the process by using an API. To learn more about the API, go to [Use our API to automatically share data across environments](#use-our-api-to-automatically-share-data-across-environments).
@@ -120,7 +126,7 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 
 [!INCLUDE [prod_short](includes/prod_short.md)] provides an API that let's you automate the process of sharing financial data from business units to the consolidated company. The API is free to use and easy to set up. It even let's you share data across [!INCLUDE [prod_short](includes/prod_short.md)] environments. For example, you might need to share across environments when business units are not in the same Azure geographies. To learn more about using the API to automate the consolidation process, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#busunit).
 
-## See Also
+## Related information
 
 [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  

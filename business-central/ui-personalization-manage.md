@@ -2,7 +2,7 @@
 title: Customizing Pages for Roles
 description: Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 9171
 ms.date: 06/13/2024
@@ -30,7 +30,7 @@ Page customization starts from the **Profiles (Roles)** page, the administrator'
 
 ## Customize pages for a profile
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
 3. Choose the **Customize pages** action.
 
@@ -129,7 +129,7 @@ Customization allows you to lock (allow editing) or unlock editing (prevent edit
 - You can't customize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you switch to customization mode while the page is in analysis mode, then analyze mode is automatically switched off. 
 - Some pages have multiple page fields that map to the same source table. The **Add field to page** pane shows all of these page fields independently. You can show, hide, or move these fields independently without affecting the others.
 - If a part or group is hidden, you can still identify hidden fields inside the part or group, but you can't add, move or show fields in the part or group until they're made visible. 
-## See also
+## Related information
 
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

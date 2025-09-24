@@ -4,7 +4,7 @@ description: Learn about the types of items you can manage in inventory, and how
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords:
 ms.search.form: 9297, 5845, 30, 
 ms.date: 08/12/2024
@@ -48,7 +48,7 @@ Customer items that you service, such as a printer, are called service items. Se
 
 In addition to the item type *Item*, sales and purchase documents also allow you to use the item type *Resource*. Like items, resources support dimensions, price lists, and units of measure. <!--With introduction of types *Service* and *Non-Inventory* we do not have any intention to add any extra capabilities for type Resource in purchase and sales processes. We recommend using items of applicable type instead. Resources will continue get new functionality to track the time and effort that is involved with performing and providing services and will stay important part of project and service management. Because many partner solutions use resources, we do not plan to deprecate them in the sales or purchase documents.-->
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Inventory](inventory-setup-inventory.md)  

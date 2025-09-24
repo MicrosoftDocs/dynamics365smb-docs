@@ -4,7 +4,7 @@ description: Use the Suggest Vendor Payments batch job to create payment lines f
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256,
 ms.date: 07/17/2024
@@ -33,7 +33,7 @@ To benefit fully from payment suggestions, you must prioritize your vendors. To 
 
 ## Use the Suggest Vendor Payments action
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then select the related link.  
 2. Open the journal, and then select the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Select the **OK** button.  
@@ -52,7 +52,7 @@ You can also manually create payment lines using the due date to calculate the p
 > [!NOTE]  
 > If the purchase invoice is overdue, the posting date is set to the work date and the font on the line changes to red.  
 
-## See also
+## Related information
 
 - [Managing Payables](payables-manage-payables.md)  
 - [Making Payments](payables-make-payments.md)  

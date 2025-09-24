@@ -2,7 +2,7 @@
 title: View the Status of Synchronization Jobs
 description: Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
@@ -30,7 +30,7 @@ This video shows an example of how to troubleshoot errors that happened while sy
 
 
 ## To view and resolve synchronization errors for coupled records
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Coupled Data Synchronization Errors**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Coupled Data Synchronization Errors**, and then choose the related link.
 2. The **Coupled Data Synchronization Errors** page shows issues that occurred when you synchronized coupled records. The following table includes actions that you can use to resolve issues one by one:
 
 |Action|Description|
@@ -52,7 +52,7 @@ When something goes wrong in your integration and you need to uncouple records t
 
 If an entity with a unidirectional coupling is deleted in [!INCLUDE[prod_short](includes/prod_short.md)], you must manually delete the broken coupling. To do that, on the **Coupled Data Synchronization Errors** page, choose the **Find for Deleted** action, and then delete the couplings.
 
-## See Also  
+## Related information  
 [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)
 

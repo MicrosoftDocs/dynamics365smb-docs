@@ -4,10 +4,9 @@ description: Learn about production orders, and how to use them to manage the co
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: concept-article
 ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917 
-ms.date: 11/27/2024
+ms.date: 03/21/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -67,7 +66,19 @@ A production order can have one of the following statuses:
 - Released
 - Finished
 
-The status of a production order controls what you can do with it, and the form and content of the production. Production orders display on different pages according to their status. You can't change the status of a production order manually. To change the status of an order, use the **Change Status** action on the production order or use the **Change Production Order Status** page.  
+The status of a production order controls what you can do with it, and the form and content of the production. Production orders display on different pages according to their status. You can't change the status of a production order manually. To change the status of an order, use the **Change Status** action on the production order or use the **Change Production Order Status** page to change the status of one or orders in one go.
+
+The **Change Status** action is available for the following types of orders:
+
+- Simulated production orders
+- Planned production orders
+- Firm planned production orders
+- Released production orders
+
+> [!TIP]
+> A confirmation dialog with additional questions displays for each order individually. If there are multiple orders with partial output or consumption, confirm each one separately.
+
+If the status of orders can't change, they're skipped. The **Error Message** page shows the orders that were skipped and the reasons.  
 
 ### Simulated production order  
 
@@ -114,6 +125,13 @@ A finished production order is unique, based on the following characteristics:
 - Finished production orders are used for reporting and to support the ability to track back to other orders (for example, sales, production, and purchases). The ability to track back to a finished production order allows you to review the detailed history.  
 - You can't change finished production orders.  
 
+#### Reopen a finished production order to make corrections
+
+After you complete a production order and set its status to **Finished**, you might discover a mistake. For example, you might find that consumption is missing or the item tracking information is incorrect. To make sure that your inventory and cost transactions are correct, use the **Reopen** action on the **Finished Production Orders** page to make adjustments. However, to protect your data there are a few restrictions:
+
+- You can only reopen an order one time.
+- You can't reopen an order that has no output and cost was written off to an adjustment account.
+
 ## Production order execution  
 
 After you create and schedule a production order, you must release it to the shop floor so that work can start. While you work on an order, you record:  
@@ -157,9 +175,9 @@ Backward method records the expected output (and time), which is automatically r
 
 You can use any combination of automatic flushing and manually recorded information for both consumption and output. For example, you might want to automatically forward flush components, but still use a consumption journal to record scrap. Similarly, you might want to automatically record output, but use an output journal to record scrap of the parent item or extra time spent on the order.  
 
-Finally, if you enter consumption and output manually, you need to determine the sequence in which you're going to record this information. You can record consumption first and use a shortcut method to enter the information, which is based on expected quantity of output. Or, you can enter output first, using the **Explode Routing** function. You would then record consumption based on actual quantity of output.  
+Finally, if you enter consumption and output manually, you need to determine the sequence in which you're going to record this information. You can record consumption first and use a shortcut method to enter the information, which is based on expected quantity of output. Or, you can enter output first, using the **Explode Routing** action. You would then record consumption based on actual quantity of output.  
 
-### Production journal  
+### Production journals  
 
 The [Production Journal](production-how-to-register-consumption-and-output.md) combines the functions of a consumption journal and output journals into one journal, which is accessed directly from the released production order.  
 
@@ -186,9 +204,9 @@ However, production journals differ from the consumption and output journals in 
 
 In the production journal, consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries.  
 
-## See also
+## Related information
 
-[Manufacturing](production-manage-manufacturing.md)
+[Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  

@@ -30,7 +30,7 @@ In this procedure, you process the sale of an item that will be assembled accord
 
 ## To sell an item that is assembled to order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Create a sales order. 
 3. In the **No.** field, enter an item that is set up to be assembled to order.  
 4. In the **Location Code** field, define which location the item will be sold from. The assembly process will occur at that location.  
@@ -60,7 +60,7 @@ In this procedure, you process the sale of an item that will be assembled accord
 > [!NOTE]  
 > Item substitutions don't automatically replace an item with another item, for example, when creating a sales order or in a BOM. Instead, you'll be alerted to the fact that a substitution is available.
 
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  

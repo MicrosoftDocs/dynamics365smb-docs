@@ -2,7 +2,7 @@
 title: Change the Annual Amount on Service Contracts or Contract Quotes
 description: You can change the amount that will be invoiced annually on service contracts or service contract quotes.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -15,7 +15,7 @@ You can change the annual amount of the service contract or contract quote to co
 
 ## To change the annual amount of the service contract or contract quote  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
 2. Choose the contract or contract quote.  
 3. Choose the **Open Contract** action to open the contract or contract quote for editing.  
 4. Choose the **Allow Unbalanced Amounts** check box if you want to change the annual amount and distribute the annual amount difference manually on the contract lines. Otherwise, clear the check box to automatically distribute the annual amount difference on the contract lines after you change the annual amount.  
@@ -140,7 +140,7 @@ Finally, the contract lines will contain this data.
 |Item 2|50.00|58.00|9.93|5.76|52.24|2.24|  
 |Item 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## See Also  
+## Related information  
 [Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Setting Up Service Management](service-setup-service.md)  
 

@@ -4,7 +4,7 @@ description: You use payment methods, for example, check, bank transfer, cash, o
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427,
@@ -28,17 +28,30 @@ Credit memos for returns, however, are exceptions because money is flowing in th
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides a few payment methods that businesses often use. You can, however, add as many as you need.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Methods**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Optionally, add payment terms to your payment method. For more information, see [Set Up Payment Terms](finance-payment-terms.md).  
 
 ## To assign a payment method to a customer or vendor
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customer** or **Vendor**, and then choose the related link.
 2. In the **Payment Method Code** field, choose the method to use by default for the customer or vendor.
 
-## See also
+## Audit changes to payment methods
+
+You can use the Change Log feature to capture changes users make to your payment method setup. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)] 
+
+The following table lists the table for payment methods and its ID.
+
+| Table | Table ID |
+| ----- | -------- |
+| Payment Method | 289 |
+
+[!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
+
+
+## Related information
 
 [Register New Customers](sales-how-register-new-customers.md)  
 [Set Up Payment Terms](finance-payment-terms.md)  

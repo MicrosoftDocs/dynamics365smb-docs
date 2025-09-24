@@ -4,11 +4,11 @@ description: Learn how you can configure how data from different companies in Bu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
-ms.date: 06/12/2024
+ms.topic: how-to
+ms.date: 04/25/2025
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.form: 240, 1826, 1827, Report_16, Report_17, Report_18, Report_4410
 ms.service: dynamics-365-business-central
 ---
 
@@ -32,7 +32,7 @@ If your consolidation is straightforward, for example because you wholly own the
 
 To use the assisted setup guide, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Assisted Setup**, and then choose the related link.
 2. Choose **Process Consolidations**, and then complete each step in the Company Consolidation assisted setup guide.
 
 ## Advanced consolidation setup
@@ -57,7 +57,7 @@ The following list illustrates key aspects of the consolidated company.
 
 3. Specify exchange rates, if needed.
 
-    Specify exchange rates if you consolidate data for business units that use different currencies. The three exchange rates you can use are **Average Rate (Manual)**, **Closing Rate**, and **Last Closing Rate**. To learn more about exchange rates, go to [Specify exchange rates for consolidations](#exchrates).
+    Specify exchange rates if you consolidate data for business units that use different currencies. The exchange rates you can use are **Average Rate (Manual)** and **Closing Rate**. To learn more about exchange rates, go to [Specify exchange rates for consolidations](#exchrates).
 
 4. Consolidate dimension information and general ledger accounts.
 
@@ -79,17 +79,17 @@ A significant part of setting up the business unit is to specify how the unit sh
 
 When you run consolidation for business units in a foreign currency, pay attention to the exchange rates that various parts of the process use. This is especially true when you rerun consolidation. Use the **Set Up Business Unit Currencies** page to easily keep track of the rates.
 
-The **Set Up Business Unit Currencies** page gives you the last rates for average, closing, and last closing rate. You can look up the exchange rates in the currency exchange rate table, which makes it easier to validate rates. You can change the rates for the current run by entering the values or copying them from previous runs. To copy rates, choose **Select from previous consolidation**. This page is valuable when you want to rerun a previous consolidation and use a previous closing rate. This step helps to correctly revaluate your balance sheet items. The **Select from previous consolidation** page is also useful if you just want to view the rates that were used, for example, when you're troubleshooting. The page is filtered to runs that included the selected business unit.
+The **Set Up Business Unit Currencies** page gives you the last rates for average and closing. You can look up the exchange rates in the currency exchange rate table, which makes it easier to validate rates. You can change the rates for the current run by entering the values or copying them from previous runs. To copy rates, choose **Select from previous consolidation**. This page is valuable when you want to rerun a previous consolidation and use a previous closing rate. This step helps to correctly revaluate your balance sheet items. The **Select from previous consolidation** page is also useful if you just want to view the rates that were used, for example, when you're troubleshooting. The page is filtered to runs that included the selected business unit.
 
 You start the **Run Consolidation** batch job from the **Business Units** list page. You can also find the **Set Up Business Unit Currencies** page by choosing the **Exchange Rates** action.
 
 > [!NOTE]
-> The exchange rate setup pages for average, closing, and last closing rate that are currently available on the **Business Unit** card will be deprecated in a future version. However, you can still maintain these rates if you have business units that you import through files.
+> The exchange rate setup pages for average and closing that are currently available on the **Business Unit** card will be deprecated in a future version. However, you can still maintain these rates if you have business units that you import through files.
 
 #### Create a business unit
 
 1. Sign in to the consolidated company.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Business Units**, and then choose the related link.  
 3. Choose **New**, and then fill in the required fields on the **General** and **G/L Accounts** FastTabs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -108,7 +108,7 @@ The chart of accounts for a company that you will consolidate must specify accou
 
 If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation. You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company.
 
-1. In each business unit's [!INCLUDE [prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. In each business unit's [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Chart of Accounts**, and then choose the related link.  
 2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -127,14 +127,13 @@ The following table describes the exchange rate methods you can use for accounts
 |---|---|
 |Average Rate (Manual) | You manually calculate the average rate for the period to consolidate. Calculate the average either as an arithmetic average or as a best estimate, and specify the result for each business unit. Use for income statement accounts.|
 |Closing Rate | Used for balance sheet accounts.|
-|Last Closing Rate | The rate that was valid in the foreign exchange market on the date for which the balance sheet or income statement is being prepared. You enter this rate for each business unit. Use for balance sheet accounts.|
 |Historical Rate | The exchange rate that was valid when the transaction occurred.|
 |Composite Rate | The current period amounts are translated at the average rate and added to the previously recorded balance in the consolidated company. You typically use this method for retained earnings accounts. Those accounts include amounts from different periods, so they contain amounts translated with different exchange rates.|
 |Equity Rate | This option is similar to **Composite**. Differences post to separate general ledger accounts.|
 
 To specify exchange rates for a business unit, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Business Units**, and then choose the related link.  
 2. On the **Business Unit List** page, choose the business unit, and then choose the **Exchange Rates** action.  
 3. On the **Setup Business Unit Currencies** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
@@ -156,7 +155,13 @@ If you don't want to include a business unit in the consolidation, you can exclu
 
 If you own only part of a company, you can include a percentage of each transaction that reflects the percentage you own. For example, if you own 70% of the company, consolidation includes $70 of an invoice for $100. To specify the percentage of the company you own, go to the business unit card and enter the percentage in the **Consolidation %** field.  
 
-## See Also
+## Consolidation finance report overview
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
+
+## Related information
 
 [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  

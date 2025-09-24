@@ -4,10 +4,10 @@ description: Business Central has features that can help you gather, analyze, an
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 
-ms.date: 11/20/2024
+ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -44,7 +44,7 @@ People in different roles have different needs when it comes to data, and they u
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-| Role  | Data aggregation | Typical ways to consume data          | 
+| Role  | Data aggregation | Typical ways to consume data          |
 |------------------- |-------------------| ---------------------- |
 | COO / CFO / CEO | Performance data  | KPIs, dashboards, financial reports               |
 | Plant Manager     | Trends, summaries | Built-in managerial reports, ad-hoc analysis      |
@@ -54,16 +54,14 @@ People in different roles have different needs when it comes to data, and they u
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Businesses often use the following KPIs to monitor production performance:
 
-- Capacity used (hours), either current or historical
-- Utilization percentage, either current or historical
-- Work center load percentage, allocated time (hours), or available capacity (hours)
-- Cost amount variance or deviation percentage
+- Total Actual Cost with sub-cost calculations such as Actual Material Cost, Actual Capacity Cost, and more
+- Expected Cost, Expected Cost Variance, and Expected Cost Dev %
+- Total Standard Cost, Standard Cost Variance, and Standard Cost Dev %
+- Planned vs. Finished Quantity
 
-:::image type="content" source="media/manufacturing/finished-production-order-breakdown.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown.png":::
+:::image type="content" source="media/manufacturing/finished-production-order-breakdown-v26.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown-v26.png":::
 
-These KPIs (and more) are available for manufacturing in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)] for [!INCLUDE [prod_short](includes/prod_short.md)].
-
-To learn more, go to [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
+These KPIs, and more, are available for manufacturing in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)] for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Manufacturing KPIs](manufacturing-powerbi-kpis.md).
 
 ### Reports in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)]
 
@@ -103,10 +101,21 @@ To learn more about reports that are relevant for manufacturing, go to [Built-in
 
 - [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)  
 
-## See also
+## Print barcodes for finished goods on production orders
+
+To remove a step or two from the process of tracking finished goods, [!INCLUDE [prod_short](includes/prod_short.md)] offers a **Print Label** action on the **Released Production Order** and **Finished Production Order** pages. The action prints a report that includes the **Item No.**, **Description**, **Unit of Measure**, and 1D and 2D barcode information from the orders. On the request page, you can also specify whether to print the **Lot No.**, **Serial No.** or **Package No.** values as barcodes.
+
+> [!NOTE]
+> Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template.
+>
+> Check with your equipment supplier to learn how to print Word documents on your device.
+ If you decide to clone the report to create your own custom version, you can easily connect if you select **Prod. Output Item Label** on the **Report Selection Production Order** page.
+
+## Related information
 
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)  
 [Built-in production report overview](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)  
+
 [!INCLUDE[footer-include](includes/footer-banner.md)]

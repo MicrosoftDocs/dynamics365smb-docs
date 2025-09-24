@@ -2,7 +2,7 @@
 title: Set Up Customer Price Groups
 description: Learn how to set up customer price groups and create sales prices for those groups.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
@@ -24,7 +24,7 @@ When you have agreed on the prices that the group of customers will pay for cert
 
 ### To create sales prices for a group of customers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Price Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customer Price Groups**, and then choose the related link.  
 
 2. Select the line for the customer price group. If a line does not already exist you can create a new line. Select **New** to create a new entity and give it a name.  
     
@@ -50,14 +50,14 @@ After you have set up the customer price groups, you can enter the customer pric
 
 ### To enter customer price group codes on a customer card  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.  
 
 2. Open the relevant **Customer Card** for a customer that you want to be part of a customer price group.  
 
 3. On the **Invoicing** FastTab, in the **Customer Price Group** field, select the **Customer Price Group** code.  
 
 
-## See Also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

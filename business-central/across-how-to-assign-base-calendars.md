@@ -2,7 +2,7 @@
 title: Set Up Base Calendars
 description: You can assign a base calendar to your company and its business partners, to calculate delivery and receipt dates according to the specified working days.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
@@ -16,7 +16,7 @@ You can assign a base calendar to your company and its business partners, such a
 
 ## To set up a base calendar
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Base Calendar**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Base Calendar**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Fill in the **Code** field.  
 4. Choose the **Maintain Base Calendar Changes** action.
@@ -60,7 +60,7 @@ For example, while a base calendar would typically list all Saturdays as non-wor
 
 The following procedure uses the case of the location as an example. Note that at this point, you have already assigned a base calendar to the location.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
 2. Open the location that you want to update, and then select the **Customized Calendar** field. Note that a calendar must be selected in the **Base Calendar Code** field.
 3. On the **Customized Calendar Entries** page opens, choose the **Maintain Customized Calendar Changes** action.
 4. In the **Customized Calendar Changes**, add lines for customized calendar entries.
@@ -96,7 +96,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 -   On the **Location** card, the base calendar is assigned on the **Warehouse** FastTab.  
 -   On the **Shipping Agents** page, the base calendar is assigned on the **Shipping Agent Services** page.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.  
 2.  Open the **Customer** card for whom you will assign a base calendar.  
 3.  On the **Shipping** FastTab, in the **Base Calendar Code** field, select the base calendar that you want to assign.  
 
@@ -108,7 +108,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 > [!NOTE]  
 >  Before you can make customized calendar entries, you must first assign a base calendar to the company.  
 
-## See Also
+## Related information
 [Purchasing](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  

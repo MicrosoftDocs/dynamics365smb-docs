@@ -2,7 +2,7 @@
 title: Procurement Quick Start
 description: Learn how to fill in the first critical fields about vendors in Business Central so that you can start purchasing products and services.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 26, 27, 50, 56
@@ -96,7 +96,7 @@ The purchase is now reflected in inventory, resource ledgers, and financial reco
 
 For more information and additional things you can do when creating a purchase invoice, see [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
-## See Also
+## Related information
 
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Purchasing Overview](Purchasing-manage-purchasing.md)  

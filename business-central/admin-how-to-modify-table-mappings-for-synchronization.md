@@ -4,7 +4,7 @@ description: Learn how to map tables and fields for synchronizing data between B
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/07/2024
 ms.custom: bap-template
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
@@ -105,7 +105,7 @@ Couplings can be set up automatically by using the synchronization jobs, or manu
 
 If you don't want to synchronize all rows for a specific table in [!INCLUDE[prod_short](includes/cds_long_md.md)] or table in [!INCLUDE[prod_short](includes/prod_short.md)], you can set up filters to limit the data that is synchronized. You set up filters on the **Integration Table Mappings** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Integration Table Mappings**, and then choose the related link.
 2. To filter the [!INCLUDE[prod_short](includes/prod_short.md)] records, set the **Table Filter** field.  
 3. To filter the [!INCLUDE[prod_short](includes/cds_long_md.md)] rows, set the **Integration Table Filter** field.  
 
@@ -117,7 +117,7 @@ For example, the SALESPEOPLE - Dynamics 365 Sales synchronization job uses the t
 
 ### To create new records during synchronization  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Integration Table Mappings**, and then choose the related link.
 2. In the table mapping entry in the list, clear the **Synch. Only Coupled Records** field.  
 
 ## Use configuration templates on table mappings
@@ -136,7 +136,7 @@ You can add more templates, and use filters to define conditions under which [!I
 
 ### To specify configuration templates on a table mapping  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Integration Table Mappings**, and then choose the related link.
 2. In the table mapping entry in the list, in the **Table Config Templates** field, choose to the configuration template to use for new records in [!INCLUDE[prod_short](includes/prod_short.md)].  
 3. If you have multiple templates, to define the conditions that determine when to use the template, enter criteria in the **Integration Table Filter** field, and then enter a number in the **Priority** field. The priority determines the order in which [!INCLUDE [prod_short](includes/prod_short.md)] evaluates whether to use the templates.
 
@@ -148,7 +148,7 @@ You can add more templates, and use filters to define conditions under which [!I
 
 4. Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## See also  
+## Related information  
 
 [About Integrating Dynamics 365 Business Central with [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Synchronizing Business Central and [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  

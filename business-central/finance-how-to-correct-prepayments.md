@@ -2,7 +2,7 @@
 title: Correct prepayments
 description: You can make a correction to an order after you have posted a prepayment invoice for the order and add new lines to an order after issuing a prepayment.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 07/24/2024
@@ -22,7 +22,7 @@ You can make a correction to an order after you have posted a prepayment invoice
 
 The following procedure shows how to issue a prepayment credit memo to cancel all invoiced prepayments for a sales order.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Open the relevant sales order.
 3. Choose the **Prepayment** action, and then choose the **Post Prepayment Credit Memo** action or the **Post and Print Prepmt. Cr. Memo** action.  
 4. On the **Sales Credit Memo** page, proceed to correct the relevant entries, as for any sales credit memo. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).  
@@ -33,7 +33,7 @@ The following procedure shows how to issue a prepayment credit memo to cancel al
 5. To make a prepayment invoice for any new lines in the sales credit memo, choose the **Prepayment** action, and then choose the **Post Prepayment Invoice** action or the **Post and Print Prepmt. Invoice** action.  
 6. To issue an additional prepayment invoice, increase the prepayment amount on one or more lines and post the prepayment invoice. A new invoice will be created for the difference between the prepayment amounts invoiced and the new prepayment amounts.  
 
-## See also
+## Related information
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

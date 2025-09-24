@@ -2,7 +2,7 @@
 title: Process sales return orders
 description: Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
@@ -19,7 +19,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 
 ## Create a sales return order based on one or more posted sales documents  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Return Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Return Orders**, and then choose the related link.
 2. Choose the **New** action.  
 3. Fill in the fields on the **General** FastTab as necessary.
 4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:
@@ -95,7 +95,7 @@ You can post this increased cost as an item charge in a credit memo or a return 
 
 When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

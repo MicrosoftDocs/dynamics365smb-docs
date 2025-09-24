@@ -207,7 +207,7 @@ additionalContent:
 #            url: /dynamics365/business-central/receivables-manage-receivables
           - text: Manage payables
             url: /dynamics365/business-central/payables-manage-payables   
-      #    - text: Invoicing prepayments
+      #    - text: Invoice prepayments
       #      url: /dynamics365/business-central/finance-invoice-prepayments
       #    - text: Reconcile bank accounts
       #      url: /dynamics365/business-central/bank-manage-bank-accounts
@@ -219,10 +219,12 @@ additionalContent:
             url: /dynamics365/business-central/sales-analytics-overview
       #    - text: Register new customers 
       #      url: /dynamics365/business-central/sales-how-register-new-customers   
-      #    - text: Make Sales Quotes
+      #    - text: Make sales quotes
       #     url: /dynamics365/business-central/sales-how-make-offers
           - text: Invoice sales
             url: /dynamics365/business-central/sales-how-invoice-sales
+          - text: Use subscription billing
+            url: /dynamics365/business-central/srb/welcome
       - title: Purchasing
         links:
           - text: Overview
@@ -437,9 +439,9 @@ additionalContent:
 #            url: /dynamics365/business-central/about-localization
   - title: Administer and develop
     items:
-    - title: Copilot and AI capabilities
+    - title: Copilot and agent capabilities
       links:
-      - text: Configure Copilot and AI capabilities
+      - text: Configure Copilot and agent capabilities
         url: /dynamics365/business-central/enable-ai
       - text: Extend Copilot in Business Central
         url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page

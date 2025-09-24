@@ -1,10 +1,10 @@
 ---
 title: Change which features are displayed
-description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
+description: Learn what the Essentials and Premium user experience tiers mean for the user interface, application areas, and your company.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.search.form: 1,
 ms.date: 03/11/2024
@@ -21,13 +21,13 @@ The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |
 | --- | --- |
-| **Essential** |Shows all actions and fields for all common business functionality.|
+| **Essentials** |Shows all actions and fields for all common business functionality.|
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 
-The experiences that can be selected in [!INCLUDE[prod_short](includes/prod_short.md)] reflect the solution licenses, called plans, that are defined for the product. For information about the Essential and Premium plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=2264940) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[prod_short](includes/prod_short.md)] Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2264939).
+The experiences that can be selected in [!INCLUDE[prod_short](includes/prod_short.md)] reflect the solution licenses, called plans, that are defined for the product. For information about the Essentials and Premium plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=2264940) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[prod_short](includes/prod_short.md)] Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2264939).
 
 > [!IMPORTANT]  
-> Users of type Team Member, Internal Admin, External Accountant, and Delegated Admin can be assigned a different plan than other users in the solution. Only users of type Evaluation or Premium can change the value in the **Experience** field from Essential to Premium.
+> Users of type Team Member, Internal Admin, External Accountant, and Delegated Admin can be assigned a different plan than other users in the solution. Only users of type Evaluation or Premium can change the value in the **Experience** field from Essentials to Premium.
 
 > [!NOTE]
 > In 2024 release wave 1, a user with the Premium plan can sign in to a company that's using the Essentials plan. However, the Premium user can't use any of the features that the Premium license provides. The same isn't true in the opposite direction. Users who have the Essentials plan can't sign in to a company that's using the Premium plan.
@@ -47,21 +47,21 @@ Users are assigned to plans in Microsoft 365 Admin Center in connection with the
 When you have made a change to users plans in Microsoft 365 Admin Center, such as assigned more users to the Premium plan, you must update [!INCLUDE[prod_short](includes/prod_short.md)] to reflect the change.
 
 1. Sign is as an administrator.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 3. On the **Users** page, choose the **Update users from Microsoft 365** action.
 
 ### To select the Premium experience
 
 You can now proceed to select the new experience.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Company Information**, and then choose the related link.
 2. On the **Company Information** page, on the **User Experience** FastTab, select Premium  in the **Experience** field.
 
 ## Help assumes the Premium experience
 
 All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements.
 
-## See also
+## Related information
 
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Customizing Business Central](ui-customizing-overview.md)  

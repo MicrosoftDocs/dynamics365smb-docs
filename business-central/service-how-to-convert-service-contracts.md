@@ -2,7 +2,7 @@
 title: How to convert service contracts
 description: This article describes several alternative methods that you can use to convert service contracts that include VAT amounts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/07/2023
@@ -25,7 +25,7 @@ Because the VAT rate change tool can't convert service contracts, these contract
 
 ## To correct an invoice for a prepaid service contract  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contract Management**, and then choose the related link.  
 2. Under **Lists**, choose **Service Contracts**.  
 3. Create a new prepaid service contract. Enter a start date of **01.01.2017** and an invoice period year for customer **20000**.  
 4. To sign the contract, choose the **Sign Contract** action.  
@@ -62,7 +62,7 @@ The following procedure describes how to create a new credit memo using the **Ge
 5. Choose the **Get Prepaid Contract Entries** action.  
 6. After the conversion is complete, VAT and service ledger entries will be correct.  
 
-## See also  
+## Related information  
 
 [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finance](finance.md)  

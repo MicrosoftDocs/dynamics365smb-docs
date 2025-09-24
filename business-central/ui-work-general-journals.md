@@ -5,20 +5,20 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
-ms.date: 07/15/2024
+ms.topic: how-to
+ms.date: 02/06/2025
 ms.custom: bap-template
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ---
 # Work with general journals
 
-Most financial transactions are posted to the general ledger through documents such as purchase invoices and sales orders. However, you can also process business activities such as:
+Most financial transactions are posted to the general ledger through documents such as purchase invoices and sales orders. However by posting journal lines, you can also process business activities such as:
 
 * Purchasing
 * Payments
 * Using recurring journals to post accruals
-* Refunding employee expenses by posting journal lines in journals  
+* Refunding employee expenses
 
 Most journals are based on the general journal, and you can process all transactions on the **General Journals** page. Learn more at [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 
@@ -168,7 +168,7 @@ When you create journal lines that you know you're likely to create again later,
 
 ### To save a standard journal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Journals**, and then choose the related link.
 2. Enter one or more journal lines.
 3. Select the journal lines that you want to reuse.
 4. Choose the **Save as Standard Journal** action.
@@ -187,7 +187,7 @@ When you save the standard item journal, the Item Journal page displays so you c
 > [!NOTE]
 > Standard journals don't always have the same fields as general journals. When you use the Get Standard Journals action to copy the fields to the general journal, the general journal might have less information than if you created it manually. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Journals**, and then choose the related link.
 2. Choose the **Get Standard Journals** action.
 3. To review a standard item journal before you select it for reuse, choose the **Show Journal** action.
 
@@ -222,12 +222,12 @@ Renumbering document numbers respects related applications, such as a payment ap
 
 The following procedure is based on the **General Journals** page, but applies to all other journals that are based on the general journal, such as the **Payment Journals** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Journals**, and then choose the related link.
 2. When you're ready to post the journal, choose the **Renumber Document Numbers** action.
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can post the journal.
 
-## See Also
+## Related information
 
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  

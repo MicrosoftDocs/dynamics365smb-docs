@@ -2,7 +2,7 @@
 title: Close income statement accounts
 description: At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the fiscal year.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 08/05/2024
 ms.author: jswymer
@@ -17,7 +17,7 @@ When a fiscal year is over, you must close the periods that comprise it. To do t
 ## To run the Close Income Statement batch job
 
 1. Close the fiscal year. The fiscal year must closed before the batch job can be run. For more information, see [Close Accounting Periods](year-close-account-periods.md).
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Close Income Statement**, and then choose the related link.
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Close Income Statement**, and then choose the related link.
 3. Choose the **OK** button to run the batch job.
 
 ## About the Close Income Statement batch job
@@ -30,7 +30,7 @@ The date on the lines that the batch job inserts in the journal is always a clos
 
 The **Close Income Statement** batch job can be used several times. You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the batch job again.
 
-## See also
+## Related information
 
 [Closing Books](year-close-books.md)    
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)    

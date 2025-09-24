@@ -2,7 +2,7 @@
 title: Set Up Preferred Methods of Sending Sales Documents | Microsoft Docs
 description: Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
@@ -22,16 +22,16 @@ When you choose the **Post and Send** action on a sales document, the **Post and
 > [!Video https://learn-video.azurefd.net/vod/player?id=b0524480-cac0-4382-be29-954a70bbee34]
 
 ## To set up a document sending profile
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profiles**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Document Sending Profiles**, and then choose the related link.
 2. On the **Document Sending Profiles** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To specify a sending profile on a customer card
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.
 2. Open the card of the customer who you want to set up a sending profile for.
 3. In the **Document Sending Profile** field, select a profile that you have set up as described in the previous procedure.
 
-## See Also
+## Related information
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

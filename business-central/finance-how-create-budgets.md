@@ -4,10 +4,10 @@ description: Describes how to create G/L budgets to forecast different financial
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: postpone
-ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
+ms.search.form: 113, 120_Primary, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 08/07/2024
 ms.service: dynamics-365-business-central
 ---
@@ -22,7 +22,7 @@ In cost accounting, you work with cost budgets in a similar way. To learn more, 
 
 ## To create a new G/L budget
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Edit Budget** action.
 4. At the top of the **Budget** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
@@ -94,7 +94,7 @@ Here are some tips for effective budget management:
 
 * [Michelle Serna](https://www.linkedin.com/in/michelleserna1/) | Director of ERP systems
 
-## See also
+## Related information
 
 [Exporting Your Business Data to Excel](about-export-data.md)  
 [Finance](finance.md)  

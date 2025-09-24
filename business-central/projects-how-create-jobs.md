@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 08/19/2024
+ms.date: 02/24/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -28,7 +28,7 @@ The layer structure enables you to divide the project into smaller tasks, and th
 
 You create a project card and then create project task lines and project planning lines for it.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To base the project on information from another project, choose the **Copy Project** action, fill in the fields as necessary, and then choose the **OK** button.
 
@@ -50,7 +50,7 @@ Optionally, mark actions on project as blocked using the **Blocked** field. The 
 
 A key part of creating a project is to specify the various tasks involved in the project. You specify tasks by creating one line per task on the **Tasks** FastTab on the **Project Card** page. Every project must have at least one task.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 2. Open the project card for a relevant project.
 3. On the **Tasks** FastTab, fill in the fields as necessary on a new line.
 4. To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Project Tasks** action.
@@ -90,7 +90,7 @@ There are a few things to know about using default locations:
 
 You can refine your new project tasks on project planning lines. A planning line can capture the information that you want to track for a project. For example, you can track the resources the project requires, or the items that are needed. For example, you have a task to get a customer to approve a project. You associate the task with planning lines for items such as meeting the customer and assigning a resource.  
 
-A project planning line can have one of the following types.  
+A project planning line can have one of the types described in the following table.  
 
 | Type | Description |
 | --- | --- |
@@ -101,7 +101,7 @@ A project planning line can have one of the following types.
 > [!NOTE]
 > While you enter information on project planning lines, cost information is automatically filled in. For example, the cost, price, and discount for resources and items are based on information from the resource and item.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 2. Open a relevant project card.
 3. Select a project task for which the **Project Task Type** field contains **Posting**, and then choose the **Project Planning Lines** action.  
 4. On the **Project Planning Lines** page, on a new line, fill in the fields as necessary.
@@ -110,7 +110,18 @@ A project planning line can have one of the following types.
 > [!TIP]
 > If the line is for an item, you can use the **Item Availability by** action to explore the item's availability by location, event, or period.
 
-## See also
+## Avoid document number errors when you post project journals
+
+If you use a number series for project journal batches, you can't post the journal if the document numbers aren't consecutive. If needed, you can correct the order of document numbers when you post project journals.
+
+On the **Project Journals** page, the **Document No.** field is editable so that you can specify different document numbers for different journal lines, or the same document number for related journal lines.
+
+If a number series is specified in the **No. Series** field on the project journal batch, document numbers for individual or grouped lines must be sequential when you post a project journal. If they aren't, you can't post the journal. To avoid getting stuck, use the **Renumber Document Numbers** action on the **Project Journals** page before you post the journal. If you group journal lines by document number before you use the action, they stay grouped but might be assigned a different document number.
+
+> [!TIP]
+> The **Renumber Document Numbers** action also works on filtered views.
+
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

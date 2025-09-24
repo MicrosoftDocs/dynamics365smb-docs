@@ -58,7 +58,7 @@ The following diagram illustrates the basic workflow for users when connecting [
 6. User creates a report in Power BI Desktop.
 7. User publishes the report to the Power BI service. The reports are then available for selection in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## See Also
+## Related information
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI for consumers](/power-bi/consumer/end-user-consumer)  

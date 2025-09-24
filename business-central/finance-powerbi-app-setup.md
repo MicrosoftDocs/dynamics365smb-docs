@@ -4,10 +4,10 @@ description: Learn how to set up the Power BI Finance app
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: reporting
 ms.search.form: 36961_Primary, 37059, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993,36994, 36995, 36996, 36997
-ms.date: 12/18/2024
+ms.date: 06/11/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -130,6 +130,12 @@ Level 3 categories are the subcategories of Level 2 with indentation.
 
 If you experience issues with the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)], the information in the following sections might help you get unblocked.
 
+### Getting the "[Unable to combine data] Section1/G\/L Entries/Combine Queries references other queries or steps, so it may not directly access a data source. Please rebuild this data combination." error?
+
+When you install the Power BI app for Finance, make sure that you set the **Privacy level setting for this data source** field to **Organizational** when you authenticate.
+
+:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png":::
+
 ### Getting the "Column Entry No. in Table G/L Entries contains a duplicate value" error?
 
 When you refresh data from your [!INCLUDE [prod_short](includes/prod_short.md)] environment into the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)], a refresh error might happen with the following error message:
@@ -143,17 +149,15 @@ Data source error: Column '<oii>Entry No.</oii>' in Table '<oii>G/L Entries</oii
 ```
 
 > [!NOTE]
-> If you get this error, you're affected by a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)].
+> The cause of this error is a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)].
 
-This error indicates that there are duplicate G/L entries in the Finance fact table in the semantic model. The error displays when we attempt to combine the three sub-queries (Balance Sheet G/L Entries, Income Statement G/L Entries, and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
+This error indicates that there are duplicate G/L entries in the Finance fact table in the semantic model. The error displays when we attempt to combine the three subqueries (Balance Sheet G/L Entries, Income Statement G/L Entries, and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
 
 The current Balance Sheet G/L Entries query has a hard-coded filter transformation. This filter assumes that the source code for closing entries is CLSINCOME. This leads the model to allow closing entries to exist in both the Balance Sheet query and the Closing Entries query, resulting in duplicate entries.
 
 ### Getting the "Column ‘G/L Account No.’ in Table ‘G/L Account’ contains a duplicate value" error?
 
 When you refresh data from your [!INCLUDE [prod_short](includes/prod_short.md)] environment into the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)], a refresh error might happen due to how your **Begin-Total** and **End-Total** accounts are configured in your **Chart of Accounts**.
-
-If you receive this error, review the totaling accounts.
 
 ```
 Something went wrong
@@ -163,19 +167,49 @@ Please try again later or contact support. If you contact support, please provid
 Data source error: Column 'G/L Account No.' in Table 'G/L Account' contains a duplicate value 'X' and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
 ```
 
-**Why did this happen?**
+If you receive this error, you need to [identify the duplicate accounts in Business Central](#how-to-identify-the-duplicate-accounts-in-business-central), then apply the suggested changes.
+
+#### Why did this error happen?
 
 This error can happen because the Finance Connector app relies on the totaling accounts for hierarchy and indentation purposes.
 
-Your totaling for an **End-Total** account must exactly reference both the **Begin-Total** and **End-Total** accounts. You can only use one **Begin-Total** account in one **End-Total** account.
+Your totaling for an **End-Total** account must exactly reference both the **Begin-Total** and **End-Total** accounts.
 
-**Fix the totaling on your G/L Accounts**
+> [!NOTE]
+> You can only use one **Begin-Total** account in one **End-Total** account.
 
-The following example shows how to set up the totaling accounts.
+#### How to identify the duplicate accounts in Business Central
+
+Power BI presents the first instance of a duplicate account in the error message. You might need to resolve multiple totaling accounts in sequence to resolve all duplicates.
+
+In the following example, Power BI identifies account **1001** as having a duplicate value in the G/L Account table in the Semantic Model.
+
+:::image type="content" source="media/powerbi/finance/duplicate-accounts-error-example.png" alt-text="Screenshot of the duplicate accounts error" lightbox="media/powerbi/finance/duplicate-accounts-error-example.png":::
+
+##### Steps to follow in Business Central
+
+1. Go to your chart of accounts.
+1. Filter the list by **Totaling**, and filter by the account number mentioned in the error message. The filter should include asterisks before and after the account number. For example, *1001*.
+1. Identify all end-total accounts that reference the duplicate account in the **Totaling** column.
+1. [Fix the totaling on your G/L Accounts](#fix-the-totaling-on-your-gl-accounts).
+
+:::image type="content" source="media/powerbi/finance/duplicate-totalling-accounts-example.png" alt-text="Screenshot of the duplicate totalling accounts structure" lightbox="media/powerbi/finance/duplicate-totalling-accounts-example.png":::
+
+#### Fix the totaling on your G/L Accounts
+
+Sometimes, the issue is due to incorrect account references in the **Totaling** column. Typically, removing duplicate account references fixes the problem.
+
+For more complex situations, you might need to introduce new begin-total accounts to better organize your end-totals. Adding new accounts requires restructuring your chart of accounts.
+
+The following example illustrates the recommended approach for setting up totaling accounts.
 
 1. A **Begin-Total** account of **1300 (Vehicles)** and the **End-Total** account of **1390 (Vehicles, Total)**.
 2. The totaling defined for the **End-Total** is **1300..1390**. Any other combination for your totaling account (such as 1300..1340, 1310..1390, or 1310..1340, etc.) can cause the error.
-3. One **Begin-Total** account can only be used in one **End-Total** account. If you use a **Begin-Total** account in two or more **End-Total** accounts, the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)] can't match it to an **End-Total** account.
+
+> [!NOTE]
+> You can only use one **Begin-Total** account in one **End-Total** account. If you use a **Begin-Total** account in two or more **End-Total** accounts, the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)] can't match it to an **End-Total** account.
+
+:::image type="content" source="media/powerbi/finance/recommended-totalling-structure-for-power-bi-reporting.png" alt-text="Screenshot of the recommended totalling structure for power bi finance reporting" lightbox="media/powerbi/finance/recommended-totalling-structure-for-power-bi-reporting.png":::
 
 ## Related information
 

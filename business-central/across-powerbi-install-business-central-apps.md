@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 01/17/2025
+ms.date: 06/11/2025
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -21,7 +21,7 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 - APIs for reading data.
 - [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models and reports.
 - Pages that embed the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)].
-- Navigation links on Role Centers and in the Role Explorer.
+- Navigation links on Role Centers and Role Explorer.
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be
 
    - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
    - The user who refreshes the data.
-   - Each user who accesses the reports.
+   - Each user who accesses the reports, either in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] service or embedded in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 An alternative to using [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses is to use [!INCLUDE [powerbi-name](includes/powerbi-name.md)] or [!INCLUDE [fabric-name](includes/fabric-name.md)] Premium capacity.
 
@@ -63,33 +63,52 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 
 Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following table and select **Get it now**.
 
-| To get the template app for... | Use this install link             |
-|--------------------------------| --------------------------------- |
-| Finance                        | https://aka.ms/bc-pbi-finance-app                 |
-| Sales                          | https://aka.ms/bc-pbi-sales-app                   |
-| Purchasing                     | https://aka.ms/bc-pbi-purchase-app                |
-| Inventory                      | https://aka.ms/bc-pbi-inventory-app               |
-| Inventory Valuation            | https://aka.ms/bc-pbi-inventory-valuation-app     | 
-| Manufacturing                  | https://aka.ms/bc-pbi-manufacturing-app |
-| Projects                       | https://aka.ms/bc-pbi-projects-app      |
+| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
+|--------------------------------| -------------- | ------------------------------------------------- |
+| Finance                        | 26.2 and later | https://aka.ms/bc-pbi-finance-app                 |
+| Inventory                      | 26.2 and later | https://aka.ms/bc-pbi-inventory-app               |
+| Inventory Valuation            | 26.2 and later | https://aka.ms/bc-pbi-inventory-valuation-app     | 
+| Manufacturing                  | 26.2 and later | https://aka.ms/bc-pbi-manufacturing-app           |
+| Purchasing                     | 26.2 and later | https://aka.ms/bc-pbi-purchase-app                |
+| Projects                       | 26.2 and later | https://aka.ms/bc-pbi-projects-app                |
+| Sales                          | 26.2 and later | https://aka.ms/bc-pbi-sales-app                   |
+| Subscription Billing           | 26.2 and later | https://aka.ms/bc-pbi-subscription-billing-app    |
+| Sustainability                 | 26.2 and later | https://aka.ms/bc-pbi-sustainability-app          |
+
+
+| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
+|--------------------------------| ------------ | -------------------------------------------------- |
+| Finance                        | 25.2 to 26.1 | https://aka.ms/bc-pbi-finance-app-25-2             |
+| Inventory                      | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-app-25-2           |
+| Inventory Valuation            | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-valuation-app-25-2 | 
+| Manufacturing                  | 25.2 to 26.1 | https://aka.ms/bc-pbi-manufacturing-app-25-2       |
+| Purchasing                     | 25.2 to 26.1 | https://aka.ms/bc-pbi-purchase-app-25.2            |
+| Projects                       | 25.2 to 26.1 | https://aka.ms/bc-pbi-projects-app-25-2            |
+| Sales                          | 25.2 to 26.1 | https://aka.ms/bc-pbi-sales-app-25-2               |
 
 Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
+
+In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
+
+:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png"::::::
 
 After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app appears under **Apps** in [!INCLUDE [powerbi-name](includes/powerbi-name.md)], and there's a workspace with the same name that you can use to configure the app.
 
 When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] subscription, you must choose a workspace for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model and reports. We recommend that you use one workspace for each app because it's easier to set up functional boundaries with access controls for users and user groups.
 
-[!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
-
 > [!IMPORTANT]
 > To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
+
+### Need Power BI apps for multiple companies?
+
+[!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
 
 ## Run the Connect to Power BI assisted setup guide
 
 After you install your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, you can configure them to suit your business:
 
 - Get help with the set-up process by using the **Connect to Power BI** assisted setup guide.
-- Set up things yourself on the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
+- Set up things yourself on the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page.
 
 The assisted setup guide helps you configure the following components:
 
@@ -168,9 +187,20 @@ Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a seman
 
 To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
 
+## Job queue entry for updating dimension set entries
+
+For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, the job queue entry that runs the *Update Dim. Set Entries* codeunit must run at least one time. If you change dimension sets or values, the codeunit must run again. Therefore, we recommend that you run the corresponding job queue entry one time each week, or maybe once a night outside normal working hours.
+
+## Want links to show up in Report Explorer?
+
+The profiles (roles) selected to display in the Role Explorer control the functional areas that show in Report Explorer. To specify whether profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
+
+> [!TIP]
+> For the built-in profiles that show in Report Explorer, the **Description** field contains **Navigation menu only**.
+
 ## Permissions
 
-In [!INCLUDE [prod_short](includes/prod_short.md)], the user account you use to refresh the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have Read permissions to the tables in the model. These tables are currently documented in the KPI article for the app. For example, for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], these are the [!INCLUDE [prod_short](includes/prod_short.md)] tables that the user needs Read permissions for: [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
+In [!INCLUDE [prod_short](includes/prod_short.md)], the user account you use to refresh the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have **Read** permissions to the tables in the model. The tables are documented in the KPI article for the app. For example, for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], to explore the [!INCLUDE [prod_short](includes/prod_short.md)] tables that a user needs Read permissions for, go to [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md).
 
 In the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], we recommend that you add multiple admins for each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app workspace. Grant Read permissions to users who should be able to view report pages in an app.
 
@@ -199,6 +229,7 @@ To learn more, go to [Install, share, and update template apps in your organizat
 
 ## Related information
 
+[Power BI apps FAQ](across-powerbi-apps-faq.md)  
 [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

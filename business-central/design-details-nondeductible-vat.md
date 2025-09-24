@@ -2,7 +2,7 @@
 title: Design details - Non-deductible VAT
 description: This article provides information about non-deductible value-added tax (VAT) that's payable by a purchaser, but that isn't deductible from the purchaser's own VAT liability.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 07/04/2023
@@ -95,7 +95,7 @@ The details are shown in the **Fixed Asset Ledger Entries**.
 | Invoice | Acquisition Cost | 1,000.00 | 250.00 |
 | Invoice | Acquisition Cost | 250.00 | 0.00 |
 
-## See also
+## Related information
 
 [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)  
 [Finance](finance.md)  

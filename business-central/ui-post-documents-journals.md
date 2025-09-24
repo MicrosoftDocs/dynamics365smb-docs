@@ -28,7 +28,7 @@ The following table describes related tasks, with links to the topics that descr
 | Preview, in a page, the entries that will be created when you post. |[Preview Posting Results](ui-how-preview-post-results.md) |
 | Preview, in a report, the entries that will be created when you post. |[View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
 
-## See also
+## Related information
 
 [Edit Posted Documents](across-edit-posted-document.md)  
 [Find Related Entries for Documents](ui-find-entries.md)  

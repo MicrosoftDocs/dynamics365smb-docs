@@ -4,7 +4,7 @@ description: This topic outlines how to set up resources, time sheets, to manage
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: projects
 ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 02/22/2024
@@ -26,7 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation. |[Set Up Time Sheets](projects-how-setup-time-sheets.md) |
 | Create project cards and prepare project tasks. Set up prices for project items and project resources and define project posting groups. |[Set Up Projects](projects-how-setup-jobs.md) |
 
-## See Also
+## Related information
 
 [Managing Projects](projects-manage-projects.md)  
 [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

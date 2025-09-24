@@ -4,7 +4,7 @@ description: Use Accountant Role Center charts to analyze the flow of money in y
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
@@ -79,7 +79,7 @@ To use the assisted setup guide:
 
 To use a manual process:  
 
-1. In the Accountant Role Center, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, then choose the related link.
+1. In the Accountant Role Center, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Cash Flow Setup**, then choose the related link.
 2. Expand the **Azure AI** FastTab, then choose the **Azure AI Enabled** field.
 3. Back in the Accountant Role Center, choose the **Recalculate Forecast** action under the **Cash Flow Forecast** chart.
 
@@ -88,7 +88,7 @@ To use a manual process:
 
 ## Design details
 
-Subscriptions for [!INCLUDE[prod_short](includes/prod_short.md)] come with access to several predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. Learn more at the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
+Subscriptions for [!INCLUDE[prod_short](includes/prod_short.md)] come with access to several predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. Learn more at the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central]( https://www.microsoft.com/dynamics-365/products/business-central/) website.
 
 These web services are stateless, meaning they use data only to calculate predictions on demand. They don't store data.
 
@@ -131,11 +131,11 @@ Before it uses the predictive web-service, [!INCLUDE[prod_short](includes/prod_s
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you have to create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cash Flow Setup**, and then choose the related link.  
 2. Expand the **Azure AI** FastTab, and then fill in the fields, including the API URL and API key provided from Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In the Accountant Role Center, choose the **Recalculate Forecast** action under the **Cash Flow Forecast** chart.
 
-## See also
+## Related information
 
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  

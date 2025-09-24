@@ -2,7 +2,7 @@
 title: Sandbox environments
 description: Learn about how a dedicated environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: reference
 ms.reviewer: bholtorf
 ms.devlang: al
 ms.search.keywords: sandbox, demo, develop
@@ -47,7 +47,7 @@ For situations where you need additional sample data, please talk to your resell
 
 <!--#### To create a company with complete sample data in a sandbox
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Companies**, and then choose the related link.  
 2. Choose the **New** action, and then choose **Create New Company**.  
 3. In the **Assisted Setup for Creating a Company** page, choose **Next**.  
 4. Specify a name for the new company, and then, in the **Select the data and setup to get started** field, choose **Advanced Evaluation - Complete Sample Data**.  
@@ -63,7 +63,7 @@ For more information, see [Use Designer](/dynamics365/business-central/dev-itpro
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

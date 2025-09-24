@@ -1,28 +1,28 @@
 ---
-title: Import and Export Data in SIEE [SE]
-description: You can import and export general ledger data according to the standard import export (SIE) format explained in this topic.
+title: Import and Export Data in SIE [SE]
+description: You can import and export general ledger data according to the standard import export (SIE) format explained in this article.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
+ms.search.keywords: import, export, standard import export, SIE, general ledger data
 ms.search.form: 11212
-ms.date: 06/24/2021
+ms.date: 02/06/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
 
-# Import and Export Data in Standard Import Export Format in the Swedish Version
+# Import and export data in Standard Import Export format in the Swedish version
 
-You can import and export general ledger data according to the standard import export (SIE) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. For more information, see [Standard Import Export Group](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
+You can import and export general ledger data according to the Standard Import Export (SIE) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. Learn more about Standard Import Export Group [here](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
 > [!NOTE]
-> As of version 22.1, the Swedish localization has been moved to the extensions, and this feature is delocalized. Because the localization is now created as an extension, you must enable the feature to use it. For more information about this process, see [Import and export data in the standard import export (SIE) format](how-to-use-sie-audit-files-export.md).
+> As of version 22.1, the Swedish localization has been moved to the extensions, and this feature is delocalized. Because the localization is now created as an extension, you must enable the feature to use it. Learn more about Import and export data in the standard import export (SIE) format [here](how-to-use-sie-audit-files-export.md).
 
-## To import data in SIE format  
+## Import data in SIE format  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Import**, and then choose the related link.  
-2.  Fill in the fields as described in the following table.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Import**, and then choose the related link.  
+1. Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -30,16 +30,16 @@ You can import and export general ledger data according to the standard import e
     |**Gen. Journal Batch**|Select a general journal batch.|  
     |**Dimensions**|Select the SIE dimensions to import.|  
     |**Insert G/L Account**|Select if the general ledger account in the import file is missing in the chart of accounts and needs to be set up during the import process.|  
-    |**Use Number Series for Doc. No.**|Select if a document number is not provided in the import file.|  
+    |**Use Number Series for Doc. No.**|Select if a document number isn't provided in the import file.|  
 
-3. Choose the **OK** button.
-4. Select the file to import.  
+1. Choose the **OK** button.
+1. Select the file to import.  
 
-## To export data in SIE format  
+## Export data in SIE format  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Export**, and then choose the related link.  
-2.  On the **G/L Account** FastTab, choose the appropriate filters.  
-3.  On the **Options** FastTab, fill in the fields as described in the following table.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Export**, and then choose the related link.  
+1. On the **G/L Account** FastTab, choose the appropriate filters.  
+1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -49,12 +49,12 @@ You can import and export general ledger data according to the standard import e
     |**Dimensions**|Select the dimensions to export.|  
     |**Fiscal Year**|Enter the fiscal tax year.|
 
-4. Choose the **OK** button.
-5. Choose the **Open** or **Save** button to decide where to place the exported file.
+1. Choose the **OK** button.
+1. Choose the **Open** or **Save** button to decide where to place the exported file.
 
-## See Also  
- [Standard Import Export Group](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
- [Sweden Local Functionality](sweden-local-functionality.md)
+## Related information
 
+- [Standard Import Export Group](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
+- [Sweden Local Functionality](sweden-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

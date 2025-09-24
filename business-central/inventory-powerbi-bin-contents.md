@@ -4,7 +4,7 @@ description: The Bin Contents report shows bin contents per location.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37031_Primary
 ms.date: 10/28/2024
@@ -68,7 +68,7 @@ Try the report here: [Bin Contents](https://businesscentral.dynamics.com?page=37
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  

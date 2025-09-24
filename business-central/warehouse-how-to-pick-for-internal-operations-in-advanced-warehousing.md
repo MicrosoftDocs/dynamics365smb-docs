@@ -4,9 +4,9 @@ description: If your locations use picking and shipping, pick components for pro
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
-ms.date: 08/12/2024
+ms.date: 03/19/2025
 ms.custom: bap-template    
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,9 @@ How you pick components for production, projects, or assembly orders depend on h
 
 In an advanced warehouse configuration for the outbound flow (pick), on the **Location Card** page for the location, use the following settings:
 
-* Production, in the **Prod. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
-* Assembly, in the **Asm. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
-* Project management, in the **Project Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+- Production, in the **Prod. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+- Assembly, in the **Asm. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+- Project management, in the **Project Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
 
 When the location is set up to require warehouse pick processing, use warehouse pick documents to create and process pick information before you post the usage or consumption of components.  
 
@@ -42,8 +42,12 @@ Use **Warehouse Pick** documents for picking production components in the flow t
 
 For a location that uses bins to move items to open shop floor bins, you can use the following methods:
 
-* For a location that uses directed put-away and pick, follow the steps in the [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md) article.
-* For other locations, follow the steps in the [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
+- For a location that uses directed put-away and pick, follow the steps in the [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md) article.
+- For other locations, follow the steps in the [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
+
+### Over-picking in production
+
+[!INCLUDE [manufacturing-overpicks](includes/manufacturing-overpicks.md)]
 
 ## Assembly  
 
@@ -64,7 +68,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
 ## To create pick documents in bulk with the pick worksheet
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Pick Worksheet**, and then choose the related link.  
 2. Choose the **Get Warehouse Documents** action.  
 
     The list shows the released production, projects, and assembly orders that have been forwarded to the pick function. The orders include those for which pick instructions are already created. Documents with pick lines that have been picked and registered aren't shown on this list.  
@@ -85,7 +89,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 6. If needed, edit the lines manually. You can also delete some of the lines to make the pick more efficient. For example, if there are multiple lines with items that are in cross-dock bins, you might create a pick for all of the lines. The cross-docked items are picked with the other items on the source document, and the cross-dock bins have space for more incoming items.
 
     > [!NOTE]  
-    >  The lines are only deleted from this worksheet, not from the pick selection list.  
+    > The lines are only deleted from this worksheet, not from the pick selection list.  
 
 7. Choose the **Create Pick** action. The **Create Pick** page opens, where you can add more information to the pick.  
 
@@ -116,7 +120,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
 ## To pick items for a production order, assembly order, or project
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Picks**, and then choose the related link.  
 
     If you need to work on a particular pick, select the pick from the list or filter the list to find the picks that have been assigned to you. Open the pick card.  
 2. If the **Assigned User ID** field is empty, enter your ID to identify yourself, if needed.  
@@ -128,16 +132,16 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
     If the warehouse is set up to use directed put-away and pick, the bin rankings are used to calculate the best bins to pick from. Those bins are suggested on the pick lines. The instructions contain at least two separate lines for Take and Place actions.  
 
-    * The first line, with **Take** in the **Action Type** field, indicates where the items are located in the picking area. If you're shipping a large number of items on one shipment line, you might have to pick the items in several bins, so there's a Take line for each bin.
-    * The next line, with **Place** in the **Action Type** field, shows where you must place the items in the warehouse. You can't change the zone and bin on this line.
+    - The first line, with **Take** in the **Action Type** field, indicates where the items are located in the picking area. If you're shipping a large number of items on one shipment line, you might have to pick the items in several bins, so there's a Take line for each bin.
+    - The next line, with **Place** in the **Action Type** field, shows where you must place the items in the warehouse. You can't change the zone and bin on this line.
 
     > [!NOTE]
     > If you must pick or place the items for one line in more than one bin, for example because the designated bin is full, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.
 
       You can sort the pick lines by various criteria, for example, by item, shelf number, or due date. Sorting can help optimize the put-away process, for example:
 
-    * If the take and place lines for each shipment line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
-    * If bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work by bin locations.
+    - If the take and place lines for each shipment line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
+    - If bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work by bin locations.
 
   > [!NOTE]  
   > Lines are sorted in ascending order by the selected criteria. If you sort by document, sorting is done first by document type based on the **Warehouse Activity Source Document** field. If you sort by ship-to, sorting is done first by destination type based on the **Warehouse Destination Type** field.
@@ -146,17 +150,18 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
     You can now bring the items to the respective area and post the usage or consumption of the picked components by posting consumption journal, assembly order, or project journal. The following articles provide more information:
 
-    * [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md)
-    * [Assemble Items](assembly-how-to-assemble-items.md)
-    * [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)
+    - [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md)
+    - [Assemble Items](assembly-how-to-assemble-items.md)
+    - [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)
 
 ## Flushing production components in an advanced warehouse configuration
 
 Flushing methods affect the flow of components in production. Learn more at [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md). Depending on the selected flushing method, you can pick components for production om the following ways:
 
-* Use a **Warehouse Pick** document to record the pick for items that use the **Manual** flushing method. You need to register consumption separately. Learn more at [Batch Post Production Consumption](production-how-to-post-consumption.md).
+* Use a **Warehouse Pick** document to record the pick for items that use the **Pick + Manual** flushing method. You need to register consumption separately. Learn more at [Batch Post Production Consumption](production-how-to-post-consumption.md).
 * Use a **Warehouse Pick** document to record the pick for items that use the **Pick + Forward**, **Pick + Backward** flushing method. Consumption of the components happens automatically either when you change the status of the production order or by starting or ending an operation. All required components must be available. Otherwise, posting flushed consumption stop for that component.
 * Use a **Warehouse Movement** document without a reference to a source document or other ways to record the movement of components that use the **Forward** or **Backward** flushing method. Components are automatically consumed either when you change of status of the production order or start or end an operation. All required components must be available. Otherwise, posting flushed consumption stops for that component. Learn more at [Move Items](warehouse-move-items.md).
+* Use a **Warehouse Movement** document without a reference to a source document or other ways to record the movement of components that use the Manual flushing method. You need to register consumption separately. For example, skipping the pick might be useful for components which, due to their nature, you store in the shop floor zone so there's no need to pick. However, you might still have to manually post consumption, for example, because the consumed quantity can vary or require item tracking. To learn more, go to [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
 ### Example
 
@@ -171,7 +176,7 @@ The following steps describe the actions that different people take and the rela
 5. The warehouse employee registers the pick. The quantity is transferred from the pick bin to the consumption bin. The **Qty. Picked** field on the component list for all picked items is updated.
 
     > [!NOTE]  
-    >  Only the quantity picked can be consumed.  
+    > Only the quantity picked can be consumed.  
 6. The machine operator informs the production manager that the end items are finished.
 7. The shop floor supervisor uses the consumption journal or production journal to post the consumption of component items that use either **Manual** flushing method.
 8. The shop floor supervisor uses the output journal or production journal to post the output. The quantity of component items that use **Pick + Forward** or **Pick + Backward** flushing methods with routing links is deducted from the To-Production bin.
@@ -188,14 +193,12 @@ In scenarios where a produced item consists of raw materials and semi-finished i
 However, if semi-finished items are available on stock, the planning system suggests that you consume those instead of producing the whole quantity. For example, a produced item requires five semi-finished components, but three are already in stock. In this case, five semi-finished items are listed in the production order components, but only two are produced in the same production order as a separate production order line.
 Such a setup isn't compatible with warehouse picks and, depending on frequency, you must either change the manufacturing policy for such semi-finished items to **Make-to-stock** or manually split the production order component line when you need to pick the semi-finished items produced earlier.
 
+## Related information
 
-## See also
-
-- [Manage Inventory](inventory-manage-inventory.md)  
-- [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
-- [Assembly Management](assembly-assemble-items.md)  
-- [Warehouse Management Overview](design-details-warehouse-management.md)
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Manage Inventory](inventory-manage-inventory.md)  
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,10 +2,10 @@
 title: Understand the general ledger and Chart of Accounts
 description: Describes the general ledger, chart of accounts, and account categories. Use the General Ledger Setup page to specify handling accounting issues in your company.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: analysis, history, track
-ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.search.form: 18, 20_Primary, 37, 65, 99, 118, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 08/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
@@ -71,7 +71,7 @@ You can define whether specific types of reports must include the accounts in ea
 
 For example, the default balance statement has a subcategory for *Cash* under *Current Assets*. If you want the balance statement to consider petty cash and checking, take the following steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Account Categories**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **G/L Account Categories**, then choose the related link.
    1. Alternatively, [open the page here](https://businesscentral.dynamics.com/?page=790).
 2. Choose the **Edit List** action.
 3. Add two new subcategories: One for petty cash, and one for your checking account:
@@ -104,7 +104,7 @@ Dimensions are values that categorize entries so you can track and analyze them 
 
 To learn more about dimensions, go to [Set up default dimensions for customers, vendors, and other accounts](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
-## See also
+## Related information
 
 [Understand the chart of accounts](finance-chart-of-accounts.md)  
 [Work with Dimensions](finance-dimensions.md)  

@@ -2,7 +2,7 @@
 title: Change the Way a Report Looks by Selecting a Different Layout
 description: You can use different layouts for a report, and switch between layouts to change how a report looks.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# (Legacy) Set the Layout Used by a Report
+# (Obsolete) Set the Layout Used by a Report
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -26,7 +26,7 @@ When custom report layouts are defined, you can select them from customer and ve
 
 ## To change which report layout to use for a report or document
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.
   
    The **Report Layout Selection** page lists all the reports that are available for the company that's specified in the **Company** field at the top of the page. The **Layout Description** <!-- **Selected Layout** -->field specifies the layout that's currently used on the report.
 2. Set the **Company** field at the top the company that includes the report.
@@ -56,7 +56,7 @@ The name of the selected custom layout is now shown in the **Custom Layout Descr
 
 You can now go to your customer and vendor cards to specify which of the layouts to use for different documents that you crate for the customer or vendor in question, such as order confirmations or payment reminders. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
 
-## See Also
+## Related information
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -3,7 +3,7 @@ title: Manage database access intent in Business Central
 description: Change the database access intent for reports, API pages, and queries.
 author: jswymer
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9880
 ms.date: 04/01/2021
@@ -27,7 +27,7 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
 
 ## To change the database access intent
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Database Access Intent List**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Database Access Intent List**, and then choose the related link.
 
     The page lists all reports, pages, and queries. The **Access Intent** column includes one of the following values:
 
@@ -44,7 +44,7 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
     > [!NOTE]
     > If an object that is editable, like the Customer Card, is set to **Read Only**, the primary database will still be used, regardless of the access intent, allowing users to make changes as normal.
 
-## See Also
+## Related information
 [Business Functionality](across-business-functionality.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

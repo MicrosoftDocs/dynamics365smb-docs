@@ -2,7 +2,7 @@
 title: XML Schemas to Prepare Data Exchange Definitions
 description: Use XML schemas to set up the data exchange framework to define which data elements you want to exchange with.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/11/2021
@@ -28,7 +28,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 1. Make sure that the relevant XML schema file is available. The file extension is .xsd.  
 
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **XML Schemas**, and then choose the related link.  
 
 3. Choose the **New** action.  
 
@@ -50,7 +50,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### To select or clear nodes in an XML schema  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schema Viewer**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **XML Schema Viewer**, and then choose the related link.  
 
 2. Fill the fields on the header as described in the following table.  
 
@@ -88,7 +88,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### To generate a data exchange definition that is based on an XML schema  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter  **XML Schemas**, and then choose the related link.  
 
 2. Select the relevant XML schema, and then choose the **Open XML Schema Viewer** action.  
 
@@ -104,7 +104,7 @@ To enable import/export of data in XML files through the data exchange framework
 > [!NOTE]
 > In 2019 release wave 1 and earlier versions, you could generate an XMLport that was based on the schema and then import that into your solution. This is no longer supported.
 
-## See Also
+## Related information
 
 [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

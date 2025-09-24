@@ -2,7 +2,7 @@
 title: Walkthrough - Managing projects with projects
 description: This walkthrough introduces you to the project management features the let you schedule the use of your company's resources.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 05/30/2024
@@ -84,7 +84,7 @@ To prepare for this walkthrough, you must add Tricia as a resource.
 
 ### To prepare the sample data  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Resources**, and then choose the related link.  
 2. Choose the **New** action to create a new resource card.  
 3. On the **General** FastTab, enter the following information:  
 
@@ -107,7 +107,7 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 ### To create a project journal batch  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Journals**, and then choose the related link.  
 2. On the **Project Journal** page, choose the **Batch Name** field. The **Project Journal Batches** page opens.  
 3. Choose the **New** action to create a new line with the following information:  
 
@@ -123,7 +123,7 @@ In this scenario, CRONUS won a contract with a customer, Progressive Home Furnis
 
 ### To set up a project  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
 2. Choose the **New** action to create a new card.  
 3. On the **General** FastTab, enter the following information:  
 
@@ -216,7 +216,7 @@ Tricia, the team project member, has been working on the project for a while and
 
 ### To calculate remaining usage  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Journals**, and then choose the related link.  
 2. On the **Project Journal** page, in the **Batch Name** field, open the **Project Journals Batches** list. Select the **Tricia** project journal batch.  
 3. Choose the **Calc. Remaining Usage** action.  
 4. On the **Project Calc. Remaining Usage** page, on the **Project Task** FastTab, choose the **Project No.** field, and select the relevant project number, typically project J00010.  
@@ -234,7 +234,7 @@ Next, Tricia can create a new invoice for the whole project or for part of a pro
 
 ### To create a project sales invoice  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
 2. Select the project that you created earlier, and then choose the **Create project Sales Invoice** action.  
 3. On the **Project Task** FastTab, clear any filter on **Project Task No.** in order to invoice the project. In the **Project No.** field, select the relevant project.  
 4. On the **Options** FastTab, fill in the posting date and define whether you want to create one invoice per task or just a single invoice for all tasks.  
@@ -244,7 +244,7 @@ After Tricia creates the invoice, it's available from the **Sales Order Processo
 
 ### To post a new sales invoice  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Invoices**, and then choose the related link.  
 2. Open the invoice for Customer No. 01445544. You can see the information that was entered from the planning lines.  
 3. Choose the **Post** action. Choose **Yes** to confirm the posting.  
 
@@ -258,7 +258,7 @@ Tricia has a question about the prices, costs, and profits that are relevant to 
 
 ### To open the Statistics page  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
 2. Choose the **Statistics** action. You can review detailed information about the project prices, costs, and profits in both local and foreign currencies.  
 3. Choose the **Close** button to close the **Project Statistics** page.  
 
@@ -268,7 +268,7 @@ CRONUS is contracted to set up conference rooms. As the project manager, Prakash
 
 ### To manage fixed pricing in projects  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
 2. Select the **Guildford** project number, and then choose the **Project Task Lines** action.  
 3. Select line 1120, and in the **Budget (Total Cost)** field, right-click the amount and choose **DrillDown**.  
 
@@ -288,7 +288,7 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
 
 ### To enter hours in a project journal  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Journals**, and then choose the related link.  
 2. On a new line, enter the following information:  
 
     - **Line Type**: **(blank)**  
@@ -354,7 +354,7 @@ You can then choose what planning line or ledger entry line type that you want t
 
 ### To copy a project  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
 2. Choose the **New** action to create a new project. Enter the following information:  
 
     - **Description**: **Setting up 10 Conference Rooms**  
@@ -380,7 +380,7 @@ CRONUS just landed a large project that will take a year to complete. Because it
 
 ### To set up a new account  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, choose the **New** action to create a new card.  
 3. On the **New G/L Account** card, enter the following information:  
 
@@ -463,7 +463,7 @@ The following procedures show how to create a new project, set pricing, and then
 
 This walkthrough has taken you through some of the basic steps of working with projects in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new project, how to copy a project, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## See also
+## Related information
 
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Setting Up Project Management](projects-setup-projects.md)  

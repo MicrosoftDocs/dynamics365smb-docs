@@ -142,12 +142,6 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 ## Project Ledger Measures
 - [Project Ledger Entry Quantity](#project-ledger-entry-quantity)
 - [Project Ledger Line Amount](#project-ledger-line-amount)
-- [Actual (Total Price)](#actual-total-price)
-- [Billable (Invoiced Price)](#billable-invoiced-price)
-- [Invoiced (Total Cost)](#invoiced-total-cost)
-- [Invoiced (Total Price)](#invoiced-total-price)
-- [Quantity](#quantity)
-- [Total Price](#total-price)
 
 ### Project Ledger Entry Quantity
 **Formula**  
@@ -204,6 +198,8 @@ The Invoiced (Total Price) measure calculates the total price of all project led
 - Job Ledger Entry
 
 ### Quantity
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 The Quantity measure calculates the total quantity of a product or service used in a project by summing the quantity in the Project Ledger Entry table and converting the measure to a positive value.

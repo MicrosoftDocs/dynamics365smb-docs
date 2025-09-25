@@ -40,10 +40,8 @@ The *Project Profitability* report includes the following KPIs:
 - [**Total Invoiced Costs**](projects-powerbi-kpis.md#total-invoiced-costs)
 - [**Total Invoiced Price**](projects-powerbi-kpis.md#total-invoiced-profit)
 - [**Budget Profit Margin %**](projects-powerbi-kpis.md#budget-profit-margin-)
-- [**Total Invoiced Profit Margin %**](projects-powerbi-kpis.md#total-invoiced-profit-margin)
-- [**Total Usage Profit Margin %**](projects-powerbi-kpis.md#total-usage-profit-margin)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

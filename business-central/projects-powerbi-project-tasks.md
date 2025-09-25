@@ -31,13 +31,11 @@ The *Project Tasks* report includes the following KPIs:
 - [**Actual (Total Price)**](projects-powerbi-kpis.md#actual-total-price)
 - [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
 - [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
-- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-%)
 - [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
 - [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
 - [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
-- [**Realization %**](projects-powerbi-kpis.md#realization-)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

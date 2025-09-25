@@ -26,15 +26,9 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ## Project Measures
 
-- [% Invoiced](#-invoiced)
-- [% Complete](#%-complete)
-- [Duration (Days)](#duration-days)
+- [No. of Completed Projects](#no-of-completed-projects)
 - [Project Count](#project-count)
 - [Tasks Count](#tasks-count)
-- [Complete (%)](#completed-)
-- [Invoiced (%)](#invoiced-)
-- [Realization %](#realization-)
-- [Realization Variance](#realization-variance)
 
 ### No. of Completed Projects
 
@@ -143,6 +137,7 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - [Total Usage Profit Margin %](#total-usage-profit-margin-)
 
 ### Project Ledger Entry Quantity
+
 **Formula**  
 The Project Ledger Entry Quantity measure aggregates the Qty. column of the Project Ledger Entry table. The sign is then inverted by multiplying by negative one.
   
@@ -731,7 +726,7 @@ The Resource Budget Price calculates the total budget amount for resources used 
 **Data Sources**
 - Job Planning Line
 
-## Totals
+## Totals for billables
 
 <!-- Billable Totals -->
 ### Total Billable Cost

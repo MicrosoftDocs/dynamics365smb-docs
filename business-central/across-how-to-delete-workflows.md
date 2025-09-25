@@ -22,7 +22,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 
 ## Delete a workflow
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, then choose the related link.
 2. Select the workflow you want to delete.
 3. Choose the **Delete** action.
 4. Alternatively, open the workflow you want to delete.

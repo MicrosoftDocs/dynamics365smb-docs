@@ -39,7 +39,7 @@ The prepaid amount belongs to the buyer until they receive the goods or services
 
 ## To add prepayment accounts to the general posting setup  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Posting Setup**, and then choose the related link.
 2. On the **General Posting Setup** page, for the relevant lines, fill in the following fields:  
 
     * **Sales Prepayments Account**  
@@ -49,13 +49,13 @@ If you don't already have general ledger accounts for prepayments, you can open 
 
 ## To set up number series for prepayment documents  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.
 2. On the **Sales & Receivables Setup** page, on the **Number Series** FastTab, fill in the following fields:  
 
    * **Posted Prepmt. Inv. Nos.**
    * **Posted Prepmt. Cr. Memo Nos.**
 
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.
+3. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchases & Payables Setup**, and then choose the related link.
 4. On the **Purchases & Payables Setup** page, on the **Number Series** FastTab, fill in the following fields:
 
     * **Posted Prepmt. Inv. Nos.**
@@ -68,13 +68,13 @@ If you don't already have general ledger accounts for prepayments, you can open 
 
 For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group. If you don't want to apply the same prepayment percentage to all customers, you must specify which customers or which customer price groups the prepayment percentage applies to.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.
 2. Select an item, and then choose the **Sales Prepayment Percentages** action.  
 3. On the **Sales Prepayment Percentages** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter the percentage on the customer or vendor card. The following procedure shows how to specify a prepayment percentage for a customer, but similar steps apply to vendors.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.
 2. Open the card for a customer.
 3. On the **Payments** FastTab, fill in the **Prepayment %** field.
 4. Repeat the steps for other customers or for vendors.  
@@ -97,13 +97,13 @@ In other words, the prepayment percentage on the customer card only applies if n
 
 You can save time by setting up a job queue entry that will automatically release sales orders that require prepayment after payments are applied. Automating the process saves you the step of releasing the sales order.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.
 2. In the **Prepmt. Auto Update Frequency** field, specify how often you want the job queue entry to run.
 
 > [!TIP]
 > While you're here, consider adding a safeguard against shipping or invoicing sales orders that have unpaid prepayment amounts. If you turn on the **Check Prepmt. when Posting** toggle, [!INCLUDE[prod_short](includes/prod_short.md)] prevents people from posting orders with outstanding prepayment amounts.
 
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
+3. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, and then choose the related link.
 4. Set up the **Upd. Pending Prepmt. Sales** job queue entry, for example, by using the settings on the **Recurrence** FastTab to schedule how often you want it to run. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 ## Related information  

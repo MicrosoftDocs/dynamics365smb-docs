@@ -47,7 +47,7 @@ When signed in as yourself, set up Alicia as an approval user whose approver is 
 
 #### To set up yourself and Alicia as approval users
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Approval User Setup**, and then choose the related link.  
 2. On the **Approval User Setup** page, choose the **New** action.  
 
     > [!NOTE]  
@@ -81,7 +81,7 @@ Create the purchase order approval workflow by copying the steps from the **Purc
 
 ### To create and enable a purchase order approval workflow
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, then choose the related link.  
 2. On the **Workflows** page, select **Actions**, then select **New**, and then choose the **New Workflow from Template** action.  
 3. On the **Workflow Templates** page, select the workflow template named **Purchase Order Approval Workflow**.  
 
@@ -95,7 +95,7 @@ Use the new Purchase Order Approval Workflow by first signing in to [!INCLUDE[pr
 ### To request approval of a purchase order, as Alicia
 
 1. Sign in as Alicia.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, then choose the related link.  
 3. Select the line to open *Purchase Order 106001*.  
 4. On the **Purchase Order** page, choose **Actions**, then **Request Approval**, and then choose the **Send Approval Request** action.  
 

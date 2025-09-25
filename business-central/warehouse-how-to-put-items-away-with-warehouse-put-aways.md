@@ -48,7 +48,7 @@ The bin ranking is used when more than one bin matches the criteria on the put-a
 
 You can create put-away documents for multiple receipts at the same time on the **Put-away Worksheet** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Worksheets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Put-away Worksheets**, and then choose the related link.  
 2. Choose the **Get Warehouse Documents** action. The **Put-away Selection** page opens.  
 
     The list contains all posted receipts that are ready to be put away, including those for which put-away instructions have already been created. Documents with put-away lines that have been completely put away and registered are not shown on this list.  
@@ -82,7 +82,7 @@ You can create put-away documents for multiple receipts at the same time on the 
 
 If a location uses both put-away processing and receive processing and you have deleted put-away lines, or if you use directed put-away and pick and have decided not to use the put-away worksheet, you can create or recreate put-away instructions for the posted receipt lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Warehouse Receipts**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Warehouse Receipts**, and then choose the related link.  
 2. Select a posted receipt to put away.  
 3. Choose the **Card** action.  
 
@@ -93,7 +93,7 @@ If a location uses both put-away processing and receive processing and you have 
 
 ## To put items away
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Put-aways**, and then choose the related link.
 
 2. Open the warehouse put-away that's ready to handle.  
 3. If your warehouse requires, enter your user ID when you start work on a put-away.  

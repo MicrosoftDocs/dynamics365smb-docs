@@ -43,7 +43,7 @@ Before you consolidate, it's a good idea to test your data before you transfer i
 ### Test the data before you consolidate
 
 1. Open the consolidated company.  
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Business Units**, and then choose the related link.  
 3. Test the file and database, as follows:  
 
     * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print**.  

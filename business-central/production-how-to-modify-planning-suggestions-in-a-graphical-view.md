@@ -31,7 +31,7 @@ The following procedure shows how to modify supply suggestions by drag and drop.
 
 ## To modify suggested supply orders in the graphical view
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Planning Worksheet**, and then choose the related link.  
 
 2. Choose the line that you want to see item availability for, choose **Item Availability by**, and then choose **Timeline**.
 

@@ -79,7 +79,7 @@ You can assign a default dimension for a specific account. The dimension is copi
 >
 > We recommend that you to test your default dimensions setup, dimension priorities, and the order in which you enter data in documents.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimensions**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Dimensions**, then choose the related link.  
 2. On the **Dimensions** page, select the relevant dimension, then choose the **Account Type Default Dim** action.  
 3. Fill in a line for each new default dimension you want to set up. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -96,7 +96,7 @@ You can assign a default dimension for a specific account. The dimension is copi
 
 Different account types, such as a customer account and an item account, can have different default dimensions. As a result, an entry might have more than one  proposed default dimension. To avoid such conflicts, you can apply priority rules to the different sources.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Default Dimension Priorities**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Default Dimension Priorities**, then choose the related link.  
 2. On the **Default Dimension Priorities** page, in the **Source Code** field, enter the source code for the entry table to which the default dimension priorities will apply.  
 3. Fill in a line for each default dimension priority you want for the selected source code.
 4. Repeat the procedure for each source code you want to set up default dimension priorities for.  
@@ -108,7 +108,7 @@ Different account types, such as a customer account and an item account, can hav
 
 To avoid posting entries with contradictory or irrelevant dimensions, you can block or limit specific combinations of two dimensions. A blocked dimension combination means you can't post both dimensions on the same entry regardless of what the dimension values are. In contrast, a limited dimension combination means you can post both dimensions to the same entry, but only for certain combinations of dimension values.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimension Combinations**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Dimension Combinations**, and then choose the related link.  
 2. On the **Dimension Combinations** page, choose the dimension combination field you want from the following options.  
 
     |Field|Description|
@@ -139,14 +139,14 @@ Global and shortcut dimensions can be used as filters in [!INCLUDE[prod_short](i
 > [!NOTE]
 > When you add or change a global or shortcut dimension, you are automatically signed out and back in so the new value is prepared for use.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Ledger Setup**, then choose the related link.
 2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### To change global dimensions
 
 When you change a global or shortcut dimension, all entries posted with that dimension are updated. Because this process may be time-consuming and can affect performance, two different modes are provided to adapt the process to the size of the database.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.
 2. Choose the **Change Global Dimensions** action.
 3. At the top of the page, select one of the following two modes for running the batch job.
 
@@ -231,7 +231,7 @@ Global dimensions are always company-defined and company-named. To see the globa
 
 In a ledger entry page, you can see whether there are global dimensions for the entries. The two global dimensions differ from your other dimensions because you can use them as filters anywhere in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**,  then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Chart of Accounts**,  then choose the related link.  
 2. On the **Chart of Accounts** page, choose the **Ledger Entries** action.  
 3. To see only entries that are relevant, set one or more filters on the page.  
 4. To see all the dimensions for an entry, select the entry, then choose the **Dimensions** action.  

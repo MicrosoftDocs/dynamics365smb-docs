@@ -46,7 +46,7 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 
 ## To create pick documents in bulk with the pick worksheet
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Pick Worksheet**, and then choose the related link.  
 
 2. Choose the **Get Warehouse Documents** action.  
 
@@ -96,7 +96,7 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 
 ## To pick items for a warehouse shipment
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Picks**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Picks**, and then choose the related link.  
 
     If you need to work on a particular pick, select the pick from the list or filter the list to find the picks that have been assigned to you specifically. Open the pick card.  
 2. If the **Assigned User ID** field is empty, enter your ID to identify yourself if needed.  

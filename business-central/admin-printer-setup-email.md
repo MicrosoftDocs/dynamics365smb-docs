@@ -30,7 +30,7 @@ This article explains how to set up email-enabled printers in [!INCLUDE[prod_sho
 
 The **Printer Management** page shows you the printers currently set up. The page also enables you to access the **Settings** page for each printer to edit an existing setup or set up a new printer.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Printer Management**, then select the related link.
 2. Select **Email Print**, then choose **Add an email printer**.
 3. On the **Email Printer Settings** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

@@ -20,7 +20,7 @@ Tax authorities can, and do, change their requirements for posting VAT. VAT Stat
 
 VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **VAT Statements**, and then choose the related link.  
 2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page.
 3. Fill in the required fields. Usually you want to have a setting for each VAT Bus. Posting Group / VAT Prod. Posting Group combination. For Row numbers it does make sense to use equivalent numbers or codes as in your official VAT Statement [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

@@ -25,7 +25,7 @@ The following table describes the options for blocking customers.
 |**All**|No transaction is allowed for this customer, including payments.|  
 
 ## To block a customer  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.
 2. Select a customer, and then choose the **Edit** action.
 3. In the **Blocked** field, choose what to block, as described in the table above.
 

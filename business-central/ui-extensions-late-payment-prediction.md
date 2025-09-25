@@ -21,7 +21,7 @@ When you open a posted sales document, a notification displays at the top of the
 
 To enable the extension manually, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 > [!NOTE]
@@ -89,7 +89,7 @@ If your processes don't match the standard model, you can use the extension but 
 
 #### To train and use your model
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. In the **Selected Model** field, choose **My Model**.
 3. Choose the **Create My Model** action, to train model on your data.  
 
@@ -97,7 +97,7 @@ If your processes don't match the standard model, you can use the extension but 
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you have to create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. Choose the **Use My Azure Subscription** check box.
 3. On the **Use My Azure Subscription** FastTab, enter the API URL and API key for your model.  
 

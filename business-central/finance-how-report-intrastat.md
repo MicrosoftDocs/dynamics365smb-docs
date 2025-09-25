@@ -28,7 +28,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 
 ## Fill in the Intrastat report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report List**, and choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat Report List**, and choose the related link.
 2. Choose **New** action to create a new **Intrastat Report**.
 3. If you need to enter some internal information about the **Intrastat Report**, fill in this information in the **Description** field.
 4. In the **Statistic Period** field, specify the month to report data for. Enter the period as a four-digit number with no spaces or symbols. Depending on your country/region, enter either the month first and then the year, or vice versa. For example, enter either *2206* or *0622* for June 2022.
@@ -77,7 +77,7 @@ If you got the error message *'Total Weight' in Intrastat Report Line must not b
 
 You can submit the Intrastat report as a file based on different local authorities' requirements. Before creating the file, you should run the **Checklist Report** to check if all lines contain all necessary and valid information. To create a file:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat List**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intrastat List**, then choose the related link.
 2. Choose **Intrastat Report** you want to report as a file.
 3. If you haven't already done this, fill in the **Intrastat Report** manually or choose the **Suggest Lines** action.
 4. Choose the **Create File** action.

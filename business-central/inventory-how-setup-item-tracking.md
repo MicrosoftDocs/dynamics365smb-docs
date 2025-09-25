@@ -26,7 +26,7 @@ Depending on your configuration, you use these different numbers to keep track o
 
 An item tracking code reflects the different considerations regarding the use of serial and lot numbers for items moving through the inventory.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Tracking Codes**, and then choose the related link.  
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. On the **Serial No.**, **Lot No.**, and the **Package Tracking** FastTabs, define policies of item tracking by serial, lot, and package numbers respectively.  
@@ -43,7 +43,7 @@ Because these setup fields cover all possible transactions with the item, the in
 
 For some items, you might want to set up specific expiration dates and rules in the item tracking code. This functionality allows you to keep track of when specific serial numbers and lot numbers expire.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Tracking Codes**, and then choose the related link.
 2. Select an existing item tracking code, and then choose the **Edit** action.  
 3. On the **Misc.** FastTab, select the following fields:  
 
@@ -57,7 +57,7 @@ For some items, you might want to set up specific expiration dates and rules in 
 
 For some items, you might want to set up specific warranties in the item tracking code. This functionality allows you to keep track of when the warranties on specific serial or lot numbers in your inventory expire.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item Tracking Codes**, and then choose the related link.  
 2. Select an existing item tracking code, and then choose the **Edit** action.  
 3. On the **Misc.** FastTab, fill in the **Warranty Date Formula** field, and then select the fields as follows:  
 
@@ -70,7 +70,7 @@ For some items, you might want to set up specific warranties in the item trackin
 
 To enable item tracking, you first have to assign the item tracking codes to an item. There are two ways to add item tracking codes, by selecting the code from a predefined list or by assigning a new unique code. Hover over the fields to read a short description.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Item**, and then choose the related link.
 2. Select an existing item from the list, and open the **Item Card** page.  
 3. On the **Item Tracking** FastTab, assign the appropriate item tracking codes and choose the **Item Tracking Code**, the **Serial Nos.**, and the **Lot Nos.**.
     1. Alternatively you can also create a new item tracking code by selecting the **New** action.

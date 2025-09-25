@@ -19,7 +19,7 @@ Instead of posting individual documents one by one, you can select multiple non-
 
 The following procedure explains how to post multiple purchase orders immediately. The steps are similar for all purchase and sales documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.
 2. On the **Purchase Orders** page, proceed to select all orders to be posted:
 3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
 4. Select the check box for all the lines representing orders that you want to post at the same time.
@@ -30,7 +30,7 @@ The following procedure explains how to post multiple purchase orders immediatel
 
 The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.  
 2. On the **Purchase Orders** page, proceed to select all orders to be posted:
 3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
 4. Select the check box for all the lines representing orders that you want to post at the same time.
@@ -47,7 +47,7 @@ Job queues are an effective tool to schedule the running of business processes i
 
 The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.
 2. On the **Sales & Receivables Setup** page, choose the **Post with Job Queue** check box.
 3. Choose the **Job Queue Category Code** field, and then specify the **SALESPOST** code.
 
@@ -80,7 +80,7 @@ Alternatively, you can postpone postings for when it is convenient for your orga
 
 The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post sales orders at 4 PM on weekdays.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **Object Type to Run** field, select **Report**.  
 4. In the **Object ID to Run** field, select 296, **Batch Post Sales Orders**.

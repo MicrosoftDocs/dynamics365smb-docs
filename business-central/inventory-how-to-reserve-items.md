@@ -27,7 +27,7 @@ Each line you open to reserve items displays information about one type of line 
 
 The following procedure describes how to reserve items from a sales order. The steps are similar for purchase, service, transfer, and assembly orders.
   
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, then choose the related link.  
 2. Choose the sales order.
 3. On the **Lines** FastTab, choose the **Reserve** action. The **Reservation** page opens.  
 4. Select the line you want to reserve the items from.  
@@ -48,7 +48,7 @@ You can reserve items for production orders. You must distinguish between produc
 
 In the following procedure, a firm planned production order is used.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Firm Planned Prod. Order**, then choose the related link.  
 2. Open the firm planned production order you want to reserve parent items for.  
 3. Select the relevant production order line.  
 4. On the **Lines** FastTab, in the **Functions** group, choose the **Reserve** action.
@@ -62,7 +62,7 @@ You can reserve items for production orders. You have to distinguish between pro
 
 In the following procedure, a firm planned production order is used.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Firm Planned Prod. Order**, then choose the related link.  
 2. Open the firm planned production order you want to reserve component items for.  
 3. Select the relevant production order line.  
 4. On the **Lines** FastTab, choose **Line**, then choose **Components**.  
@@ -76,7 +76,7 @@ The quantity you entered in the firm planned production component line is now re
 
 Use the **Reservation Worksheet** page to reserve and allocate incoming goods in bulk. For example, bulk reservations can help ensure that quantities are available for your sales and production orders. You can have multiple batches for different purposes. For example, you might allocate production orders on a weekly basis but reserve daily for sales.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reservation Worksheet**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Reservation Worksheet**, then choose the related link.  
 1. Choose the **Get Demand** action. The **Get Demand to Reserve** page opens.
 1. On the **Get Demand to Reserve** page, specify the kind of demand you want to reserve from available inventory.
 1. Fill in the filters as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -122,7 +122,7 @@ This practice is referred to as a specific reservation, because you reserve from
 
 The following procedure is based on a sales order.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then select the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then select the related link.  
 2. Create a sales order line for an item-tracked item.  
 3. Assign serial and lot numbers to the sales order line. Learn more at [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 4. On the sales order line, choose the **Reserve** action.  

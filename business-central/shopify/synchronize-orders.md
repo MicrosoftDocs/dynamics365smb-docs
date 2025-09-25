@@ -203,6 +203,10 @@ You can also mark an order as paid, which is useful in a B2B scenario where paym
 
 If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, fix the problems, and then create the sales order again.
 
+### Order Total FactBox
+
+The **Order total** part in the **Shopify Orders** page displays totals from both the order in Shopify and the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)]. The totals let you compare figures without opening each document, which can be helpful when you're testing customer and item templates.
+
 ### To create sales documents
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.

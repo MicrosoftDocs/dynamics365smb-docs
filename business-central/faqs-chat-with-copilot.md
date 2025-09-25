@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Chat with Copilot (preview)
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 09/15/2025
+ms.date: 09/25/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -23,7 +23,7 @@ These frequently asked questions (FAQ) describe the AI impact of Chat with Copil
 
 Microsoft Copilot is an AI-powered assistant that helps you be more creative, productive, and efficient. You can chat with Copilot in Business Central to get answers and insights about [!INCLUDE[prod_short](includes/prod_short.md)] and your business data by typing what you want to know in natural language.
 
-Chat with Copilot, also called chat, is an interactive feature that answers your questions without requiring you to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the [!INCLUDE[prod_short](includes/prod_short.md)] client.
+Chat with Copilot, also called chat, is an interactive feature that answers your questions without requiring you to navigate the user interface or online documentation. The Copilot pane is available from anywhere in the [!INCLUDE[prod_short](includes/prod_short.md)] client.
 
 You can ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?" In response, Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in [!INCLUDE[prod_short](includes/prod_short.md)], and links to [!INCLUDE[prod_short](includes/prod_short.md)] help articles on Microsoft Learn.
 
@@ -36,7 +36,7 @@ You can chat with Copilot to get answers to the following classes of questions:
 You can ask Copilot to explain a specific concept related to [!INCLUDE[prod_short](includes/prod_short.md)], like what are dimensions, or provide guidance on how to complete a task, like how to post a sales order. Copilot searches the official [!INCLUDE[prod_short](includes/prod_short.md)] documentation published by Microsoft, and provides an answer based on the documentation.
 
 - Copilot uses the knowledge on Microsoft Learn (not a broad web search) to semantically search only Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] documentation on Microsoft Learn. This includes product documentation, release plans, local functionality content, and troubleshooting content.
-- Copilot can also use knowledge from the 3rd party apps that your administrator has installed to [!INCLUDE[prod_short](includes/prod_short.md)]. This knowledge source is provided by the app publisher as part of the app, so Copilot doesn't do a broad web search here either. 
+- Copilot can also use knowledge from the non-Microsoft apps that your administrator installed to [!INCLUDE[prod_short](includes/prod_short.md)]. This knowledge source is provided by the app publisher as part of the app, so Copilot doesn't do a broad web search here either. 
 - Copilot doesn't take action, create new data, or modify any configuration. It simply summarizes any paragraphs it finds on in online documentation that match the question or prompt in chat.
 
 ### Find business data and related pages
@@ -103,7 +103,7 @@ Chat is designed to be secure and executes under the user's identity, inheriting
 
 For users with SUPER permission, chat can more easily locate unsecured data that's typically harder to get to for other users. Organizations that don't apply [!INCLUDE[prod_short](includes/prod_short.md)]'s security model to restrict which tables and objects each user or user role has access to, might be at elevated risk when using chat. Therefore, we recommend that your organization either implements [!INCLUDE[prod_short](includes/prod_short.md)]'s security model or deactivates chat.
 
-When Copilot needs to answer questions about 3rd party apps, it searches the online help content associated with those apps, powered by Bing Search. To ensure security and safety;
+When Copilot needs to answer questions about non-Microsoft apps, it searches the online help content associated with those apps, powered by Bing Search. To ensure security and safety;
 
 - Copilot only searches these specific URLs and doesn't perform a broad web search
 - [!INCLUDE[prod_short](includes/prod_short.md)] applies various mechanisms such as content filtering and malicious site detection to reduce risk from these websites.

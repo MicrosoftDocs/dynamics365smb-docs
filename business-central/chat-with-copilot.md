@@ -27,18 +27,19 @@ Microsoft Copilot is an AI-powered assistant that helps spark creativity, boost 
 
 - Find business data for your company in Business Central. Use chat to look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, and items. For example, ask: "Show me the latest sales order for Adatum".
 
-  Copilot can also organize data for you. Just ask it to group records or do calculations like adding or averaging, and it generates an analysis tab, displaying the results.
+  Copilot can also organize data for you. Just ask it to group records or do calculations like adding or averaging, and it generates an analysis tab, displaying the results. Learn more about prompting in [Prompting for aggregating data on analysis tabs](#prompting-for-aggregating-data-on-analysis-tabs).
 
-- Get explanations or step-by-step guidance on various tasks. For example, ask: "Help me understand dimensions" or "How do I post a sales order". Learn more about prompting in [Prompting for aggregating data on analysis tabs](#prompting-for-aggregating-data-on-analysis-tabs).
+- Get explanations or step-by-step guidance on various tasks. For example, ask: "Help me understand dimensions" or "How do I post a sales order?". You can also ask for explanations about the apps installed in your Business Central. For example, you can ask “how do I cancel hotel reservations?” if you installed a hotel management app.
 - Know the purpose and use of each field. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
   
-Using chat with Copilot streamlines your workflow by bypassing traditional navigation and product help. Watch [Work smarter with Copilot in Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2250609) to learn more.
+Using chat with Copilot streamlines your workflow by bypassing traditional navigation and product help. To learn more, watch [Work smarter with Copilot in Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2250609).
 
-Copilot's source responses are generated from the official [Microsoft Dynamics 365 Business Central documentation](/dynamics365/business-central/) page.
+Copilot's responses are generated from the official [Microsoft Dynamics 365 Business Central documentation](/dynamics365/business-central/) site or the documentation that accompanies the apps installed to Business Central.
 
 ## Prerequisites
 
-- The **Chat** capability is activated by an administrator. Learn more in [Configuring Copilot and agent capabilities](enable-ai.md).
+- The **Chat** capability must be activated by an administrator. Learn more in [Configuring Copilot and agent capabilities](enable-ai.md).
+- To get answers to questions about installed add-on apps, the **Enable Bing Search** option must be turned on in **Copilot and agent capabilities**. Learn more in [Searching the web with Copilot](ai-search-web-copilot.md).
 
 ## Get started using chat with Copilot
 
@@ -120,6 +121,10 @@ In this example, you ask Copilot to solve a common date puzzle that typically re
 Prompt: `How does I save my filterrings for later?`
 
 In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot can usually understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
+
+Prompt: `How do I cancel a hotel reservation?`
+
+In this example, you ask Copilot for guidance about custom functionality that happens to be provided by an add-on app or custom extension to Business Central. Copilot is often able to answer questions about customizations that you installed, including questions about fields, issues, pages, and business processes. For some domains, Copilot might interpret your question as unrelated to Business Central. You can improve the quality of the responses by including the name of the add-on app in your prompt, especially if you have multiple apps installed.
 
 ## Provide feedback on answers
 

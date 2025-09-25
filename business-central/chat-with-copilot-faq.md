@@ -43,10 +43,10 @@ Chat is available no matter which language you use in [!INCLUDE[prod_short](incl
 
 ## Does chat work with my customizations?
 
-It depends on the type of question you ask Copilot. For example:
+Yes.
 
 - If you ask questions to find records, it can find records in your custom tables or find and filter custom fields.
-- If you ask Copilot for an explanation or guidance, it can provide answers about functionality from the apps that you installed to [!INCLUDE[prod_short](includes/prod_short.md)]. The capability requires that app publishers provide documentation for their apps on the web, and Bing Search is enabled for Copilot in Business Central. Learn more in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
+- If you ask Copilot for an explanation or guidance, it can provide answers about functionality from the apps that you installed to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
@@ -70,7 +70,7 @@ Copilot might occasionally answer in different ways. Answers aren't always ident
 
 ## How do I use the Copy function on chat messages?
 
-You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot. When Copilot provides a record summary in the Copilot pane, the summary can also be copied using a Copy menu item.
+You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot. When Copilot provides a record summary in the Copilot pane, the summary can also be copied using a **Copy** menu item.
 
 ## Can I customize or extend chat?
 
@@ -82,7 +82,7 @@ Copilot only searches for records in the company you're currently signed into. I
 
 ## How does chat treat data residency?
 
-The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation and Bing Search to provide answers about installed apps.
+The chat feature relies on Azure OpenAI Service for AI, Microsoft Learn for online documentation, and Bing Search to provide answers about installed apps.
 
 - Azure OpenAI Service  
   Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
@@ -100,6 +100,10 @@ The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for o
 
   To prevent chat from connecting to the Bing Search service, turn off the Enable Bing Search switch from the Copilot & agent capabilities page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
 
+## Why don't I see the Ask Copilot button on all tooltips?
+
+At this time, a one-click mechanism to ask Copilot to explain a particular field is only available for fields from Business Central. This feature isn't yet available for custom fields originating from add-on apps and customizations.
+
 ## What can I do if the chat pane doesn't show?
 
 - Make sure your [!INCLUDE[prod_short](includes/prod_short.md)] is version 25.4 or later.
@@ -111,7 +115,7 @@ The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for o
 
 We're continually working on improving reliability and response time.
 
-We encourage administrators to try out experimental features on sandbox environments. To experience the latest improvements to chat, enable the **Feature: Enables advanced navigation (not data) search capabilities by utilizing semantic similarity search on application metadata.** key on the **Feature Management** page. This feature uses superior AI technology to match user inquiries with the names of pages, fields, and tables. Learn more in [Use semantic search to find pages and reports with Copilot chat](/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key).
+We encourage administrators to try out experimental features on sandbox environments. To experience the latest improvements to chat, enable the **Feature: Enables advanced navigation (not data) search capabilities by utilizing semantic similarity search on application metadata** key on the **Feature Management** page. This feature uses superior AI technology to match user inquiries with the names of pages, fields, and tables. Learn more in [Use semantic search to find pages and reports with Copilot chat](/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key).
 
 We look forward to getting your feedback about how Copilot can provide better assistance to your workday.
 

@@ -36,7 +36,7 @@ To use ADCS, you must specify which warehouse locations use the technology.
 > [!NOTE]  
 > We recommend that you don't set up a warehouse to use ADCS if it also has a bin capacity policy.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and choose the related link.
 2. Select the warehouse for which you want to enable ADCS, and then choose the **Edit** action.
 3. On the **Location Card** page, turn on the **Use ADCS** toggle.  
 
@@ -44,7 +44,7 @@ To use ADCS, you must specify which warehouse locations use the technology.
 
 Each warehouse item that you want to use with ADCS must be assigned an identifier code to link it with its item number. For example, you can use the item's bar code as the identifier code. An item can also have multiple identifier codes. You may find this useful in the case where an item is available in various units of measures, such as pieces and pallets. In this case, assign an identifier code to each.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Items**, and then choose the related link.  
 2. Select an item from the list that is part of your ADCS solution, and then choose the **Edit** action.
 3. On the **Item Card** page, choose the **Identifiers** action.
 4. On the **Item Identifiers** page, choose the **New** action.
@@ -60,14 +60,14 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 
 You can add any user to an ADCS. When you do, the user must provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from their sign-in password. Learn more at [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ADCS Users**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **ADCS Users**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **Name** field, enter a name for the user. The name can't have more than 20 characters, including spaces.  
 4. In the **Password** field, enter a password.  
 
 ### To specify that a warehouse employee is an ADCS user  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Employees**, and then choose the related link.  
 2. If needed, add a new warehouse employee. Learn more at [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).  
 3. Choose the **Edit List** action.  
 4. Select a warehouse employee from the list. In the **ADCS User** field, choose the name of an ADCS user from the list.  
@@ -89,7 +89,7 @@ You use miniforms to describe the information that you want to present on a hand
 
 ### To create a miniform for ADCS  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Miniforms**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **Code** field, enter a code for the miniform. Optionally, enter values in all other fields.  
 
@@ -101,7 +101,7 @@ When you have created a miniform, the next steps are to create functions and to 
 
 ### To customize miniform functions
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Miniforms**, and then choose the related link.  
 2. Select a miniform from the list, and then choose the **Edit** action.  
 3. Choose the **Functions** action.  
 4. In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select **ESC** to associate functionality with the **ESC** key.  

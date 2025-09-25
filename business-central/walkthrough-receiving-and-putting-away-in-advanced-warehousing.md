@@ -55,7 +55,7 @@ To complete this walkthrough, you will need:
 -   CRONUS installed.  
 -   To make yourself a warehouse employee at WHITE location by following these steps:  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Employees**, and then choose the related link.  
 2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
@@ -70,7 +70,7 @@ The setup of the **Location Card** page defines the company's warehouse flows.
 
 ### To review the location setup  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.  
 2.  Open the WHITE location card.  
 3.  Note on the **Warehouse** FastTab that the **Directed Put-away and Pick** check box is selected.  
 
@@ -86,7 +86,7 @@ Purchase orders are the most common type of inbound source document.
 
 ### To create the purchase orders  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
@@ -118,7 +118,7 @@ Purchase orders are the most common type of inbound source document.
 On the **Warehouse Receipt** page, you can manage multiple inbound orders for source documents, such as a purchase order.  
 
 ### To receive the items  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Warehouse Receipts**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select **Actions** then **Functions** then choose the **Use Filters to Get Src. Docs.** action.  
@@ -138,7 +138,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
 
 ### To put the items away  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Put-Aways**, and then choose the related link.  
 2.  Select the only warehouse put-away document in the list, and then choose the **Edit** action.  
 
     The warehouse put-away document opens with a total of eight Take or Place lines for the four purchase order lines.

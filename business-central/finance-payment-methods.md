@@ -28,14 +28,14 @@ Credit memos for returns, however, are exceptions because money is flowing in th
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides a few payment methods that businesses often use. You can, however, add as many as you need.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Methods**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Optionally, add payment terms to your payment method. For more information, see [Set Up Payment Terms](finance-payment-terms.md).  
 
 ## To assign a payment method to a customer or vendor
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customer** or **Vendor**, and then choose the related link.
 2. In the **Payment Method Code** field, choose the method to use by default for the customer or vendor.
 
 ## Audit changes to payment methods

@@ -33,7 +33,7 @@ The credit memo posting will also revert any item charges that were assigned to 
 
 ## To create a sales credit memo from a posted sales invoice  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Sales Invoices**, and then choose the related link.  
 2. On the **Posted Sales Invoices** page, select the posted sales invoice that you want to reverse, choose the **Cancel** action, and then choose the **Create Corrective Credit Memo** action.
 
     The sales credit memo header contains some information from the posted sales invoice. You can edit this, for example, with new information that reflects the return agreement.  
@@ -56,7 +56,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
 
 ## To create a sales credit memo by copying a posted sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty sales credit memo.
 3. In the **Customer Name** field, enter the name of an existing customer.
 4. Choose the **Prepare** action, then choose the **Copy Document** action.
@@ -70,7 +70,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
 You can send a customer a credit memo with a price reduction if the customer has received slightly damaged items or received the items late.  
 You can post this reduced price as an item charge in a credit memo or a return order and assign it to the posted shipment. The following describes it for a sales credit memo, but the same steps apply to a sales return order.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty sales credit memo.
 3. Fill in the credit memo header with relevant information about the customer that you want to give the sales allowance to.  
 4. On the **Lines** FastTab, in the **Type** field, select **Charge (Item)**.  
@@ -93,7 +93,7 @@ To combine return receipts, the **Combine Shipments** check box must be selected
 
 ### To manually combine return receipts  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Credit Memos**, and then choose the related link.  
 2. Choose the **New** action.
 3. On the **General** FastTab, fill in the fields as necessary.  
 4. Choose the **Get Return Receipt Lines** action.  
@@ -109,7 +109,7 @@ To combine return receipts, the **Combine Shipments** check box must be selected
 
 You can automatically combine return receipts and have the option of automatically posting the credit memos using the  **Combine Return Receipts** function.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Return Receipts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Combine Return Receipts**, and then choose the related link.
 2. On the **Combine Return Receipts** page, fill in the fields to select the relevant return receipts.
 3. Select the **Post Credit Memos** check box. If not, you must manually post the resulting purchase credit memos.
 4. Choose the **OK** button.  
@@ -120,7 +120,7 @@ When you invoice return receipts in this way, the return orders from which the r
 
 When return receipts are combined on a credit memo and posted, a posted sales credit memo is created for the credited lines. The **Quantity Invoiced** field on the originating sales return order is updated based on the invoiced quantity.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Sales Return Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Delete Invoiced Sales Return Orders**, and then choose the related link.  
 2. Specify in the **No.** filter field which return orders to delete.  
 3. Choose the **OK** button.  
 

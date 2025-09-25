@@ -17,7 +17,7 @@ You cannot create an invoice without a customer number. This is true, even if yo
 
 ## To set up a cash customer
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customer**, and then choose the related link.  
 2. Create a new **Customer** card. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 3. In the **No.** field, enter **Cash**, for example.  
 4. In the **Name** field, enter **Cash Sale**, for example.  

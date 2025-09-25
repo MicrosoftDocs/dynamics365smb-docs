@@ -23,7 +23,7 @@ Over time, as different people create new customers, vendors, or contacts, or yo
 
 The following procedure is based on a customer card. The steps are similar for a vendor and contact cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and then choose the related link.
 2. Select the customer that you know or suspect that a duplicate record exists for, and then choose the **Edit** action.
 3. On the **Customer Card** page, choose the **Merge With** action.
 4. On the **Merge Duplicate** page, in the **Merge With** field, select the customer that you believe is a duplicate of the one you opened, which shows in the **Current** field.

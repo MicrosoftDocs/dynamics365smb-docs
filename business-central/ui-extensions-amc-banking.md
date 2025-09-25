@@ -51,13 +51,13 @@ For each new permission set, grant only the **Read** permission for the **AMC Ba
 ### To connect the extension to AMC Banking
 
 1. Get a module and a service plan for AMC Banking. To do that, visit the [AMC License](https://license.amcbanking.com/register) page.
-2. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **AMC Banking Setup**, and then choose the related link.  
+2. In [!INCLUDE[prod_short](includes/prod_short.md)], [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **AMC Banking Setup**, and then choose the related link.  
 3. On the **AMC Banking Setup** page, choose the **Assisted Setup** action.
 4. Complete the steps in the assisted setup guide.
 
 ### To connect bank accounts to the extension
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.
 2. Open the card for the bank account that you want to connect to the service.
 3. In the **Name** field, choose the format that your bank requires.  
 
@@ -77,7 +77,7 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 > [!CAUTION]  
 > When you export data by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 2. Create the journal lines that you want to export.  
 
    > [!NOTE]
@@ -86,7 +86,7 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 
 ### To import and apply the converted file
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Choose the **Import Bank Transaction** action, and then choose the converted file.  
 
    [!INCLUDE[prod_short](includes/prod_short.md)] will create a new payment reconciliation journal that contains the data in the file. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).

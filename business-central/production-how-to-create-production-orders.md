@@ -16,7 +16,7 @@ Typically, businesses use the planning engine to create production orders automa
 
 ## To create a production order header
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Firm Planned Prod. Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **No.** field, add the next number in the number series you use for production orders.  
 4. In the **Source Type** field, select the source of the production order:

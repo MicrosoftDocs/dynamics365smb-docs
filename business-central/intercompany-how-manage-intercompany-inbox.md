@@ -63,7 +63,7 @@ You can get an overview of all of the intercompany transactions that you have se
 If you have an intercompany partner that is not in the same database as your company, you can receive intercompany transactions from that partner in an .xml file. Then you must import the transactions into your inbox.  
 
 1. Save the file to the location that you specified in the **Intercompany Inbox Details** field when you set up intercompany.  
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.
+2. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Inbox Transactions**, and then choose the related link.
 3. On the **Intercompany Inbox Transactions** page, choose the **Import Transaction File** action.  
 4. on the page that appears, select the .xml file that contains the transactions, and then choose the **Open** button.  
 
@@ -73,7 +73,7 @@ The transactions are imported into the inbox and you can now process them.
 
 When your intercompany partners send you intercompany transactions, the transactions end up in your intercompany inbox. You must evaluate each transaction in your inbox and act on it.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Inbox Transactions**, and then choose the related link.  
 2. On the **Intercompany Inbox Transactions** page, select a line, and then choose an action, such as **Accept**, to process the line.
 3. On the **Complete IC Inbox Action** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.  
@@ -88,7 +88,7 @@ For lines that a partner rejected and returned to you, you must post a correctio
 
 When you post an intercompany journal or document, or send an intercompany order confirmation, the transactions go to your intercompany outbox. To send them to your intercompany partners, open the outbox and process them.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Outbox Transactions**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Outbox Transactions**, and then choose the related link.  
 2. On the **Intercompany Outbox Transactions** page, select a line, and then choose an action, such as **Return to Inbox**, to process the line.
 
 Use the **Send to Intercompany Partner** action to send lines to the relevant partner's inbox.
@@ -103,7 +103,7 @@ You might want to re-create a transaction in the inbox or outbox. For example, i
 
 The following procedure describes to re-create inbox transactions, but the same steps also apply to the outbox.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Handled IC Inbox Transactions**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Handled IC Inbox Transactions**, and then choose the related link.  
 2. On the **Handled IC Inbox Transactions** page, select the line with the transaction that you want to re-create in the inbox, and then choose the **Re-create Inbox Transaction** action.  
 
 ## Related information

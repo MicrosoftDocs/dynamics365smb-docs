@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: reject, delegate, request
-ms.search.form: 1533,
+ms.search.form: 1533_Primary
 ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -21,7 +21,7 @@ On the **Workflow User Groups** page, you can specify where a participant engage
 
 ## To set up a workflow user group
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflow User Groups**, then choose the related link.  
 2. Choose the **New** action. The **Workflow User Group** page opens.  
 3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
 4. In the **Description** field, describe the workflow.  

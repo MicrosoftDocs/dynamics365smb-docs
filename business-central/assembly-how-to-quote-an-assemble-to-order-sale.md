@@ -22,7 +22,7 @@ As when you sell any other type of item, you can also create a sales quote for a
 
 ## To create a sales quote for an assemble-to-order item
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quote**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Quote**, and then choose the related link.  
 2.  Create a sales quote line with one line for an assembly item. For more information, see [Make Sales Quotes](sales-how-make-offers.md).  
 3.  In the **Qty. to Assemble to Order** field, enter the full quantity.
 

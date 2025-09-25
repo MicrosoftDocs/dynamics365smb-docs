@@ -24,7 +24,7 @@ For each project, specify various information:
 
 ## To set general information for projects
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -69,7 +69,7 @@ You can set up prices for the items, resources, and general ledger accounts rela
 
 #### [Current Experience](#tab/current-experience)
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project**, and then choose the related link.  
 2. Select the project, and then choose the **Resource**, **Item**, or **G/L Account** action.
 3. On the **Project Resource Prices**, **Project Item Prices**, or **Project G/L Account Prices** pages, fill in the fields as necessary.
 
@@ -83,7 +83,7 @@ When you choose a resource, item, or general ledger account for a project, [!INC
 
 #### [New Experience](#tab/new-experience)
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
 2. Select the relevant project, and then choose the **Sales Price Lists** action.
 
 ---
@@ -95,7 +95,7 @@ One aspect of planning projects is deciding which posting accounts to use for pr
 > [!NOTE]  
 > You must set up accounts in the chart of accounts before you set up posting groups. For more information, see [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Posting Groups**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Posting Groups**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
 | Account field | Description | Used in WIP Type |

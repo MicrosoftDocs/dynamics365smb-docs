@@ -143,6 +143,37 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - [Project Ledger Entry Quantity](#project-ledger-entry-quantity)
 - [Project Ledger Line Amount](#project-ledger-line-amount)
 
+<!-- ### Statistics -->
+<!-- #### Invoiced Cost -->
+- [G/L Account Invoiced Cost](#gl-account-invoiced-cost)
+- [Item Invoiced Cost](#item-invoiced-cost)
+- [Resource Invoiced Cost](#resource-invoiced-cost)
+<!-- #### Invoiced Price -->
+- [G/L Account Invoiced Price](#gl-account-invoiced-price)
+- [Item Invoiced Price](#item-invoiced-price)
+- [Resource Invoiced Price](#resource-invoiced-price)
+<!-- #### Invoiced Profit -->
+- [G/L Account Invoiced Profit](#gl-account-invoiced-profit)
+- [Item Invoiced Profit](#item-invoiced-profit)
+- [Resource Invoiced Profit](#resource-invoiced-profit)
+<!-- #### Usage Cost -->
+- [G/L Account Usage Cost](#gl-account-usage-cost)
+- [Item Usage Cost](#item-usage-cost)
+- [Resource Usage Cost](#resource-usage-cost)
+<!-- #### Usage Price -->
+- [G/L Account Usage Price](#gl-account-usage-price)
+- [Item Usage Price](#item-usage-price)
+- [Resource Usage Price](#resource-usage-price)
+<!-- #### Totals -->
+- [Total Invoiced Costs](#total-invoiced-costs)
+- [Total Invoiced Price](#total-invoiced-price)
+- [Total Invoiced Profit](#total-invoiced-profit)
+- [Total Invoiced Profit Margin %](#total-invoiced-profit-margin-)
+- [Total Usage Cost](#total-usage-cost)
+- [Total Usage Price](#total-usage-price)
+- [Total Usage Profit](#total-usage-profit)
+- [Total Usage Profit Margin %](#total-usage-profit-margin-)
+
 ### Project Ledger Entry Quantity
 **Formula**  
 The Project Ledger Entry Quantity measure aggregates the Qty. column of the Project Ledger Entry table. The sign is then inverted by multiplying by negative one.
@@ -156,6 +187,238 @@ The Project Ledger Line Amount measure calculates the Project Ledger Line Amount
   
 **Data Sources**
 - Project Ledger Entry
+
+<!-- Invoiced -->
+## Invoiced Cost
+
+<!-- Invoiced Cost -->
+### G/L Account Invoiced Cost
+
+**Formula**  
+The G/L Account Invoiced Cost calculates the total invoiced cost for G/L accounts used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Sale" and the type is "G/L Account".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Item Invoiced Cost
+
+**Formula**  
+The Item Invoiced Cost calculates the total invoiced cost for items used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Sale" and the type is "Item".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Resource Invoiced Cost
+
+**Formula**  
+The Resource Invoiced Cost calculates the total invoiced cost for resources used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Sale" and the type is "Resource".
+
+**Data Sources**
+- Job Ledger Entry
+
+<!-- Invoiced Price -->
+## Invoiced Price
+
+### G/L Account Invoiced Price
+
+**Formula**  
+The G/L Account Invoiced Price calculates the total invoiced price for G/L accounts used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Sale" and the type is "G/L Account".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Item Invoiced Price
+
+**Formula**  
+The Item Invoiced Price calculates the total invoiced price for items used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Sale" and the type is "G/L Account".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Resource Invoiced Price
+
+**Formula**  
+The Resource Invoiced Price calculates the total invoiced price for resources used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Sale" and the type is "Resource".
+
+**Data Sources**
+- Job Ledger Entry
+
+<!-- Invoiced Profit -->
+## Invoiced Profit
+
+### G/L Account Invoiced Profit
+
+**Formula**  
+*G/L Account Invoiced Profit = [G/L Account Invoiced Price](#gl-account-invoiced-price) - [G/L Account Invoiced Cost](#gl-account-invoiced-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Item Invoiced Profit
+
+**Formula**  
+*Item Invoiced Profit = [Item Invoiced Price](#item-invoiced-price) - [Item Invoiced Cost](#item-invoiced-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Resource Invoiced Profit
+
+**Formula**  
+*Resource Invoiced Profit = [Resource Invoiced Price](#resource-invoiced-price) - [Resource Invoiced Cost](#resource-invoiced-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+<!-- Usage -->
+## Usage Cost
+
+<!-- Usage Cost-->
+### G/L Account Usage Cost
+
+**Formula**  
+The G/L Account Usage Cost calculates the total usage cost for G/L accounts used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Usage" and the type is "G/L Account".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Item Usage Cost
+
+**Formula**  
+The Item Usage Cost calculates the total usage cost for items used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Usage" and the type is "Item".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Resource Usage Cost
+
+**Formula**  
+The Resource Usage Cost calculates the total usage cost for resources used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Usage" and the type is "Resource".
+
+**Data Sources**
+- Job Ledger Entry
+
+<!-- Usage Price-->
+## Usage Price
+### G/L Account Usage Price
+
+**Formula**  
+The G/L Account Usage Price calculates the total usage price for G/L accounts used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Usage" and the type is "G/L Account".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Item Usage Price
+
+**Formula**  
+The Item Usage Price calculates the total usage price for items used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Usage" and the type is "G/L Account".
+
+**Data Sources**
+- Job Ledger Entry
+
+### Resource Usage Price
+
+**Formula**  
+The Resource Usage Price calculates the total usage price for resources used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Usage" and the type is "Resource".
+
+**Data Sources**
+- Job Ledger Entry
+
+<!-- Usage Profit-->
+## Usage Profit
+
+### G/L Account Usage Profit
+
+**Formula**  
+*G/L Account Usage Profit = [G/L Account Usage Price](#gl-account-usage-price) - [G/L Account Usage Cost](#gl-account-usage-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Item Usage Profit
+
+**Formula**  
+*Item Usage Profit = [Item Usage Price](#item-usage-price) - [Item Usage Cost](#item-usage-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Resource Usage Profit
+
+**Formula**  
+*Resource Usage Profit = [Resource Usage Price](#resource-usage-price) - [Resource Usage Cost](#resource-usage-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+<!-- Invoiced Totals -->
+## Totals
+
+### Total Invoiced Costs
+
+**Formula**  
+*Total Invoiced Costs = [G/L Account Invoiced Cost](#gl-account-invoiced-cost) + [Item Invoiced Cost](#item-invoiced-cost) + [Resource Invoiced Cost](#resource-invoiced-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Total Invoiced Price
+
+**Formula**  
+*Total Invoiced Price = [G/L Account Invoiced Price](#gl-account-invoiced-price) + [Item Invoiced Price](#item-invoiced-price) + [Resource Invoiced Price](#resource-invoiced-price)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Total Invoiced Profit
+
+**Formula**  
+*Total Invoiced Profit = [G/L Account Invoiced Profit](#gl-account-invoiced-profit) + [Item Invoiced Profit](#item-invoiced-profit) + [Resource Invoiced Profit](#resource-invoiced-profit)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Total Invoiced Profit Margin %
+
+**Formula**  
+*Total Invoiced Profit Margin % = [Total Invoiced Profit](#total-invoiced-profit) / [Total Invoiced Price](#total-invoiced-price)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Total Usage Cost
+
+**Formula**  
+*Total Usage Costs = [G/L Account Usage Cost](#gl-account-usage-cost) + [Item Usage Cost](#item-usage-cost) + [Resource Usage Cost](#resource-usage-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Total Usage Price
+
+**Formula**  
+*Total Usage Price = [G/L Account Usage Price](#gl-account-usage-price) + [Item Usage Price](#item-usage-price) + [Resource Usage Price](#resource-usage-price)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Total Usage Profit
+
+**Formula**  
+*Total Usage Profit = [Total Usage Price](#total-usage-price) - [Total Usage Cost](#total-usage-cost) *
+
+**Data Sources**
+- Job Ledger Entry
+
+### Total Usage Profit Margin %
+
+**Formula**  
+*Total Usage Profit Margin % = [Total Usage Profit](#total-usage-profit) / [Total Usage Price](#total-usage-price)*
+
+**Data Sources**
+- Job Ledger Entry
+
+## Obsolete Measures
 
 ### Actual (Total Price)
 
@@ -217,12 +480,6 @@ The Total Price measure calculates the total price of all project ledger entries
 **Data Sources**
 - Job Ledger Entry
 
-## Usage
-- [Actual (Total Cost)](#actual-total-cost)
-- [Gen. Journal Usage (Total Cost)](#gen-journal-usage-total-cost)
-- [Labour Usage (Total Cost)](#labour-usage-total-cost)
-- [Material Usage (Total Cost)](#material-usage-total-cost)
-
 ### Actual (Total Cost)
 
 [!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
@@ -263,8 +520,8 @@ The Material Usage (Total Cost) measure calculates the total cost of all project
 **Data Sources**
 - Job Ledger Entry
 
-
 ## Planning Line Measures
+
 - [Billable (Total Cost)](#billable-total-cost)
 - [Billable (Total Price)](#billable-total-price)
 - [Budget (Total Cost)](#budget-total-cost)
@@ -441,241 +698,6 @@ The Quantity on PO measure calculates the total quantity of items ordered in the
 
 **Data Sources**
 - Purchase Line
-
-<!-- Invoiced -->
-## Invoiced
-
-<!-- Invoiced Cost -->
-### G/L Account Invoiced Cost
-
-**Formula**  
-The G/L Account Invoiced Cost calculates the total invoiced cost for G/L accounts used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Sale" and the type is "G/L Account".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Item Invoiced Cost
-
-**Formula**  
-The Item Invoiced Cost calculates the total invoiced cost for items used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Sale" and the type is "Item".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Resource Invoiced Cost
-
-**Formula**  
-The Resource Invoiced Cost calculates the total invoiced cost for resources used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Sale" and the type is "Resource".
-
-**Data Sources**
-- Job Ledger Entry
-
-<!-- Invoiced Price -->
-### G/L Account Invoiced Price
-
-**Formula**  
-The G/L Account Invoiced Price calculates the total invoiced price for G/L accounts used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Sale" and the type is "G/L Account".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Item Invoiced Price
-
-**Formula**  
-The Item Invoiced Price calculates the total invoiced price for items used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Sale" and the type is "G/L Account".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Resource Invoiced Price
-
-**Formula**  
-The Resource Invoiced Price calculates the total invoiced price for resources used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Sale" and the type is "Resource".
-
-**Data Sources**
-- Job Ledger Entry
-
-
-<!-- Invoiced Profit -->
-### G/L Account Invoiced Profit
-
-**Formula**  
-*G/L Account Invoiced Profit = [G/L Account Invoiced Price](#gl-account-invoiced-price) - [G/L Account Invoiced Cost](#gl-account-invoiced-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Item Invoiced Profit
-
-**Formula**  
-*Item Invoiced Profit = [Item Invoiced Price](#item-invoiced-price) - [Item Invoiced Cost](#item-invoiced-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Resource Invoiced Profit
-
-**Formula**  
-*Resource Invoiced Profit = [Resource Invoiced Price](#resource-invoiced-price) - [Resource Invoiced Cost](#resource-invoiced-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
-
-<!-- Invoiced Totals -->
-## Invoiced Totals
-
-### Total Invoiced Costs
-
-**Formula**  
-*Total Invoiced Costs = [G/L Account Invoiced Cost](#gl-account-invoiced-cost) + [Item Invoiced Cost](#item-invoiced-cost) + [Resource Invoiced Cost](#resource-invoiced-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Total Invoiced Price
-
-**Formula**  
-*Total Invoiced Price = [G/L Account Invoiced Price](#gl-account-invoiced-price) + [Item Invoiced Price](#item-invoiced-price) + [Resource Invoiced Price](#resource-invoiced-price)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Total Invoiced Profit
-
-**Formula**  
-*Total Invoiced Profit = [G/L Account Invoiced Profit](#gl-account-invoiced-profit) + [Item Invoiced Profit](#item-invoiced-profit) + [Resource Invoiced Profit](#resource-invoiced-profit)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Total Invoiced Profit Margin %
-
-**Formula**  
-*Total Invoiced Profit Margin % = [Total Invoiced Profit](#total-invoiced-profit) / [Total Invoiced Price](#total-invoiced-price)*
-
-**Data Sources**
-- Job Ledger Entry
-
-<!-- Usage -->
-## Usage
-
-<!-- Usage Cost-->
-## G/L Account Usage Cost
-
-**Formula**  
-The G/L Account Usage Cost calculates the total usage cost for G/L accounts used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Usage" and the type is "G/L Account".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Item Usage Cost
-
-**Formula**  
-The Item Usage Cost calculates the total usage cost for items used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Usage" and the type is "Item".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Resource Usage Cost
-
-**Formula**  
-The Resource Usage Cost calculates the total usage cost for resources used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the entry type is "Usage" and the type is "Resource".
-
-**Data Sources**
-- Job Ledger Entry
-
-<!-- Usage Price-->
-### G/L Account Usage Price
-
-**Formula**  
-The G/L Account Usage Price calculates the total usage price for G/L accounts used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Usage" and the type is "G/L Account".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Item Usage Price
-
-**Formula**  
-The Item Usage Price calculates the total usage price for items used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Usage" and the type is "G/L Account".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Resource Usage Price
-
-**Formula**  
-The Resource Usage Price calculates the total usage price for resources used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Usage" and the type is "Resource".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Resource Usage Price
-
-**Formula**  
-The Resource Usage Price calculates the total usage price for resources used in a project. It uses the SUMX function to calculate the line amount for each entry where the entry type is "Usage" and the type is "Resource".
-
-**Data Sources**
-- Job Ledger Entry
-
-<!-- Usage Profit-->
-### G/L Account Usage Profit
-
-**Formula**  
-*G/L Account Usage Profit = [G/L Account Usage Price](#gl-account-usage-price) - [G/L Account Usage Cost](#gl-account-usage-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Item Usage Profit
-
-**Formula**  
-*Item Usage Profit = [Item Usage Price](#item-usage-price) - [Item Usage Cost](#item-usage-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Resource Usage Profit
-
-**Formula**  
-*Resource Usage Profit = [Resource Usage Price](#resource-usage-price) - [Resource Usage Cost](#resource-usage-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
-## Usage Totals
-
-### Total Usage Cost
-
-**Formula**  
-*Total Usage Costs = [G/L Account Usage Cost](#gl-account-usage-cost) + [Item Usage Cost](#item-usage-cost) + [Resource Usage Cost](#resource-usage-cost)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Total Usage Price
-
-**Formula**  
-*Total Usage Price = [G/L Account Usage Price](#gl-account-usage-price) + [Item Usage Price](#item-usage-price) + [Resource Usage Price](#resource-usage-price)*
-
-**Data Sources**
-- Job Ledger Entry
-
-### Total Usage Profit
-
-**Formula**  
-*Total Usage Profit = [Total Usage Price](#total-usage-price) - [Total Usage Cost](#total-usage-cost) *
-
-**Data Sources**
-- Job Ledger Entry
-
-### Total Usage Profit Margin %
-
-**Formula**  
-*Total Usage Profit Margin % = [Total Usage Profit](#total-usage-profit) / [Total Usage Price](#total-usage-price)*
-
-**Data Sources**
-- Job Ledger Entry
 
 <!-- Billable -->
 

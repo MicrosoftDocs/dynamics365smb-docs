@@ -271,7 +271,19 @@ If a customer is identified, their information fills in both the **Sell-to Custo
 >
 > The connector doesn't populate the **Bill-to Customer No.** field in the created customer.
 
-For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** because named customers are expected for B2B.
+For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** page because named customers are expected for B2B.
+
+B2B orders also contain company location details. The **Sell-to Customer No.** and **Bill-to Customer No.** fields, available on the **Shopify Company Location** page, can affect the mapping. By default, these fields are empty, but you can fill them in if needed. When you import a Shopify order that's associated with a B2B company and location, the connector uses the data in these fields to map the sell-to and bill-to customers in the sales order.
+
+The following table shows examples of customer mappings.
+
+|Value in the **Customer No.** field in the **Shopify Company**	|Value in the **Sell-to Customer No.** field in the **Shopify Company Location**	|Value in the **Bill-to Customer No.** field in the **Shopify Company Location**	|Proposed value for **Sell-to Customer No.** field in the Shopify Order	|Proposed value for **Bill-to Customer No.** field in the Shopify Order|
+----|----|----|----|----
+|10000	|*blank*	|*blank*	|10000	|10000|
+|10000	|20000	|*blank*	|20000	|20000 (same as  Sell-to Customer No. in Company Location)|
+|10000	|20000	|30000	|20000	|30000|
+|10000	|*blank*	|30000</br>Not supported. Must be blank or Sell-to Customer No. must have value	|N/A|N/A|
+|*blank*	|*blank*	|*blank*	|*blank*	|*blank*|
 
 ### Different processing rules for orders
 

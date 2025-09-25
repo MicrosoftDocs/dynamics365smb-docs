@@ -37,11 +37,13 @@ Whether you import customers from Shopify in bulk or when you import orders, use
 
 |Field|Description|
 |------|-----------|
-|**Customer Import from Shopify**|Select **All Customers** if you plan to import customers from Shopify in bulk; either manually using the **Sync Customers** action or via the job queue for recurring updates. Regardless of the selection, the customer information will always be imported together with the order. However, the use of this information depends on the **Shopify Customer Templates** and settings in the **Customer Mapping Type** field.|
+|**Customer Import from Shopify**|Select **All Customers** if you plan to import customers from Shopify in bulk; either manually using the **Sync Customers** action or via the job queue for recurring updates. Regardless of the selection, the customer information will always be imported together with the order. However, the use of this information depends on the **Shopify Customer Templates** page and settings in the **Customer Mapping Type** field.|
 |**Customer Mapping Type**|Define how you want the connector to perform the mapping.</br></br>- **By Email/Phone** if you want the connector to use email account and telephone information to map the imported Shopify customer to a customer in Business Central.</br></br>- **By Bill-to Info** if you want the connector to use the address of the invoice recipient to map the imported Shopify customer to an existing customer in Business Central.</br></br>- **Always Take the Default Customer** if you want the system to use a customer from the **Default Customer No.** field. |
 |**Shopify Can Update Customers**| Select this field if you want the connector to update the customers it finds when either of the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field.|
 |**Auto Create Unknown Customers**| Select this field if you want the connector to create missing customers when the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. A new customer is created using imported data and the **Customer Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details. If this option isn't enabled, you must create a customer manually and link it to the Shopify customer.|
 |**Customer/Company Template Code**|Use this field together with **Auto Create Unknown Customers**.</br></br>Choose the default template to use for automatically created customers. Make sure the selected template contains the mandatory fields such as **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT) or tax-related fields.</br></br>You can define templates per country/region on the **Shopify Customer Templates** page, which helps calculate taxes correctly.</br></br>Learn more at [Set Up Taxes](setup-taxes.md).|
+
+Learn more at [How the connector chooses which customer to use](synchronize-orders.md#how-the-connector-chooses-which-customer-to-use)  
 
 ### Customer template per country/region
 
@@ -146,25 +148,28 @@ If you use B2B in Shopify, you can create companies in addition to customers. Yo
 
 ### Important settings when importing B2B companies from Shopify
 
-The Shopify Connector imports all company locations, including payment terms and tax IDs, which it can use for automatic entity mapping. The information is available on the **Shopify Locations** page, which you open the page from the **Shopify Companies** and **Shopify Company Card** pages. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. This location is marked as the **Default**. 
+The Shopify Connector imports all company locations, including billing address, payment terms and tax IDs, which it can use for automatic entity mapping. The information is available on the **Shopify Locations** page, which you open the page from the **Shopify Companies** and **Shopify Company Card** pages. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. This location is marked as the **Default**.
 
-When you import a Shopify company, you can see associated payment terms for each company location. If the Shopify Connector is configured to update the customer, it uses the payment term from the default location. It's important that the corresponding record exists on the **Shopify Payment Terms Mapping** page.
+When you import a Shopify company, you get the associated payment terms for each company location. If the Shopify Connector is configured to update the customer, it uses the payment term from the default location. It's important that the corresponding record exists on the **Shopify Payment Terms Mapping** page.
 
 Whether you import companies from Shopify in bulk or when you import orders, use the settings in the following table to manage the process.
 
 |Field|Description|
 |------|-----------|
-|**Company Import from Shopify**|Select **All Companies** if you plan to import customers from Shopify in bulk, either manually using the **Sync Companies** action or via the job queue for recurring updates. Regardless of the selection, the customer information is always imported together with the order. However, the use of this information depends on the **Shopify Company Templates** and settings in the **Company Mapping Type** field.|
+|**Company Import from Shopify**|Select **All Companies** if you plan to import companies from Shopify in bulk, either manually using the **Sync Companies** action or via the job queue for recurring updates. Regardless of the selection, the customer information is always imported together with the order. However, the use of this information depends on the **Shopify Customer Templates** page and settings in the **Company Mapping Type** field.|
 |**Company Mapping Type**|Define how you want the connector to do the mapping.</br></br>- **By Email/Phone** if you want the connector to map the imported Shopify companies to an existing customer in [!INCLUDE [prod_short](../includes/prod_short.md)] using the main contact's email and phone number.</br></br>- Select **Always Take the Default Company** if you want to use the company in the **Default Company No.** field. </br></br>- Select **By Tax ID** if you want the connector to use tax details to map the imported Shopify companies to an existing customer in [!INCLUDE [prod_short](../includes/prod_short.md)]. Use the **Company Tax ID Mapping** field to specify where to store tax details. |
 |**Company Tax ID Mapping**| Specifies whether to store company tax details in the **Registration Number** or the **VAT Registration No.** field.|
 |**Shopify Can Update Company**| Select this field if you want the connector to update the customers it finds when the **By Email/Phone** option is selected in the **Company Mapping Type** field.|
-|**Auto Create Unknown Companies**| Select this field if you want the connector to create new customers when the **By Email/Phone** option is selected in the **Company Mapping Type** field. A new customer is created using the imported data and the **Customer/Company Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages.|
+|**Auto Create Unknown Companies**| Select this field if you want the connector to create new customers when the **By Email/Phone** or **By Tax ID** option is selected in the **Company Mapping Type** field. A new customer is created using the imported data and the **Customer/Company Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages.|
 |**Customer/Company Template Code**|Use this field together with **Auto Create Unknown Company**.</br></br>- Choose the default template to use for automatically created customers. Make sure the mandatory fields are filled in on the template, such as the **Gen. Business Posting Group**, **Customer Posting Group**, **Value-added tax (VAT)** or other tax-related fields.</br></br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation.</br></br>Learn more at [Set up Taxes](setup-taxes.md).|
 
 > [!NOTE]  
-> The company must have a main contact. Otherwise, the connector skips to company.
+> The company must have a main contact. Otherwise, the connector skips the company.
+>
 > The oldest location is used as source of information when creating or updating the customer in [!INCLUDE [prod_short](../includes/prod_short.md)].
+>
 > Only the main contact is imported.
+
 
 ### Important settings when exporting B2B companies to Shopify
 
@@ -183,6 +188,9 @@ The Company Location feature in Shopify allows merchants to define default payme
 * The **Payment Term** field in the **Customer Card** contains a value.
 * A corresponding record is located in the **Shopify Payment Terms Mapping** page.
 
+Shopify Connector lets you export customers from [!INCLUDE [prod_short](../includes/prod_short.md)] as additional B2B company locations in Shopify. When you use the **Sell-to Customer** and **Bill-to Customer** fields on the company location level, you get more flexibility and convenience for managing customer information across both applications. 
+Learn more at [How the connector chooses which customer to use](synchronize-orders.md#how-the-connector-chooses-which-customer-to-use).
+
 ### Export a B2B company to Shopify
 
 #### Initial sync of B2B companies from Business Central to Shopify
@@ -197,6 +205,8 @@ The resulting company and customers are automatically created in Shopify.
 
 > [!NOTE]  
 > The initial sync of companies from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify doesn't consider **Can Update Shopify Company** settings.
+
+When you select the **Add customer as Shopify Location** action, you can add customers as company locations. The customer you select must not already be exported.
 
 ### Sync a B2B company
 

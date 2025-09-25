@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, sales, deliver
 ms.search.form: 42, 43, 132, 6103, 6133, 6121, 9301, 9305
-ms.date: 03/18/2025
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -40,6 +40,19 @@ To view existing e-documents, follow these steps.
 2. On the **E-Documents** page, on the header, you can view basic information about the posted invoice.
 3. The **Record** field shows the document number of the posted sales invoice. Select the link to open the document.
 4. In the **Electronic Document Status** field, you can view the real-time status of the document and its location in the process. If the document is posted, the status is **Processed**.
+
+### Send e-documents via a service and email simultaneously
+
+[!INCLUDE [prod_short](includes/prod_short.md)] offers flexible ways to share documents and information quickly and easily. Document sending profiles let you specify your preferred way to send documents when you post them. For example, you might want to send a document by email or as an electronic document through a service you use. Or, you might want to do both at the same time. To learn more about document sending profiles, go to [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+
+If you choose the **Post** action from the **Sales Order**, **Sales Invoice** or **Sales Credit Memo** pages, [!INCLUDE [prod_short](includes/prod_short.md)] posts the document as usual. However, if you set up e-document workflow for the customer, it can also start a workflow to create an e-document. Then, when you choose **Post and Send**, [!INCLUDE [prod_short](includes/prod_short.md)] also sends the e-document via email as an attachment.
+
+Depending on whether you enable **Service Integration** on the **E-Document Service** page, you can choose one of the following ways to send documents in the sales process:
+
+- When **Service Integration** is enabled, use the **Post** action to send the e-document to the configured access point.
+- When **Service Integration** is enabled, use the **Post and Send** action to send the e-document to the configured access point and as an attachment in an email.
+- When **Service Integration** isn't enabled, use the **Post** action to create an e-document that you can download.
+- When **Service Integration** isn't enabled, use the **Post and Send** action to send the e-document by email.
 
 ### E-document statuses and logs
 

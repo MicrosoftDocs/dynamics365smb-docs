@@ -41,6 +41,7 @@ The *Project Overview* report includes the following KPIs:
 - [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
 - [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
 - [**Project Count**](projects-powerbi-kpis.md#project-count)
+- [**No. of Completed Projects**](projects-powerbi-kpis.md#no-of-completed-projects)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -50,9 +51,9 @@ The *Project Overview* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
-- Project Planning Line
+- Job
+- Job Ledger Entry
+- Job Planning Line
 
 ## Try the report
 

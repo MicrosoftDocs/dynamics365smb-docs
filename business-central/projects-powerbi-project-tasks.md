@@ -45,10 +45,10 @@ The *Project Tasks* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Planning Lines
-- Project Ledger Entries
-- Task
+- Job
+- Job Task
+- Job Planning Lines
+- Job Ledger Entries
 
 ## Try the report
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: reject, delegate, request
-ms.search.form: 1533,
+ms.search.form: 1533_Primary
 ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

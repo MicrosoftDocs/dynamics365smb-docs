@@ -1,18 +1,18 @@
 ---
-title: Functional Currency – Czechia
+title: Functional Currency in the Czech version
 description: Learn about functional currency, its legal basis in Czechia, and how it's supported in Business Central for accounting and VAT reporting.
 author: v-pejano
 ms.author: v-pejano
-ms.reviewer: v-soumramani
+ms.reviewer: v-pejano
 ms.search.keywords: CZ, Czech, Currency, Finance, Accounting, Functional Currency, Exchange Rates
 ms.topic: article
-ms.date: 06/03/2025
+ms.date: 09/25/2025
 ms.search.form: 118
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Functional currency – Czechia
+# Functional currency in the Czech version
 
 The new amendment to Act No. 563/1991 Coll., on Accounting, effective from 1 January 2024, introduces the concept of functional currency as the currency of accounting. Functional currency means the currency of the primary economic environment in which the entity operates and may be other than the Czech currency. The functional currency of an entity shall be determined on the basis of the criteria for determining the functional currency under IFRS as governed by European Union law.  
 

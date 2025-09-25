@@ -7,7 +7,7 @@ ms.author: v-pejano
 ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, Localization  
-ms.date: 09/17/2025  
+ms.date: 09/25/2025  
 ms.custom: bap-template
 ---
 
@@ -44,7 +44,7 @@ To configure an advance letter template, follow these steps:
 
 ## VAT posting setup for advances
 
-For every combination of VAT posting groups that requires posting of a VAT document for an advance invoice, you must fill in the relevant fields on the **Advance CZZ** FastTab on the **VAT Posting Setup** page.
+For every combination of VAT posting groups that requires posting of a VAT document for an advance invoice, you must fill in the relevant fields on the **Advance Payments** FastTab on the **VAT Posting Setup** page.
 
 ![VAT Posting Setup](Media/adv-payments-setup-vat.png)
 

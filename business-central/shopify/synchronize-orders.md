@@ -137,6 +137,27 @@ The payment mapping is used in the following cases:
 
 > [!NOTE]  
 > Shopify Connector keeps the due date from a Shopify order (such as for the payment terms **Fixed Date** or **Within X days**) in the sales document, regardless of the mapping. For payment terms without a set due date (such as **Due on receipt** or **Due on fulfillment**), the Connector calculates the due date using the formula from the mapped payment term. If no mapping exists, the customer's payment term applies. If that's also missing, the due date defaults to the document date.
+
+### Staff-to-salesperson mapping
+
+When you use Shopify POS or other sales channels involving, you improve traceability and performance reporting by importing staff member information from Shopify to salespersons in [!INCLUDE [prod_short](../includes/prod_short.md)] on sales documents.
+
+To automatically fill in the **Salesperson code** field for sales documents imported from Shopify, configure **Shopify Staff Member Mapping**.
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
+2. Select the shop where you want to set up a mapping to open the **Shopify Shop Card** page.
+3. Select the **Shopify Staff Member Mapping** action.
+4. Select **Refresh** to import staff members enabled on Shopify.
+5. Enter the **Salesperson Code** for the matching salesperson in [!INCLUDE [prod_short](../includes/prod_short.md)].
+
+When you import orders from Shopify, the orders created via Shopify POS or via Draft Orders include the staff ID. If you configure the mapping on the **Shopify Staff Member Mapping** page, the connector adds the corresponding salesperson to the Shopify order and copy it to the sales document.
+
+Known limitations:
+
+* The mapping works for B2B stores only.
+* You can't export salespersons from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
+* Not used during export of posted sales invoices to Shopify.
+
   
 ## Run the order synchronization
 
@@ -343,7 +364,7 @@ The Shopify connector does the following steps:
 * Creates a draft order with header and item lines
 * Converts the draft order it to an order
 
-**Fields export to order headers and lines**
+**Fields that export to order headers and lines**
 
 The following fields export on the order header:
 

@@ -33,12 +33,15 @@ Project managers use the report to gain a better understanding of the health of 
 
 The *Project Overview* report includes the following KPIs:
 
-- [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
-- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
-- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
-- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
-- [**Project Count**](projects-powerbi-kpis.md#project-count)
-- [**No. of Completed Projects**](projects-powerbi-kpis.md#no-of-completed-projects)
+- [Completed (%)](projects-powerbi-kpis.md#completed-)
+- [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
+- [Realization (%)](projects-powerbi-kpis.md#realization-)
+- [Actual Profit](projects-powerbi-kpis.md#actual-profit)
+- [Actual Profit Margin %](projects-powerbi-kpis.md#actual-profit-margin-)
+- [Actual (Total Cost)](projects-powerbi-kpis.md#actual-total-cost)
+- [Budget (Total Cost)](projects-powerbi-kpis.md#budget-total-cost)
+- [Project Count](projects-powerbi-kpis.md#project-count)
+- [No. of Completed Projects](projects-powerbi-kpis.md#no-of-completed-projects)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

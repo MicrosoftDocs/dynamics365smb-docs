@@ -29,6 +29,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [No. of Completed Projects](#no-of-completed-projects)
 - [Project Count](#project-count)
 - [Tasks Count](#tasks-count)
+- [Invoiced (%)](#invoiced-)
+- [Completed (%)](#completed-)
+- [Duration (Days)](#duration-days)
+- [Realization (%)](#realization-)
+- [Realization Variance](#realization-variance)
 
 ### No. of Completed Projects
 
@@ -49,17 +54,58 @@ The Project Count measure counts the total number of projects in the Project tab
 ### Tasks Count
 
 **Formula**  
-The Tasks Count measure counts the number of rows in the Tasks table that where the Project Task Type has a value of "Posting".
+The Tasks Count measure counts the number of rows in the Tasks table where the Project Task Type has a value of "Posting".
 
 **Data Sources**
 - Job Task
 
-## Profit
+### Completed (%)
 
-- [Actual Profit](#actual-profit)
-- [Actual Profit Margin %](#actual-profit-margin-)
-- [Budget Profit](#budget-profit)
-- [Budget Profit Margin %](#budget-profit-margin-)
+**Formula**  
+*Completed (%) = [Total Usage Cost](#total-usage-cost) / [Total Budget Cost](#total-budget-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+### Invoiced (%)
+
+**Formula**  
+*Invoiced (%) = [Total Invoiced Price](#total-invoiced-price) / [Total Billable Price](#total-billable-price)*
+
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+### Duration (Days)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
+**Formula**  
+The Duration (Days) measure calculates the number of days between the earliest starting date and latest ending date for a given project in the Project table.
+
+**Data Sources**
+- Job
+
+### Realization (%)
+
+**Formula**  
+*Realization % = [Billable (Invoiced Price)](#billable-invoiced-price) / [Actual (Total Price)](#actual-total-price)*
+*Realization (%) = [Total Billable Price)](#total-billable-price) / [Total Usage Price](#total-usage-price)*
+
+**Data Sources**
+- Job Ledger Entry
+
+### Realization Variance
+
+**Formula**  
+*Realization Variance = [Total Billable Price](#total-billable-price) - [Total Usage Price](#total-usage-price)*
+
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+## Obsolete Project Measures
 
 ### Actual Profit
 

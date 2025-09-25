@@ -30,16 +30,18 @@ Leadership teams use the report to identify high and low performing projects, an
 
 The *Project Profitability* report includes the following KPIs:
 
-- [**Total Usage Profit**](projects-powerbi-kpis.md#total-usage-profit)
-- [**Total Budget Profit**](projects-powerbi-kpis.md#total-budget-profit)
-- [**Total Invoiced Profit**](projects-powerbi-kpis.md#total-invoiced-profit)
-- [**Total Usage Cost**](projects-powerbi-kpis.md#total-usage-cost)
-- [**Total Usage Price**](projects-powerbi-kpis.md#total-usage-price)
-- [**Total Budget Price**](projects-powerbi-kpis.md#total-budget-price)
-- [**Total Budget Cost**](projects-powerbi-kpis.md#total-budget-cost)
-- [**Total Invoiced Costs**](projects-powerbi-kpis.md#total-invoiced-costs)
-- [**Total Invoiced Price**](projects-powerbi-kpis.md#total-invoiced-profit)
-- [**Budget Profit Margin %**](projects-powerbi-kpis.md#budget-profit-margin-)
+- [Total Invoiced Profit Margin %](projects-powerbi-kpis.md#total-invoiced-profit-margin-)
+- [Total Usage Profit Margin %](projects-powerbi-kpis.md#total-usage-profit-margin-)
+- [Total Usage Profit](projects-powerbi-kpis.md#total-usage-profit)
+- [Total Budget Profit](projects-powerbi-kpis.md#total-budget-profit)
+- [Total Invoiced Profit](projects-powerbi-kpis.md#total-invoiced-profit)
+- [Total Usage Cost](projects-powerbi-kpis.md#total-usage-cost)
+- [Total Usage Price](projects-powerbi-kpis.md#total-usage-price)
+- [Total Budget Price](projects-powerbi-kpis.md#total-budget-price)
+- [Total Budget Cost](projects-powerbi-kpis.md#total-budget-cost)
+- [Total Invoiced Costs](projects-powerbi-kpis.md#total-invoiced-costs)
+- [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-profit)
+- [Budget Profit Margin %](projects-powerbi-kpis.md#budget-profit-margin-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

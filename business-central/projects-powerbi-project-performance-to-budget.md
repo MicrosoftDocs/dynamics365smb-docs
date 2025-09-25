@@ -28,10 +28,12 @@ Project managers want a clear view of projects to ensure they're on budget. The 
 
 The *Project Performance to Budget* report includes the following KPIs:
 
-- [**Total Usage Cost**](projects-powerbi-kpis.md#total-usage-cost)
-- [**Total Budget Cost**](projects-powerbi-kpis.md#total-budget-cost)
-- [**Total Cost Variance to Budget**](projects-powerbi-kpis.md#total-cost-variance-to-budget)
-- [**Total Cost Variance to Budget %**](projects-powerbi-kpis.md#total-cost-variance-to-budget-)
+- [Completed (%)](projects-powerbi-kpis.md#completed-)
+- [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
+- [Total Usage Cost](projects-powerbi-kpis.md#total-usage-cost)
+- [Total Budget Cost](projects-powerbi-kpis.md#total-budget-cost)
+- [Total Cost Variance to Budget](projects-powerbi-kpis.md#total-cost-variance-to-budget)
+- [Total Cost Variance to Budget %](projects-powerbi-kpis.md#total-cost-variance-to-budget-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 99000846, 99000850
-ms.date: 03/20/2025
+ms.date: 09/01/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -25,7 +25,10 @@ You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatica
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Consumption Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the consumption data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Use the **Calc. Consumption** action to generate journal lines from production orders based on the actual output (the quantity of finished goods that you reported) or on the expected output (the quantity of finished goods that you expect to produce).
+    > [!TIP]
+    > Use the **Calc. Consumption** action to generate journal lines from production orders based on the actual output (the quantity of finished goods that you reported) or on the expected output (the quantity of finished goods that you expect to produce).
+    >
+    > When you do, the **Calculation Based on** field might be filled in already. On the **Manufacturing Setup** page, you can specify the value to use by default in the **Default Consumption Calculation Based on** field. Specifying a default value lets you align consumption calculations with your preferred process, and saves you a step.
 
     > [!NOTE]
     > If you configured the location to require warehouse pick processing, only quantities that are already picked through a warehouse activity can be entered in the **Quantity** field in the **Consumption Journal** page. It can't be a calculated quantity. To learn more, go to [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).

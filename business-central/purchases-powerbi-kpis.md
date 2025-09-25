@@ -870,6 +870,19 @@ The Purchase Amount YOY (Fiscal) measure shows the purchase amount of a specific
 - Purchase Line
 - Date (Fiscal Calendar)
 
+## Purchase Amount Period-to-Date
+
+- [Purchase Amount YTD (Fiscal)](purchases-powerbi-kpis.md#purchase-amount-ytd-fiscal)  
+
+### Purchase Amount YTD (Fiscal)
+
+**Formula**  
+The Purchase Amount YTD (Fiscal) measure calculates the purchase amount to date for the current period. The period is based on the date range you select. For example, if you select a month, the measure will show the purchase amount in the current month.
+
+**Data Sources**  
+- Value Entry
+- Date (Fiscal Calendar)
+
 ## Budget Amount Moving Annual Total
 - [Budget Amount MAT (Fiscal)](#budget-amount-mat-fiscal)
 - [Budget Amount MATG (Fiscal)](#budget-amount-matg-fiscal)

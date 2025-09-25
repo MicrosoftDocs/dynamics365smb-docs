@@ -5,7 +5,7 @@ author: v-pejano
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 06/06/2025
+ms.date: 09/25/2025
 ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
@@ -23,6 +23,7 @@ The Cash Desks and Cash Documents features allow you to define cash accounts and
 - Cash Desk cases used as templates for usual accounting transactions
 - Payment application with customer and vendor ledger entries
 - Payment Application with advance invoices
+- The Reconciliation function - a preview of journal movements and balances after posting across all accounts (G/L accounts, other types of accounts: bank, vendor, customer, etc.).
 - Cash Desk inventory
 - Output documents (receipt cash document, withdrawal cash document)
 - Reports - Cash Desk Account Book, Cash Desk Book, Cash Desk Hand Over

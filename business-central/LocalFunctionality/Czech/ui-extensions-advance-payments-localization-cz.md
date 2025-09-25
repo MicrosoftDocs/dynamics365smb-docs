@@ -6,7 +6,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 09/19/2025
+ms.date: 09/25/2025
 ms.custom: bap-template
 
 ---
@@ -21,7 +21,7 @@ Advance Payment features let you receive advance invoices from suppliers, issue 
 - Advances you receive and issue
 - Tax documents and tax credit notes for Advance Payments received or issued
 
-## Main functions of the module
+## Key features
 
 - Create sales or purchase advance invoices according to settings on the **Advance Letter Templates** page.
 - Create advances from sales orders based on a percentage or amount.
@@ -33,6 +33,8 @@ Advance Payment features let you receive advance invoices from suppliers, issue 
 - Work with a foreign currency, including exchange rate differences between the advance payment and invoice.
 - Unassign payments to advance invoices or use more linking.
 - Unlink final invoices from advance payments, or create more linking.
+- Pages for displaying all advance-related entries to make working with advances easier and more efficient.
+- Check total amounts on purchase advances.
 - Use a responsibility center for advance documents to display only documents relevant to a specific user.
 - Use reports for recapitulation of payments and drawdown of advances, and reports for recapitulation of VAT on advances.
 

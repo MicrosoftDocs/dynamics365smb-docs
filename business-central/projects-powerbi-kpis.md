@@ -102,7 +102,7 @@ The Duration (Days) measure calculates the number of days between the earliest s
 - Job Ledger Entry
 - Job Planning Line
 
-## Obsolete Measures
+## Obsolete Project Measures
 
 ### Actual Profit
 
@@ -424,7 +424,7 @@ The Resource Usage Price calculates the total usage price for resources used in 
 **Data Sources**
 - Job Ledger Entry
 
-## Obsolete Measures
+## Obsolete Project Ledger Measures
 
 ### Actual (Total Price)
 
@@ -531,33 +531,35 @@ The Material Usage (Total Cost) measure calculates the total cost of all project
 - [Planning Line Quantity](#planning-line-quantity)
 - [Planning Line Total Cost (LCY)](#planning-line-total-cost-lcy)
 - [Planning Line Total Price (LCY)](#planning-line-total-price-lcy)
+<!-- Variance -->
 - [Total Cost Variance to Budget](#total-cost-variance-to-budget)
 - [Total Cost Variance to Budget %](#total-cost-variance-to-budget-)
 <!-- Statistics -->
+<!-- Billable Costs -->
 - [G/L Account Billable Costs](#gl-account-billable-costs)
 - [Item Billable Costs](#item-billable-costs)
 - [Resource Billable Costs](#resource-billable-costs)
-
+<!-- Billable Price -->
 - [G/L Account Billable Price](#gl-account-billable-price)
 - [Item Billable Price](#item-billable-price)
 - [Resource Billable Price](#resource-billable-price)
-
+<!-- Billable Profit -->
 - [G/L Account Billable Profit](#gl-account-billable-profit)
 - [Item Billable Profit](#item-billable-profit)
 - [Resource Billable Profit](#resource-billable-profit)
-
+<!-- Budget Cost -->
 - [G/L Account Budget Costs](#gl-account-budget-costs)
 - [Item Budget Costs](#item-budget-costs)
 - [Resource Budget Costs](#resource-budget-costs)
-
+<!-- Budget Price -->
 - [G/L Account Budget Price](#gl-account-budget-price)
 - [Item Budget Price](#item-budget-price)
 - [Resource Budget Price](#resource-budget-price)
-
+<!-- Budget Profit -->
 - [G/L Account Budget Profit](#gl-account-budget-profit)
 - [Item Budget Profit](#item-budget-profit)
 - [Resource Budget Profit](#resource-budget-profit)
-
+<!-- Totals -->
 - [Total Billable Cost](#total-billable-cost)
 - [Total Billable Price](#total-billable-price)
 - [Total Billable Profit](#total-billable-profit)
@@ -868,7 +870,7 @@ The Quantity on PO measure calculates the total quantity of items ordered in the
 **Data Sources**
 - Purchase Line
 
-## Obsolete Measures 2
+## Obsolete Planning Line Measures
 
 ### Billable (Total Cost)
 

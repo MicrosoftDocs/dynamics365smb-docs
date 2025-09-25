@@ -3,29 +3,31 @@ title: Projects KPIs and measures (Power BI)
 description: The Projects App KPIs provides a page to clearly identify all KPIs and Measures used in the Projects Report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 11/08/2024
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Power BI Projects app KPIs and measures
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Projects report. 
+This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Projects report.
 
-Explore the list of KPIs below to learn more about how they can help you achieve your business goals. 
+Explore the list of KPIs below to learn more about how they can help you achieve your business goals.
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Project Measures
+
 - [% Invoiced](#-invoiced)
-- [% Complete](#-complete)
+- [% Complete](#%-complete)
 - [Duration (Days)](#duration-days)
 - [Project Count](#project-count)
 - [Realization %](#realization-)
@@ -59,6 +61,7 @@ The Duration (Days) measure calculates the number of days between the earliest s
 - Job
 
 ### Project Count
+
 **Formula**  
 The Project Count measure counts the total number of projects in the Project table.
 
@@ -91,6 +94,7 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - Job Task
 
 ## Profit
+
 - [Actual Profit](#actual-profit)
 - [Actual Profit Margin %](#actual-profit-margin-)
 - [Budget Profit](#budget-profit)
@@ -113,6 +117,7 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - Job Ledger Entry
 
 ### Budget Profit
+
 **Formula**  
 *Budget Profit = - [Budget (Total Price)](#budget-total-price) - [Budget (Total Cost)](#budget-total-cost)*
 
@@ -130,6 +135,7 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - Job Planning Line
 
 ## Project Ledger Measures
+
 - [Actual (Total Price)](#actual-total-price)
 - [Billable (Invoiced Price)](#billable-invoiced-price)
 - [Invoiced (Total Cost)](#invoiced-total-cost)
@@ -186,6 +192,7 @@ The Total Price measure calculates the total price of all project ledger entries
 - Job Ledger Entry
 
 ## Usage
+
 - [Actual (Total Cost)](#actual-total-cost)
 - [Gen. Journal Usage (Total Cost)](#gen-journal-usage-total-cost)
 - [Labour Usage (Total Cost)](#labour-usage-total-cost)
@@ -223,8 +230,8 @@ The Material Usage (Total Cost) measure calculates the total cost of all project
 **Data Sources**
 - Job Ledger Entry
 
-
 ## Planning Line Measures
+
 - [Billable (Total Cost)](#billable-total-cost)
 - [Billable (Total Price)](#billable-total-price)
 - [Budget (Total Cost)](#budget-total-cost)
@@ -263,14 +270,6 @@ The Budget (Total Cost) measure represents the budgeted cost of resources to be 
 
 **Formula**  
 The Budget (Total Price) measure represents the budgeted price of resources to be used in a project by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
-
-**Data Sources**
-- Job Planning Line
-
-### Planning Line Quantity
-
-**Formula**  
-The Planning Line Quantity measure calculates the sum of the quantity column in the Project Planning Line table.
 
 **Data Sources**
 - Job Planning Line
@@ -332,6 +331,7 @@ The Project Task Ending Date column calculates the latest planning date for a pr
 - Job Planning Line
 
 ## Purchase Measures
+
 - [Amount on PO](#amount-on-po)
 - [Amount Rcvd. Not Invoiced](#amount-rcvd-not-invoiced)
 - [Outstanding Amt. on PO](#outstanding-amt-on-po)
@@ -342,14 +342,6 @@ The Project Task Ending Date column calculates the latest planning date for a pr
 
 **Formula**  
 The Amount on PO measure calculates the sum of the amount (in local currency) column in the Purchases table.
-
-**Data Sources**
-- Purchase Line
-
-### Amount Rcvd. Not Invoiced
-
-**Formula**  
-The Amount Rcvd. Not Invoiced measure calculates the total amount of purchases that have been received but not yet invoiced in the Purchases table.
 
 **Data Sources**
 - Purchase Line

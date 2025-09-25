@@ -26,7 +26,7 @@ When custom report layouts are defined, you can select them from customer and ve
 
 ## To change which report layout to use for a report or document
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.
   
    The **Report Layout Selection** page lists all the reports that are available for the company that's specified in the **Company** field at the top of the page. The **Layout Description** <!-- **Selected Layout** -->field specifies the layout that's currently used on the report.
 2. Set the **Company** field at the top the company that includes the report.

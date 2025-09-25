@@ -28,7 +28,7 @@ You can even create directly paid orders for unregistered customers by first set
 > [!NOTE]  
 > The following procedure assumes that the customer is already set up. To learn more about setting up customers, go to [Register New Customers](sales-how-register-new-customers.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, then choose the related link.
 2. Select **New** to create a new entry.
 3. In the **Customer Name** field, enter the name of an existing customer.
 
@@ -106,7 +106,7 @@ The value of some fields on an order's lines depend on what you enter in the hea
 
 The following steps describe how to copy a sales order.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
 1. Choose **New** to create a new document, and then choose the **Copy Document** action.
 
    > [!NOTE]

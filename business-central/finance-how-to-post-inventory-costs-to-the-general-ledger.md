@@ -23,7 +23,7 @@ Unless you have selected the **Automatic Cost Posting** check box in the **Inven
 
 ## To post inventory costs manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Post Inventory Cost to G/L**, and then choose the related link.
 
 2. Post inventory costs to the general ledger manually by running the batch job. When you run this batch job, general ledger entries are created on the basis of value entries. To calculate the value to post, it uses the difference between the **Cost Amount (Actual)** field and the **Cost Posted to G/L** field in the value entries. If you have selected the **Expected Cost Posting to G/L** checkbox on the **Inventory Setup** page, the batch job also posts the difference between the **Cost Amount (Expected)** field and the **Exp. Cost Posted to G/L** field to interim accounts in the general ledger. You can post the entries so that they are summarized per posting group.
 

@@ -29,7 +29,7 @@ The following table describes a number of reports that might be useful in this p
 | Print a trial balance report with balances and net changes for general ledger accounts. |Trial Balance |
 | Print a trial balance for a consolidated company. |Consolidated Trial Balance |
 
-To see a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
+To see a report, [!INCLUDE[open-search](includes/open-search-lowercase.md)], type the name as it appears in the table, and then choose the related link.
 
 ## Related information
 

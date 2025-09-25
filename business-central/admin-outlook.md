@@ -55,7 +55,7 @@ Centralized Deployment is a feature in Microsoft 365 admin center that you use t
 
 ### Deploy the add-in
 
-1. In Business Central, select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then select the related link.
+1. In Business Central, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Assisted Setup**, and then select the related link.
 1. Select **Outlook Add-in Centralized Deployment** to start the assisted setup guide.
 1. Review the first page and select **Next** to open the page for downloading the add-ins.
 1. In the **Deploy** column, select the check box for the add-ins that you want to deploy, then select **Download and Continue**.

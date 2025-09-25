@@ -32,7 +32,7 @@ You must post payments for different customers that have different payment dates
 
 Because you can post different payment types to different balancing accounts, you must select a balancing account on the **Payment Registration Setup** page before you start processing customer payments. If you always post to the same balancing account, you can set that account as the default and avoid this step every time that you open the **Register Customer Payments** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link. You can also choose the **Setup** action on the **Register Customer Payments** page.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Registration Setup**, and then choose the related link. You can also choose the **Setup** action on the **Register Customer Payments** page.
 2. Fill in the fields on the **Payment Registration Setup** page. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)].  
 
 > [!TIP]
@@ -40,7 +40,7 @@ Because you can post different payment types to different balancing accounts, yo
 
 ## To register customer payments individually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Register Customer Payments**, and then choose the related link.  
 
     The **Register Customer Payments** page shows all posted documents for which a payment can be registered. You can also open the page from the **Customers** and **Customer Card** pages, filtered for the specified customer.  
 2. Select the **Payment Made** checkbox on the line that represents the posted document for which a payment was made.
@@ -57,7 +57,7 @@ The payment information is posted for documents on lines where the **Payment Mad
 
 ## To reconcile lump-sum payments
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Register Customer Payments**, and then choose the related link.
 2. Select the **Payment Made** checkbox on the lines for posted documents for the same customer and for which a lump-sum payment was made.  
 
     > [!NOTE]  
@@ -94,7 +94,7 @@ The following procedures explain ways to post discounted payments on the **Payme
 
 ### To process a payment amount that is equal to the discounted amount and where the payment date is before the discount date
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Register Customer Payments**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amount Incl. Discount** field.
 
     The **Payment Made** checkbox is automatically selected, and the **Date Received** field is filled with the work date.
@@ -104,7 +104,7 @@ The following procedures explain ways to post discounted payments on the **Payme
 
 ### To process a payment amount that is equal to the discounted amount but where the payment date is after the discount date
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Register Customer Payments**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amount Incl. Discount** field.
 
     The **Payment Made** checkbox is automatically selected, and the **Date Received** field is filled with the work date.
@@ -122,7 +122,7 @@ The related document remains open.
 
 ### To process a payment that is lower than the remaining discounted amount
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Register Customer Payments**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is lower than the amount in the **Rem. Amount Incl. Discount** field.
 
     The **Payment Made** checkbox is automatically selected, and the **Date Received** field is filled with the work date.  
@@ -134,7 +134,7 @@ The related document remains open.
 
 ### To process a payment that is more than the remaining discounted amount
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Register Customer Payments**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is more than the amount in the **Rem. Amount Incl. Discount** field.  
 
     The **Payment Made** checkbox is automatically selected, and the **Date Received** field is filled with the work date.
@@ -157,7 +157,7 @@ Use the **Search Documents** action to search for documents that aren't fully in
 
 The following procedure explains how to find a specific document by using both search criteria.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Register Customer Payments**, and then choose the related link.
 2. With the pointer on any line, Choose the **Search Documents** action.
 3. On the **Document Search** page, enter a search value in the **Document No.** field.  
 
@@ -177,7 +177,7 @@ If a payment in the bank isn't represented by a document, you can use the  open 
 
 If a payment in the bank isn't represented by a document, you can use the **General Journal** action to open a prefilled general journal line from the **Register Customer Payments** page. Use the journal to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you might want to record the payment in the journal until the origin of the payment is resolved.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Register Customer Payments**, and then choose the related link.
 2. Choose the **General Journal** action.  
 
     The **General Journal** page opens with one line that contains the balancing account of the journal batch that is set up on the **Payment Registration Setup** page.  

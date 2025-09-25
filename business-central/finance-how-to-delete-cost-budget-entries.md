@@ -19,7 +19,7 @@ To prevent any gaps in the cost budget entries and cost register entries, you ca
 
 ## To delete a cost budget entry  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cost Budget Entries**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Delete Cost Budget Entries**, and then choose the related link.  
 
     The **To Register No.** field contains the last register entry number and can't be changed.  
 

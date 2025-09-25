@@ -23,7 +23,7 @@ Automation happens through a job queue entry. When you set up an automation, use
 
 The following sections describe how to set up reminders to create, issue, and send automatically.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders Automation**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Reminders Automation**, and then choose the related link.
 1. Choose **New**, and then fill in the fields on the **General** FastTab.
 1. In the **Reminder Terms Filter** field, choose the reminder term or terms to use this automation for.
 1. In the **Cadence** field, choose how often the automation runs.

@@ -49,7 +49,7 @@ The first steps are to specify the company that is the data source and enable sy
 > [!NOTE]
 > When you enable synchronization, [!INCLUDE [prod_short](includes/prod_short.md)] creates and schedules the job queue entries that synchronize the data. It might look like the entries immediately sync the data, but that isn't the case. The created job queue entries only sync coupled records, and at this point you don't yet have coupled records. Synchronization starts after you [Enable or disable tables and fields](#enable-or-disable-tables-and-fields) and [Synchronize for the first time](#synchronize-for-the-first-time).
 
-1. In a subsidiary company, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Master Data Management Setup**, and then choose the related link.
+1. In a subsidiary company, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Master Data Management Setup**, and then choose the related link.
 1. In the **Source Company** field, specify the company that you want to pull changes from.
 1. Turn on the **Enable Synchronization** toggle.
 1. In the confirmation dialog, choose **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] finds the tables and fields that are available from the source company.
@@ -63,7 +63,7 @@ To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of
 > [!NOTE]
 > If one or more extensions are installed in the source company, when a subsidiary sets up synchronization the **Synchronization Tables** page includes tables from the extensions, and you can access their fields. However, if the source company adds an extension after synchronization is set up, each subsidiary must manually add the tables. To learn more about adding tables, go to [Add or delete tables from the synchronization tables list](#add-or-delete-tables-from-the-synchronization-tables-list). To learn more about extending [!INCLUDE [prod_short](includes/prod_short.md)], go to [Developing extensions in Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Master Data Management Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Master Data Management Setup**, and then choose the related link.
 1. Choose the **Synchronization Tables** action.
 1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
@@ -113,7 +113,7 @@ To access details, such as the number of records that are inserted or modified, 
 > [!IMPORTANT]
 > Although tables that contain transactional data are available in the list, such as tables that contain ledger entries, you shouldn't choose them. Synchronization works only for tables that contain nontransactional data.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Synchronization tables**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Synchronization tables**, and then choose the related link.
 1. Choose **New**, and then choose the table to add.
 1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
@@ -122,7 +122,7 @@ To access details, such as the number of records that are inserted or modified, 
 > [!NOTE]
 > If you delete a record in the source company, it isn't also deleted in the subsidiary. Keeping the record in the subsidiary helps prevent unwanted loss of data. The subsidiary can decide to delete the table if they want.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Synchronization tables**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Synchronization tables**, and then choose the related link.
 1. Choose the **Delete** action.
 
 ## Use export and import to share a synchronization setup

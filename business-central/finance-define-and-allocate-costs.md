@@ -35,7 +35,7 @@ Each allocation consists of an allocation source and one or more allocation targ
 
 ### To set up cost allocations
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then chose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cost Allocation**, and then chose the related link.  
 2. On the **Cost Allocation** page, choose the **Edit** action.  
 3. Enter an ID for the allocation source in the **ID** field.  
 4. Define a level as a number between 1 and 99 in the **Level** field. The allocation posting will follow the order of the levels.  
@@ -82,7 +82,7 @@ This article describes how to define three new allocation target cost objects fo
 
 ### To define the allocation source PROD cost center on the General FastTab  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cost Allocation**, and then choose the related link.  
 2. On the **Cost Allocation** page, choose the **New** action.  
 3. In the **ID** field, select <kbd>Enter</kbd> or enter an ID.  
 4. In the **Level** field, enter **1**.  
@@ -120,7 +120,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 
 ### To define dynamic allocations based on items sold in the previous year  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cost Allocation**, and then choose the related link.  
 2. On the **Cost Allocation** page, choose the **New** action.  
 3. In the **ID** field, select <kbd>Enter</kbd> or enter an ID.  
 4. In the **Level** field, enter **1**.  

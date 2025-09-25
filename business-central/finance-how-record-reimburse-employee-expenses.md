@@ -33,7 +33,7 @@ To ensure that the exchange rate for the amounts is up to date, you can adjust e
 
 You post employees' expenses on the **General Journal** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Journals**, and then choose the related link.  
 2. Open the relevant general journal batch. For more information, see [Work with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -49,7 +49,7 @@ You post employees' expenses on the **General Journal** page.
 
 You reimburse employees by posting payments to their bank account on the **Payment Journal** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 2. Open the relevant payment journal batch. For more information, see [Work with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary. For more information, see [Making Payments](payables-make-payments.md).
 4. Alternatively, choose the **Suggest Employee Payment** action to automatically insert journal lines for pending employee reimbursements.

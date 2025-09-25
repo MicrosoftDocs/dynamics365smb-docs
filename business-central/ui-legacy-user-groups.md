@@ -25,7 +25,7 @@ Permission sets assigned to a user through a user group stay synchronized. A cha
 
 The following procedure explains how to create user groups manually. To learn how to create user groups automatically, go to [To copy a user group and all its permission sets](#copy-a-user-group-and-all-its-permission-sets).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Groups**, and then choose the related link.
 
     1. Alternatively, on the **Users** page, choose the **User Groups** action.
 2. On the **User Group** page, choose the **User Group Members** action.
@@ -38,7 +38,7 @@ To quickly define a new user group, you can copy all permission sets from an exi
 > [!NOTE]
 > The user group members aren't copied to the new user group. You must add them manually afterwards. To learn more, go to [To add users to a user group](#add-users-to-a-user-group).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
@@ -53,7 +53,7 @@ The new user group is added to the **User Groups** page. Proceed to add users. T
 
 ## Assign permission sets to user groups
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to assign permission to.  
 
     Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
@@ -64,7 +64,7 @@ The new user group is added to the **User Groups** page. Proceed to add users. T
 
 The following procedure explains how to assign permission sets to a user group on the **Permission Set by User Group** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.
 2. On the **Users** page, select the relevant user, and then choose the **Permission Set by User Group** action.
 3. On the **Permission Set by User Group** page, select the **[user group name]** field on a line for the relevant permission set to assign the set to the user group.
 4. Select the **All User Groups** checkbox to assign the permission set to all user groups.

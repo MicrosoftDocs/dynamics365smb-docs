@@ -49,7 +49,7 @@ If transactions in QuickBooks Online have tax amounts, you must set up a tax acc
 
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## What do I do after I migrate data?

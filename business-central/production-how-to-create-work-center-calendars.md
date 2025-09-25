@@ -20,7 +20,7 @@ As a foundation for calculating a specific work or machine center calendar, you 
 The following describes how to set up work center calendars. The steps are similar when setting up machine center calendars.  
 
 ## To create work shifts  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Shifts**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Work Shifts**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the work shift, for example, **1**.  
 3.  Describe the work shift in the **Description** field, for example, **1st shift**.  
 4.  Optionally, fill in lines for a second or third work shift.  
@@ -28,7 +28,7 @@ The following describes how to set up work center calendars. The steps are simil
 Even if your work centers do not work in different work shifts, enter at least one work shift code.  
 
 ## To set up a shop calendar  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shop Calendars**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Shop Calendars**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the shop calendar.  
 3.  Describe the shop calendar in the **Description** field.  
 4.  Choose the **Working Days** action.
@@ -63,7 +63,7 @@ The shop calendar can now be assigned to a work center to calculate the work sho
 
 ## To calculate a work center calendar  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Work Centers**, and then choose the related link.
 2. Open the work center that you want to update.  
 3. In the **Shop Calendar Code** field, select which shop calendar to use as the foundation for a work center calendar.  
 4. Choose the **Calendar** action.  

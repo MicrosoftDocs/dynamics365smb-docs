@@ -29,7 +29,7 @@ To assign a template to an API, you must go through the following steps.
 > [!NOTE]  
 > API templates can only be set up with the following API pages: contacts, countriesRegions, currencies, customers, employees, itemCategories, paymentMethods, paymentTerms, shipmentMethods, unitsOfMeasure, and vendors.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **API Setup**, and choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **API Setup**, and choose the related link.
 2. Choose **New**, and then choose the **Order** value for the record.  
 
     If there is more than one template selected for an API (Page ID), the templates are applied in the order defined in the **Order** column.  

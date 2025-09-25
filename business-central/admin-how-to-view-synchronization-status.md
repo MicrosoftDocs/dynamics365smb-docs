@@ -30,7 +30,7 @@ This video shows an example of how to troubleshoot errors that happened while sy
 
 
 ## To view and resolve synchronization errors for coupled records
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Coupled Data Synchronization Errors**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Coupled Data Synchronization Errors**, and then choose the related link.
 2. The **Coupled Data Synchronization Errors** page shows issues that occurred when you synchronized coupled records. The following table includes actions that you can use to resolve issues one by one:
 
 |Action|Description|

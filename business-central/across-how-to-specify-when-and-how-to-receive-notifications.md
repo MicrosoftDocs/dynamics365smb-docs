@@ -32,7 +32,7 @@ Many approval workflow steps are about notifying users of an event they must act
 
 ## Specify when and how approval users receive notifications  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Approval User Setup**, then choose the related link.  
 2. Select the line for the user you want to set up notification preferences for, then choose the **Notification Setup** action.  
 3. On the **Workflow Notification Setup** page, fill in the fields as described in the following table.  
 

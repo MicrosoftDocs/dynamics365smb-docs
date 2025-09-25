@@ -26,7 +26,7 @@ From sales orders and sales invoices, you can use functions to quickly create pu
 ## To create one or more purchase orders from a sales order
 To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
 2. Open a sales order that you want to purchase items for.
 3. Choose the **Create Purchase Orders** action.
 
@@ -49,7 +49,7 @@ To create a single purchase invoice for one or more lines on a sales document by
 > [!NOTE]  
 >   This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it is created.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
 2. Open a sales invoice that you want to purchase items for.
 3. Select one or more sales invoice lines that you want to use on the purchase invoice. To use all the sales invoice lines, select either all of them or don't select any lines.
 4. Choose the **Create Purchase Invoice** action.

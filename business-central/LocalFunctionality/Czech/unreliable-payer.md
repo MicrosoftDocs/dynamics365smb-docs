@@ -18,7 +18,7 @@ This feature uses this service to obtain published information and indicate paye
 
 The treasury department also publishes information about registered bank accounts of the payer (only these accounts are allowed for payments). Information about payer registered bank accounts is stored on the vendor bank account cards and used in cash management.
 
-## Key Capabilities
+## Key features
 
 - **Unreliable Payer Service Setup** - Setup for managing control parameters (web service, initial check date, limits, service enablement).
 - Unreliability Check - On the vendor card, the **Unreliable VAT Payer Check** action is available.

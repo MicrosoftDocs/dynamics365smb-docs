@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, water, waste, value chain, role center, fees
 ms.search.form: 6221, 6235, 6245
-ms.date: 01/28/2025
+ms.date: 08/28/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -29,7 +29,7 @@ To configure the Role Center, follow the steps:
 
 ## Sustainability setup  
 
-Specify some general settings for sustainability, such as the unit of measure for emissions, the decimal places for amounts, and whether some fields are mandatory.
+Specify general settings for sustainability, such as the unit of measure for emissions, the decimal places for amounts, and whether some fields are mandatory.
 
 To configure these settings, follow these steps:
 
@@ -38,7 +38,7 @@ To configure these settings, follow these steps:
 
     | Field | Description |
     |-------|-------------|
-    | **Emission Unit of Measure Code** | Enter the unit of measure code that you use to register emissions. |
+    | **Emission Unit of Measure Code** | Enter the unit of measure code that you use to register emissions.<br><br>**Note:** To maintain consistency in environmental data, [!INCLUDE [prod_short](includes/prod_short.md)] restricts changes to this field after you create entries in the sustainability ledger. This restriction prevents accidental or intentional changes that could compromise emissions calculations or audit compliance. We recommend that you finalize your unit of measure during initial configuration to ensure consistent reporting. |
     | **Waste Unit of Measure Code** | Enter the the waste unit of measure code that you use to register waste intensity. |
     | **Water Unit of Measure Code** | Enter the water unit of measure code that you use to register water intensity. |
     | **Disch. Into Water Unit of Measure Code** | Enter the unit of measure code that you use to register discharged into water. |
@@ -85,18 +85,20 @@ To configure these settings, follow these steps:
     | **Reporting UOM Factor** | Enter the unit of measure factor that you use to register emissions, if you use a different unit of measure when you report to authorities. |
     | **Emission Rounding Precision** | Enter the size of the interval that you use to round emission amounts when you report to authorities. |
     | **Emission Rounding Type** | Choose how to round emission amounts when you report to authorities. |
+    | **Energy Reporting Unit of Measure**| Enter the unit of measure in which you report energy consumption. When people fill in the **Energy Consumption** field on purchase documents and sustainability journals, this is the unit of measure for the value. You can use a different unit of measure when you report to authorities. This field isn't applicable to the standard reports.|
+    |**Energy Reporting UOM Factor**| Enter the unit of measure factor that you use to register energy consumption, if you use a different unit of measure when you report to authorities.|
 
 ## Emission fees
 
 To track internal carbon fees or calculate your emissions using carbon dioxide (CO2) equivalents, configure the **Emission Fees** page.  
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Emission Fees**, and then select the related link. 
-2. In the **Emission Type** field, choose the greenhouse gas (GHG) emission you want to configure: **CO2**, **CH4**, or **N2O**. This field is mandatory.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Emission Fees**, and then select the related link.
+2. In the **Emission Type** field, choose the greenhouse gas (GHG) emission you want to configure. This field is mandatory.
 3. Specify the **Scope Type**. If you leave this field blank, it applies to all scopes, but you can configure it for each scope.  
 4. Specify a **Starting Date** and **Ending Date**. These dates let you use different configurations for different periods.
 5. The **Country/Region Code** and **Responsibility Code** are optional fields that you can use if you want to have different carbon fees or carbon equivalent factors per country/region or per facility (responsibility center).
-6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. You can use this field based on some local or regional regulations, or for internal calculations. The **Carbon Fee** is calculated every time you post emissions. This information displays on the **Sustainability Ledger Entries**, without more posting to the **G/L Ledger**. You can set up **Carbon Fee** per unit of measure that you have in the **Sustainability Setup**, and you can fill this field only for the line where the **Emission Type** is **CO2**.
-7. The **Carbon Equivalent Factor** specifies the coefficient that converts the effect of various GHGs into the equivalent amount of carbon dioxide based on their global warming potential. If the **Emission Type** is CO2, the **Carbon Equivalent Factor** is always *1* and you can't modify this value because CO2 is the reference gas used for calculating the global warming potential (GWP) of other GHGs. Because CO2 is the baseline, its GWP is set to *1*. For other GHGs, you must configure the values manually.
+6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. You can use this field based on local or regional regulations, or for internal calculations. The carbon fee calculates every time you post emissions. This information displays on the **Sustainability Ledger Entries** page, without more posting to the G/L ledger. You can set up a carbon fee for each unit of measure that you have in your sustainability setup. You can fill in this field only for the line where **CO2** is selected in the **Emission Type** field.
+7. The **Carbon Equivalent Factor** field specifies the coefficient that converts the effect of various GHGs into the equivalent amount of carbon dioxide based on their global warming potential. If the **Emission Type** is **CO2**, the **Carbon Equivalent Factor** is always **1**. You can't change this value because CO2 is the reference gas used to calculate the global warming potential (GWP) of other GHGs. Because CO2 is the baseline, its GWP is set to **1**. For other GHGs, you must configure the values manually.
 To calculate the carbon equivalent factor, use the following example. If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, divide 1 by 298. The result you need to add is 0.00336.  
 
 > [!NOTE]

@@ -24,26 +24,52 @@ Each KPI is described, including how it is calculated and what data was used in 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Project Measures
+
+- [No. of Completed Projects](#no-of-completed-projects)
 - [Project Count](#project-count)
 - [Tasks Count](#tasks-count)
-- [Complete (%)](#completed)
-- [Invoiced (%)](#invoiced)
+- [Complete (%)](#completed-)
+- [Invoiced (%)](#invoiced-)
 - [Realization %](#realization-)
 - [Realization Variance](#realization-variance)
 
-### Invoiced (%)
+### No. of Completed Projects
 
 **Formula**  
-*Invoiced (%) = [Total Invoiced Price](#total-invoiced-price) / [Total Billable Price](#total-billable-price)*
+The No. of Completed Projects measure calculates the number of projects where the Complete column is "Yes".
 
 **Data Sources**
-- Job Ledger Entry
-- Job Planning Line
+- Job
+
+### Project Count
+
+**Formula**  
+The Project Count measure counts the total number of projects in the Project table.
+
+**Data Sources**
+- Job
+
+### Tasks Count
+
+**Formula**  
+The Tasks Count measure counts the number of rows in the Tasks table that where the Project Task Type has a value of "Posting".
+
+**Data Sources**
+- Job Task
 
 ### Completed (%)
 
 **Formula**  
 *Completed (%) = [Total Usage Cost](#total-usage-cost) / [Total Budget Cost](#total-budget-cost)*
+
+**Data Sources**
+- Job Ledger Entry
+- Job Planning Line
+
+### Invoiced (%)
+
+**Formula**  
+*Invoiced (%) = [Total Invoiced Price](#total-invoiced-price) / [Total Billable Price](#total-billable-price)*
 
 **Data Sources**
 - Job Ledger Entry
@@ -56,13 +82,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 **Formula**  
 The Duration (Days) measure calculates the number of days between the earliest starting date and latest ending date for a given project in the Project table.
   
-**Data Sources**
-- Job
-
-### Project Count
-**Formula**  
-The Project Count measure counts the total number of projects in the Project table.
-
 **Data Sources**
 - Job
 
@@ -83,19 +102,7 @@ The Project Count measure counts the total number of projects in the Project tab
 - Job Ledger Entry
 - Job Planning Line
 
-### Tasks Count
-
-**Formula**  
-The Tasks Count measure counts the number of rows in the Tasks table that where the Project Task Type has a value of "Posting".
-
-**Data Sources**
-- Job Task
-
-## Profit
-- [Actual Profit](#actual-profit)
-- [Actual Profit Margin %](#actual-profit-margin-)
-- [Budget Profit](#budget-profit)
-- [Budget Profit Margin %](#budget-profit-margin-)
+## Obsolete Measures
 
 ### Actual Profit
 
@@ -140,9 +147,9 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 - Job Planning Line
 
 ## Project Ledger Measures
+
 - [Project Ledger Entry Quantity](#project-ledger-entry-quantity)
 - [Project Ledger Line Amount](#project-ledger-line-amount)
-
 <!-- ### Statistics -->
 <!-- #### Invoiced Cost -->
 - [G/L Account Invoiced Cost](#gl-account-invoiced-cost)
@@ -351,7 +358,6 @@ The Resource Usage Price calculates the total usage price for resources used in 
 **Data Sources**
 - Job Ledger Entry
 
-<!-- Invoiced Totals -->
 ## Totals
 
 ### Total Invoiced Costs
@@ -522,63 +528,42 @@ The Material Usage (Total Cost) measure calculates the total cost of all project
 
 ## Planning Line Measures
 
-- [Billable (Total Cost)](#billable-total-cost)
-- [Billable (Total Price)](#billable-total-price)
-- [Budget (Total Cost)](#budget-total-cost)
-- [Budget (Total Price)](#budget-total-price)
 - [Planning Line Quantity](#planning-line-quantity)
 - [Planning Line Total Cost (LCY)](#planning-line-total-cost-lcy)
 - [Planning Line Total Price (LCY)](#planning-line-total-price-lcy)
 - [Total Cost Variance to Budget](#total-cost-variance-to-budget)
 - [Total Cost Variance to Budget %](#total-cost-variance-to-budget-)
+<!-- Statistics -->
+- [G/L Account Billable Costs](#gl-account-billable-costs)
+- [Item Billable Costs](#item-billable-costs)
+- [Resource Billable Costs](#resource-billable-costs)
 
-### Billable (Total Cost)
+- [G/L Account Billable Price](#gl-account-billable-price)
+- [Item Billable Price](#item-billable-price)
+- [Resource Billable Price](#resource-billable-price)
 
-[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+- [G/L Account Billable Profit](#gl-account-billable-profit)
+- [Item Billable Profit](#item-billable-profit)
+- [Resource Billable Profit](#resource-billable-profit)
 
-**Formula**  
-The Billable (Total Cost) measure calculates the total cost (in local currency) of all project planning lines where the line type is "Billable" or "Both Budget and Billable" in the Project Planning Line table.
-  
-**Data Sources**
-- Job Planning Line
+- [G/L Account Budget Costs](#gl-account-budget-costs)
+- [Item Budget Costs](#item-budget-costs)
+- [Resource Budget Costs](#resource-budget-costs)
 
-### Billable (Total Price)
+- [G/L Account Budget Price](#gl-account-budget-price)
+- [Item Budget Price](#item-budget-price)
+- [Resource Budget Price](#resource-budget-price)
 
-[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+- [G/L Account Budget Profit](#gl-account-budget-profit)
+- [Item Budget Profit](#item-budget-profit)
+- [Resource Budget Profit](#resource-budget-profit)
 
-**Formula**  
-The Billable (Total Price) measure calculates the total price (in local currency) of all project planning lines where the line type is "Billable" or "Both Budget and Billable" in the Project Planning Line table.
-  
-**Data Sources**
-- Job Planning Line
-
-### Budget (Total Cost)
-
-[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
-
-**Formula**  
-The Budget (Total Cost) measure represents the budgeted cost of resources to be used in a project by calculating the total cost (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
-
-**Data Sources**
-- Job Ledger Entry
-
-### Budget (Total Price)
-
-[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
-
-**Formula**  
-The Budget (Total Price) measure represents the budgeted price of resources to be used in a project by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
-
-**Data Sources**
-- Job Planning Line
-
-### Planning Line Quantity
-
-**Formula**  
-The Planning Line Quantity measure calculates the sum of the Quantity column in the Project Planning Line table.
-
-**Data Sources**
-- Job Planning Line
+- [Total Billable Cost](#total-billable-cost)
+- [Total Billable Price](#total-billable-price)
+- [Total Billable Profit](#total-billable-profit)
+- [Total Budget Cost](#total-budget-cost)
+- [Total Budget Price](#total-budget-price)
+- [Total Budget Profit](#total-budget-profit)
 
 ### Planning Line Quantity
 
@@ -620,18 +605,210 @@ The Planning Line Total Price (LCY) measure calculates the total price of all pr
 **Data Sources**
 - Job Ledger Entry
 
-### Project Task Starting Date
+## Billable Costs
+
+### G/L Account Billable Costs
 
 **Formula**  
-The Project Task Starting Date column calculates the earliest planning date for a project task, helping to identify when the task is scheduled to begin.
+The G/L Account Billable Costs calculates the total billable cost for G/L accounts used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "G/L Account".
 
 **Data Sources**
 - Job Planning Line
 
-### Project Task Ending Date
+### Item Billable Costs
 
 **Formula**  
-The Project Task Ending Date column calculates the latest planning date for a project task, helping to identify when the task is scheduled to end.
+The Item Billable Costs calculates the total billable cost for items used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "Item".
+
+**Data Sources**
+- Job Planning Line
+
+### Resource Billable Costs
+
+**Formula**  
+The Resource Billable Costs calculates the total billable cost for resources used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "Resource".
+
+**Data Sources**
+- Job Planning Line
+
+## Billable Price
+
+### G/L Account Billable Price
+
+**Formula**  
+The G/L Account Billable Price calculates the total billable amount for G/L accounts used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "G/L Account".
+
+**Data Sources**
+- Job Planning Line
+
+### Item Billable Price
+
+**Formula**  
+The Item Billable Price calculates the total billable amount for items used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "Item".
+
+**Data Sources**
+- Job Planning Line
+
+### Resource Billable Price
+
+**Formula**  
+The Resource Billable Price calculates the total billable amount for resources used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "Resource".
+
+**Data Sources**
+- Job Planning Line
+
+## Billable Profit
+
+### G/L Account Billable Profit
+
+**Formula**  
+*G/L Account Billable Profit = [G/L Account Billable Price](#gl-account-billable-price) - [G/L Account Billable Costs](#gl-account-billable-costs)*
+
+**Data Sources**
+- Job Planning Line
+
+### Item Billable Profit
+
+**Formula**  
+*Item Billable Profit = [Item Billable Price](#item-billable-price) - [Item Billable Costs](#item-billable-costs)*
+
+**Data Sources**
+- Job Planning Line
+
+### Resource Billable Profit
+
+**Formula**  
+*Resource Billable Profit = [Resource Billable Price](#resource-billable-price) - [Resource Billable Costs](#resource-billable-costs)*
+
+**Data Sources**
+- Job Planning Line
+
+## Budget Costs
+
+### G/L Account Budget Costs
+
+**Formula**  
+The G/L Account Budget Costs calculates the total budget cost for G/L accounts used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "G/L Account".
+
+**Data Sources**
+- Job Planning Line
+
+### Item Budget Costs
+
+**Formula**  
+The Item Budget Costs calculates the total budget cost for items used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "Item".
+
+**Data Sources**
+- Job Planning Line
+
+### Resource Budget Costs
+
+**Formula**  
+The Resource Budget Costs calculates the total budget cost for resources used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "Resource".
+
+**Data Sources**
+- Job Planning Line
+
+## Budget Price
+
+### G/L Account Budget Price
+
+**Formula**  
+The G/L Account Budget Price calculates the total budget amount for G/L accounts used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "G/L Account".
+
+**Data Sources**
+- Job Planning Line
+
+### Item Budget Price
+
+**Formula**  
+The Item Budget Price calculates the total budget amount for items used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "Item".
+
+**Data Sources**
+- Job Planning Line
+
+### Resource Budget Price
+
+**Formula**  
+The Resource Budget Price calculates the total budget amount for resources used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "Resource".
+
+**Data Sources**
+- Job Planning Line
+
+## Budget Profit
+
+### G/L Account Budget Profit
+
+**Formula**  
+*G/L Account Budget Profit = [G/L Account Budget Price](#gl-account-budget-price) - [G/L Account Budget Costs](#gl-account-budget-costs)*
+
+**Data Sources**
+- Job Planning Line
+
+### Item Budget Profit
+
+**Formula**  
+*Item Budget Profit = [Item Budget Price](#item-budget-price) - [Item Budget Costs](#item-budget-costs)*
+
+**Data Sources**
+- Job Planning Line
+
+### Resource Budget Profit
+
+**Formula**  
+*Resource Budget Profit = [Resource Billable Price](#resource-budget-price) - [Resource Budget Costs](#resource-budget-costs)*
+
+**Data Sources**
+- Job Planning Line
+
+## Totals
+
+<!-- Billable Totals -->
+### Total Billable Cost
+
+**Formula**  
+*Total Billable Cost = [G/L Account Billable Costs](#gl-account-billable-costs) + [Item Billable Costs](#item-billable-costs) + [Resource Billable Costs](#resource-billable-costs)*
+
+**Data Sources**
+- Job Planning Line
+
+### Total Billable Price
+
+**Formula**  
+*Total Billable Price = [G/L Account Billable Price](#gl-account-billable-price) + [Item Billable Price](#item-billable-price) + [Resource Billable Price](#resource-billable-price)*
+
+**Data Sources**
+- Job Planning Line
+
+### Total Billable Profit
+
+**Formula**  
+*Total Billable Profit = [Total Billable Price](#total-billable-price) + [Total Billable Costs](#total-billable-cost)*
+
+**Data Sources**
+- Job Planning Line
+
+<!-- Budget Totals -->
+### Total Budget Cost
+
+**Formula**  
+*Total Budget Cost = [G/L Account Budget Costs](#gl-account-budget-costs) + [Item Budget Costs](#item-budget-costs) + [Resource Budget Costs](#resource-budget-costs)*
+
+**Data Sources**
+- Job Planning Line
+
+### Total Budget Price
+
+**Formula**  
+*Total Budget Price = [G/L Account Budget Price](#gl-account-budget-price) + [Item Budget Price](#item-budget-price) + [Resource Budget Price](#resource-budget-price)*
+
+**Data Sources**
+- Job Planning Line
+
+### Total Budget Profit
+
+**Formula**  
+*Total Budget Profit = [Total Budget Price](#total-budget-price) + [Total Budget Costs](#total-budget-cost)*
 
 **Data Sources**
 - Job Planning Line
@@ -691,263 +868,70 @@ The Quantity on PO measure calculates the total quantity of items ordered in the
 **Data Sources**
 - Purchase Line
 
-### Quantity on PO
+## Obsolete Measures 2
+
+### Billable (Total Cost)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
-The Quantity on PO measure calculates the total quantity of items ordered in the Purchases table. It uses the SUM function to add up all the values in the Quantity (Base) column and returns the result.
-
-**Data Sources**
-- Purchase Line
-
-<!-- Billable -->
-
-## Billable
-
-<!-- Billable Costs -->
-## G/L Account Billable Costs
-
-**Formula**  
-The G/L Account Billable Costs calculates the total billable cost for G/L accounts used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "G/L Account".
-
+The Billable (Total Cost) measure calculates the total cost (in local currency) of all project planning lines where the line type is "Billable" or "Both Budget and Billable" in the Project Planning Line table.
+  
 **Data Sources**
 - Job Planning Line
 
-## Item Billable Costs
+### Billable (Total Price)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
-The Item Billable Costs calculates the total billable cost for items used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "Item".
-
+The Billable (Total Price) measure calculates the total price (in local currency) of all project planning lines where the line type is "Billable" or "Both Budget and Billable" in the Project Planning Line table.
+  
 **Data Sources**
 - Job Planning Line
 
-## Resource Billable Costs
+### Budget (Total Cost)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
-The Resource Billable Costs calculates the total billable cost for resources used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "Resource".
-
-**Data Sources**
-- Job Planning Line
-
-<!-- Billable Price -->
-## G/L Account Billable Price
-
-**Formula**  
-The G/L Account Billable Price calculates the total billable amount for G/L accounts used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "G/L Account".
-
-**Data Sources**
-- Job Planning Line
-
-## Item Billable Price
-
-**Formula**  
-The Item Billable Price calculates the total billable amount for items used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "Item".
-
-**Data Sources**
-- Job Planning Line
-
-## Resource Billable Price
-
-**Formula**  
-The Resource Billable Price calculates the total billable amount for resources used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Billable" or "Both Budget and Billable" and the type is "Resource".
-
-**Data Sources**
-- Job Planning Line
-
-<!-- Billable Profit -->
-## G/L Account Billable Profit
-
-**Formula**  
-*G/L Account Billable Profit = [G/L Account Billable Price](#gl-account-billable-price) - [G/L Account Billable Costs](#gl-account-billable-costs)*
-
-**Data Sources**
-- Job Planning Line
-
-## Item Billable Profit
-
-**Formula**  
-*Item Billable Profit = [Item Billable Price](#item-billable-price) - [Item Billable Costs](#item-billable-costs)*
-
-**Data Sources**
-- Job Planning Line
-
-## Resource Billable Profit
-
-**Formula**  
-*Resource Billable Profit = [Resource Billable Price](#resource-billable-price) - [Resource Billable Costs](#resource-billable-costs)*
-
-**Data Sources**
-- Job Planning Line
-
-<!-- Billable Totals -->
-## Total Billable Cost
-
-**Formula**  
-*Total Billable Cost = [G/L Account Billable Costs](#gl-account-billable-costs) + [Item Billable Costs](#item-billable-costs) + [Resource Billable Costs](#resource-billable-costs)*
-
-**Data Sources**
-- Job Planning Line
-
-## Total Billable Price
-
-**Formula**  
-*Total Billable Price = [G/L Account Billable Price](#gl-account-billable-price) + [Item Billable Price](#item-billable-price) + [Resource Billable Price](#resource-billable-price)*
-
-**Data Sources**
-- Job Planning Line
-
-## Total Billable Profit
-
-**Formula**  
-*Total Billable Profit = [Total Billable Price](#total-billable-price) + [Total Billable Costs](#total-billable-cost)*
-
-**Data Sources**
-- Job Planning Line
-
-<!-- Budget Costs -->
-## G/L Account Budget Costs
-
-**Formula**  
-The G/L Account Budget Costs calculates the total budget cost for G/L accounts used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "G/L Account".
-
-**Data Sources**
-- Job Planning Line
-
-## Item Budget Costs
-
-**Formula**  
-The Item Budget Costs calculates the total budget cost for items used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "Item".
-
-**Data Sources**
-- Job Planning Line
-
-## Resource Budget Costs
-
-**Formula**  
-The Resource Budget Costs calculates the total budget cost for resources used in a project. It uses the SUM function to add up all entries by the Total Cost (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "Resource".
-
-**Data Sources**
-- Job Planning Line
-
-<!-- Budget Price -->
-## G/L Account Budget Price
-
-**Formula**  
-The G/L Account Budget Price calculates the total budget amount for G/L accounts used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "G/L Account".
-
-**Data Sources**
-- Job Planning Line
-
-## Item Budget Price
-
-**Formula**  
-The Item Budget Price calculates the total budget amount for items used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "Item".
-
-**Data Sources**
-- Job Planning Line
-
-## Resource Budget Price
-
-**Formula**  
-The Resource Budget Price calculates the total budget amount for resources used in a project. It uses the SUM function to add up all entries by the Line Amount (LCY) column where the line type is "Budget" or "Both Budget and Billable" and the type is "Resource".
-
-**Data Sources**
-- Job Planning Line
-
-<!-- Budget Profit -->
-## G/L Account Budget Profit
-
-**Formula**  
-*G/L Account Budget Profit = [G/L Account Budget Price](#gl-account-budget-price) - [G/L Account Budget Costs](#gl-account-budget-costs)*
-
-**Data Sources**
-- Job Planning Line
-
-## Item Budget Profit
-
-**Formula**  
-*Item Budget Profit = [Item Budget Price](#item-budget-price) - [Item Budget Costs](#item-budget-costs)*
-
-**Data Sources**
-- Job Planning Line
-
-## Resource Budget Profit
-
-**Formula**  
-*Resource Budget Profit = [Resource Billable Price](#resource-budget-price) - [Resource Budget Costs](#resource-budget-costs)*
-
-**Data Sources**
-- Job Planning Line
-
-<!-- Budget Totals -->
-## Total Budget Cost
-
-**Formula**  
-*Total Budget Cost = [G/L Account Budget Costs](#gl-account-budget-costs) + [Item Budget Costs](#item-budget-costs) + [Resource Budget Costs](#resource-budget-costs)*
-
-**Data Sources**
-- Job Planning Line
-
-## Total Budget Price
-
-**Formula**  
-*Total Budget Price = [G/L Account Budget Price](#gl-account-budget-price) + [Item Budget Price](#item-budget-price) + [Resource Budget Price](#resource-budget-price)*
-
-**Data Sources**
-- Job Planning Line
-
-## Total Budget Profit
-
-**Formula**  
-*Total Budget Profit = [Total Budget Price](#total-budget-price) + [Total Budget Costs](#total-budget-cost)*
-
-**Data Sources**
-- Job Planning Line
-
-## Count
-
-## No. of Completed Projects
-
-**Formula**  
-The No. of Completed Projects measure calculates the number of projects where the Complete column is "Yes".
-
-**Data Sources**
-- Job
-
-## Project Count
-
-**Formula**  
-The Project Count measure calculates the number of all projects regardless of their status.
-
-**Data Sources**
-- Job
-
-## Tasks Count
-
-**Formula**  
-The Tasks Count measure calculates the number of all project tasks where the Job Task Type column is "Posting".
-
-**Data Sources**
-- Job Task
-
-## Realization
-
-## Realization (%)
-
-**Formula**  
-*Realization (%) = [Total Billable Price](#total-billable-price) / [Total Usage Price](#total-usage-price)*
+The Budget (Total Cost) measure represents the budgeted cost of resources to be used in a project by calculating the total cost (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
 
 **Data Sources**
 - Job Ledger Entry
+
+### Budget (Total Price)
+
+[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
+
+**Formula**  
+The Budget (Total Price) measure represents the budgeted price of resources to be used in a project by calculating the total price (in local currency) in the Project Planning Line table and selecting only those lines with a line type of "Budget" or "Both Budget and Billable".
+
+**Data Sources**
 - Job Planning Line
 
-## Realization Variance
+## Tasks
+
+- [Project Task Duration Days](#project-task-duration-days)
+- [Project Task Duration Weeks](#project-task-duration-weeks)
+
+### Project Task Duration Days
 
 **Formula**
-*Realization Variance  = [Total Billable Price](#total-billable-price) - [Total Usage Price](#total-usage-price)*
+
+The Project Task Duration Days measure calculates the duration of a project task in days by finding the earliest and latest planning dates from related Project Planning Lines, then returning the day difference between them.
 
 **Data Sources**
-- Job Ledger Entry
-- Job Planning Line
+- Project Planning Line
+
+### Project Task Duration Weeks
+
+**Formula**
+
+The Project Task Duration Days measure calculates the duration of a project task in weeks by taking the earliest and latest planning dates from related Project Planning Lines, then returning the week difference.
+
+**Data Sources**
+- Project Planning Line
 
 ## Related information
 

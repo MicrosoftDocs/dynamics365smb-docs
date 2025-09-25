@@ -34,14 +34,15 @@ Project managers use the report to gain a better understanding of the health of 
 
 The *Project Overview* report includes the following KPIs:
 
-- [**% Complete**](projects-powerbi-kpis.md#-complete)
-- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
-- [**Realization %**](projects-powerbi-kpis.md#realization-)
-- [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
-- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
-- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
-- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
+- [**Completed (%)**](projects-powerbi-kpis.md#-completed-)
+- [**Invoiced (%)**](projects-powerbi-kpis.md#invoiced-)
+- [**Realization (%)**](projects-powerbi-kpis.md#realization-)
+- [**Total Usage Profit**](projects-powerbi-kpis.md#total-usage-profit)
+- [**Total Invoiced Profit**](projects-powerbi-kpis.md#total-invoiced-profit)
+- [**Total Usage Cost**](projects-powerbi-kpis.md#total-usage-cost)
+- [**Total Budget Cost**](projects-powerbi-kpis.md#total-budget-cost)
 - [**Project Count**](projects-powerbi-kpis.md#project-count)
+- [**No. of Completed Projects**](projects-powerbi-kpis.md#no-of-completed-projects)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -51,9 +52,9 @@ The *Project Overview* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
-- Project Planning Line
+- Job
+- Job Ledger Entry
+- Job Planning Line
 
 ## Try the report
 

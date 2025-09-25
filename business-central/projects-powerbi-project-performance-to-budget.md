@@ -15,24 +15,24 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Project Performance to Budget** report can help you keep your projects under budget. For each project, it shows the budgeted total cost and the project's actual cost.
+The **Project Performance to Budget** report can help you keep your projects under budget. For each project, it shows the total budget cost and the project's usage.
 
 :::image type="content" source="media/projects/project-performance-to-budget.png" alt-text="Screenshot of the Project Performance to Budget Power BI Report" lightbox="media/projects/project-performance-to-budget.png":::
 
 ## Use the report
 
-Project managers want a clear view of projects to ensure they're on budget. The report lets them compare the budget and actual costs of each project.
+Project managers want a clear view of projects to ensure they're on budget. The report lets them compare the budget and usage costs of each project.
 
 ## Key Performance Indicators (KPIs)
 
 The *Project Performance to Budget* report includes the following KPIs:
 
-- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
-- [**Budget (Total Price)**](projects-powerbi-kpis.md#budget-total-price)
+- [**Total Usage Cost**](projects-powerbi-kpis.md#total-usage-cost)
+- [**Total Budget Cost**](projects-powerbi-kpis.md#total-budget-cost)
 - [**Total Cost Variance to Budget**](projects-powerbi-kpis.md#total-cost-variance-to-budget)
 - [**Total Cost Variance to Budget %**](projects-powerbi-kpis.md#total-cost-variance-to-budget-)
-- [**% Complete**](projects-powerbi-kpis.md#-complete)
-- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
+- [**Completed (%)**](projects-powerbi-kpis.md#completed-)
+- [**Invoiced (%)**](projects-powerbi-kpis.md#invoiced-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -42,9 +42,9 @@ The *Project Performance to Budget* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
-- Project Planning Line
+- Job
+- Job Ledger Entry
+- Job Planning Line
 
 ## Try the report
 

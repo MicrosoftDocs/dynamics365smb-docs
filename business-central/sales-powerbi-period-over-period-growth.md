@@ -35,10 +35,11 @@ For sales managers who oversee daily sales activities, the report can help you i
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
 - [**Previous Period**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
 - [**Period-over-Period Growth Amount**](sales-powerbi-sales-kpis.md#sales-amount-pop-fiscal)
 - [**Period-over-Period Growth %**](sales-powerbi-sales-kpis.md#sales-amount-pop--fiscal)
+- [**Sales Amount PP (Fiscal Year)**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal-year)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -48,8 +49,10 @@ The report includes the following key performance indicators (KPIs) and measures
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Sales Line
+- Sales Value Entries
+- Sales Invoice Line
+- Sales Credit Lines
+- Project Ledger Entries
 
 ## Try the report
 

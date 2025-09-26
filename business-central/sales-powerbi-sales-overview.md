@@ -50,16 +50,16 @@ It shows the monetary values for each KPI.
 
 The report includes the following KPIs and measures:
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Outstanding Amount**](sales-powerbi-sales-kpis.md#outstanding-amount)
-- [**Shipped Not Invoiced Amount**](sales-powerbi-sales-kpis.md#shipped-not-invoiced-amount)
-- [**Invoiced Amount**](sales-powerbi-sales-kpis.md#invoiced-amount)
-- [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
-- [**No. of New Customers**](sales-powerbi-sales-kpis.md#no-of-new-customers)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
+- [**Adjusted Cost (LCY)**](sales-powerbi-sales-kpis.md#adjusted-cost-lcy)
+- [**Adjusted Profit (LCY)**](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [**Adjusted Profit Margin**](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
+- [**Outstanding Invoices (LCY)**](sales-powerbi-sales-kpis.md#outstanding-invoices-lcy)
 - [**No. of Outstanding Sales Orders**](sales-powerbi-sales-kpis.md#no-of-outstanding-sales-orders)
-- [**No. of Shipped Not Invoiced Orders**](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales)
-- [**No. of Posted Sales Invoices**](sales-powerbi-sales-kpis.md#no-of-posted-sales-invoices)
+- [**No. of Shipped Not Invoiced Orders**](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales-orders)
+- [**Outstanding Orders (LCY)**](sales-powerbi-sales-kpis.md#outstanding-orders-lcy)
+- [**Shipped Not Invoiced (LCY)**](sales-powerbi-sales-kpis.md#shipped-not-invoiced-lcy)
+- [**No. of Outstanding Invoices**](sales-powerbi-sales-kpis.md#no-of-outstanding-invoices)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -71,10 +71,12 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Sales Line
 - Value Entry
-- Customer
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 - Item
-- Location
 - Salesperson
+- Customer
 
 ## Try the report
 

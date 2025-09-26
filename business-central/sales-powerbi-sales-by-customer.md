@@ -33,12 +33,13 @@ For salespeople, the report you help can tailor your onsite visits to your custo
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
-- [**Cost Amount**](sales-powerbi-sales-kpis.md#cost-amount)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
+- [**Adjusted Cost (LCY)**](sales-powerbi-sales-kpis.md#adjusted-cost-lcy)
 - [**Cost Amount Non-Inv**](sales-powerbi-sales-kpis.md#cost-amount-non-inv)
-- [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
+- [**Adjusted Profit (LCY)**](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [**Adjusted Profit Margin**](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
+- [**Pareto Cumulative Adjusted Profit %**](sales-powerbi-sales-kpis.md#pareto-cumulative-adjusted-profit-)
+- [**Pareto Cutoff Adjusted Profit %**](sales-powerbi-sales-kpis.md#pareto-cutoff-adjusted-profit-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -50,8 +51,12 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Customer
 - Item
-- Value Entry
-- Sales Line
+- G/L Account
+- Resource
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 
 ## Try the report
 

@@ -31,7 +31,7 @@ Leaders of sales departments typically want to identify which items are selling 
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
 - [**Sales Amount Average 30D**](sales-powerbi-sales-kpis.md#sales-amount-avg-30d-fiscal)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
@@ -42,8 +42,10 @@ The report includes the following key performance indicators (KPIs) and measures
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Sales Line
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 
 ## Try the report
 

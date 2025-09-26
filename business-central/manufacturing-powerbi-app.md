@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer:
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: 37063_Primary, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055
+ms.search.form: 37063_Primary, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37094, 37095, 37096, 37097, 37098, 37099, 37107
 ms.date: 11/01/2024
 ms.service: dynamics-365-business-central
 ---

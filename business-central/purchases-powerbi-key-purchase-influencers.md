@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37117_Primary
-ms.date: 10/31/2025
+ms.date: 9/30/2025
 ms.service: dynamics-365-business-central
 ---
 

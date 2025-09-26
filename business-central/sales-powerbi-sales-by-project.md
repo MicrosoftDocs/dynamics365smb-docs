@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37119_Primary 
-ms.date: 10/26/2025
+ms.date: 9/30/2025
 ms.service: dynamics-365-business-central
 ---
 

@@ -31,8 +31,8 @@ Purchasers track daily purchases and ensure they stay within budget. Use this re
 
 The *Daily Purchases* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)  
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)  
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -42,8 +42,9 @@ The *Daily Purchases* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Purchase Line
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 - Item
 
 ## Try the report

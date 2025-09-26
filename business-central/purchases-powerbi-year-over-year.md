@@ -37,7 +37,9 @@ The *Year-Over-Year* report includes the following KPIs and measures:
 
 - [**Current Year**](purchases-powerbi-kpis.md#purchase-amount)
 - [**Previous Year (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-py-fiscal)
-- [**Current Year YOY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-yoy-fiscal)
+- [**Purchase Amount YOY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-yoy-fiscal)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**%GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -47,9 +49,9 @@ The *Year-Over-Year* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Purchase Line
-- Item
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 - Item Category
 
 ## Try the report

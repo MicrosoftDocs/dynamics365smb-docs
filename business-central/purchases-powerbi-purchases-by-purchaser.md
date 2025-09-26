@@ -31,10 +31,11 @@ Purchaser can use this report to monitor purchasing activities, including purcha
 
 The *Purchases by Purchaser* report includes the following KPIs and measures:
 
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 - [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
-- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
-- [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#-gt-purchase-quantity)
+- [**% GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**No. of Posted Purchase Invoices**](purchases-powerbi-kpis.md#no-of-posted-purchase-invoices)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -46,8 +47,10 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Salesperson/Purchaser
 - Item
-- Value Entry
-- Purchase Line
+- Item Category
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 
 ## Try the report
 

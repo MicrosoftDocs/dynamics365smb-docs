@@ -34,7 +34,7 @@ Purchasing managers can use this report to analyze the growth amount and growth 
 
 The *Period-Over-Period* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)  
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)  
 - [**Previous Period**](purchases-powerbi-kpis.md#purchase-amount-pp-fiscal)
 - [**Period-over-Period Growth Amount**](purchases-powerbi-kpis.md#purchase-amount-pop-fiscal)  
 - [**Period-over-Period Growth %**](purchases-powerbi-kpis.md#purchase-amount-pop--fiscal)  
@@ -47,8 +47,9 @@ The *Period-Over-Period* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Purchase Line
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 
 ## Try the report
 

@@ -34,9 +34,9 @@ The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
 - [**Moving Annual Total (MAT)**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
 - [**Previous Year Moving Annual Total (PYMAT)**](purchases-powerbi-kpis.md#purchase-amount-pymat-fiscal)
-- [**Moving Annual Total Growth Amount**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
+- [**Moving Annual Total Growth**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
 - [**Moving Annual Total Growth %**](purchases-powerbi-kpis.md#purchase-amount-matg--fiscal)
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -46,8 +46,9 @@ The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Purchase Line
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 
 ## Try the report
 

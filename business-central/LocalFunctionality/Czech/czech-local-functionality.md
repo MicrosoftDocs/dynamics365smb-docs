@@ -5,7 +5,7 @@ author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, Cash Desk
-ms.date: 09/17/2025
+ms.date: 09/26/2025
 ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
@@ -31,6 +31,7 @@ The following articles describe the local functionality in the Czech version of 
   * [Exchange Rate Updating](exchange-rate-update.md) **Available Now**
   * [WIP Extended Posting](wip-extended-posting.md) **Available Now**
   * [Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
+  * [Alternative posting groups for Employees](use-alternative-posting-groups-employees.md) **Available Now**
   
 * VAT
   * [VAT Date](how-to-setup-vat-date.md) **Available Now**
@@ -89,6 +90,7 @@ The following articles describe the local functionality in the Czech version of 
   * [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Available Now**
   * [Use modern search in CZ applications](use-modern-search-cz.md) **Available Now**
   * [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-documents-reports.md) **Available Now**
+
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

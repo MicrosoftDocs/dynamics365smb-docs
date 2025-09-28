@@ -82,7 +82,7 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 
 The data analysis feature lets you open almost any list page, such as **General Ledger Entries** or **Fixed Asset Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
-:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see asset value." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Example of how to do data analysis on the **FA Ledger Entries** page to see asset value." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
 Similarly, you can use the **Open in Excel** action to open a list page for ledger entries, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
@@ -113,15 +113,15 @@ Learn more in [Built-in fixed assets reports](fa-reports.md) for information abo
 
 ### Show fixed asset general ledger entries and balances from the Chart of Accounts page
 
-The Chart of Accounts page shows all general ledger accounts with aggregated numbers in the general ledger. From this page, you can do things like:  
+The **Chart of Accounts** page shows all general ledger accounts with aggregated numbers in the general ledger. From this page, you can do things like:  
 
 - View reports that show general ledger entries and balances.  
 - Review a list of posting groups for that account.
 - View separate debit and credit balances for a single account.
 
-Specifically for fixed assets, you can create a view on the Chart of Accounts page that only shows asset accounts, or maybe only the asset accounts you use for posting fixed assets entries.
+Specifically for fixed assets, you can create a view on the **Chart of Accounts** page that only shows asset accounts, or maybe only the asset accounts you use for posting fixed assets entries.
 
-:::image type="content" source="media/chart-of-accounts-page-fa.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page-fa.png":::
+:::image type="content" source="media/chart-of-accounts-page-fa.png" alt-text="Example of how the **Chart of Accounts** page shows finance insights" lightbox="media/chart-of-accounts-page-fa.png":::
 
 Learn more in [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 

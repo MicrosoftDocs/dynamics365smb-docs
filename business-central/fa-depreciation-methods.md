@@ -314,10 +314,9 @@ If you have three depreciation books, B1, B2 and B3, and you want to duplicate e
 When you make an entry in B1 in the fixed asset G/L journal, and turn on the **Part of Duplication List** toggle, [!INCLUDE [prod_short](includes/prod_short.md)] duplicates the entry in book B2 and B3 in the fixed asset journal when you post the entry.  
 
 > [!NOTE]  
-> You can't duplicate in the same journal and journal batch as you're duplicating from. If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.  
-
-> [!NOTE]  
-> You can't use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the number is duplicated in the fixed asset journal. You must manually change the document number before you can post the journal.  
+> - You can't duplicate in the same journal and journal batch as you're duplicating from. If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.  
+>
+> - You can't use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the number is duplicated in the fixed asset journal. You must manually change the document number before you can post the journal.  
 
 ## Manual depreciation
 

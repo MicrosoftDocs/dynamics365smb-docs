@@ -25,7 +25,7 @@ The report helps purchase and finance teams to track actual spending against bud
 
 CEOs can easily track and analyze the purchasing performance of your organization against your budget to ensure that you're meeting your financial goals. This report provides a comprehensive overview of the entire organization's purchasing performance, helping you make informed decisions when you manage your budget. With this report, you can identify areas where your organization is overspending or underspending, and adjust your purchasing budget accordingly.  
 
-Purchasing managers can use this report to analyze purchasing data and make decisions about inventory management. By analyzing the **Variance** and **Budget Amount Variance** indicators in the report, you can see how specific item categories and items are tracking against their allocated budget. This report helps you to understand which items are being purchased frequently and which ones aren't. Use this information to optimize your inventory and ensure that your organization is always stocked with the products that you need.  
+Purchasing managers can use this report to analyze purchasing data and make decisions about inventory management. By analyzing the **Budget Amount Variance** indicators in the report, you can see how specific item categories and items are tracking against their allocated budget. This report helps you to understand which items are being purchased frequently and which ones aren't. Use this information to optimize your inventory and ensure that your organization is always stocked with the products that you need.  
 
 Purchasers can monitor the variance metrics to ensure that you're meeting your purchasing targets. Use this report to see the purchasing performance of specific item categories, and items that you purchase. With this information, you can identify opportunities to reduce cost and optimize your approach to purchasing specific items.
 
@@ -33,14 +33,11 @@ Purchasers can monitor the variance metrics to ensure that you're meeting your p
 
 The *Actual vs Budget* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)  
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)  
-- [**Budget Quantity**](purchases-powerbi-kpis.md#budget-quantity)  
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)  
+- [**Purchase Amount YTD (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-ytd-fiscal)  
 - [**Budget Amount**](purchases-powerbi-kpis.md#budget-amount)  
 - [**Budget Amount Variance**](purchases-powerbi-kpis.md#budget-amount-variance)
-- [**Budget Amount Variance %**](purchases-powerbi-kpis.md#budget-amount-variance-)  
-- [**Variance**](purchases-powerbi-kpis.md#budget-quantity-variance)  
-- [**Variance %**](purchases-powerbi-kpis.md#budget-quantity-variance-)  
+- [**Budget Amount Variance %**](purchases-powerbi-kpis.md#budget-amount-variance-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -53,7 +50,8 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Item
 - Item Category
 - Value Entry
-- Purchase Line
+- Purchase Invoice Lines
+- Purchase Credit Lines
 - Item Budget Entry
 
 ## Try the report

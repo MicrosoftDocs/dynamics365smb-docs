@@ -47,6 +47,7 @@ To configure these settings, follow these steps:
     | **Responsibility Center Mandatory** | Make the responsibility center mandatory. The responsibility center can be used as a facility, so that you can measure facility-based emissions. You can set the responsibility center field in journals even if you don't select this field. However, by selecting it, you require that users set the responsibility center field before posting. |
     | **Block Calculation Foundation Change If Ledger Entries Exist** | Prevent changes to the calculation foundation (formula) at the account category level when the formula was already applied to sustainability entries. |
     | **Enable Background Error Check** | Enable validations for sustainability journal lines. The validations run in the background. |
+    |**Enable Dataverse Integration**| Enable the connection to ESG External Reporting tool with Dataverse. To learn more, go to [Sustainability reports and analytics in Business Central](sustainability-reports.md).|
 
     > [!NOTE]
     > After you turn on or turn off validations in journals, sign in again before you start the new setup.
@@ -88,6 +89,8 @@ To configure these settings, follow these steps:
     | **Emission Rounding Type** | Choose how to round emission amounts when you report to authorities. |
     | **Energy Reporting Unit of Measure**| Enter the unit of measure in which you report energy consumption. When people fill in the **Energy Consumption** field on purchase documents and sustainability journals, this is the unit of measure for the value. You can use a different unit of measure when you report to authorities. This field isn't applicable to the standard reports.|
     |**Energy Reporting UOM Factor**| Enter the unit of measure factor that you use to register energy consumption, if you use a different unit of measure when you report to authorities.|
+    |**Energy Reporting Unit of Measure Code**| Enter the unit of measure that you use to report energy in sustainability journals.|
+    |**Energy Reporting UOM Factor**|Enter the unit of measure factor to recalculate energy amounts in the sustainability ledger entry that you use to report energy.|
 
 ## Emission fees
 

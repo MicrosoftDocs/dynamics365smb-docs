@@ -21,8 +21,8 @@ You can use configured electronic documents (e-documents) with the following sal
 - Sales credit memos
 - Service invoices
 - Service credit memos
-- Finance charge memos
-- Reminders
+- Issued finance charge memos
+- Issued reminders
 
 ## E-documents in sales  
 
@@ -31,6 +31,9 @@ To create and send an e-invoice to a customer, you must create and post the sale
 Before posting, you can choose to add the attachment to the invoice if you want to embed it in the Peppol file format.
 
 After you post the sales document, open the **Posted Sales Invoices** page to access the related **E-Documents** page.
+
+> [!NOTE]
+> When you use issued finance charge memos and issued reminders, [!INCLUDE [prod_short](includes/prod_short.md)] creates an electronic sales invoice file that contain financial details from these documents. If a document doesn't have a financial amount, [!INCLUDE [prod_short](includes/prod_short.md)] doesn't create the e-document.
 
 ### View e-documents
 

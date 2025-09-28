@@ -554,6 +554,7 @@ ms.service: dynamics-365-business-central
 #### [Use E-Documents in purchases](finance-how-use-edocuments-purchase.md)
 #### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
 #### [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md)
+#### [Connect e-documents to Microsoft 365 applications](finance-connect-edocuments-microsoft365.md)
 #### [Extending E-Documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
@@ -1369,17 +1370,18 @@ ms.service: dynamics-365-business-central
 ##### [Statutory Information About Company](LocalFunctionality/Czech/statutory-company-information.md)
 ##### [Internal Financial Documents](LocalFunctionality/Czech/internal-financial-documents.md)
 ##### [Accounting Output Documents](LocalFunctionality/Czech/accounting-output-documents.md)
-##### [Accounting schedule feature](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Financial report feature](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
 ##### [Statutory Statements](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
 ##### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [WIP Extended Posting](LocalFunctionality/Czech/wip-extended-posting.md)
 ##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
 ##### [VAT Statement](LocalFunctionality/Czech/vat-statement.md)
 ##### [Supplementary VAT Statement](LocalFunctionality/Czech/supplementary-vat-statement.md)
-##### [VIES](LocalFunctionality/Czech/vies-cz.md)
+##### [VIES CZ](LocalFunctionality/Czech/vies-cz.md)
 ##### [VIES – CZ Export](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
 ##### [Unreliable Payer](LocalFunctionality/Czech/unreliable-payer.md)
 ##### [VAT Exchange Rate](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
@@ -1388,18 +1390,18 @@ ms.service: dynamics-365-business-central
 ##### [VAT Reports](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
 ##### [Non-Deductible VAT](LocalFunctionality/Czech/non-deductible-VAT.md)
-##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [VAT Return CZ](LocalFunctionality/Czech/vat-return-cz.md)
+##### [Functional Currency – Czechia](LocalFunctionality/Czech/functional-currency.md)
 ##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Fixed Assets
 ##### [Fixed Asset Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banking and Payments
 ##### [Banking Documents Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
-##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
+#### Advance Payments
 ##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Payables and Receivables
 ##### [Exchange Rates Adjustment Feature](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
-##### [Multiple Payables and Receivables Accounts](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
 ##### [Customer and Vendor Reconciliations](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
 ##### [Sales Correcting Documents](LocalFunctionality/Czech/sales-correcting-documents.md)
 ##### [Update Contacts from ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
@@ -1419,13 +1421,13 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Movement Templates](LocalFunctionality/Czech/inventory-movement-templates.md)
 ##### [Stock keeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
 ##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
-##### [Default Bus Post Group in Manufacturing](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
-##### [Default Bus Post Group in Assembly Orders](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
 ##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
 ##### [General Production Posting Group in Stock keeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
 ##### [Skip Update for Stock keeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
 ##### [Nonstock Item Numbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
+##### [Use modern search in CZ applications](LocalFunctionality/Czech/use-modern-search-cz.md)
+##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -2054,8 +2056,8 @@ ms.service: dynamics-365-business-central
 ###### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ###### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 ##### IRS1099
-###### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
-###### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+###### [Introduction to the IRS 1099 forms and functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+###### [Set up IRS 1099 forms](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 ###### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
 ###### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ###### Deprecated 1099 feature
@@ -2627,8 +2629,8 @@ ms.service: dynamics-365-business-central
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Map E-Documents (preview)
-### [Map E-Documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
-### [Responsible AI FAQ for mapping E-Documents with purchase orders using Copilot](faqs-map-edocuments.md)
+### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

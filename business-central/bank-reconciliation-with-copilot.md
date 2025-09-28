@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/01/2025
+ms.date: 09/28/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
@@ -36,6 +36,15 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 ## Supported languages
 
 [!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
+
+## Operational limits
+
+Depending on the version of [!INCLUDE [prod_short](includes/prod_short.md)] you have, this feature has operational limits. The following table describes the limits.
+
+|Version  |Description  |
+|---------|---------|
+|2025 release wave 1 and earlier     | The number of open bank account ledger entries with posting date between the bank statement minimum transaction date (minus one day) and the bank statement maximum transaction date can't exceed around 1000. This number can vary, depending on the length of the description texts on the bank account ledger entries.   |
+|2025 release wave 2 and lager     | The number of open bank account ledger entries with posting dates between the bank statement minimum transaction date (minus one day) and bank statement maximum transaction date can't exceed around 3000. This number can vary, depending on the length of the description texts on the bank account ledger entries.  |
 
 ## Prerequisites
 

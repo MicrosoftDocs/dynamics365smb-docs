@@ -1377,6 +1377,7 @@ ms.service: dynamics-365-business-central
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ##### [WIP Extended Posting](LocalFunctionality/Czech/wip-extended-posting.md)
 ##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
+##### [Alternative Posting Groups for Employees](LocalFunctionality/Czech/use-alternative-posting-groups-employees.md) 
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
 ##### [VAT Statement](LocalFunctionality/Czech/vat-statement.md)

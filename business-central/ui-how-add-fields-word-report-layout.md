@@ -41,7 +41,7 @@ To customize a Word layout for a report, follow these steps:
 1. Save the file.
 1. In Business Central, return to the **Report Layouts** page, and then import the modified layout to replace an existing layout or create a new layout.
 
-Learn more in [Modify a report Layout](ui-get-started-layouts#modify-a-layout).
+Learn more in [Modify a report Layout](ui-get-started-layouts.md#modify-a-layout).
 
 > [!TIP]
 > Business Central offers an add-in to Word that lets you do several layout modifications, like adding data fields and labels, from a user-friendly task pane instead of the **XML Mapping Pane**. Learn more in [Use the Word add-in on report layouts](/dynamics365/business-central/dev-itpro/developer/word-layout-add-in).

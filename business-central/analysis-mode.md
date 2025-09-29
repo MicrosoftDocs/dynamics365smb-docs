@@ -213,13 +213,13 @@ Right-click on the data area or a selection of cells to export data.
 
 If the dataset you want to analyze exceeds 100,000 rows, we suggest you enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode: 
 
-- Formatting of fields of the following four data types might change: 
+- Formatting of fields of the following four data types might change:
 
-   - currency 
-   - decimals (always shown with two decimals) 
-   - dates (always shown in the format YYYY-MM-DD)
-   - timezones
-- Prior to [!INCLUDE [prod_short](includes/2025_releasewave2.md)], Date hierachy fields does not work for column labels in Pivot mode. In [!INCLUDE [prod_short](includes/2025_releasewave2.md)] and later, this limitation has been removed.
+  - currency 
+  - decimals (always shown with two decimals) 
+  - dates (always shown in the format YYYY-MM-DD)
+  - timezones
+- In [!INCLUDE [2025_releasewave1_short](includes/2025_releasewave1_name.md)] and earlier, date hierarchy fields don't work for column labels in Pivot mode. In [!INCLUDE [2025_releasewave2_short](includes/2025_releasewave2_short.md)] and later, this limitation is removed.
 - Fields that are used in pivot mode and added to column labels must have a low number of distinct values.
 
    If you enable pivot mode and drag a field into the **Column labels** area, where the underlying data for that field has too many distinct values, your browser tab might become unresponsive. The browser eventually closes, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field before you add it to the **Column labels** area.

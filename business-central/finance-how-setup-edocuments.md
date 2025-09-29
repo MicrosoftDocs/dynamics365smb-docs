@@ -51,7 +51,7 @@ You can set up an e-document service specifically for the Clearance model. The s
 |---------|---------|---------|
 | E-document Created            | \<Always> | Export E-Document using setup: \<clearance model service>  |
 | E-Document has been exported  | \<Always> | Send E-Document using setup: \<clearance model service>    |
-| E-Document has changed        | \<Always> | Export E-Document using setup: \<service provider>  |
+| E-Document Service Status has changed        | E-Document Status: Cleared | Export E-Document using setup: \<service provider>  |
 | E-Document has been exported  | \<Always> | Send E-Document using setup: \<service provider>    |
 | E-Document has changed        | \<Always> | Send E-Document to customer                         |
 

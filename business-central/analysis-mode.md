@@ -213,7 +213,7 @@ Right-click on the data area or a selection of cells to export data.
 
 If the dataset you want to analyze exceeds 100,000 rows, we suggest you enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode: 
 
-- Formatting of fields of the following four data types might change: 
+- Formatting of fields of the following four data types might change:
 
    - currency 
    - decimals (always shown with two decimals) 

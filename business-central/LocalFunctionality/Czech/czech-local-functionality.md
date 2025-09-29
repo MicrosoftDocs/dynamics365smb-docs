@@ -5,7 +5,7 @@ author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, Cash Desk
-ms.date: 09/26/2025
+ms.date: 09/29/2025
 ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
@@ -24,14 +24,14 @@ The following articles describe the local functionality in the Czech version of 
   * [Statutory Company Information](statutory-company-information.md) **Available now**
   * [Internal Financial Documents](internal-financial-documents.md) **Available Now**  
   * [Accounting Output Documents](accounting-output-documents.md) **Available Now**  
-  * [Financial report feature](how-to-use-accounting-schedule-feature.md) **Available Now**
+  * [Financial Report Feature](how-to-use-accounting-schedule-feature.md) **Available Now**
   * [Statutory Statements](statutory-statements.md)  **Available Now**  
   * [Year Closing Operations](year-close-operations.md) **Available Now**
   * [General Ledger Entries Application](general-ledger-entries-application.md) **Available Now**
   * [Exchange Rate Updating](exchange-rate-update.md) **Available Now**
   * [WIP Extended Posting](wip-extended-posting.md) **Available Now**
   * [Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
-  * [Alternative posting groups for Employees](use-alternative-posting-groups-employees.md) **Available Now**
+  * [Alternative Posting Groups for Employees](use-alternative-posting-groups-employees.md) **Available Now**
   
 * VAT
   * [VAT Date](how-to-setup-vat-date.md) **Available Now**
@@ -39,7 +39,7 @@ The following articles describe the local functionality in the Czech version of 
   * [Supplementary VAT Statement](supplementary-vat-statement.md) **Available Now**
   * [VIES CZ](vies-cz.md) **Available Now**
   * [VIES - CZ Export](how-to-use-vies-cz-export.md) **Available Now**
-  * [Unreliable payer](unreliable-payer.md) **Available Now**
+  * [Unreliable Payer](unreliable-payer.md) **Available Now**
   * [VAT Exchange Rate](how-to-setup-vat-exchange-rate.md) **Available Now**
   * [Set Up and Post Reverse Charge](how-to-setup-and-post-reverse-charge.md) **Available Now**
   * [VAT Control Report](vat-control-report.md) **Available Now**
@@ -59,6 +59,7 @@ The following articles describe the local functionality in the Czech version of 
 
 * Advance Payments  
   * [Advance Payments Localization for Czech (Extension)](ui-extensions-advance-payments-localization-cz.md) **Available Now**
+  * [Set up Advance Payments](adv-payments-how-to-setup-advance-payments.md) **Available Now**
 
 * Payables and Receivables
   * [Exchange Rate Adjustment](how-to-use-exchange-rates-adjustment-feature.md) **Available Now**
@@ -85,20 +86,18 @@ The following articles describe the local functionality in the Czech version of 
   * [Mandatory Exact Cost Return in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Available Now**
   * [Automatic Creation and Update of Dimensions](how-to-setup-automatic-creation-and-update-dimensions.md) **Available Now**
   * [Additional Fields in Item Ledger Entries](how-to-use-add-fields-item-entries.md) **Available Now**
-  * [General Production Posting Group in Stock keeping Unit](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**
+  * [General Production Posting Group in Stock Keeping Unit](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**
   * [Skip Update for Stock keeping Unit at Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
   * [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Available Now**
-  * [Use modern search in CZ applications](use-modern-search-cz.md) **Available Now**
-  * [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-documents-reports.md) **Available Now**
-
+  * [Use Modern Search in CZ Applications](use-modern-search-cz.md) **Available Now**
+  * [Hide Rows with Zero Quantity in CZ Document Reports](hide-rows-with-zero-quantity-in-cz-documents-reports.md) **Available Now**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## Related information
 
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-- [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
-
+- [Country/Regional Availability and Supported Languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 

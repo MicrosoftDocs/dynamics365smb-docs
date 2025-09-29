@@ -3,10 +3,10 @@ title: Functional Currency in the Czech version
 description: Learn about functional currency, its legal basis in Czechia, and how it's supported in Business Central for accounting and VAT reporting.
 author: v-pejano
 ms.author: v-pejano
-ms.reviewer: v-pejano
+ms.reviewer: v-soumramani
 ms.search.keywords: CZ, Czech, Currency, Finance, Accounting, Functional Currency, Exchange Rates
 ms.topic: article
-ms.date: 09/25/2025
+ms.date: 09/29/2025
 ms.search.form: 118
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

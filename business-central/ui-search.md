@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: concept-article
 ms.search.keywords: find, Tell Me, search
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2024
+ms.date: 09/30/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -56,7 +56,9 @@ The Tell Me feature has two tabs, depending on your setup: **Tell Me** and **Adv
 
 # [Tell Me](#tab/tellme)
 
-The **Tell Me** tab is always available. It has the name **Tell me what you want to do** if the **Advanced** tab is missing. Tell Me finds matches based on the exact letters, words, or phrases you type. When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. The search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports. For example, if you enter the word *product*, the results include *items*. 
+The **Tell Me** tab is always available. It has the name **Tell me what you want to do** if the **Advanced** tab is missing.
+
+Tell Me finds matches based on the exact letters, words, or phrases you type. When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. The search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports. For example, if you enter the word *product*, the results include *items*. 
 
 The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
 

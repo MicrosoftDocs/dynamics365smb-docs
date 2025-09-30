@@ -321,6 +321,18 @@ Proceed to set up the new sales invoice discount terms.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
 
+## Add lines to price lists using Edit in Excel
+
+The Edit in Excel action lets you use Excel to quickly edit and add lines, and then publish your changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. For example, the action is useful when you want to make a lot of changes. To learn more about the Edit in Excel action, go to [Edit in Excel](across-work-with-excel.md#edit-in-excel).
+
+> [!NOTE]
+> If you want to add lines to a price list, you must update the Excel spreadsheet as follows:
+>
+> 1. Choose the price list you want to update, and then **Edit in Excel** action to open it in Excel.
+> 1. On the new lines for the new price information, fill in the **Line No.** and **Price List Code** fields. Don't add any other information on the line.
+> 1. In the **Microsoft Dynamics Office Add-in** pane, choose **Publish**. When the add-in successfully publishes the change, choose **Refresh**.
+> 1. Fill in the remaining fields on the lines.
+
 ## Related information
 
 [Setting Up Sales](sales-setup-sales.md)  

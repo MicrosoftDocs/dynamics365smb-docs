@@ -61,7 +61,7 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 
 ### Installing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app
 
-Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following tables and select **Get it now**.
+Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following tables below and select **Get it now**.
 
 Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
 

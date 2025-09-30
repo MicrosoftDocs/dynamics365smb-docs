@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 01/30/2025
+ms.date: 08/29/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -113,27 +113,35 @@ You must add a sustainability account subcategory to each sustainability account
 
 To review sustainability account subcategories, follow these steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Subcategories**, and then select the related link.
-2. On the **Sustainability Account Subcategories** page, you can edit the existing list or create a new category. To create a new category, select the **New** action.
-3. Fill in the **Code** and **Description** fields.
-4. Based on the gas emissions that you track in the sustainability account category and connect this subcategory to, you can also set one or more emission factors:
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Categories**, and then select the related link.
+1. Select an account category, and then select the **Subcategories** action.
+1. On the **Sustainability Account Subcategories** page, you can edit existing list or create a new category. To create a new category, select the **New** action.
+1. Fill in the **Code** and **Description** fields.
+1. In the **Emission Factor CO2** field, based on the gas emissions that you track in the sustainability account category, you can also set one or more emission factors:
 
     - **Emission Factor CO2** – The emission factor for carbon dioxide (CO<sub>2</sub>) emission.
     - **Emission Factor CH4** – The emission factor for methane (CH<sub>4</sub>) emission.
     - **Emission Factor N2O** – The emission factor for nitrous oxide (N<sub>2</sub>O) emission.
-    - **Water Intensity Factor** - The intensity factor for Water.
-    - **Discharged Into Water Factor** - The intensity factor for Discharged Into Water.
-    - **Waste Intensity Factor** - The intensity factor for Waste.
+    - **Water Intensity Factor** - The intensity factor for water.
+    - **Discharged Into Water Factor** - The intensity factor for discharged into water.
+    - **Waste Intensity Factor** - The intensity factor for waste.
 
-5. If the subcategory is related to renewable energy, select the **Renewable Energy** field. However, you can select this field only if it's related to gas emissions and to water or waste.  
+1. In the **Source** field, specify the source of the emission factor.
+1. Fill in the relevant factors.
+1. In the **Energy Source Code** field, choose the type of energy. For example, source codes such as solar, wind, nuclear, and so on.
+1. To require people to fill in the **Energy Consumption** field on purchase order lines and sustainability journals, select the **Energy Value Required** checkbox.
+1. If the subcategory is related to renewable energy, select the **Renewable Energy** field. However, you can select this field only if it's related to gas emissions and to water or waste.
 
 > [!NOTE]
-> The **Import Data** and **Import From** fields are intended for integration with external systems that are used to collect emission factors. However, in **2024 release wave 1**, these fields can't be used as a feature by default.
+> If you select both the **Energy Value Required** and **Renewable Energy** checkboxes, the **Energy Consumption** field on purchase order lines and sustainability journals isn't mandatory.
 
-You can have more than one account subcategory for a sustainability account, but only one can be set as the default value. You must set the default value for the account every time if you want to use it for posting.  
+1. To specify that the energy source is located onsite, select the **Energy Onsite** checkbox.
+
+   > [!NOTE]
+   > The **Import Data** and **Import From** fields are intended for integration with external systems that are used to collect emission factors.   
 
 > [!TIP]
-> For example, if you want to use one account for cars, but you have different types of cars with different emission factors. You can set up one account and create account subcategories for the different emission factors. When you work in a sustainability journal, you can change your account subcategory based on the car type.  
+> You can have more than one account subcategory for a sustainability account. For example, if you want to use one account for cars, but you have different types of cars with different emission factors. You can set up one account and create account subcategories for the different emission factors. When you work in a sustainability journal, you can change your account subcategory based on the car type.  
 
 ## Sustainability ledger entries
 

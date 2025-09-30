@@ -86,7 +86,7 @@ These steps differ, depending on whether your administrator turned on the **New 
 
 > [!Note]
 >
-> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. To learn more, go to [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. To learn more, go to [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#bulk-update-item-prices).  
 
 ### [New Experience](#tab/new-experience/)  
 

@@ -6,7 +6,7 @@ ms.topic: faq
 ms.service: dynamics-365-business-central
 ms.search.keywords: find, search, Tell Me
 ms.search.form: TellMe
-ms.date: 03/20/2024
+ms.date: 09/30/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -14,6 +14,13 @@ ms.custom: bap-template
 # Tell Me FAQ
 
 This article answers questions that our advanced users often ask about the Tell me what you want to do feature.
+
+## Why isn't there an Advanced tab?
+
+There are a couple reasons why the **Advanced** tab isn't available:
+
+- You're using a Business Central on-premises version. The **Advanced** tab is only available in Business Central online.
+- The **Advanced Tell Me** feature isn't enabled in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 ## Are all actions from my current page discoverable in Tell Me?
 
@@ -41,7 +48,7 @@ You can use Tell Me in the on-premises Web Client to find actions, pages, and re
 
 ## Is Tell Me available for all form factors?
 
-Yes. It was introduced on phones and tablets in Business Central 2023 release wave 2. In 2023 release wave 2, it must be enabled in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management) using the **Feature: Search for pages and data in the mobile app** switch. In 2024 rlease wave 1 and later, it's always enabled.
+Yes. It was introduced on phones and tablets in Business Central 2023 release wave 2. In 2023 release wave 2, it must be enabled in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management) using the **Feature: Search for pages and data in the mobile app** switch. In 2024 release wave 1 and later, it's always enabled.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

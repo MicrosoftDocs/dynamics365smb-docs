@@ -34,7 +34,7 @@ You can make various adjustments, such as move or hide fields, columns, actions,
 - [Create, rename, or edit a view](ui-views.md)
 - [Bookmark the page](ui-bookmarks.md)
 - [Resize or collapse the Copilot, Help, and Page Scripting panes](#resize-or-collapse-the-copilot-help-and-page-scripting-panes)
-- [Hide or resize a FactBox](#hide-or-resize-a-factbox)
+- [Hide or resize a FactBox](#resize-or-collapse-a-factbox)
 - Expand/collapse hierarchical list
 
 ### Resize a column

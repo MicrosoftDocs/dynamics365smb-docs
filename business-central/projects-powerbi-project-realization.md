@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37036_Primary
-ms.date: 10/28/2024
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Project Realization (Power BI Report)
@@ -17,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 The **Project Realization** report shows how billing is performing against the costs.
 
-The report compares the billable (invoiced price) value to the actual (total price) value, and highlights how much of each project was invoiced.
+The report compares the total invoiced price to the total usage price, and highlights how much of each project was invoiced.
 
 :::image type="content" source="media/projects/project-realization.png" alt-text="Screenshot of the Project Realization Power BI Report" lightbox="media/projects/project-realization.png":::
 
@@ -33,22 +34,22 @@ Project managers use this report to identify projects with completed work that i
 
 The *Project Realization* report includes the following KPIs:
 
-- [**Actual (Total Price)**](projects-powerbi-kpis.md#actual-total-price)
-- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
-- [**Realization %**](projects-powerbi-kpis.md#realization-)
-- [**Realization Variance**](projects-powerbi-kpis.md#realization-variance)
+- [Realization (%)](projects-powerbi-kpis.md#realization-)
+- [Realization Variance](projects-powerbi-kpis.md#realization-variance)
+- [Total Usage Price](projects-powerbi-kpis.md#total-usage-price)
+- [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-price)
+- [Total Billable Price](projects-powerbi-kpis.md#total-billable-price)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
-
 
 ## Data used in the report
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
+- Job
+- Job Ledger Entries
 
 ## Try the report
 

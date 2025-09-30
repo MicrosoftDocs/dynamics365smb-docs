@@ -941,6 +941,11 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - [Amount Receivable (LCY)](#amount-receivable-lcy)
 - [Balance (Accounts Receivable)](#balance-accounts-receivable)
 - [Original Amount (LCY)](#original-amount-lcy)
+- [Late Payment Amount](#late-payment-amount)
+- [Late Payment %](#late-payment-percent)
+- [Average Days Late](#average-days-late)
+- [No. of Payments](#no-of-payments)
+- [No. of Late Payments](#no-of-late-payments)
 
 ### Bucket 1 (Receivables)
 **Formula**   
@@ -1006,6 +1011,46 @@ The Balance (Accounts Receivable) measure calculates the total balance of accoun
 ### Original Amount (LCY)
 **Formula**   
 The Original Amount (LCY) measure calculates the total amount of original entries for customers in the local currency. The measure sums up the amount (in local currency) of the Customer Ledger Entries table, but only includes entries with the entry type of "Initial Entry".
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### Late Payment Amount
+**Formula**   
+The Late Payment Amount measure sums up the amount (in local currency) of the Customer Ledger Entries table, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### Late Payment Percent
+**Formula**   
+The Late Payment % measure calculates the [No. of Late Payments](#no-of-late-payments) divided by the total [No. of Payments](#no-of-payments).
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### Average Days Late
+**Formula**   
+The Average Days Late measure calculates the average number of days between the Due Date and Posting Date, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### No. of Payments
+**Formula**   
+The No. of Payments measure calculates a distinct count of the **Document No.** column, where **Document Type** is **Payment**.
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### No. of Late Payments
+**Formula**   
+The No. of Late Payments measure calculates a distinct count of the **Document No.** column, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
 
 **Data Sources**
 - Customer Ledger Entry

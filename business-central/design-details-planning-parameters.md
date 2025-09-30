@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/11/2025
+ms.date: 09/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 This article describes the planning parameters that you can use in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-How the planning system controls item supply is determined by various settings on the **Item Card**, **SKU**, and **Manufacturing Setup** pages. The following table explains how planning uses these settings.  
+Various settings on the **Item Card**, **SKU**, **Inventory Setup** and **Manufacturing Setup** pages determine how the planning system controls item supply. The following table explains how planning uses these settings.  
 
 |Purpose|Settings|
 |-------------|---------------|
@@ -37,7 +37,7 @@ The **Time Bucket** field is used by reorder point policies (**Fixed Reorder Qty
 > [!NOTE]  
 > When planning calculates time buckets, it ignores working calendars that are defined in the **Base Calendar Code** field on the **Company Information** and **Location Card** pages.  
 
-On the **Manufacturing Setup** page, you should set the default safety lead time to at least one day. The due date of the demand might be known, but not the due time. The planning schedules backward to meet gross demand. If you don't define a safety lead time, the goods might arrive too late to meet the demand.  
+On the **Inventory Setup** page, you should set the default safety lead time to at least one day. The due date of the demand might be known, but not the due time. The planning schedules backward to meet gross demand. If you don't define a safety lead time, the goods might arrive too late to meet the demand.  
 
 The **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period** fields also play a role in defining when to reorder. To learn more, go to [Optimize When and How Much to Reorder](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
@@ -99,7 +99,7 @@ In the following examples, the black arrows represent existing supply (up) and d
 
 :::image type="content" source="media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png" alt-text="Dampener period, lot accumulation period, and change quantity.":::
 
-**Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D (zero days). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field on the **Manufacturing Setup** page is used.  
+**Default values:** The default value of the **Time Bucket** field and the three reorder period fields are blank. For all fields, except the **Dampener Period** field, this means 0D (zero days). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field on the **Inventory Setup** page is used.  
 
 ## Modify the supply orders  
 
@@ -123,7 +123,7 @@ You can assign a low-level code to each part in the product structure or the ind
 
 On the **Manufacturing Setup** page, use the **Dynamic Low-Level Code** toggle to specify whether to immediately assign and calculate low-level codes for each component in the product structure. If you have large amounts of data, this function can have negative effects on the program's performance, for example during automatic cost adjustment. This function isn't retroactive, so it's a good idea to consider the use of this feature beforehand.
 
-As an alternative to the automatic calculation that occurs dynamically if the field is selected, you can run the **Calculate Low-Level Code** batch job from the **Manufacturing** menu by clicking **Product Design**, **Calculate Low-Level Code**.
+As an alternative to the automatic calculation that occurs dynamically if the field is selected, you can run the **Calculate Low-Level Code** batch job.
 
 > [!IMPORTANT]
 > If you don't turn on the **Dynamic Low-Level Code** toggle, you must run the **Calculate Low-Level Code** batch job before you calculate a supply plan (the **Calculate Plan** batch job).  

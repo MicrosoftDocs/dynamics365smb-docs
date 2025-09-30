@@ -61,7 +61,22 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 
 ### Installing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app
 
-Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following table and select **Get it now**.
+Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following tables and select **Get it now**.
+
+Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
+
+In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
+
+:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png"::::::
+
+After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app appears under **Apps** in [!INCLUDE [powerbi-name](includes/powerbi-name.md)], and there's a workspace with the same name that you can use to configure the app.
+
+When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] subscription, you must choose a workspace for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model and reports. We recommend that you use one workspace for each app because it's easier to set up functional boundaries with access controls for users and user groups.
+
+> [!IMPORTANT]
+> To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
+
+#### Power BI apps (latest version)
 
 | To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
 |--------------------------------| -------------- | ------------------------------------------------ |
@@ -75,6 +90,7 @@ Template apps are available to install from Microsoft AppSource. To install or u
 | Subscription Billing           | 27.0 and later | https://aka.ms/bc-pbi-subscription-billing-app   |
 | Sustainability                 | 27.0 and later | https://aka.ms/bc-pbi-sustainability-app         |
 
+#### Power BI apps (version 26.2 to 26.5)
 
 | To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
 |--------------------------------| -------------- | ------------------------------------------------ |
@@ -89,6 +105,8 @@ Template apps are available to install from Microsoft AppSource. To install or u
 | Sustainability                 | 26.2 to 26.5 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
 
 
+#### Power BI apps (version 25.2 to 26.1)
+
 | To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
 |--------------------------------| ------------ | -------------------------------------------------- |
 | Finance                        | 25.2 to 26.1 | https://aka.ms/bc-pbi-finance-app-25-2             |
@@ -99,18 +117,6 @@ Template apps are available to install from Microsoft AppSource. To install or u
 | Projects                       | 25.2 to 26.1 | https://aka.ms/bc-pbi-projects-app-25-2            |
 | Sales                          | 25.2 to 26.1 | https://aka.ms/bc-pbi-sales-app-25-2               |
 
-Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
-
-In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
-
-:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png"::::::
-
-After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app appears under **Apps** in [!INCLUDE [powerbi-name](includes/powerbi-name.md)], and there's a workspace with the same name that you can use to configure the app.
-
-When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] subscription, you must choose a workspace for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model and reports. We recommend that you use one workspace for each app because it's easier to set up functional boundaries with access controls for users and user groups.
-
-> [!IMPORTANT]
-> To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
 
 ### Need Power BI apps for multiple companies?
 

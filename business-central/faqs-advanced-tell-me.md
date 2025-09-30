@@ -122,4 +122,3 @@ Include the exact query and the object you expected.
 
 [Finding pages and information with Tell Me](ui-search.md)  
 [Responsible AI FAQ for Chat with Copilot](faqs-chat-with-copilot.md)  
-[Business Central documentation](index.md)  

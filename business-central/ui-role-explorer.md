@@ -58,7 +58,7 @@ To quickly locate a page or report, select the **Find** box near the top of the 
 
 If you don't find a match or aren't sure of the exact name of what you're looking for, select **Try Advanced** (preview) under the **Find** box to open the **Advanced** tab in **Tell Me** window and get more results. The **Advanced** tab uses AI-powered semantic search, so it finds results based on the meaning of your search instead of just matching exact words. You can type short descriptive phrases or full sentences in plain, everyday language. For example, you can type in natural language like "report that shows my best customers" to find the **Customer - Top 10** report.
 
-Learn more about advanced Tell Me in [Finding pages and information with Tell Me](ui-search.md#advanced-preview).
+Learn more about advanced Tell Me in [Finding pages and information with Tell Me](ui-search.md#get-started-with-tell-me).
 
 > [!NOTE]
 > **Advanced** is available in Business Central online only, not on-premises, and only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).

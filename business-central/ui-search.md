@@ -21,32 +21,6 @@ This article describes how the in-product search called *Tell me what you want t
 <!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 
 ## Get started with Tell Me
-<!--
-Tell Me feature — quick usage guide
-
-How it works
-- The Tell Me feature has two tabs: "Tell Me" and "Advanced".
-- Both tabs search the same items, but use different methods:
-  - Tell Me: finds matches based on the exact words or keywords you type.
-  - Advanced: uses AI (semantic search) to find results based on the meaning of your query.
-
-How to use
-1. Open Tell Me and select the tab you want: Tell Me or Advanced.
-2. Type your search as plain, everyday language — short phrases or full sentences both work.
-3. Press Enter or pick a result from the suggestions to go directly to the command, page, or report.
-
-When to use which tab
-- Use Tell Me when you know specific words or exact command names.
-- Use Advanced when you only know what you want to achieve but not the exact name. The AI interprets intent and returns relevant items even without exact matches.
-
-Example
-- Query: "report that shows my best customers"
-- Result (Advanced): finds the Customer - Top 10 report even if you don't know that exact report name.
-
-Tips
-- Be descriptive: include what you want to do (e.g., "create invoice for customer"), not just a single keyword.
-- Try the Advanced tab if Tell Me doesn't return useful results — semantic search will broaden the matches.
--->
 
 When you need help with finding something, [!INCLUDE[open-search](includes/open-search-lowercase.md)] to open the **Tell Me** feature.
 
@@ -73,6 +47,7 @@ The Advanced tab is useful even if you don’t know the names of things you're l
 The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 > [!IMPORTANT]
+>
 > - This feature is a production-ready preview feature.
 > - Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
 > - This feature is available in Business Central online only, not on-premises, and only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).

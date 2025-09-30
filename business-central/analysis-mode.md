@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 05/09/2025
+ms.date: 09/29/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -208,17 +208,17 @@ Right-click on the data area or a selection of cells to export data.
 
 :::image type="content" source="media/data-analysis-export-to-excel.png" alt-text="Screenshot of how to export data from an analysis to Excel":::
 
-
 ## Analyze large amounts of data
 
-If the dataset you want to analyze exceeds 100,000 rows, we suggest you enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode: 
+If the dataset you want to analyze exceeds 100,000 rows, we recommend that you use an analysis mode that's optimized for large datasets. However, there are some limitations if you switch to this mode.
 
-- Formatting of fields of the following four data types might change: 
+- The formats in fields of the following four data types might change:
 
-   - currency 
-   - decimals (always shown with two decimals) 
-   - dates (always shown in the format YYYY-MM-DD)
-   - timezones
+   - Currency
+   - Decimals (always shown with two decimals)
+   - Dates (always shown in the format YYYY-MM-DD)
+   - Timezones
+- In [!INCLUDE [prod_short](includes/prod_short.md)] versions earlier than [!INCLUDE [prod_short](includes/2025-releasewave2-short.md)], you couldn't use date hierarchy fields for column labels in Pivot mode. In [!INCLUDE [prod_short](includes/2025-releasewave2-short.md)] and later, this limitation is removed.
 - Fields that are used in pivot mode and added to column labels must have a low number of distinct values.
 
    If you enable pivot mode and drag a field into the **Column labels** area, where the underlying data for that field has too many distinct values, your browser tab might become unresponsive. The browser eventually closes, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field before you add it to the **Column labels** area.

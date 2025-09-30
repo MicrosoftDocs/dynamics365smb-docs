@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 04/01/2025
+ms.date: 09/30/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
@@ -147,17 +147,25 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
   
      `[{no: ITEM-1, description: Shirt, attributes: Linen}, {no: ITEM-2, description: Shirt, attributes: Cotton}]`
 
-  2. Customer's initial request email:
+  1. Customer's initial request email:
 
      `I want a quote for nice shirts`
 
-  3. Agent's reply email:
+  1. Agent's reply email:
   
      `We have X quantity of ITEM-1 Shirt and ITEM-2 Shirt`
 
-  4. Customer's response email:
+  1. Customer's response email:
   
      `I want the ones with linen material`
+
+- Partial word matching in some local versions
+
+  When a search term appears as part of a longer word, the system fails to match it. For example, suppose a customer requests a quote for `Züge von Wagonwheel` in the DE version. The inventory includes the items `WonderWagon Nachziehzug` and `WonderWagon Elektrischer Zug`. However, the agent only returns `WonderWagon Elektrischer Zug`.
+
+- Consumable search in some local versions
+
+  Searches for related consumables often return the main product instead of the requested accessory or consumable. For example, suppose the customer requests a quote for `WonderWash Waschpulver` in the DE version. The inventory includes `WonderWash Waschmaschine` but not `WonderWash Waschpulver`. However, the agent returns `WonderWash Waschmaschine`.
 
 ## Related information
 

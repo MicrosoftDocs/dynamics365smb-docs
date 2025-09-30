@@ -64,16 +64,29 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following table and select **Get it now**.
 
 | To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
-|--------------------------------| -------------- | ------------------------------------------------- |
-| Finance                        | 26.2 and later | https://aka.ms/bc-pbi-finance-app                 |
-| Inventory                      | 26.2 and later | https://aka.ms/bc-pbi-inventory-app               |
-| Inventory Valuation            | 26.2 and later | https://aka.ms/bc-pbi-inventory-valuation-app     | 
-| Manufacturing                  | 26.2 and later | https://aka.ms/bc-pbi-manufacturing-app           |
-| Purchasing                     | 26.2 and later | https://aka.ms/bc-pbi-purchase-app                |
-| Projects                       | 26.2 and later | https://aka.ms/bc-pbi-projects-app                |
-| Sales                          | 26.2 and later | https://aka.ms/bc-pbi-sales-app                   |
-| Subscription Billing           | 26.2 and later | https://aka.ms/bc-pbi-subscription-billing-app    |
-| Sustainability                 | 26.2 and later | https://aka.ms/bc-pbi-sustainability-app          |
+|--------------------------------| -------------- | ------------------------------------------------ |
+| Finance                        | 27.0 and later | https://aka.ms/bc-pbi-finance-app                |
+| Inventory                      | 27.0 and later | https://aka.ms/bc-pbi-inventory-app              |
+| Inventory Valuation            | 27.0 and later | https://aka.ms/bc-pbi-inventory-valuation-app    |
+| Manufacturing                  | 27.0 and later | https://aka.ms/bc-pbi-manufacturing-app          |
+| Purchasing                     | 27.0 and later | https://aka.ms/bc-pbi-purchase-app               |
+| Projects                       | 27.0 and later | https://aka.ms/bc-pbi-projects-app               |
+| Sales                          | 27.0 and later | https://aka.ms/bc-pbi-sales-app                  |
+| Subscription Billing           | 27.0 and later | https://aka.ms/bc-pbi-subscription-billing-app   |
+| Sustainability                 | 27.0 and later | https://aka.ms/bc-pbi-sustainability-app         |
+
+
+| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
+|--------------------------------| -------------- | ------------------------------------------------ |
+| Finance                        | 26.2 to 26.5 | https://aka.ms/bc-pbi-finance-app-26-2             |
+| Inventory                      | 26.2 to 26.5 | https://aka.ms/bc-pbi-inventory-app-26-2           |
+| Inventory Valuation            | 26.2 to 26.5 | https://aka.ms/bc-pbi-inventory-valuation-app-26-2 | 
+| Manufacturing                  | 26.2 to 26.5 | https://aka.ms/bc-pbi-manufacturing-app-26-2       |
+| Purchasing                     | 26.2 to 26.5 | https://aka.ms/bc-pbi-purchase-app-26-2            |
+| Projects                       | 26.2 to 26.5 | https://aka.ms/bc-pbi-projects-app-26-2            |
+| Sales                          | 26.2 to 26.5 | https://aka.ms/bc-pbi-sales-app-26-2               |
+| Subscription Billing           | 26.2 to 26.5 | https://aka.ms/bc-pbi-subscription-billing-app     |
+| Sustainability                 | 26.2 to 26.5 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
 
 
 | To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |

@@ -218,7 +218,7 @@ If the dataset you want to analyze exceeds 100,000 rows, we recommend that you u
    - Decimals (always shown with two decimals)
    - Dates (always shown in the format YYYY-MM-DD)
    - Timezones
-- In [!INCLUDE [prod_short](includes/prod_short.md)] versions earlier than [!INCLUDE [prod_short](includes/2025_releasewave2.md)], you couldn't use date hierarchy fields for column labels in Pivot mode. In [!INCLUDE [prod_short](includes/2025_releasewave2.md)] and later, this limitation is removed.
+- In [!INCLUDE [prod_short](includes/prod_short.md)] versions earlier than [!INCLUDE [prod_short](includes/2025_releasewave2_short.md)], you couldn't use date hierarchy fields for column labels in Pivot mode. In [!INCLUDE [prod_short](includes/2025_releasewave2_short.md)] and later, this limitation is removed.
 - Fields that are used in pivot mode and added to column labels must have a low number of distinct values.
 
    If you enable pivot mode and drag a field into the **Column labels** area, where the underlying data for that field has too many distinct values, your browser tab might become unresponsive. The browser eventually closes, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field before you add it to the **Column labels** area.

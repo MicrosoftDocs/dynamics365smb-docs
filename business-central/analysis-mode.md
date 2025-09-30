@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 09/29/2025
+ms.date: 09/30/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -17,7 +17,7 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 This article explains how to use the data analysis feature from list pages and queries. The data analysis lets you analyze data directly from the page, without having to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are: "My customers," "Follow up items," "Recently added vendors," "Sales statistics," or any other view you can imagine.
 
 > [!TIP]
-> A good thing about the data analysis feature is that it doesn't change the underlying data of a list page or query. It also doesn't change the layout of the page or query when it isn't in analysis mode. So the best way to learn about what you can do in analysis mode is to try out things.
+> A good thing about the data analysis feature is that it doesn't change the underlying data of a list page or query. It also doesn't change the layout of the page or query when it isn't in analysis mode. So, the best way to learn about what you can do in analysis mode is to try out things.
 
 ## Prerequisites
 
@@ -245,7 +245,7 @@ After you prepare an analysis on a tab, you can share it as a link with coworker
 Use the **Data Analysis** feature for quick fact checking and ad hoc analysis:
 
 - If you don't want to run a report.
-- If a report for your specific need doesn't exist.
+- If a report for your specific needs doesn't exist.
 - If you want to quickly iterate to get a good overview on a part of your business.
 
 The following sections provide examples of scenarios for many of the functional areas in [!INCLUDE [prod_short](includes/prod_short.md)].

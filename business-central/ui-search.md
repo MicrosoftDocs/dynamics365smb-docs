@@ -79,7 +79,7 @@ The **exploring pages and reports** action opens a feature overview that shows a
 
 Search results display on the page the same way for the **Tell Me** or **Advanced** tab.
 
-The rigt-side column indicates the general category of the result. For example, whether it opens a list page or is an administrative task. The page categorizes results based on the data that you enter and the page you're working on. The following sections describe the categories.
+The right-side column indicates the general category of the result. For example, whether it opens a list page or is an administrative task. The page categorizes results based on the data that you enter and the page you're working on. The following sections describe the categories.
 
 > [!TIP]  
 > If you prefer to use your keyboard, use the <kbd>Tab</kbd> key and <kbd>Arrow</kbd> keys to choose an item in the results. If you select the <kbd>Enter</kbd> key on your keyboard without choosing a result, [!INCLUDE[prod_short](includes/prod_short.md)] opens the result that is listed first.

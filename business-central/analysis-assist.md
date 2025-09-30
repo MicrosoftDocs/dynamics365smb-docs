@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/08/2025
+ms.date: 09/30/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -111,7 +111,7 @@ This prompt groups items by the vendors' countries/regions. Because the country/
 
 Copilot can use any of the visible or hidden fields on the list page and add them as columns to the analysis tab layout. Hidden fields are those fields that you would typically add to the list by personalizing the page.
 
-When Copilot determines that a hidden field is useful for your analysis tab, the field is shown as a column in the tab layout. It also appears in the **Columns** pane so that you can hide or reorder it, or add it to any other analysis tabs for this list.  
+When Copilot determines that a hidden field is useful for your analysis tab, the field is shown as a column in the tab layout. It also appears in the **Columns** pane so that you can hide or reorder it or add it to any other analysis tabs for this list.  
 
 > [!NOTE]
 > If an administrator turned off personalization for your profile (role), Copilot isn't able to use hidden fields from the list.

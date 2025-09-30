@@ -1,13 +1,13 @@
 ---
 title: Set up advance payments in the Czech version  
-description: This article describes how to set up Advance Payments in the Czech version.  
+description: Learn how to set up advance payments in the Czech version of Business Central.  
 author: v-pejano
-ms.reviewer: v-pejano  
+ms.reviewer: v-soumramani  
 ms.author: v-pejano  
 ms.service: dynamics-365-business-central  
 ms.topic: article  
-ms.search.keywords: Czech, Advance Payments, Localization  
-ms.date: 09/17/2025  
+ms.search.keywords: Czech, Advance Payments, Localization, VAT posting, advance letter templates
+ms.date: 09/29/2025  
 ms.custom: bap-template
 ---
 
@@ -23,7 +23,7 @@ To work with Advance Payments functionality, you must configure:
 
 Advance letter templates are the foundation of the setup for Advance Payments. They group advances into categories and provide default settings used to generate advance invoices.
 
-![Advance Letter Templates](Media/adv-payments-setup-templates.png)
+:::image type="content" source="media/adv-payments-setup-templates.png" alt-text="Screenshot of the advance letter templates page.":::
 
 To configure an advance letter template, follow these steps:
 
@@ -44,9 +44,9 @@ To configure an advance letter template, follow these steps:
 
 ## VAT posting setup for advances
 
-For every combination of VAT posting groups that requires posting of a VAT document for an advance invoice, you must fill in the relevant fields on the **Advance CZZ** FastTab on the **VAT Posting Setup** page.
+For each combination of VAT posting groups that requires a VAT document to be posted for an advance invoice, complete the relevant fields in the **Advance Payments** FastTab on the **VAT Posting Setup** page.
 
-![VAT Posting Setup](Media/adv-payments-setup-vat.png)
+:::image type="content" source="media/adv-payments-setup-vat.png" alt-text="Screenshot of the VAT posting setup page.":::
 
 To set up VAT posting for advance payments, follow these steps:
 
@@ -86,6 +86,6 @@ When you post VAT entries from advances, the standard **Base** and **Amount** fi
 
 ## Related information
 
-[Advance Payments for Czech Republic (Extension)](ui-extensions-advance-payments-localization-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+- [Advance Payments for Czech Republic (Extension)](ui-extensions-advance-payments-localization-cz.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)

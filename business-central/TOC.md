@@ -1378,6 +1378,7 @@ ms.service: dynamics-365-business-central
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ##### [WIP Extended Posting](LocalFunctionality/Czech/wip-extended-posting.md)
 ##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
+##### [Alternative Posting Groups for Employees](LocalFunctionality/Czech/use-alternative-posting-groups-employees.md) 
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
 ##### [VAT Statement](LocalFunctionality/Czech/vat-statement.md)
@@ -1401,6 +1402,8 @@ ms.service: dynamics-365-business-central
 ##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 #### Advance Payments
 ##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
+##### [Set up advance payments](LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments.md)
+
 #### Payables and Receivables
 ##### [Exchange Rates Adjustment Feature](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
 ##### [Customer and Vendor Reconciliations](LocalFunctionality/Czech/customers-vendors-reconciliations.md)

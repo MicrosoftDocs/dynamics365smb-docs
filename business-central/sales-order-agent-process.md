@@ -48,7 +48,7 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab open
 For each sales quote request, Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
 > [!TIP]
-> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the role or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
+> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the navigation menu or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
 
 ## Review and assist
 

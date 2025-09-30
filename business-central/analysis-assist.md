@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 06/19/2025
+ms.date: 09/30/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -13,17 +13,15 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 ms.collection:
   - bap-ai-copilot
 ---
-# Analyze data in lists with Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Analyze data in lists with Copilot
 
 This article explains how to use *analysis assist* to help you analyze data on list pages.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 ## About analysis assist
 
-Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, you create an *analysis* tab where you transform the data to display the desired aggregations and summarizations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. With analysis assist, instead of doing this task manually, you achieve much of the same&mdash;or least as a start&mdash;by using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category," analysis assist uses AI to generate a suggested layout on an analysis tab.
+Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, create an analysis tab where you transform the data to display the desired aggregations and summarizations—for example, arranging fields in rows and columns, specify filters, sorting columns, and pivot on fields.
+
+With analysis assist, instead of doing these tasks manually, you can express the structure you want in natural language and get a suggested layout as a starting point. Copilot can also help by adding fields from related tables (for example, showing items together with the purchasing vendor address). It can translate instructions like "sort on quantity from smallest to largest" or "show average cost per category" into the corresponding rows, columns, filters, and aggregations.
 
 ## Supported languages
 
@@ -31,7 +29,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 ## Prerequisites
 
-- An administrator must activate the **Analyze list** capability on the **Copilot & agent capabilities** page and grand users permissions to use analysis mode. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).  
+- An administrator activated the **Analyze list** capability on the **Copilot & agent capabilities** page and granted you the required permissions to use analysis mode. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).  
 
 ## Get started
 
@@ -49,7 +47,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
     ![Shows the analysis assist Copilot](media/analysis-assist.svg)
 
     > [!TIP]
-    > For help in writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started. The text in brackets `[ ]` is shown only as an example and isn't included in the Copilot window.
+    > For help with writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started. The text in brackets `[ ]` is shown only as an example and isn't included in the Copilot window.
 
 1. Select **Generate** and then wait while Copilot generates the layout on new analysis tab.
 1. Review the results on the new analysis tab.
@@ -96,22 +94,33 @@ This prompt tries to show totals for all summable fields, grouped by brand and t
 
 Prompt: `Show items by type and uom`
 
-This prompt  shows totals for all summable fields, grouped by the **Type** field and **Base Unit of Measure** field. In this prompt, the abbreviation `uom` is used instead of writing out "unit of measure". Copilot is often able to interpret abbreviations or alternate names and match them to fields on the list.
+This prompt shows totals for all summable fields, grouped by the **Type** field and **Base Unit of Measure** field. In this prompt, the abbreviation `uom` is used instead of writing out "unit of measure". Copilot is often able to interpret abbreviations or alternate names and match them to fields on the list.
 
 Prompt: `Show total quantity per type per UoM`
 
 This prompt creates a pivot table on the **Quantity on Hand** field per **Base Unit of Measure** per **Type**.
 
+Prompt: `group items by vendor's country/region`
+
+This prompt groups items by the vendors' countries/regions. Because the country/region data is stored in the **Vendor** table, not the **Item** table, Copilot uses analysis mode to include fields from related tables. In this case, Copilot uses the vendor number from the item record to retrieve the country/region from the **Vendor** table and adds `Country/Region Code [Vendor, via: Vendor No. = No.]` in the **Row Groups** section of the **Columns** pane.
+
+> [!TIP]
+> Copilot performs better when you mention the related table from which you want to add more fields.
+
 ## How Copilot works with fields for analysis assist
 
 Copilot can use any of the visible or hidden fields on the list page and add them as columns to the analysis tab layout. Hidden fields are those fields that you would typically add to the list by personalizing the page.
 
-When Copilot determines that a hidden field is useful for your analysis tab, the field is shown as a column in the tab layout. It's also shown in the **Columns** pane so that you can hide or reorder it, or add it to any other analysis tabs for this list.  
+When Copilot determines that a hidden field is useful for your analysis tab, the field is shown as a column in the tab layout. It also appears in the **Columns** pane so that you can hide or reorder it or add it to any other analysis tabs for this list.  
 
 > [!NOTE]
-> If an administrator has turned off personalization for your profile (role), Copilot isn't able to use hidden fields from the list.
+> If an administrator turned off personalization for your profile (role), Copilot isn't able to use hidden fields from the list.
 
 Copilot can't reach fields that are on the table but not on the page, and it can't use fields from other pages.
+
+## Using tabs created by Copilot in preview
+
+If you used the **Analysis Assist** feature while in preview, you might have asked Copilot to create analysis tabs that include hidden fields from the list. These tabs are no longer compatible. When you next open one of these analysis tabs, a message indicates which hidden fields have been removed. You can add these fields again manually, or ask Copilot to create a new tab for you.
 
 ## Related information
 

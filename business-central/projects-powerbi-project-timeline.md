@@ -43,8 +43,8 @@ The report includes the following key performance indicators (KPI) and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Projects
-- Project Tasks
+- Job
+- Job Task
 
 ## Try the report
 

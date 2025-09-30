@@ -270,7 +270,7 @@ In addition to, or instead of, a discount percentage, you can link a service cha
 > [!TIP]  
 > Before you enter this information, it's a good idea to prepare an outline of the discount structure that you want to use. The structure makes it easier to determine which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
 
-For training in discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
+To learn more about discounts in sales, go to [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### Calculating invoice discounts on sales
 
@@ -289,7 +289,7 @@ These steps differ, depending on whether your administrator turned on the **New 
 > [!NOTE]
 > When you open the **Sales Prices** and **Sales Line Discounts** pages from a specific customer, the **Sales Type Filter** and **Sales Code Filter** fields are set for the customer and can't be changed or removed.
 >
-> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. Learn more at [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. Learn more at [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#bulk-update-item-prices).  
 
 #### [New experience](#tab/new-experience/)  
 

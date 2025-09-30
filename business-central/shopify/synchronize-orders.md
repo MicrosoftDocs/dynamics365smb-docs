@@ -137,6 +137,27 @@ The payment mapping is used in the following cases:
 
 > [!NOTE]  
 > Shopify Connector keeps the due date from a Shopify order (such as for the payment terms **Fixed Date** or **Within X days**) in the sales document, regardless of the mapping. For payment terms without a set due date (such as **Due on receipt** or **Due on fulfillment**), the Connector calculates the due date using the formula from the mapped payment term. If no mapping exists, the customer's payment term applies. If that's also missing, the due date defaults to the document date.
+
+### Staff-to-salesperson mapping
+
+When you use Shopify POS or other sales channels involving, you improve traceability and performance reporting by importing staff member information from Shopify to salespersons in [!INCLUDE [prod_short](../includes/prod_short.md)] on sales documents.
+
+To automatically fill in the **Salesperson code** field for sales documents imported from Shopify, configure **Shopify Staff Member Mapping**.
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
+2. Select the shop where you want to set up a mapping to open the **Shopify Shop Card** page.
+3. Select the **Shopify Staff Member Mapping** action.
+4. Select **Refresh** to import staff members enabled on Shopify.
+5. Enter the **Salesperson Code** for the matching salesperson in [!INCLUDE [prod_short](../includes/prod_short.md)].
+
+When you import orders from Shopify, the orders created via Shopify POS or via Draft Orders include the staff ID. If you configure the mapping on the **Shopify Staff Member Mapping** page, the connector adds the corresponding salesperson to the Shopify order and copy it to the sales document.
+
+Known limitations:
+
+* The mapping works for B2B stores only.
+* You can't export salespersons from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
+* Not used during export of posted sales invoices to Shopify.
+
   
 ## Run the order synchronization
 
@@ -203,6 +224,10 @@ You can also mark an order as paid, which is useful in a B2B scenario where paym
 
 If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, fix the problems, and then create the sales order again.
 
+### Order Total FactBox
+
+The **Order total** part in the **Shopify Orders** page displays totals from both the order in Shopify and the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)]. The totals let you compare figures without opening each document, which can be helpful when you're testing customer and item templates.
+
 ### To create sales documents
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
@@ -246,7 +271,19 @@ If a customer is identified, their information fills in both the **Sell-to Custo
 >
 > The connector doesn't populate the **Bill-to Customer No.** field in the created customer.
 
-For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** because named customers are expected for B2B.
+For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** page because named customers are expected for B2B.
+
+B2B orders also contain company location details. The **Sell-to Customer No.** and **Bill-to Customer No.** fields, available on the **Shopify Company Location** page, can affect the mapping. By default, these fields are empty, but you can fill them in if needed. When you import a Shopify order that's associated with a B2B company and location, the connector uses the data in these fields to map the sell-to and bill-to customers in the sales order.
+
+The following table shows examples of customer mappings.
+
+|Value in the **Customer No.** field in the **Shopify Company**	|Value in the **Sell-to Customer No.** field in the **Shopify Company Location**	|Value in the **Bill-to Customer No.** field in the **Shopify Company Location**	|Proposed value for **Sell-to Customer No.** field in the Shopify Order	|Proposed value for **Bill-to Customer No.** field in the Shopify Order|
+----|----|----|----|----
+|10000	|*blank*	|*blank*	|10000	|10000|
+|10000	|20000	|*blank*	|20000	|20000 (same as  Sell-to Customer No. in Company Location)|
+|10000	|20000	|30000	|20000	|30000|
+|10000	|*blank*	|30000</br>Not supported. Must be blank or Sell-to Customer No. must have value	|N/A|N/A|
+|*blank*	|*blank*	|*blank*	|*blank*	|*blank*|
 
 ### Different processing rules for orders
 
@@ -339,7 +376,7 @@ The Shopify connector does the following steps:
 * Creates a draft order with header and item lines
 * Converts the draft order it to an order
 
-**Fields export to order headers and lines**
+**Fields that export to order headers and lines**
 
 The following fields export on the order header:
 

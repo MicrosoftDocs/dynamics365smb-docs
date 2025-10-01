@@ -218,7 +218,8 @@ To set a date field, you can manually enter the date, or you can open a calendar
 
 | Select these keys | To do this |
 |---|---|
-| <kbd>Ctrl</kbd>+<kbd>Home</kbd> | <p>Open a closed calendar.</p><p>**Note:** This keyboard shortcut doesn't work if the date field is in a grid. In that case, <kbd>Ctrl</kbd>+<kbd>Home</kbd> jumps to the first row of the grid.</p> |
+| <kbd>Ctrl</kbd>+<kbd>Home</kbd> | <p>Open and close calendar. </p><p>**Note:** This keyboard shortcut doesn't work if the date field is in a grid. In that case, <kbd>Ctrl</kbd>+<kbd>Home</kbd> jumps to the first row of the grid.</p> |
+| <kbd>Shift</kbd>+<kbd>Home</kbd> |<p>Show or hide week numbers in calendar.</p> |
 | <kbd>Ctrl</kbd>+<kbd>Home</kbd><br>(<kbd>Cmd</kbd>+<kbd>Home</kbd>) | Move to the current month and the current day. |
 | <kbd>Left arrow</kbd><br>(<kbd>Left arrow</kbd>) | Move to the previous day. |
 | <kbd>Right arrow</kbd><br>(<kbd>Right arrow</kbd>) | Move to the next day. |

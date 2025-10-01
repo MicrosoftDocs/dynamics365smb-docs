@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 37064_Primary, 37022, 37024, 37023, 37025, 37026, 37027, 37028, 37029, 37030, 37031, 37032
+ms.search.form: 37064_Primary, 37022, 37024, 37023, 37025, 37026, 37027, 37028, 37029, 37030, 37031, 37032, 37110
 ms.date: 10/28/2024
 ms.service: dynamics-365-business-central
 ---
@@ -73,6 +73,7 @@ The following table provides descriptions on how you can use each report in the 
 |View inventory quantities based on serial numbers. | [Inventory by Serial No.](https://businesscentral.dynamics.com?page=37030) | [About Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)|
 |Analyze inventory levels across different bins and identify bins that have active picks. | [Bin Contents](https://businesscentral.dynamics.com?page=37031) | [About Bin Contents](inventory-powerbi-bin-contents.md)|
 |Analyze inventory levels across bins and tracking information for the items. | [Bin Contents by Item Tracking](https://businesscentral.dynamics.com?page=37032) | [About Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)|
+|Analyze forecasted inventory quantities across location, item and entry type. | [Inventory Forecasting](https://businesscentral.dynamics.com?page=37110) | [About Inventory Forecasting](inventory-powerbi-inventory-forecasting.md)|
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

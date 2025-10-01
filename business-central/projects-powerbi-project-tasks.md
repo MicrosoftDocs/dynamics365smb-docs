@@ -4,11 +4,12 @@ description: The Project Tasks report breaks down each project and their tasks.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37034_Primary
-ms.date: 10/28/2024
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Project Tasks (Power BI Report)
@@ -27,16 +28,16 @@ Project Managers use the report to track the progress of project tasks and make 
 
 The *Project Tasks* report includes the following KPIs:
 
-- [**Actual (Total Price)**](projects-powerbi-kpis.md#actual-total-price)
-- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
-- [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
-- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
-- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
-- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
-- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
-- [**Realization %**](projects-powerbi-kpis.md#realization-)
+- [Actual (Total Price)](projects-powerbi-kpis.md#actual-total-price)
+- [Actual (Total Cost)](projects-powerbi-kpis.md#actual-total-cost)
+- [Actual Profit](projects-powerbi-kpis.md#actual-profit)
+- [Actual Profit Margin %](projects-powerbi-kpis.md#actual-profit-margin-)
+- [Realization (%)](projects-powerbi-kpis.md#realization-)
+- [Billable (Invoiced Price)](projects-powerbi-kpis.md#billable-invoiced-price)
+- [Billable (Total Price)](projects-powerbi-kpis.md#billable-total-price)
+- [Budget (Total Cost)](projects-powerbi-kpis.md#budget-total-cost)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -44,10 +45,10 @@ The *Project Tasks* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Planning Lines
-- Project Ledger Entries
-- Task
+- Job
+- Job Task
+- Job Planning Lines
+- Job Ledger Entries
 
 ## Try the report
 

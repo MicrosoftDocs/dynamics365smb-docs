@@ -51,7 +51,7 @@ You can set up an e-document service specifically for the Clearance model. The s
 |---------|---------|---------|
 | E-document Created            | \<Always> | Export E-Document using setup: \<clearance model service>  |
 | E-Document has been exported  | \<Always> | Send E-Document using setup: \<clearance model service>    |
-| E-Document has changed        | \<Always> | Export E-Document using setup: \<service provider>  |
+| E-Document Service Status has changed        | E-Document Status: Cleared | Export E-Document using setup: \<service provider>  |
 | E-Document has been exported  | \<Always> | Send E-Document using setup: \<service provider>    |
 | E-Document has changed        | \<Always> | Send E-Document to customer                         |
 
@@ -62,43 +62,51 @@ To set up an e-document service, follow these steps.
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **E-Document Services**, and then select the related link.
 2. Select **New**, and then configure the fields on the **General** FastTab as described in the following table.
 
-   | Field | Description |
-   |-------|-------------|
-   | Code | Select the electronic export setup code. |
-   | Description | Enter a brief description of the electronic export setup. |
-   | Document Format | Select the export format of the electronic export setup. You can select **PEPPOL BIS 3.0** as a generic code-based format, or **Data Exchange** when you must set up documents of specific formats on the **Data Exchange Definition** FastTab. <br><br>**Note:** The default options in this field are provided as examples. Localization apps must provide format detail because they're specific to local requirements.<br><br> You probably can't use the default PEPPOL document format as is. Microsoft provides this option as an example of how to use this feature. We recommend that you test the existing PEPPOL format before you start to use it. |
-   | Service Integration | Select the integration code for the electronic export setup. By default, the only option is **No integration** unless integration connectors are installed.<br><br>**Important:** By default, the **Service Integration** field is available only if you install integration connectors. |
+    | Field | Description |
+    |-------|-------------|
+    | Code | Select the electronic export setup code. |
+    | Description | Enter a brief description of the electronic export setup. |
+    | Document Format | The export format of the electronic export setup. By default, there are two options in this field. You can select **PEPPOL BIS 3** as a generic code-based format or **Data Exchange** when you must set up predocuments of specific formats on the **Data Exchange Definition** FastTab.</p> |
+    | Service Integration | Select the integration code for the electronic export setup. Currently, the only option is **No integration**. |
+    | Is a Clearance | Select this field only if your country/region uses a clearance e-invoicing model. When selected, the e-document service sends your invoice only to the tax authorities for clearance. You must configure another service to deliver the cleared invoice to the customer, along with a workflow that supports both the clearance and delivery steps. |
+
+    > [!NOTE]
+    > You can't use the clearance model until you choose a dedicated service integration.
 
 3. On the **Importing** FastTab, configure the fields as described in the following table.
 
-   | Field | Description |
-   |-------|-------------|
-   | Automatic Import | Specify whether a background job automatically imports documents from the service. |
-   | Import Start Time | Specify the start time for automatic import jobs. This field is available only when **Automatic Import** is enabled. |
-   | Import Minutes between runs | Specify the number of minutes to wait between runs of the automatic import job. This field is available only when **Automatic Import** is enabled. |
-   | Automatic Processing | Specify whether to automatically create a purchase document based on the received e-document. If you choose **No**, [!INCLUDE [prod_short](includes/prod_short.md)] creates the e-document, but you must review its details before creating the purchase document. |
-   | Validate Receiving Company | Specify whether the receiving company information must be validated during import. |
-   | Resolve Unit Of Measure | Specify whether to resolve the unit of measure during import. |
-   | Lookup Item Reference | Specify whether to search for items by item reference during import. |
-   | Lookup Item GTIN | Specify whether to search for items by Global Trade Item Number (GTIN) during import. |
-   | Lookup Account Mapping | Specify whether to search for accounts in **Account Mapping** by the incoming text during import. |
-   | Validate Line Discount | Specify whether to validate a line discount during import. |
-   | Apply Invoice Discount | Specify whether to apply an invoice discount during import. |
-   | Verify Totals | Specify whether to verify invoice totals during import. |
-   | Create Journal Lines | Specify whether a journal line must be created instead of a purchase document. Select this option when you want to use journals as a destination for your invoices. |
-   | General Journal Template Name | Specify the name of the general journal template that's used for journal line creation. This field is relevant when you want to use journals as a destination for your invoices. |
-   | General Journal Batch Name | Specify the name of the general journal batch that's used for journal line creation. This field is relevant when you want to use journals as a destination for your invoices. |
+    | Field | Description |
+    |-------|-------------|
+    | Automatic Import | Specify whether documents should be automatically imported from the service. |
+    | Automatic processing| Specify whether [!INCLUDE [prod_short](includes/prod_short.md)] uses your e-document setup to automatically create a purchase document based on the received e-document. If you choose **No**, [!INCLUDE [prod_short](includes/prod_short.md)] creates the e-document, but you must review its details before you create the purchase document. |
+    | Validate Receiving Company | Specify whether the receiving company information must be validated during import. |
+    | Resolve Unit Of Measure | Specify whether to resolve the unit of measure during import. |
+    | Lookup Item Reference | Specify whether to search for items by item reference during import. |
+    | Lookup Item GTIN | Specify whether to search for items by global trade item number (GTIN) during import. |
+    | Lookup Account Mapping | Specify whether to search for accounts in **Account Mapping** by the incoming text during import. |
+    | Validate Line Discount | Specify whether to validate a line discount during import. |
+    | Apply Invoice Discount | Specify whether to apply an invoice discount during import. |
+    | Verify Totals | Specify whether to verify invoice totals during import. |
+    | Create Journal Lines | Specify whether a journal line must be created instead of a purchase document. Select this option when you want to use journals as a destination for your invoices. |
+    | General Journal Template Name | Specify the name of the general journal template that's used for journal line creation. This field is applicable when you want to use journals as a destination for your invoices. |
+    | General Journal Batch Name | Specify the name of the general journal batch that's used for journal line creation. This field is applicable when you want to use journals as a destination for your invoices. |
+    | Batch Start Time | Specify the start time for import jobs. |
+    | Minutes between runs | Specify the number of minutes between import job runs. |
 
-4. On the **Exporting** FastTab, configure the fields as described in the following table.
+4. If you selected **Data Exchange** in the **Document Format** field on the **General** FastTab, on the **Data Exchange Definition** FastTab, fill in the fields as described in the following table.
 
-   | Field | Description |
-   |-------|-------------|
-   | Batch Exporting | Specify whether the service uses batch processing to export e-documents. |
-   | Batch Mode | Specify the mode of batch processing. Choose **Threshold** to send documents when a specified number of documents are ready, or **Recurrent** to send documents on a scheduled basis. This field is available only when **Batch Exporting** is enabled. |
-   | Batch Threshold | Specify the number of documents that must be ready before batch processing begins. This field is only visible when **Batch Mode** is set to **Threshold**. |
-   | Batch Start Time | Specify the start time for batch processing jobs. This field is available only when the **Batch Mode** field is set to **Recurrent**. |
-   | Batch Minutes between runs | Specify the number of minutes between batch processing jobs. This field is available only when the **Batch Mode** field is set to **Recurrent**. |
-   | Embed PDF in export | Specify whether to embed a PDF version of the e-document in the e-document file when you export. This field is available only when the **Document Format** field is set to **PEPPOL BIS 3.0**. <br><br>**Note:** The **Embed PDF in export** option can make life a little easier. When you post a document, [!INCLUDE [prod_short](includes/prod_short.md)] creates a PDF file and embeds it as a PDF attachment in the e-document. The PDF is a human-readable version that's easier to understand than the full XML of the PEPPOL format. |
+    | Field | Description |
+    |-------|-------------|
+    | Document Type | Specify the document type that uses data exchange to import and export the data. Examples include **Sales Invoice**, **Sales Credit memo**, and **Purchase Invoice**. |
+    | Import Data Exchange Def. Code | Specify the data exchange code that's used to import the data. Use this field only to receive a document in the purchase process. |
+    | Export Data Exchange Def. Code | Specify the data exchange code that's used to export the data. Use this field only to deliver documents in the sales process. |
+
+> [!NOTE]
+> There are data exchange definitions for the PEPPOL format that are related to sales and purchase documents. However, you likely can't use these definitions as is. They're all W1 formats that are provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use them. It's possible that using a specific localization reveals more formats, as some can be country/region-specific.
+>
+> If you configured the **Data Exchange Definition** format in your localization, you can add a line for the document types that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
+>
+> If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option for your format in the **Document Format** field.  
 
 5. If you selected **Data Exchange** in the **Document Format** field on the **General** FastTab, on the **Data Exchange Definition** FastTab, fill in the fields as described in the following table.
 

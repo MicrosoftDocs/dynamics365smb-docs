@@ -36,7 +36,7 @@
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
-   inkscape:current-layer="shape1090-29" />
+   inkscape:current-layer="g21" />
 	<v:documentProperties
    v:langID="1033"
    v:metric="true"
@@ -178,51 +178,8 @@
    v:langID="1033"
    id="text6"><v:paragraph
    v:horizAlign="1" /><v:tabList />Learn more</text>		</g>
-		<g
-   id="shape1074-14"
-   v:mID="1074"
-   v:groupContext="shape"
-   v:layerMember="0"
-   transform="translate(473.336,-125.021)">
-			<title
-   id="title7">Sheet.1074</title>
-			<desc
-   id="desc7">Terms of use</desc>
-			<v:textBlock
-   v:margins="rect(4,4,4,4)"
-   v:tabSpace="42.5197" />
-			<v:textRect
-   cx="27.3543"
-   cy="139.569"
-   width="54.71"
-   height="20" />
-			<rect
-   x="0"
-   y="129.569"
-   width="54.7086"
-   height="20"
-   class="st6"
-   id="rect7" />
-			<text
-   x="4.12"
-   y="141.97"
-   class="st7"
-   v:langID="1033"
-   id="text7"><v:paragraph
-   v:horizAlign="1" /><v:tabList />Terms of use</text>		</g>
-		<g
-   id="shape1076-17"
-   v:mID="1076"
-   v:groupContext="shape"
-   v:layerMember="0"
-   transform="translate(678.605,7.46163) rotate(90)">
-			<title
-   id="title8">Sheet.1076</title>
-			<path
-   d="M0 149.57 L11.14 149.57"
-   class="st8"
-   id="path8" />
-		</g>
+		
+		
 		<g
    id="shape1078-20"
    v:mID="1078"
@@ -254,40 +211,7 @@
    class="st9"
    v:langID="1033"
    id="text9"><v:paragraph /><v:tabList />Analyze Items</text>		</g>
-		<g
-   id="shape1080-23"
-   v:mID="1080"
-   v:groupContext="shape"
-   v:layerMember="0"
-   transform="translate(92.2175,-130.769)">
-			<title
-   id="title10">Sheet.1080</title>
-			<desc
-   id="desc10">Preview</desc>
-			<v:textBlock
-   v:margins="rect(4,4,4,4)"
-   v:tabSpace="42.5197" />
-			<v:textRect
-   cx="15.4488"
-   cy="144.608"
-   width="30.9"
-   height="9.92126" />
-			<rect
-   x="0"
-   y="139.648"
-   width="30.8976"
-   height="9.92126"
-   rx="4.96063"
-   ry="4.96063"
-   class="st10"
-   id="rect10" />
-			<text
-   x="4.82"
-   y="146.41"
-   class="st11"
-   v:langID="1033"
-   id="text10"><v:paragraph
-   v:horizAlign="1" /><v:tabList />Preview</text>		</g>
+		
 		<g
    id="shape1089-26"
    v:mID="1089"

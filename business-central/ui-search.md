@@ -1,18 +1,18 @@
 ---
-title: Finding Pages and Information
+title: Finding Pages and Information with Tell Me
 description: This article describes how to use search to find actions, pages, reports, documentation, and data, and other apps and consulting services.
 author: brentholtorf
 ms.topic: concept-article
 ms.search.keywords: find, Tell Me, search
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2024
+ms.date: 09/30/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 # Finding pages and information with Tell Me
 
-This article describes how the in-product search, *Tell me what you want to do*, can help you: 
+This article describes how the in-product search called *Tell me what you want to do*, or Tell Me for short, can help you: 
 
 * Quickly go to things like actions, pages, or reports.
 * Search for specific data, either on a list page or in all of [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -20,18 +20,46 @@ This article describes how the in-product search, *Tell me what you want to do*,
 
 <!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 
-When you need help with finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for it. You can also use <kbd>ALT</kbd>+<kbd>Q</kbd> to start a search.
+## Get started with Tell Me
 
-When you start typing characters on the **Tell me what you want to do** page, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word *product* and the results include *items*, that's because search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
+When you need help with finding something, [!INCLUDE[open-search](includes/open-search-lowercase.md)] to open the **Tell Me** feature.
 
-The column to the right indicates the general category of the result. For example, whether it opens a list page or is an administrative task.  
+[![Shows the Tell Me window in the role center](media/ui-search/tell-me.png)](media/ui-search/tell-me.png#lightbox)
 
-At the bottom of the **Tell me what you want to do** page, the **exploring pages and reports** action opens a feature overview that shows you all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
+The Tell Me feature has two tabs, depending on your setup: **Tell Me** and **Advanced**. Both tabs search the same items based on text you enter, but use different methods:
+
+# [Tell Me](#tab/tellme)
+
+The **Tell Me** tab is always available. It has the name **Tell me what you want to do** if the **Advanced** tab is missing.
+
+Tell Me finds matches based on the exact letters, words, or phrases you type. When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. The search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports. For example, if you enter the word *product*, the results include *items*. 
+
+The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
+
+# [Advanced (preview)](#tab/advanced)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+**Advanced** uses AI (semantic search) to find results by the meaning of your search text, not exact words. Type what you are looking for in plain, everyday language&mdash;short descriptive phrases or full sentences&mdash;and select **Search** :::image type="icon" source="media\ui-search\tell-me-advanced-search-icon.png" ::: in the box or <kbd>Enter</kbd> to run the search.
+
+The Advanced tab is useful even if you don’t know the names of things you're looking for. For example, type a phrase like "report that shows my best customers" to find the Customer - Top 10 report.
+
+The **exploring pages and reports** action opens a feature overview that shows all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
+
+> [!IMPORTANT]
+>
+> - This feature is a production-ready preview feature.
+> - Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
+> - This feature is available in Business Central online only, not on-premises, and only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+---
+
+Search results display on the page the same way for the **Tell Me** or **Advanced** tab.
+
+The right-side column indicates the general category of the result. For example, whether it opens a list page or is an administrative task. The page categorizes results based on the data that you enter and the page you're working on. The following sections describe the categories.
 
 > [!TIP]  
 > If you prefer to use your keyboard, use the <kbd>Tab</kbd> key and <kbd>Arrow</kbd> keys to choose an item in the results. If you select the <kbd>Enter</kbd> key on your keyboard without choosing a result, [!INCLUDE[prod_short](includes/prod_short.md)] opens the result that is listed first.
-
-The **Tell me what you want to do** page categorizes results based on the data that you enter and the page you're working on. The following sections describe the categories.
 
 ## Find an action on the current page
 
@@ -52,25 +80,21 @@ The **Go to Reports and Analysis** section offers access to reporting tools. For
 
 ## Find a record or search the documentation
 
-The **Search for \<keyword\>** section [!INCLUDE [prod_short](includes/prod_short.md)] offers a couple of ways to search:
+Use Tell Me feature to search for data across [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you can find a customer by entering their name or address, or even find a specific record, such as a sales order. You can also use it to find information in our documentation.
+
+The **Search for \<keyword\>** section offers a couple of ways to search:
 
 * Use the **Search company data** action to search all pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more about how the company data search works in [Search for a record in company data](ui-search-data.md).
 * Use the **Search Help** action to find an article in the Business Central documentation that contains your keyword.
 
-  > [!NOTE]  
-  > Your search results won't include documentation for third-party extensions.
-
-### Use Tell me what you want to do
-
-Use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for data across [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you can find a customer by entering their name or address, or even find a specific record, such as a sales order. You can also use it to find information in our documentation.
-
 Just enter at least three characters of a keyword, and then choose either **Search company data** or **Search Help**.
 
 * If you search for data, results display on the **Search in company data** page, where they're sorted by type.  
-* If you search in our Help, the **Help** pane offers links to articles that contain your keywords. You'll also get a snippet from the article that can help you decide whether it's what you're interested in.
+* If you search in our Help, the **Help** pane offers links to articles that contain your keywords. You also get a snippet from the article that can help you decide whether it's what you're interested in.
 
 > [!NOTE]
-> For data, searching everything in [!INCLUDE [prod_short](includes/prod_short.md)] might take time. To speed up results, use the **Show tables to search** action to choose the tables and fields that you want to include in your searches. The tables and fields that you can choose from vary, depending on your Role Center. By default, all tables and fields are chosen, which can slow down the search. We recommend that you exclude as many tables and fields as you can.
+> - Your search results don't include documentation for Non-Microsoft extensions.
+> - Searching all data in [!INCLUDE [prod_short](includes/prod_short.md)] might take time. To speed up results, use the **Show tables to search** action to choose the tables and fields that you want to include in your searches. The tables and fields that you can choose from vary, depending on your Role Center. By default, all tables and fields are chosen, which can slow down the search. We recommend that you exclude as many tables and fields as you can.
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 
@@ -91,6 +115,7 @@ We've shown search to a range of stakeholders, noted the questions that they had
 
 ## Related information
 
+[Responsible aI FAQ for advanced Tell Me](faqs-advanced-tell-me.md)  
 [Work with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)  
 [Save and Personalize List Views](ui-views.md)  

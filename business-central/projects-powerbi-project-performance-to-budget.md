@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37037_Primary
-ms.date: 10/28/2024
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Project Performance to Budget (Power BI Report)
@@ -27,14 +28,14 @@ Project managers want a clear view of projects to ensure they're on budget. The 
 
 The *Project Performance to Budget* report includes the following KPIs:
 
-- [**Total Usage Cost**](projects-powerbi-kpis.md#total-usage-cost)
-- [**Total Budget Cost**](projects-powerbi-kpis.md#total-budget-cost)
-- [**Total Cost Variance to Budget**](projects-powerbi-kpis.md#total-cost-variance-to-budget)
-- [**Total Cost Variance to Budget %**](projects-powerbi-kpis.md#total-cost-variance-to-budget-)
-- [**Completed (%)**](projects-powerbi-kpis.md#completed-)
-- [**Invoiced (%)**](projects-powerbi-kpis.md#invoiced-)
+- [Completed (%)](projects-powerbi-kpis.md#completed-)
+- [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
+- [Total Usage Cost](projects-powerbi-kpis.md#total-usage-cost)
+- [Total Budget Cost](projects-powerbi-kpis.md#total-budget-cost)
+- [Total Cost Variance to Budget](projects-powerbi-kpis.md#total-cost-variance-to-budget)
+- [Total Cost Variance to Budget %](projects-powerbi-kpis.md#total-cost-variance-to-budget-)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

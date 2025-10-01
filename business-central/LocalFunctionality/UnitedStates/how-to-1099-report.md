@@ -7,7 +7,7 @@ ms.search.keywords: local, 1099, tax, IRS, IRIS, FIRE
 ms.search.form: 100136, 10037, 10048, 10050, 10051
 ms.date: 08/28/2025
 ms.author: altotovi
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
@@ -26,7 +26,7 @@ You can print or email 1099 copy substitutes to your vendors, including all the 
 [!INCLUDE [prod_short](../../includes/prod_short.md)] provides an API that integrates the IRS's Information Returns Intake System (IRIS) so that you can electronically file your returns. To learn more about IRIS, go to the [IRS website](https://go.microsoft.com/fwlink/?linkid=2334210).
 
 > [!NOTE]
-> After create 1099 form documents for vendors, when you post invoices for vendors and apply payments to them, the **Amount** field on the **1099 Form Document** page updates. It's a good idea to review the amount before you submit the information.
+> After you create 1099 form documents for vendors, when you post invoices for vendors and apply payments to them, the **Amount** field on the **1099 Form Document** page updates. It's a good idea to review the amount before you submit the information.
 
 To submit your 1099 form using IRIS, follow these steps:
 

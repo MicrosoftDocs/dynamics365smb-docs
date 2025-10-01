@@ -3,21 +3,22 @@ title: Projects KPIs and measures (Power BI)
 description: The Projects App KPIs provides a page to clearly identify all KPIs and Measures used in the Projects Report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 11/08/2024
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Power BI Projects app KPIs and measures
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Projects report. 
+This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Projects report.
 
-Explore the list of KPIs below to learn more about how they can help you achieve your business goals. 
+Explore the list of KPIs below to learn more about how they can help you achieve your business goals.
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
@@ -28,9 +29,10 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [No. of Completed Projects](#no-of-completed-projects)
 - [Project Count](#project-count)
 - [Tasks Count](#tasks-count)
-- [Complete (%)](#completed-)
 - [Invoiced (%)](#invoiced-)
-- [Realization %](#realization-)
+- [Completed (%)](#completed-)
+- [Duration (Days)](#duration-days)
+- [Realization (%)](#realization-)
 - [Realization Variance](#realization-variance)
 
 ### No. of Completed Projects
@@ -52,7 +54,7 @@ The Project Count measure counts the total number of projects in the Project tab
 ### Tasks Count
 
 **Formula**  
-The Tasks Count measure counts the number of rows in the Tasks table that where the Project Task Type has a value of "Posting".
+The Tasks Count measure counts the number of rows in the Tasks table where the Project Task Type has a value of "Posting".
 
 **Data Sources**
 - Job Task
@@ -81,15 +83,16 @@ The Tasks Count measure counts the number of rows in the Tasks table that where 
 
 **Formula**  
 The Duration (Days) measure calculates the number of days between the earliest starting date and latest ending date for a given project in the Project table.
-  
+
 **Data Sources**
 - Job
 
 ### Realization (%)
 
 **Formula**  
+*Realization % = [Billable (Invoiced Price)](#billable-invoiced-price) / [Actual (Total Price)](#actual-total-price)*
 *Realization (%) = [Total Billable Price)](#total-billable-price) / [Total Usage Price](#total-usage-price)*
-  
+
 **Data Sources**
 - Job Ledger Entry
 
@@ -125,8 +128,6 @@ The Duration (Days) measure calculates the number of days between the earliest s
 - Job Ledger Entry
 
 ### Budget Profit
-
-[!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**  
 *Budget Profit = - [Budget (Total Price)](#budget-total-price) - [Budget (Total Cost)](#budget-total-cost)*
@@ -182,6 +183,7 @@ The Duration (Days) measure calculates the number of days between the earliest s
 - [Total Usage Profit Margin %](#total-usage-profit-margin-)
 
 ### Project Ledger Entry Quantity
+
 **Formula**  
 The Project Ledger Entry Quantity measure aggregates the Qty. column of the Project Ledger Entry table. The sign is then inverted by multiplying by negative one.
   
@@ -486,6 +488,13 @@ The Total Price measure calculates the total price of all project ledger entries
 **Data Sources**
 - Job Ledger Entry
 
+## Usage
+
+- [Actual (Total Cost)](#actual-total-cost)
+- [Gen. Journal Usage (Total Cost)](#gen-journal-usage-total-cost)
+- [Labour Usage (Total Cost)](#labour-usage-total-cost)
+- [Material Usage (Total Cost)](#material-usage-total-cost)
+
 ### Actual (Total Cost)
 
 [!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
@@ -570,7 +579,7 @@ The Material Usage (Total Cost) measure calculates the total cost of all project
 ### Planning Line Quantity
 
 **Formula**  
-The Planning Line Quantity measure calculates the sum of the Quantity column in the Project Planning Line table.
+The Planning Line Quantity measure calculates the sum of the quantity column in the Project Planning Line table.
 
 **Data Sources**
 - Job Planning Line
@@ -763,7 +772,7 @@ The Resource Budget Price calculates the total budget amount for resources used 
 **Data Sources**
 - Job Planning Line
 
-## Totals
+## Totals for billables
 
 <!-- Billable Totals -->
 ### Total Billable Cost
@@ -816,6 +825,7 @@ The Resource Budget Price calculates the total budget amount for resources used 
 - Job Planning Line
 
 ## Purchase Measures
+
 - [Amount on PO](#amount-on-po)
 - [Amount Rcvd. Not Invoiced](#amount-rcvd-not-invoiced)
 - [Outstanding Amt. on PO](#outstanding-amt-on-po)
@@ -826,14 +836,6 @@ The Resource Budget Price calculates the total budget amount for resources used 
 
 **Formula**  
 The Amount on PO measure calculates the sum of the amount (in local currency) column in the Purchases table.
-
-**Data Sources**
-- Purchase Line
-
-### Amount Rcvd. Not Invoiced
-
-**Formula**  
-The Amount Rcvd. Not Invoiced measure calculates the total amount of purchases that have been received but not yet invoiced in the Purchases table.
 
 **Data Sources**
 - Purchase Line

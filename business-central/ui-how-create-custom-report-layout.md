@@ -1,5 +1,5 @@
 ---
-title: Create and modify custom layouts for reports and documents
+title: (Obsolete) Create and modify custom report layouts
 description: Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
 author: brentholtorf
 ms.author: bholtorf

@@ -114,6 +114,16 @@ The following video shows how to define the period in which you allow people to 
 
 ## Deferral reports
 
+You can analyze your deferral data with the data analysis tool or with out-of-the-box supplied reports. 
+
+To enable ad-hoc analysis on non-posted deferral lines, [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE[prod_short](includes/2025-releasewave2-short.md)] includes three new list pages:
+
+* Sales deferral lines
+* Purchasing deferral lines
+* G/L deferral lines
+
+When you turn on analysis mode for these list pages, you can analyze deferral lines that you haven't posted yet across all documents.
+
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 [!INCLUDE [finance_reports_deferrals](includes/finance-reports-deferrals-include.md)]

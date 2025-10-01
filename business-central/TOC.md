@@ -114,7 +114,7 @@ ms.service: dynamics-365-business-central
 #### [Run batch jobs and XML ports](ui-how-run-batch-jobs.md)
 ### Change the look of externally facing documents
 #### [About report and document layouts](ui-manage-report-layouts.md)
-#### [Get started creating layouts](ui-get-started-layouts.md)
+#### [Get started creating and modifying layouts](ui-get-started-layouts.md)
 #### [Work with Word layouts](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel layouts](ui-excel-report-layouts.md)
 #### [Work with RDLC layouts](ui-rdlc-report-layouts.md)
@@ -554,6 +554,7 @@ ms.service: dynamics-365-business-central
 #### [Use E-Documents in purchases](finance-how-use-edocuments-purchase.md)
 #### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
 #### [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md)
+#### [Connect e-documents to Microsoft 365 applications](finance-connect-edocuments-microsoft365.md)
 #### [Extending E-Documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
@@ -1194,6 +1195,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 #### [Built-in sustainability reports](sustainability-reports.md)
 #### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+#### [Handle external ESG compliance reporting](sustainability-esg-reporting.md)
 #### Power BI sustainability app
 ##### [Sustainability Power BI app](sustainability-powerbi-app.md)
 ##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)
@@ -1376,6 +1378,7 @@ ms.service: dynamics-365-business-central
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ##### [WIP Extended Posting](LocalFunctionality/Czech/wip-extended-posting.md)
 ##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
+##### [Alternative Posting Groups for Employees](LocalFunctionality/Czech/use-alternative-posting-groups-employees.md) 
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
 ##### [VAT Statement](LocalFunctionality/Czech/vat-statement.md)
@@ -1399,6 +1402,8 @@ ms.service: dynamics-365-business-central
 ##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 #### Advance Payments
 ##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
+##### [Set up advance payments](LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments.md)
+
 #### Payables and Receivables
 ##### [Exchange Rates Adjustment Feature](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
 ##### [Customer and Vendor Reconciliations](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
@@ -2055,8 +2060,8 @@ ms.service: dynamics-365-business-central
 ###### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ###### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 ##### IRS1099
-###### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
-###### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+###### [Introduction to the IRS 1099 forms and functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+###### [Set up IRS 1099 forms](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 ###### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
 ###### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ###### Deprecated 1099 feature
@@ -2628,8 +2633,8 @@ ms.service: dynamics-365-business-central
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Map E-Documents (preview)
-### [Map E-Documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
-### [Responsible AI FAQ for mapping E-Documents with purchase orders using Copilot](faqs-map-edocuments.md)
+### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
@@ -2659,6 +2664,7 @@ ms.service: dynamics-365-business-central
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
+## [FAQ for advanced Tell Me (preview)](faqs-advanced-tell-me.md)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)

@@ -8,7 +8,7 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/14/2025
+ms.date: 09/30/2025
 ms.author: jswymer
 ---
 
@@ -33,7 +33,8 @@ You can make various adjustments, such as move or hide fields, columns, actions,
 - [Resize a column](#resize-a-column)
 - [Create, rename, or edit a view](ui-views.md)
 - [Bookmark the page](ui-bookmarks.md)
-- [Hide or resize a FactBox](#hide-or-resize-a-factbox)
+- [Resize or collapse the Copilot, Help, and Page Scripting panes](#resize-or-collapse-the-copilot-help-and-page-scripting-panes)
+- [Hide or resize a FactBox](#resize-or-collapse-a-factbox)
 - Expand/collapse hierarchical list
 
 ### Resize a column
@@ -43,7 +44,21 @@ There are two ways to change the width of a column in any list, including in dro
 - Select and drag the boundary between two columns in the header of a list.
 - Double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
 
-### Hide or resize a FactBox
+### Resize or collapse the Copilot, Help, and Page Scripting panes
+
+The Copilot pane, Help pane, and Page Scripting pane appear along the right side of the role center when open.
+
+:::image type="content" source="media/copilot-pane-collapse.svg" alt-text="Shows the Copilot pane highlighting the collapse icon":::
+
+- To collapse these panes into a narrow bar along the right side, select **Collapse Copilot**, **Collapse Help**, or **Collapse Page Scripting** :::image type="icon" source="media/collapse-pane-icon.png"::: in the upper-right corner of the pane.
+
+  To expand the pane, select **Expand Copilot** :::image type="icon" source="media/expand-copilot-icon.png":::, **Expand Help** :::image type="icon" source="media/expand-help-icon.png":::, or **Expand Page Scripting** :::image type="icon" source="media/expand-page-scripting-icon.png"::: in the collapsed pane.
+
+- To resize these panes, drag the vertical divider between the pane and main content.
+
+  Double-click the divider to reset the width to default.
+
+### Resize or collapse a FactBox
 
 A FactBox is a pane along the right side of a page that displays more information related to the record on the page.
 
@@ -52,7 +67,7 @@ A FactBox is a pane along the right side of a page that displays more informatio
 - To hide or show the FactBox, select the ![Shows the collapse or expand FactBox icon in Business Central](media/collapse-expand-factbox.png) **Collapse/Expand the FactBox pane** icon at the top of the FactBox pane.
 - To resize the FactBox, drag the vertical divider between the FactBox and main content. Double-click the divider to reset the width to default.
 
-   If you can't resize the FactBox, you're either using Business Central version earlier than 26.0, or **Feature: Optimize screen estate usage for web** isn't turned on in **Feature Management**. Contact your admin, or learn more in [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+   If you can't resize the FactBox, you're either using a Business Central version earlier than 26.0, or the **Feature: Optimize screen estate usage for web** isn't turned on in **Feature Management**. Contact your admin, or learn more in [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 ## Start personalizing by using the personalization mode
 

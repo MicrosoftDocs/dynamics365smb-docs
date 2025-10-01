@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Chat with Copilot (preview)
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 09/25/2025
+ms.date: 09/30/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -93,11 +93,11 @@ You can provide feedback to every Copilot response and report inaccurate or inap
 
    Chat includes built-in safety mechanisms that prevent the undesirable generation of harmful content, such as sexually explicit content or incitement of violence. Sometimes, customers operate in industries, sell products and services, or work with processes that naturally overlap with what might be considered inappropriate in other contexts, or work with data that might trigger these safeguards. Chat might not perform as well in these cases.
 
-## What data does Chat with Copilot collect and how is it used
+## What data does Chat with Copilot collect and how is it used?
 
 Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational AI models for the benefit of others. Company administrators have full control to govern this data that is part of their Azure subscription. Because administrators or others in your company might have access to this data as determined by your employer, we recommend you don't enter sensitive data such as passwords or other secrets.
 
-## What does Chat with Copilot offer for security
+## What does Chat with Copilot offer for security?
 
 Chat is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of [!INCLUDE[prod_short](includes/prod_short.md)]'s platform security. This design means that Copilot can only access data that you have access to.
 
@@ -105,7 +105,7 @@ For users with SUPER permission, chat can more easily locate unsecured data that
 
 When Copilot needs to answer questions about non-Microsoft apps, it searches the online help content associated with those apps, powered by Bing Search. To ensure security and safety;
 
-- Copilot only searches these specific URLs and doesn't perform a broad web search
+- Copilot only searches these specific URLs and doesn't perform a broad web search.
 - [!INCLUDE[prod_short](includes/prod_short.md)] applies various mechanisms such as content filtering and malicious site detection to reduce risk from these websites.
 
 Learn more about how Copilot searches the web in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).

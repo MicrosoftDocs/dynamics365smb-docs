@@ -1,5 +1,5 @@
 ---
-title: Change the Way a Report Looks by Selecting a Different Layout
+title: (Obsolete) Set the Layout Used by a Report
 description: You can use different layouts for a report, and switch between layouts to change how a report looks.
 author: jswymer
 ms.topic: how-to

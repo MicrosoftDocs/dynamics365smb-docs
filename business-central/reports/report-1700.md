@@ -51,6 +51,10 @@ Try the report here: [G/L Deferral Summary](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+[!INCLUDE[analyze-deferral-data](../includes/analyze-deferral-data.md)]
+
 ## Related information
 
 [Defer revenues and expenses](../finance-how-defer-revenue-expenses.md)  

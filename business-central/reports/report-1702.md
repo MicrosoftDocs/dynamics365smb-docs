@@ -42,6 +42,10 @@ Try the report here: [Purchasing Deferral Summary](https://businesscentral.dynam
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+[!INCLUDE[analyze-deferral-data](../includes/analyze-deferral-data.md)]
+
 ## Related information
 
 [Defer revenues and expenses](../finance-how-defer-revenue-expenses.md)  

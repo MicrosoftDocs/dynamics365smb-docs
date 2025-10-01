@@ -47,6 +47,7 @@ To configure these settings, follow these steps:
     | **Responsibility Center Mandatory** | Make the responsibility center mandatory. The responsibility center can be used as a facility, so that you can measure facility-based emissions. You can set the responsibility center field in journals even if you don't select this field. However, by selecting it, you require that users set the responsibility center field before posting. |
     | **Block Calculation Foundation Change If Ledger Entries Exist** | Prevent changes to the calculation foundation (formula) at the account category level when the formula was already applied to sustainability entries. |
     | **Enable Background Error Check** | Enable validations for sustainability journal lines. The validations run in the background. |
+    |**Enable Dataverse Integration**| Enable the connection to ESG External Reporting tool with Dataverse. To learn more, go to [Sustainability reports and analytics in Business Central](sustainability-reports.md).|
 
     > [!NOTE]
     > After you turn on or turn off validations in journals, sign in again before you start the new setup.
@@ -62,9 +63,10 @@ To configure these settings, follow these steps:
     | **Item Charge Emissions** | Enable default **Sustainability Account** emissions on the **Item Charge** (currently not operating) page. |
     | **Resource Emissions** | Enable default **Sustainability Account** emissions on the **Resource Card** page. |
     | **Work Machine Center Emissions** | Specifies the enablement of default **Sustainability Account** emissions on the **Work Center** and **Machine Center** pages. |
+    | **Use All Gasses As CO2e** |Specifies that you use carbon equivalent (CO2e) values for all gasses that you track. Use this feature when you don't have accurate information for all gases, but do have their carbon equivalent values. When you turn on this toggle, the captions for gases change from their names to their CO2e equivalents. For example, the **CH4** field becomes the **CO2e for CH4** field. The field values correspond to carbon equivalent values, not the original gas values. [!INCLUDE [prod_short](includes/prod_short.md)] sets the **Carbon Equivalent Factor** on the emission fees to **1** for all three gases.|
 
     > [!NOTE]
-    > The **Use Emissions in Purchase Documents** field makes the **Sustainability Account** and emission fields on purchase documents. However, when you post the document, [!INCLUDE [prod_short](includes/prod_short.md)] only creates **Sustainability Ledger Entries**. To activate posting to the **Sustainability Value Entries** and enable value chain tracking, you must also select the **Enable Value Chain Tracking** field.
+    > The **Use Emissions in Purchase Documents** field adds the **Sustainability Account** and emission fields on purchase documents. However, when you post the document, [!INCLUDE [prod_short](includes/prod_short.md)] only creates **Sustainability Ledger Entries**. To activate posting to the **Sustainability Value Entries** and enable value chain tracking, you must also select the **Enable Value Chain Tracking** field.
 
 4. On the **Calculations** FastTab, configure the required fields for the formulas that calculate emissions.
 
@@ -87,6 +89,8 @@ To configure these settings, follow these steps:
     | **Emission Rounding Type** | Choose how to round emission amounts when you report to authorities. |
     | **Energy Reporting Unit of Measure**| Enter the unit of measure in which you report energy consumption. When people fill in the **Energy Consumption** field on purchase documents and sustainability journals, this is the unit of measure for the value. You can use a different unit of measure when you report to authorities. This field isn't applicable to the standard reports.|
     |**Energy Reporting UOM Factor**| Enter the unit of measure factor that you use to register energy consumption, if you use a different unit of measure when you report to authorities.|
+    |**Energy Reporting Unit of Measure Code**| Enter the unit of measure that you use to report energy in sustainability journals.|
+    |**Energy Reporting UOM Factor**|Enter the unit of measure factor to recalculate energy amounts in the sustainability ledger entry that you use to report energy.|
 
 ## Emission fees
 

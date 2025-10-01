@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37033_Primary
-ms.date: 10/28/2024
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -29,21 +29,21 @@ People on leadership teams use the report to get a bird's eye view of your organ
 
 Project managers use the report to gain a better understanding of the health of all your projects. The report helps them understand what's going well and what isn't, and where to make changes.
 
-
 ## Key Performance Indicators (KPIs)
 
 The *Project Overview* report includes the following KPIs:
 
-- [**% Complete**](projects-powerbi-kpis.md#-complete)
-- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
-- [**Realization %**](projects-powerbi-kpis.md#realization-)
-- [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
-- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
-- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
-- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
-- [**Project Count**](projects-powerbi-kpis.md#project-count)
+- [Completed (%)](projects-powerbi-kpis.md#completed-)
+- [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
+- [Realization (%)](projects-powerbi-kpis.md#realization-)
+- [Actual Profit](projects-powerbi-kpis.md#actual-profit)
+- [Actual Profit Margin %](projects-powerbi-kpis.md#actual-profit-margin-)
+- [Actual (Total Cost)](projects-powerbi-kpis.md#actual-total-cost)
+- [Budget (Total Cost)](projects-powerbi-kpis.md#budget-total-cost)
+- [Project Count](projects-powerbi-kpis.md#project-count)
+- [No. of Completed Projects](projects-powerbi-kpis.md#no-of-completed-projects)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -51,9 +51,9 @@ The *Project Overview* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
-- Project Planning Line
+- Job
+- Job Ledger Entry
+- Job Planning Line
 
 ## Try the report
 

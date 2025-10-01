@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.date: 09/29/2025
+ms.date: 09/30/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
@@ -120,7 +120,7 @@ In this example, you ask Copilot to solve a common date puzzle that typically re
 
 Prompt: `How does I save my filterrings for later?`
 
-In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot can usually understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
+In this example, you ask Copilot for guidance on how to perform a task in Business Central. Copilot can usually understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
 
 Prompt: `How do I cancel a hotel reservation?`
 

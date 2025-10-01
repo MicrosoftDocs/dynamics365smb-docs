@@ -114,7 +114,7 @@ ms.service: dynamics-365-business-central
 #### [Run batch jobs and XML ports](ui-how-run-batch-jobs.md)
 ### Change the look of externally facing documents
 #### [About report and document layouts](ui-manage-report-layouts.md)
-#### [Get started creating layouts](ui-get-started-layouts.md)
+#### [Get started creating and modifying layouts](ui-get-started-layouts.md)
 #### [Work with Word layouts](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel layouts](ui-excel-report-layouts.md)
 #### [Work with RDLC layouts](ui-rdlc-report-layouts.md)
@@ -1195,6 +1195,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 #### [Built-in sustainability reports](sustainability-reports.md)
 #### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+#### [Handle external ESG compliance reporting](sustainability-esg-reporting.md)
 #### Power BI sustainability app
 ##### [Sustainability Power BI app](sustainability-powerbi-app.md)
 ##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)
@@ -2663,6 +2664,7 @@ ms.service: dynamics-365-business-central
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
+## [FAQ for advanced Tell Me (preview)](faqs-advanced-tell-me.md)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)

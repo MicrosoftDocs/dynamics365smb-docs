@@ -112,7 +112,7 @@ The following video shows how to define the period in which you allow people to 
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=5d98a594-6b1c-45a5-b93a-1fb670a051e5]
 
-## Deferral reports
+## Analyze your deferral data
 
 You can analyze your deferral data with the data analysis tool or with out-of-the-box supplied reports. 
 

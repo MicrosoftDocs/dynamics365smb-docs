@@ -39,7 +39,7 @@ The report includes the following key performance indicators (KPIs) and measures
 - [**Previous Period**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
 - [**Period-over-Period Growth Amount**](sales-powerbi-sales-kpis.md#sales-amount-pop-fiscal)
 - [**Period-over-Period Growth %**](sales-powerbi-sales-kpis.md#sales-amount-pop--fiscal)
-- [**Sales Amount PP (Fiscal Year)**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal-year)
+- [**Sales Amount PP (Fiscal Year)**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 

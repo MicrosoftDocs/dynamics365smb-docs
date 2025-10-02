@@ -39,8 +39,8 @@ For example, using the sales by customer visual you identify a customer is proje
 
 The *Sales Forecasting* report includes the following KPIs and measures:
 
-- [**Sales (LCY)**](sales-powerbi-kpis.md#sales-lcy)
-- [**Sales (LCY) Forecasting**](sales-powerbi-kpis.md#sales-lcy-forecasting)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
+- [**Sales (LCY) Forecasting**](sales-powerbi-sales-kpis.md#sales-lcy-forecasting)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

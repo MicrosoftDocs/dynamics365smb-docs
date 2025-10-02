@@ -19,7 +19,7 @@ The following table describes the reports in the Power BI Sales app and how you 
 |Analyze sales performance across demographic segments, and get insights into customer behavior and preferences. | [Sales Demographics]( https://businesscentral.dynamics.com?page=37100) | [About Sales Demographics](../sales-powerbi-sales-demographics.md) |
 |Analyze sales figures to understand contributing factors, such as location names, item categories, and countries and regions. | [Sales Decomposition]( https://businesscentral.dynamics.com?page=37101) | [About Sales Decomposition](../sales-powerbi-sales-decomposition.md) |
 |Analyze the key factors that drive sales performance. Find the most impactful variables and trends. | [Key Sales Influencers]( https://businesscentral.dynamics.com?page=37102) | [About Key Sales Influencers](../sales-powerbi-key-sales-influencers.md) |
-|Analyze sales by projects and view key metrics, including sales amount and sales quantity. | [Sales by Projects]( https://businesscentral.dynamics.com?page=37119) | [About Sales by Projects](../sales-powerbi-sales-by-projects.md) |
+|Analyze sales by projects and view key metrics, including sales amount and sales quantity. | [Sales by Projects]( https://businesscentral.dynamics.com?page=37119) | [About Sales by Projects](../sales-powerbi-sales-by-project.md) |
 |Analyze the forecasted sales amount to gain projected sales insights across customer, salesperson and item. | [Sales Forecasting]( https://businesscentral.dynamics.com?page=37109) | [About Sales Forecasting](../sales-powerbi-sales-forecasting.md) |
 
 [!INCLUDE[powerbi-tip-track-kpis](powerbi-tip-track-kpis.md)]

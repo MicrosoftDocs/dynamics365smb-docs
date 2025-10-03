@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: direct posting, general ledger
 ms.search.form: 39, 251
-ms.date: 08/06/2024
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ---
 

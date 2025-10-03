@@ -1,5 +1,5 @@
 ---
-title: Update Custom Report Layouts
+title: (Obsolete) Update Custom Report Layouts
 description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
 author: brentholtorf
 ms.topic: how-to

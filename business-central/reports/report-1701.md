@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting, deferral, revenue recognition, sales
-ms.search.form: Report_1701
+ms.search.form: Report_1701_Primary
 ms.date: 06/21/2025
 ms.service: dynamics-365-business-central
 ms.custom:
@@ -47,6 +47,10 @@ Controllers and auditors can use the report to:
 Try the report here: [Sales Deferral Summary](https://businesscentral.dynamics.com?report=1701)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+[!INCLUDE[analyze-deferral-data](../includes/analyze-deferral-data.md)]
 
 ## Related information
 

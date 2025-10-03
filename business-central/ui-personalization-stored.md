@@ -61,6 +61,7 @@ The following table indicates which UI adjustments are roaming, local, or both. 
 |Other UI|Collapse or expand field section||X|
 ||Resize, collapse, or expand FactBox pane||X|
 ||Show FactBox pane attachments or details||X|
+||Resize, collapse, or expand Copilot, Help, and Page Scripting panes||X|
 ||Collapse or expand page inspection pane||X|
 ||Collapse or expand part on a page||X|
 ||Show or hide teaching tips|X||

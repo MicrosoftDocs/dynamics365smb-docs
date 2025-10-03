@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: concept-article
 ms.search.keywords: contact, prospect, client
 ms.search.forms: 9076, 9026
-ms.date: 09/09/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

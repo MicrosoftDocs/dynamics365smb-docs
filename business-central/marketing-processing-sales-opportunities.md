@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: relationship, prospect
-ms.date: 09/10/2025
+ms.date: 10/03/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: relationship, prospect
-ms.date: 09/09/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

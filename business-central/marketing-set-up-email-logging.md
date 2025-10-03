@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.date: 09/09/2025
+ms.date: 10/03/2025
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.search.form: 1680, 1811, 5076

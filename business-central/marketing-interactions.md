@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5082
-ms.date: 09/09/2025
+ms.date: 10/03/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

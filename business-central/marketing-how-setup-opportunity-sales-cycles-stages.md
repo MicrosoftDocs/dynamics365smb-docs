@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119, 5098, 5096
-ms.date: 09/09/2025
+ms.date: 10/03/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

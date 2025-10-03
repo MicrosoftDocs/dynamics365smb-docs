@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: contacts, profiles
 ms.search.form: 5109, 5110
 ms.author: bholtorf
-ms.date: 09/09/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---

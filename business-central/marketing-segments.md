@@ -7,7 +7,7 @@ ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
-ms.date: 09/09/2025
+ms.date: 10/03/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

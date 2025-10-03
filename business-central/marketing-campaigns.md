@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 08/13/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

@@ -83,14 +83,19 @@ Yes, all apps are multi-language for many of the languages that [!INCLUDE[prod_s
 
 ## Can I get a copy of the source code (.pbix files) for the apps?
 
-As of version 26.2, the source code (.pbix files) for the following apps is available:
+The source code (.pbix files) for the Power BI apps is available from the following versions.
 
-- Finance
-- Inventory
-- Inventory Valuation
-- Manufacturing
-- Subscription Billing
-- Sustainability
+| Power BI app for...            | Source code available from version | 
+|--------------------------------| -------------- | 
+| Finance                        | 26.2 and later | 
+| Inventory                      | 26.2 and later | 
+| Inventory Valuation            | 26.2 and later | 
+| Manufacturing                  | 26.2 and later | 
+| Purchasing                     | 27.0 and later | 
+| Projects                       | 27.0 and later | 
+| Sales                          | 27.0 and later | 
+| Subscription Billing           | 26.2 and later | 
+| Sustainability                 | 26.2 and later | 
 
 You can download the .pbix file by installing the app from AppSource and then download the source code from the installed app.
 

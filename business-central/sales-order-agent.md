@@ -133,9 +133,7 @@ This allows businesses to promise delivery dates even when items must be produce
 
 #### How capable-to-promise works
 
-The Sales Order Agent uses the CTP logic inside Business Central, which based in part on the configuration defined in the **Order Promising Setup** page.
-
-When a customer requests an item:
+The Sales Order Agent uses the capable-to-promise logic inside Business Central, which is based in part on the configuration defined in the **Order Promising Setup** page. When a customer requests an item:
 
 1. The agent checks inventory.
 1. If the item is unavailable, the agent uses CTP logic to calculate when it can be shipped.
@@ -146,7 +144,8 @@ When a customer requests an item:
    - **Inventory Setup Safety Lead Time** This lead time, which is set on the **Inventory Setup** page, is a buffer period added to ensure that items are available before the promised shipment date. It accounts for internal delays like picking, packing, and labeling.
    - **Item Lead Time Calculation** The lead time calculation, which is set on **Item Card** page, reflects the time required to procure, produce, or transfer the item. It's configured per item and used when the item isn't in stock.
 
-1. The agent sends the quote to the customer, and once confirmed, the agent converts it into a sales order.
+1. The agent creates and sends an email response to the customer that includes the promised shipment dates for items sends the quote to the customer. 
+1. Once the quote is confirmed, the agent converts it into a sales order.
 
 ## Agent process flow
 

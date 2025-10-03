@@ -95,6 +95,10 @@ Although the agent can find products based on vague and incomplete descriptions,
 
 When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts, and more.
 
+### Capable-to-promise
+
+Business Central that calculates the earliest possible delivery date for items not currently in stock. Unlike available-to-promise (ATP), which checks existing inventory and incoming supply, CTP evaluates production capacity, procurement timelines, and supply chain constraints to determine when an item can realistically be delivered. [community....namics.com]
+
 ## Agent process flow
 
 ### Participants

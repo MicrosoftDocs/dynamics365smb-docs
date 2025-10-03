@@ -86,7 +86,6 @@ The following articles describe the local functionality in the Czech version of 
   * [Additional Fields in Item Ledger Entries](how-to-use-add-fields-item-entries.md) **Available Now**
   * [General Production Posting Group in Stock keeping Unit](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**
   * [Skip Update for Stock keeping Unit at Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
-  * [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Available Now**
   * [Use modern search in CZ applications](use-modern-search-cz.md) **Available Now**
   * [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-documents-reports.md) **Available Now**
 

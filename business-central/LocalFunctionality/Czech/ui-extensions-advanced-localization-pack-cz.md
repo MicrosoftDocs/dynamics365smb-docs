@@ -27,8 +27,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Additional fields on item ledger entries and value entries](how-to-use-add-fields-item-entries.md) **Available Now**
   - [Gen.Prod.Posting Group from SKU](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**
   - [Skip Update SKU on Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
-  - [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Available Now**
-
+  
 ## Related information
 
 - [Czech Local Functionality](czech-local-functionality.md)  

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: write down, fixed asset depreciation
 ms.search.form: 5611_Primary
-ms.date: 08/07/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

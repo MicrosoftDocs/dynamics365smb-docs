@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: concept-article
 ms.search.keywords: write down, depreciate, depreciation
 ms.search.form: 5611, 5629, 5633
-ms.date: 08/05/2025
+ms.date: 10/03/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

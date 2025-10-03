@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.form: 5638, 5636, 5640, 5637, Report_5606
 ms.search.keywords: reclassify, fixed assets, transfer, split, combine
-ms.date: 08/07/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

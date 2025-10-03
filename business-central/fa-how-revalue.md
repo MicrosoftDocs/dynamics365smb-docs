@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.form: 5628, 5629, 5633
-ms.date: 08/06/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

@@ -5,7 +5,7 @@ author: jill-kotel-andersson
 ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: user-depreciation, depreciation methods, fixed assets
-ms.date: 08/07/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

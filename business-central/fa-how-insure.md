@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: policy, coverage, insure fixed assets, fixed assets
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
-ms.date: 08/08/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: repair, service, fixed assets, manage fixed assets, maintenance cost
 ms.search.form: 5642, 5625
-ms.date: 08/08/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

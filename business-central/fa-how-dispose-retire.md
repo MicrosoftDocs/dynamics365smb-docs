@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: scrap, dispose fixed assets, retire fixed assets
 ms.search.form: 5628, 5610, 5611, 5629, 5633
-ms.date: 08/08/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ---
 

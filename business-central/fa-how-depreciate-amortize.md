@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: write down, amortize fixed assets, fixed assets
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666, Report_5692_Primary
-ms.date: 08/06/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ---
 

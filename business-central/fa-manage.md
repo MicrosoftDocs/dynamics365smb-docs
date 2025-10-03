@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: machinery, buildings, fixed assets
 ms.search.form: 5601_Primary, 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
-ms.date: 08/07/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

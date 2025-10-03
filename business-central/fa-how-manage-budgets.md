@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: forecast, manage budgets, fixed assets
 ms.search.form: 5610, 5611
-ms.date: 08/06/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

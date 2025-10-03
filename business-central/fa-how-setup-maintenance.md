@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: repair, service
 ms.search.form: 5600, 5642
-ms.date: 08/07/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

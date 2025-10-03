@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: policy, coverage, fixed asset, insurance
 ms.search.form: 5607, 5648, 5644, 5651
-ms.date: 08/08/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

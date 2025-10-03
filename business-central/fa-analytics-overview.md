@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5601, 5600, 5615, 5616, 5617, Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
-ms.date: 08/05/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

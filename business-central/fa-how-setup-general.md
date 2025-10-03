@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.form: 5623, 5615_Primary, 5616_Primary, 5661, 5662, 5627, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.search.keywords: fixed assets, G/L accounts, posting groups, allocation keys, journal templates, journal batches, class codes, subclass codes
-ms.date: 08/07/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

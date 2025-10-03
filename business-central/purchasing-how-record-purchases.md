@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: procurement
 ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
-ms.date: 05/19/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

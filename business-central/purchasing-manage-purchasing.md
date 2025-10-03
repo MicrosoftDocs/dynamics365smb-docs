@@ -3,25 +3,26 @@ title: Overview of tasks to manage purchasing
 description: Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
 author: brentholtorf
 ms.topic: overview
-ms.search.keywords: procurement, supply, vendor order
+ms.search.keywords: procurement, supply, vendor order, purchsing
 ms.search.form: 460, 9307
-ms.date: 05/19/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.custom: bap-template
 ---
+
 # Purchasing
 
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimize your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial KPIs on your Role Center.
 
-You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity. For example, because the full quantity wasn't available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. To learn more, go to [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices.
+You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity. For example, because the full quantity wasn't available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. Learn more in [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices.
 
-You can have purchase invoices created automatically by using the OCR (Optical Character Recognition) service to convert PDF invoices from your vendors to electronic documents, which are then converted to purchase invoices by a workflow. To use this functionality, you must first sign up for the OCR service, and then perform various setups. To learn more, go to [Incoming Documents](across-income-documents.md).
+You can have purchase invoices created automatically by using the OCR (Optical Character Recognition) service to convert PDF invoices from your vendors to electronic documents, which are then converted to purchase invoices by a workflow. To use this functionality, you must first sign up for the OCR service, and then perform various setups. Learn more in [Incoming Documents](across-income-documents.md).
 
-Products can be both inventory items and services. To learn more, go to [Register New Items](inventory-how-register-new-items.md).
+Products can be both inventory items and services. Learn more in [Register New Items](inventory-how-register-new-items.md).
 
-For all purchase processes, you can use an approval workflow, for example, to require that an accounting manager approves large purchases. To learn more, go to [Use Approval Workflows](across-how-use-approval-workflows.md).
+For all purchase processes, you can use an approval workflow, for example, to require that an accounting manager approves large purchases. Learn more in [Use Approval Workflows](across-how-use-approval-workflows.md).
 
 The following sections describe a sequence of tasks, with links to the articles that cover them.
 
@@ -88,14 +89,13 @@ The following table describes how to deal with other purchase processes.
 
 ## Related information
 
-[Setting Up Purchasing](purchasing-setup-purchasing.md)  
-[Register New Vendors](purchasing-how-register-new-vendors.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
-[Managing Payables](payables-manage-payables.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[General Business Functionality](ui-across-business-areas.md)
+- [Setting Up Purchasing](purchasing-setup-purchasing.md)  
+- [Register New Vendors](purchasing-how-register-new-vendors.md)  
+- [Purchasing analytics overview](purchasing-analytics-overview.md)   
+- [Managing Payables](payables-manage-payables.md)  
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+- [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

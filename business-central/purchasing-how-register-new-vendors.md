@@ -3,21 +3,22 @@ title: Register a new vendor
 description: Learn how to fill in a vendor card to register a new vendor or supplier, and how to save vendor cards as templates.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.search.keywords: supplier
+ms.search.keywords: supplier, register vendor, vendor card, vendor template, create vendor, add vendor, new vendor, create new vendor, add new vendor
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 06/10/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # Register new vendors
 
 Vendors provide the products you sell. Each vendor you purchase from must be registered with a vendor card.
 
-Before you register new vendors, you must set up various purchase codes to select from when you fill in vendor cards. After all the required master data is created, you can add unique characteristics for a vendor, such as prioritize the vendor for payment purposes or list items that the vendor and other vendors supply. Another group of setup tasks for vendors is to record your agreements concerning discounts, prices, and payment methods. Learn more at [Setting Up Purchasing](purchasing-setup-purchasing.md).
+Before you register new vendors, you must set up various purchase codes to select from when you fill in vendor cards. After all the required master data is created, you can add unique characteristics for a vendor, such as prioritize the vendor for payment purposes or list items that the vendor and other vendors supply. Another group of setup tasks for vendors is to record your agreements concerning discounts, prices, and payment methods. Learn more in [Setting Up Purchasing](purchasing-setup-purchasing.md).
 
-Vendor cards hold the information required to buy products from each vendor. Learn more at [Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
+Vendor cards hold the information required to buy products from each vendor. Learn more in[Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
 <br /><br />  
 
 > [!Video https://learn-video.azurefd.net/vod/player?id=7188b662-bc49-45ef-8152-82898076b235]
@@ -29,12 +30,12 @@ You can add new vendors manually, by filling out the **Vendor Card** page, or yo
 > [!NOTE]  
 > If vendor templates exist for different vendor types, when you create a new vendor you can select the appropriate template. If only one vendor template exists, new vendors always use that template.
 
-After you create a template, you can use the **Apply Template** action to apply it to one or more selected vendors. To create a template, fill in the information you want to reuse on the **Vendor Card** page, then save it as a template. Learn more in the [To save the Vendor Card Page as a template](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template) section.
+After you create a template, you can use the **Apply Template** action to apply it to one or more selected vendors. To create a template, fill in the information you want to reuse on the **Vendor Card** page, then save it as a template. Learn more in the [Save the Vendor Card Page as a template](purchasing-how-register-new-vendors.md#save-the-vendor-card-as-a-template) section.
 
 > [!TIP]
 > It can be helpful to personalize the **Vendor Template** page when you create a template. For example, if you want to add a field that isn't already displayed on the page. Learn more at [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode).
 
-You can also create a vendor from a contact. Learn more at [Creating a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+You can also create a vendor from a contact. Learn more in [Creating a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
 Remit-to addresses are used when you print checks to pay your vendors, and vendors can have multiple remit-to addresses for payments. For example, a vendor might supply an item from a subsidiary company, but wants to receive payment at their headquarters. [!INCLUDE [prod_short](includes/prod_short.md)] lets you set up multiple mailing addresses for each vendor, and you can choose the correct location to send payments to on an invoice-by-invoice basis.
 
@@ -45,7 +46,7 @@ You specify remit-to addresses on **Vendor Card** pages, and on the **Shipping &
 
 You can overwrite this value.
 
-### To create a new vendor
+### Create a new vendor
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -54,19 +55,18 @@ You can overwrite this value.
 
 The vendor is now registered, and the vendor card is ready to use on purchase documents.
 
-If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. Learn more in the [To save the vendor card as a template](#to-save-the-vendor-card-as-a-template) section.
+If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. Learn more in the [Save the vendor card as a template](#to-save-the-vendor-card-as-a-template) section.
 
 ### Deleting and editing vendor information
 
 You can edit the information on vendor cards at any time. However, if you posted a transaction for a vendor, you can't delete the card because you might need the ledger entries for auditing. To delete vendor cards with ledger entries, contact your Microsoft partner to do so through code.
 
 > [!TIP]
-> You can change the International Bank Account Number (IBAN) on a vendor bank account without the change affecting your historical credit transfer register entries. Credit transfer register entries store the *Recipient IBAN* and the *Recipient Bank Account No.* specified in the **Vendor Bank Account** and **Recipient Name** fields from the **Vendor Card** page when the entries were created.
+> - You can change the International Bank Account Number (IBAN) on a vendor bank account without the change affecting your historical credit transfer register entries. Credit transfer register entries store the *Recipient IBAN* and the *Recipient Bank Account No.* specified in the **Vendor Bank Account** and **Recipient Name** fields from the **Vendor Card** page when the entries were created.
+>
+> - You can add alternative addresses on vendor cards by choosing the **Order Addresses** action.
 
-> [!TIP]
-> You can add alternative addresses on vendor cards by choosing the **Order Addresses** action.
-
-## To save the vendor card as a template
+## Save the vendor card as a template
 
 1. On the **Vendor Card** page, choose the **Save as Template** action. The **Vendor Template** page opens showing the vendor card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -77,13 +77,13 @@ You can edit the information on vendor cards at any time. However, if you posted
 
 ## Related information
 
-[Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
-[Create Number Series](ui-create-number-series.md)  
-[Set Up Vendor Bank Account](purchasing-how-set-up-vendors-bank-accounts.md)  
-[Set Up Purchasers](purchasing-how-setup-purchasers.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Record Purchases](purchasing-how-record-purchases.md)  
-[Use Online Maps to Find Locations and Directions](across-online-maps.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+- [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
+- [Create Number Series](ui-create-number-series.md)  
+- [Set Up Vendor Bank Account](purchasing-how-set-up-vendors-bank-accounts.md)  
+- [Set Up Purchasers](purchasing-how-setup-purchasers.md)  
+- [Purchasing](purchasing-manage-purchasing.md)  
+- [Record Purchases](purchasing-how-record-purchases.md)  
+- [Use Online Maps to Find Locations and Directions](across-online-maps.md)  
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

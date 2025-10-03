@@ -1,16 +1,17 @@
 ---
 title: Receive and convert electronic documents
-description: This article describes how to receive electronic documents directly from trading partners or from an OCR service.
+description: Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
+ms.search.keywords: receive electronic documents, convert electronic documents, incoming documents, OCR service, PEPPOL format, purchase invoice, general journal line, document exchange service 
 ms.search.form: 189, 190, 191 
-ms.date: 03/20/2024
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Receive and convert electronic documents
 
 > [!NOTE]

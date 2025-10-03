@@ -101,11 +101,13 @@ Although the agent can find products based on vague and incomplete descriptions,
 
 When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts, and more.
 
-### Capable-to-promise
+### Calculating delivery dates using capable-to-promise
 
 The Sales Order Agent includes an option to use Business Central's capable-to-promise (CTP) functionality that lets the agent calculate the earliest possible delivery date for items not currently in stock.
 
 <!--Unlike available-to-promise (ATP), which checks existing inventory and incoming supply,-->CTP evaluates production capacity, procurement timelines, and supply chain constraints to determine when an item can realistically be delivered—even when items aren't currently in stock and must be produced or procured based on lead times, not just inventory.  For example, suppose a customer requests 10 units of an item, but only six are in stock or on scheduled orders. CTP determines when the remaining 4 units can be produced or sourced. Learn more in [Calculate order promising dates](/dynamics365/business-central/sales-how-to-calculate-order-promising-dates).
+
+
 
 <!--
 **Capable-to-promise (CTP)** goes further by evaluating production capacity, procurement timelines, and supply chain constraints to determine when an item can realistically be delivered, even if it is not currently available.
@@ -133,11 +135,13 @@ This allows businesses to promise delivery dates even when items must be produce
 
 #### How capable-to-promise works
 
-The Sales Order Agent uses the capable-to-promise logic inside Business Central, which is based in part on the configuration defined in the **Order Promising Setup** page. When a customer requests an item:
+The Sales Order Agent uses the capable-to-promise logic inside Business Central, which is based in part on the configuration defined in the **Order Promising Setup** page.
+
+<!--
+When a customer requests an item:
 
 1. The agent checks inventory.
-1. If the item is unavailable, the agent uses CTP logic to calculate when it can be shipped.
-1. Generates a quote with specific shipment dates based on:
+1. If the item is unavailable, the agent uses CTP logic to calculate when it can be shipped and generates a quote with specific shipment dates based on:
 
    - **Work Date** The system uses the current work date as the starting point for all delivery calculations.
    - **Order Promising Setup Offset (Time)** This offset, which is set on **Order Promising Setup** page, defines how far into the future Business Central should look before issuing a new purchase, production, or transfer order. For example, an offset of 1D means one day after the work date.
@@ -145,7 +149,18 @@ The Sales Order Agent uses the capable-to-promise logic inside Business Central,
    - **Item Lead Time Calculation** The lead time calculation, which is set on **Item Card** page, reflects the time required to procure, produce, or transfer the item. It's configured per item and used when the item isn't in stock.
 
 1. The agent creates and sends an email response to the customer that includes the promised shipment dates for items sends the quote to the customer. 
-1. Once the quote is confirmed, the agent converts it into a sales order.
+1. Once the quote is confirmed, the agent converts it into a sales order.-->
+
+When a customer requests an item, the agent checks inventory. If the item is unavailable, the agent uses CTP logic to calculate when it can be shipped and generates a quote with specific shipment dates based on:
+
+| Parameter | Description |
+|---|---|
+| Work Date | The system uses the current work date as the starting point for all delivery calculations. |
+| Order Promising Setup Offset (Time) | Offset on the **Order Promising Setup** page that defines how far into the future Business Central should look before issuing a new purchase, production, or transfer order (for example, 1D = one day after the work date). |
+| Inventory Setup Safety Lead Time | Setting on **Inventory Setup** page that ensures items are available before the promised shipment date; accounts for internal delays like picking, packing, and labeling. |
+| Item Lead Time Calculation | Per-item lead time on the **Item Card** page that reflects the time required to procure, produce, or transfer the item when it isn't in stock. |
+
+The agent creates and sends an email response to the customer that includes the promised shipment dates for items, sends the quote to the customer, and the process continues.
 
 ## Agent process flow
 
@@ -184,9 +199,12 @@ The general flow is illustrated in the figure, which is followed by more details
 1. **Sales order agent:** Picks up unread email from inbox and creates a task with a step for reviewing the incoming request.
 1. **Reviewer:** Reviews/confirms the step with email.  
 1. **Sales order agent:**
-    1. Finds the contact or customer.
-    1. Finds the requested items and verifies their availability. Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md).
-    1. Creates the sales quote.
+    1. Finds the contact or customer.  
+    1. Finds the requested items and verifies their availability. If the agent configured to use capable-to-promise (CTP), it calculates the earliest realistic shipment dates for items that aren't in stock.
+
+    Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md) and [Calculate order promising dates](/dynamics365/business-central/sales-how-to-calculate-order-promising-dates).
+  
+    1. Creates the sales quote.  
     1. Adds review step with a reply email with attached sales quote as a PDF.
 1. **Reviewer:** Reviews/confirms email and sales quotes. 
 1. **Sales order agent:** Sends email and sales quote PDF to customer.

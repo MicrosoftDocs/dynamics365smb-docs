@@ -160,7 +160,7 @@ When a customer requests an item, the agent checks inventory. If the item is una
 | Inventory Setup Safety Lead Time | Setting on **Inventory Setup** page that ensures items are available before the promised shipment date; accounts for internal delays like picking, packing, and labeling. |
 | Item Lead Time Calculation | Per-item lead time on the **Item Card** page that reflects the time required to procure, produce, or transfer the item when it isn't in stock. |
 
-The agent creates and sends an email response to the customer that includes the promised shipment dates for items, sends the quote to the customer, and the process continues.
+The agent creates and sends an email response to the customer that includes the promised shipment dates for items. The process then continues. Learn where this step occurs in the full process in the [General flow](#general-flow).
 
 ## Agent process flow
 
@@ -200,7 +200,7 @@ The general flow is illustrated in the figure, which is followed by more details
 1. **Reviewer:** Reviews/confirms the step with email.  
 1. **Sales order agent:**
     1. Finds the contact or customer.  
-    1. Finds the requested items and verifies their availability. If the agent configured to use capable-to-promise (CTP), it calculates the earliest realistic shipment dates for items that aren't in stock.
+    1. Finds the requested items and verifies their availability. If the agent is configured to use capable-to-promise (CTP), it calculates the earliest realistic shipment dates for items that aren't in stock.
 
     Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md) and [Calculate order promising dates](/dynamics365/business-central/sales-how-to-calculate-order-promising-dates).
   

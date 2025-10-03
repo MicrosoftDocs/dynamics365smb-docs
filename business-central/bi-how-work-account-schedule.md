@@ -118,9 +118,15 @@ Your general ledger is set up to use your local currency (LCY), but you can set 
 
 Financial reports are based on G/L entries. To display report data in the additional reporting currency, select the **Show Amounts in Add. Reporting Currency** checkbox on the **Options** FastTab for the relevant report.
 
+> [!TIP]
+> Starting in [!INCLUDE[2025_releasewave2_name](includes/2025-releasewave2-short.md)]), you can report on both LCY and ACY in the same report. To learn more, go to [Create reports that include both local currency (LCY) and additional currency (ACY)](./bi-column-definitions.md#create-reports-that-include-both-local-currency-lcy-and-additional-currency-acy)
+
 > [!NOTE]
 > The **Show Amounts in Add. Reporting Currency** checkbox is only available if you set up an additional reporting currency (ACY).
+
 To learn more, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
+
+
 
 ### Create or edit a row definition
 

@@ -6,7 +6,7 @@ ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: accountant, accounting, troubleshoot, company hub
 ms.search.form: 1151
-ms.date: 08/11/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

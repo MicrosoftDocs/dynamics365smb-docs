@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228
-ms.date: 06/06/2024
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ---
 

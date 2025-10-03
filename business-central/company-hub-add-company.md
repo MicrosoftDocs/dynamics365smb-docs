@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: accountant, accounting, company hub, add companies
 ms.search.form: 1151, 1155, 1166, 1165
-ms.date: 08/11/2025
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

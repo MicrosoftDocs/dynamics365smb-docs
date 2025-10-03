@@ -21,6 +21,7 @@ ms.collection:
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
 - [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
+- [Advanced Tell Me (preview)](faqs-advanced-tell-me.md)
 - [Analysis assist (preview)](faqs-analysis-assist.md)
 - [Autofill (preview)](faqs-autofill.md)
 - [Bank reconciliation assist](faqs-bank-reconciliation.md)

@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37039_Primary
-ms.date: 10/28/2024
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Project Invoiced Sales by Customer (Power BI Report)
@@ -33,23 +34,22 @@ People in leadership teams want to a high-level view of your project sales and w
 
 The *Project Invoiced Sales by Customer* report includes the following KPIs:
 
-- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
-- [**Quantity**](projects-powerbi-kpis.md#quantity)
-- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
-- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
+- [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
+- [Quantity](projects-powerbi-kpis.md#quantity)
+- [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-price)
+- [Total Billable Price](projects-powerbi-kpis.md#total-billable-price)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-
 ## Data used in the report
 
 The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
-- Project Planning Lines
+- Job
+- Job Ledger Entry
+- Job Planning Line
 
 ## Try the report
 

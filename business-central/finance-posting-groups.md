@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: install-set-up-deploy
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 08/13/2024
+ms.date: 08/13/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -52,17 +52,23 @@ The following table describes the posting groups that are specific to types of d
 | Bank Account Posting Groups |Define the general ledger accounts that bank account entries are posted to. For example, this can simplify the processes of tracing transactions and reconciling bank accounts. Set up these posting groups on the **Bank Account Posting Groups** page. We recommend that these G/L accounts have the **Direct Posting** field set to *No*. |
 | Fixed Assets Posting Groups |Define accounts for different types of expenses and costs, such as acquisition costs, accumulated depreciation amounts, acquisition costs on disposal, accumulated depreciation on disposal, gains on disposal, losses on disposal, maintenance expenses, and depreciation expenses. Set up these posting groups on the **FA Posting Groups** page. |
 
-### Allow substitute customer or vendor posting groups on documents
+### Allow alternative posting groups on documents
 
-You can let people choose other customer and vendor posting groups than the default groups when they're working with sales or purchase documents and journals.
+You can let people choose other customer, vendor, or employee posting groups than the default groups when they're working with sales or purchase documents and journals. Alternative posting groups can replace their default posting group.
 
-To allow changes to customer posting groups, choose **Allow Multiple Posting Groups** on the **Sales & Receivable Setup** and **Service Mgt. Setup** pages, and the **Purchase & Payables Setup** page for vendor posting group changes.
+To allow people to choose alternative posting groups, turn on the **Allow Multiple Posting Groups** toggle on the following pages:
 
-On the **Customer Posting Groups** or **Vendor Posting Groups** pages, you can specify the posting groups to allow as substitutes by choosing **Substitutions**. Substitute posting groups can replace the default customer or vendor posting groups specified for a customer or vendor.
+* **Sales & Receivable Setup** for customer posting groups. If you use service management features, also turn on the toggle on the **Service Management Setup** page.
+* **Purchase & Payables Setup** page for vendor posting groups.
+* **Human Resources Setup** page for employee posting groups.
 
-After you set this up, you can choose from the allowed substitute posting groups and change the customer or vendor posting group when posting sales or purchase documents and journals. The substitute customer or vendor posting groups are copied to posted documents and journals, and payable or receivable G/L entries are posted to the G/L accounts specified for the substitutes.
+On the **Customer Posting Groups**, **Vendor Posting Groups**, and **Employee Posting Groups** pages, you can use the **Alternative Groups** action to specify the posting groups to allow as substitutes.
 
-When applying, for example, an invoice and payment that are posted with different customer or vendor posting groups (different G/L accounts), [!INCLUDE[prod_short](includes/prod_short.md)] transfers the amounts between the G/L accounts to balance them.
+The last step in the setup is to turn on the **Allow Multiple Posting Groups** toggle on the card pages for the relevant customers, vendors, or employees.
+
+After you set this up, you can choose from the allowed alternative posting groups when you post sales or purchase documents and journals. The alternative posting groups are copied to posted documents and journals, and payable or receivable G/L entries are posted to their G/L accounts.
+
+When you apply, for example, an invoice and payment that are posted with different posting groups (different G/L accounts), [!INCLUDE[prod_short](includes/prod_short.md)] transfers the amounts between the G/L accounts to balance them.
 
 ## Tax posting groups
 

@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/13/2025
+ms.date: 10/04/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 488_Primary, 489_Primary, 490, 764, 765, 766
@@ -41,16 +41,40 @@ To edit the content of a column definition, follow these steps.
 
 ## Built-in column definitions
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides sample column definitions that can help you to quickly get started setting up finance reports that suit your needs.
+[!INCLUDE [applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-<!-- update this when we release the new templates in 24.1
-| Column definition code | Description | How to use this column definition | 
-| ------------------- | ----------- | ------------------------------ | 
-| TBA 1 | TBA 1 | TBA 1 |
-| TBA 2 | TBA 2 | TBA 2 |
-| TBA 3 | TBA 3 | TBA 3 |
-| TBA 4 | TBA 4 | TBA 4 |
--->
+[!INCLUDE[prod_short](includes/prod_short.md)] provides sample column definitions that can help you to quickly get started setting up finance reports that suit your needs. 
+
+| Column definition code | Description                                  | Category of analysis | 
+| ---------------------- | -------------------------------------------- | -------------------- |
+| ACT/BUD    | Actual / Budget Comparision                              | Budget Analysis      |
+| BAL ONLY   | Balance Only                                             | Balance              |
+| BBDRCREB   | TB Beginning Balance Debits Credits Ending Balance       | (Trial) Balance      |
+| BSTREND    | BS 12 Months Balance Trending Current Fiscal Year        | Balance              |
+| BUDGANALYS | Budget Analysis                                          | Budget Analysis      |
+| CASHFLOW   | Comparison month - year                                  | Calendar Analysis    |
+| CB         | BS Current Month Balance                                 | Balance              |
+| CB V PB    | BS Current Month Balance v Prior Month Balance           | Balance              |
+| CB V SPYB  | BS Current Month Balance v Same Month Prior Year Balance | Balance              |
+| CNC        | IS Current Month Net Change                              | Income Statement     |
+| CNC BUD    | IS 12 Months Net Change Budget Only                      | Income Statement     |
+| CNC V PNC  | IS Current Month Net Change v Prior Month Net Change     | Income Statement     |
+| CNC VSPYNC | IS Current Month Net Change v Same Month Prior Year Net Change | Income Statement |
+| CNCVPNCYOY | IS Current Month v Prior Month for CY and Current Month v Prior Month for PY | Income Statement |
+| CVC YTDBUD | IS Current Month v Budget Year to Date v Budget and Bud Total and Bud Remaining | Income Statement |
+| DEFAULT    | Standard Column Layout                                   |                      | 
+| DEGREE     | Key Cash Flow Ratio                                      |                      |
+| ESG-PERIOD | ESG Periods                                              | Calendar Analysis    |
+| ISTREND    | IS 12 Months Net Change Trending Current Fiscal Year     | Income Statement     |
+| M-BALANCE  | Balance                                                  | Balance              |
+| M-NETCHANG | Net Change                                               |                      |
+| PERIODS    | Periods Definition for Mini Charts                       | Calendar Analysis    |
+| PTD + YTD  | Period and Year to Date                                  | Calendar Analysis    |
+| PTD+YTD+%  | Period and Year to Date with Percent of Total Revenue    | Calendar Analysis    |
+| YTDCOMPARE | This Year to Date vs. Prior Year to Date                 | Calendar Analysis    |
+
+> [!NOTE]
+> For local versions of [!INCLUDE [prod_short](includes/prod_short.md)], the column definition codes and names that appear in the table are translated.
 
 ## Example: Create a column definition to calculate percentages
 
@@ -103,9 +127,25 @@ To calculate by regular time periods, enter a formula in the **Comparison Date F
 
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
-## Find the reports that use a column definition
+## Use dynamic date headers
 
-[!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
+If you use headers with date formulas, you can include information about the date in the header. Choose a value in the **Include Date In Header** field, such as **Weekday**, **Week**, **Month**, and so on. If the **Column Header** field is filled in, the **Include Date In Header** field appends the date information to the header in parenthesis. If the **Column Header** field is empty, the header just shows the date information.
+
+This table shows some examples of how combinations of the two fields show in the report.
+
+| Column Header | Include Date In Header                       | Header shows like this... | 
+| --------------| -------------------------------------------- | ------------------------- |
+| Amount        |                                              | Amount                    |
+| Period        | Month                                        | Period (January)          |
+|               | Month                                        | January                   |
+
+## Create reports that include both local currency and additional currency
+
+If you use an additional reporting currency (ACY), you can include columns in local currency (LCY), which is the default, ACY, or both, in the same column definition. The **Show in ACY** field controls the choice of currency.
+
+To learn more about how to setup ACY, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
+
+## Find the reports that use a column definition
 
 Before you change a column definition, it can be helpful to know which reports use it so that you understand the effect of your change. To find out which reports use a column definition, follow these steps:
 
@@ -114,11 +154,13 @@ Before you change a column definition, it can be helpful to know which reports u
 
 ## Best practices for working with column definitions
 
-<!-- [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs2.md)] -->
+[!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
 ## Import or export financial report column definitions
 
-Starting with the 2024 release wave 1 (version 24.1), you can import and export financial report column definitions as RapidStart configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
+[!INCLUDE [applies-to-2024w1](includes/applies-to-2024w1.md)]
+
+You can import and export financial report column definitions as configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
 > When you import financial report column definitions, they replace existing records with the same names. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.

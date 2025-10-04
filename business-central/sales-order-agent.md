@@ -105,7 +105,7 @@ When it finds the items, the agent checks the items' availability by analyzing m
 
 The Sales Order Agent includes an option to use Business Central's capable-to-promise (CTP) functionality that lets the agent calculate the earliest possible delivery date for items not currently in stock.
 
-<!--Unlike available-to-promise (ATP), which checks existing inventory and incoming supply,-->CTP evaluates production capacity, procurement timelines, and supply chain constraints to determine when an item can realistically be delivered—even when items aren't currently in stock and must be produced or procured based on lead times, not just inventory.  For example, suppose a customer requests 10 units of an item, but only six are in stock or on scheduled orders. CTP determines when the remaining 4 units can be produced or sourced. Learn more in [Calculate order promising dates](/dynamics365/business-central/sales-how-to-calculate-order-promising-dates).
+CTP evaluates production capacity, procurement timelines, and supply chain constraints to determine when an item can realistically be delivered—even when items aren't currently in stock and must be produced or procured based on lead times, not just inventory.For example, suppose a customer requests 10 units of an item, but only six are in stock or on scheduled orders. CTP determines when the remaining 4 units can be produced or sourced. Learn more in [Calculate order promising dates](sales-how-to-calculate-order-promising-dates.md).
 
 
 

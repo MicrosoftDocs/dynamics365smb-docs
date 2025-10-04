@@ -41,7 +41,7 @@ The report includes the following key performance indicators (KPIs) and measures
 - [**Previous Year Moving Annual Total (PYMAT)**](sales-powerbi-sales-kpis.md#sales-amount-pymat-fiscal)
 - [**Moving Annual Total Growth Amount**](sales-powerbi-sales-kpis.md#sales-amount-matg-fiscal)
 - [**Moving Annual Total Growth %**](sales-powerbi-sales-kpis.md#sales-amount-matg--fiscal)
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -51,8 +51,10 @@ The report includes the following key performance indicators (KPIs) and measures
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Sales Line
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 
 ## Try the report
 

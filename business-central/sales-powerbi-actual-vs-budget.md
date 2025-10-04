@@ -34,14 +34,10 @@ Salespeople can monitor the variance metrics to ensure that you meet your sales 
 
 The **Actual vs Budget** report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)  
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)  
-- [**Budget Quantity**](sales-powerbi-sales-kpis.md#budget-quantity)  
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)  
 - [**Budget Amount**](sales-powerbi-sales-kpis.md#budget-amount)  
 - [**Budget Amount Variance**](sales-powerbi-sales-kpis.md#budget-amount-variance)  
-- [**Budget Amount Variance %**](sales-powerbi-sales-kpis.md#budget-amount-variance-percent)  
-- [**Budget Quantity Variance**](sales-powerbi-sales-kpis.md#budget-quantity-variance)  
-- [**Budget Quantity Variance %**](sales-powerbi-sales-kpis.md#budget-quantity-variance-percent)  
+- [**Budget Amount Variance %**](sales-powerbi-sales-kpis.md#budget-amount-variance-percent)   
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -53,10 +49,13 @@ The **Actual vs Budget** report uses data from the following tables in [!INCLUDE
 
 - Item
 - Item Category
-- Value Entry
-- Sales Line
 - Item Budget Entry
-
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
+- Salesperson/Purchaser
+ 
 ## Try the report
 
 Try the report here: [Actual vs Budget](https://businesscentral.dynamics.com?page=37007)

@@ -35,11 +35,9 @@ Using the report, you might find out that customers in the Corporate customer po
 
 The **Sales Demographics** report includes the following KPIs and measures:
 
-- [Sales Amount](sales-powerbi-sales-kpis.md#sales-amount)
-- [Cost Amount](sales-powerbi-sales-kpis.md#cost-amount)
-- [Gross Profit](sales-powerbi-sales-kpis.md#gross-profit)
-- [Gross Profit Margin](sales-powerbi-sales-kpis.md#gross-profit-margin)
-- [No. of Customers](sales-powerbi-sales-kpis.md#no-of-customers)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
+- [**Adjusted Profit (LCY)**](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [**Adjusted Profit Margin**](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -49,8 +47,14 @@ The **Sales Demographics** report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entries
-- Sales Lines
+- Sales Value Entries
+- Sales Invoice Lines  
+- Sales Credit Lines  
+- Project Ledger Entries
+- Customer
+- Item
+- Resource
+- G/L Account
 
 ## Try the report
 

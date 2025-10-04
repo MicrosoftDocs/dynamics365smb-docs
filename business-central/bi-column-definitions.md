@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/13/2025
+ms.date: 10/04/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 488_Primary, 489_Primary, 490, 764, 765, 766
@@ -74,7 +74,7 @@ To edit the content of a column definition, follow these steps.
 | YTDCOMPARE | This Year to Date vs. Prior Year to Date                 | Calendar Analysis    |
 
 > [!NOTE]
-> For localizations in non-English language, both the column definition codes and names that appear in the table are translated.
+> For local versions of [!INCLUDE [prod_short](includes/prod_short.md)], the column definition codes and names that appear in the table are translated.
 
 ## Example: Create a column definition to calculate percentages
 
@@ -131,7 +131,7 @@ Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 [!INCLUDE[introduced_in_2025rw2](includes/introduced_in_2025rw2.md)]
 
-If you use headers with date formulas, you can include information about the date in the header. Simply choose a value in the field **Include Date In Header**, such as Weekday, Week, Month, Quarter, or Year (more options are available). If the **Column Header** is filled in, the use of **Include Date In Header** will append the date information in parenthesis to the header.  If the **Column Header** is empty, the header will just show the date information.
+If you use headers with date formulas, you can include information about the date in the header. Choose a value in the **Include Date In Header** field, such as **Weekday**, **Week**, **Month**, and so on. If the **Column Header** field is filled in, the **Include Date In Header** field appends the date information to the header in parenthesis. If the **Column Header** field is empty, the header just shows the date information.
 
 This table shows some examples of how combinations of the two fields show in the report.
 
@@ -141,19 +141,15 @@ This table shows some examples of how combinations of the two fields show in the
 | Period        | Month                                        | Period (January)          |
 |               | Month                                        | January                   |
 
-
-## Create reports that include both local currency (LCY) and additional currency (ACY)
+## Create reports that include both local currency and additional currency
 
 [!INCLUDE[introduced_in_2025rw2](includes/introduced_in_2025rw2.md)]
 
-If you have enabled additional reporting currency (ACY), you can include columns in LCY (default), ACY, or both in the same column definition. The choice of currency is controlled by the field **Show in ACY**.
+If you use an additional reporting currency (ACY), you can include columns in local currency (LCY), which is the default, ACY, or both, in the same column definition. The **Show in ACY** field controls the choice of currency.
 
 To learn more about how to setup ACY, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
-
 ## Find the reports that use a column definition
-
-[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]
 
 Before you change a column definition, it can be helpful to know which reports use it so that you understand the effect of your change. To find out which reports use a column definition, follow these steps:
 
@@ -168,7 +164,7 @@ Before you change a column definition, it can be helpful to know which reports u
 
 [!INCLUDE [applies-to-2024w1](includes/applies-to-2024w1.md)]
 
-Starting with the 2024 release wave 1 (version 24.1), you can import and export financial report column definitions as configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
+You can import and export financial report column definitions as configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
 > When you import financial report column definitions, they replace existing records with the same names. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.

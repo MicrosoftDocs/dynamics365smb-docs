@@ -129,6 +129,8 @@ Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 ## Use dynamic date headers
 
+[!INCLUDE[introduced-in-2025rw2](includes/introduced-in-2025rw2.md)]
+
 If you use headers with date formulas, you can include information about the date in the header. Choose a value in the **Include Date In Header** field, such as **Weekday**, **Week**, **Month**, and so on. If the **Column Header** field is filled in, the **Include Date In Header** field appends the date information to the header in parenthesis. If the **Column Header** field is empty, the header just shows the date information.
 
 This table shows some examples of how combinations of the two fields show in the report.
@@ -140,6 +142,8 @@ This table shows some examples of how combinations of the two fields show in the
 |               | Month                                        | January                   |
 
 ## Create reports that include both local currency and additional currency
+
+[!INCLUDE[introduced-in-2025rw2](includes/introduced-in-2025rw2.md)]
 
 If you use an additional reporting currency (ACY), you can include columns in local currency (LCY), which is the default, ACY, or both, in the same column definition. The **Show in ACY** field controls the choice of currency.
 

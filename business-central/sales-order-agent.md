@@ -152,7 +152,7 @@ When a customer requests an item:
 1. The agent creates and sends an email response to the customer that includes the promised shipment dates for items sends the quote to the customer. 
 1. Once the quote is confirmed, the agent converts it into a sales order.-->
 
-When a customer requests an item, the agent checks inventory. If the item is unavailable, the agent uses CTP logic to calculate when it can be shipped and generates a quote with specific shipment dates based on:
+When a customer requests an item, the agent checks inventory. If the item is unavailable, the agent calculates when it can be shipped and generates a quote with specific shipment dates based on:
 
 | Parameter | Description |
 |---|---|

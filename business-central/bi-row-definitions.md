@@ -146,21 +146,12 @@ The following excerpt of a row definition illustrates how you can use account ca
 
 ## Find the reports that use a row definition
 
-[!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
+[!INCLUDE[introduced-in-2025rw1](includes/introduced_in_2025rw1.md)]
 
 Before you change a row definition, it can be helpful to know which reports use it so that you understand the effect of your change. To find out which reports use a row definition, follow these steps:
 
 1. On the **(Financial Report) Row Definitions** page, select the definition, and then choose the **Edit Row Definition** action.
 1. To open a list of reports that use the definition, choose the **Where-Used** action.
-
-## Best practices for working with row definitions
-
-Row definitions aren't versioned. When you change a row definition, the old version is replaced when your change saves to the database. The following list contains some best practices for working with row definitions:
-
-* If you add row definitions, choose a good code and fill in the description field with a meaningful text while you still know what you use the row definition for. This information helps your coworkers (and your future self) to work with financial reporting and perhaps changing the row definition.
-* Use the **Where-Used** action to learn where a row definition is used before you make any changes to it.
-* Before you change a row definition, consider taking a copy of it as a backup, just in case your change doesn't work as expected. You can either just copy the definition (give it a good name), or export it. To learn more, go to [Import or export row definitions](#import-or-export-financial-reporting-row-definitions).
-* If you need a fresh copy of a definition that [!INCLUDE[prod_short](includes/prod_short.md)] provides, an easy way to get one is to create a new company that only contains setup data. Then, export the definition and import it in the company where the definition needs a refresh.
 
 ## Import or export financial reporting row definitions
 
@@ -173,6 +164,24 @@ To import or export financial report row definitions, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Row Definitions**, then choose the related link.
 1. Choose the row definition, then choose the **Import Row Definition** or **Export Row Definition** action, depending on what you want to do.
+
+## Edit a financial reporting row definition in Excel
+
+[!INCLUDE[introduced-in-2025rw2](includes/introduced-in-2025rw2.md)]
+
+If you want to edit all the lines in a row definition, with the Edit in Excel action, you can make all the changes in Excel and then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+To learn more, go to [Edit in Excel](across-work-with-excel.md#edit-in-excel).
+
+## Best practices for working with row definitions
+
+Row definitions aren't versioned. When you change a row definition, the old version is replaced when your change saves to the database. The following list contains some best practices for working with row definitions:
+
+* If you add row definitions, choose a good code and fill in the description field with a meaningful text while you still know what you use the row definition for. This information helps your coworkers (and your future self) to work with financial reporting and perhaps changing the row definition.
+* Use the **Where-Used** action to learn where a row definition is used before you make any changes to it.
+* Before you change a row definition, consider taking a copy of it as a backup, just in case your change doesn't work as expected. You can either just copy the definition (give it a good name), or export it. To learn more, go to [Import or export row definitions](#import-or-export-financial-reporting-row-definitions).
+* If you need a fresh copy of a definition that [!INCLUDE[prod_short](includes/prod_short.md)] provides, an easy way to get one is to create a new company that only contains setup data. Then, export the definition and import it in the company where the definition needs a refresh.
+
 
 ## Related information
 <!-- 

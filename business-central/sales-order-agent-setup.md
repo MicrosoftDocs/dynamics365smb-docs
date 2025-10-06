@@ -85,7 +85,7 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
     #### [Create sales documents](#tab/documents)
 
-    Create sales quotes and make orders from quotes in response to the incoming requests.
+    These options specify how you interact with the agent to create sales quotes and make orders from quotes in response to the incoming requests.
 
     |Option|Description|Default|
     |-|-|-|

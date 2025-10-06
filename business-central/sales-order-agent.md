@@ -203,7 +203,7 @@ The general flow is illustrated in the figure, which is followed by more details
     1. Finds the contact or customer.  
     1. Finds the requested items and verifies their availability. If the agent is configured to use capable-to-promise (CTP), it calculates the earliest realistic shipment dates for items that aren't in stock.
 
-    Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md) and [Calculate order promising dates](/dynamics365/business-central/sales-how-to-calculate-order-promising-dates).
+       Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md) and [Calculate order promising dates](/dynamics365/business-central/sales-how-to-calculate-order-promising-dates).
   
     1. Creates the sales quote.  
     1. Adds review step with a reply email with attached sales quote as a PDF.

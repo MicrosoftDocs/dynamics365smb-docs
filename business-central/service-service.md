@@ -28,12 +28,12 @@ In addition, you can standardize coding, set up contracts, implement a discounti
 
 The following table describes a sequence of tasks, with links to the articles that describe them.
 
-| To... | Go to ... |  |
-|--|--|--|
-| Set up Service Management, including fault codes, policies, default documents, and templates. | [Setting Up Service Management](service-setup-service.md) |  |
-| Manage service pricing, create service items, and understand how to monitor progress. | [Planning Service](service-plan-service.md) |  |
-| Create and manage contractual agreements between you and your customers. | [Fulfilling Service Contracts](service-fulfill-service-contracts.md) |  |
-| Provide service to customers, and invoice service orders. | [Delivering Service](service-deliver-service.md) |  |
+| To... | Go to ... |
+|--|--|
+| Set up Service Management, including fault codes, policies, default documents, and templates. | [Setting Up Service Management](service-setup-service.md) |
+| Manage service pricing, create service items, and understand how to monitor progress. | [Planning Service](service-plan-service.md) |
+| Create and manage contractual agreements between you and your customers. | [Fulfilling Service Contracts](service-fulfill-service-contracts.md) |
+| Provide service to customers, and invoice service orders. | [Delivering Service](service-deliver-service.md) |
 
 ## Related information  
 

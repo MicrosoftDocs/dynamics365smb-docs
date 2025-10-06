@@ -47,7 +47,7 @@ To edit the content of a column definition, follow these steps.
 
 | Column definition code | Description                                  | Category of analysis | 
 | ---------------------- | -------------------------------------------- | -------------------- |
-| ACT/BUD    | Actual / Budget Comparision                              | Budget Analysis      |
+| ACT/BUD    | Actual / Budget Comparison                              | Budget Analysis      |
 | BAL ONLY   | Balance Only                                             | Balance              |
 | BBDRCREB   | TB Beginning Balance Debits Credits Ending Balance       | (Trial) Balance      |
 | BSTREND    | BS 12 Months Balance Trending Current Fiscal Year        | Balance              |
@@ -123,7 +123,7 @@ Examples of formulas:
 To calculate by regular time periods, enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period one year earlier.
 
 > [!NOTE]
-> It isn't always obvious which periods you're comparing because you can set a date filter on a report that spans dates that are different than the accounting periods in your chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, set the **Comparison Date Formula** field to **-1FY**. Then, run the report on **February 28th** and set the date filter to **January and February**. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
+> It isn't always obvious which periods you're comparing on a report. For example, a date filter might spans dates that are different than the accounting periods in your chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, set the **Comparison Date Formula** field to **-1FY**. Then, run the report on **February 28th** and set the date filter to **January and February**. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
 
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
@@ -147,7 +147,7 @@ This table shows some examples of how combinations of the two fields show in the
 
 If you use an additional reporting currency (ACY), you can include columns in local currency (LCY), which is the default, ACY, or both, in the same column definition. The **Show in ACY** field controls the choice of currency.
 
-To learn more about how to setup ACY, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
+To learn more about how to set up ACY, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ## Find the reports that use a column definition
 
@@ -167,7 +167,7 @@ Before you change a column definition, it can be helpful to know which reports u
 You can import and export financial report column definitions as configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
-> When you import financial report column definitions, they replace existing records with the same names. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.
+> When you import financial report column definitions, they replace existing records with the same names. The configuration package for a report definition won't overwrite existing row or column definitions that are used in the report definition.
 
 To import or export financial report column definitions, follow these steps:
 

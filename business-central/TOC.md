@@ -248,18 +248,15 @@ ms.service: dynamics-365-business-central
 ##### [EBITDA](finance-powerbi-ebitda.md)
 ##### [Average Collection Period](finance-powerbi-average-collection-period.md)
 ##### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
+##### [Late Payments (Receivables)](finance-powerbi-late-payment-analysis-receivables.md)
 ##### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
+##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
+##### [Detailed Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
 ##### [Finance KPI overview](finance-powerbi-kpis.md) 
 ##### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
 
-<!-- 
-##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
-##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
-##### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
--->
-
 #### Financial reporting
-
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
 ##### [Report selection for finance reports](finance-financial-reporting-report-selection.md)
@@ -280,7 +277,6 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 #### Built-in finance analysis tools
-
 ##### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
 ##### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
 ##### [Analyze cash flow](finance-analyze-cash-flow.md)
@@ -346,7 +342,6 @@ ms.service: dynamics-365-business-central
 ##### [Fixed assets reports](fa-reports.md)
 
 ##### Accounts payable analytics
-
 ###### [Accounts payable analytics overview](payables-reports.md)
 ###### [Aged Accounts Payable Excel](reports/report-4403.md)
 ###### [Vendor - Top 10 List Excel](reports/report-4404.md)
@@ -578,31 +573,31 @@ ms.service: dynamics-365-business-central
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
-### Sales analytics 
+
 <!-- Sales analytics start -->
+### Sales analytics 
 #### [Sales analytics overview](sales-analytics-overview.md)
 
 #### [Power BI sales app](sales-powerbi-app.md)
 ##### [Sales overview](sales-powerbi-sales-overview.md)
 ##### [Daily Sales](sales-powerbi-daily-sales.md)
-##### [Key Sales Influencers (Power BI Report)](sales-powerbi-key-sales-influencers.md)
-##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
+##### [Key Sales Influencers](sales-powerbi-key-sales-influencers.md)
 ##### [Moving Average](sales-powerbi-moving-average.md)
 ##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
 ##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
 ##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
-##### [Opportunity Overview (Power BI Report)](sales-powerbi-opportunity-overview.md)
-##### [Return Order Overview (Power BI Report)](sales-powerbi-return-order-overview.md)
+##### [Opportunity Overview](sales-powerbi-opportunity-overview.md)
+##### [Return Order Overview](sales-powerbi-return-order-overview.md)
 ##### [Sales by Item](sales-powerbi-sales-by-item.md)
 ##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
 ##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
-##### [Sales Decomposition (Power BI Report)](sales-powerbi-sales-decomposition.md)
-##### [Sales Demographics (Power BI Report)](sales-powerbi-sales-demographics.md)
+##### [Sales Decomposition](sales-powerbi-sales-decomposition.md)
+##### [Sales Demographics](sales-powerbi-sales-demographics.md)
 ##### [Sales by Location](sales-powerbi-sales-by-location.md)
-##### [Sales Quote Overview (Power BI Report)](sales-powerbi-sales-quote-overview.md)
+##### [Sales Quote Overview](sales-powerbi-sales-quote-overview.md)
 ##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
-##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
+##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
@@ -683,12 +678,16 @@ ms.service: dynamics-365-business-central
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
 
-### Purchasing analytics 
 <!-- Purchasing analytics start -->
+### Purchasing analytics 
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
 #### [Power BI purchasing app](purchases-powerbi-app.md)
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
 ##### [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md)
+##### [Key Purchase Influencers](purchases-powerbi-key-purchase-influencers.md)
+##### [Purchase Forecasting](purchases-powerbi-purchase-forecasting.md)
+##### [Vendor Quality Analysis](purchases-powerbi-vendor-quality-analysis.md)
+##### [Purchases Quote Overview](purchases-powerbi-purchase-quote-overview.md)
 ##### [Daily Purchases](purchases-powerbi-daily-purchases.md)  
 ##### [Moving Averages](purchases-powerbi-moving-averages.md)  
 ##### [Moving Annual Total](purchases-powerbi-moving-annual-total.md)  
@@ -699,6 +698,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
 ##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
 ##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+##### [Purchases Return Overview](purchases-powerbi-purchase-return-overview.md)
 ##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)

@@ -383,6 +383,50 @@ ms.service: dynamics-365-business-central
 ###### [Aged Accounts Payable](reports/report-322.md)
 <!-- Financial analytics end -->
 
+<!-- Closing years and periods     start -->
+### Closing years and periods
+#### [Year closing overview](year-close-years-periods.md)
+#### [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
+#### [Specify posting periods](finance-how-specify-posting-periods.md)
+#### [Overview of tasks to close accounting periods](year-how-complete-period-end-processes.md)
+#### [Update currency exchange rates](finance-how-update-currencies.md)
+#### [Allocate costs and income](year-allocate-costs-income.md)
+#### [Report VAT to tax authorities](finance-how-report-vat.md)
+#### [Prepare pre-closing reports](year-prepare-preclose-reports.md)
+#### [Close books](year-close-books.md)
+#### [Prepare closing statements](year-prepare-close-statement.md)
+#### [Close accounting periods](year-close-account-periods.md)
+#### [Close income statement accounts](year-close-income-statement.md)
+#### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
+<!-- Closing years and periods     end -->
+
+<!-- CoA and G/L start -->
+### Work with the chart of accounts and general ledger (G/L)
+#### [Understand the general ledger](finance-general-ledger.md)
+#### [Understand the chart of accounts](finance-chart-of-accounts.md)
+#### [Create G/L budgets](finance-how-create-budgets.md)
+#### [Review amounts in general ledger accounts](finance-review-accounts.md)
+#### [Revalue general ledger account balances](finance-revalue-account-balances.md)
+#### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
+#### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
+#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
+#### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
+#### [Allocate recurring costs and income](year-allocate-costs-income.md)
+#### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
+#### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
+#### [Export data for auditing](finance-how-to-export-audit-files.md)
+<!-- CoA and G/L end -->
+
+### Working with dimensions
+#### [Dimensions overview](finance-dimensions.md)
+#### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
+#### [Import payroll transactions](finance-how-import-payroll-transactions.md)
+
+### Working with currencies
+#### [Currencies in Business Central](finance-currencies.md)
+#### [Update currency exchange rates](finance-how-update-currencies.md)
+
+<!-- Receivables start -->
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
 #### [Accounts receivable analytics](receivables-reports.md)
@@ -404,7 +448,9 @@ ms.service: dynamics-365-business-central
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 #### [Sales tax in the default version of Business Central](sales-tax-concept.md)
 #### [Work with Intrastat reporting](finance-how-report-intrastat.md)
+<!-- Receivables end -->
 
+<!-- Payables start -->
 ### Manage payables
 #### [Payables overview](payables-manage-payables.md)
 #### [Accounts payable analytics](payables-reports.md)
@@ -433,6 +479,7 @@ ms.service: dynamics-365-business-central
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
+<!-- Payables end -->
 
 ### Invoicing prepayments
 #### [Prepayments overview](finance-invoice-prepayments.md)
@@ -458,7 +505,6 @@ ms.service: dynamics-365-business-central
 #### [Create cost budgets](finance-create-cost-budgets.md)
 #### [Deleting cost budget entries](finance-how-to-delete-cost-budget-entries.md)
 #### [Cost accounting reports](finance-cost-accounting-reports.md)
-
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)
@@ -489,45 +535,6 @@ ms.service: dynamics-365-business-central
 #### [Cash flow overview](finance-cash-flow-overview.md)
 #### [Analyze cash flows in your company](finance-analyze-cash-flow.md)
 #### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
-### Closing years and periods
-#### [Year closing overview](year-close-years-periods.md)
-#### [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
-#### [Specify posting periods](finance-how-specify-posting-periods.md)
-#### [Overview of tasks to close accounting periods](year-how-complete-period-end-processes.md)
-#### [Update currency exchange rates](finance-how-update-currencies.md)
-#### [Allocate costs and income](year-allocate-costs-income.md)
-#### [Report VAT to tax authorities](finance-how-report-vat.md)
-#### [Prepare pre-closing reports](year-prepare-preclose-reports.md)
-#### [Close books](year-close-books.md)
-#### [Prepare closing statements](year-prepare-close-statement.md)
-#### [Close accounting periods](year-close-account-periods.md)
-#### [Close income statement accounts](year-close-income-statement.md)
-#### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
-
-### Work with the chart of accounts and general ledger (G/L)
-#### [Understand the general ledger](finance-general-ledger.md)
-#### [Understand the chart of accounts](finance-chart-of-accounts.md)
-#### [Create G/L budgets](finance-how-create-budgets.md)
-#### [Review amounts in general ledger accounts](finance-review-accounts.md)
-#### [Revalue general ledger account balances](finance-revalue-account-balances.md)
-#### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
-#### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
-#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
-#### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
-#### [Allocate recurring costs and income](year-allocate-costs-income.md)
-#### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
-#### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
-#### [Export data for auditing](finance-how-to-export-audit-files.md)
-
-### Working with dimensions
-#### [Dimensions overview](finance-dimensions.md)
-#### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
-#### [Import payroll transactions](finance-how-import-payroll-transactions.md)
-
-### Working with currencies
-#### [Currencies in Business Central](finance-currencies.md)
-#### [Update currency exchange rates](finance-how-update-currencies.md)
 
 ### Working with Value Added Tax (VAT)
 #### [VAT management overview](finance-manage-vat.md)

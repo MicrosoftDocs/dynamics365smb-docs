@@ -1,28 +1,29 @@
 ---
 title: Overview of Tasks to Deliver Service | Microsoft Docs
-description: Outlines tasks to set up make sure that you deliver quality service and live up to agreements with customers.
+description: Provides an overview of essential tasks to ensure high-quality service delivery and fulfillment of customer agreements.
 author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: service, service items, respond, response
-ms.date: 04/01/2021
+ms.date: 10/03/2025
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Delivering Service
-[!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
+
+# Delivering service
+
+[!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you deliver service according to the contracts that you created and the service orders that you committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
   
 Another way to review pending service orders is to use the **Service Tasks** page. In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.  
   
-The following table describes a sequence of tasks, with links to the topics that describe them.   
+The following table describes a sequence of tasks, with links to the articles that describe them.
 
-A service management application must interface with a customer request for service. That service request usually is translated into a service order. [!INCLUDE[prod_short](includes/prod_short.md)] provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.  
+A service management application must interface with a customer request for service. That service request usually is translated into a service order. [!INCLUDE[prod_short](includes/prod_short.md)] provides tools to create an order both directly in response to a customer request or as part of the contract process, if that's how your application is set up.  
   
 If needed, you can manage a loaner program for your customers. You can also determine your pricing structure, put service pricing offerings into logical groupings, and create price adjustments.  
   
-The following table describes a sequence of tasks, with links to the topics that describe them.   
+The following table describes a sequence of tasks, with links to the articles that describe them.
   
 |**To**|**See**|  
 |------------|-------------|  
@@ -34,10 +35,10 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create and post invoices for services that you have delivered.|[Create Service Invoices or Credit Memos](service-how-create-invoices.md)|  
 |Keep customers happy by lending them an item while you work on theirs.| [Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
   
-## Related information  
-[Planning Service](service-plan-service.md)  
-[Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
-[Managing Projects](projects-manage-projects.md)  
+## Related information
 
+- [Planning Service](service-plan-service.md)  
+- [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
+- [Managing Projects](projects-manage-projects.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

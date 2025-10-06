@@ -3,10 +3,10 @@ title: Set Up Service Management Processes
 description: Learn how to set up processes that help ensure your customers are satisfied with your services.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 03/17/2025
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -21,7 +21,7 @@ The following are some examples of the settings you can apply to service managem
 * Settings for contracts, such as the maximum number of days that you can use for contract service orders, whether to use reason codes when a contract is canceled, standard texts for descriptions, and contract values.  
 * The number sequences to use for service-related documents and items.  
 
-## To enter general and mandatory settings
+## Enter general and mandatory settings
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Management Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -45,12 +45,12 @@ This setting affects the following documents:
 
 The following table describes the effects on different documents.
 
-|Document  |Allow<br>Displays a series of options   |Prohibited<br>Conformation dialog  |Mandatory<br>Confirmation dialog  |
-|---------|---------|---------|---------|
-|Service order     | * Ship<br>* Invoice<br>* Ship and Invoice<br>* Ship and Consume         |* Ship<br>* Ship and Consume  |Do you want to post the shipment and invoice?         |
-|Warehouse Shipment     |* Ship<br>* Ship and Invoice         |Do you want to post the shipment?         | Do you want to post the shipment and invoice?        |
-|Service invoice     | Do you want to post the invoice?         | Error: you cannot post.       |Do you want to post the invoice?         |
-|Service credit memo     | Do you want to post the credit memo?         | Error: you cannot post.        |Do you want to post the credit memo?         |
+| Document | Allow<br>Displays a series of options | Prohibited<br>Conformation dialog | Mandatory<br>Confirmation dialog |
+|--|--|--|--|
+| Service order | * Ship<br>* Invoice<br>* Ship and Invoice<br>* Ship and Consume | * Ship<br>* Ship and Consume | Do you want to post the shipment and invoice? |
+| Warehouse Shipment | * Ship<br>* Ship and Invoice | Do you want to post the shipment? | Do you want to post the shipment and invoice? |
+| Service invoice | Do you want to post the invoice? | Error: you can't post. | Do you want to post the invoice? |
+| Service credit memo | Do you want to post the credit memo? | Error: you can't post. | Do you want to post the credit memo? |
 
 > [!NOTE]
 > When you post service invoices and credit memos, you don't have any posting options. The documents always post physical and financial transactions together. You can't partially post service invoices and credit memos.
@@ -59,16 +59,15 @@ The following table describes the effects on different documents.
 
 Your business probably deals with multiple customer and vendor contacts who are responsible for different areas of operation. For example, accountants, purchasers, and warehouse staff. Because their interests typically differ, you might want to generate and send different types of documents to them. You can save time when you send documents to different customer or vendor contacts by setting up specific contacts to use with specific documents. For example, send service invoices to accountant contacts and service orders to your customers' purchasers.
 
-You can use the **Document Layouts** page to specify who to send service quotes, orders, invoices, and credit memos to for vendors and customers based on settings on the **Report Selection** page. To send specific documents to specific company contacts, choose the company contacts to use for specific document layouts. To learn more about document layouts, go to [Define document layouts for customers and vendors](ui-define-customer-vendor-document-layouts.md).
+You can use the **Document Layouts** page to specify who to send service quotes, orders, invoices, and credit memos to for vendors and customers based on settings on the **Report Selection** page. To send specific documents to specific company contacts, choose the company contacts to use for specific document layouts. Learn more in [Define document layouts for customers and vendors](ui-define-customer-vendor-document-layouts.md) for information about document layouts.
 
 ## Related information  
 
-[Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
-[Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
-[Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
-[Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
-[Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
-[Service Management](service-service.md)  
-
+- [Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
+- [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
+- [Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
+- [Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+- [Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
+- [Service Management](service-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

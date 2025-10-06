@@ -55,7 +55,7 @@ You can overwrite this value.
 
 The vendor is now registered, and the vendor card is ready to use on purchase documents.
 
-If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. Learn more in the [Save the vendor card as a template](#to-save-the-vendor-card-as-a-template) section.
+If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. Learn more in the [Save the vendor card as a template](#save-the-vendor-card-as-a-template) section.
 
 ### Deleting and editing vendor information
 

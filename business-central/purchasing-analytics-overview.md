@@ -41,10 +41,10 @@ People in different roles have different needs when it comes to data, and they u
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-| Role | Data aggregation | Typical ways to consume data |  |
+| Role | Data aggregation | Typical ways to consume data |
 |--|--|--|
 | COO / CSO / CFO / CEO | Performance data | KPIs <br> Dashboards <br> Financial reports |
-| Purchasing Manager | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis |  |
+| Purchasing Manager | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis |
 | Purchasing Officer / Purchasing Agent | Detailed data | Built-in operational reports <br> On-screen task data |
 
 ## Using Power BI to monitor purchasing KPIs

@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37004_Primary
-ms.date: 10/26/2024
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Sales by Item (Power BI Report)
@@ -25,7 +26,7 @@ Leadership and management teams use the report to track item sales. Sales teams 
 
 CEOs might want a list of the top-selling items by revenue, and be able to compare the list with how much each item contributed to the company's overall revenue. You can use this information to make strategic decisions about which items to focus on and how to allocate resources.  
 
-Sales managers can identify which items aren't performing and implement sales promotions for them. You can also use this information to adjust inventory levels of different items, procure extra stock to assist with demand, or reduce stock levels for slower periods.  
+Sales managers can identify items that aren't performing and implement sales promotions for them. You can also use this information to adjust inventory levels of different items, procure extra stock to assist with demand, or reduce stock levels for slower periods.  
 
 Salespeople can tailor their pitch based on the sales performance for specific items. The report lets you identify high-performing items. You can also use this report to gain insights on lower-performing items so salespeople can spot opportunities to up-sell or cross-sell.
 
@@ -33,25 +34,27 @@ Salespeople can tailor their pitch based on the sales performance for specific i
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
-- [**Cost Amount**](sales-powerbi-sales-kpis.md#cost-amount)
-- [**Cost Amount Non-Inv**](sales-powerbi-sales-kpis.md#cost-amount-non-inv)
-- [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Sales Quantity](sales-powerbi-sales-kpis.md#sales-quantity)
+- [Adjusted Cost (LCY)](sales-powerbi-sales-kpis.md#adjusted-cost-lcy)
+- [Cost Amount Non-Inv](sales-powerbi-sales-kpis.md#cost-amount-non-inv)
+- [Adjusted Profit (LCY)](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [Adjusted Profit Margin](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+The report uses data from the following tables:
 
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 - Item
 - Item Category
-- Value Entry
-- Sales Line
 
 ## Try the report
 

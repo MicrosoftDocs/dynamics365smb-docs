@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37119_Primary 
-ms.date: 9/30/2025
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Sales by Project (Power BI Report)
@@ -23,13 +24,12 @@ The **Sales by Project** report provides a high-level overview of sales performa
 
 This report helps sales and project management teams to track the sales amounts that each project generates and their contribution to the overall revenue.
 
-Project managers can track the sales impact of projects across key factors, including status, type and customer. By reviewing the project sales by type or by customer, this report provides a high-level overview of project sales performance. These metrics can be used to optimize planning and sales expectations for future project proposals. For more detailed analysis of the underlying project ledger entries, the cross-report drillthrough can be used to navigate to the dedicated 
-[Power BI Projects app](projects-powerbi-app.md).
+Project managers can track the sales impact of projects across key factors, including status, type and customer. By reviewing the project sales by type or by customer, this report provides a high-level overview of project sales performance. You can use these metrics to optimize planning and sales expectations for future project proposals. For more detailed analysis of the underlying project ledger entries, use the cross-report drillthrough to go to the dedicated [Power BI Projects app](projects-powerbi-app.md).
 
 > [!NOTE]
-> To enable cross-report drillthrough, ensure the source and target reports are published to the same workspace. Also note, the back button will only work for navigation between pages within the same report.
+> To enable cross-report drillthrough, you must publish the source and target reports to the same workspace. Also, the Back button only works for pages in the same report.
 
-Sales managers can use this report to analyze ongoing and completed projects and identify key projects. Using the report, you may notice an emerging trend in recent projects contributing to increased sales. In response, you conduct dedicated training to implement new sales strategies to include project offerings, enhancing sales pitches to customers.
+Sales managers can use this report to analyze ongoing and completed projects and identify key projects. For example, you might notice an emerging trend in recent projects that contributes to increased sales. In response, you conduct dedicated training to implement new sales strategies to include project offerings, enhancing sales pitches to customers.
 
 Salespeople can monitor the contribution of projects to sales performance and review project sales for individual customers. For example, you identify a recently completed project was highly profitable. Using this information, you initiate new opportunities and engage with customers in similar demographics to empower future sales.
 
@@ -37,18 +37,18 @@ Salespeople can monitor the contribution of projects to sales performance and re
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales LCY**](sales-powerbi-sales-kpis.md#sales-lcy)
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
-- [**Adjusted Profit (LCY)**](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
-- [**Adjusted Profit Margin**](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
+- [Sales LCY](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Sales Quantity](sales-powerbi-sales-kpis.md#sales-quantity)
+- [Adjusted Profit (LCY)](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [Adjusted Profit Margin](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+The report uses data from the following tables:
 
 - Value Entries
 - Sales Invoice Lines

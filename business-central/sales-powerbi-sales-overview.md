@@ -1,14 +1,15 @@
 ---
 title: Sales Overview (Power BI report)
-description: The *Sales Overview* report provides a high-level summary of your organization's sales activities.
+description: The Sales Overview report provides a high-level summary of your organization's sales activities.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 36998_Primary
-ms.date: 10/26/2024
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 
@@ -50,24 +51,24 @@ It shows the monetary values for each KPI.
 
 The report includes the following KPIs and measures:
 
-- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
-- [**Adjusted Cost (LCY)**](sales-powerbi-sales-kpis.md#adjusted-cost-lcy)
-- [**Adjusted Profit (LCY)**](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
-- [**Adjusted Profit Margin**](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
-- [**Outstanding Invoices (LCY)**](sales-powerbi-sales-kpis.md#outstanding-invoices-lcy)
-- [**No. of Outstanding Sales Orders**](sales-powerbi-sales-kpis.md#no-of-outstanding-sales-orders)
-- [**No. of Shipped Not Invoiced Orders**](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales-orders)
-- [**Outstanding Orders (LCY)**](sales-powerbi-sales-kpis.md#outstanding-orders-lcy)
-- [**Shipped Not Invoiced (LCY)**](sales-powerbi-sales-kpis.md#shipped-not-invoiced-lcy)
-- [**No. of Outstanding Invoices**](sales-powerbi-sales-kpis.md#no-of-outstanding-invoices)
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Adjusted Cost (LCY)](sales-powerbi-sales-kpis.md#adjusted-cost-lcy)
+- [Adjusted Profit (LCY)](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [Adjusted Profit Margin](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
+- [Outstanding Invoices (LCY)](sales-powerbi-sales-kpis.md#outstanding-invoices-lcy)
+- [No. of Outstanding Sales Orders](sales-powerbi-sales-kpis.md#no-of-outstanding-sales-orders)
+- [No. of Shipped Not Invoiced Orders](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales-orders)
+- [Outstanding Orders (LCY)](sales-powerbi-sales-kpis.md#outstanding-orders-lcy)
+- [Shipped Not Invoiced (LCY)](sales-powerbi-sales-kpis.md#shipped-not-invoiced-lcy)
+- [No. of Outstanding Invoices](sales-powerbi-sales-kpis.md#no-of-outstanding-invoices)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+The report uses data from the following tables:
 
 - Sales Line
 - Value Entry

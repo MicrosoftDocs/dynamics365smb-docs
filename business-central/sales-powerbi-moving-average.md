@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37000_Primary
-ms.date: 10/26/2024
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Moving Average (Power BI Report)
@@ -21,7 +22,7 @@ The **Moving Average** report gives a clear picture of your organization's avera
 
 ## Use the report
 
-The **Moving Average** report is meant to help higher level employees identify key trends and make changes based on average sales.
+The **Moving Average** report can help identify key trends and so you can make changes based on average sales.
 
 Sales executives need to track the moving average of key sales metrics over a specific period. You can use this report to find recent performance trends and make strategic decisions for the short-term future.
 
@@ -31,16 +32,16 @@ Leaders of sales departments typically want to identify which items are selling 
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
-- [**Sales Amount Average 30D**](sales-powerbi-sales-kpis.md#sales-amount-avg-30d-fiscal)
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Sales Amount Average 30D](sales-powerbi-sales-kpis.md#sales-amount-avg-30d-fiscal)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+The report uses data from the following tables:
 
 - Sales Value Entries
 - Sales Invoice Lines

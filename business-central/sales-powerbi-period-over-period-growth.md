@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37002_Primary
-ms.date: 10/26/2024
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Period-Over-Period Growth (Power BI Report)
@@ -35,13 +36,13 @@ For sales managers who oversee daily sales activities, the report can help you i
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
-- [**Previous Period**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
-- [**Period-over-Period Growth Amount**](sales-powerbi-sales-kpis.md#sales-amount-pop-fiscal)
-- [**Period-over-Period Growth %**](sales-powerbi-sales-kpis.md#sales-amount-pop--fiscal)
-- [**Sales Amount PP (Fiscal Year)**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Previous Period](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
+- [Period-over-Period Growth Amount](sales-powerbi-sales-kpis.md#sales-amount-pop-fiscal)
+- [Period-over-Period Growth %](sales-powerbi-sales-kpis.md#sales-amount-pop--fiscal)
+- [Sales Amount PP (Fiscal Year)](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

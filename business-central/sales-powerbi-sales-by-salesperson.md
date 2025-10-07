@@ -4,11 +4,12 @@ description: The Sales by Salesperson report provides an overview of sales perfo
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37006_Primary
-ms.date: 10/26/2024
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Sales by Salesperson (Power BI Report)
@@ -35,19 +36,19 @@ For example, if you notice that a particular customer contributes a significant 
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
-- [**Adjusted Profit (LCY)**](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
-- [**Adjusted Profit Margin**](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
-- [**Estimated Value**](sales-powerbi-sales-kpis.md#estimated-value)
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Sales Quantity](sales-powerbi-sales-kpis.md#sales-quantity)
+- [Adjusted Profit (LCY)](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [Adjusted Profit Margin](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
+- [Estimated Value](sales-powerbi-sales-kpis.md#estimated-value)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+The report uses data from the following tables:
 
 - Customer
 - Salesperson/Purchaser

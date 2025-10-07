@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 08/26/2025
+ms.date: 10/04/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
@@ -118,9 +118,11 @@ Your general ledger is set up to use your local currency (LCY), but you can set 
 
 Financial reports are based on G/L entries. To display report data in the additional reporting currency, select the **Show Amounts in Add. Reporting Currency** checkbox on the **Options** FastTab for the relevant report.
 
+> [!TIP]
+> You can report on both LCY and ACY in the same report. To learn more, go to [Create reports that include both local currency and additional currency](bi-column-definitions.md#create-reports-that-include-both-local-currency-and-additional-currency).
+
 > [!NOTE]
-> The **Show Amounts in Add. Reporting Currency** checkbox is only available if you set up an additional reporting currency (ACY).
-To learn more, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
+> The **Show Amounts in Add. Reporting Currency** checkbox is only available if you set up an ACY. To learn more, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ### Create or edit a row definition
 

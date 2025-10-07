@@ -42,7 +42,7 @@ The Advance Payments application works with foreign currencies (FCY). However, y
 4. Post the invoice.
 5. If the exchange rate differs between the payment and the final invoice, a new entry of type **VAT Rate** is created in the advance entries to align the total advance amount in CZK and to adjust the base and VAT amounts in CZK.
 
-![Linking the advance with the payment](Media/adv-payments-foreign-curr-connect.png)
+:::image type="content" source="media/adv-payments-foreign-curr-connect.png" alt-text="Screenshot of linking the advance with the payment.":::
 
 ## Revaluation of advances at year-end
 
@@ -56,10 +56,10 @@ Using the year-end advance revaluation function isn't mandatory. If you don't us
 
 If **VAT Adjustment** entries exist, they're used when posting the final invoices linked to the advance.
 
-![Year-end revaluation of advances](Media/adv-payments-foreign-curr-end.png)
+:::image type="content" source="media/adv-payments-foreign-curr-end.png" alt-text="Screenshot of year-end revaluation of advances.":::
 
 ## Related information
 
-[Advance Payments for Czech Republic (Extension)](ui-extensions-advance-payments-localization-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+- [Advance Payments for Czech Republic (Extension)](ui-extensions-advance-payments-localization-cz.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)

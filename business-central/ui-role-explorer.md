@@ -1,12 +1,12 @@
 ---
-title: Exploring and navigating pages and reports per role
+title: Finding Pages and Reports with the Role Explorer
 description: You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.
 author: jswymer
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: role explorer, find features, navigate
 ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
-ms.date: 03/10/2025
+ms.date: 09/30/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -14,9 +14,13 @@ ms.reviewer: jswymer
 
 # Finding pages and reports with the role explorer
 
+
+By using preview, you agree to follow by the terms of use.
+By using preview, you agree to the terms of use.
+
 You can get an overview of the pages and reports that make up the features that people your business role often use. You can also explore what's available for other roles. This article refers to the overview of pages and reports as the *role explorer*.
 
-In addition to the overview, the role explorer provides actions that open pages or reports, for example, so you can explore the information that the page or report includes. You can also use the role explorer as a way to get around in [!INCLUDE[prod_short](includes/prod_short.md)].
+In addition to the overview, the role explorer lets you open pages or reports to explore the information they include. You can also use the role explorer as a way to get around in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -24,27 +28,40 @@ In addition to the overview, the role explorer provides actions that open pages 
 
 You can open the role explorer from role centers, list pages, and the **Tell Me** window.
 
-- On your role center or any list page, choose the ![Menu button.](media/ui_menu_button.png "Menu button") button, or select <kbd>Shift</kbd>+<kbd>F12</kbd>.
-- In the **Tell Me** window, choose the **exploring pages** action.
+- On your role center or any list page, select the ![Menu button.](media/ui_menu_button.png "Menu button") button or select <kbd>Shift</kbd>+<kbd>F12</kbd>.
+- In the **Tell Me** window, select the **exploring pages** action.
 
 ## Open the role explorer filtered to show reports
 
 You can open the role explorer in a filtered view that only shows reports:
 
-- On your role center or any list page, choose the **All Reports** action.
-- In the **Tell Me** window, choose the **exploring reports** action.
+- On your role center or any list page, select the **All Reports** action.
+- In the **Tell Me** window, select the **exploring reports** action.
 
 ## Open pages and reports
 
 The actions that open pages or reports are organized under nodes that are named after application areas. You can collapse or expand each node individually, or all nodes together.
 
-- To expand/collapse an individual top-level or subnode, choose the node.
-- To expand/collapse all top-level nodes on the page, but leave the subnodes as they are, choose **...** at the top, then choose **Expand** or **Collapse**.
-- To expand/collapse all top-levels node and all subnodes under it, choose **...** at the top, then choose the **Expand All** or **Collapse All** action.
+- To expand/collapse an individual top-level or subnode, select the node.
+- To expand/collapse all top-level nodes on the page, but leave the subnodes as they are, select **...** at the top, then select **Expand** or **Collapse**.
+- To expand/collapse all top-levels node and all subnodes under it, select **...** at the top, then select the **Expand All** or **Collapse All** action.
 
 ## Search for pages and reports
 
-To quickly locate a page or report, select **Find**, and then enter a word or phrase for what you want to find. Role explorer highlights any matching text. If the page or report is hidden in a collapsed node, the collapsed node is marked with a dot.
+To quickly locate a page or report, select the **Find** box near the top of the explorer, and then enter a word or phrase for what you want to find. Role explorer highlights any matching text. If the page or report is hidden in a collapsed node, the collapsed node is marked with a dot.
+
+### Try advanced (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+If you don't find a match or aren't sure of the exact name of what you're looking for, select **Try Advanced** (preview) under the **Find** box to open the **Advanced** tab in **Tell Me** window and get more results. The **Advanced** tab uses AI-powered semantic search, so it finds results based on the meaning of your search instead of just matching exact words. You can type short descriptive phrases or full sentences in plain, everyday language. For example, you can type in natural language like "report that shows my best customers" to find the **Customer - Top 10** report.
+
+Learn more about advanced Tell Me in [Finding pages and information with Tell Me](ui-search.md#get-started-with-tell-me).
+
+> [!NOTE]
+> **Advanced** is available in Business Central online only, not on-premises, and only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 ## Explore other roles
 
@@ -87,11 +104,11 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 
 The actions that open pages or reports are organized under nodes named after the features or application areas. You can collapse or expand each node individually, and you can collapse or expand all nodes.
 
-- To expand or collapse a top-level or subnode, choose the node.
-- To expand or collapse all top-level nodes on the page, choose the **Expand** or **Collapse** action.
+- To expand or collapse a top-level or subnode, select the node.
+- To expand or collapse all top-level nodes on the page, select the **Expand** or **Collapse** action.
 - To expand or collapse all top-level nodes and their subnodes:
-  - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you choose the **Expand** or **Collapse** action.
-  - Choose **...**, and then choose the **Expand All** or **Collapse All** action.
+  - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you select the **Expand** or **Collapse** action.
+  - select **...**, and then select the **Expand All** or **Collapse All** action.
 
 ## Learn more about a page or report
 
@@ -105,11 +122,12 @@ Teaching tips are available for some pages and reports. When that's the case, wh
 
 [!INCLUDE[2025_releasewave1](includes/2025_releasewave1.md)]
 
-You can open the pages or reports in a new window while keeping the role explorer open. To explore an element, choose the **Open in a new window** icon to the left of the element's name. If the page or report has a teaching tip, the tip contains the **Open in a new window** icon.
+You can open the pages or reports in a new window while keeping the role explorer open. To explore an element, select the **Open in a new window** icon to the left of the element's name. If the page or report has a teaching tip, the tip contains the **Open in a new window** icon.
 
 ## Related information
 
 [Finding Pages and Information with Tell Me](ui-search.md)  
+[Responsible aI FAQ for advanced Tell Me](faqs-advanced-tell-me.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

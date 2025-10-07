@@ -1,6 +1,6 @@
 ---
 title: Working with Power BI reports in Business Central
-description: Get insight, business intelligence, and KPIs from your Business Central data with Power BI using [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)].
+description: Get insight, business intelligence, and KPIs from your Business Central data with Power BI.
 author: jswymer
 ms.topic: get-started
 ms.devlang: al

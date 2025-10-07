@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/30/2025
+ms.date: 10/07/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -15,11 +15,11 @@ ms.collection:
 ---
 # Analyze data in lists with Copilot
 
-This article explains how to use *analysis assist* to help you analyze data on list pages.
+Copilot makes it even easier to use [analysis mode](analysis-mode.md) on list pages in Business Central *analysis assist*. 
 
 ## About analysis assist
 
-Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, create an analysis tab where you transform the data to display the desired aggregations and summarizations—for example, arranging fields in rows and columns, specify filters, sorting columns, and pivot on fields.
+Analysis assist is a Copilot for the analysis mode on list pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, create an analysis tab where you transform the data to display the desired aggregations and summarizations—for example, arranging fields in rows and columns, specify filters, sorting columns, and pivot on fields.
 
 With analysis assist, instead of doing these tasks manually, you can express the structure you want in natural language and get a suggested layout as a starting point. Copilot can also help by adding fields from related tables (for example, showing items together with the purchasing vendor address). It can translate instructions like "sort on quantity from smallest to largest" or "show average cost per category" into the corresponding rows, columns, filters, and aggregations.
 
@@ -116,11 +116,11 @@ When Copilot determines that a hidden field is useful for your analysis tab, the
 > [!NOTE]
 > If an administrator turned off personalization for your profile (role), Copilot isn't able to use hidden fields from the list.
 
-Copilot can't reach fields that are on the table but not on the page, and it can't use fields from other pages.
+Copilot can only access fields that are visible or hidden on the current page or that appear on related pages. It can't access fields that exist only on the source table.
 
 ## Using tabs created by Copilot in preview
 
-If you used the **Analysis Assist** feature while in preview, you might have asked Copilot to create analysis tabs that include hidden fields from the list. These tabs are no longer compatible. When you next open one of these analysis tabs, a message indicates which hidden fields have been removed. You can add these fields again manually, or ask Copilot to create a new tab for you.
+If you used the **Analysis Assist** feature while in preview, you might have asked Copilot to create analysis tabs that include hidden fields from the list. These tabs are no longer compatible. When you next open one of these analysis tabs, a message indicates which hidden fields were removed. You can add these fields again manually, or ask Copilot to create a new tab for you.
 
 ## Related information
 

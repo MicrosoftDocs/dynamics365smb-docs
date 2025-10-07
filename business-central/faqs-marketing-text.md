@@ -63,7 +63,6 @@ Microsoft has various systems in place to ensure Copilot capabilities remain ope
 
     ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.svg)
 
-- The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI's content management systems. Learn more about our content management and filtering at [].](/azure/cognitive-services/openai/concepts/content-filter). Your company data isn't used to train AI models in the Azure OpenAI service.
 - The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI's content management systems. Learn more about our content management and filtering at [Content filtering](/azure/cognitive-services/openai/concepts/content-filter). Your company data isn't used to train AI models in the Azure OpenAI service.
 
    Authorized Microsoft employees can access prompt and completion data that has triggered our automated systems for the purposes of investigating and verifying potential abuse; for customers using [!INCLUDE[prod_short](includes/prod_short.md)] in the European Union, the authorized Microsoft employees are located in the European Union. This data may be used to improve our content management systems. In the event of a confirmed policy violation, we may ask you to take immediate action to remediate the issue and to prevent further abuse. Failure to address the issue may result in suspension or termination of Azure OpenAI resource access.
@@ -101,8 +100,6 @@ Learn more in [Improve and tailor text suggestions](item-marketing-text.md#impro
 
 > [!TIP]
 > Always review the suggestions for accuracy before saving them and publishing them for public consumption.
-
-
 
 ## Related information
 

@@ -87,8 +87,6 @@ You can report poor or unexpected results through standard feedback and support 
 
 If prerequisites (like activation) aren’t met, the **Advanced** tab doesn't appear.
 
-[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
-
 ## What does Advanced Tell Me offer for security and compliance?
 
 - Runs under the signed-in user’s identity and respects existing permissions.
@@ -113,6 +111,8 @@ Use normal support or preview feedback channels to report:
 - Ranking issues (correct item too low)
 
 Include the exact query and the object you expected.
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

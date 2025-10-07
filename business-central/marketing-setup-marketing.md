@@ -46,7 +46,7 @@ Learn more in [Automatically Record Interactions with Contacts](marketing-auto-r
 
 In order to synchronize the contact card with the customer card, the vendor card, and the bank account card, you must select a business relation code for customers, vendors, and bank accounts. For example, you can only link a contact with an existing customer if you selected a business relation code for customers on the **Marketing Setup** page.
 
-Learn more in [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).  
+Learn more in [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronize-contacts-with-customers-vendors-employees-and-bank-accounts).  
 
 ## Assign a number series to contacts and opportunities
 

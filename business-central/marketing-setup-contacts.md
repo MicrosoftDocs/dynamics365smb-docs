@@ -163,7 +163,7 @@ The settings for inheritance overwrite the default values you set up. For exampl
 
 To synchronize the contact card with a linked customer, vendor, or bank account, fill in the relevant field in the **Bus. Relation Code for** section on the **Interactions** FastTab on the **Marketing Setup** page.  
 
-Learn more in [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Learn more in [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronize-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## Search for duplicate contacts
 

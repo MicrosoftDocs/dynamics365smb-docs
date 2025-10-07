@@ -35,7 +35,7 @@ When you convert a contact to a customer, vendor, or employee, for example, the 
 
 ## Create a contact from a customer, vendor, or bank account
 
-If you have existing customers, vendors, and bank accounts you want to create contact cards for, you can use the **Create Contacts from** batch jobs. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, or bank account information. Learn more at [Synchronize Contacts with Customers, Vendors, Employees, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+If you have existing customers, vendors, and bank accounts you want to create contact cards for, you can use the **Create Contacts from** batch jobs. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, or bank account information. Learn more at [Synchronize Contacts with Customers, Vendors, Employees, and Bank Accounts](marketing-create-contact-companies.md#synchronize-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Before you can create contacts based on existing data, you must specify a business relation code for customers, vendors, or bank accounts on the **Interactions** FastTab on the **Marketing Setup** page. Learn more at [Set up Contacts](marketing-setup-contacts.md).
@@ -54,7 +54,7 @@ The next contact numbers in the number series are assigned to the new contacts. 
 
 ## Create a customer, vendor, employee, or bank account from a contact
 
-If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronize Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronize Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronize-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Before you can create customers, vendors, employees, or bank accounts from contacts, you must specify a business relation code on the **Marketing Setup** page on the **Interactions** FastTab. Learn more at [Set up Contacts](marketing-setup-contacts.md).

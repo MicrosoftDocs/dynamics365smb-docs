@@ -98,7 +98,7 @@ Users, such as accountants or others who receive e-invoices, should always revie
 
 Administrators make the overall decision on whether to use Copilot in [!INCLUDE [prod_short](includes/prod_short.md)]. If they enable Copilot, administrators should ensure they grant access to the appropriate.
 
-> [NOTE!]
+> [!NOTE]
 > - We don't support the feature for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or in private clouds.
 > - Partners can't extend this feature. Partner developers can't modify, replace, or extend this feature. 
 

@@ -79,13 +79,6 @@ You provide feedback by using the **like** (thumbs up) or **dislike** (thumbs do
 - **Certain industry, product, and subject limitations**
 
   Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality or limited output from Copilot due to the sensitive nature of that domain.
-
-## What data does Autofill collect and how is it used?
-
-Business Central collects the minimum data required for Microsoft to offer the service. 
-
-- Microsoft collects anonymized information about decisions made by Copilot and your choice to keep or discard a suggestion. It doesn't collect suggested field values or other company data used by Copilot to provide suggestions.
-- Microsoft doesn't use your business data to train the foundational models for the benefit of others. Learn more in [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
   
 ## How does Autofill treat data residency?
 
@@ -104,6 +97,8 @@ The Autofill feature relies on Azure OpenAI Service and Bing Search to provide s
 When Autofill is used on fields of public domain, it searches the web powered by Bing Search. To ensure security and safety, [!INCLUDE[prod_short](includes/prod_short.md)] applies various mechanisms such as content filtering and malicious site detection to reduce risk from these websites.
 
 Learn more about how Copilot searches the web in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

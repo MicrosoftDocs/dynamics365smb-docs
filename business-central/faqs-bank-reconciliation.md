@@ -87,6 +87,8 @@ No. Use of Copilot is optional. [!INCLUDE[prod_short](includes/prod_short.md)] o
 
 Each time that Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window by using the like (thumbs up) and dislike (thumbs down) controls. Your feedback remains anonymous, and we use this data to improve the quality of the service.
 
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
+
 ## Related information
 
 [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  

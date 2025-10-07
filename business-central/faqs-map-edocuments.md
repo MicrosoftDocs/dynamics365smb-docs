@@ -110,6 +110,8 @@ No, whether you use Copilot is up to you. [!INCLUDE [prod_short](includes/prod_s
 
 Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the **Like** and **Dislike** controls. Your feedback remains anonymous, and we use this data to improve the quality of the service.  
 
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
+
 ## Related information
 
 [E-Documents overview](finance-edocuments-overview.md)  

@@ -87,11 +87,7 @@ You can report poor or unexpected results through standard feedback and support 
 
 If prerequisites (like activation) aren’t met, the **Advanced** tab doesn't appear.
 
-## What data does Advanced Tell Me use? Does it train on my data?
-
-It works on product metadata already present in the environment (captions, descriptions, search terms). Query text and interaction signals might be logged for service quality and safety. Microsoft doesn't use your company business data to train foundational AI models for the benefit of others.
-
-Avoid entering sensitive data (passwords, secrets) into search queries.
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## What does Advanced Tell Me offer for security and compliance?
 

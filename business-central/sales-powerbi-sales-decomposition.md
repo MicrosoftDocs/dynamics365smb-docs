@@ -32,8 +32,8 @@ As the regional sales manager, the report helps you monitor contributions at ind
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [Sales Amount](sales-powerbi-sales-kpis.md#sales-amount)
-- [Sales Quantity](sales-powerbi-sales-kpis.md#sales-quantity)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
+- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -43,12 +43,15 @@ The report includes the following key performance indicators (KPIs) and measures
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Items
-- Locations
-- Value Entries
-- Sales Lines
+- Item
+- Location
+- Customer
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 - Item Categories
-- Salespersons/Purchasers
+- Salesperson/Purchaser
 
 ## Try the report
 

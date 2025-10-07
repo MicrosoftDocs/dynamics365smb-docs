@@ -1424,7 +1424,6 @@ ms.service: dynamics-365-business-central
 ##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
 ##### [General Production Posting Group in Stock keeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
 ##### [Skip Update for Stock keeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
-##### [Nonstock Item Numbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 ##### [Use modern search in CZ applications](LocalFunctionality/Czech/use-modern-search-cz.md)
 ##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 

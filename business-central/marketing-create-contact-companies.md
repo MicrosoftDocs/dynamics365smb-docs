@@ -15,8 +15,8 @@ ms.custom: bap-template
 
 When you develop a business relationship with someone in another company, add them as a contact in [!INCLUDE[prod_short](includes/prod_short.md)]. Then, add any information about them, or their company that could be useful in future communications. You can create the following types of contacts on the **Contact Card** page:
 
-* **Person** – Use this when you had direct contact with someone and have their contact details.
-* **Company** – Use this for a contact that isn't an individual person but rather an entity such as a contractor or a bank.
+* **Person** – Use this type when you had direct contact with someone and have their contact details.
+* **Company** – Use this type for a contact that isn't an individual person, but rather an entity such as a contractor or a bank.
 
 The information that's relevant for each type of contact differs, so the available fields and actions are different. For example, you can only assign job responsibilities to a person, and an industry group to a company.
 
@@ -50,7 +50,7 @@ If you have existing customers, vendors, and bank accounts you want to create co
 The next contact numbers in the number series are assigned to the new contacts. The business relation code specified on the **Marketing Setup** page is assigned to the newly created contacts.
 
 > [!TIP]  
-> You can also do this the other way around, namely by creating a customer, vendor, employee, or bank account from a contact. Learn more at [Create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#create-a-customer-vendor-employee-or-bank-account-from-a-contact) section.
+> You can also do this process the other way around, namely by creating a customer, vendor, employee, or bank account from a contact. Learn more at [Create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
 ## Create a customer, vendor, employee, or bank account from a contact
 
@@ -66,7 +66,7 @@ If you have a customer, vendor, employee, or bank account for the company you wa
 3. Choose the **Create as** action, then choose either **Customer**, **Vendor**, **Bank**, or **Employee**.
 4. Choose **OK**.
 
-The contact information is transferred from the contact card to a new customer, vendor, employee, or bank account card. You may want to add specific information to each of the cards, such as invoicing and payment details. For an example, see [Register New Customers](sales-how-register-new-customers.md).
+The contact information is transferred from the contact card to a new customer, vendor, employee, or bank account card. You might want to add specific information to each of the cards, such as invoicing and payment details. For an example, see [Register New Customers](sales-how-register-new-customers.md).
 
 ## Link a contact to an existing customer, vendor, employee, or bank account
 
@@ -80,7 +80,7 @@ If you have a contact and either a customer, vendor, employee, or bank account f
 
 ## Remove a link between a contact and an existing customer, vendor, employee, or bank account
 
-If you linked a contact with a customer, vendor, employee, or bank account that you didn't intend to, remove the link between the entities so the data no longer synchronizes.
+If you linked a contact with a customer, vendor, employee, or bank account that you didn't intend to, remove the link between the entities.
 
 1. Open the contact that has the wrong link.  
 2. Choose the **Business Relations** action.  
@@ -95,14 +95,14 @@ If you linked a contact with a customer, vendor, employee, or bank account that 
 If some of your contacts are also customers, vendors, employees, or bank accounts, you can synchronize them with data from the contact and gain the following benefits:
 
 * You only have to update information in one place. So, if you modify the phone number on the contact, the phone number for the customer, vendor, employee, or bank account is automatically updated.
-* If you have specified a number series for contacts, when you create a customer, vendor, employee, or bank account card, a contact is automatically created.
+* If you use a number series for contacts, when you create a customer, vendor, employee, or bank account, a contact is automatically created.
 * You can create sales quotes and orders, and purchase quotes and orders, from the contact.
 * You can record your interactions, such as printing orders, blanket orders, creating sales service orders, sending e-mails, and so on.
 * If you delete a contact linked to a customer, vendor, employee, or bank account, only the contact is removed. The customer, vendor, employee, or bank account remains.
 * Likewise, if you delete a customer, vendor, employee, or bank account that is linked to a contact, the contact remains.
 
 > [!NOTE]  
-> Certain details, such as invoicing and posting details, aren't available for contacts. When you create contacts as customers, vendors, employees, or bank accounts, you may want to add that information manually.
+> Certain details, such as invoicing and posting details, aren't available for contacts. When you create contacts as customers, vendors, employees, or bank accounts, you might want to add that information manually.
 
 There are three ways to enable data synchronization between contacts and customers, vendors, employees, or bank accounts:
 
@@ -117,9 +117,9 @@ There are three ways to enable data synchronization between contacts and custome
 
 ## Related information
 
-- [Managing Contacts](marketing-contacts.md)  
-- [Setting Up Contacts](marketing-setup-contacts.md)  
-- [Use Online Maps to Find Locations and Directions](across-online-maps.md)  
-- [Work with Business Central](ui-work-product.md)  
+[Managing Contacts](marketing-contacts.md)  
+[Setting Up Contacts](marketing-setup-contacts.md)  
+[Use Online Maps to Find Locations and Directions](across-online-maps.md)  
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

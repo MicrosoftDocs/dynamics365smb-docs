@@ -25,7 +25,7 @@ Before you create interactions though, you must set up interaction templates. Le
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> If you need to stop before you've finished the interaction, you can choose **Cancel** and then specify whether you want to save your settings so you can continue later. Learn more at [Finish setting up a postponed interaction](#finish-setting-up-a-postponed-interaction) for information about postponed interactions.
+> If you need to stop before you finish the interaction, you can choose **Cancel** and then specify whether you want to save your settings so you can continue later. Learn more at [Finish setting up a postponed interaction](#finish-setting-up-a-postponed-interaction).
 
 ## Create an interaction on a segment
 
@@ -34,7 +34,7 @@ Before you create interactions though, you must set up interaction templates. Le
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> After you assign an interaction to a segment, there are several other actions you can take on the **Segment** page:
+> There are more things you can do on the **Segment** page:
 >
 > * Personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines.  
 > * Log the segment and interactions by choosing the **Log** action to open the **Log Segment** page.
@@ -49,9 +49,9 @@ An interaction is recorded for each contact within the segment in the **Interact
 
 ## Related information
 
-- [Recording Interactions](marketing-interactions.md)  
-- [Managing Contacts](marketing-contacts.md)  
-- [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-- [Work with Business Central](ui-work-product.md)
+[Recording Interactions](marketing-interactions.md)  
+[Managing Contacts](marketing-contacts.md)  
+[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

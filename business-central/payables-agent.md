@@ -64,6 +64,10 @@ The agent uses an internal email dispatcher running as a background task to cont
 
 Each PDF document found in an email becomes an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** is created for each of them. A distinct agent task processes each entry.
 
+### Use a shared mailbox to curate invoices and minimize noise
+
+The agent will process any email that is sent to the monitored mailbox and it is recommended you use a shared mailbox that you keep as an internal-only mailbox, and do not expose this mailbox to your vendors. The choice is yours, but the benefits of not exposing it to vendors are that your employees get to be the first curators of invoices and potential fraudulent invoices, while also minimizing noise for the agent to address. We recommend you set up a shared mailbox in Microsoft 365, and add your accounts payable team members to that mailbox, and use that as the mailbox monitored by the Payables Agent. For more information, see [Create a shared mailbox](https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox?view=o365-worldwide).
+
 > [!NOTE]
 > Use a designated mailbox for receiving vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 >
@@ -72,6 +76,7 @@ Each PDF document found in an email becomes an entry in **Inbound E-Documents**.
 > 
 > - The monitored mailbox should only be attended from within Business Central
 > - Users shouldn't access the monitored mailbox from Outlook.
+> - Use a shared mailbox if possible.
 > 
 > As a consequence, emails with no PDFs show up as agent tasks and need agent overseers to decide how to handle them. PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page and then remove them. You can also remove unsupported files received in this mailbox this way.
 

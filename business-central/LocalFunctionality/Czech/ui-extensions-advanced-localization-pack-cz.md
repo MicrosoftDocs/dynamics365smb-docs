@@ -4,9 +4,9 @@ description: Learn about the features and functionality provided by the Advanced
 author: v-pejano
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 06/06/2025
+ms.date: 10/08/2025
 ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.author: v-jiurxo
 ---
 
 # Advanced localization pack for Czech (extension) in the Czech version
@@ -17,16 +17,16 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 - **Finance**
   - [General Ledger Entries Application](general-ledger-entries-application.md) **Available Now**
+  - [Automatic creation and update of dimensions](how-to-setup-automatic-creation-and-update-dimensions.md) **Available Now**
 
 - **Inventory**
   - [Posting groups in transfer orders](how-to-use-posting-groups-in-transfer-orders.md) **Available Now**
-
-- **Small regulatory features and best practices**
-  - [Mandatory returning of exact costs in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Available Now**
-  - [Automatic creation and update of dimensions](how-to-setup-automatic-creation-and-update-dimensions.md) **Available Now**
   - [Additional fields on item ledger entries and value entries](how-to-use-add-fields-item-entries.md) **Available Now**
   - [Gen.Prod.Posting Group from SKU](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**
   - [Skip Update SKU on Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
+  
+- **Manufacturing**
+  - [Mandatory returning of exact costs in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Available Now**
   
 ## Related information
 

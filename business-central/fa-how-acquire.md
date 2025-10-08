@@ -66,6 +66,32 @@ The following steps describe how to add a fixed asset from a purchase order. The
 5. In the **No.** field, either choose an existing fixed asset to add an expense, or choose **New** to add a new asset.
 6. After you enter the information for the new asset and the purchase order, choose **Post**.
 
+### Create multiple fixed asset cards with a purchase order or invoice
+
+You can create multiple fixed asset cards automatically during purchase invoice posting. For example, if your company purchases 200 computers of the same kind from the same vendor, you don't have to manually create a fixed asset card for each computer; the fixed asset cards can be created automatically.  
+
+#### Create multiple fixed asset cards  
+
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
+1. Choose the **Lists** action, and then choose the **Fixed Assets** action.  
+1. On the **Fixed Asset List** page, choose the **New** action.  
+1. On the **Fixed Asset Card** page, fill in the relevant fields.  
+
+   Use the value of the **No.** field when you generate the remaining fixed assets later.  
+
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1. Create a new purchase order, or open the existing purchase order.  
+1. Expand the **Lines** FastTab.  
+1. Fill in the fields as described in the following table.  
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Type**|Select **Fixed Asset**.|  
+    |**No.**|Specify the fixed asset number.<br><br/> **NOTE:** This should be the same fixed asset number that you entered in the **Fixed Asset** list.|  
+    |**No. of Fixed Asset Cards**|Specify the relevant number of duplicates for your fixed asset.<br><br/> **NOTE:** During invoice posting, duplicate fixed asset cards are automatically generated and added to the fixed asset list. The only difference between the duplicate fixed asset cards is the number assigned to each fixed asset.|  
+
+1. Choose the **OK** button. 
+
 ## Acquire a fixed asset by using a fixed asset G/L journal
 
 The following procedure describes how to acquire by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. To learn more, go to [Acquire a fixed asset by using a fixed asset G/L journal](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).

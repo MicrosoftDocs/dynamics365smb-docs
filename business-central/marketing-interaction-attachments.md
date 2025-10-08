@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082
+ms.search.forms: 5082,
 ms.date: 10/03/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -14,10 +14,10 @@ ms.service: dynamics-365-business-central
 
 # Attachments for interactions
 
-The files that are attached to interactions aren't attached to the interaction directly. They come from one of the following places:
+The files you attach to interactions aren't attached to the interaction directly. They come from one of the following places:
 
-* The interaction template that you used to create the interaction. Learn more in [Set up interaction templates](marketing-interactions.md#set-up-interaction-templates) for information about setting up templates.
-* The segment that you created the interaction for. Learn more about segments in [Manage Interactions for Segments](marketing-interaction-segments.md).
+* The interaction template that you used to create the interaction. Learn more at [Set up interaction templates](marketing-interactions.md#set-up-interaction-templates) for information about setting up templates.
+* The segment that you created the interaction for. Learn more at [Manage Interactions for Segments](marketing-interaction-segments.md).
 
 ## View attachments
 

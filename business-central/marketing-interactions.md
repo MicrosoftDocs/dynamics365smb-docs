@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082
+ms.search.forms: 5082,
 ms.date: 10/03/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -22,11 +22,11 @@ Recording interactions with business contacts consists of these tasks:
 
 ## Set up interaction templates
 
-Before you can record interactions, you must set up interaction templates. An interaction template is a model that defines the basic characteristics of an interaction. When you record an interaction, you specify the interaction templates it's based on. Settings such as the mode of communication that was used, who initiated the interaction, and its cost, transfer to the interaction.
+Before you can record interactions, you must set up interaction templates. An interaction template is a model that defines the basic characteristics of an interaction. When you record an interaction, you specify the interaction templates to base it on. Settings such as the mode of communication that was used, who initiated the interaction, and its cost, transfer to the interaction.
 
 You set up an interaction template on the **Interaction Templates** page.
 
-When you set up an interaction template, you can add an attachment. For example, you might attach a Microsoft Word document that contains notes from a meeting. Learn more in [Attachments for interactions](marketing-interaction-attachments.md) for information about attachments. Repeat the steps to set up as many interaction templates as you want.  
+When you set up an interaction template, you can add an attachment. For example, you might attach a Microsoft Word document that contains notes from a meeting. Learn more at [Attachments for interactions](marketing-interaction-attachments.md) for information about attachments. Repeat the steps to set up as many interaction templates as you want.  
 
 ## Create interactions
 
@@ -37,7 +37,7 @@ There are two ways to record interactions:
 
 ## View and manage recorded interactions
 
-You can view all the recorded interactions that haven't been deleted on the **Interaction Log Entries** page. You can open this page by:
+You can access all recorded interactions on the **Interaction Log Entries** page. You can open this page by:
 
 - Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.
 - Choosing the **Interaction Log Entries** action on a contact or segment.
@@ -50,8 +50,8 @@ You can delete interaction log entries that are canceled. To delete interaction 
 
 ## Related information
 
-- [Managing Contacts](marketing-contacts.md)  
-- [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-- [Work with Business Central](ui-work-product.md)  
+[Managing Contacts](marketing-contacts.md)  
+[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

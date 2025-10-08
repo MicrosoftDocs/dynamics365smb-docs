@@ -1,5 +1,5 @@
 ---
-title: Set Up Email Logging
+title: Set up email logging
 description: Learn how to turn email interactions between salespeople and customers into real sales opportunities.
 author: brentholtorf
 ms.author: bholtorf

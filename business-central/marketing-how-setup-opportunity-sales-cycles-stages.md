@@ -3,7 +3,6 @@ title: Set up opportunity sales cycles and cycle stages
 description: Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119, 5098, 5096
 ms.date: 10/03/2025

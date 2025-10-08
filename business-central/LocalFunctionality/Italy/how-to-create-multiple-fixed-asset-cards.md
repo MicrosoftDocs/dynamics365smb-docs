@@ -11,6 +11,9 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
+> [!NOTE]
+> This feature has been delocalized and now it is part of standard Business Central worldwide.  
+
 # Create multiple fixed asset cards in the Italian version
 
 You can create multiple fixed asset cards automatically during purchase invoice posting. For example, if your company purchases 200 computers of the same kind from the same vendor, you don't have to manually create a fixed asset card for each computer; the fixed asset cards can be created automatically.  

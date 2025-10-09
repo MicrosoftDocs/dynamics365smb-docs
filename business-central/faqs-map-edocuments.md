@@ -98,7 +98,7 @@ Users, such as accountants or others who receive e-invoices, should always revie
 
 Administrators make the overall decision on whether to use Copilot in [!INCLUDE [prod_short](includes/prod_short.md)]. If they enable Copilot, administrators should ensure they grant access to the appropriate.
 
-> [NOTE!]
+> [!NOTE]
 > - We don't support the feature for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or in private clouds.
 > - Partners can't extend this feature. Partner developers can't modify, replace, or extend this feature. 
 
@@ -109,6 +109,8 @@ No, whether you use Copilot is up to you. [!INCLUDE [prod_short](includes/prod_s
 ## How do I give feedback about AI-generated content?  
 
 Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the **Like** and **Dislike** controls. Your feedback remains anonymous, and we use this data to improve the quality of the service.  
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

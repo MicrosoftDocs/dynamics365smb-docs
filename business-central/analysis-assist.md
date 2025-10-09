@@ -111,12 +111,12 @@ This prompt groups items by the vendors' countries/regions. Because the country/
 
 Copilot can use any of the visible or hidden fields on the list page and add them as columns to the analysis tab layout. Hidden fields are those fields that you would typically add to the list by personalizing the page.
 
-When Copilot determines that a hidden field is useful for your analysis tab, the field is shown as a column in the tab layout. It also appears in the **Columns** pane so that you can hide or reorder it or add it to any other analysis tabs for this list.  
+When Copilot determines that a hidden field is useful for your analysis tab, the field is shown as a column in the tab layout. It also appears in the **Columns** pane so that you can hide or reorder it or add it to any other analysis tabs for this list.
+
+Copilot can only access fields that are visible or hidden on the current page or that appear on related pages. It can't access fields that exist only in the source table.  
 
 > [!NOTE]
 > If an administrator turned off personalization for your profile (role), Copilot isn't able to use hidden fields from the list.
-
-Copilot can only access fields that are visible or hidden on the current page or that appear on related pages. It can't access fields that exist only on the source table.
 
 ## Using tabs created by Copilot in preview
 

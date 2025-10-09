@@ -17,6 +17,6 @@ The [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839
 
 - **Usage data**: Microsoft collects the minimum data required to operate and improve the [!INCLUDE [prod_short](prod_short.md)] service, including anonymized data about your use of AI. Usage data doesn't include prompts (inputs) or responses (outputs), and it doesn't include customer data or personal data.
 
-- **Feedback**: Microsoft collects feedback that users provide using the like (thumbs up) or dislike (thumbs down) icons in the UI. When you give feedback, we record whether you liked or disliked something, the reason for a dislike (if you share one), and which AI feature your feedback is about.
+- **Feedback**: Microsoft collects feedback that users provide using the like (thumbs up) or dislike (thumbs down) icons in the UI. When you give feedback, we record whether you liked or disliked something, the dislike reason (if you share one), and which AI feature your feedback is about.
 
   We don't automatically collect your prompt (input), or the AI response (output) when you give feedback.

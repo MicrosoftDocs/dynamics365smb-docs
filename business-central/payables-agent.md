@@ -1,7 +1,7 @@
 ---
 title: Payables Agent overview (preview)
 description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
-ms.date: 06/18/2025
+ms.date: 10/10/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk
@@ -64,15 +64,20 @@ The agent uses an internal email dispatcher running as a background task to cont
 
 Each PDF document found in an email becomes an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** is created for each of them. A distinct agent task processes each entry.
 
+#### Use a shared mailbox to curate invoices and minimize noise
+
+The agent processes any email sent to the monitored mailbox. We recommend you use a shared mailbox that you keep as an internal-only mailbox and don't expose this mailbox to your vendors. The choice is yours. However, by not exposing invoices to vendors, your employees become the first to review and identify potential fraud, while also minimizing unnecessary information for the agent to handle. We recommend you set up a shared mailbox in Microsoft 365, add your accounts payable team members to that mailbox, and use that as the mailbox monitored by the Payables Agent. Learn more in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox).
+
 > [!NOTE]
 > Use a designated mailbox for receiving vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 >
 > [!CAUTION]
 > A fundamental principle of the Payables Agent is to import **all** emails, not just the ones that contain PDF files. Take steps to ensure that the agent has full ownership of the mailbox, process wise, and users can't accidentally read or remove emails:
-> 
+>
 > - The monitored mailbox should only be attended from within Business Central
 > - Users shouldn't access the monitored mailbox from Outlook.
-> 
+> - Use a shared mailbox if possible.
+>
 > As a consequence, emails with no PDFs show up as agent tasks and need agent overseers to decide how to handle them. PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page and then remove them. You can also remove unsupported files received in this mailbox this way.
 
 > ![Shows the Unknown Document Type view on the Inbound E-Documents page](media/unknown-document-type-view.png)
@@ -81,11 +86,11 @@ Each PDF document found in an email becomes an entry in **Inbound E-Documents**.
 
 The PDF is sent for OCR (Optical Character Recognition) data extraction with Azure Document Intelligence, and the result is stored in the same E-Document record. 
 
-The agent helps categorize imported PDF documents when it's uncertain if the PDF is a vendor invoice. You can identify these documents in **Inbound E-Documents** using the **Unknown Document Type**. 
+The agent helps categorize imported PDF documents when it's uncertain if the PDF is a vendor invoice. You can identify these documents in **Inbound E-Documents** using the **Unknown Document Type**.
 
 ### Drafting invoice details
 
-When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent couldn't identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf by using the **Give instructions to the agent** field in the agent sidecar.
+When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent couldn't identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf by using the **Give instructions to the agent** field in the agent **Tasks** tab in the Copilot pane.
 
 **The agent will stop when it cannot identify the vendor:**
 
@@ -93,9 +98,9 @@ When the agent considers a PDF document a valid vendor invoice with high confide
 
 **Agent supervisors can instruct the agent to go create the vendor using the OCR data as input:**
 
-![Agent is instructed to create the vendor](media/payables-agent-vendor-not-identified-create.png)
+![Agent is instructed to create the vendor](media/payables-agent-vendor-not-identified-create-v2.png)
 
-You can provide more instructions by selecting one of the suggested actions or typing your own instructions in the **Type your instructions** box by using the ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon. After you select one of these options, select **Confirm**. In the above example, the **Create vendor** instruction is selected. 
+You can provide more instructions by selecting one of the suggested actions or typing your own instructions in the **Type your instructions** box<!-- by using the ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon-->. After you select one of these options, select **Confirm**. In the above example, the **Create vendor** instruction is selected. Learn more in [Give instructions to the agent](use-payables-agent.md#give-instructions-to-the-agent).
 
 **When the agent has created the vendor, it will ask the agent supervisor to review the newly created vendor:**
 
@@ -106,9 +111,9 @@ When the agent supervisor opens the vendor card, they can easily identify the fi
 > [!NOTE]
 > When the agent creates a new vendor, the **Blocked** field on the vendor card is set to **All**. This behavior ensures that proper vendor approval processing can take place. Usually, vendors and their bank accounts are approved by having communication with the vendor and doing human callbacks to the vendor's finance department. In many places, this action is a requirement for a successful audit. Thus, leaving the newly created vendor in a blocked state ensures no invoicing processing can happen until the vendor is unblocked. The agent itself doesn't provide any capabilities for vendor approvals.
 
-After you select **Confirm** in the agent sidecar, the agent tries again to identify the vendor, which should now succeed because it was just created, given that you unblocked the vendor.
+After you select **Confirm** in the agent **Tasks** tab in the Copilot pane, the agent tries again to identify the vendor, which should now succeed because it was just created, given that you unblocked the vendor.
 
-After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent. It's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved. 
+After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent. It's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved.
 
 ### Finalizing the purchase document draft
 

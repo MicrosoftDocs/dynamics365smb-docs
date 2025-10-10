@@ -44,7 +44,7 @@ When you have added your environments, your companies show up automatically. How
 
 ## Related information
 
-- [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
-- [Resources for Help and Support](product-help-and-support.md)  
+[Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
+[Resources for Help and Support](product-help-and-support.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

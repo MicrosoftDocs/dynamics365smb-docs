@@ -1,5 +1,5 @@
 ---
-title: Manage Work across Multiple Companies in the Company Hub
+title: Manage work across multiple companies in the company hub
 description: Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.
 author: brentholtorf
 ms.topic: article
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Manage Work across Multiple Companies in the Company Hub
+# Manage work across multiple companies in the Company Hub
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -25,7 +25,7 @@ You can access the company hub by switching to the **Company Hub** role in **My 
 > [!NOTE]
 > You can connect the company hub to as many companies as you need. However, you can only connect the company hub to companies that are hosted in [!INCLUDE [prod_short](includes/prod_short.md)] online.
 
-## Company hub home page
+## Company Hub home page
 
 If you use the **Company Hub** role, your home page shows a list of companies that you have access to, including information about key point of interest (KPI) data, and links to open each company. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Choose the **Company Hub** action to open the company hub, where you can work more closely with each company.  
 
@@ -94,9 +94,9 @@ Administrators can use the same assisted setup guide to add you to their [!INCLU
 
 ## Related information
 
-- [Add companies to your company hub](company-hub-add-company.md)  
-- [Accountant Experiences in Business Central](finance-accounting.md)  
-- [The Company Hub for Business Central Extension](ui-extensions-company-hub.md)  
-- [Change Basic Settings](ui-change-basic-settings.md)  
+[Add companies to your company hub](company-hub-add-company.md)  
+[Accountant Experiences in Business Central](finance-accounting.md)  
+[The Company Hub for Business Central Extension](ui-extensions-company-hub.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

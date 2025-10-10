@@ -22,15 +22,15 @@ To start using the Human Resources functionality, you must set up employees and 
 
 The following table describes a sequence of tasks, with links to the articles that describe them.
 
-| To | See |
+| To | Go to |
 |--|--|
 | Register new employees or edit records for existing employees, and attach related information, such as contracts and articles. | [Register Employees](hr-how-register-employees.md) |
 | Record employees' absence and view absence statistics by various filters. | [Manage Employee Absence](hr-how-manage-absence.md) |
 
 ## Related information
 
-- [Finance](finance.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-- [Change Which Features are Displayed](ui-experiences.md)
+[Finance](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

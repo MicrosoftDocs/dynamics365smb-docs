@@ -70,9 +70,9 @@ You can register employee absences on a daily basis or at some other interval th
 
 ## Related information
 
-- [Manage Human Resources](hr-manage-human-resources.md)  
-- [Finance](finance.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-- [Change Which Features are Displayed](ui-experiences.md)
+[Manage Human Resources](hr-manage-human-resources.md)  
+[Finance](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2626,7 +2626,7 @@ ms.service: dynamics-365-business-central
 ### [Searching the web with Copilot (preview)](ai-search-web-copilot.md)
 ### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
 ### [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)
-## Analysis assist (preview)
+## Analysis assist
 ### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)
 ## Autofill (preview)
@@ -2672,7 +2672,7 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for advanced Tell Me (preview)](faqs-advanced-tell-me.md)
-## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
+## [FAQ for analysis assist](faqs-analysis-assist.md)
 ## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)

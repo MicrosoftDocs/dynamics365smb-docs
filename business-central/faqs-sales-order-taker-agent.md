@@ -135,6 +135,8 @@ We defined a set of categories and scenarios and created test cases for each as 
 - All actions done by the agent, including creating and modifying records and calling actions, carry the agent's user ID. This user ID appears in the same places and in the same way as it does with other users, such as in list views, history, posted documents, notifications, and more.  
 - Approval workflows can be used to add an extra layer of control to the tasks done by the agent, as they do with other users. You can set up approval workflows to make the agent create a request for approval for a specific change—for example, to mark the quote as released. The change isn't allowed until another user approves the request. Learn more in [Use Approval Workflows](across-how-use-approval-workflows.md).
 
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
+
 ## Is this capability extensible?
 
 Currently, this capability isn't extensible by partners.

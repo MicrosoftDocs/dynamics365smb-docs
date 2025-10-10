@@ -111,12 +111,12 @@ In the **Maintenance - Details** report, you can view or print maintenance ledge
 
 ## Related information
 
-- [Maintenance - Analysis](reports/report-5630.md)  
-- [Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports)  
-- [Fixed Assets](fa-manage.md)  
-- [Setting Up Fixed Assets](fa-setup.md)  
-- [Finance](finance.md)  
-- [Getting Ready for Doing Business](ui-get-ready-business.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Maintenance - Analysis](reports/report-5630.md)  
+[Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports)  
+[Fixed Assets](fa-manage.md)  
+[Setting Up Fixed Assets](fa-setup.md)  
+[Finance](finance.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

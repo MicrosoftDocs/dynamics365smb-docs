@@ -64,7 +64,7 @@ Learn more in [Setting Up Fixed Assets](fa-setup.md).
 
 This section describes the analytical tools you can use to get insights into data about your fixed assets.
 
-| To... | See |
+| To... | Go to... |
 |--|--|
 | Learn about capabilities for analyzing data about fixed assets. | [Fixed assets analytics overview](fa-analytics-overview.md) |
 | Do ad-hoc analysis of fixed assets data directly on list pages and queries. | [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) |
@@ -78,7 +78,7 @@ This section describes the analytical tools you can use to get insights into dat
 
 For each fixed asset, you must set up a card that contains information about them. For example, you can set up buildings or production equipment as main assets with a component list. You can group assets in various ways, such as by class, department, or location. Then you can acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. Budgeting lets you include any anticipated acquisitions and sales in reports.
 
-| To  | See |
+| To  | Go to... |
 | --- | --- |
 | Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 | Create fixed assets, assign depreciation methods, post acquisitions, salvage values, and print fixed asset lists. |[Acquire Fixed Assets](fa-how-acquire.md) |
@@ -93,7 +93,7 @@ To track fixed asset depreciations and other financial transactions for fixed as
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports several depreciation methods. Learn more in [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books for each fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
 
-| To | See |
+| To | Go to... |
 |--|--|
 | Learn about different fixed asset depreciation methods. | [Depreciation Methods](fa-depreciation-methods.md) |
 | Calculate depreciation, post depreciation, and analyze depreciation in fixed assets reports. | [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md) |
@@ -104,7 +104,7 @@ To track fixed asset depreciations and other financial transactions for fixed as
 
 You can record maintenance costs and the next service date for each asset. Tracking maintenance expenses can be important for budgeting purposes and deciding whether to replace a fixed asset. You can attach each fixed asset to one or more insurance policies, and verify that policy premiums align with the value of the assets.
 
-| To | See |
+| To | Go to... |
 |--|--|
 | Record service visits, post maintenance costs, and monitor maintenance costs. | [Maintain Fixed Assets](fa-how-maintain.md) |
 | Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs) |
@@ -113,7 +113,7 @@ You can record maintenance costs and the next service date for each asset. Track
 
 ## Reclassify, transfer, split up/combine, adjust value, write-down, and dispose fixed assets
 
-| To | See |
+| To | Go to... |
 |--|--|
 | Reclassify fixed assets, transfer fixed assets to different locations, split up or combine assets. | [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md) |
 | Adjust values of fixed assets, post appreciation, and post write-down transactions. | [Revalue Fixed Assets](fa-how-revalue.md) |

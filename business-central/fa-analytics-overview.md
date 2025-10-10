@@ -135,13 +135,13 @@ Learn more in [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 
 ## Related information
 
-- [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
-- [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-- [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
-- [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)   
-- [Built-in fixed assets reports](fa-reports.md)  
-- [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
+[Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
+[Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
+[Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)  
+[Built-in fixed assets reports](fa-reports.md)  
+[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

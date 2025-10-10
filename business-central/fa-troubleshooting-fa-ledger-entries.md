@@ -24,12 +24,12 @@ When you open the **Fixed Asset Card** page for the first time, the **FA Ledger 
 
 ## Related information
 
-- [Fixed Assets](fa-manage.md)  
-- [Managing Fixed Assets](fa-manage.md)  
-- [Maintain Fixed Assets](fa-how-maintain.md)  
-- [Customizing Business Central Online Using Extensions](ui-extensions.md)  
-- [Finance](finance.md)  
-- [Getting Ready for Doing Business](ui-get-ready-business.md)  
-- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Fixed Assets](fa-manage.md)  
+[Managing Fixed Assets](fa-manage.md)  
+[Maintain Fixed Assets](fa-how-maintain.md)  
+[Customizing Business Central Online Using Extensions](ui-extensions.md)  
+[Finance](finance.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

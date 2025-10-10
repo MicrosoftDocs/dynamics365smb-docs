@@ -119,9 +119,9 @@ The copied lines are created in either the fixed asset G/L journal or the fixed 
 
 ## Related information
 
-- [Fixed Assets](fa-manage.md)
-- [Setting Up Fixed Assets](fa-setup.md)  
-- [Finance](finance.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Fixed Assets](fa-manage.md)  
+[Setting Up Fixed Assets](fa-setup.md)  
+[Finance](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

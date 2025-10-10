@@ -83,7 +83,7 @@ To find out which insurance policies cover each asset, and by which amount, use 
 You can check whether fixed assets are over- or under-insured in the following ways:  
 
 * The **Insurance Statistics** page. A positive amount in the **Over/Under Insured** field means that the fixed asset is over-insured. A negative amount means that the asset is under-insured.  
-* The **Fixed Asset Statistics** page. Choose the **Total Value Insured** field to view the **Ins. Coverage Ledger Entries** page.  
+* The **Fixed Asset Statistics** page. Choose the **Total Value Insured** field to view the **Insurance Coverage Ledger Entries** page.  
 * The **Over/Under Coverage** report.  
 * The [Insurance - Analysis](reports/report-5620.md) report.  
 
@@ -121,14 +121,14 @@ The fixed asset is removed from the incorrect insurance policy on the second lin
 
 ## Related information
 
-- [Insurance - List (report)](reports/report-5621.md)  
-- [Insurance - Tot. Value Insured (report)](reports/report-5625.md)
-- [Insurance - Uninsured FAs](reports/report-5626.md)
-- [Fixed assets insurance reports](fa-reports.md#fixed-assets-insurance-reports)
-- [Fixed assets analytics overview](fa-analytics-overview.md)
-- [Fixed Assets](fa-manage.md)  
-- [Setting Up Fixed Assets](fa-setup.md)  
-- [Finance](finance.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Insurance - List (report)](reports/report-5621.md)  
+[Insurance - Tot. Value Insured (report)](reports/report-5625.md)  
+[Insurance - Uninsured FAs](reports/report-5626.md)  
+[Fixed assets insurance reports](fa-reports.md#fixed-assets-insurance-reports)  
+[Fixed assets analytics overview](fa-analytics-overview.md)  
+[Fixed Assets](fa-manage.md)  
+[Setting Up Fixed Assets](fa-setup.md)  
+[Finance](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

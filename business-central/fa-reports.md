@@ -38,9 +38,9 @@ This article describes the built-in reports for fixed assets.
 
 ## Related information
 
-- [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)  
-- [Fixed assets analytics overview](fa-analytics-overview.md)  
-- [Financial analytics overview](bi.md)  
-- [Managing Fixed Assets](fa-manage.md)  
+[Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)  
+[Financial analytics overview](bi.md)  
+[Managing Fixed Assets](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Setting up fixed assets
+# Set up fixed assets
 
 Before you can work with fixed assets (FA), you need to define a few things:  
 
@@ -48,10 +48,10 @@ The following table contains a sequence of optional tasks to set up fixed assets
 
 ## Related information
 
-- [Fixed Assets overview](fa-manage.md)  
-- [Fixed assets analytics overview](fa-analytics-overview.md)  
-- [Finance](finance.md)  
-- [Getting Ready for Doing Business](ui-get-ready-business.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Fixed Assets overview](fa-manage.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)  
+[Finance](finance.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -328,10 +328,10 @@ If the built-in depreciation methods don't meet your needs, you can define your 
 
 ## Related information
 
-- [Fixed Assets overview](fa-manage.md)  
-- [Setting Up Fixed Assets](fa-setup.md)  
-- [Finance](finance.md)  
-- [Getting Ready for Doing Business](ui-get-ready-business.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Fixed Assets overview](fa-manage.md)  
+[Setting Up Fixed Assets](fa-setup.md)  
+[Finance](finance.md)   
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

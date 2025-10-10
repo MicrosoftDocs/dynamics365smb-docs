@@ -43,10 +43,10 @@ To post maintenance costs, you must first enter an account number on the **FA Po
 
 ## Related information
 
-- [Setting Up Fixed Assets](fa-setup.md)  
-- [Fixed Assets](fa-manage.md)  
-- [Finance](finance.md)  
-- [Getting Ready for Doing Business](ui-get-ready-business.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Setting Up Fixed Assets](fa-setup.md)  
+[Fixed Assets](fa-manage.md)  
+[Finance](finance.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

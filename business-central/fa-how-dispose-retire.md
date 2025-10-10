@@ -48,12 +48,12 @@ The **General Ledger Entries** page opens where you can see the entries that the
 
 ## Related information
 
-- [Fixed Assets](fa-manage.md)  
-- [Setting Up Fixed Assets](fa-setup.md)  
-- [To set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).  
-- [Finance](finance.md)  
-- [Getting Ready for Doing Business](ui-get-ready-business.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-- [Find Entries](ui-find-entries.md)  
+[Fixed Assets](fa-manage.md)  
+[Setting Up Fixed Assets](fa-setup.md)  
+[To set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups)  
+[Finance](finance.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Find Entries](ui-find-entries.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

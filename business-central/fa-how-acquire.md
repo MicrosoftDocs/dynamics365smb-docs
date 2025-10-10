@@ -144,11 +144,11 @@ You can post the salvage value together with the acquisition cost from a fixed a
 
 ## Related information
 
-- [Fixed Assets](fa-manage.md)  
-- [Setting Up Fixed Assets](fa-setup.md)  
-- [Design details about nondeductible VAT impact on Fixed Assets](design-details-nondeductible-vat.md)  
-- [Finance](finance.md)  
-- [Getting Ready for Doing Business](ui-get-ready-business.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Fixed Assets](fa-manage.md)  
+[Setting Up Fixed Assets](fa-setup.md)  
+[Design details about nondeductible VAT impact on Fixed Assets](design-details-nondeductible-vat.md)  
+[Finance](finance.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

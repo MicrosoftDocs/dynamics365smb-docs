@@ -78,13 +78,7 @@ to review and verify responses before making decisions that could affect stakeho
 
   Summaries about people, such as customers, vendors, or employees in Business Central, might result in limited output from Copilot because of other safety mechanisms designed to reduce the risk of inaccuracies. Even though Copilot isn't designed to provide recommendations or conclusions about people, you should use your judgment to review and verify responses before making decisions.
 
-## What data does summarize collect and how is it used?
-
-Business Central collects the minimum data required for Microsoft to provide the service.
-
-- Microsoft collects anonymized information about decisions made by Copilot and your interactions with the feature. It doesn't collect summary texts or other company data used or collected by Copilot to generate summaries.
-
-- Microsoft doesn't use your business data to train the foundational models for the benefit of others. Learn more in [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

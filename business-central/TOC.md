@@ -1385,6 +1385,8 @@ ms.service: dynamics-365-business-central
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ##### [WIP Extended Posting](LocalFunctionality/Czech/wip-extended-posting.md)
 ##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
+##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Alternative Posting Groups for Employees](LocalFunctionality/Czech/use-alternative-posting-groups-employees.md) 
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
@@ -1418,6 +1420,7 @@ ms.service: dynamics-365-business-central
 ##### [Update Contacts from ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
 ##### [New Design of Output Documents](LocalFunctionality/Czech/new-design-of-output-documents.md)
 ##### [Compensations](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 #### Inventory
 ##### [Round Accounting in Inventory](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
 ##### [Inventory General Ledger Reconciliation Enhancements](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
@@ -1425,19 +1428,17 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Counting Documents](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
 ##### [Inventory Operations Document](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
 ##### [Posting Groups in Transfer Orders](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
-#### General
-##### [Extended User Control](LocalFunctionality/Czech/general.md)
-##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
 ##### [Control of Output Inventory Time Sequence](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
 ##### [Inventory Movement Templates](LocalFunctionality/Czech/inventory-movement-templates.md)
 ##### [Stock keeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
-##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
-##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
 ##### [General Production Posting Group in Stock keeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
 ##### [Skip Update for Stock keeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+#### Manufacturing
+##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+#### General
+##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Use modern search in CZ applications](LocalFunctionality/Czech/use-modern-search-cz.md)
-##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)

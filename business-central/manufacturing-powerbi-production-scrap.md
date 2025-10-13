@@ -44,16 +44,16 @@ For manufacturing managers, this report reveals important measures about capacit
 
 The Production Scrap report includes the following KPIs and measures:
 
-- [Production Order Scrap %](manufacturing-powerbi-kpis.md#production-order-scrap-percent)
-- [Finished Quantity](manufacturing-powerbi-kpis.md#finished-quantity)
-- [Scrap Quantity](manufacturing-powerbi-kpis.md#scrap-quantity)
-- [Work Center Scrap %](manufacturing-powerbi-kpis.md#work-center-scrap-percent)
-- [Work Center Scrap](manufacturing-powerbi-kpis.md#work-center-scrap)
-- [Work Center Output](manufacturing-powerbi-kpis.md#work-center-output)
-- [Machine Center Scrap %](manufacturing-powerbi-kpis.md#machine-center-scrap-percent)
-- [Machine Center Scrap](manufacturing-powerbi-kpis.md#machine-center-scrap)
-- [Machine Center Output](manufacturing-powerbi-kpis.md#machine-center-output)
-- [Expected Production Order Scrap Quantity](manufacturing-powerbi-kpis.md#expected-production-order-scrap-quantity)
+- [**Production Order Scrap %**](manufacturing-powerbi-kpis.md#production-order-scrap-percent)
+- [**Finished Quantity**](manufacturing-powerbi-kpis.md#finished-quantity)
+- [**Scrap Quantity**](manufacturing-powerbi-kpis.md#scrap-quantity)
+- [**Work Center Scrap %**](manufacturing-powerbi-kpis.md#work-center-scrap-percent)
+- [**Work Center Scrap**](manufacturing-powerbi-kpis.md#work-center-scrap)
+- [**Work Center Output**](manufacturing-powerbi-kpis.md#work-center-output)
+- [**Machine Center Scrap %**](manufacturing-powerbi-kpis.md#machine-center-scrap-percent)
+- [**Machine Center Scrap**](manufacturing-powerbi-kpis.md#machine-center-scrap)
+- [**Machine Center Output**](manufacturing-powerbi-kpis.md#machine-center-output)
+- [**Expected Production Order Scrap Quantity**](manufacturing-powerbi-kpis.md#expected-production-order-scrap-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

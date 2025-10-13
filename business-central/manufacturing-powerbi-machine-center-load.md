@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 37042_Primary 
+ms.search.form: 37096_Primary 
 ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -32,11 +32,11 @@ Production supervisors use this report to analyze the load percentage and alloca
 
 The Machine Center Load report includes the following KPIs and measures:
 
-- [Machine Center Capacity Effective](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
-- [Machine Center Allocated Time](manufacturing-powerbi-kpis.md#machine-center-allocated-time)
-- [Machine Center Availability After Orders](manufacturing-powerbi-kpis.md#machine-center-availability-after-orders)
-- [Machine Center Load](manufacturing-powerbi-kpis.md#machine-center-load)
-- [Machine Center Expected Efficiency %](manufacturing-powerbi-kpis.md#machine-center-expected-efficiency-percent)
+- [**Machine Center Capacity (Effective)**](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
+- [**Machine Center Allocated Time**](manufacturing-powerbi-kpis.md#machine-center-allocated-time)
+- [**Machine Center Availability After Orders**](manufacturing-powerbi-kpis.md#machine-center-availability-after-orders)
+- [**Machine Center Load**](manufacturing-powerbi-kpis.md#machine-center-load)
+- [**Machine Center Expected Efficiency %**](manufacturing-powerbi-kpis.md#machine-center-expected-efficiency-percent)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -52,7 +52,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Machine Center Load](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Machine Center Load](https://businesscentral.dynamics.com?page=37096)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

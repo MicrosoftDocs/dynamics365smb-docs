@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/30/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -66,7 +66,7 @@ The autofill feature isn't available on these fields regardless of the page type
 
 ## Use autofill on fields
 
-Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon or press <kbd>Alt</kbd>+<kbd>i</kbd>. If the icon doesn't appear, autofill isn't available for the field, so try another field.
+Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon or press <kbd>Alt</kbd>+<kbd>Up arrow</kbd>. If the icon doesn't appear, autofill isn't available for the field, so try another field.
 
 ![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg)
 

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 06/19/2025
+ms.date: 09/14/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -30,7 +30,7 @@ The **Summarize** capability is active, and you have the required permissions to
 
 ## Supported languages
 
-[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Availability
 

@@ -35,7 +35,9 @@ Purchasers can use this report to analyze the purchasing activities for a specif
 
 The *Purchases Decomposition* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**%GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**%GT Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -47,12 +49,12 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Item
 - Item Category
-- Vendor
-- Purchase Header
-- Location
 - Salesperson/Purchaser
-- Vendor Posting Group
-- Value Entry
+- Vendor
+- Location
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 
 ## Try the report
 

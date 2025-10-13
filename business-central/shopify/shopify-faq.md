@@ -1,7 +1,7 @@
 ---
 title: FAQ for technical details
 description: Implementation details related to the Shopify connector.
-ms.date: 07/14/2025
+ms.date: 10/13/2025
 ms.topic: faq
 ms.service: dynamics-365-business-central
 author: brentholtorf

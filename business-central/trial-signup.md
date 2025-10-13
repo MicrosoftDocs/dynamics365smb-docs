@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: bholtorf
-ms.date: 09/09/2024
+ms.date: 10/13/2025
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -61,6 +61,10 @@ You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales t
 > [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
 
 For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
+
+## Cancel a trial
+
+[!INCLUDE [cancel-trial](includes/cancl-trial.md)]
 
 ## Related information
 

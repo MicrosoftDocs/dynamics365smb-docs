@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: bholtorf
-ms.date: 04/07/2025
+ms.date: 10/13/2025
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ---
@@ -49,7 +49,7 @@ You can't. If you accidentally delete sample data, ask your admin to create a ne
 
 ### How do I cancel the trial?
 
-As an admin, you can remove the Business Central trial subscription in the Microsoft 365 admin center. Learn more in [Removing a subscription](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#removing-a-subscription).
+[!INCLUDE [cancel-trial](includes/cancl-trial.md)]
 
 ## Related information
 

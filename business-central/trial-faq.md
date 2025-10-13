@@ -49,7 +49,7 @@ You can't. If you accidentally delete sample data, ask your admin to create a ne
 
 ### How do I cancel the trial?
 
-[!INCLUDE [cancel-trial](includes/cancl-trial.md)]
+[!INCLUDE [cancel-trial](includes/cancel-trial.md)]
 
 ## Related information
 

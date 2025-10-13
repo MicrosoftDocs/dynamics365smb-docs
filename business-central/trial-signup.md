@@ -64,7 +64,7 @@ For more information about what you can do with [!INCLUDE [prod_short](includes/
 
 ## Cancel a trial
 
-[!INCLUDE [cancel-trial](includes/cancl-trial.md)]
+[!INCLUDE [cancel-trial](includes/cancel-trial.md)]
 
 ## Related information
 

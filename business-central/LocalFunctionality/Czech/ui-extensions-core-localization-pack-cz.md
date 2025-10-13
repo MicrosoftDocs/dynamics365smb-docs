@@ -5,9 +5,9 @@ author: brentholtorf
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 06/09/2025
+ms.date: 10/08/2025
 ms.reviewer: v-soumramani
-ms.author: bholtorf
+ms.author: v-jiurxo
 ms.service: dynamics-365-business-central
 ---
 
@@ -28,6 +28,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Exchange Rate Updating](how-to-update-exchange-rate.md) **Available Now**
   - [WIP Extended Posting](wip-extended-posting.md) **Available Now**
   - [G/L Account Group – Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
+  - [Check of Posting Group changing – Customer, Vendor, item, bank account](check-of-posting-group-changing.md) **Available Now**
 
 - **VAT**
   - [VAT Date](how-to-setup-vat-date.md) **Available Now**
@@ -51,6 +52,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Sales correcting documents](sales-correcting-documents.md) **Available Now**
   - [Contacts Actualization from ARES](how-to-update-contacts-from-ares.md) **Available Now**
   - [New design of output documents](new-design-of-output-documents.md) **Available Now**
+  - [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-documents-reports.md) **Available Now**
 
 - **Inventory**
   - [Rounding Account in Inventory](how-to-setup-round-account-in-inventory.md) **Available Now**
@@ -58,14 +60,13 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Advanced features of the physical inventory](advanced-features-physical-inventory.md) **Available Now**
   - [Inventory Operations Document](how-to-use-inventory-operations-document.md) **Available Now**
   - [Inventory Counting Document](how-to-use-inventory-counting-documents.md) **Available Now**
-
-- **General**
-  - [Extended User Control](how-to-setup-extended-user-control.md) **Available Now**
-  - [Check of Posting Group changing – Customer, Vendor, item, bank account](check-of-posting-group-changing.md) **Available Now**
   - [Check of output in inventory – time sequence](check-output-inventory-time-sequence.md) **Available Now**
   - [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   - [Templates for inventory Operations – Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
 
+- **General**
+  - [Extended User Control](how-to-setup-extended-user-control.md) **Available Now**
+  
 ## Related information
 
 - [Czech Local Functionality](czech-local-functionality.md)  

@@ -162,6 +162,8 @@ No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] 
 
 Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.  
 
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
+
 ## Related information
 
 [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  

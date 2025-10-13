@@ -1,7 +1,7 @@
 ---
 title: FAQ for mapping e-documents with purchase orders
-description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 04/01/2025
+description: This FAQ provides information about the AI technology used in Business Central, key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -29,24 +29,24 @@ In small and medium-sized businesses (SMBs), the accounts payable team plays a p
 
 Historically, [!INCLUDE [prod_short](includes/prod_short.md)] could generate new purchase invoices based on received electronic invoices. However, manually matching invoices with existing purchase orders was a time-consuming and error-prone process.
 
-**E-documents Matching Assistance** uses generative AI to streamlines this process by automating the analysis of external electronic invoices. The feature allows accountants to ask Copilot to match lines on incoming electronic invoices with lines on purchase orders in [!INCLUDE [prod_short](includes/prod_short.md)].
+**E-documents Matching Assistance** uses generative AI to streamline this process by automating the analysis of external electronic invoices. The feature allows accountants to ask Copilot to match lines on incoming electronic invoices with lines on purchase orders in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## What are capabilities of the E-documents Matching Assistance?
 
-Copilot provides AI-powered assistance to match received digital invoice with existing purchase orders in [!INCLUDE [prod_short](includes/prod_short.md)]. Copilot matches lines based on the following:
+Copilot provides AI-powered assistance to match received digital invoice with existing purchase orders in [!INCLUDE [prod_short](includes/prod_short.md)]. Copilot matches lines based on the information:
 
 - Similarity of descriptions
 - Units of measure
 - Quantities available for invoicing
 - Amounts
 
-Copilot identifies similar descriptions if they have proper unit of measures and the prices, but it can also find matches in more complex cases. For example, it can identify if an electronic invoice has two lines with a variant of the same item, and just one line in the purchase order; [!INCLUDE [prod_short](includes/prod_short.md)] matches these lines as long as the descriptions are similar and the prices are the same.
+Copilot identifies similar descriptions if they have proper unit of measures and the prices, but it can also find matches in more complex cases. For example, it can identify whether an electronic invoice has two lines with a variant of the same item, and just one line in the purchase order. [!INCLUDE [prod_short](includes/prod_short.md)] matches these lines as long as the descriptions are similar and the prices are the same.
 
-Copilot doesn't connect to your e-documents endpoint service to retrieve or send digital vouchers. This task remains fully within your control and is a prerequisite to using Copilot's assistance. This is true, regardless of whether the digital documents are added to [!INCLUDE [prod_short](includes/prod_short.md)] using a connection with an endpoint service or entered manually.  
+Copilot doesn't connect to your e-documents endpoint service to retrieve or send digital vouchers. This task remains fully within your control and is a prerequisite to using Copilot's assistance. This condition is true, regardless of whether the digital documents are added to [!INCLUDE [prod_short](includes/prod_short.md)] using a connection with an endpoint service or entered manually.  
 
 ## What is the intended use of the E-documents Matching Assistance?  
 
-The goal of the **E-documents Matching Assistance** feature is to assist the accounts payable team match existing purchase orders with incoming electronic invoices. Much of this activity revolves around string matching. [!INCLUDE [prod_short](includes/prod_short.md)] offers a feature that automates some of this activity, and LLMs have been identified as an opportunity to supplement that feature and further reduce manual effort.  
+The goal of the **E-documents Matching Assistance** feature is to assist the accounts payable team match existing purchase orders with incoming electronic invoices. Much of this activity revolves around string matching. [!INCLUDE [prod_short](includes/prod_short.md)] offers a feature that automates some of this activity. LLMs (large language models) have been identified as an opportunity to supplement that feature and further reduce manual effort.  
 
 ## How was E-documents Matching Assistance evaluated? What metrics are used to measure performance?
 

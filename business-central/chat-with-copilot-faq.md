@@ -7,7 +7,7 @@ ms.reviewer: solsen
 ms.topic: faq
 ms.collection:
   - bap-ai-copilot
-ms.date: 09/30/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template jswymer
 ---
@@ -88,7 +88,7 @@ The chat feature relies on Azure OpenAI Service for AI, Microsoft Learn for onli
   Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
 - Microsoft Learn online service
- 
+
   Endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
 
   If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. When you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography. They're processed and not stored for more than one day.
@@ -106,10 +106,10 @@ At this time, a one-click mechanism to ask Copilot to explain a particular field
 
 ## What can I do if the chat pane doesn't show?
 
-- Make sure your [!INCLUDE[prod_short](includes/prod_short.md)] is version 25.4 or later.
-- For Business Central versions 25.4 to 25.5, make sure the entry for "Chat with Copilot" is enabled for all users in the **Feature Management** page.
-- Make sure you have permission to chat with Copilot. Learn more in [Configure Copilot & agent capabilities](enable-ai.md#granting-user-access).
-- For Business Central version 26 and later, make sure **Chat** is active in the **Copilot & agent capabilities** page. In some countries and regions, Chat with Copilot isn't active by default. Learn more in [Configure Copilot & agent capabilities](enable-ai.md).
+Check that:
+
+- You have permission to chat with Copilot. Learn more in [Configure Copilot & agent capabilities](enable-ai.md#granting-user-access).
+- **Chat** is active in the **Copilot & agent capabilities** page. In some countries and regions, Chat with Copilot isn't active by default. Learn more in [Configure Copilot & agent capabilities](enable-ai.md).
 
 ## How is Microsoft improving chat with Copilot?
 

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 04/01/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -61,7 +61,7 @@ Complete the following steps to add marketing text to an existing item. Learn ho
    - At the top of the page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.  The **Draft Marketing Text with Copilot** windows appears and lists all available attributes for the item.
 1. Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
 
-   ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.svg)
+   ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.png)
 
 1. When Copilot completes the draft, the text appears in the Copilot editor window for you to review and edit.
 
@@ -79,15 +79,15 @@ Once you have the first draft, you must review it and make changes to the text t
 Use the following guidelines to finalize and save the marketing text.
 
 1. Make changes to text directly in the text box. Use the tool bar along the bottom of the box to format and style text, add links, and more.
-2. To get a new suggestion, select **Regenerate**.
-3. If you're not satisfied with the suggestions, enhance the text suggestions using the **Tone**, **Format**, and **Emphasis** preference options.
+1. To get a new suggestion, select **Regenerate**.
+1. If you're not satisfied with the suggestions, enhance the text suggestions using the **Tone**, **Format**, and **Emphasis** preference options.
 
    <!--Select **More Settings**, change the options that are shown under **Choose how Copilot creates suggestions**, then select **Create draft** to get a new suggestion.-->
 
    For guidelines on improving suggestions, go to the [Improve and tailor text suggestions](#improve-and-tailor-text-suggestions).
 
-4. To go back and forth through suggestions, use the previous and next links at the top of the page (*x* **of** *y*). <!-- or select the **...** (More formatting options) along the bottom of the window, then select **Undo**. Select **Redo** to go back.-->
-5. Carefully review the text for accuracy and appropriateness:
+1. To go back and forth through suggestions, use the previous and next links at the top of the page (*x* **of** *y*). <!-- or select the **...** (More formatting options) along the bottom of the window, then select **Undo**. Select **Redo** to go back.-->
+1. Carefully review the text for accuracy and appropriateness:
 
    - If you want to save the text, select **Keep it**. 
    - If you don't want to save, select the discard button (trash can) ![Shows the trash can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png).
@@ -124,14 +124,14 @@ Text is always generated in the language defined by your user [settings](ui-chan
 1. In Business Central, open the item that you want to modify as follows:
 
     1. In the upper-right corner, select the ![Lightbulb that opens the Tell Me feature 22.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link to show a list of available items.
-    2. To open the item, double-click it or select its number in the  **No.** field.
+    1. To open the item, double-click it or select its number in the  **No.** field.
 
-2. Do one of the following steps:
+1. Do one of the following steps:
 
    - In the **Marketing Text** pane of the FactBox on the right side of the page, select **Edit**.
    - Select the **Marketing Text** action.
-3. Make changes to text directly in the **Marketing Text** box. Use the tool bar along the bottom of the box to format and style text, add links, and more.
-4. Select **OK** when done to save the text.
+1. Make changes to text directly in the **Marketing Text** box. Use the tool bar along the bottom of the box to format and style text, add links, and more.
+1. Select **OK** when done to save the text.
 
 ## Related information
 

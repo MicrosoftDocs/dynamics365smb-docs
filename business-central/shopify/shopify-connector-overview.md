@@ -24,11 +24,11 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
 - Support for more than one Shopify shop.
   - Each shop has its own setup, including a collection of products and locations used to calculate inventory and price lists.  
 - Bidirectional synchronization of items or products.
-  - The connector synchronizes images, item variants, bar codes, vendor item numbers, extended and marketing texts, translations, tags, and metafields.  
-  - Export item attributes to Shopify.
+  - The connector synchronizes images, item variants, bar codes, vendor item numbers, tags, and metafields.  
+  - Export item attributes, extended and marketing texts, item translations to Shopify.
   - Activate the sales channels to use when you sync products from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
   - Use selected customer price groups and discounts to define prices exported to Shopify.
-  - Define prices and discounts for product catalogs linked to B2B companies.
+  - Define prices and discounts for product catalogs linked to B2B companies and markets.
   - Decide whether items can be created automatically or only allow updates to existing products.
 - Synchronize inventory levels.
   - Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
@@ -37,17 +37,18 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
   - Smart-map customers by phone and email.
   - Use specific country/region templates when creating customers, which helps ensure that tax settings are correct.
   - Smart-map B2B companies by tax or registration numbers.
+  - Assign specific sell-to and bill-to customer numbers to company location for accurate mapping.
 - Import orders from Shopify
   - Include orders created in various sales channels, such as online stores, **Shopify POS**, or **B2B**.
   - Shipping costs, gift cards, tips, shipping and payment methods, payment terms and transactions, PO number, risk of fraud, return, refund, or cancellation information.
-  - During import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
+  - During import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify and use default customer in created orders.  
   - Receive payout information from Shopify Payments.
 - Track fulfillment information.
   - Optionally, choose to transfer item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
 - Export posted sales invoices
   - Buyers can sign in to Shopify and access all their invoices, regardless of which app they were created in.
 - Integrate easily.
-  - Enable automatic synchronization of products, inventory, orders, fulfillments, and more.
+  - Enable automatic synchronization of products, inventory, orders, fulfillments, and more via Joq Queues.
   - Rich logging capabilities that help with troubleshooting if needed.
 
 ## Why did Microsoft and Shopify form a partnership?
@@ -91,11 +92,6 @@ Find information related to support and troubleshooting.
 | Learn implementation details related to the Shopify Connector.| [FAQ for the Shopify connector](shopify-faq.md)|
 | Check support options for Shopify Connector| [Support for the Shopify Connector](shopify-support.md)|
 
-## Related information
-
-[FAQ for the Shopify connector](shopify-faq.md)  
-[Troubleshoot the Shopify Connector](troubleshoot.md)  
-[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 

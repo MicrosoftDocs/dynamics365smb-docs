@@ -25,14 +25,24 @@ The Shopify connector doesn't work for [Embed App](/dynamics365/business-central
 
 The Shopify connector doesn't work with other Dynamics 365 applications, like Dynamics 365 Sales or Dynamics 365 Supply Chain Management.
 
+## What Shopify API is used
+
+The Shopify Connector primarily utilizes the Shopify GraphQL Admin API for all integration calls, with the exception of operations related to sold gift cards. For consistency all interactions with Shopify are made using the same API version. 
+
+Shopify releases a new API version every three months at the beginning of each quarter, and supports each version for 12 months. These updates often include important changes, such as enhanced stability, improved security, and new features. To reduce impact on your environemnt, adoption of the lasest released Shopify API versions is happening in major releases of  [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the Shopify Connector released in April 2025 will use the Admin API version from January 2025, while the October release will use the API version released in July.
+
+### Impact on integration
+
+If you are using [!INCLUDE[prod_short](../includes/prod_short.md)] with the Shopify Connector released in 2025 release wave 1 (April 2025), your integration relies on API version 2025-01, which remains supported until January 1, 2026. To ensure uninterrupted synchronization and data exchange with Shopify, you must upgrade to the latest major version of Business Central (2025 release wave 2) before this end-of-support date. Failure to upgrade will result in blocked API calls and the inability to synchronize data between Business Central and Shopify.
+
+Please note that the Shopify API version support timeline does not align with Business Central’s update period, which allows you to remain on the previous version for up to five months after a major update is released.
+
 ## What support is offered for the Shopify Connector?
 
 To learn more, go to [Support for the Shopify Connector](shopify-support.md).
 
 ## Currently unsupported features; however, we're tracking them and may consider adding them
 
-- Markets
-  - Prices per country/region. One price list is available for the selected currency. Shopify handles the conversion to other currencies.
 - Draft orders
 
 ## Is the Shopify Connector extensible?

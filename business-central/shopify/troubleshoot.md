@@ -161,6 +161,7 @@ The following procedures describe how to rotate the access token used by the Sho
 
 ## Troubleshhoting steps for specific synchs:
 - [Troubleshooting inventory synchronization](synchronize-items.md#troubleshooting-inventory-synchronization)
+- [Troubleshooting shipment synchronization](synchronize-orders.md#troubleshooting-shipment-synchronizations)
 
 ### Troubleshooting refunds
 

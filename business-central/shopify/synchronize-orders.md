@@ -31,7 +31,8 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 
 * **Shipping Charges Account**. You can also choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
 * **Sold Gift Card Account**. Learn more at [Gift Card](synchronize-orders.md#gift-cards)
-* **Tip account**. Learn more at [Working with Shopify POS](shopify-pos.md#order-handling)
+* **Tip account**.
+* **Cash Rounding Account No.**. Learn more at [Working with Shopify POS](shopify-pos.md#order-handling)
   
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
 

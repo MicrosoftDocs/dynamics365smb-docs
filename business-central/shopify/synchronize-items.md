@@ -363,7 +363,7 @@ You can start image synchronization in the ways described in the next sections i
 
 ## Sync prices with Shopify
 
-The connector for Shopify allows you to sync product pricing to your Shopify store. 
+The Shopify Connector allows you to sync product pricing to your Shopify store. 
 
 It can send both the main selling price (shown as **Price** in Shopify) and the original, non-discounted price (displayed as **Compare at Price**) to the Shopify Product (Shopify Variant) pages. Learn more at [Synchronize market-specific prices with Shopify](#sync-prices-to-the-shopify-products-page).
 
@@ -371,7 +371,7 @@ If you use Markets in Shopify, which can represent different countries/regions, 
 
 For Shopify PLUS merchants, there is an additional option to connect catalogs to company locations, making it easier to manage B2B pricing scenarios. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify).
 
-### Sync prices from the Shopify products page
+### Sync prices to the Shopify products page
 
 The following table describes the settings you can use to manage the process of defining and exporting prices.
 
@@ -403,16 +403,16 @@ To export prices for synchronized items do following:
 
 If you use Shopify B2B, you can configure the Connector to synchronize prices for Shopify Catalogs linked to B2B customers.
 
-#### Synchronize catalogs from the Shopify
+#### Synchronize B2B catalogs from the Shopify
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify B2B Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
 
 You can only access catalogs linked to B2B companies. To learn more, go to [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't contain information about products. You manage catalog content in Shopify Admin.
 
 #### Sync prices for B2B Catalog
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify B2B Catalogs**, and select the related link.
 2. Select the entry for which to define and export prices, and then fill in the fields as necessary.
 
    You can use two strategies. One is the default strategy, where you can use settings similar to the ones for synchronizing the **Price** and **Compare at Price** fields for Shopify products (Shopify variant). The following table describes settings for the default strategy.
@@ -433,11 +433,17 @@ You can only access catalogs linked to B2B companies. To learn more, go to [B2B 
 
 If you use Markets in Shopify, you can set up the connector to sync prices for Shopify catalogs that link to those markets.
 
-To sync catalogs from Shopify, select **Get Market Catalogs** on the **Shopify Market Catalogs** page.
+#### Synchronize market catalogs from the Shopify
 
-To sync prices for market catalogs, follow these steps:
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Market Catalogs**, and select the related link.
+2. Select **Get Catalogs**.
 
-1. On the **Shopify Market Catalogs** page, select the entry where you want to define and export prices. Fill in the fields as needed. The following table describes the fields.
+Market can represent region, POS Location or Company Location (B2B). 
+
+#### Sync prices for Market Catalog
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Market Catalogs**, and select the related link.
+2. On the **Shopify Market Catalogs** page, select the entry where you want to define and export prices. Fill in the fields as needed. The following table describes the fields.
 
    |Field|Description|
    |------|-----------|
@@ -448,7 +454,7 @@ To sync prices for market catalogs, follow these steps:
    |**VAT Business Posting Group**|Only needed if you want to include taxes into price. Here you can specify which VAT business posting group is used to calculate prices with taxes in Shopify. Use your group for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
    |**Currency Code**|Specifies the currency code for the catalog. The specified currency must have exchange rates configured. If catalog uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], the field will be empty.|
 
-2. Enter the settings, turn on the **Sync Prices** toggle, and then select **Sync Prices** to synchronize catalog prices.
+3. Enter the settings, turn on the **Sync Prices** toggle, and then select **Sync Prices** to synchronize catalog prices.
 
 ## Sync inventory to Shopify
 

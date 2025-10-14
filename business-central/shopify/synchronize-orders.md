@@ -17,7 +17,7 @@ This article describes the settings and steps that you must complete to synchron
 
 ## Set up the import of orders on the Shopify Shop Card
 
-Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
+Enter a **Currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
 You can access the store currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. You can configure Shopify to accept different currencies. However, the orders you import to [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
 
@@ -31,8 +31,8 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 
 * **Shipping Charges Account**. You can also choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
 * **Sold Gift Card Account**. Learn more at [Gift Card](synchronize-orders.md#gift-cards)
-* **Tip account**  
-
+* **Tip account**. Learn more at [Working with Shopify POS](shopify-pos.md#order-handling)
+  
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
 
 People who work with Shopify Admin might want to check whether orders are synchronized with [!INCLUDE[prod_short](../includes/prod_short.md)] and processed. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle gives you control over synchronization. When enabled, after an order is processed in [!INCLUDE[prod_short](../includes/prod_short.md)] and the corresponding sales document is created, the document number is added as an attribute to the Shopify order. An entry appears in the order’s timeline to indicate that [!INCLUDE[prod_short](../includes/prod_short.md)] modified the order. The next round of order synchronization includes the modified Shopify order.
@@ -171,11 +171,15 @@ The following procedure describes how to import and update the sales orders.
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to import orders to open the **Shopify Shop Card** page.
 3. Choose the **Orders** action.
-4. Choose the **Sync Orders From Shopify** action.
+4. Choose the **Sync Orders from Shopify** action.
 5. Define filters on orders as necessary. For example, you can import fully paid orders or the ones with a low risk level.
 
-   > [!NOTE]  
-   > When filtering by tag, you should use filter tokens `@` and `*`. For example, if you want to import orders containing *tag1*, use `@*tag1*`. `@` will ensure the result is case insensitive, while `*` finds orders with multiple tags.
+> [!NOTE]  
+> When filtering by tag in the **Sync Order from Shopify** request page, note that tags are stored as space-separated string, with each tag enclosed in square brackets: `[tag1] [tag2] [tag3]`.
+>
+> As there can be multiple tags, it would be good idea to use filter token `*`. For example, if you want to import orders containing *tag1*, use `*tag1*`. If you unsure about case, the filter token `@` will ensure the result is case insensitive, use `@*tag1*` to get orders with *tag1*, *Tag1*, or *TAG1*.
+> 
+> Other [filter criteria](../ui-enter-criteria-filters.md) works as well. For example if you want several tags, use `*tag1*|*tag2*` or if you want to skip some orders, use `<>*tag3*`.
 
 6. Choose the **OK** button.
 
@@ -224,10 +228,6 @@ You can also mark an order as paid, which is useful in a B2B scenario where paym
 
 If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, fix the problems, and then create the sales order again.
 
-### Order Total FactBox
-
-The **Order total** part in the **Shopify Orders** page displays totals from both the order in Shopify and the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)]. The totals let you compare figures without opening each document, which can be helpful when you're testing customer and item templates.
-
 ### To create sales documents
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
@@ -241,6 +241,10 @@ If the Shopify order requires fulfillment, a **Sales Order** is created. For ful
 A sales document is created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
 
 If you want to recreate a sales document, you can use the **Unlink Processed Documents** action in the **Shopify Order** page. This action doesn't delete the already created sales document. You must process it manually.
+
+### Order Total FactBox
+
+The **Order total** part in the **Shopify Orders** page displays totals from both the order in Shopify and the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)]. The totals let you compare figures without opening each document, which can be helpful when you're testing customer and item templates.
 
 ### Manage missing customers
 
@@ -299,8 +303,8 @@ Example: You have an online store and a Shopify POS. For your POS, you want to u
 1. Create a Shopify shop called *POS* and link it to the same Shopify account.
 1. Make sure that item/product synchronization is disabled.
 1. Configure the connector to use the default customer.
-1. Create a recurring job queue entry for Report 30104 **Sync orders from Shopify**. Select **STORE** in the **Shopify Shop Code** field, and use filters to catch all orders except the ones that the POS sales channel creates. For example, **<>Point of Sale**
-1. Create a recurring job queue entry for Report 30104 **Sync orders from Shopify**. Select **POS** in the **Shopify Shop Code** field, and use filters to catch orders generated by the POS sales channel. For example, **Point of Sale**.
+1. Create a recurring job queue entry for Report 30104 **Sync orders from Shopify**. Select *STORE* in the **Shopify Shop Code** field, and use filters to catch all orders except the ones that the POS sales channel creates. For example, **<>Point of Sale**
+1. Create a recurring job queue entry for Report 30104 **Sync orders from Shopify**. Select *POS* in the **Shopify Shop Code** field, and use filters to catch orders generated by the POS sales channel. For example, **Point of Sale**.
 
 Each job queue imports and processes orders within the defined filters and uses the rules from the corresponding Shopify Shop card. For example, they create point of sales orders for the default customer.
 
@@ -311,7 +315,7 @@ Each job queue imports and processes orders within the defined filters and uses 
 
 ### Effect of order editing
 
-In Shopify:
+**In Shopify:**
 
 |Edit|Effect on Shopify Orders not yet processed in [!INCLUDE[prod_short](../includes/prod_short.md)] | Effect on Shopify orders already processed in [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
@@ -332,7 +336,8 @@ Depending on status of the created sales document, you can perform following act
 2. Choose the **Unlink Processed Documents** action to reset the **Processed** indicator.
 3. Choose the **Synch order from Shopify** action to update the individual order with recent data from Shopify.
 
-In [!INCLUDE[prod_short](../includes/prod_short.md)]:
+
+**In [!INCLUDE[prod_short](../includes/prod_short.md)]:**
 
 |Edit|Effect|
 |------|-----------|
@@ -340,69 +345,6 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |Decrease quantity. Post shipment. | The Shopify order is marked as partially fulfilled. |
 |Increase quantity. Post shipment. | The fulfillment won't synchronize with Shopify. It's the same if the fulfillment was split in Shopify but processed as one line in [!INCLUDE[prod_short](../includes/prod_short.md)]. |
 |Add a new item. Post shipment. | The Shopify order is marked as fulfilled. New lines aren't added. |
-
-## Export posted sales invoices to Shopify
-
-You can export posted sales invoices to Shopify so that buyers can sign in to Shopify and access all their invoices, regardless of which app they were created in.
-
-You can export posted sales invoices to Shopify as orders by using the **Sync Posted Invoices to Shopify** action on the Shopify Shop Card page, or you can use Tell Me search to find it. You can also run the report by using the job queue.
-
-To enable the capability for a specific shop, go to the **Shopify Shop Card** page and turn on the **Posted Invoice Sync** toggle. You also need to configure the **Payment Terms Mapping**.
-
-The sync includes invoices under the following conditions:
-
-* The **Shopify Order ID** field contains **0**.
-* The bill-to customer has a mapping in the **Shopify Customers** or **Shopify Companies** pages.
-* The bill-to customer isn't used as the default customer on the **Shopify Shop Card** or **Shopify Customer Template**.
-* The posted invoice has at least one non-comment line where the **No.** field has a value.
-
-When you run the report, the following happens in [!INCLUDE [prod_short](../includes/prod_short.md)] and Shopify.
-
-**Business Central**
-
-Update the **Shopify Order ID** field based on the results of the sync:
-
-* Successful export: update the **Shopify Order ID** field with the ID of the order in Shopify.
-* Export failed: set "-1"
-* Invoice is excluded from sync for a reason listed in the conditions mentioned earlier: set "-2"
-
->[!Note]
->The same pattern is used in the posted sales shipment, where the **Update Document** page lets you replace **-1** and **-2** with **0** to retry the export.
-
-**Shopify**
-
-The Shopify connector does the following steps:
-
-* Creates a draft order with header and item lines
-* Converts the draft order it to an order
-
-**Fields that export to order headers and lines**
-
-The following fields export on the order header:
-
-* The mapped bill-to customer/company is used.
-* The **Fulfillment Status** field shows **Fulfilled**. Tracking details don't synchronize.
-* The **Paid Status** field shows **Paid** or **Partially Paid**, based on the customer ledger entry linked to the sales invoice. For partially paid, it shows the **Remaining Amount** field.
-
-The following fields export on the order lines:
-
-* Items and lines of other types, such as **G/L Account** or **Item Charge** lines, export as custom products in Shopify.
-* Shipping charges in Shopify aren't created. The shipping cost is registered as a custom product in Shopify.
-* Tax amounts. Because the Graph API doesn't currently support the TaxLine object, the calculated tax is added as a custom product. Tax information from [!INCLUDE [prod_short](../includes/prod_short.md)] won’t be available in the tax report in Shopify Admin. To prevent Shopify from recalculating taxes, orders are marked as **Tax Exempt**.
-* Quantity, in whole numbers. Shopify doesn’t support fractions.
-
-### Effect on the process of synchronizing orders
-
-Synchronization imports the order and checks whether it was exported earlier. If it was exported earlier:
-
-* It marks the order as processed.
-* It adds a link to the posted sales invoice (related documents, should happen automatically because the Shopify Order ID is already populated). Shopify might automatically archive fully paid and fulfilled orders, and the synchronization won't process them.
-
-### Deal with updates
-
-In Shopify, because the order is already fulfilled, the only meaningful changes are notes, payment status, and payment transactions. If payments are processed in Shopify, refunds and returns are as well.
-
-[!INCLUDE [prod_short](../includes/prod_short.md)] doesn't track changes. Currently, if you want to mark the order as paid, use the **Mark as Paid** action on the **Shopify Order Card** page.
 
 ## Synchronize shipments to Shopify
 
@@ -412,14 +354,30 @@ When a sales order created from a Shopify order is shipped, you can synchronize 
 2. Define the filters on shipments as necessary. For example, you can update a shipment posted on a specific date.
 3. Choose **OK**.
 
-The order in Shopify is marked as fulfilled. The customer automatically receives a shipment notice email or text message (SMS). If a shipping agent and a tracking code are specified on the shipment, the tracking information is included in the email.
+The sync includes posted sales shipments under the following conditions:
+- The **Shopify Order Id** field doesn't contains *0* and related shopify order exists.
+- The **Shopify Fulfillment Id** field contains *0*.
+- Posted shipment has at least one line of type item with quantity more than *0*. The related shopify order line exists.
 
-Alternatively, use the **Sync Shipments** action in the Shopify Sales Orders or Shopify Shop pages.
+The order in Shopify is marked as fulfilled. 
+If the **Send Shipping Confirmation** toggle is enabled, the customer automatically receives a shipment notice email or text message (SMS). 
+If a shipping agent and a tracking code are specified on the shipment, the tracking information is updated in the order in Shopify and included in the email to customer.
+
+Update the **Shopify Fulfillment ID** field based on the results of the sync:
+- Successful export: update the **Shopify Fulfillment ID** field with the ID of the fulfillment in Shopify.
+- Export failed: set "-1"
+- Posted shipment doesn't have any lines of type item with quantity more than *0*.: set "-2"
+  
+Alternatively, to sync shipments use the **Sync Shipments** action in the Shopify Sales Orders or Shopify Shop pages.
 
 You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
 > [!Note]
-> **Know limitations**. Orders with multiple lines of the same product will not be fulfilled. Mark such orders as fulfilled in Shopify Admin. This issue can occur when using the **Buy X get Y** discount with identical products for **Customer gets** and **Customer buys**.
+> **Know limitations:**
+> 
+> - Orders with multiple lines of the same product will not be fulfilled. Mark such orders as fulfilled in Shopify Admin. This issue can occur when using the **Buy X get Y** discount with identical products for **Customer gets** and **Customer buys**.
+> - Shopify order line split across two locations (e.g., *2* from *EAST* and *3* from *WEST*) will appear in [!INCLUDE[prod_short](../includes/prod_short.md)] as a single sales order line with just one location—such as *WEST*. If you ship all *5* at once, the order will not be fulfilled. If you first modify quantity to Ship in [!INCLUDE[prod_short](../includes/prod_short.md)] to *2* and post shipment and then post shipment of remaining *3*, then the Shopify order will be marked as partially fulfilled with *3* units fulfilled from location selected in the sales order order line, in this example it will be *WEST*.   
+> - Modification in sales order before posting may impact ability of connector to synchronize shipments to Shopify. For more information, see the second table in the [Effect of order editing](#effect-of-order-editing).
 
 Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], provided the conditions are met. 
 
@@ -439,6 +397,18 @@ If the **Package Tracking URL** field is filled in for the shipping agent record
 >If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle on the **Shopify Shop card** page.
 >
 >The **Shipping Agent Code** and **Shipping Agent Service Code** can be automatically filled in based on settings on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
+
+### Troubleshooting Shipment Synchronizations
+
+If you expect order in Shopify to be marked as fulfilled but it is not, try to check followings:
+1.	Go to **Shopify Order** and check that corresponding order exists in [!INCLUDE[prod_short](../includes/prod_short.md)]., without order connector there is no fulfilment details needed by connector.
+2.	Go to **Shopify Order** and run **Sync order from Shopify** to retrieve the latest updates.
+3.	Go to **Shopify Order* and then to the **Completed Fulfillments** page. If any fulfillments are listed, this indicates that fulfillment was already registered - possibly directly in Shopify Admin.
+4.	Go to **Shopify Order** and then to the **Fulfillment Orders** page and check statuses. Fulfillment orders indicate what is expected to be shipped. If they do not exist or are closed, nothing will be sent to Shopify.
+5.	Go to **Posted Sales Shipment** and with page inspector check the **Order Id** field in the header and the **Shopify Order line Id** in lines. These fields determine if the order should be exported to Shopify and link shipment lines to the original Shopify order lines. If the Shopify Order Line Id is missing on a posted shipment line (often due to manually recreated lines) this line won’t be included into the synchronization.
+
+>[!Note]
+> The **Update Document** page, that you can open for posted sales shipment lets you replace -1 and -2 with 0 to retry the export of shipment.
 
 ## Returns and refunds
 
@@ -471,6 +441,71 @@ To review the issued and applied gift cards, choose the ![Lightbulb that opens t
 
 > [!NOTE]
 > To import gift cards created manually or sold via old orders, that you don't want to import, you need to use configuration package. Use the 30110 **Shpfy Gift Card** table and **Id**, **Last Characters**, **Amount**.  You can export gift cards from Shopify Admin. You will need the **Id**, **Last Charaters** and **Current Balance** fields. 
+
+## Export posted sales invoices to Shopify
+
+You can export posted sales invoices to Shopify so that buyers can sign in to Shopify and access all their invoices, regardless of which app they were created in.
+
+You can export posted sales invoices to Shopify as orders by using the **Sync Posted Invoices to Shopify** action on the Shopify Shop Card page, or you can use Tell Me search to find it. You can also run the report by using the job queue.
+
+To enable the capability for a specific shop, go to the **Shopify Shop Card** page and turn on the **Posted Invoice Sync** toggle. You also need to configure the **Payment Terms Mapping**.
+
+The sync includes invoices under the following conditions:
+
+* The **Shopify Order ID** field contains **0**.
+* The bill-to customer has a mapping in the **Shopify Customers** or **Shopify Companies** pages.
+* The bill-to customer isn't used as the default customer on the **Shopify Shop Card** or **Shopify Customer Template**.
+* The posted invoice has at least one non-comment line where the **No.** field has a value.
+
+When you run the report, the following happens in [!INCLUDE [prod_short](../includes/prod_short.md)] and Shopify.
+
+**Business Central**
+
+Update the **Shopify Order ID** field based on the results of the sync:
+
+* Successful export: update the **Shopify Order ID** field with the ID of the order in Shopify.
+* Export failed: set "-1"
+* Invoice is excluded from sync for a reason listed in the conditions mentioned earlier: set "-2"
+
+>[!Note]
+> The **Update Document** page, that you can open for posted sales invoice lets you replace -1 and -2 with 0 to retry the export of invoice.
+
+
+**Shopify**
+
+The Shopify connector does the following steps:
+
+* Creates a draft order with header and item lines
+* Converts the draft order it to an order
+
+**Fields that export to order headers and lines**
+
+The following fields export on the order header:
+
+* The mapped bill-to customer/company is used.
+* The **Fulfillment Status** field shows **Fulfilled**. Tracking details don't synchronize.
+* The **Paid Status** field shows **Paid** or **Partially Paid**, based on the customer ledger entry linked to the sales invoice. For partially paid, it shows the **Remaining Amount** field.
+
+The following fields export on the order lines:
+
+* Items and lines of other types, such as **G/L Account** or **Item Charge** lines, export as custom products in Shopify.
+* Shipping charges in Shopify aren't created. The shipping cost is registered as a custom product in Shopify.
+* Tax amounts. Because the Graph API doesn't currently support the TaxLine object, the calculated tax is added as a custom product. Tax information from [!INCLUDE [prod_short](../includes/prod_short.md)] won’t be available in the tax report in Shopify Admin. To prevent Shopify from recalculating taxes, orders are marked as **Tax Exempt**.
+* Quantity, in whole numbers. Shopify doesn’t support fractions.
+* For lines of the type Items weight is exported. The weight comes from the **Net Weight** field of the sales invoice line. The **Weight Unit** from the **Shopify Shop Card** page is used as a unit of measure.
+
+### Effect on the process of synchronizing orders
+
+Synchronization imports the order and checks whether it was exported earlier. If it was exported earlier:
+
+* It marks the order as processed.
+* It adds a link to the posted sales invoice (related documents, should happen automatically because the Shopify Order ID is already populated). Shopify might automatically archive fully paid and fulfilled orders, and the synchronization won't process them.
+
+### Deal with updates
+
+In Shopify, because the order is already fulfilled, the only meaningful changes are notes, payment status, and payment transactions. If payments are processed in Shopify, refunds and returns are as well.
+
+[!INCLUDE [prod_short](../includes/prod_short.md)] doesn't track changes. Currently, if you want to mark the order as paid, use the **Mark as Paid** action on the **Shopify Order Card** page.
 
 ## Related information
 

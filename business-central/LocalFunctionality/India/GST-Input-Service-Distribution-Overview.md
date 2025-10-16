@@ -94,7 +94,7 @@ This setup is required to define the Posting No. Series for distribution.
 |Field|Required/Optional|Description|
 |-----|-----------|------|
 |GST Distribution| Always |Specifies the posting no. series for different documents type.|
-|GST Distribution Line| Specify location Code| Specifies the posting no. series for different documents type and location-wise|
+|GST Distribution Line| Specify location Code| Specifies the posting no. series for different documents type and location-wise.|
 
 ## Related information
 

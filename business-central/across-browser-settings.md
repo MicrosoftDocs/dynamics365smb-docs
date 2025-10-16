@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: Teams, web client, troubleshooting, errors
-ms.date: 12/04/2023
+ms.date: 10/13/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ---
-# Setting up and troubleshooting your browser to work with Business Central Web Client
+
+# Set up and troubleshoot your browser to work with Business Central Web Client
 
 This article explains how to set up your browser so that the [!INCLUDE[web_client](includes/web_client.md)] and all its features work properly. Read this article if you're having problems opening the [!INCLUDE[web_client](includes/web_client.md)], your browser's settings can be the cause of some problems.
 
@@ -20,7 +21,7 @@ The article provides details for setting up Microsoft Edge, but the requirements
 
 Make sure to use a one of the supported browsers. See [Minimum Requirements for Using Business Central](product-requirements.md#browsers).
 
-We recommend that you use a stable channel version of a web browser as it's the most reliable and stable version that has undergone extensive testing and bug fixing. This ensures that you have the best experience and are less likely to encounter any issues while using the web client.  
+We recommend that you use a stable channel version of a web browser as it's the most reliable and stable version that has gone through extensive testing and bug fixing. This ensures that you have the best experience and are less likely to encounter any issues while using the web client.  
 
 ## Allow JavaScript from Business Central
 

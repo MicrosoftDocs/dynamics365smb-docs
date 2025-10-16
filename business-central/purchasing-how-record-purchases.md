@@ -3,7 +3,7 @@ title: Record purchases with purchase invoices
 description: Describes how to purchase inventory, noninventory items, or resources by creating and posting purchase invoices or orders.
 author: brentholtorf
 ms.topic: how-to
-ms.search.keywords: procurement
+ms.search.keywords: procurement, record purchases, purchase invoice, purchase order
 ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
 ms.date: 10/03/2025
 ms.author: bholtorf
@@ -11,6 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
+
 # Record purchases with purchase invoices and orders
 
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. Purchase invoices and purchase orders are also used to dynamically update inventory levels, meaning you can minimize inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and financial key performance indicators (KPIs).

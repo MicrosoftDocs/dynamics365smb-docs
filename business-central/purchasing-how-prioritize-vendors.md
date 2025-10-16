@@ -1,5 +1,5 @@
 ---
-title: Assign a Priority Level to a Vendor
+title: Assign a priority level to a vendor
 description: Assign priority numbers to vendors or suppliers in Business Central to streamline payment suggestions and manage payables efficiently.
 author: brentholtorf
 ms.topic: how-to
@@ -32,9 +32,9 @@ If you don't want to prioritize a vendor, leave the **Priority** field blank. Th
 
 ## Related information
 
-- [Register New Vendors](purchasing-how-register-new-vendors.md)  
-- [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-- [Managing Payables](payables-manage-payables.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[Managing Payables](payables-manage-payables.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

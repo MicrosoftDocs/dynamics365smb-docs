@@ -15,8 +15,7 @@ ms.reviewer: v-soumramani
 # Receive and convert electronic documents
 
 > [!NOTE]
-> The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md). 
-
+> The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md).
 
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,13 +38,13 @@ You can either start the conversion of electronic documents manually, as describ
 
 The following procedure describes how to receive a vendor invoice and convert it to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The procedure is the same when you convert a vendor invoice to a general journal line.  
 
-### To receive and convert an electronic invoice to a purchase invoice
+### Receive and convert an electronic invoice to a purchase invoice
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Incoming Documents**, and then choose the related link.  
 
 2. Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
 
-    On the **Incoming Document Card** page, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
+   On the **Incoming Document Card** page, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
 
 3. In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.  
 
@@ -53,17 +52,16 @@ The following procedure describes how to receive a vendor invoice and convert it
 
 5. Choose the **Create Document** action.  
 
-    A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic document.  
+   A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic document.  
 
-    Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
+   Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
 
 ## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  
 [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Exchanging Data Electronically](across-data-exchange.md)   
+[Exchanging Data Electronically](across-data-exchange.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

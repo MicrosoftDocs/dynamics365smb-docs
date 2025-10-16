@@ -56,7 +56,7 @@ With the feature enabled, a return transaction can only be posted by specifying 
 
 ## More purchasing setups
 
-| To | See |
+| To | Go to |
 |--|--|
 | Create a vendor card for each vendor you purchase from. | [Register New Vendors](purchasing-how-register-new-vendors.md) |
 | Prioritize vendors. | [Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
@@ -73,8 +73,8 @@ With the feature enabled, a return transaction can only be posted by specifying 
 
 ## Related information
 
-- [Purchasing](purchasing-manage-purchasing.md)  
-- [Set Up Overview](setup.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Purchasing](purchasing-manage-purchasing.md)  
+[Set Up Overview](setup.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

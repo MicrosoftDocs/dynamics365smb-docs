@@ -183,10 +183,10 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 
 ## Related information
 
-- [Purchasing](purchasing-manage-purchasing.md)  
-- [Record Purchases](purchasing-how-record-purchases.md)  
-- [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-- [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Record Purchases](purchasing-how-record-purchases.md)  
+[Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

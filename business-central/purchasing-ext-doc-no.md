@@ -19,9 +19,9 @@ You can also specify external document numbers on sales documents. Learn more in
 
 ## Related information
 
-- [Enter External Document Numbers](across-enter-external-document-numbers.md)  
-- [Purchasing](purchasing-manage-purchasing.md)  
-- [External Document Numbers on Sales Documents](sales-how-invoice-sales.md#external-document-numbers)  
-- [General Business Functionality](ui-across-business-areas.md)  
+[Enter External Document Numbers](across-enter-external-document-numbers.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[External Document Numbers on Sales Documents](sales-how-invoice-sales.md#external-document-numbers)  
+[General Business Functionality](ui-across-business-areas.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

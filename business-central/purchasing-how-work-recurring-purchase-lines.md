@@ -57,9 +57,9 @@ If recurring purchase lines exist for the vendor, you can insert them, or have t
 
 ## Related information
 
-- [Purchasing](purchasing-manage-purchasing.md)  
-- [Set Up Purchasing](purchasing-setup-purchasing.md)  
-- [Create Recurring Sales](sales-how-work-standard-lines.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Set Up Purchasing](purchasing-setup-purchasing.md)  
+[Create Recurring Sales](sales-how-work-standard-lines.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

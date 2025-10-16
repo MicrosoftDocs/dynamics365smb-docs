@@ -1,5 +1,5 @@
 ---
-title: Calculate Dates for purchases
+title: Calculate dates for purchases
 description: Learn how to calculate purchase dates to optimize inventory planning and streamline procurement processes.
 author: brentholtorf 
 ms.topic: how-to
@@ -61,8 +61,8 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 
 ## Related information
 
-- [Date Calculation for Sales](sales-date-calculation-for-sales.md)  
-- [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Date Calculation for Sales](sales-date-calculation-for-sales.md)  
+[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -30,11 +30,11 @@ If a vendor has one or more bank accounts and you want to set a preferred option
 
 ## Related information
 
-- [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-- [Register New Vendors](purchasing-how-register-new-vendors.md)  
-- [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)  
-- [Use the AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)  
-- [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Set Up Bank Accounts](bank-how-setup-bank-accounts.md)  
+[Use the AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)  
+[Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

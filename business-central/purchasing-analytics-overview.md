@@ -135,16 +135,16 @@ Learn more in [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 ## Related information
 
-- [Company consolidation](finance-consolidated-company-reporting.md)  
-- [Power BI Purchasing app](purchases-powerbi-app.md)  
-- [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-- [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
-- [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
-- [Built-in purchasing reports](purchase-reports.md)  
-- [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
-- [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
-- [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Company consolidation](finance-consolidated-company-reporting.md)  
+[Power BI Purchasing app](purchases-powerbi-app.md)  
+[Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
+[Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
+[Built-in purchasing reports](purchase-reports.md)  
+[Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
+[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
+[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -1,5 +1,5 @@
 ---
-title: Record Special Purchase Prices and Discounts
+title: Record special purchase prices and discounts
 description: Set up and manage special purchase prices and discounts for vendors, and automatically apply them to purchase documents.
 author: brentholtorf
 ms.topic: how-to
@@ -140,8 +140,8 @@ If no special price can be calculated for the item on the line, then either the 
 
 ## Related information
 
-- [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-- [Purchasing](purchasing-manage-purchasing.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

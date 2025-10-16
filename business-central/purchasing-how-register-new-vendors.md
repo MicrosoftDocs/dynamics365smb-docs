@@ -77,13 +77,13 @@ You can edit the information on vendor cards at any time. However, if you posted
 
 ## Related information
 
-- [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
-- [Create Number Series](ui-create-number-series.md)  
-- [Set Up Vendor Bank Account](purchasing-how-set-up-vendors-bank-accounts.md)  
-- [Set Up Purchasers](purchasing-how-setup-purchasers.md)  
-- [Purchasing](purchasing-manage-purchasing.md)  
-- [Record Purchases](purchasing-how-record-purchases.md)  
-- [Use Online Maps to Find Locations and Directions](across-online-maps.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
+[Create Number Series](ui-create-number-series.md)  
+[Set Up Vendor Bank Account](purchasing-how-set-up-vendors-bank-accounts.md)  
+[Set Up Purchasers](purchasing-how-setup-purchasers.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Record Purchases](purchasing-how-record-purchases.md)  
+[Use Online Maps to Find Locations and Directions](across-online-maps.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

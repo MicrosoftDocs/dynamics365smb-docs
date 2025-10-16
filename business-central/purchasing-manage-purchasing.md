@@ -70,7 +70,7 @@ If you need more complex purchase processes, the following table lists articles 
 
 The following table describes how to deal with canceled orders, refunds, and returns of goods that you purchase.
 
-| To... | Go to... |
+| To | Go to |
 | --- | --- |
 |Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)|
 |Convert, for example, electronic invoices from your vendors to purchase invoices inside Business Central.|[Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)|
@@ -89,12 +89,12 @@ The following table describes how to deal with other purchase processes.
 
 ## Related information
 
-- [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-- [Register New Vendors](purchasing-how-register-new-vendors.md)  
-- [Purchasing analytics overview](purchasing-analytics-overview.md)   
-- [Managing Payables](payables-manage-payables.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-- [General Business Functionality](ui-across-business-areas.md)
+[Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
+[Managing Payables](payables-manage-payables.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[General Business Functionality](ui-across-business-areas.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

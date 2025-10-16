@@ -1,5 +1,5 @@
 ---
-title: Set Up Purchasers and Assign Purchasers to Vendors
+title: Set up purchasers and assign purchasers to vendors
 description: Organize purchasers or purchasing agents in your company to enable efficient tracking and statistical analysis.
 author: brentholtorf
 ms.topic: how-to
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Set up purchasers
+# Set up purchasers and assign them to vendors
 
 If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.<br><br>  
 
@@ -32,9 +32,9 @@ If several purchasers work at your company, you can set them up in a page and as
 
 ## Related information
 
-- [Register New Vendors](purchasing-how-register-new-vendors.md)  
-- [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-- [Managing Payables](payables-manage-payables.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[Managing Payables](payables-manage-payables.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

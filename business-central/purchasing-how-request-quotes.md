@@ -34,9 +34,9 @@ The purchase quote is removed from the database. A purchase order is created bas
 
 ## Related information
 
-- [Purchasing](purchasing-manage-purchasing.md)  
-- [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-- [Send Documents by Email](ui-how-send-documents-email.md)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

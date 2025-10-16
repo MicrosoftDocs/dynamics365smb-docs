@@ -91,10 +91,10 @@ This setup is required to define the GST components for distribution functionali
 
 This setup is required to define the Posting No. Series for distribution.
 
-|Field|Required/Optional|Description|
-|-----|-----------|------|
-|GST Distribution| Always |Specifies the posting no. series for different documents type.|
-|GST Distribution Line| Specify location Code| Specifies the posting no. series for different documents type and location-wise.|
+| Field | Required/Optional | Description |
+|--|--|--|
+| GST Distribution | Always | Specifies the posting no. series for different document types. |
+| GST Distribution Line | Specify location code | Specifies the posting no. series for different document types and locations. |
 
 ## Related information
 

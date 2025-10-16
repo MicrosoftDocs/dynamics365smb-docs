@@ -5,10 +5,10 @@ author: v-debapd
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, input service distribution, ISD on location, ISD on general ledger setup, ISD on source code setup, ISD on GST posting setup
-ms.date: 06/23/2025
+ms.date: 10/16/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: soumramani
 ---
 
 # GST input service distribution overview
@@ -26,6 +26,7 @@ System doesn't allow posting any sales transactions for a location if it contain
 - Source Code Setup
 - GST Posting Setup
 - GST Component Distribution
+- GST Posting No. Series Setup
 
 ## Set up ISD on location
 
@@ -86,8 +87,17 @@ This setup is required to define the GST components for distribution functionali
     |**Intrastate Distribution**|Specify whether this is applicable for intrastate distribution or not.|
     |**Interstate Distribution**|Specify whether this is applicable for interstate distribution or not.|
 
+## Set up Posting No. Series
+
+This setup is required to define the Posting No. Series for distribution.
+
+|Field|Required/Optional|Description|
+|-----|-----------|------|
+|GST Distribution| Always |Specifies the posting no. series for different documents type.|
+|GST Distribution Line| Specify location Code| Specifies the posting no. series for different documents type and location-wise|
+
 ## Related information
 
-[GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md)
+[GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md)  
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]  

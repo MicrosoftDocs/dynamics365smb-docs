@@ -164,6 +164,6 @@ If you aren't using Microsoft Entra ID to manage identities and access, you need
 
 ## Related information
 
-[Managing Relationships](marketing-relationship-management.md)
+[Managing Relationships](marketing-relationship-management.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

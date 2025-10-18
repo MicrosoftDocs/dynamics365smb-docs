@@ -4,7 +4,7 @@ description: Learn about creating segments to define groups of contacts and spec
 author: jswymer
 ms.topic: concept-article
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5091, 5139,
+ms.search.forms: 5091, 5139
 ms.date: 10/03/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central

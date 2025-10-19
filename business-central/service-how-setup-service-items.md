@@ -1,23 +1,26 @@
 ---
-title: Service Items and Service Item Components
+title: Service items and service item components
 description: Learn about the things you must set up before you can use service items, including default values such as response time and service price group.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service items, service item components, service item groups, service shelves
-ms.date: 10/03/2025
+ms.date: 10/10/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ms.reviewer: v-soumramani
 ---
-
 # Set up service items and service item components
-To work with service items, you must set up the following
 
-* Service item groups.
-* Optional
+To work with service items, first set up the following information:
 
-## Set up service item groups
+* Service item groups
+* Service item components
+* Optional: Service shelves
+
+## To set up service item groups
 
 You can set up groups of items that are related in terms of repair and maintenance. You can define default values for service items in a service item group, such as response time, contract discount percent, and service price group. For items in a service item group, you can select whether you want them to be automatically registered as service items when they're sold.  
 
@@ -31,9 +34,9 @@ You assign service item groups to items on the **Item** card, and to service ite
 6. In the **Default Response Time (Hours)** field, enter the default response time in hours that you want the service items in the group to have.  
 7. If you want to register the items in the group as service items when they're sold, select the **Create Service Item** field.  
 
-## Set up service item components
+## To set up service item components
 
-A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up on the **Service Item Component List** page. Additionally, if you want to set up components for service items that are BOMs, you can copy the BOM items and create them as service item components.
+A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up on the **Service Item Component List** page. Also, you can set up components for service items that are bills of material (BOMs). Copy the BOM items, and create them as service item components.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.
 2. Open the service item for which you want to set up components.  
@@ -42,16 +45,16 @@ A service item can consist of several components, which can be replaced with spa
 5. In the **Type** field, choose **Service Item** if the component itself is a registered service item. Otherwise, select **Item**.  
 6. In the **No.** field, choose the item or service item that is a component of the service item.  
 
-## Set up service item components from a BOM
+## To set up service item components from a BOM
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.  
 2. Open the service item for which you want to set up components from a BOM.  
 3. Choose the **Components** action. The **Service Item Component List** page opens.  
 4. Choose the **Copy from BOM** action.  
 
-    If the item that the service item is linked to is a BOM, the components for all the items in the BOM are created automatically.  
+    If the item that the service item links to is a BOM, [!INCLUDE [prod_short](includes/prod_short.md)] creates components for all items in the BOM.  
 
-## Set up a service shelf
+## To set up a service shelf
 
 You can set up service shelves that identify where you store your service items. You assign service shelves to service items on the **Service Order** and **Service Item Worksheet** pages.  
 
@@ -60,7 +63,7 @@ You can set up service shelves that identify where you store your service items.
 
 ## Related information
 
-- [Set Up Codes for Standard Services](service-how-setup-service-coding.md)
-- [Set Up Troubleshooting](service-how-setup-troubleshooting.md)
+[Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
+[Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

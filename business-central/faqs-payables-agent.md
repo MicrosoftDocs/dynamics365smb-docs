@@ -1,7 +1,7 @@
 ---
 title: FAQ for Payables Agent
 description: Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 06/04/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -21,7 +21,7 @@ These frequently asked questions (FAQ) describe the AI impact of Payables Agent 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
-## What is the Payables Agent? 
+## What is the Payables Agent?
 
 The Payables Agent is an integrated copilot with agent capabilities that automates the task of creating purchase invoices. It starts by receiving a vendor's invoice attached to an e-mail. The agent analyzes the email attachment content, identifies the vendor from the registered list in Business Central, and prepares a draft purchase invoice with the requested invoice lines. It also offers the capability to help with vendor creation as part of this process. 
 
@@ -154,6 +154,8 @@ Additionally, in Business Central, you can set up and use approval workflows to 
     Make sure you attend to the notifications raised by the agent to review and approve its work.  
 - All actions done by the agent, including creating and modifying records and calling actions, carry the agent's user ID. This user ID appears in the same places and in the same way as it does with other users, such as in list views, history, posted documents, notifications, and more.  
 - Approval workflows can be used to add an extra layer of control to the tasks done by the agent, as they do with other users. You can set up approval workflows to make the agent create a request for approval for a specific change, for example, to mark the quote as released. The change isn't allowed until another user approves the request. Learn more in [Use Approval Workflows](across-how-use-approval-workflows.md).
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Is this capability extensible?
 

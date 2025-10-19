@@ -12,7 +12,7 @@ ms.reviewer: v-soumramani
 ms.custom: bap-template
 ---
 
-# Recording interactions with contacts automatically
+# Record interactions with contacts automatically
 
 You can set up [!INCLUDE [prod_short](includes/prod_short.md)] to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, and phone calls. For example:
 
@@ -28,7 +28,7 @@ To open the **Interaction Template Setup** page, [!INCLUDE[open-search](includes
 
 ## Related information
 
-[Recording Interactions With Contacts](marketing-interactions.md)  
+[Record Interactions With Contacts](marketing-interactions.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

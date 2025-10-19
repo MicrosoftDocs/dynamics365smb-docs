@@ -13,7 +13,7 @@ ms.reviewer: v-soumramani
 ms.custom: bap-template
 ---
 
-# Managing contacts
+# Manage contacts
 
 Employees in your company regularly meet prospective business relations that might develop into formal relationships. You can record details about external contacts so that communication is more successful, and so it's easier to convert them to formal customer, vendor, or bank relationships.
 
@@ -30,8 +30,8 @@ The following table describes a sequence of tasks, with links to the articles th
 
 ## Related information
 
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
+[Manage Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Sort, Search, and Filter](ui-enter-criteria-filters.md)  
 [Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

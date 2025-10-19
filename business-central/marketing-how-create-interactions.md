@@ -49,9 +49,9 @@ An interaction is recorded for each contact within the segment in the **Interact
 
 ## Related information
 
-[Recording Interactions](marketing-interactions.md)  
-[Managing Contacts](marketing-contacts.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Record Interactions](marketing-interactions.md)  
+[Manage Contacts](marketing-contacts.md)  
+[Manage Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

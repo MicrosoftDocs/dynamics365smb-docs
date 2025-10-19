@@ -68,7 +68,7 @@ The following procedure describes how to assign activity tasks to opportunities.
 
 ## Related information
 
-[Processing Sales Opportunities](marketing-processing-sales-opportunities.md)  
+[Process Sales Opportunities](marketing-processing-sales-opportunities.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

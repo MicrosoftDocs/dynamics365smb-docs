@@ -99,6 +99,6 @@ When you assign the profile questionnaire containing this question to a contact,
 
 ## Related information
 
-[Creating Contacts](marketing-create-contact-companies.md)  
+[Create Contacts](marketing-create-contact-companies.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

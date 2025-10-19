@@ -12,7 +12,7 @@ ms.reviewer: v-soumramani
 ms.custom: bap-template
 ---
 
-# Managing sales opportunities
+# Manage sales opportunities
 
 Any incoming lead can be considered a sales opportunity. You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.
 
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the articles th
 ## Related information
 
 [Sales](sales-manage-sales.md)  
-[Creating and Managing Contacts](marketing-contacts.md)  
+[Create and Manage Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -13,7 +13,7 @@ ms.reviewer: v-soumramani
 ms.custom: bap-template
 ---
 
-# Adding contacts to segments
+# Add contacts to segments
 
 After you create a segment, you might want to add contacts to it. You can add contacts by filling in the lines on the **Segment** page manually, but it's easier and faster to use the **Add Contacts** action.
 
@@ -54,8 +54,8 @@ You can reduce a segment as many times as you want. If you refined the segment b
 ## Related information
 
 [Create a Segment](marketing-how-create-segment.md)  
-[Managing Segments](marketing-segments.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Manage Segments](marketing-segments.md)  
+[Manage Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

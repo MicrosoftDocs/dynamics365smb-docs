@@ -30,8 +30,8 @@ You can now add contacts to the segment. Learn more at [Add Contacts to Segments
 
 ## Related information
 
-[Managing Segments](marketing-segments.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Manage Segments](marketing-segments.md)  
+[Manage Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

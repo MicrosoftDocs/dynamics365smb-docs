@@ -31,8 +31,8 @@ The following table describes a sequence of tasks, with links to the articles th
 
 ## Related information
 
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Managing Contacts](marketing-contacts.md)  
+[Manage Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Manage Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

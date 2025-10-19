@@ -33,6 +33,6 @@ The following table describes a sequence of tasks, with links to the articles th
 
 ## Related information
 
-[Relationship management reports in Business Central](marketing-reports.md) 
+[Relationship management reports in Business Central](marketing-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

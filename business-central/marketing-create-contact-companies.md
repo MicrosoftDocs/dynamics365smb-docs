@@ -117,8 +117,8 @@ There are three ways to enable data synchronization between contacts and custome
 
 ## Related information
 
-[Managing Contacts](marketing-contacts.md)  
-[Setting Up Contacts](marketing-setup-contacts.md)  
+[Manage Contacts](marketing-contacts.md)  
+[Set Up Contacts](marketing-setup-contacts.md)  
 [Use Online Maps to Find Locations and Directions](across-online-maps.md)  
 [Work with Business Central](ui-work-product.md)  
 

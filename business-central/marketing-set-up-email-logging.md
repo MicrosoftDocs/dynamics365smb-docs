@@ -130,7 +130,7 @@ The following steps assume that you use Microsoft Entra ID to manage identities 
 6. Choose **Overview**, and then find the **Application (client) ID** value. This value is the client ID of your application. You must enter it either in the **Client ID** field on the **Email Logging** page.
 7. In [!INCLUDE[prod_short](includes/prod_short.md)], set up email logging on the **Email Logging** page, or use the **Assisted Setup** guide for assistance.
 
-### Use Another Identity and Access Management Service
+### Use another identity and access management service
 
 If you aren't using Microsoft Entra ID to manage identities and access, you need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging."
 
@@ -164,6 +164,6 @@ If you aren't using Microsoft Entra ID to manage identities and access, you need
 
 ## Related information
 
-[Managing Relationships](marketing-relationship-management.md)  
+[Manage Relationships](marketing-relationship-management.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -184,9 +184,9 @@ When you find a duplicate contact, you can use the **Merge Contacts** action to 
 
 ## Related information
 
-[Managing Contacts](marketing-contacts.md)  
+[Manage Contacts](marketing-contacts.md)  
 [Create Contacts](marketing-create-contact-companies.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Manage Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

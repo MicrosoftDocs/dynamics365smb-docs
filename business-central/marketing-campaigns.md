@@ -53,7 +53,7 @@ Salespeople run campaigns, and you must create activities to represent each task
 ## Related information
 
 [Manage Contacts](marketing-contacts.md)  
-[ManageSegments](marketing-segments.md)  
+[Manage Segments](marketing-segments.md)  
 [Manage Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Work with Business Central](ui-work-product.md)  
 

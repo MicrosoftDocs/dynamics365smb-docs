@@ -8,7 +8,6 @@ ms.search.keywords: service items, service item components, service item groups,
 ms.date: 10/10/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ms.custom: bap-template
 ms.reviewer: v-soumramani
 ---

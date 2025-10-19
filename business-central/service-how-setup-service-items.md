@@ -12,6 +12,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ms.reviewer: v-soumramani
 ---
+
 # Set up service items and service item components
 
 To work with service items, first set up the following information:

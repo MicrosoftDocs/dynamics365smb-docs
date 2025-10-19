@@ -1,5 +1,5 @@
 ---
-title: How to Allocate Resources | Microsoft Docs
+title: How to allocate resources | Microsoft Docs
 description: Adjust the annual amount on a service contract or contract quote to ensure the correct amount is invoiced each year.
 author: brentholtorf
 ms.topic: how-to
@@ -145,7 +145,7 @@ You can cancel resource allocations for service tasks without reallocating the t
 
 ## Related information
 
-- [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
-- [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
+[Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
+[Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -21,7 +21,7 @@ When you define a service, you can associate it with the skills required to perf
 
 The following table describes a sequence of tasks, with links to the articles that describe them.  
   
-| To | See |
+| To | Go to |
 |--|--|
 | Set up codes that automatically assign lines on service documents for services you deliver often. | [Set Up Codes for Standard Services](service-how-setup-service-coding.md) |
 | Establish general settings that control aspects of Service Management Processes. | [Configure Service Processes](service-setup-service-processes.md) |
@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the articles th
 
 ## Related information
 
-- [Service Management](service-service.md)  
-- [Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Service Management](service-service.md)  
+[Get Ready for Doing Business](ui-get-ready-business.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

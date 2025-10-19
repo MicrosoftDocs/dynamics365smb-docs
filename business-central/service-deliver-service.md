@@ -1,5 +1,5 @@
 ---
-title: Overview of Tasks to Deliver Service | Microsoft Docs
+title: Overview of tasks to deliver service | Microsoft Docs
 description: Provides an overview of essential tasks to ensure high-quality service delivery and fulfillment of customer agreements.
 author: brentholtorf
 ms.topic: overview
@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Delivering service
+# Deliver service
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you deliver service according to the contracts that you created and the service orders that you committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
   
@@ -25,7 +25,7 @@ If needed, you can manage a loaner program for your customers. You can also dete
   
 The following table describes a sequence of tasks, with links to the articles that describe them.
   
-|**To**|**See**|  
+|**To**|**Go to**|  
 |------------|-------------|  
 |Create quotes that are drafts of service orders, and then convert the quotes to service orders.|[Create Service Quotes](service-how-to-create-service-quotes.md)|
 |Create documents that contain information about a service, such as repairs and maintenance, on service items.|[Create Service Orders](service-how-to-create-service-orders.md)|
@@ -37,8 +37,8 @@ The following table describes a sequence of tasks, with links to the articles th
   
 ## Related information
 
-- [Planning Service](service-plan-service.md)  
-- [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
-- [Managing Projects](projects-manage-projects.md)  
+[Plan Service](service-plan-service.md)  
+[Fulfill Service Contracts](service-fulfill-service-contracts.md)  
+[Manage Projects](projects-manage-projects.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

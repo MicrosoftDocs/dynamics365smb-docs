@@ -1,5 +1,5 @@
 ---
-title: Service Price Management
+title: Service price management
 description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
 author: brentholtorf
 ms.topic: how-to
@@ -73,7 +73,7 @@ The following table describes the calculations.
   
 ## Related information
 
-- [Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
-- [Set Up Service Management](service-setup-service.md)  
+[Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+[Set Up Service Management](service-setup-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

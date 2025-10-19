@@ -117,8 +117,8 @@ This feature doesn't require additional setup. However, if you upgrade your [!IN
 
 ## Related information
 
-- [Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
-- [Setting Up Service Management](service-setup-service.md)  
-- [Service Management](service-service.md)  
+[Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
+[Set Up Service Management](service-setup-service.md)  
+[Service Management](service-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

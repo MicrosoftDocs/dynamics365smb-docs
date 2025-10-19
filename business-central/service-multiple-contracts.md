@@ -1,5 +1,5 @@
 ---
-title: Multiple Contracts | Microsoft Docs
+title: Multiple contracts | Microsoft Docs
 description: You may need to manage a service item under multiple service contracts based on your agreements with customers.
 author: brentholtorf
 ms.topic: article
@@ -43,7 +43,7 @@ You can manually create a service order for a service item that is registered in
   
 ## Related information
 
-- [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
-- [Create Service Orders](service-how-to-create-service-orders.md)  
+[Fulfill Service Contracts](service-fulfill-service-contracts.md)  
+[Create Service Orders](service-how-to-create-service-orders.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

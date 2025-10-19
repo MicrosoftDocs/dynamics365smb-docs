@@ -1,5 +1,5 @@
 ---
-title: How to Lend Service Items as Substitutes | Microsoft Docs
+title: How to lend service items as substitutes | Microsoft Docs
 description: Lend customers loaner items to temporarily substitute service items received for servicing.
 author: brentholtorf
 ms.topic: how-to
@@ -44,6 +44,6 @@ You can use the **General Service Comment Sheet** page to register comments on r
   
 ## Related information
 
-[Set Up a Loaner Program](service-how-setup-loaner-program.md)
+[Set Up a Loaner Program](service-how-setup-loaner-program.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Service Statistics
+title: Service statistics
 description: Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
 author: brentholtorf
 ms.topic: how-to
@@ -118,8 +118,8 @@ You can use the **Service Credit Memo Statistics** page to get a statistical ove
 
 ## Related information
 
-- [Create Service Orders](service-how-to-create-service-orders.md)
-- [Create Service Items](service-how-to-create-service-items.md)
-- [Planning Service](service-plan-service.md)  
+[Create Service Orders](service-how-to-create-service-orders.md)
+[Create Service Items](service-how-to-create-service-items.md)
+[Plan Service](service-plan-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

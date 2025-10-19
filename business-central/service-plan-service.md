@@ -1,5 +1,5 @@
 ---
-title: Planning Service Processes
+title: Planning service processes
 description: Learn how to configure rules and values to establish your organization's service policies and processes.
 author: brentholtorf
 ms.topic: concept-article
@@ -29,11 +29,11 @@ The following table describes a sequence of tasks, with links to the articles th
 
 ## Related information
 
-- [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
-- [Delivering Service](service-deliver-service.md)  
-- [Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
-- [Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
-- [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
-- [Setting Up Service Management](service-setup-service.md)  
+[Fulfill Service Contracts](service-fulfill-service-contracts.md)  
+[Deliver Service](service-deliver-service.md)  
+[Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+[Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
+[Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
+[Set Up Service Management](service-setup-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

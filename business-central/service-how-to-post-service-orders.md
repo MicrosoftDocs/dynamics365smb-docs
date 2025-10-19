@@ -46,7 +46,7 @@ You can post consumption only if the line contains a quantity that shipped but i
 
 When you post the order, [!INCLUDE [prod_short](includes/prod_short.md)] creates the corresponding ledger entries and posted documents and updates the service order.  
 
-## To batch post service orders
+## Batch post service orders
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Orders**, and then choose the related link.  
 2. Choose the **Post Batch** action.  
@@ -119,7 +119,7 @@ You can cancel the consumption on the service orders. For example, because it wa
   
 > [!NOTE]  
 > You can't undo service consumption if:
-> 
+>
 > * The service order has been closed.  
 > * It was posted to a project, so there are project ledger entries linked to it.  
 
@@ -136,7 +136,7 @@ The following procedure describes shipment posting directly from a service order
 
 ## Related information
 
-- [Posting in Service Management](service-service-posting.md)  
-- [Create a Service Order](service-how-to-create-service-orders.md)  
+[Posting in Service Management](service-service-posting.md)  
+[Create a Service Order](service-how-to-create-service-orders.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

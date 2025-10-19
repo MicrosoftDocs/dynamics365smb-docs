@@ -27,6 +27,6 @@ This article describes the most used reports for service management.
 
 ## Related information
 
-[Service management](service-service.md)
+[Service management](service-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

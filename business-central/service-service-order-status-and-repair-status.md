@@ -1,5 +1,5 @@
 ---
-title: Service Order Status and Repair Status
+title: Service order status and repair status
 description: The service order status shows the overall repair status of all service items included in the order.
 author: brentholtorf
 ms.topic: article
@@ -86,7 +86,7 @@ For example, if one service item has the repair status **Initial**, linked to th
 
 ## Related information
 
-- [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
-- [Setting Up Service Management](service-setup-service.md)  
+[Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
+[Set Up Service Management](service-setup-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

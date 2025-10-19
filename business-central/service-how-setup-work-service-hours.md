@@ -48,15 +48,15 @@ If you don't set up specific service hours for the service contract, the default
   
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Contracts**, and then choose the related link.  
 2. Open the service contract you want to set up specific service hours for, and choose **Service Hours**.  
-4. To set up service hours based on default service hours, choose the **Copy Default Service Hours** action.  
-5. Edit the fields in the service hours entries. Insert or delete entries to set up the service hours for the contract. The fields **Day**, **Starting Time** and **Ending Time** are required for each line.  
-6. If you want the service hours to be valid from a specific date, fill in the **Starting Date** field.  
-7. If you want the service hours to be valid on holidays, select the check box in the **Valid on Holidays** field.  
+3. To set up service hours based on default service hours, choose the **Copy Default Service Hours** action.  
+4. Edit the fields in the service hours entries. Insert or delete entries to set up the service hours for the contract. The fields **Day**, **Starting Time** and **Ending Time** are required for each line.  
+5. If you want the service hours to be valid from a specific date, fill in the **Starting Date** field.  
+6. If you want the service hours to be valid on holidays, select the check box in the **Valid on Holidays** field.  
 
 ## Related information
 
-- [Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
-- [Setting Up Service Management](service-setup-service.md)  
-- [Understanding Service Order and Repair Status](service-order-repair-status.md)  
+[Understand Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
+[Set Up Service Management](service-setup-service.md)  
+[Understand Service Order and Repair Status](service-order-repair-status.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

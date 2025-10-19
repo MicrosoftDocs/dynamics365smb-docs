@@ -1,5 +1,5 @@
 ---
-title: How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs
+title: How to work with service contracts and service contract quotes | Microsoft Docs
 description: Create service contracts manually or from service contract quotes. You can generate a contract directly from an approved quote.
 author: brentholtorf
 ms.topic: how-to
@@ -139,8 +139,7 @@ You can add contract discounts on services for contract quotes and service contr
 You may need to change the owner of a service contract. If a service item in a service contract is registered in noncanceled multiple contracts owned by the same customer, then the owner of all service contracts that include this service item and of all other service items included in these contracts is updated automatically.  
 
 > [!NOTE]  
-> In this case, only noncanceled contracts are considered. The status of the contract quotes isn't taken into account.  
-
+> In this case, only noncanceled contracts are considered. The status of the contract quotes isn't taken into account.
 > [!IMPORTANT]  
 > Service items and contracts can be related. Changing the owner of a service contract can affect these relationships.  
 >
@@ -207,8 +206,8 @@ You can file service contracts and contract quotes at any time to record and arc
 
 ## Related information
 
-- [Set Up Service Contracts](service-how-setup-service-contracts.md)  
-- [Service Management](service-service.md)  
-- [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  
+[Set Up Service Contracts](service-how-setup-service-contracts.md)  
+[Service Management](service-service.md)  
+[Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

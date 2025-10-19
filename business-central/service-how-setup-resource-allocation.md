@@ -1,5 +1,5 @@
 ---
-title: Set Up Resource Allocation | Microsoft Docs
+title: Set up resource allocation | Microsoft Docs
 description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
 author: brentholtorf
 ms.topic: how-to
@@ -40,7 +40,7 @@ To use resource allocation, you must set up:
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## Assign zones to customers and resources
- 
+
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers** or **Resources**, and then choose the related link.  
 2. Open the card for the service item or resource, and then choose one of the following:  
   
@@ -80,9 +80,9 @@ If you want to change the skill codes assigned to items, for example from **PC**
   
 ## Related information
 
-- [Allocate Resources](service-how-to-allocate-resources.md)  
-- [Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)  
-- [Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
-- [Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
- 
+[Allocate Resources](service-how-to-allocate-resources.md)  
+[Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)  
+[Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
+[Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
+
 [!INCLUDE[footer-include](includes/footer-banner.md)]

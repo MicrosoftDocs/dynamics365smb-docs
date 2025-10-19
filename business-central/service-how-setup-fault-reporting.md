@@ -1,5 +1,5 @@
 ---
-title: Set Up Fault Reporting in Service Management
+title: Set up fault reporting in Service Management
 description: Set up fault reporting to standardize how you record faults, symptoms, reasons, and resolutions for service items using fault codes and related codes.
 author: brentholtorf
 ms.topic: how-to
@@ -42,7 +42,7 @@ To be able to see the most common methods of repair for particular item faults w
 
 ## Related information
 
-- [Setting Up Service Management](service-setup-service.md)  
-- [Service Management](service-service.md)  
+[Set Up Service Management](service-setup-service.md)  
+[Service Management](service-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

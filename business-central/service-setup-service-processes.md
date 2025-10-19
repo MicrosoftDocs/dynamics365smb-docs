@@ -1,5 +1,5 @@
 ---
-title: Set Up Service Management Processes
+title: Set up service management processes
 description: Learn how to set up processes that help ensure your customers are satisfied with your services.
 author: brentholtorf
 ms.author: bholtorf
@@ -63,11 +63,11 @@ You can use the **Document Layouts** page to specify who to send service quotes,
 
 ## Related information  
 
-- [Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
-- [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
-- [Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
-- [Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
-- [Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
-- [Service Management](service-service.md)  
+[Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
+[Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
+[Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
+[Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+[Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
+[Service Management](service-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

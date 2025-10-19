@@ -1,5 +1,5 @@
 ---
-title: Set Up Troubleshooting Processes | Microsoft Docs
+title: Set up troubleshooting processes | Microsoft Docs
 description: Learn how to set up processes that help service representatives identify and resolve issues with service items.
 author: brentholtorf
 ms.topic: troubleshooting-general

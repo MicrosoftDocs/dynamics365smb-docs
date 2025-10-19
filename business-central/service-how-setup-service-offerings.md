@@ -1,5 +1,5 @@
 ---
-title: Set Up Service Offerings
+title: Set up service offerings
 description: Learn how to define the services your organization offers and schedule them for customers as part of service management setup.
 author: brentholtorf
 ms.topic: article
@@ -17,13 +17,13 @@ When you set up service management, you must decide what services to offer custo
   
 The following table describes a sequence of tasks, with links to the articles that describe them.  
   
-|**To**|**See**|  
+|**To**|**Go to**|  
 |------------|-------------|  
 |Enter information about the service items that your service organization is tracking.|[Create Service Items](service-how-to-create-service-items.md)|  
 |Establish a workflow for service when the service item consists of several components. The component list is always connected to a service item, but these components can also be based on bill of materials (BOMs).|[Set Up Service Items and Service Item Components](service-how-setup-service-items.md)|  
   
 ## Related information
 
-[Setting Up Service Management](service-setup-service.md)
+[Set Up Service Management](service-setup-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

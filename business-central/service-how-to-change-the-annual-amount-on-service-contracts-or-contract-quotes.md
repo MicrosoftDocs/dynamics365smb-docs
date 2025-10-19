@@ -1,5 +1,5 @@
 ---
-title: Change the Annual Amount on Service Contracts or Contract Quotes
+title: Change the annual amount on service contracts or contract quotes
 description: Learn how to update the annual invoiced amount on service contracts or contract quotes in Business Central.
 author: brentholtorf
 ms.topic: how-to
@@ -152,7 +152,7 @@ Finally, the contract lines contain this data.
 
 ## Related information
 
-- [Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
-- [Setting Up Service Management](service-setup-service.md)  
+[Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Set Up Service Management](service-setup-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

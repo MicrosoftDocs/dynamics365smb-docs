@@ -1,5 +1,5 @@
 ---
-title: How to Set Up Loaners | Microsoft Docs
+title: How to set up loaners | Microsoft Docs
 description: Set up loaner items to lend to customers as temporary replacements while their service items are being repaired.
 author: brentholtorf
 ms.topic: how-to
@@ -28,8 +28,8 @@ Sometimes you must provide a customer a loaner item for use when your customer s
   
 ## Related information
 
-- [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)  
-- [Setting Up Service Management](service-setup-service.md)  
-- [Delivering Service](service-deliver-service.md)  
+[Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)  
+[Set Up Service Management](service-setup-service.md)  
+[Deliver Service](service-deliver-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

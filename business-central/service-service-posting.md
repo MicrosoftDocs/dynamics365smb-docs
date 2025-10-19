@@ -1,5 +1,5 @@
 ---
-title: Service Posting
+title: Service posting
 description: Service posting enables efficient processing of service documents and helps maintain a strong customer service policy.
 author: brentholtorf
 ms.topic: how-to
@@ -57,7 +57,7 @@ The following procedure uses a posted service invoice as an example, but the sam
 
 ## Related information
 
-- [Post Service Orders](service-how-to-post-service-orders.md)
-- [Create Service Orders](service-how-to-create-service-orders.md)
+[Post Service Orders](service-how-to-post-service-orders.md)  
+[Create Service Orders](service-how-to-create-service-orders.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

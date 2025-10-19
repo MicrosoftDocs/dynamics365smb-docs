@@ -1,5 +1,5 @@
 ---
-title: Set Up Pricing and Costs for Services
+title: Set up pricing and costs for services
 description: Learn how to use pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders.
 author: brentholtorf
 ms.topic: how-to
@@ -25,7 +25,7 @@ You can set up groups containing service items that you want to receive the same
 2. Create a new service price group.  
 3. Fill in the **Code** and **Description** fields.  
 4. Choose the **Setup** action.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
  > [!Tip]
  > The **Adjustment Type** and **Amount** fields work together to specify whether an adjustment concerns a fixed amount, or applies only when the total service price exceeds or is lower than the amount in the **Amount** field.  
@@ -64,7 +64,7 @@ When you work with service items and service orders, you may need to register ad
 
 ## Related information
 
-- [Setting Up Service Management](service-setup-service.md)  
-- [Service Management](service-service.md)  
+[Set Up Service Management](service-setup-service.md)  
+[Service Management](service-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

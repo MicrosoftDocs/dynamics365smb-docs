@@ -1,5 +1,5 @@
 ---
-title: Service Management
+title: Service management
 description: Learn to use features in Business Central designed to support service operations.
 author: brentholtorf
 ms.author: bholtorf
@@ -37,8 +37,8 @@ The following table describes a sequence of tasks, with links to the articles th
 
 ## Related information  
 
-- [Managing Receivables](receivables-manage-receivables.md)  
-- [Projects](projects-how-create-jobs.md)  
+[Managing Receivables](receivables-manage-receivables.md)  
+[Projects](projects-how-create-jobs.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

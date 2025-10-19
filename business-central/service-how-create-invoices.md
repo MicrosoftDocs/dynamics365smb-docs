@@ -1,5 +1,5 @@
 ---
-title: Create Invoices or Credit Memos for Services
+title: Create invoices or credit memos for services
 description: Learn how to create invoices and credit memos for your services.
 author: brentholtorf
 ms.author: bholtorf
@@ -113,8 +113,8 @@ When you delete a service invoice, the following things happen:
 
 ## Related information
 
-- [Post Service Invoices](service-how-to-post-service-orders.md)  
-- [Setting Up Service Management](service-setup-service.md)  
-- [Service Posting](service-service-posting.md)  
+[Post Service Invoices](service-how-to-post-service-orders.md)  
+[Set Up Service Management](service-setup-service.md)  
+[Service Posting](service-service-posting.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

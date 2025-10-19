@@ -1,5 +1,5 @@
 ---
-title: Set Up Codes for Standard Services
+title: Set up codes for standard services
 description: Learn how to set up codes for regularly performed service activities with a predefined set of service lines.
 author: brentholtorf
 ms.topic: how-to
@@ -32,6 +32,6 @@ When you perform typical service, you often have to create service documents tha
 
 ## Related information
 
-[Service Management](service-service.md)
+[Service Management](service-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

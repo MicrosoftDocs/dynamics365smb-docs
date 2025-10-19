@@ -1,5 +1,5 @@
 ---
-title: Set Up Statuses for Service Orders and Repairs | Microsoft Docs
+title: Set up statuses for service orders and repairs | Microsoft Docs
 description: Set up nine distinct repair status options to track the progress of service item repairs and maintenance in service orders.
 author: brentholtorf
 ms.topic: how-to
@@ -44,7 +44,7 @@ Repeat these steps for each of the repair status options you want to create.
 
 ## Related information
 
-- [Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)  
-- [Setting Up Service Management](service-setup-service.md)  
+[Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)  
+[Set Up Service Management](service-setup-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

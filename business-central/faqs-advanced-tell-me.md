@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Advanced Tell Me (preview)
 description: Learn about the AI technology behind Advanced Tell Me semantic search. Get an overview, evaluation metrics, limits, mitigations, data use, security details, and feedback steps.
-ms.date: 09/30/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs
@@ -87,12 +87,6 @@ You can report poor or unexpected results through standard feedback and support 
 
 If prerequisites (like activation) aren’t met, the **Advanced** tab doesn't appear.
 
-## What data does Advanced Tell Me use? Does it train on my data?
-
-It works on product metadata already present in the environment (captions, descriptions, search terms). Query text and interaction signals might be logged for service quality and safety. Microsoft doesn't use your company business data to train foundational AI models for the benefit of others.
-
-Avoid entering sensitive data (passwords, secrets) into search queries.
-
 ## What does Advanced Tell Me offer for security and compliance?
 
 - Runs under the signed-in user’s identity and respects existing permissions.
@@ -117,6 +111,8 @@ Use normal support or preview feedback channels to report:
 - Ranking issues (correct item too low)
 
 Include the exact query and the object you expected.
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

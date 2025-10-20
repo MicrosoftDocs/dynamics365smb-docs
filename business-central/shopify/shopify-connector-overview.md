@@ -6,7 +6,7 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords:
-ms.date: 07/14/2025
+ms.date: 10/20/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -25,7 +25,7 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
   - Each shop has its own setup, including a collection of products and locations used to calculate inventory and price lists.  
 - Bidirectional synchronization of items or products.
   - The connector synchronizes images, item variants, bar codes, vendor item numbers, tags, and metafields.  
-  - Export item attributes, extended and marketing texts, item translations to Shopify.
+  - Export item attributes, extended and marketing texts, and item translations to Shopify.
   - Activate the sales channels to use when you sync products from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
   - Use selected customer price groups and discounts to define prices exported to Shopify.
   - Define prices and discounts for product catalogs linked to B2B companies and markets.
@@ -41,15 +41,15 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
 - Import orders from Shopify
   - Include orders created in various sales channels, such as online stores, **Shopify POS**, or **B2B**.
   - Shipping costs, gift cards, tips, shipping and payment methods, payment terms and transactions, PO number, risk of fraud, return, refund, or cancellation information.
-  - During import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify and use default customer in created orders.  
+  - During import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)], or decide to manage customers in Shopify and use a default customer in orders you create.  
   - Receive payout information from Shopify Payments.
 - Track fulfillment information.
   - Optionally, choose to transfer item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
 - Export posted sales invoices
   - Buyers can sign in to Shopify and access all their invoices, regardless of which app they were created in.
 - Integrate easily.
-  - Enable automatic synchronization of products, inventory, orders, fulfillments, and more via Joq Queues.
-  - Rich logging capabilities that help with troubleshooting if needed.
+  - Enable automatic synchronization of products, inventory, orders, fulfillments, and more via the job queue.
+  - Enable rich logging capabilities that can help with troubleshooting, if needed.
 
 ## Why did Microsoft and Shopify form a partnership?
 

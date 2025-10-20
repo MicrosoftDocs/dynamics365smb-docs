@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 07/14/2025
+ms.date: 10/20/2025
 ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -438,9 +438,9 @@ If you use Markets in Shopify, you can set up the connector to sync prices for S
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Market Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
 
-Market can represent region, POS Location or Company Location (B2B). 
+A market can represent a region, POS location, or company location (B2B).
 
-#### Sync prices for Market Catalog
+#### Sync prices for market catalogs
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Market Catalogs**, and select the related link.
 2. On the **Shopify Market Catalogs** page, select the entry where you want to define and export prices. Fill in the fields as needed. The following table describes the fields.

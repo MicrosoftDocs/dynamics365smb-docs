@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
-ms.date: 05/15/2024
+ms.date: 10/20/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -66,11 +66,11 @@ The following steps describe how to add a fixed asset from a purchase order. The
 5. In the **No.** field, either choose an existing fixed asset to add an expense, or choose **New** to add a new asset.
 6. After you enter the information for the new asset and the purchase order, choose **Post**.
 
-### Create multiple fixed asset cards with a purchase order or invoice
+### Create multiple fixed assets with a purchase order or invoice
 
-You can create multiple fixed asset cards automatically during purchase invoice posting. For example, if your company purchases 200 computers of the same kind from the same vendor, you don't have to manually create a fixed asset card for each computer; the fixed asset cards can be created automatically.  
+You can create multiple fixed assets automatically when you post a purchase invoice. For example, if your company purchases 200 computers of the same kind from the same vendor, you don't have to manually create a fixed asset card for each computer. [!INCLUDE [prod_short](includes/prod_short.md)] can create the fixed assets automatically.  
 
-#### Create multiple fixed asset cards  
+#### Create multiple fixed assets  
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 1. Choose the **Lists** action, and then choose the **Fixed Assets** action.  
@@ -81,20 +81,19 @@ You can create multiple fixed asset cards automatically during purchase invoice 
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 1. Create a new purchase order, or open the existing purchase order.  
-1. Expand the **Lines** FastTab.  
-1. Fill in the fields as described in the following table.  
+1. On the **Lines** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select **Fixed Asset**.|  
     |**No.**|Specify the fixed asset number.<br><br/> **NOTE:** This should be the same fixed asset number that you entered in the **Fixed Asset** list.|  
-    |**No. of Fixed Asset Cards**|Specify the relevant number of duplicates for your fixed asset.<br><br/> **NOTE:** During invoice posting, duplicate fixed asset cards are automatically generated and added to the fixed asset list. The only difference between the duplicate fixed asset cards is the number assigned to each fixed asset.|  
+    |**No. of Fixed Asset Cards**|Specify the number of duplicates fixed assets to create.<br><br/> **NOTE:** When you post the invoice, duplicate fixed assets are automatically generated and added to the fixed assets list. The only difference between the duplicate fixed asset cards is the number assigned to each fixed asset.|  
 
-1. Choose the **OK** button. 
+1. Choose the **OK** button.
 
 ## Acquire a fixed asset by using a fixed asset G/L journal
 
-The following procedure describes how to acquire by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. To learn more, go to [Acquire a fixed asset by using a fixed asset G/L journal](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
+The following procedure describes how to acquire a fixed asset by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. To learn more, go to [Acquire a fixed asset by using a fixed asset G/L journal](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.
 1. Choose the asset you want to acquire, and then choose the **Acquire** action.

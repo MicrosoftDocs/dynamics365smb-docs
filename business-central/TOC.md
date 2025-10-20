@@ -1136,6 +1136,22 @@ ms.service: dynamics-365-business-central
 ##### [Use documents to count and adjust inventory ](inventory-how-count-inventory-with-documents.md)
 ##### [Count, adjust, and reclassify inventory](inventory-how-count-adjust-reclassify.md)
 
+## Quality management
+### [Quality Management overview](qms-overview.md)
+### [Quality Management setup and configuration](qms-setup.md)
+### [Assisted setup guide](qms-assisted-setup-wizard.md)
+### [Configure quality inspection grades](qms-configuring-grades.md)
+### [Create quality inspection templates](qms-quality-templates.md)
+### [Set up test generation rules](qms-test-generation-rules.md)
+### [Quality workflows](qms-quality-workflows.md)
+### [Purchase receipt testing without warehouse tracking](qms-purchase-receipt-testing-simple.md)
+### [Purchase receipt testing with warehouse tracking](qms-purchase-receipt-testing-warehouse.md)
+### [Production output quality testing](qms-production-output-testing.md)
+### [Manual test creation](qms-manual-test-creation.md)
+### [Scheduled test creation](qms-scheduled-test-creation.md)
+### [Lot blocking and unblocking](qms-lot-blocking-unblocking.md)
+### [Non-compliant processing](qms-non-compliant-processing.md)
+
 ## Service management
 ### [Service management](service-service.md)
 ### Service management analytics

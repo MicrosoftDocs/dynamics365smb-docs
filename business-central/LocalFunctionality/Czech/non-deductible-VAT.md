@@ -30,7 +30,7 @@ You can set the value of the coefficient for the whole company in one place. The
 
 ## Enable non-deductible VAT features
 
-You enable non-deductible VAT features on the **VAT Setup** page by turning on the **Enable Non-Deductible VAT** toggle. By checking the **Enable Non-Deductible VAT** box, you activate the standard functionality for non-deductible VAT. To enable the CZ extension of this functionality, also select **Enable Non-Deductible VAT CZ**. The standard functionality of non-deductible VAT will automatically be extended for the needs of Czech accounting and reporting. Additional related fields for settings will be activated.
+You enable non-deductible VAT features on the **VAT Setup** page by turning on the **Enable Non-Deductible VAT** toggle. When you select the **Enable Non-Deductible VAT** checkbox, you activate the standard functionality for non-deductible VAT. To enable the Czech extension of this functionality, also select **Enable Non-Deductible VAT CZ**. The standard functionality of non-deductible VAT is automatically extended for Czech accounting and reporting. Other related fields for settings are activated.
 
 > [!NOTE]
 > When you turn on the **Enable Non-Deductible VAT** toggle, the fields related to non-deductible VAT are enabled and you can't turn them off.

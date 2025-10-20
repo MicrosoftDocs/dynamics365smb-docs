@@ -1,7 +1,7 @@
 ---
 title: FAQ for Payables Agent
 description: Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 06/04/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -21,7 +21,7 @@ These frequently asked questions (FAQ) describe the AI impact of Payables Agent 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
-## What is the Payables Agent? 
+## What is the Payables Agent?
 
 The Payables Agent is an integrated copilot with agent capabilities that automates the task of creating purchase invoices. It starts by receiving a vendor's invoice attached to an e-mail. The agent analyzes the email attachment content, identifies the vendor from the registered list in Business Central, and prepares a draft purchase invoice with the requested invoice lines. It also offers the capability to help with vendor creation as part of this process. 
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: faq
 ms.search.form:
-ms.date: 04/01/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -89,7 +89,7 @@ This feature is built in accordance with Microsoft's Responsible AI Standard. Le
 
 If your industry or domain overlaps with what Microsoft considers sensitive topics (such as drugs, violence, adult entertainment, and so on) Copilot might defer to neutral, curated responses, or give inaccurate responses.
 
-Sales line suggestions only populates fields where the **Type** is **Item**, and the **No.**, **Unit of Measure**, and **Quantity**. Other fields, including **Unit Price** and **Location**, use the current logic and are filled in either based on item settings or values from the document header.
+The sales line suggestions feature only populates fields where the **Type** is **Item**, and the **No.**, **Unit of Measure**, and **Quantity**. Other fields, including **Unit Price** and **Location**, use the current logic and are filled in either based on item settings or values from the document header.
 
 The **Variant Code** isn't currently supported. If you can ship a product in two different colors, for example, Copilot finds the product but leaves the **Variant Code** field empty. You need to fill in the field manually.
 
@@ -161,6 +161,8 @@ No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] 
 ## How do I give feedback about AI-generated content?  
 
 Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.  
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

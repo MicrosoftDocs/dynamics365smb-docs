@@ -43,17 +43,27 @@ To create compensation, follow these steps:
 
 ### About the Propose compensation lines action
 
+![Compensation Proposal](Media/compensation-proposal.png "Compensation Proposal")
+
 1. Select the **Propose compensation lines** action to open the **Compensations Proposal** tab.
 2. In this section, you select the customer document and the vendor document you want to use for compensation. To make a selection, choose **Customer Ledger Entries** to get the option to select or clear the checkbox for specific invoices. The same is true on the vendor side.
-3. To add options to the rows, select **OK**.
-4. Choose the **Release** action to release the compensation, use the **Print** action to print the compensation, and the **Send** action to send the compensation to the other side for signature.
-5. You can only post the compensation using the **Post** action after the other side received the signed the compensation.
-6. After posting, you can go to the **Posted compensation** tab and print a mutual agreement to perform the compensation.
+3. Choose the **Recalculate Balance** action. The **Total Balance (LCY)** field is current.
+4. To add options to the rows, select **OK**.
 
 ### Manual row settings
 
-1. On the **Compensations** tab, go to the compensation rows and fill in the **Source Type** and **Source Entry No.** fields.
-2. To issue the compensation, choose the **Release** action.
+On the **Compensations** tab, go to the compensation rows and fill in the **Source Type** and **Source Entry No.** fields.
+
+## Correction amounts on the Lines
+
+You can manually edit the **Amount** field, or use the **Apply Document Balance** action to adjust the values so that the total sum of Amount fields is zero. The action doesn't include rows that are marked as **Manual Change Only**.
+
+### Release and posting
+
+Choose the **Release** action to release the compensation, use the **Print** action to print the compensation, and the **Send** action to send the compensation to the other side for signature.
+You can only post the compensation using the **Post** action after the other side received the signed the compensation.
+
+After posting, you can go to the **Posted compensation** tab and print a mutual agreement to perform the compensation.
 
 ## Check the posted compensation
 

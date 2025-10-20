@@ -55,7 +55,7 @@ For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], thi
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Choose the **New** action.  
 3. In the **Code** field, enter a code that is easy to find in [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the name might reflect what a shop sells, such as "Furniture" or "Coffee," or the country or region it serves.
-4. In the **Shopify URL** field, enter the URL of the online shop that you're connecting. Use the following format: **https://{shop}.myshopify.com/**. You can build the URL by combining the store ID from the admin URL. For example, **admin.shopify.com/store/{shop}** and **.myshopify.com**.
+4. In the **Shopify Admin URL** field, enter the URL of the online shop that you're connecting. Use the following format: **https://{shop}.myshopify.com/**. You can build the URL by combining the store ID from the admin URL. For example, **admin.shopify.com/store/{shop}** and **.myshopify.com**.
 
    > [!TIP]
    > You can copy the URL from Shopify Admin, like **https://admin.shopify.com/store/{shop}**, and the connector converts it to the required format.

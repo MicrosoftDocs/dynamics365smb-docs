@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 07/14/2025
+ms.date: 10/20/2025
 ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -75,9 +75,6 @@ There are multiple ways to export items to Shopify:
 No matter how you export items, specific item information is transferred to the Shopify products list depending on your choice of settings for item synchronization.
 
 Before it exports an item to Shopify, the connector checks whether an item already exists. First, it checks whether there's a product or variant with a barcode, because it's defined in the **Item References** entry of a barcode type. If the **SKU Mapping** field is filled in, the connector checks whether there's a product or variant with a SKU. To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
-
-> [!IMPORTANT]
-> The product is added only to the **Online Store** sales channel. You need to publish products to other sales channels, like Shopify POS, from Shopify.
 
 You manage the process of exporting items using these settings:
 
@@ -292,14 +289,19 @@ Alternatively, you can sync one item by choosing the **Add to Shopify** action i
 
 If your products in Shopify have variants, but the list of items is flat on the [!INCLUDE [prod_short](../includes/prod_short.md)] side you can use the **Add item as Variant** action on the **Variants** FastTab of the **Shopify Products** page.
 
-Items are added as Shopify variants under the existing product option. For example, color, material, or title, if the product only had the default variant. If the Shopify product has more than one option, you can't add the item as a Shopify variant.
+Shopify always creates a variant for each product, even if none are explicitly defined. This default variant is labeled *Default Title*. When you add additional variants through **Shopify Admin**, this technical default entry is automatically removed.
+
+However, the Shopify connector follows slightly different logic. When the first item is added to Shopify as a product, the Default Title variant is created both in Shopify and in [!INCLUDE [prod_short](../includes/prod_short.md)]. Later, when you use the **Add Item as Shopify Variants** action, the selected item is added as a new variant. The original Default Title variant is retained to represent the original item and includes its SKU, barcode, and price. As a result, a product that initially had no variants becomes a product with two:
+
+ - One variant reflects the characteristics of the original product.
+ - The second variant inherits details from the newly added item.
+
+If you add item as a variant to product that already has options/variants defined, then items are added as Shopify variants under the existing product option. For example, color, material, or title, if the product only had one default variant. If the Shopify product has more than one option, you can't add the item as a Shopify variant.
 
 > [!NOTE]
 > You can add item as variants if it has its own item variants, however, only the item itself is added, and not item variants.
 >
 > You can't add an item as a variant if the **UOM as Variant** toggle is turned on on the **Shopify Shop Card** page.
->
-> Shopify always creates a variant, even if you haven’t defined any. This variant is called **Default title**. When you add more variants via **Shopify Admin**, this technical variant entry is deleted. The Shopify connector runs similar logic. When the first item is added to Shopify as a product, the Default title variant is added to Shopify and to Business Central. When you run the **Add Item as Shopify Variants** action, the selected item is added as a variant and the default variant is deleted in both Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)].
 >
 > When it adds an item as a variant, the connector doesn’t search by SKU or barcode.
 
@@ -361,11 +363,11 @@ You can start image synchronization in the ways described in the next sections i
 
 ## Sync prices with Shopify
 
-The connector for Shopify allows you to sync product pricing to your Shopify store. 
+The Shopify Connector allows you to sync product pricing to your Shopify store. 
 
 It can send both the main selling price (shown as **Price** in Shopify) and the original, non-discounted price (displayed as **Compare at Price**) to the Shopify Product (Shopify Variant) pages. Learn more at [Synchronize market-specific prices with Shopify](#sync-prices-to-the-shopify-products-page).
 
-If you use Markets in Shopify, which can represent different countries/regions, B2B companies, or POS locations—you can link product catalogs to these markets and sync market-specific prices through the connector. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify).
+If you use Markets in Shopify, which can represent different countries/regions, B2B companies, or POS locations - you can link product catalogs to these markets and sync market-specific prices through the connector. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify).
 
 For Shopify PLUS merchants, there is an additional option to connect catalogs to company locations, making it easier to manage B2B pricing scenarios. Learn more at [Synchronize market-specific prices with Shopify](#synchronize-market-specific-prices-with-shopify).
 
@@ -392,7 +394,7 @@ To export prices for synchronized items do following:
 >
 > * When it determines a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. However, the lowest price logic ignores the unit price defined on the item card if a price is defined in the price group. This is true even if the unit price from the item card price is lower.
 > * To calculate prices, the connector creates a temporary sales quote for the item with a quantity of 1, and uses standard price calculation logic. Only prices and discounts that are applicable for quantity 1 are used. You can't export different prices or discounts based on quantity.
-> * The connector sends a request to update prices in Shopify if the price in [!INCLUDE[prod_short](../includes/prod_short.md)] changed. For example, if you synchronized products and prices and then changed a price in Shopify, choosing the **Sync Prices to Shopify** action doesn't affect the price in the Shopify because the new price calculated by the connector is the same as the price stored in the Shopify Variant from the previous sync. The **Compare at Price** is updated only if the main price changed.
+> * The connector sends a request to update prices in Shopify if the price in [!INCLUDE[prod_short](../includes/prod_short.md)] changed. For example, if you synchronized products and prices and then changed a price in Shopify, choosing the **Sync Prices to Shopify** action doesn't affect the price in the Shopify because the new price calculated by the connector is the same as the price stored in the Shopify Variant from the previous sync. 
 > * If there are 100 or more prices to be updated, the connector executes update asynchronously. You can check the status of the synchronization in the **Shopify Bulk Operations** page.
 
 ### Price synchronization for B2B
@@ -401,16 +403,16 @@ To export prices for synchronized items do following:
 
 If you use Shopify B2B, you can configure the Connector to synchronize prices for Shopify Catalogs linked to B2B customers.
 
-#### Synchronize catalogs from the Shopify
+#### Synchronize B2B catalogs from the Shopify
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify B2B Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
 
 You can only access catalogs linked to B2B companies. To learn more, go to [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't contain information about products. You manage catalog content in Shopify Admin.
 
 #### Sync prices for B2B Catalog
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify B2B Catalogs**, and select the related link.
 2. Select the entry for which to define and export prices, and then fill in the fields as necessary.
 
    You can use two strategies. One is the default strategy, where you can use settings similar to the ones for synchronizing the **Price** and **Compare at Price** fields for Shopify products (Shopify variant). The following table describes settings for the default strategy.
@@ -422,20 +424,26 @@ You can only access catalogs linked to B2B companies. To learn more, go to [B2B 
    |**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
    |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. Learn more at [Set up Taxes](setup-taxes.md).|
    |**VAT Business Posting Group**|Only needed if you want to include taxes into price. Here you can specify which VAT business posting group is used to calculate prices with taxes in Shopify. Use your group for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
-
+   
    The second strategy is to use the **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
 
-3. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
+4. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
 
 ### Synchronize market-specific prices with Shopify
 
 If you use Markets in Shopify, you can set up the connector to sync prices for Shopify catalogs that link to those markets.
 
-To sync catalogs from Shopify, select **Get Market Catalogs** on the **Shopify Market Catalogs** page.
+#### Synchronize market catalogs from the Shopify
 
-To sync prices for market catalogs, follow these steps:
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Market Catalogs**, and select the related link.
+2. Select **Get Catalogs**.
 
-1. On the **Shopify Market Catalogs** page, select the entry where you want to define and export prices. Fill in the fields as needed. The following table describes the fields.
+A market can represent a region, POS location, or company location (B2B).
+
+#### Sync prices for market catalogs
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Market Catalogs**, and select the related link.
+2. On the **Shopify Market Catalogs** page, select the entry where you want to define and export prices. Fill in the fields as needed. The following table describes the fields.
 
    |Field|Description|
    |------|-----------|
@@ -446,7 +454,7 @@ To sync prices for market catalogs, follow these steps:
    |**VAT Business Posting Group**|Only needed if you want to include taxes into price. Here you can specify which VAT business posting group is used to calculate prices with taxes in Shopify. Use your group for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
    |**Currency Code**|Specifies the currency code for the catalog. The specified currency must have exchange rates configured. If catalog uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], the field will be empty.|
 
-2. Enter the settings, turn on the **Sync Prices** toggle, and then select **Sync Prices** to synchronize catalog prices.
+3. Enter the settings, turn on the **Sync Prices** toggle, and then select **Sync Prices** to synchronize catalog prices.
 
 ## Sync inventory to Shopify
 

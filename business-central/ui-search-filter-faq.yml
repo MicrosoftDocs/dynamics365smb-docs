@@ -7,7 +7,7 @@ metadata:
   ms.reviewer: bholtorf
   ms.search.keywords: keyboarding, productivity, how do i, filter pane
   ms.search.form: TellMe
-  ms.date: 12/19/2024
+  ms.date: 10/13/2025
   ms.author: bholtorf
   ms.service: dynamics-365-business-central
 title: Searching and filtering FAQ
@@ -37,14 +37,14 @@ sections:
       - question: |
           Is the filter pane available on all lists?
         answer: |
-          The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane isn't yet available for lists that display as parts. For example, FactBoxes or Role Center parts, or for lists that display as dialogs, such as in lookups. When a list is embedded on a page, such as sales lines on a sales order, the filter pane is available when focusing on that list using the focus mode button. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).
+          The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane isn't yet available for lists that display as parts. For example, FactBoxes or Role Center parts, or for lists that display as dialogs, such as in lookups. When a list is embedded on a page, such as sales lines on a sales order, the filter pane is available when focusing on that list using the focus mode button. Learn more in [Focusing on Line Items](ui-enter-data.md#Focus).
           
       - question: |
           How can I save my filters?
         answer: |
-          Your filters and adjustments to predefined filters are remembered throughout the session (while you remain signed in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the ![Save View](media/save_view_icon.png "Save View") icon in the filter pane. For more information, see [List Views FAQ](ui-views-faq.yml). Unlike filters, search text isn't kept when you leave a page and isn't saved when you save a view.
+          Your filters and adjustments to predefined filters are remembered throughout the session (while you remain signed in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the ![Save View](media/save_view_icon.png "Save View") icon in the filter pane. Learn more in [List Views FAQ](ui-views-faq.yml). Unlike filters, search text isn't kept when you leave a page and isn't saved when you save a view.
           
-          On report request pages, you can also save filters or use predefined filters. For more information, see [Use Saved Settings](ui-work-report.md#SavedSettings).
+          On report request pages, you can also save filters or use predefined filters. Learn more in [Use Saved Settings](ui-work-report.md#SavedSettings).
           
       - question: |
           Are filters the same as Advanced Filters and Limit Totals in Microsoft Dynamics NAV?
@@ -66,7 +66,7 @@ sections:
         answer: |
           There's a time-limit for how long search operations can take. First, try changing the search criteria and search again. If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, contact your system administrator, because an administrator can increase the time-limit for searches.
           
-          As an on-premises administrator, you increase the time-limit on searches by changing the **Search Timeout** setting of [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in the Business Central Developer and IT Pro Help.
+          As an on-premises administrator, you increase the time-limit on searches by changing the **Search Timeout** setting of [!INCLUDE[prod_short](includes/prod_short.md)] server. Learn more in [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in the Business Central Developer and IT Pro Help.
           
       - question: |
           Does Microsoft plan to extend the filter pane experience?

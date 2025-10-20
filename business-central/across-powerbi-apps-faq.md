@@ -67,7 +67,7 @@ To learn more, go to [Get the latest data (refresh the semantic model)](./across
 
 All Power BI semantic models read dimension records from **PowerBI Flat Dim. Set Entry** (Table 36954). This is a different table from the standard **Dimension Set Entries** table.
 
-**PowerBI Flat Dim. Set Entry** is has flattened dimension set entry records that are purpose-built for PBI reporting. The table is updated periodically by the **Update Dim. Set Entries** job queue entry (Codeunit 36952).
+The **PowerBI Flat Dim. Set Entry** table has flattened dimension set entry records that are purpose-built for PBI reporting. The **Update Dim. Set Entries** job queue entry (Codeunit 36952) periodically updates the table.
 
 This job queue entry is created automatically when you finish the **Connect to Power BI** assisted setup guide. If you haven't finished the guide, you can go to the **Power BI Report Setup** page and choose the **Schedule Power BI Dimension Refresh** action.
 

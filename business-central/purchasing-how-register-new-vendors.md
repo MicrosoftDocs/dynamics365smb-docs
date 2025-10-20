@@ -18,7 +18,7 @@ Vendors provide the products you sell. Each vendor you purchase from must be reg
 
 Before you register new vendors, you must set up various purchase codes to select from when you fill in vendor cards. After all the required master data is created, you can add unique characteristics for a vendor, such as prioritize the vendor for payment purposes or list items that the vendor and other vendors supply. Another group of setup tasks for vendors is to record your agreements concerning discounts, prices, and payment methods. Learn more in [Setting Up Purchasing](purchasing-setup-purchasing.md).
 
-Vendor cards hold the information required to buy products from each vendor. Learn more in[Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
+Vendor cards hold the information required to buy products from each vendor. Learn more in [Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
 <br /><br />  
 
 > [!Video https://learn-video.azurefd.net/vod/player?id=7188b662-bc49-45ef-8152-82898076b235]

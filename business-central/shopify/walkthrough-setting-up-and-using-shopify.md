@@ -38,12 +38,12 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then select the related link.
 2. Select the **New** action.
 3. In the **Code** field, enter **DEMO1**.
-4. In the **Shopify URL** field, enter the URL for the online shop that you want to connect to.
+4. In the **Shopify Admin URL** field, enter the URL for the online shop that you want to connect to.
 5. Activate the **Enabled** toggle and then review and accept the terms and conditions.
 
 To configure the Shopify shop, follow these steps:
 
-1. Turn off the **Allow Background Syncs** toggle.
+1. Turn off the **Run Syncs in Background** toggle.
 2. Select *To Shopify* in the **Sync Item** field.
 3. Select *To Shopify* in the **Sync Item Images** field.
 4. Turn on the **Sync Item Attributes** toggle.
@@ -362,12 +362,12 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], follow the steps listed ne
 2. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then select the related link.
 3. Select **New**.
 4. In the **Code** field, enter **DEMO2**.
-5. In the **Shopify URL** field, enter the URL to the online shop that you want to connect to.
+5. In the **Shopify Admin URL** field, enter the URL to the online shop that you want to connect to.
 6. Turn on the **Enabled** toggle, and then review and accept the terms and conditions.
 
 Configure the Shopify shop as described here:
 
-1. Turn off the **Allow Background Syncs** toggle.
+1. Turn off the **Run Syncs in Background** toggle.
 2. In the **Sync Item** field, select **From Shopify**.
 3. Turn on the **Auto Create Unknown Items** toggle.
 4. Fill in the **Item Template Code** field with the appropriate template.

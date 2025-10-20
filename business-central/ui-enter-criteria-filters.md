@@ -1,12 +1,12 @@
 ---
 title: Sort, search, and filter data in lists, reports, or XMLports
-description: Learn how to work efficiently in lists by searching across your data, sorting columns, and refining results by using filter symbols and keyboard shortcuts.
+description: Learn to work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.
 author: jswymer
 ms.author: jswymer
 ms.topic: article
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
-ms.date: 02/12/2025
+ms.date: 10/13/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
@@ -40,7 +40,7 @@ To sort a list, follow one of these steps:
 
 ## Searching
 
-At the top of each list page is a ![Search list.](media/ui-search/search-list.png "Search list icon") **Search** button that provides a quick and easy way to reduce the number of records in a list and show only those records that contain the data that you're interested in.
+The ![Search list.](media/ui-search/search-list.png "Search list icon") **Search** button at the top of each list page provides a quick and easy way to reduce the number of records in a list and show only those records that contain the data that you're interested in.
 
 To search, select the **Search** button or the <kbd>F3</kbd> key on your keyboard. Then enter the text that you're looking for in the search field. The search text that you enter can include letters, numbers, and other symbols.
 
@@ -61,7 +61,7 @@ On the most common pages, such as **Customers**, **Contacts**, and **Items**, yo
 
 ![Screenshot that shows the Use modern search and Use legacy search options on the dropdown menu for a search field.](media/ui-search/search-modern-legacy-options.png)
 
-*Legacy search* is the older search method. It's the only method that is available in Business Central 2024 release wave 1 and earlier. *Modern search* is a newer, faster, and more flexible search method. The key difference is that legacy search finds only records that contain the exact words that you enter, in the exact order that you enter them in, whereas modern search finds records that contain matching words in any order.
+*Legacy search* is the older search method and is available in Business Central 2024 release wave 1 and earlier. *Modern search* is a newer, faster, and more flexible search method that's available in later releases if enabled. The key difference is that legacy search finds only records that contain the exact words that you enter, in the exact order that you enter them in. Whereas modern search finds records that contain matching words in any order.
 
 For example, the CRONUS demo company has an item that is named **LONDON Swivel Chair, blue**. If you enter `London chair` as the search text, legacy search doesn't return any results, because that exact text doesn't match any part of the item name. However, modern search finds the item by matching the words "London" and "chair" separately.
 
@@ -69,7 +69,7 @@ If you want to find all blue chairs in the CRONUS demo company, you might enter 
 
 If you want to mimic the behavior of legacy search when you use modern search, you can enclose your search text in quotation marks, just as you can do in popular search engines. In this way, you refine the results by excluding any that aren't exact matches. For example, if you enter `"blue chair"` as the search text, modern search returns no results, because that exact text doesn't occur in any item name in the demo data.
 
-Another difference is that modern search finds words that *start* with the letters you have entered. If you enter 'hair', it won't find the word 'chair'.
+Another difference is that modern search finds words that *start* with the letters you entered. If you enter 'hair', it doesn't find the word 'chair'.
 
 > [!NOTE]
 >
@@ -160,7 +160,7 @@ Both in the filter pane and on a request page, you enter your filter criteria in
 
 The type of the filter field determines which criteria you can enter. For example, to filter a field that has fixed values, you can select only among those values. Learn more about special filter symbols in the [Filter criteria and operators](#FilterCriteria) and [Filter tokens](#FilterTokens) sections.
 
-Columns that already have filters are indicated by the ![Filter icon.](media/ui-search/filter-icon.png "Filter icon") symbol in the column heading. To remove a filter, select the dropdown arrow, and then select the **Clear Filter** action.
+The ![Filter icon.](media/ui-search/filter-icon.png "Filter icon") symbol in the column heading indicates columns that already have filters. To remove a filter, select the dropdown arrow, and then select the **Clear Filter** action.
 
 > [!TIP]
 > By learning to use key combinations (keyboard shortcuts), you can find and analyze your data more quickly. For example, select a field, select <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> to add that field to the filter pane, enter the filter criteria, select <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to return to the rows, select another field, and then select <kbd>Alt</kbd>+<kbd>F3</kbd> to filter to that value. Learn more in [Search and filter lists](keyboard-shortcuts.md#KeyboardFilter).
@@ -245,7 +245,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 | Sample expression | Records that are shown |
 |---|---|
 | `'man'` | Text that exactly matches **man** and is case-sensitive |
-| `''` | Text that is empty |
+| `''` | Text that's empty |
 
 #### (@) Case-insensitive
 
@@ -272,8 +272,8 @@ When you enter criteria, you can use all the numbers and letters that you normal
 | Sample expression | Records that are shown |
 |---|---|
 | `5999|8100..8490` | Any records that have the number 5999 or a number in the range from 8100 through 8490 |
-| `..1299|1400..` | Records that have a number that is less than or equal to 1299, or a number that is greater than or equal to 1400 (that is, all numbers except 1300 through 1399) |
-| `>50&<100 `| Records that have a number that is greater than 50 and less than 100 (that is, all numbers from 51 through 99) |
+| `..1299|1400..` | Records that have a number that's less than or equal to 1299, or a number that's greater than or equal to 1400 (that is, all numbers except 1300 through 1399) |
+| `>50&<100 `| Records that have a number that's greater than 50 and less than 100 (that is, all numbers from 51 through 99) |
 
 ### <a name="symbols"></a>Filter on values that contain symbols
 
@@ -294,7 +294,7 @@ This requirement applies only to the five symbols in the preceding list.
 When you enter filter criteria, you can also enter *filter tokens*, which are words that have special meaning. After you enter a filter token, it's replaced by the value or values that it represents. Filter tokens make filtering easier, because you don't have to open other pages to look up values that you want to add to your filter. The following sections describe some of the tokens that you can enter as filter criteria.
 
 > [!TIP]
-> Your organization might use custom tokens. To learn about the complete set of tokens that is available to you, or to add more custom tokens, contact your administrator. Learn about the technical aspects of filter tokens in [Adding Custom Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
+> Your organization might use custom tokens. To learn about the complete set of tokens that's available to you, or to add more custom tokens, contact your administrator. Learn about the technical aspects of filter tokens in [Adding Custom Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 #### (%me or %user) Records assigned to you
 
@@ -327,6 +327,12 @@ In the vendor number (**No**) field, use the `%myvendors` filter token to show a
 | Sample expression | Records that are shown |
 |---|---|
 | `%myvendors` | Vendors in the **My Vendors** list on your Role Center |
+
+## Save filters
+
+Your filters and adjustments to predefined filters are remembered throughout the session (while you remain signed in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the ![Save View](media/save_view_icon.png "Save View") icon in the filter pane. Learn more in [List Views FAQ](ui-views-faq.yml). Unlike filters, search text isn't kept when you leave a page and isn't saved when you save a view.
+
+On report request pages, you can also save filters or use predefined filters. Learn more in [Use Saved Settings](ui-work-report.md#SavedSettings).
 
 ## Related information
 

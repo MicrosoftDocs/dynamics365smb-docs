@@ -72,14 +72,14 @@ You can create multiple fixed assets automatically when you post a purchase invo
 
 #### Create multiple fixed assets  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then choose the related link.  
 1. Choose the **Lists** action, and then choose the **Fixed Assets** action.  
 1. On the **Fixed Asset List** page, choose the **New** action.  
 1. On the **Fixed Asset Card** page, fill in the relevant fields.  
 
    Use the value of the **No.** field when you generate the remaining fixed assets later.  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.  
 1. Create a new purchase order, or open the existing purchase order.  
 1. On the **Lines** FastTab, fill in the fields as described in the following table.  
 

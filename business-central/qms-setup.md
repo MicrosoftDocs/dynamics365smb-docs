@@ -181,9 +181,9 @@ Navigate to **Quality Management Setup** to configure global settings:
 
 After completing initial setup:
 
-1. [Create Quality Inspection Templates](1.4-quality-templates.md)
-2. [Set Up Test Generation Rules](1.5-test-generation-rules.md)
-3. [Configure Workflows (Optional)](1.6-quality-workflows.md)
+1. [Create Quality Inspection Templates](qms-quality-templates.md)
+2. [Set Up Test Generation Rules](qms-test-generation-rules.md)
+3. [Configure Workflows (Optional)](qms-quality-workflows.md)
 4. [Test Your Configuration](./testing-configuration.md)
 
 ## Common Setup Scenarios

@@ -51,7 +51,8 @@ Quality inspection grades represent the possible outcomes of quality tests. Grad
 | INPROGRESS | In Progress | 0        | Automatically Copy | Block       | Allow          |
 | FAIL       | Fail        | 1        | Automatically Copy | Block       | Allow          |
 | PASS       | Pass        | 2        | Automatically Copy | Allow       | Allow          |
-In this example, sales transactions for a lot are restricted until the quality test is completed and passes all criteria. If the test is incomplete or fails, sales are blocked. Purchase transactions, however, remain permitted at all times.	
+
+In this example, sales transactions for a lot are restricted until the quality test is completed and passes all criteria. If the test is incomplete or fails, sales are blocked. Purchase transactions, however, remain permitted at all times.
 
 ### Step 3: Grade Priority Rules
 

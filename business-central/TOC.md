@@ -2228,12 +2228,12 @@ ms.service: dynamics-365-business-central
 #### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
 
 ### Set up quality management
-### [Quality Management setup and configuration](qms-setup.md)
-### [Assisted setup guide](qms-assisted-setup-wizard.md)
-### [Configure quality inspection grades](qms-configuring-grades.md)
-### [Create quality inspection templates](qms-quality-templates.md)
-### [Set up test generation rules](qms-test-generation-rules.md)
-### [Quality workflows](qms-quality-workflows.md)
+#### [Quality Management setup and configuration](qms-setup.md)
+#### [Assisted setup guide](qms-assisted-setup-wizard.md)
+#### [Configure quality inspection grades](qms-configuring-grades.md)
+#### [Create quality inspection templates](qms-quality-templates.md)
+#### [Set up test generation rules](qms-test-generation-rules.md)
+#### [Quality workflows](qms-quality-workflows.md)
 
 ### Set up service management
 #### [Set up service management](service-setup-service.md)

@@ -54,11 +54,12 @@ To learn more and explore some examples, go to [Extend the Shopify Connector](/d
 
 Instead of building every modification as an extension, we suggest that you investigate whether you can contribute code to the Shopify Connector through a codevelopment process with Microsoft.
 
+<!--
 ## Is the Shopify Connector open for contribution?
 
 This extension is open for contributions from our community. You can find the [source code](https://github.com/microsoft/BCApps/tree/main/src/Apps/W1/Shopify) in the *BCApps: Microsoft Dynamics 365 Business Central Application* repository.
 
-To learn more, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
+To learn more, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).-->
 
 ## Building your version of the Shopify Connector
 

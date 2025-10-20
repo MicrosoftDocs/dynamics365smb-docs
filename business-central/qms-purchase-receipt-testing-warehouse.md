@@ -207,7 +207,6 @@ The same trigger works for both scenarios:
 ## Related information
 
 [Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
-[Warehouse Put-away Testing](warehouse-putaway-testing.md)  
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Setting Up Test Generation Rules](qms-test-generation-rules.md)  
 [Quality Management Overview](qms-overview.md)

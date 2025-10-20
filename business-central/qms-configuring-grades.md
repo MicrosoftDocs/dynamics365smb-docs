@@ -363,5 +363,5 @@ Grades control transaction permissions:
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Configuring Workflows](qms-quality-workflows.md)  
-[Quality Management Setup and Configuration](qms-quality-management-setup.md)  
+[Quality Management Setup and Configuration](qms-setup.md)  
 [Quality Management Overview](qms-overview.md)

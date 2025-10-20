@@ -498,6 +498,5 @@ Quality Management uses grade-based controls to automatically manage non-complia
 
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Configuring Workflows](qms-quality-workflows.md)  
-[Inventory Movement Between Bins](inventory-movement-bins.md)  
 [Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
 [Quality Management Overview](qms-overview.md)

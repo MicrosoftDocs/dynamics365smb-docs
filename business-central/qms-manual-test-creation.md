@@ -50,11 +50,13 @@ Create rules specifically for manual test creation:
 ### Manual vs. Automatic Rules
 
 **Manual Only Rules**:
+
 - Tests created only when users click "Create Test" buttons
 - No automatic test creation during posting
 - Ideal for reactive testing scenarios
 
 **Manual and Automatic Rules**:
+
 - Tests can be created both automatically and manually
 - Provides flexibility for both proactive and reactive testing
 - Most comprehensive approach
@@ -66,6 +68,7 @@ Create rules specifically for manual test creation:
 **Best for**: Lot-specific testing when item tracking is already configured
 
 **Process**:
+
 1. Navigate to source document (Purchase Order, Production Order, etc.)
 2. Access **Item Tracking Lines**
 3. Select specific lot/serial number lines
@@ -73,6 +76,7 @@ Create rules specifically for manual test creation:
 5. Test is created with pre-filled item tracking information
 
 **Advantages**:
+
 - Lot numbers automatically populated
 - Quantities automatically assigned
 - Direct connection to source document
@@ -82,12 +86,14 @@ Create rules specifically for manual test creation:
 **Best for**: Testing items without specific lot requirements
 
 **Process**:
+
 1. Navigate to source document line
 2. Click **Create Test** from the line
 3. Select appropriate template if prompted
 4. Manually specify lot number if required
 
 **Characteristics**:
+
 - Source document information pre-filled
 - Lot number may need manual entry
 - Useful for non-tracked items
@@ -97,6 +103,7 @@ Create rules specifically for manual test creation:
 **Best for**: Creating tests independent of specific documents
 
 **Process**:
+
 1. Navigate to **Quality Inspection Templates**
 2. Select appropriate template
 3. Click **Create Test**
@@ -108,6 +115,7 @@ Create rules specifically for manual test creation:
    - **Quantity**: Specify test quantity
 
 **Advantages**:
+
 - Complete flexibility in test configuration
 - Not tied to specific business transactions
 - Ideal for investigation and spot-checking
@@ -154,6 +162,7 @@ Create rules specifically for manual test creation:
 ### Template Selection
 
 When creating manual tests:
+
 - **Automatic**: Template determined by test generation rules
 - **Manual Selection**: Choose specific template for situation
 - **Multiple Templates**: Create multiple tests with different templates
@@ -161,11 +170,13 @@ When creating manual tests:
 ### Source Document Linking
 
 **With Source Document**:
+
 - Test linked to originating transaction
 - Traceability maintained
 - Source information pre-populated
 
 **Without Source Document**:
+
 - Independent quality test
 - Manual configuration required
 - Useful for investigation testing
@@ -173,16 +184,19 @@ When creating manual tests:
 ### Item Tracking Specifications
 
 **Lot-Tracked Items**:
+
 - Specify lot number during test creation
 - System validates lot existence
 - Lot information displayed in test
 
 **Serial-Tracked Items**:
+
 - Enter specific serial numbers
 - Individual test per serial number
 - Detailed traceability
 
 **Non-Tracked Items**:
+
 - Test created without tracking information
 - Quantity-based testing
 - Suitable for bulk materials
@@ -192,11 +206,13 @@ When creating manual tests:
 ### Documentation Requirements
 
 **Test Justification**:
+
 - Record reason for manual test creation
 - Document quality concerns or triggers
 - Maintain audit trail
 
 **Results Documentation**:
+
 - Complete all template fields
 - Add notes for unusual findings
 - Link to corrective actions if needed
@@ -204,6 +220,7 @@ When creating manual tests:
 ### Process Integration
 
 **Reactive Testing Workflow**:
+
 1. Quality issue identification
 2. Manual test creation
 3. Investigation and analysis
@@ -211,6 +228,7 @@ When creating manual tests:
 5. Verification testing
 
 **Investigation Protocol**:
+
 - Consistent testing methods
 - Appropriate sample sizes
 - Proper documentation
@@ -221,11 +239,13 @@ When creating manual tests:
 ### "Create Test" Button Not Available
 
 **Possible Causes**:
+
 - No test generation rules configured for manual creation
 - Rules set to "Automatic Only" or "Never"
 - Missing template assignments
 
 **Solutions**:
+
 - Configure manual-enabled test generation rules
 - Verify template assignments
 - Check user permissions
@@ -233,11 +253,13 @@ When creating manual tests:
 ### Test Creation Dialog Issues
 
 **Missing Template Options**:
+
 - Verify templates exist and are properly configured
 - Check test generation rule filters
 - Ensure templates have required fields
 
 **Item Selection Problems**:
+
 - Confirm item exists and is properly configured
 - Check item tracking setup if using lots/serials
 - Verify item permissions
@@ -245,11 +267,13 @@ When creating manual tests:
 ### Incomplete Test Information
 
 **Missing Source Details**:
+
 - Create test from appropriate source document
 - Manually enter source information if needed
 - Verify document posting status
 
 **Item Tracking Issues**:
+
 - Confirm lot/serial numbers exist in system
 - Check item tracking code configuration
 - Verify quantity allocations
@@ -259,11 +283,13 @@ When creating manual tests:
 ### Complementary Approaches
 
 **Automatic Testing**: Proactive quality control
+
 - Routine inspections
 - Process compliance
 - Prevention-focused
 
 **Manual Testing**: Reactive quality investigation
+
 - Problem investigation
 - Customer complaint resolution
 - Corrective action verification
@@ -271,15 +297,16 @@ When creating manual tests:
 ### Unified Results Management
 
 Both manual and automatic tests:
+
 - Use same templates and measurement criteria
 - Generate comparable results
 - Integrate with lot blocking and workflows
 - Support comprehensive quality reporting
 
-## See Also
+## Related information
 
-- [Purchase Receipt Testing Without Warehouse Tracking](2.1-purchase-receipt-testing-simple.md)
-- [Production Output Quality Testing](2.3-production-output-testing.md)
-- [Creating Quality Inspection Templates](1.4-quality-templates.md)
-- [Setting Up Test Generation Rules](1.5-test-generation-rules.md)
-- [Quality Management Overview](0.0-Quality-Management-Overview.md)
+[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
+[Production Output Quality Testing](qms-production-output-testing.md)  
+[Creating Quality Inspection Templates](qms-quality-templates.md)  
+[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
+[Quality Management Overview](qms-overview.md)

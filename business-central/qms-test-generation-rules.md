@@ -21,6 +21,7 @@ A Quality Inspection Test generation rule defines when you want to ask a set of 
 ## Overview
 
 Test generation rules control:
+
 - **When** tests are created (triggers)
 - **What** templates are used for testing
 - **Which** items, locations, or documents create tests
@@ -33,16 +34,19 @@ Test generation rules control:
 Test generation rules can be created for various source document types:
 
 **Purchase**:
+
 - Creates tests based on purchase order transactions
 - Triggers on purchase receipt posting
 - Supports vendor and item filtering
 
 **Production Order Routing**:
+
 - Creates tests based on production output
 - Triggers on output posting  
 - Supports routing, work center, and operation filtering
 
 **Warehouse Journal**:
+
 - Creates tests for warehouse-specific operations
 - Supports put-away and movement testing
 - Integrates with warehouse workflows
@@ -52,17 +56,20 @@ also for **Sales Return**, **Warehouse Receive**, **Warehouse Movement**, **Tran
 ### Trigger Configuration
 
 **Activation Trigger**:
+
 - **Disabled**: No automatic test creation
 - **Automatic Only**: Automatic on receipt posting
 - **Manual Only**: Only manual test creation allowed
 - **Both Manual and Automatic**: Both methods enabled
 
 **Purchase Trigger**:
+
 - **Never**: No automatic test creation
 - **When Purchase Order is Received**: Automatic on receipt posting
 - **When Purchase Order is Released**: Automatic on purchase order release
 
 **Production Trigger**:
+
 - **Never**: No automatic test creation
 - **When Output is Posted**: Automatic on output posting
 - **When Order is Released**: Automatic on changing the status of production order to "Released"
@@ -107,18 +114,22 @@ also for **Sales Return**, **Warehouse Receive**, **Warehouse Movement**, **Tran
 ### Common Filter Fields
 
 **Item Filters**:
+
 - **Item No. Filter**: Specific items requiring testing
 - **Item Category Filter**: Groups of related items
 - **Inventory Posting Group Filter**: Items with similar characteristics
 
 **Location Filters**:
+
 - **Location Code Filter**: Specific locations requiring testing
 
 **Vendor/Customer Filters**:
+
 - **Vendor No. Filter**: Vendor-specific quality requirements
 - **Customer No. Filter**: Customer-specific testing needs
 
 **Production Filters**:
+
 - **Routing No. Filter**: Specific production processes
 - **Work Center No. Filter**: Specific work centers
 - **Machine Center No. Filter**: Specific machines
@@ -126,6 +137,7 @@ also for **Sales Return**, **Warehouse Receive**, **Warehouse Movement**, **Tran
 ### Filter Examples
 
 #### Simple Item-Based Rule
+
 **Purpose**: Test all receipts of a specific item
 - **Source Type**: Purchase Line
 - **Item No. Filter**: WRB-1002
@@ -133,6 +145,7 @@ also for **Sales Return**, **Warehouse Receive**, **Warehouse Movement**, **Tran
 - **Other Filters**: (blank for universal application)
 
 #### Location-Specific Rule
+
 **Purpose**: Test all items at a specific location
 - **Source Type**: Purchase Line
 - **Location Code Filter**: WHITE
@@ -140,6 +153,7 @@ also for **Sales Return**, **Warehouse Receive**, **Warehouse Movement**, **Tran
 - **Item Filter**: (blank for all items)
 
 #### Vendor-Specific Rule
+
 **Purpose**: Enhanced testing for specific vendor
 - **Source Type**: Purchase Line
 - **Vendor No. Filter**: V001
@@ -151,6 +165,7 @@ also for **Sales Return**, **Warehouse Receive**, **Warehouse Movement**, **Tran
 ### Multiple Rule Interaction
 
 When multiple rules could apply to the same transaction:
+
 - **All matching rules execute**: Multiple tests may be created
 - **Rule ordering**: Managed through rule list sequence
 - **Template assignment**: Each rule uses its assigned template
@@ -166,16 +181,19 @@ When multiple rules could apply to the same transaction:
 ### Business Process Alignment
 
 **Proactive Testing** (Automatic Triggers):
+
 - Quality requirements are predictable
 - Testing is part of standard process
 - Resources available for immediate testing
 
 **Reactive Testing** (Manual Triggers):
+
 - Testing based on risk assessment
 - Limited quality resources
 - Investigation-driven testing
 
 **Hybrid Approach** (Both Methods):
+
 - Automatic for routine quality control
 - Manual for special investigations
 - Maximum flexibility
@@ -183,11 +201,13 @@ When multiple rules could apply to the same transaction:
 ### Organizational Considerations
 
 **Role Separation**:
+
 - Automatic triggers when different people post vs. test
 - Manual triggers when same person does both
 - Consider workflow and responsibility assignment
 
 **Resource Management**:
+
 - Automatic triggers require dedicated quality resources
 - Manual triggers allow resource optimization
 - Balance coverage with capacity
@@ -214,16 +234,19 @@ When multiple rules could apply to the same transaction:
 ### Common Validation Issues
 
 **No Tests Created**:
+
 - Check filter configuration
 - Verify trigger settings
 - Confirm template assignment
 
 **Too Many Tests Created**:
+
 - Review overlapping rules
 - Refine filter specificity
 - Check rule ordering
 
 **Wrong Template Applied**:
+
 - Verify template assignment in rule
 - Check rule priority and ordering
 - Review filter logic
@@ -233,11 +256,13 @@ When multiple rules could apply to the same transaction:
 ### Rule Modification
 
 **Updating Existing Rules**:
+
 - Modify filters to expand or restrict scope
 - Change templates for improved testing
 - Adjust triggers based on process changes
 
 **Version Control**:
+
 - Document rule changes
 - Test modifications before implementation
 - Maintain backup of working configurations
@@ -245,19 +270,21 @@ When multiple rules could apply to the same transaction:
 ### Performance Considerations
 
 **Filter Efficiency**:
+
 - Use specific filters to improve performance
 - Avoid overly broad rules if not needed
 - Monitor system performance with complex rules
 
 **Rule Quantity**:
+
 - Balance comprehensive coverage with system performance
 - Consolidate similar rules where possible
 - Regular review and cleanup of unused rules
 
-## See Also
+## Related information
 
-- [Creating Quality Inspection Templates](1.4-quality-templates.md)
-- [Purchase Receipt Testing Without Warehouse Tracking](2.1-purchase-receipt-testing-simple.md)
-- [Production Output Quality Testing](2.3-production-output-testing.md)
-- [Manual Test Creation](2.4-manual-test-creation.md)
-- [Quality Management Overview](0.0-Quality-Management-Overview.md)
+[Creating Quality Inspection Templates](qms-quality-templates.md)  
+[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
+[Production Output Quality Testing](qms-production-output-testing.md)  
+[Manual Test Creation](qms-manual-test-creation.md)  
+[Quality Management Overview](qms-overview.md)

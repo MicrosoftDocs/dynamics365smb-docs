@@ -312,10 +312,10 @@ Grade-based blocking provides granular, document-specific controls based on the 
 - Review and correct workflow configuration
 - Consider grade-based controls instead
 
-## See Also
+## Related information
 
-- [Purchase Receipt Testing Without Warehouse Tracking](2.1-purchase-receipt-testing-simple.md)
-- [Purchase Receipt Testing With Warehouse Tracking](2.2-purchase-receipt-testing-warehouse.md)
-- [Configuring Workflows](1.6-quality-workflows.md)
-- [Processing Non-Compliant Items](3.2-non-compliant-processing.md)
-- [Quality Management Overview](0.0-Quality-Management-Overview.md)
+[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
+[Purchase Receipt Testing With Warehouse Tracking](qms-purchase-receipt-testing-warehouse.md)  
+[Configuring Workflows](qms-quality-workflows.md)  
+[Processing Non-Compliant Items](qms-non-compliant-processing.md)  
+[Quality Management Overview](qms-overview.md)

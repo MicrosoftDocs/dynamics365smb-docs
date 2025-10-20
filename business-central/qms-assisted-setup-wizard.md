@@ -160,3 +160,8 @@ The wizard integrates with several Business Central systems:
 **Previous Configuration**: The wizard detects existing configuration and preserves previous settings while allowing updates.
 
 **Getting Started Data**: Sample data installation only occurs if selected and the system isn't already configured, preventing duplicate or conflicting data.
+
+## Related information
+
+[Quality management setup and configuration](qms-setup.md)  
+[Configure quality inspection grades](qms-configuring-grades.md)

@@ -23,15 +23,16 @@ Quality inspection grades represent the possible outcomes of quality tests. Grad
 ### Grade Concepts
 
 **Default Grades**:
+
 - **In Progress** (Priority 0): Test is incomplete or in progress
 - **Fail** (Priority 1): Test has failed quality criteria  
 - **Pass** (Priority 2): Test has met quality criteria
 
 **Custom Grades**:
+
 - Multiple pass grades (e.g., "Excellent", "Good", "Acceptable")
 - Multiple fail grades (e.g., "Minor Defect", "Major Defect", "Critical Failure")
 - Gray state grades (e.g., "Under Review", "Conditional Pass")
-
 
 ## Configuring Available Grades
 
@@ -55,16 +56,19 @@ In this example, sales transactions for a lot are restricted until the quality t
 ### Step 3: Grade Priority Rules
 
 **Priority 0 (Incomplete/In Progress)**:
+
 - Represents incomplete or ongoing tests
 - Default condition should be blank (matches any value including empty)
 - Evaluated first in grade determination
 
 **Priority 1+ (Failure States)**:
+
 - Represents various failure conditions
 - Must have priority higher than incomplete grades
 - Must have priority lower than pass grades
 
 **Highest Priority (Pass States)**:
+
 - Represents successful test outcomes
 - Evaluated last in grade determination
 - Must have highest priority numbers
@@ -72,11 +76,13 @@ In this example, sales transactions for a lot are restricted until the quality t
 ### Step 4: Copy Behavior Configuration
 
 **Automatically Copy the Grade**:
+
 - Grade is automatically added to new templates
 - Default behavior for standard grades
 - Ensures consistent grade availability
 
 **Do Not Copy**:
+
 - Grade must be manually added to templates
 - Used for specialized or conditional grades
 - Allows selective grade application
@@ -113,6 +119,7 @@ Override field defaults for specific template requirements:
 4. Configure conditions for the "Pass" grade
 
 **When to Use Template-Level Configuration**:
+
 - Different acceptance criteria for same measurement
 - Template-specific quality standards
 - Customer-specific requirements
@@ -120,17 +127,20 @@ Override field defaults for specific template requirements:
 ### Grade Condition Syntax
 
 **Number Field Conditions**:
+
 - `20..24`: Range from 20 to 24
 - `>=20`: Greater than or equal to 20
 - `<>0`: Not equal to zero
 - `10|20|30`: Equals 10, 20, or 30
 
 **Text Field Conditions**:
+
 - `PASS|GOOD|OK`: Matches any of these values
 - `<>""`: Not blank
 - `A*`: Starts with "A"
 
 **Date Field Conditions**:
+
 - `TODAY..TODAY+30D`: Today through 30 days from today
 - `>=01/01/2024`: On or after specific date
 
@@ -139,6 +149,7 @@ Override field defaults for specific template requirements:
 ### Promoting Grades for Better Visibility
 
 **Grade Promotion Benefits**:
+
 - Highlighted in field configuration screens
 - Visible inline during template configuration  
 - Prominent display during test execution
@@ -152,6 +163,7 @@ Override field defaults for specific template requirements:
 4. First 10 promoted grades are shown in descending priority order
 
 **Typically Promoted Grades**:
+
 - **PASS**: Primary success indicator
 - **FAIL**: Primary failure indicator
 - Other customer-critical grades
@@ -159,21 +171,25 @@ Override field defaults for specific template requirements:
 ### Effects of Grade Promotion
 
 **Field Configuration**:
+
 - Additional columns for promoted grade conditions
 - Inline editing of promoted grade criteria
 - Quick access to most important conditions
 
 **Template Configuration**:
+
 - Promoted grades editable inline
 - Replaces traditional "Acceptable Values" field
 - Streamlined template setup
 
 **Test Execution**:
+
 - Promoted grade conditions visible during testing
 - Quick reference for inspectors
 - Reduced errors in test completion
 
 **Reporting**:
+
 - Certificate of Analysis shows promoted grades
 - Quality reports highlight promoted results
 - Executive dashboards focus on key grades
@@ -185,12 +201,14 @@ Override field defaults for specific template requirements:
 **Business Scenario**: Different levels of product quality
 
 **Grade Configuration**:
+
 - **EXCELLENT** (Priority 10): Premium quality standards
 - **GOOD** (Priority 9): Standard quality standards  
 - **ACCEPTABLE** (Priority 8): Minimum acceptable quality
 - **FAIL** (Priority 1): Below minimum standards
 
 **Example Conditions** (for dimension measurement):
+
 - **EXCELLENT**: 99.9..100.1 (tight tolerance)
 - **GOOD**: 99.5..100.5 (standard tolerance)
 - **ACCEPTABLE**: 99.0..101.0 (loose tolerance)
@@ -201,12 +219,14 @@ Override field defaults for specific template requirements:
 **Business Scenario**: Different severity levels of defects
 
 **Grade Configuration**:
+
 - **CRITICAL** (Priority 1): Safety or regulatory failure
 - **MAJOR** (Priority 2): Functional failure
 - **MINOR** (Priority 3): Cosmetic or minor defect
 - **PASS** (Priority 10): Acceptable quality
 
 **Business Process Integration**:
+
 - **CRITICAL**: Immediate recall, supplier notification
 - **MAJOR**: Quarantine, rework evaluation
 - **MINOR**: Conditional release, customer notification
@@ -216,6 +236,7 @@ Override field defaults for specific template requirements:
 **Business Scenario**: Items requiring additional evaluation
 
 **Grade Configuration**:
+
 - **UNDER_REVIEW** (Priority 5): Requires management decision
 - **CONDITIONAL** (Priority 6): Passes with limitations
 - **RETEST** (Priority 4): Requires additional testing
@@ -227,6 +248,7 @@ Override field defaults for specific template requirements:
 Grades can trigger different workflow responses:
 
 **Grade-Specific Workflows**:
+
 - **FAIL** grade → Block lot, create negative adjustment
 - **CRITICAL** grade → Immediate notification, supplier alert
 - **RETEST** grade → Create additional test, schedule inspection
@@ -236,11 +258,13 @@ Grades can trigger different workflow responses:
 Grades control transaction permissions:
 
 **Sales Integration**:
+
 - **PASS** grades allow sales shipment
 - **FAIL** grades block sales shipment
 - **CONDITIONAL** grades require approval
 
 **Production Integration**:
+
 - **PASS** grades allow consumption
 - **FAIL** grades block material usage
 - **UNDER_REVIEW** grades require supervisor approval
@@ -248,6 +272,7 @@ Grades control transaction permissions:
 ### Reporting and Analytics
 
 **Grade-Based Reporting**:
+
 - Quality scorecards by grade distribution
 - Trend analysis of grade patterns
 - Vendor performance by grade outcomes
@@ -258,16 +283,19 @@ Grades control transaction permissions:
 ### Grade Design Principles
 
 **Keep It Simple**:
+
 - Start with basic Pass/Fail/In Progress
 - Add complexity only when business value is clear
 - Ensure users understand grade meanings
 
 **Business Alignment**:
+
 - Align grades with business processes
 - Match grades to decision points
 - Consider customer and supplier perspectives
 
 **Consistent Logic**:
+
 - Use consistent condition syntax across fields
 - Maintain logical priority ordering
 - Document grade definitions and usage
@@ -275,11 +303,13 @@ Grades control transaction permissions:
 ### Change Management
 
 **Grade Condition Updates**:
+
 - Understand that changes don't affect existing tests
 - Plan updates during low-activity periods
 - Communicate changes to quality team
 
 **Template Migration**:
+
 - Test grade changes on non-critical templates first
 - Provide training on new grade meanings
 - Monitor impact on quality processes
@@ -287,6 +317,7 @@ Grades control transaction permissions:
 ### Performance Considerations
 
 **Grade Complexity**:
+
 - Complex conditions can impact test performance
 - Limit number of active grades to business needs
 - Regular cleanup of unused grades
@@ -296,16 +327,19 @@ Grades control transaction permissions:
 ### Common Issues
 
 **Tests Not Calculating Expected Grades**:
+
 - Review grade condition syntax
 - Check priority ordering
 - Verify condition inheritance from field to template
 
 **Grades Not Available in Templates**:
+
 - Check grade copy behavior settings
 - Verify grade is not set to "Do Not Copy"
 - Manually add grade to template if needed
 
 **Workflow Not Triggering**:
+
 - Confirm workflow condition matches grade code exactly
 - Check grade code spelling and case sensitivity
 - Review workflow activation status
@@ -313,19 +347,21 @@ Grades control transaction permissions:
 ### Grade Validation
 
 **Testing Grade Logic**:
+
 - Use "Value to Test" feature in grade configuration
 - Test boundary conditions and edge cases
 - Validate grade calculations with sample data
 
 **Process Validation**:
+
 - Create test scenarios for each grade outcome
 - Verify business process responses to grades
 - Confirm reporting displays grades correctly
 
-## See Also
+## Related information
 
-- [Creating Quality Inspection Templates](1.4-quality-templates.md)
-- [Lot Blocking and Unblocking](3.1-lot-blocking-unblocking.md)
-- [Configuring Workflows](1.6-quality-workflows.md)
-- [Quality Management Setup and Configuration](1.1-quality-management-setup.md)
-- [Quality Management Overview](0.0-Quality-Management-Overview.md)
+[Creating Quality Inspection Templates](qms-quality-templates.md)  
+[Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
+[Configuring Workflows](qms-quality-workflows.md)  
+[Quality Management Setup and Configuration](qms-quality-management-setup.md)  
+[Quality Management Overview](qms-overview.md)

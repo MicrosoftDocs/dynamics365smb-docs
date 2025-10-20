@@ -35,31 +35,35 @@ Quality Management helps you maintain product quality standards by creating insp
 
 Setting up Quality Management involves configuring templates, test generation rules, and integration with your Business Central processes:
 
-- [Initial Setup and Configuration](1.1-quality-management-setup.md)
-- [Assisted Setup Wizard](1.2-assisted-setup-wizard.md)
-- [Configuring Quality Inspection Grades](1.3-configuring-grades.md)
-- [Creating Quality Inspection Templates](1.4-quality-templates.md)
-- [Setting Up Test Generation Rules](1.5-test-generation-rules.md)
-- [Configuring Workflows](1.6-quality-workflows.md)
+- [Initial Setup and Configuration](qms-setup.md)
+- [Assisted Setup Wizard](qms-assisted-setup-wizard.md)
+- [Configuring Quality Inspection Grades](qms-configuring-grades.md)
+- [Creating Quality Inspection Templates](qms-quality-templates.md)
+- [Setting Up Test Generation Rules](qms-test-generation-rules.md)
+- [Configuring Workflows](qms-quality-workflows.md)
 
 ## How to Use
 
-Once configured, Quality Management provides several ways to create and manage quality tests:
+Once configured, Quality Management features provide several ways to create and manage quality tests.
 
 ### Purchase Receipt Testing
-- [Purchase Receipt Testing Without Warehouse Tracking](2.1-purchase-receipt-testing-simple.md)
-- [Purchase Receipt Testing With Warehouse Tracking](2.2-purchase-receipt-testing-warehouse.md)
+
+- [Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)
+- [Purchase Receipt Testing With Warehouse Tracking](qms-purchase-receipt-testing-warehouse.md)
 
 ### Production Testing
-- [Production Output Quality Testing](2.3-production-output-testing.md)
+
+- [Production Output Quality Testing](qms-production-output-testing.md)
 
 ### Manual and Scheduled Testing
-- [Manual Test Creation](2.4-manual-test-creation.md)
-- [Scheduled Test Creation](2.5-scheduled-test-creation.md)
+
+- [Manual Test Creation](qms-manual-test-creation.md)
+- [Scheduled Test Creation](qms-scheduled-test-creation.md)
 
 ### Quality Control Actions
-- [Lot Blocking and Unblocking](3.1-lot-blocking-unblocking.md)
-- [Processing Non-Compliant Items](3.2-non-compliant-processing.md)
+
+- [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)
+- [Processing Non-Compliant Items](qms-non-compliant-processing.md)
 
 ## Prerequisites
 
@@ -67,6 +71,6 @@ Once configured, Quality Management provides several ways to create and manage q
 - Premium experience tier (required for production order functionality)
 - Quality Management app installed and configured
 
-## See Also
+## Related information
 
-- [Microsoft Dynamics 365 Business Central Documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/)
+[Microsoft Dynamics 365 Business Central Documentation](/dynamics365/business-central)

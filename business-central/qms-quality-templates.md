@@ -19,6 +19,7 @@ Quality inspection templates define the collection of measurements and attribute
 ## Overview
 
 A quality inspection template contains:
+
 - **Template Code**: Unique identifier for the template
 - **Description**: Descriptive name for the template
 - **Fields/Measurements**: Individual quality measurements to collect
@@ -58,15 +59,16 @@ For each quality measurement you want to collect:
 - Values 21-90: "Fail" grade (outside pass range but within allowed values)
 - Values outside 5-90: System will reject entry (outside allowed values)
 
-
 ## Template Design Best Practices
 
 ### Measurement Selection
+
 - Include only essential quality characteristics
 - Focus on critical-to-quality parameters
 - Consider measurement time and complexity
 
 ### Template Organization
+
 - Create specific templates for different inspection types
 - Group related measurements together
 - Use descriptive field names
@@ -75,6 +77,7 @@ For each quality measurement you want to collect:
 ## Common Template Scenarios
 
 ### Incoming Material Inspection
+
 **Use Case**: Inspecting purchased materials
 **Example Fields**:
 - Dimension measurements
@@ -82,6 +85,7 @@ For each quality measurement you want to collect:
 - Material compliance verification
 
 ### Production Output Inspection
+
 **Use Case**: Testing finished goods
 **Example Fields**:
 - Functional performance tests
@@ -89,6 +93,7 @@ For each quality measurement you want to collect:
 - Final dimension verification
 
 ### In-Process Inspection
+
 **Use Case**: Quality checks during production
 **Example Fields**:
 - Intermediate measurements
@@ -98,12 +103,14 @@ For each quality measurement you want to collect:
 ## Managing Templates
 
 ### Copying Templates
+
 Create new templates based on existing ones:
 1. Select existing template
 2. Use copy function to duplicate
 3. Modify fields as needed for new application
 
 ### Template Activation
+
 - Templates must be properly configured before use
 - Test generation rules reference specific templates
 - Verify template functionality before production use
@@ -116,28 +123,30 @@ Templates connect to automated test creation through test generation rules:
 2. **Automatic Application**: When rules trigger, the associated template creates the test structure
 3. **Data Collection**: Test users fill in the template fields during inspection
 
-
 ## Troubleshooting Templates
 
 ### Tests Not Creating
+
 - Verify template is referenced in test generation rules
 - Check template configuration is complete
 - Ensure proper field definitions
 
 ### Incorrect Pass/Fail Results
+
 - Review pass value ranges
 - Verify allowed value ranges include pass values
 - Check field type configuration
 
 ### Performance Issues
+
 - Minimize number of complex fields
 - Optimize field calculations
 - Consider template simplification
 
-## See Also
+## Related information
 
-- [Configuring Quality Inspection Grades](1.3-configuring-grades.md)
-- [Setting Up Test Generation Rules](1.5-test-generation-rules.md)
-- [Manual Test Creation](2.4-manual-test-creation.md)
-- [Quality Management Setup and Configuration](1.1-quality-management-setup.md)
-- [Quality Management Overview](0.0-Quality-Management-Overview.md)
+[Configuring Quality Inspection Grades](qms-configuring-grades.md)  
+[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
+[Manual Test Creation](qms-manual-test-creation.md)  
+[Quality Management Setup and Configuration](qms-quality-management-setup.md)  
+[Quality Management Overview](qms-overview.md)

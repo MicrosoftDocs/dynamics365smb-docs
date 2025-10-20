@@ -40,6 +40,7 @@ When quality inspection tests fail, Quality Management provides several automati
 Quality Management workflows can automatically respond to test failures:
 
 **Available Automatic Responses**:
+
 - Block the lot in the test
 - Create negative adjustment
 - Create transfer order
@@ -92,21 +93,25 @@ When a quality test fails, consider these immediate actions:
 **Common Options**:
 
 **Use As-Is**: 
+
 - Customer accepts with concession
 - Reduced price or different application
 - Document deviation approval
 
 **Rework**:
+
 - Items can be corrected or repaired
 - Retest after rework completion
 - Track rework costs and time
 
 **Return to Vendor**:
+
 - Vendor defect or specification issue
 - Use purchase return process with reports from Quality Inspection Test
 - Document vendor quality issues
 
 **Scrap/Disposal**:
+
 - Items cannot be corrected economically
 - Create negative adjustments using reports from Quality Inspection Test
 - Environmental disposal considerations
@@ -115,6 +120,7 @@ When a quality test fails, consider these immediate actions:
 ### Using Quality Inspection Test Reports for Manual Actions
 
 **How to Access Actions**:
+
 - Navigate to **Quality Inspection Test** page for the failed test
 - Use **Actions** menu to access helpful reports and functions
 - Execute actions directly from test results for proper record keeping
@@ -122,28 +128,33 @@ When a quality test fails, consider these immediate actions:
 **Available Actions from Quality Inspection Test**:
 
 **Create Negative Adjustment**:
+
 - Access via Quality Inspection Test Actions menu
 - Automatically fills in item, lot, and quantity information
 
 **Move Inventory**:
+
 - Execute inventory movement directly from test results
 - Pre-filled with failed lot details
 - Specify destination bin (quarantine, rework, disposal areas)
 - Maintains connection between movement and quality failure
 
 **Create Transfer Order**:
+
 - Generate transfer orders from Quality Inspection Test actions
 - Automatically includes failed lot information
 - Specify destination location for further processing
 - Links transfer to original quality test for tracking
 
 **Create Purchase Return**:
+
 - Start vendor returns directly from test results
 - Pre-fills purchase order and receipt details
 - Includes quality test failure information for vendor communication
 - Streamlines return process with proper documentation
 
 **Benefits of Using Test-Based Actions**:
+
 - Automatic filling of item, lot, and quantity details
 - Built-in tracking between actions and test failures
 - Reduced data entry errors
@@ -182,12 +193,14 @@ When a quality test fails, consider these immediate actions:
 Quality Management uses grade-based controls to automatically manage non-compliant items based on test results:
 
 **Grade-Based Business Rules**:
+
 - Grade priorities determine which controls take precedence
 - Higher priority grades override lower priority grades
 - Failed grades typically restrict business transactions while allowing handling activities
 - Grade conditions can automatically promote or demote based on business rules
 
 **Implementation**:
+
 - Test templates assign grades based on measurement results
 - Grade inheritance flows from Default → Field → Template → Test levels
 - Workflows can trigger additional actions based on grade assignment
@@ -198,11 +211,13 @@ Quality Management uses grade-based controls to automatically manage non-complia
 ### Automatic Movement to Quarantine
 
 **Workflow Configuration**:
+
 1. **Response**: Move inventory to different bin
 2. **Bin Configuration**: Specify quarantine bin
 3. **Automatic Execution**: Movement occurs on test failure
 
 **Business Process**:
+
 - Failed items automatically moved to quarantine area
 - Physical separation from good inventory
 - Clear identification of problem items
@@ -212,6 +227,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 **Using Quality Management Reports from Quality Inspection Test**:
 
 **Move Inventory Report**:
+
 - Access via Quality Inspection Test Actions menu
 - **Purpose**: Move inventory between bins or locations for quarantine or handling
 - **Quantity Options**: Entire lot/serial/package, specific quantity, sample quantity, passed/failed quantity
@@ -221,6 +237,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 - **Posting Options**: Post immediately or create entries for later processing
 
 **Create Internal Put-away Report**:
+
 - Access via Quality Inspection Test Actions menu
 - **Purpose**: Create internal put-away documents for warehouse locations
 - **Quantity Options**: Entire lot/serial/package, specific quantity, sample quantity, passed/failed quantity
@@ -229,6 +246,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 - **Usage**: Ideal for directed put-away and pick locations
 
 **Manual Movement Process**:
+
 1. **Select Failed Test**: Navigate to Quality Inspection Test with failed results
 2. **Choose Movement Report**: Select "Move Inventory" or "Create Internal Put-away" from Actions
 3. **Configure Movement**: Specify destination (quarantine, rework, disposal areas)
@@ -244,6 +262,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 - Updates inventory quantities
 
 **Configuration Considerations**:
+
 - Ensure proper posting setup
 - Consider cost implications
 - Maintain audit trail
@@ -253,6 +272,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 **Using Create Negative Adjustment Report from Quality Inspection Test**:
 
 **Report Features**:
+
 - **Purpose**: Decrease inventory quantity for disposal, destructive testing, or write-offs
 - **Quantity Options**: 
   - Entire lot/serial/package quantity
@@ -265,6 +285,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 - **Posting Behavior**: Create journal entries only or post immediately
 
 **Manual Removal Process**:
+
 1. **Access Report**: From failed Quality Inspection Test, select "Create Negative Adjustment" from Actions
 2. **Select Quantity**: Choose appropriate quantity method (often "Failed Quantity" for non-compliant items)
 3. **Add Reason**: Specify reason code (disposal, destructive testing, damage, etc.)
@@ -277,6 +298,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 ### Automatic Return Processing
 
 **Workflow Configuration**:
+
 - **Response**: Create purchase return
 - **Automatic Execution**: Return order created on test failure
 - **Vendor Notification**: Include quality failure details
@@ -286,6 +308,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 **Using Create Purchase Return Report from Quality Inspection Test**:
 
 **Report Features**:
+
 - **Purpose**: Create purchase return orders for vendor-related defects
 - **Quantity Options**:
   - Entire lot/serial/package quantity
@@ -298,6 +321,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 - **Credit Memo**: Optional vendor credit memo number field
 
 **Manual Return Process**:
+
 1. **Document Failure**: Compile test results and evidence from Quality Inspection Test
 2. **Access Report**: Select "Create Purchase Return" from Quality Inspection Test Actions
 3. **Configure Return**: 
@@ -315,6 +339,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 **Using Create Transfer Order Report from Quality Inspection Test**:
 
 **Report Features**:
+
 - **Purpose**: Transfer items to another location for external processing, lab analysis, or disposal
 - **Quantity Options**:
   - Entire lot/serial/package quantity
@@ -327,6 +352,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 - **Transfer Details**: Support for direct transfer or in-transit locations
 
 **Manual Transfer Process**:
+
 1. **Access Report**: From Quality Inspection Test, select "Create Transfer Order" from Actions
 2. **Select Quantity**: Choose appropriate quantity method based on what you want to do
 3. **Configure Source**: Add location/bin filters if test covers multiple locations
@@ -341,6 +367,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 **Using Change Item Tracking Report from Quality Inspection Test**:
 
 **Report Features**:
+
 - **Purpose**: Update item tracking information such as lot numbers, serial numbers, package numbers, or expiration dates
 - **Quantity Options**:
   - Entire lot/serial/package quantity
@@ -353,6 +380,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 - **Posting Options**: Post immediately or create journal entries for review
 
 **Manual Item Tracking Process**:
+
 1. **Access Report**: From Quality Inspection Test, select "Change Item Tracking" from Actions
 2. **Select Quantity**: Choose appropriate quantity method for tracking update
 3. **Specify Changes**: Enter new lot number, serial number, package number, or expiration date
@@ -365,11 +393,13 @@ Quality Management uses grade-based controls to automatically manage non-complia
 ### Root Cause Analysis
 
 **Quality Failure Investigation**:
+
 - Review test data and trends
 - Identify process or supplier issues
 - Document findings and recommendations
 
 **Process Improvement**:
+
 - Update specifications or procedures
 - Enhance incoming inspection criteria
 - Improve vendor quality agreements
@@ -377,11 +407,13 @@ Quality Management uses grade-based controls to automatically manage non-complia
 ### Preventive Actions
 
 **Enhanced Testing**:
+
 - Create additional test generation rules
 - Implement more comprehensive templates
 - Increase sampling frequencies
 
 **Supplier Development**:
+
 - Work with vendors on quality improvement
 - Provide feedback on failure patterns
 - Establish quality agreements and scorecards
@@ -398,6 +430,7 @@ Quality Management uses grade-based controls to automatically manage non-complia
 ### Manual Retest Process
 
 **After Rework or Investigation**:
+
 1. **Complete Corrective Action**: Address root cause
 2. **Create New Test**: Use manual test creation
 3. **Reference Original Test**: Maintain tracking
@@ -436,11 +469,13 @@ Quality Management uses grade-based controls to automatically manage non-complia
 ### Quality Metrics
 
 **Track Failure Rates**:
+
 - Test failure percentages by vendor
 - Failure trends by item or category
 - Cost of quality issues
 
 **Action Tracking**:
+
 - Time to resolution
 - Action method effectiveness
 - Recurring quality issues
@@ -448,19 +483,21 @@ Quality Management uses grade-based controls to automatically manage non-complia
 ### Continuous Improvement
 
 **Process Enhancement**:
+
 - Regular review of failure patterns
 - Update templates and criteria as needed
 - Improve workflow automation
 
 **Vendor Management**:
+
 - Quality scorecards based on test results
 - Vendor development programs
 - Supplier quality agreements
 
-## See Also
+## Related information
 
-- [Lot Blocking and Unblocking](3.1-lot-blocking-unblocking.md)
-- [Configuring Workflows](1.6-quality-workflows.md)
-- [Inventory Movement Between Bins](./inventory-movement-bins.md)
-- [Purchase Receipt Testing Without Warehouse Tracking](2.1-purchase-receipt-testing-simple.md)
-- [Quality Management Overview](0.0-Quality-Management-Overview.md)
+[Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
+[Configuring Workflows](qms-quality-workflows.md)  
+[Inventory Movement Between Bins](inventory-movement-bins.md)  
+[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
+[Quality Management Overview](qms-overview.md)

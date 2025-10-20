@@ -19,6 +19,7 @@ This article explains how to set up and use automatic quality inspection test cr
 ## Overview
 
 For locations without warehouse handling, quality tests are created automatically when purchase receipts are posted directly. This simpler workflow is ideal for:
+
 - Smaller operations without complex warehouse management
 - Locations with bin management but no warehouse documents
 - Quick receipt and inspection processes
@@ -41,6 +42,7 @@ If not already created, set up a template for incoming inspections:
 3. Add measurement fields with pass/fail criteria
 
 **Example Configuration**:
+
 - **Field Name**: "Example Measurement"
 - **Allowed Values**: 5 to 90
 - **Pass Values**: 10 to 20
@@ -71,6 +73,7 @@ Set up a rule to automatically create tests for purchase receipts:
 ### 3. Verify Location Configuration
 
 Ensure your location is properly configured:
+
 - Location should not require warehouse receipts
 - Location may have bins configured
 - Verify location supports item tracking if needed
@@ -90,6 +93,7 @@ Ensure your location is properly configured:
 ### Step 2: Configure Item Tracking (If Applicable)
 
 For lot-tracked items:
+
 1. Access **Item Tracking Lines**
 2. Enter lot numbers:
    - Use existing lot numbers or create new ones
@@ -107,6 +111,7 @@ For lot-tracked items:
 ### Result: Automatic Test Creation
 
 When the purchase receipt posts:
+
 - Quality inspection tests are created automatically
 - One test per lot number (if item tracking is used)
 - Tests may open automatically (depending on setup configuration)
@@ -116,6 +121,7 @@ When the purchase receipt posts:
 ### Accessing Tests
 
 Tests can be accessed through:
+
 1. **Quality Inspection Tests** page (view all tests)
 2. **Show Tests for Item and Document** from the purchase order
 3. Automatic popup (if configured in **Quality Inspection Setup**)
@@ -123,6 +129,7 @@ Tests can be accessed through:
 ### Test Information
 
 Each created test contains:
+
 - **Item Number**: The purchased item
 - **Lot Number**: Specific lot being tested (if applicable)
 - **Quantity**: Quantity from item tracking line
@@ -153,6 +160,7 @@ In **Quality Inspection Setup**, configure **Show Test Behavior**:
 ### Trigger Configuration
 
 Configure when tests are created:
+
 - **Automatic Only**: Tests always create on receipt posting
 - **Manual or Automatic**: Tests can be created automatically or manually
 - **Manual Only**: Tests must be created manually using buttons
@@ -160,25 +168,28 @@ Configure when tests are created:
 ## Troubleshooting
 
 ### Tests Not Creating Automatically
+
 - Verify test generation rule is properly configured
 - Check item filter matches purchased item
 - Ensure purchase trigger is set correctly
 - Confirm template is assigned to rule
 
 ### Tests Creating for Wrong Items
+
 - Review item filters in test generation rules
 - Check for overlapping rules
 - Verify rule priority and ordering
 
 ### Test Data Missing
+
 - Confirm item tracking is properly configured
 - Verify lot numbers are assigned before posting
 - Check bin assignments if location requires bins
 
-## See Also
+## Related information
 
-- [Purchase Receipt Testing With Warehouse Tracking](2.2-purchase-receipt-testing-warehouse.md)
-- [Creating Quality Inspection Templates](1.4-quality-templates.md)
-- [Setting Up Test Generation Rules](1.5-test-generation-rules.md)
-- [Manual Test Creation](2.4-manual-test-creation.md)
-- [Quality Management Overview](0.0-Quality-Management-Overview.md)
+[Purchase Receipt Testing With Warehouse Tracking](qms-purchase-receipt-testing-warehouse.md)  
+[Creating Quality Inspection Templates](qms-quality-templates.md)  
+[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
+[Manual Test Creation](qms-manual-test-creation.md)  
+[Quality Management Overview](qms-overview.md)

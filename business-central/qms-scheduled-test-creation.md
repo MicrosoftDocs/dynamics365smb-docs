@@ -49,16 +49,19 @@ Scheduled test creation enables proactive quality management by automatically ge
 ### Business Applications
 
 **Routine Inventory Sampling**:
+
 - Random testing of items in stock
 - Verification of storage conditions
 - Quality drift monitoring
 
 **Compliance Testing**:
+
 - Regulatory requirement fulfillment
 - Industry standard compliance
 - Customer audit preparation
 
 **Preventive Quality Control**:
+
 - Early detection of quality issues
 - Trend analysis and monitoring
 - Continuous improvement data collection
@@ -74,7 +77,8 @@ Create templates specifically for scheduled testing:
 3. Configure measurements appropriate for routine testing
 4. Set pass/fail criteria for ongoing monitoring
 
-**Example Template: "ROUTINE-INSPECTION"**
+**Example Template: ROUTINE-INSPECTION**
+
 - Simplified measurement set for efficiency
 - Focus on critical quality parameters
 - Streamlined for regular execution
@@ -93,12 +97,14 @@ Configure rules specifically for time-based test creation:
 Set up execution parameters:
 
 **Frequency Settings**:
+
 - **Starting Date/Time**: When to begin scheduled testing
 - **Ending Date/Time**: When to stop (optional)
 - **Run on Mondays/Tuesday/etc.**: Day-specific scheduling
 - **Starting Time**: Time of day for execution
 
 **Execution Parameters**:
+
 - **Maximum No. of Attempts**: Retry logic for failures
 - **Rerun Delay**: Wait time between retry attempts
 - **Status**: Set to Ready to enable execution
@@ -108,16 +114,19 @@ Set up execution parameters:
 ### Common Issues
 
 **Job Queue Not Executing**:
+
 - Verify job queue service is running
 - Check job queue entry status
 - Review user permissions
 
 **No Tests Created**:
+
 - Verify test generation rule configuration
 - Check item filters and availability
 - Review codeunit parameters
 
 **Too Many Tests Created**:
+
 - Adjust sampling percentages
 - Refine item filters
 - Review selection logic
@@ -125,11 +134,13 @@ Set up execution parameters:
 ### Monitoring and Alerts
 
 **Automated Monitoring**:
+
 - Set up alerts for job queue failures
 - Monitor test creation volumes
 - Track completion rates
 
 **Quality Metrics**:
+
 - Measure scheduled test effectiveness
 - Track quality trend improvements
 - Calculate return on investment
@@ -139,11 +150,13 @@ Set up execution parameters:
 ### Scheduling Strategy
 
 **Balanced Approach**:
+
 - Combine scheduled and transaction-based testing
 - Focus scheduled tests on high-risk areas
 - Maintain statistical validity
 
 **Resource Planning**:
+
 - Plan quality inspector capacity
 - Coordinate with operational schedules
 - Balance proactive vs. reactive testing
@@ -151,19 +164,21 @@ Set up execution parameters:
 ### Continuous Improvement
 
 **Regular Review**:
+
 - Evaluate scheduled test effectiveness
 - Adjust frequencies based on findings
 - Optimize resource allocation
 
 **Data-Driven Decisions**:
+
 - Use scheduled test data for process improvement
 - Identify quality trends and patterns
 - Support vendor quality discussions
 
-## See Also
+## Related information
 
-- [Manual Test Creation](2.4-manual-test-creation.md)
-- [Creating Quality Inspection Templates](1.4-quality-templates.md)
-- [Setting Up Test Generation Rules](1.5-test-generation-rules.md)
-- [Quality Management Setup and Configuration](1.1-quality-management-setup.md)
-- [Quality Management Overview](0.0-Quality-Management-Overview.md)
+[Manual Test Creation](qms-manual-test-creation.md)  
+[Creating Quality Inspection Templates](qms-quality-templates.md)  
+[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
+[Quality Management Setup and Configuration](qms-setup.md)  
+[Quality Management Overview](qms-overview.md)

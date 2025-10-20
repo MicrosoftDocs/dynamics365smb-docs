@@ -569,6 +569,8 @@ ms.service: dynamics-365-business-central
 ##### [Work with intercompany documents and journals](intercompany-how-work-documents-journals.md)
 ##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
+
+### [Accounting and bookkeeping overview](learn-accounting-bookkeeping-guide.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
 
 ## Sales

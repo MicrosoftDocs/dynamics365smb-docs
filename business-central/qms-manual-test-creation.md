@@ -1,10 +1,25 @@
-# Manual Test Creation
+---
+title: Manual test creation
+description: Learn how to manually create quality inspection tests for reactive testing, investigations, and spot checks.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide explains the various methods for manually creating quality inspection tests in Quality Management. Manual test creation is essential for reactive testing scenarios and quality investigations.
+---
+
+# Manual test creation
+
+This article explains the various methods for manually creating quality inspection tests. Manual test creation is essential for reactive testing scenarios and quality investigations.
 
 ## Overview
 
 Manual test creation provides flexibility for:
+
 - **Reactive Testing**: Creating tests in response to quality issues
 - **Investigation**: Testing specific lots or items due to concerns  
 - **Spot Checking**: Random quality verification

@@ -1,6 +1,20 @@
-# Quality Management Setup and Configuration
+---
+title: Quality management setup and configuration 
+description: Learn how to set up and configure quality management features, including prerequisites, initial setup steps, and common scenarios.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide walks you through the initial setup and configuration of the Quality Management app for Business Central.
+---
+
+# Quality management setup and configuration
+
+This article takes you through the initial setup and configuration of quality management features.
 
 ## Prerequisites
 

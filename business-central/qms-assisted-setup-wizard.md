@@ -1,12 +1,26 @@
-# Assisted Setup Wizard
+---
+title: Assisted setup guide for quality management
+description: Learn how to use the Quality Management assisted setup guide to configure quality inspections, automate test creation, and align workflows with your business processes.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
+
+---
+
+# Assisted setup guide for quality management
 
 ## Overview
 
-The Quality Management Setup Wizard is an assisted setup guide that helps users configure the Quality Management system in Business Central. This wizard walks users through the initial configuration required to perform quality inspections and sets up automatic test creation based on business scenarios.
+The Quality Management assisted setup guide can help you configure the quality management features in Business Central. The guide covers the initial configuration required to perform quality inspections, and sets up automatic test creation based on business scenarios.
 
-## Running the Setup Wizard
+## Running the setup guide
 
-### Starting the Wizard
+### Start the guide
 
 1. Navigate to **Assisted Setup** in Business Central
 2. Locate **Setup Quality Management** in the list

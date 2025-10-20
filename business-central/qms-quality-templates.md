@@ -1,4 +1,18 @@
-# Creating Quality Inspection Templates
+---
+title: Create quality inspection templates
+description: Learn how to create and configure quality inspection templates to streamline quality testing processes and ensure compliance with quality standards.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
+
+---
+
+# Create quality inspection templates
 
 Quality inspection templates define the collection of measurements and attributes you want to collect during quality testing. Templates serve as the foundation for all quality tests in the system.
 

@@ -1,6 +1,20 @@
-# Purchase Receipt Testing Without Warehouse Tracking
+---
+title: Purchase receipt testing without warehouse tracking
+description: Learn how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide explains how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling (like the Silver location in Contoso demo data).
+---
+
+# Purchase receipt testing without warehouse tracking
+
+This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling (like the Silver location in Contoso demo data).
 
 ## Overview
 

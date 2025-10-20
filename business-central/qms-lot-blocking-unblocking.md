@@ -1,12 +1,27 @@
-# Lot Blocking and Unblocking
+---
+title: Lot blocking and unblocking
+description: Learn how to block and unblock inventory lots using workflows and grade-specific controls to ensure quality compliance.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide explains how to automatically block and unblock inventory lots based on quality inspection test results using workflows and grade-specific controls.
+---
+
+# Lot blocking and unblocking
+
+This article explains how to automatically block and unblock inventory lots based on quality inspection test results using workflows and grade-specific controls.
 
 ## Overview
 
 Quality Management provides two main approaches for lot blocking:
-1. **Workflow-Based Blocking**: Complete lot blocking using Business Central workflows
-2. **Grade-Based Blocking**: Document-specific blocking based on test grades
+
+- **Workflow-Based Blocking**: Complete lot blocking using Business Central workflows
+- **Grade-Based Blocking**: Document-specific blocking based on test grades
 
 Both approaches help ensure non-compliant inventory cannot be used inappropriately while allowing flexible quality control processes.
 

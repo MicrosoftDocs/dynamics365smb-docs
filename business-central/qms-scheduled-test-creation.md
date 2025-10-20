@@ -1,6 +1,20 @@
-# Scheduled Test Creation
+---
+title: Scheduled test creation
+description: Learn how to set up and use scheduled quality inspection tests to ensure proactive quality management through automated, time-based test creation.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide explains how to set up and use scheduled quality inspection tests that are created automatically at regular intervals using Business Central job queues.
+---
+
+# Scheduled test creation
+
+This article explains how to set up and use scheduled quality inspection tests that are created automatically at regular intervals using Business Central job queues.
 
 ## Overview
 

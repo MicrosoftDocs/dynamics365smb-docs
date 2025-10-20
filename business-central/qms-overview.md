@@ -1,4 +1,18 @@
-# Quality Management for Business Central
+---
+title: Quality management overview
+description: Learn how to use quality management to ensure product quality through automated and manual testing, lot grading, and workflow integration.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
+
+---
+
+# Quality management overview
 
 Quality Management is a foundational quality inspection application for Microsoft Dynamics 365 Business Central that provides comprehensive quality control capabilities throughout your business operations. This application enables automated and manual quality testing for purchase receipts, production and assembly output, and warehouse operations.
 

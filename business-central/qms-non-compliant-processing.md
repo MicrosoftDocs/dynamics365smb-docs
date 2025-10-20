@@ -1,6 +1,20 @@
-# Non-Compliant Processing
+---
+title: Non-compliant processing
+description: Learn how to handle non-compliant items, including workflows, inventory movements, and actions for failed quality tests.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide explains how to deal with items that don't pass quality inspection tests, including automatic workflows and manual actions for blocking items, moving inventory, and deciding what to do with failed items.
+---
+
+# Non-compliant processing
+
+This article explains how to deal with items that don't pass quality inspection tests, including automatic workflows and manual actions for blocking items, moving inventory, and deciding what to do with failed items.
 
 ## Overview
 

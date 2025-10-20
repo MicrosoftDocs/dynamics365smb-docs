@@ -1,4 +1,18 @@
-# Configuring Quality Inspection Grades
+---
+title: Configure quality inspection grades
+description: Learn how to configure and manage quality inspection grades, including grade setup, priority rules, business process integration, and best practices for ensuring quality outcomes.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
+
+---
+
+# Configure quality inspection grades
 
 This guide explains how to configure and use quality inspection grades in Quality Management. Grades are configurable states that determine test results and control business processes based on quality outcomes.
 

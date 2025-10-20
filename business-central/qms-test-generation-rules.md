@@ -1,4 +1,18 @@
-# Setting Up Test Generation Rules
+---
+title: Set up test generation rules
+description: Learn how to configure test generation rules to automate quality inspections based on business transactions.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
+
+---
+
+# Set up test generation rules
 
 Test generation rules define when and how quality inspection tests are automatically created in response to business transactions. These rules connect your quality templates to specific business processes.
 

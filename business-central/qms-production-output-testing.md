@@ -1,6 +1,20 @@
-# Production Output Quality Testing
+---
+title: Production output quality testing
+description: Learn how to set up and use automatic quality inspection tests for production output.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide explains how to set up and use automatic quality inspection test creation for production output when posting manufacturing operations.
+---
+
+# Production output quality testing
+
+This article explains how to set up and use automatic quality inspection test creation for production output when posting manufacturing operations.
 
 ## Overview
 

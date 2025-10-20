@@ -1,6 +1,20 @@
-# Quality Workflows
+---
+title: Quality management workflows
+description: Learn how to automate quality management processes using workflows.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide explains how to configure and use Business Central workflows to automate quality management processes, including lot blocking, inventory movement, negative adjustments, and other responses to quality test results.
+---
+
+# Quality management workflows
+
+This article explains how to configure and use Business Central workflows to automate quality management processes, including lot blocking, inventory movement, negative adjustments, and other responses to quality test results.
 
 ## Overview
 

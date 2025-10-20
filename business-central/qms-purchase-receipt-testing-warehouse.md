@@ -1,6 +1,20 @@
-# Purchase Receipt Testing With Warehouse Tracking
+---
+title: Purchase receipt testing with warehouse tracking
+description: Learn how to set up and use automatic quality inspection tests for purchase receipts in warehouse-enabled locations.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
+ms.search.form: 
+ms.date: 10/20/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
-This guide explains how to set up and use automatic quality inspection test creation for purchase receipts in locations with warehouse handling (like the White location in Contoso demo data).
+---
+
+# Purchase receipt testing with warehouse tracking
+
+This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations with warehouse handling (like the White location in Contoso demo data).
 
 ## Overview
 

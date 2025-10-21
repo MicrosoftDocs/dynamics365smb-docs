@@ -1,6 +1,6 @@
 ---
 title: Configure quality inspection grades
-description: Learn how to configure and manage quality inspection grades, including grade setup, priority rules, business process integration, and best practices for ensuring quality outcomes.
+description: Learn how to configure and manage quality inspection grades, including grade setup, priority rules, and business process integration.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -14,37 +14,36 @@ ms.custom: bap-template
 
 # Configure quality inspection grades
 
-This guide explains how to configure and use quality inspection grades in Quality Management. Grades are configurable states that determine test results and control business processes based on quality outcomes.
+This guide explains how to configure and use quality inspection grades in quality management. Grades are configurable states that determine test results and control business processes based on quality outcomes.
 
 ## Overview
 
-Quality inspection grades represent the possible outcomes of quality tests. Grades are effectively the incomplete/pass/fail state of a test. It is typical to have three grades (incomplete, fail, pass), however you can configure as many grades as you want, and in what circumstances. The grades with a lower number for the priority field are evaluated first. If you are not sure what to configure here then use the three defaults. The document specific lot blocking is for item+variant+lot+serial+package combinations, and can be used for serial-only tracking, or package-only tracking.
+Quality inspection grades represent the possible outcomes of quality tests. Typical grades are incomplete, fail, and pass, however you can configure as many grades as you want, and in what circumstances. Grades with a lower number in the **Priority** field are evaluated first. If you're unsure what to configure, use the three defaults. To learn more about the defaults, go to [Grade concepts](#grade-concepts). Document-specific lot blocking is for combinations of items, variants, lots, serial numbers, and package numbers, and you can use it for serial-only tracking, or package-only tracking.
 
-### Grade Concepts
+### Grade concepts
 
-**Default Grades**:
+**Default grades**:
 
-- **In Progress** (Priority 0): Test is incomplete or in progress
-- **Fail** (Priority 1): Test has failed quality criteria  
-- **Pass** (Priority 2): Test has met quality criteria
+- **In Progress** (Priority 0): The test is incomplete or in progress.
+- **Fail** (Priority 1): The test failed to meet quality criteria.  
+- **Pass** (Priority 2): The test met quality criteria.
 
-**Custom Grades**:
+**Custom grades**:
 
-- Multiple pass grades (e.g., "Excellent", "Good", "Acceptable")
-- Multiple fail grades (e.g., "Minor Defect", "Major Defect", "Critical Failure")
-- Gray state grades (e.g., "Under Review", "Conditional Pass")
+- Create multiple passing grades. For example, Excellent, Good, and Acceptable.
+- Create multiple failing grades. For example, Minor Defect, Major Defect, and Critical Failure.
+- Create gray state grades. For example, Under Review and Conditional Pass.
 
-## Configuring Available Grades
+## Configuring available grades
 
-### Step 1: Access Quality Inspection Grades
+### Step 1: Access quality inspection grades
 
-1. Navigate to **Quality Inspection Grades** in Business Central
-2. Review existing grades and their priority order
-3. Grades are displayed from lowest priority to highest priority
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Grades**, and then choose the related link.
+2. Review the existing grades and their order of priority. Grades display from lowest to highest priority.
 
-### Step 2: Understanding Default Grade Structure
+### Step 2: Understand the default grade structure
 
-**Configuration Example**:
+The following table shows an example of a configuration.
 
 | Grade Code | Description | Priority | Copy Behavior      | Allow Sales | Allow Purchase |
 | ---------- | ----------- | -------- | ------------------ | ----------- | -------------- |
@@ -52,312 +51,303 @@ Quality inspection grades represent the possible outcomes of quality tests. Grad
 | FAIL       | Fail        | 1        | Automatically Copy | Block       | Allow          |
 | PASS       | Pass        | 2        | Automatically Copy | Allow       | Allow          |
 
-In this example, sales transactions for a lot are restricted until the quality test is completed and passes all criteria. If the test is incomplete or fails, sales are blocked. Purchase transactions, however, remain permitted at all times.
+In this example, sales transactions for a lot are restricted until the quality test is complete and passes all criteria. If the test is incomplete or fails, sales are blocked. Purchase transactions, however, are always allowed.
 
-### Step 3: Grade Priority Rules
+### Step 3: Grade priority rules
 
-**Priority 0 (Incomplete/In Progress)**:
+**Priority 0 (incomplete or in progress)**:
 
-- Represents incomplete or ongoing tests
-- Default condition should be blank (matches any value including empty)
-- Evaluated first in grade determination
+- Represents incomplete or ongoing tests.
+- Default condition should be blank (matches any value including empty).
+- Evaluated first in grade determination.
 
-**Priority 1+ (Failure States)**:
+**Priority 1+ (failure states)**:
 
-- Represents various failure conditions
-- Must have priority higher than incomplete grades
-- Must have priority lower than pass grades
+- Represents various failure conditions.
+- Must have a higher priority than incomplete grades.
+- Must have a lower priority than pass grades.
 
-**Highest Priority (Pass States)**:
+**Highest priority (pass states)**:
 
-- Represents successful test outcomes
-- Evaluated last in grade determination
-- Must have highest priority numbers
+- Represents successful test outcomes.
+- Evaluated last in grade determination.
+- Must have the highest priority numbers.
 
-### Step 4: Copy Behavior Configuration
+### Step 4: Copy behavior configuration
 
 **Automatically Copy the Grade**:
 
-- Grade is automatically added to new templates
-- Default behavior for standard grades
-- Ensures consistent grade availability
+- Grade is automatically added to new templates.
+- Default behavior for standard grades.
+- Ensures consistent grade availability.
 
 **Do Not Copy**:
 
-- Grade must be manually added to templates
-- Used for specialized or conditional grades
-- Allows selective grade application
+- You must manually add the grade to templates.
+- Use for specialized or conditional grades.
+- Allows selective grade application.
 
-### Step 5: Available Transactions Control
+### Step 5: Available transactions control
 
-- **Allow Sales**: Enable/disable sales document posting
-- **Allow Purchase**: Enable/disable purchase document posting  
-- **Allow Transfer**: Enable/disable transfer order posting
-- **Allow Consumption**: Enable/disable material consumption in production
-- **Allow Pick**: Enable/disable warehouse picks
-- **Allow Put-away**: Enable/disable warehouse put-aways
-- **Allow Movement**: Enable/disable warehouse movements
-- **Allow Output**: Enable/disable production output posting
+- **Allow Sales**: Enable or disable sales document posting.
+- **Allow Purchase**: Enable or disable purchase document posting.
+- **Allow Transfer**: Enable or disable transfer order posting.
+- **Allow Consumption**: Enable or disable material consumption in production.
+- **Allow Pick**: Enable or disable warehouse picks.
+- **Allow Put-away**: Enable or disable warehouse put-aways.
+- **Allow Movement**: Enable or disable warehouse movements.
+- **Allow Output**: Enable or disable production output posting.
 
-## Configuring Grade Conditions
+## Configure grade conditions
 
-### Field Level Grade Configuration
+You can configure grades at the field and template levels. Configure grates at the template-level when you have:
 
-Configure default grade conditions for specific measurement fields:
+- Different acceptance criteria for same measurement.
+- Template-specific quality standards.
+- Customer-specific requirements.
 
-1. Navigate to **Quality Inspector Fields**
-2. Select the field to configure
-3. Expand **Grade Conditions** section
-4. Configure conditions for the "Pass" grade
+### Field-level grade configuration
 
-### Template Level Grade Configuration
+You can configure default grade conditions for specific measurement fields.
 
-Override field defaults for specific template requirements:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspector Fields**, and then choose the related link.
+2. Select the field to configure.
+3. On the **Grade Conditions** FastTab, configure conditions for the passing grade. To learn more about grade conditions, go to [Grade condition syntax](#grade-condition-syntax).
 
-1. Navigate to **Quality Inspection Templates**
-2. Edit the template
-3. Select the field to modify
-4. Configure conditions for the "Pass" grade
+### Grade condition syntax
 
-**When to Use Template-Level Configuration**:
-
-- Different acceptance criteria for same measurement
-- Template-specific quality standards
-- Customer-specific requirements
-
-### Grade Condition Syntax
-
-**Number Field Conditions**:
+The following are examples of number field conditions:
 
 - `20..24`: Range from 20 to 24
 - `>=20`: Greater than or equal to 20
 - `<>0`: Not equal to zero
 - `10|20|30`: Equals 10, 20, or 30
 
-**Text Field Conditions**:
+The following are examples of text field conditions:
 
 - `PASS|GOOD|OK`: Matches any of these values
 - `<>""`: Not blank
 - `A*`: Starts with "A"
 
-**Date Field Conditions**:
+The following are examples of date field conditions:
 
 - `TODAY..TODAY+30D`: Today through 30 days from today
 - `>=01/01/2024`: On or after specific date
 
-## Grade Visibility and Promotion
+### Template-level grade configuration
 
-### Promoting Grades for Better Visibility
+Override field defaults for specific template requirements:
 
-**Grade Promotion Benefits**:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and then choose the related link.
+2. Edit the template.
+3. Select the field to modify.
+4. Configure conditions for the passing grade.
 
-- Highlighted in field configuration screens
-- Visible inline during template configuration  
-- Prominent display during test execution
-- Featured in reports and certificates of analysis
+## Promote grades for better visibility
 
-### Configuring Grade Promotion
+Promoting grates has the following benefits:
 
-1. Navigate to **Quality Inspection Grades**
-2. Select **Edit List**
-3. Enable **Promoted** under **Grade Visibility** for important grades
-4. First 10 promoted grades are shown in descending priority order
+- They stand out in field configuration screens.
+- They display inline when you configure templates.
+- They display prominently when you run tests.
+- They're featured in reports and certificates of analysis.
 
-**Typically Promoted Grades**:
+The following are examples of grates that are often promoted:
 
 - **PASS**: Primary success indicator
 - **FAIL**: Primary failure indicator
 - Other customer-critical grades
 
-### Effects of Grade Promotion
+### Effects of grade promotion
 
-**Field Configuration**:
+**Field configuration**:
 
-- Additional columns for promoted grade conditions
-- Inline editing of promoted grade criteria
-- Quick access to most important conditions
+- Extra columns for promoted grade conditions.
+- Inline editing of promoted grade criteria.
+- Quick access to most important conditions.
 
-**Template Configuration**:
+**Template configuration**:
 
-- Promoted grades editable inline
-- Replaces traditional "Acceptable Values" field
-- Streamlined template setup
+- Promoted grades are editable inline.
+- Replaces the traditional **Acceptable Values** field.
+- Streamlines template set-up.
 
-**Test Execution**:
+**Test execution**:
 
-- Promoted grade conditions visible during testing
-- Quick reference for inspectors
-- Reduced errors in test completion
+- Promoted grade conditions are visible during testing.
+- Quick reference for inspectors.
+- Reduced errors in test completion.
 
 **Reporting**:
 
-- Certificate of Analysis shows promoted grades
-- Quality reports highlight promoted results
-- Executive dashboards focus on key grades
+- **Certificate of Analysis** shows promoted grades.
+- Quality reports highlight promoted results.
+- Executive dashboards focus on key grades.
 
-## Advanced Grade Configuration
+### Configure grade promotion
 
-### Multiple Pass Grades
+1. [!INCLUDE [prod_short](includes/prod_short.md)], enter **Quality Inspection Grades**, and then select the related link.
+2. Choose the **Edit List** action.
+3. Under **Grade Visibility**, turn on the **Promoted** toggle for important grades.
+4. The first 10 promoted grades show in a descending order of priority.
 
-**Business Scenario**: Different levels of product quality
+## Advanced grade configurations
 
-**Grade Configuration**:
+Quality management lets you add nuance to your quality inspection grades.
+
+### Set up multiple passing grades
+
+To allow for different levels of product quality, you can set up more than one grade that you consider as passing for your tests. The following are some examples:
 
 - **EXCELLENT** (Priority 10): Premium quality standards
 - **GOOD** (Priority 9): Standard quality standards  
 - **ACCEPTABLE** (Priority 8): Minimum acceptable quality
 - **FAIL** (Priority 1): Below minimum standards
 
-**Example Conditions** (for dimension measurement):
+The following are some examples of grade conditions for dimension measurement:
 
 - **EXCELLENT**: 99.9..100.1 (tight tolerance)
 - **GOOD**: 99.5..100.5 (standard tolerance)
 - **ACCEPTABLE**: 99.0..101.0 (loose tolerance)
 - **FAIL**: <>0 (any value outside acceptable range)
 
-### Multiple Fail Grades
+### Set up multiple failing grades
 
-**Business Scenario**: Different severity levels of defects
-
-**Grade Configuration**:
+To allow for different severity levels of defects, you can set up more than one grade that you consider as failing for your tests. The following are some examples:
 
 - **CRITICAL** (Priority 1): Safety or regulatory failure
 - **MAJOR** (Priority 2): Functional failure
 - **MINOR** (Priority 3): Cosmetic or minor defect
 - **PASS** (Priority 10): Acceptable quality
 
-**Business Process Integration**:
+The following are some examples for business process integration. To learn more about business process integration, go to [Workflow Integration](#workflow-integration).
 
 - **CRITICAL**: Immediate recall, supplier notification
 - **MAJOR**: Quarantine, rework evaluation
 - **MINOR**: Conditional release, customer notification
 
-### Conditional and Gray State Grades
+### Set up conditional and gray state grades
 
-**Business Scenario**: Items requiring additional evaluation
+You can set up conditional, or gray state, grades for items that require extra evaluation. The following are some examples:
 
-**Grade Configuration**:
+- **UNDER_REVIEW** (Priority 5): Requires management decision.
+- **CONDITIONAL** (Priority 6): Passes with limitations.
+- **RETEST** (Priority 4): Requires more testing.
 
-- **UNDER_REVIEW** (Priority 5): Requires management decision
-- **CONDITIONAL** (Priority 6): Passes with limitations
-- **RETEST** (Priority 4): Requires additional testing
+## Integrate with workflows
 
-## Integration with Business Processes
+You can integrate grates with workflows so that grades trigger different workflow responses. To learn more about workflows, go to [Create workflows to connect tasks in business processes](across-how-to-create-workflows.md).
 
-### Workflow Integration
+The following examples are workflow responses that specific grades might trigger:
 
-Grades can trigger different workflow responses:
+- **FAIL** grade blocks the lot and creates a negative adjustment.
+- **CRITICAL** grade immediately notifies the supplier.
+- **RETEST** grade creates another test and schedules inspection.
 
-**Grade-Specific Workflows**:
-
-- **FAIL** grade → Block lot, create negative adjustment
-- **CRITICAL** grade → Immediate notification, supplier alert
-- **RETEST** grade → Create additional test, schedule inspection
-
-### Document Control Integration
+### Document control integration
 
 Grades control transaction permissions:
 
-**Sales Integration**:
+**Sales integration**:
 
-- **PASS** grades allow sales shipment
-- **FAIL** grades block sales shipment
-- **CONDITIONAL** grades require approval
+- **PASS** grades allow sales shipments.
+- **FAIL** grades block sales shipments.
+- **CONDITIONAL** grades require approval.
 
-**Production Integration**:
+**Production integration**:
 
 - **PASS** grades allow consumption
 - **FAIL** grades block material usage
 - **UNDER_REVIEW** grades require supervisor approval
 
-### Reporting and Analytics
+### Reporting and analytics
 
-**Grade-Based Reporting**:
+**Grade-based reporting**:
 
 - Quality scorecards by grade distribution
 - Trend analysis of grade patterns
 - Vendor performance by grade outcomes
 - Customer satisfaction correlation with grades
 
-## Best Practices for Grade Configuration
+## Best practices for grade configuration
 
-### Grade Design Principles
+This section describes good design principles to consider when you set up your grades.
 
-**Keep It Simple**:
+**Keep it simple**:
 
-- Start with basic Pass/Fail/In Progress
-- Add complexity only when business value is clear
-- Ensure users understand grade meanings
+- Start with basic pass, fail, and in progress grades.
+- Add complexity only when the business value is clear.
+- Ensure that users understand the meanings of your grades
 
-**Business Alignment**:
+**Business alignment**:
 
-- Align grades with business processes
-- Match grades to decision points
-- Consider customer and supplier perspectives
+- Align grades with business processes.
+- Match grades to decision points.
+- Consider customer and supplier perspectives.
 
-**Consistent Logic**:
+**Consistent logic**:
 
-- Use consistent condition syntax across fields
-- Maintain logical priority ordering
-- Document grade definitions and usage
+- Use consistent condition syntax across fields.
+- Maintain logical orders of priority.
+- Document your grade definitions and how to use them.
 
-### Change Management
+### Change management
 
-**Grade Condition Updates**:
+**Grade condition updates**:
 
-- Understand that changes don't affect existing tests
-- Plan updates during low-activity periods
-- Communicate changes to quality team
+- Understand that changes don't affect existing tests.
+- Plan updates to happen during periods of low-activity.
+- Communicate your changes to the quality team.
 
-**Template Migration**:
+**Template migration**:
 
-- Test grade changes on non-critical templates first
-- Provide training on new grade meanings
-- Monitor impact on quality processes
+- Test grade changes on noncritical templates first..
+- Provide training on the meanings of new grades.
+- Monitor effect on quality processes.
 
-### Performance Considerations
+### Performance considerations
 
-**Grade Complexity**:
+The following are things to consider related to grade complexity:
 
-- Complex conditions can impact test performance
-- Limit number of active grades to business needs
-- Regular cleanup of unused grades
+- Complex conditions can affect test performance.
+- Limit the number of active grades to business needs.
+- Regularly clean up unused grades.
 
-## Troubleshooting Grades
+## Troubleshooting grades
 
-### Common Issues
+This section describes some typical issues, and provides suggestions for how to get unblocked.
 
-**Tests Not Calculating Expected Grades**:
+### Tests don't calculate the expected grades
 
-- Review grade condition syntax
-- Check priority ordering
-- Verify condition inheritance from field to template
+- Review grade condition syntax.
+- Check the order of priority.
+- Verify the condition inheritance from fields to the template.
 
-**Grades Not Available in Templates**:
+### Grades aren't available in templates
 
-- Check grade copy behavior settings
-- Verify grade is not set to "Do Not Copy"
-- Manually add grade to template if needed
+- Check your settings for grade copy behavior.
+- Verify that the grade isn't set to **Do Not Copy**.
+- Manually add the grade to the template, if needed.
 
-**Workflow Not Triggering**:
+### My workflow doesn't start
 
-- Confirm workflow condition matches grade code exactly
-- Check grade code spelling and case sensitivity
-- Review workflow activation status
+- Confirm that the workflow condition exactly matches the grade code.
+- Check the grade code spelling and case sensitivity.
+- Review the workflow activation status.
 
-### Grade Validation
+## Validate grades
 
-**Testing Grade Logic**:
+The following are ways to test your grade logic:
 
-- Use "Value to Test" feature in grade configuration
-- Test boundary conditions and edge cases
-- Validate grade calculations with sample data
+- Use the **Value to Test** feature in grade configuration.
+- Test your boundary conditions and edge cases.
+- Validate grade calculations with sample data.
 
-**Process Validation**:
+The following are ways to test your process:
 
-- Create test scenarios for each grade outcome
-- Verify business process responses to grades
-- Confirm reporting displays grades correctly
+- Create test scenarios for each grade outcome.
+- Verify business process responses to grades.
+- Confirm that your reports display grades correctly.
 
 ## Related information
 

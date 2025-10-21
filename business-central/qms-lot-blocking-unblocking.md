@@ -4,7 +4,7 @@ description: Learn how to block and unblock inventory lots using workflows and g
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: overview
+ms.topic: how-to
 ms.search.form: 
 ms.date: 10/20/2025
 ms.service: dynamics-365-business-central
@@ -14,129 +14,120 @@ ms.custom: bap-template
 
 # Lot blocking and unblocking
 
-This article explains how to automatically block and unblock inventory lots based on quality inspection test results using workflows and grade-specific controls.
+This article explains how to automatically block and unblock inventory lots based on quality inspection test results using workflows and grade-specific controls. There are two main approaches for lot blocking:
 
-## Overview
-
-Quality Management provides two main approaches for lot blocking:
-
-- **Workflow-Based Blocking**: Complete lot blocking using Business Central workflows
+- **Workflow-Based Blocking**: Block lots using workflows.
 - **Grade-Based Blocking**: Document-specific blocking based on test grades
 
-Both approaches help ensure non-compliant inventory cannot be used inappropriately while allowing flexible quality control processes.
+Both approaches help ensure that noncompliant inventory isn't used inappropriately, while allowing flexible quality control processes.
 
 ## Prerequisites
 
-- **Workflow Integration**: Enable in Quality Inspection Setup
-- **Quality Templates**: Configured with pass/fail criteria
-- **Test Generation Rules**: Set up for automatic test creation
-- **Items**: Configured with lot tracking
+- Enable **Workflow integration** in **Quality Inspection Setup**.
+- Configure **Quality Templates** with pass/fail criteria.
+- Set up **Test Generation Rules** for automatic test creation.
+- Configure **Items** with lot tracking.
 
-## Workflow-Based Lot Blocking
-
-### Overview
+## Workflow-based lot blocking
 
 Workflow-based blocking creates or modifies **Lot Number Information Cards** to completely block lots for all transactions (except warehouse operations when configured).
 
-### Setting Up Block-on-Fail Workflow
+### Set up a block-on-fail workflow
 
-**Scenario**: Block lots when quality tests fail
+The following procedure describes the key settings for a workflow that blocks lots when quality tests fail.
 
-1. **Create Workflow**:
-   - Navigate to **Workflows**
-   - Create new workflow: "Block Lot Example"
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Workflow**, and then choose the related link.
+1. Create a new workflow. For example, name it "Block Lot Example."
+1. Configure the **When Event**, as follows:
 
-2. **Configure When Event**:
    - **Event**: When a **Quality Inspection Test is Finished**
    - **Condition**: Grade Code equals **"Fail"**
 
-3. **Configure Response**:
-   - **Response**: Block the lot in the test
-   - This creates a lot information card with blocked status
+1. Configure the **Response** as **Block the lot in the test**. This setting creates a lot information card with the status **Blocked**.
 
-### Setting Up Block-on-Creation Workflow
+### Set up block-on-creation, and unblock on pass workflows
 
-**Scenario**: Block lots immediately when tests are created, unblock when tests pass
+The following procedures describe the key settings for workflows that block lots immediately when tests are created, and unblock them when tests pass.
 
-#### Workflow 1: Block on Test Creation
-1. **Create Workflow**: "Block Lot on Creation"
-2. **When Event**: When a **Quality Inspection Test is Created**
-3. **Response**: Block the lot in the test
-4. **Result**: All lots blocked immediately when tests are created
+#### Block on test creation
 
-#### Workflow 2: Unblock on Pass
-1. **Create Workflow**: "Unblock on Pass"  
-2. **When Event**: When a **Quality Inspection Test is Finished**
-3. **Condition**: Grade Code equals "**Pass**"
-4. **Response**: Unblock the lot in the test
-5. **Result**: Lots unblocked only when tests pass
+1. Create a new workflow. For example, name it "Block Lot on Creation."
+1. Set the **When Event** as **Quality Inspection Test is Created**.
+1. Set the **Response** as **Block the lot in the test**.
 
-### Workflow Configuration Requirements
+   The result is that all lots are blocked immediately when tests are created.
 
-**Enable Workflow Integration**:
-1. Navigate to **Quality Inspection Setup**
-2. Ensure **Enable Workflow Integration** is enabled
-3. Without this setting, workflow events will not be available
+#### Unblock on pass
 
-## Grade-Based Document Blocking
+1. Create a new workflow. For example, name it "Unblock on Pass."  
+2. Set the **When Event** as **Quality Inspection Test is Finished**.
+3. Set the **Condition** as **Grade Code equals Pass**.
+4. Set the **Response** as **Unblock the lot in the test**.
+5. Set the **Result** as **Lots unblocked only when tests pass**.
 
-### Overview
+### Enable workflow integration
 
-Grade-based blocking provides granular, document-specific controls based on the current grade of quality inspection tests. Unlike complete lot blocking, this approach allows you to block specific transaction types while permitting others, based on the test grade.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Setup**, and then choose the related link.
+2. Turn on the **Enable Workflow Integration** toggle.
 
-### How Grade-Based Blocking Works
+> [!NOTE]
+> If you don't turn on the **Enable Workflow Integration** toggle, the quality management events for workflows aren't available.
 
-**Grade Evaluation**:
-- System evaluates current test grades for the lot/serial number
-- Transaction permissions are determined by the grade configuration
-- Multiple tests for the same lot may have different grades
-- System can be configured to consider specific tests when evaluating restrictions
+## Grade-based document blocking
 
-### Configuring Grade Transaction Controls
+Grade-based blocking provides granular, document-specific controls based on the current grade of quality inspection tests. Unlike complete lot blocking, this approach lets you block specific transaction types while permitting others, based on the test grade.
 
-1. Navigate to **Quality Inspection Grades**
-2. Select the grade to configure (e.g., INPROGRESS, FAIL, PASS)
+The following list describes how [!INCLUDE [prod_short](includes/prod_short.md)] evaluates grades:
+
+- The system evaluates current test grades for the lot/serial number.
+- The grade configuration determines transaction permissions.
+- Multiple tests for the same lot might have different grades.
+- The system can consider specific tests when it evaluates restrictions.
+
+### Configuring grade transaction controls
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Grades**, and then choose the related link.
+2. Select the grade to configure. For example, INPROGRESS, FAIL, or PASS.
 3. Configure transaction permissions for each grade:
 
-**Available Transaction Controls**:
-- **Allow Sales**: Enable/disable sales document posting
-- **Allow Purchase**: Enable/disable purchase document posting  
-- **Allow Transfer**: Enable/disable transfer order posting
-- **Allow Consumption**: Enable/disable material consumption in production
-- **Allow Pick**: Enable/disable warehouse picks
-- **Allow Put-away**: Enable/disable warehouse put-aways
-- **Allow Movement**: Enable/disable warehouse movements
-- **Allow Output**: Enable/disable production output posting
+   - **Allow Sales**: Enable or disable sales document posting.
+   - **Allow Purchase**: Enable or disable purchase document posting.
+   - **Allow Transfer**: Enable or disable transfer order posting.
+   - **Allow Consumption**: Enable or disable material consumption in production.
+   - **Allow Pick**: Enable or disable warehouse picks.
+   - **Allow Put-away**: Enable or disable warehouse put-aways.
+   - **Allow Movement**: Enable or disable warehouse movements.
+   - **Allow Output**: Enable or disable production output posting.
 
-### Example Grade Configurations
+### Examples of grade configurations
 
-#### INPROGRESS Grade (Priority 0)
-**Use Case**: Testing in progress, restrict most transactions
-**Business Logic**: Items can be stored and moved for testing but not used in business transactions
+#### INPROGRESS grade (priority 0)
 
-- **Allow Sales**: No (cannot sell unconfirmed quality)
-- **Allow Transfer**: No (prevent distribution before testing complete)
-- **Allow Consumption**: No (cannot use in production)
-- **Allow Pick**: No (prevent picking for shipment)
+Use this grade configuration to restrict most transactions when testing is in progress. The business logic is that you can store and move items for testing, but not use them in business transactions.
+
+- **Allow Sales**: No (can't sell unconfirmed quality)
+- **Allow Transfer**: No (prevent distribution before testing is complete)
+- **Allow Consumption**: No (can't use in production)
+- **Allow Pick**: No (prevent picking for shipments)
 - **Allow Put-away**: Yes (allow warehouse storage)
 - **Allow Movement**: Yes (allow movement to testing areas)
-- **Allow Output**: Yes (may be acceptable for work-in-progress)
+- **Allow Output**: Yes (might be acceptable for work-in-progress)
 
-#### FAIL Grade (Priority 1+)
-**Use Case**: Failed quality test, quarantine required
-**Business Logic**: Block all business use, allow only quarantine and disposition activities
+#### FAIL grade (priority 1+)
 
-- **Allow Sales**: No (cannot sell non-conforming items)
+Use this grade configuration to require quarantine with a quality test fails. The business logic is to block all use and allow only quarantine and disposal activities.
+
+- **Allow Sales**: No (can't sell nonconforming items)
 - **Allow Transfer**: No (prevent distribution of failed items)
-- **Allow Consumption**: No (cannot use defective materials)
+- **Allow Consumption**: No (can't use defective materials)
 - **Allow Pick**: No (prevent accidental picking)
 - **Allow Put-away**: Yes (allow quarantine storage)
-- **Allow Movement**: Yes (allow movement for disposition)
+- **Allow Movement**: Yes (allow movement for disposal)
 - **Allow Output**: No (prevent use in production)
 
-#### PASS Grade (Highest Priority)
-**Use Case**: Quality test passed, normal business operations allowed
-**Business Logic**: All transactions permitted for confirmed quality items
+#### PASS grade (highest priority)
+
+Use this grade configuration to allow normal business operations when a quality test passes. The business logic is to allow transactions for items with confirmed quality.
 
 - **Allow Sales**: Yes (approved for customer shipment)
 - **Allow Transfer**: Yes (approved for distribution)
@@ -146,171 +137,175 @@ Grade-based blocking provides granular, document-specific controls based on the 
 - **Allow Movement**: Yes (normal warehouse operations)
 - **Allow Output**: Yes (approved for production output)
 
-#### Custom Grade Example: CONDITIONAL (Medium Priority)
-**Use Case**: Conditionally acceptable with restrictions
-**Business Logic**: Limited use with management approval
+#### Example of a CONDITIONAL (medium priority) custom grade
+
+Use this grade configuration when a grade is conditionally acceptable with restrictions. The business logic is to allow limited use, and perhaps require management approval.
 
 - **Allow Sales**: No (requires customer approval)
 - **Allow Transfer**: Yes (can transfer with documentation)
-- **Allow Consumption**: Yes (acceptable for non-critical applications)
+- **Allow Consumption**: Yes (acceptable for noncritical applications)
 - **Allow Pick**: Yes (with proper documentation)
 - **Allow Put-away**: Yes (normal storage)
 - **Allow Movement**: Yes (normal handling)
 - **Allow Output**: No (not suitable for finished goods)
 
-## Implementing Lot Blocking Scenarios
+## Implement lot blocking scenarios
 
-### Scenario 1: Block on Failure Only
+This section describes some typical scenarios for lot blocking.
 
-**Business Rule**: Lots remain available until tests fail
+### Block on failure only
 
-**Implementation**:
-1. **Workflow**: Block lot when test finishes with "FAIL" grade
-2. **Grade Setup**: "In Progress" grade allows all transactions
-3. **Result**: Normal operations continue until test failure
-
-**Process Flow**:
-1. Item received and put away normally
-2. Quality test created  
-3. Lot remains available for all operations
-4. If test fails → lot becomes completely blocked
-5. If test passes → no blocking occurs
-
-### Scenario 2: Block During Testing
-
-**Business Rule**: Block lots immediately when testing begins
+**Business Rule**: Lots remain available until tests fail.
 
 **Implementation**:
-1. **Workflow 1**: Block lot when test is created
-2. **Workflow 2**: Unblock lot when test passes with "PASS" grade
-3. **Grade Setup**: Configure document-specific controls if needed
 
-**Process Flow**:
-1. Item received
-2. Quality test created → lot immediately blocked
-3. Put-away may still be allowed (warehouse operations)
-4. Test completion:
-   - **Pass**: Lot unblocked, normal operations resume
-   - **Fail**: Lot remains blocked
+1. **Workflow**: Block lot when test finishes with "FAIL" grade.
+2. **Grade Setup**: The **INPROGRESS** grade allows all transactions.
 
-### Scenario 3: Document-Specific Controls
+The following process is a sample flow for this implementation:
 
-**Business Rule**: Prevent sales but allow warehouse operations during testing
+1. You receive the item and put it away normally.
+2. You create and run a quality test.  
+3. The lot remains available for all operations.
+4. If the test fails, the lot becomes blocked. If it passes, no blocking happens.
+
+### Block during testing
+
+**Business Rule**: Block lots immediately when testing begins.
 
 **Implementation**:
-1. **No Workflows**: Rely entirely on grade controls
-2. **In Progress Grade**: 
+
+1. **Workflow 1**: Block lot when test is created.
+2. **Workflow 2**: Unblock lot when test passes with "PASS" grade.
+3. **Grade Setup**: Configure document-specific controls if needed.
+
+The following process is a sample flow for this implementation:
+
+1. You receive the item.
+2. You create and run quality test, and the lot is immediately blocked.
+3. Put-away might still be allowed (warehouse operations).
+4. If the test fails, the lot remains blocked. If it passes, normal operations resume.
+
+### Document-specific controls
+
+**Business Rule**: Prevent sales, but allow warehouse operations during testing.
+
+**Implementation**:
+
+1. **No Workflows**: Rely entirely on grade controls.
+2. **In Progress Grade**:
    - Allow Put-away: Yes
    - Allow Movement: Yes
    - Allow Pick: No
    - Allow Sales: No
 
-**Process Flow**:
-1. Item received and test created
-2. Put-away proceeds normally (allowed)
-3. Sales orders cannot be posted (blocked)
-4. Warehouse movements allowed for quality area
-5. Test completion changes grade, updating permissions
+The following is a sample process flow for this implementation:
 
-## Working with Blocked Lots
+1. You receive the item and create a test.
+2. Put-away proceeds normally (allowed).
+3. Sales orders can't be posted (blocked).
+4. Warehouse movements are allowed for the quality area.
+5. Test completion changes the grade, updating permissions.
 
-### Identifying Blocked Lots
+## Work with blocked lots
 
-**Lot Information Cards**:
-- Navigate to **Lot Number Information**
-- Blocked lots show "Blocked" status
-- View quality test references
+The following sections describe some actions you can take while a lot is blocked.
 
-**Quality Test Integration**:
-- Tests show related lot blocking status
-- Navigate from tests to lot information
-- Review blocking history
+### Identify blocked lots
 
-### Managing Blocked Inventory
+It't easy to find out whether a lot is blocked. Open the **Lot No. Information List** page, and check the **Blocked** field. You can also use quality test references.
 
-**Warehouse Operations**:
-- Blocked lots may still allow warehouse movements
-- Use for quarantine and disposition processes
-- Configure grade controls for specific needs
+For **Quality Test Integration**, tests show related lot blocking status. You can go from tests to lot information and review blocking history.
 
-**Disposition Actions**:
-- Move to quarantine areas
-- Process through rework procedures
-- Create negative adjustments for disposal
-- Return to vendors if appropriate
+### Manage blocked inventory
 
-## Testing Lot Blocking Configuration
+You can do the following for warehouse operations:
 
-### Test Scenario: Purchase Receipt with Blocking
+- Blocked lots might still allow warehouse movements.
+- Use for quarantine and disposal processes.
+- Configure grade controls for specific needs.
 
-1. **Create Purchase Order**:
-   - Item with lot tracking
-   - Location with appropriate setup
-   - Post warehouse receipt
+For disposal, you can take the following actions:
 
-2. **Verify Test Creation**:
-   - Quality test created automatically
-   - Check lot blocking status (depends on configuration)
+- Move to quarantine areas.
+- Process through rework procedures.
+- Create negative adjustments for disposal.
+- Return to vendors if appropriate.
 
-3. **Test Sales Transaction**:
-   - Create sales order for same lot
-   - Attempt to post shipment
-   - Verify blocking behavior
+## Test lot blocking configuration
 
-4. **Complete Quality Test**:
-   - Enter measurement values
-   - Finish test with pass or fail result
-   - Verify lot status changes appropriately
+### Test Scenario: Purchase receipt with blocking
 
-### Validation Points
+1. **Create a purchase order**:
+   - Item with lot tracking.
+   - Location with appropriate setup.
+   - Post warehouse receipt.
+
+2. **Verify test creation**:
+   - Quality test is created automatically.
+   - Check the lot blocking status (depends on configuration).
+
+3. **Test a sales transaction**:
+   - Create a sales order for the same lot.
+   - Try to post a shipment.
+   - Verify the blocking behavior.
+
+4. **Complete a quality test**:
+   - Enter the measurement values.
+   - Finish the test with a pass or fail result.
+   - Verify that the lot status changes appropriately.
+
+### Validation points
 
 **Automatic Blocking**:
-- Tests create and lots block as configured
-- Blocking prevents inappropriate transactions
-- Warehouse operations follow grade settings
+
+- Tests create and lots block as configured.
+- Blocking prevents inappropriate transactions.
+- Warehouse operations follow grade settings.
 
 **Test Completion**:
-- Passing tests unblock lots (if configured)
-- Failing tests maintain or create blocking
-- Grade changes update transaction permissions
 
-## Troubleshooting Lot Blocking
+- Passing tests unblock lots (if configured).
+- Failing tests maintain or create blocking.
+- Grade changes update transaction permissions.
 
-### Workflows Not Triggering
+## Troubleshoot lot blocking
 
-**Common Issues**:
-- Workflow integration not enabled in Quality Inspection Setup
-- Workflows not activated
-- Incorrect event or condition configuration
+This section lists some typical issues and describes how to get unblocked.
 
-**Solutions**:
-- Enable workflow integration
-- Activate required workflows  
-- Review workflow configuration
+### My workflow doesn't start
 
-### Unexpected Blocking Behavior
+- The **Workflow Integration** toggle isn't enabled on the **Quality Inspection Setup** page. Turn on the toggle.
+- The workflow isn't active. Activate the workflow.
+- There's an incorrect event or condition in your workflow configuration. Review the settings in your workflow.
 
-**Grade Control Issues**:
-- Review grade configuration for transaction types
-- Check test grade assignments
-- Verify grade inheritance rules
+### I get unexpected blocking behavior
 
-**Workflow Conflicts**:
-- Multiple workflows may conflict
-- Review workflow priorities
-- Consider disabling conflicting workflows
+There might be a problem with your grade control:
 
-### Lots Not Unblocking
+- Review your grade configuration for transaction types.
+- Check your test grade assignments.
+- Verify your grade inheritance rules.
 
-**Pass Condition Issues**:
-- Verify test actually resulted in "PASS" grade
-- Check workflow conditions for unblocking
-- Review grade transition rules
+There might be conflicts with your workflow:
 
-**Manual Intervention**:
-- Manually unblock lots through Lot Information Cards
-- Review and correct workflow configuration
-- Consider grade-based controls instead
+- Check whether multiple workflows conflict.
+- Review workflow priorities.
+- Consider disabling conflicting workflows.
+
+### My lots aren't becoming unblocked
+
+There might be issues with you pass condition:
+
+- Verify that the test resulted in a passing grade.
+- Check your workflow conditions for unblocking.
+- Review your grade transition rules.
+
+You might need to manually intervene:
+
+- Manually unblock lots on the **Lot No. Information Card** page.
+- Review and correct your workflow configuration.
+- Consider using grade-based controls instead.
 
 ## Related information
 

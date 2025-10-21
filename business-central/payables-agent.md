@@ -1,5 +1,5 @@
 ---
-title: Payables Agent overview (preview)
+title: Payables Agent overview
 description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
 ms.date: 10/10/2025
 ms.update-cycle: 180-days
@@ -11,9 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ms.search.form: 4400, 4410
 ---
-# Payables Agent overview (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Payables Agent overview
 
 The Payables Agent solves a decade-old challenge: end-to-end processing of vendor invoices. Processing vendor invoices often creates bottlenecks and relies on accounting knowledge and mapping data and business rules to register invoices correctly.
 
@@ -21,17 +19,12 @@ The core goal for the Payables Agent is simple: get accounting skills and help r
 
 The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to analyze invoice content, and shows invoice drafts to agent supervisors for review. Ideally, users make few or no corrections before finalizing drafts, so invoices are ready for approval and posting.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
-
 > [!NOTE]
 > [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
-## Functionality in the preview
+## Upcoming functionality
 
-This preview doesn't represent the full vision of the Payables Agent. The Payables Agent is in its early stages, and more features and AI capabilities are coming.
-
-Eventually, the agent will help with:
+The Payables Agent is in its early stages, and more features and AI capabilities are coming. Eventually, the agent will help with:
 
 * Purchase order matching
 * Approval flows
@@ -43,8 +36,6 @@ Eventually, the agent will help with:
 The end-to-end process handled by the Payables Agent is shown in the following figure. The actual flow can vary depending on factors like the clarity of analyzed invoice details, existing purchase invoice history, and blocking issues.
 
 ![Shows the Payables Agent flow](media/payables-agent-flow.png)
-
-The dashed steps in the image represent steps that&mdash;in time&mdash;are intended to be optional depending on configuration. In the public preview release, these steps aren't optional.
 
 1. **Vendor or employee:** Vendor sends an email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice to the mailbox.
 1. **Payables Agent:** Picks up unread email in the monitored mailbox. It then imports the email and creates an entry in **Inbound E-Documents** for every PDF attachment, if any exists.

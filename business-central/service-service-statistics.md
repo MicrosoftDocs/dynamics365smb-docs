@@ -118,8 +118,8 @@ You can use the **Service Credit Memo Statistics** page to get a statistical ove
 
 ## Related information
 
-[Create Service Orders](service-how-to-create-service-orders.md)
-[Create Service Items](service-how-to-create-service-items.md)
+[Create Service Orders](service-how-to-create-service-orders.md)  
+[Create Service Items](service-how-to-create-service-items.md)  
 [Plan Service](service-plan-service.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

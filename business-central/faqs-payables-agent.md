@@ -154,7 +154,7 @@ Additionally, in Business Central, you can set up and use approval workflows to 
 
 ## Is this capability extensible?
 
-No. Microsoft creates and maintains the Payables Agent, and its code isn't extensible by other solutions or plugins.
+The Payables Agent app is currently not extensible. However, the underlying E-Documents framework is extensible.
 
 ## Related information
 

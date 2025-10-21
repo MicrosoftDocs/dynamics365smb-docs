@@ -33,7 +33,7 @@ The Quality Management app includes an assisted setup wizard to help configure b
 
 1. Navigate to **Assisted Setup**
 2. Find and run **Set up Quality Management**
-3. Follow the wizard steps (see [Assisted Setup Wizard](1.2-assisted-setup-wizard.md) for details)
+3. Follow the wizard steps (see [Assisted Setup Wizard](qms-assisted-setup-wizard.md) for details)
 
 ### 2. Configure Base Data
 
@@ -184,7 +184,7 @@ After completing initial setup:
 1. [Create Quality Inspection Templates](qms-quality-templates.md)
 2. [Set Up Test Generation Rules](qms-test-generation-rules.md)
 3. [Configure Workflows (Optional)](qms-quality-workflows.md)
-4. [Test Your Configuration](./testing-configuration.md)
+<!--4. [Test Your Configuration](./testing-configuration.md)-->
 
 ## Common Setup Scenarios
 

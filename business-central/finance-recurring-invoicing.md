@@ -68,7 +68,7 @@ With this option, you use a part of the advanced service management functionalit
 
 However, this option requires the Premium license. Setting up service management and maintaining it might not give huge advantages in simpler subscription scenarios.  
 
-For more information, see [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md) and [Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts).
+For more information, see [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md) and [Invoice several service contracts](service-how-create-invoices.md#invoice-several-service-contracts).
 
 ## Related features
 There are several related capabilities in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -89,7 +89,7 @@ For more information, see [Work with Blanket Sales Orders](sales-how-to-create-b
 ### Recurring Orders (Norway)
 
 You can use recurring orders to create blanket order templates so that sales orders can be created based on date intervals that you define. For example, if you deliver the same sales order every two weeks, you can use a blanket sales order and create recurring orders.
-You can use recurring groups to define a range of parameters that show how you make the orders. These groups are assigned to blanket orders that have to be created regularly. To create the recurring orders, you'll have to periodically run the create recurring orders process. 
+You can use recurring groups to define a range of parameters that show how you make the orders. These groups are assigned to blanket orders that have to be created regularly. To create the recurring orders, you'll have to periodically run the create recurring orders process.
 
 #### Why use this option
 
@@ -111,7 +111,7 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 [Create multiple project sales invoices](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  
 [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
-[Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts)  
+[Invoice several service contracts](service-how-create-invoices.md#invoice-several-service-contracts)  
 [Demand Forecasts and Blanket Orders](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
 [Recurring Orders (Norway)](LocalFunctionality/Norway/recurring-orders.md)  

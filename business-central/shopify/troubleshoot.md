@@ -19,7 +19,7 @@ You might run into situations where you need to troubleshoot issues when synchro
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
-3. Turn off the **Allow Background Syncs** toggle.
+3. Turn off the **Run Syncs in Background** toggle.
 
 Now, when the sync action is triggered, the task runs in the foreground. If an error occurs, you get an error dialog with a **Copy details** link. Use the link to copy information to a text editor for further analysis.
 
@@ -65,6 +65,9 @@ Customer:
 
 - A customer has an empty email.
 - A customer with the same email or phone number exists.
+  
+Company:
+- A company with the same external ID already exists in Shopify.	
 
 Posted sales invoice:
 
@@ -155,6 +158,10 @@ The following procedures describe how to rotate the access token used by the Sho
 2. Select the shop for which you want to rotate the access token to open the **Shopify Shop Card** page.
 3. Choose the **Request Access** action.
 4. If prompted, sign in to your Shopify account, review privacy and permissions, and then choose the **Install App** button.
+
+## Troubleshhoting steps for specific synchs:
+- [Troubleshooting inventory synchronization](synchronize-items.md#troubleshooting-inventory-synchronization)
+- [Troubleshooting shipment synchronization](synchronize-orders.md#troubleshooting-shipment-synchronizations)
 
 ### Troubleshooting refunds
 

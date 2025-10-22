@@ -16,6 +16,6 @@ The following table describes the reports in the [!INCLUDE [power-bi-finance-app
 |Analyze general ledger entries in detail, and slice G/L entries by all eight shortcut dimensions. | [General Ledger Entries](https://businesscentral.dynamics.com?page=36995) |[About General Ledger Entries](../finance-powerbi-general-ledger-entries.md) |
 | [!INCLUDE [pbireport-detailed-vendor-ledger-entries-include](pbireport-detailed-vendor-ledger-entries-include.md)] | [Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996) | [About Detailed Vendor Ledger Entries](../finance-powerbi-detailed-vendor-ledger-entries.md) |
 |Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.| [Detailed Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997) | [About Detailed Customer Ledger Entries](../finance-powerbi-detailed-customer-ledger-entries.md) |
-|Analyze the behaviours of late paying customers and their financial impact. | [Late Payments Receivables](https://businesscentral.dynamics.com?page=37113) | [About Late Payments (Receivables)](../finance-powerbi-detailed-customer-ledger-entries.md) |
+|Analyze the behaviours of late paying customers and their financial impact. | [Late Payments Receivables](https://businesscentral.dynamics.com?page=37113) | [About Late Payments (Receivables)](../finance-powerbi-late-payment-analysis-receivables.md) |
 
 [!INCLUDE[powerbi-tip-track-kpis](powerbi-tip-track-kpis.md)]

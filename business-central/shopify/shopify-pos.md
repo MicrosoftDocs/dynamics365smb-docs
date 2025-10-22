@@ -26,6 +26,12 @@ Orders you create through POS are often immediately fulfilled by Shopify. It's i
 
 If you already fulfilled the Shopify order, when you choose the **Create sales document** action you create a **Sales Invoice**. Because a sales invoice doesn't reduce inventory levels, it might be a good idea to post such invoices as soon as you import them. Learn more at [To schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
+Cash transactions on Shopify point of sale (POS) automatically round to the nearest available denomination in countries/regions that don't use small coins. Only cash payments are rounded. Non-cash payments aren't rounded. Cash rounding automatically applies to the final total, after discounts and taxes are applied on all cash payments or refunds on Shopify POS. Cash rounding also applies to refunds and exchanges. For example, in Canada, if an order payment is $9.99 CAD, the cash rounding adjustment is +$0.01 CAD and the rounded payment is $10.00 CAD. If the order is partially refunded with $5.02 CAD in cash, the cash rounding adjustment is -$0.02 CAD and the rounded refund is $5.00 CAD.
+
+Shopify Connector imports cash rounding adjustment in the Shopify order in the **Payment Rounding Amount** field and transactions in the **Rounding Amount** and **Rounding Currency** fields.
+
+Cash rounding will be added to the sales document as line of type *G/L account*. The G/L account defined in the **Cash Rounding Account No.** field on the **Shopify Shop Card** page is used.
+
 ## Customer
 
 Shopify POS allows you to create orders without specifying a customer. Or, if the customer requested a receipt, you can create a simple customer record that only contains an email or phone number.

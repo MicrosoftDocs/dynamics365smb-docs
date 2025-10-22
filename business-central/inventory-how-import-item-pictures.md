@@ -1,24 +1,25 @@
 ---
-title: Importing Many Item Pictures from a ZIP File
+title: Import Multiple Item Pictures
 description: To import multiple item pictures give picture files names corresponding to item numbers, compress them to a ZIP file, and use the Import Item Pictures page.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: product, image
 ms.search.form: 30, 461
-ms.date: 06/16/2021
+ms.date: 10/14/2025
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Import Multiple Item Pictures
-You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a zip file, and then use the Import Item Pictures page to manage which item pictures to import.
+# Import multiple item pictures
+
+You can import multiple item pictures in one go. Just name your picture files with names corresponding to your item numbers, compress them to a zip file, and then use the Import Item Pictures page to manage which item pictures to import.
 
 All common file formats are supported.
 
-## To name picture files by the item names and prepare the ZIP file
-1. At the location where your item pictures are stored, name each files according to the number of the related item. For example:
+## Name picture files by the item names and prepare the ZIP file
+
+1. At the location where your item pictures are stored, name each file according to the number of the related item. For example:
 
     |Item No.|File Name|
     |-|-|
@@ -26,23 +27,28 @@ All common file formats are supported.
     |1001|1001.bmp|
     |1002|1002.bmp|
 
-2. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to**, **Compressed (zipped) folder**.     
+1. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to**, **Compressed (zipped) folder**.
 
-## To import item pictures
+> [!NOTE]
+> File name can't include these characters: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>`, `|`
+
+## Import item pictures
+
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Inventory Setup**, and then choose the related link.
-2. Choose the **Import Item Pictures** action.
-3. In the **Select a ZIP file** field, select the relevant ZIP folder, and then choose the **Open** button.
+1. Select the **Import Item Pictures** action.
+1. In the **Select a ZIP file** field, select the relevant ZIP folder, and then choose the **Open** button.
 
     A line for each item and picture is created on the **Import Item Pictures** page.
 
     > [!NOTE]
-    > For item cards that already have a picture, the **Picture Already Exists** check box is selected. If you do not want any existing pictures to be replaced, deselect the **Replace Pictures** check box. If you do not want individual existing pictures to be replaced, delete the lines in question.
+    > For item cards that already have a picture, the **Picture Already Exists** check box is selected. If you don't want any existing pictures to be replaced, deselect the **Replace Pictures** check box. If you don't want individual existing pictures to be replaced, delete the lines in question.
 
-3. Choose the **Import Pictures** action.
+1. Select the **Import Pictures** action.
 
-The **Import Status** field is updated to show if the picture import was skipped or completed.       
+The **Import Status** field is updated to show if the picture import was skipped or completed.
 
 ## Related information
+
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Inventory](inventory-manage-inventory.md)  

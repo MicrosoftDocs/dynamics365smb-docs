@@ -1833,6 +1833,7 @@ Calculates the percentage of scrap relative to the total output for a work cente
 - [Work Center Capacity (Effective)](#work-center-capacity-effective)
 - [Work Center Capacity (Total)](#work-center-capacity-total)
 - [Work Center Expected Efficiency %](#work-center-expected-efficiency-percent)
+- [Work Center Needed Time](#work-center-needed-time)
 
 #### Work Center Actual Efficiency Percent
 
@@ -1903,6 +1904,16 @@ Calculates the actual efficiency of a work center by dividing the [Work Center A
 **Data Source**
 
 - Calendar Entry
+
+#### Work Center Needed Time
+
+**Formula**
+
+- Calculates the total required time for work centers by summing the **Needed Time** column in the **Prod Order Capacity Need** table, filtered to include only rows where **Requested Only** is **FALSE**.
+
+**Data Source**
+
+- Prod Order Capacity Need
 
 ## Related information
 

@@ -569,6 +569,8 @@ ms.service: dynamics-365-business-central
 ##### [Work with intercompany documents and journals](intercompany-how-work-documents-journals.md)
 ##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
+
+### [Accounting and bookkeeping overview](learn-accounting-bookkeeping-guide.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
 
 ## Sales
@@ -580,23 +582,25 @@ ms.service: dynamics-365-business-central
 
 #### [Power BI sales app](sales-powerbi-app.md)
 ##### [Sales overview](sales-powerbi-sales-overview.md)
-##### [Daily Sales](sales-powerbi-daily-sales.md)
 ##### [Key Sales Influencers](sales-powerbi-key-sales-influencers.md)
+##### [Sales Decomposition](sales-powerbi-sales-decomposition.md)
+##### [Sales Forecasting](sales-powerbi-sales-forecasting.md) 
+##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)
+##### [Daily Sales](sales-powerbi-daily-sales.md)
 ##### [Moving Average](sales-powerbi-moving-average.md)
 ##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
 ##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
-##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
 ##### [Opportunity Overview](sales-powerbi-opportunity-overview.md)
-##### [Return Order Overview](sales-powerbi-return-order-overview.md)
-##### [Sales by Item](sales-powerbi-sales-by-item.md)
-##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
-##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
-##### [Sales Decomposition](sales-powerbi-sales-decomposition.md)
-##### [Sales Demographics](sales-powerbi-sales-demographics.md)
-##### [Sales by Location](sales-powerbi-sales-by-location.md)
 ##### [Sales Quote Overview](sales-powerbi-sales-quote-overview.md)
-##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
+##### [Return Order Overview](sales-powerbi-return-order-overview.md)
+##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
+##### [Sales by Item](sales-powerbi-sales-by-item.md)
+##### [Sales by Location](sales-powerbi-sales-by-location.md)
+##### [Sales by Projects](sales-powerbi-sales-by-project.md)
+##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales Demographics](sales-powerbi-sales-demographics.md)
+##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
@@ -753,6 +757,7 @@ ms.service: dynamics-365-business-central
 
 #### [Power BI inventory app](inventory-powerbi-app.md)
 ##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
+##### [Inventory Forecasting](inventory-powerbi-inventory-forecasting.md)
 ##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
 ##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
 ##### [Purchase and Sales Quantity](inventory-powerbi-purchase-and-sales-qty.md)
@@ -878,10 +883,10 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
 ##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
-##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+##### [Monitor insurance coverage](fa-how-insure.md#monitor-insurance-coverage)
+##### [View changed depreciation book values](fa-how-trans-split-combine.md#view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [View disposal ledger entries](fa-how-dispose-retire.md#view-disposal-ledger-entries)
+##### [View projected disposal values](fa-how-manage-budgets.md#view-projected-disposal-values)
 #### Fixed assets reports
 ##### [Fixed assets report overview](fa-reports.md)
 ##### [Fixed Asset Analysis Excel](reports/report-4412.md)
@@ -1385,6 +1390,8 @@ ms.service: dynamics-365-business-central
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ##### [WIP Extended Posting](LocalFunctionality/Czech/wip-extended-posting.md)
 ##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
+##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Alternative Posting Groups for Employees](LocalFunctionality/Czech/use-alternative-posting-groups-employees.md) 
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
@@ -1418,6 +1425,7 @@ ms.service: dynamics-365-business-central
 ##### [Update Contacts from ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
 ##### [New Design of Output Documents](LocalFunctionality/Czech/new-design-of-output-documents.md)
 ##### [Compensations](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 #### Inventory
 ##### [Round Accounting in Inventory](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
 ##### [Inventory General Ledger Reconciliation Enhancements](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
@@ -1425,20 +1433,17 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Counting Documents](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
 ##### [Inventory Operations Document](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
 ##### [Posting Groups in Transfer Orders](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
-#### General
-##### [Extended User Control](LocalFunctionality/Czech/general.md)
-##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
 ##### [Control of Output Inventory Time Sequence](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
 ##### [Inventory Movement Templates](LocalFunctionality/Czech/inventory-movement-templates.md)
 ##### [Stock keeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
-##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
-##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
 ##### [General Production Posting Group in Stock keeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
 ##### [Skip Update for Stock keeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
-##### [Nonstock Item Numbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
+#### Manufacturing
+##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+#### General
+##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Use modern search in CZ applications](LocalFunctionality/Czech/use-modern-search-cz.md)
-##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)

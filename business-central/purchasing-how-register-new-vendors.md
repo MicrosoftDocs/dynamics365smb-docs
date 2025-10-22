@@ -34,7 +34,7 @@ After you create a template, you can use the **Apply Template** action to apply 
 > [!TIP]
 > It can be helpful to personalize the **Vendor Template** page when you create a template. For example, if you want to add a field that isn't already displayed on the page. Learn more at [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode).
 
-You can also create a vendor from a contact. Learn more at [Creating a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+You can also create a vendor from a contact. Learn more at [Creating a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
 Remit-to addresses are used when you print checks to pay your vendors, and vendors can have multiple remit-to addresses for payments. For example, a vendor might supply an item from a subsidiary company, but wants to receive payment at their headquarters. [!INCLUDE [prod_short](includes/prod_short.md)] lets you set up multiple mailing addresses for each vendor, and you can choose the correct location to send payments to on an invoice-by-invoice basis.
 

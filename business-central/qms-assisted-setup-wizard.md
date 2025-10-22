@@ -37,7 +37,7 @@ Choose whether to apply demonstration and sample data:
 - **Do Not Apply Configuration**: Skips sample data installation. However, some basic setup data for common integration scenarios is applied.
 
 > [!NOTE]
-> The guide automatically suggests **Do Not Apply** if it looks like quality management is already configured or is in use.
+> The guide automatically suggests **Do Not Apply Configuration** if it looks like quality management is already configured or is in use.
 
 ### Step 3: Permission Awareness
 

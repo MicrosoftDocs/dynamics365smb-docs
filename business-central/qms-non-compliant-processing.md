@@ -1,6 +1,6 @@
 ---
-title: Non-compliant processing
-description: Learn how to handle non-compliant items, including workflows, inventory movements, and actions for failed quality tests.
+title: Handle items that failed a quality test
+description: Learn how to handle noncompliant items, including workflows, inventory movements, and actions for failed quality tests.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -12,34 +12,30 @@ ms.custom: bap-template
 
 ---
 
-# Non-compliant processing
+# Process items that failed a quality test
 
-This article explains how to deal with items that don't pass quality inspection tests, including automatic workflows and manual actions for blocking items, moving inventory, and deciding what to do with failed items.
+This article explains how to deal with items that don't pass quality inspection tests. It covers automatic workflows and manual actions for blocking items, moving inventory, and deciding what to do with the items that failed a test.
 
-## Overview
+When quality inspection tests fail, you have several automatic and manual options for handling noncompliant items:
 
-When quality inspection tests fail, Quality Management provides several automatic and manual options for handling non-compliant items:
-
-- **Block Items**: Prevent use of failed lots
-- **Move Items**: Relocate items to quarantine areas
-- **Remove from Inventory**: Take unusable inventory out of the system
-- **Transfer Items**: Move items to different locations
-- **Return to Vendor**: Send defective items back to suppliers
+- Block items to prevent the use of failed lots.
+- Move items to quarantine areas.
+- Remove unusable inventory from of the system.
+- Transfer items to different locations.
+- Send defective items back to your suppliers.
 
 ## Prerequisites
 
-- Quality inspection templates with pass/fail criteria
-- Test generation rules set up
-- Workflows enabled (for automatic processing)
-- Appropriate locations and bins for quarantine
+- You must have quality inspection templates with pass and fail criteria.
+- You must set up test generation rules.
+- You have set up and enabled quality management workflows to automatically process failures and passes.
+- You must have locations and bins for quarantine.
 
-## Automatic Processing When Tests Fail
+## Automatic processing when items fail a test
 
-### Workflow-Based Actions
+### Workflow-based actions
 
-Quality Management workflows can automatically respond to test failures:
-
-**Available Automatic Responses**:
+Quality Management workflows can automatically respond to test failures. The following automatic responses are available:
 
 - Block the lot in the test
 - Create negative adjustment
@@ -49,117 +45,98 @@ Quality Management workflows can automatically respond to test failures:
 - Create retest
 - Send notifications
 
-### Setting Up Automatic Blocking When Tests Fail
+### Set up automatic blocking when tests fail
 
-1. **Create Blocking Workflow**:
-   - Navigate to **Workflows**
-   - Create new workflow: "Block Lot on Failure"
-   - **Category**: Quality Examples
-
-2. **Configure When Event**:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Workflows**, and then choose the related link.
+1. Create a new workflow. For example, name it "Block Lot on Failure."
+1. In the **Category** field, choose **Quality Examples**.
+1. Configure the **When Event** as follows:
    - **Event**: When a Quality Inspection Test is Finished
    - **Condition**: Grade Code equals "FAIL" (or other failing grades)
-
-3. **Configure Response**:
+1. Configure the **Response** as follows:
    - **Response**: Block the lot in the test
    - **Result**: Failed lots automatically get blocked from use
+4. Specify grade-specific conditions, as follows:
+   - Create separate workflows for different failing grades.
+   - Use grade priorities to determine appropriate responses.
+   - Configure different actions based on failure severity.
 
-4. **Grade-Specific Conditions**:
-   - Create separate workflows for different failing grades
-   - Use grade priorities to determine appropriate responses
-   - Configure different actions based on failure severity
+### Set up automatic inventory movement
 
-### Setting Up Automatic Inventory Movement
+1. Create a workflow. For example, name it "Move Failed Items to Quarantine."
+2. For the **When Event**, choose **Quality Inspection Test is Finished**.
+3. For the **Condition**, specify that Grade Code equals "FAIL."  
+4. For the **Response**, choose **Move inventory to different bin**
+5. For the **Configuration**, specify a quarantine bin code.
 
-1. **Create Workflow**: "Move Failed Items to Quarantine"
-2. **When Event**: Quality Inspection Test is Finished
-3. **Condition**: Grade Code equals "FAIL"  
-4. **Response**: Move inventory to different bin
-5. **Configuration**: Specify quarantine bin code
+## Manual processing when tests fail
 
-## Manual Processing When Tests Fail
+The following sections describe ways to manually process items when they fail a test.
 
-### Immediate Actions After Test Failure
+### Immediate actions after a test failure
 
 When a quality test fails, consider these immediate actions:
 
-1. **Quarantine**: Physically separate non-compliant items
-2. **Investigation**: Determine root cause of failure
-3. **Documentation**: Record failure details and actions taken
-4. **Notification**: Inform relevant stakeholders
+1. **Quarantine**: Physically separate the noncompliant items.
+2. **Investigation**: Determine the root cause of the failure.
+3. **Documentation**: Record details about the failure and the actions taken.
+4. **Notification**: Inform the relevant stakeholders.
 
-### Deciding What to Do With Failed Items
+### Decide what to do with the failed items
 
-**Common Options**:
+This section describes some typical ways to handle items that failed a test.
 
-**Use As-Is**: 
+Use the failed items as-is:
 
-- Customer accepts with concession
-- Reduced price or different application
-- Document deviation approval
+- The customer accepts with a concession.
+- Offer a reduced price or a different application.
+- Document that the deviation is approved.
 
-**Rework**:
+Rework the failed items:
 
-- Items can be corrected or repaired
-- Retest after rework completion
-- Track rework costs and time
+- Correct or repair the failed items.
+- Retest the items after you complete the rework.
+- Track the costs and time spent on the rework.
 
-**Return to Vendor**:
+Return the defective items to the vendor:
 
-- Vendor defect or specification issue
-- Use purchase return process with reports from Quality Inspection Test
-- Document vendor quality issues
+- Record a vendor defect or specification issue.
+- Use the purchase return process and report the results from the quality inspection test.
+- Document the vendor quality issues.
 
-**Scrap/Disposal**:
+Treat the items as scrap or disposal:
 
-- Items cannot be corrected economically
-- Create negative adjustments using reports from Quality Inspection Test
-- Environmental disposal considerations
-- Record disposal costs and reasons
+- Use this method when you can't rework the items. For example, when rework isn't economically feasible.
+- Create negative adjustments using reports from the quality inspection test.
+- Consider environmental disposal implications.
+- Record the costs and reasons for the disposal.
 
-### Using Quality Inspection Test Reports for Manual Actions
+### Use quality inspection test reports for manual actions
 
-**How to Access Actions**:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Test**, and then choose the related link.
+1. Open the failed test.
+1. Use the **Actions** menu to access helpful reports and actions.
+1. Run the actions directly from test results for proper record keeping
 
-- Navigate to **Quality Inspection Test** page for the failed test
-- Use **Actions** menu to access helpful reports and functions
-- Execute actions directly from test results for proper record keeping
+The following actions are available from the **Actions** menu on the **Quality Inspection Test** page:
 
-**Available Actions from Quality Inspection Test**:
+- **Create Negative Adjustment** - Automatically fills in item, lot, and quantity information
+- **Move Inventory**:
+   - Run an inventory movement directly from test results. The movement is prefilled with details about the failed lot, and maintains the connection between movement and quality failure.
+   - Specify the destination bin, such as quarantine, rework, or disposal.
+- **Create Transfer Order**:
+   - Generate a transfer orders that automatically includes failed lot information and links transfer to original quality test for tracking
+   - Specify a destination location for further processing.
+- **Create Purchase Return**:
+   - Start vendor returns directly from test results. The return contains purchase order and receipt details, and includes quality test failure information for vendor communication.
 
-**Create Negative Adjustment**:
+The following are benefits of using test-based actions:
 
-- Access via Quality Inspection Test Actions menu
-- Automatically fills in item, lot, and quantity information
-
-**Move Inventory**:
-
-- Execute inventory movement directly from test results
-- Pre-filled with failed lot details
-- Specify destination bin (quarantine, rework, disposal areas)
-- Maintains connection between movement and quality failure
-
-**Create Transfer Order**:
-
-- Generate transfer orders from Quality Inspection Test actions
-- Automatically includes failed lot information
-- Specify destination location for further processing
-- Links transfer to original quality test for tracking
-
-**Create Purchase Return**:
-
-- Start vendor returns directly from test results
-- Pre-fills purchase order and receipt details
-- Includes quality test failure information for vendor communication
-- Streamlines return process with proper documentation
-
-**Benefits of Using Test-Based Actions**:
-
-- Automatic filling of item, lot, and quantity details
-- Built-in tracking between actions and test failures
-- Reduced data entry errors
-- Consistent documentation and audit trail
-- Integration with quality workflow processes
+- Automatically get item, lot, and quantity details.
+- Built-in tracking between actions and test failures.
+- Reduced data entry errors.
+- Consistent documentation and audit trail.
+- Integration with quality workflow processes.
 
 ### Step-by-Step Process Using Quality Inspection Test Actions
 

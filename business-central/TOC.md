@@ -883,10 +883,10 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
 ##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
-##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+##### [Monitor insurance coverage](fa-how-insure.md#monitor-insurance-coverage)
+##### [View changed depreciation book values](fa-how-trans-split-combine.md#view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [View disposal ledger entries](fa-how-dispose-retire.md#view-disposal-ledger-entries)
+##### [View projected disposal values](fa-how-manage-budgets.md#view-projected-disposal-values)
 #### Fixed assets reports
 ##### [Fixed assets report overview](fa-reports.md)
 ##### [Fixed Asset Analysis Excel](reports/report-4412.md)
@@ -2467,9 +2467,9 @@ ms.service: dynamics-365-business-central
 
 ### Service management
 #### [View service statistics](service-service-statistics.md)
-#### [Service orders overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+#### [Service orders overview](service-how-to-allocate-resources.md#see-an-overview-of-service-orders-and-service-quotes)
+#### [Service quotes overview](service-how-to-allocate-resources.md#see-an-overview-of-service-orders-and-service-quotes)
+#### [Posted service document overview](service-service-posting.md#view-information-about-a-posted-service-document)
 
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 

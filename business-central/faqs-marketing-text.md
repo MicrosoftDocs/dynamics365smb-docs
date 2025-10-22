@@ -1,7 +1,7 @@
 ---
 title: FAQ for marketing text suggestions
 description: This FAQ provides information about the AI technology used in marketing text suggestions in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 04/01/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -63,7 +63,6 @@ Microsoft has various systems in place to ensure Copilot capabilities remain ope
 
     ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.svg)
 
-- The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI's content management systems. Learn more about our content management and filtering at [].](/azure/cognitive-services/openai/concepts/content-filter). Your company data isn't used to train AI models in the Azure OpenAI service.
 - The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI's content management systems. Learn more about our content management and filtering at [Content filtering](/azure/cognitive-services/openai/concepts/content-filter). Your company data isn't used to train AI models in the Azure OpenAI service.
 
    Authorized Microsoft employees can access prompt and completion data that has triggered our automated systems for the purposes of investigating and verifying potential abuse; for customers using [!INCLUDE[prod_short](includes/prod_short.md)] in the European Union, the authorized Microsoft employees are located in the European Union. This data may be used to improve our content management systems. In the event of a confirmed policy violation, we may ask you to take immediate action to remediate the issue and to prevent further abuse. Failure to address the issue may result in suspension or termination of Azure OpenAI resource access.
@@ -72,17 +71,13 @@ Microsoft has various systems in place to ensure Copilot capabilities remain ope
 
 ## Is there a logging and human review process as part of Azure OpenAI Service, and if so, can I opt out?  
 
-As part of providing the Azure OpenAI service, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
+As part of providing the Azure OpenAI service, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service.
 
 Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Learn more at [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 For Microsoft to safeguard the service and its customers, it's not possible to opt out of logging and human review processes.
 
-## What data does the capability collect? How is the data used?
-
-The marketing text suggestions capability collects the minimum data required by Business Central to offer the service. Learn more at [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
-
-The capability also collects data from the feedback user's can provide using the like (thumbs up) or dislike (thumbs down) icons at the top of the **Copilot** page. The data is anonymous and includes the choice of like ot dislike, the dislike reason if provided, and the Copilot feature the feedback applies to. We use this data to evaluate and improve the quality of the capability.
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimize the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 

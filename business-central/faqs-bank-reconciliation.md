@@ -1,7 +1,7 @@
 ---
 title: FAQ for bank account reconciliation assist with Copilot (preview)
 description: This FAQ provides information about the AI technology used for reconciling bank accounts and statements in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 04/01/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -86,6 +86,8 @@ No. Use of Copilot is optional. [!INCLUDE[prod_short](includes/prod_short.md)] o
 ## How do I give feedback about AI-generated content?
 
 Each time that Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window by using the like (thumbs up) and dislike (thumbs down) controls. Your feedback remains anonymous, and we use this data to improve the quality of the service.
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

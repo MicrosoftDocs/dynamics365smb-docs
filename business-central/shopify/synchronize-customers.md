@@ -167,7 +167,7 @@ Whether you import companies from Shopify in bulk or when you import orders, use
 > The company must have a main contact. Otherwise, the connector skips the company.
 >
 > The oldest location is used as source of information when creating or updating the customer in [!INCLUDE [prod_short](../includes/prod_short.md)].
->
+> 
 > Only the main contact is imported.
 
 

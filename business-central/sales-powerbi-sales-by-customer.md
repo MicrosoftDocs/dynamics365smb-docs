@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37005_Primary
-ms.date: 10/26/2024
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Sales by Customer (Power BI Report)
@@ -33,25 +34,30 @@ For salespeople, the report you help can tailor your onsite visits to your custo
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
-- [**Cost Amount**](sales-powerbi-sales-kpis.md#cost-amount)
-- [**Cost Amount Non-Inv**](sales-powerbi-sales-kpis.md#cost-amount-non-inv)
-- [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Adjusted Cost (LCY)](sales-powerbi-sales-kpis.md#adjusted-cost-lcy)
+- [Cost Amount Non-Inv](sales-powerbi-sales-kpis.md#cost-amount-non-inv)
+- [Adjusted Profit (LCY)](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [Adjusted Profit Margin](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
+- [Pareto Cumulative Adjusted Profit %](sales-powerbi-sales-kpis.md#pareto-cumulative-adjusted-profit-)
+- [Pareto Cutoff Adjusted Profit %](sales-powerbi-sales-kpis.md#pareto-cutoff-adjusted-profit-)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+The report uses data from the following tables:
 
 - Customer
 - Item
-- Value Entry
-- Sales Line
+- G/L Account
+- Resource
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 
 ## Try the report
 

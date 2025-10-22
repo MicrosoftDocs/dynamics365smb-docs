@@ -59,13 +59,25 @@ No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-compa
 
 To learn more, go to [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
 
-## My semantic model does not refresh. How do I see what is wrong?
+## My semantic model doesn't refresh. How do I figure out what's wrong?
 
 [!INCLUDE [powerbi-refresh-tsg-include](includes/powerbi-refresh-tsg-include.md)]
 
 ## I can't see any dimension data in my reports
 
-Check whether the job queue entry for updating dimension set data is stopped.
+All Power BI semantic models read dimension records from **PowerBI Flat Dim. Set Entry** (Table 36954). This is a different table from the standard **Dimension Set Entries** table.
+
+The **PowerBI Flat Dim. Set Entry** table has flattened dimension set entry records that are purpose-built for PBI reporting. The **Update Dim. Set Entries** job queue entry (Codeunit 36952) periodically updates the table.
+
+This job queue entry is created automatically when you finish the **Connect to Power BI** assisted setup guide. If you haven't finished the guide, you can go to the **Power BI Report Setup** page and choose the **Schedule Power BI Dimension Refresh** action.
+
+### Troubleshooting Dimension Data
+
+1. Ensure the **Update Dim. Set Entries** job queue entry is present.
+1. Ensure it has run successfully. You can ensure this by clicking run once in the foreground.
+1. Run the PowerBI Flat Dim. Set Entry table in your browser to ensure records are present.
+
+If data is present in the flat dim table, you can refresh the semantic model and see the results.
 
 To learn more, go to [Job queue entry for updating dimension set entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries).
 

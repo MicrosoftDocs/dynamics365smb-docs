@@ -32,10 +32,10 @@ As a sales manager, this report helps you identify which days are high performin
 The report includes the following key performance indicators (KPI) and measures:
 
 - [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Cost Amount**](sales-powerbi-sales-kpis.md#cost-amount)
-- [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
+- [**Adjusted Cost (LCY)**](sales-powerbi-sales-kpis.md#adjusted-cost-lcy)
+- [**Adjusted Profit (LCY)**](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [**Adjusted Profit Margin**](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -45,9 +45,13 @@ The report includes the following key performance indicators (KPI) and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Sales Line
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 - Item
+- G/L Account 
+- Resource
 
 ## Try the report
 

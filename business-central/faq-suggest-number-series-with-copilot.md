@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: faq
 ms.search.form:
-ms.date: 04/01/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -87,6 +87,8 @@ No, the use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.m
 ## How do I give feedback about AI-generated content?  
 
 Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the **Like** and **Dislike** buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

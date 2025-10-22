@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37102_Primary
-ms.date: 05/20/2025
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -38,10 +38,10 @@ Using this insight, you can develop targeted strategies. For example, offering b
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- **[Sales Amount](sales-powerbi-sales-kpis.md#sales-amount)**  
-- **[Sales Quantity](sales-powerbi-sales-kpis.md#sales-quantity)**
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)  
+- [Sales Quantity](sales-powerbi-sales-kpis.md#sales-quantity)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -52,9 +52,13 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Item
 - Customer
 - Item Category
-- Value Entry
-- Sales Line
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 - Salesperson/Purchaser
+- Resource
+- G/L Account
 
 ## Try the report
 

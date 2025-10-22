@@ -33,7 +33,7 @@ After you create a template, you can use the **Apply Template** action to apply 
 > [!TIP]
 > It can be helpful to personalize the **Customer Template** page when you create a template. For example, you might want to add the **Credit Limit** field to a template. To learn more, go to [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode).
 
-You can also create a customer from a contact. To learn more, go to [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+You can also create a customer from a contact. To learn more, go to [Create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### To create a new customer card
 

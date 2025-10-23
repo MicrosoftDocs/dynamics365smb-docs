@@ -3,11 +3,11 @@ title: Depreciation methods for fixed assets
 description: Learn about the different built-in methods to depreciate or write-down fixed assets.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: concept-article
 ms.search.keywords: write down, depreciate, depreciation
 ms.search.form: 5611, 5629, 5633
-ms.date: 05/19/2025
+ms.date: 10/03/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -92,19 +92,19 @@ A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %*
 The following table shows how the fixed asset ledger entries look.  
 
 | Date | FA Posting Type | Days | Amount | Book Value |
-| ---- | --------------- | ---- | ------ | ---------- |
-| 01/01/20 |Acquisition Costs |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 06/30/20 |Depreciation |180 |-12,500.00 |87,500.00 |
-| 12/31/20 |Depreciation |180 |-12,500.00 |75,000.00 |
-| 06/30/21 |Depreciation |180 |-9,375.00 |65,625.00 |
-| 12/31/21 |Depreciation |180 |-9,375.00 |56,250.00 |
-| 06/30/22 |Depreciation |180 |-7,031.25 |49,218.75 |
-| 12/31/22 |Depreciation |180 |-7,031.25 |42,187.50 |
-| 06/30/23 |Depreciation |180 |-5,273.44 |36,914.06 |
-| 12/31/23 |Depreciation |180 |-5,273.44 |31,640.62 |
-| 06/30/24 |Depreciation |180 |-3,955.08 |27,685.54 |
-| 12/31/24 |Depreciation |180 |-3,955.08 |23,730.46 |
-| ...      |             |    |          |          |
+|--|--|--|--|--|
+| 01/01/20 | Acquisition Costs | (Depreciation starting date) | 100,000.00 | 100,000.00 |
+| 06/30/20 | Depreciation | 180 | -12,500.00 | 87,500.00 |
+| 12/31/20 | Depreciation | 180 | -12,500.00 | 75,000.00 |
+| 06/30/21 | Depreciation | 180 | -9,375.00 | 65,625.00 |
+| 12/31/21 | Depreciation | 180 | -9,375.00 | 56,250.00 |
+| 06/30/22 | Depreciation | 180 | -7,031.25 | 49,218.75 |
+| 12/31/22 | Depreciation | 180 | -7,031.25 | 42,187.50 |
+| 06/30/23 | Depreciation | 180 | -5,273.44 | 36,914.06 |
+| 12/31/23 | Depreciation | 180 | -5,273.44 | 31,640.62 |
+| 06/30/24 | Depreciation | 180 | -3,955.08 | 27,685.54 |
+| 12/31/24 | Depreciation | 180 | -3,955.08 | 23,730.46 |
+| ... |  |  |  |  |
 
 Calculation method:  
 
@@ -131,7 +131,7 @@ An asset's book value is 100,000 on 12/31/2022. You post a depreciation of 5,000
 
 ### Example 4 - Declining-Balance 1 depreciation
 
-An asset's book value is 100,000 on 12/31/2023. You post a depreciation of 95,000 on 2/2/2023, which exceeds the allowed depreciation amount for the year. If you run depreciation on 6/30/2023, [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 5000, because there are 148 days from 2/2/2023 until 6/30/2023. The expected remaining depreciation for 6/30/2023 is calculated using the following formula: 
+An asset's book value is 100,000 on 12/31/2023. You post a depreciation of 95,000 on 2/2/2023, which exceeds the allowed depreciation amount for the year. If you run depreciation on 6/30/2023, [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 5000, because there are 148 days from 2/2/2023 until 6/30/2023. The expected remaining depreciation for 6/30/2023 is calculated using the following formula:
 
 * *148/360 x 0.20 x 100,000 = 8,222*
 
@@ -145,14 +145,14 @@ The Declining-Balance 1 and Declining-Balance 2 methods calculate the same total
 
 A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %** field is 25. The **Calculate Depreciation** batch job is run biannually. The fixed asset ledger entries look like this:  
 
-| Date     | FA Posting Type  | Days                       | Amount    | Book Value |
-| -------- | ---------------- | -------------------------  | --------- | ---------- |
-| 01/01/20 |Acquisition Costs |(Depreciation starting date)|100,000.00 |100,000.00 |
-| 06/30/20 |Depreciation      |180                         |-13,397.46 | 86,602.54 |
-| 12/31/20 |Depreciation      |180                         |-11,602.54 | 75,000.00 |
-| 06/30/21 |Depreciation      |180                         |-10,048.09 | 64,951.91 |
-| 12/31/21 |Depreciation      |180                         |-8,701.91  | 56,250.00 |
-| ...      |                  |                            |           |           |
+| Date | FA Posting Type | Days | Amount | Book Value |
+|--|--|--|--|--|
+| 01/01/20 | Acquisition Costs | (Depreciation starting date) | 100,000.00 | 100,000.00 |
+| 06/30/20 | Depreciation | 180 | -13,397.46 | 86,602.54 |
+| 12/31/20 | Depreciation | 180 | -11,602.54 | 75,000.00 |
+| 06/30/21 | Depreciation | 180 | -10,048.09 | 64,951.91 |
+| 12/31/21 | Depreciation | 180 | -8,701.91 | 56,250.00 |
+| ... |  |  |  |  |
 
 Calculation Method:  
 
@@ -189,7 +189,7 @@ If you use this method, you must enter the estimated useful lifetime and a decli
 > [!NOTE]
 > If you use any of the declining balance depreciation methods, and you want to run depreciation for multiple years, you must run each year's depreciation separately. If you run depreciation for the whole period from acquisition date to the end of the last fiscal year or last accounting period, it's likely that the results are incorrect. For example, if you imported legacy data and you use the actual acquisition dates for your assets and want to catch up on accumulated depreciation. For declining balance methods, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the allowed depreciation per year, starting with the registered book value for each year. It can't do a multi-year depreciation in one step.
 >
-> The **Fixed asset - Projected Value** report can project depreciations for multi-year periods, which might be confusing compared to the results you get if you run depreciations for multiple years using one of the declining balance methods. 
+> The **Fixed asset - Projected Value** report can project depreciations for multi-year periods, which might be confusing compared to the results you get if you run depreciations for multiple years using one of the declining balance methods.
 
 ### Example - DB1-SL depreciation
 
@@ -198,24 +198,24 @@ A fixed asset has an acquisition cost of LCY 100,000. On the **FA Depreciation B
 The fixed asset ledger entries look like this:  
 
 | Date | FA Posting Type | Days | Amount | Book Value |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Acquisition Costs |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 06/30/20 |Depreciation |180 |-12,500.00 |87,500.00 |
-| 12/31/20 |Depreciation |180 |-12,500.00 |75,000.00 |
-| 06/30/21 |Depreciation |180 |-9,375.00 |65,625.00 |
-| 12/31/21 |Depreciation |180 |-9,375.00 |56,250.00 |
-| 06/30/22 |Depreciation |180 |-7,031.25 |49,218.75 |
-| 12/31/22 |Depreciation |180 |-7,031.25 |42,187.50 |
-| 06/30/23 |Depreciation |180 |-5,273.44 |36,914.06 |
-| 12/31/23 |Depreciation |180 |-5,273.44 |31,640.62 |
-| 06/30/24 |Depreciation |180 |-3,955.08 |27,685.54 |
-| 12/31/24 |Depreciation |180 |-3,955.08 |23,730.46 |
-| 06/30/25 |Depreciation |180 |-3,955.08 |19,775.38 SL |
-| 12/31/25 |Depreciation |180 |-3,955.08 |15,820.30 SL |
-| 06/30/26 |Depreciation |180 |-3,955.08 |11,865.22 SL |
-| 12/31/26 |Depreciation |180 |-3,955.07 |7,910.15 SL |
-| 06/30/27 |Depreciation |180 |-3,955.08 |3,955.07 SL |
-| 12/31/27 |Depreciation |180 |-3,955.07 |0.00 SL |
+|--|--|--|--|--|
+| 01/01/20 | Acquisition Costs | (Depreciation starting date) | 100,000.00 | 100,000.00 |
+| 06/30/20 | Depreciation | 180 | -12,500.00 | 87,500.00 |
+| 12/31/20 | Depreciation | 180 | -12,500.00 | 75,000.00 |
+| 06/30/21 | Depreciation | 180 | -9,375.00 | 65,625.00 |
+| 12/31/21 | Depreciation | 180 | -9,375.00 | 56,250.00 |
+| 06/30/22 | Depreciation | 180 | -7,031.25 | 49,218.75 |
+| 12/31/22 | Depreciation | 180 | -7,031.25 | 42,187.50 |
+| 06/30/23 | Depreciation | 180 | -5,273.44 | 36,914.06 |
+| 12/31/23 | Depreciation | 180 | -5,273.44 | 31,640.62 |
+| 06/30/24 | Depreciation | 180 | -3,955.08 | 27,685.54 |
+| 12/31/24 | Depreciation | 180 | -3,955.08 | 23,730.46 |
+| 06/30/25 | Depreciation | 180 | -3,955.08 | 19,775.38 SL |
+| 12/31/25 | Depreciation | 180 | -3,955.08 | 15,820.30 SL |
+| 06/30/26 | Depreciation | 180 | -3,955.08 | 11,865.22 SL |
+| 12/31/26 | Depreciation | 180 | -3,955.07 | 7,910.15 SL |
+| 06/30/27 | Depreciation | 180 | -3,955.08 | 3,955.07 SL |
+| 12/31/27 | Depreciation | 180 | -3,955.07 | 0.00 SL |
 
 `SL` after the book value means that the straight-line method was used.  
 
@@ -250,7 +250,7 @@ You can use this depreciation method with the following depreciation methods:
 When you apply the Half-Year Convention method, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.  
 
 > [!NOTE]  
-> The estimated life of the fixed asset that is remaining after the first fiscal year always contains a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset fully depreciates.  
+> The estimated life of the fixed asset that is remaining after the first fiscal year always contains a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date, which is exactly six months before the final date of the fiscal year in which the fixed asset fully depreciates.  
 
 ### Example - Half-Year Convention depreciation
 
@@ -259,14 +259,14 @@ A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Startin
 The fixed asset ledger entries look like this:  
 
 | Date | FA Posting Type | Days | Amount | Book Value |
-| --- | --- | --- | --- | --- |
-| 03/01/20 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 12/31/20 |Depreciation |270 |-10,000.00 |90,000.00 |
-| 12/31/21 |Depreciation |360 |-20,000.00 |70,000.00 |
-| 12/31/22 |Depreciation |360 |-20,000.00 |50,000.00 |
-| 12/31/23 |Depreciation |360 |-20,000.00 |30,000.00 |
-| 12/31/24 |Depreciation |360 |-20,000.00 |10,000.00 |
-| 12/31/25 |Depreciation |180 |-10,000.00 |0.00 |
+|--|--|--|--|--|
+| 03/01/20 | Acquisition Cost | (Depreciation starting date) | 100,000.00 | 100,000.00 |
+| 12/31/20 | Depreciation | 270 | -10,000.00 | 90,000.00 |
+| 12/31/21 | Depreciation | 360 | -20,000.00 | 70,000.00 |
+| 12/31/22 | Depreciation | 360 | -20,000.00 | 50,000.00 |
+| 12/31/23 | Depreciation | 360 | -20,000.00 | 30,000.00 |
+| 12/31/24 | Depreciation | 360 | -20,000.00 | 10,000.00 |
+| 12/31/25 | Depreciation | 180 | -10,000.00 | 0.00 |
 
 ## Example - DB1/SL depreciation using Half-Year Convention
 
@@ -275,14 +275,14 @@ A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Startin
 The fixed asset ledger entries look like this:  
 
 | Date | FA Posting Type | Days | Amount | Book Value |
-| --- | --- | --- | --- | --- |
-| 11/01/20 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 12/31/20 |Depreciation |60 |-20,000.00 |80,000.00 |
-| 12/31/21 |Depreciation |360 |-32,000.00 |48,000.00 |
-| 12/31/22 |Depreciation |360 |-19,200.00 |28,800.00 |
-| 12/31/23 |Depreciation |360 |-11,520.00 |17,280.00 |
-| 12/31/24 |Depreciation |360 |-11,520.00 |5,760.00 SL |
-| 12/31/25 |Depreciation |180 |-5,760.00 |0.00 SL |
+|--|--|--|--|--|
+| 11/01/20 | Acquisition Cost | (Depreciation starting date) | 100,000.00 | 100,000.00 |
+| 12/31/20 | Depreciation | 60 | -20,000.00 | 80,000.00 |
+| 12/31/21 | Depreciation | 360 | -32,000.00 | 48,000.00 |
+| 12/31/22 | Depreciation | 360 | -19,200.00 | 28,800.00 |
+| 12/31/23 | Depreciation | 360 | -11,520.00 | 17,280.00 |
+| 12/31/24 | Depreciation | 360 | -11,520.00 | 5,760.00 SL |
+| 12/31/25 | Depreciation | 180 | -5,760.00 | 0.00 SL |
 
 `SL` after the book value means that the straight-line method was used.  
 
@@ -314,10 +314,9 @@ If you have three depreciation books, B1, B2 and B3, and you want to duplicate e
 When you make an entry in B1 in the fixed asset G/L journal, and turn on the **Part of Duplication List** toggle, [!INCLUDE [prod_short](includes/prod_short.md)] duplicates the entry in book B2 and B3 in the fixed asset journal when you post the entry.  
 
 > [!NOTE]  
-> You can't duplicate in the same journal and journal batch as you're duplicating from. If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.  
-
-> [!NOTE]  
-> You can't use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the number is duplicated in the fixed asset journal. You must manually change the document number before you can post the journal.  
+> - You can't duplicate in the same journal and journal batch as you're duplicating from. If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.  
+>
+> - You can't use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the number is duplicated in the fixed asset journal. You must manually change the document number before you can post the journal.  
 
 ## Manual depreciation
 
@@ -325,13 +324,13 @@ Use the manual method for assets that aren't subject to depreciation, for exampl
 
 ## User-defined depreciation
 
-If the built-in depreciation methods don't meet your needs, you can define your own depreciation method by using depreciation tables. To learn more about applying a user-defined depreciation method, go to [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md).
+If the built-in depreciation methods don't meet your needs, you can define your own depreciation method by using depreciation tables. Learn more in [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md) for information about applying a user-defined depreciation method.
 
 ## Related information
 
 [Fixed Assets overview](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
-[Finance](finance.md)  
+[Finance](finance.md)   
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

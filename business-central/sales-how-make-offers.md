@@ -82,11 +82,11 @@ In most cases, you send sales quotes to prospective customers. You often have a 
 
     Alternatively, if your organization prefers that process, choose the **Make Invoice** action.  
     > [!NOTE]
-    > If you added a customer in step 2, confirm the conversion of the quote to an order.  
+    > - If you added a customer in step 2, confirm the conversion of the quote to an order.  
     >
-    > If you added a contact from a prospective customer in step 2, take the following steps:
+    > - If you added a contact from a prospective customer in step 2, take the following steps:
     >
-    >  - Convert the contact or prospect to a customer by choosing one of contact conversion templates. To learn more, go to [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Convert the contact or prospect to a customer by choosing one of contact conversion templates. To learn more, go to [Create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
     > - Confirm the conversion of the quote to an order.
 
 The conversion removes the sales quote from the database. A sales invoice or a sales order is created based on the information in the sales quote so that you can process the sale. The **Quote No.** field on the sales invoice or sales order shows the ID of the sales quote that it was made from. To learn more, go to [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).  

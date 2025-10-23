@@ -1,16 +1,17 @@
 ---
 title: Maintain fixed assets
-description: Record repairs and service on a fixed asset to preserve its value.
+description: Track and document repairs and maintenance for fixed assets to maintain their condition and value.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.search.keywords: repair, service
+ms.search.keywords: repair, service, fixed assets, manage fixed assets, maintenance cost
 ms.search.form: 5642, 5625
-ms.date: 11/11/2024
+ms.date: 10/03/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # Maintain fixed assets
 
 Maintenance costs are operating expenses for the things you do to preserve the condition of your fixed assets. Unlike capital improvements, maintenance doesn't increase the value of your assets.
@@ -42,8 +43,8 @@ Every time you do maintenance for an asset, such as a service visit, you can rec
 6. In the **FA Posting Type** field, select **Maintenance**.
 7. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for maintenance posting.
 
-    > [!NOTE]  
-    > Step 7 only works if you set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
+   > [!NOTE]  
+   > Step 7 only works if you set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. Learn more in [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).
 8. Choose the **Post** action.
 
 ## Record maintenance cost from a purchase invoice
@@ -65,12 +66,11 @@ You can print the **Maintenance - Next Service** report to list the assets that 
 2. Fill in the **Starting Date** and **Ending Date** fields.  
 3. Choose the **Print** or **Preview** button.
 
-
 ## Monitor maintenance costs
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated reports and statistics pages for use in analyzing fixed assets maintenance.  
 
-To learn more about the built-in reports for fixed asset maintenance, go to [Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports).
+Learn more in [Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports) for information about the built-in reports for fixed asset maintenance.
 
 ### Overview of maintenance costs
 
@@ -91,7 +91,7 @@ In the **Maintenance - Analysis** report, you can select to examine maintenance 
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
 
-To learn more, go to [Maintenance - Analysis](reports/report-5630.md).
+Learn more in [Maintenance - Analysis](reports/report-5630.md).
 
 ## View maintenance ledger entries
 
@@ -117,7 +117,6 @@ In the **Maintenance - Details** report, you can view or print maintenance ledge
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

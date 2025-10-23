@@ -123,17 +123,23 @@ Templates connect to automated test creation through test generation rules:
 
 ### Tests aren't creating
 
+The following are some suggested solutions:
+
 - Verify that your test generation rules reference the template.
 - Double-check that your template configuration is complete.
 - Ensure that your field definitions are correct.
 
 ### My pass/fail results are incorrect
 
+The following are some suggested solutions:
+
 - Review your pass value ranges.
 - Verify that your allowed value ranges include pass values.
 - Double-check your field type configuration.
 
 ### There are issues with performance
+
+The following are some suggested solutions:
 
 - Minimize the number of complex fields.
 - Optimize your field calculations.

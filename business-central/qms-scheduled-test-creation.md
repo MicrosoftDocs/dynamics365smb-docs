@@ -147,33 +147,13 @@ Set up execution parameters:
 
 ## Best Practices
 
-### Scheduling Strategy
+There are several things to think about when you determine your strategy for scheduling. Use a balanced approach, and combine scheduled and transaction-based testing. Focus your scheduled tests on high-risk areas, and maintain statistical validity.
 
-**Balanced Approach**:
+Consider the capacity of your inspectors, and coordinate with operational schedules.
 
-- Combine scheduled and transaction-based testing
-- Focus scheduled tests on high-risk areas
-- Maintain statistical validity
+Regularly evaluate the effectiveness of your scheduled tests. Adjust frequencies and optimize resource allocation based on your findings.
 
-**Resource Planning**:
-
-- Plan quality inspector capacity
-- Coordinate with operational schedules
-- Balance proactive vs. reactive testing
-
-### Continuous Improvement
-
-**Regular Review**:
-
-- Evaluate scheduled test effectiveness
-- Adjust frequencies based on findings
-- Optimize resource allocation
-
-**Data-Driven Decisions**:
-
-- Use scheduled test data for process improvement
-- Identify quality trends and patterns
-- Support vendor quality discussions
+Make test-data driven decisions for process improvements. Identify quality trends and patterns that support vendor quality discussions.
 
 ## Related information
 

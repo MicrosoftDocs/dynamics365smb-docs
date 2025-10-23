@@ -14,134 +14,130 @@ ms.custom: bap-template
 
 # Create quality inspection templates
 
-Quality inspection templates define the collection of measurements and attributes you want to collect during quality testing. Templates serve as the foundation for all quality tests in the system.
+Quality inspection templates define the measurements and attributes you want to collect during quality testing. Templates serve as the foundation for all quality tests, and contain:
 
-## Overview
+- A **Template Code**, which is the unique identifier for the template.
+- A **Description** that provides an idea of the purpose of the template.
+- Fields and measurements, which are the individual quality measurements to collect.
+- Pass/fail criteria, which are the acceptable ranges for each measurement.
 
-A quality inspection template contains:
+## Create a new template
 
-- **Template Code**: Unique identifier for the template
-- **Description**: Descriptive name for the template
-- **Fields/Measurements**: Individual quality measurements to collect
-- **Pass/Fail Criteria**: Acceptable ranges for each measurement
+The following sections describe how to set up a quality inspection template.
 
-## Creating a New Template
+### Step 1: Fill in the template header
 
-### Step 1: Create the Template Header
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and then choose the related link.
+2. Choose **New** to create a new template.
+3. Fill in the **Template Code** field. For example, enter EXAMPLE or INCOMING-PARTS.
+4. Fill in the **Description** field. For example, enter Example Template or Incoming Parts Inspection.
 
-1. Navigate to **Quality Inspection Templates**
-2. Click **New** to create a new template
-3. Enter a **Template Code** (e.g., "EXAMPLE", "INCOMING-PARTS")
-4. Enter a **Description** (e.g., "Example Template", "Incoming Parts Inspection")
+### Step 2: Add fields and measurements
 
-### Step 2: Add Fields and Measurements
+Follow these steps for each quality measurement you want to collect:
 
-For each quality measurement you want to collect:
-
-1. Click **Add Field(s) to this template** 
-2. Configure the field properties:
-   - **Description**: Name of the measurement (e.g., "Example Measurement", "Weight", "Dimension")
-   - **Allowable Values**: Range of values that can be entered
-   - **Default Value**: Default value to set on a test
-   - **Pass Values**: Range of values that constitute a passing result
+1. On the quality inspection template, choose **Add field(s) to this template**.
+2. Configure the field properties, as follows:
+   - **Description**: Enter a short description of the measurement. For example, enter Example Measurement, Weight, or Dimension.
+   - **Allowable Values**: Range of values that can be entered.
+   - **Default Value**: The default value to set on a test.
+   - **Pass Values**: Range of values that constitute a passing result.
 
 ### Field Configuration Example
 
-**Example Measurement Field**:
+The following are sample settings for a measurement field:
+
 - **Description**: "Example Measurement"
-- **Allowed Values**: 5 to 90 (system will accept any value in this range)
-- **Pass Values**: 10..20 - values between 10 and 20 result in "Pass" grade
+- **Allowed Values**: 5 to 90 (the system accepts any value in this range)
+- **Pass Values**: 10..20 - values between 10 and 20 result in a passing grade.
 
-**Result Behavior**:
-- No value entered: "In Progress" grade (default)
-- Values 5-9: "Fail" grade (outside pass range but within allowed values)
-- Values 10-20: "Pass" grade (meets pass criteria)  
-- Values 21-90: "Fail" grade (outside pass range but within allowed values)
-- Values outside 5-90: System will reject entry (outside allowed values)
+The following are the results of the sample settings:
 
-## Template Design Best Practices
+- No value entered: "In Progress" grade (default).
+- Values 5-9: "Fail" grade. The value is outside the pass range but within the allowed values.
+- Values 10-20: "Pass" grade (meets pass criteria).
+- Values 21-90: "Fail" grade because the value is outside the pass range but within the allowed values.
+- Values outside 5-90: [!INCLUDE [prod_short](includes/prod_short.md)] rejects the entry because it's outside the allowed values.
 
-### Measurement Selection
+## Best practices for template design 
 
-- Include only essential quality characteristics
-- Focus on critical-to-quality parameters
-- Consider measurement time and complexity
+### Measurement selection
 
-### Template Organization
+Consider the following when you choose your measurements:
 
-- Create specific templates for different inspection types
-- Group related measurements together
-- Use descriptive field names
-- Document any template-specific grade overrides
+- Include only essential quality characteristics.
+- Focus on critical-to-quality parameters.
+- Consider measurement time and complexity.
 
-## Common Template Scenarios
+### Template organization
 
-### Incoming Material Inspection
+Consider the following when you organize your templates:
 
-**Use Case**: Inspecting purchased materials
-**Example Fields**:
+- Create specific templates for different types of inspections.
+- Group related measurements together.
+- Use descriptive field names.
+- Document any template-specific grade overrides.
+
+## Typical template scenarios
+
+The following sections describe typical uses for templates.
+
+### Incoming material inspections
+
+A typical use is to inspect purchased materials. Some examples of fields are:
+
 - Dimension measurements
 - Visual appearance checks
 - Material compliance verification
 
-### Production Output Inspection
+### Production output inspections
 
-**Use Case**: Testing finished goods
-**Example Fields**:
+A typical use is to test the finished goods that you produce. Some examples of fields are:
+
 - Functional performance tests
 - Assembly quality checks
 - Final dimension verification
 
-### In-Process Inspection
+### In-process inspections
 
-**Use Case**: Quality checks during production
-**Example Fields**:
+A typical use is to do quality checks during production. Some examples of fields are:
+
 - Intermediate measurements
 - Process parameter verification
 - Work-in-progress quality gates
 
-## Managing Templates
+## Manage templates
 
-### Copying Templates
+You can copy templates to create new templates based on their settings. Select a template, and then choose the **Copy** action to create a duplicate. You can modify the fields on the new template to suit your needs.
 
-Create new templates based on existing ones:
-1. Select existing template
-2. Use copy function to duplicate
-3. Modify fields as needed for new application
-
-### Template Activation
-
-- Templates must be properly configured before use
-- Test generation rules reference specific templates
-- Verify template functionality before production use
-
-## Integration with Test Generation Rules
+> [!NOTE]
+> Before you activate a template and use it in production, validate its setup and results.
 
 Templates connect to automated test creation through test generation rules:
 
-1. **Template Assignment**: Each test generation rule references a specific template
-2. **Automatic Application**: When rules trigger, the associated template creates the test structure
-3. **Data Collection**: Test users fill in the template fields during inspection
+1. **Template Assignment**: Each test generation rule references a specific template.
+2. **Automatic Application**: When rules trigger, the associated template creates the test structure.
+3. **Data Collection**: Test users fill in the template fields during inspection.
 
-## Troubleshooting Templates
+## Troubleshooting templates
 
-### Tests Not Creating
+### Tests aren't creating
 
-- Verify template is referenced in test generation rules
-- Check template configuration is complete
-- Ensure proper field definitions
+- Verify that your test generation rules reference the template.
+- Double-check that your template configuration is complete.
+- Ensure that your field definitions are correct.
 
-### Incorrect Pass/Fail Results
+### My pass/fail results are incorrect
 
-- Review pass value ranges
-- Verify allowed value ranges include pass values
-- Check field type configuration
+- Review your pass value ranges.
+- Verify that your allowed value ranges include pass values.
+- Double-check your field type configuration.
 
-### Performance Issues
+### There are issues with performance
 
-- Minimize number of complex fields
-- Optimize field calculations
-- Consider template simplification
+- Minimize the number of complex fields.
+- Optimize your field calculations.
+- Consider whether you can simplify your template.
 
 ## Related information
 

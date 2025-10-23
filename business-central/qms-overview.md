@@ -14,26 +14,26 @@ ms.custom: bap-template
 
 # Quality management overview
 
-Quality Management is a foundational quality inspection application for Microsoft Dynamics 365 Business Central that provides comprehensive quality control capabilities throughout your business operations. This application enables automated and manual quality testing for purchase receipts, production and assembly output, and warehouse operations.
+Quality Management is a quality inspection application for [!INCLUDE [prod_short](includes/prod_short.md)]. The app provides comprehensive quality control capabilities throughout your business operations. This app enables automated and manual quality testing for purchase receipts, production and assembly output, and warehouse operations.
 
-## What is Quality Management?
+Quality Management helps you maintain product quality standards by creating inspection tests at key points in your business processes. The app integrates seamlessly with purchasing, production, assembly, and warehouse management in [!INCLUDE [prod_short](includes/prod_short.md)] to embed quality control in your daily operations.
 
-Quality Management helps you maintain product quality standards by creating inspection tests at key points in your business processes. The application integrates seamlessly with Business Central's purchasing, production, assembly, and warehouse management modules to ensure quality control is embedded in your daily operations.
+### Key capabilities
 
-### Key Capabilities
+The Quality Management app offers a range of benefits.
 
-- **Automated Test Creation**: Automatically generate quality inspection tests when receiving purchase orders, posting production and assembly output, or processing warehouse movements.
+- **Automated Test Creation**: Automatically generate quality inspection tests when you receive purchase orders, post production and assembly output, or process warehouse movements.
 - **Manual Test Creation**: Create quality tests on-demand for reactive testing scenarios.
-- **Scheduled Test Creation**: Create quality tests periodically using job queues for routine inspections.
+- **Scheduled Test Creation**: Create quality tests for routing, periodic inspections using job queues.
 - **Template-Based Testing**: Use predefined quality inspection templates with customizable measurements and pass/fail criteria.
 - **Lot Blocking and Grading**: Automatically block or grade inventory lots based on test results.
-- **Workflow Integration**: Configure automated responses to test results using Business Central workflows.
-- **Inventory Movement**: Comprehensive non-compliant item processing including automatic movement to quarantine bins, negative adjustments for disposal, transfer orders to different locations, and purchase returns to vendors.
+- **Workflow Integration**: Configure automated responses to test results using workflows for quality management.
+- **Inventory Movement**: Comprehensive features for processing noncompliant items. For example, you can do automatic movements to quarantine bins, make negative adjustments for disposal, transfer orders to different locations, and create purchase returns to vendors.
 - **Warehouse Integration**: Full support for locations with and without warehouse handling.
 
-## How to Set Up
+## Getting started
 
-Setting up Quality Management involves configuring templates, test generation rules, and integration with your Business Central processes:
+Setting up Quality Management involves configuring templates, test generation rules, and integration with your [!INCLUDE [prod_short](includes/prod_short.md)] processes. To learn more, go to:
 
 - [Initial Setup and Configuration](qms-setup.md)
 - [Assisted Setup Wizard](qms-assisted-setup-wizard.md)
@@ -44,23 +44,23 @@ Setting up Quality Management involves configuring templates, test generation ru
 
 ## How to Use
 
-Once configured, Quality Management features provide several ways to create and manage quality tests.
+After you configure the app, Quality Management gives you several ways to create and manage quality tests.
 
-### Purchase Receipt Testing
+### Purchase receipt testing
 
 - [Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)
 - [Purchase Receipt Testing With Warehouse Tracking](qms-purchase-receipt-testing-warehouse.md)
 
-### Production Testing
+### Production testing
 
 - [Production Output Quality Testing](qms-production-output-testing.md)
 
-### Manual and Scheduled Testing
+### Manual and scheduled testing
 
 - [Manual Test Creation](qms-manual-test-creation.md)
 - [Scheduled Test Creation](qms-scheduled-test-creation.md)
 
-### Quality Control Actions
+### Quality control actions
 
 - [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)
 - [Processing Non-Compliant Items](qms-non-compliant-processing.md)
@@ -69,7 +69,7 @@ Once configured, Quality Management features provide several ways to create and 
 
 - Microsoft Dynamics 365 Business Central (on-premises or cloud)
 - Premium experience tier (required for production order functionality)
-- Quality Management app installed and configured
+- Quality Management app is installed and configured
 
 ## Related information
 

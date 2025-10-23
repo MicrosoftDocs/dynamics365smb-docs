@@ -14,177 +14,178 @@ ms.custom: bap-template
 
 # Purchase receipt testing without warehouse tracking
 
-This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling (like the Silver location in Contoso demo data).
+This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling. For example, like the Silver location in the Contoso demo data.
 
-## Overview
+For locations without warehouse handling, quality tests are created automatically when you directly post purchase receipts. This simpler workflow is ideal for:
 
-For locations without warehouse handling, quality tests are created automatically when purchase receipts are posted directly. This simpler workflow is ideal for:
-
-- Smaller operations without complex warehouse management
-- Locations with bin management but no warehouse documents
-- Quick receipt and inspection processes
+- Smaller operations without complex warehouse management.
+- Locations that use bin management but don't use warehouse documents.
+- Quick receipt and inspection processes.
 
 ## Prerequisites
 
-- Quality inspection template configured
-- Test generation rule set up for purchase receipts
-- Item with lot tracking (recommended)
-- Location without warehouse receipt handling
+- A quality inspection template is configured
+- A test generation rule is set up for purchase receipts.
+- Items have lot tracking (optional, but recommended).
+- Location doesn't use warehouse receipt handling.
 
-## Setup Requirements
+## Set up the requirements
 
-### 1. Create Quality Inspection Template
+The following sections describe how to set up the requirements for purchase receipt testing without warehouse tracking.
 
-If not already created, set up a template for incoming inspections:
+### Create a quality inspection template
 
-1. Navigate to **Quality Inspection Templates**
-2. Create new template (e.g., "EXAMPLE")
-3. Add measurement fields with pass/fail criteria
+If you don't already have a template, follow these steps to set up a template for incoming inspections:
 
-**Example Configuration**:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and then choose the related link.
+2. Create new template. For example, name it **EXAMPLE**.
+3. Add measurement fields with pass/fail criteria.
+
+The following example shows settings in a quality inspection template:
 
 - **Field Name**: "Example Measurement"
 - **Allowed Values**: 5 to 90
 - **Pass Values**: 10 to 20
 
-### 2. Configure Test Generation Rule
+### Configure a test generation rule
 
 Set up a rule to automatically create tests for purchase receipts:
 
-#### Method 1: Manual Rule Creation
+#### Method 1: Manual rule creation
 
-1. Navigate to **Test Generation Rules**
-2. Create new rule
-3. Configure:
-   - **Source Type**: Purchase Line
-   - **Template Code**: Select your template
-   - **Purchase Trigger**: "When Purchase Order is Received"
-   - **Item Filter**: Specify items requiring testing
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Test Generation Rules**, and then choose the related link.
+2. Create a new rule.
+3. Fill in the fields, as follows:
 
-#### Method 2: Using Create Receiving Rule
+   - **Source Type**: **Purchase Line**
+   - **Template Code**: Select your template.
+   - **Purchase Trigger**: **When Purchase Order is Received**
+   - **Item Filter**: Specify the items to test.
 
-1. From template or test generation rules, choose **Create Receiving Rule**
-2. Select your template
-3. Configure filters:
-	**Item Number Filter**: Specify items (e.g., "WRB-1002")
-    **Location Filter**: Leave blank or specify location
-4. Set **Purchase Trigger**: "When Purchase Order is Received"
+#### Method 2: Use a create receiving rule
 
-### 3. Verify Location Configuration
+1. From the template or test generation rules, choose **Create Receiving Rule**.
+2. Select your template.
+3. Configure filters, as follows:
 
-Ensure your location is properly configured:
+	- **Item Number Filter**: Specify the items.
+	- **Location Filter**: Leave blank, or specify a location.
+4. For the **Purchase Trigger**, choose **When Purchase Order is Received**.
 
-- Location should not require warehouse receipts
-- Location may have bins configured
-- Verify location supports item tracking if needed
+### Verify your location configuration
 
-## Creating Tests Through Purchase Receipt
+Ensure that you properly configured your location:
 
-### Step 1: Create Purchase Order
+- The location shouldn't require warehouse receipts.
+- You can configure bins for the location.
+- Verify that the location supports item tracking, if needed.
 
-1. Navigate to **Purchase Orders**
-2. Create new purchase order
-3. Configure:
-   - **Vendor**: Select appropriate vendor
-   - **Item**: Choose item configured in test generation rule
-   - **Location**: Use location without warehouse handling (e.g., Silver)
-   - **Quantity**: Enter quantity to receive
+## Create tests through a purchase receipt
 
-### Step 2: Configure Item Tracking (If Applicable)
+### Step 1: Create a purchase order
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.
+2. Create a new purchase order.
+3. Fill in the fields, as follows:
+
+   - **Vendor**: Select the appropriate vendor.
+   - **Item**: Choose an item configured in the test generation rule.
+   - **Location**: Choose a location that doesn't use warehouse handling.
+   - **Quantity**: Enter a quantity to receive.
+
+### Step 2: Configure item tracking (if applicable)
 
 For lot-tracked items:
 
-1. Access **Item Tracking Lines**
+1. On the **Lines** FastTab for your purchase order, choose **Item Tracking Lines**.
 2. Enter lot numbers:
-   - Use existing lot numbers or create new ones
-   - Assign quantities to each lot
-   - Set expiration dates as needed
-3. Specify bin codes if location uses bins
+   - Use existing lot numbers, or create new ones.
+   - Assign a quantity to each lot.
+   - Set expiration dates, as needed.
+3. Specify bin codes, if the location uses bins.
 
-### Step 3: Post Purchase Receipt
+### Step 3: Post the purchase receipt
 
-1. **Release** the purchase order if needed
-2. Choose **Post** from the purchase order
-3. Select **Receive** (or **Receive and Invoice**)
-4. Confirm posting
+1. **Release** the purchase order, if needed.
+2. Choose **Post** from the purchase order.
+3. Select **Receive**, or **Receive and Invoice**.
+4. Confirm the posting.
 
-### Result: Automatic Test Creation
+   The following things happen when you post the purchase receipt:
 
-When the purchase receipt posts:
+   - One quality inspection test per lot number is created automatically, if item tracking is used.
+   - Tests might open automatically, depending on setup configuration.
 
-- Quality inspection tests are created automatically
-- One test per lot number (if item tracking is used)
-- Tests may open automatically (depending on setup configuration)
+## Work with created tests
 
-## Working with Created Tests
-
-### Accessing Tests
-
-Tests can be accessed through:
+You can access tests in the following ways:
 
 1. **Quality Inspection Tests** page (view all tests)
 2. **Show Tests for Item and Document** from the purchase order
-3. Automatic popup (if configured in **Quality Inspection Setup**)
-
-### Test Information
+3. Automatic popup, if you specified that on the **Quality Inspection Setup** page.
 
 Each created test contains:
 
-- **Item Number**: The purchased item
-- **Lot Number**: Specific lot being tested (if applicable)
-- **Quantity**: Quantity from item tracking line
-- **Source Document**: Reference to originating purchase order
-- **Template Fields**: Measurements to be completed
+- The **Item Number** of the purchased item.
+- The **Lot Number** of the specific lot being tested, if applicable.
+- The **Quantity** from item tracking line.
+- A **Source Document** reference to the originating purchase order.
+- **Template Fields**, which are the measurements to be complete.
 
-### Completing the Test
+### Complete a quality inspection test
 
-1. Open the quality inspection test
-2. Enter measurement values in template fields
-3. Review calculated grade (determined by template configuration and measurement results)
-4. **Finish** the test when complete
+To complete a test, follow these steps:
 
-## Configuration Options
+1. Open the quality inspection test.
+2. Enter your measurement values in the template fields.
+3. Review the calculated grade that the template configuration and measurement results determined.
+4. Choose **Finish** to complete the test.
 
-### Test Display Behavior
+## Configuration options
 
-In **Quality Inspection Setup**, configure **Show Test Behavior**:
+The following sections describe various configuration options on the **Quality Inspection Setup** page.
 
-- **Automatically and Manually Created Tests**: Tests open immediately when created
-  - Good for demonstrations and training
-  - Convenient for immediate inspection workflow
+### Control test display behavior
 
-- **Only Manually Created Tests**: Tests create in background
-  - Recommended for production environments
-  - Separates receipt posting from inspection roles
+Choose one of the following options in the **Show Test Behavior** field:
 
-### Trigger Configuration
+- **Automatically and Manually Created Tests**: Tests open immediately when you create them. This option is good for demonstrations and training. It's also convenient for immediate inspection workflows.
+- **Only Manually Created Tests**: Tests create in the background. This option is good for production environments. IT also separates receipt posting from inspection roles.
 
-Configure when tests are created:
+### Configure when to trigger test creation
 
-- **Automatic Only**: Tests always create on receipt posting
-- **Manual or Automatic**: Tests can be created automatically or manually
-- **Manual Only**: Tests must be created manually using buttons
+Configure when to create tests, as follows:
+
+- **Automatic Only** means that tests always create when you post a receipt.
+- **Manual or Automatic** means to create tests manually or automatically.
+- **Manual Only** means that you must manually create tests.
 
 ## Troubleshooting
 
-### Tests Not Creating Automatically
+### Tests aren't being created automatically
 
-- Verify test generation rule is properly configured
-- Check item filter matches purchased item
-- Ensure purchase trigger is set correctly
-- Confirm template is assigned to rule
+The following are some suggested solutions:
 
-### Tests Creating for Wrong Items
+- Verify that you properly configured your test generation rule.
+- Double-check that your item filter matches the purchased item.
+- Ensure that you set up your purchase trigger correctly.
+- Confirm that the template is assigned to the rule.
 
-- Review item filters in test generation rules
-- Check for overlapping rules
-- Verify rule priority and ordering
+### Tests are creating for the wrong items
 
-### Test Data Missing
+The following are some suggested solutions:
 
-- Confirm item tracking is properly configured
-- Verify lot numbers are assigned before posting
-- Check bin assignments if location requires bins
+- Review the item filters in your test generation rules.
+- Check whether rules overlap.
+- Verify your rule priority and ordering.
+
+### Test data is missing
+
+The following are some suggested solutions:
+
+- Confirm that you correctly configured item tracking.
+- Verify that lot numbers are assigned before posting.
+- Check the bin assignments, if the location requires bins.
 
 ## Related information
 

@@ -14,25 +14,23 @@ ms.custom: bap-template
 
 # Purchase receipt testing with warehouse tracking
 
-This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations with warehouse handling (like the White location in Contoso demo data).
+This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations with warehouse handling.
 
-## Overview
+For locations with warehouse handling, quality tests are created when you post warehouse receipts. This workflow integrates with warehouse management, and supports:
 
-For locations with warehouse handling, quality tests are created when warehouse receipts are posted. This workflow integrates with Business Central's warehouse management system and supports:
-
-- Locations requiring warehouse receipts
-- Complex warehouse operations with put-aways
-- Multiple lot numbers per receipt
-- Warehouse tracking and traceability
+- Locations that require warehouse receipts.
+- Complex warehouse operations with put-aways.
+- Multiple lot numbers per receipt.
+- Warehouse tracking and traceability.
 
 ## Prerequisites
 
-- Quality inspection template configured
-- Test generation rule set up for purchase receipts
-- Location with warehouse receipt handling enabled
-- Items with item tracking (recommended)
+- A quality inspection template is configured.
+- A test generation rule set up for purchase receipts.
+- A location where warehouse receipt handling is enabled.
+- Items that have item tracking (optional, but recommended)
 
-## Key Differences from Non-Warehouse Locations
+## Key differences from locations without warehouse tracking
 
 | Feature       | Without Warehouse          | With Warehouse                                |
 | ------------- | -------------------------- | --------------------------------------------- |
@@ -41,168 +39,165 @@ For locations with warehouse handling, quality tests are created when warehouse 
 | Configuration | Same test generation rules | Same test generation rules                    |
 | Item Tracking | Direct on purchase order   | Can use lot warehouse tracking                |
 
-## Setup Requirements
+## Set up the requirements
 
-### 1. Verify Location Configuration
+The following sections describe how to set up the requirements for testing purchase receipts with warehouse tracking.
 
-Ensure your location supports warehouse operations:
+### 1. Verify the configuration of your location
 
-1. Navigate to **Locations**
-2. Select warehouse-enabled location (e.g., White)
-3. Verify **Require Receipt** is enabled
-4. Check other warehouse settings as needed
+Ensure that your location supports warehouse operations:
 
-### 2. Use Existing Test Generation Rules
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
+2. Select a warehouse-enabled location.
+3. Verify that the **Require Receipt** toggle is turned on.
+4. Double-check the other warehouse settings, as needed.
 
-The same test generation rules work for both warehouse and non-warehouse locations:
+### 2. Use existing test generation rules
 
-- **Source Type**: Purchase Line
-- **Purchase Trigger**: "When Purchase Order is Received"
+The same test generation rules work for both warehouse and nonwarehouse locations:
+
+- **Source Type**: **Purchase Line**
+- **Purchase Trigger**: **When Purchase Order is Received**
 - **Template**: Assigned quality inspection template
-- **Filters**: Item and location filters as needed
+- **Filters**: Item and location filters, as needed
 
 > [!NOTE]
-> The "When Purchase Order is Received" trigger works for both direct posting and warehouse receipt posting.*
+> The **When Purchase Order is Received** trigger works for both direct posting and warehouse receipt posting.
 
-## Process Flow with Warehouse Handling
+## Process flow with warehouse handling
 
-### Step 1: Create Purchase Order
+The following sections provide a high-level overview of the process flow with warehouse handling.
 
-1. Navigate to **Purchase Orders**
-2. Create new purchase order
-3. Configure:
-   - **Vendor**: Select vendor
-   - **Item**: Choose item in test generation rule
-   - **Location**: Use warehouse-enabled location (e.g., White)
-   - **Quantity**: Enter quantity to receive
+### Step 1: Create a purchase order
 
-### Step 2: Configure Item Tracking
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.
+2. Create a new purchase order.
+3. Fill in the fields, as follows:
+
+   - **Vendor**: Select a vendor.
+   - **Item**: Choose the item specified in the test generation rule.
+   - **Location**: Use a location that is warehouse-enabled.
+   - **Quantity**: Enter the quantity to receive.
+
+### Step 2: Configure item tracking
 
 For lot-tracked items:
 
-1. Access **Item Tracking Lines** on purchase line
-2. Enter lot information:
-   - **Lot Number**: Create or select lot numbers
-   - **Quantity**: Assign quantities to lots
-   - **Expiration Date**: Set expiration dates
-3. Multiple lots can be configured per line
+1. Choose **Item Tracking Lines** on a purchase order line.
+2. Enter lot information, as follows:
+   - **Lot Number**: Create or select lot numbers.
+   - **Quantity**: Assign a quantity to lots.
+   - **Expiration Date**: Set expiration dates.
+3. You can configure multiple lots per line.
 
-**Example Configuration**:
+   **Example configuration**:
 
-- Total Quantity: 123
-- Lot A: 23 pieces, expiration date
-- Lot B: 100 pieces, expiration date
+     The following example shows settings for multiple lots.
 
-### Step 3: Create Warehouse Receipt
+   - Total Quantity: 123
+   - Lot A: 23 pieces, expiration date
+   - Lot B: 100 pieces, expiration date
 
-1. **Release** the purchase order
-2. Choose **Create Warehouse Receipt**
-3. The warehouse receipt is created with:
-   - Total quantity from purchase order
-   - Item tracking information transferred
-   - Bins assigned based on location setup
+### Step 3: Create and post a warehouse receipt
 
-### Step 4: Post Warehouse Receipt
+1. Choose **Release** to release the purchase order.
+2. Choose **Create Warehouse Receipt** to create a warehouse receipt with the following information:
 
-1. Navigate to **Warehouse Receipts**
-2. Open the created receipt
-3. Verify quantities and item tracking
-4. Post Receipt
+   - The total quantity from the purchase order.
+   - The item tracking information transferred.
+   - The bins assigned based on the location's setup.
 
-### Result: Automatic Test Creation
+3. Choose **Post** to post the receipt.
 
-When the warehouse receipt posts:
+   The following things happen when you post the warehouse receipt:
 
-- Quality inspection tests are created automatically
-- One test per lot number (if item tracking is used)
-- Tests reference the original purchase order
-- Put-away documents are created for warehouse operations
+   - Quality inspection tests are created automatically.
+   - A test is created per lot number, if item tracking is used.
+   - Tests reference the original purchase order.
+   - Put-away documents are created for warehouse operations.
 
-## Working with Multiple Lots
+## Work with multiple lots
 
-### Lot-Based Test Creation
+When you receive multiple lots:
 
-When multiple lots are received:
+- Each lot gets its own quality inspection test.
+- Tests are linked to specific lot numbers.
+- Quantities reflect lot-specific amounts.
 
-- Each lot gets its own quality inspection test
-- Tests are linked to specific lot numbers
-- Quantities reflect lot-specific amounts
-
-**Example**: Receipt with two lots creates two tests:
+**Example**: A receipt with two lots creates two tests:
 
 - Test 1: Lot A, 23 pieces
 - Test 2: Lot B, 100 pieces
 
-### Managing Lot Tests
+### Manage lot tests
 
-Access lot-specific tests through:
+You can access lot-specific tests through:
 
-1. **Show Tests for Item and Document** from purchase order
-2. **Quality Inspection Tests** filtered by lot number
-3. **Lot Number Information** if lot blocking is configured
+1. **Show Tests for Item and Document** from a purchase order.
+2. **Quality Inspection Tests** filtered by lot number.
+3. **Lot Number Information**, if you configured lot blocking.
 
-## Integration with Warehouse Operations
+## Integration with warehouse operations
 
-### Put-away Processing
+### Put-away processing
 
-After warehouse receipt posting:
+After you post a warehouse receipt:
 
-1. **Warehouse Put-aways** are created automatically
-2. Put-away documents reference the same lot numbers
-3. Quality tests can be completed during or after put-away
-4. Lot blocking can prevent movement until tests pass
+1. Warehouse put-away documents are created automatically and reference the same lot numbers.
+2. Quality tests can be completed during or after put-away.
+3. Lot blocking can prevent movement until tests pass.
 
-### Warehouse Tracking
+### Warehouse tracking
 
-The system maintains full traceability:
+[!INCLUDE [prod_short](includes/prod_short.md)] maintains full traceability in the warehouse:
 
-- Item tracking follows through warehouse documents
-- Quality test results are linked to specific lots
-- Warehouse entries reference quality inspection data
+- Item tracking follows through to warehouse documents.
+- Results of quality tests are linked to specific lots.
+- Warehouse entries reference quality inspection data.
 
-## Configuration Considerations
+## Configuration considerations
 
-### Item Tracking vs. Lot Warehouse Tracking
+Consider the pros and cons of using item tracking or lot warehouse tracking
 
-**Standard Item Tracking** (Recommended):
+For standard item tracking (recommended):
 
-- Item tracking defined on purchase order
-- Lot numbers transfer to warehouse documents
-- Quality tests use purchase order tracking information
+- You define item tracking on the purchase order.
+- Lot numbers transfer to warehouse documents.
+- Quality tests use purchase order tracking information.
 
-**Lot Warehouse Tracking**:
+For lot warehouse tracking:
 
-- Lot numbers assigned during warehouse operations
-- More complex setup and processing
-- Supported but not required for quality testing
+- Lot numbers are assigned during warehouse operations.
+- Setup and processing are more complex.
+- Supported, but optional for quality testing.
 
-### Test Generation Rule Triggers
+Pay attention to your test generation rule triggers. The same trigger works for both scenarios:
 
-The same trigger works for both scenarios:
-
-- **"When Purchase Order is Received"** triggers on warehouse receipt posting
-- No separate configuration needed for warehouse vs. non-warehouse
-- Rules apply consistently across location types
+- The **When Purchase Order is Received** trigger works when you post a warehouse receipt.
+- You don't need a separate configuration for warehouse versus nonwarehouse setups.
+- Rules apply consistently across location types.
 
 ## Troubleshooting
 
-### No Tests Created
+### No tests are created
 
-- Verify location has **Require Receipt** enabled
-- Check test generation rule applies to the item
-- Ensure warehouse receipt is actually posted
+The following are some suggested solutions:
 
-### Wrong Number of Tests
+- Verify that the **Require Receipt** toggle is turned on for the location.
+- Double-check that the test generation rule applies to the item.
+- Ensure that the warehouse receipt is posted.
 
-- Review item tracking configuration
-- Check for lot consolidation in warehouse receipt
-- Verify test generation rule logic
+### I'm getting the wrong number of tests
 
-### Tests Missing Lot Information
+- Review your item tracking configuration.
+- Check for lot consolidation in the warehouse receipt.
+- Verify the logic in your test generation rule.
 
-- Confirm item tracking is properly configured
-- Check lot number transfer to warehouse documents
-- Verify item tracking code setup
+### Tests are missing lot information
+
+- Confirm that item tracking is correctly configured.
+- Check whether lot numbers transfer to warehouse documents.
+- Verify that your item tracking code is set up.
 
 ## Related information
 

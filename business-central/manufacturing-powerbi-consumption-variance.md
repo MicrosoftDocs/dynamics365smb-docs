@@ -31,13 +31,13 @@ Production supervisors use this report to track the consumption costs of product
 
 The *Consumption Variance* report includes the following KPIs and measures:
 
-- [Actual Material Cost](manufacturing-powerbi-kpis.md#actual-material-cost)
-- [Expected Material Cost](manufacturing-powerbi-kpis.md#expected-material-cost)
-- [Standard Material Cost](manufacturing-powerbi-kpis.md#standard-material-cost)
-- [Expected Material Cost Variance](manufacturing-powerbi-kpis.md#expected-material-cost-variance)
-- [Expcted Material Cost Dev %](manufacturing-powerbi-kpis.md#expected-material-cost-dev-percent)
-- [Standard Material Cost Variance](manufacturing-powerbi-kpis.md#standard-material-cost-variance)
-- [Standard Material Cost Dev %](manufacturing-powerbi-kpis.md#standard-material-cost-dev-percent)
+- [**Actual Material Cost**](manufacturing-powerbi-kpis.md#actual-material-cost)
+- [**Expected Material Cost**](manufacturing-powerbi-kpis.md#expected-material-cost)
+- [**Standard Material Cost**](manufacturing-powerbi-kpis.md#standard-material-cost)
+- [**Expected Material Cost Variance**](manufacturing-powerbi-kpis.md#expected-material-cost-variance)
+- [**Expected Material Cost Dev %**](manufacturing-powerbi-kpis.md#expected-material-cost-dev-percent)
+- [**Standard Material Cost Variance**](manufacturing-powerbi-kpis.md#standard-material-cost-variance)
+- [**Standard Material Cost Dev %**](manufacturing-powerbi-kpis.md#standard-material-cost-dev-percent)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

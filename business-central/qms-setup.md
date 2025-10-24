@@ -34,10 +34,9 @@ The Quality Management app includes an assisted setup guide that can help you co
 2. Find and run the **Set up Quality Management** guide.
 3. Follow the steps in the guide. Learn more at [Assisted Setup Wizard](qms-assisted-setup-wizard.md).
 
-### 2. Configure base data
+### Configure base data
 
 Ensure you configured base data in [!INCLUDE [prod_short](includes/prod_short.md)] as described in the following table.
-
 
 |Data  |Description  |
 |---------|---------|
@@ -45,7 +44,7 @@ Ensure you configured base data in [!INCLUDE [prod_short](includes/prod_short.md
 |Items     |- Configure item tracking codes for lots, serials, or packages, as needed.<br>- Set up lot number series for automatic lot assignments.<br>- Ensure that the correct inventory posting groups are assigned to items. |
 |Vendors and customers     |- Configure vendors for purchase receipt testing.<br>- If quality testing affects sales processes, set up customers.       |
 
-### 3. Quality Management Setup
+### Set up Quality Management
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Management Setup**, and then choose the related link.
 1. Configure general settings, as described in the following table.
@@ -97,7 +96,7 @@ Ensure you configured base data in [!INCLUDE [prod_short](includes/prod_short.md
    - **Reservation or posted** allows lot or serial numbers that exist but aren't posted yet.
    - **Any non-empty value** allows any nonempty lot or serial value, even if they aren't in inventory.
 
-## Next Steps
+## Next steps
 
 After you complete the initial setup, there are still a few things to do. To learn more, go to:
 
@@ -106,25 +105,27 @@ After you complete the initial setup, there are still a few things to do. To lea
 3. [Configure Workflows (Optional)](qms-quality-workflows.md)
 <!--4. [Test Your Configuration](./testing-configuration.md)-->
 
-## Common Setup Scenarios
+## Typical setup scenarios
 
-### Scenario 1: Purchase Receipt Testing Only
+The following sections offer things to think about when you set up the app for certain scenarios.
 
-- Focus on purchase trigger configuration
-- Create templates for incoming goods inspection
-- Set up rules for vendor-specific or item-specific testing
+### Purchase receipt testing only
 
-### Scenario 2: Production Output Testing Only
+- Focus on purchase trigger configuration.
+- Create templates for inspecting incoming goods.
+- Set up rules for vendor-specific or item-specific testing.
+
+### Production output testing only
 
 - Focus on production trigger configuration
 - Create templates for finished goods inspection
 - Set up rules for routing-specific or work center-specific testing
 
-### Scenario 3: Comprehensive Quality System
+### Comprehensive quality system
 
-- Configure both purchase and production triggers
-- Create multiple templates for different inspection types
-- Set up workflows for automated lot blocking/unblocking
+- Configure both purchase and production triggers.
+- Create multiple templates for different types of inspections.
+- Set up workflows to automatically block and unblock lots.
 
 ## Troubleshooting setup issues
 

@@ -179,9 +179,9 @@ Pay attention to your test generation rule triggers. The same trigger works for 
 
 ## Troubleshooting
 
-### No tests are created
+The following sections describe typical issues and suggest solutions.
 
-The following are some suggested solutions:
+### No tests are created
 
 - Verify that the **Require Receipt** toggle is turned on for the location.
 - Double-check that the test generation rule applies to the item.

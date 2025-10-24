@@ -162,9 +162,9 @@ Configure when to create tests, as follows:
 
 ## Troubleshooting
 
-### Tests aren't being created automatically
+The following sections describe typical issues and suggest solutions.
 
-The following are some suggested solutions:
+### Tests aren't being created automatically
 
 - Verify that you properly configured your test generation rule.
 - Double-check that your item filter matches the purchased item.
@@ -173,15 +173,11 @@ The following are some suggested solutions:
 
 ### Tests are creating for the wrong items
 
-The following are some suggested solutions:
-
 - Review the item filters in your test generation rules.
 - Check whether rules overlap.
 - Verify your rule priority and ordering.
 
 ### Test data is missing
-
-The following are some suggested solutions:
 
 - Confirm that you correctly configured item tracking.
 - Verify that lot numbers are assigned before posting.

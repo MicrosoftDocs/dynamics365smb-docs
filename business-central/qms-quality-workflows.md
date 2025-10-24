@@ -274,36 +274,30 @@ Monitor the business effects of your workflows, and set up audit trails and appr
 
 ## Troubleshooting
 
+The following sections describe typical issues and suggest solutions.
+
 ### The workflow doesn't trigger
 
-The following are some suggested solutions:
-
-1. Double-check that you enabled workflow integration.
-2. Verify that your workflow is active.
-3. Review the event conditions.
-4. Confirm that users have the correct permissions.
+- Double-check that you enabled workflow integration.
+- Verify that your workflow is active.
+- Review the event conditions.
+- Confirm that users have the correct permissions.
 
 ### Incorrect actions are running
 
-The following are some suggested solutions:
-
-1. Review your workflow conditions and logic.
-2. Check whether multiple workflows are conflicting.
-3. Verify your grade code configuration.
-4. Review the order in which your workflow steps run.
+- Review your workflow conditions and logic.
+- Check whether multiple workflows are conflicting.
+- Verify your grade code configuration.
+- Review the order in which your workflow steps run.
 
 ### There are issues with performance
 
-The following are some suggested solutions:
-
-1. Monitor how often your workflow runs.
-2. Review your settings for the related batch.
-3. Consider the timing of the automated actions.
-4. Evaluate the effect on your system resources.
+- Monitor how often your workflow runs.
+- Review your settings for the related batch.
+- Consider the timing of the automated actions.
+- Evaluate the effect on your system resources.
 
 ### Workflow events for quality management aren't available
-
-The following are some suggested solutions:
 
 - Double-check that you enabled workflow integration on **Quality Inspection Setup** page.
 - Verify that your workflows are active.
@@ -311,15 +305,11 @@ The following are some suggested solutions:
 
 ## Actions aren't running
 
-The following are some suggested solutions:
-
 - Review your workflow conditions.
 - Review your settings for the journal batch.
 - Verify that the values match your grade code.
 
 ### I'm getting unexpected blocking behavior
-
-The following are some suggested solutions:
 
 - If you have multiple workflows, review their interactions.
 - Check your grade-based transaction controls.

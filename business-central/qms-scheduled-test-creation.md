@@ -14,29 +14,27 @@ ms.custom: bap-template
 
 # Scheduled test creation
 
-This article explains how to set up and use scheduled quality inspection tests that are created automatically at regular intervals using Business Central job queues.
+This article explains how to set up and use quality inspection tests that are created automatically and scheduled to run at regular intervals using job queues.
 
-## Overview
+Scheduled tests enable proactive quality management. They automatically generate quality inspection tests based on time intervals, rather than business transactions. This capability is ideal for:
 
-Scheduled test creation enables proactive quality management by automatically generating quality inspection tests based on time intervals rather than business transactions. This capability is ideal for:
-
-- **Routine Inspections**: Regular sampling of inventory in stock
-- **Shelf Life Monitoring**: Periodic testing of items approaching expiration
-- **Environmental Compliance**: Time-based testing requirements
-- **Statistical Quality Control**: Systematic sampling programs
-- **Preventive Quality Assurance**: Proactive testing schedules
+- Routine inspections that involve regular sampling of your in-stock inventory.
+- Shelf life monitoring where you periodically test items that are approaching expiration.
+- Environmental compliance testing to meet time-based testing requirements.
+- Statistical quality control through systematic sampling programs.
+- Preventive quality assurance supported by proactive testing schedules.
 
 ## Prerequisites
 
-- Quality inspection templates configured
-- Job queue functionality enabled in Business Central
-- Test generation rules configured for scheduled creation
-- Items available for scheduled testing
-- Appropriate user permissions for job queue management
+- Quality inspection templates are configured.
+- The job queue functionality is enabled.
+- Test generation rules are configured for creating scheduled tests.
+- Items are available for scheduled testing.
+- Users have the permissions they need for the job queue.
 
-## Understanding Scheduled Testing
+## Understand scheduled testing
 
-### Scheduled vs. Transaction-Based Testing
+The following table illustrates the differences between scheduled and transaction-based testing.
 
 | Feature | Transaction-Based | Scheduled |
 |---------|------------------|-----------|
@@ -46,104 +44,91 @@ Scheduled test creation enables proactive quality management by automatically ge
 | Coverage | All processed items | Sampled items |
 | Resource Planning | Reactive | Predictable |
 
-### Business Applications
+### Business applications
 
-**Routine Inventory Sampling**:
+This section describes the business benefits of various types of scheduled tests.
 
-- Random testing of items in stock
-- Verification of storage conditions
-- Quality drift monitoring
+They're good for routine inventory sampling:
 
-**Compliance Testing**:
+- Randomly test the items you have in stock.
+- Verify that your storage conditions are suitable.
+- Quality drift monitoring.
 
-- Regulatory requirement fulfillment
-- Industry standard compliance
-- Customer audit preparation
+Do compliance testing:
 
-**Preventive Quality Control**:
+- Be sure that you meet regulatory requirements.
+- Comply with industry standards.
+- Prepare for customer audits.
 
-- Early detection of quality issues
-- Trend analysis and monitoring
-- Continuous improvement data collection
+Apply preventive quality control:
 
-## Setting Up Scheduled Tests
+- Detect quality issues early.
+- Analyze and monitor trends.
+- Continuously improve data collection.
 
-### Step 1: Configure Quality Templates
+## Set up scheduled tests
 
-Create templates specifically for scheduled testing:
+The following sections provide high-level steps to set up scheduled tests.
 
-1. Navigate to **Quality Inspection Templates**
-2. Create template for scheduled inspections
-3. Configure measurements appropriate for routine testing
-4. Set pass/fail criteria for ongoing monitoring
+### Configure quality templates
 
-**Example Template: ROUTINE-INSPECTION**
+Create templates specifically for scheduled testing. The following are a few suggestions for things to think about when you do:
 
-- Simplified measurement set for efficiency
-- Focus on critical quality parameters
-- Streamlined for regular execution
+- For efficiency, use as simple a set of measurements as you can.
+- Focus on critical quality parameters.
+- Streamline the settings for regular runs.
 
-### Step 2: Create Scheduled Test Generation Rules and Set Up Job Queue Entry
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and choose the related link.
+2. Create a template for scheduled tests.
+3. Configure measurements that are appropriate for routine testing.
+4. Set pass and fail criteria for ongoing monitoring.
 
-Configure rules specifically for time-based test creation:
+### Create test generation rules and set up a job queue entry
 
-1. Navigate to **Test Generation Rules**
-2. Create new rule for scheduled testing
-3. Drill down the **Schedule Group** field.
-4. You'll first be prompted to create a job queue, followed by an option to view it.
+Configure rules specifically for time-based test creation.
 
-### Step 4: Configure Job Queue Parameters
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Test Generation Rules**, and then choose the related link.
+2. Create a new test generation rule for scheduled testing.
+3. Choose the **Schedule Group** field. You're prompted to create a job queue, followed by an option to view it. The next session describes the job queue settings.
 
-Set up execution parameters:
+### Configure a job queue entry
 
-**Frequency Settings**:
+The following settings are important for scheduled tests.
 
-- **Starting Date/Time**: When to begin scheduled testing
-- **Ending Date/Time**: When to stop (optional)
-- **Run on Mondays/Tuesday/etc.**: Day-specific scheduling
-- **Starting Time**: Time of day for execution
+Enter the following settings that control when, and how often the job queue entry runs:
 
-**Execution Parameters**:
+- **Earliest Start Date/Time**: Specify when to begin scheduled testing.
+- **Run on <\day of the week>**: Schedule the job queue entry to run on a specific day.
+- **Starting Time**: Specify the time of day to start.
+- **Ending Time**: Specify the time of day to stop.
+
+Enter the following settings that control**Execution Parameters**:
 
 - **Maximum No. of Attempts**: Retry logic for failures
 - **Rerun Delay**: Wait time between retry attempts
-- **Status**: Set to Ready to enable execution
+- **Status**: Use the **Set Status to Ready** action to update the status to **Ready** and enable the job queue entry.
 
-## Troubleshooting Scheduled Tests
+## Troubleshooting scheduled tests
 
-### Common Issues
+The following sections describe typical issues and suggest solutions.
 
-**Job Queue Not Executing**:
+### The job queue entry isn't running
 
-- Verify job queue service is running
-- Check job queue entry status
-- Review user permissions
+- Verify that the job queue service is running.
+- Double-check the status of the job queue entry.
+- Verify that users have the permissions they need.
 
-**No Tests Created**:
+### No tests are created
 
-- Verify test generation rule configuration
-- Check item filters and availability
-- Review codeunit parameters
+- Verify the settings for your test generation rule.
+- Double-check your item filters and availability.
+- Review the codeunit parameters.
 
-**Too Many Tests Created**:
+### Too many tests are created
 
-- Adjust sampling percentages
-- Refine item filters
-- Review selection logic
-
-### Monitoring and Alerts
-
-**Automated Monitoring**:
-
-- Set up alerts for job queue failures
-- Monitor test creation volumes
-- Track completion rates
-
-**Quality Metrics**:
-
-- Measure scheduled test effectiveness
-- Track quality trend improvements
-- Calculate return on investment
+- Adjust your sampling percentages.
+- Refine your item filters.
+- Review the selection logic.
 
 ## Best Practices
 
@@ -153,7 +138,7 @@ Consider the capacity of your inspectors, and coordinate with operational schedu
 
 Regularly evaluate the effectiveness of your scheduled tests. Adjust frequencies and optimize resource allocation based on your findings.
 
-Make test-data driven decisions for process improvements. Identify quality trends and patterns that support vendor quality discussions.
+Use the data from your tests to drive decisions about process improvements. Identify quality trends and patterns that support vendor quality discussions.
 
 ## Related information
 

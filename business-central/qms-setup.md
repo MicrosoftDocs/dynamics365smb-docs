@@ -4,7 +4,7 @@ description: Learn how to set up and configure quality management features, incl
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: overview
+ms.topic: how-to
 ms.search.form: 
 ms.date: 10/20/2025
 ms.service: dynamics-365-business-central
@@ -18,168 +18,88 @@ This article takes you through the initial setup and configuration of quality ma
 
 ## Prerequisites
 
-Before setting up Quality Management, ensure you have:
+Before you set up Quality Management, ensure that you have:
 
-- Microsoft Dynamics 365 Business Central
-- Quality Management app installed
-- Administrative permissions in Business Central
-- Understanding of your quality control requirements
+- The Quality Management app installed.
+- Administrative permissions in [!INCLUDE [prod_short](includes/prod_short.md)].
+- Understood your quality control requirements.
 
-## Initial Setup Steps
+## Initial setup steps
 
-### 1. Run the Assisted Setup Wizard
+### Run the assisted setup guide
 
-The Quality Management app includes an assisted setup wizard to help configure basic settings:
+The Quality Management app includes an assisted setup guide that can help you configure basic settings.
 
-1. Navigate to **Assisted Setup**
-2. Find and run **Set up Quality Management**
-3. Follow the wizard steps (see [Assisted Setup Wizard](qms-assisted-setup-wizard.md) for details)
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Assisted Setup**, and then choose the related link.
+2. Find and run the **Set up Quality Management** guide.
+3. Follow the steps in the guide. Learn more at [Assisted Setup Wizard](qms-assisted-setup-wizard.md).
 
-### 2. Configure Base Data
+### 2. Configure base data
 
-Ensure you have the following base data configured in Business Central:
+Ensure you configured base data in [!INCLUDE [prod_short](includes/prod_short.md)] as described in the following table.
 
-#### Locations
 
-- Configure locations where quality testing will occur
-- Set up warehouse handling if required (receipts, put-aways, etc.)
-- Define bins for quality testing areas
-
-#### Items
-
-- Configure item tracking codes for lots, serials, or packages as needed
-- Set up lot number series for automatic lot assignment
-- Ensure items have appropriate inventory posting groups
-
-#### Vendors and Customers
-
-- Configure vendors for purchase receipt testing
-- Set up customers if quality testing affects sales processes
+|Data  |Description  |
+|---------|---------|
+|Locations     |- Configure the locations where you do quality testing.<br>- Set up warehouse handling, if necessary. For example, receipts, put-aways, and so on.<br>- Define bins for your quality testing areas.         |
+|Items     |- Configure item tracking codes for lots, serials, or packages, as needed.<br>- Set up lot number series for automatic lot assignments.<br>- Ensure that the correct inventory posting groups are assigned to items. |
+|Vendors and customers     |- Configure vendors for purchase receipt testing.<br>- If quality testing affects sales processes, set up customers.       |
 
 ### 3. Quality Management Setup
 
-Navigate to **Quality Management Setup** to configure global settings:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Management Setup**, and then choose the related link.
+1. Configure general settings, as described in the following table.
 
-#### General Settings
+   |Field  |Description  |
+   |---------|---------|
+   |**Quality Inspection Nos.** | Specify the default number series to use for quality inspection documents when there isn't a number series defined on a quality inspection template. The number series defined on a template takes precedence.  |
+   |**Create Test Behavior** | Specify when to create a new test when existing tests happen:<br><br>- **Always create new test** creates a new test every time.<br>- **Create retest if matching test is finished** creates a retest only if an existing matching test completed.<br>- **Always create retest** always creates a retest when tests already exist.<br>- **Use existing open test if available** reuses an existing open test if one exists.<br>- **Use any existing test if available** reuses any existing test, regardless of status.        |
+   |**Find Existing Behavior** | Specifies the criteria the system looks for when it searches for existing tests.<br><br>- **By Standard Source Fields** uses standard source fields to find existing tests.<br>- **By Source Record** finds tests based on the source record.<br>- **By Item Tracking** uses item tracking information such as lot and serial numbers.<br>- **By Document and Item only** searches only by document and item and ignores other criteria.        |
+   |**Conditional Lot Find Behavior**| Specifies the tests to consider when evaluating whether a document-specific transaction is blocked.<br><br>- **Any test that matches** considers any test.<br>- **Only the most recently modified test** uses the most recently modified test.<br>- **Only the newest test/re-test** uses the test with the highest retest number.<br>- **Any finished test that matches** considers any finished test.<br>- **Only the most recently modified finished test** uses the most recently modified finished test.<br>- **Only the newest finished test/re-test** uses the finished test with the highest retest number.        |
+   |**COA Contact No.** | Specifies the contact details that appear on the **Certificate of Analysis** report when supplied.        |
+   |**Maximum Rows To Fetch on Field Lookups** | Specifies the maximum number of rows to fetch on data lookups. Keep the number as low as possible to increase usability and performance.        |
+   |**Show Test Behavior** | Specifies whether to show the **Quality Inspection Test** page after a test is made.<br><br>- **Automatic and manually created tests** shows tests created both automatically and manually.<br>- **Only manually created tests** shows only tests created manually.<br>- **Do not show created tests** never automatically shows created tests.    |
+   |**Picture Upload Behavior** | Specifies what to do with pictures.<br><br>- **Do nothing** means not to take an action with pictures.<br>- **Attach document** attaches the picture as a document.<br>- **Attach and upload to OneDrive** attaches the picture and uploads it to OneDrive.        |
+   |**Workflow Integration Enabled** | When enabled, this option provides the events and responses for quality management that you need to work with workflows and approvals.        |
 
-**Quality Inspection Nos.**: The default number series used for quality inspection documents when there is not a no. series defined on a Quality Inspection Template. When a no. series is defined on a template, that takes precedence.
+1. Configure settings for receiving, as described in the following table.
 
-**Create Test Behavior**: Dictates the behavior of when to create a new Quality Inspection Test when existing tests occur.
+   |Field  |Description  |
+   |---------|---------|
+   |**Warehouse Receipts** | Specifies the default warehouse receipt trigger value for test generation rules.<br><br>- **Never** means no automatic test creation.<br>- **When Whse. Receipt is created** creates a test when you create a warehouse receipt.<br>- **When Whse. Receipt is posted** creates a test when you post a warehouse receipt.        |
+   |**Purchase Orders** | Specify a default purchase trigger value for test generation rules.<br><br>- **Never** means no automatic test creation.<br>- **When Purchase Order is received** creates a test when you post a purchase order receipt.<br>- **When Purchase Order is posted** creates a test when you release a purchase order.        |
+   |**Sales Returns** | Specifies a default sales return trigger value for test generation rules.<br><br>- **Never** means no automatic test creation.<br>- **When Sales Return is received** creates a test when you post a sales return order receipt.        |
+   |**Transfer Orders** | Specifies a default transfer trigger value for test generation rules.<br><br>- **Never** means no automatic test creation.<br>- **When Transfer Order is received** creates a test when you post a transfer order receipt.        |
 
-- *Always create new test*: Creates a new test every time
-- *Create retest if matching test is finished*: Creates a retest only if an existing matching test has been completed
-- *Always create retest*: Always creates a retest when tests already exist
-- *Use existing open test if available*: Reuses an existing open test if one exists
-- *Use any existing test if available*: Reuses any existing test regardless of status
+1. Configure settings for production, as described in the following table.
 
-**Find Existing Behavior**: What criteria the system looks for when searching for existing tests.
+   |Column1  |Column2  |
+   |---------|---------|
+   |**Production - Create Test** | Specify a default production-related trigger value for test generation rules.<br><br>- **Never** means no automatic test creation.- **When Output is posted**: Creates a test when you post production output.<br- **When Order is released** creates a test when you release a production order.<br>- **When a released order is refreshed** creates a test when you refresh a released order.        |
+   |**Auto Output Configuration** | Specify options for when to create a test automatically during the production process.<br><br>- **Any Output Entry**: Creates a test on any output.- **Any Quantity Output** creates a test when you post a quantity.<br>- **Only with Quantity** creates a test only when you post a quantity.<br>- **Only with Scrap** creates a test only when you post scrap.        |
+   |**Assembly - Create Test**  | Specify a default assembly-related trigger value for test generation rules.<br><br>- **Never** means no automatic test creation.<br>- **When Output is posted** creates a test when you post assembly output.        |
 
-- *By Standard Source Fields*: Uses standard source fields to find existing tests
-- *By Source Record*: Finds tests based on the source record
-- *By Item Tracking*: Uses item tracking information (lot/serial numbers)
-- *By Document and Item only*: Searches only by document and item, ignoring other criteria
+1. Configure settings for inventory and warehousing, as described in the following table.
 
-**Conditional Lot Find Behavior**: Which test(s) are considered when evaluating if a document-specific transaction is blocked.
+   | Field | Description   |
+   |---------------------|-------|
+   | **Create Test** | Specify a default warehousing-related trigger value for test generation rules.<br><br>- **Never** means no automatic test creation<br>- **Movement into Bin** creates a test when you register a warehouse movement. |
+   | **Batch Name (Bin Movements)** | Specify the batch to use for bin movements and reclassifications for nondirected pick and putaway locations. |
+   | **Whse. Batch Name (Bin Movements)** | Specify the batch to use for bin movements and reclassifications for directed pick and putaway locations. |
+   | **Whse. Worksheet Name**| Specify the worksheet to use for warehouse movements for directed pick and putaway locations.            |
+   | **Batch Name (Inventory Adjustments)** | Specify the batch to use for negative inventory adjustment item journals.                              |
+   | **Whse. Batch Name (Inventory Adjustments)** | Specify the batch to use for negative inventory adjustment warehouse item journals.                  |
 
-- *Any test that matches*: Considers any test
-- *Only the most recently modified test*: Uses the most recently modified test
-- *Only the newest test/re-test*: Uses the test with the highest retest number
-- *Any finished test that matches*: Considers any finished test
-- *Only the most recently modified finished test*: Uses the most recently modified finished test
-- *Only the newest finished test/re-test*: Uses the finished test with the highest retest number
+1. To configure settings for item tracking, in the **Tracking Before Finishing** field, specify whether to require item tracking before finishing a test
 
-**COA Contact No.**: Contact details that will appear on the Certificate of Analysis report when supplied.
-
-**Maximum Rows To Fetch on Field Lookups**: The maximum number of rows to fetch on data lookups. Keeping the number as low as possible will increase usability and performance.
-
-**Show Test Behavior**: Whether to show the Quality Inspection Test page after a test has been made.
-
-- *Automatic and manually created tests*: Shows tests created both automatically and manually
-- *Only manually created tests*: Shows only tests created manually with a button
-- *Do not show created tests*: Never shows created tests automatically
-
-**Picture Upload Behavior**: What to do with a picture after it has been taken.
-
-- *Do nothing*: No action taken with pictures
-- *Attach document*: Attaches the picture as a document
-- *Attach and upload to OneDrive*: Attaches the picture and uploads it to OneDrive
-
-**Workflow Integration Enabled**: When enabled, provides events and responses for working with Business Central workflows and approvals.
-
-#### Receiving Settings
-
-**Warehouse Receipts**: Default warehouse receipt trigger value for Test Generation Rules.
-
-- *Never*: No automatic test creation
-- *When Whse. Receipt is created*: Creates test when warehouse receipt is created
-- *When Whse. Receipt is posted*: Creates test when warehouse receipt is posted
-
-**Purchase Orders**: Default purchase trigger value for Test Generation Rules.
-
-- *Never*: No automatic test creation
-- *When Purchase Order is received*: Creates test when purchase order receive is posted
-- *When Purchase Order is posted*: Creates test when purchase order is released
-
-**Sales Returns**: Default sales return trigger value for Test Generation Rules.
-
-- *Never*: No automatic test creation
-- *When Sales Return is received*: Creates test when sales return order receive is posted
-
-**Transfer Orders**: Default transfer trigger value for Test Generation Rules.
-
-- *Never*: No automatic test creation
-- *When Transfer Order is received*: Creates test when transfer order receive is posted
-
-#### Production Settings
-
-**Production - Create Test**: Default production-related trigger value for Test Generation Rules.
-
-- *Never*: No automatic test creation
-- *When Output is posted*: Creates test when production output is posted
-- *When Order is released*: Creates test when production order is released
-- *When a released order is refreshed*: Creates test when released order is refreshed
-
-**Auto Output Configuration**: Granular options for when a test should be created automatically during the production process.
-
-- *Any Output Entry*: Creates test on any output
-- *Any Quantity Output*: Creates test on any quantity posting
-- *Only with Quantity*: Creates test only when quantity is posted
-- *Only with Scrap*: Creates test only when scrap is posted
-
-**Assembly - Create Test**: Default assembly-related trigger value for Test Generation Rules.
-
-- *Never*: No automatic test creation
-- *When Output is posted*: Creates test when assembly output is posted
-
-#### Inventory and Warehousing Settings
-
-**Create Test**: Default warehousing related trigger value for Test Generation Rules.
-
-- *Never*: No automatic test creation
-- *Movement into Bin*: Creates test when warehouse movement is registered
-
-**Batch Name (Bin Movements)**: The batch to use for bin movements and reclassifications for non-directed pick and put-away locations.
-
-**Whse. Batch Name (Bin Movements)**: The batch to use for bin movements and reclassifications for directed pick and put-away locations.
-
-**Whse. Worksheet Name**: The worksheet used for warehouse movements for directed pick and put-away locations.
-
-**Batch Name (Inventory Adjustments)**: The batch to use for negative inventory adjustment item journals.
-
-**Whse. Batch Name (Inventory Adjustments)**: The batch to use for negative inventory adjustment warehouse item journals.
-
-#### Item Tracking Settings
-
-**Tracking Before Finishing**: Whether to require item tracking before finishing a test.
-
-- *Allow missing item tracking*: Permits tests without lot/serial numbers
-- *Posted Item Tracking only*: Requires lot/serial numbers to be posted in the system
-- *Reservation or posted*: Allows lot/serial numbers that exist in the system but may not be posted yet
-- *Any non-empty value*: Permits any non-empty lot/serial value, even if not in inventory
+   - **Allow missing item tracking** allows tests without lot or serial numbers.
+   - **Posted Item Tracking only** requires you to post lot or serial numbers.
+   - **Reservation or posted** allows lot or serial numbers that exist but aren't posted yet.
+   - **Any non-empty value** allows any nonempty lot or serial value, even if they aren't in inventory.
 
 ## Next Steps
 
-After completing initial setup:
+After you complete the initial setup, there are still a few things to do. To learn more, go to:
 
 1. [Create Quality Inspection Templates](qms-quality-templates.md)
 2. [Set Up Test Generation Rules](qms-test-generation-rules.md)
@@ -206,18 +126,20 @@ After completing initial setup:
 - Create multiple templates for different inspection types
 - Set up workflows for automated lot blocking/unblocking
 
-## Troubleshooting Setup Issues
+## Troubleshooting setup issues
 
-### Quality Tests Not Creating Automatically
+The following sections describe typical issues and suggest solutions.
 
-- Verify trigger settings in Quality Management Setup
-- Check test generation rules are properly configured
-- Ensure templates are assigned to generation rules
+### Quality tests aren't created automatically
 
-### Workflow Events Not Available
+- Verify the trigger settings on the **Quality Management Setup** page.
+- Double-check that your test generation rules are correctly configured.
+- Ensure that you assigned templates to your test generation rules.
 
-- Verify **Enable Workflow Integration** is enabled in Quality Management Setup
-- Check that appropriate permissions are assigned
+### Workflow events aren't available
+
+- Verify that the **Enable Workflow Integration** is enabled on the **Quality Management Setup** page.
+- Check that users are assigned the appropriate permissions.
 
 ## Related information
 

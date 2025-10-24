@@ -315,7 +315,7 @@ The following are things to consider related to grade complexity:
 
 ## Troubleshooting grades
 
-This section describes some typical issues, and provides suggestions for how to get unblocked.
+The following sections describe typical issues and suggest solutions.
 
 ### Tests don't calculate the expected grades
 

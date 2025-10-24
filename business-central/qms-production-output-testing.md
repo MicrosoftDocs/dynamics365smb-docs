@@ -157,25 +157,15 @@ The following steps give an overview of how to complete a production test.
 
 ### Location-specific rules
 
-You can create multiple rules for different locations
-
-**Rule 1: White Location**
-
-- **Location Filter**: WHITE
-- **Template**: White Location Template
-
-**Rule 2: Silver Location**
-
-- **Location Filter**: SILVER  
-- **Template**: Silver Location Template
+You can create multiple rules for different locations. Set up a filter for each specific location, and select the template that you created for that location.
 
 ### Operation-specific testing
 
 Configure testing for specific routing operations:
 
-- **Routing No. Filter**: Specific routing
-- **Work Center Filter**: Specific work center
-- **Operation Filter**: Specific operation number
+- **Routing No. Filter**: Specify a routing.
+- **Work Center Filter**: Specify a work center.
+- **Operation Filter**: Specify an operation number.
 
 ### Multi-stage testing
 
@@ -212,6 +202,8 @@ If you use backflushing, there are a few things to consider:
 - Review backflushing setup for quality integration.
 
 ## Troubleshooting output tests
+
+The following sections describe typical issues and suggest solutions.
 
 ### Tests Not Creating
 

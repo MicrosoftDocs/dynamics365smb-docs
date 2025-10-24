@@ -216,17 +216,9 @@ The following are some recommendations for investigation protocol:
 
 ## Troubleshoot manual test creation
 
-The following sections list typical issues and suggest ways to resolve them.
+The following sections describe typical issues and suggest solutions.
 
 ### The Create Test action isn't available
-
-The following are some possible causes:
-
-- You don't have test generation rules configured for manual creation.
-- You set your test generation rules to **Automatic Only** or **Never**.
-- You're missing template assignments.
-
-The following are some solutions:
 
 - Configure manual-enabled test generation rules.
 - Verify your template assignments.
@@ -234,15 +226,11 @@ The following are some solutions:
 
 ### I'm missing template options
 
-The following are some solutions:
-
 - Verify that you have templates and that they're properly configured.
 - Double-check your test generation rule filters.
 - Ensure that you filled in the required fields on your templates.
 
 ### I'm having problems with item selection
-
-The following are some solutions:
 
 - Confirm that the item exists and is properly configured for quality management.
 - Check whether your item tracking setup uses lot or serial numbers.
@@ -250,44 +238,40 @@ The following are some solutions:
 
 ### I'm missing source document details in my test information
 
-The following are some solutions:
-
 - Create the test from the appropriate source document.
 - Manually enter source information, if needed.
 - Verify the document posting status.
 
 ### I'm having issues related to item tracking
 
-The following are some solutions:
-
 - Confirm that you have lot or serial numbers.
 - Double-check your item tracking code configuration.
 - Verify the quantity allocations.
 
-## Integration with Automated Testing
+## Integration with automated testing
 
-### Complementary Approaches
+### Complementary approaches
 
-**Automatic Testing**: Proactive quality control
+**Automatic testing**: Proactive quality control
 
 - Routine inspections
 - Process compliance
 - Prevention-focused
 
-**Manual Testing**: Reactive quality investigation
+**Manual testing**: Reactive quality investigation
 
 - Problem investigation
 - Customer complaint resolution
 - Corrective action verification
 
-### Unified Results Management
+### Unified results management
 
 Both manual and automatic tests:
 
-- Use same templates and measurement criteria
-- Generate comparable results
-- Integrate with lot blocking and workflows
-- Support comprehensive quality reporting
+- Use the same templates and measurement criteria.
+- Generate comparable results.
+- Integrate with lot blocking and workflows.
+- Support comprehensive quality reporting.
 
 ## Related information
 

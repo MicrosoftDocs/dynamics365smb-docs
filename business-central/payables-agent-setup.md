@@ -11,17 +11,11 @@ ms.collection:
   - bap-ai-copilot
 ms.search.form: 3304_Primary
 ---
-# Set up Payables Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up Payables Agent
 
 The Payables Agent in Business Central automates processing of vendor invoices received from vendors through email as PDF documents. This article explains how to set up, activate, configure the Payables Agent, and manage user access.
 
 Learn more about the agent in [Payables Agent overview](payables-agent.md).
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Prerequisites
 
@@ -52,7 +46,7 @@ The agent capability is on if the ![Shows the Payables Agent icon](media/payable
 
 ![Shows the Payables Agent icon on a role center](media/payables-agent-in-role-center.svg)
 
-If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Payables Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
+If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Payables Agent is listed under **Generally available**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 
 Next, configure and activate the agent so it can process vendor invoices.
 
@@ -67,7 +61,6 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
    ![Shows the Payables Agent configuration wizard](media/payables-agent-setup.png)
 
    The configuration of an agent can span multiple pages in the configuration. For the Payables Agent, two more configuration options are available on the next page. Use the navigation action on the right side of the wizard to progress to the next page of the wizard.
-
    ![Shows the second page of the Payables Agent configuration wizard](media/payables-agent-setup-page2.png)
 
    1. **Get sample invoices**  

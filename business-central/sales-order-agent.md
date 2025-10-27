@@ -163,6 +163,10 @@ When a customer requests an item, the agent checks inventory. If the item is una
 
 The agent creates and sends an email response to the customer that includes the promised shipment dates for items. The process then continues. Learn where this step occurs in the full process in the [General flow](#general-flow).
 
+### Attachment processing
+
+The agent processes email attachments, such as PDFs or images, that contain quote requests. It extracts relevant information from these files and generates a sales quote based on the content. With this capability, users can handle inquiries submitted in less structured formats.
+
 ## Agent process flow
 
 ### Participants

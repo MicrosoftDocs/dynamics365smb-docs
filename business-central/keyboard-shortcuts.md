@@ -4,7 +4,7 @@ description: View a list of key combinations (keyboard shortcuts) that you can u
 author: jswymer
 ms.topic: concept-article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/04/2025
+ms.date: 10/09/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -154,7 +154,6 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Alt</kbd>+<kbd>D</kbd> | Open the dimension set entries. |
 | <kbd>Alt</kbd>+<kbd>F6</kbd> | Collapse or expand the current FastTab or part (subpage). |
 | <kbd>Alt</kbd>+<kbd>F9</kbd> | Create a new document, and post it. |
-| <kbd>Alt</kbd>+<kbd>I</kbd> | en the **Find Entries** page, so that you can look for entries that are related to the posted document. This keyboard shortcut also works for lists. |
 | <kbd>Alt</kbd>+<kbd>G</kbd> | Open the **Find Entries** page, so that you can look for entries that are related to the posted document. This keyboard shortcut also works for lists. |
 | <kbd>Alt</kbd>+<kbd>N</kbd> | Open a page where you can create a new record. This keyboard shortcut has the same effect as selecting the **New** action. |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> | Close a page, and then open a new one where you can create a new record. This keyboard shortcut has the same effect as selecting the **OK & New** action. |

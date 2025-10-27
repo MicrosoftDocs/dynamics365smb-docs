@@ -69,32 +69,28 @@ You provide feedback by using the **like** (thumbs up) or **dislike** (thumbs do
 
 ## What are the AI limitations of Autofill? How can users minimize the effect of the limitations when using the system?
 
-- **General AI limitations**
+- General AI limitations
+
   AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. It's important to use your judgment to review and verify responses before making decisions that could affect stakeholders like customers and partners. 
 
-- **Geographic and language availability**
+- Geographic and language availability
 
   [!INCLUDE [copilot-geo-and-language-availability-en-only](includes/copilot-geo-and-language-availability-en-only.md)]
 
-- **Certain industry, product, and subject limitations**
+- Certain industry, product, and subject limitations
 
   Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality or limited output from Copilot due to the sensitive nature of that domain.
-
-## What data does Autofill collect and how is it used?
-
-Business Central collects the minimum data required for Microsoft to offer the service. 
-
-- Microsoft collects anonymized information about decisions made by Copilot and your choice to keep or discard a suggestion. It doesn't collect suggested field values or other company data used by Copilot to provide suggestions.
-- Microsoft doesn't use your business data to train the foundational models for the benefit of others. Learn more in [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
   
 ## How does Autofill treat data residency?
 
 The Autofill feature relies on Azure OpenAI Service and Bing Search to provide suggestions.
 
 - Azure OpenAI Service  
+  
   Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-- Bing Search  
+- Bing Search
+
   Service endpoints are available in the US only and Bing Search operates under different terms. If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Bing Search service outside your environment’s geographic region or compliance boundary. When you use Autofill to find suggestions for fields of public domain, only the input prompt is sent to the Bing Search service. This information is processed and not stored for more than one day.
 
   To prevent Autofill from connecting to the Bing Search service, turn off the **Enable Bing Search** toggle on the **Copilot & agent capabilities** page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
@@ -104,6 +100,8 @@ The Autofill feature relies on Azure OpenAI Service and Bing Search to provide s
 When Autofill is used on fields of public domain, it searches the web powered by Bing Search. To ensure security and safety, [!INCLUDE[prod_short](includes/prod_short.md)] applies various mechanisms such as content filtering and malicious site detection to reduce risk from these websites.
 
 Learn more about how Copilot searches the web in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
+
+[!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
 ## Related information
 

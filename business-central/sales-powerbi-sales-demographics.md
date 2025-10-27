@@ -7,8 +7,9 @@ ms.reviewer:
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37100_Primary
-ms.date: 05/20/2025
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Sales Demographics (Power BI Report)
@@ -23,11 +24,11 @@ The **Sales Demographics** report provides a comprehensive analysis of sales per
 
 Leadership and management teams use the report to to gain a deeper understanding of sales performance based on demographic factors. This report is helpful for analyzing sales metrics by item category, customer posting group, document type, and geographical location to identify trends and opportunities for growth.
 
-As the CEO of a furniture company, you want to understand how demographic factors including item categories, posting groups or geographical regions impact sales performance.
+CEOs want to understand how demographic factors including item categories, posting groups or geographical regions impact sales performance.
 
 By analyzing the report, you discover that domestic customers in urban areas account for 60% of your total sales. Also, the report uncovers that one region is underperforming compared to another, despite similar product offerings. Armed with this data, you decide to allocate more marketing budget and strategize a new promotional campaign to increase sales.
 
-As a sales manager, you want to ensure that your team meets its revenue targets. You want to monitor sales performance across different customer segments and make data-driven adjustments to your sales strategy.
+Sales managers want to ensure that the team meets its revenue targets. You want to monitor sales performance across different customer segments and make data-driven adjustments to your sales strategy.
 
 Using the report, you might find out that customers in the Corporate customer posting group are contributing significantly more to overall revenue than customers in Retail. Additionally, you might find that sales orders for ergonomic chairs are growing faster than leather office chairs. You use this information to direct your sales team to focus on up-selling ergonomic chairs to corporate clients.
 
@@ -35,11 +36,9 @@ Using the report, you might find out that customers in the Corporate customer po
 
 The **Sales Demographics** report includes the following KPIs and measures:
 
-- [Sales Amount](sales-powerbi-sales-kpis.md#sales-amount)
-- [Cost Amount](sales-powerbi-sales-kpis.md#cost-amount)
-- [Gross Profit](sales-powerbi-sales-kpis.md#gross-profit)
-- [Gross Profit Margin](sales-powerbi-sales-kpis.md#gross-profit-margin)
-- [No. of Customers](sales-powerbi-sales-kpis.md#no-of-customers)
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Adjusted Profit (LCY)](sales-powerbi-sales-kpis.md#adjusted-profit-lcy)
+- [Adjusted Profit Margin](sales-powerbi-sales-kpis.md#adjusted-profit-margin)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -47,10 +46,16 @@ The **Sales Demographics** report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+The report uses data from the following tables:
 
-- Value Entries
-- Sales Lines
+- Sales Value Entries
+- Sales Invoice Lines  
+- Sales Credit Lines  
+- Project Ledger Entries
+- Customer
+- Item
+- Resource
+- G/L Account
 
 ## Try the report
 

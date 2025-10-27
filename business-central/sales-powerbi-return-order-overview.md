@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37105_Primary
-ms.date: 05/20/2025
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -34,11 +34,13 @@ As a salesperson, this report helps you monitor individual customer returns, to 
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [Sales Amount](sales-powerbi-sales-kpis.md#sales-amount)
-- [Sales Quantity](sales-powerbi-sales-kpis.md#sales-quantity)
-- [Gross Profit](sales-powerbi-sales-kpis.md#gross-profit)
-- [Return Rate](sales-powerbi-sales-kpis.md#return-rate)
-- [No. of Return Orders](sales-powerbi-sales-kpis.md#no-of-return-orders)
+- [Return Rate (Amount)](sales-powerbi-sales-kpis.md#return-rate-amount)
+- [Total Credit (Amount)](sales-powerbi-sales-kpis.md#total-credit-amount)
+- [Return Rate (Qty.)](sales-powerbi-sales-kpis.md#return-rate-qty)
+- [Total Credit (Qty.)](sales-powerbi-sales-kpis.md#total-credit-qty)
+- [No. of Outstanding Return Orders](sales-powerbi-sales-kpis.md#no-of-outstanding-return-orders)
+- [Credit Adjusted Profit (LCY)](sales-powerbi-sales-kpis.md#credit-adjusted-profit-lcy)
+- [Total Sales (Amount)](sales-powerbi-sales-kpis.md#total-sales-amount)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -46,13 +48,17 @@ The report includes the following key performance indicators (KPIs) and measures
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+The report uses data from the following tables:
 
-- Sales Line
-- Value Entry
+- Sales Credit Lines
+- Sales Value Entries
+- Project Ledger Entries
 - Customer
 - Item Category
 - Reason Code
+- Item
+- G/L Account
+- Resource
 
 ## Try the report
 

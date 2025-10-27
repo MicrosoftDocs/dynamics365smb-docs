@@ -248,18 +248,15 @@ ms.service: dynamics-365-business-central
 ##### [EBITDA](finance-powerbi-ebitda.md)
 ##### [Average Collection Period](finance-powerbi-average-collection-period.md)
 ##### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
+##### [Late Payments (Receivables)](finance-powerbi-late-payment-analysis-receivables.md)
 ##### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
+##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
+##### [Detailed Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
 ##### [Finance KPI overview](finance-powerbi-kpis.md) 
 ##### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
 
-<!-- 
-##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
-##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
-##### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
--->
-
 #### Financial reporting
-
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
 ##### [Report selection for finance reports](finance-financial-reporting-report-selection.md)
@@ -280,7 +277,6 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 #### Built-in finance analysis tools
-
 ##### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
 ##### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
 ##### [Analyze cash flow](finance-analyze-cash-flow.md)
@@ -346,7 +342,6 @@ ms.service: dynamics-365-business-central
 ##### [Fixed assets reports](fa-reports.md)
 
 ##### Accounts payable analytics
-
 ###### [Accounts payable analytics overview](payables-reports.md)
 ###### [Aged Accounts Payable Excel](reports/report-4403.md)
 ###### [Vendor - Top 10 List Excel](reports/report-4404.md)
@@ -383,6 +378,50 @@ ms.service: dynamics-365-business-central
 ###### [Aged Accounts Payable](reports/report-322.md)
 <!-- Financial analytics end -->
 
+<!-- Closing years and periods     start -->
+### Closing years and periods
+#### [Year closing overview](year-close-years-periods.md)
+#### [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
+#### [Specify posting periods](finance-how-specify-posting-periods.md)
+#### [Overview of tasks to close accounting periods](year-how-complete-period-end-processes.md)
+#### [Update currency exchange rates](finance-how-update-currencies.md)
+#### [Allocate costs and income](year-allocate-costs-income.md)
+#### [Report VAT to tax authorities](finance-how-report-vat.md)
+#### [Prepare pre-closing reports](year-prepare-preclose-reports.md)
+#### [Close books](year-close-books.md)
+#### [Prepare closing statements](year-prepare-close-statement.md)
+#### [Close accounting periods](year-close-account-periods.md)
+#### [Close income statement accounts](year-close-income-statement.md)
+#### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
+<!-- Closing years and periods     end -->
+
+<!-- CoA and G/L start -->
+### Work with the chart of accounts and general ledger (G/L)
+#### [Understand the general ledger](finance-general-ledger.md)
+#### [Understand the chart of accounts](finance-chart-of-accounts.md)
+#### [Create G/L budgets](finance-how-create-budgets.md)
+#### [Review amounts in general ledger accounts](finance-review-accounts.md)
+#### [Revalue general ledger account balances](finance-revalue-account-balances.md)
+#### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
+#### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
+#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
+#### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
+#### [Allocate recurring costs and income](year-allocate-costs-income.md)
+#### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
+#### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
+#### [Export data for auditing](finance-how-to-export-audit-files.md)
+<!-- CoA and G/L end -->
+
+### Working with dimensions
+#### [Dimensions overview](finance-dimensions.md)
+#### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
+#### [Import payroll transactions](finance-how-import-payroll-transactions.md)
+
+### Working with currencies
+#### [Currencies in Business Central](finance-currencies.md)
+#### [Update currency exchange rates](finance-how-update-currencies.md)
+
+<!-- Receivables start -->
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
 #### [Accounts receivable analytics](receivables-reports.md)
@@ -404,7 +443,9 @@ ms.service: dynamics-365-business-central
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 #### [Sales tax in the default version of Business Central](sales-tax-concept.md)
 #### [Work with Intrastat reporting](finance-how-report-intrastat.md)
+<!-- Receivables end -->
 
+<!-- Payables start -->
 ### Manage payables
 #### [Payables overview](payables-manage-payables.md)
 #### [Accounts payable analytics](payables-reports.md)
@@ -433,6 +474,7 @@ ms.service: dynamics-365-business-central
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
+<!-- Payables end -->
 
 ### Invoicing prepayments
 #### [Prepayments overview](finance-invoice-prepayments.md)
@@ -458,7 +500,6 @@ ms.service: dynamics-365-business-central
 #### [Create cost budgets](finance-create-cost-budgets.md)
 #### [Deleting cost budget entries](finance-how-to-delete-cost-budget-entries.md)
 #### [Cost accounting reports](finance-cost-accounting-reports.md)
-
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)
@@ -489,45 +530,6 @@ ms.service: dynamics-365-business-central
 #### [Cash flow overview](finance-cash-flow-overview.md)
 #### [Analyze cash flows in your company](finance-analyze-cash-flow.md)
 #### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
-### Closing years and periods
-#### [Year closing overview](year-close-years-periods.md)
-#### [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
-#### [Specify posting periods](finance-how-specify-posting-periods.md)
-#### [Overview of tasks to close accounting periods](year-how-complete-period-end-processes.md)
-#### [Update currency exchange rates](finance-how-update-currencies.md)
-#### [Allocate costs and income](year-allocate-costs-income.md)
-#### [Report VAT to tax authorities](finance-how-report-vat.md)
-#### [Prepare pre-closing reports](year-prepare-preclose-reports.md)
-#### [Close books](year-close-books.md)
-#### [Prepare closing statements](year-prepare-close-statement.md)
-#### [Close accounting periods](year-close-account-periods.md)
-#### [Close income statement accounts](year-close-income-statement.md)
-#### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
-
-### Work with the chart of accounts and general ledger (G/L)
-#### [Understand the general ledger](finance-general-ledger.md)
-#### [Understand the chart of accounts](finance-chart-of-accounts.md)
-#### [Create G/L budgets](finance-how-create-budgets.md)
-#### [Review amounts in general ledger accounts](finance-review-accounts.md)
-#### [Revalue general ledger account balances](finance-revalue-account-balances.md)
-#### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
-#### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
-#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
-#### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
-#### [Allocate recurring costs and income](year-allocate-costs-income.md)
-#### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
-#### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
-#### [Export data for auditing](finance-how-to-export-audit-files.md)
-
-### Working with dimensions
-#### [Dimensions overview](finance-dimensions.md)
-#### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
-#### [Import payroll transactions](finance-how-import-payroll-transactions.md)
-
-### Working with currencies
-#### [Currencies in Business Central](finance-currencies.md)
-#### [Update currency exchange rates](finance-how-update-currencies.md)
 
 ### Working with Value Added Tax (VAT)
 #### [VAT management overview](finance-manage-vat.md)
@@ -567,35 +569,39 @@ ms.service: dynamics-365-business-central
 ##### [Work with intercompany documents and journals](intercompany-how-work-documents-journals.md)
 ##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
+
+### [Accounting and bookkeeping overview](learn-accounting-bookkeeping-guide.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
-### Sales analytics 
+
 <!-- Sales analytics start -->
+### Sales analytics 
 #### [Sales analytics overview](sales-analytics-overview.md)
 
 #### [Power BI sales app](sales-powerbi-app.md)
 ##### [Sales overview](sales-powerbi-sales-overview.md)
+##### [Key Sales Influencers](sales-powerbi-key-sales-influencers.md)
+##### [Sales Decomposition](sales-powerbi-sales-decomposition.md)
+##### [Sales Forecasting](sales-powerbi-sales-forecasting.md) 
+##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)
 ##### [Daily Sales](sales-powerbi-daily-sales.md)
-##### [Key Sales Influencers (Power BI Report)](sales-powerbi-key-sales-influencers.md)
-##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 ##### [Moving Average](sales-powerbi-moving-average.md)
 ##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
 ##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
-##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
-##### [Opportunity Overview (Power BI Report)](sales-powerbi-opportunity-overview.md)
-##### [Return Order Overview (Power BI Report)](sales-powerbi-return-order-overview.md)
-##### [Sales by Item](sales-powerbi-sales-by-item.md)
+##### [Opportunity Overview](sales-powerbi-opportunity-overview.md)
+##### [Sales Quote Overview](sales-powerbi-sales-quote-overview.md)
+##### [Return Order Overview](sales-powerbi-return-order-overview.md)
 ##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
-##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
-##### [Sales Decomposition (Power BI Report)](sales-powerbi-sales-decomposition.md)
-##### [Sales Demographics (Power BI Report)](sales-powerbi-sales-demographics.md)
+##### [Sales by Item](sales-powerbi-sales-by-item.md)
 ##### [Sales by Location](sales-powerbi-sales-by-location.md)
-##### [Sales Quote Overview (Power BI Report)](sales-powerbi-sales-quote-overview.md)
-##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
-##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
+##### [Sales by Projects](sales-powerbi-sales-by-project.md)
+##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales Demographics](sales-powerbi-sales-demographics.md)
+##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
+##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
@@ -676,12 +682,16 @@ ms.service: dynamics-365-business-central
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
 
-### Purchasing analytics 
 <!-- Purchasing analytics start -->
+### Purchasing analytics 
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
 #### [Power BI purchasing app](purchases-powerbi-app.md)
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
 ##### [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md)
+##### [Key Purchase Influencers](purchases-powerbi-key-purchase-influencers.md)
+##### [Purchase Forecasting](purchases-powerbi-purchase-forecasting.md)
+##### [Vendor Quality Analysis](purchases-powerbi-vendor-quality-analysis.md)
+##### [Purchases Quote Overview](purchases-powerbi-purchase-quote-overview.md)
 ##### [Daily Purchases](purchases-powerbi-daily-purchases.md)  
 ##### [Moving Averages](purchases-powerbi-moving-averages.md)  
 ##### [Moving Annual Total](purchases-powerbi-moving-annual-total.md)  
@@ -692,6 +702,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
 ##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
 ##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+##### [Purchases Return Overview](purchases-powerbi-purchase-return-overview.md)
 ##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
@@ -746,6 +757,7 @@ ms.service: dynamics-365-business-central
 
 #### [Power BI inventory app](inventory-powerbi-app.md)
 ##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
+##### [Inventory Forecasting](inventory-powerbi-inventory-forecasting.md)
 ##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
 ##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
 ##### [Purchase and Sales Quantity](inventory-powerbi-purchase-and-sales-qty.md)
@@ -871,10 +883,10 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
 ##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
-##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+##### [Monitor insurance coverage](fa-how-insure.md#monitor-insurance-coverage)
+##### [View changed depreciation book values](fa-how-trans-split-combine.md#view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [View disposal ledger entries](fa-how-dispose-retire.md#view-disposal-ledger-entries)
+##### [View projected disposal values](fa-how-manage-budgets.md#view-projected-disposal-values)
 #### Fixed assets reports
 ##### [Fixed assets report overview](fa-reports.md)
 ##### [Fixed Asset Analysis Excel](reports/report-4412.md)
@@ -1378,6 +1390,8 @@ ms.service: dynamics-365-business-central
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ##### [WIP Extended Posting](LocalFunctionality/Czech/wip-extended-posting.md)
 ##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
+##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Alternative Posting Groups for Employees](LocalFunctionality/Czech/use-alternative-posting-groups-employees.md) 
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
@@ -1411,6 +1425,7 @@ ms.service: dynamics-365-business-central
 ##### [Update Contacts from ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
 ##### [New Design of Output Documents](LocalFunctionality/Czech/new-design-of-output-documents.md)
 ##### [Compensations](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 #### Inventory
 ##### [Round Accounting in Inventory](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
 ##### [Inventory General Ledger Reconciliation Enhancements](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
@@ -1418,20 +1433,17 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Counting Documents](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
 ##### [Inventory Operations Document](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
 ##### [Posting Groups in Transfer Orders](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
-#### General
-##### [Extended User Control](LocalFunctionality/Czech/general.md)
-##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
 ##### [Control of Output Inventory Time Sequence](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
 ##### [Inventory Movement Templates](LocalFunctionality/Czech/inventory-movement-templates.md)
 ##### [Stock keeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
-##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
-##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
 ##### [General Production Posting Group in Stock keeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
 ##### [Skip Update for Stock keeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
-##### [Nonstock Item Numbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
+#### Manufacturing
+##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+#### General
+##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Use modern search in CZ applications](LocalFunctionality/Czech/use-modern-search-cz.md)
-##### [Hide rows with zero quantity in CZ document reports](LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md)
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -2455,9 +2467,9 @@ ms.service: dynamics-365-business-central
 
 ### Service management
 #### [View service statistics](service-service-statistics.md)
-#### [Service orders overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+#### [Service orders overview](service-how-to-allocate-resources.md#see-an-overview-of-service-orders-and-service-quotes)
+#### [Service quotes overview](service-how-to-allocate-resources.md#see-an-overview-of-service-orders-and-service-quotes)
+#### [Posted service document overview](service-service-posting.md#view-information-about-a-posted-service-document)
 
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
@@ -2619,7 +2631,7 @@ ms.service: dynamics-365-business-central
 ### [Searching the web with Copilot (preview)](ai-search-web-copilot.md)
 ### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
 ### [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)
-## Analysis assist (preview)
+## Analysis assist
 ### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)
 ## Autofill (preview)
@@ -2665,7 +2677,7 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for advanced Tell Me (preview)](faqs-advanced-tell-me.md)
-## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
+## [FAQ for analysis assist](faqs-analysis-assist.md)
 ## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)

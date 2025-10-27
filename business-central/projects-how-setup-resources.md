@@ -47,7 +47,7 @@ To calculate how much time a resource can spend on projects, you must set their 
 5. Alternatively, to detail the resource's capacity for a specific period, choose the **Set Capacity** action.
 
    > [!TIP]
-   > If you're setting capacity for a group of people who typically work the same hours, you can save a little time and ensure consistency by choosing a work hour template. For example, you might have one work hour template for full time technicians, and another for technicians that work part time. To learn more about work hour templates, go to [To set up work hour templates](service-how-setup-work-service-hours.md#to-set-up-work-hour-templates).
+   > If you're setting capacity for a group of people who typically work the same hours, you can save a little time and ensure consistency by choosing a work hour template. For example, you might have one work hour template for full time technicians, and another for technicians that work part time. To learn more about work hour templates, go to [Set up work hour templates](service-how-setup-work-service-hours.md#set-up-work-hour-templates).
 
 6. On the **Resource Capacity Settings** page, fill in the fields as necessary.
 7. Choose the **Update Capacity** action. The **Resource Capacity** page is updated with the entered capacity.

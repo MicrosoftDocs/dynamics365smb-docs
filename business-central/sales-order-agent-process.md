@@ -14,8 +14,6 @@ ms.search.form: 4400, 4410
 ---
 # Process sales quotes and orders with Sales Order Agent (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 This article explains how to use Sales Order Agent to automate taking sales orders based on customer inquiries about products/items received via email.
 
 Sales Order Agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer with the quote as a PDF attachment.
@@ -23,9 +21,6 @@ Sales Order Agent monitors a designated mailbox for incoming customer emails abo
 Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
 
 Learn more about Sales Order Agent and its process flow in [How the agent processes requests](sales-order-agent.md#how-the-agent-processes-requests).
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Supported languages
 

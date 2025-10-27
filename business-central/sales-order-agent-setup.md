@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate Sales Order Agent and manage user access.
-ms.date: 10/05/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer
@@ -11,17 +11,11 @@ ms.collection:
   - bap-ai-copilot
 ms.search.form: 4400_Primary, 4410
 ---
-# Set up Sales Order Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up Sales Order Agent
 
 Sales Order Agent in Business Central automates processing sales orders from customer email requests. This article explains how to set up, activate, configure Sales Order Agent, and manage user access.
 
 Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Prerequisites
 
@@ -68,6 +62,7 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
 1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle.
+1. Set **Default language** - Used for task details and outgoing messages unless the recipient has a language set.
 1. On the right side of the page, select the **Go to next card** arrow to choose how the agent helps with inquiries, quotes, and orders.
 
     The following table describes several options:

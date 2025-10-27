@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview (preview)
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 10/13/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk
@@ -13,15 +13,11 @@ ms.search.form: 4400, 4410
 ---
 # Sales Order Agent overview (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 Sales Order Agent helps Business Central users automate the process of capturing sales orders. The agent uses AI to analyze customer requests received via email and locates the customer in Business Central. If important details are missing or more choices are available, the agent engages in multi-turn email conversations to clarify the request. It checks and informs the customer about the availability of the items they're looking for. The agent then follows up with a sales quote. The quote is formatted as a PDF and includes the requested items, quantities, units of measure, prices, taxes, requested delivery dates, provided external document reference, and other important details.
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 ## Functionality
 
 ### Activation and configuration

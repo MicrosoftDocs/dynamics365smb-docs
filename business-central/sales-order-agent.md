@@ -60,7 +60,7 @@ The agent always involves designated Business Central users to review and approv
 
 The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)).
 
-When an email is recieved, the agent analyzes email&mdash;including subject line, body and any attachments&mdash;to identify quote requests and extract relevant details. Attachments can be PDF or image files. It extracts relevant information from these files and generates a sales quote based on the content.
+When an email is recieved, the agent analyzes the email&mdash;including subject line, body and any attachments&mdash;to identify quote requests and extract relevant details. Attachments can be PDF or image files. It extracts relevant information from these files and generates a sales quote based on the content.
 
 If the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 

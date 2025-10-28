@@ -68,38 +68,53 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
    The options are re is more than one page of options, where options are . Use the **Go to next card** and  **Go to previouis card**  arrows to navigate amoing the pages. The following tabs describes the available option:
 
-    #### [Respond to inquiries](#tab/inquiries)
+   ## [Respond to inquiries](#tab/inquiries)
 
-    These options specify how the agent engages in conversations related to price and availability of products and services.
+   These options specify how the agent engages in conversations related to price and availability of products and services.
 
-    |Option|Description|Default|
-    |-|-|-|
-    |Messages from already registered senders|Specifies the type of review required for incoming messages from already registered senders.|All|
-    |Messages from unregistered senders|Specifies the type of review required for incoming messages from unregistered senders.|All|
-    |Select only available items|Specifies whether the agent considers item availability when searching for the customer's requested items.<br><br>When on, the agent checks inventory to determine whether the customer's requested item quantity is available based on their requested delivery date and location code. If there aren't enough items, the agent prepares the reply to the user that the requested items aren't available, even in situations when fewer items are available. <br><br>When off, the agent includes the customer's requested item quantity regardless of availability. That is, quotes can be created for the items that aren't available and their availability can become negative.<br><br>Learn more about item availability in [Get an availability overview](inventory-how-availability-overview.md) or open the [Item Availability page](https://businesscentral.dynamics.com?page=4410).|On|
-    |Include capable to promise|Specifies whether the agent includes in the search results items that are currently unavailable but can be ordered for a later shipment date.<br><br>Learn more in [Calculating delivery dates using capable-to-promise](sales-order-agent.md#calculating-delivery-dates-using-capable-to-promise).|Off|
+   |Option|Description|Default|
+   |-|-|-|
+   |Messages from already registered senders|Specifies the type of review required for incoming messages from already registered senders.|All|
+   |Messages from unregistered senders|Specifies the type of review required for incoming messages from unregistered senders.|All|
+   |Select only available items|Specifies whether the agent considers item availability when searching for the customer's requested items.<br><br>When on, the agent checks inventory to determine whether the customer's requested item quantity is available based on their requested delivery date and location code. If there aren't enough items, the agent prepares the reply to the user that the requested items aren't available, even in situations when fewer items are available. <br><br>When off, the agent includes the customer's requested item quantity regardless of availability. That is, quotes can be created for the items that aren't available and their availability can become negative.<br><br>Learn more about item availability in [Get an availability overview](inventory-how-availability-overview.md) or open the [Item Availability page](https://businesscentral.dynamics.com?page=4410).|On|
+   |Include capable to promise|Specifies whether the agent includes in the search results items that are currently unavailable but can be ordered for a later shipment date.<br><br>Learn more in [Calculating delivery dates using capable-to-promise](sales-order-agent.md#calculating-delivery-dates-using-capable-to-promise).|Off|
 
-    #### [Create sales documents](#tab/documents)
+   ## [Create sales documents](#tab/documents)
 
-    These options specify how you interact with the agent to create sales quotes and make orders from quotes in response to the incoming requests.
+   These options specify how you interact with the agent to create sales quotes and make orders from quotes in response to the incoming requests.
 
-    |Option|Description|Default|
-    |-|-|-|
-    |Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales quote before creating an outgoing email with the quote details and attachment. <br><br>When off, the agent creates or modifies sales quotes as requested and then automatically proceeds with creating an outgoing email with the quote as an attachment. The user must review and confirm the email before the agent sends it to the customer. |Off|
-    |Make orders from quotes|When on, the agent converts confirmed sales quotes into orders after the customer agrees to the quote via email and the Business Central user confirms the email.<br><br>When off, you have to create the order manually.|On|
-    |Review orders when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales order before creating an outgoing email with the order details and attachment. <br><br>When off, the agent creates the sales order as requested and then automatically proceeds with creating an outgoing email with the order as an attachment. The user must review and confirm the order before the agent sends it to the customer. |Off|
+   |Option|Description|Default|
+   |-|-|-|
+   |Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales quote before creating an outgoing email with the quote details and attachment. <br><br>When off, the agent creates or modifies sales quotes as requested and then automatically proceeds with creating an outgoing email with the quote as an attachment. The user must review and confirm the email before the agent sends it to the customer. |Off|
+   |Make orders from quotes|When on, the agent converts confirmed sales quotes into orders after the customer agrees to the quote via email and the Business Central user confirms the email.<br><br>When off, you have to create the order manually.|On|
+   |Review orders when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales order before creating an outgoing email with the order details and attachment. <br><br>When off, the agent creates the sales order as requested and then automatically proceeds with creating an outgoing email with the order as an attachment. The user must review and confirm the order before the agent sends it to the customer. |Off|
 
-    #### [Create sales documents](#tab/documents)
+   ## [Manage mailbox](#tab/mailbox)
 
-    These options specify how you interact with the agent to create sales quotes and make orders from quotes in response to the incoming requests.
+   Use these options to configure the email mailbox the agent monitors for incoming emails and how it handles mails.
 
-    |Option|Description|Default|
-    |-|-|-|
-    |Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales quote before creating an outgoing email with the quote details and attachment. <br><br>When off, the agent creates or modifies sales quotes as requested and then automatically proceeds with creating an outgoing email with the quote as an attachment. The user must review and confirm the email before the agent sends it to the customer. |Off|
-    |Make orders from quotes|When on, the agent converts confirmed sales quotes into orders after the customer agrees to the quote via email and the Business Central user confirms the email.<br><br>When off, you have to create the order manually.|On|
-    |Review orders when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales order before creating an outgoing email with the order details and attachment. <br><br>When off, the agent creates the sales order as requested and then automatically proceeds with creating an outgoing email with the order as an attachment. The user must review and confirm the order before the agent sends it to the customer. |Off|
+   |Option|Description|Default|
+   |-|-|-|
+   |Account|This option is the same as the **Mailbox** field on the first configuration page. It specifes the email account the agent monitors. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).|None|
+   |Folder|Specifies the email account's mailbox that the agent monitors. You need **Read and manage (Full Access)** permission on the mailbos to set this option. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)|None (Inbox)|
+   |Analyze attachments|Specifies whether the agent analyze attachments on incoming emails for request information. The agent only supports these file formats: PDF, PNG, JPG.|Enabled|
+   |Daily email limit|Species how many incoming emails per day the agent can handle. The agent issues an alert when the limit is reached. The emails recieved afte the daily limit is exceed are automatically processed on the next day.|100|
 
-    ---
+   ## [Format outgoing message](#tab/outgoing)
+
+   Instead the generic default signature on emails the agent creates, you can add a custome signature by following these steps:
+
+   1. Select the **Include a custom signature in the replies** checkbox.
+   1. Select the **Edit signature** link.
+   1. In the **Edit mail signature** window, type or paste the text you want the agent use as the signature on emails.
+
+      Use the in the toolbar along the bottom of the window to format the text, like changing the font and font color or adding an image or link.
+
+   1. Select **OK** when done.
+
+   To turn off the custom signature and use the default again, clear the **Include a custom signature in the replies** checkbox.
+
+   ---
 
 1. Select **Update** to complete the setup.
 1. Ensure Sales Order Agent's language is set to a supported language.

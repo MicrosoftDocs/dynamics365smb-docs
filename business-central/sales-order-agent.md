@@ -58,7 +58,11 @@ The agent always involves designated Business Central users to review and approv
 
 ## How the agent processes requests
 
-The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)). When the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
+The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)).
+
+When an email is recieved, the agent analyzes email&mdash;including subject line, body and any attachments&mdash;to identify quote requests and extract relevant details. Attachments can be PDF or image files. It extracts relevant information from these files and generates a sales quote based on the content.
+
+If the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 
 Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request. Learn more in [Agent process flow](#agent-process-flow).
 
@@ -158,10 +162,6 @@ When a customer requests an item, the agent checks inventory. If the item is una
 | Item Lead Time Calculation | Per-item lead time on the **Item Card** page that reflects the time required to procure, produce, or transfer the item when it isn't in stock. |
 
 The agent creates and sends an email response to the customer that includes the promised shipment dates for items. The process then continues. Learn where this step occurs in the full process in the [General flow](#general-flow).
-
-### Attachment processing
-
-The agent processes email attachments, such as PDFs or images, that contain quote requests. It extracts relevant information from these files and generates a sales quote based on the content. With this capability, users can handle inquiries submitted in less structured formats.
 
 ## Agent process flow
 

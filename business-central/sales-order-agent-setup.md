@@ -65,9 +65,9 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle.
 
-1. On the right side of the page, select the **Go to next card** arrow to choose how the agent helps with inquiries, quotes, and orders.
+1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
-   The options are on more than one card, where similar options are grouped under a common heading. Use the **Go to next card** and  **Go to previouis card**  arrows to navigate through the cards and set the various options as described in the follwoing tabs:
+   The options are spread across multiple cards. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the cards and set the various options. Each tab below describes a group of related options:
 
    ## [Respond to inquiries](#tab/inquiries)
 

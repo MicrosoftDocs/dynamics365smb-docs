@@ -60,7 +60,7 @@ The agent always involves designated Business Central users to review and approv
 
 The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)).
 
-When an email is recieved, the agent analyzes the email&mdash;including subject line, body and any attachments&mdash;to identify quote requests and extract relevant details. Attachments can be PDF or image files. It extracts relevant information from these files and generates a sales quote based on the content.
+When an email is received, the agent analyzes the email&mdash;including subject line, body, and any attachments&mdash;to identify quote requests and extract relevant details. Attachments can be PDF or image files. It extracts relevant information from these files and generates a sales quote based on the content.
 
 If the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 
@@ -110,47 +110,9 @@ CTP evaluates production capacity, procurement timelines, and supply chain const
 Learn more about capable-to-promise in [Calculate order promising dates](sales-how-to-calculate-order-promising-dates.md).
 
 
-<!--
-**Capable-to-promise (CTP)** goes further by evaluating production capacity, procurement timelines, and supply chain constraints to determine when an item can realistically be delivered, even if it is not currently available.
-
-| Feature | Available-to-promise (ATP) | Capable-to-promise (CTP) |
-|---------|----------------------------|--------------------------|
-| Checks existing inventory | Yes | Yes |
-| Considers incoming supply | Yes | Yes |
-| Evaluates production capacity | No | Yes |
-| Considers procurement timelines | No | Yes |
-| Considers supply chain constraints | No | Yes |
-
-**Example:**  
-If a customer requests 100 units of an item and only 50 are in stock, ATP will promise delivery of 50 units immediately and may indicate a delay for the remaining 50 until more arrive. CTP, however, will analyze if the remaining 50 can be produced or procured, estimate how long that will take, and provide a realistic delivery date for the full order.
-
-
-The Sales Order Agent has a capable-to-promise (CTP) feature that calculates the earliest possible shipment date for items not currently in stock. Unlike available-to-promise (ATP), which relies on existing inventory and scheduled receipts, CTP goes further by evaluating:
-
-Production capacity
-Procurement lead times
-Transfer routes
-Safety lead times and offsets
-
-This allows businesses to promise delivery dates even when items must be produced or sourced from scratch.-->
-
 #### How capable-to-promise works
 
 The Sales Order Agent uses the capable-to-promise logic inside Business Central, which is based in part on the configuration defined in the **Order Promising Setup** page.
-
-<!--
-When a customer requests an item:
-
-1. The agent checks inventory.
-1. If the item is unavailable, the agent uses CTP logic to calculate when it can be shipped and generates a quote with specific shipment dates based on:
-
-   - **Work Date** The system uses the current work date as the starting point for all delivery calculations.
-   - **Order Promising Setup Offset (Time)** This offset, which is set on **Order Promising Setup** page, defines how far into the future Business Central should look before issuing a new purchase, production, or transfer order. For example, an offset of 1D means one day after the work date.
-   - **Inventory Setup Safety Lead Time** This lead time, which is set on the **Inventory Setup** page, is a buffer period added to ensure that items are available before the promised shipment date. It accounts for internal delays like picking, packing, and labeling.
-   - **Item Lead Time Calculation** The lead time calculation, which is set on **Item Card** page, reflects the time required to procure, produce, or transfer the item. It's configured per item and used when the item isn't in stock.
-
-1. The agent creates and sends an email response to the customer that includes the promised shipment dates for items sends the quote to the customer. 
-1. Once the quote is confirmed, the agent converts it into a sales order.-->
 
 When a customer requests an item, the agent checks inventory. If the item is unavailable, the agent calculates when it can be shipped and generates a quote with specific shipment dates based on:
 

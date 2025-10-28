@@ -60,7 +60,8 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
    ![Shows the Sales Order Agent configuration page](media/soa-configuration.png "Shows the Sales Order Agent configuration page")
 
-1. The **Default language** specifies the language of task details and outgoing messages unless the recipient has a language set.
+  Set **Default language** specifies the language of task details and outgoing messages unless the recipient has a language set.
+
 1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle.
 

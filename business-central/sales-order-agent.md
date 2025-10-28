@@ -109,7 +109,6 @@ CTP evaluates production capacity, procurement timelines, and supply chain const
 
 Learn more about capable-to-promise in [Calculate order promising dates](sales-how-to-calculate-order-promising-dates.md).
 
-
 #### How capable-to-promise works
 
 The Sales Order Agent uses the capable-to-promise logic inside Business Central, which is based in part on the configuration defined in the **Order Promising Setup** page.

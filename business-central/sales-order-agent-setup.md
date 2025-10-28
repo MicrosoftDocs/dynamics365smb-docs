@@ -67,7 +67,7 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
 1. On the right side of the page, select the **Go to next card** arrow to choose how the agent helps with inquiries, quotes, and orders.
 
-   The options are re is more than one page of options, where options are . Use the **Go to next card** and  **Go to previouis card**  arrows to navigate amoing the pages. The following tabs describes the available option:
+   The options are on more than one card, where similar options are grouped under a common heading. Use the **Go to next card** and  **Go to previouis card**  arrows to navigate through the cards and set the various options as described in the follwoing tabs:
 
    ## [Respond to inquiries](#tab/inquiries)
 

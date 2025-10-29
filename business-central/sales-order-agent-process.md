@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 09/30/2025
+ms.date:10/29/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
@@ -64,7 +64,12 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 
    The **Tasks** tab switches to **Review** mode, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
 
-1. Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
+1. Review the contents and make changes as needed.
+
+   - Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
+   - If the agent needs assistance, a message appears at the top of the text explaining the problem.
+
+     You often help the agent by making changes yourself, like making an item available, creating the right customer, contact, or vendor, or changing quantities in sales quotes. You can also [give instructions](#give-instructions-to-the-agent) to guide the agent to make changes for you.
 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task.
 

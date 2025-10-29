@@ -41,7 +41,7 @@ Before configuring and activating Sales Order Agent, ensure the following prereq
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Sales Order Agent**, and then turn on the **Allow HttpClient Requests** toggle.
 
-## Turn on the Sales Order Agent capability for the environment
+## Turn on Sales Order Agent capability for environment
 
 The agent capability is on if the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the top navigation menu of the role center.
 

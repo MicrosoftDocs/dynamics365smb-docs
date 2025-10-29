@@ -1,7 +1,7 @@
 ---
 title: Payables Agent Overview
 description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
-ms.date: 10/10/2025
+ms.date: 10/29/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk
@@ -55,7 +55,7 @@ The dashed steps in the image represent steps that&mdash;in time&mdash;are inten
 
 ### Email monitoring
 
-The agent uses an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices as PDF documents. The dispatcher triggers the agent to perform tasks and then imports the PDF document into **Inbound E-Documents**. 
+The agent uses an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices as PDF documents. The dispatcher triggers the agent to perform tasks and then imports the PDF document into **Inbound E-Documents**.
 
 Each PDF document found in an email becomes an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** is created for each of them. A distinct agent task processes each entry.
 

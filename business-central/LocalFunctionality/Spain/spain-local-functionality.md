@@ -4,7 +4,7 @@ description: Learn about the local functionality available in the Spanish versio
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Spain local functionality, Spanish localization, Spanish version
-ms.date: 07/22/2025
+ms.date: 10/29/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -50,7 +50,7 @@ The following articles describe local functionality unique to the Spanish versio
 - Electronic invoicing
   - [E-Invoicing Factura-E](spain-einvoicing.md) **Available Now**
   - [Veri*Factu compliance](verifactu-setup.md) **Available now**
-  - [Veri*Factu compliance - Out of the box](https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/enable-embedded-verifactu-mode-spain) **Planned - January 2026**
+  - [Veri*Factu compliance - Out of the box](https://learn.microsoft.com/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/enable-embedded-verifactu-mode-spain) **Planned - January 2026**
   - [Cartera module](cartera-module.md) **Available Now**
   - [Receivables Cartera module](receivables-cartera-module.md) **Available Now**
   - [Payments Cartera module](payments-cartera-module.md) **Available Now**
@@ -74,7 +74,7 @@ The following articles describe local functionality unique to the Spanish versio
 
 ## Future legislation requirements being investigated
 
-- [Veri*Factu compliance - Out of the box](https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/enable-embedded-verifactu-mode-spain) **Planned - January 2026**
+- [Veri*Factu compliance - Out of the box](https://learn.microsoft.com/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/enable-embedded-verifactu-mode-spain) **Planned - January 2026**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

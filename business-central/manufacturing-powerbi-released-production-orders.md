@@ -31,19 +31,19 @@ Production supervisors use this report to monitor expected and finished quantiti
 
 The *Released Production Orders* report includes the following KPIs and measures:
 
-- [Planned Quantity](manufacturing-powerbi-kpis.md#planned-quantity)
-- [Finished Quantity](manufacturing-powerbi-kpis.md#finished-quantity)
-- [Variance Quantity](manufacturing-powerbi-kpis.md#variance-quantity)
-- [Remaining %](manufacturing-powerbi-kpis.md#remaining-percent)
-- [Finished %](manufacturing-powerbi-kpis.md#finished-percent)
-- [Actual Total Cost](manufacturing-powerbi-kpis.md#total-actual-cost)
-- [Expected Total Cost](manufacturing-powerbi-kpis.md#total-expected-cost)
-- [Standard Total Cost](manufacturing-powerbi-kpis.md#total-standard-cost)
-- [Total Expected Cost Variance](manufacturing-powerbi-kpis.md#total-expected-cost-variance)
-- [Total Standard Cost Variance](manufacturing-powerbi-kpis.md#total-standard-cost-variance)
-- [Total Expected Cost Dev %](manufacturing-powerbi-kpis.md#total-expected-cost-dev-percent)
-- [Total Standard Cost Dev %](manufacturing-powerbi-kpis.md#total-standard-cost-dev-percent)
-- [No. of Production Orders](manufacturing-powerbi-kpis.md#no-of-production-orders)
+- [**Planned Quantity**](manufacturing-powerbi-kpis.md#planned-quantity)
+- [**Finished Quantity**](manufacturing-powerbi-kpis.md#finished-quantity)
+- [**Variance Quantity**](manufacturing-powerbi-kpis.md#variance-quantity)
+- [**Remaining %**](manufacturing-powerbi-kpis.md#remaining-percent)
+- [**Finished %**](manufacturing-powerbi-kpis.md#finished-percent)
+- [**Total Actual Cost**](manufacturing-powerbi-kpis.md#total-actual-cost)
+- [**Expected Total Cost**](manufacturing-powerbi-kpis.md#total-expected-cost)
+- [**Standard Total Cost**](manufacturing-powerbi-kpis.md#total-standard-cost)
+- [**Total Expected Cost Variance**](manufacturing-powerbi-kpis.md#total-expected-cost-variance)
+- [**Total Standard Cost Variance**](manufacturing-powerbi-kpis.md#total-standard-cost-variance)
+- [**Total Expected Cost Dev %**](manufacturing-powerbi-kpis.md#total-expected-cost-dev-percent)
+- [**Total Standard Cost Dev %**](manufacturing-powerbi-kpis.md#total-standard-cost-dev-percent)
+- [**No. of Production Orders**](manufacturing-powerbi-kpis.md#no-of-production-orders)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

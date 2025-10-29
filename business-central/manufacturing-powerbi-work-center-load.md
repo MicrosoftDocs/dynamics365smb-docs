@@ -31,11 +31,11 @@ Production supervisors use this report to analyze the load percentage and alloca
 
 The *Work Center Load* report includes the following KPIs and measures:
 
-- [Work Center Capacity Total](manufacturing-powerbi-kpis.md#work-center-capacity-total)
-- [Work Center Capacity Effective](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
-- [Work Center Allocated Time](manufacturing-powerbi-kpis.md#work-center-allocated-time)
-- [Work Center Load](manufacturing-powerbi-kpis.md#work-center-load)
-- [Work Center Availability After Orders](manufacturing-powerbi-kpis.md#work-center-availability-after-orders)
+- [**Work Center Capacity Total**](manufacturing-powerbi-kpis.md#work-center-capacity-total)
+- [**Work Center Capacity Effective**](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
+- [**Work Center Allocated Time**](manufacturing-powerbi-kpis.md#work-center-allocated-time)
+- [**Work Center Load**](manufacturing-powerbi-kpis.md#work-center-load)
+- [**Work Center Availability After Orders**](manufacturing-powerbi-kpis.md#work-center-availability-after-orders)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

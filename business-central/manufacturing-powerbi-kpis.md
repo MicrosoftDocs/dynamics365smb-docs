@@ -466,6 +466,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 - [Operation Run Time](#operation-run-time)
 - [Operation Setup Time](#operation-setup-time)
 - [Operation Wait Time](#operation-wait-time)
+- [Posted Output Quantity](#posted-output-quantity)
 - [Prod Order Routing Expected Capacity Need](#prod-order-routing-expected-capacity-need)
 - [Prod Order Routing Expected Capacity Ovhd. Cost](#prod-order-routing-expected-capacity-ovhd-cost)
 - [Prod Order Routing Expected Operation Cost Amt.](#prod-order-routing-expected-operation-cost-amt)
@@ -521,6 +522,12 @@ This measure determines the indirect cost for capacity ledger entries by summing
 **Data Source**
 
 - Prod Order Routing Line
+
+#### Posted Output Quantity
+
+**Formula**
+
+- Sums Output Quantity column from the Capacity Ledger Entry table only for entries whose (Routing No., Order No., Operation No., Routing Reference No.) match the distinct Prod Order Routing Lines in the current filter context.
 
 #### Prod Order Routing Expected Capacity Need
 
@@ -1833,6 +1840,7 @@ Calculates the percentage of scrap relative to the total output for a work cente
 - [Work Center Capacity (Effective)](#work-center-capacity-effective)
 - [Work Center Capacity (Total)](#work-center-capacity-total)
 - [Work Center Expected Efficiency %](#work-center-expected-efficiency-percent)
+- [Work Center Needed Time](#work-center-needed-time)
 
 #### Work Center Actual Efficiency Percent
 
@@ -1903,6 +1911,16 @@ Calculates the actual efficiency of a work center by dividing the [Work Center A
 **Data Source**
 
 - Calendar Entry
+
+#### Work Center Needed Time
+
+**Formula**
+
+- Calculates the total required time for work centers by summing the **Needed Time** column in the **Prod Order Capacity Need** table, filtered to include only rows where **Requested Only** is **FALSE**.
+
+**Data Source**
+
+- Prod Order Capacity Need
 
 ## Related information
 

@@ -1,15 +1,14 @@
 ---
 title: Install the Business Central app in Microsoft Teams
-description: How to install the Business Central app for Microsoft Teams.
+description: Learn how to install the Business Central app for Microsoft Teams using different methods.
 author: jswymer
-
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/12/2021
+ms.date: 10/16/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ---
 
 # Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
@@ -19,13 +18,13 @@ ms.reviewer: jswymer
 In this article, you learn how to install the [!INCLUDE [prod_short](includes/prod_short.md)] App for [Microsoft Teams](https://www.microsoft.com/microsoft-teams/). The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 
 > [!NOTE]
-> Your administrator may have set things up so that the app is automatically installed for you. To check whether the app is installed, open Teams, then choose **Apps**. Search for **Business Central**, then choose it when you find it. If you see **Open** on the **Business Central** page, the app is already installed.  
+> Your administrator may have set up things so that the app is automatically installed for you. To check whether the app is installed, open Teams, then choose **Apps**. Search for **Business Central**, then choose it when you find it. If you see **Open** on the **Business Central** page, the app is already installed.  
 
 ## Prerequisites
 
 - A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
 
-    If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
+  If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
 
 - Access to the Teams desktop app or Teams in the browser. You can't install the [!INCLUDE [prod_short](includes/prod_short.md)] by using Teams mobile app.
 
@@ -56,12 +55,12 @@ This option is the quickest way to install the app.
 5. Choose **Add**.
 
 > [!TIP]
-> If you paste a link to a Business Central page into a Team conversation, and you don't have the app installed, you'll get a message like: **Business Central wants to show a preview of this link.** To install the app, select **Show Preview** and follow the instructions.
+> If you paste a link to a Business Central page into a Team conversation, and you don't have the app installed, you get a message like: **Business Central wants to show a preview of this link.** To install the app, select **Show Preview** and follow the instructions.
 
 **Option 3: From Business Central**
 
 1. Open Business Central.
-2. Choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Get the Business Central app for Teams**, and then choose the related link.  
+2. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Get the Business Central app for Teams**, and then choose the related link.  
 3. Choose **Get the app from store**.
 4. Wait for Teams to open and the Business Central app to appear, then choose **Add**.
 
@@ -70,18 +69,16 @@ This option is the quickest way to install the app.
 
 ## Next step
 
-You're now ready to use the app in Teams to search for contacts or share Business Central records. For more information, see [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) or [Share Records in Microsoft Teams](across-working-with-teams.md).
+You're now ready to use the app in Teams to search for contacts or share Business Central records. Learn more in [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) or [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## Related information
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Teams FAQ](teams-faq.md)  
-[Troubleshooting Teams](admin-teams-troubleshooting.md)  
-[Changing Company and Other Settings in Teams](across-teams-settings.md)  
-[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-
+[Troubleshoot Teams](admin-teams-troubleshooting.md)  
+[Change Company and Other Settings in Teams](across-teams-settings.md)  
+[Develop for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

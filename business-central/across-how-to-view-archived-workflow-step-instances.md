@@ -1,17 +1,18 @@
 ---
-title: How to View Archived Workflow Step Instances
-description: All completed workflow step instances are saved on the Archived Workflow Step Instances page. Each step consists of a workflow event and workflow response.
+title: How to view archived workflow step instances
+description: Completed workflow step instances are stored on the Archived Workflow Step Instances page. Each step includes a workflow event and a workflow response.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-ms.search.form: 1530, 
-ms.date: 09/09/2022
+ms.search.keywords: archived workflow, step instances, workflow steps
+ms.search.form: 1530
+ms.date: 10/16/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# View Archived Workflow Step Instances
+
+# View archived workflow step instances
 
 All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.  
 
@@ -38,7 +39,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 [Enable Approval Workflows](across-how-to-enable-workflows.md)  
 [Use Approval Workflows](across-use-workflows.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Setting Up Approval Workflows](across-set-up-workflows.md)  
-[Workflow](across-workflow.md)
+[Set Up Approval Workflows](across-set-up-workflows.md)  
+[Workflow](across-workflow.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

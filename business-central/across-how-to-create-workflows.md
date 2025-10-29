@@ -3,13 +3,14 @@ title: Create approval workflows to connect tasks
 description: Learn how to create workflows that connect tasks performed by different people in business processes.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.date: 06/10/2025
+ms.date: 10/15/2025
+ms.search.keywords: workflows, create workflow, connect tasks, business process
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
-
 ---
+
 # Create workflows to connect tasks in business processes
 
 You can create workflows that connect tasks that different people do in business processes. You can include system tasks, such as automatic posting, as steps in workflows that user tasks precede or follow. Requesting and granting approval to create new records are typical workflow steps.  
@@ -72,8 +73,8 @@ The options for events and responses are system-defined. To add new options, you
 
     1. To specify options for a workflow response that involves sending a notification, fill the fields as described in the following table.  
 
-    > [!NOTE]
-    > These fields vary, depending on the response you chose.
+       > [!NOTE]
+       > These fields vary, depending on the response you chose.
 
        |Field|Description|
        |-----|-----------|
@@ -113,7 +114,6 @@ The options for events and responses are system-defined. To add new options, you
 
 > [!NOTE]  
 > Don't enable a workflow until you're sure it's ready.  
-
 > [!TIP]  
 > To explore the relations between the tables used in workflows, [!INCLUDE[open-search](includes/open-search-lowercase.md)], then enter **Workflow – Table Relations**.  
 
@@ -125,49 +125,49 @@ The following example creates a workflow to approve a change to the name of a ve
 2. Choose the **New** action. The **Workflow** page opens.
 3. In the workflow section, fill in the fields as described in the following table.
 
-    |Field  |Value  |
-    |---------|---------|
-    |**Code**|**VENDAPN-01**|
-    |**Description**|**Vendor Name Change Approval** |
-    |**Category**|**PURCH**|
+   |Field  |Value  |
+   |---------|---------|
+   |**Code**|**VENDAPN-01**|
+   |**Description**|**Vendor Name Change Approval** |
+   |**Category**|**PURCH**|
 
 4. To create the first workflow step, do the following.
 
-    1. In the **When Event** field, specify *A vendor record is changed*.  
-    2. In the **On Condition** field, choose the word **Always**. Then, on the **Event Conditions** page, choose the **Add a condition for when a field value changes** link, then select the **Name** field. The result of this step is that the condition reads as *Name is Changed*.  
-    3. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Revert the value of the \<Field\> field on the record and save the change** response. Then, in the **Options for the Selected Response** section, specify the **Name** field.  
-    4. Choose the **Add More Responses** link, then add an entry for the **Create an approval request for the record using approver type <%1> and <%2>** response.  
-    5. In the **Options for the Selected Response** section for the new response, change the **Approver type** field to **Workflow User Group**. Then, in the **Workflow User Group** field, specify the user group. Learn more at [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
-    6. Add a third response, **Send approval request for the record and create a notification**.  
-    7. Add a fourth response, **Show message "%1"**. Then, in the **Options for the Selected Response** section, in the **Message** field, specify **An approval request has been sent**.  
-    8. Choose **OK** to return to the workflow step.  
+   1. In the **When Event** field, specify *A vendor record is changed*.  
+   2. In the **On Condition** field, choose the word **Always**. Then, on the **Event Conditions** page, choose the **Add a condition for when a field value changes** link, then select the **Name** field. The result of this step is that the condition reads as *Name is Changed*.  
+   3. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Revert the value of the \<Field\> field on the record and save the change** response. Then, in the **Options for the Selected Response** section, specify the **Name** field.  
+   4. Choose the **Add More Responses** link, then add an entry for the **Create an approval request for the record using approver type <%1> and <%2>** response.  
+   5. In the **Options for the Selected Response** section for the new response, change the **Approver type** field to **Workflow User Group**. Then, in the **Workflow User Group** field, specify the user group. Learn more at [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
+   6. Add a third response, **Send approval request for the record and create a notification**.  
+   7. Add a fourth response, **Show message "%1"**. Then, in the **Options for the Selected Response** section, in the **Message** field, specify **An approval request has been sent**.  
+   8. Choose **OK** to return to the workflow step.  
 
 5. In the next line, add a new workflow step for the **An approval request is approved** event.
 
-    1. In the **When Event** field, specify **An approval request is approved**.  
-    2. Choose the line menu, then choose **Increase Indent**.  
-    3. In the **On Condition** field, choose **Always**. Then, in the **Pending Approvals** field, specify **0**. The condition reads as **Pending Approvals:0** to indicate that the request doesn't require more approvers.  
-    4. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Send approval request for the record and create a notification** response.  
-    5. Choose **OK**.  
+   1. In the **When Event** field, specify **An approval request is approved**.  
+   2. Choose the line menu, then choose **Increase Indent**.  
+   3. In the **On Condition** field, choose **Always**. Then, in the **Pending Approvals** field, specify **0**. The condition reads as **Pending Approvals:0** to indicate that the request doesn't require more approvers.  
+   4. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Send approval request for the record and create a notification** response.  
+   5. Choose **OK**.  
 6. In the next line, add a second workflow step for the **An approval request is approved** event.  
 
-    1. In the **When Event** field, specify **An approval request is approved**.
-    2. In the **On Condition** field, choose **Always**. Then, in the **Pending Approvals** field, specify **>0**. The condition reads as **Pending Approvals:>0** to indicate that this isn't the last approver.  
-    3. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Send approval request for the record and create a notification** response.  
-    4. Choose **OK**.  
+   1. In the **When Event** field, specify **An approval request is approved**.
+   2. In the **On Condition** field, choose **Always**. Then, in the **Pending Approvals** field, specify **>0**. The condition reads as **Pending Approvals:>0** to indicate that this isn't the last approver.  
+   3. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Send approval request for the record and create a notification** response.  
+   4. Choose **OK**.  
 7. In the next line, add a workflow step for the **An approval request is delegated** event.  
 
-    1. In the **When Event** field, specify **An approval request is delegated**.  
-    2. In the **On Condition** field, leave the value as **Always**.  
-    3. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Send approval request for the record and create a notification** response.  
-    4. Choose **OK**.  
+   1. In the **When Event** field, specify **An approval request is delegated**.  
+   2. In the **On Condition** field, leave the value as **Always**.  
+   3. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Send approval request for the record and create a notification** response.  
+   4. Choose **OK**.  
 8. In the next line, add a second workflow step for the **An approval request is rejected** event.  
 
-    1. In the **When Event** field, specify **An approval request is rejected**.  
-    2. In the **On Condition** field,  leave the value as **Always**.  
-    3. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Discard the new values** response.  
-    4. Choose the **Add More Responses** link, then add an entry for the **Reject the approval request for the record and create a notification** response
-    5. Choose **OK**.  
+   1. In the **When Event** field, specify **An approval request is rejected**.  
+   2. In the **On Condition** field,  leave the value as **Always**.  
+   3. In the **Then Response** field, choose the **Select Response** link. Then, on the **Workflow Responses** page, in the **Select Response** field, choose the **Discard the new values** response.  
+   4. Choose the **Add More Responses** link, then add an entry for the **Reject the approval request for the record and create a notification** response
+   5. Choose **OK**.  
 9. To enable the workflow, turn on the **Enabled** toggle.  
 
 The following illustration provides an overview of the result of this procedure.  
@@ -180,11 +180,11 @@ Next, test the workflow by opening an existing vendor card and changing their na
 
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
-[Setting Up Approval Workflow Notifications](across-setting-up-workflow-notifications.md)  
+[Set Up Approval Workflow Notifications](across-setting-up-workflow-notifications.md)  
 [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)  
 [Delete Approval Workflows](across-how-to-delete-workflows.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Setting Up Approval Workflows](across-set-up-workflows.md)  
+[Set Up Approval Workflows](across-set-up-workflows.md)  
 [Use Approval Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 

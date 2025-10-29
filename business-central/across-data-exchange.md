@@ -4,7 +4,7 @@ description: Overview of using the Data Exchange Framework in Business Central t
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, standard-compliant file
 ms.date: 10/13/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
@@ -31,8 +31,8 @@ The following table describes a sequence of tasks, with links to the articles th
 
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)  
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[Setting Up Data Exchange](across-set-up-data-exchange.md)  
-[Exchanging Data](across-exchange-data.md)  
+[Set Up Data Exchange](across-set-up-data-exchange.md)  
+[Exchange Data](across-exchange-data.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 

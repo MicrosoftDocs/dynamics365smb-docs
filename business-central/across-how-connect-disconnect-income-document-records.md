@@ -1,16 +1,17 @@
 ---
-title: Create Incoming Document Records From Docs
-description: You can store external business documents by attaching the document files to the related incoming document records.
+title: Create incoming document records from docs
+description: Attach external business documents to related incoming document records for easy storage and management.
 author: jswymer
 ms.topic: how-to
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 02/27/2024
+ms.date: 10/14/2025
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms-service: dynamics-365-business-central
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Create incoming document records directly from documents and entries
 
 You can store external business documents in [!INCLUDE[prod_short](includes/prod_short.md)] by attaching the document files to the related incoming document records. If the document, such as a purchase invoice, didn't start its existence as an incoming document record, you can still create and connect an incoming document record to it later. You can also attach incoming document files to posted purchase and sales documents and to vendor, customer, and general ledger entries by using the **Incoming Document Files** FactBox in, for example, the **Posted Purchase Invoices** and **Vendor Ledger Entries** pages.
@@ -30,7 +31,6 @@ The following procedures show how to attach a file to a vendor ledger entry or a
 
    [!INCLUDE[file-upload](includes/file-upload.md)]
 
-
 ## Create and connect an incoming document record from a vendor ledger entry
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendor Ledger Entries**, and then choose the related link.
@@ -39,7 +39,6 @@ The following procedures show how to attach a file to a vendor ledger entry or a
 4. On the **Insert File** page, do one of the following steps to attach a file that represents the incoming document in question:
 
    [!INCLUDE[file-upload](includes/file-upload.md)]
-
 
 ## Remove a connection from an incoming document record to a posted document
 
@@ -52,12 +51,11 @@ The connection to the posted document is removed. You can now proceed to connect
 
 ## Related information
 
-[Create Incoming Document Records](across-how-create-income-document-records.md)
-[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
-[Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
+[Create Incoming Document Records](across-how-create-income-document-records.md)  
+[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)  
+[Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

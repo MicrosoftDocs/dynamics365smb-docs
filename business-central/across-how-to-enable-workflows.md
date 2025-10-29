@@ -1,16 +1,17 @@
 ---
-title: How to Enable Approval Workflows
-description: When you've created a workflow and are sure that it's ready to start, you must enable the workflow.
+title: How to enable approval workflows
+description: After creating a workflow and confirming it is ready, you must enable it to begin using the workflow.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-ms.date: 09/08/2022
+ms.search.keywords: approval workflow, enable workflow, enable approval workflow
+ms.date: 10/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Enable Approval Workflows
+
+# Enable approval workflows
 
 When you've created an approval workflow and you're sure it's good to go, you must enable it.  
 
@@ -28,7 +29,7 @@ On the **Workflow** page, create a workflow by listing the involved steps on the
 [Use Approval Workflows](across-use-workflows.md)  
 [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)  
 [Delete Approval Workflows](across-how-to-delete-workflows.md)  
-[Setting Up Approval Workflows](across-set-up-workflows.md)  
+[Set Up Approval Workflows](across-set-up-workflows.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
 

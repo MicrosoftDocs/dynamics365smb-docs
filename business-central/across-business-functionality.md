@@ -44,8 +44,8 @@ ms.reviewer: v-soumramani
 
 [Administration](admin-setup-and-administration.md)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Get Ready for Doing Business](ui-get-ready-business.md)  
+[Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

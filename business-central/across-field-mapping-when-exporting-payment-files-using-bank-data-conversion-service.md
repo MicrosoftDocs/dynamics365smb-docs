@@ -1,21 +1,22 @@
 ---
 title: Field mapping for exporting bank payment files | Microsoft Docs
-description: When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider.
+description: Exporting payment files with the AMC Banking 365 Fundamentals extension exposes your data to the service provider.
 author: brentholtorf
-ms.topic: article
+ms.topic: article 
 ms.devlang: al
-ms.search.keywords:
-ms.date: 04/01/2021
+ms.search.keywords: field mapping, bank data conversion service, AMC banking fundamentals, export payment files
+ms.date: 10/14/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension
-When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider. The service provider is responsible for the privacy of this data. For more information about the AMC Banking 365 Fundamentals extension, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
+
+# Field mapping when exporting payment files using the AMC Banking 365 Fundamentals extension
+
+When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider. The service provider is responsible for the privacy of this data. Learn more in [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) for more information about the AMC Banking 365 Fundamentals extension.  
 
 > [!CAUTION]  
->  When you export payment files by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).  
-
+> When you export payment files by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. Learn more in [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).  
 > [!NOTE]
 > In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), for example the commonly used Automated Clearing House (ACH) network, however with a slightly different process.
 
@@ -63,11 +64,11 @@ The following table lists the fields in [!INCLUDE[prod_short](includes/prod_shor
 |General Journal Batch Name|Journal Batch Name|General Journal Line|The general journal batch name that is used for the payment line|  
 |Sender Bank Name - Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the AMC Banking 365 Fundamentals extension and specified on the bank account card|  
 
-## Related information  
-[Setting Up Data Exchange](across-set-up-data-exchange.md)  
-[Exchanging Data Electronically](across-data-exchange.md)
-[Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
-[Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+## Related information
 
+[Set Up Data Exchange](across-set-up-data-exchange.md)  
+[Exchange Data Electronically](across-data-exchange.md)  
+[Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
+[Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

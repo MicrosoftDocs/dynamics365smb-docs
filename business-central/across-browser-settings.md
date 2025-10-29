@@ -80,6 +80,6 @@ Try again
 
 ## Related information
 
-[Troubleshooting Teams](admin-teams-troubleshooting.md)  
+[Troubleshoot Teams](admin-teams-troubleshooting.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

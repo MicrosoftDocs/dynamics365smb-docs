@@ -4,7 +4,7 @@ description: Learn how the Data Exchange Framework enables you to exchange busin
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, standard-compliant file, OCR
 ms.search.form: 189
 ms.date: 10/13/2025
 ms.author: bholtorf
@@ -60,9 +60,9 @@ For all exchanges of data in XML files, you can prepare the data exchange setup 
 
 ## Related information
 
-[Exchanging Data Electronically](across-data-exchange.md)  
+[Exchange Data Electronically](across-data-exchange.md)  
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[Setting Up Data Exchange](across-set-up-data-exchange.md)  
+[Set Up Data Exchange](across-set-up-data-exchange.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 

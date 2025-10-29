@@ -7,6 +7,7 @@ ms.author: bholtorf
 ms.date: 10/13/2025
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ms.search.keywords: resiliency, control add-in, custom control, performance, slow, unresponsive
 ---
 
 # Control add-in resiliency in Business Central

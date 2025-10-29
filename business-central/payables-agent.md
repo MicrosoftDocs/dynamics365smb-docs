@@ -1,5 +1,5 @@
 ---
-title: Payables Agent overview (preview)
+title: Payables Agent Overview
 description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
 ms.date: 10/10/2025
 ms.update-cycle: 180-days
@@ -11,18 +11,13 @@ ms.collection:
   - bap-ai-copilot
 ms.search.form: 4400, 4410
 ---
-# Payables Agent overview (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Payables Agent overview
 
 The Payables Agent solves a decade-old challenge: end-to-end processing of vendor invoices. Processing vendor invoices often creates bottlenecks and relies on accounting knowledge and mapping data and business rules to register invoices correctly.
 
 The core goal for the Payables Agent is simple: get accounting skills and help register invoices correctly, ideally removing bottlenecks in accounts payable so finance support doesn't slow company growth. The agent needs almost no setup&mdash;just configuration and activation.
 
 The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to analyze invoice content, and shows invoice drafts to agent supervisors for review. Ideally, users make few or no corrections before finalizing drafts, so invoices are ready for approval and posting.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 > [!NOTE]
 > [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]

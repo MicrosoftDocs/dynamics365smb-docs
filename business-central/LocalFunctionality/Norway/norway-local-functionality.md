@@ -78,7 +78,7 @@ The following articles describe local functionality that is unique to the Norweg
 
 ## Future legislation requirements being investigated 
 
-- Redesigned and upgraded non-deductible VAT **Planned for 2026 release wave 1**
+- Redesigned and upgraded non-deductible VAT **Planned for 2026 release wave 2**
 - E-invoicing based on new e-document framework that needs to be investigated
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

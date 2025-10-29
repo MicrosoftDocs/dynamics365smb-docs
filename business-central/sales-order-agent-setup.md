@@ -97,20 +97,20 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
    |Option|Description|Default|
    |-|-|-|
-   |Account|This option is the same as the **Mailbox** field on the first configuration page. It specifes the email account the agent monitors. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).|None|
-   |Folder|Specifies the email account's mailbox that the agent monitors. You need **Read and manage (Full Access)** permission on the mailbos to set this option. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)|None (Inbox)|
-   |Analyze attachments|Specifies whether the agent analyze attachments on incoming emails for request information. The agent only supports these file formats: PDF, PNG, JPG.|Enabled|
-   |Daily email limit|Species how many incoming emails per day the agent can handle. The agent issues an alert when the limit is reached. The emails recieved afte the daily limit is exceed are automatically processed on the next day.|100|
+   |Account|This option is the same as the **Mailbox** field on the first configuration page. It specifies the email account the agent monitors. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).|None|
+   |Folder|Specifies the email account's mailbox that the agent monitors. You need **Read and manage (Full Access)** permission on the mailbox to set this option. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)|None (Inbox)|
+   |Analyze attachments|Specifies whether the agent analyzes attachments on incoming emails for request information. The agent only supports these file formats: PDF, PNG, JPG.|Enabled|
+   |Daily email limit|Species how many incoming emails per day the agent can handle. The agent issues an alert when the limit is reached. The emails received after the daily limit is exceeded are automatically processed on the next day.|100|
 
    ## [Format outgoing message](#tab/outgoing)
 
-   Instead the generic default signature on emails the agent creates, you can add a custome signature by following these steps:
+   Instead the generic default signature on emails the agent creates, you can add a custom signature by following these steps:
 
    1. Select the **Include a custom signature in the replies** checkbox.
    1. Select the **Edit signature** link.
    1. In the **Edit mail signature** window, type or paste the text you want the agent use as the signature on emails.
 
-      Use the in the toolbar along the bottom of the window to format the text, like changing the font and font color or adding an image or link.
+      Use the toolbar along the bottom of the window to format the text, like changing the font and font color or adding an image or link.
 
    1. Select **OK** when done.
 

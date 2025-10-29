@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 10/17/2025
+ms.date: 10/29/2025
 ms.author: kepontop
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
@@ -37,7 +37,7 @@ You must have [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for t
 1. You must install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft AppSource.
 2. You must share a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
 
-The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative doesn't work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
+The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
 
 ## What Business Central licenses do I need?
 
@@ -59,13 +59,25 @@ No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-compa
 
 Learn more in [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
 
-## My semantic model doesn't refresh. How do I see what is wrong?
+## My semantic model doesn't refresh. How do I figure out what's wrong?
 
 [!INCLUDE [powerbi-refresh-tsg-include](includes/powerbi-refresh-tsg-include.md)]
 
 ## I can't see any dimension data in my reports
 
-Check whether the job queue entry for updating dimension set data is stopped.
+All Power BI semantic models read dimension records from **PowerBI Flat Dim. Set Entry** (Table 36954). This is a different table from the standard **Dimension Set Entries** table.
+
+The **PowerBI Flat Dim. Set Entry** table has flattened dimension set entry records that are purpose-built for PBI reporting. The **Update Dim. Set Entries** job queue entry (Codeunit 36952) periodically updates the table.
+
+This job queue entry is created automatically when you finish the **Connect to Power BI** assisted setup guide. If you haven't finished the guide, you can go to the **Power BI Report Setup** page and choose the **Schedule Power BI Dimension Refresh** action.
+
+### Troubleshooting Dimension Data
+
+1. Ensure the **Update Dim. Set Entries** job queue entry is present.
+1. Ensure it has run successfully. You can ensure this by clicking run once in the foreground.
+1. Run the PowerBI Flat Dim. Set Entry table in your browser to ensure records are present.
+
+If data is present in the flat dim table, you can refresh the semantic model and see the results.
 
 Learn more in [Job queue entry for updating dimension set entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries).
 
@@ -85,17 +97,17 @@ Yes, all apps are multi-language for many of the languages that [!INCLUDE[prod_s
 
 The source code (.pbix files) for the Power BI apps is available from the following versions.
 
-| Power BI app for...            | Source code available from version | 
-|--------------------------------| -------------- | 
-| Finance                        | 26.2 and later | 
-| Inventory                      | 26.2 and later | 
-| Inventory Valuation            | 26.2 and later | 
-| Manufacturing                  | 26.2 and later | 
-| Purchasing                     | 27.0 and later | 
-| Projects                       | 27.0 and later | 
-| Sales                          | 27.0 and later | 
-| Subscription Billing           | 26.2 and later | 
-| Sustainability                 | 26.2 and later | 
+| Power BI app for...            | Source code available from version |
+|--------------------------------| -------------- |
+| Finance                        | 26.2 and later |
+| Inventory                      | 26.2 and later |
+| Inventory Valuation            | 26.2 and later |
+| Manufacturing                  | 26.2 and later |
+| Purchasing                     | 27.0 and later |
+| Projects                       | 27.0 and later |
+| Sales                          | 27.0 and later |
+| Subscription Billing           | 26.2 and later |
+| Sustainability                 | 26.2 and later |
 
 You can download the .pbix file by installing the app from AppSource and then download the source code from the installed app.
 

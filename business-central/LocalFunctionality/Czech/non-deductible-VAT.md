@@ -5,9 +5,9 @@ author: v-pejano
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Non-Deductible VAT, Localization
-ms.date: 06/05/2025
+ms.date: 09/30/2025
 ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.author: v-jiurxo
 ---
 
 # Non-deductible VAT in the Czech version
@@ -28,14 +28,9 @@ You can set the value of the coefficient for the whole company in one place. The
 - Run reports for VAT reconciliation.
 - Apply a settlement coefficient at the end of the calendar period.
 
-### Known limitations
-
-- Not applicable for purchase advance invoices.
-- Not connected to the VAT Report Setup or VAT Returns.
-
 ## Enable non-deductible VAT features
 
-You enable non-deductible VAT features on the **VAT Setup** page by turning on the **Enable Non-Deductible VAT** toggle. If you have the **Core Localization Pack for Czech** application installed, the standard non-deductible VAT functionality is automatically extended for Czech posting and reporting purposes.
+You enable non-deductible VAT features on the **VAT Setup** page by turning on the **Enable Non-Deductible VAT** toggle. When you select the **Enable Non-Deductible VAT** checkbox, you activate the standard functionality for non-deductible VAT. To enable the Czech extension of this functionality, also select **Enable Non-Deductible VAT CZ**. The standard functionality of non-deductible VAT is automatically extended for Czech accounting and reporting. Other related fields for settings are activated.
 
 > [!NOTE]
 > When you turn on the **Enable Non-Deductible VAT** toggle, the fields related to non-deductible VAT are enabled and you can't turn them off.
@@ -194,7 +189,7 @@ If the coefficients differ in the completed period, you can use the **VAT Coeffi
 1. Set the **Starting VAT Date and Ending VAT Date** in the batch job (should be the same as the calendar year for which you're recalculating). The **Ending VAT Date** must be the end date from the **Non-deductible VAT Setup** for which the settlement coefficient is set.
 1. Toggle the **Post** field to control the test mode of the job or the actual posting of entries.
 1. The option in the **Use Dimensions** field controls how dimensions are used for new items. It posts either without dimensions, or with the dimensions from the account set as the **VAT Coefficient Correction Account** in **VAT Posting Setup**.
-1. In the **Use Document No** field, you can enter the number with which the coefficient adjustment entries post. If you don't enter a document number, the original document number is used for posting 
+1. In the **Use Document No** field, you can enter the number with which the coefficient adjustment entries post. If you don't enter a document number, the original document number is used for posting.
 
    > [!NOTE]
    > We recommend that you don't set the document number.

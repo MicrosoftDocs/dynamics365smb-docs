@@ -41,7 +41,7 @@ The following articles describe local functionality that is unique to the Austri
 
 SAF-T reporting in Austria **2026 release wave 1**
 
-If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u)
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## Related information
 

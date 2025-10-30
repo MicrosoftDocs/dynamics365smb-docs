@@ -31,9 +31,9 @@ Production supervisors use this report to monitor the production time for a part
 
 The *Average Production Times* report includes the following KPIs and measures:
 
-- [Average Production Time Per Finished Quantity](manufacturing-powerbi-kpis.md#average-production-time-per-finished-quantity)
-- [Actual Time Used](manufacturing-powerbi-kpis.md#actual-time-used)
-- [Finished Quantity](manufacturing-powerbi-kpis.md#finished-quantity)
+- [**Average Production Time Per Finished Quantity**](manufacturing-powerbi-kpis.md#average-production-time-per-finished-quantity)
+- [**Actual Time Used**](manufacturing-powerbi-kpis.md#actual-time-used)
+- [**Finished Quantity**](manufacturing-powerbi-kpis.md#finished-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

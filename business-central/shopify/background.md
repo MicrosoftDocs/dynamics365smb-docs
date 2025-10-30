@@ -39,7 +39,7 @@ You can schedule the following recurring activities to be performed in an automa
 |**Sync images**|Report 30107 Shopify sync images|
 |**Sync customers**|Report 30100 Shopify sync customers|
 |**Sync companies**|Report 30114 Shopify sync companies (B2B)|
-|**Sync payouts and payment transactions**|Report 30105 Shopify sync payments|
+|**Sync payouts and payment transactions**|Report 30105 Shopify sync payouts|
 |**Sync disputes**|Report 30120 Shopify sync disputes|
 |**Sync catalogs**|Report 30115 Shopify sync catalogs (B2B)|
 |**Sync catalog prices**|Report 30116 Shopify sync catalog prices (B2B)|

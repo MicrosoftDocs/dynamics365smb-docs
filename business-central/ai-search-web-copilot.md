@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: solsen
 ms.search.keywords: bing, browsing, search engine, web-enabled AI, web-aware AI
 ms.topic: overview 
-ms.date: 07/24/2025
+ms.date: 10/07/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
@@ -20,7 +20,7 @@ ms.collection:
 Some Copilot features in [!INCLUDE [prod_short](includes/prod_short.md)] can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content, and saves you time from having to switch apps to manually find things yourself. Copilot is powered by Microsoft Bing, and connecting Copilot to Bing search is optional.
 
 > [!IMPORTANT]
-> Bing Search is available from update 26.3, initially in Sandbox environments only. Bing Search isn't available for on-premises deployments of [!INCLUDE [prod_short](includes/prod_short.md)] because it's intended only for use with AI features in online environments.
+> Bing Search is available from update 26.3 in sandbox environments only. Starting in update 27.0, it's also available in production enviroments. Bing Search isn't available for on-premises deployments of [!INCLUDE [prod_short](includes/prod_short.md)] because it's intended only for use with AI features in online environments.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -36,8 +36,8 @@ The following table describes the list of Copilot capabilities that currently us
 
 | Feature | How Bing Search is used | What happens if Bing Search isn't enabled |
 | --- | --- | --- |
-| Copilot Chat | **From Update 26.3**<br><br>Copilot uses Bing Search to read publicly available documentation that matches the add-on apps you installed to your environment. Using Bing Search provides more accurate answers that are tailored to how your organization uses Business Central. The third-party publisher of each app owns and hosts the documentation.<br><br> **Example:** You install an add-on to manage customer loyalty schemes that include a new Customer Tier field added to the customer card. Copilot is now able to explain how this field works, or why you get an error when setting this field.| You can continue to chat with Copilot, but responses are of lower quality.<br><br> Copilot responds only based on content from Microsoft’s documentation that has no information about how you customized Business Central. Learn more in [Chat with Copilot](chat-with-copilot.md). |
-|Autofill |**From update 26.4**<br><br>Copilot uses Bing Search to search the web for publicly available information that could be used to fill out certain fields, saving you time and the need for app-switching. Copilot uses Bing Search only for fields that might typically contain public domain information.<br><br>**Example:** When you enter information in Business Central about a vendor named "Adventure Works", Copilot suggests the full address, phone number, and website for that vendor by searching Bing for "Adventure Works website, address, city, zip code, state, country, phone number, and email address."|Copilot continues to suggest field values, but fields that typically contain public domain information don't offer any suggestion or offer lower-quality suggestions.|
+| Copilot Chat |**From Update 26.3**<br><br>Copilot uses Bing Search to read publicly available documentation that matches the add-on apps you installed to your environment. Using Bing Search provides more accurate answers that are tailored to how your organization uses Business Central. The third-party publisher of each app owns and hosts the documentation.<br><br> **Example:** You install an add-on to manage customer loyalty schemes that include a new Customer Tier field added to the customer card. Copilot is now able to explain how this field works, or why you get an error when setting this field.| You can continue to chat with Copilot, but responses are of lower quality.<br><br> Copilot responds only based on content from Microsoft’s documentation that has no information about how you customized Business Central. Learn more in [Chat with Copilot](chat-with-copilot.md). |
+|Autofill |**From Update 26.4**<br><br>Copilot uses Bing Search to search the web for publicly available information that could be used to fill out certain fields, saving you time and the need for app-switching. Copilot uses Bing Search only for fields that might typically contain public domain information.<br><br>**Example:** When you enter information in Business Central about a vendor named "Adventure Works", Copilot suggests the full address, phone number, and website for that vendor by searching Bing for "Adventure Works website, address, city, zip code, state, country, phone number, and email address."|Copilot continues to suggest field values, but fields that typically contain public domain information don't offer any suggestion or offer lower-quality suggestions.|
 
 ## How does Bing Search work?
 

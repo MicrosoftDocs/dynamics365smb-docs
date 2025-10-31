@@ -5,9 +5,9 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 06/11/2025
+ms.date: 10/29/2025
 ms.author: kepontop
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -28,7 +28,7 @@ To use the Power BI apps, you need [!INCLUDE [powerbi-pro-license-name](includes
 
 Alternatively, you can use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)].
 
-To learn more, go to [Installing Power BI apps for Business Central (prerequisites)](across-powerbi-install-business-central-apps.md#prerequisites).
+Learn more in [Installing Power BI apps for Business Central (prerequisites)](across-powerbi-install-business-central-apps.md#prerequisites).
 
 ## Why do I need [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses?
 
@@ -57,7 +57,7 @@ No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-compa
 
 ## How do I refresh the data in an app?
 
-To learn more, go to [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
+Learn more in [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
 
 ## My semantic model doesn't refresh. How do I figure out what's wrong?
 
@@ -79,35 +79,35 @@ This job queue entry is created automatically when you finish the **Connect to P
 
 If data is present in the flat dim table, you can refresh the semantic model and see the results.
 
-To learn more, go to [Job queue entry for updating dimension set entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries).
+Learn more in [Job queue entry for updating dimension set entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries).
 
 ## How do I change the connection parameters for an app?
 
-To learn more, go to [Connect the Power BI semantic models to Business Central](across-powerbi-install-business-central-apps.md#connect-the-power-bi-semantic-models-to-business-central).
+Learn more in [Connect the Power BI semantic models to Business Central](across-powerbi-install-business-central-apps.md#connect-the-power-bi-semantic-models-to-business-central).
 
 ## How do I update an app?
 
-To learn more, go to [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-power-bi-app).
+Learn more in [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-power-bi-app).
 
 ## Are the apps available in multiple languages?
 
-Yes, all apps are multi-language for many of the languages that [!INCLUDE[prod_short](includes/prod_short.md)] supports. To learn more, go to [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
+Yes, all apps are multi-language for many of the languages that [!INCLUDE[prod_short](includes/prod_short.md)] supports. Learn more in [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
 
 ## Can I get a copy of the source code (.pbix files) for the apps?
 
 The source code (.pbix files) for the Power BI apps is available from the following versions.
 
-| Power BI app for...            | Source code available from version | 
-|--------------------------------| -------------- | 
-| Finance                        | 26.2 and later | 
-| Inventory                      | 26.2 and later | 
-| Inventory Valuation            | 26.2 and later | 
-| Manufacturing                  | 26.2 and later | 
-| Purchasing                     | 27.0 and later | 
-| Projects                       | 27.0 and later | 
-| Sales                          | 27.0 and later | 
-| Subscription Billing           | 26.2 and later | 
-| Sustainability                 | 26.2 and later | 
+| Power BI app for...            | Source code available from version |
+|--------------------------------| -------------- |
+| Finance                        | 26.2 and later |
+| Inventory                      | 26.2 and later |
+| Inventory Valuation            | 26.2 and later |
+| Manufacturing                  | 26.2 and later |
+| Purchasing                     | 27.0 and later |
+| Projects                       | 27.0 and later |
+| Sales                          | 27.0 and later |
+| Subscription Billing           | 26.2 and later |
+| Sustainability                 | 26.2 and later |
 
 You can download the .pbix file by installing the app from AppSource and then download the source code from the installed app.
 
@@ -117,7 +117,7 @@ No. At the moment, the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps 
 
 ## Related information
 
-[Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
+[Install Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

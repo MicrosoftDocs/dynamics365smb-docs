@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 05/28/2024
+ms.date: 10/17/2025
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
@@ -40,6 +40,6 @@ A culture name is usually a lower-case language identifier and an upper-case loc
 
 ## Related information
 
-[Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
+[Install Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

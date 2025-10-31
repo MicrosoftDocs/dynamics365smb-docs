@@ -3,14 +3,15 @@ title: Approve or reject documents in workflows
 description: Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.search.keywords: reject, delegate, request
-ms.search.form: 654, 662, 1500, 
-ms.date: 06/10/2025
+ms.search.keywords: reject, delegate, request, approval, approval workflows, record approval, approval requests
+ms.search.form: 654, 662, 1500
+ms.date: 10/16/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # How to use approval workflows
 
 When someone must approve a record, such as a new purchase document or customer, you can send an approval request as part of a workflow. Based on how you set up the workflow, the appropriate approver is notified that the record requires their approval.

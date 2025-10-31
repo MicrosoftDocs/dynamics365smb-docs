@@ -3,14 +3,15 @@ title: Define how data is exchanged electronically
 description: Define how Business Central exchange data with external files like electronic documents, bank data, item catalogs and more.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.search.keywords:
+ms.search.keywords: data exchange, data exchange definition, data exchange mapping
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 06/10/2025
+ms.date: 10/16/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # Set up data exchange definitions
 
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to exchange data in specific tables with data on external files. For example to send and receive electronic documents, import and export bank data or other data, such as payroll, and item catalogs. Learn more at [Exchanging Data Electronically](across-data-exchange.md).  
@@ -20,7 +21,7 @@ To create a data exchange definition for a data file or stream, you can use the 
 Normally, you set up data exchange definitions on the **Data Exchange Definition** page. However, for updating currency exchange rates, it's faster to use a currency exchange rate service. Learn more at [Update Currency Exchange Rates](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).
 
 > [!NOTE]  
-> If the file that is being converted is in the XML format, the term *"column"* in this article should be interpreted as an *"XML element containing data"*.  
+> If the file that's being converted is in the XML format, the term *"column"* in this article should be interpreted as an *"XML element containing data"*.  
 
 This article includes the following procedures:  
 
@@ -37,7 +38,7 @@ Creating a data exchange definition involves two tasks:
 
 ### <a name=formatlinescolumns></a>To describe the formatting of lines and columns in the file
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
+1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
 2. Choose the **New** action.  
 3. On the **General** FastTab, describe the data exchange definition and the data file type by filling the fields as described in the following table.  
 
@@ -128,7 +129,7 @@ You can also group by any field, use the key index to sort results, and the new 
     |**Key Index**|Specify the key index to sort the source records before exporting.|
     |**Pre-Mapping Codeunit**|Specify the codeunit that prepares the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data.|  
     |**Mapping Codeunit**|Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[prod_short](includes/prod_short.md)].|  
-    |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data. **Note:** When you use the AMC Banking 365 Fundamentals extension, the codeunit converts exported data from [!INCLUDE[prod_short](includes/prod_short.md)] to a generic format that's ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[prod_short](includes/prod_short.md)].|
+    |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data. **Note:** When you use the AMC Banking 365 Fundamentals extension, the codeunit converts exported data from [!INCLUDE[prod_short](includes/prod_short.md)] to a generic format that's ready for export. For import, the codeunit converts external data to a format that's ready for import into [!INCLUDE[prod_short](includes/prod_short.md)].|
 
 3. On the **Field Mapping** FastTab, specify which columns map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)] by filling the fields as described in the following tables, depending on whether the **Use as Intermediate Table** field is enabled.  
    * With the **Use as Intermediate Table** toggle off:
@@ -213,7 +214,7 @@ After you define your rules, you can test them. In the **Test** FastTab, enter a
 
 After you create the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that you can import. This task is described in the following procedure.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
+1. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
 2. Select the data exchange definition that you want to export.  
 3. Choose the **Export Data Exchange Definition** action.  
 4. Save the XML file that represents the data exchange definition in an appropriate location.  
@@ -223,7 +224,7 @@ After you create the data exchange definition for a specific data file, you can 
 ## Import an existing data exchange definition
 
 1. Save the XML file that represents the data exchange definition in an appropriate location.  
-2. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
+2. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
 3. Choose the **Import Data Exchange Definition** action.  
 4. Choose the file that you saved in step 1.  
 

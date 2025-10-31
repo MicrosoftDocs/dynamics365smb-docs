@@ -4,9 +4,9 @@ description: Learn how to troubleshoot the connection between Business Central a
 author: jswymer
 ms.topic: troubleshooting-general
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate, 
-ms.date: 12/13/2023
+ms.date: 10/14/2025
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ---
 

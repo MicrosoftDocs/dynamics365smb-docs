@@ -1,17 +1,17 @@
 ---
 title: Specify when and how to receive workflow notifications
-description: When you set up users in approval workflows, you can specify how and when each approval user receives notifications.
+description: Set up how and when approval users receive workflow notifications, including choosing email or note delivery and scheduling frequency.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-ms.search.form: 663, 1500, 1512, 1513, 
-ms.date: 06/10/2024
+ms.search.keywords: notification, workflow notification
+ms.search.form: 663, 1500, 1512, 1513
+ms.date: 10/16/2025
 ms.service: dynamics-365-business-central
-
 ---
+
 # Specify when and how to receive workflow notifications
 
 In workflows that require that someone approves changes, you must set up the approval users who approve or reject changes. For example, you might want someone to approve new records. An important part of the approval user setup is to specify how and when the user is notified of the change. For example, you can specify that an approval user immediately receives an email when someone creates a new customer. You can also schedule notifications to be delivered, for example, on a weekly or monthly basis.
@@ -19,12 +19,12 @@ In workflows that require that someone approves changes, you must set up the app
 People can also change their notification setup by choosing **Change Notification Settings** on any notification.  
 
 > [!NOTE]
-> Notifications are delivered according to the notification settings for the receiver, not the sender. That's an important distinction because it means that when someone requests an approval as part of a workflow, their request is not necessarily sent immediately. Instead, it's delivered according to the notification schedule specified in the approver's notification settings.
+> Notifications are delivered according to the notification settings for the receiver, not the sender. That's an important distinction because it means that when someone requests an approval as part of a workflow, their request isn't necessarily sent immediately. Instead, it's delivered according to the notification schedule specified in the approver's notification settings.
 
 Before you can set up an approval user's notification preferences, you must set up the user as an approval user. Learn more at [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]
-> To use email as the notification method, you must set email up for both the sender and the receiver in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more at [Set up Email](admin-how-setup-email.md).
+> To use email as the notification method, you must set up email for both the sender and the receiver in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more at [Set up Email](admin-how-setup-email.md).
 
 ## Steps in workflows
 
@@ -41,7 +41,7 @@ Many approval workflow steps are about notifying users of an event they must act
 
    |Field|Description|
    |-----|-----------|
-   |**Notification Type**|Specify the type of event the notification is about.<br /><br /> Select one of the following options:<br /><br /> -   **New Record** specifies that the notification is about a new record, such as a document, that the user must act on.<br />-   **Approval** specifies that the notification is about one or more approval requests.<br />-   **Overdue** specifies that the notification is to remind users that they're late in acting on an event.|
+   |**Notification Type**|Specify the type of event the notification is about.<br /><br /> Select one of the following options:<br /><br /> -   **New Record** specifies that the notification is about a new record, such as a document, that the user must act on.<br />-   **Approval** specifies that the notification is about one or more approval requests.<br />- **Overdue** specifies that the notification is to remind users that they're late in acting on an event.|
    |**Notification Method**|Specify if the notification is an email or an internal note.|
 
    You can define the layout of email notifications by customizing Report 1320, Notification Email. Learn more at [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
@@ -71,8 +71,8 @@ Many approval workflow steps are about notifying users of an event they must act
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
-[Setting Up Approval Workflow Notifications](across-setting-up-workflow-notifications.md)  
-[Setting Up Approval Workflows](across-set-up-workflows.md)  
-[Use Approval Workflows](across-use-workflows.md)
+[Set Up Approval Workflow Notifications](across-setting-up-workflow-notifications.md)  
+[Set Up Approval Workflows](across-set-up-workflows.md)  
+[Use Approval Workflows](across-use-workflows.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,18 @@
 ---
-title: Using Approval Workflows
-description: You can set up and use workflows to connect business-process tasks such as automatic posting or requesting and granting approval for new records. 
+title: Using approval workflows
+description: Set up and use workflows to connect business-process tasks such as automatic posting or requesting and granting approval for new records. 
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: concept-article
-ms.search.keywords: 
+ms.search.keywords: workflow, approval workflow
 ms.search.form: 1500, 1501, 1503, 1504, 1505
-ms.date: 02/20/2024
+ms.date: 10/21/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Use Approval Workflows
+
+# Use approval workflows
 
 A workflow is a sequence of tasks triggered by an action, a condition, or a rule. Workflows are usually implemented to integrate business logic into an organization, such as the separation of duties, unifying processes, or to apply best practices.
 
@@ -52,11 +53,11 @@ You can set up and use workflows that connect business-process tasks performed b
 Before you can begin using workflows, you must set up workflow users, create the workflows (potentially preceded by code customization), and specify how users receive notifications. Learn more at [Setting Up Workflows](across-set-up-workflows.md).
 
 > [!NOTE]  
-> Typical workflow steps involve users requesting approval of tasks and approvers accepting or rejecting approval requests. That's why many topics about how to use workflows refer to approvals.  
+> Typical workflow steps involve users requesting approval of tasks and approvers accepting or rejecting approval requests. That's why many articles about how to use workflows refer to approvals.  
 
  The following table describes a sequence of tasks, with links to the articles that describe them.  
 
-| **To** | **See** |
+| **To** | **Go to** |
 |--|--|
 | Set up an approval workflow to start when the first entry-point event occurs. | [Enable Approval Workflows](across-how-to-enable-workflows.md) |
 | Request approval of a task; as an approver, accept, decline, or delegate approvals; and send or view approval notifications. | [How To Use Approval Workflows](across-how-use-approval-workflows.md) |
@@ -66,7 +67,7 @@ Before you can begin using workflows, you must set up workflow users, create the
 
 ## Related information
 
-[Setting Up Approval Workflows](across-set-up-workflows.md)  
+[Set Up Approval Workflows](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

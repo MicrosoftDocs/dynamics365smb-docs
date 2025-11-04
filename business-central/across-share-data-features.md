@@ -1,15 +1,16 @@
 ---
-title: Sharing Data
+title: Sharing data
 description: Learn about the different ways to share business data from Business Central. 
 author: jswymer
 ms.topic: concept-article
-ms.search.keywords:
-ms.date: 09/21/2022
+ms.search.keywords: business data, data sharing
+ms.date: 10/21/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ---
-# Sharing Business Data from Business Central
+
+# Share business data from Business Central
 
 Collaboration among people inside and outside an organization is integral part of most businesses. [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records, specific records, or documents. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
@@ -26,7 +27,7 @@ When you paste the URL into a rich text editor like Word, Outlook, or Teams, ins
 |Pattern|Page example|Link name|
 |-|-|-|
 |List pages|**Items** list page | **Items**|
-|List view|	**Open** filtered view on **Sales Orders** list|**Sales Orders - Open**|
+|List view|**Open** filtered view on **Sales Orders** list|**Sales Orders - Open**|
 | Single record|Item card showing single record|"Item Card - 1896 ∙ ATHENS Desk"|
 |Draft records|	New customer card|**New - Customer card**|
 |Company that uses badge|**Items** list page for company with badge **CRONUS**| **Items (CRONUS)**|
@@ -35,7 +36,8 @@ When you paste the URL into a rich text editor like Word, Outlook, or Teams, ins
 > A similar naming convention is used on browser tabs.
 
 ### Share data analysis
-If you're viewing a page or query in the data analysis mode, you can share a specific analysis tab by selecting the down arrowhead on the tab, and then selecting **Copy link**. [Learn more about data analysis mode](analysis-mode.md). 
+
+If you're viewing a page or query in the data analysis mode, you can share a specific analysis tab by selecting the down arrowhead on the tab, and then selecting **Copy link**. [Learn more about data analysis mode](analysis-mode.md).
 
 ### Modify the page link
 
@@ -49,15 +51,15 @@ Using the filter pane on list pages, you can apply filters to narrow-down the re
 
 [Learn more about sorting, searching, and filtering](ui-enter-criteria-filters.md).
 
-## Sharing to Teams
+## Share to Teams
 
 ![Supported](media/check.png) Business Central Online ![Not Supported](media/x-icon.png) Business Central On-premises
 
-Directly from most collection pages and details pages, you can send a link to the page to people, group chats or channels. For example, share a link to a filtered view of your records. If you've installed the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams, the link will automatically expand into a compact card for you to include with your message. Recipients then select the link or card to open the page in Business Central.
+Directly from most collection pages and details pages, you can send a link to the page to people, group chats, or channels. For example, share a link to a filtered view of your records. If you've installed the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams, the link will automatically expand into a compact card for you to include with your message. Recipients then select the link or card to open the page in Business Central.
 
 [Learn more about sharing records and page links in Teams](across-working-with-teams.md).
 
-## Sharing Through OneDrive
+## Share through OneDrive
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -65,7 +67,7 @@ Business Central makes it easy to store, manage, and share files with other peop
 
 [Learn more about sharing files in OneDrive](across-share-onedrive.md).
 
-## Opening in Excel
+## Open in Excel
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -73,7 +75,7 @@ For list pages and lists embedded on a page, you can use the **Open in Excel** a
 
 [Learn more about viewing and editing in Excel](across-work-with-excel.md).
 
-## Sharing rows or tables
+## Share rows or tables
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -84,5 +86,5 @@ You can share one or more records in a list. Just select the <kbd>Ctrl</kbd>+<kb
 ## Related information
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
-[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
-[OneDrive FAQ](admin-onedrive-faq.md)
+[Manage OneDrive Integration with Business Central](admin-onedrive-integration.md)  
+[OneDrive FAQ](admin-onedrive-faq.md)  

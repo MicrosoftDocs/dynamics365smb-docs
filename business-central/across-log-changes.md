@@ -1,21 +1,22 @@
 ---
 title: Auditing changes
-description: You can activate a user log so that you have a history of any changes made to data in tracked tables. You can also track activities with certain types of activity logs.
+description: Track changes to data in selected tables and monitor user activities with change logs and activity logs in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.search.keywords: user log, user activity, tracking
+ms.search.keywords: user log, user activity, tracking, audit changes
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 01/10/2025
+ms.date: 10/16/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Auditing changes
+
+# Audit changes
 
 A common challenge in many business management applications is avoiding unwanted changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. This article describes the capabilities for finding out what changed, who changed it, and when the change was made.
 
-## About the Change Log
+## About the change log
 
 The change log lets you track all direct modifications a user makes to data in the database. You specify each table and field that you want the system to log, and then you activate the change log. The change log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show all changes that are made to the values in fields on the tables you specify.
 
@@ -37,22 +38,22 @@ Also for performance reasons, the change log is turned off during the process of
 > - The user selected another company or Role Center.
 > - The user signed out and signed in again.
 
-## Setting up the Change Log
+## Set up the change log
 
 On the **Change Log Setup** page, you can turn on or turn off the change log. When you do, the activity is logged, so you can always see who made the change.
 
 On the **Change Log Setup** page, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[prod_short](includes/prod_short.md)] also tracks several system tables.
 
 > [!NOTE]
-> You can monitor specific fields for changes, such as fields that contain sensitive data, by setting up field monitoring. If you do, to avoid redundancy the table that contains the field will not be available for the change log setup. For more information, see [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields).
+> You can monitor specific fields for changes, such as fields that contain sensitive data, by setting up field monitoring. If you do, to avoid redundancy the table that contains the field will not be available for the change log setup. Learn more in [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields).
 
-After you set up the change log, activated it, and made a change to data, you can view and filter the changes on the **Change Log Entries** page. If you want to delete entries, set up a retention policy, where you can set filters based on dates and time. To learn more about retention policies, go to [Define Retention Policies](admin-data-retention-policies.md).  
+After you set up the change log, activated it, and made a change to data, you can view and filter the changes on the **Change Log Entries** page. If you want to delete entries, set up a retention policy, where you can set filters based on dates and time. Learn more in [Define Retention Policies](admin-data-retention-policies.md) for information about retention policies.  
 
-## Analyze data in the Change Log
+## Analyze data in the change log
 
-You can use the **Data Analysis** feature to analyze data in the Change Log from the [Change Log Entries](https://businesscentral.dynamics.com/?page=595) page. You don't have to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Who changed what data, and when," or "Data changes by table/field," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
+You can use the **Data Analysis** feature to analyze data in the Change Log from the [Change Log Entries](https://businesscentral.dynamics.com/?page=595) page. You don't have to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Who changed what data, and when," or "Data changes by table/field," or any other view you can imagine. Learn more in [Analyze list and query data with analysis mode](analysis-mode.md) for information about how to use the **Data Analysis** feature.
 
-### Change Log ad-hoc analysis scenarios
+### Change log ad-hoc analysis scenarios
 
 The following sections provide examples of scenarios where analyzing change log can help you monitor and audit important changes.
 
@@ -115,16 +116,16 @@ The information is displayed on the **Activity Log** page according to the conte
 Keeping sensitive data secure and private is a core concern for most businesses. To add a layer of security, you can monitor important fields and get an email when someone changes a value. For example, you might want to be notified if someone changes your company's IBAN number.
 
 > [!NOTE]
-> Sending notifications by email requires that you set up the email feature in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
+> Sending notifications by email requires that you set up the email feature in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more in [Set Up Email](admin-how-setup-email.md).
 
 ### Set up field monitoring
 
-You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. For more information, see [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who receives an email notification when a change occurs, and the email account that sends the notification. Specify both the user to notify and the account from which to send the notification. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page.
+You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. Learn more in [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who receives an email notification when a change occurs, and the email account that sends the notification. Specify both the user to notify and the account from which to send the notification. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page.
 
 > [!NOTE]
-> When you specify the email account from which to send notifications, you must add either the **Microsoft 365** or **SMTP** account types. Notifications should be sent from an account that is not associated with an actual user. Therefore you cannot choose the **Current User** account type. If you do, notifications will not be sent.
+> When you specify the email account from which to send notifications, you must add either the **Microsoft 365** or **SMTP** account types. Notifications should be sent from an account that isn't associated with an actual user. Therefore you can't choose the **Current User** account type. If you do, notifications will not be sent.
 
-Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can create a retention policy that will delete entries after a specified period of time. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
+Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can create a retention policy that will delete entries after a specified period of time. Learn more in [Define Retention Policies](admin-data-retention-policies.md).
 
 When you set up field monitoring, or change something in the setup, entries are created for your changes. You can specify whether to display entries related to the monitoring setup by showing or hiding them.
 
@@ -145,23 +146,23 @@ To further investigate a change, choose a value to open the page where it was ma
 
 ### View field monitoring telemetry
 
-You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send field monitoring activity to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. For more information, see the following articles in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and IT Pro help:
+You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send field monitoring activity to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. Refer to the following articles in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and IT Pro help:
 
 - [Monitoring and Analyzing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
 - [Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)
 
 ## Define retention policies
 
-You can create retention policies to delete unneeded data in logs after a period of time that you specify. For example, over time the number of entries in a log can build up. By cleaning up old entries you can make it easier to focus on more recent, and probably more relevant, entries. To learn more about retention policies, go to [Define Retention Policies](admin-data-retention-policies.md).
+You can create retention policies to delete unneeded data in logs after a period of time that you specify. For example, over time the number of entries in a log can build up. By cleaning up old entries you can make it easier to focus on more recent, and probably more relevant, entries. Learn more in [Define Retention Policies](admin-data-retention-policies.md) for information about retention policies.
 
 ## Related information
 
 [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields)  
-[Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  
+[Analyze Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  
 [Define Retention Policies](admin-data-retention-policies.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
-[Finding Pages and Information with Tell Me](ui-search.md)  
+[Sort, Search, and Filter](ui-enter-criteria-filters.md)  
+[Find Pages and Information with Tell Me](ui-search.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

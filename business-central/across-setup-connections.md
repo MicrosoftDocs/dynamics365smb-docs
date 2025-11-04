@@ -5,12 +5,13 @@ author: kennienp
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Excel, Word, Outlook, Onedrive, Power BI
-ms.date: 01/03/2025
+ms.date: 10/20/2025
 ms.author: kepontop
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms.custom: bap-template
 ---
+
 # Connect Excel, Outlook, Word, OneDrive, Power BI, and more products to Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supports integrations to other Microsoft products. The following table provides links to articles that describe how to set up the integrations.
@@ -30,6 +31,6 @@ ms.custom: bap-template
 
 [Overview of tasks to set up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Integration overview for Business Central](/dynamics365/business-central/dev-itpro/developer/integration-overview)  
-[Integrating with Office apps and Microsoft 365](/dynamics365/business-central/dev-itpro/developer/m365-integration-overview)
+[Integrate with Office apps and Microsoft 365](/dynamics365/business-central/dev-itpro/developer/m365-integration-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

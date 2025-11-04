@@ -4,14 +4,14 @@ description: Learn how to use the Business Central app for Microsoft Teams.
 author: jswymer
 ms.topic: how-to
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 01/06/2025
+ms.date: 10/23/2025
 ms.author: jswymer
 ms.custom: bap-template
 ---
 
-# Sharing Business Central records and page links in Microsoft Teams
+# Share Business Central records and page links in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,22 +42,21 @@ With the Business Central app for Teams, you can copy a link from any Business C
 1. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] using your browser.
 2. Open the record that you want to share.
 
-    The app is designed to display a card for almost any type of [!INCLUDE [prod_short](includes/prod_short.md)] page. But it provides the best experience when used for pages that display a single record, such as an item, customer, or sales order.
+   The app is designed to display a card for almost any type of [!INCLUDE [prod_short](includes/prod_short.md)] page. But it provides the best experience when used for pages that display a single record, such as an item, customer, or sales order.
 3. Copy the link to the page.
 
-    There are two ways to copy the link. The easiest and preferred way is to select **Share** ![Share icon in Business Central](media/share-icon.png) > **Copy Link**. Alternatively, copy the entire URL from the browser's address bar.
+   There are two ways to copy the link. The easiest and preferred way is to select **Share** ![Share icon in Business Central](media/share-icon.png) > **Copy Link**. Alternatively, copy the entire URL from the browser's address bar.
 
-    [![Copy Business Central URL from browser.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
+   [![Copy Business Central URL from browser.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Go to Teams and start a conversation, which can be chat with a person, group of persons, or a team channel.
 5. Paste the link (URL) in the message box where you compose a message. You might need to add a space or press <kbd>Enter</kbd> for the URL to be recognized.
 
-    ![Paste Business Central URL in Teams.](media/teams-paste-url-v3.png)
+   ![Paste Business Central URL in Teams.](media/teams-paste-url-v3.png)
 
-    > [!TIP]
-    > If you get a message like: *Business Central wants to show a preview of this link.*, it means that you don't have the Business Central app for Teams installed. To install the app, select **Show Preview** and follow the instructions.
-
-    > [!NOTE]
-    > Depending on your Business Central version, the first time you paste a link into a conversation, you might be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to connect to [!INCLUDE [prod_short](includes/prod_short.md)]. Follow the on-screen instructions. You'll only have to do this step once.
+   > [!TIP]
+   > If you get a message like: *Business Central wants to show a preview of this link.*, it means that you don't have the Business Central app for Teams installed. To install the app, select **Show Preview** and follow the instructions.
+   > [!NOTE]
+   > Depending on your Business Central version, the first time you paste a link into a conversation, you might be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to connect to [!INCLUDE [prod_short](includes/prod_short.md)]. Follow the on-screen instructions. You'll only have to do this step once.
 
 6. Wait a moment while a card is generated in the message box.
 7. When the card appears, review the contents of the card carefully for any sensitive information before sending the message. This step is important because once you send the message, everyone in the conversation can see the card.
@@ -106,10 +105,10 @@ Directly from most collection pages, like the **Items** page, and details pages,
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  
-[Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
-[Changing Company and Other Settings in Teams](across-teams-settings.md)  
-[Troubleshooting Teams](admin-teams-troubleshooting.md)  
-[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Search for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
+[Change Company and Other Settings in Teams](across-teams-settings.md)  
+[Troubleshoot Teams](admin-teams-troubleshooting.md)  
+[Develop for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

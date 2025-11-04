@@ -1,24 +1,25 @@
 ---
 title: Set up data exchange to send and receive files
-description: Set up the data exchange framework in order to exchange data with external files; to send and receive electronic documents or import and export bank files.
+description: Set up the data exchange framework to send, receive, import, and export electronic documents and bank files in Business Central.
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
-ms.search.keywords:
-ms.date: 06/11/2021
+ms.search.keywords: data exchange, e-documents, electronic documents, bank files
+ms.date: 10/20/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Setting Up Data Exchange
 
-Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
+# Set up Data Exchange
+
+Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. Learn more in [Exchanging Data Electronically](across-data-exchange.md).  
 
  When [!INCLUDE[prod_short](includes/prod_short.md)] is set up to exchange data with external files, users can use the setup in common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  
 
- The following table describes a sequence of tasks, with links to the topics that describe them.  
+ The following table describes a sequence of tasks, with links to the articles that describe them.  
 
-|**To**|**See**|  
+|**To**|**Go to**|  
 |------------|-------------|  
 |Set up the preconfigured document exchange service to enable sending and receiving electronic documents from and to [!INCLUDE[prod_short](includes/prod_short.md)].|[Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)|  
 |Set up the preconfigured OCR service to turn PDF or image files into electronic documents that can be converted to document records in [!INCLUDE[prod_short](includes/prod_short.md)]|[Set Up Incoming Documents](across-how-setup-income-documents.md)|  
@@ -35,9 +36,8 @@ Before you can send and receive electronic documents or import and export bank f
 
 ## Related information
 
-[Exchanging Data Electronically](across-data-exchange.md)  
+[Exchange Data Electronically](across-data-exchange.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

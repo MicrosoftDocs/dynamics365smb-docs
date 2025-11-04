@@ -1,20 +1,21 @@
 ---
 title: Connect to Power BI from Business Central on-premises| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Business Central data on-premises using Power BI.
+description: Get insight, business intelligence, and KPIs from your Business Central data on-premises using Power BI.
 author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/27/2025
+ms.date: 10/23/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ---
+
 # Connect to Power BI from Business Central on-premises
 
 ## Get started
 
-[!INCLUDE [prod_short](includes/prod_short.md)] on-premises must be enabled for Power BI integration. This task is typically done by an administrator. For more information about enabling Power BI integration with Business Central online, see [Set up Business Central on-premises for Power BI integration](admin-powerbi-setup.md).
+[!INCLUDE [prod_short](includes/prod_short.md)] on-premises must be enabled for Power BI integration. This task is typically done by an administrator. Learn more about enabling Power BI integration with Business Central online in [Set up Business Central on-premises for Power BI integration](admin-powerbi-setup.md).
 
 Some features are only available with Business Central online, not on-premises. Learn more in [Introduction to Business Central and Power BI](admin-powerbi.md#get-ready-to-use-power-bi)
 
@@ -72,7 +73,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 1. Start Power BI Desktop.
 1. Select **Get Data**.
 
-    If you don't see **Get Data**, select the **File** menu, then **Get Data**.
+   If you don't see **Get Data**, select the **File** menu, then **Get Data**.
 1. On the **Get Data** page, select **Online Services**.
 1. In the **Online Services** pane, connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.
 1. Sign-in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).

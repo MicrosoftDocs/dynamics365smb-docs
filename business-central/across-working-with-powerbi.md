@@ -5,14 +5,15 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 05/19/2025
+ms.date: 10/23/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ---
+
 # Work with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-This article helps you learn some of the basics about working with reports. Learn about viewing [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)] (including scorecards and dashboards) and editing [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. To learn more about general guidelines and instructions about using Power BI, go to [Power BI documentation for consumers](/power-bi/consumer).
+This article helps you learn some of the basics about working with reports. Learn about viewing [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)] (including scorecards and dashboards) and editing [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. Learn more about general guidelines and instructions about using Power BI in [Power BI documentation for consumers](/power-bi/consumer).
 
 ## Overview
 
@@ -63,8 +64,7 @@ The connection process starts. During the process, [!INCLUDE [prod_short](includ
 
 [!INCLUDE [powerbi-apps-overview-table](includes/powerbi-apps-overview-table.md)]
 
-The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are free to install and use. The only requirement is that users must have a paid Power BI license. To learn more, go to [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
-
+The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are free to install and use. The only requirement is that users must have a paid Power BI license. Learn more in [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
 
 <!--#### From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
@@ -92,7 +92,7 @@ Learn more in [Configure scheduled refresh](/power-bi/connect-data/refresh-sched
 
 [!INCLUDE[prod_long](includes/prod_long.md)] includes a Power BI FactBox on several key list pages. This FactBox provides extra insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry.
 
-To learn more about how to create reports for list pages, go to [Creating [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+Learn more about how to create reports for list pages in [Creating [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 > [!TIP]
 > If the Power BI FactBox isn't available, it might be hidden on your workspace by personalization. Select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then select **Personalize** action. Learn more in [Personalize Your Workspace](ui-personalization-user.md).
@@ -142,7 +142,7 @@ After the report uploads to your Power BI workspace, it automatically uploads to
 [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports can be distributed among users as .pbix files. If you have a .pbix file, you can upload the file to a workspace. To upload a report, do the following steps:
 
 1. In your new workspace, select **Get Data**.
-1. In the Files box, select **Get**.
+2. In the Files box, select **Get**.
 
 3. Select **Local File**, navigate to where you saved the file, and select **Open**.
 
@@ -164,7 +164,7 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 > [!NOTE]
 > Sharing requires that both you and the people you're sharing the report with have [Power BI Pro license](/power-bi/service-features-license-type). Otherwise, the content must be in [Premium capacity](/power-bi/service-premium-what-is). Learn more in [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## Fixing problems
+## Fix problems
 
 However, if something goes wrong, this section provides a workaround for the most typical issues.  
 
@@ -172,7 +172,7 @@ However, if something goes wrong, this section provides a workaround for the mos
 
 A [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account isn't set up for you. To get a valid [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account, you must have a license, and you must have signed in to Power BI before to create a Power BI workspace.
 
-### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
+### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display
 
 This message appears if the default report failed to deploy to your Power BI workspace. Or it deployed but didn't refresh successfully. Navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prod_short](includes/prod_short.md)], and manually select the report from the **Select Reports** page.
 
@@ -183,7 +183,7 @@ It's probably because the report's name doesn't contain the name of the list pag
 ## Related information
 
 [Business Central and Power BI](admin-powerbi.md)  
-[Building [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)  
+[Build [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Connect to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] on-premises](across-working-with-business-central-in-powerbi.md)  
 [Power BI for consumers](/power-bi/consumer/end-user-consumer)  
@@ -191,9 +191,9 @@ It's probably because the report's name doesn't contain the name of the list pag
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI documentation](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Get Ready for Doing Business](ui-get-ready-business.md)  
+[Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
+[Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  

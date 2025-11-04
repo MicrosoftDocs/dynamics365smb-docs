@@ -1,15 +1,17 @@
 ---
 title: Set up approval users
-description: Before you can create workflows that involve approval steps, you must set up the workflow users involved in the approval processes.
+description: Set up users for approval workflows by assigning approvers, setting amount limits, and defining substitutes.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.form: 663_Primary
-ms.date: 06/10/2025
+ms.date: 10/16/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ms.search.keywords: approval users, setup approval users, configure approval users
 ---
+
 # Set up approval users
 
 Before you can create workflows that involve approval steps, you must set up the users who are involved in approval processes on the **Approval User Setup** page. You can also set amount limits for different types of requests, define substitute approvers, and set up notifications.  
@@ -37,7 +39,7 @@ After you set up approval users, you can create workflow responses for approval 
    |**Unlimited Purchase Approval**|Specify that the person identified in the **User ID** field can approve all purchase requests regardless of the amount.<br /><br /> If you select this checkbox, you can't fill in the **Purchase Amount Approval Limit** field.|
    |**Request Amount Approval Limit**|Specify the maximum amount in LCY that the person identified in the **User ID** field can approve for purchase quotes.<br /><br /> To use this field, you must select the **Approver Chain** option in the **Approver Limit Type** field on the **Workflow Response** page.|
    |**Unlimited Request Approval**|Specify that the person identified in the **User ID** field can approve all purchase quotes regardless of the amount.<br /><br /> If you select this checkbox, you can't fill in the **Request Amount Approval Limit** field.|
-   |**Substitute**|Select the user ID of the person who will approve requests made by the person identified in the **User ID** field if the user in the **Approver ID** isn't available. <br /><br />**Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. Learn more at [Use Approval Workflows](across-how-use-approval-workflows.md).|
+   |**Substitute**|Select the user ID of the person who approves requests made by the person identified in the **User ID** field if the user in the **Approver ID** isn't available. <br /><br />**Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. Learn more at [Use Approval Workflows](across-how-use-approval-workflows.md).|
    |**Email**|Specify the email address of the person in the **User ID** field.|
    |**Approval Administrator**|Specify the user who has permission to unblock approval workflow, such as by delegating approval requests to new substitute approvers or deleting overdue approval requests.<br /><br />**Note** Only one person can be the approval administrator.|
 
@@ -49,9 +51,9 @@ The next step is to specify how you want [!INCLUDE [prod_short](includes/prod_sh
 ## Related information
 
 [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)  
-[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  
+[Set Up Workflow Notifications](across-setting-up-workflow-notifications.md)  
 [Create Approval Workflows](across-how-to-create-workflows.md)  
-[Setting Up Approval Workflows](across-set-up-workflows.md)  
+[Set Up Approval Workflows](across-set-up-workflows.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
 

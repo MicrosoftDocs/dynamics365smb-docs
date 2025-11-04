@@ -6,11 +6,12 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: video, library, how to
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 01/27/2025
+ms.date: 10/22/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Visit our video library
 
 You found our documentation. But some people prefer to watch content rather than read it. To that end, we're producing short, easily digestible videos. Most videos supplement our user assistance, and some of them can be viewed on their own.  
@@ -28,7 +29,7 @@ View our "how to" videos and more on the [!INCLUDE[prod_short](includes/prod_sho
 
 ## Related information
 
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Get Ready for Doing Business](ui-get-ready-business.md)  
 [Dynamics 365 Business Central channel on YouTube](https://aka.ms/BCYouTube)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,18 @@
 ---
-title: How to Delete Approval Workflows
-description: If you're certain that a workflow is no longer being used, you can delete it. All workflow step instances defined in the workflow must be status **Completed**.
+title: How to delete approval workflows
+description: You can delete a workflow if it's no longer needed and all its step instances have a **Completed** status.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-ms.search.form: 1500, 
-ms.date: 09/08/2022
+ms.search.keywords: approval workflow, delete workflow, delete approval workflow
+ms.search.form: 1500
+ms.date: 10/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Delete Approval Workflows
+
+# Delete approval workflows
 
 If you're certain a workflow is no longer being used, you can delete it. All workflow step instances defined in the workflow must have a **Completed** status.
 
@@ -38,7 +39,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 [Use Approval Workflows](across-use-workflows.md)  
 [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Setting Up Approval Workflows](across-set-up-workflows.md)  
+[Set Up Approval Workflows](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

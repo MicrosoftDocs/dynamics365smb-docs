@@ -1,16 +1,17 @@
 ---
-title: Find Posted Documents without Incoming Documents
-description: You can search for general ledger entries for posted purchase and sales documents that don't have incoming electronic documents, such as imported invoices.
+title: Find posted documents without incoming documents
+description: Search for general ledger entries of posted purchase and sales documents that lack associated incoming electronic documents, such as imported invoices.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/14/2022
+ms.date: 10/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Find Posted Documents without Incoming Document Records
+
+# Find posted documents without incoming document records
 
 From the **Chart of Accounts** and **General Ledger Entries** pages, you can use a search function to find general ledger entries for posted purchase and sales documents that don't have incoming document records and then centrally link to existing records or create new ones with attached document files.
 
@@ -33,12 +34,11 @@ If a relevant incoming document record doesn't exist on the **Incoming Documents
 
 ## Related information
 
-[Create Incoming Document Records](across-how-create-income-document-records.md)
-[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
-[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
+[Create Incoming Document Records](across-how-create-income-document-records.md)  
+[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)  
+[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

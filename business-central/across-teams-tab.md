@@ -3,10 +3,10 @@ title: Add Business Central tab in Microsoft Teams
 description: Learn how to add tabs in Teams that display Business Central pages.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 08/14/2024
+ms.date: 10/21/2025
 ms.custom: bap-template
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab
 ---
@@ -94,12 +94,12 @@ You can also change your view of the page and its data, like sorting and switchi
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
-[Sharing Business Central Records and Page Links in Microsoft Teams](across-working-with-teams.md).
+[Share Business Central Records and Page Links in Microsoft Teams](across-working-with-teams.md).  
 [Teams FAQ](teams-faq.md)  
-[Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
-[Changing Company and Other Settings in Teams](across-teams-settings.md)  
-[Troubleshooting Teams](admin-teams-troubleshooting.md)  
-[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Search for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
+[Change Company and Other Settings in Teams](across-teams-settings.md)  
+[Troubleshoot Teams](admin-teams-troubleshooting.md)  
+[Develop for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

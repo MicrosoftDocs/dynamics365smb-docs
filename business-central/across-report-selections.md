@@ -1,16 +1,16 @@
 ---
 title: Report selection in Business Central
-description: Learn about how to set up the reports that you use to print various types of documents in Business Central.
+description: Learn how to set up the reports used for printing different types of documents in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 08/26/2025
+ms.date: 10/20/2025
 ms.service: dynamics-365-business-central
-
 ---
+
 # Report selection for documents in Business Central
 
 You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices, and which layout is used. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page. You can then use the report when you send or print sales invoices.  
@@ -63,17 +63,16 @@ For example, on the **Report Selection - Sales** and **Report Selection - Purcha
 
 ## Report selection for finance reports
 
-Similar to document reports, you can also configure the financial report definition for core finance reports such as Balance Sheet, Income Statement, and Retained Earnings. To learn more, go to [Report selection for finance reports](finance-financial-reporting-report-selection.md).
+Similar to document reports, you can also configure the financial report definition for core finance reports such as Balance Sheet, Income Statement, and Retained Earnings. Learn more in [Report selection for finance reports](finance-financial-reporting-report-selection.md).
 
 ## Related information
 
 [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Select a Check Layout](finance-how-define-check-layouts.md)  
 [Set Up Reports for VAT and Intrastat (Germany)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
-[Managing Report and Document Layouts](ui-manage-report-layouts.md)  
+[Manage Report and Document Layouts](ui-manage-report-layouts.md)  
 [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
-[Report selection for finance reports](finance-financial-reporting-report-selection.md)
-
+[Report selection for finance reports](finance-financial-reporting-report-selection.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

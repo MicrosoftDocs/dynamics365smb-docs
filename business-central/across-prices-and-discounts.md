@@ -3,22 +3,23 @@ title: Set up prices and discounts
 description: Describes how to define standard and special price and discount agreements for sales and purchases.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
-ms.date: 03/27/2025
+ms.date: 10/17/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # Set up prices and discounts
 
 > [!NOTE]
-> In 2020 release wave 2, we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you're using the new experience depends on whether your admin enabled the **New sales pricing experience** feature update on the **Feature Management** page. To learn more, go to [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> In 2020 release wave 2, we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you're using the new experience depends on whether your admin enabled the **New sales pricing experience** feature update on the **Feature Management** page. Learn more in [Enable Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Price and discount strategies for the purchase and sale of items and services are fundamental tools for successful businesses. After you set up the items and services your company buys and sells, you can define what you pay or charge for them. When you select the item or service on sales and purchase documents, [!INCLUDE [prod_short](includes/prod_short.md)] adds the amounts.
 
-## Setting up prices and discounts
+## Set up prices and discounts
 
 Before you create price lists, you must define your pricing and discount strategies on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.
 
@@ -72,8 +73,6 @@ To review price lists and prices that apply for specific customers or vendors, o
    * To add items manually, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. To start using the price list, in the **Status** field, choose **Active**.  
 
----
-
 ## To set up a sales line discount for a customer
 
 These steps differ, depending on whether your administrator turned on the **New sales pricing experience** feature update.
@@ -86,7 +85,7 @@ These steps differ, depending on whether your administrator turned on the **New 
 
 > [!Note]
 >
-> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. To learn more, go to [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#bulk-update-item-prices).  
+> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. Learn more in [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#bulk-update-item-prices).  
 
 ### [New Experience](#tab/new-experience/)  
 
@@ -100,8 +99,6 @@ These steps differ, depending on whether your administrator turned on the **New 
 
    > [!TIP]
    > If you're editing an existing line, you can filter the lines by choosing the appropriate option in the **View Columns for** field.
-
----
 
 ## Work with invoice discounts and service charges
 
@@ -118,7 +115,7 @@ You link discount percentages to specific invoice amounts on the **Invoice Disco
 In addition to (or instead of) a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
 > [!TIP]  
-> Before you start entering this information, it's a good idea to prepare your discount structure beforehand, so it's easier to see which customers to link to the same invoice discount page. For more information about discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
+> Before you start entering this information, it's a good idea to prepare your discount structure beforehand, so it's easier to see which customers to link to the same invoice discount page. Learn more in [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index) for information about discounts in sales.
 
 ### To set up an invoice discount for a customer
 
@@ -169,8 +166,6 @@ The status of the price list must be **Draft**.
 
    > [!NOTE]
    > You can't have two lines that have the same settings but different prices. If that happens, a message displays when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.  
-  
----
 
 ## To bulk update item prices
 
@@ -200,15 +195,13 @@ To update prices for multiple items, you must create a new price list, and then 
 
 [!INCLUDE [edit-in-excel-price-list](includes/edit-in-excel-price-list.md)]
 
----
+## Calculate the best price
 
-## Calculating the best price
-
-When you record special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] optimizes your profit. It automatically calculates the best price on sales and purchase documents, and on job and item journal lines. To learn more, go to [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+When you record special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] optimizes your profit. It automatically calculates the best price on sales and purchase documents, and on job and item journal lines. Learn more in [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 ## Related information
 
-[Setting Up Sales](sales-setup-sales.md)  
+[Set Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

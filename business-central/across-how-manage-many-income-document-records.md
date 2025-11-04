@@ -1,26 +1,27 @@
 ---
-title: Define Which Incoming Docs to See
+title: Define Which incoming docs to see
 description: Adjust the default view of incoming documents, such as e-invoices, to improve your overview of processed and unprocessed records.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/14/2022
+ms.date: 10/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Manage Many Incoming Document Records
+
+# Manage many incoming document records
 
 As you create or process incoming document records, the number of lines on the **Incoming Documents** page may grow to an extent where you lose overview. Therefore, you can set incoming document records to *Processed* to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
 
 > [!NOTE]  
-> You cannot edit information, attach files, or perform other processes on incoming document records that are set to *Processed*. You must first set it to *Unprocessed*.
+> You can't edit information, attach files, or perform other processes on incoming document records that are set to *Processed*. You must first set it to *Unprocessed*.
 
 The **Processed** check box is automatically selected on incoming document records that have been processed, but you can also select or deselect the check box manually. Depending on your business process, an incoming document record may be processed when a related document has been created for it or a file has been attached.
 
 > [!NOTE]  
-> When you open the **Incoming Documents** page with the **My Incoming Documents** action on the Role Center, only unprocessed incoming document records are shown by default. This is referred to in this topic as "the default view".
+> When you open the **Incoming Documents** page with the **My Incoming Documents** action on the Role Center, only unprocessed incoming document records are shown by default. This is referred to in this article as "the default view".
 
 ## To remove incoming document records from the default view
 
@@ -49,11 +50,10 @@ All incoming document records are displayed, including records where the **Proce
 
 ## Related information
   
-[Create Incoming Document Records](across-how-create-income-document-records.md)
-[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
+[Create Incoming Document Records](across-how-create-income-document-records.md)  
+[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

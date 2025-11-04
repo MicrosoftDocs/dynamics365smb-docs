@@ -1,12 +1,13 @@
 ### YamlMime:FAQ
 metadata:
   title: FAQ about using Business Central
-  description: "Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support."
+  description: Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support.
   author: brentholtorf
   ms.topic: faq
-  ms.search.keywords: "FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend"
-  ms.date: 06/10/2025
+  ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+  ms.date: 10/14/2025
   ms.author: bholtorf
+  ms.reviewer: v-soumramani
   ms.service: dynamics-365-business-central
 title: Frequently asked questions about using Business Central
 summary: |

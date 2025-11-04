@@ -117,7 +117,6 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
       To turn off the custom signature and use the default again, clear the **Include a custom signature in the replies** checkbox.
 
    ---
-
 1. Select **Update** to complete the setup.
 1. Ensure Sales Order Agent's language is set to a supported language.
 

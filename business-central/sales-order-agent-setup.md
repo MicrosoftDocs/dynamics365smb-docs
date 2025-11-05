@@ -130,7 +130,7 @@ When Sales Order Agent is active, a scheduled task added to job queue runs every
 
 ### Add agent users
 
-As an administrator, you can specify which users have permission to use or configure Sales Order Agent. There are two ways to add and configure agent users:
+As an administrator, you can specify which users have permission to use or configure Sales Order Agent. There are three ways to add and configure agent users:
 
 #### [From Configure Sales Order Agent](#tab/soaconfig)
 

@@ -130,7 +130,7 @@ When Sales Order Agent is active, a scheduled task added to job queue runs every
 
 ### Add agent users
 
-As an administrator, you can specify which users have permission to use or configure Sales Order Agent. There are three ways to add and configure agent users:
+As an administrator, you can specify which users have permission to use or configure Sales Order Agent. There are two ways to add and configure agent users:
 
 #### [From Configure Sales Order Agent](#tab/soaconfig)
 
@@ -153,7 +153,17 @@ As an administrator, you can specify which users have permission to use or confi
    - To give a user permission to configure Sales Order Agent, select the **Can configure** checkbox.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
-### [Using permissions and permission sets](#tab/perms)
+---
+
+### Manage agent permissions to objects, data, and UI elements
+
+Sales Order Agent has a user account in Business Central, similar to other users, which defines the permissions the agent has on objects and data. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]** to open the agent card page.
+
+The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, Sales Order Agent has the **SOA AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests.
+
+You can't modify the **SOA AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set, modify the copy to suit your needs, and then add it to the **Agent Permission Sets** section, along with any other permission sets.
+
+Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
 
 The following system permissions are available for controlling user access to the agent's functionality:
 
@@ -171,18 +181,6 @@ These system permissions are also included in the following permission sets, ent
 Users can configure Sales Order Agent if they have the **Configure All Agents** permission or are listed as an agent user with the **Can Configure** field selected.
 
 Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.
-
----
-
-### Manage agent permissions to objects, data, and UI elements
-
-Sales Order Agent has a user account in Business Central, similar to other users, which defines the permissions the agent has on objects and data. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]** to open the agent card page.
-
-The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, Sales Order Agent has the **SOA AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests.
-
-You can't modify the **SOA AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set, modify the copy to suit your needs, and then add it to the **Agent Permission Sets** section, along with any other permission sets.
-
-Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
 
 ## Change language and regional settings
 

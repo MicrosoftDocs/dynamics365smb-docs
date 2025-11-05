@@ -153,6 +153,25 @@ As an administrator, you can specify which users have permission to use or confi
    - To give a user permission to configure Sales Order Agent, select the **Can configure** checkbox.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
+#### [Using permissions, permissions sets, and licenses](#tab/perms)
+
+The following system permissions are available for controlling user access to the agent's functionality:
+
+- **Configure All Agents** (ID 9665): Grants a user access to manage the configuration settings of Sales Order Agent.
+- **Manage Agent Tasks** (ID 9670): Allows a user to work with agent tasks displayed in the Copilot pane.
+
+These system permissions are also included in the following permission sets, entitlements, and license types:
+
+- The **SECURITY** permission set includes the **Configure All Agents** permission.
+- The **System Execute - Basic** permission set includes the **Manage Agent Tasks** permission.
+- The **System Tables - Basic** permission set includes all virtual tables used by the agent (labeled as "Agent *" tables).
+- Essential and Premium license entitlements now include **Manage Agent Tasks** permissions.
+- All license types include **Configure All Agents** permissions.
+
+Users can configure Sales Order Agent if they have the **Configure All Agents** permission or are listed as an agent user with the **Can Configure** field selected.
+
+Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.
+
 ---
 
 ### Manage agent permissions to objects, data, and UI elements

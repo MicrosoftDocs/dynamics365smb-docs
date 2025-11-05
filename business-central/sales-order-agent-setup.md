@@ -116,7 +116,7 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
       To turn off the custom signature and use the default again, clear the **Include a custom signature in the replies** checkbox.
 
-   ---
+      ---
 1. Select **Update** to complete the setup.
 
 The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to handle incoming quote requests to the mailbox.

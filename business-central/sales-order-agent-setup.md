@@ -184,23 +184,6 @@ You can't modify the **SOA AGENT – EDIT** permission set directly, because it'
 
 Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
 
-The following system permissions are available for controlling user access to the agent's functionality:
-
-- **Configure All Agents** (ID 9665): Grants a user access to manage the configuration settings of Sales Order Agent.
-- **Manage Agent Tasks** (ID 9670): Allows a user to work with agent tasks displayed in the Copilot pane.
-
-These system permissions are also included in the following permission sets, entitlements, and license types:
-
-- The **SECURITY** permission set includes the **Configure All Agents** permission.
-- The **System Execute - Basic** permission set includes the **Manage Agent Tasks** permission.
-- The **System Tables - Basic** permission set includes all virtual tables used by the agent (labeled as "Agent *" tables).
-- Essential and Premium license entitlements now include **Manage Agent Tasks** permissions.
-- All license types include **Configure All Agents** permissions.
-
-Users can configure Sales Order Agent if they have the **Configure All Agents** permission or are listed as an agent user with the **Can Configure** field selected.
-
-Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.
-
 ## Change language and regional settings
 
 [!INCLUDE[soa-language-support](includes/soa-language-support.md)]

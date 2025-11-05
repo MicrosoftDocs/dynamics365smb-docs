@@ -7,12 +7,13 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date:10/29/2025
+ms.date: 10/29/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
 ---
-# Process sales quotes and orders with Sales Order Agent (preview)
+
+# Process sales quotes and orders with Sales Order Agent
 
 This article explains how to use Sales Order Agent to automate taking sales orders based on customer inquiries about products/items received via email.
 

@@ -153,7 +153,7 @@ As an administrator, you can specify which users have permission to use or confi
    - To give a user permission to configure Sales Order Agent, select the **Can configure** checkbox.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
-#### [Using permissions, permissions sets, and licenses](#tab/perms)
+#### [Using permissions and licenses](#tab/perms)
 
 The following system permissions are available for controlling user access to the agent's functionality:
 

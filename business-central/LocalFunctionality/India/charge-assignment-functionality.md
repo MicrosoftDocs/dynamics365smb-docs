@@ -44,7 +44,7 @@ The charge assignment functionality streamlines assigning charges to items in Bu
     1. Create a purchase or sales invoice/order and apply charges in the line. In the **Tax Information** panel, define the charge group code and select that code.
     2. Navigate to the **Lines** section, select **Line** > **Functions** > **Explode Charge Group**. This action automatically creates lines for charges and assigns them as configured.
 
-## Third- party invoice setup
+## Third-party invoice setup
 
 If a third party invoice is required, perform the following steps:
 
@@ -54,7 +54,7 @@ If a third party invoice is required, perform the following steps:
 2. Define the third party **Vendor No.** and **G/L Account Number**.
 3. Apply the **Charge Group Code** in the **Tax Information** panel that is set up for the third party.
 4. Create the purchase order/invoice as outlined in Step 4 of the **Setup Steps** section.
-5. Post the purchase order or invoice. This action posts two invoices: one for the main vendor and one for the third party vendor.
+5. Post the purchase order or invoice.
 
 > [!NOTE]
 > GST isn't calculated for third-party invoices.

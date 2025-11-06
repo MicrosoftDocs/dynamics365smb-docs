@@ -12,7 +12,7 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# FAQ for Payables Agent (preview)
+# FAQ for Payables Agent
 
 These frequently asked questions (FAQ) describe the AI impact of Payables Agent feature in Business Central.
 

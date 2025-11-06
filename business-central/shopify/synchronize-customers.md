@@ -75,7 +75,7 @@ A customer in Shopify has a first name, family name, email, and/or phone number.
 |Phone| Phone number from the default address. If a phone number isn't defined for the default address, then it's the phone number from the customer.|
 |Email|Email address from the customer.|
 
-The **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** are from the [customer template](#customer-template-per-countryregion). 
+The **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** are from the [Customer setup per country/region](#customer-setup-per-countryregion).
 
 ## Important settings when exporting DTC customers to Shopify
 

@@ -7,14 +7,13 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 09/30/2025
+ms.date: 10/29/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
 ---
-# Process sales quotes and orders with Sales Order Agent (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Process sales quotes and orders with Sales Order Agent
 
 This article explains how to use Sales Order Agent to automate taking sales orders based on customer inquiries about products/items received via email.
 
@@ -23,9 +22,6 @@ Sales Order Agent monitors a designated mailbox for incoming customer emails abo
 Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
 
 Learn more about Sales Order Agent and its process flow in [How the agent processes requests](sales-order-agent.md#how-the-agent-processes-requests).
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Supported languages
 
@@ -69,7 +65,12 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 
    The **Tasks** tab switches to **Review** mode, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
 
-1. Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
+1. Review the contents and make changes as needed.
+
+   - Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
+   - If the agent needs assistance, a message appears at the top of the text explaining the problem.
+
+     You often help the agent by making changes yourself, like making an item available, creating the right customer, contact, or vendor, or changing quantities in sales quotes. You can also [give instructions](use-payables-agent.md#give-instructions-to-the-agent) to guide the agent to make changes for you.
 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task.
 

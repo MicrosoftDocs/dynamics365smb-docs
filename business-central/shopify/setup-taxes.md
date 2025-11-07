@@ -175,7 +175,7 @@ For merchants using the US or Canadian localizations:
 3. **Tax Liable**
 4. **Tax Area Code**
 
-    Use the **Tax Area Priority** field together with the **Customer Templates** page to define how to fill in the **Tax Area Code** field on the sales document. The **Tax Area Priority** field specifies the priority regarding where to get the information about the country or region and state or province. If not selected, the **Tax Area Code** from customer is specified in the **Sell-to Customer No.** field of the Shopify order. If selected, the connector finds the relevant record in the Shopify customer templates table based on the addresses in the Shopify order, and uses the **Tax Area Code** when creating the sales document.  
+    Use the **Tax Area Priority** field together with the **Customer Setup by Country/Region** page to define how to fill in the **Tax Area Code** field on the sales document. The **Tax Area Priority** field specifies the priority regarding where to get the information about the country or region and state or province. If not selected, the **Tax Area Code** from customer is specified in the **Sell-to Customer No.** field of the Shopify order. If selected, the connector finds the relevant record based on the addresses in the Shopify order, and uses the **Tax Area Code** when creating the sales document.  
 
 ### Prices including VAT
 

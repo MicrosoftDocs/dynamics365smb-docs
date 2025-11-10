@@ -1581,6 +1581,7 @@ ms.service: dynamics-365-business-central
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
 #### [Set up posting number series](LocalFunctionality/India/posting-no-series-setup.md)
 #### [Audit trail and edit logs for accounting software in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
+#### [Charge assignment functionality](LocalFunctionality/India/charge-assignment-functionality.md)
 #### Tax engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax engine import export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)

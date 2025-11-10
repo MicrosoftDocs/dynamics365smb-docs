@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 06/10/2025
+ms.date: 11/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -213,7 +213,7 @@ After you approve time sheet entries for a project, you can post them to the pro
     > [!NOTE]  
     > Information about the work type and whether the work is chargeable is copied from the time sheet line. If needed, you can reduce the quantity of hours and do a partial posting. If you reduce the quantity, the next time you choose the **Suggest Lines From Time Sheets** action, the line will contain the remaining quantity of hours.  
 5. Choose the **Post** action.  
-6. To verify the posting, choose the **Ledger Entries** action. The **Project Ledger Entries** page opens showing the result of posting the resource journal.
+6. To verify the posting, choose the **Ledger Entries** action. The **Project Ledger Entries** page opens showing the result of posting the project journal.
 
 ## Archive time sheets
 

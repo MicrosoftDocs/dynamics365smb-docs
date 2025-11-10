@@ -5,10 +5,9 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords:
 ms.search.form: 6774, 6775, 6776
-ms.date: 03/04/2025
+ms.date: 11/06/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -60,7 +59,7 @@ The following procedures are based on setting up basic warehouse activities arou
 3. On the **Bins** FastTab, in the **Open Shop Floor Bin Code** field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin. Items that are placed in this bin are typically set up for automatic posting, or flushing. This setup means that the **Flushing Method** field contains **Forward**, **Backward**, or **Manual**.  
 
    > [!TIP]
-   > You can also record flushing without requiring a pick. For example, skipping the pick might be useful for components which, due to their nature, you store in the shop floor zone so there's no need to pick. However, you might still have to manually post consumption, for example, because the consumed quantity can vary or require item tracking. To flush without picking, the item must use the **Pick + Manual** flushing method. To learn more, go to [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
+   > You can also record flushing without requiring a pick. For example, skipping the pick might be useful for components which, due to their nature, you store in the shop floor zone so there's no need to pick. However, you might still have to manually post consumption, for example, because the consumed quantity can vary or require item tracking. To start using this feature, on the **Feature Management** page, activate **Feature Update: 'Manual' flushing method without requiring pick**. Existing records upgrade from **Manual** to the **Pick + Manual** flushing method. The **Pick + Manual** option is added immediately and works, regardless of whether you enable the feature key. If the feature isn't enabled, **Manual** and **Pick + Manual** both require picking due to the original behavior. When the feature key is enabled, the **Manual** option doesn't require picking. To learn more, go to [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
 4. In the **To-Production Bin Code** field, enter the code of the bin in the production area where components that are picked for production at this location are placed by default before they can be consumed. Items that are placed in this bin are typically set up for manual picking. The **Flushing Method** field contains **Pick + Forward**, **Pick + Backward**, or **Pick + Manual** for warehouse picks and inventory movements.  
 

@@ -105,7 +105,7 @@ Choose the **Retrieved Shopify Data** action on one of the following pages:
 
 - **Shopify order**
 - **Shopify order line**
-- **Shopify fulfillments**
+- **Shopify completed fulfillment**
 - **Shopify order shipping costs**
 - **Shopify order transactions**
 - **Shopify return**

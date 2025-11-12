@@ -57,5 +57,6 @@ If a third party invoice is required, perform the following steps:
 5. Post the purchase order or invoice.
 
 > [!NOTE]
-> GST isn't calculated for third-party invoices.
-> To include GL accounts automatically in the lines when exploding the charge group, select the **G/L Account** option in the **Type** field instead of **Charge (Item)** on the **Charge Group Card** page.
+>
+> - GST isn't calculated for third-party invoices.
+> - To include GL accounts automatically in the lines when exploding the charge group, select the **G/L Account** option in the **Type** field instead of **Charge (Item)** on the **Charge Group Card** page.

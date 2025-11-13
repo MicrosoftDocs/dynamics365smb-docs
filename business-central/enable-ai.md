@@ -102,6 +102,19 @@ To enable Bing Search, turn on the **Enable Bing Search** toggle switch in the *
 
 Learn more about which Copilot features support Bing Search and how it's used in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
 
+## Switch off feedback on AI-generated content
+
+Users can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike controls. The feedback remains anonymous, and we use this data to improve the quality of the service. Feedback is enabled by default.
+
+Administrators can switch off the ability for users to provide Copilot feedback. To do this, do the following:
+
+1. In the Power Platform admin center, for the tenant, go to the actions pane
+1. Choose **Copilot**, **Settings**, and then under **Power Platform**, choose **Copilot feedback**. 
+1. In the **Copilot feedback** dialog, there are two options:  
+  The **Basic Copilot feedback** toggle switches off the Like and Dislike controls, which helps improve Copilot.
+  The **Additional Copilot feedback** toggle switches off the ability for users to share their prompts, questions, responses, content samples, and log files when they submit feedback about Copilot to Microsoft.
+1. Choose **Save**.
+
 ## Rolling out changes to all users of the environment
 
 On the **Copilot and agent capabilities** page, when you adjust any toggles or activate or deactivate a capability, your changes can take time to affect users in that environment. Some AI features take effect immediately, while others require users to sign out and sign in again. To enforce your changes quickly, ask users to sign out and sign in again, or cancel user sessions from the Business Central administration center. Learn more in [Cancel sessions in Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions#cancel-sessions).

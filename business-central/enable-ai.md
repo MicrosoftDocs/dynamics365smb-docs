@@ -110,11 +110,11 @@ Administrators can turn off the ability for users to provide Copilot feedback. T
 
 1. Open the Power Platform admin center for your tenant.
 1. In the left navigation pane, select **Copilot**.
-1. Select **Settings** > **Power Platform** > **Copilot feedback**.
+1. Select **Settings**, then under **Power Platform**, choose **Copilot feedback**.
 1. Configure the feedback options:  
     - **Basic Copilot feedback** - Turn off this toggle to disable the Like and Dislike controls.
     - **Additional Copilot feedback** - Turn off this toggle to prevent users from sharing prompts, questions, responses, content samples, and log files when submitting feedback.
-1. Select **Save**.
+1. Choose **Save**.
 
 Changes take effect when users sign out and sign back in.
 

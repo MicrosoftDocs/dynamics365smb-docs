@@ -118,8 +118,6 @@ Administrators can turn off the ability for users to provide Copilot feedback. T
 
 Changes take effect when users sign out and sign back in.
 
-Learn more in the Power Platform documentation [Tenant settings](/power-platform/admin/tenant-settings?tabs=new).
-
 ## Rolling out changes to all users of the environment
 
 On the **Copilot and agent capabilities** page, when you adjust any toggles or activate or deactivate a capability, your changes can take time to affect users in that environment. Some AI features take effect immediately, while others require users to sign out and sign in again. To enforce your changes quickly, ask users to sign out and sign in again, or cancel user sessions from the Business Central administration center. Learn more in [Cancel sessions in Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions#cancel-sessions).

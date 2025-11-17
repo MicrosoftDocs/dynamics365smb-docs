@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 04/07/2025
+ms.date: 11/17/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -77,6 +77,7 @@ The following list of access point providers are covered by default:
 - Logiq
 - Pagero
 - SignUp
+- ForNAV
 
 Microsoft has no contractual obligations with these providers. Therefore, you must make a contract with them to get the necessary credentials. The services might require extra licensing or payments for their services.
 

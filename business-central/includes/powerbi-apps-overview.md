@@ -7,5 +7,5 @@
 - Projects 
 - Purchasing
 - Sales 
-- Subsscription Billing
+- Subscription Billing
 - Sustainability

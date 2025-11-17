@@ -31,6 +31,9 @@ The Central Business Register (CVR) number must be filled in before users post t
 > [!IMPORTANT]
 > After you enter the CVR number in the **Registration No.** field on the **Company Information** page and Nemhandel APIs validates the number, you can't modify or delete it.
 
+> [!IMPORTANT]
+> After you enter the CVR number in the **Registration No.** field on the **Company Information** page and Nemhandel APIs validate the number in production environment, after posting the first transaction, the company is treated as a production entity and can no longer be deleted. However, if you accidentally create a company in the production environment with a real CVR number but have not posted any transactions, you will still be able to delete it.
+
 Learn more in [Denmark Local Functionality](denmark-local-functionality.md), which provides a list of features that are specific to Denmark.
 
 ## Related information

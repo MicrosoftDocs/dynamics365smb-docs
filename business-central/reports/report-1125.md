@@ -4,7 +4,7 @@ description: Displays cost breakdowns by cost type, such as labor, materials, an
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: cost types, cost breakdown, cost analysis, labor, materials, overhead
 ms.search.form: Report_1125_Primary
 ms.date: 06/23/2025

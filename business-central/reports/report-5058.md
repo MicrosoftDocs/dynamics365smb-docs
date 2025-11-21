@@ -4,7 +4,7 @@ description: Review which salespeople handle which opportunities.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_50585058_Primary
 ms.date: 11/11/2024

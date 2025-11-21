@@ -4,7 +4,7 @@ description: Used at the end of a VAT period to calculate and post the amount pa
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: VAT, tax, settlement, reporting, finance
 ms.search.form: Report_20_Primary
 ms.date: 06/25/2025

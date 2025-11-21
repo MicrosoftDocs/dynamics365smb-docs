@@ -4,7 +4,7 @@ description: Use this report to analyze balances for cost accounts and budgets t
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: cost accounting, budget analysis, financial planning
 ms.search.form: Report_1138_Primary
 ms.date: 06/23/2025

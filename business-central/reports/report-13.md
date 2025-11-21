@@ -4,7 +4,7 @@ description: Use this report to review individual VAT entries before filing, or 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: tax, VAT, reporting, finance
 ms.search.form: Report_13_Primary
 ms.date: 06/25/2025

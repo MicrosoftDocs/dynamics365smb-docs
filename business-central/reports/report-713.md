@@ -4,7 +4,7 @@ description: Analyze your customer sales per item to understand sales trends, op
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_713_Primary
 ms.date: 10/18/2024

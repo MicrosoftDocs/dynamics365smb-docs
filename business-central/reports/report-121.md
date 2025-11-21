@@ -4,7 +4,7 @@ description: Get a detailed balance for selected customers at the close of an ac
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_121_Primary
 ms.date: 10/03/2024

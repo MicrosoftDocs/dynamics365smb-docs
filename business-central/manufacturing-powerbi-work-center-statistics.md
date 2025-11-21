@@ -4,7 +4,7 @@ description: The Work Center Statistics report shows key performance indicators 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37094_Primary
 ms.date: 05/26/2025

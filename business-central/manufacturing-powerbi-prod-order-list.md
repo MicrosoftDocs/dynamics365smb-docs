@@ -4,7 +4,7 @@ description: Learn about how to benefit from using the Prod. Order List report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37097_Primary 
 ms.date: 05/26/2025

@@ -4,7 +4,7 @@ description: Review and manage your company’s general ledger structure by list
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1_Primary
 ms.date: 06/16/2025

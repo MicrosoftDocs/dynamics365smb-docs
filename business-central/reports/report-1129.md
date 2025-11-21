@@ -4,7 +4,7 @@ description: Displays how costs were split or assigned based on allocation rules
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: cost accounting, cost allocations, cost centers, allocation rules, cost control
 ms.search.form: Report_1129_Primary
 ms.date: 06/23/2025

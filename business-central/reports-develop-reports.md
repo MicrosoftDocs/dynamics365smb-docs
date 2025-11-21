@@ -2,7 +2,7 @@
 title: Develop report layouts and datasets
 description: Provides an overview of Business Central data.
 author: kennieNP
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: feature overview

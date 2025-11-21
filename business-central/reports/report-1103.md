@@ -4,7 +4,7 @@ description: Document a resource register's contents for internal or external au
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: Report_1103_Primary
 ms.date: 02/18/2025
 ms.custom:

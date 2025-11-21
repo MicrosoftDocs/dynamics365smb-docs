@@ -4,7 +4,7 @@ description: Analyze customer balances at the end of each period. Used as a gaug
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4402_Primary
 ms.date: 12/13/2024

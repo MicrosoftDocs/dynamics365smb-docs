@@ -4,7 +4,7 @@ description: The Machine Center Statistics report shows key performance indicato
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37095_Primary 
 ms.date: 05/26/2025

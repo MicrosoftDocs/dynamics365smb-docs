@@ -4,7 +4,7 @@ description: The Production Order Overview report provides a high-level summary 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37098_Primary
 ms.date: 04/22/2024

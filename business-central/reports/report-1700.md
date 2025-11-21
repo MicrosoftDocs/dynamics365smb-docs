@@ -4,7 +4,7 @@ description: Review how deferral entries impact the general ledger over time and
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: deferral, general ledger, reporting
 ms.search.form: Report_1700_Primary
 ms.date: 06/21/2025

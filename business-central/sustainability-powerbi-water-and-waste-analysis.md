@@ -4,7 +4,7 @@ description: The Water and Waste Analysis allows you to effectively monitor your
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 02/05/2025

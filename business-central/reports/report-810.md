@@ -4,7 +4,7 @@ description: Get an overview about the needed components for an items bill of ma
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_810_Primary
 ms.date: 10/23/2024

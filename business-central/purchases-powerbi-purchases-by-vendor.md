@@ -4,7 +4,7 @@ description: The Purchases by Vendor report provides an overview of purchasing a
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37018_Primary
 ms.date: 10/31/2024

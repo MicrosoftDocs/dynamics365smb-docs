@@ -4,7 +4,7 @@ description: Displays purchasing deferral schedules and amounts, helping confirm
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, deferral, purchasing, expense accrual
 ms.search.form: Report_1702_Primary
 ms.date: 06/21/2025

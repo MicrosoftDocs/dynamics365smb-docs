@@ -4,7 +4,7 @@ description: Review the highest or lowest selling items based on quantity and am
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_711_Primary
 ms.date: 10/18/2024

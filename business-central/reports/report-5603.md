@@ -4,7 +4,7 @@ description: Get a detailed and organized overview of all your fixed asset trans
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5603_Primary
 ms.date: 10/23/2024

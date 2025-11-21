@@ -4,7 +4,7 @@ description: View which sales orders are covered when collecting items from inve
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_813_Primary
 ms.date: 10/03/2024

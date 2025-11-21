@@ -4,7 +4,7 @@ description: Analyze and reconcile your customer balances at the end of the peri
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_129_Primary
 ms.date: 10/03/2024

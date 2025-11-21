@@ -4,7 +4,7 @@ description: Use during VAT filing to calculate and report VAT due or refundable
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: tax, VAT, reporting, finance
 ms.search.form: Report_12_Primary
 ms.date: 06/25/2025

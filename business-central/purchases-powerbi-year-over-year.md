@@ -4,7 +4,7 @@ description: The Year-Over-Year report is an important tool that business leader
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37015_Primary
 ms.date: 10/31/2024

@@ -4,7 +4,7 @@ description: The Journey to Net Zero highlights the journey to net zero within a
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 05/26/2025

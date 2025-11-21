@@ -4,7 +4,7 @@ description: The Power BI app for sustainability in Business Central provides co
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 06/04/2025

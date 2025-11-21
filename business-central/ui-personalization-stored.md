@@ -4,7 +4,7 @@ description: Learn which UI adjustments are automatically saved and roam with yo
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: bap-template 
 ms.date: 02/14/2025
 ---

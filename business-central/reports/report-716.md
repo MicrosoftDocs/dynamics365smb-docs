@@ -4,7 +4,7 @@ description: Analyze and manage your inventory costs and pricing strategies.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_716_Primary
 ms.date: 10/18/2024

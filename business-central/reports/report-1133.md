@@ -4,7 +4,7 @@ description: Compares cost statements to budgeted amounts by cost center, showin
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: cost accounting, budgeting, variance analysis
 ms.search.form: Report_1133_Primary
 ms.date: 06/23/2025

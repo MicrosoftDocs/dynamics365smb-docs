@@ -4,7 +4,7 @@ description: Get an overview of customer sales for a period. You can use the inf
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_119_Primary
 ms.date: 03/12/2025

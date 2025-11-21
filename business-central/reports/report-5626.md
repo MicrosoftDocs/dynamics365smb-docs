@@ -4,7 +4,7 @@ description: Check whether you forgot to assign a fixed asset to an insurance po
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5626_Primary
 ms.date: 11/11/2024

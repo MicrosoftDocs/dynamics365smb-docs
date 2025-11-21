@@ -4,7 +4,7 @@ description: This report helps you decide whether to change component suppliers,
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5872_Primary
 ms.date: 10/23/2024

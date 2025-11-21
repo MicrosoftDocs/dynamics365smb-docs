@@ -4,7 +4,7 @@ description: Analyze the quantity, cost, sales, and profit figures of assembly c
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_915_Primary
 ms.date: 10/23/2024

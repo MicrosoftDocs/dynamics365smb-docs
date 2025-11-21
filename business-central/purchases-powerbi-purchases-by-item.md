@@ -4,7 +4,7 @@ description: The Purchases by Item report gives a clear picture of your organiza
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37016_Primary
 ms.date: 10/31/2024

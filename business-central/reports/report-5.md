@@ -4,7 +4,7 @@ description: Displays a side-by-side comparison of customer and vendor balances 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5_Primary
 ms.date: 06/17/2025

@@ -4,7 +4,7 @@ description: Identifies transactions where VAT was expected but not calculated o
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: VAT, tax, exceptions, reporting, finance
 ms.search.form: Report_31_Primary
 ms.date: 06/25/2025

@@ -4,7 +4,7 @@ description: Get a detailed breakdown of your closing balances over 12 accountin
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_38_Primary
 ms.date: 10/18/2024

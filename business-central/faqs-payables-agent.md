@@ -1,7 +1,7 @@
 ---
 title: FAQ for Payables Agent
 description: Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 10/29/2025
+ms.date: 11/23/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -18,125 +18,114 @@ These frequently asked questions (FAQ) describe the AI impact of Payables Agent 
 
 ## What is the Payables Agent?
 
-The Payables Agent is an integrated copilot with agent capabilities that automates the task of creating purchase invoices. It starts by receiving a vendor's invoice attached to an email. The agent analyzes the email attachment content, identifies the vendor from the registered list in [!INCLUDE [prod_short](includes/prod_short.md)], and prepares a draft purchase invoice with the requested invoice lines. It also offers the capability to help with vendor creation as part of this process.
+Payables Agent is an autonomous AI-powered agent in Microsoft Dynamics 365 Business Central that automates vendor invoice processing. It operates independently to monitor your designated email inbox for PDF invoice attachments, extracts the invoice data, matches vendors, suggests account classifications, and creates draft purchase documents for your review.
 
-The agent is readily available in [!INCLUDE [prod_short](includes/prod_short.md)]; you just need to activate it. You can also configure the agent to suit your business:
+The system combines document processing technology with generative AI to help finance teams reduce manual data entry and speed up accounts payable workflows. When you receive a vendor invoice via email, Payables Agent autonomously processes the PDF attachment, identifies the vendor from your existing vendor list, analyzes each line item to suggest appropriate accounting treatments, and creates a complete draft purchase invoice ready for your approval.
 
-- Define the name of the agent.
-- Build a list of users who can delegate the process of taking purchase invoices to it. 
-- Specify the channel the agent uses to receive invoices, for example, by e-mail, and the steps you want to include or exclude in that process.
+> [!IMPORTANT]
+> **Safety Note**: Payables Agent never performs severe or irreversible actions. It creates drafts only and never automatically posts invoices or makes permanent changes to your financial data without explicit human approval.
 
-After you activate the agent, it's ready to process invoices.
+## What can Payables Agent do?
 
-## What are the capabilities of the Payables Agent?
+Payables Agent handles the end-to-end process of converting vendor invoices into draft purchase documents:
 
-The Payables Agent uses AI to identify and complete tasks based on its instructions and user configuration. The agent acts as a user with access limited to the necessary parts of the product. Learn more about its capabilities in [Payables Agent overview](payables-agent.md).
+- **Email Processing**: Monitors your designated payables email inbox for incoming PDF invoice attachments and automatically begins processing valid invoices.
 
-- Agent instructions
+- **Document Extraction**: Uses Azure Document Intelligence to extract text, amounts, dates, line items, and vendor details from PDF invoices.
 
-  The agent gets high-level business instructions that define its purpose, outline the tasks it performs, and specify more considerations. These instructions are set in the agent code and aren't visible to users.
+- **Vendor Identification**: Matches vendors using multiple approaches:
 
-- Configuration
+  - Exact matching with government registration numbers (VAT registration numbers, Global Location Numbers)
 
-  When you set up the Payables Agent, you can:
-  
-  - Define which users delegate tasks to the agent.
-  - Set channels for receiving orders, like email.
-  - Select which steps of the order-taking process to include or exclude, like converting a purchase document draft into a purchase invoice.
-  - Assign predefined permissions and a UI role (profile) to control which parts of the product and UI elements the agent can access.
+  - Name and address similarity matching
 
-- Task execution and interaction
+  - AI-powered vendor search that analyzes vendor details and searches historical transactions and your vendor list when exact matching fails
 
-  A built-in email dispatcher runs as a scheduled task and monitors the company mailbox specified in the agent’s configuration. The dispatcher forwards email attachments from vendors to the Payables Agent, which prepares a draft purchase invoice based on the attachment data.
+- **Account Classification**: Suggests appropriate accounting treatments for each invoice line:
 
-  The agent interacts with the [!INCLUDE [prod_short](includes/prod_short.md)] web client using the logical UI API. The agent can:
-  
-  - Read data displayed on product pages.
-  - Access properties of UI elements, such as names, descriptions, fields, actions, and tooltips.
-  - Combine this data with user-provided instructions and email data.
-  - Use AI and business knowledge to orchestrate the steps needed to complete each task.
+  - Matches line descriptions to general ledger accounts based on your chart of accounts and transaction history
 
-- Integration with other services
+  - Recommends deferral templates when items should be deferred over time
 
-  The agent uses Azure Document Intelligence to analyze email attachments with Optical Character Recognition (OCR). It matches vendor invoice lines to accounts or items by using mapping tables, historical data, and an LLM that matches line descriptions to G/L account names from the customer's database.
+  - Identifies items that match your existing inventory
 
-- Human intervention and transparency
+- **Vendor Creation**: When no existing vendor match is found, offers to create new vendor records based on invoice information, subject to your review and approval.
 
-  The agent asks you to take action in specific situations, like when it can't find a matching vendor or G/L account, or when you need to approve a business decision. It shows notifications in the role center to let you know when your attention is needed.
+- **Draft Creation**: Generates complete draft purchase invoices with all extracted data and AI suggestions, ready for your review and approval.
 
-  For each task, you can view a detailed timeline that shows key steps taken by the agent and by people, including when you receive the initial email. You can review and update the agent’s suggested values and actions as needed.
+- **Human Oversight**: Stops processing and requests your assistance whenever it encounters uncertainty, such as unidentifiable vendors or unclear line item classifications. The agent escalates high-risk actions like vendor creation or unusual account assignments for mandatory human approval.
 
-## What is the intended use of the Payables Agent?
+- **Agent Identity**: Payables Agent operates with its own unique user identity in Business Central. All actions taken by the agent are clearly attributed to this agent user, providing complete audit trails and traceability.
 
-The Payables Agent handles the entire purchase invoice extraction and processing. It takes the vendor's invoice attached in an email, analyzes the data in the attachment, prepares a purchase document draft, and converts the draft to a purchase invoice.
+## What is Payables Agent's intended use?
 
-## How was the Payables Agent evaluated? What metrics are used to measure performance?
+Payables Agent is intended to automate routine vendor invoice processing for Business Central customers, with the primary objective of creating accurate draft purchase invoices from vendor invoices received via email. The system is designed to handle standard business invoices from known vendors, where it can reliably extract invoice data and match it to existing vendors and accounting codes.
 
-The Payables Agent was tested for accuracy and safety.
+The agent is designed for finance teams that regularly process vendor invoices and want to reduce manual data entry while maintaining full control over their accounting records. All drafts created by Payables Agent require human review and approval before posting.
 
-- Accuracy was tested using 150 test cases with unique PDF invoices that exhibit varying degrees of completeness and complexity.
-- Safety was tested using 240 test cases that covered categories such as cross-domain prompt injection attacks (XPIA), self-harm, sexual, and violence.
+**High-Risk Actions**: The agent treats vendor creation and converting drafts to purchase invoices as high-risk actions that require mandatory human approval before proceeding.
 
-## What are the limitations of the Payables Agent? How can users minimize the impact of the Payables Agent’s limitations when using the system?
+## How was Payables Agent evaluated? What metrics are used to measure performance?
 
-### Languages
+Payables Agent was evaluated through extensive manual and automated testing covering both accuracy and safety.
 
-- [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)].
-- Due to limited language support, the system isn't initially available to Canadian customers because regulatory language compliance mandates support for both English and French.
+For accuracy testing, the agent was tested on hundreds of invoice scenarios covering different vendors, invoice formats, and line-item complexities. The testing measured how accurately the system extracted invoice data, matched vendors, and suggested appropriate account classifications compared to human reviewers.
 
-### Email
+For safety testing, the agent’s responses were evaluated to potentially harmful content, adversarial inputs, and attempts to manipulate the AI system. This included testing with malicious invoice content and user instructions designed to bypass safety measures.
 
-- The agent reads inbound email from a shared inbox on Microsoft Exchange. Learn more in [Set up email](admin-how-setup-email.md). The agent doesn't support other ways to receive email.
-- The agent doesn't process the email body&mdash;it processes only attachments.
-- The agent processes only PDF attachments up to 5 MB.
-- The agent processes only PDF attachments up to 10 pages.
-- The agent processes only email messages with up to 10 PDF attachments.
-- The agent processes a maximum 100 email messages every 24 hours in a single mailbox.
-- The agent processes a maximum 500 PDF attachments every 24 hours in a single mailbox.
-- Email messages that the agent generates might contain incorrect information. The agent asks a human user to review and edit every outbound message if necessary.
+The agent performance is monitor through user feedback and automated quality checks on all processed invoices.
 
-### Entities and data the agent works with
+## What are the limitations of Payables Agent? How can users minimize the impact of these limitations?
 
-- The agent only creates purchase document drafts and purchase invoices. It can't create or work with other purchase documents like purchase orders or purchase credit memos, or documents in other areas of the product like sales or service orders.
-- The agent doesn't create new items, contacts, or G/L accounts. It only works with entities already registered in Business Central. However, the agent can be instructed to create new vendors in cases where the vendor of a received invoice is unknown or unmatched.
-- The agent doesn't post any documents.
+- **File Format and Language Support:** The agent works with PDF invoices only - other file formats are not supported. The invoices must arrive via email to monitored mailboxes; users cannot upload files directly. The agent only supports English.
 
-### Additional limitations
+- **AI-Generated Content Accuracy**: Payables Agent writes suggestions in a clear way, but the account classifications and vendor matches it generates can be inaccurate. The system cannot understand business context or evaluate accuracy the way humans can, so you should always review what it suggests and use your judgment before approving any draft.
 
-- If the agent stops working, it notifies the users in the same place that it normally notifies users when it needs approval to process an email. For example, the agent stops if it loses access to the shared mailbox or calls to the LLM (large language models) are failing.
-- When calling an LLM to match invoice lines with G/L Accounts, the agent matches only with G/L Accounts that allow direct posting and that are of type "Income Statement".
-- When the agent calls an LLM to match invoice lines with G/L Accounts, it first checks the list of income statement G/L Accounts that allow direct posting. If this list exceeds the limit of 20,000 AI tokens (a limit that customers can't currently configure), the agent doesn't call the LLM. Instead, it notifies users in the same place where it normally notifies them when approval is needed to process an email.
-- Delegated administrators can't activate the agent.
-- It's only possible to configure and use one Payables Agent per company in [!INCLUDE [prod_short](includes/prod_short.md)].
+- **Data Dependencies**: Account suggestions improve with historical transaction data. Companies with limited transaction history will receive fewer automated suggestions since the agent learns from past invoices and accounting decisions.
 
-## What operational factors and settings allow for effective and responsible use of the Payables Agent?
+- **Volume Limitations**: Payables Agent processes up to 100 emails per day and up to 50 emails in one batch. PDF attachments must be 5MB or smaller and contain a maximum of 10 pages. High-volume processing may experience delays during peak usage periods.
 
-- Access control and permissions
+To address these limitations, always review drafts before approval, and maintain good vendor and chart of accounts data in Business Central.
 
-  Like any other user in [!INCLUDE [prod_short](includes/prod_short.md)], the Payables Agent can be granted access exclusively to the specific parts of the product required to perform its designated tasks. The agent comes with predefined permissions and a user interface (UI) role, also known as a profile, that an administrator or configuring user can assign to the agent. This assignment restricts the agent's access to certain areas of the product. It defines the type of access (for example, whether the agent is only allowed to read specific data or also update or delete it) and determines which UI elements—such as pages, fields, actions, and FactBoxes—it can interact with.  
+### What operational factors and settings allow for effective and responsible use of Payables Agent?
 
-  We strongly encourage using the permission sets and the profile included with the Payables Agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
+- **Email Configuration**: Set up a dedicated email address for vendor invoices that Payables Agent monitors. This helps ensure only legitimate business invoices are processed and provides clear audit trails.
 
-  Learn more in [Set up Payables Agent](payables-agent-setup.md).
+- **User Permissions and Controls**: Payables Agent operates under Business Central's standard security model with additional autonomous agent safeguards. When setting up the agent, administrators assign specific user profiles and permission sets that define exactly what the agent can access and modify. Users can configure which other users can delegate invoice processing tasks to the agent. The agent can only access data within these predefined boundaries and cannot exceed the permissions granted to it.
 
-- Transparency and notifications
+- **Review and Approval Process**: Always review drafts before approval. Payables Agent creates drafts but never automatically posts invoices. The system provides detailed information about its suggestions and reasoning to help you make informed decisions.
 
-  You can maintain full transparency and control over the changes made by the Payables Agent by using other experiences that enable them to:
+- **Data Quality**: Maintain accurate vendor information and chart of accounts in Business Central. The system's suggestions improve when your master data is complete and up-to-date.
 
-  - Receive notifications on the role center that come from the agent when it requires help or when the process demands human review. For example, review is required for all inbound and outbound messages, approvals, adding missing data, and similar reasons.
-  - Get a better understanding of the specific task context and history ("timeline" view), including key steps involved in it.
-  - Get a detailed review of each entity created by the agent (for example, a sales quote or sales order that surfaces all changes and suggestions made by the agent within a specific task). This behavior allows humans to review and adjust changes, and then sign out on proceeding with the task.
-  - Get an overview of the agent's KPIs (Key Performance Indicators) that summarize the impact of the agent's work. For example, you can get an overview of the number of sales quotes or orders created by the agent and the total number of these orders.
+- **Monitoring and Feedback**: Pay attention to notifications from Payables Agent when it needs assistance. Provide feedback on suggestions to help improve system accuracy over time.
 
-    Make sure you attend to the notifications raised by the agent to review and approve its work.  
-- All actions done by the agent, including creating and modifying records and calling actions, carry the agent's user ID. This user ID appears in the same places and in the same way as it does with other users, such as in list views, history, posted documents, notifications, and more.  
-- Approval workflows can be used to add an extra layer of control to the tasks done by the agent, as they do with other users. You can set up approval workflows to make the agent create a request for approval for a specific change, for example, to mark the quote as released. The change isn't allowed until another user approves the request. Learn more in [Use Approval Workflows](across-how-use-approval-workflows.md).
+- **User Control Mechanisms**: Users can stop agent tasks at any point during processing and can skip the automatic email verification step for faster processing when desired. The agent provides clear notifications when it needs assistance or approval.
+
+- **Admin Controls**: Administrators can disable Payables Agent at any time per company. The feature respects all existing Business Central security permissions and approval workflows.
+
+## How do I provide feedback on Payables Agent?
+
+Your feedback helps improve Payables Agent's accuracy and usefulness. Business Central provides built-in feedback options directly in the interface where you review agent-generated content.
+
+- **Thumbs Up/Down Feedback**: When you navigate to a draft created by Payables Agent, you will see thumbs up and thumbs down icons next to lines populated by the AI. Use the thumbs up when you are satisfied with the agent's suggestions. Click thumbs down when you are not happy with the results.
+
+- **Detailed Feedback**: When you select thumbs down, a dialog appears allowing you to submit specific feedback to Microsoft. You can categorize the issue as: inaccurate, offensive/inappropriate for work or other. You can then provide additional details about what went wrong in a text field. Please avoid including personal or sensitive information in your feedback.
+
+- **Privacy Note**: When you submit feedback, it will be used to improve Microsoft products and services. Your organization's IT administrators will be able to view and manage your feedback data.
+
+For technical issues or questions about setup and configuration, contact Microsoft Support through your standard Business Central support channels.
 
 [!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
-## Is this capability extensible?
+## How does Payables Agent show me what it is doing?
 
-No. Microsoft creates and maintains the Payables Agent, and its code isn't extensible by other solutions or plugins.
+- **Autonomous Agent Interface**: Payables Agent uses a dedicated side panel in Business Central that is specifically designed for autonomous agent interactions. This panel is distinct from other Business Central features and clearly identifies when you are interacting with an AI agent.
+
+- **Real-Time Visibility**: As the agent works, you can see its progress, reasoning, and decisions in the side panel. The system explains why it made specific vendor matches or account suggestions.
+
+- **Complete Timeline**: After processing, you get a detailed timeline view showing every step the agent took, including when it received the email, extracted data, made decisions, and created drafts. This provides full transparency into the agent's autonomous actions.
+
+- **Clear AI Disclosure**: All content generated or suggested by the agent is clearly marked as AI-generated. You always know when you are reviewing agent-created content versus human-entered data.
 
 ## Related information
 

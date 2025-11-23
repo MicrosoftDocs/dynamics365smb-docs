@@ -35,7 +35,7 @@ On the upper right of the navigation menu, select the icon for the agent:
 
 A red circle with a number on the icon indicates the number of tasks that need attention.
 
-![Shows the agent task view with process steps](media/payables-agent-tasks-pane.svg)
+![Shows the agent task view with process steps](media/agent-task-view-pane.svg)
 
 Selecting the ![Task view icon in Copilot pane](media/sot-task-view-icon.png) icon opens the **Tasks** tab in the **Copilot** pane, where you can view tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
 

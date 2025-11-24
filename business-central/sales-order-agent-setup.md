@@ -64,8 +64,8 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Mailbox** field to the email account you want the agent to monitor.
 1. Set the **Default language** field to specify the language the agent uses for:
 
-   - Outgoing email messages to customers or contacts. If a customer or contact card has a language specified, the agent uses that language instead of the default.
-   - Task deatils and descriptions displayed to users in the **Tasks** pane and log.
+   - Outgoing emails to customers or contacts. If a customer or contact card has a language specified, the agent uses that language instead of the default.
+   - Messages about tasks to users in the **Tasks** pane.
 
    When you first configure the agent, the field is set to the same language as the display language of your workspace. You can change the language later from the **Sales Order Agent** card page. Learn more about these settings in [Change language, region, and other settings](#change-agent-language-region-and-other-settings).
 

@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate Sales Order Agent and manage user access.
-ms.date: 10/27/2025
+ms.date: 11/24/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer
@@ -62,9 +62,9 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
 1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Mailbox** field to the email account you want the agent to monitor.
-1. Set the **Default language** to the language in which you want task details and messages in the **Tasks** pane and log entries. You must choose one of the supported languages listed in the [prerequisites](#prerequisites).
+1. Set the **Default language** to specify the language the agent uses for generated text in task details in the **Task** pane and outgoing email messages to customers or contacts.
 
-   When you first configure the agent, the field is set to the same language as the display language of your workspace. You can change the language later from the **Sales Order Agent** card page. Learn more in [Change language and regional settings](#change-language-and-regional-settings).
+   When you first configure the agent, the field is set to the same language as the display language of your workspace. You can change the language later from the **Sales Order Agent** card page. Learn more about these settings in [Change language, region, and other settings](#change-agent-language-region-and-other-settings).
 
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
@@ -184,13 +184,19 @@ You can't modify the **SOA AGENT – EDIT** permission set directly, because it'
 
 Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
 
-## Change language and regional settings
+## Change agent language, region, and other settings
 
 [!INCLUDE[soa-language-support](includes/soa-language-support.md)]
 
 1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
-1. Select **User Settings**.
-1. Set **Language** to a supported English locale.
+1. Select **Agent User Settings** and set the following fields:
+
+   |Field|Description|
+   |-|-|
+   |Profile|Specifies the role that defines the agent's home page with links to the most common tasks.|
+   |Region|Specifies the regional format used by the agent for dates, times, and numbers in outgoing emails and task details.|
+   |Language|Specifies the language the agent uses for generated text in:<ul><li>Task details and descriptions in the agent **Tasks** pane and log.</li><li>Outgoing email messages to customers or contacts, unless a language is specified for a customer's or contact's card page.</li></ul> |
+   |Time zone|Specifies the time zone used by the agent when displaying and processing date and time in tasks details.|
 
 ## Next steps
 

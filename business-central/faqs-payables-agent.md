@@ -1,7 +1,7 @@
 ---
 title: FAQ for Payables Agent
 description: Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 11/23/2025
+ms.date: 11/24/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -77,13 +77,13 @@ The agent performance is monitor through user feedback and automated quality che
 
 ## What are the limitations of Payables Agent? How can users minimize the impact of these limitations?
 
-- **File Format and Language Support:** The agent works with PDF invoices only - other file formats are not supported. The invoices must arrive via email to monitored mailboxes; users cannot upload files directly. The agent only supports English.
+- **File Format and Language Support:** The agent works with PDF invoices only - other file formats aren't supported. The invoices must arrive via email to monitored mailboxes; users can't upload files directly. The agent only supports English.
 
-- **AI-Generated Content Accuracy**: Payables Agent writes suggestions in a clear way, but the account classifications and vendor matches it generates can be inaccurate. The system cannot understand business context or evaluate accuracy the way humans can, so you should always review what it suggests and use your judgment before approving any draft.
+- **AI-Generated Content Accuracy**: Payables Agent writes suggestions in a clear way, but the account classifications and vendor matches it generates can be inaccurate. The system can't understand business context or evaluate accuracy the way humans can, so you should always review what it suggests and use your judgment before approving any draft.
 
-- **Data Dependencies**: Account suggestions improve with historical transaction data. Companies with limited transaction history will receive fewer automated suggestions since the agent learns from past invoices and accounting decisions.
+- **Data Dependencies**: Account suggestions improve with historical transaction data. Companies with limited transaction history receive fewer automated suggestions since the agent learns from past invoices and accounting decisions.
 
-- **Volume Limitations**: Payables Agent processes up to 100 emails per day and up to 50 emails in one batch. PDF attachments must be 5MB or smaller and contain a maximum of 10 pages. High-volume processing may experience delays during peak usage periods.
+- **Volume Limitations**: Payables Agent processes up to 100 emails per day and up to 50 emails in one batch. PDF attachments must be 5MB or smaller and contain a maximum of 10 pages. High-volume processing might experience delays during peak usage periods.
 
 To address these limitations, always review drafts before approval, and maintain good vendor and chart of accounts data in Business Central.
 
@@ -91,7 +91,7 @@ To address these limitations, always review drafts before approval, and maintain
 
 - **Email Configuration**: Set up a dedicated email address for vendor invoices that Payables Agent monitors. This helps ensure only legitimate business invoices are processed and provides clear audit trails.
 
-- **User Permissions and Controls**: Payables Agent operates under Business Central's standard security model with additional autonomous agent safeguards. When setting up the agent, administrators assign specific user profiles and permission sets that define exactly what the agent can access and modify. Users can configure which other users can delegate invoice processing tasks to the agent. The agent can only access data within these predefined boundaries and cannot exceed the permissions granted to it.
+- **User Permissions and Controls**: Payables Agent operates under Business Central's standard security model with extra autonomous agent safeguards. When setting up the agent, administrators assign specific user profiles and permission sets that define exactly what the agent can access and modify. Users can configure which other users can delegate invoice processing tasks to the agent. The agent can only access data within these predefined boundaries and can't exceed the permissions granted to it.
 
 - **Review and Approval Process**: Always review drafts before approval. Payables Agent creates drafts but never automatically posts invoices. The system provides detailed information about its suggestions and reasoning to help you make informed decisions.
 
@@ -107,25 +107,25 @@ To address these limitations, always review drafts before approval, and maintain
 
 Your feedback helps improve Payables Agent's accuracy and usefulness. Business Central provides built-in feedback options directly in the interface where you review agent-generated content.
 
-- **Thumbs Up/Down Feedback**: When you navigate to a draft created by Payables Agent, you will see thumbs up and thumbs down icons next to lines populated by the AI. Use the thumbs up when you are satisfied with the agent's suggestions. Click thumbs down when you are not happy with the results.
+- **Thumbs Up/Down Feedback**: When you navigate to a draft created by Payables Agent, you see thumbs up and thumbs down icons next to lines populated by the AI. Use the thumbs up when you're satisfied with the agent's suggestions. Select thumbs down when you aren't happy with the results.
 
-- **Detailed Feedback**: When you select thumbs down, a dialog appears allowing you to submit specific feedback to Microsoft. You can categorize the issue as: inaccurate, offensive/inappropriate for work or other. You can then provide additional details about what went wrong in a text field. Please avoid including personal or sensitive information in your feedback.
+- **Detailed Feedback**: When you select thumbs down, a dialog appears allowing you to submit specific feedback to Microsoft. You can categorize the issue as: inaccurate, offensive/inappropriate for work, or other. You can then provide more details about what went wrong in a text field. Avoid including personal or sensitive information in your feedback.
 
-- **Privacy Note**: When you submit feedback, it will be used to improve Microsoft products and services. Your organization's IT administrators will be able to view and manage your feedback data.
+- **Privacy Note**: When you submit feedback, it's used to improve Microsoft products and services. Your organization's IT administrators are able to view and manage your feedback data.
 
 For technical issues or questions about setup and configuration, contact Microsoft Support through your standard Business Central support channels.
 
 [!INCLUDE[ai-data-collection](includes/ai-data-collection.md)]
 
-## How does Payables Agent show me what it is doing?
+## How does Payables Agent show me what it's doing?
 
-- **Autonomous Agent Interface**: Payables Agent uses a dedicated side panel in Business Central that is specifically designed for autonomous agent interactions. This panel is distinct from other Business Central features and clearly identifies when you are interacting with an AI agent.
+- **Autonomous Agent Interface**: Payables Agent uses a dedicated side panel in Business Central that is designed for autonomous agent interactions. This panel is distinct from other Business Central features and clearly identifies when you're interacting with an AI agent.
 
 - **Real-Time Visibility**: As the agent works, you can see its progress, reasoning, and decisions in the side panel. The system explains why it made specific vendor matches or account suggestions.
 
-- **Complete Timeline**: After processing, you get a detailed timeline view showing every step the agent took, including when it received the email, extracted data, made decisions, and created drafts. This provides full transparency into the agent's autonomous actions.
+- **Complete Timeline**: After processing, you get a detailed timeline view showing every step the agent took, including when it received the email, extracted data, made decisions, and created drafts. The timeline provides full transparency into the agent's autonomous actions.
 
-- **Clear AI Disclosure**: All content generated or suggested by the agent is clearly marked as AI-generated. You always know when you are reviewing agent-created content versus human-entered data.
+- **Clear AI Disclosure**: All content generated or suggested by the agent is clearly marked as AI-generated. You always know when you're reviewing agent-created content versus human-entered data.
 
 ## Related information
 

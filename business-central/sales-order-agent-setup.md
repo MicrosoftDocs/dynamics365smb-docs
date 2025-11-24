@@ -62,7 +62,10 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
 1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Mailbox** field to the email account you want the agent to monitor.
-1. Set the **Default language** to specify the language the agent uses for generated text in task details in the **Task** pane and outgoing email messages to customers or contacts.
+1. Set the **Default language** field to specify the language the agent uses for:
+
+   - Outgoing email messages to customers or contacts. If a customer or contact card has a language specified, the agent uses that language instead of the default.
+   - Task deatils and descriptions displayed to users in the **Tasks** pane and log.
 
    When you first configure the agent, the field is set to the same language as the display language of your workspace. You can change the language later from the **Sales Order Agent** card page. Learn more about these settings in [Change language, region, and other settings](#change-agent-language-region-and-other-settings).
 
@@ -195,7 +198,7 @@ Before you can add or delete permission sets applied to the agent, change the **
    |-|-|
    |Profile|Specifies the role that defines the agent's home page with links to the most common tasks.|
    |Region|Specifies the regional format used by the agent for dates, times, and numbers in outgoing emails and task details.|
-   |Language|Specifies the language the agent uses for generated text in:<ul><li>Task details and descriptions in the agent **Tasks** pane and log.</li><li>Outgoing email messages to customers or contacts, unless a language is specified on the customer's or contact's card page.</li></ul> |
+   |Language|Specifies the language the agent uses for generated text in:<ul><li>Outgoing email messages to customers or contacts. If a customer or contact card has a language specified, the agent uses that language instead of the default.</li><li>Task details and descriptions in the agent **Tasks** pane and log.</li></ul> |
    |Time zone|Specifies the time zone used by the agent when displaying and processing date and time in tasks details.|
 
 ## Next steps

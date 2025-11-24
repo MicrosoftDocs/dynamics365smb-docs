@@ -68,7 +68,7 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
-   The options are spread across multiple cards. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the cards and set the various options. Each tab below describes a group of related options:
+   The options are spread across multiple cards. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the cards and set the various options. Each tab that follows describes a group of related options:
 
    ## [Respond to inquiries](#tab/inquiries)
 
@@ -178,7 +178,7 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 
 Sales Order Agent has a user account in Business Central, similar to other users, which defines the permissions the agent has on objects and data. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]** to open the agent card page.
 
-The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, Sales Order Agent has the **SOA AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests.
+The **Agent Permission Sets** section lists the permission sets currently assigned to the agent. By default, Sales Order Agent has the **SOA AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests.
 
 You can't modify the **SOA AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set, modify the copy to suit your needs, and then add it to the **Agent Permission Sets** section, along with any other permission sets.
 
@@ -195,7 +195,7 @@ Before you can add or delete permission sets applied to the agent, change the **
    |-|-|
    |Profile|Specifies the role that defines the agent's home page with links to the most common tasks.|
    |Region|Specifies the regional format used by the agent for dates, times, and numbers in outgoing emails and task details.|
-   |Language|Specifies the language the agent uses for generated text in:<ul><li>Task details and descriptions in the agent **Tasks** pane and log.</li><li>Outgoing email messages to customers or contacts, unless a language is specified for a customer's or contact's card page.</li></ul> |
+   |Language|Specifies the language the agent uses for generated text in:<ul><li>Task details and descriptions in the agent **Tasks** pane and log.</li><li>Outgoing email messages to customers or contacts, unless a language is specified on the customer's or contact's card page.</li></ul> |
    |Time zone|Specifies the time zone used by the agent when displaying and processing date and time in tasks details.|
 
 ## Next steps

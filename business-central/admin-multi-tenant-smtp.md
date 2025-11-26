@@ -221,7 +221,7 @@ tenant_id = "b3a79c38-359b-430b-99c7-f82f93215001"
 client_id = "2f761990-2353-46a5-a000-f1693818df25"
 client_secret = "YOUR_CLIENT_SECRET"
 
-  \<Get an access token>
+  # Get an access token
 token_url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
 data = {
     "client_id": client_id,
@@ -231,12 +231,12 @@ data = {
 }
 access_token = requests.post(token_url, data=data).json()["access_token"]
 
-  \<Build an XOAUTH2 authentication string>
+  # Build an XOAUTH2 authentication string
 user = "service@yourdomain.com"
 auth_string = f"user={user}\x01auth=Bearer {access_token}\x01\x01"
 auth_b64 = base64.b64encode(auth_string.encode()).decode()
 
-   \<Send a test email>
+  # Send a test email
 from_addr = user
 to_addr = "recipient@example.com"
 msg = f"Subject: SMTP OAuth Test\n\nThis is a test email via App Registration."

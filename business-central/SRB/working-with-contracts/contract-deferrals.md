@@ -92,14 +92,16 @@ Use the **Subscription Contract Deferrals Release** report to release invoice de
 * Runs through all customer and vendor contract deferrals, and filters using **Posting Until Date** from the report request page to the **Posting Date** and **Document Posting Date** fields
 * Reposts the items found from the accrual account to the cost or revenue account.
 
-The release takes place for debit-side and credit-side contract accruals at the same time. The **Posting Date** field from the report request page is used as the posting date for the closure. At the same time, the status in **Released** field in the contract deferrals is set to **Yes**.
+The release takes place for debit-side and credit-side contract deferrals at the same time. The **Posting Date** field from the report request page is used as the posting date for the closure. At the same time, the status in **Released** field in the contract deferrals is set to **Yes**.
 
-We recommend that you run the release of contract deferrals on a monthly basis (for example, at the end of the month).
+> [!TIP]
+> You can set up report 8051, **Subscription Contract Deferrals Release**, as an entry in the job queue. If you do that, the work date will be used for the two fields, **Posting Date** and **Post Until Date**.
+
+It's recommend to you run the release of contract deferrals on a monthly basis (for example, at the end of the month).
 
 When you post the release, the source code is used. The source code is in the **Subscription Contract Deferrals Release** field in the **Source Code Setup** page.
 
 > [!NOTE]
->
 > * If deferrals were created by a contract invoice, they're automatically released fully on the **Posting Date of Credit Memo** when the contract invoice is credited.
 > * Contract deferrals shouldn't be released to future periods.
 > * Credit memos shouldn't post to past (supposedly closed) periods. The release and correction of the contract deferrals happen on the document date of the credit memo. This mismatch could distort the reporting and the advance VAT return already created. If the credit memo was posted in a past period, these two points, among others, must be corrected in coordination with the departments, such as internal financial accounting or your tax advisor.

@@ -75,8 +75,6 @@ The first step is to register the app you have in "Tenant A" in Microsoft Entra 
 
 ## Register the service principal in Exchange Online
 
-<!--Think we need to introduce this section. For example, why are they doing this?-->
-
 1. In PowerShell, use the following link to consent. Replace the tenant ID and client ID (App ID) with the values for your "Tenant B."
 
    ```PowerShell
@@ -113,7 +111,7 @@ The first step is to register the app you have in "Tenant A" in Microsoft Entra 
 
 $sp = Get-ServicePrincipal | Where-Object { $_.AppId -eq "{AppID}" }
 
- \<Replace this with the mailbox you use as the from_addr / user= in XOAUTH2>
+ # Replace this with the mailbox you use as the from_addr / user= in XOAUTH2.
 $Mailbox = "someuser@xxx.onmicrosoft.com"
 
 Add-MailboxPermission -Identity $Mailbox `
@@ -121,7 +119,7 @@ Add-MailboxPermission -Identity $Mailbox `
     -AccessRights FullAccess `
     -AutoMapping:$false
 
- \<If you have multiple users, create a group for them and then assign them.>
+ # If you have multiple users, create a group for them and then assign them.
 Get-DistributionGroupMember "Your group name" |
   ForEach-Object {
       Add-MailboxPermission -$_.PrimarySmtpAddress `
@@ -150,7 +148,7 @@ Get-DistributionGroupMember "Your group name" |
    Connect-ExchangeOnline -UserPrincipalName admin@yourtenant.onmicrosoft.com
    Get-CASMailbox -Identity admin@yourtenant.onmicrosoft.com | Select SmtpClientAuthenticationDisabled
 
-   \<If the output is false, it's enabled. But if it's true, SMTP is disabled and you must run the following command to enable it:>
+   # If the output is false, it's enabled. But if it's true, SMTP is disabled and you must run the following command to enable it:
 
    Set-CASMailbox -Identity admin@yourtenant.onmicrosoft.com -SmtpClientAuthenticationDisabled $false
 
@@ -162,7 +160,7 @@ Get-DistributionGroupMember "Your group name" |
 
    Get-TransportConfig | Select SmtpClientAuthenticationDisabled
 
-   \<If the output is false it's enabled. If it's true, SMTP is disabled and you must run the following command to enable it:>
+   # If the output is false it's enabled. If it's true, SMTP is disabled and you must run the following command to enable it:
 
    Set-TransportConfig -SmtpClientAuthenticationDisabled $false
 
@@ -217,8 +215,8 @@ The following is a basic example you can use to test SMTP OAuth.
 
 import base64, smtplib, requests
 
-tenant_id = "b3a79c38-359b-430b-99c7-f82f93215001"
-client_id = "2f761990-2353-46a5-a000-f1693818df25"
+tenant_id = "11111111-2222-3333-4444-555555555555"
+client_id = "11111111-2222-3333-4444-555555555555"
 client_secret = "YOUR_CLIENT_SECRET"
 
   # Get an access token

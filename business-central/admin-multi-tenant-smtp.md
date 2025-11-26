@@ -62,7 +62,7 @@ The first step is to register the app you have in "Tenant A" in Microsoft Entra 
 1. Choose **Application permissions**.
 1. Expand **SMTP**, and then choose **SMTP.SendAsApp**.
 1. Choose **Add permissions**.
-1. On the permissions page, choose **Grand admin consent for your \<your organization>**.
+1. On the permissions page, choose **Grant admin consent for your \<your organization>**.
 1. Double-check that **SMTP.SendAsApp** has a green checkmark.
 
 ## Create a client secret or certificate
@@ -79,15 +79,15 @@ The first step is to register the app you have in "Tenant A" in Microsoft Entra 
 
 1. In PowerShell, use the following link to consent. Replace the tenant ID and client ID (App ID) with the values for your "Tenant B."
 
-   ``PowerShell
+   ```PowerShell
    https://login.microsoftonline.com/\<TenantB_ID>/oauth2/v2.0/authorize?client_id=\<Client_ID>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent
 
-   ``
+   ```
 
 1. In Microsoft Entra admin center, go to **Enterprise apps**, find your app, and then copy the value in the **Object ID** field. The object ID is used as the service ID in the command in the next step in this process.
 1. To create a new service principal in your tenant, run the following in PowerShell as an administrator
 
-   ``PowerShell
+   ```PowerShell
 
    Install-Module ExchangeOnlineManagement -Scope CurrentUser
 
@@ -100,7 +100,7 @@ The first step is to register the app you have in "Tenant A" in Microsoft Entra 
 
    New-ServicePrincipal -AppId $AppId -ServiceId $ServiceId -DisplayName $Display
 
-   ``
+   ```
 
 > [!NOTE]
 > If a service principal already exists, the command might show an error, but you can safely ignore it.
@@ -109,7 +109,7 @@ The first step is to register the app you have in "Tenant A" in Microsoft Entra 
 
 1. In PowerShell, run the following command to grant the app permission to send email from your mailbox.
 
-``PowerShell
+```PowerShell
 
 $sp = Get-ServicePrincipal | Where-Object { $_.AppId -eq "{AppID}" }
 
@@ -130,13 +130,13 @@ Get-DistributionGroupMember "Your group name" |
           -AutoMapping:$false
   }
 
-``
+```
 
 1. Run the following command to verify the permissions.
 
-   ``PowerShell
+   ```PowerShell
    Get-MailboxPermission  -Identity $Mailbox | ? {$_.User -eq $Display}
-   ``
+   ```
 
    You should have either **AccessRights**, **SendAs**, or both.
 
@@ -144,7 +144,7 @@ Get-DistributionGroupMember "Your group name" |
 
 1. In PowerShell, run the following command to verify your SMTP OAuth configuration.
 
-   ``PowerShell
+   ```PowerShell
    
    Import-Module ExchangeOnlineManagement
    Connect-ExchangeOnline -UserPrincipalName admin@yourtenant.onmicrosoft.com
@@ -154,11 +154,11 @@ Get-DistributionGroupMember "Your group name" |
 
    Set-CASMailbox -Identity admin@yourtenant.onmicrosoft.com -SmtpClientAuthenticationDisabled $false
 
-   ``
+   ```
 
 1. To enable SMTP for your entire organization level, run the following command:
 
-   ``PowerShell
+   ```PowerShell
 
    Get-TransportConfig | Select SmtpClientAuthenticationDisabled
 
@@ -166,15 +166,15 @@ Get-DistributionGroupMember "Your group name" |
 
    Set-TransportConfig -SmtpClientAuthenticationDisabled $false
 
-   ``
+   ```
 
 1. To verify that SMTP OPAuth is globally enabled, run the following command:
 
-   ``PowerShell
+   ```PowerShell
 
    Get-TransportConfig | fl SmtpClientAuthenticationDisabled,OAuth2ClientProfileEnabled
 
-   ``
+   ```
 
    The following are the expected output:
 
@@ -183,11 +183,11 @@ Get-DistributionGroupMember "Your group name" |
 
    If `SmtpClientAuthenticationDisabled` is `True`, run the following command to enable it:
 
-   ``PowerShell 
+   ```PowerShell 
 
    Set-TransportConfig -SmtpClientAuthenticationDisabled $false
 
-   ``
+   ```
 
 ## Set up your SMTP account in Business Central
 
@@ -213,7 +213,7 @@ Get-DistributionGroupMember "Your group name" |
 
 The following is a basic example you can use to test SMTP OAuth.
 
-``Python
+```Python
 
 import base64, smtplib, requests
 
@@ -248,7 +248,7 @@ with smtplib.SMTP("smtp.office365.com", 587) as s:
 
 print("✅ Email sent successfully!")
 
-``
+```
 
 ## Troubleshooting
 

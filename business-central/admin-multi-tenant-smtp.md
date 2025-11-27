@@ -16,9 +16,12 @@ ms.custom: bap-template
 
 This article explains how to configure your Microsoft 365 tenant so that [!INCLUDE [prod_short](includes/prod_short.md)] can send emails through SMTP AUTH using OAuth 2.0 (client credentials flow).
 
-This article also covers how to enable cross-tenant scenarios, where you have an Azure App is registered in one tenant but use it to send emails from another tenant.
+This article also covers how to enable cross-tenant scenarios, where you have an Azure App registered in one tenant but use it to send emails from another tenant.
 
-In the following procedures we refer to the tenant where you have the app as "Tenant A," and the tenant where you use it for SMTP as "Tenant B."
+In the following procedures we refer to the tenant where you have the app as "Tenant A," which is where your app is, and the tenant where you use it for SMTP as "Tenant B," which is where your [!INCLUDE [prod_short](includes/prod_short.md)] is.
+
+> [!IMPORTANT]
+> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of and setting up OAuth 2.0 authentication for SMTP. We currently don't support certificate-based authentication. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 
 ## Prerequisites
 
@@ -30,9 +33,9 @@ Before starting, ensure you have:
 - A [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises environment.
 - (Optional) Python 3.10+ or any other environment that supports OAuth-based SMTP authentication for testing.
 
-## Register your application in Azure portal
+## Create an application registration in Azure portal
 
-The first step is to register the app you have in "Tenant A" in Microsoft Entra ID.
+The first step is to create an app registration for the app you have in "Tenant A" in Microsoft Entra ID. The app registration lets Business Central send email from a mailbox that might be in another tenant. 
 
 1. Go to [Azure portal](https://portal.azure.com).
 1. Under **Azure services, choose **JMicrosoft Entra ID**.
@@ -56,13 +59,14 @@ The first step is to register the app you have in "Tenant A" in Microsoft Entra 
 
 ## Grant API permissions
 
+The next step is to give the app permission to send email.
+
 1. In Azure portal, on the app page, choose **API permissions**, and then choose **Add a permission**.
 1. Choose **APIS my organization uses**.
 1. Search for **Office 365 Exchange Online**.
 1. Choose **Application permissions**.
 1. Expand **SMTP**, and then choose **SMTP.SendAsApp**.
 1. Choose **Add permissions**.
-1. On the permissions page, choose **Grant admin consent for your \<your organization>**.
 1. Double-check that **SMTP.SendAsApp** has a green checkmark.
 
 ## Create a client secret or certificate

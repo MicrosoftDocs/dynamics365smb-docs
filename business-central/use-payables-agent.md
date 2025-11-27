@@ -87,6 +87,9 @@ When you review a step, you might need to change something the agent created or 
 
 In the **Give instructions to the agent** section of the step, you might get suggestions for instructions you can give. Copilot generates these suggestions automatically based on the current task. In some cases, there are no suggestions. Alternatively, you can write your own instructions in the **Type your instructions** box. After you select a suggestion or type instructions, select **Confirm** to let the agent resume the task.
 
+> [!IMPORTANT]
+> Your instructions are only used to complete this specific step. They aren't reused for the subsequent agent runs.
+
 ### How to write instructions
 
 You're free to enter any text in the **Type your instructions** box, which lets you write instructions in plain, everyday language. Here are some tips to get the best results:

@@ -1,5 +1,5 @@
 ---
-title: Supervise agent activities for processing orders and payables
+title: Supervise agent activities in Copilot pane
 description: Monitor Payables and Sales Order agents in Copilot Tasks, review drafts, confirm steps, and keep invoices and orders accurate.
 author: jswymer
 ms.author: jswymer
@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 09/30/2025
+ms.date: 11/23/2025
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template
@@ -18,13 +18,13 @@ ms.search.form: 4400, 4410
 ---
 # Supervise agent activities in Copilot pane
 
-You interact with Business Central agents, such as sales order and payables agents, directly in Copilot's **Tasks** tab. You can monitor task status, review agent-generated drafts and suggestions, and provide confirmations or input to help tasks complete responsibly and accurately.
+You interact with Business Central agents, such as Payables and Sales Order agents, directly in Copilot's **Tasks** tab. You can monitor task status, review agent-generated drafts and suggestions, and provide confirmations or input to help tasks complete responsibly and accurately.
 
 The process flow is different for each agent. This article explains the common aspects of working in the **Tasks** tab for all agents and answers frequently asked questions.
 
 ## Prerequisites
 
-The agent is activated, and you have permission to use it. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md) and [Set up Payables Agent](payables-agent-setup.md).
+The agent is activated, and you have permission to use it. Learn more in [Set up Payables Agent](payables-agent-setup.md) or [Set up Sales Order Agent](sales-order-agent-setup.md).
 
 ## Get started
 
@@ -35,7 +35,7 @@ On the upper right of the navigation menu, select the icon for the agent:
 
 A red circle with a number on the icon indicates the number of tasks that need attention.
 
-![Shows the Payables Agent task view with process steps](media/payables-agent-tasks-pane.svg)
+![Shows the agent task view with process steps](media/agent-task-view-pane.svg)
 
 Selecting the ![Task view icon in Copilot pane](media/sot-task-view-icon.png) icon opens the **Tasks** tab in the **Copilot** pane, where you can view tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
 
@@ -43,7 +43,7 @@ For each inquiry the agent receives, like a request for a quote or invoice, the 
 
 ## View summary of agent activities
 
-Hover over the agent's icon or select the ![Show summary for Agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) that measure the impact of the agent's work in your organization.
+Hover over the agent's icon or select the ![Show summary for agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) that measure the impact of the agent's work in your organization.
 
 ## Review and assist
 
@@ -54,7 +54,7 @@ The agent does most of the work autonomously, but sometimes it asks for user int
 - Review and confirm the draft documents, like quotes, orders and purchase invoices.
 - Help the agent get unblocked, like by providing missing data, creating a new contact for an order, or finding items.
 
-Learn more about the Payables Agent and its process flow in [Payables Agent process](payables-agent.md#payables-agent-process-flow) and [Sales Order Agent process](sales-order-agent.md#how-the-agent-processes-requests).
+Learn more about the agent's process flow in [Payables Agent process](payables-agent.md#payables-agent-process-flow) or [Sales Order Agent process](sales-order-agent.md#how-the-agent-processes-requests).
 
 ### Review a step
 
@@ -77,7 +77,7 @@ Steps that need intervention appear under **Needs Attention** in the **Tasks** t
 
    If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task. Learn more in [Stop a task](#stop-a-task).
 
-After confirmation, the agent continues with the task. When a new notification appears on the Payables Agent icon after some time, follow the same flow to review and confirm the results.
+After confirmation, the agent continues with the task. When a new notification appears on the agent icon after some time, follow the same flow to review and confirm the results.
 
 ## Give instructions to the agent
 
@@ -123,7 +123,8 @@ Before you stop a task, consider the following behavior:
 
 ## Related information
 
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Payables Agent overview](payables-agent.md)  
 [Set up Payables Agent](payables-agent-setup.md)  
-[FAQ for Payables Agent](faqs-payables-agent.md)  
-[Configure Copilot and agent capabilities](enable-ai.md)  
+[Sales Order Agent overview](payables-agent.md)  
+[Set up Sales Agent](payables-agent-setup.md)  

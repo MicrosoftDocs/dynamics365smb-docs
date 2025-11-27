@@ -2660,10 +2660,10 @@ ms.service: dynamics-365-business-central
 ### [Set up Sales Order Agent](sales-order-agent-setup.md?toc=/dynamics365/business-central/toc.json)
 ### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
-## Payables Agent (preview)
+## Payables Agent
 ### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
-<!--### [Use Payables Agent](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)-->
+### [Supervise agent activities](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)

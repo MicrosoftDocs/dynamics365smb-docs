@@ -20,7 +20,7 @@ All subscription contract lines have information about their validity and termin
 
 Use the **Subscription Line End Date** field to specify a date on which you stop billing a subscription line. The end date doesn't depend on the dates in the **Cancellation Possible Until** and **Term Until** fields.
 
-If there isn't an agreement with the supplier or customer, the field is blank. If the **Subscription Line End Date** is one day prior to the **Next Billing Date**, the contract line is considered terminated. When you run the **Update Subscription Line Dates** action, the contract line is marked as closed on the customer subscription contract. To learn more, go to [Customer subscription contracts](customer-contracts.md#customer-contracts).
+If there isn't an agreement with the supplier or customer, the field is blank. If the **Subscription Line End Date** is one day prior to the **Next Billing Date**, the contract line is considered terminated. When you run the **Update Subscription Line Dates** action, the contract line is marked as closed on the customer subscription contract. To learn more, go to [Customer subscription contracts](customer-contracts.md#customer-subscription-contracts).
 
 > [!NOTE]
 > If a contract line was billed by mistake because the **Subscription Line End Date** was incorrect, you can't just terminate it retroactively. The contract line would be considered billed for a period after the **Subscription Line End Date**. Therefore, you must first issue a credit memo. To learn more about credit memos, go to [Credit memos](../sales/credit-memo-cancellation.md). The credit memo resets the **Next Billing Date**, and you can terminate the contract line. This ensures that the process of crediting and ending the contract line is followed.

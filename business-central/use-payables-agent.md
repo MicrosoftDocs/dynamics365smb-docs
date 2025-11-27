@@ -128,4 +128,3 @@ Before you stop a task, consider the following behavior:
 [Set up Payables Agent](payables-agent-setup.md)  
 [Sales Order Agent overview](payables-agent.md)  
 [Set up Sales Agent](payables-agent-setup.md)  
-[FAQ for Sales Order Agent](faqs-sales-order-agent.md)  

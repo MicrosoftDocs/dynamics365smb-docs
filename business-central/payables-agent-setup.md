@@ -60,9 +60,9 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
 
    ![Shows the Payables Agent configuration wizard](media/payables-agent-setup.png)
 
-   The configuration of an agent can span multiple pages in the configuration. For the Payables Agent, two more configuration options are available on the next page. Use the navigation action on the right side of the wizard to progress to the next page of the wizard.
+1. The configuration of an agent can span multiple pages in the configuration. For the Payables Agent, two more configuration options are available on the next page. Use the navigation action on the right side of the wizard to progress to the next page of the wizard.
 
-   ![Shows the second page of the Payables Agent configuration wizard](media/payables-agent-setup-page2.png)
+   ![Shows the second page of the Payables Agent configuration wizard](media/payables-agent-setup-page3.png)
 
    1. **Get sample invoices**  
 
@@ -70,7 +70,7 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
 
       > [!TIP]
       > If you let the agent send the sample invoices, they show up in the agent task pane as coming from the same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples. 
-   1. **Document Creation**  
+   1. **Document processi**  
 
       Select more fields from matched purchase invoice history to populate automatically when the agent finalizes purchase document drafts to become purchase invoice documents. This feature ensures that purchase invoice line fields that aren't visible in the purchase document draft can be populated in the same process when matched with historic data. It's the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
 

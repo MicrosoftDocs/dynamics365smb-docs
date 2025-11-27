@@ -24,8 +24,10 @@ The information that you enter in a journal is temporary and you can change it w
 
 > [!TIP]
 > You can use an approval workflow for both standard and recurring sustainability journals. The workflow uses the same approval process that you might already use for general journals. When you align the process for sustainability journals, you ensure consistency and compliance across all types of journals.
-
-Use actions on the journals to send and cancel approval requests directly from the journals. These actions help you maintain a streamlined workflow, reduce the risk of errors, and ensure that all journal entries are properly reviewed and approved before posting.
+>
+> Use actions on the journals to send and cancel approval requests directly from the journals. These actions help you maintain a streamlined workflow, reduce the risk of errors, and ensure that all journal entries are properly reviewed and approved before posting.
+>
+> To learn more about approval workflows, go to [How to use approval workflows](across-how-use-approval-workflows.md).
 
 ### Use journal templates and batches
 

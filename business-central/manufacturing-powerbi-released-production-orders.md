@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37049_Primary
-ms.date: 11/01/2024
+ms.date: 11/27/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -25,7 +25,7 @@ The report is meant for manufacturing managers and supervisors.
 
 Manufacturing managers use the report to track released production orders. By analyzing the expected versus finished quantities, you can find issues that might affect the production process. For example, if the finished quantity is much lower than the expected quantity, it might indicate a problem with the manufacturing process or materials. By identifying and addressing these issues, you can improve efficiency and reduce costs.
 
-Production supervisors use this report to monitor expected and finished quantities. This information helps you prioritize and schedule the next items for production. For example, if the finished quantity is close to the expected quantity, you can prioritize the next item for production. If the finished quantity is much lower than the expected quantity, you might need to adjust the production schedule to ensure you compete the order on time.
+Production supervisors use this report to monitor expected and finished quantities. This information helps you prioritize and schedule the next items for production. For example, if the finished quantity is close to the expected quantity, you can prioritize the next item for production. If the finished quantity is much lower than the expected quantity, you might need to adjust the production schedule to ensure you complete the order on time.
 
 ## Key Performance Indicators (KPIs)
 
@@ -51,7 +51,7 @@ The *Released Production Orders* report includes the following KPIs and measures
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]>
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Item
 - Production Order

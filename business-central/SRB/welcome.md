@@ -26,7 +26,7 @@ You assign the serviceable items you sell (subscriptions), whether it's the sale
 * Preview all existing monthly recurring billing and your upcoming invoices
 * Simplify billing with billing templates
 * Automatically calculate notice periods
-* Use accrual-based posting of income and expenses to profit and loss accounts
+* Use deferral-based posting of income and expenses to profit and loss accounts
 
 ## Main elements of subscription billing 
 

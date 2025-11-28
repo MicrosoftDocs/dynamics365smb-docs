@@ -90,6 +90,8 @@ The next step is to give the app permission to send email.
 
 ## Register the service principal in Exchange Online
 
+To learn more about the service principal, go to [Register a Microsoft Entra app and create a service principal](/entra/identity-platform/howto-create-service-principal-portal).
+
 1. In PowerShell, use the following link to consent. Replace the tenant ID and client ID (App ID) with the values for your "Tenant B."
 
    ```powershell

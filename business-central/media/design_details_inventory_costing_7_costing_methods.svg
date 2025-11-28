@@ -1,0 +1,4914 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="884.09833"
+   height="702.36798"
+   overflow="hidden"
+   version="1.1"
+   id="svg299"
+   sodipodi:docname="design_details_inventory_costing_7_costing_methods.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview299"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3820312"
+     inkscape:cx="454.86389"
+     inkscape:cy="596.75959"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg299" />
+  <defs
+     id="defs120">
+    <image
+       width="64"
+       height="64"
+       xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABAAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3WiiivtT+Ej7eor4hr7er5fE4b6vbW9z+suF+KP8AWX237n2fs+X7XNfm5v7qta3nuFFFFcR92FfENfb1FduGxP1e+l7nwnFHC/8ArL7H997P2fN9nmvzcv8AeVrW89wr4hr7eoow2J+r30vcOKOF/wDWX2P772fs+b7PNfm5f7yta3nufENFFFfUH8mn29RXxDX29Xy+Jw31e2t7n9ZcL8Uf6y+2/c+z9ny/a5r83N/dVrW89woooriPuwooooAK+Ia+3qK7cNifq99L3PhOKOF/9ZfY/vvZ+z5vs81+bl/vK1ree58Q0UUV9Qfyafb1FfENfb1fL4nDfV7a3uf1lwvxR/rL7b9z7P2fL9rmvzc391Wtbz3CiviGvt6jE4b6vbW9w4X4o/1l9t+59n7Pl+1zX5ub+6rWt57hRRRXEfdhXxDX29RXbhsT9Xvpe58JxRwv/rL7H997P2fN9nmvzcv95Wtbz3PiGiiivqD+TT//2Q=="
+       preserveAspectRatio="none"
+       id="img0" />
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern1"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 392 32)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use1" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern2"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 424 32)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use2" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 456 32)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use3" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern4"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 488 32)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use4" />
+    </pattern>
+    <image
+       width="64"
+       height="64"
+       xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABAAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8qq/qooooAKKKKACiiv5V6ACiiigD+qiiiigAoor+VegAooooAK/qooooAKKK/lXoAKKKKACv6qKKKACiiigD+VeiiigAr+qiiigAooooAKKK/lXoA//Z"
+       preserveAspectRatio="none"
+       id="img5" />
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern6"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 408 120)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use5" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern7"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 440 80)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use6" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 424 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use7" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern9"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 456 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern10"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 472 120)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use9" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern11"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 440 120)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use10" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern12"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 384 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use11" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern13"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use12" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern14"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 456 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use13" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern15"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 488 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use14" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern16"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 408 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use15" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern17"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 440 256)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use16" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern18"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 280)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use17" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern19"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 456 280)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use18" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern20"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 472 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use19" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern21"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 440 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use20" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern22"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 384 392)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use21" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern23"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 392)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use22" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern24"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 448 392)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use23" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern25"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 488 392)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use24" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern26"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 400 480)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use25" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern27"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 432 432)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use26" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern28"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 456)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use27" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern29"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 448 456)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use28" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern30"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 472 480)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use29" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern31"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 432 480)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use30" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern32"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 400 656)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use31" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern33"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 432 608)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use32" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern34"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 632)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use33" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern35"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 448 632)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use34" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern36"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 464 656)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use35" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern37"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 432 656)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use36" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern38"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 384 560)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use37" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern39"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 448 560)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use38" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern40"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 560)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use39" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern41"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 480 560)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use40" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern42"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 616 112)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use41" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern43"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 112)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use42" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern44"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 112)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use43" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern45"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 728 112)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use44" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern46"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 632 96)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use45" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern47"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 48)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use46" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern48"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 72)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use47" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern49"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 72)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use48" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern50"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 712 96)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use49" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern51"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 96)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use50" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern52"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 616 296)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use51" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern53"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 656 296)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use52" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern54"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 296)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use53" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern55"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 728 296)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use54" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern56"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 640 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use55" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern57"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 224)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use56" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern58"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 248)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use57" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern59"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 248)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use58" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern60"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 712 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use59" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern61"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use60" />
+    </pattern>
+    <image
+       width="64"
+       height="64"
+       xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABAAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3WiiivtT+EgooooA/DWiiivij+7QooooA/cqiiivtT+EgooooA/DWiiivij+7QooooAKKKKACiiigD9yqKKK+1P4SCiiigD8NaKKK+KP7tCiiigD9yqKKK+1P4SCiiigD/9k="
+       preserveAspectRatio="none"
+       id="img62" />
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern63"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 616 464)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use61" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern64"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 464)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use62" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern65"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 464)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use63" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern66"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 728 464)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use64" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern67"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 632 448)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use65" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern68"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 400)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use66" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern69"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 424)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use67" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern70"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 424)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use68" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern71"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 712 448)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use69" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern72"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 448)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use70" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern73"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 616 640)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use71" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern74"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 656 640)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use72" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern75"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 696 640)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use73" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern76"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 728 640)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use74" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern77"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 632 616)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use75" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern78"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 568)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use76" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern79"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 592)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use77" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern80"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 592)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use78" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern81"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 712 616)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use79" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern82"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 616)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use80" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern83"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 856 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use81" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern84"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 888 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use82" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern85"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 928 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use83" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern86"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 968 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use84" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern87"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 904 40)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use85" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern88"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 888 56)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use86" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern89"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 928 56)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use87" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern90"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 872 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use88" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern91"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 944 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use89" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern92"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use90" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern93"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 856 480)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use91" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern94"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 896 480)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use92" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern95"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 928 480)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use93" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern96"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 968 480)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use94" />
+    </pattern>
+    <image
+       width="64"
+       height="64"
+       xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABAAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8qqKKKACiiigD9yqKKK+1P4SCiiigD8NaKKK+KP7tCiiigD9yqKKK+1P4SCiiigAooooAKKKKAPw1ooor4o/u0KKKKAP3Kooor7U/hIKKKKAPw1ooor4o/u0KKKKAP//Z"
+       preserveAspectRatio="none"
+       id="img97" />
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern98"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 392)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img97"
+         id="use95" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern99"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 888 408)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img97"
+         id="use96" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern100"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 928 408)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img97"
+         id="use97" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern101"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 872 456)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use98" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern102"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 944 456)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use99" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern103"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 456)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img62"
+         id="use100" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern104"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 856 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use101" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern105"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 896 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use102" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern106"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 936 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use103" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern107"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 976 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use104" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern108"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use105" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern109"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 896 232)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use106" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern110"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 928 232)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use107" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern111"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 880 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use108" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern112"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 952 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use109" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern113"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use110" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern114"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 856 656)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use111" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern115"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 896 656)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use112" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern116"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 936 656)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use113" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern117"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 976 656)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use114" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern118"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 560)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use115" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern119"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 896 584)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use116" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern120"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 936 584)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use117" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern121"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 880 624)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use118" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern122"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 952 624)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use119" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern123"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 624)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img5"
+         id="use120" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern1-8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 384 32)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use1-1" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern2-0"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 448 32)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use2-2" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern3-7"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 488 32)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use3-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern4-2"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 400 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use4-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern5"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 432 80)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use5-0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern7-4"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 104)">
+      <image
+         width="64"
+         height="64"
+         xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABAAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3WiiivtT+Ej7eor4hr7er5fE4b6vbW9z+suF+KP8AWX237n2fs+X7XNfm5v7qta3nuFFFFcR92FfENfb1FduGxP1e+l7nwnFHC/8ArL7H997P2fN9nmvzcv8AeVrW89wr4hr7eoow2J+r30vcOKOF/wDWX2P772fs+b7PNfm5f7yta3nufENFFFfUH8mn29RXxDX29Xy+Jw31e2t7n9ZcL8Uf6y+2/c+z9ny/a5r83N/dVrW89woooriPuwooooAK+Ia+3qK7cNifq99L3PhOKOF/9ZfY/vvZ+z5vs81+bl/vK1ree58Q0UUV9Qfyafb1FfENfb1fL4nDfV7a3uf1lwvxR/rL7b9z7P2fL9rmvzc391Wtbz3CiviGvt6jE4b6vbW9w4X4o/1l9t+59n7Pl+1zX5ub+6rWt57hRRRXEfdhXxDX29RXbhsT9Xvpe58JxRwv/rL7H997P2fN9nmvzcv95Wtbz3PiGiiivqD+TT//2Q=="
+         preserveAspectRatio="none"
+         id="use6-3"
+         x="0"
+         y="0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern8-7"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 448 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use7-5" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern9-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 472 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use8-9" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern10-1"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 432 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use9-9" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern11-5"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 400 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use10-0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern12-0"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 432 256)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use11-7" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern13-1"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 280)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use12-7" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern14-5"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 448 280)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use13-3" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern15-8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 464 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use14-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern16-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 432 304)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use15-4" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern17-1"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 384 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use16-2" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern18-2"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 448 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use17-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern19-1"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 416 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use18-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern20-9"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 480 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use19-6" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern21-8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 616 112)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use20-7" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern22-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 112)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use21-0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern23-5"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 112)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use22-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern24-0"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 728 112)">
+      <image
+         width="64"
+         height="64"
+         xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABAAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3WiiivtT+Ej7eor4hr7er5fE4b6vbW9z+suF+KP8AWX237n2fs+X7XNfm5v7qta3nuFFFFcR92FfENfb1FduGxP1e+l7nwnFHC/8ArL7H997P2fN9nmvzcv8AeVrW89wr4hr7eoow2J+r30vcOKOF/wDWX2P772fs+b7PNfm5f7yta3nufENFFFfUH8mn29RXxDX29Xy+Jw31e2t7n9ZcL8Uf6y+2/c+z9ny/a5r83N/dVrW89woooriPuwooooAK+Ia+3qK7cNifq99L3PhOKOF/9ZfY/vvZ+z5vs81+bl/vK1ree58Q0UUV9Qfyafb1FfENfb1fL4nDfV7a3uf1lwvxR/rL7b9z7P2fL9rmvzc391Wtbz3CiviGvt6jE4b6vbW9w4X4o/1l9t+59n7Pl+1zX5ub+6rWt57hRRRXEfdhXxDX29RXbhsT9Xvpe58JxRwv/rL7H997P2fN9nmvzcv95Wtbz3PiGiiivqD+TT//2Q=="
+         preserveAspectRatio="none"
+         id="use23-2"
+         x="0"
+         y="0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern25-0"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 632 88)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use24-0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern26-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 48)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use25-2" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern27-2"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 72)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use26-2" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern28-8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 72)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use27-5" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern29-8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 712 88)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use28-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern30-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 616 280)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use29-3" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern31-9"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 656 280)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use30-5" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern32-7"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 696 280)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use31-1" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern33-6"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 728 280)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use32-5" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern34-4"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 632 264)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use33-7" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern35-0"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 216)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use34-5" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern36-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 648 240)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use35-3" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern37-4"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 688 240)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use36-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern38-5"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 712 264)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use37-9" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern39-1"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 672 264)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use38-4" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern40-2"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 856 296)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use39-1" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern41-5"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 896 296)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use40-6" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern42-5"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 936 296)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use41-1" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern43-4"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 976 296)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use42-0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern44-8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 208)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use43-7" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern45-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 896 232)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use44-0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern46-6"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 936 232)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use45-7" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern47-7"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 880 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use46-1" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern48-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 952 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use47-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern49-9"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 272)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use48-4" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern50-9"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 856 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use49-1" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern51-4"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 896 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use50-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern52-9"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 928 128)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use51-0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern53-9"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 968 128)">
+      <image
+         width="64"
+         height="64"
+         xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABAAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3WiiivtT+Ej7eor4hr7er5fE4b6vbW9z+suF+KP8AWX237n2fs+X7XNfm5v7qta3nuFFFFcR92FfENfb1FduGxP1e+l7nwnFHC/8ArL7H997P2fN9nmvzcv8AeVrW89wr4hr7eoow2J+r30vcOKOF/wDWX2P772fs+b7PNfm5f7yta3nufENFFFfUH8mn29RXxDX29Xy+Jw31e2t7n9ZcL8Uf6y+2/c+z9ny/a5r83N/dVrW89woooriPuwooooAK+Ia+3qK7cNifq99L3PhOKOF/9ZfY/vvZ+z5vs81+bl/vK1ree58Q0UUV9Qfyafb1FfENfb1fL4nDfV7a3uf1lwvxR/rL7b9z7P2fL9rmvzc391Wtbz3CiviGvt6jE4b6vbW9w4X4o/1l9t+59n7Pl+1zX5ub+6rWt57hRRRXEfdhXxDX29RXbhsT9Xvpe58JxRwv/rL7H997P2fN9nmvzcv95Wtbz3PiGiiivqD+TT//2Q=="
+         preserveAspectRatio="none"
+         id="use52-8"
+         x="0"
+         y="0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern54-7"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 32)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use53-8" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern55-8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 928 56)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use54-4" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern56-6"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 872 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use55-0" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern57-3"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 944 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use56-9" />
+    </pattern>
+    <pattern
+       width="64"
+       height="64"
+       patternUnits="userSpaceOnUse"
+       id="pattern58-8"
+       overflow="hidden"
+       patternTransform="matrix(0.125 0 0 0.125 912 104)">
+      <use
+         width="100%"
+         height="100%"
+         xlink:href="#img0"
+         id="use57-2" />
+    </pattern>
+  </defs>
+  <g
+     id="g299"
+     transform="matrix(1,0,-0.00475178,1,-183.46588,-2.5188587)">
+    <rect
+       x="186.79794"
+       y="2.5188587"
+       width="880.7782"
+       height="702.36798"
+       fill="#ffffff"
+       id="rect120"
+       style="stroke-width:0.819302"
+       transform="skewX(0.00141468)" />
+    <path
+       d="M 190.333,181.267 H 1067"
+       stroke="#a5a5a5"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path120" />
+    <path
+       d="M 190.333,357.168 H 1067"
+       stroke="#a5a5a5"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path121" />
+    <path
+       d="M 190.333,533.068 H 1067"
+       stroke="#a5a5a5"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path122" />
+    <path
+       d="M 190.667,5.03318 V 709.302"
+       stroke="#a5a5a5"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path123" />
+    <path
+       d="M 1066.67,5.03318 V 709.302"
+       stroke="#a5a5a5"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path124" />
+    <path
+       d="M 190.333,5.36651 H 1067"
+       stroke="#a5a5a5"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path125" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(387.297,29)"
+       id="text126"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan299"
+         x="0"
+         y="0">Beginning inventory</tspan></text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(405.619,171)"
+       id="text128">Net purchases</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(384.606,206)"
+       id="text129">Beginning inventory</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(388.795,386)"
+       id="text130">Beginning inventory</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(385.576,555)"
+       id="text131">Beginning inventory</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(403.343,352)"
+       id="text132">Net purchases</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(400.143,521)"
+       id="text133">Net purchases</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(397.815,695)"
+       id="text134">Net purchases</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       id="text135"
+       x="598.2254"
+       y="29.839619">Goods available for sale</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       id="text136"
+       x="603.0155"
+       y="205.41982">Goods available for sale</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       id="text137"
+       x="598.91992"
+       y="385.93866">Goods available for sale</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       id="text138"
+       x="603.8551"
+       y="556.5802">Goods available for sale</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(870.889,31)"
+       id="text139">Ending inventory</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(881.686,203)"
+       id="text140">Ending inventory</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(882.573,384)"
+       id="text141">Ending inventory</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(879.143,557)"
+       id="text142">Ending inventory</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(866.632,171)"
+       id="text143">Cost of goods sold</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(875.393,521)"
+       id="text144">Cost of goods sold</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(874.506,347)"
+       id="text145">Cost of goods sold</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(874.506,694)"
+       id="text146">Cost of goods sold</text>
+    <path
+       d="m 450.284,68.3833 h 5.599 V 63.886 h 4.234 v 4.4973 h 5.599 v 4.2336 h -5.599 v 4.4973 h -4.234 v -4.4973 h -5.599 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path146" />
+    <rect
+       x="392.5"
+       y="36.500099"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern1)"
+       id="rect146" />
+    <rect
+       x="426.5"
+       y="36.500099"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern2)"
+       id="rect147" />
+    <rect
+       x="460.5"
+       y="36.500099"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern3)"
+       id="rect148" />
+    <rect
+       x="494.5"
+       y="36.500099"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern4)"
+       id="rect149" />
+    <rect
+       x="411.5"
+       y="127.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern6)"
+       id="rect150" />
+    <rect
+       x="442.5"
+       y="81.500099"
+       width="31"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern7)"
+       id="rect151" />
+    <rect
+       x="425.5"
+       y="104.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern8)"
+       id="rect152" />
+    <rect
+       x="459.5"
+       y="104.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern9)"
+       id="rect153" />
+    <rect
+       x="478.5"
+       y="127.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern10)"
+       id="rect154" />
+    <rect
+       x="445.5"
+       y="127.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern11)"
+       id="rect155" />
+    <path
+       d="m 447.416,245.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path155" />
+    <rect
+       x="389.5"
+       y="213.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern12)"
+       id="rect156" />
+    <rect
+       x="423.5"
+       y="213.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern13)"
+       id="rect157" />
+    <rect
+       x="457.5"
+       y="213.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern14)"
+       id="rect158" />
+    <rect
+       x="491.5"
+       y="213.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern15)"
+       id="rect159" />
+    <rect
+       x="409.5"
+       y="304.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern16)"
+       id="rect160" />
+    <rect
+       x="440.5"
+       y="257.5"
+       width="30"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern17)"
+       id="rect161" />
+    <rect
+       x="422.5"
+       y="281.5"
+       width="31"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern18)"
+       id="rect162" />
+    <rect
+       x="456.5"
+       y="281.5"
+       width="31"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern19)"
+       id="rect163" />
+    <rect
+       x="476.5"
+       y="304.5"
+       width="30"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern20)"
+       id="rect164" />
+    <rect
+       x="442.5"
+       y="304.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern21)"
+       id="rect165" />
+    <path
+       d="m 444.416,424.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path165" />
+    <rect
+       x="386.5"
+       y="392.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern22)"
+       id="rect166" />
+    <rect
+       x="420.5"
+       y="392.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern23)"
+       id="rect167" />
+    <rect
+       x="455.5"
+       y="392.5"
+       width="30"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern24)"
+       id="rect168" />
+    <rect
+       x="489.5"
+       y="392.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern25)"
+       id="rect169" />
+    <rect
+       x="406.5"
+       y="483.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern26)"
+       id="rect170" />
+    <rect
+       x="437.5"
+       y="437.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern27)"
+       id="rect171" />
+    <rect
+       x="419.5"
+       y="460.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern28)"
+       id="rect172" />
+    <rect
+       x="454.5"
+       y="460.5"
+       width="30"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern29)"
+       id="rect173" />
+    <rect
+       x="473.5"
+       y="483.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern30)"
+       id="rect174" />
+    <rect
+       x="439.5"
+       y="483.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern31)"
+       id="rect175" />
+    <path
+       d="m 443.416,597.766 h 5.85 v -4.748 h 4.468 v 4.748 h 5.85 v 4.468 h -5.85 v 4.748 h -4.468 v -4.748 h -5.85 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path175" />
+    <rect
+       x="404.5"
+       y="659.5"
+       width="30"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern32)"
+       id="rect176" />
+    <rect
+       x="434.5"
+       y="612.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern33)"
+       id="rect177" />
+    <rect
+       x="417.5"
+       y="636.5"
+       width="31"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern34)"
+       id="rect178" />
+    <rect
+       x="451.5"
+       y="636.5"
+       width="31"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern35)"
+       id="rect179" />
+    <rect
+       x="470.5"
+       y="659.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern36)"
+       id="rect180" />
+    <rect
+       x="437.5"
+       y="659.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern37)"
+       id="rect181" />
+    <rect
+       x="384.5"
+       y="562.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern38)"
+       id="rect182" />
+    <rect
+       x="451.5"
+       y="562.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern39)"
+       id="rect183" />
+    <rect
+       x="418.5"
+       y="562.5"
+       width="30"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern40)"
+       id="rect184" />
+    <rect
+       x="484.5"
+       y="562.5"
+       width="31"
+       height="20"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern41)"
+       id="rect185" />
+    <rect
+       x="616.5"
+       y="119.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern42)"
+       id="rect186" />
+    <rect
+       x="654.5"
+       y="119.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern43)"
+       id="rect187" />
+    <rect
+       x="692.5"
+       y="119.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern44)"
+       id="rect188" />
+    <rect
+       x="730.5"
+       y="119.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern45)"
+       id="rect189" />
+    <rect
+       x="638.5"
+       y="97.500099"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern46)"
+       id="rect190" />
+    <rect
+       x="672.5"
+       y="53.500099"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern47)"
+       id="rect191" />
+    <rect
+       x="653.5"
+       y="75.500099"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern48)"
+       id="rect192" />
+    <rect
+       x="691.5"
+       y="75.500099"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern49)"
+       id="rect193" />
+    <rect
+       x="712.5"
+       y="97.500099"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern50)"
+       id="rect194" />
+    <rect
+       x="675.5"
+       y="97.500099"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern51)"
+       id="rect195" />
+    <rect
+       x="619.5"
+       y="297.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern52)"
+       id="rect196" />
+    <rect
+       x="657.5"
+       y="297.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern53)"
+       id="rect197" />
+    <rect
+       x="695.5"
+       y="297.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern54)"
+       id="rect198" />
+    <rect
+       x="733.5"
+       y="297.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern55)"
+       id="rect199" />
+    <rect
+       x="640.5"
+       y="275.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern56)"
+       id="rect200" />
+    <rect
+       x="674.5"
+       y="231.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern57)"
+       id="rect201" />
+    <rect
+       x="655.5"
+       y="253.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern58)"
+       id="rect202" />
+    <rect
+       x="692.5"
+       y="253.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern59)"
+       id="rect203" />
+    <rect
+       x="714.5"
+       y="275.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern60)"
+       id="rect204" />
+    <rect
+       x="677.5"
+       y="275.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern61)"
+       id="rect205" />
+    <rect
+       x="616.5"
+       y="470.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern63)"
+       id="rect206" />
+    <rect
+       x="654.5"
+       y="470.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern64)"
+       id="rect207" />
+    <rect
+       x="692.5"
+       y="470.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern65)"
+       id="rect208" />
+    <rect
+       x="730.5"
+       y="470.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern66)"
+       id="rect209" />
+    <rect
+       x="638.5"
+       y="449.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern67)"
+       id="rect210" />
+    <rect
+       x="672.5"
+       y="405.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern68)"
+       id="rect211" />
+    <rect
+       x="652.5"
+       y="427.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern69)"
+       id="rect212" />
+    <rect
+       x="690.5"
+       y="427.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern70)"
+       id="rect213" />
+    <rect
+       x="712.5"
+       y="449.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern71)"
+       id="rect214" />
+    <rect
+       x="675.5"
+       y="449.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern72)"
+       id="rect215" />
+    <rect
+       x="621.5"
+       y="640.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern73)"
+       id="rect216" />
+    <rect
+       x="659.5"
+       y="640.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern74)"
+       id="rect217" />
+    <rect
+       x="697.5"
+       y="640.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern75)"
+       id="rect218" />
+    <rect
+       x="735.5"
+       y="640.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern76)"
+       id="rect219" />
+    <rect
+       x="638.5"
+       y="618.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern77)"
+       id="rect220" />
+    <rect
+       x="672.5"
+       y="574.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern78)"
+       id="rect221" />
+    <rect
+       x="652.5"
+       y="596.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern79)"
+       id="rect222" />
+    <rect
+       x="690.5"
+       y="596.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern80)"
+       id="rect223" />
+    <rect
+       x="712.5"
+       y="618.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern81)"
+       id="rect224" />
+    <rect
+       x="675.5"
+       y="618.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern82)"
+       id="rect225" />
+    <rect
+       x="856.5"
+       y="132.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern83)"
+       id="rect226" />
+    <rect
+       x="894.5"
+       y="132.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern84)"
+       id="rect227" />
+    <rect
+       x="933.5"
+       y="132.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern85)"
+       id="rect228" />
+    <rect
+       x="971.5"
+       y="132.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern86)"
+       id="rect229" />
+    <rect
+       x="911.5"
+       y="40.500099"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern87)"
+       id="rect230" />
+    <rect
+       x="891.5"
+       y="62.500099"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern88)"
+       id="rect231" />
+    <rect
+       x="929.5"
+       y="62.500099"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern89)"
+       id="rect232" />
+    <rect
+       x="874.5"
+       y="106.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern90)"
+       id="rect233" />
+    <rect
+       x="949.5"
+       y="106.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern91)"
+       id="rect234" />
+    <rect
+       x="912.5"
+       y="106.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern92)"
+       id="rect235" />
+    <path
+       d="m 919.416,92.3833 h 5.967 V 87.886 h 4.234 v 4.4973 h 5.967 v 4.2335 h -5.967 v 4.4972 h -4.234 v -4.4972 h -5.967 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path235" />
+    <rect
+       x="858.5"
+       y="485.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern93)"
+       id="rect236" />
+    <rect
+       x="896.5"
+       y="485.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern94)"
+       id="rect237" />
+    <rect
+       x="934.5"
+       y="485.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern95)"
+       id="rect238" />
+    <rect
+       x="972.5"
+       y="485.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern96)"
+       id="rect239" />
+    <rect
+       x="912.5"
+       y="393.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern98)"
+       id="rect240" />
+    <rect
+       x="893.5"
+       y="415.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern99)"
+       id="rect241" />
+    <rect
+       x="931.5"
+       y="415.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern100)"
+       id="rect242" />
+    <rect
+       x="876.5"
+       y="459.5"
+       width="35"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern101)"
+       id="rect243" />
+    <rect
+       x="951.5"
+       y="459.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern102)"
+       id="rect244" />
+    <rect
+       x="913.5"
+       y="459.5"
+       width="35"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern103)"
+       id="rect245" />
+    <path
+       d="m 921.416,445.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path245" />
+    <rect
+       x="862.5"
+       y="305.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern104)"
+       id="rect246" />
+    <rect
+       x="900.5"
+       y="305.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern105)"
+       id="rect247" />
+    <rect
+       x="938.5"
+       y="305.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern106)"
+       id="rect248" />
+    <rect
+       x="976.5"
+       y="305.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern107)"
+       id="rect249" />
+    <rect
+       x="916.5"
+       y="213.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern108)"
+       id="rect250" />
+    <rect
+       x="897.5"
+       y="235.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern109)"
+       id="rect251" />
+    <rect
+       x="935.5"
+       y="235.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern110)"
+       id="rect252" />
+    <rect
+       x="880.5"
+       y="278.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern111)"
+       id="rect253" />
+    <rect
+       x="954.5"
+       y="278.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern112)"
+       id="rect254" />
+    <rect
+       x="917.5"
+       y="278.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern113)"
+       id="rect255" />
+    <path
+       d="m 925.284,265.383 h 5.599 v -4.497 h 4.234 v 4.497 h 5.599 v 4.234 h -5.599 v 4.497 h -4.234 v -4.497 h -5.599 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path255" />
+    <rect
+       x="863.5"
+       y="656.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern114)"
+       id="rect256" />
+    <rect
+       x="901.5"
+       y="656.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern115)"
+       id="rect257" />
+    <rect
+       x="939.5"
+       y="656.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern116)"
+       id="rect258" />
+    <rect
+       x="977.5"
+       y="656.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern117)"
+       id="rect259" />
+    <rect
+       x="917.5"
+       y="565.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern118)"
+       id="rect260" />
+    <rect
+       x="898.5"
+       y="587.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern119)"
+       id="rect261" />
+    <rect
+       x="936.5"
+       y="587.5"
+       width="34"
+       height="18"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern120)"
+       id="rect262" />
+    <rect
+       x="881.5"
+       y="630.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern121)"
+       id="rect263" />
+    <rect
+       x="955.5"
+       y="630.5"
+       width="35"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern122)"
+       id="rect264" />
+    <rect
+       x="918.5"
+       y="630.5"
+       width="34"
+       height="19"
+       stroke="#000000"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="url(#pattern123)"
+       id="rect265" />
+    <path
+       d="m 926.284,616.766 h 5.482 v -4.748 h 4.468 v 4.748 h 5.482 v 4.468 h -5.482 v 4.748 h -4.468 v -4.748 h -5.482 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path265" />
+    <path
+       d="M 569,15 V 173.004"
+       stroke="#00b7c3"
+       stroke-width="6"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path266" />
+    <path
+       d="m 569.5,80.0001 h 21 v -5.5 l 11,11 -11,11 v -5.5 h -21 z"
+       stroke="#00b7c3"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path267" />
+    <path
+       d="M 806,11 V 169.004"
+       stroke="#00b7c3"
+       stroke-width="6"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path268" />
+    <path
+       d="m 806.5,76 h 20 v -5.4999 l 11,11 -11,11 v -5.5 h -20 z"
+       stroke="#00b7c3"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path269" />
+    <path
+       d="M 806,186 V 344.004"
+       stroke="#00b7c3"
+       stroke-width="6"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path270" />
+    <path
+       d="m 806.5,251 h 20 v -5.5 l 11,11 -11,11 V 262 h -20 z"
+       stroke="#00b7c3"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path271" />
+    <path
+       d="M 806,364 V 522.004"
+       stroke="#00b7c3"
+       stroke-width="6"
+       stroke-miterlimit="8"
+       fill="#00b472"
+       fill-rule="evenodd"
+       id="path272" />
+    <path
+       d="m 806,428.5 h 20 V 423 l 11,11 -11,11 v -5.5 h -20 z"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path273" />
+    <path
+       d="M 569,541 V 699.004"
+       stroke="#00b7c3"
+       stroke-width="6"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path274" />
+    <path
+       d="m 569.5,607 h 21 v -5.5 l 11,11 -11,11 V 618 h -21 z"
+       stroke="#00b7c3"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path275" />
+    <path
+       d="M 569,364 V 522.004"
+       stroke="#00b7c3"
+       stroke-width="6"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path276" />
+    <path
+       d="m 569.5,429 h 21 v -5.5 l 11,11 -11,11 V 440 h -21 z"
+       stroke="#00b7c3"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path277" />
+    <path
+       d="M 569,187 V 345.004"
+       stroke="#00b7c3"
+       stroke-width="6"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path278" />
+    <path
+       d="m 569.5,252 h 21 v -5.5 l 11,11 -11,11 V 263 h -21 z"
+       stroke="#00b7c3"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path279" />
+    <path
+       d="M 806,537 V 695.004"
+       stroke="#00b7c3"
+       stroke-width="6"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path280" />
+    <path
+       d="m 806.5,603 h 20 v -5.5 l 11,11 -11,11 V 614 h -20 z"
+       stroke="#00b7c3"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#00b7c3"
+       fill-rule="evenodd"
+       id="path281" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(261.729,73)"
+       id="text281">FIFO</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(243.043,102)"
+       id="text282"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan303"
+         x="0"
+         y="0">(First-In,</tspan></text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(236.789,131)"
+       id="text285"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan302"
+         x="0"
+         y="0">First-Out)</tspan></text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(265.1,238)"
+       id="text289">LIFO</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(246.387,267)"
+       id="text290"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan301"
+         x="0"
+         y="0">(Last-In,</tspan></text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(239.827,296)"
+       id="text293"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan300"
+         x="0"
+         y="0">First-Out)</tspan></text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(247.934,418)"
+       id="text296">Average</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(238.1,447)"
+       id="text297">(weighted</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(245,476)"
+       id="text298">average)</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(238.796,617)"
+       id="text299">Standard</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     transform="translate(0.39883983)">
+    <g
+       id="g137"
+       transform="translate(-186.98983,697.01208)">
+      <rect
+         x="187.23515"
+         y="5.877337"
+         width="882.85999"
+         height="354.76547"
+         fill="#ffffff"
+         id="rect57"
+         style="stroke-width:0.582969" />
+      <path
+         d="M 190.333,181.267 H 1067"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path57" />
+      <path
+         d="M 190.667,5.03318 V 357.501"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path58" />
+      <path
+         d="M 1066.67,5.03318 V 357.501"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path59" />
+      <path
+         d="M 190.333,5.36651 H 1067"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path60" />
+      <path
+         d="M 190.333,357.168 H 1067"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path61" />
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(388.795,31)"
+         id="text61">Beginning inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(385.576,201)"
+         id="text62">Beginning inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(400.143,167)"
+         id="text63">Net purchases</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(397.815,341)"
+         id="text64">Net purchases</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text65"
+         x="596.40106"
+         y="28.160381">Goods available for sale</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text66"
+         x="598.81738"
+         y="202.58018">Goods available for sale</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text67"
+         x="862.42212"
+         y="29.160381">Ending inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text68"
+         x="864.86945"
+         y="202.58018">Ending inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text69"
+         x="860.69965"
+         y="166.58018">Cost of goods sold</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text70"
+         x="864.8504"
+         y="340.4198">Cost of goods sold</text>
+      <path
+         d="m 444.416,70.3833 h 5.967 V 65.886 h 4.234 v 4.4973 h 5.967 v 4.2335 h -5.967 v 4.4973 h -4.234 v -4.4973 h -5.967 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path70" />
+      <rect
+         x="386.5"
+         y="38.500099"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern1)"
+         id="rect70"
+         style="fill:url(#pattern1-8)" />
+      <rect
+         x="420.5"
+         y="38.500099"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ee0000"
+         id="rect71" />
+      <rect
+         x="455.5"
+         y="38.500099"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern2)"
+         id="rect72"
+         style="fill:url(#pattern2-0)" />
+      <rect
+         x="489.5"
+         y="38.500099"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern3)"
+         id="rect73"
+         style="fill:url(#pattern3-7)" />
+      <rect
+         x="406.5"
+         y="129.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern4)"
+         id="rect74"
+         style="fill:url(#pattern4-2)" />
+      <rect
+         x="437.5"
+         y="83.500099"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern5)"
+         id="rect75" />
+      <rect
+         x="419.5"
+         y="106.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern7)"
+         id="rect76"
+         style="fill:url(#pattern7-4)" />
+      <rect
+         x="454.5"
+         y="106.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern8)"
+         id="rect77"
+         style="fill:url(#pattern8-7)" />
+      <rect
+         x="473.5"
+         y="129.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern9)"
+         id="rect78"
+         style="fill:url(#pattern9-3)" />
+      <rect
+         x="439.5"
+         y="129.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern10)"
+         id="rect79"
+         style="fill:url(#pattern10-1)" />
+      <path
+         d="m 443.416,243.766 h 5.85 v -4.748 h 4.468 v 4.748 h 5.85 v 4.468 h -5.85 v 4.748 h -4.468 v -4.748 h -5.85 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path79" />
+      <rect
+         x="404.5"
+         y="305.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern11)"
+         id="rect80"
+         style="fill:url(#pattern11-5)" />
+      <rect
+         x="434.5"
+         y="258.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern12)"
+         id="rect81"
+         style="fill:url(#pattern12-0)" />
+      <rect
+         x="417.5"
+         y="282.5"
+         width="31"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern13)"
+         id="rect82"
+         style="fill:url(#pattern13-1)" />
+      <rect
+         x="451.5"
+         y="282.5"
+         width="31"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern14)"
+         id="rect83"
+         style="fill:url(#pattern14-5)" />
+      <rect
+         x="470.5"
+         y="305.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern15)"
+         id="rect84"
+         style="fill:url(#pattern15-8)" />
+      <rect
+         x="437.5"
+         y="305.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern16)"
+         id="rect85"
+         style="fill:url(#pattern16-3)" />
+      <rect
+         x="384.5"
+         y="208.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern17)"
+         id="rect86"
+         style="fill:url(#pattern17-1)" />
+      <rect
+         x="451.5"
+         y="208.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern18)"
+         id="rect87"
+         style="fill:url(#pattern18-2)" />
+      <rect
+         x="418.5"
+         y="208.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern19)"
+         id="rect88"
+         style="fill:url(#pattern19-1)" />
+      <rect
+         x="484.5"
+         y="208.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern20)"
+         id="rect89"
+         style="fill:url(#pattern20-9)" />
+      <rect
+         x="616.5"
+         y="116.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern21)"
+         id="rect90"
+         style="fill:url(#pattern21-8)" />
+      <rect
+         x="654.5"
+         y="116.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern22)"
+         id="rect91"
+         style="fill:url(#pattern22-3)" />
+      <rect
+         x="692.5"
+         y="116.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern23)"
+         id="rect92"
+         style="fill:url(#pattern23-5)" />
+      <rect
+         x="730.5"
+         y="116.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern24)"
+         id="rect93"
+         style="fill:url(#pattern24-0)" />
+      <rect
+         x="638.5"
+         y="95.500099"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern25)"
+         id="rect94"
+         style="fill:url(#pattern25-0)" />
+      <rect
+         x="672.5"
+         y="51.500099"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern26)"
+         id="rect95"
+         style="fill:url(#pattern26-3)" />
+      <rect
+         x="652.5"
+         y="73.500099"
+         width="35"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern27)"
+         id="rect96"
+         style="fill:url(#pattern27-2)" />
+      <rect
+         x="690.5"
+         y="73.500099"
+         width="35"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern28)"
+         id="rect97"
+         style="fill:url(#pattern28-8)" />
+      <rect
+         x="712.5"
+         y="95.500099"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern29)"
+         id="rect98"
+         style="fill:url(#pattern29-8)" />
+      <rect
+         x="675.5"
+         y="95.500099"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ee0000"
+         id="rect99" />
+      <rect
+         x="621.5"
+         y="286.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern30)"
+         id="rect100"
+         style="fill:url(#pattern30-3)" />
+      <rect
+         x="659.5"
+         y="286.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern31)"
+         id="rect101"
+         style="fill:url(#pattern31-9)" />
+      <rect
+         x="697.5"
+         y="286.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern32)"
+         id="rect102"
+         style="fill:url(#pattern32-7)" />
+      <rect
+         x="735.5"
+         y="286.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern33)"
+         id="rect103"
+         style="fill:url(#pattern33-6)" />
+      <rect
+         x="638.5"
+         y="264.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern34)"
+         id="rect104"
+         style="fill:url(#pattern34-4)" />
+      <rect
+         x="672.5"
+         y="220.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern35)"
+         id="rect105"
+         style="fill:url(#pattern35-0)" />
+      <rect
+         x="652.5"
+         y="242.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern36)"
+         id="rect106"
+         style="fill:url(#pattern36-3)" />
+      <rect
+         x="690.5"
+         y="242.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern37)"
+         id="rect107"
+         style="fill:url(#pattern37-4)" />
+      <rect
+         x="712.5"
+         y="264.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern38)"
+         id="rect108"
+         style="fill:url(#pattern38-5)" />
+      <rect
+         x="675.5"
+         y="264.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern39)"
+         id="rect109"
+         style="fill:url(#pattern39-1)" />
+      <rect
+         x="863.5"
+         y="302.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern40)"
+         id="rect110"
+         style="fill:url(#pattern40-2)" />
+      <rect
+         x="901.5"
+         y="302.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern41)"
+         id="rect111"
+         style="fill:url(#pattern41-5)" />
+      <rect
+         x="939.5"
+         y="302.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern42)"
+         id="rect112"
+         style="fill:url(#pattern42-5)" />
+      <rect
+         x="977.5"
+         y="302.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern43)"
+         id="rect113"
+         style="fill:url(#pattern43-4)" />
+      <rect
+         x="917.5"
+         y="211.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern44)"
+         id="rect114"
+         style="fill:url(#pattern44-8)" />
+      <rect
+         x="898.5"
+         y="232.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern45)"
+         id="rect115"
+         style="fill:url(#pattern45-3)" />
+      <rect
+         x="936.5"
+         y="232.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern46)"
+         id="rect116"
+         style="fill:url(#pattern46-6)" />
+      <rect
+         x="881.5"
+         y="276.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern47)"
+         id="rect117"
+         style="fill:url(#pattern47-7)" />
+      <rect
+         x="955.5"
+         y="276.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern48)"
+         id="rect118"
+         style="fill:url(#pattern48-3)" />
+      <rect
+         x="918.5"
+         y="276.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern49)"
+         id="rect119"
+         style="fill:url(#pattern49-9)" />
+      <path
+         d="m 926.284,262.766 h 5.482 v -4.748 h 4.468 v 4.748 h 5.482 v 4.468 h -5.482 v 4.748 h -4.468 v -4.748 h -5.482 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path119" />
+      <path
+         d="M 806,10 V 168.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b472"
+         fill-rule="evenodd"
+         id="path120-2" />
+      <path
+         d="m 806,74.5 h 20 V 69 l 11,11 -11,11 v -5.5 h -20 z"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path121-9" />
+      <path
+         d="M 569,187 V 345.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path122-6" />
+      <path
+         d="M 569.5,252.25 H 590 V 246.5 L 601.5,258 590,269.5 v -5.75 h -20.5 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path123-2" />
+      <path
+         d="M 569,10 V 168.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path124-4" />
+      <path
+         d="m 569.5,75.0001 h 21 v -5.5 l 11,11 -11,11 v -5.5 h -21 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path125-4" />
+      <path
+         d="M 806,183 V 341.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path126-7" />
+      <path
+         d="m 806.5,249 h 20 v -5.5 l 11,11 -11,11 V 260 h -20 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path127" />
+      <rect
+         x="859.5"
+         y="130.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern50)"
+         id="rect127"
+         style="fill:url(#pattern50-9)" />
+      <rect
+         x="897.5"
+         y="130.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern51)"
+         id="rect128"
+         style="fill:url(#pattern51-4)" />
+      <rect
+         x="935.5"
+         y="130.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern52)"
+         id="rect129"
+         style="fill:url(#pattern52-9)" />
+      <rect
+         x="973.5"
+         y="130.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern53)"
+         id="rect130"
+         style="fill:url(#pattern53-9)" />
+      <rect
+         x="913.5"
+         y="38.500099"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern54)"
+         id="rect131"
+         style="fill:url(#pattern54-7)" />
+      <rect
+         x="893.5"
+         y="60.500099"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#ee0000"
+         id="rect132" />
+      <rect
+         x="931.5"
+         y="60.500099"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern55)"
+         id="rect133"
+         style="fill:url(#pattern55-8)" />
+      <rect
+         x="876.5"
+         y="104.5"
+         width="35"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern56)"
+         id="rect134"
+         style="fill:url(#pattern56-6)" />
+      <rect
+         x="951.5"
+         y="104.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern57)"
+         id="rect135"
+         style="fill:url(#pattern57-3)" />
+      <rect
+         x="914.5"
+         y="104.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern58)"
+         id="rect136"
+         style="fill:url(#pattern58-8)" />
+      <path
+         d="m 921.416,90.3833 h 5.967 V 85.886 h 4.234 v 4.4973 h 5.967 v 4.2335 h -5.967 v 4.4973 h -4.234 v -4.4973 h -5.967 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path136" />
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(237.175,81)"
+         id="text136-9">Specific</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(237.175,267)"
+         id="text137-1">Standard</text>
+    </g>
+  </g>
+</svg>

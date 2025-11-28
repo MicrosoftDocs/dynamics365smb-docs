@@ -94,10 +94,7 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
 1. In PowerShell, use the following link to consent. Replace the tenant ID and client ID (App ID) with the values for your "Tenant B."
 
-   ```powershell
    https://login.microsoftonline.com/\<TenantB_ID>/oauth2/v2.0/authorize?client_id=\<Client_ID>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent
-
-   ```
 
 1. In Microsoft Entra admin center, go to **Enterprise apps**, find your app, and then copy the value in the **Object ID** field. The object ID is used as the service ID in the command in the next step in this process.
 1. To create a new service principal in your tenant, run the following in PowerShell as an administrator
@@ -157,7 +154,7 @@ Get-DistributionGroupMember "Your group name" |
 
 ## Verify your SMTP OAuth configuration
 
-1. In PowerShell, run the following command to verify your SMTP OAuth configuration:
+1. In PowerShell, run the following command to verify your SMTP configuration:
 
    ```powershell
    
@@ -171,7 +168,7 @@ Get-DistributionGroupMember "Your group name" |
 
    ```
 
-1. To enable SMTP for your entire organization level, run the following command:
+1. Optionally, if you want to enable SMTP for your entire organization level, run the following command:
 
    ```powershell
 
@@ -183,7 +180,7 @@ Get-DistributionGroupMember "Your group name" |
 
    ```
 
-1. To verify that SMTP OPAuth is globally enabled, run the following command:
+1. To verify that OAuth 2.0 is globally enabled for SMTP, run the following command:
 
    ```powershell
 
@@ -196,7 +193,7 @@ Get-DistributionGroupMember "Your group name" |
    - `SmtpClientAuthenticationDisabled` is `False`.
    - `OAuth2ClientProfileEnabled` is `True`.
 
-   If `SmtpClientAuthenticationDisabled` is `True`, run the following command to enable it:
+   If `SmtpClientAuthenticationDisabled` is `True`, SMTP is _not_ enabled. To enable it, run the following command:
 
    ```powershell 
 
@@ -204,7 +201,9 @@ Get-DistributionGroupMember "Your group name" |
 
    ```
 
-## Set up your SMTP account in Business Central
+## Set up the SMTP connector in Business Central
+
+To learn more about the SMTP connector, go to [Set up email](admin-how-setup-email.md).
 
 1. In [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Assisted Setup**, and then choose the related link.
 1. Choose **Set up SMTP Account**.
@@ -218,50 +217,17 @@ Get-DistributionGroupMember "Your group name" |
    |Client ID | 11111111-2222-3333-4444-555555555555 | The application ID from Tenant A |
    |Client Secret     |         | The secr4et generated in the app.        |
    |Tenant ID     | 11111111-2222-3333-4444-555555555555  | The ID of Tenant B, where you host the email account.  |
-   |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must        |
+   |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |
    |Use custom app registration| | If you want to use a custom app registration, turn on the toggle. |
+ 
+1. To complete the account setup, choose **Next**, and then give consent.
 
-1. Choose **Authenticate OAuth**, and consent to the terms. 
-1. To complete the account setup, choose **Next**.
-
-## Send a test email via Python
+## Send a test email
 
 The following is a basic example you can use to test SMTP OAuth.
 
-```python
+```powershell
 
-import base64, smtplib, requests
-
-tenant_id = "11111111-2222-3333-4444-555555555555"
-client_id = "11111111-2222-3333-4444-555555555555"
-client_secret = "YOUR_CLIENT_SECRET"
-
-  # Get an access token
-token_url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
-data = {
-    "client_id": client_id,
-    "client_secret": client_secret,
-    "scope": "https://outlook.office365.com/.default",
-    "grant_type": "client_credentials"
-}
-access_token = requests.post(token_url, data=data).json()["access_token"]
-
-  # Build an XOAUTH2 authentication string
-user = "service@yourdomain.com"
-auth_string = f"user={user}\x01auth=Bearer {access_token}\x01\x01"
-auth_b64 = base64.b64encode(auth_string.encode()).decode()
-
-  # Send a test email
-from_addr = user
-to_addr = "recipient@example.com"
-msg = f"Subject: SMTP OAuth Test\n\nThis is a test email via App Registration."
-
-with smtplib.SMTP("smtp.office365.com", 587) as s:
-    s.starttls()
-    s.docmd("AUTH", "XOAUTH2 " + auth_b64)
-    s.sendmail(from_addr, [to_addr], msg)
-
-print("✅ Email sent successfully!")
 
 ```
 
@@ -272,7 +238,7 @@ This section lists some typical issues, their causes, and provides suggestions f
 ### AADSTS50011: redirect_uri mismatch
 
 - Cause: A Redirect URI isn't configured for your app registration in Azure portal.
-- Resolution: Update your app registration in Azure portal to use the same `.../oauthlanding.htm` redirect URI.
+- Resolution: Update your app registration in Azure portal to use the same `.../oauthlanding.htm` redirect URI. Learn more at [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal).
 
 ### 535 Authentication unsuccessful
 
@@ -287,21 +253,12 @@ This section lists some typical issues, their causes, and provides suggestions f
 ### 430 mailbox logon failure
 
 - Cause: Missing `SendAs` rights.
-- Resolution: Run `Add-RecipientPermission`.
+- Resolution: Run `Set-CASMailbox`.
 
 ### 550 5.7.708 Service unavailable
 
 - Cause: The new tenant is restricted or has an incorrect tenant ID. For example, you entered Tenant A's ID but your account is from Tenant B.
 - Resolution: Contract Microsoft 365 support or check your tenant ID.
-
-## Best practices and recommendations
-
-The following list provides some things to consider:
-
-- For production mailboxes, use a custom domain and not onmicrosoft.com.
-- For production environments, use certificate-based authentication.
-- Grant only the required permissions, for example, only `SMTP.SendAsApp`.
-- Review Azure and Exchange permissions regularly.
 
 ## Related information
 

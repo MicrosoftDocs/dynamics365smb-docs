@@ -1,5 +1,5 @@
 ---
-title: Use SMTP for email in a multi-tenant environment
+title: Use SMTP for email in a multitenant environment
 description: 
 author: brentholtorf
 ms.author: bholtorf
@@ -12,20 +12,20 @@ ms.custom: bap-template
 
 ---
 
-# Use SMTP for email in a multi-tenant environment
+# Use SMTP for email in a multitenant environment
 
 This article explains how to configure your Microsoft 365 tenant so that [!INCLUDE [prod_short](includes/prod_short.md)] can send emails through the SMTP connector using OAuth 2.0 (client credentials flow).
 
-This article also covers how to enable cross-tenant scenarios, where you have an app registration in Azure portal in one Microsoft Entra tenant but use it to send emails from another tenant.
+This article also covers how to enable cross-tenant scenarios. For example, where you have an app registration in Azure portal in one Microsoft Entra tenant but you use it to send emails from another tenant.
 
 In the following procedures, we refer to the Microsoft Entra tenant where you have the app registration as "Tenant A," and the tenant where you use it for SMTP as "Tenant B." Tenant B contains your [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
-> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we recommend that you use the latest version, and set up OAuth 2.0 authentication for SMTP. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
+> Exchange Online is deprecating use of Basic authentication for SMTP. This change doesn't affect tenants that currently use SMTP AUTH. However, we recommend that you use the latest version, and set up OAuth 2.0 authentication for SMTP. If you can't set up OAuth 2.0 authentication, we encourage you to explore non-Microsoft alternatives if you want to use SMTP email in earlier versions.
 >
 > We currently don't support certificate-based authentication.
 
-The following is an overview of the steps to use OAuth 2.0 with the SMTP connector. This article describes each step.
+The following list gives an overview of the steps to use OAuth 2.0 with the SMTP connector. This article describes each step.
 
 1. [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal)
 1. [Grant API permissions](#grant-api-permissions)
@@ -40,7 +40,7 @@ Before you start, ensure that you have:
 
 - A Microsoft 365 tenant with Exchange Online.  
 - Global Administrator or Exchange Administrator permissions.  
-- A mailbox, for example, service@yourdomain.com, that you use as the “From” address.  
+- A mailbox, for example, service@yourdomain.com, that you use as the "From" address.  
 - A [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises environment.
 - (Optional) Python 3.10+ or any other environment that supports OAuth-based SMTP authentication for testing.
 
@@ -49,18 +49,19 @@ Before you start, ensure that you have:
 The first step is to create an app registration for the app you have in "Tenant A" in Microsoft Entra ID. The app registration lets [!INCLUDE [prod_short](includes/prod_short.md)] send email from a mailbox that's in another Microsoft Entra tenant.
 
 1. Go to [Azure portal](https://portal.azure.com).
-1. Under **Azure services, choose **JMicrosoft Entra ID**.
+1. Under **Azure services**, choose **Microsoft Entra ID**.
 1. In the navigation pane, choose **App registrations**.
 1. On the **App registrations** page, choose **New registration**.
 1. On the **Register an application** page, fill in the fields as follows:
+
     1. In the **Name** field, enter a name for your app. For example, **SMTP_OAuth_App**.
-    1. Under **Supported account types**, choose **Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**. This is required for cross-tenant consent.
+    1. Under **Supported account types**, choose **Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**. This setting is required for cross-tenant consent.
     1. Under **Redirect URI (optional)**, for the platform, choose **Web**, and then enter the URI.
 
 1. Choose **Register**.
 
 > [!NOTE]
-> After you register the app in Microsoft Entra ID, make a note of the following information. You'll need it in a later step.
+> After you register the app in Microsoft Entra ID, make a note of the following information. You need it in a later step.
 >
 > |Field  |Example  |Description  |
 > |---------|---------|---------|
@@ -97,7 +98,7 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
    https://login.microsoftonline.com/\<TenantB_ID>/oauth2/v2.0/authorize?client_id=\<Client_ID>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent
 
 1. In Microsoft Entra admin center, go to **Enterprise apps**, find your app, and then copy the value in the **Object ID** field. The object ID is used as the service ID in the command in the next step in this process.
-1. To create a new service principal in your tenant, run the following in PowerShell as an administrator
+1. To create a new service principal in your tenant, run the following command in PowerShell as an administrator.
 
    ```powershell
 
@@ -193,7 +194,7 @@ Get-DistributionGroupMember "Your group name" |
    - `SmtpClientAuthenticationDisabled` is `False`.
    - `OAuth2ClientProfileEnabled` is `True`.
 
-   If `SmtpClientAuthenticationDisabled` is `True`, SMTP is _not_ enabled. To enable it, run the following command:
+   If `SmtpClientAuthenticationDisabled` is `True`, SMTP _isn't_ enabled. To enable it, run the following command:
 
    ```powershell 
 
@@ -215,7 +216,7 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
    |Server Port     |  587       |         |
    |Authentication Type     | OAuth 2.0        |         |
    |Client ID | 11111111-2222-3333-4444-555555555555 | The application ID from Tenant A |
-   |Client Secret     |         | The secr4et generated in the app.        |
+   |Client Secret     |         | The secret generated in the app.        |
    |Tenant ID     | 11111111-2222-3333-4444-555555555555  | The ID of Tenant B, where you host the email account.  |
    |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |
    |Use custom app registration| | If you want to use a custom app registration, turn on the toggle. |
@@ -224,7 +225,7 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
 
 ## Send a test email
 
-The following is a basic example you can use to test SMTP OAuth.
+The following example shows a basic way to test SMTP OAuth.
 
 ```powershell
 
@@ -250,7 +251,7 @@ This section lists some typical issues, their causes, and provides suggestions f
 - Cause: The token is missing or invalid.
 - Resolution: Verify `SMTP.SendAsApp` and admin consent.
 
-### 430 mailbox logon failure
+### 430 mailbox sign in failure
 
 - Cause: Missing `SendAs` rights.
 - Resolution: Run `Set-CASMailbox`.
@@ -258,7 +259,7 @@ This section lists some typical issues, their causes, and provides suggestions f
 ### 550 5.7.708 Service unavailable
 
 - Cause: The new tenant is restricted or has an incorrect tenant ID. For example, you entered Tenant A's ID but your account is from Tenant B.
-- Resolution: Contract Microsoft 365 support or check your tenant ID.
+- Resolution: Contact Microsoft 365 support or check your tenant ID.
 
 ## Related information
 

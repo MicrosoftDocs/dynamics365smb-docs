@@ -124,26 +124,26 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
 ```powershell
 
-$sp = Get-ServicePrincipal | Where-Object { $_.AppId -eq "{AppID}" }
+   $sp = Get-ServicePrincipal | Where-Object { $_.AppId -eq "{AppID}" }
 
- # Replace this with the mailbox you use as the from_addr / user= in XOAUTH2.
-$Mailbox = "someuser@xxx.onmicrosoft.com"
+    # Replace this with the mailbox you use as the from_addr / user= in XOAUTH2.
+   $Mailbox = "someuser@xxx.onmicrosoft.com"
 
-Add-MailboxPermission -Identity $Mailbox `
-    -User $sp.ObjectId `
-    -AccessRights FullAccess `
-    -AutoMapping:$false
+   Add-MailboxPermission -Identity $Mailbox `
+       -User $sp.ObjectId `
+       -AccessRights FullAccess `
+       -AutoMapping:$false
 
- # If you have multiple users, create a group for them and then assign them.
-Get-DistributionGroupMember "Your group name" |
-  ForEach-Object {
-      Add-MailboxPermission -$_.PrimarySmtpAddress `
-          -User $sp.ObjectId `
-          -AccessRights FullAccess `
-          -AutoMapping:$false
-  }
+    # If you have multiple users, create a group for them and then assign them.
+   Get-DistributionGroupMember "Your group name" |
+     ForEach-Object {
+         Add-MailboxPermission -$_.PrimarySmtpAddress `
+             -User $sp.ObjectId `
+             -AccessRights FullAccess `
+             -AutoMapping:$false
+     }
 
-```
+   ```
 
 1. To verify the permissions, run the following command:
 
@@ -194,7 +194,7 @@ Get-DistributionGroupMember "Your group name" |
    - `SmtpClientAuthenticationDisabled` is `False`.
    - `OAuth2ClientProfileEnabled` is `True`.
 
-   If `SmtpClientAuthenticationDisabled` is `True`, SMTP _isn't_ enabled. To enable it, run the following command:
+   If `SmtpClientAuthenticationDisabled` is `True`, SMTP isn't enabled. To enable it, run the following command:
 
    ```powershell
 
@@ -215,7 +215,7 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
    |Server     | smtp.office365.com        |         |
    |Server Port     |  587       |         |
    |Authentication Type     | OAuth 2.0        |         |
-   |Client ID | 11111111-2222-3333-4444-555555555555 | The application ID from Tenant A |
+   |Client ID | 11111111-2222-3333-4444-555555555555 | The application ID from Tenant A. |
    |Client Secret     |         | The secret generated in the app.        |
    |Tenant ID     | 11111111-2222-3333-4444-555555555555  | The ID of Tenant B, where you host the email account.  |
    |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |

@@ -14,18 +14,29 @@ ms.custom: bap-template
 
 # Use SMTP for email in a multi-tenant environment
 
-This article explains how to configure your Microsoft 365 tenant so that [!INCLUDE [prod_short](includes/prod_short.md)] can send emails through SMTP AUTH using OAuth 2.0 (client credentials flow).
+This article explains how to configure your Microsoft 365 tenant so that [!INCLUDE [prod_short](includes/prod_short.md)] can send emails through the SMTP connector using OAuth 2.0 (client credentials flow).
 
-This article also covers how to enable cross-tenant scenarios, where you have an Azure App registered in one tenant but use it to send emails from another tenant.
+This article also covers how to enable cross-tenant scenarios, where you have an app registration in Azure portal in one Microsoft Entra tenant but use it to send emails from another tenant.
 
-In the following procedures we refer to the tenant where you have the app as "Tenant A," which is where your app is, and the tenant where you use it for SMTP as "Tenant B," which is where your [!INCLUDE [prod_short](includes/prod_short.md)] is.
+In the following procedures, we refer to the Microsoft Entra tenant where you have the app registration as "Tenant A," and the tenant where you use it for SMTP as "Tenant B." Tenant B contains your [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
-> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of and setting up OAuth 2.0 authentication for SMTP. We currently don't support certificate-based authentication. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
+> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we recommend that you use the latest version, and set up OAuth 2.0 authentication for SMTP. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
+>
+> We currently don't support certificate-based authentication.
+
+The following is an overview of the steps to use OAuth 2.0 with the SMTP connector. This article describes each step.
+
+1. [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal)
+1. [Grant API permissions](#grant-api-permissions)
+1. [Create a client secret or certificate](#create-a-client-secret-or-certificate)
+1. [Register the service principal in Exchange Online](#register-the-service-principal-in-exchange-online)
+1. [Grant the app permission to send as your mailbox](#grant-the-app-permission-to-send-as-your-mailbox)
+1. [Verify your SMTP OAuth configuration](#verify-your-smtp-oauth-configuration)
 
 ## Prerequisites
 
-Before starting, ensure you have:
+Before you start, ensure that you have:
 
 - A Microsoft 365 tenant with Exchange Online.  
 - Global Administrator or Exchange Administrator permissions.  
@@ -35,7 +46,7 @@ Before starting, ensure you have:
 
 ## Create an application registration in Azure portal
 
-The first step is to create an app registration for the app you have in "Tenant A" in Microsoft Entra ID. The app registration lets Business Central send email from a mailbox that might be in another tenant. 
+The first step is to create an app registration for the app you have in "Tenant A" in Microsoft Entra ID. The app registration lets [!INCLUDE [prod_short](includes/prod_short.md)] send email from a mailbox that's in another Microsoft Entra tenant.
 
 1. Go to [Azure portal](https://portal.azure.com).
 1. Under **Azure services, choose **JMicrosoft Entra ID**.
@@ -81,7 +92,7 @@ The next step is to give the app permission to send email.
 
 1. In PowerShell, use the following link to consent. Replace the tenant ID and client ID (App ID) with the values for your "Tenant B."
 
-   ```PowerShell
+   ```powershell
    https://login.microsoftonline.com/\<TenantB_ID>/oauth2/v2.0/authorize?client_id=\<Client_ID>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent
 
    ```
@@ -89,7 +100,7 @@ The next step is to give the app permission to send email.
 1. In Microsoft Entra admin center, go to **Enterprise apps**, find your app, and then copy the value in the **Object ID** field. The object ID is used as the service ID in the command in the next step in this process.
 1. To create a new service principal in your tenant, run the following in PowerShell as an administrator
 
-   ```PowerShell
+   ```powershell
 
    Install-Module ExchangeOnlineManagement -Scope CurrentUser
 
@@ -111,7 +122,7 @@ The next step is to give the app permission to send email.
 
 1. In PowerShell, run the following command to grant the app permission to send email from your mailbox.
 
-```PowerShell
+```powershell
 
 $sp = Get-ServicePrincipal | Where-Object { $_.AppId -eq "{AppID}" }
 
@@ -134,9 +145,9 @@ Get-DistributionGroupMember "Your group name" |
 
 ```
 
-1. Run the following command to verify the permissions.
+1. To verify the permissions, run the following command:
 
-   ```PowerShell
+   ```powershell
    Get-MailboxPermission  -Identity $Mailbox | ? {$_.User -eq $Display}
    ```
 
@@ -144,9 +155,9 @@ Get-DistributionGroupMember "Your group name" |
 
 ## Verify your SMTP OAuth configuration
 
-1. In PowerShell, run the following command to verify your SMTP OAuth configuration.
+1. In PowerShell, run the following command to verify your SMTP OAuth configuration:
 
-   ```PowerShell
+   ```powershell
    
    Import-Module ExchangeOnlineManagement
    Connect-ExchangeOnline -UserPrincipalName admin@yourtenant.onmicrosoft.com
@@ -160,7 +171,7 @@ Get-DistributionGroupMember "Your group name" |
 
 1. To enable SMTP for your entire organization level, run the following command:
 
-   ```PowerShell
+   ```powershell
 
    Get-TransportConfig | Select SmtpClientAuthenticationDisabled
 
@@ -172,7 +183,7 @@ Get-DistributionGroupMember "Your group name" |
 
 1. To verify that SMTP OPAuth is globally enabled, run the following command:
 
-   ```PowerShell
+   ```powershell
 
    Get-TransportConfig | fl SmtpClientAuthenticationDisabled,OAuth2ClientProfileEnabled
 
@@ -185,7 +196,7 @@ Get-DistributionGroupMember "Your group name" |
 
    If `SmtpClientAuthenticationDisabled` is `True`, run the following command to enable it:
 
-   ```PowerShell 
+   ```powershell 
 
    Set-TransportConfig -SmtpClientAuthenticationDisabled $false
 
@@ -215,7 +226,7 @@ Get-DistributionGroupMember "Your group name" |
 
 The following is a basic example you can use to test SMTP OAuth.
 
-```Python
+```python
 
 import base64, smtplib, requests
 

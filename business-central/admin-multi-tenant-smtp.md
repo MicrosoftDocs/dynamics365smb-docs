@@ -122,28 +122,28 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
 1. In PowerShell, run the following command to grant the app permission to send email from your mailbox.
 
-```powershell
+   ```powershell
 
-   $sp = Get-ServicePrincipal | Where-Object { $_.AppId -eq "{AppID}" }
+      $sp = Get-ServicePrincipal | Where-Object { $_.AppId -eq "{AppID}" }
 
-    # Replace this with the mailbox you use as the from_addr / user= in XOAUTH2.
-   $Mailbox = "someuser@xxx.onmicrosoft.com"
+       # Replace this with the mailbox you use as the from_addr / user= in XOAUTH2.
+      $Mailbox = "someuser@xxx.onmicrosoft.com"
 
-   Add-MailboxPermission -Identity $Mailbox `
-       -User $sp.ObjectId `
-       -AccessRights FullAccess `
-       -AutoMapping:$false
+      Add-MailboxPermission -Identity $Mailbox `
+          -User $sp.ObjectId `
+          -AccessRights FullAccess `
+          -AutoMapping:$false
 
-    # If you have multiple users, create a group for them and then assign them.
-   Get-DistributionGroupMember "Your group name" |
-     ForEach-Object {
-         Add-MailboxPermission -$_.PrimarySmtpAddress `
-             -User $sp.ObjectId `
-             -AccessRights FullAccess `
-             -AutoMapping:$false
-     }
+       # If you have multiple users, create a group for them and then assign them.
+      Get-DistributionGroupMember "Your group name" |
+        ForEach-Object {
+            Add-MailboxPermission -$_.PrimarySmtpAddress `
+                -User $sp.ObjectId `
+                -AccessRights FullAccess `
+                -AutoMapping:$false
+        }
 
-   ```
+      ```
 
 1. To verify the permissions, run the following command:
 

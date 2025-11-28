@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="884.09833"
-   height="702.36798"
+   height="1057.6549"
    overflow="hidden"
    version="1.1"
    id="svg299"
@@ -22,14 +22,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.3820312"
-     inkscape:cx="454.86389"
-     inkscape:cy="596.75959"
+     inkscape:cx="454.65399"
+     inkscape:cy="663.92917"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="2869"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg299" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs120">
     <image
@@ -2368,1665 +2368,6 @@
     </pattern>
   </defs>
   <g
-     id="g299"
-     transform="matrix(1,0,-0.00475178,1,-183.46588,-2.5188587)">
-    <rect
-       x="186.79794"
-       y="2.5188587"
-       width="880.7782"
-       height="702.36798"
-       fill="#ffffff"
-       id="rect120"
-       style="stroke-width:0.819302"
-       transform="skewX(0.00141468)" />
-    <path
-       d="M 190.333,181.267 H 1067"
-       stroke="#a5a5a5"
-       stroke-width="0.666667"
-       stroke-miterlimit="8"
-       fill="none"
-       fill-rule="evenodd"
-       id="path120" />
-    <path
-       d="M 190.333,357.168 H 1067"
-       stroke="#a5a5a5"
-       stroke-width="0.666667"
-       stroke-miterlimit="8"
-       fill="none"
-       fill-rule="evenodd"
-       id="path121" />
-    <path
-       d="M 190.333,533.068 H 1067"
-       stroke="#a5a5a5"
-       stroke-width="0.666667"
-       stroke-miterlimit="8"
-       fill="none"
-       fill-rule="evenodd"
-       id="path122" />
-    <path
-       d="M 190.667,5.03318 V 709.302"
-       stroke="#a5a5a5"
-       stroke-width="0.666667"
-       stroke-miterlimit="8"
-       fill="none"
-       fill-rule="evenodd"
-       id="path123" />
-    <path
-       d="M 1066.67,5.03318 V 709.302"
-       stroke="#a5a5a5"
-       stroke-width="0.666667"
-       stroke-miterlimit="8"
-       fill="none"
-       fill-rule="evenodd"
-       id="path124" />
-    <path
-       d="M 190.333,5.36651 H 1067"
-       stroke="#a5a5a5"
-       stroke-width="0.666667"
-       stroke-miterlimit="8"
-       fill="none"
-       fill-rule="evenodd"
-       id="path125" />
-    <text
-       font-family="Aptos,Aptos_MSFontService,sans-serif"
-       font-weight="400"
-       font-size="16"
-       transform="translate(387.297,29)"
-       id="text126"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
-         sodipodi:role="line"
-         id="tspan299"
-         x="0"
-         y="0">Beginning inventory</tspan></text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(405.619,171)"
-       id="text128">Net purchases</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(384.606,206)"
-       id="text129">Beginning inventory</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(388.795,386)"
-       id="text130">Beginning inventory</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(385.576,555)"
-       id="text131">Beginning inventory</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(403.343,352)"
-       id="text132">Net purchases</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(400.143,521)"
-       id="text133">Net purchases</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(397.815,695)"
-       id="text134">Net purchases</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       id="text135"
-       x="598.2254"
-       y="29.839619">Goods available for sale</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       id="text136"
-       x="603.0155"
-       y="205.41982">Goods available for sale</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       id="text137"
-       x="598.91992"
-       y="385.93866">Goods available for sale</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       id="text138"
-       x="603.8551"
-       y="556.5802">Goods available for sale</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(870.889,31)"
-       id="text139">Ending inventory</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(881.686,203)"
-       id="text140">Ending inventory</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(882.573,384)"
-       id="text141">Ending inventory</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(879.143,557)"
-       id="text142">Ending inventory</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(866.632,171)"
-       id="text143">Cost of goods sold</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(875.393,521)"
-       id="text144">Cost of goods sold</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(874.506,347)"
-       id="text145">Cost of goods sold</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(874.506,694)"
-       id="text146">Cost of goods sold</text>
-    <path
-       d="m 450.284,68.3833 h 5.599 V 63.886 h 4.234 v 4.4973 h 5.599 v 4.2336 h -5.599 v 4.4973 h -4.234 v -4.4973 h -5.599 z"
-       stroke="#2f528f"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path146" />
-    <rect
-       x="392.5"
-       y="36.500099"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern1)"
-       id="rect146" />
-    <rect
-       x="426.5"
-       y="36.500099"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern2)"
-       id="rect147" />
-    <rect
-       x="460.5"
-       y="36.500099"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern3)"
-       id="rect148" />
-    <rect
-       x="494.5"
-       y="36.500099"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern4)"
-       id="rect149" />
-    <rect
-       x="411.5"
-       y="127.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern6)"
-       id="rect150" />
-    <rect
-       x="442.5"
-       y="81.500099"
-       width="31"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern7)"
-       id="rect151" />
-    <rect
-       x="425.5"
-       y="104.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern8)"
-       id="rect152" />
-    <rect
-       x="459.5"
-       y="104.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern9)"
-       id="rect153" />
-    <rect
-       x="478.5"
-       y="127.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern10)"
-       id="rect154" />
-    <rect
-       x="445.5"
-       y="127.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern11)"
-       id="rect155" />
-    <path
-       d="m 447.416,245.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
-       stroke="#2f528f"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path155" />
-    <rect
-       x="389.5"
-       y="213.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern12)"
-       id="rect156" />
-    <rect
-       x="423.5"
-       y="213.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern13)"
-       id="rect157" />
-    <rect
-       x="457.5"
-       y="213.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern14)"
-       id="rect158" />
-    <rect
-       x="491.5"
-       y="213.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern15)"
-       id="rect159" />
-    <rect
-       x="409.5"
-       y="304.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern16)"
-       id="rect160" />
-    <rect
-       x="440.5"
-       y="257.5"
-       width="30"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern17)"
-       id="rect161" />
-    <rect
-       x="422.5"
-       y="281.5"
-       width="31"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern18)"
-       id="rect162" />
-    <rect
-       x="456.5"
-       y="281.5"
-       width="31"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern19)"
-       id="rect163" />
-    <rect
-       x="476.5"
-       y="304.5"
-       width="30"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern20)"
-       id="rect164" />
-    <rect
-       x="442.5"
-       y="304.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern21)"
-       id="rect165" />
-    <path
-       d="m 444.416,424.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
-       stroke="#2f528f"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path165" />
-    <rect
-       x="386.5"
-       y="392.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern22)"
-       id="rect166" />
-    <rect
-       x="420.5"
-       y="392.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern23)"
-       id="rect167" />
-    <rect
-       x="455.5"
-       y="392.5"
-       width="30"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern24)"
-       id="rect168" />
-    <rect
-       x="489.5"
-       y="392.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern25)"
-       id="rect169" />
-    <rect
-       x="406.5"
-       y="483.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern26)"
-       id="rect170" />
-    <rect
-       x="437.5"
-       y="437.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern27)"
-       id="rect171" />
-    <rect
-       x="419.5"
-       y="460.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern28)"
-       id="rect172" />
-    <rect
-       x="454.5"
-       y="460.5"
-       width="30"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern29)"
-       id="rect173" />
-    <rect
-       x="473.5"
-       y="483.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern30)"
-       id="rect174" />
-    <rect
-       x="439.5"
-       y="483.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern31)"
-       id="rect175" />
-    <path
-       d="m 443.416,597.766 h 5.85 v -4.748 h 4.468 v 4.748 h 5.85 v 4.468 h -5.85 v 4.748 h -4.468 v -4.748 h -5.85 z"
-       stroke="#2f528f"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path175" />
-    <rect
-       x="404.5"
-       y="659.5"
-       width="30"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern32)"
-       id="rect176" />
-    <rect
-       x="434.5"
-       y="612.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern33)"
-       id="rect177" />
-    <rect
-       x="417.5"
-       y="636.5"
-       width="31"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern34)"
-       id="rect178" />
-    <rect
-       x="451.5"
-       y="636.5"
-       width="31"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern35)"
-       id="rect179" />
-    <rect
-       x="470.5"
-       y="659.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern36)"
-       id="rect180" />
-    <rect
-       x="437.5"
-       y="659.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern37)"
-       id="rect181" />
-    <rect
-       x="384.5"
-       y="562.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern38)"
-       id="rect182" />
-    <rect
-       x="451.5"
-       y="562.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern39)"
-       id="rect183" />
-    <rect
-       x="418.5"
-       y="562.5"
-       width="30"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern40)"
-       id="rect184" />
-    <rect
-       x="484.5"
-       y="562.5"
-       width="31"
-       height="20"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern41)"
-       id="rect185" />
-    <rect
-       x="616.5"
-       y="119.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern42)"
-       id="rect186" />
-    <rect
-       x="654.5"
-       y="119.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern43)"
-       id="rect187" />
-    <rect
-       x="692.5"
-       y="119.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern44)"
-       id="rect188" />
-    <rect
-       x="730.5"
-       y="119.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern45)"
-       id="rect189" />
-    <rect
-       x="638.5"
-       y="97.500099"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern46)"
-       id="rect190" />
-    <rect
-       x="672.5"
-       y="53.500099"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern47)"
-       id="rect191" />
-    <rect
-       x="653.5"
-       y="75.500099"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern48)"
-       id="rect192" />
-    <rect
-       x="691.5"
-       y="75.500099"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern49)"
-       id="rect193" />
-    <rect
-       x="712.5"
-       y="97.500099"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern50)"
-       id="rect194" />
-    <rect
-       x="675.5"
-       y="97.500099"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern51)"
-       id="rect195" />
-    <rect
-       x="619.5"
-       y="297.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern52)"
-       id="rect196" />
-    <rect
-       x="657.5"
-       y="297.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern53)"
-       id="rect197" />
-    <rect
-       x="695.5"
-       y="297.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern54)"
-       id="rect198" />
-    <rect
-       x="733.5"
-       y="297.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern55)"
-       id="rect199" />
-    <rect
-       x="640.5"
-       y="275.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern56)"
-       id="rect200" />
-    <rect
-       x="674.5"
-       y="231.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern57)"
-       id="rect201" />
-    <rect
-       x="655.5"
-       y="253.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern58)"
-       id="rect202" />
-    <rect
-       x="692.5"
-       y="253.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern59)"
-       id="rect203" />
-    <rect
-       x="714.5"
-       y="275.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern60)"
-       id="rect204" />
-    <rect
-       x="677.5"
-       y="275.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern61)"
-       id="rect205" />
-    <rect
-       x="616.5"
-       y="470.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern63)"
-       id="rect206" />
-    <rect
-       x="654.5"
-       y="470.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern64)"
-       id="rect207" />
-    <rect
-       x="692.5"
-       y="470.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern65)"
-       id="rect208" />
-    <rect
-       x="730.5"
-       y="470.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern66)"
-       id="rect209" />
-    <rect
-       x="638.5"
-       y="449.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern67)"
-       id="rect210" />
-    <rect
-       x="672.5"
-       y="405.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern68)"
-       id="rect211" />
-    <rect
-       x="652.5"
-       y="427.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern69)"
-       id="rect212" />
-    <rect
-       x="690.5"
-       y="427.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern70)"
-       id="rect213" />
-    <rect
-       x="712.5"
-       y="449.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern71)"
-       id="rect214" />
-    <rect
-       x="675.5"
-       y="449.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern72)"
-       id="rect215" />
-    <rect
-       x="621.5"
-       y="640.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern73)"
-       id="rect216" />
-    <rect
-       x="659.5"
-       y="640.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern74)"
-       id="rect217" />
-    <rect
-       x="697.5"
-       y="640.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern75)"
-       id="rect218" />
-    <rect
-       x="735.5"
-       y="640.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern76)"
-       id="rect219" />
-    <rect
-       x="638.5"
-       y="618.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern77)"
-       id="rect220" />
-    <rect
-       x="672.5"
-       y="574.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern78)"
-       id="rect221" />
-    <rect
-       x="652.5"
-       y="596.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern79)"
-       id="rect222" />
-    <rect
-       x="690.5"
-       y="596.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern80)"
-       id="rect223" />
-    <rect
-       x="712.5"
-       y="618.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern81)"
-       id="rect224" />
-    <rect
-       x="675.5"
-       y="618.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern82)"
-       id="rect225" />
-    <rect
-       x="856.5"
-       y="132.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern83)"
-       id="rect226" />
-    <rect
-       x="894.5"
-       y="132.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern84)"
-       id="rect227" />
-    <rect
-       x="933.5"
-       y="132.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern85)"
-       id="rect228" />
-    <rect
-       x="971.5"
-       y="132.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern86)"
-       id="rect229" />
-    <rect
-       x="911.5"
-       y="40.500099"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern87)"
-       id="rect230" />
-    <rect
-       x="891.5"
-       y="62.500099"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern88)"
-       id="rect231" />
-    <rect
-       x="929.5"
-       y="62.500099"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern89)"
-       id="rect232" />
-    <rect
-       x="874.5"
-       y="106.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern90)"
-       id="rect233" />
-    <rect
-       x="949.5"
-       y="106.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern91)"
-       id="rect234" />
-    <rect
-       x="912.5"
-       y="106.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern92)"
-       id="rect235" />
-    <path
-       d="m 919.416,92.3833 h 5.967 V 87.886 h 4.234 v 4.4973 h 5.967 v 4.2335 h -5.967 v 4.4972 h -4.234 v -4.4972 h -5.967 z"
-       stroke="#2f528f"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path235" />
-    <rect
-       x="858.5"
-       y="485.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern93)"
-       id="rect236" />
-    <rect
-       x="896.5"
-       y="485.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern94)"
-       id="rect237" />
-    <rect
-       x="934.5"
-       y="485.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern95)"
-       id="rect238" />
-    <rect
-       x="972.5"
-       y="485.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern96)"
-       id="rect239" />
-    <rect
-       x="912.5"
-       y="393.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern98)"
-       id="rect240" />
-    <rect
-       x="893.5"
-       y="415.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern99)"
-       id="rect241" />
-    <rect
-       x="931.5"
-       y="415.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern100)"
-       id="rect242" />
-    <rect
-       x="876.5"
-       y="459.5"
-       width="35"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern101)"
-       id="rect243" />
-    <rect
-       x="951.5"
-       y="459.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern102)"
-       id="rect244" />
-    <rect
-       x="913.5"
-       y="459.5"
-       width="35"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern103)"
-       id="rect245" />
-    <path
-       d="m 921.416,445.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
-       stroke="#2f528f"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path245" />
-    <rect
-       x="862.5"
-       y="305.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern104)"
-       id="rect246" />
-    <rect
-       x="900.5"
-       y="305.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern105)"
-       id="rect247" />
-    <rect
-       x="938.5"
-       y="305.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern106)"
-       id="rect248" />
-    <rect
-       x="976.5"
-       y="305.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern107)"
-       id="rect249" />
-    <rect
-       x="916.5"
-       y="213.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern108)"
-       id="rect250" />
-    <rect
-       x="897.5"
-       y="235.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern109)"
-       id="rect251" />
-    <rect
-       x="935.5"
-       y="235.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern110)"
-       id="rect252" />
-    <rect
-       x="880.5"
-       y="278.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern111)"
-       id="rect253" />
-    <rect
-       x="954.5"
-       y="278.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern112)"
-       id="rect254" />
-    <rect
-       x="917.5"
-       y="278.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern113)"
-       id="rect255" />
-    <path
-       d="m 925.284,265.383 h 5.599 v -4.497 h 4.234 v 4.497 h 5.599 v 4.234 h -5.599 v 4.497 h -4.234 v -4.497 h -5.599 z"
-       stroke="#2f528f"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path255" />
-    <rect
-       x="863.5"
-       y="656.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern114)"
-       id="rect256" />
-    <rect
-       x="901.5"
-       y="656.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern115)"
-       id="rect257" />
-    <rect
-       x="939.5"
-       y="656.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern116)"
-       id="rect258" />
-    <rect
-       x="977.5"
-       y="656.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern117)"
-       id="rect259" />
-    <rect
-       x="917.5"
-       y="565.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern118)"
-       id="rect260" />
-    <rect
-       x="898.5"
-       y="587.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern119)"
-       id="rect261" />
-    <rect
-       x="936.5"
-       y="587.5"
-       width="34"
-       height="18"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern120)"
-       id="rect262" />
-    <rect
-       x="881.5"
-       y="630.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern121)"
-       id="rect263" />
-    <rect
-       x="955.5"
-       y="630.5"
-       width="35"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern122)"
-       id="rect264" />
-    <rect
-       x="918.5"
-       y="630.5"
-       width="34"
-       height="19"
-       stroke="#000000"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="url(#pattern123)"
-       id="rect265" />
-    <path
-       d="m 926.284,616.766 h 5.482 v -4.748 h 4.468 v 4.748 h 5.482 v 4.468 h -5.482 v 4.748 h -4.468 v -4.748 h -5.482 z"
-       stroke="#2f528f"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path265" />
-    <path
-       d="M 569,15 V 173.004"
-       stroke="#00b7c3"
-       stroke-width="6"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path266" />
-    <path
-       d="m 569.5,80.0001 h 21 v -5.5 l 11,11 -11,11 v -5.5 h -21 z"
-       stroke="#00b7c3"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path267" />
-    <path
-       d="M 806,11 V 169.004"
-       stroke="#00b7c3"
-       stroke-width="6"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path268" />
-    <path
-       d="m 806.5,76 h 20 v -5.4999 l 11,11 -11,11 v -5.5 h -20 z"
-       stroke="#00b7c3"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path269" />
-    <path
-       d="M 806,186 V 344.004"
-       stroke="#00b7c3"
-       stroke-width="6"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path270" />
-    <path
-       d="m 806.5,251 h 20 v -5.5 l 11,11 -11,11 V 262 h -20 z"
-       stroke="#00b7c3"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path271" />
-    <path
-       d="M 806,364 V 522.004"
-       stroke="#00b7c3"
-       stroke-width="6"
-       stroke-miterlimit="8"
-       fill="#00b472"
-       fill-rule="evenodd"
-       id="path272" />
-    <path
-       d="m 806,428.5 h 20 V 423 l 11,11 -11,11 v -5.5 h -20 z"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path273" />
-    <path
-       d="M 569,541 V 699.004"
-       stroke="#00b7c3"
-       stroke-width="6"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path274" />
-    <path
-       d="m 569.5,607 h 21 v -5.5 l 11,11 -11,11 V 618 h -21 z"
-       stroke="#00b7c3"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path275" />
-    <path
-       d="M 569,364 V 522.004"
-       stroke="#00b7c3"
-       stroke-width="6"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path276" />
-    <path
-       d="m 569.5,429 h 21 v -5.5 l 11,11 -11,11 V 440 h -21 z"
-       stroke="#00b7c3"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path277" />
-    <path
-       d="M 569,187 V 345.004"
-       stroke="#00b7c3"
-       stroke-width="6"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path278" />
-    <path
-       d="m 569.5,252 h 21 v -5.5 l 11,11 -11,11 V 263 h -21 z"
-       stroke="#00b7c3"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path279" />
-    <path
-       d="M 806,537 V 695.004"
-       stroke="#00b7c3"
-       stroke-width="6"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path280" />
-    <path
-       d="m 806.5,603 h 20 v -5.5 l 11,11 -11,11 V 614 h -20 z"
-       stroke="#00b7c3"
-       stroke-width="1.33333"
-       stroke-miterlimit="8"
-       fill="#00b7c3"
-       fill-rule="evenodd"
-       id="path281" />
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(261.729,73)"
-       id="text281">FIFO</text>
-    <text
-       font-family="Aptos,Aptos_MSFontService,sans-serif"
-       font-weight="400"
-       font-size="24"
-       transform="translate(243.043,102)"
-       id="text282"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
-         sodipodi:role="line"
-         id="tspan303"
-         x="0"
-         y="0">(First-In,</tspan></text>
-    <text
-       font-family="Aptos,Aptos_MSFontService,sans-serif"
-       font-weight="400"
-       font-size="24"
-       transform="translate(236.789,131)"
-       id="text285"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
-         sodipodi:role="line"
-         id="tspan302"
-         x="0"
-         y="0">First-Out)</tspan></text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(265.1,238)"
-       id="text289">LIFO</text>
-    <text
-       font-family="Aptos,Aptos_MSFontService,sans-serif"
-       font-weight="400"
-       font-size="24"
-       transform="translate(246.387,267)"
-       id="text290"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
-         sodipodi:role="line"
-         id="tspan301"
-         x="0"
-         y="0">(Last-In,</tspan></text>
-    <text
-       font-family="Aptos,Aptos_MSFontService,sans-serif"
-       font-weight="400"
-       font-size="24"
-       transform="translate(239.827,296)"
-       id="text293"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
-         sodipodi:role="line"
-         id="tspan300"
-         x="0"
-         y="0">First-Out)</tspan></text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(247.934,418)"
-       id="text296">Average</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(238.1,447)"
-       id="text297">(weighted</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(245,476)"
-       id="text298">average)</text>
-    <text
-       font-family="Aptos, Aptos_MSFontService, sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(238.796,617)"
-       id="text299">Standard</text>
-  </g>
-  <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer 1"
@@ -4909,6 +3250,1665 @@
          font-size="24px"
          transform="translate(237.175,267)"
          id="text137-1">Standard</text>
+    </g>
+    <g
+       id="g299"
+       transform="matrix(1,0,-0.00475178,1,-183.86472,-2.5188587)">
+      <rect
+         x="186.79794"
+         y="2.5188587"
+         width="880.7782"
+         height="702.36798"
+         fill="#ffffff"
+         id="rect120"
+         style="stroke-width:0.819302"
+         transform="skewX(0.00141468)" />
+      <path
+         d="M 190.333,181.267 H 1067"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path120" />
+      <path
+         d="M 190.333,357.168 H 1067"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path121" />
+      <path
+         d="M 190.333,533.068 H 1067"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path122" />
+      <path
+         d="M 190.667,5.03318 V 709.302"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path123" />
+      <path
+         d="M 1066.67,5.03318 V 709.302"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path124" />
+      <path
+         d="M 190.333,5.36651 H 1067"
+         stroke="#a5a5a5"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path125" />
+      <text
+         font-family="Aptos,Aptos_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(387.297,29)"
+         id="text126"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           sodipodi:role="line"
+           id="tspan299"
+           x="0"
+           y="0">Beginning inventory</tspan></text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(405.619,171)"
+         id="text128">Net purchases</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(384.606,206)"
+         id="text129">Beginning inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(388.795,386)"
+         id="text130">Beginning inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(385.576,555)"
+         id="text131">Beginning inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(403.343,352)"
+         id="text132">Net purchases</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(400.143,521)"
+         id="text133">Net purchases</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(397.815,695)"
+         id="text134">Net purchases</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text135"
+         x="598.2254"
+         y="29.839619">Goods available for sale</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text136"
+         x="603.0155"
+         y="205.41982">Goods available for sale</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text137"
+         x="598.91992"
+         y="385.93866">Goods available for sale</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         id="text138"
+         x="603.8551"
+         y="556.5802">Goods available for sale</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(870.889,31)"
+         id="text139">Ending inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(881.686,203)"
+         id="text140">Ending inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(882.573,384)"
+         id="text141">Ending inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(879.143,557)"
+         id="text142">Ending inventory</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(866.632,171)"
+         id="text143">Cost of goods sold</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(875.393,521)"
+         id="text144">Cost of goods sold</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(874.506,347)"
+         id="text145">Cost of goods sold</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(874.506,694)"
+         id="text146">Cost of goods sold</text>
+      <path
+         d="m 450.284,68.3833 h 5.599 V 63.886 h 4.234 v 4.4973 h 5.599 v 4.2336 h -5.599 v 4.4973 h -4.234 v -4.4973 h -5.599 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path146" />
+      <rect
+         x="392.5"
+         y="36.500099"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern1)"
+         id="rect146" />
+      <rect
+         x="426.5"
+         y="36.500099"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern2)"
+         id="rect147" />
+      <rect
+         x="460.5"
+         y="36.500099"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern3)"
+         id="rect148" />
+      <rect
+         x="494.5"
+         y="36.500099"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern4)"
+         id="rect149" />
+      <rect
+         x="411.5"
+         y="127.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern6)"
+         id="rect150" />
+      <rect
+         x="442.5"
+         y="81.500099"
+         width="31"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern7)"
+         id="rect151" />
+      <rect
+         x="425.5"
+         y="104.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern8)"
+         id="rect152" />
+      <rect
+         x="459.5"
+         y="104.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern9)"
+         id="rect153" />
+      <rect
+         x="478.5"
+         y="127.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern10)"
+         id="rect154" />
+      <rect
+         x="445.5"
+         y="127.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern11)"
+         id="rect155" />
+      <path
+         d="m 447.416,245.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path155" />
+      <rect
+         x="389.5"
+         y="213.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern12)"
+         id="rect156" />
+      <rect
+         x="423.5"
+         y="213.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern13)"
+         id="rect157" />
+      <rect
+         x="457.5"
+         y="213.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern14)"
+         id="rect158" />
+      <rect
+         x="491.5"
+         y="213.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern15)"
+         id="rect159" />
+      <rect
+         x="409.5"
+         y="304.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern16)"
+         id="rect160" />
+      <rect
+         x="440.5"
+         y="257.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern17)"
+         id="rect161" />
+      <rect
+         x="422.5"
+         y="281.5"
+         width="31"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern18)"
+         id="rect162" />
+      <rect
+         x="456.5"
+         y="281.5"
+         width="31"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern19)"
+         id="rect163" />
+      <rect
+         x="476.5"
+         y="304.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern20)"
+         id="rect164" />
+      <rect
+         x="442.5"
+         y="304.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern21)"
+         id="rect165" />
+      <path
+         d="m 444.416,424.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path165" />
+      <rect
+         x="386.5"
+         y="392.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern22)"
+         id="rect166" />
+      <rect
+         x="420.5"
+         y="392.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern23)"
+         id="rect167" />
+      <rect
+         x="455.5"
+         y="392.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern24)"
+         id="rect168" />
+      <rect
+         x="489.5"
+         y="392.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern25)"
+         id="rect169" />
+      <rect
+         x="406.5"
+         y="483.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern26)"
+         id="rect170" />
+      <rect
+         x="437.5"
+         y="437.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern27)"
+         id="rect171" />
+      <rect
+         x="419.5"
+         y="460.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern28)"
+         id="rect172" />
+      <rect
+         x="454.5"
+         y="460.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern29)"
+         id="rect173" />
+      <rect
+         x="473.5"
+         y="483.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern30)"
+         id="rect174" />
+      <rect
+         x="439.5"
+         y="483.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern31)"
+         id="rect175" />
+      <path
+         d="m 443.416,597.766 h 5.85 v -4.748 h 4.468 v 4.748 h 5.85 v 4.468 h -5.85 v 4.748 h -4.468 v -4.748 h -5.85 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path175" />
+      <rect
+         x="404.5"
+         y="659.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern32)"
+         id="rect176" />
+      <rect
+         x="434.5"
+         y="612.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern33)"
+         id="rect177" />
+      <rect
+         x="417.5"
+         y="636.5"
+         width="31"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern34)"
+         id="rect178" />
+      <rect
+         x="451.5"
+         y="636.5"
+         width="31"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern35)"
+         id="rect179" />
+      <rect
+         x="470.5"
+         y="659.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern36)"
+         id="rect180" />
+      <rect
+         x="437.5"
+         y="659.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern37)"
+         id="rect181" />
+      <rect
+         x="384.5"
+         y="562.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern38)"
+         id="rect182" />
+      <rect
+         x="451.5"
+         y="562.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern39)"
+         id="rect183" />
+      <rect
+         x="418.5"
+         y="562.5"
+         width="30"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern40)"
+         id="rect184" />
+      <rect
+         x="484.5"
+         y="562.5"
+         width="31"
+         height="20"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern41)"
+         id="rect185" />
+      <rect
+         x="616.5"
+         y="119.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern42)"
+         id="rect186" />
+      <rect
+         x="654.5"
+         y="119.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern43)"
+         id="rect187" />
+      <rect
+         x="692.5"
+         y="119.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern44)"
+         id="rect188" />
+      <rect
+         x="730.5"
+         y="119.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern45)"
+         id="rect189" />
+      <rect
+         x="638.5"
+         y="97.500099"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern46)"
+         id="rect190" />
+      <rect
+         x="672.5"
+         y="53.500099"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern47)"
+         id="rect191" />
+      <rect
+         x="653.5"
+         y="75.500099"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern48)"
+         id="rect192" />
+      <rect
+         x="691.5"
+         y="75.500099"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern49)"
+         id="rect193" />
+      <rect
+         x="712.5"
+         y="97.500099"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern50)"
+         id="rect194" />
+      <rect
+         x="675.5"
+         y="97.500099"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern51)"
+         id="rect195" />
+      <rect
+         x="619.5"
+         y="297.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern52)"
+         id="rect196" />
+      <rect
+         x="657.5"
+         y="297.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern53)"
+         id="rect197" />
+      <rect
+         x="695.5"
+         y="297.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern54)"
+         id="rect198" />
+      <rect
+         x="733.5"
+         y="297.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern55)"
+         id="rect199" />
+      <rect
+         x="640.5"
+         y="275.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern56)"
+         id="rect200" />
+      <rect
+         x="674.5"
+         y="231.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern57)"
+         id="rect201" />
+      <rect
+         x="655.5"
+         y="253.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern58)"
+         id="rect202" />
+      <rect
+         x="692.5"
+         y="253.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern59)"
+         id="rect203" />
+      <rect
+         x="714.5"
+         y="275.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern60)"
+         id="rect204" />
+      <rect
+         x="677.5"
+         y="275.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern61)"
+         id="rect205" />
+      <rect
+         x="616.5"
+         y="470.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern63)"
+         id="rect206" />
+      <rect
+         x="654.5"
+         y="470.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern64)"
+         id="rect207" />
+      <rect
+         x="692.5"
+         y="470.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern65)"
+         id="rect208" />
+      <rect
+         x="730.5"
+         y="470.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern66)"
+         id="rect209" />
+      <rect
+         x="638.5"
+         y="449.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern67)"
+         id="rect210" />
+      <rect
+         x="672.5"
+         y="405.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern68)"
+         id="rect211" />
+      <rect
+         x="652.5"
+         y="427.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern69)"
+         id="rect212" />
+      <rect
+         x="690.5"
+         y="427.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern70)"
+         id="rect213" />
+      <rect
+         x="712.5"
+         y="449.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern71)"
+         id="rect214" />
+      <rect
+         x="675.5"
+         y="449.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern72)"
+         id="rect215" />
+      <rect
+         x="621.5"
+         y="640.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern73)"
+         id="rect216" />
+      <rect
+         x="659.5"
+         y="640.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern74)"
+         id="rect217" />
+      <rect
+         x="697.5"
+         y="640.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern75)"
+         id="rect218" />
+      <rect
+         x="735.5"
+         y="640.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern76)"
+         id="rect219" />
+      <rect
+         x="638.5"
+         y="618.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern77)"
+         id="rect220" />
+      <rect
+         x="672.5"
+         y="574.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern78)"
+         id="rect221" />
+      <rect
+         x="652.5"
+         y="596.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern79)"
+         id="rect222" />
+      <rect
+         x="690.5"
+         y="596.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern80)"
+         id="rect223" />
+      <rect
+         x="712.5"
+         y="618.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern81)"
+         id="rect224" />
+      <rect
+         x="675.5"
+         y="618.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern82)"
+         id="rect225" />
+      <rect
+         x="856.5"
+         y="132.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern83)"
+         id="rect226" />
+      <rect
+         x="894.5"
+         y="132.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern84)"
+         id="rect227" />
+      <rect
+         x="933.5"
+         y="132.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern85)"
+         id="rect228" />
+      <rect
+         x="971.5"
+         y="132.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern86)"
+         id="rect229" />
+      <rect
+         x="911.5"
+         y="40.500099"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern87)"
+         id="rect230" />
+      <rect
+         x="891.5"
+         y="62.500099"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern88)"
+         id="rect231" />
+      <rect
+         x="929.5"
+         y="62.500099"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern89)"
+         id="rect232" />
+      <rect
+         x="874.5"
+         y="106.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern90)"
+         id="rect233" />
+      <rect
+         x="949.5"
+         y="106.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern91)"
+         id="rect234" />
+      <rect
+         x="912.5"
+         y="106.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern92)"
+         id="rect235" />
+      <path
+         d="m 919.416,92.3833 h 5.967 V 87.886 h 4.234 v 4.4973 h 5.967 v 4.2335 h -5.967 v 4.4972 h -4.234 v -4.4972 h -5.967 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path235" />
+      <rect
+         x="858.5"
+         y="485.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern93)"
+         id="rect236" />
+      <rect
+         x="896.5"
+         y="485.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern94)"
+         id="rect237" />
+      <rect
+         x="934.5"
+         y="485.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern95)"
+         id="rect238" />
+      <rect
+         x="972.5"
+         y="485.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern96)"
+         id="rect239" />
+      <rect
+         x="912.5"
+         y="393.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern98)"
+         id="rect240" />
+      <rect
+         x="893.5"
+         y="415.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern99)"
+         id="rect241" />
+      <rect
+         x="931.5"
+         y="415.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern100)"
+         id="rect242" />
+      <rect
+         x="876.5"
+         y="459.5"
+         width="35"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern101)"
+         id="rect243" />
+      <rect
+         x="951.5"
+         y="459.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern102)"
+         id="rect244" />
+      <rect
+         x="913.5"
+         y="459.5"
+         width="35"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern103)"
+         id="rect245" />
+      <path
+         d="m 921.416,445.383 h 5.967 v -4.497 h 4.234 v 4.497 h 5.967 v 4.234 h -5.967 v 4.497 h -4.234 v -4.497 h -5.967 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path245" />
+      <rect
+         x="862.5"
+         y="305.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern104)"
+         id="rect246" />
+      <rect
+         x="900.5"
+         y="305.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern105)"
+         id="rect247" />
+      <rect
+         x="938.5"
+         y="305.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern106)"
+         id="rect248" />
+      <rect
+         x="976.5"
+         y="305.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern107)"
+         id="rect249" />
+      <rect
+         x="916.5"
+         y="213.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern108)"
+         id="rect250" />
+      <rect
+         x="897.5"
+         y="235.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern109)"
+         id="rect251" />
+      <rect
+         x="935.5"
+         y="235.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern110)"
+         id="rect252" />
+      <rect
+         x="880.5"
+         y="278.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern111)"
+         id="rect253" />
+      <rect
+         x="954.5"
+         y="278.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern112)"
+         id="rect254" />
+      <rect
+         x="917.5"
+         y="278.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern113)"
+         id="rect255" />
+      <path
+         d="m 925.284,265.383 h 5.599 v -4.497 h 4.234 v 4.497 h 5.599 v 4.234 h -5.599 v 4.497 h -4.234 v -4.497 h -5.599 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path255" />
+      <rect
+         x="863.5"
+         y="656.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern114)"
+         id="rect256" />
+      <rect
+         x="901.5"
+         y="656.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern115)"
+         id="rect257" />
+      <rect
+         x="939.5"
+         y="656.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern116)"
+         id="rect258" />
+      <rect
+         x="977.5"
+         y="656.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern117)"
+         id="rect259" />
+      <rect
+         x="917.5"
+         y="565.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern118)"
+         id="rect260" />
+      <rect
+         x="898.5"
+         y="587.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern119)"
+         id="rect261" />
+      <rect
+         x="936.5"
+         y="587.5"
+         width="34"
+         height="18"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern120)"
+         id="rect262" />
+      <rect
+         x="881.5"
+         y="630.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern121)"
+         id="rect263" />
+      <rect
+         x="955.5"
+         y="630.5"
+         width="35"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern122)"
+         id="rect264" />
+      <rect
+         x="918.5"
+         y="630.5"
+         width="34"
+         height="19"
+         stroke="#000000"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="url(#pattern123)"
+         id="rect265" />
+      <path
+         d="m 926.284,616.766 h 5.482 v -4.748 h 4.468 v 4.748 h 5.482 v 4.468 h -5.482 v 4.748 h -4.468 v -4.748 h -5.482 z"
+         stroke="#2f528f"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path265" />
+      <path
+         d="M 569,15 V 173.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path266" />
+      <path
+         d="m 569.5,80.0001 h 21 v -5.5 l 11,11 -11,11 v -5.5 h -21 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path267" />
+      <path
+         d="M 806,11 V 169.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path268" />
+      <path
+         d="m 806.5,76 h 20 v -5.4999 l 11,11 -11,11 v -5.5 h -20 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path269" />
+      <path
+         d="M 806,186 V 344.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path270" />
+      <path
+         d="m 806.5,251 h 20 v -5.5 l 11,11 -11,11 V 262 h -20 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path271" />
+      <path
+         d="M 806,364 V 522.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b472"
+         fill-rule="evenodd"
+         id="path272" />
+      <path
+         d="m 806,428.5 h 20 V 423 l 11,11 -11,11 v -5.5 h -20 z"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path273" />
+      <path
+         d="M 569,541 V 699.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path274" />
+      <path
+         d="m 569.5,607 h 21 v -5.5 l 11,11 -11,11 V 618 h -21 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path275" />
+      <path
+         d="M 569,364 V 522.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path276" />
+      <path
+         d="m 569.5,429 h 21 v -5.5 l 11,11 -11,11 V 440 h -21 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path277" />
+      <path
+         d="M 569,187 V 345.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path278" />
+      <path
+         d="m 569.5,252 h 21 v -5.5 l 11,11 -11,11 V 263 h -21 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path279" />
+      <path
+         d="M 806,537 V 695.004"
+         stroke="#00b7c3"
+         stroke-width="6"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path280" />
+      <path
+         d="m 806.5,603 h 20 v -5.5 l 11,11 -11,11 V 614 h -20 z"
+         stroke="#00b7c3"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#00b7c3"
+         fill-rule="evenodd"
+         id="path281" />
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(261.729,73)"
+         id="text281">FIFO</text>
+      <text
+         font-family="Aptos,Aptos_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="24"
+         transform="translate(243.043,102)"
+         id="text282"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           sodipodi:role="line"
+           id="tspan303"
+           x="0"
+           y="0">(First-In,</tspan></text>
+      <text
+         font-family="Aptos,Aptos_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="24"
+         transform="translate(236.789,131)"
+         id="text285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           sodipodi:role="line"
+           id="tspan302"
+           x="0"
+           y="0">First-Out)</tspan></text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(265.1,238)"
+         id="text289">LIFO</text>
+      <text
+         font-family="Aptos,Aptos_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="24"
+         transform="translate(246.387,267)"
+         id="text290"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           sodipodi:role="line"
+           id="tspan301"
+           x="0"
+           y="0">(Last-In,</tspan></text>
+      <text
+         font-family="Aptos,Aptos_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="24"
+         transform="translate(239.827,296)"
+         id="text293"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           sodipodi:role="line"
+           id="tspan300"
+           x="0"
+           y="0">First-Out)</tspan></text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(247.934,418)"
+         id="text296">Average</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(238.1,447)"
+         id="text297">(weighted</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(245,476)"
+         id="text298">average)</text>
+      <text
+         font-family="Aptos, Aptos_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(238.796,617)"
+         id="text299">Standard</text>
     </g>
   </g>
 </svg>

@@ -29,7 +29,7 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
 The following image shows how costs flow through the inventory for each costing method.  
 
-:::image type="content" source="media/design_details_inventory_costing_7_costing_methods.svg" alt-text="Diagram with boxes that illustrate how inventory is evaluated based on procurement and sales across the five costing methods." lightbox="media/design_details_inventory_costing_7_costing_methods.svg":::
+:::image type="content" source="media/design-details-inventory-costing-seven-costing-methods.svg" alt-text="Diagram with boxes that illustrate how inventory is evaluated based on procurement and sales across the five costing methods." lightbox="media/design-details-inventory-costing-seven-costing-methods.svg":::
 
 Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it's similar to the FIFO method.)  
 <!--Old  table

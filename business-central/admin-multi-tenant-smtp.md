@@ -61,7 +61,7 @@ The first step is to create an app registration for the app you have in "Tenant 
 1. Choose **Register**.
 
 > [!NOTE]
-> After you register the app in Microsoft Entra ID, make a note of the following information. You need it in a later step.
+> After you register the app in Microsoft Entra ID, make a note of the following information. You need it to complete a later step.
 >
 > |Field  |Example  |Description  |
 > |---------|---------|---------|
@@ -196,7 +196,7 @@ Get-DistributionGroupMember "Your group name" |
 
    If `SmtpClientAuthenticationDisabled` is `True`, SMTP _isn't_ enabled. To enable it, run the following command:
 
-   ```powershell 
+   ```powershell
 
    Set-TransportConfig -SmtpClientAuthenticationDisabled $false
 
@@ -220,15 +220,206 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
    |Tenant ID     | 11111111-2222-3333-4444-555555555555  | The ID of Tenant B, where you host the email account.  |
    |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |
    |Use custom app registration| | If you want to use a custom app registration, turn on the toggle. |
- 
+
 1. To complete the account setup, choose **Next**, and then give consent.
 
 ## Send a test email
 
-The following example shows a basic way to test SMTP OAuth.
+The following example shows a way to test OAuth 2.0 for the SMTP connector.
 
 ```powershell
+param(
+    [string]$TenantId     = "your tenant id here",  
+    [string]$ClientId     = "your client id here",  
+    [string]$ClientSecret = "your client secret here",
+    [string]$From         = "your from address here",
+    [string]$To           = "your to address here",
+    [string]$Subject      = "SMTP OAuth Test",
+    [string]$Body         = "Hello! This is a test email using SMTP OAuth."
+)
 
+#---------------------------
+# 0. Prepare & Import Module
+#---------------------------
+# If you don't have MSAL.PS module, uncomment the next line to install it
+# Install-Module MSAL.PS -Scope CurrentUser
+Import-Module MSAL.PS -ErrorAction Stop
+
+#---------------------------
+# 1. Get Access Token
+#---------------------------
+Write-Host "Getting access token from AAD..." -ForegroundColor Cyan
+
+$secureSecret = ConvertTo-SecureString $ClientSecret -AsPlainText -Force
+
+$tokenResult = Get-MsalToken `
+    -ClientId      $ClientId `
+    -ClientSecret  $secureSecret `
+    -TenantId      $TenantId `
+    -Scopes        "https://outlook.office365.com/.default"
+
+$accessToken = $tokenResult.AccessToken.Trim()
+
+function Convert-FromBase64Url {
+    param([string]$InputString)
+
+    $pad = 4 - ($InputString.Length % 4)
+    if ($pad -lt 4) {
+        $InputString += "=" * $pad
+    }
+
+    $InputString = $InputString.Replace('-', '+').Replace('_', '/')
+    $bytes = [System.Convert]::FromBase64String($InputString)
+    return $bytes
+}
+
+$parts = $accessToken.Split('.')
+$payloadBytes = Convert-FromBase64Url -InputString $parts[1]
+$payloadJson  = [System.Text.Encoding]::UTF8.GetString($payloadBytes)
+$claims       = $payloadJson | ConvertFrom-Json
+
+Write-Host "Access token acquired."
+Write-Host "aud   =" $claims.aud
+Write-Host "roles =" ($claims.roles -join ", ")
+Write-Host "appid =" $claims.appid
+Write-Host "tid   =" $claims.tid
+Write-Host ""
+
+#---------------------------
+# 2. Build AUTH XOAUTH2
+#---------------------------
+
+function New-XOAuth2String {
+    param(
+        [string]$User,
+        [string]$Token
+    )
+    $ctrlA = [char]1
+
+    $auth  = "user=$User$ctrlA" + "auth=Bearer $Token$ctrlA$ctrlA"
+    $bytes = [System.Text.Encoding]::UTF8.GetBytes($auth)
+    return [System.Convert]::ToBase64String($bytes)
+}
+
+$authB64 = New-XOAuth2String -User $From -Token $accessToken
+Write-Host "AUTH (base64) generated." -ForegroundColor Cyan
+
+
+$msg =
+"From: $From`r`n" +
+"To: $To`r`n" +
+"Subject: $Subject`r`n" +
+"`r`n" +
+"$Body`r`n"
+
+
+function Read-SmtpResponse {
+    param([System.IO.StreamReader]$Reader)
+
+    $line = $Reader.ReadLine()
+    if ($line -ne $null) {
+        Write-Host $line
+    }
+    return $line
+}
+
+$server = "smtp.office365.com"
+$port   = 587
+
+Write-Host ""
+Write-Host "Connecting to $server : $port ..." -ForegroundColor Cyan
+
+$tcpClient     = New-Object System.Net.Sockets.TcpClient($server, $port)
+$networkStream = $tcpClient.GetStream()
+
+$reader = New-Object System.IO.StreamReader($networkStream)
+$writer = New-Object System.IO.StreamWriter($networkStream)
+$writer.NewLine   = "`r`n"
+$writer.AutoFlush = $true
+
+# init  banner
+Read-SmtpResponse -Reader $reader | Out-Null
+
+# EHLO (before STARTTLS)
+$writer.WriteLine("EHLO localhost")
+do {
+    $line = Read-SmtpResponse -Reader $reader
+} while ($line -match "^[0-9]{3}-")
+
+# STARTTLS
+$writer.WriteLine("STARTTLS")
+$line = Read-SmtpResponse -Reader $reader
+if (-not $line.StartsWith("220")) {
+    throw "STARTTLS failed: $line"
+}
+
+$sslStream = New-Object System.Net.Security.SslStream(
+    $networkStream,
+    $false,
+    { param($sender, $cert, $chain, $errors) return $true }
+)
+$sslStream.AuthenticateAsClient($server)
+
+$reader = New-Object System.IO.StreamReader($sslStream)
+$writer = New-Object System.IO.StreamWriter($sslStream)
+$writer.NewLine   = "`r`n"
+$writer.AutoFlush = $true
+
+# EHLO (after STARTTLS)
+$writer.WriteLine("EHLO localhost")
+do {
+    $line = Read-SmtpResponse -Reader $reader
+} while ($line -match "^[0-9]{3}-")
+
+# AUTH XOAUTH2
+Write-Host ""
+Write-Host "Sending AUTH XOAUTH2 ..." -ForegroundColor Cyan
+$writer.WriteLine("AUTH XOAUTH2 $authB64")
+$line = Read-SmtpResponse -Reader $reader
+if (-not $line.StartsWith("235")) {
+    throw "AUTH failed: $line"
+}
+
+# MAIL FROM
+$writer.WriteLine("MAIL FROM:<$From>")
+$line = Read-SmtpResponse -Reader $reader
+if (-not $line.StartsWith("250")) {
+    throw "MAIL FROM failed: $line"
+}
+
+# RCPT TO
+$writer.WriteLine("RCPT TO:<$To>")
+$line = Read-SmtpResponse -Reader $reader
+if (-not $line.StartsWith("250")) {
+    throw "RCPT TO failed: $line"
+}
+
+# DATA
+$writer.WriteLine("DATA")
+$line = Read-SmtpResponse -Reader $reader
+if (-not $line.StartsWith("354")) {
+    throw "DATA command failed: $line"
+}
+
+$writer.WriteLine($msg)
+$writer.WriteLine(".")
+$line = Read-SmtpResponse -Reader $reader
+if (-not $line.StartsWith("250")) {
+    throw "Message send failed: $line"
+}
+
+# QUIT
+$writer.WriteLine("QUIT")
+Read-SmtpResponse -Reader $reader | Out-Null
+
+$reader.Close()
+$writer.Close()
+$sslStream.Close()
+$networkStream.Close()
+$tcpClient.Close()
+
+Write-Host ""
+Write-Host "✅ Email sent successfully from $From to $To" -ForegroundColor Green
 
 ```
 

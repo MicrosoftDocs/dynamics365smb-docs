@@ -3,7 +3,7 @@ title: Notify your accountant | Invoicing
 description: Add your accountant as a recipient for all the invoicing emails so they know what's going on.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

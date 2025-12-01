@@ -65,9 +65,9 @@ The first step is to create an app registration for the app you have in "Tenant 
 >
 > |Field  |Example  |Description  |
 > |---------|---------|---------|
-> |Application (client) ID | 11111111-2222-3333-4444-555555555555 |  App ID       |
-> |Directory (tenant) ID   | 11111111-2222-3333-4444-555555555555 | Tenant ID     |
-> |Object ID   | 11111111-2222-3333-4444-555555555555       | Service Principal ID|
+> |Application (client) ID | 00001111-aaaa-2222-bbbb-3333cccc4444 |  App ID       |
+> |Directory (tenant) ID   | aaaabbbb-0000-cccc-1111-dddd2222eeee | Tenant ID     |
+> |Object ID   | aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb       | Service Principal ID|
 
 ## Grant API permissions
 
@@ -215,9 +215,9 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
    |Server     | smtp.office365.com        |         |
    |Server Port     |  587       |         |
    |Authentication Type     | OAuth 2.0        |         |
-   |Client ID | 11111111-2222-3333-4444-555555555555 | The application ID from Tenant A. |
+   |Client ID | 00001111-aaaa-2222-bbbb-3333cccc4444 | The application ID from Tenant A. |
    |Client Secret     |         | The secret generated in the app.        |
-   |Tenant ID     | 11111111-2222-3333-4444-555555555555  | The ID of Tenant B, where you host the email account.  |
+   |Tenant ID     | aaaabbbb-0000-cccc-1111-dddd2222eeee  | The ID of Tenant B, where you host the email account.  |
    |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |
    |Use custom app registration| | If you want to use a custom app registration, turn on the toggle. |
 

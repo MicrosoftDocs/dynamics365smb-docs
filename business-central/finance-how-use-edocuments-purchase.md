@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, receive, purchase, matching, mapping, Copilot
 ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
-ms.date: 08/20/2025
+ms.date: 12/01/2025
 ms.custom: bap-template
 ---
 
@@ -64,7 +64,7 @@ Every time a **Job Queue** runs, if the external service has incoming invoices f
 
    **Automatic processing**
 
-   1. If you automatically process invoices, and there are no errors or issues in the e-document, the **Record** field maps the document number of the purchase invoice if a number series is specified on the **Vendor Card** page. To open the document, select the link.
+   - If you automatically process invoices, and there are no errors or issues in the e-document, the **Record** field maps the document number of the purchase invoice if a number series is specified on the **Vendor Card** page. To open the document, select the link.
 
    > [!NOTE]
    > This [!INCLUDE [prod_short](includes/prod_short.md)]-created document isn't the posted document.
@@ -102,6 +102,12 @@ There are two typical errors:
 - If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must configure the **Item Reference No.** value. To bypass this error, map external items with your item numbers by using the item reference list. Learn more at [use item references](inventory-how-use-item-cross-refs.md).
 
 After you fix the errors and warnings, you can manually specify when to create a purchase invoice based on your setup by selecting **Create Document**.
+
+### Delete incorrect e-documents and avoid duplicates
+
+You can easily discard incorrect or duplicate e-documents. You don't need to keep unprocessed e-documents, so you save space in data storage. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't create new incoming e-documents if you import a batch that contains duplicates. Duplicates are documents with the same vendor, external document number, and date.
+
+If you have a duplicate or incorrect e-document, administrators can delete it by running the **Delete Related Document** action. However, you can't delete e-documents that you already processed and are connected with purchase documents.
 
 ### Recreate a deleted purchase invoice or credit memo
 

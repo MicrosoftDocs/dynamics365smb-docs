@@ -4,7 +4,7 @@ description: Analyze cost activity within specific periods, such as monthly or q
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: cost accounting, reporting, period analysis
 ms.search.form: Report_1123_Primary
 ms.date: 06/23/2025

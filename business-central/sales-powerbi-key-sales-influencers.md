@@ -4,7 +4,7 @@ description: Identify and analyze factors that influence sales performance. Expl
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37102_Primary
 ms.date: 10/07/2025

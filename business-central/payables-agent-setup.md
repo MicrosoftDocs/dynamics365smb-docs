@@ -1,7 +1,7 @@
 ---
 title: Set up Payables Agent
 description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
-ms.date: 06/18/2025
+ms.date: 11/27/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: sorenfriisalexandersen
@@ -11,17 +11,11 @@ ms.collection:
   - bap-ai-copilot
 ms.search.form: 3304_Primary
 ---
-# Set up Payables Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up Payables Agent
 
 The Payables Agent in Business Central automates processing of vendor invoices received from vendors through email as PDF documents. This article explains how to set up, activate, configure the Payables Agent, and manage user access.
 
 Learn more about the agent in [Payables Agent overview](payables-agent.md).
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Prerequisites
 
@@ -35,7 +29,7 @@ Before configuring and activating the Payables Agent, ensure the following prere
    The Payables Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).
 
    > [!IMPORTANT]
-   > To activate and configure the agent, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
+   > To activate and configure the agent, you need **Read and manage (Full Access)** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
 - Set up the Business Central environment for billing agent capabilities in the Business Central Admin Center.
@@ -66,19 +60,18 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
 
    ![Shows the Payables Agent configuration wizard](media/payables-agent-setup.png)
 
-   The configuration of an agent can span multiple pages in the configuration. For the Payables Agent, two more configuration options are available on the next page. Use the navigation action on the right side of the wizard to progress to the next page of the wizard.
+1. The configuration of an agent can span multiple pages in the configuration. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
-   ![Shows the second page of the Payables Agent configuration wizard](media/payables-agent-setup-page2.png)
+   ![Shows the second page of the Payables Agent configuration wizard](media/payables-agent-setup-page3.png)
 
-   1. **Get sample invoices**  
-
-      This option shows in evaluation companies only and intends to provide easy access to demo invoices so you don't have to produce invoices yourself. These invoices work well with the Contoso Coffee demo data. The wizard lets you let the system send the sample invoices to the monitored mailbox, in which case they're sent from the same mailbox. The wizard also lets you the sample invoices so you can send them from your own mailbox to the monitored mailbox
+   - **Get sample invoices:** This option shows in evaluation companies only and intends to provide easy access to demo invoices so you don't have to produce invoices yourself. These invoices work well with the Contoso Coffee demo data. The wizard lets you let the system send the sample invoices to the monitored mailbox, in which case they're sent from the same mailbox. The wizard also lets you the sample invoices so you can send them from your own mailbox to the monitored mailbox
 
       > [!TIP]
       > If you let the agent send the sample invoices, they show up in the agent task pane as coming from the same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples. 
-   1. **Document Creation**  
 
-      Select more fields from matched purchase invoice history to populate automatically when the agent finalizes purchase document drafts to become purchase invoice documents. This feature ensures that purchase invoice line fields that aren't visible in the purchase document draft can be populated in the same process when matched with historic data. It's the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
+   - **Review email:** Select this checkbox to require users to review the incoming emails before the agent creates purchase document drafts.
+
+   - **Configure additional fields** Select the link to choose more fields from matched purchase invoice history to populate automatically when the agent finalizes purchase document drafts to become purchase invoice documents. This feature ensures that purchase invoice line fields that aren't visible in the purchase document draft can be populated in the same process when matched with historic data. It's the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
 
 1. Select **Manage user access** to specify more agent supervisors who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Payables Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle.
@@ -133,24 +126,6 @@ The **Agent Permission Sets** section lists all the permission sets currently as
 You can't modify the **PAYABLES AGENT – RUN** permission set directly, because it's a system permissions set. However, you can create a copy, modify the copy to suit your needs, then add it to **Agent Permission Sets** section, along with any other permission sets.
 
 Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
-
-<!-- not working as described
-The following system permissions are available for controlling user access to the agent's functionality:
-
-- **Configure All Agents** (ID 9665): Grants a user access to manage the configuration settings of the Payables Agent.
-- **Manage Agent Tasks** (ID 9670): Allows a user to work with agent tasks displayed in the Copilot pane.
-
-These system permissions are also included in the following permission sets, entitlements, and license types:
-
-- The **SECURITY** permission set includes the **Configure All Agents** permission.
-- The **System Execute - Basic** permission set includes the **Manage Agent Tasks** permission.
-- The **System Tables - Basic** permission set includes all virtual tables used by the agent (labeled as "Agent *" tables).
-- Essential and Premium license entitlements now include **Manage Agent Tasks** permissions.
-- All license types include **Configure All Agents** permissions.
-
-Users can configure the Payables Agent if they have the **Configure All Agents** permission or are listed as an agent user with the **Can Configure** field selected.
-
-Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.-->
 
 ## Change language and regional settings
 

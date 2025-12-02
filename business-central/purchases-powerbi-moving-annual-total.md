@@ -4,7 +4,7 @@ description: The Moving Annual Total (MAT) report calculates a total of purchase
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37013_Primary
 ms.date: 10/31/2024

@@ -4,7 +4,7 @@ description: The Moving Averages report provides a comprehensive overview of you
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37012_Primary
 ms.date: 10/31/2024

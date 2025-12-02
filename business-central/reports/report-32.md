@@ -4,7 +4,7 @@ description: Cross-check VAT registration numbers against the EU VAT Information
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: VAT, tax compliance, EU sales, VIES, cross-border
 ms.search.form: Report_32_Primary
 ms.date: 06/25/2025

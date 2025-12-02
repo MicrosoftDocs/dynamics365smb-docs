@@ -4,7 +4,7 @@ description: Track recognition of deferred sales revenue. Use this report when a
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, deferral, revenue recognition, sales
 ms.search.form: Report_1701_Primary
 ms.date: 06/21/2025

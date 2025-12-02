@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 07/24/2025
+ms.date: 10/13/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -116,6 +116,7 @@ Currently, because of technical limitations, we can't offer Copilot to customers
 [Create marketing text with Copilot](item-marketing-text.md)  
 [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)  
 [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)  
+[Payables Agent](payables-agent.md)  
 [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  
 [Sales Order Agent](sales-order-agent.md)  
 [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  

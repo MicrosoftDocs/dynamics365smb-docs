@@ -1,23 +1,25 @@
 ---
-title: Exchanging Data
+title: Exchanging data
 description: Exchange electronic business documents, for example bank files, between Business Central and external parties. 
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
-ms.date: 06/10/2021
+ms.date: 10/14/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Exchanging Data
+
+# Exchange data
+
 You can exchange data between [!INCLUDE[prod_short](includes/prod_short.md)] and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  
 
-Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the data files or streams. In addition, you must set up related areas, such as the customers that you send electronic invoices to, and the AMC Banking 365 Fundamentals extension if you distribute bank file conversions to an external service provider. For more information, see [Setting Up Data Exchange](across-set-up-data-exchange.md).  
+Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the data files or streams. In addition, you must set up related areas, such as the customers that you send electronic invoices to, and the AMC Banking 365 Fundamentals extension if you distribute bank file conversions to an external service provider. Learn more in [Set Up Data Exchange](across-set-up-data-exchange.md).  
 
- The following table describes a sequence of tasks, with links to the topics that describe them.  
+ The following table describes a sequence of tasks, with links to the articles that describe them.  
 
-|**To**|**See**|  
+|**To**|**Go to**|  
 |------------|-------------|  
 |Convert sales document records in [!INCLUDE[prod_short](includes/prod_short.md)] to a standardized format and send them as electronic documents that your customers can receive into their system.|[Send Electronic Documents](sales-how-to-send-electronic-documents.md)|  
 |Send PDF or image files to a provider of OCR services, and receive them back as electronic documents that can be converted to document records in [!INCLUDE[prod_short](includes/prod_short.md)].|[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)|  
@@ -31,13 +33,13 @@ Before you can send and receive electronic documents or import and export bank f
 |Export data for Intrastat reporting in [!INCLUDE[prod_short](includes/prod_short.md)].|[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)|
 |View which fields in [!INCLUDE[prod_short](includes/prod_short.md)] are mapped to file elements when exporting payment files by using the AMC Banking 365 Fundamentals extension.|[Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## Related information  
-[Setting Up Data Exchange](across-set-up-data-exchange.md)  
-[Exchanging Data Electronically](across-data-exchange.md)  
-[Invoice Sales](sales-how-invoice-sales.md)   
+## Related information
+
+[Set Up Data Exchange](across-set-up-data-exchange.md)  
+[Exchange Data Electronically](across-data-exchange.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

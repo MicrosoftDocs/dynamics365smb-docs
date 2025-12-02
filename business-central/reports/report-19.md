@@ -4,7 +4,7 @@ description: Creates a declaration of intra-community sales for submission to th
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: VAT, VIES, EU sales, tax reporting, compliance
 ms.search.form: Report_19_Primary
 ms.date: 06/25/2025

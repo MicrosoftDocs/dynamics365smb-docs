@@ -4,7 +4,7 @@ description: Get an overview of Assembly Bill of Materials (BOMs), including BOM
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_801_Primary
 ms.date: 10/23/2024

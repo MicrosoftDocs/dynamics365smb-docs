@@ -2,7 +2,7 @@
 title: Handle vendor payment disputes
 description: Learn how to handle vendor payment disputes.
 author: kennieNP
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: Report_319

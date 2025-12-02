@@ -1,17 +1,17 @@
 ---
-title: Building Reports in Power BI Desktop to Display Business Central Data
+title: Building reports in Power BI Desktop to display Business Central data
 description: Learn how to make your data a Power BI source and build insightful business reports.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 07/03/2025
+ms.date: 10/16/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: v-soumramani
 ---
 
-# Building [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for displaying [!INCLUDE [prod_long](includes/prod_long.md)] data
+# Build [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for displaying [!INCLUDE [prod_long](includes/prod_long.md)] data
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] and build powerful reports about the state of your business.
 
@@ -49,16 +49,16 @@ This article describes how to start using [!INCLUDE [powerbi-desktop-name](inclu
 The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)]. Once connected, you can start to build the report.
 
 1. Start [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)].
-1. Select **Get Data**.
+2. Select **Get Data**.
 
-    If you don't see **Get Data**, select the **File** menu, then **Get Data**.
-1. On the **Get Data** page, select **Online Services**.
-1. In the **Online Services** pane, do one of the following steps:
+   If you don't see **Get Data**, select the **File** menu, then **Get Data**.
+3. On the **Get Data** page, select **Online Services**.
+4. In the **Online Services** pane, do one of the following steps:
 
     - To connect to [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Dynamics 365 Business Central**, then **Connect**.
     <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
 
-1. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
+5. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
 
     If you aren't signed in to [!INCLUDE [prod_short](includes/prod_short.md)] from [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], you're prompted to sign in.
 
@@ -97,15 +97,15 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 Once the data is loaded, you can see it in the right navigation on the page. At this point, you're connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data, and you can begin building your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] report.  
 
 > [!TIP]
-> For more information about using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], go to [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+> Learn more in [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started) and for information about using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)].
 
-## Creating accessible reports
+## Create accessible reports
 
-It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet the specific needs of different users. Make sure the design lets users take advantage of assistive technologies, like screen readers. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] includes various accessibility features, tools, and guidelines to help. To learn more, go to [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] documentation.
+It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet the specific needs of different users. Make sure the design lets users take advantage of assistive technologies, like screen readers. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] includes various accessibility features, tools, and guidelines to help. Learn more in [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] documentation.
 
-## Creating reports to display data associated with a list in [!INCLUDE [prod_short](includes/prod_short.md)]
+## Create reports to display data associated with a list in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-You can create reports that display in a FactBox on a [!INCLUDE [prod_short](includes/prod_short.md)] list page, and change when different rows are selected in the list. Creating these reports is similar to other reports, except there are a few things to do to make sure the reports display as expected. To learn more, go to [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+You can create reports that display in a FactBox on a [!INCLUDE [prod_short](includes/prod_short.md)] list page, and change when different rows are selected in the list. Creating these reports is similar to other reports, except there are a few things to do to make sure the reports display as expected. Learn more in [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 ## <a name="theme"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional)
 
@@ -137,11 +137,11 @@ There are a couple of ways to share reports:
 
 - Share a report from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] (recommended)
 
-    If you have a [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] license or use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)], you can share the report directly from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. To learn more, go to [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+    If you have a [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] license or use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)], you can share the report directly from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Learn more in [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 - Distribute reports as .pbix files.
 
-    Reports are stored on your computer as .pbix files. You can distribute the .pbix file to users, like any other file. Then, the people you shared the file with can upload it to their [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. To learn more, go to [Upload reports from files](across-working-with-powerbi.md#upload).
+    Reports are stored on your computer as .pbix files. You can distribute the .pbix file to users, like any other file. Then, the people you shared the file with can upload it to their [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Learn more in [Upload reports from files](across-working-with-powerbi.md#upload).
 
     > [!NOTE]
     > Distributing reports in this way means that refreshing data for reports is done individually by each user. This situation might impact [!INCLUDE[prod_short](includes/prod_short.md)] performance.
@@ -152,7 +152,7 @@ The [!INCLUDE[prod_short](includes/prod_short.md)] API endpoints all have the pr
 
 To set up a query to load data for multiple companies, follow these steps:
 
-1. Take the PowerQuery query that loads data for a single company. Convert it to a custom Power Query function that takes the company ID (or maybe the environment name) as parameters. To learn more, go to [Using custom Power Query functions](/power-query/custom-function).
+1. Take the PowerQuery query that loads data for a single company. Convert it to a custom Power Query function that takes the company ID (or maybe the environment name) as parameters. Learn more in [Using custom Power Query functions](/power-query/custom-function).
 1. Now use the new custom function in a PowerQuery query, where you map the function over a list of companies and then merge the datasets using the [Table.Combine](/powerquery-m/table-combine) Power Query function.
 
 ## Customize the Power Query code that connects to your [!INCLUDE [prod_short](includes/prod_short.md)] data source
@@ -167,21 +167,21 @@ To do that, follow these steps:
    # [Edit existing report](#tab/existing)
 
    1. Select **File** > **Open**.
-   1. Browse for and select the report (.pbix). 
-   1. In the ribbon, select **Transform Data** to open the **Power Query Editor**.
+   2. Browse for and select the report (.pbix).
+   3. In the ribbon, select **Transform Data** to open the **Power Query Editor**.
 
    # [Create new report](#tab/new)
 
    1. In the ribbon, select **Get Data**. If you don't see **Get Data**, select the **File** menu, then **Get Data**.
-   1. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.
-   1. In the **Navigator** window, select the API endpoint that you want to load data from.
-   1. Select **Transform Data** instead of **Load** as you might normally do. This step opens **Power Query Editor**.
+   2. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.
+   3. In the **Navigator** window, select the API endpoint that you want to load data from.
+   4. Select **Transform Data** instead of **Load** as you might normally do. This step opens **Power Query Editor**.
 
    ---
 
 3. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
 
-This will display the Power Query code that the system autogenerated when you made your selections in the navigator. For example, let's assume you selected the [!INCLUDE [prod_short](includes/prod_short.md)] environment named **Production**, the company called **CRONUS USA, Inc.**, the API folder called **Standard APIs v2.0**, and the table called **customers**. Navigating to the Advanced Editor would show a query similar to this one:
+This displays the Power Query code that the system autogenerated when you made your selections in the navigator. For example, let's assume you selected the [!INCLUDE [prod_short](includes/prod_short.md)] environment named **Production**, the company called **CRONUS USA, Inc.**, the API folder called **Standard APIs v2.0**, and the table called **customers**. Navigating to the Advanced Editor would show a query similar to this one:
 
 ```powerquery
 let
@@ -196,18 +196,18 @@ in
 
 You can now manually edit this query to make the changes that suite your needs.
 
-### The function `Dynamics365BusinessCentral.ApiContentsWithOptions`
+### Function `Dynamics365BusinessCentral.ApiContentsWithOptions`
 
-In the query above, the function `Dynamics365BusinessCentral.ApiContentsWithOptions` is responsible for connecting to [!INCLUDE [prod_short](includes/prod_short.md)] and retrieve the data. This function has 4 optional parameters, that aren't provided in the default query.
+In the query above, the function `Dynamics365BusinessCentral.ApiContentsWithOptions` is responsible for connecting to [!INCLUDE [prod_short](includes/prod_short.md)] and retrieve the data. This function has 4 optional parameters that aren't provided in the default query.
 
-Here's a break down of the different parameters:
+Here's a breakdown of the different parameters:
 
 |Parameter|Examples|Description|
 |-|-|-|
 |Environment|`"Production"`|This parameter allows you to specify the [!INCLUDE [prod_short](includes/prod_short.md)] environment to connect to. If not specified, the function returns a list of all environments, and you need to select the appropriate environment in the subsequent steps of your Power Query code|
 |Company|`"CRONUS USA, Inc."`|This parameter allows you to specify the [!INCLUDE [prod_short](includes/prod_short.md)] company to connect to, inside your selected environment. This parameter is ignored if the **Environment** parameter isn't specified. If not specified, the function returns a list of all companies in your selected environent (or environments), and you need to select the appropriate company in the subsequent steps of your Power Query code|
 |API category (or API route)|`"microsoft/runtime/beta"`, `"v2.0"`|This parameter allows you to specify the API route connect to in [!INCLUDE [prod_short](includes/prod_short.md)], inside your selected environment and company. This parameter is ignored if the **Environment** and **Company** parameters aren't specified. If not specified, the function returns a list of all API categories (also called API routes) in your selected environment/environments and company/companies, and you need to select the appropriate API category in the subsequent steps of your Power Query code|
-|Advanced Options||This parameter allows you to specify some advanced options to connect to your [!INCLUDE [prod_short](includes/prod_short.md)] data source. Notice that in the vast majority of cases, the default values are optimized and don't need to be changed. For more information about these parameters, consult the following section.|
+|Advanced Options||This parameter allows you to specify some advanced options to connect to your [!INCLUDE [prod_short](includes/prod_short.md)] data source. Notice that in the vast majority of cases, the default values are optimized and don't need to be changed. Consult the following section for more information about these parameters.|
 
 For example, the query shown above in this section is completely equivalent to the following query:
 
@@ -233,30 +233,30 @@ The [!INCLUDE [powerbi-connector-name](includes/powerbi-connector-name.md)] supp
 ### Configure the advanced options
 
 1. Follow the steps to view the Power Query code from Power BI Advanced Editor
-1. In **Advanced Editor**, locate the line that starts with `Source =`:
+2. In **Advanced Editor**, locate the line that starts with `Source =`:
 
    ```powerquery
    Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
    ```
 
-1. In the line, replace the fourth parameter of `Dynamics365BusinessCentral.ApiContentsWithOptions` with a Power Query record of properties and values you want to set, for example:
+3. In the line, replace the fourth parameter of `Dynamics365BusinessCentral.ApiContentsWithOptions` with a Power Query record of properties and values you want to set, for example:
 
    ```powerquery
    Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
    ```
 
-6. Select **Done** to close **Advanced Editor**.
-7. Select **Close & Apply** to save the changes and close Power Query Editor.
+4. Select **Done** to close **Advanced Editor**.
+5. Select **Close & Apply** to save the changes and close Power Query Editor.
 
-## Fixing problems
+## Fix problems
 
-### "Expression.Error: The environment 'Production' does not exist." error when specifying a Business Central environment
+### "Expression.Error: The environment 'Production' doesn't exist." error when specifying a Business Central environment
 
 > **APPLIES TO:** [!INCLUDE [prod_short](includes/prod_short.md)] online
 
 When you connect to [!INCLUDE [prod_short](includes/prod_short.md)] online from [!INCLUDE [powerbi-name](includes/powerbi-name.md)], or when you install a [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] app from Microsoft AppSource that uses [!INCLUDE [prod_short](includes/prod_short.md)] data, you might be prompted to input the [!INCLUDE [prod_short](includes/prod_short.md)] environment you want to connect to.
 
-If you get an error similar to "Expression.Error: The environment 'Production' does not exist.", follow these steps to troubleshoot:
+If you get an error similar to "Expression.Error: The environment 'Production' doesn't exist.", follow these steps to troubleshoot:
 
 1. Make sure you're using the right credentials to access [!INCLUDE [prod_short](includes/prod_short.md)]. These credentials might not be the same credentials you use to access [!INCLUDE [powerbi-name](includes/powerbi-name.md)]. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 2. If your environment is an embedded ISV environment, you need to specify the embedded ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embedded ISV named Fabrikam, you must specify "PRODUCTION (fabrikam)" as environment name.
@@ -273,11 +273,11 @@ If you're using a custom API, we recommend you rework the AL code to make sure i
 
 ## Related information
 
-[Enabling Your Business Data for Power BI](admin-powerbi-setup.md)  
+[Enable Your Business Data for Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Get Ready for Doing Business](ui-get-ready-business.md)  
+[Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
+[Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 

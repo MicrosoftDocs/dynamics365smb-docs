@@ -3,11 +3,11 @@ title: Business Central and Microsoft Teams Integration
 description: Share Business Central records directly in a Teams conversation.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 08/14/2024
+ms.date: 10/21/2025
 ms.custom: bap-template
 ---
 
@@ -27,11 +27,11 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the fol
 
 No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contacts. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
 
- [![Look up Business Central contacts from Teams command box.](media/teams-contacts-overview-2.png)](media/teams-contacts-overview-2.png#lightbox)
+[![Look up Business Central contacts from Teams command box.](media/teams-contacts-overview-2.png)](media/teams-contacts-overview-2.png#lightbox)
 
 You can also share contact details in a conversation. From there, participants have access to even more details about the contact as well.
 
- [![Look up Business Central contacts from Teams compose box.](media/teams-contacts-2.png)](media/teams-contacts-2.png#lightbox)
+[![Look up Business Central contacts from Teams compose box.](media/teams-contacts-2.png)](media/teams-contacts-2.png#lightbox)
 
 Learn more in [Searching for Contacts from Microsoft Teams](across-search-contacts-teams.md).
 
@@ -67,23 +67,22 @@ Learn more in [Add a Business Central tab in Teams](across-teams-tab.md).
 
 1. A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
 
-    If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
+   If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
 
-    > [!TIP]
-    > If your organization doesn't have a [!INCLUDE [prod_short](includes/prod_short.md)] subscription, you can sign up for a free trial. Learn more at [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md).
+   > [!TIP]
+   > If your organization doesn't have a [!INCLUDE [prod_short](includes/prod_short.md)] subscription, you can sign up for a free trial. Learn more at [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md).
 
-2. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
+2. As an administrator, refer to [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 4. Once the app is installed, you're ready to go. Learn more in [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## Related information
 
 [Teams FAQ](teams-faq.md)  
-[Troubleshooting Teams](admin-teams-troubleshooting.md)  
-[Changing Company and Other Settings in Teams](across-teams-settings.md)  
-[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
+[Troubleshoot Teams](admin-teams-troubleshooting.md)  
+[Change Company and Other Settings in Teams](across-teams-settings.md)  
+[Develop for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

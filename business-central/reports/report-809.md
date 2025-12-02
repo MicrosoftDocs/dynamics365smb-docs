@@ -4,7 +4,7 @@ description: Get a list of the bill of materials (BOMs) that the selected items 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_809_Primary
 ms.date: 10/23/2024

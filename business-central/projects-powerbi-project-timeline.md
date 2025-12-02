@@ -4,7 +4,7 @@ description: The Project Timeline monitors project timelines to ensure timely de
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37106_Primary
 ms.date: 04/29/2025

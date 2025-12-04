@@ -2503,8 +2503,8 @@ ms.service: dynamics-365-business-central
 
 # Security, privacy, and compliance
 ## Security and protection
-### [Security and protection overview (English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
-### [Personal security as a user](personal-security.md)
+### [Security overview (admins, developers, decision makers](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Personal security (users](personal-security.md)
 ## Privacy
 ### [Privacy (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Compliance

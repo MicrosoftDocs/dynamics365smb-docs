@@ -28,4 +28,5 @@ As a Business Central user, your personal security practices play a crucial role
 
 ## Related information
 
+[Security and protection overview](/dynamics365/business-central/dev-itpro/security/security-and-protection)
 

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8067_Primary, 
-ms.date: 05/02/2025
+ms.date: 12/04/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -116,7 +116,7 @@ A dedicated error log page ("Contract Billing Error Log") is available via the â
 
 ## Related Topics
 
-- [Recurring Billing Setup](#)
+- [Recurring Billing](#)
 - [Job Queue Management](#)
 - [Error Log Review](#)
 - [User Permissions and Security](#)

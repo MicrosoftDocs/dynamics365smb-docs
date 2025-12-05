@@ -1,7 +1,7 @@
 ---
 title: Billing automation
 description: Automate recurring billing up to a configured degree.
-author: Tobias Schwedler
+author: TobiSIT
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article

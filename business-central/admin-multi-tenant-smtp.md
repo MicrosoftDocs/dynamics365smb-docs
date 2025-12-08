@@ -95,7 +95,7 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
 1. In PowerShell, use the following link to consent. Replace the tenant ID and client ID (App ID) with the values for your "Tenant B."
 
-   https://login.microsoftonline.com/<TenantB_ID>/oauth2/v2.0/authorize?client_id=<Client_ID>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent
+   `https://login.microsoftonline.com/<TenantB_ID>/oauth2/v2.0/authorize?client_id=<Client_ID>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent`
 
 1. In Microsoft Entra admin center, go to **Enterprise apps**, find your app, and then copy the value in the **Object ID** field. The object ID is used as the service ID in the command in the next step in this process.
 1. To create a new service principal in your tenant, in PowerShell, run the following command as an administrator.

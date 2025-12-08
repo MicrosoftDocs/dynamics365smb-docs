@@ -67,7 +67,7 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
 
 |Category|Test scenarios|
 |-|-|
-|**Quote management**|<ul><li>Single and multi-turn quote requests with customer approval workflows</li><li>Quote requests with 1-15 items</li><li>Quote updates and modifications</li><li>Item reference-based quotes.</li></ul>|
+|**Quote management**|<ul><li>Single and multi-turn quote requests with customer approval workflows</li><li>Quote requests with 1-15 items with variations in delivery dates, request verbosity, and email signature completeness</li><li>Quote updates via customer emails and modifications by agent users.</li><li>Item reference-based quotes.</li></ul>|
 |**Customer handling**|<ul><li>Known customers with various states (blocked, incomplete data, overdue balance, credit limit)</li><li>Unknown customer identification and resolution workflows.</li></ul>|
 |**Item discovery**|<ul><li>Product information requests</li><li>Alternative item suggestions</li><li>Unknown item handling</li><li>Multi-turn information gathering conversations.</li></ul>|
 |**Item attributes**|<ul><li>Item specifications and attributes</li><li>Variants (color, style)</li><li>Units of measure (PCS, BOX, SET, KG)</li><li>Combined attribute scenarios</li><li>Ambiguous requests requiring clarification.</li></ul>|

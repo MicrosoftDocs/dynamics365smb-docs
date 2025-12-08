@@ -34,6 +34,9 @@ The following list gives an overview of the steps to use OAuth 2.0 with the SMTP
 1. [Grant the app permission to send as your mailbox](#grant-the-app-permission-to-send-as-your-mailbox)
 1. [Verify your SMTP OAuth configuration](#verify-your-smtp-oauth-configuration)
 
+> [!NOTE]
+> Some of the steps require that you run one or more commands in PowerShell. Be sure to run the commands as an administrator.
+
 ## Prerequisites
 
 Before you start, ensure that you have:

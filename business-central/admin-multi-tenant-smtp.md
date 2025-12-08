@@ -1,12 +1,12 @@
 ---
 title: Use SMTP for email in a multitenant environment
-description: 
 author: brentholtorf
+description: Learn how to resolve SMTP email challenges in multitenant environments. Follow this guide to configure OAuth 2.0 authentication in Microsoft 365.
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 11/26/2025
+ms.date: 12/08/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 

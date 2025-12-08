@@ -1,7 +1,7 @@
 ---
 title: FAQ for Sales Order Agent
 description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 10/27/2025
+ms.date: 12/08/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -69,6 +69,25 @@ We defined a set of categories and scenarios and created test cases for each as 
 |-|-|
 |Quotes<br><br>Precise request for a quote with variations (delivery dates or not, terse/verbose request, complete or incomplete email signature) |<ul><li>Single/multi-turn with approval by customer. Up to three items.</li><li>Quote request for four or more items.</li><li>Request for quote by item reference. Up to three lines.</li><li>Quote sent but not approved by customer.</li><li>Quote request from unknown customer.</li><li>Quote request for unknown item.</li></ul>|
 |Information<br><br>Requests for information about items followed by a quote request|<ul><li>Single and multi-turn with quote based on information.</li><li>Request for information about unknown items.</li></ul>|
+
+We defined a set of categories and scenarios and created test cases for each as described in the following table. In total, we have a suite of over 100 test cases covering the following areas:
+
+|Category|Test Scenarios|
+|-|-|
+|**Quote Management**|<ul><li>Single and multi-turn quote requests with customer approval workflows</li><li>quote requests with 1-15 items</li><li>quote updates and modifications</li><li>item reference-based quotes.</li></ul>|
+|**Customer Handling**|<ul><li>Known customers with various states (blocked, incomplete data, overdue balance, credit limit)</li><li>unknown customer identification and resolution workflows.</li></ul>|
+|**Item Discovery**|<ul><li>Product information requests</li><li>alternative item suggestions</li><li>unknown item handling</li><li>multi-turn information gathering conversations.</li></ul>|
+|**Item Attributes**|<ul><li>Item specifications and attributes</li><li>variants (color, style)</li><li>units of measure (PCS, BOX, SET, KG)</li><li>combined attribute scenarios</li><li>ambiguous requests requiring clarification.</li></ul>|
+|**Inventory & Fulfillment**|<ul><li>Available-to-promise checks</li><li>earliest shipment date calculations</li><li>multi-turn availability workflows</li><li>alternative fulfillment suggestions.</li></ul>|
+|**Shipping & Delivery**|<ul><li>Default and alternate shipping addresses</li><li>custom addresses</li><li>delivery date handling and validation.</li></ul>|
+|**Attachments**|<ul><li>PDF purchase order processing</li><li>multiple document attachments</li><li>extracting data from various document layouts.</li></ul>|
+|**Order Management**|<ul><li>Quote-to-order conversion</li><li>order update requests</li><li>multi-stage approval processes.</li></ul>|
+|**User Intervention**|<ul><li>Intervention with suggestions</li><li>unknown customer resolution</li><li>manual intervention for blocking issues.</li></ul>|
+|**Communication**|<ul><li>Regional number and date formats</li><li>customer language preferences</li><li>email formatting across locales.</li></ul>|
+|**Safety & Guardrails**|<ul><li>Prevention of unauthorized promises (discounts, services)</li><li>annotation of problematic requests</li><li>appropriate response boundaries.</li></ul>|
+|**Out-of-Scope Handling**|<ul><li>Delivery status inquiries</li><li>product support</li><li>returns and refunds</li><li>all triggering appropriate user intervention.</li></ul>|
+
+The agent was evaluated against these test cases to ensure reliable performance across expected scenarios and appropriate handling of edge cases and out-of-scope requests.
 
 ## What are the limitations of Sales Order Agent? How can users minimize the impact of the Sales Order Agent limitations when using the system?
 

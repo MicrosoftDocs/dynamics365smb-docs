@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Use SMTP for email in a multitenant environment
 
-This article explains how to configure your Microsoft 365 tenant so that [!INCLUDE [prod_short](includes/prod_short.md)] can send emails through the SMTP connector using OAuth 2.0 (client credentials flow).
+This article explains how to configure your Microsoft 365 tenant so that [!INCLUDE [prod_short](includes/prod_short.md)] can send emails through the SMTP Connector using OAuth 2.0 (client credentials flow).
 
 This article also covers how to enable cross-tenant scenarios. For example, where you have an app registration in Azure portal in one Microsoft Entra tenant but you use it to send emails from another tenant.
 
@@ -23,7 +23,7 @@ In the following procedures, we refer to the Microsoft Entra tenant where you ha
 > [!IMPORTANT]
 > Exchange Online is deprecating use of Basic authentication for SMTP. This change doesn't affect tenants that currently use SMTP AUTH. However, we recommend that you use the latest version, and set up OAuth 2.0 authentication for SMTP. If you can't set up OAuth 2.0 authentication, we encourage you to explore non-Microsoft alternatives if you want to use SMTP email in earlier versions.
 >
-> We currently don't support certificate-based authentication.
+> [!INCLUDE [prod_short](includes/prod_short.md)] doesn't support certificate-based authentication.
 
 The following list gives an overview of the steps to use OAuth 2.0 with the SMTP connector. This article describes each step.
 
@@ -95,10 +95,10 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
 1. In PowerShell, use the following link to consent. Replace the tenant ID and client ID (App ID) with the values for your "Tenant B."
 
-   https://login.microsoftonline.com/\<TenantB_ID>/oauth2/v2.0/authorize?client_id=\<Client_ID>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent
+   https://login.microsoftonline.com/<TenantB_ID>/oauth2/v2.0/authorize?client_id=<Client_ID>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent
 
 1. In Microsoft Entra admin center, go to **Enterprise apps**, find your app, and then copy the value in the **Object ID** field. The object ID is used as the service ID in the command in the next step in this process.
-1. To create a new service principal in your tenant, run the following command in PowerShell as an administrator.
+1. To create a new service principal in your tenant, in PowerShell, run the following command as an administrator.
 
    ```powershell
 
@@ -120,7 +120,9 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
 ## Grant the app permission to send as your mailbox
 
-1. In PowerShell, run the following command to grant the app permission to send email from your mailbox.
+Azure portal hides the SMTP option, so you must use PowerShell to grant permission to send as your mailbox.
+
+1. In PowerShell, run the following command:
 
    ```powershell
 

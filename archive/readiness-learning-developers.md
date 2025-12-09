@@ -3,7 +3,7 @@ title: Developers learning catalog
 description: Find all the available learning for Business Central developers.
 author: loreleishannonmsft
 ms.date: 04/01/2021
-ms.topic: conceptual
+ms.topic: concept-article
 ms.author: margoc
 ---
 

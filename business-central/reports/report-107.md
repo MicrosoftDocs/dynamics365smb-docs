@@ -4,7 +4,7 @@ description: Analyze your nonshipped orders to understand your expected sales vo
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_107_Primary
 ms.date: 10/03/2024

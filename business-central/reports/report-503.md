@@ -4,7 +4,7 @@ description: Displays account balances in both local and foreign currencies for 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, currency, revaluation, foreign exchange
 ms.search.form: Report_503_Primary
 ms.date: 06/21/2025

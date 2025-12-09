@@ -4,7 +4,7 @@ description: Analyze the effect of vendors on cash flow, and prioritize vendor p
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4404_Primary
 ms.date: 12/15/2024

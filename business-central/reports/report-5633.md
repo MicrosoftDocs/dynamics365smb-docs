@@ -4,7 +4,7 @@ description: Review posted fixed assets maintenance entries sorted by register n
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5633_Primary
 ms.date: 11/11/2024

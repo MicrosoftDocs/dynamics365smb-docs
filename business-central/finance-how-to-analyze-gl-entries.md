@@ -4,7 +4,7 @@ description: Describes how to analyze data in your general ledger either on tran
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: postpone
 ms.search.form: Report_3, 20, 116_Primary

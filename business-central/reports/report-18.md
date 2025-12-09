@@ -4,7 +4,7 @@ description: Get a combined overview of general ledger entries for two or more c
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, consolidation, financial reporting
 ms.search.form: Report_18_Primary
 ms.date: 06/21/2025

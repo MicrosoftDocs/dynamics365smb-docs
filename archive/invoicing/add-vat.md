@@ -3,7 +3,7 @@ title: Apply VAT | Invoicing
 description: Some countries/regions require that you add value-added tax to your invoices. It's easy to do in Invoicing.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

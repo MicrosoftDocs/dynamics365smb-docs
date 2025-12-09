@@ -4,7 +4,7 @@ description: Get detailed or summarized information for different groups of asse
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5605_Primary
 ms.date: 11/11/2024

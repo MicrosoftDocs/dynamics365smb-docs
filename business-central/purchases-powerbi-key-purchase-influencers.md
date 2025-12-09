@@ -4,7 +4,7 @@ description: Identify and analyze factors that influence purchasing performance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37117_Primary
 ms.date: 9/30/2025

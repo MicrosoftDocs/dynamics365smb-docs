@@ -4,7 +4,7 @@ description: The Vendor Quality Analysis report provides insights into your orga
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37115_Primary
 ms.date: 9/30/2025

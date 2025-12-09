@@ -4,7 +4,7 @@ description: Run this report to review posted cost entries and ensure transactio
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: cost accounting, journal entries, cost validation
 ms.search.form: Report_1128_Primary
 ms.date: 06/23/2025

@@ -4,7 +4,7 @@ description: Identifies and removes internal transactions between entities to pr
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, consolidation, intercompany
 ms.search.form: Report_16_Primary
 ms.date: 06/18/2025

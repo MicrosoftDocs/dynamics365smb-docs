@@ -3,7 +3,7 @@ title: Export data | Invoicing
 description: Learn how to export data, such as deleting contacts as part of a data subject request.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

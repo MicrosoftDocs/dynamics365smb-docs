@@ -4,7 +4,7 @@ description: View a snapshot of your chart of accounts at a given point and chec
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_9_Primary
 ms.date: 10/18/2024

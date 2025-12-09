@@ -4,7 +4,7 @@ description: The Return Order Overview report tracks and analyzes return orders,
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37105_Primary
 ms.date: 10/07/2025

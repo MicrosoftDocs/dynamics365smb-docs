@@ -4,7 +4,7 @@ description: Get an overview of how individual fixed assets link to insurance po
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5624_Primary
 ms.date: 11/11/2024

@@ -4,7 +4,7 @@ description: Document a project register's contents for internal or external aud
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1015_Primary
 ms.date: 11/2/2024

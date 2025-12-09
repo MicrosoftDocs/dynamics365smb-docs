@@ -4,7 +4,7 @@ description: Get an overview of your fixed asset, including book value, deprecia
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4412_Primary
 ms.date: 12/26/2024

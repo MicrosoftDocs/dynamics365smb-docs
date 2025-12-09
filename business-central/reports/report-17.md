@@ -4,7 +4,7 @@ description: Combines financial data across companies, allowing finance teams to
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, consolidation, trial balance
 ms.search.form: Report_17_Primary
 ms.date: 06/20/2025

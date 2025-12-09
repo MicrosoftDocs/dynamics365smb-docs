@@ -4,7 +4,7 @@ description: Find on-hand stock that is expired or soon will.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5809_Primary
 ms.date: 10/18/2024

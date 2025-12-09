@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: Sustainability, ESG, emission, GHG, water, waste, intensity, CSRD, journal
 ms.search.form: 6216, 6219, 6220
-ms.date: 09/15/2025
+ms.date: 11/26/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -21,6 +21,13 @@ You can manually record greenhouse gas (GHG) emissions or water and waste intens
 Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in [!INCLUDE [prod_short](includes/prod_short.md)]. You can manually enter emissions and water or waste intensity in a journal. Alternatively, if you don't have the information, you can use built-in formulas to accurately calculate emissions or water or waste intensity based on parameters that correspond to various types of sources and accounts.
 
 The information that you enter in a journal is temporary and you can change it while it's in that journal. When you post the journal, the information is transferred to sustainability ledger entries on individual sustainability accounts, where it can't be changed. However, you can post reversing or correcting entries.
+
+> [!TIP]
+> You can use an approval workflow for both standard and recurring sustainability journals. The workflow uses the same approval process that you might already use for general journals. When you align the process for sustainability journals, you ensure consistency and compliance across all types of journals.
+>
+> Use actions on the journals to send and cancel approval requests directly from the journals. These actions help you maintain a streamlined workflow, reduce the risk of errors, and ensure that all journal entries are properly reviewed and approved before posting.
+>
+> To learn more about approval workflows, go to [How to use approval workflows](across-how-use-approval-workflows.md).
 
 ### Use journal templates and batches
 

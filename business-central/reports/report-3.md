@@ -4,7 +4,7 @@ description: Review posted general ledger batches with entry numbers, posting da
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_3_Primary
 ms.date: 06/16/2025

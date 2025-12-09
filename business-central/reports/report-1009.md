@@ -4,7 +4,7 @@ description: Get an overview of actual vs. budgeted amounts for selected project
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1009_Primary
 ms.date: 10/23/2024

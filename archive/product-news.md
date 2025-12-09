@@ -4,7 +4,7 @@ description: Learn where to find the latest news and updates for new and existin
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 08/25/2023
 ms.custom: bap-template
 ms.search.keywords: news, release plan, roadmap, whats new

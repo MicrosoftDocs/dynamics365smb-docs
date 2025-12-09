@@ -4,7 +4,7 @@ description: Learn how to integrate e-documents with Microsoft 365 applications.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: e-documents, Microsoft 365
 ms.search.form: 
 ms.date: 09/04/2025

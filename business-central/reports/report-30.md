@@ -4,7 +4,7 @@ description: Verify whether value entries, such as inventory or cost postings, a
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, value posting, general ledger, validation
 ms.search.form: Report_30_Primary
 ms.date: 06/21/2025

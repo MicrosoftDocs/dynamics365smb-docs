@@ -30,6 +30,11 @@ To create and send an e-invoice to a customer, you must create and post the sale
 
 Before posting, you can choose to add the attachment to the invoice if you want to embed it in the Peppol file format.
 
+When you receive an incoming e-document from an external service or manually upload one, you typically get an XML or similar format that might be difficult to read. For example, if you're not technical and don't understand the XML format, it's hard to review an invoice before you process it. To make it easier to review incoming e-documents, invoices and credit memos have an **E-invoice Lines** FastTab that displays details from the imported file, such as line and header information, in a way that's easy to understand.
+
+> [!NOTE]
+> The preview feature is available only for invoice and credit memo types of incoming e-documents.
+
 After you post the sales document, open the **Posted Sales Invoices** page to access the related **E-Documents** page.
 
 > [!NOTE]

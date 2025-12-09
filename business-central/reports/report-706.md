@@ -4,7 +4,7 @@ description: Helps you monitor and manage your inventory operations effectively 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_706_Primary
 ms.date: 11/1/2024

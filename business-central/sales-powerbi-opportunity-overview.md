@@ -4,7 +4,7 @@ description: The Opportunity Overview report provides a comprehensive view of sa
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37103_Primary
 ms.date: 05/20/2025

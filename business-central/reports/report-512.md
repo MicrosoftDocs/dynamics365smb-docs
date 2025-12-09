@@ -4,7 +4,7 @@ description: Lists all posted intercompany sales, purchases, and journal entries
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, intercompany, consolidation
 ms.search.form: Report_512_Primary
 ms.date: 06/21/2025

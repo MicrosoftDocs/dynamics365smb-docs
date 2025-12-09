@@ -4,7 +4,7 @@ description: Get a list of fixed asset ledger entries, sorted by document type a
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5636_Primary
 ms.date: 11/11/2024

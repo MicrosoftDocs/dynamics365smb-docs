@@ -4,7 +4,7 @@ description: Keep track of vendor performance and ensure that your company is ge
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_312_Primary
 ms.date: 10/14/2024

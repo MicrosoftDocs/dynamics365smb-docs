@@ -4,7 +4,7 @@ description: Analyze usage and sales amounts for each resource and check the per
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1105_Primary
 ms.date: 02/18/2025

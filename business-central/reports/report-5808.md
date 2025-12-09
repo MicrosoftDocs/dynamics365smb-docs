@@ -4,7 +4,7 @@ description: Review the age of stock in your warehouse by value and identify unu
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5808_Primary
 ms.date: 10/18/2024

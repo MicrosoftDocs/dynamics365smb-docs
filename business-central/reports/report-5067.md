@@ -4,7 +4,7 @@ description: Show test reports of your profile questionnaires.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5067_Primary
 ms.date: 11/11/2024

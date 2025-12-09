@@ -4,7 +4,7 @@ description: The Purchase Forecasting report predicts future purchasing trends t
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37112_Primary
 ms.date: 9/30/2025

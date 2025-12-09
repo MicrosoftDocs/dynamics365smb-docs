@@ -3,9 +3,9 @@ title: Configure Copilot and agent capabilities
 description: Learn how to control Copilot and agent features in Business Central, including deactivation, user access, and data governance controls.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 10/27/2025
+ms.date: 11/13/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -91,6 +91,7 @@ The following table lists the permissions needed to use the different Copilot an
 |Payables Agent|Learn more in [Manage Payables Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
 | Sales line suggestions | Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**. |
 |Sales Order Agent|Learn more in [Manage Sales Order Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
+| Custom Agent (preview) | Learn more in [Agent playground overview (preview)](/dynamics365/business-central/dev-itpro/ai/enable-ai-agent-playground).|
 
 To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.
 
@@ -101,6 +102,22 @@ Some features support Bing Search to improve Copilot's results, like giving answ
 To enable Bing Search, turn on the **Enable Bing Search** toggle switch in the **Copilot & agent capabilities** page.
 
 Learn more about which Copilot features support Bing Search and how it's used in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
+
+## Turn off feedback on AI-generated content
+
+Users can provide feedback to Microsoft directly from the Copilot window using the Like and Dislike controls. This feedback is anonymous and helps improve the service. Feedback is enabled by default.
+
+Administrators can turn off the ability for users to provide Copilot feedback. To do that, do the following:
+
+1. Open the Power Platform admin center for your tenant.
+1. In the left navigation pane, select **Copilot**.
+1. Select **Settings**, then under **Power Platform**, choose **Copilot feedback**.
+1. Configure the feedback options:  
+    - **Basic Copilot feedback** - Turn off this toggle to disable the Like and Dislike controls.
+    - **Additional Copilot feedback** - Turn off this toggle to prevent users from sharing prompts, questions, responses, content samples, and log files when submitting feedback.
+1. Choose **Save**.
+
+Changes take effect when users sign out and sign back in.
 
 ## Rolling out changes to all users of the environment
 

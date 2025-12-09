@@ -4,7 +4,7 @@ description: Learn how to benefit from using the Production Order WIP report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37107_Primary
 ms.date: 05/26/2025

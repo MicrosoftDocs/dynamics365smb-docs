@@ -4,7 +4,7 @@ description: The Sustainability Overview gives you a high-level view of all the 
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 05/26/2025

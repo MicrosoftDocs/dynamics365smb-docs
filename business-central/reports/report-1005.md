@@ -4,7 +4,7 @@ description: Review the results of posting before you post to the projects ledge
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1005_Primary
 ms.date: 11/2/2024

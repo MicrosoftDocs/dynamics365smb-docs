@@ -4,7 +4,7 @@ description: Ensure that your fixed assets are adequately insured by reviewing t
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5625_Primary
 ms.date: 11/11/2024

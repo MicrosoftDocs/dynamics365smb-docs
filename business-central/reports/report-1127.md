@@ -4,7 +4,7 @@ description: Presents a comparison of actual versus expected cost values. Choose
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: cost accounting, variance analysis, budget comparison
 ms.search.form: Report_1127_Primary
 ms.date: 06/23/2025

@@ -3,7 +3,7 @@ title: Create a product or service (contains video) | Invoicing
 description: Add the items or services that you sell with the price that you want to set. You also have a choice between different units of measure for each product or service. 
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

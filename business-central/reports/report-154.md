@@ -4,7 +4,7 @@ description: Get an income statement that shows your income, cost of goods sold 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_154_Primary
 ms.date: 06/16/2025

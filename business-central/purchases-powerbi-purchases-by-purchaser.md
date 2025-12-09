@@ -4,7 +4,7 @@ description: The Purchases by Purchaser report provides a detailed overview of p
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37017_Primary
 ms.date: 10/31/2024

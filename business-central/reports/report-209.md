@@ -4,7 +4,7 @@ description: Get an overview of which items are available to fulfill sales order
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_209_Primary
 ms.date: 10/03/2024

@@ -4,7 +4,7 @@ description: Get an overview of all your service contract quotes.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5973_Primary
 ms.date: 11/2/2024

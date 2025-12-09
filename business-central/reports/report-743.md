@@ -4,7 +4,7 @@ description: Use before tax filing to ensure that VAT amounts calculated on docu
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: VAT, tax, reconciliation, general ledger, reporting
 ms.search.form: Report_743_Primary
 ms.date: 06/25/2025

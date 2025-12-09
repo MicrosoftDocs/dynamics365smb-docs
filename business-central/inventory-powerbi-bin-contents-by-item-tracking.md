@@ -4,7 +4,7 @@ description: The Bin Contents by Item Tracking report shows bin contents and  th
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37032_Primary
 ms.date: 10/28/2024

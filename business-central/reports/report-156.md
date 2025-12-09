@@ -4,7 +4,7 @@ description: Get an Retained Earnings Statement that shows an overview of retain
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_156_Primary
 ms.date: 06/16/2025

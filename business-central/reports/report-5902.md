@@ -4,7 +4,7 @@ description: Generate a service quote document that you can send to your custome
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5902_Primary
 ms.date: 11/2/2024

@@ -4,7 +4,7 @@ description: Review opening and closing balances for each general ledger account
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, fiscal year, general ledger, reconciliation
 ms.search.form: Report_36_Primary
 ms.date: 06/21/2025

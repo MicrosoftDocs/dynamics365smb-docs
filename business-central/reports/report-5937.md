@@ -4,7 +4,7 @@ description: Get an overview of service items that are out of warranty.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5937_Primary
 ms.date: 11/2/2024

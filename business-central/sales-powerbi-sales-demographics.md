@@ -4,7 +4,7 @@ description: The Sales Demographics provides a comprehensive analysis of sales p
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37100_Primary
 ms.date: 10/07/2025

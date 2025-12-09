@@ -4,7 +4,7 @@ description: Check whether you can fulfill a sales order for an item by a specif
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5871_Primary
 ms.date: 10/23/2024

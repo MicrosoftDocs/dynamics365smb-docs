@@ -4,7 +4,7 @@ description: The Inventory by Item report shows inventory levels per item or ite
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37024_Primary
 ms.date: 10/28/2024

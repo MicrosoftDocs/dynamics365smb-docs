@@ -5,7 +5,7 @@ author: v-makune
 ms.reviewer: v-pejano
 ms.author: v-jiurxo
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
 ms.date: 09/17/2025
 ms.custom: bap-template

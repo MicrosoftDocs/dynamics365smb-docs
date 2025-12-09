@@ -4,7 +4,7 @@ description: Check whether all entries for a specific customer are accounted for
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_104_Primary
 ms.date: 10/18/2024

@@ -4,7 +4,7 @@ description: The Sales Quote Overview report provides detailed information on yo
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37104_Primary
 ms.date: 10/07/2025

@@ -4,7 +4,7 @@ description: Get details about fixed assets transactions and reference data that
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4411_Primary
 ms.date: 12/27/2024

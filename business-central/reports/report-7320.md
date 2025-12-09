@@ -4,7 +4,7 @@ description: Get an overview of adjustment bin usage (for advanced warehouse sce
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7320_Primary
 ms.date: 10/18/2024

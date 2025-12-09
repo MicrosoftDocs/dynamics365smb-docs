@@ -4,7 +4,7 @@ description: Analyze vendor balances at the end of each period. Helps ensure the
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4403_Primary
 ms.date: 12/14/2024

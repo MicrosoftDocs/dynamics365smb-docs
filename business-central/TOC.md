@@ -2267,6 +2267,7 @@ ms.service: dynamics-365-business-central
 
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
+#### [Use SMTP for email in a multi-tenant environment](admin-multi-tenant-smtp.md)
 #### Set up your business inbox in Microsoft Outlook
 ##### [Get the Business Central add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as your business inbox in Outlook](work-outlook-addin.md)
@@ -2679,10 +2680,10 @@ ms.service: dynamics-365-business-central
 ### [Set up Sales Order Agent](sales-order-agent-setup.md?toc=/dynamics365/business-central/toc.json)
 ### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
-## Payables Agent (preview)
+## Payables Agent
 ### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
-<!--### [Use Payables Agent](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)-->
+### [Supervise agent activities](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)

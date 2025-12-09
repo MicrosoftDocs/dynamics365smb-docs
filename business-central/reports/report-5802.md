@@ -4,7 +4,7 @@ description: Helps you track the costs of the production process.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5802_Primary
 ms.date: 11/1/2024

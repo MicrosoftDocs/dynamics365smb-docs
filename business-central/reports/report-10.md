@@ -4,7 +4,7 @@ description: Check end of financial year figures, excluding closing entries, and
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_10_Primary
 ms.date: 06/23/2025

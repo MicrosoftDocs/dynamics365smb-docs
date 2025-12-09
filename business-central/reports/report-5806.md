@@ -4,7 +4,7 @@ description: Analyze posted sales or purchase item charges to assess added costs
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5806_Primary
 ms.date: 10/18/2024

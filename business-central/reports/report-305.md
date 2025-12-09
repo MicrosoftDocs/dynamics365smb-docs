@@ -4,7 +4,7 @@ description: The *Vendor - Summary Aging* report is a legacy report for aged acc
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_305_Primary
 ms.date: 10/18/2024

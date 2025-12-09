@@ -4,7 +4,7 @@ description: Lists all VAT entries by document date in a register-style format. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: VAT, tax, audit, reconciliation, reporting
 ms.search.form: Report_2500_Primary
 ms.date: 06/25/2025

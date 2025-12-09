@@ -4,7 +4,7 @@ description: Keep track of your outstanding payables and manage your vendor rela
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_321_Primary
 ms.date: 10/18/2024

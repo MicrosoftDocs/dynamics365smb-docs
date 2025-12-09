@@ -57,6 +57,9 @@ In addition to customizing [!INCLUDE [cds_long_md](includes/cds_long_md.md)], th
 
 When you set up the connection, you create the integration table mappings that you need to synchronize data. Entities in [!INCLUDE[cds_long](includes/cds_long_md.md)] are mapped to tables and table fields in [!INCLUDE [prod_short](includes/prod_short.md)] through integration tables. To learn more about mappings, go to [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
+> [!Note]  
+> The Base Integration Solution doesn't define auditing settings (IsAuditEnabled) for the tables it extends. When you import the solution, it might disable auditing on tables where another solution previously enabled it. This behavior occurs because [!INCLUDE[cds_long](includes/cds_long_md.md)] applies the settings from the imported solution, and if auditing isn't explicitly enabled in the solution file, it defaults to disabled. After you enable the integration, check your auditing settings in [!INCLUDE[cds_long](includes/cds_long_md.md)] and re-enable auditing for the affected tables if needed. Alternatively, redeploy any solutions that previously enabled auditing on those tables.
+
 ## Handle differences in local and base transaction currencies
 
 You can connect to a [!INCLUDE[cds_long](includes/cds_long_md.md)] environment that has a different base currency than the local currency in [!INCLUDE[prod_short](includes/prod_short.md)]. You make the connection in [!INCLUDE[prod_short](includes/prod_short.md)] on the **Dataverse Connection Setup** page or by using the **Set up connection to Dataverse** assisted setup guide.

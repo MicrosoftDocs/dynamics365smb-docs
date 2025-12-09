@@ -80,6 +80,24 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
 |**Safety & guardrails**|<ul><li>Prevention of unauthorized promises (discounts, services)</li><li>Annotation of problematic requests</li><li>Appropriate response boundaries.</li></ul>|
 |**Out-of-scope handling**|<ul><li>Delivery status inquiries</li><li>Product support</li><li>Returns and refunds</li><li>All triggering appropriate user intervention.</li></ul>|
 
+
+The Sales Order Agent is evaluated using a comprehensive test suite with over 70 accuracy test cases across multiple categories:
+
+|Category|Test scenarios|
+|-|-|
+|**Quote management**|Single and multi-turn quote requests, quote updates, item references, 1-15 items per quote, delivery dates, customer approval workflows.|
+|**Customer handling**|Known and unknown customers, blocked customers, incomplete data, overdue balance, credit limit scenarios.|
+|**Item discovery**|Product information requests, alternative item suggestions, unknown item handling, multi-turn conversations.|
+|**Item attributes**|Specifications, variants (color, style), units of measure (PCS, BOX, SET, KG), ambiguous requests requiring clarification.|
+|**Inventory & fulfillment**|Available-to-promise checks, earliest shipment dates, availability workflows, alternative fulfillment suggestions.|
+|**Shipping & delivery**|Default and alternate shipping addresses, custom addresses, delivery date handling and validation.|
+|**Attachments**|PDF purchase order processing, multiple document attachments, data extraction from various layouts.|
+|**Order management**|Quote-to-order conversion, order updates, multi-stage approval processes.|
+|**User intervention**|Intervention with suggestions, unknown customer resolution, manual intervention for blocking issues.|
+|**Communication**|Regional number and date formats, customer language preferences, email formatting across locales.|
+|**Safety & guardrails**|Prevention of unauthorized promises (discounts, services), annotation of problematic requests, response boundaries.|
+|**Out-of-scope handling**|Delivery status inquiries, product support, returns and refunds—all triggering appropriate user intervention.|
+
 ## What are the limitations of Sales Order Agent? How can users minimize the impact of the Sales Order Agent limitations when using the system?
 
 - Languages

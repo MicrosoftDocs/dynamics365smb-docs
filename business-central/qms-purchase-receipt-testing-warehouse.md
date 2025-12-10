@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.form: 
-ms.date: 10/20/2025
+ms.date: 12/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -128,6 +128,9 @@ When you receive multiple lots:
 
 - Test 1: Lot A, 23 pieces
 - Test 2: Lot B, 100 pieces
+
+> [!TIP]
+> If you automate test creation but you manually created a test, for example, for the first receipt of a lot that you'll receive in multiple shipments, you probably want automation to create tests for the new receipts only. To set that up, choose this option, and then in the **Find Existing Behavior** field, choose **By Item Tracking**.
 
 ### Manage lot tests
 

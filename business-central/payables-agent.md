@@ -22,17 +22,6 @@ The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to a
 > [!NOTE]
 > [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
-## Functionality in the preview
-
-This preview doesn't represent the full vision of the Payables Agent. The Payables Agent is in its early stages, and more features and AI capabilities are coming.
-
-Eventually, the agent will help with:
-
-* Purchase order matching
-* Approval flows
-* Anomaly detection
-* Other tasks that support accounts payable processes and accounting
-
 ## Payables Agent process flow
 
 The end-to-end process handled by the Payables Agent is shown in the following figure. The actual flow can vary depending on factors like the clarity of analyzed invoice details, existing purchase invoice history, and blocking issues.
@@ -150,12 +139,33 @@ The agent involves designated Business Central users, called agent supervisors o
 
 The agent works within the permissions and profile (role) the admin assigns. Learn more in [Manage agent permissions and user access](payables-agent-setup.md#manage-agents-permissions-to-objects-data-and-ui-elements).
 
+## Limitations
+
+The following limitations apply to the Payables Agent:
+
+**Feature limitations**
+
+The Payables Agent currently doesn't support the following features:
+
+- Purchase order matching
+- Approval flows
+- Anomaly detection
+
+**Document and usage constraints**
+
+The following constraints apply to document processing and daily usage:
+
+- The agent doesn't process PDFs with more than 10 pages.
+- The agent doesn't process PDFs larger than 5 MB.
+- The agent doesn't process more than 100 emails per day.
+- The agent doesn't process more than 500 invoices per day.
+
 ## Next steps
 
 - [Set up Payables Agent](payables-agent-setup.md)
 - [Supervise agent activities](use-payables-agent.md)
-- [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md)
 
 ## Related information
 
 [Configure Copilot and agent capabilities](enable-ai.md)  
+[Responsible AI FAQ for Payables Agent](faqs-payables-agent.md)  

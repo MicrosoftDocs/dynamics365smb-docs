@@ -1,5 +1,5 @@
 ---
-title: Purchase receipt testing with warehouse tracking
+title: Purchase receipt testing with warehouse handling
 description: Learn how to set up and use automatic quality inspection tests for purchase receipts in warehouse-enabled locations.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 ---
 
-# Purchase receipt testing with warehouse tracking
+# Purchase receipt testing with warehouse handling
 
 This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations with warehouse handling.
 
@@ -21,7 +21,7 @@ For locations with warehouse handling, quality tests are created when you post w
 - Locations that require warehouse receipts.
 - Complex warehouse operations with put-aways.
 - Multiple lot numbers per receipt.
-- Warehouse tracking and traceability.
+- Warehouse handling and traceability.
 
 ## Prerequisites
 
@@ -201,7 +201,7 @@ The following sections describe typical issues and suggest solutions.
 
 ## Related information
 
-[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
+[Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Setting Up Test Generation Rules](qms-test-generation-rules.md)  
 [Quality Management Overview](qms-overview.md)

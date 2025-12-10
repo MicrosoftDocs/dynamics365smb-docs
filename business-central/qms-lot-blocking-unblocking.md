@@ -312,8 +312,8 @@ You might need to manually intervene:
 
 ## Related information
 
-[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
-[Purchase Receipt Testing With Warehouse Tracking](qms-purchase-receipt-testing-warehouse.md)  
+[Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
+[Purchase Receipt Testing with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)  
 [Configuring Workflows](qms-quality-workflows.md)  
 [Processing Non-Compliant Items](qms-non-compliant-processing.md)  
 [Quality Management Overview](qms-overview.md)

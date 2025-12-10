@@ -1,5 +1,5 @@
 ---
-title: Purchase receipt testing without warehouse tracking
+title: Purchase receipt testing without warehouse handling
 description: Learn how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 ---
 
-# Purchase receipt testing without warehouse tracking
+# Purchase receipt testing without warehouse handling
 
 This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling. For example, like the Silver location in the Contoso demo data.
 
@@ -31,7 +31,7 @@ For locations without warehouse handling, quality tests are created automaticall
 
 ## Set up the requirements
 
-The following sections describe how to set up the requirements for purchase receipt testing without warehouse tracking.
+The following sections describe how to set up the requirements for purchase receipt testing without warehouse handling.
 
 ### Create a quality inspection template
 
@@ -185,7 +185,7 @@ The following sections describe typical issues and suggest solutions.
 
 ## Related information
 
-[Purchase Receipt Testing With Warehouse Tracking](qms-purchase-receipt-testing-warehouse.md)  
+[Purchase Receipt Testing with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)  
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
 [Setting Up Test Generation Rules](qms-test-generation-rules.md)  
 [Manual Test Creation](qms-manual-test-creation.md)  

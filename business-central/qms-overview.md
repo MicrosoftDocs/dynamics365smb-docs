@@ -28,7 +28,7 @@ The Quality Management app offers a range of benefits.
 - **Template-Based Testing**: Use predefined quality inspection templates with customizable measurements and pass/fail criteria.
 - **Lot Blocking and Grading**: Automatically block or grade inventory lots based on test results.
 - **Workflow Integration**: Configure automated responses to test results using workflows for quality management.
-- **Inventory Movement**: Comprehensive features for processing noncompliant items. For example, you can do automatic movements to quarantine bins, make negative adjustments for disposal, transfer orders to different locations, and create purchase returns to vendors.
+- **Handle Noncompliant Items**: Comprehensive features for processing noncompliant items. For example, you can do automatic movements to quarantine bins, make negative adjustments for disposal, transfer orders to different locations, and create purchase returns to vendors.
 - **Warehouse Integration**: Full support for locations with and without warehouse handling.
 
 ## Getting started
@@ -36,7 +36,7 @@ The Quality Management app offers a range of benefits.
 Setting up Quality Management involves configuring templates, test generation rules, and integration with your [!INCLUDE [prod_short](includes/prod_short.md)] processes. To learn more, go to:
 
 - [Initial Setup and Configuration](qms-setup.md)
-- [Assisted Setup Wizard](qms-assisted-setup-wizard.md)
+- [Assisted Setup Guide](qms-assisted-setup.md)
 - [Configuring Quality Inspection Grades](qms-configuring-grades.md)
 - [Creating Quality Inspection Templates](qms-quality-templates.md)
 - [Setting Up Test Generation Rules](qms-test-generation-rules.md)
@@ -48,8 +48,8 @@ After you configure the app, Quality Management gives you several ways to create
 
 ### Purchase receipt testing
 
-- [Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)
-- [Purchase Receipt Testing With Warehouse Tracking](qms-purchase-receipt-testing-warehouse.md)
+- [Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)
+- [Purchase Receipt Testing with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)
 
 ### Production testing
 
@@ -69,6 +69,10 @@ After you configure the app, Quality Management gives you several ways to create
 
 - Microsoft Dynamics 365 Business Central (on-premises or cloud)
 - Premium experience tier (required for production order functionality)
+
+   > [!NOTE]
+   > The Premium experience is required for production capabilities. If you don't need those, you can use the Essential experience.
+
 - Quality Management app is installed and configured
 
 ## Related information

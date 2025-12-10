@@ -282,7 +282,7 @@ Consider how many rules you really need:
 ## Related information
 
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
-[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
+[Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
 [Production Output Quality Testing](qms-production-output-testing.md)  
 [Manual Test Creation](qms-manual-test-creation.md)  
 [Quality Management Overview](qms-overview.md)

@@ -32,7 +32,7 @@ The Quality Management app includes an assisted setup guide that can help you co
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Assisted Setup**, and then choose the related link.
 2. Find and run the **Set up Quality Management** guide.
-3. Follow the steps in the guide. Learn more at [Assisted Setup Wizard](qms-assisted-setup-wizard.md).
+3. Follow the steps in the guide. Learn more at [Assisted Setup Wizard](qms-assisted-setup.md).
 
 ### Configure base data
 
@@ -57,7 +57,7 @@ Ensure you configured base data in [!INCLUDE [prod_short](includes/prod_short.md
    |**Conditional Lot Find Behavior**| Specifies the tests to consider when evaluating whether a document-specific transaction is blocked.<br><br>- **Any test that matches** considers any test.<br>- **Only the most recently modified test** uses the most recently modified test.<br>- **Only the newest test/re-test** uses the test with the highest retest number.<br>- **Any finished test that matches** considers any finished test.<br>- **Only the most recently modified finished test** uses the most recently modified finished test.<br>- **Only the newest finished test/re-test** uses the finished test with the highest retest number.        |
    |**COA Contact No.** | Specifies the contact details that appear on the **Certificate of Analysis** report when supplied.        |
    |**Maximum Rows To Fetch on Field Lookups** | Specifies the maximum number of rows to fetch on data lookups. Keep the number as low as possible to increase usability and performance.        |
-   |**Show Test Behavior** | Specifies whether to show the **Quality Inspection Test** page after a test is made.<br><br>- **Automatic and manually created tests** shows tests created both automatically and manually.<br>- **Only manually created tests** shows only tests created manually.<br>- **Do not show created tests** never automatically shows created tests.    |
+   |**Show Test Behavior** | Specifies whether to open the **Quality Inspection Test** page after a test is created.<br><br>- **Automatic and manually created tests** opens tests created both automatically and manually.<br>- **Only manually created tests** opens only tests created manually.<br>- **Do not show created tests** never automatically opens created tests.    |
    |**Picture Upload Behavior** | Specifies what to do with pictures.<br><br>- **Do nothing** means not to take an action with pictures.<br>- **Attach document** attaches the picture as a document.<br>- **Attach and upload to OneDrive** attaches the picture and uploads it to OneDrive.        |
    |**Workflow Integration Enabled** | When enabled, this option provides the events and responses for quality management that you need to work with workflows and approvals.        |
 
@@ -144,7 +144,7 @@ The following sections describe typical issues and suggest solutions.
 
 ## Related information
 
-[Assisted Setup Wizard](qms-assisted-setup-wizard.md)  
+[Assisted Setup Wizard](qms-assisted-setup.md)  
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
 [Setting Up Test Generation Rules](qms-test-generation-rules.md)  
 [Quality Management Overview](qms-overview.md)

@@ -275,7 +275,7 @@ Both manual and automatic tests:
 
 ## Related information
 
-[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
+[Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
 [Production Output Quality Testing](qms-production-output-testing.md)  
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
 [Setting Up Test Generation Rules](qms-test-generation-rules.md)  

@@ -1138,8 +1138,8 @@ ms.service: dynamics-365-business-central
 
 ## Quality management
 ### [Quality Management overview](qms-overview.md)
-### [Purchase receipt testing without warehouse tracking](qms-purchase-receipt-testing-simple.md)
-### [Purchase receipt testing with warehouse tracking](qms-purchase-receipt-testing-warehouse.md)
+### [Purchase receipt testing without warehouse handling](qms-purchase-receipt-testing-simple.md)
+### [Purchase receipt testing with warehouse handling](qms-purchase-receipt-testing-warehouse.md)
 ### [Production output quality testing](qms-production-output-testing.md)
 ### [Manual test creation](qms-manual-test-creation.md)
 ### [Scheduled test creation](qms-scheduled-test-creation.md)
@@ -2230,7 +2230,7 @@ ms.service: dynamics-365-business-central
 
 ### Set up quality management
 #### [Quality Management setup and configuration](qms-setup.md)
-#### [Assisted setup guide](qms-assisted-setup-wizard.md)
+#### [Assisted setup guide](qms-assisted-setup.md)
 #### [Configure quality inspection grades](qms-configuring-grades.md)
 #### [Create quality inspection templates](qms-quality-templates.md)
 #### [Set up test generation rules](qms-test-generation-rules.md)

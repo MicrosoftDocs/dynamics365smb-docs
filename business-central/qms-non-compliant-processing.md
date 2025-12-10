@@ -75,45 +75,7 @@ Quality Management workflows can automatically respond to test failures. The fol
 
 ## Manual processing when tests fail
 
-The following sections describe ways to manually process items when they fail a test.
-
-### Immediate actions after a test failure
-
-When a quality test fails, consider these immediate actions:
-
-1. **Quarantine**: Physically separate the noncompliant items.
-2. **Investigation**: Determine the root cause of the failure.
-3. **Documentation**: Record details about the failure and the actions taken.
-4. **Notification**: Inform the relevant stakeholders.
-
-### Decide what to do with the failed items
-
-This section describes some typical ways to handle items that failed a test.
-
-Use the failed items as-is:
-
-- The customer accepts with a concession.
-- Offer a reduced price or a different application.
-- Document that the deviation is approved.
-
-Rework the failed items:
-
-- Correct or repair the failed items.
-- Retest the items after you complete the rework.
-- Track the costs and time spent on the rework.
-
-Return the defective items to the vendor:
-
-- Record a vendor defect or specification issue.
-- Use the purchase return process and report the results from the quality inspection test.
-- Document the vendor quality issues.
-
-Treat the items as scrap or disposal:
-
-- Use this method when you can't rework the items. For example, when rework isn't economically feasible.
-- Create negative adjustments using reports from the quality inspection test.
-- Consider environmental disposal implications.
-- Record the costs and reasons for the disposal.
+The following sections describe some actions you can take when an item fails a test.
 
 ### Use quality inspection test reports for manual actions
 
@@ -139,8 +101,6 @@ The following are benefits of using test-based actions:
 - Automatically get item, lot, and quantity details.
 - Built-in tracking between actions and test failures.
 - Reduced data entry errors.
-- Consistent documentation and audit trail.
-- Integration with quality workflow processes.
 
 ### Step-by-step process using quality inspection test actions
 
@@ -340,7 +300,7 @@ The following steps give an overview of the manual transfer process:
 5. **Transfer options**: Choose a direct transfer, or specify in-transit location.
 6. **Execute**: Create a transfer order with quality test tracking.
 
-## Change item information
+## Change item tracking information
 
 This section describes how to manually update information about items. Updating item information involves using the **Change Item Tracking** report from the **Actions** menu on the **Quality Inspection Test** page.
 
@@ -475,5 +435,5 @@ The following steps give an overview of how to manually track items:
 
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Configuring Workflows](qms-quality-workflows.md)  
-[Purchase Receipt Testing Without Warehouse Tracking](qms-purchase-receipt-testing-simple.md)  
+[Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
 [Quality Management Overview](qms-overview.md)

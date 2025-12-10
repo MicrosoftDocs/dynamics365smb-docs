@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 06/10/2025
+ms.date: 12/10/2025
 ms.custom: bap-template
 ms.search.form: 7214_Primary
 ms.service: dynamics-365-business-central
@@ -56,6 +56,9 @@ In addition to customizing [!INCLUDE [cds_long_md](includes/cds_long_md.md)], th
 * **Business Central Dataverse Integration** - Allows you to manage the connection between [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Typically, this role is assigned only to the user account that's automatically created for synchronization. To learn more about this role, go to [Setting Up User Accounts for Integrating with [!INCLUDE[cds_long](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
 
 When you set up the connection, you create the integration table mappings that you need to synchronize data. Entities in [!INCLUDE[cds_long](includes/cds_long_md.md)] are mapped to tables and table fields in [!INCLUDE [prod_short](includes/prod_short.md)] through integration tables. To learn more about mappings, go to [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
+
+> [!NOTE]  
+> The Base Integration Solution doesn't define auditing settings (IsAuditEnabled) for the tables it extends. When you import the solution, it might disable auditing on tables where another solution previously enabled it. This behavior occurs because [!INCLUDE[cds_long](includes/cds_long_md.md)] applies the settings from the imported solution, and if auditing isn't explicitly enabled in the solution file, it defaults to disabled. After you enable the integration, check your auditing settings in [!INCLUDE[cds_long](includes/cds_long_md.md)] and reenable auditing for the affected tables if needed. Alternatively, redeploy any solutions that previously enabled auditing on those tables.
 
 ## Handle differences in local and base transaction currencies
 

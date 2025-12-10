@@ -1,7 +1,7 @@
 ---
 title: Payables Agent Overview
 description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
-ms.date: 10/29/2025
+ms.date: 12/10/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk

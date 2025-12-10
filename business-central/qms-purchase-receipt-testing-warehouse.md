@@ -130,7 +130,7 @@ When you receive multiple lots:
 - Test 2: Lot B, 100 pieces
 
 > [!TIP]
-> If you automate test creation but you manually created a test, for example, for the first receipt of a lot that you'll receive in multiple shipments, you probably want automation to create tests for the new receipts only. To set that up, choose this option, and then in the **Find Existing Behavior** field, choose **By Item Tracking**.
+> If you automate test creation but you manually created a test, for example, for the first receipt of a lot that you'll receive in multiple shipments, you probably want automation to create tests for the new receipts only. To set that up, choose the **Use existing open test if available** option, and then in the **Find Existing Behavior** field, choose **By Item Tracking**.
 
 ### Manage lot tests
 

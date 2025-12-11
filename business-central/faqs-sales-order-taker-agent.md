@@ -82,9 +82,10 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
 
 ## What are the limitations of Sales Order Agent? How can users minimize the impact of the Sales Order Agent limitations when using the system?
 
-- Languages
+- Geographic and language availability
 
-  - [!INCLUDE[soa-language-support](includes/soa-language-support.md)]
+  - [!INCLUDE[copilot-geo-and-language-availability](includes/copilot-geo-and-language-availability.md)]
+
   - Mixed language input might result in lower-quality output because the system relies on pure string similarity, and the semantic part of the matching might not work properly.
 
 - Emailing

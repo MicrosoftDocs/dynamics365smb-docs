@@ -25,7 +25,9 @@ Learn more about Sales Order Agent and its process flow in [How the agent proces
 
 ## Supported languages
 
-[!INCLUDE[soa-language-support](includes/soa-language-support.md)]
+<!--[!INCLUDE[soa-language-support](includes/soa-language-support.md)]-->
+
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Prerequisites
 

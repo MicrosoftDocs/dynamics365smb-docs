@@ -33,7 +33,9 @@ To edit the content of a row definition, follow these steps:
 1. Choose the **Insert G/L Accounts**, **Insert CF Accounts**, and **Insert Cost Types** actions to create a row for each financial element you want to analyze. For example, you might have one row for current assets and another row for fixed assets. For inspiration, explore the financial reports in the CRONUS demonstration company.
 
     > [!NOTE]
-    > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. You use these identifiers for calculated rows in the **Totalling** field. If needed, you can manually edit the identifiers after you insert the elements.
+    > The **Row No.** field can hold up to 10 characters and denote a row identifier, such as an account number or just a string like "Revenue" or "R". You use these identifiers for calculated rows in the **Totalling** field. The **Row No.** values do not need to be unique within the row definition.
+    >
+    > If needed, you can manually edit the identifiers after you insert the elements, either directly on the page or in Excel.
 
    > [!NOTE]
    > The columns you define in a column definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  

@@ -1,13 +1,13 @@
 ---
 title: Subscription Billing Overview (Power BI Report)
-description: The Sales Overview report provides a high-level summary of your organization's sales activities.
+description: The Subscription Billing Overview report provides a high-level summary of your organization's subscription activities.
 author: vanessa-mi
 ms.author: bholtorf
 ms.reviewer: 
 ms.topic: concept-article
 ms.search.keywords:
 ms.search.form:
-ms.date: 10/08/2025
+ms.date: 12/12/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -52,3 +52,11 @@ The report uses data form the following tables in Business Central:
 - Subscription Contract Analysis Entries
 - Customer
 - Vendor
+
+## Related information
+
+[Installing Power BI apps for Business Central](../../across-powerbi-install-business-central-apps.md)
+[Track your business KPIs with Power BI metrics](../../track-kpis-with-power-bi-metrics.md)  
+[Setting up the Subscription Billing Power BI app](subscription-powerbi-app-setup.md)
+[Subscription Billing controlling](../controlling.md)
+[Subscription Billing overview](../welcome.md)

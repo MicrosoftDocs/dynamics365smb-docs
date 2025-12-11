@@ -7,7 +7,7 @@ ms.reviewer:
 ms.topic: how-to
 ms.search.keywords:
 ms.search.form:
-ms.date: 10/08/2025
+ms.date: 12/12/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -100,3 +100,6 @@ Now, the notice dates are updated automatically once a day and outside of busine
 [Cancel planned subscription lines](../working-with-contracts/service-commitment-cancellation.md)  
 [Subscription lines](../working-with-contracts/so-service-commitments.md)
 [Use Job Queues to Schedule Tasks](../../admin-job-queues-schedule-tasks.md)
+[Installing Power BI apps for Business Central](../../across-powerbi-install-business-central-apps.md)
+[Subscription Billing controlling](../controlling.md)
+[Subscription Billing overview](../welcome.md)

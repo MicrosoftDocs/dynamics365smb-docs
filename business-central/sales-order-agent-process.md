@@ -1,5 +1,5 @@
 ---
-title: Process sales quotes and orders with Sales Order Agent (preview)
+title: Process sales quotes and orders with Sales Order Agent
 description: Learn how to use the Sales Order Agent to process sales quotes and orders from customer email requests.
 author: jswymer
 ms.author: jswymer

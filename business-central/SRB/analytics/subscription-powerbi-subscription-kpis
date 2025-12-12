@@ -1,0 +1,70 @@
+---
+title: Subscription Billing KPIs and measures (Power BI)
+description: Get an overview of all the KPIs and measures in the semantic model for the Power BI Subscription Billing app.
+author: vanessa-mi
+ms.author: bholtorf
+ms.reviewer: 
+ms.topic: article
+ms.search.keywords: reporting
+ms.search.form: 
+ms.date: 12/12/2025
+ms.service: dynamics-365-business-central
+ms.custom: 
+---
+
+# KPIs and measures in the Power BI Subscription Billing app
+
+This article lists and describes the key performance indicators (KPIs) included in the semantic model for the Power BI Subscription app. The descriptions include how the app calculates KPIs and the data it uses for its calculations.
+
+Explore the KPIs to learn more about how they can help you achieve your business goals.
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
+## Subscription Billing KPIs table
+
+You can find all measures in a dedicated table for subscription billing KPIs.
+
+**Recurring Revenue**
+
+
+
+**Active Customers**
+
+- [Active Customers](#active-customers)
+- [Active Customers PY](#active-customers-py)
+- [Active Customers delta vs. PY](#active-customers-delta-vs-py)
+
+### Active Customers
+
+**Formula**  
+
+This measure counts the number of customers that have a positive [Mon. Recurring Revenue](#mon-recurring-revenue) in the selected period. Only customers with an MRR greater than zero are considered active.
+
+**Data Sources**
+
+- Customers
+- Customer Contract Line
+
+### Active Customers PY
+
+**Formula**  
+
+This measure counts the number of customers with [Mon. Recurring Revenue](#mon-recurring-revenue) greater than zero in the same period of the previous year.
+
+**Data Sources**
+
+- Customers
+- Customer Contract Line
+
+### Active Customers delta vs. PY
+
+**Formula**  
+
+Difference between [Active Customers](#active-customers) and [Active Customers PY](#active-customers-py).
+
+**Data Sources**
+
+- Customers
+- Customer Contract Line
+
+### Mon. Recurring Revenue

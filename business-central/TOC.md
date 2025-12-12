@@ -272,6 +272,9 @@ ms.service: dynamics-365-business-central
 ##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 ##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 ##### [Audit changes to financial reporting](finance-financial-reporting-auditing.md)
+##### Financial reporting telemetry (for administrators)
+###### [Analyzing financial report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace?toc=/dynamics365/business-central/toc.json)
+###### [Analyzing financial report lifecycle telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace?toc=/dynamics365/business-central/toc.json)
 ##### [Financial reporting FAQ](finance-financial-reporting-faq.md)
 
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)

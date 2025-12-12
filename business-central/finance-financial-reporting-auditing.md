@@ -54,7 +54,7 @@ To learn more, go to [Analyzing financial report lifecycle telemetry](/dynamics3
 
 If the telemetry feature is enabled on the [!INCLUDE[prod_short](includes/prod_short.md)] environment, administrators can analyze who uses financial reports and when.
 
-[Analyzing financial report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace?toc=/dynamics365/business-central/toc.json)
+To learn more, go to [Analyzing financial report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace?toc=/dynamics365/business-central/toc.json)
 
 ## Permissions to view or edit financial reports
 

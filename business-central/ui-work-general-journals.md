@@ -35,8 +35,7 @@ The information that you enter in a journal is temporary and can be changed whil
 
 ## Add context to general journal transactions
 
-When you create a journal, you can add links that give context to its transactions. When you post the journal, [!INCLUDE [prod_short](includes/prod_short.md)] copies the links to the posted journal and ledger entries the journal creates. For example, providing links can make life easier for your auditor. If you keep images of your expense receipts on your company's ShareP<img width="336" height="134" alt="image" src="https://github.com/user-attachments/assets/cc459a36-2556-4e39-b73f-a92237fed935" />
-oint site, you can add links to the files. When you post the journal to submit your expenses, your auditor can quickly get to the receipt files.
+When you create a journal, you can add links that give context to its transactions. When you post the journal, [!INCLUDE [prod_short](includes/prod_short.md)] copies the links to the posted journal and ledger entries the journal creates. For example, providing links can make life easier for your auditor. If you keep images of your expense receipts on your company's SharePoint site, you can add links to the files. When you post the journal to submit your expenses, your auditor can quickly get to the receipt files.
 
 ## Use journal templates and batches
 

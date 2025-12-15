@@ -2248,6 +2248,7 @@ ms.service: dynamics-365-business-central
 
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
+#### [Use SMTP for email in a multi-tenant environment](admin-multi-tenant-smtp.md)
 #### Set up your business inbox in Microsoft Outlook
 ##### [Get the Business Central add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as your business inbox in Outlook](work-outlook-addin.md)

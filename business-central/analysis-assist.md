@@ -25,7 +25,7 @@ With analysis assist, instead of doing these tasks manually, you can express the
 
 ## Supported languages
 
-[!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Prerequisites
 

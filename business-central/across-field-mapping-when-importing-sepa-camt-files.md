@@ -15,9 +15,14 @@ ms.custom: bap-template
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). Learn more in [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
 
- The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Data Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[prod_short](includes/prod_short.md)].  
+The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Data Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
- Learn more in [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) for information about creating or adjusting a data exchange definition.  
+Learn more in [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) for information about creating or adjusting a data exchange definition.  
+
+> [!NOTE]
+> Starting in November 2025, most EU countries (including Switzerland) are mandating the SEPA CAMT.053.001.08 format (based on the updated ISO 20022 XML standard).
+>
+> To set up a corresponding SEPA CAMT.053.001.08 format in [!INCLUDE [prod_short](includes/prod_short.md)], open the **Bank Import/Export Setup** page and choose the **Setup/SEPA CAMT 053.001.08** action. Then, you can open a **Bank Account Card** page for an account and choose **SEPA CAMT 053.001.08** in the **Bank Statement Import Setup** field.
 
 ## CAMT data mapping to fields in the General Journal table (81)  
 

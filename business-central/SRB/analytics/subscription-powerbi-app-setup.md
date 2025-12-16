@@ -33,9 +33,9 @@ The Subscription Contract Analysis Entries table can also be used within Busines
 
 You can create subscription contract analysis entries manually:
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Create Subscription Contract Analysis**, then choose the related link.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Create Subscription Contract Analysis**, then choose the related link.
 1. The task runs immediately and generates entries for all contract lines that meet the required conditions.
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Subscription Contract Analysis Entries**, then choose the related link. You will see the newly created entries with the current date as Analysis Date.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Subscription Contract Analysis Entries**, then choose the related link. You will see the newly created entries with the current date as Analysis Date.
 
 The task creates one entry per **Subscription Line** for the current month. It only considers subscription lines that meet the following conditions:
 
@@ -65,7 +65,7 @@ MRR and MRC for vendor-facing subscription lines are calculated in the following
 
 Instead of running the task manually each month, you can schedule it in the **Job Queue**. This ensures that your subscription contract analysis entries are always created on time and remain up to date.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, then choose the related link.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Job Queue Entries**, then choose the related link.
 1. Choose the **New** action.
 1. In the **Object Type to Run** field, choose *Report*.
 1. In the **Object ID** to Run field, choose *8005*, **Create Subscription Contract Analysis**.
@@ -84,7 +84,7 @@ To calculate KPIs such as **Total Contract Value (TCV)** or **Sales Forecast**, 
 
 To ensure the **Term Until** field is always accurate, you can schedule the update as a recurring **Job Queue Entry**:
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, then choose the related link.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Job Queue Entries**, then choose the related link.
 1. Choose the **New** action.
 1. In the **Object Type to Run** field, choose *Codeunit*.
 1. In the **Object ID** to Run field, choose *8058*, **Update Sub. Lines Term. Dates**.

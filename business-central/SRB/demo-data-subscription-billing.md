@@ -1,5 +1,5 @@
 ---
-title: Contoso Demo Data
+title: Contoso demo data
 description: Create and use demo data for subscription billing.
 author: TobiSIT
 ms.author: bholtorf
@@ -7,17 +7,14 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 5194,
-ms.date: 07/16/2025
+ms.date: 12/16/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Demo Data for Subscription Billing (Contoso)
+# Contoso demo data for Subscription Billing
 
-Subscription Billing supports Contoso demo data. Herewith it enables rapid onboarding and testing of Subscription Billing in Business Central by deploying comprehensive Contoso demo data. This feature provides setup, master, and transactional data to help users explore and validate core functionalities.
-
-## Overview
-
-The Subscription Billing demo data allows users — especially those new to Business Central and Subscription Billing — to quickly set up a new company with realistic demo data. This includes all necessary setup, master, and transactional records, enabling hands-on evaluation and training.
+Subscription Billing supports Contoso demo data. The Contoso demo data for Subscription Billing helps users, and especially those who are new to Business Central and Subscription Billing, to quickly set up a new company with realistic demo data. The data includes the setup, master, and transactional records you need for onboarding, and enables hands-on evaluation and training.
 
 ## Prerequisites
 
@@ -26,34 +23,34 @@ The Subscription Billing demo data allows users — especially those new to Busi
 
 ## Key Features
 
-- **Comprehensive Demo Data:** Includes setup, master, and transactional data for Subscription Billing.
-- **Automated Generation:** Data is created via a dedicated “Subscription Billing Demo Data” app available on Microsoft AppSource for Business Central. Demo data can be generated in full or setup data only.
-- **Localization Support:** Demo data can be generated for multiple countries/regions (e.g., AT, AU, BE, CA, CH, CZ, DE, DK, ES, FI, FR, GB, IS, IT, NL, NO, NZ, SE, US, W1).
-- **Job Queue Integration:** Optionally creates job queue entries for Subscription Billing tasks.
-- **Data Exchange and Reconciliation:** Imports data exchange definitions and reconciliation files for usage data.
+- **Comprehensive Demo Data:** Generate a rich set of demo data that includes setup, master, and transactional data for Subscription Billing.
+- **Automated Generation:** Create the data by using the **Subscription Billing Demo Data** app, which you can get on Microsoft AppSource. You can generate demo data in full, or just the basic setup data.
+- **Localization Support:** Generate demo data for multiple countries/regions (for example, AT, AU, BE, CA, CH, CZ, DE, DK, ES, FI, FR, GB, IS, IT, NL, NO, NZ, SE, US, W1).
+- **Job Queue Integration:** Optionally, create job queue entries for Subscription Billing tasks.
+- **Data Exchange and Reconciliation:** Import data exchange definitions and reconciliation files for usage data.
 
-## How to Use Demo Data
+## How to use the demo data
 
-### 1. Install Subscription Billing Demo Data app
+### 1. Install the Subscription Billing Demo Data app frin AppSource
 
-- Deploy the “Subscription Billing Demo Data” app in your Business Central environment. The app is available on Microsoft AppSource for Business Central.
+- Deploy the **Subscription Billing Demo Data** app in your Business Central environment. The app is available on Microsoft AppSource.
 
-### 2. Generate Demo Data
+### 2. Generate the demo data
 
-As for the other areas supported by Contoso demo data, you can generate all demo data or setup data only:
+Like the other areas that the Contoso demo data supports, you can generate all demo data or setup data only:
 
 - **Generate:** Generates setup, master, and transactional data.
 - **Generate Setup Data:** Generates only setup data for initial configuration.
 
-> **Note:** Before generating demo data, ensure that basic setup is completed first.
+> **Note:** Before you generate demo data, ensure that basic setup is completed first.
 
-### 3. Configure Demo Data Options
+### 3. Configure demo data options
 
-For Subscription Billing module, use “Configure” action to prepare the module:
+For the Subscription Billing module, use the **Configure** action to prepare the module:
 
-- **Create entries in Job Queue:** Specifies whether Subscription Billing tasks are created in the Job Queue (default: Yes).
-- **Import Data Exchange Definition:** Imports a data exchange definition for usage data (default: Yes).
-- **Import reconciliation file:** Imports a reconciliation file for usage data (default: Yes). If set to No, only usage data is created.
+- **Create entries in Job Queue**: Specifies whether Subscription Billing tasks are created in the job queue. By default, this option is turned on.
+- **Import Data Exchange Definition:** Imports a data exchange definition for usage data. By default, this option is turned on.
+- **Import reconciliation file:** Imports a reconciliation file for usage data. By default, this option is turned on. If you turn off this option, only usage data is created.
 
 ### 4. Localization
 
@@ -61,6 +58,6 @@ For supported countries/regions, demo data is generated separately to reflect lo
 
 ## Related Topics
 
-- [Contoso Coffee Demo Data](https://learn.microsoft.com/en-us/dynamics365/business-central/contoso-coffee/contoso-coffee-intro?wt.mc_id=d365bc_inproduct_helppane)
-- [Job Queue Management](#)
-- [Data Exchange Definitions](#)
+[Contoso Coffee Demo Data](https://learn.microsoft.com/en-us/dynamics365/business-central/contoso-coffee/contoso-coffee-intro?wt.mc_id=d365bc_inproduct_helppane)  
+[Job Queue Management](#)  
+[Data Exchange Definitions](#)  

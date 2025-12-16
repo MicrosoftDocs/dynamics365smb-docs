@@ -13,9 +13,9 @@ ms.custom: bap-template
 
 # Field mapping when importing SEPA CAMT files
 
-[!INCLUDE[prod_short](includes/prod_short.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). Learn more in [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] supports regional Single Euro Payments Area (SEPA) standards for importing SEPA bank statements (CAMT format). Learn more in [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
 
-The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Data Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[prod_short](includes/prod_short.md)].  
+The SEPA CAMT standard itself has local variations. Therefore, you might have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Data Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Learn more in [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) for information about creating or adjusting a data exchange definition.  
 
@@ -57,10 +57,10 @@ Learn more in [Set Up Data Exchange Definitions](across-how-to-set-up-data-excha
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstructured|Text|Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts-receivable system, in an unstructured form||6|Description|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Additional information about the entry||16|Transaction Information|  
 
- Elements in the **Ntry** node that are imported into [!INCLUDE[prod_short](includes/prod_short.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** pages by choosing the **Bank Statement Line Details** action. Learn more in [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+ Elements in the **Ntry** node that are imported into [!INCLUDE[prod_short](includes/prod_short.md)] but aren't mapped to any fields are stored in the **Posting Exch. Column Def** table. You can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** pages by choosing the **Bank Statement Line Details** action. Learn more in [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]
-> In an import of CAMT bank statements, [!INCLUDE[prod_short](includes/prod_short.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* tag in the CAMT file, must be unique within the open bank account reconciliation. If the information is not present, [!INCLUDE[prod_short](includes/prod_short.md)] ignores the payment. If an earlier bank reconciliation on the same bank account was posted with the same transaction ID as on the current import, the current transaction will not automatically reconcile but can still be imported.
+> In an import of CAMT bank statements, [!INCLUDE[prod_short](includes/prod_short.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the `Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId` tag in the CAMT file, must be unique within the open bank account reconciliation. If the information isn't present, [!INCLUDE[prod_short](includes/prod_short.md)] ignores the payment. If an earlier bank reconciliation on the same bank account was posted with the same transaction ID as on the current import, the current transaction won't reconcile automatically but can still be imported.
 
 ## Related information  
 

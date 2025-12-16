@@ -5,7 +5,7 @@ description: "Learn essential personal security practices for Business Central u
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 12/04/2025
 ms.custom: bap-template
 ---

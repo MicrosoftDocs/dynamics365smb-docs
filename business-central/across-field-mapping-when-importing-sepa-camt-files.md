@@ -20,7 +20,7 @@ The SEPA CAMT standard itself has local variations. Therefore, you may have to m
 Learn more in [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) for information about creating or adjusting a data exchange definition.  
 
 > [!NOTE]
-> Starting in November 2025, most EU countries (including Switzerland) are mandating the SEPA CAMT.053.001.08 format (based on the updated ISO 20022 XML standard).
+> Starting in November 2025, most countries/regions in the European Union (including Switzerland) are mandating the SEPA CAMT.053.001.08 format (based on the updated ISO 20022 XML standard).
 >
 > To set up a corresponding SEPA CAMT.053.001.08 format in [!INCLUDE [prod_short](includes/prod_short.md)], open the **Bank Import/Export Setup** page and choose the **Setup/SEPA CAMT 053.001.08** action. Then, you can open a **Bank Account Card** page for an account and choose **SEPA CAMT 053.001.08** in the **Bank Statement Import Setup** field.
 

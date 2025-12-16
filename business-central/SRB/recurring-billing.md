@@ -24,25 +24,23 @@ The following tables explain the fields and actions on the **Recurring Billing**
 
 |Field  |Description  |
 |---------|---------|
-|**Billing Template**  |  Select a billing template. To learn more about billing templates, go to [Billing templates](#billing-templates).   |
-|**Billing Date**     | Use the date to suggest the appropriate contract lines for billing based on the **Next Billing Date** field from the contract line. The date is predefined by the billing template, but you can change it.  |
-|**Billing to Date**     | Via the **Billing Rhythm**, each contract line brings the information up to which date it should be billed by default. Via the **Billing to Date** field, this can be specified (differently) for all lines to be created. This can result in shortening or extending the billing period. The field is also predefined via the billing template and can also change it. By means of a limitation it could be achieved, for example, that contract items added during a fiscal year are only invoiced until the end of the year/fiscal year in order to have a uniform billing rhythm again for the next billing period.        |
+|**Billing Template**|Select a billing template. To learn more about billing templates, go to [Billing templates](#billing-templates).|
+|**Billing Date**|Use the date to suggest the appropriate contract lines for billing based on the **Next Billing Date** field from the contract line. The date is predefined by the billing template, but you can change it.|
+|**Billing to Date**|Via the **Billing Rhythm**, each contract line brings the information up to which date it should be billed by default. Via the **Billing to Date** field, this can be specified (differently) for all lines to be created. This can result in shortening or extending the billing period. The field is also predefined via the billing template and can also change it. By means of a limitation it could be achieved, for example, that contract items added during a fiscal year are only invoiced until the end of the year/fiscal year in order to have a uniform billing rhythm again for the next billing period.|
 
 ### Actions
 
 |Action  |Description  |
 |---------|---------|
-|**Create Billing Proposal**     |  Goes through all contract lines and suggests the subscription lines to be billed based on the **Next Billing Date** and the **Billing to Date**. By changing the billing template and running the action again, you can add lines to the billing proposal.<br><br>If the **Next Billing Date** is greater than the billing date, this line will be ignored. If the **Next Billing Date** is smaller than the Billing Date, the corresponding period (taking the billing rhythm into account) must be invoiced.       |
-|**Create Documents**  | Creates subscription contract invoices or credit memos for lines for which no documents exist. To learn more about documents, go to [Create posting documents](#create-posting-documents). |
-|**Clear Billing Proposal**     |  Deletes the billing proposal. A query follows asking whether to delete the entire billing proposal or only the lines added by the currently selected billing template.       |
-|**Delete Documents**     | Deletes all contract invoices or credit memos for the lines.        |
-|**Change Billing To Date**     |  Adjusts the date in the **Billing To** field for all selected lines, and recalculates the value in the **Amount** field. |
-|**Delete Billing Line**| Deletes all selected lines. |
-|**Refresh**| Updates the lines, for example, if there are warnings. If you resolved the cause of the warning, the warning is removed.|
-|**Navigate**| Opens the customer or vendor selected on the line.|
-|**Contract**| Opens the contract selected on the line.|
-|**Subscription**|Opens the subscription on the line.|
-|**Contract Line Dimensions**|Opens the dimensions stored on the associated contract line.|
+|**Create Billing Proposal**|Goes through all contract lines and suggests the subscription lines to be billed based on the **Next Billing Date** and the **Billing to Date**. By changing the billing template and running the action again, you can add lines to the billing proposal.<br><br>If the **Next Billing Date** is greater than the billing date, this line will be ignored. If the **Next Billing Date** is smaller than the Billing Date, the corresponding period (taking the billing rhythm into account) must be invoiced.|
+|**Create Documents**|Creates subscription contract invoices or credit memos for lines for which no documents exist. To learn more about documents, go to [Create posting documents](#create-posting-documents).|
+|**Usage Data**|Opens related Usage Data Billings for the line. This action is only available Usage Data Billings exist for the line.|
+|**Clear Billing Proposal**|Deletes the billing proposal. A query follows asking whether to delete the entire billing proposal or only the lines added by the currently selected billing template.|
+|**Delete Documents**|Deletes all contract invoices or credit memos for the lines.|
+|**Change Billing To Date**|Adjusts the date in the **Billing To** field for all selected lines, and recalculates the value in the **Amount** field.|
+|**Delete Billing Line**|Deletes all selected lines.|
+|**Refresh**|Updates the lines, for example, if there are warnings. If you resolved the cause of the warning, the warning is removed.|
+|**Navigate**|Opens the customer or vendor selected on the line.|
 
 ### Billing proposal lines
 
@@ -67,7 +65,7 @@ To use a billing template, you must enter filter criteria. The criteria determin
 
 In the **Billing Date Formula** field, enter a dateformula that's taken into account when the billing template is used in the **Billing Date** field. This field is then used to filter the subscription lines to bill, based on **Next Billing Date**, when creating the proposal lines. If you don't specify a dateformula, recurring billing uses the work date.
 
-Optionally, you can use the **Billing to Date Formula** field to enter a dateformula that's taken into accountwhen the billing template is used in the **Billing to Date** field. This field is then used to set the end date of the billing in the subscription lines. If you don't specify a dateformula, the field on the **Recurring Billing** page remains empty and lines are proposed based on the information in the contract line.
+Optionally, you can use the **Billing to Date Formula** field to enter a dateformula that's taken into account when the billing template is used in the **Billing to Date** field. This field is then used to set the end date of the billing in the subscription lines. If you don't specify a dateformula, the field on the **Recurring Billing** page remains empty and lines are proposed based on the information in the contract line.
 
 You can use the **My Suggestions Only** field to filter the billing proposal to lines that you created.
 

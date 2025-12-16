@@ -15,14 +15,14 @@ ms.custom: bap-template
 
 Posting documents are invoices and credit memos because these documents can be posted. When creating these documents using the [Recurring billing](recurring-billing.md) page, [!INCLUDE [prod_short](../includes/prod_short.md)] recognizes whether to create an invoice or a credit memo based on the amounts to settle. If the total amount over all lines to be billed is positive, an invoice is created, otherwise a credit memo is created. This applies to both customer subscription contracts and vendor subscription contracts.
 
-The posting documents are available on the respective contract under **Related**. There are different ways to open documents that are or aren't posted. Sales documents are created from customer subscription contracts and purchasing documents from vendor subscription contracts. The documents can also be opened using the following methods:
+The posting documents are available on the respective contract under **Navigate**. There are different ways to open documents that are or aren't posted. Sales documents are created from customer subscription contracts and purchasing documents from vendor subscription contracts. The documents can also be opened using the following methods:
 
 * **Sales Invoices**
 
    A **Recurring Billing** filter is available in the page, which displays only the documents that belong to a contract.
 * **Sales Credit Memos** 
 
-   A **Recurring Billing** is available in the page, which displays only the documents that belong to a contract.
+   A **Recurring Billing** filter is available in the page, which displays only the documents that belong to a contract.
 * **Posted Sales Invoices** 
 
    A **Recurring Billing** filter is available in the page, which displays only the documents that belong to a contract.

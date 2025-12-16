@@ -5,8 +5,8 @@ author: altotovi
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: chart of accounts, Denmark, standard chart of accounts
-ms.search.form: 5264, 5266, 5267, 5270, 
-ms.date: 03/04/2025
+ms.search.form: 5264, 5266, 5267, 5270
+ms.date: 12/16/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -19,6 +19,9 @@ The new Danish bookkeeping act requires the use of a standard chart of accounts.
 ## Set up a standard chart of accounts
 
 GL accounts require a specific standard chart of accounts for use in Denmark. Before you start, make sure that you install the **Audit Files Extension** Microsoft app. After you configure your GL accounts, your exported files (Standard Audit File for Tax \[SAF-T\] and Regnskab Basis) are based on the configured mappings. To configure a standard chart of accounts, provide the GL account as explained in [Audit file export](../../finance-how-to-export-audit-files.md).
+
+> [!NOTE]
+> In accordance with Danish government regulations, new standard accounts and tax codes are required for the year 2025. To configure SAF-T reporting with these new standards, open the **SAF-T Setup Guide** page. Then, select **Standard Account 2025** from the **Standard Account Type** drop-down menu. The setup guide helps you map your accounts to the new standard accounts and apply the newly imported tax codes to the VAT Posting Setup for SAF-T.
 
 Learn more in [Danish Local Functionality](denmark-local-functionality.md), which provides a list of features that are specific to Denmark.
 

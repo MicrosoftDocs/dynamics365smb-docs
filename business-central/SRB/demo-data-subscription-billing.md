@@ -58,6 +58,6 @@ For supported countries/regions, demo data is generated separately to reflect lo
 
 ## Related Topics
 
-[Contoso Coffee Demo Data](https://learn.microsoft.com/en-us/dynamics365/business-central/contoso-coffee/contoso-coffee-intro?wt.mc_id=d365bc_inproduct_helppane)  
-[Job Queue Management](#)  
-[Data Exchange Definitions](#)  
+[Contoso Coffee Demo Data](/dynamics365/business-central/contoso-coffee/contoso-coffee-intro)  
+<!--[Job Queue Management](#)  
+[Data Exchange Definitions](#)  -->

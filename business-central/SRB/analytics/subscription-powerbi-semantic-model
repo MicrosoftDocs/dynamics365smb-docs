@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: 
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.date: 12/12/2025
+ms.date: 12/15/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -101,7 +101,7 @@ The app uses data from the following tables:
 | Document Line No. | Document Line No. | Specifies the number of the line in the related document. |
 | Document Posting Date | Document Posting Date | Specifies the posting date of the document used to create the deferral. |
 | Release Posting Date | Release Posting Date | Specifies the posting date on which the deferral was released. |
-| G/L Entry No. | General Ledger Entry No. | Specifies the number of the G/L item with which the deferral was released. |
+| G/L Entry No. | General Ledger Entry No. | Specifies the number of the G/L entry with which the deferral was released. |
 | Discount | Discount | Specifies whether the Subscription Line is used as a basis for periodic invoicing or discounts. |
 | Dimension Set ID | Dimension Set ID | Specifies the value of the Dimension Set ID. |
 | Customer Contract Line Key | - | Specifies a combination of customer subscription contract, customer subscription contract line and analysis date in order to create a unique identifier of each entry. |
@@ -177,7 +177,7 @@ The app uses data from the following tables:
 | Document Line No. | Document Line No. | Specifies the number of the line in the related document. |
 | Document Posting Date | Document Posting Date | Specifies the posting date of the document used to create the deferral. |
 | Release Posting Date | Release Posting Date | Specifies the posting date on which the deferral was released. |
-| G/L Entry No. | General Ledger Entry No. | Specifies the number of the G/L item with which the deferral was released. |
+| G/L Entry No. | General Ledger Entry No. | Specifies the number of the G/L entry with which the deferral was released. |
 | Discount | Discount | Specifies whether the Subscription Line is used as a basis for periodic invoicing or discounts. |
 | Dimension Set ID | Dimension Set ID | Specifies the value of the Dimension Set ID. |
 | Vendor Contract Line Key | - | Specifies a combination of vendor subscription contract, vendor subscription contract line and analysis date in order to create a unique identifier of each entry. |
@@ -338,6 +338,6 @@ The app uses data from the following table:
 ## Related information
 
 [Track your business KPIs with Power BI metrics](../../track-kpis-with-power-bi-metrics.md)  
-[Setting up the Subscription Billing Power BI app](subscription-powerbi-app-setup.md)
-[Subscription Billing controlling](../controlling.md)
-[Subscription Billing overview](../welcome.md)
+[Setting up the Subscription Billing Power BI app](subscription-powerbi-app-setup.md)  
+[Subscription Billing controlling](../controlling.md)  
+[Subscription Billing overview](../welcome.md)  

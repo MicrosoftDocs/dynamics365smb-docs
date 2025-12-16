@@ -649,6 +649,15 @@ ms.service: dynamics-365-business-central
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
 ### Subscription billing
 #### [Overview of subscription billing](SRB/welcome.md)
+
+<!-- Subscription billing analytics start -->
+#### Subscription billing analytics
+##### [Power BI subscription billing app](SRB/analytics/subscription-powerbi-app.md)
+###### [Power BI subscription billing app semantic model](SRB/analytics/subscription-powerbi-semantic-model)
+###### [Subscription billing KPI overview](SRB/analytics/subscription-powerbi-subscription-kpis)
+###### [Setting up the Power BI subscription billing app](SRB/analytics/subscription-powerbi-app-setup.md)
+<!-- Subscription billing analytics end -->
+
 #### Contracts
 ##### [Manage contracts, subscriptions, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
 ##### [Create customer subscription contracts](SRB/working-with-contracts/customer-contracts.md)

@@ -7,7 +7,7 @@ ms.reviewer:
 ms.topic: how-to
 ms.search.keywords:
 ms.search.form:
-ms.date: 12/12/2025
+ms.date: 12/15/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -68,7 +68,7 @@ Instead of running the task manually each month, you can schedule it in the **Jo
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, then choose the related link.
 1. Choose the **New** action.
 1. In the **Object Type to Run** field, choose *Report*.
-1. the **Object ID** to Run field, choose *8005*, **Create Subscription Contract Analysis**.
+1. In the **Object ID** to Run field, choose *8005*, **Create Subscription Contract Analysis**.
 1. In the Earlies Start Date/Time field, enter the first date of the next month.
 1. In the **Next Run Date Formula** field, enter *1M*.
 1. In the **Starting Time** field, enter *2 AM*.
@@ -80,14 +80,14 @@ By automating this process, you reduce manual effort and ensure that the Power B
 
 ## Set up job queue for subscription contract termination dates
 
-To calculate KPIs such as **Total Contract Value (TCV)** or **Revenue Forecast**, the Power BI Subscription Billing app relies on the **Term Until** field to determine the remaining subscription period. This date is calculated in Business Central based on the **Subscription Start Date**, **Initial Term**, **Notice Period**, and **Extension Period** defined on the subscription line.
+To calculate KPIs such as **Total Contract Value (TCV)** or **Sales Forecast**, the Power BI Subscription Billing app relies on the **Term Until** field to determine the remaining subscription period. This date is calculated in Business Central based on the **Subscription Start Date**, **Initial Term**, **Notice Period**, and **Extension Period** defined on the subscription line.
 
 To ensure the **Term Until** field is always accurate, you can schedule the update as a recurring **Job Queue Entry**:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, then choose the related link.
 1. Choose the **New** action.
 1. In the **Object Type to Run** field, choose *Codeunit*.
-1. the **Object ID** to Run field, choose *8058*, **Update Sub. Lines Term. Dates**.
+1. In the **Object ID** to Run field, choose *8058*, **Update Sub. Lines Term. Dates**.
 1. In the Earlies Start Date/Time field, enter the first date of the next month.
 1. In the **Next Run Date Formula** field, enter *1D*.
 1. In the **Starting Time** field, enter *1 AM*.
@@ -98,8 +98,8 @@ Now, the notice dates are updated automatically once a day and outside of busine
 ## Related information
 
 [Cancel planned subscription lines](../working-with-contracts/service-commitment-cancellation.md)  
-[Subscription lines](../working-with-contracts/so-service-commitments.md)
-[Use Job Queues to Schedule Tasks](../../admin-job-queues-schedule-tasks.md)
-[Installing Power BI apps for Business Central](../../across-powerbi-install-business-central-apps.md)
-[Subscription Billing controlling](../controlling.md)
-[Subscription Billing overview](../welcome.md)
+[Subscription lines](../working-with-contracts/so-service-commitments.md)  
+[Use Job Queues to Schedule Tasks](../../admin-job-queues-schedule-tasks.md)  
+[Installing Power BI apps for Business Central](../../across-powerbi-install-business-central-apps.md)  
+[Subscription Billing controlling](../controlling.md)  
+[Subscription Billing overview](../welcome.md)  

@@ -1,9 +1,9 @@
 ---
 title: Use Power BI Semantic Models in Excel for Dynamics 365 Business Central Reporting
 description: Describes how to utilize connections Power BI semantic models in Excel for Business Central reporting.
-author: sophieblake-afk
-ms.author: sophieblake-afk
-ms.reviewer: sophieblake-afk
+author: kennieNP
+ms.author: kepontop
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: trial, Microsoft services
@@ -23,21 +23,21 @@ The following table includes links to help you get started with connecting to Po
 
 | To | See 
 | --- | ----------------
-| Access Power BI semantic models in Excel | [Connect Excel to Power BI semantic models](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-connect-power-bi-datasets-excel)| 
-| Create visuals in Excel using Power BI semantic models | [Discover Power BI semantic models in Excel](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-connect-excel-power-bi-datasets#discover-power-bi-semantic-models-in-excel)| 
+| Access Power BI semantic models in Excel | [Connect Excel to Power BI semantic models](https://learn.microsoft.com/power-bi/collaborate-share/service-connect-power-bi-datasets-excel)| 
+| Create visuals in Excel using Power BI semantic models | [Discover Power BI semantic models in Excel](https://learn.microsoft.com/power-bi/collaborate-share/service-connect-excel-power-bi-datasets#discover-power-bi-semantic-models-in-excel)| 
 |
 
 ## Example: Create a Table
 
-This example uses the [**Inventory Power BI app for Business Central**](https://learn.microsoft.com/en-au/dynamics365/business-central/inventory-powerbi-app) semantic model to illustrate a Table that could be built to report on outbound Lots.
+This example uses the [**Inventory Power BI app for Business Central**](./inventory-powerbi-app.md) semantic model to illustrate a Table that could be built to report on outbound Lots.
 
 On the **Data** tab in Excel Desktop, select **Get Data** > **Power Platform** > **From Power BI**.
 
 :::image type="content" source="media\powerbi\excel\excel-power-bi-semantic-model-connection.png" alt-text="Screenshot of Excel showing steps to connect to Power BI." lightbox="media\powerbi\excel\excel-power-bi-semantic-model-connection.png":::
 
-After you select From Power BI using either of these options, a pane opens on the right of the screen that shows Power BI semantic models you have access to. Select **Insert Table** for the [**Inventory app**](https://learn.microsoft.com/en-au/dynamics365/business-central/inventory-powerbi-app) semantic model.
+After you select From Power BI using either of these options, a pane opens on the right of the screen that shows Power BI semantic models you have access to. Select **Insert Table** for the [**Inventory app**](./inventory-powerbi-app.md) semantic model.
 
-:::image type="content" source="media\powerbi\excel\excel-power-bi-semantic-model-new-table.png" alt-text="Screenshot of Excel showing Power BI semantic models pane." lightbox="media\powerbi\excel\excel-power-bi-semantic-model-new-table.png":::
+:::image type="content" source="media\powerbi\excel\excel-power-bi-semantic-model-new-table.png" alt-text="Screenshot of Excel showing Power BI semantic models pane highlighting Create Table option." lightbox="media\powerbi\excel\excel-power-bi-semantic-model-new-table.png":::
 
 When you select **Insert Table**, the **Create Table** dialog opens, where you can use the Data, Build, and Filters panes to design the table you'd like. The predefined relationships in the semantic model allow fields from different tables to be combined into one table.
 
@@ -66,15 +66,15 @@ The resulting table can be interacted with, for example to filter for a specific
 
 ## Example: Create a Pivot Table
 
-This example uses the [**Inventory Valuation Power BI app for Business Central**](https://learn.microsoft.com/en-au/dynamics365/business-central/inventory-valuation-powerbi-app) semantic model to illustrate a Pivot Table that could be built to analyze Inventory Valuation by Date.
+This example uses the [**Inventory Valuation Power BI app for Business Central**](./inventory-valuation-powerbi-app.md) semantic model to illustrate a Pivot Table that could be built to analyze Inventory Valuation by Date.
 
 On the **Data** tab in Excel Desktop, select **Get Data** > **Power Platform** > **From Power BI**.
 
 :::image type="content" source="media\powerbi\excel\excel-power-bi-semantic-model-connection.png" alt-text="Screenshot of Excel showing steps to connect to Power BI." lightbox="media\powerbi\excel\excel-power-bi-semantic-model-connection.png":::
 
-After you select From Power BI using either of these options, a pane opens on the right of the screen that shows Power BI semantic models you have access to. Select **Insert Pivot Table** for the [**Inventory Valuation app**](https://learn.microsoft.com/en-au/dynamics365/business-central/inventory-valuation-powerbi-app) semantic model.
+After you select From Power BI using either of these options, a pane opens on the right of the screen that shows Power BI semantic models you have access to. Select **Insert Pivot Table** for the [**Inventory Valuation app**](./inventory-valuation-powerbi-app.md) semantic model.
 
-:::image type="content" source="media\powerbi\excel\excel-power-bi-semantic-model-new-pivot-table.png" alt-text="Screenshot of Excel showing Power BI semantic models pane." lightbox="media\powerbi\excel\excel-power-bi-semantic-model-new-pivot-table.png":::
+:::image type="content" source="media\powerbi\excel\excel-power-bi-semantic-model-new-pivot-table.png" alt-text="Screenshot of Excel showing Power BI semantic models pane highlighting Create Pivot Table option." lightbox="media\powerbi\excel\excel-power-bi-semantic-model-new-pivot-table.png":::
 
 Alternatively, on the **Insert** tab in Excel, select **PivotTable** > **From Power BI**.
 
@@ -100,11 +100,11 @@ For this example:
 
 :::image type="content" source="media\powerbi\excel\excel-power-bi-semantic-model-inv-val-pivot-table-example.png" alt-text="Screenshot of Excel showing Pivot Table created with connection to Power BI." lightbox="media\powerbi\excel\excel-power-bi-semantic-model-inv-val-pivot-table-example.png":::
 
-The resulting Pivot Table could be used to review activity on a date where a discrepancy has been identified between the standard [**Inventory Valuation Report**](https://learn.microsoft.com/en-au/dynamics365/business-central/reports/report-1001) and the inventory control accounts in the General Ledger.
+The resulting Pivot Table could be used to review activity on a date where a discrepancy has been identified between the standard [**Inventory Valuation Report**](./reports/report-1001.md) and the inventory control accounts in the General Ledger.
 
 ## Example: Combining models with Power Pivot Excel add-in
 
-This example uses the [**Inventory Power BI app for Business Central**](https://learn.microsoft.com/en-au/dynamics365/business-central/inventory-powerbi-app) and the [**Sales Power BI app for Business Central**](https://learn.microsoft.com/en-au/dynamics365/business-central/sales-powerbi-app) semantic models to illustrate how to combine Tables from multiple models into one Pivot Table, using the [**Power Pivot for Excel add-in**](https://support.microsoft.com/en-au/office/power-pivot-overview-and-learning-f9001958-7901-4caa-ad80-028a6d2432ed).
+This example uses the [**Inventory Power BI app for Business Central**](./inventory-powerbi-app.md) and the [**Sales Power BI app for Business Central**](./sales-powerbi-app.md) semantic models to illustrate how to combine Tables from multiple models into one Pivot Table, using the [**Power Pivot for Excel add-in**](https://support.microsoft.com/office/power-pivot-overview-and-learning-f9001958-7901-4caa-ad80-028a6d2432ed).
 
 Follow the steps from [**Example: Create a Table**](#example-create-a-table) with the Inventory app model, including the following fields:
 

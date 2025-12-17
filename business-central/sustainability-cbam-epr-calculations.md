@@ -28,13 +28,13 @@ Use the Extended Producer Responsibility (EPR) feature to track product material
 
 There are a few things to set up before you start using CBAM or EPR.
 
-For CBAM, set up the following:
+For CBAM, set up the following elements:
 
 - Carbon pricing. Learn more at [Set up carbon pricing](#set-up-carbon-pricing).
 - Items. Learn more at [Set up items for CBAM](#set-up-items-for-cbam).
 - An excise journal batch where the type is **CBAM**.
 
-For EPR, set up the following:
+For EPR, set up the following elements:
 
 - EPR materials. Learn more at [Set up EPR materials](#set-up-epr-materials).
 - Item material composition. Learn more at [Set up item material composition for EPR](#set-up-item-material-composition-for-epr).
@@ -51,7 +51,7 @@ The following sections describe the setups that must be in place to use the CBAM
 
 ### Set up carbon pricing
 
-1. On the **Carbon Pricing** page, in **Country/Region of Origin** field, specify a country that is outside the EU from which you import goods. Create a new line for each country.
+1. On the **Carbon Pricing** page, in **Country/Region of Origin** field, specify a country/region that is outside the EU from which you import goods. Create a new line for each country/region.
 1. In the **Starting Date** and **Ending Date** fields, enter the first and last date of the period for which you want to specify carbon prices.
 1. In the **Unit of Measure Code** field, specify the measure to which the carbon price applies.
 1. In the **Threshold Quantity** field, the minimum quantity for which you report carbon prices. Quantities below this threshold aren't included in the report.   
@@ -80,7 +80,7 @@ The following sections describe the setups that must be in place to use the CBAM
 1. To create lines in the journal, choose the **Calculate** action, and then confirm.
 
   > [!TIP]
-  > To determine the country of origin, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value from the item first. If one isn't specified for the item, it uses the value from the vendor.  
+  > To determine the country/region of origin, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value from the item first. If one isn't specified for the item, it uses the value from the vendor.  
 
 1. Choose the **Register** action, and then confirm.
 
@@ -93,7 +93,7 @@ The following sections describe the setups that must be in place to use the EPR 
 
 ### Set up EPR materials
 
-The set up for EPR materials is simple. On the **EPR Materials** page, create a new line for each type of material. Specify a unit of measure for each material, and the EPR fee rate that you use for that measure of the material. Finally, specify the date from which the rate is effective.
+The setup for EPR materials is simple. On the **EPR Materials** page, create a new line for each type of material. Specify a unit of measure for each material, and the EPR fee rate that you use for that measure of the material. Finally, specify the date from which the rate is effective.
 
 ### Set up item material composition for an item for EPR
 
@@ -111,7 +111,7 @@ Material composition is similar to a bill of materials. It's a list of the mater
 1. In the **Weight** field, specify the weight of the material in the unit of measure you specify in the next step.
 1. In the **Unit of Measure Code** field, specify the measure you use for the material.
 1. In the **EPR Fee Rate** field, specify the fee you charge for the material in the unit of measure.  
-1. Optional: You can also specify additional fees for collection, sorting, administration, and environmental.
+1. Optional: You can also specify other fees for collection, sorting, administration, and environmental.
 1. In the **Status** field, select **Certified**, and then choose **OK**.
 1. On the **Item Card** page, on the **Sustainability** FastTab, the following fields show the calculated values for the item:
 

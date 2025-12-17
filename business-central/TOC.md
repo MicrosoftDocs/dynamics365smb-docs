@@ -841,6 +841,7 @@ ms.service: dynamics-365-business-central
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
 ##### [Projects KPI overview](projects-powerbi-kpis.md) 
+##### [Project Timeline (Power BI Report)](projects-powerbi-project-timeline.md)
 
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
@@ -2504,8 +2505,8 @@ ms.service: dynamics-365-business-central
 
 # Security, privacy, and compliance
 ## Security and protection
-### [Security overview (admins, developers, decision makers](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
-### [Personal security (users](personal-security.md)
+### [Security overview](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Personal security](personal-security.md)
 ## Privacy
 ### [Privacy (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Compliance

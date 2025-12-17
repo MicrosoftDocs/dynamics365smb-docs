@@ -66,4 +66,4 @@ Try the report here: [Average Collection Period](https://businesscentral.dynamic
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
-[Finance overview](finance.md)
+[Finance overview](finance.md)  

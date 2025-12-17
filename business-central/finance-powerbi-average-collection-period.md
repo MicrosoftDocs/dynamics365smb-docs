@@ -1,13 +1,13 @@
 ---
 title: Average Collection Period
-description: The Average Collection Period report provides a snapshot of the average days taken to collect account receivable payments.
+description: The Average Collection Period report provides a snapshot of the average number of days that were required to collect account receivable payments.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36992_Primary
-ms.date: 10/31/2024
+ms.date: 12/17/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Average Collection Period** report shows the average number of days it takes for your company to receive payments from customers. The report can help you assess the efficiency of your receivables collection process.
 
-:::image type="content" source="media/finance/average-collection-period-report.png" alt-text="Screenshot of the Average Collection Period report" lightbox="media/finance/average-collection-period-report.png":::
+:::image type="content" source="media/finance/average-collection-period-report-2025rw2.png" alt-text="Screenshot of the Average Collection Period report." lightbox="media/finance/average-collection-period-report-2025rw2.png":::
 
 ## Use the report
 
@@ -33,10 +33,10 @@ Executive or finance managers use this report to monitor and track the effective
 
 The *Average Collection Period* report includes the following KPIs and measures: 
 
-- [**Average Collection Period (Days)**](finance-powerbi-kpis.md#average-collection-period-days)
-- [**No. of Days**](finance-powerbi-kpis.md#no-of-days)
-- [**Revenue**](finance-powerbi-kpis.md#revenue)
-- [**Accounts Receivable (Average)**](finance-powerbi-kpis.md#accounts-receivable-average)
+- [Average Collection Period (Days)](finance-powerbi-kpis.md#average-collection-period-days)
+- [No. of Days](finance-powerbi-kpis.md#no-of-days)
+- [Revenue](finance-powerbi-kpis.md#revenue)
+- [Accounts Receivable (Average)](finance-powerbi-kpis.md#accounts-receivable-average)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 

@@ -37,8 +37,7 @@ For CBAM, set up the following elements:
 For EPR, set up the following elements:
 
 - EPR materials. Learn more at [Set up EPR materials](#set-up-epr-materials).
-- Item material composition. Learn more at [Set up item material composition for EPR](#set-up-item-material-composition-for-epr).
-- Items
+- Material composition for items. Learn more at [Set up item material composition for an item for EPR](#set-up-item-material-composition-for-an-item-for-epr).
 - An excise journal batch where the type is **EPR**.
 
 ## Built on excise taxes framework
@@ -79,8 +78,8 @@ The following sections describe the setups that must be in place to use the CBAM
 1. In the **Journal Batch Name** field, select the batch that you created for CBAM.
 1. To create lines in the journal, choose the **Calculate** action, and then confirm.
 
-  > [!TIP]
-  > To determine the country/region of origin, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value from the item first. If one isn't specified for the item, it uses the value from the vendor.  
+   > [!TIP]
+   > To determine the country/region of origin, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value from the item first. If one isn't specified for the item, it uses the value from the vendor.  
 
 1. Choose the **Register** action, and then confirm.
 
@@ -132,7 +131,7 @@ Material composition is similar to a bill of materials. It's a list of the mater
 1. Choose the **Register** action, and then confirm.
 
    > [!TIP]
-   > After you register your EPR entries, you can use the **Excise Taxes Transaction Logs** page to review your CBAM entries. You can export the list for reporting.
+   > After you register your EPR entries, you can use the **Excise Taxes Transaction Logs** page to review them. You can export the list for reporting.
 
 ## Related information
 

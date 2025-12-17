@@ -1,6 +1,6 @@
 ---
 title: Power BI Purchase app
-description: The Power BI Purchases app provides comprehensive analysics on purchases to stakeholders at all levels of your organization.
+description: The Power BI Purchases app provides comprehensive analytics on purchases to stakeholders at all levels of your organization.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer:
@@ -89,10 +89,10 @@ The following table describes how you can use the reports in the Power BI Purcha
 | Gain a comprehensive view of your purchase data across different warehouse locations, and identify trends and patterns in their purchasing activities.|[Purchases by Location](https://businesscentral.dynamics.com?page=37019)|[About Purchases by Location](purchases-powerbi-purchases-by-location.md)|  
 | Compare actual spending to allocated budget to ensure that spending aligns with financial plans.|[Actual vs Budget](https://businesscentral.dynamics.com?page=37021)|[About Actual vs. Budget](purchases-powerbi-actual-vs-budget.md)|
 |Identify the key factors that drive purchase performance in your organization. | [Key Purchase Influencers (Power BI Report)](https://businesscentral.dynamics.com?page=37117) |[About Key Purchase Influencers (Power BI Report)](purchases-powerbi-key-purchase-influencers.md)|
-|Leverage advanced forecasting techniques to project purchase values across vendor, document, item category and purchaser dimensions.|[Purchase Forecasting (Power BI Report)](https://businesscentral.dynamics.com?page=37112) |[About Purchase Forecasting (Power BI Report)](purchases-powerbi-purchase-forecasting.md)|
+|Use advanced forecasting techniques to project purchase values across vendor, document, item category and purchaser dimensions.|[Purchase Forecasting (Power BI Report)](https://businesscentral.dynamics.com?page=37112) |[About Purchase Forecasting (Power BI Report)](purchases-powerbi-purchase-forecasting.md)|
 |Analyze vendor performance to explore vendor quality, returns, reliance, and purchase discount trends. |[Vendor Quality Analysis (Power BI Report)](https://businesscentral.dynamics.com?page=37115)|[About Vendor Quality Analysis (Power BI Report)](purchases-powerbi-vendor-quality-analysis.md)|
 |Explore detailed information on your organization's purchase quote activities for vendors.|[Purchase Quote Overview (Power BI Report)](https://businesscentral.dynamics.com?page=37118)|[About Purchase Quote Overview (Power BI Report)](purchases-powerbi-purchase-quote-overview.md)|
-|Track and analyze purchase returns to explore reasons for returns, return rates, purchase values, and the financial impact on the organization. |[Purchases Return Overview (Power BI Report)](https://businesscentral.dynamics.com?page=37116)| [About Purchases Return Overview (Power BI Report)](purchases-powerbi-purchase-return-overview.md)|
+|Track and analyze purchase returns to explore reasons for returns, return rates, purchase values, and the financial effect on the organization. |[Purchases Return Overview (Power BI Report)](https://businesscentral.dynamics.com?page=37116)| [About Purchases Return Overview (Power BI Report)](purchases-powerbi-purchase-return-overview.md)|
 |Access a list of all key performance indicators (KPIs) in the semantic model for the Power BI Purchases report.|Learn more in the linked article. |[About Power BI Purchases app KPIs and measures](purchases-powerbi-kpis.md)|
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]

@@ -27,7 +27,7 @@ The audiences for the report are:
 - Directors
 - Other high-level decision makers
 
-Executive or finance managers use this report to monitor and track the effectiveness of your collection process. By analyzing and tracking the average collection period in days, you can identify trends that might affect cash flow. The report can help ensure that you collect receivables quickly enough to cover upcoming cash needs, and help you plan for better cash flow. By monitoring the average collection period, you can anticipate cash flow shortages.
+Executive or finance managers use this report to monitor the effectiveness of your collection process. By analyzing and tracking the average collection period in days, you can identify trends that might affect cash flow. The report can help ensure that you collect receivables quickly enough to cover upcoming cash needs, and help you plan for better cash flow. By monitoring the average collection period, you can anticipate cash flow shortages.
 
 ## Key Performance Indicators (KPIs)
 

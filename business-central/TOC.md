@@ -841,6 +841,7 @@ ms.service: dynamics-365-business-central
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
 ##### [Projects KPI overview](projects-powerbi-kpis.md) 
+##### [Project Timeline (Power BI Report)](projects-powerbi-project-timeline.md)
 
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 

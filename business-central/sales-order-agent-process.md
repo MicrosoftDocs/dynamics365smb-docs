@@ -1,5 +1,5 @@
 ---
-title: Process sales quotes and orders with Sales Order Agent (preview)
+title: Process sales quotes and orders with Sales Order Agent
 description: Learn how to use the Sales Order Agent to process sales quotes and orders from customer email requests.
 author: jswymer
 ms.author: jswymer
@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 10/29/2025
+ms.date: 12/11/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
@@ -25,7 +25,9 @@ Learn more about Sales Order Agent and its process flow in [How the agent proces
 
 ## Supported languages
 
-[!INCLUDE[soa-language-support](includes/soa-language-support.md)]
+<!--[!INCLUDE[soa-language-support](includes/soa-language-support.md)]-->
+
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Prerequisites
 

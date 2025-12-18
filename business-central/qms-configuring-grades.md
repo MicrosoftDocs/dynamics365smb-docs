@@ -102,7 +102,7 @@ In this example, sales transactions for a lot are restricted until the quality t
 
 ## Configure grade conditions
 
-You can configure grades at the field and template levels. Configure grates at the template-level when you have:
+You can configure grades at the field and template levels. Configure grades at the template-level when you have:
 
 - Different acceptance criteria for same measurement.
 - Template-specific quality standards.

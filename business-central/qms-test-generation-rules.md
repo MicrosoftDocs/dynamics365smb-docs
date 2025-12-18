@@ -60,7 +60,7 @@ You can also create rules for **Sales Return**, **Warehouse Receipt**, **Warehou
 **Activation trigger**:
 
 - **Disabled**: No automatic test creation.
-- **Automatic Only**: Automatic creation when you post a receipt.
+- **Automatic Only**: Automatic creation when the corresponding event is triggered, for example, when you post a receipt or purchase transaction.
 - **Manual Only**: Only allow manual test creation.
 - **Both Manual and Automatic**: Both methods are enabled.
 
@@ -116,7 +116,6 @@ This rule is best when you have custom or complex filtering requirements.
 ## Configure filters
 
 The following table describes filter fields that are often used.
-
 
 |Type of filter  |Use  |
 |---------|---------|

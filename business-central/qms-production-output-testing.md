@@ -181,11 +181,7 @@ Set up testing at different production stages:
 
 ### Posting setup requirements
 
-Ensure that you have a proper posting setups:
-
-- **Inventory Posting Setup** for item transactions.
-- **Manufacturing Posting Setup** for production costs.
-- **Work Center Posting** for operation posting.
+Ensure that you have an **Inventory Posting Setup** for item transactions.
 
 ### Item tracking integration
 
@@ -207,24 +203,12 @@ If you use backflushing, there are a few things to consider:
 
 The following sections describe typical issues and suggest solutions.
 
-### Tests Not Creating
+### Tests aren't being created
 
 - Verify that your production trigger is set to **When Output is Posted**.
 - Double-check your test generation rule filters.
 - Ensure that the correct template is assigned.
 - Confirm that output actually posted.
-
-### Missing Item Tracking
-
-- Verify that your item tracking code is configured.
-- Double-check the lot number assignment during output.
-- Ensure that item tracking posts with output.
-
-### Posting Setup Errors
-
-- Configure the required posting setups.
-- Double-check your inventory posting groups.
-- Verify your manufacturing posting setup.
 
 ## Related information
 

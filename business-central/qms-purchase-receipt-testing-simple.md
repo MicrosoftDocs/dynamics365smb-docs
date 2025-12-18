@@ -68,10 +68,7 @@ Set up a rule to automatically create tests for purchase receipts:
 
 1. From the template or test generation rules, choose **Create Receiving Rule**.
 2. Select your template.
-3. Configure filters, as follows:
-
-	- **Item Number Filter**: Specify the items.
-	- **Location Filter**: Leave blank, or specify a location.
+3. Configure an **Item Number Filter** for the items.
 4. For the **Purchase Trigger**, choose **When Purchase Order is Received**.
 
 ### Verify your location configuration

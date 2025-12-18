@@ -27,11 +27,11 @@ The Quality Management assisted setup guide can help you configure quality manag
 
 The following sections describe each step in the guide.
 
-### Step 1: Welcome and Terms
+### Welcome and Terms
 
 This step introduces the guide. To proceed with the setup, agree to the terms and conditions.
 
-### Step 2: Getting Started Data
+### Getting Started Data
 
 Choose whether to apply demonstration and sample data:
 
@@ -41,11 +41,7 @@ Choose whether to apply demonstration and sample data:
 > [!NOTE]
 > The guide automatically suggests **Do Not Apply Configuration** if it looks like quality management is already configured or is in use.
 
-### Step 3: Permission Awareness
-
-This step reminds administrators about permission requirements. You must assign the **Quality Inspection** permission set to users who make quality inspection tests.
-
-### Step 4: Usage Scenarios
+### Usage Scenarios
 
 Specify where you plan to use quality inspection tests:
 
@@ -56,7 +52,7 @@ Specify where you plan to use quality inspection tests:
 > [!TIP]
 > The steps in the guide differ, based on your selection.
 
-### Step 5: Production Test Configuration
+### Production Test Configuration
 
 > [!NOTE]
 > This step shows only if you chose **Production** in the previous step.
@@ -66,7 +62,7 @@ Specify how to create production tests:
 - **Create tests automatically**: [!INCLUDE [prod_short](includes/prod_short.md)] creates tests automatically when you record output. Use this option when tests must exist when production output occurs.
 - **Manual test creation**: You manually create tests. Use this option when your process requires a person to create tests, or for ad-hoc testing scenarios like nonconformance reports or tracking rework.
 
-### Step 6: Receiving Test Configuration  
+### Receiving Test Configuration  
 
 > [!NOTE]
 > This step shows only if you chose **Receiving** in the previous step.
@@ -79,7 +75,7 @@ Configure automatic test creation for receiving scenarios:
 - **Sales Return Receipts**: Automatically create tests when receiving via sales returns.
 - **Manual only option**: Choose this option if you only want people to manually create tests. For example, this option is useful for ad-hoc testing or tracking damage for received goods.
 
-### Step 7: Test Display Behavior
+### Test Display Behavior
 
 > [!NOTE]
 > The options in this step vary, based on whether you set up automatic test creation.
@@ -91,7 +87,11 @@ Specify when to display tests to users:
 - **Never show immediately**: Tests are always created in the background. Use this option when the person who creates tests shouldn't be able to edit them. This option ensures separation of test creation and completion.
 - **Business Consideration**: Activities that trigger tests without direct interaction (background posting, web service integrations like Power Automate) create tests but doesn't immediately show them.
 
-### Step 8: Completion
+<!--
+
+We don't usually describe the outcome.
+
+### Completion
 
 When you choose **Finish**, the guide:
 
@@ -130,7 +130,11 @@ The guide integrates with several [!INCLUDE [prod_short](includes/prod_short.md)
 - **Guided Experience**: Tracks setup completion status and prevents you from rerunning the assisted setup guide unnecessarily.
 - **Application Area Management**: Updates feature visibility and user experience settings.
 - **Telemetry**: Logs completion events including environment name, company, and user for monitoring and support.
-- **Auto Configuration**: Handles basic setup requirements and sample data deployment through configuration packages.
+- **Auto Configuration**: Handles basic setup requirements and sample data deployment through configuration packages. -->
+
+<!--
+
+These seem pretty obvious.
 
 ## Best practices
 
@@ -159,7 +163,7 @@ This section lists recommendations
 
 - **Insufficient Permissions**: The guide checks for permissions, and displays an error message that instructs users to request permissions from their administrator.
 - **Previous Configuration**: The guide finds an existing configuration and preserves the previous settings. However, it allows updates.
-- **Getting Started Data**: Sample data installation only occurs if you chose that option and quality management isn't already configured, preventing duplicate or conflicting data.
+- **Getting Started Data**: Sample data installation only occurs if you chose that option and quality management isn't already configured, preventing duplicate or conflicting data. -->
 
 ## Related information
 

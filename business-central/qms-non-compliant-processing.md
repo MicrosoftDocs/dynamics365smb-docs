@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Process items that failed a quality test
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This article explains how to deal with items that don't pass quality inspection tests. It covers:
 
 - Automatic workflows.

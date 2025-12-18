@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Set up test generation rules
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 Test generation rules define when and how to automatically create quality inspection tests in response to business transactions. These rules connect your quality inspection templates to specific business processes.
 
 A test generation rule defines when you want to ask a set of questions or collect the data you want. You define the questions and data, such as measurements, in your quality inspection template. You connect a template to a source table, and set the criteria to use that template with the table filter. When the filter criteria are met, it chooses that template. When there are multiple matches, it uses the first template that it finds, based on the sort order.

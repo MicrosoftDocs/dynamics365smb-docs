@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Purchase receipt testing without warehouse handling
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling. For example, like the Silver location in the Contoso demo data.
 
 For locations without warehouse handling, quality tests are created automatically when you directly post purchase receipts. This simpler workflow is ideal for:

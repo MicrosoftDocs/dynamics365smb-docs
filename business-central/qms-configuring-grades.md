@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Configure quality inspection grades
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This guide explains how to configure and use quality inspection grades in quality management. Grades are configurable states that determine test results and control business processes based on quality outcomes.
 
 ## Overview

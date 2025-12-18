@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Create quality inspection templates
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 Quality inspection templates define the measurements and attributes you want to collect during quality testing. Templates serve as the foundation for all quality tests, and contain:
 
 - A **Template Code**, which is the unique identifier for the template.

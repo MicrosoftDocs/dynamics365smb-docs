@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Manual test creation
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This article explains various ways to manually create quality inspection tests. Manual test creation provides flexibility for:
 
 - Reactive testing, where you create tests in response to discovered quality issues.

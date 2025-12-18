@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Purchase receipt testing with warehouse handling
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations with warehouse handling.
 
 For locations with warehouse handling, quality tests are created when you post warehouse receipts. This workflow integrates with warehouse management, and supports:

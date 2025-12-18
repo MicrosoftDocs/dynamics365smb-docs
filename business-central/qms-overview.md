@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Quality management overview
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 Quality Management is a quality inspection application for [!INCLUDE [prod_short](includes/prod_short.md)]. The app provides comprehensive quality control capabilities throughout your business operations. This app enables automated and manual quality testing for purchase receipts, production and assembly output, and warehouse operations.
 
 Quality Management helps you maintain product quality standards by creating inspection tests at key points in your business processes. The app integrates seamlessly with purchasing, production, assembly, and warehouse management in [!INCLUDE [prod_short](includes/prod_short.md)] to embed quality control in your daily operations.

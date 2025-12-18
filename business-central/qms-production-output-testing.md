@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Production output quality testing
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This article explains how to set up and use automatic quality inspection test creation for production output when you post manufacturing operations.
 
 Production output testing creates quality inspection tests automatically when production output is posted. This enables quality control for:

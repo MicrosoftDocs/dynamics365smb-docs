@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Lot blocking and unblocking
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This article explains how to automatically block and unblock inventory lots based on quality inspection test results using workflows and grade-specific controls. There are two main approaches for lot blocking:
 
 - **Workflow-Based Blocking**: Block lots using workflows.

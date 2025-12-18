@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Scheduled test creation
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This article explains how to set up and use quality inspection tests that are created automatically and scheduled to run at regular intervals using job queues.
 
 Scheduled tests enable proactive quality management. They automatically generate quality inspection tests based on time intervals, rather than business transactions. This capability is ideal for:

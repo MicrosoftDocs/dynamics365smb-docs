@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Assisted setup guide for quality management
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 The Quality Management assisted setup guide can help you configure quality management features in [!INCLUDE [prod_short](includes/prod_short.md)]. The guide covers the initial configuration required to do quality inspections, and sets up automatic test creation based on business scenarios.
 
 ## Start the guide

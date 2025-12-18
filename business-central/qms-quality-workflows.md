@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Quality management workflows
 
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 This article explains how to set up and use workflows to automate quality management processes.
 
 Quality Management integrates with workflows in [!INCLUDE [prod_short](includes/prod_short.md)] to automate responses to quality inspection events. Workflows can automatically run business actions when quality tests are created, finished, or when specific conditions are met. For example, quality management workflows can:

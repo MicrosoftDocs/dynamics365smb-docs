@@ -222,7 +222,7 @@ To allow for different severity levels of defects, you can set up more than one 
 - **MINOR** (Priority 3): Cosmetic or minor defect
 - **PASS** (Priority 10): Acceptable quality
 
-The following are some examples for business process integration. To learn more about business process integration, go to [Workflow Integration](#workflow-integration).
+The following are some examples for business process integration. To learn more about business process integration, go to [Integrate with workflows](#integrate-with-workflows).
 
 - **CRITICAL**: Immediate recall, supplier notification
 - **MAJOR**: Quarantine, rework evaluation

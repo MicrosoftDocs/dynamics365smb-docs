@@ -18,11 +18,11 @@ ms.custom: bap-template
 
 This article explains how to set up and use workflows to automate quality management processes.
 
-Quality Management integrates with workflows in [!INCLUDE [prod_short](includes/prod_short.md)] to automate responses to quality inspection events. Workflows can automatically run business actions when quality tests are created, finished, or when specific conditions are met. For example, quality management workflows can:
+Quality Management integrates with workflows in [!INCLUDE [prod_short](includes/prod_short.md)] to automate responses to quality inspection events. Workflows can automatically run business actions when quality inspections are created, finished, or when specific conditions are met. For example, quality management workflows can:
 
 - Block and unblock lots.
-- Move inventory
-- Create negative adjustments
+- Move inventory.
+- Create negative adjustments.
 
 ## Prerequisites
 
@@ -52,32 +52,32 @@ The following sections describe often-used workflow events and conditions.
 
 ### When events
 
-**When a Quality Inspection Test is Created**:
+**When a Quality Inspection is Created**:
 
-- This event triggers automatically when test generation rules create new tests.
-- Use the event for immediate actions, such as blocking lots when you create tests for them.
-- The event is available for all test creation methods. For example, purchase receipts, production output, and manual creation.
+- This event triggers automatically when inspection generation rules create new inspections.
+- Use the event for immediate actions, such as blocking lots when you create inspections for them.
+- The event is available for all inspection creation methods. For example, purchase receipts, production output, and manual creation.
 
-**When a Quality Inspection Test is Finished**:
+**When a Quality Inspection is Finished**:
 
-- This event triggers when tests are completed and finalized.
-- Use the event for disposal actions based on test results.
+- This event triggers when inspections are completed and finalized.
+- Use the event for disposal actions based on inspection results.
 - This event is the most popular for quality workflows.
 
 ### Workflow conditions
 
-**Grade code conditions**:
+**Result code conditions**:
 
-- Grade code equals "PASS" for successful test completion.
-- Grade code equals "FAIL" for failed test processing.
-- Grade code equals "INPROGRESS" for tests in progress.
-- Custom grade codes you configure.
+- Result code equals "PASS" for successful inspection completion.
+- Result code equals "FAIL" for failed inspection processing.
+- Result code equals "INPROGRESS" for inspections in progress.
+- Custom Result codes you configure.
 
 **Additional conditions**:
 
 - Location codes for site-specific workflows.
 - Item numbers for product-specific processing.
-- Test template codes for template-specific responses.
+- Inspection template codes for template-specific responses.
 
 ## Workflow response actions
 
@@ -90,16 +90,16 @@ The following sections describe the responses, or actions, that happen after an 
 - Creates a **Lot No. Information Card** page with the status **Blocked**. The status prevents all transactions for the lot until you manually unblock it.
 - The standard lot blocking functionality in [!INCLUDE [prod_short](includes/prod_short.md)] applies. To learn more, go to [Block items or item variants from use in sales, purchasing, service, and production](inventory-how-block-items.md).
 
-**Unblock the Lot (Serial, Package) in the Test**:
+**Unblock the Lot (Serial, Package) in the Inspection**:
 
 - Removes lot blocking from previously blocked lots, and restores normal transaction abilities.
-- This action is typically used with passing test results.
+- This action is typically used with passing inspection results.
 
 ### Inventory movement actions
 
 **Move Inventory to Different Bin**:
 
-- Automatically relocates inventory based on test results.
+- Automatically relocates inventory based on inspection results.
 - Uses movement worksheets, movement documents, or reclassification journals.
 - Supports directed put-away and pick locations.
 
@@ -118,13 +118,13 @@ The following sections describe the responses, or actions, that happen after an 
 - Supports reason codes for audit trails.
 - Can process full lots, specific quantities, or failed quantities only.
 
-### Test creation actions
+### Inspection creation actions
 
-**Create Retest**:
+**Create Reinspection**:
 
-- Automatically generates follow-up tests.
+- Automatically generates follow-up inspections.
 - Useful for corrective action processes.
-- Can use the same or different test templates.
+- Can use the same or different inspection templates.
 
 **Create Internal Put-away**:
 
@@ -135,14 +135,14 @@ The following sections describe the responses, or actions, that happen after an 
 
 The following sections provide examples of how to configure different workflows.
 
-### Block a lot when a test fails
+### Block a lot when an inspection fails
 
-This sample configuration automatically quarantines lots that fail a test.
+This sample configuration automatically quarantines lots that fail an inspection.
 
 1. **Workflow Name**: **Block Lot on Failure**
-2. **When Event**: **When a Quality Inspection Test is Finished**
-3. **Condition**: Grade equals **Fail**.
-4. **Response**: Block the lot in the test.
+2. **When Event**: **When a Quality Inspection is Finished**
+3. **Condition**: **Result** equals **Fail**.
+4. **Response**: Block the lot in the inspection.
 
 The following are the outcomes of this example:
 
@@ -152,35 +152,35 @@ The following are the outcomes of this example:
 
 ### Preemptive lot blocking
 
-These sample configurations block lots during testing, and unblock them when they pass.
+These sample configurations block lots during inspections, and unblock them when they pass.
 
 **Blocking workflow**:
 
-1. **Workflow Name**: **Block Lot on Test Creation**
-2. **When Event**: **When a Quality Inspection Test is Created**
+1. **Workflow Name**: **Block Lot on Inspection Creation**
+2. **When Event**: **When a Quality Inspection is Created**
 3. **Condition**: None (applies to all tests)
-4. **Response**: Block the lot in the test.
+4. **Response**: Block the lot in the inspection.
 
 **Unblocking workflow**:
 
 1. **Workflow Name**: **Unblock Lot on Pass**
-2. **When Event**: **When a Quality Inspection Test is Finished**
-3. **Condition**: **Grade Code** equals **"Pass"**
-4. **Response**: Unblock the lot in the test.
+2. **When Event**: **When a Quality Inspection is Finished**
+3. **Condition**: **Result Code** equals **"Pass"**
+4. **Response**: Unblock the lot in the inspection.
 
 The following are the outcomes of this example:
 
-- Lots are quarantined immediately when you create a test.
-- Only passing tests unblock lots for normal use.
-- Prevents the use of untested materials.
+- Lots are quarantined immediately when you create an inspection.
+- Only passing inspections unblock lots for normal use.
+- Prevents the use of materials you haven't inspected.
 
 ### Automatic movement between bins
 
 This sample configuration moves failed items to the quarantine bin.
 
 1. **Workflow Name**: **Move Failed Items to Quarantine**
-2. **When Event**: **When a Quality Inspection Test is Finished**
-3. **Condition**: **Grade Code** equals **"Fail"**
+2. **When Event**: **When a Quality Inspection is Finished**
+3. **Condition**: **Result Code** equals **"Fail"**
 4. **Response**: Move inventory to a different bin.
 5. **Details**:
    - **Method**: Reclassification Journal
@@ -191,16 +191,16 @@ This sample configuration moves failed items to the quarantine bin.
 The following are outcomes of this example:
 
 - Failed items are automatically staged for quarantine.
-- Physical separation of conforming and nonconforming items.
+- Physical separation of conforming and nonconformant items.
 - Maintain an audit trail of disposals.
 
 ### Negative adjustment for disposal
 
-This sample configuration automatically disposes of failed or destructively tested items.
+This sample configuration automatically disposes of failed or destructively inspected items.
 
 1. **Workflow Name**: **Dispose Failed Items**
-2. **When Event**: **When a Quality Inspection Test is Finished**
-3. **Condition**: **Grade Code** equals **"Fail"**
+2. **When Event**: **When a Quality Inspection is Finished**
+3. **Condition**: **Result Code** equals **"Fail"**
 4. **Response**: Create a negative adjustment.
 5. **Details**:
    - **Quantity**: Failed quantity (or entire lot)
@@ -217,11 +217,11 @@ The following are outcomes of this example:
 
 The following sections describe examples of advanced scenarios in which quality management workflows are useful.
 
-### Conditional, grade-based processing
+### Conditional, result-based processing
 
 You can use multiple failure types:
 
-- Create separate workflows for different failure grades.
+- Create separate workflows for different failure results.
 - Use different responses based on the severity of the failure.
 - Implement escalation procedures for critical failures.
 
@@ -249,18 +249,18 @@ You can integrate your quality management workflows with production processes:
 
 Workflows require that you configure journal batches on the **Quality Management Setup** page:
 
-- Use the **Item Journal Batch** for nonwarehouse location adjustments.
-- Use the **Warehouse Item Journal Batch** for warehouse location adjustments.
-- Use the **Warehouse Movement Worksheet** for directed put-away/pick movements.
-- Use the **Warehouse Reclass Journal Batch** for warehouse reclassifications.
-- Use the **Item Reclass Journal Batch** for nonwarehouse reclassifications.
+- Use **Item Journal Batch** for nonwarehouse location adjustments.
+- Use **Warehouse Item Journal Batch** for warehouse location adjustments.
+- Use **Warehouse Movement Worksheet** for directed put-away/pick movements.
+- Use **Warehouse Reclass Journal Batch** for warehouse reclassifications.
+- Use **Item Reclass Journal Batch** for nonwarehouse reclassifications.
 
-## Test your workflow configuration
+## Validate your workflow configuration
 
-The following are high-level steps to validate your workflow configuration>
+The following are high-level steps to validate your workflow configuration:
 
-1. Create a test scenario:
-   - Generate a quality test through a normal business process.
+1. Create an inspections scenario:
+   - Generate a quality inspection through a normal business process.
    - Verify that the workflow events trigger correctly.
    - Confirm that the conditions evaluate correctly.
 2. Check the response actions:
@@ -268,13 +268,13 @@ The following are high-level steps to validate your workflow configuration>
    - Review the journal entries that you created.
    - Confirm the blocking and unblocking behavior.
 3. Business process integration:
-   - Test with actual business transactions.
+   - Use inspections with actual business transactions.
    - Verify that documents post correctly.
    - Confirm that the user experience meets your expectations.
 
 ## Best practices
 
-Be diligent when you design your workflow. Start simple, with basic scenarios and gradually add complexity. Be sure to thoroughly test your workflows in a development environment before you use them in production. Document your process and keep clear records of your workflow business rules. Also, keep an eye on performance. Regularly review your workflow runs, and maintain override capabilities for exceptions.
+Be diligent when you design your workflow. Start simple, with basic scenarios and gradually add complexity. Be sure to thoroughly validate your workflows in a development environment before you use them in production. Document your process and keep clear records of your workflow business rules. Also, keep an eye on performance. Regularly review your workflow runs, and maintain override capabilities for exceptions.
 
 Monitor the business effects of your workflows, and set up audit trails and approval processes. Help your users engage by ensuring that they understand the automated process, and incorporate their suggestions for process improvements.
 
@@ -293,7 +293,7 @@ The following sections describe typical issues and suggest solutions.
 
 - Review your workflow conditions and logic.
 - Check whether multiple workflows are conflicting.
-- Verify your grade code configuration.
+- Verify your result code configuration.
 - Review the order in which your workflow steps run.
 
 ### There are issues with performance
@@ -313,18 +313,18 @@ The following sections describe typical issues and suggest solutions.
 
 - Review your workflow conditions.
 - Review your settings for the journal batch.
-- Verify that the values match your grade code.
+- Verify that the values match your result code.
 
 ### I'm getting unexpected blocking behavior
 
 - If you have multiple workflows, review their interactions.
-- Check your grade-based transaction controls.
+- Check your result-based transaction controls.
 - Verify your workflow priorities and sequence.
 
 ## Related information
 
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Processing Non-Compliant Items](qms-non-compliant-processing.md)  
-[Configuring Grades](qms-configuring-grades.md)  
+[Configuring Results](qms-configuring-grades.md)  
 [Quality Management Setup](qms-setup.md)  
 [Quality Management Overview](qms-overview.md)

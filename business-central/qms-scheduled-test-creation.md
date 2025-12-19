@@ -12,31 +12,31 @@ ms.custom: bap-template
 
 ---
 
-# Scheduled test creation
+# Scheduled inspection creation
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-This article explains how to set up and use quality inspection tests that are created automatically and scheduled to run at regular intervals using job queues.
+This article explains how to set up and use quality inspections that are created automatically and scheduled to run at regular intervals using job queues.
 
-Scheduled tests enable proactive quality management. They automatically generate quality inspection tests based on time intervals, rather than business transactions. This capability is ideal for:
+Scheduled inspections enable proactive quality management. They automatically generate quality inspections based on time intervals, rather than business transactions. This capability is ideal for:
 
 - Routine inspections that involve regular sampling of your in-stock inventory.
-- Shelf life monitoring where you periodically test items that are approaching expiration.
-- Environmental compliance testing to meet time-based testing requirements.
+- Shelf life monitoring where you periodically inspect items that are approaching expiration.
+- Environmental compliance inspections to meet time-based requirements.
 - Statistical quality control through systematic sampling programs.
-- Preventive quality assurance supported by proactive testing schedules.
+- Preventive quality assurance supported by proactive inspection schedules.
 
 ## Prerequisites
 
-- Quality inspection templates are configured.
-- The job queue functionality is enabled.
-- Test generation rules are configured for creating scheduled tests.
-- Items are available for scheduled testing.
-- Users have the permissions they need for the job queue.
+- Configure quality inspection templates.
+- Enable the job queue functionality is enabled.
+- Configure inspection generation rules for creating scheduled tests.
+- Make items available for scheduled testing.
+- Give users the permissions they need for the job queue.
 
-## Understand scheduled testing
+## Understand scheduled inspections
 
-The following table illustrates the differences between scheduled and transaction-based testing.
+The following table illustrates the differences between scheduled and transaction-based inspections.
 
 | Feature | Transaction-Based | Scheduled |
 |---------|------------------|-----------|
@@ -48,11 +48,11 @@ The following table illustrates the differences between scheduled and transactio
 
 ### Business applications
 
-This section describes the business benefits of various types of scheduled tests.
+This section describes the business benefits of various types of scheduled inspections.
 
 They're good for routine inventory sampling:
 
-- Randomly test the items you have in stock.
+- Randomly inspect the items you have in stock.
 - Verify that your storage conditions are suitable.
 - Quality drift monitoring.
 
@@ -68,49 +68,49 @@ Apply preventive quality control:
 - Analyze and monitor trends.
 - Continuously improve data collection.
 
-## Set up scheduled tests
+## Set up scheduled inspections
 
-The following sections provide high-level steps to set up scheduled tests.
+The following sections provide high-level steps to set up scheduled inspections.
 
 ### Configure quality templates
 
-Create templates specifically for scheduled testing. The following are a few suggestions for things to think about when you do:
+Create templates specifically for scheduled inspections. The following are a few suggestions for things to think about when you do:
 
 - For efficiency, use as simple a set of measurements as you can.
 - Focus on critical quality parameters.
 - Streamline the settings for regular runs.
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and choose the related link.
-2. Create a template for scheduled tests.
+2. Create a template for scheduled inspections.
 3. Configure measurements that are appropriate for routine testing.
 4. Set pass and fail criteria for ongoing monitoring.
 
-### Create test generation rules and set up a job queue entry
+### Create inspection generation rules and set up a job queue entry
 
-Configure rules specifically for time-based test creation.
+Configure rules specifically for time-based inspection creation.
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Test Generation Rules**, and then choose the related link.
-2. Create a new test generation rule for scheduled testing.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Inspection Generation Rules**, and then choose the related link.
+2. Create a new inspection generation rule for scheduled inspections.
 3. Choose the **Schedule Group** field. You're prompted to create a job queue, followed by an option to view it. The next session describes the job queue settings.
 
 ### Configure a job queue entry
 
-The following settings are important for scheduled tests.
+The following settings are important for scheduled inspections.
 
 Enter the following settings that control when, and how often the job queue entry runs:
 
-- **Earliest Start Date/Time**: Specify when to begin scheduled testing.
+- **Earliest Start Date/Time**: Specify when to begin scheduled inspections.
 - **Run on <\day of the week>**: Schedule the job queue entry to run on a specific day.
 - **Starting Time**: Specify the time of day to start.
 - **Ending Time**: Specify the time of day to stop.
 
-Enter the following settings that control**Execution Parameters**:
+Enter the following settings that control **Execution Parameters**:
 
-- **Maximum No. of Attempts**: Retry logic for failures
-- **Rerun Delay**: Wait time between retry attempts
+- **Maximum No. of Attempts**: Retry logic for failures.
+- **Rerun Delay**: Wait time between retry attempts.
 - **Status**: Use the **Set Status to Ready** action to update the status to **Ready** and enable the job queue entry.
 
-## Troubleshooting scheduled tests
+## Troubleshooting scheduled inspections
 
 The following sections describe typical issues and suggest solutions.
 
@@ -120,13 +120,13 @@ The following sections describe typical issues and suggest solutions.
 - Double-check the status of the job queue entry.
 - Verify that users have the permissions they need.
 
-### No tests are created
+### No inspections are created
 
-- Verify the settings for your test generation rule.
+- Verify the settings for your inspection generation rule.
 - Double-check your item filters and availability.
 - Review the codeunit parameters.
 
-### Too many tests are created
+### Too many inspections are created
 
 - Adjust your sampling percentages.
 - Refine your item filters.
@@ -134,18 +134,18 @@ The following sections describe typical issues and suggest solutions.
 
 ## Best Practices
 
-There are several things to think about when you determine your strategy for scheduling. Use a balanced approach, and combine scheduled and transaction-based testing. Focus your scheduled tests on high-risk areas, and maintain statistical validity.
+There are several things to think about when you determine your strategy for scheduling. Use a balanced approach, and combine scheduled and transaction-based inspections. Focus your scheduled inspections on high-risk areas, and maintain statistical validity.
 
 Consider the capacity of your inspectors, and coordinate with operational schedules.
 
-Regularly evaluate the effectiveness of your scheduled tests. Adjust frequencies and optimize resource allocation based on your findings.
+Regularly evaluate the effectiveness of your scheduled inspections. Adjust frequencies and optimize resource allocation based on your findings.
 
 Use the data from your tests to drive decisions about process improvements. Identify quality trends and patterns that support vendor quality discussions.
 
 ## Related information
 
-[Manual Test Creation](qms-manual-test-creation.md)  
+[Manual Inspection Creation](qms-manual-test-creation.md)  
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
-[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
+[Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
 [Quality Management Setup and Configuration](qms-setup.md)  
 [Quality Management Overview](qms-overview.md)

@@ -145,8 +145,8 @@ The following sections describe typical issues and suggest solutions.
 
 ## Related information
 
-[Configuring Quality Inspection Grades](qms-configuring-grades.md)  
-[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
-[Manual Test Creation](qms-manual-test-creation.md)  
-[Quality management setup and configuration](qms-setup.md)  
+[Configuring Quality Inspection Results](qms-configuring-grades.md)  
+[Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
+[Manual Inspection Creation](qms-manual-test-creation.md)  
+[Quality Management setup and configuration](qms-setup.md)  
 [Quality Management Overview](qms-overview.md)

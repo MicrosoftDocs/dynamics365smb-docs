@@ -1,6 +1,6 @@
 ---
 title: Handle items that failed a quality test
-description: Learn how to handle noncompliant items, including workflows, inventory movements, and actions for failed quality tests.
+description: Learn how to handle noncompliant items, including workflows, inventory movements, and actions for failed quality inspections.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -12,17 +12,17 @@ ms.custom: bap-template
 
 ---
 
-# Process items that failed a quality test
+# Process items that failed a quality inspection
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-This article explains how to deal with items that don't pass quality inspection tests. It covers:
+This article explains how to deal with items that don't pass quality inspection. It covers:
 
 - Automatic workflows.
 - Manual actions for blocking items and moving inventory.
-- Deciding what to do with the items that failed a test.
+- Deciding what to do with the items that failed an inspection.
 
-When quality inspection tests fail, you have several automatic and manual options for handling noncompliant items:
+When quality inspections fail, you have several automatic and manual options for handling noncompliant items:
 
 - Block items to prevent the use of failed lots.
 - Move items to quarantine areas.
@@ -33,88 +33,82 @@ When quality inspection tests fail, you have several automatic and manual option
 ## Prerequisites
 
 - Quality inspection templates with pass and fail criteria.
-- Generation rules.
+- Inspection generation rules.
 - Quality management workflows to automatically process failures and passes.
 - Locations and bins for quarantine.
 
-## Automatic processing when items fail a test
+## Automatic processing when items fail an inspection
 
 ### Workflow-based actions
 
-Quality Management workflows can automatically respond to test failures. The following automatic responses are available:
+Quality Management workflows can automatically respond to failed inspection. The following automatic responses are available:
 
-- Block the lot in the test
+- Block the lot in the inspection
 - Create negative adjustment
 - Create transfer order
 - Move inventory to different bin
 - Create purchase return
-- Create retest
+- Create reinspection
 - Send notifications
 
-### Set up automatic blocking when tests fail
+### Set up automatic blocking when inspections fail
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Workflows**, and then choose the related link.
 1. Create a new workflow. For example, name it "Block Lot on Failure."
 1. In the **Category** field, choose **Quality Examples**.
 1. Configure the **When Event** as follows:
-   - **Event**: When a Quality Inspection Test is Finished
-   - **Condition**: Grade Code equals "FAIL" (or other failing grades)
+   - **Event**: When a Quality Inspection is Finished
+   - **Condition**: **Result Code** equals **FAIL**, or other failing result.
 1. Configure the **Response** as follows:
-   - **Response**: Block the lot in the test
+   - **Response**: Block the lot in the inspection.
    - **Result**: Failed lots automatically get blocked from use
-4. Specify grade-specific conditions, as follows:
-   - Create separate workflows for different failing grades.
-   - Use grade priorities to determine appropriate responses.
-   - Configure different actions based on failure severity.
+4. Specify result-specific conditions, as follows:
+   - Create separate workflows for different failing results.
+   - Use result priorities to determine appropriate responses.
+   - Configure different actions based on the severity of the failure.
 
 ### Set up automatic inventory movement
 
 1. Create a workflow. For example, name it "Move Failed Items to Quarantine."
-2. For the **When Event**, choose **Quality Inspection Test is Finished**.
-3. For the **Condition**, specify that Grade Code equals "FAIL."  
-4. For the **Response**, choose **Move inventory to different bin**
+2. For the **When Event**, choose **Quality Inspection is Finished**.
+3. For the **Condition**, specify that **Result Code** is **FAIL**.  
+4. For the **Response**, choose **Move inventory to different bin**.
 5. For the **Configuration**, specify a quarantine bin code.
 
-## Manual processing when tests fail
+## Manual processing when inspections fail
 
-The following sections describe some actions you can take when an item fails a test.
+The following sections describe some actions you can take when an item fails an inspection.
 
-### Use quality inspection test reports for manual actions
+### Use quality inspection reports for manual actions
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Test**, and then choose the related link.
-1. Open the failed test.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection**, and then choose the related link.
+1. Open the failed inspection.
 1. Use the **Actions** menu to access helpful reports and actions.
-1. Run the actions directly from test results for proper record keeping
+1. Run the actions directly from the inspection results for good record keeping.
 
-The following actions are available from the **Actions** menu on the **Quality Inspection Test** page:
+The following actions are available from the **Actions** menu on the **Quality Inspection** page:
 
-- **Create Negative Adjustment** - Automatically fills in item, lot, and quantity information
+- **Create Negative Adjustment** - Automatically fills in item, lot, and quantity information.
 - **Move Inventory**:
-   - Run an inventory movement directly from test results. The movement is prefilled with details about the failed lot, and maintains the connection between movement and quality failure.
+   - Run an inventory movement directly from the inspection results. The movement is prefilled with details about the failed lot, and maintains the connection between movement and quality failure.
    - Specify the destination bin, such as quarantine, rework, or disposal.
 - **Create Transfer Order**:
    - Generate a transfer orders that automatically includes failed lot information and links transfer to original quality test for tracking
    - Specify a destination location for further processing.
 - **Create Purchase Return**:
-   - Start vendor returns directly from test results. The return contains purchase order and receipt details, and includes quality test failure information for vendor communication.
+   - Start vendor returns directly from the inspection results. The return contains purchase order and receipt details, and includes quality inspection failure information for vendor communication.
 
-The following are benefits of using test-based actions:
+### Step-by-step process using quality inspection actions
 
-- Automatically get item, lot, and quantity details.
-- Built-in tracking between actions and test failures.
-- Reduced data entry errors.
+**Process Using Quality Inspection Actions**:
 
-### Step-by-step process using quality inspection test actions
-
-**Process Using Quality Inspection Test Actions**:
-
-1. **Review Test Results**:
-   - Go to the failed quality inspection test.
+1. **Review Inspection Results**:
+   - Go to the failed quality inspection.
    - Analyze the failure details and measurements.
    - Determine the appropriate action.
 
 2. **Execute Action**:
-   - Select the appropriate action from the **Actions** menu on the **Quality Inspection Test** page.
+   - Select the appropriate action from the **Actions** menu on the **Quality Inspection** page.
    - Review the prefilled information for accuracy.
    - Add more details as required. For example, a destination or reason code.
    - Run the action to create the necessary documents.
@@ -129,41 +123,41 @@ The following are benefits of using test-based actions:
    - Verify that inventory movements and adjustments are posted.
    - Update the test status if necessary for tracking
 
-## Grade-based controls for failed items
+## Result-based controls for failed items
 
-Quality Management uses grade-based controls to automatically manage noncompliant items based on test results.
+Quality Management uses result-based controls to automatically manage noncompliant items based on inspection results.
 
-**Grade-Based Business Rules**:
+**Result-Based Business Rules**:
 
-- Grade priorities determine which controls take precedence.
-- Higher priority grades override lower priority grades.
-- Failed grades typically restrict business transactions while allowing handling activities.
-- Grade conditions can automatically promote or demote based on business rules.
+- Result priorities determine which controls take precedence.
+- Higher priority results override lower priority results.
+- Failed results typically restrict business transactions while allowing handling activities.
+- Result conditions can automatically promote or demote based on business rules.
 
 **Implementation**:
 
-- Test templates assign grades based on measurement results.
-- Grade inheritance flows from Default → Field → Template → Test levels.
-- Workflows can trigger more actions based on grade assignment.
-- Transaction controls apply immediately when you assign a grade.
+- Quality inspection templates assign results based on measurements.
+- Result inheritance flows from Default → Field → Template → Test levels.
+- Workflows can trigger more actions based on results.
+- Transaction controls apply immediately when you assign a result.
 
-## Moving items after test failures
+## Moving items after inspection failures
 
 The following sections describe how to set up a quality management workflow to automatically or manually move a defective inventory to quarantine.
 
 ### Automatic movement to quarantine
 
-You can set up a quality management workflow that automatically moves items to your quarantine area if they fail a test. The movement physically separates the defective items from your good inventory.
+You can set up a quality management workflow that automatically moves items to your quarantine area if they fail an inspection. The movement physically separates the defective items from your good inventory.
 
 Set up a quality management workflow, as follows:
 
-1. **Response**: Move inventory to different bin
-2. **Bin Configuration**: Specify quarantine bin
-3. **Automatic Execution**: Movement occurs on test failure
+1. **Response**: Move inventory to different bin.
+2. **Bin Configuration**: Specify quarantine bin.
+3. **Automatic Execution**: Movement occurs on test failure.
 
 ### Manual movement process
 
-To manually move defective inventory, you can use quality management reports from the **Actions** menu on the **Quality Inspection Test** page. This section describes the reports.
+To manually move defective inventory, you can use quality management reports from the **Actions** menu on the **Quality Inspection** page. This section describes the reports.
 
 **Move Inventory Report**:
 
@@ -186,10 +180,10 @@ This report creates internal put-away documents for warehouse locations.
 
 **Manual Movement Process**:
 
-1. **Select Failed Test**: Go to the quality inspection test with failed results.
+1. **Select Failed Inspection**: Go to the quality inspection with failed results.
 2. **Choose Movement Report**: Select **Move Inventory** or **Create Internal Put-away** from the **Actions** menu.
 3. **Configure Movement**: Specify a destination. For example, your quarantine, rework, or disposal areas.
-4. **Execute**: Run the report to create movement documents with proper tracking.
+4. **Execute**: Run the report to create movement documents with tracking.
 
 ## Removing items from inventory
 
@@ -211,14 +205,14 @@ The following are a few things to consider about your configuration:
 
 ### Manual removal process
 
-The manual removal process involves using the **Create Negative Adjustment** report from the **Actions** menu on the **Quality Inspection Test** page.
+The manual removal process involves using the **Create Negative Adjustment** report from the **Actions** menu on the **Quality Inspection** page.
 
 The report decreases inventory quantity for disposal, destructive testing, or write-offs.
 
 - **Quantity Options**:
   - Entire lot/serial/package quantity
   - Specific quantity with manual entry
-  - Sample quantity (uses test sample size)
+  - Sample quantity (uses inspection sample size)
   - Passed quantity (samples that passed all measurements)
   - Failed quantity (samples with at least one failed measurement)
 - **Source Filters**: Optional location and bin filters to limit adjustment source
@@ -227,9 +221,9 @@ The report decreases inventory quantity for disposal, destructive testing, or wr
 
 The following steps give an overview of the manual removal process:
 
-1. From the failed quality inspection test, choose **Create Negative Adjustment** from the **Actions** menu.
+1. From the failed quality inspection, choose **Create Negative Adjustment** from the **Actions** menu.
 2. **Select Quantity**: Choose the appropriate quantity method. For example, this selection is often **Failed Quantity** for noncompliant items.
-3. **Add Reason**: Specify a reason code. For example, disposal, destructive testing, damage, and so on.
+3. **Add Reason**: Specify a reason code. For example, disposal, destructive inspections, damage, and so on.
 4. **Configure Source**: Add location/bin filters if you need to limit the scope.
 5. **Execute**: Create entries for review, or post immediately.
 6. **Verify**: Confirm the inventory reduction and that cost accounting is correct.
@@ -242,19 +236,19 @@ You can return items to vendors automatically, or manually. The following sectio
 
 Set up a quality management workflow with the **Then Response** set to **Create purchase return**. This response does the following:
 
-- **Automatic Execution**: Return order created on test failure
+- **Automatic Execution**: Return order created on inspection failure.
 - **Vendor Notification**: Include details about the quality failure.
 
 ### Manual return process
 
-The manual return process involves using the **Create Purchase Return** report from the **Actions** menu on the **Quality Inspection Test** page.
+The manual return process involves using the **Create Purchase Return** report from the **Actions** menu on the **Quality Inspection** page.
 
 The report creates purchase return orders for vendor-related defects.
 
 - **Quantity Options**:
   - Entire lot/serial/package quantity
   - Specific quantity with manual entry
-  - Sample quantity (uses test sample size)
+  - Sample quantity (uses inspection sample size)
   - Passed quantity (if partial return needed)
   - Failed quantity (most common for defects)
 - **Return Reason**: Optional return reason code for vendor communication
@@ -263,15 +257,15 @@ The report creates purchase return orders for vendor-related defects.
 
 The following steps give an overview of the manual return process:
 
-1. **Document the failure**: Compile the test results and evidence from the quality inspection test.
-2. Access the report by choosing **Create Purchase Return** from the **Actions** menu on the **Quality Inspection Test** page.
+1. **Document the failure**: Compile the inspection results and evidence from the quality inspection.
+2. Access the report by choosing **Create Purchase Return** from the **Actions** menu on the **Quality Inspection** page.
 3. **Configure the return**:
-   - Choose **Failed Quantity** for defective items
+   - Choose **Failed Quantity** for defective items.
    - Add a return reason code.
    - Include the vendor credit memo number, if it's available.
-4. **Run the report**: Create a purchase return order with prefilled test information.
+4. **Run the report**: Create a purchase return order with prefilled inspection information.
 5. **Process the return**: Follow your standard return procedures with links to the quality documentation.
-6. **Vendor communication**: Include quality test failure details in a return notification.
+6. **Vendor communication**: Include details about the quality inspection failure in a return notification.
 
 ## Transfer items to other locations
 
@@ -279,14 +273,14 @@ This section describes how to manually transfer items to other locations.
 
 ### Manual transfer process
 
-The manual transfer process involves using the **Create Transfer Order** report from the **Actions** menu on the **Quality Inspection Test** page:
+The manual transfer process involves using the **Create Transfer Order** report from the **Actions** menu on the **Quality Inspection** page:
 
 The report transfers items to another location for external processing, lab analysis, or disposal.
 
 - **Quantity Options**:
   - Entire lot/serial/package quantity
   - Specific quantity with manual entry
-  - Sample quantity (uses test sample size)
+  - Sample quantity (uses inspection sample size)
   - Passed quantity (for approved items)
   - Failed quantity (for noncompliant items)
 - **Source Filters**: Optional location and bin filters to limit transfer source
@@ -295,23 +289,23 @@ The report transfers items to another location for external processing, lab anal
 
 The following steps give an overview of the manual transfer process:
 
-1. **Access the report**: From the quality inspection test, choose **Create Transfer Order** from the **Actions** menu on the **Quality Inspection Test** page.
+1. **Access the report**: From the quality inspection, choose **Create Transfer Order** from the **Actions** menu on the **Quality Inspection** page.
 2. **Select the quantity**: Choose the appropriate quantity method based on what you want to do.
-3. **Configure the source**: Add location/bin filters if the test covers multiple locations.
+3. **Configure the source**: Add location/bin filters if the inspection covers multiple locations.
 4. **Set a destination**: Specify the target location. For example, an external lab, disposal facility, or rework center.
 5. **Transfer options**: Choose a direct transfer, or specify in-transit location.
-6. **Execute**: Create a transfer order with quality test tracking.
+6. **Execute**: Create a transfer order with quality inspection tracking.
 
 ## Change item tracking information
 
-This section describes how to manually update information about items. Updating item information involves using the **Change Item Tracking** report from the **Actions** menu on the **Quality Inspection Test** page.
+This section describes how to manually update information about items. Updating item information involves using the **Change Item Tracking** report from the **Actions** menu on the **Quality Inspection** page.
 
 The report updates item tracking information such as lot numbers, serial numbers, package numbers, or expiration dates.
 
 - **Quantity Options**:
   - Entire lot/serial/package quantity
   - Specific quantity with manual entry
-  - Sample quantity (uses test sample size)
+  - Sample quantity (uses inspection sample size)
   - Passed quantity (for approved samples)
   - Failed quantity (for noncompliant samples)
 - **Tracking Changes**: Update the lot, serial, or package numbers, and the expiration date.
@@ -320,14 +314,14 @@ The report updates item tracking information such as lot numbers, serial numbers
 
 The following steps give an overview of how to manually track items:
 
-1. **Access the report**: Run the **Change Item Tracking** report from the **Actions** menu on the **Quality Inspection Test** page.
-2. **Select a quantity**: Choose the appropriate quantity method for tracking updates.
-3. **Specify your changes**: Enter a new lot, serial, or package number, or a new expiration date.
-4. **Configure the source**: Add filters for locations or bins, if needed.
-5. **Execute**: Create a reclassification journal with updated tracking information.
-6. **Post the changes**: Process the journal to update the item tracking records.
+1. Run the **Change Item Tracking** report from the **Actions** menu on the **Quality Inspection** page.
+2. Choose the appropriate quantity method for tracking updates.
+3. Enter a new lot, serial, or package number, or a new expiration date.
+4. To configure the source, add filters for locations or bins, if needed.
+5. Create a reclassification journal with updated tracking information.
+6. Post the journal to update the item tracking records.
 
-## Corrective Action Integration
+<!--## Corrective Action Integration
 
 ### Root Cause Analysis
 
@@ -431,11 +425,11 @@ The following steps give an overview of how to manually track items:
 
 - Quality scorecards based on test results
 - Vendor development programs
-- Supplier quality agreements
+- Supplier quality agreements -->
 
 ## Related information
 
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Configuring Workflows](qms-quality-workflows.md)  
-[Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
+[Purchase Receipt Inspections without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
 [Quality Management Overview](qms-overview.md)

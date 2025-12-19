@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations with warehouse handling.
+This article explains how to set up and use automatic quality inspection creation for purchase receipts in locations with warehouse handling.
 
 For locations with warehouse handling, quality tests are created when you post warehouse receipts. This workflow integrates with warehouse management, and supports:
 
@@ -113,30 +113,30 @@ For lot-tracked items:
 
    The following things happen when you post the warehouse receipt:
 
-   - Quality inspection tests are created automatically.
-   - A test is created per lot number, if item tracking is used.
-   - Tests reference the original purchase order.
+   - Quality inspections are created automatically.
+   - An inspection is created per lot number, if item tracking is used.
+   - Inspections reference the original purchase order.
    - Put-away documents are created for warehouse operations.
 
 ## Work with multiple lots
 
 When you receive multiple lots:
 
-- Each lot gets its own quality inspection test.
-- Tests are linked to specific lot numbers.
+- Each lot gets its own quality inspection.
+- Inspections are linked to specific lot numbers.
 - Quantities reflect lot-specific amounts.
 
-**Example**: A receipt with two lots creates two tests:
+**Example**: A receipt with two lots creates two inspections:
 
 - Test 1: Lot A, 23 pieces
 - Test 2: Lot B, 100 pieces
 
-### Manage lot tests
+### Manage lot inspections
 
-You can access lot-specific tests through:
+You can access lot-specific inspections through:
 
-1. **Show Tests for Item and Document** from a purchase order.
-2. **Quality Inspection Tests** filtered by lot number.
+1. **Show Inspections for Item and Document** from a purchase order.
+2. **Quality Inspections** filtered by lot number.
 3. **Lot Number Information**, if you configured lot blocking.
 
 ## Integration with warehouse operations
@@ -146,8 +146,8 @@ You can access lot-specific tests through:
 After you post a warehouse receipt:
 
 1. Warehouse put-away documents are created automatically and reference the same lot numbers.
-2. Quality tests can be completed during or after put-away.
-3. Lot blocking can prevent movement until tests pass.
+2. Quality inspections can be completed during or after put-away.
+3. Lot blocking can prevent movement until inspections pass.
 
 ### Warehouse tracking
 
@@ -165,15 +165,15 @@ For standard item tracking (recommended):
 
 - You define item tracking on the purchase order.
 - Lot numbers transfer to warehouse documents.
-- Quality tests use purchase order tracking information.
+- Quality inspections use purchase order tracking information.
 
 For lot warehouse tracking:
 
 - Lot numbers are assigned during warehouse operations.
 - Setup and processing are more complex.
-- Supported, but optional for quality testing.
+- Supported, but optional for quality inspections.
 
-Pay attention to your test generation rule triggers. The same trigger works for both scenarios:
+Pay attention to your inspection generation rule triggers. The same trigger works for both scenarios:
 
 - The **When Purchase Order is Received** trigger works when you post a warehouse receipt.
 - You don't need a separate configuration for warehouse versus nonwarehouse setups.
@@ -183,27 +183,27 @@ Pay attention to your test generation rule triggers. The same trigger works for 
 
 The following sections describe typical issues and suggest solutions.
 
-### No tests are created
+### No inspections are created
 
 - Verify that the **Require Receipt** toggle is turned on for the location.
-- Double-check that the test generation rule applies to the item.
+- Double-check that the inspection generation rule applies to the item.
 - Ensure that the warehouse receipt is posted.
 
-### I'm getting the wrong number of tests
+### I'm getting the wrong number of inspections
 
 - Review your item tracking configuration.
 - Check for lot consolidation in the warehouse receipt.
 - Verify the logic in your test generation rule.
 
-### Tests are missing lot information
+### Inspections are missing lot information
 
-- Confirm that item tracking is correctly configured.
+- Confirm that you correctly configured item tracking.
 - Check whether lot numbers transfer to warehouse documents.
 - Verify that your item tracking code is set up.
 
 ## Related information
 
-[Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
+[Purchase Receipt Inspection without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
-[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
+[Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
 [Quality Management Overview](qms-overview.md)

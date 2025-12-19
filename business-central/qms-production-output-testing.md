@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-This article explains how to set up and use automatic quality inspection test creation for production output when you post manufacturing operations.
+This article explains how to set up and use automatic quality inspection creation for production output when you post manufacturing operations.
 
 Production output testing creates quality inspection tests automatically when production output is posted. This enables quality control for:
 
@@ -49,15 +49,15 @@ Prepare items for production output testing:
 Set up a global trigger for production output, as follows:
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Management Setup**, and then choose the related link.
-2. In the **Production Trigger** field, choose **When Output is Posted**. This option creates tests automatically.
+2. In the **Production Trigger** field, choose **When Output is Posted**. This option creates inspections automatically.
 
-### Create test generation rules
+### Create inspection generation rules
 
 There are a few ways to set up rules for production output testing.
 
 #### Method 1: Create a production rule (recommended)
 
-1. On the **Quality Inspection Templates** or **Test Generation Rules** pages, choose **Create Production Rule**.
+1. On the **Quality Inspection Templates** or **Inspection Generation Rules** pages, choose **Create Production Rule**.
 3. Fill in the following fields:
    - **Template Code**: Select a quality template
    - **Source Type**: Production Order Routing Line
@@ -65,7 +65,7 @@ There are a few ways to set up rules for production output testing.
 
 #### Method 2: Manual rule creation
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Test Generation Rules**, and then choose the related link.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Inspection Generation Rules**, and then choose the related link.
 2. Create new rule with the following settings:
    - **Source Type**: Production Order Routing Line
    - **Template Code**: Assign a template
@@ -83,18 +83,18 @@ Add filters to control when tests are created. The following list shows filters 
 
 **Example Filter**:
 
-- **Location Code**: WHITE (for White location only)
+- **Location Code**: WHITE (for the White location only)
 - Leave other filters blank for broader application
 
-## Create production output tests
+## Create production output inspections
 
-### Step 1: Create a production order
+### Create a production order
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Production Orders**, and then choose the related link.
 2. Create a new production order, and fill in the fields as follows:
    - **Item**: Use a lot-tracked production item.
    - **Quantity**: Specify a production quantity.
-   - **Location**: Match the test generation rule filters.
+   - **Location**: Match the inspection generation rule filters.
    - **Routing**: Verify that routing operations exist.
 
 > [!TIP]
@@ -104,7 +104,7 @@ Add filters to control when tests are created. The following list shows filters 
 > 2. Confirm that the correct location code is set.
 > 3. Review the expected output operations.
 
-### Step 2: Post production output
+### Post production output
 
 You can post production output by using a production journal or an output journal.
 
@@ -116,16 +116,16 @@ You can post production output by using a production journal or an output journa
 3. Configure **Item Tracking**. For example, assign a lot number.
 4. Choose **Post** to post the journal or the production output for specific operations.
 
-   After you post production output, a quality inspection test is created automatically. The test includes:
+   After you post production output, a quality inspection is created automatically. The inspection includes:
 
      - **Item Number**: The production item.
      - **Lot Number**: The assigned lot number for item tracking.
      - **Quantity**: The output quantity.
      - **Source**: The production order and operation reference.
 
-## Work with production tests
+## Work with production inspections
 
-Production output tests contain:
+Production output inspections contain:
 
 - **Control Information**: Source production order details
 - **Item Tracking**: Lot/serial number information
@@ -134,7 +134,7 @@ Production output tests contain:
 
 You can access related information in several ways:
 
-- The **Navigate** action in the test shows:
+- The **Navigate** action in the inspection shows:
 
    - Item ledger entries
    - Production order details
@@ -146,14 +146,14 @@ You can access related information in several ways:
    - Operation details
    - Posting information
 
-### Complete production tests
+### Complete production inspections
 
-The following steps give an overview of how to complete a production test.
+The following steps give an overview of how to complete a production inspection.
 
-1. Open a quality inspection test.
+1. Open a quality inspection.
 2. Enter the measurement values.
 3. Review the calculated grade that the template configuration and measurement results determine.
-4. **Finish** the test when it's complete.
+4. **Finish** the inspection when it's complete.
 
 ## Advanced configuration
 
@@ -161,9 +161,9 @@ The following steps give an overview of how to complete a production test.
 
 You can create multiple rules for different locations. Set up a filter for each specific location, and select the template that you created for that location.
 
-### Operation-specific testing
+### Operation-specific inspections
 
-Configure testing for specific routing operations:
+Configure inspections for specific routing operations:
 
 - **Routing No. Filter**: Specify a routing.
 - **Work Center Filter**: Specify a work center.
@@ -171,7 +171,7 @@ Configure testing for specific routing operations:
 
 ### Multi-stage testing
 
-Set up testing at different production stages:
+Set up inspections at different production stages:
 
 - **Assembly Operation**: Basic assembly checks
 - **Wiring Operation**: Electrical verification
@@ -196,24 +196,24 @@ Production output with item tracking:
 If you use backflushing, there are a few things to consider:
 
 - Material consumption posts automatically.
-- Component lot tracking might affect test creation.
+- Component lot tracking might affect inspection creation.
 - Review backflushing setup for quality integration.
 
-## Troubleshooting output tests
+## Troubleshooting output inspections
 
 The following sections describe typical issues and suggest solutions.
 
-### Tests aren't being created
+### Inspections aren't being created
 
 - Verify that your production trigger is set to **When Output is Posted**.
-- Double-check your test generation rule filters.
+- Double-check your inspection generation rule filters.
 - Ensure that the correct template is assigned.
 - Confirm that output actually posted.
 
 ## Related information
 
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
-[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
-[Manual Test Creation](qms-manual-test-creation.md)  
+[Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
+[Manual Inspection Creation](qms-manual-test-creation.md)  
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Quality Management Overview](qms-overview.md)

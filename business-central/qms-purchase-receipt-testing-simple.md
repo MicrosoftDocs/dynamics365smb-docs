@@ -112,18 +112,18 @@ For lot-tracked items:
 
    The following things happen when you post the purchase receipt:
 
-   - One quality inspection test per lot number is created automatically, if item tracking is used.
-   - Tests might open automatically, depending on setup configuration.
+   - One quality inspection per lot number is created automatically, if item tracking is used.
+   - Inspections might open automatically, depending on setup configuration.
 
-## Work with created tests
+## Work with the created inspections
 
-You can access tests in the following ways:
+You can access quality inspections in the following ways:
 
-1. **Quality Inspection Tests** page (view all tests)
-2. **Show Tests for Item and Document** from the purchase order
-3. Automatic popup, if you specified that on the **Quality Management Setup** page.
+- From the **Quality Inspection** page (view all tests).
+- From a purchase order by choosing **Show Inspections for Item and Document**.
+- Automatically, if you specified that in the **Show Test Behavior** field on the **Quality Management Setup** page.
 
-Each created test contains:
+Each inspection contains:
 
 - The **Item Number** of the purchased item.
 - The **Lot Number** of the specific lot being tested, if applicable.
@@ -131,52 +131,52 @@ Each created test contains:
 - A **Source Document** reference to the originating purchase order.
 - **Template Fields**, which are the measurements to be complete.
 
-### Complete a quality inspection test
+### Complete a quality inspection
 
-To complete a test, follow these steps:
+To complete an inspection, follow these steps:
 
-1. Open the quality inspection test.
+1. Open the quality inspection.
 2. Enter your measurement values in the template fields.
 3. Review the calculated grade that the template configuration and measurement results determined.
-4. Choose **Finish** to complete the test.
+4. Choose **Finish** to complete the inspection.
 
 ## Configuration options
 
 The following sections describe various configuration options on the **Quality Management Setup** page.
 
-### Control test display behavior
+### Control inspection display behavior
 
-Choose one of the following options in the **Show Test Behavior** field:
+Choose one of the following options in the **Show Inspection Behavior** field:
 
-- **Automatically and Manually Created Tests**: Tests open immediately when you create them. This option is good for demonstrations and training. It's also convenient for immediate inspection workflows.
+- **Automatically and Manually Created Tests**: Inspections open immediately when you create them. This option is good for demonstrations and training. It's also convenient for immediate inspection workflows.
 - **Only Manually Created Tests**: Tests create in the background. This option is good for production environments. IT also separates receipt posting from inspection roles.
 
-### Configure when to trigger test creation
+### Configure when to start inspection creation
 
-Configure when to create tests, as follows:
+Configure when to create inspections, as follows:
 
-- **Automatic Only** means that tests always create when you post a receipt.
-- **Manual or Automatic** means to create tests manually or automatically.
-- **Manual Only** means that you must manually create tests.
+- **Automatic Only** means that you always create inspections when you post a receipt.
+- **Manual or Automatic** means to create inspections manually or automatically.
+- **Manual Only** means that you must manually create inspections.
 
 ## Troubleshooting
 
 The following sections describe typical issues and suggest solutions.
 
-### Tests aren't being created automatically
+### Inspections aren't being created automatically
 
-- Verify that you properly configured your test generation rule.
+- Verify that you correctly configured your inspection generation rule.
 - Double-check that your item filter matches the purchased item.
 - Ensure that you set up your purchase trigger correctly.
 - Confirm that the template is assigned to the rule.
 
-### Tests are creating for the wrong items
+### Inspections are created for the wrong items
 
-- Review the item filters in your test generation rules.
+- Review the item filters in your inspection generation rules.
 - Check whether rules overlap.
 - Verify your rule priority and ordering.
 
-### Test data is missing
+### Inspections are missing data
 
 - Confirm that you correctly configured item tracking.
 - Verify that lot numbers are assigned before posting.
@@ -184,8 +184,8 @@ The following sections describe typical issues and suggest solutions.
 
 ## Related information
 
-[Purchase Receipt Testing with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)  
+[Purchase Receipt Inspections with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)  
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
-[Setting Up Test Generation Rules](qms-test-generation-rules.md)  
-[Manual Test Creation](qms-manual-test-creation.md)  
+[Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
+[Manual Inspection Creation](qms-manual-test-creation.md)  
 [Quality Management Overview](qms-overview.md)

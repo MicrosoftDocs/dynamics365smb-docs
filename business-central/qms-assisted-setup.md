@@ -1,6 +1,6 @@
 ---
 title: Assisted setup guide for quality management
-description: Learn how to use the Quality Management assisted setup guide to configure quality inspections, automate test creation, and align workflows with your business processes.
+description: Learn how to use the Quality Management assisted setup guide to configure quality inspections, automate inspection creation, and align workflows with your business processes.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-The Quality Management assisted setup guide can help you configure quality management features in [!INCLUDE [prod_short](includes/prod_short.md)]. The guide covers the initial configuration required to do quality inspections, and sets up automatic test creation based on business scenarios.
+The Quality Management assisted setup guide can help you configure quality management features in [!INCLUDE [prod_short](includes/prod_short.md)]. The guide covers the initial configuration required to do quality inspections, and sets up automatic inspection creation based on business scenarios.
 
 ## Start the guide
 
@@ -43,49 +43,49 @@ Choose whether to apply demonstration and sample data:
 
 ### Usage Scenarios
 
-Specify where you plan to use quality inspection tests:
+Specify where you plan to use quality inspections:
 
-- **Production**: Create tests when you record production output. Typical scenarios are when inventory is posted from the output journal, but could also be for intermediate steps or other triggers.
-- **Receiving**: Create tests when receiving inventory from purchase orders, transfer orders, warehouse receipts, or sales returns.
+- **Production**: Create inspections when you record production output. Typical scenarios are when inventory is posted from the output journal, but could also be for intermediate steps or other triggers.
+- **Receiving**: Create inspections when you receive inventory from purchase orders, transfer orders, warehouse receipts, or sales returns.
 - **Something Else**: Use quality inspection to create manual tests for other areas in [!INCLUDE [prod_short](includes/prod_short.md)], or if you want to manually configure them later.
 
 > [!TIP]
 > The steps in the guide differ, based on your selection.
 
-### Production Test Configuration
+### Production inspection configuration
 
 > [!NOTE]
 > This step shows only if you chose **Production** in the previous step.
 
-Specify how to create production tests:
+Specify how to create production inspections:
 
-- **Create tests automatically**: [!INCLUDE [prod_short](includes/prod_short.md)] creates tests automatically when you record output. Use this option when tests must exist when production output occurs.
-- **Manual test creation**: You manually create tests. Use this option when your process requires a person to create tests, or for ad-hoc testing scenarios like nonconformance reports or tracking rework.
+- **Create inspections automatically**: [!INCLUDE [prod_short](includes/prod_short.md)] creates inspections automatically when you record output. Use this option when inspections must exist when production output occurs.
+- **Manual inspection creation**: You manually create inspections. Use this option when your process requires a person to create inspections, or for ad-hoc inspection scenarios like nonconformance reports or tracking rework.
 
-### Receiving Test Configuration  
+### Receipt inspection configuration  
 
 > [!NOTE]
 > This step shows only if you chose **Receiving** in the previous step.
 
-Configure automatic test creation for receiving scenarios:
+Configure automatic inspection creation for receiving scenarios:
 
-- **Purchase Receipts**: Automatically create tests when receiving via purchase orders.
-- **Transfer Receipts**: Automatically create tests when receiving via transfer orders.
-- **Warehouse Receipts**: Automatically create tests when receiving via warehouse receipts.
-- **Sales Return Receipts**: Automatically create tests when receiving via sales returns.
-- **Manual only option**: Choose this option if you only want people to manually create tests. For example, this option is useful for ad-hoc testing or tracking damage for received goods.
+- **Purchase Receipts**: Automatically create inspections when you receive goods via purchase orders.
+- **Transfer Receipts**: Automatically create inspections when you receive goods via transfer orders.
+- **Warehouse Receipts**: Automatically create inspections when you receive goods via warehouse receipts.
+- **Sales Return Receipts**: Automatically create inspections when you receive goods via sales returns.
+- **Manual only option**: Choose this option if you only want people to manually create inspections. For example, this option is useful for ad-hoc inspections or tracking damage for received goods.
 
-### Test Display Behavior
+### Inspection display behavior
 
 > [!NOTE]
-> The options in this step vary, based on whether you set up automatic test creation.
+> The options in this step vary, based on whether you set up automatic inspection creation.
 
-Specify when to display tests to users:
+Specify when to display inspections to users:
 
-- **Show automatic and manually created tests**: Tests show immediately when created. Use this option when the person doing the activity (like posting) is also the person who collects the test results.
-- **Show only manually created tests**: Tests created automatically don't show immediately, but manually created tests do. Use this option when different people handle posting versus data collection.
-- **Never show immediately**: Tests are always created in the background. Use this option when the person who creates tests shouldn't be able to edit them. This option ensures separation of test creation and completion.
-- **Business Consideration**: Activities that trigger tests without direct interaction (background posting, web service integrations like Power Automate) create tests but doesn't immediately show them.
+- **Show automatic and manually created inspections**: Inspections show immediately when created. Use this option when the person doing the activity (like posting) is also the person who collects the inspection results.
+- **Show only manually created tests**: Inspections created automatically don't show immediately, but manually created inspections do. Use this option when different people handle posting versus data collection.
+- **Never show immediately**: Inspections are always created in the background. Use this option when the person who creates inspections shouldn't be able to edit them. This option ensures separation of inspection creation and completion.
+- **Business Consideration**: Events that trigger inspections without direct interaction (background posting, pr web service integrations like Power Automate) create inspections but doesn't immediately show them.
 
 <!--
 
@@ -168,4 +168,4 @@ This section lists recommendations
 ## Related information
 
 [Quality management setup and configuration](qms-setup.md)  
-[Configure quality inspection grades](qms-configuring-grades.md)
+[Configure quality inspection results](qms-configuring-grades.md)

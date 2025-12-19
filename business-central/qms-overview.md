@@ -1,6 +1,6 @@
 ---
 title: Quality management overview
-description: Learn how to use quality management to ensure product quality through automated and manual testing, lot grading, and workflow integration.
+description: Learn how to use quality management to ensure product quality through automated and manual inspections, lot results, and workflow integration.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -16,51 +16,51 @@ ms.custom: bap-template
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-Quality Management is a quality inspection application for [!INCLUDE [prod_short](includes/prod_short.md)]. The app provides comprehensive quality control capabilities throughout your business operations. This app enables automated and manual quality testing for purchase receipts, production and assembly output, and warehouse operations.
+Quality Management is a quality inspection application for [!INCLUDE [prod_short](includes/prod_short.md)]. The app provides comprehensive quality control capabilities throughout your business operations. This app enables automated and manual quality inspections for purchase receipts, production and assembly output, and warehouse operations.
 
-Quality Management helps you maintain product quality standards by creating inspection tests at key points in your business processes. The app integrates seamlessly with purchasing, production, assembly, and warehouse management in [!INCLUDE [prod_short](includes/prod_short.md)] to embed quality control in your daily operations.
+Quality Management helps you maintain product quality standards by creating inspections at key points in your business processes. The app integrates seamlessly with purchasing, production, assembly, and warehouse management in [!INCLUDE [prod_short](includes/prod_short.md)] to embed quality control in your daily operations.
 
 ### Key capabilities
 
 The Quality Management app offers a range of benefits.
 
-- **Automated Test Creation**: Automatically generate quality inspection tests when you receive purchase orders, post production and assembly output, or process warehouse movements.
-- **Manual Test Creation**: Create quality tests on-demand for reactive testing scenarios.
-- **Scheduled Test Creation**: Create quality tests for routing, periodic inspections using job queues.
-- **Template-Based Testing**: Use predefined quality inspection templates with customizable measurements and pass/fail criteria.
-- **Lot Blocking and Grading**: Automatically block or grade inventory lots based on test results.
-- **Workflow Integration**: Configure automated responses to test results using workflows for quality management.
+- **Automated Inspection Creation**: Automatically generate quality inspections when you receive purchase orders, post production and assembly output, or process warehouse movements.
+- **Manual Inspection Creation**: Create quality inspections on-demand for reactive scenarios.
+- **Scheduled Inspection Creation**: Create periodic quality inspections using job queues.
+- **Template-Based Inspections**: Use predefined quality inspection templates with customizable measurements and pass/fail criteria.
+- **Lot Blocking and Results**: Automatically block inventory lots based on quality inspection results.
+- **Workflow Integration**: Configure automated responses to inspection results using workflows for quality management.
 - **Handle Noncompliant Items**: Comprehensive features for processing noncompliant items. For example, you can do automatic movements to quarantine bins, make negative adjustments for disposal, transfer orders to different locations, and create purchase returns to vendors.
 - **Warehouse Integration**: Full support for locations with and without warehouse handling.
 
 ## Getting started
 
-Setting up Quality Management involves configuring templates, test generation rules, and integration with your [!INCLUDE [prod_short](includes/prod_short.md)] processes. To learn more, go to:
+Setting up Quality Management involves configuring quality inspection templates, inspection generation rules, and integration with your [!INCLUDE [prod_short](includes/prod_short.md)] processes. To learn more, go to:
 
 - [Initial Setup and Configuration](qms-setup.md)
 - [Assisted Setup Guide](qms-assisted-setup.md)
-- [Configuring Quality Inspection Grades](qms-configuring-grades.md)
+- [Configuring Quality Inspection Results](qms-configuring-grades.md)
 - [Creating Quality Inspection Templates](qms-quality-templates.md)
-- [Setting Up Test Generation Rules](qms-test-generation-rules.md)
+- [Setting Up Inspection Generation Rules](qms-test-generation-rules.md)
 - [Configuring Workflows](qms-quality-workflows.md)
 
-## How to Use
+## Typical use cases
 
-After you configure the app, Quality Management gives you several ways to create and manage quality tests.
+After you configure the app, Quality Management gives you several ways to create and manage quality inspections.
 
-### Purchase receipt testing
+### Purchase receipt inspections
 
-- [Purchase Receipt Testing without Warehouse Handling](qms-purchase-receipt-testing-simple.md)
-- [Purchase Receipt Testing with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)
+- [Purchase Receipt Inspections without Warehouse Handling](qms-purchase-receipt-testing-simple.md)
+- [Purchase Receipt Inspections with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)
 
-### Production testing
+### Production inspections
 
-- [Production Output Quality Testing](qms-production-output-testing.md)
+- [Production Output Quality Inspections](qms-production-output-testing.md)
 
-### Manual and scheduled testing
+### Manual and scheduled inspections
 
-- [Manual Test Creation](qms-manual-test-creation.md)
-- [Scheduled Test Creation](qms-scheduled-test-creation.md)
+- [Manual Inspection Creation](qms-manual-test-creation.md)
+- [Scheduled Inspection Creation](qms-scheduled-test-creation.md)
 
 ### Quality control actions
 
@@ -75,8 +75,9 @@ After you configure the app, Quality Management gives you several ways to create
    > [!NOTE]
    > The Premium experience is required for production capabilities. If you don't need those, you can use the Essential experience.
 
-- Quality Management app is installed and configured
+- Quality Management app is installed and configured.
 
 ## Related information
 
-[Microsoft Dynamics 365 Business Central Documentation](/dynamics365/business-central)
+[Quality management setup and configuration](qms-setup.md)  
+[Configure quality inspection results](qms-configuring-grades.md)

@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: how-to
 ms.search.keywords: local, 1099, IRS, Tax
 ms.search.form: 26, 10030, 10031, 10033, 10034
-ms.date: 08/28/2025
+ms.date: 12/22/2025
 ms.author: altotovi
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
@@ -42,10 +42,10 @@ To use 1099 forms in [!INCLUDE [prod_short](../../includes/prod_short.md)], you 
 1. Optionally, in the **Protect TIN** field, specify whether to mask the taxpayer identification number (TIN) for vendors, or for both vendors and your company. You can also choose not to protect TIN numbers.
 
    > [!NOTE]
-   > These options let you print only the last four digits on your printing forms. The first five digits of the nine-digit number are truncated and replaced with Xs, following IRS regulations (example: XXXXX1234). This format provides more security when sending documents via email and helps protect the recipient from identity theft.  
-
- 1. In the **Business Name Control** field, enter the control name your company registered in the IRS's National Account Profile (NAP) database.
- 1. Finish the guide.
+   > These options let you print only the last four digits on your printing forms. The first five digits of the nine-digit number are truncated and replaced with Xs, following IRS regulations (example: XXXXX1234). This format provides more security when sending documents via email and helps protect the recipient from identity theft.
+  
+1. In the **Business Name Control** field, enter the control name your company registered in the IRS's National Account Profile (NAP) database.
+1. Finish the guide.
 
 ## Manual setup  
 
@@ -60,6 +60,22 @@ If you couldn't finish the setup when you enabled this feature, or you want to e
    * Change the email body text in the **Email Body** FastTab.  
 
 1. Close the page.
+
+## Copy IRS reporting setup across companies
+
+If you manage multiple companies, you can copy an IRS 1099 reporting period setup from one company to other companies. This helps ensure that IRS forms and form box configurations are consistent across all legal entities.
+
+When you copy a setup, [!INCLUDE [prod_short](../../includes/prod_short.md)] copies all IRS 1099 form definitions and their related form box configurations from one reporting period to another and applies them to the selected companies.
+
+To copy an IRS 1099 reporting setup
+
+1. Open the **IRS 1099 Copy Setup** report.
+1. Select the reporting period to copy from.
+1. Select the reporting period to copy to.
+1. Select the companies to which you want to copy the setup in the **Companies** field.
+1. Select **OK** to run the report.
+
+After the report runs, the selected companies use the same IRS 1099 forms and form box setup as the source reporting period.
 
 ## Set up reporting periods and 1099 forms
 

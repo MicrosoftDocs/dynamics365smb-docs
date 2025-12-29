@@ -31,7 +31,7 @@ The following table explains key fields on the **Lines** FastTab of the **Custom
 |**Next Billing Date**|Specifies the due date of the next billing. The date is automatically recalculated during the billing proposal. The field isn't available if the line is invoiced to the subscription line end date.|
 |**Calculation Base Amount**|Specifies the basis of valuation of the subscription line. When you sell an item in subscription lines, the **Calculation Base Amount** field shows the value of the item.|
 |**Calculation Base %**|Specifies the percentage of the value in the **Calculation Base Amount** field to use to price the subscription line.|
-|**Price**| Calculates the price from the **Calculation Base Amount** and the **Calculation Base %**. It's always valid for the entire calculation base amount. For example, it's an annual price if a year is entered in the **Billing Base Period** field and a monthly price if a month is entered.        |
+|**Price**| Calculates the price from the **Calculation Base Amount** and the **Calculation Base %**. It's always valid for the entire calculation base amount. For example, it's an annual price if a year is entered in the **Billing Base Period** field and a monthly price if a month is entered.|
 |**Discount %**|Specifies the percentage discount for the subscription line.|
 |**Discount Amount**|  Specifies the discount applied to the subscription line.|
 |**Amount**|Shows the result of the price, discount, and quantity of the subscription line.|
@@ -44,7 +44,7 @@ The following table explains key fields on the **Lines** FastTab of the **Custom
 
 The following table explains key fields on other pages related to subscription lines, such as the **Planned Subscription Lines** and **Sales Subscription Lines** pages.
 
-|Field  |Description  |
+|Field|Description  |
 |---------|---------|
 |**Partner**|Specifies whether the subscription lines are meant for in accounts receivable or accounts payable. Accordingly, subscription lines can be added to customer or vendor subscription contracts and invoiced.|
 |**Subscription Contract No.**|Specifies the contract through which the subscription lines bill.|

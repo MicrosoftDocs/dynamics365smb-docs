@@ -147,7 +147,7 @@ If the price update can't apply immediately, planned subscription lines are crea
 * There are billing lines for a contract line.
 
    The price update never intervenes in the current invoice run.
-* An umposted invoice or credit memo exists.
+* An unposted invoice or credit memo exists.
 
    The price update doesn't change any documents.
 * **Next Billing Date** is before **Next Price Update**.

@@ -18,7 +18,7 @@ This article lists and describes the key performance indicators (KPIs) included 
 
 Explore the KPIs to learn more about how they can help you achieve your business goals.
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](../../includes/powerbi-tip-track-kpis.md)]
 
 ## Subscription Billing KPIs table
 

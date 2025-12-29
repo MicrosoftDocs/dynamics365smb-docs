@@ -333,7 +333,7 @@ The app uses data from the following table:
 | Salesperson Code | Code | Specifies the ID of the salesperson. |
 | Salesperson Name | Name | Specifies the name of the salesperson. |
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](../../includes/powerbi-tip-track-kpis.md)]
 
 ## Related information
 

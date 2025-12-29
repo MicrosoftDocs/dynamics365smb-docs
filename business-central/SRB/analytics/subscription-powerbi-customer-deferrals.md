@@ -29,7 +29,7 @@ Specifically, you can use this report to verify that all deferred revenue is bei
 
 ## Key performance indicators
 
-- [Customer Deferrals](subscription-powerbi-subscription-kpis#customer-deferrals)
+- [Customer Deferrals](subscription-powerbi-subscription-kpis.md#customer-deferrals)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

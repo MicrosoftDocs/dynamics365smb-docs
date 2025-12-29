@@ -29,7 +29,7 @@ Specifically, you can use this report to verify that all vendor-side deferred ex
 
 ## Key performance indicators
 
-- [Vendor Deferrals](subscription-powerbi-subscription-kpis#vendor-deferrals)
+- [Vendor Deferrals](subscription-powerbi-subscription-kpis.md#vendor-deferrals)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

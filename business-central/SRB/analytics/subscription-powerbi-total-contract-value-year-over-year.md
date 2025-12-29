@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Total Contract Value Year-Over-Year** report visualizes how total contract value develops month-over-month and compares it against the previous year. It helps users assess subscription portfolio growth, customer activity trends, and overall contract value performance across fiscal periods.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-tcv-yoy.png" alt-text="Screenshot of the Subscription Billing Total Contract Value Year-Over-Year Power BI report":::
+:::image type="content" source="../../media/powerbi/subscription-billing/sb-total-contract-value-year-over-year.png" alt-text="Screenshot of the Subscription Billing Total Contract Value Year-Over-Year Power BI report":::
 
 ## Use the report
 
@@ -29,12 +29,12 @@ The detailed table provides the TCV Delta vs. PY, allowing you to pinpoint exact
 
 ## Key performance indicators
 
-- [Total Contract Value](subscription-powerbi-subscription-kpis#total-contract-value)
-- [Total Contract Value PY](subscription-powerbi-subscription-kpis#total-contract-value-py)
-- [Total Contract Value delta vs. PY](subscription-powerbi-subscription-kpis#total-contract-value-delta-vs-py)
-- [Active Customers](subscription-powerbi-subscription-kpis#active-customers)
-- [Active Customers PY](subscription-powerbi-subscription-kpis#active-customers-py)
-- [Active Customers delta vs. PY](subscription-powerbi-subscription-kpis#active-customers-delta-vs-py)
+- [Total Contract Value](subscription-powerbi-subscription-kpis.md#total-contract-value)
+- [Total Contract Value PY](subscription-powerbi-subscription-kpis.md#total-contract-value-py)
+- [Total Contract Value delta vs. PY](subscription-powerbi-subscription-kpis.md#total-contract-value-delta-vs-py)
+- [Active Customers](subscription-powerbi-subscription-kpis.md#active-customers)
+- [Active Customers PY](subscription-powerbi-subscription-kpis.md#active-customers-py)
+- [Active Customers delta vs. PY](subscription-powerbi-subscription-kpis.md#active-customers-delta-vs-py)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

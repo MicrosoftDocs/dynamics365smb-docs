@@ -29,8 +29,8 @@ By analyzing this data, you can identify which sales representatives are managin
 
 ## Key performance indicators
 
-- [Forecast Sales](subscription-powerbi-subscription-kpis#forecast-sales)
-- [Forecast Cost](subscription-powerbi-subscription-kpis#forecast-cost)
+- [Forecast Sales](subscription-powerbi-subscription-kpis.md#forecast-sales)
+- [Forecast Cost](subscription-powerbi-subscription-kpis.md#forecast-cost)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

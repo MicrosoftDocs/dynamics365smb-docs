@@ -25,7 +25,7 @@ Alternatively, you can analyze revenue by item category and then drill down into
 
 ## Key performance indicators
 
-- [Mon. Recurring Revenue](subscription-powerbi-subscription-kpis#mon-recurring-revenue)
+- [Mon. Recurring Revenue](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

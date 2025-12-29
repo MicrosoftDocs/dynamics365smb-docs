@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Total Contract Value Analysis** report provides a detailed analysis of total contract value (TCV), breaking it down into its key contributing components. This report can help you understand what’s driving TCV in your subscription business, and why.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-tcv-analysis.png" alt-text="Screenshot of the Subscription Billing Total Contract Value Analysis Power BI report":::
+:::image type="content" source="../../media/powerbi/subscription-billing/sb-total-contract-value-analysis.png" alt-text="Screenshot of the Subscription Billing Total Contract Value Analysis Power BI report":::
 
 ## Use the report
 
@@ -27,7 +27,7 @@ For example, you might start by breaking down TCV by Contract Type to see which 
 
 ## Key performance indicators
 
-- [Total Contract Value](subscription-powerbi-subscription-kpis#total-contract-value)
+- [Total Contract Value](subscription-powerbi-subscription-kpis.md#total-contract-value)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

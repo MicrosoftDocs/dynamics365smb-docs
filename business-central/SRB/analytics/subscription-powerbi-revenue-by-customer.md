@@ -27,11 +27,11 @@ Sales and account managers can use the report to monitor MRR, profitability, and
 
 ## Key performance indicators
 
-- [Mon. Recurring Revenue](subscription-powerbi-subscription-kpis#mon-recurring-revenue)
-- [Mon. Recurring Cost](subscription-powerbi-subscription-kpis#mon-recurring-cost)
-- [Mon. Net Profit Amount](subscription-powerbi-subscription-kpis#mon-net-profit-amount)
-- [Mon. Net Profit Percentage](subscription-powerbi-subscription-kpis#mon-net-profit-percentage)
-- [Mon. Recurring Revenue Churn](subscription-powerbi-subscription-kpis#mon-recurring-revenue-churn)
+- [Mon. Recurring Revenue](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue)
+- [Mon. Recurring Cost](subscription-powerbi-subscription-kpis.md#mon-recurring-cost)
+- [Mon. Net Profit Amount](subscription-powerbi-subscription-kpis.md#mon-net-profit-amount)
+- [Mon. Net Profit Percentage](subscription-powerbi-subscription-kpis.md#mon-net-profit-percentage)
+- [Mon. Recurring Revenue Churn](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-churn)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

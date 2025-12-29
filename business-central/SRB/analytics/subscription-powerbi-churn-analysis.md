@@ -25,11 +25,11 @@ Using the Date, Fiscal Year or Fiscal Month Year filters is key here, as it allo
 
 ## Key performance indicators
 
-- [Mon. Recurring Revenue](subscription-powerbi-subscription-kpis#mon-recurring-revenue)
-- [Change in Mon. Recurring Revenue](subscription-powerbi-subscription-kpis#change-in-mon-recurring-revenue)
-- [Mon. Recurring Revenue Downgrade](subscription-powerbi-subscription-kpis#mon-recurring-revenue-downgrade)
-- [Mon. Recurring Revenue Churn](subscription-powerbi-subscription-kpis#mon-recurring-revenue-churn)
-- [Avg. Mon. Churn Rate](subscription-powerbi-subscription-kpis#avg-mon-churn-rate)
+- [Mon. Recurring Revenue](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue)
+- [Change in Mon. Recurring Revenue](subscription-powerbi-subscription-kpis.md#change-in-mon-recurring-revenue)
+- [Mon. Recurring Revenue Downgrade](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-downgrade)
+- [Mon. Recurring Revenue Churn](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-churn)
+- [Avg. Mon. Churn Rate](subscription-powerbi-subscription-kpis.md#avg-mon-churn-rate)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

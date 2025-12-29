@@ -34,9 +34,9 @@ The report is intended for the following roles:
 
 Executives and revenue owners regularly monitor subscription performance to ensure predictable growth and long-term customer value. To get a quick, high-level overview of the subscription business, you use the Power BI Subscription Billing Overview report to review:
 
-- [Monthly recurring revenue (MRR)](subscription-powerbi-subscription-kpis#mon-recurring-revenue), to understand the current recurring revenue base and its development over time.
-- [Change of monthly recurring revenue](subscription-powerbi-subscription-kpis#change-in-mon-recurring-revenue), to identify revenue losses and assess subscription retention.
-- [Total contract value (TCV)](subscription-powerbi-subscription-kpis#total-contract-value), to evaluate the long-term financial impact of customer relationships.
+- [Monthly recurring revenue (MRR)](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue), to understand the current recurring revenue base and its development over time.
+- [Change of monthly recurring revenue](subscription-powerbi-subscription-kpis.md#change-in-mon-recurring-revenue), to identify revenue losses and assess subscription retention.
+- [Total contract value (TCV)](subscription-powerbi-subscription-kpis.md#total-contract-value), to evaluate the long-term financial impact of customer relationships.
 
 The report aggregates these KPIs at a high level, enabling decision makers to quickly assess the health, stability, and growth of the subscription business.
 
@@ -44,13 +44,13 @@ The report aggregates these KPIs at a high level, enabling decision makers to qu
 
 The report includes the following KPIs and measures:
 
-- [Monthly recurring revenue (MRR)](subscription-powerbi-subscription-kpis#mon-recurring-revenue)
-- [Monthly recurring cost (MRC)](subscription-powerbi-subscription-kpis#mon-recurring-cost)
-- [Net monthly recurring profit (NMRP)](subscription-powerbi-subscription-kpis#mon-net-profit-amount)
-- [Active customers](subscription-powerbi-subscription-kpis#active-customers)
-- [Total contract value (TCV)](subscription-powerbi-subscription-kpis#total-contract-value)
-- [Change of monthly recurring revenue](subscription-powerbi-subscription-kpis#change-in-mon-recurring-revenue)
-- [Avg. monthly churn rate %](subscription-powerbi-subscription-kpis#avg-mon-churn-rate)
+- [Monthly recurring revenue (MRR)](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue)
+- [Monthly recurring cost (MRC)](subscription-powerbi-subscription-kpis.md#mon-recurring-cost)
+- [Net monthly recurring profit (NMRP)](subscription-powerbi-subscription-kpis.md#mon-net-profit-amount)
+- [Active customers](subscription-powerbi-subscription-kpis.md#active-customers)
+- [Total contract value (TCV)](subscription-powerbi-subscription-kpis.md#total-contract-value)
+- [Change of monthly recurring revenue](subscription-powerbi-subscription-kpis.md#change-in-mon-recurring-revenue)
+- [Avg. monthly churn rate %](subscription-powerbi-subscription-kpis.md#avg-mon-churn-rate)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

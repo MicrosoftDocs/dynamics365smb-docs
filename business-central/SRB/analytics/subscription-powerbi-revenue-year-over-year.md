@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Revenue Year-Over-Year** report provides valuable insights into your organization's subscription business over time. The report compares monthly recurring revenue for different time periods to the same period in the previous year, providing insight into growth trends and areas for improvement.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-revenue-yoy.png" alt-text="Screenshot of the Subscription Billing Revenue Year-Over-Year Power BI report":::
+:::image type="content" source="../../media/powerbi/subscription-billing/sb-revenue-year-over-year.png" alt-text="Screenshot of the Subscription Billing Revenue Year-Over-Year Power BI report":::
 
 ## Use the report
 
@@ -23,10 +23,10 @@ The Revenue Year-over-Year report helps you compare monthly recurring revenue (M
 
 ## Key performance indicators
 
-- [Mon. Recurring Revenue](subscription-powerbi-subscription-kpis#mon-recurring-revenue)
-- [Mon. Recurring Revenue PY](subscription-powerbi-subscription-kpis#mon-recurring-revenue-py)
-- [Mon. Recurring Revenue delta vs. PY](subscription-powerbi-subscription-kpis#mon-recurring-revenue-delta-vs-py)
-- [Mon. Recurring Revenue Churn](subscription-powerbi-subscription-kpis#mon-recurring-revenue-churn)
+- [Mon. Recurring Revenue](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue)
+- [Mon. Recurring Revenue PY](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-py)
+- [Mon. Recurring Revenue delta vs. PY](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-delta-vs-py)
+- [Mon. Recurring Revenue Churn](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-churn)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

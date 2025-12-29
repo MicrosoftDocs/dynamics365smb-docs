@@ -29,8 +29,8 @@ The detailed table allows you to break these amounts down by billing rhythm, cus
 
 ## Key performance indicators
 
-- [Customer Billing Forecast](subscription-powerbi-subscription-kpis#customer-billing-forecast)
-- [Vendor Billing Forecast](subscription-powerbi-subscription-kpis#vendor-billing-forecast)
+- [Customer Billing Forecast](subscription-powerbi-subscription-kpis.md#customer-billing-forecast)
+- [Vendor Billing Forecast](subscription-powerbi-subscription-kpis.md#vendor-billing-forecast)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

@@ -25,12 +25,12 @@ You can also use the tables to sort and filter for the contracts with the larges
 
 ## Key performance indicators
 
-- [Change in Mon. Recurring Revenue](subscription-powerbi-subscription-kpis#change-in-mon-recurring-revenue)
-- [Mon. Recurring Revenue Churn](subscription-powerbi-subscription-kpis#mon-recurring-revenue-churn)
-- [Mon. Recurring Revenue Downgrade](subscription-powerbi-subscription-kpis#mon-recurring-revenue-downgrade)
-- [Mon. Recurring Revenue New](subscription-powerbi-subscription-kpis#mon-recurring-revenue-new)
-- [Mon. Recurring Revenue Upgrade](subscription-powerbi-subscription-kpis#mon-recurring-revenue-upgrade)
-- [Mon. Recurring Revenue Change UBB](subscription-powerbi-subscription-kpis#mon-recurring-revenue-change-ubb)
+- [Change in Mon. Recurring Revenue](subscription-powerbi-subscription-kpis.md#change-in-mon-recurring-revenue)
+- [Mon. Recurring Revenue Churn](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-churn)
+- [Mon. Recurring Revenue Downgrade](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-downgrade)
+- [Mon. Recurring Revenue New](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-new)
+- [Mon. Recurring Revenue Upgrade](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-upgrade)
+- [Mon. Recurring Revenue Change UBB](subscription-powerbi-subscription-kpis.md#mon-recurring-revenue-change-ubb)
 
 [!INCLUDE[click-on-a-kpi-link](../../includes/click-on-a-kpi-link.md)]
 

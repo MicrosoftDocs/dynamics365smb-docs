@@ -64,6 +64,7 @@ The following articles describe local functionality that is unique to the French
 ## Future legislation requirements being investigated
 
 - Electronic invoicing - **Planned for July 2026**
+- Delocalization of FR base app - **Planned during 2026**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 

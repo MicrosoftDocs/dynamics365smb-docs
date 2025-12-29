@@ -40,10 +40,14 @@ The following articles describe local functionality that is unique to the United
 
 ## Future legislation requirements being investigated
 
-- Delocalization of GB base app **Planned during 2025**
-- Functionality to resubmit a VAT Return **Planned for 2025 release wave 2**
+- Functionality to resubmit a VAT Return **Planned for 2027 release wave 1**
 
 For any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## Localization architecture
+
+> [!IMPORTANT]
+> Starting with release 2025 wave 2 (v27), UK localization is updated to work as set of extensions on a top of W1 BaseApp. For the next three releases, you can choose whether to enable new features. After this period, old features will become obsolete and the new localization will be automatically enabled.  
 
 ## Related information
 

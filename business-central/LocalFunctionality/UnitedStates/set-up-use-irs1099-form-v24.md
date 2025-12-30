@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: how-to
 ms.search.keywords: local, 1099, IRS, Tax
 ms.search.form: 26, 10030, 10031, 10033, 10034
-ms.date: 12/22/2025
+ms.date: 12/30/2025
 ms.author: altotovi
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
@@ -69,7 +69,7 @@ When you copy a setup, [!INCLUDE [prod_short](../../includes/prod_short.md)] cop
 
 To copy an IRS 1099 reporting setup
 
-1. Open the **IRS 1099 Copy Setup** report.
+1. Go to the **IRS Reporting Periods** page, select the period you want to copy from, and run the **Copy Setup** action.
 1. Select the reporting period to copy from.
 1. Select the reporting period to copy to.
 1. Select the companies to which you want to copy the setup in the **Companies** field.

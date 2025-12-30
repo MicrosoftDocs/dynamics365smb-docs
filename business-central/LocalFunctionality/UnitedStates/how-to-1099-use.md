@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: how-to
 ms.search.keywords: local, 1099, tax, taxes, IRS
 ms.search.form: 50, 51, 132, 10036, 10037, 10049
-ms.date: 12/22/2025
+ms.date: 12/30/2025
 ms.author: altotovi
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central

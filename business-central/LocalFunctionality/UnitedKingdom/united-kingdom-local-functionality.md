@@ -6,14 +6,14 @@ ms.author: soalex
 ms.search.keywords: UK local functionality
 ms.reviewer: v-soumramani
 ms.topic: article
-ms.date: 02/21/2025
+ms.date: 12/30/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
 # United Kingdom local functionality in the British version
 
-The following articles describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that's unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability
 
@@ -47,7 +47,7 @@ For any upcoming regulatory features, submit a [Regulatory Feature Alert](https:
 ## Localization architecture
 
 > [!IMPORTANT]
-> Starting with release 2025 wave 2 (v27), UK localization is updated to work as set of extensions on a top of W1 BaseApp. For the next three releases, you can choose whether to enable new features. After this period, old features will become obsolete and the new localization will be automatically enabled.  
+> Starting with the 2025 release wave 2 (v27), UK localization is updated to function as a set of extensions on top of the W1 BaseApp. For the next three releases, you can choose whether to enable the new features. After this period, the previous features will be deprecated, and the new localization will be enabled automatically.
 
 ## Related information
 

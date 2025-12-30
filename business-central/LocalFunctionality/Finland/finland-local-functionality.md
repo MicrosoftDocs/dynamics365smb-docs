@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Finland local functionality
 ms.search.form: 32000006
-ms.date: 02/12/2025
+ms.date: 12/30/2025
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -14,7 +14,7 @@ ms.reviewer: v-soumramani
 
 # Finland local functionality
 
-The following articles describe local functionality that is unique to the Finnish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that's unique to the Finnish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability
 

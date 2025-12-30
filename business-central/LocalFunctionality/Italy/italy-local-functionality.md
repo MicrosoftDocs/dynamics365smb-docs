@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Italian local functionality, Italian version, Italian localization
-ms.date: 05/22/2025
+ms.date: 12/30/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

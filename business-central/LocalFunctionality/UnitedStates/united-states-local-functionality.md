@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: article
 ms.search.keywords: United States, local functionality
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 02/04/2025
+ms.date: 12/30/2025
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # United States local functionality
 
-The following articles describe local functionality that is unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+The following articles describe local functionality that's unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## Feature availability  
 
@@ -42,7 +42,7 @@ The following articles describe local functionality that is unique to the United
   - [E-Invoicing enable for the US market](../../finance-how-setup-edocuments-external.md) **Available Now**
 
 > [!NOTE]
-> If you have customers in Europe, you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries/regions that you ship to.  
+> If you have customers in Europe, you can't report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries/regions that you ship to.  
 
 ## Future legislation requirements being investigated
 

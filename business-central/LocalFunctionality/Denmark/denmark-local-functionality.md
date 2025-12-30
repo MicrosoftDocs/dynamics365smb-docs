@@ -4,7 +4,7 @@ description: The following article provides links that describe local functional
 author: sorenfriisalexandersen
 ms.topic: article
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 03/03/2025
+ms.date: 12/30/2025
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

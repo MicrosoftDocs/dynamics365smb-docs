@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Austria, local functionality, Austrian version
-ms.date: 10/29/2025
+ms.date: 12/30/2025
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

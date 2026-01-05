@@ -21,7 +21,7 @@ Learn more about the agent in [Payables Agent overview](payables-agent.md).
 
 Before configuring and activating the Payables Agent, ensure the following prerequisites are met:
 
-- The Business Central environment is one of these country/region versions: AU (Australia), CA (Canada), DE (Germany), DK (Denmark), ES (Spain), GB (Great Britain), NZ (New Zealand), or US (United States). 
+- The Business Central environment is one of these country/region versions: AU (Australia), CA (Canada), DE (Germany), DK (Denmark), ES (Spain), FR (France), GB (Great Britain), IT (Italy), NZ (New Zealand), or US (United States).
 
    Payables Agent is currently unavailable in other countries/region versions. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
@@ -56,7 +56,6 @@ Next, configure and activate the agent so it can process vendor invoices.
 Configure and activate the Payables Agent for your company. Only one Payables Agent is allowed per company, but you can give access to many users.
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Payables Agent icon](media/payables-agent-icon.png) **Payables Agent** > **Activate**.
-
 1. On the **Configure the Payables Agent** wizard, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field to the email account you want the agent to monitor.
 
    ![Shows the Payables Agent configuration wizard](media/payables-agent-setup.png)
@@ -68,10 +67,9 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
    - **Get sample invoices:** This option shows in evaluation companies only and intends to provide easy access to demo invoices so you don't have to produce invoices yourself. These invoices work well with the Contoso Coffee demo data. The wizard lets you let the system send the sample invoices to the monitored mailbox, in which case they're sent from the same mailbox. The wizard also lets you the sample invoices so you can send them from your own mailbox to the monitored mailbox
 
       > [!TIP]
-      > If you let the agent send the sample invoices, they show up in the agent task pane as coming from the same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples. 
+      > If you let the agent send the sample invoices, they show up in the agent task pane as coming from the same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples.
 
    - **Review email:** Select this checkbox to require users to review the incoming emails before the agent creates purchase document drafts.
-
    - **Configure additional fields** Select the link to choose more fields from matched purchase invoice history to populate automatically when the agent finalizes purchase document drafts to become purchase invoice documents. This feature ensures that purchase invoice line fields that aren't visible in the purchase document draft can be populated in the same process when matched with historic data. It's the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
 
 1. Select **Manage user access** to specify more agent supervisors who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Payables Agent](#manage-agent-permissions-and-user-access).

@@ -47,7 +47,7 @@ For any upcoming regulatory features, submit a [Regulatory Feature Alert](https:
 ## Localization architecture
 
 > [!IMPORTANT]
-> Starting with the 2025 release wave 2 (v27), UK localization is updated to function as a set of extensions on top of the W1 BaseApp. For the next three releases, you can choose whether to enable the new features. After this period, the previous features will be deprecated, and the new localization will be enabled automatically.
+> Starting with the 2025 release wave 2 (v27), the UK localization is updated to work as a set of extensions on top of the W1 Base App. For the next three releases, you can choose whether to enable the new features. After this period, the previous features will be deprecated, and the new localization will automatically be enabled.
 
 ## Related information
 

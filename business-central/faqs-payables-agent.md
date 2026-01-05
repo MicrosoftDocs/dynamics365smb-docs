@@ -1,7 +1,7 @@
 ---
 title: FAQ for Payables Agent
 description: Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 11/24/2025
+ms.date: 01/05/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs

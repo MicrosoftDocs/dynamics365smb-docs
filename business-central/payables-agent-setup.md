@@ -1,7 +1,7 @@
 ---
 title: Set up Payables Agent
 description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
-ms.date: 11/27/2025
+ms.date: 01/05/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: sorenfriisalexandersen
@@ -21,9 +21,7 @@ Learn more about the agent in [Payables Agent overview](payables-agent.md).
 
 Before configuring and activating the Payables Agent, ensure the following prerequisites are met:
 
-- The Business Central environment is one of these country/region versions: AU (Australia), GB (Great Britain), NZ (New Zealand), or US (United States).
-
-  Payables Agent is currently unavailable in other countries/region versions. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+- The Business Central environment is one of these country/region versions: AU (Australia), CA (Canada), DE (Germany), DK (Denmark), ES (Spain), GB (Great Britain), NZ (New Zealand), or US (United States). Payables Agent is currently unavailable in other countries/region versions. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 - Set up the email account for receiving vendor invoices PDF documents.
 
    The Payables Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).

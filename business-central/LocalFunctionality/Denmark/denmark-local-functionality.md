@@ -4,7 +4,7 @@ description: The following article provides links that describe local functional
 author: sorenfriisalexandersen
 ms.topic: article
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 03/03/2025
+ms.date: 12/30/2025
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -56,6 +56,8 @@ The following articles describe the local functionality in the Danish version of
   - [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md) **Available Now**
 
 ## Future legislation requirements being investigated
+
+- Carbon footprint information with the OIOUBL e-invoicing format - **Planned for 2026 release wave 1**
 
 Currently, there are no additional upcoming regulatory features or requirements. For any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

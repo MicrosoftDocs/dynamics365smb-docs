@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Finland local functionality
 ms.search.form: 32000006
-ms.date: 02/12/2025
+ms.date: 12/30/2025
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -14,7 +14,7 @@ ms.reviewer: v-soumramani
 
 # Finland local functionality
 
-The following articles describe local functionality that is unique to the Finnish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that's unique to the Finnish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability
 
@@ -37,9 +37,7 @@ The following articles describe local functionality that is unique to the Finnis
 
 ## Future legislation requirements being investigated
 
-Automatic account codes delivered as an app **2023 Wave 1**.
-
-If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+Currently, there are no additional upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## Related information
 

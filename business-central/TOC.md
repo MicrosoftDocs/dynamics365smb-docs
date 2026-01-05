@@ -1228,6 +1228,7 @@ ms.service: dynamics-365-business-central
 ### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
 ### [Work with carbon credit](sustainability-carbon-credit.md)
 ### [Sustainability certificates](sustainability-certificates.md)
+### [Use CBAM and EPR calculations](sustainability-cbam-epr-calculations.md)
 ### Sustainability Value Chain
 #### [Sustainability Value Chain](value-chain-howto-overview.md)
 #### [Value Chain Setup](value-chain-howto-setup.md)

@@ -6,14 +6,14 @@ ms.author: soalex
 ms.search.keywords: UK local functionality
 ms.reviewer: v-soumramani
 ms.topic: article
-ms.date: 02/21/2025
+ms.date: 12/30/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
 # United Kingdom local functionality in the British version
 
-The following articles describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that's unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability
 
@@ -40,10 +40,14 @@ The following articles describe local functionality that is unique to the United
 
 ## Future legislation requirements being investigated
 
-- Delocalization of GB base app **Planned during 2025**
-- Functionality to resubmit a VAT Return **Planned for 2025 release wave 2**
+- Functionality to resubmit a VAT Return **Planned for 2027 release wave 1**
 
 For any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## Localization architecture
+
+> [!IMPORTANT]
+> Starting with the 2025 release wave 2 (v27), the UK localization is updated to work as a set of extensions on top of the W1 Base App. For the next three releases, you can choose whether to enable the new features. After this period, the previous features will be deprecated, and the new localization will automatically be enabled.
 
 ## Related information
 

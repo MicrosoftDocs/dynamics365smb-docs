@@ -7,13 +7,13 @@ ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: French localization, France local functionality, French version
-ms.date: 07/15/2025
+ms.date: 12/30/2025
 ms.custom: bap-template
 ---
 
 # France local functionality
 
-The following articles describe local functionality that is unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that's unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability
 
@@ -64,6 +64,7 @@ The following articles describe local functionality that is unique to the French
 ## Future legislation requirements being investigated
 
 - Electronic invoicing - **Planned for July 2026**
+- Delocalization of FR base app - **Planned during 2026**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 

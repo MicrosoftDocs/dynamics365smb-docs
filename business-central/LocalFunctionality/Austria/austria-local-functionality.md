@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Austria, local functionality, Austrian version
-ms.date: 10/29/2025
+ms.date: 12/30/2025
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -39,7 +39,7 @@ The following articles describe local functionality that is unique to the Austri
 
 ## Future legislation requirements being investigated
 
-SAF-T reporting in Austria **2026 release wave 1**
+- SAF-T reporting in Austria **2026 release wave 2**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

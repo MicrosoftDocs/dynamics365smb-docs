@@ -1139,11 +1139,11 @@ ms.service: dynamics-365-business-central
 
 ## Quality management
 ### [Quality Management overview](qms-overview.md)
-### [Purchase receipt testing without warehouse handling](qms-purchase-receipt-testing-simple.md)
-### [Purchase receipt testing with warehouse handling](qms-purchase-receipt-testing-warehouse.md)
-### [Production output quality testing](qms-production-output-testing.md)
-### [Manual test creation](qms-manual-test-creation.md)
-### [Scheduled test creation](qms-scheduled-test-creation.md)
+### [Purchase receipt inspections without warehouse handling](qms-purchase-receipt-testing-simple.md)
+### [Purchase receipt inspections with warehouse handling](qms-purchase-receipt-testing-warehouse.md)
+### [Production output quality inspection](qms-production-output-testing.md)
+### [Manual inspection creation](qms-manual-test-creation.md)
+### [Scheduled inspection creation](qms-scheduled-test-creation.md)
 ### [Lot blocking and unblocking](qms-lot-blocking-unblocking.md)
 ### [Non-compliant processing](qms-non-compliant-processing.md)
 
@@ -2231,11 +2231,11 @@ ms.service: dynamics-365-business-central
 #### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
 
 ### Set up quality management
-#### [Quality Management setup and configuration](qms-setup.md)
+#### [Quality management setup and configuration](qms-setup.md)
 #### [Assisted setup guide](qms-assisted-setup.md)
-#### [Configure quality inspection grades](qms-configuring-grades.md)
+#### [Configure quality inspection results](qms-configuring-grades.md)
 #### [Create quality inspection templates](qms-quality-templates.md)
-#### [Set up test generation rules](qms-test-generation-rules.md)
+#### [Set up quality inspection generation rules](qms-test-generation-rules.md)
 #### [Quality workflows](qms-quality-workflows.md)
 
 ### Set up service management

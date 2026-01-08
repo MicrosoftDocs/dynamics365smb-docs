@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-This article takes you through the initial setup and configuration of quality management features.
+This article explains the initial setup and configuration of quality management features.
 
 ## Prerequisites
 

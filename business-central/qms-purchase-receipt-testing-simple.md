@@ -1,5 +1,5 @@
 ---
-title: Purchase receipt testing without warehouse handling
+title: Purchase receipt inspections without warehouse handling
 description: Learn how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,13 +12,13 @@ ms.custom: bap-template
 
 ---
 
-# Purchase receipt testing without warehouse handling
+# Purchase receipt inspections without warehouse handling
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-This article explains how to set up and use automatic quality inspection test creation for purchase receipts in locations without warehouse handling. For example, like the Silver location in the Contoso demo data.
+This article explains how to set up and use automatic quality inspection creation for purchase receipts in locations without warehouse handling. For example, the Silver location in the Contoso demo data.
 
-For locations without warehouse handling, quality tests are created automatically when you directly post purchase receipts. This simpler workflow is ideal for:
+For locations without warehouse handling, quality inspections are created automatically when you post purchase receipts. This simpler workflow is ideal for:
 
 - Smaller operations without complex warehouse management.
 - Locations that use bin management but don't use warehouse documents.
@@ -26,11 +26,11 @@ For locations without warehouse handling, quality tests are created automaticall
 
 ## Set up the requirements
 
-The following sections describe how to set up the requirements for purchase receipt testing without warehouse handling.
+The following sections describe how to set up the requirements for purchase receipt inspections without warehouse handling.
 
 ### Create a quality inspection template
 
-If you don't already have a template, follow these steps to set up a template for incoming inspections:
+If you don't already have a template for receipts, follow these steps to set one up:
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and then choose the related link.
 2. Create new template. For example, name it **EXAMPLE**.
@@ -42,13 +42,13 @@ The following example shows settings in a quality inspection template:
 - **Allowed Values**: 5 to 90
 - **Pass Values**: 10 to 20
 
-### Configure a test generation rule
+### Configure an inspection generation rule
 
-Set up a rule to automatically create tests for purchase receipts:
+Set up a rule to automatically create inspections for purchase receipts:
 
 #### Method 1: Manual rule creation
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Test Generation Rules**, and then choose the related link.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Inspection Generation Rules**, and then choose the related link.
 2. Create a new rule.
 3. Fill in the fields, as follows:
 

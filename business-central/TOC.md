@@ -1138,7 +1138,7 @@ ms.service: dynamics-365-business-central
 ##### [Count, adjust, and reclassify inventory](inventory-how-count-adjust-reclassify.md)
 
 ## Quality management
-### [Quality Management overview](qms-overview.md)
+### [Quality management overview](qms-overview.md)
 ### [Purchase receipt inspections without warehouse handling](qms-purchase-receipt-testing-simple.md)
 ### [Purchase receipt inspections with warehouse handling](qms-purchase-receipt-testing-warehouse.md)
 ### [Production output quality inspection](qms-production-output-testing.md)

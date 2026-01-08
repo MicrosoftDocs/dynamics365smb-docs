@@ -16,26 +16,24 @@ ms.custom: bap-template
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-Quality Management is a quality inspection application for [!INCLUDE [prod_short](includes/prod_short.md)]. The app provides comprehensive quality control capabilities throughout your business operations. This app enables automated and manual quality inspections for purchase receipts, production and assembly output, and warehouse operations.
+Quality management is a quality inspection application for [!INCLUDE [prod_short](includes/prod_short.md)]. Quality management features can help you maintain product quality standards by creating inspections at key points in your purchasing, production, assembly, and warehouse management processes. 
 
-Quality Management helps you maintain product quality standards by creating inspections at key points in your business processes. The app integrates seamlessly with purchasing, production, assembly, and warehouse management in [!INCLUDE [prod_short](includes/prod_short.md)] to embed quality control in your daily operations.
+## Key capabilities
 
-### Key capabilities
+Quality management features offer a range of benefits.
 
-The Quality Management app offers a range of benefits.
+- **Create inspections automatically**: Automatically generate quality inspections when you receive purchase orders, post production and assembly output, or process warehouse movements.
+- **Create inspections manually**: Create quality inspections on-demand for reactive scenarios.
+- **Create inspections on a schedule**: Create periodic quality inspections using job queues.
+- **Use templates for inspections**: Use predefined quality inspection templates with customizable measurements and pass/fail criteria.
+- **Block noncompliant lots**: Automatically block inventory lots based on quality inspection results.
+- **Integrate workflows**: Configure automated responses to inspection results using workflows.
+- **Handle noncompliant items**: Use features for processing noncompliant items. For example, you can automatically move items to quarantine bins, make negative adjustments for disposal, transfer orders to different locations, and create purchase returns to vendors.
+- **Integrate with your warehouse**: Full support for locations with and without warehouse handling.
 
-- **Automated Inspection Creation**: Automatically generate quality inspections when you receive purchase orders, post production and assembly output, or process warehouse movements.
-- **Manual Inspection Creation**: Create quality inspections on-demand for reactive scenarios.
-- **Scheduled Inspection Creation**: Create periodic quality inspections using job queues.
-- **Template-Based Inspections**: Use predefined quality inspection templates with customizable measurements and pass/fail criteria.
-- **Lot Blocking and Results**: Automatically block inventory lots based on quality inspection results.
-- **Workflow Integration**: Configure automated responses to inspection results using workflows for quality management.
-- **Handle Noncompliant Items**: Comprehensive features for processing noncompliant items. For example, you can do automatic movements to quarantine bins, make negative adjustments for disposal, transfer orders to different locations, and create purchase returns to vendors.
-- **Warehouse Integration**: Full support for locations with and without warehouse handling.
+## Get started
 
-## Getting started
-
-Setting up Quality Management involves configuring quality inspection templates, inspection generation rules, and integration with your [!INCLUDE [prod_short](includes/prod_short.md)] processes. To learn more, go to:
+Setting up quality management involves configuring quality inspection templates, inspection generation rules, and integration with your [!INCLUDE [prod_short](includes/prod_short.md)] processes. To learn more, go to:
 
 - [Initial Setup and Configuration](qms-setup.md)
 - [Assisted Setup Guide](qms-assisted-setup.md)
@@ -66,16 +64,6 @@ After you configure the app, Quality Management gives you several ways to create
 
 - [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)
 - [Processing Non-Compliant Items](qms-non-compliant-processing.md)
-
-## Prerequisites
-
-- Microsoft Dynamics 365 Business Central (on-premises or cloud)
-- Premium experience tier (required for production order functionality)
-
-   > [!NOTE]
-   > The Premium experience is required for production capabilities. If you don't need those, you can use the Essential experience.
-
-- Quality Management app is installed and configured.
 
 ## Related information
 

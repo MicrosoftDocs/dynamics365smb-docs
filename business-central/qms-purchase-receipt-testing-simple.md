@@ -24,13 +24,6 @@ For locations without warehouse handling, quality tests are created automaticall
 - Locations that use bin management but don't use warehouse documents.
 - Quick receipt and inspection processes.
 
-## Prerequisites
-
-- A quality inspection template is configured
-- A test generation rule is set up for purchase receipts.
-- Items have lot tracking (optional, but recommended).
-- Location doesn't use warehouse receipt handling.
-
 ## Set up the requirements
 
 The following sections describe how to set up the requirements for purchase receipt testing without warehouse handling.

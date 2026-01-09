@@ -1,5 +1,5 @@
 ---
-title: Production output quality testing
+title: Inspect production output
 description: Learn how to set up and use automatic quality inspection tests for production output.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,109 +12,50 @@ ms.custom: bap-template
 
 ---
 
-# Production output quality testing
+# Inspect the quality of production output
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-This article explains how to set up and use automatic quality inspection creation for production output when you post manufacturing operations.
-
-Production output testing creates quality inspection tests automatically when production output is posted. This enables quality control for:
+This article explains how to set up quality management to automatically create quality inspections for production output when you post manufacturing operations. For example, these inspections enable:
 
 - Finished goods inspection
-- In-process quality gates
-- Work center-specific testing
+- In-process quality checks
+- Work center-specific inspections
 - Routing operation validation
 
-## Prerequisites
+## Get started
 
-- At least one quality inspection template is configured
-- Production orders have routing operations
-- Items are assigned item tracking codes (optional, but recommended)
-- Production trigger is configured on the **Quality Management Setup** page
+To automate the process of creating inspections for production output, there are a few things to set up.
 
-## Set up requirements
+- You must prepare items for production output testing by filling in a couple of fields on the **Item Card** page:
 
-### Configure production items
+   - You must set up an **Item Tracking Code** (for example, "LOT ALL") and assign it to the item. Learn more at [Set up item tracking with serial, lot, and package numbers](inventory-how-setup-item-tracking.md).
+   - Fill in the **Lot Nos.** field with the number series to use for automatic lot assignment.
+   - Make sure a routing is created for the item.
 
-Prepare items for production output testing:
+- You must set up a global trigger for production output. On the **Quality Management Setup** page, in the **Production Trigger** field, choose **When Output is Posted**.
+- You must create inspection generation rules for production output testing. Learn more at [Create a production rule](qms-test-generation-rules.md#create-a-production-rule).
 
-**Item Setup**:
-
-   - Configure **Item Tracking Code** (for example, "LOT ALL")
-   - Set **Lot Nos.** series for automatic lot assignment
-   - Ensure item has routing assigned
-
-### Configure a production trigger
-
-Set up a global trigger for production output, as follows:
-
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Management Setup**, and then choose the related link.
-2. In the **Production Trigger** field, choose **When Output is Posted**. This option creates inspections automatically.
-
-### Create inspection generation rules
-
-There are a few ways to set up rules for production output testing.
-
-#### Method 1: Create a production rule (recommended)
-
-1. On the **Quality Inspection Templates** or **Inspection Generation Rules** pages, choose **Create Production Rule**.
-3. Fill in the following fields:
-   - **Template Code**: Select a quality template
-   - **Source Type**: Production Order Routing Line
-   - **Production Trigger**: **"When Output is Posted"**
-
-#### Method 2: Manual rule creation
-
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Inspection Generation Rules**, and then choose the related link.
-2. Create new rule with the following settings:
-   - **Source Type**: Production Order Routing Line
-   - **Template Code**: Assign a template
-   - **Production Trigger**: **"When Output is Posted"**
-   - **Filters**: Configure as needed
-
-### 4. Configure rule filters (optional)
-
-Add filters to control when tests are created. The following list shows filters that are often used:
-
-- **Location Code**: Specific production locations
-- **Routing No.**: Specific routing operations
-- **Work Center No.**: Specific work centers
-- **Item No.**: Specific production items
-
-**Example Filter**:
-
-- **Location Code**: WHITE (for the White location only)
-- Leave other filters blank for broader application
 
 ## Create production output inspections
 
-### Create a production order
+Production output inspections are automatically created when you post production orders. When you create the order, be sure to fill in the following fields:
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Production Orders**, and then choose the related link.
-2. Create a new production order, and fill in the fields as follows:
-   - **Item**: Use a lot-tracked production item.
-   - **Quantity**: Specify a production quantity.
-   - **Location**: Match the inspection generation rule filters.
-   - **Routing**: Verify that routing operations exist.
+- **Item**: Use a lot-tracked production item.
+- **Quantity**: Specify a production quantity.
+- **Location**: Match the inspection generation rule filters.
+- **Routing**: Verify that routing operations exist.
 
-> [!TIP]
-> It's a good idea to review your production order setup.
->
-> 1. Check that operations are set up for the routing.
-> 2. Confirm that the correct location code is set.
-> 3. Review the expected output operations.
+Use an output journal or a production journal to post output.
 
-### Post production output
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Output Journal** or **Production journal**, and then choose the related link.
+1. Enter the output to post, as follows:
 
-You can post production output by using a production journal or an output journal.
-
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Production Journal** or **Output Journal**, and then choose the related link.
-2. Enter the output posting, as follows:
    - **Item No.**: Production item
-   - **Output Quantity**: Quantity being output
    - **Operation No.**: Final routing operation
-3. Configure **Item Tracking**. For example, assign a lot number.
-4. Choose **Post** to post the journal or the production output for specific operations.
+   - **Output Quantity**: Quantity being output
+   
+1. Choose **Post** to post the production output.
 
    After you post production output, a quality inspection is created automatically. The inspection includes:
 
@@ -168,14 +109,6 @@ Configure inspections for specific routing operations:
 - **Routing No. Filter**: Specify a routing.
 - **Work Center Filter**: Specify a work center.
 - **Operation Filter**: Specify an operation number.
-
-### Multi-stage testing
-
-Set up inspections at different production stages:
-
-- **Assembly Operation**: Basic assembly checks
-- **Wiring Operation**: Electrical verification
-- **Testing Operation**: Final quality validation
 
 ## Production setup considerations
 

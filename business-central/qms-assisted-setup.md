@@ -157,13 +157,7 @@ This section lists recommendations
 - **Manufacturing Focus**: Enable production testing with appropriate display behavior for your workflow separation needs.
 - **Distribution Focus**: Enable receiving testing for relevant document types (typically purchase receipts).
 - **Comprehensive Quality**: Enable both production and receiving with **Show only manually created tests** to maintain workflow separation.
-- **Evaluation/Demo**: Enable all features with immediate display for training and demonstration purposes.
-
-## Troubleshooting
-
-- **Insufficient Permissions**: The guide checks for permissions, and displays an error message that instructs users to request permissions from their administrator.
-- **Previous Configuration**: The guide finds an existing configuration and preserves the previous settings. However, it allows updates.
-- **Getting Started Data**: Sample data installation only occurs if you chose that option and quality management isn't already configured, preventing duplicate or conflicting data. -->
+- **Evaluation/Demo**: Enable all features with immediate display for training and demonstration purposes. -->
 
 ## Related information
 

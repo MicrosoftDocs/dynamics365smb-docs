@@ -152,29 +152,6 @@ Configure when to create inspections, as follows:
 - **Manual or Automatic** means to create inspections manually or automatically.
 - **Manual Only** means that you must manually create inspections.
 
-## Troubleshooting
-
-The following sections describe typical issues and suggest solutions.
-
-### Inspections aren't being created automatically
-
-- Verify that you correctly configured your inspection generation rule.
-- Double-check that your item filter matches the purchased item.
-- Ensure that you set up your purchase trigger correctly.
-- Confirm that the template is assigned to the rule.
-
-### Inspections are created for the wrong items
-
-- Review the item filters in your inspection generation rules.
-- Check whether rules overlap.
-- Verify your rule priority and ordering.
-
-### Inspections are missing data
-
-- Confirm that you correctly configured item tracking.
-- Verify that lot numbers are assigned before posting.
-- Check the bin assignments, if the location requires bins.
-
 ## Related information
 
 [Purchase Receipt Inspections with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)  

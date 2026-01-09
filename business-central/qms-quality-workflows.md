@@ -278,49 +278,6 @@ Be diligent when you design your workflow. Start simple, with basic scenarios an
 
 Monitor the business effects of your workflows, and set up audit trails and approval processes. Help your users engage by ensuring that they understand the automated process, and incorporate their suggestions for process improvements.
 
-## Troubleshooting
-
-The following sections describe typical issues and suggest solutions.
-
-### The workflow doesn't trigger
-
-- Double-check that you enabled workflow integration.
-- Verify that your workflow is active.
-- Review the event conditions.
-- Confirm that users have the correct permissions.
-
-### Incorrect actions are running
-
-- Review your workflow conditions and logic.
-- Check whether multiple workflows are conflicting.
-- Verify your result code configuration.
-- Review the order in which your workflow steps run.
-
-### There are issues with performance
-
-- Monitor how often your workflow runs.
-- Review your settings for the related batch.
-- Consider the timing of the automated actions.
-- Evaluate the effect on your system resources.
-
-### Workflow events for quality management aren't available
-
-- Double-check that you enabled workflow integration on **Quality Management Setup** page.
-- Verify that your workflows are active.
-- Confirm that your users have the correct permissions
-
-## Actions aren't running
-
-- Review your workflow conditions.
-- Review your settings for the journal batch.
-- Verify that the values match your result code.
-
-### I'm getting unexpected blocking behavior
-
-- If you have multiple workflows, review their interactions.
-- Check your result-based transaction controls.
-- Verify your workflow priorities and sequence.
-
 ## Related information
 
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  

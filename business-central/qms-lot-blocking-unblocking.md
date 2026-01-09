@@ -274,44 +274,6 @@ For disposal, you can take the following actions:
 - Failing inspections maintain or create blocking.
 - Result changes update transaction permissions.
 
-## Troubleshoot lot blocking
-
-This section lists some typical issues and describes how to get unblocked.
-
-### My workflow doesn't start
-
-- The **Workflow Integration** toggle isn't enabled on the **Quality Management Setup** page. Turn on the toggle.
-- The workflow isn't active. Activate the workflow.
-- There's an incorrect event or condition in your workflow configuration. Review the settings in your workflow.
-
-### I get unexpected blocking behavior
-
-There might be a problem with your result control:
-
-- Review your result configuration for transaction types.
-- Check your inspection result assignments.
-- Verify your result inheritance rules.
-
-There might be conflicts with your workflow:
-
-- Check whether multiple workflows conflict.
-- Review workflow priorities.
-- Consider disabling conflicting workflows.
-
-### My lots aren't becoming unblocked
-
-There might be issues with your pass result:
-
-- Verify that the inspection had a passing result.
-- Check your workflow conditions for unblocking.
-- Review your result transition rules.
-
-You might need to manually intervene:
-
-- Manually unblock lots on the **Lot No. Information Card** page.
-- Review and correct your workflow configuration.
-- Consider using result-based controls instead.
-
 ## Related information
 
 [Purchase Receipt Inspections without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  

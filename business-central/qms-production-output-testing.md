@@ -199,17 +199,6 @@ If you use backflushing, there are a few things to consider:
 - Component lot tracking might affect inspection creation.
 - Review backflushing setup for quality integration.
 
-## Troubleshooting output inspections
-
-The following sections describe typical issues and suggest solutions.
-
-### Inspections aren't being created
-
-- Verify that your production trigger is set to **When Output is Posted**.
-- Double-check your inspection generation rule filters.
-- Ensure that the correct template is assigned.
-- Confirm that output actually posted.
-
 ## Related information
 
 [Creating Quality Inspection Templates](qms-quality-templates.md)  

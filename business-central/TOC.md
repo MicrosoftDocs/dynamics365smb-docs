@@ -1146,6 +1146,7 @@ ms.service: dynamics-365-business-central
 ### [Scheduled inspection creation](qms-scheduled-test-creation.md)
 ### [Lot blocking and unblocking](qms-lot-blocking-unblocking.md)
 ### [Non-compliant processing](qms-non-compliant-processing.md)
+### [Troubleshoot quality management features](qms-troubleshooting.md)
 
 ## Service management
 ### [Service management](service-service.md)

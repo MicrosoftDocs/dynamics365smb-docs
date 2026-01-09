@@ -133,29 +133,6 @@ Override field defaults for specific inspection template requirements:
 3. Select the field to modify.
 4. Configure conditions for the passing result. -->
 
-<!--
-## Troubleshooting results
-
-The following sections describe typical issues and suggest solutions.
-
-### Inspections don't calculate the expected results
-
-- Review result condition syntax.
-- Check the order of priority.
-- Verify the condition inheritance from fields to the template.
-
-### Results aren't available in inspection templates
-
-- Check your settings for result copy behavior.
-- Verify that the result isn't set to **Do Not Copy**.
-- Manually add the result to the template, if needed.
-
-### My workflow doesn't start
-
-- Confirm that the workflow condition matches the result code.
-- Check the result code spelling and case sensitivity.
-- Review the workflow activation status.
-
 ## Validate results
 
 The following are ways to test your result logic:
@@ -168,7 +145,7 @@ The following are ways to validate your process:
 
 - Create validation scenarios for each result outcome.
 - Verify business process responses to results.
-- Confirm that your reports display results correctly. -->
+- Confirm that your reports display results correctly.
 
 ## Related information
 

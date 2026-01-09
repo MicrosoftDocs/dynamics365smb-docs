@@ -132,21 +132,6 @@ The following sections offer things to think about when you set up the app for c
 - Create multiple templates for different types of inspections.
 - Set up workflows to automatically block and unblock lots.
 
-## Troubleshooting setup issues
-
-The following sections describe typical issues and suggest solutions.
-
-### Quality inspections aren't created automatically
-
-- Verify the trigger settings on the **Quality Management Setup** page.
-- Double-check that you correctly configured your inspection generation rules.
-- Ensure that you assigned templates to your inspection generation rules.
-
-### Workflow events aren't available
-
-- Verify that the **Enable Workflow Integration** is enabled on the **Quality Management Setup** page.
-- Check that users are assigned the appropriate permissions.
-
 ## Related information
 
 [Assisted Setup](qms-assisted-setup.md)  

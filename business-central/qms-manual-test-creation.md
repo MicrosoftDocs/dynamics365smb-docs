@@ -216,40 +216,6 @@ The following are some recommendations for inspection protocol:
 - Create good documentation.
 - Use follow-up procedures.
 
-## Troubleshoot manual inspection creation
-
-The following sections describe typical issues and suggest solutions.
-
-### The Create Test action isn't available
-
-- Configure manual-enabled inspection generation rules.
-- Verify your template assignments.
-- Verify that you assigned the right permissions to your users.
-
-### I'm missing template options
-
-- Verify that you have templates and that they're properly configured.
-- Double-check your inspection generation rule filters.
-- Ensure that you filled in the required fields on your templates.
-
-### I'm having problems with item selection
-
-- Confirm that the item exists and is properly configured for quality management.
-- Check whether your item tracking setup uses lot or serial numbers.
-- Verify your item permissions.
-
-### I'm missing source document details in my inspection information
-
-- Create the inspection from the appropriate source document.
-- Manually enter source information, if needed.
-- Verify the document posting status.
-
-### I'm having issues related to item tracking
-
-- Confirm that you have lot or serial numbers.
-- Double-check your item tracking code configuration.
-- Verify the quantity allocations.
-
 ## Related information
 
 [Purchase Receipt Inspection without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  

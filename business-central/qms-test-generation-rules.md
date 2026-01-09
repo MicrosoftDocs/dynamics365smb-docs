@@ -157,32 +157,6 @@ Use a vendor-specific rule for enhanced inspecting items from a specific vendor.
 - **Purchase Trigger**: **When Purchase Order is Received**
 - **Template**: Enhanced inspection template -->
 
-<!--
-
-MOVE THIS CONTENT TO A DEDICATED TROUBLESHOOTING ARTICLE
-
-### Troubleshooting test generation rules
-
-The following sections describe typical issues and suggest solutions.
-
-#### No inspections are created
-
-- Double-check you filter configuration.
-- Verify your trigger settings.
-- Confirm that you assigned the correct template.
-
-#### Too many inspections are created
-
-- Look for rules that overlap.
-- Make your filters more specific.
-- Double-check the order of your rules.
-
-#### The wrong template is applied
-
-- Verify the template assignment in the rule.
-- Double-check your rule priority and order.
-- Review your filter logic. -->
-
 ## Related information
 
 [Creating Quality Inspection Templates](qms-quality-templates.md)  

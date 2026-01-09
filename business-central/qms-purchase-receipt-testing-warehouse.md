@@ -179,28 +179,6 @@ Pay attention to your inspection generation rule triggers. The same trigger work
 - You don't need a separate configuration for warehouse versus nonwarehouse setups.
 - Rules apply consistently across location types.
 
-## Troubleshooting
-
-The following sections describe typical issues and suggest solutions.
-
-### No inspections are created
-
-- Verify that the **Require Receipt** toggle is turned on for the location.
-- Double-check that the inspection generation rule applies to the item.
-- Ensure that the warehouse receipt is posted.
-
-### I'm getting the wrong number of inspections
-
-- Review your item tracking configuration.
-- Check for lot consolidation in the warehouse receipt.
-- Verify the logic in your test generation rule.
-
-### Inspections are missing lot information
-
-- Confirm that you correctly configured item tracking.
-- Check whether lot numbers transfer to warehouse documents.
-- Verify that your item tracking code is set up.
-
 ## Related information
 
 [Purchase Receipt Inspection without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  

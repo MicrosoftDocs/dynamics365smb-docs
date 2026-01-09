@@ -103,32 +103,6 @@ Templates connect to automated test creation through inspection generation rules
 
 If you're using automated test creation, use the **Inspection Generation Rules** action. Learn more at [Set up inspection generation rules](qms-test-generation-rules.md).
 
-<!--
-
-WANT TO MOVE THIS CONTENT TO A DEDICATED TROUBLESHOOTING ARTICLE
-
-## Troubleshooting templates
-
-The following sections describe typical issues and suggest solutions.
-
-### Tests aren't creating
-
-- Verify that your test generation rules reference the template.
-- Double-check that your template configuration is complete.
-- Ensure that your field definitions are correct.
-
-### My pass/fail results are incorrect
-
-- Review your pass value ranges.
-- Verify that your allowed value ranges include pass values.
-- Double-check your field type configuration.
-
-### There are issues with performance
-
-- Minimize the number of complex fields.
-- Optimize your field calculations.
-- Consider whether you can simplify your template. -->
-
 ## Related information
 
 [Configuring Quality Inspection Results](qms-configuring-grades.md)  

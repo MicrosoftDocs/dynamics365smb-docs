@@ -110,28 +110,6 @@ Enter the following settings that control **Execution Parameters**:
 - **Rerun Delay**: Wait time between retry attempts.
 - **Status**: Use the **Set Status to Ready** action to update the status to **Ready** and enable the job queue entry.
 
-## Troubleshooting scheduled inspections
-
-The following sections describe typical issues and suggest solutions.
-
-### The job queue entry isn't running
-
-- Verify that the job queue service is running.
-- Double-check the status of the job queue entry.
-- Verify that users have the permissions they need.
-
-### No inspections are created
-
-- Verify the settings for your inspection generation rule.
-- Double-check your item filters and availability.
-- Review the codeunit parameters.
-
-### Too many inspections are created
-
-- Adjust your sampling percentages.
-- Refine your item filters.
-- Review the selection logic.
-
 ## Best Practices
 
 There are several things to think about when you determine your strategy for scheduling. Use a balanced approach, and combine scheduled and transaction-based inspections. Focus your scheduled inspections on high-risk areas, and maintain statistical validity.

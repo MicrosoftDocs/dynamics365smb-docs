@@ -186,6 +186,46 @@ The value of the **Prices including VAT** field comes directly from Shopify when
 >
 > If this field is selected and you don't charge taxes, you can manually turn off the **VAT (Tax) Included** field on the **Shopify Order** page and proceed.
 
+### Channel Liable Taxes 
+
+As of **January 1, 2025**, Shopify started to collect withholding taxes for all orders placed through the **Shop sales channel** that are shipped to or within the United States. Shopify remits these taxes through the Marketplace Facilitator Tax program in all US states for all US-registered sellers only.
+
+To support this functionality, the Shopify Connector includes **Channel Liable Tax** tracking to help merchants properly handle tax reporting and avoid double taxation.
+
+**Channel Liable Tax** occurs when the sales channel (marketplace, and in this case Shopify) is responsible for:
+
+- Collecting sales tax from the customer.
+- Remitting tax to the appropriate tax authorities.
+
+The Shopify Connector tracks channel liable tax information at multiple levels:
+
+1. The **Channel Liable** field in the **Shopify Order Tax Line** page, which indicates whether this specific tax line is liable to be collected and remitted by the sales channel.
+2. The **Channel Liable Taxes** flow field in the **Shopify Order Header** page displays **Yes** if any associated tax line has the **Channel Liable** toggle turned on.
+3. The **Channel Liable Taxes** field in the **Shopify Orders to Import** page, which is also used as request page when you import orders. It indicates whether the line on the order is channel liable.
+
+> [!NOTE]
+>
+> For performance reason, the connector only checks the first tax line.
+
+You can use the **Channel Liable Tax** information in the following ways:
+
+1. Review imported orders. The **Channel Liable Taxes** field indicates whether the order contains any marketplace-collected taxes.
+2. View tax line details. Choose the **Tax Lines** action on the **Shopify Order Card** page.
+3. Filter orders during import. When you import orders from Shopify, you can filter by channel liable status.
+
+#### Filter orders during import
+
+This is useful for:
+- Separating orders for different accounting treatments. 
+- Identifying which orders to exclude from tax returns
+- Reconciling with Shopify's tax reports
+
+Learn more at [Different processing rules for orders](synchronize-orders.md#different-processing-rules-for-orders).
+
+1. Open **Sync Orders from Shopify** report.
+2. Apply filter: `Channel Liable Taxes = Yes` to see only orders with marketplace-collected taxes
+3. Apply filter: `Channel Liable Taxes = No` to see orders where you're responsible for tax collection
+
 ## Related information
 
 [Shopify Connector overview](shopify-connector-overview.md)  

@@ -4,7 +4,7 @@ description: Set up and run import and processing of sales orders from Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 07/14/2025
+ms.date: 01/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
@@ -35,31 +35,37 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 * **Tip account**.
 * **Cash Rounding Account No.**. Learn more at [Working with Shopify POS](shopify-pos.md#order-handling)
   
-Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
+Turn on the **Auto Create Orders** toggle to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] when you import a Shopify order. If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as orders that contain only a gift card or which were already handled in Shopify, you can turn on the **Create Invoices From Orders** toggle then a **Sales Invoice** gets created. That setting can be useful when you delay the posting of a sales document because invoice doesn't affect inventory availability, but the order does.
+
+If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] adds sales lines of the type **Comment** with the Shopify order number.
+
+> [!NOTE]
+> The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipments. To learn more about adding a field, go to [Start personalizing by using the personalization mode](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 People who work with Shopify Admin might want to check whether orders are synchronized with [!INCLUDE[prod_short](../includes/prod_short.md)] and processed. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle gives you control over synchronization. When enabled, after an order is processed in [!INCLUDE[prod_short](../includes/prod_short.md)] and the corresponding sales document is created, the document number is added as an attribute to the Shopify order. An entry appears in the order’s timeline to indicate that [!INCLUDE[prod_short](../includes/prod_short.md)] modified the order. The next round of order synchronization includes the modified Shopify order.
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
-If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. For example, you might turn off the toggle if you sell digital goods or want to use another notification mechanism.
+The **Archive Processed Shopify Orders** toggle specifies whether Shopify Connector should archive fully paid and fulfilled orders in Shopify, provided the orders meet the the following conditions.
 
-If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
+- The **Fully Paid** field contains **Yes**.
+- The **Fulfillment Status** field contains **Fulfilled**.
+- The **Processed** field contains **Yes**, and either the **Sales Order No.** or **Sales Invoice No.** field has a value.
+- For shopify orders linked to sales orders, all lines in the linked sales order are fully shipped. The connector checks whether the **Outstanding Quantity** isn't **zero**. 
 
-> [!NOTE]
-> The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipments. To learn more about adding a field, go to [Start personalizing by using the personalization mode](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+The connector also archives fully paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], provided the orders meet the conditions.
 
 In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
-To automatically create sales invoices when you fulfill orders, turn on the **Create Invoices From Orders** toggle. By default, the toggle is turned on.  
+If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. For example, you might turn off the toggle if you sell digital goods or want to use another notification mechanism.
 
-#### Setup returns and refunds
+### Setup returns and refunds
 
 Specify how you process returns and refunds:
 
 * **Blank** specifies that you don't import and process returns and refunds.
 * **Import only** specifies that you import information, but you manually create the corresponding credit memo.
 * **Auto create credit memo** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
-
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
@@ -79,7 +85,7 @@ Some amounts associated with a refund post directly to the G/L account. Choose t
 
 Learn more at [Returns and refunds](synchronize-orders.md#returns-and-refunds)
 
-#### Time zone consideration
+### Time zone consideration
 
 There are several cases when the connector converts Date Time values received from Shopify to Date values in [!INCLUDE [prod_short](../includes/prod_short.md)]. The **Document Date** field on orders is one such field.
 
@@ -217,12 +223,12 @@ The **Shopify Orders to Import** page is useful for troubleshooting order import
 * Process only specific orders. Fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.
 * Delete orders from the **Shopify Order to Import** page to exclude them from the sync.
 
-## Review imported orders
+### Review imported orders
 
 After import completes, you can explore the Shopify order and find all related information. For example, the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments if the order was already fulfilled in Shopify. You can also see the order confirmation that was sent to the customer by choosing the **Shopify Status Page** action.
 
 > [!NOTE]  
-> You can go to the **Shopify Orders** page directly, where you'll find open and closed orders from all shops. If you want to focus on open orders only, use the **Open** view. You can also use views to show only unprocessed orders, orders where an error interrupted processing, or orders that have a conflict because they were updated in Shopify after they were processed in [!INCLUDE [prod_short](../includes/prod_short.md)].
+> The **Shopify Orders** page contains useful views, that allow you find all orders from all shops. If you want to focus on open orders only, use the **Open** view. You can also use views to show only unprocessed orders, orders where an error interrupted processing, or orders that have a conflict because they were updated in Shopify after they were processed in [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 Before sales documents are created in [!INCLUDE[prod_short](../includes/prod_short.md)], you can use the **Synch order from Shopify** action in the **Shopify Order** page to reimport specific orders.
 
@@ -240,7 +246,7 @@ If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!
 4. Select the order for which you want to create a sales document and choose the **Create Sales Documents** action.
 5. Choose **Yes**.
 
-If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created. 
+If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created. If you turn off the **Create Invoices From Orders** toggle, a **Sales Order** gets created for fulfilled orders. By default, the toggle is turned on.
 
 A sales document is created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
 
@@ -293,7 +299,35 @@ The following table shows examples of customer mappings.
 |10000	|*blank*	|30000  Not supported. Must be blank or the **Sell-to Customer No.** field must have a value.	|N/A|N/A|
 |*blank*	|*blank*	|*blank*	|*blank*	|*blank*|
 
-### Different processing rules for orders
+### Address information in the created sales document
+
+Sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] have three groups of fields related to customers:
+
+* Sell-to
+* Ship-to
+* Bill-to
+
+Each group contains following fields: **Name**, **Name 2**, **Address**, **Address 2**, **Post code**, **City**, **Country Code**. Depending on your setup, they can also contain a state or province.
+
+When you manually create a sales document, these fields contain information from the customer. If you use an alternative shipping address, they also contain information from the ship-to addresses entry. When working with Shopify orders, the address information is copied from Shopify. Both the Ship-to and Sell-to fields have information about shipping because Shopify doesn't differentiate between these two concepts. 
+
+Bill-to fields have the billing address specified in the Shopify order. One reason for this is that addresses in Shopify are often more accurate than in [!INCLUDE[prod_short](../includes/prod_short.md)]. Using the address specified in the Shopify order is also useful for scenarios when a default customer number is defined in the **Shopify Shop Card** or **Customer Setup by Country/Region** pages.
+
+> [!NOTE]  
+> To ensure that you can review address details in the created sales document, set both the **Ship-to** and **Bill-to** fields to **Custom Address**.
+
+### Locations in the created sales document
+
+For each sales document line that requires fulfillment, the connector locates fulfillment order lines that link to the same order and contain an identical product and variant. The connector prioritizes fulfillment orders with statuses that differ from CLOSED. When it finds such fulfillment lines, the connector uses the **Location ID** from the fulfillment line. If multiple fulfillment lines for the same order line exist but reference different locations, only one location is used.
+
+> [!NOTE]  
+> The Shopify API doesn't show information about the connection between the order line and the fulfillment order line. The connector finds the corresponding fulfillment order line by filtering by product and variant. Usually, Shopify doesn't allow several lines with the same product and variant in the single order. However, you can do that via apps or when using the **Buy X get Y** discount with identical products for **Customer gets** and **Customer buys**. In these cases, the connector can't find fulfillment lines.
+
+If the connector can't find corresponding fulfillment order lines, it uses the **Location ID** on the Shopify order line. When using non-Microsoft fulfillment services or the Business Central Fulfillment Service, this field contains accurate location data. If fulfillment is performed manually in **Shopify Admin**, the default location is applied. You can view the default location in your **Shopify admin**. Check the **Default location** section of the [Locations](https://www.shopify.com/admin/settings/locations) settings.
+
+When you create sales documents, the connector checks the **Shopify Locations Mapping** page for a corresponding entry and applies the **Default Location Code** from the matched entity. To learn more, go to [Location Mapping](#location-mapping).
+
+## Different processing rules for orders
 
 You might want to process orders differently based on a rule. For example, orders from a specific sales channel, like POS, should use the default customer, but you want your online store to have real information about the customer.
 
@@ -317,7 +351,7 @@ Each job queue imports and processes orders within the defined filters and uses 
 >
 > Don't rely on the **Auto Sync Orders** setting because it doesn't support filters and request page parameters.
 
-### Effect of order editing
+## Effect of order editing
 
 **In Shopify:**
 
@@ -332,7 +366,7 @@ Each job queue imports and processes orders within the defined filters and uses 
 |Cancel paid order | Order header is updated, to be processed separately |Connector detects the change and marks the orders. |
 |Cancel unpaid order | Removed item isn't imported. A Shopify refund with zero amount is imported that can't be converted to a credit memo. |Connector detects the change and marks the orders. |
 
-If an order was already processed in [!INCLUDE[prod_short](../includes/prod_short.md)], the connector displays the following error message: *The order was already processed in Business Central, but an edition was received from Shopify. Changes weren't propagated to the processed order in Business Central. Update the processed documents to match the received data from Shopify. If you wish to force the synchronization use the action "Sync order from Shopify" in the Shopify Order card page.*
+If an order was already processed in [!INCLUDE[prod_short](../includes/prod_short.md)], the connector displays the following error message: *The order was already processed in Business Central, but an edition was received from Shopify. Changes weren't propagated to the processed order in [!INCLUDE[prod_short](../includes/prod_short.md)]. Update the processed documents to match the received data from Shopify. If you wish to force the synchronization use the action "Sync order from Shopify" in the Shopify Order card page.*
 
 Depending on status of the created sales document, you can perform following actions:
 
@@ -359,12 +393,14 @@ When a sales order created from a Shopify order is shipped, you can synchronize 
 3. Choose **OK**.
 
 The sync includes posted sales shipments under the following conditions:
-- The **Shopify Order Id** field doesn't contains *0* and related shopify order exists.
+
+- The **Shopify Order Id** field doesn't contain *0* and a related shopify order exists.
 - The **Shopify Fulfillment Id** field contains *0*.
 - Posted shipment has at least one line of type item with quantity more than zero. The related shopify order line exists.
+- The order in Shopify is marked as fulfilled. 
 
-The order in Shopify is marked as fulfilled. 
 If the **Send Shipping Confirmation** toggle is enabled, the customer automatically receives a shipment notice email or text message (SMS). 
+
 If a shipping agent and a tracking code are specified on the shipment, the tracking information is updated in the order in Shopify and included in the email to customer.
 
 Update the **Shopify Fulfillment ID** field based on the results of the sync:
@@ -381,10 +417,10 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 > **Know limitations:**
 > 
 > - Orders with multiple lines of the same product will not be fulfilled. Mark such orders as fulfilled in Shopify Admin. This issue can occur when using the **Buy X get Y** discount with identical products for **Customer gets** and **Customer buys**.
-> - Shopify order line split across two locations (e.g., *2* from *EAST* and *3* from *WEST*) will appear in [!INCLUDE[prod_short](../includes/prod_short.md)] as a single sales order line with just one location—such as *WEST*. If you ship all *5* at once, the order will not be fulfilled. If you first modify quantity to Ship in [!INCLUDE[prod_short](../includes/prod_short.md)] to *2* and post shipment and then post shipment of remaining *3*, then the Shopify order will be marked as partially fulfilled with *3* units fulfilled from location selected in the sales order order line, in this example it will be *WEST*.   
-> - Modification in sales order before posting may impact ability of connector to synchronize shipments to Shopify. For more information, see the second table in the [Effect of order editing](#effect-of-order-editing).
+> - A Shopify order line split across two locations (for example, *2* from *EAST* and *3* from *WEST*) appears in [!INCLUDE[prod_short](../includes/prod_short.md)] as a single sales order line with just one location—such as *WEST*. If you ship all *5* at the same time, the order won't be fulfilled. If you first modify the quantity to Ship in [!INCLUDE[prod_short](../includes/prod_short.md)] to *2* and post shipment, and then you post the shipment of the remaining *3*, the Shopify order is marked as partially fulfilled with *3* units fulfilled from the location selected in the sales order order line. In this example, it's *WEST*.   
+> - Modification in sales order before posting might affect the connector's ability to synchronize shipments to Shopify. To learn more, go to the second table in the [Effect of order editing](#effect-of-order-editing) section.
 
-Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector also archives fully paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], provided the orders meet the conditions.
+Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
 ### Shipping agents and tracking URL
 

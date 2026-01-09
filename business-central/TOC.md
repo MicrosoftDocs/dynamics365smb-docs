@@ -649,6 +649,29 @@ ms.service: dynamics-365-business-central
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
 ### Subscription billing
 #### [Overview of subscription billing](SRB/welcome.md)
+
+<!-- Subscription billing analytics start -->
+#### Subscription billing analytics
+##### [Power BI subscription billing app](SRB/analytics/subscription-powerbi-app.md)
+##### [Subscription billing overview](SRB/analytics/subscription-powerbi-overview.md)
+##### [Revenue Year-Over-Year](SRB/analytics/subscription-powerbi-revenue-year-over-year.md)
+##### [Revenue Analysis](SRB/analytics/subscription-powerbi-revenue-analysis.md)
+##### [Revenue Development](SRB/analytics/subscription-powerbi-revenue-development.md)
+##### [Churn Analysis](SRB/analytics/subscription-powerbi-churn-analysis.md)
+##### [Revenue by Item](SRB/analytics/subscription-powerbi-revenue-by-item.md)
+##### [Revenue by Customer](SRB/analytics/subscription-powerbi-revenue-by-customer.md)
+##### [Revenue by Salesperson](SRB/analytics/subscription-powerbi-revenue-by-salesperson.md)
+##### [Total Contract Value Year-Over-Year](SRB/analytics/subscription-powerbi-total-contract-value-year-over-year.md)
+##### [Total Contract Value Analysis](SRB/analytics/subscription-powerbi-total-contract-value-analysis.md)
+##### [Customer Deferrals](SRB/analytics/subscription-powerbi-customer-deferrals.md)
+##### [Vendor Deferrals](SRB/analytics/subscription-powerbi-vendor-deferrals.md)
+##### [Sales and Cost Forecast](SRB/analytics/subscription-powerbi-sales-cost-forecast.md)
+##### [Billing Schedule](SRB/analytics/subscription-powerbi-billing-schedule.md)
+##### [Power BI subscription billing app semantic model](SRB/analytics/subscription-powerbi-semantic-model.md)
+##### [Subscription billing KPI overview](SRB/analytics/subscription-powerbi-subscription-kpis.md)
+##### [Setting up the Power BI subscription billing app](SRB/analytics/subscription-powerbi-app-setup.md)
+<!-- Subscription billing analytics end -->
+
 #### Contracts
 ##### [Manage contracts, subscriptions, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
 ##### [Create customer subscription contracts](SRB/working-with-contracts/customer-contracts.md)

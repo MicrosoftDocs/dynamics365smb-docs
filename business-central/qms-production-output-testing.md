@@ -33,7 +33,7 @@ To automate the process of creating inspections for production output, there are
    - Fill in the **Lot Nos.** field with the number series to use for automatic lot assignment.
    - Make sure a routing is created for the item.
 
-- You must set up a global trigger for production output. On the **Quality Management Setup** page, in the **Production Trigger** field, choose **When Output is Posted**.
+- You must set up a global trigger for production output. On the **Quality Management Setup** page, in the **Production - Create Inspection** field, choose **When Output is Posted**.
 - You must create inspection generation rules for production output testing. Learn more at [Create a production rule](qms-test-generation-rules.md#create-a-production-rule).
 
 
@@ -93,8 +93,8 @@ The following steps give an overview of how to complete a production inspection.
 
 1. Open a quality inspection.
 2. Enter the measurement values.
-3. Review the calculated grade that the template configuration and measurement results determine.
-4. **Finish** the inspection when it's complete.
+3. Review the calculated results that the template configuration and measurements determine.
+4. Choose the **Finish** action when the inspection is complete.
 
 ## Advanced configuration
 
@@ -114,7 +114,7 @@ Configure inspections for specific routing operations:
 
 ### Posting setup requirements
 
-Ensure that you have an **Inventory Posting Setup** for item transactions.
+Ensure that you have an **Inventory Posting Setup** for item transactions. Learn more at [Specific posting groups](finance-posting-groups.md#specific-posting-groups).
 
 ### Item tracking integration
 

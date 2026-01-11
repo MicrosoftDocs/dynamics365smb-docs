@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 
-ms.date: 10/20/2025
+ms.date: 01/11/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -24,7 +24,7 @@ This article explains various ways to manually create quality inspections. Manua
 - Investigating customer complaints, where your inspections are related to external feedback.
 
 Manual inspections use the same templates and configurations as automatic inspections.
-
+<!--
 ## Prerequisites
 
 There are a few things to set up before you can manually create inspections.
@@ -34,7 +34,7 @@ There are a few things to set up before you can manually create inspections.
 - Make items available for inspections.
 - Assign the **Quality Inspection** permission sets to users.
 
-## Configure test generation rules
+## Configure inspection generation rules
 
 You can set up rules for generating inspections manually, or manually and automatically. This section describes how.
 
@@ -63,6 +63,7 @@ Create rules specifically for manual inspection creation:
 - You can create inspections automatically and manually.
 - Provide flexibility for both proactive and reactive inspections.
 - Represents the most comprehensive approach to inspections.
+-->
 
 ## Create tests manually
 
@@ -101,13 +102,14 @@ This method is best for creating inspections that are independent of specific do
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and then choose the related link.
 2. Select the template to use.
 3. Choose the **Create Inspection** action.
-4. Set up parameters for your test, as follows:
+4. Set up parameters for your inspection, as follows:
 
    - **Source**: Optionally, enter the source document reference.
    - **Item Number**: Select the item to inspect.
    - **Lot/Serial Number**: Enter a lot or serial number, if needed.
    - **Quantity**: Specify the quantity to inspect.
 
+<!--
 ## Scenarios where you might create inspections manually
 
 The following sections offer high-level, sample scenarios in which you might manually create quality inspections.
@@ -127,7 +129,7 @@ Reactive inspections are typically done in situations where you discover a quali
 For example, if a customer complains about a finished good you produced, you might want to inspect the quality of your production output. In this case, you create the inspection from a quality inspection template.
 
 1. Choose the appropriate quality template.
-2. Choose the **Create Test** action.
+2. Choose the **Create Inspection** action.
 3. Configure the details:
 
    - **Item**: Select the finished item.
@@ -141,7 +143,7 @@ Some businesses do spot-checks to verify quality at random times. In this case, 
 
 1. Select the items for spot checking.
 2. Open the relevant purchase order.
-3. Select the line, and then choose the **Create Test** action.
+3. Select the line, and then choose the **Create Inspection** action.
 4. Add lot information, if needed.
 5. Perform a detailed quality evaluation.
 
@@ -215,7 +217,7 @@ The following are some recommendations for inspection protocol:
 - Inspect appropriate sample sizes.
 - Create good documentation.
 - Use follow-up procedures.
-
+-->
 ## Related information
 
 [Purchase Receipt Inspection without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  

@@ -80,7 +80,7 @@ Although a fiscal year is closed, you can still post general ledger entries to i
 
 ## Contributors
 
-[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+[!INCLUDE [contributor_credit](includes/contributor_credit.md)]
 
 - [Cari Corozza](https://www.linkedin.com/in/cari-corozza-cpa) | CPA and Microsoft Certified Trainer (MCT)
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.search.form: 100,
+ms.search.form: 100_Primary
 ms.date: 08/05/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -21,9 +21,28 @@ For many companies the fiscal year doesn't align with the calendar year, for ins
 
 You can use accounting periods in reporting such as when you're reviewing posted entries on the **Balance/Budget** page where the reporting interval is specified. One of the options you might specify is to report by accounting period. You can also build a financial report that compares results for different accounting periods.
 
+> [!NOTE]  
+> Posting dates are controlled by the *Allowed Posting Date* settings in the *General Ledger Setup* and *User Setup*, not by Accounting Periods.
+
+## Fields in an accounting period
+
+The *Accounting Periods* page includes several important fields that control structure and status. Here’s what each field means:
+
+| Field name | Description | Remark |
+| ---------- | ----------- | ------ |
+| Closed     | Indicates the fiscal year is closed. | This does not prevent posting. When you run Close Year, this box is checked automatically. Accounting periods themselves only need closing once per year at year-end. | 
+| Date Locked | Prevents changes to the start date of an accounting period (for example, changing 01/01/2025 to 01/05/2025). | This setting affects structure, not posting. It is automatically checked when Close Year runs. |
+| Inventory Period Closed | If you use inventory periods, these should be closed monthly. Once closed, the status flows into the Accounting Periods checklist and supports accurate inventory reporting. ||
+
+
 ## Creating a new fiscal year
 
 You can create accounting periods in bulk by using the **Create Fiscal Year** batch job, or by doing so manually.
+
+To uncheck New Fiscal Year for a closed year, you must first clear the *Date Locked* field.
+
+> [!TIP]  
+> Only the first month of the year should have New Fiscal Year selected.
 
 ### How to create accounting periods in bulk
 
@@ -58,6 +77,13 @@ Closing the fiscal year is one of the tasks for closing the books. After you clo
 ## Posting entries to a closed fiscal year
 
 Although a fiscal year is closed, you can still post general ledger entries to it. When you do, the entries are marked as posted to a closed fiscal year and the **Prior Year Entry** check box is selected. By default, the check box isn't displayed on the page, but you can add it. The next steps are to close the income statement accounts and transfer the year's results to an account in the balance sheet. Repeat these steps each time you post entries to a closed fiscal year.
+
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Cari Corozza](https://www.linkedin.com/in/cari-corozza-cpa) | CPA and Microsoft Certified Trainer (MCT)
+
 
 ## Related information
 

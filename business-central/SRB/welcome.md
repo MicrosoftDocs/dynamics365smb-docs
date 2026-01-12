@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
-ms.search.form: 8067, 8084,
-ms.date: 05/07/2025
+ms.search.form: 8067,
+ms.date: 01/11/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -69,6 +69,10 @@ The **Subscription Billing** Role Center collects the features for subscription 
 The revenues and costs figures show the current and previous month's revenues and costs that were posted in connection with contract billing.
 
 The **Overdue** and **Not invoiced** cues indicate that subscription lines are either still to be billed (Overdue) or that a posting document hasn't been created yet (Not invoiced) for lines in a billing proposal. The cues are based on the workdate.
+
+## Get started
+
+To start using subscription billing features, there are a few things to set up first. For example, you must define settings for subscription contracts, job queue entries, and a few general settings. Learn more at [General setup](setup/general.md).  
 
 ## Related information
 

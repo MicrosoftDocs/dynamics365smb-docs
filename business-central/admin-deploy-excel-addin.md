@@ -19,7 +19,7 @@ ms.reviewer: jswymer
 
 ### About the add-in
 
-The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). Learn more about using the add-in at [View and Edit in Excel From Business Central](across-work-with-excel.md).
+The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from the [Office Store (Marketplace)](https://marketplace.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). Learn more about using the add-in at [View and Edit in Excel From Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > The add-in works on Windows only.
@@ -68,7 +68,7 @@ In this task, you work in both [!INCLUDE[prod_short](includes/prod_short.md)] an
 3. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2163967) and go to **Integrated Apps**<!--**Add-ins**-->.
 
     Complete the following steps to configure the add-in to deploy from the Office Store: 
-    1. Choose **Get apps** to open Office Store (AppSource). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->
+    1. Choose **Get apps** to open Office Store (Marketplace). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->
     2. Search for **Microsoft Dynamics Office Add-in**, then select **Get it now**. <!--On the **Select add-in** page, search for and select **Microsoft Dynamics Office Add-in** > **Add** > **Continue**.-->
     3. On the **Add Users** page, specify the users that you want to deploy the add-in for, then choose **Next**.<!--On the **Configure add-in**, specify the users that you want to deploy the add-in for.-->
     4. Review the **Accept permissions requests**, then choose **Next** > **Finish Deployment**.
@@ -321,7 +321,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 
 ### To deploy the Excel add-in for all users
 
-1. As the administrator, sign in to the Microsoft commercial website and find the add-in at [https://appsource.microsoft.com/product/office/WA104379629](https://appsource.microsoft.com/product/office/WA104379629).
+1. As the administrator, sign in to the Microsoft commercial website and find the add-in at [https://marketplace.microsoft.com/product/office/WA104379629](https://marketplace.microsoft.com/product/office/WA104379629).
 2. Choose the **Get it now** button.
 
     You'll be redirected to the Microsoft 365 admin center.

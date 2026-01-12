@@ -35,7 +35,7 @@ Yes. Learn more at [Download a report from the Power BI service to Power BI Desk
 <!-- 27 -->
 ### Can I download the apps as pbix files?
 
-No. Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on AppSource.
+No. Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on Marketplace.
 
 <!-- ## [User access and licensing](#tab/license) -->
 ## Questions about user access and licensing

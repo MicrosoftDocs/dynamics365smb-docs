@@ -100,7 +100,7 @@ Just enter at least three characters of a keyword, and then choose either **Sear
 
 ## Get more functionality from apps
 
-Our partner community is busily developing apps that add capabilities to [!INCLUDE[prod_short](includes/prod_short.md)]. The **Get from Microsoft AppSource** section lists apps for [!INCLUDE[prod_short](includes/prod_short.md)] that are available on Microsoft AppSource and are related to the keyword you searched for.
+Our partner community is busily developing apps that add capabilities to [!INCLUDE[prod_short](includes/prod_short.md)]. The **Get from Microsoft Marketplace** section lists apps for [!INCLUDE[prod_short](includes/prod_short.md)] that are available on Microsoft Marketplace and are related to the keyword you searched for.
 
 ## Use search on list pages
 

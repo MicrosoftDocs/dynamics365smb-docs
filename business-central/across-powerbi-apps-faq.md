@@ -34,7 +34,7 @@ Learn more in [Installing Power BI apps for Business Central (prerequisites)](ac
 
 You must have [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for the following reasons:
 
-1. You must install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft AppSource.
+1. You must install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft Marketplace.
 2. You must share a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
 
 The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
@@ -109,7 +109,7 @@ The source code (.pbix files) for the Power BI apps is available from the follow
 | Subscription Billing           | 26.2 and later |
 | Sustainability                 | 26.2 and later |
 
-You can download the .pbix file by installing the app from AppSource and then download the source code from the installed app.
+You can download the .pbix file by installing the app from Marketplace and then download the source code from the installed app.
 
 ## Are the apps available for on-premises installations?
 

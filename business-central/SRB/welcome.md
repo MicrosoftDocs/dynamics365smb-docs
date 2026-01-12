@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
-ms.search.form: 8067
-ms.date: 05/07/2025
+ms.search.form: 8067,
+ms.date: 01/11/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -18,7 +18,7 @@ Subscription billing lets you bill for contractually agreed services on a recurr
 
 ## Flexible and user-friendly subscription management
 
-You assign the serviceable items you sell (subscriptions), whether it's the sale of an item with attached services, a rental agreement, or any other contractual agreement, to customers. While subscriptions are usually static, the associated service (subscription lines) that you invoice on a recurring basis can change while a contract is active.
+You assign the serviceable items you sell (subscriptions), whether it's the sale of an item with attached services (as subscriptions), a rental agreement, or any other contractual agreement, to customers. While subscriptions are usually static, the associated service (subscription lines) that you invoice on a recurring basis can change while a contract is active.
 
 ## Features of subscription billing
 
@@ -26,7 +26,7 @@ You assign the serviceable items you sell (subscriptions), whether it's the sale
 * Preview all existing monthly recurring billing and your upcoming invoices
 * Simplify billing with billing templates
 * Automatically calculate notice periods
-* Use accrual-based posting of income and expenses to profit and loss accounts
+* Use deferral-based posting of income and expenses to profit and loss accounts
 
 ## Main elements of subscription billing 
 
@@ -69,6 +69,10 @@ The **Subscription Billing** Role Center collects the features for subscription 
 The revenues and costs figures show the current and previous month's revenues and costs that were posted in connection with contract billing.
 
 The **Overdue** and **Not invoiced** cues indicate that subscription lines are either still to be billed (Overdue) or that a posting document hasn't been created yet (Not invoiced) for lines in a billing proposal. The cues are based on the workdate.
+
+## Get started
+
+To start using subscription billing features, there are a few things to set up first. For example, you must define settings for subscription contracts, job queue entries, and a few general settings. Learn more at [General setup](setup/general.md).  
 
 ## Related information
 

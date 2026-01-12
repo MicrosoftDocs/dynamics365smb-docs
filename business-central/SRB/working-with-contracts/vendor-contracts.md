@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
-ms.search.form: 8071,
+ms.search.form: 8071, 8070,
 ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -50,10 +50,12 @@ If you want to extend a contract by an additional component, you can use the **E
 
 The page is divided into three sections. In the first part, **Vendor**, use the **Vendor Subscription Lines without Vendor Subscription Contract Contract No.** field to select the vendor contract that is to accommodate the (possible) vendor-side subscription lines. The field is only editable if **Extend Vendor Contract** is active. The second part of the page, **Customer**, is similar. In the third part, in the **Item No.** field, specify the item that corresponds to the new contract element. You can use the **Quantity** and **Provision Start Date** fields to add more detail. The AssistEdit :::image type="content" source="../../media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: on **Additional Subscription lines** allows you to specify optional subscription lines for the selected item.
 
-The page behaves slightly differently, depending on how it's called. Basically, the values of the last call are saved (per user). The settings are used to preset the next time the page is opened. When calling from a customer subscription contract, the **Customer** part is predefined accordingly. The same applies to the **Vendor** part for the call from a vendor contract. In both cases, the contract extension runs when you choose **OK**.
+The page behaves slightly differently, depending on how it's called. Basically, the values of the last call are saved (per user). The settings are used to preset the next time the page is opened. When calling from a vendor subscription contract, the **Vendor** tab is predefined accordingly. The same applies to the **Customer** tab for the call from a customer subscription contract. In both cases, the contract extension runs when you click **OK**.
 
-> [!NOTE]
-> In addition to the **Contract Card** page, you can also open the page from the menu. In this case, the values of the last call are also used as default values. However, there isn't an OK button to run the action. Instead, use the **Perform Extension** action. This action isn't available when you open the page from a customer or vendor contract.
+You can also open the page from the menu or via Tell Me search. In this case, the values of the last call are also used as default values. However, the **OK** button isn't available to run the action. To run the action, use the **Perform Extension** action. The **Perform Extension** action isn't available when you open the page from a customer or vendor contract.
+
+> [!TIP]
+> Vendor subscription contracts can also be extended by simply creating a new contract line [manually](manual-contract-lines.md).
 
 ## Invoice discounts
 

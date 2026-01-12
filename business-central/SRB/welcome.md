@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
-ms.search.form: 8067
+ms.search.form: 8067, 8084,
 ms.date: 05/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -18,7 +18,7 @@ Subscription billing lets you bill for contractually agreed services on a recurr
 
 ## Flexible and user-friendly subscription management
 
-You assign the serviceable items you sell (subscriptions), whether it's the sale of an item with attached services, a rental agreement, or any other contractual agreement, to customers. While subscriptions are usually static, the associated service (subscription lines) that you invoice on a recurring basis can change while a contract is active.
+You assign the serviceable items you sell (subscriptions), whether it's the sale of an item with attached services (as subscriptions), a rental agreement, or any other contractual agreement, to customers. While subscriptions are usually static, the associated service (subscription lines) that you invoice on a recurring basis can change while a contract is active.
 
 ## Features of subscription billing
 
@@ -26,7 +26,7 @@ You assign the serviceable items you sell (subscriptions), whether it's the sale
 * Preview all existing monthly recurring billing and your upcoming invoices
 * Simplify billing with billing templates
 * Automatically calculate notice periods
-* Use accrual-based posting of income and expenses to profit and loss accounts
+* Use deferral-based posting of income and expenses to profit and loss accounts
 
 ## Main elements of subscription billing 
 

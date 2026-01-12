@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 100_Primary
-ms.date: 08/05/2024
+ms.date: 01/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -22,27 +22,33 @@ For many companies the fiscal year doesn't align with the calendar year, for ins
 You can use accounting periods in reporting such as when you're reviewing posted entries on the **Balance/Budget** page where the reporting interval is specified. One of the options you might specify is to report by accounting period. You can also build a financial report that compares results for different accounting periods.
 
 > [!NOTE]  
-> Posting dates are controlled by the *Allowed Posting Date* settings in the *General Ledger Setup* and *User Setup*, not by Accounting Periods.
+> Posting dates are controlled by the following fields on the **General Ledger Setup** and **User Setup** pages, 
+>
+> - **Allow Posting From**
+> - **Allow Posting To**
+> - **Allow Deferral Posting From**
+> - **Allow Deferral Posting To**
+>
+> Accounting periods don't control posting dates.
 
 ## Fields in an accounting period
 
-The *Accounting Periods* page includes several important fields that control structure and status. Here’s what each field means:
+The **Accounting Periods** page includes several important fields that control structure and status. The following table describes the fields.
 
 | Field name | Description | Remark |
 | ---------- | ----------- | ------ |
-| Closed     | Indicates the fiscal year is closed. | This does not prevent posting. When you run Close Year, this box is checked automatically. Accounting periods themselves only need closing once per year at year-end. | 
-| Date Locked | Prevents changes to the start date of an accounting period (for example, changing 01/01/2025 to 01/05/2025). | This setting affects structure, not posting. It is automatically checked when Close Year runs. |
-| Inventory Period Closed | If you use inventory periods, these should be closed monthly. Once closed, the status flows into the Accounting Periods checklist and supports accurate inventory reporting. ||
-
+| Closed     | Indicates that the fiscal year is closed. | This setting doesn't prevent posting. When you use the **Close Year** action, this checkbox is selected automatically. You only need to close accounting periods one time per year at year-end. | 
+| Date Locked | Prevents changes to the start date of an accounting period. For example, changing 01/01/2026 to 01/05/2026. | This setting affects structure, not posting. The checkbox is automatically checked when you use the **Close Year** action. |
+| Inventory Period Closed | If you use inventory periods, you should close them on a monthly basis. When you close an inventory period, the status flows into the **Accounting Periods** checklist and supports accurate inventory reporting. ||
 
 ## Creating a new fiscal year
 
 You can create accounting periods in bulk by using the **Create Fiscal Year** batch job, or by doing so manually.
 
-To uncheck New Fiscal Year for a closed year, you must first clear the *Date Locked* field.
+To clear the **New Fiscal Year** checkbox for a closed year, you must first clear the **Date Locked** checkbox.
 
 > [!TIP]  
-> Only the first month of the year should have New Fiscal Year selected.
+> The **New Fiscal Year** checkbox should only be selected for the first month of the fiscal year.
 
 ### How to create accounting periods in bulk
 
@@ -60,8 +66,8 @@ Use the **Create Fiscal Year** batch job to divide a fiscal year into periods of
 If the accounting periods in your fiscal year have different durations, such as the 4-4-5 calendar used in retail, you can manually set it up.  
   
 1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, then choose the related link.  
-2. In the **Starting Date** field, enter the date on which the fiscal year starts. The **Name** field will show the name of the month.  
-3. Choose the **New Fiscal Year** check box to indicate that this is the first period in the year. [!INCLUDE[prod_short](includes/prod_short.md)] will use this period to determine which periods to close at year-end.
+2. In the **Starting Date** field, enter the date on which the fiscal year starts. The **Name** field shows the name of the month.  
+3. Choose the **New Fiscal Year** checkbox to indicate that this period is the first in the year. [!INCLUDE[prod_short](includes/prod_short.md)] uses this period to determine which periods to close at year-end.
 4. Repeat steps 2 and 3 for each remaining period.  
 
 ## Closing a fiscal year
@@ -69,7 +75,7 @@ If the accounting periods in your fiscal year have different durations, such as 
 Closing the fiscal year is one of the tasks for closing the books. After you close a fiscal year, the **Closed** and **Date Locked** check boxes are selected for all periods in the year. You can't reopen a year or clear the check boxes.
 
 > [!NOTE]  
-> You must always have at least one open fiscal year. When closing a year, ensure that a new year has been created. Also, note that after you close one year, you cannot change the starting date of the following year.
+> You must always have at least one open fiscal year. Before you close a year, ensure that a new year is created. Also, after you close a year, you can't change the starting date of the following year.
 
 1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
 2. Choose the **Close Year** action.  

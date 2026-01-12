@@ -1,13 +1,13 @@
 ---
 title: Examples for subscription billing 
 description: Examples provide an overview of use cases available for subscription billing.
-author: TobiSIT
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8067, 8084,
-ms.date: 05/07/2025
+ms.date: 01/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

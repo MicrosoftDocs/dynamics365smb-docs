@@ -652,6 +652,29 @@ ms.service: dynamics-365-business-central
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
 ### Subscription billing
 #### [Overview of subscription billing](SRB/welcome.md)
+
+<!-- Subscription billing analytics start -->
+#### Subscription billing analytics
+##### [Power BI subscription billing app](SRB/analytics/subscription-powerbi-app.md)
+##### [Subscription billing overview](SRB/analytics/subscription-powerbi-overview.md)
+##### [Revenue Year-Over-Year](SRB/analytics/subscription-powerbi-revenue-year-over-year.md)
+##### [Revenue Analysis](SRB/analytics/subscription-powerbi-revenue-analysis.md)
+##### [Revenue Development](SRB/analytics/subscription-powerbi-revenue-development.md)
+##### [Churn Analysis](SRB/analytics/subscription-powerbi-churn-analysis.md)
+##### [Revenue by Item](SRB/analytics/subscription-powerbi-revenue-by-item.md)
+##### [Revenue by Customer](SRB/analytics/subscription-powerbi-revenue-by-customer.md)
+##### [Revenue by Salesperson](SRB/analytics/subscription-powerbi-revenue-by-salesperson.md)
+##### [Total Contract Value Year-Over-Year](SRB/analytics/subscription-powerbi-total-contract-value-year-over-year.md)
+##### [Total Contract Value Analysis](SRB/analytics/subscription-powerbi-total-contract-value-analysis.md)
+##### [Customer Deferrals](SRB/analytics/subscription-powerbi-customer-deferrals.md)
+##### [Vendor Deferrals](SRB/analytics/subscription-powerbi-vendor-deferrals.md)
+##### [Sales and Cost Forecast](SRB/analytics/subscription-powerbi-sales-cost-forecast.md)
+##### [Billing Schedule](SRB/analytics/subscription-powerbi-billing-schedule.md)
+##### [Power BI subscription billing app semantic model](SRB/analytics/subscription-powerbi-semantic-model.md)
+##### [Subscription billing KPI overview](SRB/analytics/subscription-powerbi-subscription-kpis.md)
+##### [Setting up the Power BI subscription billing app](SRB/analytics/subscription-powerbi-app-setup.md)
+<!-- Subscription billing analytics end -->
+
 #### Contracts
 ##### [Manage contracts, subscriptions, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
 ##### [Create customer subscription contracts](SRB/working-with-contracts/customer-contracts.md)
@@ -844,6 +867,7 @@ ms.service: dynamics-365-business-central
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
 ##### [Projects KPI overview](projects-powerbi-kpis.md) 
+##### [Project Timeline (Power BI Report)](projects-powerbi-project-timeline.md)
 
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
@@ -1230,6 +1254,7 @@ ms.service: dynamics-365-business-central
 ### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
 ### [Work with carbon credit](sustainability-carbon-credit.md)
 ### [Sustainability certificates](sustainability-certificates.md)
+### [Use CBAM and EPR calculations](sustainability-cbam-epr-calculations.md)
 ### Sustainability Value Chain
 #### [Sustainability Value Chain](value-chain-howto-overview.md)
 #### [Value Chain Setup](value-chain-howto-setup.md)
@@ -2124,15 +2149,6 @@ ms.service: dynamics-365-business-central
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
 #### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
-#### Set up subscription billing
-##### Overview
-###### [General Setup](SRB/setup/general.md)
-###### [Assign permissions](SRB/setup/permissions.md)
-###### [Set up subscription contract types](SRB/setup/contract-types.md)
-###### [Import subscription contracts and contract lines](SRB/setup/import.md)
-###### [Use the job queue](SRB/setup/job-queue.md)
-###### [Use subscription lines and items](SRB/masterdata/items.md)
-###### [Manage subscription lines](SRB/masterdata/service-commitments.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)
@@ -2156,6 +2172,15 @@ ms.service: dynamics-365-business-central
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 #### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
 #### [Display a stockout warning](sales-setup-show-stockout-warning.md)
+#### Set up subscription billing
+##### Overview
+###### [General Setup](SRB/setup/general.md)
+###### [Assign permissions](SRB/setup/permissions.md)
+###### [Set up subscription contract types](SRB/setup/contract-types.md)
+###### [Import subscription contracts and contract lines](SRB/setup/import.md)
+###### [Use the job queue](SRB/setup/job-queue.md)
+###### [Use subscription lines and items](SRB/masterdata/items.md)
+###### [Manage subscription lines](SRB/masterdata/service-commitments.md)
 ### Set up purchase
 #### [Set up purchase](purchasing-setup-purchasing.md)
 #### [Register new vendors](purchasing-how-register-new-vendors.md)
@@ -2411,6 +2436,7 @@ ms.service: dynamics-365-business-central
 ### Power BI and Business Central
 #### [Power BI overview](admin-powerbi.md)
 #### [Work with Power BI reports](across-working-with-powerbi.md)
+#### [Use Power BI semantic models with Excel](powerbi-use-semantic-models-in-excel.md)
 #### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
 ### Power BI apps for Business Central
 #### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
@@ -2507,7 +2533,8 @@ ms.service: dynamics-365-business-central
 
 # Security, privacy, and compliance
 ## Security and protection
-### [Security and protection overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Security overview](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Personal security](personal-security.md)
 ## Privacy
 ### [Privacy (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Compliance

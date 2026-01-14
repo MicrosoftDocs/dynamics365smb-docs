@@ -22,6 +22,10 @@ To accommodate this, there is a choice to calculate periods using the [!INCLUDE 
 
 For all recurring billing, we generally recommend the *Align to End of Month* option. You can set the option as the default. To learn more, go to [Subscription contract setup](../setup/general.md#subscription-contract-setup).
 
+The start date of the calculation can be decisive for calculating daily prices. If this is within the last three days of a calendar month, the following difference occurs:
+* With *Align to End of Month* option, the number of days in the month of the end date is used to determine the daily price.
+* With *Align to Start of Month* option, the number of days in the month of the start date is used to determine the daily price.
+
 ## Align to Start of Month
 
 The calculation of a month with the option **Align to Start of Month** as the **Period Calculation** in the contract line uses the [!INCLUDE [prod_short](../../includes/prod_short.md)] standard date calculation.
@@ -40,7 +44,7 @@ When calculating a whole month, the start date *plus* one month *minus* one day 
 
 ### Price calculation
 
-The [billing rhythm](../masterdata/service-commitments.md#overview-of-subscription-package-and-subscription-package-line-fields) isn't taken into account when calculating the price. The billing rhythm determines the cycle in which a contract line is invoiced (billing period) if no manual intervention is made. The price of a **Billing line** is calculated on the basis of **Price** and **Billing Base Period** in the service commitment or contract line and the **Billed Base Period**. If the invoiced period is a multiple of the **Billing Base Period**, the price is multiplied accordingly.
+The [billing rhythm](../masterdata/service-commitments.md#overview-of-subscription-package-and-subscription-package-line-fields) isn't taken into account when calculating the price. The billing rhythm determines the cycle in which a contract line is invoiced (billing period) if no manual intervention is made. The price of a **Billing line** is calculated on the basis of **Price** and **Billing Base Period** in the subscription line or contract line and the actually *invoiced period*. If the invoiced period is a multiple of the **Billing Base Period**, the price is multiplied accordingly.
 
 *Monthly price = 100,- (Price = 100,- Calculation Base Period = 1M)*
 
@@ -78,7 +82,7 @@ The price for the entire period invoiced corresponds to the sum of the partial p
 
 ## Align to End of Month
 
-If the **Service Start Date** and the **Next Billing Date** are within the last three days of a month, the period is determined from the end of the month. A contract line that's invoiced from the last day of a month for one month is invoiced up to the second to last day of the following month. This calculation happens regardless of how long the respective months are. This type of period calculation guarantees that the 13th monthly invoice starts on the same day (one year later). Apart from that, this type of period calculation works in the same way as *Align to Start of Month*. For example, the **Next Billing Date**  determines the first day of the next billing.
+If the **Subscription Line Start Date** and the **Next Billing Date** are within the last three days of a month, the period is determined from the end of the month. A contract line that's invoiced from the last day of a month for one month is invoiced up to the second to last day of the following month. This calculation happens regardless of how long the respective months are. This type of period calculation guarantees that the 13th monthly invoice starts on the same day (one year later). Apart from that, this type of period calculation works in the same way as *Align to Start of Month*. For example, the **Next Billing Date**  determines the first day of the next billing.
 
 *Monthly price = 100,- (Price = 100,- Billing Base Period = 1M)*
 
@@ -120,9 +124,9 @@ Price \ of \ the \ Billing \ lines = \sum\limits_1^n \frac{Price \ of \ Contract
 
 ### Leap year
 
-The period calculation works almost the same in leap years as in normal years. The only difference is that 02.29 is the last day in February.
+The period calculation works almost the same in leap years as in normal years. The only difference is that 02/29 is the last day in February.
 
-02.29.2024 - 03.30.2024 corresponds to one month. 02.29.2024 is the last day of February and 03.30.2024 is the second to last day of March.
+02/29/2024 - 03/30/2024 corresponds to one month. 02/29/2024 is the last day of February and 03/30/2024 is the second to last day of March.
 
 ## Related information
 

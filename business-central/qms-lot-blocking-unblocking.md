@@ -1,18 +1,18 @@
 ---
-title: Lot blocking and unblocking
+title: Block or unblock lots
 description: Learn how to block and unblock inventory lots using workflows and grade-specific controls to ensure quality compliance.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 
-ms.date: 10/20/2025
+ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-# Lot blocking and unblocking
+# Block or unblock lots
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
@@ -22,50 +22,6 @@ This article explains how to automatically block and unblock inventory lots base
 - **Grade-Based Blocking**: Document-specific blocking based on inspection results.
 
 Both approaches help ensure that noncompliant inventory isn't used inappropriately, while allowing flexible quality control processes.
-
-## Prerequisites
-
-- Enable **Workflow integration** in **Quality Management Setup**.
-- Configure **Quality Inspection Templates** with pass/fail criteria.
-- Set up **Inspection Generation Rules** for automatic inspection creation.
-- Configure **Items** with lot tracking.
-
-## Workflow-based lot blocking
-
-Workflow-based blocking creates or modifies **Lot Number Information Cards** to completely block lots for all transactions (except warehouse operations when configured).
-
-### Set up a block-on-fail workflow
-
-The following procedure describes the key settings for a workflow that blocks lots when quality inspections fail.
-
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Workflow**, and then choose the related link.
-1. Create a new workflow. For example, name it "Block Lot Example."
-1. Configure the **When Event**, as follows:
-
-   - **Event**: **Quality Inspection is Finished**
-   - **Condition**: **Result Code** is **FAIL**
-
-1. Configure the **Response** as **Block Lot in the Test**. This setting creates a lot information card with the status **Blocked**.
-
-### Set up block-on-creation, and unblock on pass workflows
-
-The following procedures describe the key settings for workflows that block lots immediately when inspections are created, and unblock them when inspections pass.
-
-#### Block on inspection creation
-
-1. Create a new workflow. For example, name it "Block Lot on Creation."
-1. Set the **When Event** as **Quality Inspection is Created**.
-1. Set the **Response** as **Block the lot in the test**.
-
-   The result is that all lots are blocked immediately when inspections are created.
-
-#### Unblock on pass
-
-1. Create a new workflow. For example, name it "Unblock on Pass."  
-2. Set the **When Event** as **Quality Inspection is Finished**.
-3. Set the **Condition** as **Grade Code equals Pass**.
-4. Set the **Response** as **Unblock Lot in the Inspection**.
-5. Set the **Result** as **Lots unblocked only when inspections pass**.
 
 ### Enable workflow integration
 
@@ -78,6 +34,41 @@ The following procedures describe the key settings for workflows that block lots
 > [!NOTE]
 > If you don't turn on the **Enable Workflow Integration** toggle, the quality management events for workflows aren't available.
 
+## Workflow-based lot blocking
+
+Workflow-based blocking creates or modifies **Lot No. Information Card** pages to completely block lots for all transactions (except warehouse operations when configured). You access **Lot No. Information Card** pages from the **Lot No. Information List** page.
+
+### Set up a block-on-fail workflow
+
+The following procedure describes the key settings for a workflow that blocks lots when quality inspections fail.
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Workflows**, and then choose the related link.
+1. Create a new workflow. For example, name it "Block Lot Example."
+1. Configure a workflow step, as follows:
+
+   1. In the **When Event** field, choose **A Quality Inspection is Finished**.
+   1. In the **On Condition** field, add a filter for the **Result Code** field, and then set **FAIL** as the filter value.
+   1. In the **Then Response** field, choose **Block Lot in the Inspection**. This setting creates a lot information card with the status **Blocked**.
+
+### Set up block-on-creation, and unblock on pass workflows
+
+The following procedures describe the key settings for workflows that block lots immediately when inspections are created, and unblock them when inspections pass.
+
+#### Block on inspection creation
+
+1. Create a new workflow. For example, name it "Block Lot on Creation."
+1. In the **When Event** field, choose **A Quality Inspection is Created**.
+1. In the **Then Response** field, choose **Block lot in the inspection**.
+
+   The result is that all lots are blocked immediately when inspections are created.
+
+#### Unblock on pass
+
+1. Create a new workflow. For example, name it "Unblock on Pass."  
+1. In the **When Event** field, choose **A Quality Inspection is Finished**.
+1. In the **On Condition** field, add a filter for the **Result Code** field, and then set **Pass** as the filter value.
+1. In the **Then Response** field, choose **Unblock Lot in the Inspection**.
+
 ## Result-based document blocking
 
 Result-based blocking provides granular, document-specific controls based on the current grade of quality inspection. Unlike complete lot blocking, this approach lets you block specific transaction types while permitting others, based on the inspection result.
@@ -89,20 +80,7 @@ The following list describes how [!INCLUDE [prod_short](includes/prod_short.md)]
 - Multiple inspections for the same lot might have different results.
 - The system can consider specific inspections when it evaluates restrictions.
 
-### Configuring result transaction controls
-
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Results**, and then choose the related link.
-2. Select the result to configure. For example, INPROGRESS, FAIL, or PASS.
-3. Configure transaction permissions for each result:
-
-   - **Allow Sales**: Enable or disable sales document posting.
-   - **Allow Purchase**: Enable or disable purchase document posting.
-   - **Allow Transfer**: Enable or disable transfer order posting.
-   - **Allow Consumption**: Enable or disable material consumption in production.
-   - **Allow Pick**: Enable or disable warehouse picks.
-   - **Allow Put-away**: Enable or disable warehouse put-aways.
-   - **Allow Movement**: Enable or disable warehouse movements.
-   - **Allow Output**: Enable or disable production output posting.
+To learn more about quality inspection results, go to [Configure quality inspection results](qms-configuring-grades.md).
 
 ### Examples of result configurations
 
@@ -165,7 +143,7 @@ This section describes some typical scenarios for lot blocking.
 **Implementation**:
 
 1. **Workflow**: Block lot when an inspection finishes with "FAIL" result.
-2. **Grade Setup**: The **INPROGRESS** result allows all transactions.
+2. **Result Setup**: The **INPROGRESS** result allows all transactions.
 
 The following process is a sample flow for this implementation:
 
@@ -237,7 +215,7 @@ For disposal, you can take the following actions:
 - Create negative adjustments for disposal.
 - Return to vendors if appropriate.
 
-## Test lot blocking configuration
+<!--## Test lot blocking configuration
 
 ### Test Scenario: Purchase receipt with blocking
 
@@ -272,7 +250,7 @@ For disposal, you can take the following actions:
 
 - Passing inspections unblock lots (if configured).
 - Failing inspections maintain or create blocking.
-- Result changes update transaction permissions.
+- Result changes update transaction permissions. -->
 
 ## Related information
 

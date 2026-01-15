@@ -1143,8 +1143,8 @@ ms.service: dynamics-365-business-central
 ### [Purchase receipt inspections with warehouse handling](qms-purchase-receipt-testing-warehouse.md)
 ### [Production output quality inspection](qms-production-output-testing.md)
 ### [Manual inspection creation](qms-manual-test-creation.md)
-### [Scheduled inspection creation](qms-scheduled-test-creation.md)
-### [Lot blocking and unblocking](qms-lot-blocking-unblocking.md)
+### [Create scheduled inspections](qms-scheduled-test-creation.md)
+### [Block or unblock lots](qms-lot-blocking-unblocking.md)
 ### [Non-compliant processing](qms-non-compliant-processing.md)
 ### [Troubleshoot quality management features](qms-troubleshooting.md)
 

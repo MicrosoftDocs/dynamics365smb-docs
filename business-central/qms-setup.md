@@ -32,16 +32,11 @@ Before you set up quality management, ensure that you have:
 
 ## Initial setup steps
 
-### Run the assisted setup guide
+You can set up quality management features yourself, or get some help from an assisted setup guide.
 
-Quality management includes an assisted setup guide that can help you configure basic settings.
+### Configure general base data
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Set up Quality Management**, and then choose the related link.
-1. Follow the steps in the guide. Learn more at [Assisted Setup Wizard](qms-assisted-setup.md).
-
-### Configure base data
-
-Ensure you configured base data in [!INCLUDE [prod_short](includes/prod_short.md)] as described in the following table.
+Ensure you have the base data described in the following table before you start to set up quality management. Your quality management setup uses this data.
 
 |Data  |Description  |
 |---------|---------|
@@ -49,7 +44,50 @@ Ensure you configured base data in [!INCLUDE [prod_short](includes/prod_short.md
 |Items     |- Configure item tracking codes for lots, serials, or packages, as needed.<br>- Set up lot number series for automatic lot assignments.<br>- Ensure that the correct inventory posting groups are assigned to items. |
 |Vendors and customers     |- Configure vendors for purchase receipt inspections.<br>- If quality inspections affect sales processes, set up customers.       |
 
-### Set up quality management
+### Run the assisted setup guide
+
+You can set up quality management from scratch on the **Quality Management Setup** page. However, [!INCLUDE [prod_short](includes/prod_short.md)] offers the **Quality Management Setup Guide** to help you quickly configure basic settings. Learn more at [Assisted Setup Guide](qms-assisted-setup.md).
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Set up Quality Management**, and then choose the related link.
+1. On the first step, choose **Next**.
+1. Choose whether to apply demonstration and sample data, and then choose **Next**:
+
+   - **Apply Getting Started Data**: Downloads and applies basic setup data with useful examples and demonstration data. Getting started data helps you get going quickly or, if you're just exploring, evaluate whether the application fits your needs.
+   - **Do Not Apply Configuration**: Skips sample data installation. However, some basic setup data for common integration scenarios is applied.
+
+1. Specify where you plan to use quality inspections, and then choose **Next**.
+
+   - **Production**: Create inspections when you record production output. Typical scenarios are when inventory is posted from the output journal, but could also be for intermediate steps or other triggers.
+   - **Receiving**: Create inspections when you receive inventory from purchase orders, transfer orders, warehouse receipts, or sales returns.
+   - **Something Else**: Use quality inspection to create manual tests for other areas in [!INCLUDE [prod_short](includes/prod_short.md)], or if you want to manually configure them later.
+
+   > [!TIP]
+   > The steps in the guide differ, based on your selection.
+
+1. If you chose **Production**, specify how to create production inspections, and then choose **Next**.:
+
+   - **I want inspections created automatically when output is recorded**: [!INCLUDE [prod_short](includes/prod_short.md)] creates inspections automatically when you record output. Use this option when inspections must exist when production output occurs.
+   - **I want a person to make an inspection**: You manually create inspections. Use this option when your process requires a person to create inspections, or for ad-hoc inspection scenarios like nonconformance reports or tracking rework.
+
+1. If you chose **Receiving**, configure automatic inspection creation for receiving scenarios, and then choose **Next**.
+
+   - **Purchase Receipts**: Automatically create inspections when you receive goods via purchase orders.
+   - **Transfer Receipts**: Automatically create inspections when you receive goods via transfer orders.
+   - **Warehouse Receipts**: Automatically create inspections when you receive goods via warehouse receipts.
+   - **Sales Return Receipts**: Automatically create inspections when you receive goods via sales returns.
+   - **I only want people to make inspections**: Choose this option if you only want people to manually create inspections. For example, this option is useful for ad-hoc inspections or tracking damage for received goods.
+
+1. Specify when to display inspections to users, and then choose **Next**.
+<!--
+- **Show automatic and manually created inspections**: Inspections show immediately when created. Use this option when the person doing the activity (like posting) is also the person who collects the inspection results.
+- **Show only manually created tests**: Inspections created automatically don't show immediately, but manually created inspections do. Use this option when different people handle posting versus data collection.
+- **Never show immediately**: Inspections are always created in the background. Use this option when the person who creates inspections shouldn't be able to edit them. This option ensures separation of inspection creation and completion.
+- **Business Consideration**: Events that trigger inspections without direct interaction (background posting, pr web service integrations like Power Automate) create inspections but doesn't immediately show them.-->
+1. Choose **Finish**.
+
+### Set up quality management manually
+
+The following steps describe settings you can use to get started with quality management, and manage features on an ongoing basis.
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Management Setup**, and then choose the related link.
 1. Configure general settings, as described in the following table.
@@ -57,9 +95,9 @@ Ensure you configured base data in [!INCLUDE [prod_short](includes/prod_short.md
    |Field  |Description  |
    |---------|---------|
    |**Quality Inspection Nos.** | Specify the default number series to use for quality inspection documents when there isn't a number series defined on a quality inspection template. The number series defined on a template takes precedence.  |
-   |**Create Test Behavior** | Specify when to create a new inspection:<br><br>- **Always create new inspection** creates a new inspection every time, and doesn't search for existing inspections.<br>- **Create reinspection if matching inspection is finished** searches for an existing, completed inspection that matches. If it finds one, it creates a reinspection. If it doesn't find one, it creates a new inspection.<br>- **Always create reinspection** searches for an existing inspection. If it finds one, it creates a reinspection. If it doesn't find one, it creates a new inspection.<br>- **Use existing open inspection if available** searches for an existing, open inspection. If it finds an open inspection, it reuses it without any changes. If it finds an inspection that matches but is completed, or doesn't find a matching inspection, it creates a new inspection.<br>- **Use any existing inspection if available** searches for an existing inspection. If it finds one, it reuses it regardless of its status. If it doesn't fine one, it creates a new inspection.<br><br>**Important:** When an existing inspection is reused, the test data (status, results, measurements) remains unchanged.<br><br>**Tip:** If you automate inspection creation but manually create an inspection, for example, for the first receipt of a lot that you'll receive in multiple shipments, and you want automation to reuse that inspection for subsequent receipts, choose **Use existing open inspection if available** or **Use any existing inspection if available**. Then, in the **Find Existing Behavior** field, choose **By Item Tracking** to find inspections by lot or serial numbers.  |
+   |**Create Inspection Behavior** | Specify when to create a new inspection:<br><br>- **Always create new inspection** creates a new inspection every time, and doesn't search for existing inspections.<br>- **Create reinspection if matching inspection is finished** searches for an existing, completed inspection that matches. If it finds one, it creates a reinspection. If it doesn't find one, it creates a new inspection.<br>- **Always create reinspection** searches for an existing inspection. If it finds one, it creates a reinspection. If it doesn't find one, it creates a new inspection.<br>- **Use existing open inspection if available** searches for an existing, open inspection. If it finds an open inspection, it reuses it without any changes. If it finds an inspection that matches but is completed, or doesn't find a matching inspection, it creates a new inspection.<br>- **Use any existing inspection if available** searches for an existing inspection. If it finds one, it reuses it regardless of its status. If it doesn't fine one, it creates a new inspection.<br><br>**Important:** When an existing inspection is reused, the test data (status, results, measurements) remains unchanged.<br><br>**Tip:** If you automate inspection creation but manually create an inspection, for example, for the first receipt of a lot that you'll receive in multiple shipments, and you want automation to reuse that inspection for subsequent receipts, choose **Use existing open inspection if available** or **Use any existing inspection if available**. Then, in the **Find Existing Behavior** field, choose **By Item Tracking** to find inspections by lot or serial numbers.  |
    |**Find Existing Behavior** | Specifies the search criteria to use to find existing inspections. All of the options in the **Create Inspection Behavior** field use this setting, with the exception of **Always Create New Inspection**, which skips the search entirely.<br><br>- **By Standard Source Fields** searches by template, source table, document number, item, variant, and lot, serial, and package numbers. Use this option for the most comprehensive matching.<br>- **By Source Record** searches by the specific source record ID that triggered the inspection. Use this option when you want to find inspections linked to a specific document line.<br>- **By Item Tracking** searches primarily by item number, variant, and lot, serial, an package numbers. This option ignores the source document. Use this option to find inspections for a specific lot or serial number across different documents.<br>- **By Document and Item only** searches by document number and item only, and ignores lot, serial, and package numbers. Use this option to find inspections for an item on a document, regardless of tracking information.<br><br>**Note:** The search always returns the most recent inspection (highest retest number) that matches the criteria.    |
-   |**Conditional Lot Find Behavior**| Specifies the inspections to consider when evaluating whether a document-specific transaction is blocked.<br><br>- **Any inspection that matches** considers any inspection.<br>- **Only the most recently modified test** uses the most recently modified inspection.<br>- **Only the newest inspection/reinspection** uses the inspection with the highest reinspection number.<br>- **Any finished inspection that matches** considers any finished inspection.<br>- **Only the most recently modified finished inspection** uses the most recently modified finished inspection.<br>- **Only the newest finished inspection/reinspection** uses the finished inspection with the highest reinspection number.        |
+   |**Conditional Lot Find Behavior**| Specifies the inspections to consider when evaluating whether to block a document-specific transaction.<br><br>- **Any inspection that matches** considers any inspection.<br>- **Only the most recently modified test** uses the most recently modified inspection.<br>- **Only the newest inspection/reinspection** uses the inspection with the highest reinspection number.<br>- **Any finished inspection that matches** considers any finished inspection.<br>- **Only the most recently modified finished inspection** uses the most recently modified finished inspection.<br>- **Only the newest finished inspection/reinspection** uses the finished inspection with the highest reinspection number.        |
    |**COA Contact No.** | Specifies the contact details that appear on the **Certificate of Analysis** report when supplied.        |
    |**Maximum Rows To Fetch on Field Lookups** | Specifies the maximum number of rows to fetch on data lookups. Keep the number as low as possible to increase usability and performance.        |
    |**Show Test Behavior** | Specifies whether to open the **Quality Inspection** page after an inspection is created.<br><br>- **Automatic and manually created inspections** opens inspections created both automatically and manually.<br>- **Only manually created inspections** opens only inspections created manually.<br>- **Do not show created inspections** never automatically opens created inspections.    |

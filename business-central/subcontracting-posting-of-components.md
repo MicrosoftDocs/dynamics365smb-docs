@@ -1,13 +1,13 @@
 ---
-title: Subcontract manufacturing
-description: This article gives an extended overview of the extended functionality of subcontracting, including work center fields and routing.
+title: Post subcontracting components
+description: Learn how to set up and post components for subcontracting operations, including subcontracting types and automatic location changes.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: 99000886,
-ms.date: 06/22/2024
+ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -79,7 +79,7 @@ For components with subcontracting type "Transfer", transfer orders must be crea
 
 > [!IMPORTANT]
 > There is no automated process - the button must be pressed manually.
-> More information is available in [Create and Post Transfer Order](enhanced-subcontracting-tranfer-order.md).
+> More information is available in [Create and Post Transfer Order](subcontracting-tranfer-order.md).
 
 ## Recommendation
 

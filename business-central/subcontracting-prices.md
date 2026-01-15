@@ -1,13 +1,13 @@
 ---
-title: Subcontract manufacturing
-description: This article gives an extended overview of the extended functionality of subcontracting, including work center fields and routing.
+title: Set up subcontractor prices
+description: Learn how to set up and maintain subcontractor prices for work center groups, including copying prices between vendors and filtering options.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: 99000886,
-ms.date: 06/22/2024
+ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 

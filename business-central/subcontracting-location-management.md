@@ -1,13 +1,13 @@
 ---
-title: Subcontract manufacturing
-description: This article gives an extended overview of the extended functionality of subcontracting, including work center fields and routing.
+title: Manage locations in subcontracting
+description: Learn how to configure component locations and transfer routes for subcontracting operations between your warehouse and subcontractor locations.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: 99000886,
-ms.date: 06/22/2024
+ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 

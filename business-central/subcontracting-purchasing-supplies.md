@@ -1,13 +1,13 @@
 ---
-title: Subcontract manufacturing
-description: This article gives an extended overview of the extended functionality of subcontracting, including work center fields and routing.
+title: Purchase provisions for subcontracting
+description: Learn how to create and post purchase provisions with linked production orders and transfer orders for subcontracting operations.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: 99000886,
-ms.date: 06/22/2024
+ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -20,13 +20,10 @@ After completion of the product, it returns to your own warehouse. You can indiv
 
 You can create, edit, and view the production orders required for posting the provision as well as any transfer orders from the purchase order. The required components can be specified order-specifically or taken from existing production BOMs.
 
-## Additional Topics
-
-### [Create and Post Order](enhanced-subcontracting-purchasing-supplies-create-order.md)
-
-Detailed instructions for creating and posting purchase provisions, including linking with production orders and transfer orders.
 
 ## Create Order (incl. Production Order)
+
+Detailed instructions for creating and posting purchase provisions, including linking with production orders and transfer orders.
 
 Depending on the basic setup and (non-)existing BOMs, you create the order and assign the necessary BOM components using a production order. When using the subcontracting type "Transfer", you create the transfer order. You can initiate the postings of inventory changes in the purchase order card or using warehouse functions. How you can proceed in which type of posting situation can be read in the respective chapters of Microsoft's documentation.
 
@@ -42,7 +39,7 @@ Depending on the basic setup and (non-)existing BOMs, you create the order and a
 
 1. For the purchase line, select "Functions", "Create Production Order". Depending on the previously selected flushing method ("Basic Setup Purchase Provision"), consumption is posted with shipment posting of the subcontracting service using the production order, as well as the receipt of the item produced by the supplier in the warehouse. The details are created in the background via the creation of the production order.
 
-1. The provision wizard starts automatically and guides you through the configuration of BOMs and routings. Depending on the configuration in the "Subcontracting Setup", various steps are displayed or automatically processed. More information about the wizard can be found under [Provision Wizard](enhanced-subcontracting-beistellungs-wizard.md).
+1. The provision wizard starts automatically and guides you through the configuration of BOMs and routings. Depending on the configuration in the "Subcontracting Setup", various steps are displayed or automatically processed. More information about the wizard can be found under **Purchase Provisions Setup**.
 
 1. Back in the purchase order, you can transfer the provision components with subcontracting type "Transfer" into a transfer. On the purchase order page, select "Actions", "Functions", "Create Transfer Order for Subcontracting". With this function, the required BOM component lines are transferred to a transfer order. The location codes "Transfer-from Code" and "Transfer-to Code" are filled based on the basic setup specifications. If an open transfer order exists for the vendor's location code, it is supplemented with the required lines.
 
@@ -94,3 +91,146 @@ If the master data used in the order process (items, stockkeeping units, product
 Ensure that you have set up the data for the work center groups assigned to the provisions, including their work calendars.
 
 Read more about [Setting Up Work Centers and Machine Centers](https://learn.microsoft.com/dynamics365/business-central/production-how-to-set-up-work-and-machine-centers) in Microsoft's documentation.
+
+
+
+
+## Provision Wizard
+
+The Provision Wizard is a multi-step assistant for creating production orders within the framework of purchase provisions. It guides you step by step through the selection and configuration of BOMs and routings for production orders.
+The wizard is automatically started when you use the "Create Production Order" function in a purchase order. Depending on existing data and your configuration, various steps are displayed or skipped.
+
+## Wizard Steps
+
+The wizard guides you through the following steps:
+
+1. **Welcome:** Overview of the item and general settings
+2. **BOM:** Selection and configuration of the production BOM
+3. **Routing:** Selection and configuration of the routing
+4. **Components:** Preview of production order components
+5. **Operations:** Preview of production order operations
+
+> [!NOTE]
+> Which steps are displayed depends on your configuration in the "Subcontracting Setup".
+
+## Processing Scenarios
+
+The wizard processes different scenarios depending on which data is already stored in the item or in the stockkeeping units:
+
+### Scenario 1: Nothing Available
+When neither a BOM nor a routing is stored in the item or stockkeeping units:
+- **BOM:** Is automatically created from the setup configuration
+- **Routing:** Is created with standard operations (subcontracting, optional put-away)
+- **Components:** Use the predefined component item from the setup
+- **Location:** Components are assigned to the subcontracting location
+
+### Scenario 2: Both Available
+When both a BOM and a routing are available (from item or stockkeeping units):
+- **BOM:** All existing components are transferred
+- **Routing:** All existing operations are transferred
+- **Components:** Use the actual items and quantities from the BOM
+- **Location:** Components are assigned to the production location
+
+### Scenario 3: Partially Available
+When only a BOM OR only a routing is available (from item or stockkeeping units):
+- **Existing Data:** Is transferred from item or stockkeeping units
+- **Missing Data:** Is created from the setup configuration
+- **Flexibility:** Enables gradual introduction of item-specific data
+
+> [!NOTE]
+> The wizard first checks the stockkeeping units and then uses the item master data as a fallback option.
+
+## Application Scenarios
+
+### Fully Automatic Processing
+
+When all wizard steps are configured to "Hide":
+- The wizard does not open
+- The production order is automatically created
+- Existing or setup-based BOMs/routings are used
+
+### Selection without Editing
+
+When the steps are configured to "Show":
+- You can select different BOMs/routings
+- Editing of lines is not possible
+- Preview of generated components and operations
+
+### Full Editing
+
+When the steps are configured to "Edit":
+- All wizard steps are displayed
+- Full editing of BOM/routing lines possible
+- Creation of new versions possible
+- Saving in item or stockkeeping units
+
+## Configuration
+
+The wizard configuration is done in the "Subcontracting Setup" under the "Purchase Provisions" tab.
+
+### Important Setting Fields
+
+|Field|Description|
+|:--|:--|
+|**Routing Link Code for Purchase Provision**|Routing link code for purchase provision|
+|**Default Component Item No.**|Predefined component item number|
+|**Work Center Group No. General**|Common work center for purchase provisions|
+|**Work Center Put-away**|Work center for put-away|
+|**Default Flushing Method**|Standard flushing method for components|
+|**Always Save Changed Versions**|Always save changed versions|
+|**Allow Edit UI Selection**|User may edit UI selection|
+
+### Display/Edit Options
+
+For different scenarios, you can specify how the wizard should behave:
+
+- **Hide:** Step is skipped, automatic processing
+- **Show:** Step is displayed, only display/selection possible
+- **Edit:** Step is displayed, full editing possible
+
+### Scenario-specific Configuration
+
+The settings are divided according to the following scenarios:
+
+- **Both Available:** Both BOM and routing are available
+- **Partially Available:** Only BOM or only routing is available
+- **Nothing Available:** Neither BOM nor routing are available
+
+## Version Management
+
+The wizard supports the management of BOM and routing versions:
+
+- Automatic creation of new versions when editing
+- Configurable saving of versions
+- Automatic cleanup of temporary data
+
+## Save Options
+
+You can specify where changes should be saved:
+
+- **Do not save:** Temporary data is deleted after wizard completion
+- **Save in Item:** BOM/routing are assigned to the item
+- **Save in Stockkeeping Units:** BOM/routing are assigned to the stockkeeping unit
+
+## Application
+
+1. Create a new purchase order and enter all relevant data.
+    > [!NOTE]
+    > Note that the "Location Code" for subcontracting is maintained on the vendor card.
+
+2. In the lines, select the item to be procured.
+
+3. For the purchase line, select "Functions", "Create Production Order".
+
+4. The Provision Wizard starts automatically and guides you through the configured steps:
+
+   + **Welcome:** Check the item information and general settings
+   + **BOM:** Select a production BOM or edit it (if configured)
+   + **Routing:** Select a routing or edit it (if configured)
+   + **Components:** Check the production order components (if configured)
+   + **Operations:** Check the production order operations (if configured)
+
+5. After completing the wizard, the production order is created and linked to the purchase line.
+
+> [!NOTE]
+> Depending on the configuration in the "Subcontracting Setup", individual steps can be automatically skipped or displayed for editing.

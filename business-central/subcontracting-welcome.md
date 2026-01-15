@@ -1,13 +1,13 @@
 ---
-title: Subcontract manufacturing
-description: This article gives an extended overview of the extended functionality of subcontracting, including work center fields and routing.
+title: Subcontracting overview
+description: Get an overview of subcontracting capabilities for manufacturing, including subcontractor prices, component posting, transfer orders, and location management.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: how-to
+ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 99000886,
-ms.date: 06/22/2024
+ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -20,30 +20,30 @@ Through this extension of standard functions, you can not only avoid errors in p
 
 ## Core Functions
 
-### [Subcontractor Prices](enhanced-subcontracting-prices.md)
+### [Subcontractor Prices](subcontracting-prices.md)
 
 Store your subcontractor prices and get all prices for items displayed at a glance. Practical filters make searching easier for you.
 
-### [Order Subcontracting Faster](enhanced-subcontracting-order.md)
+### [Order Subcontracting Faster](subcontracting-order.md)
 
 You have the ability to order your subcontracting directly from a production order. Detours through other journals are eliminated and the risk of errors in purchase invoice verification is reduced.
 
-### [Component Posting and Vendor Warehouse Monitoring](enhanced-subcontracting-booking-of-components.md)
+### [Component Posting and Vendor Warehouse Monitoring](subcontracting-posting-of-components.md)
 
 Complete subcontracting is integrated into the manufacturing process. Don't lose track of the quantity and value considerations of the vendor warehouse. You can view individual process steps and assign them to subcontracting.
 
-### [Transfer Order](enhanced-subcontracting-tranfer-order.md)
+### [Transfer Order](subcontracting-tranfer-order.md)
 
 If you have ordered subcontracting and thus added it to your purchase order, you can create a transfer order for your own goods. With the transfer order, you transfer your goods faster than before.
 
-### [Item Charges for Subcontracting](enhanced-subcontracting-item-charges.md)
+### [Item Charges for Subcontracting](subcontracting-item-charges.md)
 
 Assign additional costs such as transport, packaging, or other incidental costs directly to subcontracting. The extended Item Charge functionality enables precise cost allocation to production orders.
 
-### [Location Management](enhanced-subcontracting-location-management.md)
+### [Location Management](subcontracting-location-management.md)
 
 Understand the automatic location assignment and management in subcontracting. From component provision to transfer to the subcontractor - all location aspects in detail.
 
-### [Purchase Provision](enhanced-subcontracting-purchasing-supplies.md)
+### [Purchase Provision](subcontracting-purchasing-supplies.md)
 
 You can create subcontracting from the purchase order via a production order and carry out the subcontracting process as usual. Default settings support you with automatic posting processes and thus save you time and costs.

@@ -70,7 +70,7 @@ For each scenario, you can set the following options:
 
 To use a work center group for Subcontracting, it must be assigned to a vendor number.
 
-1. Enter the corresponding number in your work center groups in the "Posting" tab. Read more about this [topic](https://docs.microsoft.com/en-us/dynamics365/business-central/production-how-to-set-up-work-and-machine-centers) in Microsoft's documentation.
+1. Enter the corresponding number in your work center groups in the "Posting" tab. Read more about this [topic](production-how-to-set-up-work-and-machine-centers.md) in Microsoft's documentation.
 
 1. Then open the vendor card and navigate to the "Shipping" tab.
 Assign a "Subcontracting Location Code". This specifies the subcontracting location. Component items provided to the vendor are posted from this location by default after execution of the subcontracting.

@@ -45,7 +45,7 @@ Depending on the basic setup and (non-)existing BOMs, you create the order and a
 
 Information about the production orders and transfer orders linked to the purchase order can be obtained in the "Lines" tab via the "Production" menu.
 
-Read more about [Transfer](https://learn.microsoft.com/dynamics365/business-central/inventory-how-transfer-between-locations) in Microsoft's documentation.
+Read more about [Transfer](inventory-how-transfer-between-locations.md) in Microsoft's documentation.
 
 ## Post Orders with Provision
 
@@ -66,7 +66,7 @@ You post the receipt of the produced item in the purchase order. Specify the "Qt
 1. **Post Invoice**
 The posting of invoicing is done with purchasing functionalities, analogous to other purchase invoices, for received goods. The posted line amount is transferred to the production order for valuation of the produced items and supplemented by the value of the consumed items. Finally, change the status of the production order to "Finished".
 
-Read more about [Working with Production Orders](https://learn.microsoft.com/dynamics365/business-central/production-about-production-orders) in Microsoft's documentation.
+Read more about [Working with Production Orders](production-about-production-orders.md) in Microsoft's documentation.
 
 
 
@@ -90,7 +90,7 @@ If the master data used in the order process (items, stockkeeping units, product
 
 Ensure that you have set up the data for the work center groups assigned to the provisions, including their work calendars.
 
-Read more about [Setting Up Work Centers and Machine Centers](https://learn.microsoft.com/dynamics365/business-central/production-how-to-set-up-work-and-machine-centers) in Microsoft's documentation.
+Read more about [Setting Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md) in Microsoft's documentation.
 
 
 

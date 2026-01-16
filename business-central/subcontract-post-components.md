@@ -79,7 +79,7 @@ For components with subcontracting type "Transfer", transfer orders must be crea
 
 > [!IMPORTANT]
 > There is no automated process - the button must be pressed manually.
-> More information is available in [Create and Post Transfer Order](subcontracting-tranfer-order.md).
+> More information is available in [Create and Post Transfer Order](subcontract-transfer-order.md).
 
 ## Recommendation
 

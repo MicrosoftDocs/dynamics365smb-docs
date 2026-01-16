@@ -34,37 +34,8 @@ Specify which information from a subcontracting order should be transferred to y
 |**Components Purchase Price**|Select which purchase price of a subcontracting component should be used in the subcontracting order. You have the choice between: </br>**- Standard:** Standard price finding is used when procuring the component.</br> **- Subcontracting Component:** The calculated purchase price of the subcontracting component is transferred to the subcontracting order.|
 |**Item Charge to Subcontracting Purch. Receipt Lines**|Activates item charge assignment for purchase receipt lines with subcontracting. When activated, an additional option becomes visible in the charge assignment in purchasing.|
 
-## Purchase Provisions
 
-|Field|Description|
-|:--|:--|
-|**Routing Link Code for Purchase Provision**|Specifies which routing link code should be used for purchase provision BOMs.|
-|**Default Component Item No.**|Specifies the predefined component item number for purchase provisions.|
-|**Work Center Group No. General**|Specifies the work center group no. to be used for purchase provisions.|
-|**Work Center Put-away**|Specifies the work center for put-away in purchase provisions.|
-|**Default Flushing Method**|Specifies the default provision flushing method to be used for purchase provisions.|
-|**Always Save Changed Versions**|Specifies whether changed BOM and routing versions should always be saved in the provision wizard.|
-|**Allow Edit UI Selection**|Specifies whether users may edit the UI selection in the provision wizard.|
-
-### Provision Wizard Configuration
-
-For the provision wizard, you can specify how the wizard should behave for different scenarios:
-
-|Scenario|Description|
-|:--|:--|
-|**Both Available**|Configuration when both BOM and routing are available|
-|**Partially Available**|Configuration when only BOM or only routing is available|
-|**Nothing Available**|Configuration when neither BOM nor routing is available|
-
-For each scenario, you can set the following options:
-
-- **Operation/BOM Selection:** How the wizard handles the selection of routing and BOM
-- **Production Operation/Components Selection:** How the wizard handles the preview of components and operations
-
-**Available Options:**
-- **Hide:** Step is skipped, automatic processing
-- **Show:** Step is displayed, only display/selection possible
-- **Edit:** Step is displayed, full editing possible
+For detailed configuration of purchase provisions and the provision wizard, see [Set Up Purchase Provisions and Provision Wizard](subcontract-setup-configurator.md).
 
 ## Set Up Work Center Group for Subcontracting
 

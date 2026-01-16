@@ -46,7 +46,7 @@ Ensure you have the base data described in the following table before you start 
 
 ### Run the assisted setup guide
 
-You can set up quality management from scratch on the **Quality Management Setup** page. However, [!INCLUDE [prod_short](includes/prod_short.md)] offers the **Quality Management Setup Guide** to help you quickly configure basic settings. Learn more at [Assisted Setup Guide](qms-assisted-setup.md).
+You can set up quality management from scratch on the **Quality Management Setup** page. However, [!INCLUDE [prod_short](includes/prod_short.md)] offers the **Quality Management Setup Guide** to help you quickly configure basic settings. 
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Set up Quality Management**, and then choose the related link.
 1. On the first step, choose **Next**.
@@ -148,7 +148,7 @@ After you complete the initial setup, there are still a few things to do. To lea
 3. [Configure Workflows (Optional)](qms-quality-workflows.md)
 <!--4. [Test Your Configuration](./testing-configuration.md)-->
 
-## Typical setup scenarios
+<!--## Typical setup scenarios
 
 The following sections offer things to think about when you set up the app for certain scenarios.
 
@@ -168,11 +168,10 @@ The following sections offer things to think about when you set up the app for c
 
 - Configure both purchase and production triggers.
 - Create multiple templates for different types of inspections.
-- Set up workflows to automatically block and unblock lots.
+- Set up workflows to automatically block and unblock lots. -->
 
 ## Related information
 
-[Assisted Setup](qms-assisted-setup.md)  
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
 [Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
 [Quality Management Overview](qms-overview.md)

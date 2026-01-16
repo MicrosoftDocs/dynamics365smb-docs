@@ -36,7 +36,6 @@ Quality management features offer a range of benefits.
 Setting up quality management involves configuring quality inspection templates, inspection generation rules, and integration with your [!INCLUDE [prod_short](includes/prod_short.md)] processes. To learn more, go to:
 
 - [Initial Setup and Configuration](qms-setup.md)
-- [Assisted Setup Guide](qms-assisted-setup.md)
 - [Configuring Quality Inspection Results](qms-configuring-grades.md)
 - [Creating Quality Inspection Templates](qms-quality-templates.md)
 - [Setting Up Inspection Generation Rules](qms-test-generation-rules.md)

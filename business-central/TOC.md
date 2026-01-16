@@ -2233,7 +2233,6 @@ ms.service: dynamics-365-business-central
 
 ### Set up quality management
 #### [Quality management setup and configuration](qms-setup.md)
-#### [Assisted setup guide](qms-assisted-setup.md)
 #### [Configure quality inspection results](qms-configuring-grades.md)
 #### [Create quality inspection templates](qms-quality-templates.md)
 #### [Set up quality inspection generation rules](qms-test-generation-rules.md)

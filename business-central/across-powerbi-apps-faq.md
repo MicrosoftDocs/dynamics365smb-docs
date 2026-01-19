@@ -87,7 +87,7 @@ Learn more in [Connect the Power BI semantic models to Business Central](across-
 
 ## How do I update an app?
 
-Learn more in [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-power-bi-app).
+Learn more in [Update a Power BI app](across-powerbi-install-business-central-apps.md#update-a-power-bi-app).
 
 ## Are the apps available in multiple languages?
 

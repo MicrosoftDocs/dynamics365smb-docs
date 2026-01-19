@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: Power BI, reports, faq, errors
-ms.date: 10/23/2024
+ms.date: 01/19/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -215,7 +215,7 @@ If you have old reports based on Business Central data, they don't connect to th
 
 Reports that use Business Central data connect to a read-only replica of the Business Central database by default. In rare cases, this behavior might cause the error "Current connection intent is Read-Only.". This error typically happens because your custom API is making modifications to Business Central records while Power BI tries to get the data. In particular, it happens as part of the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord.
 
-To fix this issue by forcing the Business Central connector to allow this behavior, see [Building Power BI Reports to Display Business Central Data - Fixing Problems](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+To fix this issue by forcing the Business Central connector to allow this behavior, see [Building Power BI Reports to Display Business Central Data - Fix Problems](across-how-use-financials-data-source-powerbi.md#fix-problems).
 
 <!--
 In general, we recommend avoiding any database modifications in API pages when they're opening or loading records, because they cause performance issues and might cause your report refresh to fail. In some cases, you might still need to make a database modification when your custom API page opens or loads records. You can force the Business Central connector to allow this behavior. Do the following steps when getting data from Business Central for the report in Power BI Desktop:

@@ -1,7 +1,7 @@
 ---
 title: Payables Agent Overview
 description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
-ms.date: 12/10/2025
+ms.date: 01/19/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk
@@ -47,9 +47,9 @@ The dashed steps in the image represent steps that&mdash;in time&mdash;are inten
 The agent uses an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices as PDF documents. The dispatcher triggers the agent to perform tasks and then imports the PDF document into **Inbound E-Documents**.
 
 > [!IMPORTANT]
-> The agent only processes emails that contain PDF attachments. Emails without PDF attachments are not processed by the agent and will appear as agent tasks requiring manual attention.
+> The agent only processes emails that have PDF attachments. It doesn't process emails without PDF attachments, and the emails appear as agent tasks that require manual attention.
 >
-> If an email contains more than 10 attachments, the agent will skip processing that email entirely. Keep the number of attachments per email to 10 or fewer to ensure the agent processes them.
+> If an email contains more than 10 attachments, the agent skips that email entirely. Keep the number of attachments per email to 10 or fewer to ensure the agent processes them.
 
 Each PDF document found in an email becomes an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email (up to a maximum of 10), an entry in **Inbound E-Documents** is created for each of them. A distinct agent task processes each entry.
 
@@ -58,17 +58,17 @@ Each PDF document found in an email becomes an entry in **Inbound E-Documents**.
 The agent processes any email sent to the monitored mailbox. We recommend you use a shared mailbox that you keep as an internal-only mailbox and don't expose this mailbox to your vendors. The choice is yours. However, by not exposing invoices to vendors, your employees become the first to review and identify potential fraud, while also minimizing unnecessary information for the agent to handle. We recommend you set up a shared mailbox in Microsoft 365, add your accounts payable team members to that mailbox, and use that as the mailbox monitored by the Payables Agent. Learn more in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox).
 
 > [!NOTE]
-> Use a designated mailbox for receiving vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
+> Use a mailbox that's designated to receive vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 >
 > [!CAUTION]
-> The Payables Agent processes only emails that contain PDF attachments. Take steps to ensure that the agent has full ownership of the mailbox, process wise, and users can't accidentally read or remove emails:
+> The Payables Agent processes only emails that contain PDF attachments. Ensure that the agent has full ownership of the mailbox, and that users can't accidentally read or remove emails:
 >
-> - The monitored mailbox should only be attended from within Business Central
+> - The monitored mailbox should only be attended from within [!INCLUDE [prod_short](includes/prod_short.md)].
 > - Users shouldn't access the monitored mailbox from Outlook.
-> - Use a shared mailbox if possible.
-> - **Ensure emails contain 10 or fewer attachments** - emails with more than 10 attachments are skipped by the agent.
+> - Use a shared mailbox, if possible.
+> - Ensure emails contain 10 or fewer attachments. The agent skips emails that have more than 10 attachments.
 >
-> PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page and then remove them. You can also remove unsupported files received in this mailbox this way.
+> PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page, and then remove them. You can also remove unsupported files received in this mailbox this way.
 
 > ![Shows the Unknown Document Type view on the Inbound E-Documents page](media/unknown-document-type-view.png)
 

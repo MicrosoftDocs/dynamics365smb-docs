@@ -26,7 +26,7 @@ The **Microsoft Excel Document (data only)** option exports the report results a
 
 Once you have the Excel file, you can start analyzing the data. For example, you could filter the data and use Power Pivot to display it.
 
-Each time you export results, a new worksheet is created. Using the **Microsoft Excel Document (data only)** option, you can run the same report and reuse formatting changes. For example, for Power Pivot, you can run the report again for another time period, copy the results to the worksheet, and then refresh the worksheet. You can also find a reporting app on [AppSource](https://appsource.microsoft.com/).
+Each time you export results, a new worksheet is created. Using the **Microsoft Excel Document (data only)** option, you can run the same report and reuse formatting changes. For example, for Power Pivot, you can run the report again for another time period, copy the results to the worksheet, and then refresh the worksheet. You can also find a reporting app on [Marketplace](https://marketplace.microsoft.com/).
 
 > [!NOTE]
 > You can't export a report that has more than 1,048,576 rows or 16,384 columns. With Business Central on-premises, the maximum number of exported rows might be even less. Business Central Server includes a configuration setting, called **Max Data Rows Allowed to Send to Excel**, for decreasing the limit from the maximum value. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.

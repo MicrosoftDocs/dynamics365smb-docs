@@ -31,7 +31,7 @@ To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUD
 
 - Entitlements/permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to:
 
-  - Install template apps from AppSource.
+  - Install template apps from Marketplace.
   - Use shared workspaces.
 
 The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be met with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
@@ -61,9 +61,9 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 
 ### Installing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app
 
-Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following tables below and select **Get it now**.
+Template apps are available to install from Microsoft Marketplace. To install or update one or more of the template apps, go to one of the install links in the following tables below and select **Get it now**.
 
-Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
+Sign in to Microsoft Marketplace using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
 
 In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
 
@@ -231,7 +231,7 @@ Instead, consider having a single workspace per company that you use for the emb
 
 ## Update a Power BI app
 
-The [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on AppSource. When a new version of a template app becomes available, we notify you in two ways:
+The [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on Marketplace. When a new version of a template app becomes available, we notify you in two ways:
 
 - An update banner displays in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] informing you that a new version is available.
 - A notification displays in Power BI's notification pane.

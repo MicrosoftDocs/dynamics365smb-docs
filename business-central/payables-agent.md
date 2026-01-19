@@ -46,7 +46,12 @@ The dashed steps in the image represent steps that&mdash;in time&mdash;are inten
 
 The agent uses an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices as PDF documents. The dispatcher triggers the agent to perform tasks and then imports the PDF document into **Inbound E-Documents**.
 
-Each PDF document found in an email becomes an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** is created for each of them. A distinct agent task processes each entry.
+> [!IMPORTANT]
+> The agent only processes emails that contain PDF attachments. Emails without PDF attachments are not processed by the agent and will appear as agent tasks requiring manual attention.
+>
+> If an email contains more than 10 attachments, the agent will skip processing that email entirely. Keep the number of attachments per email to 10 or fewer to ensure the agent processes them.
+
+Each PDF document found in an email becomes an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email (up to a maximum of 10), an entry in **Inbound E-Documents** is created for each of them. A distinct agent task processes each entry.
 
 #### Use a shared mailbox to curate invoices and minimize noise
 
@@ -56,11 +61,12 @@ The agent processes any email sent to the monitored mailbox. We recommend you us
 > Use a designated mailbox for receiving vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 >
 > [!CAUTION]
-> A fundamental principle of the Payables Agent is to import **all** emails, not just the ones that contain PDF files. Take steps to ensure that the agent has full ownership of the mailbox, process wise, and users can't accidentally read or remove emails:
+> A fundamental principle of the Payables Agent is to import **all** emails, not just the ones that contain PDF files. However, only emails with PDF attachments are processed for invoice creation. Take steps to ensure that the agent has full ownership of the mailbox, process wise, and users can't accidentally read or remove emails:
 >
 > - The monitored mailbox should only be attended from within Business Central
 > - Users shouldn't access the monitored mailbox from Outlook.
 > - Use a shared mailbox if possible.
+> - **Ensure emails contain 10 or fewer attachments** - emails with more than 10 attachments are skipped by the agent.
 >
 > As a consequence, emails with no PDFs show up as agent tasks and need agent overseers to decide how to handle them. PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page and then remove them. You can also remove unsupported files received in this mailbox this way.
 
@@ -155,6 +161,8 @@ The Payables Agent currently doesn't support the following features:
 
 The following constraints apply to document processing and daily usage:
 
+- The agent only processes emails with PDF attachments. Emails without PDF attachments are not processed for invoice creation.
+- The agent skips emails with more than 10 attachments. Each email should contain 10 or fewer attachments.
 - The agent doesn't process PDFs with more than 10 pages.
 - The agent doesn't process PDFs larger than 5 MB.
 - The agent doesn't process more than 100 emails per day.

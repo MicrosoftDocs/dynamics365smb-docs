@@ -21,9 +21,9 @@ Learn more about the agent in [Payables Agent overview](payables-agent.md).
 
 Before configuring and activating the Payables Agent, ensure the following prerequisites are met:
 
-- The Business Central environment is one of these country/region versions: AU (Australia), CA (Canada), DE (Germany), DK (Denmark), ES (Spain), FR (France), GB (Great Britain), IT (Italy), NZ (New Zealand), or US (United States).
+- The Business Central environment is one of these country/region versions: AU (Australia), CA (Canada), DE (Germany), DK (Denmark), ES (Spain), FR (France), GB (United Kingdom), IT (Italy), NZ (New Zealand), or US (United States).
 
-   Payables Agent is currently unavailable in other countries/region versions. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+   Payables Agent is currently unavailable in other country/region versions. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 - Set up the email account for receiving vendor invoices PDF documents.
 

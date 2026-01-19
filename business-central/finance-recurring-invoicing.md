@@ -101,7 +101,7 @@ For more information, see [Recurring Orders](LocalFunctionality/Norway/recurring
 
 ### Recurring revenue and subscription billing by other providers
 
-At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for Business Central. Some extensions are provided by Microsoft, and other extensions are provided by other companies. The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) and get apps to help you in your work in Business Central.  
+At [Marketplace.microsoft.com](https://marketplace.microsoft.com/), you can get extensions for Business Central. Some extensions are provided by Microsoft, and other extensions are provided by other companies. The list of the extensions by other companies grows each month. So keep an eye out for [Marketplace.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) and get apps to help you in your work in Business Central.  
 
 ## Related information
 

@@ -25,7 +25,7 @@ Because OCR is based on optical recognition, it's likely that the OCR service in
 A dedicated job queue entry processes the traffic of files to and from the OCR service. This job queue is created automatically when you enable the external OCR service connection. Learn more in [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
 > [!NOTE]
-> The OCR feature is provided by external providers. Choose a service package that's appropriate for your organization and/or country/region. Find services compatible with [!INCLUDE[prod_short](includes/prod_short.md)] and details on available features at [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
+> The OCR feature is provided by external providers. Choose a service package that's appropriate for your organization and/or country/region. Find services compatible with [!INCLUDE[prod_short](includes/prod_short.md)] and details on available features at [Marketplace.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## To send a PDF or image file to the OCR service from the Incoming Documents page
 

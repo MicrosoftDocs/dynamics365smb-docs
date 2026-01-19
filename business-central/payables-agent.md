@@ -61,14 +61,14 @@ The agent processes any email sent to the monitored mailbox. We recommend you us
 > Use a designated mailbox for receiving vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 >
 > [!CAUTION]
-> A fundamental principle of the Payables Agent is to import **all** emails, not just the ones that contain PDF files. However, only emails with PDF attachments are processed for invoice creation. Take steps to ensure that the agent has full ownership of the mailbox, process wise, and users can't accidentally read or remove emails:
+> The Payables Agent processes only emails that contain PDF attachments. Take steps to ensure that the agent has full ownership of the mailbox, process wise, and users can't accidentally read or remove emails:
 >
 > - The monitored mailbox should only be attended from within Business Central
 > - Users shouldn't access the monitored mailbox from Outlook.
 > - Use a shared mailbox if possible.
 > - **Ensure emails contain 10 or fewer attachments** - emails with more than 10 attachments are skipped by the agent.
 >
-> As a consequence, emails with no PDFs show up as agent tasks and need agent overseers to decide how to handle them. PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page and then remove them. You can also remove unsupported files received in this mailbox this way.
+> PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page and then remove them. You can also remove unsupported files received in this mailbox this way.
 
 > ![Shows the Unknown Document Type view on the Inbound E-Documents page](media/unknown-document-type-view.png)
 

@@ -33,7 +33,7 @@ All common file formats are supported.
 > File names can't include these characters: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>`, `|`. If item numbers contain any of these characters (for example, ABC/123), you can't import item pictures using the ZIP method described in this article. In this case, you have the following workarounds:
 >
 > - Import pictures manually on each item card. To import a picture on single item, open the item card, select **Picture** > **Import**.
-> - Use APIs or AL code to import pictures programmatically, where item numbers aren't constrained by file‑name restrictions. Contact your administrator or developer for assistance.
+> - Use APIs or AL code to import pictures programmatically, where item numbers aren't constrained by file‑name restrictions. Contact an admin or developer for assistance.
 
 ## Import item pictures
 

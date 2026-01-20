@@ -34,13 +34,13 @@ To learn more about how to set up the extension, go to [Enable Customer Payment 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] can register payments automatically if you have a **Business Merchant** account for the **PayPal Commerce Platform**. When your customers use the PayPal link to pay an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] posts the entries and close the document.
 
-To use this capability, on the **Payment Registration Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Register payments automatically** toggle and verify the accounts you'll use for the payments. If you decide that you don't want to register payments automatically, you can turn it off again.
+To use this capability, on the **Payment Registration Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Register payments automatically** toggle and verify the accounts you use for the payments. If you decide that you don't want to register payments automatically, you can turn it off again.
 
 > [!NOTE]
 > The journal batch chosen on the **Payment Registration Setup** page can't have record-level restrictions or require manual approval. All users must be able to access the journal batch.
 
 > [!TIP]
-> Developers can use sandbox accounts to test the setup. To do that, change the PayPal URL to **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] uses the PayPals Instant Payment Notification (IPN) through notify_url.
+> Developers can use sandbox accounts to test the setup. To do that, change the PayPal URL to **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] uses the PayPal Instant Payment Notification (IPN) through notify_url.
 
 ## Related information
 

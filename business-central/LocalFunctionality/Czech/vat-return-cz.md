@@ -17,24 +17,24 @@ The VAT return feature in [!INCLUDE [prod_short](../../includes/prod_short.md)] 
 In VAT Return Lines, the Mailbox No. field must be filled in. Lines with the same mailbox number are generated into one VAT Return line and, according to the parameterization of the VAT Attribute Code of the transferred VAT return line, the values are filled into the Basis, Amount or Reduced Amount column.
 The generated return can be printed as a report.
 
-## To set up VAT reports in [!INCLUDE[prod_short](includes/prod_short.md)]
+## To set up VAT reports
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **VAT Report Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **VAT Report Setup**, and then choose the related link.
 2. Choose Report Vesrsion CZ  
 
 ![VAT Report Setup](Media/vat-report-setup.png "VAT Report Setup")
 
 ### To set up VAT return periods
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **VAT Return Periods**, and then choose the related link.  
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, fill in the fields to set up the first period. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
 3. Repeat step 2 for any additional periods that you want to add.
 
 ![VAT Return Periods](Media/vat-return-period.png "VAT Return Periods")
 
-## To set up VAT Statement in [!INCLUDE[prod_short](includes/prod_short.md)]
+## To set up VAT Statement 
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **VAT Statement**, and then choose the related link.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **VAT Statement**, and then choose the related link.
 2. Set Box Nos. and Attribute Codes in the VAT Statement Lines.
 3. You  must define VAT Return Amount Type (Base, Amount, Reduced Amount) in the VAT Attribute Codes page.
 
@@ -44,7 +44,7 @@ The generated return can be printed as a report.
 ## To prepare and submit a VAT report
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns** and then choose the related link.  
-2. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3. Select VAT report Type - Standard, Corrective or Supplementary.
 4. Select Version - CZ and period.
 5. To generate the content of the report, choose the **Suggest Lines** action.  

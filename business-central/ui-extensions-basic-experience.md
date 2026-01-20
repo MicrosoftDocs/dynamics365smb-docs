@@ -44,7 +44,7 @@ This extension is a bit different than most, and you'll need help from a Microso
 3. Remove all companies, including the sample Cronus company.
 4. Create a new company that doesn't contain any sample data or setups.
 5. Add the **Demo RapidStart** package. <!--what does the package contain?-->
-6. Download and install the Basic Experience extension from AppSource.
+6. Download and install the Basic Experience extension from Marketplace.
 
 ## Migrating data
 

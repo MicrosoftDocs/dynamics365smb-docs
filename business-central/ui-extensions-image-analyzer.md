@@ -112,7 +112,7 @@ You can view the number of analyses you've done, and how many you can still do, 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Connections**, and then choose **Image Analysis Setup**.  
 2. Clear the **Enable Image Analyzer** field.  
 
-Alternatively, uninstall the extension completely. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
+Alternatively, uninstall the extension completely. You can always fetch it again from Marketplace. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
 ## Related information
 

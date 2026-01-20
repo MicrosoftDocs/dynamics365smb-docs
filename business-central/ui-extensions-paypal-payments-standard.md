@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.topic: concept-article
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 1070, 1071, 1073, 1074
-ms.date: 07/09/2024
+ms.date: 01/20/2026
 ms.custom: bap-template
 
 ms.service: dynamics-365-business-central
@@ -32,9 +32,12 @@ To learn more about how to set up the extension, go to [Enable Customer Payment 
 
 ## Register payments automatically for business accounts
 
-[!INCLUDE [prod_short](includes/prod_short.md)] can register payments automatically if you have a Business Merchant account for the PayPal Commerce Platform. When your customers use the PayPal link to pay an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] posts the entries and close the document.
+[!INCLUDE [prod_short](includes/prod_short.md)] can register payments automatically if you have a **Business Merchant** account for the **PayPal Commerce Platform**. When your customers use the PayPal link to pay an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] posts the entries and close the document.
 
 To use this capability, on the **Payment Registration Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Register payments automatically** toggle and verify the accounts you'll use for the payments. If you decide that you don't want to register payments automatically, you can turn it off again.
+
+> [!NOTE]
+> The journal batch chosen on the **Payment Registration Setup** page can't have record-level restrictions or require manual approval. All users must be able to access the journal batch.
 
 > [!TIP]
 > Developers can use sandbox accounts to test the setup. To do that, change the PayPal URL to **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] uses the PayPals Instant Payment Notification (IPN) through notify_url.

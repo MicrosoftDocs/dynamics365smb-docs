@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: German version, local functionality
-ms.date: 06/30/2025
+ms.date: 01/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

@@ -4,7 +4,7 @@ description: The Realized Emissions by Baseline report breaks down your carbon e
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 05/26/2025

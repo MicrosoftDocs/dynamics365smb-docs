@@ -4,7 +4,7 @@ description: Analyze which service contracts include service items that are due 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5988_Primary
 ms.date: 11/2/2024

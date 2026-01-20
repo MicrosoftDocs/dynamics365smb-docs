@@ -883,10 +883,10 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
 ##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
-##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+##### [Monitor insurance coverage](fa-how-insure.md#monitor-insurance-coverage)
+##### [View changed depreciation book values](fa-how-trans-split-combine.md#view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [View disposal ledger entries](fa-how-dispose-retire.md#view-disposal-ledger-entries)
+##### [View projected disposal values](fa-how-manage-budgets.md#view-projected-disposal-values)
 #### Fixed assets reports
 ##### [Fixed assets report overview](fa-reports.md)
 ##### [Fixed Asset Analysis Excel](reports/report-4412.md)
@@ -1581,6 +1581,7 @@ ms.service: dynamics-365-business-central
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
 #### [Set up posting number series](LocalFunctionality/India/posting-no-series-setup.md)
 #### [Audit trail and edit logs for accounting software in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
+#### [Charge assignment functionality](LocalFunctionality/India/charge-assignment-functionality.md)
 #### Tax engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax engine import export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -2467,9 +2468,9 @@ ms.service: dynamics-365-business-central
 
 ### Service management
 #### [View service statistics](service-service-statistics.md)
-#### [Service orders overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+#### [Service orders overview](service-how-to-allocate-resources.md#see-an-overview-of-service-orders-and-service-quotes)
+#### [Service quotes overview](service-how-to-allocate-resources.md#see-an-overview-of-service-orders-and-service-quotes)
+#### [Posted service document overview](service-service-posting.md#view-information-about-a-posted-service-document)
 
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
@@ -2654,15 +2655,15 @@ ms.service: dynamics-365-business-central
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [Responsible AI FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
-## Sales Order Agent (preview)
+## Sales Order Agent
 ### [Sales Order Agent overview](sales-order-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Sales Order Agent](sales-order-agent-setup.md?toc=/dynamics365/business-central/toc.json)
 ### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
-### [Responsible AI FAQ for Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
-## Payables Agent (preview)
+### [Responsible AI FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
+## Payables Agent
 ### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
-<!--### [Use Payables Agent](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)-->
+### [Supervise agent activities](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
@@ -2685,7 +2686,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for Payables Agent](faqs-payables-agent.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
-## [FAQ for Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
+## [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 ## [FAQ for summarize (preview)](faqs-summarize.md)

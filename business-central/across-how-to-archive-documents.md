@@ -1,15 +1,16 @@
 ---
 title: Archive sales, purchase, project, and service documents
-description: You can archive orders, quotes, return orders, and blanket orders.
+description: Archive sales, purchase, project, and service documents such as orders, quotes, return orders, and blanket orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.date: 12/09/2024
+ms.date: 10/15/2025
 ms.custom: bap-template
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.service: dynamics-365-business-central
 ---
+
 # Archive documents
 
 You can archive sales, purchase, and service orders, quotes, return orders, and blanket orders. If you're using Project Management features, you can also archive your projects. You can archive documents and projects several times. A different archived version saves each time.
@@ -72,7 +73,7 @@ The contents of the original sales order or project are replaced with the archiv
 
 ## To delete archived versions
 
-Use a retention policy to clean up archived versions that you no longer need. Retention policies let administrators define how long they want to store data. For example, they can set up a policy that deletes data after an expiration date. To learn more, go to [Define Retention Policies](admin-data-retention-policies.md).
+Use a retention policy to clean up archived versions that you no longer need. Retention policies let administrators define how long they want to store data. For example, they can set up a policy that deletes data after an expiration date. Learn more in [Define Retention Policies](admin-data-retention-policies.md).
 
 There are a few things to note about creating retention policies for archived documents and projects:
 
@@ -85,6 +86,6 @@ There are a few things to note about creating retention policies for archived do
 [Track Document Lines](across-how-to-track-document-lines.md)  
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

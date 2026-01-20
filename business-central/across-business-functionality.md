@@ -6,11 +6,12 @@ ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 11/13/2024
+ms.date: 10/13/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Business functionality
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and medium-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. Learn how to get a free trial [here](trial-signup.md).  
@@ -43,8 +44,8 @@ ms.reviewer: bholtorf
 
 [Administration](admin-setup-and-administration.md)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Get Ready for Doing Business](ui-get-ready-business.md)  
+[Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,7 +5,7 @@ description: The Social Analysis report displays employee details as part of Soc
 author: altotovi
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 06/04/2025

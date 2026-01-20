@@ -4,10 +4,9 @@ description: The Production Order Overview report provides a high-level summary 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
-# TODO correct page id must be added
-# ms.search.form: 37042_Primary 
+ms.search.form: 37098_Primary
 ms.date: 04/22/2024
 ms.service: dynamics-365-business-central
 ---
@@ -67,17 +66,17 @@ Together, these visuals offer a comprehensive snapshot of production health, emp
 
 The Machine Center Load report includes the following KPIs and measures:
 
-- [Actual Capacity Cost](manufacturing-powerbi-kpis.md#actual-capacity-cost)
-- [Actual Capacity Cost Overhead](manufacturing-powerbi-kpis.md#actual-capacity-overhead-cost)
-- [Actual Manufacturing Overhead Cost](manufacturing-powerbi-kpis.md#actual-manufacturing-overhead-cost)
-- [Actual Material Cost](manufacturing-powerbi-kpis.md#actual-material-cost)
-- [Actual Subcontracted Cost](manufacturing-powerbi-kpis.md#actual-subcontracted-cost)
-- [Total Actual Cost](manufacturing-powerbi-kpis.md#total-actual-cost)
-- [Total Expected Cost](manufacturing-powerbi-kpis.md#total-expected-cost)
-- [Total Standard Cost](manufacturing-powerbi-kpis.md#total-standard-cost)
-- [No. of Production Orders](manufacturing-powerbi-kpis.md#no-of-production-orders)
-- [Finished %](manufacturing-powerbi-kpis.md#finished-percent)
-- [Remaining %](manufacturing-powerbi-kpis.md#remaining-percent)
+- [**Actual Capacity Cost**](manufacturing-powerbi-kpis.md#actual-capacity-cost)
+- [**Actual Capacity Cost Overhead**](manufacturing-powerbi-kpis.md#actual-capacity-overhead-cost)
+- [**Actual Manufacturing Overhead Cost**](manufacturing-powerbi-kpis.md#actual-manufacturing-overhead-cost)
+- [**Actual Material Cost**](manufacturing-powerbi-kpis.md#actual-material-cost)
+- [**Actual Subcontracted Cost**](manufacturing-powerbi-kpis.md#actual-subcontracted-cost)
+- [**Total Actual Cost**](manufacturing-powerbi-kpis.md#total-actual-cost)
+- [**Total Expected Cost**](manufacturing-powerbi-kpis.md#total-expected-cost)
+- [**Total Standard Cost**](manufacturing-powerbi-kpis.md#total-standard-cost)
+- [**No. of Production Orders**](manufacturing-powerbi-kpis.md#no-of-production-orders)
+- [**Finished %**](manufacturing-powerbi-kpis.md#finished-percent)
+- [**Remaining %**](manufacturing-powerbi-kpis.md#remaining-percent)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -96,7 +95,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Production Order Overview](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Production Order Overview](https://businesscentral.dynamics.com?page=37098)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

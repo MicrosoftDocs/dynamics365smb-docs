@@ -4,7 +4,7 @@ description: The Gross Requirement report looks at all outbound transactions wit
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37027_Primary
 ms.date: 10/28/2024

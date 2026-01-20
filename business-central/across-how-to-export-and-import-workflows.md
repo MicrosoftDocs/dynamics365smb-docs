@@ -1,16 +1,17 @@
 ---
-title: How to Export and Import Approval Workflows
-description: To transfer workflows to other Business Central databases, for example to save time when creating new workflows, you can export and import workflows.
+title: How to export and import approval workflows
+description: Export and import workflows to easily transfer them between Business Central databases and streamline the creation of new workflows.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-ms.date: 09/08/2022
+ms.search.keywords: export approval workflow, import approval workflow, export workflow, import workflow, 
+ms.date: 10/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Export and Import Approval Workflows
+
+# Export and import approval workflows
 
 To transfer workflows to other [!INCLUDE[prod_short](includes/prod_short.md)] databases, for example to save time when creating new workflows, you can export and import workflows.  
 
@@ -30,7 +31,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 3. On the **Import** page, select **Choose**, choose the XML file containing the workflow, then select **Open**.  
 
 > [!CAUTION]  
-> If the workflow code already exists in the database, the workflow steps will be overwritten with the steps in the imported workflow.  
+> If the workflow code already exists in the database, the workflow steps are overwritten with the steps in the imported workflow.  
 
 ## Related information
 
@@ -39,7 +40,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)  
 [Delete Approval Workflows](across-how-to-delete-workflows.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Setting Up Approval Workflows](across-set-up-workflows.md)  
+[Set Up Approval Workflows](across-set-up-workflows.md)  
 [Use Approval Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 

@@ -4,7 +4,7 @@ description: Get a list of the vendors for selected items or the items for selec
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_720_Primary
 ms.date: 10/14/2024

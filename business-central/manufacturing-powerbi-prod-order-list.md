@@ -4,10 +4,9 @@ description: Learn about how to benefit from using the Prod. Order List report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
-# TODO correct page id must be added
-# ms.search.form: 37042_Primary 
+ms.search.form: 37097_Primary 
 ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -50,15 +49,15 @@ Production supervisors rely on the **Prod. Order List** report to manage day-to-
 
 The Prod. Order List report includes the following KPIs and measures:
 
-- [Actual Total Cost](manufacturing-powerbi-kpis.md#total-actual-cost)
-- [Expected Total Cost](manufacturing-powerbi-kpis.md#total-expected-cost)
-- [Standard Total Cost](manufacturing-powerbi-kpis.md#total-standard-cost)
-- [Total Expected Cost Dev %](manufacturing-powerbi-kpis.md#total-expected-cost-dev-percent)
-- [Total Standard Cost Dev %](manufacturing-powerbi-kpis.md#total-standard-cost-dev-percent)
-- [No. of Production Orders](manufacturing-powerbi-kpis.md#no-of-production-orders)
-- [Planned Quantity](manufacturing-powerbi-kpis.md#planned-quantity)
-- [Finished Quantity](manufacturing-powerbi-kpis.md#finished-quantity)
-- [Variance Quantity](manufacturing-powerbi-kpis.md#variance-quantity)
+- [**Total Actual Cost**](manufacturing-powerbi-kpis.md#total-actual-cost)
+- [**Total Expected Cost**](manufacturing-powerbi-kpis.md#total-expected-cost)
+- [**Total Standard Cost**](manufacturing-powerbi-kpis.md#total-standard-cost)
+- [**Total Expected Cost Dev %**](manufacturing-powerbi-kpis.md#total-expected-cost-dev-percent)
+- [**Total Standard Cost Dev %**](manufacturing-powerbi-kpis.md#total-standard-cost-dev-percent)
+- [**No. of Production Orders**](manufacturing-powerbi-kpis.md#no-of-production-orders)
+- [**Planned Quantity**](manufacturing-powerbi-kpis.md#planned-quantity)
+- [**Finished Quantity**](manufacturing-powerbi-kpis.md#finished-quantity)
+- [**Variance Quantity**](manufacturing-powerbi-kpis.md#variance-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -77,7 +76,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Prod. Order List](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Prod. Order List](https://businesscentral.dynamics.com?page=37097)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

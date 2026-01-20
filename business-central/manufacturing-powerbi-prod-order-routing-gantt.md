@@ -4,10 +4,9 @@ description: Learn how to benefit from using the Prod. Order Routing Gantt repor
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
-# TODO correct page id must be added
-# ms.search.form: 37042_Primary 
+ms.search.form: 37099_Primary
 ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -50,8 +49,9 @@ Production supervisors rely on the report to manage day-to-day production tasks 
 
 The Prod. Order Routing Gantt report includes the following KPIs and measures:
 
-- [Total Duration Hours](manufacturing-powerbi-kpis.md#total-duration-hours)
-- [Total Duration Days](manufacturing-powerbi-kpis.md#total-duration-days)
+- [**Total Duration Hours**](manufacturing-powerbi-kpis.md#total-duration-hours)
+- [**Total Duration Days**](manufacturing-powerbi-kpis.md#total-duration-days)
+- [**Posted Output Quantity**](manufacturing-powerbi-kpis.md#posted-output-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -66,7 +66,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Prod. Order Routing Gantt](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Prod. Order Routing Gantt](https://businesscentral.dynamics.com?page=37099)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

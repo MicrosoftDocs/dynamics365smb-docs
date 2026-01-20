@@ -1,13 +1,13 @@
 ---
 title: Business Central and OneDrive for Business Integration
-description: You can use OneDrive for Business to store, manage, and share files, such as reports or file attachments. Also if you spell it One Drive. 
+description: Learn how to use OneDrive for Business to store, manage, and share files—such as reports and attachments—in Business Central. Also covers scenarios where OneDrive may be spelled as "One Drive."
 author: jswymer
 ms.topic: overview
-ms.search.keywords:
-ms.date: 06/13/2024
+ms.search.keywords: OneDrive, OneDrive integration
+ms.date: 10/17/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms.custom: sfi-image-nochange
 ---
 
@@ -25,10 +25,9 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, we've alr
 
 On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find an **Open in OneDrive** and **Share** actions.
 
-:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="The Open in OneDrive and Share actions for reports":::
+:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="The Open in OneDrive and Share actions for reports.":::
 
-
-:::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive and Share actions for attachments":::
+:::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive and Share actions for attachments.":::
 
 |Select...|To...|See more info...|
 |---------|-----|----------------|
@@ -39,8 +38,8 @@ On most pages where files are available, such as the Report Inbox or files that 
 
 With OneDrive integration set up, a couple other familiar features will automatically use OneDrive for saving files instead of saving files on your device:
 
-- The **Open in Excel** and **Edit in Excel** actions on list pages will automatically copy the Excel file to OneDrive, then open it in Excel Online. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).
-- Sending a report to an Excel or Word file will automatically copy the file to OneDrive, then open it in the Excel or Word online. For more information, see [Saving a report to a file](ui-work-report.md#save-a-report-to-a-file).
+- The **Open in Excel** and **Edit in Excel** actions on list pages will automatically copy the Excel file to OneDrive, then open it in Excel Online. Learn more in [Viewing and Editing in Excel](across-work-with-excel.md).
+- Sending a report to an Excel or Word file will automatically copy the file to OneDrive, then open it in the Excel or Word online. Learn more in [Saving a report to a file](ui-work-report.md#save-a-report-to-a-file).
 
 These features aren't turned on by default. But as an administrator, you can easily turn them on by using the **OneDrive Setup** assisted setup guide.
 
@@ -55,10 +54,10 @@ The folder and its content are private until you decide to share them with other
 -->
 
 > [!NOTE]
-> You can also connect your [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to OneDrive. However, there are a few things to do to make it work. For more information, see [Configuring Business Central On-Premises](admin-onedrive-integration-onpremises.md).
+> You can also connect your [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to OneDrive. However, there are a few things to do to make it work. Learn more in [Configuring Business Central On-Premises](admin-onedrive-integration-onpremises.md).
 
 ## Related information
 
-[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
-[Opening Business Central Files in OneDrive](across-share-onedrive.md)  
+[Manage OneDrive Integration with Business Central](admin-onedrive-integration.md)  
+[Open Business Central Files in OneDrive](across-share-onedrive.md)  
 [OneDrive FAQ](admin-onedrive-faq.md)  

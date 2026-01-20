@@ -4,7 +4,7 @@ description: Analyze your general ledger with dimension detail by building group
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_28_Primary
 ms.date: 10/18/2024

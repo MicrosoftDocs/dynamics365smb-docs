@@ -4,7 +4,7 @@ description: Understand the transactions for control general ledger accounts, an
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_33_Primary
 ms.date: 06/18/2025

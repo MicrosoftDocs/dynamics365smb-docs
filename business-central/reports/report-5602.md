@@ -4,7 +4,7 @@ description: Review the journal lines in a fixed assets journal. You can use the
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5602_Primary
 ms.date: 11/11/2024

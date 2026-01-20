@@ -4,7 +4,7 @@ description: Get list of all your contacts, including related opportunities and 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5050_Primary
 ms.date: 11/11/2024

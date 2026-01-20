@@ -4,7 +4,7 @@ description: Reconcile your inventory subledger with inventory accounts in the g
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1001_Primary
 ms.date: 10/18/2024

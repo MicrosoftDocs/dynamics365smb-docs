@@ -1,15 +1,14 @@
 ---
 title: Set up digital vouchers
-description: This article explains how to set up and use enforced digital vouchers in Microsoft Dynamics 365 Business Central.
+description: Learn how to configure and use enforced digital vouchers in Microsoft Dynamics 365 Business Central to ensure documents are attached to transactions for better compliance and audit trails.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: digital voucher, voucher, attachment, setup
 ms.search.form: 5579, 5582, 5587
-ms.date: 04/07/2025
+ms.date: 10/15/2025
 ms.custom: bap-template
-
 ---
 
 # Set up digital vouchers
@@ -25,7 +24,7 @@ The term *digital voucher* refers to a digital or electronic form of a tradition
 
 Follow these steps to enable digital voucher functionality.
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Setup**, and then select the related link.
+1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Setup**, and then select the related link.
 2. Select the **Enabled** checkbox.
 
 ## Set up digital vouchers
@@ -42,7 +41,7 @@ You can use different setups for the documents and journals described in the fol
 
 Follow these steps to define how your organization uses enforced digital vouchers.
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link. Alternatively, on the **Digital Voucher Setup** page, select **Entry Setup**.
+1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link. Alternatively, on the **Digital Voucher Setup** page, select **Entry Setup**.
 2. In the **Entry Type** column, select an option.
 3. In the **Check Type** column, select an enforcement option. If you select **None**, you can post the selected type of entry without a digital voucher. If you select **Attachment**, the entry must include an attachment. If you select **Attachment or Note**, you can include an attachment or a note for the entry. 
 4. Select the **Generate Automatically** checkbox to generate the digital voucher automatically. For example, if you don't want to manually add a sales invoice to your transaction, select this checkbox. Then, you just have to post the document. The system automatically creates the document, based on your report layout, and attaches it to the transaction.
@@ -85,12 +84,12 @@ You can't delete an attached document after posting is completed. However, you c
 
 To use enforced digital vouchers with general recurring journals, follow these steps to ensure that your setup works as you expect.
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal Templates**, and then select the related link.  
+1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal Templates**, and then select the related link.  
 2. To remove the link between the incoming document and the journal when you post the journal, select the **Unlink Incoming Documents On Posting** checkbox for the template. If you don't select this checkbox, digital vouchers stay linked to journal lines after you post them.
 
 ## Related information
 
 [Financial Management](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

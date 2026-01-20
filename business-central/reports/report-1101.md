@@ -4,7 +4,7 @@ description: Analyze resource data to ensure it's accurate and up-to-date.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1101_Primary
 ms.date: 02/18/2025

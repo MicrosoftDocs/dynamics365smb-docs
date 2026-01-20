@@ -1,18 +1,17 @@
 ---
-title: Changing Company and Other Settings in Teams 
-description: Learn about how to change Business Central connection settings from Microsoft Teams.
+title: Changing company and other settings in Teams 
+description: Learn how to change Business Central connection settings from Microsoft Teams.
 author: jswymer
-
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
-ms.date: 08/14/2024
+ms.date: 10/21/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ---
 
-# Changing Company and Other Settings in Teams
+# Change company and other settings in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -22,7 +21,7 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 
 1. Next to the message compose box, select **+**, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] app icon, then select **Settings**.
 
-    ![Settings for Business Central from command box.](media/teams-settings-message-box-2.png)
+   ![Settings for Business Central from command box.](media/teams-settings-message-box-2.png)
 
 2. From the command box at the top, search for **/Business Central** and then select the [!INCLUDE [prod_short](includes/prod_short.md)] app icon. Then, in the message that appears the under the **[search for business contacts]** box, select **... (More options)** and then **Settings**. If the message isn't displayed, click the **[search for business contacts]** box.
 
@@ -32,13 +31,12 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
-[Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
+[Search for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
 [Share Records in Microsoft Teams](across-working-with-teams.md)  
 [Teams FAQ](teams-faq.md)  
-[Troubleshooting Teams](admin-teams-troubleshooting.md)  
-[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Troubleshoot Teams](admin-teams-troubleshooting.md)  
+[Develop for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

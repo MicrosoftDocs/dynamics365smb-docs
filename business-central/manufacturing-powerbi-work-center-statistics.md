@@ -4,10 +4,9 @@ description: The Work Center Statistics report shows key performance indicators 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
-# TODO correct page id must be added
-# ms.search.form: 37042_Primary 
+ms.search.form: 37094_Primary
 ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -55,17 +54,17 @@ Production supervisors rely on this report to monitor work center performance. B
 
 The Work Center Statistics report includes the following KPIs and measures:
 
-- [Work Center Capacity (Total)](manufacturing-powerbi-kpis.md#work-center-capacity-total)
-- [Work Center Capacity (Effective)](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
-- [Work Center Expected Efficiency %](manufacturing-powerbi-kpis.md#work-center-expected-efficiency-percent)
-- [Work Center Actual Need](manufacturing-powerbi-kpis.md#work-center-actual-need)
-- [Work Center Actual Efficiency %](manufacturing-powerbi-kpis.md#work-center-actual-efficiency-percent)
-- [Work Center Actual Total Cost](manufacturing-powerbi-kpis.md#work-center-actual-total-cost)
-- [Work Center Allocated Time](manufacturing-powerbi-kpis.md#work-center-allocated-time)
-- [Work Center Output](manufacturing-powerbi-kpis.md#work-center-output)
-- [Work Center Scrap](manufacturing-powerbi-kpis.md#work-center-scrap)
-- [Work Center Scrap %](manufacturing-powerbi-kpis.md#work-center-scrap-percent)
-- [Work Center Load](manufacturing-powerbi-kpis.md#work-center-load)
+- [**Work Center Capacity (Total)**](manufacturing-powerbi-kpis.md#work-center-capacity-total)
+- [**Work Center Capacity (Effective)**](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
+- [**Work Center Expected Efficiency %**](manufacturing-powerbi-kpis.md#work-center-expected-efficiency-percent)
+- [**Work Center Actual Need**](manufacturing-powerbi-kpis.md#work-center-actual-need)
+- [**Work Center Actual Efficiency %**](manufacturing-powerbi-kpis.md#work-center-actual-efficiency-percent)
+- [**Work Center Actual Total Cost**](manufacturing-powerbi-kpis.md#work-center-actual-total-cost)
+- [**Work Center Allocated Time**](manufacturing-powerbi-kpis.md#work-center-allocated-time)
+- [**Work Center Output**](manufacturing-powerbi-kpis.md#work-center-output)
+- [**Work Center Scrap**](manufacturing-powerbi-kpis.md#work-center-scrap)
+- [**Work Center Scrap %**](manufacturing-powerbi-kpis.md#work-center-scrap-percent)
+- [**Work Center Load**](manufacturing-powerbi-kpis.md#work-center-load)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -82,7 +81,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Work Center Statistics](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Work Center Statistics](https://businesscentral.dynamics.com?page=37094)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

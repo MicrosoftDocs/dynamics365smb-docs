@@ -3,12 +3,12 @@ title: Flush components according to operation output
 description: This article describes how to flush components according to operation output and other flushing methods involved.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords:
-ms.date: 03/04/2025
+ms.date: 11/06/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # Flush components according to operation output

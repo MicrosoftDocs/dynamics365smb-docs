@@ -4,7 +4,7 @@ description: Compare account balances side-by-side across two fiscal years and i
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting, year-over-year, comparison, fiscal year
 ms.search.form: Report_37_Primary
 ms.date: 06/21/2025

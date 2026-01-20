@@ -4,7 +4,7 @@ description: The Sales Forecasting report provides insights into your organizati
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37109_Primary
 ms.date: 10/07/2025

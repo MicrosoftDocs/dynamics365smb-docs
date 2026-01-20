@@ -4,7 +4,7 @@ description: Summarizes all cost entries across selected dimensions such as depa
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: cost accounting, cost statement, cost center, department, operational analysis
 ms.search.form: Report_1126_Primary
 ms.date: 06/23/2025

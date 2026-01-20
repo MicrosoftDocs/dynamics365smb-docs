@@ -1,25 +1,27 @@
 ---
-title: How to Allocate Resources | Microsoft Docs
-description: You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.
+title: How to allocate resources | Microsoft Docs
+description: Adjust the annual amount on a service contract or contract quote to ensure the correct amount is invoiced each year.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-ms.date: 04/01/2021
+ms.search.keywords: annual amount, service contract, contract quote, adjust annual amount, allocate resources, resource allocation
+ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
 
-# Allocate Resources
-The key element to service management is the people who supply service. You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to assign the appropriate people to the appropriate projects. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [Set Up Resource Allocation](service-how-setup-resource-allocation.md).
+# Allocate resources
+
+The key element to service management is the people who supply service. You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to assign the appropriate people to the appropriate projects. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. Learn more in [Set Up Resource Allocation](service-how-setup-resource-allocation.md).
 
 You can allocate resources, for example, technicians, by using the **Dispatch Board**, or from a service order. You can use resource availability to allocate resources to perform the service tasks in the orders or quotes.
 
 You can allocate the same resource, for example, a technician, or resource group to all the service items in a service order. Allocation entries are created for the other service items in the order with the same resource number and allocation date as the line you allocated. The allocated hours are the hours you allocated divided by the number of service items in the order. The **Status** field is automatically set to **Active** for all the entries that were created.
 
-## To see an overview of service orders and service quotes  
-You may often need to see the list of service orders or service quotes that meet certain requirements to be able to perform specific actions with them one by one. For example,you may need to allocate resources to service orders that belong to a specific customer.  
+## See an overview of service orders and service quotes
+
+You may often need to see the list of service orders or service quotes that meet certain requirements to be able to perform specific actions with them one by one. For example, you may need to allocate resources to service orders that belong to a specific customer.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Dispatch Board**, and then choose the related link.  
 2. In the **Document Filter** field, choose the type of the documents you want to see.
@@ -31,46 +33,49 @@ You may often need to see the list of service orders or service quotes that meet
 
     The **Service Order** or **Service Quote** page opens, and you can work with the document. To return to the **Dispatch Board** page, choose **OK**.
 
-## To allocate a resource using resource or resource group availability    
+## Allocate a resource using resource or resource group availability
+
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Dispatch Board**, and choose the related link.  
 2. Choose the service order, and then choose the **Resource Allocations** action.  
 3. Choose the entry with the service task to which you want to allocate a resource.  
 4. Choose either the **Resource Availability** or **Res. Group Availability** action.  
 5. On the **Res. Availability (Service)** page, choose **Show Matrix**.  
-6. Choose a resource to allocate. You can base your selection on whether the resource is skilled for the task, whether it is located in the customer zone, and/or whether it is preferred by the customer.  
+6. Choose a resource to allocate. You can base your selection on whether the resource is skilled for the task, whether it's located in the customer zone, and/or whether it's preferred by the customer.  
 7. Specify a date on which the resource has enough available hours for the task, and which is close to the response date of the service order.  
 8. In the **Qty. to Allocate** field, enter the number of hours you want to allocate the resource to the service task for.  
 9. Choose the **Allocate** action to allocate the selected resource on the selected date.  
 
-     The **Status** field is automatically set to **Active**.  
+   The **Status** field is automatically set to **Active**.  
 
  Repeat these steps for each date that you want to allocate the resource to the service task.  
 
 > [!NOTE]  
->  For a service item in a service order, there can only be **Active** allocation entries with one resource or resource group at a time.  
+> For a service item in a service order, there can only be **Active** allocation entries with one resource or resource group at a time.  
 
-## To allocate a resource using a service order  
-After you have created and filled in a service order or service quote, you can allocate resources, for example, technicians, to perform service tasks registered as service item lines in the document.  
+## Allocate a resource using a service order
+
+After you created and filled in a service order or service quote, you can allocate resources, for example, technicians, to perform service tasks registered as service item lines in the document.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Orders**, and then choose the related link.  
 2. Choose the service order, and then choose **Edit**.  
 3. Choose the service item line corresponding to the service task you want to allocate a resource to.  
 4. Choose **Resource Allocations**.
-5. On the **Resource Allocations** page, choose a nonactive allocation entry with the service task you want to allocate the resource to. If the allocation entry does not exist, you can create a new one by choosing **New**.  
-7. Specify the service task by filling in the **Service Item No.** field on the same line.  
-8. In the **Resource No.** field, choose the resource. If the resource is a member of a resource group, the number of the resource group is entered automatically into the **Resource Group No.** field.  
-9. Fill in the **Allocation Date** and **Allocated Hours** fields. The **Status** field is set to **Active**. This means that the resource is allocated to the service task.  
-10. Optionally, to assign the resource to all items, choose **Allocate to All Service Items**.
+5. On the **Resource Allocations** page, choose a nonactive allocation entry with the service task you want to allocate the resource to. If the allocation entry doesn't exist, you can create a new one by choosing **New**.  
+6. Specify the service task by filling in the **Service Item No.** field on the same line.  
+7. In the **Resource No.** field, choose the resource. If the resource is a member of a resource group, the number of the resource group is entered automatically into the **Resource Group No.** field.  
+8. Fill in the **Allocation Date** and **Allocated Hours** fields. The **Status** field is set to **Active**. This means that the resource is allocated to the service task.  
+9. Optionally, to assign the resource to all items, choose **Allocate to All Service Items**.
 
 > [!NOTE]  
->  For a service item in a service order, there can only be active allocation entries with one resource or resource group at a time.
+> For a service item in a service order, there can only be active allocation entries with one resource or resource group at a time.
 
-## To reallocate resources on a service order  
-You can reallocate resources directly from a service order or service quote when you are working with it. The original entry will still exist, but its status is updated as follows:  
+## Reallocate resources on a service order
+
+You can reallocate resources directly from a service order or service quote when you're working with it. The original entry will still exist, but its status is updated as follows:  
 
 * If service was started while the allocation was **Active**, that is, if the repair status of the service item in the entry was changed to **In Process**, the allocation status changes from **Reallocation Needed** to **Finished**.  
-* If service was not started while the allocation was **Active**, allocation status changes from **Reallocation Needed** to **Canceled**.  
-* If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
+* If service wasn't started while the allocation was **Active**, allocation status changes from **Reallocation Needed** to **Canceled**.  
+* If you're reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Orders**, and then choose the related link.  
 2. Open the relevant service order.  
@@ -79,8 +84,9 @@ You can reallocate resources directly from a service order or service quote when
 5. Select <kbd>Enter</kbd>. A dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
 6. Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.
 
-## To reallocate a resource using the dispatch board  
-If the resource allocated to a service task cannot accomplish the work, it means that this service task needs reallocation. Usually you reallocate resources to a service task by using the **Dispatch Board**.  
+## Reallocate a resource using the dispatch board
+
+If the resource allocated to a service task can't accomplish the work, it means that this service task needs reallocation. Usually you reallocate resources to a service task by using the **Dispatch Board**.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Dispatch Board**, and then choose the related link.  
 2. In the **Allocation Filter** field, select **Reallocation Needed**. The **Dispatch Board** page now shows the list of service orders that include service tasks that need reallocation.  
@@ -88,16 +94,17 @@ If the resource allocated to a service task cannot accomplish the work, it means
 4. Select the allocation entry with the service task you want to reallocate a resource to.  
 5. In the **Resource No.** field, select the relevant resource. It overwrites the resource number already in the field.  
 6. Select <kbd>Enter</kbd>. The **Reallocation Entry Reasons** dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
-7.  Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.  
+7. Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.  
 
     > [!NOTE]  
-    >  The old entry still exists but the status is updated in the following ways:  
-    >   
-    >  * If service was started while the allocation was **Active**, that is, if the repair status of the service item in the entry was changed to **In Process**, the allocation status changes from **Reallocation Needed** to **Finished**.  
-    > * If service was not started while the allocation was **Active**, the allocation status changes from **Reallocation Needed** to **Canceled**.  
-    > * If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
+    > The old entry still exists but the status is updated in the following ways:  
+    >
+    > - If service was started while the allocation was **Active**, that is, if the repair status of the service item in the entry was changed to **In Process**, the allocation status changes from **Reallocation Needed** to **Finished**.  
+    > - If service wasn't started while the allocation was **Active**, the allocation status changes from **Reallocation Needed** to **Canceled**.  
+    > - If you're reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
 
-## To register resource hours  
+## Register resource hours
+
 When working on service items in service orders, you need to register the resource hours used for the service. The following procedure shows how to register the resource hours on the **Service Item Worksheet** page.  
 
 You can use the same procedure to register the hours on the **Service Lines** page, which you can open from the Service Order page. Open the relevant service card, and then choose the **Service Lines** action.  
@@ -108,7 +115,8 @@ If the same resource works on all the service items in the service order, you ca
 2. Select the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## To assign a resource to all service items in an order
+## Assign a resource to all service items in an order
+
 If the same resource, for example a technician, works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to divide the resource hours onto the resource lines for the other service items.  
 
 The following procedure shows how to split resource lines on the **Service Invoice Lines** page.  
@@ -121,7 +129,8 @@ The following procedure shows how to split resource lines on the **Service Invoi
 
     Resource lines for the other service items in the order are created with the same resource number as the line you split. The quantity is the quantity for the line you split divided by the number of service items in the order.  
 
-## To cancel an allocation  
+## Cancel an allocation
+
 You can cancel resource allocations for service tasks without reallocating the tasks.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Dispatch Board**, and then choose the related link.  
@@ -132,11 +141,11 @@ You can cancel resource allocations for service tasks without reallocating the t
 6. Choose **Yes** to confirm the cancellation.  
 
     > [!NOTE]  
-    > In the **Status** field, the **Reallocation Needed** option is automatically selected. If the repair status of the service item in the entry is **Initial**, the repair status is changed to **Referred**, that is, no service has been started. If the repair status is **In Process**, it is changed to **Partly Serviced**, that is, some service has been completed.
+    > In the **Status** field, the **Reallocation Needed** option is automatically selected. If the repair status of the service item in the entry is **Initial**, the repair status is changed to **Referred**, that is, no service has been started. If the repair status is **In Process**, it's changed to **Partly Serviced**, that is, some service has been completed.
 
 ## Related information
+
 [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

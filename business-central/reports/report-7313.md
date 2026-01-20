@@ -4,7 +4,7 @@ description: Get an overview of source documents that are open and have items sh
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7313_Primary
 ms.date: 10/18/2024

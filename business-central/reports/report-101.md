@@ -4,7 +4,7 @@ description: Get an overview of basic information for your customers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_101_Primary
 ms.date: 10/18/2024

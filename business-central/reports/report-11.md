@@ -4,7 +4,7 @@ description: Reconciles VAT amounts from the general ledger with VAT entries to 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: VAT reconciliation, tax reconciliation, G/L, audit, filing
 ms.search.form: Report_11_Primary
 ms.date: 06/25/2025

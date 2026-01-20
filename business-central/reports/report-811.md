@@ -4,7 +4,7 @@ description: Get an overview of the components in a subassembly bill of material
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_811_Primary
 ms.date: 10/23/2024

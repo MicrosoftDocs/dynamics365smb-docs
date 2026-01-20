@@ -1,15 +1,16 @@
 ---
 title: Setting up approval workflow notifications
-description: This article explains how to set up workflow notifications to alert a user to an event that they must react to. 
+description: Learn how to set up workflow notifications to alert a user to an event that they must react to. 
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: concept-article
-ms.search.keywords:
-ms.date: 06/10/2025
+ms.search.keywords: workflow, approval workflow, workflow notifications
+ms.date: 10/20/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # Approval workflow notifications
 
 Set up your workflows to automatically notify users when their attention is required for a step in a workflow. Many workflow responses involve notifying a user an event they must act on has occurred.
@@ -18,7 +19,6 @@ For example, you can set it so User 2, the approver user, receives a notificatio
 
 > [!NOTE]  
 > The default version of [!INCLUDE[prod_short](includes/prod_short.md)] supports notifications in email or as internal notes.  
-
 > [!IMPORTANT]  
 > All workflow notifications are sent through a job queue. Make sure the job queue in your installation is set up to handle workflow notifications, and that you've selected the **Start Automatically From Server** check box. Learn more at [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
@@ -49,7 +49,7 @@ You can set up different aspects of workflow notifications in the following plac
   
 * Notify sender
 
-  For approval workflows, add a workflow response step to notify the sender when the request has been approved or rejected. Learn more from step 9 in the [Create Workflows](across-how-to-create-workflows.md#to-create-a-workflow) section.   
+  For approval workflows, add a workflow response step to notify the sender when the request has been approved or rejected. Learn more from step 9 in the [Create Workflows](across-how-to-create-workflows.md#to-create-a-workflow) section.
 
 ## Related information
 

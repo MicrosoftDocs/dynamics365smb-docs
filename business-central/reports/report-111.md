@@ -4,7 +4,7 @@ description: Review customers with the most transactions within a selected perio
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_111_Primary
 ms.date: 10/03/2024

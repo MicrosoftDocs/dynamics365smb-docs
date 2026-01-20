@@ -3,31 +3,28 @@ title: Opening Business Central Files in OneDrive
 description: Learn how you can share Business Central data through OneDrive for Business. 
 author: jswymer
 ms.topic: how-to
-ms.search.keywords:
-ms.date: 08/03/2022
+ms.search.keywords: open files, share files, OneDrive
+ms.date: 10/21/2025
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ---
-# Opening and Sharing Business Central Files in Microsoft OneDrive
+
+# Open and share Business Central files in Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through Microsoft OneDrive for Business. On most pages with available files, such as the Report Inbox or when files are attached to records, you'll find **Open in OneDrive** and **Share** actions.
 
+:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="The Open in OneDrive and Share actions for reports.":::
 
-:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="The Open in OneDrive and Share actions for reports":::
-
-
-:::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive and Share actions for attachments":::
-
+:::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive and Share actions for attachments.":::
 
 ## Open in OneDrive
 
-The **Open in OneDrive** action copies the file to your OneDrive and then opens the file in an application such as Microsoft Excel online, Microsoft Word online, or Microsoft PowerPoint online. 
+The **Open in OneDrive** action copies the file to your OneDrive and then opens the file in an application such as Microsoft Excel online, Microsoft Word online, or Microsoft PowerPoint online.
 
 <!--## Working with different types of files-->
 
-When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. 
+When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online.
 
 Using the online versions of these applications, you can annotate, edit, and collaborate with others without leaving the browser.
 
@@ -35,16 +32,16 @@ For other popular file types, such as PDFs, text files, and images, OneDrive pro
 
 ## Share
 
-The **Share** action copies the file to your OneDrive so you can see with whom you've already shared it as well as share the file with other people. When you select the **Share** action, the following page opens.
+The **Share** action copies the file to your OneDrive so you can see with whom you've already shared it and share the file with other people. When you select the **Share** action, the following page opens.
 
-:::image type="content" source="media/share-to-onedrive-dialog-v2.PNG" alt-text="Share file in OneDrive":::
+:::image type="content" source="media/share-to-onedrive-dialog-v2.PNG" alt-text="Share file in OneDrive.":::
 
 If you're familiar with OneDrive, you may recognize the above-referenced page. You'll see you have two options for sharing the file: **Send link** and **Copy link**.
 
-- **Send link** let's you share the files with specific people. The people you share the file will get an email with a link to the file. The file will also appear in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**. Include a message below the  **Name, group or email field**, if you want.
+- **Send link** let's you share the files with specific people. The people you share the file get an email with a link to the file. The file also appears in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**. Include a message below the  **Name, group or email field**, if you want.
 
   > [!TIP]
-  > If you want to compose your message in Outlook, select the **Outlook** button. The link will be inserted into a draft email and everyone you entered to share with will be in the **To** list. With this option, you can author emails using all of Outlook's features, including formatting text, adding other attachments, inserting pictures or tables, and adding CC or BCC recipients.
+  > If you want to compose your message in Outlook, select the **Outlook** button. The link is inserted into a draft email and everyone you entered to share with will be in the **To** list. With this option, you can author emails using all of Outlook's features, including formatting text, adding other attachments, inserting pictures or tables, and adding CC or BCC recipients.
 
 - **Copy link** copies a file link you can use to share the file through applications such as Facebook, Twitter, or email. 
 
@@ -66,11 +63,11 @@ When you use the **Open in OneDrive** or **Share** action for the first time, [!
 
 Then, the next time you use the **Open in OneDrive** or **Share** action, [!INCLUDE[prod_short](includes/prod_short.md)] only copies and opens the file. 
 
-## Managing multiple copies of a file
+## Manage multiple copies of a file
 
 When you choose **Open in OneDrive** or **Share**, the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, that file will be different from the [!INCLUDE[prod_short](includes/prod_short.md)] file. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file version, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and upload the latest copy.
 
-If a file with the same name already exists in OneDrive, you'll be given the following choices:
+If a file with the same name already exists in OneDrive, you're given the following choices:
 
 - **Use existing**
 
@@ -98,5 +95,5 @@ You can create an extension and connect it to... For more information, see...-->
 ## Related information
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
-[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
-[OneDrive FAQ](admin-onedrive-faq.md)
+[Manage OneDrive Integration with Business Central](admin-onedrive-integration.md)  
+[OneDrive FAQ](admin-onedrive-faq.md)  

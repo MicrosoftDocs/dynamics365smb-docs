@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview (preview)
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 10/13/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk
@@ -13,15 +13,11 @@ ms.search.form: 4400, 4410
 ---
 # Sales Order Agent overview (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-Sales Order Agent helps Business Central users automate capturing sales orders. The agent uses AI to analyze customer requests received via email, locate the customer in Business Central, and engage in multi-turn email conversations to clarify requests if important details are missing or more choices are available. It also checks and informs the customer about the availability of the items they're looking for and follows up with a sales quote. The quote is formatted as a PDF and includes the requested items, quantities, units of measure, prices, taxes, requested delivery dates, provided external document reference, and other important details.
+Sales Order Agent helps Business Central users automate the process of capturing sales orders. The agent uses AI to analyze customer requests received via email and locates the customer in Business Central. If important details are missing or more choices are available, the agent engages in multi-turn email conversations to clarify the request. It checks and informs the customer about the availability of the items they're looking for. The agent then follows up with a sales quote. The quote is formatted as a PDF and includes the requested items, quantities, units of measure, prices, taxes, requested delivery dates, provided external document reference, and other important details.
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 ## Functionality
 
 ### Activation and configuration
@@ -36,19 +32,25 @@ The agent operates within the permissions and profile (role) assigned to it by t
 
 Sales Order Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary. Involvement might be needed in specific scenarios, for instance to review outgoing messages or to provide missing details, based on configured preferences.
 
-Conceptually, the agent interacts with Business Central functionality in a manner similar to how Business Central users interact with it. The agent is provided with general instructions, expressed in natural language, outlining how the process of capturing sales orders should be handled. It then uses UI metadata, such as captions, tooltips, and other properties, combined with the data presented on Business Central pages and its own instructions, to determine each step required to complete the task. Starting from the designated Role Center, the agent navigates the pages, invokes UI actions, and enters data as a user would. This approach allows a high degree of flexibility and adaptability for the agent to achieve its goal because the agent’s interaction surface and steps aren’t hardcoded. Instead, AI determines them based on the context of each step.
+Conceptually, the agent interacts with Business Central functionality in a manner similar to how Business Central users interact with it.
+
+- The agent receives general instructions, expressed in natural language, that outline how to capture sales orders.
+- It uses UI metadata, such as captions, tooltips, and other properties, along with data from Business Central pages. The agent combines this information with its own instructions to determine each required step.
+- The agent, starting from the designated Role Center, navigates pages, invokes UI actions, and enters data as a user would.
+
+This approach allows a high degree of flexibility and adaptability for the agent to achieve its goal. The agent’s interaction surface and steps aren’t hardcoded; instead, AI determines them based on the context of each step.
 
 This flexibility enables the agent to discover and interact with relevant custom fields and actions. It can also attempt to automatically resolve validation errors by processing displayed error messages and adjusting the input accordingly.
 
 ### Email monitoring and communications
 
-The agent relies on an internal email dispatcher running as a background task to continuously monitor a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and subsequently sends results, such as prepared sales quotes or orders, to the customer in response.
+The agent relies on an internal email dispatcher running as a background task to continuously monitor a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and then sends results, such as prepared sales quotes or orders, to the customer in response.
 
 The agent helps with composing email bodies based on the context of the current step. For instance, it can list available inventory or provide a brief description of the attached sales quote or sales order. Additionally, it can detect and flag irrelevant or potentially malicious email content, prompting users to review and decide how to proceed.  
 
 ### Customer and Business Central user involvement
 
-Users can inspect the agent's steps and the created sales documents. They can easily identify the data entered by the agent compared to data generated by Business Central's own business logic and provide more input if needed, such as adding discounts or updating shipping costs.
+Users can inspect the agent's steps and the created sales documents. They can easily identify the data entered by the agent compared to data generated by Business Central's own business logic. If needed, users can provide more input, such as adding discounts or updating shipping costs.
 
 If the customer decides to update the quote by sending another email listing required changes, the agent assists with these changes by locating the quote and making the requested updates. Once the customer confirms the quote's accuracy, the agent converts it into a sales order, which is then also shared with the customer via email, following the user's confirmation. 
 
@@ -56,7 +58,11 @@ The agent always involves designated Business Central users to review and approv
 
 ## How the agent processes requests
 
-The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)). When the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
+The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)).
+
+When an email is received, the agent analyzes the email&mdash;including subject line, body, and attachments (if configured)&mdash;to identify quote requests and extract relevant details. Attachments can be PDF or image files. It extracts relevant information from these files and generates a sales quote based on the content.
+
+If the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 
 Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request. Learn more in [Agent process flow](#agent-process-flow).
 
@@ -71,7 +77,7 @@ The agent ensures that a request from one customer can't be about another custom
 - If a contact is found but it's not a customer, the agent filters to use only documents belonging to the contact. Quotes can be sent to contacts that aren't registered as a customer.
 - If no contact is found, the agent filters out all documents, and it might request user intervention because it can't find the document.
 
-To prevent the agent from requesting intervention and to assist with reviewing incoming messages, the agent verifies whether the contact is registered and displays a notification on the incoming message review page if it isn't. To resolve this issue, you can either register a new contact/customer or update the contact information of an existing contact/customer. The agent generates the notification to indicate that the contact email wasn't found.
+To prevent the agent from requesting intervention, the agent verifies whether the contact is registered. If it isn't registered, the agent displays a notification on the incoming message review page. To resolve this issue, you can either register a new contact/customer or update the contact information of an existing contact/customer. The agent generates the notification to indicate that the contact email wasn't found.
 
 ### Finding products/items
 
@@ -91,9 +97,32 @@ The agent analyzes incoming emails to detect parameters for preparing a new sale
 Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
 
 > [!NOTE]
-> It might take up to 15 minutes for newly entered data to become searchable as the system re-indexes the tables in the background.
+> It might take up to 15 minutes for newly entered data to become searchable as the system reindexes the tables in the background.
 
 When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts, and more.
+
+### Calculating delivery dates using capable-to-promise
+
+The Sales Order Agent includes an option to use Business Central's capable-to-promise (CTP) functionality that lets the agent calculate the earliest possible delivery date for items not currently in stock.
+
+CTP evaluates production capacity, procurement timelines, and supply chain constraints to determine when an item can realistically be delivered. This capability applies even when items aren't currently in stock and must be produced or procured based on lead times, not just inventory. For example, suppose a customer requests 10 units of an item, but only six are in stock or on scheduled orders. CTP determines when the remaining four units can be produced or sourced.
+
+Learn more about capable-to-promise in [Calculate order promising dates](sales-how-to-calculate-order-promising-dates.md).
+
+#### How capable-to-promise works
+
+The Sales Order Agent uses the capable-to-promise logic inside Business Central, which is based in part on the configuration defined in the **Order Promising Setup** page.
+
+When a customer requests an item, the agent checks inventory. If the item is unavailable, the agent calculates when it can be shipped and generates a quote with specific shipment dates based on:
+
+| Parameter | Description |
+|---|---|
+| Work Date | The system uses the current work date as the starting point for all delivery calculations. |
+| Order Promising Setup Offset (Time) | Offset on the **Order Promising Setup** page that defines how far into the future Business Central should look before issuing a new purchase, production, or transfer order (for example, 1D = one day after the work date). |
+| Inventory Setup Safety Lead Time | Setting on **Inventory Setup** page that ensures items are available before the promised shipment date; accounts for internal delays like picking, packing, and labeling. |
+| Item Lead Time Calculation | Per-item lead time on the **Item Card** page that reflects the time required to procure, produce, or transfer the item when it isn't in stock. |
+
+The agent creates and sends an email response to the customer that includes the promised shipment dates for items. The process then continues. Learn where this step occurs in the full process in the [General flow](#general-flow).
 
 ## Agent process flow
 
@@ -132,9 +161,12 @@ The general flow is illustrated in the figure, which is followed by more details
 1. **Sales order agent:** Picks up unread email from inbox and creates a task with a step for reviewing the incoming request.
 1. **Reviewer:** Reviews/confirms the step with email.  
 1. **Sales order agent:**
-    1. Finds the contact or customer.
-    1. Finds the requested items and verifies their availability. Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md).
-    1. Creates the sales quote.
+    1. Finds the contact or customer.  
+    1. Finds the requested items and verifies their availability. If the agent is configured to use capable-to-promise (CTP), it calculates the earliest realistic shipment dates for items that aren't in stock.
+
+       Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md) and [Calculate order promising dates](/dynamics365/business-central/sales-how-to-calculate-order-promising-dates).
+  
+    1. Creates the sales quote.  
     1. Adds review step with a reply email with attached sales quote as a PDF.
 1. **Reviewer:** Reviews/confirms email and sales quotes. 
 1. **Sales order agent:** Sends email and sales quote PDF to customer.

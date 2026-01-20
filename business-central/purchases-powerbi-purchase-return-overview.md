@@ -4,7 +4,7 @@ description: The Purchase Return Overview report gives a clear picture of your o
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37116_Primary
 ms.date: 9/30/2025

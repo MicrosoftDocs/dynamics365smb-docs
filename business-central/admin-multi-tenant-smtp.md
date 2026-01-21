@@ -127,7 +127,7 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 > [!NOTE]
 > Be sure to sign in with the Global Administrator or Exchange Administrator account for Tenant A. 
 
-1. In PowerShell, use the following link to consent. Replace the `TenantA_ID` and `Client_ID from Tenant A` (App ID) with the values for your "Tenant A."
+1. Open your browser, use the following link to consent. Replace the `TenantA_ID` and `Client_ID from Tenant A` (App ID) with the values for your "Tenant A."
 
    `https://login.microsoftonline.com/<TenantA_ID>/oauth2/v2.0/authorize?client_id=<Client_ID from Tenant A>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent`
 

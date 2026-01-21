@@ -30,8 +30,9 @@ The examples in this article involve two Microsoft Entra tenants, as described i
 > [!NOTE]
 > Here are a couple of key rules to remember:
 >
-> * The app registration and secrets are created in Tenant A.
-> * [!INCLUDE [prod_short](includes/prod_short.md)] configuration and mailbox permissions are set in Tenant B.
+> * Business Central configuration is set in Tenant B.
+> * Mailbox permissions and Exchange Online configuration are set in Tenant A.
+
 
 > [!IMPORTANT]
 > Exchange Online is deprecating Basic authentication for SMTP. This change doesn't affect tenants that currently use SMTP AUTH. However, we recommend that you use the latest version, and set up OAuth 2.0 authentication for SMTP. If you can't set up OAuth 2.0 authentication, we encourage you to explore non-Microsoft alternatives if you want to use SMTP email in earlier versions.
@@ -47,9 +48,9 @@ The following list gives an overview of the steps to use OAuth 2.0 with the SMTP
 |1     | [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal)  | Tenant A (App / Mailbox tenant)        |
 |2     |[Grant API permissions](#grant-api-permissions)|  Tenant A (App / Mailbox tenant)       |
 |3     |    [Create a client secret or certificate](#create-a-client-secret-or-certificate)     |Tenant A (App / Mailbox tenant)|
-|4     | [Register the service principal in Exchange Online](#register-the-service-principal-in-exchange-online)  | Tenant B (Business Central tenant)        |
-|5     |[Grant the app permission to send as your mailbox](#grant-the-app-permission-to-send-as-your-mailbox)| Tenant B (Business Central tenant)        |
-|6     | [Verify your SMTP OAuth configuration](#verify-your-smtp-oauth-configuration) | Tenant B (Business Central tenant)        |
+|4     | [Register the service principal in Exchange Online](#register-the-service-principal-in-exchange-online)  | Tenant A (App / Mailbox tenant)        |
+|5     |[Grant the app permission to send as your mailbox](#grant-the-app-permission-to-send-as-your-mailbox)| Tenant A (App / Mailbox tenant)        |
+|6     | [Verify your SMTP OAuth configuration](#verify-your-smtp-oauth-configuration) | Tenant A (App / Mailbox tenant)        |
 |7     | [Set up the SMTP connector in Business Central](#set-up-the-smtp-connector-in-business-central) | Tenant B (Business Central tenant)        |
 
 > Some of the steps require that you run one or more commands in PowerShell. Be sure to run the commands as an administrator.
@@ -121,29 +122,27 @@ The next step is to give the app permission to send email. In this example, this
 
 ## Register the service principal in Exchange Online
 
-This step allows Tenant B (Business Central tenant) to trust and use the app that was created in Tenant A.
-
 To learn more about the service principal, go to [Register a Microsoft Entra app and create a service principal](/entra/identity-platform/howto-create-service-principal-portal).
 
 > [!NOTE]
-> Be sure to sign in with the Global Administrator or Exchange Administrator account for Tenant B. 
+> Be sure to sign in with the Global Administrator or Exchange Administrator account for Tenant A. 
 
-1. In PowerShell, use the following link to consent. Replace the `TenantB_ID` and `Client_ID from Tenant A` (App ID) with the values for your "Tenant B."
+1. In PowerShell, use the following link to consent. Replace the `TenantA_ID` and `Client_ID from Tenant A` (App ID) with the values for your "Tenant A."
 
-   `https://login.microsoftonline.com/<TenantB_ID>/oauth2/v2.0/authorize?client_id=<Client_ID from Tenant A>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent`
+   `https://login.microsoftonline.com/<TenantA_ID>/oauth2/v2.0/authorize?client_id=<Client_ID from Tenant A>&scope=https://graph.microsoft.com/.default&response_type=code&response_mode=query&prompt=consent`
 
-1. In Microsoft Entra admin center of **Tenant B**, go to **Enterprise apps**, find your app, and then copy the value in the **Object ID** field. The object ID is used as the service ID in the command in the next step in this process.
-1. To create a new service principal in your tenant, in PowerShell, run the following command as an administrator.
+2. In Microsoft Entra admin center of **Tenant A**, go to **Enterprise apps**, find your app, and then copy the value in the **Object ID** field. The object ID is used as the service ID in the command in the next step in this process.
+3. To create a new service principal in your tenant, in PowerShell, run the following command as an administrator.
 
    ```powershell
 
    Install-Module ExchangeOnlineManagement -Scope CurrentUser
 
    Import-Module ExchangeOnlineManagement
-   # Login with Tenant B admin
+   # Login with Tenant A admin
    
-   $AppId     = <your app ID> # The App ID of the enterprise app in Tenant B's Microsoft Entra admin center.
-   $ServiceId = <your service ID> # The object ID of the enterprise app in Tenant B's Microsoft Entra admin center.
+   $AppId     = <your app ID> # The App ID of the enterprise app in Tenant A's Microsoft Entra admin center.
+   $ServiceId = <your service ID> # The object ID of the enterprise app in Tenant A's Microsoft Entra admin center.
    $Display   = "SMTP_OAuth_App" # The name of the service principal you want to create.
 
    New-ServicePrincipal -AppId $AppId -ServiceId $ServiceId -DisplayName $Display
@@ -155,43 +154,41 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
 ## Grant the app permission to send as your mailbox
 
-Sometimes Azure portal hides the SMTP option, so you must use PowerShell to grant permission to send as your mailbox. Do this in Tenant B ([!INCLUDE [prod_short](includes/prod_short.md)] tenant).
+Sometimes Azure portal hides the SMTP option, so you must use PowerShell to grant permission to send as your mailbox. Do this in Tenant A ([!INCLUDE [prod_short](includes/prod_short.md)] tenant).
 
 > [!NOTE]
-> Be sure to sign in with the Global Administrator or Exchange Administrator account for Tenant B.
+> Be sure to sign in with the Global Administrator or Exchange Administrator account for Tenant A.
 
-1. In PowerShell, run the following command:
+1. Retrieve the service principal Object ID from the Microsoft Entra admin center (Enterprise applications), and use that Object ID in the following commands. Then go to PowerShell, run the following command:
 
    ```powershell
-
-      $sp = Get-ServicePrincipal | Where-Object { $_.AppId -eq "{AppID}" }
-
        # Replace this with the mailbox you use as the from_addr / user= in XOAUTH2.
       $Mailbox = "someuser@xxx.onmicrosoft.com"
+      $ObjectID = "{Your object ID}"
 
       Add-MailboxPermission -Identity $Mailbox `
-          -User $sp.ObjectId `
+          -User $ObjectId `
           -AccessRights FullAccess `
           -AutoMapping:$false
 
-      Add-MailboxPermission -$_.PrimarySmtpAddress `
-          -User $sp.ObjectId `
+      Add-RecipientPermission -Identity $Mailbox `
+          -Trustee $ObjectId `
           -AccessRights SendAs `
-          -AutoMapping:$false    
+          -Confirm:$false 
                 
 
        # If you have multiple users, create a group for them and then assign them.
       Get-DistributionGroupMember "Your group name" |
         ForEach-Object {
             Add-MailboxPermission -$_.PrimarySmtpAddress `
-                -User $sp.ObjectId `
+                -User $ObjectId `
                 -AccessRights FullAccess `
                 -AutoMapping:$false
 
-            Add-MailboxPermission -$_.PrimarySmtpAddress `
-                -User $sp.ObjectId `
+            Add-RecipientPermission -Identity $Mailbox `
+                -Trustee $ObjectId `
                 -AccessRights SendAs `
-                -AutoMapping:$false                
+                -Confirm:$false             
         }
 
       ```
@@ -206,42 +203,49 @@ Sometimes Azure portal hides the SMTP option, so you must use PowerShell to gran
 
 ## Verify your SMTP OAuth configuration
 
-Do this step in Tenant B (Business Central tenant).
+Do this step in Tenant A (App / Mailbox tenant).
 
 > [!NOTE]
-> Be sure to sign in with the Global Administrator or Exchange Administrator account for Tenant B.
+> Be sure to sign in with the Global Administrator or Exchange Administrator account for Tenant A.
 
-1. In PowerShell, run the following command to verify your SMTP configuration:
+1. In PowerShell, connect to Exchange Online in Tenant A and verify that SMTP AUTH and OAuth2 are enabled:
 
    ```powershell
    
    Import-Module ExchangeOnlineManagement
-   Connect-ExchangeOnline -UserPrincipalName admin@yourtenant.onmicrosoft.com
-   Get-CASMailbox -Identity admin@yourtenant.onmicrosoft.com | Select SmtpClientAuthenticationDisabled
+   Connect-ExchangeOnline -UserPrincipalName admin@yourtenantA.onmicrosoft.com
 
-   # If the output is false, it's enabled. But if it's true, SMTP is disabled and you must run the following command to enable it:
+   # Organization-level settings (recommended starting point)
+   Get-TransportConfig | Format-List SmtpClientAuthenticationDisabled
+   Get-OrganizationConfig | Format-List OAuth2ClientProfileEnabled
 
-   Set-CASMailbox -Identity admin@yourtenant.onmicrosoft.com -SmtpClientAuthenticationDisabled $false
-
-   ```
-
-1. Optionally, if you want to enable SMTP for your entire organization level, run the following command:
-
-   ```powershell
-
-   Get-TransportConfig | Select SmtpClientAuthenticationDisabled
-
-   # If the output is false it's enabled. If it's true, SMTP is disabled and you must run the following command to enable it:
-
+   # If SMTP AUTH is disabled at the organization level, enable it (false means enabled):
    Set-TransportConfig -SmtpClientAuthenticationDisabled $false
 
+   # If OAuth2 client profiles are not enabled, enable them (true means enabled):
+   Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
+
+
    ```
 
-1. To verify that OAuth 2.0 is globally enabled for SMTP, run the following command:
+1. If you need to enable SMTP AUTH for a specific mailbox (mailbox-level override), verify and update the mailbox setting:
 
    ```powershell
 
-   Get-TransportConfig | fl SmtpClientAuthenticationDisabled,OAuth2ClientProfileEnabled
+   Get-CASMailbox -Identity admin@yourtenantA.onmicrosoft.com | Format-List SmtpClientAuthenticationDisabled
+
+   # If SMTP AUTH is disabled for the mailbox, enable it:
+
+   Set-CASMailbox -Identity admin@yourtenantA.onmicrosoft.com -SmtpClientAuthenticationDisabled $false
+
+   ```
+
+1. Verify the expected values:
+
+   ```powershell
+
+    Get-TransportConfig | Format-List SmtpClientAuthenticationDisabled
+    Get-OrganizationConfig | Format-List OAuth2ClientProfileEnabled
 
    ```
 
@@ -249,14 +253,6 @@ Do this step in Tenant B (Business Central tenant).
 
    - `SmtpClientAuthenticationDisabled` is `False`.
    - `OAuth2ClientProfileEnabled` is `True`.
-
-   If `SmtpClientAuthenticationDisabled` is `True`, SMTP isn't enabled. To enable it, run the following command:
-
-   ```powershell
-
-   Set-TransportConfig -SmtpClientAuthenticationDisabled $false
-
-   ```
 
 ## Set up the SMTP connector in Business Central
 
@@ -275,7 +271,7 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
    |Authentication Type     | OAuth 2.0        |         |
    |Client ID | 00001111-aaaa-2222-bbbb-3333cccc4444 | The application ID from Tenant A. |
    |Client Secret     |         | The secret generated in the app from Tenant A.        |
-   |Tenant ID     | aaaabbbb-0000-cccc-1111-dddd2222eeee  | The ID of Tenant B(Business Central). |
+   |Tenant ID     | aaaabbbb-0000-cccc-1111-dddd2222eeee  | The ID of Tenant A (App / Mailbox tenant). |
    |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |
    |Use custom app registration| | If you want to use a custom app registration, turn on the toggle. |
 
@@ -287,11 +283,7 @@ The following example shows a way to test OAuth 2.0 for the SMTP connector.
 
 ```powershell
 param(
-    # Tenant B (Business Central tenant)
-    # This must be the tenant where:
-    # - Business Central is deployed
-    # - The sending mailbox exists
-    [string]$TenantId     = "<Tenant B ID>",  
+    [string]$TenantId     = "<Tenant A ID>",  
     # Tenant A (App registration tenant)
     # Application (Client) ID of the app registered in Tenant A
     [string]$ClientId     = "<Tenant A Client ID>",  
@@ -299,8 +291,8 @@ param(
     # Client Secret created for the app in Tenant A
     [string]$ClientSecret = "<Tenant A Client Secret>",
     # Tenant B (Business Central tenant)
-    # Must be a mailbox that exists in Tenant B and has SendAs permission granted
-    [string]$From         = "<Tenant B mailbox address>",
+    # Must be a mailbox that exists in Tenant A and has SendAs permission granted
+    [string]$From         = "<Tenant A mailbox address>",
     # Any valid email address (internal or external)
     [string]$To           = "<Recipient email address>",
     # Email subject
@@ -505,8 +497,9 @@ This section lists some typical issues, their causes, and provides suggestions f
 
 ### 535 Authentication unsuccessful
 
-- Cause: SMTP AUTH is disabled or has an incorrect tenant ID.
-- Resolution: Check `Get-TransportConfig` to be sure that `SmtpClientAuthentidationDisabled` is `False`.
+- Cause: SMTP AUTH is disabled, has an incorrect tenant ID or OAuth2ClientProfileEnabled is not enabled in the Exchange Online organization.
+
+- Resolution: Check `Get-TransportConfig` to be sure that `SmtpClientAuthentidationDisabled` is `False` and `OAuth2ClientProfileEnabled` is `true`.
 
 ### 530 5.7.57 Client not authenticated
 

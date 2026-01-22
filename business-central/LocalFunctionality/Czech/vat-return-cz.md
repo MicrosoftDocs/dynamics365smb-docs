@@ -1,12 +1,12 @@
 ---
 title: VAT returns in the Czech version
 description: Learn how to use the features to submit a VAT return and comply with regulations in the Czech version.
-author: v-makune
+author: v-jiurxo
 ms.reviewer: v-pejano
-ms.author: v-jiurxo
+ms.author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: concept-article
-ms.search.keywords: Czech, Finance, VAT, Localization, CZ
+ms.search.keywords: Czech, Finance, VAT, VAT Return, Localization, CZ
 ms.date: 01/15/2026
 
 ---
@@ -27,7 +27,7 @@ The generated return can be printed as a report.
 ### To set up VAT return periods
 
 1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **VAT Return Periods**, and then choose the related link.  
-2. On the **VAT Return Periods** page, fill in the fields to set up the first period. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
+2. On the **VAT Return Periods** page, fill in the fields to set up the first period. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)].  
 3. Repeat step 2 for any additional periods that you want to add.
 
 ![VAT Return Periods](Media/vat-return-period.png "VAT Return Periods")
@@ -43,7 +43,7 @@ The generated return can be printed as a report.
 
 ## To prepare and submit a VAT report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns** and then choose the related link.  
+1. Choose the ![Lightbulb icon to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns** and then choose the related link.  
 2. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3. Select VAT report Type - Standard, Corrective or Supplementary.
 4. Select Version - CZ and period.

@@ -1,9 +1,9 @@
 ---
 title: VAT returns in the Czech version
 description: Learn how to use the features to submit a VAT return and comply with regulations in the Czech version.
-author: v-jiurxo
+author: bholtorf
 ms.reviewer: bholtorf
-ms.author: v-pejano
+ms.author: bholtorf
 ms-service: dynamics-365-business-central
 ms.topic: concept-article
 ms.search.keywords: Czech, Finance, VAT, VAT Return, Localization, CZ

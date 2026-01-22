@@ -30,20 +30,20 @@ To learn more about how to create Shopify trials and the recommended settings, g
 
 - Make sure that the **[Shopify Connector](https://go.microsoft.com/fwlink/?linkid=2196238)** app is installed.
 
-  The app is preinstalled for all new sign-ups and trials. Learn more about installing apps from AppSource at [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Use the following steps if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
+  The app is preinstalled for all new sign-ups and trials. Learn more about installing apps from Marketplace at [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Use the following steps if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Ensure that the user has the right permissions. Shopify Connector is covered by the **Shopify – Admin (SHPFY – ADMIN)** permission set. Learn more at [Create Users According to Licenses](../ui-how-users-permissions.md) and [Assign Permissions to Users and Groups](../ui-define-granular-permissions.md).
 
 ## Install the Dynamics 365 Business Central app to your Shopify online store
 
-For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], this step is optional and can be skipped.
+The main purpose of the Dynamics 365 Business Central app is to help existing merchants with no [!INCLUDE[prod_short](../includes/prod_short.md)] subscription to activate a trial version. It also contains useful links to documentation. For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], this step is optional. You can skip it because the app installs automatically when you connect [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
 
 1. Locate the [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/).
 2. Choose the **Add App** button. Sign in to your Shopify account if prompted. Select the online shop if you have more than one.
 3. After reviewing privacy and permissions, choose the **Install App** button.
 
    You can find and open the installed **Dynamics 365 Business Central** app in the **Apps** section on the sidebar of the **Shopify admin** page.
-4. Choose **Sign up now** to start the [!INCLUDE[prod_short](../includes/prod_short.md)] trial, or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You are redirected to your [Business Central](https://businesscentral.dynamics.com) page.
+4. Choose **Sign up now** to start the [!INCLUDE[prod_short](../includes/prod_short.md)] trial, or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You're redirected to your [Business Central](https://businesscentral.dynamics.com) page.
 
    > [!Note]
    > In countries where Microsoft doesn't offer built-in localization, the sign up process stop and the *[!INCLUDE[prod_long](../includes/prod_long.md)] is not available in this market* message displays. To learn more, go to [Start with the trial in location with partner-based localizations](../trial-signup.md#start-with-the-trial-in-location-with-partner-based-localizations).
@@ -54,7 +54,7 @@ For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], thi
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Choose the **New** action.  
-3. In the **Code** field, enter a code that is easy to find in [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the name might reflect what a shop sells, such as "Furniture" or "Coffee," or the country or region it serves.
+3. In the **Code** field, enter a code that's easy to find in [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the name might reflect what a shop sells, such as "Furniture" or "Coffee," or the country/region it serves.
 4. In the **Shopify Admin URL** field, enter the URL of the online shop that you're connecting. Use the following format: **https://{shop}.myshopify.com/**. You can build the URL by combining the store ID from the admin URL. For example, **admin.shopify.com/store/{shop}** and **.myshopify.com**.
 
    > [!TIP]
@@ -86,19 +86,19 @@ Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_shor
 
 There are different approaches to testing an integration, and each approach has its pros and cons.
 
-You can connect [!INCLUDE[prod_short](../includes/prod_short.md)] and Shopify accounts as often as you like. The Shopify Connector affects only the environment, or to be more precise, the company where it's enabled. You can connect to the same Shopify online store from multiple environments or companies. You can disable and re-enable the connector.
+You can connect [!INCLUDE[prod_short](../includes/prod_short.md)] and Shopify accounts as often as you like. The Shopify Connector affects only the environment, or to be more precise, the company. You can connect to the same Shopify online store from multiple environments or companies. You can disable and re-enable the connector.
 
-It's easy to rerun synchronization tests. The connector allows you to delete imported data, such as products, customers, and orders, and then import them again. Just [reset sync](troubleshoot.md#reset-sync).
+It's easy to rerun synchronization tests. The connector allows you to delete imported data, such as products, customers, and orders, and then import them again. You just need to [reset sync](troubleshoot.md#reset-sync).
 
-### Shopify sandbox and Business Central sandbox
+### Shopify sandboxes and Business Central sandboxes
 
-This is probably the safest way to test integration. Instead of using a Shopify sandbox, you can use a trial subscription or Development Store. In [!INCLUDE[prod_short](../includes/prod_short.md)], you can also use a test company in a production environment.
+Sandbox environments are probably the safest way to test integration. Instead of using a Shopify sandbox, you can use a trial subscription or Development Store. In [!INCLUDE[prod_short](../includes/prod_short.md)], you can also use a test company in a production environment.
 
 To learn more about [!INCLUDE[prod_short](../includes/prod_short.md)] sandboxes, go to [Create a new environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
-### Shopify sandbox and Business Central production
+### Shopify sandboxes and Business Central production
 
-This *isn't* a recommended configuration for testing because the Shopify Connector can create or modify items and customers. It can also create sales documents such as orders and invoices. These documents can be difficult to undo.
+This configuration *isn't* recommended for testing because the Shopify Connector can create or modify items and customers. It can also create sales documents such as orders and invoices. These documents can be difficult to undo.
 
 If you must use this configuration, we recommend that you review and probably disable the following settings:
 

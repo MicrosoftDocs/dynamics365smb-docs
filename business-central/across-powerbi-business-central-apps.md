@@ -66,7 +66,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
     ![Navigating to Get apps.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     > [!TIP]
-    > You can also access the **Power BI Report** from [!INCLUDE [prod_short](includes/prod_short.md)]. Navigate to the Power BI Reports section and **Select reports** on your Home page. Choose either **Services** or **My Organization** from **Get Reports**. The Organization gallery in Power BI or Microsoft AppSource will open, displaying only apps related to [!INCLUDE[prod_short](includes/prod_short.md)].
+    > You can also access the **Power BI Report** from [!INCLUDE [prod_short](includes/prod_short.md)]. Navigate to the Power BI Reports section and **Select reports** on your Home page. Choose either **Services** or **My Organization** from **Get Reports**. The Organization gallery in Power BI or Microsoft Marketplace will open, displaying only apps related to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 4. In the **Search** box, enter **Dynamics 365 Business Central**.
 5. Select app that you want to use, select **Get it now**, and then **Install**.  

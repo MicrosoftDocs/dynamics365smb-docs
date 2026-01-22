@@ -4,7 +4,7 @@ description: The following articles describe the various local functionalities i
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Belgian version, Belgian local functionality
-ms.date: 04/01/2025
+ms.date: 12/30/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -12,7 +12,7 @@ ms.reviewer: v-soumramani
 
 # Belgium local functionality
 
-The following articles describe local functionality that is unique to the Belgian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that's unique to the Belgian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability
 
@@ -74,9 +74,7 @@ The following articles describe local functionality that is unique to the Belgia
 
 ## Future legislation requirements being investigated
 
-- Redesigned Peppol format adding new Peppol BIS3 BE with incorporated Enterprise No. **Planned for July 2025**
-- Adding Enterprise No. to the Multiple VAT for Customers **Planned for July 2025**
-- Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 2**
+- Redesigned and upgraded non-deductible VAT **Planned for 2026 release wave 1**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

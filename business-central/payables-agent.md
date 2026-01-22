@@ -1,7 +1,7 @@
 ---
 title: Payables Agent Overview
 description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
-ms.date: 10/29/2025
+ms.date: 01/19/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk
@@ -21,17 +21,6 @@ The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to a
 
 > [!NOTE]
 > [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
-
-## Functionality in the preview
-
-This preview doesn't represent the full vision of the Payables Agent. The Payables Agent is in its early stages, and more features and AI capabilities are coming.
-
-Eventually, the agent will help with:
-
-* Purchase order matching
-* Approval flows
-* Anomaly detection
-* Other tasks that support accounts payable processes and accounting
 
 ## Payables Agent process flow
 
@@ -57,23 +46,29 @@ The dashed steps in the image represent steps that&mdash;in time&mdash;are inten
 
 The agent uses an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices as PDF documents. The dispatcher triggers the agent to perform tasks and then imports the PDF document into **Inbound E-Documents**.
 
-Each PDF document found in an email becomes an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** is created for each of them. A distinct agent task processes each entry.
+> [!IMPORTANT]
+> The agent only processes emails that have PDF attachments. It doesn't process emails without PDF attachments, and the emails appear as agent tasks that require manual attention.
+>
+> If an email contains more than 10 attachments, the agent skips that email entirely. Keep the number of attachments per email to 10 or fewer to ensure the agent processes them.
+
+Each PDF document found in an email becomes an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email (up to a maximum of 10), an entry in **Inbound E-Documents** is created for each of them. A distinct agent task processes each entry.
 
 #### Use a shared mailbox to curate invoices and minimize noise
 
 The agent processes any email sent to the monitored mailbox. We recommend you use a shared mailbox that you keep as an internal-only mailbox and don't expose this mailbox to your vendors. The choice is yours. However, by not exposing invoices to vendors, your employees become the first to review and identify potential fraud, while also minimizing unnecessary information for the agent to handle. We recommend you set up a shared mailbox in Microsoft 365, add your accounts payable team members to that mailbox, and use that as the mailbox monitored by the Payables Agent. Learn more in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox).
 
 > [!NOTE]
-> Use a designated mailbox for receiving vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
+> Use a mailbox that's designated to receive vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 >
 > [!CAUTION]
-> A fundamental principle of the Payables Agent is to import **all** emails, not just the ones that contain PDF files. Take steps to ensure that the agent has full ownership of the mailbox, process wise, and users can't accidentally read or remove emails:
+> The Payables Agent processes only emails that contain PDF attachments. Ensure that the agent has full ownership of the mailbox, and that users can't accidentally read or remove emails:
 >
-> - The monitored mailbox should only be attended from within Business Central
+> - The monitored mailbox should only be attended from within [!INCLUDE [prod_short](includes/prod_short.md)].
 > - Users shouldn't access the monitored mailbox from Outlook.
-> - Use a shared mailbox if possible.
+> - Use a shared mailbox, if possible.
+> - Ensure emails contain 10 or fewer attachments. The agent skips emails that have more than 10 attachments.
 >
-> As a consequence, emails with no PDFs show up as agent tasks and need agent overseers to decide how to handle them. PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page and then remove them. You can also remove unsupported files received in this mailbox this way.
+> PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page, and then remove them. You can also remove unsupported files received in this mailbox this way.
 
 > ![Shows the Unknown Document Type view on the Inbound E-Documents page](media/unknown-document-type-view.png)
 
@@ -150,12 +145,35 @@ The agent involves designated Business Central users, called agent supervisors o
 
 The agent works within the permissions and profile (role) the admin assigns. Learn more in [Manage agent permissions and user access](payables-agent-setup.md#manage-agents-permissions-to-objects-data-and-ui-elements).
 
+## Limitations
+
+The following limitations apply to the Payables Agent:
+
+**Feature limitations**
+
+The Payables Agent currently doesn't support the following features:
+
+- Purchase order matching
+- Approval flows
+- Anomaly detection
+
+**Document and usage constraints**
+
+The following constraints apply to document processing and daily usage:
+
+- The agent only processes emails with PDF attachments. Emails without PDF attachments are not processed for invoice creation.
+- The agent skips emails with more than 10 attachments. Each email should contain 10 or fewer attachments.
+- The agent doesn't process PDFs with more than 10 pages.
+- The agent doesn't process PDFs larger than 5 MB.
+- The agent doesn't process more than 100 emails per day.
+- The agent doesn't process more than 500 invoices per day.
+
 ## Next steps
 
 - [Set up Payables Agent](payables-agent-setup.md)
 - [Supervise agent activities](use-payables-agent.md)
-- [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md)
 
 ## Related information
 
 [Configure Copilot and agent capabilities](enable-ai.md)  
+[Responsible AI FAQ for Payables Agent](faqs-payables-agent.md)  

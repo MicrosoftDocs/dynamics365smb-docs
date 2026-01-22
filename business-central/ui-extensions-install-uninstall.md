@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing apps that, for example, add functionality, change behavior, or give you access to new online services. To learn more, go to [Customizing Business Central Using Extensions](ui-extensions.md).
 
 > [!NOTE]
-> To install or uninstall apps from AppSource or add per-tenant apps, you must have the right permissions. You must either be a member of the **D365 Extension MGT** user group, or you must have the **EXTEND. MGT. - ADMIN** permission set. If you're an administrator, you can assign user groups and permissions to other users in your company. To learn more about user groups and permissions, go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+> To install or uninstall apps from Marketplace or add per-tenant apps, you must have the right permissions. You must either be a member of the **D365 Extension MGT** user group, or you must have the **EXTEND. MGT. - ADMIN** permission set. If you're an administrator, you can assign user groups and permissions to other users in your company. To learn more about user groups and permissions, go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 To use an extension, you must be assigned the permission sets that come with it.
 
@@ -25,14 +25,14 @@ To use an extension, you must be assigned the permission sets that come with it.
 
 You manage apps and extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top-right corner, enter **Extension**, and then choose the related link.  
 
-You can get new apps from the marketplace at [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). The marketplace offers all available apps for [!INCLUDE[prod_short](includes/prod_short.md)], plus apps and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[prod_short](includes/prod_short.md)].  
+You can get new apps from the marketplace at [Marketplace.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). The marketplace offers all available apps for [!INCLUDE[prod_short](includes/prod_short.md)], plus apps and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
-> Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)]. Use the same email account for other services and products for a smooth experience.  
+> Sign in to [Marketplace.microsoft.com](https://marketplace.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)]. Use the same email account for other services and products for a smooth experience.  
 
-You can also get to AppSource from [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the apps that are currently installed, and you can open the **Microsoft AppSource Apps** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] apps that are currently available in AppSource. If you choose the **View AppSource** action, you're taken to [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). To learn more, go to [Manage AppSource apps](admin-manage-appsource-apps.md).  
+You can also get to Marketplace from [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the apps that are currently installed, and you can open the **Microsoft Marketplace Apps** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] apps that are currently available in Marketplace. If you choose the **View Marketplace** action, you're taken to [Marketplace.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). To learn more, go to [Manage Marketplace apps](admin-manage-appsource-apps.md).  
 
-Choose an app to learn about what it does, and you can access Help for the app to learn more. When you choose to get an app, you must agree to its terms of use. If you get the app from the AppSource website, you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)] to complete the installation.  
+Choose an app to learn about what it does, and you can access Help for the app to learn more. When you choose to get an app, you must agree to its terms of use. If you get the app from the Marketplace website, you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)] to complete the installation.  
 
 After you install an app, you might have to set it up. Some apps require that you provide some information before you can use them. For example, after you install the **PayPal Payments Standard** app, you must specify the email or the Merchant account ID for your PayPal account. To set up an app, or to find out what information you need, on the **Installed Extensions** page, choose the **Set up** action.  
 
@@ -97,7 +97,7 @@ If you want to keep the data for an uninstalled app, you can delete the data lat
 
 [Customize Business Central](ui-customizing-overview.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  
-[Manage AppSource apps](admin-manage-appsource-apps.md)  
+[Manage Marketplace apps](admin-manage-appsource-apps.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrate Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

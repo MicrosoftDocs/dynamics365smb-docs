@@ -3,7 +3,7 @@ title: "Business decision maker learning catalog"
 description: "Business decision maker learning catalog"
 author: loreleishannonmsft
 ms.date: 11/10/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ms.author: margoc
 ---
 

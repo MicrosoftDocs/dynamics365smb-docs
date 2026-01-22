@@ -74,7 +74,7 @@ To learn more about virtual tables, go to the following articles:
 * [Create and edit virtual tables that contain data from an external data source](/power-apps/maker/data-platform/create-edit-virtual-entities) (Power Apps documentation)
 * [Business Central Virtual Table for Microsoft Dataverse Admin Reference](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)] documentation)
 
-To use virtual tables, you must install the **Business Central Virtual Entity** app from [AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity).
+To use virtual tables, you must install the **Business Central Virtual Entity** app from [Marketplace](https://marketplace.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity).
 
 After you install the app, you can enable virtual tables from one of the following pages in [!INCLUDE [prod_short](includes/prod_short.md)]:
 

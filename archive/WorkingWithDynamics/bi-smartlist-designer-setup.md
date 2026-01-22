@@ -19,7 +19,7 @@ The following procedure will take you through the steps to install and set up Sm
 ## To install SmartList Designer
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SmartList Designer Setup**, and then choose the related link.
-2. Choose the **Install SmartList Designer from AppSource** link.
+2. Choose the **Install SmartList Designer from Marketplace** link.
 3. Choose the **GET IT NOW** button.
 4. If prompted, enter your account name and password.
 5. Read the disclaimer, and choose **Continue** if you agree. If you do not agree, close the message by select the X in the upper right corner of the message.

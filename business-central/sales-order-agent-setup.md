@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate Sales Order Agent and manage user access.
-ms.date: 10/27/2025
+ms.date: 11/24/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer
@@ -21,9 +21,6 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 Before configuring and activating Sales Order Agent, ensure the following prerequisites are met:
 
-- The Business Central environment is one of these country/region versions: AU (Australia), CA (Canada), DE (Germany), DK (Denmark), ES (Spain), FR (France), GB (United Kingdom), IT (Italy), NZ (New Zealand), US (United States).
-
-  Sales Order Agent is currently unavailable in other country/region versions. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 - Set up the email account for receiving incoming requests for sales quotes and orders.
 
    Sales Order Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).
@@ -62,13 +59,16 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
 
 1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Mailbox** field to the email account you want the agent to monitor.
-1. Set the **Default language** to the language in which you want task details and messages in the **Tasks** pane and log entries. You must choose one of the supported languages listed in the [prerequisites](#prerequisites).
+1. Set the **Default language** field to specify the language the agent uses for:
 
-   When you first configure the agent, the field is set to the same language as the display language of your workspace. You can change the language later from the **Sales Order Agent** card page. Learn more in [Change language and regional settings](#change-language-and-regional-settings).
+   - Outgoing emails to customers or contacts. If a customer or contact card has a language specified, the agent uses that language instead of the default.
+   - Messages about tasks to users in the **Tasks** pane.
+
+   When you first configure the agent, the field is set to the same language as the display language of your workspace. You can change the language later from the **Sales Order Agent** card page. Learn more about these settings in [Change language, region, and other settings](#change-agent-language-region-and-other-settings).
 
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
-   The options are spread across multiple cards. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the cards and set the various options. Each tab below describes a group of related options:
+   The options are spread across multiple cards. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the cards and set the various options. Each tab that follows describes a group of related options:
 
    ## [Respond to inquiries](#tab/inquiries)
 
@@ -178,19 +178,25 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 
 Sales Order Agent has a user account in Business Central, similar to other users, which defines the permissions the agent has on objects and data. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]** to open the agent card page.
 
-The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, Sales Order Agent has the **SOA AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests.
+The **Agent Permission Sets** section lists the permission sets currently assigned to the agent. By default, Sales Order Agent has the **SOA AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests.
 
 You can't modify the **SOA AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set, modify the copy to suit your needs, and then add it to the **Agent Permission Sets** section, along with any other permission sets.
 
 Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
 
-## Change language and regional settings
+## Change agent language, region, and other settings
 
 [!INCLUDE[soa-language-support](includes/soa-language-support.md)]
 
 1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
-1. Select **User Settings**.
-1. Set **Language** to a supported English locale.
+1. Select **Agent User Settings** and set the following fields:
+
+   |Field|Description|
+   |-|-|
+   |Profile|Specifies the role that defines the agent's home page with links to the most common tasks.|
+   |Region|Specifies the regional format used by the agent for dates, times, and numbers in outgoing emails and task details.|
+   |Language|Specifies the language the agent uses for generated text in:<ul><li>Outgoing email messages to customers or contacts. If a customer or contact card has a language specified, the agent uses that language instead of the default.</li><li>Task details and descriptions in the agent **Tasks** pane and log.</li></ul> |
+   |Time zone|Specifies the time zone used by the agent when displaying and processing date and time in tasks details.|
 
 ## Next steps
 

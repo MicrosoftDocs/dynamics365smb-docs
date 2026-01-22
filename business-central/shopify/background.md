@@ -1,7 +1,7 @@
 ---
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
-ms.date: 07/14/2025
+ms.date: 01/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -41,13 +41,13 @@ You can schedule the following recurring activities to be performed in an automa
 |**Sync companies**|Report 30114 Shopify sync companies (B2B)|
 |**Sync payouts and payment transactions**|Report 30105 Shopify sync payouts|
 |**Sync disputes**|Report 30120 Shopify sync disputes|
-|**Sync catalogs**|Report 30115 Shopify sync catalogs (B2B)|
-|**Sync catalog prices**|Report 30116 Shopify sync catalog prices (B2B)|
+|**Sync catalogs**|Report 30115 Shopify sync catalogs|
+|**Sync catalog prices**|Report 30116 Shopify sync catalog prices|
 
 > [!NOTE]
-> Some elements might be updated by several tasks. For example, when you import orders, depending on the setting on the **Shopify Shop Card** page, the system may also import and update customer and/or product data. To avoid conflicts, remember to use the same job queue category.
+> Several tasks might update some elements. For example, when you import orders, depending on the setting on the **Shopify Shop Card** page, [!INCLUDE [prod_short](../includes/prod_short.md)] might also import and update customer and/or product data. To avoid conflicts, remember to use the same job queue category.
 >
-> Use the **Report Request Page** action to define filters. For example, you can specify that you import orders only when their status is **Fully Paid**.
+> Use the **Report Request Page** action to define filters and parameters. For example, you can specify that you import orders only when their status is **Fully Paid**, or turn on the **Only Sync Prices** toggle to ensure that product synchronization only updates prices, but not products.
 
 Other tasks that can be helpful to automate further processing of sales documents:
 
@@ -69,7 +69,7 @@ On the **Business Manager** Role Center, the **Shopify Activities** part offers 
 - **Unprocessed Shipments**: Posted sales shipments originated from Shopify orders aren't synchronized with Shopify.
 - **Shipments Errors**: Shopify Connector couldn't synchronize posted sales shipments with Shopify.
 - **Synchronization Errors**: There are failed job queue entries related to synchronization with Shopify.
-- **Unprocessed Order Updates**: There are shopify orders that have already been processed in [!INCLUDE [prod_short](../includes/prod_short.md)], but an edition was received from Shopify. Because changes weren't synchronized to the processed order in [!INCLUDE [prod_short](../includes/prod_short.md)], you need to update the processed documents to match the received data from Shopify. To learn more, go to [Effect of order editing](synchronize-orders.md#effect-of-order-editing).
+- **Unprocessed Order Updates**: There are Shopify orders that were already processed in [!INCLUDE [prod_short](../includes/prod_short.md)], but a new edition was received from Shopify. Because changes weren't synchronized to the processed order in [!INCLUDE [prod_short](../includes/prod_short.md)], you must update the processed documents to match the received data from Shopify. To learn more, go to [Effect of order editing](synchronize-orders.md#effect-of-order-editing).
 
 > [!Tip]
 > Use the **Set up cues** action in the **Shopify Activities** part to define thresholds for cue styles. By default, the cue displays in yellow if the count is between one and five, and in red if count is five or higher.

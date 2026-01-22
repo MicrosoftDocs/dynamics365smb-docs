@@ -19,7 +19,7 @@ In accordance with Spanish regulations—specifically Article 13 of Royal Decree
 In this article, you can find and download the self-responsibility declarations issued by Microsoft for all supported versions of Business Central. You can also access these declarations within the product by using the Legal Landing Page.
 
 ## Self-responsible declarations  
-****
+
 ### 2025 release wave 1
 
 - Spanish version (required by law): [Self-responsible declaration ES](https://www.microsoft.com/es-es/business-applications/legal/agr-dynamics365-business-central-declaration-0725/) 

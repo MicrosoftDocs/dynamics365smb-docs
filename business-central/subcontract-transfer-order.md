@@ -5,104 +5,129 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
-ms.search.keywords: 99000886,
+ms.search.forms: 99000886,
 ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
-# Create and Post Transfer Order
+# Create transfer orders for subcontracting
 
-If you have ordered subcontracting and thus added it to your purchase order, you can create a transfer order for it. With the transfer order, you transfer the components associated with the subcontracting operation.
+When you order subcontracting and add it to your purchase order, you can create transfer orders for the components associated with the subcontracting operation.
 
 ## Prerequisites
 
-Before you can create a transfer order, the following prerequisites must be met:
+Before you create a transfer order, the following must be in place:
 
-- A purchase order with subcontracting must be created
-- The production order components must have the subcontracting type "Transfer"
-- Transfer routes between locations must be set up
-- The vendor must have a "Subcontracting Location Code" in the vendor card
+- A purchase order with subcontracting.
+- Production order components with the **Transfer** subcontracting type.
+- Transfer routes between locations.
+- A **Subcontracting Location Code** on the vendor card.
 
-## Create Transfer Order
+## Create a transfer order
 
-1. Open the purchase order and mark the desired line.
+The following steps describe how to create a transfer order for subcontracting.
 
-1. Select "Actions", "Functions" and "Create Transfer Order for Subcontracting" in the ribbon.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+2. Open the purchase order.
+3. On the lines, select the line.
+4. Choose the **Create Transfer Order for Subcontracting** action.
 
-1. Subsequently, the "Transfer Order" card opens. From the "General" tab, you can see the location origin and the transfer location based on the code. The field contents are automatically predefined, but you can still override them. The settings, as well as the further process procedure, depend on the settings in the "Location Card".
+[!INCLUDE [prod_short](includes/prod_short.md)] opens the **Transfer Order** page. On the **General** FastTab, you can see the location origin and the transfer location. The fields are automatically filled in, but you can change them. The settings and the process depend on the settings on the **Location Card** page.
 
-1. Post the transfer order from the "Transfer Order" card, via warehouse shipments or picking.
+To post the transfer order, you can use one of the following methods:
 
-1. In the associated production order, or in its routing, the status in the "Operation Status" column was changed to "In Process".
+- Post from the **Transfer Order** page.
+- Post through warehouse shipments.
+- Post through picking.
 
-## Location Assignment
+After you post the transfer, [!INCLUDE [prod_short](includes/prod_short.md)] changes the status in the **Operation Status** field in the production order routing to **In Process**.
 
-The system automatically determines the locations for the transfer order:
+## How locations are assigned
 
-### Transfer-from Location
-- **Standard:** Location of the production order component
-- **Upon Change:** If the component location is changed after creating the transfer order, the new location is automatically used as "Transfer-from"
+[!INCLUDE [prod_short](includes/prod_short.md)] automatically determines the locations for the transfer order:
 
-### Transfer-to Location
-- **Subcontracting Location Code** from the vendor card of the assigned subcontractor
+### Transfer-from location
 
-## Direct Transfer
+- **Standard** - The location of the production order component.
+- **Upon change** - If you change the component location after creating the transfer order, [!INCLUDE [prod_short](includes/prod_short.md)] automatically uses the new location as the **Transfer-from** location.
 
-In the "Subcontracting Setup", you can activate the "Direct Transfer for Subcontracting" option:
+### Transfer-to location
 
-- **Activated:** The transfer occurs without transit location
-- **Deactivated:** The transfer occurs via the transit location defined in the transfer route
+The **Subcontracting Location Code** from the vendor card of the assigned subcontractor.
 
-> [!NOTE]
-> With direct transfer, the "Qty. to Receive" field is automatically filled with the same value as "Qty. to Ship".
+## Use direct transfer
 
-## Receipt Date Calculation
+You can turn on direct transfer in the **Subcontracting Setup**.
 
-The receipt date in the transfer order is automatically calculated:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Setup**, and then choose the related link.
+2. Turn on the **Direct Transfer for Subcontracting** toggle.
 
-**Formula:** Due date of the production order component - "Subcontracting Inbound Whse. Handling Time"
+When you use direct transfer:
 
-The "Subcontracting Inbound Whse. Handling Time" is defined in the "Subcontracting Setup".
+- The transfer occurs without a transit location.
+- The **Qty. to Receive** field is automatically filled with the same value as **Qty. to Ship**.
 
-## View Transfer Entries
+When the toggle is turned off, the transfer occurs through the transit location defined in the transfer route.
 
-To view the posted "Subcontracting Transfer Entries" in the production order, navigate in the production order card via "Related", "Order", "Entries" to "Subcontracting Transfer Entries".
+## How receipt dates are calculated
 
-This opens the "Item Ledger Entries" list, where you can view all processes and details of the transfer process.
+[!INCLUDE [prod_short](includes/prod_short.md)] automatically calculates the receipt date in the transfer order using the following formula:
 
-## Return from Subcontractor
+**Receipt Date = Due date of the production order component - Subcontracting Inbound Whse. Handling Time**
 
-If the provided components were not completely consumed, you have the option to transfer the unused quantities back to your source location with the "Create Return from Subcontractor" action.
+The **Subcontracting Inbound Whse. Handling Time** is defined in the **Subcontracting Setup**.
 
-1. Select "Actions", "Functions" and "Create Return from Subcontractor" in the ribbon.
+## Access transfer entries
 
-1. Subsequently, the "Transfer Order" card opens. In the generated transfer order, the "Transfer-from" location code corresponds to the vendor's location code. Your source location code is used as the "Transfer-to" location code.
+You can access posted subcontracting transfer entries in the production order.
 
-1. The components with subcontracting type "Transfer" are offered for transfer in the transfer lines. Enter the quantities in the lines that you want to post with this transfer order.
+1. On the production order, choose the **Subcontracting Transfer Entries** action.
 
-1. Post the transfer order from the "Transfer Order" card, via warehouse shipments or picking.
+[!INCLUDE [prod_short](includes/prod_short.md)] displays the **Item Ledger Entries** page, where you can view all processes and details of the transfer.
 
-### Automatic Location Reversal
+## Create a return from the subcontractor
 
-During return, the locations are automatically reversed:
-- **Transfer-from:** Subcontracting location code of the vendor
-- **Transfer-to:** Original location of the component
+If the subcontractor didn't completely consume the provided components, you can transfer the unused quantities back to your source location.
 
-## Restrictions and Validations
+1. On the purchase order, choose the **Create Return from Subcontractor** action.
 
-### Location Changes
+   [!INCLUDE [prod_short](includes/prod_short.md)] opens the **Transfer Order** page. In the transfer order, the **Transfer-from** location code is the vendor's location code. Your source location code is used as the **Transfer-to** location code.
 
-After creating a transfer order, you can no longer change the location of the assigned production order component. The system shows the error message:\
-*"The component has already been assigned to subcontracting transfer order [Order Number]."*
+2. The components with the **Transfer** subcontracting type are available for transfer in the lines. In the lines, enter the quantities you want to post with this transfer order.
+3. Post the transfer order from the **Transfer Order** page, through warehouse shipments, or through picking.
 
-### Item Tracking
+### How locations are reversed for returns
 
-If a transfer order has already been created for a production order component, you can no longer open the item tracking lines. The system shows the error message:\
-*"You cannot open the tracking specification because the component is already specified in subcontracting transfer order [Order Number]."*
+During return, [!INCLUDE [prod_short](includes/prod_short.md)] automatically reverses the locations:
 
-### Bin Code Management
+- **Transfer-from** - Subcontracting location code of the vendor.
+- **Transfer-to** - Original location of the component.
 
-- **Original Bin Code:** Is saved when creating the transfer order
-- **After Deletion:** If the transfer order is deleted, the location and bin code of the component are reset to the original values
+## Restrictions and validations
+
+[!INCLUDE [prod_short](includes/prod_short.md)] applies the following restrictions and validations.
+
+### Location changes
+
+After you create a transfer order, you can't change the location of the assigned production order component. You receive the error message: "The component has already been assigned to subcontracting transfer order [Order Number]."
+
+### Item tracking
+
+If a transfer order exists for a production order component, you can't open the item tracking lines. You receive the error message: "You cannot open the tracking specification because the component is already specified in subcontracting transfer order [Order Number]."
+
+### Bin code management
+
+[!INCLUDE [prod_short](includes/prod_short.md)] manages bin codes automatically:
+
+- When it creates the transfer order, it saves the original bin code.
+- When you delete the transfer order, it resets the location and bin code of the component to the original values.
+
+## Related information
+
+[Set up subcontracting](subcontract-setup.md)  
+[Manufacturing](production-manage-manufacturing.md)  
+[Transfer inventory between locations](inventory-how-transfer-between-locations.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

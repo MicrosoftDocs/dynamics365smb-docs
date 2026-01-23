@@ -5,62 +5,88 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
-ms.search.keywords: 99000886,
+ms.search.keywords: subcontracting, prices, work center group, vendor
+ms.search.form: 99000886
 ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
-# Subcontractor Prices
+# Set up subcontractor prices
 
-Store your subcontractor prices in your master data here and view all prices for each item at a glance. To do this, call up the "Subcontractor Prices" card via the search.
-The maintenance of subcontractor prices can be done with assignment to vendors, standard catalog filters, and work center groups.
-The subcontractor prices are accessible from the work center group card as well as the vendor card.
+You can store subcontractor prices and view all prices for each item at a glance. You can maintain subcontractor prices by assigning them to vendors, standard catalog filters, and work center groups. You can access subcontractor prices from the work center group card and the vendor card.
 
-## General
+## Set up subcontractor prices
 
-In the "Subcontractor Prices" card, under "General", you can use various filters for subcontractor prices to simplify editing. The following filters are available to you:
+The following steps describe how to set up subcontractor prices.
 
-+ Vendor No. Filter
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontractor Prices**, and then choose the related link.
+2. On the **General** FastTab, use the filters to find specific subcontractor prices. The following filters are available:
 
-+ Work Center Group No. Filter
+   - **Vendor No. Filter**
+   - **Work Center Group No. Filter**
+   - **Standard Catalog Code Filter**
+   - **Item No. Filter**
+   - **Starting Date Filter**
 
-+ Standard Catalog Code Filter
+3. In the lines, fill in the following required fields:
+   - **Work Center Group No.**
+   - **Vendor No.**
+   - **Item No.**
 
-+ Item No. Filter
-
-+ Starting Date Filter
-
-Fill the lines with a "Work Center Group No.", "Vendor No." as well as "Item No.".
-Enter specific activities for the respective work center group in the "Standard Catalog Code" within the lines. Then enter the activity-related price under "Purchase Price". This can refer to items, time periods, units of measure, and quantities.
-
->[!NOTE]
-> Required fields to be filled are always "Work Center Group No.", "Vendor No." and "Item No.".
-
-## Define Prices via Work Center Group Card
-
-Analogous to the known purchase price storage, you can store activity-related prices for the individual work center group.
-
-1. Open your work center group and select a group. The work center group card will be displayed.
-
-1. In the ribbon, under "Related", select "Subcontracting", "Subcontractor Prices".
-
-1. In the "Subcontractor Prices" card, the "Work Center Group No." from which you came is already displayed under "Work Center Group No. Filter".
-
-1. Enter specific activities for the respective work center group in the "Standard Catalog Code" within the lines.
-
-1. Enter the activity-related price in the "Purchase Price" column. This refers to items, item variants, time periods, units of measure, and quantities. Information about minimum quantity can also be provided.
-
-1. If you have agreed on a minimum amount per process with your subcontracting vendor for each production order quantity, enter this in the "Minimum Amount" field. The price finding for the production order operation considers this amount and determines the purchase price based on the order quantity.
+4. In the **Standard Catalog Code** field, enter specific activities for the work center group.
+5. In the **Purchase Price** field, enter the activity-related price. You can specify prices for items, time periods, units of measure, and quantities.
 
 > [!NOTE]
-> Required fields to be filled are always "Work Center Group No.", "Vendor No." and "Item No.".
+> The **Work Center Group No.**, **Vendor No.**, and **Item No.** fields are required.
 
-## Copy Prices
+## Set up prices from a work center group
 
-In the "Subcontractor Prices" card, you have the option to copy prices from one vendor to another vendor. Enter the number of the vendor in the "Vendor No. Filter" field and the number of the work center group in the "Work Center Group No. Filter" field for which you want to create new copied prices. Activate the "Copy Subcontractor Prices" action, select and mark the lines to be copied. By clicking "OK", the marked lines are copied for the selected vendor.
+You can store activity-related prices for individual work center groups.
 
-## Call Up Prices via a Routing
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Center Groups**, and then choose the related link.
+2. Open the work center group.
+3. Choose the **Subcontractor Prices** action.
 
-You can additionally call up the subcontractor prices starting from the routing. First open the corresponding routing and select the subcontracting within the lines. Then navigate via the ribbon to "More Options", "Operation" and "Subcontractor Prices". This way you get to the "Subcontractor Prices" card and can view or edit the appropriate information for the item.
+   [!INCLUDE [prod_short](includes/prod_short.md)] displays the **Subcontractor Prices** page with the **Work Center Group No. Filter** already filled in.
+
+4. In the lines, in the **Standard Catalog Code** field, enter specific activities for the work center group.
+5. In the **Purchase Price** field, enter the activity-related price. You can specify prices for items, item variants, time periods, units of measure, and quantities. You can also specify minimum quantities.
+6. If you agreed on a minimum amount per process with your subcontracting vendor for each production order quantity, enter it in the **Minimum Amount** field.
+
+   Price determination for the production order operation considers this amount and determines the purchase price based on the order quantity.
+
+> [!NOTE]
+> The **Work Center Group No.**, **Vendor No.**, and **Item No.** fields are required.
+
+## Copy prices between vendors
+
+You can copy subcontractor prices from one vendor to another vendor.
+
+1. On the **Subcontractor Prices** page, in the **Vendor No. Filter** field, enter the vendor number from which you want to copy prices.
+2. In the **Work Center Group No. Filter** field, enter the work center group number.
+3. Choose the **Copy Subcontractor Prices** action.
+4. Select the lines you want to copy.
+5. Choose **OK**.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] copies the selected lines for the specified vendor.
+
+## View prices from a routing
+
+You can view subcontractor prices from a routing.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routing**, and then choose the related link.
+2. Open the routing.
+3. On the lines, select the subcontracting operation.
+4. Choose the **Subcontractor Prices** action.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] displays the **Subcontractor Prices** page where you can view or edit the information for the item.
+
+## Related information
+
+[Manufacturing](production-manage-manufacturing.md)  
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

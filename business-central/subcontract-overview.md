@@ -5,8 +5,8 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
-ms.devlang: al
-ms.search.keywords: 99000886,
+ms.search.keywords: subcontracting, manufacturing, production, vendor, prices
+ms.search.form: 99000886
 ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -14,36 +14,52 @@ ms.custom: bap-template
 ---
 # Subcontracting overview
 
-For quality assurance and economic reasons, relying on external subcontracting, e.g., for manufacturing or finishing certain goods, has become more than sensible. However, the use of subcontracting often complicates the overview of the whereabouts of various goods as well as goods and labor prices. The extension enhances the basic functions of subcontracting by providing the ability to store subcontractor price lists and to provide various components during transfer processes.
+Many manufacturers rely on external subcontractors for quality assurance and economic reasons. For example, you might use subcontractors to manufacture or finish certain goods. However, subcontracting can make it difficult to track where goods are located and to manage goods and labor prices. Subcontracting features help you store subcontractor price lists and manage components during transfer processes.
 
-Through this extension of standard functions, you can not only avoid errors in purchase invoice verification, but also better assess the selection of your vendors and monitor the inventory of your vendor warehouse under quantity and value considerations. Subcontracting is integrated into the manufacturing process. This increases the comfort of your work processes while reducing the error rate.
+With subcontracting features, you can:
 
-## Core Functions
+- Avoid errors when you verify purchase invoices.
+- Better assess vendor selection.
+- Monitor inventory at vendor locations by quantity and value.
+- Integrate subcontracting into your manufacturing process to reduce errors and increase efficiency.
 
-### [Subcontractor Prices](subcontract-prices.md)
+## Subcontracting capabilities
 
-Store your subcontractor prices and get all prices for items displayed at a glance. Practical filters make searching easier for you.
+The following sections describe the capabilities available for subcontracting.
 
-### [Order Subcontracting Faster](subcontract-order.md)
+### Subcontractor prices
 
-You have the ability to order your subcontracting directly from a production order. Detours through other journals are eliminated and the risk of errors in purchase invoice verification is reduced.
+Store subcontractor prices and view all item prices at a glance. You can use filters to search for specific prices. Learn more in [Manage subcontractor prices](subcontract-prices.md).
 
-### [Component Posting and Vendor Warehouse Monitoring](subcontract-post-components.md)
+### Order subcontracting
 
-Complete subcontracting is integrated into the manufacturing process. Don't lose track of the quantity and value considerations of the vendor warehouse. You can view individual process steps and assign them to subcontracting.
+Create subcontracting orders directly from production orders. You don't need to use other journals, which reduces the risk of errors when you verify purchase invoices. Learn more in [Order subcontracting from production orders](subcontract-order.md).
 
-### [Transfer Order](subcontract-transfer-order.md)
+### Component posting and vendor warehouse monitoring
 
-If you have ordered subcontracting and thus added it to your purchase order, you can create a transfer order for your own goods. With the transfer order, you transfer your goods faster than before.
+Subcontracting is integrated into the manufacturing process. You can track quantity and value at vendor warehouses, view individual process steps, and assign them to subcontracting. Learn more in [Post components and monitor vendor warehouses](subcontract-post-components.md).
 
-### [Item Charges for Subcontracting](subcontract-item-charges.md)
+### Transfer orders
 
-Assign additional costs such as transport, packaging, or other incidental costs directly to subcontracting. The extended Item Charge functionality enables precise cost allocation to production orders.
+When you order subcontracting and add it to a purchase order, you can create transfer orders for your own goods. Transfer orders help you move goods quickly. Learn more in [Create transfer orders for subcontracting](subcontract-transfer-order.md).
 
-### [Location Management](subcontract-location-management.md)
+### Item charges
 
-Understand the automatic location assignment and management in subcontracting. From component provision to transfer to the subcontractor - all location aspects in detail.
+Assign additional costs such as transport, packaging, or other incidental costs directly to subcontracting operations. Item charges enable precise cost allocation to production orders. Learn more in [Assign item charges to subcontracting receipts](subcontract-item-charges.md).
 
-### [Purchase Provision](subcontract-purchase-provisions.md)
+### Location management
 
-You can create subcontracting from the purchase order via a production order and carry out the subcontracting process as usual. Default settings support you with automatic posting processes and thus save you time and costs.
+[!INCLUDE [prod_short](includes/prod_short.md)] automatically assigns and manages locations in subcontracting, from component provision to transfer to the subcontractor. Learn more in [Manage locations in subcontracting](subcontract-location-management.md).
+
+### Purchase provisions
+
+Create subcontracting from purchase orders through production orders and complete the subcontracting process. Default settings support automatic posting processes to save time and reduce costs. Learn more in [Set up purchase provisions for subcontracting](subcontract-purchase-provisions.md).
+
+## Related information
+
+[Manufacturing](production-manage-manufacturing.md)  
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

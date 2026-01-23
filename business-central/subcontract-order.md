@@ -5,49 +5,58 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
-ms.search.keywords: 99000886,
+ms.search.keywords: subcontracting, production order, purchase order, dispatch list
+ms.search.form: 99000886
 ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
-# Order Subcontracting
+# Order subcontracting from production orders
 
-You additionally have the option to order subcontracting via a released production order.
+You can create subcontracting purchase orders directly from released production orders. This article describes how to order subcontracting operations and print dispatch lists to send with unfinished products.
 
-1. Call up the released production order.
+## Create a subcontracting purchase order from a production order
 
-1. Select the line in the production order.
+The following steps describe how to create a subcontracting purchase order from a released production order.
 
-1. Navigate via the ribbon to "Line", "Routing" to open it.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Orders**, and then choose the related link.
+2. Open the production order.
+3. On the production order lines, select the line for which you want to order subcontracting.
+4. Choose the **Routing** action to view the operations.
+5. Select the routing line that contains the subcontracting operation you want to order.
+6. Choose the **Order Subcontracting** action.
+7. On the confirmation page, choose **Yes**.
 
-1. The lines list the operations for manufacturing. Mark the line(s) that contain your subcontracting to be ordered.
+[!INCLUDE [prod_short](includes/prod_short.md)] creates a purchase order with the information and descriptions from the **Subcontracting Setup** page. The subcontractor prices are also transferred. You can send or print the purchase document to your vendor.
 
-1. Then click on "Actions", "Functions", "Order Subcontracting" to place an order.
+## View subcontracting purchase orders
 
-1. Confirm the subsequent dialog window with "Yes".
+You can view the purchase order lines for a subcontracting operation directly from the routing.
 
-In the lines of the purchase order, the corresponding information and descriptions have been added according to the "Subcontracting Setup". The subcontractor prices are also transferred. You can send or print the purchase document to your vendor as usual.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Orders**, and then choose the related link.
+2. Open the production order.
+3. On the production order lines, select the line.
+4. Choose the **Routing** action to view the operations.
+5. Select the routing line that contains the subcontracting operation.
+6. Choose **Subcontracting Order Lines** action.
+7. To view the purchase order, choose the **Show Document** action.
 
-## Display Subcontracting Orders
+## Print a subcontracting dispatch list
 
-For an already existing subcontracting order, you can view the individual purchase lines starting from the routing and display the associated document.
+In addition to the purchase order and production order, you can print a subcontracting dispatch list to send with the unfinished product.
 
-1. Call up the released production order.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+2. Open the purchase order for subcontracting.
+3. Choose the **Print Subcontracting Dispatch List** action.
+4. On the request page, specify your selection and output options.
+5. Choose **Print** or **Preview** to print or send the report.
 
-1. Select the corresponding line in the production order.
+## Related information
 
-1. Navigate via the ribbon to "Line", "Routing" to open it.
+[Manufacturing](production-manage-manufacturing.md)  
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-1. The lines list the operations for manufacturing. Mark the line(s) that contain your subcontracting to be ordered.
-
-1. Navigate via "Related", "Line" and select "Subcontracting Order Lines".
-
-1. Navigate via the ribbon to "Show Document" to open it.
-
-## Print Subcontracting Dispatch List
-
-In addition to the purchase order document and the work papers of the production order, you can print a "Subcontracting Dispatch List" to accompany the unfinished product.
-Open the purchase order and select "Actions", "Functions" and "Print Subcontracting Dispatch List" in the ribbon. Make your selection and output options on the request page to print or send the report.
-
+[!INCLUDE[footer-include](includes/footer-banner.md)]

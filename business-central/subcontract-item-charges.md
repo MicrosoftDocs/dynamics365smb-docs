@@ -1,185 +1,163 @@
 ---
-title: Item charges for subcontracting
+title: Assign item charges to subcontracting receipts
 description: Learn how to assign item charges such as transport and packaging costs to subcontracting purchase receipts for accurate production order costing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
-ms.search.keywords: 99000886,
+ms.search.keywords: subcontracting, item charges, production order, capacity costs
+ms.search.form: 99000886,
 ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
-# Item Charges for Subcontracting
+# Assign item charges to subcontracting receipts
 
-The Subcontracting Extension offers extended functionalities for handling item charges in subcontracting. This function enables assigning additional costs such as transport, packaging, or other incidental costs directly to subcontracting. Subsequent costs that should still be distributed to the receipts for subcontracting or purchase provisions can be recorded as a separate invoice with Type = "Charge (Item)". The additional costs must therefore be linked to the capacity ledger entries of the production order.
+You can assign item charges to subcontracting receipts to include costs such as transport, packaging, and other incidental expenses directly in your production order costs. When you post additional costs that should be distributed to subcontracting receipts, you can record them as a separate invoice with **Type** set to **Charge (Item)**. The item charges link to the capacity ledger entries of the production order.
 
+## Turn on item charges for subcontracting
 
-## Activating the Function
+Before you can assign item charges to subcontracting receipts, you must turn on the feature.
 
-The item charge function for subcontracting must be activated in the "Subcontracting Setup":
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Setup**, and then choose the related link.
+2. On the **Subcontracting** FastTab, turn on the **Item Charge to Subcontracting Purch. Receipt Lines** toggle.
 
-1. Open the "Subcontracting Setup"
-2. Navigate to the "Subcontracting" tab
-3. Activate the field "Item Charge to Subcontracting Purch. Receipt Lines"
+After you turn on the feature, the **Get Receipt Lines for Subcontracting** action becomes available when you assign item charges.
 
-> [!NOTE]
-> After activation, an additional option becomes visible in the charge assignment in purchasing, including the specialized "Get Receipt Lines for Subcontracting" action.
+## How item charges work with subcontracting
 
-## Functionality
+When you assign item charges to subcontracting receipts, [!INCLUDE [prod_short](includes/prod_short.md)] creates value entries differently than for standard item charges.
 
-### Normal Item Charge Assignment
+### Standard item charge assignment
 
-In standard charge assignment, item charges are normally assigned to item ledger entries, resulting in the following postings:
+When you assign item charges to regular purchase receipts, [!INCLUDE [prod_short](includes/prod_short.md)] creates value entries that:
 
-- Value entries with reference to item ledger entries
-- Cost type: "Direct Cost"
-- Inventory impact on items
+- Reference item ledger entries.
+- Use **Direct Cost** as the cost type.
+- Affect inventory.
 
-### Subcontracting Item Charge Assignment
+### Subcontracting item charge assignment
 
-With activated subcontracting function and assignment to a subcontracting receipt line:
+When you assign item charges to subcontracting receipts, [!INCLUDE [prod_short](includes/prod_short.md)] creates value entries that:
 
-- Value entry is created **without** reference to item ledger entry
-- Value entry is created **with** reference to capacity ledger entry
-- Cost type: "Direct Cost"
-- Order type: "Production"
-- Invoiced quantity: 0 (as these are capacity costs)
+- Don't reference item ledger entries.
+- Reference capacity ledger entries.
+- Use **Direct Cost** as the cost type.
+- Use **Production** as the order type.
+- Have an invoiced quantity of 0 because the costs are capacity costs.
 
-## Application
+## Assign item charges to subcontracting receipts
 
-### Prerequisites
+Before you assign item charges to a subcontracting receipt, the following must be in place:
 
-- Subcontracting purchase order must be posted
-- Purchase receipt with subcontracting reference must exist
-- Item charge must be recorded in separate purchase order
+- A posted subcontracting purchase order.
+- A purchase receipt with a subcontracting reference.
 
-### Step-by-Step Guide
+The following steps describe how to assign an item charge to a subcontracting receipt.
 
-1. **Create and post subcontracting purchase order**
-   - Create a normal subcontracting purchase order
-   - Post the order (receipt)
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** or **Purchase Invoices**, and then choose the related link.
+2. Create a new purchase order or invoice.
+3. On the lines, in the **Type** field, choose **Charge (Item)**.
+4. Fill in the remaining fields on the line, such as the item charge, quantity, and unit cost. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+5. Choose the **Item Charge Assignment** action.
+6. On the **Item Charge Assignment** page, choose the **Get Receipt Lines for Subcontracting** action.
 
-2. **Create item charge purchase order or invoice**
-   - Create a new purchase order
-   - Add a line with type "Charge (Item)"
-   - Select the corresponding item charge
-   - Enter quantity and unit cost
+   [!INCLUDE [prod_short](includes/prod_short.md)] filters the receipt lines to show only subcontracting receipts.
 
-3. **Configure charge assignment**
-   - Open the charge assignment for the item charge line
-   - Use the **"Get Receipt Lines for Subcontracting"** action to automatically filter and select subcontracting receipt lines
-   - Alternatively, manually select "Receipt" as document type and choose the subcontracting receipt
-   - Select the corresponding subcontracting receipt line
-   - Enter the quantity and amount to be assigned
+7. Select the subcontracting receipt line, and then enter the quantity and amount to assign.
+8. Close the **Item Charge Assignment** page.
+9. Post the purchase order or invoice.
 
-4. **Post purchase order**
-   - Post the item charge purchase order
-   - The system automatically creates the corresponding value entries
+[!INCLUDE [prod_short](includes/prod_short.md)] creates the value entries and links them to the capacity ledger entries.
 
-## Get Receipt Lines for Subcontracting Action
+## About the Get Receipt Lines for Subcontracting action
 
-The "Get Receipt Lines for Subcontracting" action is a specialized tool that simplifies the process of assigning item charges to subcontracting receipt lines.
+The **Get Receipt Lines for Subcontracting** action simplifies the process of assigning item charges to subcontracting receipts. When you use the action, [!INCLUDE [prod_short](includes/prod_short.md)] filters purchase receipt lines to show only those related to subcontracting. Receipt lines must have values in the following fields to be included:
 
-### How It Works
-
-When you use this action:
-
-1. **Automatic Filtering**: The system automatically filters purchase receipt lines to show only those related to subcontracting operations
-2. **Subcontracting Identification**: Only receipt lines with the following fields populated are displayed:
-   - Production Order No.
-   - Routing No.
-   - Operation No.
-3. **Simplified Selection**: You can directly select the appropriate subcontracting receipt line without manual filtering
-
-> [!TIP]
-> The "Get Receipt Lines for Subcontracting" action is only visible when the "Item Charge to Subcontracting Purch. Receipt Lines" setting is activated in the Subcontracting Setup.
-
-## Impact on Posting
-
-### Value Entry Creation
-
-When posting an item charge assigned to a subcontracting receipt line:
-
-**Standard Fields:**
-
-- Item Ledger Entry No.: 0 (empty)
-- Capacity Ledger Entry No.: [Reference to corresponding capacity ledger entry]
-- Order Type: Production
-- Order No.: [Production order number]
-- Invoiced Quantity: 0
-- Cost Type: Direct Cost
-
-**Cost Distribution:**
-
-- Item charge costs are directly assigned to the production order
-- No impact on item inventories
-- Direct assignment to capacity costs
-
-### Difference to Standard Posting
-
-| Aspect | Standard Item Charge | Subcontracting Item Charge |
-|--------|---------------------|---------------------------|
-| Item Ledger Entry No. | Filled | 0 (empty) |
-| Capacity Ledger Entry No. | 0 (empty) | Filled |
-| Order Type | Purchase | Production |
-| Inventory Impact | Yes | No |
-| Cost Distribution | Item | Capacity/Production Order |
-
-## Benefits
-
-### More Accurate Cost Assignment
-
-- Incidental costs are directly assigned to the production order
-- No distortion of item costs by subcontracting incidental costs
-- Better separation between material and manufacturing costs
-
-### Improved Calculation
-
-- More precise manufacturing cost calculation
-- Correct assignment of transport and processing costs
-- Better traceability of total subcontracting costs
-
-### Reporting and Analysis
-
-- Separate evaluation of subcontracting incidental costs possible
-- Better cost transparency for production orders
-- More accurate profitability analysis
-
-## Application Examples
-
-### Example 1: Transport Costs
-Subcontracting invoice: €1,000 processing + €50 transport. Transport costs are assigned as item charge to the subcontracting receipt line.
-
-### Example 2: Packaging Costs
-Special packaging for sensitive parts: €800 processing + €30 packaging. Packaging costs are assigned as item charge for direct assignment to manufacturing costs.
-
-### Example 3: Testing Costs
-Quality testing at subcontractor: €1,200 processing + €100 testing. Testing costs are recorded as item charge for better cost transparency.
-
-## Important Notes
-
-> [!IMPORTANT]
-> The function must be activated in the setup before first use. Subsequent activation only affects new postings.
+- **Production Order No.**
+- **Routing No.**
+- **Operation No.**
 
 > [!NOTE]
-> Item charges assigned to subcontracting receipt lines cannot be reversed once they are posted.
+> The **Get Receipt Lines for Subcontracting** action is only available when you turn on the **Item Charge to Subcontracting Purch. Receipt Lines** toggle in the **Subcontracting Setup**.
 
-> [!WARNING]
-> Ensure that the item charge is assigned to the correct subcontracting receipt line, as this affects cost assignment.
+## Value entries for subcontracting item charges
 
-## Monitoring and Control
+When you post an item charge assigned to a subcontracting receipt, [!INCLUDE [prod_short](includes/prod_short.md)] creates value entries with the following characteristics:
 
-### Check Value Entries
+|Field|Value|
+|-----|-----|
+|Item Ledger Entry No.|0 (empty)|
+|Capacity Ledger Entry No.|Reference to the capacity ledger entry|
+|Order Type|Production|
+|Order No.|Production order number|
+|Invoiced Quantity|0|
+|Cost Type|Direct Cost|
 
-To control correct posting, you can check the value entries:
+The costs are assigned directly to the production order and don't affect item inventories.
 
-1. Open the value entries of the corresponding production order
-2. Filter by cost type "Direct Cost"
-3. Check if capacity ledger entry no. is filled and item ledger entry no. is empty
+### Differences from standard item charges
 
-### Production Order Costs
+The following table describes the differences between standard item charges and subcontracting item charges.
+
+|Aspect|Standard item charge|Subcontracting item charge|
+|------|-------------------|-------------------------|
+|Item Ledger Entry No.|Filled|0 (empty)|
+|Capacity Ledger Entry No.|0 (empty)|Filled|
+|Order Type|Purchase|Production|
+|Inventory impact|Yes|No|
+|Cost distribution|Item|Capacity/Production order|
+
+## Benefits of assigning item charges to subcontracting
+
+Assigning item charges to subcontracting receipts offers the following benefits:
+
+- **More accurate cost assignment** - Costs are assigned directly to production orders rather than to items.
+- **Better cost separation** - Manufacturing costs are separated from material costs.
+- **Improved calculation** - Manufacturing cost calculations are more precise.
+- **Better reporting** - You can analyze subcontracting costs separately from item costs.
+- **Better traceability** - You can track the total cost of subcontracting more easily.
+
+## Examples
+
+The following examples show how you can use item charges with subcontracting.
+
+### Example 1: Transport costs
+
+A subcontracting invoice includes 1,000 EUR for processing and 50 EUR for transport. You assign the transport costs as an item charge to the subcontracting receipt.
+
+### Example 2: Packaging costs
+
+Special packaging for sensitive parts costs 30 EUR in addition to 800 EUR for processing. You assign the packaging costs as an item charge for direct assignment to manufacturing costs.
+
+### Example 3: Testing costs
+
+Quality testing at the subcontractor costs 100 EUR in addition to 1,200 EUR for processing. You assign the testing costs as an item charge for better cost transparency.
+
+## Things to consider
+
+Keep the following in mind when you work with item charges for subcontracting:
+
+- You must turn on the feature in **Subcontracting Setup** before you use it. After you turn it on, the feature only affects new postings.
+- After you post an item charge to a subcontracting receipt, you can't reverse it.
+- Make sure that you assign the item charge to the correct subcontracting receipt because the assignment affects cost distribution.
+
+## Verify postings
+
+To verify that [!INCLUDE [prod_short](includes/prod_short.md)] posted item charges correctly, check the value entries.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Value Entries**, and then choose the related link.
+2. Filter the entries by the production order number.
+3. Filter by **Cost Type** set to **Direct Cost**.
+4. Verify that the **Capacity Ledger Entry No.** field is filled and the **Item Ledger Entry No.** field is empty.
 
 The item charge costs appear in the production order cost overview under capacity costs.
+
+## Related information
+
+[Manufacturing](production-manage-manufacturing.md)  
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

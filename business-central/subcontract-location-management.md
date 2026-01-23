@@ -5,133 +5,137 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
-ms.search.keywords: 99000886,
+ms.search.keywords: subcontracting, location, transfer routes, components
+ms.search.form: 99000886,
 ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
-# Location Management in Subcontracting
+# Manage locations in subcontracting
 
-Location management is a central component of the Subcontracting Extension. It regulates from which locations components are provided for subcontracting and how they are transferred between different sites.
+You can manage locations for subcontracting to control where components come from and how they're transferred between your warehouse and subcontractor locations. Location management helps you track inventory at different sites and ensures that components are available where they're needed.
 
-## Component Location Configuration
+## Set up default component locations
 
-In the "Subcontracting Setup" under "Purchase Provisions", you can specify from which location components are provided by default:
+You can specify which location [!INCLUDE [prod_short](includes/prod_short.md)] uses by default to provide components for subcontracting.
 
-### Field "Components at Location"
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Setup**, and then choose the related link.
+2. On the **Purchase Provisions** FastTab, in the **Components at Location** field, choose one of the following options:
 
-|Option|Description|Source|
-|:--|:--|:--|
-|**Purchase**|Components are provided from the standard purchase location|Automatically determined|
-|**Company**|Components are provided from the company location|Company Information → Location Code|
-|**Manufacturing**|Components are provided from the manufacturing location|Manufacturing Setup → Components at Location|
+|Option|Description|
+|------|----------|
+|**Purchase**|Components come from the standard purchase location. [!INCLUDE [prod_short](includes/prod_short.md)] determines the location automatically.|
+|**Company**|Components come from the company location specified in the **Location Code** field on the **Company Information** page.|
+|**Manufacturing**|Components come from the manufacturing location specified in the **Components at Location** field on the **Manufacturing Setup** page.|
 
 > [!NOTE]
-> When selecting "Company" or "Manufacturing", the corresponding location code must be maintained in the respective setups.
+> If you choose **Company** or **Manufacturing**, make sure the location code is specified in the respective setup pages.
 
-## Subcontracting Location at Vendor
+## Set up subcontracting locations for vendors
 
-Each subcontractor (vendor) must have a specific location for subcontracting:
+Each subcontractor must have a location for subcontracting operations. We recommend that you create a separate location for each subcontractor to keep inventories separate.
 
-### Configure Vendor Card
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Open the vendor card for the subcontractor.
+3. On the **Shipping** FastTab, in the **Subcontracting Location Code** field, specify the location.
 
-1. Open the vendor card of the subcontractor
-2. Navigate to the "Shipping" tab
-3. Fill in the "Subcontracting Location Code" field
+The **Linked to Work Center Group No.** field shows whether the vendor is connected to a work center group. [!INCLUDE [prod_short](includes/prod_short.md)] creates this link automatically through the **Subcontractor No.** field in the work center group.
 
-**Recommendation:** Create a separate location for each subcontractor to ensure clear separation of inventories.
+## How locations are assigned to production order components
 
-### Link with Work Center Group
+When you create production orders, [!INCLUDE [prod_short](includes/prod_short.md)] automatically assigns locations to components based on your setup and the subcontracting type.
 
-The field "Linked to Work Center Group No." shows whether a vendor is connected to a work center group. This link is automatically created via the "Subcontractor No." field in the work center group.
+### Initial assignment
 
-## Location Assignment for Production Order Components
+Components initially use the default location from your configuration. When you change the subcontracting type, [!INCLUDE [prod_short](includes/prod_short.md)] adjusts the location accordingly.
 
-### Automatic Assignment
+### The Purchase subcontracting type
 
-When creating production orders, the locations of components are automatically assigned:
+When you set a component's subcontracting type to **Purchase**:
 
-**Standard Behavior:**
+- [!INCLUDE [prod_short](includes/prod_short.md)] changes the location to the **Subcontracting Location Code** specified on the vendor card.
+- The location updates automatically when you change the subcontracting type.
 
-- Components initially receive the configured standard location
-- When changing the subcontracting type, the location is adjusted accordingly
+### The Transfer subcontracting type
 
-### Subcontracting Type "Purchase"
+When you set a component's subcontracting type to **Transfer**:
 
-When a component receives the subcontracting type "Purchase":
+- The location remains at the originally configured location.
+- [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order later to move the component to the subcontractor.
 
-- **Location is changed** to the "Subcontracting Location Code" of the assigned vendor
-- **Automatic update** when changing the subcontracting type
+## Set up transfer routes
 
-### Subcontracting Type "Transfer"
+For components with the **Transfer** subcontracting type, you must set up transfer routes between your locations and the subcontractor locations.
 
-When a component receives the subcontracting type "Transfer":
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.
+2. Create a new route with the following information:
+   - **Transfer-from Code**: The location where the component is stored.
+   - **Transfer-to Code**: The subcontracting location code from the vendor card.
+   - **In-Transit Code**: A transit location (optional, depending on whether you use direct transfer).
 
-- **Location remains** at the originally configured location
-- **Transfer order** is created later to transport the component to the subcontractor
+### Use direct transfer
 
-## Transfer Routes
+You can specify whether to use direct transfers in the subcontracting setup.
 
-For components with subcontracting type "Transfer", transfer routes must be set up:
+1. On the **Subcontracting Setup** page, turn on the **Direct Transfer for Subcontracting** toggle to skip transit locations.
 
-### Create Route
+When the toggle is turned off, [!INCLUDE [prod_short](includes/prod_short.md)] uses the transit location specified in the transfer route.
 
-1. Open "Transfer Routes"
-2. Create a route between:
-   - **Transfer-from Code:** Component location
-   - **Transfer-to Code:** Subcontracting location code of the vendor
-   - **In-Transit Code:** Transit location (optional, depending on "Direct Transfer")
+## Validations and restrictions
 
-### Direct Transfer
+[!INCLUDE [prod_short](includes/prod_short.md)] applies validations and restrictions to help ensure data consistency.
 
-In the setup, you can activate "Direct Transfer for Subcontracting":
+### Location changes after transfer orders
 
-- **Activated:** No use of transit locations
-- **Deactivated:** Use of the transit location defined in the route
+After [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order for a production order component:
 
-## Location Validations and Restrictions
+- You can't change the component location.
+- You receive the error message: "The component has already been assigned to the subcontracting transfer order."
 
-### Change Protection for Transfer Orders
+### Bin code management
 
-Once a transfer order has been created for a production order component:
+[!INCLUDE [prod_short](includes/prod_short.md)] manages bin codes automatically:
 
-- **Location change blocked:** The component location can no longer be changed
-- **Error message:** "The component has already been assigned to the subcontracting transfer order"
+- When it creates transfer orders, it saves the original bin code.
+- When you delete the transfer order, it restores the location and bin code to the original values.
 
-### Bin Code Management
+### Item tracking restrictions
 
-The system manages bin codes automatically:
+When transfer orders exist for a component:
 
-- **Original Bin Code:** Is saved when creating transfer orders
-- **Restoration:** When deleting the transfer order, location and bin code are reset to the original values
+- You can't open item tracking lines.
+- You receive the error message: "You cannot open Tracking Specification because this component is already specified in Transfer Order [Number]."
 
-### Item Tracking Restrictions
+## Location assignment scenarios
 
-With existing transfer orders:
+The following scenarios show how [!INCLUDE [prod_short](includes/prod_short.md)] assigns locations in different situations.
 
-- **Item tracking blocked:** Item tracking lines cannot be opened
-- **Error message:** "You cannot open Tracking Specification because this component is already specified in Transfer Order [Number]"
+### Purchase provision without existing data
 
-## Location Transfer in Different Scenarios
+- **Component location**: From the **Components at Location** field in the setup.
+- **Subcontracting location**: From the **Subcontracting Location Code** field on the vendor card.
 
-### Scenario 1: Purchase Provision without Existing Data
+### Purchase provision with existing bill of materials
 
-- **Component Location:** From setup configuration ("Components at Location")
-- **Subcontracting Location:** From vendor ("Subcontracting Location Code")
+- **Component location**: From the **Components at Location** field on the **Manufacturing Setup** page.
+- **Adjustment**: Based on the subcontracting type of the components.
 
-### Scenario 2: Purchase Provision with Existing BOM
+### Planning components
 
-- **Component Location:** From manufacturing setup ("Components at Location")
-- **Adjustment:** Depending on subcontracting type of components
+During demand planning, [!INCLUDE [prod_short](includes/prod_short.md)] transfers locations automatically:
 
-### Scenario 3: Planning Components
-
-During demand planning, locations are automatically transferred:
-
-- **Subcontracting Type "Purchase":** Location is set to subcontracting location of vendor
-- **Subcontracting Type "Transfer":** Location remains at standard location
+- **Purchase subcontracting type**: The location is set to the subcontracting location of the vendor.
+- **Transfer subcontracting type**: The location remains at the standard location.
 
 > [!IMPORTANT]
-> Correct location configuration is essential for the proper functioning of subcontracting processes. Incorrect configurations can lead to posting errors and inconsistent inventories.
+> Correct location configuration is important for subcontracting processes to work properly. Incorrect configurations can lead to posting errors and inconsistent inventories.
+
+## Related information
+
+[Manufacturing](production-manage-manufacturing.md)  
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Inventory](inventory-manage-inventory.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

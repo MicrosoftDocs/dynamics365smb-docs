@@ -1,76 +1,91 @@
 ---
-title: Purchase provisions for subcontracting
+title: Set up purchase provisions for subcontracting
 description: Learn how to create and post purchase provisions with linked production orders and transfer orders for subcontracting operations.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
-ms.search.keywords: 99000886,
+ms.search.keywords: subcontracting, purchase provisions, production order, BOM
+ms.search.form: 99000886
 ms.date: 01/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
-# Purchase Provisions
+# Set up purchase provisions for subcontracting
 
-While subcontracting outsources individual production steps/manufacturing work externally, e.g., milling work, cutting, or surface treatments, purchase provisions involve processing individual components by an external service provider into a finished product. With the purchase order, a service from the vendor is invoiced. The purchase order is simultaneously linked to the corresponding production order.
+Subcontracting outsources individual production steps or manufacturing work to external vendors. For example, you might outsource milling work, cutting, or surface treatments. Purchase provisions involve processing individual components by an external service provider into a finished product. With the purchase order, you invoice a service from the vendor. The purchase order links to the corresponding production order.
 
-After completion of the product, it returns to your own warehouse. You can individually set up when transfers or receipts and issues are posted.
+After completion, the product returns to your warehouse. You can set up when transfers, receipts, and issues are posted. You can create, edit, and view the production orders and transfer orders required for posting the provision from the purchase order. You can specify the required components for a specific order or use components from existing production BOMs.
 
-You can create, edit, and view the production orders required for posting the provision as well as any transfer orders from the purchase order. The required components can be specified order-specifically or taken from existing production BOMs.
+## Create a purchase order with a production order
 
+The following steps describe how to create a purchase provision with a linked production order. Depending on your setup and whether you have existing BOMs, you create the order and assign the necessary BOM components using a production order. When you use the **Transfer** subcontracting type, you create the transfer order. You can post inventory changes in the purchase order card or use warehouse functions.
 
-## Create Order (incl. Production Order)
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+2. Create a new purchase order and fill in the relevant fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Detailed instructions for creating and posting purchase provisions, including linking with production orders and transfer orders.
+   > [!NOTE]
+   > The **Location Code** for subcontracting is maintained on the vendor card.
 
-Depending on the basic setup and (non-)existing BOMs, you create the order and assign the necessary BOM components using a production order. When using the subcontracting type "Transfer", you create the transfer order. You can initiate the postings of inventory changes in the purchase order card or using warehouse functions. How you can proceed in which type of posting situation can be read in the respective chapters of Microsoft's documentation.
+3. On the lines, select the item to be procured.
+4. In the **Quantity** field, specify how many finished produced items should return.
+5. In the **Direct Unit Cost** field, specify the price of the service. A price might already be preset. Learn more in [Set up subcontractor prices](subcontract-prices.md).
+6. Choose the **Create Production Order** action.
 
-1. Create a new purchase order and enter all relevant data.
-    > [!NOTE]
-    > Note that the "Location Code" for subcontracting is maintained on the vendor card.
+   Depending on the flushing method you selected in the **Subcontracting Setup**, consumption is posted with shipment posting of the subcontracting service using the production order, and the receipt of the item produced by the supplier in the warehouse. [!INCLUDE [prod_short](includes/prod_short.md)] creates the details in the background through the creation of the production order.
 
-1. In the lines, select the item to be procured.
+7. The provision starts automatically and guides you through the configuration of BOMs and routings. Depending on your configuration in the **Subcontracting Setup**, [!INCLUDE [prod_short](includes/prod_short.md)] displays various steps or automatically processes them. Learn more in [Set up purchase provisions and provision wizard](subcontract-setup-configurator.md).
 
-1. In the "Quantity" column, specify how many finished produced items should return.
+8. To transfer the provision components with the **Transfer** subcontracting type, choose the **Create Transfer Order for Subcontracting** action.
 
-1. Under "Direct Unit Cost", specify the price of the service. A price may already be preset, read more about this under "Subcontractor Prices".
+   [!INCLUDE [prod_short](includes/prod_short.md)] transfers the required BOM component lines to a transfer order. The **Transfer-from Code** and **Transfer-to Code** fields are filled based on your setup. If an open transfer order exists for the vendor's location code, [!INCLUDE [prod_short](includes/prod_short.md)] adds the required lines to it.
 
-1. For the purchase line, select "Functions", "Create Production Order". Depending on the previously selected flushing method ("Basic Setup Purchase Provision"), consumption is posted with shipment posting of the subcontracting service using the production order, as well as the receipt of the item produced by the supplier in the warehouse. The details are created in the background via the creation of the production order.
+To view information about the production orders and transfer orders linked to the purchase order, choose the **Production** action on the **Lines** FastTab. Learn more about transfers in [Transfer inventory between locations](inventory-how-transfer-between-locations.md).
 
-1. The provision wizard starts automatically and guides you through the configuration of BOMs and routings. Depending on the configuration in the "Subcontracting Setup", various steps are displayed or automatically processed. More information about the wizard can be found under [Set Up Purchase Provisions and Provision Wizard](subcontract-setup-configurator.md).
+## Post purchase provisions
 
-1. Back in the purchase order, you can transfer the provision components with subcontracting type "Transfer" into a transfer. On the purchase order page, select "Actions", "Functions", "Create Transfer Order for Subcontracting". With this function, the required BOM component lines are transferred to a transfer order. The location codes "Transfer-from Code" and "Transfer-to Code" are filled based on the basic setup specifications. If an open transfer order exists for the vendor's location code, it is supplemented with the required lines.
+The following sections describe how to post purchase provisions.
 
-Information about the production orders and transfer orders linked to the purchase order can be obtained in the "Lines" tab via the "Production" menu.
+### Transfer BOM components
 
-Read more about [Transfer](inventory-how-transfer-between-locations.md) in Microsoft's documentation.
+The components transferred to a transfer order are posted with the warehouse functionalities of the specified location codes, depending on your setup.
 
-## Post Orders with Provision
+### Consume provided BOM components
 
-1. **Transfer of BOM Components**
-The components transferred to a transfer order are posted with the warehouse functionalities (depending on the setup) of the addressed location codes.
+The consumption method depends on the flushing method:
 
-1. **Consumption of Provided BOM Components**
-   + **Forward:** The BOM components assigned with the flushing method "Forward" or "Backward" are automatically posted with the entry type "Consumption" via the created production order from the vendor's location when posting the "Qty. to Receive".
+- **Forward or Backward** - BOM components assigned with the **Forward** or **Backward** flushing method are automatically posted with the entry type **Consumption** through the created production order from the vendor's location when you post the **Qty. to Receive**.
 
-    > [!NOTE]
-    > Items with assignment of subcontracting type "Purchase with Service" must first be posted in the purchase order with "Qty. to Receive".
+  > [!NOTE]
+  > Items with the **Purchase with Service** subcontracting type must first be posted in the purchase order with **Qty. to Receive**.
 
-    + **Manual:** The BOM components assigned with the flushing method "Manual" must be posted separately after receipt of the produced item. To do this, switch to the production order linked to the purchase line. In the production order, select "Line" and "Production Journal", "Post".
+- **Manual** - BOM components assigned with the **Manual** flushing method must be posted separately after receipt of the produced item. To post manually:
 
-1. **Receiving the Produced Item**
-You post the receipt of the produced item in the purchase order. Specify the "Qty. to Receive" and post Receive. The item ledger entry is created with the entry type "Output" with reference to the linked production order. If you work with different bins in your location, you can put away the inventory to the target bin code with bin transfers.
+  1. Open the production order linked to the purchase line.
+  2. Choose the **Production Journal** action.
+  3. Post the journal.
 
-1. **Post Invoice**
-The posting of invoicing is done with purchasing functionalities, analogous to other purchase invoices, for received goods. The posted line amount is transferred to the production order for valuation of the produced items and supplemented by the value of the consumed items. Finally, change the status of the production order to "Finished".
+### Receive the produced item
 
-Read more about [Working with Production Orders](production-about-production-orders.md) in Microsoft's documentation.
+You post the receipt of the produced item in the purchase order.
 
-## See also
+1. On the purchase order, in the **Qty. to Receive** field, specify the quantity.
+2. Choose the **Post** action, and then choose **Receive**.
 
-- [Set Up Purchase Provisions and Provision Wizard](subcontract-setup-configurator.md)
-- [Transfer Between Locations](inventory-how-transfer-between-locations.md)
-- [Working with Production Orders](production-about-production-orders.md)
-- [Setting Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)
+[!INCLUDE [prod_short](includes/prod_short.md)] creates an item ledger entry with the entry type **Output** with a reference to the linked production order. If you work with different bins in your location, you can put away the inventory to the target bin code with bin transfers.
+
+### Post the invoice
+
+Post the invoice as you would for other purchase invoices for received goods. The posted line amount is transferred to the production order for valuation of the produced items and supplemented by the value of the consumed items. After you post the invoice, change the status of the production order to **Finished**. Learn more in [Work with production orders](production-about-production-orders.md).
+
+## Related information
+
+[Set up purchase provisions and provision wizard](subcontract-setup-configurator.md)  
+[Transfer inventory between locations](inventory-how-transfer-between-locations.md)  
+[Work with production orders](production-about-production-orders.md)  
+[Manufacturing](production-manage-manufacturing.md)  
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

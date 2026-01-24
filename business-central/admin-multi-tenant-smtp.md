@@ -33,7 +33,6 @@ The examples in this article involve two Microsoft Entra tenants, as described i
 > * Business Central configuration is set in Tenant B.
 > * Mailbox permissions and Exchange Online configuration are set in Tenant A.
 
-
 > [!IMPORTANT]
 > Exchange Online is deprecating Basic authentication for SMTP. This change doesn't affect tenants that currently use SMTP AUTH. However, we recommend that you use the latest version, and set up OAuth 2.0 authentication for SMTP. If you can't set up OAuth 2.0 authentication, we encourage you to explore non-Microsoft alternatives if you want to use SMTP email in earlier versions.
 >

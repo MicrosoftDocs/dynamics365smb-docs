@@ -20,8 +20,24 @@ When you post all sales documents, the posted documents keep the **CO2e per Unit
 
 The result of posting shows as a new sustainability value entry for each line that has **Sale** as its **Item Ledger Entry Type**.
 
-> [!NOTE]
-> The **CO2e per Unit** and **Total CO2e** values aren't used in default report layouts. However, if you want to show these details when you print reports, you can create a new document report to show this data.  
+## Sales Document Layouts  
+
+You can find **Sales Quote** and **Sales Invoice** layouts with embedded sustainability information, enabling you to include carbon‑footprint information directly on these documents. These Word-layouts extend existing invoice and quote templates by adding CO₂e information per unit and a total emissions line.  
+
+This is the list of existing sales document and layouts related to carbon footprint:  
+
+* **Sales Invoice**   
+
+  * Standard ESG Sales Invoice (Word) 
+  * Standard ESG Sales Invoice – Blue (Word) 
+
+* **Sales Quote**  
+
+  * Standard ESG Sales Quote (Word)   
+  * Standard ESG Sales Quote – Blue (Word) 
+
+Each layout is based on the corresponding standard template and include additional sustainability fields. These additions allow you to provide transparent emissions information on both quotes (pre‑sales) and invoices (post‑sales) to ensure consistency between commercial documents and sustainability reporting. The layouts work with existing CO₂e values calculated using value chain operations from the **Sustainability** module and require no additional customization.  
+
 
 ## Related information  
 

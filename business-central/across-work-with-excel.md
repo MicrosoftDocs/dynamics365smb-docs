@@ -70,8 +70,51 @@ When **Edit in Excel** is used on list pages for tables with many columns, the r
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
+## Use Agentic Excel to enhance Business Central data tasks
+
+When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel, using Open in Excel or Edit in Excel, you can now take advantage of Agent Mode in Excel to streamline data preparation and analysis. Agent Mode allows you to describe tasks in natural language, and Excel will perform the required cleanup, transformation, or analysis steps automatically.
+
+### Scenario: Clean and prepare Business Central data
+Agent Mode can help you quickly prepare exported lists before publishing changes back to Business Central. You can use natural language instructions to:
+* Remove duplicates, standardize text formatting, or highlight anomalies and missing values.
+* Fill in missing fields, apply consistent naming conventions, or detect unexpected outliers in item, vendor, or pricing data.
+* Restructure worksheets, create new derived columns, or reshape data for import into configuration packages or templates.
+
+These capabilities reduce manual effort and help ensure high quality master data before you re- publish changes.
+
+### Scenario: Analyze Business Data More Efficiently
+
+After exporting data from [!INCLUDE[prod_short](includes/prod_short.md)], Agent Mode can help you accelerate analysis by creating:
+* Summaries and trends written in natural language
+* Charts, PivotTables, and dashboards
+* Conditional formatting rules to highlight key patterns such as aging balances or low inventory levels
+
+This allows you to generate insights more quickly without building formulas or complex workbook structures manually.
+
+### Scenario: Support for iterative and multi-step workflows
+
+Agent Mode can perform multi-step tasks that would otherwise require several manual operations. For example, you can:
+1.	Export a list of items from [!INCLUDE[prod_short](includes/prod_short.md)].
+2.	Ask Excel to clean inconsistent descriptions.
+3.	Request grouping by item category and generate a chart of sales trends.
+4.	Reformat the output to prepare it for re-import into a configuration package.
+
+This conversational, iterative experience helps you refine results step-by-step without knowing specific Excel functions.
+
+### Considerations When Working With Business Central Data
+
+Agent Mode performs actions in Excel only. Changes aren’t written back to [!INCLUDE[prod_short](includes/prod_short.md)] until you publish them. Continue following your organization’s data governance practices, especially when working with sensitive data.
+
+### Availability of Agent Mode
+Availability of Agent Mode varies depending on region and licensing.
+
+To learn more, go to [Frequently asked questions about Agent Mode in Excel](https://support.microsoft.com/en-us/office/frequently-asked-questions-about-agent-mode-in-excel-1cfd906d-40b4-46be-8e2d-65b893e28a02)
+
+
+
 ## Related information
 
+[Frequently asked questions about Agent Mode in Excel](https://support.microsoft.com/en-us/office/frequently-asked-questions-about-agent-mode-in-excel-1cfd906d-40b4-46be-8e2d-65b893e28a02)
 [Analyze list data using data analysis mode](analysis-mode.md)  
 [Work with Business Central](ui-work-product.md)  
 

@@ -4,9 +4,9 @@ description: Learn how to open pages in Microsoft Excel from Business Central fo
 author: jswymer
 ms.topic: concept-article
 ms.devlang: al
-ms.search.form: 1480
+ms.search.form: 1480,
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/22/2025
+ms.date: 01/26/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -17,7 +17,7 @@ ms.reviewer: v-soumramani
 With pages that display a list of records in rows and columns, such as a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel and view it there. Depending on the page, you have two options for viewing in Excel. Both are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
 
 > [!TIP]
->  When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel, using Open in Excel or Edit in Excel, you can now take advantage of Agent Mode in Excel to streamline data preparation and analysis. Agent Mode allows you to describe tasks in natural language, and Excel will perform the required cleanup, transformation, or analysis steps automatically.
+>  When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using the **Open in Excel** or **Edit in Excel** actions, you can now take advantage of **Agent Mode** in Excel to streamline data preparation and analysis. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the required cleanup, transformation, or analysis steps automatically.
 
 ## Open in Excel
 
@@ -73,51 +73,54 @@ When **Edit in Excel** is used on list pages for tables with many columns, the r
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
-## Use Agentic Excel to enhance Business Central data tasks
+## Use Agentic Excel to enhance data tasks
 
-When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel, using Open in Excel or Edit in Excel, you can now take advantage of Agent Mode in Excel to streamline data preparation and analysis. Agent Mode allows you to describe tasks in natural language, and Excel will perform the required cleanup, transformation, or analysis steps automatically.
+When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using the **Open in Excel** or **Edit in Excel** actions, you can take advantage of **Agent Mode** in Excel to streamline data preparation and analysis. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the cleanup, transformation, or analysis steps automatically.
 
 ### Scenario: Clean and prepare Business Central data
-Agent Mode can help you quickly prepare exported lists before publishing changes back to Business Central. You can use natural language instructions to:
+
+Agent Mode can help you quickly prepare exported lists before you publish changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. You can use natural language instructions to:
+
 * Remove duplicates, standardize text formatting, or highlight anomalies and missing values.
 * Fill in missing fields, apply consistent naming conventions, or detect unexpected outliers in item, vendor, or pricing data.
 * Restructure worksheets, create new derived columns, or reshape data for import into configuration packages or templates.
 
-These capabilities reduce manual effort and help ensure high quality master data before you re- publish changes.
+These capabilities reduce manual effort and help ensure high quality master data before you republish changes.
 
-### Scenario: Analyze Business Data More Efficiently
+### Scenario: Analyze business data efficiently
 
-After exporting data from [!INCLUDE[prod_short](includes/prod_short.md)], Agent Mode can help you accelerate analysis by creating:
-* Summaries and trends written in natural language
-* Charts, PivotTables, and dashboards
-* Conditional formatting rules to highlight key patterns such as aging balances or low inventory levels
+After you export data from [!INCLUDE[prod_short](includes/prod_short.md)], Agent Mode can help you accelerate analysis by creating:
 
-This allows you to generate insights more quickly without building formulas or complex workbook structures manually.
+* Summaries and trends written in natural language.
+* Charts, PivotTables, and dashboards.
+* Conditional formatting rules to highlight key patterns, such as aging balances or low inventory levels.
+
+You can generate insights without building formulas or complex workbook structures.
 
 ### Scenario: Support for iterative and multi-step workflows
 
-Agent Mode can perform multi-step tasks that would otherwise require several manual operations. For example, you can:
-1.	Export a list of items from [!INCLUDE[prod_short](includes/prod_short.md)].
-2.	Ask Excel to clean inconsistent descriptions.
-3.	Request grouping by item category and generate a chart of sales trends.
-4.	Reformat the output to prepare it for re-import into a configuration package.
+Agent Mode can do multi-step tasks that would otherwise require several manual operations. For example, you can:
+
+1. Export a list of items from [!INCLUDE[prod_short](includes/prod_short.md)].
+2. Ask Excel to clean inconsistent descriptions.
+3. Request grouping by item category and generate a chart of sales trends.
+4. Reformat the output to prepare it for re-import into a configuration package.
 
 This conversational, iterative experience helps you refine results step-by-step without knowing specific Excel functions.
 
-### Considerations When Working With Business Central Data
+### Considerations when working with data
 
-Agent Mode performs actions in Excel only. Changes aren’t written back to [!INCLUDE[prod_short](includes/prod_short.md)] until you publish them. Continue following your organization’s data governance practices, especially when working with sensitive data.
+Agent Mode performs actions in Excel only. Changes aren’t written back to [!INCLUDE[prod_short](includes/prod_short.md)] until you publish them. Follow your organization’s data governance practices, especially when working with sensitive data.
 
 ### Availability of Agent Mode
-Availability of Agent Mode varies depending on region and licensing.
+
+Availability of Agent Mode depends on the country/region and licensing.
 
 To learn more, go to [Frequently asked questions about Agent Mode in Excel](https://support.microsoft.com/en-us/office/frequently-asked-questions-about-agent-mode-in-excel-1cfd906d-40b4-46be-8e2d-65b893e28a02)
 
-
-
 ## Related information
 
-[Frequently asked questions about Agent Mode in Excel](https://support.microsoft.com/en-us/office/frequently-asked-questions-about-agent-mode-in-excel-1cfd906d-40b4-46be-8e2d-65b893e28a02)
+[Frequently asked questions about Agent Mode in Excel](https://support.microsoft.com/office/frequently-asked-questions-about-agent-mode-in-excel-1cfd906d-40b4-46be-8e2d-65b893e28a02)  
 [Analyze list data using data analysis mode](analysis-mode.md)  
 [Work with Business Central](ui-work-product.md)  
 

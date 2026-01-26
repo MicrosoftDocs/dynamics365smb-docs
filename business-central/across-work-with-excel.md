@@ -16,6 +16,9 @@ ms.reviewer: v-soumramani
 
 With pages that display a list of records in rows and columns, such as a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel and view it there. Depending on the page, you have two options for viewing in Excel. Both are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
 
+> [!TIP]
+>  When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel, using Open in Excel or Edit in Excel, you can now take advantage of Agent Mode in Excel to streamline data preparation and analysis. Agent Mode allows you to describe tasks in natural language, and Excel will perform the required cleanup, transformation, or analysis steps automatically.
+
 ## Open in Excel
 
 With the **Open in Excel** action, you can make changes to the records in Excel, but you can't publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. You can only save the changes to the Excel file, without affecting data in [!INCLUDE[prod_short](includes/prod_short.md)].

@@ -96,11 +96,13 @@ Now, when the time has come to submit a VAT report for a VAT return period, choo
     > [!NOTE]  
     >  For the EC Sales List report, you can review the transactions included in the report lines before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
 
-4. To validate and prepare the report for submission, choose the **Release** action.  
+4. To export XML file for export goods or services in German or in other EU-countries run the **Ecport** action. You will get created and the XML file using the following naming convention **VIES_<Period>_<CompanyVAT>.xml**. 
+6. To validate and prepare the report for submission, choose the **Release** action.  
 
     > [!NOTE]  
     > [!INCLUDE[prod_short](includes/prod_short.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[prod_short](includes/prod_short.md)], you can click the message to open the page that contains the information to correct.  
-5. To submit the report, choose the **Submit** action.  
+
+7. To submit the report, choose the **Submit** action.  
 
 After you submit the report, [!INCLUDE[prod_short](includes/prod_short.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
 

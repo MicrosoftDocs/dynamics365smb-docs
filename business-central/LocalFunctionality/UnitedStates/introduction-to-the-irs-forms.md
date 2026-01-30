@@ -5,19 +5,18 @@ author: altotovi
 ms.topic: concept-article
 ms.search.keywords: local, 1099, IRS, tax
 ms.search.form: 10030, 10031, 10036, 10037
-ms.date: 02/04/2025
+ms.date: 01/30/2026
 ms.author: altotovi
-ms.reviewer: v-soumramani
+ms.reviewer: solsen
 ms.service: dynamics-365-business-central
 ---
 
 # Introduction to the IRS 1099 tax forms
 
 > [!IMPORTANT]
-> We are currently working with the IRS to resolve an issue related to the TCC registration required for the IRIS integration. Until this process is completed, some customers may experience difficulties when submitting 1099 forms through the IRIS A2A integration.
+> We're currently working with the IRS to resolve an issue related to the TCC registration required for the IRIS integration. Until this process is completed, some customers may experience difficulties when submitting 1099 forms through the IRIS A2A integration.
 >
 > As a temporary workaround, customers can [download the FIRE file generated in Business Central](how-to-1099-report.md) and submit it manually via the IRS FIRE portal. A FIRE account is required for manual submission, so we recommend registering as soon as possible if this option may be needed.
-
 
 In this article, you learn how to set up 1099 reporting, generate 1099 Tax Forms, submit them to the IRS, and send copies to vendors using Business Central.
 

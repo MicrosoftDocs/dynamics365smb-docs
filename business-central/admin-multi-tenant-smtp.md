@@ -6,13 +6,16 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 12/08/2025
+ms.date: 01/30/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
 # Use SMTP for email in a multitenant environment
+
+> [!NOTE]
+> This feature is available in 2025 release wave 2 (version 27.2) and later.
 
 This article explains how to configure your Microsoft 365 tenant so that [!INCLUDE [prod_short](includes/prod_short.md)] can send emails through the SMTP Connector using OAuth 2.0 (client credentials flow).
 

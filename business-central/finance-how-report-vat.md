@@ -97,7 +97,7 @@ Now, when the time has come to submit a VAT report for a VAT return period, choo
     > [!NOTE]  
     >  For the EC Sales List report, you can review the transactions included in the report lines before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
 
-4. To export an XML file for goods or services exported to Germany or other EU countries, run the **Export** action. The system creates an XML file using the following naming convention: **VIES_<Period>_<CompanyVAT>.xml**.
+4. To export an XML file for goods or services exported to Germany or other EU countries, run the **Export** action. The system creates an XML file using the following naming convention: **VIES_\<Period>_\<CompanyVAT>.xml**.
 5. To validate and prepare the report for submission, choose the **Release** action.  
 
     > [!NOTE]  

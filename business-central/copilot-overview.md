@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 10/13/2025
+ms.date: 01/29/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -19,11 +19,11 @@ This article answers common questions about Microsoft Copilot in Dynamics 365 Bu
 
 ## What is Copilot in Business Central?
 
-Copilot is an AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. Copilot in Business Central is the world's first AI-powered assistant across all lines of business. With Copilot in Business Central, small and medium-sized organizations empower their workers through intuitive AI tools that boost creativity and save time.
+[!INCLUDE[bc-app-agents](../bc-shared/bc-app-agents.md)]
 
 ## Where can I find the list of Copilot features in Business Central?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Learn more in [Work smarter with Microsoft Copilot in Dynamics 365 Business Central](https://aka.ms/BCAI).
+Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Find an overview at [Work smarter with Microsoft Copilot in Dynamics 365 Business Central](https://aka.ms/BCAI). And find details here in the documentation by choosing links in the navigation panel to the left.
 
 ## How does Copilot approach security, privacy, and compliance?
 
@@ -55,7 +55,7 @@ Yes, Copilot is exclusive to Business Central online. Therefore, it isn't availa
 
 Some but not all Copilot features can work with your custom pages, tables, and other content from the apps that you installed. For example, you can use [analysis assist](analysis-assist.md) on your custom lists, or you can use [chat with Copilot](chat-with-copilot.md) to find records in custom tables. Learn more about how each Copilot feature works with your customizations in [Analyze data in lists with help from Copilot](analysis-assist.md) and [Chat with Copilot](chat-with-copilot.md).
 
-The accuracy and user experience of Business Central’s AI-powered features might vary based on the apps that you installed.
+The accuracy and user experience of Business Central's AI-powered features might vary based on the apps that you installed.
 
 ## Does Copilot have to be trained on my data?
 

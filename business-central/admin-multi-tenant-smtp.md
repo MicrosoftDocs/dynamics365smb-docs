@@ -15,7 +15,7 @@ ms.custom: bap-template
 # Use SMTP for email in a multitenant environment
 
 > [!NOTE]
-> Cross-tenant SMTP OAuth is supported only in version 27.2 and later. Earlier versions must be upgraded first.
+> This feature is available in 2025 release wave 2 (version 27.2).
 
 This article explains how to configure your Microsoft 365 tenant so that [!INCLUDE [prod_short](includes/prod_short.md)] can send emails through the SMTP Connector using OAuth 2.0 (client credentials flow).
 

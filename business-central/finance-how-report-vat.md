@@ -6,10 +6,10 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 315_Primary, 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
-ms.date: 08/05/2024
+ms.date: 01/28/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
 
 # Report VAT to tax authorities
@@ -60,10 +60,11 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 For the VAT return, you can specify the entries to include:
 
 * Submit open transactions only, or open and closed. For example, this is useful when you prepare your final annual VAT return.
-* Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a VAT return that you have already submitted, for example, if a vendor sends you a late invoice.    
+* Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a VAT return that you have already submitted, for example, if a vendor sends you a late invoice.
 
 ## To connect to your tax authority's web service
-[!INCLUDE[prod_short](includes/prod_short.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this isn't required.   
+
+[!INCLUDE[prod_short](includes/prod_short.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this isn't required.
 
 To report VAT to a tax authority electronically, you need to connect [!INCLUDE[prod_short](includes/prod_short.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -96,13 +97,13 @@ Now, when the time has come to submit a VAT report for a VAT return period, choo
     > [!NOTE]  
     >  For the EC Sales List report, you can review the transactions included in the report lines before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
 
-4. To export XML file for export goods or services in German or in other EU-countries run the **Ecport** action. You will get created and the XML file using the following naming convention **VIES_<Period>_<CompanyVAT>.xml**. 
-6. To validate and prepare the report for submission, choose the **Release** action.  
+4. To export an XML file for goods or services exported to Germany or other EU countries, run the **Ecport** action. The system will create an XML file using the following naming convention: **VIES_<Period>_<CompanyVAT>.xml**.
+5. To validate and prepare the report for submission, choose the **Release** action.  
 
     > [!NOTE]  
     > [!INCLUDE[prod_short](includes/prod_short.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[prod_short](includes/prod_short.md)], you can click the message to open the page that contains the information to correct.  
 
-7. To submit the report, choose the **Submit** action.  
+6. To submit the report, choose the **Submit** action.  
 
 After you submit the report, [!INCLUDE[prod_short](includes/prod_short.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
 
@@ -123,9 +124,11 @@ VAT returns can have different statuses, as described in the following table.
 In some countries/regions, you exchange messages with the tax authority when you submit reports. You can view the first and the last message you sent or received by choosing the **Download Submission Message** and **Download Response Message** actions.  
 
 ## Submitting VAT reports manually
+
 If you use another method to submit the report, for example by exporting the XML and uploading it to a tax authority website, afterward you can choose **Mark as Submitted** to close the reporting period. When you mark the report as released, it becomes non-editable. If you must change the report after you mark it as released, you must reopen it.
 
 ## VAT settlement
+
 Periodically, you must remit the net VAT to the tax authorities. If you need to settle VAT frequently, you can run the **Calc. and Post VAT Settlement** batch job to close the open VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.
 
 When you transfer VAT amounts to the settlement account, the purchase VAT account is credited, and the sales VAT account is debited with the amounts calculated for the specified period. The net amount is credited or debited, if the purchase VAT amount is larger, to the VAT settlement account. You can post the settlement immediately or print a test report first.  

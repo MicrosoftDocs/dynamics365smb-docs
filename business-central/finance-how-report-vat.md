@@ -25,15 +25,15 @@ You can use the following built-in reports:
 
     The VAT Return report includes VAT for sales and purchases to customers and from vendors in all countries/regions that use VAT.  
 
-In both cases (as in other VAT-related reports), VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up. [!INCLUDE[prod_short](includes/prod_short.md)] shows VAT entries always based on their **VAT Date** as a primary reporting date.  
+In both cases (as in other VAT-related reports), VAT is calculated based on the VAT posting setup and the VAT posting groups that you set up. [!INCLUDE[prod_short](includes/prod_short.md)] shows VAT entries always based on their **VAT Date** as a primary reporting date.  
 
 > [!NOTE]
-> All VAT related reports now run using the **VAT Date** to filter relevant records. Even if you set up **VAT Date Usage** as **Do not use VAT Date functionallity** [!INCLUDE[prod_short](includes/prod_short.md)] will hide all instances of the **VAT Date** across the application. However, the **VAT Date** is still used in all reportings and is auto-populated with the **Posting Date**.
+> All VAT related reports now run using the **VAT Date** to filter relevant records. Even if you set up **VAT Date Usage** as **Do not use VAT Date functionallity** [!INCLUDE[prod_short](includes/prod_short.md)] hides all instances of the **VAT Date** across the application. However, the **VAT Date** is still used in all reportings and is auto-populated with the **Posting Date**.
 
 If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
 
 > [!NOTE]
-> Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country/region. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles VAT reporting in The Netherlands but not in other countries/regions. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming VAT reporting in other countries/regions, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
+> Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country/region. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles VAT reporting in The Netherlands but not in other countries/regions. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and doesn't support claiming VAT reporting in other countries/regions, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
 
 ## <a name="ecsaleslist"></a>About the EC Sales List report
 
@@ -72,7 +72,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[p
 2. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    > It is a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your VAT report as described in the [To prepare and submit a VAT report](#to-prepare-and-submit-a-vat-report) section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful. It is important to remember that this is not an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
+    > It's a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your VAT report as described in the [To prepare and submit a VAT report](#to-prepare-and-submit-a-vat-report) section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report indicates whether the test submission was successful. It's important to remember that this isn't an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
 
 ## To set up VAT reports in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -97,11 +97,11 @@ Now, when the time has come to submit a VAT report for a VAT return period, choo
     > [!NOTE]  
     >  For the EC Sales List report, you can review the transactions included in the report lines before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
 
-4. To export an XML file for goods or services exported to Germany or other EU countries, run the **Ecport** action. The system will create an XML file using the following naming convention: **VIES_<Period>_<CompanyVAT>.xml**.
+4. To export an XML file for goods or services exported to Germany or other EU countries, run the **Export** action. The system creates an XML file using the following naming convention: **VIES_<Period>_<CompanyVAT>.xml**.
 5. To validate and prepare the report for submission, choose the **Release** action.  
 
     > [!NOTE]  
-    > [!INCLUDE[prod_short](includes/prod_short.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[prod_short](includes/prod_short.md)], you can click the message to open the page that contains the information to correct.  
+    > [!INCLUDE[prod_short](includes/prod_short.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[prod_short](includes/prod_short.md)], you can select the message to open the page that contains the information to correct.  
 
 6. To submit the report, choose the **Submit** action.  
 
@@ -113,9 +113,9 @@ VAT returns can have different statuses, as described in the following table.
 
 | Status | Description |
 |------------|-------------------------|
-| Open | When you create a new VAT return. You can run the **Suggest Lines** action. If you need to correct values, you can run the **Suggest Lines** action again. You can't submit a VAT return that has this status. |
-| Released | Status will be changed when you use the **Release** action. [!INCLUDE[prod_short](includes/prod_short.md)] will show the **Errors and Warnings** FastTab. You can't make changes or use the **Suggest Lines** action. To make changes, you must reopen the VAT return. |
-| Rejected | If your submission wasn't successful (for example, if authentication failed), the status will change to **Rejected**. You can't reopen a VAT Return that has this status. |
+| Open | When you create a new VAT return, you can run the **Suggest Lines** action. If you need to correct values, you can run the **Suggest Lines** action again. You can't submit a VAT return that has this status. |
+| Released | Status is changed when you use the **Release** action. [!INCLUDE[prod_short](includes/prod_short.md)] shows the **Errors and Warnings** FastTab. You can't make changes or use the **Suggest Lines** action. To make changes, you must reopen the VAT return. |
+| Rejected | If your submission wasn't successful (for example, if authentication failed), the status changes to **Rejected**. You can't reopen a VAT Return that has this status. |
 | Submitted | The VAT return is submitted using the **Submit** action, or it's marked as submitted by using the **Mark as Submitted** action. |
 | Accepted | The VAT return has this status if the report is marked as accepted by using the **Mark as Accepted** action. If the **VAT Return** report is marked as **Accepted**, you can run the **Calculate and Post VAT Settlement** action. |
 

@@ -17,6 +17,8 @@ ai.usage: ai-assisted
 
 # Sales Reservation Avail. (report)
 
+[!INCLUDE [deprecated-report-note](../includes/deprecated-report-note-include.md)]
+
 The **Sales Reservation Avail.** report shows the availability of items for shipment on sales documents.
 
 > [!NOTE]
@@ -86,6 +88,10 @@ Warehouse managers use the report to:
 Try the report here: [Sales Reservation Avail.](https://businesscentral.dynamics.com?report=209)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+[!INCLUDE [alternative_reports_sales](../includes/alternative_reports_sales.md)]
 
 ## Related information
 

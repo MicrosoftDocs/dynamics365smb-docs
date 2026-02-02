@@ -17,6 +17,8 @@ ai.usage: ai-assisted
 
 # Customer - Sales list (report)
 
+[!INCLUDE [deprecated-report-note](../includes/deprecated-report-note-include.md)]
+
 The **Customer - Sales list** report shows customer sales for a period. You can choose to include only customers with total sales that exceed a minimum amount. You can also specify whether you want the report to show address details for each customer.
 
 The report is based on recorded sales in the local currency (LCY) from customer ledger entries. The total reported sales are in LCY. The total is based on the customers that you include in the report. In other words, it's based on the customers that: 
@@ -77,6 +79,10 @@ Controllers and tax compliance officers use the report to:
 Try the report here: [Customer - Sales list](https://businesscentral.dynamics.com?report=119)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+[!INCLUDE [alternative_reports_sales](../includes/alternative_reports_sales.md)]
 
 ## Related information
 

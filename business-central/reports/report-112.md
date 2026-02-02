@@ -17,6 +17,8 @@ ai.usage: ai-assisted
 
 # Sales Statistics (report)
 
+[!INCLUDE [deprecated-report-note](../includes/deprecated-report-note-include.md)]
+
 The **Sales Statistics** report shows amounts for sales, profit, invoice discount, and payment discount in the local currency. It also shows the profit percentage for each customer.
 
 The report shows the original and adjusted amounts for costs and profits. The original costs and profits are calculated at the time of posting. The adjusted costs and profits reflect changes to the original costs of the items in sales.
@@ -80,6 +82,10 @@ Financial analysts use the report to:
 Try the report here: [Sales Statistics](https://businesscentral.dynamics.com?report=112)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+[!INCLUDE [alternative_reports_sales](../includes/alternative_reports_sales.md)]
 
 ## Related information
 

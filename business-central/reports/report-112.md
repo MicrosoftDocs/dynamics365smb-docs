@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_112_Primary
-ms.date: 10/03/2024
+ms.date: 02/02/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -85,7 +85,7 @@ Try the report here: [Sales Statistics](https://businesscentral.dynamics.com?rep
 
 ## Alternative reports
 
-[!INCLUDE [alternative_reports_sales](../includes/alternative_reports_sales.md)]
+[!INCLUDE [alternative-reports-sales](../includes/alternative-reports-sales.md)]
 
 ## Related information
 

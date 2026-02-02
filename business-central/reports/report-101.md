@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_101_Primary
-ms.date: 10/18/2024
+ms.date: 02/02/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -16,6 +16,8 @@ ai.usage: ai-assisted
 ---
 
 # Customer List (report)
+
+[!INCLUDE [deprecated-report-note](../includes/deprecated-report-note-include.md)]
 
 The **Customer List** report shows basic information for customers. For example, it shows the customer posting group, discount group, finance charge and payment information, and so on. Use this report, for example, to maintain information about a customer.
 
@@ -72,6 +74,10 @@ Customer service representatives use the report to:
 Try the report here: [Customer List](https://businesscentral.dynamics.com?report=101)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+[!INCLUDE [alternative-reports-sales](../includes/alternative-reports-sales.md)]
 
 ## Related information
 

@@ -21,7 +21,7 @@ This article answers common questions about Microsoft Copilot in Dynamics 365 Bu
 
 [!INCLUDE[bc-app-agents](../bc-shared/bc-app-agents.md)]
 
-## Where can I find the list of Copilot features in Business Central?
+## Where can I keep up on the latest Copilot features in Business Central?
 
 Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Find an overview at [Work smarter with Microsoft Copilot in Dynamics 365 Business Central](https://aka.ms/BCAI). And find details here in the documentation by choosing links in the navigation panel to the left.
 
@@ -63,7 +63,7 @@ Copilot in Business Central relies on powerful AI foundation models that are cou
 
 ## Is Copilot connected to the web?
 
-As of update 26.3, some Copilot features in Business Central can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content and saves our customers time from having to switch apps to manually find things themselves.  
+As of update 26.3, some Copilot features in Business Central can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content and saves our customers' time from having to switch apps to manually find things themselves.  
 
 At Microsoft, we're committed to ensuring that Copilot is built for enterprise use with the security, privacy, compliance, and responsible AI controls that our customers expect. Learn more about how Copilot searches the web, how it's designed for safety, and how administrators can configure it in [Searching the web with Copilot](ai-search-web-copilot.md).
 
@@ -91,7 +91,7 @@ Microsoft empowers people to achieve more through copilots that are adapted to d
 
 Currently, there's no direct connection between Copilot in Business Central and Microsoft 365 Copilot. Copilot features inside Business Central are unaware of your Microsoft 365 data.
 
-Conversely, when working in the Microsoft 365 suite of applications there are options for Copilot to use Business Central data. One such option is Microsoft 365 Copilot for Finance, a stand-alone product that uses general GPT training data, Microsoft 365 Graph data, and ERP information. Microsoft 365 Copilot for Finance can connect to Business Central and work with ERP data useful to specific contexts and scenarios, like collections management.
+Conversely, when working in the Microsoft 365 suite of applications there are options for Copilot to use Business Central data. One such option is Microsoft 365 Copilot for Finance, a stand-alone product that uses general GPT (generative pretrained transformer) training data, Microsoft 365 Graph data, and ERP information. Microsoft 365 Copilot for Finance can connect to Business Central and work with ERP data useful to specific contexts and scenarios, like collections management.
 
 Learn more about Microsoft 365 Copilot for Finance with Business Central in [Collect outstanding balances](receivables-collect-outstanding-balances.md). Learn more general information at [Microsoft 365 Copilot for Finance](https://www.microsoft.com/microsoft-365/copilot/copilot-for-finance).
 

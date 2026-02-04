@@ -5,16 +5,16 @@ author: altotovi
 ms.topic: concept-article
 ms.search.keywords: local, 1099, IRS, tax
 ms.search.form: 10030, 10031, 10036, 10037
-ms.date: 01/30/2026
+ms.date: 02/04/2026
 ms.author: altotovi
-ms.reviewer: solsen
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ---
 
 # Introduction to the IRS 1099 tax forms
 
 > [!IMPORTANT]
-> The IRS has confirmed that Microsoft’s transmitter TCC for submitting 1099 forms is fully in production. All cloud users can use the complete A2A integration via the IRIS platform without restrictions. 
+> The IRS has confirmed that Microsoft’s TCC transmitter for submitting 1099 forms is fully operational. All cloud users can use the complete A2A integration through the IRIS platform without any restrictions.
 
 In this article, you learn how to set up 1099 reporting, generate 1099 Tax Forms, submit them to the IRS, and send copies to vendors using Business Central.
 

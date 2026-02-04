@@ -47,6 +47,29 @@ Yes, Copilot in Business Central is included with your Business Central license 
 
 Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
+
+## Copilot features and supported languages
+
+The following table lists each Copilot and agent capability in Business Central and the languages each feature supports:
+
+|Feature|Supported Languages|Learn more|
+|---|---|---|
+|Analysis assist|English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)<br>French (fr-FR, fr-BE, fr-CA, fr-CH)<br>German (de-DE, de-AT, de-CH)<br>Spanish (es-ES, es-MS, es-CO, es-PE)<br>Danish (da-DK)<br>Dutch (nl-NL, nl-BE)<br>Italian (it-IT, it-CH)<br>Japanese (ja-JP)|[Analyze data in lists with Copilot](analysis-assist.md)|
+|Autofill fields|English only|[Autofill with Copilot](autofill-fields-with-copilot.md)|
+|Bank account reconciliation assist|English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)<br>French (fr-FR, fr-BE, fr-CA, fr-CH)<br>German (de-DE, de-AT, de-CH)<br>Spanish (es-ES, es-MS, es-CO, es-PE)<br>Danish (da-DK)<br>Dutch (nl-NL, nl-BE)<br>Italian (it-IT, it-CH)<br>Japanese (ja-JP)|[Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)|
+|Chat with Copilot|English only|[Chat with Copilot](chat-with-copilot.md)|
+|Map e-documents to purchase order lines|English only|[Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)|
+|Marketing text suggestions|English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)<br>French (fr-FR, fr-BE, fr-CA, fr-CH)<br>German (de-DE, de-AT, de-CH)<br>Spanish (es-ES, es-MS, es-CO, es-PE)<br>Danish (da-DK)<br>Dutch (nl-NL, nl-BE)<br>Italian (it-IT, it-CH)<br>Japanese (ja-JP)|[Create marketing text with Copilot](item-marketing-text.md)|
+|Payables Agent|English only|[Payables Agent](payables-agent.md)|
+|Sales line suggestions|English only|[Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)|
+|Sales Order Agent|English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)<br>French (fr-FR, fr-BE, fr-CA, fr-CH)<br>German (de-DE, de-AT, de-CH)<br>Spanish (es-ES, es-MS, es-CO, es-PE)<br>Danish (da-DK)<br>Dutch (nl-NL, nl-BE)<br>Italian (it-IT, it-CH)<br>Japanese (ja-JP)|[Sales Order Agent](sales-order-agent.md)|
+|Suggest item substitutions|English only|[Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)|
+|Suggest number series|English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)<br>French (fr-FR, fr-BE, fr-CA, fr-CH)<br>German (de-DE, de-AT, de-CH)<br>Spanish (es-ES, es-MS, es-CO, es-PE)<br>Danish (da-DK)<br>Dutch (nl-NL, nl-BE)<br>Italian (it-IT, it-CH)<br>Japanese (ja-JP)|[Suggest number series with Copilot](suggest-number-series-copilot.md)|
+|Summarize records|English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)<br>French (fr-FR, fr-BE, fr-CA, fr-CH)<br>German (de-DE, de-AT, de-CH)<br>Spanish (es-ES, es-MS, es-CO, es-PE)<br>Danish (da-DK)<br>Dutch (nl-NL, nl-BE)<br>Italian (it-IT, it-CH)<br>Japanese (ja-JP)|[Summarize with Copilot](summarize-with-copilot.md)|
+
+> [!NOTE]
+> Features validated in specific languages might still function in other languages, but the quality might vary based on user interaction or system settings, which might impact accuracy and the user experience. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+
 ## Is Copilot available for Business Central online only?
 
 Yes, Copilot is exclusive to Business Central online. Therefore, it isn't available for other deployment types, such as on-premises or private cloud.

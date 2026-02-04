@@ -156,7 +156,7 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
 ## Grant the app permission to send as your mailbox
 
-Sometimes Azure portal hides the SMTP option, so you must use PowerShell to grant permission to send as your mailbox. Do this in Tenant A ([!INCLUDE [prod_short](includes/prod_short.md)] tenant).
+Sometimes Azure portal hides the SMTP option, so you must use PowerShell to grant permission to send as your mailbox. Do this in Tenant A (App / Mailbox tenant).
 
 > [!NOTE]
 > Be sure to sign in with the Global Administrator or Exchange Administrator account for Tenant A.

@@ -102,7 +102,7 @@ To understand Copilot feature availability, you must consider four independent d
 
 **Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
 
-#### 3. Azure region for Business Central data residency
+#### 3. Business Central data residency region
 
 **What it is**: The Azure region where your Business Central environment database is physically hosted and stored.
 
@@ -180,17 +180,17 @@ These dimensions are **independent** but work together to determine availability
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ User in Copenhagen, Denmark                                     │
+│ User in London, England                                         │
 │                                                                 │
-│ [1] Uses Business Central in language: DANISH                   │
+│ [1] Uses Business Central in language: English GB               │
 │         ↓                                                       │
-│ [2] Environment country/region is: DENMARK (DK)                 │
+│ [2] Environment country/region is: United Kingdom (GB)          │
 │     (Danish VAT, tax rules, regulatory features)                │
 │         ↓                                                       │
-│ [3] Environment data stored in Azure region: EUROPE GEOGRAPHY   │
+│ [3] Environment data stored in Azure region: United Kingdom West│
 │     (Database, transactions, customer data)                     │
 │         ↓                                                       │
-│ [4] Copilot prompt sent to AZURE OPENAI in: EUROPE              │
+│ [4] Copilot prompt sent to AZURE OPENAI in: United Kingdom      │
 │     (AI processing, model inference)                            │
 │         ↓                                                       │
 │ [5] Response returned in: DANISH (supported language)           │

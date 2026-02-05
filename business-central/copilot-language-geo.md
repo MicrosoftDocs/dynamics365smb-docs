@@ -69,7 +69,7 @@ Microsoft takes a measured, phased approach to releasing Copilot features across
 
 This phased approach ensures that when a feature becomes available in your geography and language, it delivers a reliable, compliant, and high-quality experience.
 
-### The four dimensions of Copilot availability
+### Key dimensions of Copilot availability
 
 To understand Copilot feature availability, you must consider four independent dimensions:
 
@@ -81,9 +81,9 @@ To understand Copilot feature availability, you must consider four independent d
 
 - Determines where AI processing occurs for compliance and data sovereignty
 - Affects latency and performance of AI responses
-- Constrains which features are available based on Azure OpenAI Service deployment
+<!-- - Constrains which features are available based on Azure OpenAI Service deployment-->
 
-**Key point**: This point is about **where the AI thinks**, not where your business data lives.
+**Key point**: It's about **where the AI thinks**, not where your business data lives.
 
 **Example**: When you use analysis assist in Business Central, your prompt is sent to an Azure OpenAI endpoint in a specific geography (such as Europe, United States, or Asia Pacific) for processing.
 
@@ -102,7 +102,7 @@ To understand Copilot feature availability, you must consider four independent d
 
 **Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
 
-#### 3. Business Central data residency in Azure
+#### 3. Azure region for Business Central data residency
 
 **What it is**: The Azure region where your Business Central environment database is physically hosted and stored.
 
@@ -111,22 +111,13 @@ To understand Copilot feature availability, you must consider four independent d
 - Determines physical location of your business data
 - Automatically determined by your environment country/region setting
 - Affects data residency compliance and regulations
-- Creates potential cross-geography data movement if Azure OpenAI Service operates in a different geography
+- May result in cross-geography data movement if Azure OpenAI Service operates in a different geography. Learn more about how data moves, compliance considerations, and identifying an environment's Azure region in [Cross-geography data movement for Copilot](ai-copilot-data-movement.md)
 
 **Key point**: It's about **where your business data lives**.
 
-**Important consideration - Cross-geography data movement**:
-When your Business Central environment and Azure OpenAI Service are in different geographies, prompts and AI-processed data move across geographic boundaries. For example:
+**Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records within European data centers.
 
-- Your Business Central environment might be hosted in Europe (for data residency)
-- But Azure OpenAI Service processes requests in United States geography
-- This point means your prompts travel from Europe to United States for AI processing
-
-Microsoft ensures this cross-geography movement complies with applicable regulations, but you should understand these data flows for your organization's compliance requirements.
-
-**Example**: A Danish (DK) environment is hosted in Azure's Europe geography, keeping your customer data, transactions, and business records within European data centers.
-
-#### 4. Supported languages (interaction and interface)
+#### 4. Supported languages
 
 **What it is**: The languages in which you can interact with Copilot features and in which Business Central displays its user interface.
 
@@ -136,10 +127,10 @@ Microsoft ensures this cross-geography movement complies with applicable regulat
 - Controls the language of prompts, AI responses, and feature outputs
 - Independent of both localization and data location
 
-**Key point**: This point is about **what languages users can speak to the system**.
+**Key point**: This dimension is about **what languages users can speak to the system**. 
 
-**Important distinction**: 
-- **Business Central UI languages**: Languages available for menus, buttons, and interface elements
+When evaluating language support for Copilot features, it's important to distinguish between two categories:
+
 - **Copilot supported languages**: Languages tested and validated for specific AI features
 - **Unlocked language capabilities**: Broad multilingual capabilities that might work but aren't officially supported
 
@@ -149,7 +140,7 @@ Microsoft ensures this cross-geography movement complies with applicable regulat
 
 Understanding the difference between supported and unlocked languages is critical for setting appropriate expectations:
 
-**Supported languages** (listed in the feature table):
+**Supported languages** (listed in the [feature table](#feature-availability-by-countryregion-and-language):
 
 - Microsoft officially tests and validates these languages
 - Meet established quality metrics for accuracy and appropriateness
@@ -218,11 +209,11 @@ These dimensions are **independent** but work together to determine availability
 │         ↓                                                       │
 │ [2] Environment country/region is: DENMARK (DK)                 │
 │         ↓                                                       │
-│ [3] Environment data stored in Azure region: EUROPE GEOGRAPHY   │
+│ [3] Environment data stored in Azure region: EUROPE NORTH       │
 │         ↓                                                       │
 │         ↓  ! DATA CROSSES GEOGRAPHY BOUNDARY                    │
 │         ↓                                                       │
-│ [4] Copilot prompt sent to AZURE OPENAI in: UNITED STATES       │
+│ [4] Copilot prompt sent to AZURE OPENAI in: SWEDEN              │
 │     (Feature not yet available in Europe geography)             │
 │         ↓                                                       │
 │         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │
@@ -234,6 +225,14 @@ These dimensions are **independent** but work together to determine availability
    → Check your organization's data residency policies
 ```
 
+### Summary of key dimensions
+
+| Dimension | What It Determines | Set By | Can Change? | Example |
+|-----------|-------------------|--------|-------------|---------|
+| 1. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
+| 2. Business Central environment country/region| Localization and regulatory features | You (at environment creation) | No | Denmark (DK), United States (US) |
+| 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region | No | Germany West Cental West, North America |
+| 4. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish, English, German, French |
 <!--
 ### Common scenarios that cause confusion
 
@@ -266,14 +265,7 @@ All four must align for the feature to work.
 
 **Explanation**: "All" means all countries/regions where Business Central is available (#2), but you still need to verify all four dimensions align. See [Summary: The four dimensions compared](#summary-the-four-dimensions-compared).
 
-### Summary: The four dimensions compared
 
-| Dimension | What It Determines | Set By | Can Change? | Example |
-|-----------|-------------------|--------|-------------|---------|
-| Azure OpenAI geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
-| Business Central environment country/region| Localization and regulatory features | You (at environment creation) | No | Denmark (DK), United States (US) |
-| Business Central data residency | Where business data is stored | Automatically by #2 | No | Azure Europe, Azure North America |
-| Supported languages | User interaction language | You (user/admin settings) | Yes | Danish, English, German, French |
 
 ### Data movement and compliance considerations
 
@@ -341,11 +333,12 @@ Follow this checklist across all four dimensions:
    - Country/region approval: See [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external)
 -->
 
+<!--
 ### Key takeaways
 
+- **Four independent dimensions** determine Copilot availability
 - **Azure OpenAI geography** (#1) and **Business Central data residency** (#3) are different - one is about AI processing, the other about data storage
-- **Cross-geography data movement** can occur when these dimensions don't align
+- **Cross-geography data movement** can occur when these dimensions don't align - see [Cross-geography data movement for Copilot](ai-copilot-data-movement.md) for details
 - **Environment country/region** (#2) determines localization, which then determines data residency (#3)
 - **Language support** (#4) is independent of all geographic considerations
-- All four dimensions must align for full functionality
-- Understanding data movement is critical for compliance
+- All four dimensions must align for full functionality-->

@@ -1,5 +1,5 @@
 ---
-title: "Copilot and Agent Feature Availability by Geography and Language"
+title: Copilot Geographic and Language Availability
 description: "Learn how geographic availability, language support, and environment localization determine access to Copilot and agent features in Business Central."
 author: jswymer
 ms.author: jswymer
@@ -14,7 +14,7 @@ ms.custom: bap-template #Required; don't change.
 
 Understanding how Copilot features become available across regions and languages can be challenging. This article explains how geographic infrastructure, language support, and environment localization affect access to these AI-powered capabilities and serves as a reference for Copilot feature availability.
 
-## Feature support by country/region and language
+## Feature availability by country/region and language
 
 The following table lists each Copilot feature in Business Central, along with the countries/regions and languages each feature supports. For a conceptual overview of how geography, localization, and languages affect availability, **Understanding Copilot availability: Geography, localization, and languages** later in this article.
 
@@ -73,11 +73,12 @@ This phased approach ensures that when a feature becomes available in your geogr
 
 To understand Copilot feature availability, you must consider four independent dimensions:
 
-#### 1. Azure OpenAI Service geography (AI processing location)
+#### 1. Azure OpenAI Service geography
 
 **What it is**: The physical Azure data center region where the AI model processes your prompts and generates responses.
 
 **Why it matters**:
+
 - Determines where AI processing occurs for compliance and data sovereignty
 - Affects latency and performance of AI responses
 - Constrains which features are available based on Azure OpenAI Service deployment
@@ -86,39 +87,42 @@ To understand Copilot feature availability, you must consider four independent d
 
 **Example**: When you use analysis assist in Business Central, your prompt is sent to an Azure OpenAI endpoint in a specific geography (such as Europe, United States, or Asia Pacific) for processing.
 
-#### 2. Business Central environment country/region (localization)
+#### 2. Business Central environment country/region
 
 **What it is**: The country/region setting you choose when creating a Business Central environment, which determines the localization version of Business Central.
 
 **Why it matters**:
+
 - Controls which regulatory features, tax calculations, and reporting formats are available
 - Determines which localization-specific functionality you have access to
 - Can't be changed after environment creation
+- Determines the the Azure region where Business Central data is stored
 
-**Key point**: This point is about **what business rules and features** your environment has, not where data is stored.
+**Key point**: It's about **what business rules and features** your environment has, not where data is stored.
 
 **Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
 
-#### 3. Business Central data residency (database location)
+#### 3. Business Central data residency in Azure
 
-**What it is**: The Azure geography where your Business Central environment database is physically hosted and stored.
+**What it is**: The Azure region where your Business Central environment database is physically hosted and stored.
 
 **Why it matters**:
 
 - Determines physical location of your business data
 - Automatically determined by your environment country/region setting
 - Affects data residency compliance and regulations
-- **Creates potential cross-geography data movement** if Azure OpenAI Service operates in a different geography
+- Creates potential cross-geography data movement if Azure OpenAI Service operates in a different geography
 
-**Key point**: This point is about **where your business data lives**.
+**Key point**: It's about **where your business data lives**.
 
 **Important consideration - Cross-geography data movement**:
 When your Business Central environment and Azure OpenAI Service are in different geographies, prompts and AI-processed data move across geographic boundaries. For example:
+
 - Your Business Central environment might be hosted in Europe (for data residency)
 - But Azure OpenAI Service processes requests in United States geography
 - This point means your prompts travel from Europe to United States for AI processing
 
-Microsoft ensures This point cross-geography movement complies with applicable regulations, but you should understand these data flows for your organization's compliance requirements.
+Microsoft ensures this cross-geography movement complies with applicable regulations, but you should understand these data flows for your organization's compliance requirements.
 
 **Example**: A Danish (DK) environment is hosted in Azure's Europe geography, keeping your customer data, transactions, and business records within European data centers.
 
@@ -127,6 +131,7 @@ Microsoft ensures This point cross-geography movement complies with applicable r
 **What it is**: The languages in which you can interact with Copilot features and in which Business Central displays its user interface.
 
 **Why it matters**:
+
 - Determines which languages Microsoft has tested and validated for each Copilot feature
 - Controls the language of prompts, AI responses, and feature outputs
 - Independent of both localization and data location
@@ -136,7 +141,7 @@ Microsoft ensures This point cross-geography movement complies with applicable r
 **Important distinction**: 
 - **Business Central UI languages**: Languages available for menus, buttons, and interface elements
 - **Copilot supported languages**: Languages tested and validated for specific AI features
-- **Azure OpenAI capabilities**: Broad multilingual capabilities that might work but aren't officially supported
+- **Unlocked language capabilities**: Broad multilingual capabilities that might work but aren't officially supported
 
 **Example**: You can have a Danish-localized environment, hosted in Europe, with users interacting with Copilot in English, German, or any other supported language.
 
@@ -145,10 +150,10 @@ Microsoft ensures This point cross-geography movement complies with applicable r
 Understanding the difference between supported and unlocked languages is critical for setting appropriate expectations:
 
 **Supported languages** (listed in the feature table):
+
 - Microsoft officially tests and validates these languages
 - Meet established quality metrics for accuracy and appropriateness
 - Full support available if problems occur
-- Documentation reflects these languages
 - Deliver consistent, high-quality results
 
 **Unlocked (untested) languages**:
@@ -186,15 +191,15 @@ These dimensions are **independent** but work together to determine availability
 ┌─────────────────────────────────────────────────────────────────┐
 │ User in Copenhagen, Denmark                                     │
 │                                                                 │
-│ [1] Uses Business Central in: DANISH UI LANGUAGE                │
+│ [1] Uses Business Central in language: DANISH                   │
 │         ↓                                                       │
-│ [2] Environment configured as: DENMARK (DK) LOCALIZATION        │
+│ [2] Environment country/region is: DENMARK (DK)                 │
 │     (Danish VAT, tax rules, regulatory features)                │
 │         ↓                                                       │
-│ [3] Environment data stored in: AZURE EUROPE GEOGRAPHY          │
+│ [3] Environment data stored in Azure region: EUROPE GEOGRAPHY   │
 │     (Database, transactions, customer data)                     │
 │         ↓                                                       │
-│ [4] Copilot prompt sent to: AZURE OPENAI IN EUROPE              │
+│ [4] Copilot prompt sent to AZURE OPENAI in: EUROPE              │
 │     (AI processing, model inference)                            │
 │         ↓                                                       │
 │ [5] Response returned in: DANISH (supported language)           │
@@ -217,7 +222,7 @@ These dimensions are **independent** but work together to determine availability
 │         ↓                                                       │
 │         ↓  ! DATA CROSSES GEOGRAPHY BOUNDARY                    │
 │         ↓                                                       │
-│ [4] Copilot prompt sent to: AZURE OPENAI IN UNITED STATES       │
+│ [4] Copilot prompt sent to AZURE OPENAI in: UNITED STATES       │
 │     (Feature not yet available in Europe geography)             │
 │         ↓                                                       │
 │         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │

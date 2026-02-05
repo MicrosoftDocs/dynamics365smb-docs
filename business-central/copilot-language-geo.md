@@ -10,7 +10,7 @@ ms.date: 02/05/2026
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Copilot and agent language and geographic availability in Business Central
+# Copilot geographic and language availability
 
 Understanding how Copilot features become available across regions and languages can be challenging. This article explains how geographic infrastructure, language support, and environment localization affect access to these AI-powered capabilities and serves as a reference for Copilot feature availability.
 

@@ -184,20 +184,20 @@ These dimensions are **independent** but work together to determine availability
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ User in Copenhagen, Denmark                                      │
-│                                                                   │
+│ User in Copenhagen, Denmark                                     │
+│                                                                 │
 │ [1] Uses Business Central in: DANISH UI LANGUAGE                │
-│         ↓                                                         │
+│         ↓                                                       │
 │ [2] Environment configured as: DENMARK (DK) LOCALIZATION        │
-│     (Danish VAT, tax rules, regulatory features)                 │
-│         ↓                                                         │
+│     (Danish VAT, tax rules, regulatory features)                │
+│         ↓                                                       │
 │ [3] Environment data stored in: AZURE EUROPE GEOGRAPHY          │
-│     (Database, transactions, customer data)                       │
-│         ↓                                                         │
+│     (Database, transactions, customer data)                     │
+│         ↓                                                       │
 │ [4] Copilot prompt sent to: AZURE OPENAI IN EUROPE              │
-│     (AI processing, model inference)                              │
-│         ↓                                                         │
-│ [5] Response returned in: DANISH (supported language)            │
+│     (AI processing, model inference)                            │
+│         ↓                                                       │
+│ [5] Response returned in: DANISH (supported language)           │
 └─────────────────────────────────────────────────────────────────┘
 
    ✓ All four dimensions align - Full functionality available
@@ -207,28 +207,29 @@ These dimensions are **independent** but work together to determine availability
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ User in Copenhagen, Denmark                                      │
-│                                                                   │
-│ [1] Uses Business Central in: DANISH UI LANGUAGE                │
-│         ↓                                                         │
-│ [2] Environment configured as: DENMARK (DK) LOCALIZATION        │
-│         ↓                                                         │
-│ [3] Environment data stored in: AZURE EUROPE GEOGRAPHY          │
-│         ↓                                                         │
-│         ↓  ⚠️ DATA CROSSES GEOGRAPHY BOUNDARY                    │
-│         ↓                                                         │
+│ User in Copenhagen, Denmark                                     │
+│                                                                 │
+│ [1] Uses Business Central in language: DANISH                   │
+│         ↓                                                       │
+│ [2] Environment country/region is: DENMARK (DK)                 │
+│         ↓                                                       │
+│ [3] Environment data stored in Azure region: EUROPE GEOGRAPHY   │
+│         ↓                                                       │
+│         ↓  ! DATA CROSSES GEOGRAPHY BOUNDARY                    │
+│         ↓                                                       │
 │ [4] Copilot prompt sent to: AZURE OPENAI IN UNITED STATES       │
-│     (Feature not yet available in Europe geography)              │
-│         ↓                                                         │
-│         ↓  ⚠️ RESPONSE CROSSES GEOGRAPHY BOUNDARY                │
-│         ↓                                                         │
-│ [5] Response returned in: DANISH (supported language)            │
+│     (Feature not yet available in Europe geography)             │
+│         ↓                                                       │
+│         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │
+│         ↓                                                       │
+│ [5] Response returned in: DANISH (supported language)           │
 └─────────────────────────────────────────────────────────────────┘
 
-   ⚠️  Cross-geography data movement occurs
+   !  Cross-geography data movement occurs
    → Check your organization's data residency policies
 ```
 
+<!--
 ### Common scenarios that cause confusion
 
 #### Scenario 1: "Why can't I use a feature when my country/region is supported?"
@@ -248,6 +249,7 @@ All four must align for the feature to work.
 **Example**: You have a French environment (hosted in Europe), but a feature shows "United States" in the Azure geography column.
 
 **Explanation**: 
+
 - Your **Business Central data** (#3) stays in Europe
 - Your **Copilot prompts** (#1) are processed in United States Azure OpenAI
 - This creates **cross-geography data movement** for AI processing
@@ -298,11 +300,12 @@ Understanding data movement is critical for compliance:
 - Master data
 - Historical business data
 
+<!--
 ### How to determine if a feature is available to you
 
 Follow this checklist across all four dimensions:
 
-1. Azure OpenAI Geography**:
+1. Azure OpenAI Geography:
 
    - Check the feature table for supported geographies
    - Confirm Microsoft deployed Azure OpenAI in a geography accessible to your tenant
@@ -331,6 +334,7 @@ Follow this checklist across all four dimensions:
    - Licensing: Does your organization have the required licenses?
    - Admin settings: Are Copilot features enabled?
    - Country/region approval: See [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external)
+-->
 
 ### Key takeaways
 

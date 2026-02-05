@@ -16,7 +16,7 @@ Understanding how Copilot features become available across regions and languages
 
 ## Feature availability by country/region and language
 
-The following table lists each Copilot feature in Business Central, along with the countries/regions and languages each feature supports. For a conceptual overview of how geography, localization, and languages affect availability, **Understanding Copilot availability: Geography, localization, and languages** later in this article.
+The following table lists each Copilot feature in Business Central, along with the Business Central country/region versions and languages each feature supports. For a conceptual overview of how geography, localization, and languages affect availability, refer to the **Understanding Copilot availability: Geography, localization, and languages** section after the table.
 
 <!--
 |Feature|Supported Languages|Azure geography|Learn more|

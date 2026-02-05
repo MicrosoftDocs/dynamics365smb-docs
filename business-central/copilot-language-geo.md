@@ -280,7 +280,7 @@ This controls **the languages users can interact with**, but does *not* affect l
 
 From Microsoft:
 
-*   Business Central has its own list of supported **UI languages**, depending on country availability and language packs. [\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
+*   Business Central has its own list of supported **UI languages**, depending on country/region availability and language packs. [\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
 *   Localizations include language translations, but translations can also come from partners.
 *   AI/Copilot has its **own language support list**, which may differ from BC’s list or Azure OpenAI’s list.
 
@@ -299,7 +299,7 @@ From Microsoft:
 | Aspect                            | Controls                         | Determined By                             | Effects                                | Independent From                     |
 | --------------------------------- | -------------------------------- | ----------------------------------------- | -------------------------------------- | ------------------------------------ |
 | **Azure OpenAI Geography**        | Where AI inference runs          | Azure OpenAI deployment                   | AI latency, compliance                 | BC localization, BC language support |
-| **BC Environment Country/Region** | Localization + BC data residency | Country chosen at environment creation    | Tax rules, features, database location | AI model location, language support  |
+| **BC Environment Country/Region** | Localization + BC data residency | Country/region chosen at environment creation    | Tax rules, features, database location | AI model location, language support  |
 | **Supported Languages**           | User interaction languages       | BC language packs + Copilot model support | Prompts, UI, output language           | Azure geography & BC localization    |
 
 ***

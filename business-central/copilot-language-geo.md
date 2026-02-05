@@ -256,7 +256,7 @@ This determines **localization** and **BC data residency**, not AI placement.
 According to Microsoft:
 
 *   When you create an environment, its **Country/Region determines the localization**, including regulatory features, tax logic, reporting formats, etc. [\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/dynamics365/business-central/about-localization)
-*   The Country/Region also determines **the Azure geography where the BC environment database is hosted**. [\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
+*   The Country/Region also determines **the Azure geography where the BC environment database is hosted**. <!--[\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)-->
 *   This setting **cannot be changed after creation**. [\[community....namics.com\]](https://community.dynamics.com/forums/thread/details/?threadid=eefbc3ff-4fd8-473c-884d-1c518a626767)
 
 **Examples:**
@@ -280,7 +280,7 @@ This controls **the languages users can interact with**, but does *not* affect l
 
 From Microsoft:
 
-*   Business Central has its own list of supported **UI languages**, depending on country/region availability and language packs. [\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
+*   Business Central has its own list of supported **UI languages**, depending on country/region availability and language packs. <!--[\[learn.microsoft.com\]](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)-->
 *   Localizations include language translations, but translations can also come from partners.
 *   AI/Copilot has its **own language support list**, which may differ from BC’s list or Azure OpenAI’s list.
 

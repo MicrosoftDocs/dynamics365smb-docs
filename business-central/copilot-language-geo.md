@@ -95,7 +95,7 @@ The following sections explain each dimension in detail.
 
 #### 3. Business Central data residency region
 
-**What it is**: The Azure region where your Business Central environment database is physically hosted and stored.
+**What it is**: The Azure region where your Business Central environment database is physically hosted and stored. 
 
 **Why it matters**:
 
@@ -108,6 +108,9 @@ The following sections explain each dimension in detail.
 
 **Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records within European data centers.
 
+> [!TIP] 
+> You can identify the Azure region fthe Business Central admin center. [Learn more](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment)
+
 #### 4. Supported languages
 
 **What it is**: The languages in which you can interact with Copilot features and in which Business Central displays its user interface.
@@ -118,7 +121,7 @@ The following sections explain each dimension in detail.
 - Controls the language of prompts, AI responses, and feature outputs
 - Is independent of both localization and data location
 
-**Key distinction**: Microsoft distinguishes between **officially supported languages** (tested and validated) and **unlocked languages** (might work but not guaranteed). See [Supported versus unlocked languages](#supported-versus-unlocked-languages) for details.
+**Key distinction**: Microsoft distinguishes between **supported languages** (tested and validated) and **unlocked languages** (might work but not guaranteed). See [Supported versus unlocked languages](#supported-versus-unlocked-languages) for details.
 
 **Example**: You can have a Danish-localized environment, hosted in Europe, with users interacting with Copilot in English, German, or any other supported language.
 

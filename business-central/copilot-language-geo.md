@@ -255,11 +255,11 @@ These factors are **independent** but work together to determine availability:
    → Check your organization's data residency policies
 ```
 
-### Summary of key factor
+### Summary of key factors
 
 "The following table summarizes the key differences between these four factors:"
 
-| factor | What it determines | Set by | Can it be changed? | Example |
+| Factor | What it determines | Set by | Can it be changed? | Example |
 |-----------|-------------------|--------|-------------|---------|
 | 1. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
 | 2. Business Central environment country/region| Localization and regulatory features | You (at environment creation) | No | Denmark (DK), United States (US) |

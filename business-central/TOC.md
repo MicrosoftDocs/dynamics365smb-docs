@@ -2657,7 +2657,7 @@ ms.service: dynamics-365-business-central
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot and agent capabilities
 ## [Copilot overview](copilot-overview.md)
-## [Copilot country/region availability and supported languages](copilot-language-geo.md)
+## [Copilot country/region and language availability](copilot-language-geo.md)
 ## Manage Copilot and agent capabilities
 ### [Configure Copilot and agent capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)

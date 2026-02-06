@@ -98,8 +98,8 @@ The following sections explain each dimension in detail.
 **What it is**: The Azure region where your Business Central environment database is physically hosted and stored.
 
 **Why it matters**:
+
 - Determines physical location of your business data
-- 
 - Automatically determined by your environment country/region setting
 - Affects data residency compliance and regulations
 - Can result in cross-geography data movement if Azure OpenAI Service operates in a different geography. Learn more in [Cross-geography data movement for Copilot](ai-copilot-data-movement.md)

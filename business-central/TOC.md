@@ -2177,10 +2177,10 @@ ms.service: dynamics-365-business-central
 ###### [General Setup](SRB/setup/general.md)
 ###### [Assign permissions](SRB/setup/permissions.md)
 ###### [Set up subscription contract types](SRB/setup/contract-types.md)
+###### [Manage subscription packages](SRB/masterdata/service-commitments.md)
 ###### [Import subscription contracts and contract lines](SRB/setup/import.md)
 ###### [Use the job queue](SRB/setup/job-queue.md)
 ###### [Use subscription lines and items](SRB/masterdata/items.md)
-###### [Manage subscription lines](SRB/masterdata/service-commitments.md)
 ### Set up purchase
 #### [Set up purchase](purchasing-setup-purchasing.md)
 #### [Register new vendors](purchasing-how-register-new-vendors.md)

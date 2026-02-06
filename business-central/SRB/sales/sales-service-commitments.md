@@ -4,7 +4,7 @@ description: You can use sales with subscription lines in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8059,
 ms.date: 07/11/2025

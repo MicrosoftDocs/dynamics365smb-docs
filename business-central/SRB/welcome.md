@@ -60,7 +60,7 @@ If the service is a subscription line (see Types of Services), you can add
 
 The following illustration shows that items are set up with subscription packages with one or more subscription lines. When the quote or order is shipped, the item becomes a subscription. The subscription lines assigned to the subscription must be assigned to a contract to be billed on a recurring basis. The contract and its subscription lines contain the billing information. When posting contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
 
-:::image type="content" source="../media/srbFlow.png" alt-text="Shows the flow in subscription billing.":::
+:::image type="content" source="../media/SB-Flow.png" alt-text="Shows the flow in subscription billing.":::
 
 ## Subscription Billing Role Center​
 

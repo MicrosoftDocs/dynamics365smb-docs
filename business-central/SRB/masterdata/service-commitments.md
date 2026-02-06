@@ -1,17 +1,18 @@
 ---
-title: Subscription lines in subscription billing
+title: Subscription packages and subscription lines
 description: You can use subscription lines in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8059,
-ms.date: 07/11/2025
+ms.date: 02/06/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Subscription lines in subscription billing
+# Subscription packages and subscription lines
 
 Subscription lines represent obligations to customers and suppliers. They usually begin with the delivery of an item to the customer, include subsequent support, and govern billing arrangements. A subscription line can also be the subject of provision itself, for example, in the case of a support service.
 
@@ -23,7 +24,7 @@ Subscription lines include the details of the obligations that the supplier of a
 
 The following image shows the use of subscription lines.
 
-:::image type="content" source="../../media/srb use of service commitments.png" alt-text="Screenshot that shows the flow for subscription lines.":::
+:::image type="content" source="../../media/SB-Flow.png" alt-text="Screenshot that shows the flow for subscription lines.":::
 
 ## Subscription packages​
 

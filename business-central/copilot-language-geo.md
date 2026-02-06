@@ -20,7 +20,7 @@ Use the feature availability table in the next section to get a quick overview o
 
 The following table lists Copilot features in Business Central, along with the Business Central country/region versions in which they're available and languages they support. Learn more about how geography, localization, and languages affect availability in the sections after the table.
 
-|Feature|Countries/regions|Supported Languages|
+|Feature|Countries/regions|Supported languages|
 |---|---|---|
 |[Analysis assist](analysis-assist.md)|[All](https://aka.ms/bccountries)|Chinese Simplified (zh-CN)<br>Czech (cs-CZ)<br>Danish (da-DK)<br>Dutch (nl-BE, nl-NL)<br>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)<br>Finnish (fi-FI)<br>French (fr-BE, fr-CA, fr-CH, fr-FR)<br>German (de-AT, de-CH, de-DE)<br>Greek (el-GR)<br>Italian (it-CH, it-IT)<br>Japanese (ja-JP)<br>Korean (ko-KR)<br>Norwegian Bokmål (nb-NO)<br>Polish (pl-PL)<br>Portuguese Brazil (pt-BR)<br>Russian (ru-RU)<br>Spanish (es-CO, es-ES, es-MX, es-PE)<br>Swedish (sv-SE)<br>Thai (th-TH)<br>Turkish (tr-TR)|
 |[Autofill fields](autofill-fields-with-copilot.md)|[All](https://aka.ms/bccountries)|English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)|

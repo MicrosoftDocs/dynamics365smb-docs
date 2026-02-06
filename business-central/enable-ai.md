@@ -91,7 +91,7 @@ The following table lists the permissions needed to use the different Copilot an
 |Payables Agent|Learn more in [Manage Payables Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
 | Sales line suggestions | Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**. |
 |Sales Order Agent|Learn more in [Manage Sales Order Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
-| Custom Agent (preview) | Learn more in [AI development toolkit (preview)](/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview).|
+| Custom Agent (preview) | Learn more in [Designing and coding agents (preview)](/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview).|
 
 To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.
 

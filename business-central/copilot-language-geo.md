@@ -150,7 +150,7 @@ The following sections explain each factor in detail.
 - United Arab Emirates (North, West)
 
 > [!TIP] 
-> You can identify the Azure region fthe Business Central admin center. [Learn more](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment)
+> You can identify the Azure region from the Business Central admin center. [Learn more](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment)
 
 #### 4. Supported languages
 

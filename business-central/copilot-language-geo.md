@@ -172,7 +172,7 @@ The following sections explain each factor in detail.
 
 Understanding the difference between supported and unlocked languages is critical for setting appropriate expectations:
 
-**Supported languages** (listed in the [feature table](#feature-availability-by-countryregion-and-language):
+**Supported languages** (listed in the [feature table](#feature-availability-by-countryregion-and-language)):
 
 - Microsoft officially tests and validates these languages
 - Meet established quality metrics for accuracy and appropriateness

@@ -212,12 +212,12 @@ These factors are **independent** but work together to determine availability:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ User in London, England                                         │
+│ User in England                                                 │
 │                                                                 │
-│ [1] Uses Business Central in language: English GB               │
+│ [1] Uses Business Central in language: English (United Kingdom) │
 │         ↓                                                       │
 │ [2] Environment country/region is: United Kingdom (GB)          │
-│     (Danish VAT, tax rules, regulatory features)                │
+│     (UK VAT, tax rules, regulatory features)                    │
 │         ↓                                                       │
 │ [3] Environment data stored in Azure region: United Kingdom West│
 │     (Database, transactions, customer data)                     │
@@ -225,7 +225,7 @@ These factors are **independent** but work together to determine availability:
 │ [4] Copilot prompt sent to AZURE OPENAI in: United Kingdom      │
 │     (AI processing, model inference)                            │
 │         ↓                                                       │
-│ [5] Response returned in: DANISH (supported language)           │
+│ [5] Response returned in: English (supported language)          │
 └─────────────────────────────────────────────────────────────────┘
 
    ✓ All four factors align - Full functionality available
@@ -235,17 +235,17 @@ These factors are **independent** but work together to determine availability:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ User in Copenhagen, Denmark                                     │
+│ User in Japan                                                   │
 │                                                                 │
-│ [1] Uses Business Central in language: DANISH                   │
+│ [1] Uses Business Central in language: Japanese (Japan)         │
 │         ↓                                                       │
-│ [2] Environment country/region is: DENMARK (DK)                 │
+│ [2] Environment country/region is: Japan (JP)                   │
 │         ↓                                                       │
-│ [3] Environment data stored in Azure region: EUROPE NORTH       │
+│ [3] Environment data stored in Azure region: Japan West         │
 │         ↓                                                       │
 │         ↓  ! DATA CROSSES GEOGRAPHY BOUNDARY                    │
 │         ↓                                                       │
-│ [4] Copilot prompt sent to AZURE OPENAI in: SWEDEN              │
+│ [4] Copilot prompt sent to AZURE OPENAI in: United States West  │
 │     (Feature not yet available in Europe geography)             │
 │         ↓                                                       │
 │         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │

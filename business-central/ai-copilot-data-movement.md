@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: article
-ms.date: 10/13/2025
+ms.date: 02/09/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
@@ -28,16 +28,17 @@ When you use Copilot, your inputs (prompts) and outputs (results), including any
 > [!IMPORTANT]
 > If your Business Central environment is hosted in the EU Data Boundary, we use an Azure OpenAI endpoint in the same boundary. Learn more in [EU Data Boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn#eu-data-boundary-countries-and-datacenter-locations).
 
-The following table describes when and how data can move across geographies for Copilot in Business Central. 
+The following table describes when and how data can move across geographies for Copilot in Business Central.
 
 |Azure&nbsp;region&nbsp;where&nbsp;your&nbsp;Business&nbsp;Central environment is hosted|Azure geography where Azure OpenAI Service is hosted|Consent required for data movement across geographies?|How to allow data to move across geographic areas|
 |-|-|-|-|
-|<ul><li>Asia (East, South East)</li><li>Australia (South East)</li><li>United Kingdom (South, West)</li><li>India (Central, South)</li><li>United States (Central, East, North Central, South Central, West)</li></ul>|Within the same geographic area of your Business Central environment|No|No action required. Data doesn't move across geographies in this scenario. |
-|<ul><li>Europe (West, North)</li><li>France (Central, South)</li><li>Germany (North, West Central)</li><li>Norway (East, West)</li><li>Sweden (Central, South)</li><li>Switzerland (North, West) </li></ul>|Spain, Sweden, or Switzerland|Yes|Data doesn't move outside the EU Data Boundary in this scenario. Learn more about EU Data Boundary countries and datacenter locations at [What is the EU Data Boundary?](/privacy/eudb/eu-data-boundary-learn#eu-data-boundary-countries-and-datacenter-locations)<br><br>For environments in these Azure regions, Copilot may use Azure OpenAI Service in any of the three Azure geographies.<br><br>**Note:** By default, the **Allow data movement** toggle is on. If you don't want to provide consent to data movement to other geographies within the EU Data Boundary, you can switch off the toggle at any time. In this case, Copilot features won't be available to your organization.|
+|<ul><li>Asia (East, South East)</li><li>Australia (South East)</li><li>United Kingdom (South, West)</li><li>India (Central, South)</li><li>United States (Central, East, North Central, South Central, West)</li></ul>|Within the same geographic area as the Business Central environment|No|No action required. Data doesn't move across geographies in this scenario.|
+|<ul><li>Europe (West, North)</li><li>France (Central, South)</li><li>Germany (North, West Central)</li><li>Norway (East, West)</li><li>Sweden (Central, South)</li><li>Switzerland (North, West) </li></ul>|A geography in the EU Data Boundary|Yes|Azure OpenAI Service is available in multiple geographies within the EU Data Boundary. Copilot can operate in any of these locations, and your data will remain inside the EU Data Boundary at all times.<br><br>Learn more about the countries and datacenter locations included in the boundary in [What is the EU Data Boundary?](/privacy/eudb/eu-data-boundary-learn#eu-data-boundary-countries-and-datacenter-locations)<br><br>**Note:** The **Allow data movement** toggle is turned on by default. If you disable it, Copilot won’t be able to process data across EU Data Boundary geographies, and Copilot features will no longer be available to your organization.|
 |<ul><li>Brazil (South)</li><li>Canada (Central, East)</li><li>Japan (East, West)</li><li>Korea (Central, South)</li><li>South Africa (North, West)</li><li>United Arab Emirates (North, West)</li></ul> |United States|Yes|**Note:** By default, the **Allow data movement** toggle is on. If you don't want to provide consent to data movement, you can switch off the toggle at any time. In this case, Copilot features won't be available to your organization.|
 
+<!--
 > [!IMPORTANT]
-> The **Allow data movement** toggle is on by default from update 25.0. Administrators can opt out at any time, even before environments are upgraded. Environments upgrading to update 25.0 or later will have the **Allow data movement** toggle turned on by default from November 3, 2024, or from the date you have specified for the environment to be upgraded to update 25.0. New environments created after October 1, 2024, will have the **Allow data movement** toggle turned on.
+> The **Allow data movement** toggle is on by default from update 25.0. Administrators can opt out at any time, even before environments are upgraded. Environments upgrading to update 25.0 or later will have the **Allow data movement** toggle turned on by default from November 3, 2024, or from the date you have specified for the environment to be upgraded to update 25.0. New environments created after October 1, 2024, will have the **Allow data movement** toggle turned on.-->
 
 ## How to find the Azure region of a Business Central environment
 

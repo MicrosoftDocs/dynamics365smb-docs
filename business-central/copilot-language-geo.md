@@ -250,7 +250,7 @@ These factors are **independent** but work together to determine availability:
 │         ↓                                                       │
 │         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │
 │         ↓                                                       │
-│ [5] Response returned in: DANISH (supported language)           │
+│ [5] Response returned in: Japanese (supported language)         │
 └─────────────────────────────────────────────────────────────────┘
 
    !  Cross-geography data movement occurs

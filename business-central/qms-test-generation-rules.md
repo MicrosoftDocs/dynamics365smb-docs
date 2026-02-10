@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.form: 
-ms.date: 10/20/2025
+ms.date: 02/10/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -35,25 +35,27 @@ You can create inspection generation rules for various types of source documents
 
 - **Purchase** documents create inspections based on purchase order transactions, and trigger when you post purchase receipts. They support filters for vendors and items.
 - **Production** creates inspections based on production output or assembly orders, and trigger when you post output. They support filters for routes, work centers, and operations.
-- You can also create rules for **Sales Return**, **Warehouse Receipt**, **Warehouse Movement**, **Transfer**, and **Assembly** documents.
+- You can also create rules for sales return, warehouse receipt, warehouse movement, transfer, and assembly documents.
 
 ## Set up a quality inspection generation rule manually
 
 You might want to create an inspection generation rule manually when you have custom or complex filtering requirements.
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Generation Rules**, and then choose the related link.
+1. Choose **New**.
 1. In the **Sort Order** field, specify how early you want [!INCLUDE [prod_short](includes/prod_short.md)] to find this template based on the rule. Lower sort order numbers are chosen first.
+1. In the **Template Code** field, choose the template to use as the basis for the quality inspection.
 1. In the **Intent** field, specify the type of source document that the rule applies to.
 1. In the **Table** field, choose a table that's relevant for the type of source document you chose in the **Intent** field. For example, if you chose **Warehouse**, you should probably choose the **Warehouse Receipt Line** table.
 1. Optionally, in the **Condition Filter**, **Item Filter**, and **Attribute Filter** fields, choose one or more fields to use as the filter that determines when to use this template.
 1. In the **Activation Trigger** field, choose one of the following options:
 
-   - **Manual or Automatic**: Both methods are enabled.
-   - **Manual Only**: Only allow manual inspection creation.
-   - - **Automatic Only**: Automatic creation when the corresponding event is triggered, for example, when you post a receipt or purchase transaction.
+   - **Manual or Automatic**: Both the manual and automatic creation methods are enabled.
+   - **Manual Only**: Only allow manual creation of inspections.
+   - - **Automatic Only**: Allow automatic creation when the corresponding event is triggered, for example, when you post a receipt or purchase transaction.
    - **Disabled**: No automatic inspection creation.
 
-1. Depending on your selection in the **Intent** field, specify when to trigger the creation of inspections for assembly, production, purchase, and warehouse receipts. 
+1. Depending on your selection in the **Intent** field, specify when to trigger the creation of inspections for assembly, production, purchase orders, sales returns, transfer orders, and warehouse receipts and movements. 
 
    > [!TIP]
    > You can only select an option for the trigger that corresponds to your selection in the **Intent** field.
@@ -70,7 +72,7 @@ This rule is best for inspecting goods for purchase receipts.
 
 1. [!INCLUDE [prod_short](includes/prod_short.md)], enter **Quality Inspection Generation Rules**, and then choose the related link.
 1. Choose the **Create Receiving Rule** action.
-1. In the **Choose Template field, select the template you're creating the rule for.
+1. In the **Choose template** field, select the template you're creating the rule for.
 1. Turn on the toggle for the type of receiving rule to create. You can only choose one type.
 1. Choose **Next**.
 1. In the **Location**, **Vendor No.**, and **Purchasing Code**, fields specify the location, vendor, or purchasing code can create inspections according to the rule.

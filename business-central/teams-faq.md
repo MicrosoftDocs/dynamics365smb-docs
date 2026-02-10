@@ -102,7 +102,7 @@ If you're a reselling partner, you might want to have an environment that you ca
 
 ### Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams cater to my customization and personalization?
 
-The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can display cards for links to customer pages and tables in [!INCLUDE [prod_short.md](includes/prod_short.md)], such as those pages and tables from your own custom extensions or AppSource.
+The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can display cards for links to customer pages and tables in [!INCLUDE [prod_short.md](includes/prod_short.md)], such as those pages and tables from your own custom extensions or Marketplace.
 
 The fields shown on a card in Teams can also be affected by [!INCLUDE [prod_short.md](includes/prod_short.md)] customizations installed for your organization. Cards don't consider any role-specific customizations or user personalization. However, the card details window shows record details as you would see them in [!INCLUDE [prod_short.md](includes/prod_short.md)], including extensions, role customizations, and user personalization.
 

@@ -30,7 +30,7 @@ To learn more about how to create Shopify trials and the recommended settings, g
 
 - Make sure that the **[Shopify Connector](https://go.microsoft.com/fwlink/?linkid=2196238)** app is installed.
 
-  The app is preinstalled for all new sign-ups and trials. Learn more about installing apps from AppSource at [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Use the following steps if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
+  The app is preinstalled for all new sign-ups and trials. Learn more about installing apps from Marketplace at [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Use the following steps if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Ensure that the user has the right permissions. Shopify Connector is covered by the **Shopify – Admin (SHPFY – ADMIN)** permission set. Learn more at [Create Users According to Licenses](../ui-how-users-permissions.md) and [Assign Permissions to Users and Groups](../ui-define-granular-permissions.md).
 

@@ -19,7 +19,7 @@ The Data Archive extension provides a basic framework for archiving and backing 
 
 ## Start Archiving Data
 
-The extension is pre-installed and available on the **Extension Management**, so you don't need to do anything to get started. The extension is also available on AppSource.
+The extension is pre-installed and available on the **Extension Management**, so you don't need to do anything to get started. The extension is also available on Marketplace.
 
 Your data archives are listed on the **Data Archive List** page. Each archive can contain data from multiple tables, and can hold up to 10,000 records. If there are more than 10,000 records in a table, a second archive will be created for the next 10,000 records, and so on. For example, if you archive 10,100 G/L entries, Business Central creates one "G/L Entry" archive for the first 10,000 entries, and then a second archive for the remaining 100 entries.
 

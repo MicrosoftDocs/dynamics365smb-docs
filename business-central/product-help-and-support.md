@@ -96,7 +96,7 @@ The **Find it** section includes two links to product Help:
   
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described in the [Dynamics 365 Business Central documentation](/dynamics365/business-central) Learn more in the [Learn more using the product documentation](#learn-more-using-the-product-documentation) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
+  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described in the [Dynamics 365 Business Central documentation](/dynamics365/business-central) Learn more in the [Learn more using the product documentation](#learn-more-using-the-product-documentation) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from Marketplace. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### Community
 

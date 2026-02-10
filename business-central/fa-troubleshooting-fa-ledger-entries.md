@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 Use the Troubleshooting FA Ledger Entries extension to round depreciation and acquisition amounts in fixed asset ledger entries to whole numbers. For example, to round an amount of 30,000.44 to 30,000. Typical causes of rounding issues are data migration, suddenly starting to post amounts to the general ledger, or customizations you've made to your [!INCLUDE[prod_short](includes/prod_short.md)].
 
-The Troubleshooting FA Ledger Entries extension is preinstalled and ready to go. If you remove the extension, but want to install it again, you can find it on AppSource.
+The Troubleshooting FA Ledger Entries extension is preinstalled and ready to go. If you remove the extension, but want to install it again, you can find it on Marketplace.
 
 ## Troubleshooting fixed asset ledger entries
 

@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 10/04/2025
+ms.date: 01/14/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 488_Primary, 489_Primary, 490, 764, 765, 766
@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 # Column definitions in Financial Reporting
 
-Use column definitions to specify the columns to include in a report. For example, you can design a report layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns in a column definition. For example, multiple columns are useful for displaying budgets for 12 months with a column that shows the total.
+Use column definitions to define how columns are shown in a report. For example, you can design a column definition to compare net change and balance for the same period this year and last year. For reports that are exported to PDF, you can have up to 15 columns in a column definition. For example, multiple columns are useful for displaying budgets for 12 months with a column that shows the total.
 
 ## Create a new column definition
 
@@ -43,11 +43,11 @@ To edit the content of a column definition, follow these steps.
 
 [!INCLUDE [applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides sample column definitions that can help you to quickly get started setting up finance reports that suit your needs. 
+[!INCLUDE[prod_short](includes/prod_short.md)] provides sample column definitions that can help you to quickly get started setting up finance reports that suit your needs. You might need to create a new company with demo data to get them. Then you can export them and import into the company that you work in.
 
 | Column definition code | Description                                  | Category of analysis | 
 | ---------------------- | -------------------------------------------- | -------------------- |
-| ACT/BUD    | Actual / Budget Comparison                              | Budget Analysis      |
+| ACT/BUD    | Actual / Budget Comparison                               | Budget Analysis      |
 | BAL ONLY   | Balance Only                                             | Balance              |
 | BBDRCREB   | TB Beginning Balance Debits Credits Ending Balance       | (Trial) Balance      |
 | BSTREND    | BS 12 Months Balance Trending Current Fiscal Year        | Balance              |

@@ -44,7 +44,7 @@ Page Search has evolved into Tell Me to help you get work done quickly. Page Sea
 
 ## I use on-premises [!INCLUDE[prod_short](includes/prod_short.md)]. Does that include Tell Me?
 
-You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not apps and consulting services on AppSource.
+You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not apps and consulting services on Marketplace.
 
 ## Is Tell Me available for all form factors?
 

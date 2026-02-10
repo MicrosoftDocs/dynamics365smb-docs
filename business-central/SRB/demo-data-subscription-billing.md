@@ -24,16 +24,16 @@ Subscription Billing supports Contoso demo data. The Contoso demo data for Subsc
 ## Key Features
 
 - **Comprehensive Demo Data:** Generate a rich set of demo data that includes setup, master, and transactional data for Subscription Billing.
-- **Automated Generation:** Create the data by using the **Subscription Billing Demo Data** app, which you can get on Microsoft AppSource. You can generate demo data in full, or just the basic setup data.
+- **Automated Generation:** Create the data by using the **Subscription Billing Demo Data** app, which you can get on Microsoft Marketplace. You can generate demo data in full, or just the basic setup data.
 - **Localization Support:** Generate demo data for multiple countries/regions (for example, AT, AU, BE, CA, CH, CZ, DE, DK, ES, FI, FR, GB, IS, IT, NL, NO, NZ, SE, US, W1).
 - **Job Queue Integration:** Optionally, create job queue entries for Subscription Billing tasks.
 - **Data Exchange and Reconciliation:** Import data exchange definitions and reconciliation files for usage data.
 
 ## How to use the demo data
 
-### 1. Install the Subscription Billing Demo Data app frin AppSource
+### 1. Install the Subscription Billing Demo Data app frin Marketplace
 
-- Deploy the **Subscription Billing Demo Data** app in your Business Central environment. The app is available on Microsoft AppSource.
+- Deploy the **Subscription Billing Demo Data** app in your Business Central environment. The app is available on Microsoft Marketplace.
 
 ### 2. Generate the demo data
 

@@ -34,9 +34,9 @@ Learn more in [SII setup](sii-setup.md), which provides more information about h
 ### Enable B2BRouter connector
 
 1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
-1. Choose the **Install E-Documents integration from AppSource** action to open the **Microsoft AppSource apps** page.  
-1. Choose the **B2BRouter** connector, and then select the **View on AppSource** action.  
-1. Install the app from the AppSource.
+1. Choose the **Install E-Documents integration from Marketplace** action to open the **Microsoft Marketplace apps** page.  
+1. Choose the **B2BRouter** connector, and then select the **View on Marketplace** action.  
+1. Install the app from the Marketplace.
 1. On the **E-Document Service** page, change the **Service Integration** to **B2BRouter**.  
 1. On the **E-Document Service** page, select the **Setup Service Integration** action.
 1. On the **B2BRouter Connection Setup** page, enter the **API-KEY** to specify the key you'll use for your B2BRouter environment and the **ProjectID** field to specify the project name for the B2BRouter environment.

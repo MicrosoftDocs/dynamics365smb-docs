@@ -47,7 +47,7 @@ sections:
           
           This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online and on-premises.  
           
-          Also, if the capability is published as an extension in AppSource, then there's a delay between the extension being announced and its availability in AppSource. This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online only.  
+          Also, if the capability is published as an extension in Marketplace, then there's a delay between the extension being announced and its availability in Marketplace. This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online only.  
           
       - question: |
           Are there any differences between an on-premises deployment and Business Central online?
@@ -153,7 +153,7 @@ sections:
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and other services. Learn more at the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/).  
           
-          When you're ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+          When you're ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft Marketplace](https://go.microsoft.com/fwlink/?linkid=845998).  
           
           If you want guidance from Microsoft, contact the [Microsoft Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
           

@@ -254,7 +254,7 @@ The [!INCLUDE [powerbi-connector-name](includes/powerbi-connector-name.md)] supp
 
 > **APPLIES TO:** [!INCLUDE [prod_short](includes/prod_short.md)] online
 
-When you connect to [!INCLUDE [prod_short](includes/prod_short.md)] online from [!INCLUDE [powerbi-name](includes/powerbi-name.md)], or when you install a [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] app from Microsoft AppSource that uses [!INCLUDE [prod_short](includes/prod_short.md)] data, you might be prompted to input the [!INCLUDE [prod_short](includes/prod_short.md)] environment you want to connect to.
+When you connect to [!INCLUDE [prod_short](includes/prod_short.md)] online from [!INCLUDE [powerbi-name](includes/powerbi-name.md)], or when you install a [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] app from Microsoft Marketplace that uses [!INCLUDE [prod_short](includes/prod_short.md)] data, you might be prompted to input the [!INCLUDE [prod_short](includes/prod_short.md)] environment you want to connect to.
 
 If you get an error similar to "Expression.Error: The environment 'Production' doesn't exist.", follow these steps to troubleshoot:
 

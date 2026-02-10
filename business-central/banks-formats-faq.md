@@ -26,7 +26,7 @@ No, there are no plans to remove the current formats and import/export options. 
 
 ### How can I find banking and payment apps for my country/region?
 
-You can find ISV banking solutions that support banking and/or payment-related functionality on the **Banking Apps** page or on [AppSource](https://appsource.microsoft.com/)
+You can find ISV banking solutions that support banking and/or payment-related functionality on the **Banking Apps** page or on [Marketplace](https://marketplace.microsoft.com/)
 
 Make sure to check the features of each app to see if they match your business needs and your bank requirements. 
 

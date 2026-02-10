@@ -24,7 +24,7 @@ You can register files or paper copies received from your trading partners in [!
 Upload the received files, or use your device's camera to take a photo, and create entries to represent the external documents. Optionally, with PDF or image files, you can have an external optical character recognition (OCR) service generate electronic documents that can then be converted to records inside [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
-> The OCR feature is provided by external providers. Choose a service package that's appropriate for your organization and/or country/region. Find services compatible with [!INCLUDE[prod_short](includes/prod_short.md)] and details on available features at [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
+> The OCR feature is provided by external providers. Choose a service package that's appropriate for your organization and/or country/region. Find services compatible with [!INCLUDE[prod_short](includes/prod_short.md)] and details on available features at [Marketplace.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** page. Alternatively, some OCR providers offer the option of processing files forwarded to a dedicated email address, which then automatically creates a related incoming document record. After some seconds, you receive the file back from the OCR service as an electronic invoice that can be converted to a purchase invoice for the vendor.
 

@@ -98,7 +98,7 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 
 On top of the core capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft adds some apps that are listed on the [Extension Management](https://businesscentral.dynamics.com/?page=2500) page. Each app provides a link to launch its setup page. Choose the **Set up** action to get started.  
 
-You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short.md)] by adding AppSource apps. Learn more at [Customizing Business Central Online Using Extensions](ui-extensions.md).  
+You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short.md)] by adding Marketplace apps. Learn more at [Customizing Business Central Online Using Extensions](ui-extensions.md).  
 
 ## Migrate data from other systems
 

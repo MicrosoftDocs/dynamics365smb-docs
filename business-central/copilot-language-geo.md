@@ -67,7 +67,7 @@ To understand Copilot feature availability and support, you need to consider fou
 | 4. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
 
 > [!NOTE]
-> Factors 3 and 4 involve technical infrastructure and data movement considerations. Learn more qbout these factors in [Copilot data movement across geographies](ai-copilot-data-movement.md).
+> Factors 3 and 4 involve technical infrastructure and data movement considerations. Learn more about these factors in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
 ### Supported languages
 

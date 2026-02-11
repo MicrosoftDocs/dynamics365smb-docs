@@ -61,10 +61,10 @@ To understand Copilot feature availability and support, you need to consider fou
 
 | Factor | What it determines | Set by | Can it be changed? | Example |
 |-----------|-------------------|--------|-------------|---------|
-| 1. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish, English, German, French |
-| 2. Business Central environment country/region| Localization and regulatory features | Admin (at environment creation) | No | Denmark (DK), United States (US) |
-| 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region | No | Germany West Central, North America |
-| 4. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
+| 1. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish |
+| 2. Business Central environment country/region| Localization and regulatory features | Admin (at environment creation) | No | Denmark (DK) |
+| 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region | No | Europe (North) |
+| 4. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe |
 
 > [!NOTE]
 > Factors 3 and 4 involve technical infrastructure and data movement considerations. Learn more about these factors in [Copilot data movement across geographies](ai-copilot-data-movement.md).

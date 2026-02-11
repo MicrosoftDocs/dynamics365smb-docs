@@ -46,6 +46,126 @@ To find the Azure region where a Business Central environment is hosted, sign in
 
 ![Shows the environment details in Business Central admin center](media/business-central-admin-center-azure-region.svg "Shows the environment details in Business Central admin center")
 
+## Understanding Azure OpenAI Service geography and data residency
+
+This section provides detailed information about the geographic factors that affect Copilot data movement and availability.
+
+### Azure OpenAI Service geography
+
+**What it is**: The physical Azure data center regions where the AI model processes your prompts and generates responses. An Azure geography can consist of one or more data center regions.
+
+**Why it matters**:
+
+- Determines where AI processing occurs for compliance and data sovereignty
+- Affects latency and performance of AI responses
+
+**Key point**: It's about **where the AI thinks**, not where your business data lives.
+
+**Example**: When you use analysis assist in Business Central, your prompt is sent to an Azure OpenAI endpoint in a specific geography (such as Europe, United States, or Asia Pacific) for processing.
+
+**Current geographies**
+
+- Australia
+- Europe
+- France
+- Germany
+- India
+- Japan
+- Norway
+- Sweden
+- Switzerland
+- United Kingdom
+- United States
+
+### Azure region for Business Central data residency
+
+**What it is**: The Azure region where your Business Central environment database is physically hosted and stored, like Europe (West) or United States (East)
+
+**Why it matters**:
+
+- Determines physical location of your business data
+- Automatically determined by your environment country/region setting
+- Affects data residency compliance and regulations
+- Can result in cross-geography data movement if Azure OpenAI Service operates in a different geography
+
+**Key point**: It's about **where your business data lives**.
+
+**Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records.
+
+**Current regions:**
+
+- Asia (East, South East)
+- Australia (East, South East)
+- Brazil (South)
+- Canada (Central, East)
+- Europe (West, North)
+- France (Central, South)
+- Germany (North, West Central)
+- India (Central, South)
+- Japan (East, West)
+- Korea (Central, South)
+- Norway (East, West)
+- Switzerland (North, West)
+- United Kingdom (West, South)
+- United States (Central, East, North Central, South Central, West)
+- Korea (Central, South)
+- South Africa (North, West)
+- Sweden (Central, South)
+- United Arab Emirates (North, Central)
+
+### How geography and data residency factors work together
+
+These two geographic factors are **independent** but work together with environment configuration and language settings to determine Copilot availability:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ User in England                                                 │
+│                                                                 │
+│ [1] Uses Business Central in language: English (United Kingdom) │
+│         ↓                                                       │
+│ [2] Environment country/region is: United Kingdom (GB)          │
+│     (UK VAT, tax rules, regulatory features)                    │
+│         ↓                                                       │
+│ [3] Environment data stored in Azure region: United Kingdom West│
+│     (Database, transactions, customer data)                     │
+│         ↓                                                       │
+│ [4] Copilot prompt sent to AZURE OPENAI in: United Kingdom      │
+│     (AI processing, model inference)                            │
+│         ↓                                                       │
+│ [5] Response returned in: English (supported language)          │
+└─────────────────────────────────────────────────────────────────┘
+
+   ✓ All factors align - Full functionality available
+```
+
+**Cross-geography scenario**:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ User in Japan                                                   │
+│                                                                 │
+│ [1] Uses Business Central in language: Japanese (Japan)         │
+│         ↓                                                       │
+│ [2] Environment country/region is: Japan (JP)                   │
+│         ↓                                                       │
+│ [3] Environment data stored in Azure region: Japan West         │
+│         ↓                                                       │
+│         ↓  ! DATA CROSSES GEOGRAPHY BOUNDARY                    │
+│         ↓                                                       │
+│ [4] Copilot prompt sent to AZURE OPENAI in: United States West  │
+│     (Feature not yet available in Asia geography)               │
+│         ↓                                                       │
+│         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │
+│         ↓                                                       │
+│ [5] Response returned in: Japanese (supported language)         │
+└─────────────────────────────────────────────────────────────────┘
+
+   !  Cross-geography data movement occurs
+   → Check your organization's data residency policies
+```
+
+Learn more about all factors affecting Copilot availability in [Copilot country/region availability and supported languages](copilot-language-geo.md#key-factors-of-copilot-availability).
+
 ## Related information
 
 [What is the EU Data Boundary?](/privacy/eudb/eu-data-boundary-learn)  

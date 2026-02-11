@@ -22,20 +22,20 @@ The following table lists Copilot features in Business Central, along with the B
 
 |Feature|Countries/regions|Supported languages|
 |---|---|---|
-|[Analysis assist](analysis-assist.md)|[All](https://aka.ms/bccountries)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
-|[Autofill fields](autofill-fields-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
-|[Bank account reconciliation assist](bank-reconciliation-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
-|[Map e-documents to purchase order lines](map-edocuments-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
-|[Marketing text suggestions](item-marketing-text.md)|[All](https://aka.ms/bccountries)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
+|[Analysis assist](analysis-assist.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
+|[Autofill fields](autofill-fields-with-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
+|[Bank account reconciliation assist](bank-reconciliation-with-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
+|[Map e-documents to purchase order lines](map-edocuments-with-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
+|[Marketing text suggestions](item-marketing-text.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
 |[Payables Agent](payables-agent.md)|<ul><li>AU (Australia)</li><li>CA (Canada)</li><li>DE (Germany)</li><li>DK (Denmark)</li><li>ES (Spain)</li><li>FR (France)</li><li>GB (United Kingdom)</li><li>IT (Italy)</li><li>NZ (New Zealand)</li><li>US (United States)</li></ul>|<ul><li>English (en-AU, en-GB, en-US, en-NZ)</li></ul>|
-|[Sales line suggestions](sales-suggest-sales-lines-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
-|[Sales Order Agent](sales-order-agent.md)|[All](https://aka.ms/bccountries)|<ul><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-NZ, en-US)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Icelandic (is-IS)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Norwegian Bokmål (nb-NO)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-ES, es-MX)</li><li>Swedish (sv-SE)</li></ul>|
-|[Suggest item substitutions](suggest-item-substitutions-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
-|[Suggest number series](suggest-number-series-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
-|[Summarize records](summarize-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
+|[Sales line suggestions](sales-suggest-sales-lines-with-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
+|[Sales Order Agent](sales-order-agent.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-NZ, en-US)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Icelandic (is-IS)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Norwegian Bokmål (nb-NO)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-ES, es-MX)</li><li>Swedish (sv-SE)</li></ul>|
+|[Suggest item substitutions](suggest-item-substitutions-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
+|[Suggest number series](suggest-number-series-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
+|[Summarize records](summarize-with-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
 
 > [!NOTE]
-> While features can be used in other languages than those listed, they might not function as intended. Learn more in [Supported languages](#supported-versus-unsupported-languages).
+> Features can be used in other languages not listed, but they might not function as intended. Learn more in [Supported languages](#supported-versus-unsupported-languages).
 
 ## Understanding Copilot availability: Geography, languages, and localization
 
@@ -59,107 +59,30 @@ This phased approach ensures that when a feature becomes available in your geogr
 
 To understand Copilot feature availability and support, you need to consider four independent but interconnected factors:
 
-1. **Azure OpenAI Service geography** - Where AI processing occurs
-2. **Business Central environment country/region version** - Defines localization and business rules
-3. **Business Central data residency (Azure region)** - Where your business data is stored
-4. **Supported languages** - Languages for user interaction
+| Factor | What it determines | Set by | Can it be changed? | Example |
+|-----------|-------------------|--------|-------------|---------|
+| 1. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish |
+| 2. Business Central environment country/region| Localization and regulatory features | Admin (at environment creation) | No | Denmark (DK) |
+| 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region | No | Europe (North) |
+| 4. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe |
 
-The following sections explain each factor in detail.
+> [!NOTE]
+> Factors 3 and 4 involve technical infrastructure and data movement considerations. Learn more about these factors in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-#### 1. Azure OpenAI Service geography
-
-**What it is**: The physical Azure data center regions where the AI model processes your prompts and generates responses. An Azure geography can consist of one or more data center regions.
-
-**Why it matters**:
-
-- Determines where AI processing occurs for compliance and data sovereignty
-- Affects latency and performance of AI responses
-
-**Key point**: It's about **where the AI thinks**, not where your business data lives.
-
-**Example**: When you use analysis assist in Business Central, your prompt is sent to an Azure OpenAI endpoint in a specific geography (such as Europe, United States, or Asia Pacific) for processing.
-
-**Current geographies**
-
-- Australia
-- Europe
-- France
-- Germany
-- India
-- Japan
-- Norway
-- Sweden
-- Switzerland
-- United Kingdom
-- United States
-
-#### 2. Business Central country/region version
-
-**What it is**: The country/region setting you choose when creating a Business Central environment, which determines the localization version of Business Central.
-
-**Why it matters**:
-
-- Controls which regulatory features, tax calculations, and reporting formats are available
-- Determines which localization-specific functionality you have access to
-- Can't be changed after environment creation
-- Determines the Azure region where Business Central data is stored
-
-**Key point**: It's about **localization and regulatory compliance**, not physical data location.
-
-**Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
-
-#### 3. Azure region for Business Central data residency
-
-**What it is**: The Azure region where your Business Central environment database is physically hosted and stored, like Europe (West) or United States (East)
-
-**Why it matters**:
-
-- Determines physical location of your business data
-- Automatically determined by your environment country/region setting
-- Affects data residency compliance and regulations
-- Can result in cross-geography data movement if Azure OpenAI Service operates in a different geography. Learn more in [Cross-geography data movement for Copilot](ai-copilot-data-movement.md)
-
-**Key point**: It's about **where your business data lives**.
-
-**Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records.
-
-**Current regions:**
-
-- Asia (East, South East)
-- Australia (East, South East)
-- Brazil (South)
-- Canada (Central, East)
-- Europe (West, North)
-- France (Central, South)
-- Germany (North, West Central)
-- India (Central, South)
-- Japan (East, West)
-- Korea (Central, South)
-- Norway (East, West)
-- Switzerland (North, West)
-- United Kingdom (West, South)
-- United States (Central, East, North Central, South Central, West)
-- Korea (Central, South)
-- South Africa (North, West)
-- Sweden (Central, South)
-- United Arab Emirates (North, Central)
-
-> [!TIP]
-> You can identify the Azure region from the Business Central admin center. [Learn more](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment)
-
-#### 4. Supported languages
+### Supported languages
 
 **What it is**: The languages in which you can interact with Copilot features and in which Business Central displays its user interface.
 
 **Why it matters**:
 
-- Determines which languages Microsoft has tested and validated for each Copilot feature
-- Controls the language of prompts, AI responses, and feature outputs
+- Determines which languages Microsoft tested and validated for each Copilot feature
+- Affects the quality and reliability of AI responses for your users
+- Can be changed by individual users, but only supported languages ensure consistent results
 - Is independent of both localization and data location
 
 **Example**: You can have a Danish-localized environment, hosted in Europe, with users interacting with Copilot in English, German, or any other supported language.
 
-##### Supported versus unsupported languages
+#### Supported versus unsupported languages
 
 Understanding the difference between supported and unsupported languages is critical for setting appropriate expectations:
 
@@ -172,7 +95,7 @@ Understanding the difference between supported and unsupported languages is crit
 
 **Unsupported languages**:
 
-- Features can be used in langauges other than those listed in the table.
+- Features can be used in languages other than the ones listed in the table.
 - Features might not function as intended.
 - Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience.
 - Microsoft didn't rigorously test these languages
@@ -192,69 +115,26 @@ Understanding the difference between supported and unsupported languages is crit
 **Our recommendation**:
 
 - **Production environments**: Use Copilot features only in officially supported languages for business-critical processes
-- **Test environments**: You can experiment with unlocked languages, but understand that results aren't guaranteed and support is limited
-- **Quality assurance**: If you must use an unlocked language, implement extra review processes to validate AI outputs
+- **Test environments**: You can experiment with unsupported languages, but understand that results aren't guaranteed and support is limited
+- **Quality assurance**: If you must use an unsupported language, implement extra review processes to validate AI outputs
 
 This approach ensures reliable business operations while allowing flexibility for exploration and testing.
 
-### How these four factors work together
+### Business Central country/region version
 
-These factors are **independent** but work together to determine availability:
+**What it is**: The localized version of Business Central used on an environment specified by an admin when it was created.
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ User in England                                                 │
-│                                                                 │
-│ [1] Uses Business Central in language: English (United Kingdom) │
-│         ↓                                                       │
-│ [2] Environment country/region is: United Kingdom (GB)          │
-│     (UK VAT, tax rules, regulatory features)                    │
-│         ↓                                                       │
-│ [3] Environment data stored in Azure region: United Kingdom West│
-│     (Database, transactions, customer data)                     │
-│         ↓                                                       │
-│ [4] Copilot prompt sent to AZURE OPENAI in: United Kingdom      │
-│     (AI processing, model inference)                            │
-│         ↓                                                       │
-│ [5] Response returned in: English (supported language)          │
-└─────────────────────────────────────────────────────────────────┘
+**Why it matters**:
 
-   ✓ All four factors align - Full functionality available
-```
+- Controls which regulatory features, tax calculations, and reporting formats are available
+- Determines which localization-specific functionality you have access to
+- Can't be changed after environment creation
+- Automatically determines the Azure region where Business Central data is stored
 
-**Cross-geography scenario**:
+**Key point**: It's about **localization and regulatory compliance**, not the physical data location or language.
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ User in Japan                                                   │
-│                                                                 │
-│ [1] Uses Business Central in language: Japanese (Japan)         │
-│         ↓                                                       │
-│ [2] Environment country/region is: Japan (JP)                   │
-│         ↓                                                       │
-│ [3] Environment data stored in Azure region: Japan West         │
-│         ↓                                                       │
-│         ↓  ! DATA CROSSES GEOGRAPHY BOUNDARY                    │
-│         ↓                                                       │
-│ [4] Copilot prompt sent to AZURE OPENAI in: United States West  │
-│     (Feature not yet available in Asia geography)               │
-│         ↓                                                       │
-│         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │
-│         ↓                                                       │
-│ [5] Response returned in: Japanese (supported language)         │
-└─────────────────────────────────────────────────────────────────┘
+**Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
 
-   !  Cross-geography data movement occurs
-   → Check your organization's data residency policies
-```
+## Related information
 
-### Summary of key factors
-
-"The following table summarizes the key differences between these four factors:"
-
-| Factor | What it determines | Set by | Can it be changed? | Example |
-|-----------|-------------------|--------|-------------|---------|
-| 1. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
-| 2. Business Central environment country/region| Localization and regulatory features | Admin (at environment creation) | No | Denmark (DK), United States (US) |
-| 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region | No | Germany West Cental West, North America |
-| 4. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish, English, German, French |
+[Copilot data movement across geographies](ai-copilot-data-movement.md)

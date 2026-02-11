@@ -67,7 +67,7 @@ To understand Copilot feature availability and support, you need to consider fou
 | 4. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish, English, German, French |
 
 > [!NOTE]
-> For detailed information about factors 1 and 3 (Azure OpenAI Service geography and Business Central data residency), including complete lists of available geographies and regions, and how these factors work together—including cross-geography data movement scenarios—see [Understanding Azure OpenAI Service geography and data residency](ai-copilot-data-movement.md#understanding-azure-openai-service-geography-and-data-residency).
+> Learn more about factors 1 and 3 (Azure OpenAI Services geography and Business Central data residency) and how these factors work together in [Understanding Azure OpenAI Service geography and data residency](ai-copilot-data-movement.md#understanding-azure-openai-service-geography-and-data-residency).
 
 ## Business Central country/region version
 

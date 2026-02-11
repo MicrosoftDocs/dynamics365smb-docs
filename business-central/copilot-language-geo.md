@@ -35,7 +35,7 @@ The following table lists Copilot features in Business Central, along with the B
 |[Summarize records](summarize-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
 
 > [!NOTE]
-> While features can be used in other languages than those listed, they might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience. Learn more in [Supported languages](#supported-versus-unlocked-languages).
+> While features can be used in other languages than those listed, they might not function as intended. Learn more in [Supported languages](#supported-versus-unsupported-languages).
 
 ## Understanding Copilot availability: Geography, languages, and localization
 
@@ -81,24 +81,17 @@ The following sections explain each factor in detail.
 
 **Current geographies**
 
-- Sweden
-- United States
-- Brazil
-- Canada
+- Australia
+- Europe
+- France
+- Germany
 - India
 - Japan
-- France
-- South Korea
-- United Arab Emirates
-- Europe
-- Asia Pacific
-- United Kingdom
-- Australia
-- Germany
 - Norway
-- Singapore
-- South Africa
+- Sweden
 - Switzerland
+- United Kingdom
+- United States
 
 #### 2. Business Central country/region version
 
@@ -129,7 +122,6 @@ The following sections explain each factor in detail.
 **Key point**: It's about **where your business data lives**.
 
 **Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records.
-
 
 **Current regions:**
 
@@ -165,32 +157,30 @@ The following sections explain each factor in detail.
 - Controls the language of prompts, AI responses, and feature outputs
 - Is independent of both localization and data location
 
-**Key distinction**: Microsoft distinguishes between **supported languages** (tested and validated) and **unlocked languages** (might work but not guaranteed). See Supported versus unlocked languages section for details.
-
 **Example**: You can have a Danish-localized environment, hosted in Europe, with users interacting with Copilot in English, German, or any other supported language.
 
-##### Supported versus unlocked languages
+##### Supported versus unsupported languages
 
-Understanding the difference between supported and unlocked languages is critical for setting appropriate expectations:
+Understanding the difference between supported and unsupported languages is critical for setting appropriate expectations:
 
 **Supported languages** (listed in the [feature table](#feature-availability-by-countryregion-and-language)):
 
 - Microsoft officially tests and validates these languages
-- Meet established quality metrics for accuracy and appropriateness
-- Full support available if problems occur
+- Meet established quality metrics for accuracy and responsible AI
+- Full support for features that are no longer in preview
 - Deliver consistent, high-quality results
 
-**Unlocked (untested) languages**:
+**Unsupported languages**:
 
-- Features might technically work in languages not listed in the table
+- Features can be used in langauges other than those listed in the table.
+- Features might not function as intended.
+- Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience.
 - Microsoft didn't rigorously test these languages
-- Quality, accuracy, and appropriateness of AI-generated content aren't guaranteed
 - No official support for language-specific problems
-- Results vary based on the AI model's general language capabilities
 
-**Why features work in unlocked languages**: The underlying AI models (like Azure OpenAI Service) often have broad multilingual capabilities. When you use a Copilot feature in an untested language, the AI might still generate responses, but Microsoft didn't validate that these responses meet quality standards.
+**Why features work in unsupported languages**: The underlying AI models (like Azure OpenAI Service) often have broad multilingual capabilities. When you use a Copilot feature in an untested language, the AI might still generate responses, but Microsoft didn't validate that these responses meet quality standards.
 
-**The risks of using unlocked languages**:
+**The risks of using unsupported languages**:
 
 - Inaccurate or inappropriate translations
 - Culturally insensitive content
@@ -247,7 +237,7 @@ These factors are **independent** but work together to determine availability:
 │         ↓  ! DATA CROSSES GEOGRAPHY BOUNDARY                    │
 │         ↓                                                       │
 │ [4] Copilot prompt sent to AZURE OPENAI in: United States West  │
-│     (Feature not yet available in Europe geography)             │
+│     (Feature not yet available in Asia geography)              │
 │         ↓                                                       │
 │         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │
 │         ↓                                                       │

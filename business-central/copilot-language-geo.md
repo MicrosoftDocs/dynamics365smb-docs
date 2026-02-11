@@ -35,7 +35,7 @@ The following table lists Copilot features in Business Central, along with the B
 |[Summarize records](summarize-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
 
 > [!NOTE]
-> While features can be used in other languages than those listed, they might not function as intended. Learn more in [Supported languages](#supported-versus-unsupported-languages).
+> While features can be used in other languages, they might not function as intended. Learn more in [Supported languages](#supported-versus-unsupported-languages).
 
 ## Understanding Copilot availability: Geography, languages, and localization
 
@@ -69,7 +69,7 @@ To understand Copilot feature availability and support, you need to consider fou
 > [!NOTE]
 > For detailed information about factors 1 and 3 (Azure OpenAI Service geography and Business Central data residency), including complete lists of available geographies and regions, and how these factors work together—including cross-geography data movement scenarios—see [Understanding Azure OpenAI Service geography and data residency](ai-copilot-data-movement.md#understanding-azure-openai-service-geography-and-data-residency).
 
-## Business Central country/region version
+### Business Central country/region version
 
 **What it is**: The country/region setting you choose when creating a Business Central environment, which determines the localization version of Business Central.
 
@@ -84,13 +84,13 @@ To understand Copilot feature availability and support, you need to consider fou
 
 **Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
 
-## Supported languages
+### Supported languages
 
 **What it is**: The languages in which you can interact with Copilot features and in which Business Central displays its user interface.
 
 **Why it matters**:
 
-- Determines which languages Microsoft has tested and validated for each Copilot feature
+- Determines which languages Microsoft tested and validated for each Copilot feature
 - Controls the language of prompts, AI responses, and feature outputs
 - Is independent of both localization and data location
 
@@ -109,7 +109,7 @@ Understanding the difference between supported and unsupported languages is crit
 
 **Unsupported languages**:
 
-- Features can be used in langauges other than those listed in the table.
+- Features can be used in languages other than the ones listed in the table.
 - Features might not function as intended.
 - Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience.
 - Microsoft didn't rigorously test these languages

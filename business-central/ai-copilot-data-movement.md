@@ -164,7 +164,7 @@ These two geographic factors are **independent** but work together with environm
    → Check your organization's data residency policies
 ```
 
-Learn more about all factors affecting Copilot availability in [Copilot country/region availability and supported languages](copilot-language-geo.md).
+Learn more about all factors affecting Copilot availability in [Copilot country/region availability and supported languages](copilot-language-geo.md#key-factors-of-copilot-availability).
 
 ## Related information
 

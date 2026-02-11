@@ -32,10 +32,10 @@ The following table lists Copilot features in Business Central, along with the B
 |[Sales Order Agent](sales-order-agent.md)|[All](https://aka.ms/bccountries)|<ul><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-NZ, en-US)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Icelandic (is-IS)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Norwegian Bokmål (nb-NO)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-ES, es-MX)</li><li>Swedish (sv-SE)</li></ul>|
 |[Suggest item substitutions](suggest-item-substitutions-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
 |[Suggest number series](suggest-number-series-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
-|[Summarize records](summarize-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Spanish (es-CO, es-ES, es-MS, es-PE)</li></ul>|
+|[Summarize records](summarize-with-copilot.md)|[All](https://aka.ms/bccountries)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
 
 > [!NOTE]
-> Features validated in specific languages might still function in other languages, but the quality might vary based on user interaction or system settings. This variation might impact accuracy and the user experience. Learn more in [Supported versus unlocked languages](#supported-versus-unlocked-languages).
+> While features can be used in other languages than those listed, they might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience. Learn more in [Supported languages](#supported-versus-unlocked-languages).
 
 ## Understanding Copilot availability: Geography, languages, and localization
 
@@ -49,9 +49,9 @@ Microsoft takes a measured, phased approach to releasing Copilot features across
 
 **Azure infrastructure dependencies**: Copilot features rely on specific Azure AI services and infrastructure. You must deploy these services and make them operational in Azure data centers within a given geography before you can make features available to customers in that region.
 
-**Quality and performance validation**: Each new geography requires extensive testing to ensure that Copilot features perform reliably under local network conditions, latency constraints, and regional usage patterns. Microsoft validates performance benchmarks before expanding availability.
+**Quality and performance validation**: Each new geography requires extensive testing to ensure that Copilot features perform reliably and safely together with localized functionality, latency constraints, and regional usage patterns.
 
-**Language model quality**: For features that support multiple languages, Microsoft must train and validate AI models for each language to ensure high-quality outputs. This testing process takes time and resources, which is why features often launch in English first and expand to more languages over subsequent releases.
+**Language model quality**: For features that support multiple languages, Microsoft must validate AI models for each language to ensure high-quality outputs. This testing process takes time and resources, which is why features often launch in English first and expand to more languages over subsequent releases.
 
 This phased approach ensures that when a feature becomes available in your geography and language, it delivers a reliable, compliant, and high-quality experience.
 
@@ -117,7 +117,7 @@ The following sections explain each factor in detail.
 
 #### 3. Azure region for Business Central data residency
 
-**What it is**: The Azure region where your Business Central environment database is physically hosted and stored. 
+**What it is**: The Azure region where your Business Central environment database is physically hosted and stored, like Europe (West) or United States (East)
 
 **Why it matters**:
 
@@ -128,7 +128,8 @@ The following sections explain each factor in detail.
 
 **Key point**: It's about **where your business data lives**.
 
-**Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records within European data centers.
+**Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records.
+
 
 **Current regions:**
 
@@ -164,7 +165,7 @@ The following sections explain each factor in detail.
 - Controls the language of prompts, AI responses, and feature outputs
 - Is independent of both localization and data location
 
-**Key distinction**: Microsoft distinguishes between **supported languages** (tested and validated) and **unlocked languages** (might work but not guaranteed). See [Supported versus unlocked languages](#supported-versus-unlocked-languages) for details.
+**Key distinction**: Microsoft distinguishes between **supported languages** (tested and validated) and **unlocked languages** (might work but not guaranteed). See Supported versus unlocked languages section for details.
 
 **Example**: You can have a Danish-localized environment, hosted in Europe, with users interacting with Copilot in English, German, or any other supported language.
 

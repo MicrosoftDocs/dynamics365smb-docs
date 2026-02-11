@@ -35,7 +35,7 @@ The following table lists Copilot features in Business Central, along with the B
 |[Summarize records](summarize-with-copilot.md)|[All](/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
 
 > [!NOTE]
-> While features can be used in other languages, they might not function as intended. Learn more in [Supported languages](#supported-versus-unsupported-languages).
+> Features can be used in other languages not listed, but they might not function as intended. Learn more in [Supported languages](#supported-versus-unsupported-languages).
 
 ## Understanding Copilot availability: Geography, languages, and localization
 
@@ -115,23 +115,23 @@ Understanding the difference between supported and unsupported languages is crit
 **Our recommendation**:
 
 - **Production environments**: Use Copilot features only in officially supported languages for business-critical processes
-- **Test environments**: You can experiment with unlocked languages, but understand that results aren't guaranteed and support is limited
-- **Quality assurance**: If you must use an unlocked language, implement extra review processes to validate AI outputs
+- **Test environments**: You can experiment with unsupported languages, but understand that results aren't guaranteed and support is limited
+- **Quality assurance**: If you must use an unsupported language, implement extra review processes to validate AI outputs
 
 This approach ensures reliable business operations while allowing flexibility for exploration and testing.
 
 ### Business Central country/region version
 
-**What it is**: The country/region setting choosen when creating a Business Central environment, which determines the localization version of Business Central.
+**What it is**: The localized version of Business Central used on an environment specified by an admin when it was created.
 
-**Why it matters for decision makers**:
+**Why it matters**:
 
 - Controls which regulatory features, tax calculations, and reporting formats are available
 - Determines which localization-specific functionality you have access to
 - Can't be changed after environment creation
 - Automatically determines the Azure region where Business Central data is stored
 
-**Key point**: It's about **localization and regulatory compliance**, not physical data location.
+**Key point**: It's about **localization and regulatory compliance**, not the physical data location or language.
 
 **Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
 

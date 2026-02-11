@@ -61,28 +61,13 @@ To understand Copilot feature availability and support, you need to consider fou
 
 | Factor | What it determines | Set by | Can it be changed? | Example |
 |-----------|-------------------|--------|-------------|---------|
-| 1. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
+| 1. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish, English, German, French |
 | 2. Business Central environment country/region| Localization and regulatory features | Admin (at environment creation) | No | Denmark (DK), United States (US) |
 | 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region | No | Germany West Central, North America |
-| 4. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish, English, German, French |
+| 4. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
 
 > [!NOTE]
-> Learn more about factors 1 and 3 (Azure OpenAI Services geography and Business Central data residency) and how these factors work together in [Understanding Azure OpenAI Service geography and data residency](ai-copilot-data-movement.md#understanding-azure-openai-service-geography-and-data-residency).
-
-### Business Central country/region version
-
-**What it is**: The country/region setting you choose when creating a Business Central environment, which determines the localization version of Business Central.
-
-**Why it matters**:
-
-- Controls which regulatory features, tax calculations, and reporting formats are available
-- Determines which localization-specific functionality you have access to
-- Can't be changed after environment creation
-- Determines the Azure region where Business Central data is stored
-
-**Key point**: It's about **localization and regulatory compliance**, not physical data location.
-
-**Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
+> Factors 3 and 4 involve technical infrastructure and data movement considerations. Learn more qbout these factors in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
 ### Supported languages
 
@@ -91,7 +76,8 @@ To understand Copilot feature availability and support, you need to consider fou
 **Why it matters**:
 
 - Determines which languages Microsoft tested and validated for each Copilot feature
-- Controls the language of prompts, AI responses, and feature outputs
+- Affects the quality and reliability of AI responses for your users
+- Can be changed by individual users, but only supported languages ensure consistent results
 - Is independent of both localization and data location
 
 **Example**: You can have a Danish-localized environment, hosted in Europe, with users interacting with Copilot in English, German, or any other supported language.
@@ -134,6 +120,21 @@ Understanding the difference between supported and unsupported languages is crit
 
 This approach ensures reliable business operations while allowing flexibility for exploration and testing.
 
+### Business Central country/region version
+
+**What it is**: The country/region setting you choose when creating a Business Central environment, which determines the localization version of Business Central.
+
+**Why it matters for decision makers**:
+
+- Controls which regulatory features, tax calculations, and reporting formats are available
+- Determines which localization-specific functionality you have access to
+- Can't be changed after environment creation, so choose carefully
+- Automatically determines the Azure region where Business Central data is stored
+
+**Key point**: It's about **localization and regulatory compliance**, not physical data location.
+
+**Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
+
 ## Related information
 
-[How Copilot availability key factors work together](ai-copilot-data-movement.md#how-geography-and-data-residency-factors-work-together)
+[Copilot data movement across geographies](ai-copilot-data-movement.md)

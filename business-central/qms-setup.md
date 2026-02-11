@@ -101,10 +101,7 @@ The following steps describe settings you can use to get started with quality ma
    |**Certificate of Analysis Contact** | Specify the contact details that appear on the **Certificate of Analysis** report when supplied.        |
    |**Maximum Rows To Fetch in Lookups** | Specify the maximum number of rows to fetch on data lookups. Keep the number as low as possible to increase usability and performance.        |
    |**Additional Picture Handling** | Specify what to do with pictures.<br><br>- **None** means not to take an action with pictures.<br>- **Save as attachment** attaches the picture as a document.<br>- **Save as attachment and upload to OneDrive** attaches the picture and uploads it to OneDrive.        |
-   <!--|**Workflow Integration Enabled** | When enabled, this option provides the events and responses for quality management that you need to work with workflows and approvals.        |
-   |**Conditional Lot Find Behavior**| Specifies the inspections to consider when evaluating whether to block a document-specific transaction.<br><br>- **Any inspection that matches** considers any inspection.<br>- **Only the most recently modified test** uses the most recently modified inspection.<br>- **Only the newest inspection/reinspection** uses the inspection with the highest reinspection number.<br>- **Any finished inspection that matches** considers any finished inspection.<br>- **Only the most recently modified finished inspection** uses the most recently modified finished inspection.<br>- **Only the newest finished inspection/reinspection** uses the finished inspection with the highest reinspection number.        |
-   |**Show Test Behavior** | Specifies whether to open the **Quality Inspection** page after an inspection is created.<br><br>- **Automatic and manually created inspections** opens inspections created both automatically and manually.<br>- **Only manually created inspections** opens only inspections created manually.<br>- **Do not show created inspections** never automatically opens created inspections.    |-->
-
+   
 1. On the **Generation Rule Trigger Defaults** FastTab, configure default trigger values for different types of documents, as described in the following table.
 
    |Field  |Options  |
@@ -120,20 +117,39 @@ The following steps describe settings you can use to get started with quality ma
 
 1. On the **Bin Movements and Reclassifications** FastTab, specify the batches to use when you move inventory from one bin to another or change item tracking information. Your choice depends on whether your warehouse is set up to use directed put-away and pick. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 1. On the **Inventory Adjustments** FastTab, specify the item journal batch or warehouse item journal batch to use to reduce inventory quantities. Your choice depends on whether your warehouse is set up to use directed put-away and pick. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-1. On the **Item Tracking** FastTab, configure settings for item tracking. In the **Tracking Before Finishing** field, specify whether to require item tracking before finishing an inspection:
+1. On the **Item Tracking** FastTab, in the **Tracking Before Finishing** field, specify whether to require item tracking before finishing an inspection:
 
    - **Allow without item tracking** allows inspections without lot or serial numbers.
    - **Allow only posted item tracking** requires you to post lot or serial numbers.
    - **Allow reserved or posted item tracking** allows lot or serial numbers that exist but aren't posted yet.
    - **Allow any non-empty value** allows any lot or serial value, even if they aren't in inventory.
 
+1. In the **Quality inspection selection criteria** field, specify the inspections to consider when evaluating whether to block a document-specific transaction.
+   
+   - **Any inspection that matches** considers any inspection.
+   - **Only the most recently modified inspection** uses the most recently modified inspection.
+   - **Only the newest inspection/reinspection** uses the inspection with the highest reinspection number.
+   - **Any finished inspection that matches** considers any finished inspection.
+   - **Only the most recently modified finished inspection** uses the most recently modified finished inspection.
+   - **Only the newest finished inspection/reinspection** uses the finished inspection with the highest reinspection number.
+
+## Set up quality management notifications
+
+The settings described in this article apply to everyone who uses quality management features. However, each user can decide whether they want to be notified every time an inspection is created. Their selections apply only to themselves.
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **My Notifications**, and then choose the related link.
+1. The following notifications are available for quality management:
+
+   - **Quality Inspection created** notifies you when an inspection is created either manually or automatically.
+   - **Assign Quality Inspection to yourself** does the same, but gives you the chance to assign the inspection to yourself.
+
 ## Next steps
 
-After you complete the initial setup, there are still a few things to do. To learn more, go to:
+After you create the base data and complete the initial setup this article describes, there are still a few things to do. To learn more, go to:
 
-1. [Create Quality Inspection Templates](qms-quality-templates.md)
-2. [Set Up Inspection Generation Rules](qms-test-generation-rules.md)
-3. [Configure Workflows (Optional)](qms-quality-workflows.md)
+- [Create Quality Inspection Templates](qms-quality-templates.md)
+- [Set Up Inspection Generation Rules](qms-test-generation-rules.md)
+- [Configure Quality Management Workflows (Optional)](qms-quality-workflows.md)
 
 ## Related information
 

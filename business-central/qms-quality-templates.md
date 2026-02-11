@@ -23,27 +23,15 @@ Quality inspection templates define the measurements and attributes you want to 
 - Fields and measurements, which are the individual quality measurements to collect.
 - Pass/fail criteria, which are the acceptable ranges for each measurement.
 
-You can create templates from scratch, or you can copy an existing template and then change the settings to suit your inspection needs. Learn more at [Create a new template](#create-a-new-template) or 
+You can create templates from scratch, or you can copy an existing template and then change the settings to suit your inspection needs. Learn more at [Create a new template](#create-a-new-template) or [Copy a template](#copy-a-template).
 
 ## Typical scenarios where templates help
 
-One typical use is to inspect purchased materials. Some examples of fields are:
+One typical use is to inspect purchased materials. Some examples of tests in these inspections are dimension measurements, visual appearance checks, and material compliance verification.
 
-- Dimension measurements
-- Visual appearance checks
-- Material compliance verification
+Other examples are production output inspections, where you inspect the finished goods that you produce. Some examples of tests are functional performance tests, assembly quality checks, and final dimension verification.
 
-Other examples are production output inspections, where you inspect the finished goods that you produce. Some examples of fields are:
-
-- Functional performance tests
-- Assembly quality checks
-- Final dimension verification
-
-Templates are also useful for inspections when production is in-process. Some examples of fields are:
-
-- Intermediate measurements
-- Process parameter verification
-- Work-in-progress quality gates
+Templates are also useful for inspections when production is in-process. Some examples of tests are intermediate measurements, process parameter verification, and work-in-progress quality gates.
 
 ## Create a new template
 
@@ -51,14 +39,14 @@ To set up a quality inspection template, follow these steps.
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and then choose the related link.
 1. Choose **New** to create a new template.
-1. Fill in the **Template Code** field. For example, enter EXAMPLE or INCOMING-PARTS.
-1. Fill in the **Description** field. For example, enter Example Template or Incoming Parts Inspection.
-1. Choose **Add Test(s) To This Template** action to start the **Quality Test Wizard**.
+1. Fill in the **Template Code** field with a short name that indicates the purpose of the inspection. For example, enter **EXAMPLE** or **INCOMING-PARTS**.
+1. Fill in the **Description** field. This field often contains an elaboration of the code. For example, **Example Template** or **Incoming Parts Inspection**.
+1. In the **Sample Source** field, specify the size of the sample the test includes. Depending on your choice, the **Sample Amount** or **Sample %** fields display, so you can add those values. If you leave the **Sample Source** field blank, the amount or percentage fields don't display.
+1. To add the tests that represent what the inspection measures, choose the **Add Test(s) To This Template** action to start the **Quality Test Wizard**.
 1. Depending on whether you want to add an existing test or create a new test, turn on or turn off the **New test** or **Existing tests** toggles.
 
    If you're adding an existing test, choose the test and then choose **Finish** to close the guide. If you're creating a new test, choose **Next** and continue to the next step. 
-1. In the **Description** field, enter a short description of the measurement. For example, enter Example Measurement, Weight, or Dimension.
-1. In the **Sample Source** field, specify the size of the sample the test includes. Depending on your choice, the **Sample Amount** or **Sample %** fields display, so you can add those values.
+1. In the **Description** field, enter a short description of the measurement. For example, **Example Measurement**, **Weight**, or **Dimension**.
 1. Choose the **Choose the type of data this will hold** link, and then enter a short name for the test and the type of data it contains.
 
    Depending on the type of data, the next steps in the guide differ. The following list describes the purpose of each option.
@@ -66,7 +54,7 @@ To set up a quality inspection template, follow these steps.
    - **A number** - Base the test on allowed numerical values. There are two ways to use this option. You can configure a range of numbers where you specify the upper and lower limits and pass or fail values, or an advanced configuration where you specify syntax and field conditions.
    - **A choice from a list** - Base the test on a simple list of values that you define, or on a table where you specify the fields to include.
    - **Free text** or **Date** - The inspector enters results as free text or a date. These options don't require extra configuration.
-   - **Advanced** - Base the test on a type of value that you choose in the **Test Value Type** field. Depending on your choice, the information you must enter differs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+   - **Advanced Configuration** - Base the test on a type of value that you choose in the **Test Value Type** field. Depending on your choice, the information you must enter differs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 1. Choose **Finish** to add the test and close the guide.
 
@@ -88,20 +76,14 @@ The following are the results of the sample settings:
 
 ## Copy a template
 
-You can copy templates to create new templates based on their settings. Select a template, and then choose the **Copy** action to create a duplicate. You can modify the fields on the new template to suit your needs.
+You can copy templates to create new templates based on their settings. Select a template, and then choose the **Copy Template** action to create a duplicate. You can modify the fields on the new template to suit your needs.
 
 > [!NOTE]
 > Before you activate a template and use it in production, validate its setup and results.
 
 ## Assign a test generation rule
 
-Templates connect to automated test creation through inspection generation rules. 
-
-1. **Template Assignment**: Each inspection generation rule references a specific template.
-2. **Automatic Application**: When rules trigger, the associated template creates the inspection structure.
-3. **Data Collection**: Test users fill in the template fields during inspection.
-
-If you're using automated test creation, use the **Inspection Generation Rules** action. Learn more at [Set up inspection generation rules](qms-test-generation-rules.md).
+If you're automating the creation of inspections, the next step is to use the **Inspection Generation Rules** action to create a generation rule for your template. Templates connect to automated inspection creation through inspection generation rules. Learn more at [Set up inspection generation rules](qms-test-generation-rules.md).
 
 ## Related information
 

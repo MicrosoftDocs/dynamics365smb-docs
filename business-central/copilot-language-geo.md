@@ -69,7 +69,7 @@ To understand Copilot feature availability and support, you need to consider fou
 > [!NOTE]
 > Learn more about factors 1 and 3 (Azure OpenAI Services geography and Business Central data residency) and how these factors work together in [Understanding Azure OpenAI Service geography and data residency](ai-copilot-data-movement.md#understanding-azure-openai-service-geography-and-data-residency).
 
-## Business Central country/region version
+### Business Central country/region version
 
 **What it is**: The country/region setting you choose when creating a Business Central environment, which determines the localization version of Business Central.
 
@@ -84,7 +84,7 @@ To understand Copilot feature availability and support, you need to consider fou
 
 **Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
 
-## Supported languages
+### Supported languages
 
 **What it is**: The languages in which you can interact with Copilot features and in which Business Central displays its user interface.
 
@@ -96,7 +96,7 @@ To understand Copilot feature availability and support, you need to consider fou
 
 **Example**: You can have a Danish-localized environment, hosted in Europe, with users interacting with Copilot in English, German, or any other supported language.
 
-### Supported versus unsupported languages
+#### Supported versus unsupported languages
 
 Understanding the difference between supported and unsupported languages is critical for setting appropriate expectations:
 

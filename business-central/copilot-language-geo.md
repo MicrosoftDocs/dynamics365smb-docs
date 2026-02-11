@@ -68,7 +68,7 @@ The following sections explain each factor in detail.
 
 #### 1. Azure OpenAI Service geography
 
-**What it is**: The physical Azure data center region where the AI model processes your prompts and generates responses.
+**What it is**: The physical Azure data center regions where the AI model processes your prompts and generates responses. An Azure geography can consist of one or more data center regions.
 
 **Why it matters**:
 
@@ -237,7 +237,7 @@ These factors are **independent** but work together to determine availability:
 │         ↓  ! DATA CROSSES GEOGRAPHY BOUNDARY                    │
 │         ↓                                                       │
 │ [4] Copilot prompt sent to AZURE OPENAI in: United States West  │
-│     (Feature not yet available in Asia geography)              │
+│     (Feature not yet available in Asia geography)               │
 │         ↓                                                       │
 │         ↓  ! RESPONSE CROSSES GEOGRAPHY BOUNDARY                │
 │         ↓                                                       │
@@ -255,6 +255,6 @@ These factors are **independent** but work together to determine availability:
 | Factor | What it determines | Set by | Can it be changed? | Example |
 |-----------|-------------------|--------|-------------|---------|
 | 1. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe, United States, Asia Pacific |
-| 2. Business Central environment country/region| Localization and regulatory features | You (at environment creation) | No | Denmark (DK), United States (US) |
+| 2. Business Central environment country/region| Localization and regulatory features | Admin (at environment creation) | No | Denmark (DK), United States (US) |
 | 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region | No | Germany West Cental West, North America |
 | 4. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish, English, German, French |

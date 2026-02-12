@@ -40,7 +40,7 @@ The following table describes when and how data can move across geographies for 
 > [!IMPORTANT]
 > The **Allow data movement** toggle is on by default from update 25.0. Administrators can opt out at any time, even before environments are upgraded. Environments upgrading to update 25.0 or later will have the **Allow data movement** toggle turned on by default from November 3, 2024, or from the date you have specified for the environment to be upgraded to update 25.0. New environments created after October 1, 2024, will have the **Allow data movement** toggle turned on.-->
 
-## How to find the Azure region of a Business Central environment
+## How to find the Azure region of a Business Central environment (data residency)
 
 To find the Azure region where a Business Central environment is hosted, sign in to the Business Central admin center, choose the environment to display details, and then find the **Azure Region** field. Learn more: [Managing production and sandbox environments in the admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)
 
@@ -63,20 +63,6 @@ This section provides detailed information about the geographic factors that aff
 
 **Example**: When you use analysis assist in Business Central, your prompt is sent to an Azure OpenAI endpoint in a specific geography (such as Europe, United States, or Asia Pacific) for processing.
 
-**Current geographies**
-
-- Australia
-- Europe
-- France
-- Germany
-- India
-- Japan
-- Norway
-- Sweden
-- Switzerland
-- United Kingdom
-- United States
-
 ### Azure region for Business Central data residency
 
 **What it is**: The Azure region where your Business Central environment database is physically hosted and stored, like Europe (West) or United States (East)
@@ -91,27 +77,6 @@ This section provides detailed information about the geographic factors that aff
 **Key point**: It's about **where your business data lives**.
 
 **Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records.
-
-**Current regions:**
-
-- Asia (East, South East)
-- Australia (East, South East)
-- Brazil (South)
-- Canada (Central, East)
-- Europe (West, North)
-- France (Central, South)
-- Germany (North, West Central)
-- India (Central, South)
-- Japan (East, West)
-- Korea (Central, South)
-- Norway (East, West)
-- Switzerland (North, West)
-- United Kingdom (West, South)
-- United States (Central, East, North Central, South Central, West)
-- Korea (Central, South)
-- South Africa (North, West)
-- Sweden (Central, South)
-- United Arab Emirates (North, Central)
 
 ### How geography and data residency factors work together
 

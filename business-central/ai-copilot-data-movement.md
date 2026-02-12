@@ -50,6 +50,36 @@ To find the Azure region where a Business Central environment is hosted, sign in
 
 This section provides detailed information about the geographic factors that affect Copilot data movement and availability.
 
+### Business Central country/region version
+
+**What it is**: The localized version of Business Central used on an environment specified by an admin when the enviroment was created.
+
+**Why it matters**:
+
+- Controls which regulatory features, tax calculations, and reporting formats are available
+- Determines which localization-specific functionality you have access to
+- Automatically determines the Azure region where Business Central data is stored
+- Can't be changed after environment creation
+
+**Key point**: It's about **localization and regulatory compliance**, not the physical data location or language.
+
+**Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
+
+### Azure region for Business Central data residency
+
+**What it is**: The Azure region where your Business Central environment database is physically hosted and stored, like Europe (West) or United States (East)
+
+**Why it matters**:
+
+- Determines physical location of your business data
+- Automatically determined by environment's country/region setting chosen by admin when environment created.
+- Affects data residency compliance and regulations
+- Can result in cross-geography data movement if Azure OpenAI Service operates in a different geography
+
+**Key point**: It's about **where your business data lives**.
+
+**Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records.
+
 ### Azure OpenAI Service geography
 
 **What it is**: The physical Azure data center regions where the AI model processes your prompts and generates responses. An Azure geography can consist of one or more data center regions.
@@ -62,21 +92,6 @@ This section provides detailed information about the geographic factors that aff
 **Key point**: It's about **where the AI thinks**, not where your business data lives.
 
 **Example**: When you use analysis assist in Business Central, your prompt is sent to an Azure OpenAI endpoint in a specific geography (such as Europe, United States, or Asia Pacific) for processing.
-
-### Azure region for Business Central data residency
-
-**What it is**: The Azure region where your Business Central environment database is physically hosted and stored, like Europe (West) or United States (East)
-
-**Why it matters**:
-
-- Determines physical location of your business data
-- Automatically determined by your environment country/region setting
-- Affects data residency compliance and regulations
-- Can result in cross-geography data movement if Azure OpenAI Service operates in a different geography
-
-**Key point**: It's about **where your business data lives**.
-
-**Example**: A Danish (DK) environment is hosted in Azure's Europe North region, keeping your customer data, transactions, and business records.
 
 ### How geography and data residency factors work together
 

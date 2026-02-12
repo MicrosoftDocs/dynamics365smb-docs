@@ -63,11 +63,11 @@ To understand Copilot feature availability and support, you need to consider fou
 |-----------|-------------------|--------|-------------|---------|
 | 1. Supported languages | User interaction language | You (user/admin settings) | Yes | Danish |
 | 2. Business Central environment country/region| Localization and regulatory features | Admin (at environment creation) | No | Denmark (DK) |
-| 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region | No | Europe (North) |
+| 3. Azure region for Business Central data residency | Where business data is stored | Automatically based on country/region (#2) | No | Europe (North) |
 | 4. Azure OpenAI Services geography | Where AI processing occurs | Microsoft Azure OpenAI deployment | No (Microsoft controls) | Europe |
 
 > [!NOTE]
-> Factors 3 and 4 involve technical infrastructure and data movement considerations. Learn more about these factors in [Copilot data movement across geographies](ai-copilot-data-movement.md).
+> Factors 2-4 involve technical infrastructure and data movement considerations. Learn more about these factors in [Copilot data movement across geographies](ai-copilot-data-movement.md#understanding-azure-openai-service-geography-and-data-residency).
 
 ### Supported languages
 
@@ -119,21 +119,6 @@ Understanding the difference between supported and unsupported languages is crit
 - **Quality assurance**: If you must use an unsupported language, implement extra review processes to validate AI outputs
 
 This approach ensures reliable business operations while allowing flexibility for exploration and testing.
-
-### Business Central country/region version
-
-**What it is**: The localized version of Business Central used on an environment specified by an admin when it was created.
-
-**Why it matters**:
-
-- Controls which regulatory features, tax calculations, and reporting formats are available
-- Determines which localization-specific functionality you have access to
-- Can't be changed after environment creation
-- Automatically determines the Azure region where Business Central data is stored
-
-**Key point**: It's about **localization and regulatory compliance**, not the physical data location or language.
-
-**Example**: A Denmark (DK) environment includes Danish VAT rules, tax reporting, and regulatory requirements, regardless of where the environment is physically hosted.
 
 ## Related information
 

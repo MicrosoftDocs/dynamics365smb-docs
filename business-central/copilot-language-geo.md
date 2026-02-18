@@ -41,7 +41,7 @@ The following table lists Copilot features in Business Central, along with the B
 
 The following features are planned to expand their availability in upcoming releases:
 
-- **Payables Agent** (2026 Release Wave 2): Expand to all Business Central countries/regions and all Microsoft-provided languages as shown in [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).
+- **Payables Agent** (2026 release wave 1): Expand to all Business Central countries/regions and all Microsoft-provided languages as shown in [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).
 
 ## Understanding Copilot availability: Geography, languages, and localization
 

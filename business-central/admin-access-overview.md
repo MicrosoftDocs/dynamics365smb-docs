@@ -12,8 +12,6 @@ ms.service: dynamics-365-business-central
 
 # Manage Access to Business Central
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 This article gives administrators and application developers a high-level overview of how to control access to [!INCLUDE [prod_short](includes/prod_short.md)] and its features. Use the links to go to other articles that provide more details about the subjects.
 
 ## Layered access

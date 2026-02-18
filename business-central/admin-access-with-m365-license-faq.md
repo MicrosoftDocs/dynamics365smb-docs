@@ -11,8 +11,6 @@ ms.custom: bap-template
 ---
 # Access with Microsoft 365 Licenses FAQ
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Users can access Business Central data in Microsoft Teams using their Microsoft 365 license. This article answers frequently asked questions from administrators, consultants and others. Developers should refer to the Developer FAQ. For questions about integrating Business Central with Microsoft Teams, go to [Teams FAQ](teams-faq.md).

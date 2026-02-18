@@ -13,8 +13,6 @@ ms.service: dynamics-365-business-central
 
 # Control access to Business Central using security groups
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Security groups make it easier for administrators to manage user permissions. For example, for [!INCLUDE [prod_short](includes/prod_short.md)] online, they're reusable across Dynamics 365 applications, such as SharePoint Online, CRM Online, and [!INCLUDE [prod_short](includes/prod_short.md)]. Administrators add permissions to their [!INCLUDE [prod_short](includes/prod_short.md)] security groups, and when they add users to the group the permissions apply to all members. For example, an administrator can create a [!INCLUDE [prod_short](includes/prod_short.md)] security group that gives salespeople the ability to create and post sales orders. Or, let purchasers do the same for purchase orders.
 
 > [!NOTE]

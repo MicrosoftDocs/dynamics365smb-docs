@@ -36,8 +36,6 @@ It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md
 
 <a name="onprem"><sup>*</sup></a> This feature requires a registered application for [!INCLUDE [prod_short](includes/prod_short.md)] in Microsoft Azure. For more information, see [Registering [!INCLUDE [prod_short](includes/prod_short.md)] on-premises in Microsoft Entra ID for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-<!--[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]-->
-
 ## Get ready to use Power BI
 
 There are a few tasks that must be done before you can start using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] with [!INCLUDE[prod_short](includes/prod_short.md)]. The tasks depend on your role in your organization and what you want to do with [!INCLUDE[powerbi-name](includes/powerbi-name.md)]:

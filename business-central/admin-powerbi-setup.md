@@ -12,8 +12,6 @@ ms.reviewer: jswymer
 ---
 # Enabling Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 This article describes how to get [!INCLUDE[prod_short](includes/prod_short.md)] ready for integration with Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online is already enabled for integration, although there's some information about licensing that you might want to read. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'll have set up your environment to connect to Power BI before users can work with it.
 
 ## <a name="license"></a>Power BI Licensing

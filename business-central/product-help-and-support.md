@@ -13,8 +13,6 @@ ms.service: dynamics-365-business-central
 
 # Resources for help and support
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they might experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Learn how your AI-powered assistant [can guide and explain](#chat-with-copilot)

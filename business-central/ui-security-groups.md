@@ -36,7 +36,7 @@ Create Microsoft Entra groups in Microsoft Entra admin center. Learn more in [Cr
 
 **With Windows authentication:**
 
-Create Windows Active Directory groups. Learn more in [Create a Group Account in ](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
+Create Windows Active Directory groups. Learn more in [Create a Group Account in Windows Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
 > [!NOTE]
 > If you've set up a special type of user with a Windows Group license type in a version of [!INCLUDE [prod_short](includes/prod_short.md)] on-prem earlier than 2023 release wave 1, when you upgrade [!INCLUDE [prod_short](includes/prod_short.md)] converts the user to a security group. The new security group has the same name as the Windows group name. The security group provides a better overview of the group members and their effective permissions.

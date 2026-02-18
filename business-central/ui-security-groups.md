@@ -36,32 +36,34 @@ Create Microsoft Entra groups in Microsoft Entra admin center. Learn more in [Cr
 
 **With Windows authentication:**
 
-Create Windows Active Directory groups. Learn more in [Create a Group Account in ](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).Windows Active Directory
+Create Windows Active Directory groups. Learn more in [Create a Group Account in ](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
 > [!NOTE]
 > If you've set up a special type of user with a Windows Group license type in a version of [!INCLUDE [prod_short](includes/prod_short.md)] on-prem earlier than 2023 release wave 1, when you upgrade [!INCLUDE [prod_short](includes/prod_short.md)] converts the user to a security group. The new security group has the same name as the Windows group name. The security group provides a better overview of the group members and their effective permissions.
 
 ---
 
-## Add a security group in Business Central
+## Add security groups in Business Central
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Security Groups**, and then choose the related link.
-1. Choose **New** to create a group.
+Once you've created your Microsoft Entra or Windows Active Directory groups, link them to security groups in Business Central.
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Security Groups**, and then select the related link.
+1. Select **New** to create a group.
 1. Create the link to your group, as follows:
 
-   - For [!INCLUDE [prod_short](includes/prod_short.md)] online, choose the group in the **Microsoft Entra security group name** field.
-   - For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, choose the group in the **Windows group name** field.
+   - For [!INCLUDE [prod_short](includes/prod_short.md)] online, select the group in the **Microsoft Entra security group name** field.
+   - For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select the group in the **Windows group name** field.
 
 > [!NOTE]
 > The users show in the **Members** card on the FactBox pane or the **Security Group Members** page only if they're added as users in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about adding users, go to [To add users or update user information and license assignments in Business Central](ui-how-users-permissions.md#adduser).  
 
 ### Assign permissions to a security group
 
-1. On the **Security Groups** page, choose the group, and then choose the **Permissions** action.
+1. On the **Security Groups** page, select the group, and then select the **Permissions** action.
 1. Assign permissions in the following ways:
 
-   - To assign permission sets individually, in the **Permission Set** field, choose the permissions to assign.
-   - To assign multiple permission sets, choose the **Add multiple** action, and then choose the sets to assign.
+   - To assign permission sets individually, in the **Permission Set** field, select the permissions to assign.
+   - To assign multiple permission sets, select the **Add multiple** action, and then select the sets to assign.
 1. If you want the permission sets to apply only to a specific company, set the **Company** column to that company. If you want the permission set to apply to all companies, leave the **Company** column blank. [Learn more](ui-define-granular-permissions.md#control-access-to-specific-companies).
 
 ## Related information

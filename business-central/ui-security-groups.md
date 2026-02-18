@@ -57,7 +57,7 @@ Once you've created your Microsoft Entra or Windows Active Directory groups, lin
 > [!NOTE]
 > The users show in the **Members** card on the FactBox pane or the **Security Group Members** page only if they're added as users in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about adding users, go to [To add users or update user information and license assignments in Business Central](ui-how-users-permissions.md#adduser).  
 
-### Assign permissions to a security group
+## Assign permissions to a security group
 
 1. On the **Security Groups** page, select the group, and then select the **Permissions** action.
 1. Assign permissions in the following ways:

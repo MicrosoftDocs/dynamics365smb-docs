@@ -31,7 +31,7 @@ Create Microsoft Entra groups in Microsoft Entra admin center. Learn more in [Cr
 **With Microsoft Entra ID authentication:**
 
 - Upgrade to Business Central versions 25.11, 26.5, 27.4 or later
-- Enable the **Feature: Microsoft Entra Groups for On-Premises** in Feature Management or configure [!INCLUDE [server](includes/server.md)] by setting `EnableEntraGroupsOnPrem` to `true` in CustomSettings.config. Learn more in [Enable an optional feature in Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management#how-to-enable-an-optional-feature) or [Configure Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance).
+- Configure [!INCLUDE [server](includes/server.md)] by setting `EnableEntraGroupsOnPrem` to `true` in CustomSettings.config. Learn more in [Configure Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance).
 - Create Microsoft Entra groups in Microsoft Entra admin center. Learn more in [Create, edit, or delete a security group in the Microsoft 365 admin center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
 
 **With Windows authentication:**

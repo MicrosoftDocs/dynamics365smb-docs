@@ -158,14 +158,14 @@ Quarter Week Type controls how weeks are grouped within each quarter. Each quart
 
 All three patterns total 13 weeks per quarter (52 weeks per year, before any 53rd week adjustment).
 
-What the Quarter Week Type Does NOT:
+Quarter Week Type Does NOT:
 
 - Change when the fiscal year starts
 - Affect the week grid
 - Influence the “Last” or “Nearest” rule
 - Determine whether a year has 52 or 53 weeks
 
-The Quarter Week Type only affects:
+Quarter Week Type only affects:
 
-- How weeks are labeled as fiscal months
+- How weeks are labeled as fiscal periods
 - How reporting periods are structured

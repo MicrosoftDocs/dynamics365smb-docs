@@ -1,5 +1,5 @@
 ---
-title: Copilot and agent country/region availability and supported languages
+title: Copilot and agents country/region availability and supported languages
 description: Learn how geographic availability, language support, and environment localization determine access to Copilot and agent features in Business Central.
 author: jswymer
 ms.author: jswymer
@@ -10,7 +10,7 @@ ms.date: 02/05/2026
 ms.custom: bap-template
 ---
 
-# Copilot and agent country/region availability and supported languages
+# Copilot and agents country/region availability and supported languages
 
 The availability of Copilot and agent features depends on several factors, like the country/region version of Business Central, where the data is stored, and which language you work in.
 

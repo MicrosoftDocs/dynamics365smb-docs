@@ -18,7 +18,7 @@ Security groups make it easier for administrators to manage user permissions. Fo
 > [!NOTE]
 > This article describes how to grant certain permissions to users based on their membership of a security group. Learn how to control whether users can access an environment based on their membership of a security group in [Manage Access to Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access).
 
-## Create groups in Microsoft Entra or Windows Active Directory
+## Create security groups in Microsoft Entra or Windows Active Directory
 
 You can use security groups for the online and on-premises versions of [!INCLUDE [prod_short](includes/prod_short.md)]. Depending on your deployment and authentication method, create groups in one of the following ways:
 

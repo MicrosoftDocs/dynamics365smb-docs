@@ -45,7 +45,7 @@ Yes, Copilot in Business Central is included with your Business Central license 
 
 ## Is Copilot in Business Central available worldwide?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more in [Copilot geographic and language availability in Business Central](copilot-region-language-availability.md).
+Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more in [Copilot geographic and language availability in Business Central](copilot-agents-region-language-availability.md).
 
 ## Is Copilot available for Business Central online only?
 

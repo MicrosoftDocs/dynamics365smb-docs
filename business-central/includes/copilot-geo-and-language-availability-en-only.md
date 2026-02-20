@@ -10,4 +10,4 @@ This Copilot feature is available in all supported [Business Central countries/r
 
 The feature is validated and supported in English only. While it can be used in other languages, it might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience. The quality of answers can also be lower if the language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](prod_short.md)] database. When Copilot searches the web, websites that aren't in English language may result in lower quality suggestions or no suggestions. 
 
-Learn more in [Copilot country/region availability and supported languages](../copilot-region-language-availability.md).
+Learn more in [Copilot country/region availability and supported languages](../copilot-agents-region-language-availability.md).

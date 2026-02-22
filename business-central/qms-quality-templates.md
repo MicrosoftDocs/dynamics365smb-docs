@@ -65,7 +65,7 @@ To set up a quality inspection template, follow these steps.
 1. Choose **New** to create a new template.
 1. Fill in the **Template Code** field with a short name that indicates the purpose of the inspection. For example, enter **EXAMPLE** or **INCOMING-PARTS**.
 1. Fill in the **Description** field. This field often contains an elaboration of the code. For example, **Example Template** or **Incoming Parts Inspection**.
-1. In the **Sample Source** field, specify the size of the sample the test includes. Depending on your choice, the **Sample Amount** or **Sample %** fields display, so you can add those values. If you leave the **Sample Source** field blank, the amount or percentage fields don't display.
+1. In the **Sample Source** field, specify the size of the sample the test includes. Depending on your choice, the **Sample Amount** or **Sample %** fields display, so you can add those values. The **Sample quantity** in the created inspection cannot exceed the **Quantity (Base)** and if necessary it will be changed automatically on the inspection to be equal to the the source quantity. If you leave the **Sample Source** field blank, the amount or percentage fields don't display. 
 1. Add the tests that represent what the inspection measures.
 2. If necessary you can override conditions frorm tests for specific inspection template requirements.
 

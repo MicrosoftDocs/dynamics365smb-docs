@@ -69,17 +69,13 @@ To set up a quality inspection template, follow these steps.
 1. Add the tests that represent what the inspection measures.
 2. If necessary you can override conditions frorm tests for specific inspection template requirements.
 
+## Assign a test generation rule
+
+The next step is to use the **Inspection Generation Rules** action to create a generation rule for your template. Templates connect to automated inspection creation through inspection generation rules. Learn more at [Set up inspection generation rules](qms-test-generation-rules.md).
 
 ## Copy a template
 
 You can copy templates to create new templates based on their settings. Select a template, and then choose the **Copy Template** action to create a duplicate. You can modify the fields on the new template to suit your needs.
-
-> [!NOTE]
-> Before you activate a template and use it in production, validate its setup and results.
-
-## Assign a test generation rule
-
-If you're automating the creation of inspections, the next step is to use the **Inspection Generation Rules** action to create a generation rule for your template. Templates connect to automated inspection creation through inspection generation rules. Learn more at [Set up inspection generation rules](qms-test-generation-rules.md).
 
 ## Related information
 

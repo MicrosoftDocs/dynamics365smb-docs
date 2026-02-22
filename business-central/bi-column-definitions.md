@@ -125,6 +125,9 @@ To calculate by regular time periods, enter a formula in the **Comparison Date F
 > [!NOTE]
 > It isn't always obvious which periods you're comparing on a report. For example, a date filter might spans dates that are different than the accounting periods in your chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, set the **Comparison Date Formula** field to **-1FY**. Then, run the report on **February 28th** and set the date filter to **January and February**. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
 
+> [!WARNING]
+> You cannot use both a **Comparison Date Formula** and **Comparison Period Formula** on the same line in the column definition.
+
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 ## Use dynamic date headers

@@ -49,6 +49,8 @@ A powerful feature in Financial Reporting is that you can use values computed in
 > [!TIP]
 > The formula language supports normal arithmetic operations, such as addition (+), subtraction (-), multiplication (*), and division (/). You can also use (round) parenthesis to group terms in the calculation.
 > 
+> The *Row No.* referenced in these formulas are filters, so you can also write terms like 'R|L', L..R. If multiple lines share the same *Row No.*, you can sum over them by just writing that value (see an example below)
+>
 > But you can also calculate one value as a percentage of another using the syntax A%B (read A as a percentage of B).
 
 The following excerpt of a row definition illustrates how row formulas work. Your chart of accounts structure might differ from the accounts shown.
@@ -65,6 +67,7 @@ The following excerpt of a row definition illustrates how row formulas work. You
 
 The example illustrates some different tips and tricks:
 
+* Not all lines need to have a *Row No.*
 * You can use a formula row as a code comment. Remember to set the **Show** option to **No**.
 * The formula in row F1 summarizes all numbers from rows with **R** in the **Row No.** field (the Row No. setting doesn't have to be unique).
 * You can use results from previous calculations in new row formulas.

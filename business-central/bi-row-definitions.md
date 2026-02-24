@@ -47,7 +47,7 @@ To edit the content of a row definition, follow these steps:
 A powerful feature in Financial Reporting is that you can use values computed in previous rows in row formulas defined in subsequent rows. Set the **Totaling Type** to **Formula**, and then write your calculation in the **Totalling** field on the same row.
 
 > [!TIP]
-> The formula language supports normal arithmetic operations, such as addition (+), subtraction (-), multiplication (*), and division (/). 
+> The formula language supports normal arithmetic operations, such as addition (+), subtraction (-), multiplication (*), and division (/). You can also use (round) parenthesis to group terms in the calculation.
 > 
 > But you can also calculate one value as a percentage of another using the syntax A%B (read A as a percentage of B).
 

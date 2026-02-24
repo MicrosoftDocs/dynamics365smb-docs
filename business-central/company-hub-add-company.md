@@ -13,8 +13,6 @@ ms.reviewer: v-soumramani
 
 # Add companies to your company hub
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 With the company hub, you can access your work from across multiple companies from multiple [!INCLUDE [prod_short](includes/prod_short.md)] environments. You can add an environment and companies manually, if your companies don't show up automatically in the company hub.  
 
 Right in the company hub landing page, you find the **Setup** menu, from where you can access the **Environment Links** page. Choose **New**, and then fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  

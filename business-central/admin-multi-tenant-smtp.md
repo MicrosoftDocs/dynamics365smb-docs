@@ -48,10 +48,10 @@ The following list gives an overview of the steps to use OAuth 2.0 with the SMTP
 |Step  |Action  |Tenant  |
 |------|---------|---------|
 |1     | [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal)  | Tenant A (App / Mailbox tenant)        |
-|2     |[Grant API permissions](#grant-api-permissions)|  Tenant A (App / Mailbox tenant)       |
-|3     |    [Create a client secret or certificate](#create-a-client-secret-or-certificate)     |Tenant A (App / Mailbox tenant)|
+|2     | [Grant API permissions](#grant-api-permissions)|  Tenant A (App / Mailbox tenant)       |
+|3     | [Create a client secret or certificate](#create-a-client-secret-or-certificate)     |Tenant A (App / Mailbox tenant)|
 |4     | [Register the service principal in Exchange Online](#register-the-service-principal-in-exchange-online)  | Tenant A (App / Mailbox tenant)        |
-|5     |[Grant the app permission to send as your mailbox](#grant-the-app-permission-to-send-as-your-mailbox)| Tenant A (App / Mailbox tenant)        |
+|5     | [Grant the app permission to send as your mailbox](#grant-the-app-permission-to-send-as-your-mailbox)| Tenant A (App / Mailbox tenant)        |
 |6     | [Verify your SMTP OAuth configuration](#verify-your-smtp-oauth-configuration) | Tenant A (App / Mailbox tenant)        |
 |7     | [Set up the SMTP connector in Business Central](#set-up-the-smtp-connector-in-business-central) | Tenant B (Business Central tenant)        |
 
@@ -142,7 +142,8 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
    Import-Module ExchangeOnlineManagement
    # Login with Tenant A admin
-   
+   Connect-ExchangeOnline -UserPrincipalName admin@yourtenantA.onmicrosoft.com
+
    $AppId     = <your app ID> # The App ID of the enterprise app in Tenant A's Microsoft Entra admin center.
    $ServiceId = <your service ID> # The object ID of the enterprise app in Tenant A's Microsoft Entra admin center.
    $Display   = "SMTP_OAuth_App" # The name of the service principal you want to create.

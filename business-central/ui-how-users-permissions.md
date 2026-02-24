@@ -13,8 +13,6 @@ ms.custom: bap-template
 ---
 # Create users according to licenses
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 This article describes how administrators create users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)]. This article also describes how to assign permissions to different users according to your product licenses.
 
 ## Basics

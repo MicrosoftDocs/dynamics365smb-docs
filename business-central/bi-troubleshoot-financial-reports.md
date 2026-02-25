@@ -53,7 +53,10 @@ Learn more in [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
 
 ## Adding check figures
 
-One way to quickly identify errors in the design of your financial reporting is to add check figures to your row definitions. You want the figure to calculate to zero, which indicates that the report is correct. When you run financial reporting, a quick glance at the check figure can confirm whether the report is correct.
+One way to quickly identify errors in the design of your financial reporting is to add check figures to your row definitions. You want the figure to calculate to zero, which indicates that the report is correct. When you run financial reporting, a quick glance at the check figure can confirm whether the report is correct. 
+
+> [!TIP]
+> When adding row lines with check figures, consider setting the **Show** option to **No** for them. Then they will not appear on your report PDF output and you can use the **Show All Lines** toggle on the report card to show/hide them.
 
 ## When to use net change or balance at date
 
@@ -69,6 +72,14 @@ While there isn't a single correct answer for how to use these different views, 
 
 > [!TIP]
 > When you create column definitions, might include **BS** or **IS** in the definition description. Those tags can help report viewers decide which reports should use which column definitions.
+
+## Performance considerations
+
+Each cell in a financial report requires the [!INCLUDE[prod_short](includes/prod_short.md)] server to do a calculation, most likely reading a lot of data from the general ledger entries. This means that the time needed to run a report is proportional to the number of cells. For example, a report using a row definition with 50 lines and a column definition with 13 lines will need to do 50x13=650 calculations. But if the report uses a row definition with 500 lines, the number of calculations needed will be 6500, and therefore the time to run the report will 10 times longer.
+
+The [!INCLUDE[prod_short](includes/prod_short.md)] client only calculates cells that are visible on the page. So you might not experience the performance impact of large row definitions until you run the report to Excel or PDF, where all cells need to be calculated. 
+
+If you use large row definitions, you might want to schedule reports to run in the background and get the output in your [!INCLUDE[prod_short](includes/prod_short.md)] report inbox or in an email. This way you can keep working on other tasks and do not have to wait for the report to complete.
 
 ## Related information
 

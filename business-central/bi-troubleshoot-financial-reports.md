@@ -51,9 +51,9 @@ A different method for testing a financial report than what is described in the 
 
 Learn more in [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
 
-## Adding check figures
+## Adding validation figures
 
-One way to quickly identify errors in the design of your financial reporting is to add check figures to your row definitions. You want the figure to calculate to zero, which indicates that the report is correct. When you run financial reporting, a quick glance at the check figure can confirm whether the report is correct. 
+One way to quickly identify errors in the design of your financial reporting is to add validation figures to your row definitions. You want the figure to calculate to zero, which indicates that the report is correct. When you run financial reporting, a quick glance at the validation figure(s) can confirm whether the report is correct or not. 
 
 > [!TIP]
 > When adding row lines with check figures, consider setting the **Show** option to **No** for them. Then they will not appear on your report PDF output and you can use the **Show All Lines** toggle on the report card to show/hide them.

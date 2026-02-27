@@ -5,10 +5,10 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 01/22/2025
+ms.date: 02/27/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: 103_Primary, 104_Primary, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
+ms.search.form: 103_Primary, 104_Primary, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766,
 ms.service: dynamics-365-business-central
 ---
 
@@ -27,9 +27,9 @@ When you create new financial reports, you might find that they don't balance to
 * A formula points to the wrong row number reference.
 * A formula doesn't include all the necessary rows.
 * A formula includes rows more than one time.
-* A formula is making an incorrect calculation.
+* A formula makes an incorrect calculation.
 * A formula incorrectly shows a positive value as negative or a negative value as positive.
-* A totaling account is being used on a row instead of a posting account.
+* A totaling account is used on a row instead of a posting account.
 
 ## Testing a financial report against Trial Balance reports
 
@@ -51,9 +51,12 @@ A different method for testing a financial report than what is described in the 
 
 Learn more in [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
 
-## Adding check figures
+## Adding validation figures
 
-One way to quickly identify errors in the design of your financial reporting is to add check figures to your row definitions. You want the figure to calculate to zero, which indicates that the report is correct. When you run financial reporting, a quick glance at the check figure can confirm whether the report is correct.
+One way to quickly identify errors in the design of your financial reporting is to add validation figures to your row definitions. You want the figure to calculate to zero, which indicates that the report is correct. When you run financial reporting, a quick glance at the validation figures can confirm whether the report is correct. 
+
+> [!TIP]
+> When you add rows with validation figures, consider setting the **Show** option to **No** for them. They won't appear on your report PDF output and you can use the **Show All Lines** toggle on the report to show or hide them.
 
 ## When to use net change or balance at date
 
@@ -69,6 +72,14 @@ While there isn't a single correct answer for how to use these different views, 
 
 > [!TIP]
 > When you create column definitions, might include **BS** or **IS** in the definition description. Those tags can help report viewers decide which reports should use which column definitions.
+
+## Performance considerations
+
+Each cell in a financial report requires the [!INCLUDE[prod_short](includes/prod_short.md)] server to do a calculation, most likely reading a lot of data from the general ledger entries. This means that the time needed to run a report is proportional to the number of cells. For example, a report using a row definition with 50 lines and a column definition with 13 lines will need to do 50x13=650 calculations. But if the report uses a row definition with 500 lines, the number of calculations needed will be 6500, and therefore the time to run the report will 10 times longer.
+
+The [!INCLUDE[prod_short](includes/prod_short.md)] client only calculates cells that are visible on the page. So you might not experience the performance impact of large row definitions until you run the report to Excel or PDF, where all cells need to be calculated. 
+
+If you use large row definitions, you might want to schedule reports to run in the background and get the output in your [!INCLUDE[prod_short](includes/prod_short.md)] report inbox or in an email. This way you can keep working on other tasks and do not have to wait for the report to complete.
 
 ## Related information
 

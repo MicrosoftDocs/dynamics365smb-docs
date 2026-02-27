@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 12/12/2025
+ms.date: 02/27/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103_Primary, 104_Primary, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
@@ -47,11 +47,11 @@ To edit the content of a row definition, follow these steps:
 A powerful feature in Financial Reporting is that you can use values computed in previous rows in row formulas defined in subsequent rows. Set the **Totaling Type** to **Formula**, and then write your calculation in the **Totalling** field on the same row.
 
 > [!TIP]
-> The formula language supports normal arithmetic operations, such as addition (+), subtraction (-), multiplication (*), and division (/). You can also use (round) parenthesis to group terms in the calculation.
+> The formula language supports basic arithmetic operations such as addition (+), subtraction (-), multiplication (*), and division (/). You can also use parenthesis to group terms in the calculation.
 > 
-> The *Row No.* referenced in these formulas are filters, so you can also write terms like 'R|L', L..R. If multiple lines share the same *Row No.*, you can sum over them by just writing that value (see an example below)
+> The *Row No.* referenced in these formulas are filters, so you can also write terms like 'R|L', and 'L..R'. If multiple lines share the same *Row No.*, you can sum them by writing that value (refer to the example in the table below).
 >
-> But you can also calculate one value as a percentage of another using the syntax A%B (read A as a percentage of B).
+> But, you can also calculate one value as a percentage of another using the syntax **A%B** (read A as a percentage of B).
 
 The following excerpt of a row definition illustrates how row formulas work. Your chart of accounts structure might differ from the accounts shown.
 
@@ -65,7 +65,7 @@ The following excerpt of a row definition illustrates how row formulas work. You
 | L       | Total liabilities  | Account Category     | Liabilities                  | | Yes |
 |         | Revenue to liabilities | Formula      | F1 / L                          | | Yes |
 
-The example illustrates some different tips and tricks:
+The example illustrates some tips and tricks:
 
 * Not all lines need to have a *Row No.*
 * You can use a formula row as a code comment. Remember to set the **Show** option to **No**.

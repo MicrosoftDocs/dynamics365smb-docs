@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 01/14/2026
+ms.date: 02/27/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 488_Primary, 489_Primary, 490, 764, 765, 766
@@ -101,8 +101,8 @@ An accounting period doesn't need to match the calendar. However, each fiscal ye
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the duration of the comparison period in relation to the period represented by the date filter on the report. The comparison period is based on the period of the start date of the date filter. The following table shows the abbreviations for period specifications.
 
-| Abbreviation | Description                                                                           |
-| ------------ | ------------------------------------------------------------------------------------- |
+| Abbreviation |Description                                                                  |
+| ------------ | ----------------------------------------------------------------- |
 | P            | Period.                                                                                |
 | LP           | Last period of a fiscal year, half-year, or quarter.                                   |
 | CP           | Current period of a fiscal year, half-year, or quarter. Use CP in formulas to set the period that starts or ends the formula. For example, FY\[1..CP\] denotes the time from the beginning of the current fiscal year to the current period.|
@@ -123,7 +123,10 @@ Examples of formulas:
 To calculate by regular time periods, enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period one year earlier.
 
 > [!NOTE]
-> It isn't always obvious which periods you're comparing on a report. For example, a date filter might spans dates that are different than the accounting periods in your chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, set the **Comparison Date Formula** field to **-1FY**. Then, run the report on **February 28th** and set the date filter to **January and February**. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
+> It isn't always obvious which periods you're comparing on a report. For example, a date filter might spans dates that are different than the accounting periods in your chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, set the **Comparison Date Formula** field to **-1FY**. Then, for example, run the report on **February 28th** and set the date filter to **January and February**. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
+
+> [!WARNING]
+> You can't use both a **Comparison Date Formula** and **Comparison Period Formula** on the same line in the column definition.
 
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 

@@ -141,7 +141,7 @@ Choose the type of calendar the year boundaries apply to.
 
 - **Fiscal**: A 12-month calendar that begins in any month and ends 12 months after.
 - **Standard**: A 12-month calendar that begins on January 1 and ends on December 31.
-- **Weekly**: A calendar that supports 445, 454, or 544 week groupings. The first and last day of the year might not correspond to a first and last day of a month, respectively.
+- **Weekly**: A calendar that supports 445, 454, or 544 week groupings. The first and last day of the year might not correspond to a first and last day of a month, respectively. To learn more, go to [Configure a week based calendar](across-powerbi-configure-week-based-calendar.md).
 
 > [!IMPORTANT]
 > By default, all [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports are configured to use Fiscal Calendar date fields and Fiscal Time Intelligence measures.

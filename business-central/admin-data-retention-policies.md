@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.author: bholtorf
 ms.search.keywords: delete, data, retention, policy, policies
-ms.search.form: 3903, 3901
+ms.search.form: 3903, 3901, 592, 595, 1366, 1367, 1368, 1369
 ms.date: 01/27/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

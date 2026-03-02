@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 09/30/2025
+ms.date: 02/16/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -206,6 +206,9 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 Right-click on the data area or a selection of cells to export data.
 
 :::image type="content" source="media/data-analysis-export-to-excel.png" alt-text="Screenshot of how to export data from an analysis to Excel":::
+
+> [!NOTE]
+> When you export data to Excel, the exported data reflects what you see on the screen. To maintain full functionality remove added related fields, and if the list exceeds 100,000 rows, you must set filters to reduce the number of rows before exporting.
 
 ## Analyze large amounts of data
 

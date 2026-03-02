@@ -35,12 +35,12 @@ The subscription with the associated lines forms the basis for the customer and 
 To manually create a subscription, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subscriptions**, and then choose the related link.
-1. **No.** can be filled in by a number series.
-1. In **Type** and **Source No.** fields, choose the item or the G/L account for the subscription. For example, the device, software, license, user, and so on, that you will bill recurrently. You can only select items with the **Subscription Option** set to **Sales with Subscription** or **Subscription Item**.
-1. The content in the **Description** field comes from the item, but you can edit it.
-1. In the **Quantity** field, specify the number of devices or licenses whose subscription lines you bill recurrently.
-1. On the **End User** FastTab, enter information about the customer that purchased the item and the subscription lines.
-1. The **Shipping and Billing** FastTab, enter information about the original shipment of the product, and whether a different invoice recipient paid for the item. Use the contact details of the delivery recipient from the sales order. You can change the ship-to party if needed in the same way as for sales documents. The other delivery recipient fields update automatically.
+2. **No.** can be filled in by a number series.
+3. In **Type** and **Source No.** fields, choose the item or the G/L account for the subscription. For example, the device, software, license, user, and so on, that you will bill recurrently. You can only select items with the **Subscription Option** set to **Sales with Subscription** or **Subscription Item**.
+4. The content in the **Description** field comes from the item, but you can edit it.
+5. In the **Quantity** field, specify the number of devices or licenses whose subscription lines you bill recurrently.
+6. On the **End User** FastTab, enter information about the customer that purchased the item and the subscription lines.
+7. The **Shipping and Billing** FastTab, enter information about the original shipment of the product, and whether a different invoice recipient paid for the item. Use the contact details of the delivery recipient from the sales order. You can change the ship-to party if needed in the same way as for sales documents. The other delivery recipient fields update automatically.
 
 As additional information, on the **General** FastTab, you can fill in the **Customer Reference**, **Version**, **Provision Start Date**, and **Provision End Date** fields. The **Provision Start Date** is automatically entered when the subscription is created by receiving a sales order. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
@@ -81,6 +81,25 @@ If you create a subscription manually based on a G/L account, you need to enter 
 For subscriptions whose items aren't configured for item tracking (lot or serial number mandatory), you can change the quantity directly on the subscription. The result is a recalculation of the amounts in the associated subscription lines and contract lines.
 
 You can't change the quantity for subscriptions whose items are configured for item tracking (lot or serial number mandatory). Subscriptions with lot number tracking retain the quantity from the delivery or the initial entry. You can only create subscriptions with serial number tracking with a quantity of **1**.
+
+## Pricing
+
+Changes to a subscription can trigger pricing. However, a distinction must be made as to which specific change is involved. Depending on this, it has different effects on pricing.
+
+In principle, three factors can influence pricing in an existing subscription:
+1. change of customer
+2. change in the item variant
+3. change in quantity
+
+If the requirements for the changes in the first two cases are met, the entire pricing process is executed here. A change to the customer may also result in a change to the price group. Another item variant can also have its own prices. Both changes affect the calculation base amount and therefore also the amount of the subscription line.
+
+The situation is different with a change in quantity. This deliberately does not affect the calculation base amount, but does affect the amount of the subscription line. The reasons for this system behavior are as follows:
+
+* A contract is usually a fixed (commercial) agreement that should not be influenced by an "indirect" action, e.g. changes to item prices or price list lines. If the entire pricing process were always triggered when a quantity change was made in the subscription, changes to item prices or price list lines would have an immediate and possibly unnoticed effect on the contract and thus on the next invoice.
+* Users can update the prices for subscription lines (cyclically) via the "Subscription Contract Price Update" worksheet. This changes the calculation base amount, i.e. it is increased, for example. If a quantity change in the subscription were to trigger the entire pricing process, the prices in the subscription and contract lines would always be recalculated and the price change would therefore be lost.
+
+This is why pricing for subscription and contract lines is different from pricing for sales lines.
+
 
 ## Related information
 

@@ -12,8 +12,6 @@ ms.custom: bap-template #Required; don't change.
 
 # Set Up Universal Print Printers
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Universal Print is a Microsoft 365 subscription-based service that runs entirely on Microsoft Azure. It gives you centralized printer management through the Universal Print portal. [!INCLUDE[prod_short](includes/prod_short.md)] makes printers set up in Universal Print available to client users through the **Universal Print Integration** extension.
 
 ![Universal Print setup.](media/Universal-Print-arch.png)

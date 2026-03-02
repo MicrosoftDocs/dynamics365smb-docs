@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_119_Primary
-ms.date: 03/12/2025
+ms.date: 02/02/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -16,6 +16,8 @@ ai.usage: ai-assisted
 ---
 
 # Customer - Sales list (report)
+
+[!INCLUDE [deprecated-report-note](../includes/deprecated-report-note-include.md)]
 
 The **Customer - Sales list** report shows customer sales for a period. You can choose to include only customers with total sales that exceed a minimum amount. You can also specify whether you want the report to show address details for each customer.
 
@@ -77,6 +79,10 @@ Controllers and tax compliance officers use the report to:
 Try the report here: [Customer - Sales list](https://businesscentral.dynamics.com?report=119)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+[!INCLUDE [alternative-reports-sales](../includes/alternative-reports-sales.md)]
 
 ## Related information
 

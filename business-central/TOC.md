@@ -2177,10 +2177,10 @@ ms.service: dynamics-365-business-central
 ###### [General Setup](SRB/setup/general.md)
 ###### [Assign permissions](SRB/setup/permissions.md)
 ###### [Set up subscription contract types](SRB/setup/contract-types.md)
+###### [Manage subscription packages](SRB/masterdata/service-commitments.md)
 ###### [Import subscription contracts and contract lines](SRB/setup/import.md)
 ###### [Use the job queue](SRB/setup/job-queue.md)
 ###### [Use subscription lines and items](SRB/masterdata/items.md)
-###### [Manage subscription lines](SRB/masterdata/service-commitments.md)
 ### Set up purchase
 #### [Set up purchase](purchasing-setup-purchasing.md)
 #### [Register new vendors](purchasing-how-register-new-vendors.md)
@@ -2656,7 +2656,8 @@ ms.service: dynamics-365-business-central
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot and agent capabilities
-## [About Copilot in Business Central](copilot-overview.md)
+## [Copilot overview](copilot-overview.md)
+## [Copilot country/region and language availability](copilot-agents-region-language-availability.md)
 ## Manage Copilot and agent capabilities
 ### [Configure Copilot and agent capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)

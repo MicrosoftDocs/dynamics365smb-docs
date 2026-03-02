@@ -1,9 +1,8 @@
 ---
-title: Configure a week based calendar
+title: Configure a week-based calendar
 description: Learn how to configure a week based calendar for your Power BI Semantic Models.
 author: kennieNP
 ms.topic: get-started
-ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
 ms.date: 02/19/2026
 ms.author: kepontop
@@ -12,143 +11,124 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-This article describes how to configure a week based calendar for your Power BI Semantic Models. The configurations are made in Business Central from the Power BI Reports Setup page which flow through to each connected semantic model.
+# Configure a week-based calendar
 
-![alt text](image-6.png)
+This article describes how to configure a week-based calendar for your Power BI Semantic Models. You configure your week-based calendar on the **Power BI Reports Setup** page, and your settings flow through to each connected semantic model.
 
-## The Mental Model: Four Concepts to Consider
+:::image type="content" source="image-6.png" alt-text="Screenshot of a calendar.":::
 
-Configuration should always be thought about in this order:
+## Four concepts to consider
 
-1. [Define the Week Structure](#define-the-week-structure)
-2. [Define the Fiscal Year Anchor](#define-the-fiscal-year-anchor)
-3. [Define the Fiscal Boundary Rule](#define-the-fiscal-boundary-rule)
-4. [Define the Period Pattern (445 / 454 / 544)](#define-the-period-pattern-445--454--544)
+Think about your configuration in this order:
 
-### Define the Week Structure
+1. [Define the Week Structure](#define-the-week-structure).
+2. [Define the Fiscal Year Anchor](#define-the-fiscal-year-anchor).
+3. [Define the Fiscal Boundary Rule](#define-the-fiscal-boundary-rule).
+4. [Define the Period Pattern (445 / 454 / 544)](#define-the-period-pattern-445--454--544).
 
-Before configuring fiscal boundaries or 445 patterns, you must first define the week structure.
+### Define the week structure
 
-The week structure establishes the framework of the calendar.
+Before you configure fiscal boundaries or 445 patterns, you must first define the week structure on the **Power BI Reports Setup** page by filling in the **First Day of Week** field. The week structure establishes the framework of the calendar.
 
-This is done by setting **First Day of Week**.
+Treat the **First Day of Week** setting as a foundational configuration that shouldn't change after you start to run reports. Changing the setting afterward:
 
-The First Day of Week should be treated as a foundational configuration that should not change once reporting begins. Changing the First Day of Week after implementation will:
-
-- Change historical fiscal year start dates
-- Change week numbers for all historical data
-- Potentially shift which years contain 53 weeks
-- Break period comparisons year-over-year
+- Changes historical fiscal year start dates.
+- Changes week numbers for all historical data.
+- Might change which years contain 53 weeks.
+- Can break year-over-year period comparisons.
 
 > [!IMPORTANT]
-> Changing the First Day of Week changes the entire calendar structure.
+> Changing the setting in the **First Day of Week** field changes the entire calendar structure.
 
-### Define the Fiscal Year Anchor
+### Define the fiscal year anchor
 
-The **Anchor** is the first day of the *First Month of Fiscal Weekly Calendar*. It is the **reference point** used to determine fiscal year boundaries.
+The *anchor* is the first day of the month specified in the **First Month of Fiscal Calendar** field on the **Power BI Reports Setup** page. It's the reference point that sets fiscal year boundaries.
 
-In the example below, January is chosen as **First Month of Fiscal Weekly Calendar**, therefore the Anchor for 2026 is **Thursday** January 1.
+In the following example, January is chosen as **First Month of Fiscal Calendar**. Therefore, the anchor for 2026 is **Thursday**, January 1.
 
-![alt text](image-5.png)
+:::image type="content" source="image-5.png" alt-text="Screenshot that shows a calendar.":::
 
 > [!IMPORTANT]
-> The Anchor is **not** the fiscal year start.
+> The anchor **isn't** the fiscal year start.
 
-### Define the Fiscal Boundary Rule
+### Define the fiscal boundary rule
 
-Use **Weekly Type** to set the boundary rule (Last or Nearest). These rules determine how we snap the anchor to the week grid.
+If you choose **Weekly** in the **Calendar Type** field, you can use the **Weekly Type** field to set the boundary rule (Nearest or Last). The rule determines how the anchor snaps to the week grid.
 
-1. [Nearest](#nearest-rule) : Snap to closest week boundary.
-2. [Last](#last-rule) : Snap to week containing the anchor.
+1. [Nearest](#nearest-rule): Snap to the closest week boundary.
+2. [Last](#last-rule): Snap to the week that has the anchor.
 
-#### Nearest Rule
+#### Nearest rule
 
-This is exactly how the Last rule works.
+The following example describes how the Nearest rule works. The example assumes that fields are filled in as follows:
 
-Assume:
+- The **Weekly Type** field is set to **Nearest**.
+- The **First Month of Fiscal Calendar** field is set to **January**.
+- The **First Day of Week** field is set to **Sunday**.
 
-- WeeklyType = "Nearest"
-- First Month of Fiscal Weekly Calendar = January
-- First Day of Week = **Sunday**
+The anchor is Thursday, January 1, 2026.
 
-The Anchor is Thursday, January 1, 2026.
+##### Define the week grid for the Nearest rule
 
-##### Step 1 (Nearest Rule) - Define the Week Grid
-
-Because First Day of Week is Sunday, the week grid runs from Sunday to Saturday.
-
-So the week grid containing January 1, 2026 looks like:
+Because the **First Day of Week** field contains **Sunday**, the week grid runs from Sunday to Saturday. So, the week grid containing January 1, 2026 looks like:
 
 | Sunday | Monday | Tuesday | Wednesday | Thursday  | Friday | Saturday |
 | :---:  | :---:  | :---:   | :---:     | :---:     | :---:  | :---:    |
 | Dec 28 | Dec 29 | Dec 30  | Dec 31    | **Jan 1** | Jan 2  | Jan 3    |
 
-##### Step 2 (Nearest Rule) - Identify the Two Possible Week Boundaries
+##### Identify the two possible week boundaries
 
-For the anchor (January 1), there are two possible fiscal year starts:
+For the anchor (January 1), there are two possible starting points for your fiscal year:
 
-- The **previous** week starting Sunday, December 28, 2025
-- The **next** week starting Sunday, January 4, 2026
+- The previous week starting Sunday, December 28, 2025.
+- The next week starting Sunday, January 4, 2026.
 
-The "Nearest" rule chooses whichever boundary is **closer to the anchor**.
+The Nearest rule chooses the boundary that's closest to the anchor.
 
-##### Step 3 (Nearest Rule) - Compare Distances
+##### Compare distances
 
-Distance from January 1 to:
+The distance from January 1 to December 28 is four days backward. The distance to January 4 is three days forward. Because January 4 is closer, the fiscal year start is January 4, 2026.
 
-- December 28th is 4 days backward
-- January 4th is 3 days forward
+#### Last rule
 
-Because January 4 is closer, the fiscal year start is January 4th 2026.
+The following example describes how the Last rule works. The example assumes that fields are filled in as follows:
 
-#### Last Rule
+- The **Weekly Type** field is set to **Last**.
+- The **First Month of Fiscal Calendar** field is set to **January**.
+- The **First Day of Week** field is set to **Sunday**.
 
-This is exactly how the Last rule works.
+The anchor is Thursday, January 1, 2026.
 
-Assume:
+##### Define the week grid for the Last rule
 
-- WeeklyType = "Last"
-- First Month of Fiscal Weekly Calendar = January
-- First Day of Week = **Sunday**
+Because **First Day of Week** field contains **Sunday**, the week grid runs from Sunday to Saturday.
 
-The Anchor is Thursday, January 1, 2026
+- Sunday is day 1
+- Monday is day 2
+- Tuesday is day 3
+- and so on...
 
-##### Step 1 (Last Rule) - Define the Week Grid
+##### Find the start of the week containing the anchor
 
-Because First Day of Week is Sunday, the week grid runs from Sunday to Saturday.
-
-So in DAX terms:
-
-- Sunday = day 1
-- Monday = day 2
-- Tuesday = day 3
-- etc.
-
-##### Step 2 (Last Rule) - Find the Start of the Week Containing the Anchor
-
-January 1, 2026 is a Thursday, so that week grid looks like this:
+January 1, 2026 is a Thursday, so that week grid looks as follows:
 
 | Sunday | Monday | Tuesday | Wednesday | Thursday  | Friday | Saturday |
 | :---:  | :---:  | :---:   | :---:     | :---:     | :---:  | :---:    |
 | Dec 28 | Dec 29 | Dec 30  | Dec 31    | **Jan 1** | Jan 2  | Jan 3    |
 
-##### Step 3 (Last Rule) - Apply the "Last" Rule
+##### Apply the Last rule
 
-The "Last" rule: The fiscal year begins on the first day of the week that contains the anchor date.
+For the Last rule, the fiscal year begins on the first day of the week that contains the anchor date. Because January 1 is in the week that started December 28, the fiscal year starts on **December 28, 2025**.
 
-Since January 1 falls inside the week that started December 28, the fiscal year starts on **December 28, 2025**.
+### Define the period pattern (445/454/544)
 
-### Define the Period Pattern (445 / 454 / 544)
-
-The next step is to determine how weeks are grouped into reporting periods.
-
-This is done by setting **Quarter Week Type**:
+The next step is to determine how to group weeks into reporting periods by filling in the **Quarter Week Type** field:
 
 - 445
 - 454
 - 544
 
-Quarter Week Type controls how weeks are grouped within each quarter. Each quarter contains 13 weeks. Those 13 weeks are distributed across three fiscal months according to the selected pattern.
+The **Quarter Week Type** field specifies how to group weeks within each quarter. Each quarter contains 13 weeks that are distributed across three fiscal months according to the pattern you select.
 
 | Pattern | Weeks in Month 1 | Weeks in Month 2 | Weeks in Month 3 |
 | :---:   | :---:            | :---:            | :---:            |
@@ -158,14 +138,15 @@ Quarter Week Type controls how weeks are grouped within each quarter. Each quart
 
 All three patterns total 13 weeks per quarter (52 weeks per year, before any 53rd week adjustment).
 
-Quarter Week Type Does NOT:
+> [!NOTE]
+> The **Quarter Week Type** field only affects how you label weeks as fiscal periods, and how you structure reporting periods. The setting doesn't:
+>
+> - Change when the fiscal year starts.
+> - Effect the week grid.
+> - Influence the Last or Nearest rule.
+> - Determine whether a year has 52 or 53 weeks.
 
-- Change when the fiscal year starts
-- Affect the week grid
-- Influence the “Last” or “Nearest” rule
-- Determine whether a year has 52 or 53 weeks
+## Related information
 
-Quarter Week Type only affects:
-
-- How weeks are labeled as fiscal periods
-- How reporting periods are structured
+[Power BI Subscription Billing app](SRB/analytics/subscription-powerbi-app.md)  
+[Overview of subscription billing](SRB/welcome.md)

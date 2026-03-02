@@ -24,7 +24,7 @@ Think about your configuration in this order:
 1. [Define the Week Structure](#define-the-week-structure).
 2. [Define the Fiscal Year Anchor](#define-the-fiscal-year-anchor).
 3. [Define the Fiscal Boundary Rule](#define-the-fiscal-boundary-rule).
-4. [Define the Period Pattern (445 / 454 / 544)](#define-the-period-pattern-445--454--544).
+4. [Define the period pattern (445/454/544)](#define-the-period-pattern-445454544)
 
 ### Define the week structure
 

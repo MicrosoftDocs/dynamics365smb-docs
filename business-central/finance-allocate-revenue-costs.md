@@ -3,10 +3,10 @@ title: Allocate revenue and costs to multiple general ledger accounts
 description: Learn how to allocate costs to one or more accounts in your general ledger.
 author: brentholtorf
 ms.author: bholtorf
-ms.date: 08/08/2024
+ms.date: 03/02/2026
 ms.topic: how-to
 ms.search.keywords: allocate, allocation, accounts
-ms.search.form: 39, 2673, 2670, 2674, 
+ms.search.form: 2673_primary, 2670, 2674,
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

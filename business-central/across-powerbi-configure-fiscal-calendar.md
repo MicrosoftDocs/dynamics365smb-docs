@@ -1,54 +1,41 @@
 ---
-title: Configure a fiscal calendar
+title: Configure a fiscal calendar for your Power BI reports
 description: Learn how to configure a fiscal calendar for your Power BI Semantic Models.
 author: kennieNP
 ms.topic: get-started
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 02/19/2026
+ms.date: 03/03/2026
 ms.author: kepontop
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Configure a fiscal calendar
+# Configure a fiscal calendar for your Power BI reports
 
-This article describes how to configure a fiscal calendar for your Power BI Semantic Models. You configure your fiscal calendar on the **Power BI Reports Setup** page, and your settings flow through to each connected semantic model.
+This article describes how to configure a fiscal calendar for your Power BI semantic models. You configure your fiscal calendar on the **Power BI Reports Setup** page, and your settings flow through to each connected semantic model.
 
-![alt text](image-8.png)
+:::image type="content" source="image-8.png" alt-text="Screenshot of the Power BI Reports Setup page.":::
 
-### Configure Calendar Type for a Fiscal Calendar
+### Set the calendar type for a fiscal calendar
 
-Setting Calendar Type to **Fiscal Calendar** configures the Power BI date table to use a Gregorian month-based fiscal year structure rather than the standard calendar year.
+Setting the **Calendar Type** field to **Fiscal Calendar** configures the Power BI date table to use a Gregorian month-based fiscal year structure, rather than the standard calendar year. Using this structure means:
 
-This means:
+- Fiscal years begin on the value in the **First Month of Fiscal Calendar** field.
+- Fiscal months align to Gregorian calendar month boundaries.
+- Power BI reports should use the fields for a fiscal calendar, such as Fiscal Year, Fiscal Month, Fiscal Quarter, and so on.
+- You should use Fiscal Time Intelligence measures for period comparisons.
 
-- Fiscal years begin on the **Fiscal Month of Fiscal Calendar** value.
-- Fiscal months align to gregorian calendar month boundaries.
-- Power BI reports should use the Fiscal Calendar fields (Fiscal Year, Fiscal Month, Fiscal Quarter, etc.).
-- Fiscal Time Intelligence measures should be used for period comparisons.
+### Specify the first month of your fiscal calendar
 
-### Define Fiscal Month of Fiscal Calendar
+Use the **First Month of Fiscal Calendar** field to specify the calendar month in which your fiscal year begins. Enter the value as a number from 1 to 12, where:
 
-Use **Fiscal Month of Fiscal Calendar** to specify the calendar month in which your fiscal year begins.
+- 1 represents January
+- 2 represents February
+- 3 represents March
+- and so on...
 
-The value should be entered as a number from 1 to 12, where:
-
-1 = January
-
-2 = February
-
-3 = March
-
-etc.
-
-For example, if your fiscal year begins in July, set Fiscal Month of Fiscal Calendar = 7.
-
-This setting determines:
-
-- The start of the fiscal year
-- How Fiscal Year, Fiscal Month, and Fiscal Quarter fields are calculated
-- How fiscal time intelligence measures operate
+For example, if your fiscal year begins in July, enter **7** in the **First Month of Fiscal Calendar** field.
 
 ## Related information
 

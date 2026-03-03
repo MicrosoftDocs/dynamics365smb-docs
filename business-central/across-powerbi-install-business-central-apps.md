@@ -137,10 +137,10 @@ The assisted setup guide helps you configure the following components:
 
 ### Configure the calendar type
 
-Choose the type of calendar the year boundaries apply to.
+Choose the calendar type that aligns with how your organization defines its reporting year. This setting determines how year boundaries are calculated, which time intelligence measures to use and which calendar in the Power BI semantic models to use.
 
-- **Fiscal**: A 12-month calendar that begins in any month and ends 12 months after.
-- **Standard**: A 12-month calendar that begins on January 1 and ends on December 31.
+- **Fiscal**: A 12-month calendar that begins in any month and ends 12 months after. To learn more, go to [Configure a fiscal calendar](across-powerbi-configure-fiscal-calendar.md).
+- **Standard**: A 12-month calendar that begins on January 1 and ends on December 31. To learn more, go to [Configure a standard calendar](across-powerbi-configure-standard-calendar.md).
 - **Weekly**: A calendar that supports 445, 454, or 544 week groupings. The first and last day of the year might not correspond to a first and last day of a month, respectively. To learn more, go to [Configure a week based calendar](across-powerbi-configure-week-based-calendar.md).
 
 > [!IMPORTANT]

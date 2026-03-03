@@ -2442,6 +2442,7 @@ ms.service: dynamics-365-business-central
 #### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
 #### [Configure a week-based calendar for the Power BI apps](across-powerbi-configure-week-based-calendar.md)
 #### [Configure a fiscal calendar for your Power BI reports](across-powerbi-configure-fiscal-calendar.md)
+#### [Configure a standard calendar for your Power BI reports](across-powerbi-configure-standard-calendar.md)
 #### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
 #### [Use back links to explore the data behind visuals](powerbi-back-links.md)
 #### [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md)

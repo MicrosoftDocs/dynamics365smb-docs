@@ -691,6 +691,7 @@ ms.service: dynamics-365-business-central
 ##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
 ##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
 #### [Recurring billing](SRB/recurring-billing.md)
+#### [Billing automation overview](SRB/billing-automation.md)
 #### [Posting documents](SRB/posting-documents.md)
 #### [Purchasing](SRB/purchases.md)
 #### Bill subscriptions based on usage

@@ -74,7 +74,7 @@ The revenues and costs figures show the current and previous month's revenues 
 The **Overdue** and **Not invoiced** cues indicate actions you might want to take:
 
 - **Overdue** shows subscription lines that aren't yet billed.
-- **Not Invoiced** shows that you haven't yet created a posting document for lines in a billing proposal. 
+- **Not Invoiced** shows that you haven't created a posting document for lines in a billing proposal. 
 
 The cues are based on the work date.
 
@@ -84,5 +84,6 @@ To start using subscription billing features, there are a few things to set up f
 
 ## Related information
 
+[Examples](examples.md)  
 [Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)  
 [Recurring billing](recurring-billing.md)  

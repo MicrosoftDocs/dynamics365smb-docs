@@ -84,5 +84,6 @@ To start using subscription billing features, there are a few things to set up f
 
 ## Related information
 
-[Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)  
+[Examples](../examples.md)
+[Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)
 [Recurring billing](recurring-billing.md)  

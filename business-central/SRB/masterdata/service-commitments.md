@@ -46,7 +46,7 @@ You can create subscription line templates to simplify the process of creating s
 * **Template** indicates whether the line was created based on a subscription package​ line template. Specifying a subscription package​ line template is optional. You can also manually enter the line.
 * **Description** specifies the description of the subscription package​ line.
 * To learn more about the **Invoicing** field, go to [Types of subscription package lines​](#types-of-subscription-package-lines).
-* To learn more about the **Invoicing via Item No.** field, go to [Control revenue accounts​ via invoicing items](#control-revenue-accounts-via-invoicing-items).
+* To learn more about the **Invoicing Item No.** field, go to [Revenue recognition](#revenue-recognition).
 * To learn more about the **Calculation Base Amount Type** field, go to [Pricing and calculation types](#pricing-and-calculation-types).
 * **Calculation Base Amount %** is the percentage of the calculation base amount that is used in the sales process to price the subscription lines.
 * **Calculation Base Period** specifies the period to which the service amount relates. For example, enter **1M** if the amount refers to one month, or **12M** if the amount refers to one year.
@@ -102,15 +102,39 @@ Three types of reference values are used to price subscription lines via the *
 
 To learn more, go to [Price determination of Subscription Lines](../sales/price-calculation.md).
 
-## Control revenue accounts​ via invoicing items
+## Revenue recognition
 
-Typically, you handle subscriptions that you sell along with an item with an invoicing item. Depending on the configuration of the posting groups in General Posting Setup, revenues can post to different revenue accounts for each subscription line to bill. The lookup of the **Invoicing via Item No.** field shows only invoicing items.
+If you sell a typical subscription and invoice it on a recurring basis, the revenue should normally be realized based on the posting groups of the subscription item. You can create a simple subscription package for this (see [example below](#example-subscription-item-simple-monthly-subscription)), in which the **Invoicing Item No.** field simply remains empty. However, if the revenue is to be realized differently from the posting groups of the subscription item, you can set an [invoicing item](../masterdata/items.md) in the field mentioned. If specified, this is used in the invoice line and also for the deferrals. For subscription items, the field is a optional: if an invoicing item is specified here, it will be used. If no invoicing item is specified, the posting groups of the subscription item itself are used.
 
-Subscription items that are themselves the subject of provisioning (such as a support service) can also contain the posting groups for revenue control. In this case, the **Invoicing via Item No.** field is left blank.
+For scenarios in which the item itself is sold as a one-off, but a part is to be billed on a recurring basis (i.e., **Sales with Subscription** is selected in the **Subscription Option** field on the item card), an invoicing item must necessarily be specified, as the item sold once cannot be used for billing recurringly. An example of such a subscription package can be found [below](#example-sales-with-subscription).
+
+The lookup of the **Invoicing Item No.** field shows only invoicing items.
+
+Depending on the configuration of the posting groups in General Posting Setup, revenues can post to different revenue accounts for each subscription line to bill.
+
+## Example: Subscription Item (simple, monthly subscription)
+
+The get started with a simple, monthly subscription you'll need a subscription item (**Subscription Item** is selected in the **Subscription Option** field on the item card) and a subscription package with just one line. The following example shows such a setup which runs monthly.
+
+| Partner | Template | Description | Invoicing via | Invoicing Item No. | Calculation Base Type | Calculation Base % | Billing Base Period | Billing Rhythm | Subscription Line Start Formula | Initial Term | Subsequent Term | Notice Period|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|Customer|SUBSCRIPTION-1M|Subscription (monthly)|Subscription Contract||Item Price|100|1M|1M|||||
+
+You can find such an example as part of the Contoso demo data (item "SB1100").
+
+## Example: Sales with Subscription
+
+For the scenario where an item is sold as a one-off but with a recurring part you'll need an item **Sales with Subscription** selected in the **Subscription Option** field on the item card and a subscription package at least one line. The following example shows such a setup where the price for the recurring part is calculated with 10% from the document line for the whole year.
+
+| Partner | Template | Description | Invoicing via | Invoicing Item No. | Calculation Base Type | Calculation Base % | Billing Base Period | Billing Rhythm | Subscription Line Start Formula | Initial Term | Subsequent Term | Notice Period|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|Customer|SUBSCRIPTION-12M|Subscription (annually)|Subscription Contract|SB1104|Document Price|10|12M|12M|||||
+
+You can find such an example as part of the Contoso demo data (items "SB1103" with invoicing item "SB1104").
 
 ## Example: Warranty as a subscription line​
 
-When a product is sold, a warranty is required by law. This requirement means that the supplier of a product guarantees that the products it supplies have the promised properties. The warranty is often limited in time.
+Depending on the product being sold, a warranty may be required by law. This requirement means that the supplier of a product guarantees that the products it supplies have the promised properties. The warranty is often limited in time.
 
 You can supplement the statutory warranty with extra warranties or services that you can create as subscription lines. For example, manufacturers might grant the customer an extended warranty period from the date of purchase or even subscription lines that go beyond what is legally required. For example, free on-site replacement of defective parts.
 
@@ -118,13 +142,14 @@ A subscription line can represent the mapping of these commitments. It contains 
 
 The following example shows a warranty set up as a subscription line. The warranty is free of charge and runs for 12 months.
 
-| Partner | Template | Description | Invoicing via | Invoicing via Item No. | Calculation Base Type | Calculation Base % | Calculation Base Period | Calculation Base Rhythm | Subscription Line Start Formula | Initial Term | Subsequent Term |Cancellation Period|
+| Partner | Template | Description | Invoicing via | Invoicing Item No. | Calculation Base Type | Calculation Base % | Billing Base Period | Billing Rhythm | Subscription Line Start Formula | Initial Term | Subsequent Term | Notice Period|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|
-|Customer|Guarantee|Warranty|Sales||Item Price|0|12M||12M|
-|Supplier|Guarantee|Warranty|Sales||Item Price|0|12M||12M|
+|Customer|GUARANTEE|Warranty|Sales||Item Price|0|12M|12M|||||
+|Supplier|GUARANTEE|Warranty|Sales||Item Price|0|12M|12M|||||
 
 The subscription package contains both a customer and a vendor line, so the customer can make claims within the specified period. However, this information is also covered by subscription lines towards the supplier. For example, if the vendor provided a warranty for the items.
 
 ## Related information
 
-[Sales process](../sales/sales-service-commitments.md)  
+[More examples](../examples.md)
+[Sales process](../sales/sales-service-commitments.md)

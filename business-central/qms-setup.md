@@ -117,12 +117,12 @@ The following steps describe settings you can use to get started with quality ma
 
 1. On the **Bin Movements and Reclassifications** FastTab, specify the batches to use when you move inventory from one bin to another or change item tracking information. Your choice depends on whether your warehouse is set up to use directed put-away and pick. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 1. On the **Inventory Adjustments** FastTab, specify the item journal batch or warehouse item journal batch to use to reduce inventory quantities. Your choice depends on whether your warehouse is set up to use directed put-away and pick. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-1. On the **Item Tracking** FastTab, in the **Tracking Before Finishing** field, specify whether to require item tracking before finishing an inspection:
+<!--1. On the **Item Tracking** FastTab, in the **Tracking Before Finishing** field, specify whether to require item tracking before finishing an inspection:
 
    - **Allow without item tracking** allows inspections without lot or serial numbers.
    - **Allow only posted item tracking** requires you to post lot or serial numbers.
    - **Allow reserved or posted item tracking** allows lot or serial numbers that exist but aren't posted yet.
-   - **Allow any non-empty value** allows any lot or serial value, even if they aren't in inventory.
+   - **Allow any non-empty value** allows any lot or serial value, even if they aren't in inventory.-->
 
 1. In the **Quality inspection selection criteria** field, specify the inspections to consider when evaluating whether to block a document-specific transaction.
    

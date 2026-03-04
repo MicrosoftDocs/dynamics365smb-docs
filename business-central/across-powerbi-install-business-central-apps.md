@@ -1,13 +1,12 @@
 ---
-title: Installing Power BI apps for Business Central
+title: Install Power BI apps for Business Central
 description: Learn how to install Power BI apps for your Business Central.
 author: kennieNP
 ms.topic: get-started
-ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 10/17/2025
+ms.date: 03/03/2026
 ms.author: kepontop
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -21,20 +20,20 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 - APIs for reading data.
 - [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models and reports.
 - Pages that embed the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)].
-- Navigation links on Role Centers and Role Explorer.
+- Links on Role Centers and Role Explorer.
 
 ## Prerequisites
 
 To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you must have:
 
-- An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online (it comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].)
+- An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online, which comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
 
-- Entitlements/permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to:
+- Entitlements and permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to:
 
   - Install template apps from Marketplace.
   - Use shared workspaces.
 
-The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be met with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
+You can meet the prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 
 - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
 - The user who refreshes the data.
@@ -63,9 +62,8 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 
 Template apps are available to install from Microsoft Marketplace. To install or update one or more of the template apps, go to one of the install links in the following tables below and select **Get it now**.
 
-Sign in to Microsoft Marketplace using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
-
-In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
+1. Sign in to Microsoft Marketplace using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
+1. In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
 
 :::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png"::::::
 
@@ -137,11 +135,11 @@ The assisted setup guide helps you configure the following components:
 
 ### Configure the calendar type
 
-Choose the type of calendar the year boundaries apply to.
+Choose the calendar type that aligns with how your organization defines its reporting year. This setting determines how year boundaries are calculated, which time intelligence measures to use, and which calendar in the Power BI semantic models to use.
 
-- **Fiscal**: A 12-month calendar that begins in any month and ends 12 months after.
-- **Standard**: A 12-month calendar that begins on January 1 and ends on December 31.
-- **Weekly**: A calendar that supports 445, 454, or 544 week groupings. The first and last day of the year might not correspond to a first and last day of a month, respectively.
+- **Fiscal**: A 12-month calendar that begins in any month and ends 12 months after. To learn more, go to [Configure a fiscal calendar](across-powerbi-configure-fiscal-calendar.md).
+- **Standard**: A 12-month calendar that begins on January 1 and ends on December 31. To learn more, go to [Configure a standard calendar](across-powerbi-configure-standard-calendar.md).
+- **Weekly**: A calendar that supports 445, 454, or 544 week groupings. The first and last day of the year might not correspond to a first and last day of a month, respectively. To learn more, go to [Configure a week based calendar](across-powerbi-configure-week-based-calendar.md).
 
 > [!IMPORTANT]
 > By default, all [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports are configured to use Fiscal Calendar date fields and Fiscal Time Intelligence measures.

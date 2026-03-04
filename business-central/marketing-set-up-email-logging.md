@@ -14,8 +14,6 @@ ms.service: dynamics-365-business-central
 
 # Track email message exchanges between salespeople and contacts
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Get more out of the communications between your salespeople and customers by turning email exchanges into actionable opportunities. [!INCLUDE[prod_short](includes/prod_short.md)] can work with Exchange Online to keep a log of the inbound and outbound messages. You can view and analyze the contents of each message on the **Interaction Log Entries** page.
 
 > [!IMPORTANT]

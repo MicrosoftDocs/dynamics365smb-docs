@@ -3,7 +3,7 @@ title: Financial Reporting FAQ
 description: FAQ for the Financial Reporting feature in Business Central.
 author: kennieNP
 ms.topic: get-started
-ms.date: 1/7/2025
+ms.date: 02/27/2026
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
@@ -35,7 +35,7 @@ When you create new financial reports, you might find that they don't balance wi
 
 ## How can I test my report?
 
-One way to quickly identify errors in the design of your financial reporting is to add check figures to your row definitions. To learn more, go to [Adding check figures](bi-troubleshoot-financial-reports.md#adding-check-figures).
+One way to quickly identify errors in the design of your financial reporting is to add check figures to your row definitions. To learn more, go to [Adding validation figures](bi-troubleshoot-financial-reports.md#adding-validation-figures).
 
 ## When should I use net change vs. balance at date?
 

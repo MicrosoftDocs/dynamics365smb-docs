@@ -652,7 +652,7 @@ ms.service: dynamics-365-business-central
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
 ### Subscription billing
 #### [Overview of subscription billing](SRB/welcome.md)
-
+#### [Overcome subscription business model challenges](SRB/examples.md)
 <!-- Subscription billing analytics start -->
 #### Subscription billing analytics
 ##### [Power BI subscription billing app](SRB/analytics/subscription-powerbi-app.md)
@@ -691,6 +691,7 @@ ms.service: dynamics-365-business-central
 ##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
 ##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
 #### [Recurring billing](SRB/recurring-billing.md)
+#### [Billing automation overview](SRB/billing-automation.md)
 #### [Posting documents](SRB/posting-documents.md)
 #### [Purchasing](SRB/purchases.md)
 #### Bill subscriptions based on usage
@@ -2459,6 +2460,9 @@ ms.service: dynamics-365-business-central
 #### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
 ### Power BI apps for Business Central
 #### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+#### [Configure a week-based calendar for the Power BI apps](across-powerbi-configure-week-based-calendar.md)
+#### [Configure a fiscal calendar for your Power BI reports](across-powerbi-configure-fiscal-calendar.md)
+#### [Configure a standard calendar for your Power BI reports](across-powerbi-configure-standard-calendar.md)
 #### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
 #### [Use back links to explore the data behind visuals](powerbi-back-links.md)
 #### [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md)
@@ -2675,7 +2679,8 @@ ms.service: dynamics-365-business-central
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot and agent capabilities
-## [About Copilot in Business Central](copilot-overview.md)
+## [Copilot overview](copilot-overview.md)
+## [Copilot country/region and language availability](copilot-agents-region-language-availability.md)
 ## Manage Copilot and agent capabilities
 ### [Configure Copilot and agent capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)

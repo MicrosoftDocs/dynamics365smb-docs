@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.form: 
-ms.date: 01/08/2026
+ms.date: 03/05/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -26,7 +26,7 @@ The following are the default results for quality inspections:
 
 | Result Code | Description | Evaluation Sequence | Allow Finish      | 
 | ---------- | ----------- | -------- | ------------------ |
-| INPROGRESS | In Progress | 0        | Do Not Allow Finosh | 
+| INPROGRESS | In Progress | 0        | Do Not Allow Finish | 
 | FAIL       | Fail        | 1        | Allow Finish |
 | PASS       | Pass        | 2        | Allow Finish | 
 

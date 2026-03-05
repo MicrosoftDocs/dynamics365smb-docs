@@ -23,7 +23,7 @@ This article explains how to automatically block and unblock inventory lots base
 
 Both approaches help ensure that noncompliant inventory isn't used inappropriately, while allowing flexible quality control processes.
 
-### Enable workflow integration
+<!--### Enable workflow integration
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Management Setup**, and then choose the related link.
 2. On the **Defaults** FastTab, turn on the **Workflow Integration Enabled** toggle.
@@ -32,7 +32,7 @@ Both approaches help ensure that noncompliant inventory isn't used inappropriate
    > By default, the toggle is hidden. To access it, you might have to choose **Show more**.
 
 > [!NOTE]
-> If you don't turn on the **Enable Workflow Integration** toggle, the quality management events for workflows aren't available.
+> If you don't turn on the **Enable Workflow Integration** toggle, the quality management events for workflows aren't available. -->
 
 ## Workflow-based lot blocking
 
@@ -98,7 +98,7 @@ Use this result configuration to restrict most transactions when inspections are
 
 #### FAIL result (priority 1+)
 
-Use this result configuration to require quarantine with a quality inspection fails. The business logic is to block all use and allow only quarantine and disposal activities.
+Use this result configuration to require quarantine when a quality inspection fails. The business logic is to block all use and allow only quarantine and disposal activities.
 
 - **Allow Sales**: No (can't sell nonconforming items)
 - **Allow Transfer**: No (prevent distribution of failed items)
@@ -108,7 +108,7 @@ Use this result configuration to require quarantine with a quality inspection fa
 - **Allow Movement**: Yes (allow movement for disposal)
 - **Allow Output**: No (prevent use in production)
 
-#### PASS result (highest priority)
+#### PASS result (highest priority, evaluated last)
 
 Use this result configuration to allow normal business operations when a quality inspection passes. The business logic is to allow transactions for items with confirmed quality.
 

@@ -311,6 +311,8 @@ ms.service: dynamics-365-business-central
 ###### [Income Statement](reports/report-154.md) 
 ###### [Statement of Cashflows](reports/report-155.md) 
 ###### [Retained Earnings Statement](reports/report-156.md) 
+###### [Day Book Customer Ledger Entry](reports/report-2501.md)
+###### [Day Book Vendor Ledger Entry](reports/report-2502.md)
 
 ##### Deferral reports
 ###### [G/L Deferral Summary](reports/report-1700.md)

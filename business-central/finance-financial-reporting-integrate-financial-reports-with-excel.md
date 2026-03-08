@@ -16,8 +16,8 @@ ms.service: dynamics-365-business-central
 
 The Financial Reporting feature offers multiple ways to view the reports in Excel. This integration makes it easier to generate your monthly and yearly financial statements in a format that works for you. You can
 
-* Generate an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](prod_short.md)].
-* Upload and store Excel templates as Excel layouts in [!INCLUDE[prod_short](prod_short.md)].
+* Generate an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)].
+* Upload and store Excel templates as Excel layouts in [!INCLUDE[prod_short](includes/prod_short.md)].
 * Define a default Excel layout for the report.
 
 This article describes each approach.

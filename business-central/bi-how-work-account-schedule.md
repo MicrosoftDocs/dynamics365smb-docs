@@ -192,7 +192,7 @@ To learn more about how to import or export financial report row or column defin
 
 ## Integrate financial reports with Excel
 
-[!INCLUDE[integrate_financial_reports_with_excel_intro](includes/integrate_financial_reports_with_excel_intro.md)]
+[!INCLUDE[integrate_financial_reports_with_excel_intro](includes/include-integrate-financial-reports-with-excel-intro.md)]
 
 To learn more, go to [Integrate financial reports with Excel](finance-financial-reporting-Integrate-financial-reports-with-excel.md).
 

@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 # Integrate financial reports with Excel
 
-[!INCLUDE[integrate_financial_reports_with_excel_intro](includes/integrate_financial_reports_with_excel_intro.md)]
+[!INCLUDE[integrate_financial_reports_with_excel_intro](includes/include-integrate-financial-reports-with-excel-intro.md)]
 
 ## Set up Excel integration for a financial report (create an Excel template)
 

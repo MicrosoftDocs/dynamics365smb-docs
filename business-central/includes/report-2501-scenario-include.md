@@ -1,1 +1,1 @@
-TODO
+Get a daily transaction overview for customer postings, similar in intent to a sales day book or a chronological audit-style listing of customer postings.

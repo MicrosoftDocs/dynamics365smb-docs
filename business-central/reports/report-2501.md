@@ -1,6 +1,6 @@
 ---
-title: Day Book Vendor Ledger Entry (report)
-description: TODO
+title: Day Book Customer Ledger Entry (report)
+description: Get a daily transaction overview for customer postings, similar in intent to a sales day book or a chronological audit-style listing of customer postings.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -15,32 +15,40 @@ ms.custom:
 ai.usage: ai-assisted
 ---
 
-# Day Book Vendor Ledger Entry (report)
+# Day Book Customer Ledger Entry (report)
 
-The **Day Book Vendor Ledger Entry** report shows XXX
+The **Day Book Customer Ledger Entry** report shows chronological listings of posted customer ledger entries summarized by ledger entry amount, discount, actual amount, tax base, and tax amount, and grouped by posting date.
 
 Setting a Posting Date is mandatory for running the report.
 
-You can choose to include details on vendor ledger entries and/or general ledger entries in the report output.
+You can choose to include details on customer ledger entries and/or general ledger entries in the report output.
 
 ## Use cases
 
 [!INCLUDE [report-2501-scenario](../includes/report-2501-scenario-include.md)]
 
+Use the report for for:
+* Daily control and reconciliation
+* Audit trail reviews
+* End of day or period transaction verification
+
+How this differs from other customer-related reports in the finance area
+* Unlike Customer - Detail Trial Balance, it is date-driven, not balance-driven
+* Unlike Customer Ledger Entries (page), it is print-oriented and structured for formal reporting
+* Unlike Aged AR, it focuses on posting activity, not open balances
+
+
 ## Try the report
 
-Try the report here: [Day Book Vendor Ledger Entry](https://businesscentral.dynamics.com?report=2501)
+Try the report here: [Day Book Customer Ledger Entry](https://businesscentral.dynamics.com?report=2501)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## Alternative reports
+<!-- ## Alternative reports
 
-TODO
 There are several other ways to analyze your cash flow. To learn more, go to:
 
-- [Cash flow overview](../finance-cash-flow-overview.md)  
-- [Analyze cash flow](../finance-analyze-cash-flow.md)  
-- [Financial Reporting](../bi-how-work-account-schedule.md)
+TODO -->
 
 ## Related information
 

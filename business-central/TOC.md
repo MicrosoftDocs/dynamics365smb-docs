@@ -259,9 +259,10 @@ ms.service: dynamics-365-business-central
 #### Financial reporting
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
+##### [Organize report data using account categories](bi-account-categories.md)
 ##### [Report selection for finance reports](finance-financial-reporting-report-selection.md)
 ##### [View a financial report](finance-financial-reporting-view-a-report.md)
-##### [Organize report data using account categories](bi-account-categories.md)
+##### [Integrate financial reports with Excel](finance-financial-reporting-Integrate-financial-reports-with-excel.md)
 ##### [Design your own financial reports](bi-design-financial-reports.md)
 ##### [Row definitions in financial reporting](bi-row-definitions.md)
 ##### [Column definitions in financial reporting](bi-column-definitions.md)

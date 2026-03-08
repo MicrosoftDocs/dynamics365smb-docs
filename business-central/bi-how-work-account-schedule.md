@@ -192,9 +192,9 @@ To learn more about how to import or export financial report row or column defin
 
 ## Integrate financial reports with Excel
 
-You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.
+[!INCLUDE[integrate_financial_reports_with_excel_intro](includes/integrate_financial_reports_with_excel_intro.md)]
 
-To learn more, go to [How to integrate financial reports with Excel](finance-financial-reporting-view-a-report.md#integrate-financial-reports-with-excel).
+To learn more, go to [Integrate financial reports with Excel](finance-financial-reporting-Integrate-financial-reports-with-excel.md).
 
 ## Print and save financial reports
 

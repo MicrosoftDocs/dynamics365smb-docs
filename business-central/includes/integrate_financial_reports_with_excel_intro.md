@@ -1,0 +1,1 @@
+You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.

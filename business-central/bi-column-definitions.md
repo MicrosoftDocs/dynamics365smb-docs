@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 02/27/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: 103, 104, 108, 195, 196, 197, 198, 488_Primary, 489_Primary, 490, 764, 765, 766
+ms.search.form: 103, 104, 195, 196, 197, 198, 488_Primary, 489_Primary, 764, 765, 766
 ms.service: dynamics-365-business-central
 ---
 

@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/16/2022
 ms.custom: bap-template
-ms.search.form: 103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
+ms.search.form: 103, 104, 108, 195, 196, 197, 198, 489, 764, 765, 766
 ---
 # Set Up and Publish KPI Web Services Based on Financial Reports
 

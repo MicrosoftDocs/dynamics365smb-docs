@@ -50,7 +50,7 @@ When you export data from a financial report to Excel using the **Create New Exc
 
 An example prompt could be (adjust to your style)
 
-```prompt
+```Prompt example
 I need to build a balance sheet report based on the data in the BS worksheet. The data was generated from the Financial Reporting feature in Business Central. 
 
 Keep the BS worksheet as is, but hide it. My report should be shown in additional worksheets. It is OK to add multiple worksheets for different types of analysis.

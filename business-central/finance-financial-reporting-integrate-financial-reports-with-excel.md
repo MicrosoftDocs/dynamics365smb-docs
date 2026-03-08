@@ -51,11 +51,15 @@ When you export data from a financial report to Excel using the **Create New Exc
 An example prompt could be (adjust to your style)
 
 ```Prompt example
-I need to build a balance sheet report based on the data in the BS worksheet. The data was generated from the Financial Reporting feature in Business Central. 
+I need to build a balance sheet report based on the data in the BS worksheet. 
+The data was generated from the Financial Reporting feature in Business Central. 
 
-Keep the BS worksheet as is, but hide it. My report should be shown in additional worksheets. It is OK to add multiple worksheets for different types of analysis.
+Keep the BS worksheet as is, but hide it. 
+My report should be shown in additional worksheets. 
+It is OK to add multiple worksheets for different types of analysis.
 
-I want the report be formatted professionally with headers in bold, amounts formatted as currency (rounded to nearest integer). Totals should have a line above them.
+I want the report be formatted professionally with headers in bold, amounts formatted as currency (rounded to nearest integer). 
+Totals should have a line above them.
 ```
 
 To learn more, go to [Use Agentic Excel to enhance data tasks](across-work-with-excel.md#use-agentic-excel-to-enhance-data-tasks).

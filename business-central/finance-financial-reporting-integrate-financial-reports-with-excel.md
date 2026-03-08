@@ -14,7 +14,13 @@ ms.service: dynamics-365-business-central
 
 # Integrate financial reports with Excel
 
-[!INCLUDE[integrate_financial_reports_with_excel_intro](includes/include-integrate-financial-reports-with-excel-intro.md)]
+The Financial Reporting feature offers multiple ways to view the reports in Excel. This integration makes it easier to generate your monthly and yearly financial statements in a format that works for you. You can
+
+* Generate an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](prod_short.md)].
+* Upload and store Excel templates as Excel layouts in [!INCLUDE[prod_short](prod_short.md)].
+* Define a default Excel layout for the report.
+
+This article describes each approach.
 
 ## Set up Excel integration for a financial report (create an Excel template)
 

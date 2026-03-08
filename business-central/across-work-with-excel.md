@@ -112,7 +112,7 @@ This conversational, iterative experience helps you refine results step-by-step 
 
 Agent Mode can help you format the raw Excel output for a financial report from the Financial Reporting feature. 
 
-To learn more, go to [Integrate financial reports with Excel](finance-financial-reporting-Integrate-financial-reports-with-excel.md#using-agentic-excel-for-formatting-your-report-worksheet).
+To learn more, go to [Integrate financial reports with Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md#using-agentic-excel-for-formatting-your-report-worksheet).
 
 ### Considerations when working with data
 

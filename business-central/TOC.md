@@ -262,7 +262,7 @@ ms.service: dynamics-365-business-central
 ##### [Organize report data using account categories](bi-account-categories.md)
 ##### [Report selection for finance reports](finance-financial-reporting-report-selection.md)
 ##### [View a financial report](finance-financial-reporting-view-a-report.md)
-##### [Integrate financial reports with Excel](finance-financial-reporting-Integrate-financial-reports-with-excel.md)
+##### [Integrate financial reports with Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md)
 ##### [Design your own financial reports](bi-design-financial-reports.md)
 ##### [Row definitions in financial reporting](bi-row-definitions.md)
 ##### [Column definitions in financial reporting](bi-column-definitions.md)

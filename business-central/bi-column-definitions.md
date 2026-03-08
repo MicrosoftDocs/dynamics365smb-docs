@@ -130,6 +130,25 @@ To calculate by regular time periods, enter a formula in the **Comparison Date F
 
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
+## Filter G/L accounts on the column level 
+
+On the **Column Definition** page, the **G/L Account totalling** field on column lines allows you to set filters on G/L accounts that should be included in calculations for cells in the column. Note that the column-level filters will be applied in addition to row-level filters when calculating the number in the corresponding cell.
+
+
+## Conditionally display numbers in your financial reports
+
+On the **Column Definition** page, the **Show** setting on columns defines whether numbers show in the report output for PDF or print. Note that the setting does not hide the full column, but just the number in the cell.
+
+The following table describes the different display options on a column:
+
+| Value of the Show setting | Whether the number displays |
+| ------------------------- | --------------------------- |
+| Always                    | Number always shows. |
+| Never                     | Number never shows. Use this setting for columns that are only used in calculation steps. |
+| When positive             | Number shows if the value is positive. |
+| When negative             | Number shows if the value is negative. |
+
+
 ## Use dynamic date headers
 
 [!INCLUDE[introduced-in-2025rw2](includes/introduced-in-2025rw2.md)]

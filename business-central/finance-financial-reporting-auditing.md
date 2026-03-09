@@ -25,7 +25,10 @@ The following table lists the table for financial report definitions and their I
 |------ | -------- |
 | Report Definition       | 88  |
 | Row Definition          | 84  |
+| Row Definition lines    | 85  |
 | Column Definition       | 333 |
+| Column Definition lines | 334 |
+
 
 [!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
@@ -58,7 +61,7 @@ To learn more, go to [Analyzing financial report usage telemetry](/dynamics365/b
 
 ## Permissions to view or edit financial reports
 
-The following table lists the permission sets that control whether you can view or edit financial reports and their report definitions.
+The following table lists the permission sets that control whether users can view or edit financial reports and their report definitions.
 
 | Access   | Permission set |
 |------------------------| ---------------------- |
@@ -76,8 +79,8 @@ The following table lists the permission sets that control whether you can view 
 <!-- 
 2025w1: add links to administrator article for Purview
 -->
-[Analyzing financial report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace?toc=/dynamics365/business-central/toc.json)
-[Analyzing financial report lifecycle telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace?toc=/dynamics365/business-central/toc.json)
+[Analyzing financial report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace?toc=/dynamics365/business-central/toc.json)  
+[Analyzing financial report lifecycle telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace?toc=/dynamics365/business-central/toc.json)  
 [Prepare financial reporting](bi-how-work-account-schedule.md)  
 [Financial analytics overview](bi.md)  
 [Finance](finance.md)  

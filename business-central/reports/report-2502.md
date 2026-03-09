@@ -16,7 +16,7 @@ ai.usage: ai-assisted
 
 # Day Book Vendor Ledger Entry (report)
 
-The **Day Book Vendor Ledger Entry** report shows shows chronological listings of posted vendor ledger entries and their associated general ledger entry amount, discount, actual amount, tax base, and tax amount. The report groups the data by posting date.
+The **Day Book Vendor Ledger Entry** report shows chronological listings of posted vendor ledger entries and their associated general ledger entry amount, discount, actual amount, tax base, and tax amount. The report groups the data by posting date.
 
 To run the report, you must fill in the **Posting Date** field. You can choose to include details on vendor ledger entries and/or general ledger entries in the report output.
 
@@ -32,8 +32,8 @@ Use the report for:
 
 The report differs from other vendor-related reports in the finance area:
 
-* Unlike the Vendor - Trial Balance report, it's transaction driven, not balance driven.
-* Unlike the Vendor Ledger Entries page, it's print-oriented and formal, suitable for documentation and audit evidence of the associated general ledger entries for each posted document. 
+* Unlike the Vendor - Trial Balance report, the report is transaction driven instead of balance driven.
+* Unlike the Vendor Ledger Entries page, the report is print-oriented and formal. It's suitable for documentation and audit evidence of the associated general ledger entries for each posted document. 
 * Unlike aging or balance reports, it focuses on what was posted, not what remains open.
 
 ## Try the report
@@ -56,7 +56,7 @@ There are several other ways to analyze your vendor transactions. To learn more,
 [Vendor - Trial Balance](report-329.md)  
 [Aged Accounts Payable Excel](report-4403.md)  
 [Built-in key finance reports](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

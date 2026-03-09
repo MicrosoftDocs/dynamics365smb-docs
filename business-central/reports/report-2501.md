@@ -30,13 +30,13 @@ Use the report for:
 * Audit trail reviews.
 * End of day or period transaction verification.
 
-This differs from other customer-related reports in the finance area:
+This report differs from other customer-related reports in the finance area:
 
-* Unlike the Customer - Trial Balance report, it's date-driven, not balance-driven.
-* Unlike the Customer Ledger Entries (page) report, it's print-oriented and structured for formal reporting.
-* Unlike the Aged AR report, it focuses on posting activity, not open balances.
+* Unlike the Customer - Trial Balance report, the report is date-driven, and not balance-driven.
+* Unlike the Customer Ledger Entries (page) report, the report is print-oriented and structured for formal reporting.
+* Unlike the Aged AR report, it focuses on posting activity and not open balances.
 
-This is the only printed report that provides evidence of the associated general ledger entries for each posted sales transaction. 
+This report is the only printed report that provides evidence of the associated general ledger entries for each posted sales transaction. 
 
 ## Try the report
 

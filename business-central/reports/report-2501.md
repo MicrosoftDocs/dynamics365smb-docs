@@ -7,37 +7,36 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_2501_Primary
-ms.date: 03/08/2025
-ms.service: dynamics-365-business-central
+ms.date: 03/08/2026
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 08/25/2025
+ - ai-seo-date: 03/09/2026
 ai.usage: ai-assisted
 ---
 
 # Day Book Customer Ledger Entry (report)
 
-The **Day Book Customer Ledger Entry** report shows chronological listings of posted customer ledger entries and their associated general ledger entry amounts, discount, actual amount, tax base, and tax amount, all grouped by posting date.
+The **Day Book Customer Ledger Entry** report shows chronological listings of posted customer ledger entries and their associated general ledger entry amounts, discount, actual amount, tax base, and tax amount. The report groups the data by posting date.
 
-Setting the **Posting Date** field is mandatory for running the report.
-
-You can choose to include details on customer ledger entries and/or general ledger entries in the report output.
+To run the report, you must fill in the **Posting Date** field. You can choose to include details on customer ledger entries and/or general ledger entries in the report output.
 
 ## Use cases
 
 [!INCLUDE [report-2501-scenario](../includes/report-2501-scenario-include.md)]
 
 Use the report for:
-* Daily control and reconciliation
-* Audit trail reviews
-* End of day or period transaction verification
 
-How this differs from other customer-related reports in the finance area
-* Unlike Customer - Trial Balance, it is date-driven, not balance-driven
-* Unlike Customer Ledger Entries (page), it is print-oriented and structured for formal reporting
-* Unlike Aged AR, it focuses on posting activity, not open balances
-* This is the only printed report that is providing evidence of the associated general ledger entries for each posted sales transaction. 
+* Daily control and reconciliation.
+* Audit trail reviews.
+* End of day or period transaction verification.
 
+This differs from other customer-related reports in the finance area:
+
+* Unlike the Customer - Trial Balance report, it's date-driven, not balance-driven.
+* Unlike the Customer Ledger Entries (page) report, it's print-oriented and structured for formal reporting.
+* Unlike the Aged AR report, it focuses on posting activity, not open balances.
+
+This is the only printed report that provides evidence of the associated general ledger entries for each posted sales transaction. 
 
 ## Try the report
 
@@ -48,6 +47,7 @@ Try the report here: [Day Book Customer Ledger Entry](https://businesscentral.dy
 ## Alternative reports
 
 There are several other ways to analyze your customer transactions. To learn more, go to:
+
 * [Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)
 * [Customer - Trial Balance](report-129.md) 
 * [Customer - Balance to date](report-121.md) 
@@ -55,10 +55,10 @@ There are several other ways to analyze your customer transactions. To learn mor
 
 ## Related information
 
-[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)
-[Customer - Trial Balance](report-129.md) 
-[Customer - Balance to date](report-121.md) 
-[Aged Accounts Receivables Excel](report-4402.md)
+[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Customer - Trial Balance](report-129.md)  
+[Customer - Balance to date](report-121.md)  
+[Aged Accounts Receivables Excel](report-4402.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Financial analytics overview](../bi.md)  
 

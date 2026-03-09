@@ -17,7 +17,7 @@ ms.reviewer: v-soumramani
 With pages that display a list of records in rows and columns, such as a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel and view it there. Depending on the page, you have two options for viewing in Excel. Both are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
 
 > [!TIP]
->  When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using the **Open in Excel** or **Edit in Excel** actions, you can now take advantage of **Agent Mode** in Excel to streamline data preparation and analysis. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the required cleanup, transformation, or analysis steps automatically.
+>  When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using the **Open in Excel** or **Edit in Excel** actions, or with Excel templates/layouts in Financial Reporting, you can now take advantage of **Agent Mode** in Excel to streamline data preparation and analysis. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the required cleanup, transformation, or analysis steps automatically.
 
 ## Open in Excel
 
@@ -75,7 +75,7 @@ When **Edit in Excel** is used on list pages for tables with many columns, the r
 
 ## Use Agentic Excel to enhance data tasks
 
-When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using the **Open in Excel** or **Edit in Excel** actions, you can take advantage of **Agent Mode** in Excel to streamline data preparation and analysis. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the cleanup, transformation, or analysis steps automatically.
+When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using the **Open in Excel** or **Edit in Excel** actions, or with Excel templates/layouts in Financial Reporting, you can take advantage of **Agent Mode** in Excel to streamline data preparation and analysis. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the cleanup, transformation, or analysis steps automatically.
 
 ### Scenario: Clean and prepare Business Central data
 
@@ -107,6 +107,12 @@ Agent Mode can do multi-step tasks that would otherwise require several manual o
 4. Reformat the output to prepare it for re-import into a configuration package.
 
 This conversational, iterative experience helps you refine results step-by-step without knowing specific Excel functions.
+
+### Scenario: Format Excel templates for financial reports
+
+Agent Mode can help you format the raw Excel output for a financial report from the Financial Reporting feature. 
+
+To learn more, go to [Integrate financial reports with Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md#using-agentic-excel-for-formatting-your-report-worksheet).
 
 ### Considerations when working with data
 

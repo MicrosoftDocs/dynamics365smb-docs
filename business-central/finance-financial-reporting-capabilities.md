@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: finace, reporting, business intelligence, BI
-ms.search.form: 108_Primary
+ms.search.form: 108_Primary, 490
 ms.date: 09/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

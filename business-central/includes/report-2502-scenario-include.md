@@ -1,1 +1,1 @@
-Get a daily transaction overview for vendor postings, similar in intent to a sales day book or a chronological audit-style listing of vendor postings.
+Get a daily transaction overview for vendor postings, similar in intent to a vendor day book or a chronological audit-style listing of vendor postings.

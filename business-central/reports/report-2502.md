@@ -1,6 +1,6 @@
 ---
 title: Day Book Vendor Ledger Entry (report)
-description: TODO
+description: Get a daily transaction overview for vendor postings, similar in intent to a vendor day book or a chronological audit-style listing of vendor postings.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Day Book Vendor Ledger Entry (report)
 
-The **Day Book Vendor Ledger Entry** report shows shows chronological listings of posted vendor ledger entries summarized by ledger entry amount, discount, actual amount, tax base, and tax amount, and grouped by posting date.
+The **Day Book Vendor Ledger Entry** report shows shows chronological listings of posted vendor ledger entries and their associated general ledger entry amount, discount, actual amount, tax base, and tax amount, all grouped by posting date.
 
-Setting a Posting Date is mandatory for running the report.
+Setting the field **Posting Date** is mandatory for running the report.
 
 You can choose to include details on vendor ledger entries and/or general ledger entries in the report output.
 
@@ -29,12 +29,12 @@ You can choose to include details on vendor ledger entries and/or general ledger
 
 Use the report for:
 * Daily or period based review of vendor postings
-* Audit and control purposes, to verify what vendor transactions were posted on a given day * eriod
+* Audit and control purposes, to verify what vendor transactions were posted on a given day or period
 * Chronological documentation of accounts payable activity, similar in spirit to a purchase day book in traditional accounting systems
 
 How it differs from other vendor-related reports in the finance area
-* Unlike Vendor - Detail Trial Balance, it is transaction driven, not balance driven.
-* Unlike the Vendor Ledger Entries page, it is print oriented and formal, suitable for * documentation and audit evidence.
+* Unlike Vendor - Trial Balance, it is transaction driven, not balance driven.
+* Unlike the Vendor Ledger Entries page, it is print oriented and formal, suitable for  documentation and audit evidence of the associated general ledger entries for each posted document. 
 * Unlike aging or balance reports, it focuses on what was posted, not what remains open.
 
 
@@ -44,15 +44,19 @@ Try the report here: [Day Book Vendor Ledger Entry](https://businesscentral.dyna
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-<!-- ## Alternative reports
+## Alternative reports
 
-There are several other ways to analyze your cash flow. To learn more, go to:
+There are several other ways to analyze your vendor transactions. To learn more, go to:
 
-TODO -->
-
+* [Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)
+* [Vendor - Trial Balance](report-329.md) 
+* [Aged Accounts Payable Excel](report-4403.md)
 
 ## Related information
 
+[Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)
+[Vendor - Trial Balance](report-329.md) 
+[Aged Accounts Payable Excel](report-4403.md)
 [Built-in key finance reports](../finance-reports.md)  
 [Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

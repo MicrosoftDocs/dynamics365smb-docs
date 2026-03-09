@@ -621,6 +621,7 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Sales list](reports/report-119.md) 
 ##### [Customer - Balance to date](reports/report-121.md) 
 ##### [Customer - Trial Balance](reports/report-129.md) 
+##### [Aged Accounts Receivables Excel](reports/report-4402.md)
 ##### [Day Book Customer Ledger Entry](reports/report-2501.md)
 ##### [Sales Reservation Availability](reports/report-209.md) 
 ##### [Inventory Order Details](reports/report-708.md) 

@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Day Book Customer Ledger Entry (report)
 
-The **Day Book Customer Ledger Entry** report shows chronological listings of posted customer ledger entries summarized by ledger entry amount, discount, actual amount, tax base, and tax amount, and grouped by posting date.
+The **Day Book Customer Ledger Entry** report shows chronological listings of posted customer ledger entries and their associated general ledger entry amounts, discount, actual amount, tax base, and tax amount, all grouped by posting date.
 
-Setting a Posting Date is mandatory for running the report.
+Setting the **Posting Date** field is mandatory for running the report.
 
 You can choose to include details on customer ledger entries and/or general ledger entries in the report output.
 
@@ -27,15 +27,16 @@ You can choose to include details on customer ledger entries and/or general ledg
 
 [!INCLUDE [report-2501-scenario](../includes/report-2501-scenario-include.md)]
 
-Use the report for for:
+Use the report for:
 * Daily control and reconciliation
 * Audit trail reviews
 * End of day or period transaction verification
 
 How this differs from other customer-related reports in the finance area
-* Unlike Customer - Detail Trial Balance, it is date-driven, not balance-driven
+* Unlike Customer - Trial Balance, it is date-driven, not balance-driven
 * Unlike Customer Ledger Entries (page), it is print-oriented and structured for formal reporting
 * Unlike Aged AR, it focuses on posting activity, not open balances
+* This is the only printed report that is providing evidence of the associated general ledger entries for each posted sales transaction. 
 
 
 ## Try the report
@@ -44,16 +45,21 @@ Try the report here: [Day Book Customer Ledger Entry](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-<!-- ## Alternative reports
+## Alternative reports
 
-There are several other ways to analyze your cash flow. To learn more, go to:
-
-TODO -->
+There are several other ways to analyze your customer transactions. To learn more, go to:
+* [Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)
+* [Customer - Trial Balance](report-129.md) 
+* [Customer - Balance to date](report-121.md) 
+* [Aged Accounts Receivables Excel](report-4402.md)
 
 ## Related information
 
+[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)
+[Customer - Trial Balance](report-129.md) 
+[Customer - Balance to date](report-121.md) 
+[Aged Accounts Receivables Excel](report-4402.md)
 [Built-in key finance reports](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -578,6 +578,7 @@ ms.service: dynamics-365-business-central
 
 ### [Accounting and bookkeeping overview](learn-accounting-bookkeeping-guide.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
+### [Accounting and bookkeeping](learn-accounting-bookkeeping-guide.md)
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)

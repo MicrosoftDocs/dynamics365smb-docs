@@ -1,16 +1,14 @@
 ---
 title: Accounting and bookkeeping
-description: This article provides information that will help you use Microsoft Dynamics 365 Business Central to correctly perform accounting and bookkeeping for your company.
+description: This article provides information that can help you use Microsoft Dynamics 365 Business Central to do accounting and bookkeeping for your company.
 author: altotovi
 ms.topic: overview
-ms.devlang: al
 ms.search.keywords: accounting, bookkeeping
 ms.search.form: 16, 39, 108
-ms.date: 03/14/2023
+ms.date: 03/09/2026
 ms.author: altotovi
-
-ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # Accounting and bookkeeping
@@ -30,9 +28,9 @@ The following table describes a sequence of tasks and provides links to the arti
 | Task | Article |
 |------|---------|
 | View or edit the general ledger accounts that all general ledger entries are posted to. | [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md) |
-| Specify how your customers will pay you, and how you'll pay your vendors. | [Set Up Payment Methods](finance-payment-methods.md) |
+| Specify how your customers pay you, and how you pay your vendors. | [Set Up Payment Methods](finance-payment-methods.md) |
 | Specify payment terms to manage due dates and calculate possible payment discounts. | [Set Up Payment Terms](finance-payment-terms.md) |
-| Specify the posting groups that map entities (such as customers, vendors, items, resources, and sales and purchase documents) to general ledger accounts. | [Set Up Posting Groups](finance-posting-groups.md)|
+| Specify the posting groups that map entities such as customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. | [Set Up Posting Groups](finance-posting-groups.md)|
 | Create financial reports, and define account categories that determine the contents of financial charts and reports, such as the **Balance sheet** and **Income statement** reports. | [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)|
 | Set up the tolerance that the system uses to close an invoice even if the payment, including any discount, doesn't fully cover the amount on the invoice. | [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md) |
 | Set up fiscal periods. | [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md) |

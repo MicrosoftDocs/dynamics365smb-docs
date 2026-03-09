@@ -312,6 +312,8 @@ ms.service: dynamics-365-business-central
 ###### [Income Statement](reports/report-154.md) 
 ###### [Statement of Cashflows](reports/report-155.md) 
 ###### [Retained Earnings Statement](reports/report-156.md) 
+###### [Day Book Customer Ledger Entry](reports/report-2501.md)
+###### [Day Book Vendor Ledger Entry](reports/report-2502.md)
 
 ##### Deferral reports
 ###### [G/L Deferral Summary](reports/report-1700.md)
@@ -620,6 +622,8 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Sales list](reports/report-119.md) 
 ##### [Customer - Balance to date](reports/report-121.md) 
 ##### [Customer - Trial Balance](reports/report-129.md) 
+##### [Aged Accounts Receivables Excel](reports/report-4402.md)
+##### [Day Book Customer Ledger Entry](reports/report-2501.md)
 ##### [Sales Reservation Availability](reports/report-209.md) 
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
@@ -746,6 +750,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Vendor Item catalog](reports/report-320.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
+##### [Day Book Vendor Ledger Entry](reports/report-2502.md)
 ##### [Purchase Reservation Availability](reports/report-409.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)

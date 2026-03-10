@@ -132,6 +132,10 @@ Before you can add or delete permission sets applied to the agent, change the **
 1. Select **Agent User Settings**.
 1. Set **Language** to a supported English locale.
 
+## Next steps
+
+- [Supervise agent activities](supervise-agent-tasks.md)
+
 ## Related information
 
 [Payables Agent overview](payables-agent.md)  

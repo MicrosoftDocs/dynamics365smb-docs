@@ -9,16 +9,15 @@ ms.reviewer: bholtorf
 
 The following table describes some of the key reports for sales. The reports help different roles in sales departments make informed decisions to optimize their operations. 
 
-| To do this | Open this report in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+| To do this | Open this report in Business Central (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
 | [!INCLUDE [report-4409-scenario](../includes/report-4409-scenario-include.md)] | [Customer - Top list Excel](https://businesscentral.dynamics.com?report=4409) | [About Customer - Top list Excel](../reports/report-4409.md) | 4409 |
 | [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About Customer - Order Summary](../reports/report-107.md) | 107 |
 | [!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)] | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About Customer - Order Detail](../reports/report-108.md) | 108 |
 | [!INCLUDE [report-113-scenario](../includes/report-113-scenario-include.md)] | [Customer/Item Sales](https://businesscentral.dynamics.com?report=113) | [About Customer/Item Sales](../reports/report-113.md) | 113 |
-<!-- 
 | [!INCLUDE [report-114-scenario](../includes/report-114-scenario-include.md)] | [Salesperson - Sales Statistics](https://businesscentral.dynamics.com?report=114) | [About Salesperson - Sales Statistics](../reports/report-114.md) | 114 |
 
-| [!INCLUDE [report-115-scenario](../includes/report-115-scenario-include.md)] | [Salesperson - Commission](https://businesscentral.dynamics.com?report=115) | [About Salesperson - Commission](../reports/report-115.md) | 115 |
+<!-- | [!INCLUDE [report-115-scenario](../includes/report-115-scenario-include.md)] | [Salesperson - Commission](https://businesscentral.dynamics.com?report=115) | [About Salesperson - Commission](../reports/report-115.md) | 115 |
 | [!INCLUDE [report-121-scenario](../includes/report-121-scenario-include.md)] | [Customer - Balance to date](https://businesscentral.dynamics.com?report=121) | [About Customer - Balance to date](../reports/report-121.md) | 121 |
 | [!INCLUDE [report-129-scenario](../includes/report-129-scenario-include.md)] | [Customer - Trial Balance](https://businesscentral.dynamics.com?report=129) | [About Customer - Trial Balance](../reports/report-129.md) | 129 |
 | [!INCLUDE [report-2501-scenario](../includes/report-2501-scenario-include.md)] | [Day Book Customer Ledger Entry](https://businesscentral.dynamics.com?report=2501) | [About *Day Book Customer Ledger Entry*](../reports/report-2501.md) | 2501 |

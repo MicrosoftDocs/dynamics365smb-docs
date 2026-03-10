@@ -1,6 +1,6 @@
 ---
 title: Salesperson - Sales Statistics (report)
-description: Analyze sales and profitability per salesperson to understand revenue contribution, compare margins, and evaluate the impact of discounts on overall performance. Use the insights to monitor individual and team sales effectiveness, identify high and low performers, and support data-driven decisions across sales management, operations, and finance.
+description: Analyze sales and profitability per salesperson to understand revenue contribution, compare margins, and evaluate the impact of discounts on overall performance. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -31,31 +31,29 @@ The report is based on posted sales and presents monetary results such as sales,
 
 [!INCLUDE [report-114-scenario](../includes/report-114-scenario-include.md)]
 
-As a sales representative, you can use the report to
+Sales representatives can use the report to:
 
 * Review personal sales and profit performance for the period.
 * Compare profitability across deals to understand where margins are strongest.
 * Validate that posted sales and profits align with expectations and commissions.
 
-As a sales manager, you can use the report to
+Sales managers can use the report to:
 
 * Compare sales and profit performance across salespeople.
 * Identify top-performing and underperforming salespeople based on revenue and margin.
 * Monitor the impact of discounts on overall profitability.
 
-As a sales operations analyst, you can use the report to
+Sales operations analysts can use the report to:
 
 * Analyze overall sales and profit distribution by salesperson.
 * Identify patterns in profitability that may indicate pricing or discounting issues.
 * Support management reporting with aggregated sales and margin figures.
 
-As a finance manager, you can use the report to
+Finance managers can use the report to:
 
 * Review salesperson-level profitability as part of period-end analysis.
 * Reconcile sales and profit figures with the general ledger.
 * Assess whether sales activities are contributing to expected profit margins.
-
-
 
 ## Try the report
 

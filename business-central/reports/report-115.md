@@ -1,6 +1,6 @@
 ---
 title: Salesperson - Commission (report)
-description: Analyze the commissions by salesperson. See the customer, document, sales amounts and profit amounts provided by a salesperson's contributions.
+description: Analyze the commissions by salesperson. Review the customer, document, sales amounts and profit amounts provided by a salesperson's contributions.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -31,30 +31,29 @@ For each line, the report calculates sales-based, profit-based, and adjusted pro
 
 [!INCLUDE [report-115-scenario](../includes/report-115-scenario-include.md)]
 
-As a sales representative, you can use the report to
+Sales representatives can use the report to:
 
 * Track personal sales performance and understand how individual transactions contribute to commission earnings.
 * Verify commission calculations per invoice and identify discrepancies early.
 * Understand the relationship between sales volume, profit, and commission outcomes.
 
-As a sales manager, you can use the report to
+Sales managers can use the report to:
 
 * Compare performance and commission payouts across salespeople.
 * Evaluate whether commission structures align with profitability goals.
 * Identify top-performing salespeople based on sales, profit, or adjusted profit.
 
-As a finance manager, you can use the report to
+Finance managers can use the report to:
 
 * Validate commission liabilities before payroll or commission settlements.
 * Reconcile commission expenses with posted sales and profit figures.
 * Support audit and compliance activities by providing a transparent commission calculation trail.
 
-As a sales operations analyst, you can use the report to
+Sales operations analysts can use the report to:
 
 * Analyze trends in sales and commission over time.
 * Assess the impact of pricing, discounts, or cost adjustments on commission payouts.
 * Provide data to refine commission models and incentive programs.
-
 
 ## Try the report
 

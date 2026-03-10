@@ -42,6 +42,8 @@ The report shows the following data for individual orders for each item:
 
 ## Use cases
 
+[!INCLUDE [report-718-scenario](../includes/report-718-scenario-include.md)]
+
 <!-- 
 Prompt
 

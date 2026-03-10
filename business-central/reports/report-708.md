@@ -29,6 +29,8 @@ Lines with a shipment date in the past are included in the quantity on back orde
 
 ## Use cases
 
+[!INCLUDE [report-708-scenario](../includes/report-708-scenario-include.md)]
+
 <!-- 
 Prompt
 

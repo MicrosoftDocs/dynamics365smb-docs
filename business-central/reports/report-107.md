@@ -29,6 +29,8 @@ For a detailed breakdown of each order line, use the **Customer - Order Detail**
 
 ## Use cases
 
+[!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)]
+
 <!-- 
 Prompt
 

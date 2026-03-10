@@ -1097,6 +1097,7 @@ ms.service: dynamics-365-business-central
 ##### [Quantity Explosion of BOM](reports/report-99000753.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)
 ##### [Prod. Order - Job Card](reports/report-99000762.md) 
+##### [Production Order - List](reports/report-99000763.md)
 ##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
 ##### [Prod. Order Detailed Calc](reports/report-99000768.md) 
 ##### [Capacity Task list](reports/report-99000780.md)
@@ -2727,7 +2728,7 @@ ms.service: dynamics-365-business-central
 ## Payables Agent
 ### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
-### [Supervise agent activities](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)
+### [Supervise agent activities](supervise-agent-tasks.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)

@@ -1,0 +1,1 @@
+Analyze the commissions by salesperson. See the customer, document, sales amounts and profit amounts provided by a salesperson's contributions.

@@ -32,6 +32,8 @@ You can run the report in either your local currency or the customer's currency.
 
 ## Use cases
 
+[!INCLUDE [report-129-scenario](../includes/report-129-scenario-include.md)]
+
 <!-- 
 Prompt
 

@@ -23,6 +23,12 @@ Value entries for each combination of a customer and an item are summed to calcu
 
 The calculated sales amount and profit margins include added costs, such as item charges.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2025rw2](includes/introduced-in-2025rw2.md)]
+
+[!INCLUDE[available-layouts-excel-word](includes/available-layouts-excel-word.md)]
+
 ## Use cases
 
 <!-- 

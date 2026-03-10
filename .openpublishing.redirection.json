@@ -986,9 +986,11 @@
             "source_path": "business-central/finance-learn-about-costing.md",
             "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
             "redirect_document_id": "false"
-         }         
-
-        
-         
+         },
+         {
+            "source_path": "business-central/use-payables-agent.md",
+            "redirect_url": "/dynamics365/business-central/supervise-agent-tasks",
+            "redirect_document_id": "false"
+         }               
         ]
 }

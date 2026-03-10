@@ -21,6 +21,12 @@ The **Customer - Order Summary** report shows the sales order details, including
 
 For a detailed breakdown of each order line, use the **Customer - Order Detail** report.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2025rw2](includes/introduced-in-2025rw2.md)]
+
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+
 ## Use cases
 
 <!-- 

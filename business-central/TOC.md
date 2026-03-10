@@ -620,6 +620,7 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Order Detail](reports/report-108.md)
 ##### [Sales Statistics](reports/report-112.md) 
 ##### [Customer/Item Sales](reports/report-113.md)
+##### [Salesperson - Sales Statistics](reports/report-114.md)
 ##### [Customer - Sales list](reports/report-119.md) 
 ##### [Customer - Balance to date](reports/report-121.md) 
 ##### [Customer - Trial Balance](reports/report-129.md) 

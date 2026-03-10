@@ -29,6 +29,8 @@ Lines that have a shipment date in the past are included in the quantity on back
 
 ## Use cases
 
+[!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with sales.

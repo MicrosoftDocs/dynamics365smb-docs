@@ -25,7 +25,7 @@ The calculated sales amount and profit margin include added costs such as item c
 
 ## Available layouts
 
-[!INCLUDE[introduced-in-2025rw2](includes/introduced-in-2025rw2.md)]
+[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
 
 [!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
 

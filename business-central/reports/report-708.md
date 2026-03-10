@@ -23,7 +23,7 @@ Lines with a shipment date in the past are included in the quantity on back orde
 
 ## Available layouts
 
-[!INCLUDE[introduced-in-2025rw2](includes/introduced-in-2025rw2.md)]
+[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
 
 [!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
 

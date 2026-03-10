@@ -1,0 +1,1 @@
+Get an Excel-based overview of production orders across their lifecycle, including status, item, source, location, and key dates. Use it to review and analyze production orders by period, location, or status, with two worksheets supporting both overview and deeper analytical scenarios.

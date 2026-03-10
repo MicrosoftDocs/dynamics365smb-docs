@@ -25,6 +25,13 @@ The data displays in a graph that shows the total quantity you can produce at an
 
 This report uses the same calculation engine as the **Item Availability by BOM Level** page to determine availability for BOM items.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
+
+[!INCLUDE[available-layouts-excel-only](../includes/available-layouts-excel-only.md)]
+
+
 ## Use cases
 
 [!INCLUDE[report-5871-scenario](../includes/report-5871-scenario-include.md)]

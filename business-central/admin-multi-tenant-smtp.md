@@ -419,12 +419,18 @@ if (-not $line.StartsWith("220")) {
     throw "STARTTLS failed: $line"
 }
 
-$sslStream = New-Object System.Net.Security.SslStream(
-    $networkStream,
-    $false,
-    { param($sender, $cert, $chain, $errors) return $true }
-)
-$sslStream.AuthenticateAsClient($server)
+#Define Tls12 forSsslTream 
+$sslStream = New-Object System.Net.Security.SslStream( 
+    $networkStream, 
+    $false 
+) 
+
+$sslStream.AuthenticateAsClient( 
+    $server,                                # Target host (must match cert) 
+    $null,                                  # Client certificates 
+    [System.Security.Authentication.SslProtocols]::Tls12, 
+    $false                                  # Check certificate revocation 
+) 
 
 $reader = New-Object System.IO.StreamReader($sslStream)
 $writer = New-Object System.IO.StreamWriter($sslStream)

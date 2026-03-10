@@ -619,6 +619,7 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Order Detail](reports/report-108.md)
 ##### [Customer/Item Sales](reports/report-113.md)
 ##### [Salesperson - Sales Statistics](reports/report-114.md)
+##### [Salesperson - Commission](reports/report-115.md)
 ##### [Customer - Balance to date](reports/report-121.md) 
 ##### [Customer - Trial Balance](reports/report-129.md) 
 ##### [Aged Accounts Receivables Excel](reports/report-4402.md)

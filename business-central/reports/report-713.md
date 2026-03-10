@@ -31,6 +31,8 @@ The calculated sales amount and profit margin include added costs such as item c
 
 ## Use cases
 
+[!INCLUDE [report-713-scenario](../includes/report-713-scenario-include.md)]
+
 <!-- 
 Prompt
 

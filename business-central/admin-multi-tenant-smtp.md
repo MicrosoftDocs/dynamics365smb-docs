@@ -82,7 +82,7 @@ The first step is to create an app registration for the app you have in "Tenant 
     1. In the **Name** field, enter a name for your app. For example, **SMTP_OAuth_App**.
     1. Under **Supported account types**, choose **Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**. This setting is required for cross-tenant consent.
     1. Under **Redirect URI (optional)**, for the platform, choose **Web**, and then enter the URI:
-       1. Business Central online (SaaS): https://businesscentral.dynamics.com/oauthlanding.htm
+       1. Business Central online (SaaS): https://businesscentral.dynamics.com/OAuthLanding.htm
        2. Business Central on-premises: Specify a redirect URI appropriate for your on-premises deployment.
 
 1. Choose **Register**.
@@ -502,7 +502,7 @@ This section lists some typical issues, their causes, and provides suggestions f
 ### AADSTS50011: redirect_uri mismatch
 
 - Cause: A Redirect URI isn't configured for your app registration in Azure portal.
-- Resolution: Update your app registration in Azure portal to use the same `.../oauthlanding.htm` redirect URI. Learn more at [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal).
+- Resolution: Update your app registration in Azure portal to use the same `.../OAuthLanding.htm` redirect URI. Learn more at [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal).
 
 ### 535 Authentication unsuccessful
 

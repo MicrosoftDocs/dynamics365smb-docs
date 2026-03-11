@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 
-ms.date: 11/10/2025
+ms.date: 03/10/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -23,13 +23,6 @@ Quality Management integrates with workflows in [!INCLUDE [prod_short](includes/
 - Block and unblock lots.
 - Move inventory.
 - Create negative adjustments.
-
-## Prerequisites
-
-- Workflow integration is enabled on the **Quality Management Setup** page.
-- The workflows feature is enabled.
-- You have permissions required to configure workflows.
-- You configured the required journal batches and templates.
 
 ## Enable workflow integration
 

@@ -5,8 +5,8 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
-ms.search.form: 
-ms.date: 10/20/2025
+ms.search.form: 20408,
+ms.date: 10/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 

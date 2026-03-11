@@ -32,7 +32,7 @@ Both approaches help ensure that noncompliant inventory isn't used inappropriate
    > By default, the toggle is hidden. To access it, you might have to choose **Show more**.
 
 > [!NOTE]
-> If you don't turn on the **Enable Workflow Integration** toggle, the quality management events for workflows aren't available. -->
+> If you don't turn on the **Workflow Integration Enabled** toggle, the quality management events for workflows aren't available. -->
 
 ## Workflow-based lot blocking
 
@@ -46,7 +46,7 @@ The following procedure describes the key settings for a workflow that blocks lo
 1. Create a new workflow. For example, name it "Block Lot Example."
 1. Configure a workflow step, as follows:
 
-   1. In the **When Event** field, choose **A Quality Inspection is Finished**.
+   1. In the **When Event** field, choose **A Quality Inspection is finished**.
    1. In the **On Condition** field, add a filter for the **Result Code** field, and then set **FAIL** as the filter value.
    1. In the **Then Response** field, choose **Block Lot in the Inspection**. This setting creates a lot information card with the status **Blocked**.
 

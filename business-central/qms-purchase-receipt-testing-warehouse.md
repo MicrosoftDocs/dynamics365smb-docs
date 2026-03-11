@@ -25,12 +25,12 @@ For locations with warehouse handling, quality tests are created when you post w
 - Multiple lot numbers per receipt.
 - Warehouse handling and traceability.
 
-## Prerequisites
+<!--## Prerequisites
 
 - A quality inspection template is configured.
 - A test generation rule set up for purchase receipts.
 - A location where warehouse receipt handling is enabled.
-- Items that have item tracking (optional, but recommended)
+- Items that have item tracking (optional, but recommended) -->
 
 ## Key differences from locations without warehouse tracking
 
@@ -45,7 +45,7 @@ For locations with warehouse handling, quality tests are created when you post w
 
 The following sections describe how to set up the requirements for testing purchase receipts with warehouse tracking.
 
-### 1. Verify the configuration of your location
+### Verify the configuration of your location
 
 Ensure that your location supports warehouse operations:
 
@@ -54,7 +54,7 @@ Ensure that your location supports warehouse operations:
 3. Verify that the **Require Receipt** toggle is turned on.
 4. Double-check the other warehouse settings, as needed.
 
-### 2. Use existing test generation rules
+### Use existing test generation rules
 
 The same test generation rules work for both warehouse and nonwarehouse locations:
 
@@ -70,7 +70,7 @@ The same test generation rules work for both warehouse and nonwarehouse location
 
 The following sections provide a high-level overview of the process flow with warehouse handling.
 
-### Step 1: Create a purchase order
+### Create a purchase order
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.
 2. Create a new purchase order.
@@ -81,7 +81,7 @@ The following sections provide a high-level overview of the process flow with wa
    - **Location**: Use a location that is warehouse-enabled.
    - **Quantity**: Enter the quantity to receive.
 
-### Step 2: Configure item tracking
+### Configure item tracking
 
 For lot-tracked items:
 
@@ -100,7 +100,7 @@ For lot-tracked items:
    - Lot A: 23 pieces, expiration date
    - Lot B: 100 pieces, expiration date
 
-### Step 3: Create and post a warehouse receipt
+### Create and post a warehouse receipt
 
 1. Choose **Release** to release the purchase order.
 2. Choose **Create Warehouse Receipt** to create a warehouse receipt with the following information:

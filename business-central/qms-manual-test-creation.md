@@ -104,7 +104,7 @@ This method is best for creating inspections that are independent of specific do
 3. Choose the **Create Inspection** action.
 4. Set up parameters for your inspection, as follows:
 
-   - **Source**: Optionally, enter the source document reference.
+   - **Source**: Enter the source document reference.
    - **Item Number**: Select the item to inspect.
    - **Lot/Serial Number**: Enter a lot or serial number, if needed.
    - **Quantity**: Specify the quantity to inspect.

@@ -1174,6 +1174,17 @@ ms.service: dynamics-365-business-central
 ##### [Use documents to count and adjust inventory ](inventory-how-count-inventory-with-documents.md)
 ##### [Count, adjust, and reclassify inventory](inventory-how-count-adjust-reclassify.md)
 
+## Quality management
+### [Quality management overview](qms-overview.md)
+### [Inspect purchase receipts without warehouse handling](qms-purchase-receipt-testing-simple.md)
+### [Inspect purchase receipts with warehouse handling](qms-purchase-receipt-testing-warehouse.md)
+### [Inspect production output quality](qms-production-output-testing.md)
+### [Create inspections manually](qms-manual-test-creation.md)
+### [Create inspections on a schedule](qms-scheduled-test-creation.md)
+### [Block or unblock lots with quality inspections](qms-lot-blocking-unblocking.md)
+### [Process non-compliant goods](qms-non-compliant-processing.md)
+### [Troubleshoot quality management features](qms-troubleshooting.md)
+
 ## Service management
 ### [Service management](service-service.md)
 ### Service management analytics
@@ -2256,6 +2267,14 @@ ms.service: dynamics-365-business-central
 #### [Work with production families](production-how-work-family.md)
 #### [Set up standard routing lines](production-how-set-up-standard-routing-lines.md)
 #### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
+
+### Set up quality management
+#### [Quality management setup and configuration](qms-setup.md)
+#### [Configure quality inspection results](qms-configuring-grades.md)
+#### [Create quality inspection templates](qms-quality-templates.md)
+#### [Set up quality inspection generation rules](qms-test-generation-rules.md)
+#### [Quality management workflows](qms-quality-workflows.md)
+
 ### Set up service management
 #### [Set up service management](service-setup-service.md)
 #### [Create service items](service-how-to-create-service-items.md)

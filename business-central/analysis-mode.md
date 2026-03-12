@@ -271,13 +271,10 @@ Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] h
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
-## Limitations in 2023 release wave 1 (preview)
+## Limitations
 
-The public preview of this feature has the following limitations:
-
+- Analysis mode isn't supported on lists that use indentation, whether fixed or collapsible hierarchies, like the **Chart of Account** or **G/L Account List** pages. On these pages, the **Enter analysis mode** :::image type="icon" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: button isn't available.  
 - The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you get a message telling you so. To work around this limitation, set filters on the page before you switch to analysis mode, if possible. For example, you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
-- The share data analysis feature isn't available.
-- The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 
 ## Related information
 

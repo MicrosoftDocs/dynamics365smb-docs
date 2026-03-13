@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 02/16/2026
+ms.date: 03/13/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -271,16 +271,13 @@ Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] h
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
-## Limitations in 2023 release wave 1 (preview)
+## Limitations
 
-The public preview of this feature has the following limitations:
-
-- The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you get a message telling you so. To work around this limitation, set filters on the page before you switch to analysis mode, if possible. For example, you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
-- The share data analysis feature isn't available.
-- The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
-
+- Analysis mode isn't supported on lists that use indentation, whether fixed or collapsible hierarchies, like the **Chart of Account** or **G/L Account List** pages. On these pages, the **Enter analysis mode** :::image type="icon" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: button isn't available.  
+- When a list exceeds 100,000 rows or includes fields from related tables, calculated field values aren't displayed. Calculated fields are values computed on the page rather than retrieved directly from the database, such as running totals, percentages, or conditional counts. An information icon appears on the analysis tab to indicate when this limitation applies. This limitation helps maintain performance when analyzing large datasets.
+ 
 ## Related information
 
 [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)  
 [Ad hoc data analysis](reports-adhoc-analysis.md)  
-[View and Edit in Excel](across-work-with-excel.md)  
+[View and Edit in Excel](across-work-with-excel.md)

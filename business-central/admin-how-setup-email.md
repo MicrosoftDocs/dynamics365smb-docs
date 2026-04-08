@@ -66,7 +66,7 @@ External users, such as delegated admins and external accountants, can't use the
 If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails are sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails are sent from the email account specified for each user's account. Current User is similar to the Send As feature. To learn more, go to [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> To use Auth 2.0 for SMTP authentication, consider the following:
+> To use OAuth 2.0 for SMTP authentication, consider the following:
 >
 > - All users must be on the same Microsoft Entra tenant.
 > - For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).

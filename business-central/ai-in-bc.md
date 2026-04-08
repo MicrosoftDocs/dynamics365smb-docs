@@ -18,7 +18,7 @@ ms.collection:
 
 This article gives a quick tour of AI in Business Central, covering Copilot and agent capabilities that help you streamline your processes and free up time for what is most impactful to your business. Each section explains what a capability does at a glance and links to detailed docs and AI FAQs so you can decide where it fits in your workflows.
 
-**Copilot** is an AI-powered assistant that helps you work more efficiently by sparking creativity, boosting productivity, and eliminating tedious tasks. Copilot works collaboratively with you&mdash; you initiate actions, and Copilot provides suggestions, analysis, and assistance to help you complete them faster. Chat with Copilot at any time, or look for the Copilot icon on Business Central pages for specific things it can help with.
+**Copilot** is an AI-powered assistant that helps you work more efficiently by sparking creativity, boosting productivity, and eliminating tedious tasks. Copilot works collaboratively with you &mdash; you initiate actions, and Copilot provides suggestions, analysis, and assistance to help you complete them faster. Chat with Copilot at any time, or look for the Copilot icon on Business Central pages for specific things it can help with.
 
 **Agents** are autonomous AI workers that can independently handle tasks with minimal human input. They automate specific processes, becoming a valuable member of the team where their work is transparent, reviewable and keeps people in the loop as work progresses. Agents are ideal for automating tedious, repetitive tasks or work that must happen around the clock, such as processing invoices or generating orders from emails.
 
@@ -60,7 +60,7 @@ Use natural language to transform a list of records into a more meaningful layou
 
 ### Summarize
 
-Copilot provides quick insights, summarizing a record into a few key points tailored to your role, and displaying them automatically right alongside your data. Summaries help you understand what’s urgent and important, so you can grasp context and act faster without having to comb through fields or FactBoxes, and providing inline links to quickly get to the details.
+Copilot provides quick insights, summarizing a record into a few key points tailored to your role and displaying them automatically right alongside your data. Summaries help you understand what’s urgent and important, so you can grasp context and act faster without having to comb through fields or FactBoxes and provide inline links to quickly get to the details.
 
 [Video](https://www.youtube.com/watch?v=MfdNppomGJE&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=6)
 
@@ -139,7 +139,7 @@ Copilot analyzes product data to propose compatible alternatives that show up wh
 - [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md)
 - [Responsible AI FAQ for suggest item substitutions](faq-suggest-item-substitutions-with-copilot.md)
 
-### Suggest gas emissions in sustainability journals 
+### Suggest greenhouse gas emissions in sustainability journals 
 
 For greenhouse gas (GHG) emissions, Copilot estimates total emissions from descriptions and input parameters and adjusts emission factors for future use.
 

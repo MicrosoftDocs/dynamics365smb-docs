@@ -417,6 +417,10 @@ ms.service: dynamics-365-business-central
 #### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
 #### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
 #### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
+#### [Allocate recurring costs and income](year-allocate-costs-income.md)
+#### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
+#### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
+#### [Export data for auditing](finance-how-to-export-audit-files.md)
 ### Expense Agent
 #### [Expense Agent overview](expense-agent-overview.md)
 #### [Upload and process receipts](expense-agent-upload-receipts.md)
@@ -427,10 +431,6 @@ ms.service: dynamics-365-business-central
 #### [How expense policy compliance works](expense-agent-policy-compliance.md)
 #### [Expense and report statuses](expense-agent-statuses.md)
 #### [Troubleshoot Expense Agent issues](expense-agent-troubleshoot.md)
-#### [Allocate recurring costs and income](year-allocate-costs-income.md)
-#### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
-#### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
-#### [Export data for auditing](finance-how-to-export-audit-files.md)
 <!-- CoA and G/L end -->
 
 ### Working with dimensions

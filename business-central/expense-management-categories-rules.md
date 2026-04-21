@@ -18,26 +18,59 @@ Expense categories classify the types of expenses employees can submit. Expense 
 An *expense category* represents a type of expense, such as meals, travel, or office supplies. Each category can have its own posting group, payment method, and detail requirements.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Categories**, and then choose the related link.
-2. Choose **New** to create a category.
+2. Choose **New** to create a category, or open an existing one to modify its setup.
 3. Fill in the following fields:
 
     | Field | Description |
     |---|---|
     | **Code** | A short code that identifies the category. |
     | **Description** | A description of the category. |
-    | **Posting Group** | The posting group used for general ledger accounting. |
-    | **Default Payment Method** | The default payment method for expenses in this category. |
-    | **Refundable** | Specifies whether expenses in this category are eligible for reimbursement. |
-    | **Expense Detail Required** | Specifies what detail is required, such as itemization, participants, per diem, or mileage. |
+    | **Posting Group** | The posting group used for general ledger accounting. Links the category to the appropriate G/L accounts. |
+    | **Default Payment Method** | The default payment method for expenses in this category: **Cash** (employee paid personally), **Credit Card** (company-issued card), or **Company Paid** (paid directly by the company). Users can still change this per expense. |
+    | **Attachment Enforcement** | Specifies whether an attachment (receipt) is required when submitting expenses in this category. |
+    | **Refundable** | Specifies whether expenses in this category are eligible for reimbursement according to company policy. |
+    | **Expense Detail Required** | Specifies what additional detail is required. Options: **None**, **Itemize** (requires itemization using subcategories), **Participants** (requires adding guests), **Per Diem** (requires location and travel dates), or **Mileage** (requires distance). |
+    | **Expense Group** | Groups similar categories for reporting and analysis. |
+    | **Prepayment-Cash Advance** | Specifies whether the category requires or supports prepayments or cash advances. |
+    | **Inactive** | Marks the category as inactive. Inactive categories can't be used for new expenses. |
 
 4. To add subcategories, choose the **Subcategories** action and create entries for more specific classifications.
 
+> [!NOTE]
+> A *refundable* expense is one the company can accept and reimburse according to internal policy. Because employees may occasionally submit non-business expenses, the **Refundable** flag helps identify and restrict non-allowable items early in the process.
+
+## To create expense subcategories
+
+Each expense category can include one or more subcategories. Subcategories are especially important when itemization is required, because they let users break down a single receipt into multiple types of charges (for example, a hotel stay versus a minibar charge).
+
+1. Open the **Expense Category** you want to add subcategories to.
+2. Choose the **Subcategories** action.
+3. Add lines for each subcategory and complete the following fields:
+
+    | Field | Description |
+    |---|---|
+    | **Code** | A short code that identifies the subcategory. |
+    | **Description** | A description of the subcategory. |
+    | **Expense Description Mandatory** | Requires users to enter a custom description. Standard descriptions can't be used when this is turned on. |
+    | **Refundable** | Specifies whether the subcategory is refundable by default. Useful when itemizing — some parts of a receipt may be refundable while others aren't. |
+    | **Inactive** | Marks the subcategory as inactive. |
+
 ## To set up expense locations
 
-Expense locations are used with per diem allowances and expense rules. They represent travel destinations where spending policies may differ.
+Expense locations define the geographic areas used for calculating per diem allowances. A simple country or region definition is often not sufficient because daily rates can vary within the same country due to differences in purchasing power or regional travel policies. Expense locations let you define country-level, regional, or city-level areas with distinct per diem rates.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Locations**, and then choose the related link.
-2. Choose **New** and enter a code and description for each location.
+2. Choose **New** or open an existing location to modify it.
+3. Fill in the following fields:
+
+    | Field | Description |
+    |---|---|
+    | **Name** | The name of the location or area. |
+    | **Country/Region Code** | The country or region the location belongs to. Required. |
+    | **City** | The city, for more granular definitions. Optional. |
+    | **Province/State** | The state or province, if relevant. Optional. |
+
+Once configured, these locations can be used in per diem calculations and referenced in expense management rules.
 
 ## To set up expense groups
 
@@ -63,8 +96,17 @@ Expense rules define conditions that expenses must meet based on category and lo
     | **Currency Code** | The required currency. Leave blank to allow any currency. |
     | **Unit of Measure Code** | The required unit of measure for mileage expenses. Leave blank to allow any unit. |
 
-4. In the **Merchant Requirements** section, turn on **Required Specific Merchant** if only a specific vendor is allowed, and enter the merchant name.
-5. In the **Rule Conditions** section, add conditions that define thresholds or limits for expenses.
+4. In the **Merchant Requirements** section, turn on **Required Specific Merchant** if only a specific vendor is allowed, and enter the merchant name. Use this when your company has contracted vendors and doesn't allow alternatives.
+5. In the **Rule Conditions** section, add one or more conditions. For each condition, choose a **Condition Type** and enter a **Value**:
+
+    | Condition type | Description |
+    |---|---|
+    | **None** | No condition applies. |
+    | **Fix Amount** | Only the exact amount specified in **Value** is allowed. |
+    | **Max Amount** | The amount in **Value** is the maximum permitted. |
+    | **Min Amount** | The amount in **Value** is the minimum permitted. |
+    | **At Least Justification Needed** | Amounts above the **Value** require justification. |
+    | **Daily Rate** | Used for per diem daily rates. Requires an expense location on the rule. |
 
 > [!TIP]
 > You can create multiple rules for the same category with different locations and effective dates. The system applies the most specific matching rule.
@@ -78,7 +120,9 @@ Payment methods define how expenses were paid, such as cash, credit card, or com
 
 ## How rules are applied
 
-When you turn on **Use Rules** in the **Expense Agent Setup** page, the system automatically checks expenses against the matching rules. If an expense violates a rule, the violation appears in the **Rule Violations** factbox on the expense card and the expense report. Violations don't block submission, but they're visible to approvers.
+To enable rule enforcement, turn on **Apply Rules** on the **Expense Agent Setup** page. If this setting isn't turned on, rules aren't applied — except for per diem calculations, which are always considered.
+
+When rules are enabled, the system automatically checks expenses against the matching rules. If an expense violates a rule, the violation appears in the **Rule Violations** factbox on the expense card and the expense report. Violations don't block submission, but they're visible to approvers.
 
 ## Related information
 

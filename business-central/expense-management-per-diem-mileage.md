@@ -31,8 +31,9 @@ Per diem rates reimburse employees for daily travel expenses using a fixed amoun
     | Method | Description |
     |---|---|
     | **None** | Per diem is not used. |
-    | **24-hour Rolling Period** | A full per diem applies for each 24-hour period of travel. |
-    | **Overnight Stay** | A full per diem applies when the traveler stays overnight. |
+    | **Full Calendar Day** | A full per diem is granted only if the employee is away for an entire calendar day (midnight to midnight). |
+    | **24-hour Rolling Period** | A full per diem is calculated for every 24-hour block starting from the trip's beginning. The last day qualifies if it meets or exceeds the minimum hours. |
+    | **Overnight Stay** | A full per diem is granted only if the employee spends a night away from home and the travel time meets or exceeds the minimum hours. |
 
 2. Set **Per Diem Rounding Precision** to control decimal rounding on per diem amounts.
 3. In **Minimum Hours for Per Diem**, enter the minimum hours of travel required to qualify for a full per diem.
@@ -41,9 +42,15 @@ Per diem rates reimburse employees for daily travel expenses using a fixed amoun
 
 When travel doesn't cover a full day, partial day rules determine the reimbursement.
 
-1. In the **Partial Day Rules** field, choose how partial days are handled.
+1. In the **Partial Day Rules** field, choose how partial days are handled:
+
+    | Option | Description |
+    |---|---|
+    | **Flat Percentage of Full Rate** | A fixed percentage of the full per diem rate is applied. Use with the **Full Calendar Day** calculation method. |
+    | **Based on Eligible Hours** | The partial amount is calculated based on the number of qualifying hours. Use with the **24-hour Rolling Period** or **Overnight Stay** methods. The number of hours must meet or exceed the minimum hours for partial per diem. |
+
 2. In **Min Hours for Partial Per Diem**, enter the minimum hours required to qualify for a partial per diem.
-3. In **Percentage For Partial Day**, enter the percentage of the full per diem to pay for partial days.
+3. In **Percentage For Partial Day**, enter the percentage of the full per diem to pay for partial days (used with the flat percentage option).
 
 ## To configure meal reductions
 

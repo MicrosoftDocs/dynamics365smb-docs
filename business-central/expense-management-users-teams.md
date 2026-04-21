@@ -11,17 +11,42 @@ ms.reviewer: solsen
 
 # Set up expense users and teams
 
-Before employees can create expenses, they must be set up as expense users in [!INCLUDE[prod_short](includes/prod_short.md)]. You can also organize expense users into teams for easier management and reporting.
+Before employees can create expenses, they must be set up as expense users in [!INCLUDE[prod_short](includes/prod_short.md)]. A user with SUPER or admin rights must define which employees become expense users. You can also organize expense users into teams for easier management and reporting.
 
 ## To create an expense user
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Users**, and then choose the related link.
 2. Choose **New** to open the **Expense User** card.
-3. Fill in the required fields. The expense user is linked to an employee record, which provides the user's name and contact information.
+3. In the **Employee No.** field, select the employee to link to this expense user.
 4. Assign the appropriate **Employee Posting Group** to control how the user's expenses are posted to the general ledger.
+5. Optionally, assign an **Expense Team Code** to add the user to a team.
+
+> [!IMPORTANT]
+> Each expense user must be linked to an employee record that has a valid company email address set in the **Company E-Mail** field. The employee posting group can't be empty.
+
+## To import expense users from Microsoft Entra ID
+
+Instead of creating users one by one, you can import them from your Microsoft Entra tenant.
+
+1. Open the **Expense Users** page.
+2. Choose **More options** > **Import Expense Users**.
+
+This imports all Entra ID users into the expense users table. After importing, open each user's **Expense User Card** and complete the required fields, including the **Employee No.** link and **Employee Posting Group**.
+
+## To set up expense approvers
+
+If your organization uses the approval workflow, you must define who can approve expense reports.
+
+1. Open the **Expense User Card** for the user who should act as an approver.
+2. Turn on the **Can Approve** field.
+3. In the subpage below the **Can Approve** field, add the expense users that this approver is responsible for.
 
 > [!NOTE]
-> Each expense user must be linked to an employee record. Make sure the employee record exists before you create the expense user.
+> An expense user can act as an approver only if their email matches the **Authentication Email** on the **User Card** page. Approvers must have a Business Central license.
+
+The expense agent supports a simple approval process with one-to-many relationships. Each approver has a list of users they can approve. Interim approvals aren't supported.
+
+You can also view and edit all approval relationships on the **Expense Approval Setup** page.
 
 ## To organize expense users into teams
 
@@ -31,6 +56,8 @@ Expense teams let you group users for reporting and management purposes.
 2. Choose **New** to create a team.
 3. Enter a code and description for the team.
 4. Add expense users to the team.
+
+Each team can have one team manager. Defining teams simplifies classification and approval structures.
 
 ## Related information
 

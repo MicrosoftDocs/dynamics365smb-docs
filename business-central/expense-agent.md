@@ -33,7 +33,7 @@ Its purpose is to reduce manual effort, eliminate repetitive data entry, and acc
 Together, these design choices deliver seamless automation, significantly lower user effort, and align naturally with the ways people already capture and manage expenses. And although the user-facing experience operates outside Business Central, all financial data, audit trails, and posting logic are processed securely within the BC environment—providing a streamlined employee experience without compromising ERP‑grade accuracy, governance, or control.
 
 > [!NOTE]
-> [!INCLUDE[copilot-language-support-en-only](../includes/copilot-language-support-en-only.md)]
+> [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Expense Agent Core Functionality
 

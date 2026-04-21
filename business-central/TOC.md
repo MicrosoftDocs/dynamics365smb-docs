@@ -2778,6 +2778,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 ## [FAQ for summarize (preview)](faqs-summarize.md)
 # Expense management
+## [Expence Agent overview](expense-agent.md)
 ## [Manage employee expenses](expense-management-overview.md)
 ## [Set up expense management](expense-management-setup.md)
 ## [Set up expense categories and rules](expense-management-categories-rules.md)

@@ -421,6 +421,16 @@ ms.service: dynamics-365-business-central
 #### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
 #### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
 #### [Export data for auditing](finance-how-to-export-audit-files.md)
+### Expense Agent
+#### [Expense Agent overview](expense-agent-overview.md)
+#### [Upload and process receipts](expense-agent-upload-receipts.md)
+#### [Review and edit expenses](expense-agent-edit-expenses.md)
+#### [Create and submit expense reports](expense-agent-expense-reports.md)
+#### [Approve or send back expense reports](expense-agent-approve-reports.md)
+#### [Submit expenses using Copilot in Teams](expense-agent-copilot-teams.md)
+#### [How expense policy compliance works](expense-agent-policy-compliance.md)
+#### [Expense and report statuses](expense-agent-statuses.md)
+#### [Troubleshoot Expense Agent issues](expense-agent-troubleshoot.md)
 <!-- CoA and G/L end -->
 
 ### Working with dimensions

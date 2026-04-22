@@ -40,7 +40,10 @@ You can also send receipts to Expense Agent by email. This is a convenient way t
 
 Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses on the **Expenses** page.
 
-After the upload, the expense status shows **Processing** while AI analyzes your receipt. When scanning finishes, the status changes to **Open** and the extracted details appear for your review.
+After the upload, the expense status shows **Processing** while AI analyzes your receipt. When scanning finishes, the status changes to **Open** and the extracted details appear for your review. If the receipt passes validation, it's automatically added to a default expense report, so you don't need to create one manually.
+
+> [!NOTE]
+> If your receipts are in foreign currencies, the web app automatically converts the amounts to your local currency for display using the exchange rates configured in Business Central.
 
 ## To review scanned receipt details
 

@@ -59,6 +59,18 @@ Select any expense on the **Expenses** page to open its detail panel. The panel 
 
 Use the detail panel to quickly check an expense before you add it to a report.
 
+## To resolve issues flagged by AI
+
+Sometimes the AI can't fully process a receipt — for example, if a location can't be identified or required details are missing. When this happens, the expense shows a summary of what needs attention.
+
+1. Open the expense from the **Expenses** page.
+1. Review the issue summary at the top of the expense detail panel to understand what's missing.
+1. Expand the expense details to see the affected fields.
+1. Fill in or correct the flagged information.
+1. Select **Save**.
+
+After you save your corrections, the AI re-runs the processing flow. If everything is resolved, the expense is automatically added to an expense report.
+
 ## Related information
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  

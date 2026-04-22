@@ -3,7 +3,7 @@ title: How the Expense Agent Processes Emails
 description: Learn how the expense agent in Business Central monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 author: brentholtorf
 ms.topic: conceptual
-ms.date: 04/21/2026
+ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -26,8 +26,10 @@ The expense agent runs on a schedule and performs three tasks:
 
 When the agent finds a relevant email, it extracts key details like the date, amount, merchant, and category. It then creates an expense record for the corresponding expense user.
 
+The agent also groups expenses into expense reports automatically based on the configured reporting period. After processing, the agent sends a confirmation email back to the user. The confirmation includes a summary of the created expenses, the total amount, and a link to review the expense report directly in the Expense Agent web app.
+
 > [!NOTE]
-> The agent suggests expense details based on the email content. Always review automatically created expenses to make sure the information is accurate before adding them to an expense report.
+> The agent suggests expense details based on the email content. Always review automatically created expenses to make sure the information is accurate before submitting the report.
 
 ## Prerequisites
 

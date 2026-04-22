@@ -3,7 +3,7 @@ title: Expense Management Overview in Business Central
 description: Learn about expense management in Business Central, including how to capture expenses, create reports, get approvals, and post to the general ledger.
 author: brentholtorf
 ms.topic: overview
-ms.date: 04/21/2026
+ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -65,6 +65,20 @@ The **Expense Management** role center is the main navigation hub. From here, yo
 - **Posted Expense Reports** — View reports that were posted to the general ledger.
 - **Expense Ledger Entries** — Review posted expense entries.
 - **Setup** — Configure categories, rules, users, teams, and posting groups.
+
+## Licensing requirements
+
+The license you need depends on how you interact with expense management:
+
+| How you use expense management | License required |
+|---|---|
+| Submit expenses through the web app, email, or Microsoft 365 Copilot chat only (no Business Central access) | No Business Central license. You're charged based on Copilot credits. |
+| Manage expenses and submit expense reports inside Business Central | Team Member license (minimum) |
+| Approve expense reports inside Business Central | Team Member license (minimum) |
+| Post expense reports and process payments in Business Central | Essentials or Premium license |
+
+> [!NOTE]
+> Expense users who work exclusively through the Expense Agent web app, email, or Microsoft 365 Copilot chat don't need a Business Central license. They can also approve reports through the web app without a Business Central license. However, if a user signs in to Business Central to perform any expense task, they must have at least a Team Member license.
 
 ## Get started
 

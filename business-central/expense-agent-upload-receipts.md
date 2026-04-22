@@ -3,7 +3,7 @@ title: Upload and Process Receipts with Expense Agent
 description: Upload receipts to Expense Agent and let AI automatically detect the vendor, amount, date, and category so you can quickly create accurate expenses.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/15/2026
+ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -13,14 +13,25 @@ ms.reviewer: solsen
 
 When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](includes/prod_short.md)], AI scans the image and suggests key details like the vendor name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved.
 
-## To upload a receipt
+## To upload a receipt in the web app
 
-1. Open Expense Agent and go to the **Expenses** page.
+1. Open [Expense Agent](https://app.expenses.dynamics.com/) and go to the **Expenses** page.
 1. Select **Upload Receipt**.
 1. Drag and drop your receipt file onto the upload area, or select **Browse** to choose a file from your device.
 1. Wait for the upload to complete.
 
 Expense Agent supports JPEG, PNG, and PDF files up to 10 MB.
+
+## To send a receipt by email
+
+You can also send receipts to Expense Agent by email. This is a convenient way to submit receipts from your phone or forward digital invoices directly.
+
+1. Open your email application, such as Outlook.
+1. Create a new email and address it to your organization's expense mailbox. Ask your administrator for the email address if you don't have it.
+1. Attach one or more receipt files to the email. You can attach photos of paper receipts taken with your phone, PDF invoices, or scanned receipts.
+1. Send the email.
+
+Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses on the **Expenses** page.
 
 After the upload, the expense status shows **Processing** while AI analyzes your receipt. When scanning finishes, the status changes to **Open** and the extracted details appear for your review.
 

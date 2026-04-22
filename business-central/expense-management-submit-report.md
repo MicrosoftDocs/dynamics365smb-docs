@@ -3,7 +3,7 @@ title: Create and Submit Expense Reports
 description: Learn how to create expense reports, add expenses, review rule violations, and submit reports for approval in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/21/2026
+ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -34,6 +34,14 @@ The selected expenses appear as lines in the expense report subpage.
 
 > [!TIP]
 > You can also create an expense report directly from an individual expense by using the **Create Expense Report** action on the expense card.
+
+## To add expense lines directly
+
+If you don't use the expense agent, you can add expense lines directly to the expense report without creating individual expenses first. This is also useful when you want to add a line manually.
+
+1. On the **Expense Report** card, in the report lines subpage, enter the expense details directly: category, amount, description, and other relevant fields.
+2. If the category requires itemization, choose the **Itemizations** action to break down the line.
+3. If the category requires participants, choose the **Participants** action to add attendees.
 
 ## To review rule violations
 

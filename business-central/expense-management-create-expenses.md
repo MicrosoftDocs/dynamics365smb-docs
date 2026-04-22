@@ -3,7 +3,7 @@ title: Create and Manage Expenses in Business Central
 description: Learn how to record individual expenses, attach receipts, add itemizations and participants, and track per diem and mileage in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/21/2026
+ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -97,12 +97,30 @@ This creates a new expense report and adds the current expense to it. The action
 
 The **Billing** section on the expense card lets you specify additional details:
 
-- **Billable** — Turn on if the expense should be billed to a customer.
+- **Refundable** — Indicates whether the expense complies with company policy and is eligible for processing. Non-refundable expenses aren't posted to the general ledger. Default is set by the expense category.
+- **Reimbursement Type** — Specifies how the reimbursement is processed based on the payment method. Expenses paid by the employee (cash) are reimbursable. Expenses paid by company card or bank account are expensed but not reimbursed.
+- **Reimbursable Amount** — The amount eligible for reimbursement. This is zero for expenses paid by company credit card, because the company already covered the cost.
+- **Payment Method Code** — The payment method used for this expense, such as **Cash**, **Credit Card**, or **Company Paid**. Changing this recalculates the reimbursable amount.
+- **Billable** — Turn on if the expense should be billed to a customer. When the expense report is posted, the system automatically creates a sales invoice for the specified customer.
 - **Billable to Customer** — Specify which customer to bill.
-- **Refundable** — Indicates whether the expense is reimbursable.
-- **Reimbursement Type** — Specifies how the reimbursement is processed.
-- **Reimbursable Amount** — The amount eligible for reimbursement based on policy.
-- **Payment Method Code** — The payment method used for this expense.
+
+## To connect an expense to a project
+
+You can link an expense to a project for tracking and billing purposes.
+
+1. On the **Expense** card, in the **Dimensions** section, fill in the **Project No.** field.
+2. In the **Project Task No.** field, select the relevant project task.
+
+When the expense report is posted, the system creates a project ledger entry in addition to the standard expense and employee ledger entries.
+
+## Understand refundable versus reimbursable
+
+The terms *refundable* and *reimbursable* describe different aspects of an expense:
+
+- **Refundable** means the expense complies with company policy and is accepted as a valid business expense. The default value comes from the expense category, but you can change it on individual expenses if you have permission. Non-refundable expenses aren't posted to the general ledger, but they must still be tracked in the system. For example, if an employee uses a company card for a non-business purchase, the amount needs to be recorded and potentially recovered from the employee.
+- **Reimbursable** means the employee paid out of pocket and is eligible to receive money back. An expense paid with a company credit card or bank account is refundable but not reimbursable, because the company already covered the cost.
+
+When itemization is required, individual subcategory lines can have different refundable settings. For example, a hotel receipt might have the room charge as refundable while a minibar charge is marked as non-refundable. The employee is reimbursed only for the refundable portion.
 
 ## Related information
 

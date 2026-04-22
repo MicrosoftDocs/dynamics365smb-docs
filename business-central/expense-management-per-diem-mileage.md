@@ -70,6 +70,11 @@ When an expense user creates a per diem expense:
 3. The system calculates the per diem amount based on the location rates, travel duration, and any meal reductions.
 4. The user can choose the **Per Diem** action to view or edit the calculated entries.
 
+The per diem detail view shows one line for each day of the trip with the full daily rate. If meals were provided on specific days (for example, dinner included at a conference), the user can mark those meals on the corresponding day. The system recalculates the per diem for that day by applying the configured reduction percentage. This means some days may have a full per diem while others are reduced.
+
+> [!NOTE]
+> If the expense uses a foreign currency, the system automatically converts the per diem amount to the local currency using the configured exchange rate.
+
 For more information about recording per diem and mileage expenses, see [Create and manage expenses](expense-management-create-expenses.md).
 
 ## Related information

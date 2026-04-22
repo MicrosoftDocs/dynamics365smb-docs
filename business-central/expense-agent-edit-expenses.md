@@ -3,7 +3,7 @@ title: Review and Edit Expenses in Expense Agent
 description: Review and edit expense details in Expense Agent after AI receipt scanning or manual entry. Update the vendor, amount, category, and other fields.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/15/2026
+ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -28,6 +28,17 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
 
 > [!NOTE]
 > You can edit an expense as long as it hasn't been submitted as part of an expense report. Once a report is submitted, you must wait for it to be sent back before you can make changes.
+
+## To resolve issues flagged by AI
+
+Sometimes the AI flags an issue during processing — for example, a missing location or an unrecognized currency. When this happens, the expense shows an issue indicator.
+
+1. Open the expense with the issue.
+2. Review the summary at the top of the expense, which describes what needs attention.
+3. Correct the flagged field (for example, select the correct location).
+4. Select **Save**.
+
+After you save your corrections, the AI processes the expense again. Once reprocessing completes, the expense is automatically added to an expense report.
 
 ## To delete an expense
 

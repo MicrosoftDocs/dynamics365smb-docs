@@ -53,6 +53,7 @@ Ready to dive in? Start with these articles:
 
 ## Related information
 
+[Manage employee expenses in Business Central](expense-management-overview.md)  
 [Upload and process receipts with Expense Agent](expense-agent-upload-receipts.md)  
 [Review and edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
 [Create and submit expense reports](expense-agent-expense-reports.md)  

@@ -84,6 +84,7 @@ To start using expense management, an administrator must first set up the module
 
 ## Related information
 
+[Manage expenses with Expense Agent web app](expense-agent-overview.md)  
 [Set up expense management](expense-management-setup.md)  
 [Create and manage expenses](expense-management-create-expenses.md)  
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  

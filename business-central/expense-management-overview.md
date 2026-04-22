@@ -19,10 +19,17 @@ ms.search.form: 6903, 6933, 6987, 6989, 6997
 You can use expense management in two ways:
 
 - **With the expense agent enabled** — Employees submit receipts through the web app, email, or Microsoft 365 Copilot chat. The agent automatically extracts data, categorizes expenses, creates expense records, and groups them into expense reports. You can also view and edit agent-created expenses inside Business Central.
-- **Without the expense agent** — Employees create expense reports directly inside Business Central and add expense lines manually. Individual expenses aren't available without the agent. This option is useful in regions where the agent isn't enabled or when you prefer to work entirely within Business Central.
+- **Without the expense agent** — Employees create expense reports directly inside Business Central and add expense lines manually. Individual expenses aren't available without the agent, and there's no AI-powered receipt scanning, extraction, or automatic categorization. This option is useful in regions where the agent isn't enabled or when you prefer to work entirely within Business Central.
 
-> [!NOTE]
-> We recommend using expense management with the expense agent enabled. The agent provides significantly more automation, including AI-driven receipt extraction, categorization, and automatic expense report creation.
+Without the agent, you still have access to:
+
+- Expense report creation, release, and posting
+- Itemization, participants, per diem, and mileage on report lines
+- Rule validation and approval workflows
+- All setup features (categories, rules, posting groups, locations)
+
+> [!TIP]
+> We recommend enabling the expense agent for the full experience. With the agent, expenses are created automatically from receipts, categorized by AI, and grouped into reports. Without the agent, all data entry is manual.
 
 ## Who is expense management for?
 
@@ -84,20 +91,6 @@ The **Expense Management** role center is the main navigation hub. From here, yo
 - **Posted Expense Reports** — View reports that were posted to the general ledger.
 - **Expense Ledger Entries** — Review posted expense entries.
 - **Setup** — Configure categories, rules, users, teams, and posting groups.
-
-## Using expense management without the agent
-
-Expense management works even if you don't enable the expense agent, but with reduced functionality. Without the agent, you can't create individual expenses first — you start directly from expense reports and add expense lines to them. There's no AI-powered receipt scanning, extraction, or automatic categorization.
-
-You still have access to:
-
-- Expense report creation, release, and posting
-- Itemization, participants, per diem, and mileage on report lines
-- Rule validation and approval workflows
-- All setup features (categories, rules, posting groups, locations)
-
-> [!TIP]
-> We recommend enabling the expense agent for the full experience. With the agent, expenses are created automatically from receipts, categorized by AI, and grouped into reports. Without the agent, all data entry is manual.
 
 ## Licensing requirements
 

@@ -3,7 +3,7 @@ title: Set Up Per Diem and Mileage Allowances
 description: Learn how to configure per diem rates, mileage reimbursement, partial day rules, and meal reductions for expense management in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/21/2026
+ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen

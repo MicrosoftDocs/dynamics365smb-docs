@@ -20,14 +20,14 @@ When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](includes/pro
 1. Drag and drop your receipt file onto the upload area, or select **Browse** to choose a file from your device. You can also drop an entire folder of receipts to upload multiple files at once.
 1. Wait for the upload to complete.
 
-Expense Agent supports JPEG, PNG, and PDF files up to 10 MB. You can also drag and drop an entire folder of receipts to upload multiple files at once.
+Expense Agent supports JPEG, PNG, and PDF files up to 10 MB, including printed invoices, digital PDFs, and handwritten receipts such as taxi slips.
 
 > [!TIP]
 > Expense Agent uses AI to process receipts, so it works well with handwritten receipts like taxi receipts, not just printed or digital ones. If a field isn't detected correctly, you can always edit it manually.
 
 ## Automatic currency conversion
 
-When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. All totals displayed in the web app use the local currency, so you can easily track spending across different countries. The AI can handle a wide range of receipt formats, including printed invoices, digital PDFs, and handwritten receipts such as taxi slips.
+When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. All totals displayed in the web app use the local currency, so you can easily track spending across different countries.
 
 ## To send a receipt by email
 
@@ -41,9 +41,6 @@ You can also send receipts to Expense Agent by email. This is a convenient way t
 Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses on the **Expenses** page.
 
 After the upload, the expense status shows **Processing** while AI analyzes your receipt. When scanning finishes, the status changes to **Open** and the extracted details appear for your review. If the receipt passes validation, it's automatically added to a default expense report, so you don't need to create one manually.
-
-> [!NOTE]
-> If your receipts are in foreign currencies, the web app automatically converts the amounts to your local currency for display using the exchange rates configured in Business Central.
 
 ## To review scanned receipt details
 

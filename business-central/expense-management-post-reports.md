@@ -29,15 +29,7 @@ The preview shows the general ledger entries, employee ledger entries, and other
 2. Choose **Post**, or press <kbd>F9</kbd>.
 3. Confirm the posting.
 
-After posting, the report moves to the **Posted Expense Reports** list and is no longer editable.
-
-Posting creates the following entries:
-
-- **Expense ledger entries** — One entry per expense line.
-- **Employee ledger entries** — For reimbursable amounts owed to employees.
-- **G/L entries** — Based on the expense and employee posting groups.
-- **Project ledger entries** — If an expense line is linked to a project.
-- **Sales invoices** — If an expense line is marked as billable to a customer, the system automatically creates a sales invoice for that customer.
+After posting, the report moves to the **Posted Expense Reports** list and is no longer editable. For details about the entries and documents that posting creates, see [What posting creates](#what-posting-creates).
 
 > [!TIP]
 > To post and immediately open a new blank expense report, choose **Post and New** instead, or press <kbd>Alt</kbd>+<kbd>F9</kbd>.

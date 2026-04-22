@@ -7,6 +7,7 @@ ms.date: 04/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
+ms.search.form: 6910, 6911, 6960, 6979, 6997
 ---
 
 # Create and submit expense reports

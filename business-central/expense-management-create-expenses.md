@@ -7,6 +7,7 @@ ms.date: 04/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
+ms.search.form: 6974, 6975, 6988, 6989, 6992
 ---
 
 # Create and manage expenses

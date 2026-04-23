@@ -2780,7 +2780,7 @@ ms.service: dynamics-365-business-central
 ### [Summarize records with Copilot](summarize-with-copilot.md)
 ### [Responsible AI FAQ for summarize](faqs-summarize.md)
 ## Expense Agent
-### [Expense Agent overview](expense-management/expense-agent.md)
+### [Expense Agent intro](expense-management/expense-agent.md)
 ### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
 ### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
 ### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)

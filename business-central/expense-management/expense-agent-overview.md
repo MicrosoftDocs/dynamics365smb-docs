@@ -62,7 +62,6 @@ Ready to dive in? Start with these articles:
 [Review and edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
 [Create and submit expense reports](expense-agent-expense-reports.md)  
 [Approve or send back expense reports](expense-agent-approve-reports.md)  
-[Submit expenses using Copilot in Teams](expense-agent-copilot-teams.md)  
 [How expense policy compliance works](expense-agent-policy-compliance.md)  
 [Understand expense and report statuses](expense-agent-statuses.md)  
 [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  

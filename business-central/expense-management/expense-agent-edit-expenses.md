@@ -15,48 +15,49 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
 
 ## To edit an expense
 
-1. Open Expense Agent and go to the **Expenses** page.
+1. Open Expense Agent and go to the **Drafts** tab.
 1. Select the expense you want to edit.
-1. Update any of the following fields as needed:
-   - **Vendor** — The merchant or business name.
+1. Update any of the following fields as needed:  
+   On the **Details** tab, you can edit the main expense information:
+   - **Merchant** — The merchant or business name.
    - **Amount** — The expense total.
    - **Date** — The transaction date.
-   - **Category** — The type of expense, such as meals, travel, or office supplies.
    - **Description** — An optional note about the expense.
-   - **Mileage** or **Per Diem** — If applicable to the expense type.
-1. Select **Save**.
+   - **Payment Means** — How the expense was paid, such as credit card or cash.  
+   On the **Categorization** tab, you can update how the expense is categorized for reporting and policy compliance purposes:
+   - **Category** — The type of expense, such as meals, travel, or office supplies.
+1. Select **Save Changes**.
 
 > [!NOTE]
 > You can edit an expense as long as it hasn't been submitted as part of an expense report. Once a report is submitted, you must wait for it to be sent back before you can make changes.
 
 ## To delete an expense
 
-1. Open the **Expenses** page and select the expense you want to remove.
-1. Select **Delete**.
+1. On the **Drafts** tab, select the expense you want to remove.
+1. Use the **...** option, and choose **Delete**.
 1. Confirm the deletion when prompted.
 
 Deleting an expense also removes it from any draft expense report it was added to.
 
 ## To view expense details
 
-Select any expense on the **Expenses** page to open its detail panel. The panel shows a summary that includes:
+Select any expense on the **Drafts** tab and choose **Review** to open details. On the **Submitted** tab, you can also view by choosing **Details**. The detail view shows a summary that includes:
 
 - **Amount and currency** — The expense total.
 - **Policy status** — Whether the expense meets company policy, including any warnings or issues.
 - **Attachments** — The uploaded receipt image or file.
-- **Expense status** — The current status, such as **Open**, **Pending Report**, or **Added to Report**.
 
-Use the detail panel to quickly check an expense before you add it to a report.
+Use the detail view to quickly check an expense in draft mode before you add it to a report.
 
 ## To resolve issues flagged by AI
 
 Sometimes the AI can't fully process a receipt — for example, if a location can't be identified or required details are missing. When this happens, the expense shows a summary of what needs attention.
 
-1. Open the expense from the **Expenses** page.
-1. Review the issue summary at the top of the expense detail panel to understand what's missing.
+1. Open the expense on the **Drafts** tab.
+1. Review the issue summary at the top of the expense details to understand what's missing.
 1. Expand the expense details to see the affected fields.
 1. Fill in or correct the flagged information.
-1. Select **Save**.
+1. Select **Save Changes**.
 
 After you save your corrections, the AI re-runs the processing flow. If everything is resolved, the expense is automatically added to an expense report.
 

@@ -17,7 +17,7 @@ As an approver, you review expense reports that employees submit. You can approv
 
 ## To review a submitted expense report
 
-1. In Expense Agent, select **Approvals** in the navigation.
+1. In Expense Agent, choose the **For My Approval** tab.
 1. Select the expense report you want to review.
 1. Review the report lines, including amounts, categories, and any attached receipts.
 1. Check the policy compliance summary for warnings or issues.
@@ -46,12 +46,12 @@ If a report has issues that the employee needs to fix, you can send it back with
 The report status changes back to **Draft**, and the employee is notified with your comments. They can make changes and resubmit.
 
 > [!NOTE]
-> Approval workflows are configured and managed in Business Central. Contact your administrator if you have questions about approval rules or workflow settings.
+> Approval workflows are configured and managed in [!INCLUDE [prod_short](../includes/prod_short.md)]. Contact your administrator if you have questions about approval rules or workflow settings.
 
 ## Related information
 
-- [Expense Agent overview](expense-agent-overview.md)
-- [Create and submit expense reports](expense-agent-expense-reports.md)
-- [How expense policy compliance works](expense-agent-policy-compliance.md)
+[Expense Agent overview](expense-agent-overview.md)  
+[Create and submit expense reports](expense-agent-expense-reports.md)  
+[How expense policy compliance works](expense-agent-policy-compliance.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

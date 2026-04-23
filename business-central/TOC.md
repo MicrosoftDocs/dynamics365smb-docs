@@ -2786,7 +2786,7 @@ ms.service: dynamics-365-business-central
 ### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
 ### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
 ### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
-### [Submit expenses using Copilot in Teams](expense-management/expense-agent-copilot-teams.md)
+<!--### [Submit expenses using Copilot in Teams](expense-management/expense-agent-copilot-teams.md)-->
 ### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
 ### [How the expense agent processes emails](expense-management/expense-management-agent.md)
 ### [Expense and report statuses](expense-management/expense-agent-statuses.md)

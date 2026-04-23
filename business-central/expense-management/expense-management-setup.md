@@ -12,106 +12,127 @@ ms.search.form: 6976, 6996
 
 # Set up expense management
 
-Before employees can record expenses and submit reports, an administrator must configure the expense management module in [!INCLUDE[prod_short](../includes/prod_short.md)]. This article walks you through the key setup tasks.
+Before employees can record expenses and submit reports, an administrator must configure expense management features in [!INCLUDE[prod_short](../includes/prod_short.md)]. This article explains the key setup tasks.
 
-## To set up a shared mailbox
+## Use the provided default settings (recommended)
 
-To let the expense agent receive receipts by email, create a dedicated shared mailbox for your organization, for example *expenses\@contoso.com*. Expense users can then forward receipts, scans, and PDFs to that address, and the agent processes them automatically.
+It's optional, but we recommend that you start with the default configuration that we provide, and then adjust the settings to match your organization's needs. The default settings create a baseline setup with default categories, rules, and other master data.
 
-Setting up the shared mailbox for the expense agent works the same way as for other Business Central agents. For detailed instructions, see [Set up the Sales Order Agent](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup).
+To apply the default configuration, on the **Expense Agent Setup** page, choose **More options**, and then **Apply default settings**.
 
-## To open expense agent setup
+## Use Expense Agent
 
-1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
+Expense Agent is an AI‑powered capability that automates the most time‑intensive parts of expense management. For example, receipt intake, data extraction, categorization, and expense line creation. It accepts receipts from multiple channels, including uploaded images and email submissions, while maintaining a human‑in‑the‑loop review process to ensure accuracy, compliance, and full user oversight. Learn more at [Expense Agent overview](expense-agent.md).
 
-The **Expense Agent Setup** page contains all configuration settings organized into the following groups.
+Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without the expense agent](expense-management-overview.md#with-and-without-the-expense-agent).
 
-## To apply default settings
+### Set up a shared mailbox
 
-We recommend starting with the provided default configuration, then adjusting it to match your organization's needs.
+To let Expense Agent receive receipts by email, create a dedicated shared mailbox for your organization, for example, /expenses@contoso.com. Expense users can then forward receipts, scans, and PDFs to that address, and the agent processes them automatically.
 
-1. On the **Expense Agent Setup** page, choose **More options** > **Apply default settings**.
+Setting up the shared mailbox for the expense agent works the same way as for other agents in [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Set up email](../admin-how-setup-email.md).
 
-This creates a baseline setup with default categories, rules, and other master data.
+### Enable Expense Agent
 
-## To enable the expense agent
-
-The expense agent monitors an email mailbox and can automatically create expenses from incoming emails, such as receipt confirmations and credit card statements.
-
-1. On the **Expense Agent Setup** page, turn on the **Enable Agent** toggle.
-2. In the **Mailbox Account** field, choose the email account that the agent should monitor. You need permission to the mailbox to activate the agent.
-3. In the **Agent Access Control** FastTab, select which users are permitted to use agent capabilities.
+Expense Agent monitors an email mailbox and can automatically create expenses from incoming emails, such as receipt confirmations and credit card statements.
 
 > [!NOTE]
 > Before you can enable the agent, you must accept the privacy notice and make sure the **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page.
 
-## To configure general settings
+1. On the **Expense Agent Setup** page, turn on the **Enable agent** toggle.
+2. In the **Mailbox Account** field, choose the email account that the agent should monitor. You need permission to the mailbox to activate the agent.
+3. On the **Agent Access Control** FastTab, select which users are permitted to use agent capabilities.
 
-The **General** FastTab on the **Expense Agent Setup** page includes additional fields:
+## Access expense management setup
 
-- **Exchange Rate for Expenses** — Controls whether foreign currency expenses use the rate from the expense date or the posting date.
-- **Allow Grouping of Transactions in Report** — Determines whether similar transactions are grouped together in expense reports automatically by the agent.
-- **Expense Report Grouping** — Defines how reports are grouped, for example by period.
-- **Expense Report Rounding Precision** — Sets rounding precision for report amounts.
-- **Expense Report Rounding Type** — Rounding behavior: **Nearest**, **Up**, or **Down**.
-- **Receipt No. Mandatory** — Requires entry of a receipt number for every expense.
-- **Merchant Name Mandatory** — Requires entry of a merchant name for every expense.
+The **Expense Agent Setup** page organizes all configuration settings on FastTabs. With the exception of the settings that are specifically related to Expense Agent, the settings apply to expense management. The following sections describe the settings that are available on each FastTab.
 
-## To configure rules and controls
+To get started, [!INCLUDE [open-search-lowercase](../includes/open-search-lowercase.md)], enter **Expense Agent Setup**, and then choose the related link.
 
-Use the **Rule & Controls** FastTab to define expense policies.
+### Configure general settings
 
-1. Turn on **Apply Rules** to enforce expense management rules during submission.
-2. Set **Do Not Allow Expenses Older Than** to restrict how far back expenses can be dated (for example, `-90D` for 90 days).
-3. In **If Expense Is Older Than Allowed**, choose what happens when an expense falls outside that range: **Warn**, **Require Justification**, or **Block Submission**.
-4. Turn on **Check Category/Subcategory Usage** to require that expenses use valid category and subcategory combinations during entry.
-5. Turn on **Display Anti-Corruption Attestation** if your organization requires an attestation message that users must confirm before submitting expenses.
-6. Turn on **Enable Approval Workflow** to require manager approval before reports can be posted (recommended).
+The following table describes the settings on the **General** FastTab.
 
-## To set up number series
+| Field | Description |
+| --- | --- |
+| **Exchange Rate for Expenses** | Controls whether foreign currency expenses use the rate from the expense date or the posting date. |
+| **Allow Grouping of Transactions in Report** | Determines whether similar transactions are grouped together in expense reports automatically by the agent. |
+| **Expense Report Grouping** | Defines how reports are grouped, for example by period. |
+| **Expense Report Rounding Precision** | Sets rounding precision for report amounts. |
+| **Expense Report Rounding Type** | Rounding behavior: **Nearest**, **Up**, or **Down**. |
+| **Receipt No. Mandatory** | Requires entry of a receipt number for every expense. |
+| **Merchant Name Mandatory** | Requires entry of a merchant name for every expense. |
 
-In the **Number Series** section, assign number series for the following:
+### Configure rules and controls
+
+The following table describes the settings on the **Rule & Controls** FastTab. These settings define expense policies.
+
+| Field | Description |
+|---|---|
+| **Apply Rules** | Turn on to enforce expense management rules during submission. |
+| **Do Not Allow Expenses Older Than** | Restricts how far back expenses can be dated (for example, `-90D` for 90 days). |
+| **If Expense Is Older Than Allowed** | Choose what happens when an expense falls outside the allowed range: **Warn**, **Require Justification**, or **Block Submission**. |
+| **Check Category/Subcategory Usage** | Turn on to require that expenses use valid category and subcategory combinations during entry. |
+| **Display Anti-Corruption Attestation** | Turn on if your organization requires an attestation message that users must confirm before submitting expenses. |
+| **Enable Approval Workflow** | Turn on to require manager approval before reports can be posted (recommended). |
+
+To learn more about categories and rules, go to [Set up expense categories and rules](expense-management-categories-rules.md).
+
+### Assign number series
+
+Number series automatically generate unique identification codes for things such as new general ledger accounts, customer and vendor accounts, invoices, and so on. To learn more about number series, go to [Create number series](../ui-create-number-series.md).
+
+On the **Number Series** FastTab, assign number series for the following:
 
 - **Expense User Nos.** — Automatic numbering for expense users.
 - **Expense Reports Nos.** — Automatic numbering for expense reports.
 - **Posted Expense Reports Nos.** — Automatic numbering for posted reports.
 - **Expense Nos.** — Automatic numbering for individual expenses.
 
-## To set up posting groups
+## Configure notification settings
 
-Expense management uses two types of posting groups to control how entries are posted to the general ledger.
+When the agent is enabled, you can configure reminders about open expense reports on the **Communication** FastTab.
 
-### Employee posting groups
+- **Enable Open Report Notification** — Let [!INCLUDE [prod_short](../includes/prod_short.md)] notify you about open expense reports that might need attention.
+- **Open Report Notification Frequency** — Specify whether to be notified on a weekly, monthly, or custom basis:
 
-Assign employee posting groups to employees. They control how amounts related to the expense report header (reimbursements, prepayments) are posted. In addition to the standard fields, configure the following:
+   - For weekly notifications, choose the day of the week in the **Notification Day of Week** field.
+   - For monthly notifications, specify the number of the month in the **Notification Day in a Month** field.
+   - For custom schedules, enter a date formula in the **Custom Notification Formula** field. To learn more about date formulas, go to [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas).
+
+## Manage agent access control
+
+The **Agent Access Control** FastTab lets you specify which users can configure the agent and which users the agent can work on behalf of. When you enable the agent, the current user is automatically added to the access control list.
+
+### Set up posting groups
+
+Posting groups map entities to general ledger accounts. Examples of entities are customers, vendors, items, resources, and sales and purchase documents. Posting groups save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. To learn more about posting groups in general, go to [Set up posting groups](../finance-posting-groups.md).
+
+Expense management uses two types of posting groups to control how to post entries for expenses to the general ledger.
+
+#### Employee posting groups
+
+Employee posting groups control how amounts related to the expense report header (reimbursements, prepayments) are posted. 
+
+In addition to the standard fields, on the **Employee Posting Group** page, fill in the following fields:
 
 - **Expense Payable Cash Account** — The G/L account for expenses paid personally by the employee and due for reimbursement.
 - **Expense Payable Bank Paid Account** — The G/L account for expenses paid directly by the company through its bank accounts.
 - **Expense Payable Card Paid Account** — The G/L account for company credit card transactions that aren't reimbursed to the employee.
 - **Expense Prepayment Account** — The G/L account for cash advances or prepayments issued to the employee.
 
-### Expense posting groups
+The next step is to assign the group to employees who submit expenses. On the **Employees** page, fill in the **Employee Posting Group** field.
 
-Assign expense posting groups to expense categories. They control how individual expense lines are posted. Configure the following:
+#### Expense posting groups
+
+Expense posting groups control how to post individual expense lines. In addition to standard fields, on the **Expense Posting Group** page, fill in the following fields:
 
 - **Refundable Debit Account** — The G/L account for posting refundable expense amounts.
 - **Prepayment Credit Account** — The G/L account for crediting prepayments when applied to expenses.
 - **Expense Debit Rounding Account** — The G/L account for debit rounding adjustments.
 - **Expense Credit Rounding Account** — The G/L account for credit rounding adjustments.
 
-## To configure notification settings
-
-When the agent is enabled, you can configure reminders about open expense reports.
-
-1. In the **Communication** section, turn on **Enable Open Report Notification**.
-2. Choose a notification frequency: **Weekly**, **Monthly**, or **Custom**.
-3. For weekly notifications, choose the day of the week in the **Notification Day of Week** field.
-4. For monthly notifications, specify the day in **Notification Day in a Month**.
-5. For custom schedules, enter a date formula in the **Custom Notification Formula** field.
-
-## To manage agent access control
-
-The **Agent Access Control** FastTab on the setup page lets you specify which users can configure the agent and which users the agent can work on behalf of. When you enable the agent, the current user is automatically added to the access control list.
+The next step is to assign the group to expense categories. On the **Expense Categories** page, fill in the **Posting group** field.
 
 ## Related information
 

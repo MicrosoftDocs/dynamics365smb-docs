@@ -11,7 +11,7 @@ ms.reviewer: solsen
 
 # Troubleshoot common issues in Expense Agent
 
-If you run into problems while using [!INCLUDE[prod_short](includes/prod_short.md)] Expense Agent, the following sections can help you find a solution.
+If you run into problems while using [!INCLUDE[prod_short](../includes/prod_short.md)] Expense Agent, the following sections can help you find a solution.
 
 ## You can't sign in or access Expense Agent
 
@@ -56,4 +56,4 @@ If you get a message that the AI quota is exceeded, the system has reached its p
 - [Upload receipts in Expense Agent](expense-agent-upload-receipts.md)
 - [Expense policy compliance in Expense Agent](expense-agent-policy-compliance.md)
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

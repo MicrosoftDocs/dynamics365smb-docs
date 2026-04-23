@@ -12,11 +12,11 @@ ms.search.form: 6910, 6911, 6960, 6979, 6997
 
 # Create and submit expense reports
 
-An expense report groups related expenses into a single document that you submit for approval. After approval, the report is posted to the general ledger and reimbursement is processed. This article explains how to create, fill, and submit expense reports in [!INCLUDE[prod_short](includes/prod_short.md)].
+An expense report groups related expenses into a single document that you submit for approval. After approval, the report is posted to the general ledger and reimbursement is processed. This article explains how to create, fill, and submit expense reports in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## To create an expense report
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Reports**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Reports**, and then choose the related link.
 2. Choose **New** to open a blank **Expense Report** card.
 3. In the **Expense User No.** field, select the expense user.
 4. In the **Description** field, enter a description of the report, such as "March travel expenses."
@@ -94,4 +94,4 @@ You can print reports for documentation or filing purposes.
 [Post expense reports](expense-management-post-reports.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

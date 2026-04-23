@@ -12,7 +12,7 @@ ms.search.form: 6903, 6910, 6953, 6987, 6998
 
 # Post expense reports
 
-After an expense report is approved, you post it to the general ledger. Posting creates ledger entries for each expense line and processes reimbursement. This article explains how to post expense reports and review the results in [!INCLUDE[prod_short](includes/prod_short.md)].
+After an expense report is approved, you post it to the general ledger. Posting creates ledger entries for each expense line and processes reimbursement. This article explains how to post expense reports and review the results in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## To preview posting
 
@@ -36,7 +36,7 @@ After posting, the report moves to the **Posted Expense Reports** list and is no
 
 ## To view posted expense reports
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Posted Expense Reports**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Posted Expense Reports**, and then choose the related link.
 2. Select a posted report to view its details.
 
 The posted report shows all the expense lines, amounts, and dimensions that were recorded at the time of posting. You can also view attached documents and statistics.
@@ -45,7 +45,7 @@ The posted report shows all the expense lines, amounts, and dimensions that were
 
 Posted expense reports create expense ledger entries that you can use for analysis and reconciliation.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Ledger Entries**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Ledger Entries**, and then choose the related link.
 
 The list shows all posted expense entries with details like the expense user, category, amount, posting date, and document number.
 
@@ -66,4 +66,4 @@ When you post an expense report, the system creates the following entries:
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

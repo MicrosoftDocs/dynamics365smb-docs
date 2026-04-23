@@ -11,7 +11,7 @@ ms.reviewer: solsen
 
 # Review and edit your expenses
 
-After Expense Agent scans a receipt or you create an expense manually in [!INCLUDE[prod_short](includes/prod_short.md)], take a moment to review the details and make any corrections. Accurate expenses make the approval process faster and help you stay compliant with company policy.
+After Expense Agent scans a receipt or you create an expense manually in [!INCLUDE[prod_short](../includes/prod_short.md)], take a moment to review the details and make any corrections. Accurate expenses make the approval process faster and help you stay compliant with company policy.
 
 ## To edit an expense
 
@@ -65,4 +65,4 @@ After you save your corrections, the AI re-runs the processing flow. If everythi
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
 [Upload and process receipts with Expense Agent](expense-agent-upload-receipts.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

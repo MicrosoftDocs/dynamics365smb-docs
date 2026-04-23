@@ -12,11 +12,11 @@ ms.search.form: 6939, 6980, 6981
 
 # Approve expense reports
 
-When the approval workflow is enabled, submitted expense reports require manager review before they can be posted. This article explains how managers review, approve, or reject expense reports in [!INCLUDE[prod_short](includes/prod_short.md)].
+When the approval workflow is enabled, submitted expense reports require manager review before they can be posted. This article explains how managers review, approve, or reject expense reports in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## To view reports awaiting approval
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Manager Expense Reports**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Manager Expense Reports**, and then choose the related link.
 
 The list shows expense reports that are pending your review. If the approval workflow limits visibility, you see only reports assigned to you for approval.
 
@@ -55,7 +55,7 @@ The report returns to a status where it can be processed again.
 
 Administrators configure approval workflows on the **Expense Agent Setup** page.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
 2. Turn on **Enable Approval Workflow**.
 3. To configure approver assignments, open the **Expense Approvals Setup** page from the role center.
 
@@ -69,4 +69,4 @@ Administrators configure approval workflows on the **Expense Agent Setup** page.
 [Set up expense management](expense-management-setup.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -12,11 +12,11 @@ ms.search.form: 6974, 6996
 
 # Set up per diem and mileage allowances
 
-Organizations that reimburse travel expenses often use standard per diem rates for meals and lodging and mileage rates for driving. This article explains how to configure these allowances in [!INCLUDE[prod_short](includes/prod_short.md)].
+Organizations that reimburse travel expenses often use standard per diem rates for meals and lodging and mileage rates for driving. This article explains how to configure these allowances in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## To configure mileage rates
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
 2. In the **Allowance** section, set the **Standard Rate of Mileage** to your organization's reimbursement rate per distance unit.
 3. In the **Default Mileage UOM** field, choose the default unit of measure (for example, miles or kilometers).
 4. Turn on **Only Shortest Route** if your policy reimburses only the shortest route between locations.
@@ -83,4 +83,4 @@ For more information about recording per diem and mileage expenses, see [Create 
 [Create and manage expenses](expense-management-create-expenses.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

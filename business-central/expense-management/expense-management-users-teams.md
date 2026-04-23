@@ -12,11 +12,11 @@ ms.search.form: 6939, 6949, 6951, 6990
 
 # Set up expense users and teams
 
-Before employees can create expenses, they must be set up as expense users in [!INCLUDE[prod_short](includes/prod_short.md)]. A user with SUPER or admin rights must define which employees become expense users. You can also organize expense users into teams for easier management and reporting.
+Before employees can create expenses, they must be set up as expense users in [!INCLUDE[prod_short](../includes/prod_short.md)]. A user with SUPER or admin rights must define which employees become expense users. You can also organize expense users into teams for easier management and reporting.
 
 ## To create an expense user
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Users**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Users**, and then choose the related link.
 2. Choose **New** to open the **Expense User** card.
 3. In the **Employee No.** field, select the employee to link to this expense user.
 4. Assign the appropriate **Employee Posting Group** to control how the user's expenses are posted to the general ledger.
@@ -53,7 +53,7 @@ You can also view and edit all approval relationships on the **Expense Approval 
 
 Expense teams let you group users for reporting and management purposes.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Teams**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Teams**, and then choose the related link.
 2. Choose **New** to create a team.
 3. Enter a code and description for the team.
 4. Add expense users to the team.
@@ -66,4 +66,4 @@ Each team can have one team manager. Defining teams simplifies classification an
 [Create and manage expenses](expense-management-create-expenses.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

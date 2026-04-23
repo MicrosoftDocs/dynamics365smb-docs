@@ -12,7 +12,7 @@ ms.search.form: 6976, 6996
 
 # Set up expense management
 
-Before employees can record expenses and submit reports, an administrator must configure the expense management module in [!INCLUDE[prod_short](includes/prod_short.md)]. This article walks you through the key setup tasks.
+Before employees can record expenses and submit reports, an administrator must configure the expense management module in [!INCLUDE[prod_short](../includes/prod_short.md)]. This article walks you through the key setup tasks.
 
 ## To set up a shared mailbox
 
@@ -22,7 +22,7 @@ Setting up the shared mailbox for the expense agent works the same way as for ot
 
 ## To open expense agent setup
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
 
 The **Expense Agent Setup** page contains all configuration settings organized into the following groups.
 
@@ -120,4 +120,4 @@ The **Agent Access Control** FastTab on the setup page lets you specify which us
 [Set up per diem and mileage allowances](expense-management-per-diem-mileage.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

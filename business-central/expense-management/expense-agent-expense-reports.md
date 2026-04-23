@@ -11,7 +11,7 @@ ms.reviewer: solsen
 
 # Create and submit expense reports in Expense Agent
 
-[!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](../includes/prod_short.md)]
 
 *Expense reports* group related expenses together so you can submit them for review and approval as a batch. For example, you might create a report for a specific business trip or a monthly set of expenses. You can add expenses when you create a report or add them later.
 
@@ -70,4 +70,4 @@ The report status changes to **Submitted**, and your approver is notified. You c
 - [Edit and manage expenses](expense-agent-edit-expenses.md)
 - [Expense and report statuses](expense-agent-statuses.md)
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

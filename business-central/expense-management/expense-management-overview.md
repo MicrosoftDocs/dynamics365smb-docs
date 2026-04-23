@@ -12,7 +12,7 @@ ms.search.form: 6903, 6933, 6987, 6989, 6997
 
 # Manage employee expenses
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes an *expense management* module that helps organizations track, review, approve, and reimburse business expenses. Whether employees travel, entertain clients, or pay for supplies, the module gives everyone a clear, auditable process from receipt to ledger entry.
+[!INCLUDE[prod_short](../includes/prod_short.md)] includes an *expense management* module that helps organizations track, review, approve, and reimburse business expenses. Whether employees travel, entertain clients, or pay for supplies, the module gives everyone a clear, auditable process from receipt to ledger entry.
 
 ## With and without the expense agent
 
@@ -130,4 +130,4 @@ To start using expense management, an administrator must first set up the module
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Finance](finance.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

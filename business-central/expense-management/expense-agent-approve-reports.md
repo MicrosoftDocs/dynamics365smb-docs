@@ -11,7 +11,7 @@ ms.reviewer: solsen
 
 # Approve or send back expense reports
 
-[!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](../includes/prod_short.md)]
 
 As an approver, you review expense reports that employees submit. You can approve a report to move it forward in the process, or send it back to the employee with comments if something needs attention.
 
@@ -54,4 +54,4 @@ The report status changes back to **Draft**, and the employee is notified with y
 - [Create and submit expense reports](expense-agent-expense-reports.md)
 - [How expense policy compliance works](expense-agent-policy-compliance.md)
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

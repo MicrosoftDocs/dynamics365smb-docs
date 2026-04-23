@@ -11,7 +11,7 @@ ms.reviewer: solsen
 
 # How expense policy compliance works
 
-[!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](../includes/prod_short.md)]
 
 Expense Agent checks your expenses against your organization's policies so you can catch and fix issues before you submit. Policies are defined by your administrator in Business Central and are applied automatically as you work with expenses.
 
@@ -46,4 +46,4 @@ You can see the policy status of your expenses in several places:
 - [Edit and manage expenses](expense-agent-edit-expenses.md)
 - [Expense and report statuses](expense-agent-statuses.md)
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

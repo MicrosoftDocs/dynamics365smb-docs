@@ -11,7 +11,7 @@ ms.reviewer: solsen
 
 # Understand expense and report statuses
 
-[!INCLUDE[prod_short](includes/prod_short.md)] Expense Agent uses statuses to track where each expense and report is in the workflow. Knowing what each status means helps you understand what action to take next.
+[!INCLUDE[prod_short](../includes/prod_short.md)] Expense Agent uses statuses to track where each expense and report is in the workflow. Knowing what each status means helps you understand what action to take next.
 
 ## Expense statuses
 
@@ -50,4 +50,4 @@ You can see status badges in several places:
 - [Create and submit expense reports](expense-agent-expense-reports.md)
 - [Approve expense reports](expense-agent-approve-reports.md)
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

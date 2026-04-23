@@ -11,7 +11,7 @@ ms.reviewer: solsen
 
 # Upload receipts and let AI extract expense details
 
-When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](includes/prod_short.md)], AI scans the image and suggests key details like the vendor name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved.
+When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)], AI scans the image and suggests key details like the vendor name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved.
 
 ## To upload a receipt in the web app
 
@@ -77,4 +77,4 @@ You can continue working while receipts process — there's no need to wait on t
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
 [Review and edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

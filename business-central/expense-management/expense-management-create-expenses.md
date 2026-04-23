@@ -12,11 +12,11 @@ ms.search.form: 6974, 6975, 6988, 6989, 6992
 
 # Create and manage expenses
 
-When you incur a business expense, you record it in [!INCLUDE[prod_short](includes/prod_short.md)] as an individual expense. Each expense captures the amount, date, category, and supporting details like receipts or merchant information. After you record expenses, you can add them to an expense report for submission.
+When you incur a business expense, you record it in [!INCLUDE[prod_short](../includes/prod_short.md)] as an individual expense. Each expense captures the amount, date, category, and supporting details like receipts or merchant information. After you record expenses, you can add them to an expense report for submission.
 
 ## To create an expense
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expenses**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expenses**, and then choose the related link.
 2. Choose **New** to open a blank **Expense** card.
 3. In the **Expense User No.** field, select the expense user who incurred the expense.
 4. In the **Expense Category** field, choose the category that matches the type of expense.
@@ -128,4 +128,4 @@ When itemization is required, individual subcategory lines can have different re
 [Set up expense categories and rules](expense-management-categories-rules.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -12,13 +12,13 @@ ms.search.form: 6900, 6901, 6920, 6930, 6937, 6945, 6946, 6952, 6973
 
 # Set up expense categories and rules
 
-Expense categories classify the types of expenses employees can submit. Expense rules enforce your organization's spending policies automatically. This article explains how to set up both in [!INCLUDE[prod_short](includes/prod_short.md)].
+Expense categories classify the types of expenses employees can submit. Expense rules enforce your organization's spending policies automatically. This article explains how to set up both in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## To create expense categories
 
 An *expense category* represents a type of expense, such as meals, travel, or office supplies. Each category can have its own posting group, payment method, and detail requirements.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Categories**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Categories**, and then choose the related link.
 2. Choose **New** to create a category, or open an existing one to modify its setup.
 3. Fill in the following fields:
 
@@ -60,7 +60,7 @@ Each expense category can include one or more subcategories. Subcategories are e
 
 Expense locations define the geographic areas used for calculating per diem allowances. A simple country or region definition is often not sufficient because daily rates can vary within the same country due to differences in purchasing power or regional travel policies. Expense locations let you define country-level, regional, or city-level areas with distinct per diem rates.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Locations**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Locations**, and then choose the related link.
 2. Choose **New** or open an existing location to modify it.
 3. Fill in the following fields:
 
@@ -77,14 +77,14 @@ Once configured, these locations can be used in per diem calculations and refere
 
 Expense groups let you group categories for reporting and analysis.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Groups**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Groups**, and then choose the related link.
 2. Choose **New** and enter a code and description for each group.
 
 ## To create expense rules
 
 Expense rules define conditions that expenses must meet based on category and location. Rules can require justification, restrict merchants, or enforce amount limits.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Management Rules**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Management Rules**, and then choose the related link.
 2. Choose **New** to open the **Expense Rule Card**.
 3. Fill in the following fields:
 
@@ -116,7 +116,7 @@ Expense rules define conditions that expenses must meet based on category and lo
 
 Payment methods define how expenses were paid, such as cash, credit card, or company card.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Expense Payment Methods**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Payment Methods**, and then choose the related link.
 2. Choose **New** and create entries for each payment method your organization uses.
 
 ## How rules are applied
@@ -141,4 +141,4 @@ Expense management distinguishes between *rules* and *policies*:
 [Create and manage expenses](expense-management-create-expenses.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

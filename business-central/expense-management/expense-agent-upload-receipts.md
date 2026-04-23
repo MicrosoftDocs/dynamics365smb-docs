@@ -1,17 +1,17 @@
 ---
-title: Upload and Process Receipts with Expense Agent
-description: Upload receipts to Expense Agent and let AI automatically detect the vendor, amount, date, and category so you can quickly create accurate expenses.
+title: Upload Receipts and Create Mileage Expenses
+description: Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/22/2026
+ms.date: 04/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Upload receipts and let AI extract expense details
+# Upload receipts and create expenses in Expense Agent
 
-When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)], AI scans the image and suggests key details like the vendor name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved.
+When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)], AI scans the image and suggests key details like the vendor name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved. You can also create mileage expenses directly from the dashboard by entering your trip details.
 
 ## To upload a receipt in the web app
 
@@ -30,6 +30,25 @@ Expense Agent supports JPEG, PNG, and PDF files up to 10 MB, including printed i
 ## Automatic currency conversion
 
 When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. All totals displayed in the web app use the local currency, so you can easily track spending across different countries.
+
+## To create a mileage expense
+
+If you drove for business, you can create a mileage expense directly from the Expense Agent dashboard without uploading a receipt.
+
+The distance is calculated from the selected route, and the reimbursement amount is based on your company's standard mileage rate.
+
+1. On the dashboard, select **Create mileage expense** in the **Quick actions** panel.
+1. In the **Starting point** field, enter or search for the departure address.
+1. In the **Ending point** field, enter or search for the destination address.
+1. Review the route on the map. If multiple route alternatives are available, select the one that matches your actual trip.
+1. If you made a return trip on the same day, turn on **Same-day round trip** to include the return journey in the total distance.
+1. Review the **Mileage** and **Amount** fields.
+1. Select **Save**.
+
+The mileage expense is created and processed like any other expense. It's automatically added to an expense report.
+
+> [!NOTE]
+> The **Create mileage expense** action is only available if your administrator configured at least one expense category with mileage enabled in [!INCLUDE[prod_short](../includes/prod_short.md)]. If the action appears dimmed, ask your administrator to enable mileage on an expense category.
 
 ## To send a receipt by email
 

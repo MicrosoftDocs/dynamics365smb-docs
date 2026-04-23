@@ -3,7 +3,7 @@ title: Expense Agent Overview for Business Central
 description: Learn about Expense Agent, an AI-powered tool that helps employees capture receipts, track expenses, and submit expense reports in Business Central.
 author: brentholtorf
 ms.topic: overview
-ms.date: 04/22/2026
+ms.date: 04/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -18,6 +18,7 @@ Expense Agent is an AI-powered expense management app that makes it easy for emp
 Expense Agent handles the heavy lifting of expense management so you can focus on your work.
 
 - **Receipt scanning** — Upload a photo or file of your receipt, and AI detects the merchant, amount, date, and category for you. You review the details and make changes if needed.
+- **Mileage expenses** — Create mileage expenses directly from the dashboard. Enter your starting point and ending point, and the app calculates the distance and reimbursement amount based on your company's mileage rate.
 - **Expense tracking** — Keep all your business expenses in one place with full details, attachments, and policy status.
 - **Expense reports** — Group related expenses into reports and submit them for approval in a few steps.
 - **Policy compliance** — Get real-time feedback on whether your expenses meet company policy before you submit. Soft warnings let you proceed with a note, while hard blocks prevent submission until the issue is resolved.
@@ -51,13 +52,13 @@ Every expense moves through a straightforward lifecycle:
 
 Ready to dive in? Start with these articles:
 
-- [Upload receipts and let AI extract expense details](expense-agent-upload-receipts.md)
+- [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md)
 - [Review and edit your expenses](expense-agent-edit-expenses.md)
 
 ## Related information
 
 [Manage employee expenses in Business Central](expense-management-overview.md)  
-[Upload and process receipts with Expense Agent](expense-agent-upload-receipts.md)  
+[Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md)  
 [Review and edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
 [Create and submit expense reports](expense-agent-expense-reports.md)  
 [Approve or send back expense reports](expense-agent-approve-reports.md)  

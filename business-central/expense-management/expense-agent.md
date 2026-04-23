@@ -13,24 +13,13 @@ ms.search.form: 4400, 4410
 ---
 # Expense Agent overview
 
-The **Expense Agent** is designed around a simple principle: **_go where users already are_**.
+Expense Agent extends expense management by letting users submit receipts outside Business Central while financial processing remains in Business Central.
 
-Most employees who submit expenses do not work inside Business Central, and many do not even have a Business Central license. Instead, they live in email, on their mobile devices, or in lightweight web experiences. Traditional expense processes force these users into ERP screens, which creates friction and unnecessary complexity.
+Many people who submit expenses work mainly in email or mobile workflows and might not have a Business Central license. Expense Agent supports these users through a web app and shared mailbox intake, so they can submit receipts without using Business Central directly.
 
-The Expense Agent changes that model. It is the first Business Central agent intentionally built outside of the BC application to meet users directly in the channels and tools they naturally use to record spending—whether that’s emailing a receipt, taking a photo on their phone, or uploading a file through a simple web app. By operating in this external layer, the agent removes the need for expense users to enter Business Central at all, while still ensuring that all resulting financial data flows cleanly and securely into BC.
+Expense Agent uses AI to automate receipt intake, data extraction, categorization, and draft expense creation. Users and approvers still review and correct data before submission, approval, and posting.
 
-This new foundation enables:
-
-- A **dedicated, intuitive web experience** for expense submission and review
-- **Seamless ingestion** of receipts from email and mobile capture
-- Use by **employees without Dynamics 3765 Business Central licenses**, while maintaining full compliance and governance
-- A **modern, flexible AI-optimized architecture** that processes unstructured documents more efficiently than classic BC pages
-
-The Expense Agent is an AI‑powered capability that automates the most time‑intensive parts of expense management—such as receipt intake, data extraction, categorization, and expense line creation. It accepts receipts from multiple channels, including uploaded images and email submissions, while maintaining a human‑in‑the‑loop review process to ensure accuracy, compliance, and full user oversight.
-
-Its purpose is to reduce manual effort, eliminate repetitive data entry, and accelerate the reimbursement cycle, all while adhering to Business Central’s existing rules, permissions, and workflows. By automating the repetitive steps from end to end, the Expense Agent lightens the workload for employees, finance teams, and controllers, yet still preserves human control over all final financial outcomes.
-
-Together, these design choices deliver seamless automation, significantly lower user effort, and align naturally with the ways people already capture and manage expenses. And although the user-facing experience operates outside Business Central, all financial data, audit trails, and posting logic are processed securely within the BC environment—providing a streamlined employee experience without compromising ERP‑grade accuracy, governance, or control.
+This approach reduces manual entry while preserving existing Business Central controls for permissions, policy validation, audit trails, and posting.
 
 > [!NOTE]
 > [!INCLUDE[copilot-language-support-en-only](../includes/copilot-language-support-en-only.md)]

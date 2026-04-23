@@ -37,7 +37,7 @@ Setting up the shared mailbox for the expense agent works the same way as for ot
 Expense Agent monitors an email mailbox and can automatically create expenses from incoming emails, such as receipt confirmations and credit card statements.
 
 > [!NOTE]
-> Before you can enable the agent, you must accept the privacy notice and make sure the **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page.
+> Before you can enable the agent, you must accept the privacy notice and make sure the **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page. Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
 
 1. On the **Expense Agent Setup** page, turn on the **Enable agent** toggle.
 2. In the **Mailbox Account** field, choose the email account that the agent should monitor. You need permission to the mailbox to activate the agent.

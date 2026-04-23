@@ -425,7 +425,7 @@ ms.service: dynamics-365-business-central
 <!-- Expense Agent start -->
 
 <!-- Expense management start -->
-#### Expense management
+### Expense management
 #### [Manage employee expenses](expense-management/expense-management-overview.md)
 #### Setup
 ##### [Set up expense management](expense-management/expense-management-setup.md)

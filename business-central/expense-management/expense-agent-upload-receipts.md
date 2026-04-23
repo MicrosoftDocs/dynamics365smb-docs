@@ -16,11 +16,13 @@ When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/
 ## To upload a receipt in the web app
 
 1. Open [Expense Agent](https://app.expenses.dynamics.com/) and go to the **Expenses** page.
-1. Select **Upload Receipt**.
-1. Drag and drop your receipt file onto the upload area, or select **Browse** to choose a file from your device. You can also drop an entire folder of receipts to upload multiple files at once.
+1. Drag and drop your receipt file onto the **Upload receipt (or drop here)** area, or select it to browse for a file on your device. You can also drop an entire folder of receipts to upload multiple files at once.
 1. Wait for the upload to complete.
 
 Expense Agent supports JPEG, PNG, and PDF files up to 10 MB, including printed invoices, digital PDFs, and handwritten receipts such as taxi slips.
+
+> [!NOTE]
+> As the web app reminds you: "Files are processed using AI. Review for accuracy." Always check the extracted details before submitting an expense.
 
 > [!TIP]
 > Expense Agent uses AI to process receipts, so it works well with handwritten receipts like taxi receipts, not just printed or digital ones. If a field isn't detected correctly, you can always edit it manually.

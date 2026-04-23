@@ -40,7 +40,7 @@ The following table describes the statuses that an expense report can have.
 You can see status badges in several places:
 
 - **Expense list** — Each expense shows its current status next to the amount and date.
-- **Report list** — Each report shows its overall status.
+- **Report list** — The dashboard shows expense reports grouped into three tabs: **Drafts**, **Submitted**, and **Approved**. Each tab shows the count of reports in that status.
 - **Detail panels** — When you open an expense or report, the status appears at the top of the detail view.
 
 ## Related information

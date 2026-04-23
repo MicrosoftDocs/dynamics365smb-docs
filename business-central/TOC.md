@@ -421,29 +421,24 @@ ms.service: dynamics-365-business-central
 #### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
 #### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
 #### [Export data for auditing](finance-how-to-export-audit-files.md)
+
+<!-- Expense Agent start -->
+
+<!-- Expense management start -->
 ### Expense management
-#### [Expense Agent overview](expense-agent.md)
-#### Expense Agent web app
-##### [Manage expenses with Expense Agent](expense-agent-overview.md)
-##### [Upload and process receipts](expense-agent-upload-receipts.md)
-##### [Review and edit expenses](expense-agent-edit-expenses.md)
-##### [Create and submit expense reports](expense-agent-expense-reports.md)
-##### [Approve or send back expense reports](expense-agent-approve-reports.md)
-##### [Submit expenses using Copilot in Teams](expense-agent-copilot-teams.md)
-##### [How expense policy compliance works](expense-agent-policy-compliance.md)
-##### [Expense and report statuses](expense-agent-statuses.md)
-##### [Troubleshoot Expense Agent issues](expense-agent-troubleshoot.md)
-#### Business Central setup and processing
-##### [Manage employee expenses](expense-management-overview.md)
-##### [Set up expense management](expense-management-setup.md)
-##### [Set up expense categories and rules](expense-management-categories-rules.md)
-##### [Set up expense users and teams](expense-management-users-teams.md)
-##### [Set up per diem and mileage allowances](expense-management-per-diem-mileage.md)
-##### [Create and manage expenses](expense-management-create-expenses.md)
-##### [Create and submit expense reports](expense-management-submit-report.md)
-##### [Approve expense reports](expense-management-approve-reports.md)
-##### [Post expense reports](expense-management-post-reports.md)
-##### [How the expense agent processes emails](expense-management-agent.md)
+### [Manage employee expenses](expense-management/expense-management-overview.md)
+### Setup
+#### [Set up expense management](expense-management/expense-management-setup.md)
+#### [Set up expense categories and rules](expense-management/expense-management-categories-rules.md)
+#### [Set up expense users and teams](expense-management/expense-management-users-teams.md)
+#### [Set up per diem and mileage allowances](expense-management/expense-management-per-diem-mileage.md)
+### Use
+#### [Create and manage expenses](expense-management/expense-management-create-expenses.md)
+#### [Create and submit expense reports](expense-management/expense-management-submit-report.md)
+#### [Approve expense reports](expense-management/expense-management-approve-reports.md)
+#### [Post expense reports](expense-management/expense-management-post-reports.md)
+<!-- Expense management end -->
+
 <!-- CoA and G/L end -->
 
 ### Working with dimensions
@@ -2784,6 +2779,19 @@ ms.service: dynamics-365-business-central
 ## Summarize (preview)
 ### [Summarize records with Copilot](summarize-with-copilot.md)
 ### [Responsible AI FAQ for summarize](faqs-summarize.md)
+## Expense Agent
+### [Expense Agent overview](expense-management/expense-agent.md)
+### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
+### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
+### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
+### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
+### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
+### [Submit expenses using Copilot in Teams](expense-management/expense-agent-copilot-teams.md)
+### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
+### [How the expense agent processes emails](expense-management/expense-management-agent.md)
+### [Expense and report statuses](expense-management/expense-agent-statuses.md)
+### [Troubleshoot Expense Agent issues](expense-management/expense-agent-troubleshoot.md)
+
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)

@@ -15,7 +15,7 @@ When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/
 
 ## To upload a receipt in the web app
 
-1. Open [Expense Agent](https://app.expenses.dynamics.com/) and go to the **Expenses** page.
+1. Open [Expense Agent](https://app.expenses.dynamics.com/) and go to the **Expense reports** page.
 1. Drag and drop your receipt file onto the **Upload receipt (or drop here)** area, or select it to browse for a file on your device. You can also drop an entire folder of receipts to upload multiple files at once.
 1. Wait for the upload to complete.
 
@@ -67,14 +67,14 @@ After the upload, the expense status shows **Processing** while AI analyzes your
 
 AI suggests values for the following fields based on what it detects in your receipt:
 
-- **Vendor** — The business or merchant name.
+- **Merchant** — The business or merchant name.
 - **Amount** — The total amount on the receipt.
 - **Date** — The transaction date.
 - **Category** — The expense category, such as meals, travel, or office supplies.
 
 To review and adjust the details:
 
-1. Open the expense from the **Expenses** page.
+1. Open the expense.
 1. Check each suggested field and correct any values that don't look right.
 1. Add a description or any extra details if needed.
 1. Select **Save**.

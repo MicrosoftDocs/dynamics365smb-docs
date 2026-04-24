@@ -422,23 +422,6 @@ ms.service: dynamics-365-business-central
 #### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
 #### [Export data for auditing](finance-how-to-export-audit-files.md)
 
-<!-- Expense Agent start -->
-
-<!-- Expense management start -->
-### Expense management
-#### [Manage employee expenses](expense-management/expense-management-overview.md)
-#### Setup
-##### [Set up expense management](expense-management/expense-management-setup.md)
-##### [Set up expense categories and rules](expense-management/expense-management-categories-rules.md)
-##### [Set up expense users and teams](expense-management/expense-management-users-teams.md)
-##### [Set up per diem and mileage allowances](expense-management/expense-management-per-diem-mileage.md)
-#### Use
-##### [Create and manage expenses](expense-management/expense-management-create-expenses.md)
-##### [Create and submit expense reports](expense-management/expense-management-submit-report.md)
-##### [Approve expense reports](expense-management/expense-management-approve-reports.md)
-##### [Post expense reports](expense-management/expense-management-post-reports.md)
-<!-- Expense management end -->
-
 <!-- CoA and G/L end -->
 
 ### Working with dimensions
@@ -1345,6 +1328,21 @@ ms.service: dynamics-365-business-central
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Support for the Shopify connector](shopify/shopify-support.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+
+<!-- Expense management start -->
+## Expense management
+### [Expense management overview](expense-management/expense-management-overview.md)
+### Set up expense management
+#### [Set up expense categories and rules](expense-management/expense-management-categories-rules.md)
+#### [Set up general expense settings](expense-management/expense-management-setup.md)
+#### [Set up expense users and teams](expense-management/expense-management-users-teams.md)
+#### [Set up per diem and mileage allowances](expense-management/expense-management-per-diem-mileage.md)
+### Work with expenses
+#### [Create and manage expenses](expense-management/expense-management-create-expenses.md)
+#### [Create and submit expense reports](expense-management/expense-management-submit-report.md)
+#### [Approve expense reports](expense-management/expense-management-approve-reports.md)
+#### [Post expense reports](expense-management/expense-management-post-reports.md)
+<!-- Expense management end -->
 
 <!--Company Hub-->
 ## Company hub

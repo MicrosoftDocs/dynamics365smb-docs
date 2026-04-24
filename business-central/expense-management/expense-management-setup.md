@@ -45,7 +45,7 @@ Expense Agent monitors an email mailbox and can automatically create expenses fr
 
 ## Access expense management setup
 
-The **Expense Agent Setup** page organizes all configuration settings on FastTabs. With the exception of the settings that are specifically related to Expense Agent, the settings apply to expense management. The following sections describe the settings that are available on each FastTab.
+The **Expense Agent Setup** page organizes all configuration settings on FastTabs. Except for the settings that are related to Expense Agent, the settings apply to expense management. The following sections describe the settings that are available on each FastTab.
 
 To get started, [!INCLUDE [open-search-lowercase](../includes/open-search-lowercase.md)], enter **Expense Agent Setup**, and then choose the related link.
 
@@ -82,23 +82,23 @@ To learn more about categories and rules, go to [Set up expense categories and r
 
 Number series automatically generate unique identification codes for things such as new general ledger accounts, customer and vendor accounts, invoices, and so on. To learn more about number series, go to [Create number series](../ui-create-number-series.md).
 
-On the **Number Series** FastTab, assign number series for the following:
+On the **Number Series** FastTab, assign number series in the fields described in the following table.
 
-- **Expense User Nos.** — Automatic numbering for expense users.
-- **Expense Reports Nos.** — Automatic numbering for expense reports.
-- **Posted Expense Reports Nos.** — Automatic numbering for posted reports.
-- **Expense Nos.** — Automatic numbering for individual expenses.
+| Field | Description |
+| --- | --- |
+| **Expense User Nos.** | Automatic numbering for expense users. |
+| **Expense Reports Nos.** | Automatic numbering for expense reports. |
+| **Posted Expense Reports Nos.** | Automatic numbering for posted reports. |
+| **Expense Nos.** | Automatic numbering for individual expenses. |
 
 ## Configure notification settings
 
 When the agent is enabled, you can configure reminders about open expense reports on the **Communication** FastTab.
 
-- **Enable Open Report Notification** — Let [!INCLUDE [prod_short](../includes/prod_short.md)] notify you about open expense reports that might need attention.
-- **Open Report Notification Frequency** — Specify whether to be notified on a weekly, monthly, or custom basis:
-
-   - For weekly notifications, choose the day of the week in the **Notification Day of Week** field.
-   - For monthly notifications, specify the number of the month in the **Notification Day in a Month** field.
-   - For custom schedules, enter a date formula in the **Custom Notification Formula** field. To learn more about date formulas, go to [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas).
+| Field | Description |
+|---|---|
+| **Enable Open Report Notification** | Let [!INCLUDE [prod_short](../includes/prod_short.md)] notify you about open expense reports that might need attention. |
+| **Open Report Notification Frequency** | Specify whether to be notified on a weekly, monthly, or custom basis:<br><br>For weekly notifications, choose the day of the week in the **Notification Day of Week** field.<br>For monthly notifications, specify the number of the month in the **Notification Day in a Month** field.<br>For custom schedules, enter a date formula in the **Custom Notification Formula** field. To learn more about date formulas, go to [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas).|
 
 ## Manage agent access control
 
@@ -114,23 +114,27 @@ Expense management uses two types of posting groups to control how to post entri
 
 Employee posting groups control how amounts related to the expense report header (reimbursements, prepayments) are posted. 
 
-In addition to the standard fields, on the **Employee Posting Group** page, fill in the following fields:
+In addition to the standard fields, on the **Employee Posting Group** page, fill in fields described in the following table.
 
-- **Expense Payable Cash Account** — The G/L account for expenses paid personally by the employee and due for reimbursement.
-- **Expense Payable Bank Paid Account** — The G/L account for expenses paid directly by the company through its bank accounts.
-- **Expense Payable Card Paid Account** — The G/L account for company credit card transactions that aren't reimbursed to the employee.
-- **Expense Prepayment Account** — The G/L account for cash advances or prepayments issued to the employee.
+| Field | Description |
+| --- | --- |
+| **Expense Payable Cash Account** | The G/L account for expenses paid personally by the employee and due for reimbursement. |
+| **Expense Payable Bank Paid Account** | The G/L account for expenses paid directly by the company through its bank accounts. |
+| **Expense Payable Card Paid Account** | The G/L account for company credit card transactions that aren't reimbursed to the employee. |
+| **Expense Prepayment Account** | The G/L account for cash advances or prepayments issued to the employee. |
 
 The next step is to assign the group to employees who submit expenses. On the **Employees** page, fill in the **Employee Posting Group** field.
 
 #### Expense posting groups
 
-Expense posting groups control how to post individual expense lines. In addition to standard fields, on the **Expense Posting Group** page, fill in the following fields:
+Expense posting groups control how to post individual expense lines. In addition to standard fields, on the **Expense Posting Group** page, fill in the fields described in the following table.
 
-- **Refundable Debit Account** — The G/L account for posting refundable expense amounts.
-- **Prepayment Credit Account** — The G/L account for crediting prepayments when applied to expenses.
-- **Expense Debit Rounding Account** — The G/L account for debit rounding adjustments.
-- **Expense Credit Rounding Account** — The G/L account for credit rounding adjustments.
+| Field | Description |
+| --- | --- |
+| **Refundable Debit Account** | The G/L account for posting refundable expense amounts. |
+| **Prepayment Credit Account** | The G/L account for crediting prepayments when applied to expenses. |
+| **Expense Debit Rounding Account** | The G/L account for debit rounding adjustments. |
+| **Expense Credit Rounding Account** | The G/L account for credit rounding adjustments. |
 
 The next step is to assign the group to expense categories. On the **Expense Categories** page, fill in the **Posting group** field.
 

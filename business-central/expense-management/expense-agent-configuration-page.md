@@ -52,7 +52,7 @@ The following sections explain how to use **Configure Expense Agent** page to se
    The options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the pages to set the various options.
 1. When done configuring the options, turn on the **Active** toggle to activate the agent.
 
-  If you don't want to enable it now, skip this step. You can enable it later.
+   If you don't want to enable it now, skip this step. You can enable it later.
 1. Select **Save** to save your changes.
 
 If you activated the agent, the icon changes to ![Shows the Expense Agent icon](../media/expense-agent-icon.png) indicating it's ready to handle incoming expenses from the Expense Agent web app or email.

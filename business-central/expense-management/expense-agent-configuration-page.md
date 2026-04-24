@@ -46,10 +46,8 @@ The following sections explain how to set up the Expense Agent.
 ### Configure Expense Agent
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Expense Agent icon](media/expense-agent-unconfigured-icon.svg) **Expense Agent** icon > **Activate**.
-
-2. Follow the instructions
-
-3. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
+1. Follow the instructions on the page to configure the option you want.
+1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
    The options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the pages to set the various options.
 1. When done configuring the options, turn on the **Active** toggle to activate the agent.
@@ -61,24 +59,9 @@ If you activated the agent, the icon changes to ![Shows the Expense Agent icon](
 
 The ![Shows the Expense Agent icon](media/expense-agent-configured-icon.svg) icon indicates that agent is configured but not active.
 
-### Enable the agent
-
-1. On the **Expense Agent Setup** page, turn on the **Enable Agent** toggle.
-
-   The system checks that a mailbox is configured, then creates scheduled tasks to monitor the mailbox.
-
-## Test the setup
+<!--Test the setup
 
 After you configure the Expense Agent, test the setup to make sure everything works correctly.
-
-### Verify master data
-
-Make sure the following master data is configured:
-
-- At least one expense category exists.
-- Posting groups have all required G/L accounts.
-- At least one expense employee is configured.
-- Payment methods are configured with **Expense Report Type** turned on.
 
 ### Create a test expense
 
@@ -126,6 +109,7 @@ Consider the following best practices when setting up and using the Expense Agen
 - **Security considerations** - Limit who can approve expenses. Use teams for delegated approval. Enable anti-corruption attestation for compliance.
 - **Email agent monitoring** - Monitor scheduled task logs regularly. Set up error notifications. Test email integration thoroughly before going live.
 - **Approval workflows** - Define clear approval hierarchies. Set appropriate approval limits. Configure reminder notifications.
+-->
 
 ## Troubleshooting
 
@@ -176,7 +160,6 @@ Consider the following best practices when setting up and using the Expense Agen
 3. Confirm that the number series for posted expense reports is set.
 4. Verify the approval status (if approval workflow is enabled).
 5. Check that the source code **EXPENSE** exists in Source Code Setup.
-
 
 ## Related information
 

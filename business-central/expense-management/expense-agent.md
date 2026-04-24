@@ -14,7 +14,11 @@ ms.search.form: 4400, 4410
 
 # Expense Agent overview
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 The **Expense Agent** is an AI-powered agent that automates expense processing in Business Central. It handles receipt intake, data extraction, categorization, and expense line creation, then groups expenses into reports for review and approval.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Employees submit expenses through a dedicated web app at [https://app.expenses.dynamics.com/](https://app.expenses.dynamics.com/) or by forwarding receipts to a shared mailbox. Neither method requires a Business Central license. The agent processes the submitted receipts, extracts the relevant data, and creates expense records in Business Central. Users review the results and submit expense reports for approval through the web app.
 

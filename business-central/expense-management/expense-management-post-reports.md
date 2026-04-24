@@ -12,7 +12,11 @@ ms.search.form: 6903, 6910, 6953, 6987, 6998
 
 # Post expense reports
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 After an expense report is approved, you post it to the general ledger. Posting creates ledger entries for each expense line and processes reimbursement. This article explains how to post expense reports and review the results in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## To preview posting
 

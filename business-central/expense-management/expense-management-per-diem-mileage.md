@@ -12,7 +12,11 @@ ms.search.form: 6974, 6996
 
 # Set up per diem and mileage allowances
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 Organizations that reimburse travel expenses often use standard per diem rates for meals and lodging, and mileage rates for driving. This article explains how to configure these allowances in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Configure mileage rates
 

@@ -11,9 +11,11 @@ ms.reviewer: solsen
 
 # How expense policy compliance works
 
-[!INCLUDE[prod_short](../includes/prod_short.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Expense Agent checks your expenses against your organization's policies so you can catch and fix issues before you submit. Policies are defined by your administrator in [!INCLUDE [prod_short](../includes/prod_short.md)] and are applied automatically as you work with expenses.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What happens during policy validation
 

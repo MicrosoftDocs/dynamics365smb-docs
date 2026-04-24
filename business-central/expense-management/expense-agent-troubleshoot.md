@@ -11,7 +11,11 @@ ms.reviewer: solsen
 
 # Troubleshoot common issues in Expense Agent
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 If you run into problems while using [!INCLUDE[prod_short](../includes/prod_short.md)] Expense Agent, the following sections can help you find a solution.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## You can't sign in or access Expense Agent
 

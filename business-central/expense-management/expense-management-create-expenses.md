@@ -12,7 +12,11 @@ ms.search.form: 6974, 6975, 6988, 6989, 6992
 
 # Create and manage expenses
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 When you incur a business expense, you record it in [!INCLUDE[prod_short](../includes/prod_short.md)] as an individual expense. Each expense captures the amount, date, category, and supporting details like receipts or merchant information. After you record expenses, you can add them to an expense report for submission.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 If you use Expense Agent, however, the agent does almost all of that for you. The expense user uploads a receipt file in the web app, and voila, the agent handles the rest. Learn more at [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md).
 

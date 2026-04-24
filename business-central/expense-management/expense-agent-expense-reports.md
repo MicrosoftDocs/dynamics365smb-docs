@@ -11,9 +11,11 @@ ms.reviewer: solsen
 
 # Create and submit expense reports
 
-[!INCLUDE[prod_short](../includes/prod_short.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The Expense Agent allows grouping related expenses together so you can submit them for review and approval as a batch. For example, you might create a report for a specific business trip or a monthly set of expenses. You can add expenses when you create a report or add them later.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## To create an expense report
 

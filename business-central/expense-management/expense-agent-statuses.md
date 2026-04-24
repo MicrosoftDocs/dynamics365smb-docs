@@ -11,7 +11,11 @@ ms.reviewer: solsen
 
 # Understand expense and report statuses
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 [!INCLUDE[prod_short](../includes/prod_short.md)] Expense Agent uses statuses to track where each expense and report is in the workflow. Knowing what each status means helps you understand what action to take next.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Expense statuses
 

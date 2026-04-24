@@ -14,7 +14,11 @@ ms.collection:
 ---
 # Responsible AI FAQ for Expense Agent (preview)
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 These frequently asked questions (FAQ) describe the AI impact of Expense Agent feature in Business Central.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is Expense Agent? 
 

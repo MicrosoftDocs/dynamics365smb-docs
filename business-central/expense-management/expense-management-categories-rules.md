@@ -12,7 +12,11 @@ ms.search.form: 6900, 6901, 6920, 6930, 6937, 6945, 6946, 6952, 6973
 
 # Set up expense categories and rules
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 Expense categories classify the types of expenses employees can submit. Expense rules enforce your organization's spending policies automatically. This article explains how to set up both in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Set up expense payment methods
 

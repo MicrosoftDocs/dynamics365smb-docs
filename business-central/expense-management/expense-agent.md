@@ -11,6 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ms.search.form: 4400, 4410
 ---
+
 # Expense Agent overview
 
 The **Expense Agent** is designed around a simple principle: **_go where users already are_**.

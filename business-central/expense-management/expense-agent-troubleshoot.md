@@ -52,8 +52,8 @@ If you get a message that the AI quota is exceeded, the system has reached its p
 
 ## Related information
 
-- [Expense Agent overview](expense-agent-overview.md)
-- [Upload receipts in Expense Agent](expense-agent-upload-receipts.md)
-- [Expense policy compliance in Expense Agent](expense-agent-policy-compliance.md)
+[Expense Agent overview](expense-agent-overview.md)  
+[Upload receipts in Expense Agent](expense-agent-upload-receipts.md)  
+[Expense policy compliance in Expense Agent](expense-agent-policy-compliance.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

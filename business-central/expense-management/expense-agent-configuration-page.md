@@ -24,7 +24,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - The **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page. 
 
-  The agent is already activated if the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon.png) **Expense Agent** icon appears in the upper-right of the role center.
+  The agent is already activated if the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon appears in the upper-right of the role center.
 
   Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
 
@@ -45,7 +45,7 @@ The following sections explain how to use **Configure Expense Agent** page to se
 
 ### Configure the Expense Agent
 
-1. In the navigation bar at the upper right of the role center, select ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon.png) **Expense Agent** icon > **Activate**.
+1. In the navigation bar at the upper right of the role center, select ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon > **Activate**.
 1. Follow the instructions on the page to configure the options you want.
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
@@ -55,9 +55,9 @@ The following sections explain how to use **Configure Expense Agent** page to se
    If you don't want to enable it now, skip this step. You can enable it later.
 1. Select **Save** to save your changes.
 
-If you activated the agent, the icon changes to ![Shows the Expense Agent icon](../media/expense-agent-icon.png) indicating it's ready to handle incoming expenses from the Expense Agent web app or email.
+If you activated the agent, the icon changes to ![Shows the Expense Agent icon](../media/expense-agent-icon-small.png) indicating it's ready to handle incoming expenses from the Expense Agent web app or email.
 
-The ![Shows the Expense Agent icon](../media/expense-agent-configured-icon.png) icon indicates that the agent is configured but not active.
+The ![Shows the Expense Agent icon](../media/expense-agent-configured-icon-small.png) icon indicates that the agent is configured but not active.
 
 <!--Test the setup
 

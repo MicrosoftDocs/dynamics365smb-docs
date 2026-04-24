@@ -14,34 +14,34 @@ ms.search.form: 6903, 6910, 6953, 6987, 6998
 
 After an expense report is approved, you post it to the general ledger. Posting creates ledger entries for each expense line and processes reimbursement. This article explains how to post expense reports and review the results in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## To preview posting
+## Preview posting
 
 Before you post, you can review what entries the system will create.
 
 1. Open the **Expense Report** card for the approved report.
-2. Choose **Preview Posting**, or press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>.
+1. Choose **Preview Posting**, or press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>.
 
 The preview shows the general ledger entries, employee ledger entries, and other entries that will be created. If expenses are linked to projects, the preview also shows project ledger entries. Close the preview when you're done reviewing.
 
-## To post an expense report
+## Post an expense report
 
 1. Open the **Expense Report** card for the approved report.
-2. Choose **Post**, or press <kbd>F9</kbd>.
-3. Confirm the posting.
+1. Choose **Post**, or press <kbd>F9</kbd>.
+1. Confirm the posting.
 
 After posting, the report moves to the **Posted Expense Reports** list and is no longer editable. For details about the entries and documents that posting creates, see [What posting creates](#what-posting-creates).
 
 > [!TIP]
 > To post and immediately open a new blank expense report, choose **Post and New** instead, or press <kbd>Alt</kbd>+<kbd>F9</kbd>.
 
-## To view posted expense reports
+## View posted expense reports
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Posted Expense Reports**, and then choose the related link.
-2. Select a posted report to view its details.
+1. Select a posted report to view its details.
 
 The posted report shows all the expense lines, amounts, and dimensions that were recorded at the time of posting. You can also view attached documents and statistics.
 
-## To view expense ledger entries
+## View expense ledger entries
 
 Posted expense reports create expense ledger entries that you can use for analysis and reconciliation.
 

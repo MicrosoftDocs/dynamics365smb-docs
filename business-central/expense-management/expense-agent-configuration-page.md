@@ -22,7 +22,9 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - Your Business Central account has the **EXPENSE MGMT. ADMIN** permission set or equivalent permissions.
 
-- The **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page.
+- The **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page. 
+
+  The agent is already activated if you see the ![Shows the Payables Agent icon](media/expense-agent-icon.svg) **Expense Agent** icon in upper-right cornerthe top navigation menu of the role center
 
   Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
 
@@ -33,7 +35,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
   > [!IMPORTANT]
   > You need **Read and manage (Full Access)** permission on the shared mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
 
-- Custom number series, payment methods, and posting groups for expenses are configured (optional)
+- Number series, payment methods, and posting groups for expenses are configured (optional)
 
   You can choose to use the default setting during setup, which creates these entities for you.
 

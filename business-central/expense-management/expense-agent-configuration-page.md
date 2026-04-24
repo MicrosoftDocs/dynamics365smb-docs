@@ -16,7 +16,7 @@ The Expense Agent automates expense tracking, processing, and approval workflows
 
 Before you set up the Expense Agent, make sure the following prerequisites are met:
 
-- Anthropic model is enabled as subprocessor in the Microsoft 365 admin center.
+- The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center.
 
   Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
 
@@ -24,7 +24,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - The **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page. 
 
-  The agent is already activated if the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon.svg) **Expense Agent** icon appears in upper-right of the role center.
+  The agent is already activated if the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon.svg) **Expense Agent** icon appears in the upper-right of the role center.
 
   Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
 
@@ -35,18 +35,18 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
   > [!IMPORTANT]
   > You need **Read and manage (Full Access)** permission on the shared mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
 
-- Number series, payment methods, and posting groups for expenses are configured (optional)
+- Number series, payment methods, and posting groups for expenses are configured (optional).
 
-  You can choose to use the default setting during setup, which creates these entities for you.
+  You can choose to use the default settings during setup, which creates these entities for you.
 
 ## Set up the Expense Agent
 
-The following sections explain how to set up the Expense Agent.
+The following sections explain how to use **Configure Expense Agent** page to set up the Expense Agent.
 
-### Configure Expense Agent
+### Configure the Expense Agent
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon.svg) **Expense Agent** icon > **Activate**.
-1. Follow the instructions on the page to configure the option you want.
+1. Follow the instructions on the page to configure the options you want.
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
    The options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the pages to set the various options.
@@ -57,7 +57,7 @@ The following sections explain how to set up the Expense Agent.
 
 If you activated the agent, the icon changes to ![Shows the Expense Agent icon](../media/expense-agent-icon.svg) indicating it's ready to handle incoming expenses from the Expense Agent web app or email.
 
-The ![Shows the Expense Agent icon](../media/expense-agent-configured-icon.svg) icon indicates that agent is configured but not active.
+The ![Shows the Expense Agent icon](../media/expense-agent-configured-icon.svg) icon indicates that the agent is configured but not active.
 
 <!--Test the setup
 
@@ -163,5 +163,5 @@ Consider the following best practices when setting up and using the Expense Agen
 
 ## Related information
 
-[Set up email](admin-how-setup-email.md)  
+[Set up email](../admin-how-setup-email.md)  
 [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)

@@ -19,7 +19,7 @@ The Expense Agent allows grouping related expenses together so you can submit th
 
 ## To create an expense report
 
-1. In Expense Agent, select **Expense Reports** in the navigation.
+1. Open Expense Agent and go to **Expense Reports**.
 1. Select **New Report**.
 1. Enter a name for the report in the **Report Name** field.
 1. Optionally, add a description in the **Description** field.

@@ -24,7 +24,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - The **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page. 
 
-  The agent is already activated if the ![Shows the Expense Agent icon](media/expense-agent-unconfigured-icon.svg) **Expense Agent** icon appears in upper-right of the role center.
+  The agent is already activated if the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon.svg) **Expense Agent** icon appears in upper-right of the role center.
 
   Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
 
@@ -45,7 +45,7 @@ The following sections explain how to set up the Expense Agent.
 
 ### Configure Expense Agent
 
-1. In the navigation bar at the upper right of the role center, select ![Shows the Expense Agent icon](media/expense-agent-unconfigured-icon.svg) **Expense Agent** icon > **Activate**.
+1. In the navigation bar at the upper right of the role center, select ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon.svg) **Expense Agent** icon > **Activate**.
 1. Follow the instructions on the page to configure the option you want.
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
@@ -55,9 +55,9 @@ The following sections explain how to set up the Expense Agent.
   If you don't want to enable it now, skip this step. You can enable it later.
 1. Select **Save** to save your changes.
 
-If you activated the agent, the icon changes to ![Shows the Expense Agent icon](media/expense-agent-icon.svg) indicating it's ready to handle incoming expenses from the Expense Agent web app or email.
+If you activated the agent, the icon changes to ![Shows the Expense Agent icon](../media/expense-agent-icon.svg) indicating it's ready to handle incoming expenses from the Expense Agent web app or email.
 
-The ![Shows the Expense Agent icon](media/expense-agent-configured-icon.svg) icon indicates that agent is configured but not active.
+The ![Shows the Expense Agent icon](../media/expense-agent-configured-icon.svg) icon indicates that agent is configured but not active.
 
 <!--Test the setup
 
@@ -65,7 +65,7 @@ After you configure the Expense Agent, test the setup to make sure everything wo
 
 ### Create a test expense
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Expenses**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Expenses**, and then choose the related link.
 2. Create a new expense.
 3. Select a category, payment method, and amount.
 4. Verify that all fields populate correctly.
@@ -73,7 +73,7 @@ After you configure the Expense Agent, test the setup to make sure everything wo
 
 ### Test expense report creation
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Expense Reports**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Expense Reports**, and then choose the related link.
 2. Use the **Add Expenses** action to add expenses to a report.
 3. Verify grouping and calculation logic.
 4. Submit for approval (if approval workflow is enabled).

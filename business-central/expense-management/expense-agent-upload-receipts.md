@@ -11,7 +11,11 @@ ms.reviewer: solsen
 
 # Upload receipts and create expenses in Expense Agent
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)], AI scans the image and suggests key details like the merchant name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved. You can also create mileage expenses directly from the dashboard by entering your trip details.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## To upload a receipt in the web app
 

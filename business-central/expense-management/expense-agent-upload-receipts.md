@@ -11,11 +11,11 @@ ms.reviewer: solsen
 
 # Upload receipts and create expenses in Expense Agent
 
-When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)], AI scans the image and suggests key details like the vendor name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved. You can also create mileage expenses directly from the dashboard by entering your trip details.
+When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)], AI scans the image and suggests key details like the merchant name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved. You can also create mileage expenses directly from the dashboard by entering your trip details.
 
 ## To upload a receipt in the web app
 
-1. Open [Expense Agent](https://app.expenses.dynamics.com/) and go to the **Expense reports** page.
+1. Open Expense Agent and go to **Expense reports**.
 1. Drag and drop your receipt file onto the **Upload receipt (or drop here)** area, or select it to browse for a file on your device. You can also drop an entire folder of receipts to upload multiple files at once.
 1. Wait for the upload to complete.
 
@@ -59,7 +59,7 @@ You can also send receipts to Expense Agent by email. This is a convenient way t
 1. Attach one or more receipt files to the email. You can attach photos of paper receipts taken with your phone, PDF invoices, or scanned receipts.
 1. Send the email.
 
-Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses on the **Expenses** page.
+Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses in **Expenses**.
 
 After the upload, the expense status shows **Processing** while AI analyzes your receipt. When scanning finishes, the status changes to **Open** and the extracted details appear for your review. If the receipt passes validation, it's automatically added to a default expense report, so you don't need to create one manually.
 
@@ -91,7 +91,7 @@ Expense Agent keeps you updated as your receipt moves through processing:
 | **Processing** | AI is scanning your receipt and extracting details. |
 | **Open** | Scanning is complete. The expense is ready for your review. |
 
-You can continue working while receipts process — there's no need to wait on the page. Come back to the **Expenses** page to check on your uploads at any time.
+You can continue working while receipts process — there's no need to wait. Come back to **Expenses** to check on your uploads at any time.
 
 ## Related information
 

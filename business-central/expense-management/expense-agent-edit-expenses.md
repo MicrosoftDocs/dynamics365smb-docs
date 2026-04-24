@@ -11,7 +11,11 @@ ms.reviewer: solsen
 
 # Review and edit your expenses
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 After Expense Agent scans a receipt or you create an expense manually in [!INCLUDE[prod_short](../includes/prod_short.md)], take a moment to review the details and make any corrections. Accurate expenses make the approval process faster and help you stay compliant with company policy.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## To edit an expense
 

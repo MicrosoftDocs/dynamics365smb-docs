@@ -12,9 +12,17 @@ ms.search.form: 6974, 6975, 6988, 6989, 6992
 
 # Create and manage expenses
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 When you incur a business expense, you record it in [!INCLUDE[prod_short](../includes/prod_short.md)] as an individual expense. Each expense captures the amount, date, category, and supporting details like receipts or merchant information. After you record expenses, you can add them to an expense report for submission.
 
-## To create an expense
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+If you use Expense Agent, however, the agent does almost all of that for you. The expense user uploads a receipt file in the web app, and voila, the agent handles the rest. Learn more at [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md).
+
+This article describes how to enter an expense using [!INCLUDE [prod_short](../includes/prod_short.md)] only.
+
+## Create an expense
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expenses**, and then choose the related link.
 2. Choose **New** to open a blank **Expense** card.
@@ -28,27 +36,27 @@ When you incur a business expense, you record it in [!INCLUDE[prod_short](../inc
 10. In the **Currency Code** field, choose the currency if it differs from the local currency.
 
 > [!TIP]
-> If your organization uses expense rules, any violations appear in the **Rule Violations** factbox on the right side of the page. Review and address violations before submitting the expense in a report.
+> If your organization uses expense rules, any violations appear in the **Rule Violations** FactBox on the right side of the page. Review and address violations before submitting the expense in a report.
 
-## To attach a receipt
+## Attach a receipt
 
 You can attach receipt images or PDF files to an expense for documentation purposes.
 
-1. On the **Expense** card, the **Documents** factbox on the right side shows attached files.
-2. Choose the factbox to open the document attachment list and add files.
+1. On the **Expense** card, the **Attachments** pane in the FactBox shows attached files.
+2. Choose **Attachments** pane, choose **Documents**, and then choose **Upload Files**.
 
-If you attach a PDF, a **Preview** factbox displays the document directly on the expense card.
+If you attach a PDF, a **Preview** FactBox displays the document directly on the expense card.
 
-## To add itemizations
+## Add itemizations
 
 For expenses that require itemization (based on the category), you can break down the total amount into line items.
 
 1. On the **Expense** card, choose the **Itemizations** action.
 2. Add line items with the relevant details and amounts.
 
-## To add participants
+## Add participants
 
-For expense categories that require participants (such as business meals), you can list the attendees.
+For expense categories that require participants, such as business meals, you can list the attendees.
 
 1. On the **Expense** card, choose the **Participants** action.
 2. Add each participant with their name and type.

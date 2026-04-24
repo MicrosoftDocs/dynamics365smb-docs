@@ -12,7 +12,11 @@ ms.search.form: 6939, 6949, 6951, 6990
 
 # Set up expense users and teams
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 Before employees can create expenses, they must be set up as expense users in [!INCLUDE[prod_short](../includes/prod_short.md)]. A user with SUPER or admin rights must define which employees become expense users. You can also organize expense users into teams for easier management and reporting.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## To create an expense user
 

@@ -12,7 +12,11 @@ ms.search.form: 6939, 6980, 6981
 
 # Approve expense reports
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 When the approval workflow is enabled, submitted expense reports require manager review before they can be posted. This article explains how managers review, approve, or reject expense reports in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## To view reports awaiting approval
 

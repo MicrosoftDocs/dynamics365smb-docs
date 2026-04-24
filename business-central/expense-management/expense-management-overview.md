@@ -12,7 +12,11 @@ ms.search.form: 6903, 6933, 6987, 6989, 6997
 
 # Manage employee expenses
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 [!INCLUDE[prod_short](../includes/prod_short.md)] includes expense management features that help organizations track, review, approve, and reimburse business expenses. Whether employees travel, entertain clients, or pay for supplies, expense management gives everyone a clear, auditable process from receipt to ledger entry.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## With and without the expense agent
 

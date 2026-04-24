@@ -33,7 +33,7 @@ When you upload a receipt in a foreign currency, Expense Agent automatically con
 
 ## To create a mileage expense
 
-If you drove for business, you can create a mileage expense directly from the Expense Agent dashboard without uploading a receipt.
+If you drove for business, you can create a mileage expense directly from the Expense Agent without uploading a receipt.
 
 The distance is calculated from the selected route, and the reimbursement amount is based on your company's standard mileage rate.
 
@@ -43,7 +43,7 @@ The distance is calculated from the selected route, and the reimbursement amount
 1. Review the route on the map. If multiple route alternatives are available, select the one that matches your actual trip.
 1. If you made a return trip on the same day, turn on **Same-day round trip** to include the return journey in the total distance.
 1. Review the **Mileage** and **Amount** fields.
-1. Select **Save**.
+1. Select **Create**.
 
 The mileage expense is created and processed like any other expense. It's automatically added to an expense report.
 
@@ -59,7 +59,7 @@ You can also send receipts to Expense Agent by email. This is a convenient way t
 1. Attach one or more receipt files to the email. You can attach photos of paper receipts taken with your phone, PDF invoices, or scanned receipts.
 1. Send the email.
 
-Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses in **Expenses**.
+Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses in **Expense reports**.
 
 After the upload, the expense status shows **Processing** while AI analyzes your receipt. When scanning finishes, the status changes to **Open** and the extracted details appear for your review. If the receipt passes validation, it's automatically added to a default expense report, so you don't need to create one manually.
 
@@ -91,7 +91,7 @@ Expense Agent keeps you updated as your receipt moves through processing:
 | **Processing** | AI is scanning your receipt and extracting details. |
 | **Open** | Scanning is complete. The expense is ready for your review. |
 
-You can continue working while receipts process — there's no need to wait. Come back to **Expenses** to check on your uploads at any time.
+You can continue working while receipts process — there's no need to wait. Come back to **Expense reports** to check on your uploads at any time.
 
 ## Related information
 

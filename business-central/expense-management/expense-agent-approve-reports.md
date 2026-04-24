@@ -11,9 +11,11 @@ ms.reviewer: solsen
 
 # Approve or send back expense reports
 
-[!INCLUDE[prod_short](../includes/prod_short.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 As an approver, you review expense reports that employees submit. You can approve a report to move it forward in the process, or send it back to the employee with comments if something needs attention.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## To review a submitted expense report
 

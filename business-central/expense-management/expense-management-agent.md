@@ -12,7 +12,11 @@ ms.search.form: 6996
 
 # How the expense agent processes emails
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 The expense agent in [!INCLUDE[prod_short](../includes/prod_short.md)] automates parts of the expense management process by monitoring an email mailbox. It can detect expense-related emails, create expenses automatically, and send reminders about open expense reports.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What the agent does
 

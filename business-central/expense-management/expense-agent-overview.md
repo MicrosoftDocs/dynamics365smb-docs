@@ -11,7 +11,11 @@ ms.reviewer: solsen
 
 # Manage expenses with Expense Agent
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 Expense Agent is an AI-powered expense management app that makes it easy for employees to capture receipts, track spending, and submit expense reports in [!INCLUDE[prod_short](../includes/prod_short.md)]. Whether you're at your desk or on the go, Expense Agent helps you stay on top of business expenses with minimal effort.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What Expense Agent does
 

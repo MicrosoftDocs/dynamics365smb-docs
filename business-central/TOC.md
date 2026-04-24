@@ -2800,6 +2800,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
+## [FAQ for Expense Agent](expense-management/faqs-expense-agent.md)
 ## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for Payables Agent](faqs-payables-agent.md)

@@ -1,6 +1,6 @@
 ---
 title: Set Up Expense Management in Business Central
-description: Learn how to configure expense management settings including the expense agent, mailbox, number series, posting groups, and approval workflows.
+description: Learn how to configure expense management settings, including Expense Agent, mailbox, number series, posting groups, and approval workflows.
 author: brentholtorf
 ms.topic: how-to
 ms.date: 04/21/2026
@@ -28,13 +28,13 @@ To apply the default configuration, on the **Expense Agent Setup** page, choose 
 
 Expense Agent is an AI‑powered capability that automates the most time‑intensive parts of expense management. For example, receipt intake, data extraction, categorization, and expense line creation. It accepts receipts from multiple channels, including uploaded images and email submissions, while maintaining a human‑in‑the‑loop review process to ensure accuracy, compliance, and full user oversight. Learn more at [Expense Agent overview](expense-agent.md).
 
-Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without the expense agent](expense-management-overview.md#with-and-without-the-expense-agent).
+Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without Expense Agent](expense-management-overview.md#with-and-without-the-expense-agent).
 
 ### Set up a shared mailbox
 
 To let Expense Agent receive receipts by email, create a dedicated shared mailbox for your organization, for example, /expenses@contoso.com. Expense users can then forward receipts, scans, and PDFs to that address, and the agent processes them automatically.
 
-Setting up the shared mailbox for the expense agent works the same way as for other agents in [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Set up email](../admin-how-setup-email.md).
+Setting up the shared mailbox for Expense Agent works the same way as for other agents in [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Set up email](../admin-how-setup-email.md).
 
 ### Enable Expense Agent
 
@@ -44,8 +44,8 @@ Expense Agent monitors an email mailbox and can automatically create expenses fr
 > Before you can enable the agent, you must accept the privacy notice and make sure the **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page.
 
 1. On the **Expense Agent Setup** page, turn on the **Enable agent** toggle.
-2. In the **Mailbox Account** field, choose the email account that the agent should monitor. You need permission to the mailbox to activate the agent.
-3. On the **Agent Access Control** FastTab, select which users are permitted to use agent capabilities.
+1. In the **Mailbox Account** field, choose the email account that the agent should monitor. You need permission to the mailbox to activate the agent.
+1. On the **Agent Access Control** FastTab, select which users are permitted to use agent capabilities.
 
 ## Access expense management setup
 
@@ -72,7 +72,7 @@ The following table describes the settings on the **General** FastTab.
 The following table describes the settings on the **Rule & Controls** FastTab. These settings define expense policies.
 
 | Field | Description |
-|---|---|
+| --- | --- |
 | **Apply Rules** | Turn on to enforce expense management rules during submission. |
 | **Do Not Allow Expenses Older Than** | Restricts how far back expenses can be dated (for example, `-90D` for 90 days). |
 | **If Expense Is Older Than Allowed** | Choose what happens when an expense falls outside the allowed range: **Warn**, **Require Justification**, or **Block Submission**. |
@@ -100,7 +100,7 @@ On the **Number Series** FastTab, assign number series in the fields described i
 When the agent is enabled, you can configure reminders about open expense reports on the **Communication** FastTab.
 
 | Field | Description |
-|---|---|
+| --- | --- |
 | **Enable Open Report Notification** | Let [!INCLUDE [prod_short](../includes/prod_short.md)] notify you about open expense reports that might need attention. |
 | **Open Report Notification Frequency** | Specify whether to be notified on a weekly, monthly, or custom basis:<br><br>For weekly notifications, choose the day of the week in the **Notification Day of Week** field.<br>For monthly notifications, specify the number of the month in the **Notification Day in a Month** field.<br>For custom schedules, enter a date formula in the **Custom Notification Formula** field. To learn more about date formulas, go to [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas).|
 
@@ -141,6 +141,21 @@ Expense posting groups control how to post individual expense lines. In addition
 | **Expense Credit Rounding Account** | The G/L account for credit rounding adjustments. |
 
 The next step is to assign the group to expense categories. On the **Expense Categories** page, fill in the **Posting group** field.
+
+## Set up approval workflows
+
+> [!NOTE]
+> You only need to set up a workflow if you aren't using Expense Agent. The agent automatically uses a newer way to handle workflows, so you can skip this step.
+
+Administrators configure approval workflows on the **Expense Agent Setup** page.
+
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
+1. Turn on **Enable Approval Workflow**.
+1. To configure approver assignments, [!INCLUDE [open-search-lowercase](../includes/open-search-lowercase.md)], enter **Expense Approvals Setup**, and then choose the related line.
+1. On the **Expense Approval Setup** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> When the approval workflow is enabled, managers can only view reports where they're assigned as the approver, unless they have **Unlimited Expense Approval** permission.
 
 ## Related information
 

@@ -18,50 +18,52 @@ After an expense report is approved, you post it to the general ledger. Posting 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## To preview posting
+## Preview posting
 
-Before you post, you can review what entries the system will create.
+Before you post, you can review what entries [!INCLUDE [prod_short](../includes/prod_short.md)] creates.
 
 1. Open the **Expense Report** card for the approved report.
 2. Choose **Preview Posting**, or press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>.
 
-The preview shows the general ledger entries, employee ledger entries, and other entries that will be created. If expenses are linked to projects, the preview also shows project ledger entries. Close the preview when you're done reviewing.
+The preview shows the general ledger entries, employee ledger entries, and other entries in the report. If expenses link to projects, the preview also shows project ledger entries. Close the preview when you're done reviewing.
 
-## To post an expense report
+## Post an expense report
 
-1. Open the **Expense Report** card for the approved report.
+1. Open the **Expense Report** card for an approved report.
 2. Choose **Post**, or press <kbd>F9</kbd>.
 3. Confirm the posting.
 
-After posting, the report moves to the **Posted Expense Reports** list and is no longer editable. For details about the entries and documents that posting creates, see [What posting creates](#what-posting-creates).
+After you post a report, it moves to the **Posted Expense Reports** list and is no longer editable. To learn more about the entries and documents that posting creates, go to [What posting creates](#what-posting-creates).
 
 > [!TIP]
 > To post and immediately open a new blank expense report, choose **Post and New** instead, or press <kbd>Alt</kbd>+<kbd>F9</kbd>.
 
-## To view posted expense reports
+## View posted expense reports
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Posted Expense Reports**, and then choose the related link.
 2. Select a posted report to view its details.
 
-The posted report shows all the expense lines, amounts, and dimensions that were recorded at the time of posting. You can also view attached documents and statistics.
+The posted report shows all the expense lines, amounts, and dimensions that were recorded at the time of posting. You can also access attached documents and statistics.
 
-## To view expense ledger entries
+## View expense ledger entries
 
 Posted expense reports create expense ledger entries that you can use for analysis and reconciliation.
 
-1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Ledger Entries**, and then choose the related link.
+- [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Ledger Entries**, and then choose the related link.
 
 The list shows all posted expense entries with details like the expense user, category, amount, posting date, and document number.
 
 ## What posting creates
 
-When you post an expense report, the system creates the following entries:
+When you post an expense report, [!INCLUDE [prod_short](../includes/prod_short.md)] creates the following entries:
 
-- **Expense ledger entries** — One entry per expense line, recording the category, amount, and expense user.
-- **Employee ledger entries** — Records the reimbursable amounts owed to employees who paid out of pocket.
-- **G/L entries** — Posts expense amounts to the appropriate general ledger accounts based on the posting groups.
-- **Project ledger entries** — Created only for expense lines that have a **Project No.** and **Project Task No.** assigned.
-- **Sales invoices** — Created automatically for expense lines marked as **Billable** to a customer.
+| Entry | Description |
+|---|---|
+| **Expense ledger entries** | One entry per expense line, recording the category, amount, and expense user. |
+| **Employee ledger entries** | Records the reimbursable amounts owed to employees who paid out of pocket. |
+| **G/L entries** | Posts expense amounts to the appropriate general ledger accounts based on the posting groups. |
+| **Project ledger entries** | Created only for expense lines that have a **Project No.** and **Project Task No.** assigned. |
+| **Sales invoices** | Created automatically for expense lines marked as **Billable** to a customer. |
 
 ## Related information
 

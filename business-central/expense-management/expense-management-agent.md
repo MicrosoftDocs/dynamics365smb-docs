@@ -1,6 +1,6 @@
 ---
 title: How the Expense Agent Processes Emails
-description: Learn how the expense agent in Business Central monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
+description: Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 author: brentholtorf
 ms.topic: conceptual
 ms.date: 04/22/2026
@@ -10,17 +10,17 @@ ms.reviewer: solsen
 ms.search.form: 6996
 ---
 
-# How the expense agent processes emails
+# How Expense Agent processes emails
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The expense agent in [!INCLUDE[prod_short](../includes/prod_short.md)] automates parts of the expense management process by monitoring an email mailbox. It can detect expense-related emails, create expenses automatically, and send reminders about open expense reports.
+Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)] automates parts of the expense management process by monitoring an email mailbox. It can detect expense-related emails, create expenses automatically, and send reminders about open expense reports.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What the agent does
 
-The expense agent runs on a schedule and performs three tasks:
+Expense Agent runs on a schedule and performs three tasks:
 
 1. **Reads incoming emails** — The agent retrieves new messages from the configured mailbox and looks for expense-related content such as receipt confirmations and credit card statements.
 2. **Sends outgoing emails** — The agent processes queued messages, such as confirmations and responses to expense users.
@@ -49,14 +49,11 @@ Before the agent can process emails, an administrator must:
 
 When enabled, the agent sends periodic reminders to expense users who have expense reports in **Open** status. This helps ensure that reports are submitted on time.
 
-Administrators configure the reminder frequency (weekly, monthly, or custom) and schedule on the **Expense Agent Setup** page. For more information, see [Set up expense management](expense-management-setup.md).
+Administrators configure the reminder frequency (weekly, monthly, or custom) and schedule on the **Expense Agent Setup** page. Learn more at [Configure notification settings](expense-management-setup.md#configure-notification-settings).
 
 ## Security and access
 
-The agent works within the permissions assigned to it. Administrators control:
-
-- **Which users the agent can act for** — Defined in the **Agent Access Control** section of the setup page.
-- **Which users can configure the agent** — Also defined in the access control list.
+The agent works within the permissions assigned to it. Administrators control which users the agent can act for, and which users can configure the agent. These settings are available on the **Agent Access Control** FastTab of the **Expense Agent Setup** page.
 
 The agent only sends emails to users who are registered as expense users.
 

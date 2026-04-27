@@ -43,26 +43,24 @@ This imports all Entra ID users into the expense users table. After importing, o
 If your organization uses the approval workflow, you must define who can approve expense reports.
 
 1. Open the **Expense User Card** for the user who should act as an approver.
-2. Turn on the **Can Approve** field.
-3. In the subpage below the **Can Approve** field, add the expense users that this approver is responsible for.
+2. Turn on the **Can Approve** toggle.
+3. The **Can approve for these expense users** FastTab displays. Add the expense users that this approver is responsible for.
 
 > [!NOTE]
-> An expense user can act as an approver only if their email matches the **Authentication Email** on the **User Card** page. Approvers must have a Business Central license.
+> An expense user can act as an approver only if their email matches the **Authentication Email** on the **User Card** page. Approvers must have a [!INCLUDE [prod_short](../includes/prod_short.md)] license.
 
-The expense agent supports a simple approval process with one-to-many relationships. Each approver has a list of users they can approve. Interim approvals aren't supported.
+Expense Agent supports a simple approval process with one-to-many relationships. Each approver has a list of users they can approve. Interim approvals aren't supported.
 
 You can also view and edit all approval relationships on the **Expense Approval Setup** page.
 
 ## To organize expense users into teams
 
-Expense teams let you group users for reporting and management purposes.
+Expense teams let you group users for reporting and management purposes. Each team can have one team manager. Defining teams simplifies classification and approval structures.
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Teams**, and then choose the related link.
 2. Choose **New** to create a team.
 3. Enter a code and description for the team.
-4. Add expense users to the team.
-
-Each team can have one team manager. Defining teams simplifies classification and approval structures.
+4. To add expense users to the team, click the number in the **Number of Team Members** field to open the **Expense Users** page. The page is filtered to show only members of the selected team. Choose **New** to add members to the team.
 
 ## Related information
 

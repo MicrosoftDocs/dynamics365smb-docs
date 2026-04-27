@@ -46,7 +46,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 ## Configure Expense Agent
 
 Use the **Configure Expense Agent** page to configure and activate the agent.
-The page guides you through agent setup. You configure submission channels, access controls, defaults, and policies, then activate the agent with scheduled task creation and ERP registration. For detailed information on what happens at each stage, see [What the setup wizard does](#what-the-setup-wizard-does) later in this article.
+The page guides you through agent setup. You configure submission channels, access controls, defaults, and policies, then activate the agent to handle registration.
 
 1. In the upper-right corner of the role center, select the select the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon, and then select **Activate**.
 1. Follow the instructions onscreen to configure how the agent should behave.

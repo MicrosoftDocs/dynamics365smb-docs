@@ -22,8 +22,8 @@ Before employees can record expenses and submit reports, an administrator must c
 
 You can configure Expense Agent in two ways:
 
-- **Assisted setup (recommended)**: Use **Configure Expense Agent** to get started quickly with guided steps and validation checks. Learn more in [Set up the Expense Agent](expense-agent-configuration-page.md).
-- **Manual setup (advanced)**: Use the **Expense Agent Setup** page to configure each setting directly and fine-tune behavior after initial setup.
+- **Assisted setup (recommended)**: Use **Configure Expense Agent** to get started quickly with guided steps and validation checks. Learn more in [Use Expense Agent (recommended)](#use-expense-agent-recommended).
+- **Manual setup (advanced)**: Use the **Expense Agent Setup** page to configure each setting directly and fine-tune behavior after initial setup. Learn more in [Access expense management setup](#access-expense-management-setup).
 
 For most organizations, start with assisted setup, and then use this article for detailed settings and ongoing management.
 
@@ -33,31 +33,13 @@ It's optional, but we recommend that you start with the default configuration th
 
 To apply the default configuration, on the **Expense Agent Setup** page, choose **More options**, and then **Apply default settings**.
 
-## Use Expense Agent
+## Use Expense Agent (recommended)
 
 Expense Agent is an AI‑powered capability that automates the most time‑intensive parts of expense management. For example, receipt intake, data extraction, categorization, and expense line creation. It accepts receipts from multiple channels, including uploaded images and email submissions, while maintaining a human‑in‑the‑loop review process to ensure accuracy, compliance, and full user oversight. Learn more at [Expense Agent overview](expense-agent.md).
 
-Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without Expense Agent](expense-management-overview.md#with-and-without-expense-agent).
-
 If you haven't configured Expense Agent yet, we recommend that you use assisted setup first. Learn more in [Set up the Expense Agent](expense-agent-configuration-page.md).
 
-
-### Set up a shared mailbox
-
-To let Expense Agent receive receipts by email, create a dedicated shared mailbox for your organization, for example, /expenses@contoso.com. Expense users can then forward receipts, scans, and PDFs to that address, and the agent processes them automatically.
-
-Setting up the shared mailbox for Expense Agent works the same way as for other agents in [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Set up email](../admin-how-setup-email.md).
-
-### Enable Expense Agent
-
-Expense Agent monitors an email mailbox and can automatically create expenses from incoming emails, such as receipt confirmations and credit card statements.
-
-> [!NOTE]
-> Before you can enable the agent, you must accept the privacy notice and make sure the **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page. Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
-
-1. On the **Expense Agent Setup** page, turn on the **Enable agent** toggle.
-1. In the **Mailbox Account** field, choose the email account that the agent should monitor. You need permission to the mailbox to activate the agent.
-1. On the **Agent Access Control** FastTab, select which users are permitted to use agent capabilities.
+Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without Expense Agent](expense-management-overview.md#with-and-without-expense-agent).
 
 ## Access expense management setup
 
@@ -71,6 +53,8 @@ The following table describes the settings on the **General** FastTab.
 
 | Field | Description |
 | --- | --- |
+|**Enable agent**|Specifies whether Expense Agent can process expense submissions from email and the Expense Agent web app.|
+|**Mail Account**|Specifies the shared mailbox that the agent monitors. You need permission to the mailbox to activate the agent.|
 | **Exchange Rate for Expenses** | Controls whether foreign currency expenses use the rate from the expense date or the posting date. |
 | **Allow Grouping of Transactions in Report** | Determines whether similar transactions are grouped together in expense reports automatically by the agent. |
 | **Expense Report Grouping** | Defines how reports are grouped, for example by period. |

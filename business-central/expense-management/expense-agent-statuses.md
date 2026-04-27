@@ -22,10 +22,10 @@ ms.reviewer: solsen
 The following table describes the statuses that an individual expense can have.
 
 | Status | Description |
-|---|---|
+| --- | --- |
 | Processing | The receipt is being scanned and validated. You can't edit the expense yet. |
 | Open | The expense is ready for you to review and add to a report. |
-| Pending report | The expense is added to a draft report that hasn't been submitted yet. |
+| Pending report | The expense is added to a draft report that isn't submitted. |
 | Added to report | The expense is part of a submitted report and is moving through the approval workflow. |
 
 ## Expense report statuses
@@ -33,7 +33,7 @@ The following table describes the statuses that an individual expense can have.
 The following table describes the statuses that an expense report can have.
 
 | Status | Description |
-|---|---|
+| --- | --- |
 | Draft | The report is being prepared. You can add, remove, or edit expenses. |
 | Submitted | The report is sent for approval. You can't make changes until the reviewer responds. |
 | Approved | The reviewer approved the report. It's now ready for payment processing. |
@@ -41,11 +41,13 @@ The following table describes the statuses that an expense report can have.
 
 ## Where statuses appear
 
-You can see status badges in several places:
+Several pages show status badges.
 
-- **Expense list** — Each expense shows its current status next to the amount and date.
-- **Report list** — The dashboard shows expense reports grouped into three tabs: **Drafts**, **Submitted**, and **Approved**. Each tab shows the count of reports in that status.
-- **Detail panels** — When you open an expense or report, the status appears at the top of the detail view.
+| Pages | Description |
+| --- | --- |
+| Expense list | Each expense shows its current status next to the amount and date. |
+| Report list | The dashboard shows expense reports grouped into three tabs: **Drafts**, **Submitted**, and **Approved**. Each tab shows the count of reports in that status. |
+| Detail panels | When you open an expense or report, the status appears at the top of the detail view. |
 
 ## Related information
 

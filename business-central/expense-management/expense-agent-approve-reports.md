@@ -11,13 +11,15 @@ ms.reviewer: solsen
 
 # Approve or send back expense reports
 
-[!INCLUDE[prod_short](../includes/prod_short.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 As an approver, you review expense reports that employees submit. You can approve a report to move it forward in the process, or send it back to the employee with comments if something needs attention.
 
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
 ## To review a submitted expense report
 
-1. In Expense Agent, choose the **For My Approval** tab.
+1. Open Expense Agent and go to the **For My Approval** tab.
 1. Select the expense report you want to review.
 1. Review the report lines, including amounts, categories, and any attached receipts.
 1. Check the policy compliance summary for warnings or issues.

@@ -11,7 +11,11 @@ ms.reviewer: solsen
 
 # Troubleshoot common issues in Expense Agent
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 If you run into problems while using [!INCLUDE[prod_short](../includes/prod_short.md)] Expense Agent, the following sections can help you find a solution.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## You can't sign in or access Expense Agent
 
@@ -52,8 +56,8 @@ If you get a message that the AI quota is exceeded, the system has reached its p
 
 ## Related information
 
-- [Expense Agent overview](expense-agent-overview.md)
-- [Upload receipts in Expense Agent](expense-agent-upload-receipts.md)
-- [Expense policy compliance in Expense Agent](expense-agent-policy-compliance.md)
+[Expense Agent overview](expense-agent-overview.md)  
+[Upload receipts in Expense Agent](expense-agent-upload-receipts.md)  
+[Expense policy compliance in Expense Agent](expense-agent-policy-compliance.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

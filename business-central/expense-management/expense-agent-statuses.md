@@ -11,7 +11,11 @@ ms.reviewer: solsen
 
 # Understand expense and report statuses
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 [!INCLUDE[prod_short](../includes/prod_short.md)] Expense Agent uses statuses to track where each expense and report is in the workflow. Knowing what each status means helps you understand what action to take next.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Expense statuses
 
@@ -45,9 +49,9 @@ You can see status badges in several places:
 
 ## Related information
 
-- [Expense Agent overview](expense-agent-overview.md)
-- [Edit expenses in Expense Agent](expense-agent-edit-expenses.md)
-- [Create and submit expense reports](expense-agent-expense-reports.md)
-- [Approve expense reports](expense-agent-approve-reports.md)
+[Expense Agent overview](expense-agent-overview.md)  
+[Edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
+[Create and submit expense reports](expense-agent-expense-reports.md)  
+[Approve expense reports](expense-agent-approve-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

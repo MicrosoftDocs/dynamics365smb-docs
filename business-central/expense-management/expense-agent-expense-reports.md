@@ -9,15 +9,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Create and submit expense reports in Expense Agent
+# Create and submit expense reports
 
-[!INCLUDE[prod_short](../includes/prod_short.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-*Expense reports* group related expenses together so you can submit them for review and approval as a batch. For example, you might create a report for a specific business trip or a monthly set of expenses. You can add expenses when you create a report or add them later.
+The Expense Agent allows grouping related expenses together so you can submit them for review and approval as a batch. For example, you might create a report for a specific business trip or a monthly set of expenses. You can add expenses when you create a report or add them later.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## To create an expense report
 
-1. In Expense Agent, select **Expense Reports** in the navigation.
+1. Open Expense Agent and go to **Expense Reports**.
 1. Select **New Report**.
 1. Enter a name for the report in the **Report Name** field.
 1. Optionally, add a description in the **Description** field.

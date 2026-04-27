@@ -30,6 +30,7 @@ Expense Agent is an AI‑powered capability that automates the most time‑inten
 
 Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without Expense Agent](expense-management-overview.md#with-and-without-the-expense-agent).
 
+
 ### Set up a shared mailbox
 
 To let Expense Agent receive receipts by email, create a dedicated shared mailbox for your organization, for example, /expenses@contoso.com. Expense users can then forward receipts, scans, and PDFs to that address, and the agent processes them automatically.

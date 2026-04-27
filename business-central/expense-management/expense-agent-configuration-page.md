@@ -254,41 +254,12 @@ The sections below describe each wizard field, organized by the logical groups t
 - Confirm that the mailbox account is configured correctly.
 - Ensure that Email Connector v4 is installed and configured.
 - Check scheduler task entries for errors.
-- Verify that the user has permission to create background tasks.
-
-### Expenses failing validation
-
-**Problem:** Expenses can’t be saved or submitted.
-
-**Resolution:**
-- Check the age of the expense against configured limits.
-- Verify that categories, posting groups, and payment methods are configured and active.
-- Confirm that the employee is set up as an expense user.
-
-### Per diem not calculating
-
-**Problem:** Per diem amounts aren’t generated.
-
-**Resolution:**
-- Verify that per diem calculation isn’t set to **None**.
-- Confirm that per diem rates are configured.
-- Check minimum hours and rounding settings.
+- Review the **EA Scheduler Task** table for errors.
+- Verify that the user has **Can Create Task** permission.
 
 ### You can't turn off the agent
 
 **Problem:** When you turn off the **Active** toggle, you get the message: Failed to unregister environment from Expense Agent service. Please try again or contact support.
-
-### Agent not processing emails
-
-**Problem:** Scheduled task isn't running or finding emails.
-
-**Solutions:**
-
-1. Verify that **Enable Agent** is turned on.
-2. Check that the mailbox account is configured correctly.
-3. Confirm that Email Connector v4 is installed and configured.
-4. Review the **EA Scheduler Task** table for errors.
-5. Verify that the user has **Can Create Task** permission.
 
 ### Expenses failing validation
 

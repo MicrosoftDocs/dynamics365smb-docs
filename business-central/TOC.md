@@ -2780,7 +2780,11 @@ ms.service: dynamics-365-business-central
 ### [Summarize records with Copilot](summarize-with-copilot.md)
 ### [Responsible AI FAQ for summarize](faqs-summarize.md)
 ## Expense Agent (preview)
-### [Expense Agent overview](expense-management/expense-agent.md)
+### Expense Agent overview
+#### [Overview](expense-management/expense-agent.md)
+#### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
+#### [How the expense agent processes emails](expense-management/expense-management-agent.md)
+#### [Expense and report statuses](expense-management/expense-agent-statuses.md)
 ### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
 ### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
 ### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
@@ -2788,9 +2792,6 @@ ms.service: dynamics-365-business-central
 ### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
 ### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
 <!--### [Submit expenses using Copilot in Teams](expense-management/expense-agent-copilot-teams.md)-->
-### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
-### [How the expense agent processes emails](expense-management/expense-management-agent.md)
-### [Expense and report statuses](expense-management/expense-agent-statuses.md)
 ### [Troubleshoot Expense Agent issues](expense-management/expense-agent-troubleshoot.md)
 
 # Responsible AI

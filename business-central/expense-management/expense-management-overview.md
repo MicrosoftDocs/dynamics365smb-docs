@@ -119,7 +119,7 @@ The license you need depends on how you interact with expense management:
 [Manage expenses with Expense Agent web app](expense-agent-overview.md)  
 [Set up expense management](expense-management-setup.md)  
 [Create and manage expenses](expense-management-create-expenses.md)  
-[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
-[Finance](finance.md)  
+[Record and reimburse employees' expenses](../finance-how-record-reimburse-employee-expenses.md)  
+[Financial management](../finance.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

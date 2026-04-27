@@ -69,7 +69,7 @@ When you post an expense report, [!INCLUDE [prod_short](../includes/prod_short.m
 
 [Create and submit expense reports](expense-management-submit-report.md)  
 [Approve expense reports](expense-management-approve-reports.md)  
-[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
+[Record and reimburse employees' expenses](../finance-how-record-reimburse-employee-expenses.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

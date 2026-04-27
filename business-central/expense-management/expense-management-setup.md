@@ -28,7 +28,7 @@ To apply the default configuration, on the **Expense Agent Setup** page, choose 
 
 Expense Agent is an AI‑powered capability that automates the most time‑intensive parts of expense management. For example, receipt intake, data extraction, categorization, and expense line creation. It accepts receipts from multiple channels, including uploaded images and email submissions, while maintaining a human‑in‑the‑loop review process to ensure accuracy, compliance, and full user oversight. Learn more at [Expense Agent overview](expense-agent.md).
 
-Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without Expense Agent](expense-management-overview.md#with-and-without-the-expense-agent).
+Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without Expense Agent](expense-management-overview.md#with-and-without-expense-agent).
 
 ### Set up a shared mailbox
 

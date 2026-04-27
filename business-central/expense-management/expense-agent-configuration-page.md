@@ -12,7 +12,16 @@ ms.reviewer: jswymer
 
 The Expense Agent helps automate expense tracking, processing, and approval workflows in Dynamics 365 Business Central. After you set it up, employees can submit expenses through email or the Expense Agent web app, and the agent creates expense reports and applies configured rules automatically.
 
-This article explains how to set up the Expense Agent by using the **Configure Expense Agent** page.
+This article explains how to set up the Expense Agent by using the **Configure Expense Agent** assisted setup.
+
+## Choose your setup path
+
+You can configure Expense Agent in two ways:
+
+- **Assisted setup (recommended)**: Use **Configure Expense Agent** for guided onboarding, quick activation, and built-in validation checks.
+- **Manual setup (advanced)**: Use the **Expense Agent Setup** page to configure settings directly and manage detailed options after initial setup. Learn more in [Set up expense management](expense-management-setup.md).
+
+For most organizations, assisted setup is the best way to get started quickly.
 
 ## Prerequisites
 
@@ -62,7 +71,7 @@ After configuration, the Expense Agent icon indicates the agent’s status:
 
 ## What the configuration page does
 
-The **Configure Expense Agent** page guides you through the choices required to prepare the Expense Agent for use in your Business Central environment.
+The **Configure Expense Agent** assisted setup guides you through the choices required to prepare the Expense Agent for use in your Business Central environment.
 
 The guide helps you:
 
@@ -76,6 +85,17 @@ When you activate the agent, Business Central verifies that all required conditi
 
 If you deactivate the agent later, Business Central stops processing incoming expenses and disables background processing. Your configuration settings are retained so that you can reactivate the agent without reconfiguring it.
 
+The assisted setup configures the following areas:
+
+- **Access and submission**: Configure receipt submission channels, mailbox account, and who can configure the agent or work on behalf of users.
+- **Accounting defaults**: Apply number series, payment methods, posting groups, and expense categories. Some options become locked after defaults are applied.
+- **Management defaults**: Apply default expense locations and management rules. Rule defaults depend on locations.
+- **Rules and controls**: Configure policy enforcement such as required receipt number, required merchant name, and anti-corruption attestation visibility.
+- **Communication**: Configure open-report reminder behavior and notification frequency.
+- **Mileage and per diem**: Configure mileage rate/UOM and per diem calculation options, including partial-day settings.
+
+For complete field-by-field reference and advanced options on the **Expense Agent Setup** page, go to [Set up expense management](expense-management-setup.md).
+
 ## After you finish setup
 
 After the Expense Agent is active:
@@ -87,161 +107,6 @@ After the Expense Agent is active:
 - Managers and approvers can review and approve expense reports in Business Central and the Expense Agent web app.
 
 You can return to the **Configure Expense Agent** page at any time to update settings, apply other defaults, or deactivate and reactivate the agent.
-
-For detailed descriptions of individual setup options, validation rules, and operational limits, see [Wizard fields and options by group](#wizard-fields-and-options-by-group-admin-details) later in this article.
-
-## Wizard fields and options by group (admin details)
-
-The sections below describe each wizard field, organized by the logical groups that match the wizard interface. Each field includes details about dependencies, validation rules, operational limits, and how it affects runtime behavior and integration with backend codeunits. Some fields become locked after defaults are applied; see the related default sections for details. To configure fields that aren't visible in the wizard (for example, age handling formulas, per diem location rates, and advanced scheduling), use the full **Expense Agent Setup** page.
-
-### Access and submission
-
-#### Submission channels
-
-- **Enable sending email with receipts**
-  - Enables mailbox selection and notification controls in the wizard UI.
-  - Admin note: backend dispatch is primarily gated by **Enable Agent** and a valid mailbox account; keep this option aligned with your operational intent.
-
-- **Mailbox account**
-  - Stores **Email Account ID**, **Email Connector**, and **Email Address** used by retrieval and outbound mail.
-  - Wizard filters mailbox selection to **Email Connector v4** accounts.
-  - If the selected mailbox is no longer valid, setup clears mailbox fields and disables the agent.
-  - If the mailbox changes while agent is enabled, scheduler is recreated on save.
-
-#### Who can access
-
-- **Users** (Agent Access Control part)
-  - Controls who can configure and who can work on behalf.
-  - On activation, current user is auto-added with both permissions if missing.
-
-### Use accounting defaults
-
-- **Number series**
-  - Creates and assigns default series for expenses, expense users, expense reports, and posted expense reports.
-  - Sets **No. Series Applied**; once set, wizard control is locked.
-
-- **Payment methods**
-  - Creates seed methods (Card, Cash, Bank) when not already represented.
-  - Sets **Payment Methods Applied** and locks this option afterward.
-
-- **Expense posting groups**
-  - Creates default posting setup and employee posting setup dependencies.
-  - Sets **Posting Groups Applied** and locks afterward.
-  - In UI mode, posting-group defaults can optionally copy existing employees into Expense Users.
-
-- **Apply default expense categories and subcategories**
-  - Requires posting groups.
-  - If selected while posting groups aren't yet applied, wizard autoselects posting groups.
-  - Sets **Exp. Categories Applied** and locks afterward.
-
-### Use management defaults
-
-- **Expense locations**
-  - Creates location master data defaults.
-  - Sets **Exp. Locations Applied** and locks afterward.
-
-- **Apply default management rules**
-  - Creates default rule headers and conditions.
-  - Depends on locations.
-  - If selected while locations aren't selected/applied, wizard autoselects locations.
-  - Sets **Management Rules Applied** and locks afterward.
-
-### Rules and controls
-
-- **Enforce management rules** (**Use Rules**)
-  - Enables category/location rule enforcement during expense and expense report line validation.
-  - Important: per-diem flows still run rule application logic even when this switch is off.
-
-- **Require receipt number**
-  - Adds validation violations when receipt number is blank on expenses and report lines.
-
-- **Require merchant name**
-  - Adds validation violations when merchant name is blank on expenses and report lines.
-
-- **Display anti-corruption attestation**
-  - Controls visibility of attestation section on expense report pages and manager approval views.
-  - Admin note: this setting controls display/collection; it isn't implemented as a hard post/submit block by setup validation itself.
-
-    > [!NOTE]
-    > The configuration hides age-related controls, but setup contains these fields and logic references:
-    > - **Do Not Allow Exp. Older Than** (date formula, default `<3M>` in default setup)
-    > - **If Exp. Is Older Than Allowed** (warning/justification/error enum)
-    >
-    > In current code paths, age formula is used in duplicate-detection range behavior for posted report lines; the handling enum is present but not wired as a direct submit-block path in the wizard flow.
-
-### Communication
-
-- **Notify users about unsubmitted reports**
-  - Enables reminder processing for users with open expense reports.
-  - Wizard allows it only when email with receipts is enabled and mailbox exists.
-
-- **Notification frequency**
-  - Options: **Daily**, **Weekly**, **Monthly**, **Custom**.
-  - Changing frequency resets dependent schedule fields in setup (day-of-week, day-in-month, custom formula) to keep valid combinations.
-  - Wizard exposes frequency; full scheduling fields are available on the full **Expense Agent Setup** page.
-
-- Runtime scheduling behavior
-  - First run initializes last-notification timestamp and doesn't send immediately.
-  - Next runs calculate next due time from frequency settings and send one reminder per expense user with open reports.
-
-### Mileage expenses
-
-- **Rate per unit** (**Standard Rate of Mileage**)
-  - Drives mileage amount autocalculation in expense and report lines.
-  - Validation checks calculated amount consistency against entered amount.
-
-- **Default unit of distance** (**Default Mileage UOM**)
-  - Autopopulates mileage unit when missing.
-  - Rule validation enforces UOM alignment for mileage-required entries.
-  - Assist lookup is constrained to standard mileage UOM candidates.
-
-### Per diem expenses
-
-- **Per diem calculation** (**Full Per-Diem Calculation**)
-  - Options: **None**, **Full Calendar Day**, **24-hour Rolling Period**, **Overnight Stay**.
-  - Changing option autoadjusts related settings:
-    - **None** resets partial-day settings and minimum hours.
-    - Full-day/rolling/overnight enforce compatible partial-day rule patterns.
-
-- **Rounding precision**
-  - Used in per-diem hour calculations and amount rounding behavior.
-
-- **Minimum hours**
-  - Only valid for **24-hour Rolling Period** and **Overnight Stay**.
-  - Invalid combinations are blocked by setup validation.
-
-#### Partial day
-
-- **Rule** (**Partial Day Rules**)
-  - **Flat Percentage of Full Rate** or **Based on Eligible Hours**.
-  - Must match the selected full per-diem method (validated in setup).
-
-- **Partial day minimum hours**
-  - Minimum hours before partial-day amount applies.
-
-- **Partial day percentage**
-  - Percentage multiplier used for partial-day payout.
-
-- **Breakfast/Lunch/Dinner reduction (%)**
-  - Copied into generated per-diem detail lines and used as meal deductions.
-
-- Runtime detail
-  - Per-diem calculation uses date spans, selected method, and a 1% hour tolerance in threshold comparisons.
-
-### Active toggle and save behavior
-
-- The **Active** toggle comes from the embedded agent setup part and maps to enabled/disabled agent state.
-- On **Update**, wizard save sequence applies changes, defaults, activation/deactivation integration calls, and scheduler updates.
-- If enabling without mailbox, wizard shows warning and requires confirmation to continue.
-- Activation prerequisites include applied defaults for posting groups/categories and required number series values.
-
-### Operational limits to plan for
-
-- Scheduler creates one agent task and one recovery task; each run reschedules itself.
-- Email retrieval is capped at **100 processed emails per 24 hours**.
-- Retrieval requests load up to **50 emails per pull**.
-- Outbound outbox processing sends up to **25 emails per dispatcher run**.
-- Outbound retries stop at **5 attempts**, then message status changes to **Failed**.
 
 ## Troubleshooting
 

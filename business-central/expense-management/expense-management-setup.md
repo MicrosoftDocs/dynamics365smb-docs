@@ -18,6 +18,15 @@ Before employees can record expenses and submit reports, an administrator must c
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
+## Choose your setup path
+
+You can configure Expense Agent in two ways:
+
+- **Assisted setup (recommended)**: Use **Configure Expense Agent** to get started quickly with guided steps and validation checks. Learn more in [Set up the Expense Agent](expense-agent-configuration-page.md).
+- **Manual setup (advanced)**: Use the **Expense Agent Setup** page to configure each setting directly and fine-tune behavior after initial setup.
+
+For most organizations, start with assisted setup, and then use this article for detailed settings and ongoing management.
+
 ## Use the provided default settings (recommended)
 
 It's optional, but we recommend that you start with the default configuration that we provide, and then adjust the settings to match your organization's needs. The default settings create a baseline setup with default categories, rules, and other master data.
@@ -29,6 +38,8 @@ To apply the default configuration, on the **Expense Agent Setup** page, choose 
 Expense Agent is an AI‑powered capability that automates the most time‑intensive parts of expense management. For example, receipt intake, data extraction, categorization, and expense line creation. It accepts receipts from multiple channels, including uploaded images and email submissions, while maintaining a human‑in‑the‑loop review process to ensure accuracy, compliance, and full user oversight. Learn more at [Expense Agent overview](expense-agent.md).
 
 Though we recommend that you use Expense Agent because it does make it considerably easier to manage employee expenses, using the agent is optional. You can use expense management without it. To learn more about the differences of using the agent or not, go to [With and without Expense Agent](expense-management-overview.md#with-and-without-the-expense-agent).
+
+If you haven't configured Expense Agent yet, we recommend that you use assisted setup first. Learn more in [Set up the Expense Agent](expense-agent-configuration-page.md).
 
 
 ### Set up a shared mailbox

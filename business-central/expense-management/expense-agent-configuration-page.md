@@ -18,7 +18,7 @@ This article explains how to set up the Expense Agent by using the **Configure E
 
 You can configure Expense Agent in two ways:
 
-- **Assisted setup (recommended)**: Use **Configure Expense Agent** for guided onboarding, quick activation, and built-in validation checks.
+- **Assisted setup (recommended)**: Use **Configure Expense Agent** for guided onboarding, quick activation, and built-in validation checks as described in this article.
 - **Manual setup (advanced)**: Use the **Expense Agent Setup** page to configure settings directly and manage detailed options after initial setup. Learn more in [Access expense management setup](expense-management-setup.md#access-expense-management-setup).
 
 For most organizations, assisted setup is the best way to get started quickly.
@@ -73,18 +73,6 @@ After configuration, the Expense Agent icon indicates the agent’s status:
 
 The **Configure Expense Agent** assisted setup guides you through the choices required to prepare the Expense Agent for use in your Business Central environment.
 
-The guide helps you:
-
-- Configure how expenses can be submitted and who can access or manage the agent.
-- Apply optional default data, such as number series, posting groups, categories, and management rules.
-- Define validation, notification, mileage, and per diem behavior.
-- Save configuration changes without activating the agent.
-- Activate or deactivate the agent when you’re ready.
-
-When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the wizard prompts you to address them before activation completes.
-
-If you deactivate the agent later, Business Central stops processing incoming expenses and disables background processing. Your configuration settings are retained so that you can reactivate the agent without reconfiguring it.
-
 The assisted setup configures the following areas:
 
 - **Access and submission**: Configure receipt submission channels, mailbox account, and who can configure the agent or work on behalf of users.
@@ -93,6 +81,10 @@ The assisted setup configures the following areas:
 - **Rules and controls**: Configure policy enforcement such as required receipt number, required merchant name, and anti-corruption attestation visibility.
 - **Communication**: Configure open-report reminder behavior and notification frequency.
 - **Mileage and per diem**: Configure mileage rate/UOM and per diem calculation options, including partial-day settings.
+
+When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the wizard prompts you to address them before activation completes.
+
+If you deactivate the agent later, Business Central stops processing incoming expenses and disables background processing. Your configuration settings are retained so that you can reactivate the agent without reconfiguring it.
 
 For complete field-by-field reference and advanced options on the **Expense Agent Setup** page, go to [Set up expense management](expense-management-setup.md).
 

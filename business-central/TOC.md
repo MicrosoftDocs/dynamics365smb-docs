@@ -1331,7 +1331,9 @@ ms.service: dynamics-365-business-central
 <!-- Expense management start -->
 ## Expense management (preview)
 ### [Expense management overview](expense-management/expense-management-overview.md)
+### [Expense Agent overview](expense-management/expense-agent.md)
 ### Set up expense management
+#### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
 #### [Set up expense categories and rules](expense-management/expense-management-categories-rules.md)
 #### [Set up general expense settings](expense-management/expense-management-setup.md)
 #### [Set up expense users and teams](expense-management/expense-management-users-teams.md)

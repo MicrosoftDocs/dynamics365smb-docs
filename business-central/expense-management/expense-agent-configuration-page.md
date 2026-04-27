@@ -1,6 +1,6 @@
 ---
 title: Set up the Expense Agent
-description: Learn how to set up and configure the Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
+description: Learn how to set up the Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
 ms.date: 01/30/2026
@@ -10,103 +10,85 @@ ms.reviewer: jswymer
 
 # Set up the Expense Agent
 
-The Expense Agent automates expense tracking, processing, and approval workflows. The agent can monitor email accounts for expense submissions, automatically create expense reports, and enforce compliance rules. This article explains how to set up and configure the Expense Agent.
+The Expense Agent helps automate expense tracking, processing, and approval workflows in Dynamics 365 Business Central. After you set it up, employees can submit expenses through email or the Expense Agent web app, and the agent creates expense reports and applies configured rules automatically.
+
+This article explains how to set up the Expense Agent by using the **Configure Expense Agent** page.
 
 ## Prerequisites
 
 Before you set up the Expense Agent, make sure the following prerequisites are met:
 
-- The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center.
-
+- The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center for Microsoft Online Services.  
   Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
 
 - Your Business Central account has the **EXPENSE MGMT. ADMIN** permission set or equivalent permissions.
 
-- The **Expense Agent** capability is active on the **Copilot & Agent Capabilities** page.
-
-  If the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon appears in the upper-right of the role center, the capability is already enabled.
-
-  Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
-
-- A shared mailbox is available for receiving expenses from employees.
-
-  The Expense Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more in [Set up email](../admin-how-setup-email.md).
-
-  > [!IMPORTANT]
-  > You need **Read and manage (Full Access)** permission on the shared mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
-
-- Number series, payment methods, and posting groups for expenses are configured (optional).
-
-  You can choose to use the default settings during setup, which creates these entities for you.
-
-### Prerequisites
-
-Before you set up the Expense Agent, make sure the following prerequisites are met:
-
-- The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center.
-
-  Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
-
-- Your Business Central account has the **EXPENSE MGMT. ADMIN** permission set, or equivalent permissions.
-
-- A shared mailbox is available for receiving expense submissions from employees.
+- A shared mailbox is available for receiving expense submissions from employees.  
   
-  The mailbox must be a Microsoft 365 user or shared mailbox in your organization. Learn more in [Set up email](../admin-how-setup-email.md).
+  The mailbox must be a Microsoft 365 **user mailbox** or **shared mailbox** in your organization. Learn more in [Set up email](../admin-how-setup-email.md).
 
-  > [!IMPORTANT]
+  > [!IMPORTANT]  
   > You need **Read and manage (Full Access)** permission on the shared mailbox. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
 
-- Number series, payment methods, and posting groups for expenses are configured (optional).
+- Number series, payment methods, and posting groups for expenses are configured (optional).  
 
-  You can let the setup wizard create default values for you during configuration.
+  You can choose to use default values during setup, and the wizard creates these entities for you. 
 
-- The **Expense Agent** capability is enabled on the **Copilot & Agent Capabilities** page.
-  
-  The capability is enabled if the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon appears in the upper-right corner of the role center. 
- 
+- Billing for agent capabilities is setup up in Business Central admin center.
+
+  Expense Agent uses Microsoft Copilot Studio messages when activated, which your company is charged for. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+
+- The **Expense Agent** capability is enabled on the **Copilot & Agent Capabilities** page.  
+
+  The capability is enabled if the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon appears in the upper-right corner of the role center.  
   Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
 
+## Configure Expense Agent
 
-## Set up the Expense Agent
+Use the **Configure Expense Agent** page to configure and activate the agent.
+The page guides you through agent setup. You configure submission channels, access controls, defaults, and policies, then activate the agent with scheduled task creation and ERP registration. For detailed information on what happens at each stage, see [What the setup wizard does](#what-the-setup-wizard-does) later in this article.
 
-The following sections explain how to use **Configure Expense Agent** page to set up the Expense Agent.
+1. In the upper-right corner of the role center, select the select the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon, and then select **Activate**.
+1. Follow the instructions onscreen to configure how the agent should behave.
+1. The configuaration options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to move between pages.
+1. When you finish configuring the options, turn on the **Active** toggle to activate the agent.  
+   If you don't want to activate the agent yet, leave the toggle off. You can retrun to the page to active the agent later.
+1. Select **Save**.
 
-### Configure the Expense Agent
+After configuration, the Expense Agent icon indicates the agent’s status:
 
-1. In the navigation bar at the upper right of the role center, select ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon > **Activate**.
-1. Follow the instructions on the page to configure the options you want.
-1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
+- ![Shows the Expense Agent icon](../media/expense-agent-icon-small.png) indicates the agent ready to process expense submissions.
+- ![Shows the Expense Agent icon](../media/expense-agent-configured-icon-small.png) indicates agent is configured but not currently active.
 
-   The options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the pages to set the various options.
-1. When done configuring the options, turn on the **Active** toggle to activate the agent.
+## What the configuration page does
 
-   If you don't want to enable it now, skip this step. You can enable it later.
-1. Select **Save** to save your changes.
+The **Configure Expense Agent** page guides you through the choices required to prepare the Expense Agent for use in your Business Central environment.
 
-If you activated the agent, the icon changes to ![Shows the Expense Agent icon](../media/expense-agent-icon-small.png) indicating it's ready to handle incoming expenses from the Expense Agent web app or email.
+The guide helps you:
 
-The ![Shows the Expense Agent icon](../media/expense-agent-configured-icon-small.png) icon indicates that the agent is configured but not active.
+- Configure how expenses can be submitted and who can access or manage the agent.
+- Apply optional default data, such as number series, posting groups, categories, and management rules.
+- Define validation, notification, mileage, and per diem behavior.
+- Save configuration changes without activating the agent.
+- Activate or deactivate the agent when you’re ready.
 
-## What the setup wizard does
+When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the wizard prompts you to address them before activation completes.
 
-The **Configure Expense Agent** wizard is the primary interface for setting up the Expense Agent. Behind the scenes, it orchestrates setup persistence, agent registration with your ERP environment, and scheduled task creation. This section explains what happens when you configure options and enable or disable the agent—the validation gates, state transitions, and integration calls. If you're looking for step-by-step setup instructions, see [Set up the Expense Agent](#set-up-the-expense-agent) earlier in this article.
+If you deactivate the agent later, Business Central stops processing incoming expenses and disables background processing. Your configuration settings are retained so that you can reactivate the agent without reconfiguring it.
 
-For admins, the wizard workflow orchestrates these stages in sequence:
+## After you finish setup
 
-1. Loads current **Expense Agent Setup** into a temporary working record.
-1. Lets you configure access, defaults, policy settings, communication, mileage, and per diem.
-1. On **Update**, validates and saves data, applies selected default data packs, and updates agent state.
-1. If agent state changes to active, runs enablement checks and registration.
-1. If agent state changes to inactive, unregisters ERP configuration and removes scheduled tasks.
+After the Expense Agent is active:
 
-When the agent is activated, the wizard performs these guardrails:
+- The agent starts monitoring the configured mailbox for incoming expense submissions.
+- Expenses submitted by email or through the Expense Agent web app are processed based on your configuration.
+- Expense reports are created automatically and routed according to your rules.
+- Reminder notifications are sent based on your notification settings, if enabled.
+- Managers and approvers can review and approve expense reports in Business Central and the Expense Agent web app.
 
-- Enforces early-access environment constraints (sandbox checks in SaaS production URLs).
-- Requires privacy notice approval.
-- Verifies Copilot capability activation for **Expense Agent**.
-- Ensures the current user has agent access control (adds one if missing).
-- Enables the Expense Agent AAD app and ensures the **Expense Agent** permission set is assigned.
-- Registers ERP configuration through the integration endpoint.
+You can return to the **Configure Expense Agent** page at any time to update settings, apply other defaults, or deactivate and reactivate the agent.
+
+For detailed descriptions of individual setup options, validation rules, and operational limits, see 
 
 ## Wizard fields and options by group (admin details)
 
@@ -181,7 +163,7 @@ The sections below describe each wizard field, organized by the logical groups t
   - Admin note: this setting controls display/collection; it isn't implemented as a hard post/submit block by setup validation itself.
 
 > [!NOTE]
-> The wizard hides age-related controls, but setup contains these fields and logic references:
+> The configuration hides age-related controls, but setup contains these fields and logic references:
 > - **Do Not Allow Exp. Older Than** (date formula, default `<3M>` in default setup)
 > - **If Exp. Is Older Than Allowed** (warning/justification/error enum)
 >
@@ -261,59 +243,36 @@ The sections below describe each wizard field, organized by the logical groups t
 - Outbound outbox processing sends up to **25 emails per dispatcher run**.
 - Outbound retries stop at **5 attempts**, then message status changes to **Failed**.
 
-<!--Test the setup
-
-After you configure the Expense Agent, test the setup to make sure everything works correctly.
-
-### Create a test expense
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Expenses**, and then choose the related link.
-2. Create a new expense.
-3. Select a category, payment method, and amount.
-4. Verify that all fields populate correctly.
-5. Check that validation rules work as expected.
-
-### Test expense report creation
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Expense Reports**, and then choose the related link.
-2. Use the **Add Expenses** action to add expenses to a report.
-3. Verify grouping and calculation logic.
-4. Submit for approval (if approval workflow is enabled).
-
-### Validate agent functionality (if enabled)
-
-1. Send a test expense email to the configured mailbox.
-2. Wait for the scheduled task to run (check after 20 seconds).
-3. Verify that the expense is created in the system.
-4. Check the **EA Scheduler Task** table for processing logs.
-
-### Test per diem calculation (if configured)
-
-1. Create an expense with a per diem category.
-2. Enter start and end dates.
-3. Verify that the per diem amount is calculated correctly.
-4. Test partial day and meal deduction scenarios.
-
-### Verify posting
-
-1. Create and approve an expense report.
-2. Post the expense report.
-3. Check **Expense Ledger Entries** for posted transactions.
-4. Verify that G/L entries are created correctly.
-
-## Best practices
-
-Consider the following best practices when setting up and using the Expense Agent:
-
-- **Start simple** - Begin with basic setup and a few categories. Enable advanced features (rules, automation) after users are comfortable.
-- **Define clear policies** - Document what expenses are allowed. Set appropriate age limits for expense submission. Communicate policies to all employees.
-- **Regular reviews** - Review expense categories quarterly. Update mileage and per diem rates annually. Archive or inactivate unused categories.
-- **Security considerations** - Limit who can approve expenses. Use teams for delegated approval. Enable anti-corruption attestation for compliance.
-- **Email agent monitoring** - Monitor scheduled task logs regularly. Set up error notifications. Test email integration thoroughly before going live.
-- **Approval workflows** - Define clear approval hierarchies. Set appropriate approval limits. Configure reminder notifications.
--->
-
 ## Troubleshooting
+
+### Agent not processing emails
+
+**Problem:** The agent doesn’t process incoming emails.
+
+**Resolution:**
+- Verify that the agent is active.
+- Confirm that the mailbox account is configured correctly.
+- Ensure that Email Connector v4 is installed and configured.
+- Check scheduler task entries for errors.
+- Verify that the user has permission to create background tasks.
+
+### Expenses failing validation
+
+**Problem:** Expenses can’t be saved or submitted.
+
+**Resolution:**
+- Check the age of the expense against configured limits.
+- Verify that categories, posting groups, and payment methods are configured and active.
+- Confirm that the employee is set up as an expense user.
+
+### Per diem not calculating
+
+**Problem:** Per diem amounts aren’t generated.
+
+**Resolution:**
+- Verify that per diem calculation isn’t set to **None**.
+- Confirm that per diem rates are configured.
+- Check minimum hours and rounding settings.
 
 ### You can't turn off the agent
 
@@ -370,131 +329,6 @@ Consider the following best practices when setting up and using the Expense Agen
 ## Related information
 
 [Set up email](../admin-how-setup-email.md)  
-[Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)
+[Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)  
+[Configure Copilot and agent capabilities](../enable-ai.md)
 
-
----
-title: Set up the Expense Agent
-description: Learn how to set up the Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
-author: jswymer
-ms.topic: how-to
-ms.date: 01/30/2026
-ms.author: jswymer
-ms.reviewer: jswymer
----
-
-# Set up the Expense Agent
-
-The Expense Agent helps automate expense tracking, processing, and approval workflows in Dynamics 365 Business Central. After you set it up, employees can submit expenses through email or the Expense Agent web app, and the agent creates expense reports and applies configured rules automatically.
-
-This article explains how to set up the Expense Agent by using the **Configure Expense Agent** setup wizard.
-
-## Prerequisites
-
-Before you set up the Expense Agent, make sure the following prerequisites are met:
-
-- The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center for Microsoft Online Services.  
-  Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
-
-- Your Business Central account has the **EXPENSE MGMT. ADMIN** permission set or equivalent permissions.
-
-- A shared mailbox is available for receiving expense submissions from employees.  
-  
-  The mailbox must be a Microsoft 365 **user mailbox** or **shared mailbox** in your organization. Learn more in [Set up email](../admin-how-setup-email.md).
-
-  > [!IMPORTANT]  
-  > You need **Read and manage (Full Access)** permission on the shared mailbox. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
-
-- Number series, payment methods, and posting groups for expenses are configured (optional).  
-
-  You can choose to use default values during setup, and the wizard creates these entities for you. 
-
-- Billing for agent capabilities is setup up in Business Central admin center.
-
-  Expense Agent uses Microsoft Copilot Studio messages when activated, which your company is charged for. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
-
-- The **Expense Agent** capability is enabled on the **Copilot & Agent Capabilities** page.  
-
-  The capability is enabled if the **Expense Agent** icon appears in the upper-right corner of the role center.  
-  Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
-
-## Configure Expensee 
-
-Use the **Configure Expense Agent** setup wizard to configure and activate the agent.
-The wizard guides you through agent setup in a controlled sequence. You'll configure submission channels, access controls, defaults, and policies, then activate the agent with scheduled task creation and ERP registration. For detailed information on what happens at each stage, see [What the setup wizard does](#what-the-setup-wizard-does) later in this article.
-
-1. In the upper-right corner of the role center, select the **Expense Agent** icon, and then choose **Activate**.d
-1. Follow the instructions onscreem to configure how the agent should behave.
-1. Use the **Go to next card** and **Go to previous card** arrows to move between pages.
-1. When you finish configuring the options, turn on the **Active** toggle to activate the agent.  
-   If you don't want to activate the agent yet, leave the toggle off. You can retrun to the page to active the agent later.
-1. Select **Save**.
-
-When the agent is active, the icon indicates that it’s ready to process expense submissions. If the agent is configured but not active, the icon reflects that state.
-
-## What the setup wizard does
-
-The **Configure Expense Agent** page guides you through the choices required to prepare the Expense Agent for use in your Business Central environment.
-
-The guide helps you:
-
-- Configure how expenses can be submitted and who can access or manage the agent.
-- Apply optional default data, such as number series, posting groups, categories, and management rules.
-- Define validation, notification, mileage, and per diem behavior.
-- Save configuration changes without activating the agent.
-- Activate or deactivate the agent when you’re ready.
-
-When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the wizard prompts you to address them before activation completes.
-
-If you deactivate the agent later, Business Central stops processing incoming expenses and disables background processing. Your configuration settings are retained so that you can reactivate the agent without reconfiguring it.
-
-## After you finish setup
-
-After the Expense Agent is active:
-
-- The agent starts monitoring the configured mailbox for incoming expense submissions.
-- Expenses submitted by email or through the Expense Agent web app are processed based on your configuration.
-- Expense reports are created automatically and routed according to your rules.
-- Reminder notifications are sent based on your notification settings, if enabled.
-- 
-- Managers and approvers can review and approve expense reports in Business Central.
-
-You can return to the **Configure Expense Agent** page at any time to update settings, apply other defaults, or deactivate and reactivate the agent.
-
-For detailed descriptions of individual setup options, validation rules, and operational limits, see the companion reference article.
-
-## Troubleshooting
-
-### Agent not processing emails
-
-**Problem:** The agent doesn’t process incoming emails.
-
-**Resolution:**
-- Verify that the agent is active.
-- Confirm that the mailbox account is configured correctly.
-- Ensure that Email Connector v4 is installed and configured.
-- Check scheduler task entries for errors.
-- Verify that the user has permission to create background tasks.
-
-### Expenses failing validation
-
-**Problem:** Expenses can’t be saved or submitted.
-
-**Resolution:**
-- Check the age of the expense against configured limits.
-- Verify that categories, posting groups, and payment methods are configured and active.
-- Confirm that the employee is set up as an expense user.
-
-### Per diem not calculating
-
-**Problem:** Per diem amounts aren’t generated.
-
-**Resolution:**
-- Verify that per diem calculation isn’t set to **None**.
-- Confirm that per diem rates are configured.
-- Check minimum hours and rounding settings.
-
-## Related information
-
-- [Set up email](../admin-how-setup-email.md)
-- [Configure Copilot and agent capabilities](../enable-ai.md)

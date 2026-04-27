@@ -2780,6 +2780,7 @@ ms.service: dynamics-365-business-central
 ## Expense Agent (preview)
 ### [Expense Agent overview](expense-management/expense-agent.md)
 ### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
+### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
 ### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
 ### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
 ### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)

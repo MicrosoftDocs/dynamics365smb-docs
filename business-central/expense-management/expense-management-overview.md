@@ -1,5 +1,5 @@
 ---
-title: Expense Management Overview in Business Central
+title: Expense Management Overview
 description: Learn about expense management in Business Central, including how to capture expenses, create reports, get approvals, and post to the general ledger.
 author: brentholtorf
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.search.form: 6903, 6933, 6987, 6989, 6997
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## With and without the expense agent
+## With and without Expense Agent
 
 You can use expense management in two ways:
 

@@ -19,7 +19,7 @@ This article explains how to set up the Expense Agent by using the **Configure E
 You can configure Expense Agent in two ways:
 
 - **Assisted setup (recommended)**: Use **Configure Expense Agent** for guided onboarding, quick activation, and built-in validation checks.
-- **Manual setup (advanced)**: Use the **Expense Agent Setup** page to configure settings directly and manage detailed options after initial setup. Learn more in [Set up expense management](expense-management-setup.md).
+- **Manual setup (advanced)**: Use the **Expense Agent Setup** page to configure settings directly and manage detailed options after initial setup. Learn more in [Access expense management setup](expense-management-setup.md#access-expense-management-setup).
 
 For most organizations, assisted setup is the best way to get started quickly.
 

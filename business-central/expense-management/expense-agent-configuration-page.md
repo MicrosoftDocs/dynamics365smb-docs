@@ -110,57 +110,7 @@ You can return to the **Configure Expense Agent** page at any time to update set
 
 ## Troubleshooting
 
-### Agent not processing emails
-
-**Problem:** The agent doesn’t process incoming emails.
-
-**Resolution:**
-- Verify that the agent is active.
-- Confirm that the mailbox account is configured correctly.
-- Ensure that Email Connector v4 is installed and configured.
-- Check scheduler task entries for errors.
-- Review the **EA Scheduler Task** table for errors.
-- Verify that the user has **Can Create Task** permission.
-
-### You can't turn off the agent
-
-**Problem:** When you turn off the **Active** toggle, you get the message: Failed to unregister environment from Expense Agent service. Please try again or contact support.
-
-### Expenses failing validation
-
-**Problem:** Can't save or submit expenses.
-
-**Solutions:**
-
-1. Check the age of the expense against the **Do Not Allow Expenses Older Than** setting.
-2. Verify that the category and subcategory are valid and active.
-3. Confirm that the payment method is marked as **Expense Report Type**.
-4. Check that a posting group is assigned to the category.
-5. Verify that the employee is configured as an expense employee.
-
-### Per diem not calculating
-
-**Problem:** Per diem amounts aren't populating.
-
-**Solutions:**
-
-1. Verify that **Full Per-Diem Calculation** isn't set to **None**.
-2. Check that per diem rates are configured for the location/category.
-3. Confirm that travel dates span the required minimum hours.
-4. Review partial day rule settings.
-5. Check that **Per Diem Rounding Precision** is set.
-
-### Posting errors
-
-**Problem:** Can't post expense reports.
-
-**Solutions:**
-
-1. Verify that the posting group has all required G/L accounts configured.
-2. Check that G/L accounts allow direct posting.
-3. Confirm that the number series for posted expense reports is set.
-4. Verify the approval status (if approval workflow is enabled).
-5. Check that the source code **EXPENSE** exists in Source Code Setup.
+For setup, processing, and user issues, go to [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md).
 
 ## Related information
 

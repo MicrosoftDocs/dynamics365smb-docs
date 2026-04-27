@@ -34,7 +34,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
   You can choose to use default values during setup, and the wizard creates these entities for you. 
 
-- Billing for agent capabilities is setup up in Business Central admin center.
+- Billing for agent capabilities is set up in Business Central admin center.
 
   Expense Agent uses Microsoft Copilot Studio messages when activated, which your company is charged for. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
@@ -48,17 +48,17 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 Use the **Configure Expense Agent** page to configure and activate the agent.
 The page guides you through agent setup. You configure submission channels, access controls, defaults, and policies, then activate the agent to handle registration.
 
-1. In the upper-right corner of the role center, select the select the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon, and then select **Activate**.
+1. In the upper-right corner of the role center, select the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon, and then select **Activate**.
 1. Follow the instructions onscreen to configure how the agent should behave.
-1. The configuaration options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to move between pages.
+1. The configuration options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to move between pages.
 1. When you finish configuring the options, turn on the **Active** toggle to activate the agent.  
-   If you don't want to activate the agent yet, leave the toggle off. You can retrun to the page to active the agent later.
+   If you don't want to activate the agent yet, leave the toggle off. You can return to the page to activate the agent later.
 1. Select **Save**.
 
 After configuration, the Expense Agent icon indicates the agent’s status:
 
-- ![Shows the Expense Agent icon](../media/expense-agent-icon-small.png) indicates the agent ready to process expense submissions.
-- ![Shows the Expense Agent icon](../media/expense-agent-configured-icon-small.png) indicates agent is configured but not currently active.
+- ![Shows the Expense Agent icon](../media/expense-agent-icon-small.png) indicates the agent is ready to process expense submissions.
+- ![Shows the Expense Agent icon](../media/expense-agent-configured-icon-small.png) indicates the agent is configured but not currently active.
 
 ## What the configuration page does
 
@@ -88,7 +88,7 @@ After the Expense Agent is active:
 
 You can return to the **Configure Expense Agent** page at any time to update settings, apply other defaults, or deactivate and reactivate the agent.
 
-For detailed descriptions of individual setup options, validation rules, and operational limits, see 
+For detailed descriptions of individual setup options, validation rules, and operational limits, see [Wizard fields and options by group](#wizard-fields-and-options-by-group-admin-details) later in this article.
 
 ## Wizard fields and options by group (admin details)
 

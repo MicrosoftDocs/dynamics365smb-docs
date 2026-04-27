@@ -2785,7 +2785,7 @@ ms.service: dynamics-365-business-central
 #### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
 #### [How the expense agent processes emails](expense-management/expense-management-agent.md)
 #### [Expense and report statuses](expense-management/expense-agent-statuses.md)
-### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
+#### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
 ### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
 ### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
 ### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)

@@ -162,12 +162,12 @@ The sections below describe each wizard field, organized by the logical groups t
   - Controls visibility of attestation section on expense report pages and manager approval views.
   - Admin note: this setting controls display/collection; it isn't implemented as a hard post/submit block by setup validation itself.
 
-> [!NOTE]
-> The configuration hides age-related controls, but setup contains these fields and logic references:
-> - **Do Not Allow Exp. Older Than** (date formula, default `<3M>` in default setup)
-> - **If Exp. Is Older Than Allowed** (warning/justification/error enum)
->
-> In current code paths, age formula is used in duplicate-detection range behavior for posted report lines; the handling enum is present but not wired as a direct submit-block path in the wizard flow.
+    > [!NOTE]
+    > The configuration hides age-related controls, but setup contains these fields and logic references:
+    > - **Do Not Allow Exp. Older Than** (date formula, default `<3M>` in default setup)
+    > - **If Exp. Is Older Than Allowed** (warning/justification/error enum)
+    >
+    > In current code paths, age formula is used in duplicate-detection range behavior for posted report lines; the handling enum is present but not wired as a direct submit-block path in the wizard flow.
 
 ### Communication
 

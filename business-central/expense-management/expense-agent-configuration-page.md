@@ -1,6 +1,6 @@
 ---
-title: Set up the Expense Agent
-description: Learn how to set up the Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
+title: Set up Expense Agent
+description: Learn how to set up Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
 ms.date: 01/30/2026
@@ -8,11 +8,9 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# Set up the Expense Agent
+# Set up Expense Agent
 
-The Expense Agent helps automate expense tracking, processing, and approval workflows in Dynamics 365 Business Central. After you set it up, employees can submit expenses through email or the Expense Agent web app, and the agent creates expense reports and applies configured rules automatically.
-
-This article explains how to set up the Expense Agent by using the **Configure Expense Agent** assisted setup.
+Expense Agent helps automate expense tracking, processing, and approval workflows in Business Central. After you set it up, employees can submit expenses through email or the Expense Agent web app, and the agent creates expense reports and applies configured rules automatically.
 
 ## Choose your setup path
 

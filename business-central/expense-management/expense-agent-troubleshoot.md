@@ -54,10 +54,60 @@ If a file you try to upload is flagged for malware, the upload is blocked for se
 
 If you get a message that the AI quota is exceeded, the system has reached its processing limit. Try again later. If the issue continues, contact your administrator.
 
+## Agent doesn't process incoming emails
+
+If Expense Agent isn't processing incoming emails, check these setup and runtime conditions:
+
+1. Verify that the agent is active.
+2. Confirm that the mailbox account is configured correctly.
+3. Make sure Email Connector v4 is installed and configured.
+4. Check scheduler task entries for errors.
+5. Review entries in the **EA Scheduler Task** table.
+6. Verify that the user has **Can Create Task** permission.
+
+## You can't turn off the agent
+
+If turning off **Active** shows this message, try again after a short wait and then check service connectivity:
+
+Failed to unregister environment from Expense Agent service. Please try again or contact support.
+
+If the issue persists, contact support.
+
+## Expenses fail validation or show policy violations
+
+If you can't save or submit an expense, or it shows a policy violation, review these settings:
+
+1. Check the age of the expense against **Do Not Allow Expenses Older Than**.
+2. Verify that category and subcategory values are valid and active.
+3. Confirm that the payment method is marked as **Expense Report Type**.
+4. Check that a posting group is assigned to the category.
+5. Verify that the employee is configured as an expense employee.
+
+## Per diem doesn't calculate
+
+If per diem amounts don't populate, verify these configurations:
+
+1. **Full Per-Diem Calculation** isn't set to **None**.
+2. Per diem rates are configured for the location and category.
+3. Travel dates meet minimum-hour requirements.
+4. Partial-day rule settings are configured correctly.
+5. **Per Diem Rounding Precision** is set.
+
+## Expense report posting fails
+
+If expense reports can't be posted, review posting setup:
+
+1. Verify that the posting group has all required G/L accounts configured.
+2. Check that G/L accounts allow direct posting.
+3. Confirm that the number series for posted expense reports is set.
+4. Verify the approval status if approval workflow is enabled.
+5. Check that source code **EXPENSE** exists in Source Code Setup.
+
 ## Related information
 
 [Expense Agent overview](expense-agent-overview.md)  
 [Upload receipts in Expense Agent](expense-agent-upload-receipts.md)  
 [Expense policy compliance in Expense Agent](expense-agent-policy-compliance.md)  
+[Set up the Expense Agent](expense-agent-configuration-page.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

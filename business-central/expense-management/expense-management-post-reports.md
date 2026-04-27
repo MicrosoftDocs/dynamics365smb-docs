@@ -23,7 +23,7 @@ After an expense report is approved, you post it to the general ledger. Posting 
 Before you post, you can review what entries [!INCLUDE [prod_short](../includes/prod_short.md)] creates.
 
 1. Open the **Expense Report** card for the approved report.
-2. Choose **Preview Posting**, or press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>.
+1. Choose **Preview Posting**, or press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>.
 
 The preview shows the general ledger entries, employee ledger entries, and other entries in the report. If expenses link to projects, the preview also shows project ledger entries. Close the preview when you're done reviewing.
 
@@ -41,7 +41,7 @@ After you post a report, it moves to the **Posted Expense Reports** list and is 
 ## View posted expense reports
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Posted Expense Reports**, and then choose the related link.
-2. Select a posted report to view its details.
+1. Select a posted report to view its details.
 
 The posted report shows all the expense lines, amounts, and dimensions that were recorded at the time of posting. You can also access attached documents and statistics.
 

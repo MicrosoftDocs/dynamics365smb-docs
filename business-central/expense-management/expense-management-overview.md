@@ -22,7 +22,7 @@ ms.search.form: 6903, 6933, 6987, 6989, 6997
 
 You can use expense management in two ways:
 
-- With Expense Agent enabled. Expense users submit receipts through a web app, email, or Microsoft 365 Copilot chat. Expense Agent automatically extracts data, categorizes expenses, creates expense records, and groups them into expense reports. You view and edit agent-created expenses inside [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Expense Agent overview](expense-agent.md).
+- With Expense Agent enabled. Expense users submit receipts through a web app or email. Expense Agent automatically extracts data, categorizes expenses, creates expense records, and groups them into expense reports. You view and edit agent-created expenses inside [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Expense Agent overview](expense-agent.md).
 - Without Expense Agent. Expense users create expense reports in [!INCLUDE [prod_short](../includes/prod_short.md)] and add expense lines manually. Individual expenses aren't available without the agent, and there's no AI-powered receipt scanning, extraction, or automatic categorization. This option is useful in regions where the agent isn't enabled or when you prefer to work entirely in [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 Without the agent, you still have access to:

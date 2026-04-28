@@ -1331,6 +1331,7 @@ ms.service: dynamics-365-business-central
 <!-- Expense management start -->
 ## Expense management (preview)
 ### [Expense management overview](expense-management/expense-management-overview.md)
+### [Expense Agent overview](expense-management/expense-agent.md)
 ### Set up expense management
 #### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
 #### [Set up expense categories and rules](expense-management/expense-management-categories-rules.md)
@@ -1338,11 +1339,11 @@ ms.service: dynamics-365-business-central
 #### [Set up expense users and teams](expense-management/expense-management-users-teams.md)
 #### [Set up per diem and mileage allowances](expense-management/expense-management-per-diem-mileage.md)
 ### Work with expenses
-#### [Create and manage expenses](expense-management/expense-management-create-expenses.md)
+#### [Manage expenses](expense-management/expense-management-create-expenses.md)
 #### [Create and submit expense reports](expense-management/expense-management-submit-report.md)
 #### [Approve expense reports](expense-management/expense-management-approve-reports.md)
-#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
 #### [Post expense reports](expense-management/expense-management-post-reports.md)
+#### [Reimburse employee expenses](finance-how-record-reimburse-employee-expenses.md)
 ### Expense Agent (preview)
 #### Expense Agent overview
 ##### [Overview](expense-management/expense-agent.md)

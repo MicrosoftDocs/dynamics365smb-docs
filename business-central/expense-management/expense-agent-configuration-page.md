@@ -56,7 +56,7 @@ Use the **Configure Expense Agent** page to configure and activate the agent.
 The page guides you through agent setup. You configure submission channels, access controls, defaults, and policies, then activate the agent to handle registration.
 
 1. In the upper-right corner of the role center, select the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon, and then select **Activate**.
-1. Follow the instructions onscreen to configure how the agent should behave.
+1. Follow the instructions onscreen to configure how the agent behaves.
 1. The configuration options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to move between pages.
 1. When you finish configuring the options, turn on the **Active** toggle to activate the agent.  
    If you don't want to activate the agent yet, leave the toggle off. You can return to the page to activate the agent later.
@@ -80,7 +80,7 @@ The assisted setup configures the following areas:
 - **Communication**: Configure open-report reminder behavior and notification frequency.
 - **Mileage and per diem**: Configure mileage rate/UOM and per diem calculation options, including partial-day settings.
 
-When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the wizard prompts you to address them before activation completes.
+When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the assisted setup prompts you to address them before activation completes.
 
 If you deactivate the agent later, Business Central stops processing incoming expenses and disables background processing. Your configuration settings are retained so that you can reactivate the agent without reconfiguring it.
 
@@ -106,5 +106,4 @@ For setup, processing, and user issues, go to [Troubleshoot common issues in Exp
 
 [Set up email](../admin-how-setup-email.md)  
 [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)  
-[Configure Copilot and agent capabilities](../enable-ai.md)
-
+[Configure Copilot and agent capabilities](../enable-ai.md)  

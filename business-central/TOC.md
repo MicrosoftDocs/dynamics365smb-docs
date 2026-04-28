@@ -1339,11 +1339,23 @@ ms.service: dynamics-365-business-central
 #### [Set up expense users and teams](expense-management/expense-management-users-teams.md)
 #### [Set up per diem and mileage allowances](expense-management/expense-management-per-diem-mileage.md)
 ### Work with expenses
-#### [Create and manage expenses](expense-management/expense-management-create-expenses.md)
+#### [Manage expenses](expense-management/expense-management-create-expenses.md)
 #### [Create and submit expense reports](expense-management/expense-management-submit-report.md)
 #### [Approve expense reports](expense-management/expense-management-approve-reports.md)
-#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
 #### [Post expense reports](expense-management/expense-management-post-reports.md)
+#### [Reimburse employee expenses](finance-how-record-reimburse-employee-expenses.md)
+### Expense Agent (preview)
+#### Expense Agent overview
+##### [Overview](expense-management/expense-agent.md)
+##### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
+##### [How the expense agent processes emails](expense-management/expense-management-agent.md)
+##### [Expense and report statuses](expense-management/expense-agent-statuses.md)
+##### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
+#### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
+#### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
+#### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
+#### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
+#### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
 <!-- Expense management end -->
 
 <!--Company Hub-->

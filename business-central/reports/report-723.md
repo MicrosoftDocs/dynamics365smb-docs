@@ -31,9 +31,9 @@ Default category thresholds come from the **ABC Analysis Setup** page. The same 
 
 The Excel layout includes three worksheets:
 
-- **Print** — A printable version of the report with item details and ABC classifications.
-- **Structure** — A summary of cumulative values for each ABC class.
-- **Analysis** — A worksheet with slicers for ABC class and inventory posting group, so you can slice and dice the data further.
+- **Print**: A printable version of the report with item details and ABC classifications.
+- **Structure**: A summary of cumulative values for each ABC class.
+- **Analysis**: A worksheet with slicers for ABC class and inventory posting group, so you can slice and dice the data further.
 
 ## Use cases
 
@@ -41,21 +41,21 @@ The Excel layout includes three worksheets:
 
 Inventory managers use the report to:
 
-* Identify the items that contribute the most to revenue and prioritize their availability.
-* Review which items fall into each category and adjust purchasing strategies accordingly.
-* Spot items with zero sales that might be candidates for phase-out or promotion.
+- Identify the items that contribute the most to revenue and prioritize their availability.
+- Review which items fall into each category and adjust purchasing strategies accordingly.
+- Spot items with zero sales that might be candidates for phase-out or promotion.
 
 Purchasing agents use the report to:
 
-* Focus negotiations and supplier relationships on high-value Category A items.
-* Adjust reorder quantities and safety stock levels based on item classification.
-* Identify Category C items where you can reduce inventory investment.
+- Focus negotiations and supplier relationships on high-value Category A items.
+- Adjust reorder quantities and safety stock levels based on item classification.
+- Identify Category C items where you can reduce inventory investment.
 
 Controllers use the report to:
 
-* Analyze the distribution of inventory value across categories.
-* Support decisions about inventory write-downs or obsolescence provisions for low-value items.
-* Validate that inventory investment aligns with sales performance.
+- Analyze the distribution of inventory value across categories.
+- Support decisions about inventory write-downs or obsolescence provisions for low-value items.
+- Validate that inventory investment aligns with sales performance.
 
 ## Set up ABC Analysis defaults
 

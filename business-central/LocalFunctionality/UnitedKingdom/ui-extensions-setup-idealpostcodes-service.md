@@ -39,6 +39,10 @@ To learn more about Ideal Postcodes, visit their [website](https://ideal-postcod
    1. In the **API Key** field, enter the API key.
    1. Read the **Terms & Conditions**.
    1. Select the **Enabled** checkbox, and then choose **OK**.
+   1. Choose **Actions**, and then **Test Connection**. You should see *Connection test was successful*.
+
+      > [!IMPORTANT]
+      > If the test returns *Connection test failed. Received response 0*, the extension isn't allowed to make outbound HTTP calls. To fix, search for **Extension Management**, select the **IdealPostcodes** extension, and turn on **Allow HttpClient Requests**. Then try **Test Connection** again.
 
 1. On the **Service Connections** page, verify that the **Address Provider** field contains **Ideal Postcodes**. If it does, the service is ready to use.
 

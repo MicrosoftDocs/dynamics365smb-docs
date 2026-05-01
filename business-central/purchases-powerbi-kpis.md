@@ -107,7 +107,7 @@ The Budget Quantity measure sums the Quantity column from the Purchase Budget ta
 [!INCLUDE[powerbi_deprecated_measure](includes/deprecated-measures.md)]
 
 **Formula**
-The Purchase Amount measure sums the the Purchase Amount column of the Purchases table.
+The Purchase Amount measure sums the Purchase Amount column of the Purchases table.
 
 **Data Sources**
 - Value Entry
@@ -115,7 +115,7 @@ The Purchase Amount measure sums the the Purchase Amount column of the Purchases
 ### Purchase Quantity
 
 **Formula**
-The Purchase Quantity measure sums the the Purchase Quantity column of the Purchases table.
+The Purchase Quantity measure sums the Purchase Quantity column of the Purchases table.
 
 **Data Sources**
 - Value Entry

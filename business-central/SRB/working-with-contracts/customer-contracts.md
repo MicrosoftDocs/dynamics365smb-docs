@@ -24,7 +24,7 @@ On the **Shipping and Billing** FastTab, you can specify ship-to and bill-to rec
    Similar to sales orders, a deviating invoice recipient can be entered here. This is taken into account when creating the contract invoices.
 
 > [!NOTE]
-> Contracts are available in the **Sell-to Customer Sales History** FactBox on the the **Customer Card**, **Vendor Card**, and **Contact Card** pages. Choose the respective cue to open an overview.
+> Contracts are available in the **Sell-to Customer Sales History** FactBox on the **Customer Card**, **Vendor Card**, and **Contact Card** pages. Choose the respective cue to open an overview.
 
 ## Overview of the process for creating a customer subscription contract
 

@@ -18,7 +18,7 @@ When a transaction is posted to the general ledger, the following data is stored
 
 ## Analyzing the G/L register
 
-You can use the G/L Registers page for financial reporting and transaction tracking. The page gives you an overview of all transactions to the general ledger with the ability to navigate to related entries in subledgers, such as VAT entries or Customer Ledger Entries. You can also see which type of transaction that occured, the user who did the transaction and when it was recorded in the database.
+You can use the G/L Registers page for financial reporting and transaction tracking. The page gives you an overview of all transactions to the general ledger with the ability to navigate to related entries in subledgers, such as VAT entries or Customer Ledger Entries. You can also see which type of transaction that occurred, the user who did the transaction and when it was recorded in the database.
 
 The G/L Registers page is particularly useful during audits, as it provides auditors with easy access to related detailed transaction information. It helps identify any discrepancies, errors, or unusual entries that may require further investigation. 
 

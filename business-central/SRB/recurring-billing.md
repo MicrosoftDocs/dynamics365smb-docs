@@ -98,7 +98,7 @@ You can only make changes that aren't relevant for billing in the posting docume
 Also, you can't create multiple posting documents for the same billing line.
 
 > [!NOTE]
-> The moment you create a billing proposal for a contract line, the **Next Billing Date** field updates to show show the current status. If you delete the billing line or change the billing period, the field is automatically reset or set based on the changed billing period.
+> The moment you create a billing proposal for a contract line, the **Next Billing Date** field updates to show the current status. If you delete the billing line or change the billing period, the field is automatically reset or set based on the changed billing period.
 
 A credit memo for a contract invoice also resets the **Next Billing Date** field. To ensure consistency of the contract line and subscription lines, credits must be chronological when you credit multiple contract invoices.
 

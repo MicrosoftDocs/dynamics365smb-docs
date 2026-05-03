@@ -145,7 +145,7 @@ If you select this checkbox for the contract type of the customer subscription c
 
 When you create the billing proposal lines, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks whether each subscription line is connected to a contract that uses harmonized billing. If yes, the fields for harmonized billing are considered.
 
-The harmonized billing fields update when when you add, delete, and change subscription lines, if applicable.
+The harmonized billing fields update when you add, delete, and change subscription lines, if applicable.
 
 > [!TIP]
 > If you add subscription lines with a longer billing rhythm (for example, 12 months) to a contract whose **Next Billing Date** is during the year, and these subscription lines (and all those to come) should generally only be billed by the end of the year, you can reset the **Billing Base Date** field to January 1st of the year.

@@ -33,7 +33,7 @@ The accountant receives an invoice from a supplier that belongs to a vendor subs
 
 ### How it works
 
-1. **Get Get Vendor Subscription Contract Lines** action
+1. **Get Vendor Subscription Contract Lines** action
 
    - Available in the purchase invoice header.
    - Opens a worksheet page showing all open vendor subscription contract lines for the current vendor, grouped by contract number (collapsible view).

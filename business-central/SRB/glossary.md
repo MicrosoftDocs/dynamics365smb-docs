@@ -42,7 +42,7 @@ The most important terms can be looked up in this glossary.
 * **Contract Type** <br/> Indicates the classification of the contract.
 * **Contractor** <br/> Customer or supplier for whom the contract is created.
 * **Credit Memo Preview** <br/> Function for creating a print preview for an unposted credit memo.
-* **Customer Subscription Contract** <br/> Customer  subscription contracts can be used to retrieve and process customer-side subscription lines before before creating customer posting documents.
+* **Customer Subscription Contract** <br/> Customer  subscription contracts can be used to retrieve and process customer-side subscription lines before creating customer posting documents.
 
 ## D
 

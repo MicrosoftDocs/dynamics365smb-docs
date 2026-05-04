@@ -1,7 +1,7 @@
 ---
 title: Set up Payables Agent
 description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
-ms.date: 02/16/2026
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: sorenfriisalexandersen

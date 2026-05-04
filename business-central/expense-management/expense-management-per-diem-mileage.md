@@ -80,10 +80,13 @@ The per diem detail view shows one line for each day of the trip with the full d
 
 To learn more about recording per diem and mileage expenses, go to [Create and manage expenses](expense-management-create-expenses.md).
 
+## Next steps
+
+[Create and manage expenses](expense-management-create-expenses.md)
+
 ## Related information
 
 [Set up expense management](expense-management-setup.md)  
-[Create and manage expenses](expense-management-create-expenses.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

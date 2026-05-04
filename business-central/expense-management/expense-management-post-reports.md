@@ -65,11 +65,14 @@ When you post an expense report, [!INCLUDE [prod_short](../includes/prod_short.m
 | **Project ledger entries** | Created only for expense lines that have a **Project No.** and **Project Task No.** assigned. |
 | **Sales invoices** | Created automatically for expense lines marked as **Billable** to a customer. |
 
+## Next steps
+
+[Manage employee expenses](expense-management-overview.md)
+
 ## Related information
 
 [Create and submit expense reports](expense-management-submit-report.md)  
 [Approve expense reports](expense-management-approve-reports.md)  
 [Record and reimburse employees' expenses](../finance-how-record-reimburse-employee-expenses.md)  
-[Manage employee expenses](expense-management-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

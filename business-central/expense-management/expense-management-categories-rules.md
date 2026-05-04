@@ -145,10 +145,13 @@ Policies use AI to evaluate compliance and are part of the full approval experie
 > [!NOTE]
 > Policies are a planned capability and aren't yet available in the current release. Rules are fully implemented and available today.
 
+## Next steps
+
+[Create and manage expenses](expense-management-create-expenses.md)
+
 ## Related information
 
 [Set up expense management](expense-management-setup.md)  
-[Create and manage expenses](expense-management-create-expenses.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

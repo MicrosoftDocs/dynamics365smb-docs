@@ -153,11 +153,14 @@ Administrators configure approval workflows on the **Expense Agent Setup** page.
 > [!NOTE]
 > When the approval workflow is enabled, managers can only view reports where they're assigned as the approver, unless they have **Unlimited Expense Approval** permission.
 
+## Next steps
+
+- [Set up expense users and teams](expense-management-users-teams.md)
+- [Set up expense categories and rules](expense-management-categories-rules.md)
+- [Set up per diem and mileage allowances](expense-management-per-diem-mileage.md)
+
 ## Related information
 
-[Set up expense categories and rules](expense-management-categories-rules.md)  
-[Set up expense users and teams](expense-management-users-teams.md)  
-[Set up per diem and mileage allowances](expense-management-per-diem-mileage.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

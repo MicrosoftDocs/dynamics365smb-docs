@@ -88,10 +88,13 @@ You can print reports for documentation or filing purposes.
    - **Expense Report Summary Page** provides a summary of totals.
    - **Expense Report Cover Page** creates a cover page for the report.
 
+## Next steps
+
+[Approve expense reports](expense-management-approve-reports.md)
+
 ## Related information
 
 [Create and manage expenses](expense-management-create-expenses.md)  
-[Approve expense reports](expense-management-approve-reports.md)  
 [Post expense reports](expense-management-post-reports.md)  
 [Manage employee expenses](expense-management-overview.md)  
 

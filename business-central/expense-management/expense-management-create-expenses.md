@@ -130,9 +130,12 @@ The terms *refundable* and *reimbursable* describe different aspects of an expen
 
 When itemization is required, individual subcategory lines can have different refundable settings. For example, a hotel receipt might have the room charge as refundable while a minibar charge is marked as nonrefundable. The employee is reimbursed only for the refundable portion.
 
+## Next steps
+
+[Create and submit expense reports](expense-management-submit-report.md)
+
 ## Related information
 
-[Create and submit expense reports](expense-management-submit-report.md)  
 [Set up expense categories and rules](expense-management-categories-rules.md)  
 [Manage employee expenses](expense-management-overview.md)  
 

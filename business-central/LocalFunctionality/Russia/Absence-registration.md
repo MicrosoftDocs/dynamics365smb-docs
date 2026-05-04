@@ -23,7 +23,7 @@ There are four types of orders in [!INCLUDE[prod_short](../../includes/prod_shor
 
 All types of orders are issued in a similar way.
 
-1. Go to **Departments > Human resources > Absence Orders**
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Absence Orders**, and then choose the related link.
 1. Fill the header of order:
 
    | Field | Description |

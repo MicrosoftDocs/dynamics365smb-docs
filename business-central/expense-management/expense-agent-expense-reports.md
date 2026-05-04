@@ -17,7 +17,7 @@ Expense Agent allows grouping related expenses together so you can submit them f
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## To create an expense report
+## Create an expense report
 
 1. Open Expense Agent and go to **Expense Reports**.
 1. Select **New Report**.
@@ -28,7 +28,7 @@ Expense Agent allows grouping related expenses together so you can submit them f
 
 The new report appears with a **Draft** status. You can continue to add or remove expenses before you submit it.
 
-## To add expenses to a report
+## Add expenses to a report
 
 You can add expenses that have a status of **Open** to any draft report.
 
@@ -39,7 +39,7 @@ You can add expenses that have a status of **Open** to any draft report.
 
 The selected expenses are added as report lines and their status changes to **AddedToReport**.
 
-## To move an expense to a different report
+## Move an expense to a different report
 
 If you added an expense to the wrong report, you can move it without removing and re-adding it manually.
 
@@ -51,7 +51,7 @@ If you added an expense to the wrong report, you can move it without removing an
 
 The expense is removed from the current report and added to the destination report.
 
-## To submit an expense report
+## Submit an expense report
 
 When your report is ready for review, submit it to your approver.
 

@@ -17,7 +17,7 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## To edit an expense
+## Edit an expense
 
 1. Open Expense Agent and go to the **Drafts** tab.
 1. Select the expense you want to edit.
@@ -37,7 +37,7 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
 > [!NOTE]
 > You can edit an expense as long as it isn't submitted as part of an expense report. After you submit a report, you must wait for it to be sent back before you can make changes.
 
-## To delete an expense
+## Delete an expense
 
 1. On the **Drafts** tab, select the expense you want to remove.
 1. Use the **...** option, and choose **Delete**.
@@ -45,7 +45,7 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
 
 Deleting an expense also removes it from any draft expense report it was added to.
 
-## To view expense details
+## View expense details
 
 Select any expense on the **Drafts** tab and choose **Review** to open details. On the **Submitted** tab, you can also view by choosing **Details**. The detail view shows a summary that includes the following fields.
 
@@ -57,7 +57,7 @@ Select any expense on the **Drafts** tab and choose **Review** to open details. 
 
 Use the detail view to quickly check an expense in draft mode before you add it to a report.
 
-## To resolve issues flagged by AI
+## Resolve issues flagged by AI
 
 Sometimes the AI can't fully process a receipt. For example, if it can't identify a location or required details are missing. When it can't fully process a receipt, the expense shows a summary of what needs attention.
 

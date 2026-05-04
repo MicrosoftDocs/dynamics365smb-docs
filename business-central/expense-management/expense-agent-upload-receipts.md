@@ -97,6 +97,11 @@ Expense Agent keeps you updated as your receipt moves through processing:
 
 You can continue working while receipts process — there's no need to wait. Come back to **Expense reports** to check on your uploads at any time.
 
+## Next steps
+
+- [Review and edit your expenses](expense-agent-edit-expenses.md)  
+- [Create and submit expense reports](expense-agent-expense-reports.md)  
+
 ## Related information
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  

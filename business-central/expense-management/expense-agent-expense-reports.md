@@ -65,6 +65,10 @@ The report status changes to **Submitted**, and your approver is notified. You c
 > [!TIP]
 > Before you submit, check for any policy warnings on your expenses. Resolving issues upfront helps speed up the approval process.
 
+## Next steps
+
+- [Approve or send back expense reports](expense-agent-approve-reports.md)  
+
 ## Related information
 
 [Expense Agent overview](expense-agent-overview.md)  

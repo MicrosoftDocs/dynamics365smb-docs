@@ -50,6 +50,10 @@ The report status changes back to **Draft**, and the employee is notified with y
 > [!NOTE]
 > Approval workflows are configured and managed in [!INCLUDE [prod_short](../includes/prod_short.md)]. Contact your administrator if you have questions about approval rules or workflow settings.
 
+## Next steps
+
+- [Expense Agent overview](expense-agent-overview.md)  
+
 ## Related information
 
 [Expense Agent overview](expense-agent-overview.md)  

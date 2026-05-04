@@ -69,6 +69,10 @@ Sometimes the AI can't fully process a receipt. For example, if it can't identif
 
 After you save your corrections, AI runs the processing flow again. If everything is resolved, the expense is added to an expense report.
 
+## Next steps
+
+- [Create and submit expense reports](expense-agent-expense-reports.md)  
+
 ## Related information
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  

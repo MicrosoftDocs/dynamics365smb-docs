@@ -61,7 +61,7 @@ For expense categories that require participants, such as business meals, you ca
 1. On the **Expense** card, choose the **Participants** action.
 2. Add each participant with their name and type. -->
 
-## To record a mileage expense
+## Record a mileage expense
 
 When the expense category requires mileage details, more fields appear in the **Travel** section.
 
@@ -73,7 +73,7 @@ When the expense category requires mileage details, more fields appear in the **
 
 The amount is calculated based on the mileage rate configured on the **Expense Agent Setup** page.
 
-## To record a per diem expense
+## Record a per diem expense
 
 When the expense category requires per diem details, the **Travel** section shows date and time fields.
 
@@ -85,7 +85,7 @@ When the expense category requires per diem details, the **Travel** section show
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] calculates the per diem amount based on the rates and rules configured on the **Expense Agent Setup** page.
 
-## To release an expense
+## Release an expense
 
 Before an expense can be added to an expense report, it must be released.
 
@@ -93,7 +93,7 @@ Before an expense can be added to an expense report, it must be released.
 
 To make changes to a released expense, choose **Reopen** first.
 
-## To create an expense report from an expense
+## Create an expense report from an expense
 
 You can quickly create a new expense report directly from an expense.
 
@@ -112,7 +112,7 @@ The **Billing** FastTab on the **Expense Card** page lets you specify more detai
 | **Billable** | Turn on this toggle to bill a customer for the expense. When you post the expense report, [!INCLUDE [prod_short](../includes/prod_short.md)] creates a sales invoice for the customer. |
 | **Billable to Customer** | Specify which customer to bill. |
 
-## To connect an expense to a project
+## Connect an expense to a project
 
 You can link an expense to a project for tracking and billing purposes.
 
@@ -130,9 +130,12 @@ The terms *refundable* and *reimbursable* describe different aspects of an expen
 
 When itemization is required, individual subcategory lines can have different refundable settings. For example, a hotel receipt might have the room charge as refundable while a minibar charge is marked as nonrefundable. The employee is reimbursed only for the refundable portion.
 
+## Next steps
+
+[Create and submit expense reports](expense-management-submit-report.md)
+
 ## Related information
 
-[Create and submit expense reports](expense-management-submit-report.md)  
 [Set up expense categories and rules](expense-management-categories-rules.md)  
 [Manage employee expenses](expense-management-overview.md)  
 

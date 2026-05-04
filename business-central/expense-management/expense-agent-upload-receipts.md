@@ -17,7 +17,7 @@ When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## To upload a receipt in the web app
+## Upload a receipt in the web app
 
 1. Open Expense Agent and go to **Expense reports**.
 1. Drag and drop your receipt file onto the **Upload receipt (or drop here)** area, or select it to browse for a file on your device. You can also drop an entire folder of receipts to upload multiple files at once.
@@ -35,7 +35,7 @@ Expense Agent supports JPEG, PNG, and PDF files up to 10 MB, including printed i
 
 When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. All totals displayed in the web app use the local currency, so you can easily track spending across different countries.
 
-## To create a mileage expense
+## Create a mileage expense
 
 If you drove for business, you can create a mileage expense directly from the Expense Agent without uploading a receipt.
 
@@ -54,7 +54,7 @@ The mileage expense is created and processed like any other expense. It's automa
 > [!NOTE]
 > The **Create mileage expense** action is only available if your administrator configured at least one expense category with mileage enabled in [!INCLUDE[prod_short](../includes/prod_short.md)]. If the action appears dimmed, ask your administrator to enable mileage on an expense category.
 
-## To send a receipt by email
+## Send a receipt by email
 
 You can also send receipts to Expense Agent by email. This is a convenient way to submit receipts from your phone or forward digital invoices directly.
 
@@ -67,7 +67,7 @@ Expense Agent processes each attachment and creates a separate expense for each 
 
 After the upload, the expense status shows **Processing** while AI analyzes your receipt. When scanning finishes, the status changes to **Open** and the extracted details appear for your review. If the receipt passes validation, it's automatically added to a default expense report, so you don't need to create one manually.
 
-## To review scanned receipt details
+## Review scanned receipt details
 
 AI suggests values for the following fields based on what it detects in your receipt:
 
@@ -96,6 +96,11 @@ Expense Agent keeps you updated as your receipt moves through processing:
 | **Open** | Scanning is complete. The expense is ready for your review. |
 
 You can continue working while receipts process — there's no need to wait. Come back to **Expense reports** to check on your uploads at any time.
+
+## Next steps
+
+- [Review and edit your expenses](expense-agent-edit-expenses.md)  
+- [Create and submit expense reports](expense-agent-expense-reports.md)  
 
 ## Related information
 

@@ -55,10 +55,13 @@ If you need to reconsider a decision, you can reopen a report.
 
 The report returns to a status where it can be processed again.
 
+## Next steps
+
+[Post expense reports](expense-management-post-reports.md)
+
 ## Related information
 
 [Create and submit expense reports](expense-management-submit-report.md)  
-[Post expense reports](expense-management-post-reports.md)  
 [Set up expense management](expense-management-setup.md)  
 [Manage employee expenses](expense-management-overview.md)  
 

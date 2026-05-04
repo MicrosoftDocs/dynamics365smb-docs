@@ -17,7 +17,7 @@ As an approver, you review expense reports that employees submit. You can approv
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## To review a submitted expense report
+## Review a submitted expense report
 
 1. Open Expense Agent and go to the **For My Approval** tab.
 1. Select the expense report you want to review.
@@ -27,7 +27,7 @@ As an approver, you review expense reports that employees submit. You can approv
 > [!TIP]
 > Select an individual expense line to see its full details, including the receipt image and any policy notes.
 
-## To approve an expense report
+## Approve an expense report
 
 1. Open the submitted expense report.
 1. Review the report lines and policy summary.
@@ -36,7 +36,7 @@ As an approver, you review expense reports that employees submit. You can approv
 
 The report status changes to **Approved**, and the employee is notified.
 
-## To send back an expense report
+## Send back an expense report
 
 If a report has issues that the employee needs to fix, you can send it back with comments that explain what needs to change.
 
@@ -49,6 +49,10 @@ The report status changes back to **Draft**, and the employee is notified with y
 
 > [!NOTE]
 > Approval workflows are configured and managed in [!INCLUDE [prod_short](../includes/prod_short.md)]. Contact your administrator if you have questions about approval rules or workflow settings.
+
+## Next steps
+
+- [Expense Agent overview](expense-agent-overview.md)  
 
 ## Related information
 

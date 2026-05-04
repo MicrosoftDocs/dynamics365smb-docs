@@ -102,8 +102,13 @@ You can return to the **Configure Expense Agent** page at any time to update set
 
 For setup, processing, and user issues, go to [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md).
 
+## Next steps
+
+- [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md)  
+- [Expense Agent overview](expense-agent-overview.md)  
+
 ## Related information
 
 [Set up email](../admin-how-setup-email.md)  
 [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)  
-[Configure Copilot and agent capabilities](../enable-ai.md)  
+[Configure Copilot and agent capabilities](../enable-ai.md)

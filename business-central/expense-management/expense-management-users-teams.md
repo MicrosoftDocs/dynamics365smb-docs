@@ -18,7 +18,7 @@ Before employees can create expenses, they must be set up as expense users in [!
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## To create an expense user
+## Create an expense user
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Users**, and then choose the related link.
 2. Choose **New** to open the **Expense User** card.
@@ -29,7 +29,7 @@ Before employees can create expenses, they must be set up as expense users in [!
 > [!IMPORTANT]
 > Each expense user must be linked to an employee record that has a valid company email address set in the **Company E-Mail** field. The employee posting group can't be empty.
 
-## To import expense users from Microsoft Entra ID
+## Import expense users from Microsoft Entra ID
 
 Instead of creating users one by one, you can import them from your Microsoft Entra tenant.
 
@@ -38,7 +38,7 @@ Instead of creating users one by one, you can import them from your Microsoft En
 
 This imports all Entra ID users into the expense users table. After importing, open each user's **Expense User Card** and complete the required fields, including the **Employee No.** link and **Employee Posting Group**.
 
-## To set up expense approvers
+## Set up expense approvers
 
 If your organization uses the approval workflow, you must define who can approve expense reports.
 
@@ -53,7 +53,7 @@ Expense Agent supports a simple approval process with one-to-many relationships.
 
 You can also view and edit all approval relationships on the **Expense Approval Setup** page.
 
-## To organize expense users into teams
+## Organize expense users into teams
 
 Expense teams let you group users for reporting and management purposes. Each team can have one team manager. Defining teams simplifies classification and approval structures.
 
@@ -62,10 +62,13 @@ Expense teams let you group users for reporting and management purposes. Each te
 3. Enter a code and description for the team.
 4. To add expense users to the team, click the number in the **Number of Team Members** field to open the **Expense Users** page. The page is filtered to show only members of the selected team. Choose **New** to add members to the team.
 
+## Next steps
+
+[Set up expense categories and rules](expense-management-categories-rules.md)
+
 ## Related information
 
 [Set up expense management](expense-management-setup.md)  
-[Create and manage expenses](expense-management-create-expenses.md)  
 [Manage employee expenses](expense-management-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -22,7 +22,7 @@ ms.search.form: 6903, 6933, 6987, 6989, 6997
 
 You can use expense management in two ways:
 
-- With Expense Agent enabled. Expense users submit receipts through a web app or email. Expense Agent automatically extracts data, categorizes expenses, creates expense records, and groups them into expense reports. You view and edit agent-created expenses inside [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Expense Agent overview](expense-agent.md).
+- With Expense Agent enabled. Expense users submit receipts through a web app or email. Expense Agent automatically extracts data, categorizes and itemizes expenses, creates expense records, and groups them into expense reports. You view and edit agent-created expenses inside [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Expense Agent overview](expense-agent.md).
 - Without Expense Agent. Expense users create expense reports in [!INCLUDE [prod_short](../includes/prod_short.md)] and add expense lines manually. Individual expenses aren't available without the agent, and there's no AI-powered receipt scanning, extraction, or automatic categorization. This option is useful in regions where the agent isn't enabled or when you prefer to work entirely in [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 Without the agent, you still have access to:
@@ -33,7 +33,7 @@ Without the agent, you still have access to:
 - All setup features (categories, rules, posting groups, locations)
 
 > [!TIP]
-> We recommend enabling Expense Agent for the full experience. With the agent, expenses are created automatically from receipts, categorized, and grouped into reports. Without the agent, all data entry is manual.
+> We recommend enabling Expense Agent for the full experience. With the agent, expenses are created automatically from receipts, categorized, itemized, and grouped into expense reports. Without the agent, all data entry is manual.
 
 ## Who is expense management for?
 
@@ -53,7 +53,7 @@ An expense is a work-related cost, such as a hotel stay, a meal, or a taxi ride.
 
 ### Expense reports
 
-An expense report groups one or more expenses into a single document for submission. After you add expenses to a report, submit it for approval (if approval workflows are enabled). After the report is approved, you can post it to the general ledger.
+An expense report groups one or more expenses into a single document for submission. After you add expenses to a report, submit it for approval (if approval workflows are enabled). After the report is approved, you can post it to the general ledger and other entries.
 
 ### Expense report statuses
 
@@ -71,9 +71,9 @@ Expense reports move through these statuses.
 
 ### Expense categories and rules
 
-Expense categories classify expenses by type, such as meals, travel, or office supplies. Administrators can configure categories with default payment methods, posting groups, and detail requirements like itemization or per diem.
+Expense categories classify expenses by type, such as meals, travel, or office supplies. Administrators can configure categories with default payment methods, posting groups, and detail requirements like itemization or per diem. To have more accurate itemization for all lines, administrators can add subcategories.
 
-Expense rules enforce company policy automatically. A rule defines conditions based on category and location — for example, requiring justification for meals above a certain amount, or restricting which merchants are allowed.
+Expense rules automatically apply company guidelines. A rule defines conditions based on category and location if applicable — for example, requiring justification for meals above a certain amount, or restricting which merchants are allowed.
 
 Learn more at [Set up expense categories and rules](expense-management-categories-rules.md).
 
@@ -81,7 +81,7 @@ Learn more at [Set up expense categories and rules](expense-management-categorie
 
 Understanding the difference between *refundable* and *reimbursable* is important:
 
-- **Refundable** means the expense complies with company policy and is eligible for processing. Non-refundable expenses (such as personal charges on a hotel bill) aren't posted to the general ledger.
+- **Refundable** means the expense complies with company policy and is eligible for processing. Non-refundable expenses (such as personal charges on a hotel bill) cannot be reimbursable and aren't posted to the general ledger.
 - **Reimbursable** means the employee paid personally and is owed money. An expense paid by company credit card is refundable but not reimbursable, because the company already covered the cost.
 
 A single receipt can be partially refundable. For example, a hotel bill with three refundable line items and one non-refundable minibar charge results in a partial reimbursement. Administrators set the default refundable status on expense categories and subcategories.
@@ -91,6 +91,8 @@ A single receipt can be partially refundable. For example, a hotel bill with thr
 For travel expenses, expense management supports *per diem* allowances and *mileage* reimbursement. Administrators configure rates, calculation methods, and partial-day rules in the setup. Learn more at [Set up per diem and mileage allowances](expense-management-per-diem-mileage.md).
 
 ## Expense Management role center
+
+/We should delete whole expense managfement role center section as this role center is currently an empty. It intention is only to show details in explore all roles./
 
 The **Expense Management** role center is the main navigation hub. From here, you can access:
 
@@ -112,7 +114,7 @@ The license you need depends on how you interact with expense management:
 | Post expense reports and process payments in [!INCLUDE [prod_short](../includes/prod_short.md)] | Essentials or Premium license |
 
 > [!NOTE]
-> Expense users who work exclusively through the Expense Agent web app or email don't need a [!INCLUDE [prod_short](../includes/prod_short.md)] license. They can also approve reports through the web app without a [!INCLUDE [prod_short](../includes/prod_short.md)] license. However, if a user signs in to [!INCLUDE [prod_short](../includes/prod_short.md)] to perform any expense task, they must have at least a Team Member license.
+> Expense users who work exclusively through the Expense Agent web app or email don't need a [!INCLUDE [prod_short](../includes/prod_short.md)] license. They can also approve reports through the web app, but in this case they must have minimum Team Member [!INCLUDE [prod_short](../includes/prod_short.md)] license. However, if a user signs in to [!INCLUDE [prod_short](../includes/prod_short.md)] to perform any expense task, they must have at least a Team Member license.
 
 ## Related information
 

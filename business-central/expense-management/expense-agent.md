@@ -16,7 +16,7 @@ ms.search.form: 4400, 4410
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The **Expense Agent** is an AI-powered agent that automates expense processing in Business Central. It handles receipt intake, data extraction, categorization, and expense line creation, then groups expenses into reports for review and approval.
+The **Expense Agent** is an AI-powered agent that automates expense processing in Business Central. It handles receipt intake, data extraction, categorization, itemization, and expense line creation, then groups expenses into expense reports for review and approval.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -48,6 +48,7 @@ From each receipt, the agent identifies and extracts:
 - Expense date
 - Total amount
 - Currency
+- Payment method
 - Line-item details (when available and itemization is required)
 
 ### Categorization and rule application
@@ -65,8 +66,9 @@ Company policies and rules configured in Business Central are enforced during th
 The agent creates draft expense report lines from the extracted data, populating:
 
 - Merchant, Description, Receipt number
-- Amount, Currency, Expense date
+- Amount, Currency, Payment methid, Expense date
 - Expense Category and Subcategory
+- Participants, Expense location, Starting and Ending date and time, Starting and Ending points, or Mileage if applicable based on the category type
 
 ### User review
 
@@ -78,7 +80,7 @@ The agent runs the following sequence automatically:
 
 1. Receipt intake
 2. Data extraction
-3. Categorization
+3. Categorization and Itemization
 4. Expense creation
 5. Monthly expense report creation
 6. Submission for approval
@@ -99,7 +101,7 @@ Administrators enable the agent from Business Central using the dedicated **EA**
 
 ### Billing for use
 
-The Expense Agent consumes Copilot Credits for AI processing. Charges depend on the complexity of each interaction. Set up a billing model for your Business Central environment before using the agent. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+The Expense Agent consumes Copilot Credits for AI processing. It costs 50 Copilot Credits for one receipt handling (one expense creation) regardless of complexity; it covers whole process from extraction, through categorization and itemization, groupping into expense reports and approving. Set up a billing model for your Business Central environment before using the agent. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 ### How the agent operates
 

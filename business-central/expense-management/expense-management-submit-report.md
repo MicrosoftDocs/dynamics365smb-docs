@@ -8,6 +8,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6910, 6911, 6960, 6979, 6997
+ai-usage: ai-generated
 ---
 
 # Create and submit expense reports

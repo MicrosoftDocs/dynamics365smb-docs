@@ -8,6 +8,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6996
+ai-usage: ai-generated
 ---
 
 # How Expense Agent processes emails

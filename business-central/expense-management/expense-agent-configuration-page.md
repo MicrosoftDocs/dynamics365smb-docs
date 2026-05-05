@@ -28,7 +28,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - The Business Central environment is a US version
 
-  The agent is currently only available for with environment is the US. Learn more in [Copilot country/region availability and supported languages](../copilot-agents-region-language-availability.md).
+  The agent is currently only available when the environment is in the US. Learn more in [Copilot country/region availability and supported languages](../copilot-agents-region-language-availability.md).
 
 - The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center for Microsoft Online Services.  
 
@@ -118,7 +118,7 @@ As an administrator, you can specify which users have permission to use or confi
 1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
-   - To give a user permission to configure Payables Agent, select the **Can configure** check box. <br><br> The **Can configure** setting defines whether a user has access to update the agent configuration (for example, updating the designated mailbox, activating and deactivating the agent, and other settings) or only to work with the agent tasks (for example, reviewing and confirming agent steps).
+   - To give a user permission to configure Expense Agent, select the **Can configure** check box. <br><br> The **Can configure** setting defines whether a user has access to update the agent configuration (for example, updating the designated mailbox, activating and deactivating the agent, and other settings) or only to work with the agent tasks (for example, reviewing and confirming agent steps).
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](../media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 #### [From the agent card page](#tab/payablesagentpage)
@@ -128,7 +128,7 @@ As an administrator, you can specify which users have permission to use or confi
 1. In the **User access** section, do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
-   - To give a user permission to configure Payables Agent, select the **Can configure** check box.
+   - To give a user permission to configure Expense Agent, select the **Can configure** check box.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 ---
@@ -139,12 +139,12 @@ Expense Agent has a user account in Business Central, similar to other users. To
 
 The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Expense Agent has the **EXPENSE AGENT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for processing employee expenses.
 
-You can't modify the **EXPENSE AGENT** permission set directly, because it's a system permissions set. However, you can create a copy, modify the copy to suit your needs, then add it to **Agent Permission Sets** section, along with any other permission sets.
+You can't modify the **EXPENSE AGENT** permission set directly, because it's a system permissions set. However, you can create a copy, modify the copy to suit your needs, then add it to the **Agent Permission Sets** section, along with any other permission sets.
 
-Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
+Before you can add or delete permission sets applied to the agent, change the **State** to **Disabled**. When you're done making changes, set it back to **Enabled**.
 
 ## Change agent language, regional, and other settings
-S
+
 [!INCLUDE[expense-agent-language-support](../includes/expense-agent-geo-language-support.md)]
 
 1. Search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select **EXPENSE AGENT**.

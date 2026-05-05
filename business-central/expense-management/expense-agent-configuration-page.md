@@ -45,7 +45,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - Number series, payment methods, and posting groups for expenses are configured (optional).  
 
-  You can choose to use default values during setup, and the wizard creates these entities for you. 
+  You can choose to use default values during setup, and it creates these entities for you. 
 
 - Billing for agent capabilities is set up in Business Central admin center.
 

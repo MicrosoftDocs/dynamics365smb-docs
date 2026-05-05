@@ -1,6 +1,6 @@
 ---
 title: Set Up Expense Categories and Rules
-description: Learn how to create expense categories, subcategories, locations, and policy rules that control what expenses employees can submit in Business Central.
+description: Learn how to create expense categories, subcategories, payment methods, locations, and policy rules that control what expenses employees can submit in Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.date: 04/22/2026
@@ -11,24 +11,34 @@ ms.search.form: 6900, 6901, 6920, 6930, 6937, 6945, 6946, 6952, 6973
 ai-usage: ai-generated
 ---
 
-# Set up expense categories and rules
+# Set up expense categories, payment methods and rules
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Expense categories classify the types of expenses employees can submit. Expense rules enforce your organization's spending policies automatically. This article explains how to set up both in [!INCLUDE[prod_short](../includes/prod_short.md)].
+Expense categories define how expenses are classified for reporting and processing purposes. Payment methods specify how an expense is paid and reimbursed, distinguishing between employee-paid and company-paid scenarios. Expense rules enforce policy compliance by validating expenses against predefined conditions. This article explains how to set up both in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Set up expense payment methods
 
-Payment methods define how expenses were paid, such as cash, credit card, or company card.
+Payment methods define how expenses were paid, such as cash, credit card, or company bank account, specifying reimbursement types for expenses.  
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Payment Methods**, and then choose the related link.
 2. Choose **New** and create entries for each payment method your organization uses.
 
+> [!NOTE]
+> When creating a new expense payment method, you must assign a **Reimbursement Type** (Employee Paid, Credit Card, or Company Paid). Each reimbursement type can be used by only one payment method.   
+
+> [!NOTE]
+> Expenses with the **Employee Paid** reimbursement type are reimbursable, as they are paid out-of-pocket by the employee. Expenses with **Credit Card** or **Company Paid** reimbursement types are posted but not reimbursable, as they are covered directly by the company.  
+
 ## Create expense categories
 
-An expense category represents a type of expense, such as meals, travel, or office supplies. Each category can have its own posting group, payment method, and detail requirements.
+An expense category represents a type of expense or allowance, such as meals, travel, office supplies, per diem, or mileage. Each category can be configured with its own posting group, default payment method, and specific requirements for additional details. 
+
+To further refine classification, we recommend using expense subcategories within each category. Subcategories provide more granular distinction and improve reporting clarity and polcy readiness. For categories configured for itemization, subcategories are required.  
+
+To create the **Expense Category**, follow next steps:
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Categories**, and then choose the related link.
 2. Choose **New** to create a category, or open an existing one to modify its setup.
@@ -37,7 +47,8 @@ An expense category represents a type of expense, such as meals, travel, or offi
     | Field | Description |
     | --- | --- |
     | **Code** | A short code that identifies the category. |
-    | **Description** | A description of the category. |
+    | **Description** | Specifies the meaning and usage of this category for the Expense Agent. Provide a detailed explanation, as the agent relies on this description for accurate classification. Maximum 250 characters. |
+    | **Posting Description** | A short description of the category used for posting. |
     | **Posting Group** | The posting group used for general ledger accounting. Links the category to the appropriate G/L accounts. |
     | **Default Payment Method** | The default expense payment method for expenses in this category. For example, **Cash** (employee paid personally), **Credit Card** (company-issued card), or **Company Paid** (paid directly by the company). Users can still change this setting per expense. To learn more about payment methods, go to [Set up expense payment methods](#set-up-expense-payment-methods). |
     | **Attachment Enforcement** | Specifies whether an attachment (receipt) is required when submitting expenses in this category. |
@@ -47,30 +58,39 @@ An expense category represents a type of expense, such as meals, travel, or offi
     | **Prepayment-Cash Advance** | Specifies whether the category requires or supports prepayments or cash advances. |
     | **Inactive** | Marks the category as inactive. Inactive categories can't be used for new expenses. |
 
-4. To add subcategories, choose the **Subcategories** action and create entries for more specific classifications.
+> [!NOTE]
+> Category description is critical, as the accuracy of the agent depends directly on it. When creating your own descriptions, follow these guidelines: the description should clearly explain the primary purpose of the category and include enough detail to help the agent understand the context of extracted receipts and assign the correct category accurately.  
+> For example for the hotel stay you can use this: '_Expenses for hotel and accommodation stays related to business travel. Includes room charges, mandatory hotel fees, city or tourist taxes, and in-stay services charged to the room._'   
+> Or for airline you can use the following example: '_Expenses for commercial air travel, including airline tickets and airfare. Covers flights, passenger names, routes, carriers, booking references, fares, taxes, seat selection, baggage or change fees, and boarding passes._' 
 
 > [!NOTE]
 > A refundable expense is one the company can accept and reimburse according to internal policy. Because employees might occasionally submit nonbusiness expenses, the **Refundable** toggle helps identify and restrict nonallowable items early in the process.
+
+4. To add **Expense Subcategories** for specific category, select the category you want and choose the **Subcategories** action and create entries for more specific classifications.
 
 ## Create expense subcategories
 
 Each expense category can include one or more subcategories. Subcategories are especially important when itemization is required, because they let users break down a single receipt into multiple types of charges (for example, a hotel stay versus a minibar charge).
 
-1. Open the **Expense Category** you want to add subcategories to.
+1. Open or select the **Expense Category** you want to add subcategories to.
 2. Choose the **Subcategories** action.
 3. Add lines for each subcategory and complete the following fields:
 
     | Field | Description |
     | --- | --- |
     | **Code** | A short code that identifies the subcategory. |
-    | **Description** | A description of the subcategory. |
+    | **Description** | Specifies the meaning and usage of this subcategory for the Expense Agent. Provide a detailed explanation, as the agent relies on this description for accurate classification. Maximum 250 characters. |
+    | **Posting Description** | A short description of the subcategory used for posting. |
     | **Expense Description Mandatory** | Requires users to enter a custom description. Standard descriptions can't be used when this toggle is turned on. |
     | **Refundable** | Specifies whether the subcategory is refundable by default. Useful when itemizing because some parts of a receipt might be refundable while others aren't. |
     | **Inactive** | Marks the subcategory as inactive. |
 
+> [!NOTE]
+> Each subcategory can be configured as refundable or non-refundable. Even if the main category is marked as refundable, it does not guarantee that all expense lines are compliant. Subcategories allow accurate calculation of refundable and non-refundable amounts. 
+
 ## Set up expense locations
 
-Expense locations define the geographic areas used for calculating per diem allowances. A simple country/region definition is often not enough because daily rates can vary due to differences in purchasing power or travel policies. Expense locations let you define country/regional, or city-level areas with distinct per diem rates.
+Expense locations define the geographic areas used for calculating per diem allowances. A simple country/region definition is often not enough because daily rates can vary due to differences in purchasing power or travel policies. Expense locations let you define country/regional, or city-level areas with distinct per diem rates. 
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Locations**, and then choose the related link.
 2. Choose **New** or open an existing location to modify it.

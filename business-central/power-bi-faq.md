@@ -95,7 +95,7 @@ The methods in this section require that guest users know the domain name of you
 1. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.
 1. On the **Dynamics Business Central** connector dialog box, select **Sign in** and then follow the instructions to [sign in to the host's organization](#sign-in-to-hosts-organization).
 
-   :::image type="content" source="media/power-bi-desktop-connector-sign-in.png" alt-text="Shows a screenshot of the the Business Central connector sign-in dialog box":::
+   :::image type="content" source="media/power-bi-desktop-connector-sign-in.png" alt-text="Shows a screenshot of the Business Central connector sign-in dialog box":::
 
 ##### Publishing reports: Switch to host's Business Central tenant
 

@@ -52,8 +52,8 @@ Shift depreciation is used when manufacturing companies have multiple production
     |**Depreciation Ending Date**|Specifies the ending date of depreciation.|
     |**No. of Depreciation Years**|Specifies the no. of years of depreciation.|
     |**Depreciation Method**|Specifies the depreciation calculation method.|
-    |**Straight Line %**|Specifies the the Straight Line % if the depreciation method is selected as straight line.|
-    |**Declining-Balance %**|Specifies the the Declining-Balance % if the depreciation method is selected as straight line.|
+    |**Straight Line %**|Specifies the Straight Line % if the depreciation method is selected as straight line.|
+        |**Declining-Balance %**|Specifies the Declining-Balance % if the depreciation method is selected as straight line.|
     |**Shift Type**|Specifies the shift type, for example Single, Double, Triple.|
     |**Industry Type**|Specifies the industry type, for example Normal, Seasonal, Non-Seasonal.|
     |**Used No. of Days**|Specifies the used number of days.|

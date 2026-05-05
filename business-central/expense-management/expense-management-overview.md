@@ -8,6 +8,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6903, 6933, 6987, 6989, 6997
+ai-usage: ai-generated
 ---
 
 # Manage employee expenses

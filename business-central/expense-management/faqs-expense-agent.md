@@ -11,6 +11,7 @@ ms.author: altotovi
 ms.reviewer: altotovi
 ms.collection:
   - bap-ai-copilot
+ai-usage: ai-assisted
 ---
 # Responsible AI FAQ for Expense Agent (preview)
 

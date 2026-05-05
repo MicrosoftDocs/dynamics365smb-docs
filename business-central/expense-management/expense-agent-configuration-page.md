@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.date: 01/30/2026
 ms.author: jswymer
 ms.reviewer: jswymer
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Set up Expense Agent

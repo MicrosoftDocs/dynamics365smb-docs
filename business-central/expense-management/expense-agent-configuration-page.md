@@ -26,10 +26,15 @@ For most organizations, assisted setup is the best way to get started quickly.
 
 Before you set up the Expense Agent, make sure the following prerequisites are met:
 
+- The Business Central environment is a US version
+
+  The agent is currently only available for with environment is the US. Learn more in [Copilot country/region availability and supported languages](../copilot-agents-region-language-availability.md).
+
 - The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center for Microsoft Online Services.  
+
   Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
 
-- Your Business Central account has the **Agent Admin** and **EXPENSE MGMT. ADMIN** permission sets or equivalent permissions.
+- Your Business Central account has the **AGENT ADMIN** and **EXPENSE MGMT. ADMIN** permission sets or equivalent permissions.
 
 - A shared mailbox is available for receiving expense submissions from employees.  
   
@@ -98,6 +103,59 @@ After the Expense Agent is active:
 - Managers and approvers can review and approve expense reports in Business Central and the Expense Agent web app.
 
 You can return to the **Configure Expense Agent** page at any time to update settings, apply other defaults, or deactivate and reactivate the agent.
+
+## Manage agent permissions and user access
+
+### Add agent users
+
+As an administrator, you can specify which users have permission to use or configure the agent. There are two ways to add and configure agent users:
+
+#### [From the assisted setup](#tab/payablesagentconfig)
+
+1. Select ![Shows the Expense Agent icon after configured](../media/expense-agent-icon-small.png) **Expense Agent** > ![Shows the configuration icon for Payables Agent](../media/soa-configure-icon.png) **Configure**.
+1. Turn off the **Active** toggle.
+1. Select **Manage user access**.
+1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:
+
+   - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
+   - To give a user permission to configure Payables Agent, select the **Can configure** check box. <br><br> The **Can configure** setting defines whether a user has access to update the agent configuration (for example, updating the designated mailbox, activating and deactivating the agent, and other settings) or only to work with the agent tasks (for example, reviewing and confirming agent steps).
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](../media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
+
+#### [From the agent card page](#tab/payablesagentpage)
+
+1. Search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select **EXPENSE AGENT**.
+1. Set **Status** to **Disabled** to deactivate the agent.
+1. In the **User access** section, do the following steps:
+
+   - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
+   - To give a user permission to configure Payables Agent, select the **Can configure** check box.
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
+
+---
+
+### Manage agent's permissions to objects, data, and UI elements
+
+Expense Agent has a user account in Business Central, similar to other users. To edit this account, search for and open the **Agents** page, and then select **EXPENSE AGENT** to open the agent card page.
+
+The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Expense Agent has the **EXPENSE AGENT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for processing employee expenses.
+
+You can't modify the **EXPENSE AGENT** permission set directly, because it's a system permissions set. However, you can create a copy, modify the copy to suit your needs, then add it to **Agent Permission Sets** section, along with any other permission sets.
+
+Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
+
+## Change language, regional, and other settings
+
+[!INCLUDE[expense-agent-language-support](../includes/expense-agent-geo-language-support.md)
+
+1. Search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select **EXPENSE AGENT**.
+1. Select **Agent User Settings** and set the following fields:
+
+   |Field|Description|
+   |-|-|
+   |Profile|Specifies the role that defines the agent's home page with links to the most common tasks.|
+   |Region|Specifies the regional format used by the agent for dates, times, and numbers in outgoing emails and task details.|
+   |Language|Specifies the language the agent uses for generated text in:<ul><li>Outgoing email messages to employees. If an employee card has a language specified, the agent uses that language instead of the default.</li><li>Task details and descriptions in the agent **Tasks** page and log.</li></ul> |
+   |Time zone|Specifies the time zone used by the agent when displaying and processing date and time in tasks details.|
 
 ## Troubleshooting
 

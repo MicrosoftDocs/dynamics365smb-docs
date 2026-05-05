@@ -3,10 +3,10 @@ title: Set up Expense Agent
 description: Learn how to set up Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 01/30/2026
+ms.date: 05/05/2026
 ms.author: jswymer
 ms.reviewer: jswymer
-ai-usage: ai-assisted
+ai-usage: ai-generated
 ---
 
 # Set up Expense Agent
@@ -143,9 +143,9 @@ You can't modify the **EXPENSE AGENT** permission set directly, because it's a s
 
 Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
 
-## Change language, regional, and other settings
-
-[!INCLUDE[expense-agent-language-support](../includes/expense-agent-geo-language-support.md)
+## Change agent language, regional, and other settings
+S
+[!INCLUDE[expense-agent-language-support](../includes/expense-agent-geo-language-support.md)]
 
 1. Search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select **EXPENSE AGENT**.
 1. Select **Agent User Settings** and set the following fields:

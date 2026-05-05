@@ -28,7 +28,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 - The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center for Microsoft Online Services.  
   Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
 
-- Your Business Central account has the **EXPENSE MGMT. ADMIN** permission set or equivalent permissions.
+- Your Business Central account has the **Agent Admin** and **EXPENSE MGMT. ADMIN** permission sets or equivalent permissions.
 
 - A shared mailbox is available for receiving expense submissions from employees.  
   
@@ -111,4 +111,5 @@ For setup, processing, and user issues, go to [Troubleshoot common issues in Exp
 
 [Set up email](../admin-how-setup-email.md)  
 [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)  
-[Configure Copilot and agent capabilities](../enable-ai.md)
+[Configure Copilot and agent capabilities](../enable-ai.md)  
+[Assign permissions to users and groups](../ui-define-granular-permissions.md)  

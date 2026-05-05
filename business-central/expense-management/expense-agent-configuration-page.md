@@ -22,6 +22,9 @@ You can configure Expense Agent in two ways:
 
 For most organizations, assisted setup is the best way to get started quickly.
 
+> [!NOTE]
+> Assisted setup is the best way to start quickly, but in a case you have complex policies, we recommend review all setup areas later to eventually adjust your setup to achieve maximum of the agen capabilities.  
+
 ## Prerequisites
 
 Before you set up the Expense Agent, make sure the following prerequisites are met:
@@ -36,7 +39,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - Your Business Central account has the **AGENT ADMIN** and **EXPENSE MGMT. ADMIN** permission sets or equivalent permissions.
 
-- A shared mailbox is available for receiving expense submissions from employees.  
+- A shared mailbox is available for receiving expense submissions from employees and for communication with users sending different information reports back.  
   
   The mailbox must be a Microsoft 365 **user mailbox** or **shared mailbox** in your organization. Learn more in [Set up email](../admin-how-setup-email.md).
 
@@ -66,7 +69,7 @@ The page guides you through agent setup. You configure submission channels, acce
 1. The configuration options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to move between pages.
 1. When you finish configuring the options, turn on the **Active** toggle to activate the agent.  
    If you don't want to activate the agent yet, leave the toggle off. You can return to the page to activate the agent later.
-1. Select **Save**.
+1. Select **Update**.
 
 After configuration, the Expense Agent icon indicates the agent’s status:
 

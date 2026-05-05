@@ -10,6 +10,7 @@ ms.reviewer: altotovi
 ms.collection:
   - bap-ai-copilot
 ms.search.form: 4400, 4410
+ai-usage: ai-assisted
 ---
 
 # Expense Agent overview

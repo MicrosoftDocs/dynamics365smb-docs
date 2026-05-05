@@ -104,9 +104,13 @@ After the Expense Agent is active:
 
 You can return to the **Configure Expense Agent** page at any time to update settings, apply other defaults, or deactivate and reactivate the agent.
 
-## Manage agent permissions and user access
+## After initial setup: Manage access and settings
 
-### Add agent users
+The following sections cover tasks you typically do after completing the assisted setup, such as adjusting user permissions or changing language settings.
+
+### Manage agent permissions and user access
+
+#### Add agent users
 
 As an administrator, you can specify which users have permission to use or configure the agent. There are two ways to add and configure agent users:
 
@@ -133,7 +137,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 ---
 
-### Manage agent's permissions to objects, data, and UI elements
+#### Manage agent's permissions to objects, data, and UI elements
 
 Expense Agent has a user account in Business Central, similar to other users. To edit this account, search for and open the **Agents** page, and then select **EXPENSE AGENT** to open the agent card page.
 
@@ -143,7 +147,7 @@ You can't modify the **EXPENSE AGENT** permission set directly, because it's a s
 
 Before you can add or delete permission sets applied to the agent, change the **State** to **Disabled**. When you're done making changes, set it back to **Enabled**.
 
-## Change agent language, regional, and other settings
+### Change agent language, regional, and other settings
 
 [!INCLUDE[expense-agent-language-support](../includes/expense-agent-geo-language-support.md)]
 

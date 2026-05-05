@@ -16,6 +16,9 @@ ms.custom: bap-template
 
 Quality management is a quality inspection application for [!INCLUDE [prod_short](includes/prod_short.md)]. Quality management features can help you maintain product quality standards by creating inspections at key points in your purchasing, production, assembly, and warehouse management processes. 
 
+> [!NOTE]
+> Quality Management is a Microsoft-published extension that installs automatically on new environments. For existing environments, you can install it from the **Extension Management** page or get it from [Microsoft Marketplace](https://marketplace.microsoft.com/product/PUBID.microsoftdynsmb%7CAID.bc_qualitymanagement%7CPAPPID.bc7b3891-f61b-4883-bbb3-384cdef88bec). To learn more, go to [Quality management setup and configuration](qms-setup.md#prerequisites).
+
 ## Key capabilities
 
 Quality management features offer a range of benefits.

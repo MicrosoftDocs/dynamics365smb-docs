@@ -16,6 +16,22 @@ ms.custom: bap-template
 
 This article explains the initial setup and configuration of quality management features.
 
+## Prerequisites
+
+- Make sure that the **Quality Management** extension is installed.
+
+  The extension is preinstalled for all new environments. For existing environments, install it from the **Extension Management** page or get it from [Microsoft Marketplace](https://marketplace.microsoft.com/product/PUBID.microsoftdynsmb%7CAID.bc_qualitymanagement%7CPAPPID.bc7b3891-f61b-4883-bbb3-384cdef88bec). Learn more about installing extensions at [Installing and Uninstalling Extensions](ui-extensions-install-uninstall.md#install).
+
+- Ensure that users have the right permissions. Quality Management provides three permission sets:
+
+  |Permission set  |Purpose  |
+  |---------|---------|
+  |**Quality Admin & Supervisor**     |Full access to all quality management configuration and data, including setup, templates, tests, generation rules, and inspections.        |
+  |**Quality Inspector**     |Can record measurements, finish inspections, and update result conditions, but can't change setup, templates, or generation rules. Must be explicitly assigned to users who perform inspections.         |
+  |**Quality Auditor**     |Read-only access to all quality data for review and reporting.         |
+
+  Learn more at [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+
 ## Typical setup scenarios
 
 If you're setting up the app for purchase receipt inspections only, focus on purchase trigger configuration. Create templates for inspecting incoming goods, and set up rules for vendor-specific or item-specific testing.

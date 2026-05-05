@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8059, 8061_Primary
-ms.date: 07/11/2025
+ms.date: 05/04/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -34,4 +34,5 @@ Similar to the FactBox, you can also use the **Subscription Packages** action to
 
 ## Related information
 
-[Overview of subscription billing](../welcome.md)
+[Overview of subscription billing](../welcome.md)  
+[Power BI Subscription Billing app](../analytics/subscription-powerbi-app.md)

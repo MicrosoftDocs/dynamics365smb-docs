@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8014, 8071, 8053, 8052, 8004, 8015
-ms.date: 07/11/2025
+ms.date: 05/04/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -66,3 +66,4 @@ Invoice discounts are applicable to both customer and vendor subscription contra
 
 [Customer subscription contracts](customer-contracts.md)  
 [Vendor subscription contracts](vendor-contracts.md)  
+[Power BI Subscription Billing app](../analytics/subscription-powerbi-app.md)  

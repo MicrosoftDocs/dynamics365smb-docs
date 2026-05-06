@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 # Consolidate Balances for a Company that is a Customer and a Vendor
-A company that you do business with might be both a customer and a vendor. When that's the case, you can avoid making unnecessary payments or receipts, and perhaps save on transaction fees, by consolidating the company's customer and vendor balances. Consolidation compares the company's balances as a vendor and as a customer, and then nets the amount so that that either the customer or vendor balance remains, depending on which amount was higher. 
+A company that you do business with might be both a customer and a vendor. When that's the case, you can avoid making unnecessary payments or receipts, and perhaps save on transaction fees, by consolidating the company's customer and vendor balances. Consolidation compares the company's balances as a vendor and as a customer, and then nets the amount so that either the customer or vendor balance remains, depending on which amount was higher. 
 
 To consolidate the balances, you must first link the customer and vendor companies through a contact that has the type **Company**. A customer or vendor can only have one contact of the type **Company**. For more information, see [Create Contacts](marketing-create-contact-companies.md).
 

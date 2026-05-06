@@ -18,7 +18,7 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
 It's relatively rare for businesses to sell inventory items as assemble-to-order items. Assemble-to-order items typically aren't standard. They're customized to meet specific customer requirements. However, you might have quantities of assemble-to-order items in inventory due to returns or order cancellations. Those quantities should be picked and sold before new ones are assembled.  
 
 > [!NOTE]  
-> To check whether whether assemble-to-order items are already available for assembly orders, use the **Sales Line Details** FactBox on the sales order.  
+> To check whether assemble-to-order items are already available for assembly orders, use the **Sales Line Details** FactBox on the sales order.  
 
 You can do similar things when you're selling assembly items from inventory and some or all of the quantity isn't available. You can supply the missing quantity through an assembly order. To learn more about selling inventory and assembly items, go to [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 

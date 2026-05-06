@@ -1,6 +1,6 @@
 ---
 title: Work with inventory periods
-description: You can control the timeframe in which people can post post changes to inventory by defining inventory periods.
+description: You can control the timeframe in which people can post changes to inventory by defining inventory periods.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al

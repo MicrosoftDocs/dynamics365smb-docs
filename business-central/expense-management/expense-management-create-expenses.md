@@ -15,13 +15,16 @@ ai-usage: ai-generated
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When you incur a business expense, you record it in [!INCLUDE[prod_short](../includes/prod_short.md)] as an individual expense. Each expense captures the amount, date, category, and supporting details like receipts or merchant information. After you record expenses, you can add them to an expense report for submission.
+If you use Expense Agent when you incur a business expense, you record it in [!INCLUDE[prod_short](../includes/prod_short.md)] as an individual expense. Each expense captures the amount, date, category, and supporting details like receipts or merchant information. After you record expenses, you can add them to an expense report for submission.
+
+However, the agent does almost all of that for you. The expense user uploads a receipt file in the web app, and viola, the agent handles the rest. Learn more at [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-If you use Expense Agent, however, the agent does almost all of that for you. The expense user uploads a receipt file in the web app, and viola, the agent handles the rest. Learn more at [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md).
-
 This article describes how to enter an expense using [!INCLUDE [prod_short](../includes/prod_short.md)] only.
+
+> [!NOTE]
+> You can create and modify individual expenses directly in [!INCLUDE [prod_short](../includes/prod_short.md)] only if the **Expense Agent** is enabled. Otherwise, you must create an **Expense Report** and add each expense as a separate line.
 
 ## Create an expense
 
@@ -39,7 +42,7 @@ This article describes how to enter an expense using [!INCLUDE [prod_short](../i
 > [!TIP]
 > If your organization uses expense rules, any violations appear in the **Rule Violations** FactBox on the right side of the page. Review and address violations before submitting the expense in a report.
 
-## Attach a receipt
+### Attach a receipt
 
 You can attach receipt images or PDF files to an expense for documentation purposes.
 
@@ -48,21 +51,24 @@ You can attach receipt images or PDF files to an expense for documentation purpo
 
 If you attach a PDF, a **Preview** FactBox displays the document directly on the expense card.
 
-<!--## Add itemizations
+### Add itemizations
 
 For expenses that require itemization (based on the category), you can break down the total amount into line items.
 
 1. On the **Expense** card, choose the **Itemizations** action.
 2. Add line items with the relevant details and amounts.
 
-## Add participants
+> [!IMPORTANT]
+> The **Total Amount** of all lines in the **Expense Itemizations** page must exactly match the **Expense Amount**.
+
+### Add participants
 
 For expense categories that require participants, such as business meals, you can list the attendees.
 
 1. On the **Expense** card, choose the **Participants** action.
-2. Add each participant with their name and type. -->
+2. Add each participant with their name and type.
 
-## Record a mileage expense
+### Record a mileage expense
 
 When the expense category requires mileage details, more fields appear in the **Travel** section.
 
@@ -74,7 +80,7 @@ When the expense category requires mileage details, more fields appear in the **
 
 The amount is calculated based on the mileage rate configured on the **Expense Agent Setup** page.
 
-## Record a per diem expense
+### Record a per diem expense
 
 When the expense category requires per diem details, the **Travel** section shows date and time fields.
 
@@ -84,7 +90,46 @@ When the expense category requires per diem details, the **Travel** section show
 4. In the **Ending Date and Time** field, enter when it ended.
 5. Choose the **Per Diem** action to view or edit the calculated per diem entries.
 
-[!INCLUDE [prod_short](../includes/prod_short.md)] calculates the per diem amount based on the rates and rules configured on the **Expense Agent Setup** page.
+[!INCLUDE [prod_short](../includes/prod_short.md)] calculates the per diem amount based on the rates and rules configured on the **Expense Agent Setup** and **Expense Management Rules** pages. So, before start, be sure you have properly configured whole setup.
+
+### Billing and reimbursement fields
+
+The **Billing** FastTab on the **Expense Card** page lets you specify more details.
+
+| Fields | Description |
+| -- | -- |
+| **Refundable** | Indicates whether the expense complies with company policy and is eligible for processing. Nonrefundable expenses aren't posted to the general ledger. The expense category sets the default. |
+| **Reimbursement Type** | Specifies how to process the reimbursement based on the payment method. Expenses paid by the employee (cash) are reimbursable. Expenses paid by company card or bank account are expensed but not reimbursed. |
+| **Non-Refundable Amount** | Specifies the reduction to the reimbursable amount. Available when Refundable is on and the category does not require itemization. |
+| **Reimbursable Amount** | The amount eligible for reimbursement. This amount is zero for expenses paid by company credit card, because the company already covered the cost. |
+| **Payment Method Code** | The payment method used for this expense, such as **Cash**, **Credit Card**, or **Company Paid**. Changing the method recalculates the reimbursable amount. |
+| **Billable** | Turn on this toggle to bill a customer for the expense. When you post the expense report, [!INCLUDE [prod_short](../includes/prod_short.md)] creates a sales invoice for the customer. |
+| **Billable to Customer** | Specify which customer to bill. |
+
+#### Understand refundable versus reimbursable
+
+The terms *refundable* and *reimbursable* describe different aspects of an expense:
+
+- **Refundable** means the expense complies with company policy and is accepted as a valid business expense. The default value comes from the expense category, but you can change it on individual expenses if you have permission. Nonrefundable expenses aren't posted to the general ledger, but they must still be tracked in the system. For example, if an employee uses a company card for a nonbusiness purchase, the amount needs to be recorded and potentially recovered from the employee.
+- **Reimbursable** means the employee paid out of pocket and is eligible to receive money back. An expense paid with a company credit card or bank account is refundable but not reimbursable, because the company already covered the cost.
+
+When itemization is required, individual subcategory lines can have different refundable settings. For example, a hotel receipt might have the room charge as refundable while a minibar charge is marked as nonrefundable. The employee is reimbursed only for the refundable portion.
+
+### Connect an expense to a project
+
+You can link an expense to a project for tracking and billing purposes.
+
+1. On the **Expense** card, in the **Billing** section, fill in the **Project No.** field.
+2. In the **Project Task No.** field, select the relevant project task.
+
+When you post the expense report, [!INCLUDE [prod_short](../includes/prod_short.md)] creates a project ledger entry and the standard expense and employee ledger entries.
+
+## Expense dimensions
+
+You can assign global dimensions to an **Expense** using the **Dimensions** FastTab, and add additional dimensions by selecting the **Dimensions** action. 
+
+> [!NOTE]  
+> The Expense automatically inherits default dimensions from the **Expense User** (based on the linked **Employee**) or from the selected **Project No**.  
 
 ## Release an expense
 
@@ -100,36 +145,6 @@ You can quickly create a new expense report directly from an expense.
 
 1. On the **Expense** card, choose **Create Expense Report**.
 
-## Billing and reimbursement fields
-
-The **Billing** FastTab on the **Expense Card** page lets you specify more details.
-
-| Fields | Description |
-| -- | -- |
-| **Refundable** | Indicates whether the expense complies with company policy and is eligible for processing. Nonrefundable expenses aren't posted to the general ledger. The expense category sets the default. |
-| **Reimbursement Type** | Specifies how to process the reimbursement based on the payment method. Expenses paid by the employee (cash) are reimbursable. Expenses paid by company card or bank account are expensed but not reimbursed. |
-| **Reimbursable Amount** | The amount eligible for reimbursement. This amount is zero for expenses paid by company credit card, because the company already covered the cost. |
-| **Payment Method Code** | The payment method used for this expense, such as **Cash**, **Credit Card**, or **Company Paid**. Changing the method recalculates the reimbursable amount. |
-| **Billable** | Turn on this toggle to bill a customer for the expense. When you post the expense report, [!INCLUDE [prod_short](../includes/prod_short.md)] creates a sales invoice for the customer. |
-| **Billable to Customer** | Specify which customer to bill. |
-
-## Connect an expense to a project
-
-You can link an expense to a project for tracking and billing purposes.
-
-1. On the **Expense** card, in the **Dimensions** section, fill in the **Project No.** field.
-2. In the **Project Task No.** field, select the relevant project task.
-
-When you post the expense report, [!INCLUDE [prod_short](../includes/prod_short.md)] creates a project ledger entry and the standard expense and employee ledger entries.
-
-## Understand refundable versus reimbursable
-
-The terms *refundable* and *reimbursable* describe different aspects of an expense:
-
-- **Refundable** means the expense complies with company policy and is accepted as a valid business expense. The default value comes from the expense category, but you can change it on individual expenses if you have permission. Nonrefundable expenses aren't posted to the general ledger, but they must still be tracked in the system. For example, if an employee uses a company card for a nonbusiness purchase, the amount needs to be recorded and potentially recovered from the employee.
-- **Reimbursable** means the employee paid out of pocket and is eligible to receive money back. An expense paid with a company credit card or bank account is refundable but not reimbursable, because the company already covered the cost.
-
-When itemization is required, individual subcategory lines can have different refundable settings. For example, a hotel receipt might have the room charge as refundable while a minibar charge is marked as nonrefundable. The employee is reimbursed only for the refundable portion.
 
 ## Next steps
 

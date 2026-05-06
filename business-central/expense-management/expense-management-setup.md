@@ -54,15 +54,17 @@ The following table describes the settings on the **General** FastTab.
 
 | Field | Description |
 | --- | --- |
-|**Enable agent**|Specifies whether Expense Agent can process expense submissions from email and the Expense Agent web app.|
-|**Mail Account**|Specifies the shared mailbox that the agent monitors. You need permission to the mailbox to activate the agent.|
+| **Enable agent** | Specifies whether Expense Agent can process expense submissions from email and the Expense Agent web app.|
+| **Mailbox Account** | Specifies the shared mailbox that the agent monitors. You need permission to the mailbox to activate the agent.|
+| **Process incoming emails with receipts** | Specifies whether the agent reads its mailbox and processes incoming emails containing expense receipts. Receipts are only processed when a mailbox is configured.|
 | **Exchange Rate for Expenses** | Controls whether foreign currency expenses use the rate from the expense date or the posting date. |
 | **Allow Grouping of Transactions in Report** | Determines whether similar transactions are grouped together in expense reports automatically by the agent. |
-| **Expense Report Grouping** | Defines how reports are grouped, for example by period. |
+| **Expense Report Grouping** | Defines how expenses are grouped into expense reports, for example by period. |
 | **Expense Report Rounding Precision** | Sets rounding precision for report amounts. |
 | **Expense Report Rounding Type** | Rounding behavior: **Nearest**, **Up**, or **Down**. |
 | **Receipt No. Mandatory** | Requires entry of a receipt number for every expense. |
 | **Merchant Name Mandatory** | Requires entry of a merchant name for every expense. |
+| **Create Employees for Expense Users** | Specifies whether Employees should be automatically created from Expense Users when no matching Employee exists. Employees and their connection with Expense Users are critical for correct processing and posting in Expense Agent, but this setting may impact your HR data.|
 
 ### Configure rules and controls
 
@@ -75,7 +77,7 @@ The following table describes the settings on the **Rule & Controls** FastTab. T
 | **If Expense Is Older Than Allowed** | Choose what happens when an expense falls outside the allowed range: **Warn**, **Require Justification**, or **Block Submission**. |
 | **Check Category/Subcategory Usage** | Turn on to require that expenses use valid category and subcategory combinations during entry. |
 | **Display Anti-Corruption Attestation** | Turn on if your organization requires an attestation message that users must confirm before submitting expenses. |
-| **Enable Approval Workflow** | Turn on to require manager approval before reports can be posted (recommended). |
+| **Enable Approval Workflow** | Turn on to require manager approval before expense reports can be posted. This setting applies only when the agent is not enabled, as the agent provides its own approval process. |
 
 To learn more about categories and rules, go to [Set up expense categories and rules](expense-management-categories-rules.md).
 
@@ -92,7 +94,7 @@ On the **Number Series** FastTab, assign number series in the fields described i
 | **Posted Expense Reports Nos.** | Automatic numbering for posted reports. |
 | **Expense Nos.** | Automatic numbering for individual expenses. |
 
-## Configure notification settings
+### Configure notification settings
 
 When the agent is enabled, you can configure reminders about open expense reports on the **Communication** FastTab.
 
@@ -100,18 +102,22 @@ When the agent is enabled, you can configure reminders about open expense report
 | --- | --- |
 | **Enable Open Report Notification** | Let [!INCLUDE [prod_short](../includes/prod_short.md)] notify you about open expense reports that might need attention. |
 | **Open Report Notification Frequency** | Specify whether to be notified on a weekly, monthly, or custom basis:<br><br>For weekly notifications, choose the day of the week in the **Notification Day of Week** field.<br>For monthly notifications, specify the number of the month in the **Notification Day in a Month** field.<br>For custom schedules, enter a date formula in the **Custom Notification Formula** field. To learn more about date formulas, go to [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas).|
+| **Notification Day of Week** | Specifies the day of the week for weekly open report notifications.|
+| **Notification Day of Week** | Specifies the day of the week for weekly open report notifications.|
+| **Custom Notification Formula** | Specifies a custom date formula to control when open report notifications are sent. For example, use CM for the last day of the current month or 1M‑CM for the first day of the next month.|
+| **Noreply Email Account** | Specifies the email account used for outgoing messages. If empty, the main mailbox account is used for sending.|
 
-## Manage agent access control
+### Manage agent access control
 
 The **Agent Access Control** FastTab lets you specify which users can configure the agent and which users the agent can work on behalf of. When you enable the agent, the current user is automatically added to the access control list.
 
-### Set up posting groups
+## Set up posting groups
 
 Posting groups map entities to general ledger accounts. Examples of entities are customers, vendors, items, resources, and sales and purchase documents. Posting groups save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. To learn more about posting groups in general, go to [Set up posting groups](../finance-posting-groups.md).
 
 Expense management uses two types of posting groups to control how to post entries for expenses to the general ledger.
 
-#### Employee posting groups
+### Employee posting groups
 
 Employee posting groups control how amounts related to the expense report header (reimbursements, prepayments) are posted. 
 
@@ -126,7 +132,7 @@ In addition to the standard fields, on the **Employee Posting Group** page, fill
 
 The next step is to assign the group to employees who submit expenses. On the **Employees** page, fill in the **Employee Posting Group** field.
 
-#### Expense posting groups
+### Expense posting groups
 
 Expense posting groups control how to post individual expense lines. In addition to standard fields, on the **Expense Posting Group** page, fill in the fields described in the following table.
 

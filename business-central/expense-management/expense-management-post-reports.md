@@ -62,6 +62,7 @@ When you post an expense report, [!INCLUDE [prod_short](../includes/prod_short.m
 |---|---|
 | **Expense ledger entries** | One entry per expense line, recording the category, amount, and expense user. |
 | **Employee ledger entries** | Records the reimbursable amounts owed to employees who paid out of pocket. |
+| **Detailed employee ledger entries** | Records the reimbursable amounts underlying breakdown. |
 | **G/L entries** | Posts expense amounts to the appropriate general ledger accounts based on the posting groups. |
 | **Project ledger entries** | Created only for expense lines that have a **Project No.** and **Project Task No.** assigned. |
 | **Sales invoices** | Created automatically for expense lines marked as **Billable** to a customer. |

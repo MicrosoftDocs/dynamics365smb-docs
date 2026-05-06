@@ -17,6 +17,10 @@ ai-usage: ai-generated
 
 An expense report groups related expenses into a single document that you submit for approval. After approval, the report is posted to the general ledger and reimbursement is processed. This article explains how to create, fill, and submit expense reports in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
+> [!NOTE]
+> Approvals in Expense Management are optional when the agent is not enabled, and can be configured on the **Expense Agent Setup** page.  
+> If the Expense Agent is enabled, approvals are handled automatically through the web app using the agent’s built-in approval process.
+
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Create an expense report
@@ -37,6 +41,10 @@ You can add existing released expenses to the report.
 
 The selected expenses appear as lines on the **Lines** FastTab.
 
+> [!NOTE]
+> This functionality is available only when the agent is enabled.  
+> If the agent is not enabled, expenses can be entered only directly on the expense report lines.
+
 > [!TIP]
 > You can also create an expense report directly from an individual expense by using the **Create Expense Report** action on the expense card.
 
@@ -47,6 +55,11 @@ If you don't use Expense Agent, you can add expense lines directly to the expens
 1. On the **Expense Report** card, in the report lines subpage, enter the expense details directly: category, amount, description, and other relevant fields.
 2. If the category requires itemization, choose the **Itemizations** action to break down the line.
 3. If the category requires participants, choose the **Participants** action to add attendees.
+4. If the category is per diem type, enter the **Expense Location**, **Starting** and **Ending Date and Time** to the expense line, and choose the **Per diem** action to adjust per diem lines.
+5. If the category is mileage type, enter the **Starting** and **Ending Point**, **Mileage** and optionally if it was the **Round Trip** to the expense line.
+
+> [!NOTE]
+> All rules existing for expenses apply to the expense report lines, i.e., rule violations, justification, currencies...
 
 ## Review rule violations
 
@@ -83,11 +96,16 @@ If your organization requires an anti-corruption attestation, the **Attestation*
 
 You can print reports for documentation or filing purposes.
 
-1. On the **Expense Report** card, choose an action under **Report**:
+1. On the **Expense Report** card, select an action under **Report** to generate different report views:
 
-   - **Expense Report Details** provides a detailed breakdown of all expenses.
-   - **Expense Report Summary Page** provides a summary of totals.
-   - **Expense Report Cover Page** creates a cover page for the report.
+   - **Expense Report Details** provides a detailed breakdown of all expenses in the report, including categories, dates, merchants, payment methods, amounts, and other related information.
+   - **Expense Report Summary Page** displays a summarized view with grouped totals and category-specific details, and includes designated areas for signatures.
+   - **Expense Report Cover Page** generates a cover page with key information such as the employee name, submitted to and approved by fields, expense report date, and total amounts.
+
+> [!TIP]
+> In some jurisdictions, regulatory authorities require a specific expense report cover page that includes defined fields, formats, and signatures.  
+>  
+> The **Expense Report Summary Page** report is designed to be flexible and includes all relevant information by default. You can easily customize the report layout to match local regulatory requirements or replicate an exact required document format.
 
 ## Next steps
 

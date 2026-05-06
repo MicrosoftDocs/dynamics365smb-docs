@@ -25,10 +25,16 @@ Before employees can create expenses, they must be set up as expense users in [!
 2. Choose **New** to open the **Expense User** card.
 3. In the **Employee No.** field, select the employee to link to this expense user.
 4. Assign the appropriate **Employee Posting Group** to control how the user's expenses are posted to the general ledger.
-5. Optionally, assign an **Expense Team Code** to add the user to a team.
+5. Optionally, assign an **Expense Team Code** to add the user to a team. If you assigned an **Expense Team Code** and the user is team manager, turn on the **Team Manager** field.
 
 > [!IMPORTANT]
 > Each expense user must be linked to an employee record that has a valid company email address set in the **Company E-Mail** field. The employee posting group can't be empty.
+
+> [!NOTE]
+> When an expense user is linked to an employee, the user inherits the employee’s posting groups and assigned dimensions.
+
+> [!NOTE]
+> Only one team manager is allowed per expense team.
 
 ## Import expense users from Microsoft Entra ID
 

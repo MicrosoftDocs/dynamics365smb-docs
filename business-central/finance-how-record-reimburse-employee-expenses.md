@@ -20,29 +20,13 @@ ms.reviewer: bholtorf
 
 If employees spend their own money during business activities, you can post the expense to the employee's account. Then you can reimburse the employee by making a payment to the employee's bank account, similarly to how you pay vendors.  
 
-This article explains how to record the expense in the books and how to reimburse the employee. Your organization might have a portal or app where employees can submit their expense reports.
+This article explains how to record expenses in the books and reimburse employees in scenarios where employees submit expense reports and expect reimbursement.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] is flexible enough to suit many different practices. The exact account numbers depend on your organization's configuration and processes.  
 
-You can use general journals for employee accounts to register employee expenses and reimbursement transactions in foreign currencies, and then easily track the amounts and compare them to receipts. Leave your calculator in your desk drawer—Business Central can adjust the exchange rate for you. When you use general journals to post transactions for employee accounts, such as when you reimburse expenses, you can use the **Currency Code** field to specify the currency for the transactions. Specifying a currency lets you use the same features as when you register transactions in the customer and vendor ledgers. For example, employees can register an expense in euros but get paid in dollars.
+You can use **Payment Journals** for employee accounts to register reimbursement transactions in foreign currencies, and then easily track the amounts and compare them to receipts. Leave your calculator in your desk drawer—Business Central can adjust the exchange rate for you. When you use **Payment Journals** to post transactions for employee accounts, such as when you reimburse expenses, you can use the **Currency Code** field to specify the currency for the transactions. Specifying a currency lets you use the same features as when you register transactions in the customer and vendor ledgers. For example, employees can register an expense in euros but get paid in dollars.
 
 To ensure that the exchange rate is accurate, run the currency exchange rate batch job to adjust employee balances. To use the exchange rate table but settle employee balances in your local currency, exclude employee accounts when you adjust exchange rates.
-
-## Record an employee's expense
-
-You post employees' expenses on the **General Journal** page.
-
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **General Journals**, and then choose the related link.  
-2. Open the relevant general journal batch. Learn more at [Work with General Journals](ui-work-general-journals.md).
-3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-    > [!NOTE]
-    > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
-4. Repeat step 3 for all the expenses that the employee incurred.
-
-    > [!TIP]  
-    > If you want to enter multiple expense lines before one balance-account line for the employee's bank account, select the **Suggest Balancing Amount** checkbox on the line for your batch on the **General Journal Batches** page. The **Amount** field on the balance-account line automatically contains the value to balance the expenses.
-5. Choose the **Post** action to record the expenses on the employee's account.
 
 ## Reimburse an employee
 
@@ -57,6 +41,13 @@ You reimburse employees by posting payments to their bank account on the **Payme
 ## Reconcile reimbursements with employee ledger entries
 
 You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journals** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
+
+## After reimbursement   
+
+Once reimbursement is completed in the **Payment Journal**, you can notify the employee.  
+
+To do this, open the **Posted Expense Report** and choose the **Send Reimbursement Notification** action. This sends an email to the employee confirming that the reimbursement for the expense report has been processed. 
+
 
 ## Related information
 

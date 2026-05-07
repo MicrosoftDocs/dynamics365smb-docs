@@ -10,33 +10,61 @@ ms.reviewer: solsen
 ai-usage: ai-generated
 ---
 
-# How expense policy compliance works
+# How expense policy and rules compliance works
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Expense Agent checks your expenses against your organization's policies so you can catch and fix issues before you submit. Policies are defined by your administrator in [!INCLUDE [prod_short](../includes/prod_short.md)] and are applied automatically as you work with expenses.
+Expense Agent checks your expenses against your organization's rules and policies so you can catch and fix issues before you submit. Rules are defined by your administrator in **Expense Management Rules** in [!INCLUDE [prod_short](../includes/prod_short.md)] and are applied automatically as you work with expenses. 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## What happens during policy validation
+## What happens during rule validation
 
-Expense Agent validates your expenses in real time. When you create or edit an expense, the app checks it against the policies your organization has set up. If an expense doesn't meet a policy requirement, you see a notification right away rather than finding out after you submit.
+Expense Agent validates your expenses in real time. When you create or edit an expense, the app checks it against the rules your organization has set up. If an expense doesn't meet a rule requirement, you see a notification right away rather than finding out after you submit.
 
-Policy validation also runs when you submit an expense report. The app reviews all expenses in the report and flags any that have issues, so you can address everything before your approver sees the report.
+Rule validation also runs when you submit an expense report. The app reviews all expenses in the report and flags any that have issues, so you can address everything before your approver sees the report.
 
 ## Soft warnings and hard blocks
 
-Not all policy issues are the same. Expense Agent uses two levels of enforcement:
+Not all rule issues are the same. Expense Agent uses two levels of enforcement:
 
-- **Soft warnings** flag an expense that's outside policy but still lets you proceed. For example, if a meal expense is slightly above the usual limit, you see a warning. You can provide a justification and continue with the submission.
+- **Soft warnings** flag an expense that's outside rule or policy but still lets you proceed. For example, if a meal expense is slightly above the usual limit, you see a warning. You can provide a justification and continue with the submission.
 - **Hard blocks** prevent you from submitting until you fix the issue. For example, if a required receipt is missing or an expense category isn't allowed, you must correct the expense before you can submit the report.
 
 > [!TIP]
-> When you see a soft warning, add a clear justification. This helps your approver understand the context and speeds up the approval process.
+> When you see a soft warning, add a clear justification in the **Purpose/Notes** field in the **Categorization** tab in web app. This helps your approver understand the context and speeds up the approval process.
 
-## Where policy status appears
+## Policy validation
 
-You can see the policy status of your expenses in several places:
+Rule validation is performed proactively for individual expenses, while policy validation is executed after the expense report has been submitted. This separation ensures that:
+
+- Some controls apply at the individual expense line level  
+- Some controls apply to the entire expense report  
+- Certain validations depend on the relationship between multiple expense lines  
+
+Policy validation supports approvers by providing additional context to review both the overall report and the individual expenses it contains.
+
+> [!NOTE]  
+> Policy validation is not yet available and is planned for release in version 28.3.
+
+### Policies vs. Rules
+
+**Expense Management Rules** enforce strict, measurable constraints. They typically rely on defined thresholds or conditions and may:
+
+- Enforce maximum or recommended spending limits  
+- Require justification for amounts exceeding defined thresholds  
+- Restrict or disallow specific types of expenses  
+- Enforce the use of specific merchants or providers  
+
+**Expense Policies**, in contrast, define expected behavior using natural language. They provide guidance that is not always tied to specific amounts, such as:
+
+- When employees may use business class travel  
+- What is appropriate for business meals  
+- Acceptable hotel standards and conditions for exceptions, etc.  
+
+## Where the rule status appears
+
+You can see the expense rule status of your expenses in several places:
 
 - **Expense list** - Each expense shows a policy badge that indicates whether it's compliant, has a warning, or is blocked.
 - **Expense details** - Open an expense to see specific policy messages and any justifications you've added.

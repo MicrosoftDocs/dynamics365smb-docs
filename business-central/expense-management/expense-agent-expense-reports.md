@@ -20,48 +20,52 @@ Expense Agent allows grouping related expenses together so you can submit them f
 
 ## Create an expense report
 
-1. Open Expense Agent and go to **Expense Reports**.
-1. Select **New Report**.
-1. Enter a name for the report in the **Report Name** field.
-1. Optionally, add a description in the **Description** field.
-1. To add expenses now, select **Add Expenses** and choose the expenses you want to include.
-1. Select **Create**.
+Expense reports are created automatically by the agent when you submit a new expense that falls outside the period covered by existing reports. No manual action is required to create a new expense report.
 
-The new report appears with a **Draft** status. You can continue to add or remove expenses before you submit it.
+All expenses within the same period are automatically grouped into a single expense report. Once created, the report is available in the **Drafts** tab.
+
+### Edit expense report name   
+
+To rename an expense report: 
+
+1. Select AssistEdit :::image type="content" source="../media/assist-edit-icon.png" alt-text="AssistEdit icon."::: on the report.
+2. Choose **Edit report name**.  
+3. Enter the new name and select **Save**.
 
 ## Add expenses to a report
 
-You can add expenses that have a status of **Open** to any draft report.
+You can add new receipts to an existing draft report:
 
-1. Open the expense report you want to add expenses to.
-1. Select **Add Expenses**.
-1. Select the expenses you want to include.
-1. Select **Add**.
+1. On the **Drafts** tab, select the report.
+1. Select AssistEdit :::image type="content" source="../media/assist-edit-icon.png" alt-text="AssistEdit icon.":::, and then choose **Add receipt**.
+1. Select the receipt you want to include.
+1. Select **Open**.
 
-The selected expenses are added as report lines and their status changes to **AddedToReport**.
+After processing, the selected receipt is added as a new expense line in the report.  
 
 ## Move an expense to a different report
 
-If you added an expense to the wrong report, you can move it without removing and re-adding it manually.
+To move an expense to another report:
 
-1. Open the expense report that contains the expense you want to move.
-1. Find the expense in the report lines and select it.
+1. Open the expense report containing the expense by selecting **Review**.
+1. Select the expense line, then choose AssistEdit :::image type="content" source="../media/assist-edit-icon.png" alt-text="AssistEdit icon.":::.
 1. Select **Move**.
-1. In the **Move Expense** dialog, choose the destination report.
-1. Select **Confirm**.
+1. In the **Move to open or new report** dialog:
+   - Select an existing report and choose **Move here**, or  
+   - Select **+ Create new report**, enter a name, select **Create**, and confirm **Move here**
 
-The expense is removed from the current report and added to the destination report.
+The expense is removed from the current report and added to the selected report.   
 
 ## Submit an expense report
 
-When your report is ready for review, submit it to your approver.
+When the report is ready for approval:
 
-1. Open the expense report you want to submit.
-1. Review the report lines to make sure everything looks correct.
-1. Select **Submit**.
-1. Confirm the submission when prompted.
+1. Open the report by selecting **Review**.  
+1. Review all expense lines to ensure accuracy.  
+1. Select **Submit**.  
+1. Confirm the submission when prompted.  
 
-The report status changes to **Submitted**, and your approver is notified. You can't edit the report while it's under review.
+The report status changes to **Submitted**, and the approver is notified. The report becomes read-only during the review process and is moved from the **Drafts** tab to the **Submitted** tab.
 
 > [!TIP]
 > Before you submit, check for any policy warnings on your expenses. Resolving issues upfront helps speed up the approval process.

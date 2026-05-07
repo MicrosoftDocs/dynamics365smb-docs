@@ -47,22 +47,33 @@ All totals in the expense report displayed in the web app use the local currency
 
 ## Create a mileage expense
 
-If you drove for business, you can create a mileage expense directly from the Expense Agent without uploading a receipt.
 
-The distance is calculated from the selected route, and the reimbursement amount is based on your company's standard mileage rate.
+If you use your private vehicle for business purposes, you can create a mileage expense directly from the Expense Agent without uploading a receipt.
 
-1. On the dashboard, select **Create mileage expense** in the **Quick actions** panel.
-1. In the **Starting point** field, enter or search for the departure address.
-1. In the **Ending point** field, enter or search for the destination address.
-1. Review the route on the map. If multiple route alternatives are available, select the one that matches your actual trip.
-1. If you made a return trip on the same day, turn on **Same-day round trip** to include the return journey in the total distance.
-1. Review the **Mileage** and **Amount** fields.
-1. Select **Create**.
+The travel distance is calculated based on the selected route, and the reimbursement amount is determined using your company’s configured mileage rate.
 
-The mileage expense is created and processed like any other expense. It's automatically added to an expense report.
+1. On the dashboard, choose **Create mileage expense** in the **Quick actions** panel.  
+1. In the **Starting point** field, enter or search for the departure location.  
+1. In the **Ending point** field, enter or search for the destination.  
+1. Review the route displayed on the map. If multiple route options are available, select the one that reflects your actual journey.  
+
+> [!NOTE]  
+> Multiple route options are shown below the map in the left pane. You can select a route either from the list or directly on the map.
+
+1. If the trip includes a same-day return, enable **Same-day round trip** to include the return distance.  
+1. Review the **Mileage** and **Amount** fields.  
+1. Select **Create**.  
+
+The mileage expense is created and processed like any other expense and is automatically added to an expense report.
 
 > [!NOTE]
 > The **Create mileage expense** action is only available if your administrator configured at least one expense category with mileage enabled in [!INCLUDE[prod_short](../includes/prod_short.md)]. If the action appears dimmed, ask your administrator to enable mileage on an expense category.
+
+> [!NOTE]  
+> The expense category cannot be changed, as only mileage-type categories are supported in this flow.
+
+> [!NOTE]  
+> After the expense is created, the system captures a screenshot of the selected route and attaches it to the expense record.
 
 ## Send a receipt by email
 

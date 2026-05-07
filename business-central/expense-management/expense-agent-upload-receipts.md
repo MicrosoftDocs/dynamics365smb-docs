@@ -34,7 +34,16 @@ Expense Agent supports JPEG, PNG, and PDF files up to 10 MB, including printed i
 
 ## Automatic currency conversion
 
-When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. All totals displayed in the web app use the local currency, so you can easily track spending across different countries.
+When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. When you look into created expense, you will see both original amounts and the local amount.
+
+All totals in the expense report displayed in the web app use the local currency, so you can easily track spending across different countries.
+
+> [!IMPORTANT]
+> If the currency extracted from an uploaded receipt does not exist in Business Central, a validation error is shown during processing with the message: _The expense data could not be validated_.
+>  
+> When opening the expense, the **Amount** field is highlighted, displaying the error: _The currency value is not recognized_.  
+>  
+> To continue, contact your administrator to add the missing currency to the system, and then retry the process.
 
 ## Create a mileage expense
 

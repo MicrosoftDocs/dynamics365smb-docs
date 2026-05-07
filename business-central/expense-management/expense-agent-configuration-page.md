@@ -23,7 +23,7 @@ You can configure Expense Agent in two ways:
 For most organizations, assisted setup is the best way to get started quickly.
 
 > [!NOTE]
-> Assisted setup is the best way to start quickly, but in a case you have complex policies, we recommend review all setup areas later to eventually adjust your setup to achieve maximum of the agen capabilities.  
+> Assisted setup is the best way to start quickly, but in a case you have complex policies, we recommend review all setup areas later to eventually adjust your setup to achieve maximum of the agent capabilities.  
 
 ## Prerequisites
 

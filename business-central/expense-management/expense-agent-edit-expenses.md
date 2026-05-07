@@ -41,7 +41,7 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
 ## Delete an expense
 
 1. On the **Drafts** tab, select the expense you want to remove.
-1. Use the **...** option, and choose **Delete**.
+1. Select ![Shows the icon to show more option on a field](../media/show-more-options-icon.png) **Show more options**, and then choose **Delete**.
 1. Confirm the deletion when prompted.
 
 Deleting an expense also removes it from any draft expense report it was added to.

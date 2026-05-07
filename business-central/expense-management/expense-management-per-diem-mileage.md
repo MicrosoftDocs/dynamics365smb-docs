@@ -121,7 +121,7 @@ The per diem detail view shows one line for each day of the trip with the full d
 
 ### Formulas for all calculation models  
 
-Let: 
+Let's define the variables used in the formulas:
 
 - **F** = Full per diem amount  
 - **P%** = Percentage for partial day  

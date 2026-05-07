@@ -83,8 +83,16 @@ The **Configure Expense Agent** assisted setup guides you through the choices re
 The assisted setup configures the following areas:
 
 - **Access and submission**: Configure receipt submission channels, mailbox account, and who can configure the agent or work on behalf of users.
+
+> [!NOTE]
+> **Enable access via web app** must be turned on to use Expense Agent capabilities. **Enable sending email with receipts** is optional and should be enabled if you use a dedicated mailbox for forwarding receipt emails. If this option is selected, you must specify the associated account in the next step.
+
 - **Accounting defaults**: Apply number series, payment methods, posting groups, and expense categories. Some options become locked after defaults are applied.
 - **Management defaults**: Apply default expense locations and management rules. Rule defaults depend on locations.
+
+> [!NOTE]
+> Select links for suggested default account and management settings to review the recommended configuration. It provides guidance on what setup can be completed automatically and what may require manual adjustment after the configuration is finished.
+
 - **Rules and controls**: Configure policy enforcement such as required receipt number, required merchant name, and anti-corruption attestation visibility.
 - **Communication**: Configure open-report reminder behavior and notification frequency.
 - **Mileage and per diem**: Configure mileage rate/UOM and per diem calculation options, including partial-day settings.

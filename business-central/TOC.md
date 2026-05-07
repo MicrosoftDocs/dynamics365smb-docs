@@ -616,10 +616,10 @@ ms.service: dynamics-365-business-central
 ##### [Sales by Projects](sales-powerbi-sales-by-project.md)
 ##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
 ##### [Sales Demographics](sales-powerbi-sales-demographics.md)
+##### [Customer Retention Overview](sales-powerbi-customer-retention-overview.md)
+##### [Customer Retention History](sales-powerbi-customer-retention-history.md)
 ##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
-##### [Customer Retention Overview (Power BI Report)](sales-powerbi-customer-retention-overview.md)
-##### [Customer Retention History (Power BI Report)](sales-powerbi-customer-retention-history.md)
 
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
@@ -897,8 +897,8 @@ ms.service: dynamics-365-business-central
 ##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+##### [Project Timeline](projects-powerbi-project-timeline.md)
 ##### [Projects KPI overview](projects-powerbi-kpis.md) 
-##### [Project Timeline (Power BI Report)](projects-powerbi-project-timeline.md)
 
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
@@ -1101,14 +1101,15 @@ ms.service: dynamics-365-business-central
 ##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
-##### [Prod. Order List (Power BI Report)](manufacturing-powerbi-prod-order-list.md)
-##### [Production Order Overview (Power BI Report)](manufacturing-powerbi-production-order-overview.md)
-##### [Prod. Order Routing Gantt (Power BI Report)](manufacturing-powerbi-prod-order-routing-gantt.md)
-##### [Production Order WIP (Power BI Report)](manufacturing-powerbi-prod-order-wip.md)
-##### [Machine Center Load (Power BI Report)](manufacturing-powerbi-machine-center-load.md)
-##### [Machine Center Statistics (Power BI Report)](manufacturing-powerbi-machine-center-statistics.md)
+##### [Prod. Order List](manufacturing-powerbi-prod-order-list.md)
+##### [Production Order Overview](manufacturing-powerbi-production-order-overview.md)
+##### [Prod. Order Routing Gantt](manufacturing-powerbi-prod-order-routing-gantt.md)
+##### [Production Order WIP](manufacturing-powerbi-prod-order-wip.md)
+##### [Machine Center Load](manufacturing-powerbi-machine-center-load.md)
+##### [Machine Center Statistics](manufacturing-powerbi-machine-center-statistics.md)
+##### [Work Center Statistics](manufacturing-powerbi-work-center-statistics.md)
 ##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
-##### [Work Center Statistics (Power BI Report)](manufacturing-powerbi-work-center-statistics.md)
+
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 
 #### Built-in production reports
@@ -1274,24 +1275,27 @@ ms.service: dynamics-365-business-central
 <!--Sustainability-->
 ## Sustainability management
 ### [Sustainability management overview](finance-manage-sustainability.md)
+
 ### Sustainability analytics
 #### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 #### [Built-in sustainability reports](sustainability-reports.md)
 #### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
 #### [Handle external ESG compliance reporting](sustainability-esg-reporting.md)
+
 #### Power BI sustainability app
 ##### [Sustainability Power BI app](sustainability-powerbi-app.md)
-##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)
-##### [Co2e Decomposition Tree (Power BI Report)](sustainability-powerbi-co2e-decomposition-tree.md)
-##### [Co2e Key Influences (Power BI Report)](sustainability-powerbi-co2e-key-influences.md)
-##### [Emissions by Category and Scope (Power BI Report)](sustainability-powerbi-emissions-by-category-and-scope.md)
-##### [Journey to Net Zero Carbon (Power BI Report)](sustainability-powerbi-journey-to-net-zero-carbon.md)
+##### [CO2e Analysis](sustainability-powerbi-co2e-analysis.md)
+##### [Co2e Decomposition Tree](sustainability-powerbi-co2e-decomposition-tree.md)
+##### [Co2e Key Influences](sustainability-powerbi-co2e-key-influences.md)
+##### [Emissions by Category and Scope](sustainability-powerbi-emissions-by-category-and-scope.md)
+##### [Journey to Net Zero Carbon](sustainability-powerbi-journey-to-net-zero-carbon.md)
+##### [Realized Emissions vs Baseline](sustainability-powerbi-realized-emissions-vs-baseline.md)
+##### [Realized Emissions vs Target](sustainability-powerbi-realized-emissions-vs-target.md)
+##### [Social Analysis](sustainability-powerbi-social-analysis.md)
+##### [Sustainability Overview](sustainability-powerbi-sustainability-overview.md)
+##### [Water and Waste Analysis](sustainability-powerbi-water-and-waste-analysis.md)
 ##### [Power BI Sustainability app KPIs and measures](sustainability-powerbi-kpis.md)
-##### [Realized Emissions vs Baseline (Power BI Report)](sustainability-powerbi-realized-emissions-vs-baseline.md)
-##### [Realized Emissions vs Target (Power BI Report)](sustainability-powerbi-realized-emissions-vs-target.md)
-##### [Social Analysis (Power BI Report)](sustainability-powerbi-social-analysis.md)
-##### [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)
-##### [Water and Waste Analysis (Power BI Report)](sustainability-powerbi-water-and-waste-analysis.md)
+
 ### [Sustainability setup](finance-sustainability-setup.md)
 ### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 ### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)

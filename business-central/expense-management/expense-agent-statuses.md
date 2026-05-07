@@ -1,5 +1,5 @@
 ---
-title: Expense and Report Statuses in Expense Agent
+title: Expense and Expense Report Statuses in Expense Agent
 description: Learn what each expense and report status means in Expense Agent, and how statuses track your expenses through the workflow.
 author: brentholtorf
 ms.topic: conceptual
@@ -10,11 +10,11 @@ ms.reviewer: solsen
 ai-usage: ai-generated
 ---
 
-# Understand expense and report statuses
+# Understand expense and expense report statuses
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE[prod_short](../includes/prod_short.md)] Expense Agent uses statuses to track where each expense and report is in the workflow. Knowing what each status means helps you understand what action to take next.
+[!INCLUDE[prod_short](../includes/prod_short.md)] Expense Agent uses statuses to track where each expense and expense report is in the workflow. Knowing what each status means helps you understand what action to take next.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -35,9 +35,10 @@ The following table describes the statuses that an expense report can have.
 
 | Status | Description |
 | --- | --- |
-| Draft | The report is being prepared. You can add, remove, or edit expenses. |
-| Submitted | The report is sent for approval. You can't make changes until the reviewer responds. |
-| Approved | The reviewer approved the report. It's now ready for payment processing. |
+| Draft | The expense report is being prepared. You can add, remove, or edit expenses. |
+| Submitted | The expense report is sent for approval. You can't make changes until the reviewer responds. |
+| Approved | The reviewer approved the expense report. It's now ready for payment processing. |
+| Rejected | The reviewer rejected the expense report. You must edit or remove expenses based on the approver request. |
 | Paid | Payment was processed. This status is for reference only—payment is handled outside Expense Agent. |
 
 ## Where statuses appear

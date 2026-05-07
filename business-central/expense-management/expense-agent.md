@@ -30,7 +30,7 @@ All financial data, audit trails, and posting logic are processed within Busines
 
 ## What the Expense Agent does
 
-The Expense Agent handles the full expense lifecycle, from receipt capture to expense report posting. The following sections describe each step.
+The Expense Agent manages the entire expense lifecycle, from capturing receipts to approving and posting expense reports. The following sections outline each step in the process.  
 
 ### Receipt intake
 
@@ -54,26 +54,71 @@ From each receipt, the agent identifies and extracts:
 
 ### Categorization and rule application
 
-The agent automatically classifies each expense into the configured expense categories and subcategories. It also handles special expense types:
+The agent automatically classifies each expense into the configured expense categories and subcategories based on the receipt content and descriptions for each of categories. It also handles special expense and allowance types:
 
-- **Per diem** calculated from itinerary details
-- **Mileage** calculated from travel maps
-- **Participant/guest** requirements
+- **Per diem** calculated from uploaded itinerary details
+- **Mileage** calculated from travel map in the web app
+<!-- - **Participant/guest** requirements -->
 
 Company policies and rules configured in Business Central are enforced during this step.
 
-### Expense report line creation
+### Expense report line creation 
 
-The agent creates draft expense report lines from the extracted data, populating:
+The agent generates draft expense report lines from extracted data in both the web app and Business Central. The following fields are automatically populated: 
 
-- Merchant, Description, Receipt number
-- Amount, Currency, Payment methid, Expense date
-- Expense Category and Subcategory
-- Participants, Expense location, Starting and Ending date and time, Starting and Ending points, or Mileage if applicable based on the category type
+- Merchant  
+- Description  
+- Receipt number  
+- Amount  
+- Currency  
+- Payment method  
+- Expense date  
+- Expense category  
+
+#### Itemization  
+
+If the selected category requires itemization, an additional tab is displayed in the web app. The agent extracts and assigns:   
+
+- Subcategories with corresponding amounts for each itemized line  
+
+#### Participants  
+
+If the selected category requires participants, an additional tab is displayed in the web app where the user must provide:  
+
+- Participants associated with the expense event  
+
+> [!NOTE]  
+> The user can automatically assign themselves as a participant and add additional guests, either internal (employees) or external. 
+
+#### Per diem expenses 
+
+If the selected category is configured as a per diem type, the agent extracts additional details: 
+
+- Expense location  
+- Start date and time  
+- End date and time  
+
+#### Mileage expenses 
+
+For mileage-type expenses, a dedicated user interface is presented with the following fields:  
+
+- Starting point  
+- Ending point  
+- Mileage  
+- Round trip  
+
+The user must provide the starting and ending points. The agent calculates available routes showing this on the displayed, including the fastest and alternative options. The user selects the preferred route and can enable the **Round trip** option if applicable. 
+
+> [!NOTE]
+> When the user selects a route and confirms the expense, a screenshot of the chosen route is captured and attached to the expense record. 
 
 ### User review
 
-Expense users review, edit, and submit expenses through the web app. No Business Central license is required. After they review the expense, they submit the expense report for approval.
+Expense users can review, edit, and submit expenses through the web app.
+
+No Business Central license is required for this process if not processes inside Business central.
+
+The user must review all expenses before submitting the report. As extraction and categorization are performed by the agent, the user is required to validate the accuracy of all data. After completing the review, the user can submit the expense report for approval.
 
 ### Automated workflow
 

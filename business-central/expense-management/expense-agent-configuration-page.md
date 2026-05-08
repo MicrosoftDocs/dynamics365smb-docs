@@ -56,7 +56,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - The **Expense Agent** capability is enabled on the **Copilot & Agent Capabilities** page.  
 
-  The capability is enabled if the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon appears in the upper-right corner of the role center.  
+  The capability is enabled if the ![Shows the Expense Agent icon when it's not configured](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon appears in the upper-right corner of the role center.  
   Learn more in [Configure Copilot and agent capabilities](../enable-ai.md).
 
 ## Configure Expense Agent
@@ -64,7 +64,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 Use the **Configure Expense Agent** page to configure and activate the agent.
 The page guides you through agent setup. You configure submission channels, access controls, defaults, and policies, then activate the agent to handle registration.
 
-1. In the upper-right corner of the role center, select the ![Shows the Expense Agent icon](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon, and then select **Activate**.
+1. In the upper-right corner of the role center, select the ![Shows the Expense Agent icon in the role center when the agent is not configured](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon, and then select **Activate**.
 1. Follow the instructions onscreen to configure how the agent behaves.
 1. The configuration options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to move between pages.
 1. When you finish configuring the options, turn on the **Active** toggle to activate the agent.  
@@ -73,8 +73,8 @@ The page guides you through agent setup. You configure submission channels, acce
 
 After configuration, the Expense Agent icon indicates the agent’s status:
 
-- ![Shows the Expense Agent icon](../media/expense-agent-icon-small.png) indicates the agent is ready to process expense submissions.
-- ![Shows the Expense Agent icon](../media/expense-agent-configured-icon-small.png) indicates the agent is configured but not currently active.
+- ![Shows the Expense Agent icon when the agent is configured and activated](../media/expense-agent-icon-small.png) indicates the agent is ready to process expense submissions.
+- ![Shows the Expense Agent icon when the agent is configured but not activated](../media/expense-agent-configured-icon-small.png) indicates the agent is configured but not currently active.
 
 ## What the configuration page does
 
@@ -144,7 +144,7 @@ As an administrator, you can specify which users have permission to use or confi
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
    - To give a user permission to configure Expense Agent, select the **Can configure** check box.
-   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](../media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 ---
 

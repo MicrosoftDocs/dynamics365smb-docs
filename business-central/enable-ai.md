@@ -38,7 +38,7 @@ If any of these requirements aren't met, the feature isn't available for use.
 > By default, starting with update 25.0, data movement across geographies is enabled, and all features are activated. This setup means Copilot is ready to use without any configuration unless you choose to deactivate specific features.
 
 > [!IMPORTANT]
-> **GPT-5.3-chat is now the default model** — Over the next three weeks, Copilot in Business Central is moving to GPT-5.3-chat as the default language model. This change rolls out gradually to environments across all regions. Environments in the UK, India, and Australia are excluded from this initial rollout and will receive the update at a later date.
+> **GPT-5.3-chat is now the default model** — From May through June, Copilot in Business Central is moving to GPT-5.3-chat as the default language model for version 28 and onwards. This change rolls out gradually to environments across all regions. Environments in the UK, India, and Australia are excluded from this initial rollout and will receive the update at a later date.
 >
 > Along with this update, new model management capabilities are available:
 >

@@ -57,8 +57,8 @@ The travel distance is calculated based on the selected route, and the reimburse
 1. In the **Ending point** field, enter or search for the destination.  
 1. Review the route displayed on the map. If multiple route options are available, select the one that reflects your actual journey.  
 
-> [!NOTE]  
-> Multiple route options are shown below the map in the left pane. You can select a route either from the list or directly on the map.
+   > [!NOTE]  
+   > Multiple route options are shown below the map in the left pane. You can select a route either from the list or directly on the map.
 
 1. If the trip includes a same-day return, enable **Same-day round trip** to include the return distance.  
 1. Review the **Mileage** and **Amount** fields.  

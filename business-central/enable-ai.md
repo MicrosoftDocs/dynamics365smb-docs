@@ -37,6 +37,18 @@ If any of these requirements aren't met, the feature isn't available for use.
 > [!NOTE]
 > By default, starting with update 25.0, data movement across geographies is enabled, and all features are activated. This setup means Copilot is ready to use without any configuration unless you choose to deactivate specific features.
 
+> [!IMPORTANT]
+> **GPT-5.3-chat is now the default model** — Over the next three weeks, Copilot in Business Central is moving to GPT-5.3-chat as the default language model. This change rolls out gradually to environments across all regions. Environments in the UK, India, and Australia are excluded from this initial rollout and will receive the update at a later date.
+>
+> Along with this update, new model management capabilities are available:
+>
+> - **Model visibility and selection for custom agents** — Administrators can see which language model their custom agents use and select their preferred model from the available options in the Copilot configuration UI.
+> - **Model control for SDK agents** — New methods in the agent SDK allow developers to control model selection from code, giving programmatic control over which model an SDK agent uses.
+>
+> The model update and the model selection UI roll out independently. Some environments might receive GPT-5.3-chat before the model selection option appears. Copilot continues to work normally during this transition.
+>
+> No action is required. To change the model for custom agents after the selection UI is available, go to the **Agents** page in Business Central. For SDK agents, see the updated SDK documentation for the new model selection methods.
+
 ## Prerequisites
 
 - You use Business Central online.

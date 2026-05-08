@@ -10,7 +10,7 @@ ms.reviewer: solsen
 ai-usage: ai-generated
 ---
 
-# Create and submit expense reports Expense Agent
+# Create and submit expense reports in Expense Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

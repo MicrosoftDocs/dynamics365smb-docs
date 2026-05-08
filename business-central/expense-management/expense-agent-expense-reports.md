@@ -28,7 +28,7 @@ All expenses within the same period are automatically grouped into a single expe
 
 To rename an expense report: 
 
-1. Select AssistEdit :::image type="content" source="../media/assist-edit-icon.png" alt-text="AssistEdit icon."::: on the report.
+1. Select **More actions** :::image type="icon" source="../media/assist-edit-icon.png"::: on the report.
 2. Choose **Edit report name**.  
 3. Enter the new name and select **Save**.
 
@@ -37,7 +37,7 @@ To rename an expense report:
 You can add new receipts to an existing draft report:
 
 1. On the **Drafts** tab, select the report.
-1. Select AssistEdit :::image type="content" source="../media/assist-edit-icon.png" alt-text="AssistEdit icon.":::, and then choose **Add receipt**.
+1. Select **More actions** :::image type="icon" source="../media/assist-edit-icon.png":::, and then choose **Add receipt**.
 1. Select the receipt you want to include.
 1. Select **Open**.
 
@@ -48,7 +48,7 @@ After processing, the selected receipt is added as a new expense line in the rep
 To move an expense to another report:
 
 1. Open the expense report containing the expense by selecting **Review**.
-1. Select the expense line, then choose AssistEdit :::image type="content" source="../media/assist-edit-icon.png" alt-text="AssistEdit icon.":::.
+1. Select the expense line, then choose **More actions** :::image type="icon" source="../media/assist-edit-icon.png":::.
 1. Select **Move**.
 1. In the **Move to open or new report** dialog:
    - Select an existing report and choose **Move here**, or  

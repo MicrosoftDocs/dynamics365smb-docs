@@ -111,6 +111,6 @@ For technical issues or questions about setup and configuration, contact Microso
 ## Related information
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
-[Set up Expense Agent](ExpenseAgentSetupGuide.md)  
-[Configure Copilot and agent capabilities](enable-ai.md)  
+[Set up Expense Agent](expense-agent-configuration-page.md)  
+[Configure Copilot and agent capabilities](../enable-ai.md)  
 [Anthropic as a subprocessor for Microsoft Online Services](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/copilot/connect-to-ai-subprocessor.md)

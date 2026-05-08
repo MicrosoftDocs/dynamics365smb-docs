@@ -1,5 +1,5 @@
 ---
-title: Create and Submit Expense Reports
+title: Create and Submit Expense Reports in Expense Agent
 description: Learn how to create expense reports, add expenses, move expenses between reports, and submit reports for approval in Expense Agent.
 author: brentholtorf
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.reviewer: solsen
 ai-usage: ai-generated
 ---
 
-# Create and submit expense reports
+# Create and submit expense reports Expense Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

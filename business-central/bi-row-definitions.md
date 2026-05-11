@@ -42,7 +42,7 @@ To edit the content of a row definition, follow these steps:
    > [!NOTE]
    > The columns you define in a column definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
 
-### Using the Totaling Type and Totaling fields
+### Specify where to get data for rows
 
 The **Totaling Type** and **Totaling** fields work together to define where each row in a financial report gets its data. Totaling types specify the kind of source—such as G/L accounts, cost types, cash flow accounts, account categories, or a formula that calculates values from other rows. Totaling then specifies exactly which accounts, categories, or row references to include, using account numbers, ranges, or formulas depending on the type you chose.
 
@@ -61,11 +61,13 @@ The following table provides examples of ways to use the two fields in combinati
 | Underline | Leave the Totaling field empty. This type inserts a visual underline separator in the report. | (empty) |
 | Double Underline | Leave the Totaling field empty. This type inserts a double-underline visual separator, typically used at the end of a section. | (empty) |
 
-[!TIP] For the **Posting Accounts** and **Total Accounts** types, use the lookup (assist-edit) on the **Totaling** field to select from the chart of accounts. The **G/L Accounts** FactBox on the right side of the  page shows which accounts are included in the filter you entered.
+> [!TIP]
+> For the **Posting Accounts** and **Total Accounts** types, use the lookup (assist-edit) on the **Totaling** field to select from the chart of accounts. The **G/L Accounts** FactBox on the right side of the  page shows which accounts are included in the filter you entered.
+>
+> For the **Account Category** type, always use the lookup to select categories. [!INCLUDE [prod_short](includes/prod_short.md)] stores the internal category filter and displays the category name.
 
-For the **Account Category** type, always use the lookup to select categories. [!INCLUDE [prod_short](includes/prod_short.md)] stores the internal category filter and displays the category name.
-
- [!NOTE] The **Cost Type**, **Cost Type Total**, **Cash Flow Entry Accounts**, and **Cash Flow Total Accounts** options are available only if you have enabled the corresponding application areas (Cost Accounting and/or Cash Flow). Use the **Insert Cost Types** or **Insert CF Accounts** actions to quickly add rows for these types.
+> [!NOTE]
+> The **Cost Type**, **Cost Type Total**, **Cash Flow Entry Accounts**, and **Cash Flow Total Accounts** options are available only if you have enabled the corresponding application areas (Cost Accounting and/or Cash Flow). Use the **Insert Cost Types** or **Insert CF Accounts** actions to quickly add rows for these types.
 
 ## Working with row formulas
 

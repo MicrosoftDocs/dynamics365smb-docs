@@ -60,5 +60,6 @@ The report status changes back to **Draft**, and the employee is notified with y
 [Expense Agent overview](expense-agent-overview.md)  
 [Create and submit expense reports](expense-agent-expense-reports.md)  
 [How expense policy compliance works](expense-agent-policy-compliance.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

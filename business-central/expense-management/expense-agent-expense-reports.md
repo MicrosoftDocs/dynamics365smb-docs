@@ -80,5 +80,6 @@ The report status changes to **Submitted**, and the approver is notified. The re
 [Approve or send back expense reports](expense-agent-approve-reports.md)  
 [Edit and manage expenses](expense-agent-edit-expenses.md)  
 [Expense and report statuses](expense-agent-statuses.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

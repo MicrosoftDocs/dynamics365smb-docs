@@ -187,3 +187,4 @@ For setup, processing, and user issues, go to [Troubleshoot common issues in Exp
 [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)  
 [Configure Copilot and agent capabilities](../enable-ai.md)  
 [Assign permissions to users and groups](../ui-define-granular-permissions.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  

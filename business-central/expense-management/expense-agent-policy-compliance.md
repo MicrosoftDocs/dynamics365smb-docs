@@ -76,5 +76,6 @@ You can see the expense rule status of your expenses in several places:
 [Upload receipts and create expenses](expense-agent-upload-receipts.md)  
 [Edit and manage expenses](expense-agent-edit-expenses.md)  
 [Expense and report statuses](expense-agent-statuses.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

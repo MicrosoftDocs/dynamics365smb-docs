@@ -91,18 +91,6 @@ A single receipt can be partially refundable. For example, a hotel bill with thr
 
 For travel expenses, expense management supports *per diem* allowances and *mileage* reimbursement. Administrators configure rates, calculation methods, and partial-day rules in the setup. Learn more at [Set up per diem and mileage allowances](expense-management-per-diem-mileage.md).
 
-## Expense Management role center
-
-/We should delete whole expense managfement role center section as this role center is currently an empty. It intention is only to show details in explore all roles./
-
-The **Expense Management** role center is the main navigation hub. From here, you can access:
-
-- **Expenses** — View and manage individual expenses.
-- **Expense Reports** — Create and submit expense reports.
-- **Posted Expense Reports** — View reports that were posted to the general ledger.
-- **Expense Ledger Entries** — Review posted expense entries.
-- **Setup** — Configure categories, rules, users, teams, and posting groups.
-
 ## Licensing requirements
 
 The license you need depends on how you interact with expense management:

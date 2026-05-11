@@ -238,4 +238,5 @@ After posting, you can reimburse the employee through **Payment Journals** using
 ## Related information
 
 [Configure Copilot and agent capabilities](../enable-ai.md)  
-[Responsible AI FAQ for Expense Agent](faqs-expense-agent.md)
+[Responsible AI FAQ for Expense Agent](faqs-expense-agent.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  

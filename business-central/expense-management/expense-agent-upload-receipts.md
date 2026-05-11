@@ -127,5 +127,6 @@ You can continue working while receipts process — there's no need to wait. Com
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
 [Review and edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

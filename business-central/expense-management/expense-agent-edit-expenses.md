@@ -78,5 +78,6 @@ After you save your corrections, AI runs the processing flow again. If everythin
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
 [Upload and process receipts with Expense Agent](expense-agent-upload-receipts.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

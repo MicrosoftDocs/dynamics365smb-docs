@@ -3,7 +3,7 @@ title: Troubleshoot Expense Agent Issues
 description: Find solutions for common issues in Expense Agent, including sign-in problems, receipt upload failures, and policy violations.
 author: brentholtorf
 ms.topic: conceptual
-ms.date: 04/15/2026
+ms.date: 05/11/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -20,7 +20,7 @@ If you run into problems while using [!INCLUDE[prod_short](../includes/prod_shor
 
 ## You can't sign in or access Expense Agent
 
-If you get an "access denied" or "not authorized" error, try signing in again. If the problem continues, contact your administrator to make sure you have the right permissions.
+If you get an "access denied" or "not authorized" error, select your profile picture in the upper right corner, select **Sign out**, and then sign in using your proper credentials (name and password). If the problem continues, contact your administrator to make sure you have the right permissions.
 
 ## Receipt upload fails
 
@@ -49,11 +49,11 @@ If you can't find an expense or report, it might have been deleted by you or ano
 
 ## Malware detected in upload
 
-If a file you try to upload is flagged for malware, the upload is blocked for security. Use a different file or re-scan the original file with your antivirus software before trying again.
+If a file you try to upload is flagged for malware, the upload is blocked for security. Use a different file or rescan the original file with your antivirus software before trying again.
 
 ## AI quota exceeded
 
-If you get a message that the AI quota is exceeded, the system has reached its processing limit. Try again later. If the issue continues, contact your administrator.
+If you get a message that the AI quota is exceeded, the system reached its processing limit. Try again later. If the issue continues, contact your administrator.
 
 ## Agent doesn't process incoming emails
 

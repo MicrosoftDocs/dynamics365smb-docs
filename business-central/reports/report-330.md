@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_330_Primary
-ms.date: 05/04/2026
+ms.date: 05/11/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap

@@ -42,6 +42,31 @@ To edit the content of a row definition, follow these steps:
    > [!NOTE]
    > The columns you define in a column definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
 
+### Using the Totaling Type and Totaling fields
+
+The **Totaling Type** and **Totaling** fields work together to define where each row in a financial report gets its data. Totaling types specify the kind of source—such as G/L accounts, cost types, cash flow accounts, account categories, or a formula that calculates values from other rows. Totaling then specifies exactly which accounts, categories, or row references to include, using account numbers, ranges, or formulas depending on the type you chose.
+
+The following table provides examples of ways to use the two fields in combination.
+
+| Totaling Type | What to enter in the Totaling field | Example |
+| --- | --- | --- |
+| Posting Accounts | One or more G/L account numbers or ranges. Use .. for ranges and \| to combine multiple accounts or ranges. Only posting-type G/L accounts are included. | 40000..40209 includes all posting accounts from 40000 through 40209. 40910..40919\|40940..49999 combines two ranges. 10100\|10200\|10300 lists three specific accounts. |
+| Total Accounts | One or more G/L account numbers or ranges that refer to accounts where the Account Type field is set to Total or End-Total. These accounts already sum a range of accounts in the chart of accounts, so this type reuses that built-in totaling. | 10000..99999 to capture totals defined in the chart of accounts. 10099 to use a single End-Total account. |
+| Formula | A calculation that references the Row No. values of other rows in the same row definition. Supports +, -, \*, /, parentheses, and the % operator (percentage of). You can also use .. ranges and \| filters on Row No. values. | R10+R20 adds rows R10 and R20. R10..R50 sums all rows from R10 through R50. R10/R20*100 or R10%R20 calculates R10 as a percentage of R20. (R10+R20)/(R30+R40) uses parentheses for grouping. |
+| Account Category | A G/L account category name. When you use the lookup, a list of available account categories displays and the system stores the corresponding category filter. Changes to the chart of accounts structure automatically reflect in the report. | Assets, Liabilities, Equity, Income, Cost of Goods Sold, Expense (top-level categories). You can also use subcategories, such as Current Assets or Long Term Liabilities. |
+| Cost Type | One or more cost type numbers or ranges from the chart of cost types. The syntax works the same as for G/L accounts. | 1000..1099 for a range of cost types. 1000\|1100\|1200 for specific cost types. |
+| Cost Type Total | One or more cost type numbers or ranges where the cost type has a Total or End-Total account type. Reuses the totaling already defined in the chart of cost types. | 1099 to use the total defined by a cost type End-Total account. |
+| Cash Flow Entry Accounts | One or more cash flow account numbers or ranges. Used for cash flow analysis reports. | 1000..1099 for a range of cash flow accounts. |
+| Cash Flow Total Accounts | One or more cash flow account numbers or ranges that refer to total-type cash flow accounts. Reuses the totaling defined in the chart of cash flow accounts. | 1099 for a cash flow total account. |
+| Underline | Leave the Totaling field empty. This type inserts a visual underline separator in the report. | (empty) |
+| Double Underline | Leave the Totaling field empty. This type inserts a double-underline visual separator, typically used at the end of a section. | (empty) |
+
+[!TIP] For the **Posting Accounts** and **Total Accounts** types, use the lookup (assist-edit) on the **Totaling** field to select from the chart of accounts. The **G/L Accounts** FactBox on the right side of the  page shows which accounts are included in the filter you entered.
+
+For the **Account Category** type, always use the lookup to select categories. [!INCLUDE [prod_short](includes/prod_short.md)] stores the internal category filter and displays the category name.
+
+ [!NOTE] The **Cost Type**, **Cost Type Total**, **Cash Flow Entry Accounts**, and **Cash Flow Total Accounts** options are available only if you have enabled the corresponding application areas (Cost Accounting and/or Cash Flow). Use the **Insert Cost Types** or **Insert CF Accounts** actions to quickly add rows for these types.
+
 ## Working with row formulas
 
 A powerful feature in Financial Reporting is that you can use values computed in previous rows in row formulas defined in subsequent rows. Set the **Totaling Type** to **Formula**, and then write your calculation in the **Totalling** field on the same row.

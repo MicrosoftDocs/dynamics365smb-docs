@@ -45,7 +45,7 @@ If any of these requirements aren't met, the feature isn't available for use.
 > - **Model visibility and selection in agent design experience** - Administrators can see which language model their agents use and select their preferred model from the available options in the agent configuration page.
 > - **Model control for coded agents** — New methods in the agent SDK allow developers to control model selection from code, giving programmatic control over which model a coded agent uses.
 >
-> The model update and the model selection UI roll out independently. Some environments might receive GPT-5.3-chat before the model selection option appears. Copilot continues to work normally during this transition.
+> The model update and the model selection UI as well as the new methods roll out independently. Some environments might receive GPT-5.3-chat before the model selection option appears. Copilot continues to work normally during this transition.
 >
 > To change the model for designed agents after the selection UI is available, go to the **Agents** page in Business Central. For coded agents, see the updated SDK documentation for the new model selection methods. For those of you having started on the journey of designing and coding agents, then we highly recommend evaluating your agents again once the model has updated, as agent behavior, as well as accuracy, might be impacted.
 

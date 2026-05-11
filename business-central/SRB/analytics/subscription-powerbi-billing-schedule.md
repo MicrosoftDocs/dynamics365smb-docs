@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Billing Schedule** report provides a forecast of future invoicing activity based on the specific billing rhythms defined in your subscriptions. By visualizing when invoices are scheduled to be generated rather than when revenue is recognized, this report offers a cash-flow-oriented view of your upcoming billing operations for both customers and vendors.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-billing-schedule.png" alt-text="Screenshot of the Subscription Billing Billing Schedule Power BI report":::
+:::image type="content" source="../../media/srb-billing-scheduleV28.png" alt-text="Screenshot of the Billing Schedule report.":::
 
 ## Use the report
 

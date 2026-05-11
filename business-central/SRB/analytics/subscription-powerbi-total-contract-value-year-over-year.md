@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Total Contract Value Year-Over-Year** report visualizes how total contract value develops month-over-month and compares it against the previous year. It helps users assess subscription portfolio growth, customer activity trends, and overall contract value performance across fiscal periods.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-total-contract-value-year-over-year.png" alt-text="Screenshot of the Subscription Billing Total Contract Value Year-Over-Year Power BI report":::
+:::image type="content" source="../../media/srb-total-contract-value-year-over-year-growth.png" alt-text="Screenshot of the Total Contract Value Year-Over-Year-Growth report.":::
 
 ## Use the report
 

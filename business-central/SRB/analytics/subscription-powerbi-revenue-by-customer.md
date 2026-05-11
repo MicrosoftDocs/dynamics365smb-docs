@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Revenue by Customer** report provides a detailed overview of monthly recurring revenue (MRR) by customer. It helps users understand which customers contribute the most to recurring income and how profitable each customer relationship is.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-revenue-by-customer.png" alt-text="Screenshot of the Subscription Billing Revenue by Customer Power BI report":::
+:::image type="content" source="../../media/srb-revenue-by-customerV28.png" alt-text="Screenshot of the Revenue by Customer report.":::
 
 ## Use the report
 

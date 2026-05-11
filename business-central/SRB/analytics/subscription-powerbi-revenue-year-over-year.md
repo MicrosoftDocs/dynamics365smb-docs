@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Revenue Year-Over-Year** report provides valuable insights into your organization's subscription business over time. The report compares monthly recurring revenue for different time periods to the same period in the previous year, providing insight into growth trends and areas for improvement.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-revenue-year-over-year.png" alt-text="Screenshot of the Subscription Billing Revenue Year-Over-Year Power BI report":::
+:::image type="content" source="../../media/srb-revenue-year-over-year-growth-V28.png" alt-text="Screenshot of the Revenue Year-Over-Year Growth report.":::
 
 ## Use the report
 

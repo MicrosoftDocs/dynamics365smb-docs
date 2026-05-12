@@ -2,7 +2,7 @@
 title: How the Expense Agent Processes Emails
 description: Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

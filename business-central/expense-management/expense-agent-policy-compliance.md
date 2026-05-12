@@ -2,7 +2,7 @@
 title: Understand Policy Compliance in Expense Agent
 description: Learn how Expense Agent validates expenses against your organization's policies in real time, including soft warnings and hard blocks.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 04/15/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

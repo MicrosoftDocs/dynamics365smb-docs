@@ -1,31 +1,32 @@
 ---
 title: Customer Deferrals (Power BI Report)
 description: The Customer Deferrals report details deferred revenue by customer and schedule.
-author: vanessa-mi
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form:
-ms.date: 12/18/2025
+ms.date: 05/12/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Customer Deferrals (Power BI Report)
 
-The **Customer Deferrals** report provides a comprehensive overview of revenue that has been invoiced but not yet recognized. It allows users to track deferral balances and recognition schedules, helping you understand the timing of future revenue and ensure accurate financial reporting of your subscription-based liabilities.
+The **Customer Deferrals** report provides a comprehensive overview of revenue that was invoiced but not yet recognized. It allows users to track deferral balances and recognition schedules, helping you understand the timing of future revenue and ensure accurate financial reporting of your subscription-based liabilities.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-customer-deferrals.png" alt-text="Screenshot of the Subscription Billing Customer Deferrals Power BI report":::
+:::image type="content" source="../../media/subscription-customer-deferrals.png" alt-text="Screenshot of the Customer Deferrals report.":::
 
 ## Use the report
 
 The report is meant for financial managers and accountants.
 
-Financial managers can use this report to gain visibility into the company’s future revenue recognition. By analyzing the bar chart, which visualizes the balance between Deferred and Released (recognized) revenue over time, you can accurately forecast how and when billed amounts will impact your profit and loss statement. This helps in aligning cash flow expectations with actual financial performance.
+Financial managers can use this report to gain visibility into the company’s future revenue recognition. By analyzing the bar chart, which visualizes the balance between deferred and released (recognized) revenue over time, you can accurately forecast how and when billed amounts affect your profit and loss statement. This forecast helps align cash flow expectations with actual financial performance.
 
 Accountants can use the report to ensure the accuracy and integrity of the deferral accounts. The detailed table provides a breakdown of released and deferred amounts by year and month, making it easy to perform period-end reconciliations.
 
-Specifically, you can use this report to verify that all deferred revenue is being released correctly. By looking at previous months, you can quickly identify if any "open" deferred revenue remains in the past that should have already been recognized. This ensures that your financial statements are complete and that no revenue is erroneously held on the balance sheet beyond its service period.
+Specifically, you can use this report to verify that all deferred revenue is being released correctly. By looking at previous months, you can quickly identify whether you have "open" deferred revenue that you should recognize. This information ensures that your financial statements are complete and that no revenue is mistakenly held on the balance sheet beyond its service period.
 
 ## Key performance indicators
 

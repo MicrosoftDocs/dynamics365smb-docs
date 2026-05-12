@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Total Contract Value Analysis** report provides a detailed analysis of total contract value (TCV), breaking it down into its key contributing components. This report can help you understand what’s driving TCV in your subscription business, and why.
 
-:::image type="content" source="../../media/srb-total-contract-value-analysis.png" alt-text="Screenshot of the Total Contract Value Analysis report.":::
+:::image type="content" source="../../media/subscription-total-contract-value-analysis.png" alt-text="Screenshot of the Total Contract Value Analysis report.":::
 
 ## Use the report
 

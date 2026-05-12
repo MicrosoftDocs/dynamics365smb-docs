@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Customer Deferrals** report provides a comprehensive overview of revenue that has been invoiced but not yet recognized. It allows users to track deferral balances and recognition schedules, helping you understand the timing of future revenue and ensure accurate financial reporting of your subscription-based liabilities.
 
-:::image type="content" source="../../media/srb-customer-referralsV28.png" alt-text="Screenshot of the Customer Deferrals report.":::
+:::image type="content" source="../../media/subscription-customer-deferrals.png" alt-text="Screenshot of the Customer Deferrals report.":::
 
 ## Use the report
 

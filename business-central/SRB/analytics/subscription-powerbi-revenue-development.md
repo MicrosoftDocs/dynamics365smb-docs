@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Revenue Development** report provides detailed insight into how monthly recurring revenue changes over time. It breaks down each month’s net change into **new subscriptions**, **upgrades**, **churn**, and **downgrades**, making it clear which factors are driving growth or decline. Changes from subscriptions that are billed based on **usage data** are also visualized, since these subscriptions can fluctuate regularly but are not considered upgrades or downgrades. This view helps you understand whether revenue development is the result of acquiring new customers, expanding existing contracts, offsetting cancellations and reductions, or usage-based variability.
 
-:::image type="content" source="../../media/srb-revenue-developmentV28.png" alt-text="Screenshot of the Revenue Development report.":::
+:::image type="content" source="../../media/subscription-revenue-development.png" alt-text="Screenshot of the Revenue Development report.":::
 
 ## Use the report
 

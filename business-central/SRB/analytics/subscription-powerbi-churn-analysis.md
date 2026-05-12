@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Churn Analysis** report provides a detailed analysis of monthly recurring revenue churn and downgrades, breaking it down into its key contributing components. This report can help you understand what’s driving MRR churn in your subscription business, and why.
 
-:::image type="content" source="../../media/srb-churn-analysisV28.png" alt-text="Screenshot of the Churn Analysis report.":::
+:::image type="content" source="../../media/subscription-churn-analysis.png" alt-text="Screenshot of the Churn Analysis report.":::
 
 ## Use the report
 

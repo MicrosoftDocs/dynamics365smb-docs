@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Sales and Cost Forecast** report provides a projection of future revenue and expenses based on your current subscription portfolio. By forecasting monthly recurring revenue (MRR) and monthly recurring cost (MRC), the report helps businesses visualize their expected financial trajectory and the long-term profitability of their subscription contracts.
 
-:::image type="content" source="../../media/srb-revenue-forecastV28.png" alt-text="Screenshot of the Revenue Forecast report.":::
+:::image type="content" source="../../media/subscription-revenue-forecast.png" alt-text="Screenshot of the Revenue Forecast report.":::
 
 ## Use the report
 

@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Revenue Analysis** report provides a detailed analysis of monthly recurring revenue, breaking it down into its key contributing components. This report can help you understand what’s driving MRR in your subscription business, and why.
 
-:::image type="content" source="../../media/srb-revenue-analysis-V28.png" alt-text="Screenshot of the Revenue Analysis report.":::
+:::image type="content" source="../../media/subscription-revenue-analysis.png" alt-text="Screenshot of the Revenue Analysis report.":::
 
 ## Use the report
 

@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Revenue by Item** report gives a clear picture of your organization's subscription item sales. It showcases key metrics for each item or item category. For example, the monthly recurring revenue, monthly recurring cost and net monthly recurring profit.
 
-:::image type="content" source="../../media/srb-revenue-by-itemV28.png" alt-text="Screenshot of the Revenue by Item report.":::
+:::image type="content" source="../../media/srb-revenue-by-item.png" alt-text="Screenshot of the Revenue by Item report.":::
 
 ## Use the report
 

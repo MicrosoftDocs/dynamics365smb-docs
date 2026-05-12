@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Vendor Deferrals** report provides a comprehensive overview of expenses that have been invoiced by vendors but not yet recognized. It allows users to track deferral balances and recognition schedules, helping you understand the timing of future expenses and ensure accurate financial reporting of your subscription-based assets.
 
-:::image type="content" source="../../media/srb-vendor-deferralsV28.png" alt-text="Screenshot of the Vendor Deferrals report.":::
+:::image type="content" source="../../media/subscription-vendor-deferrals.png" alt-text="Screenshot of the Vendor Deferrals report.":::
 
 ## Use the report
 

@@ -18,9 +18,9 @@ In a subscription business, managers typically want to know KPIs such as Monthly
 
 To calculate these KPIs in [!INCLUDE [prod_short](../../includes/prod_short.md)], more is needed than just the current state of your subscription contracts and subscription contract lines. Subscriptions can change over time. Quantities might increase, terms might shorten, or subscriptions might end. If you only evaluate the live subscription contract data, you only get the recurring revenue for the current month, without any historical perspective.
 
-Relying on posted invoices or general ledger entries doesn't solve this challenge either. While they provide historical figures, they don't include **future-dated subscriptions** that aren't invoiced but still need to be reflected in recurring revenue and contract value calculations.
+Relying on posted invoices or general ledger entries doesn't solve this challenge either. While they provide historical figures, they don't include future-dated subscriptions that aren't invoiced but still need to be reflected in recurring revenue and contract value calculations.
 
-The **Subscription Contract Analysis Entries** table was introduced to create a **monthly snapshot** of all active and planned subscriptions. This snapshot ensures you can:
+The **Subscription Contract Analysis Entries** table creates a **monthly snapshot** of all active and planned subscriptions. This snapshot ensures you can:
 
 - Track KPIs historically, even when contracts changed.
 - Include future contracts in your revenue calculations.
@@ -28,7 +28,7 @@ The **Subscription Contract Analysis Entries** table was introduced to create a 
 
 Setting up the analysis entries is therefore a required step to make full use of the subscription billing Power BI app.
 
-The Subscription Contract Analysis Entries table can also be used in [!INCLUDE [prod_short](../../includes/prod_short.md)] to easily create an ad-hoc analysis based on your subscription data.
+You can also use the Subscription Contract Analysis Entries table to easily create an ad-hoc analysis based on your subscription data.
 
 ## Create subscription contract analysis entries
 
@@ -38,33 +38,33 @@ You can create subscription contract analysis entries manually:
 1. The task runs immediately and generates entries for all contract lines that meet the required conditions.
 1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Subscription Contract Analysis Entries**, then choose the related link. The newly created entries show the current date as the analysis date.
 
-The task creates one entry per **Subscription Line** for the current month. It only considers subscription lines that meet the following conditions:
+The task creates one entry per subscription line for the current month. It only considers subscription lines that meet the following conditions:
 
 - The line is linked with a customer or vendor subscription contract.
-- The subscription line is active (meaning the Subscription Line End Date is empty or in the future).
+- The subscription line is active, meaning the **Subscription Line End Date** field is empty or has a future date.
 
 > [!NOTE]  
 > [!INCLUDE [prod_short](../../includes/prod_short.md)] compares the current month with the month in field Analysis Date for each subscription line. If a subscription contract analysis entry for the same subscription line and the same month already exists, no new entry is created. The existing entry isn't updated.
 
 For each entry, [!INCLUDE [prod_short](../../includes/prod_short.md)] calculates the Monthly Recurring Revenue LCY (MRR) and Monthly Recurring Cost LCY (MRC).
 
-It calculates the MRR for a customer-facing subscription by normalizing the amount (LCY) to a monthly value based on the date formula in **Billing Base Period**.
+It calculates the MRR for a customer-facing subscription by normalizing the amount (LCY) to a monthly value based on the date formula in the **Billing Base Period** field.
 
 **Example calculation of MRR:**
 
 - A subscription line has an amount of 1.200 USD with a billing base period of 1Y (or 12M). The amount represents a **yearly** subscription price.
 - [!INCLUDE [prod_short](../../includes/prod_short.md)] calculates the MRR by dividing 1.200 USD by 12 months, resulting in 100 USD per month.
 
-The value for MRC is calculated in a similar way based on the Unit Cost (LCY) and Billing Base Period of the subscription.
+The value for MRC is calculated in a similar way based on the unit cost (LCY) and billing base period of the subscription.
 
 MRR and MRC for vendor-facing subscription lines are calculated in the following way:
 
 - MRR is always zero.
-- MRC is calculated by normalizing the Amount (LCY) to a monthly value based on the date formula in the **Billing Base Period** field.
+- MRC is calculated by normalizing the amount (LCY) to a monthly value based on the date formula in the **Billing Base Period** field.
 
 ## Set up job queue for subscription contract analysis entries
 
-Instead of running the task manually each month, you can schedule it in the **Job Queue**. The schedule ensures that your subscription contract analysis entries are always created on time and remain up to date.
+Instead of running the task manually each month, you can schedule it in the job queue. The schedule ensures that your subscription contract analysis entries are always created on time and stay up to date.
 
 1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Job Queue Entries**, then choose the related link.
 1. Choose the **New** action.
@@ -75,7 +75,7 @@ Instead of running the task manually each month, you can schedule it in the **Jo
 1. In the **Starting Time** field, enter **2 AM**.
 1. Choose the **Set Status to Ready** action.
 
-Now, the subscription contract analysis entries are created one time at the beginning of each month. You can run the job queue entry more than once in the same month. In this case, it only creates entries for **newly added subscription lines** since the last run.
+Now, the subscription contract analysis entries are created one time at the beginning of each month. You can run the job queue entry more than once in the same month. In this case, it only creates entries for new subscription lines that you added after the last run.
 
 By automating this process, you reduce manual effort and ensure that the Power BI Subscription Billing app always reflects the most accurate and complete set of subscription data.
 
@@ -83,7 +83,7 @@ By automating this process, you reduce manual effort and ensure that the Power B
 
 To calculate KPIs such as **Total Contract Value (TCV)** or **Sales Forecast**, the Power BI Subscription Billing app relies on the **Term Until** field to determine the remaining subscription period. This date is calculated in [!INCLUDE [prod_short](../../includes/prod_short.md)] based on the **Subscription Start Date**, **Initial Term**, **Notice Period**, and **Extension Period** defined on the subscription line.
 
-To ensure the **Term Until** field is always accurate, you can schedule the update as a recurring **Job Queue Entry**:
+To ensure the **Term Until** field is always accurate, you can schedule the update as a recurring job queue entry:
 
 1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Job Queue Entries**, then choose the related link.
 1. Choose the **New** action.

@@ -22,7 +22,7 @@ The **Total Contract Value Year-Over-Year** report visualizes how total contract
 
 The report is meant for business leaders and subscription managers.
 
-Total Contract Value (TCV) is a critical KPI for any subscription-based business. It represents the total committed revenue expected from your customers over the entire duration of their contractual terms. This includes both currently active contracts and future commitments that are signed and recorded in Business Central but have not yet reached their contract start date. By visualizing what your organization can expect to earn based on these formal commitments, TCV serves as a primary indicator of future cash flow and long-term business health.
+Total Contract Value (TCV) is a critical KPI for any subscription-based business. It represents the total committed revenue expected from your customers over the entire duration of their contractual terms. This information includes both currently active contracts and future commitments that are signed and recorded in [!INCLUDE [prod_short](../../includes/prod_short.md)] but aren't yet started. By visualizing what your organization can expect to earn based on these formal commitments, TCV serves as a primary indicator of future cash flow and long-term business health.
 
 Subscription managers can use this report to evaluate the strength of the contract portfolio over time. By comparing TCV and Active Customers against the previous year (PY), you can quickly see if your growth is driven by acquiring new customers or by increasing the value of existing contracts.
 

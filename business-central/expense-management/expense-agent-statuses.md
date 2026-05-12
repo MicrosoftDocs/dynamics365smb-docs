@@ -2,7 +2,7 @@
 title: Expense and Expense Report Statuses in Expense Agent
 description: Learn what each expense and report status means in Expense Agent, and how statuses track your expenses through the workflow.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 04/15/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

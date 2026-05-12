@@ -48,7 +48,14 @@ When you create production orders, [!INCLUDE [prod_short](includes/prod_short.md
 
 ### Initial assignment
 
-Components initially use the default location from your configuration. When you change the subcontracting type, [!INCLUDE [prod_short](includes/prod_short.md)] adjusts the location accordingly.
+When [!INCLUDE [prod_short](includes/prod_short.md)] explodes the production BOM to create component lines, it determines the component location using the following priority:
+
+1. **Stockkeeping unit (SKU) for the finished good**: [!INCLUDE [prod_short](includes/prod_short.md)] looks up the SKU for the *parent item on the production order line* (not the component item) at the production order line's location. If the SKU's **Components at Location** field has a value, components use that location.
+2. **Manufacturing Setup**: If the SKU doesn't exist or its **Components at Location** field is blank, [!INCLUDE [prod_short](includes/prod_short.md)] uses the **Components at Location** field from the **Manufacturing Setup** page.
+3. **Production order line location**: If both the SKU and Manufacturing Setup fields are blank, components use the same location as the production order line.
+
+
+When you change the subcontracting type, [!INCLUDE [prod_short](includes/prod_short.md)] adjusts the location accordingly.
 
 ### The Purchase subcontracting type
 
@@ -61,26 +68,25 @@ When you set a component's subcontracting type to **Purchase**:
 
 When you set a component's subcontracting type to **Transfer**:
 
-- The location remains at the originally configured location.
+- The component keeps the location that was assigned during the initial assignment (based on the SKU, Manufacturing Setup, or production order line priority described earlier).
 - [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order later to move the component to the subcontractor.
 
 ## Set up transfer routes
 
-For components with the **Transfer** subcontracting type, you must set up transfer routes between your locations and the subcontractor locations.
+For components with the **Transfer** subcontracting type, you can set up transfer routes between your locations and the subcontractor locations.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.
 2. Create a new route with the following information:
    - **Transfer-from Code**: The location where the component is stored.
    - **Transfer-to Code**: The subcontracting location code from the vendor card.
-   - **In-Transit Code**: A transit location (optional, depending on whether you use direct transfer).
+   - **In-Transit Code**: A transit location for the transfer.
 
-### Use direct transfer
+### When direct transfers are used
 
-You can specify whether to use direct transfers in the subcontracting setup.
+When [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order for subcontracting (both outbound to the subcontractor and return orders), it checks the transfer route between the two locations:
 
-1. On the **Subcontracting Setup** page, turn on the **Direct Transfer for Subcontracting** toggle to skip transit locations.
-
-When the toggle is turned off, [!INCLUDE [prod_short](includes/prod_short.md)] uses the transit location specified in the transfer route.
+- If a transfer route exists and has an **In-Transit Code**, [!INCLUDE [prod_short](includes/prod_short.md)] creates a regular transfer order that uses the transit location.
+- If no transfer route exists between the locations, or the route doesn't have an **In-Transit Code**, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates a **direct transfer** order instead.
 
 ## Validations and restrictions
 

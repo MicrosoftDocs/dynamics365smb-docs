@@ -43,6 +43,21 @@ The following steps describe how to create a purchase provision with a linked pr
 
 To view information about the production orders and transfer orders linked to the purchase order, choose the **Production** action on the **Lines** FastTab. Learn more about transfers in [Transfer inventory between locations](inventory-how-transfer-between-locations.md).
 
+## Synchronize changes between purchase and production orders
+
+Because the production order is created from the purchase order, [!INCLUDE [prod_short](includes/prod_short.md)] keeps the two documents in sync when you change key fields on the purchase line. This synchronization applies only to purchase lines that haven't been partially received.
+
+### Date synchronization
+
+When you change the **Expected Receipt Date** on the purchase line, [!INCLUDE [prod_short](includes/prod_short.md)] automatically updates the **Due Date** on the linked production order to match. The production order's ending dates are recalculated accordingly. 
+
+### Quantity synchronization
+
+When you change the **Quantity** or **Unit of Measure Code** on the purchase line, [!INCLUDE [prod_short](includes/prod_short.md)] automatically updates the linked production order header, the production order line, and recalculates the quantities on the production order components. 
+
+> [!NOTE]
+> Both date and quantity synchronization work in one direction only, from the purchase order to the production order. If you change the **Due Date** or **Quantity** directly on the production order, the purchase line isn't updated. To keep the documents aligned, make changes on the purchase line.
+
 ## Post purchase provisions
 
 The following sections describe how to post purchase provisions.

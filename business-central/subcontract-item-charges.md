@@ -142,6 +142,7 @@ Keep the following in mind when you work with item charges for subcontracting:
 - You must turn on the feature in **Subcontracting Setup** before you use it. After you turn it on, the feature only affects new postings.
 - After you post an item charge to a subcontracting receipt, you can't reverse it.
 - Make sure that you assign the item charge to the correct subcontracting receipt because the assignment affects cost distribution.
+- Without the Subcontracting app, standard [!INCLUDE [prod_short](includes/prod_short.md)] doesn't support assigning item charges to purchase receipts for subcontracting operations. If you try to assign charges to a receipt line with a work center, you get an error. The Subcontracting app removes this limitation and routes the charges to capacity ledger entries instead of item ledger entries.
 
 ## Verify postings
 

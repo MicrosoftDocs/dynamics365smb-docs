@@ -7,7 +7,7 @@ ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
-ms.search.form: 6996
+ms.search.form: 6996,
 ai-usage: ai-generated
 ---
 
@@ -23,15 +23,15 @@ Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)] automates par
 
 Expense Agent runs on a schedule and performs three tasks:
 
-1. **Reads incoming emails** — The agent retrieves new messages from the configured mailbox and looks for expense-related content such as receipt confirmations and credit card statements.
-2. **Sends outgoing emails** — The agent processes queued messages, such as confirmations and responses to expense users.
-3. **Sends reminder notifications** — If open report notifications are enabled, the agent sends reminders to expense users who have open expense reports.
+1. **Reads incoming emails** to retrieve new messages from the configured mailbox and find expense-related content such as receipt confirmations and credit card statements.
+2. **Sends outgoing emails** for queued messages, such as confirmations and responses to expense users.
+3. **Sends reminder notifications**. If open report notifications are enabled, the agent sends reminders to expense users who have open expense reports.
 
 ## How email processing works
 
 When the agent finds a relevant email, it extracts key details like the date, amount, merchant, and category. It then creates an expense record for the corresponding expense user.
 
-The agent also groups expenses into expense reports automatically based on the configured reporting period. After processing, the agent sends a confirmation email back to the user. The confirmation includes a summary of the created expenses, the total amount, and a link to review the expense report directly in the Expense Agent web app.
+The agent also groups expenses into expense reports automatically based on the configured reporting period. Afterward, the agent sends a confirmation email back to the user. The confirmation includes a summary of the created expenses, the total amount, and a link to review the expense report directly in the Expense Agent web app.
 
 > [!NOTE]
 > The agent suggests expense details based on the email content. Always review automatically created expenses to make sure the information is accurate before submitting the report.
@@ -48,7 +48,7 @@ Before the agent can process emails, an administrator must:
 
 ## Reminder notifications
 
-When enabled, the agent sends periodic reminders to expense users who have expense reports in **Open** status. This helps ensure that reports are submitted on time.
+When enabled, the agent sends periodic reminders to expense users who have expense reports in **Open** status. The reminders help ensure that people submit reports on time.
 
 Administrators configure the reminder frequency (weekly, monthly, or custom) and schedule on the **Expense Agent Setup** page. Learn more at [Configure notification settings](expense-management-setup.md#configure-notification-settings).
 

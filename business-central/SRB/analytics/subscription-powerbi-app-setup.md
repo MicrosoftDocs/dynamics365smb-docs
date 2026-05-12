@@ -1,14 +1,15 @@
 ---
 title: Set up the Subscription Billing Power BI app
 description: Learn how to set up the Subscription Billing Power BI app
-author: vanessa-mi
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.search.form:
-ms.date: 12/15/2025
+ms.date: 05/12/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Set up the Subscription Billing Power BI app

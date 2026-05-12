@@ -1,14 +1,15 @@
 ---
 title: Revenue by Customer (Power BI Report)
 description: The Revenue by Customer report shows how revenue is distributed across customers.
-author: vanessa-mi
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form:
-ms.date: 12/18/2025
+ms.date: 05/12/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Revenue by Customer (Power BI Report)

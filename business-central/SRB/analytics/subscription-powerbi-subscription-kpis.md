@@ -1,15 +1,15 @@
 ---
 title: Subscription Billing KPIs and measures (Power BI)
 description: Get an overview of all the KPIs and measures in the semantic model for the Power BI Subscription Billing app.
-author: vanessa-mi
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: 
-ms.topic: article
+ms.reviewer: bholtorf
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 12/15/2025
+ms.date: 05/12/2026
 ms.service: dynamics-365-business-central
-ms.custom: 
+ms.custom: bap-template
 ---
 
 # KPIs and measures in the Power BI Subscription Billing app

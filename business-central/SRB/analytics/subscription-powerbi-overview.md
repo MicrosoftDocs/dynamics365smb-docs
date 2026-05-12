@@ -1,14 +1,15 @@
 ---
 title: Subscription Billing Overview (Power BI Report)
 description: The Subscription Billing Overview report provides a high-level summary of your organization's subscription activities.
-author: vanessa-mi
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form:
-ms.date: 12/18/2025
+ms.date: 05/12/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Subscription Billing Overview (Power BI Report)

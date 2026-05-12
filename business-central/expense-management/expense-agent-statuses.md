@@ -57,5 +57,6 @@ Several pages show status badges.
 [Edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
 [Create and submit expense reports](expense-agent-expense-reports.md)  
 [Approve expense reports](expense-agent-approve-reports.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

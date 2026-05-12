@@ -30,6 +30,10 @@ The following steps describe how to create a subcontracting purchase order from 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] creates a purchase order with the information and descriptions from the **Subcontracting Setup** page. The subcontractor prices are also transferred. You can send or print the purchase document to your vendor.
 
+## Use the Subcontracting Details FactBox
+
+On the purchase order, the **Subcontracting Details** FactBox shows related production orders, transfer orders, routing operations, components, and subcontractor prices for the selected purchase line. Choose a value to open the related document or list.
+
 ## View subcontracting purchase orders
 
 You can view the purchase order lines for a subcontracting operation directly from the routing.

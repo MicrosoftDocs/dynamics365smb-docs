@@ -43,6 +43,10 @@ To post the transfer order, you can use one of the following methods:
 
 After you post the transfer, [!INCLUDE [prod_short](includes/prod_short.md)] changes the status in the **Operation Status** field in the production order routing to **In Process**.
 
+## Use the Subcontracting Details FactBox
+
+On the transfer order, the **Subcontracting Details** FactBox shows the related purchase order, production order, routing operations, and components for the selected transfer line. Choose a value to open the related document or list.
+
 ## How locations are assigned
 
 [!INCLUDE [prod_short](includes/prod_short.md)] automatically determines the locations for the transfer order:

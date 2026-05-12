@@ -39,6 +39,10 @@ You can change the component posting or subcontracting type in released producti
 5. In the routing link code field, enter the appropriate code.
 6. In the **Subcontracting Type** field, select or change the type.
 
+## Use the Subcontracting Routing Details FactBox
+
+On the production order routing, the **Subcontracting Routing Details** FactBox shows the subcontractor, order quantities, and related transfer orders and components for the selected routing line. Choose a value to open the related document or list.
+
 ## About subcontracting types
 
 You can use three different subcontracting types for component posting:

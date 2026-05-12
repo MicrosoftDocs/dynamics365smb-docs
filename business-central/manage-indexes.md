@@ -4,7 +4,7 @@ description: Learn how to manage database indexes in Business Central to optimiz
 author: phduck
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: article
 ms.collection:
 ms.date: 03/25/2026
 ms.custom: bap-template

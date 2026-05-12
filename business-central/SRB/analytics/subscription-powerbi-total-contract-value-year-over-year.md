@@ -1,27 +1,28 @@
 ---
 title: Total Contract Value Year-Over-Year (Power BI Report)
 description: The Total Contract Value Year-Over-Year report compares TCV trends across periods.
-author: vanessa-mi
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form:
-ms.date: 12/18/2025
+ms.date: 05/12/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Total Contract Value Year-Over-Year (Power BI Report)
 
 The **Total Contract Value Year-Over-Year** report visualizes how total contract value develops month-over-month and compares it against the previous year. It helps users assess subscription portfolio growth, customer activity trends, and overall contract value performance across fiscal periods.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-total-contract-value-year-over-year.png" alt-text="Screenshot of the Subscription Billing Total Contract Value Year-Over-Year Power BI report":::
+:::image type="content" source="../../media/subscription-total-contract-value-year-over-year-growth.png" alt-text="Screenshot of the Total Contract Value Year-Over-Year-Growth report.":::
 
 ## Use the report
 
 The report is meant for business leaders and subscription managers.
 
-Total Contract Value (TCV) is a critical KPI for any subscription-based business. It represents the total committed revenue expected from your customers over the entire duration of their contractual terms. This includes both currently active contracts and future commitments that are signed and recorded in Business Central but have not yet reached their contract start date. By visualizing what your organization can expect to earn based on these formal commitments, TCV serves as a primary indicator of future cash flow and long-term business health.
+Total Contract Value (TCV) is a critical KPI for any subscription-based business. It represents the total committed revenue expected from your customers over the entire duration of their contractual terms. This information includes both currently active contracts and future commitments that are signed and recorded in [!INCLUDE [prod_short](../../includes/prod_short.md)] but aren't yet started. By visualizing what your organization can expect to earn based on these formal commitments, TCV serves as a primary indicator of future cash flow and long-term business health.
 
 Subscription managers can use this report to evaluate the strength of the contract portfolio over time. By comparing TCV and Active Customers against the previous year (PY), you can quickly see if your growth is driven by acquiring new customers or by increasing the value of existing contracts.
 

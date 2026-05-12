@@ -22,7 +22,7 @@ The **Subscription Billing Overview** report provides a high-level summary of yo
 
 This report also highlights the top five customers by monthly recurring revenue and the top 5 vendors by monthly recurring cost.
 
-:::image type="content" source="../../media/srb-subscription-billing-overviewV28.png" alt-text="Screenshot of the Subscription Billing Overview report.":::
+:::image type="content" source="../../media/subscription-billing-overview.png" alt-text="Screenshot of the Subscription Billing Overview report.":::
 
 ## Use the report
 

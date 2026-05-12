@@ -1,27 +1,28 @@
 ---
 title: Revenue Development (Power BI Report)
 description: The Revenue Development report helps you track how and why subscription revenue evolves over time.
-author: vanessa-mi
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form:
-ms.date: 12/18/2025
+ms.date: 05/12/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Revenue Development (Power BI Report)
 
-The **Revenue Development** report provides detailed insight into how monthly recurring revenue changes over time. It breaks down each month’s net change into **new subscriptions**, **upgrades**, **churn**, and **downgrades**, making it clear which factors are driving growth or decline. Changes from subscriptions that are billed based on **usage data** are also visualized, since these subscriptions can fluctuate regularly but are not considered upgrades or downgrades. This view helps you understand whether revenue development is the result of acquiring new customers, expanding existing contracts, offsetting cancellations and reductions, or usage-based variability.
+The **Revenue Development** report provides detailed insight into how monthly recurring revenue changes over time. It breaks down each month’s net change into **new subscriptions**, **upgrades**, **churn**, and **downgrades**, making it clear which factors are driving growth or decline. Changes from subscriptions that are billed based on **usage data** are also visualized, since these subscriptions can fluctuate regularly but aren't considered upgrades or downgrades. This view helps you understand whether revenue development is the result of acquiring new customers, expanding existing contracts, offsetting cancellations and reductions, or usage-based variability.
 
-:::image type="content" source="../../media/powerbi/subscription-billing/sb-revenue-development.png" alt-text="Screenshot of the Subscription Billing Revenue Development Power BI report":::
+:::image type="content" source="../../media/subscription-revenue-development.png" alt-text="Screenshot of the Revenue Development report.":::
 
 ## Use the report
 
-The Revenue Development report is particularly valuable for management and leaders in a subscription business. For example, a manager might spot unusually high churn in March 2024 and click on the data point in the chart. The tables below immediately show which subscription contracts were cancelled in that month. With this information, the manager can review the affected customers and decide on follow-up actions, such as reaching out to prevent further cancellations.
+The Revenue Development report is valuable for management and leaders in a subscription business. For example, a manager might spot unusually high churn in March 2026 and select the data point in the chart. The tables immediately show which subscription contracts were canceled in that month. With this information, the manager can review the affected customers and decide on follow-up actions, such as reaching out to prevent further cancellations.
 
-You can also use the tables to sort and filter for the contracts with the largest increases or decreases in recurring revenue. This makes it easier to identify where to focus attention — whether that means addressing customer churn, following up large downgrades, or reinforcing relationships with accounts that have expanded.
+You can also use the tables to sort and filter for the contracts with the largest increases or decreases in recurring revenue. Sorting makes it easier to identify where to focus attention. For example, you might find out you should address customer churn, follow up on large downgrades, or reinforce relationships with accounts that grew in revenue.
 
 ## Key performance indicators
 

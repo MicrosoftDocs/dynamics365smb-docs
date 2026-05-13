@@ -44,7 +44,7 @@ The agent capability is on if the ![Shows the Sales Order Agent icon](media/soa-
 
 ![Shows the Sales Order Agent icon on a role center](media/soa-in-role-center.svg "Shows the Sales Order Agent icon on a role center")
 
-If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. Sales Order Agent is listed under **Generall available**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
+If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. Sales Order Agent is listed under **General available**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 
 Next, configure and activate the agent so it can process customer sales orders.
 

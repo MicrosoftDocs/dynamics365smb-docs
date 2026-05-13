@@ -36,7 +36,7 @@ Payment methods define how expenses were paid, such as cash, credit card, or com
 
 An expense category represents a type of expense or allowance, such as meals, travel, office supplies, per diem, or mileage. Each category can be configured with its own posting group, default payment method, and specific requirements for additional details. 
 
-To further refine classification, we recommend using expense subcategories within each category. Subcategories provide more granular distinction and improve reporting clarity and polcy readiness. For categories configured for itemization, subcategories are required.  
+To further refine classification, we recommend using expense subcategories within each category. Subcategories provide more granular distinction and improve reporting clarity and policy readiness. For categories configured for itemization, subcategories are required.  
 
 To create the **Expense Category**, follow next steps:
 

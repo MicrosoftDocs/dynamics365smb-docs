@@ -25,6 +25,10 @@ The Shopify connector doesn't work for [Embed App](/dynamics365/business-central
 
 The Shopify connector doesn't work with other Dynamics 365 applications, like Dynamics 365 Sales or Dynamics 365 Supply Chain Management.
 
+## What support is offered for the Shopify Connector?
+
+To learn more, go to [Support for the Shopify Connector](shopify-support.md).
+
 ## What Shopify API is used
 
 The Shopify Connector primarily uses the Shopify GraphQL Admin API for all integration calls, with the exception of operations related to sold gift cards. For consistency, all interactions with Shopify use the same API version.
@@ -38,10 +42,6 @@ If you're using [!INCLUDE[prod_short](../includes/prod_short.md)] with the Shopi
 > [!NOTE]
 > The Shopify API version support timeline doesn't align with the [!INCLUDE [prod_short](../includes/prod_short.md)] update period, which allows you to remain on the previous version for up to five months after a major update is released.
 
-## What support is offered for the Shopify Connector?
-
-To learn more, go to [Support for the Shopify Connector](shopify-support.md).
-
 ## Why does the connector have so many internal (non-public) codeunits?
 
 The Shopify Connector is built on the [Shopify GraphQL Admin API](https://shopify.dev/docs/api/admin-graphql), which Shopify versions every three months and aggressively deprecates fields between versions. The connector pins a specific API version (adopted at each [!INCLUDE[prod_short](../includes/prod_short.md)] major release) and must uptake to the next version before support ends—fall behind and the integration stops working.
@@ -49,10 +49,6 @@ The Shopify Connector is built on the [Shopify GraphQL Admin API](https://shopif
 If internal helpers, staging tables, and communication codeunits were all part of a public surface, every upstream API change would land as a breaking change in your extensions on a quarterly cadence. The design trade-off is deliberate: keep internals private so the connector can keep pace with Shopify without breaking the partners building on top.
 
 For the operations partners need most often, we publish stable, public façade codeunits. To learn more, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
-
-## Currently unsupported features; however, we're tracking them and may consider adding them
-
-- Draft orders
 
 ## Is the Shopify Connector extensible?
 
@@ -80,6 +76,8 @@ According to Shopify, if you want to build and publish a connector app on Shopif
 Check the Shopify requirements because you still might be able to have an unlisted app.
 
 Alternatively, the Shopify Connector for [!INCLUDE [prod_short](../includes/prod_short.md)] constantly gets new features and new customers. If you discover a specific gap, consider [submitting a product suggestion](https://aka.ms/bcideas) or a code contribution to [!INCLUDE [prod_short](../includes/prod_short.md)]. For requirements that might not be relevant for a majority of customers, and can't be easily addressed by the current extensibility model, please reach out to the [!INCLUDE [prod_short](../includes/prod_short.md)] development team to discuss the use case. We should be able to find a feasible solution.
+
+
 
 ## Related information
 

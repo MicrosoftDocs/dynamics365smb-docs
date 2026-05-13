@@ -14,12 +14,9 @@ In this article, we take you through the steps to use the Contoso Coffee demo da
 
 ## Scenario
 
-You are the production planner at Contoso Coffee. You must create a new production order for ten units of item SP-SCM1004, AutoDrip. Some components and operations will be forward flushed, others backward flushed based on different conditions.
+You are the production planner at Contoso Coffee. You must create a new production order for five units of item SP-SCM1004, AutoDrip. Some components and operations will be forward flushed, others backward flushed based on different conditions.
 
 ## Steps
-
-> [Note!]
-> Remember to adjust inventory by posting Item Journal with opening balances.
 
 1. Create a firm planned production order for five units of the item **SP-SCM1004, AutoDrip** on *MAIN* location. For guidance, see [Walkthrough: Create a Firm Planned Production Order and Change It](create-firm-planned-production-order-change.md).  
 
@@ -57,7 +54,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
 5. Manually register output for electrical wiring.  
 
-    You must manually fill in the **Setup Time** and **Run Time** fields. You can also specify the actually produced quantity and scrap. Enter *3* as the output quantity and post the output.
+    You must manually fill in the **Run Time** field. You can also specify the actually produced quantity and scrap. Enter *3* as the output quantity and post the output.
 
     1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
 
@@ -94,7 +91,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
     1. Choose the **Capacity Ledger Entries** action.  
 
-        The packing operations entry was completed at the moment when the order was released. The produced (output) quantity is *5*, regardless of the output of the previous step. Close the **Capacity Ledger Entries** page.
+        The packing operations entry was completed at the moment when the order was finished. The produced (output) quantity is *5*, regardless of the output of the previous step. Close the **Capacity Ledger Entries** page.
 
     2. Choose the **Item Ledger Entries** action.  
 

@@ -85,7 +85,7 @@ This feature is built in accordance with Microsoft's Responsible AI Standard. Le
 
 * Find products
   
-  Find products works best in the English language. While you can use this feature in any of the languages that [!INCLUDE [prod_short](includes/prod_short.md)] supports, item searches in other languages might be less accurate.
+  Find products work best in the English language. While you can use this feature in any of the languages that [!INCLUDE [prod_short](includes/prod_short.md)] supports, item searches in other languages might be less accurate.
 
 If your industry or domain overlaps with what Microsoft considers sensitive topics (such as drugs, violence, adult entertainment, and so on) Copilot might defer to neutral, curated responses, or give inaccurate responses.
 

@@ -42,19 +42,34 @@ If you're using [!INCLUDE[prod_short](../includes/prod_short.md)] with the Shopi
 
 To learn more, go to [Support for the Shopify Connector](shopify-support.md).
 
+## Why does the connector have so many internal (non-public) codeunits?
+
+The Shopify Connector is built on the [Shopify GraphQL Admin API](https://shopify.dev/docs/api/admin-graphql), which Shopify versions every three months and aggressively deprecates fields between versions. The connector pins a specific API version (adopted at each [!INCLUDE[prod_short](../includes/prod_short.md)] major release) and must uptake to the next version before support ends—fall behind and the integration stops working.
+
+If internal helpers, staging tables, and communication codeunits were all part of a public surface, every upstream API change would land as a breaking change in your extensions on a quarterly cadence. The design trade-off is deliberate: keep internals private so the connector can keep pace with Shopify without breaking the partners building on top.
+
+For the operations partners need most often, we publish stable, public façade codeunits. To learn more, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
+
 ## Currently unsupported features; however, we're tracking them and may consider adding them
 
 - Draft orders
 
 ## Is the Shopify Connector extensible?
 
-The Shopify Connector offers a few points of extensibility. We're keeping the number of points to a minimum so that we can follow the rapid development on the Shopify side without introducing breaking changes. However, the most important scenarios are covered. 
+Yes. The connector exposes a substantial extensibility surface while keeping internal communication and staging logic private to absorb Shopify's quarterly API changes without breaking partner extensions. The current surface includes:
 
-Instead of building every modification as an extension, we suggest that you investigate whether you can contribute code to the Shopify Connector through a codevelopment process with Microsoft.
+- **Integration events** across dedicated event codeunits covering orders, products, customers, inventory, shipping, and return/refund processing.
+- **Public façade codeunits** for common operations without subscribing to events:
+  - **Shpfy Orders** (codeunit 30409) — `MarkAsPaid`, `CancelOrder`
+  - **Shpfy Metafields** (codeunit 30418) — `GetMetafieldDefinitions`, `SyncMetafieldToShopify`, `SyncMetafieldsToShopify`
+  - **Shpfy Product** (codeunit 30234) — `AddItemToShopify`, `GetProductUrl`, `GetProductsOverview`
+- **Extensible enums** with interface implementations for stock calculation, customer mapping, company mapping, return/refund processing, and more.
 
-This extension is open for contributions from our community. You can find the [source code](https://github.com/microsoft/BCApps/tree/main/src/Apps/W1/Shopify) in the *BCApps: Microsoft Dynamics 365 Business Central Application* repository.
+These façade codeunits are stable and intended to grow. If you need a specific method exposed, you can open a pull request to add it to the relevant façade — that's a small, low-risk change.
 
-To learn more and explore some examples, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
+The connector is open source and welcomes contributions from partners, including new events, façade methods, bug fixes, and feature work. You can find the [source code](https://github.com/microsoft/BCApps/tree/main/src/Apps/W1/Shopify) in the *BCApps* repository.
+
+To learn more and explore extensibility examples, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## Building your version of the Shopify Connector
 

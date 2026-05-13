@@ -44,18 +44,16 @@ Shortly after finishing this task, Eduardo is asked to increase the order to 50 
 
     1. On the **Lines** FastTab of the **Production BOM**, select the recently added line, and then, in the **Quantity** field, enter *50*.  
 
-3. Choose the **Refresh Production Order** action.  
+        The start date is now pushed back to April 20. This isn't an acceptable date for Eduardo.
 
-    The start date is now pushed back to April 20. This isn't an acceptable date for Eduardo.
-
-4. Trigger a forward scheduling of the production order.
+3. Trigger a forward scheduling of the production order.
 
     1. On the **Schedule** FastTab, set the **Starting Date** field to *April 23*.
 
-    The starting for the order is now April 25, and the ending date is May 2. The due date for the order is set one day later, May 3. Eduardo now knows that it will take until May 3 to deliver the increased order.
+    The starting for the order is now April 23, and the ending date is April 30. The due date for the order is set one day later, May q. Eduardo now knows that it will take until May 1 to deliver the increased order.
 
 > [!NOTE]
-> Scheduling an order by changing its starting or ending date does not require the **Refresh Production Order** batch job because all dates recalculate automatically.
+> Based on the year, April 23 might fall on a weekend. In such cases, the start date is automatically shifted to the next working day, for example April 25. The ending date and due date may also change for the same reason.
 
 The new production order is now set up, and Eduardo's requirements are met.  
 

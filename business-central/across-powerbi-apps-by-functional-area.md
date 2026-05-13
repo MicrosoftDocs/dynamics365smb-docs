@@ -3,7 +3,7 @@ title: Power BI apps/reports for functional areas
 description: Get an overview of the landing pages for the Power BI apps available in functional areas in Business Central.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: feature overview
 ms.date: 05/13/2026

@@ -64,7 +64,14 @@ The following steps describe how to set up a work center. The steps to set up a 
 15. In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
 16. Turn on the **Consolidated Calendar** toggle if you're also using machine centers. This setting ensures that calendar entries are rolled up from machine center calendars.  
 17. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
-18. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. 
+18. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center.
+19. If the location uses bins, fill in the fields on the **Warehouse** FastTab:
+    * In the **Location Code** field, select the location that the bin codes apply to. The bin codes are copied to production order routing lines only when the production order line's location matches this value.
+    * In the **Open Shop Floor Bin Code** field, specify the default bin for components that use **Manual**, **Forward**, or **Backward** flushing methods.
+    * In the **To-Production Bin Code** field, specify the default bin for components that use pick-based flushing methods (**Pick + Forward**, **Pick + Backward**, **Pick + Manual**).
+    * In the **From-Production Bin Code** field, specify the default bin for finished output. At the last routing operation, this bin code flows to the production order line's **Bin Code** field.
+
+    The same fields are available on machine center cards. When you assign a machine center to a work center, the machine center inherits the work center's location code. To learn more about how these bins flow to production order components, go to [Fill in the consumption bin](warehouse-how-to-set-up-locations-to-use-bins.md#fill-in-the-consumption-bin).
 
 > [!NOTE]
 > Use queue times to provide a buffer between the time that a component arrives at a machine or work center and when the operation actually starts. For example, a part is delivered to a machine center at 10:00 but it takes an hour to mount it on the machine so the operation doesn't start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work center card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  

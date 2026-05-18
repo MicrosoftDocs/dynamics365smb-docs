@@ -48,9 +48,7 @@ The next step is to design the item flow at the location by specifying bin codes
 
 ## Fill in the consumption bin
 
-The following flow chart shows how the **Bin Code** field on production order component lines is filled in according to your location setup.
-
-:::image type="content" source="media/binflow.png" alt-text="Bin code field on production order component lines.":::
+[!INCLUDE [production-bin-code-flow](includes/production-bin-code-flow.md)]
 
 ## Related information
 

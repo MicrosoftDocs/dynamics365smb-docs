@@ -676,8 +676,8 @@ ms.service: dynamics-365-business-central
 #### [Overcome subscription business model challenges](SRB/examples.md)
 <!-- Subscription billing analytics start -->
 #### Subscription billing analytics
-##### [Power BI subscription billing app](SRB/analytics/subscription-powerbi-app.md)
-##### [Subscription billing overview](SRB/analytics/subscription-powerbi-overview.md)
+##### [Power BI Subscription Billing app](SRB/analytics/subscription-powerbi-app.md)
+##### [Subscription Billing Overview](SRB/analytics/subscription-powerbi-overview.md)
 ##### [Revenue Year-Over-Year](SRB/analytics/subscription-powerbi-revenue-year-over-year.md)
 ##### [Revenue Analysis](SRB/analytics/subscription-powerbi-revenue-analysis.md)
 ##### [Revenue Development](SRB/analytics/subscription-powerbi-revenue-development.md)

@@ -1110,7 +1110,13 @@ ms.service: dynamics-365-business-central
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)
-### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
+### Subcontracting
+#### [Subcontracting overview](production-how-to-subcontract-manufacturing.md)
+#### [Order subcontracting from production orders](subcontract-order.md)
+#### [Use the subcontracting worksheet](subcontract-worksheet.md)
+#### [Create transfer orders](subcontract-transfer-order.md)
+#### [Post components](subcontract-post-components.md)
+#### [Assign item charges](subcontract-item-charges.md)
 ### [Post consumption and output for one released production order line](production-how-to-register-consumption-and-output.md)
 ### [Batch post consumption](production-how-to-post-consumption.md)
 ### [Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md)
@@ -2244,7 +2250,11 @@ ms.service: dynamics-365-business-central
 #### [Handling lot sizes in production](production-handling-lot-sizes.md)
 #### [Work with production families](production-how-work-family.md)
 #### [Set up standard routing lines](production-how-set-up-standard-routing-lines.md)
-#### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
+#### [Set up subcontracting](subcontract-setup.md)
+#### [Set up subcontractor prices](subcontract-prices.md)
+#### [Manage subcontracting locations](subcontract-location-management.md)
+#### [Set up purchase provisions](subcontract-purchase-provisions.md)
+#### [Set up provisions (setup guide)](subcontract-setup-configurator.md)
 ### Set up service management
 #### [Set up service management](service-setup-service.md)
 #### [Create service items](service-how-to-create-service-items.md)

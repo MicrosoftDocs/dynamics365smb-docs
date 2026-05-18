@@ -56,8 +56,33 @@ In addition to the purchase order and production order, you can print a subcontr
 4. On the request page, specify your selection and output options.
 5. Choose **Print** or **Preview** to print or send the report.
 
+## Post subcontracting purchase orders
+
+After subcontracting purchase orders are created, they can be posted. Receiving the order posts a capacity ledger entry to the production order, and invoicing the order posts the direct cost of the purchase order to the production order.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then select the related link.
+2. Open a purchase order that was created from a production order routing or from the subcontracting worksheet.
+
+    On the purchase order lines, the **Prod. Order No.**, **Prod. Order Line No.**, **Operation No.**, and **Work Center No.** fields are filled in with information from the source production order.
+
+3. Choose the **Post** action.
+
+When the purchase is posted as received, an output journal entry is automatically posted for the production order if the subcontract operation is the last operation on the production order routing.
+
+> [!CAUTION]
+> Posting output automatically for an ongoing production order when subcontracted items are received might not be desired. The expected output quantity that is posted might differ from the actual quantity, and the posting date of the automatic output can be misleading.
+>
+> To avoid that the expected output of a production order is posted when subcontract purchases are received, make sure the subcontracted operation isn't the last one. Alternatively, insert a new last operation for the final output quantity.
+
+When the purchase order is posted as invoiced, the direct cost of the purchase order is posted to the production.
+
+> [!NOTE]
+> Expected costs are only managed for item transactions, not for immaterial transaction types such as capacity posted via subcontract purchase orders. Posting a receipt might trigger posting of output, but these transactions are separate, and the expected cost of output is calculated independently.
+
 ## Related information
 
+[Subcontracting overview](production-how-to-subcontract-manufacturing.md)  
+[Use the subcontracting worksheet](subcontract-worksheet.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

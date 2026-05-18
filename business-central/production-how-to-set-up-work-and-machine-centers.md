@@ -21,7 +21,7 @@ You can assign various machine centers to work centers. A machine center can onl
 The planned capacity of a work center consists of the availability of the corresponding machine centers and the planned availability of the work center. The planned availability of the work center group is, therefore, the sum of all corresponding availabilities of the machine centers and work centers. Availability is stored in calendar entries.  
 
 > [!IMPORTANT]
-> Before you set up work or machine centers, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).
+> Before you set up work or machine centers, you must set up shop calendars. Learn more at [Create Shop Calendars](production-how-to-create-work-center-calendars.md).
 
 ## To set up a work center
 
@@ -74,7 +74,7 @@ The following steps describe how to set up a work center. The steps to set up a 
     The same fields are available on machine center cards. When you assign a machine center to a work center, the machine center inherits the work center's location code. To learn more about how these bins flow to production order components, go to [Fill in the consumption bin](warehouse-how-to-set-up-locations-to-use-bins.md#fill-in-the-consumption-bin).
 
 > [!NOTE]
-> Use queue times to provide a buffer between the time that a component arrives at a machine or work center and when the operation actually starts. For example, a part is delivered to a machine center at 10:00 but it takes an hour to mount it on the machine so the operation doesn't start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work center card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  
+> Use queue times to provide a buffer between the time a component arrives at a machine or work center and when the operation actually starts. For example, a part is delivered to a machine center at 10:00, but it takes an hour to mount it on the machine so the operation doesn't start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work center card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This combination helps provide accurate overall production times.  
 
 ## Considerations about capacity
 
@@ -112,7 +112,7 @@ The fractal capacity is used only in specific cases.
 
 ### Work center processing multiple orders simultaneously
 
-Let's use a paint-spraying booth as an example. The booth has the same setup and run times for each lot. But, each lot can contain multiple individual orders that are painted simultaneously.  
+Let's use a paint-spraying booth as an example. The booth has the same set-up time and run time for lots. But, each lot can contain multiple individual orders that are painted simultaneously.  
 
 In this case, the setup time and the concurrent capacity manage the cost allocated to orders. We recommend that you don't use run time in routing lines.  
 

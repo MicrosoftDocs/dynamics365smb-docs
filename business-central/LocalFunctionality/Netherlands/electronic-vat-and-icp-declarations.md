@@ -8,7 +8,7 @@ ms.search.keywords: extensible business reporting, ICP declaration, Dutch versio
 ms.date: 05/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ---
 
 # Submitting electronic VAT and ICP declarations in the Dutch version
@@ -19,8 +19,7 @@ Companies must submit periodic VAT and Intracommunautaire leveringen (ICP) decla
 - ICP declarations must be submitted on a quarterly basis.
 
 > [!NOTE]  
-> ICP declarations must be submitted by companies/regions that sell goods or services to European Union (EU) countries. Purchases aren't included in this declaration. <br><br/>
-For a transaction to qualify for ICP, it's required that the merchandise crossed the border physically. It isn't enough that the location of an invoice address or the office of the vendor or customer is in another EU country or region.  
+> Companies that sell goods or services to European Union (EU) countries/regions ICP declarations must submit. Purchases aren't included in this declaration. For a transaction to qualify for ICP, the merchandise must physically cross a border. It isn't enough that the location of an invoice address or the office of the vendor or customer is in another EU country/region.  
 
 You can submit the VAT declarations and ICP declarations in the following ways:  
 
@@ -57,7 +56,7 @@ The XBRL reporter ensures that all account numbers that are imported from Busine
 
 ## Submit an electronic declaration
 
-With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it's submitted, the file is sent to the tax authorities as defined on the **Elec. Tax Declaration Setup** page.
+With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When submitted, the file is sent to the tax authorities as defined on the **Elec. Tax Declaration Setup** page.
 
 1. On the **Elec. Tax Declaration Card** page, choose the **Submit Electronic Tax Declaration** action.
 1. Fill in the fields as described in the following table.

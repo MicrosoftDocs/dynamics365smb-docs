@@ -7,3 +7,5 @@
 | Inventory Valuation  | [Power BI Inventory Valuation app](../inventory-valuation-powerbi-app.md) |
 | Projects             | [Power BI Projects app](../projects-powerbi-app.md) |
 | Manufacturing        | [Power BI Manufacturing app](../manufacturing-powerbi-app.md) |
+| Subscription Billing | [Power BI Subscription Billing app](../SRB/analytics/subscription-powerbi-app.md) |
+| Sustainability       | [Sustainability Power BI app](../sustainability-powerbi-app.md) |

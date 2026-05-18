@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Revenue Analysis (Power BI Report)
 
-The **Revenue Analysis** report provides a detailed analysis of monthly recurring revenue, breaking it down into its key contributing components. This report can help you understand what’s driving MRR in your subscription business, and why.
+The **Revenue Analysis** report provides a detailed analysis of monthly recurring revenue (MRR), breaking it down into its key contributing components. This report can help you understand what’s driving MRR in your subscription business, and why.
 
 :::image type="content" source="../../media/subscription-revenue-analysis.png" alt-text="Screenshot of the Revenue Analysis report.":::
 

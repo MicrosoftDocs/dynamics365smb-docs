@@ -182,9 +182,7 @@ The following steps describe the actions that different people take and the rela
 8. The shop floor supervisor uses the output journal or production journal to post the output. The quantity of component items that use **Pick + Forward** or **Pick + Backward** flushing methods with routing links is deducted from the To-Production bin.
 9. The production manager changes the status of the production order to **Finished**. The quantity of component items that use **Backward** flushing method is deducted from the open shop floor bin, and the quantity of component items that use **Pick + Backward** flushing method and no routing link is deducted from the To-Production bin.  
 
-The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
-
-:::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
+[!INCLUDE [production-bin-code-flow](includes/production-bin-code-flow.md)]
 
 ## Make-to-Order (MTO) production components in an advanced warehouse configuration
 

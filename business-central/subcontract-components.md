@@ -112,16 +112,6 @@ Before you create a transfer order, the following must be in place:
 - **Transfer-from** — The location of the production order component. If you change the component location after creating the transfer order, [!INCLUDE [prod_short](includes/prod_short.md)] automatically uses the new location.
 - **Transfer-to** — The **Subcontracting Location Code** from the vendor card.
 
-### Post a transfer order
-
-You can post the transfer order using one of the following methods:
-
-- Post from the **Transfer Order** page.
-- Post through warehouse shipments.
-- Post through picking.
-
-After you post the transfer order, [!INCLUDE [prod_short](includes/prod_short.md)] changes the status in the **Operation Status** field in the production order routing to **In Process**.
-
 ### Use direct transfers
 
 When [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order for subcontracting (both outbound and return orders), it checks the transfer route between the two locations:
@@ -140,6 +130,16 @@ The **Subcontracting Inbound Whse. Handling Time** is defined in the **Subcontra
 ### Use the Subcontracting Details FactBox
 
 On the transfer order, the **Subcontracting Details** FactBox shows the related purchase order, production order, routing operations, and components for the selected transfer line. Choose a value to open the related document or list.
+
+### Post a transfer order
+
+You can post the transfer order using one of the following methods:
+
+- Post from the **Transfer Order** page.
+- Post through warehouse shipments.
+- Post through picking.
+
+After you post the transfer order, [!INCLUDE [prod_short](includes/prod_short.md)] changes the status in the **Operation Status** field in the production order routing to **In Process**.
 
 ### Access transfer entries
 
@@ -181,7 +181,7 @@ The return quantity is the lesser of what's physically available at the subcontr
 If you cancel the remaining 20 units on the purchase order, the outstanding quantity drops to zero, and the return quantity also becomes zero — because no production remains to justify a return.
 
 > [!NOTE]
-> When the subcontractor receives the finished goods (you post the purchase receipt), [!INCLUDE [prod_short](includes/prod_short.md)] automatically reduces the components available for return. Only unconsumed components can be returned.
+> When the subcontractor delivers the finished goods (you post the purchase receipt), [!INCLUDE [prod_short](includes/prod_short.md)] automatically reduces the components available for return. Only unconsumed components can be returned.
 
 ### One return per purchase order line
 

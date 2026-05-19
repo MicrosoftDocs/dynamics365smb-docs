@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 Subcontracting selected operations to a vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or an integral part of all production processes.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides basic subcontracting support through subcontract work centers. For extended capabilities — such as the subcontracting worksheet, subcontractor price management, component posting, transfer orders, item charges, and location management — install the **Subcontracting** app from [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2311183). Learn more about installing apps at [Install and uninstall extensions](ui-extensions-install-uninstall.md#install).
+<!--[!INCLUDE[prod_short](includes/prod_short.md)] provides basic subcontracting support through subcontract work centers. For extended capabilities — such as the subcontracting worksheet, subcontractor price management, component posting, transfer orders, item charges, and location management — install the **Subcontracting** app from [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2311183). Learn more about installing apps at [Install and uninstall extensions](ui-extensions-install-uninstall.md#install). -->
 
 ## Basic subcontracting tools
 
@@ -26,6 +26,8 @@ The following tools are available without the Subcontracting app:
 - **Work center cost based on units or time** — You can specify whether costs for the work center are based on production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit, [!INCLUDE[prod_short](includes/prod_short.md)] can handle both options.
 
 ## Extended capabilities (Subcontracting app)
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 The Subcontracting app adds the following capabilities:
 
@@ -57,9 +59,9 @@ Assign additional costs such as transport, packaging, or other incidental costs 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] automatically assigns and manages locations in subcontracting, from component provision to transfer to the subcontractor. Learn more in [Manage locations in subcontracting](subcontract-location-management.md).
 
-### Purchase provisions
+<!--### Purchase provisions
 
-Create subcontracting from purchase orders through production orders and complete the subcontracting process. Default settings support automatic posting processes to save time and reduce costs. Learn more in [Set up purchase provisions for subcontracting](subcontract-purchase-provisions.md).
+Create subcontracting from purchase orders through production orders and complete the subcontracting process. Default settings support automatic posting processes to save time and reduce costs. Learn more in [Set up purchase provisions for subcontracting](subcontract-purchase-provisions.md). -->
 
 ## Related information
 

@@ -125,7 +125,7 @@ When [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order fo
 
 **Receipt Date = Due date of the production order component - Subcontracting Inbound Whse. Handling Time**
 
-The **Subcontracting Inbound Whse. Handling Time** is defined in the **Subcontracting Setup**.
+The **Subcontracting Inbound Whse. Handling Time** is defined on the **Manufacturing Setup** page.
 
 ### Use the Subcontracting Details FactBox
 

@@ -31,7 +31,7 @@ The following steps describe how to create a subcontracting purchase order from 
 6. Choose the **Order Subcontracting** action.
 7. On the confirmation page, choose **Yes**.
 
-[!INCLUDE [prod_short](includes/prod_short.md)] creates a purchase order with the information and descriptions from the **Subcontracting Setup** page. The subcontractor prices are also transferred. You can send or print the purchase document to your vendor.
+[!INCLUDE [prod_short](includes/prod_short.md)] creates a purchase order with the information from your setup. The subcontractor prices are also transferred. You can send or print the purchase document to your vendor.
 
 ## Use the Subcontracting Details FactBox
 

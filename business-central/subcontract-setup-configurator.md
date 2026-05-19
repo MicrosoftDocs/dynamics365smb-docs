@@ -21,10 +21,12 @@ To use purchase provisions, you must configure settings for routing link codes, 
 
 ## Configure purchase provisions settings
 
-The following steps describe how to configure purchase provisions.
+Purchase provision settings are split across two pages. Fields for work centers, flushing method, and the provision wizard are on the **Subcontracting Setup** page. Fields for routing link codes, component locations, and item charges are on the **Manufacturing Setup** page (in the **Subcontracting** section).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Setup**, and then choose the related link.
-2. On the **Purchase Provisions** FastTab, fill in the fields as described in the following table. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+The following table describes each field.
+
+> [!TIP]
+> Use the Tell Me feature to search for **Subcontracting Setup** or **Manufacturing Setup** to open the respective page. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 |Field|Description|
 |-----|----------|
@@ -47,8 +49,8 @@ Make sure that you set up the data for the work center groups assigned to the pr
 
 You can specify which location [!INCLUDE [prod_short](includes/prod_short.md)] uses by default to provide components for subcontracting.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Setup**, and then choose the related link.
-2. On the **Purchase Provisions** FastTab, in the **Components at Location** field, choose one of the following options:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.
+2. In the **Subcontracting** section, in the **Default Component Location Source** field, choose one of the following options:
 
 |Option|Description|
 |------|----------|

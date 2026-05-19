@@ -23,8 +23,8 @@ You can assign item charges to subcontracting receipts to include costs such as 
 
 Before you can assign item charges to subcontracting receipts, you must turn on the feature.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Setup**, and then choose the related link.
-2. On the **Subcontracting** FastTab, turn on the **Item Charge to Subcontracting Purch. Receipt Lines** toggle.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.
+2. In the **Subcontracting** section, turn on the **Item Charge to Subcontracting Purch. Receipt Lines** toggle.
 
 After you turn on the feature, the **Get Receipt Lines for Subcontracting** action becomes available when you assign item charges.
 
@@ -83,7 +83,7 @@ The **Get Receipt Lines for Subcontracting** action simplifies the process of as
 - **Operation No.**
 
 > [!NOTE]
-> The **Get Receipt Lines for Subcontracting** action is only available when you turn on the **Item Charge to Subcontracting Purch. Receipt Lines** toggle in the **Subcontracting Setup**.
+> The **Get Receipt Lines for Subcontracting** action is only available when you turn on the **Item Charge to Subcontracting Purch. Receipt Lines** toggle on the **Manufacturing Setup** page.
 
 ## Value entries for subcontracting item charges
 
@@ -142,7 +142,7 @@ Quality testing at the subcontractor costs 100 EUR in addition to 1,200 EUR for 
 
 Keep the following in mind when you work with item charges for subcontracting:
 
-- You must turn on the feature in **Subcontracting Setup** before you use it. After you turn it on, the feature only affects new postings.
+- You must turn on the feature on the **Manufacturing Setup** page before you use it. After you turn it on, the feature only affects new postings.
 - After you post an item charge to a subcontracting receipt, you can't reverse it.
 - Make sure that you assign the item charge to the correct subcontracting receipt because the assignment affects cost distribution.
 - Without the Subcontracting app, standard [!INCLUDE [prod_short](includes/prod_short.md)] doesn't support assigning item charges to purchase receipts for subcontracting operations. If you try to assign charges to a receipt line with a work center, you get an error. The Subcontracting app removes this limitation and routes the charges to capacity ledger entries instead of item ledger entries.

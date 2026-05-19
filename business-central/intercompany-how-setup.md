@@ -1,11 +1,11 @@
 ---
-title: Set Up intercompany transaction posting
+title: Set up intercompany transaction posting
 description: Learn how to set up an intercompany partnership. 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/19/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 613, 617, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621, 653_Primary
@@ -45,7 +45,7 @@ Use the **Intercompany Setup** page to set up the following components of interc
 
 ## Set up a synchronization partner
 
-All partners must use the same intercompany chart of accounts and, if needed, the same intercompany dimensions. You can save time when you set up the partnership by using the chart of accounts and dimensions for one of the partners as a baseline for the intercompany chart of accounts and dimensions. The company that you use as the baseline is called the *synchronization partner*. Typically, the synchronization partner is the headquarter company, but it doesn't have to be.
+All partners must use the same intercompany chart of accounts and, if needed, the same intercompany dimensions. When you set up the partnership, you can save time by using the chart of accounts and dimensions for one of the partners as a baseline for the intercompany chart of accounts and dimensions. The company that you use as the baseline is the *synchronization partner*. Typically, the synchronization partner is the headquarter company, but it doesn't have to be.
 
 On the **Intercompany Setup** page, each partner specifies the synchronization partner in the **Synchronization Partner** field. Afterward, the intercompany chart of accounts and intercompany dimensions are automatically specified for them, based on the setup for the synchronization partner. The partners then use the **Intercompany Chart of Accounts Mapping** and **Intercompany Dimension Mapping** pages to map their chart of accounts and dimensions to the intercompany chart of accounts and dimensions, and vice versa. 
 
@@ -81,7 +81,7 @@ Run the **Intercompany Setup**, **Actions**, **Connection Details** in all compa
 This process is only necessary if you want to connect with a partner whose [!INCLUDE [prod_short](includes/prod_short.md)] is in a different tenant or environment.
 
 > [!TIP]
-> It's a good idea to have a text editor open, such as Notepad, while you create your registered app. You'll need some of the information when you run the **Intercompany Setup**, **Actions**, **Connection Details**, so it's nice to have the information handy.
+> It's a good idea to have a text editor open, such as Notepad, while you create your registered app. You need some of the information when you run the **Intercompany Setup**, **Actions**, **Connection Details**, so it's nice to have the information handy.
 
 1. Go to [Azure portal](https://portal.azure.com/#home).
 2. Choose the **Microsoft Entra ID** service.
@@ -148,7 +148,7 @@ The synchronization company can share its chart of accounts with partners by exp
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.
 2. Choose the **IC Chart of Accounts** action.
 3. On the **Intercompany Chart of Accounts** page, choose the **Import/Export** action, and then choose either **Import** or **Export**.
-4. Choose the file to import or export.  
+4. Choose the file that you want to import or export.  
 
 The **Intercompany Chart of Accounts** page is filled with new or edited G/L account lines according to the intercompany chart of accounts in the file. Any existing, unrelated lines on the page remain unchanged.
 
@@ -199,7 +199,7 @@ The synchronization company can share its dimensions with partners by exporting 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.
 2. Choose the **IC Dimensions** action.  
 3. On the **Intercompany Dimensions** page, choose the **Import/Export** action, and then choose either **Import** or **Export**.
-4. Choose the file to import or export.
+4. Choose the file you want to import or export.
 
 The next step is to map the dimensions with the intercompany dimensions. Learn more at [Map intercompany dimensions to your company's dimensions](#map-intercompany-dimensions-to-your-companys-dimensions).
 
@@ -242,16 +242,16 @@ To learn more about general journal templates and batches, go to [Use journal te
 The following steps assume that a synchronization partner is set up with the chart of accounts and dimensions on which you base the intercompany chart of accounts and dimensions. You can set them up yourself, but it's typically faster to get started, and maintenance is easier, to you use a synchronization partner. To learn more about the synchronization partner, go to [Set up a synchronization partner](#set-up-a-synchronization-partner).
 
 > [!TIP]
-> It's a good idea to fill in the fields on the **General** FastTab on the **Intercompany Setup** page for each partner before you add their partners. When you add partner companies that are in the same tenant, [!INCLUDE [prod_short](includes/prod_short.md)] gets their IC code and company name from their setup on the General FastTab. The **Company Name** field will verify that their IC code is unique.
+> It's a good idea to fill in the fields on the **General** FastTab on the **Intercompany Setup** page for each partner before you add their partners. When you add partner companies that are in the same tenant, [!INCLUDE [prod_short](includes/prod_short.md)] gets their IC code and company name from their setup on the General FastTab. The **Company Name** field verifies that their IC code is unique.
 
 > [!NOTE]
-> If you'll use a synchronization partner, leave the **Synchronization Partner** field blank when you set that company up for the partnership.
+> If you use a synchronization partner, leave the **Synchronization Partner** field blank when you set up that company for the partnership.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany Setup**, and then choose the related link.  
 2. On the **Intercompany Setup** page, fill in the fields on the **General** FastTab. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> In [!INCLUDE[prod_short](includes/prod_short.md)] online, you can't use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] can't access your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the **Downloads** folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email**.
+> In [!INCLUDE[prod_short](includes/prod_short.md)] online, you can't use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] can't access your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field isn't available. Instead, the file downloads to the **Downloads** folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email**.
 
 The next step is to set up the partner companies.
 
@@ -279,7 +279,7 @@ Each partner must add all other companies in the partnership as a partner.
 3. Depending on what you want to do, choose the customer or partner in the **Customer No.** or **Vendor No.** fields.
 
     > [!NOTE]
-    > If the customer or vendor hasn't been created, you can choose **+New** in the drop-down menu to set them up. To learn more about creating customers and vendors, go to [Register New Customers](sales-how-register-new-customers.md) and [Register New Vendors](purchasing-how-register-new-vendors.md).
+    > If the customer or vendor isn't created, you can choose **+New** in the drop-down menu to set them up. To learn more about creating customers and vendors, go to [Register New Customers](sales-how-register-new-customers.md) and [Register New Vendors](purchasing-how-register-new-vendors.md).
 
     > [!TIP]
     > You can also specify a customer or vendor as an intercompany partner by filling in the **IC Partner Code** field on the **Customer Card** and **Vendor Card** pages.
@@ -301,7 +301,7 @@ To make it faster to process intercompany transactions, you can specify that you
 * On the **Intercompany Setup** page, turn on the **Auto. Send Transactions** toggle for the synchronization partner. Then specify where to create received intercompany journal transactions by filling in the **Default IC Gen. Jnl. Template** and **Default IC Gen. Jnl. Batch** fields.
 
     > [!TIP]
-    > If the **Default IC Gen. Jnl. Template** field is blank, you need to set up a general journal template to use for your intercompany general journals. To learn more about templates and batches, go to [Set up intercompany general journal templates and batches](#set-up-intercompany-general-journal-templates-and-batches)    
+    > If the **Default IC Gen. Jnl. Template** field is blank, set up a general journal template to use for your intercompany general journals. To learn more about templates and batches, go to [Set up intercompany general journal templates and batches](#set-up-intercompany-general-journal-templates-and-batches)    
 
 * On the **Intercompany Partner** page, turn on the **Auto Accept Transactions** toggle.
 

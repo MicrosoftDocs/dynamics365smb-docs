@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 08/12/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
@@ -110,7 +110,7 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 6. On the **Batch Post Transfer Orders** request page, choose the **Ship** option, filter on **Direct Transfer**, and then select **OK**.
 
    > [!IMPORTANT]
-   > It's important to set filters. Otherwise, [!INCLUDE [prod_short](includes/prod_short.md)] will post all documents, even if they aren't ready. Consider setting a filter on the **Status** field for the value **Released**, and a filter on the **Posting Date** field for the value **..today**. To learn more about filters, go to [Sorting, Searching, and Filtering](/dynamics365/business-central/ui-enter-criteria-filters).
+   > It's important to set filters. Otherwise, [!INCLUDE [prod_short](includes/prod_short.md)] posts all documents, even if they aren't ready. Consider setting a filter on the **Status** field for the value **Released**, and a filter on the **Posting Date** field for the value **..today**. To learn more about filters, go to [Sorting, Searching, and Filtering](/dynamics365/business-central/ui-enter-criteria-filters).
 
 7. Select all checkboxes from **Run on Mondays** to **Run on Fridays**.
 8. In the **Starting Time** field, enter **4 PM**.
@@ -118,11 +118,11 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 
 ### Comparison of different settings for transfer orders
 
-You can post transfer orders in different modes, with or without an in-transit location. Turn off the **Direct Transfer** toggle and select the temporary location in the **In Transit Code** field on the **Transfer Order** page. When you post the shipment of a transfer order that uses the in-transit location, the items on the line are no longer available at one of your locations because they're in transit. Direct posting ensures that an in-transit location isn't used and the shipment and receipt process simultaneously. The exact behavior of direct posting might can be different based on the value selected in the **Direct Transfer Posting** field on the **Inventory Setup** page.
+You can post transfer orders in different modes, with or without an in-transit location. Turn off the **Direct Transfer** toggle and select the temporary location in the **In Transit Code** field on the **Transfer Order** page. When you post the shipment of a transfer order that uses the in-transit location, the items become unavailable because they're in transit. Direct posting ensures that an in-transit location isn't used and the shipment and receipt process simultaneously. The exact behavior of direct posting can be different based on the value selected in the **Direct Transfer Posting** field on the **Inventory Setup** page.
 
 The following table describes how the combinations differ.
 
-|Capability|The **Direct Transfer** field is disabled in the **Transfer Order** page|**Direct Transfer** is enabled on the **Transfer Order** page</br>**Direct Transfer Posting** is set to **Direct Transfer** on the **Inventory Setup** page|**Direct Transfer** is enabled in the **Transfer Order** page</br>**Direct Transfer Posting** is set to **Receipt and Shipment** on the **Inventory Setup** page|
+|Capability|The **Direct Transfer** field is disabled in the **Transfer Order** page|**Direct Transfer** is enabled on the **Transfer Order** page</br>The **Direct Transfer Posting** field is set to **Direct Transfer** on the **Inventory Setup** page|**Direct Transfer** is enabled in the **Transfer Order** page</br>The **Direct Transfer Posting** field is set to **Receipt and Shipment** on the **Inventory Setup** page|
 |---|---|---|---|
 |Use in-transit location|Yes|No|No|
 |Can post receipt without shipment.</br>Can use **Undo receipt**.|Yes|No|No|
@@ -147,9 +147,9 @@ The numbers in the cells show the posting options that are supported.
 1. Post from transfer order. For some combinations, you might need to fill in the **Qty. to Ship** field.
 2. Create and post a warehouse shipment.
 3. Create and post an inventory pick.
-4. Create and post an inventory put-away. For some combinations you might need to fill in the **Qty. to Ship** field.
+4. Create and post an inventory put-away. For some combinations, you might need to fill in the **Qty. to Ship** field.
 
-Regardless of the method, the shipment and receipt transactions are performed. For example you can create a transfer order from a location that requires inventory-pick to a location that requires inventory put-away. You can create and post the inventory put-away, and both the shipment and receipt transactions are created. You can also post such documents from a transfer order or from an inventory pick.  
+Regardless of the method, the shipment and receipt transactions are performed. For example, you can create a transfer order from a location that requires inventory-pick to a location that requires inventory put-away. You can create and post the inventory put-away, and both the shipment and receipt transactions are created. You can also post such documents from a transfer order or from an inventory pick.  
 
 For more information about warehouse handling, see [Warehouse management overview](design-details-warehouse-management.md).
 

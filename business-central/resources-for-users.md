@@ -43,7 +43,7 @@ Register for the [!INCLUDE [prod_short](includes/prod_short.md)] Launch Event on
 
 ## Customer onboarding and resources
 
-- Discover all [!INCLUDE [prod_short](includes/prod_short.md)] apps on AppSource: [aka.ms/BCAppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=dynamics-365-business-central)
+- Discover all [!INCLUDE [prod_short](includes/prod_short.md)] apps on Marketplace: [aka.ms/BCMarketplace](https://marketplace.microsoft.com/marketplace/apps?page=1&product=dynamics-365-business-central)
 - Get [!INCLUDE [prod_short](includes/prod_short.md)] on your mobile devices: [aka.ms/BusinessCentralApp](https://aka.ms/BusinessCentralApp)
 - Get the [!INCLUDE [prod_short](includes/prod_short.md)] installable app on your desktop: [aka.ms/BCPWA](https://aka.ms/BCPWA)
 - Learn about onboarding experiences in [!INCLUDE [prod_short](includes/prod_short.md)]: [aka.ms/BCOnboarding](https://aka.ms/bconboarding)

@@ -34,7 +34,15 @@ The report shows the following data for individual orders for each item:
 * Order quantity
 * Quantity on back order
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
+
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+
 ## Use cases
+
+[!INCLUDE [report-718-scenario](../includes/report-718-scenario-include.md)]
 
 <!-- 
 Prompt

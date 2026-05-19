@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 05/20/2025
+ms.date: 03/03/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -36,78 +36,81 @@ Explore the KPIs to learn more about how they can help you achieve your business
 - [Sales New Customers](#sales-new-customers)
 - [Sales Recovered Customers](#sales-recovered-customers)
 - [Sales Returning Customers](#sales-returning-customers)
+- [Sales Lost Customers](#sales-lost-customers)
 
 ### No. of Customers
 
 **Formula**  
 
-Distinct count of the **Customer No.** column from the **Sales** table.
+This measure counts the number of active customers by calculating the distinct count of the **Customer No.** column from the **Sales** table, where a customer has at least one posted sales invoice transaction.
 
 **Data Sources**
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### No. of Lost Customers
 
 **Formula**  
 
-This measure calculates the number of customers who were lost, meaning customers who stopped purchasing, within the current date selection. It determines the latest date in the selection, prepares a table of customers and the dates they were "lost," and then filters out the customers whose lost date is within the selected date range. Finally, it counts the rows in this filtered table to get the number of lost customers.
+This measure counts customers who “become lost” during the currently selected date range, where “lost” is defined by an inactivity threshold in months since their last purchase. The inactivity threshold is managed by setting the Lost Customer Month Range filter. This is not: customers who didn’t buy this period. It’s customers who officially became lost this period according to the rule: no purchases for X months since last purchase. 
+
+It determines a customer's latest Posted Sales Invoice date in the selection, prepares a table of customers and the dates they were "lost". Then it filters out the customers whose lost date is within the selected Lost Customer Month Range filter. Finally, it counts the rows in this filtered table to get the number of lost customers.
 
 **Data Sources**
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### No. of New Customers
 
 **Formula**  
 
-This measure counts new customers by finding the date of their first purchase. It includes customers if their first purchase happened within the date selection.
+This measure counts the number of new customers acquired in the selected period by finding the date of a customer's first Posted Sales Invoice. It includes customers if their first purchase happened within the date selection.
 
 **Data Sources**
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### No. of Recovered Customers
 
 **Formula**  
 
-This measure calculates the number of customers who were temporarily lost, that is, customers who stopped purchasing but later made a new purchase. It identifies customers who had a "lost" date before the selected date range, then determines which customers made a new purchase within the current period. The measure filters and counts only those customers whose new purchase occurred after their lost date, returning the total number of recovered customers.
+This measure calculates the number of customers who were temporarily lost, that is, customers who were inactive in the previous period but returned with a purchase in the current period. It identifies customers who had a "lost" date before the selected date range, then determines which customers made a new purchase within the current period. The measure filters and counts only those customers whose new purchase occurred after their lost date, returning the total number of recovered customers.
 
 **Data Sources**
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### No. of Returning Customers
 
 **Formula**  
 
-This measure calculates the number of customers who made a repeat purchase during the current period. It identifies existing customers by filtering customers whose first purchase was before the selected date range, then determines which of these customers made another purchase within the current period. The measure returns the count of these returning customers.
+This measure calculates the number of customers who have at least one posted sales invoice before the current period, and have made a repeat purchase during the current period. It identifies existing customers by filtering customers whose first purchase was before the selected date range, then determines which of these customers made another purchase within the current period. The measure returns the count of these returning customers.
 
 **Data Sources**
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### No. of Temporarily Lost Customers
 
 **Formula**  
 
-This measure calculates the number of customers who were temporarily lost, that is, customers who stopped purchasing. It identifies customers who were active in the previous period, then determines which customers have not made a purchase within the current period.The measure returns the total number of  these temporarily lost customers.
+This measure calculates the number of customers who were temporarily lost, that is, customers who have at least one posted sales invoice in the previous period, but didn't purchase in the current period. It identifies customers who were active in the previous period, then determines which customers haven't made a purchase within the current period. The measure returns the total number of  these temporarily lost customers.
 
 **Data Sources**  
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### Sales Lost Customers (12M)
 
@@ -119,7 +122,7 @@ This measure calculates the total sales lost over the past 12 months due to cust
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### Sales New Customers
 
@@ -131,7 +134,7 @@ This measure calculates the total sales from customers who made their first purc
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### Sales Recovered Customers
 
@@ -143,7 +146,7 @@ This measure calculates the total sales generated by recovered customers. Recove
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
 
 ### Sales Returning Customers
 
@@ -155,7 +158,19 @@ This measure calculates the total sales generated by returning customers. Return
 
 - Value Entries
 - Sales Invoice Line
-- Sales Credit Line
+- Project Ledger Entries
+- 
+### Sales Lost Customers
+
+**Formula**  
+
+This measure calculates the total sales lost based on the **Lost Customer Month Range** who stopped purchasing ("lost" customers). It first identifies the most recent "lost" date, then filters customers who were lost before that date. It gets the sales from the previous 12 month period, for these lost customers and calculates the total revenue they generated before they stopped purchasing.
+
+**Data Sources**
+
+- Value Entries
+- Sales Invoice Line
+- Project Ledger Entries
 
 ## Opportunities Table
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: reject, delegate, request, approval, approval workflows, record approval, approval requests
-ms.search.form: 654, 662, 1500
+ms.search.form: 654_Primary, 662_Primary, 666_Primary, 1500
 ms.date: 10/16/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -76,6 +76,7 @@ An approval user with approver rights can remind approval workflow users of over
 
 The **Send Overdue Approval Notifications** action checks for all open approval requests currently overdue. Each approver with at least one overdue approval entry receives a notification with the list of all their overdue approval requests. The notification is also sent to their approver and all the requesters of the overdue approvals. This last step helps if the overdue approval entry must be delegated to a substitute.
 
+<!-- No **Overdue Approval Requests** page exists in the app -->
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Overdue Approval Requests**, and then choose the related link.
 2. On the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.
 

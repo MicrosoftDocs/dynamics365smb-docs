@@ -1,5 +1,5 @@
 ---
-title: Audit changes to financial reporting
+title: Auditing and financial reporting
 description: Learn how to track the changes people make to your financial reports.
 author: kennienp
 ms.author: kepontop
@@ -11,7 +11,7 @@ ms.search.keywords: account schedule, financial report, auditing
 ms.search.form: Report_25, 103, 108, 488
 ms.service: dynamics-365-business-central
 ---
-# Audit changes to financial reporting
+# Auditing and financial reporting
 
 Financial reporting helps you gather insights into the financial data in your chart of accounts (COA). This article explains ways to monitor changes to your financial report definitions, and how to control access to financial reports.
 
@@ -25,7 +25,10 @@ The following table lists the table for financial report definitions and their I
 |------ | -------- |
 | Report Definition       | 88  |
 | Row Definition          | 84  |
+| Row Definition lines    | 85  |
 | Column Definition       | 333 |
+| Column Definition lines | 334 |
+
 
 [!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
@@ -58,13 +61,16 @@ To learn more, go to [Analyzing financial report usage telemetry](/dynamics365/b
 
 ## Permissions to view or edit financial reports
 
-The following table lists the permission sets that control whether you can view or edit financial reports and their report definitions.
+The following table lists the permission sets that control whether users can view or edit financial reports and their report definitions.
 
 | Access   | Permission set |
 |------------------------| ---------------------- |
 | View financial reports. | **Account Schedules - View** |
 | Edit financial report definitions, including row and column definitions. | **Account Schedules - Edit** |
 
+## Review financial report runs
+
+[!INCLUDE [finance-review-fin-rep-runs](includes/finance-review-fin-rep-runs.md)] 
 
 <!-- 
 ## Audit changes to financial report definitions with Microsoft Purview
@@ -76,8 +82,8 @@ The following table lists the permission sets that control whether you can view 
 <!-- 
 2025w1: add links to administrator article for Purview
 -->
-[Analyzing financial report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace?toc=/dynamics365/business-central/toc.json)
-[Analyzing financial report lifecycle telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace?toc=/dynamics365/business-central/toc.json)
+[Analyzing financial report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace?toc=/dynamics365/business-central/toc.json)  
+[Analyzing financial report lifecycle telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace?toc=/dynamics365/business-central/toc.json)  
 [Prepare financial reporting](bi-how-work-account-schedule.md)  
 [Financial analytics overview](bi.md)  
 [Finance](finance.md)  

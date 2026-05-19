@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 10/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -100,6 +100,17 @@ You manage the process of exporting items using these settings:
 
 When you sync products from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify, you can choose which sales channels to activate directly from the **Shopify Sales Channels** page. The **Shopify Sales Channels** page shows all available channels in Shopify. Just activate the ones you want, and the Shopify Connector handles the rest. If you haven't set up this page yet, don't worry. Your products default to the Online Store.
 
+### Sync product collections from Shopify to Business Central
+
+Product collections in Shopify help organize products into logical groups, improving navigation and product discovery for buyers. Collections are often used to highlight seasonal items, group products by category, or apply specific tax rules. By enabling synchronization and default assignment of collections, you reduce manual work, ensure consistent product categorization, and support compliance scenarios such as applying reduced VAT rates.
+
+You can import available collections from your Shopify store and manage them on the **Shopify Custom Product Collections** page. From this page, you can:
+
+- Get a list of custom product collections from Shopify.
+- Assign the items you export from Shopify to the appropriate collections.
+
+One thing to note, however, is that Shopify lets you define **Custom** and **Smart** collections. This feature doesn't cover Smart collections because they're rule-based and can't be manually assigned.
+
 ### Sync product translations to Shopify
 
 Automatically synchronizing translations from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify guarantees consistent product descriptions and details across various languages. Offering customers product information in their native language enhances accessibility and satisfaction, which can boost conversion rates and foster customer loyalty.
@@ -150,26 +161,25 @@ The following table outlines the effects of the **Barcode** field.
 
 |Shopify|Source when exported from [!INCLUDE[prod_short](../includes/prod_short.md)]|Target when imported to [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
-|Status|According to the **Status for Created Products** field in the **Shopify Shop Card**. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
+|Status|According to the **Status for Created Products** field in the **Shopify Shop Card**. Learn more at [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Not used.|
 |Title | **Description**. If the language code is defined and a corresponding item translation exists, the item translation is used instead of the description.|**Description**|
 |Variant title | **Variant Code**.</br>The reason to use **Code** and not **Description** is because Shopify requires unique variant titles per product. In [!INCLUDE[prod_short](../includes/prod_short.md)] the **Code** is unique, while **Description** isn't. Descriptions that aren't unique cause issues during product export.|**Description** of variant|
-|Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Not used.|
+|Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Marketing text. Marketing text is only imported to newly created items, and doesn't update in later synchronizations.|
 |SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
-|Media|**Image**. Learn more in the [Sync item images](synchronize-items.md#sync-item-images) section|**Image**|
+|Media|**Image**. Learn more in the [Sync images of items and item variants](#sync-images-of-items-and-item-variants) section|**Image**|
 |Price|The calculation of the end-customer price includes the item unit price, customer price group, customer discount group, and currency code. Learn more in the [Sync prices](synchronize-items.md#sync-prices-with-shopify) section|**Unit Price**. The price is only imported to newly created items and doesn't update in later synchronizations.|
 |Compare at price|The calculation of the price without a discount. If the value is less than or equal to **Price**, the connector sends 0 (null) instead of the actual value.|Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items and doesn't update in later synchronizations.|
 |SKU|Learn about SKUs under **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|Learn about SKUs in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
 |Barcode|**Item References** of the barcode type.|**Item References** of the barcode type.|
-|Inventory will be stocked at| Depends on Shopify Shop Locations. If **Business Central Fulfillment Services** has **Default Product Location** field enabled, inventory is stocked and shipped from **Business Central Fulfillment Services**. Otherwise, the Shopify primary location or multiple locations are used. Learn more in the [Two approaches to manage fulfillments](synchronize-items.md#two-approaches-to-manage-fulfillments) section.| Not used.|
-|Track quantity|According to the **Inventory Tracked** field on the **Shopify Shop Card** page. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section. Only used when you export a product for the first time.|Not used.|
+|Inventory will be stocked at| Depends on Shopify Shop Locations. If **Business Central Fulfillment Services** has **Default Product Location** field enabled, inventory is stocked and shipped from **Business Central Fulfillment Services**. Otherwise, the Shopify primary location or multiple locations are used. Learn more at [Two approaches to manage fulfillments](synchronize-items.md#two-approaches-to-manage-fulfillments).| Not used.|
+|Track quantity|According to the **Inventory Tracked** field on the **Shopify Shop Card** page. Learn more at [Inventory](synchronize-items.md#sync-inventory-to-shopify). Only used when you export a product for the first time.|Not used.|
 |Continue selling when out of stock|According to the **Default Inventory Policy** in the **Shopify Shop Card**.|Not used.|
 |Type|**Description** of **Item Category Code**. If the type isn't specified in Shopify, it's added as a custom type.|**Item Category Code**. Mapping by description.|
 |Vendor|**Name** of vendor from **Vendor No.**|**Vendor No.** Mapping by name.|
 |Weight|**Gross Weight**.|Not used.|
 |Taxable|Fixed value: enabled.|Not used.|
-|Tax codes|**Tax Group Code**. Only relevant for sales taxes. Learn more at [Set up Taxes](setup-taxes.md).|Not used.|
 
 ### Import and export product information using Shopify Metafields
 
@@ -315,6 +325,10 @@ Alternatively, use the **Sync Products** action on the **Shopify Products** page
 
 You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
+### Multiple product tax or VAT rates
+
+Some product categories are eligible for reduced tax rates, such as pharmaceutical products or children's clothing and footwear. You can use the tax override feature in Shopify to specify that and custom collection is a key element for that. Learn more at [Tax overrides and exemptions](https://help.shopify.com/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override).
+
 ### Ad-hoc updates of Shopify products
 
 When the records are updated in the **Shopify Product** table, the following changes are synchronized with Shopify.
@@ -333,23 +347,23 @@ Based on the value in **Action for Removed Products and Blocked Items** on the *
 * **Status to Draft**: The status of the product in Shopify is set to *Draft*.
 * **Status to Archived**: The product is archived in Shopify.
 
-## Sync item images
+## Sync images of items and item variants
 
-Synchronization of images can be configured for synchronized items. Choose from the following options:
+Synchronization of images can be configured for synchronized items and item variants. Choose from the following options:
 
 * **Disabled** - Image synchronization is deactivated.
-* **To Shopify** - Images of items are exported to Shopify.
+* **To Shopify** - Images are exported to Shopify.
 * **From Shopify** - Images from Shopify are imported to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 You can start image synchronization in the ways described in the next sections in this article.
 
-### Sync product images from the Shopify shop page
+### Sync product and variant images from the Shopify shop page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the shop for which you want to synchronize images to open the **Shopify Shop Card** page.
 3. Choose the **Sync Product Images** action.
 
-### Sync product images from the Shopify products page
+### Sync product and variant images from the Shopify products page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Sync Product Images** action.

@@ -1,7 +1,7 @@
 ---
 title: FAQ for mapping e-documents with purchase orders
 description: This FAQ provides information about the AI technology used in Business Central, key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 10/13/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs

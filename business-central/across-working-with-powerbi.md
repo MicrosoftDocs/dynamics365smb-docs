@@ -110,7 +110,7 @@ The **[!INCLUDE [powerbi-name](includes/powerbi-name.md)] Reports Selection** pa
 If you don't have any reports on the **[!INCLUDE [powerbi-name](includes/powerbi-name.md)] Reports Selection** page, or can't find the report you want, choose **Get Reports**. This action lets you look for reports from two locations: *My Organization* or from *Services*.
 
 - Select **My Organization** to go to the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]s. From here, you can view the reports within your organization that you have rights to view. You can then add them to your workspace.
-- Select **Services** to go to Microsoft AppSource where you can install Power BI apps.  
+- Select **Services** to go to Microsoft Marketplace where you can install Power BI apps.  
 
 > [!TIP]
 > If you have Power BI Desktop, you can also create new [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports. Then, once those reports are published to your Power BI workspace, they appear on the **[!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports Selection** page.  

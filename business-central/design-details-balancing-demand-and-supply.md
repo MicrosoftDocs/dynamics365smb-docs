@@ -1,15 +1,15 @@
 ---
-title: Design Details - Balancing supply and demand
+title: Design details - Balancing supply and demand
 description: This article describes how to prioritized goals by balancing supply with demand.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 12/15/2022
+ms.date: 03/17/2026
 ms.custom: bap-template
 ---
-# Design Details: Balancing supply and demand
+# Design details: Balancing supply and demand
 
 To understand how the planning system works, it's important to understand its prioritized goals:  
 

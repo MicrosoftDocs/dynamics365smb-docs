@@ -7,13 +7,15 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 08/12/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Register new items
 
-Items, among other products, are the basis of your business, the goods, or services that you trade in. Each item must be registered as an item card.
+Items are the basis of your business. They're the goods or services that you trade in. You must fill in an **Item Card** page for each item you offer.
+
+This article describes how to set up and work with items in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## To create a new item card
 

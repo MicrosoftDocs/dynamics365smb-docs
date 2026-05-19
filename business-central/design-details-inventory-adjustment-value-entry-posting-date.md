@@ -3,15 +3,14 @@ title: Posting date on value entries
 description: Learn how the Adjust Cost - Item Entries batch job identifies and assigns a posting date to the value entries that the batch job is about to create.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords:
-ms.date: 09/17/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Posting Date on Adjustment Value Entry
+# Design details: Posting date on adjustment value entry
 
 This article provides guidance for users of the Inventory Costing functionality in [!INCLUDE[prod_short](includes/prod_short.md)], and in particular for how the **Adjust Cost - Item Entries** batch job identifies and assigns a posting date to the value entries that the batch job is about to create.
 
@@ -27,7 +26,7 @@ The **Adjust Cost – Item Entries** batch job assigns a posting date to the val
 
 Let’s review this process more in practice. Assume we have an Item Ledger Entry of Sale. The item was shipped on September 5, 2020 and it was invoiced the day after.  
 
-#### Item Ledger Entry
+#### Item ledger entry
 
 |Entry No.  |Item No.  |Posting Date  |Entry Type  | Document No. |Location Code  |Quantity  |Cost Amount (Actual)  |Invoiced Quantity  |Remaining Quantity  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -53,7 +52,7 @@ To assign the posting date for **Entry No. 391** the following steps were applie
 
 Let’s review the above mentioned Sale by adding setup of allowed posting date ranges.  
   
-#### Inventory Periods
+#### Inventory periods
 
 |Ending Date  |Name  |Closed  |
 |---------|---------|---------|
@@ -72,7 +71,7 @@ Let’s review the above mentioned Sale by adding setup of allowed posting date 
 
 The first allowed posting date is the first day in the first open period, which is September 1, 2020.  
 
-#### General Ledger Setup
+#### General ledger setup
 
 |Field|Value  |
 |---------|---------|
@@ -86,7 +85,6 @@ The first allowed posting date is the date stated in field **Allow Posting From*
 **Assignment of an allowed posting date**  
 
 The initial assigned Posting Date was September 6 as illustrated in step 1. However, in the second step the Adjust Cost – Item entries batch job identifies that earliest allowed Posting Date is September 10 and thereby assigns September 10 to the Adjustment Value Entry (**Entry No. 391**), below.  
-
 
 |Entry No.  |Item No.  |Posting Date  |Item Ledger Entry Type  |Entry Type  |Document No.  |Item Ledger Entry No.  |Location Code  |Item Ledger Entry Quantity  |Invoiced Quantity  |Cost Amount (Actual)  |Cost Amount (Expected)  |Adjustment  |Applies-to Entry  |Source Code  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|

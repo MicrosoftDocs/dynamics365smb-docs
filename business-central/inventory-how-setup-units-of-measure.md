@@ -3,15 +3,14 @@ title: Set up item units of measure
 description: You can set up multiple units of measure for items.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: UOM
-ms.date: 11/13/2024
+ms.date: 04/07/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
-# Set Up Units of Measure
+# Set up units of measure
 
 As part of setting up your [!INCLUDE [prod_short](includes/prod_short.md)], you set up general units of measure on the **Units of Measure** page. Then, when you register new items, you specify the base unit of measure on the **Item Card** page. You can also add units of measure later.  
 

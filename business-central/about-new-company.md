@@ -80,7 +80,7 @@ After you create a company, you can't change its name. You can, however, change 
 
 ## Add Contoso Coffee
 
-The Contoso Coffee app provides demonstration data to help you explore the advanced capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment. For more information, see [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).  
+The Contoso Coffee app provides demonstration data to help you explore the advanced capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in Marketplace, and install it in an empty company, for example a company in a sandbox environment. For more information, see [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).  
 
 ## Related information
 

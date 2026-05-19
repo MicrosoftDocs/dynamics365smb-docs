@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 516, 9300, 5119, 9301, 9305
-ms.date: 05/03/2024
+ms.date: 04/01/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -116,6 +116,31 @@ When you post a sales order, [!INCLUDE [prod_short](includes/prod_short.md)] upd
 When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md)] updates the vendor's account, general ledger (G/L), item ledger entries, and resource ledger entries.
 
 - For each purchase line, as applicable, entries are created in the **Item Ledger Entry** table (if the purchase line is of the Item type). In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables. To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
+
+## Get insights into item data with advanced KPIs and summary
+
+Copilot gives you faster and more comprehensive item summaries with new KPIs and data points from the **Item Statistics** page. To open the page, use the **Item Statistics** action on the **Item Card** page. The page provides financial and performance metrics for an item across different time periods.
+
+- **Current Inventory Value**: Track the current inventory value (in local currency), calculated as the sum of Cost Amount (Actual) + Cost Amount (Expected) on posted value entries for this item.
+- **Expired Inventory Value**: Identify obsolete stock for timely action. Applicable for items with enabled item tracking and expiration dates. Calculated as the sum of Cost Amount (Actual) + Cost Amount (Expected) from value entries applied to open item ledger entries with an expiration date that's before the work date. 
+
+The Sales section displays four time period columns with multiple metrics per period.
+
+Time periods:
+
+1. **This Fiscal Period** - Current accounting period in the fiscal year
+2. **This Fiscal Year** - Current fiscal year to date
+3. **Last Fiscal Year** - Previous fiscal year
+4. **Lifetime** - All transactions since the item was created
+
+Sales metrics:
+
+- **Sales Growth Rate (%)**: Compare current and prior periods to identify demand trends. Calculated as (Sales in the current period in the fiscal year - Sales in the prior period in the fiscal year) ÷ Sales in the prior period in the fiscal year. A positive value indicates growth, while a negative value indicates a decline in sales.
+- **Net Sales (LCY)**: View actual revenue after returns and discounts. Calculated as Total sales in the period  - Total returns - Total given discounts.
+- **Gross Margin (%)**: Assess profitability by comparing revenue to cost of goods sold. Calculated as (Net Sales - COGS) ÷ Net Sales. A higher percentage reflects better profitability.
+- **Return Rate (%)**: Monitor product quality and customer satisfaction through return ratios.  Calculated as Returned Quantity ÷ Total Sold Quantity. A lower percentage indicates fewer returns and higher product acceptance.
+
+When you turn on the **Summarize with Copilot** capability, you automatically enable these enhancements.
 
 ## Related information
 

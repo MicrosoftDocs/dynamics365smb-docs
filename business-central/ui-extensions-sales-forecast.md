@@ -3,10 +3,9 @@ title: Using the Sales and Inventory Forecast extension to manage inventory
 description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853, 
-ms.date: 08/28/2024
+ms.date: 04/06/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -21,7 +20,7 @@ Inventory management is a trade-off between customer service and managing your c
 In [!INCLUDE[prod_short](includes/prod_short.md)], the connection to [Azure AI](https://azure.microsoft.com/overview/ai-platform/) is already set up for you. But you can configure the forecast to use a different type of period to report by, such as changing from forecasting by month to forecasting by quarter. You can also choose the number of periods to calculate the forecast by, depending on how granular you want the forecast to be. We suggest that you forecast by month and with a 12 month horizon for the forecast.
 
 > [!TIP]  
-> Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Azure AI does not find enough data, or the data varies a lot, the service will not make a prediction.
+> Consider the length of the periods that the service uses in its calculations. The more data you provide, the more accurate the predictions are. Also, watch out for large variances in periods because they affect predictions. If Azure AI doesn't find enough data, or the data varies a lot, the service won't make a prediction.
 
 ## Use the forecasts
 
@@ -49,7 +48,7 @@ Before is uses the web service, [!INCLUDE[prod_short](includes/prod_short.md)] c
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for sales and inventory forecasts
 
-For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you must create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
+For [!INCLUDE[prod_short](includes/prod_short.md)] online, Microsoft publishes the model and it's connected to the Microsoft subscription. For other deployment options, you must create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
 2. Expand the **General** FastTab, and then fill in the API URL and API key fields.
@@ -61,7 +60,7 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is publishe
 
 The Sales and Inventory Forecast extension produces aggregated forecast for all locations and variants. If you have multiple locations, for example, that represent different stores, you can't get a forecast for each location. You must distribute amounts afterwards.
 
-Regarding throughput, we estimate that [!INCLUDE [prod_short](includes/prod_short.md)] can process approximately 50000 items in 12 hours, which is defined as the *Max Execution Timeout*. The exact number depends on the data and settings for extensions. For more information about report limits in [!INCLUDE [prod_short](includes/prod_short.md)] and how they're configured in the online service, see [Report limits in Business Central](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Reports).
+Regarding throughput, we estimate that [!INCLUDE [prod_short](includes/prod_short.md)] can process approximately 50,000 items in 12 hours, which is defined as the *Max Execution Timeout*. The exact number depends on the data and settings for extensions. For more information about report limits in [!INCLUDE [prod_short](includes/prod_short.md)] and how they're configured in the online service, see [Report limits in Business Central](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Reports).
 
 The Sales and Inventory Forecast extension doesn't support filtering, means you can't split items into separate batches.
 

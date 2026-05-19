@@ -5,16 +5,15 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 09/30/2025
+ms.date: 03/13/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
+
 # Analyze list page and query data using data analysis feature
 
-> **APPLIES TO:** [!INCLUDE [prod_short](includes/prod_short.md)] 2023 release wave 2 and later
-
-This article explains how to use the data analysis feature from list pages and queries. The data analysis lets you analyze data directly from the page, without having to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are: "My customers," "Follow up items," "Recently added vendors," "Sales statistics," or any other view you can imagine.
+This article explains how to use the data analysis feature from list pages and queries. The data analysis lets you analyze data directly from the page, without having to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple analysis views that represent different tasks or perspectives of the data. Some examples are: "My customers," "Follow up items," "Recently added vendors," "Sales statistics," or any other view you can imagine.
 
 > [!TIP]
 > A good thing about the data analysis feature is that it doesn't change the underlying data of a list page or query. It also doesn't change the layout of the page or query when it isn't in analysis mode. So, the best way to learn about what you can do in analysis mode is to try out things.
@@ -50,7 +49,7 @@ Follow these steps to start using the analysis mode.
 
 1. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button.
 
-   The analysis tabs that you added remain until you delete them. If you return to the analysis mode again, you see them exactly as you left them.
+   The analysis views that you added remain until you delete them. If you return to the analysis mode again, you see them exactly as you left them.
 
 > [!NOTE]
 > The data shown in analysis mode is controlled by the filters or views set on the list page. This capability allows you to prefilter data before entering analysis mode.
@@ -59,7 +58,7 @@ Follow these steps to start using the analysis mode.
 
 In the analysis mode, the page is divided into two areas:
 
-- The main area, which consists of the data area (1), summary bar (2), and tabs bar (5).
+- The main area, which consists of the data area (1), summary bar (2), and analysis views bar (5).
 - The data manipulation area, which consists of two panes: columns (3) and analysis filters (4).
 
 ### Data area (1)
@@ -126,7 +125,7 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 
 Analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer** page, you can add fields from the **Location** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
 
-To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can also use the **Choose a source page** dropdown to navigate through and find fields that you'd like to see in your analysis view. After you choose the field or fields to add, they're added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab. 
+To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can also use the **Choose a source page** dropdown to navigate through and find fields that you'd like to see in your analysis view. After you choose the field or fields to add, they're added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis view. 
 
 :::image type="content" source="media/analysis-view-add-columns.png" alt-text="Add columns from option":::
 
@@ -152,25 +151,26 @@ The **Analysis filters** pane lets you set further data filters on columns to li
 :::image type="content" source="media/analysis-mode-filters-2.png" alt-text="Shows an overview of the filters pane in the analysis mode" lightbox="media/analysis-mode-filters-2.png":::
 
 > [!NOTE]
-> The added filters only apply to the current analysis tab, allowing you to define exactly the extra data filters that are needed for a specific analysis.
+> The added filters only apply to the current analysis view, allowing you to define exactly the extra data filters that are needed for a specific analysis.
 
-### Tabs (5)
+### Analysis views (5)
 
-The tabs area at the top lets you create different configurations (columns and analysis filters) on separate tabs, where you can manipulate data on the tabs independently of each other. There's always at least one tab, called **Analysis 1** by default. Adding more tabs is beneficial for saving frequently used analysis configurations on a dataset. For example, you might have tabs for analyzing data in the pivot mode, and other tabs that filter to a subset of rows. Some tabs might show a detailed view with many columns, and others only display a few key columns.
+The analysis views area at the top lets you create different configurations (columns and analysis filters) on separate views, where you can manipulate data on each view independently. There's always at least one analysis view, called **Analysis 1** by default. Adding more views is beneficial for saving frequently used analysis configurations on a dataset. For example, you might have views for analyzing data in the pivot mode, and others that filter to a subset of rows. Some views might show a detailed view with many columns, and others only display a few key columns.
 
-Here are some pointers on working with multiple analysis tabs:
+Here are some pointers on working with multiple analysis views:
 
-- To add a new tab, select the large **+** sign next to the last analysis tab.
-- Select the down arrow on a tab to access a list of actions you can do on a tab, like rename, duplicate, delete, and move.
+- To add a new analysis view, select the large **+** sign next to the last analysis view.
+- Select the down arrow on an analysis view to access a list of actions you can do on a view, like rename, duplicate, delete, and move.
 
-   - **Delete** deletes the tab you currently have open. **Delete All** deletes all tabs that you added, except the default **Analysis 1** tab.
+   - **Rename** lets you give the analysis view a new name and add a description. The description appears as a tooltip when you hover over the analysis view, making it easier to remember its purpose.
+   - **Delete** deletes the analysis view you currently have open. **Delete All** deletes all analysis views that you added, except the default **Analysis 1** view.
 - You can't completely remove the **Analysis 1**, but you can rename it by using the **Rename** action and clear the changes you made by using **Delete** or **Delete All**.  
 
-- The analysis tabs that you add and configure remain until you delete them. If you return to the analysis mode, the tabs are exactly as you left them.
+- The analysis views that you add and configure remain until you delete them. If you return to the analysis mode, they're exactly as you left them.
 
    > [!TIP]
-   > The tabs that you set up are only visible to you. Other users only see the tabs that they set up.
-- You can copy analysis tabs. Copying can be useful, for example, for experimenting with changing a tab without changing the original. Copying is also useful if you want to create different variations of the same analysis.
+   > The analysis views that you set up are only visible to you. Other users only see the views that they set up.
+- You can copy analysis views. Copying can be useful, for example, for experimenting with changing a view without changing the original. Copying is also useful if you want to create different variations of the same analysis.
 
 ## Date hierarchies
 
@@ -207,6 +207,9 @@ Right-click on the data area or a selection of cells to export data.
 
 :::image type="content" source="media/data-analysis-export-to-excel.png" alt-text="Screenshot of how to export data from an analysis to Excel":::
 
+> [!NOTE]
+> When you export data to Excel, the exported data reflects what you see on the screen. To maintain full functionality remove added related fields, and if the list exceeds 100,000 rows, you must set filters to reduce the number of rows before exporting.
+
 ## Analyze large amounts of data
 
 If the dataset you want to analyze exceeds 100,000 rows, we recommend that you use an analysis mode that's optimized for large datasets. However, there are some limitations if you switch to this mode.
@@ -224,9 +227,9 @@ If the dataset you want to analyze exceeds 100,000 rows, we recommend that you u
 
 ## Share data analysis
 
-After you prepare an analysis on a tab, you can share it as a link with coworkers and others in your organization directly from the client. Only recipients who have permission to the company and the data can use the link.
+After you prepare an analysis view, you can share it as a link with coworkers and others in your organization directly from the client. Only recipients who have permission to the company and the data can use the link.
 
-1. On the analysis tab, select the down arrow, and then select **Copy link**.
+1. On the analysis view, select the down arrow, and then select **Copy link**.
 
    :::image type="content" source="media/analysis-mode-copy.png" alt-text="Shows the action for copying an analysis" lightbox="media/analysis-mode-copy.png":::
 
@@ -234,11 +237,15 @@ After you prepare an analysis on a tab, you can share it as a link with coworker
 
 1. By default, the analysis you share links to the page or query in the company you're currently working in, which is indicated by `company=<company_name>` in the URL field next to the **Copy** button. If you want to send a link to an analysis that isn't associated with a specific company, set the **Company:** field to **Do not link to a specific company**.
 
-   :::image type="content" source="media/analysis-link-copied.svg" alt-text="Shows the copy link dialog for an analysis tab" lightbox="media/analysis-link-copied.svg":::
+   :::image type="content" source="media/analysis-link-copied.svg" alt-text="Shows the copy link dialog for an analysis view" lightbox="media/analysis-link-copied.svg":::
 
 1. Select **Copy**.
 1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, or OneNote.
-1. Recipients can select the link and open the analysis for the page or query in [!INCLUDE [prod_short](includes/prod_short.md)]. They're prompted to specify a name for the new analysis tab that they create.  
+1. Recipients can select the link and open the analysis for the page or query in [!INCLUDE [prod_short](includes/prod_short.md)]. They're prompted to specify a name for the new analysis view that they create.  
+
+## Export analysis definition - advanced
+
+The export analysis definition feature allows you to export the analysis definition, which includes the columns and filters that you set up for an analysis view, as a .json file. This option is typically used to share or reuse analysis configurations. Learn more in [Export and package analysis views](/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package).
 
 ## Examples of how to analyze data
 
@@ -260,7 +267,7 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 1. Drag the **Customer Name** field to the **Row Groups** area, and drag **Remaining Amount** to the **Values** area.
 1. Drag the **Due Date Month** field to the **Column Labels** area.
 1. Use the **Analysis Filters** menu (located below the **Columns** menu on the right) to apply a filter and analyze data for a given year or quarter.
-1. Rename your analysis tab to **Aged Accounts by Month**, or something that describes this analysis.
+1. Rename your analysis view to **Aged Accounts by Month**, or something that describes this analysis.
 
 ### Ad hoc data analysis examples by functional area
 
@@ -268,16 +275,13 @@ Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] h
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
-## Limitations in 2023 release wave 1 (preview)
+## Limitations
 
-The public preview of this feature has the following limitations:
-
-- The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you get a message telling you so. To work around this limitation, set filters on the page before you switch to analysis mode, if possible. For example, you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
-- The share data analysis feature isn't available.
-- The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
-
+- Analysis mode isn't supported on lists that use indentation, whether fixed or collapsible hierarchies, like the **Chart of Account** or **G/L Account List** pages. On these pages, the **Enter analysis mode** :::image type="icon" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: button isn't available.  
+- When a list exceeds 100,000 rows or includes fields from related tables, calculated field values aren't displayed. Calculated fields are values computed on the page rather than retrieved directly from the database, such as running totals, percentages, or conditional counts. An information icon appears on the analysis tab to indicate when this limitation applies. This limitation helps maintain performance when analyzing large datasets.
+ 
 ## Related information
 
 [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)  
 [Ad hoc data analysis](reports-adhoc-analysis.md)  
-[View and Edit in Excel](across-work-with-excel.md)  
+[View and Edit in Excel](across-work-with-excel.md)

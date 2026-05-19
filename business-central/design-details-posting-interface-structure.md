@@ -1,17 +1,18 @@
 ---
-title: Design Details - Posting Interface Structure
-description: This topic provides an overview of the global procedures and design details in the posting interface structure.
+title: Design details - Posting interface structure
+description: This article provides an overview of the global procedures and design details in the posting interface structure.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords: posting, interface, design
-ms.date: 06/15/2021
+ms.date: 03/15/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Posting Interface Structure
+
+# Design details: Posting interface structure
+
 In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structure, there are several global procedures that use the same structure:  
   
 * RunWithCheck and RunWithoutCheck call procedure Code – generic posting interface for Gen. Jnl Line.  

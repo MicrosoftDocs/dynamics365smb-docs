@@ -1,18 +1,16 @@
 ---
-title: Walkthrough - Managing projects with projects
+title: Walkthrough - Managing projects
 description: This walkthrough introduces you to the project management features the let you schedule the use of your company's resources.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords:
-ms.date: 05/30/2024
+ms.date: 04/07/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 # Walkthrough: managing projects
-
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 This walkthrough introduces you to the project management features. Projects are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Projects involve the consumption of employee hours, machine hours, inventory items, and other types of usage that you might want to track as a project progresses.  
 
@@ -37,12 +35,12 @@ With the budget structure set up for projects, creating a project is straightfor
 
 ### Handling fixed prices
 
- You can handle fixed prices and the prices for services or goods that are agreed upon in advance with customers. In this walkthrough, you'll learn how to:  
+ You can handle fixed prices and the prices for services or goods that are agreed upon in advance with customers. This walkthrough helps you understand how to:  
 
-- See how contract and invoice values are determined.  
+- Explore how contract and invoice values are determined.  
 - Allow for extra work in the schedule that isn't invoiced.  
 
-### Copying a Project
+### Copying a project
 
  This part of the walkthrough focuses on how to copy part or all of a project in order to reduce manual data entry and improve accuracy.
 
@@ -272,7 +270,7 @@ CRONUS is contracted to set up conference rooms. As the project manager, Prakash
 2. Select the **Guildford** project number, and then choose the **Project Task Lines** action.  
 3. Select line 1120, and in the **Budget (Total Cost)** field, right-click the amount and choose **DrillDown**.  
 
-     By reviewing the Project Planning Lines, it's determined that Prakash needs Tricia for 30 hours for this stage of the project. Prakash agrees on a fixed price with the customer.  
+     Reviewing the project planning lines shows that Prakash needs Tricia for 30 hours for this stage of the project. Prakash agrees on a fixed price with the customer.  
 
 4. On the **Project Task Lines** page, select line 1120, and then choose the **Project Planning Lines** action. Create a planning line with the following information:  
 
@@ -302,7 +300,7 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
 
 3. Choose the **Post** action.  
 
-     A few days later, Tricia works for another 10 hours on the project and has worked 35 hours in all. Because the agreement is for 30 hours with the customer, only five of these hours are charged to the customer. Tricia manually adds the other five hours to the schedule.  
+     A few days later, Tricia works for another 10 hours on the project to bring the total up to 35 hours. Because the agreement is for 30 hours, only five of these hours are charged to the customer. Tricia manually adds the other five hours to the schedule.  
 
 4. On the **Project Journal** page, choose the **Calc. Remaining Usage** action.  
 5. On the **Project Calc. Remaining Usage** page, on the **Options** FastTab, enter the following information:  
@@ -319,7 +317,7 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
 
     There are five hours of work remaining for Tricia. The **Line Type** field is blank, which indicates that only the usage remains to be posted because the work was already scheduled.  
 
-8. In the **Project Journal**, create a new line with the following information. Make sure that both project numbers are sequential with the numbers you've already used:  
+8. In the **Project Journal**, create a new line with the following information. Make sure that both project numbers are sequential with the numbers you used:  
 
     - **Line Type**: **Budget**  
     - **Project No.**: **Guildford**  
@@ -376,7 +374,11 @@ By comparing prices, project task lines, and project planning lines for the two 
 
 ## Making payments by installments
 
-CRONUS just landed a large project that will take a year to complete. Because it requires many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
+CRONUS just landed a large project takes a year to complete. Because the project requires many resources, the project manager sets up the contract so that the customer pays: 
+
+- Part of the price up front
+- Part when the project is halfway completed
+- The final payment upon completion
 
 ### To set up a new account  
 
@@ -390,7 +392,7 @@ CRONUS just landed a large project that will take a year to complete. Because it
 4. On the **Posting** FastTab, in the **Gen. Prod. Posting Group** field, select **Services**. Close the page.  
 5. On the **Chart of Accounts** page, select **No. 40255 Job Payment**, and then choose the **Indent Chart of Accounts** action. Choose **Yes** to confirm.  
 
-The following procedures show how to create a new project, set pricing, and then set up payment by installment. In the project task lines, you can create specific lines dedicated to the payment by installments. All work completed on the project that is added to the schedule will be entered on the usage lines. For each payment task line on the planning lines, the line type is **Billable**, which means that the customer will be invoiced. Enter a new line for the down payment. On the usage task line, you can enter the information for the items and resources that have been used in this project, which will increase the schedule, such as employee hours and items used on the project.  
+The following procedures show how to create a new project, set pricing, and then set up payment by installment. In the project task lines, you can create specific lines dedicated to the payment by installments. All work completed on the project that is added to the schedule is entered on the usage lines. For each payment task line on the planning lines, the line type is **Billable**, which means that the customer receives an invoice. Enter a new line for the down payment. On the usage task line, enter information about the items and resources that were used in this project.  
 
 ### To make a payment by installment  
 
@@ -437,7 +439,7 @@ The following procedures show how to create a new project, set pricing, and then
     | 1    | Budget    | (today's date) | Resource | Tricia | 120      |
     | 2    | Budget    | (today's date) | Item     | 70104  | 10       |
 
-     Close the page. On the **Project Task Lines** page, you can see the schedule amounts have been updated.  
+     Close the page. On the **Project Task Lines** page, the schedule amounts are updated.  
 
 9. Choose task 32000, and then choose the **Project Planning Lines** action.  
 
@@ -451,17 +453,17 @@ The following procedures show how to create a new project, set pricing, and then
 
 11. Create a similar planning line entry for project task 4000.  
 
- Now that the task and planning lines have been entered, Prakash creates an invoice for the first payment. Prakash does this from the project task lines to make sure that the invoice only contains the lines for the first payment. You can open the sales order from the planning lines or the task lines.  
+ Now that the task and planning lines are entered, Prakash creates an invoice for the first payment. Prakash creates the invoice from the project task lines to make sure that the invoice only contains the lines for the first payment. You can open the sales order from the planning lines or the task lines.  
 
 ### To create an invoice  
 
 1. On the **Project Task Lines** page, select line 1000, and then choose the **Create Sales Invoice** action.  
 2. On the **Create Sales Invoice** page, set today's date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
-3. Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
+3. Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send the document to the customer.  
 
 ## Summary
 
-This walkthrough has taken you through some of the basic steps of working with projects in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new project, how to copy a project, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
+This walkthrough took you through some of the basic steps of working with projects in [!INCLUDE[prod_short](includes/prod_short.md)]. You learned about how to create a new project, copy a project, handle payments, track hours, and create invoices.  
 
 ## Related information
 

@@ -55,7 +55,7 @@ Microsoft currently supports the following localizations:
 | [Spanish E-Invoicing](LocalFunctionality/Spain/spain-einvoicing.md) | Supported Factura-E format. |
 
 > [!NOTE]
-> For non-Microsoft localizations, visit the AppSource.  
+> For non-Microsoft localizations, visit the Marketplace.  
 
 ## Related information
 

@@ -3,14 +3,14 @@ title: Overview of tasks to set up Business Central
 description: Read an overview of the tasks necessary to set up, initialize, and configure Business Central to suit your needs.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: al
 ms.search.keywords: configure, initialize
-ms.date: 12/30/2024
+ms.date: 04/07/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
+
 # Overview of tasks to set up [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of your organization. The [Business Central quick start](quick-start-business-central.md) articles help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. This article provides an overview of how you can configure [!INCLUDE [prod_short](includes/prod_short.md)] for your organization.
@@ -98,7 +98,7 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 
 On top of the core capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft adds some apps that are listed on the [Extension Management](https://businesscentral.dynamics.com/?page=2500) page. Each app provides a link to launch its setup page. Choose the **Set up** action to get started.  
 
-You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short.md)] by adding AppSource apps. Learn more at [Customizing Business Central Online Using Extensions](ui-extensions.md).  
+You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short.md)] by adding Marketplace apps. Learn more at [Customizing Business Central Online Using Extensions](ui-extensions.md).  
 
 ## Migrate data from other systems
 

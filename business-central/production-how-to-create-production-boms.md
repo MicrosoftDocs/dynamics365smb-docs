@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: production bom, bills of material, 
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
-ms.date: 03/21/2025
+ms.date: 03/10/2026
 ms.service: dynamics-365-business-central
 ---
 # Create production BOMs
@@ -47,10 +47,20 @@ Before you can set up a routing, the following setups must be in place:
 9. In the **Routing Link Code** field, enter a code to connect the component to a specific operation. To learn more, go to [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
 10. To copy lines from an existing production BOM, choose the **Copy BOM** action to select existing lines.  
 11. Certify the production BOM.  
+
+   > [!TIP]
+   > Production BOMs must be certified before they can be used in production or planning. While you design or maintain them, it’s common to work with uncertified structures for some time. For that reason, when you leave an uncertified production BOM or routing, [!INCLUDE [prod_short](includes/prod_short.md)] reminds you that the structure isn’t certified. The reminder helps prevent accidental use of incomplete data, but it can become noisy during design or maintenance work.
+   >
+   > If you’re intentionally working with uncertified BOMs or routings and don’t need the reminder, you can turn off the notification for yourself. On the **My Notifications** page, turn off the **Warn about non-certified production BOMs and routings** notification.
+
+If you’re intentionally working with uncertified BOMs or routings and don’t need the reminder, you can turn off the notification for yourself. Search for “Warn about non-certified production BOMs and routings” in My Notifications.
+
+Certifying the BOM is optional, though we do recommend it if the BOM is ready to use. For example, if you're in the design phase, you can work with the BOM in a uncertified state. Learn more at [Work with uncertified production BOMs and routings](#work-with-uncertified-production-boms-and-routings).
+
 12. You can now attach the new production BOM to the card of the parent item in question. To learn more, go to [Register New Items](inventory-how-register-new-items.md).  
 
-> [!NOTE]  
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Production** action, then choose the **Calc. Production Std. Cost** action. You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. To learn more, go to [Updating standard costs with the Standard Cost Worksheet](finance-about-calculating-standard-cost.md#updating-standard-costs-with-the-standard-cost-worksheet).  
+   > [!NOTE]  
+   > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Production** action, then choose the **Calc. Production Std. Cost** action. You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. To learn more, go to [Updating standard costs with the Standard Cost Worksheet](finance-about-calculating-standard-cost.md#updating-standard-costs-with-the-standard-cost-worksheet).  
 
 ## To create a new version of a production BOM
 
@@ -103,6 +113,10 @@ The calculation formula defines the relation of the individual components. The f
 A production BOM requires 70 metal parts with the dimensions length = 0.20 m and width = 0.15 m. Enter the values as follows: Calculation Formula = Length x Width, Length = 20, Width = 15, Quantity per = 70.
 
 Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2, gives the quantity.  
+
+## Work with uncertified production BOMs and routings
+
+[!INCLUDE [production-turn-off-uncertified-notifications](includes/production-turn-off-uncertified-notifications.md)]
 
 ## Related information
 

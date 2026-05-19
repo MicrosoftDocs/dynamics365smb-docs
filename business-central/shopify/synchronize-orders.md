@@ -4,9 +4,8 @@ description: Set up and run import and processing of sales orders from Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 01/09/2026
+ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 ms.custom: bap-template
 ---
@@ -19,7 +18,14 @@ This article describes the settings and steps that you must complete if you want
 
 Enter a **Currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.
 
-You can access the store currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. You can configure Shopify to accept different currencies. However, the orders you import to [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
+You can control whether [!INCLUDE [prod_short](../includes/prod_short.md)] creates sales documents from Shopify orders in the shop currency or in the customer’s checkout (presentment) currency. This gives you full flexibility when working with Shopify Markets or any store that sells in multiple currencies. The **Currency Handling** field lets you choose:
+
+- **Shop currency** (default) 
+- **Presentment currency**
+
+When you select **Presentment currency**, [!INCLUDE [prod_short](../includes/prod_short.md)] uses the currency and amounts that the customer saw and paid during checkout when it creates sales orders and credit memos. The amounts in local currencies are calculated based on the exchange rates defined in [!INCLUDE [prod_short](../includes/prod_short.md)]. [!INCLUDE [prod_short](../includes/prod_short.md)] stores the choice of currency handling on each Shopify order at processing time. 
+
+When you import Shopify orders, [!INCLUDE [prod_short](../includes/prod_short.md)] retrieves both the shop currency and the presentment currency with their amounts. If the Shopify Shop Card is set to **Presentment currency**, sales orders and credit memos use the presentment currency and corresponding amounts. The **Suggest Payments** action also uses presentment currency when applicable. Pages such as Shopify Orders, Order Lines, Shipping Charges, Refunds, Transactions, and Returns display presentment currency fields whenever the order or shop uses presentment currency. Shop currency values remain visible for reference.
 
 Enable **Auto Sync Orders** to receive real-time notifications whenever a new order is created in a Shopify store. When a notification is received, the Connector runs the **Sync Order from Shopify** batch job using **Job Queue Entries**.
 
@@ -59,7 +65,7 @@ In the **Tax area priority** field, prioritize how to select a tax area code for
 
 If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. For example, you might turn off the toggle if you sell digital goods or want to use another notification mechanism.
 
-### Setup returns and refunds
+### Set up returns and refunds
 
 Specify how you process returns and refunds:
 

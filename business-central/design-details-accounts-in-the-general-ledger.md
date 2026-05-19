@@ -4,13 +4,13 @@ description: To reconcile inventory and capacity ledger entries with the general
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 08/15/2025
+ms.date: 03/17/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Design details: accounts in the general ledger
+# Design details: Accounts in the general ledger
 
 To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
@@ -124,11 +124,7 @@ The tables in the following sections explain the accounts in more detail. They s
 
 |Account  |Balancing account  |
 |---------|---------|
-|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code comes from the production order line.|Page: Inventory Posting Setup<br>Field: Inventory Account<br><br>* The Inventory Posting Group comes from the component.<br>* The Location Code comes from the assembly order line.|
-
-|Account  |Balancing account  |
-|---------|---------|
-|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code is blank.|Page: General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the production order.<br>* The General Product Posting Group comes from the work center.<br><br>Page General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the subcontracting vendor.<br>* The General Product Posting Group comes from the work center.|
+|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code comes from the production order line.|Page: Inventory Posting Setup<br>Field: Inventory Account<br><br>* The Inventory Posting Group comes from the component.<br>* The Location Code comes from the assembly.<br><br>Page: General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the production order.<br>* The General Product Posting Group comes from the work center.<br><br>Page General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the subcontracting vendor.<br>* The General Product Posting Group comes from the work center.|
 
 ## Related information  
 

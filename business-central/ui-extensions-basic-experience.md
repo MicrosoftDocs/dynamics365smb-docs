@@ -14,8 +14,6 @@ ms.service: dynamics-365-business-central
 
 # The Basic Experience extension
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 If you have been using Microsoft Dynamics C5, Microsoft partners can help you transition to a more modern solution that is based on [!INCLUDE[prod_short](includes/prod_short.md)], so you can continue to enjoy the same streamlined capabilities as Dynamics C5.
 
 This extension is intended for small businesses and can support up to three users. If you need more users, you must upgrade to a [!INCLUDE[prod_short](includes/prod_short.md)] license and uninstall this extension.
@@ -44,7 +42,7 @@ This extension is a bit different than most, and you'll need help from a Microso
 3. Remove all companies, including the sample Cronus company.
 4. Create a new company that doesn't contain any sample data or setups.
 5. Add the **Demo RapidStart** package. <!--what does the package contain?-->
-6. Download and install the Basic Experience extension from AppSource.
+6. Download and install the Basic Experience extension from Marketplace.
 
 ## Migrating data
 

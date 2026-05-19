@@ -1,5 +1,5 @@
 ---
-title: Design Details - Reconciliation with the general ledger
+title: Design details - Reconciliation with the general ledger
 description: This article describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
 author: brentholtorf
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
-# Design Details: Reconciliation with the general ledger
+# Design details: Reconciliation with the general ledger
 
 When you post inventory transactions, such as sales shipments, production output, or negative adjustments, [!INCLUDE [prod_short](includes/prod_short.md)] records the inventory quantity and value changes in the item ledger entries and the value entries, respectively. The next step in the process is to post the inventory values to the inventory accounts in the general ledger.  
 

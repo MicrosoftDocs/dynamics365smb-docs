@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 5510,
-ms.date: 04/08/2025
-ms.service: dynamics-365-business-central
+ms.date: 03/10/2026
+ms.custom: bap-template
 
 ---
 # Register consumption and output for a released production order
@@ -26,6 +26,9 @@ Use the **Production Journal** page to register consumption output for a release
 2. Open a released production order line that's ready to register. On the **Lines** FastTab, choose the **Line** action, and then choose the **Production Journal** action.  
 
     The **Production Journal** page shows journal lines for the production order line according to the **Prod. Order Component** and **Prod. Order Routing** pages. These lines come from the production BOM and routing assigned to the item that is being produced. To learn more, go to [Create Production BOMs](production-how-to-create-routings.md).  
+
+   > [!WARNING]  
+   > Only one person can use the **Production Journal** page at a time. For example, User 2 opens the page and enters data when User 1 is already working on the page. When User 1 closes the page, User 2 might lose their data.
 
 3. In the **Posting Date** field, enter a posting date that applies to all lines. The work date is entered by default. The field is meant as a quick way to align posting dates on all lines, if relevant.  
 
@@ -56,11 +59,16 @@ Use the **Production Journal** page to register consumption output for a release
     > [!NOTE]  
     > If an item that's being consumed is blocked, the journal doesn't post consumption quantities for it. If a machine or work center is blocked, the journal doesn't post output quantities or process times for the output line.  
 
-    > [!NOTE]  
+    > [!IMPORTANT]  
     > If you close the journal without posting, the changes are lost.  
 
-> [!WARNING]  
-> Only one person can use the **Production Journal** page at a time. For example, User 2 opens the page and enters data when User 1 is already working on the page. User 2 might lose their data when User 1 closes the page.  
+### Consider the location code when posting capacity and overhead
+
+In many manufacturing environments, you post production consumption and output by location, with separate WIP accounts per site. [!INCLUDE [prod_short](includes/prod_short.md)] uses the production location when posting capacity and overhead: 
+
+* Value entries that are linked to capacity ledger entries have a **Location Code** value that comes from the related production order line or item journal line.
+* When you post capacity or overhead, [!INCLUDE [prod_short](includes/prod_short.md)] uses the **Inventory Posting Setup** for that specific location, not the blank location.
+* You don't have to keep an **Inventory Posting Setup** line for a blank location just to post overhead.
 
 ## Related information  
 

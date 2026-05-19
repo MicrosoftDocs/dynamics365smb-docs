@@ -24,7 +24,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 > [!NOTE]  
 > Intrastat information doesn't apply to the movement of services between countries/regions, but only goods (Items and Fixed Assets). If the local government requires registering  the movement of services between countries/regions, it can be done using the **Service Declaration** feature.
 >
-> This features is available as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). At that time, to use it, you must first install it on the **Extension Management** page. Learn more about this functionality [here](finance-how-setup-use-service-declaration.md).  
+> This features is available as an app at [Marketplace](https://go.microsoft.com/fwlink/?linkid=2081646). At that time, to use it, you must first install it on the **Extension Management** page. Learn more about this functionality [here](finance-how-setup-use-service-declaration.md).  
 
 ## Fill in the Intrastat report
 

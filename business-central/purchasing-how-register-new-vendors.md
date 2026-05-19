@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: supplier, register vendor, vendor card, vendor template, create vendor, add vendor, new vendor, create new vendor, add new vendor
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 10/03/2025
+ms.date: 03/06/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -23,7 +23,7 @@ Vendor cards hold the information required to buy products from each vendor. Lea
 
 > [!Video https://learn-video.azurefd.net/vod/player?id=7188b662-bc49-45ef-8152-82898076b235]
 
-## Adding new vendors
+## Add new vendors
 
 You can add new vendors manually, by filling out the **Vendor Card** page, or you can use templates that contain predefined information. For example, you can create templates for different types of vendor profiles. Using templates saves time when adding new vendors, and helps ensure the information is correct each time.
 
@@ -57,7 +57,7 @@ The vendor is now registered, and the vendor card is ready to use on purchase do
 
 If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. Learn more in the [Save the vendor card as a template](#save-the-vendor-card-as-a-template) section.
 
-### Deleting and editing vendor information
+### Delete or edit vendor information
 
 You can edit the information on vendor cards at any time. However, if you posted a transaction for a vendor, you can't delete the card because you might need the ledger entries for auditing. To delete vendor cards with ledger entries, contact your Microsoft partner to do so through code.
 
@@ -74,6 +74,16 @@ You can edit the information on vendor cards at any time. However, if you posted
 4. Edit or enter dimension codes to apply to new vendor cards created using the template.
 5. After you complete the new vendor template, choose **OK**.  
    The vendor template is added to the list of vendor templates. You can use it to create new vendor cards.
+
+## Use self-billed invoices for vendors
+
+Self‑billing reduces operational friction by allowing buyers to generate invoices on behalf of suppliers under a mutual agreement. This improves accuracy, accelerates processing, and eliminates delays caused by missing or inconsistent supplier‑issued invoices. With automated layouts, posting rules, and vendor configuration, you can streamline both compliance and internal controls while ensuring clean financial records.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] supports self‑billed invoices in the purchase process. Buyers can generate invoices on behalf of a vendor when a self‑billing agreement is in place. If you turn on the **Self-Billing Agreement** toggle on the **Vendor Card** page, and all **Purchase Invoices** created for that vendor, whether from **Purchase Orders** or directly, are automatically marked as self‑billed. You can also assign a number series that's dedicated for self‑billed invoices, ensuring correct document sequencing.
+
+The **Posted Purchase Invoice – Self‑Billing Invoice** report layout formats the invoice to align with the style of sales invoices, showing buyer company information, vendor details, VAT information, and all essential invoice data.
+
+For Danish localizations, the posting process can automatically create **Digital Vouchers** when you enable self‑billing, ensuring compliance with local audit and documentation rules. To prevent conflicts between buyer‑issued and supplier‑issued documents, vendors with a self‑billing agreement can't receive inbound e‑documents for accounts payable. This guarantees data integrity and avoids duplicate or contradictory documents in the purchase flow.
 
 ## Related information
 

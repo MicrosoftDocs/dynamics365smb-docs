@@ -1,11 +1,11 @@
 ---
-title: Undo a posting by posting a reversing entry
+title: Undo a posting using a reversing entry
 description: If you find a mistake in a posted general journal, you can use the Reverse Transaction action to undo the posting with a correct audit trail.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 08/07/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

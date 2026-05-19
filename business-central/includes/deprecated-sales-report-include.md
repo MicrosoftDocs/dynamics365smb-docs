@@ -1,0 +1,1 @@
+This report is a legacy report for sales analysis. Refer to the report documentation for alternatives.

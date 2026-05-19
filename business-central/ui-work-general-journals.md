@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 02/06/2025
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
@@ -51,7 +51,7 @@ For each journal template, you can set up your own personal journal as a journal
 
 ### Validating general journal batches
 
-You can turn on a background check that helps prevent delays when posting. The check notifies you when a mistake in the financial journal you're working on will prevent you from posting the journal. On the **General Journal Batches** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or payment journals, while you're working on them.
+You can turn on a background check that helps prevent delays when posting. The check notifies you when a mistake in the financial journal you're working on can prevent you from posting the journal. On the **General Journal Batches** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or payment journals, while you're working on them.
 
 When you enable the validation, the **Check Document** or **Journal Check** FactBoxes show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview of the issues.
 
@@ -88,7 +88,7 @@ The **Recurring Method** field is important. It determines how to treat the amou
 |RBD Reversing Balance by Dimension|The journal line allocates costs based on a G/L account's reversing balance by dimension. You're prompted to set the dimension filters to use to calculate the source G/L account's balance by dimension from which you want to allocate costs. You can also choose the **Set Dimension Filters** action later.|
 
 > [!NOTE]  
-> The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in on the **Allocations** page only if the corresponding lines in the recurring journal are not filled in.
+> The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in on the **Allocations** page only if the corresponding lines in the recurring journal aren't filled in.
 
 ### Recurring Frequency field
 
@@ -131,7 +131,7 @@ To allocate recurring journal amounts based on dimensions, set the **Recurring M
 For example, your company has a couple of business units and a handful of departments that your controllers set up as dimensions. To speed up the purchase invoice entry process, you decide to require the accounts payable clerks to enter only business unit dimensions. Since each business unit has specific allocation keys for the Department dimension, such as based on the number of employees, you can use the **BD Balance by Dimension** or **RBD Reversing Balance by Dimension** recurring methods to reallocate expenses for each business unit to the right departments based on the allocation keys.  
 
 > [!NOTE]
-> Dimensions that you set on allocation lines are not automatically calculated, and you must specify which dimension values must be set on the allocation accounts. In case you want to preserve the link between the source account dimension and the allocation account dimension, we recommend that you use the [Cost Accounting](finance-about-cost-accounting.md) capabilities instead.
+> Dimensions that you set on allocation lines aren't automatically calculated, and you must specify which dimension values must be set on the allocation accounts. In case you want to preserve the link between the source account dimension and the allocation account dimension, we recommend that you use the [Cost Accounting](finance-about-cost-accounting.md) capabilities instead.
 
 #### Example: Allocating Rent Payments to Different Departments
 
@@ -154,14 +154,14 @@ Accruals are typically posted with **Fixed**, **Variable**, or **Balance** recur
 * If the field contains a date formula (for example, **5D** for five days), the balancing entry is posted with a posting date calculated using the reversal date calculation.
 
 > [!NOTE]
-> By default, the **Reversal Date Calculation** field is not available on the **Recurring General Journals** page. To use the field, you must add it by personalizing the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+> By default, the **Reversal Date Calculation** field isn't available on the **Recurring General Journals** page. To use the field, you must add it by personalizing the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Work with standard journals
 
 When you create journal lines that you know you're likely to create again later, you can save them as a standard journal before you post the journal. The same applies for item journals and general journals.
 
 > [!NOTE]
-> Standard journals might not contain all of the fields you want to include in the resulting ledger entries. For example, if you're using a standard general journal to register a payment, the ledger entries won't contain the Payment Method Code field.
+> Standard journals might not contain all of the fields you want to include in the resulting ledger entries. For example, if you're using a standard general journal to register a payment, the Payment Method Code field isn't available on the ledger entries.
 
 > [!NOTE]  
 > The following procedures refer to the item journal, but the information also applies to the general journal.
@@ -212,7 +212,7 @@ To avoid posting errors caused by the document number, you can use the **Renumbe
 
 In all journals that are based on the general journal, the **Document No.** field is editable so that you can specify different document numbers for different journal lines or the same document number for related journal lines.
 
-If the **No. Series** field on the journal batch is filled, then the posting function in general journals requires that the document number on individual or grouped journal lines be in sequential order. Just choose the **Renumber Document Numbers** action, and relevant **Document No.** fields are then updated. If related journal lines are grouped by document number before you used the function, they remain grouped, but might be assigned a different document number.  
+If the **No. Series** field on the journal batch is filled, then the posting function in general journals requires that the document number on individual or grouped journal lines be in sequential order. Just choose the **Renumber Document Numbers** action, and relevant **Document No.** fields are then updated. If you group related journal lines by document number before you use the action, they remain grouped, but might be assigned a different document number.  
 
 This function also works on filtered views.
 

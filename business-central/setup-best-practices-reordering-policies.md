@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: best-practice
 ms.devlang: al
 ms.search.keywords:
-ms.date: 06/13/2024
+ms.date: 03/17/2026
 ms.service: dynamics-365-business-central
 
 ---

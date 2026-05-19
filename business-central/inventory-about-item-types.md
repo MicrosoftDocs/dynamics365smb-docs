@@ -1,13 +1,13 @@
 ---
 title: Understand item types
-description: Learn about the types of items you can manage in inventory, and how the types affectYou can adjust the inventory valuation of an item using the FIFO or Average costing methods when item costs change for reasons other than transactions.
+description: Learn about the types of items you can manage in inventory.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords:
 ms.search.form: 9297, 5845, 30, 
-ms.date: 08/12/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 11/11/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -80,9 +80,9 @@ Working with VAT in [!INCLUDE[prod_short](includes/prod_short.md)] is easy, and 
 
 ## Manage receivables and payables
 
-The core of finance is centered around managing receivables and payables, registering transactions, reconciling banks accounts, paying vendors, receiving customer payments, reimbursing employees for expenses, and so on. This section provides links to the core concepts.
+Finance centers on managing receivables and payables, registering transactions, reconciling banks accounts, paying vendors, receiving customer payments, reimbursing employees for expenses, and so on. This section provides links to the core concepts.
 
-| To... | See |
+| To... | Go to... |
 | --- | --- |
 | Apply incoming payments, reconcile bank accounts during payment application, and collect outstanding balances. |[Managing Receivables](receivables-manage-receivables.md) |
 | Make payments, apply outgoing payments, and work with checks. |[Managing Payables](payables-manage-payables.md) |
@@ -101,9 +101,9 @@ The core of finance is centered around managing receivables and payables, regist
 
 ## Period-end reporting and related tasks
 
-At the end of each accounting period or at the end of the fiscal year, there are a number of administrative tasks to do. For example, you'll probably want to make sure all documents and journals are posted, ensure currency data is up to date, close the books, and so on. The actual tasks will depend your company.
+At the end of each accounting period or at the end of the fiscal year, there are many administrative tasks to do. For example, you probably want to make sure all documents and journals are posted, ensure currency data is up to date, close the books, and so on. The actual tasks depend your company.
 
-| To... | See |
+| To... | Go to... |
 | --- | --- |
 |Manage inventory and manufacturing costs, and report and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
 | Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|

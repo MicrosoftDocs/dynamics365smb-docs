@@ -1,0 +1,1 @@
+Review the audit trail of G/L registers and their entries, including reversed transactions, to verify posting activity and support compliance with accounting standards.

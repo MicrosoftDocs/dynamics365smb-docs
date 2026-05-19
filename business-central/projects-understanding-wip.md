@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010,
-ms.date: 08/19/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

@@ -26,7 +26,7 @@ The steps to connect E-Documents to an external access point depend on the type 
 
 ## Available service providers
 
-[!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero, Avalara, Logiq, SignUp, and B2BRouter access points for e-documents. If we add more connectors, we'll update this article with the parameters when they're ready. You can also find more connectors on AppSource.
+[!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero, Avalara, Logiq, SignUp, and B2BRouter access points for e-documents. If we add more connectors, we'll update this article with the parameters when they're ready. You can also find more connectors on Marketplace.
 
 > [!NOTE]
 > This article doesn't explain how to connect with local service providers. You can learn more about the local service providers that [!INCLUDE[prod_short](includes/prod_short.md)] supports in the country-specific documentation.  

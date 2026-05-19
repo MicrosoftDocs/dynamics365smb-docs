@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 11/13/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -84,7 +84,7 @@ Specifically for list pages, the list page that you open from the home page and 
 When you search for and open a list page, such as the **Sales Orders** list, it's in view mode. The actions for editing, viewing, or deleting an individual entity, such as a sales order, are shown when you choose the **Manage** action.  
 
 > [!TIP]
-> If you know that you'll often use actions on the second level of the action bar, choose the :::image type="icon" source="media/pin.png" border="false"::: icon to pin the action bar and make the actions under the various menus immediately discoverable.
+> If you often use actions on the second level of the action bar, choose the :::image type="icon" source="media/pin.png" border="false"::: icon to pin the action bar. The actions under the various menus are immediately discoverable.
 >
 > To hide the second level of the action bar again, choose the :::image type="icon" source="media/unpin.png" border="false"::: icon.
 

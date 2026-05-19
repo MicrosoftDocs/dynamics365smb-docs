@@ -1,16 +1,16 @@
 ---
-title: Design Details - Revaluation
+title: Design details - Revaluation
 description: You can revalue the inventory based on the valuation base that most accurately reflects the inventory value.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/07/2023
+ms.date: 03/17/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Design Details: Revaluation
+# Design details: Revaluation
 
 You can revalue the inventory based on the valuation base that most accurately reflects the inventory value. You can also backdate a revaluation to correctly update the cost of goods sold (COGS) for items you've already sold. Items that use the Standard costing method and aren't completely invoiced can also be revalued.  
 

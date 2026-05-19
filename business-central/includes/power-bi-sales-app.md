@@ -21,5 +21,7 @@ The following table describes the reports in the Power BI Sales app and how you 
 |Analyze the key factors that drive sales performance. Find the most impactful variables and trends. | [Key Sales Influencers]( https://businesscentral.dynamics.com?page=37102) | [About Key Sales Influencers](../sales-powerbi-key-sales-influencers.md) |
 |Analyze sales by projects and view key metrics, including sales amount and sales quantity. | [Sales by Projects]( https://businesscentral.dynamics.com?page=37119) | [About Sales by Projects](../sales-powerbi-sales-by-project.md) |
 |Analyze the forecasted sales amount to gain projected sales insights across customer, salesperson and item. | [Sales Forecasting]( https://businesscentral.dynamics.com?page=37109) | [About Sales Forecasting](../sales-powerbi-sales-forecasting.md) |
+|Analyze customer retention to gain insights into repeat purchase behavior, customer loyalty, and trends in customer churn over time. | [Customer Retention Overview]( https://businesscentral.dynamics.com?page=36983) | [About Customer Retention Overview](../sales-powerbi-customer-retention-overview.md) |
+|Analyze historical insights into customer retention metrics, allowing analysis of retention trends over time. | [Customer Retention History]( https://businesscentral.dynamics.com?page=37114) | [About Customer Retention History](../sales-powerbi-customer-retention-history.md) |
 
 [!INCLUDE[powerbi-tip-track-kpis](powerbi-tip-track-kpis.md)]

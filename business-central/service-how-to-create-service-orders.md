@@ -3,9 +3,8 @@ title: How to create service orders
 description: Learn the different tasks involved in creating service orders in Business Central such as creating a new service order or orders based on a service contract.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: service order, create service order, service management, service management setup, service item, service contract, service quote
-ms.date: 10/03/2025
+ms.date: 03/18/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -43,8 +42,6 @@ You can automatically create service orders for the maintenance of service items
     > There's a limit to the number of days you can use as the date range each time you use this batch job. You set this limit in the **Contract Serv. Ord. Max. Days** field on the **Service Management Setup** page.  
 
 4. In the **Action** field, choose **Create Service Order**.  
-    > [!NOTE]  
-    > You can't create order with multiple service item, if you set **One Service Item Line/Order** field on the **Service Management Setup** page.
 
 ## Convert a service quote to a service order
 

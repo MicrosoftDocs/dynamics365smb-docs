@@ -1,0 +1,1 @@
+Analyze item entries with dimension details by building groups of dimensions for combinations of dimension values, and view a breakdown of value entries for each group.

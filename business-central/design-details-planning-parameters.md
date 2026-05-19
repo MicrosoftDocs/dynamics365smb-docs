@@ -9,7 +9,7 @@ ms.date: 09/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Design details: planning parameters
+# Design details: Planning parameters
 
 This article describes the planning parameters that you can use in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

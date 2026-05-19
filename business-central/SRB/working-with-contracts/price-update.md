@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8025, 
-ms.date: 07/11/2025
+ms.date: 05/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -243,4 +243,5 @@ The price update can be canceled/deleted after the credit memo by deleting the p
 
 ## Related information
 
-[Currencies](../sales/dealing-with-currencies.md)
+[Currencies](../sales/dealing-with-currencies.md)  
+[Power BI Subscription Billing app](../analytics/subscription-powerbi-app.md)

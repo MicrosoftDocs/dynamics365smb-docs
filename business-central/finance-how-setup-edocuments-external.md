@@ -24,9 +24,9 @@ Before you use the functionality that this article describes, you must install t
 To install an E-Documents connector, follow these steps:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **E-Document Services**, and then select the related link.
-2. Choose the **Install E-Documents integration from AppSource** action to open the **Microsoft AppSource apps** page.
-3. Choose the connector you want, and then select the **View on AppSource** action.
-4. Install the app from the AppSource.
+2. Choose the **Install E-Documents integration from Marketplace** action to open the **Microsoft Marketplace apps** page.
+3. Choose the connector you want, and then select the **View on Marketplace** action.
+4. Install the app from the Marketplace.
 
 ## Set up the connection
 

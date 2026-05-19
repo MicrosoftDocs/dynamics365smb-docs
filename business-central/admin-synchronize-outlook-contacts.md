@@ -1,5 +1,5 @@
 ---
-title: Synchronize Contacts in Business Central with Contacts in Microsoft Outlook
+title: Synchronize Contacts in Business Central with Contacts in Microsoft Outlook (legacy)
 description: This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.
 author: brentholtorf
 ms.topic: article
@@ -11,7 +11,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Synchronize contacts in Business Central with contacts in Microsoft Outlook
+# Synchronize contacts in Business Central with contacts in Microsoft Outlook (legacy)
+
+> **APPLIES TO:**  [!INCLUDE[prod_short](includes/prod_short.md)] 2025 release wave 2 (v27) and earlier. For later versions, refer to
+ [Save business contacts to Microsoft Outlook](save-business-contacts-to-outlook.md).
 
 You can set up contact synchronization so that your contacts in [!INCLUDE[prod_short](includes/prod_short.md)] have the same information as your contacts in Microsoft Outlook. For example, if you're a sales person, you might work in Outlook and [!INCLUDE[prod_short](includes/prod_short.md)] at the same time. If the contacts are the same in both places, your work is more straightforward.  
 

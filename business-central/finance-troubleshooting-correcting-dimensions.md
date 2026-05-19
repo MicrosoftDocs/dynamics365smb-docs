@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: troubleshooting-general
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
-ms.date: 08/08/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -21,7 +21,7 @@ Financial reporting and analysis views often rely on data from dimensions. Despi
 When you post documents or journal lines that contain dimensions, various errors might occur. However, they're typically related to an incorrect dimension setup or assignment.
 
 > [!NOTE]
-> In the following list of potential error messages, the *%X* codes are placeholders for the data variables that the actual message will contain in the UI depending on the context. For example, *%1 %2 is blocked.* could appear in the UI as "Dimension Code AREA is blocked.".  
+> In the following list of error messages, the *%X* codes are placeholders for the data variables that the actual message might contain in the UI, depending on the context. For example, *%1 %2 is blocked* could appear in the UI as "Dimension Code AREA is blocked".  
 
 |Issue|Error Message|Possible Solution|
 |-----|-------------|-----------------|
@@ -43,7 +43,7 @@ When you post documents or journal lines that contain dimensions, various errors
 If you discover an incorrect dimension on posted general ledger entries, you can correct the dimension values and update your analysis views. The correction helps keep your financial reports and analyses accurate.
 
 > [!IMPORTANT]
-> The features for correcting dimensions are intended only to help make financial reporting accurate. Dimension corrections apply only to the G/L entries. They do not change the dimensions assigned to the entries in other ledgers for the same transaction. There will be a mismatch between the dimensions assigned in the general ledger and the sub-ledgers.
+> The features for correcting dimensions are intended only to help make financial reporting accurate. Dimension corrections apply only to the G/L entries. They don't change the dimensions assigned to the entries in other ledgers for the same transaction. The dimensions assigned in the general ledger don't match the subledgers.
 
 ### Set up dimension corrections
 
@@ -111,7 +111,7 @@ If a general ledger entry was corrected, you can investigate the change by using
 If a correction doesn't complete, a warning displays on the correction card. If that happens, you can use the **Reset** action to revert the correction to a draft status and undo the changes. You can then run the correction again.
 
 > [!NOTE]
-> Resetting an incomplete correction will not affect updates to analysis views because those happen at the end of the correction process.
+> Resetting an incomplete correction doesn't affect updates to analysis views because those updates happen at the end of the correction process.
 
 ### Use cost accounting with corrected G/L entries
 

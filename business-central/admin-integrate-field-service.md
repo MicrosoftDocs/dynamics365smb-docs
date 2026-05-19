@@ -52,7 +52,7 @@ To integrate with [!INCLUDE [field-service-short](includes/field-service-short.m
 
 ### Install required apps
 
-You must download the following apps from AppSource, and install them in your [!INCLUDE [prod_short](includes/prod_short.md)] environment:
+You must download the following apps from Marketplace, and install them in your [!INCLUDE [prod_short](includes/prod_short.md)] environment:
 
 - [Field Service Integration](https://go.microsoft.com/fwlink/?linkid=2277917)
 - [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2304910)
@@ -109,7 +109,7 @@ After you have a connection to Dataverse and Sales, you can set up your integrat
 
 ### Install the integration app, and run an assisted setup guide
 
-1. Download and install the **Field Service Integration** app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Afterward, on the **Extension Management** page, find the **Field Service Integration** app, and choose the **Set up** action to run the assisted setup guide.
+1. Download and install the **Field Service Integration** app from [Marketplace](https://go.microsoft.com/fwlink/?linkid=2277917). Afterward, on the **Extension Management** page, find the **Field Service Integration** app, and choose the **Set up** action to run the assisted setup guide.
 2. On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide.
 
 The following list points out the key settings in the guide.
@@ -257,7 +257,7 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **L
 
 A virtual table is a custom table that has columns and rows that contain data from an external data source, such as [!INCLUDE [prod_short](includes/prod_short.md)]. The columns and rows in a virtual table look like a regular table, however, the data isn't stored in a physical table in the [!INCLUDE[prod_short](includes/cds_long_md.md)] database. Instead, the data is retrieved at runtime. To learn more about virtual tables, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data).
 
-To use virtual tables in your integration, the first thing to do is to install the [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917) app from AppSource.
+To use virtual tables in your integration, the first thing to do is to install the [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917) app from Marketplace.
 
 > [!NOTE]
 > Your [!INCLUDE [field-service-short](includes/field-service-short.md)] and [!INCLUDE [prod_short](includes/prod_short.md)] must be in the same tenant. That's a requirement for using virtual tables.

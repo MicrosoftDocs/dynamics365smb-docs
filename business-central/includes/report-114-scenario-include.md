@@ -1,0 +1,1 @@
+Analyze sales and profitability per salesperson to understand revenue contribution, compare margins, and evaluate the impact of discounts on overall performance. Use the insights to monitor individual and team sales effectiveness, identify high and low performers, and support data-driven decisions across sales management, operations, and finance.

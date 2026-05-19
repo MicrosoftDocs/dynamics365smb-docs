@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
-ms.date: 07/16/2025
+ms.date: 05/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -53,3 +53,4 @@ On the **Sales & Receivables Setup** page, the **Autom. Insert Cust. Dimension V
 ## Related information
 
 [Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)  
+[Power BI Subscription Billing app](analytics/subscription-powerbi-app.md)  

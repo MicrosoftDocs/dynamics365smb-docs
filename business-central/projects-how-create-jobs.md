@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 02/24/2025
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -59,7 +59,7 @@ A key part of creating a project is to specify the various tasks involved in the
 
 ## Invoice one or more customers for project tasks
 
-Sometimes the party that is receiving a service is different from the party that pays the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
+Sometimes the party that's receiving a service is different from the party that pays the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
 
 If the customer who is receiving the service also pays the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
 

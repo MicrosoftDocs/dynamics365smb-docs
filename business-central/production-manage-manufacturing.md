@@ -1,11 +1,10 @@
 ---
-title: Execute Production
+title: Manufacturing overview
 description: When demand is planned for and the materials are issued according to production BOMs, the production operations can start.
 author: brentholtorf
 ms.topic: concept-article
-ms.devlang: al
 ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 99000784, 99000785
-ms.date: 09/10/2024
+ms.date: 04/07/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

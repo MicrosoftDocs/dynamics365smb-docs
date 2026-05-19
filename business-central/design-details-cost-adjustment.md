@@ -1,17 +1,17 @@
 ---
-title: Design Details - Cost Adjustment
+title: Design details - Cost adjustment
 description: Cost adjustment forwards cost changes from cost sources to cost recipients according to an item’s costing method, to provide correct inventory valuation.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords:
-ms.date: 06/14/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Design Details: Cost Adjustment
+# Design details: Cost adjustment
 
 The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.  
 
@@ -28,7 +28,7 @@ The following are secondary purposes, or functions, of cost adjustment:
 
 Inventory costs must be adjusted before the related value entries can be reconciled with the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
-## Detecting the Adjustment
+## Detecting the adjustment
 
 The task of detecting if cost adjustment should occur is primarily performed by the Item Jnl.-Post Line routine, while the task of calculating and generating cost adjustment entries is performed by the **Adjust Cost – Item Entries** batch job.  
 
@@ -38,21 +38,21 @@ To be able to forward costs, the detection mechanism determines which sources ha
 * Average Cost Adjustment Entry Point  
 * Order Level  
 
-### Item Application Entry
+### Item application entry
 
 This detection function is used for items that use FIFO, LIFO, Standard, and Specific costing methods and for fixed applications scenarios. The function works as follows:  
 
 * Cost adjustment is detected by marking the source item ledger entries as *Applied Entry to Adjust* whenever an item ledger entry or value entry is posted.  
 * Cost is forwarded according to the cost chains that are recorded in the **Item Application Entry** table.  
 
-### Average Cost Adjustment Entry Point
+### Average cost adjustment entry point
 
 This detection function is used for items that use the Average costing method. The function works as follows:  
 
 * Cost adjustment is detected by marking a record in the **Avg. Cost Adjmt. Entry Point** table whenever a value entry is posted.  
 * Cost is forwarded by applying the costs to value entries with a later valuation date.  
 
-### Order Level
+### Order level
 
 This detection function is used in conversion scenarios, production and assembly. The function works as follows:  
 
@@ -65,7 +65,7 @@ The Order Level function is used to detect adjustments in assembly posting. The 
 
 For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
-## Manual versus Automatic Cost Adjustment
+## Manual versus automatic cost adjustment
 
 Cost adjustment can be performed in two ways:  
 
@@ -80,7 +80,7 @@ Regardless if you run the cost adjustment manually or automatically, the adjustm
 
 The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field on the **General Ledger Setup** page. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
 
-## Adjust Cost - Item Entries Batch Job
+## Adjust dost - Item Entries batch job
 
 When you run the **Adjust Cost - Item Entries** batch job, you have the option to run the batch job for all items or for only certain items or categories.  
 
@@ -143,7 +143,7 @@ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20
 |01-15-20|[Inventory Account]|2130|-2.00|7|  
 |01-15-20|[COGS Account]|7290|2.00|8|  
 
-## Automatic Cost Adjustment
+## Automatic cost adjustment
 
 To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field on the **Inventory Setup** page. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 99000773, 99000778, 99000823, 99000827
-ms.date: 03/08/2025
+ms.date: 03/10/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,13 @@ The **Production Journal** page lets you do the same tasks as the **Output Journ
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
-    You can use the **Explode Routing** function to generate journal lines from production orders.
+   You can use the **Explode Routing** action to generate journal lines from production orders.
+
+   > [!NOTE]
+   > When you report production output for items with serial number tracking, you often need one journal line per serial number. When you turn on **Item Tracking on Lines** in the **Output Journal** and choose **Explode Routing**, [!INCLUDE [prod_short](includes/prod_short.md)] respects the item tracking setting when it explodes routing lines in output journals:
+   >
+   > * For serial-tracked items, [!INCLUDE [prod_short](includes/prod_short.md)] splits the last routing operation into multiple lines with quantity 1 per serial number, and the journal line is ready for you to enter the assigned serial number.
+   > * For lot-tracked items, the operation is on a single line with the full quantity.
   
 3. If the operation is complete, select the **Finished** field.  
 4. Choose the **Post** action to post the operations.

@@ -1,16 +1,17 @@
 ---
-title: Design Details - Active versus Historic Item Tracking Entries
+title: Design details - Active versus historic item tracking entries
 description: When parts of a document line quantity are posted, only that quantity is transferred to the item ledger entries and its item tracking numbers.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 06/15/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Active versus Historic Item Tracking Entries
+# Design details: Active versus historic item tracking entries
+
 When parts of a document line quantity are posted, only that particular quantity is transferred to the item ledger entries and its item tracking numbers. However, you will want to access all relevant item tracking information directly from the active document line. That is, not only will you want to see the entries that are related to the remaining quantity, you will also want information about the units that have been posted. When you view or modify the **Item Tracking Lines** page, the collective contents of the **Tracking Specification** table (T336) and **Reservation Entry** table (T337) are presented in a temporary version of T336. This ensures that historic and active item tracking data is accessed as one.  
 
  The following table shows how T336 and T337 are used in a purchase scenario. The bold figures represent values that the user manually enters on the **Item Tracking Lines** page.  
@@ -53,8 +54,9 @@ When parts of a document line quantity are posted, only that particular quantity
 |**T336**|7|0|0|7|7|  
 
 ## Related information  
- [Design Details: Item Tracking](design-details-item-tracking.md)   
- [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)
+
+[Design Details: Item Tracking](design-details-item-tracking.md)   
+[Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

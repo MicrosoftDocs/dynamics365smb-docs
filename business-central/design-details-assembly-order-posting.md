@@ -1,19 +1,20 @@
 ---
-title: Design Details - Assembly Order Posting
+title: Design details - Assembly order posting
 description: Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords:
-ms.date: 06/15/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Assembly Order Posting
+# Design details: Assembly order posting
+
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  
 
-Similarly to production order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Production Order Posting](design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.  
+Similar to production order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Production Order Posting](design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.  
 
 The following journal postings occur during assembly order posting:  
 

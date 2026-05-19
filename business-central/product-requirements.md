@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 09/30/2025
+ms.date: 02/20/2026
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -65,12 +65,12 @@ The administration center is designed to work with the current version of the fo
 
 ## Use Business Central on-premises
 
-If you want to deploy Business Central on-premises, you should check the system requirements. Learn more in [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v27) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+If you want to deploy Business Central on-premises, you should check the system requirements. Learn more in [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-28) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v27)  
+[System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v28)  
 [Getting the Business Central Desktop App](install-desktop-app.md)  
 [Getting Business Central on Your Mobile Device](install-mobile-app.md)  
 [Managing Business Interactions in Microsoft Outlook](admin-outlook.md)  

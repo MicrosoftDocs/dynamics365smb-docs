@@ -25,6 +25,8 @@ You can base this report on analysis view entries from sales, purchases, or inve
 
 ## Use cases
 
+[!INCLUDE [report-7150-scenario](../includes/report-7150-scenario-include.md)]
+
 <!-- 
 Prompt
 

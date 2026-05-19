@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_209_Primary
-ms.date: 10/03/2024
+ms.date: 02/02/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -16,6 +16,8 @@ ai.usage: ai-assisted
 ---
 
 # Sales Reservation Avail. (report)
+
+[!INCLUDE [deprecated-report-note](../includes/deprecated-report-note-include.md)]
 
 The **Sales Reservation Avail.** report shows the availability of items for shipment on sales documents.
 
@@ -86,6 +88,10 @@ Warehouse managers use the report to:
 Try the report here: [Sales Reservation Avail.](https://businesscentral.dynamics.com?report=209)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+[!INCLUDE [alternative-reports-sales](../includes/alternative-reports-sales.md)]
 
 ## Related information
 

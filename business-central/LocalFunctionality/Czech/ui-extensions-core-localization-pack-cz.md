@@ -5,9 +5,9 @@ author: brentholtorf
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 10/08/2025
+ms.date: 03/30/2026
 ms.reviewer: v-soumramani
-ms.author: v-jiurxo
+ms.author: v-jurxova
 ms.service: dynamics-365-business-central
 ---
 
@@ -32,6 +32,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 - **VAT**
   - [VAT Date](how-to-setup-vat-date.md) **Available Now**
+  - [VAT Return Period](vat-return-periods.md) **Available Now**
   - [VAT Statement](vat-statement.md) **Available Now**
   - [Supplementary VAT Statement](supplementary-vat-statement.md) **Available Now**
   - [VIES](vies-cz.md) **Available Now**

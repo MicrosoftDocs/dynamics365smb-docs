@@ -5,9 +5,9 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.search.keywords: collection, remindes
+ms.search.keywords: collection, reminders
 ms.search.form: 
-ms.date: 03/12/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -38,7 +38,7 @@ The setup settings differ for the Create, Issue, and Send reminder actions. The 
 ### Create
 
 * Set the highest level on all reminder lines.  
-* Create reminders for entries that are on hold. For example, this setting is useful if you're in an ongoing dispute with a customer and want them to see the big picture.
+* Create reminders for entries that are on hold. For example, this setting is useful if you're in an ongoing dispute with a customer and want to give them the full picture.
 * Create reminders for all unpaid invoices, and not just invoices that are overdue. The report displays overdue invoices and invoices that are unpaid but not overdue in separate sections.
 * Set filters to make the reminder more specific.
 
@@ -49,7 +49,7 @@ When you issue a reminder, you create entries in the customer ledger that contai
 ### Send
 
 > [!NOTE]
-> The Send automation requires that you've set up email in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about setting up email, go to [Set up email](admin-how-setup-email.md).
+> The Send automation requires that you set up email in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about setting up email, go to [Set up email](admin-how-setup-email.md).
 
 The content of the emails, such as attachment texts, email body texts, and language come from the setup for the reminder term. To learn more about email settings, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md).
 
@@ -61,11 +61,11 @@ Use the settings on the **Send Reminders Setup** page control the following:
 
 ## Access the history of a reminder
 
-[!INCLUDE [prod_short](includes/prod_short.md)] keeps track of each time an automation runs. You can access the history by choosing the **Log entries** action. You can also use the **Issued Reminders** action to access a list of the reminders you've issued.
+[!INCLUDE [prod_short](includes/prod_short.md)] keeps track of each time an automation runs. You can access the history by choosing the **Log entries** action. You can also use the **Issued Reminders** action to access a list of the reminders you issued.
 
 ## Handle errors
 
-On the **Actions** FastTab, for each action you can specify whether you want the automation to stop if the action has an error. If you do, the automation won't process the actions that come afterward. To turn this feature on or off, use the **Set stop on error** or **Clear stop on error** actions.
+On the **Actions** FastTab, for each action you can specify whether you want the automation to stop if the action has an error. If you do, the automation doesn't process the actions that come afterward. To turn this feature on or off, use the **Set stop on error** or **Clear stop on error** actions.
 
 ## Change action settings for an automation
 

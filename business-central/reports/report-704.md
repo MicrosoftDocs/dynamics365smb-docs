@@ -28,7 +28,17 @@ The report shows:
 
 Use the report to track changes in inventory and for audits at the close of an accounting period.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
+
+[!INCLUDE[available-layouts-excel-only](../includes/available-layouts-excel-only.md)]
+<!-- 
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+ -->
 ## Use cases
+
+[!INCLUDE [report-704-scenario](../includes/report-704-scenario-include.md)]
 
 <!-- 
 Prompt
@@ -82,6 +92,13 @@ Financial analysts use the report to:
 Try the report here: [Inventory - Transaction Detail](https://businesscentral.dynamics.com?report=704)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+There are several other ways to analyze your inventory. To learn more, go to:
+
+- [Power BI inventory app](../inventory-powerbi-app.md)
+- [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)
 
 ## Contributors
 

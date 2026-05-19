@@ -1,40 +1,39 @@
 ---
-title: Installing Power BI apps for Business Central
+title: Install Power BI apps for Business Central
 description: Learn how to install Power BI apps for your Business Central.
 author: kennieNP
 ms.topic: get-started
-ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 10/17/2025
+ms.date: 03/03/2026
 ms.author: kepontop
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]
+# Install Power BI apps for Business Central
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+<!-- [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)] -->
 
 This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]. The apps are specific to each functional area of [!INCLUDE [prod_short](includes/prod_short.md)]. The apps include:
 
 - APIs for reading data.
 - [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models and reports.
 - Pages that embed the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)].
-- Navigation links on Role Centers and Role Explorer.
+- Links on Role Centers and Role Explorer.
 
 ## Prerequisites
 
 To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you must have:
 
-- An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online (it comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].)
+- An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online, which comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
 
-- Entitlements/permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to:
+- Entitlements and permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to:
 
-  - Install template apps from AppSource.
+  - Install template apps from Marketplace.
   - Use shared workspaces.
 
-The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be met with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
+You can meet the prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 
 - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
 - The user who refreshes the data.
@@ -61,11 +60,10 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 
 ### Installing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app
 
-Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following tables below and select **Get it now**.
+Template apps are available to install from Microsoft Marketplace. To install or update one or more of the template apps, go to one of the install links in the following tables below and select **Get it now**.
 
-Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
-
-In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
+1. Sign in to Microsoft Marketplace using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
+1. In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
 
 :::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png"::::::
 
@@ -90,31 +88,21 @@ When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] templat
 | Subscription Billing           | 27.0 and later | https://aka.ms/bc-pbi-subscription-billing-app   |
 | Sustainability                 | 27.0 and later | https://aka.ms/bc-pbi-sustainability-app         |
 
-#### Power BI apps (version 26.2 to 26.5)
+#### Power BI apps (version 26)
 
 | To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
 |--------------------------------| -------------- | ------------------------------------------------ |
-| Finance                        | 26.2 to 26.5 | https://aka.ms/bc-pbi-finance-app-26-2             |
-| Inventory                      | 26.2 to 26.5 | https://aka.ms/bc-pbi-inventory-app-26-2           |
-| Inventory Valuation            | 26.2 to 26.5 | https://aka.ms/bc-pbi-inventory-valuation-app-26-2 | 
-| Manufacturing                  | 26.2 to 26.5 | https://aka.ms/bc-pbi-manufacturing-app-26-2       |
-| Purchasing                     | 26.2 to 26.5 | https://aka.ms/bc-pbi-purchase-app-26-2            |
-| Projects                       | 26.2 to 26.5 | https://aka.ms/bc-pbi-projects-app-26-2            |
-| Sales                          | 26.2 to 26.5 | https://aka.ms/bc-pbi-sales-app-26-2               |
-| Subscription Billing           | 26.2 to 26.5 | https://aka.ms/bc-pbi-subscription-billing-app     |
-| Sustainability                 | 26.2 to 26.5 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
+| Finance                        | version 26 | https://aka.ms/bc-pbi-finance-app-26-2             |
+| Inventory                      | version 26 | https://aka.ms/bc-pbi-inventory-app-26-2           |
+| Inventory Valuation            | version 26 | https://aka.ms/bc-pbi-inventory-valuation-app-26-2 | 
+| Manufacturing                  | version 26 | https://aka.ms/bc-pbi-manufacturing-app-26-2       |
+| Purchasing                     | version 26 | https://aka.ms/bc-pbi-purchase-app-26-2            |
+| Projects                       | version 26 | https://aka.ms/bc-pbi-projects-app-26-2            |
+| Sales                          | version 26 | https://aka.ms/bc-pbi-sales-app-26-2               |
+| Subscription Billing           | version 26 | https://aka.ms/bc-pbi-subscription-billing-app     |
+| Sustainability                 | version 26 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
 
-#### Power BI apps (version 25.2 to 26.1)
 
-| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
-|--------------------------------| ------------ | -------------------------------------------------- |
-| Finance                        | 25.2 to 26.1 | https://aka.ms/bc-pbi-finance-app-25-2             |
-| Inventory                      | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-app-25-2           |
-| Inventory Valuation            | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-valuation-app-25-2 | 
-| Manufacturing                  | 25.2 to 26.1 | https://aka.ms/bc-pbi-manufacturing-app-25-2       |
-| Purchasing                     | 25.2 to 26.1 | https://aka.ms/bc-pbi-purchase-app-25.2            |
-| Projects                       | 25.2 to 26.1 | https://aka.ms/bc-pbi-projects-app-25-2            |
-| Sales                          | 25.2 to 26.1 | https://aka.ms/bc-pbi-sales-app-25-2               |
 
 ### Need Power BI apps for multiple companies?
 
@@ -137,11 +125,11 @@ The assisted setup guide helps you configure the following components:
 
 ### Configure the calendar type
 
-Choose the type of calendar the year boundaries apply to.
+Choose the calendar type that aligns with how your organization defines its reporting year. This setting determines how year boundaries are calculated, which time intelligence measures to use, and which calendar in the Power BI semantic models to use.
 
-- **Fiscal**: A 12-month calendar that begins in any month and ends 12 months after.
-- **Standard**: A 12-month calendar that begins on January 1 and ends on December 31.
-- **Weekly**: A calendar that supports 445, 454, or 544 week groupings. The first and last day of the year might not correspond to a first and last day of a month, respectively.
+- **Fiscal**: A 12-month calendar that begins in any month and ends 12 months after. To learn more, go to [Configure a fiscal calendar](across-powerbi-configure-fiscal-calendar.md).
+- **Standard**: A 12-month calendar that begins on January 1 and ends on December 31. To learn more, go to [Configure a standard calendar](across-powerbi-configure-standard-calendar.md).
+- **Weekly**: A calendar that supports 445, 454, or 544 week groupings. The first and last day of the year might not correspond to a first and last day of a month, respectively. To learn more, go to [Configure a week based calendar](across-powerbi-configure-week-based-calendar.md).
 
 > [!IMPORTANT]
 > By default, all [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports are configured to use Fiscal Calendar date fields and Fiscal Time Intelligence measures.
@@ -208,6 +196,12 @@ Learn more in [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] seman
 
 For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, the job queue entry that runs the *Update Dim. Set Entries* codeunit must run at least one time. If you change dimension sets or values, the codeunit must run again. Therefore, we recommend that you run the corresponding job queue entry one time each week, or maybe once a night outside normal working hours.
 
+## ABC Analysis Setup
+
+ABC Analysis reporting categories are driven by the **ABC Analysis Setup**. This setup represents the percentage boundaries for the ABC class categories in the Power BI inventory reports. WIth the default configuration, Category A accounts for 50 percent of the total sales value, Category B accounts for 30 percent, and Category C accounts for 20 percent.
+
+To customize the ABC Class Category percentage boundaries, go to the [ABC Analysis Setup](https://businesscentral.dynamics.com?page=7160) page. Category A typically represents the items with the highest contribution to the total sales amount. Category B represents items that moderately contribute. Category C represents the items that contribute the least. The sum of the percentages for all three categories must equal 100.
+
 ## Want links to show up in Report Explorer?
 
 The profiles (roles) selected to display in the Role Explorer control the functional areas that show in Report Explorer. To specify whether profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
@@ -231,7 +225,7 @@ Instead, consider having a single workspace per company that you use for the emb
 
 ## Update a Power BI app
 
-The [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on AppSource. When a new version of a template app becomes available, we notify you in two ways:
+The [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on Marketplace. When a new version of a template app becomes available, we notify you in two ways:
 
 - An update banner displays in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] informing you that a new version is available.
 - A notification displays in Power BI's notification pane.

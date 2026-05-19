@@ -1,18 +1,18 @@
 ---
-title: Design Details - Changing Costing Methods for Items
+title: Design details - Changing costing methods for items
 description: Learn how to assign a different costing method to an item although you have already used the item in transactions.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: costing methods, costing, item cost
-ms.search.form: 8645
-ms.date: 06/08/2021
+ms.search.form: 8645,
+ms.date: 03/17/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
-# Design Details: Change the Costing Method for Items
+# Design details: Change the costing method for items
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you cannot change a costing method for an item after you have included the item in a transaction. For example, after you have bought or sold the item. If an incorrect costing method was assigned to the item or items, you might not discover the issue until you do your financial reporting.
 

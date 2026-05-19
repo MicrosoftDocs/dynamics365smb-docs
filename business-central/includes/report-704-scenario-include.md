@@ -1,0 +1,1 @@
+Review inventory movements, such as sales, purchases, and stock transfers for a selected item in a time period to determine the basis of the current quantity in inventory.

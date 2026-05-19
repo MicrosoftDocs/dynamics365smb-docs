@@ -13,8 +13,6 @@ ms.custom: bap-template
 
 # Printer setup and management overview
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Printing documents and reports from [!INCLUDE[prod_short](includes/prod_short.md)] is an important task for business users. You typically want to send print jobs directly to one of your organization's printers&mdash;no matter the [!INCLUDE[prod_short](includes/prod_short.md)] client or app you're using. Because [!INCLUDE[prod_short](includes/prod_short.md)] online is a cloud service, it can't directly reach local printers connected to users' devices, but you can connect it to cloud-enabled printers.
 
 ## What are your printer possibilities in Business Central

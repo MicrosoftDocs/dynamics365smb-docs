@@ -34,7 +34,8 @@ To configure these settings, follow these steps:
     | **Item Emissions** | Enable a default sustainability account and emissions on the **Item Card** page. |
     | **Item Charge Emissions** | Enable a default sustainability account on the **Item Charge** page.</br></br> **Important:** This field isn't currently supported. |
     | **Resource Emissions** | Enable a default sustainability account and emissions on the **Resource Card** page. |
-    | **Work Machine Center Emissions** | Enable a default sustainability account and emissions on the **Work Center** and **Machine Center** pages. |
+    | **Work/Machine Center Emissions** | Enable a default sustainability account and emissions on the **Work Center** and **Machine Center** pages. |
+    |**Fixed Asset Emissions**| Enable a default sustainability account and emissions on the **Fixed Asset Card**, **Fixed Asset Journal**, **Fixed Asset G/L Journal**, and **FA Reclassification Journal** pages.<br><br> There are a few things to note about this setting:<br><br>- For journals, you can enter the default values only if you choose **Acquisition Cost** in the **FA Posting Type** field.<br>- For FA reclassification journal lines, if only one asset transfers to another, the **New Sustainability Account** can be the same for both assets. However, if the asset transfers to more than one asset, you must manually enter the new account. Emissions follow the same rules as amounts when they transfer from one asset to another.<br>- When you sell an asset, the emissions transfer from the FA ledger entry to the sales line.  |
 
 > [!NOTE]
 > Keep in mind that selecting the **Use Emissions In Purchase Documents** field doesn't activate the sustainability value chain features. The field only enables you to record emissions in purchase documents. If you want to use purchase documents in value chain operations, you must also select the **Enable Value Chain tracking** field.  

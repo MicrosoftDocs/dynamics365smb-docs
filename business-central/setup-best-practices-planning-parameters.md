@@ -1,5 +1,5 @@
 ---
-title: Setup best practices - planning parameters
+title: Setup best practices - Planning parameters
 description: This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
-# Setup best practices: planning parameters
+# Setup best practices: Planning parameters
 
 The **Planning** FastTab on the **Item Card** page is the center of a company’s supply chain. Setting the correct planning parameters is very important for cost-effective inventory control and quality customer service.  
 

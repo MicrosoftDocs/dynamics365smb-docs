@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: trade, sell
 ms.search.form: 253,
-ms.date: 11/11/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -18,21 +18,27 @@ You create a sales invoice or sales order to record your agreement with a custom
 
 You must use sales orders if your sales process requires you to ship parts of an order quantity, for example, because the full quantity isn't available right away. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. In all other respects, sales orders work the same way as sales invoices. With sales orders, you can also use the order promising functionality to communicate certain delivery dates to your customers.  
 
-You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice or sales order when you agree on the sale. After the customer confirms the agreement, you can send an order confirmation to record your obligation to deliver the products as agreed.
+## Corrections
 
-You can easily correct or cancel a posted sales invoice before the customer pays it. For example, to correct a typing mistake or if the customer requests a change early in the order process. If the posted sales invoice is paid, then you must create a sales credit memo or a sales return order to reverse the sale.
+You can easily correct or cancel a posted sales invoice before the customer pays it. For example, to correct a typing mistake or if the customer requests a change early in the order process. If the posted sales invoice is paid, then you must create a sales credit memo or a sales return order to reverse the sale. Learn more at [Correct or cancel unpaid sales invoices](sales-how-correct-cancel-sales-invoice.md).
 
-Good sales and marketing practices are all about how to make the best decisions at the right time. Marketing functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides a precise and timely overview of your contact information so you can serve your prospective customers more efficiently and increase customer satisfaction. Learn more at [Relationship Management](marketing-relationship-management.md).
+## Maximize sales
+
+Good sales and marketing practices are all about how to make the best decisions at the right time. Marketing features in [!INCLUDE[prod_short](includes/prod_short.md)] provide a precise and timely overview of your contact information so you can serve your prospective customers more efficiently and increase customer satisfaction. Learn more at [Relationship Management](marketing-relationship-management.md).
 
 If you use Microsoft Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE [prod_short](includes/prod_short.md)] for backend activities. For example, to process orders, manage inventory, and do your finances. Learn more at [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
+## Reconcile payments
+
 In business environments where the customer must pay before products are delivered, such as in retail, you must wait for the receipt of payment before you deliver the products. In most cases, you process incoming payments some weeks after delivery by applying the payments to their related posted, unpaid sales invoices. Learn more at [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
-Sales documents can be sent as PDF files attached to email. The email body contains an extract of the sales document, such as products, total amount, and a link to the PayPal site. Learn more at [Send Documents by Email](ui-how-send-documents-email.md).
+## Send sales documents to customers
+
+You can send sales documents as PDF files attached to email. The email body contains an extract of the sales document, such as products, total amount, and a link to the PayPal site. Learn more at [Send Documents by Email](ui-how-send-documents-email.md).
+
+## Use workflows in your sales process
 
 For all sales processes, you can incorporate an approval workflow. For example, an approval workflow can require that a manager approves large sales to certain customers. Learn more at [Use Workflows](across-use-workflows.md).
-
-The following sections describe a sequence of tasks, with links to the articles that cover them.
 
 ## Get started with sales capabilities
 
@@ -55,6 +61,8 @@ This section describes the analytical tools you can use to get insights into you
 | Explore built-in sales reports. | [Built-in sales reports](sales-reports.md) |
 
 ## Quote to order to sales invoice
+
+You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice or sales order when you agree on the sale. After the customer confirms the agreement, you can send an order confirmation to record your obligation to deliver the products as agreed.
 
 The following table describes how to use simple sales processes.
 

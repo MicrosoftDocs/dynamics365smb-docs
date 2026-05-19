@@ -1,17 +1,17 @@
 ---
-title: Design Details - Posting Engine Structure
+title: Design details - Posting engine structure
 description: The posting interface uses posting engine functions to prepare and insert general ledger entry and VAT entry records. 
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 06/15/2021
+ms.date: 03/15/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Posting Engine Structure
+# Design details: Posting engine structure
+
 Posting interface and some other functions in codeunit 12 use posting engine functions to prepare and insert general ledger entry and VAT entry records. The posting engine is also responsible for general ledger register creation.  
   
  The functions in the following table provide a standard framework for designing posting procedures (such as Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry, and Reverse) and exclusive access to table 17, G/L Entry.  

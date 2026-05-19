@@ -1,0 +1,1 @@
+Review the current and future availability of items or SKUs. The report helps you identify potential shortages or surpluses by considering inventory, supply, and demand.

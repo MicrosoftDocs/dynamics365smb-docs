@@ -1,17 +1,16 @@
 ---
-title: Design Details - Inventory Posting | Microsoft Docs
+title: Design details - Inventory posting
 description: Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 06/08/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Inventory Posting
+# Design details: Inventory posting
 
 Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.  
 
@@ -116,7 +115,7 @@ At the end of the accounting period, you run the **Post Inventory Cost to G/L** 
 |5|3|1|  
 |6|3|1|  
 
-## Assembly and Production Posting
+## Assembly and production posting
 
 Capacity and resource ledger entries represent the time that is posted as consumed in production or assembly. These process costs are posted as value entries to the general ledger along with the involved material costs in a similar structure as described for item ledger entries in this topic.  
 

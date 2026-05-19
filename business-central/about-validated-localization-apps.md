@@ -2,7 +2,7 @@
 title: Development of validated localization apps
 description: Comply with regulatory requirements in Business Central as a Validated Localization App.
 author: altotovi
-ms.date: 12/11/2024
+ms.date: 01/19/2026
 ms.reviewer: bholtorf
 ms.topic: article
 ms.author: altotovi
@@ -15,7 +15,7 @@ This article describes the requirements and guidelines for developing a Validate
 
 ## What is a Validated Localization app?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is available [globally in 170+ markets](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). In some markets, Microsoft works with independent software vendor (ISV) partners to localize [!INCLUDE[prod_short](includes/prod_short.md)] through localization apps that we make available on [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). For those regions, localizations can be available through preferred localization app program. Preferred localization apps program recognizes those apps, which are built according to Microsoft quality guidelines. ISV partners who comply with those program requirements and guidelines can benefit technically and commercially to serve their resellers and customers.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is available [globally in 170+ markets](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). In some markets, Microsoft works with independent software vendor (ISV) partners to localize [!INCLUDE[prod_short](includes/prod_short.md)] through localization apps that we make available on [Microsoft Marketplace](https://go.microsoft.com/fwlink/?linkid=2081646). For those countries/regions, localizations can be available through preferred localization app program. Preferred localization apps program recognizes those apps, which are built according to Microsoft quality guidelines. ISV partners who comply with those program requirements and guidelines can benefit technically and commercially to serve their resellers and customers.  
 
 In the following sections, you can find requirements and guidelines. You can reach out to the program team if you want to participate in this program and comply with the below requirements by contacting us through [Microsoft localization team](mailto:d365bcloc@microsoft.com).
 
@@ -24,7 +24,7 @@ In the following sections, you can find requirements and guidelines. You can rea
 
 Apps in the Validated Localization pilot program contain a set of functionalities addressing local regulatory requirements that fall within one of the categories in the following list.  
 
-- **Regulatory requirements** - local functionality that helps businesses fulfill their legal requirements, such as tax reporting, local E-invoicing formats, local GAAP, and other regulatory requirements.
+- **Regulatory requirements** - local functionality that helps businesses fulfill their legal requirements, such as tax reporting, local e-invoicing formats, local GAAP, and other regulatory requirements.
 - **National standards requirement** – local functionality that addresses local standards, such as address formats, national banking formats, or local interpretations of global standards.
 - **Local language** - local language in the localization app, but also for a base app if this language isn't currently on the list of [supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 

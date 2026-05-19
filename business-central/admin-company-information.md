@@ -3,8 +3,8 @@ title: Company information overview
 description: The Company Information page specifies basic information for a business entity, such as name, addresses, and shipping information. 
 author: jswymer
 ms.topic: how-to
-ms.search.form: 1
-ms.date: 04/24/2024
+ms.search.form: 1_Primary,
+ms.date: 03/04/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -37,7 +37,7 @@ When there's more than one company or environment, the company switcher shows on
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Shows the company switcher icon in the heading of the Business Central client.":::  
 
-Starting in 2023 release wave 2, version 23, the company badge appears in the browser tab when using the web client. It's also in page links that you [copy and paste](across-share-data-features.md#copying-a-link) in rich text editors, like Word, Outlook, and Teams.
+The company badge appears in the browser tab when using the web client. It's also in page links that you [copy and paste](across-share-data-features.md#copying-a-link) in rich text editors, like Word, Outlook, and Teams.
 
 The following video shows how to work with company badges.
 

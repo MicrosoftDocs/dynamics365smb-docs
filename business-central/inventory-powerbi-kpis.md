@@ -3,11 +3,11 @@ title: Inventory KPIs and measures (Power BI)
 description: The Inventory App KPIs provides a page to clearly identify all KPIs and Measures used in the Inventory Report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 11/08/2024
+ms.date: 03/03/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -15,36 +15,40 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Inventory app. 
-
-Explore the list of KPIs below to learn more about how they can help you achieve your business goals. 
-
-Each KPI is described, including how it is calculated and what data was used in the calculations.
+This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Inventory app. Explore the list of KPIs to learn more about how they can help you achieve your business goals. Each KPI is described, including how it's calculated and the data is uses in calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
+## Assembly header measures
 
-## Assembly Header Measures
 - [Qty. on Assembly Order](#qty-on-assembly-order)
 
 ### Qty. on Assembly Order
+
 **Formula**  
+
 - This measure shows how many items are yet to be assembled for assembly orders by summing up the remaining quantity of items on all assembly headers.
 
 **Data Sources**
+
 - Assembly Header
 
 ## Assembly Line Measures
+
 - [Qty. on Asm. Component](#qty-on-asm-component)  
 
 ### Qty. on Asm. Component
+
 **Formula**  
+
 - This measure shows how many items are yet to be assembled for a finished product by summing up the remaining quantity of items on all assembly lines.
 
 **Data Sources**
+
 - Assembly Line
 
 ## Bins Measures
+
 - [ATO Components Pick Qty.](#ato-components-pick-qty)  
 - [Available Qty. to Take](#available-qty-to-take)
 - [Negative Adjmt. Qty. (Base)](#negative-adjmt-qty-base)  
@@ -55,65 +59,89 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Warehouse Quantity](#warehouse-quantity)  
 
 ### ATO Components Pick Qty.
+
 **Formula**  
+
 - This measure calculates the total quantity taken from the warehouse for "Assemble to Order" components by summing the qtyBase from Warehouse Activity Lines where actionType is Take, assembleToOrder is TRUE, and atoComponent is TRUE. This measure captures only the quantities picked specifically for assembling made-to-order products.
 
 **Data Sources**
+
 - Warehouse Activity Line
 
 ### Available Qty. to Take
+
 **Formula**  
+
 - This measure calculates the quantity of an item that is available to be picked. It subtracts the [Pick Quantity (Base)](#pick-quantity-base), [ATO Components Pick Qty.](#ato-components-pick-qty), and [Negative Adjmt. Qty. (Base)](#negative-adjmt-qty-base) measures from [Warehouse Quantity](#warehouse-quantity), but only for the bins that are not marked as adjustment bins.
 
 **Data Sources**
+
 - Warehouse Entry
 - Bin
 
 ### Negative Adjmt. Qty. (Base)
+
 **Formula**  
+
 - This measure calculates the total quantity of an item that has been removed from the warehouse due to adjustments. This includes any adjustments that result in inventory decreases in the Warehouse Journal Line table.
 
 **Data Sources**
+
 - Warehouse Journal Line
 
 ### Pick Quantity (Base)
+
 **Formula**  
-- This measure calculates the total quantity of an item that has been picked from the warehouse for sales or transfer orders. It only includes the quantity that has been picked, not received or moved within the warehouse.
+
+- This measure calculates the total quantity of an item that has been picked from the warehouse for sales or transfer orders. It only includes the quantity that was picked, not received or moved within the warehouse.
 
 **Data Sources**
+
 - Warehouse Activity Line
 
 ### Positive Adjmt. Qty. (Base)
+
 **Formula**  
-- This measure calculates the total quantity of an item that has been added to the warehouse due to adjustments. This includes any adjustments that result in inventory increases in the Warehouse Journal Line table.
+
+- This measure calculates the total quantity of an item that was added to the warehouse due to adjustments. This includes any adjustments that result in inventory increases in the Warehouse Journal Line table.
 
 **Data Sources**
+
 - Warehouse Journal Line
 
 ### Put-away Quantity (Base)
+
 **Formula**  
-- This measure calculates the total quantity of an item that has been placed in the warehouse for storage. It only includes the quantity that has been put away, not picked or moved within the warehouse.
+
+- This measure calculates the total quantity of an item that was placed in the warehouse for storage. It only includes the quantity that has been put away, not picked or moved within the warehouse.
 
 **Data Sources**
+
 - Warehouse Activity Line
 
 ### Quantity in Adjustment Bin
+
 **Formula**
+
 - This measure calculates the total quantity located in bins that are marked as adjustment bins. It first identifies the bins flagged as adjustment bins by creating a filtered table (AdjustmentBins). Then, it sums the Qty. (Base) values from the Warehouse Entries table, applying this filter to include only adjustment bins. The measure ensures the quantity reflects only the specified adjustment bins by removing other bin filters.
 
 **Data Sources**
+
 - Warehouse Entry
 - Location
 
 ### Warehouse Quantity
+
 **Formula**  
+
 - This measure calculates the total quantity of an item that is currently in the warehouse by summing the base quantity from the Warehouse Entry table.
 
 **Data Sources**
+
 - Warehouse Entry
 
+## Item Availability Measures
 
-## Items Availability Measures
 - [Gross Requirement](#gross-requirement)
 - [Planned Order Receipt](#planned-order-receipt)  
 - [Planned Order Releases](#planned-order-releases)    
@@ -121,12 +149,15 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Scheduled Receipt](#scheduled-receipt)
 
 ### Gross Requirement
+
 **Formula**  
-- This measure calculates the total quantity of an item that is needed to fulfill various orders and projects. It includes the quantity that is on sales orders, service orders, projects, production order component lines, transaction order shipments, planning issues, assembly components, and purchased returns.
+
+- This measure calculates the total quantity of an item that's needed to fulfill various orders and projects. It includes the quantity on sales orders, service orders, projects, production order component lines, transaction order shipments, planning issues, assembly components, and purchased returns.
 
   *Gross Requirement = [Qty. on Sales Order](#qty-on-sales-order) + [Qty. on Service Order](#qty-on-service-order) + [Qty. on Projects](#qty-on-projects) + [Qty. on Prod. Order Comp. Lines](#qty-on-prod-order-comp-lines) + - [Trans. Order Shipment (Qty.)](#trans-order-shipment-qty) + [Planning Issues (Qty.)](#planning-issues-qty) + [Qty. on Asm. Component](#qty-on-asm-component) + [Qty. on Purch. Return](#qty-on-purch-return)*
 
 **Data Sources**
+
 - Sales Line
 - Purchase Line
 - Transfer Line
@@ -137,33 +168,41 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Assembly Line
 
 ### Planned Order Receipt
+
 **Formula**  
-- This measure shows the total quantity of items that are planned to be received by the company through planned orders and purchase requisitions.
+
+- This measure shows the total quantity of items that you plan to receive through planned orders and purchase requisitions.
 
   *Planned Order Receipt = Planned Order Receipt (Qty.) + Purch. Req. Receipt (Qty.)*
 
 **Data Sources**
+
 - Production Order Line
 - Requisition Line
 
 ### Planned Order Releases
+
 **Formula**  
-- This measure shows the total quantity of items that are planned to be released through planned orders and purchase requisitions.
+
+- This measure shows the total quantity of items that you plan to release through planned orders and purchase requisitions.
 
   *Planned Order Releases = Planned Order Release (Qty.) + Purch. Req. Release (Qty.)*
 
 **Data Sources**
+
 - Production Order Line
 - Requisition Line
 
-
 ### Projected Available Balance
+
 **Formula**  
-- This measure calculates the current inventory quantity, planned order receipts, scheduled receipts, and gross requirements based on the data up until the most recent date available.
+
+- This measure calculates the current inventory quantity, planned order receipts, scheduled receipts, and gross requirements based on the data up to the most recent date available.
 
   *Projected Available Balance = [Inventory (Quantity)](#inventory-quantity) + [Planned Order Receipt](#planned-order-receipt) + [Scheduled Receipt](#scheduled-receipt) - [Gross Requirement](#gross-requirement)*
 
 **Data Sources**
+
 - Sales Line
 - Purchase Line
 - Transfer Line
@@ -177,20 +216,23 @@ Each KPI is described, including how it is calculated and what data was used in 
 - Production Order Line
 
 ### Scheduled Receipt
+
 **Formula**  
-- This measure shows the total quantity of items that are scheduled to be received by the company.
+
+- This measure shows the total quantity of items that are scheduled for receipt.
 
   *Scheduled Receipt = [FP Order Receipt (Qty.)](#fp-order-receipt-qty) + [Rel. Order Receipt (Qty.)](#rel-order-receipt-qty) + [Qty. on Purch. Order](#qty-on-purch-order) + [Qty. in Transit](#qty-in-transit) + [Trans. Order Receipt (Qty.)](#trans-order-receipt-qty) + [Qty. on Assembly Order](#qty-on-assembly-order) + [Qty. on Sales Return Order](#qty-on-sales-return-order)*
 
 **Data Sources**
+
 - Sales Line
 - Purchase Line
 - Transfer Line
 - Assembly Header
 - Production Order Line
 
-
 ## Item Ledger Entry Measures
+
 - [Expired Inventory](#expired-inventory) 
 - [Inventory (Quantity)](#inventory-quantity)  
 - [Invoiced Quantity](#invoiced-quantity)
@@ -203,41 +245,51 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Expired Inventory
 
 **Formula**  
-- This measure shows how much inventory has expired and is no longer available for sale or use by calculating the remaining quantity of items on all item ledger entries.
+
+- This measure shows how much inventory is expired and no longer available for sale or use. It calculates the remaining quantity of items on all item ledger entries.
 
 **Data Sources**
+
 - Item Ledger Entry
 
 ### Inventory (Quantity)
 
 **Formula**  
-- This measure shows the total quantity of inventory on hand for all items by summing up the quantity of items on all item ledger entries.
+
+- This measure shows the total quantity of inventory on hand for all items. It sums up the quantity of items on all item ledger entries.
 
 **Data Sources**
+
 - Item Ledger Entry
 
 ### Invoiced Quantity
 
 **Formula**  
-- This measure calculates the total quantity that has been invoiced by summing all values in the [invoicedQuantity] column from the Item Ledger Entries table. 
+
+- This measure calculates the total quantity that was invoiced. It sums all values in the [invoicedQuantity] column from the Item Ledger Entries table. 
 
 **Data Sources**
+
 - Item Ledger Entry
 
 ###  Net Qty. Purchased
 
 **Formula**  
-- This measure shows the total quantity of items that have been purchased and received by the company by calculating the quantity, filtered to only include item ledger entries that have an entry type of "Purchase".
+
+- This measure shows the total quantity of items that you purchased and received calculating the quantity, filtered to only include item ledger entries that have an entry type of "Purchase".
 
 **Data Sources**
+
 - Item Ledger Entry
 
 ###  Net Qty. Sold
 
 **Formula**  
-- This measure shows the total quantity of items that have been sold by the company by calculating the quantity, filtered to only include item ledger entries that have an entry type of "Sale".
+
+- This measure shows the total quantity of items that you sold by calculating the quantity, filtered to only include item ledger entries that have an entry type of "Sale".
 
 **Data Sources**
+
 - Item Ledger Entry
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
@@ -245,24 +297,31 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Quantity
 
 **Formula**  
-- This measure shows the total quantity of items that have been processed through the item ledger by summing up the quantity of items on all item ledger entries including sales, purchases, adjustments, and other types of transactions.
+
+- This measure shows the total quantity of items that you processed through the item ledger by summing up the quantity of items on all item ledger entries including sales, purchases, adjustments, and other types of transactions.
 
 **Data Sources**
+
 - Item Ledger Entry
 
 ### Quantity (Forecasting)
 
 **Formula**  
+
 - This measure calculates the **Quantity** within the period of dates with item transactions and inserts zero values for dates without item ledger entries, for compatibility with forecasting.
 
 **Data Sources**
+
 - Item Ledger Entry
 
 ### Remaining Quantity
 
 **Formula**  
+
 - This measure calculates the total remaining quantity of items by summing all values in the [Remaining Qty.] column from the Item Ledger Entries table.
+
 **Data Sources**
+
 - Item Ledger Entry
 
 ## Planning Component Line Measures
@@ -272,11 +331,12 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Planning Issues (Qty.)
 
 **Formula**  
-- This measure shows how many items are expected to be consumed for planned production orders by summing up the expected quantity of items that are required for production.
+
+- This measure shows how many items you expect to consume for planned production orders by summing up the expected quantity of items that are required for production.
 
 **Data Sources**
-- Planning Component
 
+- Planning Component
 
 ## Prod. Order Component Line Measures
 
@@ -285,9 +345,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Qty. on Prod. Order Comp. Lines
 
 **Formula**  
+
 - This measure shows how many items are yet to be completed on a production order by summing up the total remaining quantity of items on all production order component lines.
 
 **Data Sources**
+
 - Prod. Order Component
 
 ## Production Order Line Measures
@@ -300,33 +362,41 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### FP Order Receipt (Qty.)
 
 **Formula**  
-- This measure is abbreviated for Firmed Planned Order Receipt (Qty.) and hows how many items are expected to be received for firm planned production orders by summing up the remaining quantity of items on all firm planned production order lines.
+
+- This measure is abbreviated for Firmed Planned Order Receipt (Qty.) and shows how many items you expect to receive for firm planned production orders by summing up the remaining quantity of items on all firm planned production order lines.
 
 **Data Sources**
+
 - Production Order Line
 
 ### Qty. on Prod. Order
 
 **Formula**  
+
 - This measure shows how many items are yet to be produced for production orders by summing up the remaining quantity of items on all planned, firm planned, and released production order lines.
 
 **Data Sources**
+
 - Production Order Line
 
 ### Rel. Order Receipt (Qty.)
 
 **Formula**  
+
 - This measure is abbreviated for Released Production Order Receipt (Qty.) and shows how many items are expected to be received for released production orders by summing up the remaining quantity of items on all released production order lines.
 
 **Data Sources**
+
 - Production Order Line
 
 ### Scheduled Receipt (Qty.)
 
 **Formula**
-- This measure calculates the total scheduled receipt quantity from production orders by summing the [remainingQtyBase] column in the Production Order Lines table. It includes only those orders where the [Status] is either "Firm Planned" or "Released," which represents production orders expected to be completed. This measure gives an overview of pending quantities that are scheduled for receipt in the near future.
+
+- This measure calculates the total scheduled receipt quantity from production orders by summing the [remainingQtyBase] column in the Production Order Lines table. It includes only those orders where the status is either **Firm Planned** or **Released**, which represents production orders expected to be completed. This measure gives an overview of pending quantities that are scheduled for receipt in the near future.
 
 **Data Source**
+
 - Production Order Line
 
 ## Project Planning Line Measures
@@ -336,9 +406,11 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Qty. on Projects
 
 **Formula**  
+
 - This measure shows how many items or hours are yet to be completed on a project by summing up the total outstanding quantity of items or hours on all project lines.
 
 **Data Sources**
+
 - Project Planning Line
 
 ## Purchase Line Measures
@@ -349,17 +421,21 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Qty. on Purch. Order
 
 **Formula**  
+
 - This measure shows how many items are yet to be received for purchase orders by summing up the outstanding quantity of items on all purchase order lines.
 
 **Data Sources**
+
 - Purchase Line
 
 ### Qty. on Purch. Return
 
 **Formula**  
-- This measure shows how many items have been returned to the supplier but are yet to be received or credited by summing up the total outstanding quantity of items on all purchase return order lines.
+
+- This measure shows how many items were returned to the supplier but are yet to be received or credited. It sums up the total outstanding quantity of items on all purchase return order lines.
 
 **Data Sources**
+
 - Purchase Line
 
 ## Sales Line Measures
@@ -370,19 +446,21 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Qty. on Sales Order
 
 **Formula**  
-- This measure shows how many items have been ordered by customers but are yet to be delivered or shipped by summing up the total outstanding quantity of items on all sales order lines. 
+
+- This measure shows how many items have been ordered by customers but are yet to be delivered or shipped. It sums up the total outstanding quantity of items on all sales order lines. 
 
 **Data Sources**
+
 - Sales Line
 
 ### Qty. on Sales Return Order
 
 **Formula**  
-- This measure shows how many items are yet to be returned by customers for sales return orders by summing up the outstanding quantity of items on all sales lines that are associated with return orders.
+- This measure shows how many items are yet to be returned by customers for sales return orders. It sums up the outstanding quantity of items on all sales lines that are associated with return orders.
 
 **Data Sources**
-- Sales Line
 
+- Sales Line
 
 ## Service Line Measures
 
@@ -391,11 +469,12 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Qty. on Service Order
 
 **Formula**  
-- This measure represents how many service items or hours have been ordered by customers but are yet to be fulfilled by summing up the total outstanding quantity of items or hours on all service order lines.
+
+- This measure represents how many service items or hours were ordered by customers but are yet to be fulfilled. It sums up the total outstanding quantity of items or hours on all service order lines.
 
 **Data Sources**
-- Service Line
 
+- Service Line
 
 ## Transfer Line Measures
 
@@ -407,34 +486,78 @@ Each KPI is described, including how it is calculated and what data was used in 
 ### Qty. in Transit
 
 **Formula**  
-- This measure shows how many items are currently in transit between locations by summing up the quantity of items in transit on all transfer lines.
+
+- This measure shows how many items are currently in transit between locations. It sums up the quantity of items in transit on all transfer lines.
 
 **Data Sources**
+
 - Transfer Line
 
 ### Trans. Order Outstanding Qty.
 
 **Formula**
-- This measure calculates the total outstanding quantity for transfer orders by summing all values in the [outstandingQtyBase] column from the Transfer Lines table. 
+
+- This measure calculates the total outstanding quantity for transfer orders. It sums up all values in the **outstandingQtyBase** column from the Transfer Lines table. 
 
 **Data Sources**
+
 - Transfer Line
 
 ### Trans. Order Shipment (Qty.)
 
 **Formula**  
-- This measure shows how many items have been shipped between two locations by summing up the total outstanding quantity of items on all transfer order lines that are associated with the specified location codes and shipment date.
+
+- This measure shows how many items were shipped between two locations. It sums up the total outstanding quantity of items on all transfer order lines that are associated with the specified location codes and shipment date.
 
 **Data Sources**
+
 - Transfer Line
 
 ### Trans. Order Receipt (Qty.)
 
 **Formula**  
-- This measure shows how many items are expected to be received for transfer orders by summing up the outstanding quantity of items on all transfer lines.
+
+- This measure shows how many items you expect to receive for transfer orders. It sums up the outstanding quantity of items on all transfer lines.
 
 **Data Sources**
+
 - Transfer Line
+
+## ABC Classification Measures
+
+- [No. of Items in Class](#no-of-items-in-class)
+- [Sales Amount (ABC)](#sales-amount-abc)
+- [Sales Quantity (ABC)](#sales-quantity-abc)
+
+### No. of Items in Class
+
+**Formula**  
+
+- This measure returns the number of items based on the ABC classification. The ABC classification is determined by calculating the cumulated sales amount for an item, divided by the total sales amount for all items, to return the Cumulative Sales Amount Percent. Each item is assigned an ABC Classification based on whether the Cumulative Sales Amount Percent is within the lower and upper ABC class boundaries, as defined in the ABC Analysis Setup.
+
+**Data Sources**
+
+- Item Ledger Entry
+
+### Sales Amount ABC
+
+**Formula**  
+
+- This measure returns the [Sales Amount](#sales-amount-abc) for each item based on the ABC classification. The ABC classification is determined by calculating the cumulated sales amount for an item, divided by the total sales amount for all items, to return the Cumulative Sales Amount Percent. Each item is assigned an ABC Classification based on whether the Cumulative Sales Amount Percent is within the lower and upper ABC class boundaries, as defined in the ABC Analysis Setup.
+
+**Data Sources**
+
+- Item Ledger Entry
+
+### Sales Quantity ABC
+
+**Formula** 
+
+- This measure returns the [Sales Quantity](#sales-quantity-abc) for each item based on the ABC classification. The ABC classification is determined by calculating the cumulated sales quantity for an item, divided by the total sales quantity for all items, to return the Cumulative Sales Quantity Percent. Each item is assigned an ABC Classification based on whether the Cumulative Sales Quantity Percent is within the lower and upper ABC class boundaries, as defined in the ABC Analysis Setup.
+
+**Data Sources**
+
+- Item Ledger Entry
 
 ## Related information
 

@@ -14,8 +14,6 @@ ms.reviewer: v-soumramani
 
 # Manage work across multiple companies in the Company Hub
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Some people work in multiple companies in [!INCLUDE [prod_short](includes/prod_short.md)], and some also work in more than one organization, such as external accountants, or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page that gives a financial overview across companies and environments. It provides users with a tool for managing work across the various environments that they work in, across companies, environments, and regions.  
 
 You can access the company hub by switching to the **Company Hub** role in **My Settings**, or by opening the **Company Hub** page directly. You can do the same work in both places, but actions are placed slightly different in menus.  

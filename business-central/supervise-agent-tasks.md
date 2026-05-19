@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/23/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template
@@ -16,36 +16,34 @@ ms.custom:
   - ai-seo-date:06/18/2025
 ms.search.form: 4400, 4410
 ---
-# Supervise agent activities in Copilot pane
+# Supervise agent activities in Tasks pane
 
-You interact with Business Central agents, such as Payables and Sales Order agents, directly in Copilot's **Tasks** tab. You can monitor task status, review agent-generated drafts and suggestions, and provide confirmations or input to help tasks complete responsibly and accurately.
+You manage output from Business Central agents, such as the Payables and Sales Order agents, in the **Task** pane. This side pane shows tasks from a selected agent and lets you monitor task status, review agent‑generated drafts and suggestions, and provide confirmations or input to move tasks forward.
 
-The process flow is different for each agent. This article explains the common aspects of working in the **Tasks** tab for all agents and answers frequently asked questions.
+The process flow is different for each agent. This article explains the common aspects of working with tasks for all agents and answers frequently asked questions.
 
 ## Prerequisites
 
 The agent is activated, and you have permission to use it. Learn more in [Set up Payables Agent](payables-agent-setup.md) or [Set up Sales Order Agent](sales-order-agent-setup.md).
 
-## Get started
+## Access agent tasks
 
-On the upper right of the navigation menu, select the icon for the agent:
+On the upper-right of the navigation menu, select the icon for the agent:
 
 - ![Payables Agent icon in navigation menu.](media/payables-agent-activated-icon.png) **Payables Agent**
 - ![Sales Order Agent icon in navigation menu.](media/soa-activated-number-icon.png) **Sales Order Agent**
 
-A red circle with a number on the icon indicates the number of tasks that need attention.
-
 ![Shows the agent task view with process steps](media/agent-task-view-pane.svg)
 
-Selecting the ![Task view icon in Copilot pane](media/sot-task-view-icon.png) icon opens the **Tasks** tab in the **Copilot** pane, where you can view tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
+The **Tasks** pane opens, displaying tasks recently created by the agent. A red circle with a number on the agent icon indicates how many tasks need your attention. Tasks requiring attention&mdash;such as reviewing vendor information&mdash;appear at the top of the list.
 
-For each inquiry the agent receives, like a request for a quote or invoice, the agent adds a **task** to track, review, and follow up on until the agent creates the entity. Each task has multiple steps that create a timeline of the process. A timeline is a visual sequence that shows each step taken for the task, helping you understand the progress and history.
+The agent creates a task for each inquiry it receives, such as a request for a quote or invoice. Each task includes multiple steps that form a timeline, providing a chronological view of all actions taken to complete the task.
 
 ## View summary of agent activities
 
-Hover over the agent's icon or select the ![Show summary for agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) that measure the impact of the agent's work in your organization.
+To get an overview of the agent's key performance indicators (KPIs) that measure the effect of the agent's work in your organization, hover over the agent's icon or select the ![Show summary for agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Task** pane.
 
-## Review and assist
+## Review and assist with tasks
 
 The agent does most of the work autonomously, but sometimes it asks for user intervention to complete the process. When intervention is needed depends on the agent and  its setup, but here are some common situations:
 
@@ -58,15 +56,15 @@ Learn more about the agent's process flow in [Payables Agent process](payables-a
 
 ### Review a step
 
-Steps that need intervention appear under **Needs Attention** in the **Tasks** tab. To review a step, follow these instructions:
+Steps that need intervention appear under **Needs Attention** in the **Tasks** pane. To review a step, follow these instructions:
 
-1. In the **Task** tab, select the step requesting review or assistance.
+1. In the **Task** pane, select the step requesting review or assistance.
 
    The task *timeline* opens, focused on the selected step. The timeline displays each step of a task, past and present, in chronological order.
 
 1. Select **Review** for the step.
 
-   The **Tasks** tab switches to **Review** mode, and the review content appears in the main display area.
+   The **Tasks** pane switches to **Review** mode, and the review content appears in the main display area.
 1. Review the contents and make changes as needed.
 
 1. If the agent needs assistance, a message appears at the top of the text explaining the problem.
@@ -81,7 +79,7 @@ After confirmation, the agent continues with the task. When a new notification a
 
 ## Give instructions to the agent
 
-When you review a step, you might need to change something the agent created or help it get unblocked. For example, you might need to make an item available, create the correct customer or vendor, or change quantities in sales quotes before the task can continue. Instead of making the changes yourself, you can guide the agent to do the work by providing instructions in the **Tasks** tab.
+When you review a step, you might need to change something the agent created or help it get unblocked. For example, you might need to make an item available, create the correct customer or vendor, or change quantities in sales quotes before the task can continue. Instead of making the changes yourself, you can guide the agent to do the work by providing instructions in the **Tasks** pane.
 
 :::image type="content" source="media/give-instructions-to-agent.svg" alt-text="Shows a step in Copilot Task pane that includes the options to give instructions to the agent.":::
 
@@ -113,9 +111,9 @@ Here's what to avoid:
 
 ## Stop a task
 
-Most steps of a task include a **Stop** button that lets you terminate the process. When you select **Stop**, a task isn't terminated immediately&mdash;you're asked to confirm before the task is stopped.
+Most steps of a task include a **Stop** button that lets you terminate the process on that task only. To stop all active tasks at once, you can select the **Stop all tasks** action. This action is useful if the agent becomes blocked after importing too many tasks. It clears the task list and unblocks the agent.
 
-Before you stop a task, consider the following behavior:
+When you select **Stop**, a task isn't terminated immediately&mdash;you're asked to confirm before the task is stopped. Before you stop a task, consider the following behavior:
 
 - Stopped tasks can't be restarted.
 - Stopping the task might leave some results incomplete or unwanted, and it might require follow-up actions. Follow up actions depend on where in the process the task was stopped.

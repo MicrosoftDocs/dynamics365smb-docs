@@ -1,0 +1,1 @@
+Analyze posted sales or purchase item charges to assess added costs, such as freight and physical handling.

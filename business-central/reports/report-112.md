@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_112_Primary
-ms.date: 10/03/2024
+ms.date: 02/02/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -16,6 +16,8 @@ ai.usage: ai-assisted
 ---
 
 # Sales Statistics (report)
+
+[!INCLUDE [deprecated-report-note](../includes/deprecated-report-note-include.md)]
 
 The **Sales Statistics** report shows amounts for sales, profit, invoice discount, and payment discount in the local currency. It also shows the profit percentage for each customer.
 
@@ -80,6 +82,10 @@ Financial analysts use the report to:
 Try the report here: [Sales Statistics](https://businesscentral.dynamics.com?report=112)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+[!INCLUDE [alternative-reports-sales](../includes/alternative-reports-sales.md)]
 
 ## Related information
 

@@ -62,7 +62,7 @@ The integration assumes that company names are unique across [!INCLUDE[prod_shor
 
 ## I want to open files in SharePoint instead. How do I do this?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] doesn't provide features to copy files to SharePoint and open them from a SharePoint library. Contact your Microsoft partner to understand your options, or search for apps on AppSource.  
+[!INCLUDE[prod_short](includes/prod_short.md)] doesn't provide features to copy files to SharePoint and open them from a SharePoint library. Contact your Microsoft partner to understand your options, or search for apps on Marketplace.  
 
 ## How do I turn off integration to OneDrive?
 

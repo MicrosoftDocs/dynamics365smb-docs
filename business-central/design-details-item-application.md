@@ -1,17 +1,15 @@
 ---
-title: Design Details - Item Application | Microsoft Docs
-description: This topic describes where inventory quantity and value are recorded when you post an inventory transaction.
+title: Design details - Item application
+description: This article describes where inventory quantity and value are recorded when you post an inventory transaction.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 06/08/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
-
-ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Item Application
+# Design details: Item application
 
 When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
 

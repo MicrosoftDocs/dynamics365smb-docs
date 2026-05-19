@@ -26,6 +26,8 @@ This report shows similar content to the customer statement, but it doesn't indi
 
 ## Use cases
 
+[!INCLUDE [report-121-scenario](../includes/report-121-scenario-include.md)]
+
 <!-- 
 Prompt
 

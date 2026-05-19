@@ -1,0 +1,1 @@
+Analyze and manage your inventory costs and pricing strategies. 

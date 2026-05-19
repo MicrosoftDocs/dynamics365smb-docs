@@ -1,5 +1,5 @@
 ---
-title: Item Age Composition - Value (report)
+title: Item Age Composition by Quantity and Value Excel (report)
 description: Review the age of stock in your warehouse by value and identify unused or slow-moving inventory.
 author: kennieNP
 ms.author: kepontop
@@ -15,9 +15,9 @@ ms.custom:
 ai.usage: ai-assisted
 ---
 
-# Item Age Composition - Value (report)
+# Item Age Composition by Quantity and Value (report)
 
-The **Item Age Composition - Value** report shows the value of on-hand inventory aged by receipt date.
+The **Item Age Composition by Quantity and Value** report shows the quantity and value of on-hand inventory aged by receipt date.
 
 You can configure the report's aging to generate three equal length periods on an ending date. The inventory's age is calculated for each period, as well as before and after the period. The report also shows total value of inventory.
 
@@ -25,7 +25,18 @@ The values represent the total cost of the remaining quantity for open inbound i
 
 To determine the age of inventory by warehouse, you can filter the report by location. You can also filter by item.
 
+> [!NOTE]
+> This report is a replacement of the obsolete report [Item Age Composition - Quantity](report-5807.md).
+
+## Available layouts
+
+[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
+
+[!INCLUDE[available-layouts-excel-only](../includes/available-layouts-excel-only.md)]
+
 ## Use cases
+
+[!INCLUDE [report-5808-scenario](../includes/report-5808-scenario-include.md)]
 
 <!-- 
 Prompt

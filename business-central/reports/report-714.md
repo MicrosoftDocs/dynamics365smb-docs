@@ -24,7 +24,15 @@ Value entries for each combination of a vendor and an item are summed to calcula
 
 The calculated cost amount includes added costs, such as item charges.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
+
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+
 ## Use cases
+
+[!INCLUDE [report-714-scenario](../includes/report-714-scenario-include.md)]
 
 <!-- 
 Prompt

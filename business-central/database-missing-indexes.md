@@ -5,7 +5,7 @@ author: brentholtorf
 ms.service: dynamics-365-business-central
 ms.topic: reference
 ms.search.keywords:
-ms.search.form: 9521
+ms.search.form: 9521_Primary, 8705
 audience: 
 ms.author: bholtorf
 ms.date: 11/27/2023

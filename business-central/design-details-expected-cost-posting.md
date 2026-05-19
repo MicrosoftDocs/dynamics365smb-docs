@@ -1,17 +1,18 @@
 ---
-title: Design Details - Expected Cost Posting
+title: Design details - Expected cost posting
 description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
-ms.date: 07/20/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Expected Cost Posting
+# Design details: Expected cost posting
+
 Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.  
 
  You can post expected cost to inventory and to the general ledger. When you post a quantity that is only received or shipped but not invoiced, then a value entry is created with the expected cost. This expected cost affects the inventory value but is not posted to the general ledger unless you set up the system to do so.  

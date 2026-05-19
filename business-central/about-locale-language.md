@@ -3,10 +3,9 @@ title: Multilanguage and localization
 description: Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.
 author: brentholtorf
 ms.topic: concept-article
-ms.devlang: al
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 12/19/2024
+ms.search.form: 1, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.date: 03/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -28,6 +27,14 @@ You can't change the texts that are stored as application data. Examples of such
 
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] only supports a single character set for data. Some characters might not be supported in your environment. You might experience problems when you try to view data that was entered using a different character set. For instance, your environment might support only English and Russian characters. In this case, if you enter data in a different language, [!INCLUDE [prod_short](includes/prod_short.md)] might not store it correctly. Contact your system administrator to make sure you understand which languages are supported by your [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+## Set a default language for documents
+
+You can specify a company-wide default language for all customer-facing documents. Setting a default language can help ensure that the invoices and sales documents your customers receive are easy for them to understand. Otherwise, the documents arrive in the language of the user who generated and sent them. Decoupling the document language from the individual user’s UI language eliminates the risk of accidentally sending invoices in the wrong language, an issue that might arise in multilingual teams that primarily serve a local market. As a result, local customers always receive documents in the expected language, improving clarity, reducing follow-up questions or misunderstandings, and strengthening trust in your business. 
+
+For example, even if all customers are local and expect documents in the local language, people who use [!INCLUDE [prod_short](includes/prod_short.md)] in a different UI language might inadvertently generate invoices in a foreign language that's difficult for customers to read.
+
+To specify a default language, on the **Company Information** page, select a language in the **Default Language Code** field.
 
 ## Changing your region setting
 

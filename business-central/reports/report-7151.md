@@ -32,6 +32,8 @@ Calculated totals are fully customizable through analysis columns. Analysis colu
 
 ## Use cases
 
+[!INCLUDE [report-7151-scenario](../includes/report-7151-scenario-include.md)]
+
 <!-- 
 Prompt
 

@@ -50,7 +50,7 @@ sections:
       - question: What about e-invoicing in Australia and New Zealand?
         answer: E-invoicing in Australia and New Zealand isn't enforced by law. However, companies are highly encouraged to use e-invoicing and Microsoft enabled *PEPPOL PINT A-NZ* format with 2025 release wave 1.
       - question: Does Microsoft support other localizations?
-        answer: Microsoft supports e-invoicing localizations in countries/regions with official localization, based on regulatory enforcement dates for B2B transactions. For other non-Microsoft localizations, find localization on AppSource.
+        answer: Microsoft supports e-invoicing localizations in countries/regions with official localization, based on regulatory enforcement dates for B2B transactions. For other non-Microsoft localizations, find localization on Marketplace.
   - name: Development
     questions:
       - question: Can I extend E-Documents?

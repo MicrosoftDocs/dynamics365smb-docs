@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # The VAT Group Management extension for the United Kingdom
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 You can connect one or more businesses in the United Kingdom to combine value-added tax (VAT) reporting under a single registration number. This type of arrangement is known as a *VAT group*. You can engage with the group as a member or as the group representative.
 
 ## Forming a VAT group

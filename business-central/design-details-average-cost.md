@@ -1,5 +1,5 @@
 ---
-title: Design details - average cost
+title: Design details - Average cost
 description: The average cost of an item is calculated with a periodic weighted average.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords:
 ms.search.form: 8645,
-ms.date: 04/26/2024
+ms.date: 03/17/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Design details: average cost
+# Design details: Average cost
 
 The average cost of an item is calculated with a periodic weighted average. The average is based on the average cost period you have specified in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

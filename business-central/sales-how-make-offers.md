@@ -3,10 +3,9 @@ title: Make sales quotes
 description: Read about how to create a sales offer to a customer or prospect to sell products.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: rfq
-ms.search.form: 41, 9300
-ms.date: 06/17/2025
+ms.search.form: 41, 9300_Primary, 
+ms.date: 03/06/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -22,7 +21,7 @@ In most cases, you send sales quotes to prospective customers. You often have a 
 > [!TIP]
 > You can use the Sales Order Agent in [!INCLUDE [prod_short](includes/prod_short.md)] to speed up the quote-to-order workflow. The agent can automate the process for creating quotes based on requests you receive by email from customers. With the agent handling the paperwork, you're free to focus on other tasks such as generating more prospects. To learn more, go to [Process sales quotes and orders with Sales Order Agent (preview)](sales-order-agent-process.md).
 
-## To create a sales quote
+## Create a sales quote
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Quotes**, and then choose the related link.
 2. Specify the contact or customer that you want to send the sales quote to.

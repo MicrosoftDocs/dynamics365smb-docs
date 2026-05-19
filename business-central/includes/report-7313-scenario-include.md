@@ -1,0 +1,1 @@
+Get an overview of source documents that are open, have items that are shipped, or are due to ship for each location.

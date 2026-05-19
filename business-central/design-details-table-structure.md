@@ -1,17 +1,16 @@
 ---
-title: Design Details - Table Structure | Microsoft Docs
+title: Design details - Table structure
 description: To understand how the dimension entry storing and posting is redesigned, it's important to understand the table structure.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 06/08/2021
+ms.date: 03/08/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design details: table structure
+# Design details: Table structure
 
 To understand how dimension entries are stored and posted, it's important to understand the table structure.  
 

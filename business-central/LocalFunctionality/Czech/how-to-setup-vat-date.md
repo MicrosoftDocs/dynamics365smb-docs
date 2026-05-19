@@ -5,7 +5,7 @@ author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: install-set-up-deploy
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 06/04/2025
+ms.date: 03/30/2026
 ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
@@ -27,6 +27,10 @@ This feature focuses on improving the following aspects:
 
 To post transactions using a VAT date, the user must fill in the **VAT Date** field on the document headers and journal lines throughout the application.
 After the posting of the VAT date, it becomes a part of the posted documents and G/L entries and VAT entries.
+
+## Change Original Document VAT Date in VAT Entries
+
+The functionality allows authorized users to edit the Original Document VAT Date field on posted VAT entries. When the date is changed, all related tables (for example, posted purchase invoice, credit memo, VAT entries, general journal, VAT control report) are updated accordingly. A confirmation dialog is displayed for changes that affect related entries. Additional validations prevent changes to closed entries, issued VAT control reports, or when the date conflicts with the VAT date. User setup is extended with the option “Allow Original VAT Date Change” on the user setup card.
 
 ## Calculating and posting VAT settlement
 

@@ -1,17 +1,17 @@
 ---
-title: Setup Best Practices - Costing Method
+title: Setup best practices - Costing method
 description: The Costing Method on the item card defines item's cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.
 author: brentholtorf
 ms.topic: best-practice
 ms.devlang: al
 ms.search.form: 30, 31
-ms.date: 04/01/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Setup Best Practices: Costing Method
+# Setup best practices: Costing method
 
 The **Costing Method** on the item card defines item's cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.  
 

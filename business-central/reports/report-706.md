@@ -36,7 +36,7 @@ The report displays information such as:
 
 Prompt
 
-Below is a report in an ERP system. Provide 3-4 use cases for different personas working with manufacturing
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with inventory
 
 Format like this:    
   
@@ -47,20 +47,6 @@ As a <persona>, use the report to
 Do not capitalize the persona names. 
 
 Do not start lines with "Use the data to"
-
-## Report name
-Status
-
-## Report description
-The *Status* report shows the inventory valuation for a given item based on the related transactions from sales orders, purchase orders, and inventory, broken out by Entry Type (Purchase, Sale, Transfer, Adjustments).
-The report displays information such as Document No, Posting Date, Entry Type, Quantity, and Unit Cost Inv Val.
-
-### What the report does
-
-### Use cases
-Helps you monitor and manage your inventory operations effectively by providing real-time insights into the current state of your inventory. Might allow you to optimize your supply chain processes and reduce cost associated with inventory.
-
-Please include your data sources and URLs
 
 -->
 

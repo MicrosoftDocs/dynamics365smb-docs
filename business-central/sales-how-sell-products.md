@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments, 
 ms.search.form: 42, 48, 9305
-ms.date: 03/12/2025
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 This article provides guidance on when you should use a customer sales order in addition to an invoice. If your sales process requires you to only ship part of an order, perhaps because the full quantity isn't available right away, you must process that sale by making a sales order.
 
-You must also use sales orders if you sell items that deliver directly from your vendor to your customer, in what is called a drop shipment. To learn more, go to [Make Drop Shipments](sales-how-drop-shipment.md). In all other respects, sales orders work the same way as sales invoices. To learn more, go to [Invoice Sales](sales-how-invoice-sales.md).
+You must also use sales orders if you sell items that deliver directly from your vendor to your customer in a drop shipment. To learn more, go to [Make Drop Shipments](sales-how-drop-shipment.md). In all other respects, sales orders work the same way as sales invoices. To learn more, go to [Invoice Sales](sales-how-invoice-sales.md).
 
 When you deliver the products, either fully or partially, you post the sales order as shipped or as shipped and invoiced to create the related item and customer ledger entries in your system. When you post the sales order, you can also email it as a PDF attachment. You can prefill the email body with a summary of the order and payment information, such as a link to PayPal. To learn more, go to [Ship Items](warehouse-how-ship-items.md) and [Send Documents by Email](ui-how-send-documents-email.md).
 

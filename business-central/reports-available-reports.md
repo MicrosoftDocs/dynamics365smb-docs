@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.date: 11/11/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -112,7 +112,7 @@ To learn more, go to [Production Reports and Analytics in Business Central](prod
 
 [!INCLUDE [service_reports](includes/service-reports-include.md)]
 
-For more information, see [Service management report overview](service-reports.md).
+To learn more, go to [Service management report overview](service-reports.md).
 
 
 ## Related information

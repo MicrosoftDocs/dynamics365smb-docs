@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8071, 8070,
-ms.date: 07/11/2025
+ms.date: 05/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -116,4 +116,5 @@ For lines, you can use the **Billing Lines** and the **Archived Billing Lines** 
 
 ## Related information
 
-[Customer subscription contracts](customer-contracts.md)
+[Customer subscription contracts](customer-contracts.md)  
+[Power BI Subscription Billing app](../analytics/subscription-powerbi-app.md)  

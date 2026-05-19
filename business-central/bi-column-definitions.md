@@ -5,10 +5,10 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 01/14/2026
+ms.date: 02/27/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: 103, 104, 108, 195, 196, 197, 198, 488_Primary, 489_Primary, 490, 764, 765, 766
+ms.search.form: 103, 104, 195, 196, 197, 198, 488_Primary, 489_Primary, 764, 765, 766
 ms.service: dynamics-365-business-central
 ---
 
@@ -101,8 +101,8 @@ An accounting period doesn't need to match the calendar. However, each fiscal ye
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the duration of the comparison period in relation to the period represented by the date filter on the report. The comparison period is based on the period of the start date of the date filter. The following table shows the abbreviations for period specifications.
 
-| Abbreviation | Description                                                                           |
-| ------------ | ------------------------------------------------------------------------------------- |
+| Abbreviation |Description                                                                  |
+| ------------ | ----------------------------------------------------------------- |
 | P            | Period.                                                                                |
 | LP           | Last period of a fiscal year, half-year, or quarter.                                   |
 | CP           | Current period of a fiscal year, half-year, or quarter. Use CP in formulas to set the period that starts or ends the formula. For example, FY\[1..CP\] denotes the time from the beginning of the current fiscal year to the current period.|
@@ -123,9 +123,31 @@ Examples of formulas:
 To calculate by regular time periods, enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period one year earlier.
 
 > [!NOTE]
-> It isn't always obvious which periods you're comparing on a report. For example, a date filter might spans dates that are different than the accounting periods in your chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, set the **Comparison Date Formula** field to **-1FY**. Then, run the report on **February 28th** and set the date filter to **January and February**. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
+> It isn't always obvious which periods you're comparing on a report. For example, a date filter might span dates that are different than the accounting periods in your chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, set the **Comparison Date Formula** field to **-1FY**. Then, for example, run the report on **February 28th** and set the date filter to **January and February**. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
+
+> [!WARNING]
+> You can't use both a **Comparison Date Formula** and **Comparison Period Formula** on the same line in the column definition.
 
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
+
+## Filter G/L accounts on the column level 
+
+On the **Column Definition** page, the **G/L Account totaling** field on column lines allows you to set filters on G/L accounts that should be included in calculations for cells in the column. The column-level filters apply in addition to row-level filters when calculating the number in the corresponding cell.
+
+
+## Conditionally display numbers in your financial reports
+
+On the **Column Definition** page, the **Show** setting on columns defines whether numbers show in the report output for PDF or print. The setting doesn't hide the full column, just the number in the cell.
+
+The following table describes the different display options on a column:
+
+| Value of the Show setting | Whether the number displays |
+| ------------------------- | --------------------------- |
+| Always                    | Number always shows. |
+| Never                     | Number never shows. Use this setting for columns that are only used in calculation steps. |
+| When positive             | Number shows if the value is positive. |
+| When negative             | Number shows if the value is negative. |
+
 
 ## Use dynamic date headers
 
@@ -156,6 +178,10 @@ Before you change a column definition, it can be helpful to know which reports u
 1. On the **(Financial Report) Column Definitions** page, select the definition, and then choose the **Edit Column Definition** action.
 1. To open a list of reports that use the definition, choose the **Where-Used** action.
 
+## Manage the lifecycle of a column definition
+
+[!INCLUDE [block-row-column-def](includes/block-row-column-def.md)]
+
 ## Best practices for working with column definitions
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
@@ -167,7 +193,7 @@ Before you change a column definition, it can be helpful to know which reports u
 You can import and export financial report column definitions as configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
-> When you import financial report column definitions, they replace existing records with the same names. The configuration package for a report definition won't overwrite existing row or column definitions that are used in the report definition.
+> When you import financial report column definitions, they replace existing records with the same names. The configuration package for a report definition doesn't overwrite existing row or column definitions that are used in the report definition.
 
 To import or export financial report column definitions, follow these steps:
 

@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9800, 9802, 9807, 9808, 9816_Primary, 9830, 9831, 9855_Primary, 9862_Primary, 9874_Primary, 9878_Primary, 9865_Primary
-ms.date: 05/28/2025
+ms.search.form: 119, 8930, 9800, 9802, 9807, 9808, 9816_Primary, 9830, 9831, 9855_Primary, 9862_Primary, 9874_Primary, 9878_Primary, 9865_Primary, 9883_Primary,
+ms.date: 03/03/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -36,6 +36,7 @@ This article describes how to define, use, and apply permissions in [!INCLUDE [p
 |Manage permission sets for specific users | [Assign permission sets to users](#assign-permission-sets-to-users) |
 |Learn how to define a permission set|[Create a permission set](#create-a-permission-set)|
 |View or troubleshoot a user's permissions|[Get an overview of a user's permissions](#get-an-overview-of-a-users-permissions)|
+|Explore all permission sets|[Get an overview of all permissions](#get-an-overview-of-all-permissions)|
 |Learn about record-level security|[Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
@@ -261,6 +262,14 @@ The **Effective Permissions** page offers additional information about the sourc
 
 > [!NOTE]  
 > When you edit a permission set, the changes also apply to other users that have the permission set.
+
+## Get an overview of all permissions
+
+Use the **Permissions Overview** page to explore the distribution of permissions across permission sets in your [!INCLUDE [prod_short](includes/prod_short.md)]. The page also shows which users and security groups are assigned with those permission sets. 
+
+The overview can show which permission sets are assigned to an object, such as a page which, in turn, clarifies which sets enable a user to complete a task or operation. For example, you can identify the permission set that enables users to edit information about a customer.
+
+Use the filter fields at the top of the page to narrow the list, so you can find what you're interested in more quickly. For example, you might filter the list to show the permissions assigned to a specific object, permission set, or extension. The **Security Groups** and **Users** FactBoxes show where the selected permission set is used.
 
 ### Security filters limit a user's access to specific records in a table
 

@@ -50,7 +50,7 @@ The most important feature of the financial reports that [!INCLUDE [prod_short](
 
 ## Generate financial reports
 
-After you set up categories and subcategories have and map all accounts on the chart of accounts, choose **Generate Financial Reports**. This action updates financial reports with the M- prefix with the mapping provided for your chart of accounts.  
+After you set up categories and subcategories and map all accounts on the chart of accounts, choose **Generate Financial Reports**. This action updates financial reports with the M- prefix with the mapping provided for your chart of accounts.  
 
 To control which reports update when you generate financial reports, update the fields in the **Reporting** section of the **General Ledger Setup** page.  
 

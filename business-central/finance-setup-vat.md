@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
-ms.date: 08/12/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ However, if you want to set up the VAT calculations yourself, or just want to le
 ## Set up VAT using the assisted setup guide (recommended)
 
 > [!NOTE]
-> You can use the **VAT Setup** guide only if you have created a *My Company* and haven't posted transactions that include VAT. To learn more about a My Company, go to [Create new companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).
+> You can use the **VAT Setup** guide only if you create a *My Company* without posted transactions that include VAT. To learn more about a My Company, go to [Create new companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).
 
 To start the assisted setup guide, follow these steps:
 
@@ -51,7 +51,7 @@ At this point, you can just fill in the missing G/L accounts. But, when you furt
 VAT reporting in [!INCLUDE [prod_short](includes/prod_short.md)] is based on the **VAT Date** to include VAT entries on VAT reports in a VAT period. The VAT date can be changed on all documents and journals, but you must specify a default value for VAT date.
 
 > [!NOTE]
-> After posting the document or journal, the **VAT Date** will appear on **VAT Entries** and **G/L Entries** as well as on the posted document if exists.
+> After you post the document or journal, the **VAT Date** appears on **VAT Entries** and **G/L Entries** and the posted document.
 
 To set up a default value for a VAT date, follow these steps:
 
@@ -80,7 +80,7 @@ To set up the level of VAT date usage, follow these steps:
 3. Close the page.
 
 > [!IMPORTANT]
-> Even if you choose the **Not using VAT Date functionality** option, [!INCLUDE [prod_short](includes/prod_short.md)] will use the **VAT Date** in the background. Because the **Default VAT Date** is configured as the **Posting Date**, and you can't change it in this case, you'll get the same experience as without this feature. **VAT Date** fields will be removed from all pages, but this field will still exist in tables and reports will work based on it.
+> Even if you choose the **Not using VAT Date functionality** option, [!INCLUDE [prod_short](includes/prod_short.md)] uses the **VAT Date** in the background. Because the **Default VAT Date** is configured as the **Posting Date**, and you can't change it in this case, you get the same experience as without this feature. **VAT Date** fields are removed from all pages, but this field still exists in tables and reports work based on it.
 
 ### Limiting periods for posting and changing the VAT date
 
@@ -109,7 +109,7 @@ You can prevent people from posting or changing VAT entries in specific date ran
 ##### Version 23.1 or newer
 
 > [!IMPORTANT]
-> When you upgrade to a newversion, be aware that values are upgraded in the new **Allow VAT Date From/To** in the **VAT Setup** page based on the values in **Allow Posting From/To** in the **General Ledger Setup**. If you want to use different date controls, open the **VAT Setup** page and make changes.  
+> When you upgrade to a new version, values are upgraded in the new **Allow VAT Date From/To** in the **VAT Setup** page based on the values in **Allow Posting From/To** in the **General Ledger Setup**. If you want to use different date controls, open the **VAT Setup** page and make changes.  
 
 You can set up limitations on the company or at specific user levels.
 
@@ -145,7 +145,7 @@ To limit postings for the specific user:
 
 ## Set up VAT registration numbers for your country/region
 
-To help ensure people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries/regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] displays an error message if someone makes a mistake or uses a format that is incorrect for the country/region.
+To help ensure people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries/regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] displays an error message if someone makes a mistake or uses a format that's incorrect for the country/region.
 
 To set up VAT registration numbers, follow these steps:
 
@@ -158,7 +158,7 @@ To set up VAT registration numbers, follow these steps:
 * **?** Allows any character.  
 
     > [!TIP]
-    > You can use other characters as long as they are always present in the country or region format. So, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
+    > You can use other characters as long as they're always present in the country/region format. So, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
 
 ## Set up VAT business posting groups
 
@@ -235,7 +235,7 @@ The following sections describe how to assign VAT posting groups to individual e
 
 ## Set up clauses to explain VAT exemption or nonstandard VAT rates
 
-You set up a VAT clause to describe information about the type of VAT that is being applied. Government regulations might require this information. After you set up a VAT clause and associate it with a VAT posting setup, the VAT clause displays on printed sales documents that use the VAT posting group setup.
+You set up a VAT clause to describe information about the type of VAT that's being applied. Government regulations might require this information. After you set up a VAT clause and associate it with a VAT posting setup, the VAT clause displays on printed sales documents that use the VAT posting group setup.
 
 If needed, you can also specify how to translate VAT clauses to other languages. When you create and print a sales document that contains a VAT identifier, the document includes the translated VAT clause. The language code specified on the customer card determines the language.
 
@@ -269,7 +269,7 @@ You can modify or delete a VAT clause, and your modifications are reflected in a
 ### To specify extended text for VAT clauses
 
 > [!NOTE]  
-> If your country or region requires longer text for the VAT clauses than the default version supports, you can specify the longer text for the VAT clauses as *extended text* so that it prints on the sales and purchase reports.  
+> If your country/region requires longer text for the VAT clauses than the default version supports, you can specify the longer text for the VAT clauses as extended text. Extended text prints on the sales and purchase reports.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 11.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
 2. Choose the **Extended Texts** action.  
@@ -326,7 +326,7 @@ Amounts in documents that aren't posted are rounded and displayed to correspond 
 
 ## Set up VAT reporting
 
-You must set up information about how the tax authorities in your country or region require you to submit VAT reports. The following steps illustrate the most commonly used information. However, your country or region might require other steps. For more information, see the relevant article in the *Local functionality* section in the panel to the left.
+You must set up information about how the tax authorities in your country or region require you to submit VAT reports. The following steps illustrate the most commonly used information. However, your country/region might require other steps. 
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 

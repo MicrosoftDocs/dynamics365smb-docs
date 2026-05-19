@@ -19,6 +19,12 @@ ai.usage: ai-assisted
 
 The **Purchasing Deferral Summary** report shows how purchasing-related expenses are deferred across financial periods. Use the report when you review of expense deferrals on purchasing transactions to ensure accrual accuracy and to reconcile expense deferral balances.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
+
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+
 ## Use cases
 
 [!INCLUDE [report-1702-scenario](../includes/report-1702-scenario-include.md)]

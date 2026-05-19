@@ -3,13 +3,12 @@ title: Entering dates and times in Business Central
 description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions, and ranges.
 author: brentholtorf
 ms.topic: concept-article
-ms.devlang: al
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 11/13/2024
+ms.date: 04/07/2026
 ms.author: bholtorf
-ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # Work with calendar dates and times
@@ -34,10 +33,10 @@ The **My Settings** page specifies the **Region** and **Language** that you're u
 In a date field, you can enter a date using the standard format for your region setting. Different regions can use different separators between the days, months, and years. For example, some regions use dashes (mm-dd-yyyy) and others use forward slashes (mm/dd/yyyy).  
 
 > [!TIP]
-> You can use any separators, even a space, and the date will automatically be changed to use separators that match your region.
+> You can use any separator, even a space, and the date automatically changes to use separators that match your region.
 
 > [!NOTE]
-> The format in which dates are displayed on printed reports or emailed documents isn't influenced by your personal choice of region setting.
+> Your personal choice of region setting doesn't influence the format in which dates display on printed reports or emailed documents.
 
 To work more productively with dates and times, you can use any of the methods or formats that are described in the following sections.
 
@@ -68,7 +67,7 @@ In a date field you can enter two, four, six, or eight digits:
 - If the date you want to enter is in the range 01/01/1950 through 12/31/2049, you can enter the year with two digits; otherwise, enter the year with four digits.
 
   > [!NOTE]
-  > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the two-digit year range may be different. Administrators can change the range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+  > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the two-digit year range might be different. Administrators can change the range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 ### Today
 

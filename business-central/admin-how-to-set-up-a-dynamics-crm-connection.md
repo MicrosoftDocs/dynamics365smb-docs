@@ -11,9 +11,6 @@ ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ---
 # Connect to Microsoft Dataverse
-
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 This article describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronize data with another Dynamics 365 app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 ## Before you start

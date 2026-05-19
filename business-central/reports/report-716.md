@@ -27,6 +27,8 @@ The **Inventory Cost and price list** report shows price information for selecte
 
 ## Use cases
 
+[!INCLUDE [report-716-scenario](../includes/report-716-scenario-include.md)]
+
 <!-- 
 Prompt
 

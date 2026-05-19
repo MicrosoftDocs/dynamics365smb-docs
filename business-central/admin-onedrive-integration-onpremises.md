@@ -11,8 +11,6 @@ ms.reviewer: jswymer
 ---
 # Configuring OneDrive integration with Business Central on-premises
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 This article explains how to configure OneDrive for work or school (formerly known as OneDrive for Business) integration with Business Central on-premises. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, the connection between Business Central and OneDrive isn't set up automatically. If the connection isn't configured, users can't use the features for OneDrive.
 
 There are two tasks that need to be done to configure the OneDrive integration.

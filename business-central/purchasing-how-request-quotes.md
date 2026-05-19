@@ -3,13 +3,12 @@ title: Create a purchase quote to request an offer
 description: Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: rfq
-ms.search.form: 49, 97, 9306, 9346
-ms.date: 10/03/2025
+ms.search.form: 49, 97, 9306, 9346,
+ms.date: 03/27/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ---
 
 # Request quotes
@@ -31,6 +30,20 @@ The purchase quote is removed from the database. A purchase order is created bas
 
 > [!NOTE]
 > It isn't possible to convert a purchase quote to a purchase invoice directly. But it's possible with sales quotes. Learn more in [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md) for details on how to create a purchase invoice.
+
+## Create purchase quotes for contacts
+
+You can create purchase quotes for contacts that aren't yet associated with a vendor. This removes the need to set up a vendor record before you prepare a quote, which is useful when you're unsure whether the purchase will proceed. Postponing vendor creation reduces administrative overhead and speeds up quote registration, while ensuring vendor records are created when they're actually needed.
+
+When you convert the quote into an order or release the document, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates the vendor using a vendor template. [!INCLUDE [prod_short](includes/prod_short.md)] selects the appropriate template based on criteria such as territory code, country/region code, and contact type from the contact. If only one template matches, it's applied automatically, otherwise you're prompted to choose from available templates.
+
+Here's an overview of the process:
+
+1.  Create a purchase quote, and select a contact that isn't linked to a vendor.
+2.  If multiple templates are available, choose a vendor template.
+3.  Enter the details for the quote.
+4.  When you release the quote or convert it to an order, [!INCLUDE [prod_short](includes/prod_short.md)] creates the vendor record using the selected template.
+
 
 ## Related information
 

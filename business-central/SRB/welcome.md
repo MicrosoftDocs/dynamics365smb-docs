@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 # Overview of subscription billing
 
-Subscription billing lets you bill for contractually agreed services on a recurring basis. The integrated, flexible billing models support many subscription model scenarios for pricing models, price management, renewals, and billing periods and frequency. Using subscription billing to manage recurring invoicing of services minimizes sources of error and brings transparency into the processes from initial sales quote to the recurring invoice. All information is stored in one place, so you to always have an overview of contract management. At the same time, manual effort is reduced because you can simplify and automate processes.  
+Subscription billing lets you bill for contractually agreed services on a recurring basis. The integrated, flexible billing models support many subscription model scenarios for pricing models, price management, renewals, and billing periods and frequency. Using subscription billing to manage recurring invoices minimizes errors and increases transparency in the processes from initial sales quote to the recurring invoice. All information is stored in one place, so you to always have an overview of contract management. At the same time, manual effort is reduced because you can simplify and automate processes.  
 
 ## Flexible and user-friendly subscription management
 
-You assign the serviceable items you sell (subscriptions), whether it's the sale of an item with attached services (as subscriptions), a rental agreement, or any other contractual agreement, to customers. While subscriptions are usually static, the associated service (subscription lines) that you invoice on a recurring basis can change while a contract is active.
+You assign the serviceable items you sell (subscriptions), whether it's the sale of an item with attached services (as subscriptions), a rental agreement, or any other contractual agreement, to customers. While subscriptions are typically static, the associated service (subscription lines) that you invoice on a recurring basis can change while a contract is active.
 
 ## Features of subscription billing
 
@@ -27,8 +27,9 @@ You assign the serviceable items you sell (subscriptions), whether it's the sale
 * Simplify billing with billing templates
 * Automatically calculate notice periods
 * Use deferral-based posting of income and expenses to profit and loss accounts
+* Get insight into the performance and health of your subscription business
 
-## Main elements of subscription billing 
+## Main elements of subscription billing
 
 ### Contracts​
 
@@ -40,7 +41,7 @@ A contract defines the commercial framework (contractual partners, invoice recip
 
 ### Subscriptions
 
-A subscription is something that the customer either buys, such as items, or for which a contractual agreement is results in mutual obligations. A subscription is assigned to a customer. A subscription is usually static, but the associated services (subscription lines) can change. Also, you can store additional information in a subscription that's independent of the subscription lines.
+A subscription is something that the customer either buys, such as items, or for which a contractual agreement is results in mutual obligations. A subscription is assigned to a customer. A subscription is often static, but the associated services (subscription lines) can change. Also, you can store additional information in a subscription that's independent of the subscription lines.
 
 A subscription doesn't contain any billing-relevant information. That information belongs to the associated subscription lines. Subscription lines that aren't invoiced through a contract can also belong to a subscription, for example, warranties.
 
@@ -52,23 +53,35 @@ The subscription lines of a subscription and the creation of subscription lines 
 
 You can offer subscription lines to prospects or customers already during the sales phase. For this purpose, you can add more subscription lines to the offered items, which you can then offer simultaneously or sell at the same time.
 
-If you sell an item in conjunction with a subscription line, a subscription is automatically created for it, where the associated subscription lines are available.
+If you sell an item with a subscription line, a subscription is automatically created for it, where the associated subscription lines are available.
 
 If the service is a subscription line (see Types of Services), you can add it to a contract as a component and, according to the information in the service, bill on a recurring basis.
 
 ## Flow of subscription billing​
 
-The following illustration shows that items are set up with subscription packages with one or more subscription lines. When the quote or order is shipped, the item becomes a subscription. The subscription lines assigned to the subscription must be assigned to a contract to be billed on a recurring basis. The contract and its subscription lines contain the billing information. When posting contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
+The following illustration shows that items are set up with subscription packages with one or more subscription lines. When the quote or order is shipped, the item becomes a subscription. The subscription lines assigned to the subscription must be assigned to a contract to be billed on a recurring basis. The contract and its subscription lines contain the billing information. When you post contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
 
-:::image type="content" source="../media/srbFlow.png" alt-text="Shows the flow in subscription billing.":::
+:::image type="content" source="../media/sb-flow.png" alt-text="Shows the flow in subscription billing.":::
 
 ## Subscription Billing Role Center​
 
-The **Subscription Billing** Role Center collects the features for subscription billing in one place, so things are easy to find. In addition to the master and transaction data, the Role Center provides fast access to the history of posted receipts. Documents that aren't posted (open posting documents for customers or vendors), and services that aren't assigned to contracts (subscription lines without contracts) also display to alert you that something might still need to be done.
+The **Subscription Billing** Role Center collects the features for subscription billing in one place, so things are easy to find. In addition to the master and transaction data, the Role Center provides fast access to the history of posted receipts. The Role Center has cues that alert you to actions you might need to take:
 
-The revenues and costs figures show the current and previous month's revenues and costs that were posted in connection with contract billing.
+- It shows unposted documents (open posting documents for customers or vendors).
+- It shows services that aren't assigned to contracts (subscription lines without contracts).
 
-The **Overdue** and **Not invoiced** cues indicate that subscription lines are either still to be billed (Overdue) or that a posting document hasn't been created yet (Not invoiced) for lines in a billing proposal. The cues are based on the workdate.
+The revenues and costs figures show the current and previous month's revenues and costs that were posted with contract billing.
+
+The **Overdue** and **Not invoiced** cues indicate actions you might want to take:
+
+- **Overdue** shows subscription lines that aren't yet billed.
+- **Not Invoiced** shows that you haven't created a posting document for lines in a billing proposal. 
+
+The cues are based on the work date.
+
+## Analytics in subscription billing
+
+The Power BI Subscription Billing app provides a set of reports that give you detailed insights into the performance and health of your subscription business. Use the app to monitor key metrics such as monthly recurring revenue, churn rates, and contract growth over time. The reports connect directly to your subscription billing data in Business Central, so you always have up-to-date information for analysis and decision-making. Learn more at [Power BI Subscription Billing app](analytics/subscription-powerbi-app.md).
 
 ## Get started
 
@@ -76,5 +89,6 @@ To start using subscription billing features, there are a few things to set up f
 
 ## Related information
 
+[Examples](examples.md)  
 [Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)  
 [Recurring billing](recurring-billing.md)  

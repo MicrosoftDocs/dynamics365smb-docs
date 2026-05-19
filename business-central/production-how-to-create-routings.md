@@ -6,19 +6,18 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
-ms.date: 06/06/2024
+ms.date: 03/10/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
 ---
 # Create routings
 
-Manufacturing companies use routings to visualize and direct the manufacturing process.
+Manufacturing companies use routings to visualize and direct the manufacturing process. The routing is the basis of process scheduling, capacity scheduling, scheduled assignment of material needs, and manufacturing documents.  
 
-The routing is the basis of process scheduling, capacity scheduling, scheduled assignment of material needs, and manufacturing documents.  
+As for production bills of material (BOMs), routings are assigned to the manufacturing end item. A routing holds master data that captures the process requirements of a given produced item. After a production order is created for an item, its routing governs the scheduling of operations as represented on the **Prod. Order Routing** page under the production order.  
 
-As for production bills of material (BOMs), the routings are assigned to the manufacturing end item. A routing holds master data that captures the process requirements of a given produced item. After a production order is created for an item, its routing governs the scheduling of operations as represented on the **Prod. Order Routing** page under the production order.  
-
-Before you can set up a routing, the following setups must be in place:  
+Before you can create a routing, the following setups must be in place:  
 
 - Item cards are created for parent items that take part in manufacturing. To learn more, go to [Register New Items](inventory-how-register-new-items.md).
 - Production resources are set up. To learn more, go to [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md).
@@ -73,7 +72,10 @@ Another important benefit is that linked components and operations display in a 
 
 5. Set the routing status to **Certified**.  
 
-    Routing link codes are now assigned to operations. Next, you must create the actual link by assigning the same codes to specific components in the relevant production BOM.  
+   > [!TIP]
+   > Certifying the routing is optional, though we do recommend it if it's ready to use. For example, if you're in the design phase, you can work with the routing in a uncertified state. Learn more at [Work with uncertified production BOMs and routings](#work-with-uncertified-production-boms-and-routings).
+
+   Routing link codes are now assigned to operations. Next, you must create the actual link by assigning the same codes to specific components in the relevant production BOM.  
 
 6. Open the **Production BOM** that contains the components that you want to link to the above operations. To learn more, go to [Create Production BOMs](production-how-to-create-production-boms.md).
 7. Make sure the BOM status is **Under Development**.  
@@ -112,6 +114,10 @@ The version principle enables you to manage several versions of a routing. The s
     The operation lines are in ascending order by operation numbers. To be able to make changes later, we recommend that you select adequate step widths. The **Next Operation No.** field refers to the next operation in the routing.
 
 7. When you're done setting up the routing version, in the **Status** field, choose **Certified**.
+
+## Work with uncertified production BOMs and routings
+
+[!INCLUDE [production-turn-off-uncertified-notifications](includes/production-turn-off-uncertified-notifications.md)]
 
 ## Related information
 

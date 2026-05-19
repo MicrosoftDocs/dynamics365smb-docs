@@ -7,8 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_707_Primary
-ms.date: 10/18/2024
-ms.service: dynamics-365-business-central
+ms.date: 03/12/2026
 ms.custom:
  - ai-gen-docs-bap
  - ai-seo-date: 10/18/2024
@@ -19,7 +18,12 @@ ai.usage: ai-assisted
 
 The **Inventory Availability Plan** report shows an overview of specific items and stock-keeping units, and their availability. The report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on.
 
+> [!NOTE]
+> This report is obsolete and will be removed in a later release. Start using the replacement [Inventory Availability Plan (Excel)](report-719.md).
+
 ## Use cases
+
+Get an overview of specific items and stock-keeping units, and their availability.
 
 <!-- 
 Prompt
@@ -71,6 +75,15 @@ Warehouse supervisors use the report to:
 Try the report here: [Inventory Availability Plan](https://businesscentral.dynamics.com?report=707)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+There are several other ways to analyze your inventory. To learn more, go to:
+
+- [Inventory Availability Plan (Excel)](report-719.md)
+- [Power BI inventory app](../inventory-powerbi-app.md)
+- [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)
+
 
 ## Related information
 

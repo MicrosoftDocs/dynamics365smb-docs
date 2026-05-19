@@ -1,16 +1,16 @@
 ---
-title: Design Details - Transfers in Planning
+title: Design details - Transfers in planning
 description: Learn how to use transfer orders as a source of supply when planning inventory levels.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
-ms.date: 02/22/2023
+ms.date: 03/17/2026
 ms.custom: bap-template
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.service: dynamics-365-business-central
 ---
-# Design Details: Transfers in Planning
+# Design details: Transfers in planning
 
 Transfer orders are also a source of supply when working at the SKU level. When using multiple locations (warehouses), the SKU replenishment system can be set to Transfer, implying that the location is replenished by transferring goods from another location. In a situation with more warehouses, you might have a chain of transfers. Supply to GREEN location is transferred from YELLOW, supply to YELLOW is transferred from RED, and so on. In the beginning of the chain, there's a replenishment system of **Prod. Order** or **Purchase**.  
 

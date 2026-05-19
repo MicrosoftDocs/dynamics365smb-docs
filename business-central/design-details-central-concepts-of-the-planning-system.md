@@ -1,16 +1,16 @@
 ---
-title: Design Details Central Concepts of the Planning System
+title: Design details - central concepts of the planning system
 description: Planning suggests actions for the user to take based on the demand/supply situation and the items' planning parameters.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: concept-article
-ms.date: 01/25/2023
+ms.date: 03/17/2026
 ms.custom: bap-template
 
 ---
-# Design Details: Central Concepts of the Planning System
+# Design details: central concepts of the planning system
 
 The planning functions are contained in a batch project that first selects the relevant items and period to plan for. Then, according to each item's low-level code (BOM position), the batch job calls a code unit that calculates a supply plan. The code unit balances supply-demand sets and suggests actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
 

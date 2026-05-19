@@ -12,7 +12,8 @@ ms.custom: bap-template
 
 # Set up contact sync with Outlook for Business Central on-premises
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
+> **APPLIES TO:**  [!INCLUDE[prod_short](includes/prod_short.md)] 2025 release wave 2 (v27) and earlier. For later versions, this setup isn't needed. Learn more in [Save business contacts to Microsoft Outlook](save-business-contacts-to-outlook.md).
+
 
 In this article, you learn how to set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to synchronize contacts in [!INCLUDE[prod_short](includes/prod_short.md)] with contacts in Outlook. For more information the feature, go to [Synchronize Contacts in Business Central with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 

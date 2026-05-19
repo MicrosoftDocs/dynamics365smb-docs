@@ -1,0 +1,1 @@
+Review the age of stock in your warehouse by value to identify unused or slow moving inventory.

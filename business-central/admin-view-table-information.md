@@ -4,7 +4,7 @@ description: Learn how you can view information about the database tables in Bus
 author: jswymer
 ms.topic: concept-article
 ms.devlang: al
-ms.search.form: 8700_Primary
+ms.search.form: 8700_Primary, 8705
 ms.date: 02/21/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -13,7 +13,7 @@ ms.reviewer: solsen
 
 # Viewing table information
 
-The **8700 Table Information** page provides information about the number of records in all system and business tables in [!INCLUDE[prod_short](includes/prod_short.md)], and how much data each table contains.
+The **Table Information** (ID 8700) page provides information about the number of records in all system and business tables in [!INCLUDE[prod_short](includes/prod_short.md)], and how much data each table contains, including index sizes. It also gives you access to view individual indexes on a table and lets you disable or enable them.
 
 This information is useful for troubleshooting performance problems because it shows the distribution of data sizes across tables.
 
@@ -27,12 +27,12 @@ The following table describes the information provided for each table:
 |------|-----------|
 |Company Name|The name of the company, if any, that the table belongs to.|
 |Table Name|The name of the table.|
-|Table No.|The ID of the table.|
-|No. of Records|The total number of records stored in the table.|
+|Table No.|The ID of the table. Select the ID to view and manage indexes on the table. Learn more in [Manage indexes in Business Central](manage-indexes.md).|
+|No. of Records|The total number of records stored in the table. Select the number in a row to open the table and view the records.|
 |Record Size|The average record size in KB/record. The value is calculated using the following formula: 1024(Size)/(No. of Records). |
 |Size (KB)|The total amount of space the table occupies in the database. This value is the sum of the values in the Data Size and Index Size fields.|
 |Data Size (KB)|How much space the data in the base table occupies in the database.|
-|Index Size (KB)|How much space the table indexes (keys) on the base table occupy in the database.|
+|Index Size (KB)|How much space the table indexes (keys) on the base table occupy in the database. Select the ID in the **Table No.** column to view and manage indexes on the table. Learn more in [Manage indexes in Business Central](manage-indexes.md).|
 |Compression|The type of compression, **Row**, **Page**, or **None** that is applied to the table in the database. To learn more, go to [Data compression](/sql/relational-databases/data-compression/data-compression?).|
 
 > [!NOTE]

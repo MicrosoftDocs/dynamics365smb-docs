@@ -1,28 +1,28 @@
 ---
-title: Using General Functionality Across Business Areas
+title: Using general functionality across business areas
 description: Learn about the functionality and features that are used across business areas in Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: concept-article
-ms.date: 12/01/2022
+ms.date: 03/20/2026
 ms.custom: bap-template
 ---
-# General Business Functionality
+# General business functionality
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated functionality for typical business areas, such as finance and sales. To learn more, go to [Business Functionality](across-business-functionality.md).
 
 To support those business area-specific tasks, you can use various general business functionalities, such as defining extended text for document lines and organizing connecting business tasks in workflows.
 
 > [!NOTE]
-> In addition to the business-related functions described in this section, you will use general UI functions every day to interact with the system. For more information, see [Work with Business Central](ui-work-product.md).
+> In addition to the business-related functions described in this section, you will use general UI functions every day to interact with the system. To learn more, go to [Work with Business Central](ui-work-product.md).
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 The following table lists these general business areas with links to articles that describe them.
 
-| To | See |
+| To | Go to |
 | --- | --- |
 |Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.|[Add Comments to Cards and Documents](across-how-use-comments.md)|
 |View ongoing, posted, or archived documents that are related to sales and purchase order lines.|[Track Document Lines](across-how-to-track-document-lines.md)|
@@ -43,7 +43,8 @@ The following table lists these general business areas with links to articles th
 |Record external documents, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
-| Use online maps to find locations and directions to customers, vendors, and addresses in general. | [Use Online Maps to Find Locations and Directions](across-online-maps.md) |
+| Use online maps to find locations and directions to customers, vendors, and addresses in general. | [Use Online Maps to Find Locations and Directions](across-online-maps.md) 
+|Keep attachment files in external storage, rather than your [!INCLUDE [prod_short](includes/prod_short.md)] database.|[Store document attachments in external file storage](across-store-document-attachments-externally.md)|
 
 ## Related information
 

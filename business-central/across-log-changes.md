@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: user log, user activity, tracking, audit changes
-ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
+ms.search.form: 592_Primary, 593_Primary, 594_Primary, 595_Primary, 710, 1366_Primary, 1367_Primary, 1368_Primary, 1369_Primary
 ms.date: 10/16/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

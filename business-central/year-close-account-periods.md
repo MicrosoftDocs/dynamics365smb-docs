@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100,
-ms.date: 08/05/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -30,7 +30,7 @@ The fiscal year is closed, and the **Closed** and **Date Locked** fields for all
 
 Although a fiscal year is closed, you can still post general ledger entries to it. When you do, the entries are marked as posted to a closed fiscal year and the **Prior-Year Entry** field is selected.
 
-After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed fiscal year.
+After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this process every time you post to the closed fiscal year.
 
 ## Related information
 

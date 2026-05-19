@@ -105,3 +105,4 @@ A credit memo for a contract invoice also resets the **Next Billing Date** field
 ## Related information
 
 [Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)  
+[Power BI Subscription Billing app](analytics/subscription-powerbi-app.md)

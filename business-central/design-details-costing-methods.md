@@ -1,16 +1,16 @@
 ---
-title: Design details costing methods
+title: Design details - Costing methods
 description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords:
-ms.date: 11/28/2025
+ms.date: 03/17/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Design details: costing methods
+# Design details: Costing methods
 
 The costing method determines whether an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 

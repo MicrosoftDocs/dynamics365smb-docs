@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917 
-ms.date: 03/21/2025
+ms.date: 04/08/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -76,7 +76,7 @@ The **Change Status** action is available for the following types of orders:
 - Released production orders
 
 > [!TIP]
-> A confirmation dialog with additional questions displays for each order individually. If there are multiple orders with partial output or consumption, confirm each one separately.
+> A confirmation dialog with questions displays for each order individually. If there are multiple orders with partial output or consumption, confirm each one separately.
 
 If the status of orders can't change, they're skipped. The **Error Message** page shows the orders that were skipped and the reasons.  
 
@@ -93,7 +93,7 @@ A planned production order is unique because of the following characteristics:
 
 - You can automatically create a planned production order from a sales order.  
 - Planned production orders are like released production orders and provide input to planning by showing the total capacity requirements by work center or machine center.  
-- A planned production order represents the best estimate of the future load for the work center or machine center load based on available information. Typically, they're generated from planning, but you can also manually create them. However, they're erased the next time you run planning so it isn't practical to create them manually.  
+- A planned production order represents the best estimate of the future load for the work center or machine center load based on available information. Typically, they're generated from planning, but you can also manually create them. However, [!INCLUDE [prod_short](includes/prod_short.md)] deletes them the next time you run planning so it isn't practical to create them manually.  
 - Their generation in planning results in a suggested "planned order release" that includes the quantity, release date, and due date. The planning system logic is based on the replenishment system, reorder policies, and order modifiers that it encounters in the net requirement planning process.  
 - The load for each work center or machine center on the planned production order's routing shows their effect.  
 
@@ -125,7 +125,7 @@ A finished production order is unique, based on the following characteristics:
 - Finished production orders are used for reporting and to support the ability to track back to other orders (for example, sales, production, and purchases). The ability to track back to a finished production order allows you to review the detailed history.  
 - You can't change finished production orders.  
 
-#### Reopen a finished production order to make corrections
+#### Reopen a finished production order
 
 After you complete a production order and set its status to **Finished**, you might discover a mistake. For example, you might find that consumption is missing or the item tracking information is incorrect. To make sure that your inventory and cost transactions are correct, use the **Reopen** action on the **Finished Production Orders** page to make adjustments. However, to protect your data there are a few restrictions:
 

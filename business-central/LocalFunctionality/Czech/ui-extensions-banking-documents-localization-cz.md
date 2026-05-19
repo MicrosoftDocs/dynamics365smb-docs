@@ -4,9 +4,9 @@ description: Learn about the features and functionality of the Banking Documents
 author: v-pejano
 ms.topic: concept-article
 ms.search.keywords: Czech, Finance, Banking, Localization
-ms.date: 06/06/2025
+ms.date: 03/30/2026
 ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.author: v-jurxova
 ---
 
 # Banking documents localization for Czech (extension)
@@ -23,6 +23,15 @@ This feature provides improved efficiency and prevents users from making mistake
 - Create, import, and issue a bank statement
 - Bank statement rollover into a payment journal
 - Pairing entries in the payment journal and posting
+
+**Transfer journal line description to bank statements**:
+
+The **Keep Description** field has been added to the Bank Account Card page with the following attributes:
+
+- The field is also available on the request page of the Create General Journal report.
+- The default value on the report is inherited from the selected bank account.
+- When you run the report, the value of Keep Description is transferred to the corresponding field on related payment journal lines.
+- If you turn off the Keep Description field and change the account on a journal line, the description updates based on the validation of the new account.
 
 ## Related information
 

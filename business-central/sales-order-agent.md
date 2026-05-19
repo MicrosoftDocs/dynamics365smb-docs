@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 12/11/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk

@@ -1,6 +1,6 @@
 ---
 title: Item/vendor catalog (report)
-description: Get a list of the vendors for selected items or the items for selected vendors.
+description: Review or share vendor catalogs, compare vendor offerings, and support purchasing decisions.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -19,9 +19,15 @@ ai.usage: ai-assisted
 
 The **Item/vendor catalog** report lists the vendors for selected items or the items for selected vendors. For each combination of an item and a vendor, it shows the direct unit cost, lead time calculation, and vendor's item number.
 
-<!--## Use cases
+## Available layouts
 
-??? Alternative to report 320 ????-->
+[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
+
+[!INCLUDE[available-layouts-excel-only](../includes/available-layouts-excel-only.md)]
+
+## Use cases
+
+[!INCLUDE [report-720-scenario](../includes/report-720-scenario-include.md)]
 
 ## Try the report
 

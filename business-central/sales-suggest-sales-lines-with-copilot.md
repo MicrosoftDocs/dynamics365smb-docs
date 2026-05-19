@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:
-ms.date: 10/13/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

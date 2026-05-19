@@ -1,17 +1,16 @@
 ---
-title: Design Details - Planning Assignment Table
+title: Design details - Planning assignment table
 description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 06/15/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
-
-ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Planning Assignment Table
+# Design details: Planning assignment table
+
 All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.  
 
 If the user has entered a new sales order or changed an existing one, there is reason to recalculate the plan. Other reasons include a change in forecast or the desired safety stock quantity. Changing a bill of material by adding or removing a component would most likely indicate a change, but for the component item only.  

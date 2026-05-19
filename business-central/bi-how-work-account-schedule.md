@@ -1,11 +1,11 @@
 ---
-title: Build Financial Reports Using Financial Data and Account Categories
+title: Build financial reports using financial data and account categories
 description: Describes how to use financial reports to create various views and reports for analyzing financial performance data.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 10/04/2025
+ms.date: 03/17/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
@@ -34,6 +34,22 @@ If you want to view general ledger entries as percentages of budget entries, you
 ## Report selection for built-in finance reports
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides built-in Balance Sheet, Income Statement, Cash Flow, and Retained Earnings reports. The **Financial Reporting** feature defines the data and layouts for these reports. You can replace the standard layouts provided in [!INCLUDE[prod_short](includes/prod_short.md)] with your own. Learn more at [Report selection for finance reports](finance-financial-reporting-report-selection.md).
+
+## Specify default settings that apply to all financial reports
+
+To save some time and control consistency, on the **Reporting** FastTab of the **General Ledger Setup** page, you can specify settings that apply to all financial reports. For example, you can specify:
+
+- The additional currency, and whether to adjust exchange rates for taxes. 
+- The default category to use for accounts payable and receivable accounts.
+- The specific report setup to use for various reports, including row and column definitions.
+- The length of the period for which to show amounts.
+- How to format negative amounts.
+- Where to position your company logo when you print reports.
+- The default status to assign to new reports.
+
+[!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+You can change the default settings on each report, if needed.
 
 ## Financial reports
 
@@ -69,6 +85,16 @@ You can also use formulas to compare two or more financial reports and column de
 - Set up various report layouts and print the reports with the current figures.
 
 To learn more about comparisons, go to [When to use a comparison period formula and comparison date formula in a column definition](bi-design-financial-reports.md#when-to-use-a-comparison-period-formula-and-comparison-date-formula-in-a-column-definition).
+
+## Manage the lifecycle of financial reports
+
+[!INCLUDE [block-row-column-def](includes/block-row-column-def.md)]
+
+## Categorize financial reports
+
+To make it easier to find various financial reports, you can assign them to financial report categories. These categories often mirror the chart of accounts, and organize reports in a similar way as account categories organize general ledger accounts. [!INCLUDE [prod_short](includes/prod_short.md)] provides some financial report categories, but you can create your own and assign them to your reports. 
+
+To create or view financial report categories, [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Financial Report Categories**, and choose the related link. You assign categories to your reports in the **Category** field on the **Financial Reports** page.
 
 ## Learning path: Create financial reports in Microsoft Dynamics 365 Business Central
 
@@ -192,9 +218,9 @@ To learn more about how to import or export financial report row or column defin
 
 ## Integrate financial reports with Excel
 
-You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.
+[!INCLUDE[integrate_financial_reports_with_excel_intro](includes/include-integrate-financial-reports-with-excel-intro.md)]
 
-To learn more, go to [How to integrate financial reports with Excel](finance-financial-reporting-view-a-report.md#integrate-financial-reports-with-excel).
+To learn more, go to [Integrate financial reports with Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md).
 
 ## Print and save financial reports
 

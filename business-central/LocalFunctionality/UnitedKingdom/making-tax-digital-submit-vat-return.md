@@ -184,7 +184,7 @@ Some online documentation at HMRC uses the term *Sandbox*. A sandbox is an envir
 - [Send Fraud Prevention Data](fraud-prevention-data.md)  
 - [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 - [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md)  
-- [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
+- [IdealPostcodes extension in the British version](ui-extensions-idealpostcodes.md)
 - [The VAT Group Management Extension](../../ui-extensions-vat-group.md)  
 - [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

@@ -1,17 +1,17 @@
 ---
-title: Design Details - Item Tracking Design
-description: This topic describes the design behind item tracking in Business Central as it matures through product versions.
+title: Design details - Item tracking design
+description: This article describes the design behind item tracking in Business Central as it matures through product versions.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 06/08/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Item Tracking Design
+
+# Design details: Item tracking design
 
 Item tracking in [!INCLUDE[prod_short](includes/prod_short.md)] started with [!INCLUDE [navnow_md](includes/navnow_md.md)]. The item tracking functionality is in a separate object structure with intricate links to posted documents and item ledger entries, and it is integrated with the reservation system, which handles reservation, order tracking, and action messaging. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md) in the Supply Planning design details.  
 

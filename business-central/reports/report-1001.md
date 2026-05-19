@@ -38,6 +38,8 @@ Depending on settings on the **Inventory Posting Setup** page, you can run the r
 
 ## Use cases
 
+[!INCLUDE [report-1001-scenario](../includes/report-1001-scenario-include.md)]
+
 <!-- 
 Prompt
 

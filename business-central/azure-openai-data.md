@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: jswymer
 ms.topic: article
 ms.collection: bap-ai-copilot
-ms.date: 10/13/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---

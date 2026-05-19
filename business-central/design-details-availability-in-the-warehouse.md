@@ -1,15 +1,15 @@
 ---
-title: Design Details - Availability in the Warehouse
+title: Design details - Availability in the warehouse
 description: Learn about the different factors that affect item availability in your warehouse.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
-ms.date: 02/22/2023
+ms.topic: concept-article
+ms.date: 03/17/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Design Details: Availability in the Warehouse
+# Design details: Availability in the warehouse
 
 Stay on top of item availability to ensure that outbound orders flow efficiently, and that your delivery times are optimal.  
 

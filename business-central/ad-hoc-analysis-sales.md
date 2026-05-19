@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 This article explains how to use the **Data Analysis** feature to analyze sales data directly from list pages and queries. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "My customers" or "Sales statistics," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
 
-Use the following list pages for ad-hoc analysis of sales processes:
+Below are some examples of list pages that can provide the basis for ad-hoc analysis of sales processes:
 
 - [Sales Orders](https://businesscentral.dynamics.com/?page=9305&layout=analysis)
 - General Ledger Entries
@@ -24,6 +24,7 @@ Use the following list pages for ad-hoc analysis of sales processes:
 - Item Ledger Entries
 - Posted Sales Invoices
 - Sales Return Orders
+- Customers
 
 ## Sales ad-hoc analysis scenarios
 

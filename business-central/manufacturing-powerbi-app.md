@@ -3,12 +3,13 @@ title: Power BI Manufacturing app
 description: The Power BI Manufacturing app provides insights into your manufacturing activities.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37063_Primary, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37094, 37095, 37096, 37097, 37098, 37099, 37107
-ms.date: 11/01/2024
+ms.date: 03/17/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Manufacturing Power BI app
@@ -67,6 +68,13 @@ To improve production efficiency, you track the allocated hours for each work ce
 ## Use the reports
 
 [!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
+
+## Manage subcontractors in manufacturing reports
+
+The Manufacturing Power BI App includes subcontracted costs and subcontractor work centres by default. To exclude subcontracted costs from manufacturing reporting, a **Subcontracting** filter is available on each report page. You can choose to exclude, include, or only show manufacturing insights for work centers assigned a subcontractor.
+
+> [!NOTE]
+> The Subcontracting filter is based on the work center configuration, rather than historical subcontractor status. If you change the subcontractor assignment on a work center, the historical capacity ledger entry insights might be inaccurate.
 
 ## Related information
 

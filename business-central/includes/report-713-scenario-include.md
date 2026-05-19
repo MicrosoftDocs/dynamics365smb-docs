@@ -1,0 +1,1 @@
+Analyze customer sales per item to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and volume of item sales.

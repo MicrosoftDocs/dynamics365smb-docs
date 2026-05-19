@@ -1,0 +1,1 @@
+Review or share vendor catalogs, compare vendor offerings, and support purchasing decisions.

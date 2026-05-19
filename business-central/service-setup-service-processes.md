@@ -3,10 +3,10 @@ title: Set up service management processes
 description: Learn how to set up processes that help ensure your customers are satisfied with your services.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 10/03/2025
+ms.date: 03/18/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -21,7 +21,7 @@ The following are some examples of the settings you can apply to service managem
 * Settings for contracts, such as the maximum number of days that you can use for contract service orders, whether to use reason codes when a contract is canceled, standard texts for descriptions, and contract values.  
 * The number sequences to use for service-related documents and items.  
 
-## Enter general and mandatory settings
+### Enter general and mandatory settings
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Management Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -60,6 +60,15 @@ The following table describes the effects on different documents.
 Your business probably deals with multiple customer and vendor contacts who are responsible for different areas of operation. For example, accountants, purchasers, and warehouse staff. Because their interests typically differ, you might want to generate and send different types of documents to them. You can save time when you send documents to different customer or vendor contacts by setting up specific contacts to use with specific documents. For example, send service invoices to accountant contacts and service orders to your customers' purchasers.
 
 You can use the **Document Layouts** page to specify who to send service quotes, orders, invoices, and credit memos to for vendors and customers based on settings on the **Report Selection** page. To send specific documents to specific company contacts, choose the company contacts to use for specific document layouts. Learn more in [Define document layouts for customers and vendors](ui-define-customer-vendor-document-layouts.md) for information about document layouts.
+
+## Allow only one service item per order
+
+On the **Service Management Setup** page, the **One Service Item Line/Order** toggle restricts service orders to have only one service item line. The restriction can help sharpen focus in your service workflow because it means you handle and track each service item individually.
+
+The same logic applies to orders that you create in-bulk from service contracts.
+
+* If you turn on the **One Service Item Line/Order** toggle, the create contract service orders process creates one service order per service item in the contract. For example, a contract with four service items results in four separate service orders.
+* If you turn off the toggle, the process creates a single service order that contains all service items from the contract.
 
 ## Related information  
 

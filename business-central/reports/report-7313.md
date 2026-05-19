@@ -28,6 +28,8 @@ Use the report for all locations that require shipments. The report shows:
 
 ## Use cases
 
+[!INCLUDE [report-7313-scenario](../includes/report-7313-scenario-include.md)]
+
 <!-- 
 Prompt
 

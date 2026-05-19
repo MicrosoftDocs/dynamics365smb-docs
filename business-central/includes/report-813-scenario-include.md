@@ -1,0 +1,1 @@
+Explore sales orders that are covered when you pick items from inventory.

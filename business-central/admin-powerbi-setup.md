@@ -12,8 +12,6 @@ ms.reviewer: jswymer
 ---
 # Enabling Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 This article describes how to get [!INCLUDE[prod_short](includes/prod_short.md)] ready for integration with Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online is already enabled for integration, although there's some information about licensing that you might want to read. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'll have set up your environment to connect to Power BI before users can work with it.
 
 ## <a name="license"></a>Power BI Licensing
@@ -52,9 +50,9 @@ Developers can define page objects and query objects that are of the type *API*.
 [!INCLUDE[prod_short](includes/prod_short.md)] online also supports custom APIs. Application developers of [!INCLUDE[prod_short](includes/prod_short.md)] solutions can create their own API pages and queries and package them into apps. You then install the apps on your tenant. When they're installed, you use the API pages for your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports, like you'd do with the built-in APIs (v2.0). To learn more about how to create an API by exposing pages or queries, go to [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
 > [!IMPORTANT]
-> Starting in February 2022, [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica for performance reasons. AL developers should avoid designing API pages that make database modifications while the pages are opening or loading records. In particular, consider the code on the AL triggers: `OnInit`, `OnOpenPage`, `OnFindRecord`, `OnNextRecord`, `OnAfterGetRecord`, and `OnAfterGetCurrRecord`. In some cases, these database modifications might cause performance problems and prevent the report from refreshing data. To learn more, go to [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) in the [!INCLUDE[prod_short](includes/prod_short.md)] development content.
+> Starting in February 2022, [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica for performance reasons. AL developers should avoid designing API pages that make database modifications while the pages are opening or loading records. In particular, consider the code on the AL triggers: `OnInit`, `OnOpenPage`, `OnFindRecord`, `OnNextRecord`, `OnAfterGetRecord`, and `OnAfterGetCurrRecord`. In some cases, these database modifications might cause performance problems and prevent the report from refreshing data. To learn more, go to [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services) in the [!INCLUDE[prod_short](includes/prod_short.md)] development content.
 >
-> In rare cases, the behavior causes an error when you try to get data from the API for a report in Power BI Desktop. However, if the custom API requires database modifications, Power BI Desktop users can force the behavior. To learn more, go to [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+> In rare cases, the behavior causes an error when you try to get data from the API for a report in Power BI Desktop. However, if the custom API requires database modifications, Power BI Desktop users can force the behavior. To learn more, go to [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md#fix-problems).
 
 ### OData web services (not recommended)
 

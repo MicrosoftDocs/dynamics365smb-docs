@@ -13,8 +13,6 @@ ms.search.form: 9061,
 ---
 # Set Up Business Central Access in Teams with Microsoft 365 Licenses
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Administrators must complete multiple activities before users can access [!INCLUDE [prod_short](includes/prod_short.md)] with their Microsoft 365 license. The steps below represent the minimum setup required to get started. To learn more about access with Microsoft 365 licenses, go to [Business Central Access with Microsoft 365 Licenses](admin-access-with-m365-license.md).
 
 ## Guidelines
@@ -72,8 +70,6 @@ Access with Microsoft 365 licenses is off by default. Access must be enabled for
 5. Select **Save** when done and accept the confirmation. The change comes into effect immediately.
 
 ## Choose who gets access by using security group
-
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 In the Business Center admin center, an environment can be assigned to one or more security groups to control access. You can assign a Microsoft Entra group to the environment. By assigning a Microsoft Entra group to an environment, only direct and indirect members of the group are granted access to the environment. Indirect members are users in another group, which itself is a member of the group assigned to the environment. Although all licensed users in Microsoft Entra ID will be added to the environment when it's synchronized with Microsoft 365, only group members can sign in. Learn more in [Manage access using Microsoft Entra groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/17/2025
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Set up projects, prices, and project posting groups
 
-As a project manager, you can set up each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. Use the **Project Setup** page to define how you'll use project features.
+As a project manager, you can set up each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. Use the **Project Setup** page to define how you use project features.
 
 For each project, specify various information:
 
@@ -46,7 +46,7 @@ After you set up usage tracking by turning on the **Apply Usage Link by Default*
 
 ### Invoice multiple customers for project tasks
 
-When projects involve multiple customers, billing the right customers for the right tasks can be challenging. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line, so you can automatically generate invoices for the correct customers.  Use the **Default Task Billing Method** field to specify whether you're billing one customer, or multiple customers by default. You can change task billing method for a specific project by using the **Task Billing Method** field on the **Project Card** page. To learn more about invoicing multiple customers, go to [Invoice one or more customers for project tasks](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
+When projects involve multiple customers, billing the right customers for the right tasks can be challenging. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line, so you can automatically generate invoices for the correct customers. Use the **Default Task Billing Method** field to specify whether you're billing one customer, or multiple customers by default. You can change task billing method for a specific project by using the **Task Billing Method** field on the **Project Card** page. To learn more about invoicing multiple customers, go to [Invoice one or more customers for project tasks](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
 ### Synchronize the cost of used items
 
@@ -63,7 +63,7 @@ If you keep it off, remember to run the **Update Job Project Cost** task manuall
 ## To set up prices for resources, items, and general ledger accounts for projects
 
 > [!NOTE]
-> In 2020 release wave 2, we released new processes for setting up and managing prices and discounts. If you're a new customer, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> In 2020 release wave 2, we released new processes for setting up and managing prices and discounts. If you're a new customer, you're using the new experience. If you're an existing customer, whether you're using the new experience depends on whether your administrator enabled the **New sales pricing experience** feature update in **Feature Management**. To learn more, go to [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 You can set up prices for the items, resources, and general ledger accounts related to a project. 
 
@@ -77,8 +77,8 @@ When you choose a resource, item, or general ledger account for a project, [!INC
 
 |Column1  |Column2  |
 |---------|---------|
-|**Project Items**|The **Project Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the project planning lines and project journals when this item is entered. This price overrides the regular customer price (the "best price" mechanism) for items. To use the regular customer price, don't specify project item prices for the project.|
-|**General Ledger Accounts**|The information in the **Project Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the project planning lines and project journals when this general ledger account is entered and added to a project. When you choose a general ledger account, project planning lines and project journals use the value in the **Unit Price** field for the general ledger project expense.|
+|**Project Items**|The **Project Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item is used on the project planning lines and project journals when this item is entered. This price overrides the regular customer price (the "best price" mechanism) for items. To use the regular customer price, don't specify project item prices for the project.|
+|**General Ledger Accounts**|The information in the **Project Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields is used on the project planning lines and project journals when this general ledger account is entered and added to a project. When you choose a general ledger account, project planning lines and project journals use the value in the **Unit Price** field for the general ledger project expense.|
 |**Project Resources**|The **Project Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource is used on project planning lines and project journals when you enter a resource, or a resource assigned to the resource group. This price overrides prices specified on the **Resource Price/Resource Group Prices** page.|
 
 #### [New Experience](#tab/new-experience)
@@ -108,13 +108,13 @@ One aspect of planning projects is deciding which posting accounts to use for pr
 | **Resource Costs Applied Account** |Same as  **Project Costs Applied Account**, but used when **WIP Posting Method Used** is set to *Project Ledger Entry*.| |
 | **G/L Costs Applied Account** |Same as  **Project Costs Applied Account**, but used when **WIP Posting Method Used** is set to *Project Ledger Entry*.| |
 | **Project Costs Adjustment Account** |The balancing account to the WIP Accrued Costs account, which is an expense account. | Accrued Costs|
-| **G/L Expense Acc. (Budget)** |The sales account that will be used for general ledger expenses in project tasks with this posting group. If left empty, the general ledger account entered on the project planning line is used. | |
+| **G/L Expense Acc. (Budget)** |The sales account that is used for general ledger expenses in project tasks with this posting group. If left empty, the general ledger account entered on the project planning line is used. | |
 | **WIP Accrued Sales Account** |The WIP account for the calculated sales value of the WIP, which is an accrued revenue account for your balance sheet. When a WIP adjustment requires you to increase the recognized revenue, you post to this account. | Accrued Sales, Recognized Sales|
-| **WIP Invoiced Sales Account** |The account for the invoiced sales value of the WIP that is not able to be recognized. It is a balance sheet Unearned Revenue account. | Recognized Sales, Applied Sales|
+| **WIP Invoiced Sales Account** |The account for the invoiced sales value of the WIP that isn't able to be recognized. It's a balance sheet Unearned Revenue account. | Recognized Sales, Applied Sales|
 | **Project Sales Applied Account** |The balancing account to the WIP Invoiced Sales account, which is a contra income account. | Applied Sales, Recognized Sales|
 | **Project Sales Adjustment Account** |The balancing account to the WIP Project Sales Account, which is an income account. | Accrued Sales|
-| **Recognized Costs Account** |The expense account that contains the recognized costs for the project. It is a debit expense account ordinarily. | Recognized Costs|
-| **Recognized Sales Account** |The income account that contains the recognized income for the project. It is a credit income account ordinarily. | Recognized Sales|
+| **Recognized Costs Account** |The expense account that contains the recognized costs for the project. It's usually a debit expense account. | Recognized Costs|
+| **Recognized Sales Account** |The income account that contains the recognized income for the project. It's usually a credit income account. | Recognized Sales|
 
 ### Allow multiple people to post project transactions at the same time
 

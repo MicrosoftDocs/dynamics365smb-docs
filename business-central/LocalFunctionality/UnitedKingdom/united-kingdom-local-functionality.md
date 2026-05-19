@@ -35,8 +35,8 @@ The following articles describe local functionality that's unique to the United 
 - General
   - [Set Up a Posting Date Warning](how-to-set-up-a-posting-date-warning.md) **Available Now**
   - [Enter Statutory Information](how-to-enter-statutory-information.md) **Available Now**
-  - [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
-  - [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
+  - [IdealPostcodes extension in the British version](ui-extensions-idealpostcodes.md) **Available Now**
+  - [Set up the IdealPostcodes extension](ui-extensions-setup-idealpostcodes-service.md) **Available Now**
 
 ## Future legislation requirements being investigated
 

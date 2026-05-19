@@ -1,17 +1,15 @@
 ---
-title: Design Details - Item Tracking and Reservations
+title: Design details - Item tracking and reservations
 description: This topic talks about item tracking and reservations, and describes the concepts behind the two options.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 06/15/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Design Details: Item Tracking and Reservations
+# Design details: Item tracking and reservations
 
 Simultaneous use of reservation and specific item tracking is uncommon, because they both create a coupling between supply and demand. Except for situations where a customer or production planner requests a specific lot, it rarely makes sense to reserve inventory items that already carry item tracking numbers for specific application. Although it is possible to reserve items that require specific item tracking, special functionality is needed to avoid availability conflicts between order processors that request the same item-tracked items.  
   

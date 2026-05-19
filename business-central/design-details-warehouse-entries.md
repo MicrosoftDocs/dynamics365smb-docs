@@ -1,15 +1,14 @@
 ---
-title: Design Details - Creating warehouse entries
+title: Design details - Creating warehouse entries
 description: Learn how to allow concurrent numbering for warehouse register records and warehouse entries.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 06/11/2024
+ms.date: 03/17/2026
 ms.service: dynamics-365-business-central
-
+ms.custom: bap-template
 ---
 
 # Design details: Creating warehouse entries

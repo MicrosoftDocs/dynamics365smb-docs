@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Advanced Tell Me (preview)
 description: Learn about the AI technology behind Advanced Tell Me semantic search. Get an overview, evaluation metrics, limits, mitigations, data use, security details, and feedback steps.
-ms.date: 10/13/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs

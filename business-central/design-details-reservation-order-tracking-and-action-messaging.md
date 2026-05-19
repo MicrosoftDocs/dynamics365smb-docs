@@ -5,13 +5,13 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: design, replenishment, reordering
-ms.date: 08/06/2024
+ms.date: 03/17/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Design details: reservation, order tracking, and action messaging
+# Design details: Reservation, order tracking, and action messaging
 
 The comprehensive reservation system includes the interrelated and parallel features of Order Tracking and Action Messaging.  
 

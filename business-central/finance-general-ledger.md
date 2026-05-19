@@ -1,15 +1,15 @@
 ---
 title: Understand the general ledger and Chart of Accounts
-description: Describes the general ledger, chart of accounts, and account categories. Use the General Ledger Setup page to specify handling accounting issues in your company.
+description: This article describes the general ledger, chart of accounts, and account categories.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20_Primary, 37, 65, 99, 118, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 08/06/2024
+ms.date: 04/07/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # Understand the general ledger and Chart of Accounts
@@ -32,7 +32,7 @@ Use the **General Ledger Setup** page to specify how to handle certain accountin
 * Financial reporting
 
 > [!TIP]
-> The **General Ledger Setup** page includes generic fields, and fields that are particular to your country or region. If you're unsure of the meaning of a field, we suggest you work with your accountant to determine whether it's relevant to your organization. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+> The **General Ledger Setup** page includes generic fields, and fields that are particular to your country/region. If you're unsure of the meaning of a field, we suggest you work with your accountant to determine whether it's relevant to your organization. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
 To open the page now, use the following link [General Ledger Setup](https://businesscentral.dynamics.com/?page=118).
 
@@ -51,8 +51,8 @@ The **Chart of Accounts** page shows all general ledger accounts. From the chart
 
 * View reports that show general ledger entries and balances.  
 * Close your income statement.  
-* Open the general ledger (G/L) account card to add or change settings.  
-* See a list of posting groups for that account.
+* Open the general ledger (G/L) account card, where you can add or change settings.  
+* Access a list of posting groups for that account.
 * View separate debit and credit balances for a single account.
 
 To learn more, go to [Understanding the Chart of Accounts](finance-chart-of-accounts.md).
@@ -92,11 +92,11 @@ When you choose the **Generate Financial Reports** action, or the next time the 
 * Lines with balances for petty cash and the checking account.  
 
 > [!NOTE]
-> If you create a G/L account without assigning an account category, when you assign the account to a posting group [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the account category from the G/L account immediately above the account in your chart of accounts. However, to include the new account in your financial reports, you must choose the **Generate Financial Reports** action on the **G/L Account Categories** page. Alternatively, open the G/L Account Card page, specify the account category, and then regenerate your financial report.
+> If you create a G/L account without an account category, when you assign the account to a posting group [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the account category from the G/L account immediately above the account in your chart of accounts. However, to include the new account in your financial reports, you must choose the **Generate Financial Reports** action on the **G/L Account Categories** page. Alternatively, open the G/L Account Card page, specify the account category, and then regenerate your financial report.
 
 ## Access to create and edit G/L accounts and account categories
 
-In a small organization, such as the CRONUS demonstration company, most users can edit financial entities such as G/L accounts, account categories, and the chart of accounts, except those users with a TEAM MEMBER license. However, larger organizations typically use roles and permissions to limit access to editing these entities. If you're an administrator, or have the *Business Manager* or *Accountant* role, you can control user permissions to give the right people access to the relevant tables. To learn more, go to [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
+In small organizations, most users can edit financial entities such as G/L accounts, account categories, and the chart of accounts, except those users with a TEAM MEMBER license. However, larger organizations typically use roles and permissions to limit access to editing these entities. If you're an administrator, or have the *Business Manager* or *Accountant* role, you can control user permissions to give the right people access to the relevant tables. To learn more, go to [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
 ## Use dimensions to simplify your chart of accounts
 

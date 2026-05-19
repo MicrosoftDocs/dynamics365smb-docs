@@ -15,8 +15,6 @@ ms.custom:
 ---
 # Accountant experiences in Business Central
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter what type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[prod_short](includes/prod_short.md)]. From here, you can access all pages that you need in your work.  
 
 ## Accountant Role Center
@@ -53,8 +51,8 @@ If your admin or reselling partner prefers not to use the **Invite External Acco
 
 #### Add your accountant as a guest user
 
-1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) as at least a [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator).
-1. In the navigation pane, select **Users**.
+1. Sign in to [Microsoft Entra admin center](https://entra.microsoft.com) as at least a [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator).
+1. In the navigation pane, select **Entra ID** > **Users**.
 1. On the **Users** page, select **New user**, and then **Invite external user**.
 1. On the **Invite external user** page, add the accountant's email address and other information about them.  
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
-ms.date: 06/10/2025
+ms.date: 03/17/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

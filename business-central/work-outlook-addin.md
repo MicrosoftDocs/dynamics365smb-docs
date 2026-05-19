@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 06/14/2024
+ms.date: 03/10/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -28,7 +28,7 @@ ms.reviewer: jswymer
 
 1. The first thing to do is get the [!INCLUDE[prod_short](includes/prod_short.md)] add-in installed in Outlook. Your administrator may have already installed the add-in for you. So if you're not sure, check with your administrator or see the next step to verify whether it's installed.
 
-    If the add-in hasn't been installed for you, see [Install the add-in for your own use](admin-outlook.md#install). 
+    If the add-in hasn't been installed for you, go to [Install the add-in for your own use](admin-outlook.md#install). 
 
 2. With the add-in installed, you can access the **[!INCLUDE[prod_short](includes/prod_short.md)]** add-in from any new or existing email message or calendar appointment in Outlook.
 

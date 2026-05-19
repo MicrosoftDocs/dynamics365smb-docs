@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 07/11/2024
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: 108, 490, 790
+ms.search.form: 108, 490_Primary, 790
 ms.service: dynamics-365-business-central
 ---
 
@@ -21,6 +21,10 @@ To create a new financial report, choose the **New** action. You can then give t
 * **Row Definition**
 * **Column Definition**
 * **Analysis Views**
+
+## Use default settings for financial reports
+
+When you design new reports, remember that you can take advantage of default settings for them. On the **Reporting** FastTab of the **General Ledger Setup** page, you can specify a range of settings that apply to all financial reports. Learn more at [Specify default settings that apply to all financial reports](bi-how-work-account-schedule.md#specify-default-settings-that-apply-to-all-financial-reports).
 
 ## Copy an existing report
 

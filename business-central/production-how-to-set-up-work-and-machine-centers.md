@@ -5,10 +5,9 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
-ms.date: 06/13/2024
-ms.service: dynamics-365-business-central
+ms.date: 04/07/2026
+ms.custom: bap-template
 
 ---
 # Set up work centers and machine centers
@@ -22,7 +21,7 @@ You can assign various machine centers to work centers. A machine center can onl
 The planned capacity of a work center consists of the availability of the corresponding machine centers and the planned availability of the work center. The planned availability of the work center group is, therefore, the sum of all corresponding availabilities of the machine centers and work centers. Availability is stored in calendar entries.  
 
 > [!IMPORTANT]
-> Before you set up work or machine centers, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).
+> Before you set up work or machine centers, you must set up shop calendars. Learn more at [Create Shop Calendars](production-how-to-create-work-center-calendars.md).
 
 ## To set up a work center
 
@@ -65,10 +64,17 @@ The following steps describe how to set up a work center. The steps to set up a 
 15. In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
 16. Turn on the **Consolidated Calendar** toggle if you're also using machine centers. This setting ensures that calendar entries are rolled up from machine center calendars.  
 17. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
-18. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. 
+18. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center.
+19. If the location uses bins, fill in the fields on the **Warehouse** FastTab:
+    * In the **Location Code** field, select the location that the bin codes apply to. The bin codes are copied to production order routing lines only when the production order line's location matches this value.
+    * In the **Open Shop Floor Bin Code** field, specify the default bin for components that use **Manual**, **Forward**, or **Backward** flushing methods.
+    * In the **To-Production Bin Code** field, specify the default bin for components that use pick-based flushing methods (**Pick + Forward**, **Pick + Backward**, **Pick + Manual**).
+    * In the **From-Production Bin Code** field, specify the default bin for finished output. At the last routing operation, this bin code flows to the production order line's **Bin Code** field.
+
+    The same fields are available on machine center cards. When you assign a machine center to a work center, the machine center inherits the work center's location code. To learn more about how these bins flow to production order components, go to [Fill in the consumption bin](warehouse-how-to-set-up-locations-to-use-bins.md#fill-in-the-consumption-bin).
 
 > [!NOTE]
-> Use queue times to provide a buffer between the time that a component arrives at a machine or work center and when the operation actually starts. For example, a part is delivered to a machine center at 10:00 but it takes an hour to mount it on the machine so the operation does not start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work center card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  
+> Use queue times to provide a buffer between the time a component arrives at a machine or work center and when the operation actually starts. For example, a part is delivered to a machine center at 10:00, but it takes an hour to mount it on the machine so the operation doesn't start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work center card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This combination helps provide accurate overall production times.  
 
 ## Considerations about capacity
 
@@ -84,7 +90,7 @@ When you allocate a routing line to a work or machine center, [!INCLUDE [prod_sh
 To calculate the run time, the system allocates the exact time that is defined in the **Run Time** field of the routing line. Efficiency and capacity don't affect the allocated time. For example, if the run time is defined as 2 hours, then the allocated time is 2 hours, regardless of values in the efficiency and capacity fields in the work center.  
 
 > [!NOTE]
-> The capacity that is used in the calculations is defined as the minimal value between the capacity that is defined in the work or machine center and the concurrent capacity that is defined for the routing line. If a work center has a capacity of 100, but the concurrent capacity for the routing line is 2, then *2* will be used in the calculations.
+> The capacity used in the calculations is the minimum value between the capacity defined in the work or machine center and the capacity for the routing line. If a work center has a capacity of 100, but the concurrent capacity for the routing line is 2, then 2 is used in the calculations.
 
 The *duration* of an operation, on the contrary, considers both efficiency and capacity. Duration is calculated as *Run Time / Efficiency / Capacity*. The following list shows a few examples of the calculation of duration for the same run time, which is defined as 2 hours for the routing line:
 
@@ -92,8 +98,6 @@ The *duration* of an operation, on the contrary, considers both efficiency and c
 - Efficiency 200% means you can complete the work in one hour. You can dig the hole twice as fast if you have an excavator that is twice the size of the smaller one  
 
     You can get the same result if you use two smaller excavators instead of a large one. Use *2* as the capacity and *100%* as the efficiency  
-
-Fractional capacity is tricky. We'll discuss it later in this article. 
 
 ### Setup time
 
@@ -108,11 +112,11 @@ The fractal capacity is used only in specific cases.
 
 ### Work center processing multiple orders simultaneously
 
-Let's use a paint-spraying booth as an example. It has the same setup and run times for each processed lot. But each lot can contain multiple individual orders that are painted simultaneously.  
+Let's use a paint-spraying booth as an example. The booth has the same set-up time and run time for lots. But, each lot can contain multiple individual orders that are painted simultaneously.  
 
 In this case, the setup time and the concurrent capacity manage the cost allocated to orders. We recommend that you don't use run time in routing lines.  
 
-The allocated setup time for each individual order will be in reverse order of the number of orders (quantities) that are executed simultaneously. Here are some more examples of the calculation of setup time when that is defined as two hours for the routing line:
+The allocated setup time for each individual order is in reverse order of the number of orders (quantities) that are executed simultaneously. Here are some more examples of the calculation of setup time when that is defined as two hours for the routing line:
 
 - If there are two orders, then the concurrent capacity in the routing line should be set to 0.5.
 
@@ -127,7 +131,7 @@ In both cases, the total allocated time for all orders is two hours.
 ### Efficient resource can dedicate only part of their work date to productive work
 
 > [!NOTE]
-> This scenario is not recommended. We recommend that you use efficiency instead. 
+> This scenario isn't recommended. We recommend that you use efficiency instead. 
 
 One of your work centers represents an experienced worker who works with 100% efficiency on tasks. But they can only spend 50% of their working time on tasks because the rest of the time they solve administrative tasks. While this worker is capable to complete a two hour task in exactly two hours, in average you must wait another two hours while the person is dealing with other assignments.  
 
@@ -163,7 +167,7 @@ If you don't want the capacities of work centers to contribute to the total capa
 
 ## To set up a capacity constrained machine or work center
 
-You must set up production resources that you regard as critical and mark them to accept a finite load instead of the default infinite load that other production resources accept. A capacity-constrained resource can be a work center or machine center that's a bottleneck and would like to establish a limited, finite load for.
+You must set up the production resources that you regard as critical to accept a finite load instead of the default infinite load. A capacity-constrained resource can be a work center or machine center that's a bottleneck and would like to establish a limited, finite load for.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] doesn't support detailed shop floor control. It plans for a feasible utilization of resources by providing a rough-cut schedule, but doesn't automatically create and maintain detailed schedules based on priorities or optimization rules.
 

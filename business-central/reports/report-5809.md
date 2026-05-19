@@ -21,7 +21,15 @@ The **Item Expiration - Quantity** report shows current inventory levels for ite
 
 Specify an ending date and period length formula. The report uses this information to calculate columns for three preceding periods of equal length. Inventory is then totaled for each period to show stock expiry, and inventory that expires either before or after the range.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
+
+[!INCLUDE[available-layouts-excel-only](../includes/available-layouts-excel-only.md)]
+
 ## Use cases
+
+[!INCLUDE [report-5809-scenario](../includes/report-5809-scenario-include.md)]
 
 <!-- 
 Prompt

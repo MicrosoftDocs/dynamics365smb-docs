@@ -25,6 +25,8 @@ You can configure the report to print item charges that relate to either sales o
 
 ## Use cases
 
+[!INCLUDE [report-5806-scenario](../includes/report-5806-scenario-include.md)]
+
 <!-- 
 Prompt
 

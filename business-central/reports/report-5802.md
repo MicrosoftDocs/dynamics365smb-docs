@@ -31,6 +31,13 @@ The report displays information such as:
 - Output
 - Cost posted to G/L
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
+
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+
+
 ## Use cases
 
 [!INCLUDE[report-5802-scenario](../includes/report-5802-scenario-include.md)]

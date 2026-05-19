@@ -986,9 +986,28 @@
             "source_path": "business-central/finance-learn-about-costing.md",
             "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
             "redirect_document_id": "false"
-         }         
-
+         },
+    {
+      "source_path": "business-central/LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md",
+      "redirect_url": "/dynamics365/business-central/localfunctionality/unitedkingdom/ui-extensions-ideal-postcodes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "business-central/LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md",
+      "redirect_url": "/dynamics365/business-central/localfunctionality/unitedkingdom/ui-extensions-setup-idealpostcodes",
+      "redirect_document_id": false
+    },
+   
         
-         
+      {
+            "source_path": "business-central/use-payables-agent.md",
+            "redirect_url": "/dynamics365/business-central/supervise-agent-tasks",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-bookings.md",
+            "redirect_url": "/dynamics365/business-central",
+            "redirect_document_id": "false"
+         }               
         ]
 }

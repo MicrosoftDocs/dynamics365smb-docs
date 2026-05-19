@@ -6,14 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.form: HelpAndSupport
-ms.date: 10/25/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
 # Resources for help and support
-
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they might experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -51,7 +49,7 @@ The following list describes how you can access the Help pane and whether cards 
 - Choose the *Learn more* link on a tooltip for a field, if available. The *Learn more* link is only available in the mobile app or on custom fields (that is, fields from non-Mocrosoft extensions) in the web client.
 
 > [!TIP]
-> When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
+> When you choose a link, the target article opens in a new browser tab. You can choose to undock the browser tab so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
 
 ## Search in the Help pane
 
@@ -96,7 +94,7 @@ The **Find it** section includes two links to product Help:
   
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described in the [Dynamics 365 Business Central documentation](/dynamics365/business-central) Learn more in the [Learn more using the product documentation](#learn-more-using-the-product-documentation) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
+  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described in the [Dynamics 365 Business Central documentation](/dynamics365/business-central) Learn more in the [Learn more using the product documentation](#learn-more-using-the-product-documentation) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from Marketplace. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### Community
 
@@ -129,13 +127,13 @@ Periodically, the [!INCLUDE [prod_short](includes/prod_short.md)] team gathers f
 
 On the [Dynamics 365 Ideas site](https://aka.ms/bcideas) website, you can provide suggestions for new features and capabilities. Your input goes directly into Business Central's engineering backlog for investigation and prioritization.  
 
-Make sure that you search through the list of submitted suggestions. There's a chance that someone already submitted something similar, and that entry might have already received votes. Vote if an idea already has been submitted to get it prioritized on the engineering backlog.  
+Make sure that you search through the list of submitted suggestions. There's a chance that someone already submitted something similar, and that entry has received votes. Vote if an idea was already submitted to get it prioritized on the engineering backlog.  
 
 ### Troubleshooting
 
 The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. The section includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. Learn more in [Inspecting Pages in Business Central](across-inspect-page.md).  
 
-To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyze the extra telemetry in the admin center or Application Insights, for example.  
+To help you or your supporting partner troubleshoot, you can switch on more logging in the **Report a Problem** section. You can then analyze the extra telemetry in the admin center or Application Insights, for example.  
 
 As the internal administrator, you have access to the admin center where you can continue the troubleshooting. You can view telemetry, manage environments, and manage user sessions. The following articles in the administration content provide more information:
 
@@ -151,7 +149,7 @@ Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner helps you 
 Learn more in [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
 > [!NOTE]
-> With [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Report a Problem** section is only available if you have paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you don't have a reselling partner, and you can't contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. Learn more in [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
+> With [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Report a Problem** section is only available if you paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you signed up for a trial and haven't yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you don't have a reselling partner, and you can't contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. Learn more in [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 >
 > With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, this section is only available in 2020 release wave 2 (version 18) and later.
 
@@ -160,7 +158,7 @@ Learn more in [Escalating support issues to Microsoft](/dynamics365/business-cen
 The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team, like: Do you need technical support? Contact support at `someone@example.com` or `https://www.contoso.com`. 
 
 > [!NOTE]
-> If support contact details aren't present, it means that your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner hasn't provided the information. As a reslling partner, you set up the preferred support contact details in the admin center. Learn more in [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content.  
+> If support contact details aren't present, your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner must provide the information. As a reselling partner, you set up the preferred support contact details in the admin center. Learn more in [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content.  
 
 To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Microsoft Entra tenant from the **Troubleshooting** section and any other information that you find relevant.  
 
@@ -196,7 +194,7 @@ The table of contents includes a group of content that describes [local function
 The local functionality content describes the capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the specific country/region version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you can't find a description of a certain button or action in the general section, you can hopefully find it in the *Local Functionality* section.  
 
 > [!TIP]
-> On the learn.microsoft.com site as well as in the in-product search field and in the Help pane, the search results show some context for the target article. The context includes the link that might show the name of a country, or a short description that calls out a certain capability or a country/region, for example.
+> On the learn.microsoft.com site and in the in-product search field and in the Help pane, the search results show some context for the target article. The context includes the link that might show the name of a country/region, or a short description that calls out a certain capability or a country/region, for example.
 
 ### Find other content
 

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 108, 198, 490, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993, 36994, 36995, Report_4, Report_6, Report_7, Report_9, Report_10, Report_17, Report_18, Report_25, Report_27, Report_28, Report_33, Report_38, Report_104, Report_120, Report_129, Report_304, Report_322, Report_329, Report_1404
-ms.date: 12/30/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -103,7 +103,7 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 - Data analysis on ledger list pages
 - Open in Excel
 
-The Data analysis feature lets you open almost any list page, such as General Ledger Entries, Fixed Asset Ledger Entries, Check Ledger Entries, or Bank Account Ledger Entries, enter analysis mode, and then group, filter, and pivot data as you see fit.
+The Data analysis feature lets you open almost any list page, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
 :::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
 

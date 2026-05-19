@@ -1,16 +1,17 @@
 ---
-title: Design details - Inventory valuation | Microsoft Docs
+title: Design details - Inventory valuation
 description: Inventory valuation is the determination of the cost of an inventory item.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 12/13/2023
+ms.date: 03/17/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 # Design details: Inventory valuation
+
 Inventory valuation is the determination of the cost that is assigned to an inventory item, as expressed by the following equation.  
 
 Ending inventory = beginning inventory + net purchases – cost of goods sold  

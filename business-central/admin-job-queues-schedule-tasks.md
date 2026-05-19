@@ -5,10 +5,10 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 08/26/2024
-ms.custom: bap-template
+ms.date: 04/07/2026
 ms.search.form: 672, 673, 674, 671
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Use job queues to schedule tasks
 
@@ -22,7 +22,7 @@ The **Job Queue Entries** page lists all existing jobs. If you add a job queue e
 * The schedule for when, and how often, the job queue entry runs.
 
 > [!IMPORTANT]  
-> If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries, but only administrators and licensed users can run them.
+> If you have the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries, but only administrators and licensed users can run them.
 
 After a job finishes successfully, [!INCLUDE [prod_short](includes/prod_short.md)] removes it from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.
 
@@ -45,7 +45,7 @@ You can use job queue entries to schedule business processes to run in the backg
 ## Important for scheduling recurring jobs
 
 > [!IMPORTANT]  
-> Recurring job queues can affect performance, so you shouldn't run them too frequently. When you set up how often to run a recurring job, try to set the largest time interval you can. For example, if you're about to set a recurrence of five minutes, consider whether it can be 15 minutes, or even once per hour instead. When planning for recurring job queues, consider which areas of the application the job will affect. Is it an area where many users work and will be impacted by heavy activity? Consider the length of a single job run and the business motivations for running jobs with a given cadence.
+> Recurring job queues can affect performance, so you shouldn't run them too frequently. When you set up how often to run a recurring job, try to set the largest time interval you can. For example, if you're about to set a recurrence of five minutes, consider whether it can be 15 minutes, or even once per hour instead. When planning for recurring job queues, consider which areas of the application the job affects. Is it an area where many people work that might be affected by heavy activity? Consider the length of a single job run and the business motivations for running jobs with a given cadence.
 
 ## The earliest start date
 
@@ -69,13 +69,13 @@ The following table describes the values of the **Status** field.
 | In Process | The job queue entry is in process. This field updates while the job queue is running. |
 | On Hold | The default status of the job queue entry when you create it. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. To learn more, go to [About On Hold](#about-on-hold).|
 | On Hold Due to Inactivity | Used primarily for job queue entries that schedule synchronization between [!INCLUDE [prod_short](includes/prod_short.md)] and another application, such as [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. To learn more about this status, go to [About inactivity timeouts](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts). |
-|Waiting | Only relevant for job queue entries that are assigned a category code. Indicates that the job is scheduled, but the underlying scheduled task isn't active. After the job queue entry that's currently running and is in the same category finishes, the status of the next job in the category with the status Waiting becomes Ready. |
+|Waiting | Only relevant for job queue entries that have a category code. Indicates that the job is scheduled, but the underlying scheduled task isn't active. After the job queue entry that's currently running and is in the same category finishes, the status of the next job in the category with the status Waiting becomes Ready. |
 | Error | Something went wrong. Choose **Show Error** to show the error message. |
 | Finished | The job queue entry is complete. |
 
 ### About On Hold
 
-Setting a job queue entry to **On Hold** doesn't affect a job that's already running. After a job starts, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.<br><br>The **On Hold** status is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause a job before it begins processing. <br><br>If you need to stop or cancel a running job, you can manually intervene in the process. For example, you can stop the corresponding session or process.
+Setting a job queue entry to **On Hold** doesn't affect a job that's already running. After a job starts, it runs until it completes, regardless of changes made to the job queue entry, such as putting it on hold.<br><br>The **On Hold** status is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause a job before it begins processing. <br><br>If you need to stop or cancel a running job, you can manually intervene in the process. For example, you can stop the corresponding session or process.
 
 ### To view status for any job
 
@@ -125,7 +125,7 @@ You can configure the **Job Queue Tasks** cue to use color indicators, so it's e
 
 ## Handle job queue entry issues
 
-Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
+Job queue entries stop running when there's an error. For example, if there's a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily unavailable and the job queue entry can't connect, the entry shows an error and stops running. You must manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
 
 If a job queue entry shows an error, your first option to resolve the issue is to restart the job queue entry. You can set the status of the job queue entry to **On Hold** and then to **Ready**, or just restart it.
 
@@ -157,8 +157,8 @@ To set up notifications for job queue entry failures, start the **Set Up Job Que
 
    :::image type="content" source="media/in product notification example.png" alt-text="Shows a notification at the top of a home page.":::
 
-   Or, use [external business events](/dynamics365/business-central/dev-itpro/developer/business-events-overview#query-business-central-catalog-of-business-events-in-dataverse) to start a Power Automate flow. You can specify when, how, and who to notify for the flow. Your Power Automate flow must subscribe to the **Job queue task failed** event. To make it easier to create a flow that uses external business events, [!INCLUDE [prod_short](includes/prod_short.md)] provides the [Notify in Outlook when Job Queue in Business Central fails](https://go.microsoft.com/fwlink/?linkid=2288541) Power Platform template. An assisted setup guide helps you get set up in just a few steps. To learn more about Power Automate flows, go to [Use Power Automate flows in Business Central](/dynamics365/business-central/across-how-use-financials-data-source-flow).
-* When you want to be notified. You can choose to be notified immediately, or specify thresholds to be notified only after a number of job queue entries fail.
+   Or, use [external business events](/dynamics365/business-central/dev-itpro/developer/business-events-overview#query-business-central-catalog-of-business-events-in-dataverse) to start a Power Automate flow. You can specify when, how, and who to notify for the flow. Your Power Automate flow must subscribe to the **Job queue task failed** event. To make it easier to create a flow that uses external business events, [!INCLUDE [prod_short](includes/prod_short.md)] provides the [Notify in Outlook when Job Queue in Business Central fails](https://go.microsoft.com/fwlink/?linkid=2288541) Power Platform template. An assisted setup guide helps you get set-up in just a few steps. To learn more about Power Automate flows, go to [Use Power Automate flows in Business Central](/dynamics365/business-central/across-how-use-financials-data-source-flow).
+* When you want to be notified. You can choose to be notified immediately, or specify thresholds to be notified only after many job queue entries fail.
 
 After you set up notifications, you can always turn them on or off. On the **My Notifications** page, for the **Job Queue Failed Notification**, select or clear the **Enabled** checkbox.
 

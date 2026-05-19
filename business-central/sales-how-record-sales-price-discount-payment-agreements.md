@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/29/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
@@ -118,7 +118,7 @@ When the **Allow Editing Active Price** toggle is turned off, to update prices i
 The **Prices Overview** page provides an overview of all prices across price lists. You can set filters to narrow down the list of prices you might want to modify or add to. After you modify prices, you must use the **Verify Lines** action to verify the prices against other price list lines. Verifying prices helps avoid duplicates and ambiguity during price calculation.
 
 > [!NOTE]
-> When you edit a line in an active price list the status of the line becomes **Draft**, and the line isn't considered during price calculation until you use the **Verify Lines** action. After you verify the price, the status of the line becomes **Active** and it is considered in price calculations.
+> When you edit a line in an active price list the status of the line becomes **Draft**, and the line isn't considered during price calculation until you use the **Verify Lines** action. After you verify the price, the status of the line becomes **Active** and it's considered in price calculations.
 
 To add new prices, on the **Prices Overview** page, use the **Add New Lines** action. The **Prices Worksheet** page opens, and you can add price lines either by suggesting them based on criteria, copying them from other price lists, or manually entering them. Afterward, you can use the **Implement Price Change** action to compare the new prices with other price lists to avoid duplicates and ambiguity during price calculation.
 
@@ -165,7 +165,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 6. Choose the **OK** button to fill in the lines on the **Sales Price Worksheet** page with the suggested new prices, indicating that they're valid for the selected sales type.  
 
    > [!NOTE]  
-   > This batch job only creates suggestions and it doesn't implement the suggested changes. If you're satisfied with the suggestions and want to implement them, that is insert them on the **Sales Prices** page, choose the **Implement Price Changes** action on the **Sales Price Worksheet** page.
+   > This batch job only creates suggestions and it doesn't implement the suggested changes. If you're satisfied with the suggestions and want to add them on the **Sales Prices** page, choose the **Implement Price Changes** action on the **Sales Price Worksheet** page.
 
 #### [New experience](#tab/new-experience/)  
 

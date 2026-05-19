@@ -1,0 +1,1 @@
+Reconcile your inventory subledger with inventory accounts in the general ledger at the end of each period. Analyze changes to expected costs posted during the period, and determine the value of on-hand inventory for financial reporting.

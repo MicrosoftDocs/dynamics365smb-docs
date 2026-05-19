@@ -35,3 +35,4 @@ Unlike customer subscription lines, you can assign vendor subscription lines to 
 
 [Subscription lines](masterdata/service-commitments.md)  
 [Termination of contract components](working-with-contracts/service-commitment-cancellation.md)  
+[Power BI Subscription Billing app](analytics/subscription-powerbi-app.md)  

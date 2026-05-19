@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256, 404, 
-ms.date: 07/17/2024
+ms.date: 04/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -26,10 +26,10 @@ These steps result in positive vendor ledger entries that are applied to negativ
 You can pay with two types of checks. For both types, the **Bal. Account Type** or the **Account Type** field must contain **Bank Account**.
 
 - **Computer Check**: Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines.
-- **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you can't print the check.
+- **Manual Check**: Select this option if you created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you can't print the check.
 
 > [!NOTE]  
-> To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information. To learn more, go to [Export a Positive Pay file](finance-how-positive-pay.md).
+> To ensure that your bank only clears validated checks and amounts, you can send them a file with vendor, check, and payment information. To learn more, go to [Export a Positive Pay file](finance-how-positive-pay.md).
 
 > [!IMPORTANT]
 > Your printer must be correctly set up with the check forms, and you must define which check layout to use. To learn more, go to [Select a Check Layout](finance-how-define-check-layouts.md). Alternatively, you can send the check as a PDF file, for example.  
@@ -38,7 +38,7 @@ You can print up to 10 invoices on a page for a check stub. If a check applies t
 
 ## To pay a vendor invoice with a check
 
-The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
+The following steps describe how to pay a vendor by check. The steps are similar to refund a customer by check.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 2. Fill in the payment journal lines. To learn more, go to [Record Payments and Refunds](payables-how-post-payments-refunds.md).
@@ -57,7 +57,7 @@ The following describes how to pay a vendor by check. The steps are similar to r
 
 ## To cancel printed checks that aren't posted
 
-You can cancel non-posted checks after they have been printed by using the **Void Check** action on the **Payment Journal** page.
+You can cancel unposted checks after you printed them by using the **Void Check** action on the **Payment Journal** page.
 
 1. On the **Payment Journal** page, choose the **Void Check**, and then choose which checks to cancel.
 

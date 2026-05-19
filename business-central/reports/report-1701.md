@@ -19,6 +19,12 @@ ai.usage: ai-assisted
 
 The **Sales Deferral Summary** report shows how sales invoice revenue is deferred over future periods. Use the report to validate that deferrals follow revenue recognition policies and to reconcile revenue deferral balances.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
+
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+
 ## Use cases
 
 [!INCLUDE [report-1701-scenario](../includes/report-1701-scenario-include.md)]

@@ -215,7 +215,7 @@ additionalContent:
 #        url: /dynamics365/business-central/dev-itpro/developer/devenv-get-started
 #      - text: Build your first app
 #        url: /dynamics365/business-central/dev-itpro/developer/devenv-extension-example
-      - text: Develop for AppSource
+      - text: Develop for Marketplace
         url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
       - text: AL language reference
         url: /dynamics365/business-central/dev-itpro/developer/

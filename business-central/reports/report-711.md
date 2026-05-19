@@ -23,7 +23,15 @@ Items are sorted by sales amounts within the selected period. The list gives a q
 
 Use this report when you plan your purchasing.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
+
+[!INCLUDE[available-layouts-excel-only](../includes/available-layouts-excel-only.md)]
+
 ## Use cases
+
+[!INCLUDE [report-711-scenario](../includes/report-711-scenario-include.md)]
 
 <!-- 
 Prompt

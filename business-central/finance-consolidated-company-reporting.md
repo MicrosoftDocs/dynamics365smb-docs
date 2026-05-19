@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 11/13/2024
+ms.date: 04/07/2026
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 240_Primary, Report_16, Report_17, Report_18, Report_4410, 1826, 1827
@@ -16,7 +16,7 @@ ms.service: dynamics-365-business-central
 
 Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company.  
 
-Each company involved in a consolidation is called a business unit. The company in which you combine the data is called the consolidated company.  
+Each company involved in a consolidation is a business unit. The company in which you combine the data is the consolidated company.  
 
 You can transfer financial data from subsidiaries to the consolidated company, even if the subsidiaries use [!INCLUDE [prod_short](includes/prod_short.md)] in different environments. To learn more about how to connect to other environments, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#busunit).
 
@@ -51,10 +51,10 @@ Before you consolidate, it's a good idea to test your data before you transfer i
 
 ### Run the consolidation
 
-After you've tested the data, you can transfer it to the consolidated company. An assisted setup guide will help you through the process.
+After you test the data, you can transfer it to the consolidated company. An assisted setup guide helps you through the process.
 
 > [!NOTE]
-> When you run the consolidation you can choose the companies to include. If your consolidated company doesn't have access to one or more subsidiaries, the guide will let you grant access to them.
+> When you run the consolidation, you can choose the companies to include. If your consolidated company doesn't have access to one or more subsidiaries, the guide lets you grant access to them.
 
 1. Sign in to the consolidated company.  
 2. On the **Business Units** page, choose the **Consolidate** action.  
@@ -119,12 +119,12 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 
 1. For each exported line, if the total of the **Amount** fields is a debit, the account number that is set up in the business unit's **Consol. Debit Acc.** field is exported to the line. If the total is a credit, the corresponding number in the **Consol. Credit Acc.** field is exported to the line.  
 2. The date used for each exported line is either the period's ending date or, if the transfer occurs each day, the exact date of the calculation.  
-3. The dimension value exported for the entry will be the consolidated company dimension value that is specified in the **Consolidation Code** field for that dimension value. If a consolidated company dimension value hasn't been entered in the **Consolidated Code** field for the dimension value, the dimension value itself will be exported to the line.  
+3. The dimension value exported for the entry is the consolidated company dimension value that is specified in the **Consolidation Code** field for that dimension value. If a consolidated company dimension value isn't entered in the **Consolidated Code** field for the dimension value, the dimension value itself is exported to the line.  
 4. The XML files also contain the currency exchange rates in the consolidation period. These rates are included in a separate section at the beginning of the file.  
 
 ## Use our API to automatically share data across environments
 
-[!INCLUDE [prod_short](includes/prod_short.md)] provides an API that let's you automate the process of sharing financial data from business units to the consolidated company. The API is free to use and easy to set up. It even let's you share data across [!INCLUDE [prod_short](includes/prod_short.md)] environments. For example, you might need to share across environments when business units are not in the same Azure geographies. To learn more about using the API to automate the consolidation process, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#busunit).
+[!INCLUDE [prod_short](includes/prod_short.md)] provides an API that lets you automate the process of sharing financial data from business units to the consolidated company. The API is free to use and easy to set up. It even lets you share data across [!INCLUDE [prod_short](includes/prod_short.md)] environments. For example, you might need to share across environments when business units aren't in the same Azure geographies. To learn more about using the API to automate the consolidation process, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#busunit).
 
 ## Related information
 

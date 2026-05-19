@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 5430,
-ms.date: 09/11/2025
+ms.date: 03/18/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -137,6 +137,38 @@ The attention warning displays in two situations:
 
 > [!NOTE]
 > In planning lines with warnings, the **Accept Action Message** field isn't selected, because the planner is expected to further investigate these lines before carrying out the plan.
+
+### Missing SKU Planning Policy
+
+Two fields on the **Location Card** give you per-location control over SKU-related behavior during supply planning and SKU creation.
+
+When the planning system detects demand at a location, it checks whether a SKU exists for the item at that location. If a SKU exists, the item is planned according to planning parameters on the SKU card. 
+
+The **Missing SKU Planning Policy** field on the **Location Card** page lets you choose what happens when no SKU exists. You can preserve the original behavior, use the item card parameters instead, or skip planning entirely for that location.
+
+### Missing SKU Planning Policy
+
+When the planning system detects demand at a location, it checks for a SKU in the following sequence. The **Missing SKU Planning Policy** field determines what happens at step 2 when no SKU exists. If it finds a SKU, the item is planned according to planning parameters on the SKU card. This is the same for all three policy values. If it doesn't find a SKU, it checks the **Missing SKU Planning Policy** field on the demand location. What happens next depends on the policy value, as described in the following table.
+
+| Policy value | System behavior |
+|---|---|
+|Minimal (default) | This policy preserves the existing behavior described in [Planning with or without locations](/dynamics365/business-central/production-planning-with-without-locations):<br><br>- If the **Components at Location** field in **Manufacturing Setup** equals the demand location, the item is planned according to planning parameters on the item card.<br>- If **Components at Location** differs from the demand location and the **Reordering Policy** on the item card is **Order**, the item is planned according to planning parameters on the item card. Items using the reordering policy **Order** continue to use the policy and the other settings.<br>- Otherwise, the item is planned according to the minimal alternative where the **Reordering Policy** is set to **Lot-for-Lot**, **Include Inventory** is **Yes**, all other planning parameters are empty. |
+|Item Card| The item is planned according to planning parameters on the item card, regardless of the **Components at Location** setting. The system creates a temporary SKU by copying planning parameters from the item for the planning run. It logs an entry on the **Planning Error Log** page, noting that planning parameters were taken from the item card because the SKU doesn't exist. |
+| Don't Plan | The system skips planning for the item at this location entirely, similar to what happens when the **Reordering Policy** field is blank on the item or SKU. It logs an entry on the **Planning Error Log** page, noting that the item wasn't planned because the SKU doesn't exist and the **Missing SKU Planning Policy** is set to **Don't Plan**. |
+   
+> [!NOTE]
+> The **Don't Plan** setting takes priority over the **Components at Location** field on **Manufacturing Setup** page. Even if **Components at Location** equals the demand location, the item isn't planned when the policy is **Don't Plan**.
+
+#### SKU Creation Policy field
+
+This field controls whether stockkeeping units can be created for the location. The field complements the **Missing SKU Planning Policy** field by preventing people from accidentally creating SKUs at locations where SKU-level management isn't needed. The following table describes the available options-
+
+| Field value | System behavior |
+|---|---|
+| Allowed (default) | You can create SKUs manually. The **Create Stockkeeping Unit** report (5706) creates SKUs for this location. |
+| Blocked | You can't create SKUs manually for this location. The **Create Stockkeeping Unit** report skips this location silently. |
+
+Blocking applies only to real (persisted) SKUs. Temporary SKUs that the planning engine creates internally aren't affected.
 
 ## Planning worksheets and requisition worksheets
 

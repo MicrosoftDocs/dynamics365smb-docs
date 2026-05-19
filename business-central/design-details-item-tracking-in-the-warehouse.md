@@ -1,17 +1,17 @@
 ---
-title: Design Details - Item Tracking in the Warehouse
+title: Design details - Item tracking in the warehouse
 description: Inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 06/15/2021
+ms.date: 03/15/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Item Tracking in the Warehouse
+# Design details: Item tracking in the warehouse
+
 Serial number and lot number handling is primarily a warehouse task and therefore all inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.  
 
 However, because the reservation system is based on item ledger entries, warehouse activity documents that register only warehouse entries are not fully supported. Because reservations and item tracking numbers can be handled only at the location level, not at the bin and zone level, the **Item Tracking Lines** page cannot be opened from warehouse activity documents. The same applies to the **Reservation** page.  

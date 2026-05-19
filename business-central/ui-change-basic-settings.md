@@ -92,7 +92,7 @@ Changes the display language. This field appears only when there's more than one
 
 When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], your administrator or your browser settings determine the initial language. The language that you set is used on all devices that you sign in from, such as a phone or tablet.
 
-You can install more languages for [!INCLUDE[prod_short](includes/prod_short.md)] from AppSource. While all supported display languages are shown in the list, the administrator must install the relevant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
+You can install more languages for [!INCLUDE[prod_short](includes/prod_short.md)] from Marketplace. While all supported display languages are shown in the list, the administrator must install the relevant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
 > On the **Allowed Languages** page, administrators can modify the list of languages that shows when people select their language and region. Administrators can show only the languages for which they know a language app is installed. Keeping the list of languages short and accurate makes it easier for people to choose a supported language. To learn more about allowed languages, go to [Specify the languages that are available in your Business Central environment](admin-allowed-languages.md).

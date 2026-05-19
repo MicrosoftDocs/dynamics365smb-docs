@@ -5,12 +5,12 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
-ms.date: 07/01/2025
+ms.date: 03/17/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Design details: variance
+# Design details: Variance
 
 Variance is the difference between the actual cost and the standard cost, as described in the following formula:  
 

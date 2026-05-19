@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.search.keywords: field mapping, SEPA CAMT, SEPA bank statements, CAMT format, data exchange definition
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 10/14/2025
+ms.date: 11/27/2025
 ms.custom: bap-template
 ---
 
@@ -46,13 +46,13 @@ Learn more in [Set Up Data Exchange Definitions](across-how-to-set-up-data-excha
 ## CAMT data mapping to fields in the Bank Acc. Reconciliation Line table (274)  
 
 |Element Path|Message Element|Data Type|Description|Negative-Sign Identifier|Field No.|Field Name|  
-|------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
+|---------|---------|------|--------|-----------|--------|----------------|  
 |Stmt/Ntry/Amt|Amount|Decimal|The amount of money in the cash entry||7|Statement Amount|  
 |Stmt/Ntry/CdtDbtInd|CreditDebitIndicator|Text|Indicates whether the entry is a credit or a debit entry|DBIT|7|Statement Amount|  
 |Stmt/Ntry/BookgDt/Dt|Date|Date|The date when an entry is posted to an account on the account servicer's books||5|Transaction Date|  
 |Stmt/Ntry/BookgDt/DtTm|DateTime|DateTime|The date and time when an entry is posted to an account on the account servicer's books||5|Transaction Date|  
-|Stmt/Ntry/ValDt/Dt|Date|Date|The date when assets become available to the account owner in case of a credit entry, or cease to be available to the account owner in case of a debit entry||12|Value Date|  
-|Stmt/Ntry/ValDt/DtTm|DateTime|DateTime|The date and time when assets become available to the account owner in case of a credit entry, or cease to be available to the account owner in case of a debit entry||12|Value Date|  
+|Stmt/Ntry/ValDt/Dt|Date|Date|For a credit entry, the date when assets become available to the account owner. For a debit entry, the date when assets become unavailable to the account owner.||12|Value Date|  
+|Stmt/Ntry/ValDt/DtTm|DateTime|DateTime|For a credit entry, the date and time when assets become available to the account owner. For a debit entry, the date when assets become unavailable to the account owner.||12|Value Date|  
 |Stmt/Ntry/NtryDtls/TxDtls/RltdPties/Dbtr/Nm|Name|Text|The name of the party that owes an amount of money to the (ultimate) creditor||15|Payer Information|  
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstructured|Text|Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts-receivable system, in an unstructured form||6|Description|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Additional information about the entry||16|Transaction Information|  

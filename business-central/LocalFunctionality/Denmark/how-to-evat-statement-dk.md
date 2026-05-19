@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: vat, return, statement, electronic, denmark, submission, skat
 ms.search.form: 
-ms.date: 03/03/2025
+ms.date: 01/23/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -26,6 +26,12 @@ To generate a VAT return and send it directly to the Danish Tax Agency's VAT API
 - On the **Company Information** page, configure the **Registration No.** and **VAT Registration No.** fields for the legal entity. In the **Registration No.** field, enter the legal entity's Central Business Register (CVR) number.
 - On the **VAT Posting Setup SAF-T** page, associate a VAT posting group setup with **Sales VAT Reporting Code** and **Purchase VAT Reporting Code**.
 - Obtain certificates to work with the Danish Tax Agency's VAT API, and store them in the Azure key vault.
+
+## Prerequisites
+
+### Delegate rights to an accounting system provider at skat.dk  
+
+To submit your VAT return directly to the Danish Tax Agency, you must delegate rights to an accounting system provider (Regnskabssystemsudbyder \[RSU\]) at skat.dk. A guide that explains how to delegate rights to an RSU is published in the [skat.dk portal](https://skat.dk/erhverv/moms/momsregnskab). You can also access it at [https://info.skat.dk/data.aspx?oid=2339573&chk=219318](https://info.skat.dk/data.aspx?oid=2339573&chk=219318). To submit your VAT returns directly from Dynamics 365 Business Central to NemVirksomhed APIs, delegate the **NemVirksomhed - adgang for regnskabssystemudbyder** RSU to the following Danish Central Business Register (Centrale Virksomhedsregister \[CVR\]) number: **13612870**.
 
 ## Set up VAT return submission
 

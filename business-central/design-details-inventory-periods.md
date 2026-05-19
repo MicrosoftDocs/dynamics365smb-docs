@@ -1,17 +1,17 @@
 ---
-title: Design Details - Inventory Periods
+title: Design details - Inventory periods
 description: Inventory Periods helps avoid problems with balances and stock valuations by opening or closing inventory periods to limit posting in a set period of time.
 author: brentholtorf
-ms.topic: article
-ms.devlang: al
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 06/15/2021
+ms.date: 03/17/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Design Details: Inventory Periods
+# Design details: Inventory periods
+
 Backdated transactions or cost adjustments often affect balances and stock valuations for accounting periods that may be considered closed. This can have adverse effects on accurate reporting, especially within global corporations. The Inventory Periods feature can be used to avoid such problems by opening or closing inventory periods to limit posting in a set period of time.  
 
  An inventory period is a period of time, defined by an ending date, in which you post inventory transactions. When you close an inventory period, no value changes can be posted in the closed period. This includes new value postings, expected or invoiced postings, changes to existing values, and cost adjustments. However, you can still apply to an open item ledger entry that falls in the closed period. For more information, see [Design Details: Item Application](design-details-item-application.md).  

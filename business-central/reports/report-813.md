@@ -37,6 +37,8 @@ The quantity to ship is a total for each item.
 
 ## Use cases
 
+[!INCLUDE [report-813-scenario](../includes/report-813-scenario-include.md)]
+
 <!-- 
 Prompt
 

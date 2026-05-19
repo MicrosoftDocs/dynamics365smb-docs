@@ -63,9 +63,6 @@ You can use three different subcontracting types for component posting:
 
 Automatic location changes ensure correct inventory management and cost accounting according to physical reality.
 
-> [!IMPORTANT]
-> For automatic location changes to work, you must set the type of production order operation to **Work Center Group**.
-
 ## Create transfer orders for subcontracting
 
 For components with the **Transfer** subcontracting type, you must create transfer orders manually.

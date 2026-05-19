@@ -82,6 +82,22 @@ When the purchase order is posted as invoiced, the direct cost of the purchase o
 > [!NOTE]
 > Expected costs are only managed for item transactions, not for immaterial transaction types such as capacity posted via subcontract purchase orders. Posting a receipt might trigger posting of output, but these transactions are separate, and the expected cost of output is calculated independently.
 
+## Undo subcontracting receipts
+
+You can undo subcontracting receipts before you post them as invoiced. To undo a subcontracting receipt, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Receipts**, and then choose the related link.
+2. Open the posted purchase receipt that contains the subcontracting line.
+3. Select the line, and then choose the **Undo Receipt** action.
+
+This action creates an identical line with the opposite sign in the **Quantity** field, along with the capacity ledger entry. If the canceled receipt line links to the last routing operation, the undo action also creates an item ledger entry of the type **Output**.
+
+> [!NOTE]
+> You can't undo a receipt if it's invoiced or if the production order is finished.
+
+> [!IMPORTANT]
+> If posting the subcontracting receipt consumed components because of the flushing method, the undo action doesn't revert the consumption transactions. To reverse these transactions, use an output journal or the **Reverse Production Order Transaction** action. Learn more in [Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md).
+
 ## Related information
 
 [Subcontracting overview](production-how-to-subcontract-manufacturing.md)  

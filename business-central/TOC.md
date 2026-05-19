@@ -1156,8 +1156,7 @@ ms.service: dynamics-365-business-central
 #### [Subcontracting overview](production-how-to-subcontract-manufacturing.md)
 #### [Order subcontracting from production orders](subcontract-order.md)
 #### [Use the subcontracting worksheet](subcontract-worksheet.md)
-#### [Create transfer orders](subcontract-transfer-order.md)
-#### [Post components](subcontract-post-components.md)
+#### [Manage components](subcontract-components.md)
 #### [Assign item charges](subcontract-item-charges.md)
 ### [About finished production order costs](finance-about-finished-production-order-costs.md)
 
@@ -2334,7 +2333,7 @@ ms.service: dynamics-365-business-central
 #### [Set up standard routing lines](production-how-set-up-standard-routing-lines.md)
 #### [Set up subcontracting](subcontract-setup.md)
 #### [Set up subcontractor prices](subcontract-prices.md)
-#### [Manage subcontracting locations](subcontract-location-management.md)
+#### [Set up subcontracting locations](subcontract-location-management.md)
 <!-- #### [Set up purchase provisions](subcontract-purchase-provisions.md) -->
 <!-- #### [Set up provisions (setup guide)](subcontract-setup-configurator.md) -->
 

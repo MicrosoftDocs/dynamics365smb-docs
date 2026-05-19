@@ -43,7 +43,36 @@ The following steps describe how to configure purchase provisions.
 
 Make sure that you set up the data for the work center groups assigned to the provisions, including their work calendars. Learn more in [Set up work and machine centers](production-how-to-set-up-work-and-machine-centers.md).
 
-<!--
+## Set up default component locations
+
+You can specify which location [!INCLUDE [prod_short](includes/prod_short.md)] uses by default to provide components for subcontracting.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Setup**, and then choose the related link.
+2. On the **Purchase Provisions** FastTab, in the **Components at Location** field, choose one of the following options:
+
+|Option|Description|
+|------|----------|
+|**Purchase**|Components come from the standard purchase location. [!INCLUDE [prod_short](includes/prod_short.md)] determines the location automatically.|
+|**Company**|Components come from the company location specified in the **Location Code** field on the **Company Information** page.|
+|**Manufacturing**|Components come from the manufacturing location specified in the **Components at Location** field on the **Manufacturing Setup** page.|
+
+> [!NOTE]
+> If you choose **Company** or **Manufacturing**, make sure the location code is specified in the respective setup pages.
+
+### Location assignment scenarios
+
+The following scenarios show how [!INCLUDE [prod_short](includes/prod_short.md)] assigns locations in different situations.
+
+#### Purchase provision without existing data
+
+- **Component location**: From the **Components at Location** field in the setup.
+- **Subcontracting location**: From the **Subcontracting Location Code** field on the vendor card.
+
+#### Purchase provision with existing bill of materials
+
+- **Component location**: From the **Components at Location** field on the **Manufacturing Setup** page.
+- **Adjustment**: Based on the subcontracting type of the components.
+
 ## About the provision setup guide
 
 The provision setup guide helps you create production orders for purchase provisions. It guides you through the selection and configuration of BOMs and routings for production orders.
@@ -165,7 +194,7 @@ You can specify where changes should be saved:
 |**Do not save**|Temporary data is deleted after wizard completion.|
 |**Save in Item**|BOM and routing are assigned to the item.|
 |**Save in Stockkeeping Units**|BOM and routing are assigned to the stockkeeping unit.|
--->
+
 
 ## Related information
 

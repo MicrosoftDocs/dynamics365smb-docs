@@ -28,8 +28,8 @@ You can specify which information from a subcontracting order to transfer to you
 
 |Field|Description|
 |-----|----------|
-|**Create Prod. Order Info Line**|Specifies whether to create an additional information line with the production order description in the subcontracting purchase order.|
-|**Subcontracting Inbound Whse. Handling Time**|Specifies the time for calculating the receipt date in the transfer line.|
+|**Create Prod. Order Info Line**|Specifies whether to create an additional information line with the production order description in the subcontracting purchase order.</br></br>When turned on, the description from the production order line is automatically added as an additional text line. This helps identify which production order item the subcontracting work relates to.|
+|**Subcontracting Inbound Whse. Handling Time**|Specifies the time for calculating the receipt date in the transfer line.</br></br>The calculation follows the formula: **Receipt Date = Due Date of Subcontracting Component - Whse. Handling Time**. This enables realistic planning of material provision at the subcontractor.|
 
 ## Configure additional subcontracting settings
 
@@ -38,7 +38,7 @@ On the **Subcontracting** FastTab, in the **General** section, you can also conf
 |Field|Description|
 |-----|----------|
 |**Subcontracting Journal Template Name**|Specifies the name of the subcontracting journal template to use for direct creation of subcontracting from a released operation.|
-|**Component Direct Unit Cost**|Specifies which direct unit cost of a production order component to use in the subcontracting purchase order. The following options are available:<br><br>**Standard** - Standard price finding is used when procuring the component.<br><br>**Prod. Order Component** - The calculated direct unit cost from the production order component line is transferred to the subcontracting purchase order.|
+|**Component Direct Unit Cost**|Specifies which direct unit cost of a production order component to use in the subcontracting purchase order. The following options are available:</br></br>**Standard** - Uses normal price finding based on purchase prices and discounts.</br></br>**Prod. Order Component** - Uses the calculated direct unit cost from the production order component line.</br></br>This setting influences cost calculation and should be chosen according to your calculation strategy.|
 |**Item Charge to Subcontracting Purch. Receipt Lines**|Specifies whether to activate item charge assignment for purchase receipt lines with subcontracting. When you turn on this toggle, an additional option becomes available in the charge assignment in purchasing.|
 
 <!-- For detailed configuration of purchase provisions and the provision setup guide, learn more in [Set up purchase provisions and use the provision setup guide](subcontract-setup-configurator.md). -->
@@ -73,30 +73,8 @@ If you subcontract at a single rate per vendor, leave the **Specific Unit Cost**
 
 You can use subcontract work centers for operations on routings in the same way as regular work centers. You can set up a routing that uses a subcontract work center as a standard operational step, or modify the routing for a particular production order to include a subcontracted operation. Learn more in [Create Routings](production-how-to-create-routings.md).
 
-## About advanced setup options
-
-The following sections describe advanced setup options.
-
-### Production order information line
-
-If you turn on the **Create Prod. Order Info Line** toggle, the description from the production order line is automatically added as an additional text line in the subcontracting purchase order. This helps identify which production order item the subcontracting work relates to.
-
-### Component direct unit cost configuration
-
-The **Component Direct Unit Cost** field determines which unit cost is used for components in subcontracting purchase orders:
-
-- **Standard** - Uses normal price finding based on purchase prices and discounts.
-- **Prod. Order Component** - Uses the calculated direct unit cost from the production order component line.
-
-This setting influences cost calculation and should be chosen according to your calculation strategy.
-
-### Subcontracting inbound warehouse handling time
-
-The **Subcontracting Inbound Whse. Handling Time** field defines the time used for calculating the receipt date in transfer lines. The calculation follows the formula:
-
-**Receipt Date = Due Date of Subcontracting Component - Whse. Handling Time**
-
-This enables realistic planning of material provision at the subcontractor.
+> [!IMPORTANT]
+> On routing lines for subcontracting operations, the **Type** field must be set to **Work Center** (not **Machine Center**). Machine centers don't support subcontractor assignments, so automatic location changes, pricing, and purchase order creation won't work for machine center operations.
 
 ## Related information
 

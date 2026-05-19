@@ -43,13 +43,9 @@ Create subcontracting purchase orders directly from released production order ro
 
 Store subcontractor prices and view all item prices at a glance. You can use filters to search for specific prices. Learn more in [Manage subcontractor prices](subcontract-prices.md).
 
-### Component posting and vendor warehouse monitoring
+### Component management
 
-Subcontracting is integrated into the manufacturing process. You can track quantity and value at vendor warehouses, view individual process steps, and assign them to subcontracting. Learn more in [Post components and monitor vendor warehouses](subcontract-post-components.md).
-
-### Transfer orders
-
-When you order subcontracting and add it to a purchase order, you can create transfer orders for your own goods. Transfer orders help you move goods quickly. Learn more in [Create transfer orders for subcontracting](subcontract-transfer-order.md).
+Subcontracting types control how components are handled — whether they're purchased by the subcontractor, already stocked at their location, or transferred from your warehouse. [!INCLUDE [prod_short](includes/prod_short.md)] automatically manages locations and supports transfer orders for moving materials. Learn more in [Manage components in subcontracting](subcontract-components.md).
 
 ### Item charges
 
@@ -57,7 +53,7 @@ Assign additional costs such as transport, packaging, or other incidental costs 
 
 ### Location management
 
-[!INCLUDE [prod_short](includes/prod_short.md)] automatically assigns and manages locations in subcontracting, from component provision to transfer to the subcontractor. Learn more in [Manage locations in subcontracting](subcontract-location-management.md).
+[!INCLUDE [prod_short](includes/prod_short.md)] automatically assigns and manages locations in subcontracting, from component provision to transfer to the subcontractor. Learn more in [Set up locations for subcontracting](subcontract-location-management.md).
 
 <!--### Purchase provisions
 

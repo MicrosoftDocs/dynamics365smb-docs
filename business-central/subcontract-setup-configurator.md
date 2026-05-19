@@ -12,6 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 # Set up purchase provisions and use the provision setup guide
 
 To use purchase provisions, you must configure settings for routing link codes, source warehouse selection, automatic transfers, creation of production orders, and receipt and consumption postings. If the master data you use in the order process, such as items, stockkeeping units, production BOMs, and routings, don't use other values, [!INCLUDE [prod_short](includes/prod_short.md)] applies the setup values for purchase orders.
@@ -32,14 +35,15 @@ The following steps describe how to configure purchase provisions.
 |**Default Flushing Method**|Specifies the default flushing method to use for purchase provisions. The following options are available:<br><br>**Manual** - You must manually post the consumption of components in the production order after the finished product returns to your warehouse.<br><br>**Forward** - When you register receipt of the finished product, [!INCLUDE [prod_short](includes/prod_short.md)] automatically posts consumption of components with the expected consumption quantity.<br><br>**Backward** - When you register receipt of the finished product, [!INCLUDE [prod_short](includes/prod_short.md)] automatically posts consumption of individual components with the consumption quantity based on the current shipment quantity of the receipt.<br><br>You can enter the same options for the provision BOMs in the item card and the components on the **Replenishment** FastTab.|
 |**Direct Transfer for Subcontracting**|Specifies that the transfer of a subcontracting component doesn't use a transit location for transfers. When you turn on direct transfer, the **Qty. to Ship** field of the transfer is filled with the same value as the quantity to be shipped. Transfer and posting automatically occur from a source warehouse to the target warehouse (vendor warehouse).|
 |**Components at Location**|Specifies which location to use as the source location when you create a transfer of subcontracting components (provision). [!INCLUDE [prod_short](includes/prod_short.md)] determines the data from the following options:<br>**Purchase Line**<br>**Company Information** (the **Location Code** field on the **Shipping** FastTab)<br>**Manufacturing Setup** (the **Components at Location** field)<br>**Empty** - Specify further details only when ordering.<br><br>The **Subcontracting Location Code** on the vendor card, **Shipping** FastTab, applies to both subcontracting transfer and purchase provision.|
-|**Always Save Changed Versions**|Specifies whether changed BOM and routing versions are always saved in the provision wizard.|
-|**Allow Edit UI Selection**|Specifies whether users can edit the UI selection in the provision wizard.|
+<!-- |**Always Save Changed Versions**|Specifies whether changed BOM and routing versions are always saved in the provision wizard.|
+|**Allow Edit UI Selection**|Specifies whether users can edit the UI selection in the provision wizard.| -->
 
 > [!NOTE]
 > You can also enter the work center group number on the vendor card in the **Work Center Group No.** field on the **Shipping** FastTab.
 
 Make sure that you set up the data for the work center groups assigned to the provisions, including their work calendars. Learn more in [Set up work and machine centers](production-how-to-set-up-work-and-machine-centers.md).
 
+<!--
 ## About the provision setup guide
 
 The provision setup guide helps you create production orders for purchase provisions. It guides you through the selection and configuration of BOMs and routings for production orders.
@@ -161,6 +165,7 @@ You can specify where changes should be saved:
 |**Do not save**|Temporary data is deleted after wizard completion.|
 |**Save in Item**|BOM and routing are assigned to the item.|
 |**Save in Stockkeeping Units**|BOM and routing are assigned to the stockkeeping unit.|
+-->
 
 ## Related information
 

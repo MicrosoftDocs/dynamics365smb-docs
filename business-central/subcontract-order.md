@@ -12,6 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 # Order subcontracting from production orders
 
 You can create subcontracting purchase orders directly from released production orders. This article describes how to order subcontracting operations and print dispatch lists to send with unfinished products.

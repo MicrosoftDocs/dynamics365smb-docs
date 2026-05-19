@@ -12,6 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 # Use the subcontracting worksheet
 
 The subcontracting worksheet lets you find production orders with material ready to send to a subcontractor and automatically create purchase orders for subcontract operations from production order routings. The worksheet functions like the planning worksheet — it calculates the needed supply (purchase orders), which you review and then create with the **Carry Out Action Message** action.

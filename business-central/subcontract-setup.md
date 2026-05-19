@@ -12,6 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 # Set up subcontracting
 
 To use subcontracting, you must configure several settings. This article describes how to configure the basic subcontracting settings and work center groups.
@@ -38,7 +41,7 @@ On the **Subcontracting** FastTab, in the **General** section, you can also conf
 |**Component Direct Unit Cost**|Specifies which direct unit cost of a production order component to use in the subcontracting purchase order. The following options are available:<br><br>**Standard** - Standard price finding is used when procuring the component.<br><br>**Prod. Order Component** - The calculated direct unit cost from the production order component line is transferred to the subcontracting purchase order.|
 |**Item Charge to Subcontracting Purch. Receipt Lines**|Specifies whether to activate item charge assignment for purchase receipt lines with subcontracting. When you turn on this toggle, an additional option becomes available in the charge assignment in purchasing.|
 
-For detailed configuration of purchase provisions and the provision setup guide, learn more in [Set up purchase provisions and use the provision setup guide](subcontract-setup-configurator.md).
+<!-- For detailed configuration of purchase provisions and the provision setup guide, learn more in [Set up purchase provisions and use the provision setup guide](subcontract-setup-configurator.md). -->
 
 ## Set up work center groups for subcontracting
 
@@ -98,7 +101,7 @@ This enables realistic planning of material provision at the subcontractor.
 ## Related information
 
 [Subcontracting overview](production-how-to-subcontract-manufacturing.md)  
-[Set up purchase provisions and provision wizard](subcontract-setup-configurator.md)  
+<!-- [Set up purchase provisions and provision wizard](subcontract-setup-configurator.md)   -->
 [Set up work and machine centers](production-how-to-set-up-work-and-machine-centers.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

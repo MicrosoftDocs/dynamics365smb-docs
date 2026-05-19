@@ -11,6 +11,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 # Create transfer orders for subcontracting
 
 When you order subcontracting and add it to your purchase order, you can create transfer orders for the components associated with the subcontracting operation.

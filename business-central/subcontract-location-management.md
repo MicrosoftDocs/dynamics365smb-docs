@@ -12,6 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 # Manage locations in subcontracting
 
 You can manage locations for subcontracting to control where components come from and how they're transferred between your warehouse and subcontractor locations. Location management helps you track inventory at different sites and ensures that components are available where they're needed.

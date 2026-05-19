@@ -12,6 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 # Set up purchase provisions for subcontracting
 
 Subcontracting outsources individual production steps or manufacturing work to external vendors. For example, you might outsource milling work, cutting, or surface treatments. Purchase provisions involve processing individual components by an external service provider into a finished product. With the purchase order, you invoice a service from the vendor. The purchase order links to the corresponding production order.
@@ -35,7 +38,7 @@ The following steps describe how to create a purchase provision with a linked pr
 
    Depending on the flushing method you selected in the **Subcontracting Setup**, consumption is posted with shipment posting of the subcontracting service using the production order, and the receipt of the item produced by the supplier in the warehouse. [!INCLUDE [prod_short](includes/prod_short.md)] creates the details in the background through the creation of the production order.
 
-7. The provision starts automatically and guides you through the configuration of BOMs and routings. Depending on your configuration in the **Subcontracting Setup**, [!INCLUDE [prod_short](includes/prod_short.md)] displays various steps or automatically processes them. Learn more in [Set up purchase provisions and provision wizard](subcontract-setup-configurator.md).
+<!-- 7. The provision starts automatically and guides you through the configuration of BOMs and routings. Depending on your configuration in the **Subcontracting Setup**, [!INCLUDE [prod_short](includes/prod_short.md)] displays various steps or automatically processes them. Learn more in [Set up purchase provisions and provision wizard](subcontract-setup-configurator.md). -->
 
 8. To transfer the provision components with the **Transfer** subcontracting type, choose the **Create Transfer Order for Subcontracting** action.
 
@@ -96,7 +99,7 @@ Post the invoice as you would for other purchase invoices for received goods. Th
 
 ## Related information
 
-[Set up purchase provisions and provision wizard](subcontract-setup-configurator.md)  
+<!-- [Set up purchase provisions and provision wizard](subcontract-setup-configurator.md)   -->
 [Transfer inventory between locations](inventory-how-transfer-between-locations.md)  
 [Work with production orders](production-about-production-orders.md)  
 [Manufacturing](production-manage-manufacturing.md)  

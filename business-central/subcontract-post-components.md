@@ -12,6 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
+
 # Post subcontracting components
 
 To post components with subcontracting operations, you must set up your production BOMs and routing. This article describes how to configure component posting and work with different subcontracting types.

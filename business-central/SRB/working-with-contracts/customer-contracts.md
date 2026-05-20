@@ -24,7 +24,7 @@ On the **Shipping and Billing** FastTab, you can specify ship-to and bill-to rec
    Similar to sales orders, a deviating invoice recipient can be entered here. This is taken into account when creating the contract invoices.
 
 > [!NOTE]
-> Contracts are available in the **Sell-to Customer Sales History** FactBox on the the **Customer Card**, **Vendor Card**, and **Contact Card** pages. Choose the respective cue to open an overview.
+> Contracts are available in the **Sell-to Customer Sales History** FactBox on the **Customer Card**, **Vendor Card**, and **Contact Card** pages. Choose the respective cue to open an overview.
 
 ## Overview of the process for creating a customer subscription contract
 
@@ -145,7 +145,7 @@ If you select this checkbox for the contract type of the customer subscription c
 
 When you create the billing proposal lines, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks whether each subscription line is connected to a contract that uses harmonized billing. If yes, the fields for harmonized billing are considered.
 
-The harmonized billing fields update when when you add, delete, and change subscription lines, if applicable.
+The harmonized billing fields update when you add, delete, and change subscription lines, if applicable.
 
 > [!TIP]
 > If you add subscription lines with a longer billing rhythm (for example, 12 months) to a contract whose **Next Billing Date** is during the year, and these subscription lines (and all those to come) should generally only be billed by the end of the year, you can reset the **Billing Base Date** field to January 1st of the year.

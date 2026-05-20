@@ -52,7 +52,7 @@ People who work with Shopify Admin might want to check whether orders are synchr
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
-The **Archive Processed Shopify Orders** toggle specifies whether Shopify Connector should archive fully paid and fulfilled orders in Shopify, provided the orders meet the the following conditions.
+The **Archive Processed Shopify Orders** toggle specifies whether Shopify Connector should archive fully paid and fulfilled orders in Shopify, provided the orders meet the following conditions.
 
 - The **Fully Paid** field contains **Yes**.
 - The **Fulfillment Status** field contains **Fulfilled**.
@@ -70,8 +70,8 @@ If you don't want to send automatic shipping confirmations to customers, turn of
 Specify how you process returns and refunds:
 
 * **Blank** specifies that you don't import and process returns and refunds.
-* **Import only** specifies that you import information, but you manually create the corresponding credit memo.
-* **Auto create credit memo** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
+* **Import Only** specifies that you import information, but you manually create the corresponding credit memo.
+* **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
@@ -193,7 +193,7 @@ The following procedure describes how to import and update the sales orders.
 > [!NOTE]  
 > When you filter by tags in the **Sync Order from Shopify** request page, remember that tags are stored as space-separated string, with each tag enclosed in square brackets: `[tag1] [tag2] [tag3]`.
 >
-> There can be multiple tags, so it's a good idea to use the `*` filter token. For example, if you want to import orders that contain *tag1*, use `*tag1*`. If you're unsure about the case, use the filter token `@` to ensure the the result isn't case sensitive. For example, use `@*tag1*` to get orders with tags such as *tag1*, *Tag1*, or *TAG1*.
+> There can be multiple tags, so it's a good idea to use the `*` filter token. For example, if you want to import orders that contain *tag1*, use `*tag1*`. If you're unsure about the case, use the filter token `@` to ensure the result isn't case sensitive. For example, use `@*tag1*` to get orders with tags such as *tag1*, *Tag1*, or *TAG1*.
 >
 > Other [filter criteria](../ui-enter-criteria-filters.md) also works. For example if you want several tags, use `*tag1*|*tag2*`, or if you want to skip some orders, use `<>*tag3*`.
 
@@ -423,7 +423,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 > **Know limitations:**
 > 
 > - Orders with multiple lines of the same product will not be fulfilled. Mark such orders as fulfilled in Shopify Admin. This issue can occur when using the **Buy X get Y** discount with identical products for **Customer gets** and **Customer buys**.
-> - A Shopify order line split across two locations (for example, *2* from *EAST* and *3* from *WEST*) appears in [!INCLUDE[prod_short](../includes/prod_short.md)] as a single sales order line with just one location—such as *WEST*. If you ship all *5* at the same time, the order won't be fulfilled. If you first modify the quantity to Ship in [!INCLUDE[prod_short](../includes/prod_short.md)] to *2* and post shipment, and then you post the shipment of the remaining *3*, the Shopify order is marked as partially fulfilled with *3* units fulfilled from the location selected in the sales order order line. In this example, it's *WEST*.   
+> - A Shopify order line split across two locations (for example, *2* from *EAST* and *3* from *WEST*) appears in [!INCLUDE[prod_short](../includes/prod_short.md)] as a single sales order line with just one location—such as *WEST*. If you ship all *5* at the same time, the order won't be fulfilled. If you first modify the quantity to Ship in [!INCLUDE[prod_short](../includes/prod_short.md)] to *2* and post shipment, and then you post the shipment of the remaining *3*, the Shopify order is marked as partially fulfilled with *3* units fulfilled from the location selected in the sales order line. In this example, it's *WEST*.   
 > - Modification in sales order before posting might affect the connector's ability to synchronize shipments to Shopify. To learn more, go to the second table in the [Effect of order editing](#effect-of-order-editing) section.
 
 Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. 

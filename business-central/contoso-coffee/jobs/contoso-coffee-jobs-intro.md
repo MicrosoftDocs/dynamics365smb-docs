@@ -31,7 +31,7 @@ Once the relevant apps are installed, go to the [Contoso Coffee Jobs Demo Data](
 
 |Field  |Description  |
 |---------|---------|
-|**Starting Year** |Specifies the first year that you you want to use for the Contoso Coffee demonstration data. Depending on the company setup, the year is either a calendar year or a fiscal year.|
+|**Starting Year** |Specifies the first year that you want to use for the Contoso Coffee demonstration data. Depending on the company setup, the year is either a calendar year or a fiscal year.|
 |**Customer No.**  |The customer to use for the scenarios in sales operations.|
 |**Item 1 No.**  |The item to use for the contract scenarios.|
 |**Item 2 No.**  |The item to use for the breakfix scenarios.|

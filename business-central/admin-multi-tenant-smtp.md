@@ -63,7 +63,7 @@ Before you start, ensure that you have:
 
 - A Microsoft 365 tenant with Exchange Online.  
 - Global Administrator or Exchange Administrator permissions.  
-- A mailbox, for example, service@yourdomain.com, that you use as the "From" address in Tenant A(App / Mailbox tenant).  
+- A mailbox, for example, service@contoso.com, that you use as the "From" address in Tenant A(App / Mailbox tenant).  
 - A [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises environment in Tenant B(Business Central tenant).
 
 ## Create an application registration in Azure portal
@@ -82,7 +82,7 @@ The first step is to create an app registration for the app you have in "Tenant 
     1. In the **Name** field, enter a name for your app. For example, **SMTP_OAuth_App**.
     1. Under **Supported account types**, choose **Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**. This setting is required for cross-tenant consent.
     1. Under **Redirect URI (optional)**, for the platform, choose **Web**, and then enter the URI:
-       1. Business Central online (SaaS): https://businesscentral.dynamics.com/OAuthLanding.htm
+       1. Business Central online (SaaS): https://businesscentral.dynamics.com/oauthlanding.htm
        2. Business Central on-premises: Specify a redirect URI appropriate for your on-premises deployment.
 
 1. Choose **Register**.

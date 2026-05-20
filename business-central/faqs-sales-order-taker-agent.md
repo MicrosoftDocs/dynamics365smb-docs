@@ -134,7 +134,7 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
 
   - Receive notifications on the role center that come from the agent when it requires help or when the process demands human review. For example, review is required for all inbound and outbound messages, approvals, adding missing data, and similar reasons.
   - Get a better understanding of the specific task context and history (“timeline” view), including key steps involved in it.
-  - Get a detailed review of each entity created by the agent (for example, a sales quote or sales order that surfaces all changes and suggestions made by the agent within a specific task. This behavior allows humans to review and adjust changes, and then sign out on proceeding with the task.
+  - Get a detailed review of each entity created by the agent (for example, a sales quote or sales order that surfaces all changes and suggestions made by the agent within a specific task. This behavior allows humans to review and adjust changes and then sign off on proceeding with the task.
   - Get an overview of the agent's key performance indicators (KPIs) that summarize the impact of the agent's work. For example, you can get an overview of the number of sales quotes or orders created by the agent and the total number of these orders.
 
     Make sure you attend to the notifications raised by the agent to review and approve its work.  

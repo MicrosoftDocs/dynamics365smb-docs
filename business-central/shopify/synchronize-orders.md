@@ -322,6 +322,13 @@ Bill-to fields have the billing address specified in the Shopify order. One reas
 > [!NOTE]  
 > To ensure that you can review address details in the created sales document, set both the **Ship-to** and **Bill-to** fields to **Custom Address**.
 
+### Other fields in the created sales document
+
+The connector also fills in the following header fields from the Shopify order:
+
+* The **External Document No.** field has the value from the **PO Number** field on the Shopify order. This information lets you cross-reference a buyer's purchase order number on the sales order in Business Central.
+* The **Prices Including VAT** setting depends on whether **VAT Included** is enabled on the Shopify order. If the Shopify store is configured to include tax in prices, the imported sales document has the **Prices Including VAT** checkbox selected, which changes how tax amounts are calculated and displayed on the document.
+
 ### Locations in the created sales document
 
 For each sales document line that requires fulfillment, the connector locates fulfillment order lines that link to the same order and contain an identical product and variant. The connector prioritizes fulfillment orders with statuses that differ from CLOSED. When it finds such fulfillment lines, the connector uses the **Location ID** from the fulfillment line. If multiple fulfillment lines for the same order line exist but reference different locations, only one location is used.

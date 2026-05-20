@@ -70,8 +70,8 @@ If you don't want to send automatic shipping confirmations to customers, turn of
 Specify how you process returns and refunds:
 
 * **Blank** specifies that you don't import and process returns and refunds.
-* **Import only** specifies that you import information, but you manually create the corresponding credit memo.
-* **Auto create credit memo** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
+* **Import Only** specifies that you import information, but you manually create the corresponding credit memo.
+* **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 

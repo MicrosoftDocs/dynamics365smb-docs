@@ -39,7 +39,7 @@ Even if your work centers do not work in different work shifts, enter at least o
     Monday  07:00 15:00 1   
     Tuesday 07:00 15:00 1  
 
-    If you need a shop calendar with two work shifts, you must fill it in in this manner:  
+    If you need a shop calendar with two work shifts, you must fill it in as follows:  
 
     Monday 07:00 15:00 1   
     Monday 15:00 23:00 2  

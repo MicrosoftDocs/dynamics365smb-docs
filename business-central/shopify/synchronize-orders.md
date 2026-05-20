@@ -52,7 +52,7 @@ People who work with Shopify Admin might want to check whether orders are synchr
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
-The **Archive Processed Shopify Orders** toggle specifies whether Shopify Connector should archive fully paid and fulfilled orders in Shopify, provided the orders meet the the following conditions.
+The **Archive Processed Shopify Orders** toggle specifies whether Shopify Connector should archive fully paid and fulfilled orders in Shopify, provided the orders meet the following conditions.
 
 - The **Fully Paid** field contains **Yes**.
 - The **Fulfillment Status** field contains **Fulfilled**.
@@ -193,7 +193,7 @@ The following procedure describes how to import and update the sales orders.
 > [!NOTE]  
 > When you filter by tags in the **Sync Order from Shopify** request page, remember that tags are stored as space-separated string, with each tag enclosed in square brackets: `[tag1] [tag2] [tag3]`.
 >
-> There can be multiple tags, so it's a good idea to use the `*` filter token. For example, if you want to import orders that contain *tag1*, use `*tag1*`. If you're unsure about the case, use the filter token `@` to ensure the the result isn't case sensitive. For example, use `@*tag1*` to get orders with tags such as *tag1*, *Tag1*, or *TAG1*.
+> There can be multiple tags, so it's a good idea to use the `*` filter token. For example, if you want to import orders that contain *tag1*, use `*tag1*`. If you're unsure about the case, use the filter token `@` to ensure the result isn't case sensitive. For example, use `@*tag1*` to get orders with tags such as *tag1*, *Tag1*, or *TAG1*.
 >
 > Other [filter criteria](../ui-enter-criteria-filters.md) also works. For example if you want several tags, use `*tag1*|*tag2*`, or if you want to skip some orders, use `<>*tag3*`.
 

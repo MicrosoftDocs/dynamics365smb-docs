@@ -52,7 +52,7 @@ This section provides detailed information about the geographic factors that aff
 
 ### Business Central country/region version
 
-**What it is**: The localized version of Business Central used on an environment specified by an admin when the enviroment was created.
+**What it is**: The localized version of Business Central used on an environment specified by an admin when the environment was created.
 
 **Why it matters**:
 

@@ -30,7 +30,7 @@ When you post or run a batch job, the correct source code is automatically attac
 
 1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.  
 
-2. In the **Source Code Setup** window, for each each posting type and batch job, specify the relevant source code.  
+2. In the **Source Code Setup** window, for each posting type and batch job, specify the relevant source code.  
 
 You can change the contents of a field later, and that change will then impact future postings.
 

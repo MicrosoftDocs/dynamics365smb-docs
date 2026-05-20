@@ -119,7 +119,7 @@ If you purchase the same item from more than one vendor, you can connect those v
 
 The vendors appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
 
-If you purchase the same item from more than one vendor additionally you can set up prices and discounts discounts.  For more information, see [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+If you purchase the same item from more than one vendor additionally you can set up prices and discounts.  For more information, see [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 ## Manage inventory in warehouses
 

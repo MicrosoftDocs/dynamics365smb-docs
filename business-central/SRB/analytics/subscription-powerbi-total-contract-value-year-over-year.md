@@ -26,7 +26,7 @@ Total Contract Value (TCV) is a critical KPI for any subscription-based business
 
 Subscription managers can use this report to evaluate the strength of the contract portfolio over time. By comparing TCV and Active Customers against the previous year (PY), you can quickly see if your growth is driven by acquiring new customers or by increasing the value of existing contracts.
 
-The detailed table provides the TCV Delta vs. PY, allowing you to pinpoint exactly when and where the portfolio value fluctuates. This visibility can helps you identify seasonal trends in renewals or potential churn risks, enabling you to adjust your retention strategies and ensure a stable, growing recurring revenue stream throughout the fiscal year.
+The detailed table provides the TCV Delta vs. PY, allowing you to pinpoint exactly when and where the portfolio value fluctuates. This visibility can help you identify seasonal trends in renewals or potential churn risks, enabling you to adjust your retention strategies and ensure a stable, growing recurring revenue stream throughout the fiscal year.
 
 ## Key performance indicators
 

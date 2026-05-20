@@ -24,7 +24,7 @@ This article provides information on how to set up fiscally denied countries/reg
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Denied Vendors List**, and then choose the related link.
 1. Print this report.
-1. This report shows the list of all **Vendors** who come from from fiscally denied countries or regions.
+1. This report shows the list of all **Vendors** who come from fiscally denied countries or regions.
 1. You can obtain detailed information about the addresses of vendors and the amounts involved in purchases and balances, both in local currency.  
 
 ## Related information

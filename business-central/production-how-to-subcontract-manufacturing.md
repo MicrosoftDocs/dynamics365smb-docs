@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: subcontracting, manufacturing, production, vendor, prices
-ms.search.form: 99000886
+ms.search.form: 99000886,
 ms.date: 05/18/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -22,14 +22,14 @@ Subcontracting selected operations to a vendor is common in many manufacturing c
 
 The following tools are available without the Subcontracting app:
 
-- **Work centers with an assigned vendor** — You can set up a work center that is associated with a vendor (subcontractor). You specify this subcontract work center on routing operations, and the cost of the operation can be designated at the routing or work center level. Learn more in [Set up subcontracting](subcontract-setup.md).
-- **Work center cost based on units or time** — You can specify whether costs for the work center are based on production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit, [!INCLUDE[prod_short](includes/prod_short.md)] can handle both options.
+- **Work centers with an assigned vendor**. You can set up a work center that is associated with a vendor (subcontractor). You specify this subcontract work center on routing operations, and the cost of the operation can be designated at the routing or work center level. Learn more in [Set up subcontracting](subcontract-setup.md).
+- **Work center cost based on units or time**. You can specify whether costs for the work center are based on production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit, [!INCLUDE[prod_short](includes/prod_short.md)] can handle both options.
 
-## Extended capabilities (Subcontracting app)
+## Extended capabilities in the Subcontracting app
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-The Subcontracting app adds the following capabilities:
+The following sections outline the extra capabilities that the Subcontracting app offers.
 
 ### Subcontracting worksheet
 

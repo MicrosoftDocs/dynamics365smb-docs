@@ -6,16 +6,16 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, purchase provisions, wizard, setup, BOM, routing
-ms.search.form: 99000886
-ms.date: 01/15/2026
+ms.search.form: 99000886,
+ms.date: 05/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 # Set up purchase provisions and use the provision setup guide
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 To use purchase provisions, you must configure settings for routing link codes, source warehouse selection, automatic transfers, creation of production orders, and receipt and consumption postings. If the master data you use in the order process, such as items, stockkeeping units, production BOMs, and routings, don't use other values, [!INCLUDE [prod_short](includes/prod_short.md)] applies the setup values for purchase orders.
 
@@ -52,11 +52,11 @@ You can specify which location [!INCLUDE [prod_short](includes/prod_short.md)] u
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.
 2. In the **Subcontracting** section, in the **Default Component Location Source** field, choose one of the following options:
 
-|Option|Description|
-|------|----------|
-|**Purchase**|Components come from the standard purchase location. [!INCLUDE [prod_short](includes/prod_short.md)] determines the location automatically.|
-|**Company**|Components come from the company location specified in the **Location Code** field on the **Company Information** page.|
-|**Manufacturing**|Components come from the manufacturing location specified in the **Components at Location** field on the **Manufacturing Setup** page.|
+   |Option|Description|
+   |------|----------|
+   |**Purchase**|Components come from the standard purchase location. [!INCLUDE [prod_short](includes/prod_short.md)] determines the location automatically.|
+   |**Company**|Components come from the company location specified in the **Location Code** field on the **Company Information** page.|
+   |**Manufacturing**|Components come from the manufacturing location specified in the **Components at Location** field on the **Manufacturing Setup** page.|
 
 > [!NOTE]
 > If you choose **Company** or **Manufacturing**, make sure the location code is specified in the respective setup pages.
@@ -75,21 +75,21 @@ The following scenarios show how [!INCLUDE [prod_short](includes/prod_short.md)]
 - **Component location**: From the **Components at Location** field on the **Manufacturing Setup** page.
 - **Adjustment**: Based on the subcontracting type of the components.
 
-## About the provision setup guide
+## About the provision assisted setup guide
 
-The provision setup guide helps you create production orders for purchase provisions. It guides you through the selection and configuration of BOMs and routings for production orders.
+The provision assisted setup guide helps you create production orders for purchase provisions. It guides you through the selection and configuration of BOMs and routings for production orders.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] automatically starts the wizard when you use the **Create Production Order** action in a purchase order. Depending on your existing data and configuration, different steps are displayed or skipped.
 
-### Wizard steps
+### Steps in the assisted setup guide
 
-The wizard guides you through the following steps:
+The provision assisted setup has the following steps:
 
 1. **Welcome** - Overview of the item and general settings.
-2. **BOM** - Selection and configuration of the production BOM.
-3. **Routing** - Selection and configuration of the routing.
-4. **Components** - Preview of production order components.
-5. **Operations** - Preview of production order operations.
+2. **BOM** - Select and configure the production BOM.
+3. **Routing** - Select and configure of the routing.
+4. **Components** - Preview production order components.
+5. **Operations** - Preview production order operations.
 
 > [!NOTE]
 > Which steps display depends on your configuration in the **Subcontracting Setup**.
@@ -125,11 +125,11 @@ When only a BOM or only a routing is available from the item or stockkeeping uni
 - **Flexibility** - Enables gradual introduction of item-specific data.
 
 > [!NOTE]
-> The wizard first checks the stockkeeping units and then uses the item master data as a fallback option.
+> The assisted setup guide first checks the stockkeeping units and then uses the item master data as a fallback option.
 
 ### Display and edit options
 
-For different scenarios, you can specify what the setup guide does:
+For different scenarios, you can specify what the setup guide does.
 
 |Option|Description|
 |------|----------|
@@ -139,7 +139,7 @@ For different scenarios, you can specify what the setup guide does:
 
 ### Scenario-specific configuration
 
-The settings are divided according to the following scenarios:
+The settings are divided according to the following scenarios.
 
 |Scenario|Description|
 |--------|----------|
@@ -156,9 +156,9 @@ For each scenario, you can set the following options:
 
 #### Fully automatic processing
 
-When all wizard steps are configured to **Hide**:
+When all setup guide steps are configured to **Hide**:
 
-- The wizard doesn't open.
+- The setup guide doesn't open.
 - The production order is automatically created.
 - Existing or setup-based BOMs and routings are used.
 
@@ -174,14 +174,14 @@ When the steps are configured to **Show**:
 
 When the steps are configured to **Edit**:
 
-- All wizard steps are displayed.
+- All steps display.
 - You can fully edit BOM and routing lines.
 - You can create new versions.
 - You can save in the item or stockkeeping units.
 
 ### Version management
 
-The wizard supports the management of BOM and routing versions:
+The setup guide supports the management of BOM and routing versions:
 
 - Automatic creation of new versions when editing.
 - Configurable saving of versions.
@@ -189,14 +189,13 @@ The wizard supports the management of BOM and routing versions:
 
 ### Save options
 
-You can specify where changes should be saved:
+You can specify where to save changes.
 
 |Option|Description|
 |------|----------|
 |**Do not save**|Temporary data is deleted after wizard completion.|
 |**Save in Item**|BOM and routing are assigned to the item.|
 |**Save in Stockkeeping Units**|BOM and routing are assigned to the stockkeeping unit.|
-
 
 ## Related information
 

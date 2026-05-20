@@ -13,9 +13,9 @@ ms.custom: bap-template
 
 ---
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 # Manage components in subcontracting
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 When you subcontract manufacturing operations, components must be available at the right location — either at the subcontractor's site or at your own warehouse. This article explains the subcontracting types that control how components are handled, how locations are assigned, and how to use transfer orders to move materials to and from subcontractors.
 
@@ -25,9 +25,9 @@ The subcontracting type on a component determines where the component is consume
 
 There are three subcontracting types:
 
-- **Purchase with Service** — The subcontractor procures the component directly and provides it alongside the manufacturing service. [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a purchase line for the component on the subcontracting purchase order. You don't supply the material — the vendor does. The component location changes to the subcontractor's location.
-- **Inventory by Vendor** — The component is already physically at the subcontractor's location, available for them to consume. The components are your property, and you're responsible for keeping that location stocked — for example, by shipping materials in bulk or purchasing directly to the vendor's location. You can use standard [!INCLUDE [prod_short](includes/prod_short.md)] planning tools (requisition worksheets, reorder policies on the SKU at that location) to manage replenishment. The subcontracting extension doesn't create purchase lines or transfer orders for this type — the subcontractor simply draws from available stock. The component location changes to the subcontractor's location.
-- **Transfer** — You ship the exact quantity of the component to the subcontractor for each production order. You create transfer orders from the subcontracting purchase order to move materials from your warehouse to the vendor location. The component keeps its original location until the transfer order moves it. You can also create return transfer orders for unused quantities. Learn more in [Create transfer orders](#create-transfer-orders).
+- **Purchase with Service**: The subcontractor procures the component directly and provides it alongside the manufacturing service. [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a purchase line for the component on the subcontracting purchase order. You don't supply the material — the vendor does. The component location changes to the subcontractor's location.
+- **Inventory by Vendor**: The component is already physically at the subcontractor's location, available for them to consume. The components are your property, and you're responsible for keeping that location stocked. For example, by shipping materials in bulk or purchasing directly to the vendor's location. You can use standard [!INCLUDE [prod_short](includes/prod_short.md)] planning tools (requisition worksheets, reorder policies on the SKU at that location) to manage replenishment. The subcontracting extension doesn't create purchase lines or transfer orders for this type — the subcontractor simply draws from available stock. The component location changes to the subcontractor's location.
+- **Transfer**: You ship the exact quantity of the component to the subcontractor for each production order. You create transfer orders from the subcontracting purchase order to move materials from your warehouse to the vendor location. The component keeps its original location until the transfer order moves it. You can also create return transfer orders for unused quantities. Learn more in [Create transfer orders](#create-transfer-orders).
 
 > [!NOTE]
 > You can set subcontracting types in the production BOM and in released production orders.
@@ -71,8 +71,8 @@ When [!INCLUDE [prod_short](includes/prod_short.md)] explodes the production BOM
 
 When you set or change the subcontracting type, [!INCLUDE [prod_short](includes/prod_short.md)] adjusts the component location automatically:
 
-- **Purchase with Service and Inventory by Vendor** — The location changes to the **Subcontracting Location Code** specified on the vendor card, because the components are consumed at the subcontractor's site.
-- **Transfer** — The component keeps the location from the initial assignment (based on the SKU, Manufacturing Setup, or production order line priority). [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order later to move the component to the subcontractor.
+- **Purchase with Service and Inventory by Vendor**: The location changes to the **Subcontracting Location Code** specified on the vendor card, because the components are consumed at the subcontractor's site.
+- **Transfer**: The component keeps the location from the initial assignment (based on the SKU, manufacturing setup, or production order line priority). [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order later to move the component to the subcontractor.
 
 ### Planning components
 
@@ -91,7 +91,7 @@ Before you create a transfer order, the following must be in place:
 
 - A purchase order with subcontracting. Learn more in [Order subcontracting from production orders](subcontract-order.md) or [Use the subcontracting worksheet](subcontract-worksheet.md).
 - Production order components with the **Transfer** subcontracting type.
-- Transfer routes between locations (optional — if not configured, direct transfers are used). Learn more in [Set up locations for subcontracting](subcontract-location-management.md#set-up-transfer-routes).
+- Transfer routes between locations (optional, if not configured, direct transfers are used). Learn more in [Set up locations for subcontracting](subcontract-location-management.md#set-up-transfer-routes).
 - A **Subcontracting Location Code** on the vendor card.
 
 ### Create a transfer order from a purchase order
@@ -109,8 +109,8 @@ Before you create a transfer order, the following must be in place:
 
 [!INCLUDE [prod_short](includes/prod_short.md)] automatically determines the locations:
 
-- **Transfer-from** — The location of the production order component. If you change the component location after creating the transfer order, [!INCLUDE [prod_short](includes/prod_short.md)] automatically uses the new location.
-- **Transfer-to** — The **Subcontracting Location Code** from the vendor card.
+- **Transfer-from**: The location of the production order component. If you change the component location after creating the transfer order, [!INCLUDE [prod_short](includes/prod_short.md)] automatically uses the new location.
+- **Transfer-to**: The **Subcontracting Location Code** from the vendor card.
 
 ### Use direct transfers
 
@@ -123,7 +123,7 @@ When [!INCLUDE [prod_short](includes/prod_short.md)] creates a transfer order fo
 
 [!INCLUDE [prod_short](includes/prod_short.md)] automatically calculates the receipt date in the transfer order using the following formula:
 
-**Receipt Date = Due date of the production order component - Subcontracting Inbound Whse. Handling Time**
+   **Receipt Date = Due date of the production order component - Subcontracting Inbound Whse. Handling Time**
 
 The **Subcontracting Inbound Whse. Handling Time** is defined on the **Manufacturing Setup** page.
 

@@ -13,9 +13,9 @@ ms.custom: bap-template
 
 ---
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 # Order subcontracting from production orders
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 You can create subcontracting purchase orders directly from released production orders. This article describes how to order subcontracting operations and print dispatch lists to send with unfinished products.
 

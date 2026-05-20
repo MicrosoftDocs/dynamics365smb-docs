@@ -7,15 +7,15 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, prices, work center group, vendor
 ms.search.form: 99000886
-ms.date: 01/15/2026
+ms.date: 05/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 # Set up subcontractor prices
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 You can store subcontractor prices and view all prices for each item at a glance. You can maintain subcontractor prices by assigning them to vendors, standard catalog filters, and work center groups. You can access subcontractor prices from the work center group card and the vendor card.
 

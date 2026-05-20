@@ -7,19 +7,19 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, location, transfer routes
 ms.search.form: 99000886,
-ms.date: 01/15/2026
+ms.date: 05/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 # Set up locations for subcontracting
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 Each subcontractor needs a location so that [!INCLUDE [prod_short](includes/prod_short.md)] knows where components are consumed or transferred. This article explains how to configure subcontracting locations on vendor cards and set up transfer routes.
 
-For information about how locations are assigned to components at runtime, and how transfer orders move materials, learn more in [Manage components in subcontracting](subcontract-components.md).
+To learn more about how locations are assigned to components at runtime, and how transfer orders move materials, go to [Manage components in subcontracting](subcontract-components.md).
 
 ## Set up subcontracting locations for vendors
 

@@ -7,15 +7,15 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, item charges, production order, capacity costs
 ms.search.form: 99000886,
-ms.date: 01/15/2026
+ms.date: 05/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 # Assign item charges to subcontracting receipts
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 You can assign item charges to subcontracting receipts to include costs such as transport, packaging, and other incidental expenses directly in your production order costs. When you post additional costs that should be distributed to subcontracting receipts, you can record them as a separate invoice with **Type** set to **Charge (Item)**. The item charges link to the capacity ledger entries of the production order.
 

@@ -6,16 +6,16 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, purchase provisions, production order, BOM
-ms.search.form: 99000886
-ms.date: 01/15/2026
+ms.search.form: 99000886,
+ms.date: 05/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 # Set up purchase provisions for subcontracting
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 Subcontracting outsources individual production steps or manufacturing work to external vendors. For example, you might outsource milling work, cutting, or surface treatments. Purchase provisions involve processing individual components by an external service provider into a finished product. With the purchase order, you invoice a service from the vendor. The purchase order links to the corresponding production order.
 

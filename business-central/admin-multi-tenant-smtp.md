@@ -520,7 +520,7 @@ This section lists some typical issues, their causes, and provides suggestions f
 
 - Cause: SMTP AUTH is disabled, has an incorrect tenant ID or OAuth2ClientProfileEnabled is not enabled in the Exchange Online organization.
 
-- Resolution: Check `Get-TransportConfig` to be sure that `SmtpClientAuthentidationDisabled` is `False` and `OAuth2ClientProfileEnabled` is `true`.
+- Resolution: Check `Get-TransportConfig` to be sure that `SmtpClientAuthenticationDisabled` is `False` and `OAuth2ClientProfileEnabled` is `true`.
 
 ### 530 5.7.57 Client not authenticated
 

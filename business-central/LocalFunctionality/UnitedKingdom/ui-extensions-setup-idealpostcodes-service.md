@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 This extension makes it easy to enter addresses in the United Kingdom (UK) for entities like customers, contacts, employees, vendors, bank accounts, and so on.
 
-The Ideal Postcodes extension uses the **Ideal Postcodes** API to find addresses in postcodes in the UK. To use the extension, you need a an Ideal Postcodes account, a plan, and an API Key for the Ideal Postcodes API. We help you access the latest plans when you set up the Ideal Postcodes extension in [!INCLUDE [prod_short](../../includes/prod_short.md)].
+The Ideal Postcodes extension uses the **Ideal Postcodes** API to find addresses in postcodes in the UK. To use the extension, you need an Ideal Postcodes account, a plan, and an API Key for the Ideal Postcodes API. We help you access the latest plans when you set up the Ideal Postcodes extension in [!INCLUDE [prod_short](../../includes/prod_short.md)].
 
 Plans are based on use, or what are sometimes referred to as "calls." A call, in this case, is when [!INCLUDE [prod_short](../../includes/prod_short.md)] displays a list of addresses in a postcode. Depending on how often you add addresses, choose the plan that's best for you.
 

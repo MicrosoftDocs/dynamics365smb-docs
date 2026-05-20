@@ -38,7 +38,7 @@ Go to **Currency**. Оn the **General tab** fill fields for each currency:
 
 ### Import currency rates
 
-1. Go to **Departments** > **Financial management** > **Periodic activities** > **Currency** > **Import currency rates**.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Import currency rates**, and then choose the related link.
 1. Enter the start and end dates of the period for which you want to adjust the exchange rates.
 
 ## Related information

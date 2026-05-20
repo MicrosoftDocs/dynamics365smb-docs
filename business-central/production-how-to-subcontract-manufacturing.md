@@ -41,19 +41,19 @@ Create subcontracting purchase orders directly from released production order ro
 
 ### Subcontractor prices
 
-Store subcontractor prices and view all item prices at a glance. You can use filters to search for specific prices. Learn more in [Manage subcontractor prices](subcontract-prices.md).
+Store prices from subcontractors and view all item prices at a glance. You can use filters to search for specific prices. Learn more in [Manage subcontractor prices](subcontract-prices.md).
 
 ### Component management
 
-Subcontracting types control how components are handled — whether they're purchased by the subcontractor, already stocked at their location, or transferred from your warehouse. [!INCLUDE [prod_short](includes/prod_short.md)] automatically manages locations and supports transfer orders for moving materials. Learn more in [Manage components in subcontracting](subcontract-components.md).
+Subcontracting types control how to handle components. For example, whether the subcontractor purchases them, they're already stocked at their location, or transferred from your warehouse. [!INCLUDE [prod_short](includes/prod_short.md)] automatically manages locations and supports transfer orders for moving materials. Learn more in [Manage components in subcontracting](subcontract-components.md).
 
 ### Item charges
 
-Assign additional costs such as transport, packaging, or other incidental costs directly to subcontracting operations. Item charges enable precise cost allocation to production orders. Learn more in [Assign item charges to subcontracting receipts](subcontract-item-charges.md).
+Assign other costs such as transport, packaging, or other incidental costs directly to subcontracting operations. Item charges enable precise cost allocation to production orders. Learn more in [Assign item charges to subcontracting receipts](subcontract-item-charges.md).
 
 ### Location management
 
-[!INCLUDE [prod_short](includes/prod_short.md)] automatically assigns and manages locations in subcontracting, from component provision to transfer to the subcontractor. Learn more in [Set up locations for subcontracting](subcontract-location-management.md).
+[!INCLUDE [prod_short](includes/prod_short.md)] automatically assigns and manages locations in subcontracting, from provisioning components to transferring them to the subcontractor. Learn more in [Set up locations for subcontracting](subcontract-location-management.md).
 
 <!--### Purchase provisions
 

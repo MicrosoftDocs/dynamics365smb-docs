@@ -7,15 +7,15 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, setup, work center group, purchase provisions
 ms.search.form: 99000080
-ms.date: 01/15/2026
+ms.date: 05/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 # Set up subcontracting
+
+[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 To use subcontracting, you must configure several settings. This article describes how to configure the basic subcontracting settings and work center groups.
 
@@ -28,18 +28,18 @@ You can specify which information from a subcontracting order to transfer to you
 
 |Field|Description|
 |-----|----------|
-|**Create Prod. Order Info Line**|Specifies whether to create an additional information line with the production order description in the subcontracting purchase order.</br></br>When turned on, the description from the production order line is automatically added as an additional text line. This helps identify which production order item the subcontracting work relates to.|
-|**Subcontracting Inbound Whse. Handling Time**|Specifies the time for calculating the receipt date in the transfer line.</br></br>The calculation follows the formula: **Receipt Date = Due Date of Subcontracting Component - Whse. Handling Time**. This enables realistic planning of material provision at the subcontractor.|
+|**Create Prod. Order Info Line**|Specifies whether to create an additional information line with the production order description in the subcontracting purchase order.<br><br>When turned on, the description from the production order line is automatically added as an extra text line. This helps identify which production order item the subcontracting work relates to.|
+|**Subcontracting Inbound Whse. Handling Time**|Specifies the time for calculating the receipt date in the transfer line.<br><br>The calculation follows the formula: **Receipt Date = Due Date of Subcontracting Component - Whse. Handling Time**. This formula enables realistic planning of material provision at the subcontractor.|
 
-## Configure additional subcontracting settings
+## Configure other subcontracting settings
 
 On the **Subcontracting** FastTab, in the **General** section, you can also configure the following fields.
 
 |Field|Description|
 |-----|----------|
 |**Subcontracting Journal Template Name**|Specifies the name of the subcontracting journal template to use for direct creation of subcontracting from a released operation.|
-|**Component Direct Unit Cost**|Specifies which direct unit cost of a production order component to use in the subcontracting purchase order. The following options are available:</br></br>**Standard** - Uses normal price finding based on purchase prices and discounts.</br></br>**Prod. Order Component** - Uses the calculated direct unit cost from the production order component line.</br></br>This setting influences cost calculation and should be chosen according to your calculation strategy.|
-|**Item Charge to Subcontracting Purch. Receipt Lines**|Specifies whether to activate item charge assignment for purchase receipt lines with subcontracting. When you turn on this toggle, an additional option becomes available in the charge assignment in purchasing.|
+|**Component Direct Unit Cost**|Specifies which direct unit cost of a production order component to use in the subcontracting purchase order. The following options are available:<br><br>**Standard** - Uses normal price finding based on purchase prices and discounts.<br><br>**Prod. Order Component** - Uses the calculated direct unit cost from the production order component line.<br><br>This setting influences cost calculation and should be chosen according to your calculation strategy.|
+|**Item Charge to Subcontracting Purch. Receipt Lines**|Specifies whether to activate item charge assignment for purchase receipt lines with subcontracting. When you turn on this toggle, an extra option becomes available in the charge assignment in purchasing.|
 
 <!-- For detailed configuration of purchase provisions and the provision setup guide, learn more in [Set up purchase provisions and use the provision setup guide](subcontract-setup-configurator.md). -->
 
@@ -54,14 +54,14 @@ To use a work center group for subcontracting, you must assign it to a vendor nu
 5. Open the vendor card.
 6. On the **Shipping** FastTab, in the **Subcontracting Location Code** field, specify the subcontracting location.
 
-   This specifies the subcontracting location. Component items provided to the vendor are posted from this location by default after execution of the subcontracting. The **Linked to Work Center Group No.** field shows whether a vendor is connected to a work center group.
+   This setting specifies the subcontracting location. Component items provided to the vendor are posted from this location by default after execution of the subcontracting. The **Linked to Work Center Group No.** field shows whether a vendor is connected to a work center group.
 
-> [!NOTE]
-> We recommend that you define a separate location for each vendor.
+   > [!NOTE]
+   > We recommend that you define a separate location for each vendor.
 
 ## Set up subcontract work center fields
 
-Subcontract work centers are set up the same as regular work centers, with additional fields. They're assigned to routings in the same manner as other work centers.
+Subcontract work centers are set up the same as regular work centers, but have more fields. They're assigned to routings in the same manner as other work centers.
 
 The **Subcontractor No.** field designates the work center as a subcontract work center. Enter the number of a subcontractor who supplies the work center. You can use this field to administer work centers that aren't in-house but perform processing under contract.
 
@@ -74,7 +74,7 @@ If you subcontract at a single rate per vendor, leave the **Specific Unit Cost**
 You can use subcontract work centers for operations on routings in the same way as regular work centers. You can set up a routing that uses a subcontract work center as a standard operational step, or modify the routing for a particular production order to include a subcontracted operation. Learn more in [Create Routings](production-how-to-create-routings.md).
 
 > [!IMPORTANT]
-> On routing lines for subcontracting operations, the **Type** field must be set to **Work Center** (not **Machine Center**). Machine centers don't support subcontractor assignments, so automatic location changes, pricing, and purchase order creation won't work for machine center operations.
+> On routing lines for subcontracting operations, the **Type** field must be set to **Work Center** (not **Machine Center**). Machine centers don't support subcontractor assignments, so automatic location changes, pricing, and purchase order creation don't work for machine center operations.
 
 ## Related information
 

@@ -1,6 +1,6 @@
 ---
 title: Manage components in subcontracting
-description: Learn how subcontracting types determine component handling, how locations are assigned, how to create transfer orders and returns, and how flushing works.
+description: Learn how subcontracting types determine how you handle components, assign locations, create transfer orders and returns, and how flushing works.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-When you subcontract manufacturing operations, components must be available at the right location — either at the subcontractor's site or at your own warehouse. This article explains the subcontracting types that control how components are handled, how locations are assigned, and how to use transfer orders to move materials to and from subcontractors.
+When you subcontract manufacturing operations, components must be available at the right location. That is, either at the subcontractor's site or at your own warehouse. This article explains the subcontracting types that control how you handle components, assign locations, and use transfer orders to move materials to and from subcontractors.
 
 ## About subcontracting types
 
@@ -25,8 +25,8 @@ The subcontracting type on a component determines where the component is consume
 
 There are three subcontracting types:
 
-- **Purchase with Service**: The subcontractor procures the component directly and provides it alongside the manufacturing service. [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a purchase line for the component on the subcontracting purchase order. You don't supply the material — the vendor does. The component location changes to the subcontractor's location.
-- **Inventory by Vendor**: The component is already physically at the subcontractor's location, available for them to consume. The components are your property, and you're responsible for keeping that location stocked. For example, by shipping materials in bulk or purchasing directly to the vendor's location. You can use standard [!INCLUDE [prod_short](includes/prod_short.md)] planning tools (requisition worksheets, reorder policies on the SKU at that location) to manage replenishment. The subcontracting extension doesn't create purchase lines or transfer orders for this type — the subcontractor simply draws from available stock. The component location changes to the subcontractor's location.
+- **Purchase with Service**: The subcontractor procures the component directly and provides it alongside the manufacturing service. [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a purchase line for the component on the subcontracting purchase order. You don't supply the material, the vendor does. The component location changes to the subcontractor's location.
+- **Inventory by Vendor**: The component is already physically at the subcontractor's location, available for them to consume. The components are your property, and you're responsible for keeping that location stocked. For example, by shipping materials in bulk or purchasing directly to the vendor's location. You can use standard [!INCLUDE [prod_short](includes/prod_short.md)] planning tools (requisition worksheets, reorder policies on the SKU at that location) to manage replenishment. The subcontracting extension doesn't create purchase lines or transfer orders for this type. The subcontractor draws from available stock. The component location changes to the subcontractor's location.
 - **Transfer**: You ship the exact quantity of the component to the subcontractor for each production order. You create transfer orders from the subcontracting purchase order to move materials from your warehouse to the vendor location. The component keeps its original location until the transfer order moves it. You can also create return transfer orders for unused quantities. Learn more in [Create transfer orders](#create-transfer-orders).
 
 > [!NOTE]
@@ -87,7 +87,7 @@ For components with the **Transfer** subcontracting type, you create transfer or
 
 ### Prerequisites
 
-Before you create a transfer order, the following must be in place:
+Before you create a transfer order, the following things must be in place:
 
 - A purchase order with subcontracting. Learn more in [Order subcontracting from production orders](subcontract-order.md) or [Use the subcontracting worksheet](subcontract-worksheet.md).
 - Production order components with the **Transfer** subcontracting type.
@@ -103,7 +103,7 @@ Before you create a transfer order, the following must be in place:
 [!INCLUDE [prod_short](includes/prod_short.md)] opens the **Transfer Order** page. On the **General** FastTab, you can see the source and destination locations, which are filled in automatically.
 
 > [!NOTE]
-> You must choose the action to create transfer orders — the process isn't automated.
+> You must choose the action to create transfer orders. The process isn't automated.
 
 ### How locations are determined for transfer orders
 
@@ -165,7 +165,7 @@ If the subcontractor didn't completely consume the provided components, you can 
 [!INCLUDE [prod_short](includes/prod_short.md)] automatically calculates the maximum quantity you can return for each component. The calculation considers:
 
 - Components in transit to the subcontractor (shipped but not yet received).
-- Components that arrived at the subcontractor and haven't been consumed yet.
+- Components that arrived at the subcontractor and aren't consumed.
 - Components already on a return transfer order or in transit back.
 - The quantity still needed for remaining production (based on outstanding purchase order quantity).
 
@@ -178,7 +178,7 @@ The return quantity is the lesser of what's physically available at the subcontr
 - Outstanding purchase order quantity: 20 units, which need 40 kg.
 - **Return quantity: 40 kg** (the lesser of 40 kg available and 40 kg needed).
 
-If you cancel the remaining 20 units on the purchase order, the outstanding quantity drops to zero, and the return quantity also becomes zero — because no production remains to justify a return.
+If you cancel the remaining 20 units on the purchase order, the outstanding quantity drops to zero, and the return quantity also becomes zero because no production remains to justify a return.
 
 > [!NOTE]
 > When the subcontractor delivers the finished goods (you post the purchase receipt), [!INCLUDE [prod_short](includes/prod_short.md)] automatically reduces the components available for return. Only unconsumed components can be returned.
@@ -187,7 +187,7 @@ If you cancel the remaining 20 units on the purchase order, the outstanding quan
 
 You can create one return transfer order per purchase order line. If you try to create a second return for the same line, you receive the error message: "The Return from Subcontractor has already been created."
 
-If you need to return a different quantity, delete the existing return transfer order (if it hasn't been posted) and create a new one.
+If you need to return a different quantity, delete the existing return transfer order (if it isn't posted) and create a new one.
 
 ## Set up flushing for subcontracting components
 
@@ -197,7 +197,7 @@ If a component is used for subcontracting, we recommend that you set its flushin
 2. Open the stockkeeping unit card for the subcontracting location.
 3. On the **Replenishment** FastTab, in the **Flushing Method** field, choose **Backward**.
 
-When you use backward flushing, [!INCLUDE [prod_short](includes/prod_short.md)] automatically consumes the material in the subcontracting warehouse without requiring additional posting.
+When you use backward flushing, [!INCLUDE [prod_short](includes/prod_short.md)] automatically consumes the material in the subcontracting warehouse without requiring other posting.
 
 ## Restrictions and validations
 

@@ -17,7 +17,15 @@ ms.custom: bap-template
 
 [!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
-To use purchase provisions, you must configure settings for routing link codes, source warehouse selection, automatic transfers, creation of production orders, and receipt and consumption postings. If the master data you use in the order process, such as items, stockkeeping units, production BOMs, and routings, don't use other values, [!INCLUDE [prod_short](includes/prod_short.md)] applies the setup values for purchase orders.
+To use purchase provisions, you must configure settings for:
+
+- Routing link codes
+- Source warehouse selection
+- Automatic transfers
+- Creation of production ordersT
+- Receipt and consumption postings
+
+If the master data you use in the order process, such as items, stockkeeping units, production BOMs, and routings, don't use other values, [!INCLUDE [prod_short](includes/prod_short.md)] applies the setup values for purchase orders.
 
 ## Configure purchase provisions settings
 
@@ -100,7 +108,7 @@ The setup guide processes different scenarios depending on which data is stored 
 
 #### When no BOM or routing is available
 
-When neither a BOM nor a routing is stored in the item or stockkeeping units:
+When you don't store a BOM or a routing in the item or stockkeeping units:
 
 - **BOM** - Created automatically from the setup configuration.
 - **Routing** - Created with standard operations (subcontracting, optional put-away).
@@ -145,7 +153,7 @@ The settings are divided according to the following scenarios.
 |--------|----------|
 |**Both Available**|Configuration when both BOM and routing are available.|
 |**Partially Available**|Configuration when only BOM or only routing is available.|
-|**Nothing Available**|Configuration when neither BOM nor routing is available.|
+|**Nothing Available**|Configuration when no BOM or routing are available.|
 
 For each scenario, you can set the following options:
 

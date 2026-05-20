@@ -23,7 +23,7 @@ In France, companies must provide corporate tax and VAT information, such as tra
 
 1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Audit File Export Document**, and then select the related link.
 1. Select **New** to create new exporting process.
-1. In the **Audit File Export Format** field, select **FEC** to specifiy the format that's used to export the audit file.  
+1. In the **Audit File Export Format** field, select **FEC** to specify the format that's used to export the audit file.  
 1. On the **FEC** FastTab, mark the **Include Opening Balances** field to include opening balances in the audit report file. The balances are calculated as of the date before the first date of the period covered by the report.
 1. Enter the **Default Source Code** to specify the source code to be used if there's no code specified in the G/L entry.
 1. Enter information in the remaining fields as described in the article, [How to export Audit Files](../../finance-how-to-export-audit-files.md).

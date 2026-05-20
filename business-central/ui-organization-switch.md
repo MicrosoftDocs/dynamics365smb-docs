@@ -91,7 +91,7 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can
 3. Choose the **OK** button.
 
 > [!TIP]
-> A good way to go directly to your default company when you sign in, and avoid having to specify an environment, is to add the the URL to your list of favorites after you sign in.
+> A good way to go directly to your default company when you sign in, and avoid having to specify an environment, is to add the URL to your list of favorites after you sign in.
 
 ## Use company hub
 

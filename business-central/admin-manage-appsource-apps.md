@@ -21,9 +21,9 @@ To locate the page, in [!INCLUDE[prod_short](includes/prod_short.md)], [!INCLUDE
 
 On the page, you find the following actions:
 
-- **View Marketplace** to open the online Marketplace marketplace in a new browser window. 
-- **View in Marketplace** to open and view a selected app in the online Marketplace Marketplace. 
-- **Refresh list from Microsoft Marketplace** to force a refresh of the list of all apps to Marketplace marketplace content—for example, if you're looking for a newly submitted Marketplace app.
+- **View Marketplace** to open the online Marketplace in a new browser window. 
+- **View in Marketplace** to open and view a selected app in the online Marketplace. 
+- **Refresh list from Microsoft Marketplace** to force a refresh of the list of all apps to Marketplace content—for example, if you're looking for a newly submitted Marketplace app.
 
 As with other list pages, you get support for Analysis Mode, for example, so that you can group apps by publisher. Use Copilot to design an **Analysis Mode** view for you.
 

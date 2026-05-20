@@ -54,7 +54,7 @@ From each receipt, the agent identifies and extracts:
 
 ### Categorization and rule application
 
-The agent automatically classifies each expense into the configured expense categories and subcategories based on the receipt content and descriptions for each of categories. It also handles special expense and allowance types:
+The agent automatically classifies each expense into the configured expense categories and subcategories based on the receipt content and descriptions for each of the categories. It also handles special expense and allowance types:
 
 - **Per diem** calculated from uploaded itinerary details
 - **Mileage** calculated from travel map in the web app
@@ -107,7 +107,7 @@ For mileage-type expenses, a dedicated user interface is presented with the foll
 - Mileage  
 - Round trip  
 
-The user must provide the starting and ending points. The agent calculates available routes showing this on the displayed, including the fastest and alternative options. The user selects the preferred route and can enable the **Round trip** option if applicable. 
+The user must provide the starting and ending points. The agent calculates available routes and displays them, including the fastest and alternative options. The user selects the preferred route and can enable the **Round trip** option if applicable. 
 
 > [!NOTE]
 > When the user selects a route and confirms the expense, a screenshot of the chosen route is captured and attached to the expense record. 
@@ -116,7 +116,7 @@ The user must provide the starting and ending points. The agent calculates avail
 
 Expense users can review, edit, and submit expenses through the web app.
 
-No Business Central license is required for this process if not processes inside Business central.
+No Business Central license is required for this process if not processes inside Business Central.
 
 The user must review all expenses before submitting the report. As extraction and categorization are performed by the agent, the user is required to validate the accuracy of all data. After completing the review, the user can submit the expense report for approval.
 
@@ -147,7 +147,7 @@ Administrators enable the agent from Business Central using the dedicated **EA**
 
 ### Billing for use
 
-The Expense Agent consumes Copilot Credits for AI processing. It costs 50 Copilot Credits for one receipt handling (one expense creation) regardless of complexity; it covers whole process from extraction, through categorization and itemization, groupping into expense reports and approving. Set up a billing model for your Business Central environment before using the agent. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+The Expense Agent consumes Copilot Credits for AI processing. It costs 50 Copilot Credits for one receipt handling (one expense creation) regardless of complexity; it covers whole process from extraction, through categorization and itemization, grouping into expense reports and approving. Set up a billing model for your Business Central environment before using the agent. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 ### How the agent operates
 

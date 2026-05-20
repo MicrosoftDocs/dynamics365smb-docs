@@ -39,7 +39,7 @@ To configure these settings, follow these steps:
     | Field | Description |
     |-------|-------------|
     | **Emission Unit of Measure Code** | Enter the unit of measure code that you use to register emissions.<br><br>**Note:** To maintain consistency in environmental data, [!INCLUDE [prod_short](includes/prod_short.md)] restricts changes to this field after you create entries in the sustainability ledger. This restriction prevents accidental or intentional changes that could compromise emissions calculations or audit compliance. We recommend that you finalize your unit of measure during initial configuration to ensure consistent reporting. |
-    | **Waste Unit of Measure Code** | Enter the the waste unit of measure code that you use to register waste intensity. |
+    | **Waste Unit of Measure Code** | Enter the waste unit of measure code that you use to register waste intensity. |
     | **Water Unit of Measure Code** | Enter the water unit of measure code that you use to register water intensity. |
     | **Disch. Into Water Unit of Measure Code** | Enter the unit of measure code that you use to register discharged into water. |
     | **Emission Decimal Places** | Enter the number of decimal places that show for emission amounts. The default setting, *2:5*, means that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places show for all amounts. |

@@ -31,7 +31,7 @@ When custom report layouts are defined, you can select them from customer and ve
    The **Report Layout Selection** page lists all the reports that are available for the company that's specified in the **Company** field at the top of the page. The **Layout Description** <!-- **Selected Layout** -->field specifies the layout that's currently used on the report.
 2. Set the **Company** field at the top the company that includes the report.
 
-   This field let's you set a different layouts for same report report in different companies.
+   This field let's you set a different layouts for same report in different companies.
 
 3. To change the layout that is used by a report, on the row for the report, set the **Selected Layout** field to one of the following options:
    * **RDLC (built-in)**, uses the built-in RDLC report layout on the report.

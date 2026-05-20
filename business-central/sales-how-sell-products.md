@@ -49,7 +49,7 @@ You can even create directly paid orders for unregistered customers by first set
     Leave the **No.** field empty if the line is for a:
 
     * Comment. Write the comment in the **Description** field.
-    * Catalog item. Choose the **Select Catalog Items** action. To learn more about catalog items, go to To learn more, go to [Work With Catalog Items](inventory-how-work-nonstock-items.md).
+    * Catalog item. Choose the **Select Catalog Items** action. To learn more, go to [Work With Catalog Items](inventory-how-work-nonstock-items.md).
 7. In the **Quantity** field, enter the number of items to be sold.
 
     > [!NOTE]  

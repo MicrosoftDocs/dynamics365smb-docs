@@ -126,6 +126,22 @@ When Sales Order Agent is active, a scheduled task added to job queue runs every
 > [!NOTE]
 > The ![Shows the Sales Order Agent icon when the agent is configured but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with the mailbox, but it's not active. To activate, select the icon, then select ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure Sales Order Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
 
+## Manage agent when Copilot Credits run out
+
+Sales Order Agent requires Copilot Credits to process incoming emails. When your organization's Copilot Credit quota is depleted, the agent stops retrieving and processing new emails from the monitored mailbox. However, the agent remains active — it continues to run its scheduled task and sends any pending reply emails that were already prepared.
+
+When credits become available again (for example, at the start of a new billing period or when you purchase more capacity), the agent automatically resumes processing. It picks up all unread emails that accumulated in the mailbox while credits were unavailable. Depending on the volume of unread emails, this can consume a significant portion of your renewed credits quickly.
+
+### Best practices for managing credits
+
+- **Deactivate the agent if you don't want automatic resumption.** If you're experimenting with the agent or running on limited free credits, deactivate the agent before credits run out to prevent it from automatically processing a backlog of emails when credits renew. To deactivate, select ![Sales Order Agent icon](media/soa-activated-icon.png) **Sales Order Agent** > ![Configuration icon](media/soa-configure-icon.png) **Configure Sales Order Agent**, and then turn off the **Active** toggle.
+- **Use the daily email limit to control consumption.** Set the **Daily email limit** on the **Manage mailbox** configuration card to cap how many emails the agent processes per day. This setting helps prevent the agent from consuming all credits in a short time, especially after a period of inactivity.
+- **Monitor your credit usage.** Check Copilot Credit capacity and usage in the Power Platform admin center to stay ahead of quota limits. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+- **Manage unread emails before reactivating.** Before reactivating the agent, consider clearing or archiving old emails from the monitored mailbox that no longer need a response. This prevents the agent from processing stale requests.
+
+> [!NOTE]
+> When you reactivate the agent after deactivating it, the agent processes unread emails from the mailbox starting from when it was deactivated. If you don't want the agent to process older emails, clear them from the monitored folder before reactivating.
+
 ## Manage agent permissions and user access
 
 ### Add agent users

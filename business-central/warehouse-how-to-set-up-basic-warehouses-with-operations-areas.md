@@ -19,7 +19,7 @@ If you have internal operation areas, such as production or assembly areas, you 
 - **Inventory Pick** page.  
 - **Inventory Put-away** page.
 
-To use these documents, you must set up one or more of the following fields on the the **Location Card** page for the location:
+To use these documents, you must set up one or more of the following fields on the **Location Card** page for the location:
 
 - The **Bin Mandatory** field.
 - The **Inventory Pick/Movement** option in the **Prod. Consumption Whse. Handling** field.

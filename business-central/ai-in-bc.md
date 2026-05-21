@@ -18,17 +18,17 @@ ms.collection:
 
 This article gives a quick tour of AI in Business Central, covering Copilot and agent capabilities that help you streamline your processes and free up time for what is most impactful to your business. Each section explains what a capability does at a glance and links to detailed docs and AI FAQs so you can decide where it fits in your workflows.
 
-**Copilot** is an AI-powered assistant that helps you work more efficiently by sparking creativity, boosting productivity, and eliminating tedious tasks. Copilot works collaboratively with you&mdash; you initiate actions, and Copilot provides suggestions, analysis, and assistance to help you complete them faster. Chat with Copilot at any time, or look for the Copilot icon on Business Central pages for specific things it can help with.
+**Copilot** is an AI-powered assistant that helps you work more efficiently by sparking creativity, boosting productivity, and eliminating tedious tasks. Copilot works collaboratively with you. You initiate actions, and Copilot provides suggestions, analysis, and assistance to help you complete them faster. Chat with Copilot at any time, or look for the Copilot icon on Business Central pages for specific things it can help with.
 
-**Agents** are autonomous AI workers that can independently handle tasks with minimal human input. They automate specific processes, becoming a valuable member of the team where their work is transparent, reviewable and keeps people in the loop as work progresses. Agents are ideal for automating tedious, repetitive tasks or work that must happen around the clock, such as processing invoices or generating orders from emails.
+**Agents** are autonomous AI workers that can independently handle tasks with minimal human input. They automate specific processes, becoming a valuable member of the team where their work is transparent, reviewable, and keeps people in the loop as work progresses. Agents are ideal for automating tedious, repetitive tasks or work that must happen around the clock, such as processing invoices or generating orders from emails.
 
 **Benefits** of using AI in Business Central include:
 
 - Eliminate tedious tasks, freeing up time for what is most impactful to your business.
-- You won’t need to transfer your data to other unmanaged AI apps and risk your company data.
+- You don’t need to transfer your data to other unmanaged AI apps and risk your company data.
 - Seamlessly integrated into your workflows and safely connected to your data.
-- Designed for work and with the privacy, safety, and compliance that businesses expect, and built on Microsoft's Responsible AI principles.
-- Makes Business Central easier to learn and use, and accessible to more people.
+- It's designed for work and with the privacy, safety, and compliance that businesses expect, and built on Microsoft's Responsible AI principles.
+- Makes [!INCLUDE [prod_short](includes/prod_short.md)] easier to learn and use, and accessible to more people.
 
 Check for [availability in your country/region and preferred language](copilot-agents-region-language-availability.md), or feature documentation to learn which features are currently in preview or have specific license requirements.
 
@@ -38,7 +38,7 @@ No matter your role, task, or the industry you work in, these Copilot features a
 
 ### Chat
 
-Chat with Copilot to find your company data or learn how to do things in Business Central. With just a few words, Copilot will quickly locate the records you're looking for and provide links to get to the details, and will help you understand fields, processes and features of Business Central, including those from your add-on apps.
+Chat with Copilot to find your company data or learn how to do things in Business Central. With just a few words, Copilot can quickly find the records you're looking for and provide links to get to the details. Copilot helps you understand fields, processes, and features of [!INCLUDE [prod_short](includes/prod_short.md)], including those from your add-on apps.
 
 [Video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
@@ -49,7 +49,7 @@ Chat with Copilot to find your company data or learn how to do things in Busines
 
 ### Analysis assist
 
-Use natural language to transform a list of records into a more meaningful layout, so that you can make data-driven decisions. Copilot helps you arrange raw data into analysis views with grouping, pivots, filters and totals, without having to leave Business Central.
+Use natural language to transform a list of records into a more meaningful layout, so that you can make data-driven decisions. Copilot helps you arrange raw data into analysis views with grouping, pivots, filters, and totals, without having to leave Business Central.
 
 [Video](https://www.youtube.com/watch?v=ofq4OBTuPvE)
 
@@ -60,7 +60,7 @@ Use natural language to transform a list of records into a more meaningful layou
 
 ### Summarize
 
-Copilot provides quick insights, summarizing a record into a few key points tailored to your role, and displaying them automatically right alongside your data. Summaries help you understand what’s urgent and important, so you can grasp context and act faster without having to comb through fields or FactBoxes, and providing inline links to quickly get to the details.
+Copilot provides quick insights, summarizing a record into a few key points tailored to your role and displaying them automatically right alongside your data. Summaries help you understand what’s urgent and important, so you can grasp context and act faster without having to comb through fields or FactBoxes. Copilot provides inline links so you can quickly get to the details.
 
 [Video](https://www.youtube.com/watch?v=MfdNppomGJE&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=6)
 
@@ -86,7 +86,7 @@ Whether you're in Accounts Payable or Accounts Receivable, there's AI to help yo
 
 ### Payables Agent
 
-Payables Agent streamlines accounts payable by monitoring your company mailbox for incoming vendor invoices, extracting the details, matching them to purchase orders and receipts, proposing posting accounts for unmatched lines, and routing exceptions, reducing manual data entry and speeding up invoice processing around the clock.
+Payables Agent streamlines accounts payable by monitoring your company mailbox for incoming vendor invoices. It extracts the details, matches them to purchase orders and receipts, proposes posting accounts for unmatched lines and routing exceptions. This assistance reduces manual data entry and speeds up invoice processing around the clock.
 
 [Video](https://youtu.be/uThNFjsjZBc?si=9GJ4iy4oYi2Ga8UX)
 
@@ -108,7 +108,7 @@ Copilot's e-document matching helps you map vendor e-invoices to purchase orders
 
 ### Bank account reconciliation assist
 
-Copilot makes periodic reconciliation of your bank accounts much easier, by using AI to propose matches between bank statement transactions and ledger entries and to suggest posting accounts for unmatched lines.
+Copilot makes periodic reconciliation of your bank accounts easier, by using AI to propose matches between bank statement transactions and ledger entries and to suggest posting accounts for unmatched lines.
 
 [Video](https://www.youtube.com/watch?v=4Te11l2BxmQ)
 
@@ -130,7 +130,7 @@ Formerly Copilot for Finance, this role-based solution for Copilot brings AI ass
 
 ### Item substitute suggestions
 
-Copilot analyzes product data to propose compatible alternatives that show up when items are out of stock or discontinued, helping sales and service teams keep orders moving with suitable replacements.
+Copilot analyzes product data to propose good alternatives that show up when items are out of stock or discontinued. The proposals help sales and service teams keep orders moving with suitable replacements.
 
 [Video](https://www.youtube.com/watch?v=4bTtvhjPjFE&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=8)
 
@@ -139,7 +139,7 @@ Copilot analyzes product data to propose compatible alternatives that show up wh
 - [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md)
 - [Responsible AI FAQ for suggest item substitutions](faq-suggest-item-substitutions-with-copilot.md)
 
-### Suggest gas emissions in sustainability journals 
+### Suggest greenhouse gas emissions in sustainability journals 
 
 For greenhouse gas (GHG) emissions, Copilot estimates total emissions from descriptions and input parameters and adjusts emission factors for future use.
 
@@ -164,7 +164,7 @@ The Sales Order Agent automates sales orders by handling customer requests via e
 
 ### Sales line suggestions
 
-Write a few words, paste in a conversation or upload a file, and Copilot will identify the matching line items to add to a quote or order, helping you build complete, accurate sales documents faster. 
+Write a few words, paste in a conversation or upload a file, and Copilot identifies the matching line items to add on a quote or order, helping you build complete, accurate sales documents faster. 
 
 [Video](https://www.youtube.com/watch?v=qmGxeq5FJis)
 
@@ -175,7 +175,7 @@ Write a few words, paste in a conversation or upload a file, and Copilot will id
 
 ### Marketing text suggestions
 
-Copilot drafts compelling product descriptions for your items based on your tone preferences and attributes already in Business Central, giving you on-brand copy you can review and refine. If you're using the Shopify add-on to Business Central, you can publish marketing copy straight to your online store.
+Copilot drafts compelling product descriptions for your items based on your tone preferences and attributes already in [!INCLUDE [prod_short](includes/prod_short.md)]. You get on-brand copy you can review and refine. If you're using the Shopify add-on to [!INCLUDE [prod_short](includes/prod_short.md)], you can publish marketing copy straight to your online store.
 
 [Video](https://www.youtube.com/watch?v=0b6e7ROHgpk&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=10)
 
@@ -190,7 +190,7 @@ Whether you’re onboarding to Business Central for the first time, or expanding
 
 ### Number series suggestions
 
-Number series suggestions helps you quickly set up consistent, collision-free numbering for documents and master records. Copilot proposes prefixes, formats, and lengths based on your existing data and setup conventions, so you can standardize numbering and avoid manual errors.
+Number series suggestions help you quickly set up consistent, collision-free numbering for documents and master records. Copilot proposes prefixes, formats, and lengths based on your data and setup conventions, so you can standardize numbering and avoid manual errors.
 
 [Video](https://www.youtube.com/watch?v=2Tv_Nlh1jlo&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=9)
 
@@ -201,7 +201,7 @@ Number series suggestions helps you quickly set up consistent, collision-free nu
 
 ## Other AI and machine learning features
 
-Business Central also includes various features that do not use generative AI, but use other AI models to help accomplish specific tasks. 
+Business Central also includes various features that don't use generative AI, but use other AI models to help accomplish specific tasks. 
 
 ### Search for pages and reports
 

@@ -1,14 +1,15 @@
 ---
 title: Combine Automatic and Manual Flushing
 description: Walkthrough for a production planner at Contoso Coffee, who wants to combine automatic and manual flushing.
-ms.date: 05/18/2026
+ms.date: 05/19/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
-# Walkthrough: combine automatic and manual flushing
+# Walkthrough: Combine automatic and manual flushing
 
 This article takes you through the steps to use the Contoso Coffee demo data in flushing.  
 
@@ -19,7 +20,6 @@ You're the production planner at Contoso Coffee. You must create a new productio
 ## Steps
 
 1. Create a firm planned production order for five units of the item **SP-SCM1004, AutoDrip** on *MAIN* location. For guidance, see [Walkthrough: Create a Firm Planned Production Order and Change It](create-firm-planned-production-order-change.md).  
-
 2. Release the production order.
 
     1. Choose the **Change Status** action.  
@@ -37,41 +37,45 @@ You're the production planner at Contoso Coffee. You must create a new productio
 
         The item **SP-BOM1305 Screw Hex M3 Zink** is flushed immediately with the full expected quantity. Close the **Item Ledger Entries** page.  
 
-    4. Choose the **Capacity Ledger Entries** action. A body assembly operations entry was also completed at moment when order was released. Close the **Capacity Ledger Entries** page.
+    4. Choose the **Capacity Ledger Entries** action. A body assembly operations entry was also completed when the order was released. Close the **Capacity Ledger Entries** page.
 
-    You can manually flush component items by using the consumption or production journal. Manual flushing allows you to adjust quantity before posting. For example, if extra quantity is needed to cover low quality raw materials.
+    You can manually flush component items by using a consumption or production journal. Manual flushing allows you to adjust quantity before posting. For example, if more quantity is needed to cover a low quality of raw materials.
 4. Flush components manually.  
     1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.  
+
     2. Choose the **Calc. Consumption** action.  
-    3. In the **Calc. Consumption** request page, on the **Production Order** FastTab, define a filter for the specific order in the **Order No.** field, and then choose the **OK** button. After the batch job request page closes, notice that the **Consumption Journal** page populates with the components that require manual consumption.
-    4. Choose **Post** action. Close the consumption journal.
+
+    3. In the **Calc. Consumption** request page, on the **Production Order** FastTab, define a filter for the specific order in the **Order No.** field, and then choose the **OK** button. After the batch job request page closes, the **Consumption Journal** page shows the components that require manual consumption.
+
+    4. Choose the **Post** action. Close the consumption journal.
 
 5. Manually register output for electrical wiring.  
 
-    You must manually fill in the **Run Time** field. You can also specify the produced quantity and scrap. Enter *3* as the output quantity and post the output.
+    You must manually fill in the **Run Time** field. You can also specify the quantity and scrap that was produced. Enter **3** as the output quantity and post the output.
 
     1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
-    2. In the **Output Journal** page, create a new journal line.  
+    2. On the **Output Journal** page, create a new journal line.  
     3. In the **Order No.** field, specify the order.  
     4. Choose the **Explode Routing** action.  
 
-        The **Output Journal** page populates with the operation line only for electrical wiring.
+        The **Output Journal** page shows the operation line only for electrical wiring.
 
-    5. Set the **Run Time** field to *10*.  
-    6. Change the **Quantity** field from *5* to *3*.
+    5. In the **Run Time** field, enter **10**.  
+    6. Change the **Quantity** field from **5** to **3**.
+
     7. Choose **Post**.  
     8. Close the output journal.
 
 6. Review the item ledger entries for the production order.
 
-    1. In the page for the production order, choose the **Item Ledger Entries** action.  
+    1. On the page for the production order, choose the **Item Ledger Entries** action.  
 
-    The item **SP-BOM1302, Control panel display** is posted with a quantity of *3*, based on the actual output, while **SP-BOM1303, Button** is posted with the full expected quantity. Close the **Item Ledger Entries** page.
+    The item **SP-BOM1302, Control panel display** is posted with a quantity of **3**, based on the actual output. **SP-BOM1303, Button** is posted with the full expected quantity. Close the **Item Ledger Entries** page.
 
 7. Finish the production order.  
 
     1. Choose the **Change Status** action.
-    2. In the page that appears, set the **New Status** field to *Finished*, and then choose the **Yes** button.  
+    2. In the page that appears, choose **Finished** in the **New Status** field, and then choose the **Yes** button.  
 
         A message displays with a status bar that reflects the automatic consumption. This message is followed by a confirmation message that the order is changed to an order with the status **Finished**. The finished production order has the same number as it had as with the status **Released**.
     3. Choose the **OK** button to close the confirmation message.
@@ -80,11 +84,11 @@ You're the production planner at Contoso Coffee. You must create a new productio
 
     1. Choose the **Capacity Ledger Entries** action.  
 
-        The packing operations entry was completed at the moment when the order was finished. The produced (output) quantity is 5, regardless of the output of the previous step. Close the **Capacity Ledger Entries** page.
+        The packing operations entry was completed when the order was finished. The produced (output) quantity is **5**, regardless of the output of the previous step. Close the **Capacity Ledger Entries** page.
 
     2. Choose the **Item Ledger Entries** action.  
 
-        The quantity in the item ledger entry of type **Output** is equal to the output quantity in the capacity ledger entry. The consumed quantity of **SP-BOM1301, Housing AutoDrip**, and **SP-BOM1304, Stainless still thermal carafe** is 5 for both because the expected output and the actual output are the same. 
+        The quantity in the item ledger entry of type **Output** is equal to the output quantity in the capacity ledger entry. The consumed quantity of **SP-BOM1301, Housing AutoDrip**, and **SP-BOM1304, Stainless still thermal carafe** is **5** for both because the expected output and the actual output are the same.
 
     3. Close the **Item Ledger Entries** page.  
 

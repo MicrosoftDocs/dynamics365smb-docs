@@ -22,7 +22,7 @@ The **Sales Demographics** report provides a comprehensive analysis of sales per
 
 ## Use the report
 
-Leadership and management teams use the report to to gain a deeper understanding of sales performance based on demographic factors. This report is helpful for analyzing sales metrics by item category, customer posting group, document type, and geographical location to identify trends and opportunities for growth.
+Leadership and management teams use the report to gain a deeper understanding of sales performance based on demographic factors. This report is helpful for analyzing sales metrics by item category, customer posting group, document type, and geographical location to identify trends and opportunities for growth.
 
 CEOs want to understand how demographic factors including item categories, posting groups or geographical regions impact sales performance.
 

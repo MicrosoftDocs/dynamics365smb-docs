@@ -42,7 +42,7 @@ For more information, see [Create a public folder mailbox](/exchange/collaborati
 ### Create new public folders
 
 1. Create a new public folder with the name **Email Logging** in the root so that the full path to the folder becomes `\Email Logging\`.
-2. Create two sub-folders so that the the result is the following full paths to the folders:
+2. Create two sub-folders so that the result is the following full paths to the folders:
 
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`

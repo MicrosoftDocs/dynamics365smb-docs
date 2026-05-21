@@ -61,7 +61,7 @@ By choosing the AssistEdit :::image type="content" source="../media/assist-edit-
 
 Use the **Partner** field to specify whether the template is for customer or vendor subscription lines.
 
-To use a billing template, you must enter filter criteria. The criteria determines the subscription lines to bill. To define the filters, use the **Edit List** action. In addition to the pre-set criteria, you can add criteria such as the contract type, the responsible user, or the salesperson. When you choose **OK**, the criteria are saved in the billing template.
+To use a billing template, you must enter filter criteria. The criteria determine the subscription lines to bill. To define the filters, use the **Edit List** action. In addition to the pre-set criteria, you can add criteria such as the contract type, the responsible user, or the salesperson. When you choose **OK**, the criteria are saved in the billing template.
 
 In the **Billing Date Formula** field, enter a dateformula that's taken into account when the billing template is used in the **Billing Date** field. This field is then used to filter the subscription lines to bill, based on **Next Billing Date**, when creating the proposal lines. If you don't specify a dateformula, recurring billing uses the work date.
 
@@ -98,7 +98,7 @@ You can only make changes that aren't relevant for billing in the posting docume
 Also, you can't create multiple posting documents for the same billing line.
 
 > [!NOTE]
-> The moment you create a billing proposal for a contract line, the **Next Billing Date** field updates to show show the current status. If you delete the billing line or change the billing period, the field is automatically reset or set based on the changed billing period.
+> The moment you create a billing proposal for a contract line, the **Next Billing Date** field updates to show the current status. If you delete the billing line or change the billing period, the field is automatically reset or set based on the changed billing period.
 
 A credit memo for a contract invoice also resets the **Next Billing Date** field. To ensure consistency of the contract line and subscription lines, credits must be chronological when you credit multiple contract invoices.
 

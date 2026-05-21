@@ -126,7 +126,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 
 ### Delete all personalizations made by a specific user
 
-You can delete all changes that a user makes to any pages, which reverts the pages to the the original layout. Personalizations aren't associated with a profile (role). If a user personalizes a page, they experience the personalizations on the page no matter which role they're using.
+You can delete all changes that a user makes to any pages, which reverts the pages to the original layout. Personalizations aren't associated with a profile (role). If a user personalizes a page, they experience the personalizations on the page no matter which role they're using.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Settings**, and then select the related link.
 

@@ -27,8 +27,9 @@ You assign the serviceable items you sell (subscriptions), whether it's the sale
 * Simplify billing with billing templates
 * Automatically calculate notice periods
 * Use deferral-based posting of income and expenses to profit and loss accounts
+* Get insight into the performance and health of your subscription business
 
-## Main elements of subscription billing 
+## Main elements of subscription billing
 
 ### Contracts​
 
@@ -77,6 +78,10 @@ The **Overdue** and **Not invoiced** cues indicate actions you might want 
 - **Not Invoiced** shows that you haven't created a posting document for lines in a billing proposal. 
 
 The cues are based on the work date.
+
+## Analytics in subscription billing
+
+The Power BI Subscription Billing app provides a set of reports that give you detailed insights into the performance and health of your subscription business. Use the app to monitor key metrics such as monthly recurring revenue, churn rates, and contract growth over time. The reports connect directly to your subscription billing data in Business Central, so you always have up-to-date information for analysis and decision-making. Learn more at [Power BI Subscription Billing app](analytics/subscription-powerbi-app.md).
 
 ## Get started
 

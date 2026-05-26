@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Export your business data to Excel
 
-Excel is a powerful tool to work with data. From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can open any list in Excel. You can even modify data in Excel and then submit it back to [!INCLUDE [prod_short](includes/prod_short.md)]. The same capability makes it easy for you to take your data with you if you decide to cancel your subscription.
+Excel is a powerful tool to work with data. From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can open any list in Excel. You can even modify data in Excel and then submit it back to [!INCLUDE[prod_short](includes/prod_short.md)]. The same capability makes it easy for you to take your data with you if you decide to cancel your subscription.
 
 ## Opening and exporting lists in Excel
 

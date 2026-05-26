@@ -1,20 +1,21 @@
 ---
 title: Power BI Subscription Billing app semantic model
 description: Get an overview of all tables and fields in the Subscription Billing app semantic model.
-author: vanessa-mi
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.date: 12/15/2025
+ms.date: 05/12/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Power BI Subscription Billing app semantic model
 
 The semantic model in the Power BI Subscription Billing app is organized in a [Star Schema Model](/power-bi/guidance/star-schema#star-schema-overview).
 
-The fact tables contains information about individual transactions from sources such as customer subscription contracts and vendor subscription contracts.
+The fact tables contain information about individual transactions from sources such as customer subscription contracts and vendor subscription contracts.
 
 The dimension tables provide more context and attributes to the transactional data, such as customer and product information.
 

@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: solsen
 ms.search.keywords: bing, browsing, search engine, web-enabled AI, web-aware AI
 ms.topic: overview 
-ms.date: 10/07/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
@@ -20,7 +20,7 @@ ms.collection:
 Some Copilot features in [!INCLUDE [prod_short](includes/prod_short.md)] can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content, and saves you time from having to switch apps to manually find things yourself. Copilot is powered by Microsoft Bing, and connecting Copilot to Bing search is optional.
 
 > [!IMPORTANT]
-> Bing Search is available from update 26.3 in sandbox environments only. Starting in update 27.0, it's also available in production enviroments. Bing Search isn't available for on-premises deployments of [!INCLUDE [prod_short](includes/prod_short.md)] because it's intended only for use with AI features in online environments.
+> Bing Search is available from update 26.3 in sandbox environments only. Starting in update 27.0, it's also available in production environments. Bing Search isn't available for on-premises deployments of [!INCLUDE [prod_short](includes/prod_short.md)] because it's intended only for use with AI features in online environments.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

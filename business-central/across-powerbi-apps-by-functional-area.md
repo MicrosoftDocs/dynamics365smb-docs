@@ -3,17 +3,15 @@ title: Power BI apps/reports for functional areas
 description: Get an overview of the landing pages for the Power BI apps available in functional areas in Business Central.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: feature overview
-ms.date: 10/17/2025
+ms.date: 05/13/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Power BI apps/reports for functional areas
-
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 [!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
 
@@ -60,6 +58,18 @@ Learn more in [Power BI Projects app](projects-powerbi-app.md).
 [!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
 
 Learn more in [Power BI Manufacturing app](manufacturing-powerbi-app.md).
+
+## Reports in the Power BI Sustainability app
+
+[!INCLUDE [power-bi-sustainability-app](includes/power-bi-sustainability-app.md)]
+
+Learn more in [Sustainability Power BI app](sustainability-powerbi-app.md).
+
+## Reports in the Power BI Subscription Billing app
+
+[!INCLUDE [power-bi-subscription-billing-app](includes/power-bi-subscription-billing-app.md)]
+
+Learn more in [Power BI Subscription Billing app](SRB/analytics/subscription-powerbi-app.md).
 
 ## Related information
 

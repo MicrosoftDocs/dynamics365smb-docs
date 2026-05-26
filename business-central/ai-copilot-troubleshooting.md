@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting 
 ms.collection:
   - bap-ai-copilot
-ms.date: 10/13/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.service: dynamics-365-business-central
@@ -26,7 +26,7 @@ If Copilot functionality, such as the **Draft with Copilot** action for marketin
 
 ## Copilot appears on pages, but you get an error that it's not activated
 
-When you try to use Copilot and you get an error similar to **Sorry, Copilot is not activated for \[feature\]**, there are a couple things to check:
+When you try to use Copilot and you get an error similar to **Sorry, Copilot is not activated for \[feature\]**, there are a couple of things to check:
 
 - First, make sure that the feature is activated on the **Copilot & agent capabilities** page. [Learn more about activating Copilot and agent capabilities](enable-ai.md#activate-features). 
 - Next, make sure that privacy notice statement for Azure OpenAI integration isn't set to **Disagree for everyone**. If it is, change it to **Agree for everyone**. [Learn more about privacy notices](privacy-notices-status.md).

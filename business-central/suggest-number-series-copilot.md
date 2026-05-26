@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: article
 ms.search.form:
-ms.date: 10/13/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -40,7 +40,7 @@ For each company you set up in [!INCLUDE [prod_short](includes/prod_short.md)], 
 
 Numbering isn't only important for identification. A well-designed numbering system also makes the company more manageable and easier to analyze, and can reduce data entry errors.
 
-By letting you use natural language or structured input, Copilot can reduce the time it takes to set up number series and make it easier to maintain them. For example, when you need to update year or month-based numbering for many draft and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
+By letting you use natural language or structured input, Copilot can reduce the time it takes to set up number series and make it easier to maintain them. For example, when you need to update year or month-based numbering for many drafts and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Review the suggestions and refine your prompt
 

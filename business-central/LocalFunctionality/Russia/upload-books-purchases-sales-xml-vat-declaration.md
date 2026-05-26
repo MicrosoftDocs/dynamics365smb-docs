@@ -50,7 +50,7 @@ The system generates an XML file in the folder specified in the settings and fil
 
 ## Uploading VAT declaration to XML
 
-To generate a Declaration file, go to **Departments -> VAT Declaration -> Export VAT Declaration to XML**:
+To generate a Declaration file, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export VAT Declaration to XML**, and then choose the related link:
 
 To calculate and upload a file, you must specify:
 

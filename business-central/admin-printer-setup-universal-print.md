@@ -206,7 +206,7 @@ You don't seem to have access to Universal Print. Make sure you have a Universal
 
 ## Could not upload the document to print job 50.
 
-There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
+There is a technical problem with the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
 
 

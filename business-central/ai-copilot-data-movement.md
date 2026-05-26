@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: article
-ms.date: 02/09/2026
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
@@ -52,7 +52,7 @@ This section provides detailed information about the geographic factors that aff
 
 ### Business Central country/region version
 
-**What it is**: The localized version of Business Central used on an environment specified by an admin when the enviroment was created.
+**What it is**: The localized version of Business Central used on an environment specified by an admin when the environment was created.
 
 **Why it matters**:
 

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/07/2025
+ms.date: 05/03/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

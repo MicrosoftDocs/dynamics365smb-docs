@@ -317,6 +317,7 @@ ms.service: dynamics-365-business-central
 ###### [Income Statement](reports/report-154.md) 
 ###### [Statement of Cashflows](reports/report-155.md) 
 ###### [Retained Earnings Statement](reports/report-156.md) 
+###### [Audit Trail](reports/report-330.md)
 ###### [Day Book Customer Ledger Entry](reports/report-2501.md)
 ###### [Day Book Vendor Ledger Entry](reports/report-2502.md)
 
@@ -415,12 +416,12 @@ ms.service: dynamics-365-business-central
 #### [Revalue general ledger account balances](finance-revalue-account-balances.md)
 #### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
 #### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
-#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
 #### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
 #### [Allocate recurring costs and income](year-allocate-costs-income.md)
 #### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
 #### [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
 #### [Export data for auditing](finance-how-to-export-audit-files.md)
+
 <!-- CoA and G/L end -->
 
 ### Working with dimensions
@@ -616,10 +617,10 @@ ms.service: dynamics-365-business-central
 ##### [Sales by Projects](sales-powerbi-sales-by-project.md)
 ##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
 ##### [Sales Demographics](sales-powerbi-sales-demographics.md)
+##### [Customer Retention Overview](sales-powerbi-customer-retention-overview.md)
+##### [Customer Retention History](sales-powerbi-customer-retention-history.md)
 ##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
-##### [Customer Retention Overview (Power BI Report)](sales-powerbi-customer-retention-overview.md)
-##### [Customer Retention History (Power BI Report)](sales-powerbi-customer-retention-history.md)
 
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
@@ -675,8 +676,8 @@ ms.service: dynamics-365-business-central
 #### [Overcome subscription business model challenges](SRB/examples.md)
 <!-- Subscription billing analytics start -->
 #### Subscription billing analytics
-##### [Power BI subscription billing app](SRB/analytics/subscription-powerbi-app.md)
-##### [Subscription billing overview](SRB/analytics/subscription-powerbi-overview.md)
+##### [Power BI Subscription Billing app](SRB/analytics/subscription-powerbi-app.md)
+##### [Subscription Billing Overview](SRB/analytics/subscription-powerbi-overview.md)
 ##### [Revenue Year-Over-Year](SRB/analytics/subscription-powerbi-revenue-year-over-year.md)
 ##### [Revenue Analysis](SRB/analytics/subscription-powerbi-revenue-analysis.md)
 ##### [Revenue Development](SRB/analytics/subscription-powerbi-revenue-development.md)
@@ -898,8 +899,8 @@ ms.service: dynamics-365-business-central
 ##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+##### [Project Timeline](projects-powerbi-project-timeline.md)
 ##### [Projects KPI overview](projects-powerbi-kpis.md) 
-##### [Project Timeline (Power BI Report)](projects-powerbi-project-timeline.md)
 
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
@@ -1102,14 +1103,15 @@ ms.service: dynamics-365-business-central
 ##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
-##### [Prod. Order List (Power BI Report)](manufacturing-powerbi-prod-order-list.md)
-##### [Production Order Overview (Power BI Report)](manufacturing-powerbi-production-order-overview.md)
-##### [Prod. Order Routing Gantt (Power BI Report)](manufacturing-powerbi-prod-order-routing-gantt.md)
-##### [Production Order WIP (Power BI Report)](manufacturing-powerbi-prod-order-wip.md)
-##### [Machine Center Load (Power BI Report)](manufacturing-powerbi-machine-center-load.md)
-##### [Machine Center Statistics (Power BI Report)](manufacturing-powerbi-machine-center-statistics.md)
+##### [Prod. Order List](manufacturing-powerbi-prod-order-list.md)
+##### [Production Order Overview](manufacturing-powerbi-production-order-overview.md)
+##### [Prod. Order Routing Gantt](manufacturing-powerbi-prod-order-routing-gantt.md)
+##### [Production Order WIP](manufacturing-powerbi-prod-order-wip.md)
+##### [Machine Center Load](manufacturing-powerbi-machine-center-load.md)
+##### [Machine Center Statistics](manufacturing-powerbi-machine-center-statistics.md)
+##### [Work Center Statistics](manufacturing-powerbi-work-center-statistics.md)
 ##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
-##### [Work Center Statistics (Power BI Report)](manufacturing-powerbi-work-center-statistics.md)
+
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 
 #### Built-in production reports
@@ -1144,7 +1146,6 @@ ms.service: dynamics-365-business-central
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)
-### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
 ### [Post consumption and output for one released production order line](production-how-to-register-consumption-and-output.md)
 ### [Batch post consumption](production-how-to-post-consumption.md)
 ### [Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md)
@@ -1152,6 +1153,12 @@ ms.service: dynamics-365-business-central
 ### [Reverse output posting](production-how-to-reverse-output-posting.md)
 ### [Post scrap](production-how-to-post-scrap.md)
 ### [Post capacities](production-how-to-post-capacities.md)
+### Subcontracting
+#### [Subcontracting overview](production-how-to-subcontract-manufacturing.md)
+#### [Order subcontracting from production orders](subcontract-order.md)
+#### [Use the subcontracting worksheet](subcontract-worksheet.md)
+#### [Manage components](subcontract-components.md)
+#### [Assign item charges](subcontract-item-charges.md)
 ### [About finished production order costs](finance-about-finished-production-order-costs.md)
 
 ## Warehouse management
@@ -1275,24 +1282,27 @@ ms.service: dynamics-365-business-central
 <!--Sustainability-->
 ## Sustainability management
 ### [Sustainability management overview](finance-manage-sustainability.md)
+
 ### Sustainability analytics
 #### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 #### [Built-in sustainability reports](sustainability-reports.md)
 #### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
 #### [Handle external ESG compliance reporting](sustainability-esg-reporting.md)
+
 #### Power BI sustainability app
 ##### [Sustainability Power BI app](sustainability-powerbi-app.md)
-##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)
-##### [Co2e Decomposition Tree (Power BI Report)](sustainability-powerbi-co2e-decomposition-tree.md)
-##### [Co2e Key Influences (Power BI Report)](sustainability-powerbi-co2e-key-influences.md)
-##### [Emissions by Category and Scope (Power BI Report)](sustainability-powerbi-emissions-by-category-and-scope.md)
-##### [Journey to Net Zero Carbon (Power BI Report)](sustainability-powerbi-journey-to-net-zero-carbon.md)
+##### [CO2e Analysis](sustainability-powerbi-co2e-analysis.md)
+##### [Co2e Decomposition Tree](sustainability-powerbi-co2e-decomposition-tree.md)
+##### [Co2e Key Influences](sustainability-powerbi-co2e-key-influences.md)
+##### [Emissions by Category and Scope](sustainability-powerbi-emissions-by-category-and-scope.md)
+##### [Journey to Net Zero Carbon](sustainability-powerbi-journey-to-net-zero-carbon.md)
+##### [Realized Emissions vs Baseline](sustainability-powerbi-realized-emissions-vs-baseline.md)
+##### [Realized Emissions vs Target](sustainability-powerbi-realized-emissions-vs-target.md)
+##### [Social Analysis](sustainability-powerbi-social-analysis.md)
+##### [Sustainability Overview](sustainability-powerbi-sustainability-overview.md)
+##### [Water and Waste Analysis](sustainability-powerbi-water-and-waste-analysis.md)
 ##### [Power BI Sustainability app KPIs and measures](sustainability-powerbi-kpis.md)
-##### [Realized Emissions vs Baseline (Power BI Report)](sustainability-powerbi-realized-emissions-vs-baseline.md)
-##### [Realized Emissions vs Target (Power BI Report)](sustainability-powerbi-realized-emissions-vs-target.md)
-##### [Social Analysis (Power BI Report)](sustainability-powerbi-social-analysis.md)
-##### [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)
-##### [Water and Waste Analysis (Power BI Report)](sustainability-powerbi-water-and-waste-analysis.md)
+
 ### [Sustainability setup](finance-sustainability-setup.md)
 ### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 ### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
@@ -1328,6 +1338,36 @@ ms.service: dynamics-365-business-central
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Support for the Shopify connector](shopify/shopify-support.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+
+<!-- Expense management start -->
+## Expense management (preview)
+### [Expense management overview](expense-management/expense-management-overview.md)
+### [Expense Agent overview](expense-management/expense-agent.md)
+### Set up expense management
+#### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
+#### [Set up expense categories and rules](expense-management/expense-management-categories-rules.md)
+#### [Set up general expense settings](expense-management/expense-management-setup.md)
+#### [Set up expense users and teams](expense-management/expense-management-users-teams.md)
+#### [Set up per diem and mileage allowances](expense-management/expense-management-per-diem-mileage.md)
+### Work with expenses
+#### [Manage expenses](expense-management/expense-management-create-expenses.md)
+#### [Create and submit expense reports](expense-management/expense-management-submit-report.md)
+#### [Approve expense reports](expense-management/expense-management-approve-reports.md)
+#### [Post expense reports](expense-management/expense-management-post-reports.md)
+#### [Reimburse employee expenses](finance-how-record-reimburse-employee-expenses.md)
+### Expense Agent (preview)
+#### Expense Agent overview
+##### [Overview](expense-management/expense-agent.md)
+##### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
+##### [How the expense agent processes emails](expense-management/expense-management-agent.md)
+##### [Expense and report statuses](expense-management/expense-agent-statuses.md)
+##### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
+#### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
+#### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
+#### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
+#### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
+#### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
+<!-- Expense management end -->
 
 <!--Company Hub-->
 ## Company hub
@@ -2292,7 +2332,11 @@ ms.service: dynamics-365-business-central
 #### [Handling lot sizes in production](production-handling-lot-sizes.md)
 #### [Work with production families](production-how-work-family.md)
 #### [Set up standard routing lines](production-how-set-up-standard-routing-lines.md)
-#### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
+#### [Set up subcontracting](subcontract-setup.md)
+#### [Set up subcontractor prices](subcontract-prices.md)
+#### [Set up subcontracting locations](subcontract-location-management.md)
+<!-- #### [Set up purchase provisions](subcontract-purchase-provisions.md) -->
+<!-- #### [Set up provisions (setup guide)](subcontract-setup-configurator.md) -->
 
 ### Set up quality management
 #### [Quality management setup and configuration](qms-setup.md)
@@ -2762,6 +2806,21 @@ ms.service: dynamics-365-business-central
 ## Summarize (preview)
 ### [Summarize records with Copilot](summarize-with-copilot.md)
 ### [Responsible AI FAQ for summarize](faqs-summarize.md)
+## Expense Agent (preview)
+### Expense Agent overview
+#### [Overview](expense-management/expense-agent.md)
+#### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
+#### [How the expense agent processes emails](expense-management/expense-management-agent.md)
+#### [Expense and report statuses](expense-management/expense-agent-statuses.md)
+#### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
+### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
+### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
+### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
+### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
+### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
+<!--### [Submit expenses using Copilot in Teams](expense-management/expense-agent-copilot-teams.md)-->
+### [Troubleshoot Expense Agent issues](expense-management/expense-agent-troubleshoot.md)
+
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
@@ -2770,6 +2829,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
+## [FAQ for Expense Agent](expense-management/faqs-expense-agent.md)
 ## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for Payables Agent](faqs-payables-agent.md)

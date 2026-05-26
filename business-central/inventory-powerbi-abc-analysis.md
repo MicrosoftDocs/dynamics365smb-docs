@@ -1,5 +1,5 @@
 ---
-title: Item - ABC Analysis (report)
+title: ABC Analysis (Power BI Report)
 description: Rank inventory items into A, B, and C categories based on their sales amounts to identify high-value items and support purchasing and replenishment decisions.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,11 +11,11 @@ ms.date: 05/26/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Item - ABC Analysis (report)
+# ABC Analysis (Power BI Report)
 
 [!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
 
-The **Item - ABC Analysis** report ranks your inventory items into A, B, and C categories based on their sales amounts (LCY). Use the report to decide which items should always be in stock and where you can afford occasional stock-outs. That way, you divert your supply chain resources to the items that matter the most.
+The **ABC Analysis** Power BI report ranks your inventory items into A, B, and C categories based on their sales amounts (LCY). Use the report to decide which items should always be in stock and where you can afford occasional stock-outs. That way, you divert your supply chain resources to the items that matter the most.
 
 The report calculates each item's share of total sales and classifies items by the percentage thresholds you define:
 
@@ -26,19 +26,9 @@ The report calculates each item's share of total sales and classifies items by t
 Default category thresholds come from the **ABC Analysis Setup** page. The same thresholds are also used by the [Power BI Inventory app](../inventory-powerbi-app.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
 
 > [!TIP]
-> The same report is available in the Power BI inventory app. To learn more, go to [Item - ABC Analysis (report)](reports/report-723.md).
+> The same report is available in Excel. To learn more, go to [Item - ABC Analysis (report)](reports/report-723.md).
 
-## Available layouts
-
-[!INCLUDE[available-layouts-excel-only](../includes/available-layouts-excel-only.md)]
-
-The Excel layout includes three worksheets:
-
-- **Print**: A printable version of the report with item details and ABC classifications.
-- **Structure**: A summary of cumulative values for each ABC class.
-- **Analysis**: A worksheet with slicers for ABC class and inventory posting group, so you can slice and dice the data further.
-
-## Use cases
+## Use the report
 
 [!INCLUDE [report-723-scenario](../includes/report-723-scenario-include.md)]
 
@@ -70,39 +60,29 @@ Before you run the report, you must set default category thresholds on the **ABC
 
 The report uses these values as defaults. You can override them on the request page each time you run the report.
 
-## Report options
+## Key Performance Indicators
 
-The following table describes the fields on the  on the **Item - ABC Analysis** request page.
+The ABC Analysis report includes the following KPIs:
 
-|Option  |Description  |
-|---------|---------|
-|**Ratio Cat. A/B/C** | Set the percentage thresholds for each category. The three values must total 100%. For example, A = 50, B = 30, C = 20 means that items contributing to the top 50% of total sales value are Category A. |
-|**Show Category A/B/C** | Choose which categories to include in the report output. |
-|**Print Lines with 0** | Include items with zero sales amounts. These lines are often excluded from the analysis. |
+- 
+- 
+- 
+- 
 
-On the **Item** FastTab, you can apply filters to control the data that the report includes. For example, you might add filters such as **No.** (which is the item number), **Inventory Posting Group**, **Date Filter**, and **Location Filter**.
+Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
 
-Use the fields on the **Advanced** FastTab to control the size of the report, and the country/region and language formats.
+> [!TIP]
+> You can easily track the KPIs that the Power BI reports display against your business objectives. To learn more, go to [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md).
+
+## Data used in the report
+
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
 ## Try the report
 
-Try the report here: [Item - ABC Analysis](https://businesscentral.dynamics.com?report=723)
+Try the report here: 
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
-## Alternative reports
-
-There are several other ways to analyze your inventory. To learn more, go to:
-
-- [Inventory Top 10 List](report-711.md)
-- [Power BI inventory app](../inventory-powerbi-app.md)
-- [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)
-- [ABC Analysis (Power BI Report)](../inventory-powerbi-abc-analysis.md)
+> [!TIP]
+> If you hold down the CTRL key while you select the report link, the report opens on a new browser tab. The new tab lets you stay on the current page while you explore the report on the other browser tab.
 
 ## Related information
-
-[Inventory and warehouse report overview](../inventory-WMS-reports.md)  
-[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  
-[Inventory analytics overview](../inventory-analytics-overview.md)  
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

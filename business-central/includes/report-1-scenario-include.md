@@ -1,1 +1,1 @@
-Use the report when setting up or reviewing your company’s account structure, verifying posting groups, or preparing for financial reports and audits.
+Use the report when you set up or review your company’s account structure, verify posting groups, or prepare for financial reports and audits.

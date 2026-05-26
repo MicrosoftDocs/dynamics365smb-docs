@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, inventory, ABC analysis
 ms.search.form: Report_723_Primary
-ms.date: 04/30/2026
+ms.date: 05/26/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -95,8 +95,8 @@ There are several other ways to analyze your inventory. To learn more, go to:
 
 ## Related information
 
-[Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Inventory and warehouse report overview](../inventory-WMS-reports.md)  
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

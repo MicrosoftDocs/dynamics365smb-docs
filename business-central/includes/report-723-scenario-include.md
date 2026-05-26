@@ -1,0 +1,1 @@
+Rank inventory items into A, B, and C categories based on their sales amounts (LCY) to identify high-value items and support purchasing and replenishment decisions.

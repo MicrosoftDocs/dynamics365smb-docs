@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: Report_704, Report_707, Report_711, Report_713, Report_716, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
-ms.date: 06/12/2025
+ms.search.form: Report_704, Report_707, Report_711, Report_713, Report_716, Report_723, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
+ms.date: 04/30/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

@@ -59,7 +59,7 @@ Controllers use the report to:
 
 ## Set up ABC Analysis defaults
 
-Before you run the report, you can set default category thresholds on the **ABC Analysis Setup** page. The three category percentages must add up to 100%.
+Before you run the report, you must set default category thresholds on the **ABC Analysis Setup** page. The three category percentages must add up to 100%.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ABC Analysis Setup**, and then choose the related link.
 2. Enter the percentage for **Category A**, **Category B**, and **Category C**. The values must total 100%.
@@ -67,15 +67,9 @@ Before you run the report, you can set default category thresholds on the **ABC 
 
 The report uses these values as defaults. You can override them on the request page each time you run the report.
 
-## Try the report
-
-Try the report here: [Item - ABC Analysis](https://businesscentral.dynamics.com?report=723)
-
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
 ## Report options
 
-The following table describes the key options on the request page.
+The following table describes the fields on the  on the **Item - ABC Analysis** request page.
 
 |Option  |Description  |
 |---------|---------|
@@ -83,7 +77,15 @@ The following table describes the key options on the request page.
 |**Show Category A/B/C** | Choose which categories to include in the report output. |
 |**Print Lines with 0** | Include items with zero sales amounts. These lines are often excluded from the analysis. |
 
-You can also apply filters on the **Item** data item, such as **No.**, **Inventory Posting Group**, **Date Filter**, and **Location Filter**.
+On the **Item** FastTab, you can apply filters to control the data that the report includes. For example, you might add filters such as **No.** (which is the item number), **Inventory Posting Group**, **Date Filter**, and **Location Filter**.
+
+Use the fields on the **Advanced** FastTab to control the size of the report, and the country/region and language formats.
+
+## Try the report
+
+Try the report here: [Item - ABC Analysis](https://businesscentral.dynamics.com?report=723)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Alternative reports
 

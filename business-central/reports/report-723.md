@@ -26,7 +26,7 @@ The report calculates each item's share of total sales and classifies items by t
 Default category thresholds come from the **ABC Analysis Setup** page. The same thresholds are also used by the [Power BI Inventory app](../inventory-powerbi-app.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
 
 > [!TIP]
-> The same report is available in the Power BI inventory app. To learn more, go to [Item - ABC Analysis (report)](reports/report-723.md).
+> The same report is available in the Power BI inventory app. To learn more, go to [ABC Analysis (Power BI Report)](../inventory-powerbi-abc-analysis.md).
 
 ## Available layouts
 

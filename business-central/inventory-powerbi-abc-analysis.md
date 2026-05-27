@@ -1,6 +1,6 @@
 ---
 title: ABC Analysis (Power BI Report)
-description: Rank inventory items into A, B, and C categories based on their sales amounts to identify high-value items and support purchasing and replenishment decisions.
+description: Rank items into A, B, and C categories based on their sales amounts to identify high-value items and inform purchasing and replenishment decisions.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # ABC Analysis (Power BI Report)
 
-[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
+[!INCLUDE [introduced-in-2026rw1](includes/introduced-in-2026rw1.md)]
 
 The **ABC Analysis** Power BI report ranks your inventory items into A, B, and C categories based on their sales amounts (LCY). Use the report to decide which items should always be in stock and where you can afford occasional stock-outs. That way, you divert your supply chain resources to the items that matter the most.
 
@@ -23,14 +23,14 @@ The report calculates each item's share of total sales and classifies items by t
 - **Category B** items have medium volume and medium value.
 - **Category C** items have high volume and small value. You might accept occasional stock-outs for these items.
 
-Default category thresholds come from the **ABC Analysis Setup** page. The same thresholds are also used by the [Power BI Inventory app](../inventory-powerbi-app.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
+Default category thresholds come from the **ABC Analysis Setup** page. The same thresholds are also used by the [Power BI Inventory app](inventory-powerbi-app.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
 
 > [!TIP]
 > The same report is available in Excel. To learn more, go to [Item - ABC Analysis (report)](reports/report-723.md).
 
 ## Use the report
 
-[!INCLUDE [report-723-scenario](../includes/report-723-scenario-include.md)]
+[!INCLUDE [report-723-scenario](includes/report-723-scenario-include.md)]
 
 Inventory managers use the report to:
 
@@ -54,13 +54,13 @@ Controllers use the report to:
 
 Before you run the report, you must set default category thresholds on the **ABC Analysis Setup** page. The three category percentages must add up to 100%.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ABC Analysis Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ABC Analysis Setup**, and then choose the related link.
 2. Enter the percentage for **Category A**, **Category B**, and **Category C**. The values must total 100%.
 3. Close the page.
 
 The report uses these values as defaults. You can override them on the request page each time you run the report.
 
-## Key Performance Indicators
+## Key performance indicators
 
 The ABC Analysis report includes the following KPIs:
 

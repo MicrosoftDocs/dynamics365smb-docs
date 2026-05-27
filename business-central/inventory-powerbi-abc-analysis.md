@@ -48,7 +48,7 @@ Purchasing agents use the report to:
 Controllers use the report to:
 
 - Analyze the distribution of inventory value across categories.
-- Support decisions about inventory write-downs or obsolescence provisions for low-value items.
+- Support decisions about inventory write-downs or obsolescence for low-value items.
 - Validate that inventory investment aligns with sales performance.
 
 ## Set up ABC Analysis defaults
@@ -70,7 +70,7 @@ The ABC Analysis report uses the following KPIs:
 - [**Sales Amount (ABC)**](inventory-powerbi-kpis.md#sales-amount-abc)
 - [**Sales Quantity (ABC)**](inventory-powerbi-kpis.md#sales-quantity-abc)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
+Select the link for a KPI to learn more about what it means, its calculations, and what data was used in the calculations.
 
 > [!TIP]
 > You can easily track the KPIs that the Power BI reports display against your business objectives. To learn more, go to [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md).

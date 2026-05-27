@@ -6,9 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, inventory, ABC analysis
-ms.search.form: Report_723_Primary
+ms.search.form: 37111_Primary
 ms.date: 05/26/2026
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
+ai-usage: ai-generated
 ---
 
 # ABC Analysis (Power BI Report)
@@ -62,12 +64,12 @@ The report uses these values as defaults. You can override them on the request p
 
 ## Key performance indicators
 
-The ABC Analysis report includes the following KPIs:
+The ABC Analysis report uses the following KPIs:
 
-- 
-- 
-- 
-- 
+- [**No. of Items in Class**](inventory-powerbi-kpis.md#no-of-items-in-class)
+- [**Percent of Sales Amount**](inventory-powerbi-kpis.md#percent-of-sales-amount)
+- [**Sales Amount (ABC)**](inventory-powerbi-kpis.md#sales-amount-abc)
+- [**Sales Quantity (ABC)**](inventory-powerbi-kpis.md#sales-quantity-abc)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
 
@@ -78,11 +80,22 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
+- Item
+- Item Ledger Entries
+- ABC Analysis Setup
+
 ## Try the report
 
-Try the report here: 
+Try the report here: [ABC Analysis](https://businesscentral.dynamics.com?page=37111)
 
 > [!TIP]
 > If you hold down the CTRL key while you select the report link, the report opens on a new browser tab. The new tab lets you stay on the current page while you explore the report on the other browser tab.
 
 ## Related information
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
+[Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)  
+[Inventory overview](inventory-manage-inventory.md)

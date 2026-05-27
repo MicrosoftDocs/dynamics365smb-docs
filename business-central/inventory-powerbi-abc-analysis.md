@@ -27,6 +27,8 @@ The report calculates each item's share of total sales and classifies items by t
 
 Default category thresholds come from the **ABC Analysis Setup** page. Learn more at [Set up ABC Analysis defaults](#set-up-abc-analysis-defaults). The same thresholds are also used by the [Item - ABC Analysis (report)](reports/report-723.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
 
+:::image type="content" source="media/powerbi/power-bi-abc-analysis.png" alt-text="Screenshot of the ABC Analysis Power BI report.":::
+
 ## Use the report
 
 [!INCLUDE [report-723-scenario](includes/report-723-scenario-include.md)]

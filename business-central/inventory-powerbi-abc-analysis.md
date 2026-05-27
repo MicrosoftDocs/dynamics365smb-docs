@@ -17,7 +17,7 @@ ai-usage: ai-generated
 
 [!INCLUDE [introduced-in-2026rw1](includes/introduced-in-2026rw1.md)]
 
-The **ABC Analysis** Power BI report ranks your inventory items into A, B, and C categories based on their sales amounts (LCY). Use the report to decide which items should always be in stock and where you can afford occasional stock-outs. That way, you divert your supply chain resources to the items that matter the most.
+The **ABC Analysis** Power BI report ranks your inventory items into A, B, and C categories based on their sales amounts in local currency (LCY). Use the report to decide which items to always keep in stock and where you can afford occasional stock-outs. That way, you divert your supply chain resources to the items that matter the most.
 
 The report calculates each item's share of total sales and classifies items by the percentage thresholds you define:
 
@@ -25,10 +25,7 @@ The report calculates each item's share of total sales and classifies items by t
 - **Category B** items have medium volume and medium value.
 - **Category C** items have high volume and small value. You might accept occasional stock-outs for these items.
 
-Default category thresholds come from the **ABC Analysis Setup** page. The same thresholds are also used by the [Power BI Inventory app](inventory-powerbi-app.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
-
-> [!TIP]
-> The same report is available in Excel. To learn more, go to [Item - ABC Analysis (report)](reports/report-723.md).
+Default category thresholds come from the **ABC Analysis Setup** page. Learn more at [Set up ABC Analysis defaults](#set-up-abc-analysis-defaults). The same thresholds are also used by the [Item - ABC Analysis (report)](reports/report-723.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
 
 ## Use the report
 

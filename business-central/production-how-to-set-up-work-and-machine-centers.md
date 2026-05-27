@@ -184,6 +184,35 @@ When you plan with capacity-constrained resources, [!INCLUDE [prod_short](includ
 
 > In case of operation splitting, the setup time is only assigned one time because it's assumed that some manual adjustment is done to optimize the schedule.
 
+## View the Work Center Task List
+
+The **Work Center Task List** page shows all production order routing lines that are currently assigned to a work center. Use this page to see what work is planned for or in progress at a specific work center, and to monitor the timing and capacity allocation for each operation.
+
+To open the Work Center Task List:
+
+1. Open the **Work Center Card** or **Work Center List** page.
+2. Choose the **Work Center Task List** action (under **Planning**).
+
+The page shows one line per production order routing operation assigned to the work center, with the following key fields:
+
+| Field | Description |
+|--|--|
+| **Status** | The production order status (Simulated, Planned, Firm Planned, Released, or Finished). |
+| **Prod. Order No.** | The production order number. |
+| **Operation No.** | The operation number from the routing. |
+| **Description** | The description of the operation or the production order. |
+| **Setup Time** / **Run Time** | The expected setup and run times for the operation. |
+| **Wait Time** / **Move Time** | The expected wait and move times after the operation. |
+| **Starting Date/Time** | The scheduled start of the operation. |
+| **Ending Date/Time** | The scheduled end of the operation. |
+| **Send-Ahead Quantity** | The quantity to send to the next operation before this operation completes the full lot. |
+| **Concurrent Capacities** | The number of machines or people allocated to this operation. |
+
+Use the Work Center Task List to quickly identify scheduling conflicts, overloaded time periods, or gaps between operations at a work center.
+
+> [!TIP]
+> You can also access the task list from the **Work Center Calendar Matrix** page, which provides a graphical overview of capacity allocation across multiple work centers and time periods.
+
 ## Related information
 
 [Create Shop Calendars](production-how-to-create-work-center-calendars.md)  

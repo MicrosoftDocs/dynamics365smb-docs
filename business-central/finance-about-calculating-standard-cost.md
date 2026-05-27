@@ -89,9 +89,32 @@ Subcontractor costs are the costs that are associated with services that are pro
 
 Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work center card that represents the subcontracting operation.  
 
+### Non-inventory item costs
+
+Production BOMs can include non-inventory items, such as consumables, services, or miscellaneous charges that are consumed during production but don't carry inventory. By default, [!INCLUDE [prod_short](includes/prod_short.md)] doesn't include the cost of non-inventory items in the standard cost of the produced item.
+
+To include non-inventory item costs in manufacturing, go to the **Manufacturing Setup** page and turn on the **Include Non-Inventory Items to Produced Items** toggle. When the toggle is enabled:
+
+- Non-inventory item costs appear as extra value entries linked to the output item ledger entry.
+- The value entry type is **Direct Cost - Non Inventory**.
+- Variances between expected and actual non-inventory costs post to a dedicated **Material Non-Inventory Variance Account** in the general ledger.
+- The **BOM Cost Shares** page shows **Rolled-up Material Non-Inventory Cost** and **Single-level Material Non-Inventory Cost** fields so you can review how non-inventory items contribute to the total cost.
+
+To set up the general ledger accounts, go to the **General Posting Setup** page and fill in the **Direct Cost Non-Inventory Applied Account** and the **Material Non-Inventory Variance Account** fields for the relevant business and product posting group combinations.
+
+> [!NOTE]
+> Non-inventory item costs don't apply to assembly orders, only production orders.
+
 ## Populate standard cost
 
 You can set standard cost manually or you can calculate the item's standard cost from the **Item card** page. Choose the **Production** group, then choose the **Calc. Production Std Cost** action to update cost of production items or choose the **Assembly** group, then choose the **Calc. Assembly Std. Cost** action to update cost of assembly item. The actions consolidate and roll up the component and capacity costs to calculate the total assembly or manufacturing cost of the items.
+
+When you run **Calc. Production Std. Cost**, you choose one of the following calculation levels:
+
+- **Single Level** — Calculates the cost of the finished item by summing up the direct costs of its components and capacity from the item's production BOM and routing. Use this level when component costs are already correct and you only need to update the parent item.
+- **All Levels** — Recalculates costs for the entire BOM structure, starting from the lowest-level purchased or produced items and rolling costs up through every intermediate subassembly to the top-level item. Use this level after changes to purchased item costs or to routing rates that affect multiple BOM levels.
+
+The all-levels calculation processes items in bottom-up order. Purchased raw materials and lowest-level subassemblies are evaluated first, then their costs feed into the next BOM level, until the top-level finished item cost is complete. This process ensures that each level reflects the latest component and capacity costs.
 
 To calculate the unit cost of an assembly or production BOM, the parent item and its component items must use the Standard costing method. Resources in the BOM roll-up if they have a unit cost defined on the item, resource, or workcenter. Resources don't use cost defined on stockkeeping unit (SKU).
 

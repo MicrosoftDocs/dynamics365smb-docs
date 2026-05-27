@@ -196,6 +196,52 @@ To learn more about planning with locations and transfers, go to [Planning With 
 > [!TIP]
 > When you're working on the **Requisition Worksheet** or **Planning Worksheet** pages, you can organize the lines by sorting on a column name. This sorting is especially useful on the Planning Worksheet page because you can use it for multilevel production orders. By default, lines are sorted by the **Item No.** field. To group lines for a multilevel order, sort by the **Ref. Order No.** field. Also, the **MPS Order** and **Planning Level** fields can help show the hierarchy of the lines.
 
+## Multilevel production orders
+
+When a finished item contains subassemblies that are also produced in-house (each with its own production BOM and routing), the planning system creates *multilevel production orders*. Each level in the BOM hierarchy generates its own planned production order, linked to the parent order.
+
+### How multilevel planning works
+
+1. **Top-level demand** — A sales order or forecast creates demand for the finished item.
+2. **Planning run** — When you run **Calculate Regenerative Plan** or **Calculate Net Change Plan** on the **Planning Worksheet** page, the planning system identifies that the finished item needs production.
+3. **BOM explosion** — The system reads the item's production BOM. For each component that has a **Replenishment System** of **Prod. Order**, it creates a separate planned production order at the next BOM level.
+4. **Recursive nesting** — If a component's production BOM contains further produced components, the system repeats the explosion for each level until all components are either purchased items or lowest-level produced items.
+5. **Scheduling** — Each production order is scheduled based on its routing. Lower-level orders are scheduled to finish in time for the parent order to start.
+
+### Working with multilevel orders on the Planning Worksheet
+
+After the planning run, the **Planning Worksheet** page shows one line per planned production order. To understand the hierarchy:
+
+- **Ref. Order No.** — Sort by this field to group all orders that belong to the same top-level demand.
+- **Planning Level** — Shows the depth in the BOM hierarchy. Level 0 is the finished item, level 1 is its direct subassemblies, and so on.
+- **MPS Order** — Indicates whether the line is a master production schedule order (top-level demand) or a dependent component order.
+
+When you run **Carry Out Action Message**, [!INCLUDE [prod_short](includes/prod_short.md)] creates firm planned production orders for all levels. Each production order's component list references the child production orders through the **Supplied by Prod. Order** flow on the **Prod. Order Components** page.
+
+> [!TIP]
+> To see the full multilevel structure of a production order, open the production order, and then choose the **Multi-Level Production** action (under **Order**, then **Planning**). This view shows the complete BOM hierarchy with order status at each level.
+
+## Compare planning approaches
+
+[!INCLUDE [prod_short](includes/prod_short.md)] offers several approaches to supply planning, each suited to different scenarios. The following table compares the main planning methods to help you choose the right one.
+
+| Approach | Page | Best for | How it works |
+|--|--|--|--|
+| **Regenerative Plan (MPS/MRP)** | Planning Worksheet | Ongoing production with many items and complex BOM structures | Recalculates the entire plan from scratch for all items (or selected items). Evaluates all demand and supply, and creates action messages to balance them. Use for periodic full planning runs. |
+| **Net Change Plan** | Planning Worksheet | Daily updates after minor changes | Recalculates only items where demand or supply changed since the last planning run. Faster than regenerative but requires a previous full plan as baseline. |
+| **Order Planning** | Order Planning | Make-to-order environments or one-off demand | Manually walk through each unplanned demand line (sales orders, production order components) and decide how to fulfill it. No automatic action messages — you decide item by item. |
+| **Requisition Worksheet** | Requisition Worksheet | Purchasing and transfer replenishment | Calculates replenishment for items with **Purchase** or **Transfer** replenishment system. Useful when separate teams handle purchasing vs. production planning. |
+
+### When to use each approach
+
+- **Regenerative Plan** — Run weekly or when significant changes occur (new BOMs, price changes, new items). Ensures a complete, consistent plan.
+- **Net Change Plan** — Run daily to incorporate new sales orders, consumption postings, or other incremental changes without the overhead of a full recalculation.
+- **Order Planning** — Use when you have custom or infrequent orders and want direct control over each fulfillment decision.
+- **Requisition Worksheet** — Use when purchasing is handled by a separate team, or when you want to separate purchase/transfer planning from production planning.
+
+> [!NOTE]
+> You can combine approaches. For example, run the regenerative plan weekly for production, and use the requisition worksheet daily for purchasing replenishment.
+
 ## Related information
 
 [Design Details: Supply Planning](design-details-supply-planning.md)  

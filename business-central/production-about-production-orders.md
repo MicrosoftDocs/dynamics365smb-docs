@@ -204,6 +204,29 @@ However, production journals differ from the consumption and output journals in 
 
 In the production journal, consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries.  
 
+## Handle by-products in production
+
+Some manufacturing processes produce secondary items (by-products or co-products) in addition to the main finished item. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't have a dedicated by-product feature, but you can handle by-products using the following approach:
+
+### Post by-product output through the output journal
+
+1. Create a separate item card for each by-product with its own item number, unit of measure, and costing method.
+2. When you post the output for the main production order, create additional output journal lines for the by-product items. In the **Output Journal**, specify:
+   - The production order number in the **Order No.** field.
+   - The by-product item number in the **Item No.** field.
+   - The quantity of the by-product produced.
+3. If the by-product has a measurable value, enter the output quantity. The by-product item is added to inventory and can be sold or used in other production processes.
+
+### Account for by-product costs
+
+By-products affect the cost of the main production order. Consider the following approaches:
+
+- **Net off the by-product value** — If the by-product has a known market value, you can subtract its value from the main item's cost manually or through a journal adjustment after posting.
+- **Zero-value by-products** — If the by-product has negligible value (such as production waste that requires disposal), post it at zero cost. The full production cost stays with the main item.
+
+> [!NOTE]
+> Because [!INCLUDE [prod_short](includes/prod_short.md)] links output quantities to a single production order, by-product output can only be recorded against the same production order that produces the main item. If you need independent tracking, consider creating a separate production order for the by-product.
+
 ## Related information
 
 [Manufacturing](production-manage-manufacturing.md)  

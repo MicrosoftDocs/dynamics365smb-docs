@@ -82,7 +82,7 @@ The time validity of the version is specified by the **Starting Date** field.
 > [!NOTE]  
 > Select the **Item** option in the **Type** field to use an item from your item master data in the production BOM. If the item also has a production BOM, whereby the **Production BOM No.** field is filled in on the item card, this production BOM is also considered.  
 >
-> Select the **Production BOM** option if you want to use a phantom production BOM on the line.  
+> Select the **Production BOM** option if you want to use a phantom production BOM on the line. To learn more, go to [Phantom production BOMs](#phantom-production-boms).
 >
 > Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product but is used exclusively for determining the dependent demand. Phantom production BOMs don't have their own item master data.
 
@@ -117,6 +117,38 @@ Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2
 ## Work with uncertified production BOMs and routings
 
 [!INCLUDE [production-turn-off-uncertified-notifications](includes/production-turn-off-uncertified-notifications.md)]
+
+## Phantom production BOMs
+
+Phantom production BOMs let you group components for structural or organizational purposes without creating a separate production order for the subassembly. When [!INCLUDE [prod_short](includes/prod_short.md)] calculates the material requirements for a production order, phantom BOM components are *exploded* — their individual components appear directly on the parent production order's component list.
+
+### When to use phantom BOMs
+
+Use phantom BOMs in the following scenarios:
+
+- **Logical grouping** — You want to organize a long list of components into meaningful subgroups (such as an electrical subassembly or a fastener kit) without actually manufacturing each group as a separate item.
+- **No intermediate inventory** — The subassembly is never stocked or sold independently. It exists only to structure the parent item's BOM.
+- **Shared component sets** — Multiple finished items use the same set of components. Defining the set as a phantom BOM lets you maintain the list in one place and reuse it across parent BOMs.
+
+### How phantom BOMs differ from regular production BOMs
+
+| Behavior | Regular production BOM | Phantom production BOM |
+|--|--|--|
+| Creates a production order | Yes — planning creates a separate production order for the subassembly | No — components are exploded into the parent order |
+| Item master data | The subassembly has its own item card with inventory tracking | No item card is needed. The phantom BOM is referenced by type **Production BOM** on the parent BOM line |
+| Inventory | The subassembly is received into and consumed from inventory | No inventory transaction. Components flow directly into the parent order |
+| Costing | The subassembly has its own unit cost and cost shares | Component costs roll directly into the parent item's standard cost |
+
+### How to set up a phantom BOM
+
+1. Create a production BOM that contains the components you want to group.
+2. Set the BOM's **Status** to **Certified**.
+3. On the parent item's production BOM, add a line with **Type** set to **Production BOM** and select the phantom BOM in the **No.** field.
+
+When [!INCLUDE [prod_short](includes/prod_short.md)] plans or refreshes a production order for the parent item, it replaces the phantom BOM line with the phantom's individual components. The component quantities are adjusted by the **Quantity per** value on the parent BOM line.
+
+> [!NOTE]
+> Phantom BOMs can be nested. A phantom BOM can include a line that references another phantom BOM. [!INCLUDE [prod_short](includes/prod_short.md)] explodes all levels until only items and resources remain on the production order components list.
 
 ## Related information
 

@@ -29,7 +29,7 @@ Before you can create a routing, the following setups must be in place:
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Type** field, select one of the following options:
    - **Serial** to calculate the production routing according to the value in the **Operation No.** field.  
-   - Select **Parallel** to calculate the operations according to the value in the **Next Operation No.** field.  
+   - Select **Parallel** to calculate the operations according to the value in the **Next Operation No.** field. To learn more, go to [Set up parallel operations in a routing](#set-up-parallel-operations-in-a-routing).  
 5. To edit the routing, set the **Status** field to **New** or **Under Development**.  
 
     Proceed to fill in the routing lines.
@@ -118,6 +118,38 @@ The version principle enables you to manage several versions of a routing. The s
 ## Work with uncertified production BOMs and routings
 
 [!INCLUDE [production-turn-off-uncertified-notifications](includes/production-turn-off-uncertified-notifications.md)]
+
+## Set up parallel operations in a routing
+
+When you set a routing's **Type** to **Parallel**, you use the **Next Operation No.** field to define how operations flow. This arrangement lets multiple operations run at the same time, converging at a later operation. Use parallel routings when independent tasks can happen simultaneously, such as preparing different subcomponents before a final assembly step.
+
+### How Next Operation No. controls the flow
+
+In a parallel routing, the **Next Operation No.** field on each routing line tells [!INCLUDE [prod_short](includes/prod_short.md)] which operation to schedule after the current one completes. If you leave **Next Operation No.** blank, the operation is treated as the last step in the routing.
+
+For example, consider a routing where operation 10 splits into two parallel branches (operations 20 and 30) that merge at operation 40:
+
+| Operation No. | Description | Next Operation No. |
+|--|--|--|
+| 10 | Prepare raw material | 20\|30 |
+| 20 | Machine part A | 40 |
+| 30 | Machine part B | 40 |
+| 40 | Final assembly | *(blank)* |
+
+In this example:
+
+- Operation 10 has **Next Operation No.** set to **20\|30**, which means that both operations 20 and 30 can start after operation 10 finishes.
+- Operations 20 and 30 each point to operation 40, so operation 40 starts only after both branches complete.
+- Operation 40 has a blank **Next Operation No.** because it's the last operation.
+
+Use the pipe character (\|) in the **Next Operation No.** field to specify multiple subsequent operations that start in parallel.
+
+### Scheduling and capacity
+
+When [!INCLUDE [prod_short](includes/prod_short.md)] schedules a parallel routing, it determines the start time of a converging operation based on the latest finishing time of all preceding operations. The total production lead time therefore depends on the longest parallel branch, not the sum of all operations.
+
+> [!TIP]
+> Use the **Send-Ahead Quantity** field on routing lines to start a downstream operation before the upstream operation is fully complete. This arrangement can further reduce lead times, though it works with both serial and parallel routing types.
 
 ## Related information
 

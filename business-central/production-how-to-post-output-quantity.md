@@ -30,7 +30,13 @@ The **Production Journal** page lets you do the same tasks as the **Output Journ
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
-   You can use the **Explode Routing** action to generate journal lines from production orders.
+   You can use the **Explode Routing** action to generate journal lines from production orders. This action creates one output journal line for each routing operation on the production order, so you can record output and run time per operation rather than posting everything on a single line. Use Explode Routing when:
+
+   - You want to record setup time, run time, and scrap for each operation separately.
+   - You need to post output for individual operations as they finish, rather than waiting until the last operation.
+   - You want to track capacity consumption per work or machine center.
+
+   Each generated line includes the operation number, work or machine center number, and the expected times from the routing. Only the last operation line includes the output quantity, because posting output on the last operation adds the finished item to inventory.
 
    > [!NOTE]
    > When you report production output for items with serial number tracking, you often need one journal line per serial number. When you turn on **Item Tracking on Lines** in the **Output Journal** and choose **Explode Routing**, [!INCLUDE [prod_short](includes/prod_short.md)] respects the item tracking setting when it explodes routing lines in output journals:

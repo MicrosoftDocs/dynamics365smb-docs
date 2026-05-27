@@ -35,6 +35,23 @@ To create several SKUs for an item, use the **Create Stockkeeping Unit** batch j
 > If the SKU is supplied through production, go to the **Manufacturing Setup** page and turn on the **Load SKU Cost on Manufacturing** toggle. Otherwise, the **Standard Cost** field isn't used when invoicing and adjusting the actual cost of the produced item. Instead, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value in the **Standard Cost** field on the item, and calculates variances against the cost shares of that item.<br><br>
 > After you assign production BOMs and routings to SKUs, run the **Calc. Production Std. Cost** action on the **Stockkeeping Unit Card** page to roll up the component and capacity costs. Subassemblies use information from items. To learn more about standard costs, go to [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).
 
+## Manufacturing fields on stock keeping units
+
+When you set the **Replenishment System** on a SKU card to **Prod. Order**, additional manufacturing fields become available. These fields let you override the item card's manufacturing configuration for a specific location or variant combination.
+
+| Field | Description |
+|--|--|
+| **Production BOM No.** | Specifies a production BOM that differs from the one on the item card. Use this field when a location requires different components, such as locally sourced materials. |
+| **Routing No.** | Specifies a routing that differs from the one on the item card. Use this field when a location uses different production equipment or processes. |
+| **Manufacturing Policy** | Overrides the item's manufacturing policy. Choose **Make-to-Stock** for items you produce to replenish inventory, or **Make-to-Order** for items you produce only when a specific demand exists. |
+| **Components at Location** | Determines which location to use when calculating component availability. When blank, [!INCLUDE [prod_short](includes/prod_short.md)] uses the production order's location. |
+| **Lot Size** | Specifies the lot size for standard cost calculation on the routing's setup time proration. This field overrides the item card's lot size for the SKU location. |
+
+The SKU-level BOM and routing are used when [!INCLUDE [prod_short](includes/prod_short.md)] creates or refreshes production orders for the item at that location. They're also used by the planning system when it generates planned production orders.
+
+> [!TIP]
+> Use SKU-level manufacturing data when the same item is produced at multiple locations with different equipment, different component sources, or different cost structures. This approach keeps the item card clean while capturing location-specific variations.
+
 ## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  

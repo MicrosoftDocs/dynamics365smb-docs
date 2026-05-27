@@ -37,7 +37,6 @@ The *Bin Contents by Item Tracking* report includes the following KPIs:
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
 
-
 ## Data used in the report
 
 The report uses data from the following tables:

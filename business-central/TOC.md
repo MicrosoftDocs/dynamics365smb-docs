@@ -818,6 +818,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
 ##### [Bin Contents](inventory-powerbi-bin-contents.md)
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
+##### [ABC Analysis](inventory-powerbi-abc-analysis.md)
 ##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
 #### [Power BI inventory valuation app](inventory-valuation-powerbi-app.md)

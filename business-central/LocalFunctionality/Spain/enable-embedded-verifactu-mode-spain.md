@@ -1,7 +1,7 @@
 ---
 title: Enable embedded Verifactu mode in Spain [ES]
 description: Enable real-time invoice reporting to AEAT with Verifactu in Business Central, ensuring QR code, hash chaining, and digital signature compliance.
-author: soumramani
+author: altotovi
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: verifactu, embedded verifactu, AEAT, QR codes, embed QR codes, auditing, Spanish version

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 99000768, 99000779, 99000780, 99000866
-ms.date: 09/11/2025
+ms.date: 05/28/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -33,6 +33,35 @@ The following table describes a sequence of tasks, with links to the articles th
 |Define families of production items with similar manufacturing processes to save consumption. For example, four pieces of the same item can be produced from one sheet and 10 pieces of another, different, item at the same time.|[Work With Production Families](production-how-work-family.md)|
 |Use standard tasks to simplify the creation of routings by quickly attaching extra information to recurring operations.|[Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)|  
 |Prepare work centers and routings to represent subcontracted production operations.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
+
+## Manufacturing Setup
+
+The **Manufacturing Setup** page controls global defaults for production scheduling, costing, and journal behavior. To open the page, [!INCLUDE[open-search](includes/open-search.md)], enter **Manufacturing Setup**, and then choose the related link.
+
+### General FastTab
+
+| Field | Description |
+|--|--|
+| **Normal Starting Time** / **Normal Ending Time** | Default workday boundaries used when creating shop calendars. Individual work center calendars can override these values. |
+| **Preset Output Quantity** | Controls the default output quantity when you open a production journal. **Expected Quantity** prefills with the remaining quantity. **Zero on All Operations** or **Zero on Last Operation** starts at zero so operators enter actual output. |
+| **Default Consumption Calculation Based on** | Determines whether automatic consumption flushing calculates component quantities from **Actual Output** (what was actually produced) or **Expected Output** (the planned production quantity). |
+| **Show Capacity In** | The default capacity unit of measure (for example, Minutes or Hours) used across work center cards and reports. |
+| **Cost Incl. Setup** | When turned on, setup time from routing operations is included in the standard cost calculation. Turn it off to exclude setup time from costing. |
+| **Dynamic Low-Level Code** | Recalculates BOM hierarchy levels automatically when you modify production BOMs. Required for correct planning of multilevel production structures. Might affect performance in environments with very large BOM structures. |
+| **Doc. No. Is Prod. Order No.** | Uses the production order number as the document number in item and capacity ledger entries, which makes it easier to trace posted entries back to their production order. |
+| **Planning Warning** | When turned on, the planning system raises warnings when planned shipment dates can't be met. |
+| **Default Flushing Method** | The flushing method assigned to new items by default. You can override this value on individual item cards. |
+| **Allow Finishing Prod. Order with no Output** | Allows you to change the status of a production order to **Finished** even when no output has been posted. The remaining work-in-process (WIP) is written off to the inventory adjustment account. |
+
+### Planning FastTab
+
+| Field | Description |
+|--|--|
+| **Components at Location** | The default location code where production components are consumed. The planning system uses this location when a stockkeeping unit doesn't specify a different location. |
+
+### Numbering FastTab
+
+This FastTab defines the number series for production orders (Simulated, Planned, Firm Planned, Released), work centers, machine centers, production BOMs, and routings. Each field links to a number series that controls automatic numbering.
 
 ## Related information
 

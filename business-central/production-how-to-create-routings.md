@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
-ms.date: 03/10/2026
+ms.date: 05/28/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -114,6 +114,60 @@ The version principle enables you to manage several versions of a routing. The s
     The operation lines are in ascending order by operation numbers. To be able to make changes later, we recommend that you select adequate step widths. The **Next Operation No.** field refers to the next operation in the routing.
 
 7. When you're done setting up the routing version, in the **Status** field, choose **Certified**.
+
+## Time fields on routing lines
+
+Each routing operation has four time fields that together determine the total duration of the operation and the production lead time. All time fields use the unit of measure specified in the corresponding **Unit of Measure Code** field (for example, **Setup Time Unit of Meas. Code**).
+
+| Time field | Purpose | Scaling |
+|--|--|--|
+| **Setup Time** | One-time preparation before work starts (for example, tool changes, machine calibration). | Fixed per operation. Doesn't scale with quantity. |
+| **Run Time** | Processing time per unit produced. | Scales with quantity and lot size. |
+| **Wait Time** | Queue or curing time after run time completes (for example, drying, cooling). | Fixed per operation. Doesn't consume work center capacity. |
+| **Move Time** | Transit time to move parts to the next work center. | Fixed per operation. Doesn't consume work center capacity. |
+
+The scheduling sequence for each operation is: **Setup Time** → **Run Time** → **Wait Time** → **Move Time**. Wait time and move time don't consume capacity on the work center calendar, so they extend the elapsed duration but not the work center load.
+
+> [!NOTE]
+> The **Queue Time** field on the work center card adds a buffer *before* an operation starts. Together with the four routing line fields, queue time helps provide an accurate overall production lead time.
+
+## Send-ahead quantity
+
+The **Send-Ahead Quantity** field on a routing line enables lot overlapping between operations. When you specify a send-ahead quantity, the next operation can start processing a partial lot before the current operation finishes the full quantity.
+
+For example, if operation 10 processes 100 units with a send-ahead quantity of 25, operation 20 can begin after operation 10 finishes the first 25 units. This approach reduces the total production lead time because operations run partially in parallel.
+
+### How send-ahead quantity works
+
+- If the send-ahead quantity is **greater than or equal to** the total quantity, each operation must finish before the next one starts (standard sequential processing).
+- If the send-ahead quantity is **less than** the total quantity, the scheduler calculates when the next operation can start based on the partial lot completion time.
+- Send-ahead quantity works together with the time fields (setup, run, wait, and move) to determine exact overlapping schedules.
+
+> [!TIP]
+> Use send-ahead quantity when consecutive operations use different work centers and the partial lot can physically move to the next station. If both operations share the same work center, overlapping might not be practical.
+
+## Routing scrap
+
+Routing lines include two scrap fields that affect both scheduling and costing:
+
+| Field | Description |
+|--|--|
+| **Scrap Factor %** | A percentage of extra quantity that must be processed at this operation to compensate for expected scrap. |
+| **Fixed Scrap Quantity** | An absolute number of extra units to process at this operation, regardless of lot size. |
+
+### How routing scrap differs from BOM scrap
+
+- **BOM scrap** (on production BOM lines) increases the component quantity needed. It answers: *How much more material do I need?*
+- **Routing scrap** (on routing lines) increases the quantity processed at each operation. It answers: *How many extra units must I run through this operation?*
+
+Both scrap types are cumulative across operations. The formula for calculating the input quantity at an operation is:
+
+$$\text{Input Qty} = \text{Output Qty} \times (1 + \text{Scrap Factor \%}) + \text{Fixed Scrap Qty}$$
+
+[!INCLUDE [prod_short](includes/prod_short.md)] accumulates routing scrap from the last operation backward to the first. The **Scrap Factor % (Accumulated)** and **Fixed Scrap Qty. (Accum.)** fields on the production order routing line show the combined scrap across all subsequent operations.
+
+> [!NOTE]
+> Routing scrap also affects standard cost calculations. The capacity cost for each operation is scaled by the accumulated scrap factor, which increases the standard cost of the produced item.
 
 ## Work with uncertified production BOMs and routings
 

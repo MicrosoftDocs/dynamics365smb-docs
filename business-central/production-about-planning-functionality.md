@@ -219,7 +219,7 @@ After the planning run, the **Planning Worksheet** page shows one line per plann
 When you run **Carry Out Action Message**, [!INCLUDE [prod_short](includes/prod_short.md)] creates firm planned production orders for all levels. Each production order's component list references the child production orders through the **Supplied by Prod. Order** flow on the **Prod. Order Components** page.
 
 > [!TIP]
-> To see the full multilevel structure of a production order, open the production order, and then choose the **Multi-Level Production** action (under **Order**, then **Planning**). This view shows the complete BOM hierarchy with order status at each level.
+> To regenerate a production order and its subassemblies in one step, open the production order, and then choose the **Replan** action. On the request page, set the **Plan** field to **All Levels** to recalculate routings and component needs for the current order and all child production orders. Use **One Level** to recalculate only the current order's components without going deeper into the BOM hierarchy.
 
 ## Compare planning approaches
 

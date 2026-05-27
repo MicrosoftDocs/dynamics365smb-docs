@@ -1,7 +1,7 @@
 ---
 title: Enable embedded Verifactu mode in Spain [ES]
 description: Enable real-time invoice reporting to AEAT with Verifactu in Business Central, ensuring QR code, hash chaining, and digital signature compliance.
-author: v-soumramani
+author: soumramani
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: verifactu, embedded verifactu, AEAT, QR codes, embed QR codes, auditing, Spanish version
@@ -60,7 +60,7 @@ To enable digital signing, perform the following steps:
    - In the **Document Format** field, enter **Verifactu**.
    - In the **Service Integration** field, enter **Verifactu Service**.
 
-    :::image type="content" source="../../media/spanish-verifactu/e-document-service-verifactu.png" alt-text="Screenshot that shows the e-document service page.":::
+    :::image type="content" source="../../media/spanish-verifactu/edocument-service-verifactu.png" alt-text="Screenshot that shows the e-document service page.":::
 
 > [!TIP]
 > Go to **Configure documents to export** and select **E-Document Service Supported Source Document Types** to check the allowed documents for Verifactu.
@@ -99,6 +99,7 @@ To enable digital signing, perform the following steps:
      - In the **E-Document Workflow** field, enter **VERIFACTU**.
 
    :::image type="content" source="../../media/spanish-verifactu/verifactu-document-sending-profile.png" alt-text="Screenshot that shows the document sending profile for Verifactu.":::
+
 1. Select **OK**.
 
 ## Set up Report Selection - Sales

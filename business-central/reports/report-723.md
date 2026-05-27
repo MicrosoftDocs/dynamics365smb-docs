@@ -69,7 +69,7 @@ The report uses these values as defaults. You can override them on the request p
 
 ## Report options
 
-The following table describes the fields on the  on the **Item - ABC Analysis** request page.
+The following table describes the fields on the **Item - ABC Analysis** request page.
 
 |Option  |Description  |
 |---------|---------|

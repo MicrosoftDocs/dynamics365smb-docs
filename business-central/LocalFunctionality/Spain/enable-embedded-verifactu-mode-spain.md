@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: verifactu, embedded verifactu, AEAT, QR codes, embed QR codes, auditing, Spanish version
-ms.date: 05/27/2026
+ms.date: 05/28/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -135,13 +135,13 @@ The following steps are based on a use case scenario where a sales invoice is cr
    :::image type="content" source="../../media/spanish-verifactu/verifactu-relecloud-posted-sales-invoice.png" alt-text="Screenshot that shows the posted sales invoice for the customer.":::
 
 1. Select **Print/Send** > **Print**. The **Sales Invoice** window displays.
-1. In the Report Layout drop-down, select the **Standard Sales Invoice - E-Document (Word)** layout and select **OK**.
+1. In the **Report Layout** drop-down, select the **Standard Sales Invoice - E-Document (Word)** layout and select **OK**.
 
    :::image type="content" source="../../media/spanish-verifactu/spain-verifactu-report-layout.png" alt-text="Screenshot that shows the report layouts.":::
 
    You can select **Preview** to visualize the document and the **E-Doc QR Code** generated for Verifactu.
 
-1. On the **Posted Sales Invoices** page, on the ribbon select **Related** > **E-Document** > **Open**.
+1. On the **Posted Sales Invoices** page, on the ribbon, select **Related** > **E-Document** > **Open**.
 
    :::image type="content" source="../../media/spanish-verifactu/verifactu-posted-sales-invoice-related-ribbon.png" alt-text="Screenshot that shows the E-Document Card page.":::
 
@@ -149,7 +149,7 @@ The following steps are based on a use case scenario where a sales invoice is cr
 
    :::image type="content" source="../../media/spanish-verifactu/spain-verifactu-relecloud-sales-invoice-processed.png" alt-text="Screenshot that shows the E-Document page for the processed sales invoice for Relecloud.":::
 
-   On the **E-Document Card** page, select **Document Logs** to see the documentation status for the invoice processing.
+   On the **E-Document Card** page, select **Document Logs** to see the invoice processing status. In this case, the status is cleared, and AEAT accepts the document.
 
    :::image type="content" source="../../media/spanish-verifactu/spain-verifactu-edocument-logs.png" alt-text="Screenshot that shows the e-document logs for the processed invoices.":::
 

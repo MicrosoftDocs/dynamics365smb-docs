@@ -48,7 +48,7 @@ To enable digital signing, perform the following steps:
 1. Upload your certificate in the **Certificate Code** field.
 1. Select the **Enabled** toggle.
 
-   :::image type="content" source="../../media/spanish-verifactu/spain-verifactu-setup-enabled.png" alt-text="Screenshot that shows the Verifactu Setup page.":::
+   :::image type="content" source="../../media/spanish-verifactu/spain-verifact-setup-enabled.png" alt-text="Screenshot that shows the Verifactu Setup page.":::
 
 ## Set up the e-document service format
 

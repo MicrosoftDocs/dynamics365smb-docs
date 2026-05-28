@@ -60,12 +60,12 @@ To enable digital signing, perform the following steps:
    - In the **Document Format** field, enter **Verifactu**.
    - In the **Service Integration** field, enter **Verifactu Service**.
 
-    :::image type="content" source="../../media/spanish-verifactu/edocument-service.png" alt-text="Screenshot that shows the e-document service page.":::
+    :::image type="content" source="../../media/spanish-verifactu/electronic-document-service.png" alt-text="Screenshot that shows the e-document service page.":::
 
 > [!TIP]
 > Go to **Configure documents to export** and select **E-Document Service Supported Source Document Types** to check the allowed documents for Verifactu.
 
-<!--:::image type="content" source="../../media/spanish-verifactu/edocument-service-document-types.png" alt-text="Screenshot that shows the e-document service supported source document types.":::-->
+<!--:::image type="content" source="../../media/spanish-verifactu/electronic-document-service-document-types.png" alt-text="Screenshot that shows the e-document service supported source document types.":::-->
 
 ## Set up Workflows
 
@@ -117,7 +117,7 @@ If it's not set up already, perform the following steps:
 1. Select a customer. For example, **50000 (Relecloud)**.
 1. In the **Document Sending Profile** drop-down, select **VERIFACTU**.
 
-   :::image type="content" source="../../media/spanish-verifactu/relecloud-customer-document-sending-profile.png" alt-text="Screenshot that shows the customer card with Verifactu selected as the document sending profile.":::
+   :::image type="content" source="../../media/spanish-verifactu/customer-document-sending-profile.png" alt-text="Screenshot that shows the customer card with Verifactu selected as the document sending profile.":::
 
 ## Example scenario - Set up sales invoice for customers and post it
 
@@ -127,12 +127,12 @@ The following steps are based on a use case scenario where a sales invoice is cr
 1. In the **Posting Date** field, enter **TODAY**.
 1. Add a line Item, with **Quantity** as **5** and amount as 1000 + VAT.
 
-   :::image type="content" source="../../media/spanish-verifactu/relecloud-sales-invoice.png" alt-text="Screenshot that shows the sales invoice for the customer.":::
+   :::image type="content" source="../../media/spanish-verifactu/customer-sales-invoice.png" alt-text="Screenshot that shows the sales invoice for the customer.":::
 
 1. Post the sales invoice.
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then select the related link. The **Posted Sales Invoices** page displays.
 
-   :::image type="content" source="../../media/spanish-verifactu/relecloud-posted-sales-invoice.png" alt-text="Screenshot that shows the posted sales invoice for the customer.":::
+   :::image type="content" source="../../media/spanish-verifactu/customer-posted-sales-invoice.png" alt-text="Screenshot that shows the posted sales invoice for the customer.":::
 
 1. Select **Print/Send** > **Print**. The **Sales Invoice** window displays.
 1. In the **Report Layout** drop-down, select the **Standard Sales Invoice - E-Document (Word)** layout and select **OK**.
@@ -147,11 +147,11 @@ The following steps are based on a use case scenario where a sales invoice is cr
 
    The **E-Document Card** page for the processed sales invoice for Relecloud displays with the clearance information.
 
-   :::image type="content" source="../../media/spanish-verifactu/relecloud-sales-invoice-processed.png" alt-text="Screenshot that shows the E-Document page for the processed sales invoice for Relecloud.":::
+   :::image type="content" source="../../media/spanish-verifactu/customer-sales-invoice-processed.png" alt-text="Screenshot that shows the E-Document page for the processed sales invoice for Relecloud.":::
 
    On the **E-Document Card** page, select **Document Logs** to see the invoice processing status. In this case, the status is cleared, and AEAT accepts the document.
 
-   :::image type="content" source="../../media/spanish-verifactu/edocument-logs.png" alt-text="Screenshot that shows the e-document logs for the processed invoices.":::
+   :::image type="content" source="../../media/spanish-verifactu/electronic-document-logs.png" alt-text="Screenshot that shows the e-document logs for the processed invoices.":::
 
 To view the submission status of the Verifactu document, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Verifactu Document**, and then select the related link. The **Verifactu Document** page displays with the submission status.
 

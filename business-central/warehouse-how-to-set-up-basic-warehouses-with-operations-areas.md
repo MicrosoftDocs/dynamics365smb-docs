@@ -19,7 +19,7 @@ If you have internal operation areas, such as production or assembly areas, you 
 - **Inventory Pick** page.  
 - **Inventory Put-away** page.
 
-To use these documents, you must set up one or more of the following fields on the the **Location Card** page for the location:
+To use these documents, you must set up one or more of the following fields on the **Location Card** page for the location:
 
 - The **Bin Mandatory** field.
 - The **Inventory Pick/Movement** option in the **Prod. Consumption Whse. Handling** field.
@@ -70,9 +70,7 @@ The following procedures are based on setting up basic warehouse activities arou
 
 Now, production order component lines with the default bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands might pick or consume from that bin because they're still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code on the **Bins** page that you open from the location card.
 
-This flow chart shows how the **Bin Code** field on production order component lines is filled according to your setup.  
-
-![Bin flow chart.](media/binflow.png "BinFlow")
+[!INCLUDE [production-bin-code-flow](includes/production-bin-code-flow.md)]
 
 ## To define a default bin structure in the assembly area
 

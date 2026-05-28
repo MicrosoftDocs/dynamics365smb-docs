@@ -63,7 +63,7 @@ Before you start, ensure that you have:
 
 - A Microsoft 365 tenant with Exchange Online.  
 - Global Administrator or Exchange Administrator permissions.  
-- A mailbox, for example, service@yourdomain.com, that you use as the "From" address in Tenant A(App / Mailbox tenant).  
+- A mailbox, for example, service@contoso.com, that you use as the "From" address in Tenant A(App / Mailbox tenant).  
 - A [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises environment in Tenant B(Business Central tenant).
 
 ## Create an application registration in Azure portal
@@ -514,13 +514,13 @@ This section lists some typical issues, their causes, and provides suggestions f
 ### AADSTS50011: redirect_uri mismatch
 
 - Cause: A Redirect URI isn't configured for your app registration in Azure portal.
-- Resolution: Update your app registration in Azure portal to use the same `.../oauthlanding.htm` redirect URI. Learn more at [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal).
+- Resolution: Update your app registration in Azure portal to use the same `.../OAuthLanding.htm` redirect URI. Learn more at [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal).
 
 ### 535 Authentication unsuccessful
 
 - Cause: SMTP AUTH is disabled, has an incorrect tenant ID or OAuth2ClientProfileEnabled is not enabled in the Exchange Online organization.
 
-- Resolution: Check `Get-TransportConfig` to be sure that `SmtpClientAuthentidationDisabled` is `False` and `OAuth2ClientProfileEnabled` is `true`.
+- Resolution: Check `Get-TransportConfig` to be sure that `SmtpClientAuthenticationDisabled` is `False` and `OAuth2ClientProfileEnabled` is `true`.
 
 ### 530 5.7.57 Client not authenticated
 

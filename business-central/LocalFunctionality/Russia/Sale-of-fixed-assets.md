@@ -16,7 +16,7 @@ A sale or transfer of a fixed asset consists of two stages.
 
 ## Stage 1: Depreciation of fixed assets
 
-1. Go to **Departments** > **Financial management** > **Fixed Assets** > **FA G/L Journals**.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
 1. Fill the journal lines:
 
    | Field | Description |
@@ -25,7 +25,7 @@ A sale or transfer of a fixed asset consists of two stages.
    | Account Type | Fixed Asset |
    | Account No. | Fixed asset code to be depreciate |
    | Depreciation Book Code | Specifies the code for the depreciation book to which the line is posted |
-   | FA Posting Type | Depriciation |
+   | FA Posting Type | Depreciation |
    | Amount | not fill |
    | Bal. Account Type | G/L Account |
    | Bal.Account No. | G/L Account for expenses related to the sale of fixed assets |
@@ -33,7 +33,7 @@ A sale or transfer of a fixed asset consists of two stages.
 
 ## Stage 2: Sale of fixed assets by the sales accounts
 
-1. Go to **Financial management** > **Receivables** > **Invoices**
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
 1. The fields in the document header are filled in the same way as the sales order fields.
 1. Fill the lines:
 

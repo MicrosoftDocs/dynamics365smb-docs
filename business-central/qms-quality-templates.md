@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 01/08/2026
+ms.date: 05/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -38,22 +38,21 @@ To set up a quality tests, follow these steps.
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Tests**, and then choose the related link.
 1. Choose **New** to create a new template.
-1. In the **Description** field, enter a short description of the measurement. For example, **Example Measurement**, **Weight**, or **Dimension**. This description will be visible when recording inspections and will show up on the Certificate of Analysis and other reports. 
+1. In the **Description** field, enter a short description of the measurement. For example, **Example Measurement**, **Weight**, or **Dimension**. This description is visible when recording inspections and show up on the Certificate of Analysis and other reports. 
 1. In the **Test Value Type** you can choose the value type collected for this test, such as entering numbers, selecting from a list of options, or choosing values from another table. The following list describes the purpose of each option.
 
    - **Decimal** or **Integer** for tests that allow numerical values.
    - **Boolean** if you want to record simples *Yes* or *No*.
    - **Text**, **Date**, or **Date and Time** - The inspector enters results as free text or a date. 
    - **Option** - Inspector select one of the values from a simple list you defined in the **Allowable Values** field.
-   - **Lookup** - List of values is build dynamically based on **Lookup Table No.**, **Lookup Field No.** with respect of **Lookup Table Filter**. For example if you want to show a list of available reason codes from the **Reason code** table, then you would use table *231* with field *1* which represents the **Code** field on that table. You can also use table *20408* **Quality Test Lookup Value** and populate it with your own values. **Allowable Values** do not affect 
-   - **Label** - you cannot enter value in this field, it is used for splitting lines when printing report.
+   - **Lookup** - List of values is build dynamically based on **Lookup Table No.**, **Lookup Field No.** with respect of **Lookup Table Filter**. For example if you want to show a list of available reason codes from the **Reason code** table, then you would use table *231* with field 1, which represents the **Code** field on that table. You can also use table *20408* **Quality Test Lookup Value** and populate it with your own values. 
+   - **Label** - You can't enter value in this field because it's used for splitting lines when printing the report.
   
-1. In the **Allowed Values** you can specify what values inspection can enter. The format depends on the **Test Value Type**. Pass, fail or acceptance conditions are configured separately. For integer or decimal, you might enter something like '5..90' and the system accepts any value in this range. For the **Test Value Type** set to *Lookup* the **Allowable Values** field is ignored, though it is convenient to use for populateing values in the **Quality Test Lookup Value** page.
-2. The **Result conditions** part inlcude pairs **Condition** and **Description** fields for each quality result where **Result Visibility** is set to *Priority*. The value in the **Condition** field depends on the **Test Value Type**. The following are examples for different types:
+1. In the **Allowed Values** field, you can specify what values inspection can enter. The format depends on the **Test Value Type**. Pass, fail, or acceptance conditions are configured separately. For integer or decimal, you might enter something like '5..90' and the system accepts any value in this range. For the **Test Value Type** set to *Lookup* the **Allowable Values** field is ignored, though it's convenient to use for populating values in the **Quality Test Lookup Value** page.
+1. The **Result conditions** part includes pairs of **Condition** and **Description** fields for each quality result where **Result Visibility** is set to *Priority*. The value in the **Condition** field depends on the **Test Value Type**. The following are examples for different types:
    - For integer or decimal, it can be '10..20' (range), '>=20' (greater than or equal), '<>0' (not equal to zero), '10|20|30' (equals 10, 20 or 30).
    - For text: 'A*' (starts with "A").
    - For date: 'TODAY..TODAY+30D' (Today through 30 days from today), '>=01/01/2026'(on or after specific date).
-
 
 ## Create a new template
 
@@ -63,9 +62,9 @@ To set up a quality inspection template, follow these steps.
 1. Choose **New** to create a new template.
 1. Fill in the **Template Code** field with a short name that indicates the purpose of the inspection. For example, enter **EXAMPLE** or **INCOMING-PARTS**.
 1. Fill in the **Description** field. This field often contains an elaboration of the code. For example, **Example Template** or **Incoming Parts Inspection**.
-1. In the **Sample Source** field, specify the size of the sample the test includes. Depending on your choice, the **Sample Amount** or **Sample %** fields display, so you can add those values. The **Sample quantity** in the created inspection cannot exceed the **Quantity (Base)** and if necessary it will be changed automatically on the inspection to be equal to the the source quantity. If you leave the **Sample Source** field blank, the amount or percentage fields don't display. 
+1. In the **Sample Source** field, specify the size of the sample the test includes. Depending on your choice, the **Sample Amount** or **Sample %** fields display, so you can add those values. The **Sample quantity** in the created inspection can't exceed the **Quantity (Base)** and if necessary it's changed automatically on the inspection to equal the source quantity. If you leave the **Sample Source** field blank, the amount or percentage fields don't display. 
 1. Add the tests that represent what the inspection measures.
-2. If necessary you can override conditions frorm tests for specific inspection template requirements.
+1. If necessary, you can override conditions from tests for specific inspection template requirements.
 
 ## Assign a test generation rule
 

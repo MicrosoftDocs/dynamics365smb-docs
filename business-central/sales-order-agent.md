@@ -183,6 +183,9 @@ The general flow is illustrated in the figure, which is followed by more details
 
 Sales Order Agent uses Copilot Credits for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
+> [!IMPORTANT]
+> When Copilot Credits are depleted, the agent stops processing new emails but remains active and scheduled. When credits become available again, the agent automatically resumes and processes all unread emails that accumulated during the outage. To prevent unintended credit consumption after renewal, deactivate the agent when you don't need it running. Learn more in [Manage agent when Copilot Credits run out](sales-order-agent-setup.md#manage-agent-when-copilot-credits-run-out).
+
 ## Next steps
 
 - [Set up the Sales Order Agent](sales-order-agent-setup.md)

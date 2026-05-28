@@ -1,5 +1,5 @@
 ---
-title: Setting up Subcontracting
+title: Setting Up Subcontracting
 description: Learn how to set up subcontracting in Business Central for India.
 author: v-debapd
 ms.topic: how-to
@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Set up subcontracting
+# Set up subcontracting for India
 
 Business Central has included **Subcontracting** Feature to Indian Localization.
 

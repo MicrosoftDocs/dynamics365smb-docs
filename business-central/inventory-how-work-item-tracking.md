@@ -248,7 +248,7 @@ Reclassifying item tracking for an item means to change a lot or serial number t
 
     > [!IMPORTANT]  
     > * If you're reclassifying a lot to the same lot number but with a different expiration date, you must reclassify the entire lot using one item reclassification journal line.
-    > * If you're reclassifying more than one lot to one new lot number, meaning you're merging several lots into one new lot, you must give all lots the the same new expiration date.
+    > * If you're reclassifying more than one lot to one new lot number, meaning you're merging several lots into one new lot, you must give all lots the same new expiration date.
     > * If you're reclassifying one existing lot to a second existing lot that has a different expiration date, you must use the expiration date from the second lot.
     > * If you leave the **New Expiration Date** field blank, the lot or serial number is reclassified with a blank expiration date.  
 

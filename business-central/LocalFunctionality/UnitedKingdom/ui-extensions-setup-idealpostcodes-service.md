@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 This extension makes it easy to enter addresses in the United Kingdom (UK) for entities like customers, contacts, employees, vendors, bank accounts, and so on.
 
-The Ideal Postcodes extension uses the **Ideal Postcodes** API to find addresses in postcodes in the UK. To use the extension, you need a an Ideal Postcodes account, a plan, and an API Key for the Ideal Postcodes API. We help you access the latest plans when you set up the Ideal Postcodes extension in [!INCLUDE [prod_short](../../includes/prod_short.md)].
+The Ideal Postcodes extension uses the **Ideal Postcodes** API to find addresses in postcodes in the UK. To use the extension, you need an Ideal Postcodes account, a plan, and an API Key for the Ideal Postcodes API. We help you access the latest plans when you set up the Ideal Postcodes extension in [!INCLUDE [prod_short](../../includes/prod_short.md)].
 
 Plans are based on use, or what are sometimes referred to as "calls." A call, in this case, is when [!INCLUDE [prod_short](../../includes/prod_short.md)] displays a list of addresses in a postcode. Depending on how often you add addresses, choose the plan that's best for you.
 
@@ -39,6 +39,10 @@ To learn more about Ideal Postcodes, visit their [website](https://ideal-postcod
    1. In the **API Key** field, enter the API key.
    1. Read the **Terms & Conditions**.
    1. Select the **Enabled** checkbox, and then choose **OK**.
+   1. Choose **Actions**, and then **Test Connection**. If the test was successful, the *Connection test was successful* message displays.
+
+      > [!IMPORTANT]
+      > If the *Connection test failed. Received response 0* message displays, the extension isn't allowed to make outbound HTTP calls. To fix the issue, search for **Extension Management**, select the **IdealPostcodes** extension, and turn on the **Allow HttpClient Requests** toggle. Then, test the connection again.
 
 1. To verify that your API key works, choose **Test Connection**.
 

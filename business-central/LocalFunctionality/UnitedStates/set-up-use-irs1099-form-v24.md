@@ -37,7 +37,7 @@ To use 1099 forms in [!INCLUDE [prod_short](../../includes/prod_short.md)], you 
 1. To collect details from vendor ledger entries, such as amounts, from the **IRS 1099 Form Doc Line Details** page for each calculated amount on the IRS 1099 form document, turn on the **Collect Details For Line** toggle.
 
    > [!NOTE]
-   > Collecting details about vendor ledger entries is helpful for reviewing amounts, but it can take up space in your database. If you don't turn on the toggle, the total amount is calculated without listing each amount from the the vendor ledger entries.
+   > Collecting details about vendor ledger entries is helpful for reviewing amounts, but it can take up space in your database. If you don't turn on the toggle, the total amount is calculated without listing each amount from the vendor ledger entries.
 
 1. Optionally, in the **Protect TIN** field, specify whether to mask the taxpayer identification number (TIN) for vendors, or for both vendors and your company. You can also choose not to protect TIN numbers.
 

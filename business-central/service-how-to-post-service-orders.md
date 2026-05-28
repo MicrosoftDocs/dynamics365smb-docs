@@ -18,7 +18,7 @@ After you create a service order, when you're ready you can post it. The order m
 If you have a large number of service orders, you can save time by using a batch job to post them. You can run the batch job from any service order.
 
 > [!Tip]
-> Before you post a service document, it's a good idea to use the **Test Report** action to to check for errors or missing information. If there are errors, you must correct the problem. You can print a new test report to verify the fix, and then post the document.
+> Before you post a service document, it's a good idea to use the **Test Report** action to check for errors or missing information. If there are errors, you must correct the problem. You can print a new test report to verify the fix, and then post the document.
 
 ## Post a service order
 

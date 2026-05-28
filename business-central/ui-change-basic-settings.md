@@ -39,7 +39,7 @@ A company functions as a container for data in [!INCLUDE[prod_short](includes/pr
 The **Company** field shows the company you're currently working in, and you can use it to switch to another company. The company name is always displayed at the upper-left corner and works as an action that you can choose to go back to the Role Center.
 
 > [!TIP]
-> You can also change the company by using the company switcher (Crtl+O). For more information about about this feature and other ways to change company or environment, see [Switching to Another Company or Environment](ui-organization-switch.md).
+> You can also change the company by using the company switcher (Crtl+O). For more information about this feature and other ways to change company or environment, see [Switching to Another Company or Environment](ui-organization-switch.md).
 
 The default company is called CRONUS and contains demonstration data only. You can create a new company with custom data. For more information, see [Creating New Companies](about-new-company.md).
 

@@ -38,7 +38,7 @@ To enable digital signing, perform the following steps:
 
    <!--:::image type="content" source="../../media/spanish-verifactu/timezone.png" alt-text="Screenshot that shows time zones for various places.":::-->
 
-1. Go to **My Settings** and set the **Working Date** to today’s date and set the **Region** as **Spanish (Spain, International Sort)**. The Spanish Tax Authorities will not accept date higher than today’s.
+1. Go to **My Settings** and set the **Working Date** to today’s date and set the **Region** as **Spanish (Spain, International Sort)**. The Spanish Tax Authorities don't accept a date higher than today’s.
 
    <!--:::image type="content" source="../../media/spanish-verifactu/my-settings.png" alt-text="Screenshot that shows my settings window.":::-->
 
@@ -70,7 +70,7 @@ To enable digital signing, perform the following steps:
 ## Set up Workflows
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then select the related link. The **Workflows** page displays.
-1. On the **Workflows** page, disable the current one for e-documents.
+1. On the **Workflows** page, switch off the current one for e-documents.
 1. Create a new e-document for Verifactu by filling up the following fields:
    - In the **Code** field, enter **VERIFACTU**.
    - In the **Description** field, enter **VERIFACTU**.

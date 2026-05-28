@@ -676,8 +676,8 @@ ms.service: dynamics-365-business-central
 #### [Overcome subscription business model challenges](SRB/examples.md)
 <!-- Subscription billing analytics start -->
 #### Subscription billing analytics
-##### [Power BI subscription billing app](SRB/analytics/subscription-powerbi-app.md)
-##### [Subscription billing overview](SRB/analytics/subscription-powerbi-overview.md)
+##### [Power BI Subscription Billing app](SRB/analytics/subscription-powerbi-app.md)
+##### [Subscription Billing Overview](SRB/analytics/subscription-powerbi-overview.md)
 ##### [Revenue Year-Over-Year](SRB/analytics/subscription-powerbi-revenue-year-over-year.md)
 ##### [Revenue Analysis](SRB/analytics/subscription-powerbi-revenue-analysis.md)
 ##### [Revenue Development](SRB/analytics/subscription-powerbi-revenue-development.md)
@@ -818,6 +818,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
 ##### [Bin Contents](inventory-powerbi-bin-contents.md)
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
+##### [ABC Analysis](inventory-powerbi-abc-analysis.md)
 ##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
 #### [Power BI inventory valuation app](inventory-valuation-powerbi-app.md)
@@ -841,6 +842,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Cost and price list](reports/report-716.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md)
 ##### [Inventory Availability Plan (Excel)](reports/report-719.md)
+##### [Item - ABC Analysis](reports/report-723.md)
 
 ##### [Item/Vendor Catalog](reports/report-720.md)
 
@@ -1145,7 +1147,6 @@ ms.service: dynamics-365-business-central
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)
-### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
 ### [Post consumption and output for one released production order line](production-how-to-register-consumption-and-output.md)
 ### [Batch post consumption](production-how-to-post-consumption.md)
 ### [Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md)
@@ -1153,6 +1154,12 @@ ms.service: dynamics-365-business-central
 ### [Reverse output posting](production-how-to-reverse-output-posting.md)
 ### [Post scrap](production-how-to-post-scrap.md)
 ### [Post capacities](production-how-to-post-capacities.md)
+### Subcontracting
+#### [Subcontracting overview](production-how-to-subcontract-manufacturing.md)
+#### [Order subcontracting from production orders](subcontract-order.md)
+#### [Use the subcontracting worksheet](subcontract-worksheet.md)
+#### [Manage components](subcontract-components.md)
+#### [Assign item charges](subcontract-item-charges.md)
 ### [About finished production order costs](finance-about-finished-production-order-costs.md)
 
 ## Warehouse management
@@ -2326,7 +2333,11 @@ ms.service: dynamics-365-business-central
 #### [Handling lot sizes in production](production-handling-lot-sizes.md)
 #### [Work with production families](production-how-work-family.md)
 #### [Set up standard routing lines](production-how-set-up-standard-routing-lines.md)
-#### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
+#### [Set up subcontracting](subcontract-setup.md)
+#### [Set up subcontractor prices](subcontract-prices.md)
+#### [Set up subcontracting locations](subcontract-location-management.md)
+<!-- #### [Set up purchase provisions](subcontract-purchase-provisions.md) -->
+<!-- #### [Set up provisions (setup guide)](subcontract-setup-configurator.md) -->
 
 ### Set up quality management
 #### [Quality management setup and configuration](qms-setup.md)

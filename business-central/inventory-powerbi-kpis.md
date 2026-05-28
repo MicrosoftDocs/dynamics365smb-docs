@@ -526,6 +526,7 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 ## ABC Classification Measures
 
 - [No. of Items in Class](#no-of-items-in-class)
+- [Percent of Sales Amount](#percent-of-sales-amount)
 - [Sales Amount (ABC)](#sales-amount-abc)
 - [Sales Quantity (ABC)](#sales-quantity-abc)
 
@@ -534,6 +535,16 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 **Formula**  
 
 - This measure returns the number of items based on the ABC classification. The ABC classification is determined by calculating the cumulated sales amount for an item, divided by the total sales amount for all items, to return the Cumulative Sales Amount Percent. Each item is assigned an ABC Classification based on whether the Cumulative Sales Amount Percent is within the lower and upper ABC class boundaries, as defined in the ABC Analysis Setup.
+
+**Data Sources**
+
+- Item Ledger Entry
+
+### Percent of Sales Amount
+
+**Formula**  
+
+- This measure returns the percentage share of total sales amount for a given ABC classification. It divides the [Sales Amount (ABC)](#sales-amount-abc) by the total sales amount across all selected items.
 
 **Data Sources**
 

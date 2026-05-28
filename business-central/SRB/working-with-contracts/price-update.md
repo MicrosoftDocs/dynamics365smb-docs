@@ -219,7 +219,7 @@ Price updates never take effect in the middle of invoiced periods. A subscriptio
 * The date in the **Perform Update On** field is 01.15.2024.
 * Invoice period is 01.01.2024 - 01.31.2024.
 * The period 01.01.24 - 01.14.2024 must be invoiced at the old price. Because price updates don't affect invoicing, the entire period is invoiced at the old price.
-* The price update take effect at the end of the invoiced period (01.31.2024).
+* The price update takes effect at the end of the invoiced period (01.31.2024).
 
 When this invoice is credited again, the date in the **Next Billing Date** field is again 01.01.2024. On this date, the old price was originally valid and the price update wasn't in effect. The price update is canceled and the original prices as of 01.01.2024 are restored. The contract invoices can be issued with the original prices.
 

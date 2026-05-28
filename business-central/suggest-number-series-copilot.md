@@ -40,7 +40,7 @@ For each company you set up in [!INCLUDE [prod_short](includes/prod_short.md)], 
 
 Numbering isn't only important for identification. A well-designed numbering system also makes the company more manageable and easier to analyze, and can reduce data entry errors.
 
-By letting you use natural language or structured input, Copilot can reduce the time it takes to set up number series and make it easier to maintain them. For example, when you need to update year or month-based numbering for many draft and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
+By letting you use natural language or structured input, Copilot can reduce the time it takes to set up number series and make it easier to maintain them. For example, when you need to update year or month-based numbering for many drafts and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Review the suggestions and refine your prompt
 

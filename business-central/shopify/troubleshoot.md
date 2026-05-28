@@ -237,7 +237,10 @@ Request a new token because the updated version of the connector requires more p
 
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 
-Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
+This error can occur in two scenarios:
+
+- After updating the connector. The updated version requires more permissions (application scopes). Request a new token. To learn more, go to [Request access token](#request-the-access-token).
+- After you downgrade your Shopify plan. If you downgrade from a Plus or Advanced plan to a lower tier, the connector might still attempt to query fields that require the higher plan (for example, `staffMember`). To resolve this, open the **Shopify Shop Card** in [!INCLUDE [prod_short](../includes/prod_short.md)], turn off the **Enabled** toggle, and then turn it back on. This refreshes the stored plan information and removes the advanced-plan queries from sync operations.
 
 ### [API] Invalid API key or access token (unrecognized login or wrong password)
 

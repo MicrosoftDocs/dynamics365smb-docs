@@ -5,10 +5,10 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: extensible business reporting, ICP declaration, Dutch version, Netherlands, XBRL, electronic VAT declaration, electronic ICP declaration, Netherlands
-ms.date: 03/14/2025
+ms.date: 05/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ---
 
 # Submitting electronic VAT and ICP declarations in the Dutch version
@@ -19,8 +19,7 @@ Companies must submit periodic VAT and Intracommunautaire leveringen (ICP) decla
 - ICP declarations must be submitted on a quarterly basis.
 
 > [!NOTE]  
-> ICP declarations must be submitted by companies/regions that sell goods or services to European Union (EU) countries. Purchases aren't included in this declaration. <br><br/>
-For a transaction to qualify for ICP, it's required that the merchandise crossed the border physically. It isn't enough that the location of an invoice address or the office of the vendor or customer is in another EU country or region.  
+> Companies that sell goods or services to European Union (EU) countries/regions ICP declarations must submit. Purchases aren't included in this declaration. For a transaction to qualify for ICP, the merchandise must physically cross a border. It isn't enough that the location of an invoice address or the office of the vendor or customer is in another EU country/region.  
 
 You can submit the VAT declarations and ICP declarations in the following ways:  
 
@@ -33,9 +32,12 @@ Before you can send electronic declarations to the tax authorities, you must per
 
 1. Ensure that you obtain the certificates from the government. If you haven't, take the following steps to obtain the certificates:
 
-    - Obtain a PKIoverheid certificate for the company if you don't have one already. You can find a list of certificate providers on this [website](https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
+    - Obtain a **PKIoverheid** client certificate for the company if you don't have one already. You can find a list of certificate providers on this [website](https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
     - You can register a user of Digipoort on this [website](https://aansluiten.procesinfrastructuur.nl/site/registratienieuw).
-    - You can obtain a **Digipoort Service certificate**, on the [Dutch Tax Administration website](https://aansluiten.procesinfrastructuur.nl).
+    - Download the **Digipoort WUS service signing certificate** from the [Aansluit Suite Digipoort](https://aansluiten.procesinfrastructuur.nl/site/documentatie/digipoort-migratie-instructie-voor-het-wus-koppelvlak) site. The download link is also listed in [Setting up electronic VAT and ICP declarations](how-to-set-up-electronic-vat-and-icp-declarations.md#digipoort-service-signing-certificate).
+
+    > [!NOTE]
+    > If you already submit declarations through the legacy Digipoort environment, you must migrate to the new Digipoort. Update the endpoint URLs and the service signing certificate on the **Elec. Tax Declaration Setup** page. Learn more in [Migrating to the new Digipoort](how-to-set-up-electronic-vat-and-icp-declarations.md#migrating-to-the-new-digipoort).
 
 1. Enter general data and personal data received from the tax authorities on the **Elec. Tax Declaration Setup** page. Learn more in [Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md).
 
@@ -54,7 +56,7 @@ The XBRL reporter ensures that all account numbers that are imported from Busine
 
 ## Submit an electronic declaration
 
-With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it's submitted, the file is sent to the tax authorities as defined on the **Elec. Tax Declaration Setup** page.
+With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When submitted, the file is sent to the tax authorities as defined on the **Elec. Tax Declaration Setup** page.
 
 1. On the **Elec. Tax Declaration Card** page, choose the **Submit Electronic Tax Declaration** action.
 1. Fill in the fields as described in the following table.

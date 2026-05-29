@@ -107,7 +107,7 @@ To enable digital signing, perform the following steps:
 If it's not set up already, perform the following steps:
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selection - Sales**, and then select the related link. The **Report Selection - Sales** page displays.
-1. Ensure for the **Usage - Invoice**, report ID **1306** is selected.
+1. Ensure for the **Usage - Invoice**, the report ID **1306** is selected.
 
    :::image type="content" source="../../media/spanish-verifactu/report-selection-sales.png" alt-text="Screenshot that shows the report selection sales page.":::
 

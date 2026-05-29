@@ -4,7 +4,7 @@ description: Learn about the local functionality available in the Spanish versio
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Spain local functionality, Spanish localization, Spanish version
-ms.date: 10/29/2025
+ms.date: 05/29/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -54,6 +54,7 @@ The following articles describe local functionality unique to the Spanish versio
   - [Cartera module](cartera-module.md) **Available Now**
   - [Receivables Cartera module](receivables-cartera-module.md) **Available Now**
   - [Payments Cartera module](payments-cartera-module.md) **Available Now**
+  - [Enable embedded VERI*FACTU mode](enable-real-time-invoice-reporting.md) **Available Now**
 
 - Core finance
   - [Set up and close Income Statement Balances](how-to-set-up-and-close-income-statement-balances.md) **Available Now**

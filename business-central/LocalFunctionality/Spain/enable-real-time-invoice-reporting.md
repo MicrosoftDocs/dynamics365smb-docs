@@ -25,9 +25,7 @@ After the invoice is successfully validated, the system incorporates the officia
 
 To enable digital signing, perform the following steps:
 
-<!-- This step is an internal step for testing purpose *Download the certificate from https://safeexchange.smb.dynamics.com/viewdata/*--->
-
-1. Create yourself as a Super user.
+1. Create yourself as a SUPER user.
 1. On the **Company information** page, perform the following actions:
    - Enter the **VAT Registration No.** from the qualified electronic certificate issued to you by the tax authorities. For example, **99999910G**.
    - Enter the company **Name** as mentioned in the certificate. For example, **CERTIFICADO PRUEBAS**.

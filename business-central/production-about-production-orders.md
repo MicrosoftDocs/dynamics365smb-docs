@@ -206,26 +206,24 @@ In the production journal, consumption quantities are posted as negative item le
 
 ## Handle by-products in production
 
-Some manufacturing processes produce secondary items (by-products or co-products) in addition to the main finished item. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't have a dedicated by-product feature, but you can handle by-products using the following approach:
+Some manufacturing processes produce secondary items (by-products or co-products) in addition to the main finished item. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't have a dedicated by-product feature, but you can record by-products by posting a negative consumption entry in the consumption journal.
 
-### Post by-product output through the output journal
+### Post by-products through the consumption journal
+
+The approach works by reversing the normal consumption flow: instead of consuming material out of inventory, a negative consumption entry adds the by-product into inventory and credits the production order's work in process (WIP) account.
 
 1. Create a separate item card for each by-product with its own item number, unit of measure, and costing method.
-2. When you post the output for the main production order, create additional output journal lines for the by-product items. In the **Output Journal**, specify:
+2. Open the **Consumption Journal** and create a line for the by-product. Specify:
    - The production order number in the **Order No.** field.
-   - The by-product item number in the **Item No.** field.
-   - The quantity of the by-product produced.
-3. If the by-product has a measurable value, enter the output quantity. The by-product item is added to inventory and can be sold or used in other production processes.
+   - The by-product item number in the **Item No.** field. The item doesn't need to be a component on the production order.
+   - A **negative quantity** representing the amount of the by-product produced. For example, if the process yields 5 units of a by-product, enter *-5*.
+3. Post the journal. The negative consumption entry increases the by-product's inventory and reduces WIP on the production order by the by-product's cost value.
 
-### Account for by-product costs
+### Cost effects
 
-By-products affect the cost of the main production order. Consider the following approaches:
-
-- **Net off the by-product value** — If the by-product has a known market value, you can subtract its value from the main item's cost manually or through a journal adjustment after posting.
-- **Zero-value by-products** — If the by-product has negligible value (such as production waste that requires disposal), post it at zero cost. The full production cost stays with the main item.
-
-> [!NOTE]
-> Because [!INCLUDE [prod_short](includes/prod_short.md)] links output quantities to a single production order, by-product output can only be recorded against the same production order that produces the main item. If you need independent tracking, consider creating a separate production order for the by-product.
+- The by-product's value is credited against the production order's WIP, which reduces the effective cost of the main finished item.
+- If the by-product has negligible value (such as production waste), set its unit cost to zero. The full production cost stays with the main item.
+- For standard costing, the by-product is valued at its standard cost. For other costing methods, the entry uses the item's unit cost at the time of posting.
 
 ## Related information
 

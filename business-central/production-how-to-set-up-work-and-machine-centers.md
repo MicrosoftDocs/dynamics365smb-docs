@@ -215,6 +215,7 @@ Use the Work Center Task List to quickly identify scheduling conflicts, overload
 
 ## Related information
 
+[Create Routings](production-how-to-create-routings.md)  
 [Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

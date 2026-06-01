@@ -46,11 +46,13 @@ When you set the **Replenishment System** on a SKU card to **Prod. Order**, addi
 | **Manufacturing Policy** | Overrides the item's manufacturing policy. Choose **Make-to-Stock** for items you produce to replenish inventory, or **Make-to-Order** for items you produce only when a specific demand exists. |
 | **Components at Location** | Determines which location to use when calculating component availability. When blank, [!INCLUDE [prod_short](includes/prod_short.md)] uses the production order's location. |
 | **Lot Size** | Specifies the lot size for standard cost calculation on the routing's setup time proration. This field overrides the item card's lot size for the SKU location. |
+| **Standard Cost** | Specifies the standard cost for the item at this location. When you use the **Load SKU Cost on Manufacturing** toggle in **Manufacturing Setup**, production orders use this value instead of the item card's standard cost. Run **Calc. Production Std. Cost** on the SKU card to roll up costs from the SKU's BOM and routing. |
+| **Unit Cost** | Shows the unit cost for the item at this location. This field is updated when you run **Calc. Production Std. Cost** or adjust costs. |
 
 The SKU-level BOM and routing are used when [!INCLUDE [prod_short](includes/prod_short.md)] creates or refreshes production orders for the item at that location. They're also used by the planning system when it generates planned production orders.
 
-> [!TIP]
-> Use SKU-level manufacturing data when the same item is produced at multiple locations with different equipment, different component sources, or different cost structures. This approach keeps the item card clean while capturing location-specific variations.
+> [!IMPORTANT]
+> When a SKU exists for a production item, [!INCLUDE [prod_short](includes/prod_short.md)] loads the item card values first, then overrides them with any SKU fields that aren't blank. For example, if a SKU has a **Production BOM No.** but no **Routing No.**, the production order uses the SKU's BOM and the item card's routing. This means you only need to fill in the SKU fields that differ from the item card.
 
 ## Related information
 

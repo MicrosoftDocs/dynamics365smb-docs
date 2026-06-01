@@ -223,10 +223,7 @@ The approach works by reversing the normal consumption flow: instead of consumin
 
 - The by-product's value is credited against the production order's WIP, which reduces the effective cost of the main finished item.
 - If the by-product has negligible value (such as production waste), set its unit cost to zero. The full production cost stays with the main item.
-- For standard costing, the by-product is valued at its standard cost. For other costing methods, the entry uses the item's unit cost at the time of posting.
-
-> [!NOTE]
-> Consider using the **Standard** costing method for by-product items. With Standard costing, the by-product always enters inventory at the defined standard cost, so the credit to the production order's WIP is predictable and consistent across orders. With other costing methods such as FIFO or Average, the by-product's value depends on the item's unit cost at the time of posting, which can cause the WIP credit to vary between production orders.
+- Consider using the **Standard** costing method for by-product items. With Standard costing, the by-product always enters inventory at the defined standard cost, so the credit to the production order's WIP is predictable and consistent across orders. With other costing methods such as FIFO or Average, the by-product's value depends on the item's unit cost at the time of posting, which can cause the WIP credit to vary between production orders.
 
 ## Related information
 

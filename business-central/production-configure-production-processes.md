@@ -23,7 +23,7 @@ The following table describes a sequence of tasks, with links to the articles th
 
 |**To**|**Go to**|  
 |------------|-------------|  
-|Configure the manufacturing features, such as defining shop floor work hours and cost calculation parameters.|The **Manufacturing Setup** page.|
+|Configure the manufacturing features, such as defining shop floor work hours and cost calculation parameters.|[Manufacturing Setup](#manufacturing-setup)|
 |On the **Planning** tab on the **Inventory Setup** page, set global planning parameters that override parameters set on individual item cards.|[Design Details: Planning Parameters](design-details-planning-parameters.md)|
 |Define a standard working week in the manufacturing department in terms of starting and ending times of each work day and related work shift.|[Create Shop Calendars](production-how-to-create-work-center-calendars.md)|  
 |Organize fixed values and requirements of production resources as work centers or machine centers to govern their output of production performed.|[Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)|

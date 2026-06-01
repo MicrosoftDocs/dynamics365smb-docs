@@ -31,9 +31,9 @@ To create several SKUs for an item, use the **Create Stockkeeping Unit** batch j
 > [!NOTE]  
 > The information on the **Stockkeeping Unit** card has priority over the **Item** card.
 
-> [!Warning]
+> [!IMPORTANT]
 > If the SKU is supplied through production, go to the **Manufacturing Setup** page and turn on the **Load SKU Cost on Manufacturing** toggle. Otherwise, the **Standard Cost** field isn't used when invoicing and adjusting the actual cost of the produced item. Instead, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value in the **Standard Cost** field on the item, and calculates variances against the cost shares of that item.<br><br>
-> After you assign production BOMs and routings to SKUs, run the **Calc. Production Std. Cost** action on the **Stockkeeping Unit Card** page to roll up the component and capacity costs. Subassemblies use information from items. To learn more about standard costs, go to [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).
+> After you assign production BOMs and routings to SKUs, run the **Calc. Production Std. Cost** action on the **Stockkeeping Unit Card** page to roll up the component and capacity costs. Subassemblies use information from items. To learn more about standard costs, go to [About Calculating Standard Cost](finance-about-calculating-standard-cost.md). To learn more about manufacturing fields on SKUs, go to [Manufacturing fields on stock keeping units](#manufacturing-fields-on-stock-keeping-units).
 
 ## Manufacturing fields on stock keeping units
 

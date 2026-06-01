@@ -82,9 +82,7 @@ The time validity of the version is specified by the **Starting Date** field.
 > [!NOTE]  
 > Select the **Item** option in the **Type** field to use an item from your item master data in the production BOM. If the item also has a production BOM, whereby the **Production BOM No.** field is filled in on the item card, this production BOM is also considered.  
 >
-> Select the **Production BOM** option if you want to use a phantom production BOM on the line. To learn more, go to [Phantom production BOMs](#phantom-production-boms).
->
-> Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product but is used exclusively for determining the dependent demand. Phantom production BOMs don't have their own item master data.
+> Select the **Production BOM** option if you want to use a phantom production BOM on the line. Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product but is used exclusively for determining the dependent demand. Phantom production BOMs don't have their own item master data. To learn more, go to [Phantom production BOMs](#phantom-production-boms).
 
 ## Compare production BOM versions
 
@@ -148,7 +146,7 @@ Use phantom BOMs in the following scenarios:
 When [!INCLUDE [prod_short](includes/prod_short.md)] plans or refreshes a production order for the parent item, it replaces the phantom BOM line with the phantom's individual components. The component quantities are adjusted by the **Quantity per** value on the parent BOM line.
 
 > [!NOTE]
-> Phantom BOMs can be nested. A phantom BOM can include a line that references another phantom BOM. [!INCLUDE [prod_short](includes/prod_short.md)] explodes all levels until only items and resources remain on the production order components list.
+> Phantom BOMs can be nested. A phantom BOM can include a line that references another phantom BOM. [!INCLUDE [prod_short](includes/prod_short.md)] explodes all levels until only items remain on the production order components list.
 
 ## Related information
 

@@ -1,6 +1,6 @@
 ---
 title: View Load on Work and Machine Centers
-description: Learn how to view shop floor load on work and machine centers, and how finite capacity planning prevents overloading bottleneck resources.
+description: Learn how to view shop floor load on work and machine centers, how finite capacity planning prevents overloading bottleneck resources, and how to use the Work Center Task List.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
@@ -41,22 +41,36 @@ By default, [!INCLUDE [prod_short](includes/prod_short.md)] uses *infinite capac
 
 For bottleneck resources, you can switch to *finite capacity scheduling*. Finite scheduling ensures that operations are scheduled only when capacity is available, preventing overloads on critical resources.
 
-### Set up capacity-constrained resources
+To set up finite capacity scheduling, register the resource as a capacity-constrained resource. To learn more, go to [Set Up a Capacity Constrained Machine or Work Center](production-how-to-set-up-work-and-machine-centers.md#to-set-up-a-capacity-constrained-machine-or-work-center).
 
-To use finite capacity scheduling, register the resource as a capacity-constrained resource.
+## View the Work Center Task List
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Capacity Constrained Resources**, and then choose the related link.
-2. Choose the **New** action.
-3. Select the **Capacity Type** (Work Center or Machine Center) and the **Capacity No.** of the resource.
-4. In the **Critical Load %** field, specify the maximum percentage of the resource's available capacity that the scheduler can allocate. For example, entering **90** means the scheduler loads the resource to at most 90% of capacity, leaving a 10% buffer.
-5. In the **Dampener (% of Total Capacity)** field, specify a tolerance percentage. This value allows the scheduler to slightly exceed the critical load when it avoids splitting an operation across multiple time slots.
+The **Work Center Task List** page shows all production order routing lines that are currently assigned to a work center. Use this page to see what work is planned for or in progress at a specific work center, and to monitor the timing and capacity allocation for each operation.
 
-When the planning system calculates schedules for production orders, operations on constrained resources are scheduled serially in the nearest available time slot. If the available time slot is too small for the entire operation, the operation is split across multiple slots.
+To open the Work Center Task List:
 
-> [!NOTE]
-> Operations on constrained resources are always planned serially, even if the work center has multiple capacities. For unconstrained resources, multiple capacities can be used in parallel.
+1. Open the **Work Center Card** or **Work Center List** page.
+2. Choose the **Work Center Task List** action (under **Planning**).
 
-To learn more about setting up constrained resources, go to [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md).
+The page shows one line per production order routing operation assigned to the work center, with the following key fields:
+
+| Field | Description |
+|--|--|
+| **Status** | The production order status (Simulated, Planned, Firm Planned, Released, or Finished). |
+| **Prod. Order No.** | The production order number. |
+| **Operation No.** | The operation number from the routing. |
+| **Description** | The description of the operation or the production order. |
+| **Setup Time** / **Run Time** | The expected setup and run times for the operation. |
+| **Wait Time** / **Move Time** | The expected wait and move times after the operation. |
+| **Starting Date/Time** | The scheduled start of the operation. |
+| **Ending Date/Time** | The scheduled end of the operation. |
+| **Send-Ahead Quantity** | The quantity to send to the next operation before this operation completes the full lot. |
+| **Concurrent Capacities** | The number of machines or people allocated to this operation. |
+
+Use the Work Center Task List to quickly identify scheduling conflicts, overloaded time periods, or gaps between operations at a work center.
+
+> [!TIP]
+> You can also access the task list from the **Work Center Calendar Matrix** page, which provides a graphical overview of capacity allocation across multiple work centers and time periods.
 
 ## Related information  
 [Manufacturing](production-manage-manufacturing.md)

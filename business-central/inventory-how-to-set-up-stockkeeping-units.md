@@ -31,10 +31,6 @@ To create several SKUs for an item, use the **Create Stockkeeping Unit** batch j
 > [!NOTE]  
 > The information on the **Stockkeeping Unit** card has priority over the **Item** card.
 
-> [!IMPORTANT]
-> If the SKU is supplied through production, go to the **Manufacturing Setup** page and turn on the **Load SKU Cost on Manufacturing** toggle. Otherwise, the **Standard Cost** field isn't used when invoicing and adjusting the actual cost of the produced item. Instead, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value in the **Standard Cost** field on the item, and calculates variances against the cost shares of that item.<br><br>
-> After you assign production BOMs and routings to SKUs, run the **Calc. Production Std. Cost** action on the **Stockkeeping Unit Card** page to roll up the component and capacity costs. Subassemblies use information from items. To learn more about standard costs, go to [About Calculating Standard Cost](finance-about-calculating-standard-cost.md). To learn more about manufacturing fields on SKUs, go to [Manufacturing fields on stock keeping units](#manufacturing-fields-on-stock-keeping-units).
-
 ## Manufacturing fields on stock keeping units
 
 When you set the **Replenishment System** on a SKU card to **Prod. Order**, additional manufacturing fields become available. These fields let you override the item card's manufacturing configuration for a specific location or variant combination.
@@ -46,7 +42,7 @@ When you set the **Replenishment System** on a SKU card to **Prod. Order**, addi
 | **Manufacturing Policy** | Overrides the item's manufacturing policy. Choose **Make-to-Stock** for items you produce to replenish inventory, or **Make-to-Order** for items you produce only when a specific demand exists. |
 | **Components at Location** | Determines which location to use when calculating component availability. When blank, [!INCLUDE [prod_short](includes/prod_short.md)] uses the production order's location. |
 | **Lot Size** | Specifies the lot size for standard cost calculation on the routing's setup time proration. This field overrides the item card's lot size for the SKU location. |
-| **Standard Cost** | Specifies the standard cost for the item at this location. When you use the **Load SKU Cost on Manufacturing** toggle in **Manufacturing Setup**, production orders use this value instead of the item card's standard cost. Run **Calc. Production Std. Cost** on the SKU card to roll up costs from the SKU's BOM and routing. |
+| **Standard Cost** | Specifies the standard cost for the item at this location. When you use the **Load SKU Cost on Manufacturing** toggle in **Manufacturing Setup**, production orders use this value instead of the item card's standard cost. If the toggle is off, production orders use the item card's standard cost and calculate variances against the item's cost shares. Run **Calc. Production Std. Cost** on the SKU card to roll up component and capacity costs from the SKU's BOM and routing (subassemblies use costs from their item cards). To learn more, go to [About Calculating Standard Cost](finance-about-calculating-standard-cost.md). |
 | **Unit Cost** | Shows the unit cost for the item at this location. This field is updated when you run **Calc. Production Std. Cost** or adjust costs. |
 
 The SKU-level BOM and routing are used when [!INCLUDE [prod_short](includes/prod_short.md)] creates or refreshes production orders for the item at that location. They're also used by the planning system when it generates planned production orders.

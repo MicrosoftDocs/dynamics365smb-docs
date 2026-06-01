@@ -193,9 +193,6 @@ Requisition worksheet lines contain detailed information about the items that ne
 
 To learn more about planning with locations and transfers, go to [Planning With or Without Locations](production-planning-with-without-locations.md).
 
-> [!TIP]
-> When you're working on the **Requisition Worksheet** or **Planning Worksheet** pages, you can organize the lines by sorting on a column name. This sorting is especially useful on the Planning Worksheet page because you can use it for multilevel production orders. By default, lines are sorted by the **Item No.** field. To group lines for a multilevel order, sort by the **Ref. Order No.** field. Also, the **MPS Order** and **Planning Level** fields can help show the hierarchy of the lines. To learn more, go to [Multilevel production orders](#multilevel-production-orders).
-
 ## Multilevel production orders
 
 When a finished item contains subassemblies that are also produced in-house (each with its own production BOM and routing), the planning system creates *multilevel production orders*. Each level in the BOM hierarchy generates its own planned production order, linked to the parent order.

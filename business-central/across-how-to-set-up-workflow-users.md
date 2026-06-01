@@ -20,16 +20,14 @@ Before you can create approval workflows, you must set up the users who can subm
 
 ## Order of approvals
 
-On the **Workflow User Groups** page, you can specify where a participant engages in an approval workflow by entering a number in the **Sequence No.** field. For example, you can specify that users engage in a sequential order, such as a chain of approvers.
+On the **Workflow User Groups** page, you can specify where a user engages in an approval workflow by entering a number in the **Sequence No.** field. Typically, sequence numbers are sequential for users in a workflow user group. That is, user A has sequence number 1, user B has 2, C has 3, and so on. However, multiple users can have the same sequence number. When that's the case:
 
-Typically, sequence numbers are sequential for users in a workflow user group. That is, user A has sequence number 1, user B has 2, and C has 3. However, multiple users can have the same sequence number. When that's the case:
-
-- If all users in the group have the same sequence number, only one of them needs to approve the request. For example, users A, B, and C, all have the sequence number 1.
-- If some users have the same sequence number, their placement in the hierarchy affects what happens. 
-   - If there are users with a higher sequence number, only one needs to approve the request. For example, user A has the sequence number 1, B and C both have 2, and user D has 3. If B *or* C approve the request, it moves on to D. 
+- If all users in the group have the same sequence number, only one of them needs to approve the request. For example, users A, B, and C, all have the sequence number 1. If A approves the request, B and C don't need to.
+- If some users have the same sequence number, their placement in the hierarchy affects what happens.
+   - If there are users with a higher sequence number, only one needs to approve the request. For example, user A has the sequence number 1, B and C both have 2, and user D has 3. If B *or* C approve the request, it moves on to D.
    - If the users with the same sequence number are last in the hierarchy, however, all of them must approve the request. For example, if user A has the sequence number 1, B has 2, and C and D both have 3, both C and D must approve the request.
 
-## To set up a workflow user group
+## Set up a workflow user group
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflow User Groups**, then choose the related link.  
 2. Choose the **New** action. The **Workflow User Group** page opens.  

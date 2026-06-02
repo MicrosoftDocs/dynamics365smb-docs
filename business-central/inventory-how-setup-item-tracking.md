@@ -18,7 +18,7 @@ Items with serial and lot numbers can be traced both backwards and forward in th
 
 ## Numbers and item tracking
 
-As part of your warehouse processes, you can bundle your stock in packages, boxes, containers, and so on. But in order to keep track of the items, you assign unique numbers as identification. For example, you manufacture and sell a chair that has the item number *1900-S*. Each chair has a serial number, *1001*, but you also bundle four chairs into a lot, *LOT0001*. You also ship the chairs in a container with the package number *CONTAINER010* that also includes *LOT0100* with side tables, and *LOT200* with lamps.  
+As part of your warehouse processes, you can bundle your stock in packages, boxes, containers, and so on. But to keep track of the items, you assign unique numbers as identification. For example, you manufacture and sell a chair that has the item number *1900-S*. Each chair has a serial number, *1001*, but you also bundle four chairs into a lot, *LOT0001*. You also ship the chairs in a container with the package number *CONTAINER010* that also includes *LOT0100* with side tables, and *LOT200* with lamps.  
 
 Depending on your configuration, you use these different numbers to keep track of inventory in [!INCLUDE [prod_short](includes/prod_short.md)] at the various stages of purchasing, sales, warehouse operations, and so on.
 

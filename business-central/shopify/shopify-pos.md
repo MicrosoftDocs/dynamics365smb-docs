@@ -36,7 +36,7 @@ Cash rounding will be added to the sales document as line of type *G/L account*.
 
 Shopify POS allows you to create orders without specifying a customer. Or, if the customer requested a receipt, you can create a simple customer record that only contains an email or phone number.
 
-Shopify Connector requires that a Shopify customer has at least one address. Otherwise, it can't create the customer in [!INCLUDE [prod_short](../includes/prod_short.md)]. Neither **Auto Create Unknown Customer** toggle nor the **Create Customer** action can create a customer.
+Shopify Connector requires that a Shopify customer has at least one address. Otherwise, it can't create the customer in [!INCLUDE [prod_short](../includes/prod_short.md)]. Neither **Auto Create Unknown Customers** toggle nor the **Create Customer** action can create a customer.
 
 Because the **Sell-to Customer No.** and **Bill-to Customer No.** fields are mandatory for processing a Shopify order and creating a sales document, the following options are available:
 

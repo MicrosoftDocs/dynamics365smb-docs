@@ -145,7 +145,7 @@ You can add more templates, and use filters to define conditions under which [!I
    > [!NOTE]
    > The **Table Config Template Code** and **Int. Tbl. Config Template Code** fields show different values depending on the number of templates that you configure for a specific integration table mapping:
    >
-   > * If you configure a single configuration template, the name of the configuration template shows to stay compatible with current capabilities.
+   > * If you configure a single configuration template, the name of the configuration template is displayed to stay compatible with current capabilities.
    > * If you configure multiple configuration templates, the number of configured configuration templates shows.
 
 4. Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[prod_short](includes/cds_long_md.md)].

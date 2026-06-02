@@ -87,7 +87,7 @@ Charles, the service manager, creates service orders for regular maintenance ord
 1. Run the service orders that fulfill the obligations of active service contracts.
 
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Contract Service Orders**, and then choose the related link.
-   2. Enter *01* in the **Starting Date** field. It will be transformed into begining of the month based on work date. 
+   2. Enter *01* in the **Starting Date** field. It will be transformed into beginning of the month based on work date. 
    3. Enter the ending date of the month in the **Ending Date** field.
    4. Choose **OK** to confirm creation of service orders. You receive a confirmation message with the number of created service orders.
 

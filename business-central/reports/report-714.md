@@ -56,7 +56,7 @@ Value entries for each vendor/item combination is summed up to calculate the tot
 Added costs such as item charges are also included in the calculated cost amount.
 
 ### Use cases
-Analyse your vendor purchases per item to manage inventory procurement and improve supply chain processes.
+Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes.
 Assess the relationship between discounts, cost amount, and volume of item purchases.
 
 Please include your data sources and URLs
@@ -88,3 +88,4 @@ Try the report here: [Inventory Vendor Purchases](https://businesscentral.dynami
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

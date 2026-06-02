@@ -47,7 +47,7 @@ You must specify a date range in the date filter and the report will display the
 The report is segmented for vendors in each vendor posting group for easy reconciliation of the ending balance against the general ledger payables account(s).
 
 ### Use cases
-Analyse the closing balance of vendors at the end of the period to reconcile the vendor subledger against the payables account(s) in the general ledger.
+Analyze the closing balance of vendors at the end of the period to reconcile the vendor subledger against the payables account(s) in the general ledger.
 
 Please include your data sources and URLs
  -->
@@ -81,3 +81,4 @@ Try the report here: [Vendor - Trial Balance](https://businesscentral.dynamics.c
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

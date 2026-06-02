@@ -56,7 +56,7 @@ Value entries for each customer/item combination is summed up to calculate the t
 Added costs such as item charges are also included in the calculated sales amount & profit margin.
 
 ### Use cases
-Analyse your customer sales per item to understand sales trends, optimise inventory management and improve marketing efforts.
+Analyze your customer sales per item to understand sales trends, optimize inventory management and improve marketing efforts.
 
 Assess the relationship between discounts, sales amount and volume of item sales.
 

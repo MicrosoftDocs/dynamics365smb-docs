@@ -53,7 +53,7 @@ Displays a list of items on order from vendors. It also shows the expected recei
 Shows each purchase order and the line level breakdown for each item, including information on unfulfilled receipts, applied line/invoice discounts and total amount on order inclusive of VAT. Any lines that have an expected receipt date in the past are included in quantity on back order.
 
 ### Use cases
-Analyse your outstanding purchase orders to understand your expected purchase volume grouped by item.
+Analyze your outstanding purchase orders to understand your expected purchase volume grouped by item.
 
 Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
 
@@ -91,3 +91,4 @@ Try the report here: [Inventory Purchase Orders](https://businesscentral.dynamic
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

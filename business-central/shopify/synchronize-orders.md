@@ -73,6 +73,11 @@ Specify how you process returns and refunds:
 * **Import Only** specifies that you import information, but you manually create the corresponding credit memo.
 * **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Documents** toggle.
 
+When **Auto Create Sales Document** is selected, the **Process Returns as** field on the **Shopify Shop Card** controls whether the connector creates a sales credit memo or a sales return order. The created document is automatically released after the lines are populated, regardless of the **Auto Release Sales Orders** setting on the shop card.
+
+> [!NOTE]
+> The connector can only create the sales document if the original Shopify order was already processed into a [!INCLUDE [prod_short](../includes/prod_short.md)] sales document. If the original order hasn't been processed yet, the refund is imported but the sales document creation is skipped and an error is recorded on the refund.
+
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
 You can use the original return location from Shopify for refunds and returns. The location helps ensure that locations are accurate on credit memos, which reduces manual adjustments and streamlines the returns process.

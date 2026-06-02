@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 5430,
-ms.date: 03/18/2026
+ms.date: 06/02/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -30,14 +30,14 @@ Another goal of the planning system is to ensure that the inventory doesn't grow
 
 Anticipated and actual customer demand, and inventory reordering parameters, drive the planning system. Running the planning calculation results in suggestions for specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take for possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
-The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
+The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item lead time (purchased items). Planned order release quantities are based on the planning calculation, and the parameters set on the individual items affect them.  
 
 > [!TIP]
 > The planning system relies on how your organization uses locations. To learn more, go to [Planning With or Without Locations](production-planning-with-without-locations.md).
 
 ## Planning with manual transfer orders
 
-In the **Replenishment System** field on a SKU card, you can set up the planning system to create transfer orders to balance supply and demand across locations.  
+In the **Replenishment System** field on a SKU, you can set up the planning system to create transfer orders to balance supply and demand across locations.  
 
 In addition to such automatic transfer orders, you might need to move inventory quantities to another location, irrespective of existing demand. You can manually create a transfer order for the quantity to move. To ensure that the planning system doesn't try to manipulate this manual transfer order, you must set the **Planning Flexibility** on the transfer lines to **None**.  
 
@@ -45,9 +45,9 @@ Contrarily, if you do want the planning system to adjust the transfer order quan
 
 ## Planning parameters
 
-The planning parameters control when, how much, and how to replenish based on the various settings on the item card (or stockkeeping unit - SKU), and the inventory and manufacturing setups.  
+The planning parameters control when, how much, and how to replenish based on the various settings on the item (or stockkeeping unit - SKU), and the inventory and manufacturing setups.  
 
-The following planning parameters exist on the item or SKU card:  
+The following planning parameters exist on the item or stockkeeping unit (SKU):  
 
 - Dampener Period  
 - Dampener Quantity  
@@ -64,7 +64,7 @@ The following planning parameters exist on the item or SKU card:
 - Assembly Policy  
 - Manufacturing Policy  
 
-The following order modifiers exist on the item or SKU card:  
+The following order modifiers exist on the item or SKU:  
 
 - Minimum Order Quantity  
 - Maximum Order Quantity  
@@ -121,7 +121,7 @@ Any document lines with due dates before the planning starting date are consolid
 
 The exception warning displays if the projected available inventory drops below the safety stock quantity.
 
-The planning system suggests a supply order to meet the demand on its due date. The warning text states the item's safety stock quantity and the date on which it's violated.
+The planning system suggests a supply order to meet the demand on its due date. The warning text states the item's safety stock quantity and the date on which it was violated.
 
 Violating the safety stock level is considered as an exception because it shouldn't occur if the reorder point is set correctly.
 
@@ -140,20 +140,20 @@ The attention warning displays in two situations:
 
 ### Missing SKU Planning Policy
 
-Two fields on the **Location Card** give you per-location control over SKU-related behavior during supply planning and SKU creation.
+Two fields on the **Location Card** page give you per-location control over SKU-related behavior during supply planning and SKU creation.
 
-When the planning system detects demand at a location, it checks whether a SKU exists for the item at that location. If a SKU exists, the item is planned according to planning parameters on the SKU card. 
+When the planning system detects demand at a location, it checks whether a SKU exists for the item at that location. If a SKU exists, the item is planned according to planning parameters on the SKU.
 
 The **Missing SKU Planning Policy** field on the **Location Card** page lets you choose what happens when no SKU exists. You can preserve the original behavior, use the item card parameters instead, or skip planning entirely for that location.
 
 ### Missing SKU Planning Policy
 
-When the planning system detects demand at a location, it checks for a SKU in the following sequence. The **Missing SKU Planning Policy** field determines what happens at step 2 when no SKU exists. If it finds a SKU, the item is planned according to planning parameters on the SKU card. This is the same for all three policy values. If it doesn't find a SKU, it checks the **Missing SKU Planning Policy** field on the demand location. What happens next depends on the policy value, as described in the following table.
+When the planning system detects demand at a location, it checks for a SKU in the following sequence. The **Missing SKU Planning Policy** field determines what happens at step 2 when no SKU exists. If it finds a SKU, the item is planned according to planning parameters on the SKU, which is the same for all three policy values. If it doesn't find a SKU, it checks the **Missing SKU Planning Policy** field on the demand location. What happens next depends on the policy value, as described in the following table.
 
 | Policy value | System behavior |
 |---|---|
-|Minimal (default) | This policy preserves the existing behavior described in [Planning with or without locations](/dynamics365/business-central/production-planning-with-without-locations):<br><br>- If the **Components at Location** field in **Manufacturing Setup** equals the demand location, the item is planned according to planning parameters on the item card.<br>- If **Components at Location** differs from the demand location and the **Reordering Policy** on the item card is **Order**, the item is planned according to planning parameters on the item card. Items using the reordering policy **Order** continue to use the policy and the other settings.<br>- Otherwise, the item is planned according to the minimal alternative where the **Reordering Policy** is set to **Lot-for-Lot**, **Include Inventory** is **Yes**, all other planning parameters are empty. |
-|Item Card| The item is planned according to planning parameters on the item card, regardless of the **Components at Location** setting. The system creates a temporary SKU by copying planning parameters from the item for the planning run. It logs an entry on the **Planning Error Log** page, noting that planning parameters were taken from the item card because the SKU doesn't exist. |
+|Minimal (default) | This policy preserves the existing behavior described in [Planning with or without locations](/dynamics365/business-central/production-planning-with-without-locations):<br><br>- If the **Components at Location** field in **Manufacturing Setup** equals the demand location, the item is planned according to planning parameters on the item.<br>- If **Components at Location** differs from the demand location and the **Reordering Policy** on the item card is **Order**, the item is planned according to planning parameters on the item. Items using the reordering policy **Order** continue to use the policy and the other settings.<br>- Otherwise, the item is planned according to the minimal alternative where the **Reordering Policy** is set to **Lot-for-Lot**, **Include Inventory** is **Yes**, all other planning parameters are empty. |
+|Item Card| The item is planned according to planning parameters on the item, regardless of the **Components at Location** setting. The system creates a temporary SKU by copying planning parameters from the item for the planning run. It logs an entry on the **Planning Error Log** page, noting that planning parameters were taken from the item because the SKU doesn't exist. |
 | Don't Plan | The system skips planning for the item at this location entirely, similar to what happens when the **Reordering Policy** field is blank on the item or SKU. It logs an entry on the **Planning Error Log** page, noting that the item wasn't planned because the SKU doesn't exist and the **Missing SKU Planning Policy** is set to **Don't Plan**. |
    
 > [!NOTE]
@@ -195,23 +195,23 @@ To learn more about planning with locations and transfers, go to [Planning With 
 
 ## Multilevel production orders
 
-When a finished item contains subassemblies that are also produced in-house (each with its own production BOM and routing), the planning system creates *multilevel production orders*. Each level in the BOM hierarchy generates its own planned production order, linked to the parent order.
+When a finished item contains subassemblies that are also produced in-house (each with its own production BOM and routing), the planning system creates multilevel production orders. Each level in the BOM hierarchy generates its own planned production order, linked to the parent order.
 
 ### How multilevel planning works
 
-1. **Top-level demand** — A sales order or forecast creates demand for the finished item.
-2. **Planning run** — When you run **Calculate Regenerative Plan** or **Calculate Net Change Plan** on the **Planning Worksheet** page, the planning system identifies that the finished item needs production.
-3. **BOM explosion** — The system reads the item's production BOM. For each component that has a **Replenishment System** of **Prod. Order**, it creates a separate planned production order at the next BOM level.
-4. **Recursive nesting** — If a component's production BOM contains further produced components, the system repeats the explosion for each level until all components are either purchased items or lowest-level produced items.
-5. **Scheduling** — Each production order is scheduled based on its routing. Lower-level orders are scheduled to finish in time for the parent order to start.
+1. **Top-level demand**: A sales order or forecast creates demand for the finished item.
+2. **Planning run**: When you run the **Calculate Regenerative Plan** or **Calculate Net Change Plan** actions on the **Planning Worksheet** page, the planning system identifies that the finished item needs production.
+3. **BOM explosion**: The system reads the item's production BOM. For each component where the **Replenishment System** field contains **Prod. Order**, it creates a separate planned production order at the next BOM level.
+4. **Recursive nesting**: If a component's production BOM contains further produced components, the system repeats the explosion for each level until all components are either purchased items or lowest-level produced items.
+5. **Scheduling**: Each production order is scheduled based on its routing. Lower-level orders are scheduled to finish in time for the parent order to start.
 
 ### Working with multilevel orders on the Planning Worksheet
 
 After the planning run, the **Planning Worksheet** page shows one line per planned production order. To understand the hierarchy:
 
-- **Ref. Order No.** — Sort by this field to group all orders that belong to the same top-level demand.
-- **Planning Level** — Shows the depth in the BOM hierarchy. Level 0 is the finished item, level 1 is its direct subassemblies, and so on.
-- **MPS Order** — Indicates whether the line is a master production schedule order (top-level demand) or a dependent component order.
+- **Ref. Order No.**: Sort by this field to group all orders that belong to the same top-level demand.
+- **Planning Level**: Shows the depth in the BOM hierarchy. Level 0 is the finished item, level 1 is its direct subassemblies, and so on.
+- **MPS Order**: Indicates whether the line is a master production schedule order (top-level demand) or a dependent component order.
 
 When you run **Carry Out Action Message**, [!INCLUDE [prod_short](includes/prod_short.md)] creates firm planned production orders for all levels. Each production order's component list references the child production orders through the **Supplied by Prod. Order** flow on the **Prod. Order Components** page.
 
@@ -226,15 +226,15 @@ When you run **Carry Out Action Message**, [!INCLUDE [prod_short](includes/prod_
 |--|--|--|--|
 | **Regenerative Plan (MPS/MRP)** | Planning Worksheet | Ongoing production with many items and complex BOM structures | Recalculates the entire plan from scratch for all items (or selected items). Evaluates all demand and supply, and creates action messages to balance them. Use for periodic full planning runs. |
 | **Net Change Plan** | Planning Worksheet | Daily updates after minor changes | Recalculates only items where demand or supply changed since the last planning run. Faster than regenerative but requires a previous full plan as baseline. |
-| **Order Planning** | Order Planning | Make-to-order environments or one-off demand | Manually walk through each unplanned demand line (sales orders, production order components) and decide how to fulfill it. No automatic action messages — you decide item by item. |
-| **Requisition Worksheet** | Requisition Worksheet | Purchasing and transfer replenishment | Calculates replenishment for items with **Purchase** or **Transfer** replenishment system. Useful when separate teams handle purchasing vs. production planning. |
+| **Order Planning** | Order Planning | Make-to-order environments or one-off demand | Manually go through each unplanned demand line (sales orders, production order components) and decide how to fulfill it. No automatic action messages, you decide item by item. |
+| **Requisition Worksheet** | Requisition Worksheet | Purchasing and transfer replenishment | Calculates replenishment for items with **Purchase** or **Transfer** replenishment system. Useful when separate teams handle purchasing versus production planning. |
 
 ### When to use each approach
 
-- **Regenerative Plan** — Run weekly or when significant changes occur (new BOMs, price changes, new items). Ensures a complete, consistent plan.
-- **Net Change Plan** — Run daily to incorporate new sales orders, consumption postings, or other incremental changes without the overhead of a full recalculation.
-- **Order Planning** — Use when you have custom or infrequent orders and want direct control over each fulfillment decision.
-- **Requisition Worksheet** — Use when purchasing is handled by a separate team, or when you want to separate purchase/transfer planning from production planning.
+- **Regenerative Plan**: Run weekly or when significant changes happen, such as new BOMs, price changes, new items, and so on. Ensures a complete, consistent plan.
+- **Net Change Plan**: Run daily to incorporate new sales orders, consumption postings, or other incremental changes without the overhead of a full recalculation.
+- **Order Planning**: Use when you have custom or infrequent orders and want direct control over each fulfillment decision.
+- **Requisition Worksheet**: Use when a separate team handles purchasing, or when you want to separate purchase or transfer planning from production planning.
 
 > [!NOTE]
 > You can combine approaches. For example, run the regenerative plan weekly for production, and use the requisition worksheet daily for purchasing replenishment.

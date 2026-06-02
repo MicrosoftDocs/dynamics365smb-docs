@@ -38,7 +38,7 @@ The link is used when you choose the company in the company hub.
 When you have added your environments, your companies show up automatically. However, if you know that a new company has been added to an environment, you can choose the **Reload all companies** action to refresh the list. Use the same action to refresh data from across your companies.  
 
 > [!TIP]
-> In order to refresh the data in the company hub, you must have access to the data in the companies that the data comes from.
+> To refresh the data in the company hub, you must have access to the data in the companies that the data comes from.
 
 ## Related information
 

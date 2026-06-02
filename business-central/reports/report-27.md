@@ -56,7 +56,7 @@ You can select an Analysis View with a column layout that includes budget figure
 You can select an Analysis View with a cash flow account source. This will show cash flow actuals vs forecast for each dimension level.
 
 ### Use cases
-Analyse your general ledger with dimension totals by building a grouping of dimensions for each permutation of dimension values and calculate a GL balance total for each segment.
+Analyze your general ledger with dimension totals by building a grouping of dimensions for each permutation of dimension values and calculate a GL balance total for each segment.
 This report helps businesses analyze and summarize data by categorizing entries with dimensions such as department, project, or location, providing a clear view of totals for better decision-making.
 
 Please include your data sources and URLs

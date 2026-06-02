@@ -80,7 +80,7 @@ The following image shows this principle.
 
 ## The role of the time bucket
 
-The purpose of the time bucket is to collect demand events within a time period in order to make a joint supply order.  
+The purpose of the time bucket is to collect demand events within a time period to make a joint supply order.  
 
 For reordering policies that use a reorder point, you can define a time bucket. Time buckets help ensure that demands within the same time period are accumulated. The system then checks the effect on projected inventory and whether the reorder point is passed.
 
@@ -266,7 +266,7 @@ Supply orders that are created specifically to meet a reorder point are excluded
 
 The Minimum Order Quantity, Maximum Order Quantity, and Order Multiple order modifiers shouldn't play a significant role when you use the Fixed Reorder Qty. policy. However, the planning system takes them into account:
 
-* Decrease the quantity to the specified maximum order quantity (and create two or more supplies in order to reach the total order quantity)
+* Decrease the quantity to the specified maximum order quantity (and create two or more supplies to reach the total order quantity)
 * Increase the order to the specified minimum order quantity
 * Round up the order quantity to meet a specified order multiple  
 

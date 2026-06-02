@@ -89,7 +89,7 @@ Order priorities are applied to the different types to fulfill the most importan
 
 Demand can also be negative. Treat negative demand as supply. However, unlike typical supply, negative demand is considered fixed supply. The planning system can take it into account, but will not suggest changes to it.  
 
-In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand. However, after a quantity is posted from a supply order the planning system can't change it. The following orders can't be replanned:  
+In general, the planning system considers all supply orders after the planning starting date as subject to change to fulfill demand. However, after a quantity is posted from a supply order the planning system can't change it. The following orders can't be replanned:  
 
 * Released production orders where consumption or output has been posted.  
 * Assembly orders where consumption or output has been posted.  

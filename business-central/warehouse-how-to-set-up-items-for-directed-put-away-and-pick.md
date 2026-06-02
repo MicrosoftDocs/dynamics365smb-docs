@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 ---
 # Set Up Items and Locations for Directed Put-away and Pick
 
-When you set up a warehouse location for directed put-away and pick, you have new functionality available to you to help run the warehouse in the most efficient way possible. In order to make full use of this functionality, you provide additional information about the items, which in turn helps to make the calculations necessary to suggest the most efficient and effective ways to conduct warehouse activities. 
+When you set up a warehouse location for directed put-away and pick, you have new functionality available to you to help run the warehouse in the most efficient way possible. In order to make full use of this functionality, you provide additional information about the items, which in turn helps make the calculations necessary to suggest the most efficient and effective ways to conduct warehouse activities. 
 
 ## To set up an item for directed put-away and pick  
 

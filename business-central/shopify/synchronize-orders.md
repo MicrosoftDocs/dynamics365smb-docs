@@ -20,12 +20,12 @@ Enter a **Currency code** if your online shop uses a different currency than the
 
 You can control whether [!INCLUDE [prod_short](../includes/prod_short.md)] creates sales documents from Shopify orders in the shop currency or in the customer’s checkout (presentment) currency. This gives you full flexibility when working with Shopify Markets or any store that sells in multiple currencies. The **Currency Handling** field lets you choose:
 
-- **Shop currency** (default) 
-- **Presentment currency**
+- **Shop Currency** (default) 
+- **Presentment Currency**
 
-When you select **Presentment currency**, [!INCLUDE [prod_short](../includes/prod_short.md)] uses the currency and amounts that the customer saw and paid during checkout when it creates sales orders and credit memos. The amounts in local currencies are calculated based on the exchange rates defined in [!INCLUDE [prod_short](../includes/prod_short.md)]. [!INCLUDE [prod_short](../includes/prod_short.md)] stores the choice of currency handling on each Shopify order at processing time. 
+When you select **Presentment Currency**, [!INCLUDE [prod_short](../includes/prod_short.md)] uses the currency and amounts that the customer saw and paid during checkout when it creates sales orders and credit memos. The amounts in local currencies are calculated based on the exchange rates defined in [!INCLUDE [prod_short](../includes/prod_short.md)]. [!INCLUDE [prod_short](../includes/prod_short.md)] stores the choice of currency handling on each Shopify order at processing time. 
 
-When you import Shopify orders, [!INCLUDE [prod_short](../includes/prod_short.md)] retrieves both the shop currency and the presentment currency with their amounts. If the Shopify Shop Card is set to **Presentment currency**, sales orders and credit memos use the presentment currency and corresponding amounts. The **Suggest Payments** action also uses presentment currency when applicable. Pages such as Shopify Orders, Order Lines, Shipping Charges, Refunds, Transactions, and Returns display presentment currency fields whenever the order or shop uses presentment currency. Shop currency values remain visible for reference.
+When you import Shopify orders, [!INCLUDE [prod_short](../includes/prod_short.md)] retrieves both the shop currency and the presentment currency with their amounts. If the Shopify Shop Card is set to **Presentment Currency**, sales orders and credit memos use the presentment currency and corresponding amounts. The **Suggest Payments** action also uses presentment currency when applicable. Pages such as Shopify Orders, Order Lines, Shipping Charges, Refunds, Transactions, and Returns display presentment currency fields whenever the order or shop uses presentment currency. Shop currency values remain visible for reference.
 
 Enable **Auto Sync Orders** to receive real-time notifications whenever a new order is created in a Shopify store. When a notification is received, the Connector runs the **Sync Order from Shopify** batch job using **Job Queue Entries**.
 
@@ -41,7 +41,7 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 * **Tip account**.
 * **Cash Rounding Account No.**. Learn more at [Working with Shopify POS](shopify-pos.md#order-handling)
   
-Turn on the **Auto Create Orders** toggle to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] when you import a Shopify order. If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as orders that contain only a gift card or which were already handled in Shopify, you can turn on the **Create Invoices From Orders** toggle then a **Sales Invoice** gets created. That setting can be useful when you delay the posting of a sales document because invoice doesn't affect inventory availability, but the order does.
+Turn on the **Auto Create Sales Documents** toggle to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] when you import a Shopify order. If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as orders that contain only a gift card or which were already handled in Shopify, you can turn on the **Create Invoices From Orders** toggle then a **Sales Invoice** gets created. That setting can be useful when you delay the posting of a sales document because invoice doesn't affect inventory availability, but the order does.
 
 If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] adds sales lines of the type **Comment** with the Shopify order number.
 
@@ -71,18 +71,23 @@ Specify how you process returns and refunds:
 
 * **Blank** specifies that you don't import and process returns and refunds.
 * **Import Only** specifies that you import information, but you manually create the corresponding credit memo.
-* **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
+* **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Documents** toggle.
+
+When **Auto Create Sales Document** is selected, the **Process Returns as** field on the **Shopify Shop Card** controls whether the connector creates a sales credit memo or a sales return order. The created document is automatically released after the lines are populated, regardless of the **Auto Release Sales Orders** setting on the shop card.
+
+> [!NOTE]
+> The connector can only create the sales document if the original Shopify order was already processed into a [!INCLUDE [prod_short](../includes/prod_short.md)] sales document. If the original order hasn't been processed yet, the refund is imported but the sales document creation is skipped and an error is recorded on the refund.
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
 You can use the original return location from Shopify for refunds and returns. The location helps ensure that locations are accurate on credit memos, which reduces manual adjustments and streamlines the returns process.
 
-To turn on the feature, on the **Shopify Shop Card** page, in the **Return Location Priority** field choose **Original > Default Location**.
+To turn on the feature, on the **Shopify Shop Card** page, in the **Return Location Priority** field choose **Original -> Default Location**.
 
 The **Return Location Priority** field offers the following options:
 
 * **Default Return Location**: This default option uses the value from the **Default Return Location** field when creating sales credit memos.
-* **Original > Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
+* **Original -> Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
 
 Some amounts associated with a refund post directly to the G/L account. Choose the G/L accounts that you want to use for specific transaction types:
 
@@ -242,7 +247,7 @@ You can also mark an order as paid, which is useful in a B2B scenario where paym
 
 ## Create sales documents in Business Central
 
-If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, fix the problems, and then create the sales order again.
+If the **Auto Create Sales Documents** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, fix the problems, and then create the sales order again.
 
 ### To create sales documents
 

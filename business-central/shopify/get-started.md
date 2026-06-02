@@ -102,11 +102,11 @@ This configuration *isn't* recommended for testing because the Shopify Connector
 
 If you must use this configuration, we recommend that you review and probably disable the following settings:
 
-- **Auto Create Unknown Item** to not create items.
-- **Shopify can update items** to not update mapped items.
-- **Auto Create Unknown Customer** to not create customers and contacts.
-- **Shopify can update customers** to not update existing customers.
-- **Auto Create Sales Order** to not create sales orders and sales invoices.
+- **Auto Create Unknown Items** to not create items.
+- **Shopify Can Update Items** to not update mapped items.
+- **Auto Create Unknown Customers** to not create customers and contacts.
+- **Shopify Can Update Customers** to not update existing customers.
+- **Auto Create Sales Documents** to not create sales orders and sales invoices.
 
 For more information, see [Restoring an Environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 

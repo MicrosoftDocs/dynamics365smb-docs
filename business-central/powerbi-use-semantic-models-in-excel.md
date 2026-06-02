@@ -128,7 +128,7 @@ To open the Power Pivot model, choose to **Data** > **Data Tools** > **Data Mode
 
 :::image type="content" source="media\powerbi\excel\excel-manage-data-model.png" alt-text="Screenshot of Excel showing steps to Manage Data Model in Power Pivot. " lightbox="media\powerbi\excel\excel-manage-data-model.png":::
 
-Review the created relationship in the Modelling view of Power Pivot. Create a Pivot Table to utilise the connection between the two tables.
+Review the created relationship in the Modelling view of Power Pivot. Create a Pivot Table to utilize the connection between the two tables.
 
 :::image type="content" source="media\powerbi\excel\excel-create-pivot-from-power-pivot.png" alt-text="Screenshot of Excel showing steps to create Pivot Table from Power Pivot." lightbox="media\powerbi\excel\excel-create-pivot-from-power-pivot.png":::
 

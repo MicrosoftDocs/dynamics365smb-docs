@@ -50,7 +50,7 @@ Dimension levels are specified by selecting an analysis view configured with dim
 This report can be based on analysis view entries from either sales, purchase or inventory areas.
 
 ### Use cases
-Analyse your item entries with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of value entries for each segment
+Analyze your item entries with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of value entries for each segment
 
 Please include your data sources and URLs
 

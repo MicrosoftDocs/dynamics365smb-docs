@@ -161,7 +161,7 @@ When you refresh the production order, the flushing method is copied from the it
 
 ### Production output  
 
-You can track the time spent working on a production order and the quantity produced. This information can help you determine the costs of production. Also, manufacturers who use a standard costing system might want to record actual information in order to help them develop better standards.  
+You can track the time spent working on a production order and the quantity produced. This information can help you determine the costs of production. Also, manufacturers who use a standard costing system might want to record actual information to help them develop better standards.  
 
 Output can be processed through [output journals](production-how-to-post-output-quantity.md), but can also be recorded automatically. [!INCLUDE [prod_short](includes/prod_short.md)] copies the flushing method from the machine center or work center card to the production order routing when refreshing. As with material consumption, there are **Manual**, **Forward**, and **Backward** reporting methods for output.
 

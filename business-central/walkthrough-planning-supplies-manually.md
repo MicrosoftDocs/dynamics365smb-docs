@@ -110,7 +110,7 @@ The **Order Planning** page can be accessed from several different locations:
     >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
 
 6.  Choose the **Supply From**  field.  
-7.  On the **Item Vendor Catalogue** page, choose the **New** action, and then select vendor **30000**.  
+7.  On the **Item Vendor Catalog** page, choose the **New** action, and then select vendor **30000**.  
 8.  Choose the **OK** button to return to the **Order Planning** page.  
 9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
 
@@ -229,3 +229,4 @@ The **Order Planning** page can be accessed from several different locations:
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
+

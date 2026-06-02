@@ -42,7 +42,7 @@ With the budget structure set up for projects, creating a project is straightfor
 
 ### Copying a project
 
- This part of the walkthrough focuses on how to copy part or all of a project in order to reduce manual data entry and improve accuracy.
+ This part of the walkthrough focuses on how to copy part or all of a project to reduce manual data entry and improve accuracy.
 
 - Copy part of a project to a new project.  
 - Copy project-specific prices.  
@@ -101,7 +101,7 @@ To prepare for this walkthrough, you must add Tricia as a resource.
 
 6. Close the page.
 
-In the next procedure, you create a project journal batch for Tricia in order to post their usage.  
+In the next procedure, you create a project journal batch for Tricia to post their usage.  
 
 ### To create a project journal batch  
 

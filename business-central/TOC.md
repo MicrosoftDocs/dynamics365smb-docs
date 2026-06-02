@@ -528,6 +528,7 @@ ms.service: dynamics-365-business-central
 #### [Close open item ledger entries that result from fixed application in the item journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Report inventory costs and reconcile with the general ledger
 ##### [Work with inventory periods](finance-how-to-work-with-inventory-periods.md) 
+##### [Restrict backdated cost postings](finance-restrict-backdated-cost-postings.md)
 <!-- line above: moved into folder as this is more "close period" task -->
 ##### [Adjust item costs](inventory-how-adjust-item-costs.md) 
 <!-- line above: moved into folder as this is more "close period" task --> 

@@ -154,6 +154,12 @@ The Merchant imports a sales order to [!INCLUDE [prod_short](../includes/prod_sh
 
 The Merchant processes the imported Shopify transactions in the **Transactions** list. They apply filters, and then use the **Suggest Shopify Payments** action to transfer the transactions to the general journal. Alternatively, the Merchant can use the **Suggest Shopify Payments** action on the **Cash Receipt Journal** page.
 
+> [!NOTE]
+> The **Suggest Shopify Payments** action only processes transactions of type **Capture**, **Sale**, and **Refund** with a status of **Success**. Transactions of type **Authorization** and **Void** are always excluded, regardless of filters applied in the **Transactions** list.
+
+> [!TIP]
+> On the report request page, you can turn on the **Include Order No. in Description** toggle to use the Shopify order number in journal line descriptions instead of the internal order ID. Enabling this option might decrease performance because it requires extra lookups to resolve order numbers.
+
 The Merchant reviews the lines, and notices that the applied documents are selected automatically. They post the journal, and [!INCLUDE [prod_short](../includes/prod_short.md)] creates a customer ledger entry of the type **Payment** and applies it to the corresponding entry of the type **Invoice**.
 
 > [!NOTE] 

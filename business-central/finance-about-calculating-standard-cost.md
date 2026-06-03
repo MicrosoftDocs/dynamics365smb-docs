@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: concept-article
 ms.search.form: 5841,
 ms.author: bholtorf
-ms.date: 07/01/2025
+ms.date: 06/02/2026
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -29,7 +29,7 @@ Because the standard cost of a produced or assembled item can consist of multipl
 
 The accounting tasks for an item-processing company using standard costing are to:  
 
-- Estimate a standard cost of the finished item and set it up on the item card.  
+- Estimate a standard cost of the finished item and set it up on the item.  
 - Record and allocate the actual cost of the key cost elements and to account for variances.  
 
 To determine the direct cost of a finished item, total all component costs. An assembled or produced item can include subassemblies that also consist of multiple components.  
@@ -47,7 +47,7 @@ Material costs are costs that are associated with subassemblies and purchased ra
 - Direct material cost represents an invoiced amount for purchased raw materials or the processing cost of a subassembly.  
 - Indirect material cost, or *overhead*, can represent elements such as inventory carrying costs for the finished item.  
 
-The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you selected for the specified item. You set up cost information for either costing method on the item card. To learn more, go to [Register New Items](inventory-how-register-new-items.md).
+The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you selected for the specified item. You set up cost information for either costing method on the item. To learn more, go to [Register New Items](inventory-how-register-new-items.md).
 
 The cost of scrap (production only) is another factor to consider when you calculate the total material cost. Scrapping raw materials when you assemble or produce an item often causes an increase in the quantity of components that are required to produce the item. In turn, this increases the material cost of the components that you consume when you produce a parent item. You set up scrap cost for materials on either the production BOM or routing.  
 
@@ -87,13 +87,36 @@ On a single-level basis, this value is the labor cost that is required to produc
 
 Subcontractor costs are the costs that are associated with services that are provided by a company's outside vendors or subcontractors. Similar to material and capacity, subcontractor costs can consist of both direct and overhead amounts. Direct subcontractor cost represents the actual charge for each unit of services that is provided. For example, overhead subcontractor cost can represent freight and handling costs that the company incurs with a subcontracted order.  
 
-Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work center card that represents the subcontracting operation.  
+Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work center that represents the subcontracting operation.  
+
+### Noninventory item costs
+
+Production BOMs can include noninventory items, such as consumables, services, or miscellaneous charges that are consumed during production but don't carry inventory. By default, [!INCLUDE [prod_short](includes/prod_short.md)] doesn't include the cost of noninventory items in the standard cost of the produced item.
+
+To include noninventory item costs in manufacturing, go to the **Manufacturing Setup** page and turn on the **Include Non-Inventory Items to Produced Items** toggle. When the toggle is enabled:
+
+- Noninventory item costs appear as extra value entries linked to the output item ledger entry.
+- The value entry type is **Direct Cost - Non Inventory**.
+- Variances between expected and actual noninventory costs post to a dedicated **Material Non-Inventory Variance Account** in the general ledger.
+- The **BOM Cost Shares** page shows **Rolled-up Material Non-Inventory Cost** and **Single-level Material Non-Inventory Cost** fields so you can review how noninventory items contribute to the total cost.
+
+To set up the general ledger accounts, go to the **General Posting Setup** page and fill in the **Direct Cost Non-Inventory Applied Account** and the **Material Non-Inventory Variance Account** fields for the relevant business and product posting group combinations.
+
+> [!NOTE]
+> Noninventory item costs don't apply to assembly orders, only production orders.
 
 ## Populate standard cost
 
-You can set standard cost manually or you can calculate the item's standard cost from the **Item card** page. Choose the **Production** group, then choose the **Calc. Production Std Cost** action to update cost of production items or choose the **Assembly** group, then choose the **Calc. Assembly Std. Cost** action to update cost of assembly item. The actions consolidate and roll up the component and capacity costs to calculate the total assembly or manufacturing cost of the items.
+You can set standard cost manually or you can calculate the item's standard cost from the **Item Card** page. Choose the **Production** group, then choose the **Calc. Production Std Cost** action to update cost of production items or choose the **Assembly** group, then choose the **Calc. Assembly Std. Cost** action to update cost of assembly item. The actions consolidate and roll up the component and capacity costs to calculate the total assembly or manufacturing cost of the items.
 
-To calculate the unit cost of an assembly or production BOM, the parent item and its component items must use the Standard costing method. Resources in the BOM roll-up if they have a unit cost defined on the item, resource, or workcenter. Resources don't use cost defined on stockkeeping unit (SKU).
+When you run **Calc. Production Std. Cost**, you choose one of the following calculation levels:
+
+- **Single Level**: Calculate the cost of the finished item by summing up the direct costs of its components and capacity from the item's production BOM and routing. Use this level when component costs are already correct and you only need to update the parent item.
+- **All Levels**: Recalculate costs for the entire BOM structure. Starts from the lowest-level purchased or produced items and rolls costs up through every intermediate subassembly to the top-level item. Use this level after changes to purchased item costs or to routing rates that affect multiple BOM levels.
+
+The all-levels calculation processes items in bottom-up order. Purchased raw materials and lowest-level subassemblies are evaluated first, then their costs feed into the next BOM level, until the top-level finished item cost is complete. This process ensures that each level reflects the latest component and capacity costs.
+
+To calculate the unit cost of an assembly or production BOM, the parent item and its component items must use the Standard costing method. Resources in the BOM roll-up if they have a unit cost defined on the item, resource, or work center. Resources don't use cost defined on stockkeeping unit (SKU).
 
 You can define a production BOM or routing in the SKU, which can be useful if the SKU represents a variant that requires a different set of components or different location. For example, where different production equipment is available. These changes might affect standard cost. You can use the **Calc. Production Std. Cost** action on the **Stockkeeping Unit Card** page to calculate standard cost. Subassemblies use information from items, and not the cost defined on stockkeeping unit. To enable this feature, go to the **Manufacturing Setup** page and turn on the **Load SKU Cost on Manufacturing** toggle.
 
@@ -198,7 +221,7 @@ This batch job only creates suggestions. It doesn't implement the suggested chan
  
 ### Implement standard cost change
 
-Updates the changes in the standard cost in the **Item** table with the ones in the **Standard Cost Worksheet** page. The standard cost change suggestions can be created with the **Suggest Item Standard Cost** and/or the **Suggest Work/Mach Ctr Std Cost** batch job, and they can also be modified. The contents of all the fields in the standard cost change suggestions are transferred. When you implement suggestions of changes to standard costs, you can see them on the item card and/or on the work/machine center cards. A revaluation journal is also created for you to update the value of existing stock.
+Updates the changes in the standard cost in the **Item** table with the ones in the **Standard Cost Worksheet** page. The standard cost change suggestions can be created with the **Suggest Item Standard Cost** and/or the **Suggest Work/Mach Ctr Std Cost** batch job, and they can also be modified. The contents of all the fields in the standard cost change suggestions are transferred. When you implement suggestions of changes to standard costs, you can see them on the item and/or on the work/machine center cards. A revaluation journal is also created for you to update the value of existing stock.
 
 #### Options
 

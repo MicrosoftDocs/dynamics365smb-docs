@@ -167,7 +167,9 @@ If you don't want the capacities of work centers to contribute to the total capa
 
 ## To set up a capacity constrained machine or work center
 
-You must set up the production resources that you regard as critical to accept a finite load instead of the default infinite load. A capacity-constrained resource can be a work center or machine center that's a bottleneck and would like to establish a limited, finite load for.
+By default, [!INCLUDE [prod_short](includes/prod_short.md)] uses *infinite capacity scheduling*. The system schedules operations based on lead times and routing sequences, but assumes that each resource has unlimited capacity. This approach is fast and simple, but can result in schedules where multiple operations overlap on the same resource, leading to overloaded work centers.
+
+For bottleneck resources, you can switch to *finite capacity scheduling*. You must set up the production resources that you regard as critical to accept a finite load instead of the default infinite load. A capacity-constrained resource can be a work center or machine center that's a bottleneck and would like to establish a limited, finite load for.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] doesn't support detailed shop floor control. It plans for a feasible utilization of resources by providing a rough-cut schedule, but doesn't automatically create and maintain detailed schedules based on priorities or optimization rules.
 
@@ -177,15 +179,20 @@ When you plan with capacity-constrained resources, [!INCLUDE [prod_short](includ
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Capacity Constrained Resources**, and then choose the related link.
 2. Choose the **New** action.
-3. Fill in the fields as necessary.
+3. Select the **Capacity Type** (Work Center or Machine Center) and the **Capacity No.** of the resource.
+4. In the **Critical Load %** field, specify the maximum percentage of the resource's available capacity that the scheduler can allocate. For example, entering **90** means the scheduler loads the resource to at most 90% of capacity, leaving a 10% buffer.
+5. In the **Dampener (% of Total Capacity)** field, specify a tolerance percentage. This value allows the scheduler to slightly exceed the critical load when it avoids splitting an operation across multiple time slots.
 
 > [!NOTE]
 > Operations on work centers or machine centers that are set up as constrained resources are always planned serially. This planning means that if a constrained resource has multiple capacities, those capacities must be planned in sequence. You can't plan them in parallel like they would be if the work or machine center wasn't set up as a constrained resource. For a constrained resource, the **Capacity** field on the work center or machine center is greater than **1**.
 
 > In case of operation splitting, the setup time is only assigned one time because it's assumed that some manual adjustment is done to optimize the schedule.
 
+To learn more about viewing capacity and load, go to [View Load on Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md).
+
 ## Related information
 
+[Create Routings](production-how-to-create-routings.md)  
 [Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

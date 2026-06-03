@@ -1,5 +1,5 @@
 ---
-title: Enable embedded Verifactu mode in Spain [ES]
+title: Enable embedded VERIFACTU mode [ES]
 description: Enable real-time invoice reporting to AEAT with Verifactu in Business Central, ensuring QR code, hash chaining, and digital signature compliance.
 author: altotovi
 ms.topic: article
@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Enable embedded Verifactu mode in Spain
+# Enable embedded VERI*FACTU mode in Spain
 
-Verifactu is Spain’s new mandatory e-invoicing standard, requiring businesses to report invoices in real time to the Spanish Tax Agency (AEAT) using digital signatures, hash chaining, and QR code verification for authenticity and traceability. This feature enables Spanish companies to submit invoices automatically to AEAT, embed official QR codes, and maintain legal audit trails, helping prevent fraud and streamline auditing.
+VERI*FACTU is Spain’s new mandatory e-invoicing standard, requiring businesses to report invoices in real time to the Spanish Tax Agency (AEAT) using digital signatures, hash chaining, and QR code verification for authenticity and traceability. This feature enables Spanish companies to submit invoices automatically to AEAT, embed official QR codes, and maintain legal audit trails, helping prevent fraud and streamline auditing.
 
-Users can activate Verifactu mode by using a dedicated toggle, which ensures full compliance with Spanish e-invoicing regulations and prevents **SII** mode from being enabled at the same time.
+Users can activate VERI*FACTU mode by using a dedicated toggle, which ensures full compliance with Spanish e-invoicing regulations and prevents **SII** mode from being enabled at the same time.
 
-Once the setup for Verifactu is complete, any invoices posted (**Posted Sales Invoice**) in Business Central are automatically sent to the AEAT for clearance through the **E-Document** framework.
+Once the setup for VERI*FACTU is complete, any invoices posted (**Posted Sales Invoice**) in Business Central are automatically sent to the AEAT for clearance through the **E-Document** framework.
 
 After the invoice is successfully validated, the system incorporates the official QR code issued by the AEAT directly onto the invoice layout, allowing users to print or email invoices that are legally compliant and easily verifiable by customers.
 
@@ -40,7 +40,7 @@ To enable digital signing, perform the following steps:
 
    <!--:::image type="content" source="../../media/spanish-verifactu/my-settings.png" alt-text="Screenshot that shows my settings window.":::-->
 
-## Set up Verifactu
+## Set up VERI*FACTU
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Verifactu Setup**, and then select the related link. The **Verifactu Setup** page displays.
 1. Upload your certificate in the **Certificate Code** field.
@@ -119,7 +119,7 @@ If it's not set up already, perform the following steps:
 
 ## Example scenario - Set up sales invoice for customers and post it
 
-The following steps are based on a use case scenario where a sales invoice is created for the customer Relecloud and then posted, which triggers the Verifactu process to send the invoice to AEAT and generate the QR code.
+The following steps are based on a use case scenario where a sales invoice is created for the customer Relecloud and then posted, which triggers the VERI*FACTU process to send the invoice to AEAT and generate the QR code.
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then select the related link. The **Sales Invoice** page displays.
 1. In the **Posting Date** field, enter **TODAY**.

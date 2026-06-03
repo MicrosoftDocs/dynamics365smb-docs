@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
-ms.date: 03/10/2026
+ms.date: 05/28/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -29,7 +29,7 @@ Before you can create a routing, the following setups must be in place:
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Type** field, select one of the following options:
    - **Serial** to calculate the production routing according to the value in the **Operation No.** field.  
-   - Select **Parallel** to calculate the operations according to the value in the **Next Operation No.** field.  
+   - Select **Parallel** to calculate the operations according to the value in the **Next Operation No.** field. To learn more, go to [Set up parallel operations in a routing](#set-up-parallel-operations-in-a-routing).  
 5. To edit the routing, set the **Status** field to **New** or **Under Development**.  
 
     Proceed to fill in the routing lines.
@@ -115,9 +115,102 @@ The version principle enables you to manage several versions of a routing. The s
 
 7. When you're done setting up the routing version, in the **Status** field, choose **Certified**.
 
+## Time fields on routing lines
+
+Each routing operation has four time fields that together determine the total duration of the operation and the production lead time. All time fields use the unit of measure specified in the corresponding **Unit of Measure Code** field (for example, **Setup Time Unit of Meas. Code**).
+
+| Time field | Purpose | Scaling |
+|--|--|--|
+| **Setup Time** | One-time preparation before work starts (for example, tool changes, machine calibration). | Fixed per operation. Doesn't scale with quantity. |
+| **Run Time** | Processing time per unit produced. | Scales with quantity and lot size. |
+| **Wait Time** | Queue or curing time after run time completes (for example, drying, cooling). | Fixed per operation. Doesn't consume work center capacity. |
+| **Move Time** | Transit time to move parts to the next work center. | Fixed per operation. Doesn't consume work center capacity. |
+
+The scheduling sequence for each operation is: 
+
+1. Setup Time
+1. Run Time
+1. Wait Time
+1. Move Time
+
+Wait time and move time don't consume capacity on the work center calendar, so they extend the elapsed duration but not the work center load.
+
+> [!NOTE]
+> The **Queue Time** field on the work center card adds a buffer before an operation starts. Together with the four routing line fields, queue time helps provide an accurate overall production lead time.
+
+## Send-ahead quantity
+
+The **Send-Ahead Quantity** field on a routing line enables lot overlapping between operations. When you specify a send-ahead quantity, the next operation can start processing a partial lot before the current operation finishes the full quantity.
+
+For example, if operation 10 processes 100 units with a send-ahead quantity of 25, operation 20 can begin after operation 10 finishes the first 25 units. This approach reduces the total production lead time because operations run partially in parallel.
+
+### How send-ahead quantity works
+
+- If the send-ahead quantity is **greater than or equal to** the total quantity, each operation must finish before the next one starts (standard sequential processing).
+- If the send-ahead quantity is **less than** the total quantity, the scheduler calculates when the next operation can start based on the partial lot completion time.
+- Send-ahead quantity works together with the time fields (setup, run, wait, and move) to determine exact overlapping schedules.
+
+> [!TIP]
+> Use send-ahead quantity when consecutive operations use different work centers and the partial lot can physically move to the next station. If both operations share the same work center, overlapping might not be practical.
+
+## Routing scrap
+
+Routing lines include two scrap fields that affect both scheduling and costing:
+
+| Field | Description |
+|--|--|
+| **Scrap Factor %** | A percentage of extra quantity that must be processed at this operation to compensate for expected scrap. |
+| **Fixed Scrap Quantity** | An absolute number of extra units to process at this operation, regardless of lot size. |
+
+### How routing scrap differs from BOM scrap
+
+- **BOM scrap** (on production BOM lines) increases the component quantity needed. It answers: *How much more material do I need?*
+- **Routing scrap** (on routing lines) increases the quantity processed at each operation. It answers: *How many extra units must I run through this operation?*
+
+Both scrap types are cumulative across operations. The formula for calculating the input quantity at an operation is:
+
+$$\text{Input Qty} = \text{Output Qty} \times (1 + \text{Scrap Factor \%}) + \text{Fixed Scrap Qty}$$
+
+[!INCLUDE [prod_short](includes/prod_short.md)] accumulates routing scrap from the last operation backward to the first. The **Scrap Factor % (Accumulated)** and **Fixed Scrap Qty. (Accum.)** fields on the production order routing line show the combined scrap across all subsequent operations.
+
+> [!NOTE]
+> Routing scrap also affects standard cost calculations. The capacity cost for each operation is scaled by the accumulated scrap factor, which increases the standard cost of the produced item.
+
 ## Work with uncertified production BOMs and routings
 
 [!INCLUDE [production-turn-off-uncertified-notifications](includes/production-turn-off-uncertified-notifications.md)]
+
+## Set up parallel operations in a routing
+
+When you set a routing's **Type** to **Parallel**, you use the **Next Operation No.** field to define how operations flow. This arrangement lets multiple operations run at the same time, converging at a later operation. Use parallel routings when independent tasks can happen simultaneously, such as preparing different subcomponents before a final assembly step.
+
+### How the Next Operation No. field controls the flow
+
+In a parallel routing, the **Next Operation No.** field on each routing line tells [!INCLUDE [prod_short](includes/prod_short.md)] which operation to schedule after the current one completes. If you leave **Next Operation No.** blank, the operation is treated as the last step in the routing.
+
+For example, consider a routing where operation 10 splits into two parallel branches (operations 20 and 30 in the following table) that merge at operation 40:
+
+| Operation No. | Description | Next Operation No. |
+|--|--|--|
+| 10 | Prepare raw material | 20\|30 |
+| 20 | Machine part A | 40 |
+| 30 | Machine part B | 40 |
+| 40 | Final assembly | *(blank)* |
+
+In this example:
+
+- Operation 10 has **Next Operation No.** set to **20\|30**, which means that both operations 20 and 30 can start after operation 10 finishes.
+- Operations 20 and 30 each point to operation 40, so operation 40 starts only after both branches complete.
+- Operation 40 has a blank **Next Operation No.** because it's the last operation.
+
+Use the pipe character (\|) in the **Next Operation No.** field to specify multiple subsequent operations that start in parallel.
+
+### Scheduling and capacity
+
+When [!INCLUDE [prod_short](includes/prod_short.md)] schedules a parallel routing, it determines the start time of a converging operation based on the latest finishing time of all preceding operations. The total production lead time therefore depends on the longest parallel branch, not the sum of all operations.
+
+> [!TIP]
+> Use the **Send-Ahead Quantity** field on routing lines to start a downstream operation before the upstream operation is fully complete. This arrangement can further reduce lead times, though it works with both serial and parallel routing types.
 
 ## Related information
 
@@ -128,6 +221,5 @@ The version principle enables you to manage several versions of a routing. The s
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

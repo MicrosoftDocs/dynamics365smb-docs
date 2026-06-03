@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: production bom, bills of material, 
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
-ms.date: 03/10/2026
+ms.date: 06/03/2026
 ms.service: dynamics-365-business-central
 ---
 # Create production BOMs
@@ -17,7 +17,7 @@ A production bill of material (BOM) holds master data that describes the compone
 [!INCLUDE[prod_short](includes/prod_short.md)] also supports assembly BOMs. Use assembly orders to make end items from components in a process that one or more basic resources, which aren't machine or work centers, can do. Or, a process that can complete without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. To learn more, go to [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> The **Contoso Coffee Demo Data** app includes demonstration products for a variety of production BOM scenarios that can be used on a test environment, including during a trial. Learn how to set up the Contoso Coffee Data and find walkthroughs for different scenarios at [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).
+> The **Contoso Coffee Demo Data** app includes demonstration products for various production BOM scenarios that can be used on a test environment, including during a trial. Learn how to set up the Contoso Coffee Data and find walkthroughs for different scenarios at [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).
 
 Before you can set up a routing, the following setups must be in place:  
 
@@ -42,7 +42,7 @@ Before you can set up a routing, the following setups must be in place:
 8. In the **Scrap %** field, you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released production order, this percentage is added to the expected quantity in the **Consumption Quantity** field in a production journal. To learn more, go to [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
-    > This scrap percentage represents components that are scrapped during production when picking from inventory. The scrap percentage on routing lines represents scrapped output before it's put in inventory.  
+    > This scrap percentage represents components that are scrapped during production when picking from inventory. The scrap percentage on routing lines represents scrapped output before you put it in inventory.  
 
 9. In the **Routing Link Code** field, enter a code to connect the component to a specific operation. To learn more, go to [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
 10. To copy lines from an existing production BOM, choose the **Copy BOM** action to select existing lines.  
@@ -53,9 +53,9 @@ Before you can set up a routing, the following setups must be in place:
    >
    > If you’re intentionally working with uncertified BOMs or routings and don’t need the reminder, you can turn off the notification for yourself. On the **My Notifications** page, turn off the **Warn about non-certified production BOMs and routings** notification.
 
-If you’re intentionally working with uncertified BOMs or routings and don’t need the reminder, you can turn off the notification for yourself. Search for “Warn about non-certified production BOMs and routings” in My Notifications.
+If you’re intentionally working with uncertified BOMs or routings and don’t need the reminder, you can turn off the notification for yourself. Search for "Warn about non-certified production BOMs and routings" in **My Notifications**.
 
-Certifying the BOM is optional, though we do recommend it if the BOM is ready to use. For example, if you're in the design phase, you can work with the BOM in a uncertified state. Learn more at [Work with uncertified production BOMs and routings](#work-with-uncertified-production-boms-and-routings).
+Certifying the BOM is optional, though we do recommend it if the BOM is ready to use. For example, if you're in the design phase, you can work with the BOM in an uncertified state. Learn more at [Work with uncertified production BOMs and routings](#work-with-uncertified-production-boms-and-routings).
 
 12. You can now attach the new production BOM to the card of the parent item in question. To learn more, go to [Register New Items](inventory-how-register-new-items.md).  
 
@@ -82,9 +82,7 @@ The time validity of the version is specified by the **Starting Date** field.
 > [!NOTE]  
 > Select the **Item** option in the **Type** field to use an item from your item master data in the production BOM. If the item also has a production BOM, whereby the **Production BOM No.** field is filled in on the item card, this production BOM is also considered.  
 >
-> Select the **Production BOM** option if you want to use a phantom production BOM on the line.  
->
-> Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product but is used exclusively for determining the dependent demand. Phantom production BOMs don't have their own item master data.
+> Select the **Production BOM** option if you want to use a phantom production BOM on the line. Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product but is used exclusively for determining the dependent demand. Phantom production BOMs don't have their own item master data. To learn more, go to [Phantom production BOMs](#phantom-production-boms).
 
 ## Compare production BOM versions
 
@@ -106,7 +104,7 @@ The calculation formula defines the relation of the individual components. The f
 - **Fixed Quantity** - Quantity = Quantity per
 
 > [!NOTE]
-> The **Fixed Quantity** calculation formula ensures that the consumption of a component is the same, regardless of the scrap or output quantities. For production order components, when the **Calculation Formula** field is set to **Fixed Quantity**, the **Expected Quantity** field value is always equal to the **Quantity per** field. The scrap percentage that is defined on the same line is ignored. Fixed quantity is respected by the **Availability by BOM** report. The report will show the item as the bottleneck if the available quantity is less than the quantity in the **Quantity Per Parent** field. The **Able to Make Parent** and **Able to Make Top Item** fields are always blank, regardless of the available quantity. Fixed quantity is also included in calculations for standard costs. The lot size for the produced item impacts the cost that is allocated for one item.
+> The **Fixed Quantity** calculation formula ensures that the consumption of a component is the same, regardless of the scrap or output quantities. For production order components, when the **Calculation Formula** field is set to **Fixed Quantity**, the **Expected Quantity** field value is always equal to the **Quantity per** field. The scrap percentage that is defined on the same line is ignored. Fixed quantity is respected by the **Availability by BOM** report. The report shows the item as the bottleneck if the available quantity is less than the quantity in the **Quantity Per Parent** field. The **Able to Make Parent** and **Able to Make Top Item** fields are always blank, regardless of the available quantity. Fixed quantity is also included in calculations for standard costs. The lot size for the produced item impacts the cost that is allocated for one item.
 
 ### Example
 
@@ -117,6 +115,38 @@ Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2
 ## Work with uncertified production BOMs and routings
 
 [!INCLUDE [production-turn-off-uncertified-notifications](includes/production-turn-off-uncertified-notifications.md)]
+
+## Phantom production BOMs
+
+Phantom production BOMs let you group components for structural or organizational purposes without creating a separate production order for the subassembly. When [!INCLUDE [prod_short](includes/prod_short.md)] calculates the material requirements for a production order, it explodes phantom BOM components and their individual components appear directly on the parent production order's component list.
+
+### When to use phantom BOMs
+
+Use phantom BOMs in the following scenarios:
+
+- **Logical grouping**: You want to organize a long list of components into meaningful subgroups (such as an electrical subassembly or a fastener kit) without actually manufacturing each group as a separate item.
+- **No intermediate inventory**: The subassembly is never stocked or sold independently. It exists only to structure the parent item's BOM.
+- **Shared component sets**: Multiple finished items use the same set of components. Defining the set as a phantom BOM lets you maintain the list in one place and reuse it across parent BOMs.
+
+### How phantom BOMs differ from regular production BOMs
+
+| Behavior | Regular production BOM | Phantom production BOM |
+|--|--|--|
+| Creates a production order | Yes, planning creates a separate production order for the subassembly. | No, components are exploded into the parent order. |
+| Item master data | The subassembly has its own item card with inventory tracking. | No item card is needed. The phantom BOM is referenced by type **Production BOM** on the parent BOM line. |
+| Inventory | The subassembly is received into and consumed from inventory. | No inventory transaction. Components flow directly into the parent order. |
+| Costing | The subassembly has its own unit cost and cost shares. | Component costs roll directly into the parent item's standard cost. |
+
+### How to set up a phantom BOM
+
+1. Create a production BOM that contains the components you want to group.
+2. Set the BOM's **Status** to **Certified**.
+3. On the parent item's production BOM, add a line with **Type** set to **Production BOM** and select the phantom BOM in the **No.** field.
+
+When [!INCLUDE [prod_short](includes/prod_short.md)] plans or refreshes a production order for the parent item, it replaces the phantom BOM line with the phantom's individual components. The component quantities are adjusted by the **Quantity per** value on the parent BOM line.
+
+> [!NOTE]
+> You can nest phantom BOMs. That is, a phantom BOM can include a line that references another phantom BOM. [!INCLUDE [prod_short](includes/prod_short.md)] explodes all levels until only items remain on the production order components list.
 
 ## Related information
 

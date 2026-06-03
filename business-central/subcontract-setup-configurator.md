@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, purchase provisions, wizard, setup, BOM, routing
 ms.search.form: 99000886,
-ms.date: 05/20/2026
+ms.date: 06/02/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -29,7 +29,7 @@ If the master data you use in the order process, such as items, stockkeeping uni
 
 ## Configure purchase provisions settings
 
-Purchase provision settings are split across two pages. Fields for work centers, flushing method, and the provision wizard are on the **Subcontracting Setup** page. Fields for routing link codes, component locations, and item charges are on the **Manufacturing Setup** page (in the **Subcontracting** section).
+Purchase provision settings are split across two pages. Fields for work centers, flushing method, and the provision wizard are on the **Subcontracting Setup** page. Fields for routing link codes and component locations are on the **Manufacturing Setup** page (in the **Subcontracting** section).
 
 The following table describes each field.
 

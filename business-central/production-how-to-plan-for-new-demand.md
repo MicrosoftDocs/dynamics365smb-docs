@@ -15,6 +15,9 @@ ms.reviewer: bholtorf
 
 This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
 
+> [!NOTE]
+> The **Order Planning** page shows demand from sales orders, production order components, assembly order lines, service orders, and job planning lines. It does not include demand from transfer orders. To plan for transfer order demand, use the **Planning Worksheet** page with the **Regenerative Plan** or **Net Change Plan** action instead. Learn more at [Run Full Planning, MPS, or MRP](production-how-to-run-mps-and-mrp.md).
+
 You can enter the **Order Planning** page in two ways depending on your focus: From an order that you want to plan for specifically or in batch mode because you want to plan for all and any new demand.  
 
 

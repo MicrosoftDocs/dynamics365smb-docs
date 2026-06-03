@@ -1,6 +1,6 @@
 ---
 title: View Load on Work and Machine Centers
-description: Learn how to view shop floor load on work and machine centers, how finite capacity planning prevents overloading bottleneck resources, and how to use the Work Center Task List.
+description: Learn how to view loads on work and machine centers, how finite capacity planning prevents overloading bottleneck resources, and how to use the Work Center Task List.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
@@ -11,9 +11,9 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# View Load on Work and Machine Centers
+# View the load on work and machine centers
 
-In the **Work Center Card** and **Machine Center Card** pages, you can view the shop floor load as a result of planned and released production orders.
+On the **Work Center Card** and **Machine Center Card** pages, you can view the shop floor load as a result of planned and released production orders.
 
 ## Understanding load and capacity
 
@@ -21,7 +21,7 @@ In the **Work Center Card** and **Machine Center Card** pages, you can view the 
 
 **Load** is the total work allocated to a resource from all production orders (planned, firm planned, and released). The load includes setup time and run time from routing operations assigned to that resource.
 
-When load exceeds capacity, the resource is overloaded, which can cause scheduling delays. When load is well below capacity, the resource is underutilized.
+When load exceeds capacity, the resource is overloaded, which can cause scheduling delays. When load is well under capacity, the resource is underutilized.
 
 ## To view the load on work centers
 
@@ -30,8 +30,8 @@ When load exceeds capacity, the resource is overloaded, which can cause scheduli
 
 Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.
 
-- **View by** — Select the period length: Day, Week, Month, Quarter, Year, or Accounting Period.
-- **View as** — Select **Net Change** to see the load for each period, or **Balance at Date** to see the cumulative load up to each date.
+- **View by**: Select the period length: Day, Week, Month, Quarter, Year, or Accounting Period.
+- **View as**: Select **Net Change** to see the load for each period, or **Balance at Date** to see the cumulative load up to each date.
 
 The matrix shows capacity, load, and available capacity for each period. Use this view to identify bottlenecks where load consistently exceeds capacity.
 
@@ -45,7 +45,7 @@ To set up finite capacity scheduling, register the resource as a capacity-constr
 
 ## View the Work Center Task List
 
-The **Work Center Task List** page shows all production order routing lines that are currently assigned to a work center. Use this page to see what work is planned for or in progress at a specific work center, and to monitor the timing and capacity allocation for each operation.
+The **Work Center Task List** page shows all production order routing lines that are currently assigned to a work center. Use this page to review planned work or in progress at a specific work center. You can also monitor the timing and capacity allocation for each operation.
 
 To open the Work Center Task List:
 
@@ -55,7 +55,7 @@ To open the Work Center Task List:
 The page shows one line per production order routing operation assigned to the work center, with the following key fields:
 
 | Field | Description |
-|--|--|
+| -- | -- |
 | **Status** | The production order status (Simulated, Planned, Firm Planned, Released, or Finished). |
 | **Prod. Order No.** | The production order number. |
 | **Operation No.** | The operation number from the routing. |
@@ -73,12 +73,12 @@ Use the Work Center Task List to quickly identify scheduling conflicts, overload
 > You can also access the task list from the **Work Center Calendar Matrix** page, which provides a graphical overview of capacity allocation across multiple work centers and time periods.
 
 ## Related information  
-[Manufacturing](production-manage-manufacturing.md)
+
+[Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

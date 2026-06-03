@@ -126,10 +126,17 @@ Each routing operation has four time fields that together determine the total du
 | **Wait Time** | Queue or curing time after run time completes (for example, drying, cooling). | Fixed per operation. Doesn't consume work center capacity. |
 | **Move Time** | Transit time to move parts to the next work center. | Fixed per operation. Doesn't consume work center capacity. |
 
-The scheduling sequence for each operation is: **Setup Time** → **Run Time** → **Wait Time** → **Move Time**. Wait time and move time don't consume capacity on the work center calendar, so they extend the elapsed duration but not the work center load.
+The scheduling sequence for each operation is: 
+
+1. Setup Time
+1. Run Time
+1. Wait Time
+1. Move Time
+
+Wait time and move time don't consume capacity on the work center calendar, so they extend the elapsed duration but not the work center load.
 
 > [!NOTE]
-> The **Queue Time** field on the work center card adds a buffer *before* an operation starts. Together with the four routing line fields, queue time helps provide an accurate overall production lead time.
+> The **Queue Time** field on the work center card adds a buffer before an operation starts. Together with the four routing line fields, queue time helps provide an accurate overall production lead time.
 
 ## Send-ahead quantity
 
@@ -177,11 +184,11 @@ $$\text{Input Qty} = \text{Output Qty} \times (1 + \text{Scrap Factor \%}) + \te
 
 When you set a routing's **Type** to **Parallel**, you use the **Next Operation No.** field to define how operations flow. This arrangement lets multiple operations run at the same time, converging at a later operation. Use parallel routings when independent tasks can happen simultaneously, such as preparing different subcomponents before a final assembly step.
 
-### How Next Operation No. controls the flow
+### How the Next Operation No. field controls the flow
 
 In a parallel routing, the **Next Operation No.** field on each routing line tells [!INCLUDE [prod_short](includes/prod_short.md)] which operation to schedule after the current one completes. If you leave **Next Operation No.** blank, the operation is treated as the last step in the routing.
 
-For example, consider a routing where operation 10 splits into two parallel branches (operations 20 and 30) that merge at operation 40:
+For example, consider a routing where operation 10 splits into two parallel branches (operations 20 and 30 in the following table) that merge at operation 40:
 
 | Operation No. | Description | Next Operation No. |
 |--|--|--|
@@ -214,6 +221,5 @@ When [!INCLUDE [prod_short](includes/prod_short.md)] schedules a parallel routin
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

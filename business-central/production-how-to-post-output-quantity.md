@@ -55,8 +55,8 @@ The **Production Journal** page lets you do the same tasks as the **Output Journ
 
 When you post output, you can record downtime and scrap with reason codes that help you analyze production efficiency.
 
-- **Stop codes** — Track why a work center or machine center was idle during an operation (for example, maintenance, tool change, or machine failure). Enter the stop code and the stop time on the output journal line. The posted stop time appears on capacity ledger entries for the work or machine center.
-- **Scrap codes** — Categorize why units were scrapped during an operation (for example, defective material, setup error, or tool wear). Enter the scrap code and the scrap quantity on the output journal line. The scrap quantity is posted to the item ledger as a negative adjustment, and the scrap code appears on the capacity ledger entry.
+- **Stop codes**: Track why a work center or machine center was idle during an operation (for example, maintenance, tool change, or machine failure). Enter the stop code and the stop time on the output journal line. The posted stop time appears on capacity ledger entries for the work or machine center.
+- **Scrap codes**: Categorize why units were scrapped during an operation (for example, defective material, setup error, or tool wear). Enter the scrap code and the scrap quantity on the output journal line. The scrap quantity is posted to the item ledger as a negative adjustment, and the scrap code appears on the capacity ledger entry.
 
 To set up stop codes and scrap codes, use the **Stop Codes** and **Scrap Codes** pages. To open them, [!INCLUDE[open-search](includes/open-search.md)], enter **Stop Codes** or **Scrap Codes**, and then choose the related link.
 

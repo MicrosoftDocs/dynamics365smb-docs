@@ -108,7 +108,7 @@ A total percentage of outstanding amounts are calculated for each date range, to
 The report can either show a summed balance for each customer, or a detailed breakdown of each outstanding document for analysis.
 
 ### Use cases
-Analyse customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
+Analyze customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
 Allows easy reconciliation of the customer subledger against the receivables account(s) in the general ledger, assuming that direct posting is disabled. 
 This report helps businesses manage and analyze their accounts receivable by providing a clear view of which invoices are overdue and by how long. It's particularly useful for credit and collections teams to prioritize follow-ups and improve cash flow management.
 

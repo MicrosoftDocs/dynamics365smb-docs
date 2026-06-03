@@ -1,5 +1,5 @@
 ---
-title: Synchronize and transactions and payouts
+title: Synchronize transactions and payouts
 description: Set up and run import of transactions and payouts from Shopify.
 ms.date: 07/14/2025
 ms.topic: how-to
@@ -41,7 +41,7 @@ To review all payouts, choose the ![Lightbulb that opens the Tell Me feature.](.
 
 ## Payment method mapping
 
-To fill in the **Payment method code** for sales documents imported from Shopify automatically, you need to configure **Payment method mapping**.
+To fill in the **Payment Method Code** for sales documents imported from Shopify automatically, you need to configure **Payment Method Mapping**.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to define a mapping to open the **Shopify Shop Card** page.
@@ -103,10 +103,10 @@ However, because the sales order has a payment method code where the **Bal. Acco
   
 You can define balancing accounts for payment methods in two ways:
 
-* **Bal. Account Type** set as **Bank**, and **Bal Account No.** 
+* **Bal. Account Type** set as **Bank**, and **Bal. Account No.** 
 
    Fill in the special bank account that represents your account at the payment provider.
-* **Bal. Account Type** set as **G/L Account** and **Bal Account No.** 
+* **Bal. Account Type** set as **G/L Account** and **Bal. Account No.** 
    Fill in the G/L account that represents your account at the payment provider.
 
 It makes sense to use a bank account if the payment provider exports some kind of account statement, which you can import into the payment reconciliation journal.
@@ -153,6 +153,12 @@ Depending on the Bank, the Merchant can access the incoming transaction in their
 The Merchant imports a sales order to [!INCLUDE [prod_short](../includes/prod_short.md)] and posts the shipment and invoice. [!INCLUDE [prod_short](../includes/prod_short.md)] creates a customer ledger entry of the type **Invoice** with the full amount, and sets **Open** to **Yes**. The remaining amount equals the invoiced amount.
 
 The Merchant processes the imported Shopify transactions in the **Transactions** list. They apply filters, and then use the **Suggest Shopify Payments** action to transfer the transactions to the general journal. Alternatively, the Merchant can use the **Suggest Shopify Payments** action on the **Cash Receipt Journal** page.
+
+> [!NOTE]
+> The **Suggest Shopify Payments** action only processes transactions of type **Capture**, **Sale**, and **Refund** with a status of **Success**. Transactions of type **Authorization** and **Void** are always excluded, regardless of filters applied in the **Transactions** list.
+
+> [!TIP]
+> On the report request page, you can turn on the **Include Order No. in Description** toggle to use the Shopify order number in journal line descriptions instead of the internal order ID. Enabling this option might decrease performance because it requires extra lookups to resolve order numbers.
 
 The Merchant reviews the lines, and notices that the applied documents are selected automatically. They post the journal, and [!INCLUDE [prod_short](../includes/prod_short.md)] creates a customer ledger entry of the type **Payment** and applies it to the corresponding entry of the type **Invoice**.
 

@@ -56,7 +56,7 @@ A total percentage of outstanding amounts are calculated for each date range, to
 The report can either show a summed balance for each vendor, or a detailed breakdown of each outstanding document for analysis.
 
 ### Use cases
-Analyse vendor balances at the end of each period. Used to monitor unpaid invoices, and prioritise payments for overdue accounts. 
+Analyze vendor balances at the end of each period. Used to monitor unpaid invoices, and prioritize payments for overdue accounts.
 
 Allows easy reconciliation of the vendor subledger against the payables account(s) in the general ledger, assuming that direct posting is disabled. 
 
@@ -103,3 +103,4 @@ There are several other ways to analyze aged accounts payable. To learn more, go
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

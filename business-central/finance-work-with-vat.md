@@ -223,7 +223,7 @@ To view a group of certificates, start from the **Certificates of Supply** page,
 ### To update the status of a group of certificates of supply  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Certificates of Supply**, and choose the related link.  
-2. Filter the **Status** field to the value that you want in order to create the list of certificates that you want to manage.  
+2. Filter the **Status** field to the value that you want to create the list of certificates that you want to manage.  
 3. To update the status information, choose **Edit List**.  
 4. In the **Status** field, choose the relevant option.  
 

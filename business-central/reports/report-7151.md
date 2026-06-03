@@ -59,7 +59,7 @@ This report can be based on analysis view entries from either sales, purchase or
 Calculated totals are fully customisable through the adoption of Analysis Columns, which provides ability to specify calculation methods (net change or balance), item entry source (budget or actual), analysis type (quantity, sales amounts or cost amounts) and even period/date formula methods for finer month comparison controls.
 
 ### Use cases
-Analyse your item entries with dimension totals by building a grouping of dimensions for each permutation of dimension values, and view a calculated total based on user defined columns (i.e. net change, balance at date, actual vs budget)
+Analyze your item entries with dimension totals by building a grouping of dimensions for each permutation of dimension values, and view a calculated total based on user defined columns (i.e. net change, balance at date, actual vs budget)
 
 Please include your data sources and URLs
 

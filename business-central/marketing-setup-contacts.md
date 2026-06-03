@@ -170,7 +170,7 @@ Learn more at [Synchronizing contacts with customers, vendors, and bank accounts
 
 When you create a contact, [!INCLUDE [prod_short](includes/prod_short.md)] can automatically search for duplicates. Avoiding duplicate contacts can help ensure that you interact with the right person for the right company.
 
-You can specify the percentage of identical data that two contacts must have in order to consider them duplicates. You can also just use the default percentage, which is 60. You specify the percentage on the **Marketing Setup** page by entering a percentage value in the **Search Hit %** field on the **Duplicates** FastTab.
+You can specify the percentage of identical data that two contacts must have to consider them duplicates. You can also just use the default percentage, which is 60. You specify the percentage on the **Marketing Setup** page by entering a percentage value in the **Search Hit %** field on the **Duplicates** FastTab.
 
 For automatic searches, when you create a contact that already has a business relation to a company, [!INCLUDE [prod_short](includes/prod_short.md)] displays a message to inform you.
 

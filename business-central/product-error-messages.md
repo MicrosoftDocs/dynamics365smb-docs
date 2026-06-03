@@ -35,7 +35,7 @@ To overcome obstacles and minimize downtime, apply the expertise of colleagues o
 
 The details include the error message, error code, and other information that's helpful when troubleshooting an error. By sharing the error details, you can effectively communicate the specific issue you're facing, which helps your colleagues help you.  
 
-You can copy details by choosing the **Share icon** in in-line validation dialogs, or the **Share details** menu in error dialogs.  
+You can copy details by choosing the **Share icon** in inline validation dialogs, or the **Share details** menu in error dialogs.  
 
 In addition to copying error details, you can also choose to share details through Microsoft Teams by choosing **Share details to Teams** to do the following:
 

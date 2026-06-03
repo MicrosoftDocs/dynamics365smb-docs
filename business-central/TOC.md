@@ -2365,7 +2365,6 @@ ms.service: dynamics-365-business-central
 #### [Set up service contracts](service-how-setup-service-contracts.md)
 ### Setup best practices for complex application areas 
 #### [Setup best practices](set-up-complex-application-areas-using-best-practices.md)
-### [Get Business Central on your desktop](install-desktop-app.md)
 #### Setup best practices: Supply planning
 ##### [Set up supply planning](setup-best-practices-supply-planning.md)
 ##### [Setup best practices: Planning parameters](setup-best-practices-planning-parameters.md)

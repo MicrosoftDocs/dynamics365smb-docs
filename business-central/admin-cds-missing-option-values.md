@@ -37,7 +37,7 @@ The content of the **Dataverse Option Mapping** page is based on enum values in 
 
 - **Address 1: Freight Terms** of data type Enum, where values are defined as follows:
 
-```
+```al
 enum 5335 "CDS Shipment Method Code"
 {
     Extensible = true;
@@ -49,7 +49,7 @@ enum 5335 "CDS Shipment Method Code"
 
 - **Address 1: Shipping Method** of data type Enum, where values are defined as follows:
 
-```
+```al
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -66,7 +66,7 @@ enum 5336 "CDS Shipping Agent Code"
 
 - **Payment Terms** of data type Enum, where values are defined as follows:
 
-```
+```al
 enum 5334 "CDS Payment Terms Code"
 {
     Extensible = true;
@@ -85,7 +85,7 @@ All of the [!INCLUDE[prod_short](includes/prod_short.md)] enums are mapped to op
 
 2. Add an Enum extension for the options that you want to extend. Be sure that you use the same value. 
 
-```
+```al
 enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Terms Code"
 {
     value(779800001; "Cash Payment") { Caption = 'Cash Payment'; }
@@ -142,3 +142,5 @@ The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] ha
 [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
+
+

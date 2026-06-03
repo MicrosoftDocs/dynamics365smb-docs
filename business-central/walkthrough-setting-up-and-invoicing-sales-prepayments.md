@@ -234,7 +234,7 @@ This walkthrough covered the following steps to set up [!INCLUDE[prod_short](inc
 
 You've also posted a prepayment invoice, created a second prepayment invoice when the order has changed, and posted the final invoice for the remaining amount.  
 
-The prepayments capabilities make it easy to set up and enforce prepayment rules for customers and items. They also let you to post every payment against an invoice.  
+The prepayments capabilities make it easy to set up and enforce prepayment rules for customers and items. They also let you post every payment against an invoice.  
 
 ## Related information
 

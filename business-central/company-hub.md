@@ -35,7 +35,7 @@ If you use the **Company Hub** role, your home page shows a list of companies th
 You can add new companies, such as when you get a new client, or when your corporation adds a new subsidiary. Learn more in [Add Companies to Your Company Hub](company-hub-add-company.md).  
 
 > [!TIP]
-> In order to refresh the data in the company hub, you must have access to the data in the companies that the data comes from.
+> To refresh the data in the company hub, you must have access to the data in the companies that the data comes from.
 
 <!--## Company details
 
@@ -73,7 +73,7 @@ Learn more in [Environment links](company-hub-add-company.md#environment-links) 
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
-In order to access the company hub, you must have access through either the *D365 COMPANY HUB* user group or through the *D365 COMPANY HUB*  permission set. You must also have access to the companies that are listed in your company hub, which means that you must be a user in those companies. Learn more in [Create Users According to Licenses](ui-how-users-permissions.md).  
+To access the company hub, you must have access through either the *D365 COMPANY HUB* user group or through the *D365 COMPANY HUB* permission set. You must also have access to the companies that are listed in your company hub, which means that you must be a user in those companies. Learn more in [Create Users According to Licenses](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]
 > The company hub is a company-wide list, so any user who is granted access to the company hub can see all companies in their own [!INCLUDE [prod_short](includes/prod_short.md)] tenant, and all KPIs for the companies that they have access to.

@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
 
-The **Item - ABC Analysis** report ranks your inventory items into A, B, and C categories based on their sales amounts (LCY). Use the report to decide which items should always be in stock and where you can afford occasional stock-outs. That way, you divert your supply chain resources to the items that matter the most.
+The **Item - ABC Analysis** report ranks your inventory items into A, B, and C categories based on their sales amounts in local currency (LCY). Use the report to decide which items to always keep in stock and where you can afford occasional stock-outs. That way, you divert your supply chain resources to the items that matter the most.
 
 The report calculates each item's share of total sales and classifies items by the percentage thresholds you define:
 
@@ -23,7 +23,7 @@ The report calculates each item's share of total sales and classifies items by t
 - **Category B** items have medium volume and medium value.
 - **Category C** items have high volume and small value. You might accept occasional stock-outs for these items.
 
-Default category thresholds come from the **ABC Analysis Setup** page. The same thresholds are also used by the [Power BI Inventory app](../inventory-powerbi-app.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
+Default category thresholds come from the **ABC Analysis Setup** page. Learn more at [Set up ABC Analysis defaults](#set-up-abc-analysis-defaults). The same thresholds are also used by the [ABC Analysis (Power BI Report)](../inventory-powerbi-abc-analysis.md), so the classification is consistent across both reports. You can override the thresholds on the request page each time you run the report.
 
 ## Available layouts
 
@@ -69,7 +69,7 @@ The report uses these values as defaults. You can override them on the request p
 
 ## Report options
 
-The following table describes the fields on the  on the **Item - ABC Analysis** request page.
+The following table describes the fields on the **Item - ABC Analysis** request page.
 
 |Option  |Description  |
 |---------|---------|
@@ -94,6 +94,7 @@ There are several other ways to analyze your inventory. To learn more, go to:
 - [Inventory Top 10 List](report-711.md)
 - [Power BI inventory app](../inventory-powerbi-app.md)
 - [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)
+- [ABC Analysis (Power BI Report)](../inventory-powerbi-abc-analysis.md)
 
 ## Related information
 

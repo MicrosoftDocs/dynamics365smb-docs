@@ -50,7 +50,7 @@ You can select print details, which will additionally show a breakdown of each i
 The report can be configured to either print item charges relating to sales or purchases.
 
 ### Use cases
-Analyse posted sales or purchase item charges to assess added costs, such as freight and physical handling
+Analyze posted sales or purchase item charges to assess added costs, such as freight and physical handling
 This report helps businesses track and analyze additional costs associated with items, such as freight, insurance, and handling charges, ensuring accurate cost calculation and inventory valuation.
 
 Please include your data sources and URLs

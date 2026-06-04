@@ -24,7 +24,7 @@ If you need to pay the vendor by cash or check, you can post the payment when yo
 3. To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.  
 
 > [!IMPORTANT]  
-> The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header. In order to post the payment of an invoice, you must contact a Microsoft partner who can add the fields through code.  
+> The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header. To post the payment of an invoice, you must contact a Microsoft partner who can add the fields through code.  
 >
 > This customization is only required if you do not specify balancing accounts on the payment methods as describe above.
 

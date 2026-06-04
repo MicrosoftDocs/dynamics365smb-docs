@@ -54,7 +54,7 @@ Shows each sales order and the line level breakdown for each item, including inf
 
 
 ### Use cases
-Analyse your outstanding sales orders to understand your expected sales volume grouped by item.
+Analyze your outstanding sales orders to understand your expected sales volume grouped by item.
 Compare your overall outstanding shipments with the planned shipment date to highlight any overdue back orders.
 
 Please include your data sources and URLs
@@ -92,3 +92,4 @@ Try the report here: [Inventory Order Details](https://businesscentral.dynamics.
 [Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

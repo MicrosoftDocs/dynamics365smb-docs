@@ -164,7 +164,7 @@ However, to enable the new **E-Document** framework, you must configure the **Do
 The E-Document framework supports several options for sending documents:
 
 - **Service-based sending**: Use **Extended E-Document Service Flow** with an **E-Document Workflow** to send documents through configured service integrations.
-- **Email-based sending**: Enable **Email** and select **E-Document** or **PDF & E-Document** as the attachment type to send e-documents via email. Email-based sending relies on the e-document workflow to run in order to export the e-document. To use this option, you must fill in the **E-Document Workflow** field.
+- **Email-based sending**: Enable **Email** and select **E-Document** or **PDF & E-Document** as the attachment type to send e-documents via email. Email-based sending relies on the e-document workflow to run to export the e-document. To use this option, you must fill in the **E-Document Workflow** field.
 - **Combined sending**: Use both service-based and email-based sending together to send through a service integration and email the document simultaneously.
 
 ## Creating e-documents from posted documents

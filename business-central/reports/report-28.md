@@ -52,7 +52,7 @@ Dimension levels are specified by selecting an analysis view configured with dim
 You can choose to see only dimension combinations that have been transacted with, or a list of all combinations regardless of general ledger (G/L) entries.
 
 ### Use cases
-Analyse your general ledger with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of general ledger (G/L) entries for each segment
+Analyze your general ledger with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of general ledger (G/L) entries for each segment
 This report allows businesses to analyze and understand the specific ways in which dimensions (such as department, project, or location) have been applied to transactions, providing deeper insights into financial data.
 
 Please include your data sources and URLs

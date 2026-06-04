@@ -51,7 +51,7 @@ Shows each sales order and the line level breakdown for each customer, including
 
 
 ### Use cases
-Analyse your outstanding sales orders to understand your expected sales volume grouped by customer.
+Analyze your outstanding sales orders to understand your expected sales volume grouped by customer.
 
 Compare your overall outstanding shipments with the planned shipment date to highlight any overdue back orders.
 
@@ -90,3 +90,4 @@ Try the report here: [Customer - Order Detail](https://businesscentral.dynamics.
 [Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

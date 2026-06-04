@@ -528,6 +528,7 @@ ms.service: dynamics-365-business-central
 #### [Close open item ledger entries that result from fixed application in the item journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Report inventory costs and reconcile with the general ledger
 ##### [Work with inventory periods](finance-how-to-work-with-inventory-periods.md) 
+##### [Restrict backdated cost postings](finance-restrict-backdated-cost-postings.md)
 <!-- line above: moved into folder as this is more "close period" task -->
 ##### [Adjust item costs](inventory-how-adjust-item-costs.md) 
 <!-- line above: moved into folder as this is more "close period" task --> 
@@ -2091,6 +2092,7 @@ ms.service: dynamics-365-business-central
 ##### [Payments cartera module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Invoice and credit memo types in sales and purchase documents](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
 ##### [VERI*FACTU compliance](LocalFunctionality/Spain/verifactu-setup.md)
+##### [Enable embedded VERI*FACTU mode](LocalFunctionality/Spain/enable-real-time-invoice-reporting.md)
 #### Core finance
 ##### [Set up and close income statement balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and validate chart of accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -2363,7 +2365,6 @@ ms.service: dynamics-365-business-central
 #### [Set up service contracts](service-how-setup-service-contracts.md)
 ### Setup best practices for complex application areas 
 #### [Setup best practices](set-up-complex-application-areas-using-best-practices.md)
-### [Get Business Central on your desktop](install-desktop-app.md)
 #### Setup best practices: Supply planning
 ##### [Set up supply planning](setup-best-practices-supply-planning.md)
 ##### [Setup best practices: Planning parameters](setup-best-practices-planning-parameters.md)

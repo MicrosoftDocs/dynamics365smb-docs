@@ -81,7 +81,7 @@ In the US, Canada, and Mexico, this report isn't available. Instead, use the loc
 ### Use cases
 Reconcile your inventory subledger to the inventory account(s) in the general ledger at the end of each period.
 
-Analyse the changes to expected costs posted during the period, and determine the value of inventory on hand for financial reporting.
+Analyze the changes to expected costs posted during the period, and determine the value of inventory on hand for financial reporting.
 
 Please include your data sources and URLs
 

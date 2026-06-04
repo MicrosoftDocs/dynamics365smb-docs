@@ -58,7 +58,7 @@ You can specify a date range in the date filter and for each customer the report
 You can choose to run the report in your local currency or in the customer's currency. Customers that have not had any transactions for the period can also be excluded.
 
 ### Use cases
-Analyse and reconcile your customer balances at the end of the period by seeing the opening balance, each transaction within the period and the closing balance grouped by customer.
+Analyze and reconcile your customer balances at the end of the period by seeing the opening balance, each transaction within the period and the closing balance grouped by customer.
 
 Please include your data sources and URLs
 -->
@@ -106,3 +106,4 @@ Try the report here: [Customer - Trial Balance](https://businesscentral.dynamics
 [Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

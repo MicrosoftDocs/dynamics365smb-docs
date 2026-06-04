@@ -56,7 +56,7 @@ Value entries for each customer/item combination is summed up to calculate the t
 Added costs such as item charges are also included in the calculated sales amount & profit margin.
 
 ### Use cases
-Analyse your item sales per customer to understand sales trends, optimise inventory management and improve marketing efforts.
+Analyze your item sales per customer to understand sales trends, optimize inventory management and improve marketing efforts.
 
 Assess the relationship between discounts, sales amount and volume of item sales.
 
@@ -95,3 +95,4 @@ Try the report here: [Customer/Item Sales](https://businesscentral.dynamics.com?
 [Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

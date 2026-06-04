@@ -22,15 +22,15 @@ You can access the **Order Planning** page in two ways depending on your focus:
 - From an order that you want to plan for specifically.
 - In batch mode, because you want to plan for all new demand.  
 
-## To plan for new production order demand
+## Plan for new production order demand
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Planned Production Orders**, and then choose the related link. (You can do these steps for planned, firm planned, or released production orders).
 2. Open the production order you want to plan for, and then choose the **Planning** action.  
 3. On the **Order Planning** page, choose the **Calculate Plan** action.  
 
-The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order isn't shown because it's necessary to plan for one production order with an overview of potential demand for earlier component lines. Planning lines for the production order in context are expanded.  
+The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order doesn't show because you must plan with an overview of potential demand for earlier component lines. Planning lines for the production order in context are expanded.  
 
-## To plan for any new demand
+## Plan for any new demand
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Order Planning**, and then choose the related link.  
 2. On the **Order Planning** page, choose the **Calculate Plan** action.
@@ -54,24 +54,22 @@ The page displays planning lines according to the view filter **Production Deman
     |**Transfer**|Creates a transfer order.|  
     |**Prod. Order**|Creates a production order.|  
 
-    In the **Supply From** field,   
-
     > [!NOTE]  
-    > If the field isn't filled in, [!INCLUDE [prod_short](includes/prod_short.md)] displays an error message when you use the **Make Supply Order** action, and no supply order is created for the planning line. However, this isn't case if the replenishment system is **Prod. Order**.  
+    > If the field isn't filled in, [!INCLUDE [prod_short](includes/prod_short.md)] displays an error message when you use the **Make Supply Order** action, and no supply order is created for the planning line. However, the exception is when the replenishment system is **Prod. Order**.  
 
 6. From the **Supply From** field, you can look up in the relevant list and select where the supply should come from. You must select a value according to the selected replenishment system.  
 
     - If replenishment system is **Purchase**, the look-up button in this field looks up on the **Item Vendor Catalog** page.  
     - If replenishment system is **Transfer**, the look-up button in this field looks up on the **Location List** page.  
 
-    If the item exists in another location, the **Qty. on Other Location** field at the bottom shows a value and you can then look up and select the supply location when you make the transfer order.  
+    If the item exists in another location, the **Qty. on Other Location** field at the bottom shows a value, and you can then look up and select the supply location when you make the transfer order.  
 
     If a substitute exists for the item, the **Substitute Exists** field is set to **Yes**, and you can then look up to the **Item Substitution Entries** page and select the substitute.  
 
     > [!NOTE]  
     > Item substitutions don't automatically cause an item to replace another item, for example when creating a sales order or in a BOM. Instead, you're alerted to the fact that a substitution is available to you.
 
-7. Select the **Reserve** checkbox if you want to make a reservation between the supply order you're creating and the demand line that it's created for. It's empty by default.  
+7. Select the **Reserve** checkbox if you want to make a reservation between the supply order you're creating and the demand line that it's for. It's empty by default.  
 
     > [!NOTE]  
     > You can only select this check box if the item has **Optional** or **Always** in the **Reserve** field on its item card.  
@@ -87,7 +85,7 @@ The page displays planning lines according to the view filter **Production Deman
 > [!NOTE]  
 > If you enter a date later than the demand date, you receive a warning message.  
 
-## To make supply orders
+## Create supply orders
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Planned Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
 2. Open the production order you want to plan for, and then choose the **Planning** action.  
@@ -107,12 +105,12 @@ The page displays planning lines according to the view filter **Production Deman
 
 6. Choose the **OK** button to create the suggested supply orders or requisition worksheet lines.  
 
-You have planned for the unfulfilled demand by making respective supply orders. Details about specific work flows when using the **Order Planning** page would depend on a company’s internal policies.  
+You have a plan for the unfulfilled demand by making respective supply orders. Details about specific work flows when using the **Order Planning** page would depend on a company’s internal policies.  
 
 When you finish your planning work on the **Order Planning** page, for example you defined an alternative way to supply the quantity, you can proceed to create supply orders for one or more of the planning lines.  
 
 > [!NOTE]  
-> The supply orders you create might introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
+> The supply orders you create might introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve the demand before moving down the list.  
 
 ## Related information
 

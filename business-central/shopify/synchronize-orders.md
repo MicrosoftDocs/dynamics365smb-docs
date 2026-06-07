@@ -71,18 +71,18 @@ Specify how you process returns and refunds:
 
 * **Blank** specifies that you don't import and process returns and refunds.
 * **Import Only** specifies that you import information, but you manually create the corresponding credit memo.
-* **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
+* **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Documents** toggle.
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
 You can use the original return location from Shopify for refunds and returns. The location helps ensure that locations are accurate on credit memos, which reduces manual adjustments and streamlines the returns process.
 
-To turn on the feature, on the **Shopify Shop Card** page, in the **Return Location Priority** field choose **Original > Default Location**.
+To turn on the feature, on the **Shopify Shop Card** page, in the **Return Location Priority** field choose **Original -> Default Location**.
 
 The **Return Location Priority** field offers the following options:
 
 * **Default Return Location**: This default option uses the value from the **Default Return Location** field when creating sales credit memos.
-* **Original > Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
+* **Original -> Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
 
 Some amounts associated with a refund post directly to the G/L account. Choose the G/L accounts that you want to use for specific transaction types:
 

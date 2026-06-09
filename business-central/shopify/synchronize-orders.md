@@ -20,12 +20,12 @@ Enter a **Currency code** if your online shop uses a different currency than the
 
 You can control whether [!INCLUDE [prod_short](../includes/prod_short.md)] creates sales documents from Shopify orders in the shop currency or in the customer’s checkout (presentment) currency. This gives you full flexibility when working with Shopify Markets or any store that sells in multiple currencies. The **Currency Handling** field lets you choose:
 
-- **Shop currency** (default) 
-- **Presentment currency**
+- **Shop Currency** (default) 
+- **Presentment Currency**
 
-When you select **Presentment currency**, [!INCLUDE [prod_short](../includes/prod_short.md)] uses the currency and amounts that the customer saw and paid during checkout when it creates sales orders and credit memos. The amounts in local currencies are calculated based on the exchange rates defined in [!INCLUDE [prod_short](../includes/prod_short.md)]. [!INCLUDE [prod_short](../includes/prod_short.md)] stores the choice of currency handling on each Shopify order at processing time. 
+When you select **Presentment Currency**, [!INCLUDE [prod_short](../includes/prod_short.md)] uses the currency and amounts that the customer saw and paid during checkout when it creates sales orders and credit memos. The amounts in local currencies are calculated based on the exchange rates defined in [!INCLUDE [prod_short](../includes/prod_short.md)]. [!INCLUDE [prod_short](../includes/prod_short.md)] stores the choice of currency handling on each Shopify order at processing time. 
 
-When you import Shopify orders, [!INCLUDE [prod_short](../includes/prod_short.md)] retrieves both the shop currency and the presentment currency with their amounts. If the Shopify Shop Card is set to **Presentment currency**, sales orders and credit memos use the presentment currency and corresponding amounts. The **Suggest Payments** action also uses presentment currency when applicable. Pages such as Shopify Orders, Order Lines, Shipping Charges, Refunds, Transactions, and Returns display presentment currency fields whenever the order or shop uses presentment currency. Shop currency values remain visible for reference.
+When you import Shopify orders, [!INCLUDE [prod_short](../includes/prod_short.md)] retrieves both the shop currency and the presentment currency with their amounts. If the Shopify Shop Card is set to **Presentment Currency**, sales orders and credit memos use the presentment currency and corresponding amounts. The **Suggest Payments** action also uses presentment currency when applicable. Pages such as Shopify Orders, Order Lines, Shipping Charges, Refunds, Transactions, and Returns display presentment currency fields whenever the order or shop uses presentment currency. Shop currency values remain visible for reference.
 
 Enable **Auto Sync Orders** to receive real-time notifications whenever a new order is created in a Shopify store. When a notification is received, the Connector runs the **Sync Order from Shopify** batch job using **Job Queue Entries**.
 

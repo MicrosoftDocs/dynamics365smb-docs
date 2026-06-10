@@ -1,5 +1,5 @@
 ---
-title: Synchronize and transactions and payouts
+title: Synchronize transactions and payouts
 description: Set up and run import of transactions and payouts from Shopify.
 ms.date: 07/14/2025
 ms.topic: how-to
@@ -41,7 +41,7 @@ To review all payouts, choose the ![Lightbulb that opens the Tell Me feature.](.
 
 ## Payment method mapping
 
-To fill in the **Payment method code** for sales documents imported from Shopify automatically, you need to configure **Payment method mapping**.
+To fill in the **Payment Method Code** for sales documents imported from Shopify automatically, you need to configure **Payment Method Mapping**.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to define a mapping to open the **Shopify Shop Card** page.
@@ -103,10 +103,10 @@ However, because the sales order has a payment method code where the **Bal. Acco
   
 You can define balancing accounts for payment methods in two ways:
 
-* **Bal. Account Type** set as **Bank**, and **Bal Account No.** 
+* **Bal. Account Type** set as **Bank**, and **Bal. Account No.** 
 
    Fill in the special bank account that represents your account at the payment provider.
-* **Bal. Account Type** set as **G/L Account** and **Bal Account No.** 
+* **Bal. Account Type** set as **G/L Account** and **Bal. Account No.** 
    Fill in the G/L account that represents your account at the payment provider.
 
 It makes sense to use a bank account if the payment provider exports some kind of account statement, which you can import into the payment reconciliation journal.

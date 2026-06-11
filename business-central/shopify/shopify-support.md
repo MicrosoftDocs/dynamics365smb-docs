@@ -1,7 +1,7 @@
 ---
 title: Support for the Shopify Connector
 description: Support options related to the Shopify Connector.
-ms.date: 07/14/2025
+ms.date: 06/11/2026
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: andreipanko
@@ -28,6 +28,12 @@ Additionally, you can have a look at the [FAQ](shopify-faq.md), [Troubleshooting
 [!INCLUDE [prod_short](../includes/prod_short.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for consulting and other services. Your Microsoft partner is a valuable resource. If you don’t have one, you can use the [Contact a Microsoft partner](https://go.microsoft.com/fwlink/?linkid=828707) form.
 
 If there's a problem that the partner can't resolve, they can [submit a support request to Microsoft](/dynamics365/business-central/dev-itpro/administration//manage-technical-support#escalating-support-issues-to-microsoft).
+
+### Partner community on Viva Engage
+
+Microsoft hosts dedicated Viva Engage communities where partners can ask questions, share feedback, and discuss integration topics directly with the product team. Shopify Connector discussions happen in the **Integrations** group.
+
+To learn more, go to [Viva Engage for partners](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-viva-engage-partners).
 
 ## Shopify
 

@@ -216,7 +216,8 @@ Before you can add or delete permission sets applied to the agent, change the **
 
 ## Next steps
 
-[Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
+- [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
+- (Optional) [Configure text search language](admin-optimize-text-search-language.md) to optimize item lookups in multilingual environments
 
 ## Related information
 

@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 05/03/2026
+ms.date: 06/09/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk
@@ -95,6 +95,9 @@ The agent analyzes incoming emails to detect parameters for preparing a new sale
 |Extended text Line|Text|
 
 Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
+
+> [!TIP]
+> In multilingual environments like Belgium, Switzerland, or Canada, the agent's item lookup accuracy depends on the text search language setting. By default, modern search uses a neutral language setting for indexing. To optimize search performance for a specific language, configure the text search language from **Advanced Settings**. Learn more in [Configure text search language for multilingual environments](admin-optimize-text-search-language.md).
 
 > [!NOTE]
 > It might take up to 15 minutes for newly entered data to become searchable as the system reindexes the tables in the background.

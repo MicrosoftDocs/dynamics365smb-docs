@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.topic: article
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
-ms.date: 10/13/2025
+ms.date: 06/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
@@ -85,6 +85,10 @@ Another difference is that modern search finds words that *start* with the lette
 >   - The list doesn't include any columns that are designated for modern search.
 >
 > - If modern search is enabled for your environment, it's the default search method.
+
+### Configure the text search language
+
+By default, modern search uses a neutral language setting for indexing. If your organization operates in a multilingual environment, you can optimize search performance for a specific language. Learn more in [Configure text search language for multilingual environments](admin-optimize-text-search-language.md).
 
 ### Fine-tune the search by using filter criteria (legacy search only)
 

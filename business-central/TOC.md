@@ -2686,6 +2686,7 @@ ms.service: dynamics-365-business-central
 ### [View table information](admin-view-table-information.md)
 ### [Managing database indexes](manage-indexes.md)
 ### [Enable new features ahead of time](admin-feature-management.md)
+### [Configure text search language](admin-optimize-text-search-language.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
 ## [Copilot and agent capabilities](enable-ai.md)

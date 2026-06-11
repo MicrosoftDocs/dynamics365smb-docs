@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Quality management overview
 
+[!INCLUDE [introduced-in-2026rw1](includes/introduced-in-2026rw1.md)]
+
 Quality management is a quality inspection application for [!INCLUDE [prod_short](includes/prod_short.md)]. Quality management features can help you maintain product quality standards by creating inspections at key points in your purchasing, production, assembly, and warehouse management processes. 
 
 > [!NOTE]

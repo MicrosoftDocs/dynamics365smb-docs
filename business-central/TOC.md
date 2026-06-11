@@ -892,7 +892,7 @@ ms.service: dynamics-365-business-central
 ### Project management analytics
 <!-- Project management analytics start -->
 #### [Project management analytics overview](projects-analytics-overview.md)
-
+#### [Ad-hoc analysis of project data](ad-hoc-analysis-projects.md)
 #### [Power BI projects app](projects-powerbi-app.md)
 ##### [Projects Overview](projects-powerbi-project-overview.md)
 ##### [Projects Tasks](projects-powerbi-project-tasks.md)

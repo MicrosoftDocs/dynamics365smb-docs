@@ -52,8 +52,8 @@ To configure the Shopify shop, follow these steps:
 7. Turn on the **Auto Create Unknown Customers** toggle.
 8. Fill in the **Customer/Company Template Code** field with the appropriate template.
 9. Fill in the **Shipping Cost Account**, the **Tip Account** with the revenue account. For example, in the US, use **40210**.
-10. Turn on the **Auto Create Orders** toggle.
-11. Turn off the **Auto Release Sales Orders** toggle.
+10. Turn on the **Auto Create Sales Documents** toggle.
+11. Turn off the **Auto Release Sales Documents** toggle.
 
 Configure location mapping:
 
@@ -377,7 +377,7 @@ Configure the Shopify shop as described here:
 8. Turn on the **Auto Create Unknown Customers** toggle.
 9. Fill in the **Customer/Company Template Code** field with the appropriate template.
 10. In the **Company Import from Shopify** field, select **All Customers**.
-11. Turn on the **Auto Create Unknown Company** toggle.
+11. Turn on the **Auto Create Unknown Companies** toggle.
 
 #### Run the synchronization
 

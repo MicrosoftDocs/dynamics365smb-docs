@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: role explorer, find features, navigate
 ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
-ms.date: 09/30/2025
+ms.date: 06/12/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -68,7 +68,7 @@ Learn more about advanced Tell Me in [Finding pages and information with Tell Me
 To explore roles other than your own, select **Explore more roles**. Role explorer displays each role under its own heading, with links to its features. You can find and go to features just like you do when exploring your role.
 
 > [!NOTE]
-> You can only access roles that are set up to show in the role explorer. If a role isn't available, it probably isn't set up to show. To learn more, go to [Manage Profiles](admin-users-profiles-roles.md).
+> You can only view roles that are set up to show in the role explorer. If a role isn't available, it probably isn't set up to show. Learn more in [Manage Profiles](admin-users-profiles-roles.md#activate-a-profile).
 
 When you explore other roles, you can also narrow down your exploration by using the **Report & Analysis** and **Administration** actions.
 
@@ -77,28 +77,6 @@ When you explore other roles, you can also narrow down your exploration by using
 
 > [!TIP]
 > For developers, you categorize pages and reports by setting the [UsageCategory property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) in the object's AL code.
-<!--
- 
-## Role explorer actions
-
-There a several actions along the top of the role explorer to help you locate features of your role and other roles.
-
-|Action|Description|
-|------|------|
-|**All**|Shows all features that are related to the role.|
-|**Find**|Lets you enter a word or phrase to quickly locate feature names that match.|
-|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You can only access roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
-|**Report & Analysis**|This action Shows only those features that are categorized as reports and analysis features.|
-|**Administration**|Shows only those features that are categorized as administration features.|
-
-<!--
-Choose the **Find** action at the top of the role explorer to quickly locate feature names that contain a certain term.
-
-Choose the **Explore more roles** action at the top of the role explorer to get an overview of all business features that are available for all roles including your own.
-
-> [!NOTE]
-> Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
--->
 
 ## Expand and collapse nodes
 

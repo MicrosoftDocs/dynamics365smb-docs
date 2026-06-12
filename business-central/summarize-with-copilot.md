@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 05/03/2026
+ms.date: 05/20/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -79,9 +79,11 @@ You can easily share any summary with your coworkers by using the **Copy summary
 
 Business Central remembers if you collapsed, expanded, or hid the **Summary** the last time you had the page open.
 
-- To show the **Summary** part, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the top of the FactBox pane.
-- To hide the **Summary** part, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the top of the **Summary** part.
-- Because the **Summary** part is in the FactBox pane, it's hidden if the FactBox pane is collapsed. To show the FactBox pane, select the ![Shows the icon to expand the FactBox pane.](media/expand-factbox-icon.png) **Expand FactBox pane** icon.
+- To show **Summary**, at the upper-right corner of the FactBox, select <kbd>...</kbd> **Show more options for FactBox pane**, and then select **Summary**.
+
+  If the FactBox pane is collapsed, at the upper-right corner of the page, select the ![Shows the icon to expand the FactBox pane.](media/expand-factbox-icon.png) **Expand FactBox pane** icon to show it.
+
+- To hide **Summary**, at its lower-right corner, select <kbd>...</kbd> **Open Copilot summary menu**, and then select **Hide Copilot Summary**.
 
 ## Related information
 

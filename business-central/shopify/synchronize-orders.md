@@ -41,7 +41,7 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 * **Tip account**.
 * **Cash Rounding Account No.**. Learn more at [Working with Shopify POS](shopify-pos.md#order-handling)
   
-Turn on the **Auto Create Orders** toggle to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] when you import a Shopify order. If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as orders that contain only a gift card or which were already handled in Shopify, you can turn on the **Create Invoices From Orders** toggle then a **Sales Invoice** gets created. That setting can be useful when you delay the posting of a sales document because invoice doesn't affect inventory availability, but the order does.
+Turn on the **Auto Create Sales Documents** toggle to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] when you import a Shopify order. If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as orders that contain only a gift card or which were already handled in Shopify, you can turn on the **Create Invoices From Orders** toggle then a **Sales Invoice** gets created. That setting can be useful when you delay the posting of a sales document because invoice doesn't affect inventory availability, but the order does.
 
 If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] adds sales lines of the type **Comment** with the Shopify order number.
 
@@ -242,7 +242,7 @@ You can also mark an order as paid, which is useful in a B2B scenario where paym
 
 ## Create sales documents in Business Central
 
-If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, fix the problems, and then create the sales order again.
+If the **Auto Create Sales Documents** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, fix the problems, and then create the sales order again.
 
 ### To create sales documents
 

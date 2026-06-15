@@ -9,6 +9,7 @@ ms.search.keywords: app, apps, install, integration, Marketplace
 ms.date: 04/08/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.search.form: 2515_Primary
 ---
 
 # Manage Marketplace apps

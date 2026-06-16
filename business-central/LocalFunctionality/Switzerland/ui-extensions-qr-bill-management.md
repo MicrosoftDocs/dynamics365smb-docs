@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.search.form: 11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 11518
-ms.date: 05/02/2025
+ms.date: 06/15/2026
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -15,6 +15,13 @@ ms.reviewer: v-soumramani
 # QR-bill Management in the Swiss version
 
 Since July 1, 2020, companies in Switzerland must be able to receive QR-bills. QR-bills are payment slips that follow invoices, and are part of a country-wide initiative to streamline payment processes. QR-bills replace all existing payment slips and ESR-related functionality. They contain all the information needed to make payments, and a QR code on the payment slip makes it easy to import the information into [!INCLUDE[prod_short](../../includes/prod_short.md)]. All relevant information is imported and used to generate payments for the vendor who sent the QR-bill, including the payment reference, which automatically gets included in vendor ledger entries and exported in payment files to the bank.
+
+> [!IMPORTANT]
+> Starting from October 2026, Swiss QR invoices require structured addresses, with the street name and building number entered separately. Follow these instructions to comply with the requirements:
+>
+> When **Address Type** on the **QR-Bill Setup** page is set to **Structured**, the QR code encodes each party’s address by using separate fields for the street name and building number, as required by the Swiss QR-Bill standard. Business Central maps these values from the existing address fields: **Address** is used for the street name, and **Address 2** is used for the building number. This mapping applies to your company on the **Company Information** page and to the bill-to customer on the posted invoice.
+>
+> To produce a valid structured QR-Bill, enter only the street name in the **Address** field, for example, Bahnhofstrasse, and enter the building number in **Address 2**, for example, 10. Don't combine the street name and building number in a single field. If you prefer to keep the full address on one line, set **Address Type** to **Combined**, which concatenates both fields into a single address line in the QR code.
 
 ## <a name="get-started"></a>Get started with the QR-Bill Management extension
 
@@ -38,7 +45,7 @@ When you create a QR-bill you can include billing information in the SWICO forma
 
 ## Understanding the payment reference
 
-Payment processes are all about paying the right amount to the right party, and making it easy for them to reconcile payments to close outstanding accounts. The QR-Bill Management extension handles these processes by generating a payment reference for QR-bills that is unique to invoices issued in a specific company, which means the same payment reference can't be issued more than once.  
+Payment processes are all about paying the right amount to the right party, and making it easy for them to reconcile payments to close outstanding accounts. The QR-Bill Management extension handles these processes by generating a payment reference for QR-bills that's unique to invoices issued in a specific company, which means the same payment reference can't be issued more than once.  
 
 If your customer is also using [!INCLUDE[prod_short](../../includes/prod_short.md)], the payment reference is imported when receiving QR-bills, transferred to their **Vendor Ledger Entries** page, and used as a reference when creating vendor payments. Learn more in [Receiving QR-Bills](ui-extensions-qr-bill-management.md#receiving-qr-bills).
 

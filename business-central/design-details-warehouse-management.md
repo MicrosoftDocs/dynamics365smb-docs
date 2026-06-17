@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 05/19/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ---
 
@@ -228,7 +228,7 @@ If you select the **Pick According to FEFO** checkbox on the **Bin Policies** Fa
 
 Warehouse activities in all pick and movement documents are sorted according to FEFO, unless the items have serial or lot numbers assigned. If some, but not all, of the quantity on the line has serial or lot numbers assigned, the remaining quantity is sorted according to FEFO.  
 
-When using FEFO, items that expire first are gathered in a temporary item tracking list based on the expiration date. If two items have the same expiration date, the item with the lowest lot or serial number is picked first. If the lot or serial numbers are the same, the item that was registered first is selected first. Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to the temporary FEFO item tracking list.  
+When you use FEFO, items that expire first are gathered in a temporary item tracking list based on the expiration date. If two items have the same expiration date, the item with the lowest lot or serial number is picked first. If the lot or serial numbers are the same, the item that was registered first is selected first. Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to the temporary FEFO item tracking list.  
 
 Learn more at [Enable Picking Items by FEFO](warehouse-picking-by-fefo.md).
 

@@ -69,7 +69,7 @@ If you want to find all blue chairs in the CRONUS demo company, you might enter 
 
 If you want to mimic the behavior of legacy search when you use modern search, you can enclose your search text in quotation marks, just as you can do in popular search engines. In this way, you refine the results by excluding any that aren't exact matches. For example, if you enter `"blue chair"` as the search text, modern search returns no results, because that exact text doesn't occur in any item name in the demo data.
 
-Another difference is that modern search finds words that *start* with the letters you entered. If you enter 'hair', it doesn't find the word 'chair'.
+Another difference is that modern search finds words that start with the letters you entered. If you enter "hair", it doesn't find the word "chair."
 
 > [!NOTE]
 >
@@ -148,7 +148,7 @@ The filter pane is divided into three sections: **Views**, **Filter list by**, a
     > [!NOTE]
     > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. Learn about the technical aspects of FlowFilters in [FlowFilters overview](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-By using the filter pane, you can set a simple filter directly on a list to show only records that have the same value as a selected cell. Select a cell in the list, select the dropdown arrow, and then select the **Filter to This Value** action. Alternatively, select <kbd>Alt</kbd>+<kbd>F3</kbd>.
+By using the filter pane, you can set a filter directly on a list to show only records that have the same value as a selected cell. Select a cell in the list, select the dropdown arrow, and then select the **Filter to This Value** action. Alternatively, select <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
 ### Set filters in reports, batch jobs, and XMLports
 
@@ -162,7 +162,7 @@ In the **Filter totals by** section, you can adjust various dimensions that infl
 
 Both in the filter pane and on a request page, you enter your filter criteria in the box under the filter field.
 
-The type of the filter field determines which criteria you can enter. For example, to filter a field that has fixed values, you can select only among those values. Learn more about special filter symbols in the [Filter criteria and operators](#FilterCriteria) and [Filter tokens](#FilterTokens) sections.
+The type of the filter field determines the criteria you can enter. For example, for fields with fixed values, you can only filter on those values. Learn more about special filter symbols in the [Filter criteria and operators](#FilterCriteria) and [Filter tokens](#FilterTokens) sections.
 
 The ![Filter icon.](media/ui-search/filter-icon.png "Filter icon") symbol in the column heading indicates columns that already have filters. To remove a filter, select the dropdown arrow, and then select the **Clear Filter** action.
 
@@ -295,7 +295,7 @@ This requirement applies only to the five symbols in the preceding list.
 
 ### <a name="FilterTokens"></a>Filter tokens
 
-When you enter filter criteria, you can also enter *filter tokens*, which are words that have special meaning. After you enter a filter token, it's replaced by the value or values that it represents. Filter tokens make filtering easier, because you don't have to open other pages to look up values that you want to add to your filter. The following sections describe some of the tokens that you can enter as filter criteria.
+When you enter filter criteria, you can also enter *filter tokens*, which are words that have special meaning. After you enter a filter token, the value or values that it represents replace it. Filter tokens make filtering easier, because you don't have to open other pages to look up values that you want to add to your filter. The following sections describe some of the tokens that you can enter as filter criteria.
 
 > [!TIP]
 > Your organization might use custom tokens. To learn about the complete set of tokens that's available to you, or to add more custom tokens, contact your administrator. Learn about the technical aspects of filter tokens in [Adding Custom Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).

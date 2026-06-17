@@ -1,14 +1,14 @@
 ---
 title: Working with Power BI reports in Business Central
-description: Get insight, business intelligence, and KPIs from your Business Central data with Power BI.
+description: Get insight, business intelligence, and key performance indicators from your Business Central data with Power BI.
 author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/23/2025
+ms.date: 06/17/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Work with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -95,7 +95,7 @@ Learn more in [Configure scheduled refresh](/power-bi/connect-data/refresh-sched
 Learn more about how to create reports for list pages in [Creating [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 > [!TIP]
-> If the Power BI FactBox isn't available, it might be hidden on your workspace by personalization. Select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then select **Personalize** action. Learn more in [Personalize Your Workspace](ui-personalization-user.md).
+> If the Power BI FactBox isn't available, it might be hidden on your workspace. For example, by personalization. Select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then select **Personalize** action. Learn more in [Personalize Your Workspace](ui-personalization-user.md).
 >
 > Or, if you have an older version of [!INCLUDE [prod_short](includes/prod_short.md)], on the action bar, select **Actions**, then **Display**, and then **Show/Hide [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports**.
 

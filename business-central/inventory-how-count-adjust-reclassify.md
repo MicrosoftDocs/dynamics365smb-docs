@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 06/10/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ---
 # Count, adjust, and reclassify inventory using journals
@@ -31,7 +31,7 @@ To check whether the quantity registered is the same as the physical quantity in
 > [!NOTE]
 > This procedure describes how to do a physical inventory using a journal on the **Phys. Inventory Journal** page. You can use documents on the **Physical Inventory Order** and **Physical Inventory Recording** pages. These documents offer more control and support for distributing the counting work to multiple employees. Learn more at [Count Inventory Using Documents](inventory-how-count-inventory-with-documents.md).
 >
-> Note that you can't use the document-based functionality to count items in bins or warehouse entries.
+> You can't use the document-based functionality to count items in bins or warehouse entries.
 
 The counting process also involves the following tasks:
 
@@ -58,14 +58,14 @@ Depending on your warehouse setup, count physical inventory in one of the follow
 ### To print the report to be used when counting
 
 1. On the **Physical Inventory Journals** page containing the calculated expected inventory, Choose the **Print** action from **Home**.
-2. On the **Physical Inventory List** page, specify whether the report will show the calculated quantity and inventory items by serial and lot numbers.
+2. On the **Physical Inventory List** page, specify whether the report shows the calculated quantity and inventory items by serial and lot numbers.
 3. Set filters if you only want to print the report for certain items, bins, locations, or dimensions.
 4. Choose **Print**.
 
 Warehouse employees can now count inventory and record any differences on the printed report.
 
 > [!NOTE]
-> It can take several days before printed reports come back for final processing and posting. When you specify and post actual counted inventory, the system adjusts inventory to reflect the difference between the expected and the actual counted inventory. You must keep the originally calculated journal lines and not recalculate the expected inventory, because the expected inventory may change and lead to incorrect inventory levels. If you need to issue multiple reports, such as for different locations or group of items, you must create and keep separate journal batches.
+> It can take several days before printed reports come back for final processing and posting. When you specify and post actual counted inventory, the system adjusts inventory to reflect the difference between the expected and the actual counted inventory. You must keep the originally calculated journal lines and not recalculate the expected inventory, because the expected inventory might change and lead to incorrect inventory levels. If you need to issue multiple reports, such as for different locations or group of items, you must create and keep separate journal batches.
 
 ### To enter and post the actual counted inventory in basic warehouse configurations
 
@@ -151,7 +151,7 @@ Counting physical inventory is typically a recurring task, for example monthly, 
 3. Count the physical inventory. Learn more at [To count physical inventory](inventory-how-count-adjust-reclassify.md#to-count-physical-inventory).  
 
    > [!NOTE]  
-   > Count the item in all bins that contain it. If you delete bin lines that were retrieved for counting on the **Whse. Phys. Inventory** page, the count will be incorrect when you post it in a physical inventory journal.  
+   > Count the item in all bins that contain it. If you delete bin lines that were retrieved for counting on the **Whse. Phys. Inventory** page, the count is incorrect when you post it in a physical inventory journal.  
 
 ## To adjust the quantity of one item
 

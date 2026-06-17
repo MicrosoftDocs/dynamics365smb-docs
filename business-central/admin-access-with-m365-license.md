@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: overview
-ms.date: 06/20/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ms.search.form: 1978
@@ -14,10 +14,9 @@ ms.search.form: 1978
 
 # Business Central access with Microsoft 365 licenses
 
-Users with a Business Central license can view, modify, and act on their business data from any user interface. For other employees across your organization that only need to occasionally view data, Business Central offers access through Microsoft 365.  
+Users with a [!INCLUDE [prod_short](includes/prod_short.md)] license can view, modify, and act on their business data from any user interface. For other employees across your organization that only need to occasionally view data, [!INCLUDE [prod_short](includes/prod_short.md)] offers access through Microsoft 365.  
 
-If your organization has both a Business Central and a Microsoft 365 subscription, admins set up environments so users sign in with Microsoft 365 licenses but can access only specific tables and other objects. When configured, employees that have a Microsoft 365 license but no [!INCLUDE [prod_short](includes/prod_short.md)] license can view [!INCLUDE [prod_short](includes/prod_short.md)] records that are shared with them in Microsoft Teams chat and channels.
-
+If your organization has both a [!INCLUDE [prod_short](includes/prod_short.md)] and a Microsoft 365 subscription, admins set up environments so users sign in with Microsoft 365 licenses but can access only specific tables and other objects. When configured, employees that have a Microsoft 365 license but no [!INCLUDE [prod_short](includes/prod_short.md)] license can view [!INCLUDE [prod_short](includes/prod_short.md)] records that are shared with them in Microsoft Teams chat and channels.
 
 ## Why enable access with Microsoft 365 licenses  
 
@@ -40,19 +39,19 @@ If your organization has both a Business Central and a Microsoft 365 subscriptio
 ## Use rights
 
 When a person accesses [!INCLUDE [prod_short](includes/prod_short.md)] with a Microsoft 365 license, the license entitles the user to read (but not write) [!INCLUDE [prod_short](includes/prod_short.md)] data through a simplified user interface in Microsoft Teams. This section explains these use rights and limitations that help you plan how to configure and make the most out of this capability. Learn more about this license type compared to other [!INCLUDE [prod_short](includes/prod_short.md)] licenses in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
- 
+
 ### Client access
 
 Users are entitled to access [!INCLUDE [prod_short](includes/prod_short.md)] data in Microsoft Teams. The following table summarizes which of the different methods of accessing the [!INCLUDE [prod_short](includes/prod_short.md)] service are allowed with this license.
 
-|Client accessing the Business Central service |Access|
+|Client accessing the [!INCLUDE [prod_short](includes/prod_short.md)] service |Access|
 |-|-|
-|Business Central app for Microsoft Teams|![Yes](media/check.png)|
+|[!INCLUDE [prod_short](includes/prod_short.md)] app for Microsoft Teams|![Yes](media/check.png)|
 |Business Central Web client |![No](media/x-icon.png ) |
-|Business Central mobile apps|![No](media/x-icon.png )|
-|Business Central APIs|![No](media/x-icon.png )|
-|Business Central integrations with other Office applications|![No](media/x-icon.png )|
-|Business Central embedded in any other applications |![No](media/x-icon.png )|
+|[!INCLUDE [prod_short](includes/prod_short.md)] mobile apps|![No](media/x-icon.png )|
+|[!INCLUDE [prod_short](includes/prod_short.md)] APIs|![No](media/x-icon.png )|
+|[!INCLUDE [prod_short](includes/prod_short.md)] integrations with other Office applications|![No](media/x-icon.png )|
+|[!INCLUDE [prod_short](includes/prod_short.md)] embedded in any other applications |![No](media/x-icon.png )|
 
 ### Data access
 
@@ -60,7 +59,7 @@ Users are entitled to read table data but can't modify, create, or delete record
 
 ### Use of objects
 
-Access with Microsoft 365 licenses doesn't restrict which Business Central objects or object ranges can be accessed. Users are entitled to access the Microsoft base application and any extensions such as customizations and add-on apps.
+Access with Microsoft 365 licenses doesn't restrict which [!INCLUDE [prod_short](includes/prod_short.md)] objects or object ranges can be accessed. Users are entitled to access the Microsoft base application and any extensions such as customizations and add-on apps.
 
 ## Simplified user interface
 
@@ -145,7 +144,7 @@ This section explains the minimum requirements for your organization to use Micr
 
 ## Next steps
 
-- Get an understanding of the user access flow to help plan your approach and configuration of Business Central to match the business needs. Learn more in [User Access Flow](admin-access-with-m365-license-flow.md).
+- Get an understanding of the user access flow to help plan your approach and configuration of [!INCLUDE [prod_short](includes/prod_short.md)] to match the business needs. Learn more in [User Access Flow](admin-access-with-m365-license-flow.md).
 - Set up your environment and users for access with Microsoft 365 licenses. Learn more in [Set Up Access with Microsoft 365 Licenses ](admin-access-with-m365-license-setup.md).
 - Get troubleshooting tips if you run into problems. Learn more in [Business Central troubleshooting](/troubleshoot/dynamics-365/business-central/welcome-business-central).
 

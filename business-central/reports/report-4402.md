@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4402_Primary
-ms.date: 12/13/2024
+ms.date: 06/17/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -21,9 +21,9 @@ The **Aged Accounts Receivable Excel** report uses customer ledger entries to ag
 
 The report Excel workbook contains four worksheets that you can use to analyze your aged accounts receivables:
 
-- By period (LCY),
-- By Period (FCY),
-- Due by Currencies, and
+- By period (LCY)
+- By Period (FCY)
+- Due by Currencies
 - CustomerAgingData
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]

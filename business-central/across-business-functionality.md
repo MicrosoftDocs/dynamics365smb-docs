@@ -6,7 +6,7 @@ ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/13/2025
+ms.date: 06/17/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -32,10 +32,10 @@ ms.reviewer: v-soumramani
 |Manage and support your sales efforts, and focus your interactions on preferred customers and contacts.|[Relationship Management](marketing-relationship-management.md)|
 |Keep detailed records of your employees, and register absences for analysis purposes. |[Human Resources](hr-manage-human-resources.md)|
 |Plan the production operations required to transform inputs into finished goods.|[Planning](production-planning.md)|
-|Put salable items together in simple steps to make a new item, such as a kit.|[Assembly Management](assembly-assemble-items.md)|
+|Combine items into a new, sellable item, such as a kit.|[Assembly Management](assembly-assemble-items.md)|
 |Define shop floor resources and their capacity, schedule operations, pull production components, and execute production operations.|[Manufacturing](production-manage-manufacturing.md)|
 |Ensure an effective flow of received and shipped goods.|[Warehouse Management Overview](design-details-warehouse-management.md)|
-|Schedule service calls and set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
+|Schedule service calls, set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Request and grant approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 |Enable users to exchange data with external sources during daily tasks, such as send/receive electronic documents, import/export bank files, and update currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|
 |Record external documents in [!INCLUDE[prod_short](includes/prod_short.md)], including their file attachments, then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 06/16/2025
+ms.date: 06/16/2026
 ms.custom: bap-template
 
 ---
@@ -38,10 +38,10 @@ The exchange rates are the tool to calculate the local currency value (LCY) of e
 |**Starting Date**|The date when the currency rate was effective.|  
 |**Currency Code**|The currency code related to this exchange rate.|  
 |**Relational Currency Code**|If this currency is part of a triangular currency calculation, then you can set up the related currency code here.|  
-|**Exchange Rate Amount**|The exchange rate amount is the rate for the currency code selected on the line. Normally 1 or 100.|  
+|**Exchange Rate Amount**|The exchange rate amount is the rate for the currency code. Normally 1 or 100.|  
 |**Relational Exch. Rate Amount**|The relational exchange rate amount relates to the rate to use for the relational currency code.|  
-|**Adjustment Exch. Rate Amount**|The rate for the currency code selected on the line for the use of the **Adjust Exchange Rates** batch job.|  
-|**Relational Adjmt Exch. Rate Amt**|The rate for the currency code selected on the line for the use of the **Adjust Exchange Rates** batch job.|  
+|**Adjustment Exch. Rate Amount**|The rate for the currency code for the use of the **Adjust Exchange Rates** batch job.|  
+|**Relational Adjmt Exch. Rate Amt**|The rate for the currency code for the use of the **Adjust Exchange Rates** batch job.|  
 |**Fix Exchange Rate Amount**|Specifies if the currency's exchange rate can be changed on invoices and journal lines.|  
 
 In general, the values of the **Exchange Rate Amount** and **Relational Exchange Rate Amount** fields are used as the default currency rate on all new receivables and payables documents that are created going forward. The currency rate is assigned to the document according to the current working date.  
@@ -65,7 +65,7 @@ Because exchange rates fluctuate constantly, you need to adjust other currency e
 You can use the **Adjust Exchange Rates** batch job to manually adjust the exchange rates for posted customer, vendor, and bank account entries. The batch job can also update other reporting currency amounts on G/L entries.  
 
 > [!TIP]
-> You can use a service to update exchange rates automatically. To learn more, go to [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Exchange Rates Adjustment** batch job.
+> You can use a service to update exchange rates automatically. To learn more, go to [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, the service doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Exchange Rates Adjustment** batch job.
 
 You can also specify how the adjustment handles dimensions for unrealized gains and losses postings by choosing one of the following options in the **Dimension Posting** field:  
 
@@ -101,7 +101,7 @@ The batch job processes all open customer ledger entries and vendor ledger entri
 
 ### Effect on bank accounts
 
-For bank accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date specified in the batch job. The batch job calculates the differences for each bank account that has a currency code and posts the amounts to the general ledger account that is specified in the **Realized Gains Acc.** field or the **Realized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the general ledger bank accounts that are specified in the bank account posting groups. The batch job calculates one entry per currency per posting group.
+For bank accounts, the batch job adjusts the currency by using the exchange rate that's valid on the posting date specified in the batch job. The batch job calculates the differences for each bank account that has a currency code and posts the amounts to the general ledger account that is specified in the **Realized Gains Acc.** field or the **Realized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the general ledger bank accounts that are specified in the bank account posting groups. The batch job calculates one entry per currency per posting group.
 
 #### Dimensions on bank account entries
 
@@ -125,7 +125,7 @@ Adjustment entries are assigned the default dimensions from the accounts they po
 You can use an external service to keep your currency exchange rates up to date.
 
 > [!NOTE]
-> Most exchange rate services provide data that is compatible with the import process in [!INCLUDE[prod_short](includes/prod_short.md)]. However, sometimes the data is formatted differently and you need to customize your import process. You can use the data exchange framework to do that by adding your own codeunit. You might need some help from a developer to do that. To learn more, go to [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
+> Most exchange rate services provide data that's compatible with the import process in [!INCLUDE[prod_short](includes/prod_short.md)]. However, sometimes the data is formatted differently and you need to customize your import process. You can use the data exchange framework to do that by adding your own codeunit. You might need some help from a developer to do that. To learn more, go to [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Currency Exchange Rate Services**, and then select the related link.
 2. Select the **New** action.
@@ -153,7 +153,7 @@ Follow the steps given to update the currency exchange rates through a service:
 Every now and then, you might need to correct a mistake in a payment transaction for adjustments to foreign currency gains and losses. You can use the **Reverse transaction** action on the **Bank Account Ledger Entries**, **Customer Ledger Entries**, and **Vendor Ledger Entries** pages to unapply and reverse the payment transaction.
 
 > [!NOTE]
-> When you unapply and reverse a payment for an entry that had exchange rate adjustments, the reversal posts reversal entries for the adjustments. You might have to run the currency exchange rate adjustment again to get the correct current balance.
+> When you unapply and reverse a payment for an entry that had exchange rate adjustments, you post reversal entries for the adjustments. You might have to run the currency exchange rate adjustment again to get the correct current balance.
 
 ## Related information
 

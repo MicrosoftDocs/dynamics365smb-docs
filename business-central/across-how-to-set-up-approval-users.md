@@ -3,10 +3,10 @@ title: Set up approval users
 description: Set up users for approval workflows by assigning approvers, setting amount limits, and defining substitutes.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 663_Primary
-ms.date: 10/16/2025
+ms.date: 06/17/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.search.keywords: approval users, setup approval users, configure approval users
@@ -41,7 +41,7 @@ After you set up approval users, you can create workflow responses for approval 
    |**Unlimited Request Approval**|Specify that the person identified in the **User ID** field can approve all purchase quotes regardless of the amount.<br /><br /> If you select this checkbox, you can't fill in the **Request Amount Approval Limit** field.|
    |**Substitute**|Select the user ID of the person who approves requests made by the person identified in the **User ID** field if the user in the **Approver ID** isn't available. <br /><br />**Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. Learn more at [Use Approval Workflows](across-how-use-approval-workflows.md).|
    |**Email**|Specify the email address of the person in the **User ID** field.|
-   |**Approval Administrator**|Specify the user who has permission to unblock approval workflow, such as by delegating approval requests to new substitute approvers or deleting overdue approval requests.<br /><br />**Note** Only one person can be the approval administrator.|
+   |**Approval Administrator**|Specify the user who has permission to unblock approval workflow. For example, by delegating approval requests to new substitute approvers or deleting overdue approval requests.<br /><br />Only one person can be the approval administrator.|
 
 3. To test the approval user setup, choose the **Approval User Setup Test** action.  
 4. Repeat steps 2 and 3 for every person you want to set up as an approval user.  

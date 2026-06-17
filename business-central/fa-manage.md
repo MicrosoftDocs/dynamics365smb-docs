@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: machinery, buildings, fixed assets
 ms.search.form: 5601_Primary, 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
-ms.date: 10/03/2025
+ms.date: 06/17/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -38,7 +38,7 @@ Fixed asset accounting means keeping precise financial records about your capita
 - Depreciation: You record an asset's periodic decline in value, which you use a depreciation method to calculate. Learn more in [FA Depreciation Calculation](LocalFunctionality/India/FA_Depreciation.md).
 - Revaluation: You record an assessment of the current fair market value of an asset. Learn more in [Revalue Fixed Assets](fa-how-revalue.md).
 - Impairment: You record a reduction in value due to events or circumstances.
-- Disposal: You sell, scrap, or use another way dispose of an asset at the end of its service life.
+- Disposal: You sell, scrap, or use another way to dispose of an asset at the end of its service life.
 
 Audits are also included in the detailed checks of your company’s accounting records after closing the books for the financial year. Whether internal or external, audits are where you might notice inconsistencies or differences between your notes and the actual state of your assets. Audits promote transparency in your assets and accounting if you’re losing more money than anticipated.
 
@@ -67,7 +67,7 @@ This section describes the analytical tools you can use to get insights into dat
 | To... | Go to... |
 |--|--|
 | Learn about capabilities for analyzing data about fixed assets. | [Fixed assets analytics overview](fa-analytics-overview.md) |
-| Do ad-hoc analysis of fixed assets data directly on list pages and queries. | [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) |
+| Do ad-hoc analysis of fixed assets data directly on list pages and queries. | [Ad hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) |
 | Explore built-in reports for fixed assets. | [Built-in fixed assets reports](fa-reports.md) |
 | Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs) |
 | Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#monitor-insurance-coverage) |
@@ -78,7 +78,7 @@ This section describes the analytical tools you can use to get insights into dat
 
 For each fixed asset, you must set up a card that contains information about them. For example, you can set up buildings or production equipment as main assets with a component list. You can group assets in various ways, such as by class, department, or location. Then you can acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. Budgeting lets you include any anticipated acquisitions and sales in reports.
 
-| To  | Go to... |
+| To...  | Go to... |
 | --- | --- |
 | Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 | Create fixed assets, assign depreciation methods, post acquisitions, salvage values, and print fixed asset lists. |[Acquire Fixed Assets](fa-how-acquire.md) |
@@ -93,7 +93,7 @@ To track fixed asset depreciations and other financial transactions for fixed as
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports several depreciation methods. Learn more in [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books for each fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
 
-| To | Go to... |
+| To... | Go to... |
 |--|--|
 | Learn about different fixed asset depreciation methods. | [Depreciation Methods](fa-depreciation-methods.md) |
 | Calculate depreciation, post depreciation, and analyze depreciation in fixed assets reports. | [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md) |
@@ -104,7 +104,7 @@ To track fixed asset depreciations and other financial transactions for fixed as
 
 You can record maintenance costs and the next service date for each asset. Tracking maintenance expenses can be important for budgeting purposes and deciding whether to replace a fixed asset. You can attach each fixed asset to one or more insurance policies, and verify that policy premiums align with the value of the assets.
 
-| To | Go to... |
+| To... | Go to... |
 |--|--|
 | Record service visits, post maintenance costs, and monitor maintenance costs. | [Maintain Fixed Assets](fa-how-maintain.md) |
 | Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs) |
@@ -113,7 +113,7 @@ You can record maintenance costs and the next service date for each asset. Track
 
 ## Reclassify, transfer, split up/combine, adjust value, write-down, and dispose fixed assets
 
-| To | Go to... |
+| To... | Go to... |
 |--|--|
 | Reclassify fixed assets, transfer fixed assets to different locations, split up or combine assets. | [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md) |
 | Adjust values of fixed assets, post appreciation, and post write-down transactions. | [Revalue Fixed Assets](fa-how-revalue.md) |

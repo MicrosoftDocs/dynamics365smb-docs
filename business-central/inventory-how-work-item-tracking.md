@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550, 
-ms.date: 07/14/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -14,14 +14,14 @@ ms.service: dynamics-365-business-central
 
 You can assign serial numbers, lot numbers, and package numbers to outbound and inbound documents. The posted item tracking entries display on the related item ledger entries. You track items on the **Item Tracking Lines** page, which you can open from inbound or outbound documents.
 
-The quantity fields at the top of the **Item Tracking Lines** page display the quantities and sums of item tracking numbers that are defined on the lines. The quantities must correspond to the quantities on the document lines, which is indicated by *0* in the **Undefined** fields.
+The quantity fields at the top of the **Item Tracking Lines** page display the quantities and sums of item tracking numbers that are defined on the lines. The quantities must correspond to the quantities on the document lines, as indicated by *0* in the **Undefined** fields.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] updates the availability information on the **Item Tracking Lines** page when you open the page. It doesn't update the information while you have the page open, even if changes occur in inventory or on other documents during that time.
 
 > [!NOTE]  
 > To use the features that this article describes, you must set up item tracking. To learn more, go to [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md).
 >
-> You can enter **SN No.**, **Lot No.**, or **Package No.** even if their specific tracking fields aren't available. This is helpful, for example, when you need to record tracking details during receipt for warranty purposes but don't track them in transfers, consumption, or sales. However, these scenarios might not align with warehouse flows if you use warehouse handling but only input tracking details for enabled fields. For example, if you only turn on **SN Specific Tracking**, don't fill in the **Lot No.** or **Package No.** fields in transactions.
+> You can enter **SN No.**, **Lot No.**, or **Package No.** even if their specific tracking fields aren't available. This information is helpful, for example, when you need to record tracking details during receipt for warranty purposes but don't track them in transfers, consumption, or sales. However, these scenarios might not align with warehouse flows if you use warehouse handling but only input tracking details for enabled fields. For example, if you only turn on **SN Specific Tracking**, don't fill in the **Lot No.** or **Package No.** fields in transactions.
 
 ## Specify opening balances for the items you track
 
@@ -78,7 +78,7 @@ The tracking numbers automatically transfer to all outbound warehouse activities
 
 [!INCLUDE [prod_short](includes/prod_short.md)] creates a lot number with individual serial numbers according to the item quantity on the document line. The number is prefixed with the value you entered in the **Customized SN** field. For example, starting from **S/N-Vend0001**.  
 
-The quantity fields in the header dynamically display the quantities and sums of the item tracking numbers you define on the page. The quantities must correspond to the quantities on the document lines, which is indicated by **0** in the **Undefined** field.  
+The quantity fields in the header dynamically display the quantities and sums of the item tracking numbers you define on the page. The quantities must correspond to the quantities on the document lines, as indicated by **0** in the **Undefined** field.  
 
 When you post the document, the item tracking entries transfer to the item ledger entries.
 
@@ -119,7 +119,7 @@ Outbound handling of serial or lot numbers is a frequent task in different wareh
 
 ### To select from existing serial or lot numbers  
 
-When you work with items that require item tracking, and you're creating outbound transactions, you'll typically from select existing lot or serial numbers.
+When you work with items that require item tracking, and you're creating outbound transactions, you typically select from existing lot or serial numbers.
 
 1. From any outbound document, select the line that you want to select serial or lot numbers for.  
 2. On the **Lines** FastTab, choose the **Line** action, then **Related Information**, and then select **Item Tracking Lines**.  
@@ -140,7 +140,7 @@ When you post the document line, the item tracking information transfers to the 
 
 When you work with serial, lot, and package numbers, [!INCLUDE[prod_short](includes/prod_short.md)] calculates availability information and shows it on various item tracking pages. It shows how much of a lot, package, or serial number is used on other documents. This information helps reduce errors and uncertainty caused by double allocations.
 
-On the **Item Tracking Lines** page, a warning icon might display in the **Availability, Lot No.** or **Availability, Serial No.** field for the following reasons:
+On the **Item Tracking Lines** page, a warning icon might display in the **Availability, Lot No.** or **Availability, Serial No.** fields for the following reasons:
 
 * Some or all of the quantity you selected is already used in other documents.
 * The lot or serial number isn't available.
@@ -152,10 +152,10 @@ The **Lot No./Serial No.-List**, **Lot No./Serial No.-Availability**, and the **
 |**Total Quantity**|The total number of an item currently in inventory.|
 |**Total Requested Quantity**|The total number of items that are requested in this and other documents.|
 |**Current Pending Quantity**|The number of items that are requested on the current document but that isn't posted.|
-|**Current Requested Quantity**|The number of requested items that the current document will use.|
+|**Current Requested Quantity**|The number of requested items that the current document uses.|
 |**Total Available Quantity**|The total number of items in inventory, minus the quantity of the requested item on this and other documents (total requested quantity), minus the requested quantity that isn't yet posted on this document (current pending quantity).|
 
-If you work on the **Item Tracking Lines** page for a long time, or if its a popular item involved in many activities, you can choose the **Refresh Availability** action. Also, the availability of the item is automatically rechecked when you close the page to confirm that there aren't availability problems.
+If you work on the **Item Tracking Lines** page for a long time, or if it's a popular item involved in many activities, you can choose the **Refresh Availability** action. Also, the availability of the item is automatically rechecked when you close the page to confirm that there aren't availability problems.
 
 
 ### To assign new serial or lot numbers  

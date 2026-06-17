@@ -7,13 +7,13 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16_Primary, 17, 18, 118, 386, 391
-ms.date: 05/19/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 # Set up or change the chart of accounts
 
-The chart of accounts (COA) shows the ledger accounts that store your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard COA that is ready to support your business. You can, however, change the default accounts, and you can add new accounts.
+The chart of accounts (COA) shows the ledger accounts that store your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard COA that's ready to support your business. You can, however, change the default accounts, and you can add new accounts.
 <br><br>  
 
 > [!Video https://learn-video.azurefd.net/vod/player?id=944c65b0-9b0f-4d35-b330-de2fad57143a]

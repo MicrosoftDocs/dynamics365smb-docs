@@ -7,8 +7,8 @@ ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate, instant flow
-ms.search.form: 1500
-ms.date: 10/16/2025
+ms.search.form: 1500,
+ms.date: 06/17/2026
 ms.custom: bap-template 
 ---
 

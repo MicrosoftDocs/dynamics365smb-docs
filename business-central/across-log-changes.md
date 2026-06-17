@@ -3,11 +3,11 @@ title: Auditing changes
 description: Track changes to data in selected tables and monitor user activities with change logs and activity logs in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: user log, user activity, tracking, audit changes
 ms.search.form: 592_Primary, 593_Primary, 594_Primary, 595_Primary, 710, 1366_Primary, 1367_Primary, 1368_Primary, 1369_Primary
-ms.date: 10/16/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -45,7 +45,7 @@ On the **Change Log Setup** page, you can turn on or turn off the change log. Wh
 On the **Change Log Setup** page, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[prod_short](includes/prod_short.md)] also tracks several system tables.
 
 > [!NOTE]
-> You can monitor specific fields for changes, such as fields that contain sensitive data, by setting up field monitoring. If you do, to avoid redundancy the table that contains the field will not be available for the change log setup. Learn more in [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields).
+> You can monitor specific fields for changes, such as fields that contain sensitive data, by setting up field monitoring. If you do, to avoid redundancy the table that contains the field isn't available for the change log setup. Learn more in [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields).
 
 After you set up the change log, activated it, and made a change to data, you can view and filter the changes on the **Change Log Entries** page. If you want to delete entries, set up a retention policy, where you can set filters based on dates and time. Learn more in [Define Retention Policies](admin-data-retention-policies.md) for information about retention policies.  
 
@@ -123,7 +123,7 @@ Keeping sensitive data secure and private is a core concern for most businesses.
 You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. Learn more in [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who receives an email notification when a change occurs, and the email account that sends the notification. Specify both the user to notify and the account from which to send the notification. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page.
 
 > [!NOTE]
-> When you specify the email account from which to send notifications, you must add either the **Microsoft 365** or **SMTP** account types. Notifications should be sent from an account that isn't associated with an actual user. Therefore you can't choose the **Current User** account type. If you do, notifications will not be sent.
+> When you specify the email account from which to send notifications, you must add either the **Microsoft 365** or **SMTP** account types. Notifications should be sent from an account that isn't associated with an actual user. Therefore you can't choose the **Current User** account type. If you do, notifications aren't sent.
 
 Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can create a retention policy that will delete entries after a specified period of time. Learn more in [Define Retention Policies](admin-data-retention-policies.md).
 
@@ -138,7 +138,7 @@ You can manage settings for field monitoring, such as whether to send an email n
 
 Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain the following information:
 
-- The field in which the value changed.
+- The field where the value changed.
 - The original and new values.
 - Who made the change, and when they did so.
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 12/10/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.search.form: 7214_Primary
 ms.service: dynamics-365-business-central
@@ -20,15 +20,13 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[cds_
 > [!Note]  
 > These tasks require the **System Administrator** security role in [!INCLUDE[cds_long](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Assign licenses for [!INCLUDE[cds_long](includes/cds_long_md.md)] to the [!INCLUDE[prod_short](includes/prod_short.md)] users who will use the integrated apps.
-
+1. Assign licenses for [!INCLUDE[cds_long](includes/cds_long_md.md)] to the [!INCLUDE[prod_short](includes/prod_short.md)] users who use the integrated apps.
 2. Set up a connection to [!INCLUDE[cds_long](includes/cds_long_md.md)]. To learn more, go to [Connect to Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md).  
-
 3. Synchronize data between the apps. To learn more, go to [Synchronizing Business Central and Dataverse](admin-synchronizing-business-central-and-sales.md).
 
 ## Get started with [!INCLUDE[cds_long](includes/cds_long_md.md)]
 
-To get started with [!INCLUDE[cds_long](includes/cds_long_md.md)], you'll need a Microsoft Power Apps account. If you don't already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[cds_long](includes/cds_long_md.md)], go to the [Get started with Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) module from Microsoft training.
+To get started with [!INCLUDE[cds_long](includes/cds_long_md.md)], you need a Microsoft Power Apps account. If you don't already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[cds_long](includes/cds_long_md.md)], go to the [Get started with Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) module from Microsoft training.
 
 ## Bi-directional or uni-directional data synchronization
 
@@ -49,16 +47,16 @@ To learn more about user accounts, go to the following articles:
 * [Setting Up User Accounts for Integrating with [!INCLUDE[cds_long](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)
 * [Create users in Microsoft Dynamics 365 (online) and assign security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles)
 
-The administrator account is used only one time during the setup for the configuration changes that the Base Integration Solution makes in [!INCLUDE[cds_long](includes/cds_long_md.md)]. After the solution imports, the account is no longer needed. Integration will continue to use the user account that is automatically created specifically for the integration.
+The administrator account is used only one time during the setup for the configuration changes that the Base Integration Solution makes in [!INCLUDE[cds_long](includes/cds_long_md.md)]. After the solution imports, the account is no longer needed. Integration continues to use the user account that is automatically created specifically for the integration.
 
 In addition to customizing [!INCLUDE [cds_long_md](includes/cds_long_md.md)], the solution also creates a security role in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] for the integration:
 
-* **Business Central Dataverse Integration** - Allows you to manage the connection between [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Typically, this role is assigned only to the user account that's automatically created for synchronization. To learn more about this role, go to [Setting Up User Accounts for Integrating with [!INCLUDE[cds_long](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
+* **Business Central Dataverse Integration** - Allows you to manage the connection between [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Typically, this role is assigned only to the user account created for synchronization. To learn more about this role, go to [Setting Up User Accounts for Integrating with [!INCLUDE[cds_long](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
 
 When you set up the connection, you create the integration table mappings that you need to synchronize data. Entities in [!INCLUDE[cds_long](includes/cds_long_md.md)] are mapped to tables and table fields in [!INCLUDE [prod_short](includes/prod_short.md)] through integration tables. To learn more about mappings, go to [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 > [!NOTE]  
-> The Base Integration Solution doesn't define auditing settings (IsAuditEnabled) for the tables it extends. When you import the solution, it might turn off auditing on tables where another solution previously enabled it. [!INCLUDE[cds_long](includes/cds_long_md.md)] applies the settings from the imported solution, and if auditing isn't turned on in the solution file, it turns it off by default. After you enable the integration, check your auditing settings in [!INCLUDE[cds_long](includes/cds_long_md.md)] and reenable auditing for the affected tables if needed. Alternatively, redeploy any solutions that previously enabled auditing on those tables.
+> The Base Integration Solution doesn't define auditing settings (IsAuditEnabled) for the tables it extends. When you import the solution, it might turn off auditing on tables where another solution previously enabled it. [!INCLUDE[cds_long](includes/cds_long_md.md)] applies the settings from the imported solution, and if auditing isn't turned on in the solution file, it turns it off by default. After you enable the integration, check your auditing settings in [!INCLUDE[cds_long](includes/cds_long_md.md)] and re-enable auditing for the affected tables if needed. Alternatively, redeploy any solutions that previously enabled auditing on those tables.
 
 ## Handle differences in local and base transaction currencies
 
@@ -66,14 +64,14 @@ You can connect to a [!INCLUDE[cds_long](includes/cds_long_md.md)] environment t
 
 To be able to connect, ensure that the base transaction currency setting in [!INCLUDE[cds_long](includes/cds_long_md.md)] has the currency that is set on the **Currencies** page in [!INCLUDE [prod_short](includes/prod_short.md)], and at least one exchange rate is specified for the currency on the **Currency Exchange Rates** page.
 
-Here's an example. You're connecting [!INCLUDE[prod_short](includes/prod_short.md)] with Euro (EUR) set as the local currency on the **General Ledger Setup** page to a [!INCLUDE[cds_long](includes/cds_long_md.md)] environment that has a base transaction currency set to US dollar (USD). You'll need to have USD on the **Currencies** page in [!INCLUDE [prod_short](includes/prod_short.md)] and the appropriate exchange rate.
+Here's an example. You're connecting [!INCLUDE[prod_short](includes/prod_short.md)] with Euro (EUR) set as the local currency on the **General Ledger Setup** page to a [!INCLUDE[cds_long](includes/cds_long_md.md)] environment that has a base transaction currency set to US dollar (USD). You need to have USD on the **Currencies** page in [!INCLUDE [prod_short](includes/prod_short.md)] and the appropriate exchange rate.
 
 When you enable the connection to [!INCLUDE[cds_long](includes/cds_long_md.md)], [!INCLUDE [prod_short](includes/prod_short.md)] adds its local currency to the **Currency** entity in [!INCLUDE[cds_long](includes/cds_long_md.md)] with the exchange rate from the **Currency Factor** field on the **Currency Exchange Rates** page.
 
-Currency synchronization is unidirectional, from [!INCLUDE [prod_short](includes/prod_short.md)] to [!INCLUDE [!INCLUDE[cds_long](includes/cds_long_md.md)], monetary amounts convert and synchronize as follows:
+Currency synchronization is unidirectional, from [!INCLUDE [prod_short](includes/prod_short.md)] to [!INCLUDE[cds_long](includes/cds_long_md.md)], monetary amounts convert and synchronize as follows:
 
 * Amounts in the [!INCLUDE[cds_long](includes/cds_long_md.md)] base currency convert to the [!INCLUDE [prod_short](includes/prod_short.md)] local currency based on the latest exchange rate synchronized from [!INCLUDE [prod_short](includes/prod_short.md)].
-* Amounts in the [!INCLUDE [prod_short](includes/prod_short.md)] local currency synchronize with the [!INCLUDE [prod_short](includes/prod_short.md)] local currency in one of the other (non-base) currencies in [!INCLUDE[cds_long](includes/cds_long_md.md)].
+* Amounts in the [!INCLUDE [prod_short](includes/prod_short.md)] local currency synchronize with the [!INCLUDE [prod_short](includes/prod_short.md)] local currency in one of the other (nonbase) currencies in [!INCLUDE[cds_long](includes/cds_long_md.md)].
 
 ## What happens when you copy a company
 

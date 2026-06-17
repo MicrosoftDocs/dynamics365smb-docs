@@ -1,12 +1,12 @@
 ---
 title: Introduction to Business Central and Power BI
-description: Get an overview of using Power BI to get insights and KPIs from your Business Central data.
+description: Get an overview of using Power BI to get insights from your Business Central data.
 author: jswymer
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
 ms.reviewer: jswymer
-ms.date: 05/19/2025
+ms.date: 06/17/2026
 ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -32,7 +32,7 @@ It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md
 |Use [!INCLUDE[powerbi-name](includes/powerbi-name.md)] with [!INCLUDE[prod_short](includes/prod_short.md)] | You can use your data from [!INCLUDE[prod_short](includes/prod_short.md)] in reports in [!INCLUDE[powerbi-name](includes/powerbi-name.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online includes many [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports. Or, your organization might have some custom reports.|![Works online.](media/check.png)|![Works on-premises](media/check.png)|[Here...](across-working-with-powerbi.md)|
 |View [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports in the [!INCLUDE[prod_short](includes/prod_short.md)] client.| [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports that display [!INCLUDE[prod_short](includes/prod_short.md)] data can be embedded directly in parts [!INCLUDE[prod_short](includes/prod_short.md)] pages. You can switch the part to display any report that is made available to you. |![works online.](media/check.png)|![Works on-premises](media/check.png)<sup> [*](#onprem)</sup>|[Here...](across-working-with-powerbi.md).|
 |Create reports and dashboards in [!INCLUDE[powerbi-name](includes/powerbi-name.md)] that display [!INCLUDE[prod_short](includes/prod_short.md)] data.|Use [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] to create your own reports and dashboards. You can publish the reports to your own [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] or share them with others within your organization.|![Works online.](media/check.png)|![works on-premises](media/check.png)|[Here...](across-how-use-financials-data-source-powerbi.md)|
-|Work with [!INCLUDE [prod_short](includes/prod_short.md)] data in datamarts and dataflows | Use the [!INCLUDE [prod_short](includes/prod_short.md)] connector in Power Query Online to define dataflows that you share across different reports and dashboards.|![works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
+|Work with [!INCLUDE [prod_short](includes/prod_short.md)] data in datamarts and dataflows | To define dataflows that you share across different reports and dashboards, use the [!INCLUDE [prod_short](includes/prod_short.md)] connector in Power Query Online.|![works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
 
 <a name="onprem"><sup>*</sup></a> This feature requires a registered application for [!INCLUDE [prod_short](includes/prod_short.md)] in Microsoft Azure. For more information, see [Registering [!INCLUDE [prod_short](includes/prod_short.md)] on-premises in Microsoft Entra ID for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 

@@ -4,7 +4,7 @@ description: View a list of key combinations (keyboard shortcuts) that you can u
 author: jswymer
 ms.topic: concept-article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/09/2025
+ms.date: 06/17/2026
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central

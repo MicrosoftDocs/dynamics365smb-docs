@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: solsen
 ms.topic: install-set-up-deploy
-ms.date: 06/17/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500, 2514, 2515, 20350

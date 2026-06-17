@@ -1,20 +1,20 @@
 ---
-title: Overview of tasks to manage purchasing 
+title: Overview of tasks to manage to purchase 
 description: Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
 author: brentholtorf
 ms.topic: overview
 ms.search.keywords: procurement, supply, vendor order, purchsing
 ms.search.form: 460, 9307
-ms.date: 10/03/2025
+ms.date: 06/17/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
 # Purchasing
 
-You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimize your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial KPIs on your Role Center.
+You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimize your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial key performance indicators (KPIs) on your Role Center.
 
 You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity. For example, because the full quantity wasn't available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. Learn more in [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices.
 

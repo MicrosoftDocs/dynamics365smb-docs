@@ -4,7 +4,7 @@ description: Learn about capabilities and work scenarios in Business Central tha
 author: jswymer
 ms.topic: concept-article
 ms.devlang: al
-ms.date: 06/20/2025
+ms.date: 06/17/2026
 ms.author: jswymer
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 # Welcome to Microsoft Dynamics 365 Business Central
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries. [!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that's relevant to the region of operation, and that is customized to support even highly specialized industries. [!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability.  
 
 If you already have [!INCLUDE[prod_short](includes/prod_short.md)], sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://www.microsoft.com/dynamics-365/products/business-central/), [take the guided tour](https://dynamics.microsoft.com/guidedtour/dynamics/business-central/1/1), and then [learn how to start a free trial](trial-signup.md). Check out the [quickstart articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], go to [Get Ready for Doing Business](ui-get-ready-business.md).  
 
@@ -63,10 +63,10 @@ With Copilot in [!INCLUDE [prod_short](includes/prod_short.md)], small and mediu
 | Summarize data and content in your records using Copilot. | [Summarize with Copilot](summarize-with-copilot.md) |
 
 To learn more, go to [About Copilot in Business Central](copilot-overview.md).
- 
+
 ## Analytics
 
-Empower any role in your organization with the insights they need to make decisions based on data. Use financial reporting and KPIs in your leadership team, create overview reports for middle management, and operational reports for staff. Group and pivot data from any list to do ad-hoc analyses. Export and analyze your data in Excel, if that app is your tool of choice. Each area in the application comes with standard, easy to use tools for data analysis.
+Empower any role in your organization with the insights they need to make decisions based on data. Use financial reporting and key performance indicators (KPIs) in your leadership team, create overview reports for middle management, and operational reports for staff. Group and pivot data from any list to do ad-hoc analyses. Export and analyze your data in Excel, if that app is your tool of choice. Each area in the application comes with standard, easy to use tools for data analysis.
 
 :::image type="content" source="media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview.png":::
 

@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: desktop, Windows, app
-ms.date: 12/13/2023
+ms.date: 06/17/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -13,7 +13,13 @@ ms.reviewer: jswymer
 
 # Getting Business Central on your mobile device
 
-Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Microsoft 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
+You can access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile device:
+
+- Review your business data.
+- Use features such as Send to Excel or Microsoft 365.
+- View up-to-date charts and key performance indicators.
+- Email sales quotes and invoices.
+- Take and attach pictures with your camera.
 
 > [!Video https://learn-video.azurefd.net/vod/player?id=2b0d907c-c59a-4bcc-a42c-bc2c7e6499a8]
 
@@ -28,7 +34,7 @@ Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[prod_short](includes/prod_short.md)] and follow the instructions on the screen.
 
-    If your [!INCLUDE [prod_short](includes/prod_short.md)] has more than one production environment, then you'll be asked to choose the environment that you want to access (requires Business Central 2020 release wave 2 and later).
+    If your [!INCLUDE [prod_short](includes/prod_short.md)] has more than one production environment, you're asked to choose the environment that you want to access.
 
 You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and can view and edit data.  
 

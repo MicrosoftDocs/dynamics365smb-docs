@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 119, 774_Primary, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9816, 9818, 9874
-ms.date: 06/10/2025
+ms.date: 06/17/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -28,14 +28,14 @@ This article describes how administrators create users and define who can sign i
 
 User accounts in [!INCLUDE[prod_short](includes/prod_short.md)] online must be first created in the Microsoft 365 admin center. These user accounts aren't exclusive to [!INCLUDE [prod_short](includes/prod_short.md)]. If you subscribe to other plans, they can be used to sign in to other applications, such as Power BI. For information about creating users in the Microsoft 365 admin center, go to [Add users in Microsoft admin center](/microsoft-365/admin/add-users/add-users).
 
-Your subscription to [!INCLUDE[prod_short](includes/prod_short.md)] online defines how many [!INCLUDE[prod_short](includes/prod_short.md)] user licenses you're allowed. Users are added to your tenant in the Microsoft Partner Center, typically by your Microsoft partner. For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+Your subscription to [!INCLUDE[prod_short](includes/prod_short.md)] online defines how many [!INCLUDE[prod_short](includes/prod_short.md)] user licenses you're allowed. Users are added to your tenant in the Microsoft Partner Center, typically by your Microsoft partner. Learn more at [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
 You assign licenses to users according to the work each user does in [!INCLUDE[prod_short](includes/prod_short.md)]. You can assign licenses in several ways:
 
-- Your company's Microsoft 365 administrator can do it in the [Microsoft 365 Admin Center](https://admin.microsoft.com). For more information, see [Add users individually or in bulk to Microsoft 365](/microsoft-365/admin/add-users/add-users).  
-- A Microsoft partner can assign licenses in the Microsoft 365 Admin Center or in the Microsoft Partner Center. For more information, see [User management tasks for customer accounts](/partner-center/assign-licenses-to-users) in the Microsoft Partner Center Help.
+- Your company's Microsoft 365 administrator can do it in the [Microsoft 365 Admin Center](https://admin.microsoft.com). Learn more at [Add users individually or in bulk to Microsoft 365](/microsoft-365/admin/add-users/add-users).  
+- A Microsoft partner can assign licenses in the Microsoft 365 Admin Center or in the Microsoft Partner Center. Learn more at [User management tasks for customer accounts](/partner-center/assign-licenses-to-users) in the Microsoft Partner Center Help.
 
-For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the administration Help.
+Learn more at [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the administration Help.
 
 After user accounts are created in the Microsoft 365 admin center, there are two ways to import them to [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -49,19 +49,17 @@ After user accounts are created in the Microsoft 365 admin center, there are two
 Both approaches have their own advantages, and you can use them simultaneously. Each approach allows administrators to proactively configure [!INCLUDE [prod_short](includes/prod_short.md)] to assign the starting permissions, user groups, and user profiles. Using the **Update Users from Microsoft 365** action gives administrators more control to adjust permissions, user groups, and profiles. It's an ideal approach when you're setting up [!INCLUDE [prod_short](includes/prod_short.md)] the first time, before any users sign in, or when adding a new team of users.
 
 > [!NOTE]
-> After you add users in the Microsoft 365 Admin Center, we recommend that you update the user information in [!INCLUDE[prod_short](includes/prod_short.md)] as soon as possible. Keeping user information current is easy to do, and helps ensure that people can always sign in. For more information, see [To add users or update user information and license assignments in Business Central](#adduser).<br>
+> After you add users in the Microsoft 365 Admin Center, we recommend that you update the user information in [!INCLUDE[prod_short](includes/prod_short.md)] as soon as possible. Keeping user information current is easy to do, and helps ensure that people can always sign in. Learn more at [To add users or update user information and license assignments in Business Central](#adduser).
 >
-> Updating user information is especially important if you've customized permission sets for the license. If a new user tries to sign in to [!INCLUDE[prod_short](includes/prod_short.md)] before you've added them, they might not be able to. For more information, see [Configure permissions based on licenses](#licensespermissions).
+> Updating user information is especially important if you customize permission sets for the license. If a new user tries to sign in to [!INCLUDE[prod_short](includes/prod_short.md)] before you add them, they might not be able to. Learn more at [Configure permissions based on licenses](#licensespermissions).
 >
-> However, users who experience this problem aren't actually blocked. They can either use the **Go back home** action, or simply sign in again to resolve the issue.
+> However, users who experience this problem aren't blocked. They can either use the **Go back home** action, or just sign in again to resolve the issue.
 
 ### Delegated admin users
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ### <a name="licensespermissions"></a>Configure permissions based on licenses
-
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
 Admins can configure permissions sets and user groups for each license.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
@@ -87,14 +85,14 @@ If this default configuration isn't the right setup for a particular environment
     In our example, the admin wants to remove the permission to edit in Excel, so they remove the *Excel Export Action* user group from the Team Member license. Afterward, new users who are assigned the Team Member license can't export data to Excel. If the organization changes their minds on the subject, they can just go back to the **License Configuration** page and switch off the customization for that license type.  
 
 > [!IMPORTANT]
-> This customization of permissions only takes effect for new users that you assign the relevant license. Existing users are not updated. We recommend that you customize permissions before you start assigning users licenses in the Microsoft 365 admin center.
+> This customization of permissions only takes effect for new users that you assign the relevant license. Existing users aren't updated. We recommend that you customize permissions before you start assigning users licenses in the Microsoft 365 admin center.
 
 ### <a name="adduser"></a>To add users or update user information and license assignments in Business Central
 
 After you add users or change user information in the Microsoft 365 Admin Center, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. The import includes license assignments.  
 
 > [!TIP]
-> If you need to update user information and you have a lot of users, you can use the filter pane to narrow down the list. You can filter on basic information such as the user name, or set more technical filters, such as the user's security ID.
+> If you need to update user information and you have numerous users, you can use the filter pane to narrow down the list. You can filter on basic information such as the user name, or set more technical filters, such as the user's security ID.
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
 2. [!INCLUDE[open-search](includes/open-search.md)], enter **Users**, and then choose the related link.  
@@ -104,19 +102,19 @@ After you add users or change user information in the Microsoft 365 Admin Center
 > Running the synchronization of users from Microsoft 365 using the **Update Users from Microsoft 365** guide, requires the SUPER permission set.
 
 > [!NOTE]
-> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is a [Dynamics 365 administrator](/entra/identity/role-based-access-control/permissions-reference#dynamics-365-administrator). Those users will update the next time they sign in to the environment.
+> The **Update Users from Microsoft 365** guide doesn't update users that aren't assigned a license, such as someone who is a [Dynamics 365 administrator](/entra/identity/role-based-access-control/permissions-reference#dynamics-365-administrator). Those users will update the next time they sign in to the environment.
 
-The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you update a user with a license change, [!INCLUDE [prod_short](includes/prod_short.md)] assigns users to the appropriate user group and updates their permission sets. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
-
-> [!NOTE]
-> With 2024 release wave 1, a Premium license user can sign in to a company where the **User Experience** field is set to **Essentials** on the **Company Information** page. However, the Premium user can't use any of the features that the Premium license provides. This doesn't work in the opposite direction. Users who have an Essentials license can't sign in to a company where the **User Experience** is set to **Premium** on the **Company Information** page. For more information about licensing, go to [Business Central](https://www.microsoft.com/dynamics-365/products/business-central/) website.
-
-If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
-
-For more information about synchronizing user information with Microsoft 365, go to the [Synchronization with Microsoft 365](#m365) section.
+The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you update a user with a license change, [!INCLUDE [prod_short](includes/prod_short.md)] assigns users to the appropriate user group and updates their permission sets. Learn more at [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
+> With 2024 release wave 1, a Premium license user can sign in to a company where the **User Experience** field is set to **Essentials** on the **Company Information** page. However, the Premium user can't use any of the features that the Premium license provides. This restriction doesn't work in the opposite direction. Users who have an Essentials license can't sign in to a company where the **User Experience** is set to **Premium** on the **Company Information** page. To learn more about licensing, go to [Business Central](https://www.microsoft.com/dynamics-365/products/business-central/) website.
+
+If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. Learn more at [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
+
+To learn more about synchronizing user information with Microsoft 365, go to the [Synchronization with Microsoft 365](#m365) section.
+
+> [!NOTE]
+> If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. Learn more at [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
 ### To remove a user's access to the system
 
@@ -126,7 +124,7 @@ You can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]
 2. Open the **User Card** page for the relevant user, and then, in the **Status** field, select **Disabled**.
 3. To give the user access again, set the **Status** field to **Enabled**.
 
-You can also remove the license from a user in the Microsoft 365 Admin Center. The user is then unable to sign in. For more information, see [Remove licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
+You can also remove the license from a user in the Microsoft 365 Admin Center. The user is then unable to sign in. Learn more at [Remove licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ### <a name="m365"></a>Synchronization with Microsoft 365
 
@@ -170,9 +168,9 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 4. To delete a user, select the user that you want to delete, and then choose the **Delete** action.
 
 > [!NOTE]
-> For on-premises deployments an administrator can specify how to authenticate user credentials in the [!INCLUDE[server](includes/server.md)] instance. When you create a user, you provide the credential type that you are using.
+> For on-premises deployments, administrators can specify how to authenticate user credentials in the [!INCLUDE[server](includes/server.md)] instance. When you create a user, you provide the credential type that you're using.
 >
-> For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the administration Help for [!INCLUDE[prod_short](includes/prod_short.md)].
+> Learn more at [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the administration Help for [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Analyze user status by license type
 
@@ -184,8 +182,8 @@ The following sections provide examples of scenarios where analyzing the user li
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Users by status](#example-users-by-status) | See a list of users based on their status (enabled/disabled). | [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) | **Status**, **User Name**, **Full Name**, **Authorization email**, and **License Type**. |
-| [Users by license type](#example-users-by-license-type) | See a list of users based on their license type. | [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) | **License Type**, **Status**,  **User Name**, **Full Name**, and **Authorization email**. |
+| [Users by status](#example-users-by-status) | Explore a list of users based on their status (enabled/disabled). | [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) | **Status**, **User Name**, **Full Name**, **Authorization email**, and **License Type**. |
+| [Users by license type](#example-users-by-license-type) | Review a list of users based on their license type. | [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) | **License Type**, **Status**,  **User Name**, **Full Name**, and **Authorization email**. |
 
 ### Example: Users by status
 

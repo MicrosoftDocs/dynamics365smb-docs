@@ -1,10 +1,10 @@
 ---
 title: Enabling Power BI integration with Business Central
-description: Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and KPIs from your Business Central data.
+description: Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and key performance indicators from your data.
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 05/16/2025
+ms.date: 06/17/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -12,11 +12,11 @@ ms.reviewer: jswymer
 ---
 # Enabling Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)]
 
-This article describes how to get [!INCLUDE[prod_short](includes/prod_short.md)] ready for integration with Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online is already enabled for integration, although there's some information about licensing that you might want to read. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'll have set up your environment to connect to Power BI before users can work with it.
+This article describes how to get [!INCLUDE[prod_short](includes/prod_short.md)] ready for integration with Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online is already enabled for integration, although there's some information about licensing that you might want to read. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you must set up your environment to connect to Power BI before users can work with it.
 
 ## <a name="license"></a>Power BI Licensing
 
-With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI license that provides access to the most common features in [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. You can also purchase a Power BI Pro license that provides access to additional features. The following table provides an overview of the features available with each license.
+With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI license that provides access to the most common features in [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. You can also purchase a Power BI Pro license that provides access to extra features. The following table provides an overview of the features available with each license.
 
 |Power License|View reports|Create reports|Share reports|Refresh reports| [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] Apps|
 |-------------|--------||
@@ -34,7 +34,7 @@ To learn more about [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licensin
 
 ## <a name="exposedata"></a>Expose data through API or OData web services
 
-[!INCLUDE[prod_short](includes/prod_short.md)] offers two ways to expose data that can be consumed by [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports: 
+[!INCLUDE[prod_short](includes/prod_short.md)] offers two ways to expose data that [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports can consume:
 
 * API pages or queries
 * Open Data Protocol (OData) web services
@@ -107,7 +107,7 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
 
 Dataflows enable you to ingest, transform, and load data into a Power BI workspace and then use the data as the basis for your reports. These dataflows can in some cases experience transient errors while doing a scheduled refresh. The error message looks like this: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
 
-Using PowerAutomate, you can set up retries for this situation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
+Using Power Automate, you can set up retries for this situation. Learn more at [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
 
 ## Related information
 

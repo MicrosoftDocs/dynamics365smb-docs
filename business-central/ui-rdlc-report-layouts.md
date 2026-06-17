@@ -6,9 +6,10 @@ ms.topic: concept-article
 ms.service: dynamics-365-business-central
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 06/10/2025
+ms.date: 06/17/2026
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.custom: bap-template
 ---
 # Working with RDLC Layouts
 
@@ -18,7 +19,7 @@ RDLC layouts are based on report definition layout files (.rdl or .rdlc file typ
 
 ## Required tools
 
-To modify RDL layouts, you can use either Microsoft SQL Server Report Builder or Microsoft Visual Studio with the RDLC Report Designer extension.
+To modify RDLC layouts, you can use either Microsoft SQL Server Report Builder or Microsoft Visual Studio with the RDLC Report Designer extension.
 
 - Report Builder is a stand-alone app installed on your computer by you or an administrator. With Business Central on-premises, Report Builder is automatically installed with the Business Central Server installation. For more information about installing Report Builder, see [Install Report Builder](/sql/reporting-services/install-windows/install-report-builder) in the SQL Server documentation.
 
@@ -37,7 +38,7 @@ Creating and modifying RDLC layouts is an advanced task, which is typically done
    This links you to the SQL Server Reporting Services documentation for RDL/RDLC. This article explains the concepts behind RDL/RDLC and how to use Report Builder.
 
 > [!NOTE]
-> Report Builder only recognizes the .rdl file type, not .rdlc. Layout files exported from Business Central are .rdlc file types. So to modify these layout in Report Builder, rename the file type to .rdl.
+> Report Builder only recognizes the .rdl file type, not .rdlc. Layout files exported from Business Central are .rdlc file types. To modify these layouts in Report Builder, rename the file type to .rdl.
 
 ## Related information
 

@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: concept-article
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650, 9660
-ms.date: 03/12/2025
+ms.date: 06/17/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

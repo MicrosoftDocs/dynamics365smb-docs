@@ -5,7 +5,7 @@ author: kennienp
 ms.topic: concept-article
 ms.search.keywords: analysis, history, track
 ms.search.form: Report_1, 18, 20, 37, 65, 99_Primary, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 08/20/2025
+ms.date: 06/17/2026
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -31,9 +31,9 @@ Income accounts are divided into two groups:
 
 Use the COA to record transactions in your organization’s general ledger. Each account typically has an identifier (account number) and a descriptive caption or header, and they're systematically coded based on their account type.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that is ready to support your business.
+[!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that's ready to support your business.
 
-The composition of your company’s chart of accounts is a strategic decision made by your management (or by country-specific regulation). It varies based on your company’s industry, business model, and financial structure. For instance, depending on your industry, you might have specific asset accounts tailored to your company's unique operations and needs:
+The composition of your company’s chart of accounts is a strategic decision made by your management (or by country/region-specific regulation). It varies based on your company’s industry, business model, and financial structure. For instance, depending on your industry, you might have specific asset accounts tailored to your company's unique operations and needs:
 
 * A retail business might emphasize inventory and accounts receivable.
 * A technology company might focus on intangible assets like patents and software.
@@ -68,7 +68,7 @@ Each line in the chart of accounts is a G/L account of one of the types:
 A minimalist chart of accounts can consist of only lines of posting accounts. You use the other four types to define how the chart of accounts also shows a financial statement with headers and subtotals. Totaling accounts are frequently used in financial reporting.
 
 > [!TIP]
-> If you use account types other than **Posting** in your chart of accounts, you can define different views to show the "raw" posting accounts without the reporting-type account types for totalling and headings. For example, Show only posting accounts and Hide blocked accounts.
+> If you use account types other than **Posting** in your chart of accounts, you can define different views to show the "raw" posting accounts without the reporting-type account types for totaling and headings. For example, Show only posting accounts and Hide blocked accounts.
 
 ## Use dimensions to simplify your chart of accounts
 

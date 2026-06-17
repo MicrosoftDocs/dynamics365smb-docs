@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
-ms.date: 06/10/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 611, 613, 615, 617, Report_512
@@ -29,7 +29,7 @@ There are four main benefits to the intercompany functionality:
 
 Intercompany transactions let you distribute sales and purchasing documents and general journal entries to all of your satellite offices, sales offices, or subsidiary companies. Distributing transactions saves time and increases efficiency throughout the organization by reducing data entry. It cuts down on the need to send, receive, print, and archive sales and purchasing documents.  
 
-You're in full control of all transaction documents. For example, you can reject a document sent to you and use the **Reverse Journal Postings** and **Undo Receipts/Shipments** actions to make corrections. Or, when making a purchase from a partner or subsidiary company, you can update the purchase order as long as the selling company hasn't shipped the goods.  
+You're in full control of all transaction documents. For example, you can reject a document sent to you and use the **Reverse Journal Postings** and **Undo Receipts/Shipments** actions to make corrections. Or, when making a purchase from a partner or subsidiary company, you can update the purchase order as long as the selling company didn't ship the goods.  
 
 When you enter a transaction, you don't need to specify the accounts to use. You just choose the intercompany partner. The intercompany functionality creates general journal lines that balance the books of both companies involved in the transaction. In receivables and payables, you assign an intercompany partner code to any customer or vendor. From that moment on, all orders and invoices for transactions between these companies produce corresponding documents in the partner company. The result is correctly balanced accounts.  
 
@@ -54,10 +54,10 @@ When you set up intercompany transactions, you create a list of intercompany par
 > [!NOTE]
 > The general journal by itself doesn't include currencies. It converts all amounts to the local currency at the current exchange rate.
 
-After you set up business partners as customers and vendors, and assign them intercompany partner codes, they can exchange intercompany purchase and sales documents, including items and item charges.
+After you set up partners as customers and vendors and assign them intercompany partner codes, they can exchange intercompany purchase and sales documents that include items and item charges.
 
 > [!NOTE]
-> Companies can't use intercompany to exchange all types of data. Purchase invoices are not submitted to business partners through intercompany processes. However, sales invoices that are submitted through intercompany processes will be created as purchase invoices in the receiving company.
+> Companies can't use intercompany to exchange all types of data. Purchase invoices aren't submitted to business partners through intercompany processes. However, sales invoices that are submitted through intercompany processes are created as purchase invoices in the receiving company.
 
 Consolidating financial data might be relevant for intercompany processes. Learn more at [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md).
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 05/02/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.search.form: 9171,
 ---
@@ -14,9 +14,9 @@ ms.search.form: 9171,
 
 Assign all users to profiles that reflect:
 
-* Their business role
-* The department they work in
-* Another type of categorization
+* Their business role.
+* The department they work in.
+* Another type of categorization.
 
 Profiles allow administrators to centrally define and manage what different types of users can access in Business Central.
 
@@ -49,7 +49,7 @@ If you can't copy an existing profile, you can create a new one manually.
 
 ## Copy a profile
 
-To save time, you can create a new profile by copying an existing one that has similar settings. When you copy a profile, you also copy page customizations, both user-created and those from extensions.
+To save time, you can create a new profile by copying an existing one that has similar settings. When you copy a profile, you also copy page customizations, both user-created and customizations from extensions.
 
 1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then select the **Copy Profile** action.
 2. Fill in the **Profile ID** and **Display Name** fields, and then select the **OK** button.

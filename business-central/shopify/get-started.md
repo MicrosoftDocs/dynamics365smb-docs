@@ -1,7 +1,7 @@
 ---
 title: Getting started with the connector for Shopify
 description: First steps when configuring a connection between Business Central and Shopify.
-ms.date: 07/14/2025
+ms.date: 06/17/2026
 ms.topic: get-started
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -46,7 +46,7 @@ The main purpose of the Dynamics 365 Business Central app is to help existing me
 4. Choose **Sign up now** to start the [!INCLUDE[prod_short](../includes/prod_short.md)] trial, or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You're redirected to your [Business Central](https://businesscentral.dynamics.com) page.
 
    > [!Note]
-   > In countries where Microsoft doesn't offer built-in localization, the sign up process stop and the *[!INCLUDE[prod_long](../includes/prod_long.md)] is not available in this market* message displays. To learn more, go to [Start with the trial in location with partner-based localizations](../trial-signup.md#start-with-the-trial-in-location-with-partner-based-localizations).
+   > In countries where Microsoft doesn't offer built-in localization, the sign up process stops and the *[!INCLUDE[prod_long](../includes/prod_long.md)] is not available in this market* message displays. To learn more, go to [Start a trial with partner-based localizations](../trial-signup.md#start-a-trial-with-partner-based-localizations).
 
 6. Do the next steps in [!INCLUDE[prod_short](../includes/prod_short.md)].
 

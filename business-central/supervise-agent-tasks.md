@@ -1,13 +1,13 @@
 ---
-title: Supervise agent activities in Copilot pane
-description: Monitor Payables and Sales Order agents in Copilot Tasks, review drafts, confirm steps, and keep invoices and orders accurate.
+title: Supervise agent activities
+description: Review agent-generated documents, approve AI suggestions, give instructions to agents, and manage tasks in Business Central.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 05/03/2026
+ms.date: 06/17/2026
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template
@@ -16,113 +16,201 @@ ms.custom:
   - ai-seo-date:06/18/2025
 ms.search.form: 4400, 4410
 ---
-# Supervise agent activities in Tasks pane
+# Supervise agent activities
 
-You manage output from Business Central agents, such as the Payables and Sales Order agents, in the **Task** pane. This side pane shows tasks from a selected agent and lets you monitor task status, review agent‑generated drafts and suggestions, and provide confirmations or input to move tasks forward.
+Business Central agents, such as the Payables Agent and Sales Order Agent, work autonomously to process requests like quotes and invoices. Sometimes, they need your input to verify information, approve drafts, or resolve issues they can't handle on their own.
 
-The process flow is different for each agent. This article explains the common aspects of working with tasks for all agents and answers frequently asked questions.
+You can review and approve agent work in two ways: from the **Tasks pane** on the side of the role center or **directly on document pages**. This article explains both approaches and covers common actions like giving instructions to agents and stopping tasks.
 
 ## Prerequisites
 
-The agent is activated, and you have permission to use it. Learn more in [Set up Payables Agent](payables-agent-setup.md) or [Set up Sales Order Agent](sales-order-agent-setup.md).
+- The agent is activated.
+- You have permission to use it.
 
-## Access agent tasks
+Learn more in [Set up Payables Agent](payables-agent-setup.md) or [Set up Sales Order Agent](sales-order-agent-setup.md).
 
-On the upper-right of the navigation menu, select the icon for the agent:
+## Understand how agents request your help
 
-- ![Payables Agent icon in navigation menu.](media/payables-agent-activated-icon.png) **Payables Agent**
-- ![Sales Order Agent icon in navigation menu.](media/soa-activated-number-icon.png) **Sales Order Agent**
+Agents do most of their work without intervention, but they pause and request assistance in situations like:
 
-![Shows the agent task view with process steps](media/agent-task-view-pane.svg)
+- Review and confirm incoming and outgoing emails
+- Review and confirm contact or vendor information
+- Review and confirm draft documents, like quotes, orders, and purchase invoices
+- Resolve issues like missing data, items that aren't available, or customers that don't exist
 
-The **Tasks** pane opens, displaying tasks recently created by the agent. A red circle with a number on the agent icon indicates how many tasks need your attention. Tasks requiring attention&mdash;such as reviewing vendor information&mdash;appear at the top of the list.
+When an agent needs assistance, a notification badge appears on the agent icon in the navigation menu. The specific process flow differs by agent. Learn more in [Payables Agent process](payables-agent.md#payables-agent-process-flow) or [Sales Order Agent process](sales-order-agent.md#how-the-agent-processes-requests).
 
-The agent creates a task for each inquiry it receives, such as a request for a quote or invoice. Each task includes multiple steps that form a timeline, providing a chronological view of all actions taken to complete the task.
+## Review and approve agent work
 
-## View summary of agent activities
+You can review agent work from either the Tasks pane or directly on document pages. Choose the approach that fits your workflow:
 
-To get an overview of the agent's key performance indicators (KPIs) that measure the effect of the agent's work in your organization, hover over the agent's icon or select the ![Show summary for agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Task** pane.
+| Approach | Best for |
+|----------|----------|
+| **Tasks pane** | Reviewing the full task timeline, seeing what the agent did at each step, and providing instructions when the agent is blocked |
+| **Directly on pages** | Quickly reviewing field-level suggestions on a document you're already viewing, without switching context |
 
-## Review and assist with tasks
+Both approaches let you approve agent work and continue the task.
 
-The agent does most of the work autonomously, but sometimes it asks for user intervention to complete the process. When intervention is needed depends on the agent and  its setup, but here are some common situations:
+## Review from the Tasks pane
 
-- Reviewing and confirming incoming and outgoing emails
-- Review and confirm contact or vendor information.
-- Review and confirm the draft documents, like quotes, orders and purchase invoices.
-- Help the agent get unblocked, like by providing missing data, creating a new contact for an order, or finding items.
+The **Tasks** pane shows all tasks from a selected agent, organized by status. Tasks that need your attention appear at the top.
 
-Learn more about the agent's process flow in [Payables Agent process](payables-agent.md#payables-agent-process-flow) or [Sales Order Agent process](sales-order-agent.md#how-the-agent-processes-requests).
+1. On the upper-right side of the navigation menu, select the icon for the agent:
 
-### Review a step
+   - ![Payables Agent icon in navigation menu.](media/payables-agent-activated-icon.png) **Payables Agent**
+   - ![Sales Order Agent icon in navigation menu.](media/soa-activated-number-icon.png) **Sales Order Agent**
 
-Steps that need intervention appear under **Needs Attention** in the **Tasks** pane. To review a step, follow these instructions:
+   A red circle with a number indicates how many tasks need your attention.
 
-1. In the **Task** pane, select the step requesting review or assistance.
+   ![Shows the agent task view with process steps](media/agent-task-view-pane.svg)
 
-   The task *timeline* opens, focused on the selected step. The timeline displays each step of a task, past and present, in chronological order.
+2. In the **Tasks** pane, select a task under **Needs Attention**.
 
-1. Select **Review** for the step.
+   The task *timeline* opens, showing each step the agent completed and the current step that needs your input.
 
-   The **Tasks** pane switches to **Review** mode, and the review content appears in the main display area.
-1. Review the contents and make changes as needed.
+3. Select **Review** for the step that needs attention.
 
-1. If the agent needs assistance, a message appears at the top of the text explaining the problem.
+   The **Tasks** pane switches to **Review** mode, and the relevant content appears in the main display area.
 
-   You often help the agent by making changes yourself, like making an item available, creating the right customer, contact, or vendor, or changing quantities in sales quotes. You can also [give instructions](#give-instructions-to-the-agent) to guide the agent to make changes for you.
+4. Review the content and make changes as needed.
 
-1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane.
+   If the agent needs help with resolving an issue, a message explains the problem. You can either make changes yourself or [give instructions](#give-instructions-to-the-agent) to guide the agent.
 
-   If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task. Learn more in [Stop a task](#stop-a-task).
+5. When you're satisfied, select **Confirm** to let the agent continue with the task.
 
-After confirmation, the agent continues with the task. When a new notification appears on the agent icon after some time, follow the same flow to review and confirm the results.
+After confirmation, the agent resumes work. When a new notification appears, follow the same flow to review the next step.
+
+## Review directly on pages
+
+When an agent creates or modifies a document, you can review its work directly on that page without opening the Tasks pane. A *data review bar* appears at the top of the page, showing which agent made changes and giving you quick access to review field-level suggestions.
+
+:::image type="content" source="media/agents-data-review-bar.svg" alt-text="Shows a document created by an agent that includes the data review bar along the top."::: 
+
+The data review bar appears regardless of how you navigate to the document—from a link in the Tasks pane or through standard navigation like search or menus. It also appears even if you don't have permission to use the agent that made the changes. In that case, you can still identify that agent-influenced data exists on the document, but links or buttons that open the agent task in the **Tasks** pane aren't shown.
+
+### What the data review bar shows
+
+The data review bar displays different elements depending on the situation:
+
+| Situation | What displays |
+|-----------|--------------|
+| Agent task awaits review and modified fields | **Review agent task** link and **Review (N)** button |
+| Agent task awaits review, no field modifications | **Review task** button |
+| Agent modified fields, no task awaiting review | **Review (N)** button only |
+| Multiple agents made changes | Stacked agent icons and a review message. If you have access to only some of the agents, task links or buttons appear only for those agents. |
+
+### Review field suggestions
+
+Fields that an agent modified have a **Show details about suggestion** :::image type="icon" source="media/info-tip-white.png"::: icon next to them. The tooltip for each field shows which agent modified the data, even when you don't have permission to open that agent's task. The icon color indicates confidence level:
+
+- **White icon** :::image type="icon" source="media/info-tip-white.png"::: - Standard confidence. Review the value but it's likely correct.
+- **Orange icon** :::image type="icon" source="media/info-tip-red.png"::: - Low confidence. The agent is less certain about this value, so review it carefully.
+
+To review suggestions:
+
+1. Select the **Review (N)** button on the data review bar to view a list of all modified fields.
+
+   For documents with repeating lines (like invoice lines), the list shows a summary like "rows: 3, fields: 5" to indicate how many rows and fields have suggestions.
+
+2. Select a field from the list to navigate to it.
+
+3. Select the info tip icon next to the field to view:
+   - Which agent made the modification
+   - The reasoning (for example, "most frequently used value" or "based on vendor history")
+   - The confidence level
+
+4. Edit the value if needed, or leave it as suggested.
+
+5. After you review all suggestions, select **Done** to complete the review.
+
+### Open an agent task from the data review bar
+
+If the data review bar shows a **Review agent task** link or **Review task** button, select it to open the task in the **Tasks** pane. If multiple agent tasks are pending for the document, select from the dropdown menu to choose which task to review.
+
+### Complete or dismiss the review
+
+When you finish reviewing a document, you have two options:
+
+- **Done** - Marks the review as complete and records that you reviewed the document (including your name and the date). The agent's task can proceed, and the suggestion markers are cleared from the fields.
+- **Dismiss** (X button) - Hides the data review bar and refreshes the page to clear suggestion markers. Use this button if you want to review the document later or if you already made your changes manually.
 
 ## Give instructions to the agent
 
-When you review a step, you might need to change something the agent created or help it get unblocked. For example, you might need to make an item available, create the correct customer or vendor, or change quantities in sales quotes before the task can continue. Instead of making the changes yourself, you can guide the agent to do the work by providing instructions in the **Tasks** pane.
+When an agent is blocked, you can guide it by providing instructions instead of making changes yourself.
 
 :::image type="content" source="media/give-instructions-to-agent.svg" alt-text="Shows a step in Copilot Task pane that includes the options to give instructions to the agent.":::
 
-In the **Give instructions to the agent** section of the step, you might get suggestions for instructions you can give. Copilot generates these suggestions automatically based on the current task. In some cases, there are no suggestions. Alternatively, you can write your own instructions in the **Type your instructions** box. After you select a suggestion or type instructions, select **Confirm** to let the agent resume the task.
+In the **Give instructions to the agent** section, Copilot might suggest common instructions based on the current task. You can select a suggestion or write your own in the **Type your instructions** box. Then select **Confirm** to let the agent resume the task.
 
 > [!IMPORTANT]
-> Your instructions are only used to complete this specific step. They aren't reused for the subsequent agent runs.
+> Your instructions apply only to the current step. They aren't saved or reused for future tasks.
 
-### How to write instructions
+### Tips for writing instructions
 
-You're free to enter any text in the **Type your instructions** box, which lets you write instructions in plain, everyday language. Here are some tips to get the best results:
+Write instructions in plain, everyday language. Be specific about what you want the agent to do.
 
-- Be specific and clear.
-- Keep instructions focused on actions relevant to the current step.
+| Scenario | Example instruction |
+|----------|---------------------|
+| Requested quantity isn't available | Change the quantity to 50 |
+| Agent can't determine the exact item | Give a quote for the Rome guest chair in blue |
+| You want to change a field value | Change the shipping date to 09/01 |
+| Creating a new entity | Create vendor using OCR data |
 
-Examples:
+Avoid instructions that:
 
-|Scenario|Instructions|
-|---|---|
-|When requested quantity of an item isn't available|Change the quantity to 50|
-|When the agent can't determine the exact item|Give a quote for the Rome guest chair in blue|
-|When you want to change a field| Change the shipping date to 09/01|
-|When you want to give specific information when creating an entity|Create vendor using OCR data|
-
-Here's what to avoid:
-
-- Instructions that directly alter the workflow, such as stopping the task, skipping or discarding a step. These types of operations have dedicated actions in the interface rather than through freeform instructions.
-- Instructions that are out of scope for the step or task, asking the agent to update unrelated records or perform actions outside the current task's context.
+- Try to alter the workflow (like stopping or skipping steps)—use the dedicated buttons instead
+- Ask the agent to update unrelated records or do work outside the current task
 
 ## Stop a task
 
-Most steps of a task include a **Stop** button that lets you terminate the process on that task only. To stop all active tasks at once, you can select the **Stop all tasks** action. This action is useful if the agent becomes blocked after importing too many tasks. It clears the task list and unblocks the agent.
+If you need to stop an agent from continuing a task, select **Stop** on the step. You're asked to confirm before the task stops.
 
-When you select **Stop**, a task isn't terminated immediately&mdash;you're asked to confirm before the task is stopped. Before you stop a task, consider the following behavior:
+To stop all active tasks at once, select **Stop all tasks**. Stopping a task is useful if the agent becomes blocked after importing too many tasks.
+
+Before stopping a task, consider:
 
 - Stopped tasks can't be restarted.
-- Stopping the task might leave some results incomplete or unwanted, and it might require follow-up actions. Follow up actions depend on where in the process the task was stopped.
-- Stopped tasks aren't deleted immediately. You can still explore a task's timeline until it's deleted, typically by an administrator.
+- The document might be left incomplete, and you might need to finish it manually.
+- Stopped tasks remain visible in the timeline until an administrator deletes them.
+
+## View summary of agent activities
+
+To view key performance indicators (KPIs) that measure the agent's impact in your organization, hover over the agent's icon or select the ![Show summary for agent icon](media/soa-summary-icon.png) **Show summary for agent** in the **Tasks** pane.
+
+## Troubleshooting
+
+### Data review bar doesn't appear on a document
+
+The data review bar only appears on certain page types (Card, Document, List Plus, and Worksheet pages). If you're viewing a document that an agent created but the bar isn't shown:
+
+- Make sure you're viewing the main document page, not a subpage or embedded part.
+- Check whether another user already completed the review by looking at the task in the **Tasks** pane.
+- Refresh the page to ensure you have the latest data.
+
+### Task not visible in the Tasks pane
+
+The agent organizes tasks. Make sure you selected the correct agent icon in the navigation menu. Tasks that need attention appear at the top of the list under **Needs Attention**.
+
+If you still can't find the task, it could be:
+
+- Another user stopped or completed the task.
+- The agent is still processing it. Wait a few moments and check again.
+- An administrator deleted older tasks.
+
+### Agent keeps getting blocked on the same issue
+
+If an agent repeatedly gets blocked, consider:
+
+- Setting up master data (vendors, customers, items) that the agent frequently needs
+- Adjusting the agent's configuration to better match your business processes
+- Reviewing the agent's setup to ensure it has the permissions it needs
+
+Learn more in [Set up Payables Agent](payables-agent-setup.md) or [Set up Sales Order Agent](sales-order-agent-setup.md).
 
 ## Related information
 
-[Configure Copilot and agent capabilities](enable-ai.md)  
-[Payables Agent overview](payables-agent.md)  
-[Set up Payables Agent](payables-agent-setup.md)  
-[Sales Order Agent overview](payables-agent.md)  
-[Set up Sales Agent](payables-agent-setup.md)  
+- [Configure Copilot and agent capabilities](enable-ai.md)
+- [Payables Agent overview](payables-agent.md)
+- [Set up Payables Agent](payables-agent-setup.md)
+- [Sales Order Agent overview](sales-order-agent.md)
+- [Set up Sales Order Agent](sales-order-agent-setup.md)

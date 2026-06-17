@@ -21,7 +21,7 @@ It's efficient to run some tasks simultaneously and in an automated manner. You 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to run synchronization in the background to open the **Shopify Shop Card** page.
-3. Turn on the **Allow Background Syncs** toggle.
+3. Turn on the **Run Syncs in Background** toggle.
 
 Now, when the sync action starts, instead of running a task in the foreground it asks you to wait. When it completes, you can proceed to the next action. The task is created as a **Job Queue Entry** and starts immediately.
 

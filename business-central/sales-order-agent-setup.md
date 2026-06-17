@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate Sales Order Agent and manage user access.
-ms.date: 05/03/2026
+ms.date: 06/16/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer
@@ -21,7 +21,12 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 Before configuring and activating Sales Order Agent, ensure the following prerequisites are met:
 
-- Set up the email account for receiving incoming requests for sales quotes and orders.
+- You have permissions to configure the Sales Order Agent. You can configure the agent if you meet one of these conditions:
+  - You're listed in the agent's user access list with **Can Configure** selected.
+  - You have the **Configure All Agents** system permission (ID 9665).
+
+  Learn more in [Manage agent permissions and user access](#manage-agent-permissions-and-user-access).
+- An email account is set up for receiving incoming requests for sales quotes and orders.
 
    Sales Order Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).
 
@@ -30,11 +35,11 @@ Before configuring and activating Sales Order Agent, ensure the following prereq
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
 
-- Set up the Business Central environment for billing agent capabilities.
+- Billing for agent capabilities is configured for the Business Central environment in the Business Central admin center.
 
    Agents use Copilot Credits when a user runs it, which your company is charged for. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
-- Turn on the **Allow HttpClient Requests** toggle in the **Sales Order Agent** extension settings (sandbox environments only).
+- (Sandbox environments only) The **Allow HttpClient Requests** toggle in the **Sales Order Agent** extension settings is turned on.
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Sales Order Agent**, and then turn on the **Allow HttpClient Requests** toggle.
 

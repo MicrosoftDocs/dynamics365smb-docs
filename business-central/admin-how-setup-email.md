@@ -27,7 +27,7 @@ Email in [!INCLUDE[prod_short](includes/prod_short.md)] is only for sending mess
 
 There are a couple of requirements for setting up and using the email features.
 
-* To set up email, you must have the **EMAIL SETUP** permission set. To learn more, go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+* To set up email, you must have the **EMAIL - ADMIN** permission set. To learn more, go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 * Everyone who uses the email features must be a fully licensed [!INCLUDE [prod_short](includes/prod_short.md)]. For example, delegated admins and guest users can't use the tenant's email account.
 * Everyone who uses the email features must have a valid, paid license for Exchange Online. Otherwise, they can't use some features. For example, they can’t send emails because Exchange rejects their messages. You can’t use trial licenses.
 

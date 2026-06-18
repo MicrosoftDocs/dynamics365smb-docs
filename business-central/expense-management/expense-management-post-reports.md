@@ -8,7 +8,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6903, 6910, 6953, 6987, 6998
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Post expense reports

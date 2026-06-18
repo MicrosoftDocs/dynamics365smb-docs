@@ -49,8 +49,8 @@ The following articles describe local functionality unique to the Spanish versio
 
 - Electronic invoicing
   - [E-Invoicing Factura-E](spain-einvoicing.md) **Available Now**
-  - [Veri*Factu compliance](verifactu-setup.md) **Available now**
-  - [Enable embedded VERI*FACTU mode](enable-real-time-invoice-reporting.md) **Available Now**
+  - [VERI\*FACTU with external service integration](verifactu-setup.md) **Available now**
+  - [Enable embedded VERI\*FACTU mode](enable-real-time-invoice-reporting.md) **Available Now**
   - [Cartera module](cartera-module.md) **Available Now**
   - [Receivables Cartera module](receivables-cartera-module.md) **Available Now**
   - [Payments Cartera module](payments-cartera-module.md) **Available Now**

@@ -8,7 +8,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6939, 6949, 6951, 6990
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Set up expense users and teams

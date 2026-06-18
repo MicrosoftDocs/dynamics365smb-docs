@@ -7,7 +7,7 @@ ms.date: 05/11/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Troubleshoot common issues in Expense Agent

@@ -1,28 +1,30 @@
 ---
-title: Set up VERIFACTU [ES]
+title: VERIFACTU with external service integration [ES]
 description: Learn how to set up and use VERI*FACTU in the Spanish version of Business Central.
 author: altotovi
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Verifactu, SFI, e-invoice, Spanish version, b2brouter connector
 ms.search.form: 
-ms.date: 07/11/2025
+ms.date: 06/15/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# VERI*FACTU rules in Spain
+# VERI\*FACTU with external service integration
 
-VERI*FACTU is a regulatory framework introduced by the Spanish government to modernize and secure electronic invoicing systems. Its primary goal is to combat tax fraud and enhance transparency in business transactions. The framework is governed by Royal Decree 1007/2023, later amended by Royal Decree 254/2025, and forms part of Spain’s broader Anti-Fraud Law 11/2021.
+VERI\*FACTU is a regulatory framework introduced by the Spanish government to modernize and secure electronic invoicing systems. Its primary goal is to combat tax fraud and enhance transparency in business transactions. The framework is governed by Royal Decree 1007/2023, later amended by Royal Decree 254/2025, and forms part of Spain’s broader Anti-Fraud Law 11/2021.
 
-VERI*FACTU refers to a "verifiable invoicing system"—a type of computerized invoicing system (SIF) that can optionally send invoice records in real time to the Spanish Tax Agency (AEAT).  
+VERI\*FACTU refers to a "verifiable invoicing system"—a type of computerized invoicing system (SIF) that can optionally send invoice records in real time to the Spanish Tax Agency (AEAT).
 
-Businesses in Spain have the option to use the [SII](sii-setup.md), in which case VERI*FACTU (SIF) rules don't apply to them. [SII](sii-setup.md) can be enforced for large companies with an annual turnover exceeding the threshold, but businesses may also opt in voluntarily to report SII. In all other cases, SIF is mandatory.
+Under the Spanish regulatory framework, companies must adopt a compliant invoicing approach; however, the setup itself is optional, and each company can choose the approach that applies to them. Depending on company size and applicable requirements, businesses can either use the **SII** (Immediate Information Supply) system or **VERI\*FACTU**, but not both at the same time. While one of these approaches is mandatory for compliance, it's up to each company to decide which one to adopt.
 
-## Set up VERI*FACTU
+Businesses in Spain may choose to use the [SII system for VAT reporting](sii-setup.md), in which case VERI\*FACTU (SIF) rules don't apply to them. SII can be enforced for large companies with an annual turnover exceeding defined thresholds, although businesses may also opt in voluntarily. In all other cases, companies are required to comply with the SIF framework through VERI\*FACTU. Learn more about how to enable embedded VERI\*FACTU mode in [Enable real-time invoice reporting with embedded VERI\*FACTU](enable-real-time-invoice-reporting.md).
 
-Dynamics 365 Business Central supports VERI*FACTU frameworks using integration with the B2Brouter API through our default connector. To set up this mode, follow these steps:
+## Set up VERI\*FACTU
+
+Dynamics 365 Business Central supports VERI\*FACTU frameworks using integration with the B2Brouter API through our default connector. To set up this mode, follow these steps:
 
 ### Disable SII module
 
@@ -51,6 +53,7 @@ Learn more in [SII setup](sii-setup.md), which provides more information about h
 ## Related information
 
 - [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md)
+- [Enable embedded VERI\*FACTU mode](enable-real-time-invoice-reporting.md)
 - [Spain Local Functionality](spain-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,7 +8,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6900, 6901, 6920, 6930, 6937, 6945, 6946, 6952, 6973
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Set up expense categories, payment methods and rules

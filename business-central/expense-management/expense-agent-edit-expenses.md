@@ -7,7 +7,7 @@ ms.date: 04/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Review and edit your expenses

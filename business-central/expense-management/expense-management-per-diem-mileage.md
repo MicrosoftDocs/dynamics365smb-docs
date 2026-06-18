@@ -8,7 +8,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6974, 6996
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Set up per diem and mileage allowances

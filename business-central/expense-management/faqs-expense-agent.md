@@ -80,7 +80,7 @@ These signals are used to improve the agent’s accuracy over time while maintai
 -	**Volume Limitations**: Expense Agent processes up to 25 files per upload or email attachment, and up to 50MB as a batch. Complex files might exceed processing limits or timeout, triggering a request for human intervention.
 -	**Geographic and language availability**: The Expense Agent user interface and environment currently support English only. Receipt upload isn't restricted by language, but receipts in some languages might result in reduced extraction accuracy. Initial regional availability is limited to the US only.
 -	**System Limitations & Dependencies**: Only one Expense Agent can be configured per Business Central company. A single expanse user can't be enabled across multiple Expense Agents. The agent stops processing if AI services fail or mailbox access is lost. Complex approval systems with interim or conditional approvals isn't yet supported. Also, the post approval process, like posting and reimbursements, is beyond agent’s scope and is handled manually in [!INCLUDE [prod_short](../includes/prod_short.md)]. On-behalf expense submission isn't supported yet.
--	**AI Accuracy Limitations**: AI-generated content, such as extracted data, suggested categories, or expense groupings, might be inaccurate; human review is required before submission or approval.
+-	**AI Accuracy Limitations**: ai-assisted content, such as extracted data, suggested categories, or expense groupings, might be inaccurate; human review is required before submission or approval.
 
 ## What operational factors and settings allow for effective and responsible use of Expense Agent?
 
@@ -106,7 +106,7 @@ For technical issues or questions about setup and configuration, contact Microso
 
 ## How does Payables Agent show me what it's doing?
 
-**Clear AI Disclosure**: All content generated or suggested by the agent is clearly marked as AI-generated. You always know when you're reviewing agent-created content versus human-entered data.
+**Clear AI Disclosure**: All content generated or suggested by the agent is clearly marked as ai-assisted. You always know when you're reviewing agent-created content versus human-entered data.
 
 ## Related information
 

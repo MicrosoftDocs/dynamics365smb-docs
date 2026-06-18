@@ -8,7 +8,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6939, 6980, 6981
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Approve expense reports

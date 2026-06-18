@@ -7,7 +7,7 @@ ms.date: 04/15/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
-ai-usage: ai-generated
+ai-usage: ai-assisted
 ---
 
 # Understand expense and expense report statuses

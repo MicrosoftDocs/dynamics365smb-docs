@@ -5,21 +5,25 @@ author: altotovi
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: verifactu, embedded verifactu, AEAT, QR codes, embed QR codes, auditing, Spanish version
-ms.date: 05/29/2026
+ms.date: 06/15/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Enable embedded VERI*FACTU mode in Spain
+# Enable embedded VERI\*FACTU mode in Spain
 
-VERI*FACTU is Spain’s new mandatory e-invoicing standard, requiring businesses to report invoices in real time to the Spanish Tax Agency (AEAT) using digital signatures, hash chaining, and QR code verification for authenticity and traceability. This feature enables Spanish companies to submit invoices automatically to AEAT, embed official QR codes, and maintain legal audit trails, helping prevent fraud and streamline auditing.
+VERI\*FACTU is Spain’s e-invoicing standard that enables businesses to report invoices in real time to the Spanish Tax Agency (AEAT) using digital signatures, hash chaining, and QR code verification to ensure authenticity and traceability. This capability allows Spanish companies to automatically submit invoices to the AEAT, embed official QR codes, and maintain legally compliant audit trails to help prevent fraud and streamline auditing processes.
 
-Users can activate VERI*FACTU mode by using a dedicated toggle, which ensures full compliance with Spanish e-invoicing regulations and prevents **SII** mode from being enabled at the same time.
+The use of VERI\*FACTU is part of the Spanish regulatory framework, where companies must adopt a compliant e-invoicing approach. Depending on company size and applicable regulations, businesses can choose between **SII** and **VERI\*FACTU**. However, both modes can't be used simultaneously.
 
-Once the setup for VERI*FACTU is complete, any invoices posted (**Posted Sales Invoice**) in Business Central are automatically sent to the AEAT for clearance through the **E-Document** framework.
+While compliance is mandatory, each company determines which approach, SII or VERI\*FACTU, best applies to its situation. Learn more about integrating VERI\*FACTU with external services in [VERI\*FACTU with external service integration](verifactu-setup.md).
 
-After the invoice is successfully validated, the system incorporates the official QR code issued by the AEAT directly onto the invoice layout, allowing users to print or email invoices that are legally compliant and easily verifiable by customers.
+Users can activate **VERI\*FACTU** mode through a dedicated toggle, which ensures compliance with Spanish e-invoicing regulations and prevents **SII** mode from being enabled at the same time.
+
+Once the setup for VERI\*FACTU is complete, any invoices posted (**Posted Sales Invoice**) in Business Central are automatically sent to the AEAT for clearance through the E-Document framework.
+
+After the invoice is successfully validated, the system incorporates the official QR code issued by the AEAT directly into the invoice layout. This allows users to print or email invoices that are legally compliant and easily verifiable by customers.
 
 ## Enable digital signing
 
@@ -102,7 +106,7 @@ To enable digital signing, perform the following steps:
 
 ## Set up Report Selection - Sales
 
-If it's not set up already, perform the following steps:
+If it isn't set up already, perform the following steps:
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selection - Sales**, and then select the related link. The **Report Selection - Sales** page displays.
 1. Ensure for the **Usage - Invoice**, the report ID **1306** is selected.
@@ -154,3 +158,10 @@ The following steps are based on a use case scenario where a sales invoice is cr
 To view the submission status of the Verifactu document, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Verifactu Document**, and then select the related link. The **Verifactu Document** page displays with the submission status.
 
 :::image type="content" source="../../media/spanish-verifactu/document-submission-status.png" alt-text="Screenshot that shows the Verifactu document page with the submission status.":::
+
+## Related information
+
+- [VERI\*FACTU with external service integration](verifactu-setup.md)
+- [Spain Local Functionality](spain-local-functionality.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

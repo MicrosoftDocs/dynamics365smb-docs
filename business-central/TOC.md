@@ -2397,49 +2397,7 @@ ms.service: dynamics-365-business-central
 #### [Create workflows from workflow templates](across-how-to-create-workflows-from-workflow-templates.md)
 #### [Export and import approval workflows](across-how-to-export-and-import-workflows.md)
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-<!--Connectors start-->
-### Set up connections
-#### [Connection overview](across-setup-connections.md)
-#### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
-#### Use Business Central as your business inbox in Outlook 
-##### [Get the Business Central add-in for Outlook](admin-outlook.md)
-##### [Use Business Central without Outlook](admin-no-outlook.md)
-#### Use Microsoft Teams with Business Central
-##### [Overview](across-teams-overview.md)
-##### [Manage Teams integration](admin-teams-integration.md)
-##### [Install Business Central app for Teams](across-install-app-for-teams.md)
-##### [Access data in Teams without Business Central license](teams-access-with-m365-license.md)
-##### [Search for customers, vendors, and contacts](across-search-contacts-teams.md)
-##### [Add Business Central tab in channel or chat](across-teams-tab.md)
-##### [Share records and page links in Teams](across-working-with-teams.md)
-##### [Change company and other settings](across-teams-settings.md)
-##### [Teams FAQ](teams-faq.md)
-##### [Troubleshoot Teams integration](admin-teams-troubleshooting.md)
-#### Use OneDrive for Business with Business Central
-##### [Overview](across-onedrive-overview.md)
-##### [Manage OneDrive for Business integration](admin-onedrive-integration.md)
-###### [Configuring OneDrive integration with Business Central on-premises](admin-onedrive-integration-onpremises.md)
-##### [Open and share files in OneDrive](across-share-onedrive.md)
-##### [OneDrive FAQ](admin-onedrive-faq.md)
-#### Use Power BI with Business Central
-##### [Introduction](admin-powerbi.md)
-##### Administrator
-###### [Integration overview](admin-powerbi-overview.md)
-###### [Enable Power BI integration](admin-powerbi-setup.md)
-##### Report creator
-###### [Get started: Build reports](across-how-use-financials-data-source-powerbi.md)
-###### [Create reports to display list data](across-how-use-powerbi-reports-factbox.md)
-##### Business user
-###### [Work with Power BI reports in Business Central](across-working-with-powerbi.md)
-###### [Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md)
-###### [Use the Business Central apps in Power BI](across-powerbi-business-central-apps.md)
-##### [FAQ](power-bi-faq.md)
-#### Use Power Automate with Business Central
-##### [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md)
-##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
-#### Use Power Apps with Business Central
-##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
-<!-- Connectors end -->
+<!--Connectors-->
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
 #### [Universal print Printers](admin-printer-setup-universal-print.md)
@@ -2630,6 +2588,99 @@ ms.service: dynamics-365-business-central
 ### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
 ### [Intelligent insights (on-premises)](about-intelligent-cloud.md)
 
+<!-- integration-->
+# Integrate with other applications
+## [Overview](integration-overview.md)
+
+<!-- Office apps and Microsoft 365 start -->
+## Microsoft Office apps and Microsoft 365
+### [Overview](m365-integration-overview.md)
+
+### Microsoft Excel
+#### [Set up Business Central add-in for Excel (on-premises only)](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin?toc=/dynamics365/business-central/toc.json)
+#### [View and edit Business Central data in Excel](across-work-with-excel.md)  
+#### [Design analytical reports with Excel](ui-excel-report-layouts.md?tabs=any-report)  
+#### [Import data from other systems with Excel](across-import-data-configuration-packages.md)  
+
+### Microsoft OneDrive
+#### [Overview](across-onedrive-overview.md)
+#### [Manage OneDrive integration](admin-onedrive-integration.md)
+#### [Configure OneDrive integration with Business Central on-premises](admin-onedrive-integration-onpremises.md)
+#### [Open and share files in OneDrive](across-share-onedrive.md)
+#### [OneDrive FAQ](admin-onedrive-faq.md)
+
+### Microsoft Outlook
+#### [Install Business Central add-in for Outlook](admin-outlook.md)
+#### [Set up the add-in for Outlook (on-premises only)](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox?toc=/dynamics365/business-central/toc.json)
+#### [Save business contacts to Outlook](save-business-contacts-to-outlook.md)
+#### [Use Business Central without Outlook](admin-no-outlook.md)
+
+### Microsoft Teams
+#### [Overview](across-teams-overview.md)
+#### [Manage Teams integration](admin-teams-integration.md)
+#### [Install Business Central app for Teams](across-install-app-for-teams.md)
+#### [Access data in Teams without Business Central license](teams-access-with-m365-license.md)
+#### [Search for customers, vendors, and contacts](across-search-contacts-teams.md)
+#### [Add Business Central tab in channel or chat](across-teams-tab.md)
+#### [Share records and page links in Teams](across-working-with-teams.md)
+#### [Change company and other settings](across-teams-settings.md)
+
+### Microsoft Word
+#### [Create report layouts with Word](ui-how-add-fields-word-report-layout.md)  
+#### [Use the Word add-in for report layouts](/dynamics365/business-central/dev-itpro/developer/word-layout-add-in?toc=/dynamics365/business-central/toc.json)
+#### [Use Word templates for bulk communication](ui-mail-merge.md)  
+<!-- Office apps and Microsoft 365 end -->
+
+<!-- Microsoft Power Platform -->
+## Microsoft Power Platform
+### [Overview](powerplatform-integration-overview.md)
+
+### Microsoft Power Apps
+#### [Overview](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview?toc=/dynamics365/business-central/toc.json)
+#### [Connect to Business Central data to build apps](across-how-use-financials-data-source-powerapps.md)
+
+### Microsoft Power Automate
+#### [Overview](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview?toc=/dynamics365/business-central/toc.json)
+#### [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md)
+#### [Troubleshoot automated workflows](across-flow-troubleshoot.md)
+
+### Microsoft Power BI
+#### [Overview](admin-powerbi.md)
+#### [Power BI integration component and architecture](admin-powerbi-overview.md)
+#### [Enable Power BI integration](admin-powerbi-setup.md)
+#### [Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md)
+#### [Build reports](across-how-use-financials-data-source-powerbi.md)
+#### [Create reports to display list data](across-how-use-powerbi-reports-factbox.md)
+#### [Work with Power BI reports in Business Central](across-working-with-powerbi.md)
+#### [Use the Business Central apps in Power BI](across-powerbi-business-central-apps.md)
+
+### [Integrating with Microsoft Power Pages](/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview?toc=/dynamics365/business-central/toc.json)
+<!-- end Microsoft Power Platform -->
+
+## Microsoft Dataverse
+### [Overview](/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview?toc=/dynamics365/business-central/toc.json)
+### [Integrate with Dataverse via data sync](admin-common-data-service.md)
+### [Data ownership models for synchronization](admin-cds-company-concept.md)
+### [Set up user accounts for Dataverse integration via data sync](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connect to Dataverse for data sync](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronize Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
+### [Map the tables and fields to synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Manually synchronize table mappings](admin-manual-synchronization-of-table-mappings.md)
+### [Schedule a synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Troubleshoot synchronization errors](admin-troubleshoot-sales-synchronization.md)
+### [Use a Power Automate flow to synchronize Dataverse entity changes](admin-power-automate-flow-dataverse.md)
+
+## Dynamics 365 Field Service
+### [Integrate with Field Service](admin-integrate-field-service.md)
+### [Use Field Service integration](admin-use-field-service-integration.md)
+
+## [Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+<!--## [Microsoft Bookings](finance-bookings.md)-->
+
+## [Shopify](shopify/shopify-connector-overview.md)
+<!-- end integration-->
+
 
 # Security, privacy, and compliance
 ## Security and protection
@@ -2722,26 +2773,10 @@ ms.service: dynamics-365-business-central
 #### [US/CA/UK/AU/NZ/ZA - Send remittance advice](ui-extensions-send-remittance-advice.md)
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central extensions by other providers](ui-extensions-other.md)
-## Integrate with other Dynamics 365 applications
-### [Integrate with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### Integrate with Dynamics Field Service
-#### [Set up an integration with Dynamics 365 Field Service](admin-integrate-field-service.md)
-#### [Use an integration with Dynamics 365 Field Service](admin-use-field-service-integration.md)
-## Integrate with Microsoft Dataverse
-### [Integrate with Dataverse via data sync](admin-common-data-service.md)
-### [Data ownership models for synchronization](admin-cds-company-concept.md)
-### [Set up user accounts for Dataverse integration via data sync](admin-setting-up-integration-with-dynamics-sales.md)
-### [Connect to Dataverse for data sync](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronize Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
-### [Map the tables and fields to synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Manually synchronize table mappings](admin-manual-synchronization-of-table-mappings.md)
-### [Schedule a synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Troubleshoot synchronization errors](admin-troubleshoot-sales-synchronization.md)
-### [Use a Power Automate flow to timely synchronize Dataverse entity changes](admin-power-automate-flow-dataverse.md)
+
 ## Synchronize master data across companies
 ### [Get ready to synchronize master data](admin-set-up-data-sync.md)
 ### [Manage master data synchronization](admin-sync-master-data.md)
-
 
 <!--migrate to BC online-->
 ## Migrate to Business Central online

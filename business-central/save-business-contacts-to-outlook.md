@@ -12,6 +12,8 @@ ms.custom: bap-template #Required; don't change.
 
 # Save business contacts to Microsoft Outlook
 
+> **APPLIES TO:**  [!INCLUDE[prod_short](includes/prod_short.md)] 2026 release wave 1 (v28) and later. For earlier versions, refer to [Synchronize with contacts in Outlook](admin-synchronize-outlook-contacts.md).
+
 If you use Outlook or Teams to contact and collaborate with people outside your organization, you often need their contact details, like email address and phone number, that are stored in Business Central. The **Contacts** list in Business Central typically contains the people or organizations you do business with, such as customers, vendors, banks, or even leads for new business, connecting them to your organization's business processes.
 
 To help you stay in the flow of work and avoid switching from Outlook or Teams, Business Central offers a synchronization feature that saves your business contacts to Outlook and Teams. You can then easily access them just like any other contacts. When you synchronize contacts, the are saved to your Microsoft 365 contacts list and show up in the People page in Outlook and Teams. From there, they're only visible to you. You can then search for a specific contact from the To field of a draft email, set up group chats, call, or schedule meetings.

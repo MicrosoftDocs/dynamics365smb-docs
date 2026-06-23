@@ -31,7 +31,7 @@ Reusing information from similar items can be a good option and Copilot can help
 
 * Substitutions
 
-You can store similar or interchangeable products on the **Item Substitution Entry** page. Copilot helps to add this information for current products by searching for similar ones in the database.
+You can store similar or interchangeable products on the **Item Substitution Entry** page. Copilot helps add this information for current products by searching for similar ones in the database.
 
 ## What is the intended use of suggest item substitutions with Copilot?
 

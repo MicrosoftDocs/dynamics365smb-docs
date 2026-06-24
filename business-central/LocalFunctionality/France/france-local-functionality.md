@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: French localization, France local functionality, French version
-ms.date: 12/30/2025
+ms.date: 06/23/2026
 ms.custom: bap-template
 ---
 
@@ -23,6 +23,10 @@ The following articles describe local functionality that's unique to the French 
   - [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md) **Available Now**
   - [Requirements for Reporting Declaration of Trade in Goods](requirements-for-reporting-declaration-of-trade-in-goods.md) **Available Now**
   - [Reporting Declaration of Services DES](../../finance-how-setup-use-service-declaration.md) **Available Now**
+
+- E-Invoicing
+  - [E-Reporting in France](electronic-reporting-france.md) **Available Now**
+  - [Electronic invoicing in France with UBL 2.1 and Factur-X](enable-electronic-invoicing-france.md) **Available Now**
 
 - Banking & Payments
   - [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**
@@ -63,7 +67,6 @@ The following articles describe local functionality that's unique to the French 
 
 ## Future legislation requirements being investigated
 
-- Electronic invoicing - **Planned for July 2026**
 - Delocalization of FR base app - **Planned during 2026**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  

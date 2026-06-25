@@ -1622,8 +1622,8 @@ ms.service: dynamics-365-business-central
 ##### [Archive payment slips](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Export or import payment management setup parameters](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### E-invoicing
-##### [E-reporting in France](electronic-reporting-france.md)
-##### [Electronic invoicing in France with UBL 2.1 and Factur-X](enable-electronic-invoicing-france.md)
+##### [E-reporting in France](LocalFunctionality/France/electronic-reporting-france.md)
+##### [Electronic invoicing in France with UBL 2.1 and Factur-X](LocalFunctionality/France/enable-electronic-invoicing-france.md)
 #### Core finance
 ##### [General ledger](LocalFunctionality/France/general-ledger.md)
 ##### [Apply general ledger entries](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)

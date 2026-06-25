@@ -24,7 +24,7 @@ When you change the repair status of a service item on a service item line, ther
 * When a service order allocation entry is created that indicates that no resource has been allocated, the **Status** field on the **Resource Allocation** page is set to **Nonactive**.  
 * The allocation entry status is set to **Canceled** when you reallocate the referred service item in the service order allocation entry, which indicates that the allocated resource or resource group hasn't attempted the service task.  
   
-The allocation status reflects when the service process is finished, or when another resource is necessary in order to finish the service of the service item.  
+The allocation status reflects when the service process is finished, or when another resource is necessary to finish the service of the service item.  
   
 ## Convert service quotes to service orders
 

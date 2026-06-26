@@ -7,7 +7,7 @@ ms.reviewer: solsen
 ms.topic: concept-article
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
-ms.date: 03/03/2025
+ms.date: 06/24/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -23,16 +23,19 @@ For example, Microsoft provides an app that lets you integrate with PayPal Payme
 
 To use an app, you must have the permissions to the installed objects.
 
-To install or uninstall apps from Marketplace or add per-tenant extensions, you must have the right permissions. You must either be a member of the **D365 Extension Mgt.** user group, or you must have the **EXTEN. MGT. - ADMIN** permission set explicitly. If you're an administrator, you can assign user groups and permissions to other users in your company. Learn more in [Create Users According to Licenses](ui-how-users-permissions.md).  
+To install or uninstall apps from Marketplace or add per-tenant extensions, you must have the right permissions. You must either be a member of the **D365 Extension Mgt.** user group, or you must have the **EXTEN. MGT. - ADMIN** permission set explicitly. If you're an administrator, you can assign user groups and permissions to other users in your company. Learn more in [Create Users According to Licenses](ui-how-users-permissions.md).
+
+> [!NOTE]
+> Internal administrators and Microsoft 365 administrators don't have permissions to install or uninstall extensions by design. To install extensions, use a delegated admin account or a licensed user that has the required permission set.
+
 
 > [!IMPORTANT]  
-> For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you cannot upload per-tenant extensions or install Marketplace apps through the **Extension Management** page. You cannot install Marketplace apps on-premises, including in Docker-based deployments.
+> For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you can't upload per-tenant extensions or install Marketplace apps through the **Extension Management** page. You can't install Marketplace apps on-premises, including in Docker-based deployments.
 
 You manage the apps on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link. Learn more in [Install and Uninstall apps](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
-> If you think you should have access to an app but you cannot find its functionality, check the **Extension Management** page - if the app is not listed there, you can install it as described in the following section.  
-
+> If you think you should have access to an app but you can't find its functionality, check the **Extension Management** page - if the app isn't listed there, you can install it as described in the following section.  
 > [!NOTE]  
 > Sign in to [Marketplace.microsoft.com](https://marketplace.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)] online. Use the same email account for other services and products for a smooth experience.  
 
@@ -71,7 +74,7 @@ Starting in 2022 release wave 2, [!INCLUDE [prod_short](includes/prod_short.md)]
 View the list of suggested apps by choosing the **Connectivity Apps** action in the **Extension Management** page.  
 
 > [!NOTE]
-> The first person to open the **Connectivity Apps** page must allow the extension to connect to an external service. Allow the connection once or always. If you choose to block the connection, you must find the relevant apps on Marketplace. If you allow the connection once or always, be aware that your information might be shared with third parties. Learn more in the section [Understanding the risks of installing apps](#understanding-the-risks-of-installing-apps).
+> The first person to open the **Connectivity Apps** page must allow the extension to connect to an external service. Allow the connection once or always. If you choose to block the connection, you must find the relevant apps on Marketplace. If you allow the connection once or always, your information might be shared with third parties. Learn more in the section [Understanding the risks of installing apps](#understanding-the-risks-of-installing-apps).
 
 This external service generates a list of relevant apps based on your country or region.
 
@@ -80,7 +83,7 @@ This external service generates a list of relevant apps based on your country or
 Microsoft partners and resellers can create an app that they can use to compile lists of apps that they often recommend to their customers. If they do, and they deployed the app to your tenant, the apps are available on the **Recommended Apps** page. There you can read about each app and decide whether to install them.
 
 > [!NOTE]
-> If you are a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from Marketplace](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in the administration content.
+> If you're a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from Marketplace](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in the administration content.
 
 ## Related information
 

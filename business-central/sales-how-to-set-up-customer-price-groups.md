@@ -36,7 +36,7 @@ When you have agreed on the prices that the group of customers will pay for cert
   
 5. Fill in the fields on the lines with the **Item No.**, **Unit of Measure Code**, and the agreed **Unit Price**. You can also show the **Variant Code** column and specify the **Variant Code** if there are several variants of the item.  
   
-6. If the customer group needs to purchase a minimum quantity in order to gain the price agreed on, fill in the **Minimum Quantity** field.  
+6. If the customer group needs to purchase a minimum quantity to gain the price agreed on, fill in the **Minimum Quantity** field.  
 
 7. If required, enter the **Starting Date** and **Ending Date** of the price agreement.  
   

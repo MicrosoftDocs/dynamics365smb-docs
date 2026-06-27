@@ -21,7 +21,7 @@ You can define sales line discounts for a group of customers instead of applying
 3. Choose the **Sales Line Discounts** action.
 4. Fill in the **Sales Code** column with the discount group created on the previous page.
 5. Fill in the fields on the lines with the **Type** (Item or Item Discount Group), **Code**, **Unit of Measure Code**, and the **Line Discount %**.
-6. If the customer group needs to purchase a minimum quantity in order to gain the discount, fill in the **Minimum Quantity** field.
+6. If the customer group needs to purchase a minimum quantity to gain the discount, fill in the **Minimum Quantity** field.
 7. If necessary, enter the **Starting Date** and **Ending Date** for the discount group.
 8. If relevant, you can also specify the **Currency Code** or **Variant Code** after [personalizing the columns](ui-personalization-user.md).
 

@@ -30,7 +30,7 @@ The following table describes a sequence of tasks, with links to the articles th
 | Provide troubleshooting guidelines that help service reps deliver faster service. | [Set Up Troubleshooting](service-how-setup-troubleshooting.md) |
 | Set up resource allocation to make it easy to assign the right resource to a service task. | [Set Up Resource Allocation](service-how-setup-resource-allocation.md) |
 | Define pricing for services, and set up additional service costs to assess on service orders. | [Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md) |
-| Set up things so you can track resource hours and service order status in order to forecast workloads and service needs. | [Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md) |
+| Set up things so you can track resource hours and service order status to forecast workloads and service needs. | [Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md) |
 | Set up repair status options so that you can monitor progress on repairs. | [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md) |
 | Set up a loaner program, so you can lend a substitute while you work on a service item. | [Set Up a Loaner Program](service-how-setup-loaner-program.md) |
 | Set up service items and service item components. | [Set Up Service Items](service-how-setup-service-items.md) |

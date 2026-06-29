@@ -34,14 +34,14 @@ Expense Agent supports JPEG, PNG, and PDF files up to 10 MB, including printed i
 
 ## Automatic currency conversion
 
-When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. When you look into created expense, you will see both original amounts and the local amount.
+When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. When you look into created expense, both original amounts and the local amount are shown.
 
-All totals in the expense report displayed in the web app use the local currency, so you can easily track spending across different countries.
+All totals in the expense report displayed in the web app use the local currency, so you can easily track spending across different countries/regions.
 
 > [!IMPORTANT]
-> If the currency extracted from an uploaded receipt does not exist in Business Central, a validation error is shown during processing with the message: _The expense data could not be validated_.
+> If the currency extracted from an uploaded receipt does not exist in Business Central, a validation error is shown during processing with the message: _The expense data couldn't be validated_.
 >  
-> When opening the expense, the **Amount** field is highlighted, displaying the error: _The currency value is not recognized_.  
+> When you open the expense, the **Amount** field is highlighted, displaying the error: _The currency value is not recognized_.  
 >  
 > To continue, contact your administrator to add the missing currency to the system, and then retry the process.
 
@@ -70,14 +70,17 @@ The mileage expense is created and processed like any other expense and is autom
 > The **Create mileage expense** action is only available if your administrator configured at least one expense category with mileage enabled in [!INCLUDE[prod_short](../includes/prod_short.md)]. If the action appears dimmed, ask your administrator to enable mileage on an expense category.
 
 > [!NOTE]  
-> The expense category cannot be changed, as only mileage-type categories are supported in this flow.
+> The expense category can't be changed, as only mileage-type categories are supported in this flow.
 
 > [!NOTE]  
 > After the expense is created, the system captures a screenshot of the selected route and attaches it to the expense record.
 
 ## Send a receipt by email
 
-You can also send receipts to Expense Agent by email. This is a convenient way to submit receipts from your phone or forward digital invoices directly.
+You can also send receipts to Expense Agent by email. Email is a convenient way to submit receipts from your phone or forward digital invoices directly.
+
+> [!IMPORTANT]
+> Send the email from the company email address registered to your expense user record in Business Central. Only receipts sent from this registered email address are processed. Learn more in [Set up expense users and teams](expense-management-users-teams.md).
 
 1. Open your email application, such as Outlook.
 1. Create a new email and address it to your organization's expense mailbox. Ask your administrator for the email address if you don't have it.
@@ -86,16 +89,16 @@ You can also send receipts to Expense Agent by email. This is a convenient way t
 
 Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses in **Expense reports**.
 
-After the upload, the expense status shows **Processing** while AI analyzes your receipt. When scanning finishes, the status changes to **Open** and the extracted details appear for your review. If the receipt passes validation, it's automatically added to a default expense report, so you don't need to create one manually.
+After you send the email, the expense status shows **Processing** while AI analyzes your receipt. When finished scanning, the status changes to **Open** and the extracted details appear for your review. If the receipt passes validation, it's automatically added to a default expense report, so you don't need to create one manually.
 
 ## Review scanned receipt details
 
 AI suggests values for the following fields based on what it detects in your receipt:
 
-- **Merchant** — The business or merchant name.
-- **Amount** — The total amount on the receipt.
-- **Date** — The transaction date.
-- **Category** — The expense category, such as meals, travel, or office supplies.
+- **Merchant** - The business or merchant name.
+- **Amount** - The total amount on the receipt.
+- **Date** - The transaction date.
+- **Category** - The expense category, such as meals, travel, or office supplies.
 
 To review and adjust the details:
 
@@ -105,7 +108,7 @@ To review and adjust the details:
 1. Select **Save**.
 
 > [!TIP]
-> AI does a great job with clear, well-lit receipt photos. If a field isn't detected correctly, you can edit it manually. Blurry or folded receipts may need more manual corrections.
+> AI does a great job with clear, well-lit receipt photos. If a field isn't detected correctly, you can edit it manually. Blurry or folded receipts might need more manual corrections.
 
 ## Real-time processing status
 
@@ -116,7 +119,7 @@ Expense Agent keeps you updated as your receipt moves through processing:
 | **Processing** | AI is scanning your receipt and extracting details. |
 | **Open** | Scanning is complete. The expense is ready for your review. |
 
-You can continue working while receipts process — there's no need to wait. Come back to **Expense reports** to check on your uploads at any time.
+You can continue working while receipts process; there's no need to wait. Come back to **Expense reports** to check on your uploads at any time.
 
 ## Next steps
 

@@ -13,6 +13,9 @@ ms.reviewer: v-soumramani
 
 # Set up reports for VAT and Intrastat
 
+> [!NOTE]
+> From the January 2027 reporting period, INSTAT/XML must be submitted via eSTATISTIK.CORE (IDEV retired) and that the same INSTAT/XML structure is used.
+
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
@@ -36,14 +39,15 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can specify which r
 > [!NOTE]
 > Intrastat reports can use either the XML or ASCII formats. Depending on the format you use, enter the material number in one of the following fields on the **Company  Information** page.  
 >
-> |Format|Fields|
-> |---------|---------|
-> |XML|Company No.|
-> |ASCII|Sales Material No., Purchase Material No.|
+> |Format|Fields|Comment|
+> |---------|---------|--------------|
+> |XML|Company No.|This is only required for the IDEV channel; for eSTATISTIK.CORE it can be left empty.|
+> |ASCII|Sales Material No., Purchase Material No.||
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selection**, and then choose the related link.  
 1. On the **Report Selection – Intrastat** page, in the **Usage** field, select the type of document that you want to specify reports for. This includes the Intrastat checklist and Intrastat form.  
-1. Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
+1. Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.
+1. Choose the submission channel: IDEV or eSTATISTIK.CORE. 
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

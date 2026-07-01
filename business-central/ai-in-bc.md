@@ -1,18 +1,18 @@
 ---
-title: AI in Business Central
+title: Business Central AI
 description: Get an overview of the powerful AI capabilities in Business Central.
 author: jswymer 
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: overview 
-ms.date: 05/03/2026
+ms.date: 07/01/2026
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
 ---
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
-# AI in Business Central
+# Business Central AI
 
 ![Shows the icon for chat with Copilot pane with callouts](media/bcaibanner.png)
 
@@ -94,6 +94,16 @@ Payables Agent streamlines accounts payable by monitoring your company mailbox f
 
 - [Payables Agent](payables-agent.md)
 - [Responsible AI FAQs for Payables Agent](faqs-payables-agent.md)
+
+### Expense Agent
+
+Expense Agent is an AI-powered expense management app that makes it easy for employees to capture receipts, track spending, and submit expense reports. Upload a photo of a receipt and AI detects the merchant, amount, date, and category, then checks the expense against company policy before submission. Employees can work with Expense Agent through the web app, by email, or Copilot chat, without needing a Business Central license.
+
+[Video](https://www.youtube.com/watch?v=egE6UdOfar0&list=PL1FESh9FqyhQz9EB8c9gqTuAAiJrPPnJr&index=2)
+
+**Learn more in:**
+
+- [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
 
 ### E-document matching
 

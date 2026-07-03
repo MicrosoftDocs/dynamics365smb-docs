@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 08/19/2024
+ms.date: 07/02/2026
 ms.custom: bap-template
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
@@ -82,7 +82,7 @@ In the following example, project tasks are divided into two WIP total groupings
 
 You notice:
 
-* For *1000* through *1299*, WIP is calculated separately for this group of project tasks. Note, however, that two of the tasks, 1010 and 1110, are excluded from the WIP calculation because their project task type is **Posting**.
+* For *1000* through *1299*, WIP is calculated separately for this group of project tasks. Note, however, that two of the tasks, *1010* and *1110*, are excluded from the WIP calculation because their project task type is **Posting**.
 * For *1300* through *1399*, WIP is calculated separately for this group of project tasks.
 
 ## Calculate WIP
@@ -95,11 +95,11 @@ You can determine the WIP amount to post to balance sheet accounts for the perio
 4. Choose the **OK** button.  
 
 > [!NOTE]  
-> The batch job only calculates the WIP, it doesn't post it to the general ledger. To post WIP, run the **Post WIP to G/L** batch job after you've calculated the WIP. Learn more in the following procedure.
+> The batch job only calculates the WIP. The job doesn't post it to the general ledger. To post WIP, run the **Post WIP to G/L** batch job after you calculate the WIP. Learn more in the following procedures.
 
 ### Review warnings
 
-If your WIP calculation results in a *WIP was calculated with warnings* message, you might want to review the warnings.
+If your WIP calculation results in a message such as *WIP was calculated with warnings*, you might want to review the warnings.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project WIP Cockpit**, and then choose the related link.  
 2. Select the project for which you want to review warnings. The **WIP Warnings** toggle is enabled for projects that have WIP warnings.
@@ -107,7 +107,7 @@ If your WIP calculation results in a *WIP was calculated with warnings* message,
 
 ### Delete WIP entries
 
-If you want to try different WIP methods, you might get a *The Project Task cannot be modified because the project has associated project WIP entries* error. To be able to check WIP method, delete existing WIP entries.
+If you want to try different WIP methods, you might get an error message like, *The Project Task cannot be modified because the project has associated project WIP entries*. To be able to check WIP method, delete existing WIP entries.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project WIP Cockpit**, and then choose the related link.  
 2. Select the project for which you want to delete WIP entries.
@@ -138,24 +138,74 @@ After you complete all activities for a project, including posting usage and inv
 
      The project WIP general ledger entries created by running the batch project have the **Project Complete** checkbox selected to show that they're completion entries.
 
-## View project ledger entries
+## WIP fields on the Project Card page
+
+After you calculate WIP and post it to the general ledger, several fields on the **Project Card** page update to reflect the current WIP position. You can review these fields in the **WIP/Recognition** FactBox on the page.
+
+### How the fields update
+
+WIP fields come in pairs of an *amount* field and a *G/L amount* field. For example, the **Total WIP Cost *Amount*** and **Total WIP Cost *G/L Amount*** fields. They reflect the two-step WIP process:
+
+1. The **Calculate WIP** action creates WIP entries. The *amount* fields show the calculated values.
+2. The **Post WIP to G/L** action posts the entries to the general ledger and removes the WIP entries. The *amount* fields reset to zero, and the *G/L amount* fields show the posted values.
+
+### WIP cost and sales fields
+
+The following table describes the fields related to WIP cost and sales.
+
+| Field | Description |
+|---|---|
+| **Total WIP Cost Amount** | The calculated WIP cost that isn't yet posted to the general ledger. Resets to zero after posting. |
+| **Total WIP Cost G/L Amount** | The WIP cost that was posted to the general ledger. |
+| **Applied Costs G/L Amount** | The sum of applied cost entries posted to the general ledger that are related to the project. |
+| **Total WIP Sales Amount** | The calculated WIP sales that aren't yet posted to the general ledger. Resets to zero after posting. |
+| **Total WIP Sales G/L Amount** | The WIP sales that were posted to the general ledger. |
+| **Applied Sales G/L Amount** | The sum of applied sales entries posted to the general ledger that are related to the project. |
+
+### Recognized revenue and cost fields
+
+The following table describes the fields related to recognized revenue and costs.
+
+| Field | Description |
+|---|---|
+| **Recog. Sales Amount** | Revenue recognized to date, based on the WIP calculation. |
+| **Recog. Sales G/L Amount** | Revenue recognized and posted to the general ledger. |
+| **Recog. Costs Amount** | Costs recognized to date, based on the WIP calculation. |
+| **Recog. Costs G/L Amount** | Costs recognized and posted to the general ledger. |
+| **Calc. Recog. Sales Amount** | The sum of recognized sales amounts from all project tasks. |
+| **Calc. Recog. Costs Amount** | The sum of recognized costs amounts from all project tasks. |
+| **Calc. Recog. Sales G/L Amount** | The sum of recognized sales general ledger amounts from all project tasks. |
+| **Calc. Recog. Costs G/L Amount** | The sum of recognized costs general ledger amounts from all project tasks. |
+
+### WIP status fields
+
+The following table describes the fields related to WIP status.
+
+| Field | Description |
+|---|---|
+| **WIP Entries Exist** | Whether WIP entries exist for the project, indicating that **Calculate WIP** was run but **Post WIP to G/L** wasn't. |
+| **WIP Completion Calculated** | Whether the final WIP calculation was performed with the project marked as complete. |
+| **WIP Completion Posted** | Whether the final WIP completion entries were posted to the general ledger. |
+| **WIP Warnings** | Whether there are WIP calculation warnings for the project. |
+
+## Review project ledger entries
 
 All project-related entries are recorded in project registers and sequentially numbered, starting with 1. From the project register, you can get an overview of all project ledger entries.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Project Registers**, and choose the related link.
-2. Select a relevant register, and then choose **Project Ledger** action.
+2. Select a relevant register, and then choose the **Project Ledger** action.
 
 On the **Project Ledger Entries** page, you can review the entries that are associated with any project.  
 
 ## Related information
 
-[Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-job.md)    
+[Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-job.md)  
 [Project management analytics overview](projects-analytics-overview.md)  
-[Managing Projects](projects-manage-projects.md)    
-[Managing Inventory Costs](finance-manage-inventory-costs.md)    
-[Finance](finance.md)    
-[Purchasing](purchasing-manage-purchasing.md)    
-[Sales](sales-manage-sales.md)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Managing Projects](projects-manage-projects.md)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Finance](finance.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

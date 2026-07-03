@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/07/2026
+ms.date: 07/03/2026
 ms.search.form: 672, 673, 674, 671
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -40,7 +40,7 @@ If you integrate [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[p
 
 ### Schedule when to post sales and purchase orders
 
-You can use job queue entries to schedule business processes to run in the background. For example, background tasks are useful when multiple users post sales orders at the same time, but only one order can be processed at a time. To learn more about background posting, go to [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+You can use job queue entries to schedule business processes to run in the background. For example, background tasks are useful when multiple users post sales orders at the same time, but only one order can be processed at a time. To learn more about background posting, go to [Schedule background posting with the job queue](ui-batch-posting.md#schedule-background-posting-with-the-job-queue).
 
 ## Important for scheduling recurring jobs
 

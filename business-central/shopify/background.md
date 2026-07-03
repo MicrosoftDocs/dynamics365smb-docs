@@ -1,7 +1,7 @@
 ---
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
-ms.date: 01/09/2026
+ms.date: 07/03/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -56,7 +56,7 @@ Other tasks that can be helpful to automate further processing of sales document
 
 You can use the **Shopify Order No.** field to identify sales documents that were imported from Shopify.
 
-To learn more about posting sales orders in a batch, go to [To create a job queue entry for batch posting of sales orders](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
+To learn more about posting sales orders in a batch, go to [Create a job queue entry for batch posting of sales orders](../ui-batch-posting.md#create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## To check the status of synchronization
 

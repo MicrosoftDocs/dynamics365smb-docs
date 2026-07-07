@@ -693,7 +693,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor Deferrals](SRB/analytics/subscription-powerbi-vendor-deferrals.md)
 ##### [Sales and Cost Forecast](SRB/analytics/subscription-powerbi-sales-cost-forecast.md)
 ##### [Billing Schedule](SRB/analytics/subscription-powerbi-billing-schedule.md)
-##### [subscription billing semantic model](SRB/analytics/subscription-powerbi-semantic-model.md)
+##### [Subscription billing semantic model](SRB/analytics/subscription-powerbi-semantic-model.md)
 ##### [Subscription billing KPI overview](SRB/analytics/subscription-powerbi-subscription-kpis.md)
 ##### [Setting up the Power BI subscription billing app](SRB/analytics/subscription-powerbi-app-setup.md)
 <!-- Subscription billing analytics end -->

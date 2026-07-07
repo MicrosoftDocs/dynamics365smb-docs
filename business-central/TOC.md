@@ -257,6 +257,7 @@ ms.service: dynamics-365-business-central
 ##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
 ##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
 ##### [Detailed Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
+##### [Finance semantic model](finance-powerbi-app-semantic-model.md)
 ##### [Finance KPI overview](finance-powerbi-kpis.md) 
 ##### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
 
@@ -620,7 +621,7 @@ ms.service: dynamics-365-business-central
 ##### [Sales Demographics](sales-powerbi-sales-demographics.md)
 ##### [Customer Retention Overview](sales-powerbi-customer-retention-overview.md)
 ##### [Customer Retention History](sales-powerbi-customer-retention-history.md)
-##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
+##### [Sales semantic model](sales-powerbi-app-semantic-model.md)
 ##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
@@ -692,7 +693,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor Deferrals](SRB/analytics/subscription-powerbi-vendor-deferrals.md)
 ##### [Sales and Cost Forecast](SRB/analytics/subscription-powerbi-sales-cost-forecast.md)
 ##### [Billing Schedule](SRB/analytics/subscription-powerbi-billing-schedule.md)
-##### [Power BI subscription billing app semantic model](SRB/analytics/subscription-powerbi-semantic-model.md)
+##### [subscription billing semantic model](SRB/analytics/subscription-powerbi-semantic-model.md)
 ##### [Subscription billing KPI overview](SRB/analytics/subscription-powerbi-subscription-kpis.md)
 ##### [Setting up the Power BI subscription billing app](SRB/analytics/subscription-powerbi-app-setup.md)
 <!-- Subscription billing analytics end -->
@@ -752,6 +753,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
 ##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
 ##### [Purchases Return Overview](purchases-powerbi-purchase-return-overview.md)
+##### [Purchases semantic model](purchases-powerbi-app-semantic-model.md)
 ##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
@@ -820,6 +822,7 @@ ms.service: dynamics-365-business-central
 ##### [Bin Contents](inventory-powerbi-bin-contents.md)
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
 ##### [ABC Analysis](inventory-powerbi-abc-analysis.md)
+##### [Inventory semantic model](inventory-powerbi-app-semantic-model.md)
 ##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
 #### [Power BI inventory valuation app](inventory-valuation-powerbi-app.md)
@@ -902,6 +905,7 @@ ms.service: dynamics-365-business-central
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
 ##### [Project Timeline](projects-powerbi-project-timeline.md)
+##### [Projects semantic model](projects-powerbi-app-semantic-model.md)
 ##### [Projects KPI overview](projects-powerbi-kpis.md) 
 
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
@@ -1112,6 +1116,7 @@ ms.service: dynamics-365-business-central
 ##### [Machine Center Load](manufacturing-powerbi-machine-center-load.md)
 ##### [Machine Center Statistics](manufacturing-powerbi-machine-center-statistics.md)
 ##### [Work Center Statistics](manufacturing-powerbi-work-center-statistics.md)
+##### [Manufacturing semantic model](manufacturing-powerbi-app-semantic-model.md)
 ##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
 
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
@@ -1303,6 +1308,7 @@ ms.service: dynamics-365-business-central
 ##### [Social Analysis](sustainability-powerbi-social-analysis.md)
 ##### [Sustainability Overview](sustainability-powerbi-sustainability-overview.md)
 ##### [Water and Waste Analysis](sustainability-powerbi-water-and-waste-analysis.md)
+##### [Sustainability semantic model](sustainability-powerbi-app-semantic-model.md)
 ##### [Power BI Sustainability app KPIs and measures](sustainability-powerbi-kpis.md)
 
 ### [Sustainability setup](finance-sustainability-setup.md)

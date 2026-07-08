@@ -125,12 +125,16 @@ The following table describes how the combinations differ.
 |Capability|The **Direct Transfer** field is disabled in the **Transfer Order** page|**Direct Transfer** is enabled on the **Transfer Order** page</br>The **Direct Transfer Posting** field is set to **Direct Transfer** on the **Inventory Setup** page|**Direct Transfer** is enabled in the **Transfer Order** page</br>The **Direct Transfer Posting** field is set to **Receipt and Shipment** on the **Inventory Setup** page|
 |---|---|---|---|
 |Use in-transit location|Yes|No|No|
-|Can post receipt without shipment.</br>Can use **Undo receipt**.|Yes|No|No|
-|Partial posting|Yes|No|Yes|
+|Can post receipt without shipment|Yes|No|No|
+|Undo shipment|Yes, if not yet received|No|No|
+|Partial posting|Yes|No|Yes, but **Qty. to Ship** must equal **Qty. to Receive**|
 |Item ledger entries|4:</br>Transfer from From-Location,</br>Transfer to In-Transit,</br>Transfer from In-Transit,</br>Transfer to To-Location.|2:</br>Transfer from From-Location,</br>Transfer to To-Location.|4:</br>Transfer from From-Location,</br>Transfer to *blank*,</br>Transfer from *blank*,</br>Transfer to To-Location.|
 |Posted documents|Posted transfer shipment,</br>Posted transfer receipt.|Posted direct transfer|Posted transfer shipment,</br>Posted transfer receipt.|
 |Reservation: inbound and outbound|Yes|Yes|Yes|
 |Item Charges - assign to posted transfer receipt|Yes|No|Yes|
+|Change serial or lot number at receipt (reclassification)|Yes|No|No|
+|Change package number at receipt|Yes|No|Yes|
+|Change expiration date at receipt|Yes|No|Yes|
 |Warehouse handling|Full|No|Limited, see below|
 
 Warehouse handling matrix for configuration: **Direct Transfer** is enabled on the **Transfer Order** page and **Direct Transfer Posting** is set to **Direct Transfer** on the **Inventory Setup** page.

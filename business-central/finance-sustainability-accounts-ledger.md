@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 08/29/2025
+ms.date: 07/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -46,7 +46,7 @@ You can add, change, or delete sustainability accounts. However, to prevent disc
 ### Add or change accounts
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Sustainability Accounts**, and then select the related link.
-2. On the **Chart of Sustainability Accounts** page, you can open each sustainability account, and then add or change settings. Hover over a field to read a short description.
+1. On the **Chart of Sustainability Accounts** page, open sustainability accounts to add or change settings. Hover over a field to read a short description.
 
 For accounts of the **Total** account type, you must set the **Totaling** field.
 
@@ -66,20 +66,20 @@ You must add a sustainability account category to each sustainability account to
 To review sustainability account categories, follow these steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Categories**, and then select the related link.
-2. On the **Sustainability Account Categories** page, you can edit the existing list or create a new category. To create a new category, select the **New** action.
-3. Fill in the **Code** and **Description** fields.
-4. In the **Emission Scope** field, select one of the scope options related to gas emissions or water or waste intensity.
-5. Select the gas emissions, or water or waste intensity, that you want to track. Currently, the following options are available: **CO2**, **CH4**, **N2O**, **Water Intensity**, **Discharged Into Water**, and **Waste Intensity**. You can select any combination that you want to track, but you must select at least one of them.
+1. On the **Sustainability Account Categories** page, you can edit the existing list or create a new category. To create a new category, select the **New** action.
+1. Fill in the **Code** and **Description** fields.
+1. In the **Emission Scope** field, select one of the scope options related to gas emissions or water or waste intensity.
+1. Select the gas emissions, or water or waste intensity, that you want to track. Currently, the following options are available: **CO2**, **CH4**, **N2O**, **Water Intensity**, **Discharged Into Water**, and **Waste Intensity**. You can select any combination that you want to track, but you must select at least one of them.
 
     > [!NOTE]
     > If you choose one of gas emissions scopes as the **Emission Scope** you can select the **CO2**, **CH4**, or **N2O**, but you can't select the **Water Intensity**, **Discharged Into Water**, or **Waste Intensity**. Also, if you select **Water/Waste** as the **Emission Scope**, you can select only the  **Water Intensity**, **Discharged Into Water**, or **Waste Intensity**, but you can't select **CO2**, **CH4**, or **N2O**.
 
-6. In the **Calculation Foundation** field, select the calculation foundation (formula) to use for emission calculations if you don't know the accurate emission or water or waste intensity amount.
+1. In the **Calculation Foundation** field, select the calculation foundation (formula) to use for emission calculations if you don't know the accurate emission or water or waste intensity amount.
 
     > [!NOTE]
     > If the formulas in the **Calculation Foundation** field aren't enough, you can extend the field and add more calculations for use in sustainability journals.
 
-7. If you selected **Custom** in the **Calculation Foundation** field, you can configure a custom description in the **Custom Value** field.
+1. If you selected **Custom** in the **Calculation Foundation** field, you can configure a custom description in the **Custom Value** field.
 
 If you set the **Calculation Foundation** field, the following table explains how [!INCLUDE [prod_short](includes/prod_short.md)] calculates emissions based on the option that you selected. In the table, **EF** represents the **Emission Factor** value that you can configure on the **Sustainability Account Subcategory** page.
 
@@ -106,6 +106,17 @@ If you set the **Calculation Foundation** field, the following table explains ho
 
 > [!IMPORTANT]
 > This note applies to the formulas for **Upstream Transportation and Distribution** and **Downstream Transportation and Distribution** when you use the tons-of-cargo calculation model. While you can adapt the formulas, we recommend against using the exact number of tons of cargo as a multiplier. Instead, consult your sustainability advisor to ensure accurate calculations because emissions don't increase linearly with weight. A more accurate approach is to use the **Load Factor**, which represents the percentage of the truck's total capacity utilized (by weight or volume). The load factor can be calculated as **Weight of Cargo** / **Maximum Load Capacity of Truck**. But always confirm with your sustainability expert before you finalize calculations.
+
+1. If you selected **Custom** in the **Calculation Foundation** field, you can also select the **Calculate from General Ledger** checkbox. This option lets [!INCLUDE [prod_short](includes/prod_short.md)] collect the custom amount directly from posted general ledger entries instead of requiring manual entry. After you select this checkbox, the following filter fields become available:
+
+   - G/L Account Filter: Specifies which general ledger accounts to include when you sum amounts. Enter an account, or add a filter to use a range of accounts.
+   - Global Dimension 1 Filter: (Optional) Filters G/L entries by the first global dimension (for example, department or cost center).
+   - Global Dimension 2 Filter: (Optional) Filters G/L entries by the second global dimension (for example, project or region).
+
+   These filters define which G/L entries to include when you run the **Collect Amount from G/L Entries** action in a sustainability journal. [!INCLUDE [prod_short](includes/prod_short.md)] sums the absolute value of amounts from all matching G/L entries within the date range you specify.
+
+> [!NOTE]
+> You must fill in the **G/L Account Filter** field. The value in the field helps [!INCLUDE [prod_short](includes/prod_short.md)] identify which financial transactions to collect.
 
 ## Account subcategories
 

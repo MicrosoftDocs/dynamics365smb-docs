@@ -3,7 +3,7 @@ title: Create and Manage Expenses in Business Central
 description: Learn how to record individual expenses, attach receipts, add itemizations and participants, and track per diem and mileage in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/22/2026
+ms.date: 07/03/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -38,6 +38,11 @@ This article describes how to enter an expense using [!INCLUDE [prod_short](../i
 8. In the **Merchant Name** field, enter the name of the vendor or merchant.
 9. Optionally, fill in the **Receipt No.** field with the receipt or external document reference number.
 10. In the **Currency Code** field, choose the currency if it differs from the local currency.
+11. Optionally, in the **Project No.** field, select the project this expense should be charged to.
+12. Optionally, in the **Project Task No.** field, select the specific project task.
+
+> [!NOTE]
+> The **Project No.** and **Project Task No.** fields are only visible if your administrator enabled project fields in the Expense Agent setup. Learn more in [Set up expense management](expense-management-setup.md#configure-projects).
 
 > [!TIP]
 > If your organization uses expense rules, any violations appear in the **Rule Violations** FactBox on the right side of the page. Review and address violations before submitting the expense in a report.

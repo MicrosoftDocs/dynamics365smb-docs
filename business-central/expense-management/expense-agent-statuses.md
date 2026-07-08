@@ -48,7 +48,7 @@ Several pages show status badges.
 | Pages | Description |
 | --- | --- |
 | Expense list | Each expense shows its current status next to the amount and date. |
-| Report list | The dashboard shows expense reports grouped into three tabs: **Drafts**, **Submitted**, and **Approved**. Each tab shows the count of reports in that status. |
+| Report list | The dashboard shows expense reports grouped into tabs: **Drafts**, **Submitted**, and **Approved**. If you're an approver, a **For My Approval** tab also appears. Each tab shows the count of reports in that status. |
 | Detail panels | When you open an expense or report, the status appears at the top of the detail view. |
 
 ## Related information

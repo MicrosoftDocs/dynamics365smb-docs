@@ -3,7 +3,7 @@ title: Set up Expense Agent
 description: Learn how to set up Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 05/05/2026
+ms.date: 07/03/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ai-usage: ai-assisted
@@ -29,9 +29,7 @@ For most organizations, assisted setup is the best way to get started quickly.
 
 Before you set up the Expense Agent, make sure the following prerequisites are met:
 
-- The Business Central environment is a US version
-
-  The agent is currently only available when the environment is in the US. Learn more in [Copilot country/region availability and supported languages](../copilot-agents-region-language-availability.md).
+- The Business Central environment is a country or region version supported by the Expense Agent as listed in [Feature availability by country/region and language](../copilot-agents-region-language-availability.md#feature-availability-by-countryregion-and-language).
 
 - The Anthropic model is enabled as a subprocessor in the Microsoft 365 admin center for Microsoft Online Services.  
 
@@ -84,17 +82,18 @@ The assisted setup configures the following areas:
 
 - **Access and submission**: Configure receipt submission channels, mailbox account, and who can configure the agent or work on behalf of users.
 
-> [!NOTE]
-> **Enable access via web app** must be turned on to use Expense Agent capabilities. **Enable sending email with receipts** is optional and should be enabled if you use a dedicated mailbox for forwarding receipt emails. If this option is selected, you must specify the associated account in the next step.
+   > [!NOTE]
+> You must turn on **Enable access via web app** to use Expense Agent capabilities. **Enable sending email with receipts** is optional. If you use a dedicated mailbox for forwarding receipt emails, turn on this option and specify the associated account in the next step.
 
 - **Accounting defaults**: Apply number series, payment methods, posting groups, and expense categories. Some options become locked after defaults are applied.
 - **Management defaults**: Apply default expense locations and management rules. Rule defaults depend on locations.
 
-> [!NOTE]
-> Select links for suggested default account and management settings to review the recommended configuration. It provides guidance on what setup can be completed automatically and what may require manual adjustment after the configuration is finished.
+   > [!NOTE]
+   > Select links for suggested default account and management settings to review the recommended configuration. It provides guidance on what setup can be completed automatically and what may require manual adjustment after the configuration is finished.
 
-- **Rules and controls**: Configure policy enforcement such as required receipt number, required merchant name, and anti-corruption attestation visibility.
-- **Communication**: Configure open-report reminder behavior and notification frequency.
+- **Rules and controls**: Configure policy enforcement such as required receipt number, required merchant name, default approver, and anti-corruption attestation visibility.
+- **Communication**: Configure open-report reminder behavior, approval notifications, and notification frequency.
+- **Projects**: Configure whether project fields are visible and which projects submitters can see.
 - **Mileage and per diem**: Configure mileage rate/UOM and per diem calculation options, including partial-day settings.
 
 When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the assisted setup prompts you to address them before activation completes.

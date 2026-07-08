@@ -3,7 +3,7 @@ title: Review and Edit Expenses in Expense Agent
 description: Review and edit expense details in Expense Agent after AI receipt scanning or manual entry. Update the vendor, amount, category, and other fields.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/22/2026
+ms.date: 07/03/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -29,8 +29,10 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
    | **Merchant** | The merchant or business name. |
    | **Amount** | The expense total. |
    | **Date** | The transaction date. |
-   | **Description** | An optional note about the expense. |
+   | **Description** | A note about the expense. |
    | **Payment Means** | How the expense was paid, such as credit card or cash. |
+   | **Project** | The project this expense should be charged to (if enabled by your administrator). |
+   | **Project Task** | The specific project task (if enabled by your administrator). |
 
 1. On the **Categorization** tab, you can update how the expense is categorized for reporting and policy compliance purposes. In the **Category** field, specify the type of expense, such as meals, travel, or office supplies.
 1. Select **Save Changes**.

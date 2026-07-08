@@ -32,7 +32,7 @@ Not all rule issues are the same. Expense Agent uses two levels of enforcement:
 - **Hard blocks** prevent you from submitting until you fix the issue. For example, if a required receipt is missing or an expense category isn't allowed, you must correct the expense before you can submit the report.
 
 > [!TIP]
-> When you get a soft warning, add a clear justification in the **Purpose/Notes** field in the **Categorization** tab in web app. This information can help your approver understand the context and speeds up the approval process.
+> When you get a soft warning, add a clear justification in the **Purpose / Notes** field in the **Categorization** tab in web app. This information can help your approver understand the context and speeds up the approval process.
 
 ## Policy validation
 

@@ -3,7 +3,7 @@ title: Upload Receipts and Create Mileage Expenses
 description: Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/23/2026
+ms.date: 07/03/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -98,6 +98,7 @@ AI suggests values for the following fields based on what it detects in your rec
 - **Merchant** - The business or merchant name.
 - **Amount** - The total amount on the receipt.
 - **Date** - The transaction date.
+- **Project** - The project code (if project tracking is enabled and detected).
 - **Category** - The expense category, such as meals, travel, or office supplies.
 
 To review and adjust the details:

@@ -26,7 +26,7 @@ If you get an "access denied" or "not authorized" error, select your profile pic
 
 Make sure your file meets these requirements:
 
-- **Format**: JPEG, PNG, or PDF
+- **Format**: JPEG, PNG, GIF, WebP, HEIC, HEIF, or PDF
 - **Size**: 10 MB or smaller
 
 If your file meets the requirements but the upload still fails, check your internet connection and try again.

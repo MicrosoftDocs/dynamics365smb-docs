@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: solsen
 ms.topic: install-set-up-deploy
-ms.date: 06/17/2026
+ms.date: 07/08/2026
 ms.custom: bap-template
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500, 2514, 2515, 20350
@@ -17,13 +17,13 @@ ms.service: dynamics-365-business-central
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing apps that, for example, add functionality, change behavior, or give you access to new online services. To learn more, go to [Customizing Business Central Using Extensions](ui-extensions.md).
 
 > [!NOTE]
-> To install or uninstall apps from Marketplace or add per-tenant apps, you must have the right permissions. You must either be a member of the **D365 Extension MGT** user group, or you must have the **EXTEND. MGT. - ADMIN** permission set. If you're an administrator, you can assign user groups and permissions to other users in your company. To learn more about user groups and permissions, go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+> To install or uninstall apps from Marketplace or add per-tenant apps, you must have the right permissions. To use the **Manage Apps** page in the [!INCLUDE[prod_short](includes/prod_short.md)] Admin Center, you must be assigned an Entra role that grants [access to the Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center). To manage apps on the **Extension Management** page in an environment, you must either be a member of the **D365 Extension MGT** user group, or you must have the **EXTEND. MGT. - ADMIN** permission set. If you're an administrator, you can assign user groups and permissions to other users in your company. To learn more about user groups and permissions, go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 To use an extension, you must be assigned the permission sets that come with it.
 
 ## <a name="install"></a>Install an extension
 
-You manage apps and extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top-right corner, enter **Extension**, and then choose the related link.  
+Administrators manage apps and extensions in the **Manage Apps** page in the [!INCLUDE[prod_short](includes/prod_short.md)] Admin Center. Alternatively, you can manage apps and extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top-right corner, enter **Extension**, and then choose the related link.  
 
 You can get new apps from the marketplace at [Marketplace.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). The marketplace offers all available apps for [!INCLUDE[prod_short](includes/prod_short.md)], plus apps and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -76,13 +76,15 @@ If you choose to set up your app right away, and it has a required setup, [!INCL
 
 ## Upload a per-tenant extension (PTE)
 
-You upload a PTE by using the **Extension Management** page. On the **Extension Management** page, go to **Manage**, then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** action to  start deploying the PTE.
+You upload and schedule installation of a PTE by using **Manage Apps** page in the [!INCLUDE[prod_short](includes/prod_short.md)] Admin Center or the **Extension Management** page in an environment. Learn more about on managing apps from the Admin Center in [Managing Apps](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps).
+
+On the **Extension Management** page, go to **Manage**, and then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** action to start deploying the PTE.
 
 If the PTE contains breaking schema changes, it's possible to *force* an upload of it. To do that, in **Schema Sync Mode** choose the **Force** option, and then confirm that you want to proceed. 
 
 ## Uninstall an app
 
-You uninstall an app by using the **Extension Management** page. To uninstall an app, select it on the page, then select the **Uninstall** action. If you uninstall an app, and you then change your mind, you can install the app again.
+Uninstall an app by using the **Manage Apps** page in the [!INCLUDE[prod_short](includes/prod_short.md)] Admin Center or the **Extension Management** page in an environment. To uninstall an app, select it on the page, and then select the **Uninstall** action. If you uninstall an app, and you then change your mind, you can install the app again.
 
 By default, when you uninstall an app that you've been using your data isn't deleted. If you're sure you won't reinstall the app, you can delete the data when you uninstall it. To delete data when you uninstall an app, turn on the **Delete Extension Data** toggle and then confirm your action. Afterward, you can uninstall the app. Reconfirm that you want to uninstall the app and delete the data.
 

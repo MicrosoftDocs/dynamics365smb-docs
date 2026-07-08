@@ -3,7 +3,7 @@ title: Set Up Expense Management in Business Central
 description: Learn how to configure expense management settings, including Expense Agent, mailbox, number series, posting groups, and approval workflows.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/21/2026
+ms.date: 07/03/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -58,13 +58,24 @@ The following table describes the settings on the **General** FastTab.
 | **Mailbox Account** | Specifies the shared mailbox that the agent monitors. You need permission to the mailbox to activate the agent.|
 | **Process incoming emails with receipts** | Specifies whether the agent reads its mailbox and processes incoming emails containing expense receipts. Receipts are only processed when a mailbox is configured.|
 | **Exchange Rate for Expenses** | Controls whether foreign currency expenses use the rate from the expense date or the posting date. |
+| **Allow prepayment-cash advance** | Specifies whether prepayments and cash advances are allowed. |
 | **Allow Grouping of Transactions in Report** | Determines whether similar transactions are grouped together in expense reports automatically by the agent. |
 | **Expense Report Grouping** | Defines how expenses are grouped into expense reports, for example by period. |
 | **Expense Report Rounding Precision** | Sets rounding precision for report amounts. |
 | **Expense Report Rounding Type** | Rounding behavior: **Nearest**, **Up**, or **Down**. |
 | **Receipt No. Mandatory** | Requires entry of a receipt number for every expense. |
 | **Merchant Name Mandatory** | Requires entry of a merchant name for every expense. |
+| **Default Payment Methods Applied** | Indicates whether default payment methods have been applied (read-only). |
+| **Default Posting Groups Applied** | Indicates whether default posting groups have been applied (read-only). |
+| **Default No. Series Applied** | Indicates whether default number series have been applied (read-only). |
+| **Default Exp. Categories Applied** | Indicates whether default expense categories have been applied (read-only). |
+| **Default Exp. Locations Applied** | Indicates whether default expense locations have been applied (read-only). |
+| **Default Management Rules Applied** | Indicates whether default management rules have been applied (read-only). |
 | **Create Employees for Expense Users** | Specifies whether Employees should be automatically created from Expense Users when no matching Employee exists. Employees and their connection with Expense Users are critical for correct processing and posting in Expense Agent, but this setting may impact your HR data.|
+
+<!--
+| **Allow VAT Reclaim** | Specifies whether VAT reclaim is allowed on expenses. |
+| **Default VAT Bus. Posting Group** | Specifies the default VAT business posting group for expenses. |-->
 
 ### Configure rules and controls
 
@@ -74,10 +85,11 @@ The following table describes the settings on the **Rule & Controls** FastTab. T
 | --- | --- |
 | **Apply Rules** | Turn on to enforce expense management rules during submission. |
 | **Do Not Allow Expenses Older Than** | Restricts how far back expenses can be dated (for example, `-90D` for 90 days). |
-| **If Expense Is Older Than Allowed** | Choose what happens when an expense falls outside the allowed range: **Warn**, **Require Justification**, or **Block Submission**. |
+| **If Expense Is Older Than Allowed** | Choose what happens when an expense falls outside the allowed range: **Warn**, **Require Justification**, or **Block Submission**. This field is hidden by default.|
 | **Check Category/Subcategory Usage** | Turn on to require that expenses use valid category and subcategory combinations during entry. |
 | **Display Anti-Corruption Attestation** | Turn on if your organization requires an attestation message that users must confirm before submitting expenses. |
 | **Enable Approval Workflow** | Turn on to require manager approval before expense reports can be posted. This setting applies only when the agent is not enabled, as the agent provides its own approval process. |
+| **Default Approver** |Specifies the name of the expense user who by default is set as approver.|
 
 To learn more about categories and rules, go to [Set up expense categories and rules](expense-management-categories-rules.md).
 
@@ -100,12 +112,22 @@ When the agent is enabled, you can configure reminders about open expense report
 
 | Field | Description |
 | --- | --- |
-| **Enable Open Report Notification** | Let [!INCLUDE [prod_short](../includes/prod_short.md)] notify you about open expense reports that might need attention. |
-| **Open Report Notification Frequency** | Specify whether to be notified on a weekly, monthly, or custom basis:<br><br>For weekly notifications, choose the day of the week in the **Notification Day of Week** field.<br>For monthly notifications, specify the number of the month in the **Notification Day in a Month** field.<br>For custom schedules, enter a date formula in the **Custom Notification Formula** field. To learn more about date formulas, go to [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas).|
+| **Account** | Specifies the email account for all outgoing Expense Agent messages: pending-approval requests sent to approvers, approved or rejected notifications sent to submitters, reimbursement notifications, and the optional open report reminders. If you leave this field empty, the main mailbox account is used instead. When no email account is registered, the messages fail silently after the configured number of retries. |
+| **Notify users about unsubmitted reports** | Let [!INCLUDE [prod_short](../includes/prod_short.md)] notify you about open expense reports that might need attention. |
+| **Notification Frequency** | Specify whether to be notified on a weekly, monthly, or custom basis:<br><br>For weekly notifications, choose the day of the week in the **Notification Day of Week** field.<br>For monthly notifications, specify the number of the month in the **Notification Day in a Month** field.<br>For custom schedules, enter a date formula in the **Custom Notification Formula** field. To learn more about date formulas, go to [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas).|
 | **Notification Day of Week** | Specifies the day of the week for weekly open report notifications.|
-| **Notification Day of Week** | Specifies the day of the week for weekly open report notifications.|
+| **Notification Day In A Month** | Specifies the day of the month for monthly open report notifications.|
 | **Custom Notification Formula** | Specifies a custom date formula to control when open report notifications are sent. For example, use CM for the last day of the current month or 1M‑CM for the first day of the next month.|
-| **Noreply Email Account** | Specifies the email account used for outgoing messages. If empty, the main mailbox account is used for sending.|
+| **Notify users about approval updates** | Specifies whether the system sends email notifications when expense reports are submitted, approved, or rejected. |
+
+### Configure projects
+
+The following table describes the settings on the **Projects** FastTab.
+
+| Field | Description |
+| --- | --- |
+| **Enable Project Fields** | Specifies whether project and project task fields are visible in the expense web app for submitters. |
+| **Project Visibility** | Specifies which projects are visible to submitters: only projects assigned to the user, or all active projects. |
 
 ### Manage agent access control
 

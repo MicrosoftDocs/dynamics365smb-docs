@@ -33,7 +33,6 @@ As an approver, you review expense reports that employees submit. You can approv
 1. Open the submitted expense report.
 1. Review the report lines and policy summary.
 1. Select **Approve**.
-1. Confirm the approval when prompted.
 
 The report status changes to **Approved**, and the employee is notified.
 
@@ -43,8 +42,8 @@ If a report has issues that the employee needs to fix, you can send it back with
 
 1. Open the submitted expense report.
 1. Select **Send Back**.
-1. In the **Send Back** dialog, enter your comments in the **Reason** field. Be specific about which expenses need attention and why.
-1. Select **Confirm**.
+1. In **Request clarification**, enter your comments in the **Add comments** field. Be specific about which expenses need attention and why.
+1. Select **Send back**.
 
 The report status changes back to **Draft**, and the employee is notified with your comments. They can make changes and resubmit.
 

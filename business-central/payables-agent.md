@@ -153,7 +153,6 @@ The following limitations apply to the Payables Agent:
 
 The Payables Agent currently doesn't support the following features:
 
-- Purchase order matching
 - Approval flows
 - Anomaly detection
 

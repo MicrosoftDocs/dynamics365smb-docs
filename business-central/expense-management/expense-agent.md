@@ -25,8 +25,9 @@ Employees submit expenses through a dedicated web app at [https://app.expenses.d
 
 All financial data, audit trails, and posting logic are processed within Business Central, so existing rules, permissions, and workflows continue to apply.
 
-> [!NOTE]
-> [!INCLUDE[copilot-language-support-en-only](../includes/copilot-language-support-en-only.md)]
+## Copilot availability and language support
+
+[!INCLUDE[copilot-specific-geo-and-language-availability](../includes/copilot-specific-geo-and-language-availability.md)]
 
 ## What the Expense Agent does
 

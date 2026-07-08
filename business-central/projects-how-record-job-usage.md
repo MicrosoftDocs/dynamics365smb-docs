@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 07/03/2026
 ms.custom: bap-template
 ---
 # Record consumption or usage for projects
@@ -17,9 +17,15 @@ For example, for planning lines of type **Budget**, you can enter the quantity o
 
 The following procedures describe how to record actual (budgeted) quantities and costs with a project journal. Alternatively, you can use purchase documents to record purchases for a project. Learn more at [Manage Project Supplies](projects-how-manage-project-supplies.md).
 
+> [!TIP]
+> If your organization uses **Expense Management**, employees can submit project-related expenses (such as meals, mileage, or other travel costs) directly through expense reports. When an expense is assigned to a project and project task, the system automatically creates project ledger entries upon posting. Learn more at [Create and manage expenses](expense-management/expense-management-create-expenses.md).
+
 ## To record usage for a project planning line of type Budget
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.  
+> [!NOTE]
+> If your organization uses **Expense Management**, employees can submit project-related expenses directly through expense reports. Expenses assigned to a project automatically create project ledger entries when the expense report is posted. Learn more at [Create and manage expenses](expense-management/expense-management-create-expenses.md).
+
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Projects**, and then choose the related link.
 2. Select the project, and then choose the **Project Planning Lines** action. 
 3. Select a project planning line of type **Budget** or **Both Budget and Billable** for which you want to record usage.   
 

@@ -87,7 +87,7 @@ The agent performance is monitor through user feedback and automated quality che
 
 - **Data Dependencies**: Account suggestions improve with historical transaction data. Companies with limited transaction history receive fewer automated suggestions since the agent learns from past invoices and accounting decisions.
 
-- **Volume Limitations**: Payables Agent processes up to 100 emails per day and up to 50 emails in one batch. PDF attachments must be 5MB or smaller and contain a maximum of 10 pages. High-volume processing might experience delays during peak usage periods.
+- **Volume limitations:** Payables Agent processes up to 100 emails per day and up to 50 emails in one batch. PDF attachments must be 20 MB or smaller and contain a maximum of 10 pages. High-volume processing might experience delays during peak usage periods.
 
 To address these limitations, always review drafts before approval, and maintain good vendor and chart of accounts data in Business Central.
 

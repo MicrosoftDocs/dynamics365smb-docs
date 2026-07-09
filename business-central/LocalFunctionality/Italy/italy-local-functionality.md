@@ -56,7 +56,7 @@ The following articles describe local functionality that is unique to the Italia
 
 - General
   - [Set Up Company Information](how-to-set-up-company-information.md) **Available Now**
-  - [Italian Subcontracting](italian-subcontracting.md) **Available Now**
+  - [Italian Subcontracting](italian-subcontracting.md) **Deprecated, use [Subcontracting](../../production-how-to-subcontract-manufacturing.md)**
   - [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
   - [Italian Electronic Invoicing](electronic-invoicing.md) **Available Now**
   - [Vendors from Fiscally Denied Countries or Regions](fiscal-deny-list.md) **Available Now**

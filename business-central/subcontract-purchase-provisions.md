@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, purchase provisions, production order, BOM
-ms.search.form: 99000886,
+ms.search.form: 99000886, 99000831
 ms.date: 05/20/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -15,15 +15,13 @@ ms.custom: bap-template
 
 # Set up purchase provisions for subcontracting
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 Subcontracting outsources individual production steps or manufacturing work to external vendors. For example, you might outsource milling work, cutting, or surface treatments. Purchase provisions involve processing individual components by an external service provider into a finished product. With the purchase order, you invoice a service from the vendor. The purchase order links to the corresponding production order.
 
 After completion, the product returns to your warehouse. You can set up when transfers, receipts, and issues are posted. You can create, edit, and view the production orders and transfer orders required for posting the provision from the purchase order. You can specify the required components for a specific order or use components from existing production BOMs.
 
 ## Create a purchase order with a production order
 
-The following steps describe how to create a purchase provision with a linked production order. Depending on your setup and whether you have existing BOMs, you create the order and assign the necessary BOM components using a production order. When you use the **Transfer** subcontracting type, you create the transfer order. You can post inventory changes in the purchase order card or use warehouse functions.
+The following steps describe how to create a purchase provision with a linked production order. Depending on your setup and whether you have existing BOMs, you create the order and assign the necessary BOM components using a production order. When you use the **Transfer to Vendor** component supply method, you create the transfer order. You can post inventory changes in the purchase order card or use warehouse functions.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
 2. Create a new purchase order and fill in the relevant fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -40,7 +38,7 @@ The following steps describe how to create a purchase provision with a linked pr
 
 <!-- 7. The provision starts automatically and guides you through the configuration of BOMs and routings. Depending on your configuration in the **Subcontracting Setup**, [!INCLUDE [prod_short](includes/prod_short.md)] displays various steps or automatically processes them. Learn more in [Set up purchase provisions and provision wizard](subcontract-setup-configurator.md). -->
 
-8. To transfer the provision components with the **Transfer** subcontracting type, choose the **Create Transfer Order for Subcontracting** action.
+8. To transfer the provision components with the **Transfer to Vendor** component supply method, choose the **Create Transf. Ord. to Subcontractor** action.
 
    [!INCLUDE [prod_short](includes/prod_short.md)] transfers the required BOM component lines to a transfer order. The **Transfer-from Code** and **Transfer-to Code** fields are filled based on your setup. If an open transfer order exists for the vendor's location code, [!INCLUDE [prod_short](includes/prod_short.md)] adds the required lines to it.
 
@@ -76,7 +74,7 @@ The consumption method depends on the flushing method:
 - **Forward or Backward** - BOM components assigned with the **Forward** or **Backward** flushing method are automatically posted with the entry type **Consumption** through the created production order from the vendor's location when you post the **Qty. to Receive**.
 
   > [!NOTE]
-  > Items with the **Purchase with Service** subcontracting type must first be posted in the purchase order with **Qty. to Receive**.
+  > Items with the **Vendor-Supplied** component supply method must first be posted in the purchase order with **Qty. to Receive**.
 
 - **Manual** - BOM components assigned with the **Manual** flushing method must be posted separately after receipt of the produced item. To post manually:
 

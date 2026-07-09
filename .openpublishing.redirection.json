@@ -1008,6 +1008,11 @@
             "source_path": "business-central/finance-bookings.md",
             "redirect_url": "/dynamics365/business-central",
             "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/subcontract-worksheet.md",
+            "redirect_url": "/dynamics365/business-central/subcontract-order#create-subcontracting-purchase-orders-with-the-worksheet",
+            "redirect_document_id": false
          }               
         ]
 }

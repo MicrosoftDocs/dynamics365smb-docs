@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, purchase provisions, wizard, setup, BOM, routing
-ms.search.form: 99000886,
+ms.search.form: 99000886, 99000831
 ms.date: 06/02/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -14,8 +14,6 @@ ms.custom: bap-template
 ---
 
 # Set up purchase provisions and use the provision setup guide
-
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
 
 To use purchase provisions, you must configure settings for:
 
@@ -44,7 +42,7 @@ The following table describes each field.
 |**Work Center Put-away**|Specifies the work center for put-away in purchase provisions.|
 |**Default Flushing Method**|Specifies the default flushing method to use for purchase provisions. The following options are available:<br><br>**Manual** - You must manually post the consumption of components in the production order after the finished product returns to your warehouse.<br><br>**Forward** - When you register receipt of the finished product, [!INCLUDE [prod_short](includes/prod_short.md)] automatically posts consumption of components with the expected consumption quantity.<br><br>**Backward** - When you register receipt of the finished product, [!INCLUDE [prod_short](includes/prod_short.md)] automatically posts consumption of individual components with the consumption quantity based on the current shipment quantity of the receipt.<br><br>You can enter the same options for the provision BOMs in the item card and the components on the **Replenishment** FastTab.|
 |**Direct Transfer for Subcontracting**|Specifies that the transfer of a subcontracting component doesn't use a transit location for transfers. When you turn on direct transfer, the **Qty. to Ship** field of the transfer is filled with the same value as the quantity to be shipped. Transfer and posting automatically occur from a source warehouse to the target warehouse (vendor warehouse).|
-|**Components at Location**|Specifies which location to use as the source location when you create a transfer of subcontracting components (provision). [!INCLUDE [prod_short](includes/prod_short.md)] determines the data from the following options:<br>**Purchase Line**<br>**Company Information** (the **Location Code** field on the **Shipping** FastTab)<br>**Manufacturing Setup** (the **Components at Location** field)<br>**Empty** - Specify further details only when ordering.<br><br>The **Subcontracting Location Code** on the vendor card, **Shipping** FastTab, applies to both subcontracting transfer and purchase provision.|
+|**Components at Location**|Specifies which location to use as the source location when you create a transfer of subcontracting components (provision). [!INCLUDE [prod_short](includes/prod_short.md)] determines the data from the following options:<br>**Purchase Line**<br>**Company Info** (the **Location Code** field on the **Shipping** FastTab)<br>**Manufacturing Setup** (the **Components at Location** field)<br>**Empty** - Specify further details only when ordering.<br><br>The **Subcontracting Location Code** on the vendor card, **Shipping** FastTab, applies to both subcontracting transfer and purchase provision.|
 <!-- |**Always Save Changed Versions**|Specifies whether changed BOM and routing versions are always saved in the provision wizard.|
 |**Allow Edit UI Selection**|Specifies whether users can edit the UI selection in the provision wizard.| -->
 
@@ -62,12 +60,12 @@ You can specify which location [!INCLUDE [prod_short](includes/prod_short.md)] u
 
    |Option|Description|
    |------|----------|
-   |**Purchase**|Components come from the standard purchase location. [!INCLUDE [prod_short](includes/prod_short.md)] determines the location automatically.|
-   |**Company**|Components come from the company location specified in the **Location Code** field on the **Company Information** page.|
-   |**Manufacturing**|Components come from the manufacturing location specified in the **Components at Location** field on the **Manufacturing Setup** page.|
+   |**Purchase Line**|Components come from the standard purchase location. [!INCLUDE [prod_short](includes/prod_short.md)] determines the location automatically.|
+   |**Company Info**|Components come from the company location specified in the **Location Code** field on the **Company Information** page.|
+   |**Manufacturing Setup**|Components come from the manufacturing location specified in the **Components at Location** field on the **Manufacturing Setup** page.|
 
 > [!NOTE]
-> If you choose **Company** or **Manufacturing**, make sure the location code is specified in the respective setup pages.
+> If you choose **Company Info** or **Manufacturing Setup**, make sure the location code is specified in the respective setup pages.
 
 ### Location assignment scenarios
 
@@ -81,7 +79,7 @@ The following scenarios show how [!INCLUDE [prod_short](includes/prod_short.md)]
 #### Purchase provision with existing bill of materials
 
 - **Component location**: From the **Components at Location** field on the **Manufacturing Setup** page.
-- **Adjustment**: Based on the subcontracting type of the components.
+- **Adjustment**: Based on the component supply method of the components.
 
 ## About the provision assisted setup guide
 

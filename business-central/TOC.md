@@ -1162,9 +1162,9 @@ ms.service: dynamics-365-business-central
 ### [Post capacities](production-how-to-post-capacities.md)
 ### Subcontracting
 #### [Subcontracting overview](production-how-to-subcontract-manufacturing.md)
-#### [Order subcontracting from production orders](subcontract-order.md)
-#### [Use the subcontracting worksheet](subcontract-worksheet.md)
+#### [Order subcontracting](subcontract-order.md)
 #### [Manage components](subcontract-components.md)
+#### [Transfer WIP items](subcontract-wip-transfers.md)
 #### [Assign item charges](subcontract-item-charges.md)
 ### [About finished production order costs](finance-about-finished-production-order-costs.md)
 

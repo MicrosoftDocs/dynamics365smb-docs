@@ -174,6 +174,14 @@ When you import products from Shopify into [!INCLUDE [prod_short](../includes/pr
 
 To help you identify and resolve these problems, go to the **Shopify Products** page and find entries where the **Has Error** field is selected. The **Error Message** field, similar to what you see for Shopify orders, displays the error message that explains why the item couldn't be created. This information can help you understand the root cause of the problem so you can take corrective actions. Afterward, you can use the **Create Item** action to manually restart the process of creating the item.
 
+### Orders aren't syncing from Shopify
+
+If orders exist in Shopify but don't appear in [!INCLUDE [prod_short](../includes/prod_short.md)] after you run **Sync Orders from Shopify**, check the following:
+
+* **Orders might be archived in Shopify.** The connector can't import archived orders. Open the [orders](https://www.shopify.com/admin/orders) page in **Shopify Admin** and check whether the missing orders show as archived. To fix this problem, unarchive the orders and run the sync again. To prevent this problem in the future, turn off the **Automatically archive the order** option in the **Order Processing** section of **General** settings in Shopify Admin. To learn more, see [Under the hood](synchronize-orders.md#under-the-hood).
+* **Orders were created before the last sync date.** The connector only imports orders created or modified after the last sync. If you need to reimport an older order, modify it in Shopify - for example, by adding a note or tag - and then run the sync again.
+* **Orders are filtered out.** Check the filter criteria on the **Sync Orders from Shopify** request page. Also review the **Shopify Orders to Import** page for entries with errors.
+
 ### Shopify fields in archived sales orders can show manual adjustments
 
 Archived sales orders include following fields:

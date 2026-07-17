@@ -32,7 +32,7 @@ To automate the process of creating inspections for production output, there are
    - Make sure a routing is created for the item.
 
 - You must set up a global trigger for production output. On the **Quality Management Setup** page, in the **Production - Create Inspection** field, choose **When Output is Posted**.
-- You must create inspection generation rules for production output testing. Learn more at [Create a production rule](qms-test-generation-rules.md#create-a-production-rule).
+- Create inspection generation rules for production output testing. For more information, see [Create a production rule](qms-test-generation-rules.md#create-a-production-rule).
 
 
 ## Create production output inspections
@@ -94,6 +94,20 @@ The following steps give an overview of how to complete a production inspection.
 3. Review the calculated results that the template configuration and measurements determine.
 4. Choose the **Finish** action when the inspection is complete.
 
+### Print inspection reports
+
+After you finish an inspection, you can print or email a report from the **Quality Inspection** page. The **Report** menu offers the following reports:
+
+|Report|Use|
+|-|-|
+|**Certificate of Analysis**|Send to customers to certify that a lot or batch meets quality specifications. Includes measurement results, grades, and a signature block for the designated quality contact.|
+|**Non Conformance Report**|Document a deviation when items fail inspection. Use for internal records or when filing claims with suppliers.|
+|**Inspection Report**|A general-purpose report that works for any inspection type. Use when you don't need the formal structure of a certificate or non-conformance report.|
+
+Each report adapts its content based on the inspection data. For example, grade columns appear only when grading is configured on the template, and the signature block on the Certificate of Analysis appears only when a **Certificate of Analysis Contact** is set in the **Quality Management Setup** page.
+
+All three reports include a default Word layout that you can customize. Learn more in [About report and document layouts](ui-manage-report-layouts.md).
+
 ## Advanced configuration
 
 ### Location-specific rules
@@ -112,7 +126,7 @@ Configure inspections for specific routing operations:
 
 ### Posting setup requirements
 
-Ensure that you have an **Inventory Posting Setup** for item transactions. Learn more at [Specific posting groups](finance-posting-groups.md#specific-posting-groups).
+Ensure that you have an **Inventory Posting Setup** for item transactions. Learn more in [Specific posting groups](finance-posting-groups.md#specific-posting-groups).
 
 ### Item tracking integration
 

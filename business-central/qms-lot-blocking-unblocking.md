@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 
-ms.date: 01/15/2026
+ms.date: 07/14/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -70,13 +70,36 @@ The following list describes how [!INCLUDE [prod_short](includes/prod_short.md)]
 
 ### Examples of result configurations
 
-The following table shows a sample configuration for three inspection results. The **INPROGRESS** result restricts most transactions while inspections are in progress — you can store and move items for inspections, but not use them in business transactions. The **FAIL** result requires quarantine when a quality inspection fails, blocking all use and allowing only quarantine and disposal activities. The **PASS** result allows normal business operations when a quality inspection passes, enabling all transactions for items with confirmed quality.
+An inspection's result and status are separate. For example, an inspection can have the result **FAIL** or **PASS** while its status is still **Open**. The inspection becomes **Finished** only when you finish it.
 
-| Result | Priority | Allow Sales | Allow Transfer | Allow Consumption | Allow Pick | Allow Put-away | Allow Movement | 
-|---|---|---|---|---|---|---|---|
-|**INPROGRESS**| 0 | **No** <br> (can't sell unconfirmed quality) | **No** <br>  prevent distribution before inspection is complete | **No** <br> can't use in production |  **No** <br> prevent picking for shipments | **Yes** <br> allow warehouse storage| **Yes** <br> allow movement to inspection areas| 
-|**FAIL**| 1 |  **No** <br> (can't sell nonconforming items) |  **No** <br> prevent distribution of failed items | **No** <br> can't use defective materials |  **No** <br> prevent accidental picking | **Yes** <br> allow quarantine storage | **Yes** <br> allow movement for disposal| 
-|**PASS**| 2 | **Yes** <br> (approved for customer shipment) | **Yes** <br> approved for distribution| **Yes** <br> approved for production use | **Yes** <br> approved for warehouse operations | **Yes** <br> normal warehouse operations | **Yes** <br> normal warehouse operations| 
+For each transaction type, configure one of the following restrictions on the inspection result:
+
+| Restriction | Open inspection | Finished inspection |
+|---|---|---|
+| **Block** | Blocked | Blocked |
+| **Allow finished only** | Blocked | Allowed |
+| **Allow** | Allowed | Allowed |
+
+**Allow finished only** is useful when you want to permit an operation only after the inspection is formally completed, regardless of whether it passed or failed. For example, you can prevent the sale of a failed lot but allow it to be transferred to a quarantine location after the failure is confirmed.
+
+The following table shows a configuration for this policy:
+
+| Result | Finish Allowed | Sales | Transfer |
+|---|---|---|---|
+| **INPROGRESS** | Do Not Allow Finish | Block | Block |
+| **FAIL** | Allow Finish | Block | Allow finished only |
+| **PASS** | Allow Finish | Allow | Allow |
+
+With this configuration, the restrictions change as the inspection progresses:
+
+| Current inspection | Sales | Transfer |
+|---|---|---|
+| Open, INPROGRESS | Blocked | Blocked |
+| Open, FAIL | Blocked | Blocked |
+| Finished, FAIL | Blocked | Allowed, for example, to move the lot to quarantine |
+| Finished, PASS | Allowed | Allowed |
+
+On the **Quality Management Setup** page, set **Quality inspection selection criteria** to **Only the newest inspection/re-inspection** if the latest inspection should determine the restrictions. For example, if the original inspection is finished with a **PASS** result but its latest re-inspection is open with an **INPROGRESS** result, the open re-inspection is selected and blocks sales and transfers. Finished-only selection criteria ignore the open re-inspection and can therefore apply the older **PASS** result instead.
 
 To learn more about quality inspection results, go to [Configure quality inspection results](qms-configuring-grades.md).
 

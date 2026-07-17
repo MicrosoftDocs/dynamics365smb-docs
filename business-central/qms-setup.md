@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 06/10/2026
+ms.date: 07/14/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -134,7 +134,7 @@ The following steps describe settings you can use to get started with quality ma
    |Field  |Options  |
    |---------|---------|
    |**Warehouse Receipts Trigger** | - **Never** means no automatic inspection creation.<br>- **When Warehouse Receipt is created** creates an inspection when you create a warehouse receipt.<br>- **When Warehouse Receipt is posted** creates an inspection when you post a warehouse receipt.        |
-   |**Purchase Orders Trigger** | - **Never** means no automatic inspection creation.<br>- **When Purchase Order is received** creates an inspection when you post a purchase order receipt.<br>- **When Purchase Order is released** creates an inspection when you release a purchase order.        |
+   |**Purchase Orders Trigger** | - **Never** means no automatic inspection creation.<br>- **When Purchase Order is received** creates an inspection when you post a purchase order receipt.<br>- **When Purchase Order is released** creates an inspection when you release a purchase order.<br><br>**Note:** Posting an open purchase order automatically releases it and triggers inspection creation. If posting fails, the order returns to **Open**, but the inspection remains, so another posting attempt might create another inspection depending on the **Inspection Creation Option** setting.        |
    |**Sales Returns Trigger** | - **Never** means no automatic inspection creation.<br>- **When Sales Return is received** creates an inspection when you post a sales return order receipt.        |
    |**Transfer Orders Trigger** | - **Never** means no automatic inspection creation.<br>- **When Transfer Order is received** creates an inspection when you post a transfer order receipt.        |
    |**Production Order Trigger**| - **Never** means no automatic inspection creation.<br>- **When Production Output is posted** creates an inspection when you post production output.<br>- **When Production Order is released** creates an inspection when you release a production order.<br>- **When a Released Production Order is refreshed** creates an inspection when you refresh a production order that is already released.|

@@ -6,12 +6,15 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 99000768, 99000779, 99000780, 99000866
-ms.date: 06/02/2026
+ms.date: 07/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Setting up manufacturing
+
+> [!NOTE]
+> Manufacturing features are available only if you have the **Premium** experience. Learn how to [select the Premium experience](ui-experiences.md#to-select-the-premium-experience).
 
 To convert material into produced end items, you must set up production resources, such as bills of material, routings, machine operators, and machinery.
 

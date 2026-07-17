@@ -5,8 +5,8 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
-ms.search.form: 99000768, 99000779, 99000780, 99000866
-ms.date: 06/17/2026
+ms.search.form: 5510, 99000768, 99000779, 99000780, 99000866
+ms.date: 07/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -29,6 +29,17 @@ The action isn't supported under the following conditions:
 - If the output entry was already applied to an outbound transaction.
 - If consumption/output involve warehouse handling. Bins are supported.
 - Entries were created through subcontracting purchase orders. You can undo receipt in the Posted Purchase Receipt page.
+
+### Reverse output manually with the output journal
+
+You can also manually reverse an output posting by using the **Output Journal** page. Apply the reversal to the original item ledger entry to correct the related item and capacity entries.
+
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Output Journal**, and then choose the related link. Select your batch.
+2. Fill in the fields as necessary. Learn more in [Batch Post Production Output and Run Times](production-how-to-post-output-quantity.md).
+3. In the **Applies-To Entry** field, select the associated item ledger entry. This selection reverses the capacity and item ledger entries.
+4. Choose the **Post** action to post the reversal.
+
+The system posts the output journal entries to the item ledger as a positive adjustment.
 
 ## Undo subcontracting receipts
 

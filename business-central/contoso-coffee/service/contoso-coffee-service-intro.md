@@ -4,7 +4,7 @@ description: This article introduces you to the Consoso Coffee demonstration dat
 author: andreipanko
 ms.author: andreipa
 ms.topic: how-to
-ms.date: 11/27/2023
+ms.date: 07/16/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -49,7 +49,7 @@ The Contoso Coffee demo data currently supports the following service scenarios 
 Read the steps for each scenario in the relevant article.  
 
 > [!IMPORTANT]
-> The Service walkthroughs require that the user experience is set to **Premium** in the **Company Information** page.
+> The service walkthroughs require that you set the user experience to **Premium** on the **Company Information** page. Learn how to [select the Premium experience](../../ui-experiences.md#to-select-the-premium-experience).
 
 
 ## Related information

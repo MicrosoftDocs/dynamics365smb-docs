@@ -1,11 +1,11 @@
 ---
 title: View Load on Work and Machine Centers
-description: Learn how to view loads on work and machine centers, how finite capacity planning prevents overloading bottleneck resources, and how to use the Work Center Task List.
+description: Learn how to compare resource load and capacity, identify bottlenecks, use finite scheduling, and review the Work Center Task List.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
-ms.date: 05/28/2026
+ms.date: 07/15/2026
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 ---
 # View the load on work and machine centers
 
-On the **Work Center Card** and **Machine Center Card** pages, you can view the shop floor load as a result of planned and released production orders.
+Capacity shows how much work a production resource can perform, while load shows the work assigned by planned and released production orders. Comparing them helps you identify overloaded resources, unused capacity, and operations that might delay production. This article explains how to review load and use finite capacity scheduling for constrained resources.
 
 ## Understanding load and capacity
 

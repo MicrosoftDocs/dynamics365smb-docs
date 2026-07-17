@@ -5,13 +5,16 @@ author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 10/03/2025
+ms.date: 07/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
 # Set up service management
+
+> [!NOTE]
+> Service Management features are available only if you have the **Premium** experience. Learn how to [select the Premium experience](ui-experiences.md#to-select-the-premium-experience).
 
 Before you can start using Service Management features in [!INCLUDE[prod_short](includes/prod_short.md)], there are a few things to set up. For example, you can establish coding for standard services, symptoms, and fault codes, and the service items and service item types based on your company’s customer service requirements.  
 

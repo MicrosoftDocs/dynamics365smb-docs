@@ -131,6 +131,20 @@ To complete an inspection, follow these steps:
 3. Review the calculated grade that the template configuration and measurement results determined.
 4. Choose **Finish** to complete the inspection.
 
+### Print inspection reports
+
+After you finish an inspection, you can print or email a report from the **Quality Inspection** page. The **Report** menu offers the following reports:
+
+|Report|Use|
+|-|-|
+|**Certificate of Analysis**|Send to customers to certify that a lot or batch meets quality specifications. Includes measurement results, grades, and a signature block for the designated quality contact.|
+|**Non Conformance Report**|Document a deviation when items fail inspection. Use for internal records or when filing claims with suppliers.|
+|**Inspection Report**|A general-purpose report that works for any inspection type. Use when you don't need the formal structure of a certificate or non-conformance report.|
+
+Each report adapts its content based on the inspection data. For example, grade columns appear only when grading is configured on the template, and the signature block on the Certificate of Analysis appears only when a **Certificate of Analysis Contact** is set in the **Quality Management Setup** page.
+
+All three reports include a default Word layout that you can customize. For more information, see [About report and document layouts](ui-manage-report-layouts.md).
+
 ## Configuration options
 
 The following sections describe various configuration options on the **Quality Management Setup** page.

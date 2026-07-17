@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 03/09/2026
+ms.date: 07/13/2026
 ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -195,6 +195,9 @@ You can access and edit metafields on the **Shopify Metafields** page, which you
 > You can't edit types that have AssistEdit functionality defined directly on the line.
 
 If standard metafields are defined, you can use the **Get Metafield Definitions** action to get the list from Shopify. All supported metafields are imported. You only need to update the values.
+
+> [!NOTE]
+> Clearing a metafield value or deleting a metafield record in [!INCLUDE [prod_short](../includes/prod_short.md)] doesn't clear or delete the metafield in Shopify. To remove the metafield, delete it in Shopify. A later synchronization from Shopify to [!INCLUDE [prod_short](../includes/prod_short.md)] removes the corresponding local metafield record.
 
 #### Supported metafield content types
 

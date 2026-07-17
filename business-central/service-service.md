@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: get-started
 ms.search.keywords: service management, service orders, service items, service contracts, service pricing, service personnel, service estimates, service invoices
-ms.date: 10/03/2025
+ms.date: 07/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -14,7 +14,7 @@ ms.custom: bap-template
 # Service management
 
 > [!NOTE]
-> The functionality described in this article and related articles is only available if you have the **Premium** experience. Learn more in [Change Which Features are Displayed](ui-experiences.md).
+> The features that this article and related articles describe are only available if you use the **Premium** experience. Learn how to [select the Premium experience](ui-experiences.md#to-select-the-premium-experience).
 
 Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service isn't always easy, so [!INCLUDE[prod_short](includes/prod_short.md)] provides a set of tools to help. These tools are designed to support repair shops and field service operations, and support typical scenarios for those businesses:
 
@@ -26,7 +26,7 @@ Providing ongoing service to customers is an important part of any business and 
 
 In addition, you can standardize coding, set up contracts, implement a discounting policy, and create route maps for service employees.  
 
-The following table describes a sequence of tasks, with links to the articles that describe them.
+The following table contains a sequence of tasks, with links to the articles that describe them.
 
 | To... | Go to ... |
 |--|--|

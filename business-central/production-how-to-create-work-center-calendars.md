@@ -1,11 +1,11 @@
 ---
 title: Set Up Shop Calendars
-description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
+description: Learn how to define shifts, working time, holidays, and absences for accurate production capacity calculations and resource load.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
-ms.date: 05/20/2026
+ms.date: 07/15/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -13,7 +13,7 @@ ms.custom: bap-template
 ---
 # Set up shop calendars
 
-A work center or machine calendar specifies the working days and hours, shifts, holidays, and absences that determine the center’s gross available capacity according to its defined efficiency and capacity values. Capacity is measured in time.
+Shop calendars define when production resources are available. Working days, shifts, holidays, absences, capacity, and efficiency determine the time that work and machine centers can use for production. [!INCLUDE [prod_short](includes/prod_short.md)] uses this availability when it schedules routing operations and calculates resource load. This article explains how to define shifts and calendars and calculate capacity for production resources.
 
 As a foundation for calculating a specific work or machine center calendar, you must first set up one or more general shop calendars. A shop calendar defines a standard work week according to start and end times of each working day and the work shift relation. In addition, the shop calendar defines the fixed holidays during a year.  
 

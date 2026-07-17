@@ -1,7 +1,7 @@
 ﻿---
 title: Introduction to Contoso Coffee Manufacturing
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
-ms.date: 04/01/2023
+ms.date: 07/16/2026
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 4765,
@@ -45,7 +45,7 @@ The manufacturing activities for all scenarios use the *MAIN* location.
 |**Manufacturing Location** |Specifies the warehouse that you want to use for production operations. The default is *MAIN*, but you can change it to suit your needs.|
 
 
-Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
+When you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
 
 ## Scenarios
 
@@ -63,7 +63,7 @@ The Contoso Coffee manufacturing demo data currently supports the following scen
 Read the steps for each scenario in the relevant article.  
 
 > [!IMPORTANT]
-> These walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
+> These walkthroughs require that you set the user experience to **Premium** on the **Company Information** page. Learn how to [select the Premium experience](../../ui-experiences.md#to-select-the-premium-experience).
 
 ## Related information
 

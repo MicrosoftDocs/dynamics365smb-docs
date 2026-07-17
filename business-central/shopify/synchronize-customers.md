@@ -4,7 +4,7 @@ description: Import customers and companies from or export to Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 07/14/2025
+ms.date: 07/13/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
@@ -234,6 +234,9 @@ You can edit metafields on the **Shopify Metafields** page, which you open from 
 > When you add a new record, the connector immediately sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield. You can't edit types that have AssistEdit functionality defined directly on the line.
 
 If standard metafields are defined, you can use the **Get Metafield Definitions** action to get the list from Shopify. All supported metafields are imported. You only need to update the values.
+
+> [!NOTE]
+> Clearing a metafield value or deleting a metafield record in [!INCLUDE [prod_short](../includes/prod_short.md)] doesn't clear or delete the metafield in Shopify. To remove the metafield, delete it in Shopify. A later synchronization from Shopify to [!INCLUDE [prod_short](../includes/prod_short.md)] removes the corresponding local metafield record.
 
 #### Supported metafield content types
 

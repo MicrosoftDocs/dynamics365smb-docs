@@ -1,11 +1,11 @@
 ---
 title: Work with Production Families in Manufacturing 
-description: The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.
+description: Learn how to group items that share a manufacturing process so you can produce them together and reduce material scrap and repeated setup work.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000790, 99000791, 99000792, 99000793
-ms.date: 04/01/2021
+ms.date: 07/15/2026
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 ---
 # Work with Production Families
 
-A production family is a group of individual items whose relationship is based on the similarity of their manufacturing processes. By forming production families, some items can be manufactured twice or more in one production, which will optimize material consumption.
+Production families group items that you can produce together because they share a manufacturing process. Use a family production order when one operation yields multiple related items, such as different parts cut from the same sheet. Producing the items together can reduce material scrap and repeated setup work.
 
 In the **Quantity** field on the **Family** page, you enter the quantity that will be produced when the whole family has been manufactured once.
 

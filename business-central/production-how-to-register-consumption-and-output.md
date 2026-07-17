@@ -1,18 +1,20 @@
 ---
 title: Register consumption output for a production order
-description: This article explains how to register consumption and output for a released production order line.
+description: Learn how to record component consumption, finished quantities, scrap, and operation time together for a released production order.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 5510,
-ms.date: 03/10/2026
+ms.date: 07/15/2026
 ms.custom: bap-template
 
 ---
 # Register consumption and output for a released production order
 
-Use the **Production Journal** page to register consumption output for a released production order. The journal combines the functions of the separate consumption journal and output journals into one journal. You open the combined journal from a released production order. Its purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent on operations. The values post to ledger entries under the released production order. Consumption quantities post as negative item ledger entries, output quantities post as positive ledger entries, and time spent posts as capacity ledger entries. The posted values also display at the bottom of the journal as actual quantities.  
+The **Production Journal** page provides a single place to record the components used, quantities produced, scrap, and operation time for a released production order. When you post the journal, it updates inventory, capacity, costs, and production progress all at once.
+
+The journal combines the functions of the separate consumption and output journals. Consumption quantities post as negative item ledger entries, output quantities post as positive item ledger entries, and time spent posts as capacity ledger entries. The posted values also display at the bottom of the journal as actual quantities.
 
 > [!NOTE]  
 > Because consumption data is processed together with output data, this journal displays linked components and operations in a logical process structure. Components are indented under their respective operation. This linking requires that you use routing link codes. To learn more about routing links, go to [To create routing links](production-how-to-create-routings.md#to-create-routing-links).  
@@ -72,7 +74,7 @@ In many manufacturing environments, you post production consumption and output b
 
 ## Related information  
 
-[Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md)  
+[Reverse and correct production order transactions](production-cancel-production-orders-that-have-consumption.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  

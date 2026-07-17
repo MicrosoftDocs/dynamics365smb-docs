@@ -1,22 +1,22 @@
 ---
-title: Post Scrap Manually
-description: If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.
+title: Post scrap manually
+description: Learn how to record scrap quantities and reason codes by production operation without increasing finished output.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
-ms.search.form: 99000823
-ms.date: 03/08/2023
+ms.search.form: 99000823,
+ms.date: 07/15/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Post Scrap Manually
 
-If scrap is produced during processing, it can be entered in the output journal.  
+# Post scrap manually
+
+When you post scrap, you record the quantities that an operation processed but that don't qualify as finished output. To keep good output separate from production losses and to show scrap by operation, enter scrap quantities and reason codes in the output journal.
 
 > [!NOTE]
-> The scrap quantity does not increase the output quantity.  
+> The scrap quantity doesn't increase the output quantity.  
 
 ## To post scrap manually
 
@@ -26,16 +26,16 @@ If scrap is produced during processing, it can be entered in the output journal.
 4. In the **Scrap Code** field, enter the scrap code.  
 5. Choose the **Post** action to post the specified scrap per operation.  
 
-    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Related information
 
-[Manufacturing](production-manage-manufacturing.md)
+[Reverse and correct production order transactions](production-cancel-production-orders-that-have-consumption.md)  
+[Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

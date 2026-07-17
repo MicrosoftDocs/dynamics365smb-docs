@@ -1,19 +1,21 @@
 ---
 title: About finished production order costs
-description: Finishing the production order is key to completing the costing lifecycle of a production item.
+description: Learn how finished production orders reconcile material, capacity, subcontracting, overhead, work-in-process, inventory, and variances.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 99000867,
-ms.date: 07/01/2025
+ms.date: 07/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 # About finished production order costs
 
-Finishing a production order is an important task in completing the costing lifecycle of the item that you're producing. Final costs, including variances in a standard cost environment, actuals in a FIFO, Average, or LIFO cost environment, are calculated using the **Adjust Cost - Item Entries** batch job. The batch job allows for financial reconciliation of the costs of item production. For a production order to be considered for cost adjustment, its status must be **Finished**, so it's important to update the status when the order is complete.
+A finished production order brings together the actual cost of consumed materials, capacity, subcontracting, and overhead for the items produced. Cost adjustment reconciles those costs with work in process and inventory and calculates variances when you use standard costing. This article explains why production orders must be finished before their final costs can be adjusted.
+
+Final costs, including variances in a standard cost environment and actual costs in a FIFO, Average, or LIFO cost environment, are calculated by using the **Adjust Cost - Item Entries** batch job. For a production order to be considered for cost adjustment, its status must be **Finished**, so it's important to update the status when the order is complete.
 
 ## Example
 

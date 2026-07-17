@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 119, 774_Primary, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9816, 9818, 9874
-ms.date: 06/17/2026
+ms.date: 07/16/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -107,7 +107,7 @@ After you add users or change user information in the Microsoft 365 Admin Center
 The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you update a user with a license change, [!INCLUDE [prod_short](includes/prod_short.md)] assigns users to the appropriate user group and updates their permission sets. Learn more at [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> With 2024 release wave 1, a Premium license user can sign in to a company where the **User Experience** field is set to **Essentials** on the **Company Information** page. However, the Premium user can't use any of the features that the Premium license provides. This restriction doesn't work in the opposite direction. Users who have an Essentials license can't sign in to a company where the **User Experience** is set to **Premium** on the **Company Information** page. To learn more about licensing, go to [Business Central](https://www.microsoft.com/dynamics-365/products/business-central/) website.
+> A user with a Premium license can sign in to a company where the **Experience** field is set to **Essentials** on the **Company Information** page, but can't use Premium features in that company. Users with an Essentials license can't sign in to a company where the **Experience** field is set to **Premium**. Learn more in [Enable Premium features](ui-experiences.md).
 
 If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. Learn more at [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
@@ -213,7 +213,8 @@ To analyze users by license type, follow these steps:
 
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
-[Change Which Features are Displayed](ui-experiences.md)  
+[Enable Premium features](ui-experiences.md)
+
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  

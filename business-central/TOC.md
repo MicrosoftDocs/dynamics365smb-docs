@@ -2753,7 +2753,7 @@ ms.service: dynamics-365-business-central
 ## Customize Business Central
 ### [Customization overview](ui-customizing-overview.md)
 ### [Customize pages for profiles](ui-personalization-manage.md)
-### [Change which features are displayed](ui-experiences.md)
+### [Enable Premium features](ui-experiences.md)
 ### [Set up a colored indicator on cues](admin-how-set-up-colored-indicator-on-cues.md)
 ### Customize with extensions
 #### [Extensions overview](ui-extensions.md)

@@ -4,7 +4,7 @@ description: When demand is planned for and the materials are issued according t
 author: brentholtorf
 ms.topic: concept-article
 ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 99000784, 99000785
-ms.date: 04/07/2026
+ms.date: 07/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -13,7 +13,7 @@ ms.custom: bap-template
 # Manufacturing
 
 > [!NOTE]
-> The features this article describes are available only if you have the **Premium** experience. To learn more, go to [Change Which Features are Displayed](ui-experiences.md).
+> The features described in this article are available only if you have the **Premium** experience. Learn how to [select the Premium experience](ui-experiences.md#to-select-the-premium-experience).
 
 When demand is planned for and the materials are issued according to production BOMs, production operations can start in the sequence defined by the production order routing.  
 
@@ -23,7 +23,7 @@ As an alternative to the batch journal for output posting for multiple productio
 
 There are a few things to set up before you can start production. For example, work centers, routings, and production BOMs. To learn more, go to [Setting Up Manufacturing](production-configure-production-processes.md).
 
-The following table describes a sequence of tasks, with links to the articles that describe them.  
+The following table contains a sequence of tasks, with links to the articles that describe them.  
 
 |**To**|**See**|  
 |------------|-------------|  

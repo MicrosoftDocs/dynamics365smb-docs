@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 05/03/2026
+ms.date: 07/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
@@ -20,7 +20,7 @@ This article explains how to use Sales Order Agent to automate taking sales orde
 Sales Order Agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer with the quote as a PDF attachment.
 
 > [!NOTE]
-> Sales Order Agent only processes unread email messages. Once an email is marked as read, the agent doesn't react to it.
+> The agent processes all emails in the configured folder starting from the activation date, regardless of read status. To avoid reprocessing, it applies a *Processed by Sales Order Agent* category to each email after importing it. The agent skips emails that already have this category. Optionally, you can enable the **Mark email as read** setting so the agent also marks processed emails as read, making it easy for team members to identify processed messages. Learn more about mark as read in [Set up Sales Order Agent: Manage mailbox](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
 
 Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
 
@@ -49,7 +49,7 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** pane ope
 For each sales quote request, Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
 > [!TIP]
-> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the navigation menu or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** pane to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
+> To get an overview of the agent's key performance indicators (KPIs), hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the navigation menu or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** pane. The summary provides insights that highlight the effect of the agent's work in your organization. For example, explore the number of sales quotes or orders that the agent created, the time saved by your team, and the total number of sales orders created.
 
 ## Review and assist
 
@@ -118,13 +118,13 @@ Learn more in [Item availability in Sales Order Agent (preview)](sales-order-age
 
 Most steps of a task include a **Stop** button that lets you terminate the process on that task only. To stop all active tasks at once, you can select the **Stop all tasks** action. This action is useful if the agent becomes blocked after importing too many tasks. It clears the task list and unblocks the agent.
 
-When you select **Stop**, a task isn't terminated immediately&mdash;you're asked to confirm before the task is stopped. Before you stop a task, consider the following behavior:
+When you select **Stop**, the task isn't terminated immediately. You're asked to confirm before the task is stopped. Before you stop a task, consider the following consequences:
 
-- Stopped tasks can't be restarted.
+- You can't restart stopped tasks.
 - Stopping the task might leave some results incomplete or unwanted, and it might require follow-up actions with the customers. Follow up actions depend on where in the process the task was stopped.
 
-  For example, suppose you stopped a task after a sales quote was created. Although the process stopped, the sales quote is still stored in the system as open. You might have to manually edit the state depending on your company policy and then update the customer.
-- Stopped tasks aren't deleted immediately. You can still explore a task's timeline until it's deleted, typically by an administrator.
+  For example, suppose you stopped a task after a sales quote was created. Although the process stopped, the sales quote is still stored in the system as open. You might have to manually edit the state depending on your company's policy and then update the customer.
+- Stopped tasks aren't deleted immediately. You can explore a task's timeline until you delete the task.
 
 <!--
 ## Discard and resume a task to modify a quote or order
@@ -137,7 +137,7 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
 
 ## Scenarios impacting reliability in handling customer requests
 
-- You might need to correct the quantities in the created document when non-base units of measurement differ from the standard ones.  
+- You might need to correct the quantities in the created document when nonbase units of measurement differ from the standard ones.  
 
   For example, if the system treats 1 kilogram as 900 grams and a customer requests 2 kilograms, the system might generate a document showing 2,000 grams instead of 1,800 grams or 2 kilograms.
 

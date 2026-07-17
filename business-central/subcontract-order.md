@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, production order, purchase order, dispatch list, worksheet
 ms.search.form: 99001504, 99000886, 50, 99000831
-ms.date: 06/18/2026
+ms.date: 07/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -131,7 +131,7 @@ This action creates an identical line with the opposite sign in the **Quantity**
 > You can't undo a receipt if it's invoiced or if the production order is finished.
 
 > [!IMPORTANT]
-> If posting the subcontracting receipt consumed components because of the flushing method, the undo action doesn't revert the consumption transactions. To reverse these transactions, use an output journal or the **Reverse Production Order Transaction** action. Learn more in [Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md).
+> If posting the subcontracting receipt consumed components because of the flushing method, the undo action doesn't revert the consumption transactions. To reverse these transactions, use an output journal or the **Reverse Production Order Transaction** action. Learn more in [Reverse and correct production order transactions](production-cancel-production-orders-that-have-consumption.md).
 
 ## Restrictions and validations
 

@@ -1,10 +1,10 @@
 ---
 title: Use the manufacturing batch units of measure
-description: This article gives an overview of how to work with manufacturing batch units of measure in Business Central. 
+description: Learn how to calculate production components when an item is stocked in one unit of measure but produced in another.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords:
-ms.date: 07/14/2025
+ms.date: 07/15/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ---
 # Work with manufacturing batch units of measure
 
-If an item is stocked in one unit of measure but produced in another, a production order is created that uses a manufacturing batch unit of measure to calculate the correct quantity of the components when you run the **Refresh Production Order** batch job. An example of a manufacturing batch unit of measure calculation is when a manufactured item is stocked in pieces but produced in tons.  
+Use a manufacturing batch unit of measure when you stock an item in one unit but produce it in another unit. For example, you might stock pieces while producing by the ton. The batch unit lets [!INCLUDE [prod_short](includes/prod_short.md)] calculate component quantities for the way production runs while inventory remains expressed in the item's stocking unit.
 
 ## To create a production BOM using a batch unit of measure
 

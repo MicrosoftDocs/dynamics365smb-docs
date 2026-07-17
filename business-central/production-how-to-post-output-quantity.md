@@ -1,18 +1,18 @@
 ---
 title: Batch post production output and run times
-description: The output quantity represents the work progress in the form of the finished quantity and used capacity of work or machine center.
+description: Learn how to post completed quantities, scrap, setup time, and run time for one or more released production orders.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 99000773, 99000778, 99000823, 99000827
-ms.date: 05/28/2026
+ms.date: 07/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Batch post output and run times
 
-The output quantity represents the work progress in the form of the finished quantity and used capacity of the work or machine center.
+When you post output, you record the quantities completed during production and the setup and run time used by work or machine centers. When you post output, you update production progress, capacity ledger entries, production costs, and, for the last routing operation, finished-goods inventory. Use the output journal to register results for one or more released production orders.
 
 You can use an output journal to:
 
@@ -68,7 +68,7 @@ To set up stop codes and scrap codes, use the **Stop Codes** and **Scrap Codes**
 ## Related information
 
 [Post Scrap Manually](production-how-to-post-scrap.md)  
-[Reverse Output Posting](production-how-to-reverse-output-posting.md)  
+[Reverse and correct production order transactions](production-cancel-production-orders-that-have-consumption.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  

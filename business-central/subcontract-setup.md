@@ -1,13 +1,13 @@
 ---
 title: Set up subcontracting
-description: Learn how to configure subcontracting settings, work centers, and transfer routes for manufacturing operations.
+description: Learn how to connect outsourced production operations with vendors, work centers, components, purchasing, locations, transfers, and costs.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, setup, work center, transfer routes
 ms.search.form: 99000768, 99000754, 99000755
-ms.date: 07/08/2026
+ms.date: 07/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 # Set up subcontracting
 
-To use subcontracting, you must configure several settings. This article describes how to configure the basic subcontracting settings and work centers.
+Subcontracting lets you outsource selected production routing operations to vendors while keeping the related production order, components, purchasing, transfers, and costs connected in [!INCLUDE [prod_short](includes/prod_short.md)]. This article explains how to configure subcontracting defaults, vendor work centers, locations, and transfer routes.
 
 ## Prerequisites
 

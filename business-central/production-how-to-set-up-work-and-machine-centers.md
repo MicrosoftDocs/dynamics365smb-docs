@@ -1,18 +1,20 @@
 ---
 title: Set up work centers and machine centers
-description: A Work Center card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.
+description: Learn how to set up work and machine centers to represent production resources, capacity, efficiency, calendars, and costs.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
-ms.date: 04/07/2026
+ms.date: 07/15/2026
 ms.custom: bap-template
 
 ---
 # Set up work centers and machine centers
 
-[!INCLUDE [prod_short](includes/prod_short.md)] distinguishes between three types of capacities that are arranged in a hierarchy where each level contains subordinate levels.  
+Work centers and machine centers represent the people, equipment, and production capacity used to perform routing operations. Their calendars, capacity, efficiency, and costs affect production scheduling and costing. This article explains how to set up these resources, organize them in work center groups, and identify capacity-constrained resources.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] arranges production capacity in a hierarchy where each level contains subordinate levels.
 
 The top level is the work center group. Work centers are assigned to work center groups. Every work center can only belong to one work center group.
 

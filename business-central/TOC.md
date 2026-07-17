@@ -1157,7 +1157,6 @@ ms.service: dynamics-365-business-central
 ### [Batch post consumption](production-how-to-post-consumption.md)
 ### [Reverse and correct production order transactions](production-cancel-production-orders-that-have-consumption.md)
 ### [Batch post output and run times](production-how-to-post-output-quantity.md)
-### [Reverse output posting](production-how-to-reverse-output-posting.md)
 ### [Post scrap](production-how-to-post-scrap.md)
 ### [Post capacities](production-how-to-post-capacities.md)
 ### Subcontracting

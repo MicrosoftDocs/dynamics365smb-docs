@@ -1,19 +1,19 @@
 ---
 title: Batch post consumption
-description: If the flushing method is Manual, post the components manually using a consumption journal.
+description: Learn how to manually record component usage for one or more production order lines and reduce the related inventory quantities.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 99000846, 99000850
-ms.date: 09/01/2025
+ms.date: 07/15/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 # Batch post production consumption
 
-If the flushing method is **Manual**, use a consumption journal to post the components manually.  
+When you post consumption, you record the components used to produce an item and reduce their available inventory. You can post consumption automatically by using flushing methods or warehouse activities, or manually in the consumption journal. Use the journal when you need to enter or calculate component usage for one or more production order lines.
 
 > [!NOTE]
 > If you select the **Inventory Pick/Movement** option in the **Prod. Consumption Whse. Handling** field on the location card to indicate that the location requires inventory pick processing, you don't need to use this batch job. [!INCLUDE[prod_short](includes/prod_short.md)] handles consumption when you post the inventory pick. To learn more, go to [Pick for Production in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md).  
@@ -41,7 +41,7 @@ You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatica
 
 ## Related information
 
-[Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md)  
+[Reverse and correct production order transactions](production-cancel-production-orders-that-have-consumption.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  

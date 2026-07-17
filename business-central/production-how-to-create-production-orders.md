@@ -1,10 +1,10 @@
 ---
 title: Create production orders
-description: You can create a production order manually, and the first step is to create a production order header.
+description: Learn how to manually create a firm planned production order that brings together items, quantities, dates, components, operations, and capacity.
 author: brentholtorf
 ms.topic: how-to
 ms.search.form: 9325, 99000815, 99000829, 9900083
-ms.date: 02/25/2025
+ms.date: 07/15/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ---
 # Create production orders
 
-Typically, businesses use the planning engine to create production orders automatically to fulfill a known demand. To learn more, go to [Planning](production-planning.md). However, you can create a production order manually. This article describes how to create a firm planned production order. You can also create production orders with a different status.  
+Production orders specify which items to produce, in what quantities, and by which dates. They bring together the item's production BOM, routing, components, operations, and capacity requirements. Planning can create production orders automatically from demand, or you can create them manually for a specific production need. This article explains how to create a firm planned production order manually. To learn more about automatic creation, go to [Planning](production-planning.md).
 
 ## To create a production order header
 

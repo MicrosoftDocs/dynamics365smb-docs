@@ -5,8 +5,8 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
-ms.search.keywords:
-ms.date: 07/01/2025
+ms.search.keywords: landed cost, item charges, inventory valuation, cost of goods sold, COGS, freight, true cost
+ms.date: 07/21/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Managing inventory costs
 
-Cost management, also referred to as 'costing,' concerns recording and reporting business operating costs. Costing includes the reporting of manufacturing costs and inventory costs, that is, the value of items.
+Cost management, also referred to as *costing*, involves recording and reporting business operating costs. Costing includes the reporting of manufacturing costs and inventory costs, which is the value of items. Learn more about the concepts of costing and landed costs in [the list of common terms and definitions](/dynamics365/guidance/business-processes/glossary#cost) in the Dynamics 365 guidance content.
 
 To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions. Typically, businesses choose a specific costing method and apply that to inventory items, for example, to help them track the value of items on stock.
 

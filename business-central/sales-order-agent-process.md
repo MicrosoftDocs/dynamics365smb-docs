@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 07/02/2026
+ms.date: 07/21/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
@@ -21,6 +21,8 @@ Sales Order Agent monitors a designated mailbox for incoming customer emails abo
 
 > [!NOTE]
 > The agent processes all emails in the configured folder starting from the activation date, regardless of read status. To avoid reprocessing, it applies a *Processed by Sales Order Agent* category to each email after importing it. The agent skips emails that already have this category. Optionally, you can enable the **Mark email as read** setting so the agent also marks processed emails as read, making it easy for team members to identify processed messages. Learn more about mark as read in [Set up Sales Order Agent: Manage mailbox](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
+>
+> The agent uses the activation date as the starting point for retrieving emails. It doesn't process emails received before this date, even if they don't have the *Processed by Sales Order Agent* category. If you deactivate and reactivate the agent, [!INCLUDE [prod_short](includes/prod_short.md)] asks if the agent must process emails that arrived while the agent was inactive, or if it must start from the current moment. Keep this in mind when you copy or move older emails into the monitored folder: the agent only picks them up if the email's received date falls after the activation date. IForwarding an older email creates a new message with a current received date, which makes it eligible for processing. However, the agent identifies the sender from the forwarded message's **From** field (your address, not the original sender), so you need to select the correct customer during the incoming-message review. Learn more about forwarding and sender identification in [Test with real customer emails](sales-order-agent-setup.md#test-with-real-customer-emails).
 
 Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
 

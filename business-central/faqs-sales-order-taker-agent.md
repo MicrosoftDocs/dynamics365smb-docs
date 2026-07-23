@@ -1,7 +1,7 @@
 ---
 title: FAQ for Sales Order Agent
 description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 05/03/2026
+ms.date: 07/21/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -88,6 +88,12 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
 
   - Mixed language input might result in lower-quality output because the system relies on pure string similarity, and the semantic part of the matching might not work properly.
 
+- Customer and contact identification
+
+  - The agent identifies customers by matching the sender's email address to the **E-Mail** field on contact cards. It doesn't match by contact name, company name, phone number, or other fields. If a contact exists in your system but has a different email address than the one the customer sends from, the agent reports the contact as not found.
+  - When an email is forwarded to the agent's mailbox, the agent uses the forwarder's email address for contact lookup, not the original sender's. Use the **Use another contact once** option to link the correct customer to a forwarded email task.
+  - Contacts without a value in the **E-Mail** field can't be matched automatically. Before activating the agent, verify that your customer contacts have up-to-date email addresses.
+
 - Emailing
 
   - The agent reads inbound emails via a shared inbox on Microsoft Exchange. Learn more in [Set up email](admin-how-setup-email.md). Other ways to receive email aren't supported.
@@ -113,8 +119,7 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
 
 - Other considerations
 
-  - Delegated administrators can't activate the agent.  
-  - It's only possible to configure and use one Sales Order Agent per Business Central company.
+  - Delegated administrators can't activate the agent.
   - The agent uses the regional settings specified by its user account.
   - While the agent can recognize and interact with the custom fields and actions introduced by customizations and ISV solutions, which are added to the agent's profile and permissions, the results might vary in quality and should be thoroughly tested. Improving reliability of working with the custom elements might require adjustments to the agent's instructions, which is currently not supported. 
   
@@ -145,7 +150,7 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
 
 ## Is this capability extensible?
 
-Currently, this capability isn't extensible by partners.
+Currently, partners can't extend this capability. However, the agent's prompt instructions (including relevance filtering, item search priority rules, and agent behavior guidelines) are included in the [Sales Order Agent source code on GitHub](https://github.com/microsoft/BCApps/tree/main/src/Apps/W1/SalesOrderAgent/app/.resources/Prompts). Partners can review these prompts to understand how the agent evaluates messages and matches items.
 
 ## Related information
 

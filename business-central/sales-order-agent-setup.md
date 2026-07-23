@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Set up Sales Order Agent in Business Central to automate processing sales orders from customer emails. Learn how to activate, configure, and manage user access.
-ms.date: 07/17/2026
+ms.date: 07/21/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer
@@ -41,6 +41,9 @@ Before configuring and activating Sales Order Agent, ensure the following prereq
 - (Sandbox environments only) The **Allow HttpClient Requests** toggle in the **Sales Order Agent** extension settings is turned on.
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Sales Order Agent**, and then turn on the **Allow HttpClient Requests** toggle.
+
+> [!TIP]
+> Before you activate the agent, review your contact list to make sure that the customer contacts have accurate email addresses in the **E-Mail** field. The agent relies on email matching to identify customers. Contacts without email addresses, or with outdated addresses, require manual intervention for each incoming request. Learn more in [Identifying customers/contacts](sales-order-agent.md#identifying-customerscontacts-and-related-documents).
 
 ## Turn on Sales Order Agent capability for environment
 
@@ -93,11 +96,20 @@ Configure and activate Sales Order Agent for your company. You can set up multip
 
    These options specify how you interact with the agent to create sales quotes and make orders from quotes in response to the incoming requests.
 
+   The agent always creates a sales quote as the first step. Sales quotes have no impact on planning, reservations, availability, or cash flow, which makes them a safe intermediate document for AI-assisted processing. Depending on your configuration, the quote can be sent to the customer for review, converted directly into a sales order, or both. The following table shows how the main settings interact:
+
+   |Send quotes for confirmation|Make orders from quotes|What happens|
+   |-|-|-|
+   |On|On|The agent sends the quote to the customer for review. After the customer confirms the quote, the agent converts it into a sales order. This is the default behavior.|
+   |On|Off|The agent sends the quote to the customer for review. The quote stays as a quote, and you must convert it to an order manually.|
+   |Off|On|The agent creates the quote internally and immediately converts it to a sales order. The customer only receives the order, never the quote.|
+   |Off|Off|The agent creates the quote but doesn't send it to the customer and doesn't convert it into an order automatically. You handle any customer communication and order creation manually.|
+
    |Option|Description|Default|
    |-|-|-|
    |Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales quote before creating an outgoing email with the quote details and attachment. <br><br>When off, the agent creates or modifies sales quotes as requested and then automatically proceeds with creating an outgoing email with the quote as an attachment. The user must review and confirm the email before the agent sends it to the customer. |Off|
-   |Send quotes for confirmation|When on, the agent replies to the customer with the sales quote as a PDF attachment so the customer can confirm the quote by email. After the customer accepts, the agent can convert the quote into a sales order (when **Make orders from quotes** is on).<br><br>When off, the agent doesn't send the quote to the customer. Instead, when **Make orders from quotes** is on, it proceeds directly to converting the quote into a sales order.<br><br>This option works together with **Review quotes when created and updated**. When both options are off, the agent creates the quote without a review step, doesn't email it to the customer, and proceeds directly to making an order from the quote (when **Make orders from quotes** is on). |On|
-   |Make orders from quotes|When on, the agent converts confirmed sales quotes into orders after the customer agrees to the quote via email and the Business Central user confirms the email.<br><br>When off, you have to create the order manually.|On|
+   |Send quotes for confirmation|When on, the agent sends the sales quote to the customer as a PDF attachment and waits for the customer to confirm or request changes before proceeding.<br><br>When off and **Make orders from quotes** is on, the agent skips the quote stage from the customer's perspective and converts the quote to a sales order immediately. The customer only receives the order.|On|
+   |Make orders from quotes|When on, the agent converts sales quotes into orders. If **Send quotes for confirmation** is also on, conversion happens after the customer agrees to the quote via email and a [!INCLUDE [prod_short](includes/prod_short.md)] user confirms the email. If **Send quotes for confirmation** is off, the agent converts the quote to an order immediately without sending the quote to the customer.<br><br>When off, you have to create the order manually.|On|
    |Review orders when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales order before creating an outgoing email with the order details and attachment. <br><br>When off, the agent creates the sales order as requested and then automatically proceeds with creating an outgoing email with the order as an attachment. The user must review and confirm the order before the agent sends it to the customer. |Off|
 
    ## [Manage mailbox](#tab/mailbox)
@@ -166,6 +178,32 @@ You can forward, copy, or move a customer email that was originally delivered to
 The agent retrieves messages based on their received date and time in Microsoft 365, not when they were copied or moved into the monitored folder. It processes messages from the agent's activation date. Therefore, copying or moving a message received before that date might not make it eligible for processing. Forwarding creates a new message with a new received date and time.
 
 After the message reaches the monitored folder, wait for the agent's next scheduled run. You don't need to mark the message as unread.
+
+## Configuration scenarios
+
+The following scenarios illustrate how you can combine multiple agent instances, folders, and processing rules to match different business needs.
+
+### Control which senders the agent processes
+
+The agent processes all emails that arrive in the monitored folder. To limit processing to approved senders, create a dedicated subfolder (for example, *Sales Requests*) in the monitored mailbox and point the agent to that folder. Then set up Outlook rules that automatically move emails from approved senders into this folder. Emails from unknown or unapproved senders stay in the inbox and the agent never sees them. This approach gives you a sender allow-list without any changes in [!INCLUDE [prod_short](includes/prod_short.md)].
+
+### Use multiple agent instances for different customer groups
+
+You can create multiple Sales Order Agent instances in the same company, each monitoring a different mailbox or folder and using different processing rules. For example:
+
+- **Instance 1: Shared team inbox.** Monitors a shared mailbox (`sales@contoso.com`) with all review steps enabled and quotes sent for customer confirmation.
+- **Instance 2: Personal inbox for trusted customers.** Monitors a subfolder on a salesperson's personal mailbox. The **Send quotes for confirmation** toggle is turned off so the agent converts quotes directly into orders. The salesperson's individual email signature is used.
+
+Each instance has its own display name and initials, so users can distinguish agent tasks in the **Tasks** pane.
+
+### Delegate only part of the process to the agent
+
+If your pricing or discount logic requires manual steps that the agent can't perform, configure the agent to stop after creating the quote:
+
+1. Turn on **Review quotes when created and updated**.
+1. Turn off **Send quotes for confirmation**.
+
+With this configuration, the agent reads the email, identifies items, checks availability, and creates the sales quote. It then pauses and asks a [!INCLUDE [prod_short](includes/prod_short.md)] user to review the quote. The user can apply custom pricing, add discounts, or populate fields that the agent doesn't handle. After the user finishes, they can send the quote manually or resume the agent workflow.
 
 ## Manage agent when Copilot Credits run out
 

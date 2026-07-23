@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: article
 ms.collection:
   - bap-ai-copilot
-ms.date: 05/03/2026
+ms.date: 07/21/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410_Primary
@@ -63,7 +63,7 @@ For each item, the following fields are calculated:
 |Unit of Measure Code|Shows the item's sales unit of measure code. If the field is empty, the base unit of measure is used.|
 |Unit of Measure|The item's sales or base unit of measure description. Learn more in [Set Up Units of Measure](inventory-how-setup-units-of-measure.md).|
 |Available Quantity|Shows the available quantity in base unit of measure (UOM) recalculated to the sales unit of measure.|
-|Unit Price Including Discount|Shows the items' price including discount calculated for a specified customer on a specified date. Learn more in [Record special sales prices and discounts](sales-how-record-sales-price-discount-payment-agreements.md).|
+|Unit Price Including Discount|Shows the item's calculated price for the specific customer, date, and quantity. The agent creates a temporary sales document behind the scenes and applies [!INCLUDE [prod_short](includes/prod_short.md)]'s standard pricing engine, including customer price groups, customer discount groups, and line discount rules. The result reflects the actual price the customer would see on a quote, not the list price from the item card. Learn more in [Record special sales prices and discounts](sales-how-record-sales-price-discount-payment-agreements.md).|
 |Availability Level|Shows the level of the item's availability, such as ***Available** or **Out of Stock**. The value is calculated based on the **Available Quantity (Base UOM)** compared to the **Safety Stock Quantity** specified on the item or storekeeping unit card. Learn more about safety stock in [Design Details: Balancing supply and demand](design-details-balancing-demand-and-supply.md).|
 
 ## Related information

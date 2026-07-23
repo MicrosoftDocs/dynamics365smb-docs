@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 06/09/2026
+ms.date: 07/21/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: dmc-dk
@@ -48,7 +48,10 @@ The agent relies on an internal email dispatcher running as a background task to
 
 The agent helps compose body texts for emails based on the context of the current step. For example, it can list available inventory or provide a brief description of the attached sales quote or sales order.
 
-The agent validates incoming messages and attachments against a relevance model before it processes them. The relevance model filters out messages that are outside the agent's scope. For example, it filters out offers to sell, discount requests, or attempts to access internal data. A separate check runs on attachments to ensure non-sales-related documents don't trigger unnecessary processing. Filtered messages are tracked in telemetry for audit purposes.
+The agent validates incoming messages and attachments against a relevance model before it processes them. The relevance model filters out messages that are outside the agent's scope. For example, it filters out offers to sell, discount requests, or attempts to access internal data. A separate check runs on attachments to ensure non-sales-related documents don't trigger unnecessary processing. For example, if a customer attaches terms and conditions or a privacy policy alongside a purchase order, the agent processes only the purchase order and ignores the non-sales attachments.
+
+> [!TIP]
+> The agent's prompt instructions, including the relevance and item-search rules, are included in the Sales Order Agent extension source code. Partners can inspect these prompts to better understand how the agent evaluates messages, filters attachments, and prioritizes item matches.
 
 ### Customer and Business Central user involvement
 
@@ -66,22 +69,36 @@ When an email is received, the agent analyzes the email&mdash;including subject 
 
 If the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 
+> [!NOTE]
+> The agent always creates a sales quote as the first step, even when the customer asks for an order. Sales quotes have no impact on planning, reservations, availability calculations, or cash flow forecasts, which makes them a safe intermediate document for AI-assisted processing. Depending on your configuration, you can send the quote to the customer for review or convert it directly into a sales order without the customer ever seeing it. To configure the agent to go straight to orders, turn off **Send quotes for confirmation** and turn on **Make orders from quotes** in the [agent setup](sales-order-agent-setup.md). For more information about how these settings interact, see [Create sales documents](sales-order-agent-setup.md?tabs=documents#configure-and-activate-sales-order-agent).
+
 Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request. Learn more in [Agent process flow](#agent-process-flow).
 
 ### Identifying customers/contacts and related documents
 
-The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address. The agent searches for the email among the registered Business Central contacts, sales quotes and orders, and then looks up the customer linked to that email:
+The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it identifies the customer in [!INCLUDE [prod_short](includes/prod_short.md)] by matching the sender's email address against the **E-Mail** field on contact cards. The agent then looks up the customer linked to that contact:
 
 - If a customer is found, the agent filters to use only sales quotes and orders that belong to the customer.
 
-  This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email
+  This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
 
 - If a contact is found but it's not a customer, the agent filters to use only documents belonging to the contact. Quotes can be sent to contacts that aren't registered as a customer.
 - If the agent doesn't find a contact, it displays a notification on the incoming message review page. You have three options to proceed:
 
-- Create a new contact. Register the sender as a new contact (adds them to your contact list permanently).
-- Use another contact one time. Pick an existing contact from your contact list and link them to this specific task only, without modifying any master data. Future emails from the same address still show as unregistered.
-- Update an existing contact's email address. Select an existing contact and update their email address to the sender's address permanently.
+  - **Create a new contact:** Register the sender as a new contact in your system permanently. Use this option when the sender is a genuinely new customer not yet in your system.
+  - **Use another contact once:** Pick an existing contact from your contact list and link them to this specific task only, without modifying any master data. This option is the right choice for forwarded emails or when a purchasing assistant sends on behalf of a customer. Future emails from the same address still show as unregistered.
+  - **Update an existing contact's email:** Select an existing contact and update their email address to the sender's address permanently. Use this option when a customer changed their email or when the email field was never filled in.
+
+> [!NOTE]
+> For security, the agent identifies contacts exclusively by matching the sender's email address to the **E-Mail** field on contact cards. It doesn't search by contact name, company name, or other fields when establishing the security context. This restriction prevents unauthorized parties from impersonating a customer by using a similar name. If you can see a contact in your contact list but the agent reports it as not found, check whether the contact's **E-Mail** field matches the address the customer sent from.
+
+#### Forwarded emails
+
+When you forward an email to the agent's mailbox, the agent uses the forwarder's email address (not the original sender's) for contact lookup. If an internal team member forwards a customer's email, the agent doesn't automatically identify the customer. In this case, use the **Use another contact once** option to manually link the correct customer contact to the task.
+
+#### Ensuring contacts are discoverable
+
+To ensure the agent can identify your customers, verify that each contact card has the correct email address in the **E-Mail** field. Contacts without an email address, or with an outdated address, aren't matched when the customer sends a request.
 
 ### Finding products/items
 
@@ -171,7 +188,7 @@ The general flow is illustrated in the figure, which is followed by more details
 ![Shows the Sales Order Agent flow](media/soa-flow.svg "Shows the Sales Order Agent flow")
 
 1. **Customer:** Sends email to Business Central mailbox asking for a sales quote for items.
-1. **Sales order agent:** Picks up unread email from inbox and creates a task with a step for reviewing the incoming request.
+1. **Sales order agent:** Picks up the email from the monitored folder and creates a task with a step for reviewing the incoming request.
 1. **Reviewer:** Reviews/confirms the step with email.  
 1. **Sales order agent:**
     1. Finds the contact or customer.  
@@ -197,7 +214,7 @@ The general flow is illustrated in the figure, which is followed by more details
 Sales Order Agent uses Copilot Credits for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 > [!IMPORTANT]
-> When Copilot Credits are depleted, the agent stops processing new emails but remains active and scheduled. When credits become available again, the agent automatically resumes and processes all unread emails that accumulated during the outage. To prevent unintended credit consumption after renewal, deactivate the agent when you don't need it running. Learn more in [Manage agent when Copilot Credits run out](sales-order-agent-setup.md#manage-agent-when-copilot-credits-run-out).
+> When the agent runs out of Copilot Credits, it stops processing new emails but stays active and scheduled. When credits become available again, the agent automatically resumes and processes all unprocessed emails that accumulated during the outage. To prevent unintended credit consumption after renewal, deactivate the agent when you don't need it running. For more information, see [Manage agent when Copilot Credits run out](sales-order-agent-setup.md#manage-agent-when-copilot-credits-run-out).
 
 ## Next steps
 

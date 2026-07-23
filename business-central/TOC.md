@@ -484,7 +484,7 @@ ms.service: dynamics-365-business-central
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block vendors](payables-how-block-vendors.md)
 #### [Handling vendor payment disputes](payables-how-handling-payment-disputes.md)
-#### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
+#### [Use item charges to account for extra trade costs](payables-how-assign-item-charges.md)
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 <!-- Payables end -->
@@ -517,7 +517,7 @@ ms.service: dynamics-365-business-central
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)
 <!-- #### [About inventory costs](finance-learn-about-costing.md)  //same as above or referst to design details. merging into finance-manage-inventory-costs.md  ; ok to remove file-->
-#### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
+#### [Use item charges to account for extra trade costs](payables-how-assign-item-charges.md)
 #### [About standard cost calculation](finance-about-calculating-standard-cost.md)
 #### [About unit cost calculation](finance-about-calculating-unit-cost.md)  
 <!-- #### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)  //merged into finance-manage-inventory-costs.md, also content moved to inventory-how-setup-general.md ; ok to remove file -->
@@ -590,7 +590,6 @@ ms.service: dynamics-365-business-central
 
 ### [Accounting and bookkeeping overview](learn-accounting-bookkeeping-guide.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
-### [Accounting and bookkeeping](learn-accounting-bookkeeping-guide.md)
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)

@@ -1,7 +1,7 @@
 ---
 title: Set up Payables Agent
 description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
-ms.date: 07/03/2026
+ms.date: 07/28/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: sorenfriisalexandersen
@@ -9,11 +9,11 @@ ms.author: soalex
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
-ms.search.form: 3304_Primary
+ms.search.form: 3304_Primary,3313
 ---
 # Set up Payables Agent
 
-The Payables Agent in Business Central automates processing of vendor invoices received from vendors through email as PDF documents. This article explains how to set up, activate, configure the Payables Agent, and manage user access.
+The Payables Agent in Business Central automates processing of vendor invoices that vendors send through email as PDF documents. This article explains how to set up, activate, and configure the Payables Agent, and how to manage user access.
 
 Learn more about the agent in [Payables Agent overview](payables-agent.md).
 
@@ -81,7 +81,7 @@ The agent task pane on the right-hand side displays the invoice processing progr
 
 ## <a name="activate"></a>Configure and activate Payables Agent
 
-Configure and activate the Payables Agent for your company. Only one Payables Agent is allowed per company, but you can give access to many users.
+Configure and activate the Payables Agent for your company. Each company can have only one Payables Agent, but many users can access it.
 
 If you start with trial mode, the agent is already active and automatically transitions to full mode after 50 invoices. Use the following steps to adjust settings or set up the agent without using trial mode.
 
@@ -91,11 +91,6 @@ If you start with trial mode, the agent is already active and automatically tran
    ![Shows the Payables Agent configuration assisted setup guide](media/payables-agent-setup-page-1.png)
 
 1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Payables Agent](#manage-agent-permissions-and-user-access).
-1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Mailbox** field to the email account you want the agent to monitor.
-1. (Optional) Set the **Folder** field to specify a specific mailbox folder the agent should monitor. Leave this field blank to monitor the entire mailbox.
-
-   > [!TIP]
-   > Use the **Folder** field to support multiple Business Central companies sharing the same mailbox. Set up email rules in Outlook to route invoices for each company into separate subfolders, then configure each company's agent to monitor its designated subfolder. This setup prevents invoices from being processed by the wrong company's agent.
 
 1. Ensure the Payables Agent's language is set to a supported language.
 
@@ -105,26 +100,48 @@ If you start with trial mode, the agent is already active and automatically tran
 
    The options are spread across multiple cards. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the cards and set the various options. Each tab that follows describes a group of related options:
 
+   ## [Monitor incoming information](#tab/incoming)
+
+   Set up the email account and folder that the agent monitors for incoming vendor invoices.
+
+   1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Mailbox** field to the email account you want the agent to monitor.
+   1. (Optional) Set the **Folder** field to specify a specific mailbox folder the agent should monitor. Leave this field blank to monitor the entire mailbox.
+
+   > [!TIP]
+   > Use the **Folder** field to support multiple Business Central companies sharing the same mailbox. Set up email rules in Outlook to route invoices for each company into separate subfolders, then configure each company's agent to monitor its designated subfolder. This setup prevents invoices from being processed by the wrong company's agent.
+
    ## [Document processing](#tab/documents)
 
    These options specify how the agent processes incoming vendor invoices and creates purchase documents.
 
-   - **Review email:** Select this checkbox to require users to review the incoming emails before the agent creates purchase document drafts.
-   - **Configure additional fields:** Select the link to choose more fields from matched purchase invoice history to populate automatically when the agent finalizes purchase document drafts to become purchase invoice documents. This feature ensures that purchase invoice line fields that aren't visible in the purchase document draft can be populated in the same process when matched with historic data. It's the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
+   **Email review:**
+
+   Choose when the agent should request human review before processing an incoming email. The available options are:
+   - **Manage per sender (recommended):** The agent determines whether to request review based on sender authentication and your known senders list. Specifically:
+      - The agent processes senders in the known senders list with **Approve** policy without review.
+      - If a subfolder is specified in the **Folder** field, the agent processes emails without review.
+      - Authenticated internal (same-organization) senders are processed without review.
+      - The agent skips senders set to **Reject**  policy entirely (no task created).
+      - All other senders require human review before processing.
+
+      Select the **Manage known senders** link to view senders and manage their review policies. Learn more in [Manage known senders for Payables Agent](payables-agent-known-senders.md).
+   - **Never:** Process all emails without requesting review.
+   - **Always:** Request review for all incoming emails before processing.
+
+   **Configure additional fields:**
+
+   Select the link to choose more fields from matched purchase invoice history to populate automatically when the agent finalizes purchase document drafts to become purchase invoice documents. This feature ensures that purchase invoice line fields that aren't visible in the purchase document draft can be populated in the same process when matched with historic data. It's the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
 
    ## [Get sample invoices](#tab/samples)
 
-   This option provides easy access to demo invoices so you can try the agent without needing to produce your own invoices.
+   This option provides easy access to demo invoices so you can try the agent without needing to produce your own invoices. It appears in evaluation companies only and provides demo invoices that work well with the Contoso Coffee demo data. The assisted setup guide lets you send the sample invoices to the monitored mailbox, in which case they're sent from the same mailbox. The assisted setup guide also lets you download the sample invoices so you can send them from your own mailbox to the monitored mailbox.
 
-   ![Shows the third page of the Payables Agent configuration assisted setup guide](media/payables-agent-setup-page-3.png)
-
-   - **Get sample invoices:** This option shows in evaluation companies only and provides demo invoices that work well with the Contoso Coffee demo data. The assisted setup guide lets you send the sample invoices to the monitored mailbox, in which case they're sent from the same mailbox. The assisted setup guide also lets you download the sample invoices so you can send them from your own mailbox to the monitored mailbox.
-
-      > [!TIP]
-      > If you let the agent send the sample invoices, they show up in the agent task pane as coming from the same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples.
+   > [!TIP]
+   > If you let the agent send the sample invoices, they show up in the agent task pane as coming from the same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples.
 
    ---
-1. Select **Update** to complete the setup.
+
+8. Select **Update** to complete the setup.
 
 The **Payables Agent** icon changes to ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png), indicating the agent is active and ready to handle incoming vendor invoices sent to the mailbox.
 
@@ -164,7 +181,7 @@ When credits become available again (for example, at the start of a new billing 
 
 ### Configure agent users
 
-As an administrator, you can specify which users have permission to use or configure the Payables Agent. There are three ways to add and configure agent users:
+As an administrator, you can specify which users have permission to use or configure the Payables Agent. Add and configure agent users in three ways:
 
 #### [From Configure Payables Agent page](#tab/payablesagentconfig)
 
@@ -173,7 +190,7 @@ As an administrator, you can specify which users have permission to use or confi
 1. Select **Manage user access**.
 1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:
 
-   - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
+   - To add a user, select an empty line, select the **User Name** field, and then select the user from the list.
    - To give a user permission to configure Payables Agent, select the **Can configure** check box. <br><br> The **Can configure** setting defines whether a user has access to update the agent configuration (for example, updating the designated mailbox, activating and deactivating the agent, and other settings) or only to work with the agent tasks (for example, reviewing and confirming agent steps).
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
@@ -181,9 +198,9 @@ As an administrator, you can specify which users have permission to use or confi
 
 1. To open the **Payables Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **PAYABLES AGENT - [COMPANY]**.
 1. Set **Status** to **Disabled** to deactivate the agent.
-1. In the **User access** section, do the following steps:
+1. In the **User access** section, complete the following steps:
 
-   - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
+   - To add a user, select an empty line, select the **User Name** field, and then select the user from the list.
    - To give a user permission to configure Payables Agent, select the **Can configure** check box.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
@@ -209,7 +226,7 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 ---
 
 > [!TIP]
-> If users need to create or modify email accounts in Business Central (separate from the Exchange mailbox permissions above) or set up the Microsoft 365 document connector, assign them the **Payables Ag. - Adm.** permission set.
+> If users need to create or modify email accounts in Business Central (separate from the Exchange mailbox permissions mentioned earlier) or set up the Microsoft 365 document connector, assign them the **Payables Ag. - Adm.** permission set.
 
 ### Manage agent's permissions to objects, data, and UI elements
 
@@ -236,4 +253,6 @@ Before you can add or delete permission sets applied to the agent, change the **
 ## Related information
 
 [Payables Agent overview](payables-agent.md)  
+[Manage known senders for Payables Agent](payables-agent-known-senders.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  
+

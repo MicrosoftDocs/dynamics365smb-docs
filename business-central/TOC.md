@@ -2840,6 +2840,7 @@ ms.service: dynamics-365-business-central
 ## Payables Agent
 ### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
+### [Manage known senders for Payables Agent](payables-agent-known-senders.md?toc=/dynamics365/business-central/toc.json)
 ### [Supervise agent activities](supervise-agent-tasks.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)

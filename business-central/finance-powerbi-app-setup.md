@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: reporting
 ms.search.form: 36961_Primary, 37059, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993,36994, 36995, 36996, 36997
-ms.date: 06/11/2025
+ms.date: 08/10/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -176,7 +176,7 @@ This error can happen because the Finance Connector app relies on the totaling a
 Your totaling for an **End-Total** account must exactly reference both the **Begin-Total** and **End-Total** accounts.
 
 > [!NOTE]
-> You can only use one **Begin-Total** account in one **End-Total** account.
+> You can only use one **Begin-Total** account and one **End-Total** account. An easy way to identify pairs of **Begin-Total** and **End-Total** accounts is to run the **Indent Chart of Accounts** action.
 
 #### How to identify the duplicate accounts in Business Central
 

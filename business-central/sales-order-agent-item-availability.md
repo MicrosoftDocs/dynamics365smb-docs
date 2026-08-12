@@ -1,13 +1,13 @@
 ---
 title: Item availability in Sales Order Agent (preview)
-description: Learn about the item availability used by Sales Order Agent and how you can test results on your own.
+description: Learn how Sales Order Agent checks item availability and prices, test the results, and troubleshoot price-calculation failures.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: article
 ms.collection:
   - bap-ai-copilot
-ms.date: 07/21/2026
+ms.date: 08/11/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410_Primary
@@ -65,6 +65,21 @@ For each item, the following fields are calculated:
 |Available Quantity|Shows the available quantity in base unit of measure (UOM) recalculated to the sales unit of measure.|
 |Unit Price Including Discount|Shows the item's calculated price for the specific customer, date, and quantity. The agent creates a temporary sales document behind the scenes and applies [!INCLUDE [prod_short](includes/prod_short.md)]'s standard pricing engine, including customer price groups, customer discount groups, and line discount rules. The result reflects the actual price the customer would see on a quote, not the list price from the item card. Learn more in [Record special sales prices and discounts](sales-how-record-sales-price-discount-payment-agreements.md).|
 |Availability Level|Shows the level of the item's availability, such as ***Available** or **Out of Stock**. The value is calculated based on the **Available Quantity (Base UOM)** compared to the **Safety Stock Quantity** specified on the item or storekeeping unit card. Learn more about safety stock in [Design Details: Balancing supply and demand](design-details-balancing-demand-and-supply.md).|
+
+## Troubleshoot price calculations
+
+The Sales Order Agent calculates prices by creating a temporary sales document and applying the standard [!INCLUDE [prod_short](includes/prod_short.md)] pricing engine. Extensions that subscribe to events on sales documents might not work correctly with temporary documents. If an extension modifies pricing logic or validates fields on sales lines, the price calculation can fail and return a price of 0.
+
+To check whether an extension interferes with the price calculation:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Availability**, and then choose the related link.
+1. In the **Customer No.** field, enter the customer that the agent identified for the request.
+1. Find the item from the request.
+1. If an error notification appears, choose the **Call Stack** action to view the full error trace. If the price is 0 and no notification appears, open the **My Notifications** page and enable **Price calculation errors on Item Availability page**, and then repeat these steps.
+
+Start with the top line of the call stack, which identifies where the error occurred. If that line, or the calls immediately leading to it, references an extension other than **Sales Order Agent by Microsoft** or **Base Application by Microsoft**, the extension might not handle temporary sales documents correctly.
+
+Contact the extension publisher and share the call stack. The extension might need to check whether the sales document is temporary by using the [`IsTemporary`](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method) method before running custom logic. 
 
 ## Related information
 

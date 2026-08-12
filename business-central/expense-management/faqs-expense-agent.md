@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Expense Agent (preview)
 description: Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 04/20/2026
+ms.date: 08/11/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -30,12 +30,14 @@ These frequently asked questions (FAQ) describe the AI effect of Expense Agent i
 
 ## What can Expense Agent do? 
 
-The Expense Agent streamlines the entire expense lifecycle, from receipt capture to reporting and approval. It provides the following capabilities:  
+The Expense Agent streamlines the entire expense lifecycle, from receipt capture to reporting and approval. In the United States, it uses an Anthropic Claude model for AI processing. In other countries or regions, it uses OpenAI GPT.
+
+The agent provides the following capabilities:  
 
 -	**Receipt processing**: Collects receipts via the dedicated Expense Web experience or automatically from a monitored shared mailbox.
--	**Data extraction and itemization**: Uses Anthropic Claude Sonnet 4.6 model to identify and extract key information such as merchant name, expense date, total amount, currency, and line-item details where applicable.
--	**Categorization**: Uses Anthropic Claude Sonnet 4.6 model to automatically classify expenses according to company-configured categories and subcategories.
--	**Expense grouping and expense report creation**: Uses Anthropic Claude Sonnet 4.6 model to convert extracted receipt data into draft expense lines and organize them into draft expense reports.
+-	**Data extraction and itemization**: Uses AI to identify and extract key information such as merchant name, expense date, total amount, currency, and line-item details where applicable.
+-	**Categorization**: Uses AI to automatically classify expenses according to company-configured categories and subcategories.
+-	**Expense grouping and expense report creation**: Uses AI to convert extracted receipt data into draft expense lines and organize them into draft expense reports.
 -	**Rule Validation**: Validates and enforces internal company-configured policies and rules
 -	**Timely pending report emails**: Sends automated notifications of pending reports for review and action.
 -	**User review**: Presents draft reports to employees via the Web experience for review, correction, and submission.
@@ -53,7 +55,7 @@ Although the user-facing experience operates outside of [!INCLUDE [prod_short](.
 
 ## How was Expense Agent evaluated?
 
-Expense Agent uses Anthropic model (Claude Sonnet 4.6) as-is for all AI processing. Expense Agent was evaluated through extensive manual and automated testing to assess both accuracy and safety.
+Expense Agent uses an Anthropic Claude model in the United States and an OpenAI GPT model in other countries. The models are used as-is for all AI processing. Expense Agent was evaluated through extensive manual and automated testing to assess both accuracy and safety.
 
 Accuracy testing focuses on the quality of AI‑assisted outputs compared to human judgment across realistic expense scenarios. The evaluation emphasizes how well the agent supports the core expense workflow, including:
 
@@ -113,4 +115,4 @@ For technical issues or questions about setup and configuration, contact Microso
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
 [Set up Expense Agent](expense-agent-configuration-page.md)  
 [Configure Copilot and agent capabilities](../enable-ai.md)  
-[Anthropic as a subprocessor for Microsoft Online Services](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/copilot/connect-to-ai-subprocessor.md)
+[Anthropic as a subprocessor for Microsoft Online Services (United States only)](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/copilot/connect-to-ai-subprocessor.md)

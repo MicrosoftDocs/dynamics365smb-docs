@@ -57,8 +57,10 @@ The Contoso Coffee manufacturing demo data currently supports the following scen
 4. [Combine Automatic and Manual Flushing](combine-automatic-manual-flushing.md)  
 5. [Use Order Planning to Create and Reserve Supply](order-planning-create-reserve-supply.md)  
 6. [Set Up and Process a Subcontracting Operation](set-up-process-subcontracting-operation.md)  
-7. [Set Up New Capacity](set-up-new-capacity.md)  
-8. [Forecast demand for item variants with different BOMs assigned](variants.md)  
+7. [Use Different Component Supply Methods in Subcontracting](subcontracting-component-supply-methods.md)  
+8. [Set Up Subcontracting Prices and Allocate Item Charges](subcontracting-pricing-item-charges.md)  
+9. [Set Up New Capacity](set-up-new-capacity.md)  
+10. [Forecast demand for item variants with different BOMs assigned](variants.md)  
 
 Read the steps for each scenario in the relevant article.  
 

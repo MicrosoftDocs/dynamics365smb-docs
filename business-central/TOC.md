@@ -39,6 +39,8 @@ ms.service: dynamics-365-business-central
 ##### [Combine automatic and manual flushing](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
 ##### [Use order planning to create and reserve supply](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
 ##### [Set up and process a subcontracting operation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Use different component supply methods in subcontracting](contoso-coffee/manufacturing/subcontracting-component-supply-methods.md)
+##### [Set up subcontracting prices and allocate item charges](contoso-coffee/manufacturing/subcontracting-pricing-item-charges.md)
 ##### [Set up new capacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
 ##### [Variants](contoso-coffee/manufacturing/variants.md)
 #### Warehousing

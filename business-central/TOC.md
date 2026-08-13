@@ -719,6 +719,7 @@ ms.service: dynamics-365-business-central
 #### Bill subscriptions based on usage
 ##### [Overview of usage-based billing](UBB/welcome.md)
 ##### [Import and process usage data](UBB/processing-usage-data/imports-processing.md) 
+##### [Rebilling usage data](UBB/processing-usage-data/rebilling.md)
 ##### [Use data exchange definitions to record usage](UBB/masterdata/dataexchangedefinitions.md)
 ##### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
 ##### [Manage usage data supplier references](UBB/masterdata/references.md)

@@ -57,6 +57,10 @@ If you sell an item with a subscription line, a subscription is automaticall
 
 If the service is a subscription line (see Types of Services), you can add it to a contract as a component and, according to the information in the service, bill on a recurring basis.
 
+### Usage data
+
+In addition to fixed recurring billing, subscription lines can also be billed based on imported usage data. Subscription billing lets you import usage data from suppliers, processes it automatically, and calculates the correct prices for billing. Learn more at [Overview of usage-based billing](../UBB/welcome.md).
+
 ## Flow of subscription billing​
 
 The following illustration shows that items are set up with subscription packages with one or more subscription lines. When the quote or order is shipped, the item becomes a subscription. The subscription lines assigned to the subscription must be assigned to a contract to be billed on a recurring basis. The contract and its subscription lines contain the billing information. When you post contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
@@ -92,3 +96,4 @@ To start using subscription billing features, there are a few things to set up f
 [Examples](examples.md)  
 [Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)  
 [Recurring billing](recurring-billing.md)  
+[Overview of usage-based billing](../UBB/welcome.md)  

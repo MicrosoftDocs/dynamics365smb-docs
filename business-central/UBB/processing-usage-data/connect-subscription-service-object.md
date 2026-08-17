@@ -14,7 +14,9 @@ ms.custom: bap-template
 
 # Link supplier subscriptions with subscriptions
 
-If you shipped the subscription item with a sales order in advance, it may be helpful to link the subscription to a supplier subscription once the usage data has been imported. You can use the **Connect Supplier Subscription to Subscription** page for this purpose.
+If you shipped a usage-based subscription item with a sales order in advance, you need to link the subscription to a supplier subscription once the usage data has been imported in order to be able to process usage data fully. You can use the **Connect Supplier Subscription to Subscription** page for this purpose.
+
+On the **Usage Data Generic Import** page, the **Subscription Availability** field shows whether a line is ready to be linked. **Not Available** means no matching subscription line was found yet, for example because the required item or reference setup is missing, or because no free subscription line exists to connect to. **Available** means a subscription line was found and the connection can be made using the following procedure. **Connected** means the line is already linked to a subscription and can be processed further and subsequently invoiced.
 
 The **Connect Supplier Subscription to Subscription** page shows all supplier subscriptions that aren't connected to a subscription. In addition to the fields from [Usage-based billing customers and subscriptions](../masterdata/customers-subscriptions.md), you can select the subscription to link by using the **Connect to Subscription No.** field. In the **Connect to Subscription Method** field, [!INCLUDE [prod_short](../../includes/prod_short.md)] suggests whether you can create the link on the basis of existing subscription lines or new ones. The basis for this suggestion is whether the existing subscription lines can be billed on a usage basis (the **Usage Based Billing** checkbox is selected for the subscription lines) and are valid. In the **Connect to Subscription at Date** field, you can specify the date on which to create new subscription lines.
 

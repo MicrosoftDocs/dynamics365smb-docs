@@ -63,9 +63,9 @@ The following table describes a sequence of tasks related to setting up and runn
 |------------|-------------|  
 | Connect [!INCLUDE [prod_short](../includes/prod_short.md)] to the Shopify online store.| [Get started with the Shopify connector](get-started.md)|
 | Set up and run synchronizations of items between Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)]. | [Synchronize items with Shopify](synchronize-items.md)|
-| Send inventory levels to Shopify.|[Synchronize inventory with Shopify](synchronize-items.md#sync-inventory-to-shopify)|
-| Send main and undiscounted prices to Shopify. |[Synchronize prices with Shopify](synchronize-items.md#sync-prices-with-shopify)|
-| Learn how various settings in Shopify affect the storefront prices and taxes that display to customers.| [Set up taxes for the Shopify connection](setup-taxes.md)|
+| Send inventory levels to Shopify.|[Synchronize inventory with Shopify](synchronize-inventory.md)|
+| Send main and undiscounted prices to Shopify. |[Synchronize prices with Shopify](synchronize-prices.md)|
+| Learn how various settings in Shopify affect the storefront prices and taxes that display to customers.| [Synchronize prices with Shopify](synchronize-prices.md#pricing-and-taxes)|
 | Import customers and companies from or export to Shopify.| [Synchronize customers and companies with Shopify](synchronize-customers.md)|
 | Set up and run import and processing of sales orders from Shopify.| [Synchronize and fulfill sales orders with Shopify](synchronize-orders.md)|
 | Set up and run import of transactions and payouts from Shopify.| [Synchronize transactions and payouts](transactions-and-payouts.md)|

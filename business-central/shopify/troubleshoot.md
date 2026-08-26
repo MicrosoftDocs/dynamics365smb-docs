@@ -95,7 +95,7 @@ Shipments:
 - No lines in the posted sales shipment are applicable for fulfillment.
 - No corresponding fulfillment is found in Shopify.
 
-If you run sync in the foreground you will get a notification if records were skipped. Choose **View Skipped Records** to open the **Shopify Skipped Records** page.
+If you run sync in the foreground you will get a notification if records were skipped. Choose **View Skipped Records** to open the **Shopify Skipped Records** page. If you run sync from the job queue, the task completes successfully even when records are skipped. The job queue doesn't show a warning. Periodically check the **Shopify Skipped Records** page for entries you might have missed.
 
 ## Data capture
 
@@ -161,7 +161,7 @@ The following procedures describe how to rotate the access token used by the Sho
 4. If prompted, sign in to your Shopify account, review privacy and permissions, and then choose the **Install App** button.
 
 ## Troubleshhoting steps for specific synchs:
-- [Troubleshooting inventory synchronization](synchronize-items.md#troubleshooting-inventory-synchronization)
+- [Troubleshooting inventory synchronization](synchronize-inventory.md#troubleshooting-inventory-synchronization)
 - [Troubleshooting shipment synchronization](synchronize-orders.md#troubleshooting-shipment-synchronizations)
 
 ### Troubleshooting refunds

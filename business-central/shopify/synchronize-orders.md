@@ -4,9 +4,10 @@ description: Set up and run import and processing of sales orders from Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 03/09/2026
+ms.date: 08/26/2026
 ms.topic: how-to
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147, 30168
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
@@ -20,7 +21,7 @@ Enter a **Currency code** if your online shop uses a different currency than the
 
 You can control whether [!INCLUDE [prod_short](../includes/prod_short.md)] creates sales documents from Shopify orders in the shop currency or in the customer’s checkout (presentment) currency. This gives you full flexibility when working with Shopify Markets or any store that sells in multiple currencies. The **Currency Handling** field lets you choose:
 
-- **Shop Currency** (default) 
+- **Shop Currency** (default)
 - **Presentment Currency**
 
 When you select **Presentment Currency**, [!INCLUDE [prod_short](../includes/prod_short.md)] uses the currency and amounts that the customer saw and paid during checkout when it creates sales orders and credit memos. The amounts in local currencies are calculated based on the exchange rates defined in [!INCLUDE [prod_short](../includes/prod_short.md)]. [!INCLUDE [prod_short](../includes/prod_short.md)] stores the choice of currency handling on each Shopify order at processing time. 
@@ -36,10 +37,10 @@ Enable **Auto Sync Orders** to receive real-time notifications whenever a new or
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want to use for specific transaction types:
 
-* **Shipping Charges Account**. You can also choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
-* **Sold Gift Card Account**. Learn more at [Gift Card](synchronize-orders.md#gift-cards)
-* **Tip account**.
-* **Cash Rounding Account No.**. Learn more at [Working with Shopify POS](shopify-pos.md#order-handling)
+- **Shipping Charges Account**. You can also choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
+- **Sold Gift Card Account**. Learn more at [Gift Card](synchronize-orders.md#gift-cards)
+- **Tip account**.
+- **Cash Rounding Account No.**. Learn more at [Working with Shopify POS](shopify-pos.md#order-handling)
   
 Turn on the **Auto Create Sales Documents** toggle to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] when you import a Shopify order. If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as orders that contain only a gift card or which were already handled in Shopify, you can turn on the **Create Invoices From Orders** toggle then a **Sales Invoice** gets created. That setting can be useful when you delay the posting of a sales document because invoice doesn't affect inventory availability, but the order does.
 
@@ -61,7 +62,7 @@ The **Archive Processed Shopify Orders** toggle specifies whether Shopify Connec
 
 The connector also archives fully paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], provided the orders meet the conditions.
 
-In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
+In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Taxes in imported Shopify orders](#taxes-in-imported-shopify-orders).
 
 If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. For example, you might turn off the toggle if you sell digital goods or want to use another notification mechanism.
 
@@ -69,9 +70,9 @@ If you don't want to send automatic shipping confirmations to customers, turn of
 
 Specify how you process returns and refunds:
 
-* **Blank** specifies that you don't import and process returns and refunds.
-* **Import Only** specifies that you import information, but you manually create the corresponding credit memo.
-* **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Documents** toggle.
+- **Blank** specifies that you don't import and process returns and refunds.
+- **Import Only** specifies that you import information, but you manually create the corresponding credit memo.
+- **Auto Create Sales Document** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Documents** toggle.
 
 When **Auto Create Sales Document** is selected, the **Process Returns as** field on the **Shopify Shop Card** controls whether the connector creates a sales credit memo or a sales return order. The created document is automatically released after the lines are populated, regardless of the **Auto Release Sales Orders** setting on the shop card.
 
@@ -86,13 +87,13 @@ To turn on the feature, on the **Shopify Shop Card** page, in the **Return Locat
 
 The **Return Location Priority** field offers the following options:
 
-* **Default Return Location**: This default option uses the value from the **Default Return Location** field when creating sales credit memos.
-* **Original -> Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
+- **Default Return Location**: This default option uses the value from the **Default Return Location** field when creating sales credit memos.
+- **Original -> Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
 
 Some amounts associated with a refund post directly to the G/L account. Choose the G/L accounts that you want to use for specific transaction types:
 
-* **Refund Account non-restock Items** specifies a G/L account for items where you don't want to have an inventory correction.
-* **Refund Account** specifies a G/L account for the difference in the total refunded amount and the total amount of the items.
+- **Refund Account non-restock Items** specifies a G/L account for items where you don't want to have an inventory correction.
+- **Refund Account** specifies a G/L account for the difference in the total refunded amount and the total amount of the items.
 
 Learn more at [Returns and refunds](synchronize-orders.md#returns-and-refunds)
 
@@ -107,17 +108,17 @@ Shopify returns Date Time values as an ISO 8601-encoded date and time string. Fo
 The **Shipment method code** for sales documents imported from Shopify can be filled in automatically. You need to configure the **Shipment Method Mapping**.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
-2. Select the shop for which you want to define a mapping to open the **Shopify Shop Card** page.
-3. Choose the **Shipment Method Mapping** action. This action automatically creates records for shipping methods defined in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**.
-4. In the **Name** field, you can see the name of the shipping method from Shopify.
-5. Enter the **Shipment Method Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
-6. To use different accounts for shipping fees than the account specified in the **Shipping Charges Account** field on the **Shopify Shop Card** page, fill in the **Shipping Charges Type** and **Shipping Charges No.** fields. The Shopify Connector supports the following types:
+1. Select the shop for which you want to define a mapping to open the **Shopify Shop Card** page.
+1. Choose the **Shipment Method Mapping** action. This action automatically creates records for shipping methods defined in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**.
+1. The **Name** field shows the name of the shipping method from Shopify.
+1. Enter the **Shipment Method Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
+1. To use different accounts for shipping fees than the account specified in the **Shipping Charges Account** field on the **Shopify Shop Card** page, fill in the **Shipping Charges Type** and **Shipping Charges No.** fields. The Shopify Connector supports the following types:
 
-   * G/L Account
-   * Item
-   * Item Charge. Item Charge is automatically assigned to all items on the sales document.
+   - G/L Account
+   - Item
+   - Item Charge. Item Charge is automatically assigned to all items on the sales document.
 
-7. You can also find the **Shipping Agent Code** and **Shipping Agent Service Code** fields on the **Shopify Shipment Methods** page. If you fill them in, they populate the corresponding fields on the sales document.
+1. You can also find the **Shipping Agent Code** and **Shipping Agent Service Code** fields on the **Shopify Shipment Methods** page. If you fill them in, they populate the corresponding fields on the sales document.
 
 > [!NOTE]  
 > If multiple shipping charges are associated with a sales order, only one is selected as the shipping method and assigned to the sales document.
@@ -131,30 +132,30 @@ The **Shipment method code** for sales documents imported from Shopify can be fi
 The location mapping is required to fill in the **Location Code** for sales document lines imported from Shopify. This mapping is important when the **Location Mandatory** toggle is enabled on the **Inventory Setup** card. Otherwise, you can't create sales documents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
-2. Select the shop for which you want to configure the mapping of locations to open the **Shopify Shop Card** page.
-3. Choose the **Locations** action to open the **Shopify Shop Locations**.
-4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin** panel. 
-5. Enter the **Default Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
+1. Select the shop for which you want to configure the mapping of locations to open the **Shopify Shop Card** page.
+1. Choose the **Locations** action to open the **Shopify Shop Locations**.
+1. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin** panel. 
+1. Enter the **Default Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]  
-> Location mapping is also used to sync inventory. To learn more, go to [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify).
+> Location mapping is also used to sync inventory. Learn more at [Sync inventory to Shopify](synchronize-inventory.md).
 >
-> Shopify Connector also creates sales invoices for fulfilled documents and credit memos for refunds for locations where the **Directed Put-away and Pick** toggle is enabled. The warehouse entries post for the adjustment bin. To reconcile quantities with normal bins, use the **Warehouse physical inventory journal** page.
+> Shopify Connector also creates sales invoices for fulfilled documents and credit memos for refunds for locations where the **Directed Put-away and Pick** toggle is enabled. The warehouse entries post for the adjustment bin. To reconcile quantities with normal bins, use the **Warehouse physical inventory journal** page. To avoid this, turn off the **Create Fulfilled Orders as Invoices** toggle so that the connector always creates a sales order instead, and set the **Process Returns as** field to **Return Order** so that the connector creates a return order instead of a credit memo. Sales orders and return orders go through warehouse picks and put-aways, which is a better approach for locations with directed put-away and pick.
 
 ### Payment terms mapping
 
 The payment mapping is used in the following cases:
 
-* Defining the payment term code and due date when you import orders.
-* Exporting posted sales invoices to Shopify.
-* Importing and exporting payment terms details in a B2B company.
+- Defining the payment term code and due date when you import orders.
+- Exporting posted sales invoices to Shopify.
+- Importing and exporting payment terms details in a B2B company.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
-2. Select the shop for which you want to configure the mapping of payment terms to open the **Shopify Shop Card** page.
-3. Choose the **Payment Terms Mapping** action to open the **Shopify Payment Terms Mapping**.
-4. Choose the **Refresh** action to import all payment terms defined in Shopify.
-5. Enter the **Payment Terms Code** with the corresponding payment term in [!INCLUDE[prod_short](../includes/prod_short.md)].
-6. Turn on the **Is Primary** toggle for the **Fixed Date** entry. When you export posted sales invoices, this setting lets you transfer the exact due date from [!INCLUDE[prod_short](../includes/prod_short.md)] to the order in Shopify. To learn more, go to [Export posted sales invoices to Shopify](#export-posted-sales-invoices-to-shopify)
+1. Select the shop for which you want to configure the mapping of payment terms to open the **Shopify Shop Card** page.
+1. Choose the **Payment Terms Mapping** action to open the **Shopify Payment Terms Mapping**.
+1. Choose the **Refresh** action to import all payment terms defined in Shopify.
+1. Enter the **Payment Terms Code** with the corresponding payment term in [!INCLUDE[prod_short](../includes/prod_short.md)].
+1. Turn on the **Is Primary** toggle for the **Fixed Date** entry. When you export posted sales invoices, this setting lets you transfer the exact due date from [!INCLUDE[prod_short](../includes/prod_short.md)] to the order in Shopify. To learn more, go to [Export posted sales invoices to Shopify](#export-posted-sales-invoices-to-shopify)
 
 > [!NOTE]  
 > Shopify Connector keeps the due date from a Shopify order (such as for the payment terms **Fixed Date** or **Within X days**) in the sales document, regardless of the mapping. For payment terms without a set due date (such as **Due on receipt** or **Due on fulfillment**), the Connector calculates the due date using the formula from the mapped payment term. If no mapping exists, the customer's payment term applies. If that's also missing, the due date defaults to the document date.
@@ -166,20 +167,19 @@ When you use Shopify POS or other sales channels, you can improve traceability a
 To automatically fill in the **Salesperson code** field for sales documents imported from Shopify, configure **Shopify Staff Member Mapping**.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
-2. Select the shop where you want to set up a mapping to open the **Shopify Shop Card** page.
-3. Select the **Shopify Staff Member Mapping** action.
-4. Select **Refresh** to import staff members enabled on Shopify.
-5. Enter the **Salesperson Code** for the matching salesperson in [!INCLUDE [prod_short](../includes/prod_short.md)].
+1. Select the shop where you want to set up a mapping to open the **Shopify Shop Card** page.
+1. Select the **Shopify Staff Member Mapping** action.
+1. Select **Refresh** to import staff members enabled on Shopify.
+1. Enter the **Salesperson Code** for the matching salesperson in [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 When you import orders from Shopify, the orders created via Shopify POS or via Draft Orders include the staff ID. If you configure the mapping on the **Shopify Staff Member Mapping** page, the connector adds the corresponding salesperson to the Shopify order and copy it to the sales document.
 
 Known limitations:
 
-* The mapping works for B2B stores only.
-* You can't export salespersons from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
-* Not used during export of posted sales invoices to Shopify.
+- The mapping works for B2B stores only.
+- You can't export salespersons from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
+- Not used during export of posted sales invoices to Shopify.
 
-  
 ## Run the order synchronization
 
 The following procedure describes how to import and update the sales orders.
@@ -190,19 +190,19 @@ The following procedure describes how to import and update the sales orders.
 > Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **General** settings in your **Shopify Admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action on the [Orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
-2. Select the shop for which you want to import orders to open the **Shopify Shop Card** page.
-3. Choose the **Orders** action.
-4. Choose the **Sync Orders from Shopify** action.
-5. Define filters on orders as necessary. For example, you can import fully paid orders or the ones with a low risk level.
+1. Select the shop for which you want to import orders to open the **Shopify Shop Card** page.
+1. Choose the **Orders** action.
+1. Choose the **Sync Orders from Shopify** action.
+1. Define filters on orders as necessary. For example, you can import fully paid orders or the ones with a low risk level.
 
-> [!NOTE]  
-> When you filter by tags in the **Sync Order from Shopify** request page, remember that tags are stored as space-separated string, with each tag enclosed in square brackets: `[tag1] [tag2] [tag3]`.
->
-> There can be multiple tags, so it's a good idea to use the `*` filter token. For example, if you want to import orders that contain *tag1*, use `*tag1*`. If you're unsure about the case, use the filter token `@` to ensure the result isn't case sensitive. For example, use `@*tag1*` to get orders with tags such as *tag1*, *Tag1*, or *TAG1*.
->
-> Other [filter criteria](../ui-enter-criteria-filters.md) also works. For example if you want several tags, use `*tag1*|*tag2*`, or if you want to skip some orders, use `<>*tag3*`.
+   > [!NOTE]  
+   > When you filter by tags in the **Sync Order from Shopify** request page, remember that tags are stored as space-separated string, with each tag enclosed in square brackets: `[tag1] [tag2] [tag3]`.
+   >
+   > There can be multiple tags, so it's a good idea to use the `*` filter token. For example, if you want to import orders that contain *tag1*, use `*tag1*`. If you're unsure about the case, use the filter token `@` to ensure the result isn't case sensitive. For example, use `@*tag1*` to get orders with tags such as *tag1*, *Tag1*, or *TAG1*.
+   >
+   > Other [filter criteria](../ui-enter-criteria-filters.md) also works. For example if you want several tags, use `*tag1*|*tag2*`, or if you want to skip some orders, use `<>*tag3*`.
 
-6. Choose the **OK** button.
+1. Choose the **OK** button.
 
 Alternatively, you can search for the **Sync Orders From Shopify** batch job.
 
@@ -214,29 +214,29 @@ The Shopify Connector imports orders in two steps:
 
 1. It imports order headers to the **Shopify Orders to Import** table when they match certain conditions:
 
-   * They aren't archived. This means you can include or exclude orders from sync by archiving or unarchiving them in the Shopify Admin.
-   * They were created or modified after the last sync. This means you can force reimport of a specific order if you modify it—for example, by adding **Notes** or **Tag**.
+   - They aren't archived. This means you can include or exclude orders from sync by archiving or unarchiving them in the Shopify Admin.
+   - They were created or modified after the last sync. This means you can force reimport of a specific order if you modify it—for example, by adding **Notes** or **Tag**.
 
 2. It imports Shopify orders and supplementary information.
 
-   * The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfillment status. If you don't specify filters, it processes all records.
-   * When it imports a Shopify order, the Shopify Connector requests additional information from Shopify:
+   - The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfillment status. If you don't specify filters, it processes all records.
+   - When it imports a Shopify order, the Shopify Connector requests additional information from Shopify:
 
-     * Order header
-     * Order lines
-     * Shipping and fulfillment information
-     * Transactions
-     * Returns and refunds, if configured
+     - Order header
+     - Order lines
+     - Shipping and fulfillment information
+     - Transactions
+     - Returns and refunds, if configured
 
 The **Shopify Orders to Import** page is useful for troubleshooting order import issues. It shows the newest orders on top. You can assess the orders that are available and take the next steps:
 
-* Check whether an error blocked the import of a specific order, and explore the error's details. Check the **Has Error** field.
-* Process only specific orders. Fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.
-* Delete orders from the **Shopify Order to Import** page to exclude them from the sync.
+- Check whether an error blocked the import of a specific order, and explore the error's details. Check the **Has Error** field.
+- Process only specific orders. Fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.
+- Delete orders from the **Shopify Order to Import** page to exclude them from the sync.
 
 ### Review imported orders
 
-After import completes, you can explore the Shopify order and find all related information. For example, the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments if the order was already fulfilled in Shopify. You can also see the order confirmation that was sent to the customer by choosing the **Shopify Status Page** action.
+After import completes, you can explore the Shopify order and find all related information. For example, the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments if the order was already fulfilled in Shopify. You can also review the order confirmation that was sent to the customer by choosing the **Shopify Status Page** action.
 
 > [!NOTE]  
 > The **Shopify Orders** page contains useful views, that allow you find all orders from all shops. If you want to focus on open orders only, use the **Open** view. You can also use views to show only unprocessed orders, orders where an error interrupted processing, or orders that have a conflict because they were updated in Shopify after they were processed in [!INCLUDE [prod_short](../includes/prod_short.md)].
@@ -252,10 +252,10 @@ If the **Auto Create Sales Documents** toggle is enabled on the **Shopify Shop C
 ### To create sales documents
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
-2. Select the shop for which you want to synchronize orders to open the **Shopify Shop Card** page.
-3. Choose the **Orders** action.
-4. Select the order for which you want to create a sales document and choose the **Create Sales Documents** action.
-5. Choose **Yes**.
+1. Select the shop for which you want to synchronize orders to open the **Shopify Shop Card** page.
+1. Choose the **Orders** action.
+1. Select the order for which you want to create a sales document and choose the **Create Sales Documents** action.
+1. Choose **Yes**.
 
 If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created. If you turn off the **Create Invoices From Orders** toggle, a **Sales Order** gets created for fulfilled orders. By default, the toggle is turned on.
 
@@ -271,22 +271,22 @@ The **Order total** part in the **Shopify Orders** page displays totals from bot
 
 If your settings prevent creating a customer automatically and a matching customer isn't found, assign a customer to the Shopify order manually. There are a few ways to assign customers to orders:
 
-* Assign the **Sell-to Customer No.** and **Bill-to Customer No.** directly on the **Shopify Orders** page by choosing a customer from the list of existing customers.
-* Select a customer template, then create and assign the customer via the **Create new customer** action on the **Shopify Orders** page. The Shopify customer must have at least one address. Orders you create via the Shopify POS sales channel are often missing address details.
-* Map an existing customer to the related **Shopify Customer** on the **Shopify Customers** page, and then choose the **Find Mapping** action on the **Shopify Orders** page.
+- Assign the **Sell-to Customer No.** and **Bill-to Customer No.** directly on the **Shopify Orders** page by choosing a customer from the list of existing customers.
+- Select a customer template, then create and assign the customer via the **Create new customer** action on the **Shopify Orders** page. The Shopify customer must have at least one address. Orders you create via the Shopify POS sales channel are often missing address details.
+- Map an existing customer to the related **Shopify Customer** on the **Shopify Customers** page, and then choose the **Find Mapping** action on the **Shopify Orders** page.
 
 ### How the connector chooses which customer to use
 
 The **Import order from Shopify** action tries to select customers in the following order:
 
 1. If the **Default Customer No.** field is defined in the **Shopify Customer Template** for the **Ship-to Country/Region Code**, the **Default Customer No.** is used, regardless of the settings in the **Customer Import From Shopify** and **Customer Mapping Type** fields. Learn more at [Customer setup per country/region](synchronize-customers.md#customer-setup-per-countryregion).
-2. If the **Customer Import From Shopify** is set to **None**, and the **Default Customer No.** is defined on the **Shopify Shop Card** page, the **Default Customer No.** is used.
+1. If the **Customer Import From Shopify** is set to **None**, and the **Default Customer No.** is defined on the **Shopify Shop Card** page, the **Default Customer No.** is used.
 
 The next steps depend on the **Customer Mapping Type**.
 
-* If it's **Always take the default customer**, the connector uses the customer defined in the **Default Customer No.** field on the **Shopify Shop Card** page.
-* If it's **By EMail/Phone**, the connector tries to find the existing customer by ID first, then by email, and then by phone number. If the customer isn't found, the connector creates a new customer.
-* If it's **By Bill-to Info**, the connector tries to find the existing customer by ID first and then by the bill-to address information. If the customer isn't found, the connector creates a new customer.
+- If it's **Always take the default customer**, the connector uses the customer defined in the **Default Customer No.** field on the **Shopify Shop Card** page.
+- If it's **By EMail/Phone**, the connector tries to find the existing customer by ID first, then by email, and then by phone number. If the customer isn't found, the connector creates a new customer.
+- If it's **By Bill-to Info**, the connector tries to find the existing customer by ID first and then by the bill-to address information. If the customer isn't found, the connector creates a new customer.
 
 If a customer is found, it's used to populate both the **Sell-to Customer No.** and the **Bill-to Customer No.** fields in the **Shopify Order** page. The connector ignores the **Bill-to Customer No.** value defined in the **Customer Card** page.
 If a customer is identified, their information fills in both the **Sell-to Customer No.** and the **Bill-to Customer No.** fields. The connector disregards any value specified in the **Bill-to Customer No.** on the **Customer Card** page.
@@ -314,9 +314,9 @@ The following table shows examples of customer mappings.
 
 Sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] have three groups of fields related to customers:
 
-* Sell-to
-* Ship-to
-* Bill-to
+- Sell-to
+- Ship-to
+- Bill-to
 
 Each group contains following fields: **Name**, **Name 2**, **Address**, **Address 2**, **Post code**, **City**, **Country Code**. Depending on your setup, they can also contain a state or province.
 
@@ -331,8 +331,8 @@ Bill-to fields have the billing address specified in the Shopify order. One reas
 
 The connector also fills in the following header fields from the Shopify order:
 
-* The **External Document No.** field has the value from the **PO Number** field on the Shopify order. This information lets you cross-reference a buyer's purchase order number on the sales order in Business Central.
-* The **Prices Including VAT** setting depends on whether **VAT Included** is enabled on the Shopify order. If the Shopify store is configured to include tax in prices, the imported sales document has the **Prices Including VAT** checkbox selected, which changes how tax amounts are calculated and displayed on the document.
+- The **External Document No.** field has the value from the **PO Number** field on the Shopify order. This information lets you cross-reference a buyer's purchase order number on the sales order in Business Central.
+- The **Prices Including VAT** setting depends on whether **VAT Included** is enabled on the Shopify order. If the Shopify store is configured to include tax in prices, the imported sales document has the **Prices Including VAT** checkbox selected, which changes how tax amounts are calculated and displayed on the document.
 
 ### Locations in the created sales document
 
@@ -389,9 +389,8 @@ If an order was already processed in [!INCLUDE[prod_short](../includes/prod_shor
 Depending on status of the created sales document, you can perform following actions:
 
 1. Delete created sales document
-2. Choose the **Unlink Processed Documents** action to reset the **Processed** indicator.
-3. Choose the **Synch order from Shopify** action to update the individual order with recent data from Shopify.
-
+1. Choose the **Unlink Processed Documents** action to reset the **Processed** indicator.
+1. Choose the **Synch order from Shopify** action to update the individual order with recent data from Shopify.
 
 **In [!INCLUDE[prod_short](../includes/prod_short.md)]:**
 
@@ -407,8 +406,8 @@ Depending on status of the created sales document, you can perform following act
 When a sales order created from a Shopify order is shipped, you can synchronize the shipments with Shopify.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sync Shipments to Shopify**, then choose the related link.
-2. Define the filters on shipments as necessary. For example, you can update a shipment posted on a specific date.
-3. Choose **OK**.
+1. Define the filters on shipments as necessary. For example, you can update a shipment posted on a specific date.
+1. Choose **OK**.
 
 The sync includes posted sales shipments under the following conditions:
 
@@ -433,7 +432,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 
 > [!Note]
 > **Know limitations:**
-> 
+>
 > - Orders with multiple lines of the same product will not be fulfilled. Mark such orders as fulfilled in Shopify Admin. This issue can occur when using the **Buy X get Y** discount with identical products for **Customer gets** and **Customer buys**.
 > - A Shopify order line split across two locations (for example, *2* from *EAST* and *3* from *WEST*) appears in [!INCLUDE[prod_short](../includes/prod_short.md)] as a single sales order line with just one location—such as *WEST*. If you ship all *5* at the same time, the order won't be fulfilled. If you first modify the quantity to Ship in [!INCLUDE[prod_short](../includes/prod_short.md)] to *2* and post shipment, and then you post the shipment of the remaining *3*, the Shopify order is marked as partially fulfilled with *3* units fulfilled from the location selected in the sales order line. In this example, it's *WEST*.   
 > - Modification in sales order before posting might affect the connector's ability to synchronize shipments to Shopify. To learn more, go to the second table in the [Effect of order editing](#effect-of-order-editing) section.
@@ -446,39 +445,39 @@ If the **Posted Sales Shipment** document contains the **Shipping Agent Code** a
 
 The tracking company is populated in the following order (from highest to lowest) based on the shipping agent record:
 
-1. **Shopify Tracking Company**
-1. **Name**
-1. **Code**
+- **Shopify Tracking Company**
+- **Name**
+- **Code**
 
 If the **Package Tracking URL** field is filled in for the shipping agent record, the shipping confirmation contains a tracking URL.
 
->[!Tip]
->If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle on the **Shopify Shop card** page.
+> [!Tip]
+> If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle on the **Shopify Shop card** page.
 >
->The **Shipping Agent Code** and **Shipping Agent Service Code** can be automatically filled in based on settings on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
+> The **Shipping Agent Code** and **Shipping Agent Service Code** can be automatically filled in based on settings on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
 
 ### Troubleshooting shipment synchronizations
 
 If you expect an order in Shopify to be marked as fulfilled but it isn't, double-check the following settings:
 
 1.	Go to **Shopify Order** and check whether the corresponding order exists in [!INCLUDE[prod_short](../includes/prod_short.md)]. Without an order, the connector doesn't have the fulfillment details it needs.
-2.	Go to **Shopify Order** and run **Sync order from Shopify** to retrieve the latest updates.
-3.	Go to **Shopify Order** and then to the **Completed Fulfillments** page. If fulfillments are listed, fulfillment was already registered, for example, directly in Shopify Admin.
-4.	Go to **Shopify Order**, and then to the **Fulfillment Orders** page, and check the statuses. Fulfillment orders indicate what you expect to ship. If they don't exist or are closed, nothing is sent to Shopify.
-5.	Go to **Posted Sales Shipment**, and use Page Inspector to check the **Order ID** field in the header and the **Shopify Order line ID** in the lines. These fields determine whether to export the order to Shopify and link shipment lines to the original Shopify order lines. If the Shopify order line ID is missing on a posted shipment line (often due to manually recreated lines), the line isn’t included in the synchronization.
+1.	Go to **Shopify Order** and run **Sync order from Shopify** to retrieve the latest updates.
+1.	Go to **Shopify Order** and then to the **Completed Fulfillments** page. If fulfillments are listed, fulfillment was already registered, for example, directly in Shopify Admin.
+1.	Go to **Shopify Order**, and then to the **Fulfillment Orders** page, and check the statuses. Fulfillment orders indicate what you expect to ship. If they don't exist or are closed, nothing is sent to Shopify.
+1.	Go to **Posted Sales Shipment**, and use Page Inspector to check the **Order ID** field in the header and the **Shopify Order line ID** in the lines. These fields determine whether to export the order to Shopify and link shipment lines to the original Shopify order lines. If the Shopify order line ID is missing on a posted shipment line (often due to manually recreated lines), the line isn’t included in the synchronization.
 
->[!Note]
+> [!Note]
 > The **Update Document** page, which you can open for posted sales shipments, lets you replace *-1* and *-2* with *0* to retry the shipment export.
 
 ## Returns and refunds
 
 In an integration between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], it's important to be able to synchronize as much business data as possible. That makes it easier to keep your finance and inventory levels up to date in [!INCLUDE[prod_short](../includes/prod_short.md)]. The data you can synchronize includes returns and refunds that were recorded in Shopify Admin or Shopify POS.
 
-Returns and refunds are imported with their related orders if you enabled the processing type on the Shopify Shop Card.
+You import returns and refunds with their related orders if you enable the processing type on the Shopify Shop Card.
 
-Returns are imported for informational purposes only. No processing logic is associated with them.
+You import returns for informational purposes only without any processing logic.
 
-Financial and, if needed, inventory transactions are processed via refunds. Refunds can include products or just amounts—for example, if a merchant decides to compensate shipping charges or some other amount.
+Use refunds to process financial and, if needed, inventory transactions. Refunds can include products or just amounts—for example, if a merchant decides to compensate shipping charges or some other amount.
 
 You can create sales credit memos for refunds. The credit memos can have the following types of lines:
 
@@ -493,14 +492,14 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 
 In the Shopify shop, you can sell gift cards that customers can use to pay for products.
 
-When dealing with gift cards, it's important to enter a value in the **Sold Gift Card Account** field in the **Shopify Shop Card** page. The sold gift card synchronizes together with the orders and added to sales document as line of type *G/L Account*.
+When you deal with gift cards, it's important to enter a value in the **Sold Gift Card Account** field in the **Shopify Shop Card** page. The sold gift card synchronizes together with the orders and added to sales document as line of type *G/L Account*.
 
 An applied gift card also imports with the order, but now as a payment transaction. The gift card doesn't reduce the amount to invoice. To learn how to reconcile payment transaction, go to [Transactions and payouts](transactions-and-payouts.md).
 
 To review the issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, then choose the related link.
 
 > [!NOTE]
-> To import gift cards created manually or sold via old orders, that you don't want to import, you need to use configuration package. Use the 30110 **Shpfy Gift Card** table and **Id**, **Last Characters**, **Amount**. You can export gift cards from Shopify Admin. You need the **ID**, **Last Characters**, and **Current Balance** fields.
+> To import gift cards created manually or sold via old orders, that you don't want to import, you need to use configuration package. Use the 30110 **Shpfy Gift Card** table and the **ID**, **Last Characters**, **Amount** fields. You can export gift cards from Shopify Admin. You need the **ID**, **Last Characters**, and **Current Balance** fields.
 
 ## Export posted sales invoices to Shopify
 
@@ -512,10 +511,10 @@ To enable the capability for a specific shop, go to the **Shopify Shop Card** pa
 
 The sync includes invoices under the following conditions:
 
-* The **Shopify Order ID** field contains **0**.
-* The bill-to customer has a mapping in the **Shopify Customers** or **Shopify Companies** pages.
-* The bill-to customer isn't used as the default customer on the **Shopify Shop Card** or **Shopify Customer Template**.
-* The posted invoice has at least one noncomment line where the **No.** field has a value.
+- The **Shopify Order ID** field contains **0**.
+- The bill-to customer has a mapping in the **Shopify Customers** or **Shopify Companies** pages.
+- The bill-to customer isn't used as the default customer on the **Shopify Shop Card** or **Shopify Customer Template**.
+- The posted invoice has at least one noncomment line where the **No.** field has a value.
 
 When you run the report, the following things happen in [!INCLUDE [prod_short](../includes/prod_short.md)] and Shopify.
 
@@ -523,49 +522,124 @@ When you run the report, the following things happen in [!INCLUDE [prod_short](.
 
 Update the **Shopify Order ID** field based on the results of the sync:
 
-* Successful export: update the **Shopify Order ID** field with the ID of the order in Shopify.
-* Export failed: set "-1"
-* Invoice is excluded from sync for a reason listed in the conditions mentioned earlier: set "-2"
+- Successful export: update the **Shopify Order ID** field with the ID of the order in Shopify.
+- Export failed: set "-1"
+- Invoice is excluded from sync for a reason listed in the conditions mentioned earlier: set "-2"
 
->[!Note]
+> [!Note]
 > The **Update Document** page, that you can open for posted sales invoice lets you replace -1 and -2 with 0 to retry the export of invoice.
-
 
 **Shopify**
 
-The Shopify connector does the following steps:
+The Shopify Connector does the following:
 
-* Creates a draft order with header and item lines
-* Converts the draft order it to an order
+- Creates a draft order with header and item lines
+- Converts the draft order it to an order
 
 **Fields that export to order headers and lines**
 
 The following fields export on the order header:
 
-* The mapped bill-to customer/company is used.
-* The **Fulfillment Status** field shows **Fulfilled**. Tracking details don't synchronize.
-* The **Paid Status** field shows **Paid** or **Partially Paid**, based on the customer ledger entry linked to the sales invoice. For partially paid, it shows the **Remaining Amount** field.
+- The mapped bill-to customer/company is used.
+- The **Fulfillment Status** field shows **Fulfilled**. Tracking details don't synchronize.
+- The **Paid Status** field shows **Paid** or **Partially Paid**, based on the customer ledger entry linked to the sales invoice. For partially paid, it shows the **Remaining Amount** field.
 
 The following fields export on the order lines:
 
-* Items and lines of other types, such as **G/L Account** or **Item Charge** lines, export as custom products in Shopify.
-* Shipping charges in Shopify aren't created. The shipping cost is registered as a custom product in Shopify.
-* Tax amounts. Because the Graph API doesn't currently support the TaxLine object, the calculated tax is added as a custom product. Tax information from [!INCLUDE [prod_short](../includes/prod_short.md)] isn’t available in the tax report in Shopify Admin. To prevent Shopify from recalculating taxes, orders are marked as **Tax Exempt**.
-* Quantity, in whole numbers. Shopify doesn’t support fractions.
-* For lines of the type **Items**, weight is exported. The weight comes from the **Net Weight** field of the sales invoice line. The **Weight Unit** from the **Shopify Shop Card** page is used as a unit of measure.
+- Items and lines of other types, such as **G/L Account** or **Item Charge** lines, export as custom products in Shopify.
+- Shipping charges in Shopify aren't created. The shipping cost is registered as a custom product in Shopify.
+- Tax amounts. Because the Graph API doesn't currently support the TaxLine object, the calculated tax is added as a custom product. Tax information from [!INCLUDE [prod_short](../includes/prod_short.md)] isn’t available in the tax report in Shopify Admin. To prevent Shopify from recalculating taxes, orders are marked as **Tax Exempt**.
+- Quantity, in whole numbers. Shopify doesn’t support fractions.
+- For lines of the type **Items**, weight is exported. The weight comes from the **Net Weight** field of the sales invoice line. The **Weight Unit** from the **Shopify Shop Card** page is used as a unit of measure.
 
 ### Effect on the process of synchronizing orders
 
 Synchronization imports the order and checks whether it was exported earlier. If it was exported earlier:
 
-* It marks the order as processed.
-* It adds a link to the posted sales invoice (related documents, should happen automatically because the Shopify Order ID is already populated). Shopify might automatically archive fully paid and fulfilled orders, and synchronization doesn't process them.
+- It marks the order as processed.
+- It adds a link to the posted sales invoice (related documents, should happen automatically because the Shopify Order ID is already populated). Shopify might automatically archive fully paid and fulfilled orders, and synchronization doesn't process them.
 
 ### Deal with updates
 
 In Shopify, because the order is already fulfilled, the only meaningful changes are notes, payment status, and payment transactions. If payments are processed in Shopify, refunds and returns are as well.
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] doesn't track changes. Currently, if you want to mark the order as paid, use the **Mark as Paid** action on the **Shopify Order Card** page.
+
+## Taxes in imported Shopify orders
+
+Although the Shopify orders you import have tax information, the tax amounts recalculate when you create the sales document. The recalculation means it's important that your VAT or sales tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+You can review imported tax details in the **Tax Lines** page, which you can open from the **Shopify Order** page.
+
+### Multiple product tax or VAT rates
+
+Some product categories are eligible for reduced tax rates, such as pharmaceutical products or children's clothing and footwear. You can use the [tax override](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) feature in Shopify to specify that. When you import those products and create items in [!INCLUDE[prod_short](../includes/prod_short.md)], they use the tax setup specified on the item template code in the Shopify shop. Before you import orders with such items, update the VAT product posting group.
+
+### Address-dependent tax rates
+
+If you're collecting taxes from multiple countries/regions, you must define a specific country/regional setting in [!INCLUDE[prod_short](../includes/prod_short.md)]. 
+
+You specify country/region-specific settings on the **Shopify Customer Template** page. You can define the **Default Customer No.** or **Customer Template No.**. In either case, ensure the customer or template has the following fields filled in:
+
+1. **General Business Posting Group** (used for foreign customers).
+1. **VAT Business Posting Group** (used for foreign customers).
+
+For merchants using the US or Canadian localizations:
+
+1. **Tax Liable**
+1. **Tax Area Code**
+
+    Use the **Tax Area Priority** field together with the **Customer Setup by Country/Region** page to define how to fill in the **Tax Area Code** field on the sales document. The **Tax Area Priority** field specifies the priority regarding where to get the information about the country or region and state or province. If not selected, the **Tax Area Code** from customer is specified in the **Sell-to Customer No.** field of the Shopify order. If selected, the connector finds the relevant record based on the addresses in the Shopify order, and uses the **Tax Area Code** when creating the sales document.  
+
+### Prices including VAT
+
+The value of the **Prices including VAT** field comes directly from Shopify when you import orders and refunds. For local sales it is defined by **Include sales tax in product price and shipping rate** and for international sales 
+
+> [!Important] 
+> For merchants using the US or Canadian localizations, review the **Include sales tax in product price and shipping rate** in Shopify Admin. If enabled, you can't convert imported orders into sales documents because [!INCLUDE [prod_short](../includes/prod_short.md)] doesn't support backward sales tax calculation.
+>
+> If this field is selected and you don't charge taxes, you can manually turn off the **VAT (Tax) Included** field on the **Shopify Order** page and proceed.
+
+### Channel liable taxes
+
+As of **January 1, 2025**, Shopify started to collect withholding taxes for all orders placed through the **Shop sales channel** that are shipped to or within the United States. Shopify remits these taxes through the Marketplace Facilitator Tax program in all US states for all US-registered sellers only.
+
+To support this functionality, the Shopify Connector includes **Channel Liable Tax** tracking to help merchants properly handle tax reporting and avoid double taxation.
+
+**Channel Liable Tax** occurs when the sales channel (marketplace, and in this case Shopify):
+
+- Collects sales tax from the customer.
+- Remits tax to the appropriate tax authorities.
+
+The Shopify Connector tracks channel liable tax information at multiple levels:
+
+1. The **Channel Liable** field in the **Shopify Order Tax Line** page, which indicates whether this specific tax line is liable to be collected and remitted by the sales channel.
+1. The **Channel Liable Taxes** flow field in the **Shopify Order Header** page displays **Yes** if any associated tax line has the **Channel Liable** toggle turned on.
+1. The **Channel Liable Taxes** field in the **Shopify Orders to Import** page, which is also used as request page when you import orders. It indicates whether the line on the order is channel liable.
+
+> [!NOTE]
+>
+> For performance reason, the connector only checks the first tax line.
+
+You can use the **Channel Liable Tax** information in the following ways:
+
+1. Review imported orders. The **Channel Liable Taxes** field indicates whether the order contains any marketplace-collected taxes.
+1. View tax line details. Choose the **Tax Lines** action on the **Shopify Order Card** page.
+1. Filter orders during import. When you import orders from Shopify, you can filter by channel liable status.
+
+#### Filter orders during import
+
+You can filter orders during import to:
+
+- Separate orders for different accounting treatments.
+- Identify which orders to exclude from tax returns.
+- Reconcile Shopify's tax reports.
+
+Learn more at [Different processing rules for orders](#different-processing-rules-for-orders).
+
+1. Open **Sync Orders from Shopify** report.
+1. Apply filter: `Channel Liable Taxes = Yes` to review only orders with marketplace-collected taxes
+1. Apply filter: `Channel Liable Taxes = No` to review orders where you're responsible for tax collection
 
 ## Related information
 

@@ -1018,6 +1018,11 @@
             "source_path": "business-central/subcontract-worksheet.md",
             "redirect_url": "/dynamics365/business-central/subcontract-order#create-subcontracting-purchase-orders-with-the-worksheet",
             "redirect_document_id": false
+         },
+         {
+            "source_path": "business-central/shopify/setup-taxes.md",
+            "redirect_url": "/dynamics365/business-central/shopify/synchronize-prices",
+            "redirect_document_id": false
          }               
         ]
 }

@@ -58,7 +58,6 @@ The following articles describe local functionality that is unique to the German
 
 ## Future legislation requirements being investigated
 
-- VAT VIES Declaration Export in XML **Planned for February 2026**
 - Electronically supported tax audit (euBP) **Planned for 2026 release wave 2**
 - GDPdU/GoDB update - based on Audit Files Export **Planned for 2027 release wave 1**
 

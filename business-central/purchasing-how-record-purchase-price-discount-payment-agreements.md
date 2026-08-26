@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
-ms.date: 10/03/2025
+ms.date: 08/25/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -39,12 +39,12 @@ Because purchase line discounts and purchase prices are based on a combination o
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card, and then choose the **Prices** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Fill a line for each combination for which the vendor grants you a purchase line discount.
+4. Fill in one line for each combination for which the vendor grants you a special purchase price.
 
 #### [New Experience](#tab/new-experience)
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendors**, and then choose the related link.
-2. Choose the vendor, and then choose the **Sales Price Lists** action.
+2. Select the vendor, and then choose the **Purchase Price Lists** action.
 3. Choose **New** to create a new purchase price list.
 4. On the **General** and **Tax** FastTabs, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. To add items to the list, do one of the following:
@@ -52,6 +52,9 @@ Because purchase line discounts and purchase prices are based on a combination o
    * To copy items from another price list, choose **Copy Lines**, and then choose the price list to copy.
    * To add items manually, in the grid, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. To start using the price list, in the **Status** field, choose **Active**.
+
+> [!NOTE]
+> If the vendor has a value in the **Pay-to Vendor No.** field, the **Purchase Price Lists** action shows price lists for the pay-to vendor. In the new pricing experience, purchase document lines use the buy-from vendor to find prices and line discounts.
 
 ## Set up a line discount for a vendor
 
@@ -117,26 +120,22 @@ You can choose to have [!INCLUDE[prod_short](includes/prod_short.md)] automatica
 
 ## Best price calculation
 
-When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on project and item journal lines.
+When you record special purchase prices and line discounts, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the lowest permitted price and the highest permitted line discount for purchase document lines.
 
-The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates this price when it inserts the unit price and the line discount percentage for items on new document and journal lines.
+The vendor that [!INCLUDE[prod_short](includes/prod_short.md)] uses to find prices and line discounts depends on your pricing experience:
 
-> [!NOTE]  
-> The following describes how the best price is calculated for sales. The calculation is the same for purchases.
+| Pricing experience | Vendor used for prices and line discounts |
+| --- | --- |
+| Current experience | The vendor in the **Pay-to Vendor No.** field on the purchase document. |
+| New experience | The vendor in the **Buy-from Vendor No.** field on the purchase document. |
 
-1. [!INCLUDE[prod_short](includes/prod_short.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
+This behavior applies to purchase prices and line discounts on document lines. Invoice discounts use the invoice discount code from the pay-to vendor.
 
-   - Does the customer have a price/discount agreement, or does the customer belong to a group that does?
-   - Is the item or the item discount group on the line included in any of these price/discount agreements?
-   - Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
-   - Is a unit of measure code specified? If so, [!INCLUDE[prod_short](includes/prod_short.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
+For the selected vendor, [!INCLUDE[prod_short](includes/prod_short.md)] checks whether a price or line discount agreement applies to the item, variant, quantity, unit of measure, currency, and date. For invoices and credit memos, it uses the date in the **Posting Date** field. For other purchase documents, it uses the date in the **Order Date** field. It then inserts the applicable direct unit cost and line discount percentage.
 
-2. [!INCLUDE[prod_short](includes/prod_short.md)] checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
+In the current pricing experience, agreements apply to a specific pay-to vendor and item. In the new pricing experience, agreements can apply to a specific buy-from vendor or all vendors, and line discounts can also apply to an item discount group. Purchases don't support vendor price groups or vendor discount groups.
 
-    - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
-    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there's no price/discount agreement for the specified currency code, [!INCLUDE[prod_short](includes/prod_short.md)] inserts the lowest price and the highest line discount in LCY.
-
-If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
+If no special purchase price applies, [!INCLUDE[prod_short](includes/prod_short.md)] uses the applicable stockkeeping unit's last direct cost, when available, or the item's last direct cost.
 
 ## Related information
 

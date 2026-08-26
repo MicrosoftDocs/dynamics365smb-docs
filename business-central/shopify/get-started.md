@@ -78,7 +78,9 @@ Repeat steps 2-6 for all online shops that you want to connect.
 
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In the next steps, you'll define how and what to synchronize.
 
-- [Synchronize Items and Inventory](synchronize-items.md)
+- [Synchronize Items](synchronize-items.md)
+- [Synchronize Prices and Taxes](synchronize-prices.md)
+- [Synchronize Inventory](synchronize-inventory.md)
 - [Synchronize Customers and Companies](synchronize-customers.md)
 - [Synchronize and Fulfill Orders](synchronize-orders.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Create and set up a Shopify qccount
+title: Create and set up a Shopify account
 description: Learn how to get a Shopify account so you can demonstrate the workflow for integrating Shopify and Business Central.
 ms.date: 07/14/2025
 ms.topic: concept-article

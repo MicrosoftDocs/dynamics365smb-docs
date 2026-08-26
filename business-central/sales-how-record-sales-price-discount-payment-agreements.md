@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/07/2026
+ms.date: 08/25/2026
 ms.custom: bap-template
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
@@ -233,8 +233,10 @@ After you record special prices and line discounts for sales and purchases, [!IN
 
 The best price is the lowest price with the highest line discount allowed on a given date. [!INCLUDE[prod_short](includes/prod_short.md)] calculates best prices when it adds unit prices and the line discount percentages on document and journal lines.
 
-> [!NOTE]  
-> The following steps describe how [!INCLUDE [prod_short](includes/prod_short.md)] calculates the best price for sales. For purchases, the calculation is similar but is based on the available parameters. For example, item discount groups aren't supported for purchasing.
+> [!NOTE]
+> On sales document lines, [!INCLUDE[prod_short](includes/prod_short.md)] uses the customer in the **Bill-to Customer No.** field to find prices and line discounts. This behavior is the same in the current and new pricing experiences.
+>
+> The following steps describe how [!INCLUDE [prod_short](includes/prod_short.md)] calculates the best price for sales. For purchase-specific criteria, see [Best price calculation](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 1. [!INCLUDE[prod_short](includes/prod_short.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
 

@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
-ms.date: 06/17/2026
+ms.date: 08/25/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -197,7 +197,9 @@ To update prices for multiple items, you must create a new price list, and then 
 
 ## Calculate the best price
 
-When you record special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] optimizes your profit. It automatically calculates the best price on sales and purchase documents, and on job and item journal lines. Learn more in [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+When you record special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] optimizes your profit. It automatically calculates the best price on sales and purchase documents, and on job and item journal lines.
+
+For details about the criteria used to calculate prices and line discounts, see [Best price calculation for sales](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation) and [Best price calculation for purchases](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 ## Related information
 

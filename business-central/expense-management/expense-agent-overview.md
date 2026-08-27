@@ -31,7 +31,7 @@ Expense Agent handles the heavy lifting of expense management so you can focus o
 
 ## Open Expense Agent
 
-To get started, go to [Expense Agent](https://app.expenses.dynamics.com/) in your browser. You can also send receipts by email, interact with the Copilot agent in Microsoft Teams, or use Microsoft 365 Copilot chat. <!-- CHECK -->
+To get started, go to [Expense Agent](https://app.expenses.dynamics.com/) in your browser. You can also send receipts by email, interact with the Copilot agent in Microsoft Teams, or use Microsoft Copilot chat. <!-- CHECK -->
 
 ## Ways to use Expense Agent
 

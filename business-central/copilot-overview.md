@@ -81,17 +81,17 @@ Copilot in Business Central is automatically available when you provision a Micr
 
 Depending on the environment that you provision, extra setup might be required. Learn more in [Configure Copilot and agent capabilities](/dynamics365/business-central/enable-ai).
 
-## Is there a difference between Copilot in Business Central and Microsoft 365 Copilot?
+## Is there a difference between Copilot in Business Central and Microsoft Copilot?
 
-Microsoft empowers people to achieve more through copilots that are adapted to different situations. For example, Microsoft 365 Copilot is the general AI assistant that is intended for working with Microsoft Teams, Excel, and other productivity apps. Copilot in Business Central is the AI assistant that is intended specifically for the Business Central app.
+Microsoft empowers people to achieve more through copilots that are adapted to different situations. For example, Microsoft Copilot is the general AI assistant that's intended for working with Microsoft Teams, Excel, and other productivity apps. Copilot in Business Central is the AI assistant that's intended specifically for the Business Central app.
 
 ## Does Copilot in Business Central work with Copilot for Microsoft 365?
 
-Currently, there's no direct connection between Copilot in Business Central and Microsoft 365 Copilot. Copilot features inside Business Central are unaware of your Microsoft 365 data.
+Currently, there's no direct connection between Copilot in Business Central and Microsoft Copilot. Copilot features inside Business Central are unaware of your Microsoft 365 data.
 
-Conversely, when working in the Microsoft 365 suite of applications there are options for Copilot to use Business Central data. One such option is Microsoft 365 Copilot for Finance, a stand-alone product that uses general GPT (generative pretrained transformer) training data, Microsoft 365 Graph data, and ERP information. Microsoft 365 Copilot for Finance can connect to Business Central and work with ERP data useful to specific contexts and scenarios, like collections management.
+Conversely, when you work in the Microsoft 365 suite of applications, Copilot can use Business Central data. One such option is Microsoft Copilot for Finance, a standalone product that uses general GPT (generative pretrained transformer) training data, Microsoft 365 Graph data, and ERP information. Microsoft Copilot for Finance can connect to Business Central and work with ERP data that's useful to specific contexts and scenarios, like collections management.
 
-Learn more about Microsoft 365 Copilot for Finance with Business Central in [Collect outstanding balances](receivables-collect-outstanding-balances.md). Learn more general information at [Microsoft 365 Copilot for Finance](https://www.microsoft.com/microsoft-365/copilot/copilot-for-finance).
+Learn more about Microsoft Copilot for Finance with Business Central in [Collect outstanding balances](receivables-collect-outstanding-balances.md). Learn more general information at [Microsoft 365 Copilot for Finance](https://www.microsoft.com/microsoft-365/copilot/copilot-for-finance).
 
 ## Does Copilot in Business Central require a minimum number of users?
 

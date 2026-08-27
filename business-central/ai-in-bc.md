@@ -127,13 +127,13 @@ Copilot makes periodic reconciliation of your bank accounts easier, by using AI 
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 - [Responsible AI FAQs for bank reconciliation assist](faqs-bank-reconciliation.md)
 
-### Finance solution in Microsoft 365 Copilot
+### Finance solution in Microsoft Copilot
 
 Formerly Copilot for Finance, this role-based solution for Copilot brings AI assistance to financial processes like variance explanation, collections, and payment matching - all within your Microsoft 365 applications. If your organization uses it alongside Business Central, you can accelerate close activities and reduce manual review; see the documentation for setup and availability. 
 
 **Learn more in:**
 
-- [Finance solution in Microsoft 365 Copilot overview (external)](/copilot/finance/)
+- [Finance solution in Microsoft Copilot overview (external)](/copilot/finance/)
 - [Responsible AI FAQs for Finance (external)](/copilot/finance/responsible-ai/responsible-ai-overview)
 
 ## AI for inventory and supply chain management

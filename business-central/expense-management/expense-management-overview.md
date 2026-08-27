@@ -97,7 +97,7 @@ The license you need depends on how you interact with expense management:
 
 | How you use expense management | License required |
 | --- | --- |
-| Submit expenses through the web app, email, or Microsoft 365 Copilot chat only (no [!INCLUDE [prod_short](../includes/prod_short.md)] access) | No [!INCLUDE [prod_short](../includes/prod_short.md)] license. You're charged based on Copilot credits. |
+| Submit expenses through the web app, email, or Microsoft Copilot chat only (no [!INCLUDE [prod_short](../includes/prod_short.md)] access) | No [!INCLUDE [prod_short](../includes/prod_short.md)] license. You're charged based on Copilot credits. |
 | Manage expenses and submit expense reports inside [!INCLUDE [prod_short](../includes/prod_short.md)] | Team Member license (minimum) |
 | Approve expense reports inside [!INCLUDE [prod_short](../includes/prod_short.md)] | Team Member license (minimum) |
 | Post expense reports and process payments in [!INCLUDE [prod_short](../includes/prod_short.md)] | Essentials or Premium license |

@@ -18,6 +18,9 @@ When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
+> [!TIP]
+> Using your phone or tablet? The Expense Agent mobile app lets you capture receipts with your camera, scan documents, and work offline. Learn more in [Use the Expense Agent mobile app](expense-agent-mobile-app.md).
+
 ## Upload a receipt in the web app
 
 1. Open Expense Agent and go to **Expense reports**.
@@ -130,7 +133,8 @@ You can continue working while receipts process; there's no need to wait. Come b
 ## Related information
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
+[Use the Expense Agent mobile app](expense-agent-mobile-app.md)  
 [Review and edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
-[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
+[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

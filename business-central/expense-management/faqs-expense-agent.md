@@ -23,7 +23,7 @@ These frequently asked questions (FAQ) describe the AI effect of Expense Agent i
 
 ## What is Expense Agent?
 
-**Expense Agent** is an AI-powered system in **Microsoft Dynamics 365 Business Central** that streamlines employee expense management. It captures receipts through email or a dedicated web experience, extracts key data, categorizes expenses, and generates draft expense report lines. Employees review and submit their reports via the web experience—no Business Central license is required for these employees—while all data flow securely into Business Central.
+**Expense Agent** is an AI-powered system in **Microsoft Dynamics 365 Business Central** that streamlines employee expense management. It captures receipts through email, a mobile app, or a dedicated web experience, extracts key data, categorizes expenses, and generates draft expense report lines. Employees review and submit their reports via the mobile app or web experience—no Business Central license is required for these employees—while all data flow securely into Business Central.
 
 > [!IMPORTANT]
 > **Safety Note**: Expense Agent only produces draft expense entries and reports; it doesn't post transactions or make permanent financial changes without human review and approval.
@@ -40,14 +40,14 @@ The agent provides the following capabilities:
 -	**Expense grouping and expense report creation**: Uses AI to convert extracted receipt data into draft expense lines and organize them into draft expense reports.
 -	**Rule Validation**: Validates and enforces internal company-configured policies and rules
 -	**Timely pending report emails**: Sends automated notifications of pending reports for review and action.
--	**User review**: Presents draft reports to employees via the Web experience for review, correction, and submission.
+-	**User review**: Presents draft reports to employees via the mobile app or web experience for review, correction, and submission.
 -	**Workflow orchestration**: Coordinates the full sequence of receipt intake, extraction, categorization, report creation, submission, and approvals as part of a complete end-to-end expense process.
 
 ## What is Expense Agent’s intended use?
 
 The Expense Agent helps organizations manage employee expenses more efficiently by automating key steps in the expense reporting process while keeping users in control through review and approval.
 
-It automatically collects receipts from a monitored email mailbox or receipts uploaded by the user via a dedicated web experience. It uses AI to extract key details such as merchant, date, amount, currency, and line items, and suggest categories. The system then uses AI for grouping expenses.
+It automatically collects receipts from a monitored email mailbox or receipts uploaded by the user through the mobile app or dedicated web experience. It uses AI to extract key details such as merchant, date, amount, currency, and line items, and suggest categories. The system then uses AI for grouping expenses.
 
 Later, it validates them against company rules and creates draft expense reports that you can review before you submit it for approval by another user.
 
@@ -80,7 +80,7 @@ These signals are used to improve the agent’s accuracy over time while maintai
 
 -	**File Formats & Size Limits**: The agent supports PDF and images (.jpg, .jpeg, .png, .gif, .webp, .heic, .heif) as file types, but for both of them apply the default maximum file size of 10 MB (configurable).
 -	**Volume Limitations**: Expense Agent processes up to 25 files per upload or email attachment, and up to 50MB as a batch. Complex files might exceed processing limits or timeout, triggering a request for human intervention.
--	**Geographic and language availability**: The Expense Agent user interface and environment currently support English only. Receipt upload isn't restricted by language, but receipts in some languages might result in reduced extraction accuracy. Initial regional availability is limited to the US only.
+-	**Geographic and language availability**: The Expense Agent user interface and environment currently support English only. Receipt upload isn't restricted by language, but receipts in some languages might result in reduced extraction accuracy. Initial regional availability is limited to the US only. Learn more in [Copilot country/region availability and supported languages](../copilot-agents-region-language-availability.md).
 -	**System Limitations & Dependencies**: Only one Expense Agent can be configured per Business Central company. A single expanse user can't be enabled across multiple Expense Agents. The agent stops processing if AI services fail or mailbox access is lost. Complex approval systems with interim or conditional approvals isn't yet supported. Also, the post approval process, like posting and reimbursements, is beyond agent’s scope and is handled manually in [!INCLUDE [prod_short](../includes/prod_short.md)]. On-behalf expense submission isn't supported yet.
 -	**AI Accuracy Limitations**: ai-assisted content, such as extracted data, suggested categories, or expense groupings, might be inaccurate; human review is required before submission or approval.
 

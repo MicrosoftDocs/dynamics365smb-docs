@@ -22,7 +22,7 @@ Business Central supports this requirement through the **E-Reporting FR e-docume
 
 > [!NOTE]
 > - Pagero and Avalara are examples of PDP connectors. The format also works with any e-document service connector that can transmit data to the French tax authority.
-> - Learn more about the complete list of supported service providers in [Set up the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md#available-service-providers). Alternatively, users can install and use connectors from AppSource.
+> - Learn more about the complete list of supported service providers in [Set up the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md#available-service-providers). Alternatively, users can install and use connectors from Marketplace.
 
 ## Prerequisites
 

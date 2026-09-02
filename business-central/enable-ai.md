@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 05/03/2026
+ms.date: 09/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -101,9 +101,9 @@ The following table lists the permissions needed to use the different Copilot an
 | Summarize |**Copilot Sys Features** permission set or execute permission on system object 9680 **Allow Copilot Summary**. |
 | Map e-documents | Permission on page 6166 **E-Doc. PO Copilot Prop**. |
 | Marketing text suggestions | Permission on page 5836 **Copilot Marketing Text**. |
-|Payables Agent|Learn more in [Manage Payables Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
+|Payables Agent|Learn more in [Manage Payables Agent permissions and user access](payables-agent-setup.md#manage-agent-permissions-and-user-access).|
 | Sales line suggestions | Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**. |
-|Sales Order Agent|Learn more in [Manage Sales Order Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
+|Sales Order Agent|Learn more in [Manage Sales Order Agent permissions and user access](sales-order-agent-setup.md#manage-users-and-agent-settings).|
 | Custom Agent (preview) | Learn more in [Designing and coding agents (preview)](/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview).|
 
 To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.

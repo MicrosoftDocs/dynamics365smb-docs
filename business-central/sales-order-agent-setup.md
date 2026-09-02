@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
-description: Set up Sales Order Agent in Business Central to automate processing sales orders from customer emails. Learn how to activate, configure, and manage user access.
-ms.date: 07/21/2026
+description: Set up Sales Order Agent in Business Central to process sales orders from customer emails. Learn how to activate and configure the agent.
+ms.date: 09/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer
@@ -12,7 +12,7 @@ ms.search.form: 4400_Primary, 4410
 ---
 # Set up Sales Order Agent
 
-Sales Order Agent in Business Central automates processing sales orders from customer email requests. This article explains how to set up, activate, configure Sales Order Agent, and manage user access.
+The Sales Order Agent in [!INCLUDE [prod_short](includes/prod_short.md)] automates processing sales orders from customer email requests. This article explains how to activate and configure the agent.
 
 Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
 
@@ -20,11 +20,11 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 Before configuring and activating Sales Order Agent, ensure the following prerequisites are met:
 
-- You have permissions to configure the Sales Order Agent. You can configure the agent if you meet one of these conditions:
-  - You're listed in the agent's user access list with **Can Configure** selected.
-  - You have the **Configure All Agents** system permission (ID 9665).
+- You have the required permissions:
+   - To create a Sales Order Agent instance, you need the **Configure All Agents** system permission (ID 9665).
+   - To manage an existing agent, you need the **Configure All Agents** system permission or be listed in the agent's user access list with **Can Configure** selected.
 
-  Learn more in [Manage agent permissions and user access](#manage-agent-permissions-and-user-access).
+   Learn more about [permissions and access](#understand-permissions-and-access).
 - An email account is set up for receiving incoming requests for sales quotes and orders.
 
    Sales Order Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).
@@ -34,7 +34,7 @@ Before configuring and activating Sales Order Agent, ensure the following prereq
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
 
-- Billing for agent capabilities is configured for the Business Central environment in the Business Central admin center.
+- Billing for agent capabilities is configured for the [!INCLUDE [prod_short](includes/prod_short.md)] environment in the [!INCLUDE [prod_short](includes/prod_short.md)] admin center.
 
    Agents use Copilot Credits when a user runs it, which your company is charged for. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
@@ -51,7 +51,7 @@ The agent capability is on if the ![Shows the Sales Order Agent icon](media/soa-
 
 ![Shows the Sales Order Agent icon on a role center](media/soa-in-role-center.svg "Shows the Sales Order Agent icon on a role center")
 
-If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. Sales Order Agent is listed under **Generally available**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
+If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in [!INCLUDE [prod_short](includes/prod_short.md)]. Sales Order Agent is listed under **Generally available**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 
 Next, configure, and then activate the agent so it can process customer sales orders.
 
@@ -71,7 +71,7 @@ Configure and activate Sales Order Agent for your company. You can set up multip
 
    When you first configure the agent, it uses the same settings as your workspace (under **Settings** > **My Settings**). You can change the language later from the **Sales Order Agent** card page. Learn more about these settings in [Change language, region, and other settings](#change-agent-language-region-and-other-settings).
 
-1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
+1. Select **Manage user access** to specify the users who can work with the agent and whether they can also configure it. You can add more users now or later. Learn more in [Add users to the agent](#add-users-to-the-agent).
 1. If you want to change the agent's display name in the task pane and icon initials, set the **Display name** and **Initials** fields. These fields can't be blank.
 1. Configure email monitoring:
    - Turn on the **Monitor and process emails** toggle.
@@ -107,14 +107,14 @@ Configure and activate Sales Order Agent for your company. You can set up multip
 
    |Option|Description|Default|
    |-|-|-|
-   |Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales quote before creating an outgoing email with the quote details and attachment. <br><br>When off, the agent creates or modifies sales quotes as requested and then automatically proceeds with creating an outgoing email with the quote as an attachment. The user must review and confirm the email before the agent sends it to the customer. |Off|
+   |Review quotes when created and updated|When on, the agent adds a review step for a [!INCLUDE [prod_short](includes/prod_short.md)] user to review and confirm the sales quote before creating an outgoing email with the quote details and attachment. <br><br>When off, the agent creates or modifies sales quotes as requested and then automatically proceeds with creating an outgoing email with the quote as an attachment. The user must review and confirm the email before the agent sends it to the customer. |Off|
    |Send quotes for confirmation|When on, the agent sends the sales quote to the customer as a PDF attachment and waits for the customer to confirm or request changes before proceeding.<br><br>When off and **Make orders from quotes** is on, the agent skips the quote stage from the customer's perspective and converts the quote to a sales order immediately. The customer only receives the order.|On|
    |Make orders from quotes|When on, the agent converts sales quotes into orders. If **Send quotes for confirmation** is also on, conversion happens after the customer agrees to the quote via email and a [!INCLUDE [prod_short](includes/prod_short.md)] user confirms the email. If **Send quotes for confirmation** is off, the agent converts the quote to an order immediately without sending the quote to the customer.<br><br>When off, you have to create the order manually.|On|
-   |Review orders when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales order before creating an outgoing email with the order details and attachment. <br><br>When off, the agent creates the sales order as requested and then automatically proceeds with creating an outgoing email with the order as an attachment. The user must review and confirm the order before the agent sends it to the customer. |Off|
+   |Review orders when created and updated|When on, the agent adds a review step for a [!INCLUDE [prod_short](includes/prod_short.md)] user to review and confirm the sales order before creating an outgoing email with the order details and attachment. <br><br>When off, the agent creates the sales order as requested and then automatically proceeds with creating an outgoing email with the order as an attachment. The user must review and confirm the order before the agent sends it to the customer. |Off|
 
    ## [Manage mailbox](#tab/mailbox)
 
-   Use these options to configure the email mailbox the agent monitors for incoming emails and how it handles mails.
+   Use these options to configure the email mailbox the agent monitors for incoming emails and how it handles emails.
 
    |Option|Description|Default|
    |-|-|-|
@@ -126,13 +126,13 @@ Configure and activate Sales Order Agent for your company. You can set up multip
 
    ## [Format outgoing message](#tab/outgoing)
 
-   Instead the generic default signature on emails the agent creates, you can add a custom signature by following these steps:
+   Instead of the generic default signature on emails the agent creates, add a custom signature by following these steps:
 
    1. Select the **Include a custom signature in the replies** checkbox.
    1. Select the **Edit signature** link.
-   1. In the **Edit mail signature** window, type or paste the text you want the agent use as the signature on emails.
+   1. In the **Edit mail signature** window, type or paste the text you want the agent to use as the signature on emails.
 
-      Use the toolbar along the bottom of the window to format the text, like changing the font and font color or adding an image or link.
+      Use the toolbar along the bottom of the window to format the text, such as changing the font and font color or adding an image or link.
 
    1. Select **OK** when done.
 
@@ -143,7 +143,7 @@ Configure and activate Sales Order Agent for your company. You can set up multip
 
 The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to handle incoming quote requests to the mailbox.
 
-When Sales Order Agent is active, a scheduled task periodically monitors the configured mailbox folder. When it finds a new message that it hasn't processed, Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
+When Sales Order Agent is active, a scheduled task periodically monitors the configured mailbox folder. When it finds a new message that it hasn't processed, Sales Order Agent imports the message into [!INCLUDE [prod_short](includes/prod_short.md)] and verifies whether there's already a task for the mail thread. If a task for the thread already exists, Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
 > The ![Shows the Sales Order Agent icon when the agent is configured but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with the mailbox, but it's not active. To activate, select the icon, then select ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure Sales Order Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
@@ -163,10 +163,10 @@ To get started quickly, select the **Use sample message** link, which fills the 
 - A text-only message that references items from your item catalog.
 - A message with a sample purchase order attachment generated as a PDF using your actual item data.
 
-If the agent isn't enabled yet, you're prompted to enable it automatically when creating a task. Email monitoring isn't used for this flow, so the agent only processes your test task.
+If the agent isn't enabled yet, you're prompted to enable it automatically when creating a task. This flow doesn't use email monitoring, so the agent only processes your test task.
 
 > [!NOTE]
-> The sample messages use real data from your environment. If a sender is selected, the agent picks the top items by shipment frequency for that customer. Otherwise, it selects items with positive projected availability. Quantities are randomized between 1 and 10, capped at the available balance. The sample purchase order attachment is rendered from a Word template using your company information and the selected items, so you can use this feature on almost any environment with inventory data.
+> The sample messages use real data from your environment. If you select a sender, the agent picks the top items by shipment frequency for that customer. Otherwise, it selects items with positive projected availability. Quantities are randomized between 1 and 10, capped at the available balance. The sample purchase order attachment is rendered from a Word template using your company information and the selected items, so you can use this feature on almost any environment with inventory data.
 
 ### Test with real customer emails
 
@@ -221,77 +221,114 @@ When credits become available again (for example, at the start of a new billing 
 > [!NOTE]
 > When you reactivate the agent after deactivating it, the agent processes emails from the mailbox starting from when it was deactivated. If you don't want the agent to process older emails, clear them from the monitored folder before reactivating.
 
-## Manage agent permissions and user access
+## Manage users and agent settings
 
-### Add agent users
+After setup, you can control who works with each agent instance and who can change its configuration. You can also change the agent's language and region settings and manage the permission sets assigned to its account.
 
-Administrators can specify which users have permission to use or configure Sales Order Agent. There are three ways to add and configure agent users:
+### Understand permissions and access
+
+To work with or configure an agent, a user needs the relevant system permission and access to the specific agent:
+
+- To create a Sales Order Agent instance, a user needs the **Configure All Agents** system permission (ID 9665).
+- To configure an existing agent, a user needs the **Configure All Agents** permission or must be listed in that agent's user access list with **Can Configure** selected.
+- To work with an agent's tasks in the Copilot pane, a user needs the **Manage Agent Tasks** system permission (ID 9670) and must be listed in that agent's user access list.
+
+The following permission sets and license entitlements provide access to agent functionality:
+
+- The **AGENT - ADMIN** permission set grants the **Configure All Agents** permission. Assign this permission set to a user who needs to create agent instances or configure any agent in the environment. The broader **SECURITY** and **SUPER** permission sets also grant this permission. To follow the principle of least privilege, use **AGENT - ADMIN** unless the user needs broader administrative access.
+- The **D365 Agent** permission set grants the **Manage Agent Tasks** permission and access to the virtual tables used by agents. The **D365 Basic** permission set includes **D365 Agent**.
+- Essential and Premium license entitlements include the **Manage Agent Tasks** permission.
+- All current [!INCLUDE [prod_short](includes/prod_short.md)] license entitlements include the **Configure All Agents** permission. A license makes the permission available, but users still need an assigned permission set that grants it.
+
+### Add users to the agent
+
+A user who can configure an agent can add other users to its access list. For each user, you can allow them to work with the agent's tasks only, or select **Can Configure** to also let them change the agent's configuration and manage its access list.
+
+There are two ways to add users to an agent:
 
 #### [From Configure Sales Order Agent](#tab/soaconfig)
 
 1. Open the **Configure Sales Order Agent** page by selecting ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png) **Sales Order Agent** > ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure**.
 1. Turn off the **Active** toggle.
 1. Select **Manage user access**.
-1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:
+1. On the **Select users that can manage or interact with the Agent** page, complete the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
-   - To give a user permission to configure Sales Order Agent, select the **Can configure** checkbox. <br><br> The **Can configure** setting defines whether a user has access to update the agent configuration (for example, updating the designated mailbox, activating and deactivating the agent, and other settings) or only to work with the agent tasks (for example, reviewing and confirming agent steps).
+   - To give a user permission to configure Sales Order Agent, select the **Can Configure** checkbox. <br><br> The **Can Configure** setting defines whether a user has access to update the agent configuration (for example, updating the designated mailbox, activating and deactivating the agent, and other settings) or only to work with the agent tasks (for example, reviewing and confirming agent steps).
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 #### [From the Sales Order Agent card page](#tab/soapage)
 
-1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
-1. Set **Status** to **Disabled** to deactivate the agent.
+1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select the Sales Order Agent account you want to manage.
+1. Set **State** to **Disabled** to deactivate the agent.
 1. In the **User access** section, you can do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, and then select the user from the list.
-   - To give a user permission to configure Sales Order Agent, select the **Can configure** checkbox.
+   - To give a user permission to configure Sales Order Agent, select the **Can Configure** checkbox.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
-
-#### [Using permissions and licenses](#tab/perms)
-
-The following system permissions are available for controlling user access to the agent's functionality:
-
-- **Configure All Agents** (ID 9665): Grants a user access to manage the configuration settings of Sales Order Agent.
-- **Manage Agent Tasks** (ID 9670): Allows a user to work with agent tasks displayed in the Copilot pane.
-
-These system permissions are also included in the following permission sets, entitlements, and license types:
-
-- The **SECURITY** permission set includes the **Configure All Agents** permission.
-- The **System Execute - Basic** permission set includes the **Manage Agent Tasks** permission.
-- The **System Tables - Basic** permission set includes all virtual tables used by the agent (labeled as "Agent *" tables).
-- Essential and Premium license entitlements now include **Manage Agent Tasks** permissions.
-- All license types include **Configure All Agents** permissions.
-
-Users can configure Sales Order Agent if they have the **Configure All Agents** permission or are listed as an agent user with the **Can Configure** field selected.
-
-Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.
 
 ---
 
-### Manage agent permissions to objects, data, and UI elements
-
-Sales Order Agent has a user account in Business Central, similar to other users, which defines the permissions the agent has on objects and data. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]** to open the agent card page.
-
-The **Agent Permission Sets** section lists the permission sets currently assigned to the agent. By default, Sales Order Agent has the **SOA - EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests.
-
-You can't modify the **SOA - EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA - EDIT** permission set, modify the copy to suit your needs, and then add it to the **Agent Permission Sets** section, along with any other permission sets.
-
-Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
-
-## Change agent language, region, and other settings
+### Change agent language, region, and other settings
 
 [!INCLUDE[soa-language-support](includes/soa-language-support.md)]
 
-1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
+1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for **Agents**, and then select the Sales Order Agent account you want to manage.
 1. Select **Agent User Settings** and set the following fields:
 
    |Field|Description|
    |-|-|
-   |Profile|Specifies the role that defines the agent's home page with links to the most common tasks.|
+   |Profile|Specifies the role that defines the agent's home page and the UI elements available to the agent.|
    |Region|Specifies the regional format used by the agent for dates, times, and numbers in outgoing emails and task details.|
    |Language|Specifies the language the agent uses for generated text in:<ul><li>Outgoing email messages to customers or contacts. If a customer or contact card has a language specified, the agent uses that language instead of the default.</li><li>Task details and descriptions in the agent **Tasks** pane and log.</li></ul> |
    |Time zone|Specifies the time zone used by the agent when displaying and processing date and time in tasks details.|
+
+### Manage permission sets for the agent account
+
+The Sales Order Agent has a user account in [!INCLUDE [prod_short](includes/prod_short.md)], similar to other users, which defines the permissions the agent has on objects and data. To access this account, search for and open the **Agents** page, and then select the Sales Order Agent account you want to manage. The first account created for a company is named **SALES ORDER AGENT - [COMPANY]**. Additional accounts are named **SALES ORDER AGENT - [COMPANY] 2**, **SALES ORDER AGENT - [COMPANY] 3**, and so on.
+
+The **Agent Permission Sets** section lists the permission sets currently assigned to the agent. By default, the Sales Order Agent account has the **SOA - EDIT** permission set. This set grants access only to the objects and data necessary for handling sales quote requests. To add or remove permission sets, select **Edit agent permissions**.
+
+You can't modify the **SOA - EDIT** permission set directly, because it's a system permission set. However, you can create a copy of the **SOA - EDIT** permission set, modify the copy to suit your needs, and then assign it to the agent, along with any other permission sets.
+
+Before you can add or delete permission sets applied to the agent, change the **State** to disabled. When you're done making changes, set it back to **Enabled**.
+
+### Resolve "The agent needs additional permissions to continue"
+
+Sales Order Agent runs under its own user account and doesn't inherit permissions from the person reviewing the task. Installed extensions can add logic or UI elements to standard pages that the agent uses, so the agent account might need permission sets provided by those extensions.
+
+If a task displays **The agent needs additional permissions to continue**:
+
+1. Expand the error details and note the extension name, object type, object ID, and required access.
+1. Search for and open the **Permissions Overview** page.
+1. Filter by the extension named in the error. When available, also filter by **Object Type** and **Object ID** to find permission sets that grant the required access.
+1. Review the matching permission sets and note the narrowest permission sets that provide the required access.
+1. Search for and open the **Agents** page, and then select the Sales Order Agent account.
+1. Change **State** to **Disabled**.
+1. Select **Edit agent permissions**. In the **Permission Set** field, select the narrowest permission set that you identified and that is available in the lookup.
+1. Select **OK** to save the assignment and return to the Sales Order Agent card.
+1. Select **Configure**. On the **Configure Sales Order Agent** page, turn on the **Active** toggle, and then select **Update**.
+1. Retry the task.
+
+If none of the permission sets you identified are available in the **Permission Set** lookup, contact the extension publisher. The publisher might need to recommend an existing assignable permission set or provide one that supports agent scenarios.
+
+Learn more in [Get an overview of all permissions](ui-define-granular-permissions.md#get-an-overview-of-all-permissions).
+
+## Diagnose agent tasks and steps
+
+Administrators can use the **Agents** page to inspect Sales Order Agent tasks, completed steps, messages, and detailed log entries. This information can help you identify where a task stopped and what information the agent used.
+
+1. Search for and open the **Agents** page.
+1. Select the Sales Order Agent account you want to inspect, and then choose **View tasks**.
+1. On the **Agent Tasks** page, use one of the following options:
+
+   - Select a linked **Task ID** to open an active task.
+   - Drill into **Steps Done** to inspect the execution steps.
+   - Choose **View log entries** to open the **Agent Task Log** page. Select an entry, and then choose **View details**.
+
+You don't need the **Agent - Diagnostics** permission set to view tasks and ordinary log details. Assign it to administrators who need to view the serialized page snapshot under **What the agent saw** in the log entry details.
+
+For information about reviewing task timelines and assisting an agent, see [Supervise agent activities](supervise-agent-tasks.md).
 
 ## Next steps
 

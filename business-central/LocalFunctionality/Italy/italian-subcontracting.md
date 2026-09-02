@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: master production scheduling, MPS, material requirements planning, MRP, subcontracting, Italian version
 ms.search.form: 12152, 12153, 12154, 12155, 12156, 35490, 35491
-ms.date: 07/02/2026
+ms.date: 09/01/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -36,6 +36,13 @@ An **IT Subcontracting Migration** app is available to help you migrate open dat
 - The environment must be a **sandbox**. Production environment support is planned for a later release.
 - Both the **Subcontracting** app and the **IT Subcontracting Migration** app must be installed.
 - All open WIP transfer orders and related purchase orders must be completed before you run the migration.
+
+### Check subcontracting locations
+
+Legacy Italian subcontracting allows subcontractor locations that use bins. The Subcontracting app doesn't accept a subcontractor location if you enable the **Bin Mandatory**, **Require Pick**, **Require Put-away**, **Require Receive**, or **Require Shipment** toggles.
+
+> [!IMPORTANT]
+> Before you migrate to the app, replace these subcontracting locations on vendor cards with locations that don't use bins or warehouse handling.
 
 ### What gets migrated
 

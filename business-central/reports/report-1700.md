@@ -1,71 +1,49 @@
 ---
-title: G/L Deferral Summary (report)
-description: Review how deferral entries impact the general ledger over time and reconcile deferred balances. This report summarizes deferred revenue and expense postings across G/L accounts, with filters for posting date and deferral code to focus your review.
+title: Deferral Summary - G/L (report)
+description: Analyze how deferral entries impact general ledger accounts over time and reconcile deferred balances as of a specific date.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
-ms.search.keywords: deferral, general ledger, reporting
+ms.search.keywords: reporting
 ms.search.form: Report_1700_Primary
-ms.date: 06/21/2025
+ms.date: 2026-09-03
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/21/2025
+ - ai-seo-date: 2026-09-03
 ai.usage: ai-assisted
 ---
 
-# G/L Deferral Summary (report)
+# Deferral Summary - G/L (report)
 
-The **G/L Deferral Summary** report analyzes the effect of deferrals on general ledger (G/L) balances by period, giving transparency into future recognized values.
+The **Deferral Summary - G/L** report shows posted deferral activity for G/L accounts, breaking down each deferral schedule into the amount recognized and the amount still deferred as of a selected balance date. For each posted deferral line, it displays the posting date, document type and number, deferral account, deferral start date, and number of periods, along with the amount recognized, the remaining amount deferred, and the total amount to defer. The report includes subtotals per G/L account and grand totals across all selected accounts.
 
-You can use filters such as a posting date and deferral code to narrow the scope of your review.
-
-## Available layouts
-
-[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
-
-[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+You can filter the report by G/L account number to limit the analysis to specific accounts, and set the Balance as of date to determine which posted deferral amounts count as recognized versus remaining. You can also choose to print each G/L account on a new page when multiple accounts are included, and use the Hide Zero Remaining Amounts option to suppress deferral headers whose remaining amount is zero, unless the deferral ends within the current accounting period based on the balance date.
 
 ## Use cases
 
 [!INCLUDE [report-1700-scenario](../includes/report-1700-scenario-include.md)]
 
-> [!TIP]
-> Here are some tips on how to use the report:
->
-> * Use posting date filters to focus your review. Narrow the report to a specific period by setting posting date filters. This filter helps isolate deferral activity for a particular month, quarter, or fiscal year, making reconciliation easier.
-> * Apply deferral code filters for targeted analysis. If your organization uses multiple deferral codes (for example, for different revenue streams or expense types), filtering by deferral code allows you to analyze the impact of each category separately.
-> * Reconcile deferred balances periodically. Run the report at regular intervals (for example, month-end or quarter-end) to reconcile deferred balances and ensure that revenue and expenses are recognized in the correct periods.
-> * Audit for irregularities in deferral handling. Use the report to spot anomalies, such as unusually large deferrals or missing entries, that might indicate posting errors or misapplied deferral templates.
+Controllers and finance teams can use the report to:
 
-Finance professionals can use the report to:
+* Reconcile the total deferred balance for a G/L account against the general ledger as of a specific date.
+* Identify how much of each deferral schedule has been recognized versus what remains to be recognized in future periods.
+* Review deferral start dates and number of periods to verify that deferral schedules are set up as expected.
+* Use the Hide Zero Remaining Amounts option to focus only on deferrals that still have an open balance.,Accountants performing period-end close can use the report to:
 
-* Review deferred entries and their impact on G/L balances over time.
-* Summarize deferral activity by G/L account and posting period.
-* Reconcile deferred balances and understand how they affect financial reporting.
-
-Controllers and auditors can use the report to:
-
-* Gain transparency into future recognized revenue and expenses.
-* Ensure accuracy in deferral postings and compliance with accounting standards.
-* Identify discrepancies or irregularities in deferral handling and investigate them.
+* Verify that deferral amounts recognized through the balance date match expected recognition patterns before closing a period.
+* Trace individual posted documents and their associated deferral accounts to investigate discrepancies.
+* Export the report to Excel for further analysis or to support audit documentation of deferred revenue and expenses.
 
 ## Try the report
 
-Try the report here: [G/L Deferral Summary](https://businesscentral.dynamics.com?report=1700)
+Try the report here: [Deferral Summary - G/L](https://businesscentral.dynamics.com?report=1700)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## Alternative reports
-
-[!INCLUDE[analyze-deferral-data](../includes/analyze-deferral-data.md)]
-
 ## Related information
 
-[Defer revenues and expenses](../finance-how-defer-revenue-expenses.md)  
-[Built-in key finance reports](../finance-reports.md)  
-[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
-[Financial analytics overview](../bi.md)  
+[Finance reports](../finance-reports.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

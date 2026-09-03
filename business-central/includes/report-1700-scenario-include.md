@@ -1,1 +1,1 @@
-Review and reconcile deferred revenue and expense entries by analyzing their impact on general ledger balances over time. Get transparency into how deferrals affect G/L accounts across posting periods, helping ensure accurate financial reporting.
+Use the report when a controller or accountant needs to review posted deferral schedules for G/L accounts and verify how much of each deferred amount has been recognized versus what remains outstanding as of a chosen balance date.

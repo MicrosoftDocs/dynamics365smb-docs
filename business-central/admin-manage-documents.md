@@ -6,28 +6,84 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 107, 9035, 9040
-ms.date: 04/16/2024
+ms.date: 09/03/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Manage storage by deleting documents or compressing data
 
-A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
+A central role, such as the application administrator, must regularly clean up data storage by deleting or compressing historic documents, media files, various types of entries, and so on. This article describes some built-in tools that make it easier for admins to manage unneeded data.  
 
 > [!TIP]
 > Learn more about other ways to reduce the amount of data stored in a database by reading [Reducing Data Stored in Business Central Databases](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in our Developer and IT pro documentation.
 
-## Delete documents
+## Clean up data
 
-In certain situations, you might need to delete invoiced purchase orders. However, you can't delete them unless you fully invoice and received the items in the purchase orders. [!INCLUDE[prod_short](includes/prod_short.md)] helps you out by checking for that.
+The **Data Administration** page provides batch jobs and worksheets for deleting obsolete data. To open the page, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Administration**, and then choose the related link. On the **Actions** menu, choose **Data Cleanup**, and then choose an action from one of the following categories.
 
-Businesses usually delete return orders after they're invoiced. When you post an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] transfers it to the **Posted Purchase Credit Memo** page. If you selected the **Return Shipment on Credit Memo** check box on the **Purchases & Payable Setup** page, the invoice is transferred to the **Posted Return Shipment** page. You can delete the documents using the **Delete Invd Purch. Ret. Orders** batch job. Before it deletes documents, the batch job checks whether the purchase return orders are fully shipped and invoiced.  
+> [!IMPORTANT]
+> Review the filters on the request page before you run a deletion batch job. Some batch jobs don't ask you to confirm the deletion, and blank filters might include all eligible records. Deleted data can't be recovered.
 
-Blanket purchase orders aren't automatically deleted after you process and invoice all the related purchase orders. Instead, you can delete them with the **Delete Invoiced Blanket Purchase Orders** batch job.  
+The actions that are available depend on the features that your company uses.
 
-Businesses typically delete invoiced service orders automatically after they're fully invoiced. When an invoice is posted, a corresponding entry is created and can then be viewed on the **Posted Service Invoices** page.  
+### Document archives
 
-Service orders aren't deleted automatically, however, if the total quantity on the order was posted from the **Service Invoice** page rather than from service order itself. You might need to manually delete such invoiced orders by running the **Delete Invoiced Service Orders** batch job.  
+The following action deletes sales quotes that are no longer valid.
+
+|Action|Description|
+|---|---|
+|**Delete Expired Sales Quotes**|Deletes sales quotes that have a **Quote Valid Until Date** earlier than the date that you specify. You can filter the quotes by number and sell-to customer.|
+
+### Invoiced documents
+
+The following actions delete open documents that remain after they're fully processed. They don't delete the posted documents that provide the transaction history.
+
+|Action|Description|
+|---|---|
+|**Delete Blanket Sales Orders**|Deletes blanket sales orders that have invoiced lines and no outstanding quantities, shipped quantities that aren't invoiced, or remaining sales lines that refer to the blanket order.|
+|**Delete Sales Orders**|Deletes fully shipped and invoiced sales orders. Item charge assignments that aren't fully invoiced can prevent the complete order from being deleted.|
+|**Delete Sales Return Orders**|Deletes fully received and invoiced sales return orders. Item charge assignments that aren't fully invoiced can prevent the complete return order from being deleted.|
+|**Delete Blanket Purchase Orders**|Deletes blanket purchase orders that have invoiced lines and no outstanding quantities, received quantities that aren't invoiced, or remaining purchase lines that refer to the blanket order.|
+|**Delete Purchase Orders**|Deletes fully received and invoiced purchase orders. The order isn't deleted if an item charge assignment isn't fully invoiced.|
+|**Delete Purchase Return Orders**|Deletes fully shipped and invoiced purchase return orders. Item charge assignments that aren't fully invoiced can prevent the complete return order from being deleted.|
+|**Delete Service Orders**|Deletes fully shipped and invoiced service orders. This action is available when you use Service Management. It doesn't delete posted service documents.|
+|**Delete Registered Warehouse Documents**|Deletes registered warehouse activity documents, including their lines and comments, according to the type and number filters that you specify. The batch job doesn't require the documents to be older than a specific date.|
+
+### Marketing
+
+The following actions delete obsolete relationship management records and, where applicable, their related records.
+
+|Action|Description|
+|---|---|
+|**Delete Campaign Entries**|Deletes canceled campaign entries according to the campaign, date, salesperson, and entry number filters that you specify. Related interaction log entries are also deleted.|
+|**Delete Logged Segments**|Deletes canceled logged segments according to the entry number and segment number filters that you specify. Retains related interaction and campaign entries, but removes their links to the logged segment.|
+|**Delete Opportunities**|Deletes closed opportunities according to the filters that you specify. Also deletes related opportunity entries and comments.|
+|**Delete Tasks**|Deletes canceled relationship management tasks. Also deletes related comments, attendees, and subordinate attendee or member tasks.|
+|**Delete Interaction Log Entries**|Deletes canceled interaction log entries according to the filters that you specify. Also deletes related comments, campaign target links, and attachments that aren't used by other interactions.|
+
+### Cost accounting
+
+The following actions delete cost accounting entries by register or posting date.
+
+|Action|Description|
+|---|---|
+|**Delete Cost Budget Entries**|Deletes a range of open cost budget registers and the entries in those registers. You can't delete closed registers. If you delete allocation registers, [!INCLUDE [prod_short](includes/prod_short.md)] resets the allocation status of the affected entries.|
+|**Delete Cost Entries**|Deletes a range of open cost registers and the entries in those registers. You can't delete closed registers, and the range must end with the latest cost register. If you delete allocation registers, [!INCLUDE [prod_short](includes/prod_short.md)] resets the allocation status of the affected entries.|
+|**Delete Old Cost Entries**|Deletes cost entries with posting dates up to and including the specified year-ending date. The date must be the end of a calendar year and at least one year before the work date. This action doesn't delete the related cost registers.|
+
+### Miscellaneous
+
+The following actions clean up inventory, media, guided experiences, service, and manufacturing data.
+
+|Action|Description|
+|---|---|
+|**Delete Phys. Inventory Ledger**|Deletes physical inventory ledger entries in the date range and for the item and inventory posting group filters that you specify. You must provide an ending date, and [!INCLUDE [prod_short](includes/prod_short.md)] validates the entries against closed inventory periods.|
+|**Delete Detached media**|Opens a page where you can find and delete media that isn't referenced by a record. Before deleting selected media, [!INCLUDE [prod_short](includes/prod_short.md)] reverifies that the media is still detached. You can also schedule cleanup of detached media and media sets.|
+|**Delete Duplicated Guided Experience Item**|Opens a page that finds guided experience item codes with more than 100 versions. For a selected code, the cleanup deletes older versions and keeps the version with the highest version number.|
+|**Delete Service Email Queue**|Deletes service email queue entries according to the status and sending date filters that you specify. Without filters, the batch job deletes the entire queue. This action is available when you use Service Management.|
+|**Delete Service Document Log**|Deletes service document log entries according to the change date, document type, and document number filters that you specify. You can limit the deletion to logs for documents that no longer exist. This action is available when you use Service Management.|
+|**Delete Service Item Log**|Deletes service item log entries according to the change date and service item number filters that you specify. This action is available when you use Service Management.|
+|**Delete Expired Components**|Deletes production BOM lines with an ending date earlier than the date that you specify, but doesn't delete production BOM headers. This action is available when you use Manufacturing.|
 
 ## Compress data with date compression
 
@@ -63,9 +119,9 @@ After the compression, the contents of the following fields are always retained:
 Compressed entries are posted a little differently than standard posting. This difference is to reduce the number of new general ledger entries created by date compression, and is especially important when you keep information such as dimensions and document numbers. Date compression creates new entries as follows:
 
 * On the **General Ledger Entries** page, new entries are created for the compressed entries. The **Description** field contains **Date Compressed** so the compressed entries are easy to identify. 
-* On ledger pages, such as the **Customer Ledger Entries** page, one or more new entries are created. 
+* On ledger pages, such as the **Customer Ledger Entries** page, one or more new entries are created.
 
-The posting process creates gaps in the number series for entries on the **General Ledger Entries** page. Those numbers are assigned to the entries on the ledger pages only. The number range assigned to the entries is available on the **G/L Register** page in the **From Entry No.** and **To Entry No.** fields. 
+The posting process creates gaps in the number series for entries on the **General Ledger Entries** page. You assign those numbers to the entries on the ledger pages only. You can view the number range assigned to the entries on the **G/L Register** page in the **From Entry No.** and **To Entry No.** fields. 
 
 > [!NOTE]
 > After you run date compression, you can't reverse vendor or bank ledger entries for any transactions that are affected by the compression.

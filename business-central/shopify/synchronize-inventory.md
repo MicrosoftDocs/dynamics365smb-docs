@@ -1,7 +1,7 @@
 ---
 title: Synchronize inventory with Shopify
 description: Set up and run inventory synchronization between Business Central and Shopify, including location mapping and fulfillment strategies.
-ms.date: 08/26/2026
+ms.date: 09/03/2026
 ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127
 author: brentholtorf
@@ -136,12 +136,20 @@ Because the connector sends [!INCLUDE[prod_short](../includes/prod_short.md)] ca
 
 If the inventory level doesn't sync with Shopify, try these checks.
 
-* Go to the **Shopify Shop Locations** page and verify the value chosen in the **Stock calculation** field. Learn more at [Enable inventory sync](#enable-inventory-sync).
-* In the **Shopify admin**, go to **Products** or **Variants** and check that the **Track quantity** toggle is turned on.
-* In the **Shopify admin**, go to **Products** or **Variants** and check whether all locations appear in the **Inventory** section. If a location is missing, it means the inventory level isn't defined. Learn more at [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
-* Go to the **Shopify Products** page, locate the specific product, and ensure that the Shopify variant is linked to the item and item variant, if needed. To do that, examine the **Item No.** and **Variant No.** fields in the **Shopify Variants** part.
-* Go to the **Shopify Products** page, locate the specific product, and check the stock details in the **Shopify Inventory** FactBox. The FactBox gives an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. It also shows when the specific inventory level was last synchronized. There's one record per location.
-* Go to the **Shopify Log Entries** page, and check for entries with the **Has Error** enabled around the time the inventory level was synched (see previous step). To limit records, apply the **mutation inventorySetOnHandQuantities** filter to the **Request Preview** field. If such entries exist, open the **Shopify Log Entry** page and inspect the **Response Data** field. If there's a validation error on Shopify's side, the response includes the additional information in the **userErrors** section. To learn more about logging, go to [Logs](troubleshoot.md#logs).
+1. Go to the **Shopify Shop Locations** page and verify the value in the **Stock calculation** field. Learn more at [Enable inventory sync](#enable-inventory-sync).
+    * If you use a calculation method added by an extension, ask the extension provider to verify that the enum value implements both `Shpfy Stock Calculation` and `Shpfy IStock Available`. The `Shpfy IStock Available` implementation determines whether the calculation method permits inventory export. Learn more at [Stock calculation](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation).
+1. In the **Shopify admin**, go to **Products** or **Variants** and:
+    * check that the **Track quantity** toggle is turned on.
+    * check whether the affected location appears in the **Inventory** section. If the location is missing, inventory isn't assigned to that location. Learn more at [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
+1. Go to the **Shopify Products** page, locate the product, and verify that the Shopify variant is linked to the correct item and item variant, if needed. Check the **Item No.** and **Variant No.** fields in the **Shopify Variants** part. The connector excludes non-inventory and service items from inventory synchronization.
+1. Go to the **Shopify Products** page, locate the product, and check the stock details in the **Shopify Inventory** FactBox for the affected variant and location. The FactBox shows the stock in Shopify, the last stock calculated in [!INCLUDE[prod_short](../includes/prod_short.md)], and when each value was updated. There's one record per location.
+    * Compare **Shopify Stock** with **Last Calculated Stock**. If the values are equal, the connector doesn't send an update to Shopify.
+    * If the values differ, check **Last Synced On** and **Last Calculated On**. **Last Synced On** shows when the stock was last imported from Shopify. **Last Calculated On** shows when the stock was last calculated in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+1. Go to the **Shopify Log Entries** page, and check for entries with **Has Error** enabled around the time the inventory level was synchronized. To limit the records, apply the `*inventorySetQuantities*` filter to the **Request Preview** field. If such entries exist, open the **Shopify Log Entry** page and inspect the **Response Data** field. If there's a validation error on Shopify's side, the response includes more information in the **userErrors** section.
+1. On the **Shopify Shop Card** page, temporarily set **Logging Mode** to **All**, and then run the inventory synchronization again. Go to the **Shopify Log Entries** page and review entries created during that run. To find inventory update requests, filter the **Request Preview** field by `*inventorySetQuantities*`. If the calculated stock differs from the Shopify stock but no `inventorySetQuantities` request exists, the connector skipped the update before communicating with Shopify. Recheck the item type, location setup, mapping, and any custom stock calculation implementation. After you finish troubleshooting, restore the previous **Logging Mode** setting.
+
+To learn more about logging, go to [Logs](troubleshoot.md#logs).
 
 ## Related information
 

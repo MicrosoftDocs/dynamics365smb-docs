@@ -1,1 +1,1 @@
-Review and reconcile deferred purchasing expenses by viewing deferral schedules and amounts across periods. Ensure expenses are allocated to the correct financial periods for accrual accuracy. Use during period-end close to validate purchasing deferral balances.  
+Use the report when a controller or accounts payable clerk needs to reconcile purchasing deferral balances as of a specific date and confirm that expense recognition schedules match posted purchase documents.

@@ -1,6 +1,6 @@
 ---
 title: Deferral Summary - G/L (report)
-description: Analyze how deferral entries impact general ledger accounts over time and reconcile deferred balances as of a specific date.
+description: Analyze deferred amounts and recognition patterns for general ledger transactions as of a chosen balance date.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Deferral Summary - G/L (report)
 
-The **Deferral Summary - G/L** report shows posted deferral activity for G/L accounts, breaking down each deferral schedule into the amount recognized and the amount still deferred as of a selected balance date. For each posted deferral line, it displays the posting date, document type and number, deferral account, deferral start date, and number of periods, along with the amount recognized, the remaining amount deferred, and the total amount to defer. The report includes subtotals per G/L account and grand totals across all selected accounts.
+The **Deferral Summary - G/L** report shows posted deferral entries for G/L accounts, breaking down each deferral into the amount recognized as of a chosen balance date and the amount still remaining to be deferred. It lists posting date, document type and number, deferral account, deferral start date, and number of periods for each entry, and includes subtotals per account and grand totals for recognized, remaining, and total deferred amounts.
 
-You can filter the report by G/L account number to limit the analysis to specific accounts, and set the Balance as of date to determine which posted deferral amounts count as recognized versus remaining. You can also choose to print each G/L account on a new page when multiple accounts are included, and use the Hide Zero Remaining Amounts option to suppress deferral headers whose remaining amount is zero, unless the deferral ends within the current accounting period based on the balance date.
+You can filter the report by G/L account number to limit the analysis to specific accounts, by the balance as of date to control the cutoff used to split recognized amounts from remaining deferred amounts, by the New Page per G/L Acc. option to start a new page for each account in printed layouts, and by Hide Zero Remaining Amounts to exclude posted deferral headers whose remaining amount is zero, unless the deferral ends within the current accounting period.
 
 ## Use cases
 
@@ -27,14 +27,14 @@ You can filter the report by G/L account number to limit the analysis to specifi
 
 Controllers and finance teams can use the report to:
 
-* Reconcile the total deferred balance for a G/L account against the general ledger as of a specific date.
-* Identify how much of each deferral schedule has been recognized versus what remains to be recognized in future periods.
-* Review deferral start dates and number of periods to verify that deferral schedules are set up as expected.
-* Use the Hide Zero Remaining Amounts option to focus only on deferrals that still have an open balance.,Accountants performing period-end close can use the report to:
+* Reconcile deferred balances on G/L accounts against the general ledger as of period end.
+* Verify that deferral schedules are recognizing amounts correctly over time.
+* Identify deferrals that still have remaining amounts to be recognized in future periods.
+* Review deferral activity by account to support month-end or year-end close procedures.,Accountants can use the report to:
 
-* Verify that deferral amounts recognized through the balance date match expected recognition patterns before closing a period.
-* Trace individual posted documents and their associated deferral accounts to investigate discrepancies.
-* Export the report to Excel for further analysis or to support audit documentation of deferred revenue and expenses.
+* Trace individual deferral entries back to their source document type and number.
+* Check the deferral start date and number of periods used to calculate recognition schedules.
+* Use the Hide Zero Remaining Amounts option to focus only on deferrals still in progress.
 
 ## Try the report
 

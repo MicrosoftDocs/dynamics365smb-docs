@@ -1,1 +1,1 @@
-Use the report when a controller or accountant needs to review posted deferral schedules for G/L accounts and verify how much of each deferred amount has been recognized versus what remains outstanding as of a chosen balance date.
+Use the report when a controller or accountant needs to reconcile deferred balances on G/L accounts and see how much of each deferral has been recognized as of a specific date, so they can verify that deferral schedules match expected recognition patterns.

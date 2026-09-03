@@ -1,1 +1,1 @@
-Use the report when finance managers or compliance officers need to document the company's payment behavior for a reporting period, whether for internal review or to satisfy statutory payment practice disclosure requirements.
+Use the report when finance or compliance teams need to publish or review a company's payment practices for a reporting period, broken down by period, vendor size, or small business payments, to meet payment practice disclosure requirements.

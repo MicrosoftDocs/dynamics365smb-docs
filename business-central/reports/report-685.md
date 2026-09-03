@@ -1,6 +1,6 @@
 ---
 title: Payment Practice (report)
-description: Report on how consistently your company pays vendors on time, comparing agreed and actual payment periods across reporting periods, vendor sizes, and business categories.
+description: Analyze how quickly your company pays vendors, including average payment periods and the share of invoices paid on time.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Payment Practice (report)
 
-The **Payment Practice** report summarizes how a company pays its vendors over a defined reporting period. It shows the average agreed and actual payment periods, the percentage of invoices paid on time, and additional statistics such as median, mode, and percentile payment times. The report is available in three layouts: by period, by vendor size, and for small business payments, each breaking down the header-level totals into detail lines for further analysis.
+The **Payment Practice** report shows how a company pays its vendors over a selected period. It summarizes the average agreed and actual payment periods, the percentage of invoices paid on time, and breaks the data down further by payment period, vendor size, or small business status, depending on the layout selected.
 
-You can filter the report by the payment practice header, which determines the starting date, ending date, aggregation type, and header type used to define the reporting period and how figures are aggregated. Selecting a specific header restricts the report to that period's data, while the layout you choose (by period, by vendor size, or small business) determines how the detail lines are broken down—by payment period code, company size code, or source type.
+You can filter the report by starting date and ending date to define the reporting period, by aggregation type to control how the data is grouped and summarized, and by header type to select the specific payment practice record to report on.
 
 ## Use cases
 
@@ -27,14 +27,13 @@ You can filter the report by the payment practice header, which determines the s
 
 Controllers and finance teams can use the report to:
 
-* Verify the average agreed and actual payment periods before submitting mandatory payment practice disclosures.
-* Check the percentage of invoices paid on time for a reporting period to identify payment performance trends.
-* Review median, mode, and percentile payment times to understand the distribution of payment delays.
-* Confirm Peppol usage and small business payment shares required for regulatory reporting.,Compliance and legal teams can use the report to:
+* Review the average agreed and actual payment periods for a given reporting period to monitor payment discipline.
+* Check the percentage of invoices paid on time to identify trends or issues in the accounts payable process.
+* Break down payment performance by payment period to see how the share of invoices paid changes over time and by amount.,Compliance and regulatory reporting staff can use the report to:
 
-* Produce the vendor-size breakdown to demonstrate compliance with payment practice legislation by company size category.
-* Compare agreed versus actual payment periods across periods to support audit or regulatory inquiries.
-* Document the percentage of small business payments made within the report period.
+* Generate the Payment Practice by Vendor Size layout to document average payment periods and on-time percentages by company size code, supporting statutory disclosure requirements.
+* Use the Payment Practice Small Business layout to report median, mode, and percentile payment times along with the percentage of small business payments and Peppol-enabled transactions.
+* Select the appropriate rendering layout (by period, vendor size, or small business) to match the specific disclosure format required by regulators or stakeholders.
 
 ## Try the report
 

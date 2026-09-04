@@ -23,6 +23,8 @@ The data exchange definition example in this article refers to an import file fo
 
 For billing, you must first import and process data. To learn more, go to [Imports and processing](../processing-usage-data/imports-processing.md). For [!INCLUDE [prod_short](../../includes/prod_short.md)] to extract the data from the CSV file, it needs the data's schema. The schema is available on the [usage data supplier](suppliers.md).
 
+When you set up the field mappings, make sure they cover at least the fields listed under [Minimum data requirements](../processing-usage-data/imports-processing.md#minimum-data-requirements) — without those, [!INCLUDE [prod_short](../../includes/prod_short.md)] can't process the usage data.
+
 > [!NOTE]
 > Usage-based billing provides the **USAGEBASED** data exchange definition as an example. You can use the definition, but you must adapt it to your setup. You can import and export data exchange definitions on the **Data Exchange Definition** page by using the **Import Data Exchange Definition** and **Export Data Exchange Definition** actions.
 

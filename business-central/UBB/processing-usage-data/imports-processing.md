@@ -191,6 +191,9 @@ If there isn't a connection between a supplier's subscription and a subscription
 
 3. Usage data is typically supplier-side, which means it's probably missing the data you need for customer-side billing. You create the data for customers (records where the **Partner** field contains **Customer**) for each vendor usage data record when you generate the **Usage Data Billing** (via **Create Usage Data Billing** action) to use later for customer-side billing. You can use the lookup in the **No. of Usage Data Billing** field to access the details.
 
+> [!NOTE]
+> If the usage data's currency differs from the vendor or customer subscription contract's currency, amounts are either converted to the contract's currency or rejected with a processing error, depending on the subscription contract type. To learn more, go to [Subscription contract types](../../SRB/setup/contract-types.md#different-currencies-for-usage-data).
+
 Records in usage-based billing are vendor neutral, meaning all usage data is normalized regardless of the original source.
 
 4. By processing usage data billing (via **Process Usage Data Billing** action), the data in the respective vendor or customer subscription contract lines, in the subscriptions, and in the subscription lines are updated based on the new usage data (quantities and prices). In addition, the sales price is calculated for each data record where the **Partner** field contains **Customer**. To learn more, go to [Methods for pricing](#methods-for-pricing). If you get an error, use the lookup in the **No. of Usage Data Billing Errors** field to access the details.

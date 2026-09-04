@@ -28,6 +28,10 @@ The **Harmonized Billing Customer Subscription Contracts** field controls whethe
 
 Use the **Create Contract Deferrals** field to define the default value for the corresponding field in the contract. This makes it easier to create contracts and reduces handling errors. When you select the contract type, the value is copied to the field in the contract. You can change the value manually, if needed. Besides this, a corresponding field in **Subscription Contract Setup** page exists.
 
+## Different currencies for usage data
+
+Use the **Allow Different Currency in Vendor Usage Data** and **Allow Different Currency in Customer Usage Data** fields to control what happens when the currency of imported usage data doesn't match the currency of the vendor or customer subscription contract. If you turn on the field, amounts are automatically converted to the contract's currency when usage data billing is created. If you turn off the field, an error is raised instead whenever the usage data's currency differs from the contract's currency. To learn more about usage data, go to [Import data in usage-based billing](../../UBB/processing-usage-data/imports-processing.md).
+
 ## Related information
 
 [General setup](general.md)  

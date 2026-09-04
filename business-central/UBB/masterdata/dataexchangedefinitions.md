@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
-ms.date: 08/14/2024
+ms.date: 09/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -22,6 +22,8 @@ The data exchange definition example in this article refers to an import file fo
 ## Definition for data import
 
 For billing, you must first import and process data. To learn more, go to [Imports and processing](../processing-usage-data/imports-processing.md). For [!INCLUDE [prod_short](../../includes/prod_short.md)] to extract the data from the CSV file, it needs the data's schema. The schema is available on the [usage data supplier](suppliers.md).
+
+When you set up the field mappings, ensure they cover at least the fields listed under [Minimum data requirements](../processing-usage-data/imports-processing.md#minimum-data-requirements). Without these fields, [!INCLUDE [prod_short](../../includes/prod_short.md)] can't process the usage data.
 
 > [!NOTE]
 > Usage-based billing provides the **USAGEBASED** data exchange definition as an example. You can use the definition, but you must adapt it to your setup. You can import and export data exchange definitions on the **Data Exchange Definition** page by using the **Import Data Exchange Definition** and **Export Data Exchange Definition** actions.
@@ -66,14 +68,14 @@ On the **General** FastTab, fill in the fields as follows:
 On the **Field Mapping** FastTab, fill in the fields as follows:
     
    * The **Column No.** field specifies a column definition, and the **Field ID** field specifies a target field from the table specified in the **Table ID** field.
-   * The **Overwrite Value** checkbox indicates that field contents in the target table can be overwritten, if needed. We recommended that you select this checkbox for the **Subscription ID**, **Product ID**, **Product Name**, and **Quantity** fields, as described in the following table.
+   * The **Overwrite Value** checkbox indicates that field contents in the target table can be overwritten, if needed. Some fields are automatically filled in from already known usage data suppliers, customers, and subscriptions before the column value for that field is applied: **Customer ID** fills in **Customer Name**, and **Subscription ID** fills in **Product ID**, **Product Name**, and **Quantity**. To ensure that the value from the import file is used instead of the automatically filled-in value, select the **Overwrite Value** checkbox for the **Customer Name**, **Subscription ID**, **Product ID**, **Product Name**, and **Quantity** fields, as described in the following table.
 
 The following table provides a complete example of a setup on the **Field Mapping** FastTab on the **Field Mapping** page.
 
 |Column No.  |Column Caption  |Field ID  |Field Caption  |Optional  |Transformation Rule  |Overwrite Value  |Priority  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |2    | Customer ID   |  7       |   Customer ID      | |No |No | 0|
-|3    | Customer Name |  8       |   Customer Name      | |No | No| 0|
+|3    | Customer Name |  8       |   Customer Name      | |No | Yes| 0|
 |7    | Subscription ID |10      |   Subscription ID      | |No | Yes | 0|
 |8    | Product ID    |  17      |   Product ID      | |No | Yes| 0|
 |10   | Product Name |   18      |    Product Name     | |No | Yes| 0|

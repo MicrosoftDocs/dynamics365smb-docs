@@ -4,9 +4,9 @@ description: This article outlines the procedures for how to replan production o
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
-ms.date: 03/18/2025
+ms.date: 09/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -23,7 +23,7 @@ The **Refresh** action on production orders is typically used after you:
 
 The **Refresh** action calculates changes to a production order header and doesn't involve production BOM levels. The action calculates and initiates the values of the component lines and routing lines based on the production BOM and routing. The calculation is according to the order quantity and due date on the production order’s header.
 
-You can either insert the production order lines manually or use the action that calculates the production order lines from the header.  
+You can either insert the production order lines manually or use the action that calculates the production order lines from the header. If you add lines manually (for example, when you produce multiple variants in one order), you can leave the **Source Type** and **Source No.** fields blank on the header and refresh with only the **Routings** and **Component Need** toggles turned on to generate routings and components without replacing the lines.
 
 > [!NOTE]
 > If you use the **Refresh** action to recalculate production order lines, [!INCLUDE [prod_short](includes/prod_short.md)] deletes the existing production order lines and calculates new lines.
@@ -71,10 +71,10 @@ If you change production order lines, components, or routing lines, you must als
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|Scheduling starts from the starting date and proceeds forward to the finishing date. You must fill in the starting date to use this option.|  
     ||**Backward**|Scheduling starts from the ending date and proceeds backward to the starting date.|  
-    |**Calculate**|**Lines**|Select this field to calculate the production order lines.|  
-    ||**Routings**|This field doesn't affect the calculations on production lines.|  
-    ||**Component Need**|This field doesn't affect the calculations on production lines.|  
-    |**Warehouse**|**Create Inbound Request**|This field doesn't affect the calculations on production lines.|  
+    |**Calculate**|**Lines**|Calculates production order lines from the header's **Source No.** field. Turn off this option if you added lines manually and want to keep them.|  
+    ||**Routings**|Calculates routing operations for each production order line based on the production BOM and routing. If a stockkeeping unit (SKU) exists for the line's item-variant-location combination, the system uses the routing from the SKU. Otherwise, it uses the routing assigned on the item card.|  
+    ||**Component Need**|Calculates component lines for each production order line based on the production BOM. The same SKU-or-item-card lookup applies as for routings.|  
+    |**Warehouse**|**Create Inbound Request**|Creates an inbound warehouse request for putting away the finished production output. This option doesn't affect line or component calculations. You can also create the request later from a released production order by using the **Create Inbound Whse. Request** action.|  
 
 5. Choose the **OK** button to confirm your selection. The production order lines are calculated.
 

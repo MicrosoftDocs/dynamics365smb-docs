@@ -6,13 +6,13 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 291, 292, 293, 295, 517, 9010, 9038
-ms.date: 06/17/2026
+ms.date: 07/22/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Planning
 
-The production operations required to transform inputs into finished goods must be planned daily or weekly depending on the volume and nature of the products. [!INCLUDE[prod_short](includes/prod_short.md)] offers features to supply for anticipated and actual demand from sale, assembly, and production as well as features for distribution planning using stockkeeping units and location transfers.
+Supply planning in [!INCLUDE[prod_short](includes/prod_short.md)] helps balance demand and supply for items that you purchase, assemble, manufacture, or transfer between locations. It plans both independent demand from sales and forecasts and dependent demand for components. On the **Planning Worksheet** page, you can run the master production schedule (MPS), material requirements planning (MRP), or both to suggest purchase, transfer, assembly, and production orders.
 
 > [!NOTE]
 > This article mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** page.

@@ -1,7 +1,7 @@
 ---
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
-ms.date: 07/03/2026
+ms.date: 09/03/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -47,7 +47,11 @@ You can schedule the following recurring activities to be performed in an automa
 > [!NOTE]
 > Several tasks might update some elements. For example, when you import orders, depending on the setting on the **Shopify Shop Card** page, [!INCLUDE [prod_short](../includes/prod_short.md)] might also import and update customer and/or product data. To avoid conflicts, remember to use the same job queue category.
 >
-> Use the **Report Request Page** action to define filters and parameters. For example, you can specify that you import orders only when their status is **Fully Paid**, or turn on the **Only Sync Prices** toggle to ensure that product synchronization only updates prices, but not products.
+> Use the **Report Request Page** action to define filters and parameters. For example, you can specify that you import orders only when their status is **Fully Paid**.
+>
+> For report 30108, turn on the **Only Sync Prices** toggle to update prices without synchronizing products. Learn more at [Sync prices to the Shopify products page](synchronize-prices.md#sync-prices-to-the-shopify-products-page).
+>
+> For report 30102, you can limit the export to specific Shopify variant IDs or skip importing Shopify inventory before export. Learn more at [Run a targeted inventory sync](synchronize-inventory.md#run-a-targeted-inventory-sync).
 
 Other tasks that can be helpful to automate further processing of sales documents:
 

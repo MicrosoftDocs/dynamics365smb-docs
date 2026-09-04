@@ -219,5 +219,6 @@ The **Usage Data Billing Metadata** page contains the data that serves as the ba
 ## Related information
 
 [Linking supplier subscriptions with subscriptions](connect-subscription-service-object.md)  
+[Rebilling usage data](rebilling.md)  
 [Usage-based billing customers and subscriptions](../masterdata/customers-subscriptions.md)  
 [Extension of subscription lines](../masterdata/service-commitments.md)  

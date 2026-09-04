@@ -21,6 +21,9 @@ In addition to the **Customer Subscription Contract** page, the **Extend Contrac
 
 The **Subscription** field is available on the **Extend Contract** page on the **Vendor** FastTab. When you open the page from the **Usage Data Supp. Subscriptions** or **Imported Lines** pages, the subscription is automatically predefined. When you open the page from the menu, you can also select the (supplier) subscription using the AssistEdit :::image type="content" source="../../media/assist-edit-icon.png" alt-text="AssistEdit icon."::: button. The **Quantity** and **Provision Start Date** fields are predefined based on the (supplier) subscription. The item is also preselected if it was found through [references for products](../masterdata/references.md#references-for-products). If not, you can select it manually.
 
+> [!NOTE]
+> You can't select an item variant when extending a contract based on usage data, because usage data suppliers typically publish a separate item for each subscription plan or tier rather than modeling them as item variants. To learn more, go to [References for products](../masterdata/references.md#references-for-products).
+
 If you extend a contract, the created subscription lines automatically have a link to the [references for subscriptions](../masterdata/references.md#references-for-subscriptions), based on which the future usage data can be found and processed.
 
 ## Related information

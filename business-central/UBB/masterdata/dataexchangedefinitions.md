@@ -68,14 +68,14 @@ On the **General** FastTab, fill in the fields as follows:
 On the **Field Mapping** FastTab, fill in the fields as follows:
     
    * The **Column No.** field specifies a column definition, and the **Field ID** field specifies a target field from the table specified in the **Table ID** field.
-   * The **Overwrite Value** checkbox indicates that field contents in the target table can be overwritten, if needed. We recommended that you select this checkbox for the **Subscription ID**, **Product ID**, **Product Name**, and **Quantity** fields, as described in the following table.
+   * The **Overwrite Value** checkbox indicates that field contents in the target table can be overwritten, if needed. Some fields are automatically filled in from already known usage data suppliers, customers, and subscriptions before the column value for that field is applied: **Customer ID** fills in **Customer Name**, and **Subscription ID** fills in **Product ID**, **Product Name**, and **Quantity**. To make sure that the value from the import file is used instead of the automatically filled-in value, select the **Overwrite Value** checkbox for the **Customer Name**, **Subscription ID**, **Product ID**, **Product Name**, and **Quantity** fields, as described in the following table.
 
 The following table provides a complete example of a setup on the **Field Mapping** FastTab on the **Field Mapping** page.
 
 |Column No.  |Column Caption  |Field ID  |Field Caption  |Optional  |Transformation Rule  |Overwrite Value  |Priority  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |2    | Customer ID   |  7       |   Customer ID      | |No |No | 0|
-|3    | Customer Name |  8       |   Customer Name      | |No | No| 0|
+|3    | Customer Name |  8       |   Customer Name      | |No | Yes| 0|
 |7    | Subscription ID |10      |   Subscription ID      | |No | Yes | 0|
 |8    | Product ID    |  17      |   Product ID      | |No | Yes| 0|
 |10   | Product Name |   18      |    Product Name     | |No | Yes| 0|

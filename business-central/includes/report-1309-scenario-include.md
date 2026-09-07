@@ -1,0 +1,1 @@
+Use the report when a warehouse or customer service employee needs to send a customer formal confirmation of the items received back after a sales return, including quantities, dates, and shipping references.

@@ -1,1 +1,1 @@
-Use the report when finance or compliance teams need to document how quickly the company pays its vendors over a given period, for example to meet statutory payment practice reporting requirements or to review internal payment performance.
+Use the report when finance or compliance teams need to document a company's payment behavior toward vendors for a given period, for example to meet statutory payment practice reporting requirements or to review internal payment performance.

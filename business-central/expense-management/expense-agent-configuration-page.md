@@ -3,7 +3,7 @@ title: Set up Expense Agent
 description: Learn how to set up Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 08/11/2026
+ms.date: 08/21/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ai-usage: ai-assisted
@@ -30,8 +30,6 @@ For most organizations, assisted setup is the best way to get started quickly.
 Before you set up the Expense Agent, make sure the following prerequisites are met:
 
 - The Business Central environment is a country or region version supported by the Expense Agent as listed in [Feature availability by country/region and language](../copilot-agents-region-language-availability.md#feature-availability-by-countryregion-and-language).
-
-- In Business Central environments in the United States, the Expense Agent uses an Anthropic Claude model, so you must enable Anthropic as a subprocessor in the **Microsoft 365 Admin Center**. Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor). In other countries or regions, the Expense Agent uses an OpenAI GPT model, which requires no additional AI subprocessor configuration.
 
 - Your Business Central account has the **AGENT ADMIN** and **EXPENSE MGMT. ADMIN** permission sets or equivalent permissions.
 

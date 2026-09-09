@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Expense Agent (preview)
 description: Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 08/11/2026
+ms.date: 08/21/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -30,7 +30,7 @@ These frequently asked questions (FAQ) describe the AI effect of Expense Agent i
 
 ## What can Expense Agent do? 
 
-The Expense Agent streamlines the entire expense lifecycle, from receipt capture to reporting and approval. In the United States, it uses an Anthropic Claude model for AI processing. In other countries or regions, it uses OpenAI GPT.
+The Expense Agent streamlines the entire expense lifecycle, from receipt capture to reporting and approval. The agent uses an OpenAI GPT model for AI processing.
 
 The agent provides the following capabilities:  
 

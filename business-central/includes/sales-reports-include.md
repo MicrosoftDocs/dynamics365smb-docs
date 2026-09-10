@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/02/2026
+ms.date: 09/10/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -11,6 +11,10 @@ The following table describes some of the key reports for sales. The reports hel
 
 | To do this | Open this report in Business Central (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
+| [!INCLUDE [report-1304-scenario](../includes/report-1304-scenario-include.md)] | [Standard Sales - Quote](https://businesscentral.dynamics.com?report=1304) | [About *Standard Sales - Quote*](../reports/report-1304.md) | 1304 |
+| [!INCLUDE [report-1305-scenario](../includes/report-1305-scenario-include.md)] | [Standard Sales - Order Conf.](https://businesscentral.dynamics.com?report=1305) | [About *Standard Sales - Order Conf.*](../reports/report-1305.md) | 1305 |
+| [!INCLUDE [report-1308-scenario](../includes/report-1308-scenario-include.md)] | [Standard Sales - Shipment](https://businesscentral.dynamics.com?report=1308) | [About *Standard Sales - Shipment*](../reports/report-1308.md) | 1308 |
+| [!INCLUDE [report-1309-scenario](../includes/report-1309-scenario-include.md)] | [Standard Sales - Return Rcpt.](https://businesscentral.dynamics.com?report=1309) | [About *Standard Sales - Return Rcpt.*](../reports/report-1309.md) | 1309 |
 | [!INCLUDE [report-4409-scenario](../includes/report-4409-scenario-include.md)] | [Customer - Top list Excel](https://businesscentral.dynamics.com?report=4409) | [About Customer - Top list Excel](../reports/report-4409.md) | 4409 |
 | [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About Customer - Order Summary](../reports/report-107.md) | 107 |
 | [!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)] | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About Customer - Order Detail](../reports/report-108.md) | 108 |
@@ -28,4 +32,3 @@ The following table describes some of the key reports for sales. The reports hel
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Sales Statistics](https://businesscentral.dynamics.com?report=112)<br><br>**Note:** This report isn't available in the United States, Canada, and Mexico. Instead, use the **Customer Sales Statistics** ([10047](https://businesscentral.dynamics.com?report=10047)) report. | [About Sales Statistics](../reports/report-112.md) | 112 |
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Customer - Sales list](https://businesscentral.dynamics.com?report=119) | [About Customer - Sales list](../reports/report-119.md) | 119 |
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Sales Reservation Avail.](https://businesscentral.dynamics.com?report=209) | [About Sales Reservation Avail.](../reports/report-209.md) | 209 |
-

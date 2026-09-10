@@ -1,0 +1,1 @@
+Use the report when you enter or update a sales order and a salesperson or order processor needs to send the customer written confirmation of items, prices, discounts, and shipment details before fulfilling the order.

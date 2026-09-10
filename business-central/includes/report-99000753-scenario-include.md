@@ -1,1 +1,1 @@
-Get an in-depth analysis of the bills of materials (BOMs) for selected manufacturing items. Offers a clear hierarchy of components. Subcomponents are indented below their parent items.
+Use the report when a production planner or manufacturing manager needs to see the fully exploded, indented BOM structure for one or more items as of a chosen calculation date to determine component quantities required at every level.

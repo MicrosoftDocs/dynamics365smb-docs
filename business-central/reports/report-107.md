@@ -1,91 +1,48 @@
 ---
 title: Customer - Order Summary (report)
-description: Analyze your nonshipped orders to understand your expected sales volume. This information helps you forecast your expected monthly sales revenue.
+description: See outstanding sales order amounts by customer, grouped into 30-day shipment periods, to gauge expected sales volume.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_107_Primary
-ms.date: 10/03/2024
+ms.date: 09/10/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
+ - ai-seo-date: 09/10/2026
 ai.usage: ai-assisted
 ---
 
 # Customer - Order Summary (report)
 
-The **Customer - Order Summary** report shows the sales order details, including the quantity not yet shipped for each customer in three periods of 30 days each, starting from a date that you specify. You can also display orders to ship before and after the three periods, and the total order details for each customer.
+The **Customer - Order Summary** report shows the outstanding quantity not yet shipped for each customer, broken down into three consecutive 30-day periods starting from a date you specify. It also includes columns for orders due before and after those three periods, plus a total order amount per customer, so you get a full picture of a customer's open order pipeline. The report can be generated with amounts shown in local currency (LCY) or in the original currency of each order.
 
-For a detailed breakdown of each order line, use the **Customer - Order Detail** report.
-
-## Available layouts
-
-[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
-
-[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+You can filter the report by customer number, search name, customer posting group, and currency filter to narrow the report to specific customers or currencies. You also set a starting date, which determines the beginning of the three 30-day periods used to group outstanding order amounts, and you can choose whether amounts are shown in LCY.
 
 ## Use cases
 
 [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)]
 
-<!-- 
-Prompt
+Sales managers can use the report to:
 
-Below is a report in an ERP system. Provide 3-4 use cases for different personas working with sales.
-Format like this:    
-  
-As a <persona>, use the report to    
-* use case 1  
-* use case 2    
+* Review which customers have large outstanding order volumes due for shipment in the next 30, 60, or 90 days.
+* Identify customers with orders overdue for shipment by checking the 'before' period column.
+* Plan capacity and prioritize order fulfillment based on upcoming shipment periods per customer.,Controllers and finance teams can use the report to:
 
-Do not capitalize the persona names. 
-
-## Report description
-Shows the order detail with the quantity not yet shipped for each customer in three periods of 30 days each, starting from the specified date. There are also columns with orders to be shipped before and after the three periods and a column with the total order detail for each customer. Use the report to analyze a company's expected sales volume.
-
-### What the report does
-Shows the sales order detail with the quantity not yet shipped for each customer in three periods of 30 days each, starting from the specified date. 
-
-You can also see orders to be shipped before and after the three periods as well as the total order detail for each customer. 
-
-For a detailed breakdown for each order line, use the Customer - Order Detail Report.
-
-### Use cases
-Analyze your nonshipped orders in order to understand your expected sales volume.
-
-Assists you to Forecast your expected monthly sales revenue.
-
-Please include your data sources and URLs
-
--->
-
-Sales representatives use the report to:
-
-* Analyze customer order history and identify trends or patterns in their purchasing behavior.
-* Determine which customers have the most outstanding orders and prioritize follow-up.
-* Identify the orders to ship in the next 30 days and communicate shipping timelines to customers.
-
-Sales managers use the report to:
-
-* Analyze sales performance across customers and regions.
-* Determine which customers have the most outstanding orders and prioritize follow-up.
-* Identify bottlenecks or inefficiencies in the sales process, and make data-driven decisions to improve performance.
+* Estimate expected sales revenue by period using order amounts grouped by shipment date.
+* Compare outstanding order amounts in LCY versus original currency to assess currency exposure.
+* Use customer and currency filters to analyze order backlogs for specific markets or currency zones.
 
 ## Try the report
 
 Try the report here: [Customer - Order Summary](https://businesscentral.dynamics.com?report=107)
 
-<!-- [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)] -->
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Related information
 
-[Sales reports](../sales-reports.md)  
-[Accounts receivable report overview](../receivables-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
-[Sales analytics overview](../sales-analytics-overview.md)  
+[Sales reports](../sales-reports.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

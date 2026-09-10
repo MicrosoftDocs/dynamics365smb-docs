@@ -629,6 +629,10 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
+##### [Standard Sales - Quote](reports/report-1304.md)
+##### [Standard Sales - Order Conf.](reports/report-1305.md)
+##### [Standard Sales - Shipment](reports/report-1308.md)
+##### [Standard Sales - Return Rcpt.](reports/report-1309.md)
 ##### [Customer Top List Excel](reports/report-4409.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)

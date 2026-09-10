@@ -1,1 +1,1 @@
-Examine your component requirements and assess the availability of stock on the projected due dates. Identify discrepancies between the required components and their inventory levels, and ensure that all materials are available for consumption when they're needed. Proactively address potential shortages and avoid delays in production processes.
+Use the report when a production planner or shop floor supervisor needs to check whether components on open production orders are available by their due date, so they can resolve shortages before delaying production.

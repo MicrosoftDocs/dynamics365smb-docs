@@ -4,6 +4,7 @@ description: Learn how to configure a standard calendar for your Power BI Semant
 author: kennieNP
 ms.topic: get-started
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
+ms.search.form: 36951,
 ms.date: 03/03/2026
 ms.author: kepontop
 ms.reviewer: bholtorf

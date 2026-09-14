@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, inventory, ABC analysis
-ms.search.form: 37111_Primary
+ms.search.form: 37111_Primary, 36951,
 ms.date: 05/26/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

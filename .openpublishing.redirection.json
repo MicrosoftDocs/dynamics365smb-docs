@@ -1023,6 +1023,11 @@
             "source_path": "business-central/shopify/setup-taxes.md",
             "redirect_url": "/dynamics365/business-central/shopify/synchronize-prices",
             "redirect_document_id": false
-         }               
+         },
+    {
+      "source_path": "business-central/about-reuse-company-invoicing.md",
+      "redirect_url": "/dynamics365/business-central",
+      "redirect_document_id": false
+    }
         ]
 }

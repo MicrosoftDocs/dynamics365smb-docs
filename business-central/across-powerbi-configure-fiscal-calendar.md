@@ -4,6 +4,7 @@ description: Learn how to configure a fiscal calendar for your Power BI Semantic
 author: kennieNP
 ms.topic: get-started
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
+ms.search.form: 36951,
 ms.date: 03/03/2026
 ms.author: kepontop
 ms.reviewer: bholtorf

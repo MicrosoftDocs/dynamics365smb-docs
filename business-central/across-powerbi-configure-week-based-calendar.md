@@ -4,6 +4,7 @@ description: Learn how to configure a week based calendar for your Power BI Sema
 author: kennieNP
 ms.topic: get-started
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
+ms.search.form: 36951,
 ms.date: 02/19/2026
 ms.author: kepontop
 ms.reviewer: v-soumramani

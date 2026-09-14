@@ -5,10 +5,11 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.form: 36951,
 ms.date: 10/17/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ---
 
 # Use the [!INCLUDE [prod_short](includes/prod_short.md)] apps in Power BI

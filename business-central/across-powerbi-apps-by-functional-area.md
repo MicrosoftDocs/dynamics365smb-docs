@@ -6,7 +6,8 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: feature overview
-ms.date: 05/13/2026
+ms.search.form: 36951,
+ms.date: 09/14/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

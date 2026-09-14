@@ -6,7 +6,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: 
+ms.search.form: 36951, 
 ms.date: 06/04/2025
 ms.service: dynamics-365-business-central
 ---

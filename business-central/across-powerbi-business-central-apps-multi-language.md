@@ -5,9 +5,11 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
+ms.search.forms: 36951,
 ms.date: 10/17/2025
 ms.author: kepontop
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Multi-language [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]

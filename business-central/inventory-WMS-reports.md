@@ -1,13 +1,13 @@
 ---
-title: Inventory and warehouse reports and analytics
+title: Inventory and Warehouse Reports and Analytics
 description: Explore the inventory and warehouse reports and analytics that are available in the standard version of Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: Report_704, Report_707, Report_711, Report_713, Report_716, Report_723, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
-ms.date: 04/30/2026
+ms.search.form: Report_704, Report_707, Report_711, Report_713, Report_716, Report_723, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_6625, Report_6626, Report_6627, Report_6628, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
+ms.date: 09/16/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -32,18 +32,18 @@ The following articles describe some of the key tasks for analyzing the state of
 
 ## Print and scan barcodes
 
-Using barcodes can help streamline your inbound, outbound, and internal warehouse processes. 
+Using one-dimensional (1D) and two-dimensional (2D) barcodes can help streamline your inbound, outbound, and internal warehouse processes.
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
 You can use the **Print Label** action to print 1D and 2D barcodes from the pages listed in the following table.
 
-|Page  |Field values barcodes can include  |
-|---------|---------|
-|Items, Item Card     |Item No., Description, and GTIN         |
-|Item Reference List, Item Reference     |Item No., Description, Unit of Measure, and Reference No.         |
-|Lot No. Information List, Lot No. Label     |Item No., Description, and Lot Number       |
-|SN Label     |No., Description, and Serial Number         |
+| Pages where you can print labels | Fields shown as text | Value encoded in the Code 39 barcode and QR code |
+|---------|---------|---------|
+| **Items**, **Item Card** | **Item No.** and **Description** | **GTIN** |
+| **Item Reference List**, **Item Reference Entries** | **Item No.**, **Description**, and **Unit of Measure** | **Reference No.** |
+| **Lot No. Information List**, **Lot No. Information Card** | **Item No.** and **Description** | **Lot Number** |
+| **Serial No. Information List**, **Serial No. Information Card** | **Item No.** and **Description** | **Serial Number** |
 
 > [!NOTE]
 > Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template or clone the report to create your own customized version.

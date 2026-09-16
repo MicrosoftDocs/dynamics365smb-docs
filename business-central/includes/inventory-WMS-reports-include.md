@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 03/21/2024
+ms.date: 09/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -9,7 +9,7 @@ ms.reviewer: bholtorf
 
 The following table describes some of the key reports in inventory and warehouse management.
 
-| To... | Open in Business Central (CTRL+select) | Learn more | ID | 
+| To... | Open in Business Central (hold <kbd>Ctrl</kbd> and select) | Learn more | ID |
 |-------|------------| ------------|----|
 | [!INCLUDE [report-704-scenario](../includes/report-704-scenario-include.md)] | [Inventory - Transaction Detail](https://businesscentral.dynamics.com?report=704) | [About Inventory - Transaction Detail](../reports/report-704.md) | 704 |
 | [!INCLUDE [report-705-scenario](../includes/report-705-scenario-include.md)] | [Inventory Availability](https://businesscentral.dynamics.com?report=705) | [About Inventory Availability](../reports/report-705.md) | 705 |
@@ -30,6 +30,10 @@ The following table describes some of the key reports in inventory and warehouse
 | [!INCLUDE [report-5806-scenario](../includes/report-5806-scenario-include.md)] | [ Item Charges - Specification](https://businesscentral.dynamics.com?report=5806) | [About Item Charges - Specification](../reports/report-5806.md) | 5806 |
 | [!INCLUDE [report-5808-scenario](../includes/report-5808-scenario-include.md)] | [Item Age Composition - Value](https://businesscentral.dynamics.com?report=5808) | [About *Item Age Composition - Value](../reports/report-5808.md) | 5808 |
 | [!INCLUDE [report-5809-scenario](../includes/report-5809-scenario-include.md)] | [Item Expiration - Quantity](https://businesscentral.dynamics.com?report=5809) | [About Item Expiration - Quantity](../reports/report-5809.md) | 5809 |
+| [!INCLUDE [report-6625-scenario](../includes/report-6625-scenario-include.md)] | [Item GTIN Label](https://businesscentral.dynamics.com?report=6625) | [About Item GTIN Label](../reports/report-6625.md) | 6625 |
+| [!INCLUDE [report-6626-scenario](../includes/report-6626-scenario-include.md)] | [Reference No. Label](https://businesscentral.dynamics.com?report=6626) | [About Reference No. Label](../reports/report-6626.md) | 6626 |
+| [!INCLUDE [report-6627-scenario](../includes/report-6627-scenario-include.md)] | [SN Label](https://businesscentral.dynamics.com?report=6627) | [About SN Label](../reports/report-6627.md) | 6627 |
+| [!INCLUDE [report-6628-scenario](../includes/report-6628-scenario-include.md)] | [Lot No Label](https://businesscentral.dynamics.com?report=6628) | [About Lot No Label](../reports/report-6628.md) | 6628 |
 | [!INCLUDE [report-7150-scenario](../includes/report-7150-scenario-include.md)] | [Item Dimensions - Detail](https://businesscentral.dynamics.com?report=7150) | [About Item Dimensions - Detail](../reports/report-7150.md) | 7150 |
 | [!INCLUDE [report-7151-scenario](../includes/report-7151-scenario-include.md)] | [Item Dimensions - Total](https://businesscentral.dynamics.com?report=7151) | [About Item Dimensions - Total](../reports/report-7151.md) | 7151 |
 | [!INCLUDE [report-7313-scenario](../includes/report-7313-scenario-include.md)] | [Warehouse Shipment Status](https://businesscentral.dynamics.com?report=7313) | [About Warehouse Shipment Status](../reports/report-7313.md) | 7313 |

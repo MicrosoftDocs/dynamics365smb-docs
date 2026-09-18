@@ -1,0 +1,1 @@
+Use the report when a salesperson or sustainability coordinator creates a sales quote and needs to show the customer the CO2e per unit and total CO2e for the quoted items alongside the usual pricing and terms.

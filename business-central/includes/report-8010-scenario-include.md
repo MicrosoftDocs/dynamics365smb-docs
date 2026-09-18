@@ -1,0 +1,1 @@
+Use the report when a sales employee confirms an order that includes subscription billing items and needs the printed or emailed confirmation to show the underlying service commitments and recurring billing amounts by period.

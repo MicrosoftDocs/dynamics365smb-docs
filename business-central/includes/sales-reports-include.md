@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/10/2026
+ms.date: 09/18/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -27,6 +27,13 @@ The following table describes some of the key reports for sales. The reports hel
 | [!INCLUDE [report-708-scenario](../includes/report-708-scenario-include.md)] | [Inventory Order Details](https://businesscentral.dynamics.com?report=708) | [About Inventory Order Details](../reports/report-708.md) | 708 |
 | [!INCLUDE [report-718-scenario](../includes/report-718-scenario-include.md)] | [Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718) | [About Inventory Sales Back Orders](../reports/report-718.md) | 718 |
 | [!INCLUDE [report-813-scenario](../includes/report-813-scenario-include.md)] | [Inventory Picking List](https://businesscentral.dynamics.com?report=813) | [About Inventory Picking List](../reports/report-813.md) | 813 |
+| [!INCLUDE [report-6166-scenario](../includes/report-6166-scenario-include.md)] | [PostedSalesInvoiceWithQR](https://businesscentral.dynamics.com?report=6166) | [About *PostedSalesInvoiceWithQR*](../reports/report-6166.md) | 6166 |
+| [!INCLUDE [report-6168-scenario](../includes/report-6168-scenario-include.md)] | [PostedSalesCrdMemoWithQR](https://businesscentral.dynamics.com?report=6168) | [About *PostedSalesCrdMemoWithQR*](../reports/report-6168.md) | 6168 |
+| [!INCLUDE [report-6298-scenario](../includes/report-6298-scenario-include.md)] | [Sust. Standard Sales Quote](https://businesscentral.dynamics.com?report=6298) | [About *Sust. Standard Sales Quote*](../reports/report-6298.md) | 6298 |
+| [!INCLUDE [report-6299-scenario](../includes/report-6299-scenario-include.md)] | [Sust. Standard Sales Invoice](https://businesscentral.dynamics.com?report=6299) | [About *Sust. Standard Sales Invoice*](../reports/report-6299.md) | 6299 |
+| [!INCLUDE [report-8008-scenario](../includes/report-8008-scenario-include.md)] | [Contract Standard Sales Inv.](https://businesscentral.dynamics.com?report=8008) | [About *Contract Standard Sales Inv.*](../reports/report-8008.md) | 8008 |
+| [!INCLUDE [report-8010-scenario](../includes/report-8010-scenario-include.md)] | [Contract Sales Order Conf.](https://businesscentral.dynamics.com?report=8010) | [About *Contract Sales Order Conf.*](../reports/report-8010.md) | 8010 |
+| [!INCLUDE [report-8011-scenario](../includes/report-8011-scenario-include.md)] | [Contract Standard Sales Quote](https://businesscentral.dynamics.com?report=8011) | [About *Contract Standard Sales Quote*](../reports/report-8011.md) | 8011 |
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Customer - Top 10 list](https://businesscentral.dynamics.com?report=111) | [About Customer - Top 10 list](../reports/report-111.md) | 111 |
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Customer List](https://businesscentral.dynamics.com?report=101) | [About Customer List](../reports/report-101.md) | 101 |
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Sales Statistics](https://businesscentral.dynamics.com?report=112)<br><br>**Note:** This report isn't available in the United States, Canada, and Mexico. Instead, use the **Customer Sales Statistics** ([10047](https://businesscentral.dynamics.com?report=10047)) report. | [About Sales Statistics](../reports/report-112.md) | 112 |

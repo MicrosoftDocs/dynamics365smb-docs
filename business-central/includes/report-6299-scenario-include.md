@@ -1,0 +1,1 @@
+Use the report when a company must issue sales invoices that disclose CO2e emissions per line and in total, so customers and auditors can see the environmental footprint of a sale alongside the standard financial details.

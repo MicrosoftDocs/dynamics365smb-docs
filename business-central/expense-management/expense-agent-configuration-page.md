@@ -3,7 +3,7 @@ title: Set up Expense Agent
 description: Learn how to set up Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 08/21/2026
+ms.date: 09/17/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ai-usage: ai-assisted
@@ -31,7 +31,17 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - The Business Central environment is a country or region version supported by the Expense Agent as listed in [Feature availability by country/region and language](../copilot-agents-region-language-availability.md#feature-availability-by-countryregion-and-language).
 
-- Your Business Central account has the **AGENT ADMIN** and **EXPENSE MGMT. ADMIN** permission sets or equivalent permissions.
+- You have one of the following permission configurations:
+
+  - The **SUPER** permission set.
+  - All of the following permission sets:
+
+    - **AGENT - ADMIN**
+    - **EXPENSE MGMT. ADMIN**
+    - **EXPENSE AGENT**
+    - **SECURITY**
+
+  The permission sets must be assigned to the company you're configuring or to all companies. Equivalent object permissions don't satisfy this prerequisite because activation manages the Microsoft Entra application for Expense Agent and the application's company-specific permissions.
 
 - A shared mailbox is available for receiving expense submissions from employees and for communication with users sending different information reports back.  
   

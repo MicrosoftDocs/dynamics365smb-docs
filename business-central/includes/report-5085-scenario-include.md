@@ -1,0 +1,1 @@
+Use the report when a sales or marketing employee needs to prepare a cover sheet for correspondence sent to a contact or to all contacts in a marketing segment, including the contact's and company's address and bank information.

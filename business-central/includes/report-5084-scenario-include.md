@@ -1,0 +1,1 @@
+Use the report when a salesperson or marketing employee runs a campaign segment and needs to send personalized letters or emails to contacts with a formal or informal salutation and free-text content.

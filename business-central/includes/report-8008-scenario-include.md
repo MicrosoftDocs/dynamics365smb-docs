@@ -1,0 +1,1 @@
+Use the report when a billing clerk or accounts receivable specialist posts a sales invoice that includes subscription contract lines and needs the customer-facing document to show the billing period, quantity, price, and discount for each subscription line.

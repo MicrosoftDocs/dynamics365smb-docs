@@ -1,12 +1,12 @@
 ---
-title: Standard Sales - Quote (report)
+title: Standard Sales - Quote report
 description: Generate a printed or emailed sales quote that presents item lines, prices, discounts, VAT, and totals to a prospective customer.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: Report_1304_Primary
+ms.search.form: Report_1304
 ms.date: 09/10/2026
 ms.service: dynamics-365-business-central
 ms.custom:
@@ -33,7 +33,8 @@ Sales representatives can use the report to:
 * Reprint a previously issued quote by filtering on the quote number.
 
 Sales managers and administrators can use the report to:
-* Automatically archive quotes when you print them, based on the Archive Quotes setup option.
+
+* Automatically archive quotes when you print them, based on the **Archive Quotes** setup option.
 * Log customer interactions for marketing and CRM tracking when you send a quote.
 * Review VAT amount specifications and invoice discount breakdowns before finalizing a quote into an order.
 

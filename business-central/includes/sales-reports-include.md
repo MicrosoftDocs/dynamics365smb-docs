@@ -11,8 +11,12 @@ The following table describes some of the key reports for sales. The reports hel
 
 | To do this | Open this report in Business Central (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
+| [!INCLUDE [report-1302-scenario](../includes/report-1302-scenario-include.md)] | [Standard Sales - Pro Forma Inv](https://businesscentral.dynamics.com?report=1302) | [About *Standard Sales - Pro Forma Inv*](../reports/report-1302.md) | 1302 |
+| [!INCLUDE [report-1303-scenario](../includes/report-1303-scenario-include.md)] | [Standard Sales - Draft Invoice](https://businesscentral.dynamics.com?report=1303) | [About *Standard Sales - Draft Invoice*](../reports/report-1303.md) | 1303 |
 | [!INCLUDE [report-1304-scenario](../includes/report-1304-scenario-include.md)] | [Standard Sales - Quote](https://businesscentral.dynamics.com?report=1304) | [About *Standard Sales - Quote*](../reports/report-1304.md) | 1304 |
 | [!INCLUDE [report-1305-scenario](../includes/report-1305-scenario-include.md)] | [Standard Sales - Order Conf.](https://businesscentral.dynamics.com?report=1305) | [About *Standard Sales - Order Conf.*](../reports/report-1305.md) | 1305 |
+| [!INCLUDE [report-1306-scenario](../includes/report-1306-scenario-include.md)] | [Standard Sales - Invoice](https://businesscentral.dynamics.com?report=1306) | [About *Standard Sales - Invoice*](../reports/report-1306.md) | 1306 |
+| [!INCLUDE [report-1307-scenario](../includes/report-1307-scenario-include.md)] | [Standard Sales - Credit Memo](https://businesscentral.dynamics.com?report=1307) | [About *Standard Sales - Credit Memo*](../reports/report-1307.md) | 1307 |
 | [!INCLUDE [report-1308-scenario](../includes/report-1308-scenario-include.md)] | [Standard Sales - Shipment](https://businesscentral.dynamics.com?report=1308) | [About *Standard Sales - Shipment*](../reports/report-1308.md) | 1308 |
 | [!INCLUDE [report-1309-scenario](../includes/report-1309-scenario-include.md)] | [Standard Sales - Return Rcpt.](https://businesscentral.dynamics.com?report=1309) | [About *Standard Sales - Return Rcpt.*](../reports/report-1309.md) | 1309 |
 | [!INCLUDE [report-4409-scenario](../includes/report-4409-scenario-include.md)] | [Customer - Top list Excel](https://businesscentral.dynamics.com?report=4409) | [About Customer - Top list Excel](../reports/report-4409.md) | 4409 |

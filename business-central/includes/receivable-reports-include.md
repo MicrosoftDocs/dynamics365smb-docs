@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 06/12/2024
+ms.date: 09/18/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -24,6 +24,7 @@ The following table describes some of the key reports in accounts receivable. Th
 | [!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)] | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About *Customer - Order Detail*](../reports/report-108.md) | 108 |
 | [!INCLUDE [report-112-scenario](../includes/report-112-scenario-include.md)] | [Sales Statistics](https://businesscentral.dynamics.com?report=112) | [About *Sales Statistics*](../reports/report-112.md) | 112 |
 | [!INCLUDE [report-113-scenario](../includes/report-113-scenario-include.md)] | [Customer/Item Sales](https://businesscentral.dynamics.com?report=113) | [About *Customer/Item Sales*](../reports/report-113.md) | 113 |
+| [!INCLUDE [report-117-scenario](../includes/report-117-scenario-include.md)] | [Reminder](https://businesscentral.dynamics.com?report=117) | [About *Reminder*](../reports/report-117.md) | 117 |
 | [!INCLUDE [report-121-scenario](../includes/report-121-scenario-include.md)]  | [Customer - Balance to Date](https://businesscentral.dynamics.com?report=121) | [About *Customer - Balance to Date*](../reports/report-121.md) | 121 |
 | [!INCLUDE [report-129-scenario](../includes/report-129-scenario-include.md)] | [Customer Trial Balance](https://businesscentral.dynamics.com?report=129) | [About *Customer Trial Balance*](../reports/report-129.md) | 129 |
 | [!INCLUDE [report-211-scenario](../includes/report-211-scenario-include.md)] | [Customer - Payment Receipt](https://businesscentral.dynamics.com?report=211) | [About *Customer - Payment Receipt*](../reports/report-211.md) | 211 |

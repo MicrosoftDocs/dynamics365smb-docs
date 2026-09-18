@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 03/10/2026
+ms.date: 09/18/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -25,6 +25,7 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-99000764-scenario](../includes/report-99000764-scenario-include.md)] | [Prod. Order - Precalc. Time](https://businesscentral.dynamics.com?report=99000764) | [About Prod. Order - Precalc. Time](../reports/report-99000764.md) | 99000764 |
 | [!INCLUDE [report-99000767-scenario](../includes/report-99000767-scenario-include.md)] | [Prod. Order - Calculation](https://businesscentral.dynamics.com?report=99000767) | [About Prod. Order - Calculation](../reports/report-99000767.md) | 99000767 |
 | [!INCLUDE [report-99000768-scenario](../includes/report-99000768-scenario-include.md)] | [Prod. Order Detailed Calc](https://businesscentral.dynamics.com?report=99000768) | [About Prod. Order Detailed Calc](../reports/report-99000768.md) | 99000768 |
+| [!INCLUDE [report-99000769-scenario](../includes/report-99000769-scenario-include.md)] | [Output Item Label](https://businesscentral.dynamics.com?report=99000769) | [About Output Item Label](../reports/report-99000769.md) | 99000769 |
 | [!INCLUDE [report-99000780-scenario](../includes/report-99000780-scenario-include.md)] | [Capacity Task list](https://businesscentral.dynamics.com?report=99000780) | [About Capacity Task List](../reports/report-99000780.md) | 99000780 |
 | [!INCLUDE [report-99000783-scenario](../includes/report-99000783-scenario-include.md)] | [Work Center Load](https://businesscentral.dynamics.com?report=99000783) | [About Work Center Load](../reports/report-99000783.md) | 99000783 |
 | [!INCLUDE [report-99000784-scenario](../includes/report-99000784-scenario-include.md)] | [Machine Center Load](https://businesscentral.dynamics.com?report=99000784) | [About Machine Center Load](../reports/report-99000784.md) | 99000784 |

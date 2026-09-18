@@ -1,0 +1,1 @@
+Use the report when a finance or sales user needs to send a customer a printed or emailed copy of a posted sales credit memo, so the customer receives a record of the credited amount, VAT, and any applied invoice reference.

@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Link supplier subscriptions with subscriptions
 
-If you ship a usage-based subscription item with a sales order in advance, you need to link the subscription to a supplier subscription once the usage data is imported to fully process usage data. Use the **Connect Supplier Subscription to Subscription** page for this task.
+If you shipped a usage-based subscription item with a sales order in advance, you need to link the subscription to a supplier subscription once the usage data has been imported in order to be able to process usage data fully. You can use the **Connect Supplier Subscription to Subscription** page for this purpose.
 
 On the **Usage Data Generic Import** page, the **Subscription Availability** field shows whether a line is ready to be linked. **Not Available** means no matching subscription line was found yet, for example because the required item or reference setup is missing, or because no free subscription line exists to connect to. **Available** means a subscription line was found and the connection can be made using the following procedure. **Connected** means the line is already linked to a subscription and can be processed further and subsequently invoiced.
 

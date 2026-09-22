@@ -42,7 +42,7 @@ The reference displays on the **Usage Data Supplier References** page as type **
 > [!NOTE]
 > For each item, you can enter a separate product reference per [Usage data suppliers](suppliers.md). [!INCLUDE [prod_short](../../includes/prod_short.md)] uses the reference to suggest the appropriate item as part of the [Extend contract](../processing-usage-data/extend-contract.md) functionality. If the product references aren't stored in the item master data, you can also select the corresponding item manually.
 
-The system matches product references at the item level, not per item variant. Usage data suppliers typically publish a separate item for each subscription plan or tier instead of modeling them as variants of one item, for example because of differences in contract term or pricing. For this reason, item variants aren't used when matching or creating subscription lines from usage data. To learn more, go to [Extend a contract](../processing-usage-data/extend-contract.md).
+Product references are matched at the item level, not per item variant. Usage data suppliers typically publish a separate item for each subscription plan or tier instead of modeling them as variants of one item, for example because of differences in contract term or pricing. For this reason, item variants aren't used when matching or creating subscription lines from usage data. To learn more, go to [Extend a contract](../processing-usage-data/extend-contract.md).
 
 ## References for customers
 

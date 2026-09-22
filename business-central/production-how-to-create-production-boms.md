@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.search.keywords: production bom, bills of material, 
+ms.search.keywords: production bom, bills of material, recipe, formula, ingredients
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
-ms.date: 06/03/2026
+ms.date: 07/22/2026
 ms.service: dynamics-365-business-central
 ---
 # Create production BOMs
 
-A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of an item. When you create a production order for an item, its production BOM governs the calculation of material requirements as represented on the **Prod. Order Components** page.
+A production bill of materials (BOM) holds master data that describes the components and subassemblies used in the production of an item. When you create a production order for an item, its production BOM governs the calculation of material requirements as represented on the **Prod. Order Components** page. In some industries, production BOMs are referred to as recipes or formulas because they define the ingredients and quantities needed to produce an item.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] also supports assembly BOMs. Use assembly orders to make end items from components in a process that one or more basic resources, which aren't machine or work centers, can do. Or, a process that can complete without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. To learn more, go to [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 

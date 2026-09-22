@@ -1,0 +1,1 @@
+Use the report when a sales representative or biller needs to send a customer a quote that combines standard item lines with recurring subscription billing charges, grouped by billing period, so the customer can see both one-time and recurring costs before accepting the quote.

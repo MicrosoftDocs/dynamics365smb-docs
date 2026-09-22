@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316, 36992, 36993
-ms.date: 12/16/2024
+ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_117, Report_120, Report_121, Report_129, Report_211, Report_1316, 36992, 36993
+ms.date: 09/18/2026
 ms.service: dynamics-365-business-central
 ---
 # Accounts receivable analytics

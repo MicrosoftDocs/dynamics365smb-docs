@@ -379,6 +379,7 @@ ms.service: dynamics-365-business-central
 ###### [Customer - Order Detail](reports/report-108.md)
 ###### [Sales Statistics](reports/report-112.md)
 ###### [Customer/Item Sales](reports/report-113.md)
+###### [Reminder](reports/report-117.md)
 ###### [Customer - Balance to Date](reports/report-121.md)
 ###### [Customer - Detail Trial Bal.](reports/report-129.md)
 ###### [Customer - Payment Receipt](reports/report-211.md)  
@@ -629,6 +630,14 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
+##### [Standard Sales - Pro Forma Inv](reports/report-1302.md)
+##### [Standard Sales - Draft Invoice](reports/report-1303.md)
+##### [Standard Sales - Quote](reports/report-1304.md)
+##### [Standard Sales - Order Conf.](reports/report-1305.md)
+##### [Standard Sales - Invoice](reports/report-1306.md)
+##### [Standard Sales - Credit Memo](reports/report-1307.md)
+##### [Standard Sales - Shipment](reports/report-1308.md)
+##### [Standard Sales - Return Rcpt.](reports/report-1309.md)
 ##### [Customer Top List Excel](reports/report-4409.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
@@ -642,6 +651,13 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
+##### [PostedSalesInvoiceWithQR](reports/report-6166.md)
+##### [PostedSalesCrdMemoWithQR](reports/report-6168.md)
+##### [Sust. Standard Sales Quote](reports/report-6298.md)
+##### [Sust. Standard Sales Invoice](reports/report-6299.md)
+##### [Contract Standard Sales Inv.](reports/report-8008.md)
+##### [Contract Sales Order Conf.](reports/report-8010.md)
+##### [Contract Standard Sales Quote](reports/report-8011.md)
 #### Legacy reports (will be removed)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Top 10 list (legacy)](reports/report-111.md)
@@ -762,6 +778,7 @@ ms.service: dynamics-365-business-central
 
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
+##### [Standard Purchase - Order](reports/report-1322.md)
 ##### [Aged Accounts Payable Excel](reports/report-4403.md)
 ##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
@@ -776,6 +793,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Item/vendor catalog](reports/report-720.md)
+##### [E-Doc Sample Purchase Invoice](reports/report-6102.md)
 
 #### Legacy reports (will be removed)
 ##### [Vendor - List (legacy)](reports/report-301.md)
@@ -859,6 +877,10 @@ ms.service: dynamics-365-business-central
 ##### [Item Charges - Specification](reports/report-5806.md) 
 ##### [Item Age Composition - Quantity and Value (Excel)](reports/report-5808.md) 
 ##### [Item Expiration - Quantity](reports/report-5809.md) 
+##### [Item GTIN Label](reports/report-6625.md)
+##### [Reference No. Label](reports/report-6626.md)
+##### [SN Label](reports/report-6627.md)
+##### [Lot No Label](reports/report-6628.md)
 ##### [Item Dimensions - Detail](reports/report-7150.md) 
 ##### [Item Dimensions - Total](reports/report-7151.md) 
 ##### [Warehouse Shipment Status](reports/report-7313.md) 
@@ -925,6 +947,8 @@ ms.service: dynamics-365-business-central
 ##### [Items per Project](reports/report-1013.md)
 ##### [Project per Item](reports/report-1014.md)
 ##### [Project Register](reports/report-1015.md)
+##### [Job Quote](reports/report-1016.md)
+##### [Job Task Quote](reports/report-1017.md)
 ##### [Resource – List](reports/report-1101.md)
 ##### [Resource Register](reports/report-1103.md)
 ##### [Resource Statistics](reports/report-1105.md)
@@ -1017,6 +1041,8 @@ ms.service: dynamics-365-business-central
 #### [Segment - Labels](reports/report-5065.md) 
 #### [Questionnaire - Handouts](reports/report-5066.md) 
 #### [Questionnaire - Test](reports/report-5067.md) 
+#### [Email Merge](reports/report-5084.md)
+#### [Contact Cover Sheet](reports/report-5085.md)
 
 ### [Set up relationship management](marketing-setup-marketing.md)
 ### Manage contacts
@@ -1134,6 +1160,7 @@ ms.service: dynamics-365-business-central
 ##### [Production Order - List](reports/report-99000763.md)
 ##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
 ##### [Prod. Order Detailed Calc](reports/report-99000768.md) 
+##### [Output Item Label](reports/report-99000769.md)
 ##### [Capacity Task list](reports/report-99000780.md)
 ##### [Routing Sheet](reports/report-99000787.md) 
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
@@ -1373,6 +1400,7 @@ ms.service: dynamics-365-business-central
 ##### [Expense and report statuses](expense-management/expense-agent-statuses.md)
 ##### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
 #### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
+#### [Use the Expense Agent mobile app (preview)](expense-management/expense-agent-mobile-app.md)
 #### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
 #### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
 #### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
@@ -2570,6 +2598,9 @@ ms.service: dynamics-365-business-central
 #### [Service orders overview](service-how-to-allocate-resources.md#see-an-overview-of-service-orders-and-service-quotes)
 #### [Service quotes overview](service-how-to-allocate-resources.md#see-an-overview-of-service-orders-and-service-quotes)
 #### [Posted service document overview](service-service-posting.md#view-information-about-a-posted-service-document)
+
+### Other reports
+#### [Notification Email](reports/report-1320.md)
 
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 

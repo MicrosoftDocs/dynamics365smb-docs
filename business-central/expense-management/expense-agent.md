@@ -1,7 +1,7 @@
 ---
 title: Expense Agent Overview
 description: Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.
-ms.date: 08/11/2026
+ms.date: 09/09/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: altotovi
@@ -35,9 +35,10 @@ The Expense Agent manages the entire expense lifecycle, from capturing receipts 
 
 ### Receipt intake
 
-The agent accepts receipts from two channels:
+The agent accepts receipts from these channels:
 
 - The **Expense Agent** web app at [https://app.expenses.dynamics.com/](https://app.expenses.dynamics.com/)
+- The **Expense Agent** [mobile app](expense-agent-mobile-app.md)
 - A monitored **shared mailbox**
 
 Supported file formats include JPEG, PNG, and PDF. The agent can process receipts in multiple languages, including unstructured documents such as itineraries and itemized receipts.
@@ -138,9 +139,9 @@ The agent runs the following sequence automatically:
 
 Before you can use the Expense Agent, an administrator must complete a few configuration steps in Business Central and the Microsoft 365 Admin Center. The following sections describe each requirement.
 
-### AI subprocessor requirement
+### AI model
 
-In Business Central environments in the United States, the Expense Agent uses an Anthropic Claude model, so you must enable Anthropic as a subprocessor in the **Microsoft 365 Admin Center**. Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor). In other countries or regions, the Expense Agent uses an OpenAI GPT model, which requires no additional AI subprocessor configuration.
+The Expense Agent uses an OpenAI GPT model, which requires no additional AI subprocessor configuration.
 
 ### Activation and configuration
 

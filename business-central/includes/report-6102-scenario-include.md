@@ -1,0 +1,1 @@
+Use the report when an accounts payable clerk or e-document administrator wants to preview a purchase invoice layout with sample vendor and line data before enabling it for live e-document processing.

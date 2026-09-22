@@ -1,7 +1,7 @@
 ---
 author: kennieNP
 ms.topic: include
-ms.date: 10/30/2024
+ms.date: 09/18/2026
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -22,6 +22,8 @@ The following table describes the built-in reports in project management.
 | [!INCLUDE[report-1013-scenario](../includes/report-1013-scenario-include.md)] | [Items per Project](https://businesscentral.dynamics.com?report=1013) | [About *Items per Project*](../reports/report-1013.md) | 1013 |
 | [!INCLUDE[report-1014-scenario](../includes/report-1014-scenario-include.md)] | [Project per Item](https://businesscentral.dynamics.com?report=1014) | [About *Project per Item*](../reports/report-1014.md) | 1014 |
 | [!INCLUDE[report-1015-scenario](../includes/report-1015-scenario-include.md)] | [Project Register](https://businesscentral.dynamics.com?report=1015) | [About *Project Register*](../reports/report-1015.md) | 1015 |
+| [!INCLUDE [report-1016-scenario](../includes/report-1016-scenario-include.md)] | [Job Quote](https://businesscentral.dynamics.com?report=1016) | [About *Job Quote*](../reports/report-1016.md) | 1016 |
+| [!INCLUDE [report-1017-scenario](../includes/report-1017-scenario-include.md)] | [Job Task Quote](https://businesscentral.dynamics.com?report=1017) | [About *Job Task Quote*](../reports/report-1017.md) | 1017 |
 | [!INCLUDE[report-1101-scenario](../includes/report-1101-scenario-include.md)] | [Resource – List](https://businesscentral.dynamics.com?report=1101) | [About *Resource – List*](../reports/report-1101.md) | 1101 |
 | [!INCLUDE[report-1103-scenario](../includes/report-1103-scenario-include.md)] | [Resource Register](https://businesscentral.dynamics.com?report=1103) | [About *Resource Register*](../reports/report-1103.md) | 1103 |
 | [!INCLUDE[report-1105-scenario](../includes/report-1105-scenario-include.md)] | [Resource Statistics](https://businesscentral.dynamics.com?report=1105) | [About *Resource Statistics*](../reports/report-1105.md) | 1105 |

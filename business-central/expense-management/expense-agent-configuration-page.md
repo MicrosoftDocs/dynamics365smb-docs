@@ -3,7 +3,7 @@ title: Set up Expense Agent
 description: Learn how to set up Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 08/11/2026
+ms.date: 09/17/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ai-usage: ai-assisted
@@ -31,9 +31,17 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - The Business Central environment is a country or region version supported by the Expense Agent as listed in [Feature availability by country/region and language](../copilot-agents-region-language-availability.md#feature-availability-by-countryregion-and-language).
 
-- In Business Central environments in the United States, the Expense Agent uses an Anthropic Claude model, so you must enable Anthropic as a subprocessor in the **Microsoft 365 Admin Center**. Learn more in [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor). In other countries or regions, the Expense Agent uses an OpenAI GPT model, which requires no additional AI subprocessor configuration.
+- You have one of the following permission configurations:
 
-- Your Business Central account has the **AGENT ADMIN** and **EXPENSE MGMT. ADMIN** permission sets or equivalent permissions.
+  - The **SUPER** permission set.
+  - All of the following permission sets:
+
+    - **AGENT - ADMIN**
+    - **EXPENSE MGMT. ADMIN**
+    - **EXPENSE AGENT**
+    - **SECURITY**
+
+  The permission sets must be assigned to the company you're configuring or to all companies. Equivalent object permissions don't satisfy this prerequisite because activation manages the Microsoft Entra application for Expense Agent and the application's company-specific permissions.
 
 - A shared mailbox is available for receiving expense submissions from employees and for communication with users sending different information reports back.  
   

@@ -4,7 +4,8 @@ description: Learn how to install Power BI apps for your Business Central.
 author: kennieNP
 ms.topic: get-started
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 03/03/2026
+ms.search.form: 36951_Primary
+ms.date: 09/14/2026
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -102,8 +103,6 @@ When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] templat
 | Subscription Billing           | version 26 | https://aka.ms/bc-pbi-subscription-billing-app     |
 | Sustainability                 | version 26 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
 
-
-
 ### Need Power BI apps for multiple companies?
 
 [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
@@ -113,7 +112,7 @@ When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] templat
 After you install your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, you can configure them to suit your business:
 
 - Get help with the set-up process by using the **Connect to Power BI** assisted setup guide.
-- Set up things yourself on the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page.
+- Set up things yourself on the [Power BI Reports Setup](https://businesscentral.dynamics.com?page=36951) page.
 
 The assisted setup guide helps you configure the following components:
 

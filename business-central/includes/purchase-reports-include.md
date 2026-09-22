@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 12/16/2024
+ms.date: 09/18/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -12,6 +12,7 @@ The following table describes some of the key reports related to purchasing. The
 
 | To do this | Open this report in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|
+| [!INCLUDE [report-1322-scenario](../includes/report-1322-scenario-include.md)] | [Standard Purchase - Order](https://businesscentral.dynamics.com?report=1322) | [About *Standard Purchase - Order*](../reports/report-1322.md) | 1322 |
 | [!INCLUDE[report-4403-scenario](../includes/report-4403-scenario-include.md)] | [Aged Accounts Payable Excel](https://businesscentral.dynamics.com?report=4403) | [About *Aged Accounts Payable Excel*](../reports/report-4403.md) | 4403 |
 | [!INCLUDE[report-4404-scenario](../includes/report-4404-scenario-include.md)] | [Vendor - Top 10 List Excel](https://businesscentral.dynamics.com?report=4404) | [About *Vendor - Top 10 List Excel*](../reports/report-4404.md) | 4404 |
 | [!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)] | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
@@ -26,6 +27,7 @@ The following table describes some of the key reports related to purchasing. The
 | Analyze outstanding purchase orders to understand the expected purchase volume for items. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
 | Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
 | [!INCLUDE [report-720-scenario](../includes/report-720-scenario-include.md)] | [Item/vendor catalog](https://businesscentral.dynamics.com?report=720) | [About Item/vendor catalog](../reports/report-720.md) | 720 |
+| [!INCLUDE [report-6102-scenario](../includes/report-6102-scenario-include.md)] | [E-Doc Sample Purchase Invoice](https://businesscentral.dynamics.com?report=6102) | [About *E-Doc Sample Purchase Invoice*](../reports/report-6102.md) | 6102 |
 | This is a legacy report for vendor analysis. See report documentation for alternatives. | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
 | This report is a legacy report for vendor analysis. See report documentation for alternatives. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |
 | This is a legacy report for accounts payable. See report documentation for alternatives. | [Payments on Hold](https://businesscentral.dynamics.com?report=319) | [About *Payments on Hold*](../reports/report-319.md) | 319 |

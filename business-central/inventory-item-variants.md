@@ -5,18 +5,20 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.search.keywords: item, variant, finished good, component, raw material, assembly item, item substitution
+ms.search.keywords: item, variant, finished good, component, raw material, assembly item, item substitution, item reference, item translation, stockkeeping unit, SKU
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719, 5401_Primary
-ms.date: 03/04/2026
+ms.date: 09/04/2026
 ms.service: dynamics-365-business-central
 ---
 
 # Manage product variants
 
-Item variants are a great way to keep your list of products under control. For example, you have a large number of items that are almost identical and vary only in color. You can define each variant as a separate item. But you can also choose to set up one item and specify the various colors as variants of the item.  
+Many businesses sell products that come in multiple sizes, colors, materials, or configurations. A single product design can quickly expand into dozens or even hundreds of sellable combinations. Without structure, inventory becomes harder to track, purchasing gets fragmented, and reporting loses clarity.
+
+Use item variants to manage all variations of a product under a single item record instead of creating separate items for each combination. You get consolidated reporting while still tracking inventory, pricing, and availability at the variant level - whether you sell three T-shirt sizes or two hundred fabric-color combinations.
 
 > [!TIP]
-> For a practical introduction to using variants in production, see [Walkthrough: Variants](contoso-coffee/manufacturing/variants.md) for the Contoso Coffee demo data.  
+> To learn more about using variants in production, go to [Walkthrough: Variants](contoso-coffee/manufacturing/variants.md) for the Contoso Coffee demo data.  
 
 ## Add variants to an item
 
@@ -72,12 +74,47 @@ On item cards, the **Variant Mandatory if Exists** field has the following optio
 
 If the capability is switched on, you can't post an entry if the variant isn't specified.
 
+## Item references per variant
+
+When your vendors or customers use their own item numbers, set up item references that map their codes to yours, including at the variant level. For example, if a customer orders **BLU-LG-POLO** and you track it as item 1200, variant **BLUE-L**, the item reference automatically bridges that gap on sales and purchase documents.
+
+Item references can also carry variant-specific units of measure. If a vendor ships a particular variant in cases of 24 rather than individual pieces, the correct unit populates automatically.
+
+Learn more at [Use Item References](inventory-how-use-item-cross-refs.md).
+
+## Item translations
+
+If you sell or purchase in markets that use different languages, store translated descriptions for each item and variant combination. When you create a document for a customer or vendor with a different language code, [!INCLUDE [prod_short](includes/prod_short.md)] automatically substitutes the translated description on document lines.
+
+To set up translations:
+
+1. Open the **Item Card** and choose the **Translations** action.
+1. On the **Item Translations** page, specify the **Language Code** and the translated **Description** and **Description 2** fields.
+1. To set a translation for a specific variant, fill in the **Variant Code** field.
+
+When you add the item to a document where the customer or vendor has a different language, the description pulls from the matching translation entry. If a variant-specific translation exists, it takes priority over the item-level translation.
+
+## Stockkeeping units for replenishment and planning
+
+When you manage the same item across multiple locations or need location-specific planning parameters for specific variants, set up stockkeeping units (SKUs). A SKU links an item, a location, and optionally a variant code into a planning identity that the supply planning system treats independently.
+
+This system means you can define different replenishment methods, lead times, reorder points, safety stock levels, and even different vendors or production BOMs depending on where and how you stock a variant. For example:
+
+- Variant BLUE is purchased from a local supplier at the East warehouse with a two-day lead time, but produced in-house at the West plant with a five-day manufacturing lead time.
+- The reorder point for size Large is higher than for size Small because Large sells faster at a specific location.
+
+Without SKUs, the planning system uses the same replenishment parameters for an item everywhere. With SKUs, requisition worksheets and planning worksheets generate separate supply proposals per location-variant combination.
+
+Learn more at [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md).
+
 ## Categories, attributes, and variants
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 ## Related information
 
-[Register New Items](inventory-how-register-new-items.md)    
-[Set Up General Inventory Information](inventory-how-setup-general.md)    
-[Walkthrough: Variants](contoso-coffee/manufacturing/variants.md)    
+[Register New Items](inventory-how-register-new-items.md)  
+[Use Item References](inventory-how-use-item-cross-refs.md)  
+[Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)  
+[Set Up General Inventory Information](inventory-how-setup-general.md)  
+[Walkthrough: Variants](contoso-coffee/manufacturing/variants.md)  

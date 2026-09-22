@@ -1,0 +1,1 @@
+Use the report when a sales employee or export coordinator needs to send a customer or customs authority a preliminary invoice for a sales order before shipment or invoicing, so the recipient can see expected costs, item origin, and tariff details.

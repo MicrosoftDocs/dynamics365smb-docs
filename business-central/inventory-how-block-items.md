@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: item, variant, product
-ms.date: 02/05/2025
+ms.date: 07/23/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -20,7 +20,7 @@ The following table describes what happens when items or variants are blocked.
 |--------------------|------------|  
 |**Sales Blocked**|You can't choose the item or variant on a sales document or a sales item journal.|  
 |**Service Blocked**|You can't choose the item or variant on service management transactions. To learn more about blocking service items, go to [Block items, item variants, or specific service items](service-how-to-create-service-items.md#block-items-item-variants-or-specific-service-items).|
-|**Purchasing Blocked**|You can't choose the item or variant on a purchase document, a purchase item journal, or in purchase planning processes.|  
+|**Purchasing Blocked**|You can't choose the item or variant on a purchase document or a purchase item journal. Planning still generates requisition lines for variants with active planning parameters, but carrying out the action message fails. To stop planning suggestions, remove or update the stockkeeping unit's reordering policy.|  
 |**Production Blocked**|You can't choose the item or variant on production orders. Also, you can't use the following actions:</br></br>* Post output in output journals or production journals.</br>* Refresh the production order.</br>* Replan the production order.</br>* Calculate subcontracts in the subcontracting worksheet skips the lines with blocked items or variants. |  
 
 > [!NOTE]

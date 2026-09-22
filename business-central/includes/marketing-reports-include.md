@@ -1,7 +1,7 @@
 ---
 author: kennienp
 ms.topic: include
-ms.date: 11/11/2024
+ms.date: 09/18/2026
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -26,3 +26,5 @@ The following table describes the reports that are available in relationship man
 | [!INCLUDE[report-5065-scenario](../includes/report-5065-scenario-include.md)] | [Segment - Labels](https://businesscentral.dynamics.com?report=5065) | [About Segment - Labels](../reports/report-5065.md) | 5065 |
 | [!INCLUDE[report-5067-scenario](../includes/report-5067-scenario-include.md)] | [Questionnaire - Test](https://businesscentral.dynamics.com?report=5067) | [About Questionnaire - Test](../reports/report-5067.md) | 5067 |
 | [!INCLUDE[report-5068-scenario](../includes/report-5068-scenario-include.md)] | [Opportunity - Details](https://businesscentral.dynamics.com?report=5068) | [About Opportunity - Details](../reports/report-5068.md) | 5068 |
+| [!INCLUDE [report-5084-scenario](../includes/report-5084-scenario-include.md)] | [Email Merge](https://businesscentral.dynamics.com?report=5084) | [About *Email Merge*](../reports/report-5084.md) | 5084 |
+| [!INCLUDE [report-5085-scenario](../includes/report-5085-scenario-include.md)] | [Contact Cover Sheet](https://businesscentral.dynamics.com?report=5085) | [About *Contact Cover Sheet*](../reports/report-5085.md) | 5085 |

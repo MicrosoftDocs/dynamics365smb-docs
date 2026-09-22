@@ -1,0 +1,1 @@
+Use the report when accounts receivable staff need to send or reprint a customer-facing invoice after posting a sales invoice, so the customer receives an accurate record of what they owe and how to pay it.

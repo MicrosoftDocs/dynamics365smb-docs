@@ -1,0 +1,1 @@
+Use the report when the notification engine sends an email to a user about a new record, an approval request, or an overdue approval, so the recipient gets a formatted message with links to the related document and notification settings.

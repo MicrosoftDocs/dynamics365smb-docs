@@ -3,7 +3,7 @@ title: Synchronize inventory with Shopify
 description: Set up and run inventory synchronization between Business Central and Shopify, including location mapping and fulfillment strategies.
 ms.date: 09/03/2026
 ms.topic: how-to
-ms.search.form: 30116, 30117, 30126, 30127
+ms.search.form: 30102, 30116, 30117, 30126, 30127
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -43,14 +43,32 @@ The remaining sections in this article describe ways to synchronize inventory.
 1. [!INCLUDE [open-search](../includes/open-search.md)], enter **Shopify Products**, and choose the related link.
 1. Choose the **Sync inventory** action.
 
-> [!NOTE]
-> There are a few things to note about synchronizing inventory:
->
-> * There are two standard stock calculation methods, **Projected Available Balance at Today** and **Free Inventory (not reserved)**. However, you can use extensibility to add more. Learn more at [examples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation).
-> * If the stock information in Shopify differs from the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], the stock updates in Shopify.
-> * When you add a new location in Shopify, you must also add inventory records for it. Shopify doesn't automatically add inventory records for existing products and variants, and the connector doesn't synchronize inventory levels for such items in the new location. Learn more at [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
-> * You can use both **Business Central Fulfillment Services** and normal locations for shipping and inventory.
-> * When you deal with bundles, check whether adjusting inventory via an API is allowed for those products. For example, the **Shopify Bundles** app calculates availability of bundles based on the availability of the components and prevents updates via APIs. It's a good idea to map Shopify products of the type **Bundle** to items of the type **Non-inventory**. Non-inventory and service items are excluded from inventory synchronization.
+## Run a targeted inventory sync
+
+Use the **Sync Stock to Shopify** report to synchronize specific variants or to skip importing inventory from Shopify before export.
+
+1. [!INCLUDE [open-search](../includes/open-search.md)], enter **Sync Stock to Shopify**, and select the related link.
+1. On the request page, specify the shop and any of the following options:
+
+    |Option|Description|
+    |------|-----------|
+    |**Variant ID Filter**|Synchronize only the Shopify variants that match the filter. Use standard filter expressions, such as `1000|2000`, to include multiple variant IDs. The filter applies only when you export inventory to Shopify. It doesn't limit the inventory that the connector first imports from Shopify.|
+    |**Skip Import Stock**|Skip importing inventory from Shopify and export the calculated inventory from [!INCLUDE [prod_short](../includes/prod_short.md)]. The connector exports matching inventory even when the calculated quantity equals the last imported Shopify quantity.|
+
+    > [!CAUTION]
+    > Before you select **Skip Import Stock**, run the report with this option turned off. Continue to run the report with the option turned off periodically to refresh Shopify quantities and remove obsolete local inventory records. The first run also creates the local inventory records for the variants and locations.
+
+1. Select **OK** to run the report.
+
+## Understand inventory synchronization
+
+Consider the following information when you synchronize inventory:
+
+* There are two standard stock calculation methods, **Projected Available Balance at Today** and **Free Inventory (not reserved)**. However, you can use extensibility to add more. Learn more at [examples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation).
+* If the stock information in Shopify differs from the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], the stock updates in Shopify.
+* When you add a new location in Shopify, you must also add inventory records for it. Shopify doesn't automatically add inventory records for existing products and variants, and the connector doesn't synchronize inventory levels for such items in the new location. Learn more at [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
+* You can use both **Business Central Fulfillment Services** and normal locations for shipping and inventory.
+* When you deal with bundles, check whether adjusting inventory via an API is allowed for those products. For example, the **Shopify Bundles** app calculates availability of bundles based on the availability of the components and prevents updates via APIs. It's a good idea to map Shopify products of the type **Bundle** to items of the type **Non-inventory**. Non-inventory and service items are excluded from inventory synchronization.
 
 ### Example of a projected available balance calculation
 

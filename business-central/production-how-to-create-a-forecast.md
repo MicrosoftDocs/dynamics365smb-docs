@@ -6,17 +6,17 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 09/11/2025
+ms.date: 07/22/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Create a demand forecast
 
-You can create sales and production forecasts with the **Demand Forecasts** list page. Then, for each forecast, you specify various settings for that forecast in the **Demand Forecast Overview** page.  
+Demand forecasting helps you plan what to buy, make, or stock before customer orders arrive. Use forecasts to model what-if scenarios, prepare for seasonal demand, account for long supplier lead times, and balance production capacity across periods. Better forecasts can improve order promises and on-time delivery.
 
-Forecasting functionality is used to create anticipated demand; actual demand is created from sales and production orders. During creation of the Master Production Schedule (MPS), the forecast is netted against the sales and production orders. The **Forecast Type** field on the forecast determines which type of requirements to take into consideration in the netting process. If the forecast is for a *sales item*, only sales orders net the forecast. If it is for *components*, only dependent demand from production order components net the forecast.  
+A forecast represents expected demand before sales and production orders create actual demand. When you create the Master Production Schedule (MPS), the system nets forecast quantities against sales and production orders. The **Forecast Type** field determines which demand is included in the calculation. For a *sales item* forecast, sales orders reduce the forecast. For a *component* forecast, dependent demand from production order components reduces the forecast.
 
-Forecasting allows your company to create "what if" scenarios and efficiently and cost-effectively plan for and meet demand. Accurate forecasting can make a difference in customer satisfaction levels regarding order promising dates and on-time delivery.  
+You can create sales and production forecasts with the **Demand Forecasts** list page. Then, for each forecast, you specify various settings for that forecast in the **Demand Forecast Overview** page.
 
 You can also define the right level of details in the **Forecast by Location** and **Forecast by Variant** fields in the **Demand Forecast Overview** page. Filters and other settings are stored in the **Demand Forecast Name** table, so you can easily stop and continue your work later. 
 

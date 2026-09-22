@@ -1,0 +1,1 @@
+Use the report when a sales representative wants to send a formal price proposal to a customer for goods or services that the customer didn't commit to in an order. The customer can review the terms before agreeing to purchase.

@@ -1,0 +1,1 @@
+Use the report when accounts receivable staff need to send a formal reminder to a customer after one or more invoices become overdue, so the customer sees what is owed, the applicable interest and fees, and the total amount due including VAT.

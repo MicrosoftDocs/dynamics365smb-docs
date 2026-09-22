@@ -5,9 +5,10 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
+ms.search.form: 36951, 
 ms.date: 10/29/2025
 ms.author: kepontop
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -47,7 +48,7 @@ The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerb
 
 ## Can I install the same app multiple times for different companies or environments?
 
-Yes. Just choose **Install another copy of the app into a new workspace** when you install the app again. Consider including the company name in the workspace name for easier discoverability.
+Yes. Select **Install another copy of the app into a new workspace** when you reinstall the app. Consider including the company name in the workspace name to make it easier to find.
 
 :::image type="content" source="media/powerbi/power-bi-install-app.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app.png":::
 
@@ -71,13 +72,11 @@ The **PowerBI Flat Dim. Set Entry** table has flattened dimension set entry reco
 
 This job queue entry is created automatically when you finish the **Connect to Power BI** assisted setup guide. If you haven't finished the guide, you can go to the **Power BI Report Setup** page and choose the **Schedule Power BI Dimension Refresh** action.
 
-### Troubleshooting Dimension Data
+### Troubleshoot dimension data
 
-1. Ensure the **Update Dim. Set Entries** job queue entry is present.
-1. Ensure it has run successfully. You can ensure this by clicking run once in the foreground.
-1. Run the PowerBI Flat Dim. Set Entry table in your browser to ensure records are present.
-
-If data is present in the flat dim table, you can refresh the semantic model and see the results.
+1. On the **Job Queue Entries** page, ensure that the **Update Dim. Set Entries** job queue entry is present and its status is **Ready**.
+1. Ensure that the **Update Dim. Set Entries** job queue entry ran successfully. To verify that the job works, select the job and then select the **Run once (foreground)** action.
+1. Open the **PowerBI Flat Dim. Set Entry** table in your browser to verify that records are present. If the table has data, you can refresh the semantic model and review the results.
 
 Learn more in [Job queue entry for updating dimension set entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries).
 
@@ -113,7 +112,7 @@ You can download the .pbix file by installing the app from Marketplace and then 
 
 ## Are the apps available for on-premises installations?
 
-No. At the moment, the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are only available for online environments.
+No. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are only available for online environments.
 
 ## Related information
 

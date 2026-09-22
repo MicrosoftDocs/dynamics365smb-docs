@@ -6,8 +6,8 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: 37062_Primary, 37033, 37034, 37035, 37036, 37037, 37039, 37106
-ms.date: 10/28/2024
+ms.search.form: 37062_Primary, 37033, 37034, 37035, 37036, 37037, 37039, 37106, 36951,
+ms.date: 09/14/2026
 ms.service: dynamics-365-business-central
 ---
 

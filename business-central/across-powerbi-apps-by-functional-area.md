@@ -16,7 +16,26 @@ ms.custom: bap-template
 
 [!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
 
+To explore each app, use the links in the following table, or read more about reports in the sections that follow.
+
 [!INCLUDE [powerbi-apps-overview-table](includes/powerbi-apps-overview-table.md)]
+
+
+## Data models and KPIs
+
+Each of the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)] includes a semantic model with star schemas that support the reports, as well as KPIs implemented as measures. In the following sections, you can find documentation for these models and KPIs. This documentation helps you understand how numbers are calculated and guides you if you want to implement your own star schemas and KPIs. For the latter case, the documentation might serve as a reference architecture on how data in the [!INCLUDE [prod_short](includes/prod_short.md)] tables relates to common analytics scenarios.
+
+| Functional area      | Semantic model | KPI overview | 
+| -------------------- | -------------- | ------------ |
+| Finance              |  [Finance semantic model](finance-powerbi-app-semantic-model.md) | [Finance KPI overview](finance-powerbi-kpis.md) |
+| Sales                | [Sales semantic model](sales-powerbi-app-semantic-model.md) | [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md) |
+| Purchasing           | [Purchases semantic model](purchases-powerbi-app-semantic-model.md) | [Purchases KPI overview](purchases-powerbi-kpis.md) |
+| Inventory            | [Inventory semantic model](inventory-powerbi-app-semantic-model.md) | [Inventory KPIs](inventory-powerbi-kpis.md)<br><br>[Inventory Valuation KPIs](inventory-valuation-powerbi-kpis.md) |
+| Projects             | [Projects semantic model](projects-powerbi-app-semantic-model.md) | [Projects KPI overview](projects-powerbi-kpis.md) |
+| Manufacturing        | [Manufacturing semantic model](manufacturing-powerbi-app-semantic-model.md) | [Manufacturing KPIs](manufacturing-powerbi-kpis.md) |
+| Subscription Billing | [Subscription billing semantic model](SRB/analytics/subscription-powerbi-semantic-model.md) |  [Subscription billing KPI overview](SRB/analytics/subscription-powerbi-subscription-kpis.md) |
+| Sustainability       | [Sustainability semantic model](sustainability-powerbi-app-semantic-model.md) | [Power BI Sustainability app KPIs and measures](sustainability-powerbi-kpis.md) |
+
 
 ## Reports in the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)]
 
@@ -71,6 +90,7 @@ Learn more in [Sustainability Power BI app](sustainability-powerbi-app.md).
 [!INCLUDE [power-bi-subscription-billing-app](includes/power-bi-subscription-billing-app.md)]
 
 Learn more in [Power BI Subscription Billing app](SRB/analytics/subscription-powerbi-app.md).
+
 
 ## Related information
 

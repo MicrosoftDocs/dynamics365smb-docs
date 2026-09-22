@@ -26,7 +26,7 @@ After you process the usage data, you can bill the customer.
 
 ### Minimum data requirements
 
-Before you import a file, ensure your data exchange definition maps at least the following fields. Anything beyond that is either optional, or only required depending on your supplier settings.
+Before you import a file, make sure your data exchange definition maps at least the following fields. Anything beyond that is either optional, or only required depending on your supplier settings.
 
 |Field  |Description  |When to fill in the field  |
 |---------|---------|---------|
@@ -193,7 +193,7 @@ If there isn't a connection between a supplier's subscription and a subscription
 
 > [!NOTE]
 > If the usage data's currency differs from the vendor or customer subscription contract's currency, amounts are either converted to the contract's currency or rejected with a processing error, depending on the subscription contract type. To learn more, go to [Subscription contract types](../../SRB/setup/contract-types.md#different-currencies-for-usage-data).
-4. Update the data in the respective vendor or customer subscription contract lines, in the subscriptions, and in the subscription lines by processing usage data billing (via **Process Usage Data Billing** action) based on the new usage data (quantities and prices). In addition, calculate the sales price for each data record where the **Partner** field contains **Customer**. To learn more, see [Methods for pricing](#methods-for-pricing). If you get an error, use the lookup in the **No. of Usage Data Billing Errors** field to access the details.
+
 Records in usage-based billing are vendor neutral, meaning all usage data is normalized regardless of the original source.
 
 4. By processing usage data billing (via **Process Usage Data Billing** action), the data in the respective vendor or customer subscription contract lines, in the subscriptions, and in the subscription lines are updated based on the new usage data (quantities and prices). In addition, the sales price is calculated for each data record where the **Partner** field contains **Customer**. To learn more, go to [Methods for pricing](#methods-for-pricing). If you get an error, use the lookup in the **No. of Usage Data Billing Errors** field to access the details.

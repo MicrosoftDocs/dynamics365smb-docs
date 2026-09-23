@@ -1,10 +1,10 @@
 ---
-title: Store document attachments in external file storage
-description: Learn how you can store attachments. 
+title: External file storage for document attachments
+description: Learn how to store document attachments in Azure or SharePoint external file storage to reduce database usage in Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: open files, share files, OneDrive
-ms.date: 03/20/2026
+ms.date: 09/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -26,11 +26,33 @@ Keeping attachments in external storage can help you:
 Out of the box, [!INCLUDE [prod_short](includes/prod_short.md)] supports Azure cloud storage and Microsoft 365 services for external attachments. You can connect to Azure Blob Storage, Azure File Share, or SharePoint document libraries. The External File Storage framework is extensible, so partners or developers can add other storage providers (for example, SFTP or OneDrive) via extension if needed.
 
 > [!IMPORTANT]  
-> You're responsible for your data management. When you enable external storage for attachments, files are no longer stored in the [!INCLUDE [prod_short](includes/prod_short.md)] database. Instead, they reside in your external storage. This means Microsoft doesn't back up or manage those files as part of your [!INCLUDE [prod_short](includes/prod_short.md)] environment. You, or your system administrator, are responsible for setting up appropriate backups and access control on the external storage. If a file is deleted or becomes unavailable in the external storage, it's no longer be accessible from [!INCLUDE [prod_short](includes/prod_short.md)].
+> You're responsible for your data management. When you enable external storage for attachments, files are no longer stored in the [!INCLUDE [prod_short](includes/prod_short.md)] database. Instead, they reside in your external storage. This means Microsoft doesn't back up or manage those files as part of your [!INCLUDE [prod_short](includes/prod_short.md)] environment. You, or your system administrator, are responsible for setting up appropriate backups and access control on the external storage. If a file is deleted or becomes unavailable in external storage, you can no longer access it from [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Set up an external file storage account
 
 Before you can offload attachments, you must create one or more external file accounts in [!INCLUDE [prod_short](includes/prod_short.md)] for the storage services you plan to use. An external file account stores the connection details, such as credentials and endpoints, for your Azure or SharePoint storage. You can set up multiple external file accounts. For example, one for Azure Blob Storage and another for SharePoint.
+
+### Register an app for SharePoint storage
+
+Before you add a SharePoint storage account, register an app in Microsoft Entra ID and grant it permissions for the connector mode and authentication type that you use. The app registration permissions depend on whether the account uses the default Microsoft Graph API or the legacy SharePoint REST API. Grant only the permissions needed for the sites that Business Central accesses.
+
+| Connector mode | Authentication type | Least-privileged permission for full connector functionality | Tenant-wide alternative |
+| --- | --- | --- | --- |
+| Microsoft Graph (default) | Client Secret or Certificate | Microsoft Graph application permission `Sites.Selected` and a `write` role granted for each site that the connector accesses | Microsoft Graph application permission `Sites.ReadWrite.All` |
+| Legacy SharePoint REST API | Certificate | SharePoint application permission `Sites.Selected` and a `write` role granted for each site that the connector accesses | SharePoint application permission `Sites.ReadWrite.All` |
+| Legacy SharePoint REST API | Client Secret | SharePoint delegated permission `AllSites.Write`; this is a tenant-wide scope, but access is also limited by the signed-in user's SharePoint permissions | None; `AllSites.Write` is the minimum tenant-wide scope |
+
+The connector requires write access because it can upload, copy, move, and delete files and folders. It doesn't require permission to administer sites or manage permissions.
+
+The connector first resolves the SharePoint site and then its default document library. These operations require site-level access. Therefore, the supported minimum is the `Sites.Selected` scope with a role grant on each site that the account uses. The connector doesn't support `Lists.SelectedOperations.Selected`, `ListItems.SelectedOperations.Selected`, or `Files.SelectedOperations.Selected` as alternatives.
+
+`Sites.Selected` grants no access by itself. A SharePoint administrator must also grant the app the `write` role on every site that the connector accesses. The administrator can create the site-specific grants by using Microsoft Graph PowerShell, Microsoft 365 CLI, or Microsoft Graph. The app or administrator that creates these grants needs separate permission to manage site permissions; the connector app doesn't need that elevated permission.
+
+The connector resolves the site and its default document library before accessing files and folders. Therefore, use the site-level `Sites.Selected` permission rather than narrower list-, folder-, or file-level selected permissions.
+
+For legacy SharePoint REST API accounts, site-scoped folder creation requires Business Central 28.1 or later. In Business Central 28.0 and earlier, folder creation requests context information from the tenant root site, so the app must also be granted access to the root site.
+
+Learn more in [Overview of Selected Permissions in OneDrive and SharePoint](/graph/permissions-selected-overview) and [Understanding Resource Specific Consent for Microsoft Graph and SharePoint Online](/sharepoint/dev/sp-add-ins-modernize/understanding-rsc-for-msgraph-and-sharepoint-online).
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **External File Accounts**, and choose the related link.
 1. Choose the **Add a file account** action to start a setup guide that helps you enter details for your external storage connection. 
@@ -39,7 +61,7 @@ Before you can offload attachments, you must create one or more external file ac
 
     * **Azure Blob Storage account:** Enter an **Account Name**, which is a friendly name for use in [!INCLUDE [prod_short](includes/prod_short.md)], and the **Storage Account Name** of your Azure storage account. Select the **Authorization Type**, either a Shared Access Signature (SAS) token or a shared account key. Paste the SAS token or access key in the **Secret** field. Specify the **Container Name** where you store attachments in your blob storage account.
     * **Azure File Share account:** Enter an **Account Name** and the **Storage Account Name**. Choose the authentication method (SAS token or key) and provide the **Secret** value. Enter the **File Share Name** for the Azure Files share where you store attachments.
-    * **SharePoint storage account:** Enter an **Account Name** for [!INCLUDE [prod_short](includes/prod_short.md)], and then provide the **Tenant ID**, **Client ID**, and **Client Secret** of your Microsoft Entra ID app registration that can access to your SharePoint site. Specify the **SharePoint Name**, which is the domain or site name (for example, the SharePoint site collection or tenant name), and a **Base Relative Folder Path** where you want to store attachments. For example, the document library and folder path within the site. 
+    * **SharePoint storage account:** Enter an **Account Name** for [!INCLUDE [prod_short](includes/prod_short.md)], and then provide the **Tenant ID**, **Client ID**, and authentication credentials for the Microsoft Entra app registration that has access to your SharePoint site. Specify the **SharePoint Name**, which is the domain or site name, and a **Base Relative Folder Path** where you want to store attachments. For example, enter the document library and folder path within the site.
     
     > [!TIP]
     > The base folder path should start from the site root, such as `Shared Documents/Attachments`, in a SharePoint document library URL.

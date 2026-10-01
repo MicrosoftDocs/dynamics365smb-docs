@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 03/10/2026
+ms.date: 09/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -28,8 +28,8 @@ The following sections list typical issues with your general setup and suggest s
 
 ### Workflow events aren't available
 
-- Verify that the **Enable Workflow Integration** is enabled on the **Quality Management Setup** page.
 - Check that users are assigned the appropriate permissions.
+- Verify that the Quality Management extension is installed and enabled.
 
 ## Troubleshoot test generation rules
 
@@ -67,7 +67,7 @@ The following sections list typical problems with scheduled inspections and sugg
 
 - Verify the settings for your inspection generation rule.
 - Double-check your item filters and availability.
-- Review the codeunit parameters.
+- Review the filters and request-page parameters for report **20412** in the job queue entry.
 
 ### Too many inspections are created
 
@@ -81,7 +81,6 @@ The following sections list typical issues with quality management workflows and
 
 ### The workflow doesn't trigger
 
-- Double-check that you enabled workflow integration.
 - Verify that your workflow is active.
 - Review the event conditions.
 - Confirm that users have the correct permissions.
@@ -102,7 +101,7 @@ The following sections list typical issues with quality management workflows and
 
 ### Workflow events for quality management aren't available
 
-- Double-check that you enabled workflow integration on **Quality Management Setup** page.
+- Verify that the Quality Management extension is installed and enabled.
 - Verify that your workflows are active.
 - Confirm that your users have the correct permissions.
 
@@ -146,7 +145,7 @@ The following sections list typical issues with inspections and suggest solution
 
 ### No inspections are created
 
-- Verify that the **Require Receipt** toggle is turned on for the location.
+- Verify that the **Require Receive** toggle is turned on for the location.
 - Double-check that the inspection generation rule applies to the item.
 - Ensure that the warehouse receipt is posted.
 
@@ -170,7 +169,7 @@ The following sections list typical issues with warehouse receipt inspections an
 
 - Verify that you correctly configured your inspection generation rule.
 - Double-check that your item filter matches the purchased item.
-- Ensure that you set up your purchase trigger correctly.
+- Ensure that you set up the **Warehouse Receipt Trigger** correctly.
 - Confirm that the template is assigned to the rule.
 
 ### Inspections are created for the wrong items
@@ -191,7 +190,7 @@ The following sections list typical issues with production output inspections an
 
 ### Inspections aren't being created
 
-- Verify that your production trigger is set to **When Output is Posted**.
+- Verify that the **Production Order Trigger** field is set to **When Production Output is posted**.
 - Double-check your inspection generation rule filters.
 - Ensure that the correct template is assigned.
 - Confirm that output is posted.
@@ -200,7 +199,7 @@ The following sections list typical issues with production output inspections an
 
 The following sections list typical issues when you manually create inspections and suggest solutions.
 
-### The Create Test action isn't available
+### The Create Quality Inspection action isn't available
 
 - Configure manual-enabled inspection generation rules.
 - Verify your template assignments.
@@ -234,9 +233,14 @@ The following sections list typical issues when you manually create inspections 
 
 This section lists some typical issues with blocking lots and describes how to get unblocked.
 
+### A quality inspection blocks a transaction
+
+When a supported transaction is blocked by a quality inspection, the error identifies the responsible inspection. Select **Show Quality Inspection** in the error to open it. Review or complete the inspection, and then try the transaction again.
+
+If the inspection result should allow the transaction, review the transaction controls for that result. Also check whether another matching inspection still blocks the item tracking number.
+
 ### My workflow doesn't start
 
-- The **Workflow Integration** toggle isn't enabled on the **Quality Management Setup** page. Turn on the toggle.
 - The workflow isn't active. Activate the workflow.
 - There's an incorrect event or condition in your workflow configuration. Review the settings in your workflow.
 
@@ -280,8 +284,8 @@ The following sections list typical problems with quality inspection results and
 
 ### Results aren't available in inspection templates
 
-- Check your settings for result copy behavior.
-- Verify that the result isn't set to **Do Not Copy**.
+- Check the **Copy Behavior** field on the quality inspection result.
+- To make the result available automatically, set **Copy Behavior** to **Automatically copy the result**. If it's set to **Do not automatically copy**, add the result to the template manually.
 - Manually add the result to the template, if needed.
 
 ### My workflow doesn't start
@@ -293,7 +297,9 @@ The following sections list typical problems with quality inspection results and
 ## Related information
 
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
-[Purchase Receipt Inspections without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
-[Production Output Quality Inspections](qms-production-output-testing.md)  
-[Manual Inspection Creation](qms-manual-test-creation.md)  
-[Quality Management Overview](qms-overview.md)
+[Create an inspection manually from item tracking](qms-purchase-receipt-testing-simple.md)  
+[Create a sampled inspection automatically from production output](qms-production-output-testing.md)  
+[Work with quality inspections](qms-manual-test-creation.md)  
+[Quality Management Overview](qms-overview.md)  
+
+[!INCLUDE [footer-banner](includes/footer-banner.md)]

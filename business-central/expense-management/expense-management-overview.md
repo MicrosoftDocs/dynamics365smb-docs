@@ -1,9 +1,9 @@
 ---
-title: Expense Management Overview
+title: Expense Management Overview in Business Central
 description: Learn about expense management in Business Central, including how to capture expenses, create reports, get approvals, and post to the general ledger.
 author: brentholtorf
 ms.topic: overview
-ms.date: 04/22/2026
+ms.date: 09/26/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -23,13 +23,14 @@ ai-usage: ai-assisted
 
 You can use expense management in two ways:
 
-- With Expense Agent enabled. Expense users submit receipts through a web app or email. Expense Agent automatically extracts data, categorizes and itemizes expenses, creates expense records, and groups them into expense reports. You view and edit agent-created expenses inside [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more at [Expense Agent overview](expense-agent.md).
+- With Expense Agent enabled. Expense users submit receipts through a web app or email. Expense Agent automatically extracts data, categorizes and itemizes expenses, creates expense records, and groups them into expense reports. You view and edit agent-created expenses inside [!INCLUDE [prod_short](../includes/prod_short.md)]. Learn more in [Expense Agent overview](expense-agent.md).
 - Without Expense Agent. Expense users create expense reports in [!INCLUDE [prod_short](../includes/prod_short.md)] and add expense lines manually. Individual expenses aren't available without the agent, and there's no AI-powered receipt scanning, extraction, or automatic categorization. This option is useful in regions where the agent isn't enabled or when you prefer to work entirely in [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 Without the agent, you still have access to:
 
 - Expense report creation, release, and posting
 - Itemization, participants, per diem, and mileage on report lines
+- Travel requests for expected travel costs
 - Rule validation and approval workflows
 - All setup features (categories, rules, posting groups, locations)
 
@@ -42,7 +43,8 @@ Expense management involves three roles:
 
 - Expense users who incur expenses and submit expense reports for reimbursement.
 - Managers who review and approve or reject expense reports submitted by their team.
-- Administrators who set up expense categories, rules, approval workflows, and posting groups.
+- Accountants who review VAT calculations and reclaim eligibility, and then post approved reports.
+- Administrators who set up expense categories, rules, policies, approval workflows, and posting groups.
 
 ## Key concepts
 
@@ -55,6 +57,10 @@ An expense is a work-related cost, such as a hotel stay, a meal, or a taxi ride.
 ### Expense reports
 
 An expense report groups one or more expenses into a single document for submission. After you add expenses to a report, submit it for approval (if approval workflows are enabled). After the report is approved, you can post it to the general ledger and other entries.
+
+### Travel requests
+
+Travel requests help you review planned travel before employees incur expenses. A request captures its purpose, travelers, dates, and estimated costs. After approval, you can link the request to an expense report and compare posted spending with the total expected amount. Learn more in [Manage travel requests](expense-management-travel-requisitions.md).
 
 ### Expense report statuses
 
@@ -70,13 +76,23 @@ Expense reports move through these statuses.
 | Processed for Payment | The report was posted and payment processing started. |
 | Completed | Reimbursement is complete. |
 
-### Expense categories and rules
+### Expense categories, rules, and policies
 
 Expense categories classify expenses by type, such as meals, travel, or office supplies. Administrators can configure categories with default payment methods, posting groups, and detail requirements like itemization or per diem. To have more accurate itemization for all lines, administrators can add subcategories.
 
-Expense rules automatically apply company guidelines. A rule defines conditions based on category and location if applicable — for example, requiring justification for meals above a certain amount, or restricting which merchants are allowed.
+Expense rules enforce measurable requirements, such as amount limits, merchant restrictions, and required justification. Business Central checks rules during expense entry and submission.
 
-Learn more at [Set up expense categories and rules](expense-management-categories-rules.md).
+Expense policies describe expected business behavior in natural language. When an administrator enables AI-assisted policy evaluation through **Configure Expense Agent**, Expense Agent evaluates applicable policies and presents the results to submitters and approvers.
+
+Learn more in [Set up expense categories, rules, and policies](expense-management-categories-rules.md) and [How expense policy and rules compliance work](expense-agent-policy-compliance.md).
+
+### VAT calculation and reclaim
+
+When VAT reclaim is enabled, Expense Agent identifies VAT information on receipts and creates a VAT breakdown for each applicable rate. The breakdown includes the VAT percentage, VAT base, VAT amount, total amount, and expense category or subcategory. When the expense is added to a report, category or subcategory setup provides the suggested reclaim percentage.
+
+The VAT workflow carries the extracted values into the expense report, so expense users don't need to calculate VAT manually. An accountant must review every VAT reclaim suggestion and approve or reject it before the expense report can be posted. The accountant remains responsible for the final tax decision. Approved VAT amounts are included in posting and retained with the posted expense report for reporting and audit.
+
+Learn more in [Set up expense management](expense-management-setup.md#set-up-vat-reclaim) and [Approve expense reports](expense-management-approve-reports.md#review-vat-reclaim).
 
 ### Refundable versus reimbursable
 
@@ -89,7 +105,7 @@ A single receipt can be partially refundable. For example, a hotel bill with thr
 
 ### Per diem and mileage
 
-For travel expenses, expense management supports *per diem* allowances and *mileage* reimbursement. Administrators configure rates, calculation methods, and partial-day rules in the setup. Learn more at [Set up per diem and mileage allowances](expense-management-per-diem-mileage.md).
+For travel expenses, expense management supports *per diem* allowances and *mileage* reimbursement. Administrators configure per diem calculation methods and partial-day rules. Learn more in [Set up per diem and mileage allowances](expense-management-per-diem-mileage.md). Administrators can also define effective-dated mileage rates by vehicle type and currency. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
 ## Licensing requirements
 
@@ -109,7 +125,10 @@ The license you need depends on how you interact with expense management:
 
 [Manage expenses with Expense Agent web app](expense-agent-overview.md)  
 [Set up expense management](expense-management-setup.md)  
+[Set up mileage rates for expense management](expense-management-mileage-rate-setup.md)
+
 [Create and manage expenses](expense-management-create-expenses.md)  
+[Manage travel requests](expense-management-travel-requisitions.md)
 [Record and reimburse employees' expenses](../finance-how-record-reimburse-employee-expenses.md)  
 [Financial management](../finance.md)
 

@@ -1,9 +1,9 @@
 ---
-title: Approve Expense Reports in Business Central
-description: Learn how to review, approve, reject, and reopen submitted expense reports as a manager using Business Central expense management.
+title: Review and Approve Expense Reports
+description: Learn how managers and accountants review expense reports, decide VAT reclaim, approve or reject reports, and prepare them for posting.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/21/2026
+ms.date: 09/24/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -11,11 +11,11 @@ ms.search.form: 6939, 6980, 6981
 ai-usage: ai-assisted
 ---
 
-# Approve expense reports
+# Review and approve expense reports
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When the approval workflow is enabled, submitted expense reports require manager review before they can be posted. This article explains how managers review, approve, or reject expense reports in [!INCLUDE[prod_short](../includes/prod_short.md)].
+When the approval workflow is enabled, submitted expense reports require approval before they can be posted. Managers review the business purpose and policy compliance. When VAT reclaim is enabled, accountants also review the VAT calculation and make the final reclaim decision. This article explains both reviews in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -32,6 +32,22 @@ The list shows expense reports that are pending your review. If the approval wor
 3. Review the **Rule Violations** FactBox on the right side for any policy violations.
 4. Review the **Expense Report Statistics** FactBox for totals and reimbursable amounts.
 5. Use the **Expense** FactBox to access attached receipts.
+
+## Review VAT reclaim
+
+When VAT reclaim is enabled, an accountant must approve or reject every VAT reclaim suggestion before posting. Report approval doesn't replace this tax review.
+
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Accountant Expense Reports**, and then choose the related link.
+1. Find a report where **Has VAT Specification** is turned on.
+1. Select the report, and then choose **VAT Specification**.
+1. Compare the VAT specification lines with the receipt. Review the expense category and subcategory, VAT posting groups, VAT percentage, VAT base, VAT amount, reclaim percentage, reclaim reason, source, and confidence.
+1. Correct the VAT details or reclaim percentage when needed.
+1. For each VAT specification line, choose **Approve Reclaim** or **Reject Reclaim**. To approve all pending VAT rows for the selected expense report line, choose **Approve All Reclaims**.
+
+An approved reclaim keeps the current reclaim percentage. A rejected reclaim sets the reclaim percentage and reclaim amount to zero. If the reclaim percentage changes, its status returns to **Pending** and requires another decision.
+
+> [!IMPORTANT]
+> [!INCLUDE [prod_short](../includes/prod_short.md)] blocks posting while any VAT specification line has the **Pending** reclaim status.
 
 ## Approve an expense report
 

@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: numbers, numbering
-ms.search.form: 456_Primary, 457_Primary, 458_Primary, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/07/2026
+ms.search.form: Primary_456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
+ms.date: 08/26/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -97,6 +97,8 @@ The following procedure shows how to set up number series for the Sales area. Th
 2. On the **Sales & Receivables** page, on the **Number Series** FastTab, select the desired number series for each sales card or document.
 
 The selected number now fills in the **No.** field on the card or document according to your settings.  
+
+For self-billed purchase invoices, you can assign a separate number series to each vendor. On the **Vendor Card** page, turn on **Self-Billing Agreement**, and then select a series in **Self-Billing Invoice Nos.** The vendor-specific series takes precedence over **Posted Self-Billing Inv. Nos.** on the **Purchases & Payables Setup** page. Learn more in [Use self-billed invoices for vendors](purchasing-how-register-new-vendors.md#use-self-billed-invoices-for-vendors).
 
 ## Related information
 

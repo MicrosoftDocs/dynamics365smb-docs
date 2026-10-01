@@ -6,7 +6,7 @@ ms.topic: faq
 ms.service: dynamics-365-business-central
 ms.search.keywords: find, search, Tell Me
 ms.search.form: TellMe
-ms.date: 09/30/2025
+ms.date: 09/21/2026
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template

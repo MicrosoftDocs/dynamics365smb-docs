@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/21/2025
+ms.date: 09/14/2026
 ms.custom: bap-template
 ms.search.form: 8896,
 ms-service: dynamics-365-business-central
@@ -57,7 +57,11 @@ The file is now attached to the purchase invoice.
 1. On the FactBox, select the **Attachments** tab.
 1. Under **Documents**, select the attachment you want to view.
 
-   If you select a PDF file, it opens in your browser. Other files download to your device, where you can open them.
+   Supported PDF and image files open in preview mode in [!INCLUDE[prod_short](includes/prod_short.md)], so you can review them without downloading them first. If you want to save a copy, use the **Download** action in the previewer. Other file types download to your device, where you can open them.
+
+   Supported image formats include JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF, and AVIF. GIF and AVIF formats include support for animated files. On Safari, TIFF and TIF images are also supported.
+
+   In the **Attachments** FactBox, you can select supported image thumbnails and first-page previews of PDF files to open the previewer. GIF thumbnails can animate when the GIF has up to 48 frames.
 
 ## Save a document as a PDF attachment
 

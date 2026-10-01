@@ -4,7 +4,7 @@ description: View a list of key combinations (keyboard shortcuts) that you can u
 author: jswymer
 ms.topic: concept-article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/17/2026
+ms.date: 08/20/2026
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -173,6 +173,15 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Shift</kbd>+<kbd>F6</kbd> | Move to the previous FastTab or part (subpage). |
 | <kbd>Shift</kbd>+<kbd>F9</kbd> | Post and print a document. |
 | <kbd>Shift</kbd>+<kbd>F11</kbd> | Apply entries, get source documents, or get warehouse documents. |
+
+## Keyboard shortcuts in agent configuration pages
+
+The following keyboard shortcuts are available on configuration pages for AI and agents, such as **Sales Order Agent**, **Payables Agent**, and **Expense Agent**.
+
+| Select these keys | To do this |
+|---|---|
+| <kbd>Ctrl</kbd>+<kbd>Left arrow</kbd> | Go to the previous card in the configuration page. |
+| <kbd>Ctrl</kbd>+<kbd>Right arrow</kbd> | Go to the next card in the configuration page. |
 
 ## Keyboard shortcuts to autofill fields with Copilot (preview)
 

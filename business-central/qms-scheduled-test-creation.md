@@ -4,9 +4,9 @@ description: Learn how to set up and use scheduled quality inspection tests to e
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: overview
+ms.topic: how-to
 ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 03/10/2026
+ms.date: 09/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -84,26 +84,31 @@ To learn more about quality inspection templates, go to [Create quality inspecti
 
 Configure rules specifically for time-based inspection creation.
 
+Scheduled processing uses any rule in the schedule group that isn't **Disabled**. The **Manual only** and **Automatic only** values control source actions and automatic triggers, but they don't exclude a rule from scheduled processing.
+
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Inspection Generation Rules**, and then choose the related link.
 2. Create a new inspection generation rule for scheduled inspections.
 3. Choose the **Schedule Group** field. You're prompted to create a job queue, followed by an option to view it. The next section describes the job queue settings.
 
 ### Configure a job queue entry
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Job queue entries**, and then select the related link.
-1. In the **Object Type to Run** field, enter **20400**.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Job queue entries**, and then choose the related link.
+1. In the **Object Type to Run** field, choose **Report**.
+1. In the **Object ID to Run** field, enter **20412**.
 1. In the **Maximum No. of Attempts to Run** field, specify a number of retry attempts for failures.
-1.  **Rerun Delay**: Specify how long to wait between retry attempts.
-- **Status**: Use the **Set Status to Ready** action to update the status to **Ready** and enable the job queue entry.
+1. In the **Rerun Delay (sec.)** field, specify how long to wait between retry attempts.
 1. In the **Earliest Start Date/Time** field, specify when to begin scheduled inspections.
-1. To schedule the job queue entry to run on a specific day of the week, on the **Recurrence** FastTab, turn on the **Run on <\day of the week>** for the day.
+1. To schedule the job queue entry to run on a specific day of the week, on the **Recurrence** FastTab, turn on the relevant **Run on** weekday toggle.
    1. In the **Starting Time** field, specify the time of day to start the recurring job.
    1. In the **Ending Time** field, specify the time of day to stop the recurring job.
+1. Select **Set Status to Ready** to enable the job queue entry.
 
 ## Related information
 
-[Manual Inspection Creation](qms-manual-test-creation.md)  
+[Work with quality inspections](qms-manual-test-creation.md)  
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
 [Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
 [Quality Management Setup and Configuration](qms-setup.md)  
-[Quality Management Overview](qms-overview.md)
+[Quality Management Overview](qms-overview.md)  
+
+[!INCLUDE [footer-banner](includes/footer-banner.md)]

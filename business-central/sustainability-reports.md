@@ -4,8 +4,8 @@ description: Explore the sustainability reports and analytics in the standard ve
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: Report_6210, Report_6211, Report_6212
-ms.date: 08/27/2025
+ms.search.form: Report_6210, Report_6211, Report_6212, Report_6221
+ms.date: 08/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -24,6 +24,7 @@ Sustainability reporting gives finance professionals insights and statistics abo
 The following articles describe some of the key tasks for analyzing the state of your sustainability efforts:
 
 * [Calculate Emission based on General Ledger](finance-sustainability-journal.md)
+* [Recalculate an item's average CO2e per unit from sustainability value entries](value-chain-howto-item-journals.md#recalculate-co2e-per-unit)
 * [Track items that you know have high emission levels](#track-items-that-you-know-have-high-emission-levels)
 
 ## Explore sustainability reports with Report Explorer

@@ -104,7 +104,9 @@ You attach files to records using the **Attachments** tab on the FactBox, or the
 
 ## View or download an attached file
 
-To open or save an attachment, select it from the **Attachments** FactBox or **Document Attachments** page, and choose **Open** or **Download**. [!INCLUDE [prod_short](includes/prod_short.md)] gets the file from the external storage and you can open it in your browser or download it to your device. 
+To open or save an attachment, select it from the **Attachments** FactBox or **Document Attachments** page, and choose **Open** or **Download**. [!INCLUDE [prod_short](includes/prod_short.md)] gets the file from external storage automatically. Supported PDF and image files open in preview mode, so you can review them without downloading them first. If you want to save a copy, use the **Download** action in the previewer. Other file types download to your device, where you can open them.
+
+Supported image formats include JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF, and AVIF. GIF and AVIF formats include support for animated files. On Safari, TIFF and TIF images are also supported.
 
 > [!NOTE]
 > If the file doesn't exist in the external storage, for example, because you deleted it, an error displays because the link is broken in [!INCLUDE [prod_short](includes/prod_short.md)].

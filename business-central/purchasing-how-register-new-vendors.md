@@ -1,13 +1,13 @@
 ---
 title: Register a new vendor
-description: Learn how to fill in a vendor card to register a new vendor or supplier, and how to save vendor cards as templates.
+description: Learn how to register vendors, save vendor cards as templates, and set up vendor-specific number series for self-billed purchase invoices.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.search.keywords: supplier, register vendor, vendor card, vendor template, create vendor, add vendor, new vendor, create new vendor, add new vendor
-ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 03/06/2026
+ms.search.keywords: supplier, register vendor, vendor card, vendor template, create vendor, add vendor, new vendor, self-billing, self-billed invoice, vendor number series
+ms.search.form: Primary_26, 27, 34, 456, 457, 460, 461, 786, 1379, 1385, 1386, 1628
+ms.date: 08/26/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -77,13 +77,27 @@ You can edit the information on vendor cards at any time. However, if you posted
 
 ## Use self-billed invoices for vendors
 
-Self‑billing reduces operational friction by allowing buyers to generate invoices on behalf of suppliers under a mutual agreement. This improves accuracy, accelerates processing, and eliminates delays caused by missing or inconsistent supplier‑issued invoices. With automated layouts, posting rules, and vendor configuration, you can streamline both compliance and internal controls while ensuring clean financial records.
+By using self-billing, your organization can create purchase invoices on behalf of a vendor under a self-billing agreement. This agreement can improve accuracy, accelerate processing, and eliminate delays caused by missing or inconsistent supplier‑issued invoices. By using automated layouts, posting rules, and vendor configuration, you can streamline both compliance and internal controls while ensuring clean financial records. You can assign a separate number series to each vendor. Separate sequences help you meet compliance requirements and reduce numbering errors.
 
-[!INCLUDE [prod_short](includes/prod_short.md)] supports self‑billed invoices in the purchase process. Buyers can generate invoices on behalf of a vendor when a self‑billing agreement is in place. If you turn on the **Self-Billing Agreement** toggle on the **Vendor Card** page, and all **Purchase Invoices** created for that vendor, whether from **Purchase Orders** or directly, are automatically marked as self‑billed. You can also assign a number series that's dedicated for self‑billed invoices, ensuring correct document sequencing.
+### Set up a self-billing vendor
 
-The **Posted Purchase Invoice – Self‑Billing Invoice** report layout formats the invoice to align with the style of sales invoices, showing buyer company information, vendor details, VAT information, and all essential invoice data.
+1. Create the number series that you want to use for the vendor's self-billed purchase invoices. Learn more in [Create number series](ui-create-number-series.md).
+2. Open the vendor on the **Vendor Card** page.
+3. On the **Invoicing** FastTab, turn on **Self-Billing Agreement**.
+4. In the **Self-Billing Invoice Nos.** field, select the number series for the vendor.
 
-For Danish localizations, the posting process can automatically create **Digital Vouchers** when you enable self‑billing, ensuring compliance with local audit and documentation rules. To prevent conflicts between buyer‑issued and supplier‑issued documents, vendors with a self‑billing agreement can't receive inbound e‑documents for accounts payable. This guarantees data integrity and avoids duplicate or contradictory documents in the purchase flow.
+When you create a purchase invoice for the vendor, either directly or from a purchase order, [!INCLUDE [prod_short](includes/prod_short.md)] marks the invoice as self-billed. When you post the invoice, the system assigns the **Vendor Invoice No.** from the vendor's **Self-Billing Invoice Nos.** series. Each vendor can use a separate sequence.
+
+If **Self-Billing Invoice Nos.** is blank, the system uses **Posted Self-Billing Inv. Nos.** from the **Purchases & Payables Setup** page. The vendor-specific setting takes precedence over this global setting. If both fields are blank, you can't post the self-billed invoice.
+
+> [!NOTE]
+> The vendor-specific self-billing series assigns the **Vendor Invoice No.** The posted purchase invoice's **No.** uses the normal **Posted Invoice Nos.** series from the **Purchases & Payables Setup** page.
+
+Before you turn off **Self-Billing Agreement** for a vendor, clear the **Self-Billing Invoice Nos.** field.
+
+The **Posted Purchase Invoice – Self-Billing Invoice** report layout shows buyer company information, vendor details, VAT information, and other invoice information.
+
+In the Danish version, posting can create **Digital Vouchers** when self-billing is enabled. Vendors with a self-billing agreement can't receive inbound e-documents for accounts payable. This restriction helps prevent duplicate or conflicting purchase documents.
 
 ## Related information
 

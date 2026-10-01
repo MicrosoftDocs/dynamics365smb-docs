@@ -1,12 +1,12 @@
 ### YamlMime:FAQ
 metadata:
   title: Mobile Apps FAQ
-  description: See answers to frequently asked questions about using Business Central on your phone or tablet.
+  description: Get answers to frequently asked questions about using Business Central on your phone or tablet.
   author: brentholtorf
   ms.topic: faq
   ms.service: dynamics-365-business-central
   ms.search.keywords: phone, tablet
-  ms.date: 10/25/2024
+  ms.date: 09/11/2026
   ms.author: bholtorf
   ms.reviewer: jswymer 
   ms.custom: bap-template 
@@ -21,9 +21,8 @@ sections:
       - question: |
           Is there an app for my device?
         answer: |
-          Probably! Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.
+          Probably! Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your phone or tablet by downloading the app from the App Store or Google Play.
           
-          - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
           - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
           - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
           
@@ -59,7 +58,48 @@ sections:
       - question: |
           Can I connect the app to our on-premises solution?
         answer: |
-          Yes, you can! It's a slightly different way to signing in, that's all. For more information, Go to [Use Business Central on-premises?](install-mobile-app.md#use-business-central-on-premises).  
+          Yes, you can! It's a slightly different way to signing in, that's all. For more information, go to [Use Business Central on-premises?](install-mobile-app.md#use-business-central-on-premises).
+
+      - question: |
+          How do I troubleshoot connection problems in the Business Central mobile app?
+        answer: |
+          The **Enhanced connectivity** setting helps the Business Central mobile app sign in and connect to Business Central. The setting is turned on by default. Most users don't need to change it.
+
+          ### Why enhanced connectivity was introduced
+
+          The Business Central mobile app is used across many devices, networks, and security configurations. In some environments, network restrictions or device settings can interfere with signing in or connecting.
+
+          Enhanced connectivity gives the mobile app another way to communicate with Business Central. The option to turn it off is available as a troubleshooting measure for the small number of users who experience connection problems while it's enabled.
+
+          For the best experience, leave **Enhanced connectivity** turned on unless you're troubleshooting a connection problem or have been advised to turn it off by your administrator or support representative.
+
+          ### Turn off enhanced connectivity
+
+          If you're having repeated problems signing in or connecting:
+
+          1. Open the Business Central mobile app.
+          1. On the sign-in screen, select **Advanced options**.
+          1. Expand **Connection troubleshooting**.
+          1. Turn off **Enhanced connectivity**.
+          1. Wait for the app to reload, and then try to sign in again.
+
+          Turning off **Enhanced connectivity** doesn't delete or modify your Business Central data. It only changes how the mobile app connects to the service on your device. The setting remains off until you turn it back on or reset the app settings.
+
+          If the app shows the message **We couldn't update the enhanced connectivity setting. Try again.**, try to change the setting again.
+
+          ### Restore the recommended setting
+
+          To turn **Enhanced connectivity** back on:
+
+          1. Open **Advanced options**.
+          1. Expand **Connection troubleshooting**.
+          1. Turn on **Enhanced connectivity**.
+
+          You can also select **Reset app settings** and confirm the action. Resetting app settings turns **Enhanced connectivity** back on, closes the **Connection troubleshooting** section, and restores other app settings to their defaults.
+
+          ### If connection problems continue
+
+          If turning off **Enhanced connectivity** doesn't resolve the problem, turn it back on and contact your administrator or support representative. When requesting help, provide your device type, operating system version, Business Central mobile app version, and any error message displayed during sign-in.
 
       - question: |
           Can a guest or external user use the app to access our Business Central solution?

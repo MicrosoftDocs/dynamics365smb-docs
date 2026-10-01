@@ -4,9 +4,10 @@ description: Many general features help you enter data easier, faster, and more 
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: decimal separator, data entry, focus
+ai-usage: ai-assisted
+ms.search.keywords: decimal separator, data entry, focus, lookup, recent values
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 03/11/2025
+ms.date: 09/15/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -118,6 +119,16 @@ Many fields have a down arrow button that you can choose. You choose the arrow t
 - **Lookup**: Displays information from another table that you can enter in the field. You can select one piece of data at a time.  
 
 - **Dropdown**: Displays the set of options that exist for the field. You can select only one of the options.  
+
+### Use recent values in lookup fields
+
+Some lookup fields let you switch between the standard lookup order and the values that you used recently. Select **Recent** in the lookup to show recent values first. Select **Search** to return to the standard lookup order.
+
+Recent values can help when you enter the same customers, vendors, items, or other records often. The lookup is personalized for you, so you can pick records you recently used without searching the full list.
+
+If you type in a field while recent values are shown, the lookup switches back to search results. You can select **Recent** again to show recent values while keeping the text that you typed in the field. The typed text doesn't filter the recent values.
+
+Column sorting isn't available while the lookup shows recent values.
 
 ## Copying and pasting FAQ fields and lines
 

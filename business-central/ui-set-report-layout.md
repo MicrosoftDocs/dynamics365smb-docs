@@ -1,67 +1,83 @@
 ---
-title: Setting the Report Layout
-description: Learn how to set the layout that's used on a report when previewing and printing.
+title: Set the Layout Used by a Report in Business Central
+description: Learn how to select the default report layout for each company, temporarily use another layout, and distinguish layout selection from reusable branding.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 06/13/2024
+ms.date: 09/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 # Set the layout used by a report
 
-> **APPLIES TO:** Business Central online, Business Central on-premises 2022 release wave 1 and later. For earlier versions, go [here](ui-how-change-layout-currently-used-report.md).
+> **APPLIES TO:** Business Central online, Business Central on-premises 2022 release wave 1 and later. For earlier versions, learn more in [Set the layout used by a report in earlier versions](ui-how-change-layout-currently-used-report.md).
 
-A report layout determines the look of a report. It controls which data fields of a report dataset appear, how they're arranged, styled, and more. A report may have more than one layout, which you can then switch among as needed.
+A report layout determines the content and format of a report. It controls which data fields appear, how they're arranged, and how the report is styled. A report can have more than one layout, which you can switch among as needed.
 
-When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report in one company can have a different layout in another company.
+Select the default layout for each company. The same report can use a different default layout in each company.
+
+## Distinguish layout selection from composite branding
+
+Selecting a report layout and assigning reusable parts are separate tasks:
+
+| Task | What it controls | Where to do it |
+|---|---|---|
+| Select the default layout | Which layout the report uses by default in a company | **Report Layouts** or **Report Layout Selection** |
+| Select a layout for one run | Which available layout the report uses temporarily | The report request page |
+| Assign a theme and header/footer | Which reusable branding parts are combined with a Word layout whose **Subtype** is **Body** | The **Composite layout** actions on **Report Layouts** |
+
+The composite-layout actions are available when the **Document Report Experience** feature is enabled on the **Feature Management** page. Learn more about turning on features in [Enabling new and upcoming features ahead of time](admin-feature-management.md). Assigning a theme or header/footer doesn't change which body layout is the default. Likewise, when you change which body layout is the default, the theme and header/footer assignments from the previous default aren't copied to the new one. Learn more in [Set up reusable themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md).
 
 ## Get started
 
-There are a few ways to set which layout a report uses. Each way has advantages, depending on what you're looking to do: 
+You can set the layout for a report in several ways. Each method has advantages, depending on what you want to do:
 
 - From the report request page
 
-  When setting up a report to run, the report request page includes the **Reports Layout** field that shows the current default layout used by the report. You can use this field to temporarily switch to another available layout the report you're running. After you run the report, the layout will revert to the default layout again. For more information, see [Run and Print Reports](ui-work-report.md#switch-the-report-layout).
+  When you set up a report to run, the report request page includes the **Report Layout** field, which shows the current default layout. Use this field to temporarily select another available layout for that run. The selection doesn't change the default layout. Learn more in [Run and print reports](ui-work-report.md#switch-the-report-layout).
 
 - From the **Report Layout Selection** page
 
   The **Report Layout Selection** page displays a list of all reports. This page indicates what the current default layout for a report is. It lets you set layouts in different companies, without having to switch the company you're working with.
 
 - From the **Report Layouts** page
+
   The **Report Layouts** page displays all available layouts for each report in the current company. It's also used to specify the default layout for reports. It's easy to find a specific layout by sorting or filtering the list. Once you find the layout, you can set it for a report with a single selection.
 
   > [!NOTE]
-  > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you won't even see these custom layouts listed on the **Report Layouts** page. For these layouts, you can only set them by using **Report Layout Selection** page.
+  > You can't use the **Report Layouts** page for Word and RDLC layouts that you created by using the legacy [Custom Layouts feature](ui-how-create-custom-report-layout.md). You won't see these custom layouts listed on the **Report Layouts** page. For these layouts, you can only set them by using the **Report Layout Selection** page.
 
 ## Set the layout from the Report Layouts page
 
 1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-2. Find the layout in the list, select it, then select the **Set Default** action at the top of the page.
+1. Find and select the layout in the list.
+1. Select **Layout** > **Set as default**.
 
-## Set the layout from Report Layout Selection page
+## Set the layout from the Report Layout Selection page
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
-  
-   The page lists all the reports that are available for the company that's specified in the **Company** field at the top of the page. The **Layout Description** field specifies the layout that the report currently uses.
-2. Set the **Company** field at the top to the company that includes the report.
-3. Find and select the report in the list, then do one of the following steps:
+The page lists the available reports. The **Company Name** field determines the company for which you set the default layout. The **Layout Description** field shows the layout that the report currently uses in that company.
 
-   - If the layout that you want to switch to is a different type than the current layout, select the **Layout Type** field, then choose the type of the layout you want to set on the report. 
-   - If the layout that you want to switch to the same type as the current layout, select the **Select Layout** action at the top.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Report Layout Selection**, and then select the related link.
+1. Set the **Company Name** field to the company for which you want to select the default layout.
+1. Find and select the report, and then use one of the following options:
 
-4. In the **Report Layouts** page, select the layout, then select **OK**.
+   - If the layout is a different type than the current layout, select the **Layout Type** field, and then select the type.
+   - If the layout is the same type as the current layout, select **Select Layout**.
+
+1. On the page that opens, select the layout, and then select **OK**.
 
 ## Revert to the original default layout
 
-Reports are designed to use a layout by default. You can switch back to the original default layout from **Report Layout Selection** page. Just select the report, then select the **Restore Default Selection** action at the top of the page.
+Reports are designed to use a layout by default. You can switch back to the original default layout from the **Report Layout Selection** page. Select the report, and then select **Restore Default Selection**.
 
 ## Related information
 
-[Managing Report Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Set up reusable themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md)  
+[Report and document layouts overview](ui-manage-report-layouts.md)  
+[Get started creating report layouts](ui-get-started-layouts.md)  
+[Run and print reports](ui-work-report.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

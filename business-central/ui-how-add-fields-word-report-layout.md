@@ -1,165 +1,138 @@
 ---
-title: Work with Word Layouts
-description: This article describes how to add fields of a report dataset to an existing Word report layout for a report.
+title: Map Data Fields in Word Layouts
+description: Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-ms.date: 09/30/2025
+ms.search.keywords: Word layout, XML Mapping Pane, custom XML part, content control, report field
+ms.date: 09/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ---
-# Work with Word layouts
 
-A Word report layout determines the content and format of a report when it's previewed and printed from Business Central. You create and modify these layouts using Microsoft Word.
+# Add report data with the XML Mapping pane in Word
 
-[![Example of a word report layout document for Business Central.](media/word-layout.png)](media/word-layout.png#lightbox) 
+A Word layout controls the content and format of a report when you preview, print, or save it from Business Central. You can use Microsoft Word to arrange report fields, labels, images, and repeating data in a layout.
 
-When you modify a Word report layout, you specify the fields of the report dataset to include on report and how the fields are arranged. You also define the general format of the report, such as text font and size, margins, and background images. You typically arrange the content of the report by adding tables to the layout.
+Use the Business Central add-in for Word for common layout tasks. The add-in provides a task pane for adding fields, repeaters, and data tables. Learn more in [Design Word layouts with the Business Central add-in](ui-design-word-layouts-business-central-add-in.md).
 
-To make general formatting and layout changes, such as changing text font, adding or modifying a table, or removing a data field, use the standard editing features available in Microsoft Word as you would with any Word document.
+Use the **XML Mapping pane** when the Add-in isn't available, when you need to inspect the underlying custom XML, or when you want to map content controls manually.
 
-If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns for holding the data fields.
+:::image type="content" source="media/word-layout.png" alt-text="A Word layout with labels for the Developer tab, XML Mapping pane, data controls, tables, and repeating rows." lightbox="media/word-layout.png":::
 
-> [!TIP]  
-> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
+> [!IMPORTANT]
+> The **XML Mapping pane** is available in the desktop version of Word for Windows. If you use Word for the web or Word for Mac, use the Business Central Word add-in instead.
 
-## Embedding fonts in Word layouts for consistency
+## Get a Word layout to modify
 
-To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+Export an existing layout or create a blank Word layout before you open the **XML Mapping pane**.
 
-## Quickstart: Modify a Word layout
+1. [!INCLUDE [open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Select the Word layout that you want to use as a starting point.
+1. Select **Layout** > **Update and Export Layout**.
+1. Open the downloaded .docx file in Word.
 
-To customize a Word layout for a report, follow these steps:
+Using **Update and Export Layout** updates the file with the current report dataset. To start without an existing design, create a blank Word layout. Learn more about creating a user-defined layout in [Create a new layout](ui-get-started-layouts.md#create).
 
-1. Get the .docx file for the Word layout.
+> [!IMPORTANT]
+> You can't replace an extension-provided layout. Create a user-defined copy before you upload your changes. Learn more in [Create a new layout](ui-get-started-layouts.md#create).
 
-   In Business Central, you can export an existing layout from the **Report Layouts** page.
-1. Open the layout file in Word.
-1. Make the required changes to the Word layout as described in the [Adding data fields](#adding-data-fields) and [Adding image fields](#adding-image-fields) sections that follow.
-1. Save the file.
-1. In Business Central, return to the **Report Layouts** page, and then import the modified layout to replace an existing layout or create a new layout.
+## Open the report custom XML part
 
-Learn more in [Modify a report Layout](ui-get-started-layouts.md#modify-a-layout).
+The report's *custom XML part* contains elements for its data items, fields, and labels. You map these elements to Word content controls.
+
+1. In Word, display the **Developer** tab. Learn more in [Show the Developer tab on the ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
+1. On the **Developer** tab, select **XML Mapping Pane**.
+1. In the **Custom XML Part** list, select the Business Central report part. It's usually the last item and uses a name similar to this example:
+
+   `urn:microsoft-dynamics-nav/reports/<report-name>/<id>`
+
+The **XML Mapping** pane displays the labels, data items, and fields available in the report dataset.
+
+## Add a label or data field
+
+Add a mapped content control instead of typing the dataset field name into the document.
+
+1. Place the cursor where you want the value.
+1. In the **XML Mapping** pane, right-click the label or field.
+1. Select **Insert Content Control** > **Plain Text**.
+
+Word adds a content control that's mapped to the selected report value. Use standard Word features to position and format it.
+
+## Add repeating rows
+
+Use a repeating content control to show one table row for each record in a report data item.
+
+1. Add a Word table with a placeholder row that has one column for each field that you want to repeat.
+1. Select the entire placeholder row.
+1. In the **XML Mapping** pane, right-click the data item that contains the fields you want to repeat.
+1. Select **Insert Content Control** > **Repeating**.
+1. Place the cursor in the first cell of the repeating row.
+1. In the **XML Mapping** pane, right-click the field for that column, and then select **Insert Content Control** > **Plain Text**.
+1. Repeat the previous step for the other cells in the row.
 
 > [!TIP]
-> Business Central offers an add-in to Word that lets you do several layout modifications, like adding data fields and labels, from a user-friendly task pane instead of the **XML Mapping Pane**. Learn more in [Use the Word add-in on report layouts](/dynamics365/business-central/dev-itpro/developer/word-layout-add-in).
+> To see the boundaries of table cells while you work, select the table, and then select **Layout** > **View Gridlines** under **Table**. Gridlines don't appear when the report is printed.
 
-## Adding data fields
+## Add an image field
 
-A report dataset can consist of fields that display labels, data, and images. This article describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
-  
-> [!NOTE]  
-> You can't modify built-in report layouts<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
+A report dataset can include an image, such as a company logo or an item picture.
 
-###  <a name="OpenXMLPart"></a> To open the Custom XML part for the Report in Word  
-  
-1. Display the **Developer** tab in the ribbon of Microsoft Word.  
-  
-     By default, the **Developer** tab isn't shown in the ribbon. Learn more at [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
-  
-1. On the **Developer** tab, select **XML Mapping Pane**.    
-1. In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for [!INCLUDE[prod_short](includes/prod_short.md)] report, which is typically last in the list. The name of the custom XML part has the following format:  
-  
-     `urn:microsoft-dynamics-nav/reports/<report_name>/<ID>`  
+1. Place the cursor where you want the image.
+1. In the **XML Mapping** pane, right-click the image field.
+1. Select **Insert Content Control** > **Picture**.
+1. Resize the content control as needed.
 
-     `<report_name>` is the name that is assigned to the report 
+The image aligns in the upper-left corner and keeps its proportions when it is resized to fit the content control. Use Word formatting to change the alignment of the image.
 
-     `<ID>` is the identification number of the report.  
-  
-     After you select the custom XML part, the XML Mapping pane displays the labels and field controls that are available for the report.  
-  
-### To add a label or data field  
-  
-1. Place your cursor in the document where you want to add the control.    
-1. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
-  
-    > [!NOTE]  
-    > You can't add a field by manually typing the dataset field name in the content control. You must use the **XML Mapping** pane to map the fields.  
-  
-### To add repeating rows of data fields to create a list  
-  
-1. In a table, add a table row that includes a column for each field that you want repeated.  
-  
-   This row acts as a placeholder for the repeating fields.  
-  
-1. Select the entire row.    
-1. In the **XML Mapping** pane, right-click the control that corresponds to the report data item that contains the fields that you want repeated, choose **Insert Content Control**, and then choose **Repeating**.    
-1. Add the repeating fields to the row as follows:  
-  
-    1. Place your pointer in a column.
-    1. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.    
-    1. For each field, repeat steps a and b.
+> [!IMPORTANT]
+> Use an image format supported by Word, such as .bmp, .jpeg, or .png. The report shows an error if Word can't render the image format.
 
-## Adding image fields
+## Remove a mapped field
 
-A report dataset can include a field that contains an image, such as a company logo or a picture of an item. To add an image from the report dataset, you insert a **Picture** content control.  
-  
-Images align in the top-left corner of the content control and resize automatically in proportion to fit the boundary of the content control.  
-  
-> [!IMPORTANT]  
-> You can only add images that have a format that Word support, such as .bmp, .jpeg, and .png file types. If you add an image that has a format that Word doesn't support, you get an error when you run the report from the [!INCLUDE[prod_short](includes/prod_short.md)] client.  
-  
-### To add an image  
-  
-1. Place your pointer in the document where you want to add the control.  
-1. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Picture**.  
-1. To increase or decrease the image size, drag a sizing handle away from or towards the center of the content control.  
+Mapped fields appear as content controls in the Word document.
 
-##  <a name="RemoveField"></a> Removing label and data fields
+:::image type="content" source="media/nav_wordreportlayouts_contentcontrol.png" alt-text="A selected content control for a field in a Word layout.":::
 
-Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when you selected it in the Word document.  
+1. Right-click the content control.
+1. Select **Remove Content Control**.
+1. Delete the remaining text if you no longer want it in the layout.
 
-![Content control for field in Word report layout.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+Removing the content control removes the mapping. It doesn't automatically remove the text displayed inside the control.
 
-The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
+## Save and test the layout
 
-### To remove a label or data field  
+1. Save the .docx file in Word.
+1. In Business Central, return to the **Report Layouts** page.
+1. Select the user-defined Word layout.
+1. Select **Replace Layout**, confirm the action, and then select the edited file.
+1. Select **Run Report** to preview the result.
 
-1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
+## Understand the custom XML structure
 
-     The content control is removed, but the field name remains as text.  
-1. Delete the remaining text as needed.
+The custom XML part reflects the report dataset:
 
-## Custom XML Part Overview
+- The `Labels` element contains report labels and captions.
+- Top-level data item elements each contain the fields for that data item.
+- Nested data items appear below their parent data item.
+- Fields and labels are listed by the names defined in the report dataset.
 
-Word report layouts are built on *custom XML parts*. A custom XML part for a report consists of elements that correspond to the data items, columns, and labels that comprise the report's dataset. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->The custom XML part is used to map the data into a report when the report is run.
+:::image type="content" source="media/nav_reportlayout_xmlmappingpane.png" alt-text="The XML Mapping Pane showing labels, data items, and fields for a report.":::
 
-### XML structure of custom XML part
+The text displayed for a field label comes from the field caption or a label defined in the report. The report language determines the translated label used when the report runs.
 
-The following table provides a simplified overview of the XML of a custom XML part.  
-  
-|XML Elements|Description|  
-|------------------|-----------------|  
-|`<?xml version="1.0" encoding="utf-16"?>`|Header|  
-|`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML namespace specification. `<reportname>` is the name that is assigned to the report. `<id>` is the ID that is assigned to the report.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contains all the labels for the report.<!--OnPren The element includes labels that are related to columns that have the IncludeCaption Property.--><br />-   Label elements that are related to columns have the format `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Label elements have the format `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Labels are listed in alphabetical order.|  
-|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Top-level data item and columns. Columns are listed in alphabetical order.<!--OnPrem <br /><br /> The element names and values are determined by the Name Property of the data item or column.-->|  
-|`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Data items and columns that are nested in the top-level data item. Columns are listed in alphabetical order under the respective data item.|  
-|`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Closing element.|  
-  
-### Custom XML part in Word
+Learn more about the underlying dataset in [Define a report dataset](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).
 
- In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (learn more at [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
-  
- The elements in the **XML Mapping** pane appear in a structure that is similar to the XML source. Label fields are grouped under a common **Labels** element and data item and columns are arranged in a hierarchical structure that corresponds to the XML source, with columns listed in alphabetical order. Elements are identified by their column name as defined in the report's dataset in AL code. Learn more in [Defining a Report Dataset](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
-  
- The following figure illustrates the simple custom XML part from the previous section in the **XML Mapping** pane of a Word document.  
-  
- ![Clip of the XML Mapping pane in word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
-  
-* To add a label or field to the layout, you insert a content control that maps to the element in the **XML Mapping** pane.  
-  
-* To create repeating rows of columns, insert a **Repeating** content control for the parent data item element, and then add content control for the columns.  
-  
-* For labels, the actual text that appears in the generated report is the value of the **Caption** property for the field in the data item table (if the label is related to the column in the report dataset) or a label in the Report Label Designer (if the label isn't related to a column in the dataset).  
-  
-* The language of the label that is displayed when you run the report depends on the language setting of the report object.  
-  
+## Embed fonts for consistent output
+
+You can embed fonts in the Word document to help reports display and print consistently on different devices. Embedded fonts can significantly increase the size of the layout file. Learn more in [Embed fonts in Word, PowerPoint, or Excel](https://support.microsoft.com/office/embed-fonts-in-word-or-powerpoint-cb3982aa-ea76-4323-b008-86670f222dbc).
+
 ## Related information
 
-[Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)  
-
+[Design Word layouts with the Business Central add-in](ui-design-word-layouts-business-central-add-in.md)  
+[Get started creating report layouts](ui-get-started-layouts.md)  
+[Report and document layouts overview](ui-manage-report-layouts.md)  
+[Set the layout used by a report](ui-set-report-layout.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

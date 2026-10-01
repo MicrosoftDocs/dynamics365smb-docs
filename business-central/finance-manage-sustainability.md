@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, carbon, CO2
 ms.search.form: 
-ms.date: 02/03/2025
+ms.date: 08/21/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 # Sustainability management overview
 
-Business Central offers sustainability management features that help you monitor and manage your organization's effect on the environment. The features are designed to oversee and regulate an organization's environmental footprint by tracking various greenhouse gas (GHG) emissions, and water and waste intensity to gather insights. You gather sustainability data using sustainability journals, general journals, or purchase documents, and the recalculation of emissions to the CO2 equivalent (CO2e). You can manually enter known data, or use built-in methods to calculate emissions. However, calculation using formulas is available only when you use sustainability journals.
+Business Central offers sustainability management features that help you monitor and manage your organization's effect on the environment. The features are designed to oversee and regulate an organization's environmental footprint by tracking various greenhouse gas (GHG) emissions, and water and waste intensity to gather insights. You gather sustainability data using sustainability journals, general journals, or purchase documents, and the recalculation of emissions to the CO2 equivalent (CO2e). You can manually enter known data, or use built-in formulas to calculate emissions in sustainability journals and purchase documents.
 
 Based on GHG protocol, there are three emission scopes:  
 
@@ -32,7 +32,7 @@ With this set of features, you can:
 
 - Set up emission factors for different sources and categories of GHG emissions, water, and waste.
 - Record emission, or water and waste intensity data in sustainability journals, either manually or by using predefined calculation methods.
-- Record emission data directly with purchase documents or general journals.  
+- Record emission data directly with purchase documents or general journals. You can use formulas to calculate emissions in purchase documents.
 - Record purchase of carbon credit using purchase documents or sustainability journals.
 - Calculate internal carbon fees.
 - Recalculate emission of all gasses to the CO2 equivalent using formulas.  

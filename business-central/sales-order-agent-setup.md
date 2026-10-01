@@ -79,7 +79,7 @@ Configure and activate Sales Order Agent for your company. You can set up multip
    - If the mailbox has a subfolder you want to monitor, set the **Folder** field to the subfolder.
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
-   The options are spread across multiple cards. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the cards and set the various options. Each tab that follows describes a group of related options:
+   The options are spread across multiple cards. Use the **Go to next card** (<kbd>Ctrl</kbd>+<kbd>Right arrow</kbd>) and **Go to previous card** (<kbd>Ctrl</kbd>+<kbd>Left  arrow</kbd>) arrows to go back and forth between the cards and set the various options. Each tab that follows describes a group of related options:
 
    ## [Respond to inquiries](#tab/inquiries)
 

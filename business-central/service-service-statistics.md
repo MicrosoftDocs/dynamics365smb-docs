@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service statistics, view statistics, service orders, 
-ms.date: 10/03/2025
+ms.date: 08/26/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -20,6 +20,8 @@ You can use statistics to analyze service documents and determine how well you'r
 The service order statistics feature gives you a quick overview of the contents of the entire service order, the details on the specific service lines, and information related to invoicing, shipping and consuming, and the customer's balance.  
 
 The statistical data is displayed for a service order on the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. On the **Service Orders** page, choose **Statistics**. The FastTabs in this page show information such as quantity, amount, VAT, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
+
+If the order has at least one line with a sustainability account, the **Sustainability** FastTab shows **Total CO2e** and **Posted Total CO2e**. **Total CO2e** is the total for all service lines. **Posted Total CO2e** is the amount that was invoiced or consumed. Learn more in [Sustainability value chain in Service Management](value-chain-howto-service.md).
 
 ### View totals for a service order
 
@@ -109,6 +111,8 @@ You can see a statistical summary on a posted service invoice on the **Service I
 * The items on the service invoice lines, such as weight, volume, and the quantity of parcels.  
 * The balance on the customer's account, and the maximum credit that you can extend the customer.  
 
+If the invoice has at least one line with a sustainability account, the **Sustainability** FastTab shows **Total CO2e**.
+
 ### Posted service credit memo statistics
 
 You can use the **Service Credit Memo Statistics** page to get a statistical overview of the lines in a posted service credit memo. The overview can include:
@@ -116,10 +120,13 @@ You can use the **Service Credit Memo Statistics** page to get a statistical ove
 * The total amounts on the posted credit memo, displayed as quantity, amount, VAT, cost, and profit. There's also information about the items on the service lines of the posted credit memo, such as quantity, weight, and volume.  
 * General information about the customer, such as the customer's credit limit and balance on the account.  
 
+If the credit memo has at least one line with a sustainability account, the **Sustainability** FastTab shows **Total CO2e**.
+
 ## Related information
 
 [Create Service Orders](service-how-to-create-service-orders.md)  
 [Create Service Items](service-how-to-create-service-items.md)  
 [Plan Service](service-plan-service.md)  
+[Sustainability value chain in Service Management](value-chain-howto-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

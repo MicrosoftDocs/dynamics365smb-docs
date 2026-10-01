@@ -3,7 +3,7 @@ title: Create and Submit Expense Reports
 description: Learn how to create expense reports, add expenses, review rule violations, and submit reports for approval in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/22/2026
+ms.date: 09/26/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -26,18 +26,18 @@ An expense report groups related expenses into a single document that you submit
 ## Create an expense report
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Reports**, and then choose the related link.
-2. Choose **New** to open a blank **Expense Report** card.
-3. In the **Expense User No.** field, select the expense user.
-4. In the **Description** field, enter a description of the report, such as "March travel expenses."
-5. In the **Expense Report Date** field, enter the report date.
-6. Optionally, set the **Posting Date** if it differs from the report date.
+1. Choose **New** to open a blank **Expense Report** card.
+1. In the **Expense User No.** field, select the expense user.
+1. In the **Description** field, enter a description of the report, such as "March travel expenses."
+1. In the **Expense Report Date** field, enter the report date.
+1. Optionally, set the **Posting Date** if it differs from the report date.
 
 ## Add expenses to a report
 
 You can add existing released expenses to the report.
 
 1. On the **Expense Report** card, choose **Get Expense Line** in the action bar.
-2. Select the expenses you want to include, and then confirm.
+1. Select the expenses you want to include, and then confirm.
 
 The selected expenses appear as lines on the **Lines** FastTab.
 
@@ -53,19 +53,29 @@ The selected expenses appear as lines on the **Lines** FastTab.
 If you don't use Expense Agent, you can add expense lines directly to the expense report without creating individual expenses first. This method is also useful when you want to add a line manually.
 
 1. On the **Expense Report** card, in the report lines subpage, enter the expense details directly: category, amount, description, and other relevant fields.
-2. If the category requires itemization, choose the **Itemizations** action to break down the line.
-3. If the category requires participants, choose the **Participants** action to add attendees.
-4. If the category is per diem type, enter the **Expense Location**, **Starting** and **Ending Date and Time** to the expense line, and choose the **Per diem** action to adjust per diem lines.
-5. If the category is mileage type, enter the **Starting** and **Ending Point**, **Mileage** and optionally if it was the **Round Trip** to the expense line.
+1. If the category requires itemization, choose the **Itemizations** action to break down the line.
+1. If the category requires participants, choose the **Participants** action to add attendees.
+1. If the category is per diem type, enter the **Expense Location**, **Starting** and **Ending Date and Time** to the expense line, and choose the **Per diem** action to adjust per diem lines.
+1. If the category is mileage type, enter the **Starting Point**, **Ending Point**, **Vehicle Type** if your organization uses vehicle-specific rates, and **Mileage**. If you entered the one-way distance for a round trip, turn on **Round Trip**.
 
 > [!NOTE]
 > All rules existing for expenses apply to the expense report lines, i.e., rule violations, justification, currencies...
+
+Business Central selects a mileage rate for the **Expense Date**, **Vehicle Type**, and expense currency. If no mileage rate setup record matches, Business Central uses **Standard Rate of Mileage**. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
 ## Review rule violations
 
 If expense rules are enabled, [!INCLUDE [prod_short](../includes/prod_short.md)] checks each expense line against the applicable rules. Violations appear in the **Rule Violations** FactBox.
 
 Review all violations before you submit the report. While violations don't block submission, they show to the approver and might cause the report to be rejected.
+
+## Link a travel request
+
+On the **Expense Report** card, select an approved request in **Travel Request No.** The expense user on the report must be listed as a traveler on the request. Only refundable lines are linked. Use the **Travel Request** action on the report or line to open the request.
+
+When you assign the request, [!INCLUDE [prod_short](../includes/prod_short.md)] compares the new refundable amount plus previously posted spending with the request's total expected amount in local currency. If the total is exceeded, you receive a nonblocking notification and can continue processing.
+
+Learn more in [Manage travel requests](expense-management-travel-requisitions.md).
 
 ## Release an expense report
 
@@ -82,15 +92,15 @@ To make changes after you release a report, choose **Reopen**.
 The report status changes to **Pending Approval**. You can track the status in the **Status** field on the report. If the report is rejected, you receive an approver comment that explains why. To make changes and resubmit:
 
 1. Choose **Reopen** to change the status back to **Open**.
-2. Make the needed changes.
-3. Release and submit again.
+1. Make the needed changes.
+1. Release and submit again.
 
 ## Add an attestation
 
 If your organization requires an anti-corruption attestation, the **Attestation** section appears on the expense report.
 
 1. Turn on **Anti-Corruption Attestation** to confirm the attestation.
-2. Optionally, enter details in the **Anti-Corruption Description** field.
+1. Optionally, enter details in the **Anti-Corruption Description** field.
 
 ## Print expense reports
 
@@ -114,6 +124,8 @@ You can print reports for documentation or filing purposes.
 ## Related information
 
 [Create and manage expenses](expense-management-create-expenses.md)  
+[Manage travel requests](expense-management-travel-requisitions.md)
+[Set up mileage rates for expense management](expense-management-mileage-rate-setup.md)
 [Post expense reports](expense-management-post-reports.md)  
 [Manage employee expenses](expense-management-overview.md)  
 

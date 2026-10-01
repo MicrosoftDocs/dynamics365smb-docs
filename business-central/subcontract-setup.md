@@ -1,13 +1,13 @@
 ---
 title: Set up subcontracting
-description: Learn how to connect outsourced production operations with vendors, work centers, components, purchasing, locations, transfers, and costs.
+description: Learn how to connect outsourced production operations with vendors, work centers, comments, components, purchasing, locations, transfers, and costs.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.search.keywords: subcontracting, setup, work center, transfer routes
+ms.search.keywords: subcontracting, setup, work center, transfer routes, subcontracting comments
 ms.search.form: 99000768, 99000754, 99000755
-ms.date: 07/15/2026
+ms.date: 09/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -15,11 +15,25 @@ ms.custom: bap-template
 
 # Set up subcontracting
 
-Subcontracting lets you outsource selected production routing operations to vendors while keeping the related production order, components, purchasing, transfers, and costs connected in [!INCLUDE [prod_short](includes/prod_short.md)]. This article explains how to configure subcontracting defaults, vendor work centers, locations, and transfer routes.
+Subcontracting lets you outsource selected production routing operations to vendors while keeping the related production order, components, purchasing, transfers, and costs connected in [!INCLUDE [prod_short](includes/prod_short.md)]. This article explains how to configure subcontracting defaults, vendor work centers, reusable operation comments, locations, and transfer routes.
 
 ## Prerequisites
 
 Make sure that the **Subcontracting** extension is installed. Install it from the **Extension Management** page or get it from [Microsoft Marketplace](https://go.microsoft.com/fwlink/?LinkId=2370676). Learn more about installing extensions in [Installing and Uninstalling Extensions](ui-extensions-install-uninstall.md#install).
+
+## Use assisted setup
+
+The **Subcontracting Setup** assisted setup guide provides a starting point for configuring subcontracting.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+2. Choose **Set up Subcontracting**.
+3. Review the introduction, and then choose **Next**.
+4. Specify the default journal template and batch, whether to add production order information lines, the component cost source, and the component transfer lead time.
+5. Use the links in the guide to open the pages where you set up work centers, vendors, locations, subcontractor prices, component supply methods, and supporting documentation.
+6. Choose **Finish** to save the defaults and mark the guide as complete.
+
+> [!IMPORTANT]
+> The guide provides links to the required setup areas, but it doesn't verify that every subcontractor, location, price, production BOM, or routing is ready to use.
 
 ## Configure general settings
 
@@ -51,6 +65,8 @@ Subcontract work centers are set up the same as regular work centers, but have m
 
 The **Subcontractor No.** field designates the work center as a subcontract work center. Enter the number of a subcontractor who supplies the work center. You can use this field to administer work centers that aren't in-house but perform processing under contract.
 
+If the vendor doesn't have a **Subc. Location Code**, a notification explains that a location is required to manage components and WIP items. Choose **Open Vendor Card** in the notification, and then assign the subcontracting location to the vendor.
+
 If you subcontract with the vendor for a different rate for each process, select the **Specific Unit Cost** field. This setting lets you set up a cost on each routing line and saves the time of reentering each purchase order. The cost on the routing line is used in processing instead of the cost on the work center cost fields. When you select **Specific Unit Cost**, costs are calculated for the vendor by the routing operation.
 
 If you subcontract at a single rate per vendor, leave the **Specific Unit Cost** field blank. Instead, set up costs by filling in the **Direct Unit Cost**, **Indirect Cost %**, and **Overhead Rate** fields.
@@ -67,6 +83,39 @@ You can use subcontract work centers for operations on routings in the same way 
 
 > [!IMPORTANT]
 > On routing lines for subcontracting operations, the **Type** field must be set to **Work Center** (not **Machine Center**). Machine centers don't support subcontractor assignments, so automatic location changes, pricing, and purchase order creation don't work for machine center operations.
+
+## Add comments to subcontracting operations
+
+Use subcontracting comments to define instructions or notes on standard tasks or routing lines. When you select a value in the **Subc. Standard Task Code** field on the **Routing Lines** or **Routing Version Lines** pages, [!INCLUDE [prod_short](includes/prod_short.md)] copies the comments to that operation. You can update the copied comments manually if needed.
+
+### Add reusable comments to a standard task
+
+To add reusable comments to a standard task, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Tasks**, and then choose the related link.
+2. Select the standard task, and then choose the **Subcontracting Comments** action.
+3. Enter each comment in the **Description** field. To add more text, personalize the page to show the **Description 2** field, which is hidden by default.
+
+### Add or change comments on a routing operation
+
+To add or change comments on a routing operation, follow these steps:
+
+1. Open the routing or routing version that contains the subcontracting operation.
+2. If the **Subc. Standard Task Code** field isn't shown, personalize the routing lines page to add it. Learn more at [Start personalizing by using the personalization mode](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
+3. On the routing line, select a **Subc. Standard Task Code** to copy its comments to the operation.
+4. Choose the **Subcontracting Comments** action to review or change the comments for that operation.
+
+The operation-specific comments transfer to the production order routing when you calculate or refresh the production order. To learn more about how to review comments for a production order and transfer them to a subcontracting purchase order, go to [Review comments for subcontracting orders](subcontract-order.md#review-comments-for-subcontracting-orders).
+
+## Set up routing attachments for subcontracting purchase orders
+
+You can attach files to a routing and have them follow the related subcontracting operation to the purchase order.
+
+1. Open the routing, and then choose the **Attachments** action.
+2. Add the attachment.
+3. For the attachment, turn on the **Document Flow Production** and **Document Flow Purchase** toggles.
+
+The attachment first transfers to the related production order line. When you create the subcontracting purchase order, it transfers to the related purchase line. The attachment settings on the production order line are read-only. Attachments that you add manually to the production order line don't transfer to the purchase line.
 
 ## Configure transfer settings
 

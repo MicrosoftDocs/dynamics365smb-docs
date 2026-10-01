@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/30/2026
+ms.date: 09/04/2026
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -33,7 +33,7 @@ The logging features can make it easier to identify why an error occurred. On th
 
 ### To review logs
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Log Entries**, and choose the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Log Entries**, and select the related link. To focus on failed requests, select the **With errors** view.
 2. Select the related log entry, and then open the **Shopify Log Entry** page.
 3. Review the request, status code and description, and response values.
 
@@ -126,6 +126,8 @@ This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../inc
 ## Request the access token
 
 If [!INCLUDE[prod_short](../includes/prod_short.md)] doesn't connect to your Shopify account, request the access token from Shopify. You might need to request a new token if there were changes to the security keys or required permissions (application scopes).
+
+The connector normally refreshes expiring access tokens automatically. If the refresh token expires after up to 90 days without a successful refresh, use the following procedure to reconnect the shop.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify shops**, and choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.

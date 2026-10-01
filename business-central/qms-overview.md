@@ -5,8 +5,8 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
-ms.search.form: 20400, 20408, 20404, 20402, 20416, 
-ms.date: 03/10/2026
+ms.search.form: 20400, 20408, 20404, 20402, 20416
+ms.date: 09/07/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -32,7 +32,8 @@ Quality management features offer a range of benefits.
 - **Block noncompliant lots**: Automatically block inventory lots based on quality inspection results.
 - **Integrate workflows**: Configure automated responses to inspection results using workflows.
 - **Handle noncompliant items**: Use features for processing noncompliant items. For example, you can automatically move items to quarantine bins, make negative adjustments for disposal, transfer orders to different locations, and create purchase returns to vendors.
-- **Integrate with your warehouse**: Full support for locations with and without warehouse handling.
+- **Integrate with inbound warehouse flows**: Create inspections from purchase receipts, inventory put-aways, or warehouse receipt lines, depending on the location's warehouse configuration.
+- **Inspect warehouse movements**: Create inspections when registered movements place items in selected locations, zones, or bins.
 
 ## Get started
 
@@ -48,26 +49,19 @@ Setting up quality management involves configuring quality inspection templates,
 
 After you configure the app, Quality Management gives you several ways to create and manage quality inspections.
 
-### Purchase receipt inspections
-
-- [Purchase Receipt Inspections without Warehouse Handling](qms-purchase-receipt-testing-simple.md)
-- [Purchase Receipt Inspections with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)
-
-### Production inspections
-
-- [Production Output Quality Inspections](qms-production-output-testing.md)
-
-### Manual and scheduled inspections
-
-- [Manual Inspection Creation](qms-manual-test-creation.md)
-- [Scheduled Inspection Creation](qms-scheduled-test-creation.md)
+Start with [Work with quality inspections](qms-manual-test-creation.md) for the complete inspection lifecycle. To learn more about creating periodic inspections, go to [Create scheduled quality inspections](qms-scheduled-test-creation.md).
 
 ### Quality control actions
 
 - [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)
 - [Processing Non-Compliant Items](qms-non-compliant-processing.md)
 
+### Contoso Coffee demos
+
+Install and generate the sample modules before using the demos. To learn more about the available scenarios, go to [Set up Contoso Coffee demo data for quality management](qms-contoso-coffee-demo-data.md).
+
 ## Related information
 
-[Quality management setup and configuration](qms-setup.md)  
-[Configure quality inspection results](qms-configuring-grades.md)
+[Troubleshoot quality management features](qms-troubleshooting.md)  
+
+[!INCLUDE [footer-banner](includes/footer-banner.md)]

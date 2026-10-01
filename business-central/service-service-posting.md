@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service posting, post service order, post service invoice, post service shipment, post service consumption
-ms.date: 10/03/2025
+ms.date: 08/26/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -43,6 +43,8 @@ With the ship and consume option, you can register and post items, costs, or hou
 
 After the posting has been completed, you'll be able to view the posted service documents from the corresponding **Posted Service Shipment** and **Posted Service Invoice** pages. The posted entries created can be seen in various pages that contain posted entries, such as **G/L Entries**, **Item Ledger Entries**, **Warehouse Entries**, **Service Ledger Entries**, **Project Ledger Entries**, and **Warranty Ledger Entries**.  
 
+If you enable sustainability value chain tracking, posting item and resource lines that have a sustainability account can also create **Sustainability Value Entries**. An item shipment records an expected emission. Invoicing and consumption record actual emissions. A resource shipment doesn't create an entry until you invoice or consume the resource. Learn more in [Sustainability value chain in Service Management](value-chain-howto-service.md).
+
 ## View information about a posted service document
 
 When you post a service invoice, a service shipment, or a service credit memo, the information on the document is transferred to the **Posted Service Invoice**, **Posted Service Shipment**, or **Posted Service Credit Memo** pages respectively. You can't enter, change, or delete anything in these pages. You can print a shipment, invoice, or credit memo from these pages.  
@@ -59,5 +61,6 @@ The following procedure uses a posted service invoice as an example, but the sam
 
 [Post Service Orders](service-how-to-post-service-orders.md)  
 [Create Service Orders](service-how-to-create-service-orders.md)  
+[Sustainability value chain in Service Management](value-chain-howto-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

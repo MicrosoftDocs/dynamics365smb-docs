@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.form: 5638, 5636, 5640, 5637, Report_5606
 ms.search.keywords: reclassify, fixed assets, transfer, split, combine
-ms.date: 10/03/2025
+ms.date: 08/27/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -33,6 +33,8 @@ You might need to transfer a fixed asset to a different department. For example,
 7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 and 5.
 
 If you posted an acquisition cost for an asset, you can use the fixed asset reclassification journal to split the acquisition cost among several assets.  
+
+If you track fixed asset emissions, the acquisition CO2e transfers by the percentage in **Reclassify Acq. Cost %**. Specify the sustainability accounts for the original and new assets. Learn more in [Track fixed asset emissions in the sustainability value chain](value-chain-howto-fixed-assets.md#reclassify-fixed-asset-emissions).
 
 ## Split a fixed asset into three fixed assets
 

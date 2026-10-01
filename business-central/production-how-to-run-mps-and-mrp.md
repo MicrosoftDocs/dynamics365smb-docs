@@ -4,7 +4,7 @@ description: The planning system can calculate either Master Production Schedule
 author: brentholtorf
 ms.topic: how-to
 ms.search.form: 99000852, 99000860
-ms.date: 06/10/2025
+ms.date: 09/04/2026
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template 
@@ -66,10 +66,10 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Production Order**|Specify how to create production orders directly from the planning line proposals. You can create either planned or firm planned production orders.|  
-    |**Assembly Order**|Specify how to create assembly orders directly from the planning line proposals.|  
-    |**Purchase Order**|Specify how to create purchase orders directly from the planning line proposals.<br/><br/> If you chose to copy the planning line proposals for purchase orders to the requisition worksheet, select the template and worksheet name.|  
-    |**Transfer Order**|Specify how to create transfer orders directly from the planning line proposals.<br/><br/> If you chose to copy the planning line proposals for transfer orders to the requisition worksheet, select the template and worksheet name.|  
+    |**Production Order**|Specify whether to create planned, firm planned, or released production orders from the planning line proposals. You can also print firm planned or released production orders. Creating a released production order can immediately post consumption or output for components and routing lines that use forward flushing. The posting depends on your manufacturing, item tracking, bin, and warehouse setup.|
+    |**Assembly Order**|Specify whether to create assembly orders from the planning line proposals, with or without printing the orders.|
+    |**Purchase Order**|Specify whether to create purchase orders from the planning line proposals, with or without printing the orders. Alternatively, copy the proposals to a selected requisition worksheet template and batch for later processing.|
+    |**Transfer Order**|Specify whether to create transfer orders from the planning line proposals, with or without printing the orders. Alternatively, copy the proposals to a selected requisition worksheet template and batch for later processing.|
     |**Combine Transfer Orders**|Select whether to combine transfer orders.|  
     |**Stop and Show First Error**|Select this option if you want the **Carry Out Action Msg. - Plan.** batch job to stop as soon as it finds an error. Aa message displays information about the error. If an error exists, only the planning lines processed before the error create supply orders.|  
 

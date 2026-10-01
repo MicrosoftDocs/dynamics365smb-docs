@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: concept-article
-ms.date: 06/17/2025
+ms.date: 09/04/2026
 ms.custom: bap-template    
 ---
 # Outbound warehouse processes
@@ -76,7 +76,7 @@ On the **Inventory Pick** page, the warehouse worker retrieves, in a pull fashio
 
 ### 3: Post an inventory pick
 
-On each line for items that were picked or moved, partially or fully, fill in the **Quantity** field, and then post the inventory pick. Source documents related to the inventory pick are posted as shipped or consumed.  
+On each line for items that you picked or moved, partially or fully, fill in the **Qty. to Handle** field, and then post the inventory pick. The system posts source documents related to the inventory pick as shipped or consumed.
 
 For inventory picks, negative item ledger entries are created, warehouse entries are created, and the pick request is deleted, if fully handled. For example, the **Quantity Shipped** field on the outbound source document line is updated. A posted shipment document is created  that reflects the sales order, for example, and the shipped items.  
 
@@ -103,7 +103,7 @@ On the **Warehouse Shipment** page, create warehouse pick activities for warehou
 
 ### 4: Register a warehouse pick
 
-On the **Warehouse Pick** page, a warehouse worker fills in the **Quantity** field for each line that they fully or partially picked, and then registers the pick.
+On the **Warehouse Pick** page, enter the full or partial quantity that you picked in the **Qty. to Handle** field, and then register the pick.
 
 Warehouse entries are created, and the warehouse pick lines are deleted if the full quantity was picked. The warehouse pick document remains open until the full quantity of the warehouse shipment is registered. The **Qty. Picked** field on the warehouse shipment lines is updated accordingly.  
 

@@ -3,7 +3,7 @@ title: Set Up Expense Users and Teams
 description: Learn how to create expense users, link them to employees, and organize them into teams for expense management in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/21/2026
+ms.date: 09/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -71,7 +71,7 @@ Expense teams let you group users for reporting and management purposes. Each te
 
 ## Next steps
 
-[Set up expense categories and rules](expense-management-categories-rules.md)
+[Set up expense categories, rules, and policies](expense-management-categories-rules.md)
 
 ## Related information
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain, assembly
 ms.search.form: 900,
-ms.date: 01/22/2025
+ms.date: 08/21/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -52,6 +52,12 @@ To do so, follow next steps:
 7. After you post the order, if your **Quantity to Assemble** was less than the **Quantity**, the **Posted Total CO2e** fields on the header and lines update with the belonging total CO2e emission.  
 
 After you post the order, you can open the **Posted Assembly Order** page to find the **Total CO2e** field on the **Posting** FastTab. The value in the **CO2e per Unit** field is also updated for the newly assembled item. You can also check the result by opening the **Item Card** page for the item used as the assembled item to verify that the **CO2e per Unit** field updated based on the values from the posted assembly order.
+
+### Use components with specific carbon tracking
+
+If a component uses **Specific** in the **Carbon Tracking Method** field, [!INCLUDE [prod_short](includes/prod_short.md)] gets its posted CO2e from the item ledger entry that the consumption applies to. For a lot-tracked component, assign the lot on the assembly order. The selected lot determines the component's **Total CO2e** on the posted assembly line.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] includes the lot-specific component emission in the assembled item's total emission. It also updates the assembly line with the posted CO2e value. For more information, see [Choose how to track carbon for an item](value-chain-howto-setup.md#choose-how-to-track-carbon-for-an-item).
 
 ## Related information
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain, transfer
 ms.search.form: 5740,
-ms.date: 01/22/2025
+ms.date: 08/21/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -37,7 +37,9 @@ After you post a transfer order, you can find entries related to the transfer on
 4. Close the page.
 
 > [!NOTE]
-> Regardless of whether you select the **Direct Transfer** field on the **Transfer Order** page, [!INCLUDE [prod_short](includes/prod_short.md)] creates sustainability value entries only for transactions related to the posted transfer shipment. The transactions increase the **CO2e per Unit** value for transferred items using the average method.  
+> Regardless of whether you select the **Direct Transfer** field on the **Transfer Order** page, [!INCLUDE [prod_short](includes/prod_short.md)] creates sustainability value entries only for transactions related to the posted transfer shipment. For an item that uses **Average**, the transactions update the item's **CO2e per Unit** by using the average method.
+
+If an item uses **Specific** in the **Carbon Tracking Method** field, assign the lot on the transfer line. [!INCLUDE [prod_short](includes/prod_short.md)] carries the CO2e for the applied item entry through the transfer instead of using the item's average value. For more information, see [Choose how to track carbon for an item](value-chain-howto-setup.md#choose-how-to-track-carbon-for-an-item).
 
 ## Related information  
 

@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain
 ms.search.form: 
-ms.date: 01/22/2025
+ms.date: 09/2/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -37,10 +37,18 @@ To track the sustainability value chain, record and use transactions from the **
 > [!NOTE]
 > The sustainability value chain process works only with the CO2e (carbon equivalent).
 
-The **Sustainability Value Entry** page is an important component for managing and tracking the value of the embedded carbon footprint in items. It records all changes in the CO2e emissions of inventory items, including purchases, location transfers, production, sales, and so on. This page helps ensure accurate CO2e (carbon equivalent) valuation and provides detailed insights into the emissions effect of inventory transactions.  
+The **Sustainability Value Entry** page is an important component for managing and tracking embedded carbon footprints. It records changes in the CO2e emissions of inventory items and fixed assets. For items, the changes can include purchases, location transfers, production, and sales. For fixed assets, the changes can include acquisition, reclassification, and disposal. This page helps ensure accurate CO2e valuation and provides detailed insights into the emissions effect of transactions.
 
-> [!IMPORTANT]
-> The sustainability value chain uses only the average method of CO2e emission calculation per item. An item's **CO2e per Unit** is calculated as the average **CO2e per Unit** at each point in time after a purchase.
+You can track carbon for an item by using either the average or specific method:
+
+- **Average** calculates the item's **CO2e per Unit** as the average value after each inbound transaction.
+- **Specific** carries the CO2e from the applied inbound item ledger entry to later transactions. For a lot-tracked item, the selected lot determines which CO2e value [!INCLUDE [prod_short](includes/prod_short.md)] uses.
+
+Specific carbon tracking applies when you post purchases, sales, service documents, transfers, assembly orders, and production journals. The resulting sustainability value entries preserve the CO2e from the item entries that the transaction applies to.
+
+### Use specific carbon tracking in service
+
+For a lot-tracked item that uses **Specific**, assign the lot on the service line. When you ship and invoice the service order, [!INCLUDE [prod_short](includes/prod_short.md)] creates a sustainability value entry. The entry's actual CO2e comes from the inbound item ledger entry for the selected lot. The value is an emission reduction because the item leaves inventory.
 
 ## Available features
 
@@ -51,10 +59,13 @@ The following table contains articles that can help you get started with the sus
 | [Value Chain Setup](value-chain-howto-setup.md) | Learn how to enable the value chain in [!INCLUDE [prod_short](includes/prod_short.md)], and the setups you must create. |
 | [Default emission values](sustainability-howto-default.md) | Learn how to set up the default values for your master data. |
 | [Value Chain in Purchase](value-chain-howto-purchase.md) | Learn how the value chain process starts with purchase processes. |
+| [Value chain in item journals](value-chain-howto-item-journals.md) | Learn how to record emissions in item journals and item reclassification journals, and how to recalculate item emissions. |
 | [Value Chain in Transfers](value-chain-howto-transfer.md) | Learn how to work with transfer orders and their effect on the sustainability value chain process. |
 | [Value Chain in Assembly process](value-chain-howto-assembly.md) | Learn how to work with assembly orders related to the sustainability value chain process. |
 | [Value Chain in Production process](value-chain-howto-mfg.md) | Learn how to work with production orders related to the sustainability value chain process. The article also covers other elements related to manufacturing. |
 | [Value Chain in Sales](value-chain-howto-sales.md) | Learn how to work with items and their embedded carbon footprints during the sales process. |
+| [Value Chain for Fixed Assets](value-chain-howto-fixed-assets.md) | Learn how to track CO2e emissions when you acquire, reclassify, sell, or dispose of fixed assets. |
+| [Value chain in Service Management](value-chain-howto-service.md) | Learn how to calculate, post, and review CO2e for items and resources on service documents. |
 
 ## Related information
 

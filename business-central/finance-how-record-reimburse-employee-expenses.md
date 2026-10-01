@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: reimbursement
 ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
-ms.date: 04/24/2026
+ms.date: 09/01/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -33,25 +33,26 @@ To ensure that the exchange rate is accurate, run the currency exchange rate bat
 You reimburse employees by posting payments to their bank account on the **Payment Journal** page.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
-2. Open the relevant payment journal batch. For more information, see [Work with General Journals](ui-work-general-journals.md).
-3. Fill in the fields as necessary. For more information, see [Making Payments](payables-make-payments.md).
+2. Open the relevant payment journal batch. Learn more in [Work with General Journals](ui-work-general-journals.md).
+3. Fill in the fields as necessary. Learn more in [Making Payments](payables-make-payments.md).
 4. Alternatively, choose the **Suggest Employee Payment** action to automatically insert journal lines for pending employee reimbursements.
 5. Choose the **Post** action to register the reimbursement.  
 
+> [!NOTE]
+> An employee payment journal line can calculate withholding tax when the line contains the required withholding tax posting groups. Learn more in [Set up and post employee withholding tax](finance-withholding-tax-employees.md).
+
 ## Reconcile reimbursements with employee ledger entries
 
-You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journals** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
+Apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments. For example, use the **Payment Reconciliation Journals** page, based on the related bank statement entries. Learn more in [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply payments manually on the **Employee Ledger Entries** page. Learn more in [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
-## After reimbursement   
+## After reimbursement
 
-Once reimbursement is completed in the **Payment Journal**, you can notify the employee.  
-
-To do this, open the **Posted Expense Report** and choose the **Send Reimbursement Notification** action. This sends an email to the employee confirming that the reimbursement for the expense report has been processed. 
-
+After reimbursement is complete in the **Payment Journal**, you can notify the employee. To notify the employee, open the **Posted Expense Report** and choose the **Send Reimbursement Notification** action. This action sends an email to the employee to confirm that the reimbursement for the expense report was processed.
 
 ## Related information
 
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
+[Set up and post employee withholding tax](finance-withholding-tax-employees.md)  
 [Work with General Journals](ui-work-general-journals.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  

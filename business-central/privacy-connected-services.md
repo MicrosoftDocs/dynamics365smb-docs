@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ---
 # Trial features that connect to other Microsoft services 
 
-[!INCLUDE[prod_long](includes/prod_long.md)] is a comprehensive business management solution that is deeply integrated with Microsoft 365 productivity apps, Power Platform, and AI services. Your free trial of Business Central can connect to many different Microsoft services that you must first configure and enable. To get the most out of your free trial, some of these features are automatically enabled for you. Even though the connection from [!INCLUDE[prod_short](includes/prod_short.md)] is enabled, these services might not be included with your trial and might need to be purchased separately unless you have them already. 
+[!INCLUDE[prod_long](includes/prod_long.md)] is a comprehensive business management solution that's deeply integrated with Microsoft 365 productivity apps, Power Platform, and AI services. Your free trial of Business Central can connect to many different Microsoft services that you must first configure and enable. To get the most out of your free trial, some of these features are automatically enabled for you. Even though the connection from [!INCLUDE[prod_short](includes/prod_short.md)] is enabled, these services might not be included with your trial and might need to be purchased separately unless you already have them. 
 
 The following table indicates the connections to Microsoft services that are automatically enabled for [!INCLUDE[prod_short](includes/prod_short.md)] trials:
 
@@ -21,8 +21,8 @@ The following table indicates the connections to Microsoft services that are aut
 |Microsoft OneDrive|Yes|No|**Open in OneDrive** action on **Item** attachments |[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
 | Microsoft Power Automate |Yes|No|**Automate** actions on **Item** card |[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 | Microsoft Azure OpenAI Service |Yes |No|**Copilot** |[Configure AI-powered item marketing text with Copilot](enable-ai.md)|
-|Microsoft Bing |Yes |No |Copilot |[Searching the web with Copilot](ai-search-web-copilot.md)|
-|Microsoft Learn Platform|Yes|No|Copilot, Help pane|[Chat with Copilot FAQ](chat-with-copilot-faq.md#how-does-chat-treat-data-residency)|
+|Microsoft Bing |Yes |No |Autofill with Copilot|[Searching the web with Copilot](ai-search-web-copilot.md)|
+|Microsoft Learn Platform|Yes|No|Microsoft Copilot, Help pane|[Chat with Copilot FAQ](chat-with-copilot-faq.md)|
 
 > [!NOTE]
 > By using features that connect to these services:

@@ -13,6 +13,8 @@ ai-usage: ai-assisted
 
 # How Expense Agent processes emails
 
+[!INCLUDE [online_only](../includes/online_only.md)]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)] automates parts of the expense management process by monitoring an email mailbox. It can detect expense-related emails, create expenses automatically, and send reminders about open expense reports.
@@ -50,7 +52,7 @@ Before the agent can process emails, an administrator must:
 
 When enabled, the agent sends periodic reminders to expense users who have expense reports in **Open** status. The reminders help ensure that people submit reports on time.
 
-Administrators configure the reminder frequency (weekly, monthly, or custom) and schedule on the **Expense Agent Setup** page. Learn more at [Configure notification settings](expense-management-setup.md#configure-notification-settings).
+Administrators configure the reminder frequency (weekly, monthly, or custom) and schedule on the **Expense Agent Setup** page. Learn more in [Configure notification settings](expense-management-setup.md#configure-notification-settings).
 
 ## Security and access
 

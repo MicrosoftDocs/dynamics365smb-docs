@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 07/08/2026
+ms.date: 08/27/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -161,10 +161,46 @@ The sustainability ledger stores the history of all posted sustainability transa
 To open this ledger for a specific account, use the **Ledger Entries** action on the **Chart of Sustainability Account** page. To open all the ledger entries, select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Ledger Entries**, and then select the related link. Hover over a field to read a short description.
 
 > [!IMPORTANT]
-> After you post your data to the sustainability ledger, you can't delete it. If you made a mistake, you can post a reverse transaction that has the same details but uses the negative sign for the amount.
+> After you post your data to the sustainability ledger, you can't delete it. If you made a mistake in an entry that was posted from a journal, you can reverse the entry.
+
+### Reverse sustainability ledger entries
+
+You can reverse one or more entries that you posted from a sustainability journal or a general journal.
 
 > [!NOTE]
-> If you posted entries before enabling **CO<sub>2</sub>e** in the **Emission Fees** page, you can run the **Update Carbon Fees** action from the **Emission Fees** page to recalculate carbon equivalent to in all transactions in the **Sustainability Ledger Entries**.  
+> You need the **Sustainability - Edit** permission set or equivalent permissions. This permission lets you use the reversal function but doesn't let you edit posted entries directly.
+
+Before you reverse an entry, ensure that its sustainability account has the **Posting** account type, isn't blocked, and still allows direct posting. The account must have a category and a subcategory. The entry's dimension combination and dimension values must also be valid.
+
+1. On the **Sustainability Ledger Entries** page, select one or more entries.
+1. Select **Reverse Transaction**.
+1. Confirm that you want to reverse the selected entries.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] validates all selected entries before it reverses any of them. If one entry can't be reversed, it doesn't reverse any entries. You can't reverse an entry that was already reversed.
+
+The reversal creates a new sustainability ledger entry. The new entry keeps the document number and posting date from the original entry, and records the user who ran the reversal. The original posting date makes the values net to zero in the same period.
+
+The new entry reverses the signs of the following values:
+
+- **Emission CO2**
+- **Emission CH4**
+- **Emission N2O**
+- **CO2e Emission**
+- **Carbon Fee**
+- **Water Intensity**
+- **Discharged Into Water**
+- **Waste Intensity**
+- **Energy Consumption**
+
+The reversal doesn't recalculate the **CO2e Emission** or **Carbon Fee**. It negates the values from the original entry. The **Reversed**, **Reversed by Entry No.**, and **Reversed Entry No.** fields link the original and reversal entries. These fields provide an audit trail.
+
+The action reverses only sustainability ledger entries. It doesn't reverse or change a related G/L entry, sustainability value entry, posted document, or other source transaction. Reversing a G/L transaction also doesn't automatically reverse its sustainability ledger entries.
+
+> [!NOTE]
+> You can't use **Reverse Transaction** for a sustainability ledger entry that you posted from a document. Use a corrective document instead. For example, correct a posted purchase invoice by using **Cancel**, **Correct**, or **Create Corrective Credit Memo**. These actions create the required document entries and related sustainability entries.
+
+> [!NOTE]
+> If you posted entries before enabling **CO<sub>2</sub>e** in the **Emission Fees** page, you can run the **Update Carbon Fees** action from the **Emission Fees** page to recalculate carbon equivalent to in all transactions on the **Sustainability Ledger Entries** page.  
 
 ## Related information
 

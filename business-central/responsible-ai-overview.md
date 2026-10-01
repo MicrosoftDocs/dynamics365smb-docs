@@ -21,7 +21,7 @@ ms.collection:
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
 - [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
-- [Advanced Tell Me (preview)](faqs-advanced-tell-me.md)
+- [Advanced Tell Me](faqs-advanced-tell-me.md)
 - [Analysis assist (preview)](faqs-analysis-assist.md)
 - [Autofill (preview)](faqs-autofill.md)
 - [Bank reconciliation assist](faqs-bank-reconciliation.md)
@@ -29,7 +29,7 @@ ms.collection:
 - [Map e-documents to purchase order lines with Copilot (preview)](map-edocuments-with-copilot.md)
 - [Marketing text suggestions](faqs-marketing-text.md)
 - [Payables Agent](faqs-payables-agent.md)
-- [Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
+- [Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 - [Suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 - [Sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
 - [Suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)

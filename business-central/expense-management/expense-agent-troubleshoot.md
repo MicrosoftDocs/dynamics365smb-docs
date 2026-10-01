@@ -3,7 +3,7 @@ title: Troubleshoot Expense Agent Issues
 description: Find solutions for common issues in Expense Agent, including sign-in problems, receipt upload failures, and policy violations.
 author: brentholtorf
 ms.topic: concept-article
-ms.date: 05/11/2026
+ms.date: 09/25/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -11,6 +11,8 @@ ai-usage: ai-assisted
 ---
 
 # Troubleshoot common issues in Expense Agent
+
+[!INCLUDE [online_only](../includes/online_only.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -80,7 +82,7 @@ If you can't save or submit an expense, or it shows a policy violation, review t
 
 1. Check the age of the expense against **Do Not Allow Expenses Older Than**.
 2. Verify that category and subcategory values are valid and active.
-3. Confirm that the payment method is marked as **Expense Report Type**.
+3. Confirm that the payment method has a **Reimbursement Type** assigned (**Company Paid**, **Employee Paid**, or **Credit Card**).
 4. Check that a posting group is assigned to the category.
 5. Verify that the employee is configured as an expense employee.
 
@@ -103,6 +105,16 @@ If expense reports can't be posted, review posting setup:
 3. Confirm that the number series for posted expense reports is set.
 4. Verify the approval status if approval workflow is enabled.
 5. Check that source code **EXPENSE** exists in Source Code Setup.
+
+## Policy evaluation troubleshooting
+
+If an expense shows **Policies pending**, the evaluation might still be running, might not have started, or might be outdated because the expense or an applicable policy changed.
+
+1. Wait for the background evaluation to finish, and then refresh the report.
+1. If the submitter can't find **Check policies with AI**, confirm that the report is a draft and needs evaluation.
+1. Ask an administrator to open **Configure Expense Agent** assisted setup and verify that **Evaluate compliance with AI** is turned on.
+1. If you receive a quota message, follow the guidance in [AI quota exceeded](#ai-quota-exceeded).
+1. If the report is still pending, try **Check policies with AI** again when the action is available. Otherwise, submit the report so the approver can review the pending status. Contact your administrator if the issue continues.
 
 ## Related information
 

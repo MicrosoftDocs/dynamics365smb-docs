@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" role="img" aria-label="Illustration of an expense report with two expense items, matching layout and labels of the Expense Agent web client">
+  <style>
+    /* Palette inspired by screenshot */
+    .bg { fill:#ffffff }
+    .panel { fill:#ffffff; stroke:#e6eef3; stroke-width:1; rx:8 }
+    .shadow { filter: drop-shadow(0 2px 6px rgba(16,24,40,0.06)); }
+    .title { fill:#0f1724; font:600 20px/1.1 'Segoe UI', Arial, sans-serif }
+    .meta { fill:#6b7280; font:13px/1.2 'Segoe UI', Arial, sans-serif }
+    .chip { fill:#f3f4f6; stroke:#e6eef3; rx:16 }
+    .chip-text { fill:#374151; font:12px/1 'Segoe UI', Arial, sans-serif; font-weight:600 }
+    .total { fill:#0f1724; font:700 24px/1 'Segoe UI', Arial, sans-serif }
+    .compliant-badge { fill:#def6e8; stroke:#9be7b8; rx:12 }
+    .compliant-text { fill:#0b6b3a; font:600 13px 'Segoe UI', Arial, sans-serif }
+    .card { fill:#ffffff; stroke:#e6eef3; rx:8 }
+    .stripe { fill:#007a70 }
+    .icon-box { fill:#f3f5f6; stroke:#e6eef3; rx:6 }
+    .label { fill:#111827; font:14px/1.2 'Segoe UI', Arial, sans-serif }
+    .muted { fill:#6b7280; font:13px/1.2 'Segoe UI', Arial, sans-serif }
+    .amount-label { fill:#6b7280; font:12px/1 'Segoe UI', Arial, sans-serif }
+    .amount { fill:#0f1724; font:700 18px/1 'Segoe UI', Arial, sans-serif }
+    .small-pill { fill:#f3f8f5; stroke:#e0efe0; rx:10 }
+    .small-pill-text { fill:#0b6b3a; font:600 12px 'Segoe UI', Arial, sans-serif }
+    .pending-pill { fill:#fff4ce; stroke:#f2c94c; rx:10 }
+    .pending-pill-text { fill:#6a4b00; font:600 12px 'Segoe UI', Arial, sans-serif }
+    .indicator-callout { fill:none; stroke:#d13438; stroke-width:3; rx:4 }
+    .button-primary { fill:#007a70; rx:6 }
+    .button-primary-text { fill:#ffffff; font:600 14px 'Segoe UI', Arial, sans-serif }
+    .button-secondary { fill:#ffffff; stroke:#d1d5da; rx:6 }
+    .button-secondary-text { fill:#374151; font:600 14px 'Segoe UI', Arial, sans-serif }
+  </style>
+
+  <rect width="100%" height="100%" class="bg" />
+
+  <!-- Report panel -->
+  <g transform="translate(32,28)">
+    <rect class="panel shadow" x="0" y="0" width="880" height="480" />
+
+    <!-- Header: title left, total right -->
+    <g>
+      <text x="20" y="38" class="title">September 2026</text>
+      <text x="20" y="60" class="meta">ER100015 | 2 expenses | From Sep 1 - Sep 5</text>
+
+      <!-- Chips -->
+      <g transform="translate(20,78)">
+        <rect class="chip" x="0" y="0" width="68" height="28" />
+        <text x="12" y="19" class="chip-text">MEALS</text>
+        <rect class="chip" x="80" y="0" width="86" height="28" />
+        <text x="96" y="19" class="chip-text">MILEAGE</text>
+      </g>
+
+      <!-- Total and compliance on right (moved left to align with expense cards) -->
+      <g transform="translate(600,18)">
+        <rect class="indicator-callout" x="-6" y="-6" width="132" height="44" />
+        <rect x="0" y="0" width="120" height="32" fill="#fff1f0" stroke="#f5a6a6" rx="12" />
+        <text x="12" y="19" class="small-pill-text" style="fill:#b42318;">Non-compliant</text>
+        <text x="140" y="22" class="total">$66.02</text>
+        <text x="140" y="42" class="muted">Reimbursable: $36.02</text>
+      </g>
+    </g>
+
+    <!-- Expense items list -->
+    <!-- First item -->
+    <g transform="translate(18,120)">
+      <rect class="card shadow" x="0" y="0" width="820" height="140" />
+      <rect class="stripe" x="0" y="0" width="8" height="140" />
+      <!-- icon -->
+      <rect class="icon-box" x="22" y="18" width="44" height="44" />
+      <text x="78" y="36" class="label">Merchant</text>
+      <text x="78" y="56" class="label" style="font-weight:600">Igloo Cafe</text>
+
+      <text x="260" y="36" class="muted">Details</text>
+      <text x="260" y="56" class="label">Cafe lunch</text>
+
+      <text x="600" y="36" class="muted">Amount incl. VAT</text>
+      <text x="600" y="60" class="amount">$30.00</text>
+      <text x="600" y="84" class="muted">By Card</text>
+
+      <text x="78" y="116" class="muted">Date</text>
+      <text x="78" y="134" class="label">Sep 1</text>
+
+      <text x="260" y="116" class="muted">Category</text>
+      <text x="260" y="134" class="label">MEALS</text>
+
+      <text x="420" y="116" class="muted">Receipts</text>
+      <text x="420" y="134" class="label">Attachments: 1</text>
+
+      <!-- Policies pending pill (aligned under Amount column) -->
+      <g transform="translate(600,103)">
+        <rect class="indicator-callout" x="-6" y="-6" width="124" height="40" />
+        <rect class="pending-pill" x="0" y="0" width="112" height="28" />
+        <text x="12" y="19" class="pending-pill-text">Policies pending</text>
+      </g>
+
+      <!-- edit icon (pencil) (reverted to glyph) -->
+      <text x="760" y="34" class="muted">✎</text>
+      <!-- overflow menu dots -->
+      <text x="760" y="134" class="muted">...</text>
+    </g>
+
+    <!-- Second item -->
+    <g transform="translate(18,272)">
+      <rect class="card shadow" x="0" y="0" width="820" height="140" />
+      <rect class="stripe" x="0" y="0" width="8" height="140" />
+      <rect class="icon-box" x="22" y="18" width="44" height="44" />
+
+      <text x="78" y="36" class="label">Merchant</text>
+      <text x="78" y="56" class="label" style="font-weight:600">Trip Market St to Canal Rd</text>
+
+      <text x="260" y="36" class="muted">Details</text>
+      <text x="260" y="56" class="label">Trip Market St to Canal Rd</text>
+
+      <text x="600" y="36" class="muted">Amount incl. VAT</text>
+      <text x="600" y="60" class="amount">$36.02</text>
+      <text x="600" y="84" class="muted">By Cash</text>
+
+      <text x="78" y="116" class="muted">Date</text>
+      <text x="78" y="134" class="label">Sep 5</text>
+
+      <text x="260" y="116" class="muted">Category</text>
+      <text x="260" y="134" class="label">MILEAGE</text>
+
+      <text x="420" y="116" class="muted">Receipts</text>
+      <text x="420" y="134" class="label">(No attachments)</text>
+
+      <!-- Non-compliant pill (aligned under Amount column) -->
+      <g transform="translate(600,103)">
+        <rect class="indicator-callout" x="-6" y="-6" width="132" height="40" />
+        <rect x="0" y="0" width="120" height="28" fill="#fff1f0" stroke="#f5a6a6" rx="10" />
+        <text x="12" y="19" style="fill:#b42318; font-weight:600" class="small-pill-text">Non-compliant</text>
+      </g>
+
+      <!-- edit icon (pencil) (reverted to glyph) -->
+      <text x="760" y="34" class="muted">✎</text>
+      <text x="760" y="134" class="muted">...</text>
+    </g>
+
+    <!-- Footer actions -->
+    <g transform="translate(18,402)">
+      <rect class="button-primary" x="560" y="18" width="120" height="40" />
+      <text x="596" y="44" class="button-primary-text">Submit</text>
+      <rect class="button-secondary" x="688" y="18" width="120" height="40" />
+      <text x="724" y="44" class="button-secondary-text">Close</text>
+    </g>
+
+  </g>
+
+</svg>

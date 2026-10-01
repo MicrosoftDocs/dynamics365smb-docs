@@ -3,7 +3,7 @@ title: Use the Expense Agent Mobile App (preview)
 description: Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 08/20/2026
+ms.date: 09/26/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -11,6 +11,8 @@ ai-usage: ai-assisted
 ---
 
 # Use the Expense Agent mobile app for iOS and Android (preview)
+
+[!INCLUDE [online_only](../includes/online_only.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -121,9 +123,10 @@ You can quickly add mileage to an expense.
 1. Select **+**, and then select **Add mileage**.
 1. Enter the **Starting point**.
 1. Enter the **Ending point**.
+1. If your organization uses vehicle-specific rates, select **Vehicle Type**.
 1. Allow Expense Agent to calculate mileage information.
 
-Expense Agent uses the same calculations for mileage in the mobile app and web app. Learn more at [Set up per diem and mileage allowances](expense-management-per-diem-mileage.md).
+Expense Agent estimates the amount shown before you save by using the expense date and **Vehicle Type**. The preview doesn't consider currency-specific mileage rate records. When you save, Business Central performs the currency-aware calculation and stores the authoritative reimbursement amount. The saved amount can differ from the preview. Administrators configure mileage rates on the **Mileage Rate Setup** page and manage vehicle types on the **Vehicle Types** page. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
 ## Review and edit an expense
 
@@ -133,6 +136,9 @@ Review and verify an expense before you add it to an expense report.
 1. If needed, make a change, select **Save Changes**, and then select **Add**.
 
 The expense is added to the expense report and becomes ready for submission.
+
+> [!NOTE]
+> The expense card shows the receipt total as **Amount incl. VAT**. The mobile and web apps don't show or let you edit the VAT breakdown. Learn more in [How Expense Agent captures VAT](expense-agent-upload-receipts.md#how-expense-agent-captures-vat).
 
 ## Delete an expense
 
@@ -183,7 +189,7 @@ To submit an expense report, follow these steps:
 > | Action | Description |
 > |----------|-------------|
 > | **Cancel** | Return to the expense report and review all expenses before submission. |
-> | **Move and submit** | Submit the current report and automatically move unconfirmed expenses to a new expense report. |
+> | **Submit** | Submit the report now. Unconfirmed expenses are automatically moved to a new draft expense report. |
 > 
 > If you don't want to make changes, select the **Back** arrow in the upper-left corner of the screen.
 
@@ -229,6 +235,8 @@ If you continue to have trouble, contact your administrator or refer to [Trouble
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
 [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md)  
+[Set up mileage rates for expense management](expense-management-mileage-rate-setup.md)
+
 [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -109,7 +109,7 @@ If you change exchange rates for an ACY after posting revaluation entries, run *
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supports source currency information when you close fiscal years and post closing entries.
 
-The close income statement process preserves source currency balances separately for each original transaction currency when you configure an ACY. Closing entries maintain source currency traceability and help ensure that source currency totals remain meaningful when income statement accounts contain entries posted in multiple currencies.
+The close income statement process groups closing amounts separately for each original transaction currency, whether or not you configure an additional reporting currency (ACY). Closing entries maintain source currency traceability and help ensure that source currency totals remain meaningful when income statement accounts contain entries posted in multiple currencies.
 
 If income statement accounts contain entries in multiple source currencies, you can generate closing entries separately for each source currency to maintain a consistent relationship between source currency amounts and source currency codes.
 

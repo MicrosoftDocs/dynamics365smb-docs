@@ -1,11 +1,12 @@
 ---
-title: Set up Payables Agent
+title: Set Up Payables Agent in Business Central
 description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
-ms.date: 07/28/2026
+ms.date: 09/27/2026
+ai-usage: ai-assisted
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: sorenfriisalexandersen
-ms.author: soalex
+ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
@@ -30,7 +31,7 @@ Before configuring and activating the Payables Agent, ensure the following prere
   Learn more in [Manage agent permissions and user access](#manage-agent-permissions-and-user-access).
 - An email account is set up to receive vendor invoice PDF documents.
 
-   The Payables Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).
+   The Payables Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more in [Set up email](admin-how-setup-email.md).
 
    If you have multiple Business Central companies, you can configure each company's agent to use a separate dedicated mailbox, or you can use a shared mailbox with different folder monitoring per company. Configure Outlook rules to route invoices to company-specific subfolders, then set each company's agent to monitor its designated subfolder.
 
@@ -64,7 +65,7 @@ During trial mode:
 
 - The agent processes PDF invoices you upload or receive via email without billing your organization
 - You can test all agent capabilities, including draft creation and review workflows
-- Nothing is posted automatically - you review and approve all drafts before posting
+- Nothing is posted automatically. You review drafts before finalization and review the resulting invoices before posting.
 - The setup wizard displays your progress (for example, "Invoices processed in trial mode: 5 of 50")
 
 After you process 50 invoices, the trial ends automatically and the agent transitions to full mode. The agent continues processing invoices without interruption but starts consuming billable AI credits as described in the prerequisites. No additional configuration is required for this transition.
@@ -98,7 +99,7 @@ If you start with trial mode, the agent is already active and automatically tran
 
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
-   The options are spread across multiple cards. Use the **Go to next card** and **Go to previous card** arrows to go back and forth between the cards and set the various options. Each tab that follows describes a group of related options:
+   The options are spread across multiple cards. Use the **Go to next card** (<kbd>Ctrl</kbd>+<kbd>Right arrow</kbd>)and **Go to previous card** (<kbd>Ctrl</kbd>+<kbd>Left  arrow</kbd>) arrows to go back and forth between the cards and set the various options. Each tab that follows describes a group of related options:
 
    ## [Monitor incoming information](#tab/incoming)
 
@@ -150,6 +151,31 @@ The **Payables Agent** icon changes to ![Shows the Payables Agent icon after con
 
 > [!NOTE]
 > The ![Shows the Payables Agent icon when the agent is configured but not active](media/payables-agent-not-activated-icon.png) icon indicates the agent is configured with a mailbox, but it's not active. To activate it, select the icon, then select ![Shows the configuration icon for Payables Agent](media/soa-configure-icon.png) **Configure Payables Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
+
+## Prepare purchase order matching
+
+Purchase order matching uses shared purchase document and e-document capabilities. This setup is optional and isn't required to activate Payables Agent. The feature doesn't introduce any new Payables Agent permission setup.
+
+### Set the allowed price difference
+
+Use **E-Document Matching Difference %** to control when Business Central shows a price warning for matched lines.
+
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchases & Payables Setup**, and then select the related link.
+1. In **E-Document Matching Difference %**, enter the maximum percentage difference allowed between the invoice's net unit cost and the purchase order lines' net unit cost.
+1. Close the page.
+
+A difference that exceeds this percentage appears as **Price difference** on the **Purchase document draft** page. This setting doesn't determine AI confidence or start an approval workflow.
+
+### Choose a receipt-on-invoice default for a vendor
+
+The **Receipt on Invoice** field on the **Vendor Card** page controls the default for new eligible purchase orders:
+
+- **Manual**: Leaves **Receipt on Invoice** off. A user can turn it on for an eligible purchase order or line.
+- **Automatic**: Turns **Receipt on Invoice** on for new eligible order headers and lines for the vendor.
+
+**Automatic** is optional. Choose the policy that fits your receiving controls. Business Central doesn't change existing vendors to **Automatic**. During upgrade, existing order headers that already have **Receipt on Invoice** enabled copy that value to their lines.
+
+Learn more about matching, receipt behavior, and restrictions in [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md).
 
 ## Monitor and manage Copilot credit consumption
 
@@ -252,7 +278,9 @@ Before you can add or delete permission sets applied to the agent, change the **
 
 ## Related information
 
-[Payables Agent overview](payables-agent.md)  
-[Manage known senders for Payables Agent](payables-agent-known-senders.md)  
-[Configure Copilot and agent capabilities](enable-ai.md)  
+- [Payables Agent overview](payables-agent.md)
+- [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md)
+- [Manage known senders for Payables Agent](payables-agent-known-senders.md)
+- [Configure Copilot and agent capabilities](enable-ai.md)
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

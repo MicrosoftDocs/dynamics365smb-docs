@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 
-ms.date: 07/14/2026
+ms.date: 09/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -99,15 +99,16 @@ With this configuration, the restrictions change as the inspection progresses:
 | Finished, FAIL | Blocked | Allowed, for example, to move the lot to quarantine |
 | Finished, PASS | Allowed | Allowed |
 
-On the **Quality Management Setup** page, set **Quality inspection selection criteria** to **Only the newest inspection/re-inspection** if the latest inspection should determine the restrictions. For example, if the original inspection is finished with a **PASS** result but its latest re-inspection is open with an **INPROGRESS** result, the open re-inspection is selected and blocks sales and transfers. Finished-only selection criteria ignore the open re-inspection and can therefore apply the older **PASS** result instead.
+On the **Quality Management Setup** page, set the **Quality inspection selection criteria** field to **Only the newest inspection/re-inspection** if the latest inspection should determine the restrictions. For example, if the original inspection is finished with a **PASS** result but its latest re-inspection is open with an **INPROGRESS** result, the open re-inspection is selected and blocks sales and transfers. Finished-only selection criteria ignore the open re-inspection and can therefore apply the older **PASS** result instead.
 
 To learn more about quality inspection results, go to [Configure quality inspection results](qms-configuring-grades.md).
 
-
 ## Related information
 
-[Purchase Receipt Inspections without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
-[Purchase Receipt Inspections with Warehouse Handling](qms-purchase-receipt-testing-warehouse.md)  
+[Create an inspection manually from item tracking](qms-purchase-receipt-testing-simple.md)  
+[Create an inspection automatically from a warehouse receipt and reinspect the lot](qms-purchase-receipt-testing-warehouse.md)  
 [Configuring Workflows](qms-quality-workflows.md)  
 [Processing Non-Compliant Items](qms-non-compliant-processing.md)  
-[Quality Management Overview](qms-overview.md)
+[Quality Management Overview](qms-overview.md)  
+
+[!INCLUDE [footer-banner](includes/footer-banner.md)]

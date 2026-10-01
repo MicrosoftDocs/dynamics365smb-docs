@@ -1,18 +1,18 @@
 ---
-title: Transfer items between warehouse locations
-description: Learn how to move inventory from one place or warehouse to another, either with the reclassification journal or with transfer orders.
+title: Transfer items between locations
+description: Learn how to transfer items, inventory, or stock between locations by using transfer orders or the item reclassification journal.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/07/2026
+ms.date: 09/04/2026
 ms.custom: bap-template
-ms.search.keywords: move, warehouse
+ms.search.keywords: move items, inventory transfer, stock transfer, transfer order, direct transfer, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.service: dynamics-365-business-central
 ---
 
-# Transfer inventory between locations
+# Transfer items between locations
 
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
 
@@ -41,6 +41,8 @@ You can use the **Item Reclassification Journals** page to:
 
 ## To transfer items with a transfer order
 
+The following procedure describes a transfer that uses an in-transit location. For direct transfers, turn on **Direct Transfer** and follow the posting process for the selected **Direct Transfer Posting** method. Learn more at [Comparison of different settings for transfer orders](#comparison-of-different-settings-for-transfer-orders).
+
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer orders**, and then choose the related link.
 2. On the **Transfer Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -61,7 +63,7 @@ You can use the **Item Reclassification Journals** page to:
 
     The items are now in transit between the specified locations according to the transfer route.
 
-    As a warehouse worker at the transfer-from location, proceed to receive the items. The transfer order lines are the same as when shipped and can't be edited.
+    As a warehouse worker at the transfer-to location, proceed to receive the items. The transfer order lines are the same as when shipped and can't be edited.
 5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
 ### Undo a transfer shipment
@@ -72,7 +74,7 @@ If you find a mistake in a quantity on a posted transfer order, as long as the s
 * The value in the **Qty. to Ship** field is increased by the undone quantity.
 * The **Correction** checkbox is selected for the lines.
 
-If the quantity shipped in a warehouse shipment, a corrective line is created in the posted warehouse shipment.
+If the quantity was shipped in a warehouse shipment, a corrective line is created in the posted warehouse shipment.
 
 To complete the correction, reopen the transfer order, enter the correct quantity, and then post the order. If you're using a warehouse shipment to ship the order, create and post a new warehouse shipment.
 
@@ -80,7 +82,7 @@ To complete the correction, reopen the transfer order, enter the correct quantit
 
 The following procedure explains how to post transfer orders in a batch.
 
-1. 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Transfer orders**, and then choose the related link.
 2. On the **Transfer Orders** page, select the orders to post.
 3. In the **No.** field, open the context menu and choose **Select More**.
 4. Select the checkbox for the lines for each order that you want to post.
@@ -88,13 +90,13 @@ The following procedure explains how to post transfer orders in a batch.
 6. On the **Batch Post Transfer Order** page, fill in the fields as necessary.
 
    > [!TIP]
-    > For transfer orders that use an in-transit location, you can choose either **Ship** or **Receive**. Repeat this step if you need to do both. For orders where **Direct Posting** is turned on, both options work in the same way and post the order completely.
+    > For transfer orders that use an in-transit location, you can choose either **Ship** or **Receive**. Repeat this step if you need to do both. For orders where **Direct Transfer** is turned on, both options start the direct posting process. The **Direct Transfer Posting** method determines whether the process creates a posted direct transfer or separate posted transfer shipment and receipt documents.
 
 7. Select **OK**.
 8. To view potential issues, open the **Error Message Register** page.
 
     > [!NOTE]
-    > Posting multiple documents might take some time and block other users. Consider enabling background posting. For more information, see [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+    > Posting multiple documents might take some time and block other users. Consider enabling background posting. Learn more at [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
 ### Schedule a job queue entry to post multiple documents in a batch
 
@@ -118,44 +120,57 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 
 ### Comparison of different settings for transfer orders
 
-You can post transfer orders in different modes, with or without an in-transit location. Turn off the **Direct Transfer** toggle and select the temporary location in the **In Transit Code** field on the **Transfer Order** page. When you post the shipment of a transfer order that uses the in-transit location, the items become unavailable because they're in transit. Direct posting ensures that an in-transit location isn't used and the shipment and receipt process simultaneously. The exact behavior of direct posting can be different based on the value selected in the **Direct Transfer Posting** field on the **Inventory Setup** page.
+You can post transfer orders in different modes, with or without an in-transit location. On the **Transfer Order** page, turn off **Direct Transfer** and select a temporary location in **In-Transit Code** to post the shipment and receipt separately. After you post the shipment, the items are unavailable while they're in transit.
+
+When you turn on **Direct Transfer**, the value in **Direct Transfer Posting** on the transfer order determines how the order is posted. The default value comes from the **Default Direct Transfer Posting** field on the **Inventory Setup** page. A direct transfer route can provide a different default, and you can change the posting method on an open transfer order. Learn more at [Create a transfer route](inventory-how-setup-locations.md#create-a-transfer-route).
 
 The following table describes how the combinations differ.
 
-|Capability|The **Direct Transfer** field is disabled in the **Transfer Order** page|**Direct Transfer** is enabled on the **Transfer Order** page</br>The **Direct Transfer Posting** field is set to **Direct Transfer** on the **Inventory Setup** page|**Direct Transfer** is enabled in the **Transfer Order** page</br>The **Direct Transfer Posting** field is set to **Receipt and Shipment** on the **Inventory Setup** page|
+|Capability|**Direct Transfer** is turned off on the transfer order|**Direct Transfer** is turned on</br>**Direct Transfer Posting** is **Direct Transfer**|**Direct Transfer** is turned on</br>**Direct Transfer Posting** is **Shipment and Receipt**|
 |---|---|---|---|
-|Use in-transit location|Yes|No|No|
+|Use in-transit location|Required|No|Optional|
 |Can post receipt without shipment|Yes|No|No|
 |Undo shipment|Yes, if not yet received|No|No|
 |Partial posting|Yes|No|Yes, but **Qty. to Ship** must equal **Qty. to Receive**|
-|Item ledger entries|4:</br>Transfer from From-Location,</br>Transfer to In-Transit,</br>Transfer from In-Transit,</br>Transfer to To-Location.|2:</br>Transfer from From-Location,</br>Transfer to To-Location.|4:</br>Transfer from From-Location,</br>Transfer to *blank*,</br>Transfer from *blank*,</br>Transfer to To-Location.|
+|Item ledger entries|4:</br>Transfer from From-Location,</br>Transfer to In-Transit,</br>Transfer from In-Transit,</br>Transfer to To-Location.|2:</br>Transfer from From-Location,</br>Transfer to To-Location.|4:</br>Transfer from From-Location,</br>Transfer to In-Transit or *blank*,</br>Transfer from In-Transit or *blank*,</br>Transfer to To-Location.|
 |Posted documents|Posted transfer shipment,</br>Posted transfer receipt.|Posted direct transfer|Posted transfer shipment,</br>Posted transfer receipt.|
 |Reservation: inbound and outbound|Yes|Yes|Yes|
 |Item Charges - assign to posted transfer receipt|Yes|No|Yes|
 |Change serial or lot number at receipt (reclassification)|Yes|No|No|
 |Change package number at receipt|Yes|No|Yes|
 |Change expiration date at receipt|Yes|No|Yes|
-|Warehouse handling|Full|No|Limited, see below|
+|Warehouse handling|Full|Review the Direct Transfer matrix|Review the Shipment and Receipt matrix|
 
-Warehouse handling matrix for configuration: **Direct Transfer** is enabled on the **Transfer Order** page and **Direct Transfer Posting** is set to **Direct Transfer** on the **Inventory Setup** page.
+The following matrix applies when **Direct Transfer** is turned on and **Direct Transfer Posting** is **Direct Transfer** on the transfer order.
 
 |From \ To|To: No warehouse handling|To: Warehouse receipt|To: Inventory Put-away|To: Directed put-away and pick|
 |-|-|-|-|-|
 |**From: No warehouse handling**|1|Not supported|1, 4|Not supported|
 |**From: Warehouse shipment**|1, 2|Not supported|1,2,4|Not supported|
-|**From: Inventory put-away**|1, 3|Not supported|1,3,4|Not supported|
+|**From: Inventory pick**|1, 3|Not supported|1,3,4|Not supported|
 |**From: Directed put-away and pick**|2|Not supported|2|Not supported|
+
+The following matrix applies when **Direct Transfer** is turned on and **Direct Transfer Posting** is **Shipment and Receipt** on the transfer order.
+
+|From \ To|To: No warehouse handling|To: Warehouse receipt|To: Inventory Put-away|To: Directed put-away and pick|
+|-|-|-|-|-|
+|**From: No warehouse handling**|1|Not supported|Not supported|Not supported|
+|**From: Warehouse shipment**|1, 2|Not supported|Not supported|Not supported|
+|**From: Inventory pick**|1, 3|Not supported|Not supported|Not supported|
+|**From: Directed put-away and pick**|2|Not supported|Not supported|Not supported|
 
 The numbers in the cells show the posting options that are supported.
 
 1. Post from transfer order. For some combinations, you might need to fill in the **Qty. to Ship** field.
-2. Create and post a warehouse shipment.
+2. Create and post a warehouse shipment. If the location also requires picking, create and register the warehouse pick before you post the warehouse shipment.
 3. Create and post an inventory pick.
 4. Create and post an inventory put-away. For some combinations, you might need to fill in the **Qty. to Ship** field.
 
-Regardless of the method, the shipment and receipt transactions are performed. For example, you can create a transfer order from a location that requires inventory-pick to a location that requires inventory put-away. You can create and post the inventory put-away, and both the shipment and receipt transactions are created. You can also post such documents from a transfer order or from an inventory pick.  
+Regardless of the method, the shipment and receipt transactions are performed. For example, with **Direct Transfer Posting** set to **Direct Transfer**, you can create a transfer order from a location that requires an inventory pick to a location that requires an inventory put-away. You can create and post the inventory put-away, and both transactions are created. You can also post the transfer from the transfer order or from an inventory pick.
 
-For more information about warehouse handling, see [Warehouse management overview](design-details-warehouse-management.md).
+With **Direct Transfer Posting** set to **Shipment and Receipt**, you can optionally select an **In-Transit Code**. The transfer still posts the shipment and receipt together, but the item ledger entries use the selected in-transit location instead of a blank location.
+
+To learn more about warehouse handling, go to [Warehouse management overview](design-details-warehouse-management.md).
 
 ## To transfer items with the item reclassification journal
 

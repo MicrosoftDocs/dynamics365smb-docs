@@ -1,136 +1,166 @@
 ---
-title: Chat with Copilot FAQ
-description:  Learn how to chat with Copilot in Business Central. Find answers to common questions about chat features, settings, and limitations. 
+title: Microsoft Copilot in Business Central FAQ
+description: Find answers to common questions about Microsoft Copilot in Business Central, including access, licensing, capabilities, settings, and limitations.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: faq
+ai-usage: ai-assisted
 ms.collection:
-  - bap-ai-copilot
-ms.date: 05/03/2026
+- bap-ai-copilot
+ms.date: 09/16/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template jswymer
 ---
-# Chat with Copilot FAQ
+
+# Microsoft Copilot in Business Central FAQ
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article answers some common questions about chatting with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. For questions related to AI and chat, consult [Responsible AI FAQs for chat with Copilot](faqs-chat-with-copilot.md).
+This article answers common questions about Microsoft Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. For information about capabilities, limitations, data handling, and responsible AI, see [Application card: Microsoft Copilot in Business Central](microsoft-copilot-in-business-central-application-card.md).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Can admins grant or deny permission to individual users to get access to chat?
+## Versions and licensing
 
-Starting in 2025 release wave 1 (update 26.0), admins can control precisely who has access to Chat with Copilot. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#granting-user-access).
+### What happened to Chat with Copilot?
 
-## Can Copilot answer questions about any records? 
+<!--TBD: Confirm the version 29 replacement and upgrade behavior -->
 
-When you chat with Copilot about records and pages, Copilot searches your company data within [!INCLUDE[prod_short](includes/prod_short.md)] on your behalf. It can only access the data you have permission to access. [!INCLUDE[prod_short](includes/prod_short.md)]'s extensive security, privacy, and compliance controls also apply to Copilot. For example, you can't ask Copilot to show masked or secret fields or retrieve records controlled by record-level security.
+Starting with Business Central version 29.0, Microsoft Copilot in Business Central replaces the previous **Chat with Copilot** experience.
 
-## Is chat available on tablet, phone, or other form factors?
+If you're using Business Central version 28, you continue to use Chat with Copilot until your environment is updated to version 29. After your environment is updated to version 29, you use Microsoft Copilot in Business Central and can't switch back to Chat with Copilot.
 
-No, the chat pane is only available on the [!INCLUDE[web_client](includes/web_client.md)].
+Learn more about the previous experience in [Chat with Copilot (legacy)](chat-with-copilot-legacy.md).
 
-## In which countries or regions can I chat with Copilot?
+### Why can't Microsoft Copilot access my emails, meetings, and other work data?
 
-Chat is available in all [!INCLUDE[prod_short](includes/prod_short.md)] countries and regions. If you're unable to access the chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
+To access your Microsoft 365 work data through Work IQ, your account must be assigned a Microsoft Copilot license. Learn more in [License options for Microsoft Copilot](/microsoft-365/copilot/microsoft-365-copilot-licensing).
 
-## I don't use Business Central in English. What are my options?
+### Why can't I open Microsoft Copilot from Business Central?
 
-Chat is available no matter which language you use in [!INCLUDE[prod_short](includes/prod_short.md)].
+Check the following:
 
-[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+- Make sure your browser allows pop-ups from Business Central. Learn more in [Set up your browser](across-browser-settings.md).
+- Don't use InPrivate or private browsing mode.
+- Microsoft Copilot might not be available when you sign in with a guest or delegated admin account.
+- Your account must be eligible for Microsoft Copilot Chat, and your organization must allow you to access it. An admin can restrict access for all users or for selected users and groups. Learn more in [Manage Microsoft Copilot Chat](/copilot/manage).
+- The **Chat** capability must be active in your Business Central environment, and you must have permission to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
-## Does chat work with my customizations?
+### Can I control access to Microsoft Copilot as an admin?
 
-Yes.
+Yes. You can control access at both the organization and Business Central levels:
 
-- If you ask questions to find records, it can find records in your custom tables or find and filter custom fields.
-- If you ask Copilot for an explanation or guidance, it can provide answers about functionality from the apps that you installed to [!INCLUDE[prod_short](includes/prod_short.md)].
+- In Microsoft 365, you can restrict access to Microsoft Copilot Chat for all users or for selected users and groups. Learn more in [Manage Microsoft Copilot Chat](/copilot/manage).
+- In Business Central, you can activate or deactivate the **Chat** capability for an environment and control which users have permission to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#granting-user-access).
 
-Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
+## Business Central data and capabilities
 
-## How does Copilot locate records?
+### What Business Central data can Microsoft Copilot use?
 
-When you ask to find a single record, multiple records, or a field from a record, Copilot uses various mechanisms to search for this information. Copilot generates the appropriate sorting and filtering on list pages and their corresponding source tables. It uses the fields on the page and fields on the underlying tables as part of these operations and in its responses.
+When you use Microsoft Copilot in Business Central, you can ask Copilot questions about Business Central records and pages, such as customers, vendors, items, and sales orders. Copilot can also use context from the Business Central page or record you're viewing.
 
-## Does Copilot have access to all fields on a table? 
+Copilot works on your behalf and can access only Business Central data that you have permission to access. Business Central security, privacy, and compliance controls continue to apply when you use Copilot.
 
-No. Copilot has access to most but not all fields when finding records. For example, it excludes fields that might contain passwords or other secrets. Learn which field data types are excluded in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
+### Does a Microsoft Copilot license give me access to more Business Central data?
 
-Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and might not be part of Copilot’s response. For example, if your admin didn't give you permission to personalize Business Central, Copilot shows only the fields typically displayed by default on the list pages.
+No. A Microsoft Copilot license doesn't change which Business Central data you can access.
 
-## How do I open a record or page from chat?
+Copilot can access only Business Central data that you're already permitted to access. A Microsoft Copilot license provides additional Microsoft Copilot capabilities, such as access to work data through Work IQ, but doesn't grant additional permissions in Business Central.
 
-When you ask Copilot to find records in [!INCLUDE[prod_short](includes/prod_short.md)], it shows any records it finds as selectable tiles or links in the chat pane. While in preview, Copilot doesn't automatically navigate to any page.
+### Can Microsoft Copilot change Business Central data?
 
-## Why do I get different answers from Copilot for the same question?
+No. In the experience described in this article, Microsoft Copilot has read-only access to Business Central data. Copilot can retrieve and explain information, but it doesn't create, modify, or delete Business Central records.
 
-Copilot might occasionally answer in different ways. Answers aren't always identical.
+### How do I open a Business Central record referenced by Copilot?
 
-## How do I use the Copy function on chat messages?
+When a response uses Business Central data, Copilot can include citations or links to the Business Central records used to generate the response.
 
-You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot. When Copilot provides a record summary in the Copilot pane, the summary can also be copied using a **Copy** menu item.
+Select a citation or link to open the referenced record in Business Central.
 
-## Can I customize or extend chat?
+### Can I use Business Central agents from Microsoft Copilot?
 
-While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools, or personalization. However, Chat is ready to work with data and Help from your installed apps. Learn about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
+<!-- TBD: Confirm that Business Central first-party agents and third-party agents built by using the Business Central agent framework can't currently be invoked from Microsoft Copilot. -->
 
-## Does Copilot search for data in other companies or environments?
+Not currently. You can't invoke Microsoft agents for Business Central or non-Microsoft agents built by using the Business Central agent framework from Microsoft Copilot.
 
-Copilot only searches for records in the company you're currently signed into. It doesn't search for data across multiple environments or companies.
+### Can I use Business Central data in Microsoft Copilot outside Business Central?
 
-## How does chat treat data residency?
+Not currently. Microsoft Copilot gets access to Business Central context and data when you use Copilot from within Business Central.
 
-The chat feature relies on Azure OpenAI Service for AI, Microsoft Learn for online documentation, and Bing Search to provide answers about installed apps.
+If you continue the same Copilot conversation outside Business Central, such as from the standalone Microsoft Copilot experience, Copilot can use Business Central context that was already retrieved in that conversation, but it can't retrieve more Business Central data.
 
-- Azure OpenAI Service  
-  Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
+### Can Microsoft Copilot analyze Business Central data?
 
-- Microsoft Learn online service
+<!-- TBD: Removed analysis tabs support for now. Confirm supported grouping, ranking, aggregation, totals, averages, calculations, currency conversion, long-list, and large-result-set behavior and limitations. -->
 
-  Endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
+Copilot can answer questions that involve comparing, summarizing, or reasoning over Business Central data. However, aggregation, complex analysis, and advanced summarization can have limitations.
 
-  If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. When you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography. They're processed and not stored for more than one day.
+Review the cited Business Central records and verify important totals, comparisons, or conclusions before using a response to make a business decision.
 
-  To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
-- Bing Search
+### Why can Copilot give different answers to the same question?
 
-  Service endpoints are available in the US only and Bing Search operates under different terms. If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Bing Search service outside your environment’s geographic region or compliance boundary. When you use chat to ask for explanations about add-on apps, only the input prompt is sent to the Bing Search service. This prompt is processed and not stored for more than one day.
+Microsoft Copilot uses generative AI, so responses can vary even when you ask the same or similar questions. Responses can also be incomplete or incorrect.
 
-  To prevent chat from connecting to the Bing Search service, turn off the Enable Bing Search switch from the Copilot & agent capabilities page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
+Review important answers and verify them against cited Business Central records or other authoritative sources.
 
-## Why don't I see the Ask Copilot button on all tooltips?
+Learn more about the capabilities and limitations of Microsoft Copilot in [Application card: Microsoft Copilot in Business Central](microsoft-copilot-in-business-central-application-card.md).
 
-At this time, a one-click mechanism to ask Copilot to explain a particular field is only available for fields from Business Central. This feature isn't yet available for custom fields originating from add-on apps and customizations.
+## Microsoft Copilot and other sources
 
-## What can I do if the chat pane doesn't show?
+### Can Microsoft Copilot use information other than Business Central data?
 
-Check that:
+Yes. Microsoft Copilot can use information from sources other than Business Central, such as information from the web.
 
-- You have permission to chat with Copilot. Learn more in [Configure Copilot & agent capabilities](enable-ai.md#granting-user-access).
-- **Chat** is active in the **Copilot & agent capabilities** page. In some countries and regions, Chat with Copilot isn't active by default. Learn more in [Configure Copilot & agent capabilities](enable-ai.md).
+If you have a Microsoft Copilot license, Copilot can also use work data available through Work IQ, such as information from emails, chats, meetings, and files, subject to your permissions.
 
-## How is Microsoft improving chat with Copilot?
+### Can Microsoft Copilot use agents?
 
-We're continually working on improving reliability and response time.
+Microsoft Copilot can provide access to agents depending on your Microsoft Copilot license and configuration.
 
-We encourage administrators to try out experimental features on sandbox environments. To experience the latest improvements to chat, enable the **Feature: Enables advanced navigation (not data) search capabilities by utilizing semantic similarity search on application metadata** key on the **Feature Management** page. This feature uses superior AI technology to match user inquiries with the names of pages, fields, and tables. Learn more in [Use semantic search to find pages and reports with Copilot chat](/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key).
+However, you can't currently invoke Business Central first-party agents and third-party agents built by using the Business Central agent framework from Microsoft Copilot in Business Central.
 
-We look forward to getting your feedback about how Copilot can provide better assistance to your workday.
+## Availability and languages
 
-## Why does Copilot only show three records in the chat pane?
+### In which countries or regions is Microsoft Copilot available?
 
-When you ask Copilot to find records, the way you phrase the question determines how Copilot identifies and applies filters on pages to find what you are looking for. To keep answers concise, the chat pane displays a maximum of three record tiles, even when Copilot finds more relevant records.
+The availability of Microsoft Copilot in Business Central can depend on the country or region where your Business Central environment is located.
 
-## Why does Copilot give incorrect answers to calculations?
+Learn more about current availability in [Copilot and agents country/region availability and supported languages](copilot-agents-region-language-availability.md).
 
-While in preview, chat with Copilot can help you find records, explain concepts, and guide you to how to complete tasks in [!INCLUDE[prod_short](includes/prod_short.md)]. Other use cases aren't supported, such as adding up a field across records or calculating the average monthly amount. We hope to add basic mathematics abilities to Copilot in the future.
+### Which languages can I use with Microsoft Copilot?
 
-## Can I use speech instead of typing my prompts?
+Microsoft Copilot supports prompts and responses in multiple languages.
 
-You can chat with Copilot by using voice typing to talk instead of type your words in the chat pane. Voice typing uses online speech recognition and is available with Windows. To use voice, activate the chat message box, then use the <kbd>Windows</kbd>+<kbd>H</kbd> shortcut and start speaking. Learn more at [Use voice typing to talk instead of type on your PC](https://support.microsoft.com/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f).
+Learn more about languages supported by Microsoft Copilot in [Supported languages for Microsoft Copilot](https://support.microsoft.com/microsoft-365-copilot/supported-languages-for-microsoft-365-copilot).
 
-## Next steps
+Business Central feature availability can also depend on your Business Central country or region and language. Learn more in [Copilot and agents country/region availability and supported languages](copilot-agents-region-language-availability.md).
 
-- [Chat with Copilot (preview)](chat-with-copilot.md)
+## Privacy and responsible AI
+
+### Where can I learn about data handling, privacy, and responsible AI?
+
+For information specific to Microsoft Copilot in Business Central, including its capabilities, intended uses, limitations, permissions, and use of Business Central data, see [Application card: Microsoft Copilot in Business Central](microsoft-copilot-in-business-central-application-card.md).
+
+For information that applies to Microsoft Copilot generally, see [Application card: Microsoft Copilot for organizations](/microsoft-365/copilot/microsoft-365-copilot-application-card).
+
+## Troubleshooting
+
+### What can I do if the Copilot pane doesn't open?
+
+Check the following conditions:
+
+- Your environment runs a version of Business Central that supports Microsoft Copilot in Business Central.
+- **Chat** is active on the **Copilot & agent capabilities** page.
+- You have permission to use the capability.
+
+If you don't administer Business Central, contact your administrator.
+
+Learn more about setup and access in [Configure Copilot and agent capabilities](enable-ai.md).
+
+## Related information
+
+- [Use Microsoft Copilot in Business Central (preview)](chat-with-copilot.md)  
+- [Application card: Microsoft Copilot in Business Central](microsoft-copilot-in-business-central-application-card.md)  
+- [Configure Copilot and agent capabilities](enable-ai.md)  
+- [Copilot and agents country/region availability and supported languages](copilot-agents-region-language-availability.md)  

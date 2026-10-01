@@ -1,235 +1,134 @@
 ---
-title: Manual test creation
-description: Learn how to manually create quality inspections for reactive testing, investigations, and spot checks.
+title: Work with quality inspections
+description: Learn how to create, assign, complete, print, reopen, and repeat quality inspections in Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: concept-article
-ms.search.form: 20404, 20402, 
-ms.date: 01/11/2026
+ms.topic: how-to
+ms.search.form: 20406, 20407, 20408
+ms.date: 09/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
-
 ---
 
-# Manual inspection creation
+# Work with quality inspections
 
-This article explains various ways to manually create quality inspections. Manual inspection creation provides flexibility for:
+Quality inspections collect measurements and observations for items, documents, and business processes. This article explains how to create an inspection, perform the tests, finish and print the inspection, and create a reinspection when more testing is needed.
 
-- Reactive inspections, where you create inspections in response to discovered quality issues.
-- Investigating specific lots or items due to concerns.
-- Spot-checking, where you do random quality verification.
-- Investigating customer complaints, where your inspections are related to external feedback.
+## Before you create an inspection
 
-Manual inspections use the same templates and configurations as automatic inspections.
-<!--
-## Prerequisites
+You need a quality inspection template and an enabled inspection generation rule. The rule connects the template to a source, such as a purchase line or production order routing line. It also defines whether inspections can be created manually, automatically, or both. For more information, see [Create quality inspection templates](qms-quality-templates.md) and [Set up quality inspection generation rules](qms-test-generation-rules.md).
 
-There are a few things to set up before you can manually create inspections.
+Users who perform inspections need the **Quality Inspector** permission set. Users who configure quality management or manage other users' inspections need the **Quality Admin & Supervisor** permission set.
 
-- Set up quality inspection templates. Learn more at [Create quality inspection templates](qms-quality-templates.md).
-- Set up inspection generation rules with manual triggers. Learn more at [Set up inspection generation rules](qms-test-generation-rules.md).
-- Make items available for inspections.
-- Assign the **Quality Inspection** permission sets to users.
+Automatic creation also requires the user who runs the source transaction to have effective access to the quality management integration objects. Transaction posting permission alone doesn't guarantee that an inspection is created. The **Quality Inspection - Create** permission set provides the minimum quality management integration permissions. Depending on the user's license and assigned permission sets, this access might already be included.
 
-## Configure inspection generation rules
+## Create an inspection
 
-You can set up rules for generating inspections manually, or manually and automatically. This section describes how.
+You can create inspections from a template, from source records, through automatic triggers, through a workflow, or on a schedule.
 
-### Manual-only rules
+### Create an inspection from a template
 
-Create rules specifically for manual inspection creation:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and then select the related link.
+2. Choose the template, and then select **Create Inspection**.
+3. In the **Source** field, choose the type of record to inspect.
+4. In the **Choose Record** field, choose the record. The lookup applies the table filter configured for the source.
+5. Enter item, lot, serial, package, and source quantity information as needed, and then choose **OK**.
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Inspection Generation Rules**, and then choose the related link.
-2. Create or modify rules, as follows:
+The inspection uses the selected template and retains a link to the source record.
 
-   - **Purchase Trigger**: "Manual Only"
-   - **Production Trigger**: "Manual Only"  
-   - **Template Assignment**: Appropriate template
-   - **Source Type**: Purchase line, production order routing line, and so on.
+### Create inspections from source records
 
-### Manual rules versus automatic rules
+Source pages offer actions when a matching generation rule allows manual creation. Depending on the source, you can create inspections from purchase, purchase return, sales, and sales return lines; production routing lines; output and consumption journals; warehouse entries; and item-tracking lines.
 
-**Manual only rules**:
+For example, on a purchase order line, select **Quality Management**, and then select **Create Quality Inspection**. The action creates an inspection for the current line. The same menu provides **Show Quality Inspections for Item and Document** and **Show Quality Inspections for Item** options.
 
-- Inspections are created only when you choose the **Create Inspections** action.
-- Inspections aren't automatically created when you post.
-- Manual inspections are ideal for reactive scenarios.
+On the **Item Tracking Lines** page, select one or more tracking lines, choose **Quality Management**, and then choose **Create Quality Inspections**. [!INCLUDE [prod_short](includes/prod_short.md)] creates an inspection for each selected tracking line that matches a rule. Use **Show Quality Inspections for Item with Tracking Specification** to review related inspections.
 
-**Manual and automatic rules**:
+### Create inspections automatically, through workflows, or on a schedule
 
-- You can create inspections automatically and manually.
-- Provide flexibility for both proactive and reactive inspections.
-- Represents the most comprehensive approach to inspections.
--->
+Automatic triggers on generation rules can create inspections when you release or post source documents. Examples include purchase and transfer receipts, warehouse receipts, production and assembly output, sales returns, and registered warehouse movements.
 
-## Create tests manually
+To learn more about automatic triggers and rule configuration, go to [Set up quality inspection generation rules](qms-test-generation-rules.md).
 
-The following sections describe ways to manually create quality inspections.
+Workflows can create inspections in response to workflow events. Learn more in [Quality management workflows](qms-quality-workflows.md).
 
-### Create an inspection from item tracking lines
+For periodic inspections, assign a **Schedule Group** to one or more rules and configure the job queue entry that [!INCLUDE [prod_short](includes/prod_short.md)] creates. Learn more in [Create scheduled quality inspections](qms-scheduled-test-creation.md).
 
-This method is best for lot-specific inspections when item tracking is already configured. It offers several advantages:
+## How generation rules are selected for source actions and automatic triggers
 
-- Lot numbers automatically populated.
-- Quantities automatically assigned.
-- Direct connection to source document.
+When you create an inspection from a source record or use an automatic trigger, [!INCLUDE [prod_short](includes/prod_short.md)] evaluates enabled generation rules in ascending **Sort Order**. It checks the source table and condition filter, followed by item and attribute filters when an item is available. The first matching rule supplies the template for that creation attempt. Other matching rules aren't used.
 
-1. Open a source document, such as a purchase order, production order, and so on.
-2. Choose the **Item Tracking Lines** action.
-3. Select specific lot/serial number lines.
-4. Choose the **Create Inspection** action.
+Use lower sort-order values for specific rules and higher values for general fallback rules. Avoid overlapping rules unless the priority is intentional.
 
-### Create an inspection from purchase or production lines
+For source actions and automatic triggers, the **Activation Trigger** field controls how a rule can be used:
 
-This method is best for inspecting untracked items without specific lot requirements. Information from the source document is prefilled, but you might have to enter lot numbers manually.
+- **Manual or Automatic** allows both creation methods.
+- **Manual only** allows actions that users run.
+- **Automatic only** allows configured automatic triggers.
+- **Disabled** prevents the rule from creating inspections.
 
-1. Open a source document, and select a line.
-2. Choose the **Create Inspection** action from the line.
-3. Select the appropriate template, if you're prompted to.
-4. Specify a lot number.
+Scheduled processing is an exception. A schedule can process any rule that isn't **Disabled**, regardless of whether the rule is manual or automatic.
 
-### Create an inspection from quality inspection templates
+## Assign and perform an inspection
 
-This method is best for creating inspections that are independent of specific documents. It has several advantages:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspections**, and then select the related link.
+2. On the **Quality Inspections** list, choose an unassigned inspection, and then choose **Take ownership**. To return an inspection assigned to you to the unassigned state, choose **Unassign**.
+3. Open the inspection.
+4. Review the source, item, quantity, and item-tracking information.
+5. Enter a **Test Value** for each test that requires input. [!INCLUDE [prod_short](includes/prod_short.md)] evaluates line results and dependent expressions as values change.
+6. Add a **Note** to a test line when more explanation is needed.
+7. Use **Attachments** to add supporting documents. In the picture FactBox, use **Take** or **Import** to add a picture of the inspected item.
+8. Review the inspection result.
 
-- Complete flexibility in inspection configuration
-- Not tied to specific business transactions
-- Ideal for investigation and spot-checking
+The **Quality Admin & Supervisor** permission set is required to change another user's assignment, change quantity fields, reopen a finished inspection, or delete a finished inspection.
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Templates**, and then choose the related link.
-2. Select the template to use.
-3. Choose the **Create Inspection** action.
-4. Set up parameters for your inspection, as follows:
+## Finish an inspection
 
-   - **Source**: Enter the source document reference.
-   - **Lot/Serial Number**: Enter a lot or serial number, if needed.
+Choose **Finish** when testing is complete. For a tracked item, [!INCLUDE [prod_short](includes/prod_short.md)] verifies the lot, serial, or package information according to the **Item Tracking Before Finishing** setting. It also verifies that the inspection result allows finishing. To learn more about the item-tracking options, go to [Quality management setup and configuration](qms-setup.md#set-up-quality-management).
 
-### Create an inspection by running the Schedule Inspection report
+Finishing records the user and date and prevents normal editing of the inspection and its lines.
 
-This method is best for bulk-creating inspections across multiple items or generation rules at once. Unlike other manual methods, you don't need to select a specific source record such as a purchase line or item ledger entry - the report automatically finds matching source records based on the conditions defined in each generation rule. 
+The result category determines how quantities are updated:
 
-> [!Important]
-> The report creates inspections for all enabled generation rules that match your filters. If you don't apply filters, it processes every enabled rule against all matching source records, which can generate a large number of inspections. Always filter by **Template Code** or other criteria to limit the scope before running the report.
+- **Acceptable** enters the inspected quantity in **Passed Quantity**.
+- **Not acceptable** or a blank category enters the inspected quantity in **Failed Quantity**.
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection - Schedule Inspection**, and then choose the related link.
-2. Use the **Template Code** filter to target generation rules linked to a specific template. Use additional filters to narrow the scope and avoid creating too many inspections.
-3. Choose **OK** to run the report. Inspections are created for all matching, enabled generation rules.
+The inspected quantity is the **Sample Size** when that value is greater than zero. Otherwise, [!INCLUDE [prod_short](includes/prod_short.md)] uses **Quantity (Base)**.
 
+## Print inspection reports
 
-<!--
-## Scenarios where you might create inspections manually
+Use the **Report** menu on an inspection to print one of the following reports:
 
-The following sections offer high-level, sample scenarios in which you might manually create quality inspections.
+| Report | Purpose |
+| --- | --- |
+| **Certificate of Analysis** | Certifies test values and results for a customer, lot, or batch. |
+| **Inspection Report** | Provides a general record of the inspection, tests, values, results, notes, and source information. |
+| **Non Conformance Report** | Documents test results and source information for an inspection that didn't meet requirements. |
 
-### Reactive inspections from a purchase
+You can filter each report by **Source Item No.**, **Source Variant Code**, **Source Lot No.**, **Source Serial No.**, **Source Package No.**, **Source Document No.**, inspection number, reinspection number, **Template Code**, and **Test Code**. The reports use Word layouts that you can customize. For more information, see [Manage report and document layouts](ui-manage-report-layouts.md).
 
-Reactive inspections are typically done in situations where you discover a quality issue after you receive goods from a purchase. In this case, you create the inspection from item tracking lines.
+## Reopen an inspection
 
-1. **Locate the purchase order**: Find the original purchase receipt.
-2. **Access item tracking details**: Open item tracking lines.
-3. **Select the problematic lots**: Choose the specific lots that have quality issues.
-4. **Create inspection**: Generate an inspections for investigation.
-5. **Complete the inspection**: Perform a detailed quality evaluation.
+A user with the **Quality Admin & Supervisor** permission set can choose **Reopen** on a finished inspection when it doesn't have a later reinspection. Reopening makes the inspection editable and clears the calculated passed and failed quantities. It keeps the result, test values, finishing information, notes, and pictures. Finish the inspection again after making the required changes.
 
-### Production quality investigations
+## Create a reinspection
 
-For example, if a customer complains about a finished good you produced, you might want to inspect the quality of your production output. In this case, you create the inspection from a quality inspection template.
+Choose the **Create Re-inspection** action when you need a new inspection in the same sequence. If the current inspection is open, [!INCLUDE [prod_short](includes/prod_short.md)] finishes it first and applies the normal finish checks.
 
-1. Choose the appropriate quality template.
-2. Choose the **Create Inspection** action.
-3. Configure the details:
+The reinspection is a new open revision. It keeps the inspection number and gets the next **Re-inspection No.** It copies source, item, quantity, assignment, and other header information. Test lines are rebuilt from the current template, and entered test values aren't copied.
 
-   - **Item**: Select the finished item.
-   - **Lot**: Specify the customer-reported lot number.
-   - **Quantity**: Specify a quantity that gives a representative sample size.
-4. Perform a detailed quality evaluation.
+If inspection results control whether tracked inventory can be used, review the **Quality Inspection Selection Criteria** setting. **Only the newest inspection/reinspection** lets the newest inspection in the sequence determine the restriction.
 
-### Spot check inspections
+## Handle items that don't pass inspection
 
-Some businesses do spot-checks to verify quality at random times. In this case, you create inspections from purchase lines.
+From a failed inspection, you can move inventory, create an internal put-away or transfer order, make a negative adjustment, change item tracking, or create a purchase return order. Workflows can also perform actions when an inspection is created or finished. Learn more in [Process items that failed a quality inspection](qms-non-compliant-processing.md) and [Block or unblock lots](qms-lot-blocking-unblocking.md).
 
-1. Select the items for spot checking.
-2. Open the relevant purchase order.
-3. Select the line, and then choose the **Create Inspection** action.
-4. Add lot information, if needed.
-5. Perform a detailed quality evaluation.
-
-## Configuration options for inspections
-
-The following sections describe the options for configuring inspections.
-
-### Template selection
-
-When you create inspections manually:
-
-- **Automatic**: Inspection generation rules determine the template.
-- **Manual selection**: Choose a template that suits the situation.
-- **Multiple templates**: Create multiple inspections with different templates.
-
-### Link to source documents
-
-With a source document:
-
-- The inspection links to the originating transaction.
-- You maintain traceability.
-- The source information is prepopulated.
-
-Without a source document:
-
-- You do an independent quality inspection that isn't linked to a specific transaction.
-- You must manually configure the inspection.
-
-### Item tracking specifications
-
-For lot-tracked items:
-
-- Specify the lot number when you create the test.
-- [!INCLUDE [prod_short](includes/prod_short.md)] verifies that the lot exists.
-- The lot information displays in the test.
-
-For items you track with serial numbers:
-
-- Enter the specific serial numbers.
-- Run an individual inspection per serial number.
-- Maintain detailed traceability.
-
-For nontracked items:
-
-- Create the inspection without tracking information.
-- Run a quantity-based inspection that's suitable for bulk materials.
-
-## Best practices for manual inspections
-
-The following sections offer tips and best practices for doing manual inspections.
-
-### Documentation requirements
-
-Record the reason that you chose to create inspections manually, and document the quality concerns or triggers. It's a good idea to maintain an audit trail.
-
-It's also important to document the results. Fill in all fields on the template, add notes about unusual findings, and link to corrective actions, if needed.
-
-### Process integration
-
-The workflow for reactive inspections might look as follows:
-
-1. Identify a quality issue.
-2. Manually create an inspection.
-3. Do your investigation and analysis.
-4. Take corrective actions.
-5. Verify the inspection.
-
-The following are some recommendations for inspection protocol:
-
-- Use consistent inspection methods.
-- Inspect appropriate sample sizes.
-- Create good documentation.
-- Use follow-up procedures.
--->
 ## Related information
 
-[Purchase Receipt Inspection without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
-[Production Output Quality Inspections](qms-production-output-testing.md)  
-[Creating Quality Inspection Templates](qms-quality-templates.md)  
-[Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
-[Quality Management Overview](qms-overview.md)
+[Quality management overview](qms-overview.md)  
+[Quality management setup and configuration](qms-setup.md)  
+[Configure quality inspection results](qms-configuring-grades.md)  
+[Set up Contoso Coffee demo data for quality management](qms-contoso-coffee-demo-data.md)  
+
+[!INCLUDE [footer-banner](includes/footer-banner.md)]

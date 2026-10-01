@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, WIP, work-in-progress, transfer order, WIP ledger, WIP adjustment, multi-stage
 ms.search.form: 99001560, 99001561
-ms.date: 06/18/2026
+ms.date: 09/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -88,16 +88,18 @@ You can manually adjust transfer order quantities before posting.
 
 ## Post WIP transfer orders
 
-You can post WIP transfer orders using the same methods as standard transfer orders:
+You can post WIP transfer orders by using the same methods as standard transfer orders. The warehouse setup for each location determines which process applies:
 
 - Post from the **Transfer Order** page.
-- Post through warehouse shipments and receipts.
+- Use an **Inventory Pick** for an outbound WIP transfer when the transfer-from location requires inventory picks. For more information, see [Pick items with inventory picks](warehouse-how-to-pick-items-with-inventory-picks.md).
+- Use an **Inventory Put-away** for a WIP return when the transfer-to location requires inventory put-aways. For more information, see [Put items away with inventory put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
+- Use a **Warehouse Shipment** or **Warehouse Receipt** when a location requires warehouse documents. For more information, see [Ship items with warehouse shipments](warehouse-how-ship-items.md) and [Receive items with warehouse receipts](warehouse-how-receive-items.md).
 - Use direct transfers (if configured).
 
 When you post a WIP transfer order, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **Subcontractor WIP Ledger Entry** table instead of standard item ledger entries.
 
 > [!IMPORTANT]
-> No item ledger entries, value entries, warehouse entries, pick documents, or put-away documents are created for WIP transfer lines.
+> Posting WIP transfer lines doesn't create item ledger entries, value entries, warehouse entries, or warehouse pick or warehouse put-away documents. You can't assign item tracking, such as serial or lot numbers, to WIP transfer lines.
 
 ## View WIP ledger entries
 
@@ -177,14 +179,12 @@ The following table shows which transfer modes work for WIP items depending on t
 
 |Transfer mode|Direction|No warehouse handling|Require Pick / Put-away|Require Shipment / Receive|Directed Put-away and Pick|
 |---|---|---|---|---|---|
-|In-Transit (recommended)|Send to subcontractor|Supported|Partial (1)|Supported|Supported|
-|In-Transit (recommended)|Receive from subcontractor|Supported|Partial (1)|Supported|Supported|
+|In-Transit (recommended)|Send to subcontractor|Supported|Supported|Supported|Supported|
+|In-Transit (recommended)|Receive from subcontractor|Supported|Supported|Supported|Supported|
 |Direct – Shipment and Receipt|Send to subcontractor|Supported|Supported|Supported|Supported|
 |Direct – Shipment and Receipt|Receive from subcontractor|Supported|Not supported|Not supported|Not supported|
 |Direct – Direct Transfer|Send to subcontractor|Not supported|Not supported|Not supported|Not supported|
 |Direct – Direct Transfer|Receive from subcontractor|Not supported|Not supported|Not supported|Not supported|
-
-(1) Inventory Pick and Put-away creation is not supported forWIP lines. You can post directly from the transfer order as a workaround.
 
 > [!IMPORTANT]
 > To ensure WIP transfers work reliably with all warehouse configurations, set up transfer routes with an **In-Transit Code** between your warehouse locations and each subcontractor location. Also review the **Direct Transfer Posting** field on the **Inventory Setup** page if you work without transfer routes.
@@ -209,7 +209,7 @@ If you need to return the WIP item from a subcontractor, you can create a return
 - **Item tracking**: You can't add serial numbers or lot numbers to WIP transfer lines. The system blocks opening item tracking lines for WIP transfer lines.
 - **Reservations**: You can't create reservations against WIP transfer lines.
 - **Planning**: WIP transfer lines don't appear as demand or supply in planning calculations because the base quantity fields are set to zero.
-- **Warehouse handling**: WIP transfer lines work with warehouse shipments and receipts, but with adapted quantity handling. No pick or put-away documents are created for WIP lines.
+- **Warehouse handling**: WIP transfer lines work with inventory picks and put-aways and with warehouse shipments and receipts. The documents show the WIP quantity to handle, but the base quantity remains zero and posting doesn't create warehouse entries.
 
 ### Routing line restrictions
 

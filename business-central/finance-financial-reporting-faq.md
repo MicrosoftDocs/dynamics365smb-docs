@@ -47,7 +47,7 @@ To learn more, go to [Permissions to view or edit financial reports](finance-fin
 
 ## How can I setup auditing on changes to financial reports?
 
-To learn more, go to [Set up the Change Log for financial report definitions](finance-financial-reporting-auditing.md#set-up-the-change-log-for-financial-report-definitions).
+To learn more, go to [Monitor financial report definitions for changes](finance-financial-reporting-auditing.md#monitor-financial-report-definitions-for-changes).
 
 ## How can I get notified when financial report definitions change?
 
@@ -55,7 +55,7 @@ To learn more, go to [Get notified when financial report definitions change](fin
 
 ## How can I analyze changes to financial reports?
 
-To learn more, go to [Analyze changes to financial report definitions](finance-financial-reporting-auditing.md#analyze-changes-to-financial-report-definitions).
+To learn more, go to [Analyze changes to financial report definitions](finance-financial-reporting-auditing.md).
 
 ## Related information
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain, production, manufacturing, BOM, routing
 ms.search.form: 5510, 99000766, 99000786, 99000817, 99000818, 99000831
-ms.date: 01/22/2025
+ms.date: 08/21/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -78,6 +78,8 @@ To post all transactions related to the production order and record the emission
 Production journals combine the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released production order. To learn more, go to [How to register consumption and output for a released production order line](production-how-to-register-consumption-and-output.md). Related to emissions, be sure that all lines have a value in the **CO2e per Unit** field.
 
 Every time you post the journal, [!INCLUDE [prod_short](includes/prod_short.md)] creates sustainability value entries. You can access these entries from the **Release Production Order** page by running the **Sustainability Value Entries** action.  
+
+If a component uses **Specific** in the **Carbon Tracking Method** field, assign the consumed lot in the production journal. [!INCLUDE [prod_short](includes/prod_short.md)] posts the component's actual CO2e from the item ledger entry for the selected lot. It adds that value to the emissions from work and machine center operations when it calculates the output item's CO2e. The component sustainability value entry records the CO2e as an emission reduction. For more information, see [Choose how to track carbon for an item](value-chain-howto-setup.md#choose-how-to-track-carbon-for-an-item).
 
 #### Consumption journals
 

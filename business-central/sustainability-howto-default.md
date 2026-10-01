@@ -5,8 +5,8 @@ author: altotovi
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, emission, GHG, CSRD, carbon, CO2, value chain
-ms.search.form: 16, 30, 76, 5800, 99000754, 99000760
-ms.date: 01/22/2025
+ms.search.form: Primary_16, 30, 76, 5800, 99000754, 99000760, 5600
+ms.date: 08/27/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -21,6 +21,7 @@ To simplify how you manage your sustainability accounts and emissions, you can c
 - **Resource** (available default sustainability account and emissions)
 - **Work Center** (available default sustainability account and emissions)
 - **Machine Center** (available default sustainability account and emissions)
+- **Fixed Asset** (available default sustainability account and emissions)
 
 > [!NOTE]
 > Although you set default values, you can change them on journals and documents as needed. These values are simply defaults and aren't mandatory.  
@@ -95,6 +96,17 @@ To set up default sustainability values for a resource, follow these steps:
 > The calculation of CO2e (carbon equivalent) is based on the default emissions you specified for the resource and your setup on the **Emission Fees** page.  
 
 6. Close the page.
+
+## Fixed assets
+
+You can specify a default sustainability account and emissions for a fixed asset. The system copies these values to purchase and sales documents for the asset.
+
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Fixed Assets**, and then select the related link.
+2. Open the fixed asset.
+3. On the **Sustainability** FastTab, select a **Default Sust. Account**.
+4. Enter values in the **Default CO2 Emission**, **Default CH4 Emission**, and **Default N2O Emission** fields.
+
+Learn more in [Track fixed asset emissions in the sustainability value chain](value-chain-howto-fixed-assets.md).
 
 ## Work centers
 

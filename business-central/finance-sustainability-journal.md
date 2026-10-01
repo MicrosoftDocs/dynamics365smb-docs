@@ -6,10 +6,12 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: Sustainability, ESG, emission, GHG, water, waste, intensity, CSRD, journal
-ms.search.form: 6216, 6219, 6220
-ms.date: 11/26/2025
+ms.search.form: Primary_6216, 6219, 6220, 50, 51, 52, 6640, 138, 140
+ms.date: 09/21/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai.usage: ai-assisted
+
 ---
 
 # Record sustainability entries
@@ -89,29 +91,56 @@ The **Recurring Frequency** field is also important and must be set. It's a date
 
 The **Expiration Date** field determines the date when the line is posted for the last time. The line won't be posted after that date. The advantage of using the **Expiration Date** field is that the line isn't immediately deleted from the journal. You can enter a later date so that you can use the line in the future. If the field is blank, the line posts every time until you delete it from the journal.
 
-## Purchase documents  
+## Purchase documents
 
-To enable recording of greenhouse gas (GHG) emissions in any purchase-related documents, you must select the **Use Emissions in Purchase Documents** on the **Sustainability Setup** page. 
+You can record greenhouse gas (GHG) emissions manually or calculate them from formulas on purchase documents. You can use sustainability fields on purchase orders, invoices, credit memos, and return orders. The formula fields also appear on posted purchase invoices and posted purchase credit memos.
 
-To work with any purchase-related documents, follow these steps:
+### Set up formulas for purchase documents
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon and:  
-   - Enter **Purchase Invoices** if you want the invoice as a **Document Type**, and then select the related link.  
-   - Enter **Purchase Orders** if you want the order as a **Document Type**, and then select the related link.  
-1. Populate the header and lines based on the instructions in [how to work with purchase invoices and orders](purchasing-how-record-purchases.md).
-1. If you have information about emissions on your invoice from the vendor, choose the appropriate **Sustainability Account No.** in the document lines and add emission values using one of the following fields (based on what you want to track and emissions you have on your physical invoice): **Emission CO2**, **Emission CH4**, or **Emission N2O**.
+Before you use formulas, complete the following setup steps:
 
-    > [!NOTE]
-    > The values you enter in the emission fields are fixed amounts per line. They aren't multiplied with the **Quantity** field. You can use **Sustainability Account No.** only when the **Type** field (**Option Values**) is **Item** or **G/L Account**. You can't use **Resource** or **Charge (Item)** **Option Values**. 
+1. On the **Sustainability Setup** page, turn on **Use Emissions in Purchase Documents**.
+1. Turn on **Use Formulas in Purchase Documents**.
+1. Set up a sustainability account with a category and a subcategory. On the category, choose an **Emission Scope** and a **Calculation Foundation**. On the subcategory, enter the emission factors that the formula uses. To learn more, go to [Account categories](finance-sustainability-accounts-ledger.md#account-categories).
 
-1. If you want to review total emissions before posting, you can open the statistics page and find the total posted emissions and emissions for posting per document (any purchase-related documents) on the **Sustainability** FastTab.
-1. Post the documents and open a new **Posted Purchase Invoice**.
-1. Select the **Find Entries** action. You have a **Sustainability Ledger Entry** as one of the related entries on the **Find entries** page.
+The following combinations of emission scopes and calculation foundations are supported on purchase documents:
+
+| Emission scope | Calculation foundation |
+|----------------|------------------------|
+| **Scope 1** | **Fuel/Electricity**, **Distance**, and **Installations** |
+| **Scope 2** | **Fuel/Electricity** and **Custom** |
+| **Scope 3** | **Fuel/Electricity**, **Distance**, and **Custom** |
+
+Formulas for the **Water/Waste** scope aren't supported on purchase documents. If you select an unsupported combination, [!INCLUDE [prod_short](includes/prod_short.md)] shows an error when it tries to calculate the emissions.
+
+### Calculate emissions on purchase lines
+
+To calculate emissions on a purchase line, follow these steps:
+
+1. Open a purchase order, invoice, credit memo, or return order.
+1. Fill in the header and lines. To learn more, go to [Record purchases](purchasing-how-record-purchases.md).
+1. On the line, choose a **Sustainability Account No.**. The account determines the emission scope, calculation foundation, and emission factors.
+1. Enter the values that the formula requires:
+
+   - For **Fuel/Electricity**, enter the amount of fuel or electricity.
+   - For **Distance**, enter the distance. For Scope 3, you can also use **Installation Multiplier** as a multiplier for the distance.
+   - For **Custom**, enter the **Custom Amount**.
+   - For **Installations**, enter the **Installation Multiplier**, **Custom Amount**, and **Time Factor**. The **Time Factor** can't be greater than 1.
+
+1. If the unit of measure for the sustainability entry differs from the unit on the purchase line, enter it in **Unit for Sust. Formulas**. This field sets the unit of measure on the posted sustainability entry. It doesn't change the formula calculation.
+1. Review the calculated values in **Emission CO2**, **Emission CH4**, and **Emission N2O**.
+1. To review totals before posting, open the document statistics page. The **Sustainability** FastTab shows posted emissions and emissions to post.
+1. Post the document.
+1. Open the posted purchase invoice or posted purchase credit memo, and then select **Find Entries**. The related entries include a **Sustainability Ledger Entry**.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] recalculates emissions when you change a formula value. Changing **Unit for Sust. Formulas** doesn't recalculate emissions. Changing the line quantity recalculates the per-unit amounts, but it doesn't change the total formula-based emissions on the line. If you post part of the quantity, [!INCLUDE [prod_short](includes/prod_short.md)] posts a proportional share of the emissions.
+
+You can't combine manual emission amounts and formula values on the same line. If the line contains a value in **Emission CO2**, **Emission CH4**, or **Emission N2O**, clear the emission values before you enter formula values. If the line contains formula values, clear them before you enter emission values. You can change formula values only while the document is open and the line has a **Sustainability Account No.**.
 
 > [!NOTE]
 > When you post the document, for each of the purchase lines where you have **Sustainability Account No.**, [!INCLUDE [prod_short](includes/prod_short.md)] creates an independent **Sustainability Ledger Entry** with the **Invoice** as a **Document Type** and the same **Document No.**.
 
-> [!NOTE]
+> [!TIP]
 > You can also create and post a **Purchase Credit Memo** manually, or by using the **Cancel**, **Correct**, or **Create Corrective Credit Memo** actions, in which case [!INCLUDE [prod_short](includes/prod_short.md)] copies the existing values from the posted invoice.  
 
 ## General journals

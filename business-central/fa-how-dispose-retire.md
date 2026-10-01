@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: scrap, dispose fixed assets, retire fixed assets
 ms.search.form: 5628, 5610, 5611, 5629, 5633
-ms.date: 10/03/2025
+ms.date: 08/27/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -32,6 +32,8 @@ The following steps assume that your posting groups are set up on the **FA Posti
    > Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Disposal Account** field contains the general ledger debit account and the **Disposal Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. Learn more in [Set up fixed asset posting groups](fa-how-setup-general.md#set-up-fixed-asset-posting-groups).  
 1. Choose the **Post** action.  
 
+If the fixed asset has sustainability emissions, the disposal entries carry the CO2e from its acquisition entries. Learn more in [Track fixed asset emissions in the sustainability value chain](value-chain-howto-fixed-assets.md#sell-or-dispose-of-a-fixed-asset-with-emissions).
+
 If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. Learn more in [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
 
 ## View disposal ledger entries
@@ -45,6 +47,8 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 1. On the **Find Entries** page, select the general ledger entry line, and then choose the **Show Related Entries** action.  
 
 The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
+
+The **FA Ledger Entries** page also shows **Sust. Account No.** and **Total CO2e** for applicable entries.
 
 ## Related information
 

@@ -1,7 +1,7 @@
 ---
 title: FAQ for technical details
 description: Implementation details related to the Shopify connector.
-ms.date: 05/18/2026
+ms.date: 09/04/2026
 ms.topic: faq
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -37,7 +37,7 @@ Shopify releases a new API version every three months at the beginning of each q
 
 ### Impact on integration
 
-If you're using [!INCLUDE[prod_short](../includes/prod_short.md)] with the Shopify Connector released in 2025 release wave 2 (October 2025), your integration relies on API version 2025-07, which is supported until July 1, 2026. To ensure uninterrupted synchronization and data exchange with Shopify, you must upgrade to the latest major version of [!INCLUDE [prod_short](../includes/prod_short.md)] (2026 release wave 1) before this end-of-support date. If you don't upgrade, API calls might be blocked, which means you can't synchronize data between [!INCLUDE [prod_short](../includes/prod_short.md)] and Shopify.
+If you use [!INCLUDE[prod_short](../includes/prod_short.md)] with the Shopify Connector released in 2026 release wave 1 (April 2026), your integration relies on API version 2026-01, which is accessible until December 31, 2026. The Shopify Connector released in 2026 release wave 2 uses API version 2026-07. To ensure uninterrupted synchronization and data exchange with Shopify, upgrade [!INCLUDE[prod_short](../includes/prod_short.md)] before Shopify discontinues support for the API version used by your connector. If you don't upgrade, API calls might be blocked, which means you can't synchronize data between [!INCLUDE[prod_short](../includes/prod_short.md)] and Shopify.
 
 > [!NOTE]
 > The Shopify API version support timeline doesn't align with the [!INCLUDE [prod_short](../includes/prod_short.md)] update period, which allows you to remain on the previous version for up to five months after a major update is released.

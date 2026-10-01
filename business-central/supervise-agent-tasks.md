@@ -1,5 +1,5 @@
 ---
-title: Supervise agent activities
+title: Supervise Agent Activities in Business Central
 description: Review agent-generated documents, approve AI suggestions, give instructions to agents, and manage tasks in Business Central.
 author: jswymer
 ms.author: jswymer
@@ -7,8 +7,9 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 06/17/2026
+ms.date: 09/30/2026
 ms.update-cycle: 180-days
+ai-usage: ai-assisted
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -64,21 +65,34 @@ The **Tasks** pane shows all tasks from a selected agent, organized by status. T
 
    ![Shows the agent task view with process steps](media/agent-task-view-pane.svg)
 
-2. In the **Tasks** pane, select a task under **Needs Attention**.
+1. In the **Tasks** pane, select a task under **Needs Attention**.
 
    The task *timeline* opens, showing each step the agent completed and the current step that needs your input.
 
-3. Select **Review** for the step that needs attention.
+1. Select **Review** for the step that needs attention.
 
    The **Tasks** pane switches to **Review** mode, and the relevant content appears in the main display area.
 
-4. Review the content and make changes as needed.
+1. Review the content and make changes as needed.
 
    If the agent needs help with resolving an issue, a message explains the problem. You can either make changes yourself or [give instructions](#give-instructions-to-the-agent) to guide the agent.
 
-5. When you're satisfied, select **Confirm** to let the agent continue with the task.
+1. When you're satisfied, select **Confirm** to let the agent continue with the task.
 
 After confirmation, the agent resumes work. When a new notification appears, follow the same flow to review the next step.
+
+### Resolve a permission request
+
+A custom agent can pause a task when it needs another permission set to complete its work. Open the task in the **Tasks** pane, and then review the permission request.
+
+Review the suggested permission sets and their descriptions. Select the permission set that gives the agent the access it needs. Use the links in the request to learn more about the affected pages before you grant access.
+
+If you can't configure the agent, the controls for granting permissions aren't available. Ask an administrator who can configure the agent to resolve the request.
+
+After you grant the permission set, confirm the request to let the agent continue the task.
+
+> [!NOTE]
+> Permission requests apply to custom agents. They don't apply to agents provided by Microsoft.
 
 ## Review directly on pages
 
@@ -98,6 +112,23 @@ The data review bar displays different elements depending on the situation:
 | Agent task awaits review, no field modifications | **Review task** button |
 | Agent modified fields, no task awaiting review | **Review (N)** button only |
 | Multiple agents made changes | Stacked agent icons and a review message. If you have access to only some of the agents, task links or buttons appear only for those agents. |
+| Page notifications are available | **Show other notifications (N)** link |
+
+In **Review (N)**, *N* is the number of fields that agents modified. In **Show other notifications (N)**, *N* is the number of page notifications. The numbers can differ, and *N* isn't a keyboard shortcut.
+
+### Show page notifications during review
+
+Page notifications are hidden when the data review bar is present. You can show them without leaving or completing the agent review.
+
+:::image type="content" source="media/agent-review-page-notifications.svg" alt-text="Comparison of page notifications hidden behind the data review bar and shown below the bar." lightbox="media/agent-review-page-notifications.svg":::
+
+1. On the data review bar, select **Show other notifications (N)**. The notifications appear below the data review bar, and the link changes to **Hide other notifications (N)**.
+1. Expand any grouped categories, and review the notifications. Select an available action or **Dismiss** as needed.
+1. To hide the notifications, select **Hide other notifications (N)**.
+
+Showing, hiding, or dismissing page notifications doesn't affect the agent review. You can select **Done** or **Confirm** without resolving the notifications. However, a business validation can still prevent you from completing an action, so review relevant warnings before you continue.
+
+To use the keyboard, press <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to reach the show or hide link, and then press <kbd>Enter</kbd>. Notifications that arrive while hidden aren't announced until you show them. Your choice persists while the same page remains open, even if the notification count changes or the data review bar temporarily disappears. The choice resets when you open a new page instance. The link disappears when no notifications remain. If the data review bar isn't displayed, page notifications display normally.
 
 ### Review field suggestions
 
@@ -112,16 +143,16 @@ To review suggestions:
 
    For documents with repeating lines (like invoice lines), the list shows a summary like "rows: 3, fields: 5" to indicate how many rows and fields have suggestions.
 
-2. Select a field from the list to navigate to it.
+1. Select a field from the list to navigate to it.
 
-3. Select the info tip icon next to the field to view:
+1. Select the info tip icon next to the field to view:
    - Which agent made the modification
    - The reasoning (for example, "most frequently used value" or "based on vendor history")
    - The confidence level
 
-4. Edit the value if needed, or leave it as suggested.
+1. Edit the value if needed, or leave it as suggested.
 
-5. After you review all suggestions, select **Done** to complete the review.
+1. After you review all suggestions, select **Done** to complete the review.
 
 ### Open an agent task from the data review bar
 

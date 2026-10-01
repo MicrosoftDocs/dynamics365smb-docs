@@ -3,7 +3,7 @@ title: Expense Agent Overview for Business Central
 description: Learn about Expense Agent, an AI-powered tool that helps employees capture receipts, track expenses, and submit expense reports in Business Central.
 author: brentholtorf
 ms.topic: overview
-ms.date: 04/23/2026
+ms.date: 09/25/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -11,6 +11,8 @@ ai-usage: ai-assisted
 ---
 
 # Manage expenses with Expense Agent
+
+[!INCLUDE [online_only](../includes/online_only.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -26,7 +28,7 @@ Expense Agent handles the heavy lifting of expense management so you can focus o
 - **Mileage expenses** — Create mileage expenses directly from the dashboard. Enter your starting point and ending point, and the app calculates the distance and reimbursement amount based on your company's mileage rate.
 - **Expense tracking** — Keep all your business expenses in one place with full details, attachments, and policy status.
 - **Expense reports** — Group related expenses into reports and submit them for approval in a few steps.
-- **Policy compliance** — Get real-time feedback on whether your expenses meet company policy before you submit. Soft warnings let you proceed with a note, while hard blocks prevent submission until the issue is resolved.
+- **Policy compliance** — Business Central checks deterministic rules, and Expense Agent can use AI to evaluate natural-language policies. Administrators configure AI-assisted policy evaluation through **Configure Expense Agent** assisted setup. Submitters can check draft reports when the action is available, and approvers can review the results.
 - **Approval workflows** — Approvers can review, approve, or send back expense reports with comments.
 
 ## Open Expense Agent
@@ -50,9 +52,12 @@ You can work with Expense Agent in four ways: <!-- CHECK -->
 
 Every expense moves through a straightforward lifecycle:
 
-1. You upload a receipt or create an expense manually. The status is **Processing** while AI scans your receipt.
-1. The expense moves to the **Drafts** tab once details are extracted and ready for your review.
-1. The different phases of an expense report itself moves from **Draft** → **Submitted** → **Approved** as it works through the approval process.
+1. You upload a receipt or create an expense. Expense Agent processes the information and identifies anything that needs your attention.
+1. You review the expense and add it to a draft report.
+1. You submit the report for approval. You can't edit the report while it is under review.
+1. The approver approves the report or sends it back with comments. If the report is sent back, you can correct and resubmit it.
+
+Rule and policy compliance indicators are separate from this workflow. They show whether an expense has an unresolved rule violation, a potential policy issue, or a policy evaluation that isn't current. Learn more in [How expense policy and rules compliance work](expense-agent-policy-compliance.md).
 
 ## Get started with Expense Agent
 
@@ -71,7 +76,6 @@ Ready to dive in? Start with these articles:
 [Create and submit expense reports](expense-agent-expense-reports.md)  
 [Approve or send back expense reports](expense-agent-approve-reports.md)  
 [How expense policy compliance works](expense-agent-policy-compliance.md)  
-[Understand expense and report statuses](expense-agent-statuses.md)  
 [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,7 +6,7 @@ ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652, 9660_Primary
-ms.date: 03/13/2025
+ms.date: 09/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -16,15 +16,17 @@ ms.reviewer: jswymer
 [!INCLUDE [prod_short](includes/prod_short.md)] includes many built-in layouts that you can use on your reports. Other layouts might be added as part of extensions. In addition, you can create your own report layouts, either from scratch or based on an existing layout.
 
 > [!NOTE]
-> You can also use report layouts to add content to email messages. Report layouts can help save time and ensure consistency by reusing the same content when you communicate with your customers. Only custom report layouts of the **Word** type can be used with email. You can't use layouts of the **RDLC** with email. Learn more in [Set up reusable email texts and layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
+> You can also use report layouts to add content to email messages, which saves time and helps ensure consistency when you communicate with your customers. Only custom report layouts of the **Word** type can be used with email. You can't use **RDLC** layouts with email. Learn more in [Set up reusable email texts and layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
 ## Overview of report layouts
 
-It can be helpful to think of a report layout as a file that is imported and assigned to a report. You manage all layouts in [!INCLUDE [prod_short](includes/prod_short.md)] in basically the same way, regardless of the layout type. Usually, you work from the **Report Layouts** page. The layouts differ mainly in the way that you design them. Each layout is designed by using the software that the layout is built on, such Word, Excel, or SQL Server Report Builder.
+It can be helpful to think of a report layout as a file that is imported and assigned to a report. You manage all layouts in [!INCLUDE [prod_short](includes/prod_short.md)] in basically the same way, regardless of the layout type. You mainly work from the **Report Layouts** page. The layouts differ mainly in the way that you design them. Each layout is designed by using the software that the layout is built on, such as Word, Excel, or SQL Server Report Builder.
+
+Word layouts can also have a *subtype*, which defines the layout's role. A stand-alone layout uses the **Default** subtype. A layout with the **Body** subtype contains report-specific content that can be combined with a reusable theme and header/footer when the report runs. The theme and header/footer are separate reusable parts that administrators manage on their own. Learn more in [Set up reusable themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md).
 
 The process of setting up a layout for a report involves three or four basic tasks.
 
-1. Choose the layout type.
+1. Decide which layout type to use.
 2. Export a copy of an existing layout so that you can use it as a starting point.
 3. Make changes to the layout file in the appropriate application.
 4. Add the new layout file to the report.
@@ -45,7 +47,9 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Make changes to the layout that a report uses. | [Modify a layout](#modify) |
 | Replace the current layout file that a report uses with a new version of the layout file. | [Replace a layout](#replace) |
 | Change the current layout that a report uses to another layout. | [Set the layout used by a report](ui-set-report-layout.md) |
+| Apply a reusable theme and header/footer to Word body layouts. | [Set up reusable themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md) |
 | Change the name and description of a layout. | [Rename a layout](#rename) |
+| Change whether a layout is available for selection. | [Manage layout status](#manage-layout-status) |
 | Mark a layout as obsolete | [Mark a layout as obsolete](#mark-a-layout-as-obsolete) |
 | Validate a layout. | [Validate a layout](#validate) |
 | View information about a layout. | [Get information about a layout](#get-information-about-a-layout) |
@@ -55,11 +59,16 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 
 The first task when you create a layout is to decide which [layout type](ui-manage-report-layouts.md#layout-types) you want. You can choose among the **Word**, **Excel**, and **RDLC** layout types. Your choice depends on how you want the generated report to look. It also depends on your knowledge of the software that is used to create the layout, such as Word, Excel, and SQL Server Report Builder.
 
-* **Excel** layouts are generally the easiest to create and modify because summarizing data, adding graphics, and styling are common Excel features. However, not all reports have datasets optimized for Excel layouts. Aggregations and complex calculations work best with **RDLC** or **Word** layouts. The same applies to documents.
+* **Excel** layouts are generally the easiest to create and modify because summarizing data, adding graphics, and styling are common Excel features. However, not all reports have datasets optimized for Excel layouts. Aggregations and complex calculations work best with **RDLC** or **Word** layouts. Documents that use aggregations or complex calculations also work best with **RDLC** or **Word** layouts.
 * If you're making only style changes, such as changes to the font type, size, and colors, a **Word** layout is a good choice.
 * The capabilities for adding and rearranging data fields are more advanced in **Word** and **RDLC** layouts than in **Excel** layouts.
 * **Word** and **RDLC** layouts are good choices for printable reports.
 * The design concepts for **Word** and **RDLC** layouts are similar, but each has specific features that affect the report's appearance in [!INCLUDE[prod_short](includes/prod_short.md)]. The same report might look different depending on whether a **Word** or **RDLC** layout is used.
+
+If you want to apply reusable themes and header or footer layouts, create a Word layout and set its **Subtype** to **Body**. Use **Default** for a stand-alone Word layout that renders without reusable parts. Learn more about setting the subtype in [Create a new layout](#create).
+
+> [!NOTE]
+> The **Subtype** field and [composite layout](ui-manage-report-layouts.md#composite-word-layouts) options are available when the **Document Report Experience** feature is enabled on the **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).
 
 ## <a name="create"></a>Create a new layout
 
@@ -101,11 +110,11 @@ If needed, you can change the settings in your new layout. To learn more, go to 
 
     Learn more in the following articles:
 
-    * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+    * [Map data fields with the XML Mapping Pane](ui-how-add-fields-word-report-layout.md)
     * [Working with Microsoft Excel Layouts](ui-excel-report-layouts.md)
     * [Working with RDLC Layouts](ui-rdlc-report-layouts.md)
 
-1. Make the required changes to the file, and then save it.
+1. Make the changes you want to the file—such as adding fields, adjusting tables, or updating formatting—and then save it.
 1. On the **Report Layouts** page, select **New**.
 1. In the **Add New Layout for a Report** dialog box, fill in the fields described in the following table.
 
@@ -115,6 +124,8 @@ If needed, you can change the settings in your new layout. To learn more, go to 
     | Layout Name | Enter a brief, descriptive name for the layout to help you easily identify it. | Yes |
     | Description | Enter more detailed information about the layout. | No |
     | Format Options | Set this field to match the type of the layout (for example, **Word**, **Excel**, or **RDLC**). | Yes |
+    | Subtype | For a Word layout, select **Body** to apply reusable themes and header/footer layouts. Select **Default** for a stand-alone layout. | Yes |
+    | Available in All Companies | Turn on this option to make the layout available in all companies. Turn it off to limit the layout to the current company. | Yes |
 
 1. Select **OK**.
 1. Follow one of these steps to upload the layout file for the report:
@@ -140,6 +151,8 @@ When you create a new layout from a blank layout, you must design it completely.
     | Layout Name | Enter a brief descriptive name for the layout to help you easily identify it. | Yes |
     | Description | Enter more detailed information about the layout. | No |
     | Format Options | Set this field to match the type of the layout (for example, **Word**, **Excel**, or **RDLC**). | Yes |
+    | Subtype | For a Word layout, select **Body** to apply reusable themes and header/footer layouts. Select **Default** for a stand-alone layout. | Yes |
+    | Available in All Companies | Turn on this option to make the layout available in all companies. Turn it off to limit the layout to the current company. | Yes |
 
 1. Turn on the **Create a blank layout from the report object** option.
 1. Select **OK**.
@@ -147,6 +160,8 @@ When you create a new layout from a blank layout, you must design it completely.
     The new layout appears in the list. The layout is blank, but all the report fields and captions are available so that you can start to add them to the layout.
 
 1. You can now start to [Modify a layout](#modify).
+
+New user-defined layouts start with the **Draft** status. After you finish designing and validating the layout, change its status to **Approved** to make it available for selection. Learn more in [Manage layout status](#manage-layout-status).
 
 ---
 
@@ -166,11 +181,11 @@ Follow these steps to modify an existing user-defined layout.
 
     Learn more in the following articles:
 
-    * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+    * [Map data fields with the XML Mapping Pane](ui-how-add-fields-word-report-layout.md)
     * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
     * [Working with RDLC Layouts](ui-rdlc-report-layouts.md)
 
-1. Make the required changes to the file, and then save it.
+1. Make the changes you want to the file—such as adding fields, adjusting tables, or updating formatting—and then save it.
 1. On the **Report Layouts** page, select the existing layout, and then select the **Replace Layout** action.
 1. Select **OK** and then **Choose** to open File Explorer on your device.
 1. Find and select the Excel file, and then select **Open**.
@@ -219,6 +234,23 @@ Validate a user-defined layout to check for problems and view the results. Follo
 
 1. A dialog opens to show the validation results.
 
+## Manage layout status
+
+The status controls whether a layout is available for selection on report request pages.
+
+| Status | Use |
+|---|---|
+| **Draft** | The layout is being prepared and isn't available for selection. |
+| **Pending Approval** | The layout is ready for review and isn't available for selection. |
+| **Approved** | The layout is available for selection. |
+| **Retired** | The layout is no longer available for selection. |
+
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Select one or more layouts.
+1. Select **Layout** > **Layout Status**, and then select **Set Draft**, **Set Pending Approval**, **Set Approved**, or **Set Retired**.
+
+When you change the status of an extension-provided layout, Business Central saves your change as an *override*. The original extension-provided layout stays unchanged. The override applies your new status while keeping the layout that the extension provides.
+
 ## Get information about a layout
 
 <!--[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]-->
@@ -262,7 +294,9 @@ To identify which layouts are obsolete, refer to the **Obsolete** column on the 
 ## Related information
 
 [Report and document layouts overview](ui-manage-report-layouts.md)  
-[Work with Word Layouts](ui-how-add-fields-word-report-layout.md)  
+[Set up reusable themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md)  
+[Design Word layouts with the Business Central add-in](ui-design-word-layouts-business-central-add-in.md)  
+[Map data fields with the XML Mapping Pane](ui-how-add-fields-word-report-layout.md)  
 [Working with Microsoft Excel Layouts](ui-excel-report-layouts.md)  
 [Run and print reports in Business Central](ui-work-report.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

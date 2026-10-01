@@ -1,7 +1,7 @@
 ---
-title: Expense Agent Overview
+title: Expense Agent Overview for Business Central Overview
 description: Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.
-ms.date: 09/09/2026
+ms.date: 09/25/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: altotovi
@@ -15,6 +15,8 @@ ai-usage: ai-assisted
 
 # Expense Agent overview
 
+[!INCLUDE [online_only](../includes/online_only.md)]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The **Expense Agent** is an AI-powered agent that automates expense processing in Business Central. It handles receipt intake, data extraction, categorization, itemization, and expense line creation, then groups expenses into expense reports for review and approval.
@@ -27,11 +29,11 @@ All financial data, audit trails, and posting logic are processed within Busines
 
 ## Copilot availability and language support
 
-[!INCLUDE[copilot-specific-geo-and-language-availability](../includes/copilot-specific-geo-and-language-availability.md)]
+[!INCLUDE[copilot-geo-and-language-availability](../includes/copilot-geo-and-language-availability.md)]
 
 ## What the Expense Agent does
 
-The Expense Agent manages the entire expense lifecycle, from capturing receipts to approving and posting expense reports. The following sections outline each step in the process.  
+The Expense Agent supports the expense lifecycle, from capturing receipts to preparing expense reports for approval and posting. The following sections outline each step in the process.  
 
 ### Receipt intake
 
@@ -41,7 +43,7 @@ The agent accepts receipts from these channels:
 - The **Expense Agent** [mobile app](expense-agent-mobile-app.md)
 - A monitored **shared mailbox**
 
-Supported file formats include JPEG, PNG, and PDF. The agent can process receipts in multiple languages, including unstructured documents such as itineraries and itemized receipts.
+Supported file formats include JPEG, PNG, GIF, WebP, HEIC/HEIF, and PDF. The agent can process receipts in multiple languages, including unstructured documents such as itineraries and itemized receipts.
 
 ### Data extraction
 
@@ -62,7 +64,7 @@ The agent automatically classifies each expense into the configured expense cate
 - **Mileage** calculated from travel map in the web app
 <!-- - **Participant/guest** requirements -->
 
-Company policies and rules configured in Business Central are enforced during this step.
+During this step, Expense Agent applies the configured expense categories and subcategories. Business Central checks deterministic expense rules during entry and submission. When an administrator enables AI-assisted policy evaluation, Expense Agent can evaluate applicable natural-language policies after submission.
 
 ### Expense report line creation 
 
@@ -107,9 +109,9 @@ For mileage-type expenses, a dedicated user interface is presented with the foll
 - Starting point  
 - Ending point  
 - Mileage  
-- Round trip  
+- Same-day round trip  
 
-The user must provide the starting and ending points. The agent calculates available routes and displays them, including the fastest and alternative options. The user selects the preferred route and can enable the **Round trip** option if applicable. 
+You must provide the starting and ending points. The agent calculates available routes and displays them, including the fastest and alternative options. You select the preferred route and can enable the **Same-day round trip** option if applicable. 
 
 > [!NOTE]
 > When the user selects a route and confirms the expense, a screenshot of the chosen route is captured and attached to the expense record. 
@@ -118,13 +120,13 @@ The user must provide the starting and ending points. The agent calculates avail
 
 Expense users can review, edit, and submit expenses through the web app.
 
-No Business Central license is required for this process if not processes inside Business Central.
+You don't need a Business Central license unless you process expenses in Business Central.
 
 The user must review all expenses before submitting the report. As extraction and categorization are performed by the agent, the user is required to validate the accuracy of all data. After completing the review, the user can submit the expense report for approval.
 
 ### Automated workflow
 
-The agent runs the following sequence automatically:
+Expense processing follows this sequence:
 
 1. Receipt intake
 2. Data extraction
@@ -145,11 +147,11 @@ The Expense Agent uses an OpenAI GPT model, which requires no additional AI subp
 
 ### Activation and configuration
 
-Administrators enable the agent from Business Central using the dedicated **EA** hexagon icon, where they specify the required settings. Learn more at [Expense Agent Setup](expense-agent-configuration-page.md).
+Administrators enable the agent from Business Central using the dedicated **EA** hexagon icon, where they specify the required settings. Learn more in [Expense Agent Setup](expense-agent-configuration-page.md).
 
 ### Billing for use
 
-The Expense Agent consumes Copilot Credits for AI processing. It costs 50 Copilot Credits for one receipt handling (one expense creation) regardless of complexity; it covers whole process from extraction, through categorization and itemization, grouping into expense reports and approving. Set up a billing model for your Business Central environment before using the agent. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+The Expense Agent consumes Copilot Credits for AI processing. One receipt costs 50 Copilot Credits to process, regardless of complexity. The charge covers extraction, categorization, itemization, and grouping the expense into an expense report. Set up a billing model for your Business Central environment before using the agent. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 ### How the agent operates
 

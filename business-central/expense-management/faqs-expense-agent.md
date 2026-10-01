@@ -15,6 +15,8 @@ ai-usage: ai-assisted
 ---
 # Responsible AI FAQ for Expense Agent (preview)
 
+[!INCLUDE [online_only](../includes/online_only.md)]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 These frequently asked questions (FAQ) describe the AI effect of Expense Agent in [!INCLUDE [prod_short](../includes/prod_short.md)].
@@ -78,9 +80,9 @@ These signals are used to improve the agent’s accuracy over time while maintai
 
 ## What are the limitations of Expense Agent? 
 
--	**File Formats & Size Limits**: The agent supports PDF and images (.jpg, .jpeg, .png, .gif, .webp, .heic, .heif) as file types, but for both of them apply the default maximum file size of 10 MB (configurable).
+-	**File formats and size limits**: The agent supports PDF and images (.jpg, .jpeg, .png, .gif, .webp, .heic, .heif) as file types. Both file types have a configurable default maximum size of 10 MB.
 -	**Volume Limitations**: Expense Agent processes up to 25 files per upload or email attachment, and up to 50MB as a batch. Complex files might exceed processing limits or timeout, triggering a request for human intervention.
--	**Geographic and language availability**: The Expense Agent user interface and environment currently support English only. Receipt upload isn't restricted by language, but receipts in some languages might result in reduced extraction accuracy. Initial regional availability is limited to the US only. Learn more in [Copilot country/region availability and supported languages](../copilot-agents-region-language-availability.md).
+-	**Geographic and language availability**: [!INCLUDE[copilot-geo-and-language-availability](../includes/copilot-geo-and-language-availability.md)].
 -	**System Limitations & Dependencies**: Only one Expense Agent can be configured per Business Central company. A single expanse user can't be enabled across multiple Expense Agents. The agent stops processing if AI services fail or mailbox access is lost. Complex approval systems with interim or conditional approvals isn't yet supported. Also, the post approval process, like posting and reimbursements, is beyond agent’s scope and is handled manually in [!INCLUDE [prod_short](../includes/prod_short.md)]. On-behalf expense submission isn't supported yet.
 -	**AI Accuracy Limitations**: ai-assisted content, such as extracted data, suggested categories, or expense groupings, might be inaccurate; human review is required before submission or approval.
 

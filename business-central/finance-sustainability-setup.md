@@ -1,12 +1,12 @@
 ---
-title: Set up sustainability features in Business Central
+title: Set up sustainability features
 description: Learn how to configure the Sustainability module to track and report your greenhouse gas emissions and carbon fees.
 author: altotovi
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, water, waste, value chain, role center, fees
-ms.search.form: 6221, 6235, 6245
-ms.date: 08/28/2025
+ms.search.form: Primary_6221, 6235, 6245
+ms.date: 08/21/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -56,17 +56,21 @@ To configure these settings, follow these steps:
 
     | Field | Description |
     |-------|-------------|
-    | **Use Emissions In Purchase Documents** | Enable sustainability related fields and features to appear on purchase documents, such as **Sustainability Account** or different emissions. |
+    | **Use Emissions in Purchase Documents** | Show sustainability fields and features on purchase documents, such as the **Sustainability Account No.** and emission fields. |
+    | **Use Formulas in Purchase Documents** | Show fields that calculate emissions from formulas on supported purchase documents. You must turn on **Use Emissions in Purchase Documents** before you turn on this field. |
     | **Enable Value Chain tracking** | Enable posting of **Sustainability Value Entries** through value chain operations and the visibility of sustainability related fields in operational documents and journals. |
     | **G/L Account Emissions** | Enable a default **Sustainability Account** on the **G/L Account** card page. |
     | **Item Emissions** | Enable default **Sustainability Account** emissions on the **Item** card page. |
     | **Item Charge Emissions** | Enable default **Sustainability Account** emissions on the **Item Charge** (currently not operating) page. |
     | **Resource Emissions** | Enable default **Sustainability Account** emissions on the **Resource Card** page. |
     | **Work Machine Center Emissions** | Specifies the enablement of default **Sustainability Account** emissions on the **Work Center** and **Machine Center** pages. |
+    | **Fixed Asset Emissions** | Enable a default sustainability account and emissions on fixed assets and fixed asset journals. Learn more in [Track fixed asset emissions in the sustainability value chain](value-chain-howto-fixed-assets.md). |
     | **Use All Gasses As CO2e** |Specifies that you use carbon equivalent (CO2e) values for all gasses that you track. Use this feature when you don't have accurate information for all gases, but do have their carbon equivalent values. When you turn on this toggle, the captions for gases change from their names to their CO2e equivalents. For example, the **CH4** field becomes the **CO2e for CH4** field. The field values correspond to carbon equivalent values, not the original gas values. [!INCLUDE [prod_short](includes/prod_short.md)] sets the **Carbon Equivalent Factor** on the emission fees to **1** for all three gases.|
 
     > [!NOTE]
     > The **Use Emissions in Purchase Documents** field adds the **Sustainability Account** and emission fields on purchase documents. However, when you post the document, [!INCLUDE [prod_short](includes/prod_short.md)] only creates **Sustainability Ledger Entries**. To activate posting to the **Sustainability Value Entries** and enable value chain tracking, you must also select the **Enable Value Chain Tracking** field.
+    >
+    > You can't turn off **Use Emissions in Purchase Documents** while **Use Formulas in Purchase Documents** is turned on.
 
 4. On the **Calculations** FastTab, configure the required fields for the formulas that calculate emissions.
 

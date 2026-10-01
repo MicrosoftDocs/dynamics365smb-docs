@@ -1,153 +1,79 @@
 ---
-title: Inspect production output
-description: Learn how to set up and use automatic quality inspection tests for production output.
+title: Create a sampled inspection automatically from production output
+description: Use Contoso Coffee demo data to create a quality inspection automatically when posting production output.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 03/10/2026
+ms.search.form: 20400, 20408, 20404, 20402, 20416
+ms.date: 09/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
-
 ---
 
-# Inspect the quality of production output
+# Create a sampled inspection automatically from production output
 
-This article explains how to set up quality management to automatically create quality inspections for production output when you post manufacturing operations. For example, these inspections enable:
+This demo shows how to automatically create a sampled quality inspection when you post output for the Contoso Coffee Airpot item. You create two tests that match the Airpot production process, add them to the empty **PRODUCTION** template, set a sample amount of five units, and post output for 20 units.
 
-- Finished goods inspection
-- In-process quality checks
-- Work center-specific inspections
-- Routing operation validation
+## Prerequisites
 
-## Get started
+Generate the **Quality Management** and **Manufacturing** modules. The Premium experience is required. Learn more in [Set up Contoso Coffee demo data for quality management](qms-contoso-coffee-demo-data.md).
 
-To automate the process of creating inspections for production output, there are a few things to set up.
+You need the **Quality Admin & Supervisor** permission set and permission to create released production orders and post production output. The Manufacturing module provides the item and routing used in this demo. You create the production order in the following procedure.
 
-- You must prepare items for production output testing by filling in a couple of fields on the **Item Card** page:
+## Prepare the production template and rule
 
-   - You must set up an **Item Tracking Code** (for example, "LOT ALL") and assign it to the item. Learn more at [Set up item tracking with serial, lot, and package numbers](inventory-how-setup-item-tracking.md).
-   - Fill in the **Lot Nos.** field with the number series to use for automatic lot assignment.
-   - Make sure a routing is created for the item.
+1. Open **Quality Tests**, and then create the following Boolean tests. For each test, enter **No** as the condition for **FAIL** and **Yes** as the condition for **PASS**.
 
-- You must set up a global trigger for production output. On the **Quality Management Setup** page, in the **Production - Create Inspection** field, choose **When Output is Posted**.
-- Create inspection generation rules for production output testing. For more information, see [Create a production rule](qms-test-generation-rules.md#create-a-production-rule).
+   | Code | Description |
+   | --- | --- |
+   | **RESERVOIRLEAK** | Reservoir leak check |
+   | **ELECCONTINUITY** | Electrical continuity check |
 
+   The reservoir leak test reflects the Airpot reservoir, tubing, and sealed connections. The electrical continuity test reflects the electrical-wiring operation in its routing.
+2. Open **Quality Inspection Templates**, and then open **PRODUCTION**.
+3. In **Sample Source**, select **Fixed Quantity**, and then enter **5** in **Sample Amount**.
+4. Add the **RESERVOIRLEAK** and **ELECCONTINUITY** tests. Learn more in [Create quality inspection templates](qms-quality-templates.md).
+5. Open **Quality Inspection Generation Rules**.
+6. Open the rule with sort order **50** and template **PRODUCTION**.
+7. Verify that **Activation Trigger** is **Manual or Automatic**.
+8. Set **Production Order Trigger** to **When Production Output is posted**.
+9. Set **Prod. Trigger Output Condition** to **Only with Quantity**.
 
-## Create production output inspections
+## Create and post the production order
 
-Production output inspections are automatically created when you post production orders. When you create the order, be sure to fill in the following fields:
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Released Production Orders**, and then choose the related link.
+2. Choose **New**.
+3. On the production order, enter the following values:
 
-- **Item**: Use a lot-tracked production item.
-- **Quantity**: Specify a production quantity.
-- **Location**: Match the inspection generation rule filters.
-- **Routing**: Verify that routing operations exist.
+   | Field | Value |
+   | --- | --- |
+   | Source Type | **Item** |
+   | Source No. | **SP-SCM1009**, Airpot |
+   | Quantity | **20** |
+   | Location Code | **MAIN** |
 
-Use an output journal or a production journal to post output.
+4. Choose **Refresh Production Order**, and then confirm the refresh.
+5. On the routing, verify routing **SP-SCM1009-SERIAL** and operations **10**, **20**, **30**, and **40**.
+6. Select **Prod. Order**, and then choose **Production Journal**.
+7. On operation **40**, enter **20** in **Output Quantity**.
+8. Choose **Post**, and then confirm the posting.
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Output Journal** or **Production journal**, and then choose the related link.
-1. Enter the output to post, as follows:
+[!INCLUDE [prod_short](includes/prod_short.md)] creates an inspection linked to the production routing line and output transaction.
 
-   - **Item No.**: Production item
-   - **Operation No.**: Final routing operation
-   - **Output Quantity**: Quantity being output
-   
-1. Choose **Post** to post the production output.
+## Complete the inspection
 
-   After you post production output, a quality inspection is created automatically. The inspection includes:
-
-     - **Item Number**: The production item.
-     - **Lot Number**: The assigned lot number for item tracking.
-     - **Quantity**: The output quantity.
-     - **Source**: The production order and operation reference.
-
-## Work with production inspections
-
-Production output inspections contain:
-
-- **Control Information**: Source production order details
-- **Item Tracking**: Lot/serial number information
-- **Template Fields**: Quality measurements to complete
-- **Quantity**: Specific to output posting
-
-You can access related information in several ways:
-
-- The **Navigate** action in the inspection shows:
-
-   - Item ledger entries
-   - Production order details
-   - Warehouse entries
-   - Related documents
-
-- **Control Information** shows:
-   - Source production order
-   - Operation details
-   - Posting information
-
-### Complete production inspections
-
-The following steps give an overview of how to complete a production inspection.
-
-1. Open a quality inspection.
-2. Enter the measurement values.
-3. Review the calculated results that the template configuration and measurements determine.
-4. Choose the **Finish** action when the inspection is complete.
-
-### Print inspection reports
-
-After you finish an inspection, you can print or email a report from the **Quality Inspection** page. The **Report** menu offers the following reports:
-
-|Report|Use|
-|-|-|
-|**Certificate of Analysis**|Send to customers to certify that a lot or batch meets quality specifications. Includes measurement results, grades, and a signature block for the designated quality contact.|
-|**Non Conformance Report**|Document a deviation when items fail inspection. Use for internal records or when filing claims with suppliers.|
-|**Inspection Report**|A general-purpose report that works for any inspection type. Use when you don't need the formal structure of a certificate or non-conformance report.|
-
-Each report adapts its content based on the inspection data. For example, grade columns appear only when grading is configured on the template, and the signature block on the Certificate of Analysis appears only when a **Certificate of Analysis Contact** is set in the **Quality Management Setup** page.
-
-All three reports include a default Word layout that you can customize. Learn more in [About report and document layouts](ui-manage-report-layouts.md).
-
-## Advanced configuration
-
-### Location-specific rules
-
-You can create multiple rules for different locations. Set up a filter for each specific location, and select the template that you created for that location.
-
-### Operation-specific inspections
-
-Configure inspections for specific routing operations:
-
-- **Routing No. Filter**: Specify a routing.
-- **Work Center Filter**: Specify a work center.
-- **Operation Filter**: Specify an operation number.
-
-## Production setup considerations
-
-### Posting setup requirements
-
-Ensure that you have an **Inventory Posting Setup** for item transactions. Learn more in [Specific posting groups](finance-posting-groups.md#specific-posting-groups).
-
-### Item tracking integration
-
-Production output with item tracking:
-
-- **Lot numbers** can be automatically assigned or manually entered.
-- **Serial numbers** are supported for serialized items.
-- **Package numbers** are supported for package tracking.
-
-### Backflushing considerations
-
-If you use backflushing, there are a few things to consider:
-
-- Material consumption posts automatically.
-- Component lot tracking might affect inspection creation.
-- Review backflushing setup for quality integration.
+1. Open **Quality Inspections**, and then open the inspection for item **SP-SCM1009**.
+2. Verify that **Quantity (Base)** is **20** and **Sample Size** is **5**.
+3. Enter **Yes** for **RESERVOIRLEAK** and **ELECCONTINUITY**.
+4. Add a note or picture if needed, and then select **Finish**.
+5. Verify that **Passed Quantity** is **5**. The remaining 15 units aren't automatically classified by the sampled inspection.
+6. Choose **Inspection Report** from the **Report** menu to review the source and test results.
 
 ## Related information
 
-[Creating Quality Inspection Templates](qms-quality-templates.md)  
-[Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
-[Manual Inspection Creation](qms-manual-test-creation.md)  
-[Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
-[Quality Management Overview](qms-overview.md)
+[Set up Contoso Coffee demo data for quality management](qms-contoso-coffee-demo-data.md)  
+[Work with quality inspections](qms-manual-test-creation.md)  
+[Set up quality inspection generation rules](qms-test-generation-rules.md)  
+
+[!INCLUDE [footer-include](includes/footer-banner.md)]

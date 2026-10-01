@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.form: 
-ms.date: 11/13/2024
+ms.date: 09/18/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -33,6 +33,21 @@ If you don't give it a name, the default name is **All (Copy)**.
 
 > [!TIP]
 > Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? To learn more, go to [Why don't I have a Save icon](/dynamics365/business-central/ui-views-faq#save).
+
+## Bookmark a view on your Role Center
+
+Starting in Business Central 2026 release wave 2, you can bookmark a saved list view to open it directly from your Role Center.
+
+1. Open the list page, and then open the filter pane.
+2. Under **Views**, select the saved view that you want to bookmark.
+3. Select the ![Show more options.](media/show-more-options-icon.png "Show more options") icon for the view, and then select **Bookmark view**.
+
+> [!NOTE]
+> You can't bookmark the default list view. The **Bookmark view** action also isn't available when personalization isn't enabled.
+
+An action named after the page and view is added to the navigation menu on your Role Center. For example, a bookmark for the **Items I own** view on the **Items** page is named **Items/Items I own**. Select the action to open the page with the saved view applied.
+
+To remove the bookmark, select the ![Show more options.](media/show-more-options-icon.png "Show more options") icon for the view, and then select **Bookmark view** again. Learn more about bookmarks in [Bookmark a page or report on your role center](ui-bookmarks.md).
 
 ## To rename or remove a view
 

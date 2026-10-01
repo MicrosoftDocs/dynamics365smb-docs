@@ -7,13 +7,16 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: withholding, tax, sales, purchases
 ms.search.form: 
-ms.date: 03/06/2026
+ms.date: 09/01/2026
 ms.custom: bap-template
 ---
 
 # Calculate withholding tax for vendors
 
 Companies in some countries/regions must pay withholding tax to the government for certain services or vendor purchases. [!INCLUDE [prod_short](includes/prod_short.md)] calculates withholding tax for purchase invoices and orders, based on your setup for withholding tax. The tax amount is withheld from the payment and reduces the total amount you owe to the vendor.
+
+> [!NOTE]
+> This article describes withholding tax for vendors. For employee journal transactions, see [Set up and post employee withholding tax](finance-withholding-tax-employees.md).
 
 ## Set up vendors for withholding tax
 
@@ -27,6 +30,7 @@ If the vendor, item, and G/L account are set up for withholding tax, [!INCLUDE [
 ## Related information
 
 [Set up withholding tax](finance-set-up-withholding-tax.md)  
+[Set up and post employee withholding tax](finance-withholding-tax-employees.md)  
 [View withholding tax entries](finance-withholding-tax-entries.md)  
 
 [Financial management](finance.md)  

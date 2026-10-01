@@ -3,7 +3,7 @@ title: Upload Receipts and Create Mileage Expenses
 description: Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 07/03/2026
+ms.date: 09/26/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -12,9 +12,11 @@ ai-usage: ai-assisted
 
 # Upload receipts and create expenses in Expense Agent
 
+[!INCLUDE [online_only](../includes/online_only.md)]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)], AI scans the image and suggests key details like the merchant name, total amount, transaction date, and expense category. You always review and confirm the extracted details before the expense is saved. You can also create mileage expenses directly from the dashboard by entering your trip details.
+When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/prod_short.md)], AI scans the image and extracts key details like the merchant name, total amount, transaction date, and expense category. If processing succeeds, Expense Agent automatically adds the expense to a draft report. If information is missing or invalid, you can open the expense and correct it. You can also create mileage expenses directly from the dashboard by entering your trip details.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -35,9 +37,18 @@ Expense Agent supports JPEG, PNG, and PDF files up to 10 MB, including printed i
 > [!TIP]
 > Expense Agent uses AI to process receipts, so it works well with handwritten receipts like taxi receipts, not just printed or digital ones. If a field isn't detected correctly, you can always edit it manually.
 
+### What happens after you upload a receipt
+
+Expense Agent extracts and validates the receipt information.
+
+- If processing succeeds, Expense Agent adds the expense to a suitable existing draft report. If no suitable report exists, it creates a new one.
+- If information is missing or invalid, the expense shows what needs attention. Open the expense, correct the affected fields, and save your changes. Expense Agent then continues processing and assigns the expense to a report when validation succeeds.
+
+Report matching uses the expense date and the contents of existing draft reports. It isn't limited to reports containing expenses with the exact same date.
+
 ## Automatic currency conversion
 
-When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. When you look into created expense, both original amounts and the local amount are shown.
+When you upload a receipt in a foreign currency, Expense Agent automatically converts the amount to your company's local currency. When you open the created expense, you see both the original amount and the local amount.
 
 All totals in the expense report displayed in the web app use the local currency, so you can easily track spending across different countries/regions.
 
@@ -46,28 +57,26 @@ All totals in the expense report displayed in the web app use the local currency
 >  
 > When you open the expense, the **Amount** field is highlighted, displaying the error: _The currency value is not recognized_.  
 >  
-> To continue, contact your administrator to add the missing currency to the system, and then retry the process.
+> To continue, contact your administrator to add the missing currency to [!INCLUDE [prod_short](../includes/prod_short.md)], and then retry the process.
 
 ## Create a mileage expense
 
-
 If you use your private vehicle for business purposes, you can create a mileage expense directly from the Expense Agent without uploading a receipt.
 
-The travel distance is calculated based on the selected route, and the reimbursement amount is determined using your company’s configured mileage rate.
+The travel distance is calculated based on the selected route. The reimbursement amount uses your company's configured mileage rates.
 
 1. On the dashboard, choose **Create mileage expense** in the **Quick actions** panel.  
 1. In the **Starting point** field, enter or search for the departure location.  
 1. In the **Ending point** field, enter or search for the destination.  
-1. Review the route displayed on the map. If multiple route options are available, select the one that reflects your actual journey.  
-
-   > [!NOTE]  
-   > Multiple route options are shown below the map in the left pane. You can select a route either from the list or directly on the map.
-
+1. Review the route displayed on the map. If multiple route options are available, select the route that reflects your actual journey from the list or directly on the map.
 1. If the trip includes a same-day return, enable **Same-day round trip** to include the return distance.  
+1. If your organization uses vehicle-specific rates, in **Vehicle type**, select a vehicle type.
 1. Review the **Mileage** and **Amount** fields.  
 1. Select **Create**.  
 
 The mileage expense is created and processed like any other expense and is automatically added to an expense report.
+
+Expense Agent estimates the amount shown before you create the expense by using the expense date and **Vehicle type**. The preview doesn't consider currency-specific mileage rate records. When you create the expense, Business Central performs the currency-aware calculation and stores the authoritative reimbursement amount. The saved amount can differ from the preview. Administrators configure rates on the **Mileage Rate Setup** page. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
 > [!NOTE]
 > The **Create mileage expense** action is only available if your administrator configured at least one expense category with mileage enabled in [!INCLUDE[prod_short](../includes/prod_short.md)]. If the action appears dimmed, ask your administrator to enable mileage on an expense category.
@@ -76,7 +85,7 @@ The mileage expense is created and processed like any other expense and is autom
 > The expense category can't be changed, as only mileage-type categories are supported in this flow.
 
 > [!NOTE]  
-> After the expense is created, the system captures a screenshot of the selected route and attaches it to the expense record.
+> After the expense is created, a screenshot of the selected route is attached to the expense record.
 
 ## Send a receipt by email
 
@@ -92,7 +101,15 @@ You can also send receipts to Expense Agent by email. Email is a convenient way 
 
 Expense Agent processes each attachment and creates a separate expense for each receipt. You can review and edit the created expenses in **Expense reports**.
 
-After you send the email, the expense status shows **Processing** while AI analyzes your receipt. When finished scanning, the status changes to **Open** and the extracted details appear for your review. If the receipt passes validation, it's automatically added to a default expense report, so you don't need to create one manually.
+After you send the email, the expense shows as **Processing** while AI analyzes the receipt. The same validation and automatic report-assignment flow used for web uploads then applies.
+
+## How Expense Agent captures VAT
+
+If your organization has enabled VAT reclaim, Expense Agent identifies VAT information on an uploaded receipt. A receipt can contain more than one VAT rate. For each rate, the agent captures the VAT percentage, VAT base, VAT amount, total amount, and expense category or subcategory. When the expense is added to a report, the configured category or subcategory provides the default reclaim percentage.
+
+Expense cards in the web and mobile apps show the receipt total as **Amount incl. VAT**. The apps don't show or let you edit the extracted VAT breakdown. The extracted values remain suggestions. An accountant reviews and corrects the VAT breakdown in [!INCLUDE [prod_short](../includes/prod_short.md)] and approves or rejects each reclaim before the expense report is posted. This review is required even when the receipt was processed automatically.
+
+Learn how administrators configure the calculation in [Set up VAT reclaim](expense-management-setup.md#set-up-vat-reclaim). Learn how approver complete the review [Review VAT reclaim](expense-management-approve-reports.md#review-vat-reclaim).
 
 ## Review scanned receipt details
 
@@ -135,6 +152,8 @@ You can continue working while receipts process; there's no need to wait. Come b
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
 [Use the Expense Agent mobile app](expense-agent-mobile-app.md)  
 [Review and edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
+[Set up mileage rates for expense management](expense-management-mileage-rate-setup.md)
+
 [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Synchronize prices with Shopify
 description: Set up and manage price synchronization between Business Central and Shopify, including B2B pricing, market-specific pricing, and how tax settings affect exported prices.
-ms.date: 07/17/2026
+ms.date: 09/04/2026
 ms.topic: how-to
 ms.search.form: 30126, 30127, 30159, 30174
 author: brentholtorf
@@ -88,6 +88,8 @@ You can only access catalogs linked to B2B companies. To learn more, go to [B2B 
    The second strategy is to use the **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
 
 4. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
+
+When the same direct company catalog appears in more than one entry, only one entry can synchronize prices. If you turn on **Sync Prices** for another entry, the connector offers to turn off the setting on the other entries. Use a market catalog when you want to assign one catalog to multiple B2B companies and synchronize one set of prices.
 
 ## Synchronize market-specific prices with Shopify
 

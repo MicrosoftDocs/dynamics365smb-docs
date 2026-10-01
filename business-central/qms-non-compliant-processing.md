@@ -1,12 +1,12 @@
 ---
-title: Handle items that failed a quality test
+title: Process items that failed a quality inspection
 description: Learn how to handle noncompliant items, including workflows, inventory movements, and actions for failed quality inspections.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: overview
+ms.topic: how-to
 ms.search.form: 20408,
-ms.date: 03/11/2026
+ms.date: 09/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Process items that failed a quality inspection
 
-This article explains how to deal with items that don't pass quality inspection. When goods fail a quality inspection, there are options to manually or automatically handle the noncompliant items:
+This article explains how to deal with items that don't pass a quality inspection. When goods fail a quality inspection, you can manually or automatically handle them by using the following options:
 
 - Block items to prevent the use of failed lots (serial and package numbers).
 - Move items to quarantine areas.
@@ -22,90 +22,72 @@ This article explains how to deal with items that don't pass quality inspection.
 - Transfer items to different locations.
 - Return defective items to suppliers.
 
-These options can be triggered automatically using workflows. To learn more, go to [Quality management workflows](qms-quality-workflows.md).
+These options can be triggered automatically using workflows. Learn more in [Quality management workflows](qms-quality-workflows.md).
 
-> [!Note]
-> For items with lot, serial, or package tracking, you can specify how quality inspection results affect specific document transactions. For example, you can block purchase documents while inspections are in progress and block sales documents for failed inspections. Learn more at [Lot blocking and unblocking](qms-lot-blocking-unblocking.md)
-
+> [!NOTE]
+> For items with lot, serial, or package tracking, you can specify how quality inspection results affect specific document transactions. For example, you can block purchase documents while inspections are in progress and block sales documents for failed inspections. Learn more in [Lot blocking and unblocking](qms-lot-blocking-unblocking.md).
 
 The following sections describe some actions you can take when an item fails an inspection.
 
-## Use manual actions on quality inspections
+## Use actions on quality inspections
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection**, and then choose the related link.
 1. Open the failed inspection.
-1. Use the options on the **Actions** menu to run actions directly from the inspection results.
+1. Use the actions on the inspection to choose how to handle the affected inventory.
 
-### Moving items after inspection failures
+The available actions depend on the source, item tracking, inventory, location, and warehouse setup of the inspection.
 
-**Move Inventory**:
+### Choose the quantity to handle
 
-Run an inventory movement directly from the inspection results. The movement is prefilled with details about the failed lot, and maintains the connection between movement and quality failure.
+Actions that move or remove inventory let you choose which quantity to handle:
 
-- **Quantity Options**: Entire lot/serial/package, specific quantity, sample quantity, passed/failed quantity.
-- **Movement Methods**: Reclassification journal or movement worksheet/internal movement.
-- **Source Filters**: Optional location and bin filters to limit movement source.
-- **Destination**: Specify a target location and bin for quarantine or disposal.
-- **Posting Options**: Post immediately, or create entries for later processing.
+- **Entire Lot/Serial/Package** uses positive posted inventory that matches the lot, serial number, or package number on the inspection and any source filters. Use this option only when the inspection specifies item tracking. It doesn't use the full inspection quantity for an item that isn't tracked.
+- **Specific Quantity** uses the value in **Quantity to Handle**. If you enter `0`, the action uses the source **Quantity (Base)** from the inspection. You can use this behavior to handle the full inspection quantity for an item that isn't tracked.
+- **Sample Quantity** uses the **Sample Size** from the inspection. The sample size must be greater than zero.
+- **Passed Quantity** or **Failed Quantity** uses the respective quantity calculated from the inspection results.
 
-**Create Internal Put-away**:
+The specified source location or bin must contain enough matching inventory for the requested quantity.
 
-Create internal put-away documents for warehouse locations.
+### Move inventory
 
-- **Quantity Options**: Entire lot/serial/package, specific quantity, sample quantity, passed/failed quantity.
-- **Source Filters**: Optional location and bin filters.
-- **Release Options**: Release immediately, create warehouse put-away, or keep open for review.
-- **Usage**: Ideal for directed put-away and pick locations.
+Choose the **Move Inventory** action to move affected inventory to another location or bin, such as a quarantine area. The action uses an item reclassification journal for inventory locations or warehouse movement documents for locations that require warehouse handling.
 
-**Create Transfer items**
+You can move the entire tracked quantity, a specific quantity, the sample quantity, or the passed or failed quantity. Specify source and destination location and bin filters, and then post the movement immediately or create entries for later review.
 
-The action transfers items to another location for external processing, lab analysis, or disposal.
+### Create an internal put-away
 
-- **Quantity Options**: Entire lot/serial/package, specific quantity, sample quantity, passed/failed quantity.
-- **Source Filters**: Optional location and bin filters to limit transfer source
-- **Destination**: Target location for transfer
-- **Transfer Details**: Support for direct transfer or in-transit locations
+Choose the **Create Internal Put-away** action to create an internal put-away for inventory at a warehouse location. Use the resulting warehouse document to move the items into the appropriate bin.
 
-### Removing items from inventory
+This action is available for locations that use directed put-away and pick with warehouse item tracking. You can keep the document open, release it, or release it and create the put-away.
 
-The manual removal process involves using the **Create Negative Adjustment** option from the **Actions** menu on the **Quality Inspection** page.
+### Transfer items
 
-The action decreases inventory quantity for disposal, destructive testing, or write-offs.
+Choose the **Create Transfer Order** action to move affected inventory to another location for quarantine, external analysis, rework, or disposal. Complete the transfer order by using the normal transfer process.
 
-- **Quantity Options**: Entire lot/serial/package, specific quantity, sample quantity, passed/failed quantity.
-- **Source Filters**: Optional location and bin filters to limit adjustment source
-- **Reason Codes**: Optional reason code for audit trail
-- **Posting Options**: Post immediately, or create entries for later processing.
+Specify whether to use direct transfer or an in-transit location. If you leave the in-transit code blank, the transfer route can supply it.
 
-### Return items to vendors
+### Remove items from inventory
 
-The manual return process involves using the **Create Purchase Return** option from the **Actions** menu on the **Quality Inspection** page.
+Choose the **Create Negative Adjustment** action to reduce inventory for disposal, destructive testing, or write-off. Review and post the resulting item journal or warehouse item journal according to the location setup.
 
-The action creates purchase return orders for vendor-related defects.
+Choose the quantity to remove, add a reason code if needed, and then post immediately or create journal entries for later review. Configure the journal batches on the **Quality Management Setup** page.
 
-- **Quantity Options**: Entire lot/serial/package, specific quantity, sample quantity, passed/failed quantity.
-- **Return Reason**: Optional return reason code for vendor communication
-- **Source Filters**: Optional location and bin filters
-- **Credit Memo**: Optional vendor credit memo number field
+### Return items to a vendor
 
+Choose the **Create Purchase Return Order** action for an inspection related to a purchase. Review the vendor, item, quantity, item tracking, and return reason on the resulting document before you post it.
 
+The received quantity that you didn't already return must be sufficient. You can specify a return reason and vendor credit memo number.
 
 ### Change item tracking information
 
-This section describes how to manually update information about items. Updating item information involves using the **Change Item Tracking** option from the **Actions** menu on the **Quality Inspection** page.
+Choose the **Change Item Tracking** action to reclassify lot, serial, or package information for affected inventory. Review and post the resulting journal according to the location setup.
 
-The action updates item tracking information such as lot numbers, serial numbers, package numbers, or expiration dates.
-
-- **Quantity Options**: Entire lot/serial/package, specific quantity, sample quantity, passed/failed quantity.
-- **Tracking Changes**: Update the lot, serial, or package numbers, and the expiration date.
-- **Source Filters**: Optional filters for locations and bins.
-- **Posting Options**: Post immediately, or create entries for later processing.
-
-
+Specify at least one new lot, serial, package, or expiration-date value. You can post the change immediately or create entries for later review.
 
 ## Related information
 
 [Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
 [Configuring Workflows](qms-quality-workflows.md)  
-[Purchase Receipt Inspections without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
-[Quality Management Overview](qms-overview.md)
+[Quality Management Overview](qms-overview.md)  
+
+[!INCLUDE [footer-banner](includes/footer-banner.md)]

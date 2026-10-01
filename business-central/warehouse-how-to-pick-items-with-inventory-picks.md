@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 05/13/2025
+ms.date: 09/04/2026
 ms.custom: bap-template
 ms.search.forms: 931, 7377
 ---
@@ -89,6 +89,9 @@ After you release an order, the warehouse employee can create an inventory pick.
     * If the location uses bins, posting also creates warehouse entries for the changes to the bin quantity.  
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
+    > [!NOTE]
+    > When you partially handle a line, posting reduces the outstanding quantity and sets **Qty. to Handle** to the remaining quantity for the next posting. Lines where **Qty. to Handle** is zero aren't posted and remain at zero. This behavior also applies to item-tracked lines. Serial-number-tracked quantities are typically split into separate lines, so each serial number is either fully handled or excluded from the posting.
 
 ## Handling assemble-to-order items with inventory picks
 

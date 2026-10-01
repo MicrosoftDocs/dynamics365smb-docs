@@ -1,6 +1,11 @@
 {
     "redirections": [
         {
+            "source_path": "expense-management/expense-agent-statuses.md",
+            "redirect_url": "/dynamics365/business-central/expense-management/expense-agent-overview",
+            "redirect_document_id": true
+        },
+        {
             "source_path": "financials/financials-requirements.md",
             "redirect_url": "/dynamics365/business-central/product-requirements",
             "redirect_document_id": true
@@ -1027,6 +1032,11 @@
     {
       "source_path": "business-central/about-reuse-company-invoicing.md",
       "redirect_url": "/dynamics365/business-central",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "business-central/expense-management/expense-agent-statuses.md",
+      "redirect_url": "/dynamics365/business-central/expense-management/expense-agent-policy-compliance",
       "redirect_document_id": false
     }
         ]

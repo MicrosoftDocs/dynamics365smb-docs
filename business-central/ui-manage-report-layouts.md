@@ -7,13 +7,13 @@ ms.reviewer: jswymer
 ms.topic: concept-article
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650, 9660
-ms.date: 06/17/2026
+ms.date: 09/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Report and document layouts overview
 
-A report layout controls content and format of the report. For example, the data fields in the report dataset that appear on the report, how they're arranged, the text style, images, and so on. From [!INCLUDE[prod_short](includes/prod_short.md)], you can change which layout is used on a report, create new layout, or modify the existing layouts.
+A report layout controls the content and format of a report. It determines which fields from the report dataset appear, how they're arranged, and which text styles and images the report uses. In [!INCLUDE[prod_short](includes/prod_short.md)], you can select the layout that a report uses, create a new layout, or modify an existing layout.
 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], the term "report" also covers externally facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
@@ -29,14 +29,17 @@ A report layout sets up the following things:
 * The company logo and its position.
 * General page settings, such as margins and background images.
 
+For composite Word layouts, a reusable theme supplies the text format, and a reusable header/footer supplies the company logo and page settings. Learn more about combining reusable parts in [Composite Word layouts](#composite-word-layouts).
+
 You can set up multiple layouts for a report, and then switch between them to suit different reporting needs.
 
 <!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. Learn more in [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
 
-There are two important aspects of report layouts that influence how you work with them:
+There are three important aspects of report layouts that influence how you work with them:
 
 * The **Layout Type** indicates the kind of file that the layout is based on.
 * The **Layout Source** indicates the origin of the layout.
+* For Word layouts, the **Subtype** indicates the layout's role—either **Default** or **Body**. When you create a report-specific layout, you can select **Default** for a stand-alone layout or **Body** for a composite layout. Create and manage reusable themes and header/footer layouts separately.
 
 ## Layout types
 
@@ -51,11 +54,19 @@ There are four types of layouts that you can use for reports:
 
 Word layouts are based on Word documents (.docx file type). Word layouts enable you to design report layouts by using Microsoft Word. A Word layout determines the report's content - controlling how that content elements are arranged and how they look. A Word layout document typically uses tables to arrange content, where the cells can contain data fields, text, or pictures.
 
-[![Example of a word report layout document for Business Central.](media/word-layout-overview.png)](media/word-layout-overview.png#lightbox)
+[![Example of a Word layout document for Business Central.](media/word-layout-overview.png)](media/word-layout-overview.png#lightbox)
 
-<!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
+<!--![Example of a Word layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
 
-Learn more in [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
+Learn more in [Map data fields with the XML Mapping Pane](ui-how-add-fields-word-report-layout.md).
+
+### Composite Word layouts
+
+A *composite layout* separates a report's Word layout into reusable parts. A **Body** layout contains the report-specific content. A **Theme** supplies design settings, such as fonts and colors. A **Header/Footer** layout supplies reusable page headers and footers. Business Central combines the parts when the report runs.
+
+Administrators can apply a theme and header/footer to all reports, then override either part for a company, a report, or one body layout. The parts resolve independently. For example, a report can use its own header/footer and inherit the company theme.
+
+Only Word layouts with the **Body** subtype can use reusable themes and header/footer layouts. Learn how to create and assign the parts in [Set up reusable themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md).
 
 ### Excel
 
@@ -75,7 +86,7 @@ Learn more in [Work with RDLC Layouts](ui-rdlc-report-layouts.md).
 
 ### External
 
-An external layout type refers to an advanced type designed for specific reports. The reports and the layouts themselves are typically provided by partners, not Microsoft. The actual file type of the layout varies depending on the provider.
+An *external* layout type is a specialized layout designed for specific reports and rendered by a custom report renderer. Partners, not Microsoft, typically provide these reports and layouts. The layout's file type varies depending on the provider.
 
 Learn more in [Developing a custom report render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
@@ -107,13 +118,13 @@ Learn more about which type is best for you in [Decide what type of layout you w
 <!--
 ### Built-in and custom report layouts
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes several built-in layouts. Built-in layouts are predefined layouts that are designed for specific reports. [!INCLUDE[prod_short](includes/prod_short.md)] reports will have a built-in layout as either an RDLC report layout, Word report layout, or in some cases both. You can’t modify a built-in report layout from [!INCLUDE[prod_short](includes/prod_short.md)] but you use them as a starting point for building your own custom report layouts.
+[!INCLUDE[prod_short](includes/prod_short.md)] includes several built-in layouts. Built-in layouts are predefined layouts that are designed for specific reports. [!INCLUDE[prod_short](includes/prod_short.md)] reports have a built-in layout as either an RDLC report layout, Word layout, or in some cases both. You can’t modify a built-in report layout from [!INCLUDE[prod_short](includes/prod_short.md)] but you can use them as a starting point for building your own custom report layouts.
 
 Custom layouts are report layouts that you design to change the appearance of a report. You typically create a custom layout based on a built-in layout, but you can create them from scratch or from a copy of an existing custom layout. Custom layouts enable you to have multiple layouts for the same report, which you switch among as needed. For example, you can have different layouts for each [!INCLUDE[prod_short](includes/prod_short.md)] company, or you can have different layouts for the same company for specific occasions or events, like a special campaign or holiday season.
 
 Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how you want the generated report to look and your knowledge of tools for creating the layouts, like Word, Excel, and SQL Server Report Builder.
 
-* The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
+* The general design concepts for Word and RDLC layouts are similar. However, each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word layout compared to the RDLC report layout.
 
 * The process for setting up Word, Excel, and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word and especially Excel layouts are typically easier to create and modify than RDLC report layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder, which targets more advanced users.
 
@@ -132,6 +143,7 @@ You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send data to an
 
 ## Related information
 
+[Set up reusable themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md)  
 [Update custom report layouts](ui-update-report-layouts.md)  
 [Create and modify custom report layouts](ui-how-create-custom-report-layout.md)  
 [Import and export custom report layouts](ui-how-import-and-export-report-layout.md)  

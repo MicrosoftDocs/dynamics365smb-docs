@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 3/17/2026
+ms.date: 09/02/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 490
@@ -59,7 +59,6 @@ The **Row No.** field might show when you view a report on-screen. The field doe
 
 To learn more, go to [Integrate financial reports with Excel](finance-financial-reporting-Integrate-financial-reports-with-excel.md).
 
-
 ## Print and save financial reports
 
 You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as PDF files.
@@ -78,11 +77,27 @@ You can print financial reports using your device's printing services. [!INCLUDE
 > [!TIP]
 > The name of your company always shows in the upper right of the PDF. If you specify a **Display Name** on the **Companies** list page, that name shows instead of the name in the **Name** field (which isn't easy to change).
 
+## Print results from multiple reports in the same PDF
+
+You can create report packages that let you run more than one financial report at the same time and combine the results in a single PDF. You can run the packages manually, or on a schedule.
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Financial Report Packages**, and select the related link.
+1. In the **Code** field, enter an identifier for the package.
+1. In the **Description** field, enter a name for the report. You can use up to 100 characters. The name is included in the name of the file if you export the PDF, the Subject line if you send the PDF by email, and the description that shows in your report inbox. 
+1. In the **Internal Description** field, enter a longer description of what the package includes. You can use up to 500 characters. Internal descriptions only display on the **Financial Report Packages** page.
+1. In the **Reports** section, in the **Financial Report Name** field, choose the report to include in the package.
+1. To filter the values on the reports to suit your needs, choose the **Custom Filters** action. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Specify when, and how often, to run the package:
+
+   1. To run the package now, choose the **Print** action.
+   1. To manually specify a start date and time, enter start and end date filter formulas. To learn more about date formulas, go to [Use date formulas](ui-enter-date-ranges.md#use-date-formulas).
+   1. To set up a schedule for recurring runs, use the **Schedules** action. Learn more in [Schedule a financial report](#schedule-a-financial-report).
+
 ## Schedule a financial report
 
 You might have a report that you want to run regularly. To avoid having to run the report manually, you can run it according to a schedule. The schedule can produce the report as an Excel file that shows up in the Report Inbox on your Role Center, as a PDF, or both. If you want to share the report with colleagues, you can set up the schedule to send the report to them by email.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Financial Reports**, and select the related link.
 1. On the **Financial Reports** page, choose the **Definitions** action, and choose **Schedules**.
 1. In the **Code** field, enter a name for the schedule. For example, if the schedule runs the report on a weekly basis, you might name it "Weekly."
 1. In the **Description** field, enter text that indicates what the report shows.
@@ -90,7 +105,7 @@ You might have a report that you want to run regularly. To avoid having to run t
 1. To export the report to PDF, select the **Export to PDF** checkbox.
 1. To send the report to recipients by email, select the **Send Email** checkbox. If you choose this option, choose the **Recipients** action to specify who to send the report to. 
 1. To filter the values on the report to suit your needs, choose the **Custom Filters** action. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-1. To specify when to start the schedule, and how often it runs:
+1. Specify when to start the schedule, and how often it runs:
    1. To manually specify a start date and time, fill in the **Next Run Date/Time** field. To calculate the start date, leave this field blank and instead, enter a date formula in the **Start Date Filter Formula** field. To learn more about date formulas, go to [Use date formulas](ui-enter-date-ranges.md#use-date-formulas).
    1. To specify how often to run the report, enter a date formula in the **Recurrence Run Date Formula** field.
 

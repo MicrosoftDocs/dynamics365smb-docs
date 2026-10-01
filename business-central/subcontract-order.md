@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: subcontracting, production order, purchase order, dispatch list, worksheet
 ms.search.form: 99001504, 99000886, 50, 99000831
-ms.date: 07/15/2026
+ms.date: 09/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -65,6 +65,18 @@ If all subcontracted operations are sent to the same vendor location, then only 
 
 The worksheet line that was turned into a purchase order is deleted from the worksheet. After a purchase order is created, it doesn't appear in the worksheet again.
 
+## Review comments for subcontracting orders
+
+When you calculate or refresh a production order, comments on subcontracting routing operations transfer to the corresponding production order routing operations. You can review and adjust the comments before you create the subcontracting purchase order. To learn how to define reusable comments and add them to routing operations, go to [Add comments to subcontracting operations](subcontract-setup.md#add-comments-to-subcontracting-operations).
+
+1. Open the production order, select the production order line, and then choose the **Routing** action.
+2. Select the subcontracting operation, and then choose the **Subcontracting Comments** action.
+3. Review or change the comments for the production order.
+
+Whether you create the purchase order [directly from the released production order](#create-a-subcontracting-purchase-order-from-a-production-order) or [with the subcontracting worksheet](#create-subcontracting-purchase-orders-with-the-worksheet), [!INCLUDE [prod_short](includes/prod_short.md)] inserts the production routing comments as zero-quantity text lines attached to the corresponding subcontracting purchase line. The text lines keep the same order as the comments. Running direct order creation again doesn't duplicate comment lines that already exist.
+
+Routing attachments that are set up to flow to production and purchase transactions also transfer to the related subcontracting purchase line. To learn more about how to set up routing attachments for subcontracting purchase orders, go to [Set up routing attachments for subcontracting purchase orders](subcontract-setup.md#set-up-routing-attachments-for-subcontracting-purchase-orders).
+
 ## Use the Subcontracting Details FactBox
 
 On the purchase order, the **Subcontracting Details** FactBox shows related production orders, transfer orders, routing operations, components, and subcontractor prices for the selected purchase line. Choose a value to open the related document or list.
@@ -116,6 +128,35 @@ When the purchase order is posted as invoiced, the direct cost of the purchase o
 
 > [!NOTE]
 > Expected costs are only managed for item transactions, not for immaterial transaction types such as capacity posted via subcontract purchase orders. Posting a receipt might trigger posting of output, but these transactions are separate, and the expected cost of output is calculated independently.
+
+### Receive subcontracting output with a warehouse receipt
+
+Use a warehouse receipt when the purchase order location requires receipt processing. Release the subcontracting purchase order, and then select **Create Whse. Receipt** on the order or use the **Get Source Documents** action on the **Warehouse Receipt** page to retrieve the order. Enter the quantity to receive and post the warehouse receipt. Learn more at [Receive items with warehouse receipts](warehouse-how-receive-items.md).
+
+If the item uses serial or lot tracking, assign or verify the tracking information for the final-operation output before you post the warehouse receipt. Intermediate operations don't support item tracking.
+
+The posting result depends on the routing operation:
+
+- For the final operation, posting records the production output and capacity. It also creates the related item ledger entries, value entries, and warehouse entries. If the location requires put-away processing, complete the warehouse put-away or use the put-away worksheet, depending on the location setup.
+- For an intermediate operation, posting records capacity only. It doesn't create item ledger entries, value entries, warehouse entries, or put-away lines.
+
+### Receive subcontracting output with an inventory put-away
+
+Use an inventory put-away when the purchase order location requires put-away processing but doesn't require warehouse receipts.
+
+1. Open the released subcontracting purchase order.
+2. Select the **Create Inventory Put-away/Pick...** action.
+3. Open the inventory put-away that [!INCLUDE [prod_short](includes/prod_short.md)] creates.
+4. Enter the quantity in the **Qty. to Handle** field. If the location uses bins, verify or assign the **Bin Code**. You can split the quantity across multiple put-away lines to use more than one bin.
+5. For the final routing operation, if the item uses serial or lot tracking, verify the tracking information that comes from the production order. Intermediate-operation lines don't support item tracking.
+6. Select the **Post** action.
+
+You can post part of the quantity and create another inventory put-away for the remainder.
+
+The posting result depends on the routing operation:
+
+- For the final operation, posting records the production output and capacity. It also creates the related item ledger entries, value entries, and warehouse entries.
+- For an intermediate operation, posting records capacity only. The put-away line retains its displayed quantity but has a zero base quantity. Posting doesn't create item ledger entries, value entries, or warehouse entries.
 
 ## Undo subcontracting receipts
 

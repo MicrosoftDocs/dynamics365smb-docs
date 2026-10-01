@@ -1,11 +1,12 @@
 ---
-title: Payables Agent Overview
+title: Payables Agent Overview in Business Central
 description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
-ms.date: 05/03/2026
+ms.date: 09/27/2026
 ms.update-cycle: 180-days
 ms.topic: overview
+ai-usage: ai-assisted
 author: dmc-dk
-ms.author: soalex
+ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
@@ -17,7 +18,7 @@ The Payables Agent solves a decade-old challenge: end-to-end processing of vendo
 
 The core goal for the Payables Agent is simple: get accounting skills and help register invoices correctly, ideally removing bottlenecks in accounts payable so finance support doesn't slow company growth. The agent needs almost no setup&mdash;just configuration and activation.
 
-The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to analyze invoice content, and shows invoice drafts to agent supervisors for review. Ideally, users make few or no corrections before finalizing drafts, so invoices are ready for approval and posting.
+The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to analyze invoice content, and shows invoice drafts to agent supervisors for review. Ideally, users make few or no corrections before finalizing drafts. The resulting unposted invoices are then ready for any required Business Central approval workflow and posting.
 
 > [!NOTE]
 > [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
@@ -28,7 +29,7 @@ The end-to-end process handled by the Payables Agent is shown in the following f
 
 ![Shows the Payables Agent flow](media/payables-agent-flow.png)
 
-The dashed steps in the image represent steps that&mdash;in time&mdash;are intended to be optional depending on configuration. In the public preview release, these steps aren't optional.
+The dashed steps in the image can be optional depending on configuration.
 
 1. **Vendor or employee:** Vendor sends an email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice to the mailbox.
 1. **Payables Agent:** Picks up unread email in the monitored mailbox. It then imports the email and creates an entry in **Inbound E-Documents** for every PDF attachment, if any exists.
@@ -39,6 +40,7 @@ The dashed steps in the image represent steps that&mdash;in time&mdash;are inten
 1. **Payables Agent:** The agent attempts to create the vendor and uses the available OCR extracted vendor details to fill out as many fields on the vendor card as possible.
 1. **Agent Supervisor:** Is asked to review the newly created vendor, which is blocked for processing until unblocked by a relevant stakeholder.
 1. **Payables Agent:** Uses AI to suggest invoice details based on the extracted invoice information.
+1. **Payables Agent and Business Central:** The agent proposes purchase order lines for identified invoice lines. Business Central validates compatible order lines, allocates invoice quantities, and evaluates order-match warnings.
 1. **Agent supervisor:** Can review, confirm, or change the suggested invoice details in a purchase document draft, depending on agent configuration settings and the agent's confidence in the suggestions.
 1. **Payables Agent:** Finalizes the purchase document draft into a purchase invoice. Users now see the invoice in the **Purchase Invoices** list.
 
@@ -105,6 +107,16 @@ After you select **Confirm** in the agent **Tasks** tab in the Copilot pane, the
 
 After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent. It's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved.
 
+When an invoice references purchase orders, the agent can propose order-line matches after it identifies the vendor and invoice lines. Business Central checks whether the order lines are compatible and allocates invoice quantities to the selected lines. Lines that aren't matched continue through the existing classification and review process.
+
+### Review purchase order matches before finalization
+
+On the **Purchase document draft** page, review **Order line match** and **Warnings** for each line. The warnings are Business Central quantity, receipt, unit-of-measure, and price validations. They aren't AI confidence indicators.
+
+Use **Match to order lines** to correct a proposed match or match an unmatched line. You can select one or more compatible order lines. Payables Agent doesn't necessarily select multiple lines autonomously for one invoice line. Review unmatched lines and classify them manually when needed.
+
+Confirming the draft review lets Payables Agent continue and finalize the draft as an unposted purchase invoice. This review confirmation isn't a Business Central approval workflow, and the agent doesn't post the invoice. Review the resulting purchase invoice and its receipt allocations before posting. Learn more in [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md).
+
 ### Finalizing the purchase document draft
 
 The **Purchase document draft** is where the agent's draft details are shown to the user and where the agent explains why it made certain field value suggestions. The draft helps users learn about the agent's reasoning and decide whether to adjust the draft details before finalizing the draft.
@@ -118,6 +130,8 @@ The **Purchase document draft** is where the agent's draft details are shown to 
 ![Agent shows reasoning behind setting the field value](media/payables-agent-infotips-field.png)
 
 These tips help you gain trust and confidence in the agent's work, and when you're done reviewing, you finalize the invoice. Finalizing a purchase draft creates a purchase invoice based on the draft. After you finalize a draft, it's linked to the purchase invoice and is no longer editable. The draft remains as long as the purchase invoice exists.
+
+Page notifications might be hidden while the data review bar appears. Learn more in [Show page notifications during review](supervise-agent-tasks.md#show-page-notifications-during-review).
 
 ## Activation and configuration
 
@@ -174,5 +188,8 @@ The following constraints apply to document processing and daily usage:
 
 ## Related information
 
-[Configure Copilot and agent capabilities](enable-ai.md)  
-[Responsible AI FAQ for Payables Agent](faqs-payables-agent.md)  
+- [Configure Copilot and agent capabilities](enable-ai.md)
+- [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md)
+- [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

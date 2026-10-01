@@ -4,7 +4,7 @@ description: Set up and run import and processing of sales orders from Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 08/26/2026
+ms.date: 09/04/2026
 ms.topic: how-to
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147, 30168
 ms.service: dynamics-365-business-central
@@ -46,6 +46,8 @@ Turn on the **Auto Create Sales Documents** toggle to automatically create sales
 
 If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] adds sales lines of the type **Comment** with the Shopify order number.
 
+Turn on **Use Shopify Order No.** to use the Shopify order number as the number of the sales document that the connector creates. The number series for the sales document must allow manual numbers. If the Shopify order number conflicts with an existing document number, the connector can't use it. You can override **Use Shopify Order No.** on an individual **Shopify Order** before you create its sales document.
+
 > [!NOTE]
 > The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipments. To learn more about adding a field, go to [Start personalizing by using the personalization mode](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
@@ -78,6 +80,8 @@ When **Auto Create Sales Document** is selected, the **Process Returns as** fiel
 
 > [!NOTE]
 > The connector can only create the sales document if the original Shopify order was already processed into a [!INCLUDE [prod_short](../includes/prod_short.md)] sales document. If the original order hasn't been processed yet, the refund is imported but the sales document creation is skipped and an error is recorded on the refund.
+>
+> If a refund transaction is still pending in Shopify, the connector postpones automatic processing so that it can retry later. On the **Shopify Refund** page, choose **Transactions** to review the payment status.
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
@@ -237,6 +241,8 @@ The **Shopify Orders to Import** page is useful for troubleshooting order import
 ### Review imported orders
 
 After import completes, you can explore the Shopify order and find all related information. For example, the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments if the order was already fulfilled in Shopify. You can also review the order confirmation that was sent to the customer by choosing the **Shopify Status Page** action.
+
+Before you create a sales document, you can review and change the **Sell-to Contact No.**, **Ship-to Contact No.**, and **Bill-to Contact No.** fields on the Shopify order. The fields are hidden by default, so use personalization to add them. The lookup for each field shows contacts related to the corresponding customer.
 
 > [!NOTE]  
 > The **Shopify Orders** page contains useful views, that allow you find all orders from all shops. If you want to focus on open orders only, use the **Open** view. You can also use views to show only unprocessed orders, orders where an error interrupted processing, or orders that have a conflict because they were updated in Shopify after they were processed in [!INCLUDE [prod_short](../includes/prod_short.md)].
@@ -487,6 +493,19 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 |G/L Account|Refund Account Nonstock | Use for refunds related to products that weren’t restocked. |
 |Item |Item No.| Use for refunds related to products that were restocked. Valid for direct refunds or refunds linked to returns. The location code on the credit memo line is set based on the value selected for the return location.|
 |G/L Account| Refund Account | Use for other refunded amounts that aren't related to products or gift cards. For example, tips, or if you manually specified an amount to refund in Shopify. |
+
+### Process an exchange
+
+When a Shopify return includes a replacement item, the connector imports the returned item and the exchange item together. When you create a sales document for the refund, the connector creates the document type you select in **Process Returns as**. The returned item has a positive quantity, and the replacement item has a negative quantity.
+
+You can post both lines on the same sales credit memo or sales return order. To process the replacement on a separate sales document:
+
+1. If the sales credit memo or sales return order has the **Released** status, choose **Reopen**.
+1. Choose **Move Negative Lines**.
+
+From a sales credit memo, the action creates a sales invoice by default. From a sales return order, the action creates a sales order by default. The new document remains linked to the originating Shopify order and appears in the **Linked Documents** FactBox.
+
+For an exchange where the replacement costs more, the connector doesn't add a balancing line that uses the **Refund Account**. If cash rounding is needed, it can add a separate line that uses the **Cash Roundings Account**.
 
 ## Gift cards
 

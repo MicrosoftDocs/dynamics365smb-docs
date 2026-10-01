@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: write down, amortize fixed assets, fixed assets
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666, Report_5692_Primary
-ms.date: 10/03/2025
+ms.date: 08/27/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -58,6 +58,8 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 5. Choose the **Post** action to post the journal.  
 
 The **Book Value** field on the **Fixed Asset Card** page is updated accordingly.
+
+Depreciation journal lines don't accept a sustainability account or CO2e amount. Fixed asset emissions remain associated with the acquisition entries. Learn more in [Track fixed asset emissions in the sustainability value chain](value-chain-howto-fixed-assets.md#depreciate-a-fixed-asset-with-emissions).
 
 If you set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting. Learn more in [Set Up General Fixed Assets Information](fa-how-setup-general.md).  
 

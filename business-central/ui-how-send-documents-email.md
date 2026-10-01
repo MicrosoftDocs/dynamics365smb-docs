@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 41,
-ms.date: 06/19/2025
+ms.date: 09/14/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -64,6 +64,8 @@ To attach a file yourself, in the email editor, use the following actions:
 * Choose **Add file** to select a file.
 * Choose **Add files from default selection** to manually add the default attachment from the email scenario.
 * Choose **Add file from source document** to choose a file attached to the document you're working with. The files are either attached to the document itself, or one or more of its lines.
+
+When you review an attachment in [!INCLUDE[prod_short](includes/prod_short.md)], you can open supported PDF and image files in preview mode instead of downloading them first. If you want to save a copy, use the **Download** action in the previewer.
 
 ## Documents marked as printed when they're sent
 

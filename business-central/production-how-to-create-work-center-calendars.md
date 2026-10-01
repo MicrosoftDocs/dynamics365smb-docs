@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
-ms.date: 07/15/2026
+ms.date: 09/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -68,20 +68,12 @@ The shop calendar can now be assigned to a work center to calculate the work sho
 1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Work Centers**, and then choose the related link.
 2. Open the work center that you want to update.  
 3. In the **Shop Calendar Code** field, select which shop calendar to use as the foundation for a work center calendar.  
-4. Choose the **Calendar** action.  
-5. On the **Work Center Calendar** page, choose the **Show Matrix** action.  
+4. Select the **Calculate Work Center Calendar** action.
+5. On the request page, specify the starting and ending dates of the calendar period to calculate.
+6. If needed, use the **No.** and **Work Center Group Code** filters to limit the work centers to include.
+7. Select the **OK** button to calculate capacity.
 
-    The left side of the matrix page lists the work centers that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measure, for example, **480** minutes. Each line represents the calendar of one work center.  
-
-    > [!NOTE]  
-    >  You can also select to view the capacity values for each week or month by changing the selection in the **View By** field on the **Work Center Calendar** page.  
-
-    To reflect the new shop calendar as a line on the selected work center, it must first be calculated.  
-
-6.  Choose the **Calculate** action.  
-7.  On the **Work Center** FastTab, you can set a filter to only calculate for one work center. If you don't set a filter, all existing work center calendars are calculated.  
-8.  Define the starting and ending dates of the calendar period that should be calculated, for example, one year from 01/01/14 to 31/12/14.
-9. Choose the **OK** button to calculate capacity.  
+To calculate a machine center calendar, open the **Machine Center Card** and select **Calculate Machine Center Calendar**. You can filter the calculation by **No.** and **Work Center No.**
 
 Calendar entries are now created or updated displaying the available capacity for each period according to the following three sets of master data:  
 
@@ -90,6 +82,17 @@ Calendar entries are now created or updated displaying the available capacity fo
 - The value in the **Efficiency** field on the work center card.  
 
 The calculated work center calendar now defines when and how much capacity is available at this work center. This calendar controls the detailed scheduling of operations performed at the work center.  
+
+The **Calendar Entries Available Until** field on work center and machine center cards and lists shows the latest date with calculated calendar entries. If the date is earlier than the work date, the field uses the warning style to indicate that you should recalculate the calendar. A blank value isn't marked as expired.
+
+To review the calculated capacity, select the **Calendar** action on the work or machine center card. On the calendar page, select the **Show Matrix** action.
+
+The left side of the matrix page lists the work centers that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measure, for example, **480** minutes. Each line represents the calendar of one work center.
+
+> [!NOTE]
+> You can also select to view the capacity values for each week or month by changing the selection in the **View By** field on the **Work Center Calendar** page.
+
+From the **Work Center Calendar Matrix** page you can calculate calendar entries for several work centers at once, for example, when a new period starts. Select **Calculate**, specify the starting and ending dates, and filter work centers by **No.** or **Work Center Group Code**.
 
 ## To record work center absence  
 1.  On the **Work Center Calendar** page, choose the **Show Matrix** action.

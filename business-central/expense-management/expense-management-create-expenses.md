@@ -3,7 +3,7 @@ title: Create and Manage Expenses in Business Central
 description: Learn how to record individual expenses, attach receipts, add itemizations and participants, and track per diem and mileage in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 07/03/2026
+ms.date: 09/26/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 If you use Expense Agent when you incur a business expense, you record it in [!INCLUDE[prod_short](../includes/prod_short.md)] as an individual expense. Each expense captures the amount, date, category, and supporting details like receipts or merchant information. After you record expenses, you can add them to an expense report for submission.
 
-However, the agent does almost all of that for you. The expense user uploads a receipt file in the web app, and viola, the agent handles the rest. Learn more at [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md).
+However, the agent does almost all of that work for you. The expense user uploads a receipt file in the web app, and the agent handles the rest. Learn more in [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -78,12 +78,13 @@ For expense categories that require participants, such as business meals, you ca
 When the expense category requires mileage details, more fields appear in the **Travel** section.
 
 1. Create an expense and select a mileage category.
-2. In the **Starting Point** field, enter where the trip began.
-3. In the **Ending Point** field, enter the destination.
-4. In the **Mileage** field, enter the one-way distance.
-5. If the trip was a round trip, turn on **Round Trip**. The **Total Mileage** field doubles the distance automatically.
+1. In the **Starting Point** field, enter where the trip began.
+1. In the **Ending Point** field, enter the destination.
+1. If your organization uses vehicle-specific rates, select a **Vehicle Type**.
+1. In the **Mileage** field, enter the one-way distance.
+1. If the trip was a round trip, turn on **Round Trip**. The **Total Mileage** field doubles the distance automatically.
 
-The amount is calculated based on the mileage rate configured on the **Expense Agent Setup** page.
+Business Central selects a rate for the **Expense Date**, **Vehicle Type**, and currency. If no mileage rate setup record matches, Business Central uses **Standard Rate of Mileage**. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
 ### Record a per diem expense
 
@@ -157,7 +158,10 @@ You can quickly create a new expense report directly from an expense.
 
 ## Related information
 
-[Set up expense categories and rules](expense-management-categories-rules.md)  
+[Set up expense categories, rules, and policies](expense-management-categories-rules.md)
+
+[Set up mileage rates for expense management](expense-management-mileage-rate-setup.md)
+
 [Manage employee expenses](expense-management-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

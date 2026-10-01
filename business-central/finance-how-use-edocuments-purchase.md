@@ -1,5 +1,5 @@
 ---
-title: Use e-documents in the purchase process
+title: Use E-Documents in the Purchase Process
 description: Learn how to set up vendors and handle purchase invoices, orders, and credit memos using e-documents in Dynamics 365 Business Central.
 author: altotovi
 ms.author: altotovi
@@ -7,13 +7,14 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, receive, purchase, matching, mapping, Copilot
 ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
-ms.date: 12/01/2025
+ai-usage: ai-assisted
+ms.date: 09/29/2026
 ms.custom: bap-template
 ---
 
 # Use e-documents in the purchase process
 
-You can use configured electronic documents (e-documents) with the following purchase documents:
+You can use electronic documents (e-documents) with the following purchase documents:
 
 - Purchase invoices
 - Purchase orders
@@ -44,14 +45,14 @@ To configure vendors for incoming electronic invoices, follow these steps:
    >
    > In the **Receive E-Document To** field, you can either select a **Purchase Invoice** or **Purchase Order** based on what you want to create from the received e-invoice. This selection doesn't affect the creation of corrective documents. In both scenarios, [!INCLUDE [prod_short](includes/prod_short.md)] generates a credit memo.
    >
-   > If you choose the **Purchase Order** option in the **Receive E-Document To** field, [!INCLUDE [prod_short](includes/prod_short.md)] tries to update one of the existing purchase orders. However, if the purchase order for a vendor in the received e-document doesn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new purchase order, using the same approach as creating a new purchase invoice explained in this [article later](#work-with-purchase-invoices).
+   > If you choose the **Purchase Order** option in the **Receive E-Document To** field, [!INCLUDE [prod_short](includes/prod_short.md)] tries to update one of the existing purchase orders. However, if the purchase order for a vendor in the received e-document doesn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new purchase order, using the same approach as creating a new purchase invoice explained in the [Work with purchase invoices](#work-with-purchase-invoices) section in this article.
 
 1. Choose one of the options you want to use for the selected vendor.
 1. Close the page.
 
 ### Work with purchase invoices  
 
-#### Run the batch job  
+#### Run the batch job <!--Import e-documents with the E-Document Import Job--> 
 
 > [!NOTE]
 > This batch job automates the process of collecting your incoming invoices. It works only in countries or regions where the functionality is available.  
@@ -60,17 +61,12 @@ Every time a **Job Queue** runs, if the external service has incoming invoices f
 
 1. After the batch job finishes running, the imported invoices are listed on the **E-Documents** page with their basic details.
 1. To view more details, open a specific e-document.
-1. Depending on whether your e-document setup automatically processes invoices, or requires that you review and confirm the details before processing, follow these steps. Learn more about how to require confirmation at [Set up e-documents](finance-how-setup-edocuments.md).
+1. Depending on whether your e-document setup automatically processes invoices, or requires that you review and confirm the details before processing, follow these steps. To learn more about how to require confirmation, go to [Set up e-documents](finance-how-setup-edocuments.md).
 
    **Automatic processing**
 
-   - If you automatically process invoices, and there are no errors or issues in the e-document, the **Record** field maps the document number of the purchase invoice if a number series is specified on the **Vendor Card** page. To open the document, select the link.
-
-   > [!NOTE]
-   > This [!INCLUDE [prod_short](includes/prod_short.md)]-created document isn't the posted document.
-
-1. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, review the document. If everything is correct, post the document.  
-1. When you post the purchase document, the **Record** field on the **E-Document** updates from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open it. Details about logs are the same as they are in the sales process for e-documents.  
+   - If automatic processing succeeds, [!INCLUDE [prod_short](includes/prod_short.md)] creates a purchase draft from the incoming e-document.
+   - Open the **Purchase Drafts** page, open the draft, and review and correct the extracted information.
 
    **Review and confirm before processing**
 
@@ -78,6 +74,14 @@ Every time a **Job Queue** runs, if the external service has incoming invoices f
    1. On the **E-Document** page, choose the **View extracted data** action.
    1. On the **Received purchase document data** page, review the details. If things look good, choose **OK**.
    1. To process the invoice, follow the steps described for **Automatic processing**.
+
+1. When the draft is ready, select **Create Document** to create the purchase invoice.
+
+   > [!NOTE]
+   > This [!INCLUDE [prod_short](includes/prod_short.md)]-created document isn't the posted document.
+
+1. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, review the document. If everything is correct, post the document.
+1. When you post the purchase document, the **Record** field on the **E-Document** updates from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open it. Details about logs are the same as they are in the sales process for e-documents.
 
    > [!TIP]
    > When you receive an incoming e-document, it's typically in an XML or similar format that can be difficult, if not impossible, to read. For example, if you aren't technical and don't understand the XML format, it might be hard to review an invoice before you process it. To make it easier for everyone to review incoming e-documents, invoices and credit memos have an **E-invoice Lines** FastTab that displays details from the imported file, such as line and header information, in a way that's easy to understand.
@@ -94,12 +98,12 @@ To manually import e-documents when you don't have an active batch job, follow t
 
 ### Handle errors and warnings
 
-Errors in the sales process are often related to the availability of the service, but incoming documents can contain multiple reasons for errors. The most typical reason is that [!INCLUDE [prod_short](includes/prod_short.md)] can't recognize the lines on an e-document from your vendor and can't enter lines in your purchase invoice.
+Although errors in the process often relate to the availability of the service, other reasons can cause errors with incoming documents. The most typical reason is that [!INCLUDE [prod_short](includes/prod_short.md)] can't recognize the lines on an e-document from your vendor and can't enter lines in your purchase invoice.
 
-There are two typical errors:  
+The following workarounds address two typical errors:  
 
-- If you want to use a specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must configure the **Mapping Text** value. To bypass this error when using G/L accounts, select the **Map Text to Account** action to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.**. Learn more at [account mapping](finance-how-use-edocuments-purchase.md#map-text-on-an-e-document-to-a-specific-vendor-account).  
-- If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must configure the **Item Reference No.** value. To bypass this error, map external items with your item numbers by using the item reference list. Learn more at [use item references](inventory-how-use-item-cross-refs.md).
+- If you want to use a specific line from your vendor invoice that you directly posted to the general ledger (G/L) account, you must configure the **Mapping Text** value. To bypass this error when using G/L accounts, select the **Map Text to Account** action to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.**. Learn more in [Account mapping](finance-how-use-edocuments-purchase.md#map-text-on-an-e-document-to-a-specific-vendor-account).
+- If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must configure the **Item Reference No.** value. To bypass this error, map external items with your item numbers by using the item reference list. Learn more in [Use item references](inventory-how-use-item-cross-refs.md).
 
 After you fix the errors and warnings, you can manually specify when to create a purchase invoice based on your setup by selecting **Create Document**.
 
@@ -128,20 +132,19 @@ The **Link to Existing Document** action allows you to associate an incoming e-d
 
 #### When to use this action
 
-> [!IMPORTANT]
-> We generally recommend using the e-document processing engine to automatically create new purchase documents rather than linking to existing documents. This ensures proper document tracking and audit trails.
+Use the e-document processing engine to automatically create draft purchase documents rather than link to existing documents. The processing engine ensures proper document tracking and audit trails.
 
-However, certain scenarios might require linking to existing documents. Currently, the **Link to Existing Document** action only supports intercompany scenarios. For example, with intercompany invoices, you might receive an e-document from the e-document service while an existing purchase document is already in the system.
+However, certain scenarios might require that you link to existing documents. Currently, the **Link to Existing Document** action only supports intercompany scenarios. For example, with intercompany invoices, you might receive an e-document from the e-document service while an existing purchase document is already in the system.
 
 > [!NOTE]
-> The **Link to Existing Document** action is hidden by default. To make it visible, use [personalization](ui-personalization-user.md) to show the action on the page.
+> The **Link to Existing Document** action is hidden by default. To show the action to the page, use [personalization](ui-personalization-user.md).
 
 #### Prerequisites
 
 Before you can use the **Link to Existing Document** action:
 
-- The e-document must have a vendor number assigned in the draft
-- The vendor must have an **IC Partner Code** configured on the vendor card (this is required because the action currently only supports intercompany scenarios)
+- The e-document must have a vendor number assigned in the draft.
+- The vendor must have an **IC Partner Code** configured on the vendor card. This setting is required because the action currently only supports intercompany scenarios.
 
 #### How to link an e-document to an existing document
 
@@ -156,67 +159,67 @@ To link an e-document to an existing purchase document, follow these steps:
 1. Select the document you want to link to.
 1. Confirm the linking action when prompted.
 
-#### What happens after linking
+#### What happens after you link an e-document
 
 When you link an e-document to an existing purchase document:
 
-|Field |Value |
-|--------|-----------------|
-|**E-Document Link** (on Purchase Document) |Set to the e-document's system ID |
-|**Doc. Amount Incl. VAT** |Transferred from e-document total |
-|**Doc. Amount VAT** |Transferred from e-document VAT total |
-|**Created from E-Document** |Set to **No** (the document existed before linking) |
-|**E-Document Status** |Changed to **Processed** |
+| Field | Value |
+| -------- | ----------------- |
+| **E-Document Link** (on Purchase Document) | Set to the e-document's system ID |
+| **Doc. Amount Incl. VAT** | Transferred from e-document total |
+| **Doc. Amount VAT** | Transferred from e-document VAT total |
+| **Created from E-Document** | Set to **No** (the document existed before linking) |
+| **E-Document Status** | Changed to **Processed** |
 
 > [!IMPORTANT]
 > No new purchase document is created when linking to an existing document.
 
 #### Relinking to a different document
 
-If the e-document is already processed (linked to a document) and you want to link it to a different document:
+If the e-document is already processed and linked to a document and you want to link it to a different document, follow these steps:
 
 1. When you select **Link to Existing Document**, a warning message appears:
 
    > "This e-document is already linked to a document. Linking to [Document Type] [Document No.] will unlink the currently linked document. If it was created from this e-document, it will be deleted. Do you want to continue?"
 
 1. If you proceed:
-   - If the previously linked document was created from this e-document: The document is deleted
-   - If the previously linked document was NOT created from this e-document: The document is unlinked only (**E-Document Link** field is cleared, but the document remains)
+   - If you created the previously linked document from this e-document, [!INCLUDE [prod_short](includes/prod_short.md)] deletes the document.
+   - If you didn't create the previously linked document from this e-document, the document is unlinked only. That is, the **E-Document Link** field is cleared, but the document remains.
 1. The newly selected document becomes linked to the e-document.
 
 #### Document type matching
 
 The **Link to Existing Document** action opens the appropriate document list based on the e-document type:
 
-|E-Document Type |Opens Page |
-|--------|-----------------|
-|Purchase Invoice |Purchase Invoices |
-|Purchase Credit Memo |Purchase Credit Memos |
+| E-Document Type | Opens Page |
+| -------- | ----------------- |
+| Purchase Invoice | Purchase Invoices |
+| Purchase Credit Memo | Purchase Credit Memos |
 
 #### Error messages
 
-When using the **Link to Existing Document** action, you might encounter the following errors:
+When you use the **Link to Existing Document** action, you might encounter the following errors:
 
-|Error |Cause |Resolution |
-|--------|-----------------|-----------------|
-|"Cannot link e-document to existing purchase document because vendor number is missing" |No vendor assigned to e-document |Assign a vendor in the **Vendor No.** field |
-|"IC Partner Code must have a value" |Vendor doesn't have IC Partner Code |Configure **IC Partner Code** on the vendor card |
+| Error | Cause | Resolution |
+| -------- | ----------------- | ----------------- |
+| "Cannot link e-document to existing purchase document because vendor number is missing" | No vendor assigned to e-document. | Assign a vendor in the **Vendor No.** field. |
+| "IC Partner Code must have a value" | Vendor doesn't have an intercompany (IC) partner code. | Fill in the **IC Partner Code** field on the vendor card. |
 
 #### Map text on an e-document to a specific vendor account
 
-To map lines with expenses for E-Documents, you need to map descriptions with **G/L Account**. Then, use the **Map Text to Account** action to link specific text on a vendor invoice from the **E-Document Service** to a vendor account. Any part of the E-document description that exists as a mapping text means that the **Vendor No.** field on the resulting document or journal lines of type **G/L Account** are filled with the vendor in question.
+To map lines with expenses for e-documents, you need to map descriptions with **G/L Account**. Then, use the **Map Text to Account** action to link specific text on a vendor invoice from the **E-Document Service** to a vendor account. Any part of the e-document description that exists as a mapping text means that the **Vendor No.** field on the resulting document or journal lines of type **G/L Account** are filled with the vendor in question.
 
-In addition to mapping text to a vendor account or G/L accounts, you can also map text to a bank account for electronic documents related to paid expenses. This option creates a general journal line that is ready to post to a bank account.
+In addition to mapping text to a vendor account or G/L accounts, you can also map text to a bank account for e-documents related to paid expenses. This option creates a general journal line that is ready to post to a bank account.
 
-1. Select the relevant E-Document line with the displayed error message and then choose **Map Text to Account** action. The **Text-to-Account Mapping** page displays.
+1. Select the relevant e-document line with the displayed error message and then choose **Map Text to Account** action. The **Text-to-Account Mapping** page displays.
 1. In the **Mapping Text** field, enter any text that appears on vendor invoices for which you want to create purchase documents or journal lines. You can enter up to 50 characters.
 1. In the **Vendor No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
 1. In the **Debit Acc. No.** field, enter the debit-type G/L account that is inserted on resulting purchase document or journal line of type G/L Account.
 
    > [!NOTE]
-   > Don't use the **Credit Acc. No.**, **Bal. Source Type**, and **Bal. Source No.** fields with E-documents.
+   > Don't use the **Credit Acc. No.**, **Bal. Source Type**, and **Bal. Source No.** fields with e-documents.
 
-1. Repeat steps 2 through 5 for all error messages on E-documents that you want to automatically create **G/L Accounts** and documents for.  
+1. Repeat steps 2 through 5 for all error messages on e-documents that you want to automatically create **G/L Accounts** and documents for.  
 
 #### Manually import invoices  
 
@@ -248,54 +251,62 @@ Peppol and similar e-invoicing files are machine-readable formats that aren't ea
 
 ## E-documents with purchase orders  
 
+The purchase order matching workflow in this section updates **Qty. to Invoice** on the linked purchase order and then posts that order. Matching lines on an incoming purchase invoice draft is a different workflow. Draft matching creates a separate unposted purchase invoice and keeps links from its lines to the purchase order and receipt lines. Learn more in [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md).
+
 ### Link purchase orders with the received e-documents
 
-If your **Vendor** configured the **Received E-Document To** field to work with **Purchase Orders**, once an electronic document is created in [!INCLUDE[prod_short](includes/prod_short.md)] (manually or from external end point), [!INCLUDE[prod_short](includes/prod_short.md)] does the following steps:  
+If your vendor configures the **Received E-Document To** field to work with **Purchase Orders**, when you create an electronic document in [!INCLUDE[prod_short](includes/prod_short.md)] (manually or from an external endpoint), [!INCLUDE[prod_short](includes/prod_short.md)] does the following:  
 
-1. If the **Purchase Order** for this particular vendor exists and there's a purchase order number in the receive **E-Document** file, [!INCLUDE[prod_short](includes/prod_short.md)] automatically links this **E-Document** with the mentioned **Purchase Order**, and the **Document Status** of this **E-Document** is set to **In Progress**, and the **E-Document Status** in the **Service Status** subpage is set to **Order linked**. This link is visible in the **Document** field on this specific **E-Document**. If you need to change the **Purchase Order** linked automatically, you can do it using the **Update Purchase Order Link** action and manually select one of the existing purchase orders for this vendor. You can only do it before matching the lines between **E-Document** and **Purchase Order**.  
+1. If the purchase order for this vendor exists and there's a purchase order number in the e-document file you received, [!INCLUDE[prod_short](includes/prod_short.md)] automatically links this e-document with the purchase order and sets the **Document Status** of the e-document to **In Progress**. It also sets the **E-Document Status** field on the **Service Status** subpage to **Order linked**. This link shows in the **Document** field on the e-document. If you need to change the purchase order link automatically, use the **Update Purchase Order Link** action and manually select another purchase order for the vendor. You can only change the link before you match the lines between the e-document and the purchase order.  
 
-1. If the **Purchase Order** for this particular vendor exists but there's no purchase order number in the received **E-Document** file, [!INCLUDE[prod_short](includes/prod_short.md)] offers the possibility to choose one of the existing purchase orders when and if you uploaded this document manually. This condition opens the **Purchase Orders** list with orders only for the vendor from whom you received the **E-Document**. You need to select the **Purchase Order** you want and then select **OK**. If you failed to select the correct **Purchase Order**, or obtained the **E-Document** automatically from an external endpoint using the **Job Queue**, a new **E-Document** isn't linked to any purchase document. The **Document Status** then shows **Error**, and the **E-Document Status** in the **Service Status** subpage also shows **Imported document processing error**. To finish linking with the **Purchase Order**, select the **Update Purchase Order Link** action and choose one of the existing purchase orders for this vendor.
+1. If the purchase order for the vendor exists but there's no purchase order number in the e-document file you received, [!INCLUDE[prod_short](includes/prod_short.md)] offers the option to choose another purchase order when you upload this document manually. This option opens the **Purchase Orders** list page with orders only for the vendor from whom you received the e-document. Select the **Purchase Order** you want, and then select **OK**. If you don't select the correct purchase order, or receive the e-document automatically from an external endpoint by using the job queue, the new e-document isn't linked to a purchase document. The **Document Status** field then shows **Error**, and the **E-Document Status** field on the **Service Status** subpage also shows **Imported document processing error**. To finish linking with the **Purchase Order**, select the **Update Purchase Order Link** action and choose one of the existing purchase orders for this vendor.
 
-1. If the **Purchase Order** for this particular vendor doesn't exist when a new **E-Document** is created, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same model of creation that already exists for new **Purchase Invoices**. The **Document Status** of this **E-Document** is set to **Processed**, and the **E-Document Status** in the **Service Status** subpage is set to **Imported document created**. After which, this link is visible in the **Document** field on this specific **E-Document**.
+1. If the purchase order for the vendor doesn't exist when you create a new e-document, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new purchase order in the same way as new purchase invoices. It sets the **Document Status** field on the e-document to **Processed**, and the **E-Document Status** field on the **Service Status** subpage to **Imported document created**. Afterward, this link shows in the **Document** field on the e-document.
 
 ### Match lines from received e-document with purchase order  
 
-You can match your received electronic documents with purchase orders' lines from two different places: from the **E-Document** page or from the **Purchase Order** page. The easiest way to locate the already linked **Purchase Orders** is to use the **Linked Purchase Orders** tile as a part of **E-Document Activities**. All nonlinked documents can be found using the tile **Waiting Purchase E-Invoices** where you have a list of **E-Documents** that you need to review. The **E-Document Activities** with these two tiles can be found in the following **Role Centers**: Business Manager Evaluation, Business Manager, Accountant, Inventory Manager, and Shipping and Receiving.
+You can match received electronic documents with purchase order lines from the **E-Document** or **Purchase Order** pages. The easiest way to locate purchase orders that are already linked is to use the **Linked Purchase Orders** tile as a part of **E-Document Activities**. Use the **Waiting Purchase E-Invoices** to find all unlinked documents. The tile opens a list of e-documents that you need to review. You can find the **E-Document Activities** with these two tiles on the following Role Centers:
+
+- Business Manager Evaluation
+- Business Manager
+- Accountant
+- Inventory Manager
+- Shipping and Receiving
 
 > [!TIP]
-> There are two ways to match lines. One way is to do it manually, as described in the article. The other way is to use the **E-document matching assistance with Copilot**. The E-document matching assistance feature helps you match received electronic invoices with existing purchase order lines by using large language modules (LLM) model. Learn more about [using Copilot][Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md).
+> There are two ways to match lines. One way is to do it manually, as described in the article. The other way is to use the **E-document matching assistance with Copilot**. The E-document matching assistance feature helps you match received electronic invoices with existing purchase order lines by using a large language model (LLM). Learn more in [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md).
 > [!NOTE]
 > If the VAT percentage differs between the incoming document and the company's VAT percentage, matching documents can't be used in a multi-country environment.  
 
 #### Match lines from purchase order  
 
-You can match the lines from the **Purchase Orders** list or from one of the opened **Purchase Orders**. To begin the process, use the following steps:  
+To match the lines from the **Purchase Orders** list or from one of the opened **Purchase Orders**, follow these steps:  
 
 1. Select the **Linked Purchase Orders** tile on your Role Center if there's a number.
 1. Choose one of the two options for matching:
 
-   - If you want to match the lines from the **Purchase Orders** list, select the **Purchase Order** line that you want to match and select the **Map E-Document Lines** action.  
-   - If you want to first open the **Purchase Order**, open the document and then select the **Map E-Document Lines** action.
+   - To match the lines from the **Purchase Orders** list, select the **Purchase Order** line that you want to match and select the **Map E-Document Lines** action.  
+   - To first open the **Purchase Order**, open the document and then select the **Map E-Document Lines** action.
 1. Because both options have the same process, the **Purchase Order Matching** page opens with the following content:
 
-    1. In the header, you can find the following information, which can help you to map the lines easier:
+    1. The following information in the header can make it easier to match the lines:
 
-       |Field name |Description |
-       |--------|-----------------|
-       |Vendor Name |Specifies the vendor’s name of the electronic document. |
-       |E-Document No. |Specifies the linked electronic document number. |
-       |E-Document Date |Specifies the linked electronic document date.  |
-       |E-Document Amount |Specifies the linked e-document total amount including VAT. |
+       | Field name | Description |
+       | -------- | ----------------- |
+       | Vendor Name | Specifies the vendor’s name on the e-document. |
+       | E-Document No. | Specifies the linked e-document number. |
+       | E-Document Date | Specifies the linked e-document date. |
+       | E-Document Amount | Specifies the linked e-document total amount, including VAT. |
 
-    1. In the lines, you can find the lines imported from the **E-Document** file on the left side and the lines from the existing **Purchase Order** on the right.  
+    1. In the lines, you can find the lines imported from the e-document file on the left side and the lines from the purchase order on the right.  
     1. All lines on both sides have item numbers and descriptions, together with the **Direct Unit Cost** and **Line Discount %**.  
     1. On the **Imported Lines** side, you can also locate the **Quantity** field as a total quantity from e-invoice and the **Matched Quantity** field specifying the quantity that is already matched to the purchase order lines.
-    1. On the **Purchase Orders Lines** side, you can also find the **Available Quantity** as the quantity that can be matched to this line (received, but not invoiced quantity) and **Qty. to Invoice**, specifying the quantity that is already matched to this line.
+    1. On the **Purchase Orders Lines** side, you can also find the **Available Quantity** as the quantity that you can match to this line (received, but not invoiced quantity) and **Qty. to Invoice**, specifying the quantity that is already matched to this line.
     1. To match lines, select the lines on both sides that you want to match and select the **Match Manually** action. The matched lines are marked in green.
-    1. It's possible to match one to one, but it's also possible to match many to one or one to many, by selecting more lines on one side or the other before you choose the **Match Manually** action.
+    1. You can match one to one, but you can also match many to one or one to many. Select more lines on one side or the other before you choose the **Match Manually** action.
     1. You can also select the **Match Automatically** action to automatically match all lines with the same **Type**, **No.**, **Unit Price**, **Discount**, and **Unit of Measure**.
-    1. If you make a mistake, you can select the **Remove Match** action to remove the matched lines on the purchase order side or select the **Reset Matching** action to reset all matches.
-    1. If your **E-Document** has many lines, you can select the **Show Pending Lines** action during the matching process to remove all the e-document lines if they're already matched. If you need to view all the lines, you can always select the **Show All Lines** action.
+    1. If you make a mistake, select the **Remove Match** action to remove the matched lines on the purchase order side or select the **Reset Matching** action to reset all matches.
+    1. If your e-document has many lines, you can select the **Show Pending Lines** action during the matching process to hide the e-document lines that are already matched. If you need to show all lines, you can always select the **Show All Lines** action.
 
 1. After you finish the matching, select the **Apply To Purchase Order** action.
 1. After you apply the matching to the purchase order, [!INCLUDE[prod_short](includes/prod_short.md)] updates the following fields:
@@ -309,16 +320,15 @@ You can match the lines from the **Purchase Orders** list or from one of the ope
 > [!IMPORTANT]
 > By default, you can match only the lines that have the same total amount in both documents. That means **Direct Unit Cost** together with the applied Line **Discount %** must be the same, because in one document you can have an amount without discount and in another with discount.  
 
-If you want to add tolerance and allow the difference between lines in e-invoice and purchase order, follow these steps:
+To add tolerance and allow differences between lines in the e-invoice and purchase order, follow these steps:
 
 1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then select the related link.  
-1. Allow tolerance in the **E-Document Matching Difference %** field by specifying the maximum percentage of cost difference to allow when matching an incoming e-document line with a purchase order line.
-1. This setup applies to all the matching lines, but considers the tolerance for the total amount, as for **Direct Unit Cost** together with applied **Line Discount %**.  
+1. In the **E-Document Matching Difference %** field, specify the maximum percentage of cost difference to allow when matching an incoming e-document line with a purchase order line. This setting applies to all matched lines, but it considers the tolerance for the total amount, which is **Direct Unit Cost** together with the applied **Line Discount %**.  
 1. Close the page.
 
 ##### Other options
 
-If your inbound electronic invoice has lines that aren't on your purchase order, [!INCLUDE[prod_short](includes/prod_short.md)] prevents you from posting the document because you can't partially post an incoming invoice. Therefore, you must ensure that you all invoice lines are correctly mapped to the purchase order. If you experience this issue, follow these steps to resolve it:
+If your inbound e-invoice has lines that aren't on your purchase order, [!INCLUDE[prod_short](includes/prod_short.md)] prevents you from posting the document because you can't partially post an incoming invoice. Therefore, you must ensure that all invoice lines are correctly mapped to the purchase order. If you experience this issue, follow these steps to resolve it:
 
 1. On the **Imported Lines** FastTab on the **Purchase Order Matching** page, choose the line that doesn't exist on the purchase order. Now choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="Screenshot of the AssistEdit button."::: button, and choose the **Create Purchase Order Line** action.
 1. On the **E-Doc. Create Purch Order Line** page, in the **Type** field, choose the type of line you want to create in your purchase order. You can choose any of type.
@@ -331,9 +341,9 @@ If your inbound electronic invoice has lines that aren't on your purchase order,
 > [!NOTE]
 > If you change the quantity, the unit amount recalculates to the same total amount as the original invoice line.
 
-#### Matching lines from e-document  
+#### Match lines from an e-document  
 
-You can match the lines on the **E-Document** page. To begin, use the following steps:  
+To match the lines on the **E-Document** page, follow these steps:  
 
 1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Documents**, and then select the related link.
 1. Select the **E-Document** that you want to match.
@@ -342,21 +352,24 @@ You can match the lines on the **E-Document** page. To begin, use the following 
 
 ## Overview of e-document statuses
 
-To get a better overview of all e-documents in the company, you can select the **Accountant** Role Center where e-document statuses exist. There, you can find e-document activities that have the following statuses:
+The **Accountant** Role Center offers an overview of all e-documents in the company. There, you can find e-document activities that have the following statuses:
 
 - **Incoming e-documents:**
   - Processed
   - In Progress
   - Error
 
+To learn how to use the Role Center, go to [Change the role](ui-change-basic-settings.md#change-the-role).
+
 ## Related information
 
-- [Set up e-documents](finance-how-setup-edocuments.md)  
-- [Use e-document in the sales process](finance-how-use-edocuments.md)  
-- [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-- [Financial Management](finance.md)  
-- [Invoice sales](sales-how-invoice-sales.md)  
-- [Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)  
-- [Work with Business Central](ui-work-product.md)  
+[Set up e-documents](finance-how-setup-edocuments.md)  
+[Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md)  
+[Use e-document in the sales process](finance-how-use-edocuments.md)  
+[Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Financial Management](finance.md)  
+[Invoice sales](sales-how-invoice-sales.md)  
+[Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)  
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

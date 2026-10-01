@@ -3,7 +3,7 @@ title: Review and Edit Expenses in Expense Agent
 description: Review and edit expense details in Expense Agent after AI receipt scanning or manual entry. Update the vendor, amount, category, and other fields.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 07/03/2026
+ms.date: 09/25/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -11,6 +11,8 @@ ai-usage: ai-assisted
 ---
 
 # Review and edit your expenses
+
+[!INCLUDE [online_only](../includes/online_only.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -27,7 +29,7 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
    | Fields | Description |
    | --- | --- |
    | **Merchant** | The merchant or business name. |
-   | **Amount** | The expense total. |
+   | **Amount** | The expense total, including VAT when applicable. |
    | **Date** | The transaction date. |
    | **Description** | A note about the expense. |
    | **Payment Means** | How the expense was paid, such as credit card or cash. |
@@ -38,6 +40,8 @@ After Expense Agent scans a receipt or you create an expense manually in [!INCLU
 1. Select **Save Changes**.
 
 > [!NOTE]
+> Expense cards show the total as **Amount incl. VAT**. The web and mobile apps don't show or let you edit the VAT breakdown. Learn more in [How Expense Agent captures VAT](expense-agent-upload-receipts.md#how-expense-agent-captures-vat).
+>
 > You can edit an expense as long as it isn't submitted as part of an expense report. After you submit a report, you must wait for it to be sent back before you can make changes.
 
 ## Delete an expense
@@ -50,13 +54,13 @@ Deleting an expense also removes it from any draft expense report it was added t
 
 ## View expense details
 
-Select any expense on the **Drafts** tab and choose **Review** to open details. On the **Submitted** tab, you can also view by choosing **Details**. The detail view shows a summary that includes the following fields.
+On the **Drafts** tab, select **Review** on the expense report to open details of each expense in the report. On the **Submitted** tab, you can also view by selecting **Details**. The detail view shows a summary that includes the following fields.
 
 | Fields | Description |
 | --- | --- |
-| **Amount and currency** | The expense total. |
-| **Policy status** | Whether the expense meets company policy, including any warnings or issues. |
-| **Attachments** | The uploaded receipt image or file. |
+| **Amount and currency** | Shows the expense total. |
+| **Status and compliance** | Shows the current expense status and any rule violations. When an administrator enables AI-assisted policy evaluation, it can also show policy outcomes such as **Flagged** or **Policies pending**. For an expense with policy issues, the **Summary** section shows the current explanations and evaluation times. Learn more in [How expense policy and rules compliance work](expense-agent-policy-compliance.md). |
+| **Attachments** | Shows the number of uploaded receipt images or files. |
 
 Use the detail view to quickly check an expense in draft mode before you add it to a report.
 
@@ -70,7 +74,7 @@ Sometimes the AI can't fully process a receipt. For example, if it can't identif
 1. Fill in or correct the flagged information.
 1. Select **Save Changes**.
 
-After you save your corrections, AI runs the processing flow again. If everything is resolved, the expense is added to an expense report.
+After you save your corrections, Expense Agent processes the expense again. If everything is resolved, the expense is added to an expense report.
 
 ## Next steps
 

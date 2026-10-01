@@ -1,11 +1,12 @@
 ---
-title: Combine receipts or PO lines on a single invoice
+title: Combine Receipts or PO Lines on a Single Invoice
 description: Use the Combine Receipts function to invoice multiple purchase receipts from the same vendor on a single purchase invoice.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: combine receipts, single invoice, purchase invoice, purchase receipt, purchase order, blanket purchase order, post purchase invoice, get receipt lines
 ms.search.form: 136, 145, 146, 9308
-ms.date: 03/23/2026
+ms.date: 09/27/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -29,7 +30,7 @@ When you combine and post purchase receipts on an invoice, a posted purchase inv
 > [!NOTE]
 > You can't change or cancel the resulting purchase invoice, for example, to correct a mistake. If you want to modify a purchase invoice that you created in this way, you must use a purchase credit memo. Learn more in [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
-To att lines from receipts, follow these steps:
+To add lines from receipts, follow these steps:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action. Learn more in [Record Purchases](purchasing-how-record-purchases.md).  
@@ -53,18 +54,20 @@ Repeat steps 1 through 3 for any other affected documents, such as blanket purch
 
 The **Get Order Lines** action on the **Purchase Invoice** page opens a list of order lines that are received but not invoiced, or order lines that aren't received. You can match each invoice line to any number of purchase order lines, regardless of whether receipts exist. When receipts exist, they display with the relevant details. When receipts don't exist, you can match the invoice line directly to the purchase order lines and decide later whether to receive manually or to use the autoreceipt capability.
 
-From each invoice line, you can open the **Matched Order Lines** page to review and adjust the order lines that you'll invoice with that invoice line. You can edit quantities, add more purchase order lines or posted receipt lines, and review discrepancies such as price or amount differences. You can also open the **Matched Order Lines** page on the invoice header to review and correct matching across the entire document.
+From each invoice line, you can open the **Matched Order Lines** page to review and adjust the order lines that you'll invoice with that invoice line. You can edit quantities and add more purchase order lines or posted receipt lines. You can also open **Matched Order Lines** from the invoice header to review and correct matching across the entire document. Price and quantity warnings for incoming invoice drafts appear in **Warnings** on the **Purchase document draft** page, not on **Matched Order Lines**.
 
 On purchase orders, the **Matched Invoice Lines** field shows the quantity matched through invoice lines to each order line. 
 
-When you turn on the **Receipt on Invoice** toggle on the order, posting the linked invoice automatically creates the required receipts. However, you can't enable this option for orders that use advanced warehouse operations or item tracking, or are already partially received.
+When you turn on **Receipt on Invoice** on eligible order lines, posting the linked invoice first creates receipts for the matched quantity and then invoices it. You can't enable this option for lines that require item tracking, use a location with directed put-away and pick, or have any existing posted receipts.
+
+On the **Vendor Card** page, the **Receipt on Invoice** policy sets the default for new orders. **Manual** leaves the option off so that you can choose it on eligible orders or lines. **Automatic** turns it on for new eligible order headers and lines. This policy is optional and doesn't change existing orders.
 
 To add lines from purchase orders, follow these steps:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action. Learn more in [Record Purchases](purchasing-how-record-purchases.md).  
 3. On the **Lines** FastTab, choose the **Get Order Lines** action.  
-4. Select the orders that you want to include in the invoice.  
+4. Select one or more eligible purchase order lines that you want to match to the invoice.
 
     If you chose an incorrect order or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Order Lines** action again.  
 5. To post the invoice, choose the **Post** action.
@@ -75,12 +78,13 @@ This feature has a few limitations to be aware of:
  
 - It doesn’t work with orders that have prepayments, or lines of the **Item Charges** type.
 - You can’t use it with orders linked to projects, subcontracting, blanket orders, or intercompany transactions.
-- You can’t use autoreceive with partially received lines, or locations that use directed put-away and pick (in warehouse management).
+- You can’t use **Receipt on Invoice** for lines with any existing posted receipts, lines that require item tracking, or locations that use directed put-away and pick.
 
 ## Related information
 
-[Purchasing](purchasing-manage-purchasing.md)  
-[Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+- [Purchasing](purchasing-manage-purchasing.md)
+- [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md)
+- [Correct or cancel unpaid purchase invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Learn how to manually create a firm planned production order that b
 author: brentholtorf
 ms.topic: how-to
 ms.search.form: 9325, 99000815, 99000829, 9900083
-ms.date: 07/15/2026
+ms.date: 09/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -35,6 +35,21 @@ Production orders specify which items to produce, in what quantities, and by whi
 9. In the **Quantity** field, specify how many units to produce on the line.
 
 When production requirements change, such as components or operations, you can quickly replan the production order. To learn more, go to [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).  
+
+## Create a production order by copying lines
+
+Instead of entering the source and lines manually, you can create a production order and copy lines from an existing order.
+
+1. Open the **Simulated Production Orders**, **Planned Production Orders**, **Firm Planned Production Orders**, or **Released Production Orders** page, depending on the status of the order that you want to create.
+2. Select the **New** action, and then fill in the **No.** field.
+3. Select the **Copy Prod. Order Document** action.
+4. In the **Status** field, enter the status of the production order that you want to copy from.
+5. In the **Document No.** field, select the source production order.
+6. Turn on **Include Header** to copy selected values from the source order header, and then select **OK**.
+
+The action copies production order lines, including their production BOM and routing references. It doesn't copy component or routing-operation records. To generate those records from the references on the copied lines, select the **Refresh Production Order** action. On the request page, turn off **Lines** so that the copied lines aren't replaced, and leave **Routings** and **Component Need** turned on.
+
+If the destination order already has lines, the copied lines are added after them.
 
 ## Related information
 

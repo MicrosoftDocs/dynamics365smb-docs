@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
-ms.date: 10/20/2025
+ms.date: 08/27/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -67,6 +67,8 @@ The following steps describe how to add a fixed asset from a purchase order. The
 1. In the **No.** field, either choose an existing fixed asset to add an expense, or choose **New** to add a new asset.
 1. After you enter the information for the new asset and the purchase order, choose **Post**.
 
+If you track sustainability value chain emissions, the purchase line can inherit the fixed asset's default sustainability account and emissions. Posting creates sustainability entries for the acquisition. Learn more in [Track fixed asset emissions in the sustainability value chain](value-chain-howto-fixed-assets.md#track-emissions-when-you-acquire-a-fixed-asset).
+
 ### Create multiple fixed assets with a purchase order or invoice
 
 You can create multiple fixed assets automatically when you post a purchase invoice. For example, if your company purchases 200 computers of the same kind from the same vendor, you don't have to manually create a fixed asset card for each computer. [!INCLUDE [prod_short](includes/prod_short.md)] can create the fixed assets automatically.  
@@ -116,6 +118,8 @@ The following procedure describes how to acquire a fixed asset manually by creat
 1. On the **Fixed Asset G/L Journal** page, in the **FA Posting Type** field, select **Acquisition Cost**.
 1. Fill in the remaining fields as necessary.
 1. Choose the **Post** action.  
+
+If you track fixed asset emissions, you can enter **Sust. Account No.** and **Total CO2e** for an **Acquisition Cost** line. Other fixed asset posting types don't accept sustainability data. Learn more in [Track fixed asset emissions in the sustainability value chain](value-chain-howto-fixed-assets.md#acquire-a-fixed-asset-from-a-journal).
 
 > [!TIP]  
 > If you fill in the **Insurance No.** field, [!INCLUDE[prod_short](includes/prod_short.md)] also posts the acquisition cost of the fixed asset to the insurance coverage ledger. Learn more in [Insure Fixed Assets](fa-how-insure.md).

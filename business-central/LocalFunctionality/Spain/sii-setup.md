@@ -1,12 +1,12 @@
 ---
 title: Set up SII for VAT reporting [ES]
-description: Learn how to set up and submit documents using SII for VAT reporting in the Spanish version of Business Central.
+description: Set up and submit documents with SII in Business Central, and resolve incorrect or pending statuses from posted documents in Spain.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: SII, set up SII, enable SII module, VAT reporting, Job batch submission thresholds, Set VAT exemptions, Ignore invoice lines, Spanish version
+ms.search.keywords: SII, set up SII, enable SII module, VAT reporting, job batch submission thresholds, VAT exemptions, ignore invoice lines, Mark As Accepted, posted documents, Spanish version
 ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
-ms.date: 05/29/2025
+ms.date: 09/18/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -23,6 +23,7 @@ ms.reviewer: v-soumramani
 
    The **Enabled** field is automatically selected if you import a certificate in the **Certificate Code** field on the **Certificate** FastTab.  
 
+1. To make advanced SII actions available, select **Show Advanced Actions**.
 1. In the **Operation Date** field, specify whether you want to use the posting date or the document date as the operation date in the XML file that's sent to the tax authorities through SII.  
 1. If you want to submit documents in batches, select the **Enable Batch Submission** field. If you enable document batch submissions, you can submit documents in batches either manually or automatically. For automatic batch submission, documents are transferred to the **SII History** page in a status of *Pending* when you post them. Then, when the threshold value is met or exceeded, the documents are submitted in batches. Learn more in the [Job batch submission thresholds](#job-batch-submission-thresholds) section.
 
@@ -43,6 +44,20 @@ If the threshold is set to zero (0), documents are submitted when posted.
 If the threshold is set to one or more, documents are automatically submitted in batches. When the number of pending entries exceeds the threshold value, all pending entries are automatically submitted.  
 
 You can always manually submit documents that have a *Pending* status by selecting **Retry** or **Retry All** on the **SII History** page.
+
+## Mark a posted document as accepted
+
+If an SII document remains in the *Incorrect* or *Pending* status, you can mark it as accepted directly from the posted document. You can use this action on posted sales, purchase, and service invoices and credit memos.
+
+> [!IMPORTANT]
+> The **Mark As Accepted** action doesn't transmit or retry the document. It changes the local SII status to *Accepted With Errors* and records who accepted the document and when. Before you use the action, verify the document's status with the Spanish Tax Agency.
+
+1. Open the posted invoice or credit memo.
+1. On the **Process** action group, select **Mark As Accepted**.
+
+The page updates the **SII Status** to *Accepted With Errors*. If the document is already accepted, Business Central notifies you and doesn't change the status. If the document hasn't been transmitted and has no SII status, Business Central notifies you that no status is available.
+
+The **Mark As Accepted** action is available when SII is enabled and **Show Advanced Actions** is selected on the **SII Setup** page. You can also mark documents as accepted from the **SII History** page.
 
 ## Specify customers without a registered NIF with AEAT
 

@@ -1,7 +1,7 @@
 ---
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
-ms.date: 09/03/2026
+ms.date: 09/04/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -73,6 +73,8 @@ On the **Business Manager** Role Center, the **Shopify Activities** part offers 
 - **Unprocessed Shipments**: Posted sales shipments originated from Shopify orders aren't synchronized with Shopify.
 - **Shipments Errors**: Shopify Connector couldn't synchronize posted sales shipments with Shopify.
 - **Synchronization Errors**: There are failed job queue entries related to synchronization with Shopify.
+- **Skipped Records**: Records such as products, prices, customers, companies, catalogs, shipments, or invoices weren't exported because the connector identified data that Shopify would reject or that isn't valid for the operation. Open the cue to review the reason for each record.
+- **API Errors**: Shopify API requests returned errors. Open the cue to review the related Shopify log entries.
 - **Unprocessed Order Updates**: There are Shopify orders that were already processed in [!INCLUDE [prod_short](../includes/prod_short.md)], but a new edition was received from Shopify. Because changes weren't synchronized to the processed order in [!INCLUDE [prod_short](../includes/prod_short.md)], you must update the processed documents to match the received data from Shopify. To learn more, go to [Effect of order editing](synchronize-orders.md#effect-of-order-editing).
 
 > [!Tip]

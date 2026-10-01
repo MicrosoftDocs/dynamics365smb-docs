@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: article
 ms.search.keywords: data, search, record
 ms.search.form: 
-ms.date: 09/23/2024
+ms.date: 09/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

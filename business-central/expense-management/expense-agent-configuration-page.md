@@ -1,15 +1,17 @@
 ---
-title: Set up Expense Agent
-description: Learn how to set up Expense Agent to automate expense tracking, processing, and approval workflows in Business Central.
+title: Set Up Expense Agent in Business Central
+description: Learn how to set up Expense Agent to automate expense tracking, processing, policy evaluation, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 09/17/2026
+ms.date: 09/26/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ai-usage: ai-assisted
 ---
 
 # Set up Expense Agent
+
+[!INCLUDE [online_only](../includes/online_only.md)]
 
 Expense Agent helps automate expense tracking, processing, and approval workflows in Business Central. After you set it up, employees can submit expenses through email or the Expense Agent web app, and the agent creates expense reports and applies configured rules automatically.
 
@@ -18,7 +20,7 @@ Expense Agent helps automate expense tracking, processing, and approval workflow
 You can configure Expense Agent in two ways:
 
 - **Assisted setup (recommended)**: Use **Configure Expense Agent** for guided onboarding, quick activation, and built-in validation checks as described in this article.
-- **Manual setup (advanced)**: Use the **Expense Agent Setup** page to configure settings directly and manage detailed options after initial setup. Learn more in [Access expense management setup](expense-management-setup.md#access-expense-management-setup).
+- **Manual setup (advanced)**: Use the **Expense Management Setup** page to configure settings directly and manage detailed options after initial setup. Learn more in [Access expense management setup](expense-management-setup.md#access-expense-management-setup).
 
 For most organizations, assisted setup is the best way to get started quickly.
 
@@ -41,7 +43,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
     - **EXPENSE AGENT**
     - **SECURITY**
 
-  The permission sets must be assigned to the company you're configuring or to all companies. Equivalent object permissions don't satisfy this prerequisite because activation manages the Microsoft Entra application for Expense Agent and the application's company-specific permissions.
+  The permission sets must be assigned to the company you're configuring or to all companies. Equivalent object permissions don't satisfy this prerequisite. When you activate Expense Agent, Business Central manages the agent's Microsoft Entra application and company-specific permissions.
 
 - A shared mailbox is available for receiving expense submissions from employees and for communication with users sending different information reports back.  
   
@@ -52,7 +54,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
 - Number series, payment methods, and posting groups for expenses are configured (optional).  
 
-  You can choose to use default values during setup, and it creates these entities for you. 
+  You can apply default values during assisted setup. Business Central then creates these records for you.
 
 - Billing for agent capabilities is set up in Business Central admin center.
 
@@ -66,11 +68,11 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 ## Configure Expense Agent
 
 Use the **Configure Expense Agent** page to configure and activate the agent.
-The page guides you through agent setup. You configure submission channels, access controls, defaults, and policies, then activate the agent to handle registration.
+The page guides you through agent setup. You configure submission channels, access controls, defaults, and policies, then activate the agent to register incoming expenses.
 
 1. In the upper-right corner of the role center, select the ![Shows the Expense Agent icon in the role center when the agent is not configured](../media/expense-agent-unconfigured-icon-small.png) **Expense Agent** icon, and then select **Activate**.
 1. Follow the instructions onscreen to configure how the agent behaves.
-1. The configuration options are spread across multiple pages. Use the **Go to next card** and **Go to previous card** arrows to move between pages.
+1. The configuration options are spread across multiple pages. Use the **Go to next card** (<kbd>Ctrl</kbd>+<kbd>Right arrow</kbd>)and **Go to previous card** (<kbd>Ctrl</kbd>+<kbd>Left  arrow</kbd>) arrows to move between pages.
 1. When you finish configuring the options, turn on the **Active** toggle to activate the agent.  
    If you don't want to activate the agent yet, leave the toggle off. You can return to the page to activate the agent later.
 1. Select **Update**.
@@ -89,24 +91,24 @@ The assisted setup configures the following areas:
 - **Access and submission**: Configure receipt submission channels, mailbox account, and who can configure the agent or work on behalf of users.
 
    > [!NOTE]
-> You must turn on **Enable access via web app** to use Expense Agent capabilities. **Enable sending email with receipts** is optional. If you use a dedicated mailbox for forwarding receipt emails, turn on this option and specify the associated account in the next step.
+   > **Enable access via web** is always on and can't be turned off, so registered users can always submit and review expenses through the web app. **Enable sending email with receipts** is optional. If you use a dedicated mailbox for forwarding receipt emails, turn on this option and specify the associated account in the next step.
 
-- **Accounting defaults**: Apply number series, payment methods, posting groups, and expense categories. Some options become locked after defaults are applied.
+- **Accounting defaults**: Apply number series, payment methods, posting groups, expense categories, and country/region-specific VAT rates. Some options become locked after defaults are applied.
 - **Management defaults**: Apply default expense locations and management rules. Rule defaults depend on locations.
 
    > [!NOTE]
-   > Select links for suggested default account and management settings to review the recommended configuration. It provides guidance on what setup can be completed automatically and what may require manual adjustment after the configuration is finished.
+  > Select links for suggested default account and management settings to review the recommended configuration. The suggested settings explain which setup tasks can be completed automatically and which tasks might require manual adjustment after configuration.
 
-- **Rules and controls**: Configure policy enforcement such as required receipt number, required merchant name, default approver, and anti-corruption attestation visibility.
+- **Rules and controls**: Configure required receipt numbers, required merchant names, the default approver, anti-corruption attestation visibility, and AI-assisted policy evaluation after submission.
 - **Communication**: Configure open-report reminder behavior, approval notifications, and notification frequency.
 - **Projects**: Configure whether project fields are visible and which projects submitters can see.
-- **Mileage and per diem**: Configure mileage rate/UOM and per diem calculation options, including partial-day settings.
+- **Mileage and per diem**: Configure the default mileage rate and unit of measure, and per diem calculation options, including partial-day settings. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
 When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the assisted setup prompts you to address them before activation completes.
 
 If you deactivate the agent later, Business Central stops processing incoming expenses and disables background processing. Your configuration settings are retained so that you can reactivate the agent without reconfiguring it.
 
-For complete field-by-field reference and advanced options on the **Expense Agent Setup** page, go to [Set up expense management](expense-management-setup.md).
+Learn about field-by-field reference and advanced options on the **Expense Management Setup** page in [Set up expense management](expense-management-setup.md).
 
 ## After you finish setup
 
@@ -179,7 +181,7 @@ Before you can add or delete permission sets applied to the agent, change the **
 
 ## Troubleshooting
 
-For setup, processing, and user issues, go to [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md).
+Learn more in [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md) about setup, processing, and user issues.
 
 ## Next steps
 

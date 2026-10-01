@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: desktop, Windows, app
-ms.date: 06/17/2026
+ms.date: 09/11/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -24,15 +24,15 @@ You can access your [!INCLUDE[prod_short](includes/prod_short.md)] data from you
 > [!Video https://learn-video.azurefd.net/vod/player?id=2b0d907c-c59a-4bcc-a42c-bc2c7e6499a8]
 
 > [!TIP]
-> Do want an app on your Windows or macOS computer desktop? See [Get the Business Central Desktop App](install-desktop-app.md).
+> Do you want an app on your Windows or macOS computer desktop? Learn how in [Get the Business Central Desktop App](install-desktop-app.md).
 
 ## Get the app on my mobile device
 
 1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the App Store or Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
-2. Launch the app from your mobile device.
-3. Enter your user name and password that you created during sign-up for [!INCLUDE[prod_short](includes/prod_short.md)] and follow the instructions on the screen.
+1. Launch the app from your mobile device.
+1. Enter your user name and password that you created during sign-up for [!INCLUDE[prod_short](includes/prod_short.md)] and follow the instructions on the screen.
 
     If your [!INCLUDE [prod_short](includes/prod_short.md)] has more than one production environment, you're asked to choose the environment that you want to access.
 
@@ -40,6 +40,9 @@ You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and
 
 > [!TIP]
 > If you want to connect the app to a sandbox environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, if you have more than one sandbox environment, choose the relevant environment.
+
+> [!TIP]
+> If you have repeated problems signing in or connecting, choose the **Advanced options** button, expand **Connection troubleshooting**, and turn off **Enhanced connectivity**. Learn more in [Mobile Apps FAQ](ui-mobile-faq.yml).
 
 ## Use Business Central on-premises?
 
@@ -49,21 +52,21 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
-2. Launch the app from your mobile device.
-3. Instead of entering an email address on the **Welcome** page, choose the **Advanced options** button, and then choose the **On-premises** sign-in option.
-4. On the next page, in the **Service name** box, enter the web address that you use to open [!INCLUDE[prod_short](includes/prod_short.md)], such as *https://mybusinesscentral:443/BC170*. If you're not sure, ask your administrator.
-5. Next, enter your user name and password for accessing Business Central.
+1. Launch the app from your mobile device.
+1. Instead of entering an email address on the **Welcome** page, choose the **Advanced options** button, and then choose the **On-premises** sign-in option.
+1. On the next page, in the **Service name** box, enter the web address that you use to open [!INCLUDE[prod_short](includes/prod_short.md)], such as *https://mybusinesscentral:443/BC170*. If you're not sure, ask your administrator.
+1. Next, enter your user name and password for accessing Business Central.
 
    When completed, the Business Central App opens.
 
 > [!NOTE]
-> If you're having problems getting the app to work properly, talk to your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
+> If you're having problems getting the app to work properly, talk to your administrator. It could be a missing prerequisite or an incomplete configuration. Learn more in [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
 ## Related information
 
 [Mobile Apps FAQ](ui-mobile-faq.yml)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

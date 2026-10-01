@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain
 ms.search.form: 50, 51
-ms.date: 01/22/2025
+ms.date: 09/27/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -35,14 +35,19 @@ To learn how to work with purchase documents in sustainability, go to [How to re
 If you enabled the value chain on the **Sustainability Setup** page, and created a purchase document with the **Sustainability Accounts** and emissions (minimum one emission), [!INCLUDE [prod_short](includes/prod_short.md)] automatically starts the sustainability value chain and posts details to the **Sustainability Value Entries** page.  
 
 > [!NOTE]
-> [!INCLUDE [prod_short](includes/prod_short.md)] only creates sustainability value entries for items. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't support emissions from item charges.
+> [!INCLUDE [prod_short](includes/prod_short.md)] creates sustainability value entries for items and fixed assets. It doesn't support emissions from item charges. Fixed asset lines use a separate calculation and posting flow. Learn more in [Track fixed asset emissions in the sustainability value chain](value-chain-howto-fixed-assets.md).
 
 > [!IMPORTANT]
 > Because the sustainability value chain works only with the carbon equivalent (CO2e), before you start, configure carbon equivalent factors on the Emission Fees page. To learn more, go to [Emission fees](value-chain-howto-setup.md#emission-fees).  
 
 After you post the purchase documents, the results display on the **Posted Purchase Invoice** or **Posted Purchase Credit Memo** pages. To review the results, use the **Find entries** action. In the list of entries, find the sustainability value entry. To open a list of value chain transactions related to your purchase documents, select the entry.  
 
-When you post the document, [!INCLUDE [prod_short](includes/prod_short.md)] also updates the **CO2e per Unit** field for all items in your purchase document. If the purchase document was the first for this item, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value from document. If you already had documents, [!INCLUDE [prod_short](includes/prod_short.md)] uses the average model to calculate the **CO2e per Unit** value for your item.
+When you post the document, [!INCLUDE [prod_short](includes/prod_short.md)] also updates the item's carbon information. The result depends on the **Carbon Tracking Method** on the **Item Card** page:
+
+- For **Average**, [!INCLUDE [prod_short](includes/prod_short.md)] updates the item's **CO2e per Unit**. The first purchase establishes the value. Later purchases update it by using the average method.
+- For **Specific**, [!INCLUDE [prod_short](includes/prod_short.md)] records the calculated CO2e on the item ledger entries created by the purchase. Later transactions use the CO2e from the item entries that they apply to. If the item uses lot tracking, assign the lot when you post the purchase so that later transactions can use the value for that lot.
+
+For more information about the methods, see [Choose how to track carbon for an item](value-chain-howto-setup.md#choose-how-to-track-carbon-for-an-item).
 
 ## Related information
 

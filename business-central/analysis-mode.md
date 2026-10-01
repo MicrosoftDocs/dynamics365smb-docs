@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 03/13/2026
+ms.date: 09/18/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -171,6 +171,20 @@ Here are some pointers on working with multiple analysis views:
    > [!TIP]
    > The analysis views that you set up are only visible to you. Other users only see the views that they set up.
 - You can copy analysis views. Copying can be useful, for example, for experimenting with changing a view without changing the original. Copying is also useful if you want to create different variations of the same analysis.
+
+#### Bookmark an analysis view on your Role Center
+
+Starting in Business Central 2026 release wave 2, you can bookmark an analysis view to open the page or query directly in analysis mode with that view selected.
+
+1. Select the analysis view that you want to bookmark.
+2. Select the down arrow on the analysis view, and then select **Bookmark view**.
+
+> [!NOTE]
+> The **Bookmark view** action isn't available when personalization isn't enabled.
+
+An action is added to the navigation menu on your Role Center. Its caption consists of the page or query caption, a slash, and the analysis view caption. Select the action to open the bookmarked analysis view.
+
+To remove the bookmark, select the down arrow on the analysis view, and then select **Bookmark view** again. If you rename a bookmarked analysis view, the bookmark caption is also updated. If you delete an analysis view, its bookmark is removed. If you select **Delete All**, all corresponding bookmarks are removed. Learn more about bookmarks in [Bookmark a page or report on your role center](ui-bookmarks.md).
 
 ## Date hierarchies
 

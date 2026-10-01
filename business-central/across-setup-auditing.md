@@ -3,9 +3,9 @@ title: Audit changes to your setup
 description: Learn how to track the changes people make to your setup.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 10/20/2025
+ms.date: 09/02/2026
 ms.custom: bap-template
 ms.search.keywords: auditing, audit changes, set up changes
 ms.search.form: 103, 108, 488
@@ -18,7 +18,10 @@ ms.service: dynamics-365-business-central
 
 ## Set up the change log to capture changes
 
-You can use the Change Log feature to capture changes to your setup. For example, you can find out what changed, who changed it, and when the change was made.
+> [!NOTE]
+> Starting in 2026 release wave 2, [!INCLUDE [prod_short](includes/prod_short.md)] automatically records changes to financial report definitions. You don't need to set up anything.
+
+You can use the Change Log feature to capture changes to your setup. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)]
 
 To use the Change Log to monitor your setup, you must specify the tables you want it to monitor. The following table lists some examples of finance setup tables where you might want to setup change tracking. Learn more in [Log changes](across-log-changes.md) to know about the Change Log.
 
@@ -42,7 +45,7 @@ Learn more in [Setting Up Finance](finance-setup-finance.md) for information on 
 > [!TIP]
 > If you want to track changes to data that isn't shown in the table, you can use the page inspection tool on the page that shows the data to find the corresponding table name and ID. Learn more in [Inspecting and Troubleshooting Pages](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages?tabs=table) in the [!INCLUDE[dev-itpro-docs](includes/dev-itpro-docs.md)].
 
-## Get notified when system setup change
+## Get notified when system setup changes
 
 To add an extra layer of security to your setup, you can monitor changes to fields and get an email when someone changes a value. Learn more in [Monitor sensitive fields](across-log-changes.md#monitor-sensitive-fields).
 

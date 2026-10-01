@@ -1,19 +1,22 @@
 ---
 title: France local functionality
 description: This article describes the various local functionalities in the French version of Business Central.
-author: sorenfriisalexandersen
-ms.author: soalex
-ms.reviewer: v-soumramani
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: French localization, France local functionality, French version
-ms.date: 06/23/2026
+ms.date: 08/19/2026
 ms.custom: bap-template
 ---
 
 # France local functionality
 
 The following articles describe local functionality that's unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+
+> [!IMPORTANT]
+> In 2026 release wave 2 (v29), the French version of [!INCLUDE [prod_short](../../includes/prod_short.md)] is updated to be a set of extensions on top of the W1 Base App. For the next three releases, you can choose whether to enable the new features. After this period, Microsoft will deprecate the previous features and automatically enable the extension.
 
 ## Feature availability
 

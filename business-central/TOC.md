@@ -52,6 +52,11 @@ ms.service: dynamics-365-business-central
 ##### [Introduction to Contoso Coffee service management](contoso-coffee/service/contoso-coffee-service-intro.md)
 ##### [Walkthrough of Service Orders for Service Items](contoso-coffee/service/service-basic-flow-order.md)
 ##### [Walkthrough of service contracts for service items](contoso-coffee/service/service-contract-flow.md)
+#### Quality management
+##### [Set up Contoso Coffee demo data for quality management](qms-contoso-coffee-demo-data.md)
+##### [Create an inspection manually from item tracking](qms-purchase-receipt-testing-simple.md)
+##### [Create an inspection automatically from a warehouse receipt and reinspect the lot](qms-purchase-receipt-testing-warehouse.md)
+##### [Create a sampled inspection automatically from production output](qms-production-output-testing.md)
 
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
@@ -78,7 +83,7 @@ ms.service: dynamics-365-business-central
 ## Get productive in Business Central
 ### [General functionality overview](ui-work-product.md)
 ### [Print-friendly cheat sheet](ui-work-product.md#cheatsheet)
-### [Chat with Copilot (preview)](chat-with-copilot.md)
+### [Use Microsoft Copilot in Business Central (preview)](chat-with-copilot.md)
 ### [Find pages and information with Tell Me](ui-search.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search for data company-wide](ui-search-data.md)
@@ -120,7 +125,9 @@ ms.service: dynamics-365-business-central
 ### Change the look of externally facing documents
 #### [About report and document layouts](ui-manage-report-layouts.md)
 #### [Get started creating and modifying layouts](ui-get-started-layouts.md)
-#### [Work with Word layouts](ui-how-add-fields-word-report-layout.md)
+#### [Set up themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md)
+#### [Use the Business Central Word add-in](ui-design-word-layouts-business-central-add-in.md)
+#### [Map data fields with the XML Mapping Pane](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel layouts](ui-excel-report-layouts.md)
 #### [Work with RDLC layouts](ui-rdlc-report-layouts.md)
 #### [Set the layout used by a report](ui-set-report-layout.md)
@@ -145,7 +152,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
 ## Troubleshooting and FAQs
 ### [Frequently Asked Questions](across-faq.yml)
-### [Chat with Copilot FAQ (preview)](chat-with-copilot-faq.md)
+### [Microsoft Copilot in Business Central FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [List views FAQ](ui-views-faq.yml)
@@ -303,7 +310,6 @@ ms.service: dynamics-365-business-central
 ###### [Receivables-Payables](reports/report-5.md)
 ###### [Trial Balance Excel](reports/report-4405.md)
 ###### [Trial Balance (legacy)](reports/report-6.md) 
-###### [Trial Balance/Previous Year](reports/report-7.md) 
 ###### [Trial Balance/Budget Excel](reports/report-4406.md)
 ###### [Trial Balance/Budget (legacy)](reports/report-9.md)
 ###### [Trial Balance by Period](reports/report-38.md)
@@ -567,6 +573,7 @@ ms.service: dynamics-365-business-central
 ##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
 
 ### [Calculate withholding tax for vendors](finance-withholding-tax.md)
+### [Set up and post employee withholding tax](finance-withholding-tax-employees.md)
 ### [View withholding tax entries](finance-withholding-tax-entries.md)
 
 
@@ -810,6 +817,7 @@ ms.service: dynamics-365-business-central
 <!-- ### [Post Purchases](ui-post-purchases.md) -->
 ### [Correct or cancel unpaid purchase invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ### [Combine receipts on a single invoice](purchasing-how-to-combine-receipts.md)
+### [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md)
 ### [Process purchase returns or cancellations](purchasing-how-process-purchase-returns-cancellations.md)
 ### [Receive and convert electronic documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ### [Date calculation for purchases](purchasing-date-calculation-for-purchases.md)
@@ -1241,15 +1249,17 @@ ms.service: dynamics-365-business-central
 
 ## Quality management
 ### [Quality management overview](qms-overview.md)
-### [Inspect purchase receipts without warehouse handling](qms-purchase-receipt-testing-simple.md)
-### [Inspect purchase receipts with warehouse handling](qms-purchase-receipt-testing-warehouse.md)
-### [Inspect production output quality](qms-production-output-testing.md)
-### [Create inspections manually](qms-manual-test-creation.md)
+### Set up quality management
+#### [Quality management setup and configuration](qms-setup.md)
+#### [Configure quality inspection results](qms-configuring-grades.md)
+#### [Create quality inspection templates](qms-quality-templates.md)
+#### [Set up quality inspection generation rules](qms-test-generation-rules.md)
+#### [Quality management workflows](qms-quality-workflows.md)
+### [Work with quality inspections](qms-manual-test-creation.md)
 ### [Create inspections on a schedule](qms-scheduled-test-creation.md)
 ### [Block or unblock lots with quality inspections](qms-lot-blocking-unblocking.md)
-### [Process non-compliant goods](qms-non-compliant-processing.md)
+### [Process items that failed a quality inspection](qms-non-compliant-processing.md)
 ### [Troubleshoot quality management features](qms-troubleshooting.md)
-
 ## Service management
 ### [Service management](service-service.md)
 ### Service management analytics
@@ -1355,6 +1365,9 @@ ms.service: dynamics-365-business-central
 #### [Value Chain in Assembly process](value-chain-howto-assembly.md)
 #### [Value Chain in Production process](value-chain-howto-mfg.md)
 #### [Value Chain in Sales](value-chain-howto-sales.md)
+#### [Value Chain for Fixed Assets](value-chain-howto-fixed-assets.md)
+#### [Value chain in Service Management](value-chain-howto-service.md)
+#### [Sustainability value chain in item journals](value-chain-howto-item-journals.md)
 ### Sustainability APIs
 #### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
@@ -1379,33 +1392,38 @@ ms.service: dynamics-365-business-central
 <!-- Expense management start -->
 ## Expense management (preview)
 ### [Expense management overview](expense-management/expense-management-overview.md)
-### [Expense Agent overview](expense-management/expense-agent.md)
+
 ### Set up expense management
 #### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
-#### [Set up expense categories and rules](expense-management/expense-management-categories-rules.md)
-#### [Set up general expense settings](expense-management/expense-management-setup.md)
+#### [Configure general expense settings](expense-management/expense-management-setup.md)
+#### [Set up expense categories, rules, and policies](expense-management/expense-management-categories-rules.md)
 #### [Set up expense users and teams](expense-management/expense-management-users-teams.md)
-#### [Set up per diem and mileage allowances](expense-management/expense-management-per-diem-mileage.md)
-### Work with expenses
-#### [Manage expenses](expense-management/expense-management-create-expenses.md)
+#### [Set up per diem allowances](expense-management/expense-management-per-diem-mileage.md)
+#### [Set up mileage rates for expense management](expense-management/expense-management-mileage-rate-setup.md)
+
+### Work with expenses in Business Central
+#### [Create and manage expenses](expense-management/expense-management-create-expenses.md)
 #### [Create and submit expense reports](expense-management/expense-management-submit-report.md)
+#### [Manage travel requests](expense-management/expense-management-travel-requisitions.md)
 #### [Approve expense reports](expense-management/expense-management-approve-reports.md)
 #### [Post expense reports](expense-management/expense-management-post-reports.md)
 #### [Reimburse employee expenses](finance-how-record-reimburse-employee-expenses.md)
-### Expense Agent (preview)
-#### Expense Agent overview
-##### [Overview](expense-management/expense-agent.md)
-##### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
-##### [How the expense agent processes emails](expense-management/expense-management-agent.md)
-##### [Expense and report statuses](expense-management/expense-agent-statuses.md)
-##### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
-#### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
-#### [Use the Expense Agent mobile app (preview)](expense-management/expense-agent-mobile-app.md)
-#### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
+
+### Work with Expense Agent
+#### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
+#### [Upload receipts and create expenses](expense-management/expense-agent-upload-receipts.md)
+#### [Use the Expense Agent mobile app](expense-management/expense-agent-mobile-app.md)
 #### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
 #### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
 #### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
-<!-- Expense management end -->
+
+### Understand Expense Agent
+#### [Expense Agent capabilities and processing](expense-management/expense-agent.md)
+#### [How Expense Agent processes emails](expense-management/expense-management-agent.md)
+#### [How expense rules and policy compliance work](expense-management/expense-agent-policy-compliance.md)
+#### [Responsible AI FAQ for Expense Agent](expense-management/faqs-expense-agent.md)
+
+### [Troubleshoot Expense Agent](expense-management/expense-agent-troubleshoot.md)
 
 <!--Company Hub-->
 ## Company hub
@@ -1465,12 +1483,13 @@ ms.service: dynamics-365-business-central
 ##### [Set up delivery reminders](LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md)
 ##### [Set up delivery reminder terms, levels, and text](LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
 ##### [Assign delivery reminder codes to vendors](LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)
-##### [Generate delivery reminders](LocalFunctionality/Austria/how-to-generate-delivery-reminders.md)
 ##### [Create delivery reminders manually](LocalFunctionality/Austria/how-to-create-delivery-reminders-manually.md)
+##### [Generate delivery reminders](LocalFunctionality/Austria/how-to-generate-delivery-reminders.md)
 ##### [Issue delivery reminders](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 ##### [Print test reports for delivery reminders](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 #### General
 ##### [Print general ledger setup information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
+##### [Export data for auditing](finance-how-to-export-audit-files.md)
 
 ### Belgium
 #### [Local functionality in the Belgian version](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1731,6 +1750,7 @@ ms.service: dynamics-365-business-central
 ##### [Map IRS numbers to the chart of accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Delete posted invoices and credit memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 ##### [Registration number in the Icelandic localization](LocalFunctionality/Iceland/use-registration-no.md)
+##### [Export data for auditing](finance-how-to-export-audit-files.md)
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
@@ -1947,8 +1967,8 @@ ms.service: dynamics-365-business-central
 ##### [Set up vendors without ABN for calculating withholding tax](LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)
 ##### [Calculate and post withholding tax settlements](LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements.md)
 ##### [View withholding tax entries](LocalFunctionality\NewZealand\how-to-view-withholding-tax-entries.md)
-##### [View posted tax credit memos](LocalFunctionality/NewZealand/how-to-view-posted-tax-credit-memos.md)  
-##### [View posted tax invoices](LocalFunctionality/NewZealand/how-to-view-posted-tax-invoices.md)
+##### [View posted tax credit memos](LocalFunctionality\NewZealand\how-to-view-posted-tax-credit-memos.md)  
+##### [View posted tax invoices](LocalFunctionality\NewZealand\how-to-view-posted-tax-invoices.md)
 ##### [Adjust settlement exchange rates for VAT entries](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Calculate goods and services tax on prepayments](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Print goods and services tax settlement reports](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
@@ -2098,7 +2118,7 @@ ms.service: dynamics-365-business-central
 ##### [Plan your vacation](LocalFunctionality/Russia/Vacation-planning.md)
 
 ### Spain
-#### [Local functionality in the Spanish version](LocalFunctionality/Spain/spain-local-functionality.md)
+#### [Local functionality in the Spanish version](LocalFunctionality/Spain/Spain-local-functionality.md)
 #### VAT
 ##### [VAT reports](LocalFunctionality/Spain/vat-reports.md)
 ##### [Report 340](LocalFunctionality/Spain/report-340.md)  
@@ -2125,7 +2145,7 @@ ms.service: dynamics-365-business-central
 ##### [Set up payment days and non-payment periods](LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md)
 ##### [Cash payments](LocalFunctionality/Spain/payments-in-cash.md)
 #### Electronic invoices
-##### [Electronic invoicing in Spain](LocalFunctionality/Spain/spain-einvoicing.md)
+##### [Electronic invoicing in Spain](LocalFunctionality/Spain/Spain-einvoicing.md)
 ##### [Cartera module](LocalFunctionality/Spain/cartera-module.md)
 ##### [Receivables cartera module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments cartera module](LocalFunctionality/Spain/payments-cartera-module.md)
@@ -2610,8 +2630,10 @@ ms.service: dynamics-365-business-central
 ### Develop report layouts
 #### [Layout types (Word, Excel, RDLC)](ui-manage-report-layouts.md)
 #### [Create and modify layouts](ui-get-started-layouts.md)
+#### [Set up themes and header/footer layouts](ui-set-up-report-themes-header-footer-layouts.md)
+#### [Use the Word add-in](ui-design-word-layouts-business-central-add-in.md)
 <!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
-#### [Work with Word layouts](ui-how-add-fields-word-report-layout.md)
+#### [Map data fields with the XML Mapping Pane](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel layouts](ui-excel-report-layouts.md)
 #### [Work with RDLC layouts](ui-rdlc-report-layouts.md)
 #### [Use fonts in layouts](ui-fonts.md)  
@@ -2668,8 +2690,8 @@ ms.service: dynamics-365-business-central
 #### [Change company and other settings](across-teams-settings.md)
 
 ### Microsoft Word
-#### [Create report layouts with Word](ui-how-add-fields-word-report-layout.md)  
-#### [Use the Word add-in for report layouts](/dynamics365/business-central/dev-itpro/developer/word-layout-add-in?toc=/dynamics365/business-central/toc.json)
+#### [Map data fields with the XML Mapping Pane](ui-how-add-fields-word-report-layout.md)  
+#### [Use the Word add-in](ui-design-word-layouts-business-central-add-in.md)
 #### [Use Word templates for bulk communication](ui-mail-merge.md)  
 <!-- Office apps and Microsoft 365 end -->
 
@@ -2853,10 +2875,11 @@ ms.service: dynamics-365-business-central
 ## Bank account reconciliation assist
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
-## Chat with Copilot (preview)
-### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
-### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
-### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+## Microsoft Copilot in Business Central (preview)
+### [Use Microsoft Copilot in Business Central](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Work with Business Central data in Microsoft Copilot](work-with-business-central-data-in-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Microsoft Copilot in Business Central FAQ](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Application Card: Microsoft Copilot in Business Central](microsoft-copilot-in-business-central-application-card.md)
 ## Map E-Documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 ### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
@@ -2892,25 +2915,24 @@ ms.service: dynamics-365-business-central
 #### [Overview](expense-management/expense-agent.md)
 #### [How expense policy compliance works](expense-management/expense-agent-policy-compliance.md)
 #### [How the expense agent processes emails](expense-management/expense-management-agent.md)
-#### [Expense and report statuses](expense-management/expense-agent-statuses.md)
 #### [Manage expenses with Expense Agent](expense-management/expense-agent-overview.md)
 ### [Set up Expense Agent](expense-management/expense-agent-configuration-page.md)
 ### [Use the Expense Agent mobile app (preview)](expense-management/expense-agent-mobile-app.md)
 ### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
 ### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
-### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
-### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
+### [Create and submit reports in Expense Agent](expense-management/expense-agent-expense-reports.md)
+### [Approve or send back reports in Expense Agent](expense-management/expense-agent-approve-reports.md)
 <!--### [Submit expenses using Copilot in Teams](expense-management/expense-agent-copilot-teams.md)-->
 ### [Troubleshoot Expense Agent issues](expense-management/expense-agent-troubleshoot.md)
 
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [Application Card: Microsoft Copilot in Business Central](microsoft-copilot-in-business-central-application-card.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
-## [FAQ for advanced Tell Me (preview)](faqs-advanced-tell-me.md)
+## [FAQ for advanced Tell Me](faqs-advanced-tell-me.md)
 ## [FAQ for analysis assist](faqs-analysis-assist.md)
 ## [FAQ for autofill (preview)](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
-## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for Expense Agent](expense-management/faqs-expense-agent.md)
 ## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
@@ -2919,4 +2941,4 @@ ms.service: dynamics-365-business-central
 ## [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
-## [FAQ for summarize (preview)](faqs-summarize.md)
+## [FAQ for summarize (preview)](faqs-summarize.md)  

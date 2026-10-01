@@ -1,7 +1,7 @@
 ---
 title: Synchronize items with Shopify
 description: Set up and run synchronizations of items, products, images, and variants between Shopify and Business Central.
-ms.date: 07/17/2026
+ms.date: 09/04/2026
 ms.topic: how-to
 ms.search.form: 30126, 30127
 author: brentholtorf
@@ -61,9 +61,11 @@ First, import items either in bulk from Shopify or together with orders to add t
 |**Auto Create Unknown Items**|When Shopify products and variants are imported into [!INCLUDE[prod_short](../includes/prod_short.md)], the [!INCLUDE[prod_short](../includes/prod_short.md)] function first tries to find the matching record in the item list. **SKU Mapping** impacts how the matching is performed and creates a new item and/or item variant. Enable this option if you want to create a new item or when a matching record doesn't exist. The new item is created using imported data and the **Item Template Code**. If this option isn't enabled, create an item manually and use the **Map Product** action on the **Shopify Products** page.|
 |**Item Template Code**|Use this field with the **Auto Create Unknown Items** toggle.<br>Choose the template you want to use for automatically created items.|
 |**SKU Mapping**|Choose how you want to use the **SKU** value imported from Shopify during the item/variant mapping and creation. Learn more in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
+|**Find Mapping by Barcode**|Specifies whether the connector tries to find an item or item variant by barcode when the selected **SKU Mapping** strategy doesn't find a match. The setting is on by default. Turn it off when barcodes aren't unique enough for reliable mapping.|
 |**SKU Field Separator**|Use this field with **SKU Mapping** set to the **[Item No. + Variant Code](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)** option.<br>Define a separator to be used to split the SKU.<br>So, if in Shopify you create the variant with the SKU '1000/001', you'd type '/' in the **SKU Field Separator** field to make the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' and the item variant code '001'. If you create the variant with the SKU '1000/001/111' in Shopify, the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] is '1000' and the item variant code is '001'. The '111' part is ignored. |
 |**Variant Prefix**|Use together with **SKU Mapping** set to either the **Variant code** or **Item No. + Variant Code** option as a fallback function when the SKU coming from Shopify is empty.<br>If you want to create the item variant in [!INCLUDE[prod_short](../includes/prod_short.md)] automatically, you to enter a value in **Code**. By default, the value defined in the SKU field imported from Shopify is used. However, if the SKU is empty, it generates code starting with the defined variant prefix and '001.'|
 |**Shopify Can Update Items**|Choose this option if you want to update items and/or variants automatically.|
+|**Sync HS Code and Country/Region of Origin**|Turn on this toggle to import tariff numbers and countries/regions of origin from Shopify. Learn more in [Synchronize customs data](#synchronize-customs-data).|
 |**UoM as Variant**| Choose this option if you want all item units of measure to be exported as separate variants. To add the field, personalize the page. Learn more in the [Unit of Measure as Variant](synchronize-items.md#unit-of-measure-as-variant) section.|
 |**Variant Option Name for UoM**| Use this field with **UoM as Variant** to specify under which option to add variants that represent units of measure. The default value is *Unit of Measure*. Use personalization to add the field to the page.|
 
@@ -96,9 +98,17 @@ You manage the process of exporting items using these settings:
 |**UoM as Variant**| Choose this option if you want some options to be exported as imported as units of measure instead of variants. Personalize the page to add the field. Learn more in the [Unit of Measure as Variant](synchronize-items.md#unit-of-measure-as-variant) section.|
 |**Variant Option Name for UoM**| Use this field with **UoM as Variant** to specify which option contains variants that represent units of measure. The default value is **Unit of Measure**. To add the field, personalize the page.|
 |**Weight Unit**|When you enable the connector, it imports the default weight unit of measure from Shopify and uses it when it sends the weight of the product. You can change whether the **Net weight** field in [!INCLUDE [prod_short](../includes/prod_short.md)] stores values with different unit of measure.|
+|**Status for Created Products**|Specifies whether products that the connector creates in Shopify have the **Active**, **Draft**, or **Unlisted** status.|
+|**Sync HS Code and Country/Region of Origin**|Turn on this toggle to export tariff numbers and countries/regions of origin to Shopify. Learn more in [Synchronize customs data](#synchronize-customs-data).|
 
 > [!NOTE]
 > When you want to export many items and variants, some might be blocked. You can't include blocked items and variants in price calculations, so they aren't exported. The Connector skips those items and variants, so you don't need to filter them on the **Add Item to Shopify** request page.
+
+### Synchronize customs data
+
+Turn on **Sync HS Code and Country/Region of Origin** on the **Shopify Shop Card** page to synchronize tariff numbers and countries/regions of origin in both directions. The connector uses the **Tariff No.** and **Country/Region of Origin Code** fields on the item.
+
+During import, the connector updates an item only when the Shopify value resolves to an existing **Tariff Number** or **Country/Region** record. An unknown or blank Shopify value doesn't clear a valid value on the item.
 
 ### Activate sales channels
 
@@ -183,6 +193,8 @@ The following table outlines the effects of the **Barcode** field.
 |Type|**Description** of **Item Category Code**. If the type isn't specified in Shopify, it's added as a custom type.|**Item Category Code**. Mapping by description.|
 |Vendor|**Name** of vendor from **Vendor No.**|**Vendor No.** Mapping by name.|
 |Weight|**Gross Weight**.|Not used.|
+|HS code|**Tariff No.**|**Tariff No.**|
+|Country/region of origin|**Country/Region of Origin Code**|**Country/Region of Origin Code**|
 |Taxable|Fixed value: enabled.|Not used.|
 
 ### Import and export product information using Shopify Metafields

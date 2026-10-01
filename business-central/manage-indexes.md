@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: article
 ms.collection:
-ms.date: 03/25/2026
+ms.date: 08/19/2026
 ms.custom: bap-template
 ms.search.form: 8705_Primary, 8700, 9521,
 ---
@@ -15,7 +15,7 @@ ms.search.form: 8705_Primary, 8700, 9521,
 
 [!INCLUDE [applies-to-2026-releasewave1-later](includes/applies-to-2026-releasewave1-later.md)]
 
-As an admin, you can view and manage database indexes per company to optimize performance and reduce storage costs. Selectively disable nonessential indexes to improve write performance and storage, while protecting unique indexes and SIFT indexes from being disabled.
+As an admin, you can view and manage database indexes per company to optimize performance and reduce storage costs. Selectively disable nonessential indexes to improve write performance and storage, while protecting unique indexes Unique indexes, primary keys, and $systemid indexes from being disabled.
 
 ## About indexes
 
@@ -41,7 +41,7 @@ You view table indexes from the **Table Information** page:
 
 ## Turn off or on indexes
 
-You can turn off nonunique indexes with low usage to reduce storage costs and improve write performance. Unique indexes, primary keys, SIFT, and $systemid indexes are protected and can't be turned off.
+Turn off nonunique indexes with low usage to reduce storage costs and improve write performance. You can't turn off unique indexes, primary keys, and $systemid indexes.
 
 **Turn off an index:**
 

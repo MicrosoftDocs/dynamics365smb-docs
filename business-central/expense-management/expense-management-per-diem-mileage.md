@@ -3,11 +3,11 @@ title: Set Up Per Diem and Mileage Allowances
 description: Learn how to configure per diem rates, mileage reimbursement, partial day rules, and meal reductions for expense management in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 04/22/2026
+ms.date: 09/26/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
-ms.search.form: 6974, 6996
+ms.search.form: Primary_6974, 6996, 7128
 ai-usage: ai-assisted
 ---
 
@@ -19,29 +19,24 @@ Organizations that reimburse travel expenses often use standard rates such as pe
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Configure mileages  
+## Configure mileage
 
-### Configure mileage rates 
-
-1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Agent Setup**, and then choose the related link.
-2. On the **Allowance** FastTab, set the **Standard Rate of Mileage** to your organization's reimbursement rate per distance unit.
-3. In the **Default Mileage UOM** field, choose the default unit of measure. For example, miles or kilometers. 
-
-When an expense user creates a mileage expense, the amount is calculated automatically based on the distance entered and the configured rate.
+Set the default distance unit and fallback mileage rate on the **Expense Agent Setup** page. You can also define effective-dated rates by vehicle type and currency. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
 ### How mileage expenses work for users 
 
 When an expense user creates a mileage expense:
 
 1. They select a mileage category.
-2. They enter the starting and ending points as descriptions to clarify the route.
-3. They enter the value in the **Mileage** field representing the distance.
-4. If this is a round trip, select the **Round Trip** field, so [!INCLUDE [prod_short](../includes/prod_short.md)] will multiple amount with 2 to get the proper **Total Mileage** amount.
-5. The **Amount** field for reimbursment will be automatically calculated.
+1. They enter the starting and ending points as descriptions to clarify the route.
+1. If your organization uses vehicle-specific rates, they select a **Vehicle Type**.
+1. They enter the value in the **Mileage** field representing the distance.
+1. If this expense is for a round trip, they select the **Round Trip** field. Business Central doubles the distance to calculate **Total Mileage**.
+1. Business Central multiplies **Total Mileage** by the applicable rate to calculate the reimbursement **Amount**.
 
 ## Configure per diems  
 
-Per diem rates reimburse employees for daily travel expenses using a fixed amount instead of requiring individual receipts. To learn more about per diem rates, go to [How per diem expenses work for users](#how-per-diem-expenses-work-for-users).
+Organizations use per diem rates to reimburse employees for daily travel expenses with a fixed amount instead of requiring individual receipts. Learn more about per diem rates in [How per diem expenses work for users](#how-per-diem-expenses-work-for-users).
 
 ### Configure per diem rates 
 
@@ -49,7 +44,7 @@ As the standard per-diem calculation depends on location where you are traveling
 
 You first need to have created dedicated locations for all destinations you will use in your expense reports. To do so, follow next steps:
 
-1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Location Card**, and then choose the related link.
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Locations**, and then select the related link.
 2. Select **New** and set the **Code** and **Description** and in the **Country/Region Code** select the country you want to use.
 3. Optionally select the **City** you want to use in combination with the selected **Country/Region Code** and/or enter the applicable **State**.
 
@@ -170,7 +165,7 @@ Let's define the variables used in the formulas:
 
 
 
-To learn more about recording per diem and mileage expenses, go to [Create and manage expenses](expense-management-create-expenses.md).
+Learn more in [Create and manage expenses](expense-management-create-expenses.md).
 
 ## Next steps
 
@@ -179,6 +174,8 @@ To learn more about recording per diem and mileage expenses, go to [Create and m
 ## Related information
 
 [Set up expense management](expense-management-setup.md)  
+[Set up mileage rates for expense management](expense-management-mileage-rate-setup.md)
+
 [Manage employee expenses](expense-management-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -94,6 +94,10 @@ When you choose the **Generate Financial Reports** action, or the next time the 
 > [!NOTE]
 > If you create a G/L account without an account category, when you assign the account to a posting group [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the account category from the G/L account immediately above the account in your chart of accounts. However, to include the new account in your financial reports, you must choose the **Generate Financial Reports** action on the **G/L Account Categories** page. Alternatively, open the G/L Account Card page, specify the account category, and then regenerate your financial report.
 
+### Find G/L accounts that aren't categorized
+
+G/L account categories make financial reporting easier, for example, in the Finance Power BI app and for row definitions in financial reporting. ​As a controller, knowing which accounts aren't categorized is key for the finance reports to show correct numbers.​ To quickly find accounts that aren't categorized, on the **Chart of Accounts** page, apply the **Uncategorized accounts** or **Uncategorized accounts (missing sub category)** views.
+
 ## Access to create and edit G/L accounts and account categories
 
 In small organizations, most users can edit financial entities such as G/L accounts, account categories, and the chart of accounts, except those users with a TEAM MEMBER license. However, larger organizations typically use roles and permissions to limit access to editing these entities. If you're an administrator, or have the *Business Manager* or *Accountant* role, you can control user permissions to give the right people access to the relevant tables. To learn more, go to [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  

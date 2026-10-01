@@ -1,9 +1,9 @@
 ---
 title: Understand Policy Compliance in Expense Agent
-description: Learn how Expense Agent validates expenses against your organization's policies in real time, including soft warnings and hard blocks.
+description: Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
 author: brentholtorf
-ms.topic: concept-article
-ms.date: 04/15/2026
+ms.topic: overview
+ms.date: 09/25/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -12,70 +12,103 @@ ai-usage: ai-assisted
 
 # How expense policy and rules compliance work
 
+[!INCLUDE [online_only](../includes/online_only.md)]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Expense Agent checks your expenses against your organization's rules and policies so you can catch and fix issues before you submit. Rules are defined by your administrator in **Expense Management Rules** in [!INCLUDE [prod_short](../includes/prod_short.md)] and are applied automatically as you work with expenses. 
+Expense Agent helps your organization review expenses in two ways. [!INCLUDE [prod_short](../includes/prod_short.md)] checks deterministic expense rules, and Expense Agent can use AI to evaluate natural-language policies. These checks give submitters and approvers information to resolve or assess potential issues.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## What happens during rule validation
+## Understand the difference between rules and policies
 
-Expense Agent validates your expenses in real time. When you create or edit an expense, the app checks it against the rules your organization set-up. If an expense doesn't meet a rule requirement, you see a notification right away rather than finding out after you submit.
-
-Rule validation also runs when you submit an expense report. The app reviews all expenses in the report and flags any that have issues, so you can address everything before your approver sees the report.
-
-## Soft warnings and hard blocks
-
-Not all rule issues are the same. Expense Agent uses two levels of enforcement:
-
-- **Soft warnings** flag an expense that's outside rule or policy but still lets you proceed. For example, if a meal expense is slightly above the usual limit, you see a warning. You can provide a justification and continue with the submission.
-- **Hard blocks** prevent you from submitting until you fix the issue. For example, if a required receipt is missing or an expense category isn't allowed, you must correct the expense before you can submit the report.
-
-> [!TIP]
-> When you get a soft warning, add a clear justification in the **Purpose / Notes** field in the **Categorization** tab in web app. This information can help your approver understand the context and speeds up the approval process.
-
-## Policy validation
-
-Rule validation is performed proactively for individual expenses, while policy validation is executed after the expense report was submitted. This separation ensures that:
-
-- Some controls apply at the individual expense line level  
-- Some controls apply to the entire expense report  
-- Certain validations depend on the relationship between multiple expense lines  
-
-Policy validation supports approvers by providing more context to review both the overall report and the individual expenses it contains.
-
-> [!NOTE]  
-> Policy validation isn't yet available and is planned for release in version 28.3.
-
-### Policies vs. Rules
-
-**Expense Management Rules** enforce strict, measurable constraints. They typically rely on defined thresholds or conditions and might:
+**Expense Management Rules** define measurable conditions. Business Central checks these rules when users work with expenses and again when they submit a report. Rules can:
 
 - Enforce maximum or recommended spending limits  
 - Require justification for amounts exceeding defined thresholds  
 - Restrict or disallow specific types of expenses  
-- Enforce the use of specific merchants or providers  
+- Enforce the use of specific merchants or providers
 
-**Expense Policies**, in contrast, define expected behavior using natural language. They provide guidance that isn't always tied to specific amounts, such as:
+**Expense Policies** describe expected behavior in natural language. When policy evaluation is enabled, Expense Agent uses AI to assess applicable policies. Policies can describe:
 
 - When employees might use business class travel
 - What is appropriate for business meals  
-- Acceptable hotel standards and conditions for exceptions, and so on  
+- Acceptable hotel standards and conditions for exceptions
 
-## Where the rule status appears
 
-You can see the expense rule status of your expenses in several places:
+Rules and policies are independent. An expense can pass its deterministic rules and still be flagged by an AI policy evaluation.
 
-- **Expense list** - Each expense shows a policy badge that indicates whether it's compliant, has a warning, or is blocked.
-- **Expense details** - Open an expense to review specific policy messages and any justifications you added.
-- **Report summary** - When you open an expense report, the summary shows the overall policy status across all expenses in the report. This summary gives you a quick way to spot issues before you submit.
+## Review deterministic rule results
+
+Business Central checks expenses against the rules that your organization configured. If an expense doesn't meet a rule condition, you can review the issue before submission. Business Central checks the report again when you submit it.
+
+Rule results can include warnings or conditions that prevent submission:
+
+- **Warnings** identify a rule issue but can still let you proceed. Add a justification when your organization's setup requires one.
+- **Blocks** identify a condition that you must fix before you can submit the report.
+
+> [!TIP]
+> Add a clear explanation in the **Notes** field on the **Categorization** tab when an expense needs justification. This information helps the approver understand the expense.
+
+## Understand AI-assisted policy evaluation
+
+An administrator creates policies in Business Central and enables AI-assisted evaluation through **Configure Expense Agent** assisted setup. Expense Agent evaluates only policies that apply to each expense.
+
+Policy evaluation uses additional AI credits. Expense Agent attempts background evaluation after submission only when:
+
+- AI-assisted policy evaluation is enabled.
+- One or more expenses need evaluation.
+- The required services are available.
+- AI capacity and credits are available.
+
+Submission can continue if the background evaluation can't start or finish. Affected expenses remain **Policies pending**, and the approver can see that the results aren't current.
+
+### Policy compliance outcomes
+
+Expense Agent combines the rule and policy results into these user-visible outcomes:
+
+- **Non-compliant**: A deterministic Business Central rule has an unresolved violation.
+- **Flagged**: AI-assisted evaluation found a potential policy issue. Open the expense to review the explanation.
+- **Policies pending**: Policy evaluation hasn't finished, or the available results aren't current.
+- **Compliant**: The expense has no current rule or policy issues. Expenses with no applicable policies also appear as compliant.
+
+### Keep evaluation results current
+
+Policy results correspond to the expense information and policy that Expense Agent evaluated. Changing an expense or an applicable policy can make earlier results outdated. The expense then shows **Policies pending** until a current evaluation finishes.
+
+If policies are pending when an approver tries to approve a report, Expense Agent warns that one or more evaluations aren't current. The approver can cancel and wait for current results or continue with approval.
+
+## Find and act on compliance information
+
+:::image type="content" source="../media/expense-agent-expense-illustration.svg" alt-text="Expense report with line-level policy badges and compliance status.":::
+
+Submitters and approvers can find compliance information in these places:
+
+- **Expense list**: Each expense can show **Non-compliant**, **Flagged**, **Policies pending**, or **Compliant**.
+- **Expense details**: Open an expense and review the **Summary** section for its current status and policy explanations.
+- **Report summary**: If one or more expenses need attention, select the compliance warning to open **These expenses need your review**. Approvers don't see a report-level compliance indicator when all expenses are compliant.
+
+Submitters can run a check on a draft report when the action is available. They can then correct an expense or submit the report with the result for the approver to review. For instructions, go to [Optionally check policies before you submit](expense-agent-expense-reports.md#optionally-check-policies-before-you-submit).
+
+Approvers review current results and decide whether to approve the report or send it back. For instructions, go to [Approve or send back expense reports](expense-agent-approve-reports.md).
+
+## Configure policy evaluation
+
+Use the **Configure Expense Agent** assisted setup to enable AI-assisted policy evaluation and record whether your organization allows submitters to run evaluations before submission. For instructions, see [Configure AI-assisted policy evaluation](expense-management-setup.md#configure-ai-assisted-policy-evaluation).
+
+To create and maintain the policies that Expense Agent evaluates, see [Create and manage expense policies](expense-management-categories-rules.md#create-and-manage-expense-policies).
+
+## Understand privacy for policy evaluation
+
+Expense Agent sends the information needed to evaluate an expense against the applicable policies. It can include participant names, participant types, and organization names when they're relevant to a policy. The AI input omits participant email addresses and employee numbers.
 
 ## Related information
 
+[Set up expense categories, rules, and policies](expense-management-categories-rules.md)  
+[Set up expense management](expense-management-setup.md)  
 [Expense Agent overview](expense-agent-overview.md)  
 [Upload receipts and create expenses](expense-agent-upload-receipts.md)  
 [Edit and manage expenses](expense-agent-edit-expenses.md)  
-[Expense and report statuses](expense-agent-statuses.md)  
 [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,185 +1,73 @@
 ---
-title: Purchase receipt testing with warehouse handling
-description: Learn how to set up and use automatic quality inspection tests for purchase receipts in warehouse-enabled locations.
+title: Create an inspection automatically from a warehouse receipt and reinspect the lot
+description: Use Contoso Coffee demo data to fail an inspection created from a warehouse receipt and then create a passing reinspection.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: overview
-ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 03/10/2026
+ms.topic: how-to
+ms.search.form: 20400, 20408, 20404, 20402, 20416
+ms.date: 09/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-# Purchase receipt testing with warehouse handling
+# Create an inspection automatically from a warehouse receipt and reinspect the lot
 
-This article explains how to set up and use automatic quality inspection creation for purchase receipts in locations with warehouse handling.
+This demo uses the lot-tracked Contoso Coffee item **WRB-1002** at the advanced warehouse location **WHITE**. When you post the warehouse receipt, you create an inspection for the assigned lot.
 
-For locations with warehouse handling, quality tests are created when you post warehouse receipts. This workflow integrates with warehouse management, and supports:
+## Prerequisites
 
-- Locations that require warehouse receipts.
-- Complex warehouse operations with put-aways.
-- Multiple lot numbers per receipt.
-- Warehouse handling and traceability.
+Generate the **Quality Management** and **Warehouse** modules. For instructions, see [Set up Contoso Coffee demo data for quality management](qms-contoso-coffee-demo-data.md).
 
-<!--## Prerequisites
+You need the **Quality Admin & Supervisor** permission set and permission to create and release purchase orders, assign item tracking, create and post warehouse receipts, and register warehouse put-aways. The admin and supervisor permission set provides access to create the generation rule, complete the inspections, and create the reinspection.
 
-- A quality inspection template is configured.
-- A test generation rule set up for purchase receipts.
-- A location where warehouse receipt handling is enabled.
-- Items that have item tracking (optional, but recommended) -->
+## Enable warehouse receipt inspections
 
-## Key differences from locations without warehouse tracking
+1. Open **Quality Inspection Generation Rules**, and then select **Create Receiving Rule**.
+2. In **Choose template**, select **RECEIVE**.
+3. Choose the **Warehouse Receipt** action, and then select **Next**.
+4. In **Location**, enter **WHITE**. Leave **To Zone** and **Bin** blank, and then choose **Next**.
+5. In **Specific Item**, enter **WRB-1002**. Leave **Category** and **Inventory Posting Group** blank, and then choose **Next**.
+6. Set the **Automatically Create Inspection** field to **When Warehouse Receipt is posted**.
+7. Verify that the displayed filters include location **WHITE**, warehouse document type **Receipt**, and item **WRB-1002**, and then choose **Finish**.
 
-| Feature       | Without Warehouse          | With Warehouse                                |
-| ------------- | -------------------------- | --------------------------------------------- |
-| Document Flow | Purchase Order → Receipt   | Purchase Order → Warehouse Receipt → Put-away |
-| Test Trigger  | Purchase Receipt Posting   | Warehouse Receipt Posting                     |
-| Configuration | Same test generation rules | Same test generation rules                    |
-| Item Tracking | Direct on purchase order   | Can use lot warehouse tracking                |
+## Create and post the warehouse receipt
 
-## Set up the requirements
+1. Open **Purchase Orders**, and then create a purchase order with the following values:
 
-The following sections describe how to set up the requirements for testing purchase receipts with warehouse tracking.
+   | Field | Value |
+   | --- | --- |
+   | Vendor | **20000** |
+   | Location Code | **WHITE** |
+   | Type | **Item** |
+   | No. | **WRB-1002** |
+   | Quantity | **1** |
 
-### Verify the configuration of your location
+2. Release the order, and then choose **Create Whse. Receipt**.
+3. Open the warehouse receipt and verify that **Location Code** is **WHITE**.
+4. Choose the receipt line, select **Line**, and then choose **Item Tracking Lines**.
+5. Assign lot number **WRB1002-QM-02** to the full **Qty. to Receive**, enter **12/31/2027** as the expiration date, and then close the **Item Tracking Lines** page.
+6. Post the warehouse receipt.
 
-Ensure that your location supports warehouse operations:
+[!INCLUDE [prod_short](includes/prod_short.md)] creates an inspection for item **WRB-1002** and lot **WRB1002-QM-02** by using the **RECEIVE** template. The inspection shows the posted warehouse receipt document number and retains the originating purchase order line as an additional source.
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Locations**, and then choose the related link.
-2. Select a warehouse-enabled location.
-3. Verify that the **Require Receipt** toggle is turned on.
-4. Double-check the other warehouse settings, as needed.
+## Fail the inspection and create a reinspection
 
-### Use existing test generation rules
+1. Open **Quality Inspections**, and then open the inspection for item **WRB-1002** and lot **WRB1002-QM-02**.
+2. Enter **10** for Height, **40** for Length, **20** for Width, and **HEAVY** for Packaging visual.
+3. Verify that the result is **FAIL**, and then select **Finish**.
+4. Choose **Create Re-inspection**. The new inspection keeps the source and item-tracking information, uses the next **Re-inspection No.**, and rebuilds the test lines without copying the earlier test values.
+5. On the reinspection, enter **20** for Height, **40** for Length, **20** for Width, and **UNDAMAGED** for Packaging visual.
+6. Verify that the result is **PASS**, and then choose **Finish**.
+7. Open the warehouse put-away created from the receipt and register it.
 
-The same test generation rules work for both warehouse and nonwarehouse locations:
-
-- **Source Type**: **Purchase Line**
-- **Purchase Trigger**: **When Purchase Order is Received**
-- **Template**: Assigned quality inspection template
-- **Filters**: Item and location filters, as needed
-
-> [!NOTE]
-> The **When Purchase Order is Received** trigger works for both direct posting and warehouse receipt posting.
-
-## Process flow with warehouse handling
-
-The following sections provide a high-level overview of the process flow with warehouse handling.
-
-### Create a purchase order
-
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.
-2. Create a new purchase order.
-3. Fill in the fields, as follows:
-
-   - **Vendor**: Select a vendor.
-   - **Item**: Choose the item specified in the test generation rule.
-   - **Location**: Use a location that is warehouse-enabled.
-   - **Quantity**: Enter the quantity to receive.
-
-### Configure item tracking
-
-For lot-tracked items:
-
-1. Choose **Item Tracking Lines** on a purchase order line.
-2. Enter lot information, as follows:
-   - **Lot Number**: Create or select lot numbers.
-   - **Quantity**: Assign a quantity to lots.
-   - **Expiration Date**: Set expiration dates.
-3. You can configure multiple lots per line.
-
-   **Example configuration**:
-
-     The following example shows settings for multiple lots.
-
-   - Total Quantity: 123
-   - Lot A: 23 pieces, expiration date
-   - Lot B: 100 pieces, expiration date
-
-### Create and post a warehouse receipt
-
-1. Choose **Release** to release the purchase order.
-2. Choose **Create Warehouse Receipt** to create a warehouse receipt with the following information:
-
-   - The total quantity from the purchase order.
-   - The item tracking information transferred.
-   - The bins assigned based on the location's setup.
-
-3. Choose **Post** to post the receipt.
-
-   The following things happen when you post the warehouse receipt:
-
-   - Quality inspections are created automatically.
-   - An inspection is created per lot number, if item tracking is used.
-   - Inspections reference the original purchase order.
-   - Put-away documents are created for warehouse operations.
-
-## Work with multiple lots
-
-When you receive multiple lots:
-
-- Each lot gets its own quality inspection.
-- Inspections are linked to specific lot numbers.
-- Quantities reflect lot-specific amounts.
-
-**Example**: A receipt with two lots creates two inspections:
-
-- Test 1: Lot A, 23 pieces
-- Test 2: Lot B, 100 pieces
-
-### Manage lot inspections
-
-You can access lot-specific inspections through:
-
-1. **Show Inspections for Item and Document** from a purchase order.
-2. **Quality Inspections** filtered by lot number.
-3. **Lot Number Information**, if you configured lot blocking.
-
-## Integration with warehouse operations
-
-### Put-away processing
-
-After you post a warehouse receipt:
-
-1. Warehouse put-away documents are created automatically and reference the same lot numbers.
-2. Quality inspections can be completed during or after put-away.
-3. Lot blocking can prevent movement until inspections pass.
-
-### Warehouse tracking
-
-[!INCLUDE [prod_short](includes/prod_short.md)] maintains full traceability in the warehouse:
-
-- Item tracking follows through to warehouse documents.
-- Results of quality tests are linked to specific lots.
-- Warehouse entries reference quality inspection data.
-
-## Configuration considerations
-
-Consider the pros and cons of using item tracking or lot warehouse tracking
-
-For standard item tracking (recommended):
-
-- You define item tracking on the purchase order.
-- Lot numbers transfer to warehouse documents.
-- Quality inspections use purchase order tracking information.
-
-For lot warehouse tracking:
-
-- Lot numbers are assigned during warehouse operations.
-- Setup and processing are more complex.
-- Supported, but optional for quality inspections.
-
-Pay attention to your inspection generation rule triggers. The same trigger works for both scenarios:
-
-- The **When Purchase Order is Received** trigger works when you post a warehouse receipt.
-- You don't need a separate configuration for warehouse versus nonwarehouse setups.
-- Rules apply consistently across location types.
+The **WHITE** location uses warehouse receipts and put-aways. Other location configurations can use inventory put-aways or direct purchase receipt posting instead. To learn more about these configurations, go to [Design details: Inbound warehouse flow](design-details-inbound-warehouse-flow.md).
 
 ## Related information
 
-[Purchase Receipt Inspection without Warehouse Handling](qms-purchase-receipt-testing-simple.md)  
-[Lot Blocking and Unblocking](qms-lot-blocking-unblocking.md)  
-[Setting Up Inspection Generation Rules](qms-test-generation-rules.md)  
-[Quality Management Overview](qms-overview.md)
+[Set up Contoso Coffee demo data for quality management](qms-contoso-coffee-demo-data.md)  
+[Work with quality inspections](qms-manual-test-creation.md)  
+[Create an inspection manually from item tracking](qms-purchase-receipt-testing-simple.md)  
+
+[!INCLUDE [footer-banner](includes/footer-banner.md)]

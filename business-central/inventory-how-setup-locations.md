@@ -1,21 +1,21 @@
 ---
-title: Set up a location card and define transfer routes
-description: If you buy, store, or sell items in more than one place, you can set up each place as a location. 
+title: Set up locations
+description: If you buy, store, or sell items in more than one place, you can set up each place as a location.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: warehouse, distribution center
+ms.search.keywords: warehouse, distribution center, transfer route, direct transfer
 ms.search.forms: 5703, 15
-ms.date: 06/06/2024
+ms.date: 09/04/2026
 ms.service: dynamics-365-business-central
 ---
 # Set up locations
 
 Locations are places such as warehouses where you buy, store, or sell items. [!INCLUDE [prod_short](includes/prod_short.md)] uses locations to help keep track of inventory in both simple and complex warehouse processes.
 
-You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. To learn more, go to [Manage Inventory](inventory-manage-inventory.md).
+You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. Learn more at [Manage Inventory](inventory-manage-inventory.md).
 <br><br>  
   
 > [!Video https://learn-video.azurefd.net/vod/player?id=fe5ed50e-2e5d-47d4-8616-92ae4639f400]
@@ -55,8 +55,12 @@ Transfer routes define how inventory items move between different locations, suc
 |In-transit location (optional but useful for tracking)|OUT. LOG. (Outsourced logistics)|
 |Shipping agent|DHL|
 |Shipping agent service|Overnight delivery|
+|Direct Transfer|Yes|
+|Direct Transfer Posting|Shipment and Receipt|
 
-Once a route is set up, it can be used to automatically populate relevant fields in transfer orders. For example, suppose you set up a transfer route based on the examples in the table. When you create a transfer order from WEST to EAST, OUT. LOG. is automatically set as the in-transit location, DHL as the shipping agent, and Overnight delivery as the service.
+Once you set up a route, it can automatically populate relevant fields in transfer orders. For example, suppose you set up a transfer route based on the examples in the preceding table. When you create a transfer order from WEST to EAST, the order is set up as a direct transfer that uses **Shipment and Receipt**.
+
+Turn on **Direct Transfer** for a route when transfers between its locations don't need separate shipment and receipt posting. In **Direct Transfer Posting**, select the posting method to use as the default for the route. The route setting overrides **Default Direct Transfer Posting** from the **Inventory Setup** page. You can change the posting method on an open transfer order. With **Shipment and Receipt**, you can also specify an optional **In-Transit Code** on the open transfer order.
 
 Before you create a transfer route, [set up the locations](#set-up-a-location) you want in the routes. To create a transfer route, follow these steps:
 
@@ -67,7 +71,7 @@ Before you create a transfer route, [set up the locations](#set-up-a-location) y
 
 1. On the **Trans. Route Spec.** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-You can now transfer inventory items between two locations. To learn more about transfers, go to [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
+You can transfer items between two locations. Learn more at [Transfer items between locations](inventory-how-transfer-between-locations.md).
 
 ## Bins
 

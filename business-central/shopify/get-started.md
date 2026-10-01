@@ -1,7 +1,7 @@
 ---
 title: Getting started with the connector for Shopify
 description: First steps when configuring a connection between Business Central and Shopify.
-ms.date: 06/17/2026
+ms.date: 09/04/2026
 ms.topic: get-started
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -64,6 +64,8 @@ The main purpose of the Dynamics 365 Business Central app is to help existing me
 6. If prompted, sign in to your Shopify account. Review the privacy terms and permissions, and then choose the **Install App** button.
 
 Repeat steps 2-6 for all online shops that you want to connect.
+
+The Shopify Connector uses expiring offline access tokens. It refreshes the access token automatically before it expires and rotates the refresh token. A refresh token remains valid for up to 90 days without a successful refresh. If the connector can't refresh the token within that period, reconnect the shop by choosing **Request Access** on the **Shopify Shop Card** page.
 
 ### Known issues
 

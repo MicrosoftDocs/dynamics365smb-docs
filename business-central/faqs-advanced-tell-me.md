@@ -1,7 +1,7 @@
 ---
-title: Responsible AI FAQ for Advanced Tell Me (preview)
+title: Responsible AI FAQ for Advanced Tell Me
 description: Learn about the AI technology behind Advanced Tell Me semantic search. Get an overview, evaluation metrics, limits, mitigations, data use, security details, and feedback steps.
-ms.date: 05/03/2026
+ms.date: 09/21/2026
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs
@@ -13,13 +13,9 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Responsible AI FAQ for Advanced Tell Me (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+# Responsible AI FAQ for Advanced Tell Me
 
 These frequently asked questions (FAQ) describe the AI impact of Advanced Tell Me in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more about using Tell Me for searching in [Finding pages and information with Tell Me](ui-search.md).
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is Advanced Tell Me?
 
@@ -104,7 +100,7 @@ Non-English queries receive best-effort matching, but relevance can degrade. If 
 
 ## How do I provide feedback on Advanced Tell Me?
 
-Use normal support or preview feedback channels to report:
+Use the usual support or feedback channels to report:
 
 - Missing expected results
 - Irrelevant matches

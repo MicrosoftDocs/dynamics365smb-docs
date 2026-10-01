@@ -15,9 +15,9 @@ ms.search.form: 7771,7772_Primary,7775_Primary
 
 # Configure Copilot and agent capabilities
 
-This article explains how to control Microsoft Copilot and agent capabilities in Dynamics 365 Business Central. An administrator must complete these tasks.
+This article explains how to control Microsoft Copilot and agent capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. An administrator must complete these tasks.
 
-Copilot is a system feature and an integral part of Business Central. Like most system features, you can't turn Copilot on or off. However, Business Central provides extensive transparency and control for administrators, including:
+Copilot is a system feature and an integral part of [!INCLUDE [prod_short](includes/prod_short.md)]. Like most system features, you can't turn Copilot on or off. However, [!INCLUDE [prod_short](includes/prod_short.md)] provides extensive transparency and control for administrators, including:
 
 - Understand which Copilot and agent capabilities are available to your environment.
 - Deactivate individual capabilities.
@@ -28,31 +28,33 @@ There are different levels of access control for agent capabilities, depending o
 
 - Allow data movement across geographical regions.
 
-    This task is required only if your Business Central environment is in a different geography than the Azure OpenAI Service it uses. [Learn more about this task](#allow-data-movement-across-geographies).
+    This task is required only if your [!INCLUDE [prod_short](includes/prod_short.md)] environment is in a different geography than the Azure OpenAI Service it uses. Learn more in [Allow data movement across geographies](#allow-data-movement-across-geographies).
 
-- Activate the feature on the **Copilot & agent capabilities** page. [Learn more about this task](#activate-features).
+- Activate the feature on the **Copilot & agent capabilities** page. Learn more in [Activate features](#activate-features).
 
 If any of these requirements aren't met, the feature isn't available for use.
 
-> [!NOTE]
-> By default, starting with update 25.0, data movement across geographies is enabled, and all features are activated. This setup means Copilot is ready to use without any configuration unless you choose to deactivate specific features.
+> [!IMPORTANT]
+> Starting with Business Central version 29, the **Chat** capability controls whether the Microsoft Copilot in Business Central experience is available instead of the legacy Chat with Copilot feature.
+>
+> The **Allow data movement** setting described in the next section applies to geographic processing for Business Central Copilot and agent capabilities that use Microsoft-managed AI resources through Business Central. It doesn't configure Microsoft Copilot tenant-level privacy, data residency, or geographic processing. For those subjects, see [Data, Privacy, and Security for Microsoft Copilot](/microsoft-365/copilot/microsoft-365-copilot-privacy).
 
 > [!IMPORTANT]
-> **GPT-5.3-chat is now the default model for agents** — From May through June, agents in Business Central are moving to GPT-5.3-chat as the default language model for version 28 and onwards. This change rolls out gradually to environments across all regions. Environments in the UK, India, and Australia are excluded from this initial rollout and will receive the update at a later date.
+> **GPT-5.3-chat is now the default model for agents** — From May through June, agents in [!INCLUDE [prod_short](includes/prod_short.md)] are moving to GPT-5.3-chat as the default language model for version 28 and onwards. This change rolls out gradually to environments across all regions. Environments in the UK, India, and Australia are excluded from this initial rollout and will receive the update at a later date.
 >
 > Along with this update, new model management capabilities are available:
 >
-> - **Model visibility and selection in agent design experience** - Administrators can see which language model their agents use and select their preferred model from the available options in the agent configuration page.
+> - **Model visibility and selection in agent design experience** - Administrators can review which language model their agents use and select their preferred model from the available options in the agent configuration page.
 > - **Model control for coded agents** — New methods in the agent SDK allow developers to control model selection from code, giving programmatic control over which model a coded agent uses.
 >
 > The model update and the model selection UI as well as the new methods roll out independently. Some environments might receive GPT-5.3-chat before the model selection option appears. Copilot continues to work normally during this transition.
 >
-> To change the model for designed agents after the selection UI is available, go to the **Agents** page in Business Central. For coded agents, see the updated SDK documentation for the new model selection methods. For those of you having started on the journey of designing and coding agents, then we highly recommend evaluating your agents again once the model has updated, as agent behavior, as well as accuracy, might be impacted. Learn more at [AI models for agents](/dynamics365/business-central/dev-itpro/ai/ai-agent-models).
+> To change the model for designed agents after the selection UI is available, go to the **Agents** page in Business Central. For coded agents, refer to the updated SDK documentation for the new model selection methods. For those of you who are on the journey of designing and coding agents, we highly recommend that you reevaluate your agents when the model has updated because agent behavior, as well as accuracy, might be affected. Learn more in [AI models for agents](/dynamics365/business-central/dev-itpro/ai/ai-agent-models).
 
 ## Prerequisites
 
-- You use Business Central online.
-- You're an [administrator](#requirements-for-being-an-administrator) in Business Central.
+- You use [!INCLUDE [prod_short](includes/prod_short.md)] online.
+- You're an [administrator](#requirements-for-being-an-administrator) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Allow data movement across geographies
 
@@ -60,22 +62,27 @@ This section applies only if the **Allow data movement** toggle switch appears n
 
 ![Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.](media/allow-data-movement-v3.png "Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.")
 
-The presence of the **Allow data movement** toggle indicates that the location of your Business Central environment (where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies.
+The **Allow data movement** toggle appears when one or more copilot and agent capabilities might process data in a different Azure geography from the Business Central environment. Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-You can choose to disallow data movement, which deactivates Copilot and all features. To allow or disallow data movement across geographies:
+Turning off the toggle prevents affected capabilities from processing data across geographies, making those capabilities unavailable.
 
-1. In Business Central, search for and open the **Copilot & agent capabilities** page.
+1. In [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Copilot & agent capabilities**, and then choose the related link.
 1. Switch the **Allow data movement** toggle on or off as desired.
 
-After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** toggle no longer appears on the **Copilot & agent capabilities** page.
+After an Azure OpenAI Service becomes available in the geography of your [!INCLUDE [prod_short](includes/prod_short.md)] environment, your environment automatically connects to it. At that point, the **Allow data movement** toggle no longer appears on the **Copilot & agent capabilities** page.
 
-Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
+For Microsoft Copilot tenant settings, data access controls, privacy, and data
+residency, see:
+
+- [Manage Microsoft Copilot scenarios in the Microsoft 365 admin center](/microsoft-365/copilot/microsoft-365-copilot-page)
+- [Data, Privacy, and Security for Microsoft Copilot](/microsoft-365/copilot/microsoft-365-copilot-privacy)
+- [Data Residency for Microsoft 365 Copilot](/microsoft-365/enterprise/m365-dr-service-copilot)
 
 ## Activate features
 
 Copilot and agent capabilities are active by default when they're available in preview or generally available. Use the **Copilot & agent capabilities** page to turn individual features off or on for all users:
 
-1. In Business Central, search for and open the **Copilot & agent capabilities** page.
+1. In [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Copilot & agent capabilities**, and then choose the related link.
 1. The page lists all available Copilot and AI-related features and their status (*Active* or *Inactive*). The features are divided into two sections: preview and generally available.
 
     - To turn on a feature, select it in the list, and then select **Activate**.
@@ -85,9 +92,9 @@ Copilot and agent capabilities are active by default when they're available in p
 
 ## Granting user access
 
-Copilot and agent capabilities provide functionality for everyone in your organization or for specific user roles. Most Copilot and agent capabilities use permissions and permission sets in Business Central's permission management system for access control. Learn more about permissions and permission sets in [Assign permissions to users and groups](ui-define-granular-permissions.md).
+Copilot and agent capabilities provide functionality for everyone in your organization or for specific user roles. Most Copilot and agent capabilities use permissions and permission sets in the [!INCLUDE [prod_short](includes/prod_short.md)] permission management system for access control. Learn more about permissions and permission sets in [Assign permissions to users and groups](ui-define-granular-permissions.md).
 
-The following table lists the permissions needed to use the different Copilot and agent features in Business Central.
+The following table lists the permissions needed to use the different Copilot and agent features in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 | Copilot or agent | Required permissions |
 |---|---|
@@ -103,42 +110,42 @@ The following table lists the permissions needed to use the different Copilot an
 | Marketing text suggestions | Permission on page 5836 **Copilot Marketing Text**. |
 |Payables Agent|Learn more in [Manage Payables Agent permissions and user access](payables-agent-setup.md#manage-agent-permissions-and-user-access).|
 | Sales line suggestions | Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**. |
-|Sales Order Agent|Learn more in [Manage Sales Order Agent permissions and user access](sales-order-agent-setup.md#manage-users-and-agent-settings).|
-| Custom Agent (preview) | Learn more in [Designing and coding agents (preview)](/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview).|
+|Sales Order Agent|Learn more in [Manage agent permissions and user access](payables-agent-setup.md#manage-agent-permissions-and-user-access).|
+| Custom Agent (preview) | Learn more in [Designing and coding agents (preview)](/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview). To learn more about how to resolve a request for another permission set in [Resolve a permission request](supervise-agent-tasks.md#resolve-a-permission-request). |
 
 To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.
 
 ## Enable Bing Search for enhanced results
 
-Some features support Bing Search to improve Copilot's results, like giving answers in Chat about add-on apps and extensions installed in Business Central. When you enable Bing Search, Copilot searches the web to find more comprehensive information for an inquiry.
+Some features support Bing Search to improve Copilot's results, like giving answers in Chat about add-on apps and extensions installed in [!INCLUDE [prod_short](includes/prod_short.md)]. When you enable Bing Search, Copilot searches the web to find more comprehensive information for an inquiry.
 
-To enable Bing Search, turn on the **Enable Bing Search** toggle switch in the **Copilot & agent capabilities** page.
+To enable Bing Search, turn on the **Enable Bing Search** toggle on the **Copilot & agent capabilities** page.
 
 Learn more about which Copilot features support Bing Search and how it's used in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
 
 ## Turn off feedback on AI-generated content
 
-Users can provide feedback to Microsoft directly from the Copilot window using the Like and Dislike controls. This feedback is anonymous and helps improve the service. Feedback is enabled by default.
+Users can provide feedback to Microsoft directly from the Copilot window by using the **Like** and **Dislike** controls. This feedback is anonymous and helps improve the service. Feedback is enabled by default.
 
-Administrators can turn off the ability for users to provide Copilot feedback. To do that, do the following:
+Administrators can turn off the ability for users to provide Copilot feedback. To do that, follow these steps:
 
 1. Open the Power Platform admin center for your tenant.
 1. In the left navigation pane, select **Copilot**.
-1. Select **Settings**, then under **Power Platform**, choose **Copilot feedback**.
+1. Select **Settings**, and then under **Power Platform**, choose **Copilot feedback**.
 1. Configure the feedback options:  
-    - **Basic Copilot feedback** - Turn off this toggle to disable the Like and Dislike controls.
-    - **Additional Copilot feedback** - Turn off this toggle to prevent users from sharing prompts, questions, responses, content samples, and log files when submitting feedback.
+    - **Basic Copilot feedback** - Turn off this toggle to disable the **Like** and **Dislike** controls.
+    - **Additional Copilot feedback** - Turn off this toggle to prevent users from sharing prompts, questions, responses, content samples, and log files when they submit feedback.
 1. Choose **Save**.
 
 Changes take effect when users sign out and sign back in.
 
-## Rolling out changes to all users of the environment
+## Roll out changes to all users of the environment
 
-On the **Copilot and agent capabilities** page, when you adjust any toggles or activate or deactivate a capability, your changes can take time to affect users in that environment. Some AI features take effect immediately, while others require users to sign out and sign in again. To enforce your changes quickly, ask users to sign out and sign in again, or cancel user sessions from the Business Central administration center. Learn more in [Cancel sessions in Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions#cancel-sessions).
+On the **Copilot and agent capabilities** page, when you adjust any toggles or activate or deactivate a capability, your changes can take time to affect users in that environment. Some AI features take effect immediately, while others require users to sign out and sign in again. To enforce your changes quickly, ask users to sign out and sign in again, or cancel user sessions from the [!INCLUDE [prod_short](includes/prod_short.md)] administration center. Learn more in [Cancel sessions in Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions#cancel-sessions).
 
 ## Requirements for being an administrator
 
-You need SUPER permission in your Business Central user account or one of the following Business Central licenses:
+You need **SUPER** permission in your Business Central user account or one of the following [!INCLUDE [prod_short](includes/prod_short.md)] licenses:
 
 - Delegated Admin agent - Partner
 - Delegated Helpdesk agent - Partner
@@ -146,14 +153,14 @@ You need SUPER permission in your Business Central user account or one of the fo
 - Internal BC Administrator
 - Dynamics 365 Administrator
 
-Business Central doesn't yet offer granular, object-level permissions so that only specific administrators can configure Copilot.
+[!INCLUDE [prod_short](includes/prod_short.md)] doesn't yet offer granular, object-level permissions so that only specific administrators can configure Copilot.
 
 ## Next steps
 
 For agents, you need to complete a few more steps before the agent is ready to use. Learn more in:
 
 - [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent)
-- [Set up Payables Agent](payables-agent-setup.md#configure-and-activate-payables-agent).
+- [Set up Payables Agent](payables-agent-setup.md)
 
 For other Copilot features, you're ready to try them out. Learn more in the following articles:
 

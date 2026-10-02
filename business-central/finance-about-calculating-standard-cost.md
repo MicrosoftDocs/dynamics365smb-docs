@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: concept-article
 ms.search.form: 5841,
 ms.author: bholtorf
-ms.date: 06/02/2026
+ms.date: 10/01/2026
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -19,9 +19,9 @@ Standard costs can be maintained for items that are replenished through purchase
 
 |Replenishment system|Standard cost elements|  
 |--------------------------|----------------------------|  
-|**Purchase**|Direct material cost and overhead material cost if necessary.|  
-|**Assembly**|Direct material cost, direct or fixed labor cost, and overhead cost.|  
-|**Prod. Order**|Direct material cost, material noninventory cost, labor cost, subcontractor cost, and overhead cost.|  
+|Purchase|Direct material cost and overhead material cost if necessary.|  
+|Assembly|Direct material cost, direct or fixed labor cost, and overhead cost.|  
+|Prod. Order|Direct material cost, material noninventory cost, labor cost, subcontractor cost, and overhead cost.|  
 
 ## Set up standard costs
 
@@ -49,7 +49,7 @@ Material costs are costs that are associated with subassemblies and purchased ra
 
 The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you selected for the specified item. You set up cost information for either costing method on the item. To learn more, go to [Register New Items](inventory-how-register-new-items.md).
 
-The cost of scrap (production only) is another factor to consider when you calculate the total material cost. Scrapping raw materials when you assemble or produce an item often causes an increase in the quantity of components that are required to produce the item. In turn, this increases the material cost of the components that you consume when you produce a parent item. You set up scrap cost for materials on either the production BOM or routing.  
+The cost of scrap (production only) is another factor to consider when calculating the total material cost. Scrapping raw materials when you assemble or produce an item often increases the quantity of components required to produce the item. This increase raises the material cost of the components you consume when producing a parent item. You set up scrap cost for materials on either the production bill of materials (BOM) or routing.  
 
 The material cost of a produced item can be represented in two ways that correspond to the following cost calculation bases.  
 
@@ -79,9 +79,9 @@ You set up the rates for each time type for each machine or work center on an in
 > [!NOTE]  
 > While run time rates apply for each item unit that is produced, the setup time rates apply for each lot. Therefore, you must prorate the routing setup time for each operation over the lot size. You specify the lot size in the corresponding field on the **Replenishment** FastTab of the **Item Card** page.  
 
-To specify setup time on the routing for planning but exclude this expense in the standard cost calculation, clear the **Cost Incl. Setup** field on the **Manufacturing Setup** page.  
+> To specify setup time on the routing for planning but exclude this expense in the standard cost calculation, turn off the **Cost Incl. Setup** toggle on the **Manufacturing Setup** page.
 
-On a single-level basis, this value is the labor cost that is required to produce the finished production item and is specified on the production item's routing. On a multi-level basis, this value is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
+On a single-level basis, this value is the labor cost required to produce the finished production item and is specified on the production item's routing. On a multilevel basis, this value is the capacity cost for each individually produced item that's included in the parent item's BOM.
 
 ### Subcontractor costs
 
@@ -105,9 +105,115 @@ To set up the general ledger accounts, go to the **General Posting Setup** page 
 > [!NOTE]
 > Noninventory item costs don't apply to assembly orders, only production orders.
 
+## Example: Calculate standard cost for a production item
+
+The following example shows how material, noninventory material, capacity, subcontracting, capacity overhead, and manufacturing overhead contribute to the standard cost of a production item. It also shows how the item lot size distributes setup cost across the items in a production lot.
+
+### Set up the example
+
+On the **Manufacturing Setup** page, use the settings described in the following table:
+
+| Field | Value |
+|---|---:|
+| **Cost Incl. Setup** | On |
+| **Include Non-Inventory Items to Produced Items** | On |
+
+Create the items described in the following table. The production item has an overhead percentage and a fixed overhead rate so that the example includes manufacturing overhead.
+
+| Item | Type and replenishment | Cost setup |
+|---|---|---|
+| FINISHED | Inventory, replenished by production order | **Costing Method** = Standard; **Indirect Cost %** = 10; **Overhead Rate** = 3; **Lot Size** = 1, then 10 |
+| INV-COMP | Inventory, replenished by purchase | **Unit Cost** = 10; no indirect cost or overhead rate |
+| NONINV-COMP | Non-Inventory | **Unit Cost** = 4; no indirect cost or overhead rate |
+
+Create and certify a production BOM for the FINISHED item with the following lines:
+
+| Component | Quantity per |
+|---|---:|
+| INV-COMP | 2 |
+| NONINV-COMP | 3 |
+
+Create the following work centers. Use **MINUTES** as the unit of measure for capacity and routing times.
+
+| Work center | Purpose | Unit Cost Calculation | Direct Unit Cost | Indirect Cost % | Overhead Rate |
+|---|---|---|---:|---:|---|
+| 100 | Internal operation charged by produced unit | Units | 5 | 20 | 1 |
+| 200 | Internal operation charged by time | Time | 2 | 0 | 0 |
+| 500 | Subcontracting operation charged by produced unit | Units | 7 | 0 | 0 |
+
+Assign a subcontractor vendor to work center 500. Leave the work center's indirect cost and overhead rate at zero so that its direct unit cost appears entirely as subcontracted cost.
+
+Create and certify a routing for the FINISHED item with the operations described in the following table:
+
+| Operation | Work center | Setup Time | Run Time | Time unit |
+|---|---|---:|---:|---|
+| 10 | 100 | 0 | 1 | Minutes |
+| 20 | 200 | 10 | 1 | Minutes |
+| 30 | 500 | 0 | 1 | Minutes |
+
+For a work center that uses **Units**, the produced quantity determines the cost quantity. Setup time and run time don't determine the cost quantity. For a work center that uses **Time**, run time applies to each produced unit, while setup time applies once to the production lot when you turn on the **Cost Incl. Setup** toggle.
+
+### Review the result for lot size 1
+
+On the FINISHED item, set the **Lot Size** field to **1**. On the **Item Card** page, choose the **Production** group, and then choose the **Calc. Production Std. Cost** action. Learn more in [Populate standard cost](#populate-standard-cost).
+
+| Cost share | Amount | Explanation |
+|---|---:|---|
+| Material Cost | 20.00 | The INV-COMP item's unit cost of 10 multiplied by the BOM quantity of 2. |
+| Material Non-Inventory Cost | 12.00 | The NONINV-COMP item's unit cost of 4 multiplied by the BOM quantity of 3. |
+| Capacity Cost | 27.00 | Work center 100 contributes 5 for one produced unit. Work center 200 contributes 22, calculated as *(10 setup minutes + 1 run minute) × 2 per minute*. |
+| Subcontracted Cost | 7.00 | The work center direct unit cost of 7 multiplied by one produced unit. |
+| Capacity Overhead Cost | 2.00 | Work center 100 contributes as *5 direct cost × 20% + 1 overhead rate*. The other work centers don't have capacity overhead in this example. |
+| Manufacturing Overhead Cost | 9.80 | The production item's overhead is calculated as *10% × (20 material + 12 noninventory material + 27 capacity + 7 subcontracting + 2 capacity overhead) + 3 overhead rate*. |
+| Standard Cost | 77.80 | The sum of all cost shares, calculated as *20 + 12 + 27 + 7 + 2 + 9.80*. |
+
+### Review the result for lot size 10
+
+On the FINISHED item, change the value in the **Lot Size** field to **10**, and then calculate the production standard cost again.
+
+| Cost share | Amount | Explanation |
+|---|---:|---|
+| Material Cost | 20.00 | The lot cost is calculated as *10 unit cost × 2 components × 10 finished items = 200*. The per-unit cost is calculated as *200 ÷ 10 = 20*. |
+| Material Non-Inventory Cost | 12.00 | The lot cost is calculated as *4 unit cost × 3 components × 10 finished items = 120*. The per-unit cost is calculated as *120 ÷ 10 = 12*. |
+| Capacity Cost | 9.00 | Work center 100 contributes 5 per item. Work center 200 contributes 4 per item, calculated as *(10 setup minutes + 1 run minute × 10 items) × 2 per minute ÷ 10 items*. |
+| Subcontracted Cost | 7.00 | The lot cost is calculated as *7 work center direct unit cost × 10 items = 70*. The per-unit cost is calculated as *70 ÷ 10 = 7*. |
+| Capacity Overhead Cost | 2.00 | Work center 100 contribution is calculated as *(5 direct cost × 20% + 1 overhead rate) × 10 items ÷ 10 items*. |
+| Manufacturing Overhead Cost | 8.00 | The production item's overhead is calculated as *10% × (20 material + 12 noninventory material + 9 capacity + 7 subcontracting + 2 capacity overhead) + 3 overhead rate*. |
+| Standard Cost | 58.00 | The sum of all cost shares, calculated as *20 + 12 + 9 + 7 + 2 + 8*. |
+
+The larger lot size reduces only the setup cost per finished item in this example. Material quantities, unit-based operations, subcontracting, and fixed per-item overhead remain proportional to the number of finished items.
+
+### Exclude setup cost
+
+To compare the result when setup time is used only for planning, for the FINISHED item, set the **Lot Size** field to **1**. On the **Manufacturing Setup** page, turn off **Cost Incl. Setup** toggle. Calculate the production standard cost again.
+
+| Cost share | Amount | Explanation |
+|---|---:|---|
+| Material Cost | 20.00 | The inventory component setup is unchanged. |
+| Material Non-Inventory Cost | 12.00 | The noninventory component setup is unchanged. |
+| Capacity Cost | 7.00 | Work center 100 contributes 5. Work center 200 contributes only *1 run minute × 2 per minute = 2*. The 10 setup minutes don't contribute to standard cost. |
+| Subcontracted Cost | 7.00 | The subcontracting work center's direct unit cost is unchanged. |
+| Capacity Overhead Cost | 2.00 | The overhead from work center 100 is unchanged. |
+| Manufacturing Overhead Cost | 7.80 | The production item's overhead is calculated as *10% × (20 material + 12 noninventory material + 7 capacity + 7 subcontracting + 2 capacity overhead) + 3 overhead rate*. |
+| **Standard Cost** | **55.80** | The sum of all cost shares is calculated as *20 + 12 + 7 + 7 + 2 + 7.80*. |
+
+### Exclude noninventory item cost
+
+To compare the result when noninventory components are excluded, turn on the **Cost Incl. Setup** toggle, keep the **Lot Size** field value at **1** for the FINISHED item, and turn off the **Include Non-Inventory Items to Produced Items** toggle. Calculate the production standard cost again.
+
+| Cost share | Amount | Explanation |
+|---|---:|---|
+| Material Cost | 20.00 | The inventory component is still included. |
+| Material Non-Inventory Cost | 0.00 | The setting excludes the noninventory component's cost from the production item's standard cost. |
+| Capacity Cost | 27.00 | Both internal operations are included, including setup time for work center 200. |
+| Subcontracted Cost | 7.00 | The subcontracting work center's direct unit cost is unchanged. |
+| Capacity Overhead Cost | 2.00 | The overhead from work center 100 is unchanged. |
+| Manufacturing Overhead Cost | 8.60 | The production item's overhead is calculated as *10% × (20 material + 27 capacity + 7 subcontracting + 2 capacity overhead) + 3 overhead rate*. The excluded noninventory amount isn't part of the percentage base. |
+| Standard Cost | 64.60 | The sum of all included cost shares is calculated as *20 + 27 + 7 + 2 + 8.60*. |
+
 ## Populate standard cost
 
-You can set standard cost manually or you can calculate the item's standard cost from the **Item Card** page. Choose the **Production** group, then choose the **Calc. Production Std Cost** action to update cost of production items or choose the **Assembly** group, then choose the **Calc. Assembly Std. Cost** action to update cost of assembly item. The actions consolidate and roll up the component and capacity costs to calculate the total assembly or manufacturing cost of the items.
+You can set the standard cost manually or calculate it on the **Item Card** page. To update the cost of production items, choose the **Production** group, and then choose the **Calc. Production Std. Cost** action. To update the cost of assembly items, choose the **Assembly** group, and then choose the **Calc. Assembly Std. Cost** action. The actions consolidate and roll up the component and capacity costs to calculate the total assembly or manufacturing cost of the items.
 
 When you run **Calc. Production Std. Cost**, you choose one of the following calculation levels:
 

@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
@@ -16,6 +16,9 @@ ms.custom: bap-template
 # Map e-documents to purchase order lines with Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+> [!NOTE]
+> This Copilot capability is deprecated. The **Map E-Document Lines with Copilot** and **Match Purchase Order with Copilot** actions are replaced by the **Payables Agent**, which uses AI to match incoming purchase invoices with open purchase orders. The actions still work in current versions, but start using the Payables Agent instead. You can also match purchase order lines manually. Learn more in [Payables Agent](payables-agent.md).
 
 As procurement processes become more digital, the e-documents feature in [!INCLUDE [prod_short](includes/prod_short.md)] plays a key role in automating how companies receive and process vendor invoices. Copilot can help by improving the mapping and matching of lines on vendor invoices to purchase orders. Copilot can reduce the time you spend on tasks that would normally require extensive search, lookup, and data entry. Another benefit is when vendor invoices don't relate exactly with purchase orders. Copilot can identify the corresponding purchase orders. Enhanced matching capabilities particularly benefit small and mid-sized organizations that need efficient document tracking for purchase order lines.
 

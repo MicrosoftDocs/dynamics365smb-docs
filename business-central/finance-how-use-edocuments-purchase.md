@@ -1,5 +1,5 @@
 ---
-title: Use E-Documents in the Purchase Process
+title: Use E-Documents in the purchase process
 description: Learn how to set up vendors and handle purchase invoices, orders, and credit memos using e-documents in Dynamics 365 Business Central.
 author: altotovi
 ms.author: altotovi
@@ -274,7 +274,8 @@ You can match received electronic documents with purchase order lines from the *
 - Shipping and Receiving
 
 > [!TIP]
-> There are two ways to match lines. One way is to do it manually, as described in the article. The other way is to use the **E-document matching assistance with Copilot**. The E-document matching assistance feature helps you match received electronic invoices with existing purchase order lines by using a large language model (LLM). Learn more in [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md).
+> There are two ways to match lines. One way is to do it manually, as described in this article. The other way is to use **E-document matching assistance with Copilot** ([Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)). That Copilot capability is being deprecated and is being replaced by the **Payables Agent**, which uses AI to match incoming purchase invoices with open purchase orders. Learn more in [Payables Agent](payables-agent.md).
+
 > [!NOTE]
 > If the VAT percentage differs between the incoming document and the company's VAT percentage, matching documents can't be used in a multi-country environment.  
 

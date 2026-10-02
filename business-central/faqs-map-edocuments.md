@@ -1,7 +1,7 @@
 ---
 title: FAQ for mapping e-documents with purchase orders
 description: This FAQ provides information about the AI technology used in Business Central, key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -18,6 +18,9 @@ ms.collection:
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 These frequently asked questions (FAQ) describe the AI impact of **E-documents Matching Assistance** feature in [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!NOTE]
+> This Copilot capability is deprecated. The **Map E-Document Lines with Copilot** and **Match Purchase Order with Copilot** actions are replaced by the **Payables Agent**, which uses AI to match incoming purchase invoices with open purchase orders. The actions still work in current versions, but start using the Payables Agent instead. You can also match purchase order lines manually. Learn more in [Payables Agent](payables-agent.md).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

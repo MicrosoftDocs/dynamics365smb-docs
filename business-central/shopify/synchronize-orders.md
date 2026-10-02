@@ -4,11 +4,12 @@ description: Set up and run import and processing of sales orders from Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 09/04/2026
+ms.date: 09/30/2026
 ms.topic: how-to
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147, 30168
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Synchronize and fulfill sales orders
@@ -584,11 +585,21 @@ In Shopify, because the order is already fulfilled, the only meaningful changes 
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] doesn't track changes. Currently, if you want to mark the order as paid, use the **Mark as Paid** action on the **Shopify Order Card** page.
 
-## Taxes in imported Shopify orders
+## Taxes in imported Shopify orders 
 
 Although the Shopify orders you import have tax information, the tax amounts recalculate when you create the sales document. The recalculation means it's important that your VAT or sales tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 You can review imported tax details in the **Tax Lines** page, which you can open from the **Shopify Order** page.
+
+### Review tax matches in the US version (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+If you enable Shopify Tax Matching for a shop in the US version of Business Central, AI matching suggests tax jurisdictions for unmatched tax lines on imported orders. The connector holds an order for review if a tax line doesn't have a tax jurisdiction or if the Shopify tax rate differs from the existing tax detail rate. These conditions require review regardless of the configured review mode.
+
+On the **Shopify Order** page, choose **Review and Approve Tax Match** or **Review Tax Match**. On the **Tax Match Review** page, review and correct the suggested tax jurisdictions, resolve any rate differences, and then approve the match. After the order no longer requires tax review, you can create the sales document. For prerequisites, setup options, and the detailed review process, go to [Set up and use Shopify Tax Matching](shopify-tax-matching.md).
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ### Multiple product tax or VAT rates
 

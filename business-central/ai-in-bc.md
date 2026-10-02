@@ -5,10 +5,11 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: overview 
-ms.date: 07/01/2026
+ms.date: 09/30/2026
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
+ai-usage: ai-assisted
 ---
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -171,6 +172,15 @@ The Sales Order Agent automates sales orders by handling customer requests via e
 
 - [Sales Order Agent](sales-order-agent.md)
 - [Responsible AI FAQs for Sales Order Agent](faqs-sales-order-taker-agent.md)
+
+### Shopify Tax Matching
+
+During Shopify order import, Shopify tax matching suggests mappings from unmatched free-text product and shipping tax lines to tax jurisdictions when standard Shopify tax processing doesn't resolve a tax area. You can review suggestions and resolve rate conflicts before [!INCLUDE [prod_short](includes/prod_short.md)] creates the sales document. The current release is available only in the US version of Business Central.
+
+**Learn more in:**
+
+- [Set up and use Shopify Tax Matching](shopify/shopify-tax-matching.md)
+- [Application card for Shopify Tax Matching](shopify-tax-matching-application-card.md)
 
 ### Sales line suggestions
 

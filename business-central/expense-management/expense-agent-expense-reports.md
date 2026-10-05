@@ -1,13 +1,16 @@
 ---
 title: Create and Submit Expense Reports in Expense Agent
 description: Learn how to create expense reports, add expenses, move expenses between reports, and submit reports for approval in Expense Agent.
-author: brentholtorf
+author: jswymer
 ms.topic: how-to
-ms.date: 09/25/2026
-ms.author: bholtorf
+ms.date: 10/02/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Create and submit expense reports in Expense Agent

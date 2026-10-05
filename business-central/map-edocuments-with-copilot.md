@@ -12,13 +12,12 @@ ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
-
 # Map e-documents to purchase order lines with Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 > [!NOTE]
-> This Copilot capability is deprecated. The **Map E-Document Lines with Copilot** and **Match Purchase Order with Copilot** actions are replaced by the **Payables Agent**, which uses AI to match incoming purchase invoices with open purchase orders. The actions still work in current versions, but start using the Payables Agent instead. You can also match purchase order lines manually. Learn more in [Payables Agent](payables-agent.md).
+> This Copilot capability is deprecated. The **Map E-Document Lines** and **Match Purchase Order** actions are replaced by the **Payables Agent**, which uses AI to match incoming purchase invoices with open purchase orders. The actions still work in current versions, but start using the Payables Agent instead. You can also match purchase order lines manually. Learn more in [Payables Agent](payables-agent.md).
 
 As procurement processes become more digital, the e-documents feature in [!INCLUDE [prod_short](includes/prod_short.md)] plays a key role in automating how companies receive and process vendor invoices. Copilot can help by improving the mapping and matching of lines on vendor invoices to purchase orders. Copilot can reduce the time you spend on tasks that would normally require extensive search, lookup, and data entry. Another benefit is when vendor invoices don't relate exactly with purchase orders. Copilot can identify the corresponding purchase orders. Enhanced matching capabilities particularly benefit small and mid-sized organizations that need efficient document tracking for purchase order lines.
 
@@ -61,9 +60,9 @@ You can match your received electronic documents with purchase order lines from 
 > - Inventory Manager
 > - Shipping and Receiving
 
-When you want to run matching from a purchase order, select the **Map E-Document Lines with Copilot** action. The action is available on the **Purchase Orders** list page and the **Purchase Order** page. If you want to run matching from the **E-Documents** page, select the **Match Purchase Order with Copilot** action. To process with matching, follow these steps:
+When you want to run matching from a purchase order, select the **Map E-Document Lines** action. The action is available on the **Purchase Orders** list page and the **Purchase Order** page. If you want to run matching from the **E-Documents** page, select the **Match Purchase Order** action. To process with matching, follow these steps:
 
-1. Select the **Map E-Document Lines with Copilot** or **Match Purchase Order with Copilot** action for documents that are already linked.  
+1. Select the **Map E-Document Lines** or **Match Purchase Order** action for documents that are already linked.  
 1. The **E-Document Match Order Lines with Copilot** prompt displays and the **Purchase Order Matching** page in the background. Copilot is automatically creating the mapping for you.
 1. After a few seconds, the **E-Document Match Order Lines with Copilot** page suggests lines for matching with a few details:
 
@@ -75,10 +74,10 @@ When you want to run matching from a purchase order, select the **Map E-Document
     |Copilot matched | Specifies the number of matches proposed by Copilot using both string and semantic comparison. |
     |E-Document No. | Specifies the linked e-document number. |
     |Invoice Total Amount Excl. VAT | Specifies the total invoice amount excluding VAT. |
-    |Matched Total Amount Incl. VAT | Specifies the matched amount excluding VAT. |
+    |Matched Total Amount Excl. VAT | Specifies the matched amount excluding VAT. |
 
     1. If all lines match, the following text displays in green font in the upper-right corner, **All lines (100%) are matched. Review match proposals**.  
-    1. The **Matched proposal** lines contain the following information:  
+    1. The **Match proposals** lines contain the following information:  
 
        |Field name |Description |
        |--------|-----------------|
@@ -111,4 +110,4 @@ When you want to run matching from a purchase order, select the **Map E-Document
 [Use e-documents in sales](finance-how-use-edocuments.md)  
 [Use e-documents in purchase](finance-how-use-edocuments-purchase.md)  
 [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
-[Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
+[Responsible AI FAQ for e-document matching assistance](faqs-map-edocuments.md)  

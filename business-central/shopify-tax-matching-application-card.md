@@ -1,7 +1,7 @@
 ---
 title: Application card for Shopify Tax Matching
 description: Learn how Shopify Tax Matching uses AI, how Microsoft evaluated the feature, its limitations, and how to use it responsibly.
-ms.date: 09/30/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs

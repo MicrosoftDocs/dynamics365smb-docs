@@ -1,14 +1,18 @@
 ---
 title: How the Expense Agent Processes Emails
 description: Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
-author: brentholtorf
+author: jswymer
 ms.topic: concept-article
-ms.date: 04/22/2026
-ms.author: bholtorf
+ms.date: 10/02/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 6996,
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
+
 ---
 
 # How Expense Agent processes emails
@@ -42,7 +46,7 @@ The agent also groups expenses into expense reports automatically based on the c
 
 Before the agent can process emails, an administrator must:
 
-- Enable the agent on the **Expense Agent Setup** page.
+- Enable the agent on the **Expense Management Setup** page.
 - Configure a mailbox account that the agent monitors.
 - Activate the **Expense Agent** capability on the **Copilot & Agent Capabilities** page.
 - Accept the privacy notice.
@@ -52,11 +56,11 @@ Before the agent can process emails, an administrator must:
 
 When enabled, the agent sends periodic reminders to expense users who have expense reports in **Open** status. The reminders help ensure that people submit reports on time.
 
-Administrators configure the reminder frequency (weekly, monthly, or custom) and schedule on the **Expense Agent Setup** page. Learn more in [Configure notification settings](expense-management-setup.md#configure-notification-settings).
+Administrators configure the reminder frequency (weekly, monthly, or custom) and schedule on the **Expense Management Setup** page. Learn more in [Configure notification settings](expense-management-setup.md#configure-notification-settings).
 
 ## Security and access
 
-The agent works within the permissions assigned to it. Administrators control which users the agent can act for, and which users can configure the agent. These settings are available on the **Agent Access Control** FastTab of the **Expense Agent Setup** page.
+The agent works within the permissions assigned to it. Administrators control which users the agent can act for, and which users can configure the agent. These settings are available on the **Agent Access Control** FastTab of the **Expense Management Setup** page.
 
 The agent only sends emails to users who are registered as expense users.
 

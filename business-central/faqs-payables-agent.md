@@ -1,7 +1,7 @@
 ---
 title: Payables Agent Frequently Asked Questions
 description: Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 09/27/2026
+ms.date: 10/02/2026
 ai-usage: ai-assisted
 ms.update-cycle: 180-days
 ms.custom: 
@@ -74,9 +74,9 @@ Payables Agent was evaluated through extensive manual and automated testing cove
 
 For accuracy testing, the agent was tested on hundreds of invoice scenarios covering different vendors, invoice formats, and line-item complexities. The testing measured how accurately the system extracted invoice data, matched vendors, and suggested appropriate account classifications compared to human reviewers.
 
-For safety testing, the agent’s responses were evaluated to potentially harmful content, adversarial inputs, and attempts to manipulate the AI system. This included testing with malicious invoice content and user instructions designed to bypass safety measures.
+For safety testing, the agent's responses were evaluated for potentially harmful content, adversarial inputs, and attempts to manipulate the AI system. This included testing with malicious invoice content and user instructions designed to bypass safety measures.
 
-The agent performance is monitor through user feedback and automated quality checks on all processed invoices.
+The agent performance is monitored through user feedback and automated quality checks on all processed invoices.
 
 ## What are the limitations of Payables Agent? How can users minimize the impact of these limitations?
 
@@ -94,7 +94,7 @@ The agent performance is monitor through user feedback and automated quality che
 
 - **Data Dependencies**: Account suggestions improve with historical transaction data. Companies with limited transaction history receive fewer automated suggestions since the agent learns from past invoices and accounting decisions.
 
-- **Volume limitations:** Payables Agent processes up to 100 emails per day and up to 50 emails in one batch. PDF attachments must be 20 MB or smaller and contain a maximum of 10 pages. High-volume processing might experience delays during peak usage periods.
+- **Volume limitations:** Payables Agent processes up to 100 emails and up to 500 invoices per day. PDF attachments must be 5 MB or smaller and contain a maximum of 10 pages. High-volume processing might experience delays during peak usage periods.
 
 To address these limitations, review drafts before finalization and maintain accurate vendor, item, purchase order, and chart of accounts data in Business Central.
 

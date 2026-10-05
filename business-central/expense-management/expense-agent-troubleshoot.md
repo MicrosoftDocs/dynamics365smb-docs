@@ -1,13 +1,16 @@
 ---
 title: Troubleshoot Expense Agent Issues
 description: Find solutions for common issues in Expense Agent, including sign-in problems, receipt upload failures, and policy violations.
-author: brentholtorf
+author: jswymer
 ms.topic: concept-article
-ms.date: 09/25/2026
-ms.author: bholtorf
+ms.date: 10/02/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Troubleshoot common issues in Expense Agent

@@ -1,13 +1,16 @@
 ---
 title: Use the Expense Agent Mobile App (preview)
 description: Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
-author: brentholtorf
+author: jswymer
 ms.topic: how-to
-ms.date: 09/26/2026
-ms.author: bholtorf
+ms.date: 10/02/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Use the Expense Agent mobile app for iOS and Android (preview)

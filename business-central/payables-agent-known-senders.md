@@ -1,7 +1,7 @@
 ---
 title: Manage known senders for Payables Agent
 description: Manage per-sender email review policies for the Payables Agent to automatically approve or reject emails from trusted or unwanted vendors.
-ms.date: 07/28/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer
@@ -69,7 +69,7 @@ You can add a sender to the list before the agent processes an invoice from them
 
 1. On the **Payables Agent Known Senders** page, select **New**.
 1. In the **Email** field, enter the email address of the sender you want to add.
-1. In the **Policy** column, select one of the three available policies: **Ask**, **Approve**, or **Reject**. See "Understanding sender review policies" earlier in this article for details.
+1. In the **Review policy** column, select one of the three available policies: **Ask**, **Approve**, or **Reject**. See "Understanding sender review policies" earlier in this article for details.
 1. Select **Close** when done.
 
 ## Set per-sender review policies
@@ -77,7 +77,7 @@ You can add a sender to the list before the agent processes an invoice from them
 On the **Payables Agent Known Senders** page, you can manage review policies for each sender:
 
 1. Find the sender you want to manage in the list.
-1. In the **Policy** column, select one of the three available policies: **Ask**, **Approve**, or **Reject**. See "Understanding sender review policies" earlier in this article for details.
+1. In the **Review policy** column, select one of the three available policies: **Ask**, **Approve**, or **Reject**. See "Understanding sender review policies" earlier in this article for details.
 1. Select **Update** to apply the changes.
 
 ## Delete a sender

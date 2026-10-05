@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: faq
 ms.search.form:
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -106,7 +106,7 @@ For items, the following table lists the tables and fields that Copilot searches
 |**Item Category**     |  * Code<br>* Description<br>* Parent Category - 1 Level	       |
 |**Item Translation**     | * Language<br>* Description<br>* Description 2	        |
 |**Item Identifier**     |  * Code       |
-|**Extended text Line**     |  * Text      |
+|**Extended Text Line**     |  * Text      |
 
 * Find documents by reference
 
@@ -142,7 +142,7 @@ To safeguard against scenario where a large file is uploaded, the CSV file is li
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-AI-powered suggestions might sometimes be incorrect or incomplete. You should always review the accuracy of Copilot's suggestions before you choose whether to keep them. Copilot’s suggestions aren't saved to the [!INCLUDE [prod_short](includes/prod_short.md)] database until you choose the **Keep it** button and exit the Copilot window. You can edit and correct any suggestions before you choose to keep it, or after they're inserted in a sales document.
+AI-powered suggestions might sometimes be incorrect or incomplete. You should always review the accuracy of Copilot's suggestions before you choose whether to keep them. Copilot’s suggestions aren't saved to the [!INCLUDE [prod_short](includes/prod_short.md)] database until you choose the **Insert** button and exit the Copilot window. You can edit and correct any suggestions before you choose to keep it, or after they're inserted in a sales document.
 
 ### What is expected of administrators and end-users when using Sales lines suggestions?
 

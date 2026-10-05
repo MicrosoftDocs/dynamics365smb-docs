@@ -1,7 +1,7 @@
 ---
 title: FAQ for marketing text suggestions
 description: This FAQ provides information about the AI technology used in marketing text suggestions in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -21,7 +21,7 @@ These frequently asked questions (FAQ) describe the AI impact of the [!INCLUDE[f
 
 Copilot provides writing assistance for users responsible for authoring marketing text (also known as copy) on items in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature is known as [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]. The [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature provides writing assistance for users responsible for authoring marketing text (also known as *copy*) on items in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-The feature is available on any item card in [!INCLUDE[prod_short](includes/prod_short.md)]. To use it, just open an item and then select **Marketing Text** > **Draft with Copilot**. This action automatically generates a text suggestion that's engaging, creative, and specific to the item that's shown. Suggestions are based on various inputs, including:
+The feature is available on any item card in [!INCLUDE[prod_short](includes/prod_short.md)]. To use it, just open an item and then select **Marketing Text** > **Suggest marketing text**. This action automatically generates a text suggestion that's engaging, creative, and specific to the item that's shown. Suggestions are based on various inputs, including:
 
 - The item's attributes, category, and name.
 - Personal writing style preferences, like tone of voice, emphasized quality, format and length.

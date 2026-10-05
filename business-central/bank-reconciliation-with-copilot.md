@@ -8,9 +8,9 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
-ms.custom: bap-template 
+ms.custom: bap-template
 ---
 
 # Reconcile bank accounts with Copilot
@@ -89,7 +89,7 @@ For this approach, you use Copilot either on a new bank account reconciliation t
     - Select **New** to start a new reconciliation. Add the statement lines, either manually or by using **Suggest Lines** action to get a copy of the bank ledger entries as a starting point.
     - Select and open an existing reconciliation in the list.
 
-1. On the **Bank Acc. Reconciliation** card, select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Reconcile with Copilot** in the upper-right corner.
+1. On the **Bank Acc. Reconciliation** card, select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Reconcile** in the upper-right corner.
 
     ![Screenshot that shows the Reconcile with Copilot button on a Bank Acc. Reconciliation card.](media/bank-reconciliation-copilot-card.png)
 
@@ -134,7 +134,7 @@ This section explains how to use Copilot to post unreconciled bank account state
 
     Copilot focuses on the selected lines to post new payments to the G/L account.
 
-1. Select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Post Difference to G/L Account** to start the process.
+1. Select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Post difference to G/L account** to start the process.
 
     ![Screenshot that shows the Post Difference to G/L Account button on the Bank Acc. Reconciliation card.](media/bank-reconciliation-transfer-gl-copilot-card.png)
 

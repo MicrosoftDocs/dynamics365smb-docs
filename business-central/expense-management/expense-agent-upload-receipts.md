@@ -1,13 +1,16 @@
 ---
 title: Upload Receipts and Create Mileage Expenses
 description: Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
-author: brentholtorf
+author: jswymer
 ms.topic: how-to
-ms.date: 09/26/2026
-ms.author: bholtorf
+ms.date: 10/02/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Upload receipts and create expenses in Expense Agent

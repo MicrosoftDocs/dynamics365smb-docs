@@ -8,7 +8,7 @@ ms.topic: faq
 ai-usage: ai-assisted
 ms.collection:
 - bap-ai-copilot
-ms.date: 09/16/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template jswymer
 ---

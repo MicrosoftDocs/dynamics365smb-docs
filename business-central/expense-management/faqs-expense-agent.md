@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Expense Agent (preview)
 description: Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 08/21/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -108,7 +108,7 @@ For technical issues or questions about setup and configuration, contact Microso
 
 [!INCLUDE[ai-data-collection](../includes/ai-data-collection.md)]
 
-## How does Payables Agent show me what it's doing?
+## How does Expense Agent show me what it's doing?
 
 **Clear AI Disclosure**: All content generated or suggested by the agent is clearly marked as ai-assisted. You always know when you're reviewing agent-created content versus human-entered data.
 

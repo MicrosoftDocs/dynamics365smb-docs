@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -61,5 +61,4 @@ After Copilot suggests the items to add, review the suggestions and decide wheth
 ## Related information
 
 [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)  
-[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
-[Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)

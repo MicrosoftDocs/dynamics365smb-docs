@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting 
 ms.collection:
   - bap-ai-copilot
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.service: dynamics-365-business-central
@@ -18,7 +18,7 @@ Copilot is an AI-powered functionality in Business Central that assists in vario
 
 ## Copilot doesn't appear on pages
 
-If Copilot functionality, such as the **Draft with Copilot** action for marketing text suggestions or the **Reconcile with Copilot** action for bank account reconciliation assist, doesn't appear on a page as expected, check the following:
+If Copilot functionality, such as the **Create draft** link for marketing text suggestions or the **Reconcile** action for bank account reconciliation assist, doesn't appear on a page as expected, check the following:
 
 - Make sure that the feature is enabled if it's controlled under Feature Management. [Learn more about feature management](admin-feature-management.md).
 

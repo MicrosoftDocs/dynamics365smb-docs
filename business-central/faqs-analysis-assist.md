@@ -1,7 +1,7 @@
 ---
 title: FAQs for analysis assist (preview)
 description: This FAQ provides information about the AI technology used for analyzing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -72,5 +72,5 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 ## Related information
 
-[Analyze data with Copilot (preview)](analysis-assist.md)  
+[Analyze data in lists with Copilot (preview)](analysis-assist.md)  
 [Learn more about Copilot data movement across geographies](/dynamics365/business-central/ai-copilot-data-movement)  

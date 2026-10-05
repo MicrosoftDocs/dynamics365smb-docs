@@ -1,13 +1,16 @@
 ---
 title: Understand Policy Compliance in Expense Agent
 description: Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
-author: brentholtorf
+author: jswymer
 ms.topic: overview
-ms.date: 09/25/2026
-ms.author: bholtorf
+ms.date: 10/02/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # How expense policy and rules compliance work

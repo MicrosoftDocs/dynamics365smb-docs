@@ -1,7 +1,7 @@
 ---
-title: Expense Agent Overview for Business Central Overview
+title: Expense Agent overview for Business Central
 description: Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.
-ms.date: 09/25/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: altotovi

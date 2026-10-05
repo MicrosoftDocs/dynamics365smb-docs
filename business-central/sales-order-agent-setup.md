@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Set up Sales Order Agent in Business Central to process sales orders from customer emails. Learn how to activate and configure the agent.
-ms.date: 09/02/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer

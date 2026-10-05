@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -54,11 +54,11 @@ Complete the following steps to add marketing text to an existing item. Learn ho
 
    To create the first draft for an item, do one of the following steps:
 
-   - In the **Marketing Text** pane in the FactBox on the right side of the page, select **Draft with Copilot**. 
+   - In the **Marketing Text** pane in the FactBox on the right side of the page, select **Create draft**. 
 
      Copilot starts to draft the marketing text.
 
-   - At the top of the page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.  The **Draft Marketing Text with Copilot** windows appears and lists all available attributes for the item.
+   - At the top of the page, select the **Marketing Text** action, then select **Suggest marketing text** on the **Edit Marketing Text** window.  The **Draft Marketing Text with Copilot** windows appears and lists all available attributes for the item.
 1. Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
 
    ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.png)

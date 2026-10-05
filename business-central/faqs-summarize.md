@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for summarize (preview)
 description: Learn about the AI technology of summarize in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 09/14/2025
+ms.date: 10/02/2026
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq

@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 09/30/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ai-usage: ai-assisted
 ms.custom:

@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: solsen
 ms.search.keywords: bing, browsing, search engine, web-enabled AI, web-aware AI
 ms.topic: article
-ms.date: 09/16/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:

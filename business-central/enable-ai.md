@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 09/02/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -110,7 +110,7 @@ The following table lists the permissions needed to use the different Copilot an
 | Marketing text suggestions | Permission on page 5836 **Copilot Marketing Text**. |
 |Payables Agent|Learn more in [Manage Payables Agent permissions and user access](payables-agent-setup.md#manage-agent-permissions-and-user-access).|
 | Sales line suggestions | Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**. |
-|Sales Order Agent|Learn more in [Manage agent permissions and user access](payables-agent-setup.md#manage-agent-permissions-and-user-access).|
+|Sales Order Agent|Learn more in [Manage agent permissions and user access](sales-order-agent-setup.md#understand-permissions-and-access).|
 | Custom Agent (preview) | Learn more in [Designing and coding agents (preview)](/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview). To learn more about how to resolve a request for another permission set in [Resolve a permission request](supervise-agent-tasks.md#resolve-a-permission-request). |
 
 To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.

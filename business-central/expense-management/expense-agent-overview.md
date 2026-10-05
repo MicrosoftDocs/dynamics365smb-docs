@@ -1,13 +1,16 @@
 ---
 title: Expense Agent Overview for Business Central
 description: Learn about Expense Agent, an AI-powered tool that helps employees capture receipts, track expenses, and submit expense reports in Business Central.
-author: brentholtorf
+author: jswymer
 ms.topic: overview
-ms.date: 09/25/2026
-ms.author: bholtorf
+ms.date: 10/02/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Manage expenses with Expense Agent
@@ -33,11 +36,11 @@ Expense Agent handles the heavy lifting of expense management so you can focus o
 
 ## Open Expense Agent
 
-To get started, go to [Expense Agent](https://app.expenses.dynamics.com/) in your browser. You can also send receipts by email, interact with the Copilot agent in Microsoft Teams, or use Microsoft Copilot chat. <!-- CHECK -->
+To get started, go to [Expense Agent](https://app.expenses.dynamics.com/) in your browser. You can also send receipts by email.
 
 ## Ways to use Expense Agent
 
-You can work with Expense Agent in four ways: <!-- CHECK -->
+You can work with Expense Agent in three ways:
 
 - **Web app** — Open [Expense Agent](https://app.expenses.dynamics.com/) for the full experience. Upload receipts by dragging them onto the **Upload receipt (or drop here)** area, create and edit expenses, build expense reports, and track approvals.
 - **Mobile app** — Use the dedicated Expense Agent mobile app on your phone or tablet to capture receipts with your camera, scan multi-page documents, and upload receipts even when offline. Learn more in [Use the Expense Agent mobile app](expense-agent-mobile-app.md).

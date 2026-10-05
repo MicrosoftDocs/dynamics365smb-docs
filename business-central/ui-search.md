@@ -1,14 +1,17 @@
 ---
 title: Finding Pages and Information with Tell Me
 description: This article describes how to use search to find actions, pages, reports, documentation, and data, and other apps and consulting services.
-author: brentholtorf
+author: jswymer
 ms.topic: concept-article
 ms.search.keywords: find, Tell Me, search
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 09/21/2026
-ms.author: bholtorf
+ms.date: 10/02/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 # Finding pages and information with Tell Me
 

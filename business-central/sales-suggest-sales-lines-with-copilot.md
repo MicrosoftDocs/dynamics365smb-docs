@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -118,14 +118,14 @@ This process describes how to suggest lines on a sales order. The steps are the 
 After Copilot suggests the items to add to lines, review its suggestions and decide whether they're what you want:
 
 - To discard a single proposed line, select it in the list, and then choose the **Delete Line** action.
-- To discard all proposed lines and close the Copilot window, choose the Discard button (trash can) next to the **Keep it** button.
-- To transfer the lines shown in the Copilot window, choose **Keep it**. 
+- To discard all proposed lines and close the Copilot window, choose the Discard button (trash can) next to the **Insert** button.
+- To transfer the lines shown in the Copilot window, choose **Insert**. 
 
-There's a **Reliability** field that displays **High (80+)**, **Medium (60-80)**, and **Low (60-)** scores and points you to lines that need attention.
+There's a **Confidence** field that displays **High (80+)**, **Medium (60-80)**, and **Low (60-)** scores and points you to lines that need attention.
 
 This step confirms that you want to transfer the lines to a sales document. You can delete or edit the transferred lines there as well, or delete the whole document.
 
 ## Related information
 
-[FAQ for Sales Line Suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
-[Configure Copilot and agent capabilities](enable-ai.md)
+[FAQ for Sales Line Suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  

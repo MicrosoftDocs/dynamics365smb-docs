@@ -9,6 +9,9 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Set up and use Shopify Tax Matching (preview)

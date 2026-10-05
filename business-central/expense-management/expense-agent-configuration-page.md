@@ -3,10 +3,13 @@ title: Set Up Expense Agent in Business Central
 description: Learn how to set up Expense Agent to automate expense tracking, processing, policy evaluation, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 09/26/2026
+ms.date: 10/02/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Set up Expense Agent
@@ -88,7 +91,7 @@ The **Configure Expense Agent** assisted setup guides you through the choices re
 
 The assisted setup configures the following areas:
 
-- **Access and submission**: Configure receipt submission channels, mailbox account, and who can configure the agent or work on behalf of users.
+- **Access and submission**: Configure receipt submission channels, mailbox account, the default approver, and who can configure the agent or work on behalf of users.
 
    > [!NOTE]
    > **Enable access via web** is always on and can't be turned off, so registered users can always submit and review expenses through the web app. **Enable sending email with receipts** is optional. If you use a dedicated mailbox for forwarding receipt emails, turn on this option and specify the associated account in the next step.
@@ -99,7 +102,8 @@ The assisted setup configures the following areas:
    > [!NOTE]
   > Select links for suggested default account and management settings to review the recommended configuration. The suggested settings explain which setup tasks can be completed automatically and which tasks might require manual adjustment after configuration.
 
-- **Rules and controls**: Configure required receipt numbers, required merchant names, the default approver, anti-corruption attestation visibility, and AI-assisted policy evaluation after submission.
+- **Rules and controls**: Configure required receipt numbers, required merchant names, and anti-corruption attestation visibility.
+- **Policy compliance**: Configure AI-assisted policy evaluation after submission and pre-submission evaluation options.
 - **Communication**: Configure open-report reminder behavior, approval notifications, and notification frequency.
 - **Projects**: Configure whether project fields are visible and which projects submitters can see.
 - **Mileage and per diem**: Configure the default mileage rate and unit of measure, and per diem calculation options, including partial-day settings. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).

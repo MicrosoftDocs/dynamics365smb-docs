@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: article
 ms.search.form:
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -62,7 +62,7 @@ To help you write the prompt, the Prompt Guide :::image type="content" source="m
 - Change and update numbering in existing series.
 - Create a new number series for the next year.
 
-After you enter your prompt and choose **Generate**, Copilot creates proposals for one or more number series. You can review the proposals in the **No. Series Proposals** view. You can remove the proposals that you don't like, and edit the ones you do. When you're ready, you can choose **Keep it** to add or update a proposal. In addition, Copilot updates various setup pages with the number series you decided to keep.
+After you enter your prompt and choose **Generate**, Copilot creates proposals for one or more number series. You can review the proposals in the **No. Series Generations** view. You can remove the proposals that you don't like, and edit the ones you do. When you're ready, you can choose **Keep it** to add or update a proposal. In addition, Copilot updates various setup pages with the number series you decided to keep.
 
 ## Examples of prompts
 
@@ -76,5 +76,5 @@ After you enter your prompt and choose **Generate**, Copilot creates proposals f
 
 [FAQ for Suggest Number Series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)  
 [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
-[Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
+[Responsible AI FAQ for suggest number series with Copilot](faq-suggest-number-series-with-copilot.md)  
 [Create number series](ui-create-number-series.md)  

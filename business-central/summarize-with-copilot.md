@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 05/20/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -83,7 +83,7 @@ Business Central remembers if you collapsed, expanded, or hid the **Summary** th
 
   If the FactBox pane is collapsed, at the upper-right corner of the page, select the ![Shows the icon to expand the FactBox pane.](media/expand-factbox-icon.png) **Expand FactBox pane** icon to show it.
 
-- To hide **Summary**, at its lower-right corner, select <kbd>...</kbd> **Open Copilot summary menu**, and then select **Hide Copilot Summary**.
+- To hide **Summary**, at its lower-right corner, select <kbd>...</kbd> **Open Copilot summary menu**, and then select **Hide Copilot summary**.
 
 ## Related information
 

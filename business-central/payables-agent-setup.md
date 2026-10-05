@@ -1,7 +1,7 @@
 ---
 title: Set Up Payables Agent in Business Central
 description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
-ms.date: 09/27/2026
+ms.date: 10/02/2026
 ai-usage: ai-assisted
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -105,7 +105,7 @@ If you start with trial mode, the agent is already active and automatically tran
 
    Set up the email account and folder that the agent monitors for incoming vendor invoices.
 
-   1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Mailbox** field to the email account you want the agent to monitor.
+   1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Email account** field to the email account you want the agent to monitor.
    1. (Optional) Set the **Folder** field to specify a specific mailbox folder the agent should monitor. Leave this field blank to monitor the entire mailbox.
 
    > [!TIP]

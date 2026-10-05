@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Chat with Copilot (preview)
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 09/16/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -114,5 +114,5 @@ Learn more about how Copilot searches the web in [Searching the web with Copilot
 
 ## Related information
 
-[Chat with Copilot (preview)](chat-with-copilot.md)  
+[Chat with Copilot (legacy)](chat-with-copilot-legacy.md)  
 [Analyze data in lists with help from Copilot (preview)](analysis-assist.md)  

@@ -4,10 +4,13 @@ description: Learn about the AI technology used by Microsoft Copilot in Business
 author: jswymer
 ms.author: jswymer
 ms.topic: faq
-ms.collection: get-started 
 ms.custom: bap-template
 ai-usage: ai-assisted
-ms.date: 09/16/2026
+ms.date: 10/02/2026
+ms.update-cycle: 180-days
+ms.collection:
+  - bap-ai-copilot
+  - get-started
 ---
 # Application Card: Microsoft Copilot in Business Central
 
@@ -121,7 +124,7 @@ The Business Central integration introduces product-specific grounding, applicat
 
 Microsoft Copilot undergoes risk and safety evaluations for the shared Microsoft Copilot experience. For information about those evaluations, see [Application card: Microsoft Copilot (for organizations)](/microsoft-365/copilot/microsoft-365-copilot-application-card).
 
-This section should document only risk and safety evaluations performed specifically for risks introduced by the Business Central integration.
+<!-- This section should document only risk and safety evaluations performed specifically for risks introduced by the Business Central integration.
 
 Business Central-specific risk evaluation can include risks associated with inappropriate disclosure of Business Central information, permission-boundary failures, incorrect grounding, misleading citations, and any capability that can execute Business Central actions. -->
 
@@ -129,9 +132,9 @@ Business Central-specific risk evaluation can include risks associated with inap
 
 ### Custom evaluations
 
-Relevant Business Central-specific evaluation areas can include tool selection, task completion, permission enforcement, grounding, citations, multi-turn behavior, localization, and application-context handling.
+<!-- Relevant Business Central-specific evaluation areas can include tool selection, task completion, permission enforcement, grounding, citations, multi-turn behavior, localization, and application-context handling.
 
-Don't infer evaluation metrics, thresholds, datasets, or results from the evaluations documented for Microsoft Copilot.-->
+Don't infer evaluation metrics, thresholds, datasets, or results from the evaluations documented for Microsoft Copilot. -->
 
 ## Safety components and mitigations
 

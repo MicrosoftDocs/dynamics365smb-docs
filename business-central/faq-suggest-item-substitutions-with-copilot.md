@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: faq
 ms.search.form:
-ms.date: 05/03/2026
+ms.date: 10/02/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -17,7 +17,7 @@ ms.custom: responsible-ai-faqs
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of the sales line suggestions feature in [!INCLUDE [prod_short](includes/prod_short.md)].
+These frequently asked questions (FAQ) describe the AI impact of the suggest item substitutions feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -74,7 +74,7 @@ For products, the following table lists the tables and fields that Copilot searc
 |Item Category     |* Code<br>* Description<br>* Parent Category - 1 level         |
 |Item Translation     |* Language<br>* Description<br>* Description 2         |
 |Item Identifier     |* Code         |
-|Extend Text Line     |* Text         |
+|Extended Text Line     |* Text         |
 
 ## In which geographies and languages is Suggest item substitutions available?
 
@@ -88,7 +88,7 @@ This Copilot feature is available in all supported [Business Central countries
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-AI-powered suggestions might sometimes be incorrect or incomplete. You should always review the accuracy of Copilot's suggestions before you choose whether to keep them. Copilot’s suggestions aren't saved to the [!INCLUDE [prod_short](includes/prod_short.md)] database until you choose the **Keep it** button and exit the Copilot window. You can edit and correct any suggestions before you choose to keep it, or after they're inserted in item substitution page.
+AI-powered suggestions might sometimes be incorrect or incomplete. You should always review the accuracy of Copilot's suggestions before you choose whether to keep them. Copilot’s suggestions aren't saved to the [!INCLUDE [prod_short](includes/prod_short.md)] database until you choose the **Insert all** button and exit the Copilot window. You can edit and correct any suggestions before you choose to keep it, or after they're inserted in item substitution page.
 
 ## What is expected of administrators and end-users when using Suggest item substitutions?
 

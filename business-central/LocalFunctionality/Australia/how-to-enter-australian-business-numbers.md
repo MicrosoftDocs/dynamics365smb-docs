@@ -1,22 +1,25 @@
 ---
 title: How to Enter Australian Business Numbers in the Australian version
-description: Learn how to enter an Australian Business Number (ABN) in the Company Information and the Vendor Card pages.
+description: Learn how to enter an Australian Business Number (ABN) on the Company Information, Customer Card, Vendor Card, and Contact Card pages.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Australian business number, ABN, company information page, vendor card page, Australian version
-ms.date: 03/26/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Enter Australian business numbers in the Australian version
 
-You can enter an Australian Business Number (ABN) in the following pages:  
+You can enter an Australian Business Number (ABN) on the following pages:  
 
 - **Company Information**  
+- **Customer Card**  
 - **Vendor Card**  
+- **Contact Card**  
 
 An algorithm provided by the local tax office ensures that the number is in a valid format.  
 
@@ -25,8 +28,8 @@ An algorithm provided by the local tax office ensures that the number is in a va
 
 ## Enter Australian business numbers  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
-1. Select the required company or vendor.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, **Customers**, **Vendors**, or **Contacts**, and then choose the related link.  
+1. Select the required company, customer, vendor, or contact.  
 1. Expand the **Registration** FastTab.  
 1. In the **ABN** field, enter the ABN.  
 1. In the **ABN Division Part No.** field, enter the division part number of the ABN, if applicable.  

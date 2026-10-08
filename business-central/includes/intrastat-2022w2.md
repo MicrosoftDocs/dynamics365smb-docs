@@ -1,7 +1,7 @@
 ---
 author: altotovi
 ms.topic: include
-ms.date: 12/06/2024
+ms.date: 10/08/2026
 ms.author: atotovic
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

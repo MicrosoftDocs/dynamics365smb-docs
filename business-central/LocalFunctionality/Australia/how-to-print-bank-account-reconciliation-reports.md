@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: bank account reconciliation, unpresented checks, unrecorded deposits, bank account reconciliation report, bank ledger entries, Australian version
-ms.date: 03/26/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Print Bank Account Reconciliation reports in the Australian version

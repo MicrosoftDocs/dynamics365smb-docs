@@ -4,10 +4,11 @@ description: An Australian Business Number (ABN) is a single identifier for all 
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Australian business numbers, ABN, adjustment notes, TFN, BAS adjustment
-ms.date: 03/25/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Australian business numbers and adjustment notes
@@ -34,15 +35,15 @@ An adjustment event may result in an increase or decrease to your net amount for
 
 Adjustment notes—or credit memos—should be connected to an invoice.  
 
-Because credit memos are used for adjustment notes, each credit memo should satisfy all of the legal requirements for an adjustment note. Each credit memo should have an original invoice number, date, and reason code assigned to it. The following fields are included in the adjustment note:  
+Because credit memos are used for adjustment notes, each credit memo should satisfy all of the legal requirements for an adjustment note. Each credit memo should have an original invoice number, date, and reason code assigned to it. On a sales or purchase credit memo, the **Adjustment Details** FastTab includes the following fields:  
 
-- **Adjustment Applies to**: The number of the document to which the adjustment note applies. If you use the **Copy Document** function, this field populates automatically. You must enter a reason code before the transaction can be posted. You can use this field to create an adjustment note for a paid or closed transaction.  
+- **Adjustment**: Shows that the transaction is an adjustment transaction. [!INCLUDE[prod_short](../../includes/prod_short.md)] sets this field automatically and you can't edit it.  
 
-- **Adjustment Reference No**: The number of the adjustment note. For **Sales & Receivables**, the number assigned to the posted document populates automatically in this field.  
+- **BAS Adjustment**: Shows that you've applied the adjustment note to an invoice from an earlier period than the one the BAS relates to. [!INCLUDE[prod_short](../../includes/prod_short.md)] sets this field automatically.  
 
-- **Adjustment Note Date**: Automatically populated from the document date.  
+- **Adjustment Applies-to**: The number of the document that the adjustment note applies to. If you use the **Copy Document** function, this field populates automatically. You can also select the document manually, including for a paid or closed transaction. Adjustment notes can only be applied against a single document. If the **Adjustment Mandatory** setting is turned on in the **General Ledger Setup** page and you leave this field blank, you get a confirmation message before you can continue.  
 
-- **Adjustment** and **BAS Adjustment**: These entries populate automatically. Some credit memos are Business Activity Statement (BAS) adjustments. Adjustment notes can only be applied against a single document.  
+- **Reason Code**: The reason code for the credit memo. Assign a reason code to satisfy the legal requirements for an adjustment note.  
 
 ## Related information
 

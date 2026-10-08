@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 03/28/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -12,10 +12,13 @@ Use the **Balance Sheet** report to view the company's balance sheet. This is a 
 ## Print a balance sheet report
 
 1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Balance Sheet**, and then choose the relevant link.  
-1. On the **Balance Sheet** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+1. On the request page, fill in the fields as described in the following table.  
   
    |Field|Description|  
    |---------------------------------|---------------------------------------|  
-   |**Amounts in whole**|Specifies the nearest unit to which the amounts must be rounded.|  
+   |**Show Amounts in Add. Reporting Currency**|Specifies if the amounts are displayed in the additional reporting currency.|  
   
+   > [!NOTE]
+   > The report's layout, including amount rounding, comes from the financial report definition that's set in the **Balance Sheet Report** field on the **Reporting** FastTab of the **General Ledger Setup** page.
+
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  

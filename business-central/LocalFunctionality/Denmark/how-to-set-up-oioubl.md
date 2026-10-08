@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: OIOUBL, Offentlig, Denmark
-ms.date: 03/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up OIOUBL
@@ -17,19 +18,23 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
 
 * Set up payment terms and item charges.  
 * Set up customers for OIOUBL.  
+* Make sure your company information is complete.
+
+> [!TIP]
+> You can also use the **Send electronic documents** guide on the **Manual Setup** page to walk through the OIOUBL setup fields. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.
 
 ### About OIOUBL profiles
 
-OIOUBL profiles are adaptations of business processes for various types of transactions, and differ depending on the types and contents of the documents that are exchanged. In Denmark, the two profiles that are required are the **Simpel fakturaproces** (Procurement-OrdSim-BilSim-1.0) and **Billing Basic** (urn:www.nesubl.eu:profiles:profile5:ver2.0) profiles. The Billing Basic profile is based on the Northern European Subset (NES). Your customer must be able to receive documents in one of these profiles. If you aren't sure, ask your customer about the profile they require. Refer to the entry on OIOUBL profiles in the frequently asked questions section at [Digitaliseringsstyrelsen](https://aka.ms/Digitaliseringsstyrelsen).  
+OIOUBL profiles are adaptations of business processes for various types of transactions, and differ depending on the types and contents of the documents that are exchanged. In Denmark, the two profiles that are required are the **Simpel fakturaproces** (Procurement-OrdSimR-BilSim-1.0) and **Billing Basic** (urn:www.nesubl.eu:profiles:profile5:ver2.0) profiles. The Billing Basic profile is based on the Northern European Subset (NES). Your customer must be able to receive documents in one of these profiles. If you aren't sure, ask your customer about the profile they require. Refer to the entry on OIOUBL profiles in the frequently asked questions section at [Digitaliseringsstyrelsen](https://aka.ms/Digitaliseringsstyrelsen).  
 
-The default profile for all customers is the Simpel fakturaproces profile, which is chosen on the **Sales & Receivables Setup** page. You specify the profile for a specific customer on the **Customer** card. If you want to use the Billing Basic profile you need to add it. To do so, on the **Sales & Receivables Setup** page, choose the button in the **Default Profile Code** field, and then choose **New**. Enter a name for the code, and then in the **Profile** field, enter **urn:www.nesubl.eu:profiles:profile5:ver2.0**. You can then choose the profile either as the default profile, or for one or more customers.
+The default profile for all customers is the Simpel fakturaproces profile, which is chosen on the **Sales & Receivables Setup** page. You specify the profile for a specific customer on the **Customer** card. If you want to use the Billing Basic profile you need to add it. To do so, on the **Sales & Receivables Setup** page, choose the button in the **Default Profile Code** field, and then choose **New**. Enter a name for the code, and then in the **Profile** field, enter **urn:www.nesubl.eu:profiles:profile5:ver2.0**. You can then choose the profile either as the default profile, or for one or more customers. To review or manage all the profiles that are set up, open the **OIOUBL Profile List** page.
 
 ## Set up payment terms
 
 If you set up payment terms for customers, the electronic documents include discounts you give for early payments.
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
-1. In the **OIOXML Code** field, choose a code for each payment term that you use for electronic invoices.  
+1. In the **OIOUBL-Code** field, select whether the payment term is associated with a contract or specific terms, for each payment term that you use for electronic invoices.  
 
 ### Set up customers for OIOUBL
 
@@ -60,7 +65,15 @@ Learn more in [Register New Customers](../../sales-how-register-new-customers.md
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.  
 1. For each item charge, in the **Charge Category** field, select a category.  
 
-Finally, you must specify EAN numbers and account codes for the relevant customers. Learn more in [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
+Finally, you must specify GLN values and account codes for the relevant customers. Learn more in [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
+
+## Set up company information
+
+Before you can create electronic documents, your company information must be complete. If any of the following fields are empty when you post a sales or service document for a customer that requires OIOUBL, you're prompted to fill them in.
+
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. Make sure the **VAT Registration No.**, **Name**, **Address**, **City**, **Post Code**, and **Country/Region Code** fields are filled in.  
+1. Fill in the **Bank Branch No.** field, and either the **Bank Account No.** field or the **SWIFT Code** and **IBAN** fields.  
 
 ## Related information
 

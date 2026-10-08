@@ -1,14 +1,15 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 > [!NOTE]
-> New capabilities for creating bank deposits are available in Business Central 2022 release wave 1 for a lot of country/region versions. If you used Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features right away, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**. For more information, see [Create Bank Deposits](../../../bank-create-bank-deposits.md).
+> Bank deposits in the United States, Canada, and Mexico now use the same standardized bank reconciliation and deposits capabilities as other country/region versions. For more information, see [Create Bank Deposits](../../../bank-create-bank-deposits.md).
 
 You can make bank deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
 

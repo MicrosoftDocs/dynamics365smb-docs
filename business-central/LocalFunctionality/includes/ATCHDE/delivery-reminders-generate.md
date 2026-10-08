@@ -1,13 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 03/05/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
-In [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can create delivery reminders when a purchase is delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.
+In [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can create delivery reminders when a purchase isn't delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.
 
 > [!NOTE]  
 > To create delivery reminders, you must set up the delivery reminder terms, levels, and texts.  

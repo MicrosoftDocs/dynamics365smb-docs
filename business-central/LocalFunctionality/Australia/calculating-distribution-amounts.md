@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: Australian version, reallocate amounts, account balances proportionate, calculating distribution amounts
 ms.search.form: 17101
-ms.date: 03/25/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # How to calculate distribution amounts in the Australian version

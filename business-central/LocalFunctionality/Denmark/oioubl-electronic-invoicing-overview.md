@@ -5,17 +5,16 @@ author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: OIOUBL, Denmark, electronic invoicing, sales documents, reminder
-ms.date: 04/24/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # OIOUBL electronic invoicing overview
 
 Companies must send sales invoices, credit memos, finance charge memos, and reminders to the Danish public sector electronically in the Offentlig Information Online UBL (OIOUBL) format. If a company doesn't send these documents electronically, the authorities can deny payment.  
-
-Learn more in [oioubl.info](http://www.oioubl.info/classes/da/index.html), which provides information about OIOUBL electronic invoicing.  
 
 ## Implementation in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
 
@@ -34,7 +33,7 @@ In the online version of [!INCLUDE [prod_short](../../includes/prod_short.md)] a
 
 ## OIOUBL profiles
 
-Your customers can use a profile that is based on the Danish OIOUBL definitions, or they can use a profile that is based on the OIOUBL implementation of the Northern European Subset (NES) definitions. Some profiles require responses to be sent when an electronic document is received. You can set up which profile most of your customers use. If a customer uses a different profile, you can change that in the customer card. For example, you can specify that the default profile is *Procurement-OrdSim-BilSim-1.0*, but that customer 10000 requires profile *urn:www.nesubl.eu:profiles:profile5:ver2.0*. Learn more in [Set Up OIOUBL](how-to-set-up-oioubl.md).  
+Your customers can use a profile that's based on the Danish OIOUBL definitions, or they can use a profile that's based on the OIOUBL implementation of the Northern European Subset (NES) definitions. Some profiles require responses to be sent when an electronic document is received. You can set up which profile most of your customers use. If a customer uses a different profile, you can change that in the customer card. For example, you can specify that the default profile is *Procurement-OrdSimR-BilSim-1.0*, but that customer 10000 requires profile *urn:www.nesubl.eu:profiles:profile5:ver2.0*. Learn more in [Set Up OIOUBL](how-to-set-up-oioubl.md).  
 
 Learn more about OIOUBL profiles in the frequently asked questions section in [Digitaliseringsstyrelsen](https://aka.ms/Digitaliseringsstyrelsen).  
 

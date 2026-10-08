@@ -6,15 +6,16 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: local, GIFI, posting accounts
 ms.search.form: 10017
-ms.date: 02/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Work with GIFI codes in the Canadian version
 
-Fiscal information can include general ledger accounts, reports, income statements, balance sheets, and statements of retained earnings. Fiscal information is classified using codes. The use of codes helps the government to process information, prepare for electronic filing, and validate tax information electronically. The use of codes also helps statistical organizations to work more efficiently, as financial information is more readily available. For more information, see the [Canada Revenue Agency website](https://www.cra-arc.gc.ca/).
+Fiscal information can include general ledger accounts, reports, income statements, balance sheets, and statements of retained earnings. Fiscal information is classified using codes. The use of codes helps the government to process information, prepare for electronic filing, and validate tax information electronically. The use of codes also helps statistical organizations to work more efficiently, as financial information is more readily available. For more information, see the [Canada Revenue Agency website](https://www.canada.ca/en/revenue-agency.html).
 
 The Canada Revenue Agency uses General Index of Financial Information (GIFI) codes to collect, validate, and process financial and tax information electronically. It is a best practice to assign GIFI codes only to posting accounts, so that all totaling is done by your tax preparation software.
 
@@ -36,7 +37,7 @@ To report financial information by GIFI code, each GIFI code must be associated 
 
 1. Choose the ![Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
 1. Select a relevant general ledger account, and then choose the **Edit** action.
-1. On the **Cost Accounting** FastTab, in the **GIFI Code** field, select an appropriate GIFI code.
+1. On the **General** FastTab, in the **GIFI Code** field, select an appropriate GIFI code.
 
 ## View account balances using the GIFI code report
 
@@ -57,8 +58,8 @@ You can export balance information using GIFI codes and save the exported file i
 > [!NOTE]  
 > The Excel file has the following characteristics:
 
-* The balance is rounded to the nearest percentage, but the cell value maintains the same percentage as it does in the general ledger.
-* Negative numbers are represented as positive number in brackets. Accordingly, -123 is represented as (123).
+* The balance is rounded to the nearest whole number, but the cell value maintains the same precision as the balance in the general ledger.
+* Negative numbers are represented as a positive number in brackets. Accordingly, -123 is represented as (123).
 
 ## Related information
 

@@ -5,10 +5,11 @@ author: altotovi
 ms.topic: how-to
 ms.search.keywords: journal templates, Belgian version
 # ms.search.form: 118
-ms.date: 04/04/2025
+ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Make journal templates mandatory in the Belgian version
@@ -18,14 +19,14 @@ You can use journals to post purchase and sales documents and make other general
 ## Make journal templates required in a company
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-1. On the **General** FastTab, select the **Journal Template Name Mandatory** field. This field specifies if users must specify a journal template when they post general ledger transactions.  
+1. On the **General** FastTab, select the **Journal Templ. Name Mandatory** field. This field specifies if users must specify a journal template when they post general ledger transactions.  
 
 > [!NOTE]  
-> If the **Journal Template Name Mandatory** field isn't selected, [!INCLUDE [prod_short](../../includes/prod_short.md)] doesn't use template names in the posted documents and entries.
+> If the **Journal Templ. Name Mandatory** field isn't selected, [!INCLUDE [prod_short](../../includes/prod_short.md)] doesn't use template names in the posted documents and entries.
 
 ## Use journal templates in sales and purchase documents
 
-If your organization decides to switch on the **Journal Template Name Mandatory** field, you must configure which journal templates must be used as default in sales and purchase documents.
+If your organization decides to switch on the **Journal Templ. Name Mandatory** field, you must configure which journal templates must be used as default in sales and purchase documents.
 
 > [!TIP]  
 > Before you post a transaction, you can change the suggested template name in the **Journal Template Name** field. This way, the transactions are assigned another document number, as defined by the template.

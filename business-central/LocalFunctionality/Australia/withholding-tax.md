@@ -6,13 +6,14 @@ ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: withholding tax, WHT, vendor payment, Australian version, Australian taxation office, ATO, business activity statement, BAS, Australian business number
 ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167
-ms.date: 03/27/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
-# Withholding Tax in the Australian version
+# Withholding tax in the Australian version
 
 Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor, in which the full amount owed to that vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office (ATO) during the next Business Activity Statement (BAS) submission.  
 
@@ -42,9 +43,9 @@ In Australia, WHT isn't calculated if the individual invoice amount is less than
 
 - **Payable WHT Account Code** – Enter the number of the G/L account to which you want to post **Purchase WHT** for the particular combination of **WHT Business Posting Group** and **WHT Product Posting Group**.  
 
-- **Purch. WHT Adjustment Account No.** – Select an account number for **Purchase CR/Adj Note** adjustments.  
+- **Purch. WHT Adj. Account No.** – Select an account number for **Purchase CR/Adj Note** adjustments.  
 
-- **Revenue Types** – Drill down to the **WHT Revenue Types** page. These values determine how the combination of **WHT Business Posting Group** and **WHT Product Posting Group** are displayed in reports. You must enter a value in order for this combination to appear in the WHT reports.  
+- **Revenue Type** – Drill down to the **WHT Revenue Types** page. These values determine how the combination of **WHT Business Posting Group** and **WHT Product Posting Group** are displayed in reports. You must enter a value in order for this combination to appear in the WHT reports.  
 
 ## WHT for suppliers without an ABN
 

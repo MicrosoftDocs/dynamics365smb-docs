@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: consolidate financial statements, business activity statements, financial statement, Australian version, financial statement consolidation, set up general ledger, set up business units
-ms.date: 03/26/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up business units for business activity statements in the Australian version
@@ -24,6 +25,8 @@ You can use the **BAS Business Units** page to set up the following:
 - Affiliates  
 
 You must provide information on the **General Ledger Setup** page before you can set up business units.  
+
+On the **General Ledger Setup** page, on the **Local Functionalities** FastTab, in the **AU Local Functionality** group, select the **Enable GST (Australia)** field. You must turn on this field before you can set the **BAS to be Lodged as a Group** and **BAS Group Company** fields.
 
 ## Set up a general ledger for a business activity statement
 

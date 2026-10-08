@@ -7,10 +7,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: intrastat establishment number, establishment number, company identification number, intrastat declaration, Belgian version
-ms.date: 04/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up Intrastat establishment numbers in the Belgian version
@@ -31,7 +32,7 @@ The Intrastat establishment number is a company identification number that is pr
 - [Set Up Declaration Types](how-to-set-up-declaration-types.md)  
 - [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)  
 - [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md)  
-- [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)  
+- [Verify the Intrastat Report](how-to-print-the-intrastat-form-report.md)  
 - [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

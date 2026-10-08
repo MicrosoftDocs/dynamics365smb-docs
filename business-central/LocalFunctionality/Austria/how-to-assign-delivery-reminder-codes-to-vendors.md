@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: enable delivery reminders, overdue purchases, delivery reminder terms
 ms.search.form: 5005270, 5005272
-ms.date: 03/05/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Assign delivery reminder codes to vendors in the Austrian version

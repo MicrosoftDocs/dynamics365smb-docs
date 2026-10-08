@@ -7,9 +7,10 @@ ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: digital voucher, voucher, attachment, setup, denmark, enforced voucher, digital voucher setup
 ms.search.form: 5579, 5582, 5587
-ms.date: 03/03/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up digital vouchers in Denmark
@@ -27,19 +28,20 @@ You can use different setups for the following documents and journals.
 
 | Entry type | Description |
 |------------|-------------|
-| **Sales Document** | Specifies postings that are completed from sales documents. In the Danish localization, this option can't be edited. |
-| **Purchase Document** | Specifies postings that are completed from purchase documents. In the Danish localization, this option can't be edited. |
+| **Sales Document** | Specifies postings that are completed from sales documents. In the Danish localization, this option can't be edited after the feature is enforced. |
+| **Purchase Document** | Specifies postings that are completed from purchase documents. In the Danish localization, this option can't be edited after the feature is enforced. |
 | **General Journal** | Specifies postings from the general journal for all account types, except postings that are related to the customer and vendor. If you select one of those account types, you change control of the posting process. If you select **Customer** as the account Type, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks your setup related to the sales journal. If you select **Vendor** as the account type, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks your setup related to the purchase journal. |
 | **Sales Journal** | Specifies the postings that are completed from the sales journal and the general journal where **Customer** is selected as the account type. |
-| **Purchase Journal** | Specifies the postings that are completed from the purchase journal and the general journal where **Vendor** is selected as the account Type. |
+| **Purchase Journal** | Specifies the postings that are completed from the purchase journal and the general journal where **Vendor** is selected as the account Type. In the Danish localization, this option can't be edited after the feature is enforced. |
 
-Follow these steps to define how your organization uses enforced digital vouchers, beside the steps that are already required by law.
+Follow these steps to define how your organization uses enforced digital vouchers, in addition to the steps that are already required by law.
 
 1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link. Alternatively, on the **Digital Voucher Setup** page, select **Entry Setup**.
 1. In the **Entry Type** column, select an option.
-1. In the **Check Type** column, select an enforcement option. If you select **None**, you can post the selected type of entry without any digital voucher. If you select **Attachment**, the entry must include an attachment. If you select **Attachment or Note**, you can include an attachment or a note for the entry.
+1. In the **Check Type** column, select an enforcement option. If you select **No Check**, you can post the selected type of entry without any digital voucher. If you select **Attachment**, the entry must include an attachment. If you select **Attachment or Note**, you can include an attachment or a note for the entry. If you select **E-Document**, the entry must have a linked e-document. The **E-Document** option is available only for the **Sales Document** and **Purchase Document** entry types, and it automatically turns on **Generate Automatically**.
 1. Select the **Generate Automatically** checkbox to generate the digital voucher automatically. For example, if you don't want to manually add a sales invoice to your transaction, select this checkbox. Then, you just have to post the document. The system automatically creates the document, based on your report layout, and attaches it to the transaction.
 1. Select the **Skip If Manually Added** checkbox if you don't want to add an automatically generated digital voucher. This setting is useful if you already added a manual attachment.
+1. Select the **Consider Blank Doc. Type** checkbox to also apply the check to lines that don't have a document type set. This option is available only for the **General Journal**, **Sales Journal**, and **Purchase Journal** entry types.
 
 ### Use source codes for setup
 
@@ -74,7 +76,7 @@ Open one of the sales documents, and set the required fields. For sales document
 1. On the **Incoming Document** page, select **Delete**.
 
 > [!NOTE]
-> If attachment of a digital voucher is configured as mandatory, and you try to post documents or journals without attaching a voucher, the system prevents you from posting. You receive the following error message: "Not possible to post without attaching the digital voucher."
+> If attachment of a digital voucher is configured as mandatory, and you try to post documents or journals without attaching a voucher, the system prevents you from posting. You receive the following error message: "Not possible to post without attaching the digital voucher." If the **Check Type** is set to **E-Document** and no e-document is linked, you receive the error message: "Not possible to post without linking an E-Document."
 
 ### Find attached vouchers in transactions
 

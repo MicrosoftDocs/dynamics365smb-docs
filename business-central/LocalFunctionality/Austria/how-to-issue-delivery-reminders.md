@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: delivery reminders, issue delivery reminders, print delivery reminders, Austrian version
 ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
-ms.date: 03/06/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Issue delivery reminders in the Austrian version

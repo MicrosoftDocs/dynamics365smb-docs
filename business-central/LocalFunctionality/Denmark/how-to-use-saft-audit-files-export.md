@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: SAF-T format, Denmark, audit file, Danish, export data
 ms.search.form: 5264, 5266, 5267, 5270, 
-ms.date: 03/04/2025
+ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Export the SAF-T audit file format in Denmark
@@ -18,7 +19,7 @@ You can export all mandatory required data according to the Standard Audit File 
 
 ## Exporting audit files
 
-Export of the SAF-T audit file format in the Danish localization is based on the **Audit Files Extension** Microsoft app. Learn more in [Audit file export](../../finance-how-to-export-audit-files.md)  
+Export of the SAF-T audit file format in the Danish localization is based on the **Audit File Export** Microsoft app. Learn more in [Audit file export](../../finance-how-to-export-audit-files.md)  
 
 Learn more in [Danish Local Functionality](denmark-local-functionality.md), which provides a list of features that are specific to Denmark.
 
@@ -28,7 +29,7 @@ You can import SAF-T file in Danish localization. To do this, complete the follo
 
 1. Select the search button ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Import SAF-T Files**, and then select the related link.
 1. On the **Import SAF-T Files** page, select **Import SAF-T File**.
-1. On the attachment page, upload the SAF-T file by using drag and drop or by browsing to the file you want to import.  
+1. On the attachment page, upload the SAF-T file (XML or ZIP format) by using drag and drop or by browsing to the file you want to import.  
 
 When you finish importing the external SAF-T files, the result appears in the **Import SAF-T Files** list page.
 

@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: goods and services tax, GST, Australian taxation office, ATO, Australian version, business activity statement, BAS
 ms.search.form: 28043
-ms.date: 03/26/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up goods and services tax posting in the Australian version

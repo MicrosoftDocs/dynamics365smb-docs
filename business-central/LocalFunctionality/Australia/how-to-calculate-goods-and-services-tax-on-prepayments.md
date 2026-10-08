@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: calculate GST, partial payment tax, prepayment tax, total invoice amount, partial payment amount
 ms.search.form: 28164,28165,28166,28167
-ms.date: 03/25/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Calculate goods and services tax on prepayments in the Australian version

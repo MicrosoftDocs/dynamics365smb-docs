@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic payments, test electronic payments, payment journal lines, Belgian version
 ms.search.form: 2000001
-ms.date: 04/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Test electronic payments in the Belgian version

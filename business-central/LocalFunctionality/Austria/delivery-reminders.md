@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: delivery reminders, vendor shipments, overdue deliveries, track shipments, Austrian version
 ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
-ms.date: 03/05/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Delivery reminders in the Austrian version

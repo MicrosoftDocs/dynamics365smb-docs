@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Posted Sales Tax Invoice, Posted Purchase Tax Invoice, view posted tax invoices, view posted sales tax invoices, view posted purchase tax invoices, Australian version
 ms.search.form: 28071, 28073, 28081, 28082
-ms.date: 03/27/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # View posted tax invoices in the Australian version

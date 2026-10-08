@@ -5,10 +5,11 @@ author: sorenfriisalexandersen
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Austria, local functionality, Austrian version
-ms.date: 12/30/2025
+ms.date: 10/08/2026
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Austria local functionality
@@ -36,6 +37,7 @@ The following articles describe local functionality that is unique to the Austri
 
 - General
   - [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
+  - [Work with Intrastat Reporting](../../finance-how-report-intrastat.md) **Available Now**
 
 ## Future legislation requirements being investigated
 

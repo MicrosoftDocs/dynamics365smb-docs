@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.search.keywords: electronic banking, Belgian version, electronic payments, SEPA, non-Euro SEPA, domestic payments, international payments
 ms.search.form: 2000006
-ms.date: 04/01/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Belgian electronic payments
@@ -27,7 +28,7 @@ Because the standard for electronic payments is different for countries/regions,
 > [!NOTE]  
 > Credit memos can't be processed separately because payments must not have a negative balance. To process a credit memo, the credit memo must be added to one or more invoices by summarizing payments.  
 
-Before you can make electronic payments, you must set up use electronic banking. Learn more in [Setup](belgian-electronic-banking.md#setup). You must also specify the relevant export protocols. Learn more in [Set Up Export Protocols](how-to-set-up-export-protocols.md).  
+Before you can make electronic payments, you must set up electronic banking. Learn more in [Setup](belgian-electronic-banking.md#setup). You must also specify the relevant export protocols. Learn more in [Set Up Export Protocols](how-to-set-up-export-protocols.md).  
 
 ## Activate SEPA payments
 
@@ -44,7 +45,7 @@ Before you can file a non-Euro SEPA payment, you must complete the following adm
 1. Set up a new export protocol for a non-Euro SEPA.  
 1. In the **Country/Region** table, clear the **SEPA Allowed** field for each country that belongs to the EEA zone.  
 1. In the **General Ledger Setup** page, verify that the **Currency Euro** field is blank, and that the **SEPA Non-Euro Export** field is selected.  
-1. Verify that the vendor's **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
+1. Verify that the vendor's **Preferred Bank Account Code** field in the **Vendor** table contains the IBAN and SWIFT code.  
 
 ## File a non-Euro SEPA payment  
 

@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: troubleshooting reports, Microsoft Certified Partners
-ms.date: 02/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Print troubleshooting reports in the Canadian version

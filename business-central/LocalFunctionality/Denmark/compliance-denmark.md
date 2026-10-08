@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: bookkeeping, law, compliance, e-vat, e-document, nemhandel, denmark, dk
 ms.search.form: 
-ms.date: 03/03/2025
+ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Compliance with the bookkeeping act in Denmark

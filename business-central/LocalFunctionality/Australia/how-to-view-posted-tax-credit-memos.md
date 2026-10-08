@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: view posted tax credit memos, sales tax credit memos, purchase tax credit memos, posted sales tax credit memo, posted purchase tax credit memo, Australian version
 ms.search.form: 28071, 28073, 28081, 28082
-ms.date: 03/27/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # View posted tax credit memos in the Australian version

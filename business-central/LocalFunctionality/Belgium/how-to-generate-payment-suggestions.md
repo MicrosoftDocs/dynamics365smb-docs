@@ -4,10 +4,11 @@ description: After setting up electronic banking, you can start generating payme
 author: brentholtorf
 ms.topic: how-to
 ms.search.form: 256
-ms.date: 04/02/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Generate payment suggestions in the Belgian version

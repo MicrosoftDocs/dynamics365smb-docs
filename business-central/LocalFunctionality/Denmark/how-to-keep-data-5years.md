@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: retain data, bookkeeping act, dk, denmark, cvr number
 ms.search.form: 
-ms.date: 11/17/2025
+ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Keep transactional data for five years in Denmark
@@ -31,7 +32,7 @@ The Central Business Register (CVR) number must be filled in before users post t
 > [!IMPORTANT]
 > After you enter the CVR number in the **Registration No.** field on the **Company Information** page, the Nemhandel APIs validate the number in the production environment. Once you post the first transaction, the company is treated as a production entity and can no longer be deleted. However, if you accidentally create a company in the production environment using a real CVR number but haven't posted any transactions, you can still delete it.
 
-Learn more in [Denmark Local Functionality](denmark-local-functionality.md), which provides a list of features that are specific to Denmark.
+Learn more in [Denmark local functionality](denmark-local-functionality.md), which provides a list of features that are specific to Denmark.
 
 ## Related information
 

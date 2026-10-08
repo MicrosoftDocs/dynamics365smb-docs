@@ -1,10 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 You can use the **General Ledger Setup** page to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax. It's useful when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.
@@ -19,7 +20,7 @@ You can use the **General Ledger Setup** page to set up unrealized sales tax. Yo
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Pmt. Disc. Excl. Tax**|Select to calculate the payment discount on amounts excluding sales tax.|  
+    |**Pmt. Disc. Excl. VAT**|Select to calculate the payment discount on amounts excluding tax.|  
     |**Adjust for Payment Disc.**|Select to recalculate the tax amounts when you post payments that trigger payment discounts.<br/><br/> This field is used in the context of VAT, not sales tax.|
     |**Unrealized VAT**|Select if any of your sales tax jurisdictions allow you to pay your sales tax after you have been paid. If you don't select this check box, this function will be blocked for all sales tax jurisdictions.| 
 1. Choose the **OK** button.  
@@ -38,27 +39,27 @@ You can use the **General Ledger Setup** page to set up unrealized sales tax. Yo
     |**Unreal. Rev. Charge (Purch.)**|The general ledger account that you want to use for posting calculated unrealized reverse-charge tax on purchase transactions. <br></br> **Important:**  This field is available on the **Tax Jurisdiction** page, but it isn't shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../../includes/bp_customize_md.md)]|  
 1. Choose the **OK** button.  
 
-## Set up adjustments for payment discounts in a tax posting group
+## Set up adjustments for payment discounts for a tax jurisdiction
 
-1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Posting Setup**, and then choose the related link.  
-1. Choose the **Edit** action.  
-1. On the **Tax Posting Setup Card** page, select the **Adjust for Payment Discount** check box.  
+1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Jurisdictions**, and then choose the related link.  
+1. On the **Tax Jurisdictions** page, choose the **Edit List** action.  
+1. Select the **Adjust for Payment Discount** check box.  
 
     > [!IMPORTANT]  
-    > This field is available on the **VAT Posting Setup** page, but it isn't shown by default.
+    > This field is available on the **Tax Jurisdiction** page, but it isn't shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../../includes/bp_customize_md.md)]
 1. Choose the **OK** button.  
 
 ## Set up maximum tax correction amounts
 
 1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
-1. On the **Sales Receivables Setup** page > **General** FastTab, select the **Allow Tax Difference** check box.  
+1. On the **Sales & Receivables Setup** page > **General** FastTab, select the **Allow VAT Difference** check box.  
 1. Choose the **OK** button.  
 1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
-1. On the **Purchases & Payables Setup** page > **General** FastTab, select the **Allow Tax Difference** check box.  
+1. On the **Purchases & Payables Setup** page > **General** FastTab, select the **Allow VAT Difference** check box.  
 1. Choose the **OK** button.  
 1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-1. On the **General Ledger Setup** page, in the **Max. Tax Difference Allowed** field, enter the maximum tax correction amount that is allowed for the local currency.  
+1. On the **General Ledger Setup** page, in the **Max. VAT Difference Allowed** field, enter the maximum tax correction amount that's allowed for the local currency.  
 
     > [!NOTE]  
-    > In this field, if you enter USD 5, you may correct tax amounts by up to five dollars. To use the tax difference function, an amount must be entered in the **Max. Tax Difference Allowed** field.  
+    > In this field, if you enter USD 5, you may correct tax amounts by up to five dollars. To use the tax difference function, an amount must be entered in the **Max. VAT Difference Allowed** field. For a foreign currency, set the equivalent field on the **Currencies** page instead.
 1. Choose the **OK** button.

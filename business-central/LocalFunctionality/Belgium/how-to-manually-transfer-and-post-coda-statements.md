@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: CODA statement lines, CODA statement, manual transfer, financial journal, Belgian version
-ms.date: 04/02/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Manually transfer and post CODA statements in the Belgian version

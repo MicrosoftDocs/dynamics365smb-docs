@@ -4,10 +4,11 @@ description: Learn how to calculate and post the withholding tax (WHT) in the Au
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: calculate withholding tax, post withholding tax, withholding tax settlement, Australian version
-ms.date: 03/25/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Calculate and post withholding tax settlements in the Australian version
@@ -30,4 +31,4 @@ The sum of all withheld amounts is reported as a truncated whole number to the A
 - [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)
 - [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
 
-- [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

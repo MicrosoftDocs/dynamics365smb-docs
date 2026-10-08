@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: OIOUBL, Denmark, public sector customers
-ms.date: 03/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up customers for OIOUBL
@@ -27,8 +28,8 @@ This article only describes fields that apply to OIOUBL. Learn more in [Register
     |---------------------------------|---------------------------------------|  
     |**GLN**|Enter the customer's Global Location Number, which uniquely identifies the billing address. A GLN has a fixed length of 13 digits. It includes an assigned company prefix, a location reference, and a check digit.|  
     |**Account Code**|Enter the account code for the customer.<br><br/> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the OIOUBL documents that you create in [!INCLUDE[prod_short](../../includes/prod_short.md)]. In accordance with **Lov om Offentlige Betalinger** and related statutes, the customer is entitled to withhold payment until they receive an invoice with the relevant account code.|  
-    |**OIOUBL Profile Code**|Specifies the profile that this customer requires for electronic documents if this is different from the default profile that you specified on the **Sales & Receivables Setup** page.|  
-    |**OIOUBL Profile Code Required**|Specifies if this customer requires a profile code for electronic documents. **Tip:**  If the **OIOUBL Profile Code Required** field is selected, you can't post a sales document for this customer unless you specified a profile.|  
+    |**Profile Code**|Specifies the profile that this customer requires for electronic documents if this is different from the default profile that you specified on the **Sales & Receivables Setup** page.|  
+    |**Profile Code Required**|Specifies if this customer requires a profile code for electronic documents. **Tip:**  If the **Profile Code Required** field is selected, you can't post a sales document for this customer unless you specified a profile.|  
 
  These fields are specific to OIOUBL. The values are used in all OIOUBL documents that you create for this customer. Learn more in [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md).  
 

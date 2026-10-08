@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: CODA statement, CODA file, import CODA file, CODA import, Belgian version
-ms.date: 04/02/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Import CODA statements in the Belgian version
@@ -19,7 +20,7 @@ When you receive a CODA statement from your bank, you must import it into [!INCL
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 1. Select the bank account, and then choose **Import CODA File** action.  
-1. Enter the name of the file to import, and then choose the **OK** button.  
+1. Select the file to import.  
 
 This imports the CODA statement. Next, you must process the CODA statement lines. Learn more in [Apply CODA Statements](how-to-apply-coda-statements.md).  
 

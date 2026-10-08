@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Austrian version, delivery reminder terms, delivery reminder levels, delivery reminders setup
-ms.date: 03/06/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up delivery reminder terms, levels, and text in the Austrian version

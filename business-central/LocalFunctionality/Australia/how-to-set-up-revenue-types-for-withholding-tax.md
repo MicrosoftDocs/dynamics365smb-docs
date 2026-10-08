@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: revenue types, withholding tax, WHT, Australian version
 ms.search.form: 28042 
-ms.date: 03/27/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up revenue types for withholding tax in the Australian version

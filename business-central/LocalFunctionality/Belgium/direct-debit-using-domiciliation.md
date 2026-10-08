@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: domiciliation, direct debit, electronic banking, Belgian version
 ms.search.form: 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
-ms.date: 04/01/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Direct debit using domiciliation
@@ -22,7 +23,7 @@ Before you can start using electronic banking for domiciliation, you must enter 
 
 - **Domiciliation number** - This is a unique code obtained from the bank which identifies the domiciliation agreement between you, your customer, and the bank. The contract contains details regarding payment frequency, bank account numbers, and amounts. When you send your payments to the bank, the bank uses the domiciliation number to identify all parties involved.  
 
-- **Preferred bank account** - The preferred bank account is suggested as a default bank account on all domiciliation suggestions for that customer. If necessary, you can change the bank account before posting the domiciliation suggestions. Learn more in [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation).  
+- **Preferred bank account** - The preferred bank account is suggested as a default bank account on all domiciliation suggestions for that customer. If necessary, you can change the bank account before posting the domiciliation suggestions. Learn more in [Generate domiciliation suggestions](#generate-domiciliation-suggestions).  
 
 ## Set up domiciliation
 
@@ -35,12 +36,12 @@ Before you can use electronic banking for domiciliation, you must enter the cust
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 1. Select the customer, and then choose the **Edit** action.  
-`. Fill in the fields as described in the following table.  
+1. Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |-----|-----------|  
-    |**Domiciliation**|Enter the domiciliation number for the customer. This number is used when you create domiciliation for this customer.|  
-    |**Preferred Bank Account**|Enter the preferred bank account for transactions with this customer. This account is used when you create a payment suggestion for this customer.|  
+    |**Domiciliation No.**|Enter the domiciliation number for the customer. This number is used when you create domiciliation for this customer.|  
+    |**Preferred Bank Account Code**|Enter the preferred bank account for transactions with this customer. This account is used when you create a payment suggestion for this customer.|  
 
 ## Generate domiciliation suggestions
 
@@ -66,7 +67,7 @@ After setting up domiciliation, you can start generating domiciliation suggestio
 When the batch job is finished, the domiciliation journal contains all open customer ledger entries that match the filters.  
 
 > [!NOTE]  
-> The domiciliation suggestions include only customers who have a Domiciliation number set up. Learn more in the [Set up domiciliation](#set-up-domiciliation) section.  
+> The domiciliation suggestions include only customers who have a Domiciliation No. set up. Learn more in the [Set up domiciliation](#set-up-domiciliation) section.  
 
 ## Edit and delete domiciliation lines
 
@@ -104,7 +105,7 @@ To test the domiciliation journal lines, you can use the **Domiciliation Journal
 
 You can submit domiciliation to your bank by exporting the data to a file. When you export to a file, you can choose to automatically post the lines to the general ledger.  
 
-Depending on setup of the **SEPA Direct Debit Exp. Format** field on the **Bank Account Card** page, the **File Domiciliations** action opens either of these request pages:  
+Depending on the setup of the **SEPA Direct Debit Exp. Format** field on the **Bank Account Card** page, the **File Domiciliations** action opens either of these request pages:  
 
 - **Create Gen. Jnl. Lines** page – for the SEPA Direct Debit format.  
 - **File Domiciliations** page – for domestic formats.  

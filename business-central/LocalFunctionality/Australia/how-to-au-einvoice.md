@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: E-Documents, E-Document framework, e-invoice, electronic invoice, Peppol, PINT A-NZ
 ms.search.form: 
-ms.date: 03/25/2025
+ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Electronic invoicing in Australia
@@ -18,7 +19,7 @@ This article provides information on how to work with the Australian localizatio
 
 ## E-Documents framework setup
 
-You can find detailed information on how to set up the E-Documents framework [here](../../finance-how-setup-edocuments.md).  
+For detailed information about how to set up the E-Documents framework, see [Set up e-documents](../../finance-how-setup-edocuments.md).  
 
 ### Set up local formats  
 
@@ -35,7 +36,7 @@ To set up the format for the E-Document service, follow these steps:
 
 ## Working with E-invoices
 
-To learn more about using the E-Documents framework into your purchasing and sales workflows, refer to these articles:
+To learn more about using the E-Documents framework in your purchasing and sales workflows, see these articles:
 
 - [Use E-Documents in the sales process](../../finance-how-use-edocuments.md)
 - [Use E-Documents in the purchasing process](../../finance-how-use-edocuments-purchase.md)

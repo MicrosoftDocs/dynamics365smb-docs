@@ -6,10 +6,11 @@ author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: post code feature, address accuracy, delivery point identifier, DPID, address matching approval system, AMAS, Australian version
-ms.date: 03/25/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # About addresses in the Australian version

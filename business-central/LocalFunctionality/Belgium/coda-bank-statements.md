@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Coded Statement of Account, CODA, Belgian version, national banking standard, banking standard, electronic bank statements, banker's association
 ms.search.form: 2000040, 2000041, 2000042, 2000043, 2000045
-ms.date: 04/01/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Belgian CODA bank statements in the Belgian version
@@ -28,7 +29,7 @@ If the transaction coding of the statement line is found, the statement lines ar
 
 - **General ledger**: If the account type is a general ledger account, the statement line is posted on the corresponding general ledger account.  
 
--**Customer or vendor**: If the account type is customer or vendor, a matching customer or vendor ledger entry is found based on the following criteria:
+- **Customer or vendor**: If the account type is customer or vendor, a matching customer or vendor ledger entry is found based on the following criteria:
 
   - If a ledger entry is found using the standard format, the ledger entry is matched to the statement line, and the application status is set to **Applied**. If the ledger entry doesn't use the standard format, the bank account number of the customer or vendor is used to find the customer or vendor.
   - If no ledger entry with a matching remaining amount is found, the customer or vendor account is used, and the application status is set to **Partly Applied**.
@@ -37,7 +38,7 @@ If the transaction coding of the statement line is found, the statement lines ar
 
 You can run the process as many times as you like. Only statement lines with a blank application status are applied.  
 
-When you have applied all statement lines to a general ledger account or to a matching customer ledger entry or vendor ledger entry, you're ready to post the CODA statement lines. Learn more in [Automatically Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md).  
+When you have applied all statement lines to a general ledger account or to a matching customer ledger entry or vendor ledger entry, you're ready to post the CODA statement lines. Learn more in [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md).  
 
 ## Extending the CODA integration
 

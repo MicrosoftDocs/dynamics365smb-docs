@@ -1502,7 +1502,7 @@ ms.service: dynamics-365-business-central
 ##### [Set up Belgian tariff numbers](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 ##### [Belgian Intrastat reports](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
 ##### [Set up Intrastat establishment numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
-##### [Print the Intrastat form report](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
+##### [Verify the Intrastat report](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 ##### [Set up declaration types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Export Intrastat third-party declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banking & payments
@@ -1534,15 +1534,15 @@ ms.service: dynamics-365-business-central
 ### Canada
 #### [Local functionality in the Canadian version](LocalFunctionality/Canada/canada-local-functionality.md)
 #### Tax
-##### [Report goods and services tax and harmonized sales tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
-##### [Report sales tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
+##### [Reporting goods/services tax and harmonized sales tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
+##### [Reporting sales tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Set up use tax and purchase tax](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 #### Banking & payments
 ##### [Create deposits](LocalFunctionality/Canada/how-to-create-deposits.md)
 ##### [Make electronic payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 #### General
-##### [Print troubleshoot reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
+##### [Print troubleshooting reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 ##### [Work with GIFI codes](LocalFunctionality/Canada/work-gifi-codes.md)
 
 ### Czech Republic

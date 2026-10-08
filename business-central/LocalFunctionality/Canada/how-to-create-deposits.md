@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create deposits, transaction record, outstanding invoices, credit memos
 ms.search.form: 10140, 10141, 10143,10144,10146,10147,10148,36646
-ms.date: 02/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Create deposits in the Canadian version

@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: payment journal, journal types, payment suggestions, journal templates, Belgian version
 ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
-ms.date: 04/02/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Create payment journal templates and batches in the Belgian version
@@ -37,7 +38,7 @@ You can create multiple journal batches under each journal template. Several jou
 ## Add payment journal batches to the journal template  
 
 1. On the **Payment Journal Templates** page, choose the **Batches** action.  
-1. On the **Paym. Journal Batch** page, fill in the fields.  
+1. On the **EB Payment Journal Batches** page, fill in the fields.  
 
    [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 

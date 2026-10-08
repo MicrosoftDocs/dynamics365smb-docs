@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: journal templates, financial journals, bank account transactions, Belgian version
 ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
-ms.date: 04/01/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Create financial journals in the Belgian version

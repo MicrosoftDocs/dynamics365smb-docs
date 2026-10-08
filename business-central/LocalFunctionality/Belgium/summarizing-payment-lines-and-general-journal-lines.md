@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: concept-article
 ms.search.form: 11308
 ms.search.keywords: payment lines, journal lines, SEPA, summarize payment lines, summarize journal lines, Belgian version
-ms.date: 04/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Summarizing payment lines and general journal lines in the Belgian version

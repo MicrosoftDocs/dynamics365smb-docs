@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: limit posting period, posting period, sales journal, purchase journal, Belgian version
-ms.date: 04/02/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Limit the posting period in the Belgian version
@@ -17,7 +18,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can limit the perio
 
 Limiting posting periods can be useful when a company closes its sales journal at the end of each month. This keeps salespeople from registering sales documents from the previous month. At the same time, the purchase journal may stay open to register incoming purchase invoices from the previous month.  
 
-When you post on the **General Journal Templates** page, the contents of the **Allow Posting From** field and **Allow Posting To** field are checked for a date interval. The date interval indicates when you can post to a journal template. If the field is blank, the **User Setup** page is checked for a date interval for the current user. If the **User Setup** page doesn't contain an interval, the **Allow Posting From** field and the **Allow Posting To** field on the **General Ledger Setup** page is checked for a date interval at the company level.  
+When you post on the **General Journal Templates** page, the contents of the **Allow Posting Date From** field and **Allow Posting Date To** field are checked for a date interval. The date interval indicates when you can post to a journal template. If the fields are blank, the **User Setup** page is checked for a date interval for the current user. If the **User Setup** page doesn't contain an interval, the **Allow Posting From** field and the **Allow Posting To** field on the **General Ledger Setup** page is checked for a date interval at the company level.  
 
 ## Limit posting periods by company  
 
@@ -34,8 +35,8 @@ When you post on the **General Journal Templates** page, the contents of the **A
 ## Limit posting periods by template  
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal Templates**, and then choose the related link.  
-1. To specify the start of the period, choose the **Allow Posting From** field, and then enter the earliest date on which the user can post to the company.  
-1. To specify the end of the period, choose the **Allow Posting To** field, and then enter the last date the user will be able to post to the company.  
+1. To specify the start of the period, choose the **Allow Posting Date From** field, and then enter the earliest date on which the user can post to the company.  
+1. To specify the end of the period, choose the **Allow Posting Date To** field, and then enter the last date the user will be able to post to the company.  
 
 ## Related information
 

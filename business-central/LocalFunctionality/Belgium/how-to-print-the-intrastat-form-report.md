@@ -1,42 +1,34 @@
 ---
-title: How to Print the Intrastat Form Report [BE]
-description: The Intrastat Form report is used in Belgium for monthly reporting of goods movement. This report must be sent to both the statistics authorities and tax authorities.
+title: Verify the Intrastat Report Before Export [BE]
+description: Learn how to verify the Belgian Intrastat report with the Checklist Report action before you export and submit your monthly declaration.
 author: brentholtorf   
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: intrastat form report, intrastat report, intrastat declaration, statistics authorities, tax authorities, monthly reporting, Belgian version
-ms.date: 04/03/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
-# Print the Intrastat Form report in the Belgian version
+# Verify the Intrastat report in the Belgian version
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
-The **Intrastat - Form** report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.  
+In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.  
 
-Before you print the **Intrastat - Form** report, you can also print the **Intrastat Checklist** report to verify the contents of the report.  
+> [!NOTE]
+> The standalone **Intrastat - Form** and **Intrastat Checklist** reports described in earlier versions of this article are no longer available. Use the **Checklist Report** action on the **Intrastat Report** page instead to verify the contents of your declaration before you export it.
 
-## Print the Intrastat Form report  
+## Verify the Intrastat report before you export it
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat – Form**, and then choose the related link.  
-1. Fill in the fields as described in the following table.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report List**, and then choose the related link.  
+1. Open the Intrastat report that you want to verify.  
+1. Choose the **Checklist Report** action.  
+1. Review the errors and warnings shown in the **Error Messages** FactBox, and fix any lines that are missing required information.  
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Name**|Enter the company name.|  
-    |**Address**|Enter the address.|  
-    |**Post Code + City**|Enter the postal code and the city.|  
-    |**Contact**|Enter the name of the contact person.|  
-    |**Telephone**|Enter the telephone number of the contact person.|  
-    |**Telefax**|Enter the telefax number.|  
-    |**International VAT number**|Enter the international VAT registration number.|  
-    |**Nihil declaration**|Select if you don't have any trade transactions with EU countries/regions and want to send an empty declaration. When selected, the message "NIHIL" displays in the **Message** field.|  
-    |**Message**|Enter a message to be printed on the Intrastat declaration, such as "regular declaration" or "replacement declaration".|  
-
-1. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
+For the fields you fill in before you export the declaration, such as **Nihil Declaration** and **Enterprise No./VAT Reg. No.**, see [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md).  
 
 ## Related information
 
@@ -45,6 +37,7 @@ Before you print the **Intrastat - Form** report, you can also print the **Intra
 - [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)  
 - [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)  
 - [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md)  
+- [Work with Intrastat Reporting](../../finance-how-report-intrastat.md)  
 - [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

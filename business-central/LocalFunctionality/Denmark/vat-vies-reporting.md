@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: VAT declarations, Danish, EC sales list, VAT for goods trade, VAT-VIES
 ms.search.form:
-ms.date: 03/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # VAT-VIES reporting in the Danish version

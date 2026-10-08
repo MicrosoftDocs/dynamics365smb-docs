@@ -1,15 +1,16 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 When you first start using [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. 
 
-In a matter of minutes, you're ready to create sales documents and purchase documents with sales tax calculated correctly. Just search for the **Set Up Sales Tax** assisted setup guide and then follow the steps in the guide. This includes specifying the accounts that you want to use for sales tax for sales and purchases.  
+In a matter of minutes, you're ready to create sales documents and purchase documents with sales tax calculated correctly. Just search for the **Set up sales tax** assisted setup guide and then follow the steps in the guide. This includes specifying the accounts that you want to use for sales tax for sales and purchases.  
 
 We recommend that you choose to apply the new tax area to your own company information. If you also choose to apply it to customers or vendors, you'll be asked if you want to set a filter. This filter determines which customers or vendors you want to apply the information to. For example, you can choose to apply the tax area to those customers that are in your own city or county, or to all customers.
 

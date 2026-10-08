@@ -6,16 +6,17 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Danish public sector, electronic documents, OIOUBL, credit memos, finance charge memos, reminders
 ms.search.form: 
-ms.date: 03/03/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Create electronic documents by using OIOUBL
 
 > [!NOTE]
-> This feature isn't related to the new E-documents framework and requirements related to the new Danish bookkeeping act. For new functionality and updated OIOUBL 3.0, you can find updated content in **Electronic invoicing with NemHandel**.
+> This feature isn't related to the new E-documents framework and requirements related to the new Danish bookkeeping act. For new functionality and updated OIOUBL 3.0, see [Set up electronic invoicing with NemHandel](how-to-edocuments-nemhadel.md).
 
 When you sell goods or services to a customer in the public sector, you must submit documents electronically. You can create the following electronic documents:
 
@@ -32,12 +33,12 @@ You can create an electronic document after you post the sales or service docume
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 1. Open the sales invoice that you want to post.  
-1. Make sure that the **External Document No.** field contains the document number that the customer supplied. OIOUBL electronic documents require this number.
+1. Make sure that the **External Document No.** field contains the document number that the customer supplied. OIOUBL electronic documents require this number, unless you selected the **Document No. as Ext. Doc. No.** field on the **Sales & Receivables Setup** page, in which case the internal document number is used instead.
 
     > [!Note]  
     > For service documents, you must fill in the **Your Reference** field.  
 
-1. On the **Invoicing** FastTab, fill in the **GLN** and **OIOUBL Account Code** fields.  
+1. On the **Invoicing** FastTab, fill in the **GLN** and **Account Code** fields.  
 
    For reminders and finance charge memos, the fields are on the **Posting** FastTab.  
 

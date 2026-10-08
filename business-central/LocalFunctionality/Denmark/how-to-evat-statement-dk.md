@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: vat, return, statement, electronic, denmark, submission, skat
 ms.search.form: 
-ms.date: 01/23/2026
+ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Submit VAT returns electronically
@@ -56,7 +57,7 @@ If you use on-premises [!INCLUDE [prod_short](../../includes/prod_short.md)] ver
 Follow these steps to configure the electronic VAT declaration:
 
 1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic VAT Declaration Setup**, and then select the related link.  
-1. On the **Electronic VAT Declaration Setup** page, enter your legal SE/CVR number in the **ERP SE Number** field as a number used to report the VAT return to Skat service. After you enter your CVR number, you'll have to give a consent that your data would be shared with the third-party system (skat.dk) in this process. If you agree, you need to select the **I accept** button.  
+1. On the **Electronic VAT Declaration Setup** page, enter your legal SE/CVR number in the **ERP See Number** field as a number used to report the VAT return to Skat service. After you enter your CVR number, you're prompted to give consent that your data is shared with the third-party system (skat.dk) in this process. If you agree, select **I accept**.  
 
 ### Set up VAT report  
 
@@ -76,9 +77,9 @@ Follow these steps to configure a VAT statement:
 1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then select the related link.
 1. On the **VAT Statements** page, create a new VAT statement by using the **VAT Statement Name** page, or use a default statement.
 1. On the **VAT Statement** page, use the **Box No.** field to set up VAT setup lines so that they point VAT setups to the correct export boxes. Each box number is linked to the `ModtagMomsangivelseForeloebig` XML field.
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return E-Submission Setup**, and then select the related link.
-1. Set up endpoints for the **VirksomhedKalenderHent**, **ModtagMomsangivelseForeloebig**, and **MomsangivelseKvitteringHent** services. You can select **Set Default Endpoints** to have the system run automatically. Alternatively, you can make updates if the default values are no longer usable.
-1. Set **Client Certificate Code** and **Server Certificate Code** to the certificates that you previously created and uploaded on the **Certifications** page.
+1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic VAT Declaration Setup**, and then select the related link.
+1. Set up endpoints for the **VirksomhedKalenderHent**, **ModtagMomsangivelseForeloebig**, and **MomsangivelseKvitteringHent** services. By default, these fields are hidden because [!INCLUDE [prod_short](../../includes/prod_short.md)] uses Azure Key Vault to manage endpoints. If you don't use Azure Key Vault, show the fields by personalizing the page, then enter the endpoint values or make updates if the default values are no longer usable.
+1. Set **Client Certificate Code** and **Server Certificate Code** to the certificates that you previously created on the **Certificates** page.
 
 ## Use and submit a VAT return
 
@@ -93,13 +94,13 @@ Follow these steps to submit a VAT return:
 
 If the process is done correctly, you receive a "Request has been submitted" message, and the VAT return's status is changed to **Submitted**.
 
-You can double-check the request message for the VAT return later by choosing the **Download** action.  
+You can double-check the request message for the VAT return later by choosing the **Download Request** action.  
 
 ## After a VAT return is submitted
 
 You won't always know the final status that's confirmed by the authorities. Therefore, [!INCLUDE [prod_short](../../includes/prod_short.md)] regularly checks the **MomsangivelseKvitteringHent** service through the configured endpoint, to look for any response about submitted VAT returns. If a response is available, it's received, and the status of the company's VAT return is changed to **Accepted** or **Rejected**.
 
-You can download a **Response** message by selecting **Download**. If the status is **Accepted**, you can save the receipt link for the VAT return.
+You can download a response message by selecting **Download Response**. If the status is **Accepted**, you can save the receipt link for the VAT return.
 
 ## Related information
 

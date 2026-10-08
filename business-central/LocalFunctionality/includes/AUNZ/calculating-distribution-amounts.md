@@ -1,14 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 03/25/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-You can reallocate the amount in one general ledger account to other general ledger accounts so that the balances of your accounts remain proportionate to one another.
+You can reallocate the amount on one general ledger account to other general ledger accounts so that the balances of your accounts remain proportionate to one another.
 
-Use the **Calculate Distribution Amount** function to calculate the allocation percentage based on the balances of the accounts or based on the net changes between the accounts. Run the **Calculate Distribution Amount** function from the **Allocation** page for the Standard Balance and Reverse Balance recurring methods in the **Recurring Journal**.  
+On a recurring journal line that uses the **B Balance** or **RB Reversing Balance** recurring method, choose the **Allocations** action, and then enter a percentage in the **Allocation %** field for each account to divide the amount among. The amount is distributed according to the percentages that you enter; it isn't calculated automatically from account balances or net changes.
 
-The net changes or balances of the accounts on the **Allocation** page determine the allocation percentage calculated.  
+To automate the distribution instead, set up an allocation account with a fixed or variable allocation method. For more information, see [Allocate revenue and costs to multiple general ledger accounts](../../../finance-allocate-revenue-costs.md).

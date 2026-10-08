@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: VAT reporting feature, print VAT transaction details, Belgian version
 ms.search.form: 11300, 11301,11303,11306,11307,11308
-ms.date: 04/01/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Belgian VAT
@@ -26,9 +27,9 @@ You're also required to provide a printed statement detailing the VAT transactio
 
 ## Nondeductible VAT
 
-In Belgium, VAT can be fully or partially deductible. Expenses such as representation cost or purchases of cars are only partially deductible, and the transaction must specify how much of the VAT is nondeductible. For example, you create a general ledger account for fixed assets such as cars, and another account for representation cost. For each account, you specify how much of the reported VAT is nondeductible by setting the **Percentage Non deductible VAT** field. Then, when you post a transaction, the deductible VAT posts to the corresponding VAT account. The nondeductible VAT is added to the base amount and posted to the same account as a tangible or intangible asset.  
+In Belgium, VAT can be fully or partially deductible. Expenses such as representation cost or purchases of cars are only partially deductible, and the transaction must specify how much of the VAT is nondeductible. For example, you create a general ledger account for fixed assets such as cars, and another account for representation cost. For each account, you specify how much of the reported VAT is nondeductible by setting the **% Non deductible VAT** field. Then, when you post a transaction, the deductible VAT posts to the corresponding VAT account. The nondeductible VAT is added to the base amount and posted to the same account as a tangible or intangible asset.  
 
-For fixed assets, the nondeductible VAT depreciates just like the base acquisition cost of the fixed asset. You must set up separate fixed asset posting groups for each percentage of nondeductible VAT. You must do so because each fixed asset posting group posts to a general ledger account where the **Percentage Non deductible VAT** field specifies how much VAT must post to the same account as the fixed asset.  
+For fixed assets, the nondeductible VAT depreciates just like the base acquisition cost of the fixed asset. You must set up separate fixed asset posting groups for each percentage of nondeductible VAT. You must do so because each fixed asset posting group posts to a general ledger account where the **% Non deductible VAT** field specifies how much VAT must post to the same account as the fixed asset.  
 
 If you select the **Incl. Non Deductible VAT** field in a VAT statement line, nondeductible VAT is included in the VAT amount. The **Calc. and Post VAT Settlement** report adds the nondeductible part of that amount to the **Non Ded. VAT Amount** and **Non Ded. Source Curr. VAT Amt.** fields in the resulting VAT entries.  
 

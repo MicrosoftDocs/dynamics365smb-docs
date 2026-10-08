@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: balance sheet, balance sheet report, Australian version
-ms.date: 03/26/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Print balance sheet reports in the Australian version

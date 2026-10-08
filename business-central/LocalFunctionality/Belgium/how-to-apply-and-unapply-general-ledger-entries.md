@@ -1,14 +1,15 @@
 ---
 title: Apply and Unapply General Ledger Entries [BE]
-description: Learn how to apply and unapply general ledger entries in the Belgian version of Business Central, to allow working with temporary and transfer accounts in the general ledger.
+description: Learn about the deprecated feature for applying and unapplying general ledger entries in the Belgian version of Business Central, and the replacement feature for reviewing account balances.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: apply general ledger entries, unapply general ledger entries, temporary accounts, transfer accounts
-ms.date: 04/01/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Apply and unapply general ledger entries in the Belgian version

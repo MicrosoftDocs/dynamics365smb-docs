@@ -5,13 +5,14 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: withholding tax, WHT, Australian business number, ABN, local vendor, Australian version
-ms.date: 03/27/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
-# Set up vendors without ABN for calculating Withholding Tax in the Australian version
+# Set up vendors without ABN for calculating withholding tax in the Australian version
 
 Withholding Tax (WHT) is calculated for local vendors who don't have an Australian Business Number (ABN), as required by tax law.  
 

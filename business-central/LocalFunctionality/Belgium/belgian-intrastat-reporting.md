@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Intrastat reporting, VAT Information Exchange System, Belgian version, VIES, trade reporting
-ms.date: 04/01/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Belgian Intrastat reporting
@@ -33,7 +34,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export the Intr
 - [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)  
 - [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)  
 - [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md)  
-- [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)  
+- [Verify the Intrastat Report](how-to-print-the-intrastat-form-report.md)  
 - [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic banking setup, electronic banking, electronic payments, Belgian version
 ms.search.form: 11308
-ms.date: 04/03/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up electronic banking in the Belgian version
@@ -27,7 +28,7 @@ With electronic banking, you can make electronic payments to domestic, internati
    |Field|Description|  
    |---------------------------------|---------------------------------------|  
    |**Summarize Gen. Jnl. Lines**|Select to indicate if you want to group the payment journal lines for each vendor.|  
-   |**Cut off Payment Message Texts**|Select to indicate if you want to truncate long payment messages. Messages are truncated if greater than 106 characters for domestic payments and fewer than 140 characters for international payments.|  
+   |**Cut off Payment Message Texts**|Select to indicate if you want to truncate long payment messages. Messages are truncated if greater than 106 characters for domestic payments and greater than 140 characters for international payments.|  
 
 1. Choose the **OK** button.  
 

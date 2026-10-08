@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT correction, VAT manual correction, Belgian version
-ms.date: 04/02/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Make manual corrections to VAT in the Belgian version
@@ -34,7 +35,7 @@ You can make corrections to posted VAT entries without posting the correction in
 
     |Action|Description|  
     |------------|---------------------------------------|  
-    |**Detailed Report**|Opens the **VAT Statement** report. Learn more in VAT Statement.|  
+    |**Detailed Report**|Opens the **VAT Statement** report. Learn more in [Set up VAT statements](../../finance-how-setup-vat-statement.md).|  
     |**Form/Intervat Declaration**|Opens the **VAT – Form** report.<br><br/> The **Form/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it might export data that isn't the same as what is shown on the **VAT Statement Preview** page.|  
     |**Declaration Summary Report**|Opens the **VAT Statement Summary** report.|  
 

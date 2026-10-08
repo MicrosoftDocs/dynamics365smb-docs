@@ -4,10 +4,11 @@ description: The following article provides links that describe local functional
 author: sorenfriisalexandersen
 ms.topic: article
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 12/30/2025
+ms.date: 10/08/2026
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Denmark local functionality
@@ -47,17 +48,20 @@ The following articles describe the local functionality in the Danish version of
   - [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md) **Available Now**
   - [The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md) **Available Now**
   - [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md) **Available Now**
-  - [Registration for the Nemhandelsregisteret](how-to-nemhandel-register.md) **Available Now**
-  - [Notification for the Nemhandelsregisteret registration](how-to-nemhandel-register.md) **Available Now**
+  - [Notification and registration for the NemHandelsregisteret](how-to-nemhandel-register.md) **Available Now**
   - [Electronic invoicing with NemHandel](how-to-edocuments-nemhadel.md) **Available Now**
 
 - Payroll
 
   - [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md) **Available Now**
 
+- Upgrade and migration
+
+  - [The C5 data migration extension](../../ui-extensions-c5-data-migration.md) **Available Now**
+
 ## Future legislation requirements being investigated
 
-- Carbon footprint information with the OIOUBL e-invoicing format - **Planned for 2026 release wave 1**
+- Carbon footprint information with the OIOUBL e-invoicing format - **Planned for 2026 release wave 2**
 
 Currently, there are no additional upcoming regulatory features or requirements. For any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

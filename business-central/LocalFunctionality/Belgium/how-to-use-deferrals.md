@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: deferral, sales ledger, purchase ledger
 ms.search.form: 279, 1700, 1701
-ms.date: 04/04/2025
+ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Deferrals in Sales ledger and Purchase ledger reports

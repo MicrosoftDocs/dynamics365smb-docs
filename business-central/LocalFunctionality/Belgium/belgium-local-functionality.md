@@ -4,10 +4,11 @@ description: The following articles describe the various local functionalities i
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Belgian version, Belgian local functionality
-ms.date: 12/30/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Belgium local functionality
@@ -24,7 +25,7 @@ The following articles describe local functionality that's unique to the Belgian
   - [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md) **Available Now**
   - [Belgian Intrastat Reporting](belgian-intrastat-reporting.md) **Available Now**
   - [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md) **Available Now**
-  - [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md) **Available Now**
+  - [Verify the Intrastat Report](how-to-print-the-intrastat-form-report.md) **Available Now**
   - [Set Up Declaration Types](how-to-set-up-declaration-types.md) **Available Now**
   - [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md) **Available Now**
   - [Service Declarations F01DGS](../../finance-how-setup-use-service-declaration.md) **Available Now**
@@ -47,16 +48,17 @@ The following articles describe local functionality that's unique to the Belgian
   - [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
   - [Print Payment Files](how-to-print-payment-files.md#print-a-payment-file) **Available Now**
   - [Activate SEPA payments](belgian-electronic-payments.md#activate-sepa-payments) **Available Now**
-  - [File Non-Euro SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#file-non-euro-sepa-payments) **Available Now**
-  - [Direct Debit Using Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
-  - [Set Up Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#set-up-domiciliation) **Available Now**
-  - [Edit and Delete Domiciliation Lines](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#edit-and-delete-domiciliation-lines) **Available Now**
-  - [Test Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#test-domiciliation) **Available Now**
+  - [File Non-Euro SEPA Payments](belgian-electronic-payments.md#file-non-euro-sepa-payments) **Available Now**
+  - [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) **Available Now**
+  - [Set Up Domiciliation](direct-debit-using-domiciliation.md#set-up-domiciliation) **Available Now**
+  - [Edit and Delete Domiciliation Lines](direct-debit-using-domiciliation.md#edit-and-delete-domiciliation-lines) **Available Now**
+  - [Test Domiciliation](direct-debit-using-domiciliation.md#test-domiciliation) **Available Now**
   - [Export and Post Domiciliation](direct-debit-using-domiciliation.md#export-and-post-domiciliation) **Available Now**
-  - [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#generate-domiciliation-suggestions) **Available Now**
+  - [Generate Domiciliation Suggestions](direct-debit-using-domiciliation.md#generate-domiciliation-suggestions) **Available Now**
   - [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
 
 - Electronic invoicing
+  - Since January 1, 2026, Belgium requires VAT-registered businesses to send and receive structured electronic invoices for domestic B2B transactions through the Peppol network. Make sure you set up e-invoicing before you exchange invoices with other Belgian businesses.
   - [Electronic Invoicing in Belgium via PEPPOL access point](../../finance-how-setup-edocuments-external.md) **Available Now**
   
 - Core finance
@@ -69,7 +71,6 @@ The following articles describe local functionality that's unique to the Belgian
   - [Enterprise Numbers and Branch Numbers](enterprise-numbers-and-branch-numbers.md) **Available Now**
   - [Limit the Posting Period](how-to-limit-the-posting-period.md) **Available Now**
   - [Set the Work Date as the Posting Date](how-to-set-the-work-date-as-the-posting-date.md) **Available Now**
-  - [Make Journal Templates Mandatory](specify-journal-template-mandatory.md) **Available Now**
   - [Deferrals in Sales Ledger and Purchase Ledger reports](how-to-use-deferrals.md) **Available Now**
 
 ## Future legislation requirements being investigated

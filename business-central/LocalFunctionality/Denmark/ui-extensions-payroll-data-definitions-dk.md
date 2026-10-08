@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: payroll data definitions, Denmark, payroll service providers
 ms.search.form: 13640
-ms.date: 03/04/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Payroll Data Definitions (DK) extension

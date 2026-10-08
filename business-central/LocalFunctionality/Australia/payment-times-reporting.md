@@ -4,15 +4,16 @@ description: Payment Times Reporting isn't directly available in the Australian 
 author: sorenfriisalexandersen
 ms.topic: article
 ms.search.keywords: payment times reporting, vendor ledger entries, Australian version
-ms.date: 03/27/2025
+ms.date: 10/08/2026
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Payment Times Reporting in the Australian version
 
-Businesses in Australia that have a group-wide revenue of AUD 100,000,000 or more must report to the authorities how they pay their small business vendors. A company is considered a reporting entity if they exceed that revenue threshold, or if a company has a revenue of AUD 10,000,000 or more while also being part of a controlling corporation with a revenue of AUD 100,000,000 or more. Small businesses must register in a system that is made available by the authorities, and reporting entities must look up their vendors in this system to check if a given vendor qualifies as a small business vendor and reports the relevant amounts. Learn more on this [website](https://www.industry.gov.au/regulations-and-standards/payment-times-reporting-scheme) which provides information about the reporting rules and registration. Use the lookup field to look for this information.
+Businesses in Australia that are a constitutionally covered entity with an annual consolidated revenue of AUD 100,000,000 or more must report to the authorities how they pay their small business vendors. This revenue threshold is assessed at the consolidated group level. An entity that's controlled by a reporting entity doesn't report separately; instead, the controlling (head) entity submits a single consolidated report that covers all its controlled entities. Small businesses can register with the authorities so that reporting entities can look up their vendors to check if a given vendor qualifies as a small business vendor and report the relevant amounts. Learn more on the [Payment Times Reporting Scheme website](https://paymenttimes.gov.au/), which provides information about the reporting rules and registration. Use the lookup field to look for this information.
 
 ## Support for Payment Times Reporting
 
@@ -22,16 +23,16 @@ Business Central supports Australian businesses in running their financial repor
 
 As a reporting entity, you must provide the authorities with two files:
 
-- A declaration document that states that the reported numbers are true, signed by a responsible member of the reporting entity or controlling corporation.
+- A declaration document that states that the reported numbers are true, signed by a responsible member of the reporting entity or its controlling (head) entity.
 - A delimited text file that contains a line with the reported information in various fields.
 
-Examples and descriptions of these files can be found on the Australian authorities' website: [https://www.industry.gov.au/regulations-and-standards/payment-times-reporting-scheme](https://www.industry.gov.au/regulations-and-standards/payment-times-reporting-scheme).
+Examples and descriptions of these files can be found on the Australian authorities' website: [https://paymenttimes.gov.au/](https://paymenttimes.gov.au/).
 
 The information in the following sections relates only to the delimited text file. The content is intended as model for getting some of the relevant information from Business Central in a manual fashion. Partner-provided capabilities may exist that provide functionality to automate this.
 
 ### Marking a vendor as a small business vendor
 
-Consider creating a new **Vendor Posting Group** to be set on vendors that are confirmed to be small business vendors in the **Small Business** identification tool. You must look up a vendor in this tool to get this confirmation. After a vendor is set to this vendor posting group, the posting group is propagated to the vendor ledger entries, which is key for you to be able to find relevant entries for the report.  
+Consider creating a new **Vendor Posting Group** to be set on vendors that are confirmed to be small business vendors in the **Small Business Identification (SBI) Tool**. You must look up a vendor in this tool to get this confirmation. After a vendor is set to this vendor posting group, the posting group is propagated to the vendor ledger entries, which is key for you to be able to find relevant entries for the report.
 
 ### Reporting data
 
@@ -39,16 +40,13 @@ As you'll see from the example template of the delimited text file, much of the 
 
 From a reporting perspective, the interesting thing is how the reporting entity pays its small business vendors. The authorities have defined buckets into which these payments fall and must be reported.
 
-For example, in June 2021, these buckets are:
+Under the reporting rules that apply to reporting periods starting on or after July 1, 2024, these buckets are:
 
-- Invoices paid within 20 days after the day of receipt
-- Invoices paid between 21 days and 30 days after the day of receipt
+- Invoices paid within 30 days after the day of receipt
 - Invoices paid between 31 days and 60 days after the day of receipt
-- Invoices paid between 61 days and 90 days after the day of receipt
-- Invoices paid between 91 days and 120 days after the day of receipt
-- Invoices paid more than 120 days after the day of receipt
+- Invoices paid more than 60 days after the day of receipt
 
-As a scenario, you must report how many invoices from small business vendors have been paid between 21 and 30 days after the day of receipt of the invoice. You must also report the proportional invoice amount of those invoices compared to the total number of invoices from small business vendors.
+As a scenario, you must report how many invoices from small business vendors have been paid between 31 and 60 days after the day of receipt of the invoice. You must also report the proportional invoice amount of those invoices compared to the total number of invoices from small business vendors.
 
 ### Finding the data for the Payment Times report
 
@@ -65,7 +63,7 @@ As mentioned above, many fields and much of the data needed for the report doesn
    You can now go through invoices one by one and select the **Applied Entries** action to see information about payments that have been applied to the invoice.
 1. In the **Applied Entries** page, make sure you look at records where **Document Type** is **Payment**, so you don't report on invoices that have been closed by a credit memo, for example.
 1. If there's a payment for the invoice, use the **Posting Date** to determine how many days have elapsed since receipt of the invoice by comparing it to the **Posting Date** of the Invoice **Vendor Ledger Entry**.
-1. Note down how this invoice affects the bucket (such as 21 to 30 days) when it comes to the number of invoices and the proportional number of small business vendor invoices.
+1. Note down how this invoice affects the bucket (such as 31 to 60 days) when it comes to the number of invoices and the proportional number of small business vendor invoices.
 
 As an alternative, consider exporting the full list of vendor ledger entries to Excel by using the action **Page** > **Open in Excel**. In Excel, you can do more advanced calculations and formulas to find the applied entries and payments for an invoice.
 

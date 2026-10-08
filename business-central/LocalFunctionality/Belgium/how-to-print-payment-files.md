@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: payment journal lines, payment file, payment journal, print payment lines, Belgian version
 ms.search.form: 2000001
-ms.date: 04/03/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Export payment files in the Belgian version
@@ -21,7 +22,7 @@ In the payment journal, the **Status** field on the exported lines is set to **P
 
 ## Print a payment file  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *Payment Journal*, and then choose the link to open the **EB Payment Journal** page.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the link to open the **EB Payment Journals** page.  
 1. In the **Batch Name** field, select the required journal batch.  
 1. In the **Export Protocol** field, select the export protocol.  
 

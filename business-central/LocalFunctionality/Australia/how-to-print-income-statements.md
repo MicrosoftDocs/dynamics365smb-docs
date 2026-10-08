@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: annual income statement, income statement report, legal report, auditing accounts, revenues, expenses, revenues and expenses, Australian version
-ms.date: 03/26/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Print income statements in the Australian version
@@ -20,12 +21,14 @@ This is a legal report that is required for auditing accounts. This report displ
 ## Print the income statement report
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement**, and then choose the relevant link.  
-1. On the **Income Statement** page, fill in the fields as described in the following table.  
+1. On the request page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Amounts in whole**|Specifies the nearest unit to which the amount must be rounded.|  
     |**Show Amounts in Add. Reporting Currency**|Specifies if the amounts are displayed in the additional reporting currency.|  
+
+    > [!NOTE]
+    > The report's layout, including amount rounding, comes from the financial report definition that's set in the **Income Statement Report** field on the **Reporting** FastTab of the **General Ledger Setup** page.
 
 1. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 

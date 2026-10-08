@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: tariff, tariff numbers, item code, Intrastat, customs, tax regulations, conversion factor, Belgian version
 ms.search.form: 310
-ms.date: 04/03/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up Belgian tariff numbers in the Belgian version
@@ -36,6 +37,6 @@ The Belgian customs and tax authorities have established an eight-digit item cod
 - [Set Up Declaration Types](how-to-set-up-declaration-types.md)
 - [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)
 - [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md)
-- [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+- [Verify the Intrastat Report](how-to-print-the-intrastat-form-report.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

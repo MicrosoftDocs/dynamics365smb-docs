@@ -5,10 +5,11 @@ author: sorenfriisalexandersen
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Canada local functionality, Canadian version features
-ms.date: 02/04/2025
+ms.date: 10/08/2026
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Local functionality in the Canadian version
@@ -18,7 +19,7 @@ The following articles describe local functionality that is unique to the Canadi
 ## Feature availability
 
 - Tax
-    - [Reporting Sales Tax and Goods/Services Tax in Canada](sales-tax-goods-services.md) **Available Now**
+    - [Reporting Goods/Services Tax and Harmonized Sales Tax in Canada](sales-tax-goods-services.md) **Available Now**
     - [Reporting Sales Tax in Canada](ca-sales-tax.md) **Available Now**
     - [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**
     - [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**

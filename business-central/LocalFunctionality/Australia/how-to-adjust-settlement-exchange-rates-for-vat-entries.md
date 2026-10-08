@@ -4,10 +4,11 @@ description: Use a batch job to settle VAT entries based on the government excha
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: batch job, settle VAT entries, government exchange rate, Australian version
-ms.date: 03/25/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Adjust settlement exchange rates for VAT entries in the Australian version

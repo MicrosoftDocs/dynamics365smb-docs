@@ -2648,7 +2648,12 @@ ms.service: dynamics-365-business-central
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
-### [Microsoft Fabric and Business Central](admin-fabric.md)
+### Microsoft Fabric
+#### [Data mirroring to Microsoft Fabric](admin-fabric.md)
+#### [Set up data mirroring to Microsoft Fabric](admin-set-up-fabric-mirroring.md)
+#### [Manage data synchronization with Microsoft Fabric](admin-manage-fabric-export.md)
+#### [Monitor and troubleshoot synchronization](admin-monitor-fabric-export.md)
+#### [FAQ about mirroring Business Central data to Microsoft Fabric](fabric-faq.md)
 ### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
 ### [Intelligent insights (on-premises)](about-intelligent-cloud.md)

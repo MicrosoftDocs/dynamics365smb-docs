@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: GoBD, GDPdU, digital audits, German tax law, German version
 ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
-ms.date: 03/11/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Export data for a digital audit in the German version
@@ -21,7 +22,7 @@ If there's no data to export, [!INCLUDE[prod_short](../../includes/prod_short.md
 ### Export data for a digital audit
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.
-1. On the **Data Export** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+1. On the **Export Business Data** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Option|Description|  
     |----------------------------------|---------------------------------------|  
@@ -33,9 +34,9 @@ If there's no data to export, [!INCLUDE[prod_short](../../includes/prod_short.md
 1. To export the data, choose the **OK** button.  
 
     > [!WARNING]  
-    > During the export, any existing files, including the log file, is overwritten. If you export the same data twice, the files from the first export are overwritten.  
+    > If you export the same data twice, the files from the first export are overwritten.  
 
- You're notified when the export completes. If you cancel the export, or if you close the page, you're also notified that the export is complete, but the log folder is empty. However, depending on your configuration, some files may have been exported, but the export might not be complete.  
+Business Central packages the exported files and the log file into a single *.zip* archive, and your browser downloads the archive when the export completes. If you cancel the export, or close the page before it finishes, no archive is downloaded. However, depending on your configuration, some data may have already been processed, so the export might not be complete.  
 
 ## Related information
 

@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: print registration numbers, company registration numbers, registration numbers, sales reports, purchase reports, German version
-ms.date: 03/11/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Include company registration numbers on sales reports and purchase reports
@@ -25,7 +26,7 @@ When generating certain sales reports and purchase reports, you can print regist
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 1. Select the vendor that you want to add a registration number for, and then choose the **Edit** action.  
-1. On the **Invoicing** FastTab, in the **Registration No.** field, enter the registration number of the vendor.  
+1. On the **Invoicing** FastTab, in the **Registration Number** field, enter the registration number of the vendor.  
 1. Choose the **OK** button.  
 
 ## Related information

@@ -1,20 +1,21 @@
 ---
 title: Czech local functionality - G/L reconciliation enhancements 
 description: According to Czech-specific requirements, the Inventory – G/L Reconciliation matrix form must take into account the Czech-specific inventory posting accounts.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/05/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Inventory – G/L reconciliation enhancements in the Czech version
 
-Since the Czech localized application contains modifications in the inventory posting (special Account for rounding functionalities and special intermediate WIP accounts), this must also be included in the **Inventory – G/L Reconciliation** matrix form.
-  
-These modifications are introduced to the interface and the calculation procedures are modified.
+Because the Czech-localized application adds its own inventory posting accounts (an inventory rounding account and an intermediate WIP account), the **Inventory – G/L Reconciliation** matrix must also take these Czech-specific accounts into account.
+
+These additions are reflected both in the user interface and in the underlying calculation procedures.
 
 ## Related information
 

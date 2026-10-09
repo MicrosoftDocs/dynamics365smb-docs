@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Finnish electronic payments, bank reference files
 ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
-ms.date: 02/13/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up bank reference files in the Finnish version
@@ -30,7 +31,7 @@ To process electronic payments, you must first set up bank reference files to de
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Due Date Handling**|Select how due date processing should be applied to foreign payments.<br /><br /> **Batch** – All payments in the file receive the same payment date.<br /><br /> –or–<br /><br /> **Transaction** – Each payment in the file receives a transaction-specific payment date. Contact your bank to determine whether this setting should be used.|  
+    |**Due Date Handling**|Select how due date processing should be applied to foreign payments.<br /><br /> **Batch**: All payments in the file receive the same payment date.<br /><br /> –or–<br /><br /> **Transaction**: Each payment in the file receives a transaction-specific payment date. Contact your bank to determine whether this setting should be used.|  
     |**Default Service Fee Code**|Select a default service fee code for foreign banks.|  
     |**Default Payment Method**|Select a default payment method for foreign payments.|  
     |**Exchange Rate Contract No.**|Enter the exchange rate contract number.|  
@@ -40,8 +41,9 @@ To process electronic payments, you must first set up bank reference files to de
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Bank Party ID**|Enter a SEPA bank party ID. <br></br>**Note:**  This field is only used for the SEPA pain.001.001.02 standard.|  
-    |**File Name**|Enter the full path of the SEPA payment file. <br></br>**Note:**  This field is only used for the SEPA pain.001.001.02 standard.|  
+    |**Bank Party ID**|Enter a SEPA bank party ID. <br></br>**Note:**  This field is used for the SEPA pain.001.001.02 and pain.001.001.09 standards.|  
+    |**File Name**|Enter the full path of the SEPA payment file. <br></br>**Note:**  This field is used for the SEPA pain.001.001.02 and pain.001.001.09 standards.|  
+    |**Allow Comb. SEPA Pmts.**|Select to combine all SEPA payments made to one recipient in one day from the same bank account.|  
 
    > [!IMPORTANT]  
    > To export vendor payments using the SEPA standard, you must fill the **Payment Export Format** field on the **Bank Account Card** page.  

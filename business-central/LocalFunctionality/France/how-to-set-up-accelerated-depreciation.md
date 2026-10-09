@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: depreciation books, accelerated depreciation, Derogatory calculation, fixed assets, French version
 ms.search.form: 5610, 5611
-ms.date: 04/16/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up accelerated depreciation
@@ -22,7 +23,7 @@ To use the accelerated depreciation calculation, you must set up the following d
 > [!NOTE]  
 > When you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is duplicated and posted in the tax depreciation book when the fixed asset journal is posted.  
 
-The difference between the accounting depreciation book and the tax depreciation book is managed through the settings on the **Integration** FastTab on the deprecation book card as indicated in the following table.  
+The difference between the accounting depreciation book and the tax depreciation book is managed through the settings on the **Integration** FastTab on the **Depreciation Book Card** page as indicated in the following table.  
 
 | Depreciation book purpose | Value of the Derogatory field |
 |--|--|
@@ -31,7 +32,7 @@ The difference between the accounting depreciation book and the tax depreciation
 
 The **Derogatory** field specifies if you want derogatory entries that are posted to this depreciation book to be posted both to the general ledger and the FA ledger. If you placed a check mark in the field, you must use the FA G/L journal to post derogatory entries.
 
-You specify the G/L accounts that must be used in the **FA Posting Group** page. In the **Depreciation Book** page, you specify the posting group that must be used.
+You specify the G/L accounts that must be used on the **FA Posting Group Card** page. On the **Fixed Asset Card**, in the **Depreciation Book** FastTab, you specify the FA posting group that must be used for each depreciation book assigned to the fixed asset.
 
 If you don't place a check mark in the field, you must use the FA journal to post derogatory entries, which is posted only to the FA Ledger Entry table.
 

@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create delivery reminders manually, delivery reminder codes, delivery reminder terms, delivery reminder levels, delivery reminder, German version
-ms.date: 03/10/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Create delivery reminders manually in the German version

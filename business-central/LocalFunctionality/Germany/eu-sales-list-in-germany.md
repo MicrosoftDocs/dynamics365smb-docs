@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: BZSt, EU sales list, ELMAS, ELMAS interface, German version
-ms.date: 03/10/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # EU sales list in Germany
@@ -19,11 +20,10 @@ In order to increase security, all types of taxes and tax reports must be submit
 
 ## Related information
 
-- [BZSt Online Portal](https://www.bzst.de)   
-- [Create VAT Reports](how-to-create-vat-reports.md)  
-- [Set Up VAT-VIES Reports](how-to-set-up-vat-reports.md)  
-- [Create VAT-VIES Reports](how-to-create-vat-reports.md)  
-- [Correct VAT-VIES Reports](how-to-correct-vat-reports.md)  
-- [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md)  
+- [BZSt Online Portal](https://www.bzst.de)
+- [Set up VAT reports](how-to-set-up-vat-reports.md)
+- [Create VAT reports](how-to-create-vat-reports.md)
+- [Correct VAT reports](how-to-correct-vat-reports.md)
+- [Declare VAT-VIES tax](how-to-declare-vat-vies-tax.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,7 +9,7 @@ ms.search.form: 5260, 5264, 5266, 5267, 5270
 ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ai-usage: ai-assisted
 ---
 

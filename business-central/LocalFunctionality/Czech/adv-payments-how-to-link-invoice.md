@@ -1,14 +1,15 @@
 ---
 title: Link an advance invoice to a final document
 description: This article describes how to link an invoice to a final document using Advance Payments in the Czech version.
-author: v-pejano
-ms.reviewer: v-pejano
-ms.author: v-pejano
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: Czech, Advance Payments, Localization
-ms.date: 09/17/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 
 ---
 

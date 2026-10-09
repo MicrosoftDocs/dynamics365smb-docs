@@ -5,11 +5,12 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: automatic account codes, account posting groups
-ms.search.form: 11207, 11208
-ms.date: 02/13/2025
+ms.search.form: 4850, 4852
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up automatic account posting groups in the Finnish version

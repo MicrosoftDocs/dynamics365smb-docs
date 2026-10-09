@@ -9,7 +9,7 @@ ms.search.keywords: digital voucher, voucher, attachment, setup, denmark, enforc
 ms.search.form: 5579, 5582, 5587
 ms.date: 10/08/2026
 ms.custom: bap-template
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ai-usage: ai-assisted
 ---
 

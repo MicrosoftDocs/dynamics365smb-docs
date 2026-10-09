@@ -1,14 +1,15 @@
 ---
-title: Hide rows with zero quantity in document reports in the Chech version
+title: Hide rows with zero quantity in document reports in the Czech version
 description: This article describes how to make document reports clearer by hiding lines with zero quantity in the Czech localization.
 author: v-makune
-ms.reviewer: v-pejano
-ms.author: v-jiurxo
-ms-service: dynamics-365-business-central
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: concept-article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 09/17/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Hide rows with zero quantity in document reports
@@ -19,7 +20,7 @@ To streamline data in reports, the **Hide lines with zero quantity** toggle on t
 - Sales Shipment
 - Sales Credit Memo
 - Sales Return Reciept
-- Purchase Invoice
+- Purchase - Invoice with Advance
 
 ## Related information
 

@@ -5,15 +5,16 @@ author: milicadjukic
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: e-invoicing, electronic invoicing, France, Factur-X, UBL, PEPPOL, CII, PDP, DGFIP, SIRET, SIREN, French version
-ms.date: 06/23/2026
+ms.date: 10/08/2026
 ms.author: milicadjukic
-ms.reviewer: soumramani
+ms.reviewer: bholtorf
 ms.custom: references_regions
+ai-usage: ai-assisted
 ---
 
 # Electronic invoicing in France with UBL 2.1 and Factur-X
 
-France’s electronic invoicing reform (réforme de la facturation électronique) requires all businesses operating in France to exchange invoices electronically through certified Partner Dematerialization Platforms (PDPs). The reform is being introduced in phases and will ultimately apply to all B2B transactions. Compliant invoices must be submitted in one of the accepted semantic formats, such as **UBL 2.1** (PEPPOL BIS 3.0) or **Factur-X** (CII embedded in PDF/A-3), and must include required French identifiers such as SIRET, SIREN, and electronic routing addresses.
+France's electronic invoicing reform (réforme de la facturation électronique) requires all businesses operating in France to exchange invoices electronically through certified Partner Dematerialization Platforms (PDPs). The reform is being introduced in phases and will ultimately apply to all B2B transactions. Compliant invoices must be submitted in one of the accepted semantic formats, such as **UBL 2.1** (PEPPOL BIS 3.0) or **Factur-X** (CII embedded in PDF/A-3), and must include required French identifiers such as SIRET, SIREN, and electronic routing addresses.
 
 Business Central supports both formats through the **E-Reporting FR** extension, which enables French companies to:
 - Generate UBL 2.1 invoices that comply with PEPPOL BIS 3.0 and include required French elements such as SIRET, SIREN, and electronic routing addresses.
@@ -34,8 +35,8 @@ Before you begin, make sure that:
 
 ## Set up company information
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Company Information**, and then select the related link.
-2. Fill in the following fields required for French e-invoicing:
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then select the related link.
+1. Fill in the following fields required for French e-invoicing:
 
    | Field | Description | Example |
    |---|---|---|
@@ -55,9 +56,9 @@ Before you begin, make sure that:
 
 Each customer who receives electronic invoices must have an electronic address configured for PDP routing.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Customers**, and then select the related link.
-2. Open the customer card for the customer that you want to set up.
-3. In the **Invoicing** FastTab (after the **VAT Registration No.** field), fill in the following fields:
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then select the related link.
+1. Open the customer card for the customer that you want to set up.
+1. In the **Invoicing** FastTab (after the **VAT Registration No.** field), fill in the following fields:
 
    | Field | Description |
    |-------|-------------|
@@ -65,14 +66,14 @@ Each customer who receives electronic invoices must have an electronic address c
    | **Electronic Address Scheme** | The scheme of the electronic address: **SIRET (0009)**, **SIREN (0002)**, or **Email (EM)**. |
 
 > [!NOTE]
-> The **Electronic Address** field (BT-49) is required for French e-invoicing under business rule BR-FR-12. If the field is blank, the system uses the customer’s **Registration Number**, truncated to 14 characters, with scheme `0009`. If neither value is available, the export validation check shows an error.
+> The **Electronic Address** field (BT-49) is required for French e-invoicing under business rule BR-FR-12. If the field is blank, the system uses the first 9 characters of the customer's **Registration Number** (the SIREN) with scheme `0225`. If neither value is available and the customer has a French VAT registration number, the system derives the SIREN from it. If none of these values is available, the export validation check shows an error.
 
 ## Set up vendors for e-invoicing
 
 If you want to import incoming electronic invoices from vendors, set up your vendors in the same way:
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Vendors**, and then select the related link.
-2. Open the vendor card and then fill in the **Electronic Address** and **Electronic Address Scheme** fields in the same way as for customers.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
+1. Open the vendor card and then fill in the **Electronic Address** and **Electronic Address Scheme** fields in the same way as for customers.
 
 ## Set up e-document service format
 
@@ -82,9 +83,9 @@ Create an e-document service for each format that you want to use. The extension
 
 Use this format for structured XML electronic invoices in UBL 2.1 syntax. The format complies with PEPPOL BIS 3.0 and includes the required French elements.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **E-Document Services**, and then select the related link.
-2. Select **New** to create a new e-document service.
-3. Fill in the following fields:
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+1. Select **New** to create a new e-document service.
+1. Fill in the following fields:
 
    | Field | Value |
    |-------|-------|
@@ -100,9 +101,9 @@ Use this format for structured XML electronic invoices in UBL 2.1 syntax. The fo
 
 Use this format for hybrid PDF/A-3 invoices with embedded CII XML conforming to the Factur-X EN 16931 (Extended) profile. This format produces a human-readable PDF with a machine-readable XML attachment.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **E-Document Services**, and then select the related link.
-2. Select **New** to create a new e-document service.
-3. Fill in the following fields:
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+1. Select **New** to create a new e-document service.
+1. Fill in the following fields:
 
    | Field | Value |
    |---|---|
@@ -120,8 +121,8 @@ Create a workflow to automate the export and sending of e-documents. If you use 
 
 ### Create Factur-X workflow
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Workflows**, and then select the related link.
-2. Create a new workflow with the following settings:
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then select the related link.
+1. Create a new workflow with the following settings:
 
    | Field | Value |
    |-------|-------|
@@ -130,13 +131,13 @@ Create a workflow to automate the export and sending of e-documents. If you use 
    | **Category** | EDOC |
    | **Enabled** | Yes |
 
-3. On the workflow lines, enter:
+1. On the workflow lines, enter:
 
    | When Event | Then Response |
    |------------|---------------|
    | E-Document Created | Send E-Document using service: FACTURX-FR |
 
-4. Select the **On Condition** field on the **E-Document Created** event line. On the condition page, set the **E-Document Service Code** filter to **FACTURX-FR**. This setting ensures that the workflow triggers only for documents routed to the Factur-X service.
+1. Select the **On Condition** field on the **E-Document Created** event line. On the condition page, set the **E-Document Service Code** filter to **FACTURX-FR**. This setting ensures that the workflow triggers only for documents routed to the Factur-X service.
 
 ### Create PEPPOL workflow
 
@@ -149,21 +150,21 @@ Create a workflow to automate the export and sending of e-documents. If you use 
    | **Category** | EDOC |
    | **Enabled** | Yes |
 
-2. On the workflow lines, enter:
+1. On the workflow lines, enter:
 
    | When Event | Then Response |
    |------------|---------------|
    | E-Document Created | Send e-document using service: PEPPOL-FR |
 
-3. Select the **On Condition** field on the **E-Document Created** event line. On the **Condition** page, set the **E-Document Service Code** filter to **PEPPOL-FR**. This setting ensures that the workflow triggers only for documents routed to the PEPPOL service.
+1. Select the **On Condition** field on the **E-Document Created** event line. On the **Condition** page, set the **E-Document Service Code** filter to **PEPPOL-FR**. This setting ensures that the workflow triggers only for documents routed to the PEPPOL service.
 
 > [!IMPORTANT]
 > When multiple workflows share the same EDOC category, each workflow must have a condition on the event line to identify the service that it handles. Without conditions, both workflows trigger for every e-document, which can cause errors or duplicate exports.
 
 ## Set up document sending profile
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Document Sending Profiles**, and then select the related link.
-2. Create a new document sending profile:
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profiles**, and then select the related link.
+1. Create a new document sending profile:
 
    | Field | Value |
    |-------|-------|
@@ -172,14 +173,14 @@ Create a workflow to automate the export and sending of e-documents. If you use 
    | **Electronic Document** | E-Document Workflow |
    | **E-Document Workflow** | FACTURX-FR *(or PEPPOL-FR)* |
 
-3. Select **OK**.
+1. Select **OK**.
 
 ## Set up report selection — Sales
 
 Configure the standard sales reports for invoicing:
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Report Selection - Sales**, and then select the related link.
-2. Verify the following mappings:
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selection - Sales**, and then select the related link.
+1. Verify the following mappings:
 
    | Usage | Report ID | Report Name |
    |---|---|---|
@@ -191,9 +192,9 @@ Configure the standard sales reports for invoicing:
 
 ## Assign document sending profile to customers
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Customers**, and then select the related link.
-2. Open the customer card.
-3. In the **Document Sending Profile** field, select the profile that you created (for example, **FACTURX-FR**).
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then select the related link.
+1. Open the customer card.
+1. In the **Document Sending Profile** field, select the profile that you created (for example, **FACTURX-FR**).
 
 ## Example scenario — Create, post, and export a sales invoice
 
@@ -201,26 +202,26 @@ The following steps show how to create, post, and automatically export a sales i
 
 ### Step 1: Create a sales invoice
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Sales Invoices**, and then select the related link.
-2. Select **New** to create a sales invoice.
-3. Select the customer (ensure the customer has a **Document Sending Profile** set to your e-invoicing profile and an **Electronic Address** configured).
-4. In the **Posting Date** field, enter today's date.
-5. Add one or more line items with quantity and unit price.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then select the related link.
+1. Select **New** to create a sales invoice.
+1. Select the customer (ensure the customer has a **Document Sending Profile** set to your e-invoicing profile and an **Electronic Address** configured).
+1. In the **Posting Date** field, enter today's date.
+1. Add one or more line items with quantity and unit price.
 
 ### Step 2: Post the sales invoice
 
 1. Select **Post** to post the sales invoice.
-2. Posting triggers the e-document workflow, which automatically does the following:
+1. Posting triggers the e-document workflow, which automatically does the following:
    - Creates an e-document record.
    - Exports the document in the configured format (Factur-X PDF or PEPPOL XML).
    - Sends the document through the configured service integration (if any).
 
 ### Step 3: View the e-document
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png) icon, enter **Posted Sales Invoices**, and then select the related link.
-2. Select the posted invoice.
-3. On the ribbon, select **Related** > **E-Document** > **Open** to view the **E-Document Card**.
-4. The **E-Document Card** shows:
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then select the related link.
+1. Select the posted invoice.
+1. On the ribbon, select **Related** > **E-Document** > **Open** to view the **E-Document Card**.
+1. The **E-Document Card** shows:
    - **Document No.**: The posted invoice number.
    - **Document Type**: Sales Invoice.
    - **Amount Excl. VAT** and **Amount Incl. VAT**: The invoice amounts.
@@ -238,7 +239,7 @@ On the **E-Document Card**, select **Document Logs** to view the processing hist
 If you use the Factur-X format, you can preview or print the generated PDF:
 
 1. On the **Posted Sales Invoices** page, select **Print/Send** > **Print**.
-2. The PDF contains the human-readable invoice with the CII XML embedded as an attachment named `factur-x.xml`.
+1. The PDF contains the human-readable invoice with the CII XML embedded as an attachment named `factur-x.xml`.
 
 ## Importing incoming Factur-X invoices
 
@@ -254,7 +255,7 @@ The extension supports importing incoming Factur-X PDF invoices and converting t
    - Applies invoice-level discounts (allowances) proportionally across purchase lines.
    - Creates header-level charge lines for surcharges.
 
-2. The system recognizes the following document type codes:
+1. The system recognizes the following document type codes:
    - **380**, **384**, **751**, **877**: Purchase Invoice
    - **381**, **261**: Purchase Credit Memo
 

@@ -1,40 +1,43 @@
 ---
 title: How to Set Up VAT Reports [DE]
-description: Learn how to set up report parameters in Business Central to file a VAT report under the ELMA5 system.
+description: Learn how to set up VAT statements, company information, and tax office data before you declare VAT-VIES tax or sales VAT advance notifications in the German version.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: report parameters, ELMA5 system, VAT report setup, German version
-ms.date: 03/12/2025
+ms.search.keywords: VAT report setup, tax office setup, VAT statement setup, German version
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up VAT reports in the German version
 
-Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[prod_short](../../includes/prod_short.md)], you need to set up report parameters.  
+> [!NOTE]
+> This article previously described a dedicated **VAT Report** page with fields such as **Trade Type**, **EU Goods/Services**, and a **ZIVIT** FastTab. That page doesn't exist for the German version. For Germany, VAT reporting setup is split between the **VAT Statement Names** page, the **Company Information** page, and the ELSTER-specific setup pages, as described in this article.
 
-## Set up a VAT report  
+Before you can declare VAT-VIES tax or create and export sales VAT advance notifications in [!INCLUDE[prod_short](../../includes/prod_short.md)], you must set up company and tax office information, and link a VAT statement to the declaration.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
-1. On the **General** FastTab, select the **Modify Submitted Reports** checkbox to let users modify VAT reports that are submitted to the tax authorities.  
+## Set up company and tax office information
 
-   If the field is left blank, users must create a corrective VAT report instead.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. Fill in the tax office fields, including **Tax Office Name**, **Tax Office Address**, **Tax Office City**, **Tax Office Post Code**, and **Tax Office Number**.  
+1. In the **VAT Representative** field, enter the contact person for VAT-related information.  
+1. Choose the **OK** button.
 
-1. Select the **Export Cancellation Lines** checkbox if you want to include information about cancellation lines when you export data for the VAT report of EU sales. Learn more in [Correct VAT Reports](how-to-correct-vat-reports.md).  
-1. On the **Numbering** FastTab, specify the number series to be used for standard VAT reports. This will be the default numbering series that is used on any VAT Report that you then create.  
+## Link a VAT statement to the declaration
 
-   Depending on the requirements, you can use the same number series for all VAT reports, or separate number series for each type of VAT report.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the related link.  
+1. On the **VAT Statements** page, in the **Name** field, choose the dropdown arrow.  
+1. On the **VAT Statement Names** page, in the line for the appropriate VAT statement name, select the **Sales VAT Adv. Notification** field to use that statement for sales VAT advance notifications.  
 
-   For example, if your company uses separate number series for standard and corrective VAT reports, this number series is the default number series. Users can select a different number series in the **No.** field when they create corrective reports.  
-
-1. On the **ZIVIT** FastTab, specify information for the fields.  
-1. Choose the **OK** button.  
+For the complete setup of sales VAT advance notifications, including the **Electronic VAT Decl. Setup** page, see [Set up and export sales VAT advance notifications](how-to-set-up-and-export-sales-vat-advance-notifications.md).
 
 ## Related information
 
 - [VAT Reporting](vat-reporting.md)
-- [Create VAT Reports](how-to-create-vat-reports.md)
+- [Set up and export sales VAT advance notifications](how-to-set-up-and-export-sales-vat-advance-notifications.md)
+- [Declare VAT-VIES tax](how-to-declare-vat-vies-tax.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

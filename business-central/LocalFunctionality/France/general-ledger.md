@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: France general ledger, general ledger functionality, French version
-ms.date: 04/14/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # General Ledger in France
@@ -24,7 +25,7 @@ General ledger functionality for France is described in the following articles:
 
 ## Related information
 
-- [France Local Functionality](france-local-functionality.md)  
+- [France local functionality](france-local-functionality.md)  
 - [Understanding the General Ledger and the COA](../../finance-general-ledger.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

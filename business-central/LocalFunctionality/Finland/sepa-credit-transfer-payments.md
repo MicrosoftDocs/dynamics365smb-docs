@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Single Euro Payments Area, SEPA, credit transfer files, vendor payments
-ms.date: 02/13/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # SEPA credit transfer payments in the Finnish version
@@ -16,7 +17,7 @@ ms.reviewer: v-soumramani
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Finnish enhancements to allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks. A SEPA credit transfer is a payment that is transferred according to the file format specified by the European Payments Commission.  
 
 > [!NOTE]
-> Users can use new SEPA formats. To do this, the user needs to use a new code unit *13413* "Exp. SEPA CT pain.001.001.09" and report *13413* "Exp. SEPA CT pain.001.001.09" that can export files in a new format.  
+> You can also export payments in the newer pain.001.001.09 format by using `codeunit 13413 "Exp. SEPA CT pain.001.001.09"` and its related `report 13413 "Exp. SEPA CT pain.001.001.09"`.  
 
 ## Related information
 

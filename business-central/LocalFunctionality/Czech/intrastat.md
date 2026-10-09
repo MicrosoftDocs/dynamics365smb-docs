@@ -3,15 +3,18 @@ title: Czech local functionality - Intrastat
 description: Learn about local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables, and other features.
 author: ACMartinKunes 
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 06/05/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
 ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
+ai-usage: ai-assisted
 ---
 
 # Intrastat in the Czech version
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 The standard Intrastat feature doesn't transfer all and only valid transactions into the Intrastat journal. The result is a lot of manual work to exclude and include excess and missing transactions, which often cause errors. According to the requirements of the Czech Republic, the standard Intrastat feature needs the following improvements:
 
@@ -99,8 +102,9 @@ Export use object for export based on setup in Stat. Reporting Setup or Registra
 
 ## Related information
 
-- [Czech Local Functionality](czech-local-functionality.md)  
-- [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
+- [Czech local functionality](czech-local-functionality.md)
+- [Czech Intrastat reporting](ui-extensions-intrastat-localization-cz.md)
+- [Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md)
 - [Finance](finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

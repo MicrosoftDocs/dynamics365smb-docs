@@ -1,15 +1,16 @@
 ---
 title: Functional Currency in the Czech version
 description: Learn about functional currency, its legal basis in Czechia, and how it's supported in Business Central for accounting and VAT reporting.
-author: v-pejano
-ms.author: v-pejano
-ms.reviewer: v-soumramani
+author: bholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.search.keywords: CZ, Czech, Currency, Finance, Accounting, Functional Currency, Exchange Rates
 ms.topic: article
-ms.date: 09/29/2025
+ms.date: 10/08/2026
 ms.search.form: 118
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Functional currency in the Czech version
@@ -25,8 +26,8 @@ If the company decides to implement accounting in a foreign currency, then for o
 - Export of the VAT statement
 - Export of VAT control report
 - Export of the VIES Declaration
-- Printing the VAT statement (Report 11769)
-- Printing of the Recording Obligation (Basis for VAT) and List of Tax Documents (Report 11756)
+- Printing the VAT statement (Report 12)
+- Printing of the Recording Obligation (Basis for VAT) (Report 11757) and List of Tax Documents (Report 11756)
 - Test report of the VAT Control Report (Report 31103)
 - Test report of the VIES Declaration (Report 31064)
 

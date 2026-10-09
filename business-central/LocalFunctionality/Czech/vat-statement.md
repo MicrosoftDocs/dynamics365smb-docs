@@ -2,12 +2,13 @@
 title: Czech local functionality - VAT statement
 description: Describes enhancements available in the Czech VAT Statement report.
 author: v-makune
-ms-service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 06/09/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # VAT statement in the Czech version
@@ -17,7 +18,7 @@ The VAT Statement report contains many improvements, which enable the user to:
 - Add Stat. Reporting Setup with general setup for VAT reporting.
 - Add two new operation rows (Row Division and Row Multiplication) in the **Type** field.
 - Add setup for VAT from advances.
-- Filter the **VAT Entries** selection for the VAT statement line by the **EU Triangular Trade** field. This is required, as EU (European Union) triangular trade (middle person – one debtor) must be reported in separate rows.
+- Filter the **VAT Entries** selection for the VAT statement line by the **EU 3-Party Intermed. Role** field. This is required, as EU (European Union) triangular trade (middle person – one debtor) must be reported in separate rows.
 - Print the VAT Statement report with a new option to round off calculated amounts in the VAT statement to the nearest whole value.
 - Filter data based on VAT date using VAT periods.
 - Filter data for the posted VAT statement of later date.

@@ -3,13 +3,14 @@ title: Digital audits (GoBD/GDPdU)
 description: Export data according to the digital audit process (GoBD/GDPdU) based on German tax law.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: data export, digital audit process, GoBD, GDPdU, German tax law, German version
 ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
-ms.date: 05/04/2024
+ms.date: 10/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Process for digital audit (GoBD/GDPdU)

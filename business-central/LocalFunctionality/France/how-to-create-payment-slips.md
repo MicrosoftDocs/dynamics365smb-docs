@@ -1,28 +1,28 @@
 ---
 title: Create Payment Slips [FR]
-description: Learn ho to create payments slips to manage vendor and customer payments in the French version of Business Central.
+description: Learn how to create payment slips to manage vendor and customer payments in the French version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: create payment slips, vendor paymnt slip, French version
+ms.search.keywords: create payment slips, vendor payment slip, French version
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
-ms.date: 04/15/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Create payment slips
 
-You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. Learn more in [Set Up Payment Classes](how-to-set-up-payment-classes.md).  
+You can create payment slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. Learn more in [Set up payment classes](how-to-set-up-payment-classes.md).  
 
 The following procedure describes how to create payment slips for vendor payments, but the same steps also apply to creating payment slips for customer payments.  
 
 ## Create a payment slip for vendors  
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slips**, and then choose the relevant link.  
-1. Choose the **New** action.  
-1. On the **Payment Slip** page, choose a field to open the **Payment Class List** page.  
+1. Choose the **New** action. The **Payment Class List** page opens.  
 1. Select a payment class, and then choose the **OK** button.  
 1. On the **General** FastTab, fill in the fields as described in the following table.  
 
@@ -40,12 +40,12 @@ The following procedure describes how to create payment slips for vendor payment
     |**Account Type**|The account type to which the payment line is posted.|  
     |**Account No.**|The unique identification number for the account to which the entry is posted.|  
 
-1. In the **Bank Account Code** field, select a bank name from the list, and then choose **Advanced**.  
-1. Optionally, for SEPA, on the **Select – Vendor Account List** page, and then choose the **Edit** action.  
+1. In the **Bank Account Code** field, select a bank account from the list.  
+1. Optionally, for SEPA, select the vendor's bank account, and then choose the **Edit** action on the **Vendor Bank Account List** page.  
 
    Fill in the following fields if needed:  
 
-    - **Country/Region Code**. In the list, choose **Advanced**, and make sure that the **SEPA Allowed** check box is selected for the code that you select.  
+    - **Country/Region Code**: Choose **Advanced**, and make sure that the **SEPA Allowed** checkbox is selected for the code that you select.  
     - **Swift Code**  
     - **IBAN**  
 
@@ -79,10 +79,10 @@ The following procedure describes how to create payment slips for vendor payment
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Source Code**|The source code for the payment slip.|  
-    |**Department Code**|The relevant dimension code.|  
-    |**Project Code**|The relevant dimension code.|  
-    |**Account Type**|The account type to which or from which the payments is transferred.|  
-    |**Account No.**|The account number to which or from which the payments is transferred.|  
+    |**Shortcut Dimension 1 Code**|The dimension value code that the payment header will be associated with.|  
+    |**Shortcut Dimension 2 Code**|The dimension value code associated with the payment header.|  
+    |**Account Type**|The account type to which or from which the payments are transferred.|  
+    |**Account No.**|The account number to which or from which the payments are transferred.|  
 
 1. Optionally, for SEPA, in the **Account No.** field, choose the **Advanced** option.  
 
@@ -94,16 +94,15 @@ The following procedure describes how to create payment slips for vendor payment
         - **Transfer**  FastTab  
         - **Swift Code**  
         - **IBAN**  
-        - **RIB** FastTab  
-        - **Payment Export Format**: SEPA  
-        - **SEPA CT Msg. ID No. Series**: Bank  
+        - **R.I.B** FastTab  
+        - **Payment Export Format**: The bank export/import setup code to use for the SEPA file, for example one configured for SEPA credit transfer or SEPA direct debit.
 
 1. Choose the **OK** button.  
 
 After you create a payment slip, you can generate payment files and send them to the bank electronically.  
 
 > [!NOTE]  
-> A payment file can be created if the payment slip displays **File** for the **Action Type** field.
+> You can only generate a payment file if the payment step for the payment slip's current status has its **Action Type** field set to **File**.
 
 ## Create a payment file  
 
@@ -118,13 +117,13 @@ After you create a payment slip, you can generate payment files and send them to
 
 ## Related information
 
-- [Payment Management](payment-management.md)   
-- [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
-- [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
-- [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
-- [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
-- [Post Payment Slips](how-to-post-payment-slips.md)   
-- [Archive Payment Slips](how-to-archive-payment-slips.md)   
-- [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)
+- [Payment management](payment-management.md)
+- [Set up payment classes](how-to-set-up-payment-classes.md)
+- [Set up payment statuses for a payment class](how-to-set-up-payment-classes.md#set-up-payment-statuses-for-a-payment-class)
+- [Set up payment steps for a payment class](how-to-set-up-payment-classes.md#set-up-payment-steps-for-a-payment-class)
+- [Set up payment addresses](how-to-set-up-payment-addresses.md)
+- [Post payment slips](how-to-post-payment-slips.md)
+- [Archive payment slips](how-to-archive-payment-slips.md)
+- [Export or import payment management setup parameters](how-to-export-or-import-payment-management-setup-parameters.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

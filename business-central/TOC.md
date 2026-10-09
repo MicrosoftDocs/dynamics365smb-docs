@@ -1720,7 +1720,7 @@ ms.service: dynamics-365-business-central
 ##### [Process for digital audits](LocalFunctionality/Germany/process-for-digital-audits.md)
 ##### [Set up data exports for digital audits](LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits.md)
 ##### [Export data for a digital audit](LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit.md)
-##### [GDPDU filter examples](LocalFunctionality/Germany/gdpdu-filter-examples.md)
+##### [GoBD filter examples](LocalFunctionality/Germany/gdpdu-filter-examples.md)
 ##### [Upgrade a .DTD definition file](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
 ##### [Walkthrough: Export data for a digital audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
 #### Purchasing

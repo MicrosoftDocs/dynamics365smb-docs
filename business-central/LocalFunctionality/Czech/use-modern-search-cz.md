@@ -2,13 +2,14 @@
 title: Use modern search in the Czech version
 description: This feature enables fast, precise data access with modern search in the Czech localization. Switch between legacy and optimized full-text search for better user satisfaction and productivity.
 author: v-makune
-ms.reviewer: v-pejano
-ms.author: v-jiurxo
-ms-service: dynamics-365-business-central
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: concept-article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 09/17/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 # Modern search in the Czech version
 

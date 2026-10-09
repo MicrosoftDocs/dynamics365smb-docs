@@ -2,12 +2,13 @@
 title: Czech local functionality - Sales correcting documents [CZ] 
 description: Learn about local functionality for handling sales correcting documents, including different types of sales credit memos, in the Czech version of Business Central.
 author: v-makune
-ms-service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Payables, Localization, CZ
-ms.date: 06/06/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Sales correcting documents in the Czech version

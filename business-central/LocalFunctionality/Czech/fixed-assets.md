@@ -4,10 +4,11 @@ description: Describes Czech local functionality for fixed assets, including tax
 author: ACMartinKunes
 ms.topic: article
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
-ms.date: 06/03/2025
-ms.reviewer: v-soumramani
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Fixed assets in the Czech version
@@ -18,9 +19,9 @@ The Fixed Assets Tax Depreciation feature calculates and posts tax depreciation 
 
 Each long-term tangible fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters used for calculating depreciation. The following depreciation methods are provided for long-term tangible fixed asset (FA) depreciations for tax purposes:
 
-- Regular – This method is based on the acquisition value and percentage (straight line).
-- Accelerated – This method is based on the book value and coefficient (declining balance).
-- Regular based on the acquisition value and percentage (straight-line intangible).
+- **Straight-Line**: This method is based on the acquisition value and percentage.
+- **Declining-Balance**: This method is based on the book value and coefficient.
+- **Straight-Line Intangible**: This method is based on the acquisition value and percentage, for intangible fixed assets.
 
 Each long-term fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters that are used for calculating depreciation.
 
@@ -41,13 +42,13 @@ The list of depreciation methods for which the discontinuing of depreciation is 
 - Straight line for intangible fixed assets
 - Enhanced depreciation methods and straight-line methods to pick up the threads of the depreciation schedule end after the break depreciation period.  
 
-Users can open the FA depreciation book and fill in the **Depreciation Interrupt** and **Depreciation Interrupt up to** fields. The **Keep Depr. Ending Date** field defines if you want to maintain the depreciation schedule.
+Users can open the FA depreciation book and fill in the **Depreciations Interrupted up to** field. The **Keep Depreciation Ending Date** field defines if you want to maintain the depreciation schedule.
 
 ## Two-step fixed asset acquisition
 
 There are two steps to accomplish when acquiring a fixed asset in Czech accounting. When a company gets an invoice for a fixed asset acquisition, it must be posted. Since the initial use of the fixed asset, the used fixed asset is posted. Both the acquisition and put-to-use steps are required and connected with G/L entries. Fixed assets aren't depreciated until they're put to use.
 
-For this process, use the **Custom 2** fixed asset posting type for the first step (acquisition) and **Acquisition** fixed asset posting type for the second step (put to use). Select the **Fixed Asset Acquisition as Custom2** check box on the **Fixed Asset Setup** page to start using this feature.
+For this process, use the **Custom 2** fixed asset posting type for the first step (acquisition) and **Acquisition** fixed asset posting type for the second step (put to use). Select the **FA Acquisition As Custom 2** check box on the **Fixed Asset Setup** page to start using this feature.
 
 The value **Custom 2** is renamed in Czech language from "Vlastní 2" to "Pořízení" for correct FA purchase identification and better accountant understanding.
 
@@ -57,7 +58,7 @@ Czech accounting standards require specific posting when a fixed asset is being 
 
 The fixed asset remains unchanged even after it's put to use. When the fixed asset is depreciated periodically, a corresponding sum is debited from the acquired cost at the time of disposal. The balance amount is the current fixed asset value.
 
-On the **Depreciation Book** page, select the **Corresponding G/L Entries on Disposal** check box to make this feature operational. Also select the **Corresponding FA Entries on Disposal** check box to retain the correspondence between G/L entries and FA entries.  
+On the **Depreciation Book** page, select the **Corresp. G/L Entries on Disposal** check box to make this feature operational. Also select the **Corresp. FA Entries on Disposal** check box to retain the correspondence between G/L entries and FA entries.  
 
 ## Different types of disposal and maintenance
 
@@ -81,36 +82,34 @@ This feature provides users with the ability to track changes to the location an
 With the addition of this feature, users are able to control location history of the fixed asset and the history of employees responsible for the fixed asset.
 This feature also provides reports for company verification where a specific fixed asset is/was located or to whom it is/was assigned.
 
-To enable FA Location and responsible-employee tracking (FA history), user must first enable this feature by selecting the **Fixed Assets History** check box on the **Fixed Asset Setup** page. User can then start to track changes in fixed assets' location and responsible employees. The changes are stored in the **FA History Entry** table.
+To enable FA Location and responsible-employee tracking (FA history), user must first enable this feature by selecting the **Fixed Asset History** check box on the **Fixed Asset Setup** page. User can then start to track changes in fixed assets' location and responsible employees. The changes are stored in the **FA History Entry** table.
 
 Items of fixed assets:
 - Save changes in FA evidence
 - Include time and user stamp changes
 
 New reports for transactions and history documentation added:
-- FA Assignment/Discharge
-- FA History
+- **FA Assignment/Discard**
+- **Fixed Asset History**
 
 ## Fixed assets reporting
 
 In order to comply with the requirements in legislation reporting features and local reporting practices of Czech companies, this feature provides the following reports:
 
-- **Fixed Asset Card** – combines data from the standard **FA List** and **FA Details** reports, grouping details per FA depreciation book.
-- **FA Receipt** – is printed when a particular fixed asset is received to be put to use. Such document must be signed by company officials.
-- **FA Disposal** – is printed when a particular fixed asset is disposed of or damaged.
-- **FA – Analysis G/L Account** – used to compare it with G/L account.
-- **Fixed Asset – Analysis 2** – users can define 3 columns for date, 4 columns for amount field, group totals, and export to Excel.
-- **Fixed Asset – Analys. Dep. Book** – user can choose 2 depreciation books for comparison.
-- **FA Phys. Inventory List** – companies are obliged to reconcile the physical state of fixed assets and book value in order to prepare the financial statement.  
-- **FA Inventory List** – prints the fixed assets inventory per responsible employee or location code.
+- **Fixed Asset Card**: combines data from the standard **FA List** and **FA Details** reports, grouping details per FA depreciation book.
+- **Fixed Asset Acquisition**: is printed when a particular fixed asset is received to be put to use. Such document must be signed by company officials.
+- **Fixed Asset Disposal**: is printed when a particular fixed asset is disposed of or damaged.
+- **FA - Analysis G/L Account**: used to compare it with G/L account.
+- **Fixed Asset - Analysis**: users can define 3 columns for date, 4 columns for amount field, group totals, and export to Excel.
+- **Fixed Asset - Depreciation Book Analysis**: user can choose 2 depreciation books for comparison.
+- **FA Physical Inventory List**: companies are obliged to reconcile the physical state of fixed assets and book value in order to prepare the financial statement. The report can also be grouped by FA location code or responsible employee.
 
-The following standard reports are adjusted for the Czech Republic (new Group total, etc.):
-- **Fixed Asset – Analysis**
-- **Fixed Asset – Book Value 01**
-- **Fixed Asset – Book Value 02**
-- **Fixed Asset – Projected Value**
-- **Fixed Asset – G/L Analysis**
-- **Maintenance – Analysis**
+The following additional reports are provided for the Czech Republic (new Group total, etc.):
+- **Fixed Asset Book Value 01**
+- **Fixed Asset Book Value 02**
+- **Fixed Asset Projected Value**
+- **Fixed Asset G/L Analysis**
+- **Fixed Asset Maintenance Analysis**
 
 ## Related information
 

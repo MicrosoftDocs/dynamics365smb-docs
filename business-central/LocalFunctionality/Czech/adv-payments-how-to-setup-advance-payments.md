@@ -1,14 +1,15 @@
 ---
 title: Set up advance payments in the Czech version  
 description: Learn how to set up advance payments in the Czech version of Business Central.  
-author: v-pejano
-ms.reviewer: v-soumramani  
-ms.author: v-pejano  
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, Localization, VAT posting, advance letter templates
-ms.date: 09/29/2025  
+ms.date: 10/08/2026  
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Set up advance payments in the Czech version
@@ -38,8 +39,8 @@ To configure an advance letter template, follow these steps:
     - **Advance Letter G/L Account** – G/L account used to track advance payments (advance balances).
     - **VAT Bus. Posting Group** – Default VAT business posting group for the template. If empty, the group from the customer or vendor is used. The setting in the template takes precedence.
     - **Automatic Post VAT Document** – Indicates whether to automatically post the VAT on the advance when the advance is applied in a final invoice. For **sales**, this setting also controls automatic posting of the VAT document for the advance payment. For **purchases**, the VAT document must always be posted manually. The value can be changed per document.
-    - **Automatic Post Non-Deductible VAT** – Indicates whether to automatically post nondeductible VAT.
-    - **Post VAT document for Reverse charge** – Indicates whether post VAT document for reverse charge.
+    - **Post VAT Document for Reverse Charge** – Indicates whether to post the VAT document for reverse charge.
+    - **Ext. Doc. No. (VAT Document)** – Specifies how to populate the **External Document No.** field when you post sales advance letter VAT documents.
 3. After completing the setup, you can close the page.
 
 ## VAT posting setup for advances
@@ -52,11 +53,12 @@ To set up VAT posting for advance payments, follow these steps:
 
 1. Choose the ![Lightbulb icon](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then select the related link.
 2. Select the VAT posting group combination you want to configure, and choose **Edit**.
-3. On the **Advance Payment** FastTab, fill in the following fields:
+3. On the **Advance Payments** FastTab, fill in the following fields:
     - **Sales Advance Letter Account** / **Purchase Advance Letter Account** – G/L account for the advance base amount.
     - **Sales Advance Letter VAT Account** / **Purchase Advance Letter VAT Account** – G/L account for the advance VAT amount.
+    - **Purchase Advance Letter Non-Deductible VAT Account** – G/L account for posting the part of the purchase advance VAT that isn't applied to the purchase advance.
 
-    The **VAT Document** or **Credit Memo** post to these two accounts.  
+    The **VAT Document** or **Credit Memo** post to these accounts.  
     The **Advance Letter Account** might or might not be the same as the **Advance Letter G/L Account** defined in the template. The **Advance Letter VAT Account** is used exclusively for VAT tracking.
 4. After finishing the setup, close the page.
 

@@ -1,13 +1,14 @@
 ---
 title:  Check posting group change in Customer, Vendor, Item, Bank Account [CZ]
 description: Learn how the Czech version of Business Central checks for changes to posting groups on customer, vendor, item, and bank account cards, ensuring compliance with local requirements.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/02/2025 
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Check for requests to change posting group in the Czech version

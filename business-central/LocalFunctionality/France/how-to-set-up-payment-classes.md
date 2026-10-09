@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment classes, payment steps, payment status, operation types, exchange bills, bills of exchange, ledger information, French version
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
-ms.date: 04/16/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up payment classes
@@ -59,7 +60,7 @@ Next, you must define steps for each payment class. The payment steps define how
 >
 > To make a step optional and potentially repeatable, set the previous status to be equal to the next status.
 >
-> The **Action Type**, **Export Type**, and **Export No.** fields play together. For example, for SEPA credit transfer files, set **Export Type** to **XMLport**, and then set the **Export No.** field to 1000. For SEPA direct debit files, specify **XMLport**, and then set the **Export No.** field to 1010.
+> The **Action Type**, **Export Type**, and **Export No.** fields play together. For example, for SEPA credit transfer or direct debit files, set **Export Type** to **XMLport**, and then in the **Export No.** field, enter the ID of the SEPA XMLport object to use, such as one of the `SEPA CT pain.001.001.09` or `SEPA DD pain.008.001.08` XMLports.
 
 If the action type of the payment step is **Ledger**, you must set up extra ledger information for the payment step.  
 
@@ -71,11 +72,11 @@ If the action type of the payment step is **Ledger**, you must set up extra ledg
 
 ## Related information
 
-- [Payment Management](payment-management.md)  
-- [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)  
-- [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)  
-- [Create Payment Slips](how-to-create-payment-slips.md)  
-- [Post Payment Slips](how-to-post-payment-slips.md)  
-- [Archive Payment Slips](how-to-archive-payment-slips.md)
+- [Payment management](payment-management.md)
+- [Set up payment addresses](how-to-set-up-payment-addresses.md)
+- [Export or import payment management setup parameters](how-to-export-or-import-payment-management-setup-parameters.md)
+- [Create payment slips](how-to-create-payment-slips.md)
+- [Post payment slips](how-to-post-payment-slips.md)
+- [Archive payment slips](how-to-archive-payment-slips.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

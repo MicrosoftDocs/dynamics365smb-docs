@@ -1,14 +1,15 @@
 ---
 title: Create an advance letter from an order  
 description: This article describes how to create an advance letter from a sales or purchase order in the Czech version.  
-author: v-pejano  
-ms.reviewer: v-pejano  
-ms.author: v-pejano  
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, Localization  
-ms.date: 09/17/2025  
+ms.date: 10/08/2026  
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Create an advance letter from an order

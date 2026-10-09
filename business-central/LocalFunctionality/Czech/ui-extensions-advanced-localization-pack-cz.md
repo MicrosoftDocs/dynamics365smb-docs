@@ -1,12 +1,13 @@
 ---
 title: Advanced Localization Pack for Czech (Extension) [CZ]
 description: Learn about the features and functionality provided by the Advanced Localization Pack for Czech extension.
-author: v-pejano
+author: bholtorf
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 10/08/2025
-ms.reviewer: v-soumramani
-ms.author: v-jiurxo
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Advanced localization pack for Czech (extension) in the Czech version
@@ -32,3 +33,5 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 - [Czech Local Functionality](czech-local-functionality.md)  
 - [Finance](../../finance.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: upgrade-and-migration-article
 ms.devlang: al
 ms.search.keywords: dtd file validation, import dtd file, resolve upgrade issues, German version
-ms.date: 03/12/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Upgrade a .DTD definition file for digital audits in the German version

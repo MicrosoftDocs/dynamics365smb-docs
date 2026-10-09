@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: delivery reminders, overdue purchases, delivery reminder terms, German version
 ms.search.form: 5005270, 5005272
-ms.date: 03/10/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Assign delivery reminder codes to vendors in the German version

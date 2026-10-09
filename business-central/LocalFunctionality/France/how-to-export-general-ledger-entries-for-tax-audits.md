@@ -5,13 +5,17 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: tax audit, audit file, tax audit file, export general ledger entries, French version
-ms.date: 04/15/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Export general ledger entries for tax audits in the French version
+
+> [!NOTE]
+> This article describes the **Include Opening Balances** behavior for the French FEC audit file. To generate the file, use the **Audit File Export Documents** page, as described in [Export general ledger entries for tax audits](export-french-audit-file.md).
 
 In France, companies must provide corporate tax and VAT information, such as transactions and general ledger postings, for audits in a file format that is specified by tax authorities. In [!INCLUDE[prod_short](../../includes/prod_short.md)], this information is recorded in a standard audit file that is designed to provide information about account types that include posted entries.
 
@@ -32,10 +36,10 @@ If you don't close your fiscal year or don't run the **Close Year** action befor
 > Before exporting general ledger entries, make sure you have marked G/L Accounts to be detailed when exporting opening balances. This is usually a requirement for bank, customer, and vendor G/L Accounts. This is done by enabling the checkbox in the field **Detailed Balance** on the **G/L Account Card** page.
 
 ## Export general ledger entries to a text file for a tax audit
->>>>>>> main
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export G/L Entries – Tax Audit**, and then choose the relevant link.  
-1. On the **Export G/L Entries – Tax Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Audit File Export Documents**, and then select the related link.
+1. Select **New**, and then in the **Audit File Export Format** field, select **FEC**.
+1. On the **FEC** FastTab, fill in the fields as described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -43,11 +47,11 @@ If you don't close your fiscal year or don't run the **Close Year** action befor
     |**Ending Date**|Enter the date to use as the ending date for the time period to be covered by the audit.|  
     |**Include Opening Balances**|Select if you want to include opening balances in the audit report file. The balances are calculated as of the date before the first date of the period covered by the report.|  
 
-1. Choose the **OK** button to export the file.  
+1. Select **Download as File** to export the file.  
 
-When you create the report, [!INCLUDE[prod_short](../../includes/prod_short.md)] sorts the information in the report by the **No.** and **Creation Date** fields in the general ledger register.  
+When you create the file, [!INCLUDE[prod_short](../../includes/prod_short.md)] sorts the information by the **No.** and **Creation Date** fields in the general ledger register.  
 
-The report has the following name: `<taxpayername>FEC<YYYYMMDD>`  
+The file has the following name: `<taxpayername>FEC<YYYYMMDD>`  
 
 ## Related information
 

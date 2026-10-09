@@ -1,13 +1,14 @@
 ---
-title: Advance Payments activation and upgrade
+title: Advance control reports in the Czech version
 description: This section describes the basic control reports for Advance Payments in the Czech version.
-author: v-pejano
-ms.reviewer: v-pejano
-ms.author: v-pejano
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.topic: article
 ms.search.keywords: Czech, Advance Payments, Localization
-ms.date: 09/17/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 
 ---
 

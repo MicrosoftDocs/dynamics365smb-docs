@@ -4,10 +4,11 @@ description: Learn about Czech-specific functionality for advance payments and i
 author: ACMartinKunes
 ms.topic: article
 ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance, CZ, Cash, tax documents, tax credit memo, life cycle, deduction of advance, linking tool, factboxes, internal documents, output documents printout, Czech local functionality, Czech version
-ms.date: 06/02/2025
-ms.reviewer: v-soumramani
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Advance payments and invoices in the Czech version
@@ -25,13 +26,12 @@ The Advance Invoices and Payments feature is used to generate invoices and to ma
 
 ## Life cycle of advance invoice
 
-An advance invoice has its own life cycle, which is defined by states:
+An advance invoice has its own life cycle, which is defined by its **Status** field:
 
-- **Open** - an advance invoice can be edited.
-- **Prepayment** - payment of advance invoice is expected.
-- **Invoice preparation** - a tax receipt for the received/issued payment is expected.
-- **Preparation** of the final invoice - the advance invoice is ready to be drawn.
-- **Closed** - final status after the advance invoice has been exhausted.
+- **New** - the advance invoice can be edited.
+- **To Pay** - the advance invoice is released and ready for settlement; payment is expected.
+- **To Use** - the advance invoice is paid and ready to be applied to a final document.
+- **Closed** - final status after the advance invoice has been fully applied or manually closed.
 
 ## Advance payments
 
@@ -63,7 +63,7 @@ An advance invoice has its own life cycle, which is defined by states:
 - Calculation of VAT on advance invoices based on the Value Added Tax Act (§ 37a, § 92).
 - The new module also works with VAT in the payer registration mode in another EU country/region.
 
-## Deduction of Advance
+## Deduction of advance
 
 - Deduction of advance payments and already paid or claimed VAT from final invoices.
 - Deduction is done when posting final invoice proportionally.
@@ -83,37 +83,33 @@ The tool provides a choice of different ways to link the lines of the final docu
 - Linking by amounts remaining or billing the final document.
 - Linking based on VAT rates.
 
-## FactBoxes - Customer/Vendor statistics
+## FactBoxes - customer/vendor statistics
 
-The customer and vendor card statistical information windows were supplemented with information about advances:
-
-- Invoiced Amount of Advance
-- Advances - Open
-- Advances - Prepare Payments
-- Advances - Preparing an Invoice
-- Advances - Preparing the end Invoices
+The customer and vendor card statistical information windows were supplemented with an **Advances** field that shows the number of open advance letters (status **To Pay** or **To Use**) for the customer or vendor. Selecting the field opens the list of those advance letters.
 
 ## Internal and output documents printout
 
 A set of documents are created that take into account Czech legislation and practices.
 
-Output Documents:
+Output documents (printed for the customer or vendor):
 
-- Advance Invoice
-- VAT Document to Received Payment
-- VAT Document to Tax Credit Memo
-- Sale Invoice
+- Sales - Advance Letter
+- Purchase - Advance Letter
+- Sales - Advance VAT Document
+- Purchase - Advance VAT Document
+- Sales - Invoice with Advance
+- Purchase - Invoice with Advance
 
-Internal Documents:
+Internal documents (control reports):
 
-- Sales Advance Letter List
-- Purch. Advance Letter List
-- VAT List on Purch. Adv. Letter
-- VAT List on Sales Adv. Letter
+- Sales Advance Letters
+- Purchase Advance Letters
+- Sales Advance Letters VAT
+- Purchase Advance Letters VAT
 
 ## Related information
 
 - [Czech Local Functionality](czech-local-functionality.md)  
-- [Finance](finance.md)
+- [Finance](../../finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

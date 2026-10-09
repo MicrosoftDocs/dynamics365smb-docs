@@ -9,7 +9,7 @@ ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167
 ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ai-usage: ai-assisted
 ---
 

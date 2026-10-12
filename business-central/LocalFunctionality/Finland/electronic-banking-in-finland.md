@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: electronic banking, customer payments, vendor payments, reference number
 ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
-ms.date: 02/12/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Electronic banking in Finland
@@ -32,7 +33,7 @@ A reference number is automatically created when an invoice is posted or when an
 
 To send electronic bank payments to vendors, you can export domestic or foreign vendor payments into a transfer file that can be sent to the bank. The following steps show how to export vendor payments.  
 
-1. Use the **Bank Payments to Send** page to select the vendors for which you want to create payment files.  
+1. Use the **Bank Payments to send** page to select the vendors for which you want to create payment files.  
 1. Enter payment information for each transaction in the payment journal or use **Suggest Vendor Payments** to create suggested payments.  
 1. Generate and preview the payment report.  
 1. Create a transfer file for domestic or foreign vendor payments.  

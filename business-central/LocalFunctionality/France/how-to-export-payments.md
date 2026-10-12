@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment management module, payment export, French version
-ms.date: 04/15/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Export payments
@@ -25,11 +26,11 @@ The Payment Management module allows you to export your payments electronically 
 1. In the **Action Type** field, select the **File** option, and then in the **Export Type** field, select the **Report** or the **XMLport** action.  
 1. In the **Export No.** field, specify the object that will export the payments.  
 
-The next time you make a payment that is based on this payment step, the payments will be exported to a file as specified.  
+The next time you make a payment that's based on this payment step, the payments will be exported to a file as specified.  
 
 ## Related information
 
-- [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
-- [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)
+- [Set up payment classes](how-to-set-up-payment-classes.md)  
+- [Set up payment steps for a payment class](how-to-set-up-payment-classes.md#set-up-payment-steps-for-a-payment-class)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

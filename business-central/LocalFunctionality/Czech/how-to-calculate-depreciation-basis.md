@@ -1,13 +1,14 @@
 ---
 title: Calculation of depreciation basis in fixed assets [CZ]
 description: Explains updates to depreciation calculations using the Czech declining-balance method.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 06/03/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Calculation of depreciation basis in fixed assets in the Czech version

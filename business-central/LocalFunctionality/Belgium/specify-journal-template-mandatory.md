@@ -8,7 +8,7 @@ ms.search.keywords: journal templates, Belgian version
 ms.date: 10/08/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ai-usage: ai-assisted
 ---
 

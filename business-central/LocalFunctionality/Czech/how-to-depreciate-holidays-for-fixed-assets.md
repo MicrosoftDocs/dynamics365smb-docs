@@ -1,13 +1,14 @@
 ---
 title: Czech local functionality - Fixed assets depreciation holiday
 description: This feature allows users to discontinue depreciation for specific fixed assets during defined periods.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 06/03/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Fixed assets depreciation holidays in the Czech version
@@ -21,7 +22,7 @@ The list of depreciation methods for which the discontinuing of depreciation is 
 - Straight line for intangible fixed assets
 - Enhanced depreciation methods and straight-line methods to pick up the threads of the depreciation schedule end after the break depreciation period.  
 
-Users can open the FA depreciation book and fill in the **Depreciation Interrupt** and **Depreciation Interrupt up to** fields. The **Keep Depr. Ending Date** field defines if you want to maintain the depreciation schedule.
+Users can open the FA depreciation book and fill in the **Depreciations Interrupted up to** field. The **Keep Depreciation Ending Date** field defines if you want to maintain the depreciation schedule.
 
 ## Related information
 

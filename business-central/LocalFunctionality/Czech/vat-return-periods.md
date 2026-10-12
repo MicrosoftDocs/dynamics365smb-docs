@@ -1,15 +1,16 @@
 ---
 title: VAT Return Periods in the Czech version
-description: Learn about VAT Return Periods in Czechia, and how it's used in Business Central for VAT reporting.
+description: Learn about VAT return periods in Czechia, and how they're used in Business Central for VAT reporting.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.search.keywords: CZ, Czech, Currency, Finance, Accounting, VAT Return Periods
 ms.topic: concept-article
-ms.date: 03/30/2026
+ms.date: 10/08/2026
 ms.search.form: 118,
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Align VAT periods with Microsoft standard in the Czech version
@@ -20,7 +21,7 @@ The feature consolidates the Czech localization functionality, VAT Period, into 
 
 - **Data Migration**: Existing VAT Period records are migrated to VAT Return Period during the upgrade.
 - **Synchronization**: Bidirectional synchronization between VAT Period and VAT Return Period ensures data consistency.
-- **New Report**: Create VAT Return Periods report for generating periods with parameters (start date, number of periods, length, and due date).
+- **New Report**: `Create VAT Return Period` report for generating periods with parameters (start date, number of periods, length, and due date).
 - **Report Updates**: Reports such as VAT Statement Preparation, Calculate and Post VAT Settlement, and Export VAT Statement reference VAT Return Period.
 - **Feature Management**: Controlled activation via Feature Management allows testing in sandbox environments before enabling in production.
 

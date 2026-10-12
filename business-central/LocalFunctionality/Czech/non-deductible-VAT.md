@@ -1,13 +1,14 @@
 ---
 title: Non-deductible VAT 
 description: Learn about the features for using non-deductible VAT in the Czech version, including the setup, posting principles, and reporting requirements.
-author: v-pejano
+author: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Non-Deductible VAT, Localization
-ms.date: 09/30/2025
-ms.reviewer: v-soumramani
-ms.author: v-jiurxo
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Non-deductible VAT in the Czech version
@@ -175,7 +176,7 @@ The **VAT Control Report** must be submitted in the original document amounts, n
 
 The **Documentation for VAT** report (**Recording obligation**) contains columns with VAT values in original and reduced amounts. The total value of the **Amount (LM)** column is a check on the accounting. The total value of the **Original VAT Amount** column is a check on the VAT report in original amounts.
 
-There's a separate report layout for the **VAT Documents List** report. The layout contains columns with VAT values in original and reduced amounts. The total value of the **Amount (LM)** column is a check on the accounting. The total value of the **Original VAT Amount** column is a check on the VAT report in original amounts.
+There's a separate report layout for the **VAT Documents** report. The layout contains columns with VAT values in original and reduced amounts. The total value of the **Amount (LM)** column is a check on the accounting. The total value of the **Original VAT Amount** column is a check on the VAT report in original amounts.
 
 ## VAT settlement coefficient
 

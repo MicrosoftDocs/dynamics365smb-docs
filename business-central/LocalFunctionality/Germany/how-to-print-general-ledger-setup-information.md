@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: G/L setup, G/L setup information, view master data, GDPdU, German version
-ms.date: 03/11/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Print general ledger setup information in the German version

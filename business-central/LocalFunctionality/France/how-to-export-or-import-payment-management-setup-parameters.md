@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: export payment parameters, import payment parameters, payment management setup, payment management parameters, French version
-ms.date: 04/15/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Export or import payment management setup parameters
@@ -20,17 +21,17 @@ You can export or import payment management setup parameters to an external disk
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
 1. On the **Payment Class** page, choose the **Export Parameters** action.  
 
-   To import a parameter, choose the **Import Parameter** action, select the file, and then choose the **Open** button.  
+   To import parameters instead, choose the **Import Parameters** action, select the file, and then choose the **Open** button.  
 
 1. Choose the **Save** button to open the **Save As** page and navigate to the location where the file should be saved.  
 1. Choose the **OK** button.  
 
 ## Related information
 
-- [Payment Management](payment-management.md)  
-- [Set Up Payment Classes](how-to-set-up-payment-classes.md)  
-- [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)  
-- [Create Payment Slips](how-to-create-payment-slips.md)  
-- [Archive Payment Slips](how-to-archive-payment-slips.md)  
+- [Payment management](payment-management.md)  
+- [Set up payment classes](how-to-set-up-payment-classes.md)  
+- [Set up payment addresses](how-to-set-up-payment-addresses.md)  
+- [Create payment slips](how-to-create-payment-slips.md)  
+- [Archive payment slips](how-to-archive-payment-slips.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

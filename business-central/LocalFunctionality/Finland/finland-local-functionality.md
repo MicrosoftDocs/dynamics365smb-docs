@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Finland local functionality
 ms.search.form: 32000006
-ms.date: 12/30/2025
-ms.author: soalex
+ms.date: 10/08/2026
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Finland local functionality

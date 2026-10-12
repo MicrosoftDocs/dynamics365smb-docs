@@ -5,15 +5,16 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: year end closing, close income statement, close income statement batch job, French version
-ms.date: 04/16/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Post the year-end closing entry in the French version
 
-After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
+After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries. If you specified a **Retained Earnings Acc.** on the batch job's **Options** FastTab, the balancing entries to that account are already included in the journal.  
 
 ## Steps to post the year-end closing entry  
 

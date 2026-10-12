@@ -4,18 +4,19 @@ description: Learn how to use local functionality to automatically update curren
 author: ACMartinKunes
 ms.topic: concept-article
 ms.search.keywords: Czech, finance, CZ, Exchange, currency
-ms.date: 06/02/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Updating exchange rates in the Czech version
 
-The company is allowed to automatically update currency exchange rates using the exchange rate service.  
+Companies in the Czech Republic can automatically update currency exchange rates by using an exchange rate service.
 
-These have been improved by the ability to automatically update currency exchange rates from the CNB (Czech National Bank).  
+You can automatically update currency exchange rates from the CNB (Czech National Bank).
 
-The user can define the HTTP service address and other exchange rate update parameters in the exchange rate service settings.
+You can define the HTTP service address and other exchange rate update parameters in the exchange rate service settings.
 
 ## Related information
 

@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: configure payment addresses, payment addresses, French version
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
-ms.date: 04/16/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up payment addresses in the French version
@@ -39,11 +40,11 @@ The following procedure describes how to set up a payment address for a vendor, 
 
 ## Related information
 
-- [Payment Management](payment-management.md)  
-- [Set Up Payment Classes](how-to-set-up-payment-classes.md)  
-- [Create Payment Slips](how-to-create-payment-slips.md)  
-- [Post Payment Slips](how-to-post-payment-slips.md)  
-- [Archive Payment Slips](how-to-archive-payment-slips.md)  
-- [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)  
+- [Payment management](payment-management.md)
+- [Set up payment classes](how-to-set-up-payment-classes.md)
+- [Create payment slips](how-to-create-payment-slips.md)
+- [Post payment slips](how-to-post-payment-slips.md)
+- [Archive payment slips](how-to-archive-payment-slips.md)
+- [Export or import payment management setup parameters](how-to-export-or-import-payment-management-setup-parameters.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Australia local functionality
 description: The following articles describe the local functionality in the Australian version of Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: Australia local functionality, Australian version
 ms.date: 10/08/2026

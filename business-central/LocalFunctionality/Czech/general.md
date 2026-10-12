@@ -4,9 +4,10 @@ description: Learn about the enhanced user setup features and general functional
 author: ACMartinKunes
 ms.topic: article
 ms.search.keywords: Czech, General function, Finance, CZ, Cash
-ms.date: 06/03/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Extended user control in the Czech version
@@ -26,10 +27,15 @@ New functionality on the **User Setup** page in combination with the new **User 
 - Check dimension values allowed for posting (on lines)
 - Check location code allowed for posting separately for quantity increase and quantity decrease (on lines)
 - Check location code allowed for document release separately for quantity increase and quantity decrease (on lines)
-- Check usage of warehouse net change templates at posting in item journals
+- Check the usage of inventory movement templates at posting in item journals
 - Allow posting to closed periods
 - Allow complete job
 - Enable the ability to unapply items
+- Allow VAT date changing
+- Allow original VAT date changing
+- Allow external document number changing
+
+The **User Setup** page groups all links to extended user control functionality under a **User Check** action group. This group, and the related fields on the page, only appear when the **User Checks Allowed** field is turned on in the General Ledger Setup.
 
 ## Related information
 

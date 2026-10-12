@@ -65,7 +65,7 @@ To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Master Data Management Setup**, and then choose the related link.
 1. Choose the **Synchronization Tables** action.
-1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
+1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
 > The **Table Filter** field is helpful for controlling what to synchronize for a table. You can set up filters to synchronize only when certain conditions are met. For example, you can add filters that specify that you synchronize only vendors in a certain region. Or, customers that use a certain currency.
@@ -73,7 +73,7 @@ To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of
 > If the subsidiary already has data in their tables, another good way to set criteria for synchronization is to set up match-based coupling. To learn more about matching, go to [Use match-based coupling](#use-match-based-coupling).
 
 1. To enable fields for a table, choose the table, and then choose the **Fields** action.
-1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
+1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
 > A fast way to enable or disable multiple fields at the same time is to select them in the list, and then use either the **Enable** or **Disable** actions.
@@ -115,7 +115,7 @@ To access details, such as the number of records that are inserted or modified, 
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Synchronization tables**, and then choose the related link.
 1. Choose **New**, and then choose the table to add.
-1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
+1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### Delete a table
 

@@ -8,7 +8,7 @@ ms.search.keywords: print periodic GST, goods and services tax, GST settlement, 
 ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ai-usage: ai-assisted
 ---
 

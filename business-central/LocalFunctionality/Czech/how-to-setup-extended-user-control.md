@@ -1,13 +1,14 @@
 ---
 title: Set up extended user control [CZ]
 description: Most companies in the Czech Republic require enhancements to user setup and control to meet local business needs.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 03/30/2026
-ms.reviewer: v-soumramani
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
 ms.author: v-jurxova
+ai-usage: ai-assisted
 ---
 
 # Set up extended user control in the Czech version
@@ -25,7 +26,7 @@ This feature in User Setup in combination with new User Setup Lines table allows
 - Check Dimension Values allowed for posting (set in lines)
 - Check Location Code allowed for posting separately for quantity increase and quantity decrease (set in lines)
 - Check Location Code allowed for document release separately for quantity increase and quantity decrease (set in lines)
-- Check the usage of Whse. Net Change Templates at posting in Item Journals
+- Check the usage of inventory movement templates at posting in Item Journals
 - Allow Posting to Closed Period
 - Allow Complete Job
 - Allow Item Un-apply functionality

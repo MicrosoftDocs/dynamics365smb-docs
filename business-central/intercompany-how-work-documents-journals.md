@@ -42,7 +42,7 @@ When you post an intercompany general journal line in your company, a correspond
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Intercompany General Journals**, and then choose the related link.  
 2. Open the journal batch. For more information, see [Work with General Journals](ui-work-general-journals.md).
-3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/invoicing/includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. In the **IC Partner G/L Acc. No.** field, enter the intercompany general ledger account that the amount posts to in your partner's company.
 
     > [!NOTE]

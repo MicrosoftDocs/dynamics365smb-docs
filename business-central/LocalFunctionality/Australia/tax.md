@@ -8,7 +8,7 @@ ms.search.form: 11600,11601,11602,11603,11604,11605,11606,11607,11608,11609,1161
 ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ai-usage: ai-assisted
 ---
 

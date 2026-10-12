@@ -1,13 +1,14 @@
 ---
 title: Czech local functionality - Corrections posting
 description: The corrections posting function is used to force corrective posting.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/04/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Corrections posting (Red Storno) in the Czech version
@@ -20,6 +21,14 @@ The purpose of the feature is:
 - To allow the accounting manager to enforce corrective posting in inventory postings (negative transfer entries, expected costs posting)  
 - To allow the accounting manager to enforce corrective posting of canceling in fixed assets  
 - To allow the user to enforce corrective posting with one select (in G/L, inventory, and project postings)  
+
+## Set up corrections posting
+
+To let the accounting manager enforce corrective posting on G/L accounts, turn on the **Check Posting Debit/Credit** toggle on the **General Ledger Setup** page.
+
+## Use corrections posting
+
+After you've turned on **Check Posting Debit/Credit**, use the **Correction** field on general journal, fixed asset journal, and project (job) journal lines to post a line as a corrective entry instead of a reversed entry. For inventory transactions, corrective posting is applied automatically to negative transfer entries and expected cost postings.
 
 ## Related information
 

@@ -6,11 +6,12 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: GoBD exports, filter types, German version, set up export record source, table filter, date filter handling
 ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
-ms.date: 03/10/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # GoBD filter examples in the German version

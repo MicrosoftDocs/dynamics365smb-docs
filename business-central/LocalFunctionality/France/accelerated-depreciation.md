@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: accelerated depreciation method, depreciation, extra tax amounts, tax depreciation, accounting depreciation, French version
 ms.search.form: 5610, 5611, 5612
-ms.date: 04/14/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Accelerated depreciation in the French version
@@ -41,15 +42,14 @@ If you have a fixed asset valued at 1,000 euros that is depreciated in the accou
 
 Accelerated depreciation uses the derogatory fixed asset posting type. Statistics and reports use this posting type to report the accelerated depreciation calculation. Learn more in [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).  
 
-There are two accounts to set up for derogatory amounts:  
+There are four accounts to set up for derogatory amounts on the **FA Posting Group Card** page:  
 
-- Positive accelerated depreciation amounts (increase of accelerated depreciation):  
-
-  - Derogatory account  
-  - Derogatory expense account  
-  - Negative accelerated depreciation amounts (decrease of accelerated depreciation):  
-  - Derogatory Acc. on Disposal  
-  - Derog. Bal. Acc. on Disposal  
+- Positive accelerated depreciation amounts (increase of accelerated depreciation):
+  - **Derogatory Account**
+  - **Derogatory Expense Account**
+- Negative accelerated depreciation amounts (decrease of accelerated depreciation):
+  - **Derogatory Acc. (Decrease)**
+  - **Derog. Bal. Acc. (Decrease)**
 
 If you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is automatically duplicated and posted in the tax depreciation book when the journal is posted.  
 
@@ -61,6 +61,6 @@ After you set up the tax depreciation book and the accounting depreciation book,
 - [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md)   
 - [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)   
 - [Fixed Assets](../../fa-manage.md)  
-- [France Local Functionality](france-local-functionality.md)
+- [France local functionality](france-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

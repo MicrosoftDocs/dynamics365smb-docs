@@ -1,14 +1,15 @@
 ---
 title: Extra features for Advance Payments (Corrections)  
 description: This article explains the extra features for Advance Payments (Corrections) in the Czech version.  
-author: v-pejano
-ms.reviewer: v-pejano  
-ms.author: v-pejano  
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.service: dynamics-365-business-central  
 ms.topic: concept-article  
 ms.search.keywords: Czech, Advance Payments, Localization  
-ms.date: 09/17/2025  
+ms.date: 10/08/2026  
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Extra features for Advance Payments (Corrections)
@@ -120,6 +121,6 @@ To add an advance to a posted invoice:
 
 ## Related information
 
-[Advance Payments for Czech Republic (extension)](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments for Czech Republic (Extension)](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

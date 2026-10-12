@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: issue delivery reminders, print delivery reminders, delivery reminders, German version
 ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
-ms.date: 03/11/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Issue delivery reminders in the German version

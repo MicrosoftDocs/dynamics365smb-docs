@@ -1,37 +1,73 @@
 ---
-title: Introduction to Microsoft Fabric and Business Central
-description: Get an overview of using Microsoft Fabric to get insight, business intelligence, and KPIs from your Business Central data.
+title: Data Mirroring to Microsoft Fabric from Business Central
+description: Learn how Business Central mirrors selected company data to Microsoft Fabric for analytics, engineering, and business intelligence scenarios.
 author: kennienp
 ms.topic: overview
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.search.form: 6316, 6317
+ms.search.keywords: analytics, reporting, business intelligence, Fabric, OneLake, open mirroring, data mirroring, replication, synchronization
+ms.search.form: Primary_48511, 48519
 ms.reviewer: bholtorf
-ms.date: 04/24/2024
+ms.date: 10/08/2026
 ms.author: kepontop
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
-# Introduction to Microsoft Fabric and Business Central
+# Data mirroring to Microsoft Fabric from Business Central
 
-[!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is an end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence&mdash;all backed by a shared platform providing robust data security, governance, and compliance. Your organization no longer needs to stitch together individual analytics services from multiple vendors. Instead, use a streamlined solution that’s easy to connect, onboard, and operate.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-> [!NOTE]
-> For more information about the Microsoft Fabric release plan, see [aka.ms/FabricRoadmap](https://aka.ms/FabricRoadmap)
-> 
-> The regular publishing of this roadmap will help you stay informed about how [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] will address your needs.
+Data mirroring connects [!INCLUDE[prod_short](includes/prod_short.md)] online to an open mirrored database in [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)]. You select the companies and tables to synchronize. Business Central then replicates an initial snapshot and ongoing changes into OneLake.
 
-## Where does [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] fit into [!INCLUDE[prod_short](includes/prod_short.md)] analytics
+<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
 
-[!INCLUDE[prod_short](includes/prod_short.md)] comes with many out-of-the-box reports and data analysis capabilities such as financial reporting, open in Excel, and analysis mode on lists and queries. On top of this, it's easy to define Power BI reports that read data from standard and custom APIs, define Power BI metrics scorecards, and embed all of these directly in the [!INCLUDE[prod_short](includes/prod_short.md)] client. But for customers with more advanced data science or business intelligence scenarios that require richer data engineering or data integration, [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] might be a good option. 
+> [!IMPORTANT]
+> - This feature is planned to become available as a production-ready preview in October 2026. Delivery timing and functionality might change.
+> - Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
 
-## OneLake
+In Fabric, Business Central data is stored in OneLake in Delta Parquet format. Fabric IQ, Power BI, Data Factory, and other analytics experiences can use the synchronized data without repeatedly reading it from Business Central APIs.
 
-A key part of [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] offering is OneLake. OneLake is a single, unified, logical data lake for the whole organization. You can think of OneLake as the OneDrive for data. It provides you with data lake as a service without having to build it yourself. OneLake comes automatically with every [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] tenant with no infrastructure to manage. All the data, which lands in OneLake, automatically takes part in out-of-the-box data governance such as data lineage, data protection, certification, and catalog integration. It breaks down data silos by enabling different parts of the organization to work independently while still contributing to the same data lake.
+## Choose when to use data mirroring
 
-[!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] items store your data in OneLake in an open file format. For structured tabular data, this format is *delta parquet*. Delta parquet format allows every analytics engine in [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] to access the data from other analytics engines. This way, it allows flexibility for data practitioners to use the tools of your choice.
+Use data mirroring when your organization wants a managed way to make Business Central data available in Fabric for analytics and data engineering. The integration supports:
 
+- Multiple Business Central companies.
+- Up to 1,000 selected tables. Learn more in [Limitations in Microsoft Fabric mirrored databases from Azure SQL Database](/fabric/mirroring/azure-sql-database-limitations).
+- Initial snapshot and incremental synchronization.
+- A Microsoft configuration package with a curated set of standard tables.
+- Synchronization monitoring in Business Central, through APIs, and from Fabric.
+
+Learn more about choosing an extraction method in [Extract data from Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extract-data).
+
+## Understand the mirroring flow
+
+An administrator completes the following high-level tasks:
+
+1. Creates an open mirrored database in a Fabric workspace.
+1. Connects Business Central to the workspace and database.
+1. Grants the service principal access to the mirroring database.
+1. Selects the Business Central companies and tables to synchronize.
+1. Starts synchronization and monitors each run.
+
+The setup and synchronization operations run asynchronously. Business Central records an overview for each run and details for each company and table.
+
+## Get started
+
+| Task | Learn more |
+| --- | --- |
+| Prepare Fabric and connect Business Central | [Set up data mirroring from Business Central to Microsoft Fabric](admin-set-up-fabric-mirroring.md) |
+| Select companies and tables, use configuration packages, and control synchronization | [Manage Business Central data synchronization with Fabric](admin-manage-fabric-export.md) |
+| Check synchronization runs and resolve common problems | [Monitor and troubleshoot Fabric synchronization](admin-monitor-fabric-export.md) |
+| Monitor or manage the integration through APIs | [Microsoft Fabric Export APIs](/dynamics365/business-central/dev-itpro/developer/devenv-fabric-export-apis) |
+
+## Power BI apps and Fabric
+
+Microsoft plans to provide versions of the standard Business Central Power BI apps that use data in Fabric. The planned apps include single-company and multicompany versions. Availability can change during the preview.
 
 ## Related information
-[Using Power BI with Business Central](admin-powerbi.md)   
+
+- [Analyze data in business intelligence tools](reports-external-analysis.md)
+- [Using Power BI with Business Central](admin-powerbi.md)
+- [Extract data from Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extract-data)
+- [Microsoft Fabric documentation](/fabric/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

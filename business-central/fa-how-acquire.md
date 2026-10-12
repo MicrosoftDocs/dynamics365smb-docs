@@ -62,7 +62,7 @@ The following steps describe how to add a fixed asset from a purchase order. The
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.
 1. Choose **New** to create a new purchase order.
-1. On the **General** FastTab, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
+1. On the **General** FastTab, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 1. On the **Lines** FastTab, in the **Type** field, choose **Fixed Asset**.
 1. In the **No.** field, either choose an existing fixed asset to add an expense, or choose **New** to add a new asset.
 1. After you enter the information for the new asset and the purchase order, choose **Post**.

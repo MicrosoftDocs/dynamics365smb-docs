@@ -1,12 +1,13 @@
 ---
 title: Fixed asset localization for Czech (Extension)
 description: Enhance Business Central in the Czech Republic with localized Fixed Asset features.
-author: v-pejano
+author: bholtorf
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 06/09/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Fixed asset localization for Czech (extension)

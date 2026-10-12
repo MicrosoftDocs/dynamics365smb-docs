@@ -1,13 +1,14 @@
 ---
 title: Czech local functionality - Tax depreciation for fixed assets | Microsoft Docs
 description: Use the Fixed Assets Tax Depreciation feature to calculate and posts tax depreciation for fixed assets in accordance with the Czech Income Tax Act.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 06/05/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Fixed assets tax depreciation
@@ -16,9 +17,9 @@ The Fixed Assets Tax Depreciation feature calculates and posts tax depreciation 
 
 Each long-term tangible fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters used for calculating depreciation. The following depreciation methods are provided for long-term tangible fixed asset (FA) depreciations for tax purposes:
 
-- Regular – This method is based on the acquisition value and percentage (straight line).
-- Accelerated – This method is based on the book value and coefficient (declining balance).
-- Regular based on the acquisition value and percentage (straight-line intangible).
+- **Straight-Line**: This method is based on the acquisition value and percentage.
+- **Declining-Balance**: This method is based on the book value and coefficient.
+- **Straight-Line Intangible**: This method is based on the acquisition value and percentage, for intangible fixed assets.
 
 Each long-term fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters that are used for calculating depreciation.
 

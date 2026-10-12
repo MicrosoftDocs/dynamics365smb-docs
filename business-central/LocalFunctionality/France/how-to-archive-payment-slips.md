@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: archive payment slip, French version
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
-ms.date: 04/14/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Archive payment slips in the French version
@@ -18,8 +19,8 @@ After a payment slip is processed, you can separate it from the active payment s
 
 You can archive the payment slip by using the following methods:  
 
-- Manually – for individual payment slips.  
-- Automatically – for a batch of payment slips.  
+- **Manually**: For individual payment slips.
+- **Automatically**: For a batch of payment slips.  
 
 ## Archive a payment slip  
 
@@ -40,16 +41,16 @@ You can archive the payment slip by using the following methods:
 The payment slips are archived.  
 
 > [!NOTE]  
-> This batch job only archives payment slips that have the **Archiving Authorized** checkbox selected on the **Payment Status** page. Learn more in [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes).  
+> This batch job only archives payment slips that have the **Archiving Authorized** checkbox selected on the **Payment Status** page. Learn more in [Set up payment statuses for a payment class](how-to-set-up-payment-classes.md#set-up-payment-statuses-for-a-payment-class).  
 
 ## Related information
 
-- [Payment Management](payment-management.md)
-- [Set Up Payment Classes](how-to-set-up-payment-classes.md)
-- [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)
-- [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)
-- [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)
-- [Create Payment Slips](how-to-create-payment-slips.md)
-- [Post Payment Slips](how-to-post-payment-slips.md)
+- [Payment management](payment-management.md)
+- [Set up payment classes](how-to-set-up-payment-classes.md)
+- [Set up payment statuses for a payment class](how-to-set-up-payment-classes.md#set-up-payment-statuses-for-a-payment-class)
+- [Set up payment steps for a payment class](how-to-set-up-payment-classes.md#set-up-payment-steps-for-a-payment-class)
+- [Set up payment addresses](how-to-set-up-payment-addresses.md)
+- [Create payment slips](how-to-create-payment-slips.md)
+- [Post payment slips](how-to-post-payment-slips.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

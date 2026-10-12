@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: fiscal closing, close fiscal period, close accounting period, close fiscal year, French version
-ms.date: 04/15/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Fiscally close years
@@ -24,7 +25,7 @@ Before fiscal closing is allowed, the following actions must be ensured:
 ## Process to fiscally close years  
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the relevant link.  
-1. Choose the **Fiscally Close Year** checkbox.  
+1. Choose the **Fiscally Close Year** action.  
 
    If more than one fiscal year isn't fiscally closed, the earliest one should be fiscally closed. A message appears that identifies the year that should be closed and explains the consequences of closing it.  
 

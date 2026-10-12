@@ -3,12 +3,13 @@ title: Use the E-Document Format for E-Reporting [FR]
 description: Learn how to send French e-reporting transactions by using the E-Reporting FR format and an e-document service.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 06/23/2026
+ms.date: 10/08/2026
 ms.service: dynamics-365-business-central
 ms.search.keywords: e-document format, e-reporting, e-document service, Pagero, Avalara, French version
 ms.country: fr
+ai-usage: ai-assisted
 ---
 
 # E-Reporting in France
@@ -22,7 +23,7 @@ Business Central supports this requirement through the **E-Reporting FR e-docume
 
 > [!NOTE]
 > - Pagero and Avalara are examples of PDP connectors. The format also works with any e-document service connector that can transmit data to the French tax authority.
-> - Learn more about the complete list of supported service providers in [Set up the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md#available-service-providers). Alternatively, users can install and use connectors from Marketplace.
+> - Learn more about the complete list of supported service providers in [Set up the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md#available-service-providers). Alternatively, you can install and use connectors from Microsoft AppSource.
 
 ## Prerequisites
 
@@ -58,7 +59,7 @@ E-Reporting FR is a *document format* that runs within an e-document service. Th
 1. In the **Service Integration** field, select the connector for your PDP, such as **Pagero** or **Avalara**. Enter the required connection details, such as endpoint URLs and authentication credentials.
 1. Close the page.
 
-When you set **Document Format** to **E-Reporting FR**, Business Central automatically registers the following supported source document types for the service. You don’t need to maintain them manually on the **E-Document Service Supported Source Document Types** page:
+When you set **Document Format** to **E-Reporting FR**, Business Central automatically registers the following supported source document types for the service. You don't need to maintain them manually on the **E-Document Service Supported Source Document Types** page:
 
 - Sales Invoice
 - Sales Credit Memo
@@ -100,10 +101,10 @@ To check status:
 
 ## Related information
 
-- [E-Documents overview](../../finance-edocuments-overview.md)  
+- [E-documents overview](../../finance-edocuments-overview.md)
 - [Electronic invoicing in France with UBL 2.1 and Factur-X](enable-electronic-invoicing-france.md)
-- [Set up e-documents](../../finance-how-setup-edocuments.md)  
-- [Export General Ledger Entries Tax Audits [FR]](how-to-export-general-ledger-entries-for-tax-audits.md)  
+- [Set up e-documents](../../finance-how-setup-edocuments.md)
+- [Export general ledger entries for tax audits in the French version](how-to-export-general-ledger-entries-for-tax-audits.md)
 - [France local functionality](france-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,13 +1,14 @@
 ---
 title: Czech Local Functionality [CZ]
 description: Learn about the local functionality and features available in the Czech version of Business Central.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, Cash Desk
-ms.date: 03/30/2026
-ms.reviewer: v-soumramani
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
 ms.author: v-jurxova
+ai-usage: ai-assisted
 ---
 
 # Czech local functionality
@@ -47,7 +48,7 @@ The following articles describe the local functionality in the Czech version of 
   * [VAT Control Report](vat-control-report.md) **Available Now**
   * [VAT Reports](vat-reports-cz.md) **Available Now**
   * [VAT Correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
-  * [Non-deductible VAT](non-deductible-vat.md) **Available Now**
+  * [Non-deductible VAT](non-deductible-VAT.md) **Available Now**
   * [VAT Return CZ](vat-return-cz.md) **Available Now**
   * [VAT Return Period](vat-return-periods.md) **Available Now**
   * [Functional Currency – Czechia](functional-currency.md) **Available Now**

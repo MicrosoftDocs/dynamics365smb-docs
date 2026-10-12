@@ -1,13 +1,14 @@
 ---
 title: Czech local functionality - Setup VAT date
 description: Learn how to set up and use the VAT Date feature in the Czech version of Business Central, including configuration steps and VAT reporting options.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: install-set-up-deploy
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 03/30/2026
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # VAT date in the Czech version
@@ -30,7 +31,7 @@ After the posting of the VAT date, it becomes a part of the posted documents and
 
 ## Change Original Document VAT Date in VAT Entries
 
-The functionality allows authorized users to edit the Original Document VAT Date field on posted VAT entries. When the date is changed, all related tables (for example, posted purchase invoice, credit memo, VAT entries, general journal, VAT control report) are updated accordingly. A confirmation dialog is displayed for changes that affect related entries. Additional validations prevent changes to closed entries, issued VAT control reports, or when the date conflicts with the VAT date. User setup is extended with the option “Allow Original VAT Date Change” on the user setup card.
+The functionality allows authorized users to edit the Original Document VAT Date field on posted VAT entries. When the date is changed, all related tables (for example, posted purchase invoice, credit memo, VAT entries, general journal, VAT control report) are updated accordingly. A confirmation dialog is displayed for changes that affect related entries. Additional validations prevent changes to closed entries, issued VAT control reports, or when the date conflicts with the VAT date. User setup is extended with the option **Allow Orig. Doc. VAT Date Changing** on the user setup card.
 
 ## Calculating and posting VAT settlement
 

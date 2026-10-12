@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: concept-article
 ms.search.keywords: French localization, France local functionality, French version
-ms.date: 08/19/2026
+ms.date: 10/08/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # France local functionality
@@ -33,8 +34,8 @@ The following articles describe local functionality that's unique to the French 
 
 - Banking & Payments
   - [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**
-  - [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-statuses-for-a-payment-class) **Available Now**
-  - [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-steps-for-a-payment-class) **Available Now**
+  - [Set Up Payment Statuses](how-to-set-up-payment-classes.md#set-up-payment-statuses-for-a-payment-class) **Available Now**
+  - [Set Up Payment Steps](how-to-set-up-payment-classes.md#set-up-payment-steps-for-a-payment-class) **Available Now**
   - [Set Up Payment Classes](how-to-set-up-payment-classes.md#steps-to-set-up-a-payment-class) **Available Now**
   - [Archive Payment Slips](how-to-archive-payment-slips.md) **Available Now**
   - [Create Payment Slips](how-to-create-payment-slips.md) **Available Now**

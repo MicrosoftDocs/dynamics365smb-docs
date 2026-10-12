@@ -4,10 +4,11 @@ description: Use the Correction field to post a negative debit instead of a cred
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: correction field, post negative debit, post negative credit, German version, negative entry
-ms.date: 03/11/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Post a negative entry in the German version

@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create delivery reminders, print test reports, issue delivery reminders, German version
-ms.date: 03/11/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Print test reports for delivery reminders in the German version
@@ -22,7 +23,7 @@ A test report is a document that lets you review and modify a delivery reminder 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder**, and then choose the related link.  
 1. On the **Delivery Reminder List** page, choose the **Delivery Reminder - Test** action.  
 1. On the **Delivery Reminder - Test** page, set a filter if you want to print only selected delivery reminders.  
-1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+1. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## Related information
 

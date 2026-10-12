@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: export business data, digital audit, GoBD, GDPdU, German tax regulations, German version
-ms.date: 03/12/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Walkthrough: Exporting data for a digital audit in the German version
@@ -58,7 +59,7 @@ Cassie sets up the requirements for the data export. The auditors ask for transa
     Next, Cassie adds descriptions of the kind of data needed in the export.  
 
 1. On the **Data Exports** page, choose the **Record Definitions** action.  
-1. On the **Data Export Record Definitions** page, choose the **Record Code** field, and then, on the page that appears, choose the **New** action.  
+1. On the **Data Export Record Definitions** page, choose the **Data Exp. Rec. Type Code** field, and then, on the page that appears, choose the **New** action.  
 1. On the **Data Export Record Types** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -71,11 +72,8 @@ Cassie sets up the requirements for the data export. The auditors ask for transa
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Record Code**|Select the record code, **GLCUSTVEND**.|  
+    |**Data Exp. Rec. Type Code**|Select the record type code, **GLCUSTVEND**.|  
     |**Description**|The description for the record type is added automatically, but you can change this to **General ledger, customers and vendors**, for example.|  
-    |**Export Path**|Specify the path where the exported files are stored.<br><br/> In this scenario, **C:Exports**.|  
-
-    If the specified folder doesn't exist, choose the **Yes** button to create it.  
 
 Next, Cassie specifies the source for the data that are exported. Cassie knows from previous exports that data is needed from the following tables:  
 
@@ -129,7 +127,7 @@ Next, Sean adds the **G/L Entry** table to the source and then adds fields from 
    This indents the **G/L Entry** table under the **G/L Account** table. Next, Sean adds a table relationship between the two tables.  
 
 1. Choose the **Relationships** action.  
-1. On the **Data Exp. Table Relationship** page, fill in the fields as described in the following table.  
+1. On the **Data Export Table Relationship** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -165,9 +163,9 @@ Sean added the **Posting Date** field from the **G/L Entry** table because Cassi
 ### Add a period filter to a table in a data export source  
 
 1. On the **Data Export Record Source** page, select the line for the **G/L Entry** table, and then choose the **Period Field No.** field.  
-1. On the **Data Exp. Field List** page, choose the **Posting Date** field, and then choose the **OK** button.  
+1. On the **Data Export Field List** page, choose the **Posting Date** field, and then choose the **OK** button.  
 
-   The **Data Exp. Field List** page is filtered to show only the date fields.  
+   The **Data Export Field List** page is filtered to show only the date fields.  
 
 This means that when Cassie exports the data and specifies the start date and the end date for the period that the auditors want, the export includes entries where the **Posting Date** field is between the specified start date and end date.  
 
@@ -195,20 +193,20 @@ Next, Sean adds the **Customer** and **Vendor** tables.
     |**61**|**Net Change (LCY)**|  
 
 1. Repeat the previous two steps to add the **Balance (LCY)** field again.  
-1. Choose the line for the first instance of the **Balance (LCY)** field, and then, in the **Datefilter Handling** field, choose **Startdate**.  
-1. Choose the line for the second instance of the **Balance (LCY)** field, and then, in the **Datefilter Handling** field, choose **Enddate**.  
-1. Choose the line for the **Net Change (LCY)** field, and then, in the **Datefilter Handling** field, choose **Startdate..Enddate**.  
+1. Choose the line for the first instance of the **Balance (LCY)** field, and then, in the **Date Filter Handling** field, choose **Start Date Only**.  
+1. Choose the line for the second instance of the **Balance (LCY)** field, and then, in the **Date Filter Handling** field, choose **End Date Only**.  
+1. Choose the line for the **Net Change (LCY)** field, and then, in the **Date Filter Handling** field, choose **Period**.  
 
     The following table describes the field values for the fields on the **Customer** table.  
 
-    |**Field No.**|**Field Name**|**Field Class**|**Datefilter Handling**|**Export Field Name**|  
+    |**Field No.**|**Field Name**|**Field Class**|**Date Filter Handling**|**Export Field Name**|  
     |---------------------------------------|----------------------------------------|-----------------------------------------|-------------------------------------------------|------------------------------------------------|  
     |**1**|**No.**|**Normal**||**No**|  
     |**2**|**Name**|**Normal**||**Name**|  
     |**21**|**Customer Posting Group**|**Normal**||**CustomerPostingGroup**|  
-    |**59**|**Balance (LCY)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
-    |**59**|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
-    |**61**|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
+    |**59**|**Balance (LCY)**|**FlowField**|**Start Date Only**|**StartBalanceLCY**|  
+    |**59**|**Balance (LCY)**|**FlowField**|**End Date Only**|**EndBalanceLCY**|  
+    |**61**|**Net Change (LCY)**|**FlowField**|**Period**|**NetChangeLCYPeriod**|  
 
     > [!TIP]  
     > To change the order of the fields, select a field, and then choose the **Move Up** or the  **Move Down** action.  
@@ -229,14 +227,14 @@ Sean added the **Customer** table to the data export source. Now, he adds the **
 
     The following table describes the field values for the fields in the **Vendor** table.  
 
-    |**Field No.**|**Field Name**|**Field Class**|**Datefilter Handling**|**Export Field Name**|  
+    |**Field No.**|**Field Name**|**Field Class**|**Date Filter Handling**|**Export Field Name**|  
     |---------------------------------------|----------------------------------------|-----------------------------------------|-------------------------------------------------|------------------------------------------------|  
     |**1**|**No.**|**Normal**||**No**|  
     |**2**|**Name**|**Normal**||**Name**|  
     |**21**|**Vendor Posting Group**|**Normal**||**VendorPostingGroup**|  
-    |**59**|**Balance (LCY)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
-    |**59**|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
-    |**61**|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
+    |**59**|**Balance (LCY)**|**FlowField**|**Start Date Only**|**StartBalanceLCY**|  
+    |**59**|**Balance (LCY)**|**FlowField**|**End Date Only**|**EndBalanceLCY**|  
+    |**61**|**Net Change (LCY)**|**FlowField**|**Period**|**NetChangeLCYPeriod**|  
 
 Sean almost completes the setup, but wants to verify that the data export source meets the technical requirements of the auditors' tool.  
 
@@ -269,7 +267,7 @@ Cassie wants to export data that can be sent to the tax auditors.
 
 1. To export the data, choose the **OK** button.  
 
-When the export is completed, Cassie is notified, and can now submit the exported files to the tax auditors. First, Cassie examines the files in the C:Exports folder on the computer. There's a file for each table, and the files have the names that Sean specified in the data export source. There's also an *INDEX.XML* file that describes the structure of the data export with the names of the tables and fields that Sean specified.  
+When the export is completed, Cassie's browser downloads a *.zip* archive named **GLCUSTVEND.zip**, and Cassie is notified that the export is complete. Cassie can now submit the archive to the tax auditors. The archive contains a file for each table, using the names that Sean specified in the data export source, an *INDEX.XML* file that describes the structure of the data export with the names of the tables and fields that Sean specified, and a log file for the export.  
 
 ## Next steps
 

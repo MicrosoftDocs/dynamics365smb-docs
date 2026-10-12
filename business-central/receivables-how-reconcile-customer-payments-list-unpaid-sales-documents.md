@@ -33,7 +33,7 @@ You must post payments for different customers that have different payment dates
 Because you can post different payment types to different balancing accounts, you must select a balancing account on the **Payment Registration Setup** page before you start processing customer payments. If you always post to the same balancing account, you can set that account as the default and avoid this step every time that you open the **Register Customer Payments** page.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Registration Setup**, and then choose the related link. You can also choose the **Setup** action on the **Register Customer Payments** page.
-2. Fill in the fields on the **Payment Registration Setup** page. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)].  
+2. Fill in the fields on the **Payment Registration Setup** page. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
 
 > [!TIP]
 > To make it easier to later identify entries that were posted through the journal, you can assign a specific number series to the payment journal. The number series is useful if you use payment reconciliation journals to register and apply payments.

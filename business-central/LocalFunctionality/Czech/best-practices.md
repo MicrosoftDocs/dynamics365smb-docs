@@ -4,9 +4,10 @@ description: Learn about the built-in support for best practices and small regul
 author: ACMartinKunes
 ms.topic: best-practice
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, small regulatory features, best practices, Czech version
-ms.date: 06/02/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Small regulatory features and best practices in the Czech version
@@ -16,7 +17,7 @@ Smaller regulatory features and local practices of Czech companies include the f
 - G/L account groups – for multi-circuit accounting
 - Check on posting group change – for customer, vendor, item, and bank account
 - Check of output in inventory – time sequence
-- Whse. Net Change Templates - templates for inventory operations –
+- Inventory movement templates - templates for posting inventory operations
 - Mandatory return of exact costs in Manufacturing
 - Default Business Posting Group in Manufacturing
 - Check balance in G/L journal – additional feature for disabling balance check by document type

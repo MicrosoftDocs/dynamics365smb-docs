@@ -2,13 +2,13 @@
 title: Core localization pack for Czech
 description: This article provides an overview of the features and functionality included in the Core Localization Application Pack extension for Czech.
 author: brentholtorf
-ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 03/30/2026
-ms.reviewer: v-soumramani
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
 ms.author: v-jurxova
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Core localization pack for Czech (extension)
@@ -44,7 +44,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [VAT Reports](vat-reports-cz.md) **Available Now**
   - [VAT correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
   - [Non-deductible VAT](non-deductible-VAT.md) **Available Now**
-  - [VAT Return CZ](VAT-return-cz.md) **Available Now**
+  - [VAT Return CZ](vat-return-cz.md) **Available Now**
   - [Functional Currency – Czechia](functional-currency.md) **Available Now**
 
 - **Payables and receivables**

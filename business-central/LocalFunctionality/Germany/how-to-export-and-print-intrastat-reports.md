@@ -1,76 +1,55 @@
 ---
 title: Export and Print Intrastat Reports (DE)
-description: Business Central supports Intrastat reporting according to German requirements. You can meet the requirement to report your trade with other EU countries/regions.
+description: Learn how to verify, export, and submit Intrastat reports for Germany, including the IDEV and eSTATISTIK.CORE submission channels.
 author: brentholtorf 
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: intrastat reporting, print intrastat reports, export intrastat reports, German version
-ms.search.form: 26100
-ms.date: 04/24/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Export and print Intrastat reports
 
-> [!NOTE]
-> This article explains the old Intrastat Journals functionality, which is now deprecated.
-
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
-Intrastat reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries/regions. The movement of goods must be reported to the statistics authorities (Statistisches Bundesamt) every month, and a report must be delivered to the tax authorities.  
+> [!NOTE]
+> The old **Intrastat Journals** functionality, and the standalone **Intrastat - Checklist DE**, **Form**, and **Make Diskette** actions described in earlier versions of this article, are no longer available. Use the **Intrastat Report** page and its **Checklist Report** and **Create File** actions instead, as described in this article.
 
-For Intrastat reporting, you must provide paper reports and files, which must be in ASCII format for Germany. [!INCLUDE[prod_short](../../includes/prod_short.md)] includes reports and batch jobs that generate all of the information that must be sent to the German tax authorities. This information automatically includes both receipt and delivery of goods. The Intrastat file contains information from the lines in the **Intrastat** journal.  
+Intrastat reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries/regions. The movement of goods must be reported to the statistics authorities (Statistisches Bundesamt) every month.
 
-## Deprecated Intrastat functionality
+For the German version, Intrastat reports are submitted in XML format, using one of two submission channels: **IDEV** or **eSTATISTIK.CORE**. Depending on the channel, you might also need to set up a company or material number on the **Company Information** page. Learn more in [Set up reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md).
 
-This article provides details about the deprecated Intrastat Journals functionality. Learn more in [Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md), which provides information about the updated version of Intrastat.
+## Verify an Intrastat report before you export it
 
-### Print the German Intrastat checklist  
-
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
-1. In the **Batch Name** field, select the required journal batch name.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report List**, and then choose the related link.  
+1. Open the Intrastat report that you want to verify.  
 1. Choose the **Checklist Report** action.  
-1. On the **Intrastat - Checklist DE** page, on the **Options** FastTab, select the **Show Intrastat Journal Lines** checkbox.  
+1. Review the errors and warnings shown in the **Error Messages** FactBox, and fix any lines that are missing required information.  
 
-    > [!IMPORTANT]  
-    > If you clear the **Show Intrastat Journal Lines** checkbox, the report displays only the information that must be reported to the tax authorities, and not the lines in the journal.  
+## Export an Intrastat report for Germany
 
-1. Optionally, on the **Intrastat Jnl. Batch** FastTab, select the appropriate filters.  
-1. Optionally, on the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
-1. Choose the **Print** button to print the Intrastat checklist or choose the **Preview** button to view it on the screen.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report List**, and then choose the related link.  
+1. Open the Intrastat report that you want to export.  
+1. On the **Export Parameters** FastTab, in the **Submission Channel** field, choose **IDEV** or **eSTATISTIK.CORE**.
 
-### Print the German Intrastat form  
+    This field defaults to the **Default Submission Channel** set up on the **Intrastat Report Setup** page.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
-1. In the **Batch Name** field, select the required journal batch name.  
-1. Choose the **Form** action.  
-1. Optionally, on the **Intrastat Jnl. Batch** FastTab, select the appropriate filters.  
-1. Optionally, on the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
-1. Choose the **Print** button to print the Intrastat checklist or choose the **Preview** button to view it on the screen.  
+    > [!IMPORTANT]
+    > If you choose the **IDEV** channel, you must enter a material number in the **Company No./Material No. (XML)** field on the **Company Information** page. The **eSTATISTIK.CORE** channel doesn't require this field.
 
-### Export Intrastat information to a disk  
-
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
-1. In the **Batch Name** field, select the required journal batch name.  
-1. Choose the **Make Diskette** action.  
-1. On the **Options** FastTab, in the **Path** field, enter the full path and the name of the file to which you want to write the information.  
-
-   Optionally, on the **Intrastat Jnl. Batch** FastTab, select the appropriate filters.  
-
-1. To export the file, choose the **OK** button.  
-
-The Intrastat information is exported, and you can either save the data to a file, or you can open the file in the appropriate program.  
-
-When the file is exported, the **Reported** checkbox on the **Intrastat Jnl. Batches** page is selected, and the **Internal Ref. No.** field on every entry in the journal is filled in. You can manually change the contents of the field. For example, you can make changes when you need to run the report again.
+1. If you want the exported XML file to be used for a test submission only, select the **Test Submission** field.  
+1. Choose the **Create File** action to generate and export the XML file.  
 
 ## Related information
 
-- [VAT Reporting](vat-reporting.md)  
+- [VAT reporting](vat-reporting.md)  
 - [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
-- [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
-- [Germany Local Functionality](germany-local-functionality.md)  
+- [Set up reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)  
+- [Germany local functionality](germany-local-functionality.md)  
 - [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

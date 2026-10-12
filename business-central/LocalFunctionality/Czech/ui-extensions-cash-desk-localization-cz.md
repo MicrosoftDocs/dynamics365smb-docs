@@ -1,13 +1,14 @@
 ---
 title: Cash Desk Localization for Czech (Extension)  
 description: Provides features for cash register operations in compliance with Czech legislation and best practices for Microsoft Dynamics 365 Business Central.
-author: v-pejano
+author: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 09/29/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Cash desk localization for Czech (extension)
@@ -38,29 +39,30 @@ Cash Desk documents are either receipts or withdrawals and can be in different c
 
 ## Cash desk user setup
 
-1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Desk Setup**, and then choose the related link.
-1. On the **Cash Desk Setup** page under the **Navigation** tab, use the **Cash Desk Users** feature.
-1. The Cash Desk Users tab opens. To create a new user, use the **New** function.
-1. In the row, select the **Cash Desk No.** that the user will be working on. Next, select the **User ID** and select whether the user has the option to **Issue**, **Post**, or **Post EET only**.
+1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Desks**, and then choose the related link.
+1. Open the card of the cash desk you want to set up, and then, on the **Navigate** tab, choose **Cash Desk Users**.
+1. The **Cash Desk Users** page opens. To create a new user, choose **New**.
+1. In the row, select the **Cash Desk No.** that the user will be working on. Next, select the **User ID** and select whether the user has the option to **Create**, **Issue**, **Post**, or **Post EET Only**.
 1. After setup, close the page.
 
 ## Set up No. series for receipts and withdrawals
 
-1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Desk Setup** and then choose the related link.
-1. Open the card of the selected Cash Desk.
-1. On the **Cash Desk Setup Card**, you can find the **No. series** tab.
-1. In the **Cash Receipt Order No.** and **Withdrawal Receipt No.** fields, select the No. series you want to use.
-1. After setting up, close the Cash Desk settings card.
+1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Desks**, and then choose the related link.
+1. Open the card of the selected cash desk.
+1. On the **Cash Desk Card**, you can find the **Numbering** FastTab.
+1. In the **Cash Document Receipt Nos.** and **Cash Document Withdrawal Nos.** fields, select the number series you want to use.
+1. After setting up, close the cash desk card.
 
 ## Set up cash desk events
 
 1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Desk Events Setup**, and then choose the related link.
-1. Use the **New** function to create an event on the **Cash Desk** list.
+1. Use **New** to create an event on the **Cash Desk Events Setup** list.
 1. Fill in the following fields as required:
-    - Code, description
-    - Type of Cash Desk document (receipt or withdrawal)
-    - Account Type, Account No., Gen. Posting Type, Posting Group
-    - Global Dimension Code 1 and Global Dimension Code 2 and, if applicable, whether it's an EET transaction
+    - **Code** and **Description**
+    - **Document Type** (receipt or withdrawal)
+    - **Gen. Document Type**, **Account Type**, **Account No.**, and **Gen. Posting Type**
+    - **VAT Bus. Posting Group** and **VAT Prod. Posting Group**
+    - **Global Dimension 1 Code** and **Global Dimension 2 Code**, and, if applicable, whether it's an **EET Transaction**
 1. After setting up, close the list.
 
 ## Cash desk inventory
@@ -72,14 +74,14 @@ For the purpose of Cash Desk inventory in Business Central, you can find a repor
 First, you need to define which banknotes and coins you use in different currencies. It's necessary to define their nominal value for each currency.
 
 1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Nominal Values**, and then choose the related link.
-1. Create rows in the table using the combination of **Currency Code** and **Value**. Don't select a currency code to set the local currency of the system.
+1. Create rows in the table using the combination of **Currency Code** and **Nominal Value**. Don't select a currency code to set the local currency of the system.
 1. After defining the rows, you can close the page.
 
 ### Cash Desk Inventory report
 
 1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Desk Inventory**, and then choose the related link.
 1. On the page before running the report, select input parameters such as:
-    - **Cash Desk Code** for which the inventory is being taken.
+    - **Cash Desk No.** for which the inventory is being taken.
     - **Date** when the inventory is carried out.
     - Option **Show Statistics** of the cash register in the report.
     - Next on the page, fill in the table **Nominal values**, that is, the number of individual banknotes and coins.
@@ -91,17 +93,17 @@ First, you need to define which banknotes and coins you use in different currenc
 
 The Apply Entries function can be run from the cash document lines to select customer or vendor entries to be reconciled. Similarly, functions are available for balancing with advance invoices.
 
-1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Document**, and then choose the related link.
-1. In the **Cash Document list**, create a cash document using the **New** button.
+1. Choose the ![Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Documents**, and then choose the related link.
+1. In the **Cash Documents** list, create a cash document by choosing **New**.
 1. Fill in the fields on the cash receipt card:
-    - Document type: Receipt or Withdrawal
-    - Payment Purpose: list the text that specifies the purpose of the payment
-    - Posting date, Document date and VAT
-    - Possibly other fields as required
-1. In the lines select:
-    - Account Type: Customer or Vendor
-    - Account number: Select Customer or Vendor number
-    - In the functions above the line, use the **Apply Entries** function to find the entry you want to apply.
+    - **Document Type**: Receipt or Withdrawal
+    - **Payment Purpose**: the text that specifies the purpose of the payment
+    - **Posting Date**, **Document Date**, and **VAT Date**
+    - Other fields as required
+1. In the lines, select:
+    - **Account Type**: Customer or Vendor
+    - **Account No.**: the customer or vendor number
+    - In the functions above the line, choose **Apply Entries** to find the entry you want to apply.
 1. After selecting the entry, you can post the document.
 
 ## Related information

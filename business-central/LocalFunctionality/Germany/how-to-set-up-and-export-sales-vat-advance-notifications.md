@@ -5,10 +5,11 @@ author: sorenfriisalexandersen
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT advance notifications, sales VAT notifications, export VAT notifications, German version
-ms.date: 03/12/2025
-ms.author: soalex
+ms.date: 10/09/2026
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up and export sales VAT advance notifications
@@ -48,7 +49,7 @@ To create valid sales VAT advance notification, you must set up the following in
 ### Set up a VAT statement
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the related link.  
-1. On the **VAT Statement** page, in the **Name** field, choose the dropdown arrow.  
+1. On the **VAT Statements** page, in the **Name** field, choose the dropdown arrow.  
 1. On the **VAT Statement Names** page, in the line for the appropriate VAT statement name, select the **Sales VAT Adv. Notification** field.
 
     > [!NOTE]
@@ -58,8 +59,8 @@ To create valid sales VAT advance notification, you must set up the following in
 
 ## Create an XML document
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Vat Advanced Notification List**, and then choose the related link.  
-1. On the **Sales Vat Advanced Notification List** page, choose the **New** action.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales VAT Advance Notification List**, and then choose the related link.  
+1. On the **Sales VAT Advance Notification List** page, choose the **New** action.  
 1. On the **Sales VAT Adv. Notif. Card** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
     > [!CAUTION]
@@ -70,7 +71,7 @@ To create valid sales VAT advance notification, you must set up the following in
     > [!NOTE]
     > In versions older than version 19.3 and other updates that are made available in January and February 2022, the **Sales VAT Adv. Notif. Card** page shows fields and actions based on deprecated functionality in both the ELSTER portal and [!INCLUDE [prod_short](../../includes/prod_short.md)]. Specifically fields that are tied to stylesheets are no longer in use, because the ELSTER portal no longer provides such stylesheets.
 1. Choose the **Create XML-File** action.
-1. On the **Create XML - VAT Adv. Notif.** page, in the **XML-File** field, choose either the **Create** or the **Create and Export** option.  
+1. On the **Create XML-File VAT Adv. Notif.** request page, in the **XML-File** field, choose either the **Create** or the **Create and export** option.  
 
     If you choose the **Create and Export** option, the XML file is generated and saved to your device. If you choose the **Create** option, data is generated in [!INCLUDE [prod_short](../../includes/prod_short.md)] as an XML file when you choose the **Export** action on the **Sales VAT Adv. Notif. Card** page.  
 1. Choose the **OK** button.  

@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: GDPdU, data export, digital audit, German version
-ms.date: 03/12/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up data exports for a digital audit (GoBD/GDPdU) in the German Version
@@ -42,9 +43,9 @@ You must add record definitions to the data export. Each record definition repre
 
     |Field|Description|  
     |-----|-----------|  
-    |**Data Export Code**|Select the data export code.<br><br/> If no data export code exists, you can create a new one.|  
+    |**Data Export Record Type Code**|Select the code that identifies the type of data being exported.<br><br/> If no code exists, you can create a new one.|  
     |**Description**|Specify the description for the record definition.|  
-    |**Export Path**|Specify the path where the exported files are stored.|  
+    |**File Encoding**|Specify the encoding of the data files to import.|  
 
     Next, you must add the relevant *.dtd* file that is required according to the GDPdU, such as **gdpdu-01-08-2002.dtd**. If you must import a new DTD file to replace an existing file, you must first export the existing DTD file.  
 
@@ -65,21 +66,21 @@ Next, you must specify the source for the data that is exported.
     |**Period Field No.**|Specify a filter for which date field is used in setting the start date and end date of the report.<br><br/> For example, if you select the **G/L Entry** table as your data export source, you can select one of the date fields that are available in that table.|  
     |**Table Filter**|Specify a field on which you want to set a filter.<br><br/> On the **Table Filter** page, enter filter settings in the **Field Filter** column.<br><br/> For example, you can specify a field that conveys information about the amount. You can also specify a date field and set a filter for it if you want to filter on a time period other than Start Date .. End Date. However, you can't specify a date field and set a filter for it if the same field is already used in the **Period Field No.**|  
     |**Date Filter Field No.**|Specify a date filter field if the table has one.<br><br/> If the table has more than one date filter, don't specify one in this field.|  
-    |**Date Filter Handing**|Specify how the date filter is to be handled:<br><br/> - \<blank\>: No filter is set.<br><br/> - Period: Use the specified Start Date and End Date.<br><br/> - End Date Only: Use the batch job's End Date.<br><br/> - Start Date Only: Use the batch job's Start Date - 1.|  
+    |**Date Filter Handling**|Specify how the date filter is to be handled:<br><br/> - \<blank\>: No filter is set.<br><br/> - Period: Use the specified Start Date and End Date.<br><br/> - End Date Only: Use the batch job's End Date.<br><br/> - Start Date Only: Use the batch job's Start Date - 1.|  
     |**Export File Name**|Specify the name of the file that data from this table is exported to.<br><br/> For example, if the table is the **G/L Account** table, the value of the **Export Table Name** can be **GLAccount**, and the value of the **Export File Name** field can be **GLAccount.txt**.|  
     |**Key No.**|Optional. Specify the key field.|
 
     > [!NOTE]  
     > The INDEX.XML file contains table and field names in English based on the names of tables and fields. The names of tables and fields are defined in `<Name>` tags, and captions are defined in `<Description>` tags in the *INDEX.xml* file.
     > [!NOTE]  
-    > Table and field names is written as-is, including any spaces, dots, parentheses, and so on. The only characters that are removed from the names are *&*, *'* (single quote), *"* (double quote), *<* (less-than sign), and *>* (greater-than sign).
+    > Table and field names are written as-is, including any spaces, dots, parentheses, and so on. The only characters that are removed from the names are *&*, *'* (single quote), *"* (double quote), *<* (less-than sign), and *>* (greater-than sign).
 
     Learn more in [GDPdU Filter Examples](gdpdu-filter-examples.md).  
 
     Next, you must specify the fields that data is exported from.  
 
 1. In the **Fields** pane, choose the **Add** action.  
-1. On the **Data Exp. Field List** page, select one or more fields that you want to export, and then choose the **OK** button.  
+1. On the **Data Export Field List** page, select one or more fields that you want to export, and then choose the **OK** button.  
 
     1. To change the order of the fields, choose the **Move Up** or the **Move Down** action.  
     1. To remove a field from the list of selected fields, choose the **Delete** action.  
@@ -91,7 +92,7 @@ You added the main table from which to export. Optionally, you can add one or mo
 1. On the **Data Export Record Source** page, in the line below the line for the main table, add the related table.  
 1. Choose the **Indent** action.  
 1. Select the indented table, and then choose the **Relationships** action.  
-1. On the **Data Export Table Relation** page, fill in the fields as described in the following table.  
+1. On the **Data Export Table Relationship** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -107,7 +108,7 @@ After you added tables and fields, you must validate that the structure of the d
 
 ## Validate the data export source  
 
-On the **Data Exp. Record Source** page, choose the **Validate** action.  
+On the **Data Export Record Source** page, choose the **Validate** action.  
 
 This validates the list of fields against the keys for the tables. If you select a primary key after you select a secondary key, an error message displays, and you must change the order of the fields in the **Fields** pane.
 

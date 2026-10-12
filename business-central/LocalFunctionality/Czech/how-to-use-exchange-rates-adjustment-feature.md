@@ -1,13 +1,14 @@
 ---
 title: Czech local functionality - Exchange rates adjustment feature 
 description: Companies in the Czech Republic request some improvements in the Exchange Rates Adjustment feature in the Czech version of Business Central.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/04/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Exchange rates adjustment feature (recalculation of receivables and payables)
@@ -18,7 +19,7 @@ Most companies in the Czech Republic request the following improvements to be im
 - Ability to have Exchange Rates Adjustment batch post adjustments in detail and summarized per currency
 - Ability to run Exchange Rates Adjustment just as simulation (without posting) in Test Mode
 
-On standard report Adjust Exchange Rates is now possible to:
+When the Core Localization Pack for Czech is installed, the standard **Exchange Rate Adjustment** report is replaced with the **Adjust Exchange Rates Enhanced** report. On this report, you can:
 
 - Set Bank Account, Customer, Vendor filter for adjustment
 - Choose adjustment for Customer or Vendor or Bank Account
@@ -26,7 +27,7 @@ On standard report Adjust Exchange Rates is now possible to:
 - Choose to summarize entries
 - Choose the method for dimensions transfer
 
-The Adjust Exchange Rate report feature also modifies the calculation principle for implemented gains and losses based on the Income Tax Act. This feature calculates the implemented gain or loss against the recently adjusted amount.
+The Adjust Exchange Rates Enhanced report also modifies the calculation principle for realized gains and losses based on the Income Tax Act. This feature calculates the realized gain or loss against the recently adjusted amount.
 
 This feature in the standard version of Microsoft [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)] reverses the unrealized gain or loss first, and calculates the realized gain or loss afterwards. The calculation is made against the amount in the original exchange rate during the application of the payment and the invoice.
 

@@ -5,15 +5,16 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT-VIES tax, VAT-VIES declaration, sales transactions, VAT-VIES declaration report
-ms.date: 04/24/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Declare VAT-VIES tax in the German version
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] includes the **EC Sales List** report, which you can use to submit information about sales transactions with other European Union (EU) countries/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
+For the German version, [!INCLUDE[prod_short](../../includes/prod_short.md)] includes the **VAT- VIES Declaration (Form)** report (also known by its object name, **VAT-Vies Declaration Tax – DE**), which you can use to submit information about sales transactions with other European Union (EU) countries/regions to the Bundeszentralamt für Steuern (BZSt) list system. The report displays information in the same format that is used in the BZSt declaration list.  
 
 Depending on the volume of sales of goods or services to other EU countries/regions, you must submit monthly, bi-monthly, or quarterly declarations. If your company has sales of more than 100,000 euros per quarter, you must submit a monthly declaration. If your company has sales of less than 100,000 euros per quarter, you must submit a quarterly declaration. Learn more in [BZSt website](https://go.microsoft.com/fwlink/?LinkId=204368).  
 
@@ -22,7 +23,7 @@ The report is based on the VAT Entry table.
 ## Declare VAT-VIES tax  
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT-Vies Declaration Tax – DE**, and then choose the related link.  
-1. On the **VAT-Vies Declaration Tax – DE** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+1. On the **VAT- VIES Declaration (Form)** request page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

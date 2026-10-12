@@ -1,13 +1,14 @@
 ---
 title: Advance Payments Localization for Czech (Extension) 
 description: Learn about the Advance Payments Localization extension, including its features for managing advance invoices, payments, and VAT compliance.
-author: v-pejano
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 09/29/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Advance payments localization for Czech (Extension)

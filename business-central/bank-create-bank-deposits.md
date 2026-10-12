@@ -71,7 +71,7 @@ The lines on the bank deposit use the default dimensions you specified in the **
     > You can double-check that you're depositing to the correct account by using the **Account Card** and **Account Ledger Entries** actions to look up the ledger entries for the selected bank account. For example, to check whether similar deposits were made to the account.
 
 5. In the **Total Deposit Amount** field, enter the total amount of the deposit. This total must be the sum of the amounts on all lines.
-6. Fill in the remaining fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
+6. Fill in the remaining fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
     The date in the **Posting Date** field and the dimensions in the **Department Code** and **Customergroup Code** fields are assigned to the lines that you create for the bank deposit. You can change them if needed.
 

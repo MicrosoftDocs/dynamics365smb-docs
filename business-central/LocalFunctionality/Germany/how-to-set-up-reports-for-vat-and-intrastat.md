@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT statement, Intrastat form, set up reports, German version
-ms.date: 03/12/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up reports for VAT and Intrastat
@@ -23,7 +24,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can specify which r
 ## Set up reports for VAT
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections VAT**, and then choose the related link.  
-1. On the **Report Selection – VAT** page, in the **Usage** field, select the type of document that you want to specify reports for. This includes the VAT statement and the VAT statement schedule.  
+1. On the **Report Selection - VAT** page, in the **Usage** field, select the type of document that you want to specify reports for. This includes the VAT statement and the VAT statement schedule.  
 1. Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -34,34 +35,29 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can specify which r
 
 1. Choose the **OK** button.  
 
-### Set up reports for Intrastat
+## Set up reports for Intrastat
 
 > [!NOTE]
-> Intrastat reports can use either the XML or ASCII formats. Depending on the format you use, enter the material number in one of the following fields on the **Company  Information** page.  
+> Intrastat reports are submitted in XML format. Depending on the submission channel, enter the material number in one of the following fields on the **Company Information** page.  
 >
-> |Format|Fields|Comment|
+> |Submission channel|Field|Comment|
 > |---------|---------|--------------|
-> |XML|Company No.|This is only required for the IDEV channel; for eSTATISTIK.CORE it can be left empty.|
-> |ASCII|Sales Material No., Purchase Material No.||
+> |IDEV|**Company No./Material No. (XML)**|Required. The IDEV format requires the material number in the message ID.|
+> |eSTATISTIK.CORE|**Company No./Material No. (XML)**|Not required; you can leave this field empty.|
+>
+> If you submit Intrastat data in the legacy ASCII format, use the **Sales Authorized No. (ASCII)** and **Purch. Authorized No. (ASCII)** fields instead.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selection**, and then choose the related link.  
-1. On the **Report Selection – Intrastat** page, in the **Usage** field, select the type of document that you want to specify reports for. This includes the Intrastat checklist and Intrastat form.  
-1. Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.
-1. Choose the submission channel: IDEV or eSTATISTIK.CORE. 
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then choose the related link.  
+1. In the **Default Submission Channel** field, choose **eSTATISTIK.CORE** or **IDEV**. This is the submission channel that's suggested on new Intrastat reports.  
+1. On each Intrastat report, you can also choose the **Submission Channel** field directly, and select the **Test Submission** field if you want the exported XML file to be used for a test submission.  
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Sequence**|Specifies where a report is in the printing order.|  
-    |**Report ID**|Specifies the ID of the report that prints for this document type.|  
-    |**Report Name**|Specifies the name of the report that prints for this document type. The **Report Name** field updates based on the selection in the **Report ID** field.|  
-
-1. Choose the **OK** button.  
+Learn more in [Export and print Intrastat reports](how-to-export-and-print-intrastat-reports.md).
 
 ## Related information
 
-- [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
-- [VAT Reporting](vat-reporting.md)
-- [Germany Local Functionality](germany-local-functionality.md)  
-- [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
+- [Export and print Intrastat reports](how-to-export-and-print-intrastat-reports.md)
+- [VAT reporting](vat-reporting.md)
+- [Germany local functionality](germany-local-functionality.md)
+- [Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

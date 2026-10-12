@@ -1,13 +1,14 @@
 ---
 title: Finance - Czech local functionality
 description: Learn about Czech-specific finance features in Business Central, including corrections posting, statutory reporting, and tools to help you track and manage your company's finances.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Finance, Posting
-ms.date: 06/02/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Finance in the Czech version
@@ -35,16 +36,16 @@ Many documents are circulating within and outside company structures. Local legi
 
 This statutory company information feature provides a solution for each group requirement. You can:
 
-- Define company officials and designate them as General Manager, Accounting Managers, and Finance Managers for use in internal and external documents.
+- Define company officials and designate them as **General Manager**, **Accounting Manager**, or **Finance Manager** for use in internal and external documents.
 - Define document footers in different languages, which can be used on different reports and documents.
 - Store additional company registration numbers and other registration information on the **Company Information** page for use in documents.
 
 ## Internal financial documents
 
-Users perform general ledger operations and must have the capability to print documents for these operations, in a layout in compliance with legal requirements. You might also want to print a document for posted general ledger operations. For these reasons, this internal financial documents feature provides the following reports:
+Users who perform general ledger operations need to print documents for these operations, in a layout that complies with legal requirements. You might also want to print a document for posted general ledger operations. For these reasons, this internal financial documents feature provides the following reports:
 
-- General Journal – Test Report - Used to print documents from G/L journals.
-- General Ledger Document Report - Used to print posted general ledger operations.
+- **General Journal - Test CZ**: Prints documents from G/L journals.
+- **General Ledger Document CZ**: Prints posted general ledger operations.
 
 ## Accounting output documents  
 
@@ -53,26 +54,26 @@ In order to comply with legislation, reporting features, and local reporting pra
 - General journal
 - General ledger
 - Accounting sheets
-- Turnover report by global dimension
+- Turnover report by global dimensions
 - Open G/L entries to date
 - Inventory account to date
-- Joining bank account adjustment
+- Joining banking account adjustment
 - Joining G/L account adjustment
 - G/L value-added tax (VAT) reconciliation
 - All payments on hold
-- Open customer entries at date
-- Open vendor entries at date
-- Fiscal year balance – standard adjusted report 
-- Trial balance by period – standard adjusted report 
+- Open customer entries to date
+- Open vendor entries to date
+- Fiscal year balance - standard adjusted report
+- Trial balance by period - standard adjusted report
 
 ## Financial reports
 
 As one of the most extensively used features for analysis and reporting, Eastern European countries/regions often ask for the following improvements of the standard financial reports feature:
 
-- Common list of expressions – This capability creates named lines for use in formulas in all financial reports. This is achieved by defining one of the financial reports as a common list of expressions called a *shared financial report.*
-- Saving results (current state) of analysis – This improvement enables you to store results of analysis to use later in financial reports, modification of results, and the retrieval of results.
-- Formula drill-down – With this capability you can drill down on the results of formulas, including totaling type formulas. When you drill down on the result of a formula, you see a new page containing the list of elements used to calculate the results and their description.
-- Additional data sources – In addition to being able to perform analysis on G/L entries, now you can also perform analysis on VAT, customer, vendor, and value entries.
+- **Common list of expressions**: Creates named lines for use in formulas in all financial reports. You do this by defining one of the financial reports as a common list of expressions called a *shared financial report*.
+- **Saving results (current state) of analysis**: Lets you store results of analysis to use later in financial reports, modify results, and retrieve results.
+- **Formula drill-down**: Lets you drill down on the results of formulas, including totaling type formulas. When you drill down on the result of a formula, you see a new page containing the list of elements used to calculate the results and their description.
+- **Additional data sources**: In addition to performing analysis on G/L entries, you can also perform analysis on VAT, customer, vendor, and value entries.
 
 ## Statutory statements
 
@@ -85,13 +86,13 @@ These reports use the financial report feature with the statement structure defi
 
 The **Acc. Schedule Name** table contains this new field in the Czech version:
 
-- **Acc. Schedule Type** – Balance sheet or income statement option
+- **Accounting Schedule Type**: Balance sheet or income statement option.
 
 The **Acc. Schedule Line** table contains these new fields in the Czech version:
 
-- **Row Correction** – Links to another line for balance sheet setup.
-- **Assets/Liabilities Type** – Assets or liabilities for balance sheet setup.
-- **Calc** – Always, never, when positive, and when negative options.
+- **Row Correction**: Links to another line for balance sheet setup.
+- **Assets/Liabilities Type**: Assets or liabilities for balance sheet setup.
+- **Calc**: Always, never, when positive, and when negative options.
 
 Users typically want to map defined balance sheet and profit and loss statements to Microsoft Excel file templates with the necessary design for a statement printout. This feature provides the new setup of Excel templates and statement file mapping so you can export financial report data to Excel files.
 

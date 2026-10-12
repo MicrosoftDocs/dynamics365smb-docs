@@ -7,9 +7,10 @@ ms.devlang: al
 ms.search.keywords: feature overview
 ms.reviewer: bholtorf
 ms.search.form: 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993, 36994, 36995, 36996, 36997, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, 37009, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37022, 37023, 37024, 37025, 37026, 37027, 37028, 37029, 37030, 37031, 37032, 37033, 37034, 37035, 37036, 37037, 37038, 37039, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37056, 37057, 37058
-ms.date: 11/13/2024
+ms.date: 09/22/2026
 ms.author: kepontop
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Analytics, business intelligence, and reporting overview
@@ -123,7 +124,7 @@ If you prefer, you can use business intelligence tools that aren't embedded in [
 | Use Power BI with Business Central data | [Using Power BI with Business Central](admin-powerbi.md) |
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
 | Extract data to data warehouses or data lakes| [How to extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
-| Analyze Business Central data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
+| Mirror Business Central data to Microsoft Fabric| [Data mirroring to Microsoft Fabric from Business Central](admin-fabric.md) |
 | Read data from Business Central using APIs | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
 ## Analytics by functional area

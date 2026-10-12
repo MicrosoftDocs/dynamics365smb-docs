@@ -5,21 +5,25 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, posting groups, sales invoice, print VAT information
-ms.date: 02/13/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Print VAT information on invoices
 
-You can use posting groups to print VAT information for each item on the sales invoice.  
+You can use posting groups to print VAT information for each item on the sales invoice.
+
+> [!NOTE]
+> The **Print on Invoice** setting on VAT posting groups is discontinued and no longer affects what prints on sales documents. The field remains visible for backward compatibility but will be removed in a future release.
 
 ## Print VAT information on an invoice  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Group**, and then choose the related link.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
 1. Enter an item code and description.  
-1. Select **Print VAT info on Invoice** to print the VAT information for each item on the respective sales invoice.  
+1. Select **Print on Invoice** to print the VAT information for each item on the respective sales invoice.  
 1. Create and post a sales invoice. Choose the **Preview** button to review the invoice and verify that it contains VAT information for each row from the posting group.  
 
 ## Related information

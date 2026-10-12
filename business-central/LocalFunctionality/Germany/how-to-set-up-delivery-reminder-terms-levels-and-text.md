@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: create delivery reminders, delivery reminder terms, delivery reminder levels, delivery reminder text, delivery reminder setup, German version
 ms.search.form: 5005279, 5005280, 5005281, 5005282, 5005283
-ms.date: 03/12/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up delivery reminder terms, levels, and text in the German version

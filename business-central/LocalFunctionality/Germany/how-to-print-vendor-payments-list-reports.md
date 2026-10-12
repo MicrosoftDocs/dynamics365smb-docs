@@ -5,13 +5,14 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: vendor payments list, sort payments chronologically, sort payments by vendor, vendor payments list report
-ms.date: 03/11/2025
+ms.date: 10/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
-# Print Vendor Payments List reports in the German version
+# Print vendor payments list reports in the German version
 
 The **Vendor Payments List** report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.  
 
@@ -26,7 +27,7 @@ The **Vendor Payments List** report provides a list of payments for each vendor.
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Sorting**|Specifies the sort order. You can sort by vendor or chronologically. If you sort by vendor, you see a subtotal for each vendor. If you sort chronologically, you can't see subtotals.|  
-    |**Layout**|Specifies the layout of the report.<br><br/> The results can be displayed in the following layouts:<br><br/>**Standard**: Displays the vendor number and vendor name, together with posting details, such as the document number and the amount in local currency.<br><br/>**FCY Amounts**: Displays the vendor number, vendor name, document number, payment status (O for open, PP for partial payment, and C for closed), and payment amount.<br><br/>**Posting Info**: Displays the vendor number, vendor name, cost center, cost object, user ID, and payment amount.|  
+    |**Layout**|Specifies the layout of the report.<br><br/> The results can be displayed in the following layouts:<br><br/>**Standard**: Displays the vendor number and vendor name, together with posting details, such as the document number and the amount in local currency.<br><br/>**FCY Amounts**: Displays the vendor number, vendor name, document number, payment status (**Open**, **Partial**, or **Closed**), and payment amount in the foreign currency.<br><br/>**Posting Info**: Displays the vendor number, vendor name, cost center, cost object, user ID, and payment amount.|  
 
  At the end of the report, the number of processed payments is displayed.  
 

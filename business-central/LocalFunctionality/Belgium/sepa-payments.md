@@ -8,7 +8,7 @@ ms.search.keywords: SEPA, SEPA payments, unify payment methods, international pa
 ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ai-usage: ai-assisted
 ---
 

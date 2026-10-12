@@ -1,13 +1,14 @@
 ---
 title: Czech local functionality - VAT exchange rate
 description: Enables users to specify VAT Currency Code and VAT Exchange Rate in documents for the Czech version of Business Central.
-author: v-pejano
-ms-service: dynamics-365-business-central
+author: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Finance, VAT
-ms.date: 06/04/2025
-ms.reviewer: v-soumramani
-ms.author: v-pejano
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
 # VAT exchange rate in the Czech version

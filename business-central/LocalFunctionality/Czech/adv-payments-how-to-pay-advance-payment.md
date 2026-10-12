@@ -1,14 +1,15 @@
 ---
 title: Pay an advance letter  
 description: This article describes how to pay an advance letter using Advance Payments in the Czech version.  
-author: v-pejano  
-ms.reviewer: v-pejano  
-ms.author: v-pejano  
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, Localization  
-ms.date: 09/17/2025  
+ms.date: 10/08/2026  
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Pay an advance letter
@@ -34,7 +35,7 @@ The steps to pay an advance letter using a cash document are similar to the step
 
 1. Choose the ![Lightbulb icon](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Documents**, and then select the related link.
 2. Create a new cash document.
-3. Depending on the type of advance letter (sales/purchase), enter the appropriate **CustomerNo.** or **Vendor No.**.
+3. Depending on the type of advance letter (sales/purchase), enter the appropriate **Customer No.** or **Vendor No.**.
 4. In the **Advance Letter No.** field on the cash receipt line, a list of all unpaid or partially paid advance letters is available, filtered by the cash receipt’s currency code. Select the advance letter you want to pay and confirm your selection. You can reduce the proposed amount if you want to make a partial payment.  
 
    > [!NOTE]

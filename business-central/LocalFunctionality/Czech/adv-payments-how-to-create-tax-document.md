@@ -1,14 +1,15 @@
 ---
 title: Create a VAT document for an advance letter  
 description: This article describes how to create and post a VAT document for an advance letter using Advance Payments in the Czech version.  
-author: v-pejano  
-ms.reviewer: v-pejano  
-ms.author: v-pejano
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.service: dynamics-365-business-central  
 ms.topic: article  
 ms.search.keywords: Czech, Advance Payments, VAT Document, Localization  
-ms.date: 09/17/2025  
+ms.date: 10/08/2026  
 ms.custom: bap-template  
+ai-usage: ai-assisted
 ---
 
 # Create a VAT document for an advance letter
@@ -45,8 +46,8 @@ To manually create a VAT document:
 3. Choose **Advance Letter Entries**, and then select the line where the **Entry Type** field contains **Payment**.  
 4. Run the **Post Payment VAT** action. The **VAT Payment** entry (and related VAT and general ledger entries) will be posted using the same posting date as the original payment.
 
-- If the **Auto Post VAT Document** field is still set to **No** when you post the final invoice, the advance won't automatically post for VAT. You must handle VAT posting manually. You can change this setting to **Yes** before you post the final invoice to enable automatic VAT posting.
-- If the advance was used in the final invoice but VAT was not posted, you can still post it manually afterward.
+- If the **Automatic Post VAT Document** field is still set to **No** when you post the final invoice, the advance won't automatically post for VAT. You must handle VAT posting manually. You can change this setting to **Yes** before you post the final invoice to enable automatic VAT posting.
+- If the advance was used in the final invoice but VAT wasn't posted, you can still post it manually afterward.
 
 ### Manual VAT deduction from advance
 

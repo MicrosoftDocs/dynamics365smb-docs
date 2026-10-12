@@ -2,7 +2,7 @@
 title: VAT Registration No. for Intrastat [DK]
 description: Learn how to set up a VAT registration number as specified by the Danish Intrastat requirements.
 author: altotovi
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: install-set-up-deploy
 ms.search.keywords: VAT registration number, Intrastat, Denmark
 ms.search.form: 328

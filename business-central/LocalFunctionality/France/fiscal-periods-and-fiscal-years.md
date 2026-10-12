@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: fiscal period, fiscal years, open fiscal years, accounting period, close years, French version
-ms.date: 04/14/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Fiscal periods and fiscal years in the French version
@@ -21,7 +22,7 @@ You can only reopen a closed accounting period if the period falls within an ope
 
 ## Close fiscal periods and fiscal years
 
-After a fiscal year is complete, you must close the accounting periods within that fiscal year. This is to ensure that general ledger entries aren't posted for that period. Learn more in [Fiscally Close Accounting Periods](how-to-fiscally-close-years.md).  
+After a fiscal year is complete, you must close the accounting periods within that fiscal year. This is to ensure that general ledger entries aren't posted for that period. Learn more in [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
 
 A fiscal year can be closed if all of the following criteria are met:  
 
@@ -33,7 +34,7 @@ A fiscal year can be closed if all of the following criteria are met:
 
 - All closing entries are up to date.  
 
-When you close a fiscal period, the earliest open fiscal period is closed. The **Allow Posting From** field on the **General Ledger Setup** page is updated with the start date for the next open period, if the existing date in this field isn't already a later date. If the **Allow Posting To** field on the **General Ledger Setup** page is within the closed period, then the value in the **Allow Posting To** field is updated with the end date for the first open fiscal period. Learn more in [Understanding the General Ledger and the COA](../../finance-general-ledger.md).  
+When you close a fiscal period, the earliest open fiscal period is closed. The **Allow Posting From** and **Allow Posting To** fields on the **General Ledger Setup** page aren't updated automatically, so review and adjust them yourself after you close a period to make sure they still reflect the range in which you want to allow posting. Learn more in [Understanding the General Ledger and the COA](../../finance-general-ledger.md).  
 
 At the end of the year, you must do the following actions:  
 
@@ -47,7 +48,6 @@ At the end of the year, you must do the following actions:
 - [Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)  
 - [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md)  
 - [Closing Years and Periods](../../year-close-years-periods.md)  
-- [Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)  
 - [Fiscally Close Years](how-to-fiscally-close-years.md)  
 - [Reopen Accounting Periods](how-to-reopen-accounting-periods.md)  
 - [Close Income Statement Accounts](how-to-close-income-statement-accounts.md)  

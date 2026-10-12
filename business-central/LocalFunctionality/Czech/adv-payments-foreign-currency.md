@@ -1,13 +1,14 @@
 ---
 title: Advance in a foreign currency
 description: This section describes advance payments localization for the Czech extension.
-author: v-pejano
-ms.reviewer: v-pejano
-ms.author: v-pejano
+author: bholtorf
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ms.topic: how-to
 ms.search.keywords: Czech, Advance Payments, Localization
-ms.date: 09/17/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Advances in a foreign currency
@@ -28,7 +29,7 @@ The Advance Payments application works with foreign currencies (FCY). However, y
 4. On the advance letter line, fill in the **VAT Prod. Posting Group** and the **Amount Including VAT** fields.
 5. Release the advance using the **Release** function.
 6. Search for and open any **General Journal**.
-7. On a journal line, in the **Document Type** field, choose **Payment**, and, and then enter the customer number.
+7. On a journal line, in the **Document Type** field, choose **Payment**, and then enter the customer number.
 8. In the **Currency Code** field, select the currency and set the exchange rate.
 9. In the **Advance Letter No.** field, select the number the advance invoice created in the previous steps.
 10. Fill in the **Balancing Account**, and then post the journal.

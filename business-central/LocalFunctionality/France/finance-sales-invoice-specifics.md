@@ -3,13 +3,14 @@ title: Deliver sales invoices with French specifics
 description: Learn how to set up and work with France-specific information in French sales invoices.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 04/14/2025
+ms.date: 10/08/2026
 ms.custom: bap-template
 ms.search.keywords: sales, invoice, order, siren, French version
 ms.search.form: 21, 42, 43, 44
+ai-usage: ai-assisted
 ---
 
 # Deliver sales invoices with French specifics
@@ -24,7 +25,7 @@ If the new **Customer** card is created from an existing **Contact** card, the v
 
 ## Work with the sales documents
 
-When you create a new sales document, you can select whether to print value-added tax (VAT) that is paid on debts. To print this information, on the **Invoice Details** FastTab, enable the **VAT Paid on Debts** field.
+When you create a new sales document, you can select whether to print value-added tax (VAT) that is paid on debits. To print this information, on the **Invoice Details** FastTab, enable the **VAT Paid on Debits** field.
 
 When you print sales documents, [!INCLUDE[prod_long](../../includes/prod_long.md)] automatically indicates, in the comment, whether a sales invoice includes only goods, only services, or both goods and services. This determination is based on the value of the **Type** field on the **Item** card (**Inventory** or **Service**), the resources that are used, or the general ledger account.
 

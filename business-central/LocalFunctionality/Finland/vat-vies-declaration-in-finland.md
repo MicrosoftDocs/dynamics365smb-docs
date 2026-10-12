@@ -5,15 +5,16 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: VAT, sales reporting, European Union regulations, VAT-VIES
-ms.date: 02/13/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # VAT-VIES declaration in Finland
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] provides Finnish enhancements to comply with regulations for VAT and European Union (EU) sales reporting. The **VAT-VIES Declaration Tax Auth** report and the **EC Sales List** report include the **EU Service** field, which allows you to print service-related sales amounts separately from item-related sales amounts based on different posting groups. This information is required in VAT reports for EU third-party trade transactions in 2010 and all subsequent years.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] provides Finnish enhancements to comply with regulations for VAT and European Union (EU) sales reporting. The **VAT- VIES Declaration Tax Auth** report and the **EC Sales List** report include the **EU Service** field, which allows you to print service-related sales amounts separately from item-related sales amounts based on different posting groups. This information is required in VAT reports for EU third-party trade transactions in 2010 and all subsequent years.  
 
 [!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
 

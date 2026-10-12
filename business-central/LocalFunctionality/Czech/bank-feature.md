@@ -4,10 +4,11 @@ description: Learn about the Czech local banking feature, which provides improve
 author: ACMartinKunes
 ms.topic: article
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature, company default bank account, Czech version
-ms.date: 06/02/2025
-ms.reviewer: v-soumramani
+ms.date: 10/08/2026
+ms.reviewer: bholtorf
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Local banking feature in the Czech version

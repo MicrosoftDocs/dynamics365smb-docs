@@ -6,10 +6,11 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: apply general ledger entries, apply G/L entries, liability accounts, asset accounts, French version
 ms.search.form: 16, 10842
-ms.date: 04/14/2025
+ms.date: 10/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Apply general ledger entries in the French version
@@ -27,7 +28,7 @@ You apply general ledger entries to justify ledger balances on asset and liabili
 1. Choose the **Set Applies-to ID** action to populate the **Applies-to ID** field with the user ID of the current user.  
 1. Choose the **Post Application** action.  
 
-This effectuates the application by setting the **Letter** and **Letter Date** fields.  
+This action applies the entries by setting the **Letter** and **Letter Date** fields.  
 
 > [!NOTE]  
 > Applied entries can be identified by having the same three-letter combination and the same date.

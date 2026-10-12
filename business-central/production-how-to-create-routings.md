@@ -108,7 +108,7 @@ The version principle enables you to manage several versions of a routing. The s
 4. In the **Version Code** field, enter the unique identification of the version. You can use any combination of numbers and letters.  
 
     The newly created version is automatically assigned the status **New**.  
-5. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
+5. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 6. To create operation lines, select the first blank line, and then fill in the **Operation No.** field according to the sequence of operations.
 
     The operation lines are in ascending order by operation numbers. To be able to make changes later, we recommend that you select adequate step widths. The **Next Operation No.** field refers to the next operation in the routing.

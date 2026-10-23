@@ -6,9 +6,10 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 09/09/2026
+ms.date: 10/23/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 
 ---
 
@@ -36,7 +37,7 @@ Templates are also useful for inspections when production is in-process. Some ex
 To set up a quality test, follow these steps:
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Tests**, and then choose the related link.
-1. Select **New** to create a quality test.
+1. Choose **New** to create a quality test.
 1. In the **Code** field, enter a unique identifier for the test.
 1. In the **Description** field, enter a short description of the measurement. For example, **Example Measurement**, **Weight**, or **Dimension**. This description is visible when recording inspections and appears on the Certificate of Analysis and other reports.
 1. In the **Test Value Type** field, choose the type of value that the inspector enters or selects. The following list describes the options.
@@ -44,12 +45,16 @@ To set up a quality test, follow these steps:
    - **Decimal** or **Integer** for tests that allow numerical values.
    - **Boolean** for tests that record **Yes** or **No**.
    - **Text**, **Date**, or **Date and Time** for free text, a date, or a date and time.
-   - **Option** to let the inspector select from a list that you define in the **Allowable Values** field.
+   - **Option** to let the inspector choose from a predefined list. Enter the choices in the **Allowable Values** field, separated by commas. For example, enter `Value1,Value2,Value3` for three choices.
    - **Table Lookup** to build a list from the **Lookup Table No.**, **Lookup Field No.**, and **Lookup Table Filter** fields. For example, to show reason codes, use table 231 and field 1, which is the **Code** field. You can also add your own values to the **Quality Test Lookup Values** page, which uses table 20408.
    - **Label** to add a noneditable heading that separates lines on inspection reports.
    - **Text Expression** to calculate text by using the **Expression Formula** field.
   
-1. In the **Allowable Values** field, specify the values that an inspector can enter. The format depends on the **Test Value Type**. Configure pass, fail, and acceptance conditions separately. For an integer or decimal test, enter `5..90` to allow any value in that range. The field doesn't restrict a **Table Lookup** test because its values come from the configured lookup table.
+1. In the **Allowable Values** field, specify the values that an inspector can enter, not which values pass or fail. Define pass, fail, and acceptance conditions in the **Condition** fields in the **Result conditions** section instead. Keep allowable values broad enough to record failed measurements. The format depends on the **Test Value Type**:
+
+   - For an integer or decimal test, enter `5..90` to allow any value in that range. Enter `800..` to allow values of at least 800, with no upper limit, or `..10` to allow values up to and including 10. Don't add a range limit that the specification doesn't require.
+   - For an **Option** test, enter choices such as `Value1,Value2,Value3`, separated by commas without spaces around the commas. A pipe (`|`) doesn't separate choices in this field.
+   - The field doesn't restrict a **Table Lookup** test because its values come from the configured lookup table.
 1. The **Result conditions** section includes pairs of **Condition** and **Description** fields for each quality result where **Result Visibility** is set to **Promoted**. The value in the **Condition** field depends on the **Test Value Type**. The following are examples for different types:
    - For integer or decimal, it can be '10..20' (range), '>=20' (greater than or equal), '<>0' (not equal to zero), '10|20|30' (equals 10, 20 or 30).
    - For text: 'A*' (starts with "A").
@@ -69,6 +74,8 @@ To set up a quality inspection template, follow these steps.
 1. In the **Sample Source** field, specify the size of the sample the test includes. Depending on your choice, the **Sample Amount** or **Sample %** fields display, so you can add those values. The **Sample quantity** in the created inspection can't exceed the **Quantity (Base)** and if necessary it's changed automatically on the inspection to equal the source quantity. If you leave the **Sample Source** field blank, the amount or percentage fields don't display. 
 1. Add the tests that represent what the inspection measures.
 1. If necessary, you can override conditions from tests for specific inspection template requirements.
+
+When you add a test, the template line copies its description, unit of measure, and expression formula. Later changes to these fields on the test don't automatically update the template line. The template line looks up the test value type, allowable values, and default value from the test.
 
 ## Assign an inspection generation rule
 

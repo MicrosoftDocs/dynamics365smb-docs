@@ -20,7 +20,7 @@ This article explains how to use Sales Order Agent to automate taking sales orde
 Sales Order Agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer with the quote as a PDF attachment.
 
 > [!NOTE]
-> The agent processes all emails in the configured folder starting from the activation date, regardless of read status. To avoid reprocessing, it applies a *Processed by Sales Order Agent* category to each email after importing it. The agent skips emails that already have this category. Optionally, you can enable the **Mark email as read** setting so the agent also marks processed emails as read, making it easy for team members to identify processed messages. Learn more about mark as read in [Set up Sales Order Agent: Manage mailbox](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
+> The agent processes all emails in the configured folder starting from the activation date, regardless of read status. To avoid reprocessing, it applies a **Processed by Sales Order Agent** category to each email after import. The agent skips emails that already have this category. Optionally, you can enable the **Mark email as read** setting so the agent also marks processed emails as read, making it easy for team members to identify processed messages. Learn more about the mark as read feature in [Set up Sales Order Agent: Manage mailbox](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
 >
 > The agent uses the activation date as the starting point for retrieving emails. It doesn't process emails received before this date, even if they don't have the *Processed by Sales Order Agent* category. If you deactivate and reactivate the agent, [!INCLUDE [prod_short](includes/prod_short.md)] asks if the agent must process emails that arrived while the agent was inactive, or if it must start from the current moment. Keep this in mind when you copy or move older emails into the monitored folder: the agent only picks them up if the email's received date falls after the activation date. Forwarding an older email creates a new message with a current received date, which makes it eligible for processing. However, the agent identifies the sender from the forwarded message's **From** field (your address, not the original sender), so you need to select the correct customer during the incoming-message review. Learn more about forwarding and sender identification in [Test with real customer emails](sales-order-agent-setup.md#test-with-real-customer-emails).
 
@@ -50,8 +50,10 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** pane ope
 
 For each sales quote request, Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
+To evaluate the agent without waiting for an incoming email, select **New** in the **Tasks** pane. For the complete procedure, sample messages, and activation behavior, see [Start a task without receiving an email](sales-order-agent-setup.md#start-a-task-without-receiving-an-email).
+
 > [!TIP]
-> To get an overview of the agent's key performance indicators (KPIs), hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the navigation menu or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** pane. The summary provides insights that highlight the effect of the agent's work in your organization. For example, explore the number of sales quotes or orders that the agent created, the time saved by your team, and the total number of sales orders created.
+> To get an overview of the agent's key performance indicators (KPIs), hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the navigation menu or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Tasks** pane. The summary provides insights that highlight the effect of the agent's work. For example, explore the number of sales quotes or orders that the agent created, the time saved by your team, and the total number of sales orders created.
 
 ## Review and assist
 
@@ -64,7 +66,7 @@ While the agent does the bulk of work autonomously, it asks for user interventio
 
 Steps requiring intervention are listed under **Needs Attention** in the **Tasks** pane. To review a step:
 
-1. In the **Task** pane, select the step requesting review or assistance.
+1. In the **Tasks** pane, select the step requesting review or assistance.
 
    The task *timeline* opens, focused on the selected step. The timeline displays each step of a task, past and present, in chronological order.
 
@@ -87,7 +89,7 @@ After confirmation, Sales Order Agent continues processing the task. When a new 
 
 You might need to modify sales quotes or orders created by the agent during a review step or when the agent requests assistance, based on its configuration. When you select **Review**, the quote or order opens for inspection. Make changes as needed, then select **Confirm** in the **Review** pane. The agent processes the document, creating a PDF for the outgoing email to the customer.
 
-You also have the opportunity to modify a quote or order during the review step for an outgoing email. In this case, select **...** (More options) > **Discard step** on the step. This action stops the task temporarily to allow you to open the quote or order and makes changes and then resume the step.
+You can also modify a quote or order during the review step for an outgoing email. In this case, select **...** (More options) > **Discard step** on the step. This action stops the task temporarily so that you can open and change the quote or order, and then resume the step.
 
 ![Shows the discard step action on a Sales Order Agent task.](media/soa-discard-step.png "Shows the discard step action on a Sales Order Agent task.")
 
@@ -102,6 +104,10 @@ After you make the changes, return to the **Tasks** pane, select one of the foll
 ![Shows the resume step action on a Sales Order Agent task.](media/soa-resume-step.png "Shows the resume step action on a Sales Order Agent task.")
 
 If you change your mind while reviewing the outgoing message and decide to make more changes to the sales document, use the **Discard step** action to discard the email message generated by the agent. Then, update the sales document as needed and instruct the agent to create a new outgoing email with the updated attachment.
+
+## Retry an outgoing message
+
+If the agent can't send an outgoing message, it retries automatically. After five failed attempts, it stops retrying so that the task doesn't continue indefinitely. The failed step remains in the task timeline. Resolve the email or connection problem, and then select **Retry sending** on that step to continue the task.
 
 ## Assist with item availability
 

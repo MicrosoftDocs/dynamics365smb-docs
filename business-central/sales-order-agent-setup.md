@@ -25,12 +25,10 @@ Before configuring and activating Sales Order Agent, ensure the following prereq
    - To manage an existing agent, you need the **Configure All Agents** system permission or be listed in the agent's user access list with **Can Configure** selected.
 
    Learn more about [permissions and access](#understand-permissions-and-access).
-- An email account is set up for receiving incoming requests for sales quotes and orders.
-
-   Sales Order Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).
+- To process customer requests automatically from email, set up a Microsoft 365 user and a shared mailbox. You don't need to connect a mailbox if you only start tasks manually. Learn more at [Set up email](admin-how-setup-email.md).
 
    > [!IMPORTANT]
-   > To activate and configure the agent, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
+   > To configure email monitoring, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to configure email monitoring. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
 
@@ -57,7 +55,9 @@ Next, configure, and then activate the agent so it can process customer sales or
 
 ## Configure and activate Sales Order Agent
 
-Configure and activate Sales Order Agent for your company. You can set up multiple Sales Order Agent instances per company, each with its own mailbox, folder, email signature, and processing rules. Each instance tracks its own performance metrics independently.
+Configure and activate Sales Order Agent for your company. You can set up multiple Sales Order Agent instances per company, each with its own email monitoring and processing rules. Each instance tracks its own performance metrics independently.
+
+Archived Sales Order Agent configurations are read-only and don't count toward the number of active agent instances. You can keep an archived configuration for reference without preventing the creation of another active instance.
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent**  > **Activate**.
 1. On the **Configure the Copilot agent** page, turn on the **Active** toggle.
@@ -73,10 +73,7 @@ Configure and activate Sales Order Agent for your company. You can set up multip
 
 1. Select **Manage user access** to specify the users who can work with the agent and whether they can also configure it. You can add more users now or later. Learn more in [Add users to the agent](#add-users-to-the-agent).
 1. If you want to change the agent's display name in the task pane and icon initials, set the **Display name** and **Initials** fields. These fields can't be blank.
-1. Configure email monitoring:
-   - Turn on the **Monitor and process emails** toggle.
-   - Set the **Mailbox** field to the email account you want the agent to monitor for incoming sales quote and order requests.
-   - If the mailbox has a subfolder you want to monitor, set the **Folder** field to the subfolder.
+1. Configure email monitoring if you want the agent to create tasks from incoming email. Turn on the **Monitor and process emails** toggle, and then select the mailbox and folder to monitor. If you only start tasks manually, leave this setting turned off.
 1. On the right side of the page, select the **Go to next card** arrow to configure more options that determine how the agent behaves.
 
    The options are spread across multiple cards. Use the **Go to next card** (<kbd>Ctrl</kbd>+<kbd>Right arrow</kbd>) and **Go to previous card** (<kbd>Ctrl</kbd>+<kbd>Left  arrow</kbd>) arrows to go back and forth between the cards and set the various options. Each tab that follows describes a group of related options:
@@ -89,7 +86,7 @@ Configure and activate Sales Order Agent for your company. You can set up multip
    |-|-|-|
    |Messages from already registered senders|Specifies the type of review required for incoming messages from already registered senders.|First message in a conversation|
    |Messages from unregistered senders|Specifies the type of review required for incoming messages from unregistered senders.|All|
-   |Select only available items|Specifies whether the agent considers item availability when searching for the customer's requested items.<br><br>When on, the agent checks inventory to determine whether the customer's requested item quantity is available based on their requested delivery date and location code. If there aren't enough items, the agent prepares the reply to the user that the requested items aren't available, even in situations when fewer items are available. <br><br>When off, the agent includes the customer's requested item quantity regardless of availability. That is, quotes can be created for the items that aren't available and their availability can become negative.<br><br>Learn more about item availability in [Get an availability overview](inventory-how-availability-overview.md) or open the [Item Availability page](https://businesscentral.dynamics.com?page=4410).|On|
+   |Select only available items|Specifies whether the agent considers item availability when searching for the customer's requested items.<br><br>When on, the agent checks inventory to determine whether the customer's requested item quantity is available based on the requested delivery date, location, unit of measure, and variant. If there aren't enough items, the agent prepares a reply that explains the requested items aren't available.<br><br>When off, the agent ignores availability signals and doesn't block processing because of stock levels. The agent can create quotes for quantities that aren't available, which can result in negative availability.<br><br>Learn more in [Item availability in Sales Order Agent](sales-order-agent-item-availability.md).|Off|
    |Include capable to promise|Specifies whether the agent includes in the search results items that are currently unavailable but can be ordered for a later shipment date.<br><br>Learn more in [Calculating delivery dates using capable-to-promise](sales-order-agent.md#calculating-delivery-dates-using-capable-to-promise).|Off|
 
    ## [Create sales documents](#tab/documents)
@@ -118,10 +115,10 @@ Configure and activate Sales Order Agent for your company. You can set up multip
 
    |Option|Description|Default|
    |-|-|-|
-   |Account|This option is the same as the **Mailbox** field on the first configuration page. It specifies the email account the agent monitors. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).|None|
-   |Folder|Specifies the mailbox folder that the agent monitors. You must select a folder before you activate the agent. You need **Read and manage (Full Access)** permission on the mailbox to set this option. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)|None (required)|
+   |Account|Specifies the email account the agent monitors when the **Monitor and process emails** toggle is turned on. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).|None|
+   |Folder|Specifies the mailbox folder that the agent monitors when the **Monitor and process emails** toggle is turned on. If you don't select a folder, the agent monitors the Inbox. You need **Read and manage (Full Access)** permission on the mailbox to set this option. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation)|Inbox|
    |Mark email as read|Specifies whether the agent marks processed emails as read in the mailbox. When enabled, team members can quickly identify the messages the agent handled.|On|
-   |Analyze attachments|Specifies whether the agent analyzes attachments on incoming emails for request information. The agent supports PDF, PNG, and JPG files. PDF attachments can be up to 50 pages. A cumulative content limit of approximately 150,000 characters applies across all attachments in a single email. When the agent skips an attachment, the reason is shown on the **Attachments** page. For example, the agent might skip an attachment because it exceeds the page count limit, cumulative content length, or attachment count. Or, it doesn't support the attachment's format.|Enabled|
+   |Analyze attachments|Specifies whether the agent analyzes attachments on incoming emails for request information. The agent reads order details directly from supported PDF, PNG, and JPG files. PDF attachments can be up to 50 pages. A cumulative content limit of approximately 150,000 characters applies across all attachments in a single email. If the agent can't process one attachment, it continues with the other supported attachments. The **Attachments** page explains why the agent skipped a file. For example, a file might exceed the page count, cumulative content, or attachment count limit, or use an unsupported format.|Enabled|
    |Daily email limit|Specifies how many incoming emails per day the agent can handle. The agent issues an alert when the limit is reached. The emails received after the daily limit is exceeded are automatically processed on the next day.|100|
 
    ## [Format outgoing message](#tab/outgoing)
@@ -141,24 +138,27 @@ Configure and activate Sales Order Agent for your company. You can set up multip
       ---
 1. Select **Update** to complete the setup.
 
-The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to handle incoming quote requests to the mailbox.
+The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to process tasks.
 
-When Sales Order Agent is active, a scheduled task periodically monitors the configured mailbox folder. When it finds a new message that it hasn't processed, Sales Order Agent imports the message into [!INCLUDE [prod_short](includes/prod_short.md)] and verifies whether there's already a task for the mail thread. If a task for the thread already exists, Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
+When Sales Order Agent is active and email monitoring is turned on, a scheduled task periodically monitors the configured mailbox folder. When it finds a new message that it hasn't processed, Sales Order Agent imports the message into [!INCLUDE [prod_short](includes/prod_short.md)] and verifies whether there's already a task for the mail thread. If a task for the thread already exists, Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
-> The ![Shows the Sales Order Agent icon when the agent is configured but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with the mailbox, but it's not active. To activate, select the icon, then select ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure Sales Order Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
+> The ![Shows the Sales Order Agent icon when the agent is configured but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured but isn't active. To activate the agent, choose the icon, and then choose the ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure Sales Order Agent** action to reopen the configuration page. From there, turn on the **Active** toggle.
 
-## Try it out: Create tasks without sending email
+## Start a task without receiving an email
 
-You can test the Sales Order Agent without sending an actual email. The agent's setup page includes a **Try it out** section where you create a task by picking a sender, composing a message, and optionally attaching files. The agent processes the task exactly as if it received a real email.
+You can start a Sales Order Agent task manually from the **Tasks** pane or the **Try it out** section on the configuration page. You don't need to connect a mailbox or turn on email monitoring. The agent applies the same processing and review rules that it uses for requests received by email.
 
-1. On the **Configure Sales Order Agent** page, select **Create task** in the **Try it out** section.
-1. On the **Create Task** page, set the **Sender** field to a contact or customer from your list, or type in an email address directly.
-1. Compose the message text in the message body field.
-1. Optionally, attach files using the **Attachments** subpage.
-1. Select **Create** to submit the task to the agent.
+To start a task from the **Tasks** pane, open it for Sales Order Agent, choose **New**, and then continue with step 2 in the following procedure.
 
-To get started quickly, select the **Use sample message** link, which fills the page with one of two sample messages:
+1. On the **Configure Sales Order Agent** page, choose **Create task for the agent** in the **Try it out** section.
+1. On the **Create task** page, choose **Contact** or **Customer** in the **Sender** field.
+1. In **Sender's email**, select a sender or enter a valid email address.
+1. Enter the request in the **Message text** field.
+1. To attach supporting files, under **Attachments**, choose **Add**.
+1. Choose **Create**.
+
+To get started quickly, choose the **Use sample message** link. The link fills in the page with one of two sample messages:
 
 - A text-only message that references items from your item catalog.
 - A message with a sample purchase order attachment generated as a PDF using your actual item data.
@@ -166,9 +166,11 @@ To get started quickly, select the **Use sample message** link, which fills the 
 If the agent isn't enabled yet, you're prompted to enable it automatically when creating a task. This flow doesn't use email monitoring, so the agent only processes your test task.
 
 > [!NOTE]
+> Sales Order Agent doesn't support **New from file**. To include supporting files, select **New**, and then add the files under **Attachments** on the **Create task** page.
+>
 > The sample messages use real data from your environment. If you select a sender, the agent picks the top items by shipment frequency for that customer. Otherwise, it selects items with positive projected availability. Quantities are randomized between 1 and 10, capped at the available balance. The sample purchase order attachment is rendered from a Word template using your company information and the selected items, so you can use this feature on almost any environment with inventory data.
 
-### Test with real customer emails
+## Test with real customer emails
 
 You can forward, copy, or move a customer email that was originally delivered to another mailbox into the folder that the agent monitors. The method you choose affects how the agent identifies the sender:
 
@@ -278,10 +280,30 @@ There are two ways to add users to an agent:
 
    |Field|Description|
    |-|-|
-   |Profile|Specifies the role that defines the agent's home page and the UI elements available to the agent.|
+   |Profile (Role)|Specifies the role that defines the agent's home page and the UI elements available to the agent.|
    |Region|Specifies the regional format used by the agent for dates, times, and numbers in outgoing emails and task details.|
    |Language|Specifies the language the agent uses for generated text in:<ul><li>Outgoing email messages to customers or contacts. If a customer or contact card has a language specified, the agent uses that language instead of the default.</li><li>Task details and descriptions in the agent **Tasks** pane and log.</li></ul> |
    |Time zone|Specifies the time zone used by the agent when displaying and processing date and time in tasks details.|
+
+### Review and customize the agent's profile
+
+The agent uses the UI elements available in its assigned profile. It doesn't use page personalizations made by people who review its tasks. If an extension adds fields or actions to a page, review the agent's profile to verify that those elements are available to the agent.
+
+You need the **D365 Profile Mgt.** permission set or equivalent permissions to customize profiles. Profile customization applies to all users and agent accounts assigned to that profile. To isolate changes for a specific agent, [copy the profile](admin-users-profiles-roles.md#copy-a-profile), customize the copy, and then assign it to the agent.
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Agents**, and then choose the related link.
+1. Choose the Sales Order Agent account you want to manage.
+1. Choose the **Agent User Settings** action, and make a note of the profile in the **Profile (Role)** field.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Profiles (Roles)**, and then choose the related link.
+1. Choose the profile, choose the **Edit** action, and then choose the **Customize pages** action.
+
+   [!INCLUDE [prod_short](includes/prod_short.md)] opens a new browser tab that shows the pages as defined by the selected profile.
+
+1. Go to the relevant page, such as **Sales Quote**, and verify that the fields and actions the agent needs are available. Use <kbd>Ctrl</kbd>+click to open highlighted actions while customization mode is active. Add or show elements as needed, and then choose **Done**.
+1. Verify that the agent also has the permission sets required by the extension. Learn more in [Manage permission sets for the agent account](#manage-permission-sets-for-the-agent-account).
+1. Test the customized profile before using it with customer requests.
+
+To learn more about the customization tools, go to [Customize pages for profiles](ui-personalization-manage.md).
 
 ### Manage permission sets for the agent account
 

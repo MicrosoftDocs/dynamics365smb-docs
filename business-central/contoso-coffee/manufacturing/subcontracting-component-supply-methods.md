@@ -1,7 +1,7 @@
 ---
 title: Use different component supply methods in subcontracting
 description: Walkthrough to learn how the three component supply methods work in subcontracting and how they affect planning in Business Central.
-ms.date: 08/13/2026
+ms.date: 10/16/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -42,7 +42,7 @@ To run this scenario, you need:
 1. Open the item card page for **SP-SCM1009, Airpot**.
 1. On the **Replenishment** FastTab, verify or set the **Routing No.** field to **SP-SCM1009-SUB-F**.
 
-   This routing has a single subcontracting operation, which keeps the focus on component supply rather than routing complexity.
+   This routing has a single subcontracting operation on **Work Center 600 (Local Assembly)**, which is linked to vendor **83000, Local Assembly**. The single operation keeps the focus on component supply rather than routing complexity.
 
 1. On the item card page, select the **Production BOM** action to open BOM **SP-SCM1009**.
 1. In the **Status** field, choose **Under Development**.
@@ -81,14 +81,11 @@ To run this scenario, you need:
 
 ### Set the subcontracting location code on the vendor
 
-> [!NOTE]
-> If you already completed this step in the [Set Up and Process a Subcontracting Operation](set-up-process-subcontracting-operation.md) scenario, skip this section.
-
 1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
-1. Open the vendor card page for **82000, Subcontractor**.
-1. In the **Subcontracting Location Code** field, enter **82000**.
+1. Open the vendor card page for **83000, Local Assembly**.
+1. In the **Subcontracting Location Code** field, enter **S83000**.
 
-    This field tells [!INCLUDE [prod_short](../../includes/prod_short.md)] where the subcontractor's facility is located. Without this information, the production order refresh fails because [!INCLUDE [prod_short](../../includes/prod_short.md)] can't determine where to send components.
+    The demo data creates location **S83000, Local Assembly**, but you must assign it to the vendor. This scenario uses a different vendor from the [Set up and process a subcontracting operation](set-up-process-subcontracting-operation.md) scenario. This field tells [!INCLUDE [prod_short](../../includes/prod_short.md)] where the subcontractor's facility is located. Without this information, the production order refresh fails because [!INCLUDE [prod_short](../../includes/prod_short.md)] can't determine where to send components.
 
 ### Create the production order
 
@@ -112,8 +109,8 @@ To run this scenario, you need:
     | Component | Location Code | Why |
     | --------- | --------- | --------- |
     | SP-BOM1101 (Housing) | MAIN | Transfer from MAIN to the subcontractor |
-    | SP-BOM1107 (Circuit board) | 82000 | Purchased and delivered directly to the subcontracting location |
-    | SP-BOM1108 (Power cord) | 82000 | Vendor supplied, excluded from planning |
+    | SP-BOM1107 (Circuit board) | S83000 | Purchased and delivered directly to the subcontracting location |
+    | SP-BOM1108 (Power cord) | S83000 | Vendor supplied, excluded from planning |
 
     The location code shows where the component needs to be before the subcontracting operation starts.
 
@@ -126,11 +123,11 @@ To run this scenario, you need:
 1. On the request page, set the **Item Filter** to **SP-BOM1101|SP-BOM1107|SP-BOM1108** to focus on the three components. select **OK**.
 1. Review the results:
 
-    - **SP-BOM1107 (Circuit board)**: the planning system suggests a purchase order with **82000** in the **Location Code** field. The component is delivered directly to the subcontractor. Standard purchase planning rules (reorder policy, safety stock) apply to this location.
+    - **SP-BOM1107 (Circuit board)**: the planning system suggests a purchase order with **S83000** in the **Location Code** field. The component is delivered directly to the subcontractor. Standard purchase planning rules (reorder policy, safety stock) apply to this location.
     - **SP-BOM1101 (Housing)**: depending on available inventory at MAIN, a planning line might appear. The component is handled through a transfer order, not purchase planning.
     - **SP-BOM1108 (Power cord)**: no planning line appears. The subcontractor provides this component, so your planning system ignores it.
 
-1. Select the planning line for **SP-BOM1107 (Circuit board)** and select **Carry Out Action Message**. This creates a purchase order for the circuit board at location 82000.
+1. Select the planning line for **SP-BOM1107 (Circuit board)** and choose the **Carry Out Action Message** action. This action creates a purchase order for the circuit board at location **S83000**.
 1. Open the purchase order for **SP-BOM1107** and post the receipt. This makes the circuit board available at the subcontractor's location before the subcontracting work begins.
 
 ### Create the subcontracting order and process the transfer
@@ -149,7 +146,7 @@ To run this scenario, you need:
 1. On the purchase order, select the **Post** action, and then select **Receive**.
 1. To verify component consumption, select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Ledger Entries**, and then select the related link. Filter on the production order number and then choose **Consumption** in the **Entry Type** field.
 
-    Consumption entries display for all three components, posted from location 82000 (the subcontracting location). The housing was transferred there earlier, the circuit board was purchased directly to that location, and the power cord is vendor-supplied at that location. The backward flushing method posted consumption automatically when the subcontracting output was received.
+    Consumption entries display for all three components, posted from location **S83000** (the subcontracting location). The housing was transferred there earlier, the circuit board was purchased directly to that location, and the power cord is vendor-supplied at that location. The backward flushing method posted consumption automatically when the subcontracting output was received.
 
 ## Related information
 

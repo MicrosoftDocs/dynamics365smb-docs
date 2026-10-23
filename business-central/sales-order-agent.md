@@ -65,7 +65,7 @@ The agent always involves designated [!INCLUDE [prod_short](includes/prod_short.
 
 The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)).
 
-When an email is received, the agent analyzes the email&mdash;including subject line, body, and attachments (if configured)&mdash;to identify quote requests and extract relevant details. Attachments can be PDF or image files. It extracts relevant information from these files and generates a sales quote based on the content.
+When the agent receives an email, it analyzes the subject line, body, and attachments (if configured) to identify quote requests and extract relevant details. The agent reads order details directly from supported PDF, PNG, and JPG attachments. It processes each attachment independently, so a file that can't be processed doesn't prevent the agent from using the other supported files. The task explains why the agent skipped the affected attachment.
 
 If the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 
@@ -120,6 +120,12 @@ The agent searches across a wide range of related tables:
 |Item Translation|Language<br>Description<br>Description 2|
 |Item Identifier|Code|
 |Extended text Line|Text|
+
+The agent matches item variants as well as items and keeps the selected variant throughout the request. It uses the variant for availability, pricing, shipment dates, translations, and the sales document line. If substituting a variant could affect fit, capacity, compatibility, safety, or another important characteristic, the agent asks the customer to confirm the choice. To learn more about the context available to reviewers, go to [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md).
+
+If an item requires a variant and the customer doesn't specify one, the agent might need assistance to complete the match.
+
+The agent preserves extended text that [!INCLUDE [prod_short](includes/prod_short.md)] adds automatically to a sales document. During repeated processing, the agent doesn't treat those note lines as additional requested items.
 
 Although the agent can find products based on vague and incomplete descriptions, the quality of product information in [!INCLUDE [prod_short](includes/prod_short.md)] affects its effectiveness. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
 

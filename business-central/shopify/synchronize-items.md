@@ -1,7 +1,7 @@
 ---
 title: Synchronize items with Shopify
 description: Set up and run synchronizations of items, products, images, and variants between Shopify and Business Central.
-ms.date: 09/04/2026
+ms.date: 10/16/2026
 ms.topic: how-to
 ms.search.form: 30126, 30127
 author: brentholtorf
@@ -34,9 +34,9 @@ A third scenario is to manage data in Shopify but import those items in bulk to 
 
    |Option|Description|
    |------|-----------|
-   |**Blank**| Products are imported together with the importing of orders. Products are exported to Shopify if a user runs the **Add Item** action from the **Shopify Products** page. This option is the default process.|
-   |**To Shopify**| Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to enable the **Can Update Shopify Product** field. If it isn't enabled, it equals the **Blank** (default process) option. Learn more in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|
-   |**From Shopify**| Choose this option if you plan to import products from Shopify in bulk, either manually using the **Sync Product** action or using the job queue for recurring updates. To learn more, go to [Import items from Shopify](synchronize-items.md#import-items-from-shopify).|
+   |**Blank**| Products are imported together with the importing of orders. Products are exported to Shopify if a user runs the **Add Items** action from the **Shopify Products** page. This option is the default process.|
+   |**To Shopify**| Select this option if, after the initial sync is triggered by the **Add Items** action, you plan to update products manually using the **Sync Products** action or using the job queue for recurring updates. Remember to enable the **Can Update Shopify Product** field. If it isn't enabled, it equals the **Blank** (default process) option. Learn more in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|
+   |**From Shopify**| Choose this option if you plan to import products from Shopify in bulk, either manually using the **Sync Products** action or using the job queue for recurring updates. To learn more, go to [Import items from Shopify](synchronize-items.md#import-items-from-shopify).|
 
    > [!NOTE]
    > Changing **Sync Item** from **From Shopify** to **To Shopify** won't have an effect unless you enable **Can Update Shopify Products**.
@@ -47,8 +47,8 @@ Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)] both offer extens
 
 |Product Information  |Business Central: Flat item list.<br><br>Only items, no variants  |Business Central: Items with item variants  |
 |---------|---------|---------|
-|Shopify: Flat product list.</br>Only products, no variants.     | Supported<br><br>Import into [!INCLUDE [prod_short](../includes/prod_short.md)]<br><br>To point to an item in [!INCLUDE [prod_short](../includes/prod_short.md)], use the barcode or SKU fields on the Shopify product.<br><br>Export items from [!INCLUDE [prod_short](../includes/prod_short.md)] by using the **Add Item to Shopify** action.| Not supported<br><br>You can manually create products/items in both system independently, and use the barcode or SKU for automatic mapping or map products to item variants manually.|
-|Shopify: Products with variants| Supported<br><br>We recommend that you select **Item No.**, **Vendor Item No.**, or **Barcode** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when a product/variant is imported from Shopify it finds the corresponding item in [!INCLUDE [prod_short](../includes/prod_short.md)].<br><br>Export from [!INCLUDE [prod_short](../includes/prod_short.md)] by using the **Add Items as Shopify Variants** action.| Supported<br><br>We recommend that you select **Item No. + Variant Code** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when you import the product or variant from Shopify it finds the corresponding item or variant in [!INCLUDE [prod_short](../includes/prod_short.md)].<br><br>Export from [!INCLUDE [prod_short](../includes/prod_short.md)] by using the **Add Item to Shopify** action.|
+|Shopify: Flat product list.</br>Only products, no variants.     | Supported<br><br>Import into [!INCLUDE [prod_short](../includes/prod_short.md)]<br><br>To point to an item in [!INCLUDE [prod_short](../includes/prod_short.md)], use the barcode or SKU fields on the Shopify product.<br><br>Export items from [!INCLUDE [prod_short](../includes/prod_short.md)] by using the **Add to Shopify** action.| Not supported<br><br>You can manually create products/items in both systems independently, and use the barcode or SKU for automatic mapping or map products to item variants manually.|
+|Shopify: Products with variants| Supported<br><br>We recommend that you select **Item No.**, **Vendor Item No.**, or **Barcode** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when a product/variant is imported from Shopify it finds the corresponding item in [!INCLUDE [prod_short](../includes/prod_short.md)].<br><br>Export from [!INCLUDE [prod_short](../includes/prod_short.md)] by using the **Add Item as Shopify Variants** action.| Supported<br><br>We recommend that you select **Item No. + Variant Code** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when you import the product or variant from Shopify it finds the corresponding item or variant in [!INCLUDE [prod_short](../includes/prod_short.md)].<br><br>Export from [!INCLUDE [prod_short](../includes/prod_short.md)] by using the **Add to Shopify** action.|
 
 To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating item variants in Business Central](/dynamics365/business-central/shopify/synchronize-items#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
 
@@ -73,14 +73,16 @@ First, import items either in bulk from Shopify or together with orders to add t
 
 There are multiple ways to export items to Shopify:
 
-* Use the **Add item to Shopify** action directly from the **Item card** page.
-* Use the **Add Item** action on the **Shopify Products** page.
+* Use the **Add to Shopify** action directly from the **Item Card** page.
+* Use the **Add Items** action on the **Shopify Products** page.
 * Use the **Add Item as Shopify Variants** action on the **Shopify Products** page.
 * Run item synchronization once or repeatedly with automation.
 
 No matter how you export items, specific item information is transferred to the Shopify products list depending on your choice of settings for item synchronization.
 
-Before it exports an item to Shopify, the connector checks whether an item already exists. First, it checks whether there's a product or variant with a barcode, because it's defined in the **Item References** entry of a barcode type. If the **SKU Mapping** field is filled in, the connector checks whether there's a product or variant with a SKU. To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
+When you use **Add Items** on the **Shopify Products** page, the connector first checks whether the item is already linked to a product for the selected shop. If a link exists, the connector skips adding the item. Running **Add Items** again doesn't update the linked product's information.
+
+For an item that isn't already linked, the connector searches Shopify for an existing variant with a matching SKU or barcode before it creates a product. The **SKU Mapping** setting determines the SKU, and **Item References** of the barcode type provide the barcode. When the connector finds a unique match, it links the item to the existing Shopify product and variant instead of creating a new product. Linking an existing product doesn't update its product information.
 
 You manage the process of exporting items using these settings:
 
@@ -94,7 +96,7 @@ You manage the process of exporting items using these settings:
 |**SKU Field Separator**|Define a separator for the **Item No. + Variant Code** option.|
 |**Inventory Tracked**| Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. For more information, see the [Inventory](synchronize-inventory.md) section.|
 |**Default Inventory Policy**|Choose *Deny* to prevent negative stock on the Shopify side. </br>If **Can Update Shopify Products** is enabled, changes in the **Default Inventory Policy** field will be propagated to Shopify after next sync for all products and variants listed in the **Shopify Products** page for selected shop.|
-|**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.</br>**Can Update Shopify Products** doesn't impact synchronization of prices, images, or inventory levels, which are configured by independent controls.</br>If **Can Update Shopify Products** is enabled, the following fields on the Shopify side are updated on the product and, if needed, the variant level: **SKU**, **Barcode**, **Weight**. The **Title**, **Product Type**, **Vendor**, and **Description** on the product are also updated if the exported values aren't empty. For description, this means you need to enable any of the **Sync Item Extended Text**, **Sync Item Marketing Text**, and **Sync Item Attributes** toggles and  attributes, extended or marketing text must have values. If the product uses variants, then the variant is added or removed if necessary. </br>If the product on Shopify is configured to use a variant matrix that combines two or more options, the Shopify Connector can't create a variant for that product. In [!INCLUDE[prod_short](../includes/prod_short.md)], you can't define an option matrix, so the connector uses the **Variant Code** as the only option. However, Shopify expects several options and refuses to create a variant if information about other options is missing. |
+|**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Items** action, you plan to update products manually using the **Sync Products** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.</br>**Can Update Shopify Products** doesn't impact synchronization of prices, images, or inventory levels, which are configured by independent controls.</br>If **Can Update Shopify Products** is enabled, the following fields on the Shopify side are updated on the product and, if needed, the variant level: **SKU**, **Barcode**, **Weight**. The **Title**, **Product Type**, **Vendor**, and **Description** on the product are also updated if the exported values aren't empty. For description, this means you need to enable any of the **Sync Item Extended Text**, **Sync Item Marketing Text**, and **Sync Item Attributes** toggles and  attributes, extended or marketing text must have values. If the product uses variants, then the variant is added or removed if necessary. </br>If the product on Shopify is configured to use a variant matrix that combines two or more options, the Shopify Connector can't create a variant for that product. In [!INCLUDE[prod_short](../includes/prod_short.md)], you can't define an option matrix, so the connector uses the **Variant Code** as the only option. However, Shopify expects several options and refuses to create a variant if information about other options is missing. |
 |**UoM as Variant**| Choose this option if you want some options to be exported as imported as units of measure instead of variants. Personalize the page to add the field. Learn more in the [Unit of Measure as Variant](synchronize-items.md#unit-of-measure-as-variant) section.|
 |**Variant Option Name for UoM**| Use this field with **UoM as Variant** to specify which option contains variants that represent units of measure. The default value is **Unit of Measure**. To add the field, personalize the page.|
 |**Weight Unit**|When you enable the connector, it imports the default weight unit of measure from Shopify and uses it when it sends the weight of the product. You can change whether the **Net weight** field in [!INCLUDE [prod_short](../includes/prod_short.md)] stores values with different unit of measure.|
@@ -307,7 +309,7 @@ Full or partial item synchronization can be performed in many different ways.
 5. Define filters on items as required. For example, you can filter by the item number or item category code.
 6. Choose **OK**.
 
-The resulting items are automatically created in Shopify with prices. Depending on choices you made, images and inventory levels might be included. The operation might take some time if a large number of items are added.
+The connector creates new products in Shopify with prices or links items to matching products that already exist. It skips items that are already linked to products for the selected shop. Depending on your choices, the operation might include images and inventory levels. The operation might take some time if you add a large number of items.
 
 Alternatively, you can sync one item by choosing the **Add to Shopify** action in the **Item Card** page.  
 
@@ -316,7 +318,7 @@ Alternatively, you can sync one item by choosing the **Add to Shopify** action i
 
 ### Adding an item as a variant to Shopify products
 
-If your products in Shopify have variants, but the list of items is flat on the [!INCLUDE [prod_short](../includes/prod_short.md)] side you can use the **Add item as Variant** action on the **Variants** FastTab of the **Shopify Products** page.
+If your products in Shopify have variants, but the list of items is flat on the [!INCLUDE [prod_short](../includes/prod_short.md)] side, use the **Add Item as Shopify Variants** action on the **Variants** FastTab of the **Shopify Products** page.
 
 Shopify always creates a variant for each product, even if none are explicitly defined. This default variant is labeled *Default Title*. When you add additional variants through **Shopify Admin**, this technical default entry is automatically removed.
 

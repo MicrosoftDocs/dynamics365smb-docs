@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/04/2026
+ms.date: 10/14/2026
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -184,6 +184,19 @@ If orders exist in Shopify but don't appear in [!INCLUDE [prod_short](../include
 * **Orders were created before the last sync date.** The connector only imports orders created or modified after the last sync. If you need to reimport an older order, modify it in Shopify - for example, by adding a note or tag - and then run the sync again.
 * **Orders are filtered out.** Check the filter criteria on the **Sync Orders from Shopify** request page. Also review the **Shopify Orders to Import** page for entries with errors.
 
+### A Shopify order is imported, but the sales document isn't created
+
+If the connector can't create a sales document, it records the result on the Shopify order instead of displaying an error dialog. On the **Shopify Orders** page, find the order and review the **Has Error** and **Error Message** fields.
+
+If the **Error Message** field contains *Not everything can be mapped.*, open the **Shopify Order** card and resolve the missing information:
+
+- If the **Sell-to Customer No.** field or the **Customer No.** field in the **Bill-to** group is empty, use one of the options in [Manage missing customers](synchronize-orders.md#manage-missing-customers).
+- If the **Item No.** field is empty on a regular product line, select the [!INCLUDE[prod_short](../includes/prod_short.md)] item directly on the order line. To create a reusable mapping, open the **Shopify Products** page. If the item doesn't exist, choose **Create Item**. If the item exists but the connector can't find it automatically, choose **Map Product** and select the item. To map a specific Shopify variant, open the variants for the product, choose **Map Variant**, and select the item variant. If the SKU or barcode should match an existing item, choose **Try Find Product Mapping** for the selected product or **Try Find Mappings** for all unmapped products. Learn more in [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
+- If the order contains a tip, enter a G/L account in the **Tip Account** field on the **Shopify Shop Card** page.
+- If the order contains a sold gift card, enter a G/L account in the **Sold Gift Card Account** field on the **Shopify Shop Card** page. Learn more in [Gift cards](synchronize-orders.md#gift-cards).
+
+After you correct the missing information, choose **Find Mappings** and then **Create Sales Document** on the **Shopify Order** card. Alternatively, select the order on the **Shopify Orders** page and choose **Create Sales Documents**. Creating the document retries the mappings.
+
 ### Shopify fields in archived sales orders can show manual adjustments
 
 Archived sales orders include following fields:
@@ -243,7 +256,7 @@ The updated version of the connector requires more permissions (application scop
 
 ### Error: The application scope is changed, please request a new access token for the store 'YOUR SHOPIFY STORE'
 
-Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
+When you open an enabled **Shopify Shop Card** page after the required permissions change, the connector asks whether you want to request a new access token. Choose **Yes** to start authorization. If you choose **No**, the connector disables the shop. To authorize the connector later, go to [Request the access token](#request-the-access-token).
 
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 

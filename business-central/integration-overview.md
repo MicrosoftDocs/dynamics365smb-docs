@@ -5,7 +5,7 @@ author: kennienp
 ms.reviewer: jswymer
 ms.topic: overview
 ms.author: kepontop
-ms.date: 06/19/2026
+ms.date: 09/22/2026
 ---
 
 # Integration overview for Business Central 
@@ -126,7 +126,7 @@ Here are a few examples of how this integration can help your business:
 - Pull Shopify orders directly into [!INCLUDE[prod_short](includes/prod_short.md)] for fulfillment and invoicing, saving your team from tedious copy-and-paste work.
 - Get a unified view of your online and offline sales performance, making it easier to spot trends and plan for growth.
 
-Learn more at [Get started with the Shopify connector](shopify/get-started.md).
+Learn more at [Shopify Connector overview](shopify/shopify-connector-overview.md).
 
 ## Related information
 
@@ -135,7 +135,7 @@ Learn more at [Get started with the Shopify connector](shopify/get-started.md).
 [Integrating Business Central with Microsoft Dataverse (administration documentation)](/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview)  
 [Integrating Business Central with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)  
-[Integrating Business Central with Shopify](shopify/get-started.md)  
+[Integrating Business Central with Shopify](shopify/shopify-connector-overview.md)
 <!-- 
 [Envestnet Yodlee Bank Feeds extension](ui-extensions-yodlee-bank-feeds.md)  
 [AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  

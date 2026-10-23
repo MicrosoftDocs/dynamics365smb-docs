@@ -1,7 +1,7 @@
 ---
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
-ms.date: 09/04/2026
+ms.date: 10/05/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -23,7 +23,19 @@ It's efficient to run some tasks simultaneously and in an automated manner. You 
 2. Select the shop for which you want to run synchronization in the background to open the **Shopify Shop Card** page.
 3. Turn on the **Run Syncs in Background** toggle.
 
-Now, when the sync action starts, instead of running a task in the foreground it asks you to wait. When it completes, you can proceed to the next action. The task is created as a **Job Queue Entry** and starts immediately.
+When you start a supported synchronization action, [!INCLUDE [prod_short](../includes/prod_short.md)] creates a **Job Queue Entry** that starts immediately. A notification confirms that the job started, and you can continue working while it runs.
+
+The **Job Queue started** notification includes the **Show log info** action. Use this action to open the related **Job Queue Log Entries** when they're available.
+
+If the notification doesn't appear, you might have turned it off by choosing **Don't show again**. To restore it:
+
+1. In the upper-right corner, choose the **Settings** icon, and then choose **My Settings**.
+1. On the **My Settings** page, in the **Notifications** field, choose the **Change when I receive notifications** link.
+1. On the **My Notifications** page, select the **Enabled** checkbox for **Shopify Background Sync Notification**.
+
+Notification settings apply only to your user. For more information, see [Manage notifications](../ui-smart-notifications.md).
+
+To troubleshoot a synchronization action, turn off **Run Syncs in Background** before you run it. The action then shows progress and errors while it runs. For more information, see [Run tasks in the foreground](troubleshoot.md#run-tasks-in-the-foreground).
 
 ## To schedule recurring tasks
 
@@ -62,7 +74,13 @@ You can use the **Shopify Order No.** field to identify sales documents that wer
 
 To learn more about posting sales orders in a batch, go to [Create a job queue entry for batch posting of sales orders](../ui-batch-posting.md#create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## To check the status of synchronization
+## Check synchronization status
+
+Search for the **Job Queue Log Entries** page to check the final status and error details for background synchronization tasks.
+
+Depending on the type of synchronization, you can also review the **Shopify Skipped Records**, **Shopify Bulk Operations**, and **Shopify Log Entries** pages. For more information, see [Troubleshooting the Shopify and Business Central synchronization](troubleshoot.md).
+
+## Monitor Shopify activities in the Business Manager Role Center
 
 On the **Business Manager** Role Center, the **Shopify Activities** part offers several cues that can help you quickly identify whether there are issues with Shopify Connector.
 

@@ -1,27 +1,25 @@
 ---
-title: Shopify Connector Overview
-description: Learn to use Shopify Connector to synchronize orders, stock, and customer information to fulfill orders faster, and better serve customers.
+title: Shopify Connector overview
+description: Learn how the Shopify Connector synchronizes products, inventory, customers, orders, and transactions between Shopify and Business Central.
 author: andreipanko
 ms.author: andreipa
 ms.reviewer: bholtorf
-ms.topic: concept-article
+ms.topic: overview
 ms.search.keywords:
-ms.date: 10/20/2025
+ms.date: 09/24/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# What is Shopify?
+# Shopify Connector overview
 
-Shopify is a subscription-based application that allows you to set up an online store and sell products. The Shopify platform offers online retailers a suite of services for payments, marketing, shipping, and customer engagement.
+Connect your Shopify stores with [!INCLUDE [prod_short](../includes/prod_short.md)] to manage your ecommerce and business operations in one place. The Shopify Connector synchronizes products, inventory, customers, orders, fulfillments, transactions, and payouts between the two services.
 
-## What is the Microsoft Dynamics 365 Business Central Shopify Connector?
+Shopify is an ecommerce platform for creating online stores and selling products. This article introduces the connector's capabilities and links to information about setup, synchronization, testing, troubleshooting, and support.
 
-With the Shopify Connector, businesses can link their Shopify stores with [!INCLUDE[prod_short](../includes/prod_short.md)] to maximize business productivity. Using the Shopify Connector, you can access and manage insights from your business and your Shopify online store as one unit.
+## Shopify Connector capabilities
 
-### Capabilities
-
-- Support for more than one Shopify shop.
+- The Shopify Connector supports multiple stores, and nearly one third of organizations using the connector connect more than one Shopify store.
   - Each shop has its own setup, including a collection of products and locations used to calculate inventory and price lists.  
 - Bidirectional synchronization of items or products.
   - The connector synchronizes images, item variants, bar codes, vendor item numbers, tags, and metafields.  

@@ -4,7 +4,7 @@ description: Set up and run import and processing of sales orders from Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 09/30/2026
+ms.date: 10/14/2026
 ms.topic: how-to
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147, 30168
 ms.service: dynamics-365-business-central
@@ -254,7 +254,7 @@ You can also mark an order as paid, which is useful in a B2B scenario where paym
 
 ## Create sales documents in Business Central
 
-If the **Auto Create Sales Documents** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, fix the problems, and then create the sales order again.
+If you enable the **Auto Create Sales Documents** toggle on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If an incomplete mapping prevents document creation, resolve the mapping and try again. Learn more in [A Shopify order is imported, but the sales document isn't created](troubleshoot.md#a-shopify-order-is-imported-but-the-sales-document-isnt-created).
 
 ### To create sales documents
 
@@ -276,11 +276,14 @@ The **Order total** part in the **Shopify Orders** page displays totals from bot
 
 ### Manage missing customers
 
-If your settings prevent creating a customer automatically and a matching customer isn't found, assign a customer to the Shopify order manually. There are a few ways to assign customers to orders:
+If your settings prevent automatic customer creation and the system doesn't find a matching customer, open the **Shopify Order** page and assign a customer manually. There are a few ways to assign customers to orders:
 
-- Assign the **Sell-to Customer No.** and **Bill-to Customer No.** directly on the **Shopify Orders** page by choosing a customer from the list of existing customers.
-- Select a customer template, then create and assign the customer via the **Create new customer** action on the **Shopify Orders** page. The Shopify customer must have at least one address. Orders you create via the Shopify POS sales channel are often missing address details.
-- Map an existing customer to the related **Shopify Customer** on the **Shopify Customers** page, and then choose the **Find Mapping** action on the **Shopify Orders** page.
+- Select an existing customer in the **Sell-to Customer No.** field and the **Customer No.** field in the **Bill-to** group.
+- Select a customer template, and then choose **Create New Customer** to create and assign the customer. The Shopify customer must have at least one address. Orders you create through the Shopify POS sales channel often lack address details.
+- For a DTC order, open the related customer from the **Shopify Customers** page. On the **Shopify Customer Card** page, in the **Mapping** group, map the Shopify customer to an existing customer in the **Customer No.** field.
+- For a B2B order, open the related company from the **Shopify Companies** page. On the **Shopify Company Card** page, in the **Mapping** group, map the company to an existing customer in the **Customer No.** field. If a company location uses different sell-to or bill-to customers, choose the **Shopify Locations** action and fill in the **Sell-to Customer No.** and **Bill-to Customer No.** fields. Learn more in [Important settings when importing B2B companies from Shopify](synchronize-customers.md#important-settings-when-importing-b2b-companies-from-shopify).
+
+After you update the mapping on the **Shopify Customer Card**, **Shopify Company Card**, or **Shopify Company Locations** page, return to the **Shopify Order** page and choose **Find Mappings**. Then choose **Create Sales Document**.
 
 ### How the connector chooses which customer to use
 
@@ -295,8 +298,7 @@ The next steps depend on the **Customer Mapping Type**.
 - If it's **By EMail/Phone**, the connector tries to find the existing customer by ID first, then by email, and then by phone number. If the customer isn't found, the connector creates a new customer.
 - If it's **By Bill-to Info**, the connector tries to find the existing customer by ID first and then by the bill-to address information. If the customer isn't found, the connector creates a new customer.
 
-If a customer is found, it's used to populate both the **Sell-to Customer No.** and the **Bill-to Customer No.** fields in the **Shopify Order** page. The connector ignores the **Bill-to Customer No.** value defined in the **Customer Card** page.
-If a customer is identified, their information fills in both the **Sell-to Customer No.** and the **Bill-to Customer No.** fields. The connector disregards any value specified in the **Bill-to Customer No.** on the **Customer Card** page.
+If the connector finds a customer, it fills in the **Sell-to Customer No.** field and the **Customer No.** field in the **Bill-to** group on the **Shopify Order** page. The connector ignores the **Bill-to Customer No.** value on the **Customer Card** page.
 
 > [!NOTE]  
 > The connector uses information from the bill-to address and creates the customer in [!INCLUDE[prod_short](../includes/prod_short.md)].
@@ -305,11 +307,11 @@ If a customer is identified, their information fills in both the **Sell-to Custo
 
 For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** page because named customers are expected for B2B.
 
-B2B orders also contain company location details. The **Sell-to Customer No.** and **Bill-to Customer No.** fields, available on the **Shopify Company Location** page, can affect the mapping. By default, these fields are empty, but you can fill them in if needed. When you import a Shopify order associated with a B2B company and location, the connector uses the data in these fields to map the sell-to and bill-to customers in the sales order.
+B2B orders also contain company location details. The **Sell-to Customer No.** and **Bill-to Customer No.** fields, available on the **Shopify Company Locations** page, can affect the mapping. By default, these fields are empty, but you can fill them in if needed. When you import a Shopify order associated with a B2B company and location, the connector uses the data in these fields to map the sell-to and bill-to customers in the sales order.
 
 The following table shows examples of customer mappings.
 
-|Value in the **Customer No.** field in the **Shopify Company**	|Value in the **Sell-to Customer No.** field in the **Shopify Company Location**	|Value in the **Bill-to Customer No.** field in the **Shopify Company Location**	|Proposed value for **Sell-to Customer No.** field in the Shopify Order	|Proposed value for **Bill-to Customer No.** field in the Shopify Order|
+|Value in the **Customer No.** field in the **Shopify Company**	|Value in the **Sell-to Customer No.** field on the **Shopify Company Locations** page	|Value in the **Bill-to Customer No.** field on the **Shopify Company Locations** page	|Proposed value for **Sell-to Customer No.** field in the Shopify Order	|Proposed bill-to customer for the Shopify Order|
 ----|----|----|----|----
 |10000	|*blank*	|*blank*	|10000	|10000|
 |10000	|20000	|*blank*	|20000	|20000 (same as  Sell-to Customer No. in Company Location)|
@@ -497,14 +499,20 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 
 ### Process an exchange
 
-When a Shopify return includes a replacement item, the connector imports the returned item and the exchange item together. When you create a sales document for the refund, the connector creates the document type you select in **Process Returns as**. The returned item has a positive quantity, and the replacement item has a negative quantity.
+When a Shopify return includes a replacement item, the connector imports the returned item and the exchange item together. Process the original Shopify order into an open or posted sales document before you process the exchange. The exchange creates new return and replacement documents and doesn't change the original sales document.
 
-You can post both lines on the same sales credit memo or sales return order. To process the replacement on a separate sales document:
+To process the return and replacement items:
 
+1. Process the return with a replacement item in Shopify.
+1. Synchronize the updated Shopify order and refund.
+1. If the connector doesn't create the return document automatically, on the **Shopify Refund** page, choose **Create Sales Document**. The connector creates the document type you selected in **Process Returns as**. The returned item has a positive quantity, and the replacement item has a negative quantity.
+1. To post the returned and replacement items together, post the return document. To process them on separate documents, continue to the next step.
 1. If the sales credit memo or sales return order has the **Released** status, choose **Reopen**.
 1. Choose **Move Negative Lines**.
 
-From a sales credit memo, the action creates a sales invoice by default. From a sales return order, the action creates a sales order by default. The new document remains linked to the originating Shopify order and appears in the **Linked Documents** FactBox.
+    From a sales credit memo, **Move Negative Lines** creates a sales invoice by default. From a sales return order, the action creates a sales order by default. The new document remains linked to the originating Shopify order and appears in the **Linked Documents** FactBox.
+
+1. Post the return document and the replacement sales invoice or sales order separately.
 
 For an exchange where the replacement costs more, the connector doesn't add a balancing line that uses the **Refund Account**. If cash rounding is needed, it can add a separate line that uses the **Cash Roundings Account**.
 
@@ -595,7 +603,7 @@ You can review imported tax details in the **Tax Lines** page, which you can ope
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-If you enable Shopify Tax Matching for a shop in the US version of Business Central, AI matching suggests tax jurisdictions for unmatched tax lines on imported orders. The connector holds an order for review if a tax line doesn't have a tax jurisdiction or if the Shopify tax rate differs from the existing tax detail rate. These conditions require review regardless of the configured review mode.
+If you enable Shopify Tax Matching for a shop in the US version of Business Central, AI matching suggests tax jurisdictions for unmatched tax lines on imported orders. The connector holds an order for review if a tax line doesn't have a tax jurisdiction or if the **Shopify Rate %** differs from the **Tax Detail Rate %**. These conditions require review regardless of the configured review mode.
 
 On the **Shopify Order** page, choose **Review and Approve Tax Match** or **Review Tax Match**. On the **Tax Match Review** page, review and correct the suggested tax jurisdictions, resolve any rate differences, and then approve the match. After the order no longer requires tax review, you can create the sales document. For prerequisites, setup options, and the detailed review process, go to [Set up and use Shopify Tax Matching](shopify-tax-matching.md).
 

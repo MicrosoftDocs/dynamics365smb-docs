@@ -1,7 +1,7 @@
 ---
 title: Set up and use Shopify Tax Matching
 description: Learn how to set up Shopify Tax Matching, review suggested tax jurisdiction matches, and approve tax setup for imported orders.
-ms.date: 09/30/2026
+ms.date: 10/07/2026
 ms.topic: how-to
 author: andreipa
 ms.author: andreipa
@@ -67,14 +67,14 @@ Shopify Tax Matching processes an imported order when all the following conditio
 - The **Tax Area Code** on the order is blank.
 - At least one tax line doesn't have a tax jurisdiction.
 
-An unidentified tax jurisdiction or a difference between the Shopify rate and an existing tax detail rate always holds the order for review, regardless of the review mode.
+An unidentified tax jurisdiction or a difference between the **Shopify Rate %** and the **Tax Detail Rate %** always holds the order for review, regardless of the review mode.
 
 ## Review and approve a tax match
 
 1. On the **Shopify Order** page, choose **Review and Approve Tax Match** or **Review Tax Match**.
-1. On the **Tax Match Review** page, review the suggested **Tax Jurisdiction Code**, confidence, explanation, Shopify rate, and [!INCLUDE[prod_short](../includes/prod_short.md)] rate for each tax line.
+1. On the **Tax Match Review** page, review the suggested **Tax Jurisdiction Code**, confidence, explanation, **Shopify Rate %**, and **Tax Detail Rate %** for each tax line. The **Tax Detail Rate %** is the rate from the applicable Tax Detail for the matched tax jurisdiction, tax group, and order date.
 1. Change any incorrect or incomplete **Tax Jurisdiction Code**. You can also open the related tax setup from the page.
-1. If a Shopify rate differs from the existing rate, investigate the difference. To apply the Shopify rate, choose **Use Shopify Rate**.
+1. If the **Shopify Rate %** differs from the **Tax Detail Rate %**, investigate the difference. Approving the match keeps the **Tax Detail Rate %** for posting. To update the Tax Detail, choose **Use Shopify Rate**.
 1. Choose **Approve**. Approval requires a tax jurisdiction for every tax line, rebuilds the tax area from the final assignments, and verifies tax jurisdictions that Shopify Tax Matching created for the order.
 1. Create the sales document after the order no longer requires tax review.
 
@@ -88,4 +88,3 @@ Before you create a sales order or sales invoice, you can choose **Undo Approval
 [Taxes in imported Shopify orders](synchronize-orders.md#taxes-in-imported-shopify-orders)
 
 [Application card for Shopify Tax Matching](../shopify-tax-matching-application-card.md)
-

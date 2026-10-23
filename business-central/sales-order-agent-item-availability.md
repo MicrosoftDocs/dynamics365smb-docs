@@ -28,6 +28,8 @@ Admins can set up Sales Order Agent to select only available items for sales quo
 
 When this capability is turned on, Sales Order Agent uses the **Item Availability** page to check an item's availability before adding it to the quote or order. If an item isn't available, reviewers are notified by a **Request Assistance** step in the timeline for the task in the **Task** tab.
 
+Use item availability to understand whether the requested quantity can be supplied on the requested date. When availability checking is on, the agent evaluates the selected item and variant for the requested quantity, location, unit of measure, and date. The page keeps this request context together with projected availability and customer-specific pricing. When availability checking is off, the agent doesn't use stock levels to block the request and can create a quote for a quantity that isn't available.
+
 ![Screenshot of the Sales Order Agent task tab that shows a request-for-assistance step about item availability](media/soa-item-availability.png "Screenshot of the Sales Order Agent task tab that shows a request-for-assistance step about item availability")
 
 As a reviewer, use the **Item Availability** page to verify that items are unavailable. Decide whether to stop the task or let the agent proceed. You can't change items and quantity at this point. If you confirm the step, the agent creates an email to the customer about the unavailable items for your review.
@@ -42,7 +44,7 @@ Here's the general flow:
 The agent creates an email about the unavailable items for your review.
 -->
 
-## How to check item availability page
+## How the Item Availability page works
 
 Before the agent calculates the availability and prices for requested items, it searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page:
 
@@ -50,21 +52,23 @@ Before the agent calculates the availability and prices for requested items, it 
 - If the **Location Code** field on the **Customer Card** is blank, but a responsibility center is assigned to the user or customer, the agent copies the location code from the **Responsibility Center** page.
 - If neither of these applies, the agent copies the location code from the **Location Code** field on the **Company Information** page.
 
-After setting these fields, the agent calculates the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure.
+After it fills in these fields, the agent calculates availability for each selected item and variant. It sets the **Date Filter** field to the customer's requested delivery date, if any, and the **Quantity Filter** field to the requested quantity and unit of measure. The agent uses the same variant when it calculates availability, price, and shipment date and when it creates the sales document line.
 
-As a reviewer, these fields aren't automatically set to the values the agent used. To check availability, set the fields manually based on the customer's request.
+When you open **Item Availability** from the task timeline, the page retains the context that the agent used, including the customer, contact, location, requested quantity and date, and unit of measure. If you open the **Item Availability** page separately, set the filters manually based on the customer's request.
 
 For each item, the following fields are calculated:
 
 |Field|Description|
 |-|-|
-|Requested Quantity Available|Indicates whether the quantity of items requested by the customer, specified by the **Quantity Filter** field, is available. If the **Quantity Filter** is less than or equal to the **Available Quantity (Base UOM)**, the item is available, and the checkbox is selected. If the **Quantity Filter** field is greater than, the item isn't available, and the checkbox is cleared. |
+|Requested Quantity Available|Indicates whether the quantity requested by the customer is available in the unit of measure specified in the **Quantity Filter** field. If the **Quantity Filter** value is less than or equal to the **Available Quantity** value, the item is available and the checkbox is selected. If the **Quantity Filter** value is greater than the **Available Quantity** value, the item isn't available and the checkbox is cleared. |
 |Available Quantity (Base UOM)|Shows the projected available balance of item quantity on the date specified by the **Date Filter**. Calculated by adding the current item inventory in ledger entries to the items in scheduled receipts (inbound transactions like purchase and transfer orders). Then, subtract the items in gross requirements (outbound transactions like sales, service, and production orders). You can select the value to display the totals for item ledger entries and each receipt type. Then, you can drill down to view the source of these totals.|
 |Unit of Measure Code|Shows the item's sales unit of measure code. If the field is empty, the base unit of measure is used.|
 |Unit of Measure|The item's sales or base unit of measure description. Learn more in [Set Up Units of Measure](inventory-how-setup-units-of-measure.md).|
 |Available Quantity|Shows the available quantity in base unit of measure (UOM) recalculated to the sales unit of measure.|
 |Unit Price Including Discount|Shows the item's calculated price for the specific customer, date, and quantity. The agent creates a temporary sales document behind the scenes and applies [!INCLUDE [prod_short](includes/prod_short.md)]'s standard pricing engine, including customer price groups, customer discount groups, and line discount rules. The result reflects the actual price the customer would see on a quote, not the list price from the item card. Learn more in [Record special sales prices and discounts](sales-how-record-sales-price-discount-payment-agreements.md).|
-|Availability Level|Shows the level of the item's availability, such as ***Available** or **Out of Stock**. The value is calculated based on the **Available Quantity (Base UOM)** compared to the **Safety Stock Quantity** specified on the item or storekeeping unit card. Learn more about safety stock in [Design Details: Balancing supply and demand](design-details-balancing-demand-and-supply.md).|
+| Currency Code | Shows the currency for the customer-specific price.|
+| Earliest Shipment Date | Shows the earliest date when the requested quantity can ship when capable-to-promise is enabled.|
+|Availability Level|Shows the level of the item's availability, such as **Available** or **Out of Stock**. The value is calculated by comparing the values in the **Available Quantity (Base UOM)** field to the **Safety Stock Quantity** field on the item or stockkeeping unit. Learn more about safety stock in [Design Details: Balancing supply and demand](design-details-balancing-demand-and-supply.md).|
 
 ## Troubleshoot price calculations
 
@@ -72,7 +76,7 @@ The Sales Order Agent calculates prices by creating a temporary sales document a
 
 To check whether an extension interferes with the price calculation:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Availability**, and then choose the related link.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Item Availability**, and then choose the related link.
 1. In the **Customer No.** field, enter the customer that the agent identified for the request.
 1. Find the item from the request.
 1. If an error notification appears, choose the **Call Stack** action to view the full error trace. If the price is 0 and no notification appears, open the **My Notifications** page and enable **Price calculation errors on Item Availability page**, and then repeat these steps.

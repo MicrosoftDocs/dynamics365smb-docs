@@ -1,7 +1,7 @@
 ---
 title: FAQ for Sales Order Agent
 description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 10/02/2026
+ms.date: 10/23/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -122,6 +122,12 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
   - Delegated administrators can't activate the agent.
   - The agent uses the regional settings specified by its user account.
   - While the agent can recognize and interact with the custom fields and actions introduced by customizations and ISV solutions, which are added to the agent's profile and permissions, the results might vary in quality and should be thoroughly tested. Improving reliability of working with the custom elements might require adjustments to the agent's instructions, which is currently not supported. 
+
+## Why can't Sales Order Agent find a custom field or action?
+
+Sales Order Agent doesn't use the page personalization of the person who reviews its tasks. The agent can interact only with the UI elements available in the profile assigned to the agent account and with data allowed by the agent's permission sets. A field or action that an extension adds might therefore display to a user but be unavailable to the agent.
+
+Check which profile is assigned to the agent, open that profile in customization mode, and go to the relevant page to see the UI available to the agent. Add or show the required fields and actions, verify the extension permissions assigned to the agent, and then test the scenario. Learn more in [Review and customize the agent's profile](sales-order-agent-setup.md#review-and-customize-the-agents-profile).
   
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
@@ -131,7 +137,7 @@ The Sales Order Agent is evaluated using a comprehensive test suite with over 70
 
   We strongly encourage using the permission sets and the profile included with the Sales Order Agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system. If customizations or ISV solutions modify the pages or business logic the agent uses, such as item, contact, and customer cards and lists, or sales quotes and orders, assign the required extension permission sets to the agent account.
 
-  Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#Manage-permission-sets-for-the-agent-account).
+  Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#manage-permission-sets-for-the-agent-account).
 
 - Transparency and notifications
 

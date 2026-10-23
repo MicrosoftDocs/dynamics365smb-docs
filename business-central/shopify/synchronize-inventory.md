@@ -1,7 +1,7 @@
 ---
 title: Synchronize inventory with Shopify
 description: Set up and run inventory synchronization between Business Central and Shopify, including location mapping and fulfillment strategies.
-ms.date: 09/03/2026
+ms.date: 10/14/2026
 ms.topic: how-to
 ms.search.form: 30102, 30116, 30117, 30126, 30127
 author: brentholtorf
@@ -15,10 +15,12 @@ ms.custom: bap-template
 
 Inventory synchronization sends current stock levels from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify so that product availability is accurate across all your Shopify sales channels. [!INCLUDE[prod_short](../includes/prod_short.md)] acts as the system of record for inventory. When you receive goods, complete production, or transfer stock between warehouses, the connector automatically updates Shopify.
 
-You can configure inventory synchronization for items that are already synchronized if two conditions are met:
+You can configure inventory synchronization for items that are already synchronized if these conditions are met:
 
 1. Inventory tracking is enabled for a product in Shopify. If you export items to Shopify, consider enabling the **Inventory Tracked** toggle on the **Shopify Shop** page. Learn more at [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.
-1. Inventory sync is enabled for **Shopify Locations**.
+1. Shopify has an inventory record for the product variant and location.
+1. The Shopify location has a **Stock calculation** method.
+1. If you want to calculate inventory from specific [!INCLUDE[prod_short](../includes/prod_short.md)] locations, the **Location Filter** includes those locations. Leave the field blank to include all locations.
 
 ## Enable inventory sync
 
@@ -27,8 +29,10 @@ You can configure inventory synchronization for items that are already synchroni
 1. Choose the **Locations** action to open **Shopify Shop Locations**.
 1. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find the locations in the [Locations](https://www.shopify.com/admin/settings/locations) settings in your **Shopify Admin**.
 1. In the **Location Filter** field, add locations if you want to include inventory from specific locations only. For example, enter **EAST|WEST** to make the inventory from only these two locations available for sales via the online shop.
-1. Select the stock calculation method to use for the selected Shopify locations.
-1. Enable **Default Product Location** if you want the location to be used for creation of inventory records and to participate in the inventory synchronization.
+1. In the **Stock calculation** field, choose the method to use for the selected Shopify locations.
+1. Enable **Default Product Location** if you want the connector to assign new products to the location and create inventory records there when it exports the products to Shopify. This setting doesn't create inventory records for products that already exist in Shopify. For an existing product, assign its inventory to the location in Shopify before you synchronize inventory. To learn more, go to [Manage fulfillments and locations](#manage-fulfillments-and-locations).
+
+Manual and scheduled inventory synchronization use the current **Stock calculation** and **Location Filter** settings for each Shopify location. If you change either setting, run **Sync inventory** again. The connector recalculates inventory using the updated settings and updates Shopify when the calculated quantity differs from the quantity in Shopify.
 
 The remaining sections in this article describe ways to synchronize inventory.
 
@@ -52,11 +56,8 @@ Use the **Sync Stock to Shopify** report to synchronize specific variants or to 
 
     |Option|Description|
     |------|-----------|
-    |**Variant ID Filter**|Synchronize only the Shopify variants that match the filter. Use standard filter expressions, such as `1000|2000`, to include multiple variant IDs. The filter applies only when you export inventory to Shopify. It doesn't limit the inventory that the connector first imports from Shopify.|
-    |**Skip Import Stock**|Skip importing inventory from Shopify and export the calculated inventory from [!INCLUDE [prod_short](../includes/prod_short.md)]. The connector exports matching inventory even when the calculated quantity equals the last imported Shopify quantity.|
-
-    > [!CAUTION]
-    > Before you select **Skip Import Stock**, run the report with this option turned off. Continue to run the report with the option turned off periodically to refresh Shopify quantities and remove obsolete local inventory records. The first run also creates the local inventory records for the variants and locations.
+    |**Variant ID Filter**|Synchronize only the Shopify variants that match the filter. Use standard filter expressions, such as `1000|2000`, to include multiple variant IDs. The filter applies only when you export inventory to Shopify. It doesn't limit the inventory that the connector first imports from Shopify.</br></br>To find the Shopify variant ID, open the **Shopify Shops** page, select the shop, and choose the **Products** action. On the **Shopify Products** page, select the product, locate the variant in the **Shopify Variants** section, and copy its **ID**. Don't use the **ID** from the product list because it's the product ID.|
+    |**Skip Import Stock**|Skip importing inventory from Shopify and export the calculated inventory from [!INCLUDE [prod_short](../includes/prod_short.md)]. The connector exports matching inventory even when the calculated quantity equals the last imported Shopify quantity.</br></br>Use this option only after an inventory sync has created a local inventory record for the variant and Shopify location. If the record doesn't exist, run the report once with this option turned off. Continue to run it with the option turned off periodically to refresh Shopify quantities and remove obsolete local inventory records.|
 
 1. Select **OK** to run the report.
 
@@ -66,7 +67,7 @@ Consider the following information when you synchronize inventory:
 
 * There are two standard stock calculation methods, **Projected Available Balance at Today** and **Free Inventory (not reserved)**. However, you can use extensibility to add more. Learn more at [examples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation).
 * If the stock information in Shopify differs from the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], the stock updates in Shopify.
-* When you add a new location in Shopify, you must also add inventory records for it. Shopify doesn't automatically add inventory records for existing products and variants, and the connector doesn't synchronize inventory levels for such items in the new location. Learn more at [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
+* When you add a new location in Shopify, you must also add inventory records for it. Shopify doesn't automatically add inventory records for existing products and variants, and the connector doesn't synchronize inventory levels for such items in the new location. The **Default Product Location** setting applies when the connector creates products. It doesn't add the new location to existing products. Learn more at [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 * You can use both **Business Central Fulfillment Services** and normal locations for shipping and inventory.
 * When you deal with bundles, check whether adjusting inventory via an API is allowed for those products. For example, the **Shopify Bundles** app calculates availability of bundles based on the availability of the components and prevents updates via APIs. It's a good idea to map Shopify products of the type **Bundle** to items of the type **Non-inventory**. Non-inventory and service items are excluded from inventory synchronization.
 
@@ -160,6 +161,7 @@ If the inventory level doesn't sync with Shopify, try these checks.
     * check that the **Track quantity** toggle is turned on.
     * check whether the affected location appears in the **Inventory** section. If the location is missing, inventory isn't assigned to that location. Learn more at [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 1. Go to the **Shopify Products** page, locate the product, and verify that the Shopify variant is linked to the correct item and item variant, if needed. Check the **Item No.** and **Variant No.** fields in the **Shopify Variants** part. The connector excludes non-inventory and service items from inventory synchronization.
+1. Run a targeted inventory sync for the affected Shopify variant. First, leave **Skip Import Stock** turned off so that the connector imports the current Shopify inventory before export. If the issue remains, run the same variant again with **Skip Import Stock** turned on to force the connector to export the calculated inventory. Learn more at [Run a targeted inventory sync](#run-a-targeted-inventory-sync).
 1. Go to the **Shopify Products** page, locate the product, and check the stock details in the **Shopify Inventory** FactBox for the affected variant and location. The FactBox shows the stock in Shopify, the last stock calculated in [!INCLUDE[prod_short](../includes/prod_short.md)], and when each value was updated. There's one record per location.
     * Compare **Shopify Stock** with **Last Calculated Stock**. If the values are equal, the connector doesn't send an update to Shopify.
     * If the values differ, check **Last Synced On** and **Last Calculated On**. **Last Synced On** shows when the stock was last imported from Shopify. **Last Calculated On** shows when the stock was last calculated in [!INCLUDE[prod_short](../includes/prod_short.md)].

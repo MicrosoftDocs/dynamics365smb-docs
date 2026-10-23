@@ -1,7 +1,7 @@
 ---
-title: Getting started with the connector for Shopify
-description: First steps when configuring a connection between Business Central and Shopify.
-ms.date: 09/04/2026
+title: Get started with the Shopify Connector
+description: Learn how to connect one or more Shopify online stores to Business Central, including prerequisites, installation options, and testing strategies.
+ms.date: 09/22/2026
 ms.topic: get-started
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -13,9 +13,7 @@ ms.custom: bap-template
 
 # Get started with the Shopify Connector
 
-Connect your Shopify stores with [!INCLUDE [prod_short](../includes/prod_short.md)] and maximize your business productivity. Manage and view insights from your business and your Shopify store as one unit.
-
-To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you must do a couple of things first. This article serves as a guide to integrate your Shopify store with [!INCLUDE [prod_short](../includes/prod_short.md)].
+Use this article to connect one or more Shopify online stores to [!INCLUDE [prod_short](../includes/prod_short.md)]. It covers prerequisites, installation options, connection steps, and testing strategies.
 
 ## Prerequisites for Shopify
 

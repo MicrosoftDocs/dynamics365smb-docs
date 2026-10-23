@@ -4,7 +4,7 @@ description: Import customers and companies from or export to Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 07/13/2026
+ms.date: 10/14/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
@@ -42,7 +42,7 @@ Whether you import customers from Shopify in bulk or when you import orders, use
 |------|-----------|
 |**Customer Import from Shopify**|Select **All Customers** if you plan to import customers from Shopify in bulk; either manually using the **Sync Customers** action or via the job queue for recurring updates. Regardless of the selection, the customer information will always be imported together with the order. However, the use of this information depends on the **Customer Setup by Country/Region** page and settings in the **Customer Mapping Type** field.|
 |**Customer Mapping Type**|Define how you want the connector to perform the mapping.</br></br>- **By EMail/Phone** if you want the connector to use email account and telephone information to map the imported Shopify customer to a customer in Business Central.</br></br>- **By Bill-to Info** if you want the connector to use the address of the invoice recipient to map the imported Shopify customer to an existing customer in Business Central.</br></br>- **Always take the default customer** if you want the system to use a customer from the **Default Customer No.** field. |
-|**Shopify Can Update Customers**| Select this field if you want the connector to update the customers it finds when either of the **By EMail/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. When you use the **Sync Customers** action, this setting also updates the customers you imported with Shopify orders.|
+|**Shopify Can Update Customers**|Select this field if you want the connector to update the customers it finds when either of the **By EMail/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. When you use the **Sync Customers** action, this setting also updates the customers you imported with Shopify orders. The [customer field table](#populate-customer-information-in-business-central) describes which fields the connector updates.|
 |**Auto Create Unknown Customers**| Select this field if you want the connector to create missing customers when the **By EMail/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. A new customer is created using imported data and the **Customer Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details. If this option isn't enabled, you must create a customer manually and link it to the Shopify customer.|
 |**Customer/Company Template Code**|Use this field together with **Auto Create Unknown Customers**.</br></br>Choose the default template to use for automatically created customers. Make sure the selected template contains the mandatory fields such as **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT) or tax-related fields.</br></br>You can define templates per country/region on the **Customer Setup by Country/Region** page, which helps calculate taxes correctly.</br></br>Learn more at [Set Up Taxes](synchronize-orders.md#address-dependent-tax-rates).|
 
@@ -50,35 +50,40 @@ Learn more at [How the connector chooses which customer to use](synchronize-orde
 
 ### Customer setup per country/region
 
-Some settings can be defined at the country/regional level or a state/province level. The settings can be configured in [Shipping and Delivery](https://www.shopify.com/admin/settings/shipping) in Shopify.
+When you enable a Shopify shop, the connector automatically populates the country/region setup with the countries and regions where the merchant allows shipping. You configure these settings in [Shipping and Delivery](https://www.shopify.com/admin/settings/shipping) in Shopify. For each country or region, the connector adds province or state names and codes to the **Shopify Tax Areas** section.
+
+To refresh or complete the list later, choose the import action on the page. The action adds missing country or region and province or state rows without overwriting the tax settings in existing rows.
 
 You can do the following for each customer using the **Customer Setup by Country/Region** page:
 
 1. Specify the **Default Customer No.**, which takes priority over the selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields. It's used in the imported sales order.
 2. Define the **Customer Template Code**, which is used to create missing customers if **Auto Create Unknown Customers** is enabled. If the **Customer Template Code** is empty, then the function uses the **Customer Template Code** defined on the **Shopify Shop Card**. The system first tries to find a template for the **Country/Region Code** for the default address. If it doesn't find a template, it uses the first address.
-3. In some cases, the **Customer Template Code** defined for a country/region isn't enough to ensure correct tax calculations (for example, for countries/regions with sales tax). In this case, including **Tax Area** could be a useful addition.
-4. The **Tax Area** field also contains a **Country Code** and **County Name** pair. This pair is useful when the connector needs to convert a code to a name, or vice versa.
+3. If the **Customer Template Code** isn't enough to ensure correct tax calculations, use **Shopify Tax Areas** to define **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** by country/region and province.
 
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. Learn more at [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
 ### Populate customer information in Business Central
 
-A customer in Shopify has a first name, family name, email, and/or phone number. A customer might also have multiple addresses that might contain a company and address in addition to their first name, family name, and/or phone number. The following table describes how data from the customer and address is imported into [!INCLUDE[prod_short](../includes/prod_short.md)]. Note that while the customer might have multiple addresses, only one is marked as default and is used to populate fields in [!INCLUDE[prod_short](../includes/prod_short.md)].
+A customer in Shopify has a first name, family name, email, phone number, and one or more addresses. The connector normally uses the default Shopify address. If the customer doesn't have a default address, the connector uses the first available address. When an order uses **By Bill-to Info** customer mapping, the connector can use the address that matches the order's bill-to information to create the customer.
 
-|[!INCLUDE[prod_short](../includes/prod_short.md)]|Field when imported from Shopify|
-|------|-----------------|
-|Name| Based on the selection in the **Name Source** field, this field can contain first and last name, or company from the default address. |
-|Name 2|Based on the selection in the **Name 2 Source** field, this field can contain first and last name, or company from the default address. </br>Field is populated only if **Name** already has a value. Otherwise, the extracted value is assigned to the **Name** field. |
-|Contact |Based on the selection in the **Contact Source** field, this field can contain first and last name, or company from the default address. </br>Field is populated only if **Name** already has value. Otherwise, the extracted value is assigned to the **Name** field. |
-|Country / Region Code| Country from the default address. Mapping is done by ISO code.|
-|County | State/Province from the default address. Based on selection in the **State Source** field, it can be a code or description.|
-|Post Code| Zip code from the default address.|
-|City| City from the default address.|
-|Phone| Phone number from the default address. If a phone number isn't defined for the default address, then it's the phone number from the customer.|
-|Email|Email address from the customer.|
+The connector uses the same fields when it creates a customer and when it updates a customer if **Shopify Can Update Customers** is selected. For a new customer, the connector applies the customer template before it populates the fields in the following table.
 
-The **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** are from the [Customer setup per country/region](#customer-setup-per-countryregion).
+|Field in [!INCLUDE[prod_short](../includes/prod_short.md)]|Source value|Behavior when updating the customer|
+|------|-----------------|-----------------|
+|**Name**|First and last name or company from the selected address, based on the **Name Source** field.|Replaces the existing value. If the selected source is blank, the connector uses the value from **Name 2 Source**, and then **Contact Source**.|
+|**Name 2**|First and last name or company from the selected address, based on the **Name 2 Source** field.|Replaces the existing value when **Name Source** provides a value. If **Name** is blank, the connector assigns this value to **Name** instead.|
+|**Contact**|First and last name from the selected address, based on the **Contact Source** field.|Replaces the existing value. If **Name Source** and **Name 2 Source** are blank, the connector assigns this value to **Name** instead.|
+|**Address**|Address line 1 from the selected address.|Replaces the existing value. If the Shopify address line is empty, the connector clears this field.|
+|**Address 2**|Address line 2 from the selected address.|Replaces the existing value. If the Shopify address line is empty, the connector clears this field.|
+|**Country/Region Code**|Country/region from the selected address. The connector maps the country/region by ISO code.|Replaces the existing value.|
+|**County**|Province or state from the selected address. The **County Source** field on the **Shopify Shop Card** page specifies whether to use the province or state code or name.|Replaces the existing value. If the Shopify province or state is empty, the connector clears this field.|
+|**Post Code**|Postal or ZIP code from the selected address.|Replaces the existing value. If the Shopify postal or ZIP code is empty, the connector clears this field.|
+|**City**|City from the selected address.|Replaces the existing value. If the Shopify city is empty, the connector clears this field.|
+|**Phone No.**|Phone number from the selected address. If the address doesn't have a phone number, the connector uses the customer phone number.|Replaces the existing value when Shopify provides a phone number. Otherwise, the connector keeps the existing value.|
+|**E-Mail**|Email address from the customer.|Replaces the existing value when Shopify provides an email address. Otherwise, the connector keeps the existing value.|
+|**Tax Area Code** and **Tax Liable**|Values from the matching [customer setup per country/region](#customer-setup-per-countryregion). The connector uses the country/region code and province name to find the matching **Shopify Tax Areas** entry. If the Shopify address has no province, the connector matches only an entry with a blank province.|The connector updates both fields together, but only when the matching Shopify Tax Area entry has a **Tax Area Code**.|
+|**VAT Bus. Posting Group**|Value from the same matching **Shopify Tax Areas** entry.|Replaces the existing value only when the matching entry has a **VAT Bus. Posting Group**.|
 
 ## Important settings when exporting DTC customers to Shopify
 
@@ -118,7 +123,12 @@ A customer in Shopify also has a default address. The address might contain a co
 |1|**Name**|Highest priority, if the **Name Source** field in the **Shopify Shop Card** contains *Company Name*.|
 |2|**Name 2**|Lowest priority, if the **Name 2 Source** field in the **Shopify Shop Card** contains *Company Name*.|
 
-For addresses where the county/province is used, select **Code** or **Name** in the **County Source** field on the **Shopify Shop Card** page. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **County** field. Remember to initialize customer setup per country/region so that the county code/name mapping is ready.
+The connector converts address fields as described in the following table.
+
+|Field in Shopify|Source and conversion|
+|------|-----------|
+|Country/region|The connector converts the customer's **Country/Region Code** to the **ISO Code** for the country/region. If the customer's **Country/Region Code** is blank, the connector uses the country/region from the **Company Information** page.|
+|Province or state|The **County Source** field on the **Shopify Shop Card** page specifies how the connector interprets the customer's **County**. If you choose **Code**, the connector matches **County** to **County Code** in **Shopify Tax Areas**. If you choose **Name**, it matches **County** to **County** in **Shopify Tax Areas**. A matching row provides the province or state code and name that Shopify requires.|
 
 ## Export DTC customers to Shopify
 
@@ -151,7 +161,7 @@ If you use B2B in Shopify, you can create companies in addition to customers. Yo
 
 ### Important settings when importing B2B companies from Shopify
 
-The Shopify Connector imports all company locations, including billing address, payment terms and tax IDs, which it can use for automatic entity mapping. The information is available on the **Shopify Locations** page, which you open the page from the **Shopify Companies** and **Shopify Company Card** pages. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. This location is marked as the **Default**.
+The Shopify Connector imports all company locations, including billing address, payment terms, and tax IDs, which it uses for automatic entity mapping. You can view this information on the **Shopify Company Locations** page, which you open by choosing the **Shopify Locations** action on the **Shopify Companies** or **Shopify Company Card** page. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. This location is marked as the **Default**.
 
 When you import a Shopify company, you get the associated payment terms for each company location. If the Shopify Connector is configured to update the customer, it uses the payment term from the default location. It's important that the corresponding record exists on the **Shopify Payment Terms Mapping** page.
 

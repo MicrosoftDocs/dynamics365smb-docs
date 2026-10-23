@@ -1,7 +1,7 @@
 ---
 title: Set up and process a subcontracting operation
 description: Walkthrough to learn how to set up and process a subcontracting operation with component transfers, work-in-progress tracking, and returns in Business Central.
-ms.date: 08/13/2026
+ms.date: 10/16/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -36,7 +36,7 @@ To complete this scenario, you need:
 1. Open the item card page for item **SP-SCM1009, Airpot**.
 1. On the **Replenishment** FastTab, set the **Routing No.** field to **SP-SCM1009-SUB-1**.
 
-   This routing has four operations. The first operation uses **Work Center 500 (Subcontractor)**. The remaining three operations (electrical wiring, testing, packing) are performed in-house.
+   This routing has four operations. The first operation uses **Work Center 500 (Bulk Assembly)**, which is linked to vendor **82000, Bulk Assembly**. You perform the remaining three operations (electrical wiring, testing, packing) in-house.
 
 ### Configure the production BOM for component transfers
 
@@ -81,10 +81,10 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
 ### Set the subcontracting location code on the vendor
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
-1. Open the vendor card for **82000, Subcontractor**.
-1. In the **Subcontracting Location Code** field, enter **82000**.
+1. Open the vendor card for **82000, Bulk Assembly**.
+1. In the **Subcontracting Location Code** field, enter **S82000**.
 
-   This field tells [!INCLUDE [prod_short](../../includes/prod_short.md)] where the subcontractor's facility is located. Without this information, the production order refresh fails because [!INCLUDE [prod_short](../../includes/prod_short.md)] can't determine where to send components.
+   The demo data creates location **S82000, Bulk Assembly**, but you must assign it to the vendor. This field tells [!INCLUDE [prod_short](../../includes/prod_short.md)] where the subcontractor's facility is located. Without this information, the production order refresh fails because [!INCLUDE [prod_short](../../includes/prod_short.md)] can't determine where to send components.
 
 ### Create and refresh the production order
 
@@ -116,7 +116,7 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
 1. Select operation **10**.
 1. Select the **Functions** action, and then select **Create Subcontracting Order**.
 
-   A purchase order is created for vendor 82000 (Subcontractor).
+   A purchase order is created for vendor **82000, Bulk Assembly**.
 1. Open the purchase order.
 
    The **Lines** FastTab shows the subcontracting work line. If you turn on the **Create Production Order Info Line** toggle on the **Manufacturing Setup** page, a comment line with the production order line description also appears.
@@ -129,7 +129,7 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
 
    A transfer order is created with two types of lines:
 
-   - **Component lines**: the raw materials (SP-BOM1101 and SP-BOM1102) being transferred from MAIN to location 82000 (Subcontracting).
+   - **Component lines**: the raw materials (SP-BOM1101 and SP-BOM1102) being transferred from **MAIN** to location **S82000, Bulk Assembly**.
    - **WIP item line**: the work-in-progress item (SP-SCM1009) with the description "Airpot - body assembled (WIP)" that you defined on the routing.
 
 1. Post the transfer order. Because it's set up as a direct transfer, it posts the shipment and receipt together.

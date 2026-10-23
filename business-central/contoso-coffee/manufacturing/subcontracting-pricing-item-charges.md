@@ -1,7 +1,7 @@
 ---
 title: Set up subcontracting prices and allocate item charges
 description: Walkthrough to learn how to set up subcontracting price lists and allocate extra costs using item charges in Business Central.
-ms.date: 08/13/2026
+ms.date: 10/19/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -26,21 +26,22 @@ To run this scenario, you need:
 
 - The Contoso Coffee Manufacturing demo data installed with opening balances posted.
 - The **Subcontracting** app installed from the marketplace.
-- Item **SP-SCM1009** with **Routing No.** set to **SP-SCM1009-SUB-F** (single subcontracting operation). If you ran a previous walkthrough with routing SUB-1, change it back to SUB-F on the item card.
+- Item **SP-SCM1009** with **Routing No.** set to **SP-SCM1009-SUB-F** (single subcontracting operation on **Work Center 600, Local Assembly**, linked to vendor **83000, Local Assembly**). If you ran a previous walkthrough with routing SUB-1, change it back to SUB-F on the item card.
+- Vendor **83000, Local Assembly** with **Subcontracting Location Code** set to **S83000**. Learn more in [Set the subcontracting location code on the vendor](subcontracting-component-supply-methods.md#set-the-subcontracting-location-code-on-the-vendor).
 
 > [!IMPORTANT]
 > This scenario creates subcontracting price entries and posts purchase documents. If you want to repeat the scenario, delete the price entry and any open production or purchase orders from the previous run.
 
 ## Set up the subcontracting price list
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Prices**, and then select the related link.
-1. Select the **New** action and fill in the fields as described in the following table.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontractor Prices**, and then choose the related link.
+1. On a new line, fill in the fields as described in the following table.
 
    | Field | Value |
    | --------- | --------- |
-   | **Vendor No.** | 82000 |
+   | **Vendor No.** | 83000 |
    | **Item No.** | SP-SCM1009 |
-   | **Work Center No.** | 500 |
+   | **Work Center No.** | 600 |
    | **Direct Unit Cost** | 15.00 |
    | **Minimum Amount** | 100.00 |
 
@@ -87,7 +88,7 @@ To run this scenario, you need:
 1. Set the **Quantity** to **1** and the **Direct Unit Cost** to **50.00**.
 1. With the item charge line selected, select the **Line** action, and then select **Item Charge Assignment**.
 1. On the **Item Charge Assignment** page, select the **Get Receipt Lines** action.
-1. Find the posted receipt line for the subcontracting work (vendor 82000, item SP-SCM1009). Select it, and then select **OK**.
+1. Find the posted receipt line for the subcontracting work (vendor **83000**, item **SP-SCM1009**). Select the line, and then choose **OK**.
 1. Verify that the **Qty. to Assign** is set to **1** on the receipt line. Close the **Item Charge Assignment** page.
 1. Select the **Post** action to post the purchase invoice.
 

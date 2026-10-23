@@ -89,20 +89,6 @@ When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] templat
 | Subscription Billing           | 27.0 and later | https://aka.ms/bc-pbi-subscription-billing-app   |
 | Sustainability                 | 27.0 and later | https://aka.ms/bc-pbi-sustainability-app         |
 
-#### Power BI apps (version 26)
-
-| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
-|--------------------------------| -------------- | ------------------------------------------------ |
-| Finance                        | version 26 | https://aka.ms/bc-pbi-finance-app-26-2             |
-| Inventory                      | version 26 | https://aka.ms/bc-pbi-inventory-app-26-2           |
-| Inventory Valuation            | version 26 | https://aka.ms/bc-pbi-inventory-valuation-app-26-2 | 
-| Manufacturing                  | version 26 | https://aka.ms/bc-pbi-manufacturing-app-26-2       |
-| Purchasing                     | version 26 | https://aka.ms/bc-pbi-purchase-app-26-2            |
-| Projects                       | version 26 | https://aka.ms/bc-pbi-projects-app-26-2            |
-| Sales                          | version 26 | https://aka.ms/bc-pbi-sales-app-26-2               |
-| Subscription Billing           | version 26 | https://aka.ms/bc-pbi-subscription-billing-app     |
-| Sustainability                 | version 26 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
-
 ### Need Power BI apps for multiple companies?
 
 [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]

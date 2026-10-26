@@ -1,13 +1,14 @@
 ---
 title: Making Tax Digital - Submitting VAT Returns
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
-author: sorenfriisalexandersen
+author: jswymer
 ms.topic: how-to
 ms.search.keywords: making tax digital, VAT, HMRC
 ms.search.form: 743, 10530, 10531, 10532, 10537, 10538, 10539, 
-ms.date: 02/20/2025
+ms.date: 10/19/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -37,52 +38,54 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the VAT Ret
 
 ## Set up Making Tax Digital for VAT
 
-The *Making Tax Digital* integration uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.  
+The *Making Tax Digital* integration uses a service connection to communicate with HMRC. [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, give the **Dynamics 365 Business Central MTD VAT** application authority to interact with HMRC on your behalf. Microsoft manages this application on the HMRC website. In Business Central online, the authorization flow returns the authorization code automatically.
   
 > [!NOTE]
-> The following procedure describes the steps to set up Making Tax Digital in [!INCLUDE [prod_short](../../includes/prod_short.md)] online. If you're using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, there are some [additional steps]. Refer to the [Setup requirements for on-premises versions](#setup-requirements-for-on-premises-versions) section before you start to set up the service connection.
+> The following procedure describes the steps to set up Making Tax Digital in [!INCLUDE [prod_short](../../includes/prod_short.md)] online. If you're using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, refer to [Setup requirements for on-premises versions](#setup-requirements-for-on-premises-versions) before you set up the service connection.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Service Connections**, and then choose the related link.
 1. On the **Service Connections** page, choose **HMRC VAT Setup**.
 1. To open a GOV.UK website and request an authorization code, choose **Process**, then **Request Authorization Code**, and then choose **Continue**.  
 1. Sign in with your HMRC credentials. To allow the **Dynamics 365 Business Central MTD VAT** application to interact with HMRC on your behalf, choose **Grant authority**.
-1. A confirmation page displays "Authorization granted" and an authorization code. To copy the authorization code, choose **Copy**.
-1. Return to the service connection you're setting up, and paste the authorization code in the **Enter Authorization Code** field. Then choose **Enter**. Note that the authorization code is valid for 10 minutes. To set up the connection, you must enter the code in [!INCLUDE[prod_short](../../includes/prod_short.md)] before it expires.
+1. Complete the authorization flow. Business Central uses the returned code to request access and refresh tokens.
+1. When authorization succeeds, choose **Yes** to open **Company Information**. Verify that the **VAT Registration No.** is correct and matches the number registered with HMRC.
 
-    > [!NOTE]
-    > [!INCLUDE[prod_short](../../includes/prod_short.md)] uses the authorization code to test whether the service connection can communicate with HMRC. If the connection is successful, a confirmation page prompts you to verify your VAT registration number. To open the **Company Information** page and verify the number is correct, and the one you used to register with HMRC, choose **Yes**.
+For on-premises installations, the authorization request opens the HMRC website instead. Copy the authorization code back to the service connection and enter it in **Enter Authorization Code**. The code is valid for 10 minutes.
 
-You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] Learn more about setting up VAT reporting, [here](../../finance-setup-vat.md#set-up-vat-reporting).  
+On the **VAT Report Setup** page, turn on **Enabled** on the **Making Tax Digital** FastTab and accept the consent prompt. Business Central blocks MTD requests if this setting is turned off. Fill in the remaining fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] Learn more in [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).
 
 > [!IMPORTANT]
 > Starting in March 2022, the **User IP Address Service** must specify an endpoint for the service that your company uses to extract and submit the [IP address](fraud-prevention-data.md#ip-addresses) of the user who sends the VAT report.
 
 ### Setup requirements for on-premises versions
 
+The app initializes an `HMRC MTD` VAT report configuration and the related VAT report setup. Check the existing configuration before creating another one. If you need to configure the reports manually, use the following values.
+
 1. You must add a VAT report configuration on the **VAT Reports Configuration** page.  
   
-    a. Create a new configuration, and choose the VAT Return type.  
-    b. Give the configuration a descriptive name, such as **HMRC MTD**.  
-    c. In the **Suggest Lines Codeunit ID** field, choose codeunit **745**.  
-    d. In the **Content Codeunit ID** field, choose codeunit **10531**.  
-    e. In the **Submission Codeunit ID** field, choose codeunit **10532**.  
-    f. In the **Validate Codeunit ID** field, choose codeunit **10533**.  
-    g. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+    1. Create a new configuration, and choose the **VAT Return** type.
+    1. Give the configuration a descriptive name, such as `HMRC MTD`.
+    1. In the **Suggest Lines Codeunit ID** field, choose codeunit `745`.
+    1. In the **Content Codeunit ID** field, choose codeunit `10531`.
+    1. In the **Submission Codeunit ID** field, choose codeunit `10532`.
+    1. In the **Validate Codeunit ID** field, choose codeunit `10533`.
+    1. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 1. You must edit the VAT report setup on the **VAT Report Setup** page.  
   
-    a. Expand the **Return Period** FastTab.  
-    b. In the **Report Version** field, choose the VAT report configuration that you created in the previous step.  
-    c. In the **Manual Receive Codeunit ID** field, choose codeunit **10534**.  
-    d. In the **Receive Submitted Return Codeunit ID** field, choose codeunit **10536**.  
-    e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.  
-    f. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+    1. Expand the **Making Tax Digital** FastTab.
+    1. In the **Report Version** field, choose the VAT report configuration that you created in the previous step.
+    1. In the **Manual Receive Codeunit ID** field, choose codeunit `10534`.
+    1. In the **Receive Submitted Return Codeunit ID** field, choose codeunit `10536`.
+    1. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 1. Create an [application registration for Business Central in Azure portal](/dynamics365/business-central/dev-itpro/administration/register-app-azure). When you set up the service connection in [!INCLUDE [prod_short](../../includes/prod_short.md)], you need the following information from the registration:
 
     * Client ID
     * Client Secret
     * Redirect URL
+
+The app initializes codeunit `10535` for automatic retrieval of VAT return periods and sets the update frequency to **Never**. The MTD app hides the **Auto Update Job** group on **VAT Report Setup**, so this page doesn't expose the job frequency setting.
 
 ## VAT obligations
 
@@ -93,7 +96,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 
 ### Retrieve the VAT return periods from HMRC
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Return Periods**, and then choose the related link.
 1. On the **VAT Return Periods** page, choose the **Get VAT Return Periods** action.
 1. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK**.  
 
@@ -108,19 +111,19 @@ Use this report to submit VAT for sales and purchase documents. For example, pur
 
 ### Create and submit a VAT return
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Return Periods**, and then choose the related link.
 1. On the **VAT Return Periods** page, choose the relevant period, and then choose the **Create VAT Return** action.
 1. If you want to open the VAT return, on the confirmation page, choose **Yes**.
 1. On the **VAT Return** page, to calculate and prepare the amounts for the VAT return, choose **Process**, and then choose the **Suggest Lines** action.  
 1. Fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]. VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
 1. To release the VAT return and prepare it for submission, choose **Process**, and then choose the **Release** action. After you release a VAT return, you can't edit it. If you need to change something, you must reopen the return. Releasing the VAT return doesn't submit it.
-1. To submit the VAT return to HMRC, choose **Process**, and then choose the **Submit** action.  
+1. To submit the VAT return to HMRC, choose **Process** > **Submit**. Confirm the legal declaration that the information is true and complete.
 
-A successful submission of the VAT Return results in a status of *Accepted* on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission isn't set to *Approved*, a previously submitted VAT Return can be retrieved from the HMRC.
+After a successful submission, Business Central sets the VAT return status to **Submitted** and retrieves the submitted return from HMRC. If retrieval succeeds, Business Central changes the status to **Accepted**. If the return remains **Submitted**, retrieve the previously submitted VAT return from HMRC.
 
 ### Receive previously submitted VAT returns from HMRC
 
-1. Choose the ![Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Return Periods**, and then choose the related link.
 1. On the **VAT Return Periods** page, choose the relevant VAT return period.
 1. On the **VAT Return Period Card** page, choose the **Receive Submitted VAT Returns** action.
 
@@ -134,9 +137,9 @@ Depending on where they are in the process, VAT returns can have one of the foll
 | **Released** | Status is changed when you manually run the **Release** action. The **Errors and Warnings** FastTab is available. You can't make changes or run the **Suggest Lines** action. To make changes, you must reopen this **VAT Return**. |
 | **Rejected** | If your submission wasn't successful (for example, if authentication failed), the **VAT Return** status is changed to **Rejected**. You can't reopen the **VAT Return** from this status. |
 | **Submitted** | **VAT Return** is submitted using the **Submit** action or it's marked as submitted using the **Mark as Submitted** action. |
-| **Accepted** | **VAT Return** gets this status if the report is marked with the **Mark as Accepted** action. The **Accepted** status can be assigned automatically after user sends the VAT Return to the tax authority (Business Central calls the **Get VAT Returns** method and checks whether the VAT return is in the response). If the **VAT Return** report is marked as **Accepted**, you can run the **Calculate and Post VAT Settlement** action. |
-| **Partially Accepted** | Business Central can assign the **Partially Accepted** status related to GovTalk information that was collected using the **Get VAT Returns** method.
-| **Closed** | When request called Get VAT obligations check whether the obligation for which the user created the VAT return is closed. Business Central automatically marks the **VAT Return** as **Closed**. |
+| **Accepted** | Business Central changes a **Submitted** VAT return to **Accepted** when it retrieves the submitted return from HMRC. A return can also be marked with the **Mark as Accepted** action. If the VAT return is **Accepted**, you can run the **Calculate and Post VAT Settlement** action. |
+| **Partially Accepted** | Business Central can assign this status for GovTalk information collected by using the **Get VAT Returns** method. |
+| **Closed** | When retrieved VAT obligations change a linked VAT return period from **Open** to **Closed**, Business Central changes an **Accepted** VAT return to **Closed**. |
 
 ## VAT liabilities and payments
 
@@ -144,7 +147,7 @@ If you want to check the status of your VAT, you can retrieve information from H
 
 To retrieve VAT liabilities:
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Liabilities**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Liabilities**, and then choose the related link.
 1. On the **VAT Liabilities** page, choose **Process**, and then select **Get Liabilities**.
 1. Enter the **Start Date** and **End Date** of the period to retrieve VAT liabilities for, and then choose **OK**.
 
@@ -152,7 +155,7 @@ The VAT liabilities are now retrieved from HMRC and you can view them on the **V
 
 To retrieve VAT payments from HMRC:
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Payments**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Payments**, and then choose the related link.
 1. On the **VAT Payments** page, choose **Process**, and then choose **Get Payments**.
 1. Enter the **Start Date** and **End Date** of the period to retrieve VAT payments for, and then choose **OK**.
 

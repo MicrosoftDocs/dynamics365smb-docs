@@ -1,14 +1,15 @@
 ---
-title: Sale of Services to Overseas Place of Supply to registered customer
+title: Sale of Services to Overseas Place of Supply to Registered Customer
 description: Explains how to process sales of services to registered customers when the place of supply is overseas, under GST regulations in India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, sale of services, overseas place of supply
-ms.date: 06/23/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Sale of services to overseas place of supply to registered customer
@@ -19,10 +20,12 @@ Process of sale to a registered customer with overseas place of supply  has been
 
 ## Create a sales invoice
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Sales Invoices**, and then choose the related link.
 1. Select **Customer** on **Sales Invoice** header, GST customer type should be **Registered**.
 1. Select **G/L Account** on **Sales Invoice** line. GST Group Code, HSN/SAC Code shouldn't be blank on the G/L Account Card.
 1. **POS Out of India** field on **Sales Invoice** header should be marked as True.
+
+The document must be open and marked as a **GST Invoice**. The location state and the customer's place-of-supply state must match for this option. **GST Place Of Supply** on the lines can't be **Location Address**.
 
 For example, there's a sales invoice for INR 10,000 and 18% IGST has to be charged on the invoice amount.
 
@@ -33,7 +36,7 @@ For example, there's a sales invoice for INR 10,000 and 18% IGST has to be charg
     |**GST Base Amount**|10,000|  
     |**IGST**|1800|  
 
-- GL Entries for Intra-State Sale of services to overseas place of supply to registered customer are as following:
+- G/L entries for this sale of services with an overseas place of supply are as follows:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

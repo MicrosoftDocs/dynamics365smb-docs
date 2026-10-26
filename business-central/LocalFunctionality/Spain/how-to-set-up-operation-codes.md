@@ -1,14 +1,15 @@
 ---
-title: How to Set Up Operation Codes
+title: Set Up Operation Codes for Spanish VAT Reporting
 description: You can add any number of operation codes to the table, except for the system-created codes C, D, and I, which are already available in Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: operation codes, set up operation codes, link operation code, general product posting groups, posting groups, Spanish version 
-ms.date: 05/28/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up operation codes
@@ -17,7 +18,7 @@ You can add as many operation codes as you want to the table. However, the opera
 
 ## Steps to set up operation codes  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Operation Codes**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Operation Codes**, and then choose the related link.  
 1. On the **Operation Codes** page, fill in the fields as described in the following table  
 
     |Field|Description|  
@@ -27,7 +28,7 @@ You can add as many operation codes as you want to the table. However, the opera
 
 ## Link operation codes to general product posting groups  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posting Groups**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Posting Groups**, and then choose the related link.  
 1. Choose the **General Product Posting Groups** action.  
 1. On the **General Product Posting Groups** page, link each operation code to a general product posting group.  
 

@@ -1,22 +1,23 @@
 ---
-title: Proportional VAT [NO]
-description: Norwegian features enable calculation of VAT when both deductible and non-deductible VATs apply.
+title: Proportional VAT in Norway [NO]
+description: Learn how Norwegian proportional VAT in Business Central calculates deductible VAT and posts the nondeductible amount to general ledger cost accounts.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: VAT calculation, deductible VAT, non-deductible VAT, Norwegian version
 ms.search.form: 10602, 10697, 10698, 10604
-ms.date: 05/15/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Proportional VAT in Norway
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to calculate VAT when there's both deductible and non-deductible VAT. Because it's difficult to know where and how an item is used, you must contact the Norwegian tax authorities to determine whether a specified percentage of the VAT is deductible based on historical data.  
 
-## Example
+## Proportional VAT calculation example
 
 A bus company owns both buses and trucks. When gasoline is purchased, the gasoline is stored in one holding tank. When the gasoline is used in a bus for transporting children, it isn't deductible. When the gasoline is used in a truck, the gasoline may be deductible. The agreement between the bus company and the Norwegian tax authorities might be that 60 percent of the VAT is deductible.  
 

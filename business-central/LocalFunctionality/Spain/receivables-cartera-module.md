@@ -1,14 +1,15 @@
 ---
-title: Receivables Cartera module [ES]
+title: Receivables Cartera Module in the Spanish Version [ES]
 description: Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: receivables cartera module, manage bills, cartera journal, Spanish version
-ms.date: 05/29/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Receivables Cartera module in the Spanish version

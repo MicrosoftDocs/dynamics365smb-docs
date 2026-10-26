@@ -1,38 +1,39 @@
 ---
-title: Enter Inland revenue department numbers
+title: Enter New Zealand Inland Revenue Department Number
 description: Learn how to enter an Inland Revenue Department Number (IRD) on specific pages in the New Zealand version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: IRD, inland revenue department number, New Zealand version
-ms.date: 05/05/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Enter New Zealand Inland Revenue Department number
 
-You can enter a New Zealand Inland Revenue Department Number (IRD) in the following pages:  
+You can enter a New Zealand IRD number on the following pages:
 
 - **Company Information**  
 - **Vendor Card**  
 
-An algorithm provided by the local tax office ensures that the number is in a valid format.  
+The **IRD No.** fields store the numbers you enter. Check each number with Inland Revenue before you use it for tax reporting.
 
 > [!NOTE]
-> All companies must register and apply for an IRD number to report the details of payment summaries issued to their payees during the financial year. The payment summary includes the Tax File Numbers (TFN) or business numbers of the payees.
+> An IRD number identifies a person or organisation for New Zealand tax purposes. Companies, trusts, partnerships, and other businesses need their own IRD numbers. Learn more in [IRD numbers](https://www.ird.govt.nz/managing-my-tax/ird-numbers) on the Inland Revenue website.
 
 ## Enter IRD numbers
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
-1. Select the required company or vendor.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Company Information** or **Vendors**, and then choose the related link.  
+1. If you opened **Vendors**, open the required vendor card. **Company Information** already shows the current company.
 1. Expand the **Registration** FastTab.  
 1. In the **IRD No.** field, enter the New Zealand Inland Revenue Number.  
 
 ## Related information
 
-- [New Zealand Business Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md)  
+- [New Zealand IRD numbers and adjustment notes](new-zealand-business-numbers-and-adjustment-notes.md)
 - [New Zealand Local Functionality](new-zealand-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

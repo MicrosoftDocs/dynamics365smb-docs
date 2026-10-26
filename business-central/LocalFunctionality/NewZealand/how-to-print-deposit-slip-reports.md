@@ -1,14 +1,15 @@
 ---
-title: Print deposit slip reports [NZ]
+title: Print Deposit Slip Reports in the New Zealand Version [NZ]
 description: Learn how to print a deposit slip report in the New Zealand version, detailing cash and check transactions in a bank-compliant format.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: deposit slip, print deposit slip, bank deposit slip, New Zealand version
-ms.date: 05/06/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Print deposit slip reports in the New Zealand version

@@ -1,14 +1,15 @@
 ---
-title: Norway local functionality [NO]
-description: These articles describe all the local functionality in the Norwegian version of Business Central.
+title: Norway Local Functionality [NO]
+description: Explore Norwegian functionality in Business Central for VAT reporting, SAF-T exports, remittance payments, OCR imports, EHF invoicing, and recurring orders.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Norwegian local functionality, Norwegian version
-ms.date: 10/29/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Norway local functionality
@@ -18,7 +19,7 @@ The following articles describe local functionality that is unique to the Norweg
 ## Feature availability
 
 - VAT
-  - [Norwegian Standard Audit File - Tax (SAF-T) Management](ui-extensions-setup-and-generate-saf-t-files-no.md) **Available Now, v1.30 supported from January**
+  - [Norwegian Standard Audit File - Tax (SAF-T) Management](ui-extensions-setup-and-generate-saf-t-files-no.md) **Available now. Supports SAF-T versions 1.20 and 1.30.**
   - [Norwegian VAT Reporting - new ID-porten system update](norwegian-vat-reporting.md) **Available Now**
   - [Norwegian VAT Codes](norwegian-vat-codes.md) **Available Now**  
   - [How to Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md) **Available Now**
@@ -54,7 +55,7 @@ The following articles describe local functionality that is unique to the Norweg
   - [Print the OCR Journal Test Report](how-to-print-the-ocr-journal-test-report.md) **Available Now**  
 
 - Core Finance
-  - [Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md) **Available Now**  
+  - [Apply entries in closed VAT periods](how-to-apply-general-ledger-entries-in-closed-periods.md) **Available Now**
 
 - General
   - [Recurring Orders](recurring-orders.md) **Available Now**  
@@ -79,7 +80,6 @@ The following articles describe local functionality that is unique to the Norweg
 ## Future legislation requirements being investigated
 
 - Redesigned and upgraded non-deductible VAT **Planned for 2026 release wave 2**
-- E-invoicing based on new e-document framework that needs to be investigated
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

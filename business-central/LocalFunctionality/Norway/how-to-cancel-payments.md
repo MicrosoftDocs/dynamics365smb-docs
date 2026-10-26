@@ -1,15 +1,16 @@
 ---
-title: Cancel payments [NO]
-description: Learn how the Norwegian enhancements of Business Central allow you to cancel payments and remittances received.
+title: Cancel Payments in the Norwegian Version [NO]
+description: Cancel Norwegian remittance payment orders or individual unsettled payments in Business Central, and contact your bank for payments already sent.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment cancellation, cancel payment, cancel remittance, remittance cancellation, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/12/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Cancel payments in the Norwegian version
@@ -22,13 +23,13 @@ ms.reviewer: v-soumramani
 
 ## Cancel a payment order  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Payment Order**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Remittance Payment Order**, and then choose the related link.  
 1. Select the payment order, choose the **Export** action, and then choose the **Cancel Payment Order** action.  
 1. Choose the **Yes** button.  
 
 ## Cancel a payment  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Waiting Journal**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Waiting Journal**, and then choose the related link.  
 1. Select the payment, and then choose the **Cancel Payment** action.  
 1. Choose the **Yes** button.  
 

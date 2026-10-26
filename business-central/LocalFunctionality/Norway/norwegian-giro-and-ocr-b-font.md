@@ -1,14 +1,15 @@
 ---
-title: Norwegian Giro and OCR-B font
+title: Norwegian Giro Payments and the OCR-B Font
 description: Learn about the Norwegian Giro payment system, which functions as a credit transfer, and its use of the OCR-B font for payment processing.
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: giro payment system, OCR-B font, payment processing, Norwegian version
 ms.search.form: 15000100, 255
-ms.date: 05/15/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Norwegian giro and OCR-B font
@@ -22,5 +23,7 @@ The OCR-B-10 BT font is generally available from software vendors. In [!INCLUDE[
 You can use any OCR-B font, but if other fonts are used, a Microsoft Certified Partner is required to update the sales documents. Contact your partner for more information.  
 
 ## Related information
+
+[Set up document printing](how-to-set-up-document-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

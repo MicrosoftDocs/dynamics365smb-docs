@@ -4,10 +4,11 @@ description: Provides information about the fixed asset inventory feature and re
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: fixed asset inventory, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Fixed asset inventory
@@ -38,7 +39,7 @@ The following procedure shows how to generate a list of fixed assets that are to
 
    The parameters listed in the following table are on the **Options** FastTab.
 
-   |:-|:-|--|
+   | Field | Description |
    | :--------------------------------------- | :----------------------------------------------------------- |
    | **Fixed Asset Journal Template** | Select the fixed asset journal template to work with the fixed assets list during the inventory auditing process. It's filled by default with the fixed asset journal template. |
    | **Depreciation Book Code** | Select the depreciation book with the records, which is calculated by quantities and amounts. |
@@ -64,10 +65,10 @@ The following procedure shows how to begin inventory auditing by fixed asset loc
    - **Calc. Amount**
 
 > [!NOTE]
-> The amount value is the book value of the fixed asset.
+> The **Calc. Amount** and **Actual Amount** fields are initialized from acquisition cost entries. The **Show FA with BookValue = 0** option controls whether assets with zero book value are included.
 
 ## Related information
 
-[Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)
+[Fixed Asset Locations and Employees](fixed-asset-locations-and-employees.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

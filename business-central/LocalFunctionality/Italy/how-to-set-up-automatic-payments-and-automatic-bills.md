@@ -1,15 +1,16 @@
 ---
-title: Automatic Payments and Automatic Bills [IT]
-description: Learn how to set up automatic payments and bills in the Italian version of Business Central.
+title: Set Up Automatic Payments and Bills for Italy
+description: Learn how to configure bank accounts, bill posting groups, number series, and payment methods for automatic bills in Business Central for Italy.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: automatic payments, automatic bills, set up automatic payments, set up automatic bills, Italian version
 ms.search.form: 12203, 12204
-ms.date: 05/21/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up automatic payments and automatic bills in the Italian version
@@ -18,17 +19,21 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can manage automati
 
 To use automatic payments and automatic bills, you must set up the relevant information.  
 
-## Add bank information for your company  
+## Set up bank accounts and bill posting groups
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
-1. On the **Payments** FastTab, fill in the key fields as described in the following table.  
+Enter your company's bank details on **Company Information** as needed. Configure each bank account that you use for bills separately.
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Bank Accounts**, and then choose the related link.
+1. Open the bank account card, and enter the bank details.
+1. Choose the **Bill Posting Group** action.
+1. For each payment method, fill in the fields as described in the following table.
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|  
-    |**Payment Method**|Select the payment method for the type of payments made to or from this bank account. For example, for the bank account that is used for automatic payments made by customers, select a payment method for bank transfers.|  
-    |**Bills For Collection Acc. No.**|Specify the general ledger account where bills for collection are credited.|  
-    |**Bills For Discount Acc. No.**|Specify the general ledger account where bill discounts are debited.|  
-    |**Bills Subj. to Coll. Acc. No.**|Specify the general ledger account where bills subject to collection are credited.|  
+    |**Payment Method**|Select the payment method that applies to customer bills for this bank account.|
+    |**Bills For Collection Acc. No.**|Specify the general ledger account used to post bills for collection.|
+    |**Bills For Discount Acc. No.**|Specify the general ledger account used to post bills for discount.|
+    |**Bills Subj. to Coll. Acc. No.**|Specify the general ledger account used to post bills subject to collection.|
     |**Expense Bill Account No.**|Specify the general ledger account where expenses for bank receipts are posted.|  
 
 1. Choose the **OK** button.  
@@ -40,9 +45,9 @@ To use automatic payments and automatic bills, you must set up the relevant info
 
 ## Set up automatic bills for sales and receivables
 
-The following procedure describes how to set up automatic bills for sales and receivables, but the same steps also apply to setting up purchases and payables for using automatic payments.
+The following procedure configures customer bills. For vendor bills, open **Purchases & Payables Setup** and configure **Temporary Bill List No.** on the **Bills** FastTab. The risk-period and recall-description fields in the following table apply to sales and receivables.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.  
 1. On the **Bills** FastTab, in the **Temporary Bill List No.** field, select the temporary bill list number. Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -53,11 +58,11 @@ The following procedure describes how to set up automatic bills for sales and re
 
 1. Choose the **OK** button.  
 
- Next, you must specify bill codes for those payment methods that you use for automatic payments and automatic bills.  
+Next, specify bill codes for the payment methods that you use for automatic payments and automatic bills.
 
 ## Specify bill codes for a payment method  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Methods**, and then choose the related link.  
 1. Select the payment method that you use for bank transfers to vendors, and then, in the **Bill Code** field, select a bill code.  
 1. To create a bill code, in the **Bill Code** field, choose the field, and then choose the **New** action.  
 1. On the **Bill** page, fill in the fields.

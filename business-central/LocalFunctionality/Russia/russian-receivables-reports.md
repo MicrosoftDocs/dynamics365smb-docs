@@ -4,10 +4,11 @@ description: Learn about receivables reports and related enhancements available 
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: receivables reports, customer reports, turnover, Russia
-ms.date: 07/21/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Russian receivables reports
@@ -30,7 +31,7 @@ The **Options** FastTab contains the fields listed in the following table.
 | Field | Description |
 |--|--|
 | **Rounding Precision** | Select this field to choose the required rounding precision: 0.001, 0.01, 1, or 1000. |
-| **Replace zero values by blanks** | Select this field to replace zero values with blanks during printing. |
+| **Blank zero values** | Select this field to replace zero values with blanks during printing. |
 | **Skip zero lines** | Select this field to exclude lines with zero values. |
 | **Print Agreements** | if it's selected, all amounts in reports are calculated and shown in the section of agreements. |
 
@@ -51,10 +52,10 @@ It's printed monthly and on the date of inventory, but can be printed for any gi
 
 The following procedure shows how to access the **Customer Accounting Card** report.
 
-1. Choose the **Financial Management** action, choose the **Receivables** action, and then choose the **Turnover** action.
-1. Choose the **Customer G/L Turnover** action, choose the **Print** action, and then choose the **Customer Accounting Card** action.
+1. Search for **Customer G/L Turnover**, and open the page.
+1. Choose **Print** > **Accounting Card**.
 
-The **Customer** FastTab of the request page contains the same fields as the **Customer** FastTab of the Customer General Ledger Turnover report. On the **Options** FastTab, you can select the **New page per Customer** field to print the information for each customer on a separate sheet.
+The **Customer** FastTab includes customer, posting group, dimension, agreement, and date filters. On the **Options** FastTab, select **New page for Customer** to print each customer on a separate sheet.
 
 ## Customer Turnover Report (Report 12439)
 
@@ -68,7 +69,7 @@ The **Customer Turnover** report is used to print the data about a customer's en
 
 To access the **Customer Turnover** report:
 
-Choose the **Financial Management** action, choose the **Receivables** action, choose the **Reports** action, and then choose the **Customer Turnover** action.
+Search for **Customer Turnover**, and open the report.
 
 The **Customer** FastTab of the request page contains the same fields as the **Customer** FastTab of the **Customer General Ledger Turnover** report.
 
@@ -94,7 +95,7 @@ The **Customer Posting Group Turnover** report is used to print information on t
 
 To access the **Customer Posting Group Turnover** report:
 
-Choose the **Financial Management** action, choose the **Receivables** action, choose the **Reports** action, and then choose the **Customer Posting Group Turnover** action.
+Search for **Customer Posting Group Turnover**, and open the report.
 
 On the **Options** FastTab, you can specify the same format options as on the **Options** FastTab of the **Customer General Ledger Turnover** report.
 
@@ -114,7 +115,7 @@ This report shows all the entries of the customer for a certain period. The anal
 
 To access the **Customer Entries Analysis** report:
 
-Choose the **Financial Management** action, choose the **Receivables** action, choose the **Reports** action, and then choose the **Customer Entries Analysis** action.
+Search for **Customer Entries Analysis**, and open the report.
 
 On the **Customer** FastTab of the request page, define the customer number or a range of numbers, depending on whether you want to print the report for one customer or for a range of customers. On the **Customer Ledger Entry** FastTab, you can enter a filter value for one document or for a range of documents.
 
@@ -124,7 +125,7 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 |--|--|
 | **Starting Date** | Enter the start date of the period. |
 | **Ending of period** | Enter the end date of the period |
-| **Report Currency** | Enter currency that you want to use in the report. You can choose:   -   Local currency -   Transaction currency |
+| **Report Currency** | Select **LCY** or **Entry Currency** for the report amounts. |
 | **New Page For Customer** | Select this field to print the data for each customer on a separate page. |
 
 ## Customer - Reconciliation Act (Report 14910)
@@ -133,24 +134,24 @@ The **Customer – Reconciliation Act** report shows the payments or liabilities
 
 To access the **Customer – Reconciliation Act** report:
 
-Choose the **Financial Management** action, choose the **Receivables** action, choose the **Reports** action, and then choose the **Customer - Reconciliation Act** action.
+Search for **Customer Reconciliations**, and open the report. Before you run it, configure **C/V Recon. Act Template Code** in **General Ledger Setup**. Choose **OK** to export the reconciliation to Excel.
 
 The following levels of detail are possible:
 
-- Full
+- All
 - Partial
 - None
 
 ### Full detail
 
-If Full is selected as the detail level, the report prints the following data for each document for the current and previous periods:
+If **Show Details** is **All**, the report includes the following data for each document for the current and previous periods:
 
 - Document number and numbers of documents connected with it
 - The balance on each document (debit or credit)
 - Document date
 - Description
 
-The report prints the following information on the right side of the window (customer's data) in case the **Print Contactor Data** check box is selected on the **Options** FastTab of the request page:
+When **Print Vendor Data** is selected, the report also includes the counterparty's corresponding data:
 
 - Document amount
 - Debit
@@ -158,7 +159,7 @@ The report prints the following information on the right side of the window (cus
 
 ### Partial detail
 
-If Partial Detail is selected as the detail level, the report shows the balance on each document for the current and previous periods, but no connections to the invoices, credit notes, and payments.
+If **Show Details** is **Partial**, the report shows the balance on each document for the current and previous periods, but no connections to invoices, credit notes, and payments.
 
 ### None
 
@@ -169,13 +170,13 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 | Parameter | Description |
 |--|--|
 | **Starting Date** | Enter the start date of the period. |
-| **Ending Date of the Period** | Enter the end date of the period. |
-| **Report Currency** | Enter the currency that you want to use in the report. You can choose any currency from the glossary of currencies. |
-| **Detailed** | Select one of these values:   -   **Full** -   **Partial** -   **None** |
+| **Ending Date** | Enter the end date of the period. |
+| **Currency Code** | Enter the currency that you want to use in the report. |
+| **Show Details** | Select **All**, **Partial**, or **None**. |
 
 ## Related information
 
-- [Russian Payables Reports](Russian-Payables-Reports.md)  
-- [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  
+- [Russian Payables Reports](russian-payables-reports.md)  
+- [Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

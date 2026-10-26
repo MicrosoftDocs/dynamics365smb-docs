@@ -1,15 +1,16 @@
 ---
-title: Italian Subcontracting
-description: Master Production Scheduling (MPS) and Material Requirements Planning (MRP) enable contractors to efficiently manage outsourced and subcontracted components.
+title: Italian Subcontracting and Migration
+description: Learn about legacy Italian subcontracting in Business Central, check migration prerequisites, and move applicable data to the Subcontracting app.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: master production scheduling, MPS, material requirements planning, MRP, subcontracting, Italian version
 ms.search.form: 12152, 12153, 12154, 12155, 12156, 35490, 35491
-ms.date: 09/01/2026
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Italian subcontracting
@@ -18,6 +19,8 @@ ms.reviewer: v-soumramani
 > This Italy-specific subcontracting functionality is deprecated and will be removed in a future release. It's replaced by the **Subcontracting** app, which is available for all countries/regions and provides the same capabilities with additional features. To learn more, go to [Subcontracting overview](../../production-how-to-subcontract-manufacturing.md).
 
 Starting with version 28.3, legacy Italian subcontracting is **hidden by default** for new environments. To re-enable the legacy functionality, go to the **Manufacturing Setup** page, choose **Actions** > **Legacy Subcontracting** > **Activate Legacy Subcontracting**.
+
+You can't activate legacy subcontracting while the **Subcontracting** app is installed. Activating or disabling the legacy feature requires a session restart.
 
 Companies contracted for production often outsource the production of components to subcontractors. In order to know how many components to transfer to the subcontractor, there's a link between the subcontractors' operations and the BOM. This facilitates Master Production Scheduling (MPS) and Material Requirements Planning (MRP), and enables contractors to manage their outsourced and subcontracted components.  
 
@@ -34,15 +37,27 @@ An **IT Subcontracting Migration** app is available to help you migrate open dat
 ### Prerequisites
 
 - The environment must be a **sandbox**. Production environment support is planned for a later release.
-- Both the **Subcontracting** app and the **IT Subcontracting Migration** app must be installed.
-- All open WIP transfer orders and related purchase orders must be completed before you run the migration.
+- The **Subcontracting** app must be installed. If legacy data exists, the **IT Subcontracting Migration** app is also required.
+- Complete transfer lines with outstanding WIP quantities and purchase order lines with outstanding WIP items before you disable legacy subcontracting.
+
+### Run the migration
+
+1. Open **Manufacturing Setup**, and choose **Legacy Subcontracting** > **Disable Legacy Subcontracting**.
+1. If prompted, install the required app. After installation and the session reload, run **Disable Legacy Subcontracting** again. You might need to repeat this step to install both apps.
+1. Resolve any WIP or location errors, and confirm the migration when prompted.
+
+Disabling the legacy feature migrates the applicable data when legacy data exists. After migration completes, the feature is disabled and the session restarts.
 
 ### Check subcontracting locations
 
-Legacy Italian subcontracting allows subcontractor locations that use bins. The Subcontracting app doesn't accept a subcontractor location if you enable the **Bin Mandatory**, **Require Pick**, **Require Put-away**, **Require Receive**, or **Require Shipment** toggles.
+Legacy Italian subcontracting allows locations that the Subcontracting app doesn't accept. The migration checks locations referenced by both vendor cards and purchase headers:
+
+- For a vendor's subcontracting location, **Bin Mandatory**, **Require Pick**, **Require Put-away**, **Require Receive**, and **Require Shipment** must be cleared.
+- For a location referenced only by a purchase header, **Bin Mandatory** must be cleared.
+- For either use, **Use As In-Transit** must be cleared, and the location must exist.
 
 > [!IMPORTANT]
-> Before you migrate to the app, replace these subcontracting locations on vendor cards with locations that don't use bins or warehouse handling.
+> Resolve incompatible location settings or replace the location references on vendor cards and purchase headers before migration. The stricter vendor rules apply when the same location is used on both.
 
 ### What gets migrated
 
@@ -51,6 +66,7 @@ The migration moves the following open data to the Subcontracting app:
 - Vendors (subcontractor setup)
 - Purchase headers and lines
 - Transfer headers and lines
+- Production BOM component supply methods that can be determined from their usage
 - Production order components
 - Production order routing lines
 - Routing lines (master data)
@@ -58,10 +74,10 @@ The migration moves the following open data to the Subcontracting app:
 
 ### Important limitations
 
-- The migration is **irreversible**. There's no rollback once the migration runs.
+- There's no automatic rollback after a completed migration. Test the results and your recovery approach in a sandbox.
 - The affected tables are locked during execution.
 - Historical and posted data isn't migrated. Only open documents and master data are moved.
-- The legacy subcontracting objects are marked as `ObsoleteState = Pending` in version 27.0 and will be removed in a future version.
+- Legacy subcontracting objects are marked as obsolete and are scheduled for removal. Use the Subcontracting app for new setups.
 
 
 ## Related information

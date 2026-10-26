@@ -1,14 +1,15 @@
 ---
-title: How to Indent and Validate Chart of Accounts
-description: Learn how to indent and validate the chart of accounts on the G/L Account Card page.
+title: Indent and Validate Chart of Accounts
+description: Learn how to configure general ledger accounts, indent the chart of accounts, and validate account structure in Business Central for Spain.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:  indent chart of account, validate chart of account, G/L account card page
-ms.date: 05/27/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Indent and validate chart of accounts
@@ -26,7 +27,7 @@ You can indent and validate the chart of accounts on the **G/L Account Card** pa
 
 ## Steps to indent and validate the chart of accounts  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.  
 1. Choose the **New** action.  
 1. On the **General** FastTab, in the **No.** field, enter the number of the general ledger account that you're setting up.  
 1. In the **Account type** field, select **Posting** or **Heading**. **Posting** implies that entries can be posted to the account. **Heading** implies that entries can't be posted to the account.  

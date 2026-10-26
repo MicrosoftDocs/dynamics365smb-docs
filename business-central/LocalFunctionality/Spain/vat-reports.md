@@ -1,14 +1,15 @@
 ---
-title: VAT Reports [ES]
+title: VAT Reports in the Spanish Version [ES]
 description: Provides detailed information about VAT functionality for transactions involving goods and services in Spain, including imports.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: VAT functionality, VAT reports, equivalence charge, EC percentage, telematic VAT, VAT-VIES declaration, VAT statement, Spanish version
-ms.date: 05/29/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # VAT reports in the Spanish version

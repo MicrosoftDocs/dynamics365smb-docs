@@ -1,15 +1,15 @@
 ---
-title: How to enter CCC codes [ES]
+title: Enter CCC Codes in the Spanish Version [ES]
 description: Learn how to enter the Código Cuenta Cliente (CCC) unique bank account identification code using the Spanish version of Business Central.
-services: project-madeira 
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: CCC codes, bank account identification code, Spanish version
-ms.date: 05/27/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Enter CCC codes in the Spanish version
@@ -20,7 +20,7 @@ If you change the CCC code structure, the **CCC No.** field updates automaticall
 
 ## Enter CCC codes  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Company Information**, and then choose the related link.  
 1. On the **Payments** FastTab, fill in the fields as described in the following table.  
 
     |Field|Position|Description|  

@@ -1,12 +1,13 @@
 ---
-title: External Document Numbers and Fiscal Years (ES)
-description: Learn how you can reuse External Document Numbers in different fiscal years in the Spanish version of Business Central.
-author: sorenfriisalexandersen
+title: Use the Same External Document Numbers Across Fiscal Years
+description: Learn how to allow repeated external document numbers across years in Business Central for Spain and how document dates limit duplicate checks.
+author: jswymer
 ms.topic: how-to
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ms.search.keywords: external document numbers, external document, Spanish version
-ms.date: 05/26/2025
-ms.author: soalex
+ms.date: 10/20/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
@@ -14,10 +15,12 @@ ms.service: dynamics-365-business-central
 
 In general, [!INCLUDE[prod_short](../../includes/prod_short.md)] doesn't allow for posting documents with the same value in **External Document No.**, not even across fiscal years, due to legislation. In Spain however, this is accepted, and now [!INCLUDE[prod_short](../../includes/prod_short.md)] includes an option to allow this behavior.  
 
-## Allow posting of the same **External Document No.** across fiscal years
+## Allow the same external document number across fiscal years
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Purchases & Payables Setup**, and then choose the related link.  
 1. In the **General** FastTab, select the **Same Ext. Doc. No. in Diff. FY** field.
+
+The duplicate-number check uses the calendar year of **Document Date**, not the fiscal year defined in **Accounting Periods**. With this setting enabled, the check is limited to vendor ledger entries whose document dates fall in that same calendar year.
 
 ## Related information
 

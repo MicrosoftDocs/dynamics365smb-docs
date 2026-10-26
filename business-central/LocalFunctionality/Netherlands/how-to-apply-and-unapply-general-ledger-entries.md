@@ -1,14 +1,15 @@
 ---
-title: Apply and Unapply General Ledger Entries [NL]
-description: Apply temporary general ledger entries to allow companies to work with temporary and transfer accounts in the general ledger.
+title: Apply and Unapply General Ledger Entries in the Netherlands
+description: Learn about the retired Dutch G/L entry application feature and use account review to track and confirm general ledger balances in Business Central.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: temporary general ledger entries, apply GL entries, unapply GL entries, Dutch version, Netherlands, transfer accounts
-ms.date: 03/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Apply and unapply general ledger entries in the Dutch version

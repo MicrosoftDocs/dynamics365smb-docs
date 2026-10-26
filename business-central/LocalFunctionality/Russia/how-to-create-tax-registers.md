@@ -5,9 +5,10 @@ author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: tax registers, create tax registers, Russia
 ms.date: 07/14/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Create tax registers
@@ -56,10 +57,10 @@ The following procedure shows how to create tax registers.
 
 ## Related information
 
-- [Tax Accounting](Tax-Accounting.md)  
-- [Tax Registers](Tax-Registers.md)  
-- [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
-- [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  
+- [Tax Accounting](tax-accounting.md)  
+- [Tax Registers](tax-registers.md)  
+- [Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)  
+- [Collecting Profit Tax Information for Tax Declaration](collecting-profit-tax-information-for-tax-declaration.md)  
 - [Find Entries](../../ui-find-entries.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

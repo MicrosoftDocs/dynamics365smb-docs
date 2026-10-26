@@ -4,10 +4,11 @@ description: Enables calculation of tax differences for fixed assets as part of 
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: tax difference calculation, tax difference journal, posting groups, tax difference setup, Russia
-ms.date: 07/21/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up tax difference calculation
@@ -30,10 +31,10 @@ The following procedure shows how to process a normalization function.
 
 ## Related information
 
-- [Tax Registers](Tax-Registers.md)  
-- [Tax Differences](Tax-Differences.md)  
-- [Tax Difference Registers](Tax-Difference-Registers.md)  
-- [Set Up Norm Jurisdictions](How-to-Set-Up-Norm-Jurisdictions.md)  
-- [Post Tax Differences](How-to-Post-Tax-Differences.md)  
+- [Tax Registers](tax-registers.md)  
+- [Tax Differences](tax-differences.md)  
+- [Tax Difference Registers](tax-difference-registers.md)  
+- [Set Up Norm Jurisdictions](how-to-set-up-norm-jurisdictions.md)  
+- [Post Tax Differences](how-to-post-tax-differences.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

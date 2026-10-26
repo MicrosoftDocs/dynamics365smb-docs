@@ -1,31 +1,34 @@
 ---
-title: How to Apply General Ledger Entries in Closed Periods
-description: Learn to post entries after a closed posting period, even without performing any actual postings during that time.
+title: Apply Entries in Closed VAT Periods in Norway
+description: Allow customer and vendor entry applications in closed Norwegian VAT periods for all users or selected users, while retaining posting date restrictions.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: closed period, apply entries, apply general ledger entries, Norwegian version
-ms.date: 05/12/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Apply general ledger entries in closed periods
+# Apply entries in closed VAT periods
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to post entries after a posting period is closed, even if no actual posting is performed during that period. You can also choose the users who will make these entries.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] can allow customer and vendor entry applications in a closed VAT period. This setting doesn't apply or unapply general ledger entries, reopen the VAT period, or override the allowed posting dates.
+
+To allow applications for all users, select **Application always Allowed** on **General Ledger Setup**. To allow only selected users, leave that field cleared and select the field for those users on **User Setup**. You don't need to enable both settings.
 
 ## Apply an entry in a closed period  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-1. On the **General** FastTab, select the **Application always Allowed** checkbox to apply entries outside the allowed posting period.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.  
+1. On the **General** FastTab, select **Application always Allowed** to allow applications in closed VAT periods for all users. To allow only selected users, leave this field cleared.
 
     > [!NOTE]  
     > By default, the **Application always Allowed** checkbox isn't selected.  
 
 1. Choose the **OK** button.  
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
-1. On the **User Setup** page, select the **Application always Allowed** checkbox for each user who can apply entries to a closed period.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **User Setup**, and then choose the related link.  
+1. If the setting on **General Ledger Setup** is cleared, select **Application always Allowed** on **User Setup** for each user who can apply entries in closed VAT periods.
 1. Choose the **OK** button.  
 
 ## Related information

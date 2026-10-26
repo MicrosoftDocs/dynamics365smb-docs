@@ -1,14 +1,15 @@
 ---
-title: Create an Audit File for Tax Authority [NL]
-description: Learn how to create an audit file for the tax authority with the Dutch version of Business Central.
+title: Create an Audit File for the Dutch Tax Authority
+description: Create a Dutch tax authority audit file from general ledger transactions in Business Central, and choose the reporting dates and opening balance options.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: audit file, Dutch version, Netherlands, tax authority, create audit file, basis transactions
-ms.date: 03/17/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create an audit file for the tax authority in the Dutch version
@@ -17,18 +18,18 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
 
 The tax authority stimulates companies to use the audit file but it isn't prescribed.  
 
-The audit file can also be used to exchange data between companies. You can select every period you want, but the start and end date of the entered period must be in the same fiscal year.  
+The audit file can also be used to exchange data between companies. The start and end dates must be in the same fiscal year. The start date can't be after the end date, and the end date can't be later than today.
 
 ## Create an audit file  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Authority - Audit File**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Tax Authority - Audit File**, and then choose the related link.  
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Start Date**|Specify the start date of the period on which the data must be based.|  
     |**End Date**|Specify the end date of the period on which the data must be based.|  
-    |**Exclude Begin Balance**|Specifies if the audit file must contain the begin balance of general ledger accounts.<br><br/> The field is editable if the start date of the period is equal to the start date of a fiscal year.|  
+    |**Exclude Begin Balance**|Select to leave the opening balances of general ledger accounts out of the audit file. This option is available only when the start date is the first day of a fiscal year.|
 
 1. Choose the **OK** button to create the audit file. If you don't want to create the audit file, choose the **Cancel** button to close the page.  
 

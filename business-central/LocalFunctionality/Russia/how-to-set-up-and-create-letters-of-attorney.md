@@ -4,10 +4,11 @@ description: Russian localization allows you to create, print, and manage letter
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: letter of attorney, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up and create letters of attorney
@@ -21,8 +22,10 @@ The following procedure shows how to set up the numbering for Letters of Attorne
 ## Set up a letter of attorney
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.
-1. On the **Background Posting** FastTab, fill in the **Letter of Attorney Nos.** and **Released Letter of Attorney Nos.** fields.
+1. On the **Background Posting** FastTab, fill in **Letter of Attorney Nos.** and **Released Letter of Attor. Nos.**.
 1. Choose the **OK** button.
+
+To print **Letter of Attorney M-2A**, also configure **M-2a Template Code** in **Fixed Asset Setup**.
 
 The following procedure shows how to create a Letter of Attorney.
 
@@ -49,10 +52,11 @@ The following procedure shows how to create a Letter of Attorney.
    | **Status** | Specifies the status of the document. |
    | **No.** | Enter the number of the open document. This field is filled in automatically from the numbering series. |
 
-1. Choose the **OK** button.
+1. To populate the lines from the selected purchase document, choose **Copy Lines from Source Document**. Review the copied lines.
+1. Choose **Print**, and then choose **OK** on the report request page to export the letter to Excel.
 
 ## Related information
 
-[Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)  
+[Set Up Responsible Employees and Advance Statements](how-to-set-up-responsible-employees-and-advance-statements.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

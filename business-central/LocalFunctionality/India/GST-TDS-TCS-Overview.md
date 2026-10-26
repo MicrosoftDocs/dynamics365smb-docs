@@ -1,25 +1,29 @@
 ---
-title: Setting up for GST TDS and GST TCS
+title: Setup for GST TDS and GST TCS
 description: Learn how to configure GST TDS and GST TCS in Business Central for India, including setup steps and compliance requirements.
 author: v-debapd
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST TDS setup, GST TCS setup
-ms.date: 06/25/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Setup for GST TDS and GST TCS 
 
 This article explains the requirement and the process of setting up GST TDS and GST TCS.
 
-## GST TDS
+> [!NOTE]
+> The statutory background below includes historical rates and thresholds. It isn't current-rate guidance. Confirm the requirements for your transaction date, and configure the tax rates with the appropriate effective date.
+
+## Understand GST TDS
 
 As per Section 51 of CGST Act, recipient of goods and services shall deduct TDS of 2% on payment amount where contract amount exceeds INR 250000. The recipient issues a certificate for the tax amount deducted against the payment made for contract to supplier. Recipient pays the deducted amount to government and the same is reflected in supplier’s electronic ledger entry, which the supplier can further adjust against liability.
 
-## GST TCS
+## Understand GST TCS
 
 As per Section 52 of CGST Act, 2017, every e-commerce operator is required to collect tax at the rate of 1% (0.5% of CGST and 0.5% of SGST for intrastate supply or 1% of IGST on interstate supply) on the net value of taxable supplies provided the supplier is supplying goods or services through e-commerce operator (online market place) and consideration with respect to the supply is to be collected by the said e-commerce operator The taxable supplies includes total sales and returns.
 
@@ -35,16 +39,21 @@ GST TDS is applicable only for Registered Suppliers. The calculation of GST TCS 
 
 This setup is required for calculation of GST TDS and GST TCS on payment to vendor or receipt from customer.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** > **GST TDS TCS** > **Action** > **Tax Rates**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Tax Types**, and then choose the related link.
+1. Select **GST TDS TCS**, and then choose **Tax Rates**.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
     |---------------------------------|  ---------------------------------------|
     |**GST TDS TCS Type**|Specify the relevant type, for example: TDS, TCS.|
-    |**GST Effective Date**|Specify the effective date.|
+    |**Effective Date**|Specify the effective date.|
     |**CGST**|Specify the relevant percentage for component CGST.|
     |**SGST**|Specify the relevant percentage for component SGST.|
     |**IGST**|Specify the relevant percentage for component IGST.|
+
+On a cash or bank voucher, select **TDS** or **TCS** in **GST TDS/GST TCS** and enter **GST TDS/TCS Base Amount**. The document type must be **Payment**, and the customer or vendor must be **Registered**. For vendor TCS, enter **GST TCS State Code** before selecting **TCS**.
+
+GST TDS and GST TCS use separate accounts in **GST Posting Setup**. They aren't the same as income-tax TDS or TCS, which use nature of deduction or nature of collection setup.
 
 ## Related information
 

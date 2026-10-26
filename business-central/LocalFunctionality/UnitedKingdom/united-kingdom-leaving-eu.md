@@ -1,14 +1,15 @@
 ---
 title: Brexit Impact on Business Central [GB]
 description: Learn about recommended steps you can take in Business Central to help manage the impact of the United Kingdom leaving the European Union.
-author: sorenfriisalexandersen
+author: jswymer
 ms.topic: article
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.search.keywords: united kingdom, uk, brexit, eu, european union, great britain, northern ireland
-ms.date: 02/21/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Brexit impact on Business Central
@@ -47,9 +48,11 @@ If part of your business is in Northern Ireland and you trade across EU borders 
 
 ## Intrastat changes
 
-Northern Ireland will have a dual position in the EU in areas related to the Customs Union, Single Market, VAT regime, and in the UK’s equivalents for goods (only). Goods moved in or out of Northern Ireland to or from European countries/regions must be reported on Intrastat. To handle this requirement, use Intrastat journals in [!INCLUDE[prod_short](../../includes/prod_short.md)].
+Northern Ireland has a dual position in the EU in areas related to the Customs Union, Single Market, VAT regime, and in the UK’s equivalents for goods (only). You must report goods moved in or out of Northern Ireland to or from European countries or regions on Intrastat. To handle this requirement in current versions, use Intrastat reports in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Learn more in [Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md) and [Report Intrastat](../../finance-how-report-intrastat.md).
 
-Because Intrastat reporting is no longer needed for regular export and import for the UK, you may need to filter or delete such item movements on the **Intrastat Journal** when lines are suggested in the journal. To make it easier, we have added a **Location Code** field on the **Intrastat Journal Lines** so you can filter lines based on their **Ship-from** or **Receive-to** location.
+Because Intrastat reporting is no longer needed for regular export and import for the UK, review the suggested lines and exclude movements that don't belong in your Intrastat report. In older versions that use the **Intrastat Journal**, use **Location Code** to filter lines by their ship-from or receive-to location.
+
+The UK Intrastat extension configures separate data exchange definitions for receipts and shipments. By default, **Split Files** is turned on and **Zip Files** is turned off on **Intrastat Report Setup**. Review these settings before you export.
 
 ## VAT impact on moving goods in and out of Northern Ireland
 

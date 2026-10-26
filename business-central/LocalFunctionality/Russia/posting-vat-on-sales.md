@@ -4,10 +4,11 @@ description: Enhancements for Russia provide support for VAT processing on sales
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: VAT on sales, VAT posting, Russia
-ms.date: 07/18/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Posting VAT on sales
@@ -48,6 +49,6 @@ In the **Trans. VAT Account** field, enter Subaccount 90-3 Gain VAT or Subaccoun
 
 ## Related information
 
-[VAT Ledgers](VAT-Ledgers.md)  
+[VAT Ledgers](vat-ledgers.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

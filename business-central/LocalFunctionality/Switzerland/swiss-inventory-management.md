@@ -1,14 +1,15 @@
 ---
-title: Swiss inventory management [CH]
+title: Swiss Inventory Management [CH]
 description: This article describes Swiss enhancements to special inventory management features in Business Central.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Swiss inventory management, inventory management, Swiss version
-ms.date: 04/30/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Swiss inventory management
@@ -19,7 +20,7 @@ ms.reviewer: v-soumramani
 - The ability to track an invoice with multiple shipments.  
 - Including an item card location code as the default location code for sales lines and item journals. Learn more in [Set Up Locations](../../inventory-how-setup-locations.md).
 
-## Managing item details
+## Manage item details
 
 Companies can have different warehouses for different product categories. In such cases, you must use the default location code retrieved from the item card. When you define a location code for an item, it's transferred to the sales lines and item journals as a default item location code. For more information, see the Sales Line and the Item Journal Line table.  
 

@@ -1,14 +1,15 @@
 ---
-title: How to set up alternate depreciation methods
-description: Learn how to set up alternate depreciation methods, such as anticipated, accelerated, and reduced depreciation.
+title: Set Up Alternate Depreciation Methods
+description: Learn how to set up depreciation tables and enable anticipated, accelerated, or reduced depreciation in the Italian version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: alternate depreciation methods, anticipated depreciation, accelerated depreciation, reduced depreciation, depreciation table, Italian version
-ms.date: 05/21/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up alternate depreciation methods
@@ -23,7 +24,7 @@ You must create depreciation tables to set up these depreciation methods.
 
 ## Steps to set up alternate depreciation methods
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Depreciation Tables**, and then choose the related link.  
 1. On the **Depreciation Table List** page, choose the **New** action.  
 1. On the **General** FastTab, fill in the fields as described in the following table.  
 
@@ -41,10 +42,14 @@ You must create depreciation tables to set up these depreciation methods.
     |**Period Depreciation %**|The depreciation percentage to apply to the period.|  
     |**No. of Units in Period**|The number of units produced by the asset to which this depreciation table applies.|  
     |**Anticipated %**|The anticipated depreciation percentage.|  
-    |**Accelerated/Reduced %**|The actual depreciation percentage.|  
+    |**Accelerated/Reduced %**|The percentage used to calculate accelerated or reduced depreciation for the period.|
 
-1. In the **Total Depreciation %** field, enter the total depreciation percentage.  
+1. Review **Total Depreciation %**. This read-only field adds the period depreciation, anticipated, and accelerated or reduced percentages from the table lines.
 1. Choose the **OK** button.  
+
+Assign the depreciation table to the relevant fixed asset depreciation book with **Depreciation Method** set to **User-Defined**. For anticipated depreciation, also enable **Calc. Anticipated Depreciation** on the depreciation book and use **Use Anticipated Depr.** when you run **Calculate Depreciation**.
+
+For accelerated or reduced depreciation, enable **Calc. Custom 2 Depreciation** on the depreciation book and select **Use Acc./Red. Depr.** in **Calculate Depreciation**.
 
 ## Related information
 

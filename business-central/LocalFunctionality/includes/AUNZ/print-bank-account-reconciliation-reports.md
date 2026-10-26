@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 10/08/2026
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -12,7 +12,7 @@ The **Bank Account Reconciliation** report displays open bank ledger entries as 
 
 ## Print a bank account reconciliation report
 
-1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reconciliation**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../../includes/open-search.md)], enter **Reconciliation**, and then choose the related link.  
 1. On the **Options** FastTab, select the **New Page per Bank Account** checkbox.  
 1. On the **Bank Account** FastTab, select appropriate filters.  
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.

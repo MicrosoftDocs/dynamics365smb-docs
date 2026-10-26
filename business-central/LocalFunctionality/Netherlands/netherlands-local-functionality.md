@@ -1,14 +1,15 @@
 ---
 title: Netherlands Local Functionality [NL]
-description: The following articles describe the various local functionality in the Dutch version of Business Central.
+description: Explore Dutch local functionality in Business Central for VAT and ICP declarations, telebanking, payment proposals, audit files, and post code imports.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Dutch version, Netherlands, Dutch local functionality, Netherlands local functionality
-ms.date: 03/19/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Netherlands local functionality
@@ -18,11 +19,10 @@ The following articles describe local functionality that is unique to the Dutch 
 ## Feature availability  
 
 - VAT
-  - [Create a Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md) **Available Now**
+  - [Create an Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md) **Available Now**
   - [Set Up VAT Categories](how-to-set-up-vat-categories.md) **Available Now**
   - [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md) **Available Now**
   - [Set Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md) **Available Now**
-  - [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md) **Available Now**
 
 - Banking & Payments
   - [Dutch Electronic Banking](dutch-electronic-banking.md) **Available Now**
@@ -42,13 +42,13 @@ The following articles describe local functionality that is unique to the Dutch 
   - [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md) **Available Now**
 
 - Core Finance
-  - [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
+  - [Review amounts in general ledger accounts](../../finance-review-accounts.md) **Available Now**
   - [Required Descriptions in G/L Entries](required-descriptions-in-g-l-entry.md) **Available Now**
 
 - Purchasing
-  - [Check Purchase Amounts](check-purchase-amounts.md) **Available Now**
+  - [Check Purchase Amounts](../../check-purchase-amounts.md) **Available Now**
   - [Edit Document Amounts in Purchase Invoices and Credit Memos](how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md) **Available Now**  
-  - [Set Up Validation of Purchase Amounts](how-to-set-up-validation-of-purchase-amounts.md) **Available Now**
+  - [Set Up Validation of Purchase Amounts](../../how-to-set-up-validation-of-purchase-amounts.md) **Available Now**
 
 - General
   - [CMR Notes](cmr-notes.md) **Available Now**
@@ -58,7 +58,9 @@ The following articles describe local functionality that is unique to the Dutch 
 
 ## Future legislation requirements being investigated
 
-Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+For Digipoort migration requirements, see [Migrating to the new Digipoort](how-to-set-up-electronic-vat-and-icp-declarations.md#migrating-to-the-new-digipoort).
+
+To tell us about other upcoming regulatory requirements, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## Related information
 

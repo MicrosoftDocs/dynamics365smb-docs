@@ -1,23 +1,24 @@
 ---
-title: How to Enter and Post Cash and Bank or Giro Journals
+title: Enter and Post Cash and Bank/Giro Journals
 description: Learn how to use the cash and bank journals to record transactions affecting cash and bank accounts via Cash Book and Bank Book.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: cash journals, bank journals, cash book, bank book, Dutch version, Netherlands, cash and bank accounts, telebanking
-ms.date: 04/24/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Enter and post cash and bank/giro journals
 
-The cash journal and the bank/giro journal help you post transactions into the system in an easier and more direct way than using the general journal.  
+Use the cash journal and bank/giro journal to record and post cash and bank transactions.
 
-In conjunction with Telebanking, they allow you to import electronic bank statements into the **Bank/Giro Journal** page. The system can automatically reconcile these statements during the import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.
+With telebanking, you can import electronic bank statements into the **Bank/Giro Journal** page. Automatic reconciliation can match statement lines to open customer or vendor ledger entries during import. Review unmatched lines before posting.
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using the **Cash Book** and **Bank Book** types.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], use journal templates of type **Cash** or **Bank** for the corresponding cash and bank/giro journals.
 
 You can enter increases or decreases to the cash account on the **Cash Journal** page. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
 
@@ -27,7 +28,7 @@ You can apply the payments from customers to the open invoices from accounts rec
 
 ## Post cash journals  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Journal**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Cash Journal**, and then choose the related link.  
 1. Choose the **New** action.  
 1. On the **Cash Journal** page, on the **Lines** FastTab, fill in the required fields as described in the following table.  
 
@@ -37,20 +38,20 @@ You can apply the payments from customers to the open invoices from accounts rec
     |**Document No.**|The document number for which journal entry is created.|  
     |**Account Type**|The account type to which the entry is to be posted.|  
     |**Account No.**|The account number to which the entry is to be posted.|  
-    |**Description**|The description of the entry. This field automatically populates the description of the account number selected in the **Account No.** field.|  
+    |**Description**|The description of the entry. The account name is entered by default unless **Omit Default Descr. in Jnl.** is selected for the G/L account.|
     |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G/L Account**. Learn more in VAT Product Posting Groups.|  
     |**Amount**|The total amount that the statement line consists of. You must enter the debit amount without a plus or minus sign and the credit amount with a minus sign.<br><br> If this amount includes the VAT amount, then select the **Amount incl. VAT** checkbox.|  
 
 1. Choose the **Post** action.  
 
    > [!NOTE]  
-   > If there's a difference between the opening balance and the closing balance, you must change the closing balance before posting the entry.  
+   > The opening balance plus the net change on the journal lines must equal the closing balance. If the totals don't match, check the balances and lines against your cash records before posting.
 
    The entries are posted to the general ledger. Learn more in **General Ledger Entries**.  
 
 ## Post bank or giro journals  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank/Giro Journal**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Bank/Giro Journal**, and then choose the related link.  
 1. Choose the **New** action.  
 1. Select the relevant journal template, and then choose the **OK** button.  
 1. On the **Bank/Giro Journal** page, fill in the fields as described in the following table.  
@@ -75,7 +76,7 @@ You can apply the payments from customers to the open invoices from accounts rec
 1. Choose the **Post** action.  
 
 > [!NOTE]  
-> If there's a difference between the opening balance and the closing balance, you must change the closing balance before posting the entry.  
+> The opening balance plus the net change on the journal lines must equal the closing balance. If the totals don't match, check the balances and lines against the bank statement before posting.
 
 The entries are posted to the general ledger. Learn more in [General Ledger Entries](../../finance-general-ledger.md).  
 
@@ -83,7 +84,6 @@ The entries are posted to the general ledger. Learn more in [General Ledger Entr
 
 - [Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)  
 - [Telebanking](telebanking.md)   
-- [Enter and Post Cash and Bank or Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
 - [Applying Payments Automatically and Reconciling Bank Accounts](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

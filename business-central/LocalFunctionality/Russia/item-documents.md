@@ -5,15 +5,18 @@ author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: inventory, inventory documents, report act items, report items, items receipt, Russia
 ms.search.form: 6774, 6775, 6776
-ms.date: 07/17/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Inventory documents
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] includes reports that you must submit for official reporting, such as the Write-off act TORG-16, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes inventory document reports such as Write-off act TORG-16, Items Receipt Act TORG-1, and Receipt Deviations TORG-2. Confirm which forms your organization must use under current requirements.
+
+Configure the corresponding report templates before you generate these reports. For receipt reports, use **Purchases & Payables Setup**, including **M-7 Template Code** and **TORG-1 Template Code**. Configure inventory shipment templates in **Inventory Setup**. If **Report Selection - Print** opens after you choose **Print**, select **Print Report** for the report that you need, and then choose **OK**. Complete the report options and choose **OK** to export the report to Excel.
 
 ## Report Act Items Receipt M-7, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 based on an unposted inventory receipt
 
@@ -67,7 +70,7 @@ The following procedure shows how to create an Item Write-off act TORG-16 report
 
 The following procedure shows how to create an Item Write-off act TORG-16 report based on posted inventory shipments.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Shipments**, and then choose the related link.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Inventory Shipments**, and then choose the related link.
 1. Choose the **Print** action.
 
 The **Item Shipment** window and **Item Receipt** window have the same functions.
@@ -105,8 +108,8 @@ The following procedure shows how to create a report based on a posted transfer 
 
 ## Related information
 
-- [Inventory Setup](Inventory-Setup.md)  
-- [Item Obligatory Acts](Item-Obligatory-Acts.md)  
-- [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)  
+- [Inventory Setup](inventory-setup.md)  
+- [Item Obligatory Acts](item-obligatory-acts.md)  
+- [Item General Ledger Turnover](item-general-ledger-turnover.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

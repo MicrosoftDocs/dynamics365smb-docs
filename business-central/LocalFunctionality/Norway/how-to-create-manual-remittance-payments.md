@@ -1,15 +1,16 @@
 ---
-title: Create manual remittance payments [NO]
+title: Create Manual Remittance Payments in the Norwegian Version [NO]
 description: Learn how to create a remittance payment, either linked to an invoice or independently, such as a vendor payment, through manual processes.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: manual remittance payment, remittance payment, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/12/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create manual remittance payments in the Norwegian version
@@ -18,7 +19,9 @@ Generally, payments are created automatically in the payment journal using the r
 
 ## Create a manual remittance payment  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Info**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
+1. Create or select the vendor payment line. To pay an existing invoice, fill in **Applies-to Doc. No.** for that invoice.
+1. Choose the **Payment Info** action.
 1. On the **Payment Info** page, choose the **Initialize Payment Info** action.  
 
     If the payment is linked to an existing vendor ledger entry, information is transferred from the entry. If the payment isn't linked to a vendor ledger entry, only partial information is created.  

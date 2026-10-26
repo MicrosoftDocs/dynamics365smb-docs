@@ -1,15 +1,16 @@
 ---
-title: Electronic invoicing in Norway
+title: Electronic Invoicing in Norway
 description: Learn how to electronically send sales invoices and credit memos to the Norwegian public sector using EHF, which is based on Universal Business Language (UBL).
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: EHF, UBL, electronic invoicing, e-invoicing, Norwegian version
 ms.search.form: 21, 459, 359, 360, 6103, 6133
-ms.date: 05/12/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Electronic invoicing in Norway
@@ -33,13 +34,14 @@ Based on the endpoint service provider you chose, the next steps might be differ
 
 Before you start using e-documents, update your **Company Information** page by completing the following steps:
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Company Information**, and then select the related link.
 1. In addition to the usual fields, you must also fill in the fields as described in the following table:
 
     | Field name | Description |
     |---|---|
     | SWIFT Code | Specify the SWIFT code (international bank identifier code) of your primary bank. |
     | Bank Branch No. | Specify the bank's four-digit branch number. |
+    | **IBAN** or **Bank Account No.** | Specify the bank account used for payments. If **IBAN** is blank, **Bank Account No.** must contain a value. |
     | VAT Registration No. | Specify the company's value-added tax (VAT) registration number. |
 
 1. Close the page.
@@ -48,10 +50,10 @@ Before you start using e-documents, update your **Company Information** page by 
 
 To enable customers to receive your e-documents, complete the following steps:
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Customers**, and then select the related link.
 1. Open the **Customer Card** page for the customer.
-1. In addition to the usual fields, in the **GLN** field, specify the customer you send electronic documents.
-1. Mark the **Use GLN in Electronic Documents** field to indicate whether the global location number (GLN) is used as a party identification number in electronic documents.
+1. If the customer uses a VAT registration number as the endpoint identifier, enter it in **VAT Registration No.**.
+1. If the customer uses a global location number (GLN) instead, enter it in the **GLN** field and select **Use GLN in Electronic Documents**.
 1. Close the page.
 
 ### Other setups
@@ -70,11 +72,11 @@ We'll update this list as we get new e-document exchange access point providers.
 
 This article describes the legacy features for electronic invoicing localized for use in Norway. [!INCLUDE [prod_short](../../includes/prod_short.md)] offers an improved e-documents framework that we recommend you use instead.  
 
-### Implementation in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
+### Implementation in Business Central
 
 From January 2019, the requirements for sending electronic invoices are based on the PEPPOL BIS Billing 3.0 standard. Learn more at [EHF Billing 3.0](https://anskaffelser.dev/postaward/g3/spec/current/billing-3.0/norway/) page from the Agency of Public Management and eGovernment. Companies that are already sending electronic documents in the pre-2019 format can continue to do so during 2019.
 
-> [NOTE!]
+> [!NOTE]
 > You can use the [Anskaffelser.dev Validator](https://anskaffelser.dev/service/validator) to validate your EHF billing formats.  
 
 To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers on the **Customer Card** page. Learn more in [Set up customers for EHF](how-to-set-up-customers-for-ehf.md). These numbers are included when you create, post, or issue documents. After documents are posted or issued, you can create electronic versions to send to customers.  
@@ -93,7 +95,9 @@ You can specify where to store electronic documents on the **Sales & Receivables
 
 ## VAT treatment  
 
-VAT percentages and the type of transaction determine the VAT Type that is exported in the electronic document.  
+For PEPPOL BIS Billing 3.0, the exported VAT category comes from the **Tax Category** field on **VAT Posting Setup** for the line's VAT business and product posting groups. The export also includes the line's **VAT %**. The VAT percentage alone doesn't determine the category.
+
+The following table describes VAT category codes used in EHF formats. Make sure the codes you configure are valid for the format you're exchanging.
 
 |XML|Type| 
 |---------|----------|  
@@ -105,9 +109,9 @@ VAT percentages and the type of transaction determine the VAT Type that is expor
 |L|Canary Islands general indirect tax|
 |M|Tax for production, services, and importation in Ceuta and Melilla|
 |G|Free export item, tax not charged|
-|O|Services outside scope of tax|
+|O|Outside the scope of VAT|
 |E|VAT Exempt|
-|Z|VAT Exempt (goods and services not included in the VAT regulations)|
+|Z|Zero-rated goods and services|
 |K|VAT exempt for European Economic Area (EEA) intra-community supply of goods and services|
 
 ## VAT scheme

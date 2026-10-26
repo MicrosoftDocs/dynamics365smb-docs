@@ -5,9 +5,10 @@ author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: VAT declaration, VAT report, XML, upload books, purchases, sales, additional sheets, Russia
 ms.date: 07/22/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Upload books of purchases and sales and the VAT declaration in XML format
@@ -22,7 +23,7 @@ The VAT Declaration file is formed on the basis of the generated data on VAT Pur
 
 For the correct formation of the VAT Declaration is necessary:
 
-1. Generate VAT Purchase Ledgers or VAT Sales Ledgers, additional sheets for the required period (see [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)).
+1. Generate VAT Purchase Ledgers or VAT Sales Ledgers, additional sheets for the required period (see [Create VAT Ledgers](how-to-create-vat-ledgers.md)).
 
 1. Correct the data of VAT Purchase Ledgers or VAT Sales Ledgers, if necessary.
 

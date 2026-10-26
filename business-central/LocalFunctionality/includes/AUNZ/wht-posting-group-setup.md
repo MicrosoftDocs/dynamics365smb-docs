@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 10/08/2026
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -19,12 +19,12 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 ### Set up a product posting group for withholding tax  
 
-1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Product Posting Group**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../../includes/open-search.md)], enter **WHT Product Posting Group**, and then choose the related link.  
 1. Fill in the fields as described in the following table.  
 
    |Field|Description|  
    |---------------------------------|---------------------------------------|  
-   |**Code**|Specify the code for the product posting group. You can enter a maximum of 10 alphanumeric characters.|  
+   |**Code**|Specify the code for the product posting group. You can enter a maximum of 20 alphanumeric characters.|  
    |**Description**|Specify the description for the product posting group. You can enter a maximum of 50 alphanumeric characters.|  
 
 1. Choose the **OK** button.  
@@ -33,7 +33,7 @@ Finally, you must set up how these posting groups must be used when documents ar
 
 ### Set up posting for withholding tax  
 
-1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Posting Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../../includes/open-search.md)], enter **WHT Posting Setup**, and then choose the related link.  
 
 1. Fill in the fields as described in the following table.  
 

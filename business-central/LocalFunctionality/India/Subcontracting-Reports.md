@@ -1,19 +1,20 @@
 ---
-title: Sub Contracting Reports
-description: Learn about the available subcontracting reports in Business Central for India.
+title: Subcontracting Reports
+description: Preview delivery challans and stock registers for job work to review subcontracting material movements and GST liability in Business Central for India.
 author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, subcontracting reports, delivery challan report, stock register, job work
-ms.date: 06/26/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Subcontracting reports
 
-There are following reports for Subcontracting in Business Center:
+The following reports are available for subcontracting in Business Central:
 
 - Delivery Challan
 - Stock Register for Job work
@@ -22,12 +23,12 @@ There are following reports for Subcontracting in Business Center:
 
 The Delivery Challan report includes the details of raw material components sent to subcontracting vendor against subcontracting order. The report also includes the details of delivery challan created against multiple subcontracting orders.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Delivery Challan Report**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Delivery Challan**, and then choose the report link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
     |---------------------------------|---------------------------------------|  
-    |**No**|Choose the delivery challan number for which you want to generate the report.|
+    |**No.**|Choose the delivery challan number for which you want to generate the report.|
     |**Challan Date**|Define the delivery challan date for which you want to generate the report|
 
 1. Select **Preview** to run the report.
@@ -36,7 +37,7 @@ The Delivery Challan report includes the details of raw material components sent
 
 Stock Register for Job Work report gives the details of transfer, consumption, and output entries of Subcontracting Order with value of GST liability created and credit taken.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Stock Register for Job work**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Stock Register for Job Work**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|

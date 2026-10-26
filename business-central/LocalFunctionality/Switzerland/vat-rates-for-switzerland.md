@@ -1,14 +1,15 @@
 ---
-title: VAT rates for Switzerland
+title: VAT Rates for Switzerland
 description: Learn how to manage VAT rate changes using the VAT rate change tool.
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: VAT rate change, VAT rates, Swiss version
-ms.date: 12/11/2023
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # VAT rates for Switzerland

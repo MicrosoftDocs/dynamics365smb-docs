@@ -1,14 +1,15 @@
 ---
 title: United Kingdom local functionality [GB]
 description: This article gives you an overview of local functionality in the United Kingdom version of Business Central.
-author: sorenfriisalexandersen
-ms.author: soalex
+author: jswymer
+ms.author: jswymer
 ms.search.keywords: UK local functionality
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.topic: article
-ms.date: 12/30/2025
+ms.date: 10/19/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # United Kingdom local functionality in the British version
@@ -19,24 +20,26 @@ The following articles describe local functionality that's unique to the United 
 
 - VAT & Tax
   - [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md) **Available Now**
+  - [Send fraud prevention data for Making Tax Digital](fraud-prevention-data.md) **Available Now**
   - [Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md) **Available Now**
   - [Print VAT Audit Reports](how-to-print-vat-audit-reports.md) **Available Now**
   - [Print VAT Reports](how-to-print-vat-reports.md) **Available Now**
   - [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md) **Available Now**
   - [VAT Group Management](../../ui-extensions-vat-group.md) **Available Now**
+  - [Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md) **Available Now**
 
 - Banking & Payments
   - [Print Checks for APACS](how-to-print-checks-for-apacs.md) **Available Now**
   - [Print Remittance Advice](how-to-print-remittance-advice.md) **Available Now**
 
 - Fixed Assets
-  - [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md) **Available Now**
+  - [Define accounting periods for straight-line depreciation of fixed assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md) **Available Now**
 
 - General
   - [Set Up a Posting Date Warning](how-to-set-up-a-posting-date-warning.md) **Available Now**
   - [Enter Statutory Information](how-to-enter-statutory-information.md) **Available Now**
-  - [IdealPostcodes extension in the British version](ui-extensions-idealpostcodes.md) **Available Now**
-  - [Set up the IdealPostcodes extension](ui-extensions-setup-idealpostcodes-service.md) **Available Now**
+  - [Use the Ideal Postcodes extension](ui-extensions-idealpostcodes.md) **Available Now**
+  - [Set up the Ideal Postcodes extension](ui-extensions-setup-idealpostcodes-service.md) **Available Now**
 
 ## Future legislation requirements being investigated
 

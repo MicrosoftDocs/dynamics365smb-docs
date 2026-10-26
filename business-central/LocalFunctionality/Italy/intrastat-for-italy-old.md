@@ -1,17 +1,18 @@
 ---
-title: Print Intrastat Reports for Italy - Deprecated feature
+title: Print Intrastat Reports for Italy - Deprecated Feature
 description: Learn how to print and submit monthly and quarterly Intrastat reports to the Italian authorities on a diskette by running the Intrastat Make Disk Tax Auth batch job.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: monthly intrastat report, quarterly intrastat report, print intrastat reports, submit intrastat reports, intrastat checklist, intrastat form, Italian version
-ms.date: 05/22/2025
+ms.date: 10/21/2026
 ms.search.form: 12116
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Print Intrastat reports for Italy - Deprecated feature
+# Print Intrastat reports for Italy - deprecated feature
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -24,7 +25,7 @@ The following Intrastat reports are available:
 
 ## Print quarterly or monthly reports  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Intrastat Journals**, and then choose the related link.  
 1. Select the required journal batch.  
 1. To open the **Intrastat - Monthly** report or the **Intrastat - Quarterly** report, choose the **Monthly Report** action or the **Quarterly Report** action.  
 1. On the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
@@ -32,18 +33,18 @@ The following Intrastat reports are available:
 1. On the **Intrastat Journal** page, to save the report details to a diskette, choose the **Make Diskette** action.  
 
     > [!NOTE]  
-    > Before you print, you can select the path and file name. If you don't specify this information, the file is named **scambi.cee** and prints to the root of the C drive.  
+    > Before you print, you can select the path and file name. If you don't specify this information, the file is named **scambi.cee** and prints to the root of the C drive.
 
-## Print Intrastat - Checklist reports  
+## Print Intrastat checklist reports
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat - Checklist**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Intrastat - Checklist**, and then choose the related link.  
 1. On the **Options** FastTab, select the **Show Intrastat Journal Lines** checkbox to include detailed information about the journal lines in the report.  
 1. On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
 1. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
-## Print Intrastat - Form reports  
+## Print Intrastat form reports
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat - Form**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Intrastat - Form**, and then choose the related link.  
 1. On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
 1. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 

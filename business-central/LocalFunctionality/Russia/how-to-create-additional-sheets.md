@@ -4,10 +4,11 @@ description: Russian localization provides additional sheets for VAT purchase an
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: additional sheet, create additional sheets, print additional sheets, VAT purchase, VAT sales ledgerRussia
-ms.date: 07/14/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Create additional sheets
@@ -24,7 +25,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create addition
 
 ## Print additional sheets on a VAT Ledger
 
-1. On the **VAT Purch. Ledger** or **VAT Sales Ledger** page, choose the **Additional Sheet** action.
+1. On the **VAT Purchase Ledger Card** or **VAT Sales Ledger Card** page, choose **Export Add. Sheet**.
 1. In the **Period Type** field, select one of the following options:
 
    - **Day**
@@ -32,9 +33,11 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create addition
    - **Quarter**
 
    > [!NOTE]
-   > In the **VAT Ledger** tab, the **Type** field and the **Code** field are automatically created.
+   > The selected ledger determines the ledger type and code for the export.
 
-1. Choose the **Preview** or **Print** action.
+1. Choose **OK** to export the additional sheet to Excel. Print the exported workbook from Excel.
+
+Set **Purch. Add. Sheet Templ. Code** or **Sales Add. Sheet Templ. Code** in **Tax Register Setup** before you export the corresponding sheet.
 
 ## Create corrective documents to include in additional sheets
 
@@ -50,23 +53,25 @@ Processing of corrective documents for sales book is similar to processing for p
 
 ### Create a correction entry for posted purchase credit memos
 
-1. Create and post a purchase credit memo.
-1. Choose **Additional VAT Ledger Sheet** field.
+1. Create a purchase credit memo.
+1. Select **Additional VAT Ledger Sheet**.
 1. Enter information in the following fields:
    - **Corrected Document Date**
    - **Vendor VAT Invoice Date**
    - **Vendor VAT Invoice Rcvd Date**
    - **Vendor VAT Invoice No.**
+1. Post the purchase credit memo.
 
 ### Create a correction entry for a posted purchase invoice
 
-1. Create and post a purchase invoice.
-1. Choose the **Corrected Document Date** field.
+1. Create a purchase invoice.
+1. Fill in **Corrected Document Date**.
 1. Enter information in the following fields:
 
    - **Vendor VAT Invoice Date**
    - **Vendor VAT Invoice Rcvd. Date**
    - **Vendor VAT Invoice No.**
+1. Post the purchase invoice.
 
 > [!NOTE]
 > You can also create corrective documents in the general journal. General journal lines contain all the fields mentioned above.
@@ -85,6 +90,6 @@ Processing of corrective documents for sales book is similar to processing for p
 
 ## Related information
 
-[VAT Ledgers](VAT-Ledgers.md)
+[VAT Ledgers](vat-ledgers.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

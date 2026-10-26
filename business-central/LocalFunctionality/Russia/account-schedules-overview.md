@@ -4,10 +4,11 @@ description: Learn about enhanced financial reporting features and customization
 author: DianaMalina
 ms.topic: overview
 ms.search.keywords: financial reports, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Financial reports overview
@@ -32,9 +33,9 @@ Financial reports are set up on the **Financial Reports** page.
 
 ## Related information
 
-- [Import and Export Financial Reports](How-to-Import-and-Export-Account-Schedules.md)  
-- [Define a Financial Report Extension](How-to-Define-an-Account-Schedule-Extension.md)  
-- [Define a Financial Report Constant](How-to-Define-an-Account-Schedule-Constant.md)  
+- [Import and Export Financial Reports](how-to-import-and-export-account-schedules.md)  
+- [Define a Financial Report Extension](how-to-define-an-account-schedule-extension.md)  
+- [Define a Financial Report Constant](how-to-define-an-account-schedule-constant.md)  
 - [Work with Financial Reports](How-to-Work-with-Account-Schedules.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

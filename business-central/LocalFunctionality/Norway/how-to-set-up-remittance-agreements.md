@@ -1,15 +1,16 @@
 ---
-title: Set Up Remittance Agreements [NO]
+title: Set Up Remittance Agreements in the Norwegian Version [NO]
 description: Learn how to set up remittance agreements with your bank for electronic payments in the Norwegian version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: remittance agreement, remittance agreement setup, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up remittance agreements in the Norwegian version
@@ -18,7 +19,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
 
 ## Set up a remittance agreement  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Agreement Overview**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Remittance Agreement Overview**, and then choose the related link.  
 1. Choose the **New** action.  
 1. On the **General** FastTab, fill in the fields as described in the following table.  
 

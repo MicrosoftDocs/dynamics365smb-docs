@@ -1,21 +1,22 @@
 ---
-title: Setting up and how to stale check
-description: Describes the setup steps and process for handling stale checks in Business Central for India.
+title: Set Up Stale Check
+description: Set up cheque expiry periods and learn how stale-check actions differ between check ledger and bank account ledger entries in Business Central for India.
 author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, stale check, stale check setup, manage stale cheques
-ms.date: 06/26/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up stale check
 
 Business Central has included Stale Check Feature as part of Indian Localization.
 
-A check is considered to be stale after it has expired. Each bank has a specific period during which checks are considered to be valid. This period usually lasts three months. If a check isn't presented for payment within the specified period, it's considered to be stale.
+A check is considered stale after its validity period expires. Configure the period for each bank account according to the applicable bank requirements. A three-month period is an example, not a default or a statement of current legal requirements.
 
 ## Stale check setup
 
@@ -28,7 +29,7 @@ Following is the list of setups that are required to be configured.
 
 Following needs to be configured in General Ledger Setup for stale check.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Ledger Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -39,27 +40,36 @@ Following needs to be configured in General Ledger Setup for stale check.
 
 Following configuration is needed.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Account**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Bank Accounts**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Stale Cheque Stipulated Period**|Specifies the period for cheque stale date calculation, Cheque Stale Date = (Check Date + Stale Cheque Stipulated Period).|
 
-## How to manage stale cheque
+## Manage a stale cheque from check ledger entries
 
-Following is the process of managing stale cheque.
+Use **Stale Check** on **Check Ledger Entries** to financially void a posted check. The check must have **Entry Status** set to **Posted**, **Statement Status** set to **Open**, and a balancing account. The underlying transaction must balance.
 
-1. Create and post bank payment from **General Journal**, **Payment Journal**, or **Bank Payment Voucher**.
-1. **Cheque No.** and **Cheque Date** should have a value in the payment journal.
-1. System calculates the **Stale Cheque Expiry Date** and populate the same in **Bank Ledger Entry** and **Check Ledger Entry**.
+1. Create a bank payment in **General Journal**, **Payment Journal**, or **Bank Payment Voucher**.
+1. Enter the **Cheque No.** and **Cheque Date**, and post the payment.
 1. To mark the check as stale go to the relevant **Bank Account**, choose the **Edit** action, and then choose the **Check Ledger Entries** action.
 1. In the **Check Ledger Entries** window, choose the **Stale Check** action. 
-1. Select the **Stale Check Only** check box.
-1. Choose the **OK** button.
-1. Cheque can also be staled from **Bank Ledger Entry**. In the **Bank Ledger Entries** window, choose the **Stale Check** action.
-1. Select the **Stale Check Only** check box.
-1. Choose the **OK** button.
+1. On **Confirm Financial Stale**, review **Stale Date** and select **Type of Stale**. Choose **Unapply and Stale check** to unapply a customer or vendor payment, or **Stale check only** to leave the original application in place.
+1. Confirm the action.
+
+The action posts reversing entries and marks the check **Financially Voided**. It marks both the original check ledger entry and the related bank account ledger entry as stale. **Stale check only** doesn't mean that no financial entries are posted.
+
+The expiry date is calculated from the check date and the bank account's **Stale Cheque Stipulated Period**. Review the resulting **Stale Cheque Expiry Date** before running the action.
+
+## Mark a bank account ledger entry as stale
+
+The **Stale Check** action on **Bank Account Ledger Entries** only marks the selected entry. It doesn't run the financial-voiding workflow or open **Confirm Financial Stale**.
+
+1. Open the relevant **Bank Account Ledger Entries**.
+1. Select the entry, choose **Stale Check**, and confirm.
+
+This action sets **Stale Cheque** and **Cheque Stale Date** on the selected bank account ledger entry.
 
 > [!NOTE]
 > Make sure that your work date should be later than Stale cheque expiry date.

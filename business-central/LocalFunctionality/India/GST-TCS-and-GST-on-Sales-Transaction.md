@@ -1,29 +1,33 @@
 ---
 title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
-description: Learn how to calculate TCS under the Income Tax Act, 1961, and GST on sales transactions in Business Central.
+description: Calculate income tax TCS and GST on sales transactions, and review illustrative calculation and accounting entries in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TCS, IT Act, Income Tax Act, sales transactions
-ms.date: 06/25/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Calculation of TCS as per the Income Tax Act, 1961 and GST on sales transactions
 
-The Government has placed the responsibility on the e-commerce operators to collect the ‘tax’ at a specified rate from the supplier. This shall be done by the Operator by paying the supplier the price of the product or services, less the tax, calculated at the specified rate.
+This article describes a sales invoice that includes GST and TCS under the Income Tax Act, 1961. This TCS uses **TCS Nature of Collection**. It's separate from GST TCS on cash or bank vouchers.
 
 The process of calculation of TCS and GST has been explained in this document.
 
 ## Create a sales invoice
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Sales Invoices**, and then choose the related link.
 1. Select **Customer** on **Sales Invoice** header.
 1. Select **Item** on **Sales Invoice** line. GST Group Code, HSN/SAC Code shouldn't be blank on the Item.
+1. Select **TCS Nature of Collection** on the sales line. The nature of collection must be allowed for the customer and must not be configured as **TCS on Recpt. Of Pmt.**
 
 For example, there's a sales invoice for INR 10,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) and 1% TCS as per Income Tax Act, 1961 has to be charged on the invoice amount.
+
+The example assumes a TCS base that excludes GST. Confirm the configured TCS base, thresholds, and rates for your transaction; the example rates aren't current-rate guidance.
 
 - GST calculation appears in the Fact Box as following:
 

@@ -4,10 +4,11 @@ description: Russian localization adds special codes for company, customer, and 
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: special codes, company information, customer information, vendor information, compliance, reporting, Russia
-ms.date: 07/21/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Special codes for company information, customers, and vendors

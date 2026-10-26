@@ -1,14 +1,15 @@
 ---
-title: TCS calculation considering threshold limits
-description: Explains how TCS is calculated in relation to threshold limits.
+title: TCS with Threshold
+description: Review TCS threshold calculations and illustrative examples to understand how configured limits affect transactions in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TCS, threshold, threshold limits, TCS calculation, TCS threshold
-ms.date: 06/27/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # TCS with threshold
@@ -17,9 +18,11 @@ This article explains the requirement of threshold amount in TCS and  the proce
 
 ## TCS calculation considering threshold limits
 
-TCS threshold defines the threshold limit for each TCS Nature of Collection. TCS can be deducted only if the total transaction with the assessee exceeds the threshold limit in the financial year.
+The tax rate defines the threshold for each TCS nature of collection. The calculation considers transactions within the tax accounting period and the customer's **Threshold Overlook** setting. Select **Threshold Overlook** on **Allowed NOC** to calculate without applying the threshold.
 
-If a payment under TCS Type A is below Threshold INR 20,000, no tax is collected. Another factor to be considered is the aggregate of total payments to be made in a year. If for a customer it's expected that the threshold limit would be crossed eventually, it means Threshold is overlooked. Hence, payments received from customers can cross the TCS threshold of INR 20,000. However, if the payment expected is below the threshold limit defined, TCS isn't collected.
+The following illustrative scenario assumes a threshold of INR 20,000 for TCS Type A. This threshold isn't a statement of current tax law. With **Threshold Overlook** cleared, a transaction of INR 19,000 below the threshold doesn't collect TCS. If you expect the customer's transactions to exceed the threshold and want to collect from the first transaction, select **Threshold Overlook**.
+
+**Calc. Over & Above Threshold** on the tax rate controls whether the threshold amount is excluded from the taxable base after the threshold is crossed. It differs from **Threshold Overlook**, which ignores the threshold entirely.
 
 1. GL Entries for TCS where payment is less than the threshold limits as follows:
 
@@ -28,12 +31,12 @@ If a payment under TCS Type A is below Threshold INR 20,000, no tax is collected
     |**Customer Account**|19000|
     |**Sales Account**|-19000|
 
-1. GL Entries for TCS where payment is more than (exceeding) Threshold limits as follows:
+1. For an illustrative tax-inclusive receipt of INR 10,000 with calculated TCS of INR 287 after the threshold is crossed, the G/L entries are:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Bank Account**|10000|
-    |**TCS Payable Account**|287|
+    |**TCS Payable Account**|-287|
     |**Customer Account**|-9713|
 
 ## Related information

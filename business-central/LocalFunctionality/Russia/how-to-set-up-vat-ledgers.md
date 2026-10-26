@@ -4,10 +4,11 @@ description: Learn how to configure VAT ledgers in Russia for tracking VAT trans
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: VAT ledgers, Russia
-ms.date: 07/17/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up VAT ledgers
@@ -45,17 +46,17 @@ To use VAT ledgers, you must specify the relevant number series.
 
    | Field | Description |
    |:-|:-|
-   | **Not Include into VAT Ledger** | Specifies if entries that use the setup must be included in VAT ledgers. For more information, see Not Include into VAT Ledger. |
-   | **VAT Exempt** | Specifies if entries that use this posting setup are VAT exempt. For more information, see VAT Exempt. |
+   | **Not Include into VAT Ledger** | Specifies which VAT ledgers exclude entries that use this setup. Choose **Purchases**, **Sales**, or **Purchases & Sales**, or leave the field blank to exclude neither ledger type. |
+   | **VAT Exempt** | Specifies whether entries that use this posting setup are VAT exempt. When you select this field, **VAT %** must be zero. |
 
 Now, you can create VAT ledgers for purchases and sales.
 
 ## Related information
 
 - [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
-- [Register VAT on Purchase Orders](How-to-Register-VAT-on-Purchase-Orders.md)  
-- [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
-- [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  
-- [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
+- [Register VAT on Purchase Orders](how-to-register-vat-on-purchase-orders.md)  
+- [Prepare VAT Entries for Posting](how-to-prepare-vat-entries-for-posting.md)  
+- [Create VAT Ledgers](how-to-create-vat-ledgers.md)  
+- [Create Additional Sheets](how-to-create-additional-sheets.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

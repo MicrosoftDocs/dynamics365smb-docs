@@ -1,23 +1,24 @@
 ---
-title: TDS calculation and transactions as per Section 194Q
-description: Explains how TDS is calculated and processed for transactions under Section 194Q.
+title: TDS Calculation and Transactions as per Section 194Q
+description: Review the documented section 194Q TDS purchase workflow and illustrative calculation and accounting entries in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TDS calculation, Section 194Q
-ms.date: 06/30/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # TDS calculation and transactions as per section 194Q
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
-As per new TDS rules, TDS to be deducted to any person, being a buyer responsible for making a payment to a resident for purchase of goods when value or aggregate of purchase from a supplier or payment whichever is earlier, Rs.50 lacs during the previous year.
+This article illustrates TDS calculation for section 194Q using the historical scenario from July 1, 2021. The examples assume a threshold of INR 50,00,000 and a rate of 0.10%. These values aren't guidance on current tax law. Use the rates and thresholds that apply to your transactions.
 
- As per this section, any purchase invoices/payments that are over and above the threshold amount (50,00,000). TDS amount to be deducted on amount exceeding threshold limit. For Example, Buyer buys goods from Seller amounting to INR. 85 lakhs and is liable to deduct TDS under section 194 Q. In this case TDS to be deducted on INR. 35 lakhs (85-50) @ 0.1%.
+With **Calc. Over & Above Threshold** selected, TDS is calculated on the amount above the configured threshold. For example, for purchases of INR 85 lakhs and a threshold of INR 50 lakhs, the taxable amount is INR 35 lakhs and TDS at 0.10% is INR 3,500.
 
 Provision (Calc. Over & Above Threshold) has been provided for user on TDS Rates to calculate TDS on amount that is over & above threshold.
 
@@ -29,7 +30,7 @@ The existing TDS calculation logic in system works for invoice and advance payme
 
 ## TDS to be calculated on vendor invoice (through purchase invoice or purchase order)
 
-In the given scenario, vendor has issued an invoice for INR 55,00,000, on which 0.10% TDS is applicable under TDS Section 194Q. Initial threshold achieved value or opening balance under section 194Q, is INR 20,00,000.
+In this scenario, the opening amount under section 194Q is INR 20,00,000. The vendor then issues invoices for INR 20,00,000 and INR 15,00,000, bringing the cumulative amount to INR 55,00,000. The configured TDS rate is 0.10%.
   
 - In this case TDS calculation is as following:
 
@@ -63,7 +64,7 @@ In the given scenario, two advance payments must made to vendor for INR 20,00,00
   |**TDS Base Amount**|500000 (Total cumulative value 5500000 -5000000)|
   |**TDS Amount**|500 (500000*0.10%)|
 
-- On posting purchase invoice of second transaction, GL entries are as following:
+- On posting the second advance payment, G/L entries are as follows:
 
   | Particulars | Amount |
   |----------------------------------|---------------------------------------|  
@@ -74,3 +75,5 @@ In the given scenario, two advance payments must made to vendor for INR 20,00,00
 ## Related information
 
 [TDS 194Q Overview](TDS-194Q-Section-Overview.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

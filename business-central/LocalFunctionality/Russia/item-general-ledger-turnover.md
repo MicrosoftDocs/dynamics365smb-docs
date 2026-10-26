@@ -4,10 +4,11 @@ description: Russian localization features allow you to generate turnover sheets
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: item general ledger turnover, item turnover, Russia
-ms.date: 07/18/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Item general ledger turnover
@@ -46,15 +47,15 @@ The window contains fields with the information listed in the following table. Y
 | **Description** | This field displays the description of the item. |
 | **Base Unit of Measure** | This field displays the base unit of measure of the item. The unit of measure is specified in the Item card as the Base. |
 | **Starting Quantity**,  **Ending Quantity**,  **Debit Quantity**,  **Credit Quantity** | These fields provide information about the quantity of the item—item quantity at the beginning and at the end of the period, and positive and negative correction in quantities of the item. Quantities are specified in base units of measure. |
-| **Starting Cost**,  **Ending Cost**,  **Debit Cost**,  **Credit Cost** | These fields provide information about the cost of the item, at the beginning and at the end of the period, and the item positive and negative adjustments in financial amounts. These field values are calculated on the basis of the cost amounts posted in the general ledger entry. |
+| **Starting Cost**, **Ending Cost**, **Debit Cost**, **Credit Cost** | These fields show the item's opening and closing costs and cost movements for the period. The values are calculated from **Cost Amount (Actual)** on value entries. |
 
 To display the selected item card
 
 - Choose the **Item** button and then **Card** (<kbd>Shift</kbd>+<kbd>F5</kbd> key).
 
-To print the **Item Turnover (Qty.)** or **Item Turnover Checklist** reports.
+To print the **Item Turnover (Qty.)** report:
 
-- Choose the **Print** action, and then choose the **Turnover Sheet** or the **Turnover Checklist** action.
+- Choose **Print** > **Turnover Sheet**.
 
 ## Item Turnover (Qty.) Report (12469)
 
@@ -94,10 +95,11 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 | **Unit of Measure** | Choose a unit of measure for calculating report quantities:   -   **Base** – In base units of measure -   **Sale** – In units of measure for sales -   **Purchase** – In units of measure for purchases |
 | **Print Quantity** | Select this field to print the quantity that is mentioned in the report. |
 | **Print Cost** | Select this field to print the costs that are mentioned in the report. |
-| **Export to Excel** | Select this field to export the report to Microsoft Office Excel. |
+
+To export the report to Excel, use the report output options. **Export to Excel** isn't a field on this report's request page.
 
 ## Related information
 
-[Item Obligatory Acts](Item-Obligatory-Acts.md)  
+[Item Obligatory Acts](item-obligatory-acts.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

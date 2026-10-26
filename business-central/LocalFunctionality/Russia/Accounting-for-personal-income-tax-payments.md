@@ -4,10 +4,11 @@ description: Provides guidance on accounting for personal income tax payments in
 author: DianaMalina
 ms.topic: concept-article
 ms.search.keywords: personal income tax, income tax payments, payments, Russia
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Accounting for personal income tax payments
@@ -28,6 +29,6 @@ Personal income tax is paid by forming a payment order to the tax authority.
 
 ## Related information
 
-[Tax Accounting](Tax-Accounting.md)
+[Tax Accounting](tax-accounting.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,39 @@
 ---
-title: Special data output and reports for the tax authorities in Iceland
-description: In Iceland, it's a legal requirement to send a data file in a specific format to the tax authorities.
+title: Special Data Output and Reports for the Icelandic Tax Authority
+description: Learn how to prepare Icelandic tax reporting data in Business Central by mapping IRS numbers to posting accounts and reviewing account balances.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: data file, data file format, data file output, tax authorities
-ms.date: 02/06/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Special data output and reports for the Icelandic tax authority
 
 It's a legal requirement to send the tax authority a data file in a predefined format.  
 
-To generate the data file for the tax authorities, every account in the chart of accounts must be set up with the correct Internal Revenue Service (IRS) tax number as defined by the tax authority.  
+To prepare the reporting data, map the relevant posting accounts in the chart of accounts to the Internal Revenue Service (IRS) numbers defined by the tax authority. Learn more in [Map IRS numbers to the chart of accounts](how-to-map-irs-numbers-to-chart-of-accounts.md).
 
-General ledger accounts are mapped to predefined government account codes and these codes are divided into groups and types. You need to add the relevant IRS numbers and then manually map general ledger accounts to these codes. You must also report the data to the tax authorities.  
+The predefined government account codes are divided into groups and types. Add the relevant IRS numbers, and manually map the general ledger accounts to these codes.
+
+## Review account mappings and balances
+
+Use the following reports to review the data before you prepare your submission:
+
+|Report|Purpose|
+|---|---|
+|**IRS Details**|Lists posting accounts by IRS number and shows **Balance at Date**. Use **IRS Number** and **Date Filter** to limit the results.|
+|**Trial Balance - IRS Number**|Shows general ledger accounts with their assigned IRS numbers, net changes, and balances at the specified date.|
+
+Submit the required data file to the tax authority using its prescribed format and process.
 
 ## Related information
 
-[Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+- [Map IRS numbers to the chart of accounts](how-to-map-irs-numbers-to-chart-of-accounts.md)
+- [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: GST and TDS on Vendor Advance Payments
-description: Learn how GST and TDS are applied to vendor advance payments in Business Central.
+description: Apply vendor advance payments to purchase invoices and review the related GST and TDS adjustment and accounting examples in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TDS, vendor advance payments
-ms.date: 06/25/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST and TDS on vendor advance payments
 
 Liability of paying GST and TDS arises at the time of advance payment to vendor.
 
-### Mandatory fields in cash or bank payment voucher
+The following example uses illustrative GST and TDS rates. For GST on a vendor advance, use a reverse charge service transaction. The journal validation doesn't allow advance GST for goods.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
+## Enter the advance in a cash or bank payment voucher
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
 1. Select **Vendor** in **Account Type** field and select relevant vendor code in **Account No.** field.
 1. Select **G/L Account** for cash or **Bank Account** for bank in **Bal. Account Type** field, and select relevant cash or bank account in **Bal. Account No.** field.
-1. Select relevant TDS Section, GST Group Code, HSN/SAC Code, Location Code on journal line.
-1. **GST on Advance Payment** should be marked true.
+1. Set **Document Type** to **Payment**. Select the relevant **TDS Section Code**, **GST Group Code**, **HSN/SAC Code**, and **Location Code** on the journal line.
+1. Check **GST Reverse Charge** and select **GST on Advance Payment**.
 
 For example, service amount is INR 20000 and advance payment made to vendor for INR 10000, 18% GST (that is, 9% CGST and 9% SGST/UTGST) and 10% TDS has to be charged.
 
@@ -47,19 +50,19 @@ For example, service amount is INR 20000 and advance payment made to vendor for 
     |**Bank Account**|-9000|
 
 > [!IMPORTANT]
-> In some cases GST needs to be calculated on the amount excluding GST, provision has been made to handle such scenario. Business user need to fill the TDS Base Value in **Amount Excl. GST** filed on **Bank Payment Voucher**, and the system calculates TDS on the mentioned value.
+> **Amount Excl. GST** supports payment scenarios that use a base amount excluding GST. Don't combine a nonzero **Amount Excl. GST** with **GST on Advance Payment**. The journal validation requires **GST on Advance Payment** to be cleared when that amount is nonzero.
 
 Later invoice for service purchase issued by vendor for INR 20,000, 18% GST (that is, 9% CGST and 9% SGST/UTGST) and 10% TDS, is charged, and the advance payment is applied with the invoice.
 
-### Mandatory fields on purchase invoice
+## Apply the advance on the purchase invoice
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Purchase Invoices**, and then choose the related link.
 1. Select **Vendor** on **Purchase Invoice** header.
 1. Select **G/L Account** for service on **Purchase Invoice** line.
-1. Select TDS Section on **Purchase Invoice** line.
+1. Select **TDS Section Code** on the invoice line.
 1. GST Group Code, HSN/SAC Code, GST Credit should have a value in **G/L Account** card.
 1. **Location Code** field shouldn't be blank on both **Purchase Invoice** header and line.
-1. Apply the advance payment in **Applies to Doc. No.** field on **Purchase Invoice** header.
+1. In the **Application** section, set **Applies-to Doc. Type** to **Payment** and select the advance in **Applies-to Doc. No.**.
   
    GST calculation appears in the Fact Box as following:
 

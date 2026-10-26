@@ -1,15 +1,16 @@
 ---
-title: Create Report 340 [ES]
-description: Learn how to create report 340 for the tax authorities in the Spanish version of Business Central. 
+title: Create Report 340 in the Spanish Version [ES]
+description: Learn how to generate report 340 in Business Central for Spain, configure declaration options, and prepare data for cash accounting transactions.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: report 340, create report 340, report 340 creation, Modelo 340 report, Modelo 340, CAC regimen, Spanish version
 ms.search.form: 10737, 10738, 10744
-ms.date: 05/26/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create report 340 in the Spanish version
@@ -20,7 +21,7 @@ This report is generated in a format approved by the tax authorities. You should
 
 ## Create report 340  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 340 Declaration**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Make 340 Declaration**, and then choose the related link.  
 1. On the **Make 340 Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

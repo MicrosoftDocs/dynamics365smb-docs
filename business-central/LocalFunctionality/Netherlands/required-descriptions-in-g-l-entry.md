@@ -1,26 +1,27 @@
 ---
-title: Required descriptions in G-L entry
-description: When entering general journal lines on a form, the system automatically fills in the description field.
+title: Require Descriptions in General Ledger Entries
+description: Require a meaningful description on journal lines by omitting the default G/L account description in the Dutch version of Business Central.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: journal lines, general journal description, Dutch version, Netherlands
-ms.date: 03/20/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Required descriptions in G-L entry
+# Require descriptions in general ledger entries
 
-When entering general journal lines on a form, the system automatically fills in the description field. This description is also stored in the G/L entry after posting the journal. For a good audit trail, a more detailed description is desirable, when you post a journal line of type G/L Account.  
+When you select an account on a general journal line, the account name is entered in **Description** by default. The description is stored in the G/L entry when you post the journal. You can omit the default account name to prompt users to enter a more useful description for the audit trail.
 
-To force the user to enter a more detailed description, it's possible to choose if the system must fill in automatically the description of the G/L account or leave the field blank. If the **Omit Default Descr. in Jnl. Field** checkbox on the **G/L Account Card** page is checked, the system doesn't fill in the **Description** field for that G/L account when selected in a general journal line.  
+On the **G/L Account Card** page, select **Omit Default Descr. in Jnl.** to stop the G/L account name from being entered automatically when you select that account on a journal line.
 
-When posting the journal lines, the system checks if all the **Description** fields are filled in. If there's a blank description, an error message appears.  
+Posting requires a nonblank **Description** on each journal line. If a description is blank, posting is blocked. The check requires text but doesn't assess how detailed the description is.
 
 > [!NOTE]  
-> Leaving the description field blank and checking if all the description fields are filled in before posting will only be done on the general journal pages in several application areas and on the local Cash Bank Giro pages.  
+> This setting applies to general journal lines and the Dutch cash and bank/giro journal lines. It doesn't make descriptions mandatory on every type of document.
 
 ## Related information
 

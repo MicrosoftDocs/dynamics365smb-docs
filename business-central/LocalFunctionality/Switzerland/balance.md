@@ -1,29 +1,30 @@
 ---
-title: G/L balance [CH]
-description: Learn how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
+title: General Ledger Balance in the Swiss Version [CH]
+description: Review posted balances and unposted journal amounts on the G/L Account temp. Balance page before posting a general journal in the Swiss version.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: provisional balance, G/L balance, G/L account balance, Swiss version
 ms.search.form: 11500
-ms.date: 04/28/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # General ledger balance in the Swiss version
 
-When you choose the **Balance** action on the **G/L Accounts** page, the **G/L Acc. Provisional Balance** page opens. It shows the balance of the final posted ledger entries and the balance of the postings entered in the current general journal.  
+When you choose the **Balance** action on the **General Journal** page, the **G/L Account temp. Balance** page opens. It shows posted balances and unposted amounts excluding VAT for the account and balancing account on the selected journal line.
 
-The journal balance references all lines from the beginning of the journal up to and including the current line.
+By default, the unposted amounts include lines from the beginning of the current journal batch up to and including the selected line.
 
 For example, after recording customer payments you can check whether the bank balance is correct.
 
 You can choose between two options:
 
-- **All Journals**: The unposted balance for all general ledger registers is calculated. It also includes values from ledgers that have another journal name not shown at the time.
-- **Actual Journal**: The unposted balance for the currently displayed general journal only is calculated.
+- **All Journals**: Include matching unposted lines from all general journal templates and batches, without limiting them to the selected line.
+- **Actual Journal**: Include matching unposted lines in the current journal batch up to and including the selected line.
 
 ## Related information
 

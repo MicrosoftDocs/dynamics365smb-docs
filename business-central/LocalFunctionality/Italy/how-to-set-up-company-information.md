@@ -1,19 +1,20 @@
 ---
-title: How to set up company information
+title: Set Up Company Information for Italy
 description: Learn how to set up required company details on the Company Information page to ensure fiscal documents include complete and accurate information.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:  company information, company information page, Italian version
-ms.date: 05/21/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up company information
 
-Fiscal documents must contain all company information. You can enter all relevant data on the **Company Information** page when setting up a company. This data is included in all reports and fiscal documents.  
+Enter your company's identifying, contact, and bank details on the **Company Information** page. Reports and electronic documents use the fields relevant to their format.
 
 ## Steps to set up company information  
 
@@ -26,7 +27,7 @@ Fiscal documents must contain all company information. You can enter all relevan
     |**Communication**|The company contact information.|  
     |**Payments**|The bank information for the company.|  
     |**Shipping**|The shipping information for the company.|  
-    |**Administration**|The administration information for the company.|  
+    |**Administration**|Italian fiscal and registration details, such as **Fiscal Code**, **Activity Code**, **REA No.**, and **Register Company No.**|
 
 1. Choose the **OK** button.  
 

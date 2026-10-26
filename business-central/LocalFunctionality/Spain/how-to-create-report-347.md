@@ -1,13 +1,14 @@
 ---
-title: How to create report 347 [ES]
+title: Create Report 347 in the Spanish Version [ES]
 description: Learn how to make a Report 347 declaration to the tax authorities providing the sales and purchase transactions from the previous fiscal period.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: report 347 declaration, create report 347, 347 declaration, Spanish version 
-ms.date: 05/26/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create report 347 in the Spanish version
@@ -20,13 +21,13 @@ Before you create the Report 347 declaration, you can run a report to identify p
 
 ## Identify unapplied payments in cash  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **347**, and then choose the link for the **347 Declaration** area.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **347**, and then choose the link for the **347 Declaration** area.  
 1. Choose the **Unapplied Payments in Cash** action.  
 1. On the **Options** FastTab, fill in the fields.  
 
 ## Create a report 347 declaration  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 347 Declaration**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Make 347 Declaration**, and then choose the related link.  
 1. On the **Options** FastTab, fill in the fields. For more information, see Make 347 Declaration.  
 1. Choose the **OK** button.  
 
@@ -34,7 +35,7 @@ When you send the Report 347 declaration, you must include 347 declaration label
 
 ## Create 347 declaration labels  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **347 Declaration Labels**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **347 Declaration Labels**, and then choose the related link.  
 1. On the **Options** FastTab, fill in the fields. For more information, see Declaration Labels.  
 
 ## Related information

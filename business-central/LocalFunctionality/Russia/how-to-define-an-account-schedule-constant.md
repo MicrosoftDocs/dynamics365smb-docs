@@ -4,10 +4,11 @@ description: Russian localization adds support for defining constants in financi
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: define constant, financial report constant, financial report, Russia
-ms.date: 07/15/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Define a financial report constant
@@ -16,9 +17,9 @@ ms.service: dynamics-365-business-central
 
 ## Steps to define a financial report constant
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Report**, then choose the related link.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
 1. Select the financial report for which you want to define a constant.
-1. Select **Edit Financial Report**.
+1. Select **Edit Row Definition**.
 1. In the **Row No.** field, select the number of the financial report row for which you want to define a constant.
 1. In the **Totaling Type** field, select **Constant**, and then enter a constant value in the **Totaling** field.
 
@@ -26,6 +27,6 @@ ms.service: dynamics-365-business-central
 
 - [Work with Financial Reports](How-to-Work-with-Account-Schedules.md)  
 - [Financial Reports Overview](account-schedules-overview.md)  
-- [Define a Financial Report Extension](How-to-Define-an-Account-Schedule-Extension.md)  
+- [Define a Financial Report Extension](how-to-define-an-account-schedule-extension.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

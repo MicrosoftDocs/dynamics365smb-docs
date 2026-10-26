@@ -1,25 +1,26 @@
 ---
-title: Setting up GST Compensation Cess
-description: Describes the essential configurations needed to set up GST Compensation Cess.
+title: Set Up GST Compensation Cess
+description: Set up GST Compensation Cess components and item classifications for applicable transactions in the India localization of Business Central.
 author: v-debapd  
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST compensation cess, GST posting setup, tax rates, GST groups
-ms.date: 06/19/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Set up GST compensation cess
 
-Business Central has included GST Compensation Cess feature to Indian Localization.
+Business Central supports GST compensation cess for India.
 
 **“GST Compensation Cess”** is levied by the Goods and Services Tax (Compensation to States) Act 2017. The object of levying this cess is to compensate the states for the loss of revenue arising due to the implementation of GST on 1st July 2017 for five years or such period as recommended by the GST Council. GST, being a consumption-based tax, would result in loss of revenue for manufacturing-heavy states.
 
 All taxpayers who are engaged in the supply of selected goods or services other than exporters and composition taxpayers collect compensation cess. This also includes compensation cess chargeable on certain goods imported to India. In case compensation cess is paid on exports, the exporter can claim refund of the same.
 
-## Process
+## Plan the cess setup
 
 The following is the list of setups that are pre-configured with the help of Tax Engine
 
@@ -41,40 +42,41 @@ The following is the list of setups that are required to be configured manually
 
 Rate of GST is defined in combination of GST Group Code, HSN/SAC. States and Date.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **GST CESS** -> **Action** -> **Tax Rates**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Tax Types**, and then choose the related link.
+1. Select **GST CESS**, and then choose **Tax Rates**.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**GST Group Code**|Specifies the GST group code.|
-    |**HSN/SAC**|Specifies the HSN/SAC code.|
+    |**HSN/SAC Code**|Specifies the HSN/SAC code.|
     |**From State**|Specifies the vendor state code.|
     |**Location State Code**|Specifies the location state code.|
     |**Date From**|Specifies the starting date.|
     |**Date To**|Specifies the ending date.|
-    |**CESS %**|Specifies the Cess rate.|
-    |**Before Threshold %**|Specifies the Cess rate if the amount doesn't cross defined threshold amount.|
+    |**CESS**|Specifies the cess percentage.|
+    |**Before Threshold Cess**|Specifies the cess percentage when the line amount is less than or equal to **Threshold Amount**.|
     |**Threshold Amount**|Specifies the threshold amount.|
-    |**Cess Amount per Unit Factor %**|Specifies the cess amount, which is levied on per unit of goods.|
+    |**Cess Amount per Unit Factor**|Specifies the cess amount for the quantity defined by **Cess Factor Quantity**. This value is an amount, not a percentage.|
     |**Cess Factor Quantity**|Specifies the Cess factor, which decides the base of per unit.|
 
 ## Set up HSN/SAC
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **HSN/SAC**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **HSN/SAC**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**GST Group Code**|Specifies the GST group code.|
     |**Code**|Specifies the HSN or SAC Code.|
-    |**Description**|Specifies the location state code.|
+    |**Description**|Specifies the description of the HSN/SAC code.|
     |**Type**|Specifies whether the code is an HSN or SAC.|
 
 ## Set up GST groups
 
 List of GST Cess groups need to be defined. A group can be of two types, **Goods** or **Service**.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Groups**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **GST Group**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -83,16 +85,18 @@ List of GST Cess groups need to be defined. A group can be of two types, **Goods
     |**Description**|Specifies the name of the group.|
     |**GST Group Type**|Specifies whether the group is defined as goods or service.|
     |**GST Place of Supply**|Specifies GST place of supply of the GST group.|
-    |**Component Calculation Type**|Specifies the calculation method of Cess.|
+    |**Component Calc. Type**|Specifies the calculation method of cess.|
     |**Cess UOM**|Specifies the unit of measure to be considered for this group.|
     |**Cess Credit**|Specifies whether the input credit for cess of this group is availment or non availment.|
     |**Reverse Charge**|Specifies whether the group is defined as reverse charge or not.|
 
+For calculation methods that use an amount per unit, fill in **Cess UOM**, **Cess Factor Quantity**, and **Cess Amount per Unit Factor**. The calculation validates these values before calculating cess.
+
 ## Set up GST posting setup
 
-General Ledger Account for each component and state combination is defined state-wise.
+Define G/L accounts for each component and state combination.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Posting Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **GST Posting Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -102,7 +106,7 @@ General Ledger Account for each component and state combination is defined state
     |**Receivable Account**|Specifies the general ledger account for which Cess receivable amount for this state and component is to be posted.|
     |**Payable Account**|Specifies the general ledger account for which Cess Payable amount for this state and component is to be posted.|
     |**Receivable Account (Interim)**|Specifies the general ledger account for which Cess receivable interim amount for this state and component is to be posted.|
-    |**Payable Account (Interim)**|Specifies the general ledger account for which Cess payable interim amount for this state and component is to be posted.|
+    |**Payables Account (Interim)**|Specifies the general ledger account for which Cess payable interim amount for this state and component is to be posted.|
 
 ## Related information
 

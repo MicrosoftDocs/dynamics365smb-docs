@@ -1,24 +1,24 @@
 ---
-title: How to Print Depreciation Book Reports [IT]
-description: Learn how to print the Depreciation Book report, after configuring depreciation methods and entering fixed assets.
+title: Print Depreciation Book Reports in the Italian Version [IT]
+description: Learn how to print the Italian Depreciation Book report in Business Central by acquisition year, asset class, and subclass, with optional asset details.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: depreciation book, depreciation book report, depreciation methods, print depreciation book report, Italian version
-ms.date: 05/21/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Print Depreciation Book reports in the Italian version
+# Print depreciation book reports in the Italian version
 
-The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **Depreciation Book** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **Depreciation Book** report is run after the depreciation method has been set up and assets have been entered.  
+The **Depreciation Book** report shows fixed asset movements by acquisition year, fixed asset class, and subclass. Select **Print per Fixed Asset** to include individual asset details. Run the report after you set up depreciation and enter the fixed assets.
 
-## Print Depreciation Book reports  
+## Print depreciation book reports
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
-1. Choose the **Reports and Analysis** action, and then choose the **Depreciation Book** action.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Depreciation Book**, and then choose the report.
 1. Expand the **Options** FastTab.  
 1. Fill in the fields as described in the following table.  
 

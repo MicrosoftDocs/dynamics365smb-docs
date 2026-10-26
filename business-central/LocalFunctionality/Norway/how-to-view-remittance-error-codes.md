@@ -1,15 +1,16 @@
 ---
-title: View remittance error codes [NO]
+title: View Remittance Error Codes in the Norwegian Version [NO]
 description: Learn how to view remittance error codes and their explanations for payments on the Waiting Journal page in the Norwegian version of Business Central.
 author: brentholtorf
 ms.topic: troubleshooting-error-codes
 ms.devlang: al
 ms.search.keywords: remittance error codes, waiting journal page, error explanation, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/15/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # View remittance error codes in the Norwegian version
@@ -18,13 +19,14 @@ For a remittance error, the error code from the bank and an explanation of the e
 
 ## View error codes  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Return Error**, and then choose the related link.  
-1. On the **Return Error** page, fill in the fields as described in the following table.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Waiting Journal**, and then choose the related link.
+1. Select the payment, and then choose the **Return Error** action.
+1. On the **Return Error** page, review the read-only fields described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Waiting Journal Reference**|Specify the reference code from the waiting journal.|  
-    |**Message Text**|Specify the message from the bank.|  
+    |**Waiting Journal Reference**|Shows the reference code from the waiting journal.|
+    |**Message Text**|Shows the message from the bank.|
 
 1. Choose the **Close** button.  
 

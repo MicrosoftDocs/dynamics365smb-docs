@@ -1,14 +1,15 @@
 ---
-title: GST on Advance Payment made to Vendor, with reverse charge
+title: GST on Advance Payment Made to Vendor with Reverse Charge
 description: Learn how GST is calculated and applied on advance payments made to vendors under reverse charge in Business Central India localization.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST on advance payment, cash payment voucher, reverse charge, create a general journal
-ms.date: 06/19/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST on advance payment made to vendor with reverse charge
@@ -17,13 +18,19 @@ The tax needs to be paid if supplier gets the payment first, therefore we need t
 
 The process of GST calculation on advance payment to vendor has been explained in this document.
 
+> [!NOTE]
+> The tax rates and amounts in this article are examples, not a statement of current tax requirements.
+
 ## Create a general journal or a bank or cash payment voucher
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal** or **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **General Journals**, **Bank Payment Voucher**, or **Cash Payment Voucher**, and then choose the related link.
 1. Select **Vendor** in account type and select relevant **Vendor Code**, GST vendor type, and registration number should be filled in vendor master.
 1. Select **G/L Account** or **Bank Account** in balancing account type, and select the cash or the bank account.
-1. Advance Payment made to vendor doesn't include tax payment, as the purchaser is liable to pay tax under reverse charge. Hence, tax is applied straight away on base.
-1. GST on Advance Payment field needs to be activated on General Journal Line for computation of GST on Advance Payment. In addition, GST Group code and GST Place of Supply shouldn't be blank for computation of GST.
+1. Set **Document Type** to **Payment** and enter the advance amount.
+1. Select the relevant **Location Code**, **GST Group Code**, and **HSN/SAC Code**. Check the **GST Place of Supply** value.
+1. Select **GST on Advance Payment**.
+
+The vendor advance doesn't include the reverse charge tax payment. The journal line must have **GST Reverse Charge** selected to use **GST on Advance Payment**. Advance GST calculation isn't available for goods or an input service distributor location. If **GST Place of Supply** is **Ship-to Address**, also specify **Ship-to Code**.
 
 For example, advance payment made to vendor against supply of services of INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged.
 

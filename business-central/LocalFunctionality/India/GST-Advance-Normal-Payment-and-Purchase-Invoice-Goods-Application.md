@@ -1,14 +1,15 @@
 ---
-title: GST on Advance Payment application with Purchase Invoice
+title: GST on Advance Payment or Normal Payment Application with Purchase Invoice
 description: Learn how GST is applied when advance or normal payments are made to vendors and later applied to purchase invoices in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST on advance payment, GST on normal payment, un-application
-ms.date: 06/19/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST on advance payment or normal payment application with purchase invoice
@@ -17,7 +18,19 @@ An advance payment made to vendor for a transaction that is subject to reverse c
 
 If the advance payment is applied to the invoice in the same month, then such applications need not be disclosed in GSTR-2. However, if advance payment is paid in a month and is applied to invoice in the subsequent month, then this application is to be reported in GSTR-2. 
 
-Process for application and un-application of payment and invoice has been explained in this document
+This article explains payment application and unapplication.
+
+> [!NOTE]
+> The GSTR-2 discussion describes the historical reporting scenario. Confirm current filing requirements separately. The tax rates and amounts below are illustrative.
+
+## Apply a vendor advance to an invoice
+
+1. Open the purchase invoice for the vendor.
+1. In the **Application** section, set **Applies-to Doc. Type** to **Payment**.
+1. In **Applies-to Doc. No.**, select the posted advance payment.
+1. Review the invoice lines and tax calculation before posting.
+
+The GST advance application checks matching details, including the GST group code, group type, location registration number, currency, vendor type, and jurisdiction. For a normal payment against a reverse charge service invoice, application transfers the applicable tax amounts from interim accounts. The examples below show the distinction between an advance and a normal payment.
 
 ## GST on advance payment and application with purchase invoice
 
@@ -135,7 +148,7 @@ For example, Purchase Invoice for service purchase issued to vendor for INR 60,0
     |**SGST/UTGST Payable Account**|-900|
     |**CGST Receivable (Interim) Account**|-900|
     |**SGST/UTGST Receivable (Interim) Account**|-900|  
-    |**Bank Account**|10000|
+    |**Bank Account**|-10000|
 
 If this is found that the payment and invoice was wrongly applied and the application needs to be reversed, in such a case un apply functionality can be used. Un-application entries are same for both online application and offline application.
 

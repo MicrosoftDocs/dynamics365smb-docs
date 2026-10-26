@@ -1,14 +1,15 @@
 ---
-title: How to import payment return data [NO]
-description: Learn how to use the Rem. payment order – import page to import receipt and settlement returns efficiently.
+title: Import Payment Return Data in the Norwegian Version [NO]
+description: Import Norwegian remittance receipt and settlement return files into an empty payment journal in Business Central, then review settlement warnings.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: import return data, settlement returns, import receipt and settlement returns, Norwegian version
-ms.date: 05/13/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Import payment return data in the Norwegian version
@@ -17,13 +18,14 @@ To import receipt and settlement returns, use the **Rem. payment order – impor
 
 ## Import return data  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Rem. payment order – import**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
+1. Open an empty journal batch for the returned payments, and then choose **Import Return Data**. The journal batch must be empty before import.
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Payment order note**|Enter a note that is transferred to the payment order.|  
-    |**ControlBatch**|Select the checkbox to verify return files in advance to ensure if the import can be made. Return data isn't imported.|  
+    |**Control batch**|Select to check whether return files can be imported without saving the imported data.|
     |**Return files**|Specifies how many return files are found and imported.|  
 
 1. Choose the **Return Files** button to display the return files.  
@@ -32,8 +34,9 @@ To import receipt and settlement returns, use the **Rem. payment order – impor
 
 ## View settlement information  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Settlement Info**, and then choose the related link.  
-1. On the **General** FastTab, view the fields as described in the following table.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
+1. Select the returned payment line, and then choose **Settlement Info**.
+1. On the **General** FastTab, view the fields as described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

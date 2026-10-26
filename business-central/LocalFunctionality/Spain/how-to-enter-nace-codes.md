@@ -1,14 +1,15 @@
 ---
-title: How to Enter NACE Codes [ES]
+title: Enter NACE Codes in the Spanish Version [ES]
 description: Learn how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes using the Spanish version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: NACE codes, Spanish version
-ms.date: 05/27/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Enter NACE codes in the Spanish version
@@ -26,7 +27,7 @@ You can enter NACE codes on the **Company Information** page. NACE codes are uni
 
 ## Enter NACE codes  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Company Information**, and then choose the related link.  
 1. On the **General** FastTab, in the **Industrial Classification** field, enter the NACE code.  
 1. Choose the **OK** button.  
 

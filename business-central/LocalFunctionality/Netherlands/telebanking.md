@@ -1,25 +1,26 @@
 ---
-title: Telebanking
+title: Dutch Telebanking in Business Central
 description: Telebanking allows you to electronically generate and exchange payments and collections with your bank based on sales and purchase transactions.
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: telebanking, Dutch version, Netherlands, payment history, exchange protocols
-ms.date: 03/20/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Telebanking
 
 Based on both sales and purchase transactions, telebanking enables you to generate your payments and collections and interchange them with your bank electronically. This includes the export of payment and collection data that need to be forwarded to the bank and the import of bank statements sent to you by the bank.  
 
-## Transactions
+## Sales and purchase transactions
 
 In general, all financial interactions with vendors and customers are done through either purchase or sales invoices and credit memos. As soon as these transactions are registered and posted, payments, or collections can be carried out by your company.  
 
-## Proposals
+## Payment and collection proposals
 
 Based on vendor and customer ledger entries, telebanking enables you to generate payment and collection proposals. This can be done for any bank that is set up for your company. Both domestic and foreign payments and collections are possible.  
 
@@ -32,7 +33,7 @@ When a proposal is agreed upon, it should be processed into a payment history.
 
 ## Payment histories
 
-A payment history is nothing more than a proposal except for the fact that data on a payment history can't be modified. The payment or collection data is ready to be exported and forwarded to the bank. Learn more in [Create and Export Payment History](how-to-create-and-export-payment-history.md).  
+A payment history stores the payment or collection instructions from a processed proposal. Review and correct the proposal before processing it. You can then export the payment history and submit the file to your bank. Learn more in [Create and export payment history](how-to-create-and-export-payment-history.md).
 
 ## Bank statements
 
@@ -49,10 +50,12 @@ For both exporting and importing, a number of protocols are defined. [!INCLUDE[p
 - BBV (export)  
 - PAYMUL (export)  
 - Generic Payment File (export). Can be used for cross-border Non-EUR transfers.
+- SEPA ISO 20022 credit transfer (export), including pain.001.001.09.
+- SEPA ISO 20022 direct debit (export), including pain.008.001.08.
 - Rabobank mut.asc (import)  
 - Rabobank vvmut.asc (import)  
 - Rabobank ASCII (import)  
-- SEPA CAMT  
+- SEPA CAMT (import)
 
 ## Related information
 

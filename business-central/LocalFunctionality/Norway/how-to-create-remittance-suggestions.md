@@ -1,27 +1,28 @@
 ---
-title: Create remittance suggestions [NO]
+title: Create Remittance Suggestions in the Norwegian Version [NO]
 description: Learn how to create a remittance suggestion to ensure that payment proposals are sent to vendors configured to receive remittance payments.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: remittance suggestion, create remittance suggestion, payment proposal, remittance payments, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/13/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create remittance suggestions in the Norwegian version
 
-You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments. One payment transaction per posting date for each vendor is transferred to the bank.  
+You can create a remittance suggestion to add payment lines for vendors who are set up to receive remittance payments. Creating the suggestion doesn't send payments to the bank. Review and export the payment lines, and then submit the payment file through your bank's software.
 
 > [!NOTE]  
 > To avoid creating payment suggestions for vendors who are remitted when the usual vendor suggestion process is used, add a filter for **Remittance** on the **Suggest Vendor Payments** page and set the filter to **No**.  
 
 ## Create a remittance suggestion  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.  
 1. Choose the **Remittance Suggestion** action.  
 1. On the **Suggest Remittance Payments** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 

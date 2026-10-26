@@ -1,15 +1,16 @@
 ---
-title: View posted tax invoices [NZ]
-description: Learn how to view posted sales tax invoices and purchase tax invoices in the New Zealand version of Business Central
+title: View Posted Tax Invoices in the New Zealand Version [NZ]
+description: Learn how to open posted sales and purchase tax invoices and review general, invoicing, and shipping details in the New Zealand version.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.form: 28071, 28073, 28081, 28082
 ms.search.keywords: posted tax invoices, sales tax invoice, purchase tax invoice, New Zealand version
-ms.date: 05/07/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # View posted tax invoices in the New Zealand version
@@ -20,7 +21,7 @@ The following procedure describes how to view the posted sales tax invoice, but 
 
 ## View a posted sales tax invoice
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Tax Invoice**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Posted Sales Tax Invoice**, and then choose the related link.  
 1. View the FastTabs as described in the following table.  
 
     |FastTab|Description|  

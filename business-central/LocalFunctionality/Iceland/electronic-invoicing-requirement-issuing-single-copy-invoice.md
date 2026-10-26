@@ -1,23 +1,32 @@
 ---
-title: Electronic invoicing requirement for issuing single-copy invoice
-description: In Iceland, a report must be sent to the government if an invoice is printed more than once when using electronic invoicing.
+title: Electronic Invoicing for Single-Copy Invoices
+description: Learn how to use the Electronic Invoicing reminder and print an IRS notification for single-copy invoices in the Icelandic version of Business Central.
 author: brentholtorf
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic invoicing equipment, electronic invoicing, single-copy invoice
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
-ms.date: 02/05/2025
+ms.reviewer: jswymer
+ms.date: 10/23/2026
+ai-usage: ai-assisted
 ---
 
-# Electronic invoicing requirement - Issuing single-copy invoice
+# Electronic invoicing for single-copy invoices
 
-In Iceland, you must send a report to the government if an invoice is printed more than once. This report includes legal text, which confirms that the invoice originates from an Enterprise Resource Planning (ERP) solution that complies with legislation.  
+Use the **IRS notification** report to prepare a statement to the Icelandic tax authority that your company intends to issue single-copy invoices. The statement includes your company details and text about compliance with Regulation No. 598/1999.
 
-Using this feature, you can send a legal statement with terms and limitations for using single-copy invoices to the tax authorities. The **Printing** FastTab on the **Sales & Receivables Setup** page contains a legal statement (terms and limitations for using single-copy invoices) and also provides an **Electronic Invoicing** check box, which you can select as a reminder that you need to print a statement for the tax authority. You can then print the **IRS Notification** report from the **Sales & Receivables Setup** page. On the **Home** tab, in the **Report** group, choose **Print Statement**.  
+Select the **Electronic Invoicing** checkbox on **Sales & Receivables Setup** to display a reminder to review the legal restrictions and print or send the statement.
 
-On the standard posted invoices (invoice and credit memo), legal text is inserted stating that the invoices originate from an ERP solution that complies with Regulation No. 598/1999.  
+## Print the notification statement
+
+Before you print, check your company's name, address, and **Registration No.** on **Company Information**. The report uses these details.
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the **Print Statement** action to open **IRS notification**.
+1. Print the statement.
+
+Submit the statement using the process required by the tax authority. Printing it doesn't send it automatically.
 
 ## Related information
 

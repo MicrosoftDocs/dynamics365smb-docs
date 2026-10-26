@@ -4,10 +4,11 @@ description: Learn how to set up norm jurisdictions in Business Central for Russ
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: norm jurisdiction, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up norm jurisdictions
@@ -47,10 +48,10 @@ The norm jurisdiction that you set up is now available for use in calculating ta
 
 ## Related information
 
-- [Tax Differences](Tax-Differences.md)  
-- [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
-- [Tax Accounting](Tax-Accounting.md)  
-- [Tax Registers](Tax-Registers.md)  
-- [Create Tax Registers](How-to-Create-Tax-Registers.md)  
+- [Tax Differences](tax-differences.md)  
+- [Setting up Tax Difference Calculation](setting-up-tax-difference-calculation.md)  
+- [Tax Accounting](tax-accounting.md)  
+- [Tax Registers](tax-registers.md)  
+- [Create Tax Registers](how-to-create-tax-registers.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

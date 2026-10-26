@@ -1,23 +1,23 @@
 ---
 title: Salesperson - Opportunities (report)
-description: Review which salespeople handle which opportunities.
+description: Review opportunities by salesperson, including status, priority, probability, and closing dates, with the Salesperson Opportunities report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: Report_50585058_Primary
-ms.date: 11/11/2024
+ms.search.form: Report_5058_Primary
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Salesperson - Opportunities (report)
+# Salesperson - opportunities (report)
 
-The **Salesperson - Opportunities** report shows information about the opportunities that one or several salespeople handle.
+The **Salesperson Opportunities** report shows information about the opportunities that one or several salespeople handle.
 
 ## Use cases
 

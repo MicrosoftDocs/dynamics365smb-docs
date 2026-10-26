@@ -4,9 +4,10 @@ description: Russian localization includes functionality for managing future exp
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: future expense journals, Russia, localization
-ms.date: 07/14/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.reviewer: v-soumramani
-ms.author: soalex
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 

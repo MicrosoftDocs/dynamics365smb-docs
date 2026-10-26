@@ -1,12 +1,13 @@
 ---
-title: Synchronize Contacts in Business Central with Contacts in Microsoft Outlook (legacy)
-description: This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.
+title: Synchronize Contacts with Microsoft Outlook (Legacy)
+description: Set up legacy contact synchronization between Business Central version 27 or earlier and Microsoft Outlook, and choose which contacts to synchronize.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311 
 ms.date: 05/21/2025
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -20,7 +21,7 @@ You can set up contact synchronization so that your contacts in [!INCLUDE[prod_s
 
 By default, the contacts you're syncing are kept in a **Business Central** folder in your Favorites on the Folder Pane in Outlook. The Business Central folder can make it easier to identify which contacts you're syncing. You can set filters to sync only specific contacts from [!INCLUDE[prod_short](includes/prod_short.md)] to Outlook. After you set up synchronization, you can synchronize manually or automate the process to synchronize on a scheduled basis.  
 
-## Prerequisites
+## Prerequisites for legacy contact synchronization
 
 - Your user account in [!INCLUDE[prod_short](includes/prod_short.md)] must specify your Microsoft 365 email account.
 

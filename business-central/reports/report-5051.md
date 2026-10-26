@@ -1,23 +1,25 @@
 ---
 title: Contact - Company Summary (report)
-description: Get an overview about your contact companies, including related interactions and to-dos.
+description: Review company contact details, associated contact persons, tasks, and interactions with the Contact - Company Summary report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5051_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Contact - Company Summary (report)
+# Contact - company summary (report)
 
 The **Contact - Company Summary** report shows summary information about your contact companies. The report includes details about the company, such as address, contact number, and so on. The report also contains related interactions and to-dos.
+
+The report also lists the company's contact persons, including their job titles, phone numbers, and email addresses. Postponed interactions aren't included.
 
 ## Use cases
 

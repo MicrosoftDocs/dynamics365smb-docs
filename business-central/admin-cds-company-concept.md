@@ -5,7 +5,8 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: CDS, Dataverse, integration, sync
-ms.date: 04/01/2021
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -18,15 +19,16 @@ ms.reviewer: bholtorf
 ## Team Ownership
 In [!INCLUDE[prod_short](includes/prod_short.md)], a company is a legal and business table that offers ways to secure and visualize business data. Users always work in the context of a company. The closest that [!INCLUDE[prod_short](includes/cds_long_md.md)] comes to this concept is the business unit table, which does not have legal or business implications.
 
-Because business units lack legal and business implications, you cannot force a one-to-one (1:1) mapping to synchronize data between a company and a business unit, either one-way or bi-directional. To make synchronization possible, when you enable synchronization for a company in [!INCLUDE[prod_short](includes/prod_short.md)], the following happens in [!INCLUDE[prod_short](includes/cds_long_md.md)]:
+Because business units lack legal and business implications, you cannot force a one-to-one (1:1) mapping to synchronize data between a company and a business unit, either one-way or bi-directional. To make synchronization possible, [!INCLUDE[prod_short](includes/prod_short.md)] creates the following records in [!INCLUDE[prod_short](includes/cds_long_md.md)] when you enable synchronization for a company, if the records don't already exist:
 
-* We create a company table that is equivalent to the company table in [!INCLUDE[prod_short](includes/prod_short.md)]. The name of the company is suffixed with "BC Company ID." For example, Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
-* We create a default business unit that has the same name as the company. For example, Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
-* We create a separate owner team with the same name as the company and associate it with the business unit. The name of the team is prefixed with "BCI -." For example, BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
-* Records that are created and synchronized to [!INCLUDE[prod_short](includes/cds_long_md.md)] are assigned to the "BCI Owner" team that is linked to the business unit.
+* A company record that corresponds to the company in [!INCLUDE[prod_short](includes/prod_short.md)].
+* A default business unit whose name includes the company name and company ID. For example, Cronus International Ltd. (00aa00aa-bb11-cc22-dd33-44ee44ee44ee).
+* A separate owner team associated with the business unit. The team uses the business unit's name with the prefix "BCI -." For example, BCI - Cronus International Ltd. (00aa00aa-bb11-cc22-dd33-44ee44ee44ee).
+
+Records that are created and synchronized to [!INCLUDE[prod_short](includes/cds_long_md.md)] are assigned to the owner team that is linked to the business unit.
 
 > [!NOTE]
-> If you rename a company in [!INCLUDE[prod_short](includes/prod_short.md)], the names of the company, business unit, and team that we create automatically in [!INCLUDE[prod_short](includes/cds_long_md.md)] are not updated. Because only the company ID is used for integration, this does not affect synchronization. If you want the names to match you must update the company, business unit, and team in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+> If you rename a company in [!INCLUDE[prod_short](includes/prod_short.md)], the names of the automatically created company, business unit, and team in [!INCLUDE[prod_short](includes/cds_long_md.md)] aren't updated. Because only the company ID is used for integration, this doesn't affect synchronization. If you want the names to match, you must update the company, business unit, and team in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 The following image shows an example of this data setup in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -44,7 +46,7 @@ However, the 1:1 mapping between business unit, company, and team is just a star
 
 In this example, a new EUR (Europe) root business unit is created in [!INCLUDE[prod_short](includes/cds_long_md.md)] as the parent for both Cronus DE (Germany) and Cronus ES (Spain). The EUR business unit is not related to synchronization. However, it can give members of the EUR Sales team access to account data in both Cronus DE and Cronus ES by setting the data visibility to **Parent/Child BU** on the associated security role in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the BCI row. When a BCI record is enabled for synchronization we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronization is enabled for a table, administrators can change the owning team, but a team must always be assigned.
+Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the BCI row. When a BCI record is enabled for synchronization, [!INCLUDE[prod_short](includes/prod_short.md)] automatically creates the associated business unit and owner team if they don't already exist, and sets the **Default owning team** field. When synchronization is enabled for a table, administrators can change the owning team, but a team must always be assigned.
 
 > [!NOTE]
 > Records become read-only after a company is added and saved, so be sure to choose the correct company.
@@ -52,7 +54,7 @@ Synchronization determines which team should own records. This is controlled by 
 ## Choosing a different business unit
 You can change the business unit selection if you are using the Teams ownership model. If you use the Person ownership model, the default business unit is always selected. 
 
-If you choose another business unit, for example, one that you created earlier in [!INCLUDE[prod_short](includes/cds_long_md.md)], it will keep its original name. That is, it will not be suffixed with the company ID. We will create a team that does use the naming convention.
+If you choose another business unit, for example, one that you created earlier in [!INCLUDE[prod_short](includes/cds_long_md.md)], it will keep its original name. That is, it will not be suffixed with the company ID. If a matching team doesn't already exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates one using the team naming convention.
 
 When changing a business unit, you can choose only the business units that are one level below the root business unit.
 

@@ -1,11 +1,12 @@
 ---
-title: Manage sales opportunities and leads
-description: Explains how to capture and manage incoming leads and sales opportunities in Business Central, assign them to salespeople, and track expected value and likelihood of conversion.
+title: Manage Sales Opportunities and Leads
+description: Capture sales opportunities in Business Central, assign them to salespeople, and use sales cycles to track expected value and the chances of success.
 author: jswymer
 ms.topic: concept-article
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

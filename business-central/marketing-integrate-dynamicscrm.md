@@ -1,5 +1,5 @@
 ---
-title: Manage customers using Dynamics 365 Sales
+title: Manage Customers Using Dynamics 365 Sales
 description: Learn how to use Dynamics 365 Sales from inside Business Central with seamless integration and synchronization in the lead-to-cash process.
 author: brentholtorf
 ms.topic: concept-article
@@ -7,6 +7,7 @@ ms.devlang: al
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 10/03/2025
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -123,7 +124,7 @@ The steps to complete this process differ, depending on whether your administrat
 > [!NOTE]
 > If the standard price synchronization doesn't work for you, we recommend using integration customization capabilities. Learn more in [Customizing an Integration with Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
 
-#### [Current Experience](#tab/current-experience/)
+### [Current experience](#tab/current-experience/)
 
 In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that:
 
@@ -135,7 +136,7 @@ In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)
 
 :::image type="content" source="media/customer-price-group.png" alt-text="Customer Price Group page.":::
 
-#### [New Experience](#tab/new-experience/)  
+### [New experience](#tab/new-experience/)
 
 The new pricing experience synchronizes price lists that meet the following criteria:
 
@@ -160,6 +161,8 @@ To synchronize price lists, on the **Sales Price List** page, choose **Related**
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Overview of Sales and Sales Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## Try Business Central
+
+[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,7 +7,8 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: bank account ledger, bank reconciliation, reconciliation reports, bank account reconcile
 ms.search.form: 389, 10120,10121,10122,10123,10124,10125,10126,10127,10128,10129,10130,10131,10133,10134
-ms.date: 02/04/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

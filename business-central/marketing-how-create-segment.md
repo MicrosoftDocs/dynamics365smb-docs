@@ -1,12 +1,13 @@
 ---
-title: Create Segments
-description: Describes how to create a segment for a group of contacts, for example, to target several contacts with a direct mail.
+title: Create Marketing Segments for Contacts
+description: Create a marketing segment in Business Central to group contacts for a campaign, assign a segment number, and prepare to add your target audience.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.form: 5091, 5093
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

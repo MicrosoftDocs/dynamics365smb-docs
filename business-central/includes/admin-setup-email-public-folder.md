@@ -2,6 +2,7 @@
 author: brentholtorf
 ms.topic: include
 ms.date: 02/15/2022
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -55,11 +56,11 @@ Set the email logging user as an owner of both public folders, *Queue* and *Stor
 
 For more information, see [Assign permissions to the public folder](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### Mail-enable the *Queue* public folder
+### Mail-enable the Queue public folder
 
   For more information, see [Mail-enable or mail-disable a public folder](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### Mail-enable sending emails to the *Queue* public folder
+### Allow email to the Queue public folder
 
 Mail-enable sending emails to the *Queue* public folder using Outlook or the Exchange Management Shell.
 

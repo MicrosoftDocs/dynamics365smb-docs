@@ -5,7 +5,7 @@ author: AliiaSalikhova
 ms.topic: article
 ms.search.keywords: Russia, localization, country specific, Russian version
 ms.reviewer: jswymer
-ms.date: 07/18/2025
+ms.date: 10/26/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted

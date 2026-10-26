@@ -1,13 +1,14 @@
 ---
-title: Use profiles to classify contacts
-description: Learn how to set up profile questionnaires to help classify your business contacts' profiles.
+title: Classify Contacts with Profile Questionnaires
+description: Set up profile questionnaires in Business Central to rate prospects, classify contacts, and target marketing campaigns using customer and vendor data.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: contacts, profiles
 ms.search.form: 5109, 5110
 ms.author: bholtorf
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ms.custom: bap-template
@@ -58,18 +59,18 @@ After you create a questionnaire, you can use it to rate and classify your conta
 
 ## Apply questionnaires to contacts
 
-You can apply your questionnaires to contacts manually. Just open the relevant contact card, and then choose the **Profile** action. After you apply the questionnaires, you can start using the categories in your campaigns.  
+You can apply your questionnaires to contacts manually. Just open the relevant contact card, and then choose the **Profiles** action. After you apply the questionnaires, you can start using the categories in your campaigns.
 
-## Automatic classification of contacts
+## Classify contacts automatically
 
 You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.  
 
 > [!NOTE]
 > Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data. Automatic classification doesn't update automatically. You might want to update the profile questionnaires after you update the customer, vendor, or contact data they're based on.  
 
-After you set up automatically answered profile questions, if you assign the profile questionnaire that contains these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] assigns the correct answers for the contact.  
+After you set up automatically answered profile questions, choose **Update Classification** on the **Profile Questionnaire Setup** page. In the **Update Contact Classification** batch job, set any filters, and then choose **OK** to calculate the answers from the current contact, customer, or vendor data.
 
-## Example
+## Example of sales-based classification
 
 You can classify your contacts according to how much they bought from you:
 
@@ -83,7 +84,7 @@ Fill on the **Profile Questionnaire Setup** page as follows:
 
 | Type     | Description        | Automatic Classification     | From Value | To Value |
 |----------|--------------------|------------------------------|------------|----------|
-| Question | ABC Classification | Select to insert a check mark |            |          |
+| Question | ABC Classification | Set in **Question Details** |            |          |
 | Answer   | A                  |                              | 500,000    |          |
 | Answer   | B                  |                              | 100,000    | 499,999  |
 | Answer   | C                  |                              |            | 99,999   |
@@ -92,10 +93,11 @@ Then fill on the **Profile Question Details** page as follows:
 
 | Field                         | Value         |
 |-------------------------------|---------------|
-| Customer Classification Field | Sales (LCY)   |
+| Auto Contact Classification    | Selected      |
+| Customer Class. Field         | Sales (LCY)   |
 | Classification Method         | Defined Value |
 
-When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.
+Run **Update Classification** to calculate the answers. The answers are available in the contact's profile questionnaires. Run the batch job again when you want the classification to reflect updated sales data.
 
 ## Related information
 

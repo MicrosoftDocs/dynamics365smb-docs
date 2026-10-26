@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Norwegian VAT reporting, Norwegian Electronic VAT, Electronic VAT submission, ID-porten, troubleshoot connection, tradesettlement report, submit electronic VAT, electronic VAT returns, integration point setup, VAT reporting setup, Norwegian version
 ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
-ms.date: 10/20/2026
+ms.date: 10/22/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

@@ -5,7 +5,8 @@ author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: relationship, prospect
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -21,7 +22,7 @@ The following table describes a sequence of tasks, with links to the articles th
 
 | To | Go to |
 |--|--|
-| Set up [!INCLUDE [prod_short](includes/prod_short.md)] to record interactions. | [Set Up Contacts](marketing-setup-contacts.md) |
+| Set up interaction templates to record communications with contacts. | [Set up interaction templates](marketing-interactions.md#set-up-interaction-templates) |
 | Create interactions to record all the interactions and communications you have with your contacts and segments, such as emailing. | [Create Interactions on Contacts and Segments](marketing-how-create-interactions.md) |
 | Set up [!INCLUDE [prod_short](includes/prod_short.md)] to automatically record interactions for sales, purchase, and service documents. For example, record when documents are created, posted, or printed. | [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md) |
 

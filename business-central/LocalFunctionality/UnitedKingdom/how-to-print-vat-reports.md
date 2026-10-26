@@ -5,7 +5,8 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, VAT reports, print VAT reports
-ms.date: 02/19/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

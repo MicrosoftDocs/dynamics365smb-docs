@@ -1,11 +1,12 @@
 ---
-title: Set up email logging
-description: Learn how to turn email interactions between salespeople and customers into real sales opportunities.
+title: Set Up Email Logging for Contact Interactions
+description: Set up email logging between salespeople and contacts in Business Central, configure an Exchange Online mailbox, and turn messages into sales opportunities.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.search.form: 1680, 1811, 5076
@@ -39,7 +40,7 @@ Prepare a shared mailbox in the Exchange admin center. Alternatively, you can al
 
 ### Add a user account for members of the shared mailbox
 
-The account that you use for email logging is an Exchange Online account. The scheduled job uses the account to connect to the shared mailbox and process emails. This account shouldn't be associated with a specific person. Add the email account to the members for the shared mailbox. Learn more in [Use the EAC to edit shared mailbox delegation](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
+The account that you use for email logging is an Exchange Online account. The scheduled job uses the account to connect to the shared mailbox and process emails. This account shouldn't be associated with a specific person. Grant the account **Full Access (Read and manage)** permission to the shared mailbox. Learn more in [Use the EAC to edit shared mailbox delegation](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
 ### Allow other users to see logged emails
 
@@ -57,7 +58,7 @@ Mail flow rules look for specific conditions on messages and take action on them
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] only processes messages in the Inbox folder in the shared mailbox. If a rule moves messages from the Inbox to another folder, those messages aren't processed. Additionally, messages in the Junk Mails folder are also ignored.
 
-## Set up [!INCLUDE[prod_short](includes/prod_short.md)] to log email messages
+## Set up Business Central to log email messages
 
 Get started with email logging in two easy steps:
 
@@ -68,7 +69,7 @@ Get started with email logging in two easy steps:
     > [!Tip]
     > After you complete the steps in the guide you can check whether the connection was successful. Search for **Email Logging**, choose **Actions**, and then choose **Validate Setup**.
 
-## View email message exchanges in the Interaction Log
+## View email message exchanges in the interaction log
 
 [!INCLUDE[prod_short](includes/prod_short.md)] creates an entry on the **Interaction Log** page each time a salesperson and a contact exchange an email message. To view the interaction log, open the **Contact** card for the person, choose **Related**, then **History**, and then **Interaction Log Entries**. There are a few things you can do with each entry in the log, for example:
 
@@ -108,7 +109,7 @@ The new experience does not support connections to Exchange on-premises.
 
 To connect to Exchange Online, you must register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is preset and should work for most installations. Learn more in [To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online](#register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online).
 
-You must also use **OAuth2** as the **Authentication Type**. You must also register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is prepopulated and should work for most installations. Learn more in [To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online](#register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online).
+Use **OAuth2** as the **Authentication Type**.
 
 You must set up your installation to use HTTPS. Learn more in [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret is saved as an encrypted string in your database.
 
@@ -116,8 +117,9 @@ You must set up your installation to use HTTPS. Learn more in [Configuring SSL t
 
 The following steps assume that you use Microsoft Entra ID to manage identities and access. Learn more in [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
 
-1. In the Azure portal, under **Manage**, choose **Authentication**.
-2. Under **Redirect URL**, add the redirect URL that is suggested on the **Email Logging** page in [!INCLUDE[prod_short](includes/prod_short.md)]. If the redirect URL field on the Email Logging page is empty, find the suggested redirect URL on the **Assisted Setup** page. To open the page, on the **Email Logging** page, choose **Actions**, and then **Assisted Setup**.
+1. In the Microsoft Entra admin center, go to **Entra ID** > **App registrations**. Select an existing app registration, or select **New registration** and complete the registration as described in [Register an application](/entra/identity-platform/quickstart-register-app#register-an-application).
+1. In the app registration, under **Manage**, choose **Authentication**.
+1. Add the redirect URI suggested on the **Email Logging** page in [!INCLUDE[prod_short](includes/prod_short.md)]. If the redirect URL field on the Email Logging page is empty, find the suggested redirect URL on the **Assisted Setup** page. To open the page, on the **Email Logging** page, choose **Actions**, and then **Assisted Setup**.
 
     > [!NOTE]
     > If you don't specify the redirect URL, you can do so later by choosing **Add a platform**, and then choosing **Web** to add the web application and the redirect URL.
@@ -147,14 +149,14 @@ If you aren't using Microsoft Entra ID to manage identities and access, you need
 
 ## Change the user account used for email logging
 
-### [!INCLUDE[prod_short](includes/prod_short.md)] Online
+### Change the account in Business Central online
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] with the account that the scheduled job uses to connect to the shared mailbox and process emails. This account must have access to both [!INCLUDE[prod_short](includes/prod_short.md)] and Exchange Online.
 2. [!INCLUDE[open-search](includes/open-search.md)], enter **Email Logging**, and then choose the related link. 
 3. Choose **Related**, and then **Job Queue Entry**.
 4. Restart the **Email Logging** job.
 
-### [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
+### Change the account in Business Central on-premises
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Email Logging**, and then choose the related link.
 2. Choose **Actions**, and then **Renew Token**.

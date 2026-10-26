@@ -1,10 +1,11 @@
 ---
-title: Set up information for contacts
+title: Set Up Information for Business Contacts
 description: Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: relationship, prospect
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.custom: bap-template
@@ -72,7 +73,7 @@ You can assign an alternate address where your contact sometimes wants to receiv
 1. Open the relevant contact card.
 2. Choose the **Card** action.
 
-    To define that the alternate address applies in a specific period, choose the **Date Range** action instead.
+    To define that the alternate address applies in a specific period, choose the **Date Ranges** action instead.
 3. On the **Contact Alt. Address List** page, enter a new alternate address and fill in the fields on the **Contact Alternative Address** page.
 
 Repeat these steps to assign as many alternate addresses as you want. You can specify one or more date ranges for each alternate address.
@@ -106,7 +107,7 @@ You can use organizational levels on your contacts to specify where they are in 
 The organizational level code defines the type or category of the organizational level, such a CEO or CFO. You can have several organizational level codes. Define organizational levels on the **Organizational Levels** page.
 
 1. Open the relevant contact card.
-2. In the **Organizational Levels** field, select the code you want to assign.
+2. In the **Organizational Level Code** field, select the code you want to assign.
 
 After you assign organizational levels to your contacts, you can use this information to create segments.
 
@@ -172,7 +173,7 @@ When you create a contact, [!INCLUDE [prod_short](includes/prod_short.md)] can a
 
 You can specify the percentage of identical data that two contacts must have to consider them duplicates. You can also just use the default percentage, which is 60. You specify the percentage on the **Marketing Setup** page by entering a percentage value in the **Search Hit %** field on the **Duplicates** FastTab.
 
-For automatic searches, when you create a contact that already has a business relation to a company, [!INCLUDE [prod_short](includes/prod_short.md)] displays a message to inform you.
+For automatic searches, turn on **Autosearch for Duplicates** on the **Marketing Setup** page. Keep **Maintain Dupl. Search Strings** turned on so that the search uses current contact information.
 
 To manually search for duplicates, follow these steps:
 

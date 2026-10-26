@@ -1,11 +1,12 @@
 ---
-title: Manage segments and select contacts
-description: Learn how to create and manage segments by selecting groups of contacts based on specific criteria, enabling you to effectively target these segments in future campaigns.
+title: Manage Segments and Select Contacts
+description: Group contacts into marketing segments in Business Central, select contacts using criteria, and record interactions with your campaign audience.
 author: jswymer
 ms.topic: concept-article
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

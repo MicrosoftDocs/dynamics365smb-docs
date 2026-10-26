@@ -1,11 +1,12 @@
 ---
-title: Set up marketing campaigns in Business Central
+title: Set Up Marketing Campaigns in Business Central
 description: Describes how you can set up and conduct marketing campaigns in Business Central to help you identify and attract prospects and retain customers.
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -24,7 +25,7 @@ Each campaign has various activities or tasks. You can combine multiple tasks in
 
 ## Define individual campaigns
 
-Before you can create a campaign, you must set up *campaign status codes*. Using these codes help you manage your campaigns by assigning a status to the campaign. As you work through the stages of a campaign, you're able to see what step a campaign is at and what step comes next. You set up campaign status codes on the **Campaign Status** page.
+To track a campaign's progress, set up *campaign status codes*. Assign a status code to each campaign and update it as the campaign progresses. You set up campaign status codes on the **Campaign Status** page.
 
 You can create a campaign card for each campaign that you want to keep track of. You can also view these campaign cards to view general information about your campaigns.
 You can delete campaign entries, such as if the entry records an action that is canceled. Only canceled campaign entries can be deleted.
@@ -35,7 +36,7 @@ After you create a campaign, you can create segments that specify its target aud
 
 ### Register discount percentages
 
-After you set up your campaign, you can register a discount percentage that the customer receives. You register the discount percentage on individual items on the **Sales Line Discounts** page. You can also register the sales prices for the individual items on the lines on the **Sales Prices** page. You can access both pages from the campaign card.
+After you set up your campaign, you can register sales prices and discounts for the target audience. From the campaign card, choose **Sales Price Lists**, **Sales Prices**, or **Sales Discounts** to set up campaign pricing. If your company uses the earlier pricing experience, use **Sales Prices** and **Sales Line Discounts** instead. Learn more in [Record sales price, discount, and payment agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
 After you set up the sales prices/line discounts and the segments on the campaign card, you must activate them so that the campaign prices/discounts are reflected on the lines.
 
@@ -46,7 +47,7 @@ If the sales prices/line discounts aren't to be offered to all the contacts in t
 
 ## Conduct campaigns
 
-As a campaign runs, all interactions with your contacts, or segment, are recorded so that you can get statistics and other information about the costs and success rates of the campaign.
+As a campaign runs, [!INCLUDE [prod_short](includes/prod_short.md)] records interactions when you create interactions for contacts or log segments. Some interactions can also be recorded automatically, depending on your setup. Interactions linked to the campaign contribute to its cost and response statistics. The campaign statistics also show opportunities linked to the campaign. Learn more in [Create interactions on contacts and segments](marketing-how-create-interactions.md).
 
 Salespeople run campaigns, and you must create activities to represent each task and assign them to the relevant salespeople. Learn more at [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

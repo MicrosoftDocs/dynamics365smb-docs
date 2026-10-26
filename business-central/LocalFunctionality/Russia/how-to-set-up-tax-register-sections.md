@@ -4,7 +4,7 @@ description: Russian localization includes features for setting up and managing 
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: tax register sections, tax register setup, Russia
-ms.date: 07/17/2025
+ms.date: 10/26/2026
 ms.reviewer: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central

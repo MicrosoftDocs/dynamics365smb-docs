@@ -1,11 +1,12 @@
 ---
-title: Coupling and synchronizing
+title: Couple and Synchronize Records with Dataverse
 description: Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Sales tables that are coupled.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/25/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250,
@@ -40,7 +41,7 @@ This video shows coupling and synchronizing data in the context of an integratio
 2. Choose the **Synchronize Now** action.  
 3. If a record can synchronize in one direction, select the option that specifies the direction of data update, and then choose **OK**.  
 
-## To synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)]  
+## To synchronize a single record from Dynamics 365 Sales
 
 1. In [!INCLUDE[crm_md](includes/crm_md.md)], open the form for the record you want to couple. For example, the Account or Contact pages.  
 2. Choose the **[!INCLUDE[prod_short](includes/prod_short.md)]** action in the ribbon to open and couple records automatically.
@@ -53,7 +54,7 @@ This video shows coupling and synchronizing data in the context of an integratio
 Specify the data to synchronize for an entity, such as a customer or contact, by coupling records based on matches. Refine the matches by making the search case sensitive, and assigning a priority for each match. If no match is found, you can also specify that you want to create the entity in Dataverse. To learn more, go to [Customize the match-based coupling](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
 
 > [!NOTE]
-> The match-based coupling process skips records that are already matched. To include those records when you run match-based coupling, uncouple the records and then try again. To learn more about uncoupling records, go to [Uncoupling Records](#uncoupling-records).
+> The match-based coupling process skips records that are already matched. To include those records when you run match-based coupling, uncouple the records and then try again. To learn more about uncoupling records, go to [Uncouple records](#uncouple-records).
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], open the list page for the record, such as the Customers or Contacts list pages.
 2. Choose the **Match-Based Coupling** action.
@@ -89,13 +90,13 @@ The following example describes how to bulk-insert and couple customers with acc
     > Not all of the names of Dataverse entities and [!INCLUDE [prod_short](includes/prod_short.md)] records match. Depending on what you're importing, double-check that the following columns have the following values after you import:
     >
     >* For customers, the **CustomerTypeCode** column should contain **Customer**.
-    >* For vendors, the **CustomerTypeCode** column should contain **Vendors**. 
+    >* For vendors, the **CustomerTypeCode** column should contain **Vendor**.
     >* For items, **ProductTypeCode** column should contain **Sales Inventory**.
-    >* For resources, the **ProductTypeCode** column should contain **Service**.
+    >* For resources, the **ProductTypeCode** column should contain **Services**.
  
 4. After you import data to the Dataverse environment, in [!INCLUDE [prod_short](includes/prod_short.md)], follow the steps [To couple multiple records using match-based coupling](#to-couple-multiple-records-using-match-based-coupling) to couple the Dataverse entities with [!INCLUDE [prod_short](includes/prod_short.md)] records.
 
-## Uncoupling Records
+## Uncouple records
 
 You can uncouple one or more records from list pages or the **Coupled Data Synchronization Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page.
 
@@ -103,6 +104,5 @@ You can uncouple one or more records from list pages or the **Coupled Data Synch
 
 [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)  
 [View the Status of Synchronization Jobs](admin-how-to-view-synchronization-status.md)  
-[Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.search.keywords: personal income tax, income tax payments, payments, Russia
 ms.reviewer: jswymer
 ms.author: jswymer
-ms.date: 07/11/2025
+ms.date: 10/26/2026
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted
 ---

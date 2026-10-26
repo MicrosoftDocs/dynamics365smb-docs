@@ -1,6 +1,6 @@
 ---
-title: Opportunity Overview (Power BI report)
-description: The Opportunity Overview report provides a comprehensive view of sales opportunities, including the number of opportunities, estimated values, sales cycle, and a breakdown of potential value by location.
+title: Opportunity Overview (Power BI Report)
+description: Use the Opportunity Overview Power BI report with Business Central to review sales opportunity values, sales cycle stages, locations, and salesperson performance.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -8,11 +8,12 @@ ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37103_Primary
 ms.date: 05/20/2025
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Opportunity Overview (Power BI Report)
+# Opportunity overview (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -32,7 +33,7 @@ As a salesperson, the **Opportunity Overview** helps you to monitor your sales p
 
 For example, you might identify an opportunity in the initial stage that has high estimated value. With this knowledge, you decide to prioritize the opportunity and re-engage with the contact to reinforce the client relationship and progress the opportunity.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators in the report
 
 The report includes the following key performance indicators (KPIs) and measures:
 

@@ -1,21 +1,21 @@
 ---
 title: Opportunity - Details (report)
-description: Get an overview of sales stages, to-dos, and planned to-dos for an opportunity.
+description: Review an opportunity's sales cycle stages, initial tasks, stage-related tasks, and planned activities with the Opportunity - Details report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5068_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Opportunity - Details (report)
+# Opportunity - details (report)
 
 The **Opportunity - Details** report shows information about your sales stages, to-dos, and planned to-dos for an opportunity.
 

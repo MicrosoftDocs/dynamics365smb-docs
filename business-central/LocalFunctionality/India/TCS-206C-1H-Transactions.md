@@ -1,35 +1,40 @@
 ---
-title: TCS calculation and transactions as per Section 206C(1H)
-description: Learn how to calculate and process TCS transactions in compliance with Section 206C(1H) in Business Central for India.
+title: TCS Calculation and Transactions as per Section 206C(1H)
+description: Review the documented section 206C(1H) TCS transaction workflow and illustrative calculation and accounting examples in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TCS calculation, Section 206C
-ms.date: 06/27/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # TCS calculation and transactions as per Section 206C(1H)
 
-As per new TCS rules, TCS is to be collected on receipt of payment that is over and above the threshold amount, the threshold amount is INR 50,00,000. User receives payment from customer for sales of goods and services, TCS is to be calculated on receipt of payment for sale of goods.
+This article describes TCS calculation on customer receipts using the section 206C(1H) configuration. The historical examples assume a threshold of INR 50,00,000 and a TCS rate of 0.10%. These values illustrate the calculation and aren't guidance on current tax law. Use the rates and thresholds that apply to your transactions.
 
 Provision has been provided to enter amount on which TCS can be calculated on the event of receipt of payment from customer. In addition to it, provision for selecting posted sales lines for updating amount in 'TCS on Recpt. Of Pmt. Amount' in payment line has been provided. By this way, user is able to update / enter applicable amount for TCS calculation in 'TCS on Recpt. Of Pmt. Amount' field.
 
-When calculating TCS in payment lines, TCS Base amount is considered from 'TCS on Recpt. Of Pmt. Amount' field instead of transaction amount. TCS calculation on payment lines should be same as TCS calculation on Invoices. If TCS Nature of Collection selected in payment line has 'TCS on Recpt. Of Pmt.' field as 'TRUE' in TCS Nature Of Collection table, then system should calculate TCS with Invoice logic, where TCS is calculated on forward calculation.
+When **TCS On Recpt. Of Pmt.** is selected for the nature of collection, TCS uses **TCS On Recpt. Of Pmt. Amount** instead of the journal line amount as its base. The calculation adds TCS to this base rather than extracting it from an inclusive payment amount.
+
+Before posting, specify **TCS Debit Note No.** in **General Ledger Setup** and an effective **TCS Posting Setup** line. Posting creates a separate customer debit note for the TCS amount.
+
+The receipt examples assume that the threshold has already been exceeded, so the entered receipt base is fully taxable.
 
 ## TCS calculation on customer payments under section 206C(1H)
 
 - Create General Journal, Cash Receipt Journal, or Bank Receipt Journal
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher**, or **Bank Receipt Voucher**, and then choose the related link.
   1. Select **Document Type** as **Payment**.
   1. Select **Customer** in Account Type and select relevant customer code in Account No. field.
   1. Fill the **Amount** field with the credit amount.
-  1. Select **G/L Account** or **Bank Account** in Bal. Account Type and select relevant expense account in Bal. Account. No. field.
+  1. Select **G/L Account** or **Bank Account** in **Bal. Account Type**, and select the relevant cash or bank account in **Bal. Account No.**
   1. Select relevant **TCS Nature of Collection** in journal line. **Location Code** and **T.C.A.N No.** fields shouldn't be blank.
-  1. **TCS On Recpt. Of Pmt. Amount** can be updated in two different ways. One is you can put the amount directly in this field, else you can go to **Action** > **Function** > **Get Open Posted Lines For TCS Payment**, and select sales lines that are applicable for receipt of payment. System updates sum of the selected lines in 'TCS On Recpt. Of Pmt. Amount' field on payment journal line.
+  1. Enter **TCS On Recpt. Of Pmt. Amount** directly, or choose **Get Open Posted Lines For TCS On Payment Calculation** and select the applicable sales lines. The lookup includes lines without a TCS nature of collection from the customer's open posted invoices. The selected line amounts, including GST where applicable, are totaled into the field. The amount must be nonnegative and can't exceed the absolute journal line amount.
   1. If TCS Nature of Collection selected in payment line has **TCS on Recpt. Of Pmt.** field marked as 'TRUE' in TCS Nature Of Collection table, then system should calculate TCS on **TCS On Recpt. Of Pmt. Amount**, and shouldn't calculate TCS on line amount.
 
 ### TCS to be calculated on customer receipt (through general journal, cash receipt journal and bank receipt journal)
@@ -56,15 +61,15 @@ For example, payment has been received from customer for INR 1,00,000 on which 0
 
 - Create General Journal, Cash Receipt Journal, or Bank Receipt Journal
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher**, or **Bank Receipt Voucher**, and then choose the related link.
   1. Select **Document Type** as **Payment**.
   1. Select **Customer** in Account Type and select relevant customer code in Account No. field.
   1. Fill the **Amount** field with the credit amount.
-  1. Select **G/L Account** or **Bank Account** in Bal. Account Type and select relevant expense account in Bal. Account. No. field.
+  1. Select **G/L Account** or **Bank Account** in **Bal. Account Type**, and select the relevant cash or bank account in **Bal. Account No.**
   1. Select relevant **TCS Nature of Collection** in journal line. **Location Code** and **T.C.A.N No.** fields shouldn't be blank.
-  1. **TCS On Recpt. Of Pmt. Amount** can be updated in two different ways. One is you can put the amount directly in this field, else you can go to **Action** > **Function** > **Get Open Posted Lines For TCS Payment**, and select sales lines that are applicable for receipt of payment. System updates sum of the selected lines in 'TCS On Recpt. Of Pmt. Amount' field on payment journal line.
+  1. Enter **TCS On Recpt. Of Pmt. Amount** directly, or choose **Get Open Posted Lines For TCS On Payment Calculation** and select the applicable sales lines. The selected line amounts, including GST where applicable, are totaled into the field. The amount must be nonnegative and can't exceed the absolute journal line amount.
   1. If TCS Nature of Collection selected in payment line has **TCS on Recpt. Of Pmt.** field marked as 'TRUE' in TCS Nature Of Collection table, then system should calculate TCS on **'TCS On Recpt. Of Pmt. Amount'**, and shouldn't calculate TCS on line amount.
-  1. Select **GST Group Code** and **HSN/SAC** Code then select **GST on Advance Payment**. GST should be calculated normally as back ward calculation.
+  1. Select **GST Group Code** and **HSN/SAC Code**, then select **GST on Advance Payment**. GST is calculated from the GST-inclusive receipt amount.
 
 ### TCS to be calculated on customer receipt (through general journal, cash receipt journal or bank receipt journal)
 
@@ -74,7 +79,7 @@ For example, payment has been received from customer for INR 1,00,000 on which 0
 
   |Component|Value|
   |----------------------------------|---------------------------------------|
-  |**TCS Base Amount**|75,000|  
+  |**TCS Base Amount**|55,000|
   |**TCS Amount**|55 (55000 x 0.10 %)|
   |**GST Base Amount**|84,745.76|
   |**GST Amount**|15,254.24 (84745.76*18/100)|

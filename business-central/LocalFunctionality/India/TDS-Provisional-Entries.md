@@ -1,14 +1,15 @@
 ---
 title: TDS on Provisional Entries
-description: Learn how TDS is applied to provisional entries in Business Central India.
+description: Record provisional TDS entries and review the related transaction fields, processing steps, and accounting examples in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, provisional entries
-ms.date: 06/30/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # TDS on provisional entries
@@ -17,9 +18,9 @@ As per TDS rules, tax (TDS) has to be deducted at source, when amount is paid or
 
 A provisional entry should be posted before posting an actual entry, on posting of actual entry, provisional entry is reversed. As per requirement, TDS to be calculated on provisional entry and on posting of actual entry, system shouldn't calculate TDS as it is deducted in provisional entry.
 
-For example, provisional expense journal has to be created and posted for INR 10000 against professional expense and 10% TDS to be calculated on the expense amount.
+For example, create and post a provisional expense journal for INR 10000 against professional expenses, with an illustrative TDS rate of 10%. This rate is an example assumption, not guidance on current tax law.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Journal**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Purchase Journal**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -34,7 +35,7 @@ For example, provisional expense journal has to be created and posted for INR 10
     |**Amount**|Amount should be negative.|
     |**TDS Section**|Select relevant TDS Section.|
     |**Bal. Account Type**|Select G/L Account as balance account type.|
-    |**Bal. Account No.**|Select the relevant expanse account.|
+    |**Bal. Account No.**|Select the relevant expense account.|
     |**Provisional Entry**|Mark true.|
 
     In this case TDS calculation is as following:
@@ -42,7 +43,7 @@ For example, provisional expense journal has to be created and posted for INR 10
     |Component|Value|
     |----------------------------------|---------------------------------------|  
     |**TDS Base Amount**|10000|  
-    |**TDS Amount**|1000 (10000*1%)|
+    |**TDS Amount**|1000 (10000*10%)|
 
     GL Entries for Provisional Entry areas following:
 
@@ -55,7 +56,7 @@ For example, provisional expense journal has to be created and posted for INR 10
 
 - Later invoice is created against the provisional entry.
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Journal**, and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Purchase Journal**, and then choose the related link.
   1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -69,9 +70,9 @@ For example, provisional expense journal has to be created and posted for INR 10
     |**Account No**|Select relevant vendor code.|
     |**Amount**|Amount should be negative.|
     |**Bal. Account Type**|Select G/L Account as balance account type.|
-    |**Bal. Account No.**|Select the relevant expanse account.|
+    |**Bal. Account No.**|Select the relevant expense account.|
 
-  1. Select Apply Provisional Entry and select the relevant provision entry posted for the vendor.
+  1. Choose **Apply Provisional Entry** and select the relevant open provisional entry for the vendor.
 
      GL Entries for purchase invoice against provisional entry are as following:
 
@@ -80,13 +81,16 @@ For example, provisional expense journal has to be created and posted for INR 10
      |**Vendor Account**|-10000|
      |**Provisional Account**|10000|
 
-  1. On posting of provisional entry Provisional Entries are created, and once the invoice is applied with the entry Applied Invoice No. field is updated with the invoice number.
+  1. Post the invoice. The original provision is reversed without reversing the TDS already deducted. The provisional entry is closed, and **Applied Invoice No.** is updated with the invoice number.
 
 - If this is found that the provisional entry needs to be reversed, then option of **Reverse Transaction** and **Reverse Without TDS** are available in Provisional Entries.
 
-  1. Reverse Transaction reverses all the posted entries of the selected transaction.
-  1. Reverse Without TDS reverses all the posted entries of the selected transaction other than the TDS entry.
-  1. System marks the reverse transaction as **Reversed After TDS Paid** if TDS is paid to the government for the selected transaction.
+  - **Reverse Transaction**: Reverses the selected transaction, including TDS, subject to the reversal checks.
+  - **Reverse Without TDS**: Reverses the provisional posting without reversing TDS. Use this action after the TDS has been paid. It isn't allowed while an unpaid TDS entry exists for the transaction.
+  - **Reversed After TDS Paid**: Identifies a provisional entry reversed after payment of TDS.
+
+> [!NOTE]
+> Use a single journal line per document for a provisional entry or an invoice that applies a provisional entry. You can't apply a provisional entry that is closed, reversed, or marked **Reversed After TDS Paid**.
 
 ## Related information
 

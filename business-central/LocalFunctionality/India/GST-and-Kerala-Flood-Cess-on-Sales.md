@@ -1,14 +1,15 @@
 ---
 title: GST and Kerala Flood Cess on Sales Transaction
-description: Information about GST and the discontinued Kerala Flood Cess on sales transactions in India.
+description: Review the historical Kerala Flood Cess sales example and its GST accounting context in Business Central for India, without treating old rates as current.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, Kerala flood cess, create sales invoice
-ms.date: 06/19/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST and Kerala Flood Cess on sales transaction
@@ -16,11 +17,11 @@ ms.reviewer: v-soumramani
 > [!IMPORTANT]
 > Because Kerala Flood CESS (KFC) is no longer applicable, the content in this article is no longer needed and will be removed in the coming months.
 
-Kerala Flood CESS (KFC) is applicable on all intra-state supplies of goods and/or services, made by taxable person to an unregistered person, that is, B2C supplies. Kerala Flood CESS is required to be shown separately on the invoice.
+The following historical example describes Kerala Flood Cess on intrastate supplies to an unregistered customer, or B2C supplies. The cess was shown separately on the invoice. The example doesn't describe a current tax requirement.
 
 ## Create a sales invoice
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Sales Invoices**, and then choose the related link.
 1. Select **Customer** on **Sales Invoice** header, GST customer type should be **Unregistered**.
 1. Select **Item Code** for goods or **G/L Account** for service sales on **Sales Invoice** line. GST Group Code, HSN/SAC Code shouldn't be blank on **Item** or **G/L Account**.
 
@@ -39,9 +40,9 @@ For example, there's a sales invoice for INR 10,000 and 18% GST (that is, 9% CGS
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
-    |**Customer Account**|13700|  
-    |**SGST/UTGST Payable Account**|-1800|  
-    |**CGST Payable Account**|-1800|
+    |**Customer Account**|11900|
+    |**SGST/UTGST Payable Account**|-900|
+    |**CGST Payable Account**|-900|
     |**Kerala Flood Cess**|-100|
     |**Sales Account**|-10000|
 

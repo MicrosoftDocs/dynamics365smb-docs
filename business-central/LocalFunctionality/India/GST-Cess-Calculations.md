@@ -5,20 +5,23 @@ author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, Cess calculation, Cess calculation types, Cess ca;culation methods  
-ms.date: 06/19/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Cess calculation
 
 - GST Compensation Cess is leviable on both interstate and intrastate supply of goods. It's also applicable on imports and goods transactions that are subject to reverse charge.
-- It's applicable only on notified goods. These goods as on date are pan masala, tobbaco and tobacco products, coal, aerated waters, motor cars & motor vehicles and any other supplies.
+- It's applicable only on notified goods. Examples include pan masala, tobacco products, coal, aerated waters, and motor vehicles. Confirm the applicable goods and rates for the transaction date.
 - GST Compensation Cess is calculated on taxable value. Though it's coined as Cess, it's similar to tax. It's independent of IGST, CGST, and SGST.
 - Input Tax Credit availed on GST Compensation Cess can be utilized only towards discharging Output tax liability of Compensation Cess and not otherwise.
 
-## Calculation types of Cess
+The rates and amounts in the following examples illustrate the calculation methods. They aren't a statement of current rates. In the tables, use CGST and SGST for an intrastate transaction, or IGST for an interstate transaction—not all three components together.
+
+## Calculation types of cess
 
 There are five different calculation types for cess calculation
 
@@ -28,7 +31,7 @@ There are five different calculation types for cess calculation
 - Cess % Or Amount / Unit Factor Whichever Higher
 - Amount / Unit Factor
 
-## Method of calculation for type Cess%
+## Calculate cess by percentage
 
 If the Cess is applicable for any commodity, based on the GST group code then system picks the Cess% defined on it.
 
@@ -46,11 +49,11 @@ In this scenario, invoice has been issued for INR 800 on which 18% IGST (9% CGST
     |**IGST**|144 (800*18/100)|
     |**CESS**|80 (800*10/100)|
 
-## Method of calculation for type Threshold
+## Calculate cess by threshold
 
-For Threshold calculation type user will define **Threshold Amount**, **Before Threshold %** and **Cess %** (considered after crossing threshold amount). Note that Threshold amount defined in **GST CESS** setup for a particular GST Group Code is applicable line wise.
+For **Threshold**, define **Threshold Amount**, **Before Threshold Cess**, and **CESS** in the tax rates. The before-threshold percentage applies when the line amount is less than or equal to the threshold. The **CESS** percentage applies above the threshold. The comparison is per line, not for the invoice total.
 
-Suppose, **Before Threshold %** is 2% and **Threshold Amount** is INR 1,000. An invoice has been issued for INR 800. In this scenario as the amount is less than the threshold amount, 2% Cess has to be charged.
+Suppose **Before Threshold Cess** is 2% and **Threshold Amount** is INR 1,000. An invoice has been issued for INR 800. In this scenario, as the line amount is less than the threshold amount, 2% cess is charged.
 
 - GST calculation appears in the Fact Box as following:
 
@@ -78,7 +81,7 @@ Suppose, **Cess %** is 10% and **Threshold Amount** is INR 1,000. An invoice has
     |**IGST**|1800 (10000*18/100)|
     |**CESS**|1000 (10000*10/100)|
 
-## Method of calculation for type Cess% + Amount per Unit Factor
+## Calculate cess by percentage plus amount per unit factor
 
 For component calculation type - ‘Cess % + Amount/Unit Factor’, system considers ‘Cess %’ along with ‘Amount/Unit Factor’ defined on GST Setup fields, that is, **Cess UOM (Unit of Measure)**, **Cess Amount Per Unit Factor**, and **Cess Factor Quantity**.
 
@@ -96,7 +99,7 @@ Suppose, **Cess %** is 10%, **Cess Amount per Unit Factor** is INR 130 and  **Ce
     |**IGST**|1800 (10000*18/100)|
     |**CESS**|1260 [{1000=(10000*10/100)}+{260=(130x2)}]|
 
-## Method of calculation for type Cess% or Amount/Unit Factor whichever is higher
+## Calculate the higher of percentage or amount per unit factor
 
 For component calculation type - ‘Cess or Amount/Unit Factor whichever is higher’ system considers ‘Cess %’ or ‘Amount/Unit Factor’ whichever is higher based on values defined on GST Setup fields, that is, **Cess UOM (Unit of Measure)**, **Cess Amount Per Unit Factor**, and **Cess Factor Quantity**.
 
@@ -128,9 +131,11 @@ Suppose, **Cess %** is 5%, **Cess Amount per Unit Factor** is INR 1000 and  **Ce
     |**IGST**|1800 (10000*18/100)|
     |**CESS**|2000 [{2000=(1000x2)} > {500=(10000*5/100)}]|
 
-## Method of calculation for type Amount/Unit Factor
+## Calculate cess by amount per unit factor
 
 For component calculation type as ‘Amount/Unit Factor’ system considers Cess value based on values defined GST Group Code in fields **Cess UOM**, **Cess Amount Per Unit Factor** and **Cess Factor Quantity**.
+
+The quantity-based calculation converts the line quantity to **Cess UOM**, divides it by **Cess Factor Quantity**, and multiplies the result by **Cess Amount per Unit Factor**. The examples use a factor quantity of 1 and don't require a unit conversion.
 
 Suppose, **Cess Amount per Unit Factor** is INR 140 and  **Cess Factor Quantity** is 1. An invoice has been issued for INR 10000. In this scenario, INR 280 has to be charged.
 

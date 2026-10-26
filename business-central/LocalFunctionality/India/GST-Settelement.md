@@ -1,14 +1,15 @@
 ---
 title: GST Settlement of Net Payment Liability
-description: Provides information about the GST settlement process for net payment liability in Business Central for India.
+description: Review GST settlement setup and steps for calculating net payment liability and recording settlement transactions in Business Central for India.
 author: v-debapd   
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, net payment liability, settlement, settlement process
-ms.date: 06/24/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST settlement of net payment liability
@@ -23,7 +24,7 @@ Settlement refers to discharge of tax liability to the government. Tax liability
 
 This tax liability on both interstate transactions (IGST) and intrastate transactions (SGST/UTGST, CGST) is to be discharged on a monthly basis to the government. GST paid on purchase transactions can be taken as credit subject to certain conditions. Such credit can be offset against the tax payable on Sales. Hence, GST payable on sales transactions can be discharged by payment of cash or utilization of credit or both. Reverse charge Liability shall always be discharged in cash. Credit can be availed in the month of tax remittance to the government. Credit utilized can be credit pertaining to the same component or different components.
 
-- As per GST Law, credit of IGST, CGST, and SGST/UTGST shall be claimed in the chronological order as given below:
+- The following table shows the setoff priorities used in this article's example. Settlement calculates credit utilization from **GST Claim Setoff** setup.
 
   |GST Component|GST Setoff Component|Priority|
   |----------------------------------|-----|---------------------------------------|
@@ -35,7 +36,10 @@ This tax liability on both interstate transactions (IGST) and intrastate transac
   |**SGST**|SGST|1|
   |**SGST**|IGST|2|
 
-## Setup return & reco. component for settlement
+> [!NOTE]
+> The statutory background and setoff example describe the original scenario. Confirm current settlement rules separately. The accounting examples below use illustrative amounts.
+
+## Set up return and reconciliation components for settlement
 
 User needs to set up components for settlement. Select relevant information in the following fields in **Return & Reco Components**
 
@@ -74,7 +78,7 @@ User needs to set up components for settlement. Select relevant information in t
 
    The net credit from below sources is shown in Credit Availed for Settlement.
 
-   - Detailed GST Ledger entry: Credit from transactions mentioned below, having credit availed marked as true in 'Detail GST Ledger Entry' is shown as liability for current period
+   - Detailed GST Ledger entry: Credit from the transactions below, with **Credit Availed** selected, is included as credit for the current period.
      - Transactions posted through Purchase Documents
      - Warehouse Transfer Receipts
      - Service Transfer Receipts
@@ -86,9 +90,9 @@ User needs to set up components for settlement. Select relevant information in t
 
 ## Process of settlement
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Settlement**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **GST Settlement**, and then choose the related link.
 1. **GST Settlement Nos.** shouldn't be blank in **General Ledger Setup**.
-1. **GST Settlement** shouldn't be blank in **Source Type Setup**.
+1. **GST Settlement** shouldn't be blank in **Source Code Setup**.
 1. Select relevant information in the following fields in **GST Settlement**
 
     |Field|Description|
@@ -100,11 +104,11 @@ User needs to set up components for settlement. Select relevant information in t
     |**Bank Reference No.**|Specify the bank reference number.|
     |**Bank Reference Date**|Specify the bank reference date.|
 
-1. Once relevant values are selected in the request page, select **Apply Entries** on ribbon, **GST Settlement** page opens. The following field information is displayed on the page.
+1. Choose **Apply Entries** to open **Pay GST**. Review the following fields.
 
     |Field|Description|
     |----------------------------------|---------------------------------------|  
-    |**GST Component Code**|Specifies the GST registration number for which settlement is to be done.|
+    |**GST Component Code**|Specifies the tax component, such as CGST, SGST, or IGST, for the settlement line.|
     |**Description**|Specifies the description.|
     |**Period End Date**|Specifies the end date of settlement period.|
     |**Payment Liability**|Specifies the payment liability of the defined component.|
@@ -137,16 +141,23 @@ User needs to set up components for settlement. Select relevant information in t
     |**Bank Reference No.**|Specifies the bank reference number for the transaction.|
     |**Bank Reference Date**|Specifies the reference date for the transaction. |
 
-1. System auto-populates the 'Net Payment Liability' and the 'Total Credit Availed' in settlement page for the given period.
-1. 'Credit Utilized' shall be auto populated by the system based on the priorities set out in claim set-off table. However, they can be edited the same.
-1. 'Credit Utilization' is auto populated when both ‘own credit’ (credit of the component itself) and cross credit (credit of other components) is utilized fully. It's  based on the assumption that unless the credit is availed cash payment for a particular component shall not arise.
-1. Credit can't be utilized for payment of interest, penalty, fees, and others. They shall always be paid in cash.
-1. Credit utilized and payment amount shall not exceed tax liability.
-1. Total credit utilized for a particular component shall not exceed total credit availed for that component plus surplus credit of other components prioritized in claim-set off table for such component.
-1. 'Account No'. and 'Account Type' shall be the same for all tax components. However, 'Interest Account', 'Fees Account', 'Penalty Account' and 'Others Account' can be defined differently for different tax components.
-1. Credit can't be utilized for payment of reverse charge liability. The entire liability is to be discharged in cash. Once settlement is done for any payment or refund document, the same can't be reversed in system.
-1. User can check out the component wise credit available, credit utilization, and balance credit from **Action**-> **Details**.
-1. Dimensions are also available on settlement page.
+## Review settlement amounts before posting
+
+The settlement request requires a GST registration number that isn't an input service distributor. The date filter includes entries through the settlement period end date.
+
+- **Net Payment Liability** and available credit are calculated for the period. **Credit Utilized** is calculated from the priorities in **GST Claim Setoff**, including the component's own credit and eligible surplus credit from other components. You can edit the utilization before posting.
+- Credit can't be used for interest, penalties, fees, or other charges. These amounts require payment accounts. Specify the corresponding expense accounts when entering these charges.
+- Credit utilization must not exceed net payment liability or available credit. Review the resulting **Payment Amount** after changing utilization.
+- Use the same **Account Type**, **Account No.**, **Bank Reference No.**, and **Bank Reference Date** across all component lines. The interest, fee, penalty, and other expense accounts can differ by component.
+- Reverse charge liability requires a separate **Payment Amount - Rev. Chrg.** equal to the positive reverse charge liability. Input credit isn't used to discharge this amount.
+
+## Post the settlement
+
+1. Choose **Details** to check the credit available, utilization, and remaining credit by component.
+1. Review the settlement dimensions and payment accounts.
+1. Choose **Post**.
+
+Once a payment or refund document is settled, its transaction reversal is blocked. Review the settlement before posting.
 
 Following are few examples of accounting entries.
 

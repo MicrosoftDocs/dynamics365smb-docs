@@ -1,11 +1,12 @@
 ---
-title: GST on Journals where Services paid directly through Cash or Bank
+title: GST on Journals for Services Paid Directly Through Cash or Bank
 description: Explains GST calculation on journals for services paid directly via cash or bank in Business Central India localization.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English. GST on journals
-ms.date: 10/16/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: soumramani
@@ -19,22 +20,26 @@ This article explains the GST calculation process.
 
 ## Create a general journal or a bank or cash payment voucher
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Journals**, and then choose the related link.
 1. Select **Party Type**, **Party Code**, and **Location Code**.
 
    > [!NOTE]
    > You must set the GST **Party Type** to **Vendor**, and the GST vendor type in **Party Code** should be **Unregistered**.
 
 1. Select **G/L Account** in account type and **G/L Account** or **Bank Account** in balancing account type, and then select the cash or bank accounts.
-1. GST (CGST/SGST/UTGST/IGST) to be calculated on Direct Expenses (Services) being paid through cash or bank, any legal fees, telephone expenses, etc.
+1. Enter the service expense and the relevant **GST Group Code** and **HSN/SAC Code**. Review the GST calculation before posting.
 
 ## Example
 
 For example, there's an expense of INR 10,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on expense amount.
 
+The example assumes a reverse charge service transaction for which input credit is available. The rates illustrate the calculation; use the rates and reverse charge setup applicable to your transaction.
+
 ### GST calculations in the Fact Box
 
 In this example, GST calculations appear in the Fact Box as shown in the following table.
+
+CGST and SGST apply to the intrastate example. IGST is the alternative for the interstate example.
 
 | Component | Amount |
 |--|--|

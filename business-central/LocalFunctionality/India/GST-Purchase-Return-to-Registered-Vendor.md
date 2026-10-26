@@ -5,10 +5,11 @@ author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
-ms.date: 06/23/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Purchase return to registered vendor
@@ -22,11 +23,15 @@ A buyer may have to return the goods or issue credit note due to various reasons
 
 Process for purchase returns to registered vendor has been explained in this document.
 
+The rates and amounts below are illustrative. Check the return's GST group, credit treatment, and jurisdiction against the original purchase before posting.
+
 ## Create a purchase return order or credit memo
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Purchase Return Orders** or **Purchase Credit Memos**, and then choose the related link.
 1. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Registered**.
-1. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Credit Memo** line. GST Group Code, HSN/SAC Code, and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item, G/L Account, Fixed Asset, Charge (Item).
+1. Select **Item** for goods, **G/L Account** for services, **Fixed Asset**, or **Charge (Item)** on the credit memo line. Check **GST Group Code** and **HSN/SAC Code**. Set **GST Credit** to **Availment** or **Non-Availment**, as appropriate.
+
+The GST details are initially copied from the selected item, account, asset, or charge. For registered vendors, **GST Reverse Charge** follows the selected GST group. The examples below show ordinary purchases, not reverse charge returns.
 
 For example, purchase credit memo or return order is issued for INR 10000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
 

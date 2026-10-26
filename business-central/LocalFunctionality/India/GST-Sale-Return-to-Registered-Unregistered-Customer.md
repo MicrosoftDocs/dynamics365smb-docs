@@ -1,27 +1,28 @@
 ---
 title: Sales Return of Goods from Registered or Unregistered Customer
-description: Learn how to process sales returns of goods from registered or unregistered customers in India.
+description: Process sales returns from registered or unregistered customers and review illustrative GST accounting entries in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, registered customer, unregistered customer, sales return
-ms.date: 06/23/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Sales return of goods from registered or unregistered customer
 
 Sales to a registered customer are known as B2B sales, sales to an unregistered customer are known as B2C sales. There's no difference in computation of tax for a B2B and B2C sales. However, they're required to be reported in separately in GSTR-1.
 
-A customer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
+A customer might return goods or need a credit note because of damage or quality issues.
 
 Process of sale return from registered or unregistered customer has been explained in this document.
 
 ## Create a sales return order or credit memo
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Sales Return Orders** or **Sales Credit Memos**, and then choose the related link.
 1. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered** or **Unregistered**.
 1. Select **Item Code** for goods or **G/L Account** for Service Sale on **Sales Return Order** or **Sales Credit Memo** line. GST Group Code, HSN/SAC Code shouldn't be blank on Item or G/L Account.
 

@@ -5,21 +5,26 @@ author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, stock transfer
-ms.date: 06/24/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Stock transfer
 
-Stock transfers between locations, branches, or divisions having different registration numbers are taxable under GST. In such a case, where registration number is same, if the shipment location and recipient location both are in the same state, then CGST and SGST/UTGST are levied, other-wise, where the registration number is same, there shall be no levy.
+Stock transfers between ordinary locations, branches, or divisions with different GST registration numbers can generate GST. For locations in the same state with different registration numbers, the calculation uses CGST and SGST/UTGST. Transfers between states use IGST. For ordinary locations with the same registration number, GST isn't calculated. Bonded warehouse transfers have separate requirements, described later in this article.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Transfer Order**, and then choose the related link. 
+## Create a transfer order
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Transfer Orders**, and then choose the related link.
 1. Select **Transfer-from Code** and **Transfer-to Code** on **Transfer Order** header.  State Code and GST registration number should be filled on the location master.
 1. Select **Item** on **Transfer Order** line. GST Group Code, HSN/SAC Code should be filled on **Item**.
 
 For example, inventory for INR 1000 is being transferred from one location to another and 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on INR 1000.
+
+The rates illustrate the example. Use CGST and SGST for the intrastate case, or IGST for the interstate case—not all three components together.
 
 - GST calculation appears in the Fact Box as following:
 
@@ -30,7 +35,7 @@ For example, inventory for INR 1000 is being transferred from one location to an
     |**CGST**|90|
     |**SGST**|90|
 
-Post the Transfer Order
+Post the transfer shipment, and then post the receipt. The following tables show the example entries for each stage.
 
 - GL Entries for shipment transaction in case of Interstate stock transfer are as following:
 
@@ -74,13 +79,13 @@ Post the Transfer Order
 
 Bonded warehouse transfer means transfer of stock from customs warehouse to company warehouse. This scenario occurs when material is stored at customs warehouse before moving it to company’s warehouse. In this case, the customs duty is paid only when material is moved from bonded warehouse.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Transfer Order**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Transfer Orders**, and then choose the related link.
 1. Select **Transfer-from Code** and **Transfer-to Code** on **Transfer Order** header.
 1. State Code and GST registration number should be filled on Transfer-to **Location**.
 1. **Bonded warehouse** field should be marked true on Transfer-from **Location**.
 1. Select **Item** on **Transfer Order** line. GST Group Code, HSN/SAC Code should be filled on **Item**.
 1. Enter **GST Assessable Value** and **Custom Duty Amount** on **Transfer Order** lines. System calculates GST on GST Assessable Value and Custom Duty Amount, not on transaction line amount.
-1. **Bill of Entry Number**, **Bill of Entry Date** and **Vendor Code** on **Transfer Order** header shouldn't be blank.
+1. Enter **Bill of Entry No.**, **Bill of Entry Date**, and **Vendor No.** on the transfer order header. These fields and **GST Assessable Value** are validated when you receive the bonded warehouse transfer.
 
 ## Related information
 

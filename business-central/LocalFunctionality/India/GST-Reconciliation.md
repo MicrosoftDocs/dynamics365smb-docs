@@ -1,14 +1,15 @@
 ---
 title: GST Reconciliation
-description: Provides an overview and setup instructions for GST reconciliation in Business Central for India.
+description: Set up GST reconciliation, import reconciliation data, and review matching criteria and related actions in the India localization of Business Central.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST reconciliation, component mapping reconciliation, component mapping
-ms.date: 06/23/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST reconciliation
@@ -16,6 +17,9 @@ ms.reviewer: v-soumramani
 This article explains the setups and process of GST reconciliation.
 
 ## Overview
+
+> [!NOTE]
+> The filing dates, forms, and credit treatment described in this overview reflect the historical reporting scenario. They aren't current filing guidance. The workflow below describes the GSTR-2A reconciliation feature in Business Central.
 
 - Line wise details of all invoices, supplementary invoices, debit notes and credit notes issued by a vendor or supplier towards Outward supplies made during a month shall be reported in GSTR-1 by 10th of the succeeding month.
 - Sales uploaded by the supplier or vendor in GSTR-1 are auto-reflected in GSTR-2A and GSTR-2 of the buyer as Inward supplies. For example, if the buyer purchases goods or services from 100 vendors in a month, the details of all such purchases are reflected in GSTR-2A & GSTR-2 of the buyer, provided all 100 vendors have uploaded their sales in GSTR-1.
@@ -36,7 +40,7 @@ This article explains the setups and process of GST reconciliation.
 
 - Mapping GST reconciliation fields with GST components is a pre-requisite for GST Reconciliation. Unless it's done, reconciliation can’t happen in the system.
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Component Mapping Recon.**, and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] **GST Component Mapping Recon.**, and then choose the related link.
   1. Fill in the fields as described in the following table.
   
       |Field|Description|
@@ -51,16 +55,22 @@ This article explains the setups and process of GST reconciliation.
 
 - Reconciliation feature enables the user to reconcile the posted purchase transactions with GSTR-2A downloaded from GSTN portal.
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Reconciliation List.**, and then choose the related link, and select **New** to create a new reconciliation document.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] **GST Reconciliation List**, and then choose the related link. Choose **New**.
   1. Select relevant GST registration number in **GSTIN No.** field for which reconciliation needs to be done. **Month**, **Year**, **Posting Date** fields shouldn't be blank.
   1. **GST Recon. Tolerance** field is updated with the value mentioned on **General Ledger Setup**.
   1. **Input Service Distributor** field is marked true if the GSTIN is assigned for input service distribution location.
-  1. Select Action on the ribbon -> Functions -> Import GSTR-2A, choose the relevant file and the data are updated in **Periodic GSTR-2A Data**.
-  1. Select **Fill GST Reconciliation** and the posted GST transactions are populated in **GST Reconciliation Lines**.
+  1. Choose **Import GSTR-2A** and select the prepared file to populate **Periodic GSTR-2A Data**.
+  1. Choose **Fill GST Reconcilation** to populate **GST Reconciliation Lines**.
+  1. Choose **Match**. Review the matched status and any errors against the imported data.
+  1. Choose **Post** after reviewing the results.
+
+The import uses a variable-text file with the field order defined for **Periodic GSTR-2A Data**. A portal Excel workbook or XML download isn't directly interchangeable with this import format. Prepare the data in the expected layout before importing.
+
+The fill action includes unreconciled, unreversed, unpaid initial purchase invoice and credit memo entries for **Registered** vendors up to the end of the selected month. It excludes exempt entries and permanent credit reversals. The matching and posting actions also check the GST accounting period.
 
 - Purchase Transactions with Vendor Type – Unregistered, Imports, and Composite are excluded from Reconciliation. [This is due to the reason that unregistered and import vendors aren't registered with GSTN authorities and hence doesn't upload their supplies in GSTR-1. Hence the same aren't reflected in GSTR-2].
 - Invoice having multiple lines are clubbed together and shown as one line in GST Reconciliation feature, that is, Total Taxable amount and Tax Amounts (CGST, SGST, IGST).
-- Periodic GSTR-2A can be downloaded in Excel or XML format. The following fields in GSTR-2A are matched with GST Reconciliation lines
+- GSTR-2A downloads can be available in Excel or XML format. Prepare the data for the import format described above. The following fields are used in reconciliation:
   - External Document No.
   - Tax Amounts (IGST, CGST, SGST)
   - Vendor Invoice Date

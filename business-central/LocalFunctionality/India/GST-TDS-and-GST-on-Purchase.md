@@ -1,25 +1,31 @@
 ---
-title: Calculation of Income Tax TDS and GST on Purchase Transactions 
-description: Learn how to calculate Income Tax TDS and GST on purchase transactions in Business Central for India.
+title: Calculation of Income Tax TDS and GST on Purchase Transactions
+description: Calculate income tax TDS and GST on purchase transactions, and review illustrative calculation and accounting entries in Business Central for India.
 author: v-debapd  
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, income tax TDS, TDS, purchase transactions
-ms.date: 06/25/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Calculation of Income Tax TDS and GST on purchase transactions
 
 There are certain services on which GST applies along with the provisions of TDS under income tax. TDS shouldn't be calculated on GST amount, in some cases where payment terms are set as 100% advance, full order value has to be paid as advance payment. In such cases, amount paid to vendor is inclusive of GST and if TDS has to be deducted while paying amount to vendor, then TDS is deducted only on the base amount and not on the GST amount.
 
+The following examples use illustrative GST and TDS rates. Actual calculation depends on the GST setup, the vendor's allowed TDS sections, and the configured tax rates.
+
 ## Create a purchase invoice
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Purchase Invoices**, and then choose the related link.
 1. Select **Vendor** on **Invoice Header**.
-1. Select **G/L Account** for Service purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code shouldn't be blank and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account.
+1. Select **G/L Account** for the service on the invoice line. Check **GST Group Code** and **HSN/SAC Code**. Set **GST Credit** to **Availment** or **Non-Availment**, as appropriate.
+1. Select **TDS Section Code** on the invoice line. The lookup shows sections allowed for the vendor.
+
+Changing **TDS Section Code** recalculates tax for the document. Check the tax calculation after selecting the section and before posting the invoice.
 
 For example, there's a purchase invoice for INR 10,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged and Income Tax TDS @10% also to be charged.
 

@@ -1,14 +1,15 @@
 ---
-title: TDS calculation on Purchase and Payment Transactions
-description: Learn how TDS is calculated on purchase and payment transactions in Business Central for India.
+title: TDS Calculation on Purchase and Payment Transactions
+description: Calculate TDS on purchase and payment transactions, and review the documented workflows and illustrative entries in Business Central for India.
 author: v-debapd   
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TDS calculation, purchase transactions, payment transactions
-ms.date: 06/30/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # TDS calculation on purchase and payment transactions
@@ -20,17 +21,21 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
 - General Journal
 - Purchase Journal
 
+The examples use illustrative rates, concessional rates, and exchange rates. They aren't guidance on current tax law. Use the rates and rounding setup that apply to your transactions.
+
+These examples focus on expense accounts. For purchases of goods under section 194Q, see [TDS calculation and transactions as per section 194Q](TDS-194Q-Transactions.md).
+
 ## Mandatory fields for TDS calculation on general journal, purchase journal, purchase invoice, purchase order
 
 - Create General Journal or Purchase Journal
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal** or **Purchase Journal**, and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Journal** or **Purchase Journal**, and then choose the related link.
   1. Select **Vendor** in Account Type and select relevant vendor code in Account No. field. Select **G/L Account** in Bal. Account Type and select relevant expense account in Bal. Account No. field.
   1. Select relevant **TDS Section** on journal line. **Location Code** and **T.A.N No.** fields shouldn't be blank.
 
 - Create Purchase Invoice or Purchase Order
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice** or **Purchase Order**, and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Purchase Invoice** or **Purchase Order**, and then choose the related link.
   1. Select **Vendor**, **Location Code** on **Purchase Order** or **Purchase Invoice** header
   1. Select **G/L Account** on **Purchase Order** or **Purchase Invoice** line.
   1. **TDS Section**, **Location Code**, and **T.A.N No.** fields shouldn't be blank.
@@ -69,16 +74,16 @@ In the given scenario, advance payment made to vendor for INR 50,000 on which 2%
 
   |Particulars|Amount|
   |----------------------------------|---------------------------------------|  
-  |**Expense Account**|50000|
+  |**Vendor Account**|50000|
   |**TDS Payable Account**|-1000|
   |**Bank Account**|-49000|
 
-On receiving the invoice from the vendor, TDS is calculated on the differential amount. Suppose vendor sent an invoice of INR 120,000. Since TDS has already been calculated at the time of payment, at the time of invoicing TDS is calculated on the remaining amount that is, INR 70000 (1200000 - 50000).
+On receiving the invoice from the vendor, TDS is calculated on the differential amount. Suppose the vendor sends an invoice for INR 120,000. Because TDS was already calculated on the advance payment, the remaining taxable amount is INR 70,000 (120,000 - 50,000).
 
 > [!NOTE]
 > Advance payment needs to be applied with the invoice before posting. Otherwise TDS is calculated on the whole invoice amount.
 
-### TDS to be calculated on non-resident vendor invoice in foreign currency
+### TDS to be calculated on nonresident vendor invoice in foreign currency
 
 In the given scenario, vendor issued an invoice for USD 10,000 on which 2% TDS is applicable under TDS Section 195. All USD amounts get converted into INR based on currency exchange rates. For this example, exchange rate has been considered as USD 1 = INR 65.
 
@@ -102,7 +107,7 @@ In the given scenario, vendor issued an invoice for USD 10,000 on which 2% TDS i
 
 ### TDS calculation on higher rate if vendor isn't having PAN
 
-PAN of vendor is mandatory for TDS calculation, but in case PAN isn't available, higher rate of TDS is deducted from the vendor.
+If the vendor's PAN isn't available, the configured non-PAN rate is used. Complete the applicable **P.A.N. Status** and **P.A.N. Reference No.** so that posting can validate the vendor's details.
 
 In the given scenario, vendor issued an invoice for INR 50,000 on which 2% TDS is applicable under TDS section 194C, but PAN isn't available for vendor. In such a case 20% TDS is charged as a higher rate.
 
@@ -149,8 +154,8 @@ A single invoice can be raised by the vendor for multiple expenses. For example,
   |Component|Value|
   |----------------------------------|---------------------------------------|  
   |**TDS Base Amount**|100000|  
-  |**TDS percent for 194C**|1000 (50,000x2%)|
-  |**TDS percent for 194J**|5000 (50,000x10%)|
+  |**TDS amount for 194C**|1000 (50,000x2%)|
+  |**TDS amount for 194J**|5000 (50,000x10%)|
 
 - On posting invoice, GL Entries are as following:
 

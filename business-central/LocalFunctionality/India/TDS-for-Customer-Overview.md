@@ -1,14 +1,15 @@
 ---
-title: Setting up TDS by Customer as per the Income Tax Act, 1961 provisions
-description: Describes the basic setups required according to the Income Tax Act, 1961.
+title: Set Up TDS by Customer Based on the Income Tax Act, 1961 Provisions
+description: Set up customer TDS classifications and related transaction defaults for tracking tax deductions in the India localization of Business Central.
 author: v-debapd 
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TDS setup, state code, company information, location master, Customer Card, customer master, posting setup, concessional codes, TDS section, assessee code, T.A.N, accounting period, TDS rates, setup types
-ms.date: 06/30/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Set up TDS by customer based on the Income Tax Act, 1961 provisions
@@ -25,7 +26,7 @@ If the TDS is deducted by the customer (deductor), then the user (deductee) has 
 - Automatic - These setups are done through Tax Engine.
 - Manual - These setups are done manually by the business users.
 
-### Following is the list of setups, which are preconfigured with help of **Tax Engine**
+### Preconfigured tax engine setup
 
 - Tax Types
 - Tax Entities
@@ -53,7 +54,7 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 
 Rate of TDS is defined in combination of TDS section and assessee code.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** > **TDS** > **Action** > **Tax Rates**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **TDS Rates**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -64,7 +65,7 @@ Rate of TDS is defined in combination of TDS section and assessee code.
     |**Concessional Code**|Specifies the concessional code.|
     |**Nature of Remittance**|Specifies whether the nature of remittance is applicable or not.|
     |**Act Applicable**|Specifies the applicable act.|
-    |**Currency Code**|Specifies the currency code.|
+    |**Country Code**|Specifies the country code.|
     |**TDS %**|Specifies the TDS rate.|
     |**Non PAN TDS %**|Specifies the TDS rate in case of non availability of PAN.|
     |**Surcharge %**|Specifies the surcharge rate.|
@@ -78,7 +79,7 @@ Rate of TDS is defined in combination of TDS section and assessee code.
 
 Tax Accounting period and quarters need to be defined for TDS calculation.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Tax Acc. Period Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -86,7 +87,7 @@ Tax Accounting period and quarters need to be defined for TDS calculation.
     |**Code**|Enter the valid tax type.|  
     |**Description**|Specify the description of the tax type.|
 
-1. Select the **Tax Type** > **Action** > **Tax Accounting Period** > **Create Year**, fill the following information and accounting period is created.
+1. Select the accounting period setup used by TDS, choose **Tax Accounting Period**, then choose **Create Year**. Fill in the following information to create the year.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|
@@ -97,9 +98,9 @@ Tax Accounting period and quarters need to be defined for TDS calculation.
 
 ## Set up T.A.N
 
-Tax Deduction Account Number (T.A.N) allotted to a legal entity can be more than one, depending on the number of branch locations from where the legal entity files its TDs returns. All the account numbers allotted to a legal entity need to be captured here.
+A legal entity can have more than one Tax Deduction Account Number (T.A.N), depending on the branch locations from which it files TDS returns. Record the account numbers here.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **T.A.N Nos.**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **T.A.N. Nos.**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -111,7 +112,7 @@ Tax Deduction Account Number (T.A.N) allotted to a legal entity can be more than
 
 Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other sum of money is payable under this Act. The rates of TDS are different for different types of Assessee.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Assessee Codes**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Assessee Codes**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -124,20 +125,20 @@ Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other 
 
 TDS Section represents the various sections under which tax deduction takes place as per the Income Tax Act 1961.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Sections**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **TDS Sections**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|
     |**Code**|Enter the valid TDS Section applicable as per the Income Tax Act, 1961|  
     |**Description**|Enter the description of the mentioned TDS Section.|
-    |**e-TDS**|Specifies the section code to be used in the tds return.|
+    |**eTDS**|Specifies the section code to be used in the TDS return.|
 
 ## Set up concessional codes
 
 Concessional codes are used for cases authorized for concessional rates exclusively defined by the government.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Concessional Codes**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Concessional Codes**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -149,7 +150,7 @@ Concessional codes are used for cases authorized for concessional rates exclusiv
 
 Specifies the general ledger account for each TDS Section defined in the system. System updates the TDS receivable amount in the defined general ledger account.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Posting Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **TDS Posting Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -164,22 +165,23 @@ TDS Section and concessional codes need to be defined for each customer, who is 
 
 - To define the TDS Sections on the Customer Card
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Customer** > **Customer** > **Customer Allowed Sections** and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Customers**, choose the related link, open the customer card, and then choose **TDS Customer Allowed Sections**.
   1. **Assessee Code** needs to be filled on the customer master.
-  1. **PAN** needs to be filled on customer master, PAN is mandatory for TDS calculation for customer.
+  1. Fill in the customer's **P.A.N. No.** If PAN isn't available, complete the applicable **P.A.N. Status** and **P.A.N. Reference No.** Posting checks these details.
   1. Fill in the fields as described in the following table.
 
       |Field|Description|  
       |---------------------------------|---------------------------------------|
       |**TDS Section**|Select the valid section from lookup list depending on the kind of services provided by the customer.|
-      |**TDS Section Description**|Enter the description of the selected section.|
-      |**TDS Certificate Receivable**|This field should be marked as true.|
-      |**Threshold Overlook**|Place a check mark in this field to overlook the TDS Threshold amount defined in 'Tax Rates'|
-      |**Surcharge Overlook**|Place a check mark in this field to overlook the Surcharge Threshold amount defined in 'Tax Rates'|
+      |**TDS Section Description**|Displays the description of the selected section.|
+      |**Threshold Overlook**|Selected automatically when a section is entered. This field isn't editable.|
+      |**Surcharge Overlook**|Selected automatically when a section is entered. This field isn't editable.|
+
+  Select **TDS Certificate Receivable** on the receipt journal line or sales document, not on the allowed-section line. For details, see [TDS for customer](TDS-Calculation-for-Customer.md).
 
 - To define the concessional code on customer card
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Customer** > **Customer** > **TDS Customer Concessional Codes** and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Customers**, choose the related link, open the customer card, and then choose **TDS Customer Concessional Codes**.
   1. Fill in the fields as described in the following table.
 
       |Field|Description|  
@@ -194,19 +196,19 @@ TDS Section and concessional codes need to be defined for each customer, who is 
 
 ## Set up TDS on company information
 
-- Following information need to be defined in company information.
+Define the following information on **Company Information**. PAO, DDO, and ministry details are required when the selected deductor category makes them mandatory.
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|
-    |**T.A.N. No.**|Specifies the TAN No. of the legal entity.|
-    |**P.A.N No.**|Specifies the PAN of the legal entity.|
-    |**Deductor Category**|Specifies the deductor category of the legal entity.|
-    |**PAO Code**|Specifies the PAO code.|
-    |**PAO Registration No.**|Specifies PAO registration number.|
-    |**DDO Code**|Specifies DDO code.|
-    |**DDO Registration No.**|Specifies the DDO registration number.|
-    |**Ministry Type**|Specifies the Ministry type.|
-    |**Ministry Code**|Specifies the Ministry code.|
+|Field|Description|  
+|---------------------------------|---------------------------------------|
+|**T.A.N. No.**|Specifies the TAN No. of the legal entity.|
+|**P.A.N No.**|Specifies the PAN of the legal entity.|
+|**Deductor Category**|Specifies the deductor category of the legal entity.|
+|**PAO Code**|Specifies the PAO code.|
+|**PAO Registration No.**|Specifies PAO registration number.|
+|**DDO Code**|Specifies DDO code.|
+|**DDO Registration No.**|Specifies the DDO registration number.|
+|**Ministry Type**|Specifies the Ministry type.|
+|**Ministry Code**|Specifies the Ministry code.|
 
 ## Set up TDS on state code
 

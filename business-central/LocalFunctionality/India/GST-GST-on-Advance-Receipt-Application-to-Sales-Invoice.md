@@ -1,14 +1,15 @@
 ---
-title: GST on Advance Payment Application with Sales Invoice
-description: Learn how GST is applied on advance payments and their application to sales invoices in Business Central for India.
+title: GST on Advance Payment and Application with Sales Invoice
+description: Apply customer advance receipts to sales invoices and review related GST adjustment and accounting examples in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST on advance payment, GST GL entries
-ms.date: 06/19/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST on advance payment and application with sales invoice
@@ -17,9 +18,19 @@ GST can also be liable at the time of receiving advance payment from customer. I
 
 Process of application of advance payment from customer and sale invoice has been explained in this document.
 
+## Apply a customer advance
+
+1. Create the service advance receipt as described in [GST on advance payment received from customer](GST-GST-on-Advance-Payment-received-from-Customer.md).
+1. Create a sales invoice for the same customer and enter the service lines with the relevant **GST Group Code** and **HSN/SAC Code**.
+1. On the invoice, select the advance receipt in **Applies-to Doc. No.** Review the GST calculation, and then post the invoice.
+
+The GST group on the invoice lines must match the group on the advance receipt when you apply an advance that has **GST on Advance Payment** turned on.
+
+## Example of an advance application
+
 For example, service amount is INR 20000 and customer made an advance payment of INR 10,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST) has to be charged on the advance payment.
 
-- GST Calculation appears in the Fact Box bas following:
+- GST calculation appears in the FactBox as follows:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -51,9 +62,9 @@ Later sales invoice for services is issued to the customer for INR 20,000. 18% G
     |**CGST Payable (Interim) Account**|-763|
     |**SGST/UTGST Payable (Interim) Account**|-763|  
 
-## GST un-application of customer advance with sales invoice
+## Unapply a customer advance from a sales invoice
 
-If this is found that the payment and invoice was wrongly applied  and the application needs to be reversed, in such a case un apply functionality can be used. Un-application entries are same for both online application and offline application.
+If the payment and invoice were applied incorrectly, use the unapply functionality to reverse the application. Unapplication entries are the same for applications made during posting and applications made afterward.
 
 > [!TIP]
 > An advance receipt and invoice application can't be unapplied, if the tax liability on both is discharged through GST Settlement Screen.

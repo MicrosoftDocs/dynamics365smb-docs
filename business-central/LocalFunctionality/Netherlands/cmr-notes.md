@@ -1,14 +1,15 @@
 ---
-title: CMR Notes [NL]
+title: CMR Notes in the Dutch Version [NL]
 description: Process claims with complete CMR note information easily. Use the Dutch feature to follow the CMR Convention with standard CMR notes.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: claims, CMR note, Dutch version, CMR convention, Netherlands
-ms.date: 03/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # CMR notes in the Dutch version
@@ -21,11 +22,11 @@ Claims with complete CMR note information are easily processed.
 
 Countries/Regions that follow the CMR Convention adhere to a standard form for CMR notes. The type of CMR notes used depends on the type of transaction. There are three types:  
 
-- **CMR - Sales Shipment** – This report is used to print CMR documents for sales shipments. For each CMR document, the report shows address data for the sender, shipping agent, and consignee, along with data about the shipped items.
+- **CMR - Sales Shipment**: Prints CMR documents for sales shipments. For each CMR document, the report shows address data for the sender, shipping agent, and consignee, along with data about the shipped items.
 
-- **CMR - Purchase Return Shipment** – This report is used to print CMR documents for purchase return shipments. For each CMR document, the report shows address data for the sender, shipping agent, and consignee, along with data about the shipped items.
+- **CMR - Return Shipment**: Prints CMR documents for purchase return shipments. For each CMR document, the report shows address data for the sender, shipping agent, and consignee, along with data about the shipped items.
 
-- **CMR - Transfer Shipment** – This report is used to print CMR documents for transfer shipments. For each CMR document, the report shows address data for the location from which the items are shipped, the location to which the items are shipped, and information regarding the shipping agent, along with data about the shipped items.
+- **CMR - Transfer Shipment**: Prints CMR documents for transfer shipments. For each CMR document, the report shows address data for the location from which the items are shipped, the location to which the items are shipped, and information regarding the shipping agent, along with data about the shipped items.
 
 > [!NOTE]  
 > CMR notes are formatted to print on preprinted CMR forms.  

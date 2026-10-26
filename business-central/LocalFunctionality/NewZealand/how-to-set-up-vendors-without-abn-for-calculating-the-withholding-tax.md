@@ -1,30 +1,31 @@
 ---
-title: Set up vendors without IRD for calculating withholding tax (NZ)
-description: Learn how to set up vendors without IRD numbers to calculate withholding tax, ensuring compliance with New Zealand tax regulations for local vendors.
+title: Set Up Vendors Without IRD Numbers for Withholding Tax
+description: Learn how to set up local vendors without IRD numbers when withholding tax applies in the New Zealand version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: IRD number, calculate withholding tax, vendor setup, New Zealand tax compliance
 ms.search.form: 28043
-ms.date: 05/06/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up vendors without IRD numbers for calculating the withholding tax
 
-Withholding Tax (WHT) is calculated for local vendors who don't have a New Zealand Inland Revenue Department number (IRD), as required by tax law.  
+Use this procedure to set up a local vendor without an IRD number when withholding tax (WHT) applies to their payments. A missing IRD number doesn't mean that every supplier payment is subject to withholding tax. Confirm the applicable tax treatment and rate before you configure WHT. Learn more in [Withholding tax](withholding-tax.md).
 
-## Setup process
+## Set up a vendor without an IRD number
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Vendors**, and then choose the related link.  
 1. Choose the required vendor, and then choose the **Edit** action.  
-1. On the **Vendor Card** page, on the **Registration** FastTab, make sure the **IRD No.** field and the **Foreign Vend** field must be empty.  
+1. On the **Vendor Card** page, on the **Registration** FastTab, leave **IRD No.** blank and clear the **Foreign Vend** checkbox.
 1. Choose the **OK** button.  
 
 > [!NOTE]  
-> The WHT percentage is automatically withheld in accordance with what was specified on the **WHT Posting Setup** page. The WHT certificate is produced for submission to the vendor. Learn more in [Withholding Tax](withholding-tax.md).  
+> The WHT rate comes from **WHT Posting Setup**. To print the certificate when you post the payment, select **Print WHT Docs. on Pay. Post** on **Purchases & Payables Setup**. Send the certificate to the vendor with the payment. Learn more in [Withholding tax](withholding-tax.md).
 
 ## Related information
 

@@ -1,14 +1,15 @@
 ---
-title: TCS calculation on Sales and Receipt Transactions
+title: TCS Calculation on Sales and Receipt Transactions
 description: Explains how TCS is calculated on sales and receipt transactions in Business Central India, including examples and journal entries.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TCS calculation, TCS base amount
-ms.date: 06/30/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # TCS calculation on sales and receipt transactions
@@ -24,18 +25,20 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
 - Cash Receipt Voucher
 - Bank Receipt Voucher
 
+The examples use illustrative rates, concessional rates, and exchange rates. They aren't guidance on current tax law. The calculated amounts depend on your tax rate and rounding setup.
+
 ## TCS calculation on general journal, sales journal, cash receipt journal, sales invoice, sales order, sales return order, sales credit memo
 
 - Create general journal, sales journal, cash receipt journal, or bank receipt journal
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher**, or **Bank Receipt Voucher**, and then choose the related link.
   1. Select **Customer** in Account Type and select relevant customer code in Account No. field.
-  1. Select **G/L Account** or **Bank Account** in Bal. Account Type and select relevant expense account in Bal. Account. No. field.
+  1. Select **G/L Account** or **Bank Account** in **Bal. Account Type**, and select the balancing account in **Bal. Account No.** For a receipt, use the relevant cash or bank account.
   1. Select relevant **TCS Nature of Collection** in journal line. **Location Code** and **T.C.A.N No.** fields shouldn't be blank.
 
 - Create sales invoice or sales order
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, **Sales Order**, **Sales Return Order** or **Sales Credit Memo**, and then choose the related link.
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Sales Invoice**, **Sales Order**, **Sales Return Order**, or **Sales Credit Memo**, and then choose the related link.
   1. Select **Customer**, **Location Code** on **Sales Order**, **Sales Invoice**, **Sales Return Order** or **Sales Credit Memo** header.
   1. Select **G/L Account** or **Item Code** on **Sales Order**, **Sales Invoice**, **Sales Return Order** or **Sales Credit Memo** line.
   1. **TCS Nature of Collection**, **Location Code**, and **T.C.A.N No.** fields shouldn't be blank.
@@ -68,7 +71,7 @@ For example, advance payment received from customer for INR 10,000 on which 1% T
   |Component|Value|
   |----------------------------------|---------------------------------------|  
   |**TCS Base Amount**|10000|  
-  |**TCS Amount**|99 (10000x1%/101)|
+  |**TCS Amount**|99 (10000 × 1 / 101, rounded)|
 
 - GL Entries are as following:
 
@@ -101,7 +104,7 @@ TCS, which has been calculated on advance payment can be adjusted while creating
 > [!NOTE]
 > TCS is calculated after adjusting the TCS amount, which was earlier calculated on advance payment.
 
-## TCS to be calculated on non-resident customer invoice in foreign currency
+## TCS to be calculated on nonresident customer invoice in foreign currency
 
 For example, invoice has been raised to foreign customer for USD 10,000 on which 1% TCS is applicable for Nature of collection 'Scrap'. All foreign currency amounts get converted into INR based on currency exchange rates. Exchange rate considered for this example is 1 USD = 65 INR.
 
@@ -149,7 +152,7 @@ For example, invoice has been raised to customer for INR 1,00,000. INR 50,000 ea
   |----------------------------------|---------------------------------------|  
   |**TCS Base Amount**|100000|  
   |**TCS Amount on Scrap**|500(50000x1%)|
-  |**TCS Amount on Timber**|2500(50000x5%)
+  |**TCS Amount on Timber**|2500(50000x5%)|
 
 - GL Entries are as following:
 
@@ -161,7 +164,7 @@ For example, invoice has been raised to customer for INR 1,00,000. INR 50,000 ea
   |**Sales Account - Scrap**|-50000|
   |**Sales Account - Timber**|-50000|
 
-## TCS on sale of scrap @ lower rate
+## TCS on sale of scrap at a lower rate
 
 For example, invoice has been raised to customer for INR 1,00,000 towards sale of Scrap. Customer has a certificate of income tax at Lower rate @ 0.5% on Scrap instead of normal rate.
 
@@ -176,11 +179,11 @@ For example, invoice has been raised to customer for INR 1,00,000 towards sale o
 
   |Particulars|Amount|
   |----------------------------------|---------------------------------------|  
-  |**Customer Account**|103000|
+  |**Customer Account**|100500|
   |**TCS Payable Account**|-500|
   |**Sales Account**|-100000|
 
-## TCS on sale of scrap @ zero rate
+## TCS on sale of scrap at a zero rate
 
 For example, invoice has been raised to customer for INR 1,00,000 towards sale of Scrap. Customer has a certificate of income tax at Zero rate @ 0% on Scrap instead of normal rate.
 

@@ -1,23 +1,27 @@
 ---
-title: Audit trail and edit logs for accounting software in India
-description: This article provides information about the new Indian tax and companies legislation guidelines for accounting software.
+title: Audit Trail and Edit Logs for Accounting Software in India
+description: Review audit registers, configurable change logs, and accounting record controls in Business Central for India, with historical legislation context.
 author: altotovi
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, Indian, local, IN, English, audit trail, edit logs
-ms.date: 06/12/2026
+ms.date: 10/21/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Audit trail and edit logs for accounting software in India
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] complies with the new Indian tax legislation guidelines about accounting software by recording an audit trail of all transactions. It also creates an edit log for each change that's made to an account. This log records the date when the change was made.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] provides posting registers and configurable change logs to support an audit trail. Posting registers record posted ledger activity. Change logs record selected changes to configured tables and fields; they aren't an automatic edit log of every account change.
+
+> [!IMPORTANT]
+> This article describes product capabilities and preserves a historical summary of legislation. It isn't a legal compliance assessment. Confirm current requirements, change-log configuration, permissions, retention, and service policies for your deployment. Application source code doesn't establish current legislation or cloud-service guarantees.
 
 ## Legislation
 
-Principal notifications No. G.S.R. 239(E) dated March 31, 2014, No. G.S.R. 205(E) dated March 24, 2021, amended vide notification G.S.R. 247(E) dated April 1, 2021, and amendment notification G.S.R. 624(E) dated August 5, 2022, state that, as of April 1, 2022, all businesses that use accounting software to maintain books of accounts should have an audit trail feature that includes the following functionality:
+The historical legislation summary refers to principal notifications No. G.S.R. 239(E) dated March 31, 2014, No. G.S.R. 205(E) dated March 24, 2021, amendment G.S.R. 247(E) dated April 1, 2021, and amendment G.S.R. 624(E) dated August 5, 2022. The summary originally described an April 1, 2022 effective date and the following requirements. Confirm the effective dates and applicability of these notifications rather than treating that historical date as current guidance.
 
 - Recording an audit trail of every transaction
 - Creating an audit log of every change that's made in the books of accounts
@@ -37,11 +41,11 @@ Additionally, the rules state that the audit trail feature should meet the follo
 
 Under new guidelines of the Companies Act that specify how account books must be kept in electronic format, every company that uses accounting software to maintain its books of accounts must use only accounting software that has a feature for recording an audit trail. For compliance, the system must record and trace the data sources in the audit trail.
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] is fully compliant with the requirement to record accounting data. The **G/L Register** page provides noneditable details about each transaction, including the register number (the **No.** field not possible to be renumbered), the creation date, and time (the **Created At** field), the **User ID** of who created the transaction, and its **Source Code** and **Journal Batch Name** as additional information. Even if this transaction represents the reversing, users can find the **Reversed** field marked as **Yes**, so there's transparent information about every reversed transaction. The **General Ledger** function on the **G/L Register** page fetches the financial transaction entries that have been posted in the general ledger (G/L). This function opens the **General Ledger Entries** page that's related to the specific G/L register and shows transaction details. So, all required information exists in these tables providing full transaction and audit log.  
+The read-only **G/L Registers** page shows posting batch details, including **No.**, **Created At**, **User ID**, **Source Code**, and **Journal Batch Name**. The **General Ledger** action opens the **General Ledger Entries** for the register. These records support tracing posted financial activity. They don't by themselves demonstrate compliance with every audit-log requirement.
 
 Additionally, you can run the **Find Entries** function to show all other related entries and source documents. For more information, see [Design Details: Accounts in General Ledger](../../design-details-accounts-in-the-general-ledger.md) and [Voucher Transaction](voucher-interface-transactions.md).
 
-For other data, you can use the **Change Log** function to track specific types of changes that are made to tables and fields. Changes that can be tracked include *inserting*, *modifying*, and *deleting* key operations. When you enable change tracking for any table, the impact on performance might vary, depending on the table's category. Change tracking can also increase the size of the database. When you track changes for a table or field, a record of every change to that table or field is stored on the **Change Log Entries** page. You can use this feature to track changes in any data in the system. For example, companies that use [!INCLUDE[prod_short](../../includes/prod_short.md)] to maintain books of accounts are fully compliant with the new notifications and can track transaction data to the source. For more information, see [Auditing Changes in Business Central](../../across-log-changes.md).
+For other data, use **Change Log Setup** to select tables, fields, and operations to track. Supported operations include *inserting*, *modifying*, and *deleting*. Tracking can affect performance and increase database size. Review tracked changes on **Change Log Entries**. The change log can be enabled or disabled, and its configuration and retention require administrative controls. It isn't a non-disableable log of every change. For limitations and setup guidance, see [Audit changes](../../across-log-changes.md).
 
 > [!NOTE]
 > This guideline is a general guideline and can vary, depending on the specific business scenario.
@@ -55,25 +59,25 @@ The books of accounts and other relevant books and papers are retained in one of
 
 The information in the electronic records remains complete and unaltered.
 
-Transactions that are posted in [!INCLUDE[prod_short](../../includes/prod_short.md)] remain complete and in the format that they were initially generated in. Therefore, [!INCLUDE[prod_short](../../includes/prod_short.md)] includes no process for changing the format or content of a posted transaction. That means that the user or administrator can't change or delete any transaction using the user interface.  
+Posted ledger amounts aren't edited directly on **General Ledger Entries**. Corrections use supported processes, such as reversals and correcting documents. Some supplementary information, such as an entry's **Description**, can be edited. Don't treat the read-only financial fields as proof that every field or posted document is immutable.
 
 > [!NOTE]
-> Direct access to the database in [!INCLUDE[prod_short](../../includes/prod_short.md)] technically isn't possible, so users can't make any change directly in the database. Access using the API in [!INCLUDE[prod_short](../../includes/prod_short.md)] isn't direct database access. Instead, the API provides a controlled and secure way to interact with the [!INCLUDE[prod_short](../../includes/prod_short.md)] application layer, which enforces business rules and validations. So, in [!INCLUDE[prod_short](../../includes/prod_short.md)], when a user enters or modifies information via API, the same business logic and validation rules apply as when the user does it through the user interface.
+> Business Central online doesn't provide customers with direct SQL access to the service database. This restriction doesn't describe on-premises deployments. APIs interact with application endpoints rather than providing direct SQL access; their validation and logging depend on the endpoint implementation.
 
 > [!NOTE]
-> Audit trail for using APIs in [!INCLUDE[prod_short](../../includes/prod_short.md)] is absolutely the same as for the direct work using user interface, so audit trail exists in both situations as described in previous article.  
+> Check the logging behavior of each API or extension used in your process. Don't assume that every API operation produces the same audit records as an interactive page operation.
 
 ### Compliance 3: Preserve branch transaction information
 
 The information that's received from branch offices isn't updated and is kept as it was originally received from the branches.
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], changes can't be made to posted financial data. Therefore, financial transactions can't be edited after they're posted. However, they can be reversed by using the **Reverse Transaction** function. Data that's sent from a branch to a head office can't be changed by the head office. However, you can adjust the posted transaction through the specified mode of the transaction, such as a credit memo or general journal, that was posted in the ledger of both the branch and the head office.
+Posted financial amounts can be corrected through supported processes, such as **Reverse Transaction**, credit memos, or general journals. Preservation of data sent from a branch to a head office also depends on the integration, permissions, and retention controls in use. The posting registers alone don't establish that transmitted branch data can't be changed.
 
 ### Compliance 4: Display electronic records in a legible format
 
-The information in the electronic record of the document is shown in [!INCLUDE[prod_short](../../includes/prod_short.md)]. [!INCLUDE[prod_short](../../includes/prod_short.md)] and enables at least one output component per file. Typically, [!INCLUDE[prod_short](../../includes/prod_short.md)] contains multiple file output components of different types. Examples include XML, XLSX, DOCX, JSON, TXT, and PDF.
+Pages and reports provide ways to display electronic records. Available export formats depend on the page, report, or integration. Examples include XML, XLSX, DOCX, JSON, TXT, and PDF; not every record supports every format.
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] ensures that, at the least, every transaction record can be exported or opened in Microsoft Excel format. By using a configurator in the [Data Exchange Framework](../../across-how-to-set-up-data-exchange-definitions.md), users can define which file format is used for specific entries.
+For example, **Print Voucher** on **General Ledger Entries** opens a report for the selected transaction. The [Data Exchange Framework](../../across-how-to-set-up-data-exchange-definitions.md) supports configured import and export scenarios; it isn't a universal exporter for every transaction record.
 
 ### Compliance 5: Maintain a proper system of storage for electronic records
 
@@ -97,7 +101,7 @@ This information is protected by server security. We don't recommend that you in
 
 Under new guidelines of the Companies Act, the books of accounts and other relevant books and papers that are maintained in electronic mode must remain accessible in India at all times, and their backup must be kept in servers that are physically located in India on a daily basis.
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] is fully compliant with the requirements.
+The following service-policy information is retained for context. Verify current availability, regional placement, backup retention, and recovery policies through the linked service documentation; these details aren't established by the India application source.
 
 - The books of accounts and other relevant books and papers that are maintained in electronic mode in [!INCLUDE[prod_short](../../includes/prod_short.md)] are accessible in India at all times for subsequent reference.
 - The Azure Geo to which a [!INCLUDE[prod_short](../../includes/prod_short.md)] environment database is deployed depends on the environment localization. Environments with Indian localization will be deployed to the [Indian datacenters](https://dynamics.microsoft.com/availability-reports/georeport/).

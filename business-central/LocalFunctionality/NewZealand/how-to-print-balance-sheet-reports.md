@@ -1,14 +1,15 @@
 ---
-title: Print Balance Sheet Reports [NZ]
-description: Learn how to print the company's balance sheet report in the New Zealand version of Business Central
+title: Print Balance Sheet Reports in the New Zealand Version [NZ]
+description: Learn how to print a balance sheet, select the reporting date, and set amount rounding in the New Zealand version of Dynamics 365 Business Central.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: balance sheet report, print balance sheet report, New Zealand version
-ms.date: 05/06/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Print balance sheet reports in the New Zealand version

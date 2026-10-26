@@ -1,14 +1,15 @@
 ---
 title: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
-description: Purchase return of services for overseas place of supply to registered vendor
+description: Process service purchase returns to registered vendors with an overseas place of supply and review GST entries in Business Central for India.
 author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, registered vendor, purchase return of services, overseas place of supply
-ms.date: 06/23/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Purchase return of services for overseas place of supply to registered vendor
@@ -19,12 +20,13 @@ The process of computing tax on purchase return to a vendor with overseas place 
 
 ## Create a purchase return order or purchase credit memo
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Purchase Return Orders** or **Purchase Credit Memos**, and then choose the related link.
 1. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Registered**.
-1. Select **G/L Account** on **Purchase Credit Memo** line. GST Group Code, HSN/SAC Code, and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** in the G/L Account. 
+1. In **Tax Information**, check that **GST Invoice** is selected and select **POS Out Of India**. Leave **POS as Vendor State** cleared.
+1. Select **G/L Account** on the credit memo line. Check **GST Group Code** and **HSN/SAC Code**. Set **GST Credit** to **Availment** or **Non-Availment** to match the transaction being returned.
 1. GST Credit option can be changed on **Purchase Credit Memo** line.
 
-For example, if a service recipient has a GSTIN for West Bengal and the Vendor has a GSTIN in West Bengal, but the place of supply is outside India. In this case, IGST is charged as place of supply is outside India. So, return order or credit memo is issued for INR 10,000 on which 18% IGST, has to be charged.
+For example, the service recipient and registered vendor both have GSTINs in West Bengal, but the place of supply is outside India. Selecting **POS Out Of India** sets the GST jurisdiction to interstate. The following return example uses a value of INR 10,000 and an illustrative IGST rate of 18%.
 
 - GST calculation appears in the Fact Box as following:
 
@@ -37,9 +39,9 @@ For example, if a service recipient has a GSTIN for West Bengal and the Vendor h
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
-    |**Services Account**|11800|  
+    |**Services Account**|-10000|
     |**IGST Receivable Account**|-1800|  
-    |**Vendor Account**|-10000|
+    |**Vendor Account**|11800|
 
 - GL Entries for Return or Credit Note of services for overseas place of supply from registered vendor where input tax credit isn't available are as following:
 

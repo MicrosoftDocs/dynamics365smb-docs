@@ -1,14 +1,15 @@
 ---
 title: E-Invoice
-description: Learn about the E-Invoice feature in Business Central for India, including how to generate, export, import, and manage e-invoices in compliance with GST requirements.
+description: Generate, export, and import e-invoice data, manage invoice reference details, and review cancellation workflows in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, e-invoice
-ms.date: 06/19/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # E-invoice
@@ -23,7 +24,8 @@ The adoption of standards will in no way impact the way user would see the physi
 
 Business Central has included E-Invoice feature to Indian Localization.
 
-- Provision for exporting invoice details in json (GSTIN provided schema V-1.01) format is provided.
+- You can export invoice details as a JSON file for processing outside Business Central. Exporting the file doesn't submit the invoice to the tax authority.
+- Use **Generate IRN** on the posted document to generate the local **IRN Hash** when needed. This action is separate from **Generate E-Invoice**, which downloads the JSON file.
 - User can generate json file from **Posted Sales Invoice** > **Action** > **Generate E-Invoice**. On clicking **Generate E-Invoice** button on posted sales invoice, system generates and saves the file.
 - User can generate json file from Posted **Sales Credit Memos** > **Action** > **Generate E-Invoice**. On clicking  **Generate E-Invoice** button on posted sales credit memo, system generates and saves the file.
 - Importing signed E-Invoice json file facility is available. User can import json file from **Posted Sales Invoice** > **Action** > **Import E-Invoice Response**. On importing E-Invoice response, system updates below details into system.
@@ -36,11 +38,13 @@ Business Central has included E-Invoice feature to Indian Localization.
   In the same way E-Invoice Response can be imported in Posted Sales Credit Memo.
 
 > [!NOTE]
-> System validates IRN Hash while importing Signed E-Invoice into system, System imports only if IRN Hash is matched, system skips other files.
+> Import the response for the posted document you're working with. The import requires an `Irn` value and updates the document's IRN hash from that value. It doesn't compare the response IRN with the hash already stored on the document.
 
-- A provision has been provided to create Json file automatically on posting of sales transaction. A new field is created in **General Ledger Setup** > **Tax Information** Tab > **Generate E-Invoice on Sales Post**. On enabling this field, system will create and save json file on posting of sales transaction. System will also generate IRN Hash on posting of sales invoice, if this field is disabled, system doesn't create json file and IRN Hash in posted transaction automatically. However, user can create json file and IRN Hash from posted document.
+**Generate IRN** and **Import E-Invoice Response** require a GST-applicable posted document whose **GST Customer Type** isn't blank or **Unregistered**. Cancellation requires an **IRN Hash** and **Cancel Reason**.
+
+- To download the JSON file automatically when posting interactively, turn on **Generate E-Inv. on Sales Post** on **General Ledger Setup**. Automatic generation applies to sales invoices and credit memos whose **GST Customer Type** isn't blank or **Unregistered**. It requires an interactive client session. If the setting is off, use **Generate E-Invoice** on the posted document.
 - Provision has been provided to record **E-Way Bill No.** on **Tax Information** tab in **Posted Sales Invoice**. E-Way Bill details are included in E-Invoice json file, user will be able to export E-Invoice along with E-Way Bill details.
-- Provision has also been provided for cancellation of E-Invoice. Json file for cancellation of e-invoice is available. User needs to put **E-Inv. Cancelled Date** and **Cancel Reason** on **Tax Information** Tab of **Posted Sales Invoice**, then go to **Posted Sales Invoice** > **Action** > select **Cancel E-Invoice** and again **Generate E-Invoice** for the revised json file.
+- To export a cancellation JSON file, enter **E-Inv. Cancelled Date** and **Cancel Reason** on the posted sales invoice, and then choose **Cancel E-Invoice**. The cancellation action downloads the cancellation file. You don't need to choose **Generate E-Invoice** again to create that file. Process the cancellation outside Business Central.
 
 ## Related information
 

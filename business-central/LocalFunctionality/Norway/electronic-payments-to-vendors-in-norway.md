@@ -1,14 +1,15 @@
 ---
 title: Electronic Payments to Vendors in Norway
-description: Learn about the Norwegian enhancements that simplify vendor payments, enabling invoice searches, bank transactions, status updates, and electronic payments in various formats.
+description: Learn about Norwegian vendor payment workflows in Business Central, including payment proposals, bank file exports, return files, and payment status updates.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: vendor payments, invoice searches, electronic payments, telepay, remittance payment, Norwegian version
-ms.date: 05/12/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Electronic payments to vendors in Norway

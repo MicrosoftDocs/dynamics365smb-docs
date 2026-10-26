@@ -1,31 +1,36 @@
 ---
-title: Registration numbers in the Icelandic localization
-description: This article provides instructions about how to use registration numbers in the Icelandic localization.
+title: Registration Numbers in the Icelandic Localization
+description: Learn where to enter Icelandic registration numbers in Business Central and how sales documents and payment exports use company and recipient details.
 author: altotovi
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: registration numbers, Icelandic localization
-ms.date: 02/06/2025
+ms.date: 10/23/2026
 ms.author: altotovi
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Registration numbers in the Icelandic localization
 
 > [!NOTE]
-> These changes only apply from version 24.0 if the user activates the new [Icelandic localization](iceland-global-core-app.md).
+> These registration number features apply to the [Icelandic localization based on the W1 base app](iceland-global-core-app.md), introduced in version 24.0.
+
+Enter your company's **Registration No.** on **Company Information**. Enter each customer's and vendor's **Registration No.** on the corresponding card.
 
 ## Registration number in documents
 
-The **Registration No.** field is added to the header of the following documents: sales invoice, sales order, and sales credit memo.
+The customer's **Registration No.** is stored on sales invoice, sales order, and sales credit memo headers. You don't enter the number separately on each sales document.
 
-## Sender registration number for payments
+## Registration numbers in payment exports
 
-The **Sender Reg. No.** field is added to the **Payment Export Data** table when the user exports payments.
+When you export payments, `Sender Reg. No.` in the `Payment Export Data` table is populated from **Registration No.** on **Company Information**.
+
+The IS Core app also populates `Recipient Reg. No.` from the vendor's registration number for vendor payment exports, or from the customer's registration number for exports based on customer ledger entries. Whether a number appears in the exported file depends on the export format.
 
 > [!NOTE]
-> This field can be used in the following list of events: _OnBeforeInsertPmtExportDataJnlFromGenJnlLine_, _OnPreparePaymentExportDataCLEOnBeforeTempPaymentExportDataInsert_, and _OnBeforeInsertPmtExportDataJnlFromVendorLedgerEntry_.
+> For extensions, the IS Core app populates recipient registration numbers through the `OnBeforeInsertPmtExportDataJnlFromGenJnlLine`, `OnPreparePaymentExportDataCLEOnBeforeTempPaymentExportDataInsert`, and `OnBeforeInsertPmtExportDataJnlFromVendorLedgerEntry` events.
 
 ## Related information
 

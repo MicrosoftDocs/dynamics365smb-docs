@@ -4,10 +4,11 @@ description: Learn how to manage the sale or transfer of fixed assets in Russia,
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: selling fixed assets, fixed assets, Russia, sale of fixed assets, Russia
-ms.date: 07/21/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Sell fixed assets
@@ -30,6 +31,8 @@ A sale or transfer of a fixed asset consists of two stages.
    | Bal. Account Type | G/L Account |
    | Bal.Account No. | G/L Account for expenses related to the sale of fixed assets |
    | Depr. until FA Posting Date | Selected |
+
+1. Choose **Post** to post the journal lines.
 
 ## Stage 2: Sale of fixed assets by the sales accounts
 

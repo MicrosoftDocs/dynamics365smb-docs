@@ -1,15 +1,16 @@
 ---
-title: Set Up PAC Web Services
+title: Set Up PAC Web Services in Mexico
 description: To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: PAC, Web services, PAC web services, electronic invoicing, electronic stamp
 ms.search.form: 10455, 10456
-ms.date: 02/25/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up PAC web services
@@ -20,26 +21,29 @@ When you send an electronic document, it must receive a digital stamp by an auth
 
 To use web services, you must identify the name of the method on the web service that processes requests for digital stamps. Your PAC can give you this information.  
 
-If your PAC offers the service of canceling signed documents, you must specify two web methods: one web method for requesting the digital stamp, and the other for canceling an already signed document.  
+Configure the methods your PAC provides for requesting stamps, submitting cancellations, and retrieving cancellation status. The **Type** field distinguishes these operations.
 
 Before you can set up the web services, you must upload two certificates:
 
 * A PAC .pfx file
 * A SAT .pfx file
 
-These certificates are used by the communication component and configured in the **General Ledger Setup** page. Learn more in [Set up general ledger information](how-to-set-up-electronic-invoicing.md#set-up-general-ledger-information).  
+Assign the PAC certificate in **Certificate** on **PAC Web Services**. Assign the SAT certificate in **SAT Certificate** on **General Ledger Setup**. Learn more in [Set up general ledger information](how-to-set-up-electronic-invoicing.md#set-up-general-ledger-information).
 
 ## Add the certificates
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates**, and then choose the related link.  
-1. Choose the **New** action, specify the relevant certificate, and then, in the **Certificate** page, fill in the fields as appropriate. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
-1. Repeat step 2 for the second certificate.  
+Have your administrator or partner add the certificates before you configure the PAC and SAT certificate fields. If **New** is available on **Certificates**, you can use it to upload the files. Otherwise, use the list to review the certificates that your administrator or partner added.
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Certificates**, and then choose the related link.  
+1. Open the relevant certificate card and review **Name**, **Available To**, **Has Private Key**, and **Expiry Date**. The availability must include the users who send electronic documents.
+1. To replace an existing certificate file, select **Upload Certificate** and enter **Password** if prompted.
+1. Repeat the review for the second certificate.
 1. Close the page.  
 
 ## Set up a PAC web service  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PAC Web Services**, and then choose the related link.  
-1. In the **PAC Web Services** page, add the relevant web services. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **PAC Web Services**, and then choose the related link.  
+1. On **PAC Web Services**, enter the provider's **Code**, **Name**, and **Certificate**.
 
     For each web service, you must specify the relevant certificate. You must also add additional details.  
 
@@ -49,16 +53,21 @@ These certificates are used by the communication component and configured in the
         |Field|Description|
         |------------------------------------|---------------------------------------|
         |**Environment**|Specify if the web service is for a test environment or a production environment.|
-        |**Type**|Specify if the web method is for requesting a digital stamp or for canceling.|
+        |**Type**|Select **Request Stamp** to obtain a stamp, **Cancel** to submit a cancellation, or **Cancel Request** to retrieve the cancellation status.|
         |**Method Name**|Specify the name of the web method, such as *GeneraTimbre* or *CancelaTimbre*.|
         |**Address**|Specify the URL of the web method.|
 
         Contact your PAC for this information.  
 
-1. Repeat the steps for any additional PAC that you want to set up.  
+1. Repeat the steps for each required operation and environment.
+1. On **General Ledger Setup**, select the provider in **PAC Code** and the matching **PAC Environment**.
+1. Repeat the PAC setup for any additional providers.
 
     > [!IMPORTANT]  
     > SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information for communication with the PAC of your choice.  
+
+> [!NOTE]
+> The default integration expects specific request parameters and response XML. Changing the URL and method name might not be enough to use a different PAC. Work with your partner to confirm compatibility or adapt the integration.
 
 ## Related information
 

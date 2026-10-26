@@ -1,56 +1,56 @@
 ---
-title: Tax Engine - Tax Configuration 01
+title: Tax Engine - Configuration of Tax Type and Tax Rates
 description: Provides details on configuring tax types, tax entities, input parameters, components, and rate setup in the Tax Engine for India localization in Business Central.
 author: v-debapd
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, tax engine, tax type configuration, tax rate configuration, tax entities, input parameters, rate setup
-ms.date: 06/26/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Tax engine - Configuration of tax type and tax rates
 
-This article provides information about tax types that a tax authority can levy in the same jurisdiction or a different jurisdiction. Calculation and posting of this type of tax to G/L Accounts.
+Configure tax types, their input parameters, components, and rates to support tax calculation and posting to G/L accounts.
 
 ## Tax types
 
-There can be various type of taxes applicable for a company. Examples:
+Different taxes can apply to a company. Examples of tax types include:
 
-- **GST** : Goods and Services Tax.
-- **TDS** : Tax deducted at source.
-- **TCS** : Tax collected at source.
-- **WHT** : Withholding Tax.
+- **GST**: Goods and Services Tax.
+- **TDS**: Tax deducted at source.
+- **TCS**: Tax collected at source.
+- **WHT**: Withholding tax.
 
 ## Tax entities
 
-These are tables, which are specific to a Tax Type. This is defined to restrict the list of tables in a lookup. A Tax Entity can be of type ‘Master’ or ‘Transaction’.
+Tax entities are tables associated with a tax type. They restrict the list of tables available in tax configuration lookups. A tax entity can be a master table or a transaction table.
 
-- Example of Master: Customer, Vendor, Location, Item, etc.
-- Example of Transaction: Purchase Line, Sales Line, Transfer Line, Gen. Journal Line, etc.
+- Examples of master tables: Customer, Vendor, Location, and Item.
+- Examples of transaction tables: Purchase Line, Sales Line, Transfer Line, and Gen. Journal Line.
 
 ## Input parameters
 
-Attributes of tax type that can be used as a parameter in tax calculation or reporting. For example:
+Tax attributes are input parameters for tax calculation or reporting. For example:
 
 **HSN Code**: It's a parameter to find GST rate of an item and it can also be used as a parameter for filing of online tax to the government.
 
-An attribute can be either linked to a field of an existing table or can be mapped to an existing table as an attribute. (In the same way as Item Attributes are defined in item table)
+You can link an attribute to an existing table field or assign it to an entity as a generic attribute. Generic attributes work similarly to item attributes.
 
-Header contains following information  
+An attribute includes the following information:
 
-- Attribute Name.
-- Datatype of Attribute.
-- Visible on Interface (Yes/No) 
-- Blocked (Yes/No)
+- **Name**.
+- **Type**: Option, Text, Integer, Decimal, Boolean, or Date.
+- **Visible on Interface**: Controls whether the attribute appears in the **Tax Information** FactBox.
 
-In case the attribute needs to be mapped to a field of a table, then the field needs to be entered in 'Mapping Field Name' else it's created as an attribute for that entity record. Attribute values can be added or viewed in case the type of attribute is an ‘option’.
+To map an attribute to a table field, specify **Mapping Field Name** for the entity mapping. Without a field mapping, the value is stored as a generic attribute for the entity record. For attributes of type **Option**, you can add or view the available values.
 
-## Component
+## Tax components
 
-Certain tax type may have components that need to be computed as part of tax calculation. Following are some examples of tax components:
+Tax types can have components that are computed during tax calculation. Examples include:
 
 - CGST: is a component of Tax Type GST.
 - SGST: is a component of Tax Type GST.
@@ -59,24 +59,26 @@ Certain tax type may have components that need to be computed as part of tax cal
 
 ## Rate setup
 
-For each tax type, parameters are defined basis which rate is specified in the setup.
+For each tax type, define the columns used to find a tax rate and the values returned by that rate.
 
-These Parameters can be of following types:
+Rate columns can have the following types:
 
 |Type  |Description  |
 |---------|---------|
-|**Tax Attributes**|When a tax attribute is used as a parameter for tax rate configuration. (example – HSN Code, GST Group Code, etc.)|
-|**Value**|This is used where we want to use a value in the tax rate configuration that isn't mapped with a table as an attribute. (example – From State, To State etc.)|
-|**Range**|This is used to define slabs in a tax rate setup, such as ‘Date from’ and ‘Date To’. When tax type is defined as 'range', system creates two parameters in tax rate configuration.|
-|**Component**|Components are used to define distribution of tax calculated. For example, 50% of GST goes to CGST and remaining is SGST.|
-|**Output Information**|Numeric values that are part of rate setup. (Example – Threshold Amount)|
+|**Tax Attributes**|Uses a tax attribute, such as HSN Code or GST Group Code, to find a rate.|
+|**Value**|Uses a value mapped in the use case, such as From State or To State, to find a rate.|
+|**Range From and Range To**|Defines a range with a lower and upper bound, such as a date range. The rate setup displays separate From and To values. **Range From** and **Range To** support one-sided ranges.|
+|**Component**|Stores the component percentage returned by the rate. Component formulas use these percentages to calculate tax amounts.|
+|**Output Information**|Stores additional values returned by the rate, such as a threshold amount.|
 
 > [!NOTE]
-> A new field, Allow Blank, has been added to create blank setup for tax attribute. For example, provision has been made to create tax rate for GST without HSN/SAC code, as there are scenarios where rates are common for multiple HSN/SAC codes of a single GST Group.
+> Use **Allow Blank** when a rate column can be blank. A blank value can provide a fallback when an exact match isn't found. For example, you can configure a GST rate without an HSN/SAC code when several HSN/SAC codes in one GST group share the same rate.
 
 ## Tax rates
 
-Tax rates can be defined for a combination of tax parameters defined as part of 'Rate Setup' for a 'Tax type'. Rate defined for a combination can't be repeated.
+Define tax rates for combinations of the parameters in **Rate Setup** for a tax type. You can't create duplicate rate setups for the same combination.
+
+To review the setup, open **Tax Types**, select a tax type, and choose **Rate Setup** or **Tax Rates**. In **Rate Setup**, use **Sequence** to control the order of columns and **Visible on Interface** to control whether a column appears in the **Tax Information** FactBox.
 
 ## Related information
 

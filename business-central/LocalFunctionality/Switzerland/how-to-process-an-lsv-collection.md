@@ -1,15 +1,16 @@
 ---
-title: Process an LSV collection [CH]
+title: Process an LSV Collection in the Swiss Version [CH]
 description: Learn how to create and process payments using LSV journals for Lastschrift Verfahren (LSV+) customers in the Swiss version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: process LSV collection, create LSV collection, LSV collection, LSV journal, LSV, Swiss version
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 04/29/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Process an LSV collection in the Swiss version
@@ -22,7 +23,7 @@ You can view, edit, or delete the suggested payment lines. If you correct the su
 
 ## Create an LSV collection  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **LSV Journal List**, and then choose the related link.  
 1. Choose the **New** action.  
 1. On the **LSV Journal List** page, fill in the required fields as described in the following table.  
 

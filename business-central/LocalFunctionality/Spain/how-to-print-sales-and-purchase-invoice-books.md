@@ -1,14 +1,15 @@
 ---
-title: How to Print Sales and Purchase Invoice Books
+title: Print Sales and Purchase Invoice Books
 description: The Sales Invoice Book report and Purchases Invoice Book report allow you to check all of the sales and purchase documents created for a specific period.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: sales invoice book report, purchase invoice book report, invoice book report, sales book report, purchase book report, sales invoice book, purchase invoice book, Spanish version
-ms.date: 05/28/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Print sales and purchase invoice books
@@ -25,7 +26,7 @@ You can print the **Sales Invoice Book** report and **Purchases Invoice Book** r
 
 ## Print sales invoice book and purchase invoice book reports  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoice Book** or enter **Purchases Invoice Book**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Sales Invoice Book** or enter **Purchases Invoice Book**, and then choose the related link.  
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Option|Description|  

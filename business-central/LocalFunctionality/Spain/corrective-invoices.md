@@ -1,14 +1,15 @@
 ---
-title: Corrective invoices [ES]
+title: Corrective Invoices in the Spanish Version [ES]
 description: Learn how to use corrective invoices in Business Central to address errors or disputes affecting VAT amounts or fiscal data.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: corrective invoices, VAT correction, fiscal data correction, invoice dispute
-ms.date: 05/26/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Corrective invoices in the Spanish version

@@ -4,10 +4,11 @@ description: Russian localization provides functionality for posting tax differe
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: tax differences, tax difference journal, Russia
-ms.date: 07/15/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Post tax differences
@@ -29,7 +30,7 @@ You can use the **Tax Difference Journal** window to manually create tax differe
    | **Tax Diff. Type** | Select if the tax difference is **Constant** or **Temporary**. |
    | **Tax Diff. Code** | Select an identifying income or expense code that defines the source of the tax difference. |
    | **Source Type** | Select the source of tax difference. The options include **Future Expense**, **Fixed Asset**, and **Intangible Asset**. |
-   | **Source No.** | If the **Source Type** is **Future Expense**, enter an identifying code for the future period expenses.  Otherwise, leave this field blank. |
+   | **Source No.** | Select the fixed asset record that matches **Source Type**: a future expense, fixed asset, or intangible asset. The record must have a **Tax Difference Code**. |
    | **Jurisdiction Code** | Select the identifying code for the jurisdiction that is used to calculate taxable profits and losses for tax differences. |
    | **Norm Code** | Select the identifying code for the norm jurisdiction that is used to calculate taxable profits and losses for the tax differences. |
    | **Tax Factor** | Enter the profit tax rate that is used to calculate tax differences. |
@@ -44,10 +45,10 @@ You can use the **Tax Difference Journal** window to manually create tax differe
    | **Asset Tax Amount** | Specifies the calculated asset tax amount. |
    | **Liability Tax Amount** | Specifies the calculated liability tax amount. |
    | **Disposal Tax Amount** | Specifies the tax amount that is written off at disposal of an item. |
-   | **DTA Starting Balance** | Specifies the starting disposal tax amount before counting. |
-   | **DTL Starting Balance** | Specifies the starting disposal tax liability amount before counting. |
-   | **DTA Ending Balance** | Specifies the disposal tax amount after counting. |
-   | **DTL Ending Balance** | Specifies the disposal tax liability amount after counting. |
+   | **DTA Starting Balance** | Specifies the deferred tax asset balance before calculation. |
+   | **DTL Starting Balance** | Specifies the deferred tax liability balance before calculation. |
+   | **DTA Ending Balance** | Specifies the deferred tax asset balance after calculation. |
+   | **DTL Ending Balance** | Specifies the deferred tax liability balance after calculation. |
    | **Disposal Mode** | Select if you want to write down the tax difference or transform it into a constant difference. |
    | **Disposal Date** | Enter the date of the item’s disposal. |
    | **Partial Disposal** | Select if you want to dispose of an item that causes differences in the expense or income code. If this field isn't selected, the tax differences are written off. |
@@ -57,10 +58,10 @@ You can use the **Tax Difference Journal** window to manually create tax differe
 
 ## Related information
 
-- [Tax Differences](Tax-Differences.md)  
-- [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
-- [Tax Accounting](Tax-Accounting.md)  
-- [Tax Registers](Tax-Registers.md)  
-- [Create Tax Registers](How-to-Create-Tax-Registers.md)  
+- [Tax Differences](tax-differences.md)  
+- [Setting up Tax Difference Calculation](setting-up-tax-difference-calculation.md)  
+- [Tax Accounting](tax-accounting.md)  
+- [Tax Registers](tax-registers.md)  
+- [Create Tax Registers](how-to-create-tax-registers.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

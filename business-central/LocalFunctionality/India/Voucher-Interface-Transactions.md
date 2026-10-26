@@ -1,14 +1,15 @@
 ---
-title: Transaction on Voucher Interface
-description: Learn how to record day-to-day transactions using the voucher interface in Business Central for India.
+title: Voucher Transaction
+description: Record cash, bank, contra, and journal voucher transactions, review posting examples, and print posted vouchers in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, voucher transaction
-ms.date: 06/30/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Voucher transaction
@@ -26,26 +27,28 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
 - Contra Voucher: Entries, which affect the Cash and Bank Account together are termed as Contra Vouchers. For example, withdrawal from bank is one such transaction.
 - Journal Voucher: Entries, which are affecting neither the Cash Account nor the Bank account are termed as Journal Vouchers.
 
-## Mandatory fields for voucher entries through voucher interface
+## Fields for voucher entries
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Voucher**, **Cash Payment Voucher**, **Bank Receipt Voucher**, **Bank Payment Voucher**, **Contra Voucher** or **Journal Voucher**, and then choose the related link.
-1. Following are the mandatory fields for any type of voucher entry:
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Cash Receipt Voucher**, **Cash Payment Voucher**, **Bank Receipt Voucher**, **Bank Payment Voucher**, **Contra Voucher**, or **Journal Voucher**, and then choose the related link.
+1. Fill in the fields required for your transaction. Not every field in the following table is mandatory for every voucher:
 
     |Field|Description|
     |----------------------------------|---------------------------------------|  
     |**Posting Date**|Specify the posting date.|  
     |**Document Type**|Specify document type as per transaction requirement, that is, Payment, Refund, etc.|
-    |**Document Number**|Specifies the document number, this can be manually entered or auto populated from general journal template or batch.|
+    |**Document No.**|Specifies the document number, which can be entered manually or assigned from the number series.|
     |**Account Type**|Select relevant account type, that is, Customer, Vendor, G/L Account, Bank, etc.|
     |**Account No.**|Select the relevant account number|
-    |**Debit Amount**|Specify the debit amount|
-    |**Credit Amount**|Specify the credit amount|
-    |**Balance Account Type**|Select relevant account type, that is, Customer, Vendor, G/L Account, Bank, etc.|
-    |**Balance Account No.**|Select the relevant account number|
-    |**Cheque No.**|Specify the cheque number, only applicable for bank payment and receipt voucher.|
-    |**Cheque Date**|Specify the cheque date, only applicable for bank payment and receipt voucher.|
-    |**Line Narration**|Specify the line narration of the journal lines, can be provided for each line.|
-    |**Voucher Narration**|Specify the voucher narration. This is a single narration for the whole document.|
+    |**Debit Amount**|Enter the debit amount when the line is a debit.|
+    |**Credit Amount**|Enter the credit amount when the line is a credit.|
+    |**Bal. Account Type**|Select the balancing account type when using a balancing account.|
+    |**Bal. Account No.**|Select the balancing account number, or balance the document with separate journal lines.|
+    |**Cheque No.**|Enter the cheque number for cheque transactions. Cheque fields are also available on contra and journal vouchers.|
+    |**Cheque Date**|Enter the cheque date for cheque transactions.|
+    |**Line Narration**|Optionally provide narration for the journal line.|
+    |**Voucher Narration**|Optionally provide narration for the whole document.|
+
+Posting validates accounts against the voucher setup for the line's location and template type. Set up the voucher before entering transactions. Narration is copied to posted narration records when the journal is posted.
 
 ### Posted general ledger entries for each voucher
 
@@ -145,9 +148,9 @@ GST opening balances shall be created in Business Central. In Journal Voucher, o
 
 > [!NOTE]
 >
-- > Only positive amounts are allowed for GST Credit opening balances.
-- > Only negative amounts are allowed for GST Liability opening balances.
-- > System should record the values in GST Sub-Ledger.
+> - Use positive amounts for GST credit opening balances.
+> - Use negative amounts for GST liability opening balances.
+> - Posting records the values in the GST subledger.
 
 ## TDS and TCS payment to government
 
@@ -155,6 +158,14 @@ It's required to pay the TDS and TCS to government authorities through Bank/Cash
 
 > [!NOTE]
 > Details are available in respective TDS and TCS documents.
+
+## Print a posted voucher
+
+1. Open **General Ledger Entries**, and select an entry for the transaction.
+1. Choose **Print Voucher**.
+1. Review the report options, and preview or print the voucher.
+
+The report is filtered by the selected entry's transaction number, not just the individual ledger entry.
 
 ## Related information
 

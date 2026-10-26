@@ -1,14 +1,15 @@
 ---
-title: Electronic Invoicing [FatturaPA]
+title: Electronic Invoicing (FatturaPA) in the Italian Version
 description: Business Central enables you to export sales invoices and credit memos as electronic documents (FatturaPA) in compliance with Italian regulations.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.search.keywords: FatturaPA, electronic invoicing setup, Italian version
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 05/20/2025
+ms.date: 10/20/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Electronic invoicing (FatturaPA) in the Italian version
@@ -19,11 +20,11 @@ Electronic invoice in Italy is named as FatturaPA. **FatturaPA** stands for **Fa
 
 ## Set up electronic invoicing
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fattura Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Fattura Setup**, and then choose the related link.
 1. On the **Fattura Setup** page, on the **General** FastTab, in the **Self-Billing VAT Bus. Group** field, specify the **VAT Business Posting Group** that is used for VAT entries related to self-billing documents.
-1. In the **Company PA Code** field, specify the code to be reported in the **CodiceDestinetario XML** node for self-billing documents.
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fattura Document Type List**, and then choose the related link.  
-1. Create the different type of electronic documents using the following columns:
+1. In the **Company PA Code** field, specify the code to export in the `CodiceDestinatario` XML node for self-billing documents.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Fattura Document Type List**, and then choose the related link.  
+1. Create the document type codes using the following fields:
 
    |Field|Description|  
    |------------------------------------|---------------------------------------|
@@ -33,6 +34,11 @@ Electronic invoice in Italy is named as FatturaPA. **FatturaPA** stands for **Fa
    |**Credit Memo**|Specifies the document type that is the default for credit memos.|
    |**Self-Billing**|Specifies the document type that is the default for self-billing documents.|
    |**Prepayment**|Specifies the document type that is the default for prepayments.|
+
+> [!NOTE]
+> Each default flag can be selected on only one document type code. For example, clear **Invoice** on the existing default before selecting it on another code.
+
+These settings configure the FatturaPA document format. They don't, by themselves, establish a connection to SDI or submit a document.
 
 ## Related information
 

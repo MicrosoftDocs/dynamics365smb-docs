@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 07/17/2025
+ms.date: 10/26/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -151,7 +151,7 @@ However, to enable the new **E-Document** framework, you must configure the **Do
    | E-Mail Attachment | Specify what to attach to the email when emailing is enabled. Options include **PDF**, **E-Document**, and **PDF & E-Document**. | **E-Document** sends only the electronic file format. **PDF & E-Document** sends both the PDF report and the electronic file. |
    | Disk | Specify whether to save the document to disk. | Can be used together with e-document options. |
    | Electronic Document | Specify whether the document is sent as an e-document. Choose **Extended E-Document Service Flow** to use the E-Document framework. | You must choose **Extended E-Document Service Flow** to use the E-Document framework. |
-   | E-Document Workflow | Specify the e-document workflow that's used to send documents. This field is required when **Extended E-Document Service Flow** is selected and must be an enabled workflow. | Required field when using the E-Document framework. |
+   | E-Document Workflow | Specify the e-document workflow that's used to send documents. This field is required when **Extended E-Document Service Flow** is selected. The workflow must be enabled and have **Category** set to `EDOC`. | Required field when using the E-Document framework. |
 
    > [!NOTE]
    > When you select **E-Document** or **PDF & E-Document** in the **E-Mail Attachment** field, you must set the **Electronic Document** field to **Extended E-Document Service Flow** and specify an **E-Document Workflow**. The specified workflow must be enabled.
@@ -179,6 +179,8 @@ This feature is useful when you need to send documents electronically after they
 
 ## Set up the workflow
 
+E-document workflows must have the **Category** field set to `EDOC`. Unlike categories for approval workflows, this category is required for workflow selection in e-document setup.
+
 To set up a workflow for e-documents, follow these steps.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflow Templates**, and then select the related link.
@@ -191,6 +193,9 @@ To set up a workflow for e-documents, follow these steps.
 
 > [!NOTE]
 > You can create your own workflow for e-documents without using predefined workflow templates. If you have more services, you can use different workflows.
+
+> [!IMPORTANT]
+> Keep the **Category** set to `EDOC`, including for workflows that you create without a template. The **E-Document Workflow** field on the **Document Sending Profile** page and the **Workflow Code** field on the **E-Document** page only accept workflows in this category. If you move a workflow to another category, you can no longer select it in these fields, and a document sending profile that uses it fails validation.
 
 To use more workflows, configure them through the document sending profiles for different customers. When you set up the workflow, specify the document sending profile in the **On Condition** column on the **Workflow Steps** FastTab, because you can't have two services that use the same document sending profile in workflows.
 

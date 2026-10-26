@@ -1,14 +1,15 @@
 ---
-title: Electronic banking in Norway
+title: Electronic Banking in Norway in Business Central
 description: Learn about the Norwegian-specific enhancements in Business Central for managing electronic banking operations efficiently.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Norwegian enhancements, manage electronic banking, KID, Kunde ID
-ms.date: 05/12/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Electronic banking in Norway

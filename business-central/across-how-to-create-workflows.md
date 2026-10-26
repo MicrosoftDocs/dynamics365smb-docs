@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.date: 10/15/2025
+ms.date: 10/26/2026
 ms.search.keywords: workflows, create workflow, connect tasks, business process
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -47,6 +47,17 @@ A workflow is divided into three sections:
 
 The options for events and responses are system-defined. To add new options, you must develop an extension.
 
+## Organize workflows with categories
+
+Use the **Category** field on the **Workflow** page to group workflows so that you can find them more easily. Categories group workflows and templates on the **Workflows** and **Workflow Templates** pages. They also group workflows when you use the **Workflows** action for customers, items, and the **Payment Journal**.
+
+For approval workflows, categories don't control when a workflow starts, which responses it runs, or how approvals are processed. Workflow events, responses, and approval logic don't use the category. Changing the category of an approval workflow changes its grouping, not its approval behavior.
+
+> [!IMPORTANT]
+> E-document workflows are an exception. Keep their **Category** set to `EDOC`. The **E-Document Workflow** field on the **Document Sending Profile** page and the **Workflow Code** field on the **E-Document** page only accept workflows in this category. If you move an e-document workflow to another category, you can no longer select it in these fields, and a document sending profile that uses it fails validation.
+
+Learn more about e-document workflow setup in [Set up e-documents](finance-how-setup-edocuments.md#set-up-the-workflow).
+
 ## To create a workflow
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Workflows**, then choose the related link.  
@@ -54,7 +65,7 @@ The options for events and responses are system-defined. To add new options, you
 3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
 4. To create the workflow from a workflow template, on the **Workflows** page, choose the **New Workflow from Template** action. Learn more at [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
 5. In the **Description** field, describe the workflow.  
-6. In the **Category** field, specify which category the workflow belongs to.  
+6. In the **Category** field, select a category to group the workflow. Learn more about categories in [Organize workflows with categories](#organize-workflows-with-categories).
 7. In the **When Event** field, specify the event that must occur to start the workflow step.  
 
    When you choose the field, the **Workflow Events** page lists all available workflow events.  

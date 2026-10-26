@@ -1,21 +1,22 @@
 ---
-title: Report 340 [ES]
+title: Report 340 in the Spanish Version [ES]
 description: Provides an overview of Report 340, detailing how it captures information on invoices and taxes issued or received by your company within a specific period.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: report 340, reporting requirements for entrepreneurs, file format, File format restrictions, VAT percentages, EC percentages, Spanish version
-ms.date: 05/29/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Report 340 in the Spanish version
 
 The **Report 340** report contains information about invoices and taxes that were issued or received by your company in a given period, based on **VAT Date**. The report is generated in a format that is approved by the tax authorities. This report should be submitted in the company's monthly or quarterly liquidation period, depending on the size of the company. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. Learn more at the [Spanish Tax Agency](https://www.agenciatributaria.es/) website. If the number of operations exceeds 1,000,000, the report can be submitted electronically.  
 
-## Reporting requirements for entrepreneurs and small companies
+## Requirements for entrepreneurs and small companies
 
 The reporting requirements for entrepreneurs and small businesses are modified to support businesses that use the cash accounting criteria (CAC).  
 
@@ -50,7 +51,7 @@ The file format for the **Report 340** report includes one deponent record, and 
 
 The entries included in **Report 340** must have been posted in the period and fiscal year entered in the request form. The entries that are included in the report of payments in cash can be posted from the previous year.  
 
-### Businesses
+### Business entries
 
 **Report 340** must include the following entries:  
 
@@ -64,7 +65,7 @@ Entries in the **Sales Invoice Book** report must be included in the report as i
 
 Entries in the **Purchase Invoice book** report must be included in the report as received invoices.  
 
-### Small businesses
+### Small business entries
 
 For small businesses and entrepreneurs operating under the Cash Accounting Criteria (CAC), Report 340 reports invoices under the CAC. The invoice is marked with a "Z" for operation type. If the invoice is under the CAC, then the following details are reported:  
 

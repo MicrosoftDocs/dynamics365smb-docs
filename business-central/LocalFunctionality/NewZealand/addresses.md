@@ -1,14 +1,15 @@
 ---
-title: Addresses in New Zealand
+title: Addresses in the New Zealand Version
 description: Learn how to use the address bar coding system, where each address is assigned a unique Delivery Point Identifier (DPID) to improve postal efficiency.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: address bar coding, DPID, delivery point identifier, New Zealand version
-ms.date: 05/05/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Addresses in the New Zealand version

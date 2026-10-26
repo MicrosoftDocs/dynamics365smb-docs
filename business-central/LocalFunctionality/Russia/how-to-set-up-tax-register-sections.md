@@ -5,9 +5,10 @@ author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: tax register sections, tax register setup, Russia
 ms.date: 07/17/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up tax register sections
@@ -81,9 +82,9 @@ The following procedure shows how to remove a tax register from the register lis
 
 ## Related information
 
-- [Tax Accounting](Tax-Accounting.md)  
-- [Tax Registers](Tax-Registers.md)  
-- [Create Tax Registers](How-to-Create-Tax-Registers.md)  
-- [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  
+- [Tax Accounting](tax-accounting.md)  
+- [Tax Registers](tax-registers.md)  
+- [Create Tax Registers](how-to-create-tax-registers.md)  
+- [Collecting Profit Tax Information for Tax Declaration](collecting-profit-tax-information-for-tax-declaration.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

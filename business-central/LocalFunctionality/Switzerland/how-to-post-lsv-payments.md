@@ -1,15 +1,16 @@
 ---
-title: How to Post LSV+ payments
-description: Learn how to post payments after you receive Lastschrift Verfahren (LSV+) payment advice from the bank.
+title: Post LSV+ Payments in Switzerland
+description: Import an LSV+ collection into a cash receipt journal in the Swiss version of Business Central, review the bank's payment advice, and post payments.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: post LSV+ payments, LSV+ payment advice, Swiss version
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 04/29/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Post LSV+ payments
@@ -18,7 +19,7 @@ You can post payments after you receive Lastschrift Verfahren (LSV+) payment adv
 
 ## Steps to post LSV+ payments  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Cash Receipt Journals**, and then choose the related link.  
 1. Select the required journal, and then choose the **Edit Journal** action.  
 
     > [!NOTE]  

@@ -1,14 +1,15 @@
 ---
-title: Electronic payments – AEB N34.1 - [ES]
+title: Electronic Payments – AEB N34.1 in the Spanish Version [ES]
 description: Learn how to use electronic payments to pay vendors by exporting payments in the standard AEB N34.1 file format used by banks in Spain.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: AEB N34.1, electronic payments, vendor payments, Spanish version
-ms.date: 05/26/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Electronic payments – AEB N34.1 in the Spanish version

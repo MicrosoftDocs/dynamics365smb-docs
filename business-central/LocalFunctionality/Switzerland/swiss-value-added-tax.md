@@ -1,14 +1,15 @@
 ---
-title: Swiss Value Added [CH]
+title: Swiss Value Added Tax [CH]
 description: This article explains several enhancements that have been made to the Swiss VAT reporting features.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Swiss VAT reporting, VAT amounts, VAT exchange rates, currency exchange rates, Swiss version
-ms.date: 05/02/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Swiss value added tax
@@ -18,11 +19,11 @@ ms.reviewer: v-soumramani
 - Automatic adjustment of VAT amounts for invoices, according to payment discounts.  
 - Additional VAT exchange rates for invoices in foreign currencies.  
 
-Learn more in [Swiss VAT Information](https://www.estv.admin.ch/estv/en/home/value-added-tax.html), which provides information about Swiss VAT reporting and coding requirements. The information is available in French, German, and Italian, and English.  
+Learn more in [Swiss VAT information](https://www.estv.admin.ch/estv/en/home/value-added-tax.html), which provides information about Swiss VAT reporting and coding requirements. The information is available in French, German, Italian, and English.
 
 ## VAT amounts and VAT exchange rates
 
-According to local VAT laws, the VAT base amount for an invoice can be reduced by the payment discount if a discount is granted. To allow automatic VAT adjustment for a payment discount on an invoice, the **Adjust for Payment Discount** field is activated by default on the **General Ledger Setup** page. You can also activate this function in the VAT posting setup. For more information, see the General Ledger Setup table and the VAT Posting Setup table.  
+According to local VAT laws, the VAT base amount for an invoice can be reduced by the payment discount if a discount is granted. To allow automatic VAT adjustment for a payment discount, review **Adjust for Payment Disc.** on the **General Ledger Setup** page and **Adjust for Payment Discount** on the relevant **VAT Posting Setup** lines. Don't assume that these settings are enabled in every company.
 
 ### Currency exchange rates for VAT reporting
 

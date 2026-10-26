@@ -1,22 +1,22 @@
 ---
-title: Electronic invoicing in Spain
-description: Learn how to set up and work with the Spanish localization of the E-Document framework.
+title: Electronic Invoicing with Factura-E in Spain
+description: Learn how to configure Factura-E 3.2.2 in the Business Central E-Documents framework for Spain and export invoices and corrective credit memos.
 author: altotovi
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Spanish localization, Spanish local functionality, e-documents framework, e-documents, framework setup, local formats setup, e-invoices, credit memos corrections, Spanish version
-ms.search.form: 
-ms.date: 05/29/2025
+ms.date: 10/20/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Electronic invoicing in Spain
 
 This article provides information about how to set up and work with the Spanish localization of the E-Document framework.
 
-## E-Documents framework setup
+## E-documents framework setup
 
 Learn more in [Set up e-documents](../../finance-how-setup-edocuments.md) for information about how to set up the E-Documents framework.
 
@@ -24,7 +24,7 @@ Learn more in [Set up e-documents](../../finance-how-setup-edocuments.md) for in
 
 To set up the format for the E-Document service, follow these steps:  
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **E-Document Services**, and then select the related link.
 1. Select **New**, and on the **E-Document Services** page, on the **General** FastTab, in the **Document Format** field, choose **Factura-E 3.2.2**.  
 1. Configure the fields as described in [Set up e-documents](../../finance-how-setup-edocuments.md).
 1. Close the page.
@@ -39,20 +39,20 @@ Use the E-Documents framework in purchases as described in [Use e-documents in t
 > The following nodes are determined using the following methods:
 >
 > - **InvoiceIssueData**/**ExchangeRateDetails**/**ExchangeRateDate** is taken as the **Posting Date** of the document.
-> - **InvoiceHeader**/**InvoiceClass** is taken from the **SII Sales Invoice Type**. Currently, we support the following types: **OO = Original Invoice**, **OR = Corrective**, and **OC = Summary**.
-> - **InvoiceLine**/**UnitOfMeasure** tries to convert existing units of measure to the supported units of measures. If it can't, it skips the node because it isn't mandatory.
+> - **InvoiceHeader**/**InvoiceClass** comes from the document's **Invoice Type**, which uses the SII sales invoice types. F1, F2, and F3 produce `OO` for an original invoice. F4 produces `OC` for a summary. Other types produce `OR` for a corrective invoice.
+> - **InvoiceLine**/**UnitOfMeasure** is included when the unit of measure's **International Standard Code** matches a supported Factura-E unit. If there's no match, the optional node is omitted.
 
 ### Corrections with credit memos
 
-When you work with credit memos, before you post, on the **Credit Memo Details** FastTab add a reason code in the **Factura-E Reason Code** field.  
+When you work with credit memos, before you post, on the **Credit Memo Details** FastTab add a reason code in the **Factura-E Reason Code** field. Factura-E validation requires this code when you export a sales credit memo.
 
 > [!NOTE]
 > The **Corrective**/**TaxPeriod**/**StartDate**-**EndDate** nodes are determined using the following method:
 >
-> 1. Extract the posting date from the original document.
-> 1. Match the posting date with the **VAT Return Period**.
-> 1. If no match is found, match the posting date with the **Accounting Period**.
-> 1. If a match still isn't found, use the current year.
+> 1. Use the posted credit memo's **Posting Date**, not the original invoice's date.
+> 1. If a **VAT Return Period** contains that date, use its start and end dates.
+> 1. Otherwise, use the latest **Accounting Period** start on or before that date and the end of its fiscal year.
+> 1. If no accounting period is found, use the calendar year that contains the credit memo's posting date.
 
 ## Related information
 

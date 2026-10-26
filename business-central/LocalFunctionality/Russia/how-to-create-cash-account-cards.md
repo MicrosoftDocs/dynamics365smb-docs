@@ -4,10 +4,11 @@ description: Russian enhancements include cash accounts.
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: create cash account cards, cash account cards, cash accounts, Russia
-ms.date: 07/14/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Create cash account cards
@@ -22,8 +23,8 @@ Cash accounts are similar to bank accounts and are created identically. You can 
    | Field | Description |
    |:-|:-|
    | **Currency Code** | Specifies the currency code that is associated with the cash account. |
-   | **Debit Cash Order No. Series** | Specifies the serial numbers for outgoing cash orders. |
-   | **Credit Cash Order No. Series** | Specifies the serial numbers for ingoing cash orders. |
+   | **Debit Cash Order No. Series** | Specifies the number series for ingoing cash orders. |
+   | **Credit Cash Order No. Series** | Specifies the number series for outgoing cash orders. |
    | **Last Cash Report Page No.** | Specifies the last printed cash additional sheet report page number. |
    | **Bank Acc. Posting Group** | Specifies the bank account posting group that is associated with the cash account. |
    | **VAT % for Document** | Specifies the VAT percentage for calculating VAT in cash or bank documents. This VAT percentage isn't used in VAT posting calculations. |
@@ -32,7 +33,7 @@ Cash accounts are similar to bank accounts and are created identically. You can 
 
 ## Related information
 
-- [Petty Cash Management](Petty-Cash-Management.md)  
+- [Petty Cash Management](petty-cash-management.md)  
 - [Bank and Cash Management](bank-and-cash-management.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

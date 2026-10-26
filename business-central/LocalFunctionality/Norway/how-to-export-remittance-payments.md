@@ -1,15 +1,16 @@
 ---
-title: Export remittance payments [NO]
-description: Learn how to export remittance payment files to your computer using the export remittance payments process.
+title: Export Remittance Payments in the Norwegian Version [NO]
+description: Export Norwegian remittance payments to a bank file in Business Central, review the export report options, and transfer payments to the waiting journal.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: export remittance payment, remittance payment files, remittance payments process, transfer remittance payments, payment journal, waiting journal, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/13/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Export remittance payments in the Norwegian version
@@ -27,12 +28,12 @@ You export payments to a bank file by choosing the **Export Payments** button on
 
 The procedure for exporting payments using the **Remittance – Export** batch job is described in this article.  
 
-## Export remittance payments using the remittance - Export batch jobs  
+## Export remittance payments with the remittance export batch jobs
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.  
 1. Prepare to export the payments from the journal. Learn more in [Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 1. Choose the **Export Payments** action.  
-1. In the report page that opens, choose the **Options** FastTab, and fill in the fields as described in the following table.  
+1. In the **Remittance - export (bank)** report page, choose the **Options** FastTab, and fill in the fields as described in the following table. If the agreement uses **BBS**, the **Remittance - export (BBS)** report opens instead. It has **Remittance agreement code**, **Payment order note**, and **Filename** fields.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -47,7 +48,7 @@ The procedure for exporting payments using the **Remittance – Export** batch j
 
 The payment information is exported to the file that is set up in the remittance agreement.  
 
-The payment journal is deleted and the transactions are transferred to the waiting journal.  
+The exported journal lines are deleted from the payment journal and transferred to the waiting journal with a status of **Sent**. The journal batch isn't deleted. Submit the exported file through your bank's software to send the payments to the bank.
 
 ## Related information
 

@@ -4,10 +4,11 @@ description: Russian functionality lets you record and report expenses related t
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: fixed asset disposal, write-off, maintenance code, Russia
-ms.date: 07/14/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Account for the cost to dispose a fixed asset
@@ -22,7 +23,7 @@ The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Setup**, and then choose the related link.
 1. In the **Fixed Asset Setup** window, on the **General** FastTab, enter a maintenance code in the **On Disposal Maintenance Code** field.
-1. Choose the **OK** button.
+1. Close **Fixed Asset Setup**.
 
 ## Post expenses on a fixed asset disposal
 
@@ -36,18 +37,18 @@ The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA
    | **FA Posting Type** | Select **Maintenance** as the fixed asset posting type. |
    | **Maintenance Code** | Specifies the maintenance code that is entered in the **On Disposal Maintenance Code** field of the **Fixed Asset Setup** window. |
 
-1. Choose the **OK** button.
+1. Fill in the posting date, document number, expense amount, and balancing account as required for the journal, and then choose **Post**.
 
 ## Print a report with expenses on a fixed asset disposal
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Write off Act**, and then choose the related link.
-1. In the **FA Write off Act** window, enter the expenses that are posted for the fixed asset.
-1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
+1. Open the **FA Writeoff Act** for the fixed asset whose disposal expenses you posted.
+1. Generate **FA Write-off Act FA-4** or **FA Writeoff Act FA-4a**, as appropriate for the asset.
+1. Choose **OK** to export the report to Excel. Print the exported workbook from Excel.
 
    > [!NOTE]
    > If the expenses on the disposal of the fixed asset are made in advance, they're displayed on the second page of the report.
 
-After the fixed asset write-off report is posted, it becomes the posted fixed asset write-off report.
+Configure **FA-4 Template Code** or **FA-4a Template Code** in **Fixed Asset Setup** before you generate the corresponding report. Printing doesn't post the write-off act. Use **Post** on the act to record the write-off.
 
 ## Related information
 

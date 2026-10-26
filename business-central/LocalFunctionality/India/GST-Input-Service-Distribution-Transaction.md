@@ -5,22 +5,25 @@ author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, input service distributor
-ms.date: 06/23/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Transactions for input service distributor
 
-In this article, we're going to discuss the process and entries of input service distribution.
+This article explains purchase invoices and returns for an input service distributor location. The rates and amounts in the posting examples are illustrative.
 
 ## Purchase transaction with input service distribution location
 
-1. Choose the ![img.](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Purchase Invoices**, and then choose the related link.
 1. Select **Vendor** on **Purchase Invoice** header.
-1. **Location** code shouldn't be blank on **Purchase Invoice** header, and Input Service Distribution should be marked True on **Location** master.
-1. Select **G/L Account** on **Purchase Invoice** line for service transaction.
+1. Specify **Location Code** on the invoice header. The location's GST registration number must have **Input Service Distributor** selected, which updates **GST Input Service Distributor** on the location.
+1. Select **G/L Account** on the invoice line. Select a **GST Group Code** with **GST Group Type** set to **Service**, and check **HSN/SAC Code** and **GST Credit**.
+
+For a GST invoice with input service distribution selected, the purchase line validation blocks **Item**, **Fixed Asset**, and **Charge (Item)** lines. Post the service invoice before selecting its entries in a GST distribution document.
 
 - For example, service of INR 10000 purchased by Input Services Distributor where input tax credit is available, GST 18% (9% CGST and 9% SGST for Intra-State/Intra-Union Territory, 18% for Inter-State transaction) will be charged on the invoice amount.
 
@@ -96,9 +99,9 @@ In this article, we're going to discuss the process and entries of input service
 
 ## Purchase return transaction with input service distribution location
 
-1. Choose the ![img.](image/search.jpg)icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Purchase Return Orders** or **Purchase Credit Memos**, and then choose the related link.
 1. Select **Vendor** on **Purchase Return Order** or **Purchase Credit Memo** header
-1. **Location** code shouldn't be blank on **Purchase Return Order** or **Purchase Credit Memo** header, and Input Service Distribution should be marked True on **Location** master.
+1. Specify **Location Code** on the return order or credit memo header. Check that the location has **GST Input Service Distributor** selected.
 1. Select **G/L Account** on **Purchase Return Order** or **Purchase Credit Memo** line for service transaction.
 
 - For example, service of INR 10000 returned by Input Services Distributor where input tax credit is available, GST 18% (9% CGST and 9% SGST for Intra-State/Intra-Union Territory, 18% for Inter-State transaction) will be charged on credit memo.

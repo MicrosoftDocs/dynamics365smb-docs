@@ -1,13 +1,14 @@
 ---
-title: Mexico local functionality
-description: The following articles provide descriptions of the local functionality in the Mexican version of Business Central.
+title: Mexico Local Functionality in Business Central
+description: Learn about electronic invoicing, DIOT reports, electronic accounting, tax identification, and bank deposits in Business Central for Mexico.
 author: brentholtorf
-ms.topic: article
+ms.topic: overview
 ms.search.keywords: Mexico, local functionality, Mexican version
-ms.date: 06/30/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Mexico local functionality
@@ -21,7 +22,7 @@ The following articles describe local functionality that is unique to the Mexica
   - [Tax Identification Types for Mexico](tax-identification-types-for-mexico.md) **Available Now**
   - [VAT Recalculation](vat-recalculation.md) **Available Now**
 
-- Electronic invoicing (updated to CFDI 4.0)
+- Electronic invoicing: CFDI 4.0, Pagos 2.0, and Carta de Porte 3.1
   - [Electronic Invoicing](electronic-invoicing.md) **Available Now**
   - [Set Up PAC Web Services](how-to-set-up-pac-web-services.md) **Available Now**
   - [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md) **Available Now**
@@ -31,7 +32,7 @@ The following articles describe local functionality that is unique to the Mexica
 - General
   - [Electronic Accounting Regulations in Mexico](electronic-accounting-regulations.md) **Available Now**
   - [Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**
-  - [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**
+  - [Print troubleshooting reports for version 14 and earlier](how-to-print-troubleshooting-reports.md)
   - [Create Deposits](how-to-create-deposits.md) **Available Now**
 
 ## Future legislation requirements being investigated
@@ -43,6 +44,8 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 - [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+## Try Business Central
+
+[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

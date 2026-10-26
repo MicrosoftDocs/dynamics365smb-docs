@@ -1,6 +1,6 @@
 ---
-title: Print VAT Reports [GB]
-description: This article explains the various VAT reports and provides guidance on how to print each of them.
+title: Print VAT Reports in the United Kingdom
+description: Print day book VAT and customer or vendor ledger reports in the British version of Business Central, and review unposted sales and purchase documents.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
@@ -8,7 +8,7 @@ ms.search.keywords: VAT, VAT reports, print VAT reports
 ms.date: 02/19/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Print VAT reports in the British version
@@ -21,9 +21,9 @@ You can use the following reports for VAT reporting:
 - **Day Book Vendor Ledger Entry** – Displays the daily total for vendor ledger entries for a specific period.  
 - **Unposted Purchases** – Displays purchase documents that haven't been posted yet.  
 
-## Print the Day Book VAT Entry report  
+## Print the day book VAT entry report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Day Book VAT Entry**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Day Book VAT Entry**, and then choose the related link.
 1. On the **Options** FastTab, fill in the field as described in the following table.  
 
     |Field|Description|  
@@ -32,9 +32,9 @@ You can use the following reports for VAT reporting:
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## Print the Day Book Customer Ledger Entry report  
+## Print the day book customer ledger entry report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Day Book Cust. Ledger Entry**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Day Book Cust. Ledger Entry**, and then choose the related link.
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -44,9 +44,9 @@ You can use the following reports for VAT reporting:
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## Print the Unposted Sales report  
+## Print the unposted sales report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Unposted Sales**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Unposted Sales**, and then choose the related link.
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -56,9 +56,9 @@ You can use the following reports for VAT reporting:
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## Print the Day Book Vendor Ledger Entry report  
+## Print the day book vendor ledger entry report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Day Book Vendor Ledger Entry**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Day Book Vendor Ledger Entry**, and then choose the related link.
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -68,9 +68,9 @@ You can use the following reports for VAT reporting:
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## Print the Unposted Purchases report  
+## Print the unposted purchases report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Unposted Purchases**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Unposted Purchases**, and then choose the related link.
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

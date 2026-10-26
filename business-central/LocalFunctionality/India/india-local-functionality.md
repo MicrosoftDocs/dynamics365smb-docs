@@ -1,14 +1,15 @@
 ---
 title: India Local Functionality | Microsoft Docs
-description: Provides information about local functionality available for India.
+description: Explore India localization features in Business Central, including GST, TDS, TCS, subcontracting, fixed assets, gate entries, vouchers, and charge groups.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, Indian localization
-ms.date: 06/26/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # India local functionality
@@ -75,7 +76,7 @@ The following articles describe the local functionality in the Indian version of
   - [GST on Service Management](GST-Service-Management.md) **Available Now**
   - [GST Input Service Distribution Overview](GST-Input-Service-Distribution-Overview.md) **Available Now**
   - [GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md) **Available Now**
-   [GST Input Service Distribution Transaction](GST-Input-Service-Distribution-Transaction.md) **Available Now**
+  - [GST Input Service Distribution Transaction](GST-Input-Service-Distribution-Transaction.md) **Available Now**
 
 - TDS
   - [TDS Overview](TDS-Overview.md) **Available Now**
@@ -123,12 +124,15 @@ The following articles describe the local functionality in the Indian version of
 - Stale Cheque
   - [Stale Cheque](Stale-Check.md) **Available Now**
 
+- Charge groups
+  - [Charge assignment functionality](charge-assignment-functionality.md)
+
 - Upgrade from an India Version of Dynamics NAV 2016 to the Latest Version of Business Central
   - [Business Central IN Data Migration Toolkit](/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview) **Available Now**
 
 ## Future legislation requirements being investigated
 
-Currently, there are no upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+The feature list describes documented functionality, not a regulatory roadmap or a determination of current legal requirements. If you're aware of an upcoming regulatory feature, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## Related information
 

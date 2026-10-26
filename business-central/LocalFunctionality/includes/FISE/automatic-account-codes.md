@@ -1,10 +1,10 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/06/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents. These posting groups can be used throughout [!INCLUDE[prod_short](../../../includes/prod_short.md)] to trigger automatic postings and allocations across different accounts or dimensions.

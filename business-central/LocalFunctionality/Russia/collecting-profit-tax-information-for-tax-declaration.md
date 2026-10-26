@@ -5,9 +5,10 @@ author: DianaMalina
 ms.topic: concept-article
 ms.search.keywords: profit tax information, tax declaration, Russia
 ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Collecting profit tax information for tax declaration
@@ -26,9 +27,9 @@ In the tax accounting module, the following synthetic registers of the Profit Ta
 
 ## Related information
 
-- [Tax Accounting](Tax-Accounting.md)
-- [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)
-- [Create Tax Registers](How-to-Create-Tax-Registers.md)
-- [Tax Differences](Tax-Differences.md)
+- [Tax Accounting](tax-accounting.md)
+- [Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)
+- [Create Tax Registers](how-to-create-tax-registers.md)
+- [Tax Differences](tax-differences.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

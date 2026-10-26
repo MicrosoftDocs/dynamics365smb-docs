@@ -1,39 +1,39 @@
 ---
-title: Import Swiss Bank Clearing Numbers [CH]
-description: Learn how to import Swiss Bank Clearing Numbers using the Swiss version of Business Central. 
+title: Import Swiss Bank Clearing Numbers in the Swiss Version [CH]
+description: Import Swiss bank clearing numbers from CSV or legacy files in Business Central, review changed numbers, and update customer and vendor bank accounts.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: clearing numbers, bank clearing numbers, import bank clearing numbers, Swiss version
 ms.search.form: 11501
-ms.date: 04/29/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Import Swiss bank clearing numbers in the Swiss version
 
 Bank clearing numbers are unique numbers used to identify each bank agency or branch in the bank directory. This information is required for electronic payment. The file can be downloaded from the [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121) website.  
 
-You can import the BC Bank Master .txt file—the official Swiss bank clearing number file—to update the bank clearing number information in the bank directory. When you import the bank clearing number file, the data is imported to the **Bank Directory** table, and the existing data is overwritten. After importing the bank clearing number file, you can define the updated bank branch number for customers and vendors. For more information, see the Customer Bank Account table and the Vendor Bank Account table.  
+You can import a semicolon-delimited CSV V3 bank directory file with a header that starts with `IID`, or a legacy fixed-width bank directory file. The import updates the **Bank Directory** table. After importing the file, you can define the updated bank branch number for customers and clearing number for vendors.
 
 ## Import Swiss bank clearing numbers  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Directory**, and choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Bank Directory**, and choose the related link.  
 1. Choose the **Import Bank Directory** action.  
-1. Choose the **...** button to open the .txt bank clearing number file.
+1. In **File Name**, choose the assist-edit button and select the downloaded bank directory file.
 1. On the **Import Bank Directory** page, on the **Options** FastTab, select the **Automatically Update Clearing Numbers** field to update the bank clearing numbers automatically.  
-1. Choose the **Print** button or the **Preview** button to import the bank clearing numbers, and then, on the **Open** page, locate the file that you downloaded from the SIX Interbank Clearing website.
-1. Choose the **Open** button.  
+1. Choose **Print** or **Preview** to run the import and review the report.
 
-   If you choose the **Print** button, the contents of the file is printed. If you choose the **Preview** button, the **Bank Directory** table is updated and a report that has clearing numbers that have changed is displayed.  
+   Both actions update the bank directory. **Automatically Update Clearing Numbers** controls whether related account and payment setup records are also updated. If you leave this option off, use the report to review outdated clearing numbers and update the affected records manually.
 
 ## Define bank branch numbers for customer bank accounts
 
-The following procedure describes how to define bank branch numbers for customer bank accounts. The same steps also apply for defining bank branch numbers for vendor bank accounts.  
+The following procedure describes how to define bank branch numbers for customer bank accounts. For vendor bank accounts, use **Clearing No.** instead.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Customers**, and then choose the related link.  
 1. Select the customer for whom you want to create bank account information, and then choose the **Bank Accounts** action.  
 1. On the **Customer Bank Account List** page, select the required bank account, and then choose the **Edit** action.  
 1. On the **General** FastTab, in the **Bank Branch No.** field, select the number of the bank agency or branch.  

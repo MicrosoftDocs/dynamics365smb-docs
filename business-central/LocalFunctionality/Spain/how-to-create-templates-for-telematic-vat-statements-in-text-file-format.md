@@ -1,15 +1,16 @@
 ---
-title: Create Templates for Telematic VAT Statements in Text Format (ES)
+title: Create Templates for Telematic VAT Statements in Text File Format
 description: Learn how to create templates for telematic VAT statements in text file format for electronic submission in the Spanish version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: telematic VAT statements, VAT statement, text file format, VAT statement template, Spanish version
 ms.search.form: 10704, 10705
-ms.date: 05/26/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create templates for telematic VAT statements in text file format
@@ -20,7 +21,7 @@ Learn more at the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=2
 
 ## Create a template for VAT statements in text file format  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Statement**, and then choose the appropriate link.  
 1. Select the required VAT statement, and then choose the **Design txt file** action.  
 1. On the **Transference Format** page, fill in the fields as described in the following table.  
 

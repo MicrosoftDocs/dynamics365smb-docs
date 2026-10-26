@@ -4,10 +4,11 @@ description: The Russian version includes enhancements for managing human resour
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: human resources, Russia
-ms.date: 07/17/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Human resources

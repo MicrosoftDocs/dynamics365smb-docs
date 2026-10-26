@@ -1,14 +1,15 @@
 ---
-title: Italy local functionality
-description: The following outlined articles describe the local functionality in the Italian version of Business Central.
+title: Italy Local Functionality in Business Central
+description: Explore Italian functionality in Business Central for VAT, withholding tax, bank payments, fiscal inventory valuation, fixed assets, and subcontracting.
 author: brentholtorf
-ms.topic: article
+ms.topic: overview
 ms.devlang: al
 ms.search.keywords: Italian local functionality, Italian version, Italian localization
-ms.date: 12/30/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Italy local functionality
@@ -44,7 +45,7 @@ The following articles describe local functionality that is unique to the Italia
 
 - Inventory
   - [Set Up Initial Item Costs](how-to-set-up-initial-item-costs.md) **Available Now**
-  - [Fiscal Inventory Valuation](fiscal-inventory-valuation.MD) **Available Now**
+  - [Fiscal Inventory Valuation](fiscal-inventory-valuation.md) **Available Now**
   - [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md) **Available Now**
 
 - Fixed Assets
@@ -57,7 +58,7 @@ The following articles describe local functionality that is unique to the Italia
 - General
   - [Set Up Company Information](how-to-set-up-company-information.md) **Available Now**
   - [Italian Subcontracting](italian-subcontracting.md) **Deprecated, use [Subcontracting](../../production-how-to-subcontract-manufacturing.md)**
-  - [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
+  - [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Previous Intrastat journal functionality**
   - [Italian Electronic Invoicing](electronic-invoicing.md) **Available Now**
   - [Vendors from Fiscally Denied Countries or Regions](fiscal-deny-list.md) **Available Now**
 
@@ -73,6 +74,8 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
 - [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+## Try Business Central
+
+[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

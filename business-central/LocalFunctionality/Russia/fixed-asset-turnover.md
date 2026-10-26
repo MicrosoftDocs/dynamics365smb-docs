@@ -4,10 +4,11 @@ description: Provides information about the fixed asset turnover feature and rel
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: fixed asset turnover, turnover, compare depreciation book, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Fixed asset turnover
@@ -49,9 +50,9 @@ The **Fixed Asset G/L Turnover** report is similar to the **FA G/L Turnover** wi
 
 ## Related information
 
-- [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)
-- [Fixed Asset Charges](Fixed-Asset-Charges.md)
+- [Fixed Asset Locations and Employees](fixed-asset-locations-and-employees.md)
+- [Fixed Asset Charges](fixed-asset-charges.md)
 - [Fixed Assets](fixed-assets.md)
-- [Fixed Asset Inventory](Fixed-Asset-Inventory.md)
+- [Fixed Asset Inventory](fixed-asset-inventory.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

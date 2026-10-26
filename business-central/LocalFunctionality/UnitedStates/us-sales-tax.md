@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: local, sales tax, tax group
 ms.search.form: 315, 466, 467, 468, 469, 10015, 10016, 10101
-ms.date: 02/04/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Sales tax in the US version
@@ -20,9 +21,11 @@ If you set up new tax areas and tax jurisdictions, you must make sure that you f
 
 ## Tax details
 
-The **Tax Details** page shows different combinations of sales tax jurisdictions and sales tax groups to establish sales tax rates. For each tax jurisdiction, we recommend that you set up one tax group for normal sales tax. Also, set up another tax group for items or services that aren't taxed. Additionally, create a tax group for every type of item or service that is handled with a different sales tax rate in that jurisdiction. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
+The **Tax Details** page defines tax rates for combinations of tax jurisdictions, tax groups, tax types, and effective dates. For each tax jurisdiction, set up one tax group for normal sales tax. Also, set up another tax group for items or services that aren't taxed. Additionally, create a tax group for every type of item or service that is handled with a different sales tax rate in that jurisdiction. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-In the United States, when you sell to a customer at a location where you don't have a *situs*—or a legal location in that state—you don't collect sales tax. For locations in which you don't have a situs, ensure that both the **Tax Below Minimum** and **Tax Above Maximum** fields are 0.00.  
+For each tax detail, specify the **Tax Type** and **Effective Date**, and enter the applicable rate in **Tax Below Maximum**. Use **Tax Above Maximum** when a different rate applies above the maximum amount. For a nontaxable tax group, set the applicable rates to zero.
+
+Work with your tax advisor to determine where you must collect sales tax and which rates and effective dates apply. Don't assume that a sale is exempt because you don't have a physical location in the customer's state.
 
 > [!TIP]
 > If you have more than one company in the same database, you can use the **Copy Tax Setup** task to copy tax settings between them. The feature ensures that the tax information is identical throughout the companies.

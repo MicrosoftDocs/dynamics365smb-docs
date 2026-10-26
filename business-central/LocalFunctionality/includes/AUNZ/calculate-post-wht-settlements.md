@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 10/08/2026
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -10,7 +10,7 @@ ai-usage: ai-assisted
 
 ## Calculate and post withholding tax settlements 
 
-1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calc. and Post WHT Settlement**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../../includes/open-search.md)], enter **Calc. and Post WHT Settlement**, and then choose the related link.  
 1. Fill in the fields as described in the following table.  
 
     |Field|Description|  

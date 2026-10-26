@@ -1,39 +1,45 @@
 ---
 title: Swiss Electronic Payments
-description: Learn about electronic payment methods, ESR, LSV+, and SEPA credit transfers.
+description: Learn about QR-bills, ESR, LSV+, and SEPA credit transfers for collecting customer payments and paying vendors in the Swiss version of Business Central.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: electronic payment methods, ESR, LSV+, SEPA credit transfers, Swiss version
-ms.date: 04/30/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Swiss electronic payments
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports Swiss payment processes for collecting customer payments and paying vendors. With QR-bills, you can issue payment slips and import payment details from vendor bills.
 
 ## Electronic payment methods
 
-You can make electronic payments by using the following methods:  
+Swiss payment functionality includes the following methods:
 
-- Einzahlungsschein mit Referenznummer (ESR)  
+- QR-bills
+- Einzahlungsschein mit Referenznummer (ESR), which QR-bills replace
 - Lastschrift Verfahren (LSV+)  
 - SEPA credit transfers  
 
+## QR-bills
+
+Use QR-bills to include payment details and references with customer invoices. You can also scan or import decoded QR-code text to create purchase journal lines or update purchase documents. Learn more in [QR-bill management](ui-extensions-qr-bill-management.md).
+
 ## ESR
 
-ESR is an electronic debtor service that uses payment slips to collect money. It's the standard electronic payment system created by Swiss Post. You can print ESR payment slips as invoice attachments, calculate ESR reference numbers, and import ESR files that have payment information from banks. Learn more in [Swiss Electronic Payments Using ESR](how-to-print-esr-invoices.md). You can also make ESR and ESR+ payments using the bank's version of this payment method, which is named Bank-ESR (BESR).  
+ESR is an electronic debtor service that uses payment slips to collect money. The ESR articles describe the earlier payment-slip workflow, which QR-bills replace. They cover printing ESR payment slips, calculating ESR reference numbers, and importing ESR payment files. Learn more in [Swiss electronic payments using ESR](swiss-electronic-payments-using-esr.md). The bank's version of ESR and ESR+ is named Bank-ESR (BESR).
 
 ## LSV+
 
 LSV+ is a direct debit service that is used for processing payments. Companies can release customer payments directly from the customer's bank using direct debit. You can request and collect customer payments using direct debit in the LSV+ bank format, or in the DebitDirect PostFinance format. Learn more in [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md).  
 
-## SEPA Credit Transfers
+## SEPA credit transfers
 
-To export payments according to the SEPA standard, you must use a bank account. On those bank accounts, the **Bank Acc. Posting Group** field must specify the relevant general ledger account. This way, the related general ledger entries are consistent with the entries that are generated for the Swiss payment methods. Learn more in [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file), which provides information about how to export SEPA payments.  
+To export payments according to the SEPA standard, you must use a bank account. On those bank accounts, the **Bank Acc. Posting Group** field must specify the relevant general ledger account. This way, the related general ledger entries are consistent with the entries that are generated for the Swiss payment methods. Learn more in [Make payments with SEPA credit transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 ### <a name="iban-qr"></a>IBAN and QR-IBAN
 
@@ -53,6 +59,6 @@ The IBAN type on the recipient bank account must match the payment reference typ
 - [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)
 - [Switzerland Local Functionality](switzerland-local-functionality.md)
 - [Making Payments](../../payables-make-payments.md)
-- [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)
+- [Make payments with SEPA credit transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

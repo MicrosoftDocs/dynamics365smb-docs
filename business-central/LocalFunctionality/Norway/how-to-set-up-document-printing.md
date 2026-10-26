@@ -1,14 +1,15 @@
 ---
-title: How to Set Up Document Printing
-description: Learn how to print sales reports with giro specifications using various paper types and trays.
+title: Set Up Norwegian Sales Document Printing
+description: Learn about Norwegian sales document printing with giro and KID information, including the paper source and tray settings described for sales reports.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: print sales reports, giro specifications, paper types and trays, KID information, Norwegian version
-ms.date: 05/13/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up document printing
@@ -36,7 +37,7 @@ The Norwegian version of [!INCLUDE[prod_short](../../includes/prod_short.md)] co
 
 ## Set up paper trays  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Printer Selections**, and then choose the related link.  
 1. Select the report.  
 1. Choose the **Sales Document Paper Tray Setup** action.  
 1. Select a paper source from the **First Page - Paper Source** field.  

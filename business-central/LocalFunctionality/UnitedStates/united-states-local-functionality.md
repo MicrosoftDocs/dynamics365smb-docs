@@ -5,15 +5,16 @@ author: brentholtorf
 ms.topic: article
 ms.search.keywords: United States, local functionality
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 12/30/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # United States local functionality
 
-The following articles describe local functionality that's unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+The following articles describe tax reporting and other functionality for the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. Some banking features are shared with other country/region versions.
 
 ## Feature availability  
 
@@ -24,22 +25,23 @@ The following articles describe local functionality that's unique to the United 
   - [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**  
   - [IRS 1099 Forms Overview](introduction-to-the-irs-forms.md) **Available Now**
     - [IRS 1099 Forms Setup](set-up-use-irs1099-form-v24.md) **Available Now**
-    - [Using of IRS 1099 Forms](how-to-1099-use.md) **Available Now**
-    - [Submitting and Reporting of IRS 1099 Forms](how-to-1099-report.md) **Available Now**
+    - [Use IRS 1099 forms](how-to-1099-use.md) **Available Now**
+    - [Submit and report IRS 1099 forms](how-to-1099-report.md) **Available Now**
     - [Work with 1099 APIs](/dynamics365/business-central/dev-itpro/api-irs1099/irs1099-api) **Available Now**
   - 1099 Features deprecated from 27.0:
     - [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  
     - [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now - Planned for Obsoletion**  
   - [Set Up and Use the IRS 1096 Form](set-up-use-irs1096-form.md) **Available Now**
 
-- Banking & Payments
-  - [Create Deposits](how-to-create-deposits.md) **Available Now**  
-  - [Reconcile Bank Accounts](how-to-reconcile-bank-accounts.md) **Available Now**
+- Banking and payments
+  - [Create bank deposits](../../bank-create-bank-deposits.md) **Available Now**
+  - [Reconcile bank accounts](../../bank-how-reconcile-bank-accounts-separately.md) **Available Now**
+  - [Legacy US bank reconciliation](how-to-reconcile-bank-accounts.md) **Deprecated**
   - [Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**
 
 - General
-  - [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**  
-  - [E-Invoicing enable for the US market](../../finance-how-setup-edocuments-external.md) **Available Now**
+  - [Print troubleshooting reports](how-to-print-troubleshooting-reports.md) **Business Central version 14 and earlier**
+  - [Set up e-documents](../../finance-how-setup-edocuments-external.md) **Available Now**
 
 > [!NOTE]
 > If you have customers in Europe, you can't report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries/regions that you ship to.  

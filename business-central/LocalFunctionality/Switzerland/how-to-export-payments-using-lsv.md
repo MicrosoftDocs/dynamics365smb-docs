@@ -1,15 +1,16 @@
 ---
-title: Export Payments Using LSV [CH]
+title: Export Payments Using LSV in the Swiss Version [CH]
 description: Learn how to export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: LSV files, export LSV files, write LSV files, Swiss version
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 04/28/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Export payments using LSV in the Swiss version
@@ -18,7 +19,7 @@ You can export or write Lastschrift Verfahren (LSV+) files that contain payments
 
 ## Steps to export payments using LSV  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **LSV Journal List**, and then choose the related link.  
 1. On the **LSV Journal List** page, select the required LSV journal.  
 1. Choose the **Write LSV File** action.  
 1. On the **Write LSV File** page, on the **Options** FastTab, fill in the fields as described in the following table.  
@@ -28,7 +29,9 @@ You can export or write Lastschrift Verfahren (LSV+) files that contain payments
     |**No.**|Specify the LSV journal number that you want to export.|  
     |**Test**|Specify if you're sending test deliveries to your bank. The bank doesn't process test files.|  
 
-1. All related lines are transferred to the LSV journal. The LSV file is generated in the predetermined folder.  
+1. Choose **OK**, confirm that you want to write the file, and save the downloaded LSV file.
+
+For a production file, the journal status changes to **File Created**. A test export doesn't advance the status to **File Created**.
 
 ## Related information
 

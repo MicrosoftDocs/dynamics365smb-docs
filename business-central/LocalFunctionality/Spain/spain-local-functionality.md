@@ -1,13 +1,14 @@
 ---
-title: Spain local functionality [ES]
-description: Learn about the local functionality available in the Spanish version of Business Central.
+title: Spain Local Functionality in the Spanish Version [ES]
+description: Explore the Spanish functionality in Business Central for VAT reporting, electronic invoicing, banking, Cartera payments, and core finance.
 author: brentholtorf
-ms.topic: article
+ms.topic: overview
 ms.search.keywords: Spain local functionality, Spanish localization, Spanish version
-ms.date: 05/29/2026
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Spain local functionality in the Spanish version

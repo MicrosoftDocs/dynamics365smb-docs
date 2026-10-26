@@ -5,10 +5,11 @@ author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, service transfer
-ms.date: 06/24/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Service transfer
@@ -17,12 +18,20 @@ Service transfers between locations, branches, or divisions having different reg
 
 ## Create a service transfer order
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Service Transfer Order**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Service Transfer Order**, and then choose the related link.
 1. Select **Transfer-from Code** and **Transfer-to Code** on **Service Transfer Order** header. State Code and GST registration number shouldn't be blank on **Location** card.
 1. Select **Ship Control Account** and **Receive Control Account** on **Service Transfer Order** header.
-1. Select G/L Account for **Transfer From G/L Account No.** on **Shipment Line** and **Transfer To G/L Account No.** on **Receipt Line**. GST Group Code, HSN/SAC Code shouldn't be blank on **G/L Account** card.
+1. Select the G/L account in **Transfer From G/L Account No.** on **Shipment Lines** and **Transfer To G/L Account No.** on **Receive Lines**. The G/L account must have a **GST Group Code** and an **HSN/SAC Code**.
+1. Enter **Transfer Price** and **Shipment Date**. Choose **Preview Posting** to review the entries, and then choose **Post** and select **Ship**.
+1. Enter **Receipt Date**, and then choose **Post** and select **Receive**.
+
+Shipment requires the order to be **Open** and have a **Ship Control Account**. Receipt requires the order to be **Shipped** and have a **Receive Control Account**.
+
+The transfer-from and transfer-to locations must differ. The service transfer order rejects locations that have the same nonblank GST registration number or the same nonblank ARN.
 
 For example, service for INR 10000 is being transferred on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
+
+The rates illustrate the example. Use CGST and SGST for the intrastate case, or IGST for the interstate case—not all three components together.
 
 - GST Calculation on Service Transfer Order appears in the Fact Box as following:
 

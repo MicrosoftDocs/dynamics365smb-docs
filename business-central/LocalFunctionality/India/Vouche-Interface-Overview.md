@@ -1,14 +1,15 @@
 ---
-title: Overview on Voucher Interface
-description: Provides an overview of the Voucher Interface feature for Indian localization in Business Central.
+title: Overview of Voucher Interface
+description: Set up journal templates, batches, voucher directions, and permitted accounts for cash and bank transactions in Business Central for India.
 author: v-debapd
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, voucher interface
-ms.date: 06/30/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Overview of voucher interface
@@ -26,7 +27,7 @@ Feature required to provide the voucher interface as per Indian business require
 
 ## Set up voucher interface
 
-### The following setups are required for voucher interface
+The following setups are required for the voucher interface:
 
 - [General Journal Template](vouche-interface-overview.md#set-up-general-journal-template)
 - [General Journal Batch](vouche-interface-overview.md#set-up-general-journal-batch)
@@ -36,7 +37,7 @@ Feature required to provide the voucher interface as per Indian business require
 
 Journals are used for different types or groups of entries, such as purchases, payments, sales, and receivables. Each journal type is set up with its own journal template. Journal templates provide the basic journal structure where business users can specify default information for all batches created using the template.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal Template**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Journal Templates**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -60,8 +61,8 @@ Journal batches are created based on the journal templates. All journal batches 
 
 Batches are typically used to separate one user's entries from another. For example, User-A and User-B both work on general journal entries. User-A typically makes entries and posts them later when they're approved. To keep User-B's entries from becoming mixed with User-A's entries, separate batches can be assigned to the two users.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal Template**, and then choose the related link.
-1. general Journal Template > Navigate > Template > Batches
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Journal Templates**, and then choose the related link.
+1. Select the template, and choose **Batches**.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -82,27 +83,31 @@ Voucher setup is done to define the type of voucher, related transaction directi
 
 - Voucher setup on company information
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
-  1. Company Information > Voucher Setup
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Company Information**, and then choose the related link.
+  1. Choose **Voucher Setup**.
   1. Fill in the fields as described in the following table.
 
        |Field|Description|  
        |---------------------------------|---------------------------------------|
        |**Type**|Specifies the structure and functions of the journal page, that is, Cash Receipt Voucher, Bank Payment Voucher, etc.|
        |**Posting No. Series**|Identifies the document number used to assign to ledger entries posted from journal batches created using this type.|
-       |**Transaction Direction**|Specifies the direction of the transaction, if debit then select the type and account number in **Debit Account** else in **Credit Account**.|
+       |**Transaction Direction**|Choose **Debit**, **Credit**, or **Both**. Use **Debit Account** and **Credit Account** to define the permitted accounts for that direction.|
 
 - Voucher setup on location
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
-  1. Locations -> Process -> Voucher Setup
+  1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Locations**, and then choose the related link.
+  1. Open the relevant location, and choose **Voucher Setup**.
   1. Fill in the fields as described in the following table.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|
     |**Type**|Specifies the structure and functions of the journal page, that is, Cash Receipt Voucher, Bank Payment Voucher, etc.|
     |**Posting No. Series**|Identifies the document number used to assign to ledger entries posted from journal batches created using this type.|
-    |**Transaction Direction**|Specifies the direction of the transaction, if debit then select the type and account number in **Debit Account** else in **Credit Account**.|
+    |**Transaction Direction**|Choose **Debit**, **Credit**, or **Both**. Use **Debit Account** and **Credit Account** to define the permitted accounts for that direction.|
+
+For a **Contra Voucher**, **Transaction Direction** must be **Both**. **Debit Account** is enabled for **Debit** or **Both**; **Credit Account** is enabled for **Credit** or **Both**.
+
+Create voucher setup for the journal batch's **Location Code** and voucher type. Company-level setup uses a blank location code. The batch location determines which setup is used for posting number series and account validation; it isn't an automatic fallback to company setup for a nonblank location.
 
 ## Related information
 

@@ -1,27 +1,28 @@
 ---
-title: Import and Export Data in SIE [SE]
-description: You can import and export general ledger data according to the standard import export (SIE) format explained in this article.
+title: Import and Export SIE Data in Earlier Swedish Versions [SE]
+description: Find the earlier SIE import and export report procedures for the Swedish version of Business Central, with a link to the current extension.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: import, export, standard import export, SIE, general ledger data
 ms.search.form: 11212
-ms.date: 02/06/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Import and export data in Standard Import Export format in the Swedish version
+# Import and export SIE data in earlier Swedish versions
 
-You can import and export general ledger data according to the Standard Import Export (SIE) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. Learn more about Standard Import Export Group [here](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
+Earlier Swedish versions provide **SIE Import** and **SIE Export** reports for general ledger data. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. Learn more at the [Standard Import Export Group website](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).
 
 > [!NOTE]
-> As of version 22.1, the Swedish localization has been moved to the extensions, and this feature is delocalized. Because the localization is now created as an extension, you must enable the feature to use it. Learn more about Import and export data in the standard import export (SIE) format [here](how-to-use-sie-audit-files-export.md).
+> The procedures below describe the earlier reports. The current Standard Import Export (SIE) extension uses **Import SIE** for imports and **Audit File Export Documents** for exports. Learn about the current setup and procedures in [Import and export data in the standard import export (SIE) format](how-to-use-sie-audit-files-export.md).
 
 ## Import data in SIE format  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Import**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **SIE Import**, and then choose the related link.  
 1. Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -37,7 +38,7 @@ You can import and export general ledger data according to the Standard Import E
 
 ## Export data in SIE format  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Export**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **SIE Export**, and then choose the related link.  
 1. On the **G/L Account** FastTab, choose the appropriate filters.  
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 

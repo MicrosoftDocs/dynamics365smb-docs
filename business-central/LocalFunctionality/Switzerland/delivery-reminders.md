@@ -1,15 +1,16 @@
 ---
-title: Delivery Reminders [CH]
+title: Delivery Reminders in the Swiss Version [CH]
 description: Learn how to use delivery reminders to track overdue vendor shipments, and to remind vendors about overdue deliveries in the Swiss version. 
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: delivery reminders, Swiss version, overdue deliveries, vendor shipments, track vendor shipments, remind vendors
 ms.search.form: 5005270, 5005272
-ms.date: 04/28/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Delivery reminders in the Swiss version

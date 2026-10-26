@@ -4,10 +4,11 @@ description: Learn about VAT settlement in Russia, including setup, manual settl
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: VAT, VAT settlement, VAT allocation, VAT posting setup, VAT settlement worksheet, Russia
-ms.date: 07/21/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # VAT settlement
@@ -47,7 +48,7 @@ After posting the journal – formed transaction in the VAT register.
 
 It's possible to consider only part of the amount of the VAT and write off the other part.
 
-1. You must use the **VAT Allocation** function in the **VAT settlement Journal**.
+1. Choose **VAT Allocations** in the **VAT Settlement Journal**.
 1. Fill the fields:
 
    - Type of VAT, you can select whether this allocation of VAT, write-off, or charge.

@@ -1,27 +1,28 @@
 ---
-title: Setting up Goods and Service Tax
-description: Describes the essential steps for basic GST setup in Business Central for India.
+title: Set Up Goods and Services Tax
+description: Set up GST registration, tax groups, posting accounts, and transaction defaults for the India localization of Microsoft Dynamics 365 Business Central.
 author: v-debapd 
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST setup, GST rates setup, GST registration number setup, States setup, tax accounting period, GST groups, HSN/SAC, GST posting setup, GST company information, GST on location, GST general ledger setup, GST purchase payable setup, GST on source code setup, GST on vendor, GST on vendor order address, GST on customer, GST on customer ship to addresses, GST on service cost, GST on bank account
-ms.date: 06/19/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Set up goods and services tax
 
-Business Central has included GST Feature to Indian Localization.
+Business Central supports goods and services tax (GST) for India.
 
 **“Goods and Services Tax”** means any tax on supply of goods, or services or both except taxes on the supply of the alcoholic liquor for human consumption.
 
 It's a destination-based tax on consumption of goods and services. It's levied at all stages from manufacture up to final consumption with credit of taxes paid at previous stages available as set off. Briefly, only value addition is taxed and burden of tax is to be borne by the final consumer.
 
-GST is a comprehensive tax levy on manufacture, sale, and consumption of goods and services at a national/regional level. It has subsume indirect taxes like excise duty, countervailing duty and service tax, as also state levies like Value Added Tax, Octroi, Entry Tax, Luxury Tax, etc.
+GST replaced several indirect taxes, including excise duty, countervailing duty, service tax, and state levies such as value added tax.
 
-## Process
+## Plan the GST setup
 
 GST has two different types of setups, Automatic and Manual.
 
@@ -60,7 +61,8 @@ The following is the list of Manual Setups that are required to be configured ma
 
 Rate of GST is defined in combination of HSN/SAC, group, and states.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** > **GST** > **Action** > **Tax Rates**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Tax Types**, and then choose the related link.
+1. Select **GST**, and then choose **Tax Rates**.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -71,19 +73,22 @@ Rate of GST is defined in combination of HSN/SAC, group, and states.
     |**Location State Code**|Specifies the location state code.|
     |**Date From**|Specifies the starting date.|
     |**Date To**|Specifies the ending date.|
-    |**SGST %**|Specifies the SGST rate.|
-    |**CGST %**|Specifies the CGST rate.|
-    |**IGST %**|Specifies the IGST rate.|
-    |**Cess %**|Specifies the Cess rate.|
-    |**KFC %**|Specifies the KFC rate.|
+    |**SGST**|Specifies the SGST rate.|
+    |**CGST**|Specifies the CGST rate.|
+    |**IGST**|Specifies the IGST rate.|
+    |**KFloodCess**|Specifies the historical Kerala Flood Cess rate.|
     |**POS Out of India**|Specifies whether **POS out of India** functionality is activated or not.|
     |**POS as Vendor State**|Specifies whether **POS as Vendor State** functionality is activated or not.|
+
+Configure compensation cess separately under **GST CESS**. For more information, see [Set up GST compensation cess](GST-Cess-Basic-Setup.md).
 
 ## Set up GST registration number
 
 Registration Number under GST is called Goods and Service Tax Payer Identification Number (GSTIN). It's a state-wise PAN based 15-digit number.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Registration Nos.**, and then choose the related link.
+Before you add registration numbers, enter the company's **P.A.N. No.** on **Company Information**. Business Central checks the registration number's length, state prefix, and PAN against this setup.
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **GST Registration Nos.**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -91,7 +96,7 @@ Registration Number under GST is called Goods and Service Tax Payer Identificati
     |**State Code**|Specify the relevant State Code of the company for which registration number has been assigned.|  
     |**Code**|Enter the valid registration number provided by authority.|  
     |**Description**|Specify the description of the registration number.|
-    |**Input Service Distributor**|Specifies whether the registration belongs to an input service distributor nor not.|
+    |**Input Service Distributor**|Specifies whether the registration belongs to an input service distributor.|
 
 > [!TIP]
 >
@@ -101,24 +106,25 @@ Registration Number under GST is called Goods and Service Tax Payer Identificati
 
 Accounting Periods and sub-periods are created and closed here. Under GST, Fiscal year would be normally from 1st April to 31st March and Sub-Accounting Periods are months.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Accounting Period**, and then choose the related link.
-1. Fill in the fields as described in the following table. 
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Tax Accounting Periods**, and then choose the related link.
+1. Choose **Create Year**. Select the **Tax Type** for GST, enter the **Starting Date**, **No. of Periods**, and **Period Length**, and then confirm creation.
+1. Review the generated periods. The following table describes the period information and GST-specific dates.
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|
     |**Tax Type Code**|Specify the type as **GST** to identify the accounting period.|
     |**Starting Date**|Enter a date to specify the beginning of the period.|
      |**Ending Date**|Enter the last date to specify the end of the period.|
-     |**Financial Year**|Specify the Financial Year of the period.|
-     |**Quarter**|Specify the different quarters of the period.|
+     |**Financial Year**|Specifies the generated financial year of the period.|
+     |**Quarter**|Specifies the generated quarter of the period.|
      |**Credit Memo Locking Date**|Specify the last date by which credit memo can be entered for this period.|
-     |**Annual Return Period**|Specify the last date by which annual return for GST has to be filed for this period.|
+     |**Annual Return Filed Date**|Specifies the annual return date used for GST credit memo posting validation.|
 
 ## Set up states
 
 List of State codes to be defined with relevant GST registration number state code and eTDS/TCS state code.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **States**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **States**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -132,7 +138,7 @@ List of State codes to be defined with relevant GST registration number state co
 
 List of GST groups need to be defined. A group can be of two types **Goods** or **Service**.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Groups**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **GST Group**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -147,7 +153,7 @@ List of GST groups need to be defined. A group can be of two types **Goods** or 
 
 List of HSN/SAC codes against relevant GST groups need to be defined.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **HSN/SAC**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **HSN/SAC**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -161,7 +167,7 @@ List of HSN/SAC codes against relevant GST groups need to be defined.
 
 General Ledger Account for each component and state combination is defined state-wise.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Posting Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **GST Posting Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -171,22 +177,22 @@ General Ledger Account for each component and state combination is defined state
     |**Receivable Account**|Specifies the general ledger account for which GST receivable amount for this state and component is to be posted.|
     |**Payable Account**|Specifies the general ledger account for which GST Payable amount for this state and component is to be posted.|
     |**Receivable Account (Interim)**|Specifies the general ledger account for which GST receivable interim amount for this state and component is to be posted.|
-    |**Payable Account (Interim)**|Specifies the general ledger account for which GST payable interim amount for this state and component is to be posted.|
+    |**Payables Account (Interim)**|Specifies the general ledger account for which GST payable interim amount for this state and component is to be posted.|
     |**Expense Account**|Specifies the general ledger account for which GST expense amount for this state and component is to be posted.|
     |**Refund Account**|Specifies the general ledger account for which GST refund amount for this state and component is to be posted.|
-    |**Receivable Acc. Interim (Dist.)**|Specifies the general ledger account for which GST distribution for receivable interim amount for this state and component is to be posted.|
-    |**Receivable Acc (Dist.)**|Specifies the general ledger account for which GST distribution receivable amount for this state and component is to be posted.|
-    |**GST Credit Account**|Specifies the general ledger account for which GST credit amount for this state and component is to be posted.|
+    |**Receivable Acc. Interim (Dist)**|Specifies the general ledger account for which GST distribution for receivable interim amount for this state and component is to be posted.|
+    |**Receivable Acc. (Dist)**|Specifies the general ledger account for which GST distribution receivable amount for this state and component is to be posted.|
+    |**GST Credit Mismatch Account**|Specifies the general ledger account for GST credit mismatch postings for this state and component.|
     |**GST TDS Receivable Account**|Specifies the general ledger account for which GST TDS receivable amount for this state and component is to be posted.|
     |**GST TCS Receivable Account**|Specifies the general ledger account for which GST TCS receivable amount for this state and component is to be posted.|
     |**GST TCS Payable Account**|Specifies the general ledger account for which GST TCS payable amount for this state and component is to be posted.|
-    |**IGST Payable A/c (Import))**|Specifies the general ledger account for which GST import payable amount for this state and component is to be posted.|
+    |**IGST Payable A/c (Import)**|Specifies the general ledger account for which GST import payable amount for this state and component is to be posted.|
 
 ## Set up GST on company information
 
 Legal entity's GST registration number needs to be defined.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Company Information**, and then choose the related link.
 1. Fill in the fields as described in the following table. 
 
     |Field|Description|
@@ -203,7 +209,7 @@ Legal entity's GST registration number needs to be defined.
 
 GST registration number can be assigned to company for their multiple locations. These registration numbers can be defined in the location master.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Locations**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -220,7 +226,7 @@ GST registration number can be assigned to company for their multiple locations.
 
 ## Set up GST on general ledger setup
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **General Ledger Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -235,12 +241,12 @@ GST registration number can be assigned to company for their multiple locations.
 
 ## Set up GST on purchase and payable setup
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase & Payable Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Purchases & Payables Setup**, and then choose the related link.
 1. Enter exemption's start and end date for reverse charge for unregistered vendor in **RCM Exempt Start Date (Unreg)** and **RCM Exempt End Date (Unreg)**
 
 ## Set up GST on source code setup
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Source Code Setup**, and then choose the related link.
 1. Fill in source codes for different types of GST transactions. For **Credit Adjustment Journal**, **Settlement**, **Distribution**, **Liability Adjustment**, **Adjustment Journal**.
 
 ## Set up GST on masters
@@ -253,15 +259,17 @@ The following is the list of masters requiring setup of GST
 - Resource
 - Item Charge
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Items**, **Fixed Asset**, **Chart of Account** > **G/L Account**, **Resources**, and **Item Charges** and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Items**, **Fixed Assets**, **Chart of Accounts**, **Resources**, or **Item Charges**, and then choose the related link. Open the record to configure.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
     |---------------------------------|  ---------------------------------------| 
     |**GST Group Code**|Specifies the GST Group code that is relevant for the Item, Fixed asset, G/L Account, Resources, or Item Charges. GST Group codes created in GST Group Setup appear as dropdown.|
-    |**GST Credit**|Specifies that Input Tax Credit can be 'Availment' or 'Non-Availment'. This field by default displays 'Availment'. If credit can't be availed on any Item, Fixed Asset, G/L Account, Resources and Item Charge, then 'Non-Availment' shall be selected manually from the drop-down.|
-    |**HSN/SAC Code**|Specifies HSN/SAC Code for the GST Group selected in GST Group code field.
+    |**GST Credit**|Select **Availment** or **Non-Availment** to specify the input tax credit treatment for the record. Review the value rather than assuming a default.|
+    |**HSN/SAC Code**|Specifies HSN/SAC Code for the GST Group selected in GST Group code field.|
     |**Exempted**|This field is checked if the item is exempted from payment of tax.|
+
+Changing **GST Group Code** clears **HSN/SAC Code** on the master record. Select the HSN/SAC code again for the new group.
 
 1. For Price Inclusive of Tax setup go to **Items** > **Prices & Discount** > **Sales Price** and fill the following information
 
@@ -272,20 +280,20 @@ The following is the list of masters requiring setup of GST
 
 ## Set up GST on vendor
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Vendor**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Vendors**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
     |---------------------------------|  ---------------------------------------|
     |**GST Vendor Type**|Vendor type can be Registered, Composite, Unregistered, Import, Exempted, SEZ. It has to be selected from the dropdown.|
-    |**GST Registration No.**|Enter Registration No. of vendor. Registration number is mandatory if GST Vendor Type is Registered. Registration No. is of 15-digits.|
+    |**GST Registration No.**|Enter the vendor's 15-character GST registration number. For **Registered**, **Composite**, **SEZ**, and **Exempted** vendors, enter either a registration number or **ARN No.**|
     |**Associated Enterprises**|This field is activated only if GST Vendor Type is Import. This can be used for an import transaction of services or goods from sister concerns located outside India.|
     |**Aggregate Turnover**|Applicable only if GST Vendor Type is Unregistered. The available options are: More than 20 lakh, Less than 20 lakh. System allows interstate supply of services if Less than 20 lakh is selected in this field for unregistered vendor.|
     |**ARN No.**|Capture the Vendor ARN No. only when GST registration number isn't available.|
 
 ## Set up GST on vendor order address
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Vendor** > **Order Addresses**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Vendors**, and then choose the related link. Open the vendor, and then choose **Order Addresses**.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -296,20 +304,20 @@ The following is the list of masters requiring setup of GST
 
 ## Set up GST on customer
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Customers**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
     |---------------------------------|  ---------------------------------------| 
     |**GST Customer Type**|Customer type can be Registered, Unregistered, Export, Deemed Export, SEZ Unit, SEZ Development or Exempted. Select the appropriate Customer type from the dropdown.|
     |**GST Registration Type**|Registration type can be GSTIN (Goods and Services Tax Payer Identification Number), UID (Unique Identification Number), and GID (Government Identification Number). Appropriate type shall be selected from the dropdown.|
-    |**GST Registration No.**|Enter the 15-digit GST Registration Number. Registration number is mandatory if GST Customer Type is Registered or Deemed Export.|
+    |**GST Registration No.**|Enter the 15-character GST registration number. **Registered**, **Deemed Export**, **Exempted**, **SEZ Development**, and **SEZ Unit** customers require either a registration number or **ARN No.**|
     |**E-Commerce Operator**|This field is activated, if sales are done through an e-commerce operator.|
     |**ARN No.**|Capture the Customer ARN No. only when GST registration number isn't available.|
 
 ## Set up GST on customer ship to addresses
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Customers** > **Ship to Addresses**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Customers**, and then choose the related link. Open the customer, and then choose **Ship-to Addresses**.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -320,19 +328,19 @@ The following is the list of masters requiring setup of GST
 
 ## Set up GST on service cost
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Service Cost**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Service Costs**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
     |---------------------------------|  ---------------------------------------| 
     |**GST Group Code**|Specifies the GST Group code relevant for the service cost. GST Group codes created in GST Group Setup appear as dropdown.|
-    |**GST Credit**|Check if the GST Credit can be Availment or Non-Availment. By default this field displays Availment.|
+    |**GST Credit**|Select this checkbox if GST credit is to be availed for the service cost. Unlike the corresponding field on items, this field is a checkbox.|
     |**HSN/SAC Code**|Specifies HSN/SAC Code for the GST Group selected in GST Group code field.| 
     |**Exempted**|Check if the item is exempted from payment of tax.|
 
 ## Set up GST on bank account
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Account**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Bank Accounts**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|

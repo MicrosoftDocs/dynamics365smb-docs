@@ -1,15 +1,16 @@
 ---
-title: Set up SII for VAT reporting [ES]
+title: Set Up SII for VAT Reporting in the Spanish Version [ES]
 description: Set up and submit documents with SII in Business Central, and resolve incorrect or pending statuses from posted documents in Spain.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: SII, set up SII, enable SII module, VAT reporting, job batch submission thresholds, VAT exemptions, ignore invoice lines, Mark As Accepted, posted documents, Spanish version
 ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
-ms.date: 09/18/2026
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up SII for VAT reporting in the Spanish version
@@ -18,7 +19,7 @@ ms.reviewer: v-soumramani
 
 ## Enable the SII module
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SII Setup**, and then select the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **SII Setup**, and then select the related link.  
 1. On the **General** FastTab, select the **Enabled** field.  
 
    The **Enabled** field is automatically selected if you import a certificate in the **Certificate Code** field on the **Certificate** FastTab.  
@@ -32,16 +33,19 @@ ms.reviewer: v-soumramani
 1. Configure the other fields, import a valid certificate, and specify the relevant endpoints with the target URLs. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 1. Choose the **Tax Period** option for reporting. Default value is **Monthly**, but user can choose **Quarterly** if needed. If user uses **Quarterly**, it shows in the XML message.  
 
+> [!NOTE]
+> SII and embedded VERI\*FACTU can't be enabled at the same time. If embedded VERI\*FACTU is enabled, Business Central asks you to disable it when you enable SII. If you decline, SII remains disabled. Learn more in [Enable embedded VERI\*FACTU mode](enable-real-time-invoice-reporting.md).
+
 ## Job batch submission thresholds
 
 If you want to use automatic batch submission, the **Job Batch Submission Threshold** field specifies the threshold number of documents with the status *Pending* that triggers an automatic batch submission.
 
 > [!IMPORTANT]
-> Both the **Enabled** and the **Enabled Batch submission** fields must be selected for the threshold value to have effect.  
+> Both **Enabled** and **Enable Batch Submission** must be selected for the threshold value to have effect.
 
 If the threshold is set to zero (0), documents are submitted when posted.
 
-If the threshold is set to one or more, documents are automatically submitted in batches. When the number of pending entries exceeds the threshold value, all pending entries are automatically submitted.  
+If the threshold is set to one or more, documents are automatically submitted in batches. When the number of pending entries reaches or exceeds the threshold value, the automatic submission job processes the pending, automatically created documents.
 
 You can always manually submit documents that have a *Pending* status by selecting **Retry** or **Retry All** on the **SII History** page.
 
@@ -63,7 +67,7 @@ The **Mark As Accepted** action is available when SII is enabled and **Show Adva
 
 If a customer's NIF number isn't yet registered in the AEAT database, document submissions are rejected. In this case, you can select the **Not in AEAT** option and resubmit the document.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Customers**, and then choose the related link.  
 1. Choose the relevant customer to open the **Customer Card**.
 1. Select the **Not in AEAT** field.
 
@@ -87,11 +91,11 @@ If you decide to close some entries for **VAT Posting Setup**, the system automa
 > [!NOTE]
 > You can generate the **VAT Declaration** on the **VAT Statements** page. Select **Preview** on the **VAT Statements** page to view the result for the option **Include VAT Entries** = **Open**. This option also works for **No Taxable Entries**. Printing of the **VAT Statement** report also supports the **Include VAT Entries** option for the same values (**Open**, **Closed**, and **Open and Closed**) for both **VAT Entries** and **No Taxable Entries**.
 
-## Ignoring invoice lines for SII
+## Ignore invoice lines for SII
 
 In some situations, the user must use a line in the invoice, but not report it to SII. To make a setup for this requirement, follow these steps:
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Posting Setup**, and then select the related link.
 1. Open the **VAT Posting Setup Card** where you want to configure this exemption and choose the **Ignore in SII** field for this posting group.  
 
 After configuring **VAT Posting Setup**, and after creating sales or purchase invoice, you can select **Item** and/or **G/L Account** with the certain **VAT Posting Setup**, and the line with this setup is ignored when you report it to SII. This line exists in the **VAT Entry**, but this entry has *Yes* in the **Ignore in SII** field.  

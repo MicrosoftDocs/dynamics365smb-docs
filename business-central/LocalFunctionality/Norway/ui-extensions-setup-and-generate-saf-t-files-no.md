@@ -1,20 +1,21 @@
 ---
-title: Setup and generate SAF-T files
-description: Use the SAF-T extension to set up and generate SAF-T files for the Norwegian authorities in Business Central.
-author: sorenfriisalexandersen
-ms.topic: install-set-up-deploy
+title: Set Up and Export Norwegian SAF-T Files
+description: Set up Norwegian SAF-T mappings in Business Central, choose an export version, and generate XML or ZIP files to provide to the Norwegian tax authorities.
+author: jswymer
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: extension, saf-t, authorities, export, compliance
 ms.search.form: 10670, 10671, 10672, 10673, 10674, 10675, 10677, 10678, 10679, 10680, 10685, 10686, 10687, 10688, 10689, 10690, 10691, 
-ms.date: 05/16/2025
-ms.author: soalex
+ms.date: 10/20/2026
+ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Standard audit files - tax
+# Set up and export Norwegian SAF-T files
 
-Starting in January, 2020, companies in Norway must report financial data and provide a set of Standard Audit Files - Tax (SAF-T) to the Norwegian authorities upon request. This extension makes it easy to set up, generate, and export Standard Audit Files - Tax in [!INCLUDE[prod_short](../../includes/prod_short.md)]. The exported SAF-T files are automatically compressed as a .zip file ready to be uploaded by the user on the website of Skatteetaten, the Norwegian tax authorities.  
+<a name="standard-audit-files---tax"></a>Starting in January, 2020, companies in Norway must report financial data and provide a set of Standard Audit Files - Tax (SAF-T) to the Norwegian authorities upon request. This extension makes it easy to set up, generate, and export Standard Audit Files - Tax in [!INCLUDE[prod_short](../../includes/prod_short.md)]. By default, the exported SAF-T files are automatically compressed as a ZIP file ready for you to upload on the website of Skatteetaten, the Norwegian tax authorities.
 
 > [!NOTE]
 > Starting with version 25.3, [!INCLUDE[prod_short](../../includes/prod_short.md)] in Norway supports SAF-T versions 1.20 and 1.30, as the newer version is required in 2025. Earlier versions only support the SAF-T 1.20 format.
@@ -27,75 +28,92 @@ This extension provides the following capabilities:
 * Setup and mapping of chart of accounts to SAF-T standard accounts.
 * Mapping VAT setup to SAF-T VAT codes.
 * Control to which extent dimensions are exported in SAF-T files.
-* Export SAF-T files, either directly or by using the Job Queue. Using Job Queue lets you schedule the export to occur during quiet hours, which is useful for potentially large datasets.
+* Export SAF-T files, either directly or by using parallel background jobs. Background processing lets you schedule the export to occur during quiet hours, which is useful for potentially large datasets.
 
-## Setup of the Norwegian SAF-T extension
+## Set up the Norwegian SAF-T extension
 
-Set up the SAF-T extension through Assisted Setup, which provides an easy, step-by-step guide for get started with SAF-T in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If needed, you can run the guide several times until you finish the setup.
+Set up the SAF-T extension through **Assisted Setup**, which provides a step-by-step guide to get started with SAF-T in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If needed, you can run the guide several times until you finish the setup.
 
-1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Assisted Setup**.  
+On the **SAF-T Setup** page, use **Default Version** to choose **1.20** or **1.30** for new exports. You can also change **Version** on each **SAF-T Export**. The assisted setup guide configures mappings, not the export version.
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Assisted Setup**, and then choose **Assisted Setup**.
 1. Choose **Set up SAF-T**.
 1. The first page in the setup guide explains what you are about to set up. Choose **Next**.
-1. Choose the SAF-T version you want to use for reporting.  
-1. In the in **Mapping Type** field, choose the type of Chart of Accounts you want to SAF-T accounts, and then choose **Next**.
-
-   > [!Note]
-   > If you are using the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)], there are some additional steps.
-   > 1. Download and import source files with SAF-T accounts. Download the SAF-T mapping files from [Skatteetaten's repo on Github](https://github.com/Skatteetaten/saf-t).
-   > 1. Choose **Import The Source Files For Mapping**.
-   > 1. Import all required files. If you are setting up the mapping for income statement import files, make sure to import mapping codes for all records with **Income Statement** in the **Source Type** column.
-   > 1. For each imported file, choose **Update mapping codes from file**.
-
-1. To define the period for the first SAF-T reporting, choose **Accounting Period**, confirm the data range, and then choose **Next**.
-
-   Typically, this is done for a specific accounting period, but you can also define a date range without specifying an accounting period.
-
-1. To map your chart of accounts to the SAF-T accounts, choose **Open setup to define G/L account mappings**. Lines where the G/L Account No. is marked with green indicates that here are transactions on the account within the date range specified in the previous step, in which case it must be mapped. Other G/L accounts can be skipped. When finished, close the **SAF-T Mapping Setup Card**, and then choose **Next** in the setup guide.
-1. To map the VAT Posting Setup to standard sales and purchase SAF-T tax codes, choose **Open setup to define VAT Posting Setup Mapping**. When finished close the **SAF-T VAT Posting Setup card**, and then choose **Next** in the setup guide.
-1. Norwegian authorities recommend that you export dimensions for financial transactions. However, in some situations you may not want to export dimensions - for example if you have internal dimensions that do provide value to auditors. This step lets you open the Dimensions list and choose which dimensions to export. Choose the value in the **Export to SAF-T** field, and then choose **Close**.
+1. In the **Mapping Type** field, choose **Two Digit Standard Account**, **Four Digit Standard Account**, or **Income Statement**, and then choose **Next**. If the source files aren't loaded, import them as described in [Import mapping source files on-premises](#import-mapping-source-files-on-premises) before choosing **Next**.
+1. To define the period for the first SAF-T reporting, choose **Accounting Period** to fill in the fiscal year's starting and ending dates, or enter **Starting Date** and **Ending Date** for a custom range. Confirm the dates, and then choose **Next**.
+1. To map your chart of accounts to the SAF-T accounts, choose **Open the setup page to define G/L account mappings.** Map every G/L account listed. For accounts without an applicable mapping, use **NA**. For version **1.30**, both **Category No.** and **No.** must be filled in. When finished, close **SAF-T Mapping Setup**, and then choose **Next** in the setup guide.
+1. To map the VAT posting setup to standard sales and purchase SAF-T tax codes, choose **Open the setup page to define a VAT Posting Setup mapping.** Assign **Sales VAT Reporting Code** and **Purchase VAT Reporting Code** as relevant to each combination. When finished, close **SAF-T VAT Posting Setup**, and then choose **Next** in the setup guide.
+1. Choose **Open the setup page to define which dimensions to export to SAF-T.** On the **Dimensions** page, select **Export to SAF-T** for dimensions to include, and clear it for dimensions to exclude. Close the page, and then choose **Next**.
 1. To specify the employee who is the SAF-T contact in your company, choose the employee in the **Employee No.** field. This is useful when Norwegian authorities have questions about the SAF-T files. When finished, choose **Next**.
 1. The setup of SAF-T is now finished. Choose **Finish**.
 
-> [!Note]
+> [!NOTE]
+> Both dates must be filled in. **Accounting Period** lets you select the start of a fiscal year, which must have an ending date. Entering either date manually changes **Range Type** to **Date Range**.
+
+Green **G/L Account No.** values identify accounts with a nonzero net change for the range. **Include Incoming Balance** also considers earlier postings for balance sheet accounts. This highlighting doesn't limit which accounts require mapping. For standard-account mapping, you can use **Match chart of accounts** to match existing account numbers. If your chart of accounts is empty, **Create chart of accounts** can create it from the selected standard accounts.
+
+Norwegian authorities recommend that you export dimensions for financial transactions. However, you might want to exclude internal dimensions that don't provide value to auditors. Only dimensions with **Export to SAF-T** selected are included. Export checks still require a **SAF-T Analysis Type** for every dimension, including excluded dimensions. The employee selected as the contact must also be specified before export.
+
+> [!NOTE]
 > The mappings are tied to the date range you specified. You can create additional mappings for other periods without changing the mapping you already created. You can also copy mappings from previously made setups. This is to ensure that you can report SAF-T for different periods while managing changes in your chart of accounts.
 
-## Exporting SAF-T files
+### Import mapping source files on-premises
+
+For [!INCLUDE[prod_short](../../includes/prod_short.md)] on-premises, load the mapping sources before continuing from the **Mapping Type** step. **Next** is available only when both the selected account-mapping sources and the standard tax code source are loaded.
+
+1. Download the SAF-T mapping files from [Skatteetaten's repository on GitHub](https://github.com/Skatteetaten/saf-t).
+1. In the guide, choose **Import the source files for mapping** to open **SAF-T Mapping Source**.
+1. Select each required source record, choose **Update**, and import the matching XML file. Include the **Standard Tax Code** source and the sources for your mapping type. For **Income Statement**, import files for all records with that **Source Type**.
+1. Close the page, and then choose **Next** in the guide.
+
+## Export SAF-T files
 
 To export SAF-T files from [!INCLUDE[prod_short](../../includes/prod_short.md)], you must first create and set up a **SAF-T Export** to define the mapping range. For example, you can define a mapping and export the entire year of 2019, and another mapping for just the month of April 2019 if the authorities ask you to provide this data specifically.
 
 ### Create an export of SAF-T files
 
-1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SAF-T Exports**, and then choose **SAF-T Exports**.  
-1. On the **SAF-T Exports** page, choose **Create**.
-1. On the **SAF-T Export** page, choose the SAF-T version and in the **Mapping Range Code** field, choose the mapping range for which to define an export.
-1. To start the SAF-T export, do one of the following actions:
-   * To export immediately, choose **Start**.
-   * To schedule the export to be handled by the jobs in the Job Queue, choose **Parallel Processing**. Exporting G/L entries can take time. To speed up the process, consider specifying how many jobs to run in parallel.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **SAF-T Exports**, and then choose **SAF-T Exports**.
+1. On the **SAF-T Exports** page, choose **New**.
+1. On the **SAF-T Export** page, choose **Version** and **Mapping Range Code**. The mapping range fills in **Starting Date** and **Ending Date**. Adjust these dates if needed for the requested export.
+1. Choose how to process the export:
+   * To export immediately in the current session, clear **Parallel Processing**.
+   * To use background jobs, select **Parallel Processing**, specify **Max No. Of Jobs**, and set **Earliest Start Date/Time**.
+1. Choose **Start**.
 1. To check the status of the SAF-T file generation, look at the **Lines** section in the lower part of this page.
-1. When all files are generated, choose **Download file** to download a .zip file that contains the SAF-T files. This file is ready to be uploaded to Skatteetaten.
+1. When all files are generated, choose **Download Files** on the **SAF-T Export** card. On **SAF-T Export Files**, select each file and choose **Download File** to download the ZIP files for upload to Skatteetaten.
+
+> [!NOTE]
+> **Parallel Processing** is available only when the task scheduler can create tasks. It is selected by default when tasks are available. If you leave **Earliest Start Date/Time** blank, starting the export prompts you to use the current date and time.
+
+For on-premises exports to a folder, retrieve the generated files from **Folder Path** instead.
 
 ### SAF-T files and data quality
 
 You can configure [!INCLUDE[prod_short](../../includes/prod_short.md)] with extra data quality validation controls that help make sure that your SAF-T files can be validated by Skatteetaten. For example, SAF-T files can only be validated when certain information exists on relevant records in [!INCLUDE[prod_short](../../includes/prod_short.md)]. To help ensure data quality for SAF-T, you can enable more proactive controls on the **Data Quality** FastTab on the **SAF-T Setup** page. Additionally, on the **SAF-T Export** card page, use the **Data check** action to check the data quality before you export the file.
 
+Starting an export also checks G/L mappings, dimension analysis types, sales and purchase SAF-T tax codes, source-code mappings, and the company contact. On **Source Codes**, each source code needs a **SAF-T Source Code**. Resolve any errors shown before exporting.
+
 > [!NOTE]
-> SAF-T exports by default generate one file with master data, and separate files for each of the months included in the selected mapping range. Consider the amount of transactions in the selected period and adjust the **Max No. of Jobs** accordingly on the SAF-T Export page. As a general recommendation, start with three parallel jobs to allow parallel export and still leave resources for other [!INCLUDE[prod_short](../../includes/prod_short.md)] users. Additionally, for on-premises, you can specify a network share in the **Folder path** to generate the SAF-T files directly on a network share instead of using the database. For online versions of [!INCLUDE[prod_short](../../includes/prod_short.md)] this is always the case. If you specify the **Folder Name**, the generated .zip file is located here.
+> By default, SAF-T exports generate one XML file with master data and separate XML files for months that contain G/L entries. Consider the number of transactions in the export period and adjust **Max No. Of Jobs** accordingly. As a general recommendation, start with three parallel jobs, which is the default, to leave resources for other [!INCLUDE[prod_short](../../includes/prod_short.md)] users.
+
+For [!INCLUDE[prod_short](../../includes/prod_short.md)] online, XML data and generated ZIP files are stored in the database. **Folder Path** isn't available. On-premises, you can use the database or specify an empty folder accessible to the server, such as a network share, in **Folder Path**. When you specify a folder, the XML files and generated ZIP files are saved there.
+
 > [!IMPORTANT]
 > Due to the nature of exporting transactions, exporting SAF-T files impacts performance of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 There are a couple of things you can do to improve performance:
 
-* **Split by Date** option
+* **Split By Date**:
 
-   This approach collects general ledger entries by date, not by month as is the default with better performance as a result.
+   This option groups general ledger entries by day instead of by month, which can improve performance. It clears **Split By Month**. Only days that contain G/L entries get an export line. If you clear both options, the entries are exported in one XML file for the full range, in addition to the master data file.
 
-* **XML** option
+* **Disable Zip File Generation**:
 
-   For [!INCLUDE[prod_short](../../includes/prod_short.md)] on-premises, you have an option to not generate .ZIP files from the export. This exports the raw XML files and is only possible where there's a **Folder Path** to export to. The user can then compress the files manually, which saves server performance. SAF-T files can be large and compressing them to a .ZIP file is a costly operation for the server.
+   For [!INCLUDE[prod_short](../../includes/prod_short.md)] on-premises, select this option to export raw XML without generating ZIP files. It requires **Folder Path** and clears **Create Multiple Zip Files**. You can compress the XML files manually, which saves server resources. SAF-T files can be large, and compression can affect server performance.
 
-* **Create Multiple Zip Files** option
+* **Create Multiple Zip Files**:
 
-   Finally, for both online and on-premises, for large exports with many transactions, you can also use the option to create multiple .ZIP files. This is useful if individual files per month are large, or the count of files per date is too big. Use this option when the single large ZIP file doesn't validate on the authorities' web site due to its size, for example. Using this feature splits up the export into multiple ZIP files, up to 10 in alignment with the requirements that are stated in the general SAF-T documentation. The **SAF-T Export File** page is always opened when using the **Download File** action. Here you can see how many files were generated and download them one by one.  
+   For both online and on-premises, this option distributes the XML files across up to 10 ZIP files. This can help when a single ZIP file is too large for the authorities' website. The split is based on the number of XML files, not their size. It doesn't split an individual XML file or guarantee a maximum ZIP file size. The option clears **Disable Zip File Generation**. On the **SAF-T Export** card, **Download Files** opens **SAF-T Export Files**, where you download files one by one. For folder exports on-premises, retrieve the ZIP files from **Folder Path**.
 
 ## Related information
 

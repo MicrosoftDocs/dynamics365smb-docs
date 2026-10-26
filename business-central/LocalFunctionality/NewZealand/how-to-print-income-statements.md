@@ -1,14 +1,15 @@
 ---
-title: Print Income Statements [NZ]
-description: Learn how to print the company's annual income statement in a report in the New Zealand version of Business Central.
+title: Print Income Statements in the New Zealand Version [NZ]
+description: Learn how to print income statements, compare current and previous year figures, and select rounding and currency options in New Zealand.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: income statement, income statement report, annual income statement, print income statement, New Zealand version
-ms.date: 05/06/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Print income statements in the New Zealand version
@@ -17,7 +18,7 @@ You can use the **Income Statement** report to view the company's annual income 
 
 ## Steps to print the income statement report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement**, and then choose the relevant link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Income Statement**, and then choose the relevant link.  
 1. On the **Income Statement** page > **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

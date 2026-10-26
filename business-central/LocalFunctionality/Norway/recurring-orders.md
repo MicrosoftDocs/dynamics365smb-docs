@@ -1,14 +1,15 @@
 ---
-title: Recurring orders
-description: Create blanket order templates with recurring orders to create sales orders at defined date intervals.
+title: Norwegian Recurring Sales Orders
+description: Use Norwegian recurring order groups and blanket sales orders in Business Central to generate sales orders at defined intervals through periodic processing.
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: create blanket order, recurring orders, blanket sales order, blanket order templates, Norwegian version
-ms.date: 05/16/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Recurring orders

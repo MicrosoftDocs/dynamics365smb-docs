@@ -1,14 +1,15 @@
 ---
-title: Determine Sales Price by Cost Plus Percentage (NZ)
-description: Learn how to use the cost plus percentage function to set a sales price based on the cost of an item.
+title: Set Sales Prices by Cost-Plus Percentage in New Zealand
+description: Learn how to calculate item sales prices from unit costs and cost-plus percentages, or use a discount amount instead, in the New Zealand version.
 author: brentholtorf    
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: cost plus percentage, set sales price, sales price calculation, sales price by cost, New Zealand version
-ms.date: 05/05/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Determine sales price by cost plus percentage in the New Zealand version

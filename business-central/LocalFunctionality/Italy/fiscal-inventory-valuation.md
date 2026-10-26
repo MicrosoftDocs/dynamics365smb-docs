@@ -1,20 +1,21 @@
 ---
-title: Fiscal Inventory Valuation
-description: Submit an annual report detailing the monetary value of inventory items for the fiscal year.
+title: Fiscal Inventory Valuation in Italy
+description: Learn how to calculate fiscal inventory costs in the Italian version of Business Central, review cost history, and finalize year-end valuations.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: submit annual report, monetary value, inventory items, fiscal inventory valuation
 ms.search.form: 12117, 12188, 12128, 12130, 12137
-ms.date: 05/20/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Fiscal inventory valuation
 
-You must submit an annual report that shows the monetary value of inventory items for the fiscal year. According to the Italian requirements for fiscal inventory valuation, you must calculate the following cost types:  
+You must submit an annual report that shows the monetary value of inventory items for the fiscal year. The Italian functionality supports the following cost types:
 
 - Year average cost  
 - Weighted average cost  
@@ -22,24 +23,26 @@ You must submit an annual report that shows the monetary value of inventory item
 - Last in, First Out (LIFO) cost  
 - Discrete LIFO cost  
 
-## Fiscal inventory valuation in [!INCLUDE[prod_short](../../includes/prod_short.md)]
+## Set up fiscal inventory valuation
 
-Initially, you must set up the fiscal inventory valuation for all cost types on the **Item Costing Setup** page and the **Item Card** page. Learn more in [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md).  
+Set up component valuation on **Item Costing Setup**, and select the required **Inventory Valuation** method on each item card. Learn more in [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md).
 
-When you set up [!INCLUDE[prod_short](../../includes/prod_short.md)], you must enter the inventory item ledger entries for the first year in order to calculate the item’s valuation. You can do this in the **Before Start Item Cost** page.  
+If you need historical quantities and costs from before you started using [!INCLUDE[prod_short](../../includes/prod_short.md)], enter them on **Before Start Item Cost**. These records provide input to fiscal cost calculations; they don't create item ledger entries.
 
-To calculate discrete LIFO cost, you must set up information on the **Item Card** page and the **Subcontracting Prices** page.
+For discrete LIFO valuation, configure the **Inventory Valuation** and **Lifo Category** fields on the item card.
 
 > [!NOTE]  
 > The discrete LIFO cost can only be calculated for items for which the **Inventory Valuation** field is set to **Discrete LIFO** on the **Item Card** page.
 
-After you set up the discrete LIFO cost calculation, you can post sales and purchase transactions based on year-end costs.  
+Fiscal valuation is calculated from the recorded inventory and production data. It doesn't replace the normal posting of sales and purchase transactions.
 
 ## End of year
 
 At the end of the fiscal year, you can run the **Calculate End Year Costs** batch job to calculate the fiscal inventory value of each inventory item according to the required valuation methods. The results are shown in the **Item Cost History List** page. Then, you can run the **Fiscal Inventory Valuation** report and the **LIFO Valuation** report to show the inventory valuation.  
 
-For year-end operations, such as calculating the profit and loss during a fiscal year, there's a definitive period and a non-definitive period. If the **Competence Year** field on the **Item Cost History List** page is equal to the fiscal year end date, it's a definitive period, and you can't recalculate data for a definitive period. If the definitive data differs from the fiscal year end date, then it's a non-definitive period. There should be data for at least one non-definitive period to perform calculations or partial calculations.
+In **Calculate End Year Costs**, enter the **Reference Date** for the calculation. Select **Definitive** only for final year-end costs. A definitive run requires the reference date to be the fiscal year-end date.
+
+The **Competence Year** in the cost history records the reference date. The **Definitive** field, not the date alone, identifies final results. A new calculation replaces nondefinitive cost history for the fiscal year. Existing definitive results prevent recalculation for the same or an earlier reference date.
 
 ## Related information
 

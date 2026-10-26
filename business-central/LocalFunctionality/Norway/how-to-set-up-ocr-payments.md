@@ -1,15 +1,16 @@
 ---
-title: Set up OCR payments [NO]
+title: Set Up Norwegian OCR Customer Payments
 description: Learn how to process electronic payments using predefined payment IDs in the Norwegian version, known as optical character recognition (OCR) payments.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: OCR payments setup, OCR payment, Norwegian version
 ms.search.form: 15000100
-ms.date: 05/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up OCR payments
@@ -18,7 +19,7 @@ You can process electronic payments from customers according to a predefined pay
 
 ## Steps to set up OCR payments
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OCR Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **OCR Setup**, and then choose the related link.  
 1. On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -41,7 +42,7 @@ You can process electronic payments from customers according to a predefined pay
 1. Choose the **OK** button.  
 
 > [!NOTE]  
-> OCR payments can only be posted to cash receipt journals when the **Force Doc. Balance** field is cleared in the **Gen. Journal Template** table. Lear more in [Gen. Journal Template](/business-central/ui-work-general-journals.md).  
+> OCR payments can only be posted to cash receipt journals when the **Force Doc. Balance** field is cleared in the **Gen. Journal Template** table. Learn more in [Work with general journals](../../ui-work-general-journals.md).
 
 ## Related information
 

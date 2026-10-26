@@ -4,17 +4,16 @@ description: Learn how to manage VAT reinstatement in Business Central for Russi
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: VAT reinstatement, Russia VAT, VAT journal, VAT posting setup, Russia
-ms.date: 07/22/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # VAT reinstatement
 
-In certain cases, VAT payers are required to reinstate VAT.
-
-It's known that the organizations acquiring fixed assets, goods, works, services (further – goods), have the right to accept to deduction of the input VAT on them at accomplishment of all conditions for deduction. But if later circumstances change and it becomes clear that there's no right to deduct VAT, the tax has to be reinstated. In other words, the reinstatement VAT is previously deducted VAT, which in a certain amount must be returned back to the budget.
+Use VAT reinstatement to record the reversal of previously deducted VAT. Confirm whether reinstatement applies to your transactions under current tax requirements before you post.
 
 ## VAT accounting group settings  
 
@@ -44,8 +43,8 @@ To reinstate previously accepted for deduction of VAT used **VAT Reinstatement W
     The field **Realized VAT Amount** reflects the amount of VAT on the document, which was deducted and which can be reinstate.
 
 1. In this worksheet, select the lines that you want to reinstate and select the "Copy lines to Journal" button. Before that, you need to set a filter by date by right-clicking on the name of any column. Add filter "Filter totals by".
-1. You can reinstate the entire transaction (for the entire amount of VAT sold), you can set a factor (for example, 0.5) to reinstate part of the amount.
-1. The selected line is transferred to the VAT Reinstatement journal for posting.
+1. In **Copy to VAT Reinst. Journal**, set **VAT Amount Factor** to specify the portion to reinstate. For example, use **0.5** for half of the amount. Review **Posting Date** and **Posting Description**, and then choose **OK**.
+1. Review and post the generated lines in the **VAT Reinstatement Journal**.
 
 ## Related information
 

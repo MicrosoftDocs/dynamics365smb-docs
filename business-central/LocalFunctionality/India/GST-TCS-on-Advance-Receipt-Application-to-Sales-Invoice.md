@@ -5,23 +5,25 @@ author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TCS, advance customer payments
-ms.date: 06/25/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST and TCS on advance customer payments
 
-Assessee is liable for paying GST and TCS at the time of receiving advance payment from customer.
+You can calculate GST and income-tax TCS on a customer advance and apply the advance to a sales invoice. The following example uses a service advance. Confirm the applicable rates, thresholds, and TCS base before posting.
 
-### Mandatory fields in cash or bank receipt voucher
+## Enter an advance in a cash or bank receipt voucher
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 1. Select **Customer** in **Account Type** field and select relevant customer code in **Account No.** field.
 1. Select **G/L Account** for cash or **Bank Account** for bank in **Bal. Account Type** field, and select relevant cash or bank account in **Bal. Account No.** field.
 1. Select relevant TCS Nature of Collection, GST Group Code, HSN/SAC Code, Location Code on journal line.
 1. **GST on Advance Payment** should be marked true.  
+1. Set **Document Type** to **Payment** and use a GST group with **GST Group Type** set to **Service**.
 
  For example, service amount is INR 20000 and customer made an advance payment of INR 10,000, 18% IGST and 1% TCS has to be charged on the advance payment.
 
@@ -46,15 +48,15 @@ Assessee is liable for paying GST and TCS at the time of receiving advance payme
 
 Later sales invoice for services is issued to the customer for INR 20,000, 18% IGST and 1% TCS has to be charged on the invoice amount, and the advance receipt from customer is applied with the invoice.
 
-### Mandatory fields on sales invoice
+## Apply the advance to a sales invoice
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Sales Invoices**, and then choose the related link.
 1. Select **Customer** on **Sales Invoice** header.
 1. Select **G/L Account** for service or **Item** for goods on **Sales Invoice** line.
 1. Select relevant TCS Nature of Collection on **Sales Invoice** line.
 1. GST Group Code, HSN/SAC Code, GST Credit should have a value in **G/L Account** or **Item** card.
 1. **Location Code** field shouldn't be blank on both **Sales Invoice** header and line.
-1. Select the advance payment in **Applies to Doc. No.** field on **Sales Invoice** header.
+1. Select the advance payment in **Applies-to Doc. No.** on the sales invoice header. Set **TCS Nature of Collection** before selecting the advance; changing the nature of collection afterward requires clearing the application.
 
 - GST calculation appears in the Fact Box as following:
 
@@ -64,7 +66,7 @@ Later sales invoice for services is issued to the customer for INR 20,000, 18% I
     |**IGST**|2075 = [3,600 (20,000 * 18%)]-[1525 (8,474 * 18%)]|  
     |**TCS Amount**|136 = [236 (23,600 * 1%)] - [100 (10,000 * 1%)] |
 
-GST and TCS are calculated on the remaining amount, that is, Invoice Amount - Advance Payment Amount. If advance payment isn't applied with the sales invoice, then GST and TCS ware calculated on the whole invoice amount.
+The example shows the invoice tax together with the adjustment for tax on the applied advance. If the advance isn't applied, no advance tax adjustment is made.
 
 - On posting of sales invoice, GL Entries are as following:
 

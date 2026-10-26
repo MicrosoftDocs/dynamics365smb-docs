@@ -1,18 +1,22 @@
 ---
-title: Import ESR Payments [CH]
+title: Import ESR Payments in the Swiss Version [CH]
 description: Learn how to electronically import ESR files from your bank, which include details about paid invoices. You can also receive this file by mail.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: import ESR files, paid invoices, ESR payments, ESR invoice data, Swiss version
 ms.search.form: 3010531, 3010532
-ms.date: 04/28/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Import ESR payments in the Swiss version
+
+> [!NOTE]
+> This article describes the earlier ESR payment-slip workflow. Learn about QR-bills in [QR-bill management](ui-extensions-qr-bill-management.md).
 
 After you receive payment from a customer, you receive a file that contains information about paid invoices. You can receive this file from your bank electronically, or by mail.  
 
@@ -20,7 +24,7 @@ You can import the Einzahlungsschein mit Referenznummer (ESR) invoice data from 
 
 ## Steps to import ESR payments  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Cash Receipt Journals**, and then choose the related link.  
 1. In the **Batch Name** field, select the required journal batch.  
 
     > [!NOTE]  

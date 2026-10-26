@@ -5,10 +5,11 @@ author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, purchase process, registered vendor, 
-ms.date: 06/23/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Purchase from registered vendors
@@ -25,12 +26,17 @@ If exempted goods and services are purchased from registered vendor, then no GST
 
 Process for purchase from a registered vendor has been explained in this document.
 
+> [!NOTE]
+> The tax rates and amounts below are illustrative. Actual tax calculation depends on the configured GST groups, rates, jurisdiction, and credit treatment.
+
 ## Create a purchase invoice
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link. 
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Purchase Invoices**, and then choose the related link.
 1. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Registered**.
-1. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Invoice** line. GST Group Code, HSN/SAC Code, and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** should be selected on the Item or G/L Account. 
+1. Select **Item** for goods, **G/L Account** for services, **Fixed Asset**, or **Charge (Item)** on the invoice line. Check **GST Group Code** and **HSN/SAC Code**. Set **GST Credit** to **Availment** or **Non-Availment**, as appropriate.
 1. GST Credit option can be changed on invoice line.
+
+The GST group supplies **GST Group Type** and, for a registered vendor, **GST Reverse Charge**. Check these values before posting a reverse charge invoice. The line's GST details initially come from the selected item, G/L account, fixed asset, or item charge. **GST Credit** is a separate choice from the classification codes.
 
 For example, invoice is issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
 

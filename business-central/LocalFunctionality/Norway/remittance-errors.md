@@ -1,15 +1,16 @@
 ---
-title: Remittance errors [NO]
-description: Learn about remittance errors can occur during data transfer or after payments are sent to the bank. These errors are displayed on the Return Error page.
+title: Remittance Errors in the Norwegian Version [NO]
+description: Learn about remittance errors that can occur during data transfer or after payments are sent to the bank, and view them on the Return Error page.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: remittance errors, remittance error types, transfer errors, rejection, payment errors, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/15/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Remittance errors in the Norwegian version
@@ -38,7 +39,7 @@ If there's an error or information is missing with a payment that was sent to th
 > [!NOTE]  
 > Rejections vary from bank to bank. Contact your bank regarding how to handle rejection of payments.  
 
-If there's a rejection, the error code from the bank and an explanation is displayed for the payment on the **Waiting Journal** page. You have to handle the rejection based how the remittance agreement was set up. Learn more in [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md).  
+If there's a rejection, the error code from the bank and an explanation are displayed for the payment on the **Waiting Journal** page. You have to handle the rejection based on how the remittance agreement was set up. Learn more in [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md).
 
 ## Related information
 

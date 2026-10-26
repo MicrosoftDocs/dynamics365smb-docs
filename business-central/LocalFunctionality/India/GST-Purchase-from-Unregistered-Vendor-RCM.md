@@ -5,10 +5,11 @@ author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, reverse charge, unregistered vendor, create purchase invoice
-ms.date: 06/23/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Purchase of goods from an unregistered vendor (reverse charge)
@@ -17,12 +18,17 @@ Persons whose aggregate turnover in a financial year doesn't exceed 40 lakh rupe
 
 Purchase process for unregistered vendor has been explained in this document.
 
+> [!NOTE]
+> The turnover threshold and statutory background above describe the original scenario. Confirm current registration and reverse charge requirements separately. The rates and amounts below are examples.
+
 ## Create a purchase invoice
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link. 
+1. [!INCLUDE [open-search](../../includes/open-search.md)] **Purchase Invoices**, and then choose the related link.
 1. Select Vendor on **Purchase Invoice** header, GST vendor type should be **Unregistered**.
-1. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Invoice** line. GST Group Code, HSN/SAC Code, and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** should be selected on the Item or G/L Account. 
+1. Select **Item** for goods, **G/L Account** for services, **Fixed Asset**, or **Charge (Item)** on the invoice line. Check **GST Group Code** and **HSN/SAC Code**. Set **GST Credit** to **Availment** or **Non-Availment**, as appropriate.
 1. GST Credit option can be changed on invoice line.
+
+For **Unregistered** vendors, the purchase line validation sets **GST Reverse Charge**. Tax calculation also depends on the GST group, exemptions, and the configured unregistered reverse charge exemption period in **Purchases & Payables Setup**. Selecting the vendor type alone doesn't establish whether a transaction is taxable.
 
 For example, invoice is issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
 
@@ -71,7 +77,7 @@ For example, invoice is issued for INR 10,000 on which 18% GST (9% CGST and 9% S
     |**CGST Receivable Account (Interim)**|900|
     |**SGST Payable Account (Interim)**|-900|
     |**CGST Payable Account (Interim)**|-900|
-    |**Vendor**|10000|
+    |**Vendor**|-10000|
 
 - GL Entries for Intra-State purchase of fixed asset from an unregistered vendor where input tax credit isn't available (reverse charge) are as following:
 
@@ -80,7 +86,7 @@ For example, invoice is issued for INR 10,000 on which 18% GST (9% CGST and 9% S
     |**Fixed Asset Increases during the Year**|11800|
     |**SGST Payable Account (Interim)**|-900|
     |**CGST Payable Account (Interim)**|-900|
-    |**Vendor**|10000|
+    |**Vendor**|-10000|
 
 - GL Entries for Item Charge in case of Intra-State purchase of fixed asset from an unregistered vendor where input tax credit is available (reverse charge) are as following:
 
@@ -91,16 +97,16 @@ For example, invoice is issued for INR 10,000 on which 18% GST (9% CGST and 9% S
     |**CGST Receivable Account (Interim)**|900|
     |**SGST Payable Account (Interim)**|-900|
     |**CGST Payable Account (Interim)**|-900|
-    |**Vendor**|10000|
+    |**Vendor**|-10000|
 
 - GL Entries for Item Charge in case of Intra-State purchase of fixed asset from an unregistered vendor where input tax credit isn't available (reverse charge) are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|
-    |**Purchase Account**|10000|
+    |**Purchase Account**|11800|
     |**SGST Payable Account (Interim)**|-900|
     |**CGST Payable Account (Interim)**|-900|
-    |**Vendor**|10000|
+    |**Vendor**|-10000|
 
 ## Related information
 

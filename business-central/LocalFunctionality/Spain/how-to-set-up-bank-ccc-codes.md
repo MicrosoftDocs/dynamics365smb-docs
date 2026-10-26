@@ -1,14 +1,15 @@
 ---
-title: Set up bank CCC codes [ES]
+title: Set Up Bank CCC Codes in the Spanish Version [ES]
 description: The Código Cuenta Cliente (CCC) is a unique account code assigned by Spanish banks to customer accounts, appearing on documents, such as checks and statements.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: CCC, unique account code, set up ccc, enter ccc, set up bank codes, bank codes, Spanish version
-ms.date: 05/28/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up bank CCC codes in the Spanish version
@@ -26,7 +27,7 @@ The following procedure describes how to set up bank CCC codes for your company.
 
 ## Enter CCC codes  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Company Information**, and then choose the related link.  
 1. On the **Payments** FastTab, fill in the fields as described in the following table.  
 
     |Field           |Position |Description                            |  
@@ -40,7 +41,7 @@ The following procedure describes how to set up bank CCC codes for existing cust
 
 ## Set up bank CCC codes for a customer bank account  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Bank Account Card**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Customer Bank Account Card**, and then choose the related link.  
 1. On the **Transfer** FastTab, enter information into the relevant CCC fields.  
 
     > [!NOTE]  

@@ -1,14 +1,15 @@
 ---
-title: Calculate and post withholding tax settlements (NZ)
-description: Learn how to calculate and post the withholding tax (WHT) in the New Zealand version of Business Central.
+title: Calculate and Post WHT Settlements in New Zealand
+description: Learn how to calculate withholding tax (WHT) settlements, close unsettled entries, and post amounts to a settlement account in New Zealand.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: withholding tax settlements, WHT settlements, withholding tax, post withholding tax, calculate withholding tax, New Zealand version
-ms.date: 05/05/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Calculate and post withholding tax settlements in the New Zealand version

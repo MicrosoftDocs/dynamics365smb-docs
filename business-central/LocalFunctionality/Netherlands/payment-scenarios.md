@@ -1,19 +1,20 @@
 ---
-title: Payment scenarios
-description: Based on a sales or purchase invoice or credit memo, you can generate and export a proposal for processing by the bank.
+title: Dutch Telebanking Payment Scenarios
+description: Compare Dutch telebanking payment scenarios for local and foreign currencies, from posted invoices and credit memos to proposals and bank payment files.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: sales invoice, purchase invoice, proposal, Dutch version, Netherlands
-ms.date: 03/20/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Payment scenarios
 
-Based on a sales or purchase invoice or credit memo, a proposal can be generated and exported in order to  process it by our bank.  
+Use telebanking to create a proposal from a posted sales or purchase invoice or credit memo. Process the proposal into a payment history, export it, and submit the payment file to your bank.
 
 Using telebanking you can deal with three scenarios:  
 

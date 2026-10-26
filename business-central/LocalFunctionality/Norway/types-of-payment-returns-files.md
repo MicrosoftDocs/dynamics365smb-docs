@@ -1,15 +1,16 @@
 ---
-title: Types of payment returns files [NO]
-description: The Norwegian Business Central allows importing receipt returns and settlement returns payment files.
+title: Types of Payment Returns Files in the Norwegian Version [NO]
+description: Learn how Norwegian remittance receipt and settlement return files update payment status and create returned payment journal lines in Business Central.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: receipt returns, settlement returns, payment files types, payment files, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/16/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Types of payment returns files in the Norwegian version

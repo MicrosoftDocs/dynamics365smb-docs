@@ -1,14 +1,15 @@
 ---
 title: GST TCS on Vendor Payment
-description: Learn how GST Tax Collected at Source (TCS) is applied and processed on vendor payments in Business Central for India.
+description: Record GST Tax Collected at Source on vendor payments and review the associated setup and accounting entries in Business Central for India.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TCS on vendor payment, vendor payment
-ms.date: 06/25/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # GST TCS on vendor payment
@@ -16,6 +17,8 @@ ms.reviewer: v-soumramani
 GST TCS can be applicable for Registered Vendor. On posting of GST TCS transaction against Vendor, system updates 'Liable to Pay' field in GST TDS/TCS Entry table as 'TRUE'. The GST TCS entries that have 'Liable to Pay' field 'TRUE' are displayed on the settlement page. The GST TCS Liability can only be paid through Cash or Bank. It can't be set off against any available credit.
 
 For example, INR 1000 paid to the vendor and 1% GST TCS (0.50% CGST, 0.50% SGST for Intra-State or Intra-Union Territory and 1% IGST for Inter State) has to be calculated on payment amount.
+
+The rates illustrate the example, not current statutory rates. Use CGST and SGST for the intrastate case, or IGST for the interstate case.
 
 GST calculation appears in the Fact Box on Bank or Cash Payment Voucher as following:
 
@@ -29,7 +32,7 @@ GST calculation appears in the Fact Box on Bank or Cash Payment Voucher as follo
 
 ## GST TCS on vendor payment entry process
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
 1. Fill in the fields as described on **Bank Payment Voucher** or **Cash Payment Voucher**.
 
    |Field|Description|
@@ -43,9 +46,11 @@ GST calculation appears in the Fact Box on Bank or Cash Payment Voucher as follo
    |**Location Code**|Specify the relevant location code.|
    |**GST TCS State Code**|Specify the relevant state code.|
    |**GST TDS/TCS Base Amount**|Specify the GST TCS calculation base amount.|
-   |**GST TCS**|Mark this field as True.|
+   |**GST TDS/GST TCS**|Select **TCS**.|
 
-1. GL Entries for GST TCS - Intrastate Transaction are as following:
+The vendor must be **Registered**, and **GST TDS/TCS Base Amount** must be nonzero. Enter **GST TCS State Code** before selecting **TCS**.
+
+G/L entries for the intrastate example are as follows:
 
    |Particulars|Amount|
    |----------------------------------|---------------------------------------|  
@@ -54,7 +59,7 @@ GST calculation appears in the Fact Box on Bank or Cash Payment Voucher as follo
    |**SGST/UTGST TCS Payable Account**|-5|
    |**Bank Account**|-990|
 
-1. GL Entries for GST TCS - Interstate Transaction are as following:
+G/L entries for the interstate example are as follows:
 
    |Particulars|Amount|
    |----------------------------------|---------------------------------------|  

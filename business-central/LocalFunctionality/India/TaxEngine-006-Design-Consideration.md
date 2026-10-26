@@ -1,105 +1,108 @@
 ---
 title: Tax Engine - Design Consideration
-description: Key considerations and best practices for designing and configuring the Tax Engine in Business Central for India.
+description: Review design considerations for Tax Engine configuration, including use cases, calculations, and versioning in Business Central for India.
 author: v-debapd
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, tax engine, tax type, tax attributes, design consideration
-ms.date: 06/27/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Tax engine - Design consideration
 
-This section contains the factors that shall be considered while configuring Taxes using tax engine.
+Consider the following design choices when you configure taxes with the tax engine.
 
-## Tax type
+## Choose a tax type
 
-A new tax type should be created if it has unique attributes, which are used in definition of conditions and computation logic. For example, GST and TDS are defined as different tax types. 
+Create a separate tax type when it has unique attributes used in conditions and calculation logic. For example, GST and TDS are different tax types.
 
-## Tax attributes
+## Design tax attributes
 
-- When to create an Attribute as Generic?
+- **Use a generic attribute**:
    Generic attributes are used in the same way as item attributes are managed in Business Central. If the attribute isn't linked to a field in an existing table, then it's generic in nature.
 
-- When to map a tax attribute with a table field?
+- **Map an attribute to a table field**:
    In case field is already available in the table, which is being mapped then it can be linked to that attribute. This means that field data is used as attribute value.
 
-## Generic tax rate setup
+## Design tax rate setup
 
-- Rate Setup for Different Tax Type
+- **Configure rate columns for each tax type**:
   
-  Tax Rate Setup of each tax type is configured separately but the User Interface is same. Fields in tax rate setup are dynamic and based on the tax rate column setup. User can define what columns are needed for a tax rate setup. For example ‘GST' tax type would require ‘HSN Code’ whereas 'TDS' tax type isn't dependent on HSN code.
+  Configure the rate setup separately for each tax type. The pages are shared, but the columns are based on each tax type's rate column setup. For example, GST can use HSN Code, whereas TDS doesn't depend on HSN codes.
 
-- Generic Table for Tax Rate Setup
+- **Use shared tax rate storage**:
   
-  Use generic table for tax rate setup for all Tax types. It enables to handling any new components introduced by government related to the tax rate.
+  Tax types use shared tables for tax rates and rate values. You can configure columns to reflect changes to components or other rate parameters.
   
   Example: If there's a regulatory change in which ‘Threshold Limit’ is removed then it can be managed by removing it from the tax rate column setup.
 
-## Generic metadata
+## Understand stored tax values
 
-- Tax Transaction Values
+- **Tax transaction values**:
 
   Data pertaining to tax calculation regarding a said transaction is stored in a common table. If the transaction record is deleted, then related tax transaction value also gets deleted.
   
   Example: If transaction involves ‘Purchase Line’ then all information related to tax calculation is stored in tax transaction value. If purchase line is deleted, then tax transaction value record related to that purchase line is also deleted.
   
-  Information stored in ‘tax transaction value’ is shown in the ‘tax information’ and ‘tax component’ fact boxes related to that transaction. Attributes, which have “visible on interface” as true will be visible in the fact box.
+  The **Tax Information** FactBox shows tax attributes and calculated components for the transaction. Only values configured as visible on the interface appear in the FactBox.
 
-- Tax Rate Configuration Value
+- **Tax rate values**:
 
   This table contains information of tax rate setup. Tax engine uses common tax rate setup for different types of taxes.
 
-## Use case execution
+## Plan use case execution
 
-- Only Child Use Cases are Executed for output
+- **Leaf use cases calculate output**:
 
-  There can be a parent child relation between use cases. Parent use cases are used for defining attribute mapping, which is common for one or more use cases.
+  Use cases can have a parent-child relationship. Parent use cases can define attribute and rate column mappings shared by their children. Component percentages, computation scripts, and component formulas run for leaf use cases, which have no children.
   
   A child use case is mapped in the use case tree. Before execution of the use case, conditions of use case tree should be passed.
   
-- Sequencing of Use Case Execution
+- **Sequence use case execution**:
 
   The sequence of use case execution depends on the sequencing defined in the use case tree.
 
-- Execution of multiple Use Cases for a tax type
+- **Choose the applicable use case**:
 
-  If there are more than one use cases for a tax type, then execution will be done sequentially, which means that second use case will execute only after completion of first use case.
+  The tax engine checks use cases in tree order. A use case must be enabled and meet its conditions. After a leaf use case calculates output for a tax type, later use cases for that tax type aren't executed in the same calculation. Don't design the tree on the assumption that every matching use case for a tax type will run.
 
-- Execution Flow of Tax Engine
+- **Review the execution flow**:
 
-  ![img.](image/executionflow.png)
+  The diagram gives a high-level view of calculation. The use case tree and its conditions determine which use case runs.
 
-## Deployment
+  ![Diagram of the tax engine calculation and use case execution flow.](image/executionflow.png)
 
-- Configuration Files
+## Deploy and update configuration
 
-  Every use case configured in tax engine is a Json file, which can be exported and imported from a Business Central tenant. These configurations are deployed individually for each company.
+- **Configuration files**:
 
-- Deployment of Configuration
+  You can export and import use case configuration as JSON files. Deploy configuration separately for each company.
 
-  Default configurations that are provided in the system will be available as part of demo data. In case if a new production company is created then the configuration can be imported from assisted setup, where system picks the json based on the function of a codeunit. Json for standard configuration is available in a translation file for related extensions like GST, TDS, and TCS, which are updated when the codeunit function is called. In case users have changed any standard configuration or created a new configuration then they can use the export and import function available on tax types and use cases page.
+- **Deploy configuration**:
 
-- Change in Configuration
+  In a production company, use **Set up Tax Engine** in **Assisted Setup** to import the configuration supplied by the installed tax extensions. The extensions provide configuration through setup codeunits. For example, GST setup reads JSON from extension resources. To transfer custom or modified configuration, use the import and export actions on the **Tax Types** and **Use Cases** pages.
 
-  If any update is done on a use case, then the version of the use case will be higher than the one, which is already deployed. System archives the old one and update the new use case based on the json.
+- **Import updated configuration**:
 
-- Change in Configuration by user
+  Importing an update can replace an existing use case. The tax engine archives a released use case when it changes to **Draft**, including during replacement by an import. Manual imports and supplied configuration updates handle version numbers differently. Don't assume that each import increases the major version.
+
+- **Distribute custom changes**:
 
   In case of any change done in any use case to fix a bug or handle regulatory change, the updated configuration should be imported again in each company individually.
 
-- Version Management
+- **Manage versions**:
 
-  In case of any change done in any use case the current active version of the use case is archived and new use case version becomes active.
+  Changing a released use case to **Draft** archives its previous configuration, increases the minor version, and disables the use case. Set **Status** to **Released** before enabling the revised use case. Use **Archived Logs** to review archived versions.
 
 ## Enabling and disabling configuration
 
-- Enable or Disable Use Case
+- **Enable or disable a use case**:
 
-  By default, a Use case is enabled. If a use case isn't applicable, then it can be disabled and that use case doesn't get executed.
+  Imported use cases are released and enabled. Disable any use cases that don't apply to your business. The tax type must also be enabled for a use case to run.
 
 ## Related information
 

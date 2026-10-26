@@ -1,21 +1,22 @@
 ---
 title: Tax Engine - Script Activity
-description: Overview of script activities available in the Tax Engine for Business Central India localization.
+description: Review Tax Engine script activities and their inputs and outputs for tax configuration in the India localization of Microsoft Dynamics 365 Business Central.
 author: v-debapd
-ms.topic: article
+ms.topic: reference
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, tax engine, script activity
-ms.date: 06/27/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Tax Engine - Script activity
 
-Script extension contains UI elements and tables, which are used in scripting of Business logics within a use case.
+Use script activities to calculate intermediate values, apply conditions, and add validations within a tax use case. Open a use case and choose **Computation Script** to edit its calculation script.
 
-## String/Text
+## String and text activities
 
 - **Concatenate**: Concatenates list values and outputs to a variable.
 
@@ -40,7 +41,7 @@ Script extension contains UI elements and tables, which are used in scripting of
 
   |Type|Description|
   |--------------------|-----------------------|
-  |Output Variable|Specifies the name of variable in which value of substring is stored.|
+  |Output Variable|Stores the position where the substring starts. The result is 0 if the substring isn't found.|
   |String|This is the string for which value of substring is searched, hard coded text or/and expression can be entered.|
   |Substring|Specifies the string or expression, which needs to be identified from String value.|
 
@@ -50,7 +51,7 @@ Script extension contains UI elements and tables, which are used in scripting of
   |--------------------|-----------------------|
   |Output Variable|Specifies the name of variable in which the value of Replaced String is stored.|
   |Sub String|This is the string content, which is replaced from 'In String', hard coded text or/and expression can be entered.|
-  |With String|This is the string content, which is replaced with 'Sub String', hard coded text or/and expression can be entered.|
+  |With String|Specifies the replacement text. It replaces each occurrence of **Sub String** in **In String**.|
   |In String|This is the string on which replacement of character happens.|
 
 - **Extract Substring**: Extracts substring of a length from a string from start/ end and assigns to output variable.
@@ -60,7 +61,7 @@ Script extension contains UI elements and tables, which are used in scripting of
   |Output Variable|Specifies the name of variable in which value of Extracted Sub String is stored.|
   |String|This is the string for which value of Substring is extracted, hard coded text or/and expression can be entered.|
   |From|Starting point of extraction, it can be either start or end.|
-  |Length|Length of the character to extract.|
+  |Length|Number of characters to extract.|
 
 - **Extract Substring from Index of String**: Extracts substring of a length from a string with an index and assigns to output variable.
 
@@ -69,9 +70,9 @@ Script extension contains UI elements and tables, which are used in scripting of
   |Output Variable|Specifies the variable name in which value of Extracted Sub String is stored.|
   |In String|This is the string for which value of Substring is extracted, hard coded text or/and expression can be entered.|
   |From Index|Starting point of extraction as Index.|
-  |Length|Length of the character to extract.|
+  |Length|Number of characters to extract. A value of 0 extracts the remaining text from **From Index**.|
 
-## Number
+## Number activities
 
 - **Number Calculation**: Calculates the number based on values and the operator. It's assigned to output variable.
 
@@ -93,7 +94,7 @@ Script extension contains UI elements and tables, which are used in scripting of
   |Precision|Rounding precision.|
   |Direction|Direction of rounding, it can be Nearest, Up, or Down.|
 
-## Date
+## Date activities
 
 - **Date Calculation**: ‘Date Calculation’ is used to manipulate dates by adding or subtracting number of days / months / years and it's assigned to output variable.
 
@@ -113,7 +114,7 @@ Script extension contains UI elements and tables, which are used in scripting of
   |Date|This is the Date on which extraction is done.|
   |Part|Type of extraction, it can be Year, Month, Day.|
 
-- **Find Interval between Dates**: Find Interval between dates is used to find number of days / hours / minutes between dates and assign it to output variable.
+- **Find Interval between Dates**: Subtracts **From Date** from **To Date** and assigns the number of days to the output variable.
 
   |Type|Description|
   |--------------------|-----------------------|
@@ -137,11 +138,11 @@ Script extension contains UI elements and tables, which are used in scripting of
   |Date|This is the date value, which is part of 'date time'.|
   |Time|This is the time value, which is part of ‘date time’.|
 
-## Condition
+## Conditional activities
 
 - **If Statement**: Activities within the "If" statement is executed when the defined conditions are evaluated to be true. If the conditions are evaluated to false, activities in the “Else” branch are executed. Conditions can be specified in “Else” branch. There can be more than one else branch for an “If Statement”.
 
-## Loops
+## Loop activities
 
 - **Loop n Times**: Executes activities in the loop block for n number of times. "N" can be a constant value, or it can be a variable.
 
@@ -154,18 +155,17 @@ Script extension contains UI elements and tables, which are used in scripting of
   |Table Name|Name of table whose records need to be iterated.|
   |Sorting|Sorting order of the records.|
   |Order|Ascending or Descending.|
-  |Distinct|To skip duplicate records.|
+  |Distinct|Skips subsequent records with the same values in the configured sorting fields. Configure **Sorting** to define which values identify a distinct group.|
   |Table Filters|Filters to be applied on the table records.|
-  |Record Value|Variable that holds the current record of the table.|
   |Index Variable|Loop index starts from 1.|
-  |Count Variable|Count of records after applying filters.|
-  |Set Variables|To assign field values to a variable.|
+  |Count Variable|Stores the count of records after applying filters. This field isn't available when **Distinct** is turned on.|
+  |Set Variables|Maps fields from the current record to script variables for each iteration.|
 
-- **Exit Loop**: Breaks loop and executes activates after the loop block.
+- **Exit Loop**: Ends the loop and continues with the activities after the loop block.
 
 - **Skip Next Activities**: Skips next activities in the loop block and continues execution of the next iteration.
 
-## Miscellaneous
+## Variable and message activities
 
 - **Set Variable**: To assign Variable value.
 
@@ -174,7 +174,7 @@ Script extension contains UI elements and tables, which are used in scripting of
   |Output Variable|The variable, which is assigned with value.|
   |Value|The value of variable, this can be constant or lookup.|
 
-- **Alert Message**: Message dialog is displayed while execution rule. This is helpful to debug, and this can also be used for throwing errors.
+- **Alert Message**: Displays a message during script execution when a user interface is available. This activity can help with debugging. Turn on **Throw Error** to raise an error and stop execution instead.
 
   |Type|Description|
   |--------------------|-----------------------|

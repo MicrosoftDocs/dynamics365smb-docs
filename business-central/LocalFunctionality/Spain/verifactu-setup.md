@@ -1,15 +1,15 @@
 ---
-title: VERIFACTU with external service integration [ES]
-description: Learn how to set up and use VERI*FACTU in the Spanish version of Business Central.
+title: VERI*FACTU with External Service Integration [ES]
+description: Configure the B2Brouter connector for external VERIFACTU integration in Business Central, including API credentials, project settings, and sandbox mode.
 author: altotovi
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Verifactu, SFI, e-invoice, Spanish version, b2brouter connector
-ms.search.form: 
-ms.date: 06/15/2026
+ms.date: 10/20/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # VERI\*FACTU with external service integration
@@ -28,27 +28,28 @@ Dynamics 365 Business Central supports VERI\*FACTU frameworks using integration 
 
 ### Disable SII module
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SII Setup**, and then select the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **SII Setup**, and then select the related link.  
 1. On the **General** FastTab, be sure the **Enabled** field isn't selected.  
 
 Learn more in [SII setup](sii-setup.md), which provides more information about how to set up the SII.
 
 ### Enable B2BRouter connector
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **E-Document Services**, and then select the related link.
 1. Choose the **Install E-Documents integration from Marketplace** action to open the **Microsoft Marketplace apps** page.  
 1. Choose the **B2BRouter** connector, and then select the **View on Marketplace** action.  
 1. Install the app from the Marketplace.
 1. On the **E-Document Service** page, change the **Service Integration** to **B2BRouter**.  
 1. On the **E-Document Service** page, select the **Setup Service Integration** action.
-1. On the **B2BRouter Connection Setup** page, enter the **API-KEY** to specify the key you'll use for your B2BRouter environment and the **ProjectID** field to specify the project name for the B2BRouter environment.
-1. If you want to use this connector in sandbox mode, select the **Staging Mode** field.
+1. On the **B2Brouter Setup** page, select **Staging Mode** if you want to use the sandbox environment.
+1. Enter the **API Key** and **Project** for the selected environment. The connector stores separate credentials and project settings for production and sandbox.
 1. Continue with the [nonservice provider setup steps](../../finance-how-setup-edocuments-external.md).
 
 > [!NOTE]
 > Before you enable the B2BRouter connection, you must obtain credentials directly from B2BRouter. Note that this service may be subject to charges.
+
 > [!IMPORTANT]
-> Microsoft is committed to continuously enhancing the E-Document Framework in Dynamics 365 Business Central to ensure full compliance with Spain’s VERI*FACTU regulation. Our goal is to deliver a fully integrated, out-of-the-box solution that enables customers to meet all legal requirements directly within Business Central—without the need for third-party integrations—as soon as possible. All updates and progress on this initiative are shared here.  
+> Business Central also provides an embedded VERI\*FACTU integration that sends invoice records directly to AEAT. For that setup, see [Enable embedded VERI\*FACTU mode](enable-real-time-invoice-reporting.md). The B2Brouter setup in this article is for external service integration.
 
 ## Related information
 

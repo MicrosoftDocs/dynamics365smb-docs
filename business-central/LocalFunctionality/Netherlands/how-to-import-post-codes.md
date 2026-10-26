@@ -1,14 +1,15 @@
 ---
-title: How to Import Post Codes [NL]
+title: Import Post Codes in the Dutch Version [NL]
 description: Import a file with post codes for marketing and relationship management activities, which is saved in the Post Code Range table.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: post codes, import post codes, relationship management, post code range, Dutch version, Netherlands
-ms.date: 03/18/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Import post codes in the Dutch version
@@ -17,11 +18,12 @@ You can import a file that specifies post codes for marketing and relationship m
 
 ## Import a post code file  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Codes Updates**, and then choose the related link.  
-1. On the **Post Codes Updates** page, choose the **Import Post Codes** action.  
-1. Specify the path and name of the post code file, and then choose the **OK** button. If you don't want to import the file, choose the **Cancel** button to close the page.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Post Code Updates**, and then choose the related link.
+1. On the **Post Code Updates** page, choose **Import Post Codes**.
+1. If post code ranges already exist, confirm whether to replace them. Continue only if you intend to delete the existing ranges.
+1. Select the full post code data file in the supported Dutch PTT text format.
 
-Information about the imported post code is saved in the **Post Code Update Log Entry Table**.  
+Information about the import, including its period, date, time, and user, is saved in the **Post Code Update Log Entry** table.
 
 ## Related information
 

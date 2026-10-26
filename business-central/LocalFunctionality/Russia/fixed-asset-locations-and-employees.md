@@ -4,10 +4,11 @@ description: Manage fixed asset locations and responsible employees with Russian
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: fixed asset locations, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Fixed asset locations and employees
@@ -22,16 +23,16 @@ The fixed assets locations and the fixed assets employees feature enable you to:
 
 The following procedure shows how to make sure the **FA Location Code** and **Employee No.** fields are always filled in for fixed assets.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Setup*, and then choose the related link.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Setup**, and then choose the related link.
 1. On the **General** FastTab, select the **FA Location Mandatory** check box.
 
    > [!NOTE]
-   > When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non-zero value in the **Quantity** field.
+   > Posting uses the fixed asset's location when the journal line has no location. Posting fails if the required location is still blank.
 
 1. Select the **Employee No. Mandatory** check box.
 
    > [!NOTE]
-   > When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non-zero value in the **Quantity** field.
+   > Posting uses the fixed asset's responsible employee when the journal line has no employee. Posting fails if the required employee is still blank.
 
 ## Added fields
 
@@ -49,6 +50,6 @@ When posting the documents and journals, the values of these fields are transfer
 
 ## Related information
 
-[Fixed Asset Inventory](Fixed-Asset-Inventory.md)
+[Fixed Asset Inventory](fixed-asset-inventory.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

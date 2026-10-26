@@ -1,15 +1,16 @@
 ---
-title: View temporary balances in GL journals [CH]
+title: View Temporary General Journal Balances in Switzerland
 description: Learn how to view temporary balances in general ledger journals that show the impact of a new transaction on general ledger account balances.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: temporary balances, G/L account balances, general ledger journals, Swiss version
 ms.search.form: 11500
-ms.date: 04/30/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # View temporary balances in general ledger journals in the Swiss version
@@ -20,10 +21,10 @@ If you use foreign currency in general ledger accounts, then the balance in the 
 
 ## View temporary balances in general ledger journals  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **General Journals**, and choose the related link.  
 1. Select the required general journal entry, and then choose the **Balance** action.  
 
-    On the **View – G/L Account temp. Balance** page, on the **General** FastTab, you can view how general ledger account balances would be affected by posting the journal.  
+    On the **G/L Account temp. Balance** page, on the **General** FastTab, review the posted balances and unposted amounts excluding VAT for the account and balancing account. By default, unposted amounts include lines up to the selected line in the current batch. Choose **All Journals** to include matching lines from all batches.
 
 1. Choose the **Close** button.  
 

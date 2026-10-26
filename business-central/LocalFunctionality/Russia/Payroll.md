@@ -5,9 +5,10 @@ author: DianaMalina
 ms.topic: article
 ms.search.keywords: payroll, salary, wages, deductions, tax, bonus, income tax, tax deduction, Russia
 ms.date: 07/18/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Payroll
@@ -33,9 +34,11 @@ Main functions of the payroll module:
 - Appointment of wages
 - Implementation of compensation and incentive payments (bonuses)
 - Calculation of average earnings
-- Provision of basic types of deduction defined by the current legislation
-- Provision of tax deductions according to the current legislation
-- Calculation of personal income tax and payments to funds according to the current legislation
+- Configuration of deduction types
+- Configuration of tax deductions
+- Calculation of personal income tax and payments to funds
+
+Confirm current legal requirements and the payroll functionality available in your installed version before you use these features. This overview doesn't certify statutory compliance.
 
 ## Payroll accounting groups
 

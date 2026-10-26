@@ -4,10 +4,11 @@ description: Use the fixed asset acts features in Business Central to release, t
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: fixed assets, numbering, source codesRussia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Release, track, and write off fixed assets
@@ -59,7 +60,7 @@ An asset is recognized as a fixed asset after it's released into service for the
    | **Depreciation Book Code** | Enter the code for the depreciation book that is used to post depreciation for the fixed asset. The value is set using information from the **Fixed Asset Setup** window. |
    | **New Depreciation Book Code** | Enter an alternative depreciation book code that is used to post depreciation for the released fixed asset entry. |
 
-1. Choose the **OK** button to post your entries and release the fixed assets into service.
+1. Choose **Post** and confirm the posting to release the fixed assets into service.
 
 ## Track the movement of fixed assets
 
@@ -96,7 +97,7 @@ Tracking the location and status of fixed assets is an important function within
    | **New Depreciation Book Code** | Enter a new depreciation book code that is used to post depreciation after the fixed asset movement entry is posted. |
    | **Reason Code** | Enter a reason code fixed asset movement entry. |
 
-1. Choose the **OK** button to post your entries and record the movement of the fixed asset.
+1. Choose **Post** and confirm the posting to record the movement of the fixed asset.
 
 ## Write off the value of a fixed asset
 
@@ -132,7 +133,7 @@ During the sale or disposal of a fixed asset, you may want to write off the rema
    | **Item Receipt No.** | Enter the receipt number from the item sale or disposal document. |
    | **Reason Code** | Enter a reason code for the fixed asset write-off entry. |
 
-1. Choose the **OK** button  to post your entries and record the write-off of the fixed asset.
+1. Choose **Post** and confirm the posting to record the write-off of the fixed asset.
 
 ## Related information
 

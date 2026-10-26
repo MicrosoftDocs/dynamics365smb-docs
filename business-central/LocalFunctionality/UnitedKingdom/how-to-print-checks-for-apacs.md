@@ -1,5 +1,5 @@
 ---
-title: Print Checks for APACS
+title: Print Checks for APACS in the United Kingdom
 description: The APACS specification sets the standard layout for fields on checks in the UK. The Check report uses the APACS specification.
 author: brentholtorf 
 ms.topic: how-to
@@ -9,16 +9,16 @@ ms.search.form: 256
 ms.date: 02/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
-# Print Checks for APACS
+# Print checks for APACS
 
 The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks. The **Check** report uses this specification.  
 
 ## Print checks for APACS  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
 1. Choose the **Preview Check** action to preview the check or choose the **Print Check** action to print the check.  
 1. On the **Options** FastTab, fill in the fields as described in the following table.
 

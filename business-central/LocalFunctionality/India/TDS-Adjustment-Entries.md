@@ -5,10 +5,11 @@ author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, TDS adjustments, TDS adjustment process
-ms.date: 06/30/2025
+ms.date: 10/21/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # TDS adjustments
@@ -17,15 +18,15 @@ TDS adjustment can be required, for any corrections in the TDS amount, TDS rate 
 
 ## TDS adjustment process
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Adjustment Journal**, and then choose the related link.
-1. Select the relevant transaction number in **Transaction No.** field from the drop-down, and the selected line will be populated with the posted record. Following information can be changed in the adjustment journal as per the requirement:
+1. [!INCLUDE [open-search](../../includes/open-search.md)] Enter **TDS Adjustment Journal**, and then choose the related link.
+1. Select the relevant entry in **Transaction No**. The lookup includes unpaid TDS entries with a nonzero TDS base amount. The journal is populated with the posted record. Change the following fields as needed:
   
     |Field Name|Use|
     |----------------------------------|---------------------------------------|  
     |**TDS % Applied**|Fill the revised TDS %.|  
-    |**TDS Base Applied**|Fill the revised TDS base amount.|
+    |**TDS Base Amount Applied**|Fill the revised TDS base amount.|
 
-1. On posting of the adjustment journal G/L Entry, TDS Entry, Vendor Ledger Entry, and Detailed Vendor Ledger Entry is updated with the adjusted amount and revised information.
+1. Choose **Post**. Posting updates the TDS entry and posts the adjustment to the general ledger and vendor ledger entries. Entries that are already paid can't be adjusted.
 
 ## Related information
 

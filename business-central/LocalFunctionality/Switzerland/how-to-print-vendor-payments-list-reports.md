@@ -1,26 +1,27 @@
 ---
-title: Print Vendor Payments List Reports [CH]
-description: Learn how to generate the Vendor Payments List report, which provides a detailed overview of payments for each vendor, sorted either chronologically or by vendor grouping.
+title: Print Vendor Payments List Reports in the Swiss Version [CH]
+description: Print a vendor payments list in the Swiss version of Business Central, sorted by vendor or chronologically, with local or foreign currency amounts.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: vendor payments list, vendor payments report, Swiss version
-ms.date: 04/29/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Print Vendor Payments List reports in the Swiss version
+# Print vendor payments list reports in the Swiss version
 
 The **Vendor Payments List** report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.  
 
 > [!NOTE]
 > The **Vendor Payments List** report is available in the following markets: Austria, Germany, Switzerland.
 
-## Print the Vendor Payments List report  
+## Print the vendor payments list report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Payments List**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Vendor Payments List**, and then choose the related link.  
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

@@ -4,10 +4,11 @@ description: Russian localization provides features for statutory reporting comp
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: statutory report, tax report, tax reporting, tax compliance, financial report, Russia
-ms.date: 07/21/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Statutory reports
@@ -43,7 +44,7 @@ Statutory reports are based on financial reports and tax registers. For each sta
 
 ## Related information
 
-- [Tax Accounting](Tax-Accounting.md)  
-- [Tax Differences](Tax-Differences.md)  
+- [Tax Accounting](tax-accounting.md)  
+- [Tax Differences](tax-differences.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

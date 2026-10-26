@@ -8,7 +8,7 @@ ms.search.keywords: troubleshooting reports, Microsoft Certified Partners
 ms.date: 02/04/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 # Print troubleshooting reports in the US version
 

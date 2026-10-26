@@ -4,10 +4,11 @@ description: Provides information about tax accounting features and enhancements
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: tax accounting, tax registers, Russia
-ms.date: 07/21/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Tax accounting
@@ -20,7 +21,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up and main
 - Fixed asset transactions and expenses for future periods are tracked using the depreciation book for tax accounting.
 - Tax registers are grouped and totaled monthly. Each register has 12 values for a 12 month tax period. 
 
-Because [!INCLUDE[prod_short](../../includes/prod_short.md)] keeps the history of all transactions, detailed information from a transaction that changes taxable profits is automatically tracked. The information collected in tax registers meets the principles of tax reliability and tax validity.
+Tax register calculations use the posted entries and the selection rules that you configure. Review the register setup and calculated results against the requirements that apply to your organization.
 
 ## Tax registers
 
@@ -44,11 +45,11 @@ Transactions are processed using specific tax accounting principles that are app
 
 ## Related information
 
-- [Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
-- [Tax Registers](Tax-Registers.md)  
-- [Create Tax Registers](How-to-Create-Tax-Registers.md)  
-- [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
-- [Tax Differences](Tax-Differences.md)  
+- [Set Up Tax Accounting](how-to-set-up-tax-accounting.md)  
+- [Tax Registers](tax-registers.md)  
+- [Create Tax Registers](how-to-create-tax-registers.md)  
+- [Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)  
+- [Tax Differences](tax-differences.md)  
 - [Accounting for personal income tax payments](Accounting-for-personal-income-tax-payments.md)  
 - [Upload KLADR](Upload-KLADR.md)  
 

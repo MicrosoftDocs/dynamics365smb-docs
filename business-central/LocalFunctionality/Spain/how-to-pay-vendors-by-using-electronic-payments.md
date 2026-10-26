@@ -1,14 +1,15 @@
 ---
-title: Pay vendors using electronic payments [ES]
-description: Learn how to pay vendors electronically by exporting payment files and sending them to your bank for processing.
+title: Pay Vendors Using Electronic Payments in the Spanish Version [ES]
+description: Learn how to prepare vendor payment journal lines in Business Central for Spain, then export electronic payments for submission to your bank.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic vendor payment, electronic payments, vendor payment, pay vendor electronically, Spanish version
-ms.date: 05/27/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Pay vendors using electronic payments in the Spanish version
@@ -19,7 +20,7 @@ This process is similar to how computer checks are processed.
 
 ## Pay a vendor electronically  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.  
 1. Fill in the fields as described in the following table.  
 
     |Field|Description|  

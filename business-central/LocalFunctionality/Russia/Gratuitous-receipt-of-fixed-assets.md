@@ -4,17 +4,18 @@ description: Russian localization features support the processing of gratuitous 
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: gratuitous receipt, fixed assets, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Gratuitous receipt of fixed assets
 
 Posting gratuitous receipt of fixed assets operation is registered in one of the sections of the Ledger journal for fixed assets:
 
-1. Go to **Financial management** > **Fixed Assets** > **Journals** > **FA G/L Journals**
+1. Search for **Fixed Asset G/L Journals**, and open the page.
 1. Fill the journal lines:
 
    | Field | Description |
@@ -35,7 +36,7 @@ Posting gratuitous receipt of fixed assets operation is registered in one of the
 1. Post the line.
 
    > [!NOTE]
-   > Since the fixed asset wasn't acquired by the organization, it doesn't have the right to apply a depreciation bonus for such an asset. Therefore, if the company enjoys the right of application of the depreciation bonus should exclude the cost of acquisition of the asset from the calculation base for the depreciation bonus.
+   > Confirm whether the gratuitous receipt is eligible for a depreciation bonus under the rules that apply to your organization. If it isn't eligible, exclude the acquisition entry from the depreciation bonus base.
 
 1. If the option **Create Acquis. FA Tax Ledger** turned off in **TAX Register Setup**, then the value of the fixed asset issued in this way isn't reflected in the depreciation book for tax accounting. Therefore, it's necessary to form an additional operation in **FA Journals**.
 1. Fill the line **FA Journals**.

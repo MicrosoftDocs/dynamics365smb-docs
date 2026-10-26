@@ -1,14 +1,15 @@
 ---
-title: How to Post and Print All Transactions for a Period
+title: Post and Print All Transactions for a Period
 description: Businesses are required to provide annual reports to tax authorities, grouping their transaction entries by transaction numbers.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: annual reports, group transaction entries, post transactions, print transactions, periodic transactions posting, periodic printing of transactions, Spanish version
-ms.date: 05/28/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Post and print all transactions for a period
@@ -17,7 +18,7 @@ Companies must submit their business transaction entries, grouped by transaction
 
 ## Post all transactions for a period  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **General Journal**, and then choose the related link.  
 1. Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -32,7 +33,7 @@ Companies must submit their business transaction entries, grouped by transaction
 
 ## Print all transactions for a period  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **G/L Registers**, and then choose the related link.  
 1. To set the **Period Trans. No.** field for all of the general ledger entries in the period in a sequential order, choose the **Set Period Transaction No.** action.  
 1. Select the appropriate filters.  
 1. Choose the **OK** button.  

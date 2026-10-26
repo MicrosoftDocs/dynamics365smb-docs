@@ -1,20 +1,21 @@
 ---
-title: Swiss electronic payments using LSV+ [CH]
+title: Swiss Electronic Payments Using LSV+ in the Swiss Version [CH]
 description: Learn about the LSV+, or direct debit, which is an electronic payment method that permits companies to retrieve payments directly from their customers' bank accounts.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: LSV+, direct debit, direct payment retrieval, Swiss version
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 04/30/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Swiss electronic payments using LSV+ in the Swiss version
 
-The Lastschrift Verfahren (LSV+)—or direct debit—electronic payment method, an improved version of LSV, allows companies to retrieve payments directly from its customers’ bank accounts. To retrieve customer payments, you must send an LSV file to the bank, the bank then collects the payments requested in the file.  
+The Lastschrift Verfahren (LSV+)—or direct debit—electronic payment method, an improved version of LSV, allows companies to retrieve payments directly from their customers' bank accounts. To retrieve customer payments, you must send an LSV file to the bank. The bank then collects the payments requested in the file.
 
 The LSV+ method is a direct debit principle with right of objection. Business Direct Debit (BDD) is a direct debit system without right of objection. The file format to be sent to the bank is the same for LSV+ and BDD.  
 

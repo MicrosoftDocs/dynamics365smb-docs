@@ -6,7 +6,8 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: create deposits, transaction record, credit memos
 ms.search.form: 1692, 10140, 10141, 10143,10144,10146,10147,10148,36646
-ms.date: 02/04/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

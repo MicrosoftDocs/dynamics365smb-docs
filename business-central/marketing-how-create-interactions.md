@@ -1,11 +1,12 @@
 ---
-title: Create interactions on contacts and segments
-description: Learn how to create interactions in Business Central for communication that you have with your contacts and segments.
+title: Create Interactions for Contacts and Segments
+description: Record communication with contacts and marketing segments in Business Central, personalize interactions, and resume interactions you postponed.
 author: brentholtorf
 ms.author: bholtorf
 ms.topic: how-to
 ms.reviewer: v-soumramani
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
@@ -20,7 +21,7 @@ Before you create interactions though, you must set up interaction templates. Le
 
 ## Create an interaction with a contact
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, **Salesperson**, or **Interaction Log Entry**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, **Salespeople**, or **Interaction Log Entries**, and then choose the related link.
 2. Choose the **Create Interaction** action.
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
@@ -30,8 +31,9 @@ Before you create interactions though, you must set up interaction templates. Le
 ## Create an interaction on a segment
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Segments**, and then choose the related link.
-2. Choose the **Create Interaction** action.
-3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+1. Open the segment that contains the contacts you want to interact with.
+1. On the **Interaction** FastTab, select an **Interaction Template Code**, and fill in the other fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+1. Choose **Log**, specify whether to send attachments or create a follow-up segment, and then choose **OK**.
 
 > [!TIP]
 > There are more things you can do on the **Segment** page:
@@ -40,7 +42,7 @@ Before you create interactions though, you must set up interaction templates. Le
 > * Log the segment and interactions by choosing the **Log** action to open the **Log Segment** page.
 > * Create a new segment containing the same contacts by choosing the **Create Follow-up Segment** check box. This setting requires that a number series is specified for segments on the **Marketing Setup** page.
 
-An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged. Logged segments are available on the **Logged Segment** page.
+An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged. Logged segments are available on the **Logged Segments** page.
 
 ## Finish setting up a postponed interaction
 

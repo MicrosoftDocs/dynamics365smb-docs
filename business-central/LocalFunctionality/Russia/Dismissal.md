@@ -4,9 +4,10 @@ description: Russian localization includes features for managing employee dismis
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: dismissal, employee dismissal, Russia
-ms.date: 07/11/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.reviewer: v-soumramani
-ms.author: soalex
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 

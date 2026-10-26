@@ -1,23 +1,25 @@
 ---
 title: Questionnaire - Handouts (report)
-description: Print handouts for a profile questionnaire.
+description: Print profile questionnaire handouts and choose whether to include automatically answered questions with the Questionnaire - Handouts report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5066_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Questionnaire - Handouts (report)
+# Questionnaire - handouts (report)
 
 The **Questionnaire - Handouts** report shows your profile questionnaires. Use the report to print a copy of the questions that are in a profile questionnaire.
+
+On the report request page, select **Print Classification Fields** to include questions that are answered automatically. You can filter questionnaires by code, contact type, or business relation code.
 
 ## Use cases
 

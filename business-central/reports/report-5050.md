@@ -1,23 +1,23 @@
 ---
 title: Contact - List (report)
-description: Get list of all your contacts, including related opportunities and to-dos.
+description: Review contact types, opportunity counts and values, costs, duration, and next task dates with the Contact List report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5050_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Contact - List (report)
+# Contact - list (report)
 
-The **Contact - List** report shows a list of all your contacts. The report includes details about the type of the contact, related opportunities, and to-dos.
+The **Contact List** report shows a list of your contacts. The report includes the contact type, opportunity counts and values, costs, duration, and the next task date. You can filter the list by contact number, search name, type, salesperson, post code, or country/region.
 
 ## Use cases
 

@@ -4,9 +4,10 @@ description: Learn about vendor tax agent schemes in Russia, including enhanceme
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: vendor tax agent, tax agent scheme, VAT processing, payment workflow, vendor funds, VAT payment, Russia
-ms.date: 07/22/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.reviewer: v-soumramani
-ms.author: soalex
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 

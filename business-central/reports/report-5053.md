@@ -1,21 +1,21 @@
 ---
 title: Contact - Person Summary (report)
-description: Get information about a contact person, including related interactions and to-dos.
+description: Review contact person details and related interactions and tasks with the Contact - Person Summary report in Microsoft Dynamics 365 Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5053_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Contact - Person Summary (report)
+# Contact - person summary (report)
 
 The **Contact - Person Summary** report shows information about your contact persons. The report includes details about the person, such as their name, contact number, and so on. The report also includes related interactions and to-dos.
 

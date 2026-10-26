@@ -1,5 +1,5 @@
 ---
-title: Manage interactions with your contacts
+title: Manage Interactions with Your Contacts
 description: Learn how to record and manage all types of interactions with your contacts—such as emails, phone calls, meetings, and letters.
 author: jswymer
 ms.author: jswymer
@@ -7,7 +7,8 @@ ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5082
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -33,13 +34,13 @@ When you set up an interaction template, you can add an attachment. For example,
 There are two ways to record interactions:
 
 - You can manually create interactions that are linked to a single contact or to a segment. Learn more in [Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).  
-- You can automatically record interactions when you perform actions in the application—for example, when you print an invoice or quote. Learn more in [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
+- [!INCLUDE [prod_short](includes/prod_short.md)] can record interactions automatically when you perform actions in the application—for example, when you print an invoice or quote. You control which activities are recorded by specifying interaction templates on the **Interaction Template Setup** page. Learn more in [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
 ## View and manage recorded interactions
 
 You can access all recorded interactions on the **Interaction Log Entries** page. You can open this page by:
 
-- Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.
+- [!INCLUDE[open-search](includes/open-search.md)], enter **Interaction Log Entries**, and then choose the related link.
 - Choosing the **Interaction Log Entries** action on a contact or segment.
 
   The **Interaction Log Entry** page contains the interactions you create manually and the interactions that [!INCLUDE [prod_short](includes/prod_short.md)] records automatically.

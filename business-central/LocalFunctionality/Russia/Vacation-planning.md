@@ -4,9 +4,10 @@ description: Manage vacation schedules and planning in Russia with localized enh
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: vacation planning, vacation schedule, vacation time, Russia
-ms.date: 07/22/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.reviewer: v-soumramani
-ms.author: soalex
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 

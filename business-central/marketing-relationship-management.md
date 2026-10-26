@@ -1,5 +1,5 @@
 ---
-title: Relationship management
+title: Manage Business Relationships and Marketing
 description: Use relationship management features to streamline sales, access detailed contact and prospect information, and improve customer service efficiency.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,7 +7,8 @@ ms.reviewer: v-soumramani
 ms.topic: concept-article
 ms.search.keywords: contact, prospect, client
 ms.search.forms: 9076, 9026
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

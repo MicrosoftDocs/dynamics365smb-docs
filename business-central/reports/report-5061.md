@@ -1,23 +1,23 @@
 ---
 title: Opportunity - List (report)
-description: Get a list of all your opportunities, including information about the sales cycle of the opportunity and related contacts and campaigns.
+description: Review opportunity descriptions, sales cycles and stages, status, probability, contacts, and campaigns with the Opportunity - List report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5061_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Opportunity - List (report)
+# Opportunity - list (report)
 
-The **Opportunity - List** report shows a list of all your opportunities. The report includes the description, date, and sales cycle of the opportunity, and related contacts and campaigns.
+The **Opportunity - List** report shows a list of your opportunities. The report includes the description, sales cycle, current sales cycle stage, salesperson, status, probability, completion percentage, and related contacts and campaigns. You can filter by creation date, but the report doesn't display that date.
 
 ## Use cases
 

@@ -1,13 +1,14 @@
 ---
-title: Attachments for interactions
-description: Learn how to attach files, such as Word documents, to add details about an interaction.
+title: Manage Attachments for Contact Interactions
+description: Attach files to contact interactions in Business Central, view recorded attachments, and import or export files from interaction templates and segments.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5082
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -34,7 +35,7 @@ Attachments can be almost any type of file, such as Word documents, PowerPoint p
 
 You can perform the following actions with attachments:
 
-- **Open**: Start the associated program—Microsoft Word, for example—and the document opens. You can then modify it.
+- **Open**: View the attachment. In the web client, a non-HTML file attachment is downloaded so that you can open it in the associated program. If the attachment is editable, you can import the changed file when prompted.
 - **Import**: Import attachments. For example, you can scan a received letter, import it, and attach it to the interaction that records the reception of that letter.
 - **Export**: Export attachments to a location on a disk file.
 - **Remove**: Remove the current attachment from an interaction template.
@@ -43,3 +44,5 @@ You can perform the following actions with attachments:
 ## Related information
 
 [Record Interactions With Contacts](marketing-interactions.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

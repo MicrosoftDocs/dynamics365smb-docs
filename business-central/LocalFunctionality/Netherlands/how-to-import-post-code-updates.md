@@ -1,14 +1,15 @@
 ---
-title: How to import post code updates [NL]
-description: Import the post code file to update the relevant data in the Post Code Range table.
+title: Import Post Code Updates in the Dutch Version [NL]
+description: Import monthly Dutch post code updates in Business Central, check the update period, and review the import log for changes to the post code ranges.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: import post code file, post code file, Dutch version, Netherlands, post code range table, post code import, post code update
-ms.date: 03/18/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Import post code updates in the Dutch version
@@ -17,19 +18,20 @@ Every month, a post code file is delivered with all post code mutations for that
 
 ## Import the update file  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Codes Updates**, and then choose the related link.  
-1. On the **Post Codes Updates** page, choose the **Import Post Codes Update** action.  
-1. Specify the path and name of the post code update file, and then choose the **OK** button. If you don't want to import the file, choose the **Cancel** button to close the page.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Post Code Updates**, and then choose the related link.
+1. On the **Post Code Updates** page, choose **Import Post Codes Update**.
+1. If no full post code data set has been imported, review the warning and decide whether to continue.
+1. Select the monthly post code update file in the supported text format.
+1. If a warning identifies skipped periods, review it before you confirm that you want to continue.
 
-If there's no file imported with a full set of post code data, then a message appears.  
+If no full post code data set has been imported, a warning asks whether you want to continue.
 
 Before you update the post codes, the following checks are performed:  
 
-- Is there already an update file imported with a **Date Field** later than the date of this new update file? If so then the process stops.  
+- An update for the same or an earlier period than the last imported period is rejected.
+- If monthly updates are missing between the last imported period and the new file, a warning asks whether you want to continue. If you continue, you can't import those skipped updates afterward.
 
-- Is there a gap between the date of this file and the value in the **Date Field** for the last imported file? If there's a gap, then a message appears. You can choose if you still want to import the update file.  
-
-Information about the imported post code is saved in the **Post Code Update Log Entry Table**.  
+The **Post Code Updates** page shows the imported **Period**, **Date**, **Time**, and **User ID**. These values are saved in the **Post Code Update Log Entry** table.
 
 ## Related information
 

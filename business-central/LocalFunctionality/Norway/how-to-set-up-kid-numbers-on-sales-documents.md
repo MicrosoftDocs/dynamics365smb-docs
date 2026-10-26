@@ -1,15 +1,16 @@
 ---
-title: How to set up KID numbers on sales documents
+title: Set Up KID Numbers on Sales Documents
 description: Learn how to set up KID (Kunde ID), a customer identification number used as a payment reference to ensure accurate payment posting by vendors.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: KID numbers setup, KID number, customer identification number, payment reference, Norwegian version
 ms.search.form: 456
-ms.date: 05/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up KID numbers on sales documents
@@ -18,7 +19,7 @@ Kunde ID (KID) is a customer identification number that provides a payment refer
 
 ## Steps to set up KID numbers on sales documents  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.  
 1. On the **Documents** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

@@ -1,19 +1,20 @@
 ---
-title: Iceland local functionality
+title: Icelandic Local Functionality Overview
 description: This article provides links to descriptions of features that are specific to the Icelandic version of Dynamics 365 Business Central.
 author: brentholtorf
-ms.topic: article
+ms.topic: overview
 ms.devlang: al
 ms.search.keywords: Iceland, Icelandic localization, Icelandic version
-ms.date: 02/06/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Iceland local functionality
 
-The following articles describe local functionality that is unique to the Icelandic version of [!INCLUDE[prod_short](../../includes/prod_short.md)]
+The following articles describe local functionality that is unique to the Icelandic version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## Feature availability
 
@@ -24,7 +25,7 @@ The following articles describe local functionality that is unique to the Icelan
   - [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md) **Available Now**
 
 - Electronic Invoicing
-  - [Electronic Invoicing Requirement: Issuing Single Copy Invoice](electronic-invoicing-requirement-issuing-single-copy-invoice.md) **Available Now**
+  - [Electronic invoicing for single-copy invoices](electronic-invoicing-requirement-issuing-single-copy-invoice.md) **Available Now**
 
 - General  
   - [Map IRS Numbers to the Chart of Accounts](how-to-map-irs-numbers-to-chart-of-accounts.md) **Available Now**

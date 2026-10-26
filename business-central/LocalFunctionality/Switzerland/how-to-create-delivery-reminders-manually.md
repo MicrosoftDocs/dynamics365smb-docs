@@ -1,14 +1,15 @@
 ---
-title: How to create delivery reminders manually [CH]
-description: Learn how to manually create delivery reminders in Business Central for undelivered purchases in the Swiss version.
+title: Create Delivery Reminders Manually in the Swiss Version [CH]
+description: Create a delivery reminder manually for a vendor in the Swiss version of Business Central, and suggest lines for overdue purchase deliveries.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create delivery reminders, undelivered purchases, manual delivery reminders, Swiss version
-ms.date: 04/28/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create delivery reminders manually in the Swiss version

@@ -1,21 +1,22 @@
 ---
-title: Automatic account codes in the Swedish version
+title: Automatic Account Codes in the Swedish Version
 description: Use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Swedish version.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: posting groups, customized posting groups, automate recurring transactions
-ms.search.form: 11207, 11208
-ms.date: 02/06/2025
+ms.search.form: 4850, 4851, 4852
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Automatic account codes in the Swedish Version
+# Automatic account codes in the Swedish version
 
 > [!NOTE]
-> Automatic account codes are part of the Swedish localization. However, starting from version 22.1, Swedish localization will be based on the W1 base app, and the Automatic account codes functionality will be moved to the extension installed by default. There are no functional changes. Learn more about [saving time with automatic account codes](automatic-account-codes.md).  
+> Automatic account codes are provided by the Automatic Account Codes extension. This functionality moved from the Swedish base application to an extension as part of the transition to the W1 base application. The extension provides the automatic account groups used in journals, sales documents, and purchase documents.
 
 [!INCLUDE [automatic-account-codes](../includes/FISE/automatic-account-codes.md)]
 

@@ -2,13 +2,14 @@
 title: Tax Identification Types for Mexico
 description: All customers and vendors must have a federal tax identification number. This article covers the tax identification types in the Mexican version.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: federal tax identification number, tax identification number
-ms.date: 02/26/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Tax identification types for Mexico
@@ -23,11 +24,13 @@ In Mexico, a legal entity, such as a company or a person, is assigned a tax iden
 
 This tax identification type can be applied to companies and to people. An RFC number for a company is 12 characters, while an RFC number for a person is 13 characters.  
 
-### Cédula de identification fiscal con clave única de registro de población (CURP)
+### Clave Única de Registro de Población (CURP)
 
 This tax identification type can only be applied to people. A CURP number is 18 characters.  
 
-When you create a new customer or vendor in [!INCLUDE[prod_short](../../includes/prod_short.md)], you specify whether the customer or vendor is a company or a person, and then you specify the tax identification type. The tax identification type and the tax identification number are included in any reports that reference tax information about a customer or vendor.  
+On the **Customer Card** or **Vendor Card**, set **Tax Identification Type** to **Legal Entity** for a company or **Natural Person** for a person. Then fill in **RFC No.** with 12 or 13 characters, respectively. If you enter a CURP number, the **CURP No.** field must contain 18 characters.
+
+For your own company, use the **RFC Number** field on **Company Information**. This field also supports 12-character and 13-character RFC numbers.
 
 ## Related information
 

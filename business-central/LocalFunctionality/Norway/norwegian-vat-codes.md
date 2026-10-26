@@ -1,19 +1,22 @@
 ---
-title: Norwegian VAT Codes
+title: Norwegian VAT Codes in Business Central
 description: Learn how to set up VAT processing information in the Norwegian version of Business Central by using standard Norwegian VAT codes.
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: use VAT codes, using VAT codes, VAT code usage, restricting VAT codes, VAT processing information, VAT codes, Norwegian version
 ms.search.form: 10602, 10697, 10698, 10604
-ms.date: 05/15/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Norwegian VAT Codes
+# Norwegian VAT codes
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], VAT processing information can be easily set up using standard Norwegian VAT codes. The following table shows the standard Norwegian VAT codes.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use Norwegian VAT codes to set up VAT processing information. In Business Central 29, maintain the codes on **VAT Reporting Codes** and assign them through **VAT Number**. These replace the former **VAT Codes** page and **VAT Code** field.
+
+The following table shows examples of legacy VAT codes, not the current electronic VAT reporting code list. For electronic VAT reporting, use the codes configured through [Norwegian VAT reporting](norwegian-vat-reporting.md).
 
 |**Code**|**Description**|  
 |--------------|-------------------------------------------|  
@@ -28,45 +31,45 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], VAT processing informat
 
 Typically, you enter the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** fields when you specify the VAT handling process.  
 
-If you want to use only the **VAT Code** field when you specify the VAT handling process, you can assign a VAT code in the **VAT Posting Setup** table, and use this code instead of the posting group fields. The VAT code can be used as a shortcut in the **VAT Posting Setup** table and at the same time, you can use standard Norwegian VAT codes.  
+To fill in the posting groups with one field, assign a code in **VAT Number** on **VAT Posting Setup**. Then select **VAT Number** on the journal or document line. Each nonblank VAT number must identify a unique VAT posting setup combination.
 
-## Set Up of Norwegian VAT Codes
+## Set up Norwegian VAT codes
 
-You must create the Norwegian VAT codes on the **VAT Codes** page. Then assign the VAT codes in the **VAT Posting Setup** table, using the **VAT Code** field. Learn more in [Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md).  
+Create the Norwegian VAT codes on **VAT Reporting Codes**. Then assign the codes in **VAT Number** on **VAT Posting Setup**. If the field isn't shown, add it through personalization. Learn more in [Use one VAT code in journals](how-to-use-one-vat-code-in-journals.md).
 
-## Use of VAT Codes
+## Use Norwegian VAT codes
 
 When you specify a VAT code, you can select the VAT posting setup information for this code. This information is used in journals or on document lines when you specify the VAT setup information. If you use the VAT code in these cases, the posting group fields are used with the information from the corresponding VAT posting setup information.  
 
 Alternatively, you must specify both the **VAT Bus. Posting Group** and the **VAT Prod. Posting Group** fields when you select or change the VAT posting setup information on the journal line or the document line.  
 
-### Example: Using VAT Codes
+### Example: Use VAT codes
 
-There are two different VAT posting setup instances that can be used when you post a sales document.  
+The following illustrative example uses two VAT posting setup combinations for sales. The rate is an example, not guidance on current statutory rates.
 
 One VAT posting setup scenario calculates 24 percent VAT for domestic customers:  
 
 - VAT Bus. Posting Group: DOMESTIC  
 - VAT Prod. Posting Group: NORMAL  
 - VAT %: 24  
-- VAT Code: 3  
+- VAT Number: 3
 
 One VAT posting setup scenario calculates without VAT for international customers:  
 
 - VAT Bus. Posting Group: EXPORT  
 - VAT Prod. Posting Group: NORMAL  
 - VAT %: 0  
-- VAT Code: 1  
+- VAT Number: 0
 
 Typically, when you specify the VAT setup information on a journal line, the **VAT Bus. Posting Group** field must be set to **DOMESTIC** and the **VAT Prod. Posting Group** field must be set to **NORMAL** in order to choose the domestic setup.  
 
-If you use standard Norwegian VAT codes, you could specify **VAT Code 3** for the domestic VAT posting setup information, and **VAT Code 1** for the international VAT posting setup information. This lets you choose between the VAT posting setup information using only one field and the familiar standard Norwegian VAT codes.  
+For this example, select **3** in **VAT Number** for domestic sales and **0** for sales without VAT. This lets you choose the VAT posting setup information using one field. Both codes must be configured for sales.
 
-### Example: Restricting the use of VAT codes
+### Example: Restrict the use of VAT codes
 
 The standard Norwegian **VAT Code 3** is used for sales inclusive of VAT. Unless you restrict the use of this VAT code, it can be used for both sales and purchases in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-You can define the **Gen. Posting Type** field as a sale in the **G/L Account (Analysis View)** table. This general posting type is used together with **VAT Code 3**.  
+On **VAT Reporting Codes**, set **Gen. Posting Type** to **Sale** for code **3**.
 
 The general posting type is handled in two ways, depending on the value in the **Test Gen. Posting Type** field.  
 

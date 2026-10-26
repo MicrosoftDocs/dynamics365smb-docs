@@ -1,15 +1,16 @@
 ---
-title: Set up and Print Intrastat Reports for Italy
+title: Set Up and Print Intrastat Reports for Italy
 description: Learn how to set up and print monthly or quarterly Intrastat reports, and submit them to authorities in the Italian version of Business Central.
 author: brentholtorf
-ms.topic: article
+ms.topic: how-to
 ms.search.keywords: set up intrastat reports, print intrastat reports, submit intrastat reports, corrective Intrastat report, Italian version
-ms.date: 05/21/2025
+ms.date: 10/20/2026
 ms.search.form: 12116
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Set up and print Intrastat reports for Italy
@@ -17,7 +18,7 @@ ms.custom: bap-template
 > [!NOTE]
 > This article is based on new redesigned Intrastat experience with enhanced features available from the 2022 release wave 2. If you're using old functionality based on Intrastat journals, learn more about old Intrastat experience in [Print Intrastat for Italy](intrastat-for-italy-old.md). The old feature isn't available in [!INCLUDE [prod_short](../../includes/prod_short.md)] online.
 
-You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the **Intrastat Make Disk Tax Auth** batch job. Information regarding the receipt and the delivery of goods is included automatically.  
+Use **Intrastat Report** to prepare goods declarations and export an electronic file. The Italian export supports monthly and quarterly purchase or sales reports. You can download the file and submit it through the process required by the authorities.
 
 ## Set up Intrastat reporting
 
@@ -31,12 +32,12 @@ Learn more in [Work with Intrastat reporting](../../finance-how-report-intrastat
 
 ### Additional parameters
 
-When you create new a **Intrastat Report**, you need to make another setup at the **Export Parameters** FastTab. You can choose the period for reporting choosing one of the following options at the **Periodicity** field: Month, Quarter, Year. You can also choose the **Type** - Purchases or Sales, to choose the type of item ledger entries to be included.  
+On the **Intrastat Report** page, fill in the **Export Parameters** FastTab. Set **Periodicity** to **Month** or **Quarter** for the Italian electronic export. Although **Year** is also shown in the field, the Italian export configuration provides monthly and quarterly formats. Set **Type** to **Purchases** or **Sales**.
 
-You also need to enter the **File Disk No.** to specify the floppy disk number if you're creating a reporting disk. If you want to specify whether to include intra-community entries from drop shipment documents to **Intrastat Report**, you need to mark the **Include Intra-Community Entries** field.
+Enter **File Disk No.**, which is included as an identifier in the exported header. Select **Include Intra-Community Entries** if the report must include intra-community entries from drop shipment documents.
 
 > [!NOTE]  
-> Before you print, you can select the path and file name. If you don't specify this information, the file is named **scambi.cee** and prints to the root of the C drive.  
+> The Italian export uses the default file name `scambi.cee`. The file is downloaded through your browser; the export doesn't write it to the root of the C drive.
 
 ### Corrective Intrastat report
 
@@ -44,7 +45,7 @@ A corrective Intrastat report in Italy is a declaration submitted to correct err
 
 To prepare corrective intrastat report, you previously must post the credit memo, and it must be applied to the posted invoice. Corrective credit memo can't be in the same period as original invoice.  
 
-If you already posted and applied documents, you can prepare a new Intrastat report and mark the **Corrective Entry** field to specify if the Intrastat report has an adjusting entry, and also populate the **Corrected Intrastat Report No.** field to specify the corrected report.  
+After you post and apply the documents, create a new Intrastat report and select **Corrective Entry**. In **Corrected Intrastat Report No.**, select the original report. The original must be reported, must not itself be corrective, and must have the same **Type** and **Periodicity**.
 
 ## Related information
 

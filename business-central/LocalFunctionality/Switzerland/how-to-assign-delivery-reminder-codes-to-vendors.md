@@ -1,15 +1,16 @@
 ---
-title: Assign Delivery Reminder Codes to Vendors [CH]
-description: Learn how to assign delivery reminder terms to vendors in the Swiss version to enable reminders for overdue purchases.
+title: Assign Delivery Reminder Codes to Vendors in Switzerland
+description: Assign delivery reminder terms to vendors in the Swiss version of Business Central to enable reminders for overdue purchase order deliveries.
 author: brentholtorf
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: assign delivery reminder terms, delivery reminder terms, overdue purchases, Swiss version
 ms.search.form: 5005270, 5005272
-ms.date: 04/28/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Assign delivery reminder codes to vendors in the Swiss version

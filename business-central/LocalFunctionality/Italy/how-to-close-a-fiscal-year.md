@@ -1,14 +1,15 @@
 ---
-title: How to Close a Fiscal Year
-description: Learn to close a fiscal year, create a closing entry with the Close Income Statement option, and post it.
+title: Close a Fiscal Year in Business Central for Italy
+description: Learn how to close an accounting year in the Italian version of Business Central, generate income statement closing entries, and post the journal.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: close fiscal year, create closing entry, close income statement option, post closing entry, Italian version
-ms.date: 05/20/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Close a fiscal year
@@ -23,8 +24,8 @@ Fiscal year closing involves the following steps:
 
 ## Steps to close a fiscal year
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.  
-1. To close an accounting period, select the accounting period, and then choose the **Close Year** action.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Accounting Periods**, and then choose the related link.  
+1. Choose **Close Year** to close the earliest open fiscal year. Check the year shown in the confirmation.
 1. To confirm that you want to close the fiscal year, choose the **Yes** button.  
 
     > [!IMPORTANT]  
@@ -32,7 +33,7 @@ Fiscal year closing involves the following steps:
 
 ## Generate a year-end closing entry using the Close Income Statement option  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Close Income Statement**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Close Income Statement**, and then choose the related link.  
 1. On the **Options** tab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -47,15 +48,15 @@ Fiscal year closing involves the following steps:
     |**Posting Description**|Enter a description. The default text is **Close Income Statement**.|  
     |**Business Unit Code**|Select this checkbox if you require an entry for each business unit code.|  
     |**Dimensions**|Optionally, select the field to select the dimension codes if you require an entry for each dimension used in the general ledger account.|  
-    |**Inventory Period Closed**|This field indicates that the inventory periods with ending dates greater than or equal to the last date of the accounting period are closed.|  
+    |**Inventory Period Closed**|Indicates whether the inventory period is closed for the fiscal year being closed. This field is read-only.|
 
 1. Choose the **OK**  button to create the journal entries.  
 
 ## Post the year-end closing entry  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **General Journals**, and then choose the related link.  
 1. In the **Batch** field, specify the batch that contains the closing entries.  
-1. Add the relevant entries to the journal lines.  
+1. Review the generated closing entries and the balancing, net profit, and net loss accounts.
 1. To post the journal, choose the **Post** action.  
 
 An entry is posted to each income statement account so that it has a zero balance. The year-end result is transferred to the balance sheet.  

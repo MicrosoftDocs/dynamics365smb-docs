@@ -1,50 +1,48 @@
 ---
-title: Set Up Electronic Invoicing [MX]
+title: Set Up Electronic Invoicing - Mexico [MX]
 description: To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: identification numbers, CFDI
-ms.date: 05/01/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Set up electronic invoicing - Mexico
 
-Before you can send electronic documents, you must set up [!INCLUDE[prod_short](../../includes/prod_short.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
+Before you can send electronic documents, set up the tax identification information for your company, customers, and vendors in [!INCLUDE[prod_short](../../includes/prod_short.md)]. This information includes the applicable RFC, CURP, and state inscription IDs. You also need to upload the SAT certificate and configure the PAC web services used to stamp electronic documents.
 
 > [!IMPORTANT]  
-> The certificate that you received from the Mexico tax authority must be installed for each user who sends electronic invoices. Learn more in [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
+> Upload the certificate to [!INCLUDE[prod_short](../../includes/prod_short.md)] and select an **Available To** value that gives the relevant users access. You don't need to install the certificate on each user's computer. Learn more about SAT certificates and keys on the [Servicio de Administración Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.
 >
-> Your company must also have SMTP mail set up for emailing electronic invoices. Depending on the configuration in your company, you might need to grant explicit SMTP permissions to each relevant user and computer. The documents are sent from the address that is specified on the **Company Information** page.  
+> To email electronic invoices, set up an email account for the **Default** email scenario. This account sends the documents. Learn more in [Set up email](../../admin-how-setup-email.md).
 
 ## Set up company information  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Company Information**, and then choose the related link.  
 1. On the **Company Information** page, fill in the relevant fields. More information is available in the [Company Information Quick Start](../../quick-start-company-information.md) article.
 
     > [!NOTE]
-    > You must fill in the **SAT Postal Code** field. If you can't see the field on the **General** Fast Tab, choose the **More** action to show more fields.
-1. On the **Shipping** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
-
-    |Field|Description|  
-    |------------------------------------|---------------------------------------|
-    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national/regional territory.|
+    > You must fill in the **SAT Postal Code** field. If you can't see the field on the **General** FastTab, choose **Show more**.
 1. On the **Tax** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|
-    |**Tax Scheme**|Enter the tax scheme that your company complies with. Commonly used tax schemes are Régimen General, Régimen intermedio, and Régimen de pequeños contribuyentes (REPECOS).|
+    |**Tax Scheme**|Enter the tax scheme that your company complies with.|
     |**SAT Tax Regime Classification**|Specify the tax scheme required for reporting to the Mexican tax authorities (SAT).|
-    |**RFC No.**|Enter the federal registration number for taxpayers. The Registro Federal de Contribuyentes (RFC) tax identification type can be applied to companies and to people. An RFC number for a company is 12 characters, while an RFC number for a person is 13 characters. However, since [!INCLUDE [prod_short](../../includes/prod_short.md)] targets businesses, only 12 digit RFC numbers are currently supported.|
-    |**CURP No.**|Enter the unique fiscal card identification number. The Cédula de identification fiscal con clave única de registro de población (CURP) tax identification type can only be applied to people. A CURP number is 18 characters.|
+    |**RFC Number**|Enter the federal registration number for taxpayers. The field supports 12-character and 13-character RFC numbers.|
+    |**CURP No.**|Enter the 18-character Clave Única de Registro de Población for a person, where applicable.|
     |**State Inscription**|Enter the tax ID number that the state tax authorities assign to every person or corporation.|
+
+For Carta de Porte, specify SCT permissions on the vehicle's **Fixed Asset Card**, not on **Company Information**. Learn more in [Set up vehicles for transportation](packing-slips-transfer-orders.md#set-up-vehicles-for-transportation).
 
 ## Set up general ledger information  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.  
 1. On the **General Ledger Setup** page, on the **Electronic Invoice** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|
@@ -52,7 +50,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
     |**Enabled**|Choose this field to switch to use digitally signed documents, and then fill in the remaining fields on this FastTab.|
     |**SAT Certificate**|Specify the SAT certificate. The section on [adding certificates](how-to-set-up-pac-web-services.md#add-the-certificates) provides information on how to add certificates.|
     |**Multiple SAT Certificates**|Enable this option to be able to assign other SAT certificates to locations associated with company branches.|
-    |**Send PDF Report**|Choose this field to include a PDF when you email electronic invoices to customers or vendors. Electronic invoices are always sent as an XML file, this option allows you to include a PDF with the XML file.|  
+    |**Send PDF Report**|Select this field to include a PDF when you email electronic invoices to customers. The XML file is always attached.|
     |**PAC Code**|Specify the authorized service provider, PAC, that you want to apply digital stamps to your electronic invoices. Learn more in [Set up PAC web services](how-to-set-up-pac-web-services.md).|
     |**PAC Environment**|Specify if your company is using the web services of your authorized service provider, PAC, in a test environment or a production environment.|
 
@@ -64,7 +62,7 @@ You also must add information about your customers and vendors. The following se
 
 ### Set up customer information
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Customers**, and then choose the related link.  
 1. For each customer in the **Customers** list, open the customer card, and then fill in the fields on the **General** FastTab. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|
@@ -78,66 +76,77 @@ You also must add information about your customers and vendors. The following se
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
-    |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 digits.|
-    |**CURP No.**|Enter the unique fiscal card identification number. The CURP number must contain 18 digits.|
+    |**Tax Identification Type**|Select **Legal Entity** for a company or **Natural Person** for a person before entering the RFC number.|
+    |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 characters for a legal entity or 13 characters for a natural person.|
+    |**CURP No.**|Enter the unique personal identification number. The CURP number must contain 18 characters.|
     |**State Inscription**|Enter the tax ID number that the state tax authorities assign to every person or corporation.|
 
     > [!NOTE]
-    > If you select the **Prices Including VAT** field for a customer, the electronic documents include VAT in all amounts, including unit prices. The electronic documents also contain a separate element for VAT. If you want to avoid any possible confusion about the amounts including VAT, you can choose to not select the **Prices Including VAT** field.
+    > If the posted document uses **Prices Including VAT**, the CFDI export converts the unit prices and discounts to VAT-exclusive values. VAT is reported separately in the electronic document.
 
 1. On the **Payments** FastTab, in the **Payment Method Code** field, specify the payment method that you want to use for this customer.  
 1. Repeat steps 2-4 for all other customers.  
 
 ### Set up vendor information
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Vendors**, and then choose the related link.
 1. For each vendor in the **Vendors** list, open the vendor card, and then fill in the fields on the **General** FastTab. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
 1. On the **Payments** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
-    |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 digits.|
-    |**CURP No.**|Enter the unique fiscal card identification number. The CURP number must contain 18 digits.|
+    |**Tax Identification Type**|Select **Legal Entity** for a company or **Natural Person** for a person before entering the RFC number.|
+    |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 characters for a legal entity or 13 characters for a natural person.|
+    |**CURP No.**|Enter the unique personal identification number. The CURP number must contain 18 characters.|
     |**State Inscription**|Enter the tax ID number that the state tax authorities assign to every person or corporation.|
 1. Repeat steps 2-3 for all other vendors.  
 
 ## Set up location information
 
-Finally, you must add information about locations you use. The following section describes how to specify this information to locations.
+Use SAT address records to specify the geographic codes for your locations.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
-1. For each location in the **Locations** list, open the location card, and then, on the **Address & Contact** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **SAT Addresses**, and then choose the related link.
+1. Create or edit an address and fill in **Country/Region Code** and the relevant SAT codes.
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
-    |**SAT State Code**|Enter the state, entity, region, community, or similar definitions where the domicile of the origin and/or destination of the goods or merchandise moved is located.|
-    |**SAT Municipality Code**|Enter the municipality, delegation or mayoralty, county, or similar definitions where the destination address of the goods or merchandise moved is located.|
-    |**SAT Locality Code**|Enter the city, town, district, or similar definition where the domicile of origin and / or destination of the goods or merchandise that are moved in the different means of transport is located.|
-    |**SAT Suburb Code**|Enter the SAT suburb code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
-    |**SAT Postal Code**|Enter the SAT postal code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
+    |**SAT State Code**|Select the state or region for the address.|
+    |**SAT Municipality Code**|Select the municipality for the address.|
+    |**SAT Locality Code**|Select the city, town, or district for the address.|
+    |**SAT Suburb Code**|Use the assist-edit button to select the suburb.|
+    |**SAT Postal Code**|Review the postal code from the selected suburb. You can't edit this field directly.|
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Locations**, and then choose the related link.
+1. Open the location card and fill in the following fields in the **Electronic Document** section of the **Address & Contact** FastTab.
+
+    |Field|Description|
+    |------------------------------------|---------------------------------------|
+    |**SAT Address ID**|Select the SAT address for the location.|
     |**SAT Certificate**|Specify the SAT certificate issued by the tax authority to the company branch at this location. To enable this field, set the **Multiple SAT Certificates** option on the **General Ledger Setup** page. If a document is posted with a location that has an assigned SAT certificate, that certificate is used to sign the electronic document. Otherwise, the certificate from the **General Ledger Setup** page is applied.|
 
-1. Repeat step 2 for all other locations.  
+1. Repeat the location setup for each location used for electronic documents.
 
 ## Set up cancellation reasons
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CFDI Cancellation Reasons**, and then select the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **CFDI Cancellation Reasons**, and then select the related link.  
 1. Select **New** to create new cancellation reason or select **Edit** to make changes to an existing one.
 1. In the **Code** field, enter a value that corresponds to the SAT cancellation reason definition.
-1. In the Description field, enter a brief summary according to the SAT cancellation reason definition.
-1. In the **Substitution Number Required** field, specify whether a substitution number is required for the entry according to the SAT cancellation reason definition. If you choose code 01, specify the document that substitutes the canceled document in the **Substitution Document No.** field.
+1. In the **Description** field, enter a brief summary according to the SAT cancellation reason definition.
+1. In the **Substitution Number Required** field, specify whether a substitution number is required according to the SAT cancellation reason definition.
 1. Close the page.
+
+When you cancel a posted document with reason **01**, specify the replacement document in the **Substitution Document No.** field on that document, not on the cancellation reason.
 
 ## Map key data to the CFDI fields
 
 You can let [!INCLUDE [prod_short](../../includes/prod_short.md)] map relevant fields to the data structure that is required by CFDI by using the **Set up Mexican CFDI information** assisted setup guide, or you can map the fields manually.  
 
-### Assisted setup
+### Use assisted setup
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Mexican CFDI information**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Mexican CFDI information**, and then choose the related link.
 1. Follow the steps in the **Set up Mexican CFDI information** assisted setup guide to map information about your company and how you use [!INCLUDE [prod_short](../../includes/prod_short.md)] to the various fields in the CFDI files.
 
-### Manual setup
+### Map fields manually
 
 If you prefer to map the fields yourself, then you must update the following pages:
 
@@ -149,30 +158,30 @@ If you prefer to map the fields yourself, then you must update the following pag
 
 #### Map your country codes to the values that SAT requires
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Countries/Regions**, and then choose the related link.
 1. In the **SAT Country Code** field, specify the country code required for reporting to the Mexican tax authorities (SAT).
 1. Repeat steps 1-2 for all country codes.
 
 #### Map your units of measure to the values that SAT requires
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Units of Measure**, and then choose the related link.
 1. In the **SAT UofM Classification** field, specify the unit of measure required for reporting to the Mexican tax authorities (SAT).
 1. Repeat steps 1-2 for all units of measure.
 
-#### Configure SAT Tax Regime Classification
+#### Configure SAT tax regime classification
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SAT Tax Schemas**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **SAT Tax Schemas**, and then choose the related link.
 1. Fill in the fields as appropriate. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
 #### Map your payment methods to the values that SAT requires
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
-1. In the **SAT Method of Payment** field, specify the payment method for paying the Mexican tax authorities (SAT).
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Methods**, and then choose the related link.
+1. In the **SAT Method of Payment** field, specify the SAT code that describes how the customer pays the invoice.
 1. Repeat steps 1-2 for all payment methods.
 
 #### Map your payment terms to the values that SAT requires
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Terms**, and then choose the related link.
 1. In the **SAT Payment Form** field, specify the number of the SAT payment form.
 1. Repeat steps 1-2 for all payment terms.
 

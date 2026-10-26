@@ -1,14 +1,15 @@
 ---
-title: How to set up payment line information [NO]
+title: Set Up Payment Line Information in the Norwegian Version [NO]
 description: Learn how to set up payment journal line information for remittance payments on the Payment Info page in the Norwegian version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment journal line, remittance payment, payment info, Norwegian version
-ms.date: 05/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up payment line information in the Norwegian version
@@ -17,14 +18,15 @@ Payment journal line information for the remittance payment is set up on the **P
 
 ## Set up payment line information  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.  
+1. Select the vendor payment line that you want to configure.
 1. Choose the **Payment Info** action.  
 1. On the **Payment Info** page, on the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Remittance Account Code**|Select the remittance account code.|  
-    |**Remittance Agreement Code**|Specify the agreement code assigned to the account code.|  
+    |**Remittance Agreement Code**|Shows the agreement code assigned to the remittance account. This field is read-only.|
     |**Remittance Type**|Specify the remittance type assigned to the account code. Remittance types include **Domestic** and **Foreign**.|  
 
 1. On the **Domestic** FastTab, fill in the fields as described in the following table.  
@@ -33,7 +35,7 @@ Payment journal line information for the remittance payment is set up on the **P
     |---------------------------------|---------------------------------------|  
     |**Recipient Ref. 1 – 3**|Specify the payment text, which is sent to the vendor.|  
     |**KID (Cust. id number)**|Specify the number sent to the vendor during payment.|  
-    |**Our Account. No.**|Specify the account number for your company.|  
+    |**Our Account No.**|Specify the customer number that the vendor has assigned to your company.|
     |**External Document No.**|Specify the number of the external document.|  
     |**Payment Type Code Domestic**|Specify the payment type code that is assigned to the payment.|  
 

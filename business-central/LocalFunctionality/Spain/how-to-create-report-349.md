@@ -1,15 +1,16 @@
 ---
-title: Create Report 349 [ES]
+title: Create Report 349 in the Spanish Version [ES]
 description: Learn how to use the Spanish version of Business Central to electronically submit the report 349 declaration to the tax authorities.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: report 349 declaration, create report 349, report 349 creation, report 349, Spanish version
 ms.search.form: 10736
-ms.date: 05/26/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create report 349 in the Spanish version
@@ -18,7 +19,7 @@ You must submit a periodic report of trade with other EU countries/regions to th
 
 ## Create report 349  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 349 Declaration**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Make 349 Declaration**, and then choose the related link.  
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

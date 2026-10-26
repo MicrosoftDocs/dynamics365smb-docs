@@ -1,14 +1,15 @@
 ---
-title: How to Set Up Payment Days and Non-Payment Periods
+title: Set Up Payment Days and Non-Payment Periods
 description: Learn how to set up payment days and non-payment periods to accurately calculate due dates for sales and purchase documents in Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: set up payment days, set up non-payment periods, calculate due dates, payment days, non-payment periods, Spanish version
-ms.date: 05/28/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up payment days and non-payment periods
@@ -23,7 +24,7 @@ For sales and purchase invoices, the customer and vendor payment days and non-pa
 
 ## Set up payment days and non-payment periods for a company  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Company Information**, and then choose the related link.  
 1. Expand the **Payments** FastTab.  
 1. Fill in the fields as described in the following table.  
 
@@ -41,14 +42,14 @@ For sales and purchase invoices, the customer and vendor payment days and non-pa
 
 ## Set up payment days for customers and vendors  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** or enter **Vendors**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Customers** or enter **Vendors**, and then choose the related link.  
 1. Select the required customer or vendor, and then choose the **Payment Days** action.  
 1. On the **Payment Days** page, in the **Payment Day** field, enter the payment day for the customer or vendor.  
 1. Choose the **OK** button.  
 
 ## Set up non-payment periods for customers and vendors  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** or enter **Vendors**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Customers** or enter **Vendors**, and then choose the related link.  
 1. Select the required customer or vendor, and then choose the **Non-Payment Periods** action.  
 1. Fill in the fields as described in the following table.  
 

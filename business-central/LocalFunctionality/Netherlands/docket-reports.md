@@ -1,14 +1,15 @@
 ---
-title: Docket Reports [NL]
+title: Docket Reports for Dutch Telebanking
 description: The Dutch telebanking app lets you combine ledger entries for a customer or vendor into a single payment or collection order to the bank.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: Dutch telebanking, combine ledger entries, single payment, collection order, docket report, same transaction mode, Dutch version, Netherlands
-ms.date: 03/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Docket reports in the Dutch version

@@ -1,17 +1,21 @@
 ---
-title: How to Create Electronic Documents for EHF
-description: Learn how to create and submit electronic documents for public sector customers in compliance with EHF requirements.
+title: Create Electronic Documents for EHF
+description: Learn about the legacy Norwegian EHF workflow for posting sales invoices and creating electronic documents with customer references and invoicing details.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create electronic documents, create e-documents, EHF, post sales invoice, create electronic invoice, create e-invoice, Norwegian version
-ms.date: 05/12/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create electronic documents for EHF
+
+> [!NOTE]
+> This article describes the older EHF invoicing workflow. For new electronic invoicing setups, use the E-Documents framework instead. Learn more in [Set up e-documents](../../finance-how-setup-edocuments.md) and [Electronic invoicing in Norway](ehf-electronic-invoicing-in-norway.md#new-e-documents-framework).
 
 When you sell goods or services to a customer in the public sector, you must submit documents electronically. In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. Learn more in [Set Up EHF](how-to-set-up-ehf.md) and [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md).
 
@@ -22,7 +26,7 @@ Electronic documents can only be created after a document has been posted or iss
 
 ## Post a sales invoice  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Sales Invoices**, and then choose the related link.  
 1. Select the sales invoice that you want to post, and then choose the **Edit** action.  
 1. On the **General** FastTab, make sure that the following fields contain values:  
 
@@ -49,7 +53,7 @@ Electronic documents can only be created after a document has been posted or iss
 
 ## Create an electronic sales invoice  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Posted Sales Invoices**, and then choose the related link.  
 1. Select the relevant sales invoice.  
 1. Choose the **Create Electronic Invoice** action.  
 

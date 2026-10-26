@@ -1,18 +1,19 @@
 ---
-title: Calculating Due Dates [ES]
-description: Learn how to submit an annual report of purchases and sales for payments that were made before or after the due date.
+title: Due Date Calculation in Business Central for Spain
+description: Learn how payment terms, due date limits, payment days, and nonpayment periods affect due date calculations in Business Central for Spain.
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: submit annual report, due date calculation, payment terms, overdue payments, Spanish version
 ms.search.form: 7000048
-ms.date: 05/26/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Calculating due dates in the Spanish version
+# Calculate due dates in the Spanish version
 
 In Spain, there's a legal limit for the number of days that a payment can be delayed. You must submit an annual report of purchases and sales for payments that were made before or after the due date. The legal requirements depend on whether the customer is a private company or a public administration. Learn more about the official declaration [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) on the Boletín Oficial del Estado website.
 

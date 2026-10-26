@@ -1,33 +1,33 @@
 ---
-title: How to Define Debit and Credit Amounts
+title: Define Debit and Credit Amounts
 description: In the Italian version of Business Central, the Debit Amount and Credit Amount fields are included in multiple journals and tables.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: debit amount field, credit amount field, customer ledger entry, vendor ledger entry, general journal, define debit amount, define credit amount, Italian version
-ms.date: 05/20/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Define debit and credit amounts
 
-The **Debit Amount** and **Credit Amount** fields are included in multiple journals and tables, including the **General Journal**, **Cust. Ledger Entry** table, and **Vendor Ledger Entry** table. The debit and credit amounts must match in the journals and tables, or you'll be unable to post or save.  
+Use **Debit Amount** or **Credit Amount** to enter the amount for a general journal line. The corresponding fields also appear in customer and vendor ledger entries. A journal line doesn't need equal values in both fields. The transaction must balance when you post it.
 
 ## Steps to define debit and credit amounts  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **General Journal**, and then choose the related link.  
 1. Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Debit Amount**|Enter the debit amount.|  
-    |**Credit Amount**|Enter the credit amount.|  
+    |**Debit Amount**|Enter the amount to debit the account on this line.|
+    |**Credit Amount**|Enter the amount to credit the account on this line.|
 
-    > [!WARNING]  
-    > The **Debit Amount** and **Credit Amount** fields must match. If the amounts are different, you will not be able to post or save the journal.  
+1. Enter a balancing account or additional journal lines so that the transaction balances.
 
-1. Choose the **OK** button.  
+You can save journal lines before the transaction is balanced. The transaction must balance before you post it.
 
 ## Related information
 

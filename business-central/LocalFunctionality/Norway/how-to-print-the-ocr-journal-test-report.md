@@ -1,24 +1,26 @@
 ---
-title: Print the OCR journal - Test report
-description: Learn how to print the OCR Journal Test report to test imported payment transactions in the cash receipt journal.
+title: Print the OCR Journal - Test Report
+description: Print the Norwegian OCR journal test report in Business Central to review imported payment transactions, OCR warnings, and dimensions before posting.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: OCR Journal Test report, test imported payment transactions, reconcile conflicts
 ms.search.form: 15000100, 255
-ms.date: 05/13/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Print the OCR journal - Test report
+# Print the OCR journal test report
 
-You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.  
+You can use **OCR control report** on the **Cash Receipt Journal** page to test imported payment transactions. The report request page is captioned **General Journal - Test**. Review warnings and resolve conflicts before posting the payments.
 
-## Print the OCR journal – Test report  
+## Print the OCR journal test report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OCR Journal - Test**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Cash Receipt Journals**, and then choose the related link.
+1. Open the journal batch with the imported payments, and then choose **OCR control report**.
 1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

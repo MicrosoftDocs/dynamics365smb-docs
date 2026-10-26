@@ -1,32 +1,35 @@
 ---
-title: compressed depreciation of fixed assets [IT]
-description: You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
+title: Set Up Compressed Depreciation of Fixed Assets
+description: Learn how to summarize compatible fixed asset depreciation amounts in the general ledger while retaining individual asset entries in Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: compressed depreciation, fixed assets, compressed fixed asset depreciation, compressed depreciation set up, Italian version
-ms.date: 05/21/2025
+ms.date: 10/21/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up compressed depreciation of fixed assets
 
-You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass. You can choose to post only the depreciation totals of assets that are grouped by category. This is particularly important for companies that have multiple fixed assets divided into many individual items.  
+Use **Compress Depreciation** to summarize compatible depreciation amounts in the general ledger when you post a fixed asset journal. The entries for individual fixed assets are retained.
 
-When you calculate depreciation, one line is generated for each fixed asset. For example, posting depreciations for 100 assets generates 100 lines that are posted to both the general ledger and fixed asset ledger entries.  
+For example, a journal with depreciation lines for 100 assets can produce fewer general ledger entries when the grouping values match. Each asset retains its own depreciation entries.
 
-## Process
+The grouping uses the fixed asset posting type, fixed asset posting group, depreciation book, document number, reason code, posting date, and dimension set. It isn't based directly on the fixed asset subclass.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
+## Enable compressed depreciation
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Depreciation Books**, and then choose the related link.  
 1. On the **Depreciation Book List** page, select the relevant depreciation book, and then choose the **Edit** action.  
-1. To post only the depreciation totals of assets that are grouped by category, on the **Depreciation Book Card** page > **General** FastTab, select the **Compress Depreciation** checkbox.  
-
-    > [!NOTE]  
-    > Multiple depreciation lines are then compressed in the general ledger and are displayed in a single entry that is divided by fixed asset categories.  
+1. On the **Depreciation Book Card** page > **General** FastTab, select the **Compress Depreciation** checkbox.
 
 1. Choose the **OK** button.  
+
+> [!NOTE]
+> Lines with different posting groups, dates, dimensions, or other grouping values remain separate.
 
 ## Related information
 

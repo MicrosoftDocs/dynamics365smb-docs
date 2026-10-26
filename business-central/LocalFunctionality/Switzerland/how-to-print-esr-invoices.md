@@ -1,18 +1,22 @@
 ---
-title: How to print ESR invoices [CH]
-description: Learn how to print an Einzahlungsschein mit Referenznummer (ESR) payment slip invoices and coupons.
+title: Print ESR Invoices in the Swiss Version [CH]
+description: Review the earlier Swiss ESR workflow for printing payment slips with sales invoices or as separate coupons, including bank and reference options.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: ESR payment slip, payment slip, payment slip invoice, payment slip coupon, Swiss version
 ms.search.form: 3010531, 3010532
-ms.date: 04/29/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Print ESR invoices in the Swiss version
+
+> [!NOTE]
+> This article describes the earlier ESR payment-slip workflow. Learn about QR-bills in [QR-bill management](ui-extensions-qr-bill-management.md).
 
 You can print an Einzahlungsschein mit Referenznummer (ESR) payment slip in the following ways:  
 
@@ -28,7 +32,7 @@ The sales invoice ESR report corresponds with the sales invoice that is accompan
 
 The following procedure describes how to print ESR sales invoices, but the same steps also apply for printing ESR coupons.
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Invoice ESR**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Invoice ESR**, and then choose the related link.  
 1. In the **Sales Invoice ESR** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

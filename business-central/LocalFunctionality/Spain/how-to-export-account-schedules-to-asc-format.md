@@ -1,14 +1,15 @@
 ---
-title: How to Export Financial Reports to ASC Format
-description: Export financial report data to a digital file format approved by Spanish tax authorities for specific annual reports.
+title: Export Financial Reports to ASC Format
+description: Learn how to export financial report data to ASC format in Business Central for Spain and configure the options for the annual report file.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: financial reports, ASC format, annual reports, Spanish version
-ms.date: 05/27/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Export financial reports to ASC format
@@ -20,9 +21,9 @@ You can export financial report data into a digital file format approved by the 
 - Cuenta de PyG Abreviado  
 - Cuenta de PyG Normal  
 
-## Process
+## Export a financial report
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Financial Reports**, then choose the related link.  
 1. On the **Financial Reports** page, select the relevant report name, and then choose the **Edit Financial Report** action.  
 1. On the **Financial Report** page, choose the **Export Report to ASC format** action.  
 1. On the **Export Report to ASC format** page, on the **Options** FastTab, enter information into the relevant fields.  

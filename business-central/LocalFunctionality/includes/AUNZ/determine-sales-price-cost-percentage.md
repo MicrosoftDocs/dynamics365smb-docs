@@ -1,10 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 10/08/2026
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 Use the cost-plus percentage field to set a sales price based on the cost of an item. Business Central calculates the unit price from the item's unit cost and the cost-plus percentage that you enter. This functionality eliminates the need for spreadsheets to determine percentage-based sales prices.
@@ -28,5 +29,7 @@ Use the cost-plus percentage field to set a sales price based on the cost of an 
 1. On a line, set the **Asset Type** field to **Item**, and then select the item in the **Asset No.** field.
 1. In the **Cost-plus %** field, enter the percentage to add to the item's unit cost.
 
-   Business Central multiplies the item's unit cost by 1 plus the cost-plus percentage, and then fills in the **Unit Price** field with the result. If you also enter a **Discount Amount**, it's subtracted from the calculated unit price.
+   Business Central multiplies the item's unit cost by 1 plus the cost-plus percentage, and then fills in the **Unit Price** field with the result. For a different unit of measure, the calculation also uses its quantity per unit of measure.
+
+   **Cost-plus %** and **Discount Amount** are alternatives. Entering either field clears the other. If you enter a **Discount Amount**, Business Central subtracts it from the item's unit price, adjusted for the unit of measure, rather than from a cost-plus price.
 1. Repeat these steps for other items on the price list.

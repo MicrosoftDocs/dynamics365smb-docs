@@ -1,13 +1,14 @@
 ---
-title: New Zealand local functionality
-description: These articles describe the local functionality in the New Zealand version of Business Central.
+title: New Zealand Local Functionality
+description: Explore New Zealand features for GST, withholding tax, electronic invoices, banking, and financial reports in Dynamics 365 Business Central.
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: New Zealand, local functionality
-ms.date: 07/15/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # New Zealand local functionality
@@ -21,7 +22,7 @@ The following articles describe local functionality that is unique to the New Ze
   - [Set Up Withholding Tax](how-to-set-up-withholding-tax.md) **Available Now**
   - [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md) **Available Now**
   - [Set Up Goods and Services Tax Posting](how-to-set-up-goods-and-service-tax-posting.md) **Available Now**
-  - [Set Up Vendors Without ABN for Calculating Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md) **Available Now**
+  - [Set Up Vendors Without IRD Numbers for Calculating Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md) **Available Now**
   - [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md) **Available Now**
   - [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
   - [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md) **Available Now**  
@@ -48,7 +49,7 @@ The following articles describe local functionality that is unique to the New Ze
 - General
   - [Addresses](addresses.md) **Available Now**
   - [Determine Sales Price by Cost Plus Percentage](how-to-determine-sales-price-by-cost-plus-percentage.md) **Available Now**
-  - [Enter New Zealand Business Numbers](how-to-enter-new-zealand-business-numbers.md) **Available Now**  
+  - [Enter New Zealand IRD Numbers](how-to-enter-new-zealand-business-numbers.md) **Available Now**
   - [New Zealand Inland Revenue Department Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md) **Available Now**  
 
 ## Future legislation requirements being investigated

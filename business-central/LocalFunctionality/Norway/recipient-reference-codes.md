@@ -1,14 +1,15 @@
 ---
-title: Recipient reference codes [NO]
+title: Recipient Reference Codes in the Norwegian Version [NO]
 description: Learn about the message sent to the recipient and shown on the remittance account, based on the recipient reference code.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: remittance account, recipient reference, Norwegian version, recipient reference code
-ms.date: 05/16/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Recipient reference codes in the Norwegian version

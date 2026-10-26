@@ -1,14 +1,15 @@
 ---
-title: Bank Accounts for Electronic Payments [ES]
-description: Learn how to use Business Central to set up bank accounts and vendor bank accounts to make electronic payments.
+title: Set Up Bank Accounts for Electronic Payments in Spain
+description: Learn how to configure bank and vendor bank accounts for electronic payments in Business Central for Spain, including export and remittance details.
 author: brentholtorf   
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic payment, bank accounts, vendor bank accounts, Spanish version
-ms.date: 05/28/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up bank accounts for electronic payments in the Spanish version
@@ -17,7 +18,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up bank acc
 
 ## Set up bank accounts for electronic payments  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Card**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Bank Account Card**, and then choose the related link.  
 1. On the **Transfer** FastTab, make sure that the **CCC Bank No.**, **CCC Bank Branch No.**, **CCC Control Digits**, and **CCC Bank Account No.** fields are filled in correctly.  
 1. On the **Transfer** FastTab, fill in the fields as described in the following table.  
 
@@ -34,7 +35,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up bank acc
 
 ## Set up vendor bank accounts for electronic payments  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Bank Account Card**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Vendor Bank Account Card**, and then choose the related link.  
 1. On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

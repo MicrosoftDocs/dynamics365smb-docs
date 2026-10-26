@@ -1,14 +1,15 @@
 ---
-title: How to issue delivery reminders [CH]
-description: Learn how to issue and print delivery reminders after creating them to notify vendors effectively. 
+title: Issue Delivery Reminders in the Swiss Version [CH]
+description: Issue delivery reminders in the Swiss version of Business Central, print them for vendors, and review the resulting delivery reminder ledger entries.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: issue delivery reminders, print delivery reminders, Swiss version
-ms.date: 04/29/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Issue delivery reminders in the Swiss version

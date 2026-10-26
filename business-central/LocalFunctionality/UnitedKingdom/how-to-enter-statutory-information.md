@@ -1,6 +1,6 @@
 ---
 title: Enter Statutory Information [UK]
-description: Statutory details are on the Statutory FastTab of the Company Information page.
+description: Enter registered company details on the Statutory FastTab of Company Information in the British version of Business Central for use in reports.
 author: brentholtorf  
 ms.topic: how-to
 ms.devlang: al
@@ -9,7 +9,7 @@ ms.search.form: 1
 ms.date: 02/18/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Enter statutory information in the British version
@@ -18,7 +18,7 @@ To comply with legal requirements, statutory information is available on the **S
 
 ## Enter statutory information  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Company Information**, and then choose the related link.
 1. On the **Statutory** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

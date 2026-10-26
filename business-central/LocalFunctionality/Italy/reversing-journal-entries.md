@@ -1,24 +1,26 @@
 ---
-title: Reversing Journal Entries [IT]
+title: Reversing Journal Entries in the Italian Version [IT]
 description: Reversing Journal Entries feature introduces controls on the Reverse Transaction Entries page to ensure compliance with Italian legal requirements.
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: reversing journal entries, Italian version
-ms.date: 05/23/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Reversing journal entries in the Italian version
 
-Controls are added to the **Reverse Transaction Entries** page to comply with local laws. These controls prevent you from performing the following actions:  
+The Italian version adds checks to journal transaction reversal:
 
-- You can't reverse an invoice, credit note, or document involving VAT management.  
-- You can't reverse posted invoices, credit memos, or debit memos.  
-- You can't delete posted invoices, credit memos, or general journals in the sales, purchase, or service area—even if they have been printed.  
-- You can't reverse sales, purchase, or service headers for reserved documents.  
+- You can't use **Reverse Transaction** for entries whose **Document Type** is **Invoice** or **Credit Memo**.
+- A transaction can't be reversed after its G/L book entry has a progressive number from final printing.
+- VAT entries must pass the reversal checks, including checks that they aren't closed or already reversed.
+
+These checks don't mean that every transaction involving VAT is blocked. Journal reversal is also different from correcting a posted sales or purchase document. Use the correction or credit memo workflow appropriate to that document.
 
 ## Related information
 

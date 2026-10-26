@@ -1,15 +1,16 @@
 ---
-title: Set up 340 reports for small businesses [ES]
-description: Learn how to set up 340 reports for small businesses in Spain on cash basis, that is, Cash Accounting Criteria (CAC)
+title: Set Up Report 340 for Cash Accounting in Spain
+description: Learn how to configure unrealized VAT posting for cash accounting criteria (CAC) and report 340 in the Spanish version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: 340 reports, small business, unrealized VAT, cash basis, cash accounting criteria, CAC, Spanish version
 ms.search.form: 10737, 10738, 10744
-ms.date: 05/28/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up 340 reports for small businesses in the Spanish version
@@ -22,9 +23,9 @@ After VAT posting is set up to handle unrealized VAT, any printed sales order, p
 
 ## Set up reporting under CAC  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.  
 1. On the **General** FastTab, select the **Unrealized VAT** checkbox on the **General Ledger Setup** page. Choose the **OK** button.  
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Posting Setup**, and then choose the related link.  
 1. On the **VAT Posting Setup** page, select a group to modify or create a posting group that has general ledger accounts to treat the VAT amounts for the various unrealized VAT accounts in your VAT Posting Setup, and then choose the **Edit** action.  
 1. On the **General** FastTab, set the **Unrealized VAT Type** to **Percentage**.  
 1. On the **Sales** and **Purchase** FastTabs, specify general ledger accounts for the various **VAT Unreal. Account** fields.  

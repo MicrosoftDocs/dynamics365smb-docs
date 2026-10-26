@@ -1,14 +1,15 @@
 ---
-title: How to Export Electronic Payments [ES]
+title: Export Electronic Payments in the Spanish Version [ES]
 description: In Business Central, you can export payment journal entries to files using four different payment standards, each supported by specific pages.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: export payment journal entries, export electronic payments, payment standards, cartera module, payment journal, payment orders, Spanish version
-ms.date: 05/27/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Export electronic payments in the Spanish version
@@ -27,7 +28,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 
 ## Export electronic payments using the Payment Orders page  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Orders**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Orders**, and then choose the related link.  
 1. Select the documents that you want to pay.  
 1. Choose the **Export to File** action.  
 
@@ -39,16 +40,14 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Bank Account No.**|Select the bank account from which the payments are exported.|  
-    |**Settle Date**|Specify the date when the export is transmitted to the bank. This date is the posting date for the payment journal entries that are exported.|  
-    |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date doesn't match the settle date.|  
+    |**Delivery Date**|Specify the delivery date of the electronic payment.|
     |**Expenses Code**|Specify who is responsible for the payment expenses.|  
     |**Shared (Only International Transf.)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
     |**Payment Order Concept.**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you don't select this field, the bank sends the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that are printed by this process. One document is always printed so that it can be mailed to the payee.|  
 
-1. Choose the **Print** or the **Preview** action to see the created payment file.  
+1. Choose **Print** to generate and download the payment file. **Preview** shows the remittance advice without generating the export file.
 
    The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** are exported. The data is exported to a file that is formatted according to the N34 or N34.1 standard format. In addition, remittance advice is printed, which is suitable for mailing to each payee.  
 
@@ -57,7 +56,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 
 ## Export electronic payments using the Payment Journal page  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.  
 1. Select the documents that you want to pay.  
 1. Choose the **Related** > **Payments** > **Electronic Payments** > **Export**.  
 
@@ -77,7 +76,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you don't select this field, the bank sends the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that are printed by this process. One document is always printed so that it can be mailed to the payee.|  
 
-1. Choose the **Print** or the **Preview** action to see the created payment file.  
+1. Choose **Print** to generate the payment file. **Preview** shows the remittance advice without generating the export file.
 
    The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** are exported. The data is exported to a file that is formatted according to the selected payment standard. In addition, remittance advice is printed, which is suitable for mailing to each payee.  
 
@@ -88,7 +87,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 
 ## Export electronic payments from the Cartera module  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PO - Export N34.1**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **PO - Export N34.1**, and then choose the related link.  
 1. Fill in the fields as described in the following table.  
 
     |Field|Description|  

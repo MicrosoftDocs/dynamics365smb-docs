@@ -1,15 +1,16 @@
 ---
-title: Set Up Vendors for Remittance [NO]
-description: Learn how to set up vendors for remittance to automate payments and minimize manual entry errors.
+title: Set Up Vendors for Remittance in the Norwegian Version [NO]
+description: Set up Norwegian vendors for remittance payments in Business Central, including remittance accounts, recipient references, and foreign bank details.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: vendors for remittance,, remittance vendors, remittance setup, Norwegian version, remittance payments
+ms.search.keywords: vendors for remittance, remittance vendors, remittance setup, Norwegian version, remittance payments
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up vendors for remittance in the Norwegian version
@@ -18,7 +19,7 @@ ms.reviewer: v-soumramani
 
 ## Set up a vendor for remittance  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Vendors**, and then choose the related link.  
 1. Choose the **Edit** action.  
 1. On the **General** FastTab, fill in the fields as described in the following table.  
 

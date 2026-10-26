@@ -1,14 +1,15 @@
 ---
-title: How to export VAT statements in XML format
-description: Export VAT statements as XML files for electronic submission to the Spanish tax authorities.
+title: Export VAT Statements in XML Format
+description: Learn how to export a VAT statement as an XML file in Business Central for Spain, select VAT entries, and review the XML transference format.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: export VAT statements, VAT XML format, Spanish version
-ms.date: 05/27/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Export VAT statements in XML format
@@ -19,7 +20,7 @@ Learn more at the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=2
 
 ## Steps to export a VAT statement in XML format  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **VAT Statement**, and then choose the appropriate link.  
 1. Select the required VAT statement, and then choose the **Generate XML file** action.  
 
     > [!IMPORTANT]  

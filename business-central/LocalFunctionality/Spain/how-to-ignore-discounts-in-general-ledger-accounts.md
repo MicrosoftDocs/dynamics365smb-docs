@@ -1,14 +1,15 @@
 ---
-title: How to Ignore Discounts in General Ledger Accounts
-description: Learn how to set up general ledger accounts in Business Central for Spain to exclude payment and invoice discounts.
+title: Ignore Discounts in General Ledger Accounts
+description: Learn how to select Ignore Discounts on a general ledger account in Business Central for Spain to exclude payment and invoice discounts.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: exclude payment discounts, exclude invoice discounts, ignore discounts, general ledger account discount, G/L account discount, Spanish version
-ms.date: 05/27/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Ignore discounts in general ledger accounts
@@ -17,7 +18,7 @@ Some general ledger accounts don't accept payment discounts or invoice discounts
 
 ## Steps to ignore discounts in general ledger accounts  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Chart of Accounts**, and then choose the related link.  
 1. Choose the **New** action to open the **G/L Account Card** page.  
 1. Expand the **Posting** FastTab.  
 1. To ignore the discounts, select the **Ignore Discounts** checkbox.  

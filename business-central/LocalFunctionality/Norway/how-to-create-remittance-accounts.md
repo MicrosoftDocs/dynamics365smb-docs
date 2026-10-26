@@ -1,15 +1,16 @@
 ---
-title: Create remittance accounts [NO]
+title: Create Remittance Accounts in the Norwegian Version [NO]
 description: Learn how to create a remittance account for each bank account used for payments in the Norwegian version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create remittance account, remittance account, remittance payment, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/12/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Create remittance accounts in the Norwegian version
@@ -21,7 +22,7 @@ You must create one remittance account for each bank account where payment is ma
 
 ## Create a remittance account  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Account Overview**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Remittance Account Overview**, and then choose the related link.  
 1. Choose the **New** action.  
 1. On the **Remittance Account Card** page, on the **General** FastTab, fill in the fields as described in the following table.  
 
@@ -62,7 +63,7 @@ You must create one remittance account for each bank account where payment is ma
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Currency Code**|Specify the currency that is used for the bank account.<br><br/> If the account is a currency account, the currency code must be given.|  
-    |**Recipient Ref. Aboard**|Specify the template text that displays on the vendor card. This field is for foreign payments only.|  
+    |**Recipient Ref. Abroad**|Specify the template text that displays on the vendor card. This field is for foreign payments only.|
     |**Futures Contract No.**|Specify the number of the futures contract, if the transaction is linked to a futures contract.|  
     |**Futures Contract Exch. Rate**|Specify the exchange rate for the futures contract.|  
 

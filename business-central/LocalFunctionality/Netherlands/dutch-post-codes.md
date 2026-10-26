@@ -1,14 +1,15 @@
 ---
-title: Dutch Post Codes
+title: Dutch Post Codes in Business Central
 description: Subscribe to receive post codes and updates for your business. These updates are useful for marketing and relationship management activities.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: post codes, post code updates, Dutch version, Netherlands, marketing, receive post codes, relationship management
-ms.date: 03/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Dutch post codes

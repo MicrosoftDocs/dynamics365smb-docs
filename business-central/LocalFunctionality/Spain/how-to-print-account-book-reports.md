@@ -1,14 +1,15 @@
 ---
-title: How to print account book reports [ES]
+title: Print Account Book Reports in the Spanish Version [ES]
 description: Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: print account book reports, official account book, official account summarized book, Spanish version
-ms.date: 05/28/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Print account book reports in the Spanish version
@@ -22,7 +23,7 @@ When sending these reports to the authorities or auditors, you can include addit
 
 ## Print an official account book report  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account - Official Acc. Book**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Account - Official Acc. Book**, and then choose the related link.  
 1. In the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -37,7 +38,7 @@ When sending these reports to the authorities or auditors, you can include addit
 
 ## Print an official account of a summarized book report  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Official Acc.Summarized Book**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Official Acc.Summarized Book**, and then choose the related link.  
 1. In the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

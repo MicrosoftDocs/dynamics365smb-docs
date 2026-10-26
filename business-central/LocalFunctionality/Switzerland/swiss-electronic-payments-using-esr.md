@@ -1,18 +1,22 @@
 ---
-title: Swiss Electronic Payments Using ESR [CH]
+title: Swiss Electronic Payments Using ESR in the Swiss Version [CH]
 description: Learn about the different tasks you can accomplish with the Einzahlungsschein mit Referenznummer (ESR) electronic payment method debtor service.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: ESR, ESR payment, ESR electronic payment, ESR payment method, debtor service, bill open invoices, Swiss version
 ms.search.form: 3010531, 3010532
-ms.date: 04/30/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Swiss electronic payments using ESR in the Swiss version
+
+> [!NOTE]
+> This article describes the earlier ESR payment-slip workflow. Learn about QR-bills in [QR-bill management](ui-extensions-qr-bill-management.md).
 
 The Einzahlungsschein mit Referenznummer (ESR) electronic payment method is an electronic debtor service. It allows the customer to bill open invoices in Swiss Francs (CHF) and Euros (EUR). It also enables efficient posting of incoming payments. The reference number, or code line, contains all relevant bookkeeping data.  
 

@@ -1,15 +1,15 @@
 ---
-title: Change VAT Setup in Journals
+title: Change VAT Setup in Journals in the United Kingdom
 description: Add VAT setup information to journal lines if necessary. If items are entered without VAT, there's no need to manually remove VAT setup information.
 author: brentholtorf
-ms.topic: install-set-up-deploy
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, VAT setup, journal lines, British version
 ms.search.form: 39
 ms.date: 02/18/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Change VAT setup in journals
@@ -18,7 +18,7 @@ You can add VAT setup information to journal lines if needed in the British vers
 
 ## Change VAT setup in journals  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **General Journals**, and then choose the related link.
 1. On the **General Journal** page, choose the button in the **Batch Name** field.  
 1. On the **General Journal Batches** page, on the **Home** tab, choose **New**.  
 1. Enter information into the required fields.  

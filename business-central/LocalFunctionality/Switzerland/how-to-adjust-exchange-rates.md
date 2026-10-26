@@ -1,14 +1,15 @@
 ---
-title: How to Adjust Exchange Rates [CH]
+title: Adjust Exchange Rates in the Swiss Version [CH]
 description: Learn how to use the official VAT currency conversion rates set by the Federal Tax Administration for taxable sales in foreign currencies.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT official rate, currency conversion, adjust exchange rates, taxable sales, Swiss version
-ms.date: 04/28/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Adjust exchange rates in the Swiss version
@@ -22,15 +23,15 @@ You can run this batch job as often as you like, however make sure that you alwa
 > [!NOTE]  
 > When using a report currency, make sure that the **VAT Exchange Rate Adjustment** field on the **General Ledger Setup** page is set to **No Adjustment**.  
 
-Learn more at the [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999) website, which provides information about VAT and foreign currencies, see  
+Learn more at the [ESTV website](https://go.microsoft.com/fwlink/?LinkId=285999), which provides information about VAT and foreign currencies.
 
 ## Adjust an exchange rate  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Currencies**, and then choose the related link.  
 1. Choose the **Exch. Rates** action.  
 1. On the **Currency Exchange Rates** page, enter the official VAT rate per period for each currency in the **VAT Exch. Rate Amount** and the **Relational VAT Exch. Rate Amt** fields.  
 1. Choose the **OK** button.  
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Exchange Rates**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Adjust Exchange Rates**, and then choose the related link.  
 1. On the **Options** FastTab, fill in the fields as described in the following table.
 
     |Field|Description|  

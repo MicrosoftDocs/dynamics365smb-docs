@@ -12,6 +12,6 @@ When a partial payment or prepayment is made, you must calculate Goods and Servi
 
 ## Calculate GST on prepayments  
 
-1. Choose the ![Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../../includes/open-search.md)], enter **General Ledger Setup**, and then choose the related link.  
 1. On the **Local Functionalities** FastTab, select the **Full GST on Prepayment** checkbox to calculate GST for the total invoice amount when a prepayment invoice is posted.  
 1. Choose the **OK** button.  

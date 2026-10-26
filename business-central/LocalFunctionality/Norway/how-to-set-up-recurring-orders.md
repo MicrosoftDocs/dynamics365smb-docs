@@ -1,23 +1,24 @@
 ---
-title: How to Set Up Recurring Orders
-description: Learn how to set up recurring orders by adding a recurring group to a blanket sales order.
+title: Set Up Norwegian Recurring Sales Orders
+description: Set up Norwegian recurring sales orders in Business Central by assigning a recurring group to a blanket sales order and defining the quantity to ship.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: recurring order, blanket sales order, recurring group, Norwegian version
-ms.date: 05/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up recurring orders
 
-After you create a recurring group, you can set up recurring orders on the blanket sales order by adding the group to the order. For more information, see [Create Blanket Sales Orders](how-to-set-up-recurring-groups.md).  
+After you create a recurring group, you can set up recurring orders on the blanket sales order by adding the group to the order. Learn more in [Work with blanket sales orders](../../sales-how-to-create-blanket-sales-orders.md).
 
 ## Steps to set up a recurring order  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Blanket Sales Orders**, and then choose the related link.  
 1. Choose the **New** action.  
 1. On the **General** FastTab, fill in the fields as described in the following table.  
 

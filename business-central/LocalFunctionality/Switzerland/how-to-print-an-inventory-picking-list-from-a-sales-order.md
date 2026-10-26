@@ -1,14 +1,15 @@
 ---
-title: Print an Inventory Picking List from a Sales Order in Switzerland
-description: Learn how to print an inventory picking list directly from a sales order in the Swiss version of Business Central.
+title: Print a Sales Order Picking List in Switzerland
+description: Print an inventory picking list from a sales order in the Swiss version of Business Central, with location, bin, and shipping quantity information.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: inventory picking list, print picking list, Swiss version
-ms.date: 04/29/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Print an inventory picking list from a sales order in the Swiss version
@@ -24,7 +25,7 @@ The picking list includes only those items with a shipping quantity greater than
 
 ## Print an inventory picking list from a sales order  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 1. Select the required sales order, and then choose the **Edit** action.  
 1. Choose the **Picking List** action.  
 1. On the **Options** FastTab, in the **No. of Copies** field, enter the required number of copies.  

@@ -1,15 +1,15 @@
 ---
-title: Self-responsible declaration of the computer billing system in Spain
+title: Compliance with the Spanish Regulations
 description: Learn how Business Central meets Spain’s requirements in Article 13 of Royal Decree 1007/2023 and Article 15 of Order HAC/1177/2024.
 author: altotovi
-ms.topic: article
+ms.topic: reference
 ms.devlang: al
 ms.search.keywords: bookkeeping, law, compliance, verifactu, e-document, sif, spain, es, royal decree, order, certificate, self-responsible, declaration
-ms.search.form: 
-ms.date: 01/21/2026
+ms.date: 10/20/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Compliance with the Spanish regulations
@@ -39,6 +39,8 @@ In this article, you can find and download the self-responsibility declarations 
 - [Legal Landing Page - Spanish](https://www.microsoft.com/es-es/business-applications/legal/legal-landing-page/)
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+## Try Business Central
+
+[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

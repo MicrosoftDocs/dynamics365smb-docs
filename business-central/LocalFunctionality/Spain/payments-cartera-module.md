@@ -1,13 +1,14 @@
 ---
-title: Payments Cartera Module
-description: Manage payables documents from generated from purchase invoices or the Cartera Journal using the Payments Cartera module.
+title: Payments Cartera Module in Business Central for Spain
+description: Learn how the Payments Cartera module in Business Central for Spain manages payables documents from purchase invoices and the Cartera Journal.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: manage payable documents, payments cartera module, purchase invoices, cartera journal, payment orders, Spanish version
-ms.date: 05/29/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Payments cartera module

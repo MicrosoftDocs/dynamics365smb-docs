@@ -6,10 +6,11 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: Swiss General Ledger Accounts, General Ledger Accounts enhancements, Swiss version
 ms.search.form: 11500
-ms.date: 04/30/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Swiss general ledger accounts
@@ -36,7 +37,7 @@ The data type is set to text for the general ledger account number or account co
 - 119.0  
 - 1190  
 
-## Viewing temporary balances in general journals
+## View temporary balances in general journals
 
 Before posting a general journal, you can preview the effect that posting would have on the balances of certain general ledger accounts. You can open a statistics page that shows the balances of the accounts, and the balances of the active lines that included the unposted values for the current journal. Learn more in [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md).  
 

@@ -1,14 +1,15 @@
 ---
-title: Report 349 [ES]
-description: Learn how to use Business Central to prepare and submit Report 349, the periodic declaration of trade with other EU countries/regions required by Spanish tax authorities.
+title: Report 349 in the Spanish Version [ES]
+description: Learn how Business Central for Spain prepares report 349 for EU trade, uses delivery operation codes, and handles corrections to earlier declarations.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: report 349, delivery operation codes, item setup, Spanish version
-ms.date: 05/29/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Report 349 in the Spanish version

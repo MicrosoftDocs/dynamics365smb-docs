@@ -1,30 +1,32 @@
 ---
-title: How to set up initial item costs [IT]
+title: Set Up Initial Item Costs in the Italian Version [IT]
 description: Learn how to set up initial item costs using the Before Start Item Cost page in the Italian version of Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: configure initial item costs, set up item costs, initial item cost, before start item cost, Italian version
-ms.date: 05/22/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Set up initial item costs in the Italian version
 
-When you set up [!INCLUDE[prod_short](../../includes/prod_short.md)] in your organization, you must define initial item costs.
+Use **Before Start Item Cost** when fiscal valuation needs quantities and costs from before you started using [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 On the **Before Start Item Cost** page, you can enter information about inventory items, such as component costs, routing costs, and overhead costs.  
 
 ## Set up initial item costs  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Before Start Item Cost**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Before Start Item Cost**, and then choose the related link.  
 1. Choose the **New** action.  
-1. Enter information into the required fields. This includes the **Starting Date**, **Purchase Quantity**, **Purchase Amount**, **Production Quantity**, and **Production Amount** fields.  
+1. Select **Item No.**, and enter **Starting Date**. Enter the historical **Purchase Quantity**, **Purchase Amount**, and **Production Quantity** that apply to the item.
+1. Enter the production cost components in **Direct Components Amount**, **Direct Routing Amount**, **Overhead Routing Amount**, and **Subcontracted Amount**. The read-only **Production Amount** is calculated from those fields.
 1. Choose the **OK** button.  
 
-The entries in this page are used to calculate the average year cost. For more information, see Item Cost History List and Calculate End Year Costs.  
+The fiscal cost calculation uses these records as historical input. They don't post inventory quantities or general ledger entries. Run **Calculate End Year Costs**, and review the results on **Item Cost History List**.
 
 ## Related information
 

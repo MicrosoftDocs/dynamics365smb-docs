@@ -1,14 +1,15 @@
 ---
-title: Calculating distribution amounts [NZ]
-description: Learn how to maintain account balances in proportion by reallocating amounts between general ledger accounts.
+title: Calculating Distribution Amounts in the New Zealand Version [NZ]
+description: Learn how to reallocate amounts between general ledger accounts with recurring journal allocations in the New Zealand version of Business Central.
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: maintain account balance proportion, general ledger accounts, reallocate amounts, New Zealand version
-ms.date: 05/05/2025
+ms.date: 10/23/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Calculating distribution amounts in the New Zealand version

@@ -1,14 +1,15 @@
 ---
-title: Print General Ledger Setup Information [CH]
+title: Print General Ledger Setup Information in the Swiss Version [CH]
 description: Run the G/L Setup Information report in Business Central to review and verify the master data you configured before starting daily operations.
 author: brentholtorf
-ms.topic: install-set-up-deploy
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: G/L setup information, G/L setup, general setup information, Swiss version
-ms.date: 04/29/2025
+ms.date: 10/19/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Print general ledger setup information in the Swiss version
@@ -17,7 +18,7 @@ Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] in the daily
 
 ## Print general ledger setup information  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Setup Information**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **G/L Setup Information**, and then choose the related link.  
 1. On the **Options** FastTab, in the **Setup Information** field, select the master data area as described in the following table.  
 
     |Option|Description|  

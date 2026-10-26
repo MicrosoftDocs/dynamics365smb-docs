@@ -1,31 +1,35 @@
 ---
-title: Iceland W1 core app setup
-description: This article provides instructions about delocalization of the Icelandic version of Dynamics 365 Business Central.
+title: Icelandic Localization With the IS Core App
+description: Learn how the Icelandic IS Core app provides local features on the W1 base app, migrates existing data, and differs from the earlier manual setup.
 author: altotovi
-ms.topic: install-set-up-deploy
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: delocalization, core app, core app setup
-ms.date: 02/06/2025
+ms.date: 10/23/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Iceland W1 core app setup
 
-Microsoft completed the delocalization process for the Icelandic version of [!INCLUDE[prod_short](../../includes/prod_short.md)] from version 24.0. The new Icelandic localization uses the W1 base app, and all localization features are delivered as apps. The migration isn't enabled by default. Users must do it manually when they decide that they want to complete this process.
+The Icelandic localization of [!INCLUDE[prod_short](../../includes/prod_short.md)] based on the W1 base app was introduced in version 24.0. Local features are delivered as apps.
 
-To complete the migration to new localization model, follow these steps:
+In current versions, the IS Core app transfers existing localization data once during an app upgrade.
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Iceland Core App Setup**, and then select the related link.
+## Manual transition in version 24.0
+
+The following steps describe the manual transition introduced in version 24.0. **Iceland Core App Setup** was removed in version 27.0.
+
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Iceland Core App Setup**, and then select the related link.
 1. Select the **Enabled** field to enable the Iceland core app.
-
-    > [!NOTE]
-    > This process includes data migration. Therefore, after you enable the Iceland core app, you can't turn it on again.
-
 1. Select **Next**.
-1. Select the **I accept the data update** field to confirm that you understand the update procedure and agree to proceed. We highly recommend that you select the **Review Affected Data** link to review the affected data.
+1. Select **I accept the data update** to confirm that you understand the update procedure and agree to proceed. We recommend selecting **Review Affected Data** to review the affected records.
 1. Select **Finish**.
+
+> [!NOTE]
+> This process includes data migration. Review the affected data before you finish.
 
 ## Related information
 

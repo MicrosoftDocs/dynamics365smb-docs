@@ -1,20 +1,21 @@
 ---
-title: Test Remittance Payments [NO]
+title: Test Remittance Payments in the Norwegian Version [NO]
 description: Learn how to test payment journal lines for errors before posting, after setting up remittance payments and generating suggestions.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: test remittance payments, remittance test report, payment journal lines, remittance payments, Norwegian version
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 05/14/2025
+ms.date: 10/20/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Test remittance payments in the Norwegian version
 
-After setting up remittance payments and generated suggestions, you can test the payment journal lines for errors before posting them.  
+After setting up remittance payments and generating suggestions, you can test the payment journal lines for errors before posting them.
 
 To test the payment journal lines, you can use the **Remittance Test** report. This report prints an overview of all journal lines together with any errors, such as missing fields or incorrect bank accounts.  
 
@@ -22,7 +23,7 @@ If a warning is printed in the test report, you can't transfer the payments to t
 
 ## Print a remittance test report  
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Payment Journals**, and then choose the related link.  
 1. Choose the **Test Report** action.  
 1. On the **Options** FastTab, select the **Show Dimensions** field to print dimensions on the test report.  
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  

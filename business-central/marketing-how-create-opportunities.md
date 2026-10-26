@@ -1,11 +1,12 @@
 ---
-title: Create Sales Opportunities
-description: Learn how to create opportunities from a salesperson or a contact in Business Central.
+title: Create Sales Opportunities from Contacts
+description: Create sales opportunities from contacts or salespeople in Business Central, assign a sales cycle, and track potential sales with the responsible salesperson.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

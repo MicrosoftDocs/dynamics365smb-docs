@@ -4,7 +4,7 @@ description: Learn how to upload and use the KLADR address classifier for Russia
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: KLADR, Russian address classifier, upload addresses, tax inspection, Russia
-ms.date: 07/22/2025
+ms.date: 10/26/2026
 ms.reviewer: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central

@@ -1,25 +1,25 @@
 ---
 title: Contact - Labels (report)
-description: Print mailing labels with the names and addresses of your contacts.
+description: Print mailing labels with contact names and addresses, using preset sizes and column counts, with the Contact Labels report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5056_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Contact - Labels (report)
+# Contact - labels (report)
 
-The **Contact - Labels** report shows mailing labels with the names and addresses of your contacts. For example, you can use the report to review contact information before you send sales and marketing campaign letters.
+The **Contact Labels** report shows mailing labels with the names and addresses of your contacts. For example, you can use the report to review contact information before you send sales and marketing campaign letters.
 
-The report request page lets you select the size of the labels and how many columns to print them in.
+On the report request page, select a preset **Format**: 36 x 70 mm or 37 x 70 mm with three columns, or 36 x 105 mm or 37 x 105 mm with two columns.
 
 ## Use cases
 

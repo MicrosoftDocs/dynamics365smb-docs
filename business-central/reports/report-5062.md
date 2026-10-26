@@ -1,21 +1,21 @@
 ---
 title: Sales Cycle - Analysis (report)
-description: Get an overview about your sales cycles.
+description: Review sales cycle stages, opportunity counts, estimated and calculated current values, and average days with the Sales Cycle - Analysis report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5062_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Sales Cycle - Analysis (report)
+# Sales cycle - analysis (report)
 
 The **Sales Cycle - Analysis** report shows information about your sales cycles. The report includes details about the sales cycle. For example, you can review the current number of opportunities, their estimated and calculated values, and so on.
 

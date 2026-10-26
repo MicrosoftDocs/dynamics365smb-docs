@@ -1,21 +1,21 @@
 ---
 title: Segment - Contacts (report)
-description: Review the distribution of contacts across segments.
+description: Review contacts in selected segments, including addresses, salespeople, interaction counts, costs, and opportunity values, with this Business Central report.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5063_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Segment - Contacts (report)
+# Segment - contacts (report)
 
 The **Segment - Contacts** report shows a list of the contacts selected in one or more segments.
 

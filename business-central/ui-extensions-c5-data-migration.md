@@ -6,7 +6,8 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: extension, migrate, data, C5, import
 ms.search.form: 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1874, 1882, 1883, 1884, 1885, 1886, 1888, 1890, 1891, 1892, 1893, 1894, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1906
-ms.date: 12/11/2023
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -115,11 +116,11 @@ Use the **Data Migration Overview** page to monitor the success of the migration
 
 ## How to avoid double-posting
 
-To help avoid double-posting to the general ledger, the following balance accounts are used for open transactions:  
+To help avoid double-posting to the general ledger, the C5 data migration extension uses the following balance accounts for open transactions:
 
-* For vendors, we use the A/P account from the vendor posting group.  
-* For customers, we use the A/R account from the customer posting group.  
-* For items, we create a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.  
+* For vendors, the A/P account from the vendor posting group.
+* For customers, the A/R account from the customer posting group.
+* For items, the extension creates a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.
 
 ## Correcting errors
 

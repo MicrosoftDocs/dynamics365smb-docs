@@ -6,7 +6,8 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: use tax, purchase tax, sales tax
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 02/04/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

@@ -7,7 +7,8 @@ ms.topic: article
 ms.reviewer: jswymer
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 249, 575, 1279
-ms.date: 06/16/2021
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
@@ -28,7 +29,7 @@ To enable the **EU VAT Reg. No. Validation Service**, open the entry in the **Se
 
 Optionally, set up templates for the types of VAT-related data that you want the service to also check. For more information, see the [Validation templates](#validation-templates) section.
 
-When you use our service connection, we record a history of VAT numbers and verifications for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you have taken action.
+When you use this service connection, [!INCLUDE [prod_short](includes/prod_short.md)] records a history of VAT numbers and verifications for each customer, vendor, or contact in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you have taken action.
 
 You can view the VAT Registration log on the Customer, Vendor, or Contact cards, on the **Invoicing** FastTab, by choosing the lookup button in the **VAT Registration No.** field.  
 

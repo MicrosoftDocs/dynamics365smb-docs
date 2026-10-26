@@ -1,28 +1,30 @@
 ---
 title: Segment - Cover Sheet (report)
-description: Get or print cover sheets for your segments. 
+description: Create cover sheets for contacts in segments, add text and remarks, and optionally log interactions with the Segment - Cover Sheet report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5064_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Segment - Cover Sheet (report)
+# Segment - cover sheet (report)
 
-The **Segment - Cover Sheet** report shows cover sheets for your segments. To print the report, on the **Segment** page, choose **Print Cover Sheets**.
+The **Segment - Cover Sheet** report shows cover sheets for contacts in your segments. This report differs from the **Contact Cover Sheet** report that opens when you choose **Print Cover Sheets** on the **Segment** page.
 
 The report request page lets you customize the results:
 
-- Enter the text include on the cover sheet.
-- Allow a remark to display with a checkmark on the cover sheet. You can also enter your own comment.
+- Enter the text to include on the cover sheet.
+- Select remarks to mark with an x on the cover sheet. To add your own comment, select **Custom remark** and enter **Custom remark text**.
+
+You can also select **Log Interaction** when an interaction template is configured for cover sheets in **Interaction Template Setup**. Previewing the report doesn't log an interaction.
 
 ## Use cases
 

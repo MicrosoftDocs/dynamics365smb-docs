@@ -1,25 +1,25 @@
 ---
 title: Segment - Labels (report)
-description: Print labels with the names and addresses of contacts for your segments.
+description: Print names and addresses for contacts in a segment, using preset label sizes and column counts, with the Segment - Labels report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5065_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Segment - Labels (report)
+# Segment - labels (report)
 
 The **Segment - Labels** report shows labels for your segments. The labels contain the names and addresses of your contacts. To print the report, on the **Segment** page, choose **Print Labels**.
 
-The report request page lets you select the size of the labels and in how many columns to print them.
+On the report request page, select a preset **Format**: 36 x 70 mm or 37 x 70 mm with three columns, or 36 x 105 mm or 37 x 105 mm with two columns.
 
 ## Use cases
 

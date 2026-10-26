@@ -1,11 +1,12 @@
 ---
-title: Set up opportunity sales cycles and cycle stages
+title: Set Up Opportunity Sales Cycles and Cycle Stages
 description: Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119, 5098, 5096
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -34,9 +35,9 @@ Repeat these steps to set up as many sales cycles as you want. After you set up 
 
 Repeat these steps to set up as many stages as you want within the sales cycle.
 
-## Assign stage cycles to opportunities
+## Assign sales cycles to opportunities
 
-After you add the opportunities stage cycle, you can start to add sales opportunities, and then assign the stage cycle to opportunities by setting the **Sales Cycle Code** field. Learn more in [Create Sales Opportunities](marketing-how-create-opportunities.md).
+After you define a sales cycle and its stages, assign the cycle to an opportunity in the **Sales Cycle Code** field. Learn more in [Create sales opportunities](marketing-how-create-opportunities.md).
 
 ## Set up activities with tasks
 
@@ -48,7 +49,7 @@ You can combine multiple tasks, such as tasks that each represent a step, in act
 
 ## Assign tasks or activities of tasks to opportunities
 
-After you set up a task, you can assign it to a sales opportunity, which also assigns the activity that the task belongs to.
+You can create an individual task for an opportunity or assign an activity to create the activity's tasks. Creating one task doesn't automatically assign an activity.
 
 > [!NOTE]
 > You can't create tasks of type **Meeting** in [!INCLUDE [prod_short](includes/prod_short.md)] online. The capability requires access to an on-premises deployment.

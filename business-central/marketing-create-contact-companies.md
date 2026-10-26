@@ -1,12 +1,13 @@
 ---
-title: Create business contacts
-description: Outlines the tasks needed to create contacts and define your business relationships on the Contact Card.
+title: Create and Link Business Contacts
+description: Create contacts in Business Central, create related customer or vendor records, and link existing records to keep shared contact information synchronized.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: relationship, prospect
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -54,12 +55,12 @@ The next contact numbers in the number series are assigned to the new contacts. 
 
 ## Create a customer, vendor, employee, or bank account from a contact
 
-If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronize Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronize-contacts-with-customers-vendors-employees-and-bank-accounts).
+If you have a contact but don't yet have the related customer, vendor, employee, or bank account, use the **Create as** action. This action creates the related record from the contact and links the records so that their shared information stays synchronized. If the related record already exists, use **Link with existing** instead. Learn more at [Synchronize contacts with customers, vendors, employees, and bank accounts](#synchronize-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Before you can create customers, vendors, employees, or bank accounts from contacts, you must specify a business relation code on the **Marketing Setup** page on the **Interactions** FastTab. Learn more at [Set up Contacts](marketing-setup-contacts.md).
 >
->Also, you must also have at least one template set up for each of them. For example, to create a customer from a contact, you must have a customer template.
+> You might also need to select a template, such as a customer template. Creating a bank account from a contact doesn't require a bank account template.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, then choose the related link.
 2. Select the contact you want to create as a customer, vendor, employee, or bank account.
@@ -113,7 +114,7 @@ There are three ways to enable data synchronization between contacts and custome
 ## View which customer, vendor, employee, or bank account a contact is related to
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Contacts**, and then choose the related link.
-2. Select the line for a contact, choose the **Related Information** action, and then choose the **Customer/Vendor/Bank Account/Employee** action.
+2. Open the contact card, choose **Related Information**, and then choose **Customer**, **Vendor**, **Bank Account**, or **Employee**. Only actions for existing relationships are available.
 
 ## Related information
 

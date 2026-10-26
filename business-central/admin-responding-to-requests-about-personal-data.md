@@ -5,7 +5,8 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
-ms.date: 11/14/2024
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -48,7 +49,7 @@ You can still mark people as blocked due to privacy and export, edit, or delete 
 If you must export data that isn't classified in a way so that it's automatically exported, such as data from the Profile Answers table, you must take the following actions:
 
 * Consider whether you really must export supplemental data that isn't directly related to the contact.
-* Add the table and relationship manually to the Rapid Start package and export it directly from the Rapid Start package. We generate a Rapid Start package for you, so that you can tweak it in such situations.
+* Add the table and relationship manually to the RapidStart configuration package and export the data directly from the package. The **Data Privacy Utility** generates the package, which you can modify to include the additional data.
 
 ## Handling data about minors
 

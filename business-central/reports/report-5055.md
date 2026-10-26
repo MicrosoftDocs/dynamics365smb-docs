@@ -1,30 +1,30 @@
 ---
 title: Contact - Cover Sheet (report)
-description: Get cover sheets to send to one or more of your contacts. 
+description: Create cover sheets for contacts, add text and remarks, and optionally log interactions with the Contact - Cover Sheet report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5055_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Contact - Cover Sheet (report)
+# Contact - cover sheet (report)
 
 The **Contact - Cover Sheet** report shows cover sheets to send to one or more of your contacts. You can access the report from the **Contact Card** page.
 
 The report request page lets you customize the report results:
 
 - Enter text to include on the cover sheet.
-- Allow a remark to display with a check mark on the cover sheet. You can also enter your own comment.
+- Select remarks to mark with an x on the cover sheet. To add your own comment, select **Custom remark** and enter **Custom remark text**.
 
-You can also log the interaction when you run the report.
+You can also select **Log Interaction** when an interaction template is configured for cover sheets in **Interaction Template Setup**. Previewing the report doesn't log an interaction.
 
 ## Use cases
 

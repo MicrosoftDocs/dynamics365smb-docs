@@ -6,7 +6,8 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: APACS, checks, Check report
 ms.search.form: 256
-ms.date: 02/18/2021
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

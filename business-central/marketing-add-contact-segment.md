@@ -1,12 +1,13 @@
 ---
-title: Add contacts to segments
-description: Add contacts to a segment after creating it to target specific customers or clients as part of a marketing campaign.
+title: Add Contacts to Marketing Segments
+description: Add contacts to marketing segments in Business Central, then refine or reduce the group to target the right audience for your campaigns.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.search.form: 5091, 5093
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -33,7 +34,7 @@ After selecting the contacts within a segment, you might decide to remove some b
 
 1. Open the segment.
 2. Choose **Contacts**, and then choose the **Refine Contacts** action. The **Remove Contacts - Refine** page opens.
-3. In the **Contact** section, enter filters to specify the information that you want to use to select the contacts to be removed from the segment.
+3. In the **Contact** section, enter filters to specify the contacts to keep in the segment. Contacts that don't match the filters are removed.
 4. Add more filters as needed, and then choose the **OK** button.
 
 You can refine a segment as many times as you want. If you refined the segment by mistake and want to go back one step, choose the **Go Back**.

@@ -1,11 +1,12 @@
 ---
-title: Set up marketing and contact management information
+title: Set Up Marketing and Contact Management
 description: Set up marketing and contact management to strengthen relationships with prospects and customers, and enhance the effectiveness of your campaigns and promotions.
 author: brentholtorf
 ms.topic: concept-article
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -23,7 +24,7 @@ Managing your contacts and having a strategy in place to identify, attract, and 
 
 You set up the marketing and contact management from the **Marketing Setup** page. To open the **Marketing Setup** page, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Marketing Setup**, and then choose the related link.
 
-## Automatically copying specific information from contact companies to contact persons
+## Copy information from companies to contact persons
 
 Some information about contact companies is identical to the information about the contact persons working within these companies, for example, the address details. In the **Inheritance** section of the **Marketing Setup** page, you can set the application to automatically copy specific fields from the contact company card to the contact person card each time you create a contact person for a contact company. For example, you can copy:
 
@@ -37,13 +38,13 @@ Learn more in [Create Contacts](marketing-create-contact-companies.md).
 
 ## Use predefined defaults on new contacts
 
-[!INCLUDE [prod_short](includes/prod_short.md)] can automatically assign a language code, territory code, salesperson code, and country/region code as defaults to each contact you create. You can also enter a default sales cycle code that you automatically assign to each new opportunity.
+[!INCLUDE [prod_short](includes/prod_short.md)] can automatically assign a language code, territory code, salesperson code, and country/region code as defaults to each contact you create. You can also specify a default sales cycle code for new opportunities. [!INCLUDE [prod_short](includes/prod_short.md)] assigns this code automatically if the sales cycle isn't blocked.
 
 The inheritance of fields overwrites the default values you set up. For example, if English is the default language and the contact company's language is German, [!INCLUDE [prod_short](includes/prod_short.md)] assigns German as the language for contacts associated with that company.
 
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
-## Automatically recording interactions
+## Record interactions automatically
 
 [!INCLUDE[prod_short](includes/prod_short.md)] can automatically record sales and purchase documents as interactions (for example, orders, invoices, receipts, and so on), as well as emails, phone calls, and cover sheets.
 

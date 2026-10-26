@@ -1,12 +1,13 @@
 ---
-title: Create and manage company contacts
-description: Record every external person or organization you interact with—such as prospects, customers, vendors, and consultants—as contacts to track relationship details and communications.
+title: Create and Manage Business Contacts
+description: Manage people and companies as contacts in Business Central, record relationship details, classify prospects, and find duplicate contact records.
 author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

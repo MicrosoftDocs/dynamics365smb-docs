@@ -1,5 +1,5 @@
 ---
-title: Set up contact sync with Outlook for Business Central on-premises
+title: Set Up Legacy Outlook Contact Sync On-Premises
 description: Learn how to configure a Business Central on-premises environment to synchronize contacts in Business Central and Outlook.
 author: jswymer
 ms.author: jswymer
@@ -7,6 +7,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-op
 ms.topic: how-to
 ms.date: 09/28/2023
+ai-usage: ai-assisted
 ms.custom: bap-template
 ---
 
@@ -17,11 +18,11 @@ ms.custom: bap-template
 
 In this article, you learn how to set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to synchronize contacts in [!INCLUDE[prod_short](includes/prod_short.md)] with contacts in Outlook. For more information the feature, go to [Synchronize Contacts in Business Central with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## Introduction
+## Authentication requirements for legacy contact sync
 
 Contact synchronization requires using the OAuth 2.0 protocol for authentication with Exchange Online. Previously, basic authentication was also supported, but it's been deprecated and no longer supported with Exchange Online. You can read more about the deprecation at [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). This change means that contact synchronization in Business Central may have stopped working on your on-premises environment. This article will explain how to get it working again.
 
-## Prerequisites
+## Prerequisites for legacy contact sync
 
 - Exchange Online, either a standalone version or through Microsoft 365 plan  
 - Access to the Microsoft Entra tenant used by Exchange Online
@@ -62,6 +63,8 @@ Complete the following steps to set up contact sync. If you're running [!INCLUDE
 
    After the solution you choose is in place, ask users to either run the new/modified page or [connect to Power BI](across-working-with-powerbi.md#connect). They'll only need to do this step once.
 
-## Next steps
+## Related information
 
 [Synchronize Contacts in Business Central with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

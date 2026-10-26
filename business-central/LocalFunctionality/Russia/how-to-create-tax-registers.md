@@ -4,7 +4,7 @@ description: Step-by-step guide to creating tax registers in Russia for tax acco
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: tax registers, create tax registers, Russia
-ms.date: 07/14/2025
+ms.date: 10/26/2026
 ms.reviewer: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central

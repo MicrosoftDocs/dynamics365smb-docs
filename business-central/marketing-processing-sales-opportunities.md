@@ -1,12 +1,13 @@
 ---
-title: Process sales opportunities in sales cycles
-description: Learn how move opportunities through different stages in the sales process.
+title: Process Sales Opportunities in Sales Cycles
+description: Move sales opportunities through sales cycle stages in Business Central, create sales quotes, close deals, and delete closed opportunities.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: relationship, prospect
-ms.date: 10/03/2025
+ms.date: 10/22/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -34,14 +35,14 @@ You can close opportunities when the negotiations are over. When you close an op
 1. On the **Opportunities** page, select the opportunity, and then choose the **Close** action. The **Close Opportunity** page opens.
 2. Fill in the relevant fields, and then choose the **OK** button.
 
-   The **Close Opportunity Code** and **Date Closed** fields are required fields and must be filled in before you can choose the **OK** button.
+   The **Close Opportunity Code** and **Closing Date** fields are required fields and must be filled in before you can choose the **OK** button.
 
    In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**. On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.
 
 ## Create quotes for opportunities
 
 > [!NOTE]
-> You can only create sales quotes from opportunities where the contact type is **Company**.
+> The opportunity must have the status **In Progress** before you can create a sales quote. To start an opportunity that has the status **Not Started**, choose **Activate First Stage**. You can create quotes for company contacts and person contacts. If a person contact is linked to a company, the company is used to find the related customer.
 
 1. On the **Opportunities** page, select the opportunity, and then choose the **Create Sales Quote** action. The **Sales Quote** page opens.
 2. Fill in the relevant fields.
@@ -51,7 +52,7 @@ You can close opportunities when the negotiations are over. When you close an op
 You can make sales orders from the sales quotes that you created for your opportunities. Before you can create sales orders for your contacts, you must create the contact as a customer. Learn more in [Create Contacts](marketing-create-contact-companies.md).
 
 1. On the **Opportunities** page, find the opportunity that you created a sales quote for.
-2. Choose the **Create Sales Quote** action. The **Sales Quote** page opens to show the sales quote that you assigned to the opportunity.
+2. Choose the **Show Sales Quote** action. The **Sales Quote** page opens to show the sales quote that you assigned to the opportunity.
 3. Fill in the other fields, and then choose the **Make Order** action.
 
 When handling sales opportunities, you might need to create a quote for the contact that the opportunity is linked to.
@@ -74,12 +75,12 @@ After you delete an opportunity, [!INCLUDE [prod_short](includes/prod_short.md)]
 
 If an opportunity follows a sales cycle, you can move it to the next or previous stage, and even skip a stage.
 
-1. On the **Opportunity List** page, choose the **Update** action. The **Update Opportunity** opens,
+1. On the **Opportunities** page, select the opportunity, and then choose the **Update** action. The **Update Opportunity** page opens.
 2. Use the **Action Type** field to move the opportunity through the sales cycle stages:
    * **Next** moves the opportunity forward one stage.
-   * **Skip** moves the opportunity forward one or several stages in the sales cycle, which you specify in the **Presentation** field. You can only skip stages that are set up to allow skipping.
+   * **Skip** moves the opportunity forward one or several stages in the sales cycle. Specify the destination in the **Sales Cycle Stage** field. You can only skip stages that are set up to allow skipping.
    * **Previous** moves the opportunity back one stage.
-   * **Jump** moves the opportunity back one or several stages in the sales cycle, which you specify in the **Presentation** field.
+   * **Jump** moves the opportunity back one or several stages in the sales cycle. Specify the destination in the **Sales Cycle Stage** field.
    * **Update** enables you to change information (such as to modify your evaluation of their chances of success and estimated values) without moving to another stage.
 3. Fill in the other fields as needed, and then choose the **OK** button.
 

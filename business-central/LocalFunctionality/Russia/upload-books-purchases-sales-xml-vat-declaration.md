@@ -4,7 +4,7 @@ description: Russian enhancements include books of purchases and sales VAT in XM
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: VAT declaration, VAT report, XML, upload books, purchases, sales, additional sheets, Russia
-ms.date: 07/22/2025
+ms.date: 10/26/2026
 ms.reviewer: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central

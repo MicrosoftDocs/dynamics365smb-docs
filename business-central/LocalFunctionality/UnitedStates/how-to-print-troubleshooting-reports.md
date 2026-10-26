@@ -5,7 +5,8 @@ author: brentholtorf
 ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: troubleshooting reports, Microsoft Certified Partners
-ms.date: 02/04/2025
+ms.date: 10/26/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

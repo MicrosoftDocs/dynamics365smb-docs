@@ -1,23 +1,25 @@
 ---
 title: Campaign - Details (report)
-description: Get an overview about the information related to a campaign.
+description: Review campaign dates, status, costs, opportunity values, related segments, and campaign entries with the Campaign - Details report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5060_Primary
-ms.date: 11/11/2024
+ms.date: 10/22/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Campaign - Details (report)
+# Campaign - details (report)
 
 The **Campaign - Details** report shows information about your campaign. The report includes information such as the campaign number, date, and description, and related campaign entries.
+
+The report also includes related segments, campaign costs and duration, and estimated and calculated current opportunity values in local currency. You can filter campaigns by number, salesperson, starting date, or ending date.
 
 ## Use cases
 

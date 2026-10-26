@@ -4,7 +4,7 @@ description: Russian localization provides features for collecting and reporting
 author: DianaMalina
 ms.topic: concept-article
 ms.search.keywords: profit tax information, tax declaration, Russia
-ms.date: 07/11/2025
+ms.date: 10/26/2026
 ms.reviewer: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central

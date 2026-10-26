@@ -4,7 +4,7 @@ description: Russian localization offers payroll management with salary calculat
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: payroll, salary, wages, deductions, tax, bonus, income tax, tax deduction, Russia
-ms.date: 07/18/2025
+ms.date: 10/26/2026
 ms.reviewer: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central

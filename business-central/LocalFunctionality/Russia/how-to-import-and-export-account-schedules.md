@@ -4,10 +4,11 @@ description: Russian localization allows you to import and export financial repo
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: financial reports, import financial report, export financial report, Russia
-ms.date: 07/15/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Import and export financial reports
@@ -17,7 +18,8 @@ You can import and export financial reports into other companies and databases.
 ## Steps to import and export financial reports
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. Choose the **Import Settings** or the **Export Settings** action. An extensible markup language (XML) file is created for the import or export.
+1. Choose **Show All Row Definitions**, and select the row definition to transfer.
+1. Choose **Export Settings** to create an XML file, or choose **Import Settings** to import an existing XML settings file.
 
 > [!NOTE]
 > When you import financial reports, all existing records with primary key values that are equal to imported values are deleted.

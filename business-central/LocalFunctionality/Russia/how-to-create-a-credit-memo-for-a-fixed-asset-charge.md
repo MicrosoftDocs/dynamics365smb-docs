@@ -4,10 +4,11 @@ description: In Russia, you can create credit memos for fixed asset charges to c
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: credit memo, fixed asset charge, invoice correction, Russia
-ms.date: 07/14/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Create a credit memo for a fixed asset charge

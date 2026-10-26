@@ -4,10 +4,11 @@ description: Russian localization features allow you to manage and track tax dif
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: tax differences, chart of accounts, tax accounting, tax difference journal, tax difference registers, Russia
-ms.date: 07/22/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Tax differences
@@ -29,13 +30,13 @@ To set up and view tax difference entries, you'll use the following tables, whic
 | Tax Diff. Posting Group | Specifies posting groups for tax difference transactions. |
 | Tax Diff. Journal Template | Specifies the journals that are used for posting tax difference entries. |
 | Tax Calc. Corresp. Entry | Specifies tax difference information that is needed for external reports and forms. |
-| Tax Diff. Journal Line | Specifies posted tax difference journal entries. |
+| Tax Diff. Journal Line | Specifies unposted tax difference journal lines. Posted transactions are stored as tax difference ledger entries. |
 
 ## Related information
 
-- [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
-- [Tax Difference Registers](Tax-Difference-Registers.md)  
-- [Tax Accounting](Tax-Accounting.md)  
-- [Tax Registers](Tax-Registers.md)  
+- [Setting up Tax Difference Calculation](setting-up-tax-difference-calculation.md)  
+- [Tax Difference Registers](tax-difference-registers.md)  
+- [Tax Accounting](tax-accounting.md)  
+- [Tax Registers](tax-registers.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

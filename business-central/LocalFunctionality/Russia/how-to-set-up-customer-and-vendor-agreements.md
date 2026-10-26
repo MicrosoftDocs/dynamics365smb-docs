@@ -4,10 +4,11 @@ description: Russian localization provides features for managing customer and ve
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: customer agreement, vendor agreement, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up customer and vendor agreements
@@ -28,7 +29,7 @@ The following procedure shows how to set up an agreement for a customer, but the
 
    | Field | Description |
    |:-|:-|
-   | **Dimension Agreement** | Select a dimension code for agreements. |
+   | **Customer Agreement Dim. Code** | Select a dimension code for customer agreements. For vendors, use **Vendor Agreement Dim. Code** in **Purchases & Payables Setup**. |
    | **Synch. Agreement Dimension** | Select this field to create a dimension value code after agreements is created, and the dimension value codes are equal to the agreement codes. |
    | **Customer Agreement Nos.** | Select the customer agreement number series. |
 
@@ -46,25 +47,26 @@ The following procedure shows how to set up an agreement for a customer, but the
 
    | Field | Description |
    |:-|:-|
-   | **Code** | Enter the code for an agreement. Enter a maximum of 20 characters, both numbers and letters. It's created by default from the number series set up in the General Ledger Setup form. |
+   | **No.** | Enter an agreement number of up to 20 characters. Automatic numbering uses **Agreement Nos.** on the customer or vendor card. |
    | **Description** | Enter the description of the agreement. Enter a maximum of 250 characters, both numbers and letters. |
-   | **Source No.** | Select this field to see the number of the vendor or customer for whom the agreement is created. |
-   | **Source Name** | Enter the name of the vendor or customer for whom the agreement is created. The source name is automatically retrieved from the Vendor or Customer table. |
-   | **Dimension Value Code** | Enter the dimension value code. Enter agreement and dimension functionality. The dimension value code is equal to the agreement code when the **Synch. Agreement Dimensions** field is selected in the **Sales & Receivables Setup** window. |
+   | **External Agreement No.** | Enter the agreement number used by the customer or vendor. |
+   | **Agreement Date** | Enter the date of the agreement. |
    | **Starting Date** | Enter starting date of the period for which you want to use the agreement. |
    | **Expire Date** | Enter the expiration date of the agreement. |
-   | **Blocked** | Select this field to prevent posting of entries on the agreement. When you try to create a document with a blocked agreement, an error message is displayed. An agreement is usually blocked after the expiration date. |
+   | **Blocked** | Select the blocking option that applies to the agreement. The available options depend on whether it's a customer or vendor agreement. |
 
-On the **Navigate** tab, you can find the following functions:
+The agreement belongs to the customer or vendor from whose card you opened **Agreements**. Use the **Dimensions** action to review its default dimensions. When **Synch. Agreement Dimension** is enabled, creating an agreement also creates a dimension value whose code matches the agreement number.
 
-- List - Shows a list of customer or vendor agreements.
-- Ledger Entries - Shows customer or vendor ledger entries posted with this agreement code.
+On the agreement card, you can use the following actions:
 
-The agreements are fully synchronized with dimensions. You can post transactions and choose the dimension value code of the appropriate agreement from the list of agreements.
+- **Ledger Entries**: Shows customer or vendor ledger entries posted with this agreement number.
+- **Dimensions**: Shows default dimensions for the agreement.
+
+Agreement dimension synchronization depends on **Synch. Agreement Dimension** and the agreement dimension code in the corresponding sales or purchases setup.
 
 ## Related information
 
-- [Russian Receivables Reports](Russian-Receivables-Reports.md)  
-- [Russian Payables Reports](Russian-Payables-Reports.md)  
+- [Russian Receivables Reports](russian-receivables-reports.md)  
+- [Russian Payables Reports](russian-payables-reports.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,10 +4,11 @@ description: The Russian localization enables calculation of assessed tax for fi
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: assessed tax, fixed assets, tax calculation, Russia
-ms.date: 07/14/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Calculate assessed tax
@@ -16,15 +17,12 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
 
 To work with the functionality of calculating assessed tax, you must specify the following settings:
 
-\- parameters in the **Fixed Asset Setup** page
+- Configure **Fixed Asset Setup**.
+- Create the required **Tax Authorities**.
+- Fill in company information and the related tax directories.
+- Fill in assessed tax information on the fixed asset cards.
 
-\- create and fill **Tax authorities** page
-
-\- fill in information about the organization
-
-\- create current directories
-
-\- fill in the parameters in the fixed asset cards
+Confirm the applicable tax rates and allowances before you calculate the tax.
 
 ## Calculate assessed tax
 
@@ -47,9 +45,9 @@ To work with the functionality of calculating assessed tax, you must specify the
    | **Region Code** | Specifies a two-character region code that is used together with the Tax Authority No. field to determine the OKATO code. |
    | **Rate %** | Specifies the tax rate for the assessed tax. If there are any tax allowances that reduce the tax rate, they must be included in the rate percentage. |
    | **Dec. Rate Tax Allowance Code** | Specifies a code for the assessed tax allowance code that reduces the calculated assessed tax amount according to the tax allowances directory. This code is defined in the **Assessed Tax Allowance** table. |
-   | **Dec. Amount Tax Allowance Code** | Specifies the amount of an assessed tax allowance. |
+   | **Dec. Amount Tax Allowance Code** | Specifies the code of an allowance that reduces the assessed tax amount. Select a code from **Assessed Tax Allowances**. |
    | **Decreasing Amount** | Specifies the value to be used in the assessed tax calculation if there's a tax allowance that reduces assessed taxes. |
-   | **Exemption Tax Allowance** | Specifies a code for an assessed tax allowance exemption. This code is defined in the **Assessed Tax Allowance** table. |
+   | **Exemption Tax Allowance Code** | Specifies a code for an assessed tax allowance exemption. This code is defined in the **Assessed Tax Allowance** table. |
    | **Decreasing Amount Type** | Specifies whether the decreasing amount value is a percentage or an amount. |
 
 1. Choose the **Close** button.
@@ -67,10 +65,13 @@ To work with the functionality of calculating assessed tax, you must specify the
    | **Tax Amount Paid Abroad** | Specifies the amount of tax that was paid abroad for the fixed asset. |
 
 1. Choose the **OK** button.
-1. To print the assessed tax declaration, you have to first import the declaration template. In the **Fixed Asset Setup** window, select the template name from the **Templates** FastTab.
+
+## Generate the assessed tax report
+
+1. Import the assessed tax report template, and select it on the **Templates** FastTab in **Fixed Asset Setup**.
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Assessed Tax**, and then choose the related link.
 1. In the **Calculate Assessed Tax** window, fill in the **Tax Authority No.**, **Year**, and the **Reporting Period** fields.
-1. Choose the **OK** button.
+1. Choose **OK** to export the calculation to Excel.
 
 ## Related information
 

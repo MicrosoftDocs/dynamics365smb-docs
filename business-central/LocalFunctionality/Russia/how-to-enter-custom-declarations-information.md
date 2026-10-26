@@ -1,100 +1,130 @@
 ---
-title: Entering custom declaration information in Russia
-description: Russian localization includes enhancements for managing customs declarations, enabling tracking, and printing of declaration numbers for imported goods.
+title: Set Up Customs Declaration Tracking in Russia
+description: Set up customs declaration tracking in the Russian version of Business Central to track imported goods and print declaration details on factura-invoices.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: custom declarations, item tracking, item tracking codes, Russia
-ms.date: 07/15/2025
+ms.date: 10/23/2026
 ms.reviewer: v-soumramani
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Custom declaration
-Russian legislation requires companies to record and track the customs declaration number for all imported goods. If a company sells imported goods, it must print the customs declaration number and the country/region of origin on invoices.
+# Track customs declarations in Russia
 
-## Setup
+Use customs declaration tracking to record declaration numbers and countries/regions of origin for imported goods. The **Customs Declaration Tracking for Russia** extension uses package numbers to track goods from purchase to sale and include declaration details on factura-invoice reports.
 
-> [!NOTE]
-> You may need to enable this capability by going to the **Feature Management** page and enable **Feature Update: Use tracking by package number in reservation and tracking system**.
+This extension is for on-premises deployments.
+
+## Set up customs declaration tracking
+
+Set up number formats and item tracking codes before you assign declaration numbers to transactions.
 
 ### Check the format of customs declarations
 
-Custom declarations have a special format. You can verify that your format is correct by choosing **Yes** in the **Check CD No. Format** field on the **Inventory Setup** page.
+To check customs declaration numbers against the formats you specify, turn on **Check CD Number Format** on the **Inventory Setup** page.
 
-You must also specify a format on the **CD Number Format** page. The following table describes the symbols you can use.
+Add the accepted formats on the **CD Number Formats** page. A number must have the same length as a format and match each position. If you specify multiple formats, matching any one of them is enough. The following table describes the symbols you can use.
 
 |Symbol  |Use for|
 |---------|---------|
-|#|Any number.|
-|@|Any Russian or Latin letter.|
-|?|Any character|
+|#|A digit from 0 through 9.|
+|@|A character from the format check's predefined character set, which includes A-Z.|
+|?|Any character.|
 
-All other characters are an exact match.
+All other characters must match exactly. For example, a slash in a format must also appear at that position in the declaration number.
 
 ### Set up item tracking codes
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.
-1. Create new item tracking codes that are used for items that require custom declaration tracking.
-1. Set the **Package Specific Tracking** to **Yes** for the item tracking code.
-1. Choose **CD Tracking Location Setup**, where you can define rules for specific locations. For example, you can configure a foreign location to use temporary customs declaration tracking until the moment the goods cross the border and receive a real customs declaration number.
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Item Tracking Codes**, and then choose the related link.
+1. Create an item tracking code for items that require customs declaration tracking.
+1. Turn on **Package Specific Tracking** for the item tracking code.
+1. Choose **CD Location Setup**, and add a line for each location where you need customs declaration rules. Fill in the fields described in the following table.
+
+   | Field | Description |
+   |:-|:-|
+   | **Location Code** | Specifies the location where the rules apply to this item tracking code. |
+   | **CD Info. Must Exist** | Requires customs declaration information for tracked items at the location. |
+   | **CD Sales Check on Release** | Checks that item tracking quantities match the quantities to handle when you release sales orders or sales return orders. |
+   | **CD Purchase Check on Release** | Checks that item tracking quantities match the quantities to handle when you release purchase orders or purchase return orders. |
+   | **Allow Temporary CD Number** | Allows temporary customs declaration numbers at the location. Turn off this setting where permanent declaration numbers are required. |
+
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Items**, and then choose the related link.
 1. Assign the item tracking code to all items that require customs declaration tracking.
 
-<!-- 
 > [!NOTE]
-> Unlike the Serial or Lot number specific tracking, you can add CD specific tracking to items that have open transactions.
--->
+> Turn on **Package Specific Tracking** before you add location setup. You can't delete a location setup line if an item with that tracking code has item ledger entries at the location.
 
-### Create a customs declaration
+For more information about tracking codes, see [Set up item tracking with serial, lot, and package numbers](../../inventory-how-setup-item-tracking.md).
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Custom Declarations**, and then choose the related link.
+## Create a customs declaration
+
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Customs Declarations**, and then choose the related link.
 1. Create a new customs declaration, and fill in the following fields.
 
    | Field | Description |
    |:-|:-|
-   | **No.** | Specifies the custom declaration number. |
-   | **Description** | Specifies the description of the custom declaration number. |
-   | **Source Type** | Select the source type for the custom declaration. Source types include **Blank**, **Customer**, **Vendor**, and **Item**. |
-   | **Source No.** | Specifies the source number from either the **Customer**, **Vendor**, or **Item List** table. |
-   | **Country of Origin Code** | Specifies the country/region for the customer if all the items in the customs declaration came from the same country/region. Information from this field is copied to lines on the customs declaration. |
+   | **No.** | Specifies the customs declaration header number. |
+   | **Description** | Specifies a description of the customs declaration. |
+   | **Source Type** | Specifies the type of source associated with the declaration. Leave the field blank, or select **Customer**, **Vendor**, or **Item**. |
+   | **Source No.** | Specifies the customer, vendor, or item number, depending on **Source Type**. |
+   | **Country/Region of Origin Code** | Specifies where the items were produced or processed. Selecting a customer or vendor in **Source No.** fills this field with that customer's or vendor's country/region code. Check that the value is the actual country/region of origin. If you change the header value after adding lines, you can confirm that you want to update the country/region on the existing lines. |
    | **Declaration Date** | Enter the date of the customs declaration. |
 
-1. Create lines with items according to the content of the declaration you received from the customs authority.
-1. Choose the **OK** button.
+1. Add lines for the items on the declaration you received from the customs authority. Enter the item number, variant if applicable, declaration tracking number, and country/region for each line.
+1. Close the page.
 
-> [!NOTE]
-> You may want to create a temporary customer declaration to enable scenarios when goods are first received at a custom location. Set **Temporary CD Number** to **Yes** on the lines of the temporary customs declaration. You'll be able to assign permanent customs declaration number when transferring goods to or from customs and your warehouse.
->
-> If you choose **Yes** in the **Check CD No. Format** field on the **Inventory Setup** page, the **Temporary CD Number** field is automatically set based on what you entered in the **CD No** field.
+### Use temporary declaration numbers
 
-### Purchase and sales
+Use temporary numbers when goods arrive before you receive the permanent customs declaration number. Turn on **Allow Temporary CD Number** for the relevant item tracking code and location, and select **Temporary CD Number** on the declaration lines.
 
-The process of assigning a customs declaration number is similar to assigning lot and serial numbers. For more information, see [Assign Serial and Lot Numbers to Items for Tracking](../../inventory-how-work-item-tracking.md#to-assign-serial-or-lot-numbers-during-an-inbound-transaction)
+If **Check CD Number Format** is turned on, Business Central updates **Temporary CD Number** when you enter or change a package number on a declaration line. A number that matches a configured format is marked as permanent. A number that doesn't match any configured format is marked as temporary.
 
-### Change a customs declaration number
+Assign a permanent number before you handle the goods at a location that doesn't allow temporary numbers. For more information about changing tracking numbers, see [Reclassify serial or lot numbers](../../inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
-The process of changing customs declaration numbers is similar to changing lot and serial numbers. For more information, see [Reclassify Serial and Lot Numbers](../../inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers)
+## Assign declaration numbers to transactions
 
-## Print the factura-invoice
+Assign customs declaration numbers through package tracking on the **Item Tracking Lines** page. The process is similar to assigning lot and serial numbers. For more information, see [Assign serial or lot numbers during an inbound transaction](../../inventory-how-work-item-tracking.md#to-assign-serial-or-lot-numbers-during-an-inbound-transaction).
 
-You must print the customs declaration number on Factura-Invoice documents.
+## Print declaration details on factura-invoices
+
+Factura-invoice reports use the assigned tracking numbers and declaration information to print declaration numbers and countries/regions of origin.
+
+Before you generate either report, specify **Factura Template Code** on the **Sales & Receivables Setup** page. Also check that the relevant report is included on the **Report Selection - Sales** page:
+
+| Usage | Report |
+|:-|:-|
+| **Invoice** | **Posted Factura-Invoice (A)**, report 12418. |
+| **UnPosted Invoice** | **Order Factura-Invoice (A)**, report 12411. |
+
+These reports generate Excel workbooks from the configured template. Open the downloaded workbook in Excel to review or print it.
+
+For item lines that require package tracking, assign tracking numbers for the full quantity to ship before printing an unposted factura-invoice. The report checks that the tracked quantity matches **Qty. to Ship**.
 
 ### Print the posted factura-invoice
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoice**, and then choose the related link.
-1. Choose the **Print** action, and then choose **Posted Factura-Invoice**.
-1. Choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen. Choose the **Cancel** action to save the information without printing the report.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Posted Sales Invoices**, and then choose the related link.
+1. Open the invoice.
+1. Choose **Print**. If the **Report Selection - Print** page opens, select **Print Report** for **Posted Factura-Invoice (A)**. Clear the checkbox for any other reports you don't need, and choose **OK**.
+1. Fill in the report options. If you only want to review the invoice without marking it as printed, select the **Preview** checkbox.
+1. Choose **OK** to generate and download the workbook.
+1. Open the workbook in Excel to review or print it.
 
 ### Print the factura-invoice before posting
 
-1. Choose the ![ Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoice**, and then choose the related link.
-1. Choose the **Print** action, and then choose the **Order Factura-Invoice** action.
-1. Choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen. Choose the **Cancel** action to save the information without printing the report.
+1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **Sales Invoices**, and then choose the related link.
+1. Open the invoice.
+1. Complete the invoice and its item tracking assignments, and choose **Release**.
+1. Choose **Print**. If the **Report Selection - Print** page opens, select **Print Report** for **Order Factura-Invoice (A)**. Clear the checkbox for any other reports you don't need, and choose **OK**.
+1. Fill in the report options. If you only want to review the invoice without marking it as printed, select the **Preview** checkbox.
+1. Choose **OK** to generate and download the workbook.
+1. Open the workbook in Excel to review or print it.
 
 ## Related information
 
-- [Russia Local Functionality](russia-local-functionality.md)  
-- [Customizing Business Central Using Extensions](../../ui-extensions.md)  
+- [Russia local functionality](russia-local-functionality.md)
+- [Set up item tracking with serial, lot, and package numbers](../../inventory-how-setup-item-tracking.md)
+- [Customize Business Central using extensions](../../ui-extensions.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

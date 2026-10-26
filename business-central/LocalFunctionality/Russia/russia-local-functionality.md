@@ -4,10 +4,11 @@ description: The following articles describe the local functionality in the Russ
 author: AliiaSalikhova
 ms.topic: article
 ms.search.keywords: Russia, localization, country specific, Russian version
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.date: 07/18/2025
-ms.author: soalex
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Russia local functionality
@@ -18,49 +19,49 @@ There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_
 
 - Core finance
   - [Financial Reports Overview](account-schedules-overview.md) **Available Now**
-  - [Import and Export Financial Reports](How-to-Import-and-Export-Account-Schedules.md) **Available Now**
-  - [Define a Financial Report Extension](How-to-Define-an-Account-Schedule-Extension.md) **Available Now**
-  - [Define a Financial Report Constant](How-to-Define-an-Account-Schedule-Constant.md) **Available Now**
+  - [Import and Export Financial Reports](how-to-import-and-export-account-schedules.md) **Available Now**
+  - [Define a Financial Report Extension](how-to-define-an-account-schedule-extension.md) **Available Now**
+  - [Define a Financial Report Constant](how-to-define-an-account-schedule-constant.md) **Available Now**
   - [Work with Financial Reports](How-to-Work-with-Account-Schedules.md) **Available Now**
   - [General Ledger Correspondence](general-ledger-correspondence.md) **Available Now**
   - [Сurrency](Currency-information-Import-currency-rates.md) **Available Now**
-  - [Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md) **Available Now**
+  - [Set Up Responsible Employees and Advance Statements](how-to-set-up-responsible-employees-and-advance-statements.md) **Available Now**
 
 - Payables and receivables
-  - [Payables and Receivables](Payables-and-Receivables.md) **Available Now**
+  - [Payables and Receivables](payables-and-receivables.md) **Available Now**
   - [Enter Custom Declarations Information](how-to-enter-custom-declarations-information.md) **Available Now**
   - [Set Up and Create Letters of Attorney](how-to-set-up-and-create-letters-of-attorney.md) **Available Now**
   - [Russian Payables Reports](russian-payables-reports.md) **Available Now**
   - [Russian Receivables Reports](russian-receivables-reports.md) **Available Now**
   - [Set Up Customer Prepayments](how-to-set-up-customer-prepayments.md) **Available Now**
   - [Set Up Vendor Prepayments](how-to-set-up-vendor-prepayments.md) **Available Now**
-  - [Posting Vendor and Customer Prepayments](prepayments-vendor-and-customers.md) **Available Now**
+  - [Posting Vendor and Customer Prepayments](Prepayments-Vendor-and-Customers.md) **Available Now**
   - [Prepayment Differences](prepayment-differences-invoices-prepayment-differences.md) **Available Now**
   - [Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md) **Available Now**
 
 - Fixed assets
   - [Fixed Assets](fixed-assets.md) **Available Now**
-  - [Calculate Assessed Tax](How-to-Calculate-Assessed-Tax.md) **Available Now**
-  - [Depreciation Bonus](Depreciation-Bonus.md) **Available Now**
-  - [Fixed Asset Charges](Fixed-Asset-Charges.md) **Available Now**
+  - [Calculate Assessed Tax](how-to-calculate-assessed-tax.md) **Available Now**
+  - [Depreciation Bonus](depreciation-bonus.md) **Available Now**
+  - [Fixed Asset Charges](fixed-asset-charges.md) **Available Now**
   - [Gratuitous Receipt of Fixed Assets](Gratuitous-receipt-of-fixed-assets.md) **Available Now**
-  - [Fixed Asset Inventory](Fixed-Asset-Inventory.md) **Available Now**
-  - [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md) **Available Now**
-  - [Fixed Asset Turnover](Fixed-Asset-Turnover.md) **Available Now**
-  - [Create Future Expense Journals](How-to-Create-Future-Expense-Journals.md) **Available Now**
-  - [Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md) **Available Now**
-  - [Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md) **Available Now**
+  - [Fixed Asset Inventory](fixed-asset-inventory.md) **Available Now**
+  - [Fixed Asset Locations and Employees](fixed-asset-locations-and-employees.md) **Available Now**
+  - [Fixed Asset Turnover](fixed-asset-turnover.md) **Available Now**
+  - [Create Future Expense Journals](how-to-create-future-expense-journals.md) **Available Now**
+  - [Create a Fixed Asset Charge](how-to-create-a-fixed-asset-charge.md) **Available Now**
+  - [Create a Credit Memo for a Fixed Asset Charge](how-to-create-a-credit-memo-for-a-fixed-asset-charge.md) **Available Now**
   - [Selling Fixed Assets](Sale-of-fixed-assets.md) **Available Now**
   - [Release, Track, and Write-Off Fixed Assets](How-to-Release-Track-Write-Off-Fixed-Assets.md) **Available Now**
   - [View Posted Entries on a Fixed Asset Charge](How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md) **Available Now**
-  - [Set Up an Intangible Assets Account](How-to-Set-Up-an-Intangible-Assets-Account.md) **Available Now**
-  - [Account for the Cost to Dispose a Fixed Asset](How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) **Available Now**
-  - [Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md) **Available Now**
+  - [Set Up an Intangible Assets Account](how-to-set-up-an-intangible-assets-account.md) **Available Now**
+  - [Account for the Cost to Dispose a Fixed Asset](how-to-account-for-the-cost-to-dispose-a-fixed-asset.md) **Available Now**
+  - [Undepreciable Fixed Assets](undepreciable-fixed-assets.md) **Available Now**
 
 - VAT
-  - [VAT](VAT.md) **Available Now**
-  - [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md) **Available Now**  
-  - [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md) **Available Now**  
+  - [VAT](vat.md) **Available Now**
+  - [Set Up VAT Ledgers](how-to-set-up-vat-ledgers.md) **Available Now**  
+  - [Prepare VAT Entries for Posting](how-to-prepare-vat-entries-for-posting.md) **Available Now**  
   - [Settlement VAT](Settlement-VAT.md) **Available Now**  
   - [Unload Books of Purchases and Sales in XML. VAT Declaration](upload-books-purchases-sales-xml-vat-declaration.md) **Available Now**
   - [VAT by Customer Prepayments](VAT-by-Customer-prepayments.md) **Available Now**  
@@ -68,27 +69,27 @@ There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_
   - [Vendor Tax Agent Scheme](Vendor-Tax-Agent-scheme.md) **Available Now**  
 
 - Tax accounting
-  - [Tax Accounting](Tax-Accounting.md) **Available Now**
-  - [Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md) **Available Now**  
-  - [Tax Registers](Tax-Registers.md) **Available Now**  
-  - [Create Tax Registers](How-to-Create-Tax-Registers.md) **Available Now**  
-  - [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md) **Available Now**  
-  - [Tax Differences](Tax-Differences.md) **Available Now**  
+  - [Tax Accounting](tax-accounting.md) **Available Now**
+  - [Set Up Tax Accounting](how-to-set-up-tax-accounting.md) **Available Now**  
+  - [Tax Registers](tax-registers.md) **Available Now**  
+  - [Create Tax Registers](how-to-create-tax-registers.md) **Available Now**  
+  - [Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md) **Available Now**  
+  - [Tax Differences](tax-differences.md) **Available Now**  
   - [Accounting for Personal Income Tax Payments](Accounting-for-personal-income-tax-payments.md) **Available Now**  
   - [Upload KLADR](Upload-KLADR.md) **Available Now**  
-  - [Statutory Reports](Statutory-Reports.md) **Available Now**
+  - [Statutory Reports](statutory-reports.md) **Available Now**
 
 - Banking
   - [Bank Management](bank-management.md) **Available Now**
 
 - Inventory
-  - [Inventory](Inventory.md) **Available Now**
-  - [Inventory Setup](Inventory-Setup.md) **Available Now**
-  - [Item Documents](Item-Documents.md) **Available Now**
-  - [Item Obligatory Acts](Item-Obligatory-Acts.md) **Available Now**
-  - [Inventory Act of Receivables And Payables INV-17](Inventory-Act-of-Receivables-And-Payables-INV-17.md) **Available Now**
-  - [Item General Ledger Turnover](Item-General-Ledger-Turnover.md) **Available Now**
-  - [Create the TORG-29 Goods Report](How-to-Create-the-TORG-29-Goods-Report.md) **Available Now**
+  - [Inventory](inventory.md) **Available Now**
+  - [Inventory Setup](inventory-setup.md) **Available Now**
+  - [Item Documents](item-documents.md) **Available Now**
+  - [Item Obligatory Acts](item-obligatory-acts.md) **Available Now**
+  - [Inventory Act of Receivables And Payables INV-17](inventory-act-of-receivables-and-payables-inv-17.md) **Available Now**
+  - [Item General Ledger Turnover](item-general-ledger-turnover.md) **Available Now**
+  - [Create the TORG-29 Goods Report](how-to-create-the-torg-29-goods-report.md) **Available Now**
   - [Bill of Lading](bill-of-lading.md) **2022 release wave 1**
 
 - Human resources
@@ -102,13 +103,13 @@ There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_
 
 ## Future legislation requirements being investigated
 
-Currently, there are no upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, you could submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+This overview doesn't establish current or upcoming legal requirements. Confirm the requirements that apply to your organization with your accounting or tax adviser.
 
 ## Related information
 
-- [Russian Chart of Accounts](Russian-Chart-of-Accounts.md)  
-- [Russian Receivables Reports](Russian-Receivables-Reports.md)  
-- [Russian Payables Reports](Russian-Payables-Reports.md)  
+- [Russian Chart of Accounts](russian-chart-of-accounts.md)  
+- [Russian Receivables Reports](russian-receivables-reports.md)  
+- [Russian Payables Reports](russian-payables-reports.md)  
 - [Special Codes for Company Information, Customers, Vendors](special-codes-company-information-customers-vendors.md)  
 - [Country/Regional Availability and Supported Languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 

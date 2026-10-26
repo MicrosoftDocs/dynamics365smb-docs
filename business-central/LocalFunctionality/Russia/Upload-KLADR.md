@@ -5,9 +5,10 @@ author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: KLADR, Russian address classifier, upload addresses, tax inspection, Russia
 ms.date: 07/22/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Upload KLADR
@@ -24,6 +25,6 @@ Upload of KLADR can be carried out on separate regions as required.
 
 ## Related information
 
-[Tax Accounting](Tax-Accounting.md)  
+[Tax Accounting](tax-accounting.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

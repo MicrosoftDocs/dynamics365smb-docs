@@ -4,10 +4,11 @@ description: Russian localization provides enhanced payables reports for vendors
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: payable reports, general ledger, vendor turnover, vendor accounting card, vendor posting group turnover, vendor entries analysis, vendor reconciliation act
-ms.date: 07/21/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Russian payables reports
@@ -26,7 +27,7 @@ The payables report feature enables you to view the vendor general ledger turnov
 
 The **Vendor General Ledger Turnover** page is an electronic window that shows the vendor turnover for general ledger accounts in the context of vendors.
 
-To access this window, choose the **Financial Management** action, choose the **Payables** action, and then choose the **Turnover** action. This window contains all the information about a vendor's entries, including the general ledger entries with the source type vendor and the amounts in local currency (LCY).
+Search for **Vendor G/L Turnover** to open the page. It shows vendor turnover amounts in local currency (LCY).
 
 The lines of the window contain the information listed in the following table.
 
@@ -47,15 +48,15 @@ The **Vendor General Ledger Turnover** report is used to analyze turnover and fo
 
 The following procedure shows how to access the **Vendor General Ledger Turnover** report.
 
-1. Choose the **Financial Management** action, choose the **Payables** action, and then choose the **Turnover** action.
-1. Choose the **Vendor G/L Turnover** action, choose the **Print** action, and then choose the **G/L Turnover** action.
+1. Search for **Vendor G/L Turnover**, and open the page.
+1. Choose **Print** > **G/L Turnover**.
 
 The **Options** FastTab contains the fields listed in the following table.
 
 | Field | Description |
 |--|--|
 | **Rounding Precision** | Select this field to choose the required rounding precision such as 0.001, 0.01, 1, or 1000. |
-| **Replace zero values by blanks** | Select this field to replace zero values with blanks during printing. |
+| **Blank zero values** | Select this field to replace zero values with blanks during printing. |
 | **Skip zero lines** | Select this field to exclude lines with zero values. |
 
 ## Vendor accounting card report (Report 12445)
@@ -75,10 +76,10 @@ This report is printed monthly and on the date of inventory, but can be printed 
 
 The following procedure shows how to access the **Vendor Accounting Card** report.
 
-1. Choose the **Financial Management** action, choose the **Payables** action, and then choose the **Turnover** action.
-1. Choose the **Vendor G/L Turnover** action, choose the **Print** action, and then choose the **Vendor Accounting Card** action.
+1. Search for **Vendor G/L Turnover**, and open the page.
+1. Choose **Print** > **Accounting Card**.
 
-The **Vendor** FastTab of the request page contains the same fields as the **Vendor** FastTab of the **Vendor General Ledger Turnover** report. On the **Options** FastTab, you can select the **New page for Vendor** check box to print the information for each vendor on a separate page.
+The **Vendor** FastTab includes vendor, posting group, dimension, agreement, and date filters. On the **Options** FastTab, select **New Page per Vendor** to print each vendor on a separate page.
 
 ## Vendor turnover report (Report 12444)
 
@@ -116,7 +117,7 @@ The **Vendor Posting Group Turnover** report is used to print information on the
 
 To access the **Vendor Posting Group Turnover** report:
 
-1. Choose the **Financial Management** action, choose the **Payables** action, choose the **Reports** action, and then choose the **Vendor Posting Group Turnover** action.
+1. Search for **Vendor Posting Group Turnover**, and open the report.
 
 1. On the **Vendor Posting Group** FastTab of the request page, you can specify the vendor posting group code or a range of vendor posting group codes, depending on whether you want to print the report for one vendor posting group, or for a range of vendor posting groups.
 
@@ -138,7 +139,7 @@ This report enables you to determine the invoice and payment interdependence, an
 
 To access the **Vendor Entries Analysis** report:
 
-1. Choose the **Financial Management** action, choose the **Payables** action, choose the **Reports** action, and then choose the **Vendor Entries Analysis** action.
+1. Search for **Vendor Entries Analysis**, and open the report.
 
 1. On the **Vendor** FastTab of the request page, you can define the vendor number or a range of numbers, depending on whether you want to print the report for one vendor or for many vendors. On the **Options** FastTab, you can specify the format options listed in the following table.
 
@@ -146,7 +147,7 @@ To access the **Vendor Entries Analysis** report:
    |--|--|
    | **Starting Date** | Select this option to specify the start date of the period. |
    | **Ending of period** | Select this option to specify the end date of the period. |
-   | **Report Currency** | Select this option to specify the currency you want to use in the report. You can choose:   -   **Local currency** -   **Transaction currency** |
+   | **Report Currency** | Select **LCY** or **Entry Currency** for the report amounts. |
    | **New Page For Vendor** | Select this option to print the data for each vendor on a separate page. |
 
 ## Vendor Reconciliation Act report (Report 14911)
@@ -155,24 +156,24 @@ The **Vendor Reconciliation Act** report shows the payments or liabilities of th
 
 To access the **Vendor Reconciliation Act** report:
 
-Choose the **Financial Management** action, choose the **Payables** action, choose the **Reports** action, and then choose the **Vendor Reconciliation Act** action.
+Search for **Vendor Reconciliations**, and open the report. Before you run it, configure **C/V Recon. Act Template Code** in **General Ledger Setup**. Choose **OK** to export the reconciliation to Excel.
 
 The following levels of details are possible:
 
-- Full Detail
-- Partial Detail
+- All
+- Partially
 - None
 
 ### Full detail
 
-If Full Detail is selected as the detail level, the report prints the following data for each document for the current and previous periods:
+If **Show Details** is **All**, the report includes the following data for each document for the current and previous periods:
 
 - Document number and the numbers of the documents connected with it.
 - The balance on each document (debit or credit)
 - Document date
 - Description
 
-The report prints the following on the right side of the window (vendor's data) if **Print Contactor Data** is active on the **Options** FastTab of the request page:
+When **Print Customer Data** is selected, the report also includes the counterparty's corresponding data:
 
 - Document amount
 - Debit
@@ -180,7 +181,7 @@ The report prints the following on the right side of the window (vendor's data) 
 
 ### Partial detail
 
-If Partial Detail is selected as the detail level, the report displays the balance on each document for the current and previous periods, but doesn't display the connections to the invoices, credit notes, and payments.
+If **Show Details** is **Partially**, the report displays the balance on each document for the current and previous periods, but doesn't display the connections to invoices, credit notes, and payments.
 
 ### None
 
@@ -196,7 +197,7 @@ On the **Vendor** FastTab of the request page, you can define the vendor number 
 
 ## Related information
 
-- [Russian Receivables Reports](Russian-Receivables-Reports.md)  
-- [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  
+- [Russian Receivables Reports](russian-receivables-reports.md)  
+- [Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

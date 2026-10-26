@@ -4,15 +4,16 @@ description: Russian localization allows you to periodically remit net VAT from 
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: VAT entries, VAT settlement, VAT posting, Russia
-ms.date: 07/15/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Prepare VAT entries for posting
 
-You may want to periodically remit the net VAT from sales and purchase transactions to the tax authorities. You can use the **VAT Settlement Worksheet** to prepare transactions with open VAT amounts for posting and copy the entries to the appropriate VAT settlement journal. This is typically done before you run the **Calc. and Post VAT Settlement** batch job to post and close VAT entries.
+Use the **VAT Settlement Worksheet** to prepare transactions with open VAT amounts for manual settlement and copy the entries to the appropriate **VAT Settlement Journal**. Configure **Manual VAT Settlement**, an unrealized VAT type, and the settlement journal template and batch in **VAT Posting Setup** before you begin.
 
 ## Steps to prepare VAT entries for posting
 
@@ -30,8 +31,9 @@ You may want to periodically remit the net VAT from sales and purchase transacti
 1. Review the transactions that are included to ensure accuracy. If necessary, adjust your filter selection.
 
 1. Choose **Copy Lines to Journal**.
+1. Review the copied lines in the **VAT Settlement Journal**, and then choose **Post**.
 
-The entries are copied to the appropriate VAT settlement journals. You can now run the **Calc. and Post VAT Settlement** batch job to close the VAT entries.
+Posting the journal creates the VAT settlement entries. This manual settlement workflow isn't the **Calc. and Post VAT Settlement** batch job used to close VAT entries for reporting.
 
 ## Related information
 

@@ -4,10 +4,11 @@ description: Learn how to register VAT on purchase orders in Russia using Busine
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: VAT registration, purchase orders, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Register VAT on purchase orders
@@ -31,14 +32,14 @@ In Russia, organizations are required to keep a journal of received and issued V
    |:-|:-|
    | **Vendor VAT Invoice No.** | Enter the invoice number from the original VAT transaction. |
    | **Vendor VAT Invoice Date** | Enter the invoice date from the original VAT transaction. |
-   | **Vendor VAT Invoice Rcvd Date** | Enter the date that the purchase was received. |
+   | **Vendor VAT Invoice Rcvd Date** | Enter the date that you received the vendor's VAT invoice. |
 
    The VAT transaction is now registered and will be tracked in the VAT invoices journal after the purchase order is posted.
 
 ## Related information
 
-- [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
-- [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
+- [Set Up VAT Ledgers](how-to-set-up-vat-ledgers.md)  
+- [Prepare VAT Entries for Posting](how-to-prepare-vat-entries-for-posting.md)  
 - [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

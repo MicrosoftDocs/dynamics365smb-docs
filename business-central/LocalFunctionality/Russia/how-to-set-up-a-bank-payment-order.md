@@ -4,20 +4,21 @@ description: Learn how to set up bank payment orders in Russia using enhanced fe
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: bank payment order, bank payment, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up a bank payment order
 
-Bank payment orders must be used if a bank payment is for the official state budget. To use a bank payment order, a general journal template must be created as described in the following procedure.
+Use bank payment orders to record bank payments, including payments to the state budget. First, create a general journal template and batch.
 
 ## Steps to set up a bank payment order
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal Templates**, and then choose the related link.
-1. Create a general journal batch for every bank operation.
+1. Create a template with **Type** set to **Bank Payments**. Open its **Batches**, and create a batch for the bank operations.
 1. In the **Bal. Account Type** field, select the bank account type.
 1. In the **Bal. Account No.** field, enter the bank account.
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Source Codes**, and then choose the related link.
@@ -27,6 +28,6 @@ Bank payment orders must be used if a bank payment is for the official state bud
 
 ## Related information
 
-[Bank Management](Bank-Management.md)  
+[Bank Management](bank-management.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

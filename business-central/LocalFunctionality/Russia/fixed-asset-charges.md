@@ -4,10 +4,11 @@ description: Russian localization adds support for fixed asset charges, enabling
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: fixed asset charges, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Fixed asset charges
@@ -24,8 +25,8 @@ In addition, you can also specify how the fixed asset is depreciated. You can us
 
 ## Related information
 
-- [Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)  
-- [Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)  
+- [Create a Fixed Asset Charge](how-to-create-a-fixed-asset-charge.md)  
+- [Create a Credit Memo for a Fixed Asset Charge](how-to-create-a-credit-memo-for-a-fixed-asset-charge.md)  
 - [View Posted Entries on a Fixed Asset Charge](How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)  
 - [Setting Up Fixed Assets](../../fa-setup.md)  
 

@@ -4,15 +4,16 @@ description: Learn about the depreciation bonus feature for fixed assets in Russ
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: depreciation, depreciation bonus, bonus calculation, selecting depreciation bonus, canceling depreciation bonus, bonus transactions, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Depreciation bonus
 
-Depreciation bonus is an accelerated depreciation method applied in tax accounting because of provisions in the Russian tax laws. A depreciation bonus enables you to include fixed asset and capital investment expenses in the current period at the rate of 10 percent or 30 percent.
+Depreciation bonus lets you include a configured percentage of fixed asset and capital investment expenses in the current period for tax accounting. Confirm the applicable percentage and eligibility under current requirements before you configure the calculation.
 
 ## Depreciation bonus calculation
 
@@ -21,9 +22,9 @@ A depreciation bonus can be calculated and applied for the following types of tr
 - Acquisition costs of fixed assets.
 - Acquisition costs and appreciation of capital investments for all previous periods excluding the current period.
 
-The rate of the depreciation bonus is 10 percent or 30 percent, depending on the class of the fixed asset. The rate is set for a depreciation group using the **Depr. Bonus Percentage** field in the **Depreciation Group** window.
+Set the percentage for a depreciation group in the **Depr. Bonus %** field. The percentage is transferred to the fixed asset depreciation book when you assign the depreciation group.
 
-After the depreciation bonus is calculated and posted for a period, all transactions are cleared in preparation for the next period.
+After depreciation bonus is posted, the processed base entries are no longer marked as depreciation bonus base entries. The ledger entries aren't deleted.
 
 ## Depreciation bonus settings
 

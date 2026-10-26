@@ -4,10 +4,11 @@ description: Learn how to set up and activate tax accounting in Business Central
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: tax accounting, activate tax accounting, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up tax accounting
@@ -39,13 +40,13 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
 
 1. Choose the **Close** button to close the window and save your entries.
 
-Learn more in [Create Tax Registers](How-to-Create-Tax-Registers.md) for more information about how to set up and customize tax registers.
+Learn more in [Create Tax Registers](how-to-create-tax-registers.md) for more information about how to set up and customize tax registers.
 
 ## Related information
 
-- [Tax Accounting](Tax-Accounting.md)  
-- [Tax Registers](Tax-Registers.md)  
-- [Create Tax Registers](How-to-Create-Tax-Registers.md)  
-- [Tax Differences](Tax-Differences.md)  
+- [Tax Accounting](tax-accounting.md)  
+- [Tax Registers](tax-registers.md)  
+- [Create Tax Registers](how-to-create-tax-registers.md)  
+- [Tax Differences](tax-differences.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

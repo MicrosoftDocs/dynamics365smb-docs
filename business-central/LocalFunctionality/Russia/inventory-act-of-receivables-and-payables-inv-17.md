@@ -4,10 +4,11 @@ description: Provides guidance on using the INV-17 and Supplement to INV-17 repo
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: inventory acts, inventory act card, inventory act processing, Russia
-ms.date: 07/17/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Inventory act of receivables and payables INV-17
@@ -32,9 +33,9 @@ You can create and process inventory acts of contractors' accounts. You can prin
 
 The following procedure shows how to create an inventory act card. 
 
-1. Choose the **General Ledger** action, choose the **Analysis & Reporting** action, and then choose the **Contractor Invent. Act.** action.
+1. Search for **Contractors Inventory Acts**, open the related list, and create a new act.
 
-1. In the **Inventory Account Card** window, enter information in the following fields:
+1. In the **Invent. Act Card** page, enter information in the following fields:
 
    | Field | Description |
    |:-|:-|
@@ -43,10 +44,10 @@ The following procedure shows how to create an inventory act card.
    | **Inventory Date** | This field displays the date of inventory, and is filled with the work date. Debts and liabilities are calculated on this date. |
    | **Reason Document Type** | Select the type of reason document from the following:   -   **Order** -   **Resolution** -   **Regulation** |
 
-1. Choose the **Add Lines** action.
+1. Choose **Suggest Lines**.
 
    > [!NOTE]
-   > You must not set filters.
+   > Leave the customer and vendor filters blank to include all contractors. Set filters if you want to calculate lines for specific customers or vendors.
 
    Debts and liabilities for vendors and customers are calculated, and lines are created. For each customer and vendor, the total debt and the total liability amount (taking posting groups into account) on the inventory date are calculated, and shown in a separate line. The line fields are listed in the following table.
 
@@ -62,7 +63,7 @@ The following procedure shows how to create an inventory act card.
 
 ### Change separate lines in an inventory act
 
-The following procedure shows how to change individual lines in an inventory act in the **Inventory Account Card** window.
+The following procedure shows how to change individual lines in an inventory act on the **Invent. Act Card** page.
 
 1. Specify whether the amount (or part of the amount) is one of the following:
 
@@ -74,7 +75,7 @@ The following procedure shows how to change individual lines in an inventory act
 
 1. If the amount is overdue, enter the overdue amount in the **Overdue Amount** field.
 
-1. To correct a line that has an incorrect amount (for instance, if some documents aren't posted, or not applied), choose the **Add Lines** action.
+1. To recalculate amounts after you post or apply missing documents, choose **Suggest Lines**.
 
 1. Select the vendor or customer code, and then choose the **OK** button. 
 
@@ -82,10 +83,12 @@ The debts and liabilities amount for the selected vendor or customer is recalcul
 
 ## Print the INV-17 form and the supplement to INV-17 form
 
+Configure **INV-17 Template Code** and **INV-17 Appendix Template Code** in **Inventory Setup** before you generate the reports. These reports export to Excel.
+
 The following procedure shows how to print the INV-17 form and the Supplement to INV-17 form.
 
-1. In the **Inventory Account Card** window, choose the **Release** action.
-1. Choose the **Act** action, and then choose the **Signatures** action.
+1. On the **Invent. Act Card** page, choose **Release**.
+1. Choose **Act** > **Employee Signatures**.
 1. Select the following fields:
 
     - **Chairman**
@@ -98,11 +101,13 @@ The following procedure shows how to print the INV-17 form and the Supplement to
     > All selected signatures are reflected in the appropriate fields.
 
 1. Choose the **Print** action, and then choose the **Invent. Act INV-17** action to print the inventory act.
-1. Choose the **Print** action, and then choose the **Supplement to Invent. Act INV-17** action to print the supplement to the inventory act.
+1. Choose **Print** > **Supplement to INV-17** to generate the supplement to the inventory act.
+
+For each report, choose **OK** to generate the workbook, and then print it from Excel.
 
 ## Related information
 
-- [Russian Payables Reports](Russian-Payables-Reports.md)  
-- [Russian Receivables Reports](Russian-Receivables-Reports.md)  
+- [Russian Payables Reports](russian-payables-reports.md)  
+- [Russian Receivables Reports](russian-receivables-reports.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

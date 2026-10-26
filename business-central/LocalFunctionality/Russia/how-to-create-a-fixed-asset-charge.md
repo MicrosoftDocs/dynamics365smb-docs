@@ -4,10 +4,11 @@ description: Russian localization includes enhancements for creating fixed asset
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: fixed asset charge, Russia
-ms.date: 07/14/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Create a fixed asset charge
@@ -29,7 +30,7 @@ The following procedure shows how to create a new fixed asset charge.
    | **Global Dimension 2 Code** | Specify the global dimension code that is associated with the fixed asset charge. |
    | **Exclude Cost for TA** | Select if you want to exclude the fixed asset charge from tax accounting. |
    | **G/L Acc. For Released FA** | Specify the general ledger account to post the fixed asset charge amount to when the fixed asset is released. |
-   | **Tax Difference Code FA** | Specify the tax difference code that is associated with the fixed asset charge. |
+   | **Tax Difference Code** | Specify the tax difference code that is associated with the fixed asset charge. |
 
 ## Related information
 

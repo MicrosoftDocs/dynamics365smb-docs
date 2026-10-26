@@ -4,10 +4,11 @@ description: Learn how to create VAT ledgers in Business Central for Russian bus
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: VAT ledger, sales ledger, purchase ledger, Russia
-ms.date: 07/14/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Create VAT ledgers
@@ -27,13 +28,13 @@ You can create and store any number of VAT ledgers. For example, you can create 
    | Field | Description |
    |:-|:-|
    | **Type** | Select the type of VAT ledger. |
-   | **Code** | Enter the code of the number series that is used for the VAT ledger. You can view the available codes in the **No. Series** window. |
+   | **Code** | Specifies the VAT ledger identifier. New ledger codes are assigned from the purchase or sales VAT ledger number series in **General Ledger Setup**. |
    | **Description** | Enter a description for the VAT ledger. |
    | **Accounting Period** | Enter the accounting period of the VAT ledger. You can view the available accounting periods in the **Accounting Periods** window. |
    | **Start Date** | Specifies the start date of the accounting period of the VAT ledger. |
    | **End Date** | Specifies the end date of the accounting period of the VAT ledger. |
 
-1. To add lines to the VAT ledger, choose the **Create** action.
+1. To add lines to the VAT ledger, choose the **Create Ledger** action.
 
 1. In the **Create VAT Purchase Ledger** or the **Create VAT Sales Ledger** window, fill in the fields, and then choose the **OK** button.
 
@@ -45,8 +46,8 @@ Now, you can print the VAT ledger as a VAT ledger or as an additional sheet.
 
 ## Related information
 
-- [VAT Ledgers](VAT-Ledgers.md)  
-- [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
-- [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
+- [VAT Ledgers](vat-ledgers.md)  
+- [Set Up VAT Ledgers](how-to-set-up-vat-ledgers.md)  
+- [Create Additional Sheets](how-to-create-additional-sheets.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

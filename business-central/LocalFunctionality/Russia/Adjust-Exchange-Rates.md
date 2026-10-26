@@ -4,17 +4,18 @@ description: Russian localization adds detailed exchange rate adjustment feature
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: adjust exchange rates, exchange rate adjustment, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Adjust exchange rates in the Russian version
 
-The difference for Russian task and worldwide task - Russian report create adjustment entry for every Vendor and Customer entry and uses posting group from entry not from Vendor and Customer card.
+When **Enable Russian Accounting** is selected in **General Ledger Setup**, exchange rate adjustment runs per entry. Customer and vendor adjustments use posting groups from the ledger entries rather than the current customer or vendor card.
 
-1. Go to **Adjust Exchange Rates**.
+1. Open **Exchange Rates Adjustment**.
 1. Fill the fields:
 
    | Field | Description |
@@ -25,11 +26,11 @@ The difference for Russian task and worldwide task - Russian report create adjus
    | Posting Date | Specifies the posting date of the entries that you want to include in the report or batch job. |
    | Document No. | Specifies the document number that appears on the general ledger entries that are created by the batch job. |
    | Adjust G/L Accounts for Add.-Reporting Currency | Specifies if you want to post in an additional reporting currency and adjust general ledger accounts for currency fluctuations between LCY and the additional reporting currency. |
-   | Adjust Bank Accounts | Specifies if you want to adjust |
-   | Adjust Customer | Specifies if you want to adjust customer entries |
-   | Adjust Vendor | Specifies if you want to adjust vendor entries |
+   | Adjust Bank Accounts | Specifies whether to adjust bank account entries. |
+   | Adjust Customers | Specifies whether to adjust customer entries. |
+   | Adjust Vendors | Specifies whether to adjust vendor entries. |
 
-1. Select **Ok**.
+1. Select **OK**.
 
 ## Related information
 

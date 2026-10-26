@@ -4,9 +4,10 @@ description: Bank management features for Russia, including bank directories, bu
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: bank management, directory structures, budget classification, classification codes, posting documents, bank account details, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
+ai-usage: ai-assisted
 ---
 
 # Bank management
@@ -39,6 +40,6 @@ You can print the following required bank management documents.
 
 ## Related information
 
-[Set up a bank payment order](How-to-Set-Up-a-Bank-Payment-Order.md)
+[Set up a bank payment order](how-to-set-up-a-bank-payment-order.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

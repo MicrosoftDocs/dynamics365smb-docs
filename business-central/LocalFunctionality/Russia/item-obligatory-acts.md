@@ -4,33 +4,36 @@ description: Russian localization provides support for item obligatory acts and 
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: Item obligatory acts, Russia
-ms.date: 07/18/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Item obligatory acts
 
-The item obligatory acts feature enables you to print the obligatory reports used for the material and production resources in your company. These reports contain item information such as the item number and description, item storage place, item information brand, sort, profile, size, unit of measure, and vendor information.
+The item obligatory acts feature provides reports for your company's material and production resources. These reports contain item information such as the item number, description, storage place, brand, sort, profile, size, unit of measure, and vendor information. Confirm which forms your organization needs.
 
 You can print reports for the various accounts used for material and production resources.
 
 The following table provides the list of reports and how to print the reports.
 
+Before you generate a report, configure its template in the corresponding setup page. For example, configure **Item Card M-17 Template Code** in **Inventory Setup** and **M-4 Template Code** in **Purchases & Payables Setup**. Sales shipment templates are configured in **Sales & Receivables Setup**. When **Print** opens **Report Selection - Print**, select the **Print Report** check box on the row for the required report, and choose **OK**. Fill in the report's request page, and choose **OK** to export an Excel workbook. Print the workbook from Excel.
+
 | Report | Description |
 |--|--|
-| Item Card M-17 | The report is printed after registering a shipment transaction to get a signature confirming the receipt of items and materials in the primary document. It's also printed at the end of the reporting period to create a primary document with all the required signatures of responsible employees. To print Item Card M-17, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Card M-17**, and then choose the related link. Learn more in Item Card M-17. |
-| Physical Inventory Form INV-3 (Inventory Description) | The report is required to register the inventory results. To print Physical Inventory Form INV-3, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Inventory Journal**, choose **Print**, and then select the **Phys. Inventory Form INV-3** check box. Learn more in Phys. Inventory Form INV-3. |
-| Physical Inventory Form INV-19 (Comparison sheet) | On the request form, enter information such as inventory basis, document number, document date, inventory start date, inventory end date, inventory form date, and status at date. The report is required to register inventory results. To print Physical Inventory Form INV-19, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Inventory Journal**, choose **Print**, and then select the **Phys. Inventory Form INV-19** check box. Learn more in Phys. Inventory Form INV-19. |
-| Transfer Order TORG-13 report (internal transfer order) | This report enables you to print an internal transfer order for items and packing. To print Transfer Order TORG-13 report, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Order**, and then choose the related link. Open the transfer order, and on the Report tab, choose **Transfer Order TORG-13**. Learn more in Transfer Order TORG-13. |
-| Shipment Request M-11 | Before printing this report, enter information such as entry type code, from whom, sent (employee), and received (employee) on the request form. This report enables you to print a shipment request for internal transfer of materials. To print Shipment Request M-11, choose the ![Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal** > choose **Print** > select the **Shipment Request M-11** check box. Learn more in Shipment Request M-11. |
-| Warehouse Purchase Receipt М-4 report | To print the report from the purchase order, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, select an order, choose **Print**, and then select the **Purchase Receipt M-4** check box. Learn more in Purchase Receipt M-4. To print the report from a posted purchase invoice, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, select an order, choose **Print**, and then select the **Purchase Receipt M-4** check box. This report is printed at the time of receiving items and materials at the warehouse. |
-| Sales Shipment M-15 | To print Sales Shipment M-15 from the sales order, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, select an order, choose **Print**, and then select the **Sales Shipment M-15** check box. To print Sales Shipment M-15 from the sales invoice, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, select an invoice, choose **Print**, and then select the **Sales Shipment M-15** check box. To print from the posted sales invoice, choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, select an invoice, choose **Print**, and then select the **Sales Shipment M-15** check box. This report is printed at the time of shipment of materials out of the company. Learn more in Sales Shipment M-15 and Posted Sales Shipment M-15. |
+| Item Card M-17 | Records item movements for a reporting period and includes fields for responsible employees' signatures. Run **Item Card M-17** for the required items and dates. |
+| Physical Inventory Form INV-3 (inventory description) | Records physical inventory results. In **Phys. Inventory Journal**, choose **Print** and select the **Phys. Inventory Form INV-3** row if the report selection page opens. |
+| Physical Inventory Form INV-19 (comparison sheet) | Compares inventory results. In **Phys. Inventory Journal**, choose **Print** and select the **Phys. Inventory Form INV-19** row if the report selection page opens. Enter the inventory basis, document number and date, inventory start and end dates, document creation date, and as-of date on the request page. |
+| Transfer Order TORG-13 (internal transfer order) | Records an internal transfer of items and packaging. Open the transfer order, choose **Print**, and select the **Transfer Order TORG-13** row if the report selection page opens. |
+| Shipment Request M-11 | Records an internal transfer of materials. In **Item Reclass. Journal**, choose **Print** and select the **Shipment Request M-11** row if the report selection page opens. Enter the entry type code, sender, and sending and receiving employees on the request page. |
+| Warehouse Purchase Receipt M-4 | Records receipt of items and materials at the warehouse. Open a purchase order or posted purchase invoice, choose **Print**, and select the corresponding **Purchase Receipt M-4** report row if the report selection page opens. |
+| Sales Shipment M-15 | Records shipment of materials out of the company. Open a sales order, sales invoice, or posted sales invoice. Release an unposted document before you generate the report. Choose **Print**, and select the corresponding **Sales Shipment M-15** report row if the report selection page opens. |
 
 ## Related information
 
-- [Item Documents](Item-Documents.md)  
-- [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)  
+- [Item Documents](item-documents.md)  
+- [Item General Ledger Turnover](item-general-ledger-turnover.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

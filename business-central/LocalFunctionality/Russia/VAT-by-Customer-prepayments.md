@@ -4,15 +4,16 @@ description: Learn how to report VAT on customer prepayments in Russia, includin
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: customer prepayment, receiving prepayment,return prepayment, VAT prepayment, unrealized VAT, realized VAT, Russia
-ms.date: 07/22/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # VAT by customer prepayment
 
-When a company receives a prepayment from a Customer, you must create a VAT invoice and a VAT record for the amount of VAT.
+You can create VAT entries and a VAT invoice when you post a customer prepayment. The result depends on the prepayment and VAT posting setup.
 
 ## Setup
 
@@ -29,15 +30,15 @@ When a company receives a prepayment from a Customer, you must create a VAT invo
 
 ## Receive prepayment
 
-After you receive prepayment from a customer, the system creates unrealized VAT records and VAT invoices.
+When you post a customer prepayment with the required VAT setup, [!INCLUDE[prod_short](../../includes/prod_short.md)] creates unrealized VAT entries. Automatic creation of the prepayment invoice also requires **Create Prepayment Invoice** and the relevant number series in **Sales & Receivables Setup**.
 
 Post prepayment in the General journal (see [Prepayment to the vendor and customers](Prepayments-Vendor-and-Customers.md)).
 
 ## Return prepayment
 
-To return a prepayment, you must create a realized VAT record.
+Use **Return Prepayment** for an open payment entry marked as a prepayment. The remaining amount in local currency must equal the original amount, so the prepayment can't be partially applied.
 
-1. Go to **Customer ledger entries** > select **returned prepayment** > select **return payment**.
+1. Open **Customer Ledger Entries**, select the prepayment payment entry, and choose **Return Prepayment**.
 
 1. Fill in the fields:
 
@@ -50,7 +51,7 @@ To return a prepayment, you must create a realized VAT record.
    | Posting Description | Specifies the description that is added to the resulting posting. |
    | Correction | Specifies the operation is corrective. |
 
-1. Select **OK**. The system automatically creates corrective entries.
+1. Select **OK**. [!INCLUDE[prod_short](../../includes/prod_short.md)] posts the entries that reset the prepayment as a payment.
 
 ## Related information
 

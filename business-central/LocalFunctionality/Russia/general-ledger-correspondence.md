@@ -4,10 +4,11 @@ description: Russian functionality includes enhancements for general ledger corr
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: general ledger correspondence, G/L correspondence, correspondence window, Russia
-ms.date: 07/11/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # General ledger correspondence

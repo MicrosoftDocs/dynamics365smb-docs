@@ -4,10 +4,11 @@ description: Russian localization lets you assign users as responsible employees
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: responsible employees, advance statements, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up responsible employees and advance statements
@@ -30,7 +31,7 @@ The following procedure shows how to access the **Resp. Employee Card** window.
 
 ### Steps to create a responsible employee card
 
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resp. Employees**, and then choose the related link.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Responsible Employees**, and then choose the related link.
 1. Create a new card.
 1. Choose the **OK** button.
 
@@ -131,6 +132,8 @@ The following expense lines are registered according to the value selected in th
 
 ## Print unposted advance statement
 
+Configure **Adv. Statement Template Code** in **Purchases & Payables Setup** before printing either an unposted or a posted statement. These reports export to Excel.
+
 The following procedure shows how to print an unposted advance statement.
 
 ### Steps to print an unposted advance statement
@@ -156,7 +159,7 @@ The following procedure shows how to print an unposted advance statement.
    | Accountant   (Cashier) | Select an employee code (cashier) from the Employee List table to fill in the corresponding fields in the statement. |
    | Accountant | Select an employee code (accountant) from the Employee List table to fill in the corresponding fields in the statement. |
 
-1. Choose the **Print** button.
+1. Choose **OK** to export the report to Excel, and then print the workbook from Excel.
 
 ## View posted advance statement
 
@@ -183,7 +186,7 @@ The following procedure shows how to print the posted **Advance Statement**.
 
 1. On the **Purch. Inv. Header** FastTab of the report, apply the following filters.
 
-   |--|--|
+   | Field | Filter |
    | ------- | ------------------------------------------------------------ |
    | **No.** | This field contains the number of the posted advance statement. By default, this value is entered from the open document. |
 
@@ -194,7 +197,7 @@ The following procedure shows how to print the posted **Advance Statement**.
    | Accountant (Cashier) | Select the employee code (cashier) from the Employee List table to fill in the corresponding fields in the report. |
    | Accountant | Select the employee code (accountant) from the Employee List table to fill in the corresponding fields in the report. |
 
-1. Choose the **Print** button.
+1. Choose **OK** to export the report to Excel, and then print the workbook from Excel.
 
 ## Related information
 

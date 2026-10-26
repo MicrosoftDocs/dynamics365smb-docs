@@ -4,10 +4,11 @@ description: This article describes how to set up and manage customer prepayment
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: customer prepayments, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up customer prepayments
@@ -18,7 +19,7 @@ Prepayments are advance payments on sales orders that are received, invoiced, an
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 
-1. On the **Numbering** FastTab, verify that the number series for the **Posted Prepmt. Inv. Nos.** is the same as the **Posted Invoice Nos.**. Also verify that the number series for the **Posted Prepmt. Cr. Memo Nos.** is the same as the **Posted Credit Memo Nos.**.
+1. On the **Numbering** FastTab, configure **Posted Prepmt. Inv. Nos.** and **Posted Prepmt. Cr. Memo Nos.** for the prepayment documents that you use. The localized **Posted Prepayment Nos.** field is configured separately on the **Prepayment** FastTab.
 
 1. On the **Prepayment** FastTab, enter the following information.
 

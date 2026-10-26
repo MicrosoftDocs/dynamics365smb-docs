@@ -4,10 +4,11 @@ description: Russian localization provides functionality for posting Red Storno 
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: red storno, corrections, corrective entries, item journal, item revaluation, item reclassification journals, Russia
-ms.date: 07/15/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Post red storno corrections
@@ -20,7 +21,7 @@ You can set up inventory to use the same column for original and corrective post
 - Periodic adjustments of item costs.
 
 > [!NOTE]
-> You must enable red storno in the **Inventory Setup** window before you can post corrective entries. For more information, see [Inventory Setup](Inventory-Setup.md).  
+> You must enable red storno in the **Inventory Setup** window before you can post corrective entries. For more information, see [Inventory Setup](inventory-setup.md).  
 
 ## Post corrective entries in the item journal
 
@@ -75,6 +76,6 @@ The correction is posted, and any general ledger account correspondence that you
 
 ## Related information
 
-[Set Up Inventory](Inventory-Setup.md)  
+[Set Up Inventory](inventory-setup.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

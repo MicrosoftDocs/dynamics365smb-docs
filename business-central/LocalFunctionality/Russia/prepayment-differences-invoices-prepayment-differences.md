@@ -4,10 +4,11 @@ description: Russian localization features allow you to manage differences betwe
 author: DianaMalina
 ms.topic: article
 ms.search.keywords: Prepayment differences, purchases setup, sales setup, prepayment invoice, Russia
-ms.date: 07/18/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Prepayment differences

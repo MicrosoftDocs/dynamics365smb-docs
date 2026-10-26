@@ -4,10 +4,11 @@ description: Learn how to set up quantity books in Business Central for Russian 
 author: DianaMalina
 ms.topic: how-to
 ms.search.keywords: quantity book, Russia
-ms.date: 07/16/2025
-ms.reviewer: v-soumramani
-ms.author: soalex
+ms.date: 10/23/2026
+ms.reviewer: jswymer
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Set up a quantity book
@@ -25,7 +26,7 @@ Create a depreciation book to keep record of the fixed assets quantities that wi
 
 ## Related information
 
-- [Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md)  
+- [Undepreciable Fixed Assets](undepreciable-fixed-assets.md)  
 - [Fixed Assets](fixed-assets.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

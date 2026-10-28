@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 04/07/2026
+ms.date: 10/26/2026
 ms.custom: bap-template
 ---
 
@@ -187,6 +187,12 @@ Sometimes bank statement contains amounts for interest or fees charged. Such ban
     After the entry is posted, match the bank statement line to it.
 6. Refresh or reopen the **Bank Acc. Reconciliation** page. The new ledger entry appears in the **Bank Account Ledger Entries** pane.
 7. Match the bank statement line with the bank account ledger entry, either manually or automatically.
+
+## Review posted bank reconciliations
+
+After you post a bank reconciliation, use the **Bank Account Statement List** page to review the completed reconciliation. You can inspect statement lines and applied entries, compare posted statements in analysis mode, or print the **Bank Account Statement** report for a period-end review or audit.
+
+Learn more about reviewing completed reconciliations in [Review and analyze posted bank reconciliations](bank-review-posted-reconciliations.md).
 
 ## Find outstanding transactions in previous periods
 

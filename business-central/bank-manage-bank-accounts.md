@@ -28,6 +28,7 @@ The following table describes a sequence of tasks, with links to the articles th
 | To | See |
 | --- | --- |
 | Reconcile bank accounts as a separate task on the **Bank Acc. Reconciliation** page. |[Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md) |
+| Review completed reconciliations, analyze statement history, and print or save reconciliation reports. | [Review and analyze posted bank reconciliations](bank-review-posted-reconciliations.md) |
 | Reconcile bank accounts in connection with payment processing on the **Payment Reconciliation Journal** page. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
 > [!TIP]

@@ -3,7 +3,7 @@ title: Approve or Send Back Expense Reports
 description: Learn how to review submitted expense reports and policy results, then approve them or send them back with comments in Expense Agent.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/02/2026
+ms.date: 10/07/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -66,6 +66,14 @@ The report status changes back to **Draft**, and the employee is notified with y
 
 > [!NOTE]
 > Approval workflows are configured and managed in [!INCLUDE [prod_short](../includes/prod_short.md)]. Contact your administrator if you have questions about approval rules or workflow settings.
+
+## Review your approval history
+
+Go to the **Approval history** tab to see the reports you approved or sent back.
+
+1. Open Expense Agent and go to the **Approval history** tab.
+1. Select a report to expand its activity timeline.
+1. Review the timeline for a record of key events, such as submission, your decision and any comments you added, and when the report was posted.
 
 ## Related information
 

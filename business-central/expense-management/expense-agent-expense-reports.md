@@ -3,7 +3,7 @@ title: Create and Submit Expense Reports in Expense Agent
 description: Learn how to create expense reports, add expenses, move expenses between reports, and submit reports for approval in Expense Agent.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/02/2026
+ms.date: 10/07/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -89,6 +89,16 @@ The report status changes to **Submitted**, and the approver is notified. The re
 
 > [!TIP]
 > Before you submit, check for any policy warnings on your expenses. Resolving issues upfront helps speed up the approval process.
+
+## View your expense report history
+
+Go to the **History** tab to see what happened to your past expense reports.
+
+1. Open Expense Agent and go to the **History** tab.
+1. Select a report to expand its activity timeline.
+1. Review the timeline for a record of key events, such as when the report was submitted, approved, sent back, or posted, who performed each action, and any comments.
+
+The history also includes posted reports, so you can look back at a report after it's reimbursed.
 
 ## Related information
 

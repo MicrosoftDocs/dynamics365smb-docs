@@ -1,7 +1,9 @@
 ---
 title: Responsible AI FAQ for Autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 09/15/2025
+ms.date: 10/29/2026
+ms.update-cycle: 180-days
+ai-usage: ai-assisted
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -10,10 +12,6 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI, chat 
 ---
-
-<!-- The Report Abuse link in line 73 isn't opening when I try. Please check this. -->
-
-
 # Responsible AI FAQ for Autofill (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
@@ -21,8 +19,6 @@ ms.search.keywords: copilot, AI, chat
 These frequently asked questions (FAQ) describe the AI effect of Copilot’s Autofill feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
-<!-- [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]-->
 
 ## What is Autofill?
 

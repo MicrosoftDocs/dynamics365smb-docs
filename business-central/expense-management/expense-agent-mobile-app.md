@@ -3,7 +3,7 @@ title: Use the Expense Agent Mobile App (preview)
 description: Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/02/2026
+ms.date: 10/07/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -26,6 +26,7 @@ The Expense Agent mobile app helps you stay productive by letting you create, re
 - **Review expenses**: Check AI-suggested details and edit them as needed.
 - **Create mileage expenses**: Enter trip details and let the app calculate distance and reimbursement.
 - **Submit expense reports**: Group expenses into reports and submit them for approval.
+- **Approve expense reports**: If you're set up as an approver, review and approve or send back reports from your phone.
 - **Work offline**: View your expenses even when you don't have an internet connection. The app refreshes data when you reconnect.
 
 > [!TIP]
@@ -48,8 +49,8 @@ After the installation is complete, open the :::image type="icon" source="../med
 > [!TIP]
 > If you're already signed in to other Microsoft apps on your device, the app might use those credentials automatically to speed up sign-in.
 
-<!-- [!NOTE]
-> If you're designated as an approver, you also have a **Pending approval** tab, where you can review and approve expense reports submitted by others. -->
+> [!NOTE]
+> If you're set up as an approver, you also have an **Approvals** tab at the bottom of the screen. A badge on the tab shows how many reports are waiting for your review. Learn more in [Approve expense reports as an approver](#approve-expense-reports-as-an-approver).
 
 ### Give the app permission to use your camera, photos, and files
 
@@ -201,6 +202,18 @@ To submit an expense report, follow these steps:
 1. Select **Submitted** at the bottom of the screen.
 1. Browse the list of submitted expense reports.
 1. Open a report to review its details.
+
+## Approve expense reports as an approver
+
+If you're set up as an approver, the mobile app also includes an **Approvals** tab for reviewing reports submitted by others. The tab is only visible to users who are set up as approvers.
+
+1. Select **Approvals** at the bottom of the screen. A badge shows how many reports need your review.
+1. Select a report to review its details.
+1. Select **Approve**, or select **Send back** and enter a comment for the submitter.
+
+To see reports you already approved or sent back, select **Archived**. Select **Back to approvals** to return to your pending reports.
+
+Approving and sending back reports works the same way as in the web app. Learn more in [Approve or send back expense reports](expense-agent-approve-reports.md).
 
 ## How the app works with offline mode
 

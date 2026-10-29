@@ -25,7 +25,7 @@ As an approver, you review expense reports that employees submit. You can approv
 
 ## Review a submitted expense report
 
-1. Open Expense Agent and go to the **For My Approval** tab.
+1. Open Expense Agent and go to the **For my approval** tab.
 1. Select the expense report you want to review.
 1. Review the report lines, including amounts, categories, and any attached receipts.
 1. If the report shows a compliance warning, select the warning to open **These expenses need your review**. Select an expense to open its details, and then review the status and policy issue explanations in the **Summary** section.
@@ -40,7 +40,7 @@ As an approver, you review expense reports that employees submit. You can approv
 1. Select **Approve**.
 1. In the confirmation dialog, review the expense count and total amount, and then select **Approve**.
 
-The report status changes to **Approved**, and the employee is notified.
+The report status changes to **Approved**, and the employee is notified. The report moves from the employee's **Submitted** tab to their **Approved** tab.
 
 ## Approve a report with policy issues
 

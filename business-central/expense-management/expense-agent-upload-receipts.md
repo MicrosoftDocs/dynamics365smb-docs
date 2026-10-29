@@ -3,7 +3,7 @@ title: Upload Receipts and Create Mileage Expenses
 description: Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/02/2026
+ms.date: 10/07/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -32,7 +32,7 @@ When you upload a receipt to Expense Agent in [!INCLUDE[prod_short](../includes/
 1. Drag and drop your receipt file onto the **Upload receipt (or drop here)** area, or select it to browse for a file on your device. You can also drop an entire folder of receipts to upload multiple files at once.
 1. Wait for the upload to complete.
 
-Expense Agent supports JPEG, PNG, and PDF files up to 10 MB, including printed invoices, digital PDFs, and handwritten receipts such as taxi slips.
+Expense Agent supports JPEG, PNG, GIF, WebP, HEIC, HEIF, and PDF files up to 10 MB, including printed invoices, digital PDFs, and handwritten receipts such as taxi slips.
 
 > [!NOTE]
 > As the web app reminds you: "Files are processed using AI. Review for accuracy." Always check the extracted details before submitting an expense.

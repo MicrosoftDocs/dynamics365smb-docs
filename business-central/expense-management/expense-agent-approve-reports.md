@@ -3,7 +3,7 @@ title: Approve or Send Back Expense Reports
 description: Learn how to review submitted expense reports and policy results, then approve them or send them back with comments in Expense Agent.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/02/2026
+ms.date: 10/07/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -25,7 +25,7 @@ As an approver, you review expense reports that employees submit. You can approv
 
 ## Review a submitted expense report
 
-1. Open Expense Agent and go to the **For My Approval** tab.
+1. Open Expense Agent and go to the **For my approval** tab.
 1. Select the expense report you want to review.
 1. Review the report lines, including amounts, categories, and any attached receipts.
 1. If the report shows a compliance warning, select the warning to open **These expenses need your review**. Select an expense to open its details, and then review the status and policy issue explanations in the **Summary** section.
@@ -40,7 +40,7 @@ As an approver, you review expense reports that employees submit. You can approv
 1. Select **Approve**.
 1. In the confirmation dialog, review the expense count and total amount, and then select **Approve**.
 
-The report status changes to **Approved**, and the employee is notified.
+The report status changes to **Approved**, and the employee is notified. The report moves from the employee's **Submitted** tab to their **Approved** tab.
 
 ## Approve a report with policy issues
 
@@ -66,6 +66,14 @@ The report status changes back to **Draft**, and the employee is notified with y
 
 > [!NOTE]
 > Approval workflows are configured and managed in [!INCLUDE [prod_short](../includes/prod_short.md)]. Contact your administrator if you have questions about approval rules or workflow settings.
+
+## Review your approval history
+
+Go to the **Approval history** tab to see the reports you approved or sent back.
+
+1. Open Expense Agent and go to the **Approval history** tab.
+1. Select a report to expand its activity timeline.
+1. Review the timeline for a record of key events, such as submission, your decision and any comments you added, and when the report was posted.
 
 ## Related information
 

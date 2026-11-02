@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 119, 774_Primary, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9816, 9818, 9874
-ms.date: 07/16/2026
+ms.date: 11/02/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -19,7 +19,6 @@ This article describes how administrators create users and define who can sign i
 
 - When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you grant permissions to them through permission sets. 
 - You can also organize users in security groups. Security groups make it easier to manage permissions and other settings for multiple users at the same time.
-  [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 - There are several license types. Learn about the different types of licenses and how licensing works in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 - The process of managing users and licenses varies depending on whether [!INCLUDE[prod_short](includes/prod_short.md)] is deployed online or on-premises. For [!INCLUDE [prod_short](includes/prod_short.md)] online, you must add users from Microsoft 365. In on-premises deployments, you can create, edit, and delete users directly.  
@@ -34,6 +33,14 @@ You assign licenses to users according to the work each user does in [!INCLUDE[p
 
 - Your company's Microsoft 365 administrator can do it in the [Microsoft 365 Admin Center](https://admin.microsoft.com). Learn more at [Add users individually or in bulk to Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - A Microsoft partner can assign licenses in the Microsoft 365 Admin Center or in the Microsoft Partner Center. Learn more at [User management tasks for customer accounts](/partner-center/assign-licenses-to-users) in the Microsoft Partner Center Help.
+
+> [!TIP]
+> To check the licenses that you assigned to one or more users:
+>
+> - For a single user, open the **User Card** page for the user, and then expand the **Licenses** FastTab.
+> - For multiple users, open the **Users** list page, and then choose the **User Identifier Overview** action. Use the **User Licenses** column heading to sort users according to their assigned license.
+>
+> To do more advanced analyses, you can also use the **Data Analysis** feature on the **Users** page. Learn more in [Analyze user status by license type](#analyze-user-status-by-license-type).
 
 Learn more at [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the administration Help.
 

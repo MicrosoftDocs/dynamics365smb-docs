@@ -1,73 +1,99 @@
 ---
-title: Set Up Finance Charge Terms
-description: Learn how to set up Business Central so that you can inform customers of added charges by sending finance charge memos.
+title: Finance Charge Terms Setup in Business Central
+description: Set up finance charge terms in Business Central, assign them to customers, and configure interest, currency-specific fees, and memo text.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment due, debt, overdue, fee, charge
-ms.search.form: 6, 494
-ms.date: 04/01/2021
+ms.search.form: 6, 494, 477, 445, 572
+ms.date: 10/14/2026
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
-# Set Up Finance Charge Terms
 
-When a customer does not pay by the due date, you can have finance charges calculated automatically and add them to the overdue amounts on the customer's account. You can inform customers of the added charges by sending finance charge memos. But first, you must set up a code that represents each finance charge calculation. Then you can enter this code in the Fin. Charge Terms Code field on customer cards.  
+# Set up finance charge terms and memo text
 
-## Finance charge terms
+Use finance charge terms to define how [!INCLUDE[prod_short](includes/prod_short.md)] calculates interest and extra fees for late customer payments. Assign the terms to customers, and then use them when you create finance charge memos.
 
-You must set up finance charge terms for each finance charge calculation, and then assign the terms to the customer in the **Fin. Charge Terms Code** field on the **Customer** page.
+Creating a memo calculates the charges. The **Post Interest** and **Post Additional Fee** settings determine whether the charges are posted to customer and general ledger accounts when you issue the memo. Learn more about creating and issuing memos in [Collect outstanding balances](receivables-collect-outstanding-balances.md#finance-charges).
 
-Finance charges can be calculated using either the average daily balance or the balance due methods.
+## Set up finance charge terms
 
-* Average daily balance  
-  
-  The number of days the payment is overdue is taken into account:  
-  *Average Daily Balance method* - *Finance Charge* = *Overdue Amount* x *(Days Overdue / Interest Period)* x *(Interest Rate/100)*
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Finance Charge Terms**, and select the related link.
+2. Select **New**, and then enter a **Code** and **Description** for the terms.
+3. In **Interest Calculation Method**, select **Average Daily Balance** or **Balance Due**. The next section describes these methods.
+4. In **Interest Calculation**, select **Open Entries**, **Closed Entries**, or **All Entries** to specify which customer ledger entries to consider.
+5. Enter **Interest Rate**. For **Average Daily Balance**, also enter a nonzero **Interest Period (Days)**.
+6. Set **Grace Period** to determine when overdue entries qualify for charges. Set **Due Date Calculation** to calculate the memo's due date from its document date.
+7. Set **Minimum Amount (LCY)** and **Additional Fee (LCY)** as needed.
+8. Turn on **Post Interest** or **Post Additional Fee** if the corresponding charges should be posted when you issue the memo.
+9. Close the card to return to the **Finance Charge Terms** list.
 
-* Balance due  
-  
-  The finance charge is a percentage of the overdue amount:  
-  *Balance Due method* - *Finance Charge* = *Overdue Amount* x *(Interest Rate / 100)*
+Create a separate code for each combination of conditions that you need. The minimum amount is an interest threshold in local currency (LCY), not an extra fee.
 
-Additionally, each term in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to include on the finance charge memo.
+You also need the appropriate interest and additional-fee accounts in the customer's posting group. Learn more about posting accounts in [Set up posting groups](finance-posting-groups.md).
 
-### To set up finance charge terms
+### Interest calculation methods
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Finance Charge Terms**, and then choose the related link.  
-2. Fill in the fields as necessary.
-3. To use more than one combination of finance charge terms, set up a code for each one.
+* **Average Daily Balance** accounts for how long amounts are overdue and for changes in the balance during the calculation period.
+* **Balance Due** applies the interest percentage to the remaining overdue amount without prorating it by the number of overdue days.
 
-    For each finance charge term, you can specify individual conditions that can include additional fees in both LCY and in foreign currency. You can define additional fees in foreign currencies for each term on the **Finance Charge Terms** page.
-4. Choose the **Currencies** action.
-5. On the **Currencies for Fin. Chrg. Terms** page, define for each term a currency code and an additional fee.
+For an unchanged overdue balance and a single interest rate, the basic calculations are:
 
-    > [!NOTE]  
-    > When you create finance charges in a foreign currency, the foreign currency conditions that you set up here will be used to create finance charge memos. If there are no foreign currency finance charge conditions set up, the LCY finance charge conditions specified on the **Finance Charge Terms** page will be used and then converted to the relevant currency.
+| Method | Calculation |
+|---|---|
+| **Average Daily Balance** | Finance charge = overdue amount x overdue days / interest period in days x interest rate / 100. |
+| **Balance Due** | Finance charge = overdue amount x interest rate / 100. |
 
-    For each finance charge term, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the finance charge memo.  
-6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill on the **Finance Charge Text** page.
-7. To automatically insert related values in the resulting finance charge text, enter the following placeholders in the **Text** field.
+Payments, previous interest calculations, and date-specific interest rates can affect the calculation. The grace period controls eligibility for charges. It doesn't mean that interest is calculated only from the end of the grace period.
 
-|Placeholder|Value|  
-|-----------------|-----------|  
-|%1|Content of the **Document Date** field on the finance charge memo header|  
-|%2|Content of the **Due Date** field on the finance charge memo header|  
-|%3|Content of the **Interest Rate** field on the related finance charge terms|  
-|%4|Content of the **Remaining Amount** field on the finance charge memo header|  
-|%5|Content of the **Interest Amount** field on the finance charge memo header|  
-|%6|Content of the **Additional Fee** field on the finance charge memo header|  
-|%7|The total amount of the reminder|  
-|%8|Content of the **Currency Code** field on the finance charge memo header|  
-|%9|Content of the **Posting Date** field on the finance charge memo header|  
+To use rates that change over time, select the terms in the **Finance Charge Terms** list and use **Interest Rates**. The rate on the terms is used when no applicable date-specific rate is found. Learn more about rate schedules in [Set up multiple interest rates for delayed payment](finance-how-to-set-up-multiple-interest-rates.md).
+
+## Assign terms to a customer
+
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Customers**, and select the related link.
+2. Open the customer card.
+3. On the **Payments** FastTab, select the terms in **Fin. Charge Terms Code**. If the field isn't visible, select **Show more**.
+
+## Set extra fees in foreign currencies
+
+Set **Additional Fee (LCY)** on the terms to a nonzero amount to add a fee, including fees defined in foreign currencies.
+
+1. In the **Finance Charge Terms** list, select the terms and select **Currencies**.
+2. On **Currencies for Fin. Chrg Terms**, enter **Currency Code** and **Additional Fee** for each currency that needs its own fee.
+3. Close the page.
+
+If you define a fee for the memo's currency, [!INCLUDE[prod_short](includes/prod_short.md)] uses that fee. Otherwise, [!INCLUDE[prod_short](includes/prod_short.md)] converts **Additional Fee (LCY)** to the memo's currency by using the exchange rate for the memo's **Posting Date**. The currency-specific setup changes the extra fee, not the interest rate or calculation method.
+
+## Add beginning and ending text
+
+You can add text before and after the charge lines on finance charge memos.
+
+1. In the **Finance Charge Terms** list, select the terms and select **Beginning Text**.
+2. On **Finance Charge Text**, enter one or more lines in **Text**.
+3. Close the page and repeat with **Ending Text** if needed.
+
+Use the following placeholders in **Text** to insert values from the memo or its terms.
+
+| Placeholder | Value |
+|---|---|
+| `%1` | The memo's **Document Date**. |
+| `%2` | The memo's **Due Date**. |
+| `%3` | **Interest Rate** on the finance charge terms. |
+| `%4` | The memo's **Remaining Amount**. |
+| `%5` | The memo's **Interest Amount**. |
+| `%6` | The memo's **Additional Fee**. |
+| `%7` | The memo total: remaining amount, interest, additional fee, and VAT. |
+| `%8` | The memo's **Currency Code**. |
+| `%9` | The memo's **Posting Date**. |
+
+If you change the text or memo lines after creating a memo, use **Update Finance Charge Text** on the unissued memo to refresh the text and substituted values.
 
 ## Related information
 
-[Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
-[Set Up Reminder Terms and Levels](finance-setup-reminders.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-
+[Set up reminder terms and levels](finance-setup-reminders.md)  
+[Set up finance](finance-setup-finance.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,21 @@
 {
     "redirections": [
         {
+            "source_path": "business-central/manufacturing-powerbi-current-utilization.md",
+            "redirect_url": "/dynamics365/business-central/manufacturing-powerbi-work-center-load",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/manufacturing-powerbi-historical-utilization.md",
+            "redirect_url": "/dynamics365/business-central/manufacturing-powerbi-work-center-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/about-intelligent-cloud.md",
+            "redirect_url": "/dynamics365/business-central/across-powerbi-apps-by-functional-area#replace-legacy-power-bi-apps-and-insights",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "expense-management/expense-agent-statuses.md",
             "redirect_url": "/dynamics365/business-central/expense-management/expense-agent-overview",
             "redirect_document_id": true

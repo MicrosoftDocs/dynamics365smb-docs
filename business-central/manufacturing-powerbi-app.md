@@ -6,8 +6,8 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: 37063_Primary, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37094, 37095, 37096, 37097, 37098, 37099, 37107, 36951,
-ms.date: 03/17/2026
+ms.search.form: 37063_Primary, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37094, 37095, 37096, 37097, 37098, 37099, 37107, 36951,
+ms.date: 11/03/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -29,9 +29,9 @@ To fit this category, you might have a role such as:
 - Chief Operating Officer
 - Chief Manufacturing Officer
   
-### Example scenario: analyzing current utilization
+### Example scenario: analyze capacity and efficiency
 
-COOs need to ensure that your manufacturing plant is operating at optimal levels. By analyzing the [Current Utilization](manufacturing-powerbi-current-utilization.md) and [Historical Utilization](manufacturing-powerbi-historical-utilization.md) reports, you can get a better understanding of how efficiently you're using your resources and identify areas for improvement.
+As a COO, you need to understand how efficiently your manufacturing plant uses its resources. Use the [Work Center Statistics](manufacturing-powerbi-work-center-statistics.md) report to compare work center efficiency, capacity, and allocated time, and identify areas for improvement.
 
 You can also use the [Work Center Load](manufacturing-powerbi-work-center-load.md) report to identify bottlenecks in your production process, and make informed decisions to increase efficiency and productivity.
 
@@ -59,13 +59,15 @@ To fit this category, you might have a role such as:
 
 ### Example scenario: tracking production lines
 
-Manufacturing supervisors ensure that goods and materials flow smoothly through the manufacturing facility. Your role is critical in maintaining the production schedule and meeting customer demand. The [Current Utilization](manufacturing-powerbi-current-utilization.md) report shows the use of work centers in real-time, which helps you spot bottlenecks and optimize production processes.
+Manufacturing supervisors ensure that goods and materials flow smoothly through the manufacturing facility. Your role is critical in maintaining the production schedule and meeting customer demand. Use the [Work Center Load](manufacturing-powerbi-work-center-load.md) report to compare allocated time with available capacity and identify overloaded work centers.
 
-You notice that one work center is consistently operating at full capacity, while others are underused. You use the [Historical Utilization](manufacturing-powerbi-historical-utilization.md) report to analyze the historical use of work centers and find trends and patterns. This report helps you plan for future capacity needs and balance production across work centers.
+You notice that one work center is overloaded, while others have available capacity. Use the [Work Center Statistics](manufacturing-powerbi-work-center-statistics.md) report to compare capacity and efficiency across work centers. Use these insights to review the production schedule and resource allocation.
 
 To improve production efficiency, you track the allocated hours for each work center using the [Allocated Hours](manufacturing-powerbi-allocated-hours.md) report. This report helps you understand workloads and adjust staffing levels accordingly.
 
 ## Use the reports
+
+The **Current Utilization** and **Historical Utilization** report pages are obsolete. To review work center capacity and performance, use the **Work Center Load** and **Work Center Statistics** reports in the following table.
 
 [!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
 

@@ -149,7 +149,6 @@ ms.service: dynamics-365-business-central
 #### [Keyboard quick reference - PC only](keyboard-shortcuts-cheatsheet.md)
 #### [Touch and pen gestures](touch-gestures.md)
 ### [Troubleshoot: Access camera and location](ui-troubleshooting-camera-location.md)
-### [Intelligent insights (online only)](about-intelligent-cloud.md)
 ## Troubleshooting and FAQs
 ### [Frequently Asked Questions](across-faq.yml)
 ### [Microsoft Copilot in Business Central FAQ (preview)](chat-with-copilot-faq.md)
@@ -1135,8 +1134,6 @@ ms.service: dynamics-365-business-central
 <!-- Manufacturing analytics start -->
 #### [Manufacturing analytics overview](manufacturing-analytics-overview.md)
 #### [Power BI manufacturing app](manufacturing-powerbi-app.md)
-##### [Current Utilization](manufacturing-powerbi-current-utilization.md) 
-##### [Historical Utilization](manufacturing-powerbi-historical-utilization.md) 
 ##### [Work Center Load](manufacturing-powerbi-work-center-load.md) 
 ##### [Allocated Hours](manufacturing-powerbi-allocated-hours.md) 
 ##### [Expected Capacity Need](manufacturing-powerbi-expected-capacity-need.md) 
@@ -2657,7 +2654,6 @@ ms.service: dynamics-365-business-central
 #### [FAQ about mirroring Business Central data to Microsoft Fabric](fabric-faq.md)
 ### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-### [Intelligent insights (on-premises)](about-intelligent-cloud.md)
 
 <!-- integration-->
 # Integrate with other applications
@@ -2723,7 +2719,7 @@ ms.service: dynamics-365-business-central
 #### [Build reports](across-how-use-financials-data-source-powerbi.md)
 #### [Create reports to display list data](across-how-use-powerbi-reports-factbox.md)
 #### [Work with Power BI reports in Business Central](across-working-with-powerbi.md)
-#### [Use the Business Central apps in Power BI](across-powerbi-business-central-apps.md)
+#### [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)
 
 ### [Integrating with Microsoft Power Pages](/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview?toc=/dynamics365/business-central/toc.json)
 <!-- end Microsoft Power Platform -->

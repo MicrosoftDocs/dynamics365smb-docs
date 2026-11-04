@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.form: HelpAndSupport
-ms.date: 04/07/2026
+ms.date: 10/23/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -108,9 +108,7 @@ We talk about new capabilities on [the Dynamics 365 Blog](https://www.microsoft.
 
 #### Capabilities coming soon
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every six months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in [the release plans across Dynamics 365](/dynamics365/release-plans/).  
-
-For the longer term overview, the [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prod_short](includes/prod_short.md)] in the coming years.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every six months, and with monthly service updates. Choose the link to view the roadmap. Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.  
 
 ### Do more with your trial
 
@@ -230,12 +228,12 @@ With Microsoft Learn, each article has two buttons at the end of the article. Th
 We welcome your contributions, both as pull requests with suggestions or corrections to the content, and as GitHub Issues with bugs or questions. But be mindful that feedback and contributions to the *dynamics365smb-docs* repo is about the content, not about the product.  
 
 > [!IMPORTANT]
-> Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.  
+> Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, report a GitHub issue in the relevant repo. Learn more at [Leave us feedback](/dynamics365/get-started/feedback). 
 
 ### Navigate to other parts of the site
 
-Microsoft Learn hosts content for other products and other types of content. Use the links at the top of the site to navigate to [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) site or to the [Dynamics 365 release plans](/dynamics365/release-plans/), for example. You can also find a link to the
-[Dynamics 365 Community](https://community.dynamics.com/) site, for example.  
+Microsoft Learn hosts content for other products and other types of content. Use the links at the top of the site to navigate to [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) site, for example. You can also find a link to the
+[Dynamics 365 Community](https://community.dynamics.com/) site.  
 
 ## Apps and other solutions
 

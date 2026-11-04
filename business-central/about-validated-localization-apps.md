@@ -2,7 +2,7 @@
 title: Development of validated localization apps
 description: Comply with regulatory requirements in Business Central as a Validated Localization App.
 author: altotovi
-ms.date: 01/19/2026
+ms.date: 10/23/2026
 ms.reviewer: bholtorf
 ms.topic: article
 ms.author: altotovi
@@ -96,6 +96,5 @@ The following are requirements that you must meet before submitting the Validate
 [Development of a standard Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [What is Local Functionality in Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]?](about-localization.md)  
-[International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
+[Microsoft Dynamics 365 and Power Platform data residency](/dynamics365/get-started/availability)  
 [Compliance overview](compliance/compliance-overview.md)  
-[Geographical availability for Dynamics 365](https://releaseplans.microsoft.com/availability-reports/?report=productgeoreport/)  

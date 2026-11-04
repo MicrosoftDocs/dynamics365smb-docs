@@ -4,7 +4,7 @@ description: Resources for users are a set of resources, services, and tools for
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 05/29/2024
+ms.date: 10/23/2026
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -20,7 +20,7 @@ Register for the [!INCLUDE [prod_short](includes/prod_short.md)] Launch Event on
 
 ## Latest release and updates  
 
-- [!INCLUDE [prod_short](includes/prod_short.md)] release plan: [aka.ms/BCReleasePlan](https://aka.ms/BCReleasePlan) 
+- [!INCLUDE [prod_short](includes/prod_short.md)] updates: [What's new and planned in Business Central](/dynamics365/business-central/dev-itpro/whatsnew/overview) 
 - Major updates: [aka.ms/BCUpdates](https://aka.ms/BCUpdates)
 - Minor updates: [aka.ms/BCLastMinorUpdate](https://aka.ms/BCLastMinorUpdate) 
 - Missing a feature? Post or vote for ideas on: [aka.ms/BCIdeas](https://aka.ms/BCIdeas) 

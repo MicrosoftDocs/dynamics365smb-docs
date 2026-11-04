@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 10/02/2026
+ms.date: 10/23/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -73,7 +73,7 @@ You can also connect copilots by using Copilot Studio. In addition, you can impl
 
 ## How do I stay up to date with the latest news about Copilot in Business Central?
 
-For news about Copilot and other AI innovation in Business Central, you can follow [the release plans](https://aka.ms/BCReleasePlan).
+For news about Copilot and other AI innovation in Business Central, follow [the roadmap](https://aka.ms/AIatWorkroadmap).
 
 ## As a Business Central partner, how easily can I demonstrate Copilot in Business Central to my customers?
 

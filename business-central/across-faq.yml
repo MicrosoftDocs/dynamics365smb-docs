@@ -5,7 +5,7 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 10/14/2025
+  ms.date: 10/23/2026
   ms.author: bholtorf
   ms.reviewer: v-soumramani
   ms.service: dynamics-365-business-central
@@ -43,7 +43,7 @@ sections:
       - question: |
           Why can't I find that capability in my Business Central?
         answer: |
-          Did you read about a new capability in the release plan or on our blog recently? In that case, your [!INCLUDE[prod_short](includes/prod_short.md)] might not have been upgraded to the latest version yet. You can check which version your [!INCLUDE[prod_short](includes/prod_short.md)] is based on in the [Help and Support](product-help-and-support.md) page.  
+          Did you read about a new capability on the roadmap or on our blog recently? In that case, your [!INCLUDE[prod_short](includes/prod_short.md)] might not have been upgraded to the latest version yet. You can check which version your [!INCLUDE[prod_short](includes/prod_short.md)] is based on in the [Help and Support](product-help-and-support.md) page.  
           
           This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online and on-premises.  
           
@@ -132,7 +132,7 @@ sections:
       - question: |
           How often does Business Central online get updated?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] online is a service that consists of a Microsoft-maintained platform and business functionality. Many Microsoft partners provide extra business functionality, such as to address specific industry or localization needs. Both business functionality and service components are monitored continuously and updated as appropriate. You can always refer to the [release plan](/dynamics365/release-plans/) for an overview of new and upcoming functionality. Learn more at [Service Overview for Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (in English only) and [New and Planned](product-news.md).
+          [!INCLUDE[prod_short](includes/prod_short.md)] online is a service that consists of a Microsoft-maintained platform and business functionality. Many Microsoft partners provide extra business functionality, such as to address specific industry or localization needs. Both business functionality and service components are monitored continuously and updated as appropriate. You can always refer to the [roadmap](https://aka.ms/AIatWorkroadmap) for an overview of new and upcoming functionality. Learn more at [Service Overview for Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (in English only) and [New and Planned](product-news.md).
 
       - question: |
           Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in Business Central?

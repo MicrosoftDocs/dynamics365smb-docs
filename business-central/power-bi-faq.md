@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: Power BI, reports, faq, errors
-ms.date: 01/19/2026
+ms.date: 11/03/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -25,7 +25,7 @@ Yes. The reports you see inside [!INCLUDE [prod_short](includes/prod_short.md)] 
 <!-- 3 -->
 ### Are the Business Central apps for Power BI available in languages other than English?
 
-No. These apps are currently only available in English.
+Yes. The current apps support multiple languages. Learn more in [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
 
 <!-- 24 -->
 ### Once a report is published on my powerbi.com workspace, can I download its pbix? 
@@ -35,7 +35,7 @@ Yes. Learn more at [Download a report from the Power BI service to Power BI Desk
 <!-- 27 -->
 ### Can I download the apps as pbix files?
 
-No. Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on Marketplace.
+Yes. Source files are available for supported versions of the current apps. Learn more about version requirements and downloading the files in [Power BI apps FAQ](across-powerbi-apps-faq.md#can-i-get-a-copy-of-the-source-code-pbix-files-for-the-apps).
 
 <!-- ## [User access and licensing](#tab/license) -->
 ## Questions about user access and licensing
@@ -166,7 +166,6 @@ Here are other pages that contain the larger, nonfiltered **Power BI Reports** p
 |Page ID|Name|
 |-------|----|
 |1156|Company Detail|
-|4013|Intelligent Cloud Insights |
 |9006|Order Processor Role Center|
 |9008|Whse. Basic Role Center|
 |9010|Production Planner Role Center|

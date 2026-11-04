@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: feature overview
 ms.search.form: 36951,
-ms.date: 09/14/2026
+ms.date: 11/03/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -20,6 +20,19 @@ To explore each app, use the links in the following table, or read more about re
 
 [!INCLUDE [powerbi-apps-overview-table](includes/powerbi-apps-overview-table.md)]
 
+## Replace legacy Power BI apps and insights
+
+The legacy **Dynamics 365 Business Central - CRM**, **Dynamics 365 Business Central - Finance**, and **Dynamics 365 Business Central - Sales** apps on Microsoft Marketplace are obsolete. Use the current apps to analyze your financial and sales data.
+
+| Legacy app | Current reporting features |
+| --- | --- |
+| Dynamics 365 Business Central - CRM | Use the [Power BI Sales app](sales-powerbi-app.md), including [Opportunity Overview](sales-powerbi-opportunity-overview.md), to analyze sales opportunities and sales cycles. |
+| Dynamics 365 Business Central - Finance | Use the [Power BI Finance app](finance-powerbi-app.md) to analyze financial performance. |
+| Dynamics 365 Business Central - Sales | Use the [Power BI Sales app](sales-powerbi-app.md) to analyze sales performance, customers, and items. |
+
+The **Intelligent Cloud Insights** feature is also obsolete. For insights into cash availability, net income, sales profitability, and inventory value, explore the [Power BI Finance app](finance-powerbi-app.md), [Power BI Sales app](sales-powerbi-app.md), and [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md).
+
+Learn more about supported versions and connecting the current apps to your data in [Install Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
 
 ## Data models and KPIs
 

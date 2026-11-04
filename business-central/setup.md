@@ -88,7 +88,7 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 |Use Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)] | [Business Central and Microsoft Teams](across-teams-overview.md) |
 |Use [!INCLUDE [word-name](includes/word-name.md)] with [!INCLUDE [prod_short](includes/prod_short.md)] | [Work with Word layouts](ui-how-add-fields-word-report-layout.md) |
 |Use OneDrive with [!INCLUDE [prod_short](includes/prod_short.md)] to store your files. | [Business Central and OneDrive](across-onedrive-overview.md) |
-|Get insights into your [!INCLUDE [prod_short](includes/prod_short.md)] data with Power BI and the [!INCLUDE [prod_short](includes/prod_short.md)] content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
+|Get insights into your [!INCLUDE [prod_short](includes/prod_short.md)] data with the current Power BI apps.|[Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)|
 |Use your [!INCLUDE [prod_short](includes/prod_short.md)] data as part of a workflow in Power Automate.|[Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
 |Make your [!INCLUDE [prod_short](includes/prod_short.md)] data available as a data source in Power Apps.|[Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Create and manage work orders, track the progress of service tasks, assign resources, and capture consumption details.|[Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)|

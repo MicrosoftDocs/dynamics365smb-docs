@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 09/04/2026
+ms.date: 11/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -195,6 +195,16 @@ The following sections list typical issues with production output inspections an
 - Ensure that the correct template is assigned.
 - Confirm that output is posted.
 
+### An untracked production inspection can't finish
+
+On the **Quality Management Setup** page, review the **Item Tracking Before Finishing** field. The default is **Allow without item tracking**. If the setting was changed to require tracking, an inspection without tracking information can't be finished. Review the company's tracking requirements before you change the setting.
+
+### An existing inspection is reused instead of creating a new inspection
+
+Review the **Inspection Creation Option** field. Its default, **Use existing open inspection if available**, can reuse a matching open inspection without changing its quantity. To create a separate inspection for each posting, choose **Always create a new inspection**.
+
+If inspection matching differs from the configured behavior, check **Inspection Search Criteria**. Its default is **By Standard Source Fields**. Learn more about these company-wide options in [Quality management setup and configuration](qms-setup.md).
+
 ## Troubleshoot manual inspection creation
 
 The following sections list typical issues when you manually create inspections and suggest solutions.
@@ -298,7 +308,7 @@ The following sections list typical problems with quality inspection results and
 
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
 [Create an inspection manually from item tracking](qms-purchase-receipt-testing-simple.md)  
-[Create a sampled inspection automatically from production output](qms-production-output-testing.md)  
+[Inspect production output](qms-production-output-testing.md)  
 [Work with quality inspections](qms-manual-test-creation.md)  
 [Quality Management Overview](qms-overview.md)  
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 20400, 20408, 20404, 20402, 20416
-ms.date: 09/09/2026
+ms.date: 11/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -106,7 +106,7 @@ The following steps describe settings you can use to get started with quality ma
    |**Sales Returns Trigger** | - **Never** means no automatic inspection creation.<br>- **When Sales Return is received** creates an inspection when you post a sales return order receipt.        |
    |**Transfer Orders Trigger** | - **Never** means no automatic inspection creation.<br>- **When Transfer Order is received** creates an inspection when you post a transfer order receipt.        |
    |**Production Order Trigger**| - **Never** means no automatic inspection creation.<br>- **When Production Output is posted** creates an inspection when you post production output.<br>- **When Production Order is released** creates an inspection when you release a production order.<br>- **When a Released Production Order is refreshed** creates an inspection when you refresh a production order that is already released.|
-   |**Prod. trigger output condition**|- **Any Output Entry** creates an inspection when you enter any output.<br>- **Any Quantity Output** creates an inspection when you post a quantity.<br>- **Only with Quantity** creates an inspection only when you post an output quantity.<br>- **Only with Scrap** creates an inspection only when you post output with scrap.|
+   |**Prod. trigger output condition**| Specify which output, scrap, or time postings qualify for an inspection. Learn more in [Choose which postings create inspections](#choose-which-postings-create-inspections). |
    |**Assembly Trigger**|- **Never** means no automatic inspection creation.<br>- **When Output is posted** creates an inspection when you post assembly output.|
    |**Warehouse Movement Trigger**|- **Never** means no automatic inspection creation.<br>- **When Warehouse Movement is registered** creates an inspection when you register the movement of goods.|
 
@@ -127,6 +127,25 @@ The following steps describe settings you can use to get started with quality ma
    - **Any finished inspection that matches** considers any finished inspection.
    - **Only the most recently modified finished inspection** uses the most recently modified finished inspection.
    - **Only the newest finished inspection/reinspection** uses the finished inspection with the highest reinspection number.
+
+## Configure production inspections
+
+Configure the posting condition, generation rule, and sampling settings for production inspections. To create a matching rule, follow [Create a production rule](qms-test-generation-rules.md#create-a-production-rule).
+
+### Choose which postings create inspections
+
+On the **Quality Management Setup** page, the **Prod. trigger output condition** field determines which production postings qualify for automatic inspection creation throughout the company. Changing it to include time-only postings can create inspections for other production rules too.
+
+| Setting | Output without scrap | Scrap without output | Setup or run time without output or scrap |
+| --- | --- | --- | --- |
+| **Any Output Entry (time or quantity)** | Yes | Yes | Yes |
+| **Any Quantity Output** | Yes | Yes | No |
+| **Only with Quantity** | Yes | No | No |
+| **Only with Scrap** | No | Yes | No |
+
+The output condition doesn't replace an inspection generation rule. The rule must match the item and operation, allow automatic creation, and have **Production Order Trigger** set to **When Production Output is posted**. The trigger on the setup page supplies a default; review the trigger on existing rules as well.
+
+Configure sampling on the inspection template. Learn more in [Create quality inspection templates](qms-quality-templates.md).
 
 ## Set up quality management notifications
 

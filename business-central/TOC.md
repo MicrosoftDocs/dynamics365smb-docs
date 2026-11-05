@@ -56,7 +56,8 @@ ms.service: dynamics-365-business-central
 ##### [Set up Contoso Coffee demo data for quality management](qms-contoso-coffee-demo-data.md)
 ##### [Create an inspection manually from item tracking](qms-purchase-receipt-testing-simple.md)
 ##### [Create an inspection automatically from a warehouse receipt and reinspect the lot](qms-purchase-receipt-testing-warehouse.md)
-##### [Create a sampled inspection automatically from production output](qms-production-output-testing.md)
+##### [Inspect production output](qms-production-output-testing.md)
+##### [Inspect subcontracted production operations](quality-inspect-subcontracted-output.md)
 
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)

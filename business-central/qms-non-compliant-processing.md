@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 20408,
-ms.date: 09/09/2026
+ms.date: 11/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -27,7 +27,11 @@ These options can be triggered automatically using workflows. Learn more in [Qua
 > [!NOTE]
 > For items with lot, serial, or package tracking, you can specify how quality inspection results affect specific document transactions. For example, you can block purchase documents while inspections are in progress and block sales documents for failed inspections. Learn more in [Lot blocking and unblocking](qms-lot-blocking-unblocking.md).
 
-The following sections describe some actions you can take when an item fails an inspection.
+## Before you handle inventory
+
+An inspection quantity isn't proof that the same quantity is available in inventory. To complete an inventory transaction, such as moving goods to quarantine, reclassifying item tracking, or writing off stock, you need enough matching inventory at the source location or bin. Preparing a document or journal doesn't prove that stock is available.
+
+Blocking or unblocking a lot, serial, or package number is different. These actions update item tracking information records and don't require stock.
 
 ## Use actions on quality inspections
 
@@ -45,8 +49,6 @@ Actions that move or remove inventory let you choose which quantity to handle:
 - **Specific Quantity** uses the value in **Quantity to Handle**. If you enter `0`, the action uses the source **Quantity (Base)** from the inspection. You can use this behavior to handle the full inspection quantity for an item that isn't tracked.
 - **Sample Quantity** uses the **Sample Size** from the inspection. The sample size must be greater than zero.
 - **Passed Quantity** or **Failed Quantity** uses the respective quantity calculated from the inspection results.
-
-The specified source location or bin must contain enough matching inventory for the requested quantity.
 
 ### Move inventory
 

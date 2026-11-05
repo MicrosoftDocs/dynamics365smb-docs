@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 20406, 20407, 20408
-ms.date: 09/09/2026
+ms.date: 11/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -17,7 +17,7 @@ Quality inspections collect measurements and observations for items, documents, 
 
 ## Before you create an inspection
 
-You need a quality inspection template and an enabled inspection generation rule. The rule connects the template to a source, such as a purchase line or production order routing line. It also defines whether inspections can be created manually, automatically, or both. For more information, see [Create quality inspection templates](qms-quality-templates.md) and [Set up quality inspection generation rules](qms-test-generation-rules.md).
+You need a quality inspection template and an enabled inspection generation rule. The rule connects the template to a source, such as a purchase line or production order routing line. Learn more in [Create quality inspection templates](qms-quality-templates.md).
 
 Users who perform inspections need the **Quality Inspector** permission set. Users who configure quality management or manage other users' inspections need the **Quality Admin & Supervisor** permission set.
 
@@ -55,21 +55,6 @@ Workflows can create inspections in response to workflow events. Learn more in [
 
 For periodic inspections, assign a **Schedule Group** to one or more rules and configure the job queue entry that [!INCLUDE [prod_short](includes/prod_short.md)] creates. Learn more in [Create scheduled quality inspections](qms-scheduled-test-creation.md).
 
-## How generation rules are selected for source actions and automatic triggers
-
-When you create an inspection from a source record or use an automatic trigger, [!INCLUDE [prod_short](includes/prod_short.md)] evaluates enabled generation rules in ascending **Sort Order**. It checks the source table and condition filter, followed by item and attribute filters when an item is available. The first matching rule supplies the template for that creation attempt. Other matching rules aren't used.
-
-Use lower sort-order values for specific rules and higher values for general fallback rules. Avoid overlapping rules unless the priority is intentional.
-
-For source actions and automatic triggers, the **Activation Trigger** field controls how a rule can be used:
-
-- **Manual or Automatic** allows both creation methods.
-- **Manual only** allows actions that users run.
-- **Automatic only** allows configured automatic triggers.
-- **Disabled** prevents the rule from creating inspections.
-
-Scheduled processing is an exception. A schedule can process any rule that isn't **Disabled**, regardless of whether the rule is manual or automatic.
-
 ## Assign and perform an inspection
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspections**, and then select the related link.
@@ -94,7 +79,7 @@ The result category determines how quantities are updated:
 - **Acceptable** enters the inspected quantity in **Passed Quantity**.
 - **Not acceptable** or a blank category enters the inspected quantity in **Failed Quantity**.
 
-The inspected quantity is the **Sample Size** when that value is greater than zero. Otherwise, [!INCLUDE [prod_short](includes/prod_short.md)] uses **Quantity (Base)**.
+The inspected quantity is the **Sample Size** when that value is greater than zero. Otherwise, [!INCLUDE [prod_short](includes/prod_short.md)] uses **Quantity (Base)**. For example, finishing an acceptable inspection with **Quantity (Base)** of **20** and **Sample Size** of **5** sets **Passed Quantity** to **5**. If **Sample Size** is **0**, **Passed Quantity** is **20**.
 
 ## Print inspection reports
 

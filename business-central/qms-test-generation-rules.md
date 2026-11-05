@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 20400, 20408, 20404, 20402, 20416,
-ms.date: 09/09/2026
+ms.date: 11/04/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -14,13 +14,7 @@ ms.custom: bap-template
 
 # Set up quality inspection generation rules
 
-Quality inspection generation rules define when and how to automatically create quality inspections in response to business transactions. These rules connect your quality inspection templates to specific business processes.
-
-An inspection generation rule defines when you want to ask a set of questions or collect the data you want. You define the questions and data, such as measurements, in your quality inspection template. You connect a template to a source table, and set the criteria to use that template with the table filter.
-
-For ordinary manual and automatic creation, [!INCLUDE [prod_short](includes/prod_short.md)] evaluates enabled rules in ascending **Sort Order**. It checks the source table and condition filter, followed by item and attribute filters when an item is available. The first matching rule supplies the template, and other matching rules aren't used for that creation attempt.
-
-When you have multiple rules, avoid unintended overlaps. Give specific rules lower sort-order values and general fallback rules higher values.
+Quality inspection generation rules determine which inspection template and tests to use for a business transaction. For example, when you post production output, [!INCLUDE [prod_short](includes/prod_short.md)] evaluates matching rules against the relevant transaction or document lines. The template supplies the measurements and questions for the inspection.
 
 ## Types of source documents
 
@@ -32,25 +26,29 @@ You can create inspection generation rules for various types of source documents
 - **Warehouse** rules can use warehouse receipt or warehouse entry data and can trigger when receipts are created or posted or movements are registered.
 - **Returns and transfers** can create inspections when sales return receipts or transfer receipts are posted.
 
+## Activation settings
+
+For source actions and automatic triggers, the **Activation Trigger** field controls how you can use a rule:
+
+- **Manual or Automatic** allows both creation methods.
+- **Manual only** allows actions that users run.
+- **Automatic only** allows configured automatic triggers.
+- **Disabled** prevents the rule from creating inspections.
+
+Scheduled processing is an exception. A schedule can process any rule that isn't marked as **Disabled**, regardless of whether the rule is manual or automatic.
+
 ## Set up a quality inspection generation rule manually
 
 You might want to create an inspection generation rule manually when you have custom or complex filtering requirements.
 
 1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection Generation Rules**, and then choose the related link.
 1. Choose **New**.
-1. In the **Sort Order** field, specify how early you want [!INCLUDE [prod_short](includes/prod_short.md)] to find this template based on the rule. Lower sort order numbers are chosen first.
+1. In the **Sort Order** field, specify how early you want [!INCLUDE [prod_short](includes/prod_short.md)] to find this template among rules for the same source table. Lower sort order numbers are chosen first.
 1. In the **Template Code** field, choose the template to use as the basis for the quality inspection.
 1. In the **Intent** field, specify the type of source document that the rule applies to.
 1. In the **Table** field, choose a table that's relevant for the type of source document you chose in the **Intent** field. For example, if you chose **Warehouse**, you should probably choose the **Warehouse Receipt Line** table.
 1. In the **Condition Filter**, **Item Filter**, and **Attribute Filter** fields, choose one or more fields from the table you just selected to use as the filter that determines when to use this template.
-1. In the **Activation Trigger** field, choose how source actions and automatic triggers can use the rule:
-
-   - **Manual or Automatic**: Both the manual and automatic creation methods are enabled.
-   - **Manual only**: Allow actions that users run, but not automatic triggers.
-   - **Automatic only**: Allow automatic creation when the corresponding event is triggered, for example, when you post a receipt or purchase transaction.
-   - **Disabled**: Prevent inspection creation from the rule.
-
-   Scheduled processing can use any rule that isn't **Disabled**, regardless of the manual or automatic selection.
+1. In the **Activation Trigger** field, choose how source actions and automatic triggers can use the rule. Learn more in [Activation settings](#activation-settings).
 
 1. Depending on your selection in the **Intent** field, specify when to trigger the creation of inspections for assembly, production, purchase orders, sales returns, transfer orders, or warehouse receipts and movements. 
 
@@ -125,43 +123,6 @@ This rule is often used for inspecting production output.
 
 To create a rule for assembly output, use the separate **Create Assembly Rule** action.
 
-<!--### Examples of filters and rules
-
-The following are a few examples of inspection generation rules.
-
-#### Example of a basic, item-based rule
-
-Use an item-based rule to inspect all receipts of a specific item.
-
-|Field  |Value  |
-|---------|---------|
-|Table     |  Purchase Line       |
-|Item No. Filter     |  <\item number>       |
-|Purchase Trigger     |  When Purchase Order is Received       |
-|Other Filters     |  (blank for universal application)       |
-
-#### Example of a location-specific rule
-
-Use a location-specific rule to inspect all items at a specific location.
-
-|Field  |Value  |
-|---------|---------|
-|Table     |  Purchase Line       |
-|Location Code Filter     |  <\location code>       |
-|Purchase Trigger     |  When Purchase Order is Received       |
-|Item Filter     |  (blank for universal application)       |
-
-#### Example of a vendor-specific rule
-
-Use a vendor-specific rule for enhanced inspecting items from a specific vendor.
-
-|Field  |Value  |
-|---------|---------|
-|Source Type     |  Purchase Line       |
-|Vendor No. Filter     |  <\vendor number>       |
-|Purchase Trigger     |  When Purchase Order is Received       |
-|Template     |  Enhanced inspection template       | -->
-
 ## Create quality management workflows
 
 If you're automating the process of creating quality inspections, the next step is to set up quality management workflows. Workflows can automatically run business actions when quality inspections are created, finished, or when specific conditions are met. Learn more in [Quality management workflows](qms-quality-workflows.md).
@@ -170,7 +131,7 @@ If you're automating the process of creating quality inspections, the next step 
 
 [Creating Quality Inspection Templates](qms-quality-templates.md)  
 [Create an inspection manually from item tracking](qms-purchase-receipt-testing-simple.md)  
-[Create a sampled inspection automatically from production output](qms-production-output-testing.md)  
+[Inspect production output](qms-production-output-testing.md)  
 [Work with quality inspections](qms-manual-test-creation.md)  
 [Quality Management Overview](qms-overview.md)  
 

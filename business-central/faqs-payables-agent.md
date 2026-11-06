@@ -1,7 +1,7 @@
 ---
 title: Payables Agent Frequently Asked Questions
-description: Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 10/02/2026
+description: Learn how Payables Agent creates purchase invoices and credit memos in Business Central, including review controls, limitations, and responsible use.
+ms.date: 11/03/2026
 ai-usage: ai-assisted
 ms.update-cycle: 180-days
 ms.custom: 
@@ -19,20 +19,20 @@ These frequently asked questions (FAQ) describe the AI impact of Payables Agent 
 
 ## What is the Payables Agent?
 
-Payables Agent is an autonomous AI-powered agent in Microsoft Dynamics 365 Business Central that automates vendor invoice processing. It operates independently to monitor your designated email inbox for PDF invoice attachments, extracts the invoice data, matches vendors, proposes purchase order matches and account classifications, and creates draft purchase documents for your review.
+Payables Agent is an autonomous AI-powered agent in Microsoft Dynamics 365 Business Central that automates vendor invoice and credit note processing. It monitors your designated email inbox for PDF attachments, extracts document data, matches vendors, suggests account classifications, and creates draft purchase documents for your review. For invoices, it also proposes purchase order matches.
 
-The system combines document processing technology with generative AI to help finance teams reduce manual data entry and speed up accounts payable workflows. When you receive a vendor invoice through email, Payables Agent processes the PDF attachment, identifies the vendor, analyzes each line, and prepares a purchase document draft for review.
+Payables Agent combines document processing technology with generative AI to help finance teams reduce manual data entry and speed up accounts payable workflows. When you receive a vendor invoice or credit note through email, it processes the PDF attachment, identifies the vendor, analyzes each line, and prepares a purchase document draft for review.
 
 > [!IMPORTANT]
-> Payables Agent doesn't post purchase invoices. After review, the agent can create a vendor when instructed and can finalize a purchase document draft into an unposted purchase invoice. Review the new vendor and the unposted invoice according to your organization's controls.
+> Payables Agent doesn't post purchase invoices or purchase credit memos. The agent can create a vendor when instructed and can finalize a reviewed purchase document draft into an unposted purchase invoice or purchase credit memo. Review the new vendor and the unposted document according to your organization's controls.
 
 ## What can Payables Agent do?
 
-Payables Agent handles the end-to-end process of converting vendor invoices into draft purchase documents:
+Payables Agent handles the end-to-end process of converting vendor invoices and credit notes into draft purchase documents:
 
-- **Email Processing**: Monitors your designated payables email inbox for incoming PDF invoice attachments and automatically begins processing valid invoices.
+- **Email processing**: Monitors your designated payables email inbox for incoming PDF invoices and credit notes and begins processing according to your email review settings.
 
-- **Document Extraction**: Uses Azure Document Intelligence to extract text, amounts, dates, line items, and vendor details from PDF invoices.
+- **Document extraction**: Extracts text, amounts, dates, line items, vendor details, document type, and referenced invoices from PDF purchase documents.
 
 - **Vendor Identification**: Matches vendors using multiple approaches:
 
@@ -54,7 +54,9 @@ Payables Agent handles the end-to-end process of converting vendor invoices into
 
 - **Vendor creation**: When no existing vendor match is found, offers to create a new vendor record based on invoice information after you review and confirm the instruction. The new vendor is blocked until a relevant user reviews and unblocks it.
 
-- **Draft creation**: Generates purchase document drafts with extracted data and suggestions for your review. After review, the agent can finalize a draft into an unposted purchase invoice.
+- **Credit note processing**: Creates a purchase credit memo draft for a recognized credit note. Business Central suggests the referenced open invoice when it can identify a single eligible match. The agent includes the selected invoice and any application warnings in its review request.
+
+- **Draft creation**: Generates purchase document drafts with extracted data and suggestions for your review. After review, the agent can finalize a draft into an unposted purchase invoice or purchase credit memo.
 
 - **Human oversight**: Stops processing and requests your assistance when it encounters uncertainty, such as an unidentified vendor or an unclear line classification. Review the proposed values and confirm how the agent should continue.
 
@@ -62,11 +64,19 @@ Payables Agent handles the end-to-end process of converting vendor invoices into
 
 ## What is Payables Agent's intended use?
 
-Payables Agent is intended to automate routine vendor invoice processing for Business Central customers, with the primary objective of creating accurate draft purchase invoices from vendor invoices received via email. The system is designed to handle standard business invoices from known vendors, where it can reliably extract invoice data and match it to existing vendors and accounting codes.
+Payables Agent automates routine vendor invoice and credit note processing for Business Central customers. Its primary objective is to create accurate purchase document drafts from PDF documents received via email. It's designed to handle documents from known vendors, where it can extract document data and match it to existing vendors and accounting codes.
 
-The agent is designed for finance teams that regularly process vendor invoices and want to reduce manual data entry while maintaining control over their accounting records. Review the draft before the agent finalizes it. Then review the resulting unposted purchase invoice before a user posts it.
+The agent is designed for finance teams that regularly process vendor invoices and credit notes and want to reduce manual data entry while maintaining control over their accounting records. Review the draft before the agent finalizes it. Then review the resulting unposted purchase invoice or purchase credit memo before a user posts it.
 
 Review confirmation in the agent task is separate from a Business Central approval workflow. Payables Agent doesn't provide vendor approval or purchase invoice approval workflows.
+
+## How does Payables Agent handle credit notes?
+
+Payables Agent processes recognized PDF credit notes into purchase credit memo drafts and skips purchase order matching. Business Central sets the read-only **Document Type** field from the extracted document type. A negative amount alone doesn't identify a credit note, so review the document type against the PDF.
+
+The agent requests review of the draft, selected invoice, and application warnings before finalization. You can correct the invoice reference or selection, but the agent doesn't change the application fields. If no invoice is selected, the credit memo remains unapplied when posted, even if the vendor uses **Apply to Oldest**.
+
+After you confirm the review, the agent creates an unposted purchase credit memo. It doesn't post the document. Learn more in [Review credit notes before finalization](payables-agent.md#review-credit-notes-before-finalization).
 
 ## How was Payables Agent evaluated? What metrics are used to measure performance?
 
@@ -80,7 +90,7 @@ The agent performance is monitored through user feedback and automated quality c
 
 ## What are the limitations of Payables Agent? How can users minimize the impact of these limitations?
 
-- **File Format and Language Support:** The agent works with PDF invoices only, and doesn't support other file formats. The agent only processes emails that have PDF attachments. Emails without PDF attachments are not processed for invoice creation. The invoices must arrive via email to monitored mailboxes. Users can't upload files directly.
+- **File format and language support:** The agent processes vendor invoices and credit notes in PDF format, and doesn't support other file formats. For mailbox processing, documents must arrive as PDF attachments in the monitored mailbox. Emails without PDF attachments aren't processed into purchase documents. Trial mode also supports uploading sample invoices. Learn more in [Try Payables Agent with free trial mode](payables-agent-setup.md#try-payables-agent-with-free-trial-mode).
 
 - **Geographic and language availability:** [!INCLUDE[copilot-geo-and-language-availability](includes/copilot-geo-and-language-availability.md)]
 
@@ -88,7 +98,7 @@ The agent performance is monitored through user feedback and automated quality c
 
 - **AI-generated content accuracy**: Payables Agent writes suggestions in a clear way, but the account classifications and vendor matches it generates can be inaccurate. The system can't understand business context or evaluate accuracy the way humans can, so always review its suggestions and use your judgment before finalizing a draft.
 
-- **Purchase order matching**: Review **Order line match** and **Warnings** on every matched draft line. The warnings are deterministic Business Central validations, not AI confidence. The agent might not autonomously select multiple order lines for one invoice line, but you can select multiple compatible lines in Business Central.
+- **Purchase order matching**: Matching applies to invoices only, not credit memos. Review **Order line match** and **Warnings** on every matched draft line. The warnings are deterministic Business Central validations, not AI confidence. The agent might not autonomously select multiple order lines for one invoice line, but you can select multiple compatible lines in Business Central.
 
 - **Order and receipt restrictions**: Matching doesn't support **Charge (Item)** lines or order lines with prepayments. Vendor, currency, unit of measure, and line details must be compatible. Automatic receipt posting isn't available for item-tracked lines, directed put-away and pick locations, or lines with existing posted receipts. Learn more in [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md).
 
@@ -100,11 +110,11 @@ To address these limitations, review drafts before finalization and maintain acc
 
 ### What operational factors and settings allow for effective and responsible use of Payables Agent?
 
-- **Email Configuration**: Set up a dedicated email address for vendor invoices that Payables Agent monitors. This helps ensure only legitimate business invoices are processed and provides clear audit trails.
+- **Email Configuration**: Set up a dedicated email address for vendor invoices and credit notes that Payables Agent monitors. This setup helps you control which documents reach the agent and provides clear audit trails.
 
 - **User Permissions and Controls**: Payables Agent operates under Business Central's standard security model with extra autonomous agent safeguards. When setting up the agent, administrators assign specific user profiles and permission sets that define exactly what the agent can access and modify. Users can configure which other users can delegate invoice processing tasks to the agent. The agent can only access data within these predefined boundaries and can't exceed the permissions granted to it.
 
-- **Review Process**: Review drafts before finalization. Payables Agent can finalize a reviewed draft into an unposted purchase invoice, but it doesn't post the invoice. Business Central approval workflows are separate from the agent review.
+- **Review Process**: Review drafts before finalization. For credit memos, check the selected invoice and application warnings. Payables Agent can finalize a reviewed draft into an unposted purchase invoice or purchase credit memo, but it doesn't post either document. Business Central approval workflows are separate from the agent review.
 
 - **Data Quality**: Maintain accurate vendor information and chart of accounts in Business Central. The system's suggestions improve when your master data is complete and up-to-date.
 

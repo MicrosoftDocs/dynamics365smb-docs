@@ -1,7 +1,7 @@
 ---
 title: Set Up Payables Agent in Business Central
-description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
-ms.date: 10/02/2026
+description: Set up Payables Agent to process vendor invoices and credit notes in Business Central. Activate the agent, configure email monitoring, and manage user access.
+ms.date: 11/03/2026
 ai-usage: ai-assisted
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -14,7 +14,7 @@ ms.search.form: 3304_Primary,3313
 ---
 # Set up Payables Agent
 
-The Payables Agent in Business Central automates processing of vendor invoices that vendors send through email as PDF documents. This article explains how to set up, activate, and configure the Payables Agent, and how to manage user access.
+The Payables Agent in Business Central automates processing of vendor invoices and credit notes that you send through email as PDF documents. This article explains how to set up, activate, and configure the Payables Agent, and how to manage user access.
 
 Learn more about the agent in [Payables Agent overview](payables-agent.md).
 
@@ -29,7 +29,7 @@ Before configuring and activating the Payables Agent, ensure the following prere
   - You have the **Configure All Agents** system permission (ID 9665).
 
   Learn more in [Manage agent permissions and user access](#manage-agent-permissions-and-user-access).
-- An email account is set up to receive vendor invoice PDF documents.
+- An email account is set up to receive vendor invoice and credit note PDF documents.
 
    The Payables Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more in [Set up email](admin-how-setup-email.md).
 
@@ -55,7 +55,7 @@ The agent capability is on if the ![Shows the Payables Agent icon](media/payable
 
 If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Payables Agent is listed under **Generally available**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 
-Next, configure and activate the agent so it can process vendor invoices.
+Next, configure and activate the agent so it can process vendor invoices and credit notes.
 
 ## Try Payables Agent with free trial mode
 
@@ -103,7 +103,7 @@ If you start with trial mode, the agent is already active and automatically tran
 
    ## [Monitor incoming information](#tab/incoming)
 
-   Set up the email account and folder that the agent monitors for incoming vendor invoices.
+   Set up the email account and folder that the agent monitors for incoming vendor invoices and credit notes.
 
    1. Turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Email account** field to the email account you want the agent to monitor.
    1. (Optional) Set the **Folder** field to specify a specific mailbox folder the agent should monitor. Leave this field blank to monitor the entire mailbox.
@@ -113,7 +113,7 @@ If you start with trial mode, the agent is already active and automatically tran
 
    ## [Document processing](#tab/documents)
 
-   These options specify how the agent processes incoming vendor invoices and creates purchase documents.
+   These options specify how the agent processes incoming vendor invoices and credit notes and creates purchase documents.
 
    **Email review:**
 
@@ -142,9 +142,9 @@ If you start with trial mode, the agent is already active and automatically tran
 
    ---
 
-8. Select **Update** to complete the setup.
+1. Select **Update** to complete the setup.
 
-The **Payables Agent** icon changes to ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png), indicating the agent is active and ready to handle incoming vendor invoices sent to the mailbox.
+The **Payables Agent** icon changes to ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png), indicating the agent is active and ready to handle incoming vendor invoices and credit notes sent to the mailbox.
 
 > [!TIP]
 > Refer to [Payables Agent process flow](payables-agent.md#payables-agent-process-flow) to understand the agent in more detail and learn how it works.
@@ -152,9 +152,17 @@ The **Payables Agent** icon changes to ![Shows the Payables Agent icon after con
 > [!NOTE]
 > The ![Shows the Payables Agent icon when the agent is configured but not active](media/payables-agent-not-activated-icon.png) icon indicates the agent is configured with a mailbox, but it's not active. To activate it, select the icon, then select ![Shows the configuration icon for Payables Agent](media/soa-configure-icon.png) **Configure Payables Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
 
+## Prepare credit note processing
+
+You don't need a separate activation setting for credit note processing.
+
+The standard **PAYABLES AG. – RUN** permission set includes the permissions needed to create purchase credit memos. If you use customized agent permission sets or profiles, review them to ensure the agent can work with purchase credit memos and the application fields on the draft.
+
+To allow application across currencies, review **Appln. between Currencies** on **Purchases & Payables Setup**. Learn more about reviewing drafts in [Review credit notes before finalization](payables-agent.md#review-credit-notes-before-finalization).
+
 ## Prepare purchase order matching
 
-Purchase order matching uses shared purchase document and e-document capabilities. This setup is optional and isn't required to activate Payables Agent. The feature doesn't introduce any new Payables Agent permission setup.
+Purchase order matching uses shared purchase document and e-document capabilities. This setup is optional and isn't required to activate Payables Agent. Matching applies to purchase invoices only. The agent skips matching for purchase credit memos. The feature doesn't introduce any new Payables Agent permission setup.
 
 ### Set the allowed price difference
 
@@ -258,7 +266,7 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 
 The Payables Agent has a user account in Business Central, similar to other users. To edit this account, search for and open the **Agents** page, and then select **PAYABLES AGENT - [COMPANY]** to open the agent card page.
 
-The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Payables Agent has the **PAYABLES AG. – RUN** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for processing vendor invoices.
+The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Payables Agent has the **PAYABLES AG. – RUN** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for processing vendor invoices and credit notes.
 
 You can't modify the **PAYABLES AG. – RUN** permission set directly, because it's a system permissions set. However, you can create a copy, modify the copy to suit your needs, then add it to **Agent Permission Sets** section, along with any other permission sets.
 

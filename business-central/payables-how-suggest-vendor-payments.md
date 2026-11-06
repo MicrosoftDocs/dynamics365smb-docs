@@ -1,13 +1,13 @@
 ---
 title: Suggest vendor payments
-description: Use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.
+description: Use the Suggest Vendor Payments batch job to create vendor payment lines based on due dates and discounts, and review the batch total before posting.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.search.form: 256,
-ms.date: 07/17/2024
+ms.search.keywords: vendor payment, payment batch total, batch total, creditor, debt, balance due, AP
+ms.search.form: Primary_256
+ms.date: 09/09/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -37,6 +37,7 @@ To benefit fully from payment suggestions, you must prioritize your vendors. To 
 2. Open the journal, and then select the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Select the **OK** button.  
+5. Review **Batch Total (LCY)** at the bottom of the page before you post or export the suggested payments. The field reflects the lines that are currently shown. To learn how the total is calculated, go to [Review the payment batch total](payables-how-post-payments-refunds.md#review-the-payment-batch-total).
 
 ## Insert the due date as posting date on payment journal lines
 

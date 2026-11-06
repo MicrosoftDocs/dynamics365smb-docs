@@ -1,14 +1,14 @@
 ---
 title: Record payments and refunds in payment journals
-description: Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.  
+description: Learn how to record payments and refunds in the payment journal, review the batch total in local currency, and post the journal.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
-ms.search.form: 256, 233, 624, 1228
-ms.date: 07/17/2024
+ms.search.keywords: payment journal, payment batch total, batch total, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.search.form: Primary_256, 233, 624, 1228
+ms.date: 09/09/2026
 ms.service: dynamics-365-business-central
 
 ---
@@ -18,7 +18,7 @@ On the **Payment Journals** page, you record payments that you make to vendors a
 
 Payment journals are general journals that are optimized for making payments. You can quickly add lines manually, you can let [!INCLUDE[prod_short](includes/prod_short.md)] suggest vendor payments, and you can apply the payment to posted documents. Although you're making payments, you enter a positive amount in the **Document Amount** field. Depending on the document type for the journal line, this amount is then converted to a negative amount in the underlying transactions. This way, it's faster for you to add journal lines manually. If you prefer to enter negative amounts, you can personalize the payment journal to show the **Amount** field instead. To learn more about personalizing pages, go to [Start personalizing by using the personalization mode](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
 
-- Applying payments to invoices or credit memos
+- Apply payments to invoices or credit memos
 
     If you fill in the **Applies-to Doc. No.** field with the invoice or credit memo to pay or refund, the document is set to **Paid** when you post the journal. This setting is referred to as "applied." As an alternative to applying when you post a payment, you can use the **Apply Vendor Entries** and **Apply Customer Entries** pages after you post the payment. To learn more, go to, for example, [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
@@ -30,6 +30,12 @@ Payment journals are general journals that are optimized for making payments. Yo
 
     In addition to recording that the payment is made, you can also use the **Payment Journal** page to output the payment for further processing by your bank. To learn more, go to [Make Check Payments](payables-how-work-checks.md) and [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
+## Review the payment batch total
+
+Before you post or export a payment journal, review **Batch Total (LCY)** at the bottom of the page. The field shows the sum of **Amount (LCY)** for the lines that are currently shown.
+
+The total includes the sign of each line, and positive and negative amounts offset each other. The total is 0 when the current batch has no lines, and updates when you change a line amount or select another **Batch Name**.
+
 ## To make payments in the payment journal
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Payment Journals**, and then choose the related link.
@@ -39,7 +45,8 @@ Payment journals are general journals that are optimized for making payments. Yo
 
     Many fields, such as the **Document Amount** and **Due Date** fields, now contain information from the selected document.
 5. Alternatively, use the **Suggest Vendor Payments** action. All the applies-to information and amounts are also entered on the journal lines. To learn more, go to [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
-6. After you complete all payment journal lines, choose the **Post** action.
+6. Review **Batch Total (LCY)**. If the total isn't what you expect, correct the journal lines or review the page filters.
+7. Select the **Post** action.
 
 ## To issue a refund check
 

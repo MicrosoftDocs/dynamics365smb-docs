@@ -7,7 +7,8 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 10/26/2026
+ms.date: 11/03/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -121,14 +122,25 @@ To set up an e-document service, follow these steps.
 After you set up the basics for the e-document service, you can add more advanced options:
 
 - **Set up service integration** - Configure authentication and connection settings for your integration connector. This option is only available when integration connectors are installed.
-- **Configure documents to export** - Set up the document types the framework exports using this service.
+- **Configure supported documents**: Set up which document types the framework can send or receive by using this service.
 - **Export mapping setup** - Configure simple value mappings for export processes.
 - **Import mapping setup** - Configure simple value mappings for import processes.
 - **Receive** - Manually trigger the receipt of new e-documents from the integration service.
 
 ### Supported document types
 
-The types of documents you can use is based on your selection in the **Document Format** field on the **E-Document Service** page. To explore the types of documents that a document format supports, select the format, and then choose the **Configure documents to export** action. The **E-Document Service Supported Source Document Types** page opens, and the **Source Document Type** field shows the types of documents for the document format. Only use types of documents that the document format supports.
+The types of documents you can use depend on your selection in the **Document Format** field on the **E-Document Service** page. On the **E-Document Service Supported Source Document Types** page, **Source Document Type** identifies the document type, and **Direction** specifies whether the service permits incoming documents, outgoing documents, or both. A document type without a row isn't permitted for either direction. Only configure document types that the format supports.
+
+For a service that you manage on the **E-Document Services** page, review the supported document types:
+
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **E-Document Services**, and then select the related link.
+1. Open the service, and then select **Configure supported documents**.
+1. For each document type you want the service to process, add or review its **Source Document Type** row. Set **Direction** to **Incoming**, **Outgoing**, or **Both**, as needed. Only include document types and directions that the format supports.
+
+> [!NOTE]
+> The built-in PDF service doesn't appear in the **E-Document Services** list. Business Central manages its defaults automatically; you don't configure them through this list.
+
+Learn how to review credit memo drafts and their invoice application in [Process incoming credit notes](finance-how-use-edocuments-purchase.md#process-incoming-credit-notes).
 
 ## Set up a document sending profile
 

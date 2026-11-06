@@ -1,19 +1,21 @@
 ---
 title: Overview of tasks to manage payments to vendors
-description: Outlines tasks to manage payments to vendors or creditors, including posting payment lines and getting an overview of the balance due.
+description: Learn how to make payments in Business Central, including suggesting payment lines, reviewing the batch total, posting, printing checks, and exporting bank files.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
-ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
+ms.search.keywords: print check, vendor payment, payment batch total, batch total, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
-ms.date: 06/15/2025
+ms.date: 09/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Make payments
 
-You pay vendors or customers, or reimburse your employees, by posting payment lines on the **Payment Journal** page. The payment journal is a general journal that's optimized for making payments, and offers lots of powerful actions. For example, the **Suggest Vendor Payments** action that finds vendor payments that are due, and the **Vendor - Summary Aging** report that shows an overview of due vendor payments.  
+You pay vendors or customers, or reimburse your employees, by posting payment lines on the **Payment Journal** page. The payment journal is a general journal that's optimized for making payments. For example, the **Suggest Vendor Payments** action finds vendor payments that are due. The **Vendor - Summary Aging** report shows an overview of due vendor payments.
+
+Before you post or export a payment journal, review the value in the **Batch Total (LCY)** field. The field shows the sum in local currency for the lines that are currently shown. Positive and negative amounts offset each other. To learn more, go to [Review the payment batch total](payables-how-post-payments-refunds.md#review-the-payment-batch-total).
 
 You can start the payment process from the lists, cards, and ledger entries for vendors, customers, and employees. Each of these pages has a button that starts the payment flow and helps you fill in the payment journal.  
 

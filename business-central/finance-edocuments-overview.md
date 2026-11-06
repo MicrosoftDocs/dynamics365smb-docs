@@ -6,7 +6,8 @@ ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 
-ms.date: 07/17/2025
+ms.date: 11/03/2026
+ai-usage: ai-assisted
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -23,13 +24,15 @@ Our commitment to enhancing your business processes led to the development of a 
 
 The E-Document app can be used in countries/regions where companies require specialized e-document handling to comply with local regulations. The app provides a solid foundation that can be easily extended to meet specific local or industry requirements.
 
+Built-in PDF analysis can recognize vendor credit notes and prepare purchase credit memo drafts. Review the invoice application before creating an unposted credit memo, whether you process the draft yourself or use Payables Agent. Learn more in [Process incoming credit notes](finance-how-use-edocuments-purchase.md#process-incoming-credit-notes).
+
 The documentation explains e-documents in detail. It shows the capabilities of the app and demonstrates how it seamlessly adapts to cater to your organization's unique needs. To get started with e-documents, see the following articles.
 
 | Article | Description | 
 |---------|-------------|
 | [Set up e-documents](finance-how-setup-edocuments.md) | Learn how to set up e-documents functionality, including services, workflow, sending profiles, and retention policies. |
 | [Use e-documents in sales](finance-how-use-edocuments.md) | Learn how to use e-documents functionality for sales invoices, their statuses, logs, and action messages.| 
-| [Use e-documents in purchase](finance-how-use-edocuments-purchase.md) | Learn how to use e-documents functionality for purchase invoices and orders, their statuses, logs, and action messages.|
+| [Use e-documents in purchase](finance-how-use-edocuments-purchase.md) | Learn how to process purchase invoices, orders, and credit memos, review invoice applications, and resolve warnings. |
 | [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Learn how to extend e-documents functionality with specific local or industry requirements by creating more apps on top of this one. |
 | [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md) | Learn how to use external access points for automation in delivering and receiving your e-documents. |
 | [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md) | Learn how to set up parameters and credentials for e-documents with specific external endpoints. |

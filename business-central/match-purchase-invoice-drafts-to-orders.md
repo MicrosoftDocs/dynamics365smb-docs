@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/27/2026
+ms.date: 11/03/2026
 ai-usage: ai-assisted
 ms.search.keywords: purchase invoice draft, purchase order matching, receipt matching, payables agent, e-document
 ms.search.form: 6103, 9308
@@ -16,6 +16,9 @@ ms.search.form: 6103, 9308
 When an incoming vendor invoice relates to one or more purchase orders, you can match each purchase document draft line to the corresponding order lines and receipts. The matches remain linked to the unposted purchase invoice after you finalize the draft. You can then review the invoice and post it when the receipt requirements are met.
 
 Payables Agent can propose purchase order matches as part of processing an invoice. Review the proposed matches and warnings before you let the agent finalize the draft. Business Central validates compatibility, allocates quantities, and enforces receipt requirements. The agent never posts the invoice.
+
+> [!NOTE]
+> Purchase order matching applies to invoice drafts only. For credit memo drafts, Payables Agent skips matching, and the matching action isn't available. Instead, review the invoice application before finalization. Learn more in [Review credit notes before finalization](payables-agent.md#review-credit-notes-before-finalization).
 
 ## How Business Central finds available purchase order lines
 

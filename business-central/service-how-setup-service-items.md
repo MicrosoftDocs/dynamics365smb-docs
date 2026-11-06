@@ -5,11 +5,12 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service items, service item components, service item groups, service shelves
-ms.date: 10/10/2025
+ms.date: 10/13/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Set up service items and service item components
@@ -36,7 +37,7 @@ You assign service item groups to items on the **Item** card, and to service ite
 
 ## To set up service item components
 
-A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up on the **Service Item Component List** page. Also, you can set up components for service items that are bills of material (BOMs). Copy the BOM items, and create them as service item components.
+A service item can consist of several components, which you can replace with spare parts when you service the item. Set up these components on the **Service Item Component List** page. You can add components manually or copy them from the assembly bill of materials (BOM) of the item specified in the **Item No.** field on the service item card. The service item and the linked item are separate records. The assembly BOM defines the linked item's components.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.
 2. Open the service item for which you want to set up components.  
@@ -47,12 +48,20 @@ A service item can consist of several components, which can be replaced with spa
 
 ## To set up service item components from a BOM
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.  
-2. Open the service item for which you want to set up components from a BOM.  
-3. Choose the **Components** action. The **Service Item Component List** page opens.  
-4. Choose the **Copy from BOM** action.  
+Use an assembly BOM to create service item components for a service item that's linked to an item. Before you copy the components, set up an assembly BOM for the linked item. Learn more at [Work with assembly BOMs](assembly-how-work-assembly-boms.md).
 
-    If the item that the service item links to is a BOM, [!INCLUDE [prod_short](includes/prod_short.md)] creates components for all items in the BOM.  
+The **Copy from Assembly BOM** action copies only assembly BOM lines of type **Item**, not **Resource**. The **Quantity per** on each item line must be a whole number. The action creates one service item component line for each unit specified in **Quantity per**.
+
+> [!NOTE]
+> This action doesn't copy components from a production BOM. Assigning a production BOM to the linked item doesn't create service item components. To add those components, follow the steps in [To set up service item components](#to-set-up-service-item-components).
+
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Service Items**, and then choose the related link.  
+2. Open the service item for which you want to copy components from an assembly BOM.
+3. In the **Item No.** field, specify the item that has the assembly BOM.
+4. Choose the **Components** action. The **Service Item Component List** page opens.
+5. Choose the **Copy from Assembly BOM** action.
+
+    [!INCLUDE [prod_short](includes/prod_short.md)] adds the copied components to the service item's existing component list. If the linked item's assembly BOM has no lines of type **Item**, the action displays an error.
 
 ## To set up a service shelf
 

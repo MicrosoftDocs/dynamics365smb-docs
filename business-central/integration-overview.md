@@ -5,7 +5,8 @@ author: kennienp
 ms.reviewer: jswymer
 ms.topic: overview
 ms.author: kepontop
-ms.date: 09/22/2026
+ms.date: 11/05/2026
+ai-usage: ai-assisted
 ---
 
 # Integration overview for Business Central 
@@ -66,6 +67,18 @@ Here are a few examples of how these integrations can help your business:
 - Use Power Pages to build a self-service portal where your vendors can check the status of their invoices without contacting your accounts payable team.
 
 Learn more in [Integrating Business Central with Power Platform](powerplatform-integration-overview.md).
+
+## Integrate Business Central with Microsoft Fabric (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+Microsoft Fabric brings together tools for data analytics, data engineering, and business intelligence. By using data mirroring, you can make selected company data from [!INCLUDE[prod_short](includes/prod_short.md)] online available in Fabric's OneLake storage for analysis.
+
+You choose the companies and tables to synchronize. [!INCLUDE[prod_short](includes/prod_short.md)] then replicates an initial snapshot and ongoing changes to Fabric. Your teams can use Power BI and other Fabric tools to analyze the mirrored data without repeatedly reading it through Business Central APIs.
+
+Learn more in [Data mirroring to Microsoft Fabric from Business Central](admin-fabric.md).
 
 ## Built-in: Integrate Business Central with Dataverse
 

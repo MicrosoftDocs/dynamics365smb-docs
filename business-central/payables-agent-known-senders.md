@@ -1,7 +1,7 @@
 ---
 title: Manage known senders for Payables Agent
 description: Manage per-sender email review policies for the Payables Agent to automatically approve or reject emails from trusted or unwanted vendors.
-ms.date: 10/02/2026
+ms.date: 11/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jswymer
@@ -14,13 +14,15 @@ ai-usage: ai-assisted
 ---
 # Manage known senders for Payables Agent
 
-The known senders feature helps you manage how Payables Agent handles emails from specific senders to improve invoice processing efficiency. To use sender-specific policies, configure Payables Agent to use the **Manage per sender (recommended)** email review option. You can then automatically approve emails from trusted vendors, require review for other senders, or reject emails from unwanted senders.
+The known senders feature helps you manage how Payables Agent handles emails from specific senders to improve invoice and credit note processing efficiency. To use sender-specific policies, configure Payables Agent to use the **Manage per sender (recommended)** email review option. You can then automatically approve emails from trusted vendors, require review for other senders, or reject emails from unwanted senders.
 
 ## Overview of known senders
 
-Payables Agent automatically builds the known senders list as it processes vendor invoices. When the agent creates a purchase invoice draft from a new sender, it adds the sender's email address to the list before finalizing the invoice. Each sender has a policy that determines how the agent handles future emails from that sender.
+Payables Agent automatically builds the known senders list as it processes vendor invoices and credit notes. When the agent processes an e-document from a new sender, it adds the sender's email address to the list. Each sender has a policy that determines how the agent handles future emails from that sender.
 
-You can also add senders manually before the agent processes their invoices. This option is useful when you want to assign a policy to a vendor in advance.
+You can also add senders manually before the agent processes their documents. This option is useful when you want to assign a policy to a vendor in advance.
+
+The same sender policy applies to invoices and credit notes. An **Approve** policy skips the incoming email review, not the purchase document draft review. The agent still requests review before finalizing an invoice or credit memo draft.
 
 ## Understanding sender review policies
 
@@ -65,7 +67,7 @@ The **Payables Agent Known Senders** page opens, showing all known senders and t
 
 ## Add a sender manually
 
-You can add a sender to the list before the agent processes an invoice from them. This step allows you to preconfigure their review policy:
+You can add a sender to the list before the agent processes an invoice or credit note from them. This step allows you to preconfigure their review policy:
 
 1. On the **Payables Agent Known Senders** page, select **New**.
 1. In the **Email** field, enter the email address of the sender you want to add.
@@ -88,7 +90,7 @@ Remove a sender from the known senders list if you no longer want to maintain a 
 1. Select the sender.
 1. Select **Delete** to remove them from the list.
 
-After you delete a sender, if the agent later processes an invoice from that email address again, it treats the sender as a new sender and adds them back to the list with the default policy for your current email review setting.
+After you delete a sender, if the agent later processes an invoice or credit note from that email address again, it treats the sender as a new sender and adds them back to the list with the default policy for your current email review setting.
 
 ## Best practices for managing senders
 

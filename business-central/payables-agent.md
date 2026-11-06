@@ -1,7 +1,7 @@
 ---
 title: Payables Agent Overview in Business Central
-description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
-ms.date: 10/02/2026
+description: Payables Agent automates vendor invoice and credit note processing in Business Central. Review purchase drafts and prepare invoices and credit memos for posting.
+ms.date: 11/03/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ai-usage: ai-assisted
@@ -14,39 +14,39 @@ ms.search.form: 4400, 4410
 ---
 # Payables Agent overview
 
-The Payables Agent solves a decade-old challenge: end-to-end processing of vendor invoices. Processing vendor invoices often creates bottlenecks and relies on accounting knowledge and mapping data and business rules to register invoices correctly.
+The Payables Agent helps you process vendor invoices and credit notes from end to end. Processing these documents often creates bottlenecks and relies on accounting knowledge and mapping data and business rules to register purchases correctly.
 
 The core goal for the Payables Agent is simple: get accounting skills and help register invoices correctly, ideally removing bottlenecks in accounts payable so finance support doesn't slow company growth. The agent needs almost no setup&mdash;just configuration and activation.
 
-The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to analyze invoice content, and shows invoice drafts to agent supervisors for review. Ideally, users make few or no corrections before finalizing drafts. The resulting unposted invoices are then ready for any required Business Central approval workflow and posting.
+The Payables Agent monitors mailboxes for incoming vendor invoices and credit notes, uses AI to analyze their content, and shows purchase document drafts to agent supervisors for review. Ideally, users make few or no corrections before finalizing drafts. Finalizing creates an unposted purchase invoice or purchase credit memo, depending on the draft's **Document Type**. Review the resulting document before any required Business Central approval workflow and posting. The agent doesn't post either document type.
 
 > [!NOTE]
 > [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Payables Agent process flow
 
-The end-to-end process handled by the Payables Agent is shown in the following figure. The actual flow can vary depending on factors like the clarity of analyzed invoice details, existing purchase invoice history, and blocking issues.
+The following figure shows the invoice process handled by the Payables Agent. Credit notes follow the same draft and review process, but skip purchase order matching and create purchase credit memos instead. The actual flow can vary depending on factors like the clarity of extracted document details, existing purchase history, and blocking issues.
 
 ![Shows the Payables Agent flow](media/payables-agent-flow.png)
 
 The dashed steps in the image can be optional depending on configuration.
 
-1. **Vendor or employee:** Vendor sends an email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice to the mailbox.
+1. **Vendor or employee:** Vendor sends an email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice or credit note to the mailbox.
 1. **Payables Agent:** Picks up unread email in the monitored mailbox. It then imports the email and creates an entry in **Inbound E-Documents** for every PDF attachment, if any exists.
 1. **Agent supervisor:** Reviews the email and PDF, if any was attached.
-1. **Payables Agent:** Extracts invoice information from the PDF using Azure Document Intelligence.
-1. **Payables Agent:** Identifies a vendor in Business Central based on the extracted invoice information.
+1. **Payables Agent:** Extracts document information from the PDF. Business Central determines whether to prepare a purchase invoice or purchase credit memo draft from the extracted document type.
+1. **Payables Agent:** Identifies a vendor in Business Central based on the extracted document information.
 1. **Agent supervisor:** Can assist the agent with identifying the vendor if the agent can't confidently identify the right vendor. The agent supervisor can instruct the agent to create the vendor if they prefer to let the agent prefill vendor information based on OCR extracted vendor details.
 1. **Payables Agent:** The agent attempts to create the vendor and uses the available OCR extracted vendor details to fill out as many fields on the vendor card as possible.
 1. **Agent Supervisor:** Is asked to review the newly created vendor, which is blocked for processing until unblocked by a relevant stakeholder.
-1. **Payables Agent:** Uses AI to suggest invoice details based on the extracted invoice information.
-1. **Payables Agent and Business Central:** The agent proposes purchase order lines for identified invoice lines. Business Central validates compatible order lines, allocates invoice quantities, and evaluates order-match warnings.
-1. **Agent supervisor:** Can review, confirm, or change the suggested invoice details in a purchase document draft, depending on agent configuration settings and the agent's confidence in the suggestions.
-1. **Payables Agent:** Finalizes the purchase document draft into a purchase invoice. Users now see the invoice in the **Purchase Invoices** list.
+1. **Payables Agent:** Uses AI to suggest purchase document details based on the extracted information.
+1. **Payables Agent and Business Central:** For invoices, the agent proposes purchase order lines. Business Central validates compatible order lines, allocates invoice quantities, and evaluates order-match warnings. For credit memos, Business Central looks for the invoice referenced on the credit note, and the agent reads the application details and warnings.
+1. **Agent supervisor:** Reviews, confirms, or changes the suggested details in the purchase document draft before finalization.
+1. **Payables Agent:** Finalizes the draft into an unposted purchase invoice or purchase credit memo. Users can review the document in **Purchase Invoices** or **Purchase Credit Memos** before posting.
 
 ### Email monitoring
 
-The agent uses an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices as PDF documents. The dispatcher triggers the agent to perform tasks and then imports the PDF document into **Inbound E-Documents**.
+The agent uses an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices and credit notes as PDF documents. The dispatcher triggers the agent to perform tasks and then imports the PDF document into **Inbound E-Documents**.
 
 > [!IMPORTANT]
 > The agent only processes emails that have PDF attachments. It doesn't process emails without PDF attachments, and the emails appear as agent tasks that require manual attention.
@@ -60,7 +60,7 @@ Each PDF document found in an email becomes an entry in **Inbound E-Documents**.
 The agent processes any email sent to the monitored mailbox. We recommend you use a shared mailbox that you keep as an internal-only mailbox and don't expose this mailbox to your vendors. The choice is yours. However, by not exposing invoices to vendors, your employees become the first to review and identify potential fraud, while also minimizing unnecessary information for the agent to handle. We recommend you set up a shared mailbox in Microsoft 365, add your accounts payable team members to that mailbox, and use that as the mailbox monitored by the Payables Agent. Learn more in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox).
 
 > [!NOTE]
-> Use a mailbox that's designated to receive vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
+> Use a mailbox that's designated to receive vendor invoices and credit notes. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 >
 > [!CAUTION]
 > The Payables Agent processes only emails that contain PDF attachments. Ensure that the agent has full ownership of the mailbox, and that users can't accidentally read or remove emails:
@@ -70,19 +70,21 @@ The agent processes any email sent to the monitored mailbox. We recommend you us
 > - Use a shared mailbox, if possible.
 > - Ensure emails contain 10 or fewer attachments. The agent skips emails that have more than 10 attachments.
 >
-> PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page, and then remove them. You can also remove unsupported files received in this mailbox this way.
+> PDF files that aren't recognized as supported purchase documents are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page, and then remove them. You can also remove unsupported files received in this mailbox this way.
 
 > ![Shows the Unknown Document Type view on the Inbound E-Documents page](media/unknown-document-type-view.png)
 
-### Extraction of invoice data
+### Extract invoice and credit note data
 
-The PDF is sent for OCR (Optical Character Recognition) data extraction with Azure Document Intelligence, and the result is stored in the same E-Document record. 
+Business Central extracts data from the PDF and stores the result in the same e-document record. The extracted document type determines whether the draft becomes a purchase invoice or purchase credit memo. A negative amount alone doesn't make a document a credit memo. The **Document Type** field on the draft is read-only.
 
-The agent helps categorize imported PDF documents when it's uncertain if the PDF is a vendor invoice. You can identify these documents in **Inbound E-Documents** using the **Unknown Document Type**.
+PDF analysis can recognize credit notes and cancellation invoices that reverse an earlier invoice, even when they show positive amounts. Review extracted dates, quantities, amounts, and complete invoice references against the PDF.
 
-### Drafting invoice details
+The agent helps categorize imported PDF documents when it's uncertain whether the PDF is a supported purchase document. You can identify these documents in **Inbound E-Documents** by using **Unknown Document Type**.
 
-When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent couldn't identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf by using the **Give instructions to the agent** field in the agent **Tasks** tab in the Copilot pane.
+### Prepare purchase document drafts
+
+When the agent determines that a PDF document is a valid vendor invoice or credit note, it identifies the vendor to create the purchase document draft. If the agent can't confidently identify the correct vendor, it might need help from an agent supervisor. If the agent couldn't identify the vendor, the agent supervisor can instruct the agent to create the vendor by using the **Give instructions to the agent** field in the agent **Tasks** tab in the Copilot pane.
 
 **The agent will stop when it cannot identify the vendor:**
 
@@ -105,7 +107,7 @@ When the agent supervisor opens the vendor card, they can easily identify the fi
 
 After you select **Confirm** in the agent **Tasks** tab in the Copilot pane, the agent tries again to identify the vendor, which should now succeed because it was just created, given that you unblocked the vendor.
 
-After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent. It's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved.
+After the agent identifies the vendor, it starts line-level processing of the document details. The agent uses different methods to draft the details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, and item references. The agent records all draft details for the vendor invoice or credit note in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent. It's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved.
 
 When an invoice references purchase orders, the agent can propose order-line matches after it identifies the vendor and invoice lines. Business Central checks whether the order lines are compatible and allocates invoice quantities to the selected lines. Lines that aren't matched continue through the existing classification and review process.
 
@@ -116,6 +118,20 @@ On the **Purchase document draft** page, review **Order line match** and **Warni
 Use **Match to order lines** to correct a proposed match or match an unmatched line. You can select one or more compatible order lines. Payables Agent doesn't necessarily select multiple lines autonomously for one invoice line. Review unmatched lines and classify them manually when needed.
 
 Confirming the draft review lets Payables Agent continue and finalize the draft as an unposted purchase invoice. This review confirmation isn't a Business Central approval workflow, and the agent doesn't post the invoice. Review the resulting purchase invoice and its receipt allocations before posting. Learn more in [Match purchase invoice drafts to purchase orders](match-purchase-invoice-drafts-to-orders.md).
+
+### Review credit notes before finalization
+
+When Business Central recognizes a vendor credit note, the draft's **Document Type** is **Purchase Credit Memo**. The agent skips purchase order matching and requests a review titled **Review credit memo**. The review request identifies the selected posted invoice, if any, and includes the application warnings.
+
+1. Review the vendor, document details, lines, and amounts against the credit note.
+1. Check the invoice reference in **Applies-to Vendor Inv. No.** and the selected posted invoice in **Applies-to Doc. No.**. You can correct the reference, select another eligible open invoice, or clear the selection. The agent doesn't change these fields.
+1. Review the warnings below **Applies-to Doc. No.** before confirming how to continue.
+1. Confirm the review to let the agent finalize the draft into an unposted purchase credit memo.
+1. Review the resulting purchase credit memo and its application before posting.
+
+If no invoice is selected, the credit memo remains unapplied when posted, even if the vendor uses **Apply to Oldest**. If the selected invoice is no longer eligible at finalization, the agent requests help. Correct or clear the selection on the draft, then confirm that the agent can try again.
+
+For field explanations, matching rules, and warning details, see [Process incoming credit notes](finance-how-use-edocuments-purchase.md#process-incoming-credit-notes). The same application checks apply with or without the agent.
 
 ### Finalizing the purchase document draft
 
@@ -129,7 +145,7 @@ The **Purchase document draft** is where the agent's draft details are shown to 
 
 ![Agent shows reasoning behind setting the field value](media/payables-agent-infotips-field.png)
 
-These tips help you gain trust and confidence in the agent's work, and when you're done reviewing, you finalize the invoice. Finalizing a purchase draft creates a purchase invoice based on the draft. After you finalize a draft, it's linked to the purchase invoice and is no longer editable. The draft remains as long as the purchase invoice exists.
+These tips help you understand the agent's suggestions before finalization. Finalizing a purchase draft creates an unposted purchase invoice or purchase credit memo, according to **Document Type**. After finalization, the draft is linked to the purchase document and is no longer editable. The draft remains as long as the purchase document exists.
 
 Page notifications might be hidden while the data review bar appears. Learn more in [Show page notifications during review](supervise-agent-tasks.md#show-page-notifications-during-review).
 
@@ -143,17 +159,17 @@ The Payables Agent uses Copilot Credits for AI interactions, which can incur cha
 
 ## General agent operations
 
-The Payables Agent runs autonomously in the background, using AI to do its tasks while keeping users informed about key steps and involving them when needed. Involvement might be needed in specific scenarios, like when users review vendor invoice drafts created by the agent, based on set preferences.
+The Payables Agent runs autonomously in the background, using AI to do its tasks while keeping users informed about key steps and involving them when needed. For example, the agent requests review of invoice and credit memo drafts before finalization.
 
-Conceptually, the agent interacts with Business Central features like a Business Central user. The agent gets general instructions in natural language that outline how to handle vendor invoices. It uses UI metadata, like captions, tooltips, and other properties, along with data on Business Central pages and its own instructions, to decide each step needed to finish the task. Starting from the designated Role Center, the agent goes through pages, selects UI actions, and enters data as a user does. This approach lets the agent stay flexible and adaptable because its interaction surface and steps aren't hardcoded. Instead, AI decides them based on the context of each step.
+Conceptually, the agent interacts with Business Central features like a Business Central user. The agent gets general instructions in natural language that outline how to handle vendor invoices and credit notes. It uses UI metadata, like captions, tooltips, and other properties, along with data on Business Central pages and its own instructions, to decide each step needed to finish the task. Starting from the designated Role Center, the agent goes through pages, selects UI actions, and enters data as a user does. This approach lets the agent stay flexible and adaptable because its interaction surface and steps aren't hardcoded. Instead, AI decides them based on the context of each step.
 
 This flexibility lets the agent find and interact with relevant custom fields and actions. It can also try to automatically fix validation errors by processing displayed error messages and adjusting the input.
 
 ### Customer and Business Central user involvement
 
-Agent supervisors can check the agent's steps, imported PDF invoices, and the drafted purchase invoice details. They can easily see the data the agent enters compared to data from Business Central's business logic and imported OCR data, and change the purchase invoice draft as desired.
+Agent supervisors can check the agent's steps, imported PDF invoices and credit notes, and the drafted purchase document details. They can see the data the agent enters compared to data from Business Central's business logic and extracted document data, and change the purchase document draft as needed.
 
-The agent involves designated Business Central users, called agent supervisors or overseers, if it isn't sure how to register the invoice. For example, if the vendor can't be identified with confidence.
+The agent involves designated Business Central users, called agent supervisors or overseers, if it isn't sure how to register the purchase document. For example, if the vendor can't be identified with confidence.
 
 ## Permissions and profiles
 

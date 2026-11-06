@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, receive, purchase, matching, mapping, Copilot
 ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
 ai-usage: ai-assisted
-ms.date: 09/29/2026
+ms.date: 11/03/2026
 ms.custom: bap-template
 ---
 
@@ -248,6 +248,49 @@ To manually import single or multiple external e-documents, follow these steps:
 #### Work with attachments  
 
 Peppol and similar e-invoicing files are machine-readable formats that aren't easy for people to read. To improve reading, Peppol made it possible to embed a PDF file into the Peppol BIS 3 format as a binary object. If your incoming Peppol BIS 3 file has an embedded PDF, [!INCLUDE [prod_short](includes/prod_short.md)] automatically processes it and adds the PDF as an attachment to the purchase document after creating it.
+
+## Process incoming credit notes
+
+Before you create the purchase document, review the invoice application on an incoming purchase credit memo draft. These application checks cover structured e-documents and recognized PDF credit notes. Payables Agent uses the same checks for PDF credit notes.
+
+Built-in PDF analysis can recognize credit notes and cancellation invoices from the document's content, not negative amounts or the word "credit" alone. Credit notes can have positive amounts. Receipts, remittance advices, and account statements aren't credit notes just because they mention credits. If analysis doesn't identify a credit note, it uses invoice processing.
+
+On the **Purchase document draft** page, **Document Type** shows whether the draft creates a purchase invoice or purchase credit memo. This field is read-only. For a credit memo, review these application fields:
+
+| Field | Description |
+|-------|-------------|
+| **Applies-to Vendor Inv. No.** | The invoice reference stated on the credit note. Business Central uses this reference to suggest the posted invoice to apply the credit memo to. You can correct the reference. |
+| **Applies-to Doc. No.** | The posted purchase invoice selected for application when you post the credit memo. You can select another open invoice of the vendor or clear the field. |
+
+Business Central suggests an invoice only when exactly one open posted invoice of the pay-to vendor matches the reference in an applicable currency. It checks both the Business Central posted invoice number and the vendor's invoice number. **Appln. between Currencies** on **Purchases & Payables Setup** determines whether application across currencies is allowed.
+
+1. Open **Inbound E-Documents**, select the received credit note, and then select **Open draft document**.
+1. Review **Document Type**, the vendor, dates, lines, quantities, and amounts against the source document.
+1. Review **Applies-to Vendor Inv. No.** and **Applies-to Doc. No.**. Correct the reference or select an eligible open invoice if needed.
+1. Read the warnings below **Applies-to Doc. No.** and resolve any issues with the proposed application.
+1. Select **Finalize draft** to create an unposted purchase credit memo.
+1. Open the purchase credit memo, review its details and application, and post it when you're ready.
+
+If Payables Agent is handling the document, confirm its review request instead of finalizing the draft yourself. The agent creates the unposted credit memo, but doesn't post it. Learn more in [Review credit notes before finalization](payables-agent.md#review-credit-notes-before-finalization).
+
+Use the following guidance when you review application warnings:
+
+| Situation | What to check or change |
+|-----------|-------------------------|
+| No invoice reference, no open match, or an incompatible currency | Correct the reference or select an eligible open invoice. Closed invoices and invoices from another pay-to vendor aren't eligible. |
+| Several invoices match the reference | Select the correct invoice in **Applies-to Doc. No.**. The lookup offers the matching open invoices. A reference can be ambiguous if it matches one invoice's posted number and another invoice's vendor invoice number. |
+| The PDF credit note references multiple invoices | Only the first reference appears in **Applies-to Vendor Inv. No.**, and no invoice is selected automatically. Review the PDF and select the invoice to apply the credit memo to. |
+| The vendor isn't identified | A warning might identify the vendor of the referenced invoice. Verify that vendor against the credit note before assigning it. The warning doesn't assign a vendor automatically. |
+| The credit exceeds the selected invoice's remaining amount in the same currency | Review the application. The credit memo won't be fully applied to that invoice. This warning doesn't prevent finalization. |
+| Another unposted credit memo targets the same invoice | Check the named credit memo for duplicate credits before you continue. This warning doesn't prevent finalization. |
+
+Changing **Applies-to Vendor Inv. No.** refreshes the suggested invoice and warnings. If the PDF referenced multiple invoices, editing this field specifies a single reference to use. Changing the vendor recalculates the application for that vendor.
+
+If you leave **Applies-to Doc. No.** blank, the generated credit memo remains unapplied when posted, even when the vendor's **Application Method** is **Apply to Oldest**. Finalization uses the reviewed selection; it doesn't choose another invoice. You can apply the posted credit memo later. Learn more in [Apply vendor entries manually](payables-how-apply-purchase-transactions-manually.md).
+
+Business Central rechecks the selected invoice during finalization. If the invoice is no longer open or its currency is no longer applicable, finalization stops with an error. Select another eligible invoice or clear **Applies-to Doc. No.** on the draft, then try again.
+
+Purchase order matching isn't available for credit memo drafts.
 
 ## E-documents with purchase orders  
 

@@ -3,7 +3,7 @@ title: Troubleshoot Expense Agent Issues
 description: Find solutions for common issues in Expense Agent, including sign-in problems, receipt upload failures, and policy violations.
 author: jswymer
 ms.topic: concept-article
-ms.date: 10/02/2026
+ms.date: 11/04/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -55,6 +55,36 @@ If you can't find an expense or report, it might have been deleted by you or ano
 ## Malware detected in upload
 
 If a file you try to upload is flagged for malware, the upload is blocked for security. Use a different file or rescan the original file with your antivirus software before trying again.
+
+## Travel requests aren't available or actions are disabled
+
+**Create travel request** appears only when the connected Business Central environment supports travel requests. If the action is missing, ask your administrator whether the environment supports this capability.
+
+If travel actions are disabled, check your internet connection and company access. Travel requests can't be created, edited, submitted, approved, or deleted offline. A request awaiting approval is read-only. You can revise it after the approver sends it back.
+
+## A travel request can't be saved or submitted
+
+1. Check that the request has a purpose and valid expected start and end dates. The end date can't be before the start date.
+1. Add at least one estimated cost. For each estimate, enter a description, amount, and currency. Select a category when the cost type is **Category**.
+1. If you entered any details on **Per diem allowance**, complete the location and both times. The return must be after departure. If you don't want to include per diem, clear all three fields.
+1. Review any highlighted fields and correct them.
+1. Ask your administrator to check your expense user and approver setup if submission still fails.
+
+Saving and submitting are separate operations. If the request was saved but submission failed, reopen the saved draft and try submitting again. You don't need to create another request.
+
+## An approved travel request has no expense report
+
+Approval normally creates linked reports in Business Central. You see only your own linked report in Expense Agent.
+
+If you created the request and your linked report was deleted, find the approved request on **Approved** in the web app or **Submitted** in the mobile app. Open the request for review and select **Create expense report** when the action is available. If you're an additional traveler whose report is missing, contact the requester or your administrator.
+
+If the trip is no longer needed and **Delete** is available, you can try deleting the request. Business Central blocks deletion while any expense report or report line still references the request, including another traveler's report or a posted report. Deleting only your own report doesn't remove those other links.
+
+## A trip receipt is assigned to the wrong report
+
+For a report linked to a travel request, matching uses the expected trip dates, with up to three days before and after the trip also considered. Other draft reports can be candidates too. Matching doesn't guarantee that a receipt goes to the trip report.
+
+Review the receipt date and report assignment. If necessary, [move the expense to the correct draft report](expense-agent-expense-reports.md#move-an-expense-to-a-different-report).
 
 ## AI quota exceeded
 
@@ -123,6 +153,9 @@ If an expense shows **Policies pending**, the evaluation might still be running,
 
 [Expense Agent overview](expense-agent-overview.md)  
 [Upload receipts in Expense Agent](expense-agent-upload-receipts.md)  
+
+[Plan and submit travel requests](expense-agent-travel-requests.md)
+
 [Expense policy compliance in Expense Agent](expense-agent-policy-compliance.md)  
 [Set up the Expense Agent](expense-agent-configuration-page.md)  
 

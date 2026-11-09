@@ -3,7 +3,7 @@ title: Review and Approve Expense Reports
 description: Learn how managers and accountants review expense reports, decide VAT reclaim, approve or reject reports, and prepare them for posting.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 09/24/2026
+ms.date: 11/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -15,11 +15,27 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When the approval workflow is enabled, submitted expense reports require approval before they can be posted. Managers review the business purpose and policy compliance. When VAT reclaim is enabled, accountants also review the VAT calculation and make the final reclaim decision. This article explains both reviews in [!INCLUDE[prod_short](../includes/prod_short.md)].
+When Expense Agent or the approval workflow is enabled, submitted expense reports require approval before posting. This article explains how managers review, approve, reject, or assign an interim approver to expense reports in [!INCLUDE[prod_short](../includes/prod_short.md)]. When VAT reclaim is enabled, accountants also review the VAT calculation and make the final reclaim decision.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## View reports awaiting approval
+
+The page you use depends on whether Expense Agent is enabled. Set up approvers as expense users and link them to their [!INCLUDE[prod_short](../includes/prod_short.md)] user accounts. Learn more in [Set up expense approvers](expense-management-users-teams.md#set-up-expense-approvers).
+
+### With Expense Agent enabled
+
+Use the **Expense Reports** list and **Expense Report** card for agent-enabled approvals.
+
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Reports**, and then choose the related link.
+1. Find a report assigned to you with the **Pending Approval** or **Interim Approved** status.
+1. Open the report.
+
+The **Approve** and **Reject** actions appear only when you're signed in as the report's current approver. For a report with an interim approver, the interim approver acts first. The final approver can act after the status changes to **Interim Approved**.
+
+### With the approval workflow and no Expense Agent
+
+Use the manager pages for the approval workflow without Expense Agent.
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Manager Expense Reports**, and then choose the related link.
 
@@ -27,11 +43,28 @@ The list shows expense reports that are pending your review. If the approval wor
 
 ## Review an expense report
 
-1. On the **Manager Expense Reports** page, select a report and open it.
-2. Review the expense lines in the report subpage. Each line shows the expense category, date, amount, and description.
-3. Review the **Rule Violations** FactBox on the right side for any policy violations.
-4. Review the **Expense Report Statistics** FactBox for totals and reimbursable amounts.
-5. Use the **Expense** FactBox to access attached receipts.
+1. Open the report from **Expense Reports** if Expense Agent is enabled, or from **Manager Expense Reports** if you use the approval workflow without Expense Agent.
+1. Review the expense lines in the report subpage. Each line shows the expense category, date, amount, and description.
+1. Review the **Rule Violations** FactBox on the right side for any policy violations.
+1. Review the expense report totals and reimbursable amounts in the FactBoxes.
+1. Use the **Expense** FactBox to access attached receipts.
+
+## Assign an interim approver
+
+If Expense Agent is enabled, you can assign one optional interim approver to a submitted expense report with the **Pending Approval** status. Assign the approver in [!INCLUDE[prod_short](../includes/prod_short.md)] on the **Expense Report** card, not the **Manager Expense Report** card. The interim approver reviews the report before the final approver.
+
+The interim approver must differ from the report's expense user and the final approver. The interim approver must have **Can Approve** turned on and a linked [!INCLUDE[prod_short](../includes/prod_short.md)] user account for approvals. Their expense user email must match the **Authentication Email** on their **User Card**. Learn more in [Set up expense approvers](expense-management-users-teams.md#set-up-expense-approvers).
+
+1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Reports**, and then choose the related link.
+1. Open the submitted report with the **Pending Approval** status.
+1. Select **Assign Interim Approver**.
+1. Select the interim approver.
+1. Confirm the assignment.
+
+The read-only **Interim Approver No.** and **Final Approver No.** fields show the assigned approvers. Select **Show more** on the **General** FastTab if the fields aren't visible.
+
+> [!IMPORTANT]
+> The web and mobile apps don't currently support the complete interim approval flow. Assign interim approvers and complete both approval stages in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Review VAT reclaim
 
@@ -51,26 +84,33 @@ An approved reclaim keeps the current reclaim percentage. A rejected reclaim set
 
 ## Approve an expense report
 
-1. On the **Manager Expense Report** card, choose the **Approve** action.
+Use **Expense Report** when Expense Agent is enabled, or **Manager Expense Report** for the approval workflow without Expense Agent.
 
-The report status changes to **Approved**. The report is now ready to be posted.
+1. Open the report assigned to you.
+1. Choose **Approve**, and then confirm.
+
+If you're the interim approver, the report status changes to **Interim Approved**, and the report moves to the final approver. It can't be posted yet. If you're the final approver, or if no interim approver is assigned, the report status changes to **Approved**. Only after final approval can the report be posted, subject to any remaining posting requirements, such as VAT reclaim review.
 
 ## Reject an expense report
 
-If the report doesn't meet requirements, you can reject it and send it back to the submitter with a comment.
+If the report doesn't meet requirements, you can reject it. Use **Expense Report** when Expense Agent is enabled, or **Manager Expense Report** for the approval workflow without Expense Agent.
 
-1. On the **Manager Expense Report** card, choose the **Reject** action.
-2. Enter a comment explaining why the report is being rejected.
+1. Open the report assigned to you.
+1. Choose **Reject**, and then confirm.
 
-The report status changes to **Rejected**. The submitter can view your comment in the **Approver Comment** section on their expense report, make corrections, and resubmit.
+The report status changes to **Rejected**. The **Reject** action doesn't open a comment dialog. For reports without an interim approver, you can use **Send back** in the web app to return a report with comments. Learn more in [Send back an expense report](expense-agent-approve-reports.md#send-back-an-expense-report).
+
+If an interim approver is assigned, only the active approver can reject the report. For example, the final approver rejects the report after it reaches **Interim Approved**.
+
+After corrections and resubmission, an assigned interim approver who is still eligible reviews the report again before the final approver.
 
 ## Reopen an approved or rejected report
 
-If you need to reconsider a decision, you can reopen a report.
+If you use the approval workflow and need to reconsider a decision, you can reopen a report on the **Manager Expense Report** card. The **Reopen Approved** action isn't available on the agent-enabled **Expense Report** card.
 
 1. On the **Manager Expense Report** card, choose **Reopen Approved**.
 
-The report returns to a status where it can be processed again.
+The report returns to **Pending Approval**. If an assigned interim approver is still eligible, reopening restarts the interim stage before final approval.
 
 ## Next steps
 

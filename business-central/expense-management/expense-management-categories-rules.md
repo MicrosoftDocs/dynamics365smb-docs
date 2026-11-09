@@ -3,7 +3,7 @@ title: Set Up Expense Categories, Rules, and Policies
 description: Learn how to create expense categories, subcategories, groups, rules, and AI-evaluated policies that control employee expenses in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 09/25/2026
+ms.date: 11/04/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -171,7 +171,7 @@ Expense rules define conditions that expenses must meet based on category and lo
 
 To enable rule enforcement, turn on **Apply Rules** on the **Expense Agent Setup** page. If you don't turn on this setting, rules aren't applied. The exception is per diem calculations, which are always considered.
 
-When you turn on rules, [!INCLUDE [prod_short](../includes/prod_short.md)] automatically checks expenses against the matching rules. If an expense violates a rule, the violation appears in the **Rule Violations** FactBox on the expense card and the expense report. Violations don't block submission, but they're visible to approvers.
+When you turn on rules, [!INCLUDE [prod_short](../includes/prod_short.md)] automatically checks expenses against the matching rules. If an expense violates a rule, the violation appears in the **Rule Violations** FactBox on the expense card and the expense report. Unresolved violations block report release and submission. The submitter must correct the expense or provide the required justification before trying again. AI-assisted policy flags are separate advisory results and don't block submission.
 
 ### Compare rules and policies
 

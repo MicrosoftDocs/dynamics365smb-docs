@@ -3,7 +3,7 @@ title: Set Up Expense Agent in Business Central
 description: Learn how to set up Expense Agent to automate expense tracking, processing, policy evaluation, and approval workflows in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/02/2026
+ms.date: 11/04/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ai-usage: ai-assisted
@@ -20,10 +20,10 @@ Expense Agent helps automate expense tracking, processing, and approval workflow
 
 ## Choose your setup path
 
-You can configure Expense Agent in two ways:
+Use these pages for different parts of setup:
 
-- **Assisted setup (recommended)**: Use **Configure Expense Agent** for guided onboarding, quick activation, and built-in validation checks as described in this article.
-- **Manual setup (advanced)**: Use the **Expense Management Setup** page to configure settings directly and manage detailed options after initial setup. Learn more in [Access expense management setup](expense-management-setup.md#access-expense-management-setup).
+- **Assisted setup (recommended)**: Use **Configure Expense Agent** for guided setup and validation checks. Configure activation, receipt submission, communication, project tracking, and AI-assisted policy evaluation, as described in this article.
+- **Manual setup (advanced)**: Use **Expense Management Setup** to configure accounting defaults, expense rules, numbering, and other expense management settings. This page doesn't replace assisted setup for agent-specific settings. Learn more in [Access expense management setup](expense-management-setup.md#access-expense-management-setup).
 
 For most organizations, assisted setup is the best way to get started quickly.
 
@@ -48,7 +48,7 @@ Before you set up the Expense Agent, make sure the following prerequisites are m
 
   The permission sets must be assigned to the company you're configuring or to all companies. Equivalent object permissions don't satisfy this prerequisite. When you activate Expense Agent, Business Central manages the agent's Microsoft Entra application and company-specific permissions.
 
-- A shared mailbox is available for receiving expense submissions from employees and for communication with users sending different information reports back.  
+- A mailbox is available if you want employees to submit receipts by email. Configure an account separately under **Communication** for outgoing messages.
   
   The mailbox must be a Microsoft 365 **user mailbox** or **shared mailbox** in your organization. Learn more in [Set up email](../admin-how-setup-email.md).
 
@@ -104,8 +104,8 @@ The assisted setup configures the following areas:
 
 - **Rules and controls**: Configure required receipt numbers, required merchant names, and anti-corruption attestation visibility.
 - **Policy compliance**: Configure AI-assisted policy evaluation after submission and pre-submission evaluation options.
-- **Communication**: Configure open-report reminder behavior, approval notifications, and notification frequency.
-- **Projects**: Configure whether project fields are visible and which projects submitters can see.
+- **Communication**: Turn on outgoing email and select an **Account** under **Send mail**. This account is required for welcome emails, approval updates, reimbursement notifications, and open-report reminders. The receipt mailbox isn't used as a fallback sender. Configure reminder frequency and approval notifications as needed. Learn more in [Configure notification settings](expense-management-setup.md#configure-notification-settings).
+- **Project tracking**: Configure whether project fields are visible and which projects submitters can see.
 - **Mileage and per diem**: Configure the default mileage rate and unit of measure, and per diem calculation options, including partial-day settings. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
 When you activate the agent, Business Central verifies that all required conditions are met, such as enabled capabilities, correct permissions, and a valid mailbox for email-based expense submission. If any required conditions aren’t met, the assisted setup prompts you to address them before activation completes.

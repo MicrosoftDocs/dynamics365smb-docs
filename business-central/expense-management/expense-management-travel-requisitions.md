@@ -3,7 +3,7 @@ title: Manage Travel Requests in Business Central
 description: Learn how to create, submit, track, and close travel requests, estimate travel costs, and link approved requests to expense reports in Business Central.
 author: jswymer
 ms.topic: how-to
-ms.date: 09/26/2026
+ms.date: 11/04/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -19,8 +19,7 @@ Travel requests help organizations review planned travel before employees incur 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-> [!IMPORTANT]
-> In version 29, you manage travel requests in [!INCLUDE[prod_short](../includes/prod_short.md)]. Travel requests aren't available in the Expense Agent web or mobile experience.
+You can also [plan and submit trips in the Expense Agent web and mobile apps](expense-agent-travel-requests.md).
 
 ## Before you start
 
@@ -42,9 +41,9 @@ Learn more in [Set up expense users and teams](expense-management-users-teams.md
 1. Select **New** to open a **Travel Request** card.
 1. In **Requested For**, select the expense user whose travel is being requested. The selected expense user is automatically added to **Travelers**.
 1. Enter the **Purpose**, **Currency Code**, and **Total Expected Amount**.
-1. Enter the **Expected Start Date** and **Expected End Date**. Enter the **Actual Start Date and Time** and **Actual End Date and Time** when that information is available.
-1. For international travel, turn on **International Travel** and specify the **Origin Country** and **Destination Country**.
-1. Turn on **Travel Policy Acknowledgment** after the traveler acknowledges the policy. Turn on **Per Diem Included** if the request includes per diem costs.
+1. Enter the **Expected Start Date** and **Expected End Date**.
+1. If the request includes per diem costs, turn on **Per Diem Included** and select an **Expense Location**. Enter the **Actual Start Date and Time** and **Actual End Date and Time** before releasing the request. These date and time fields are required for per diem.
+1. Turn on **Travel Policy Acknowledgment** after the traveler acknowledges the policy.
 1. Specify the shortcut dimensions, or select **Dimensions** to add other dimensions.
 1. Select **Travelers** and add any other expense users who will travel.
 
@@ -74,9 +73,9 @@ Select **Release** when the request is ready. The request changes from **Open** 
 - An **Expected Start Date** and **Expected End Date**
 - **Travel Policy Acknowledgment** turned on
 - At least one traveler
-- A **Destination Country** if **International Travel** is turned on
+- An **Expense Location**, **Actual Start Date and Time**, and **Actual End Date and Time** if **Per Diem Included** is turned on
 
-When Expense Agent is disabled, submission automatically changes the request to **Approved** because no Expense Agent approver is available. When Expense Agent is enabled, the request remains **Submitted** until the configured approver decision is processed. Version 29 doesn't use standard [!INCLUDE [prod_short](../includes/prod_short.md)] workflow templates for travel request approval.
+When Expense Agent is disabled, submission automatically changes the request to **Approved** because no Expense Agent approver is available. When Expense Agent is enabled, the request remains **Submitted** until the configured approver decision is processed. Travel request approval doesn't use standard [!INCLUDE [prod_short](../includes/prod_short.md)] workflow templates.
 
 Travel requests use these statuses.
 
@@ -94,7 +93,7 @@ You can reopen a **Submitted**, **Approved**, or **Rejected** request if no spen
 
 On an expense report, select an approved request in **Travel Request No.** The expense user on the report must be a traveler on the request. You can only link refundable expense lines. Use the **Travel Request** action on the report or line to open the related request.
 
-Version 29 doesn't automatically create an expense report from a travel request.
+The Expense Agent travel request workflow creates linked expense reports in [!INCLUDE [prod_short](../includes/prod_short.md)] on approval. Employees still review and submit their actual expenses for a separate approval.
 
 When you assign a request to a refundable expense amount, [!INCLUDE [prod_short](../includes/prod_short.md)] compares the new refundable amount plus previously posted spending with the request's total expected amount in local currency. If the total is exceeded, the user assigning the request receives a nonblocking notification. Processing can continue.
 
@@ -111,6 +110,8 @@ Use **Total Spent Amount (LCY)** to review posted spending and **Remaining Amoun
 ## Related information
 
 [Manage employee expenses](expense-management-overview.md)
+
+[Plan and submit travel requests in Expense Agent](expense-agent-travel-requests.md)
 
 [Set up expense management](expense-management-setup.md)
 

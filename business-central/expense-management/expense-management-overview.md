@@ -3,7 +3,7 @@ title: Expense Management Overview in Business Central
 description: Learn about expense management in Business Central, including how to capture expenses, create reports, get approvals, and post to the general ledger.
 author: brentholtorf
 ms.topic: overview
-ms.date: 09/26/2026
+ms.date: 11/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -70,6 +70,7 @@ Expense reports move through these statuses.
 | --- | --- |
 | Open | The report is being prepared. You can add or remove expenses. |
 | Pending Approval | The report was submitted and is waiting for a manager's decision. |
+| Interim Approved | An interim approver approved the report. The report is waiting for final approval. |
 | Released | The report was released for processing. |
 | Approved | A manager approved the report. It's ready to post. |
 | Rejected | A manager rejected the report. The submitter can make changes and resubmit. |
@@ -98,10 +99,10 @@ Learn more in [Set up expense management](expense-management-setup.md#set-up-vat
 
 Understanding the difference between *refundable* and *reimbursable* is important:
 
-- **Refundable** means the expense complies with company policy and is eligible for processing. Non-refundable expenses (such as personal charges on a hotel bill) cannot be reimbursable and aren't posted to the general ledger.
-- **Reimbursable** means the employee paid personally and is owed money. An expense paid by company credit card is refundable but not reimbursable, because the company already covered the cost.
+- **Refundable** means the expense complies with company policy and is accepted as a business expense. Nonrefundable amounts aren't reimbursed. Their accounting treatment depends on who paid: employee-paid nonrefundable expenses don't create general ledger or expense ledger entries, but company-paid nonrefundable amounts create entries to recover the amount from the employee.
+- **Reimbursable** means the employee paid personally and is owed money. A fully refundable expense paid by company credit card has no amount to reimburse because the company already covered the cost. For a company-paid nonrefundable amount, **Reimbursable Amount** is negative to show that the employee owes the company.
 
-A single receipt can be partially refundable. For example, a hotel bill with three refundable line items and one non-refundable minibar charge results in a partial reimbursement. Administrators set the default refundable status on expense categories and subcategories.
+A single receipt can be partially refundable. For example, an employee-paid hotel bill with three refundable line items and one nonrefundable minibar charge results in a partial reimbursement. If the company paid the bill, the nonrefundable portion is recovered from the employee instead. Administrators set the default refundable status on expense categories and subcategories.
 
 ### Per diem and mileage
 

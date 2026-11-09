@@ -3,7 +3,7 @@ title: Create and Manage Expenses in Business Central
 description: Learn how to record individual expenses, attach receipts, add itemizations and participants, and track per diem and mileage in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 09/26/2026
+ms.date: 11/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -104,10 +104,10 @@ The **Billing** FastTab on the **Expense Card** page lets you specify more detai
 
 | Fields | Description |
 | -- | -- |
-| **Refundable** | Indicates whether the expense complies with company policy and is eligible for processing. Nonrefundable expenses aren't posted to the general ledger. The expense category sets the default. |
-| **Reimbursement Type** | Specifies how to process the reimbursement based on the payment method. Expenses paid by the employee (cash) are reimbursable. Expenses paid by company card or bank account are expensed but not reimbursed. |
-| **Non-Refundable Amount** | Specifies the reduction to the reimbursable amount. Available when Refundable is on and the category does not require itemization. |
-| **Reimbursable Amount** | The amount eligible for reimbursement. This amount is zero for expenses paid by company credit card, because the company already covered the cost. |
+| **Refundable** | Indicates whether the expense complies with company policy and is accepted as a business expense. The expense category sets the default. Employee-paid nonrefundable expenses don't create general ledger or expense ledger entries. Company-paid nonrefundable amounts create accounting entries to recover the amount from the employee. |
+| **Reimbursement Type** | Specifies how to process reimbursement based on the payment method. For **Employee Paid** expenses, the refundable portion is reimbursed to the employee. **Credit Card** and **Company Paid** expenses aren't reimbursed because the company already paid. Their nonrefundable portions are recovered from the employee. |
+| **Non-Refundable Amount** | Specifies the portion that isn't accepted as a business expense. It reduces the employee's reimbursement for employee-paid expenses or represents an amount to recover for company-paid expenses. Available when **Refundable** is on and the category doesn't require itemization. |
+| **Reimbursable Amount** | The amount owed to the employee. For fully refundable company-paid expenses, the amount is zero because the company already paid. Company-paid nonrefundable amounts make this value negative to show that the employee owes the company. |
 | **Payment Method Code** | The payment method used for this expense, such as **Cash**, **Credit Card**, or **Company Paid**. Changing the method recalculates the reimbursable amount. |
 | **Billable** | Turn on this toggle to bill a customer for the expense. When you post the expense report, [!INCLUDE [prod_short](../includes/prod_short.md)] creates a sales invoice for the customer. |
 | **Billable to Customer** | Specify which customer to bill. |
@@ -116,10 +116,10 @@ The **Billing** FastTab on the **Expense Card** page lets you specify more detai
 
 The terms *refundable* and *reimbursable* describe different aspects of an expense:
 
-- **Refundable** means the expense complies with company policy and is accepted as a valid business expense. The default value comes from the expense category, but you can change it on individual expenses if you have permission. Nonrefundable expenses aren't posted to the general ledger, but they must still be tracked in the system. For example, if an employee uses a company card for a nonbusiness purchase, the amount needs to be recorded and potentially recovered from the employee.
-- **Reimbursable** means the employee paid out of pocket and is eligible to receive money back. An expense paid with a company credit card or bank account is refundable but not reimbursable, because the company already covered the cost.
+- **Refundable** means the expense complies with company policy and is accepted as a valid business expense. The default value comes from the expense category, but you can change it on individual expenses if you have permission. Employee-paid nonrefundable expenses remain recorded but don't create general ledger or expense ledger entries. If the company paid a nonrefundable amount, posting creates accounting entries to recover that amount from the employee.
+- **Reimbursable** means the employee paid out of pocket and is eligible to receive money back. A fully refundable expense paid with a company credit card or bank account has no reimbursement because the company already covered the cost. A company-paid nonrefundable amount produces a negative **Reimbursable Amount**, which represents money owed by the employee.
 
-When itemization is required, individual subcategory lines can have different refundable settings. For example, a hotel receipt might have the room charge as refundable while a minibar charge is marked as nonrefundable. The employee is reimbursed only for the refundable portion.
+When itemization is required, individual subcategory lines can have different refundable settings. For example, a hotel receipt might have the room charge as refundable while a minibar charge is marked as nonrefundable. If the employee paid, only the refundable portion is reimbursed. If the company paid, the nonrefundable portion is recovered from the employee.
 
 ### Connect an expense to a project
 

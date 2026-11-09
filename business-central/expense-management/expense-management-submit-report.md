@@ -3,7 +3,7 @@ title: Create and Submit Expense Reports
 description: Learn how to create expense reports, add expenses, review rule violations, and submit reports for approval in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 09/26/2026
+ms.date: 11/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -19,7 +19,7 @@ An expense report groups related expenses into a single document that you submit
 
 > [!NOTE]
 > Approvals in Expense Management are optional when the agent is not enabled, and can be configured on the **Expense Agent Setup** page.  
-> If the Expense Agent is enabled, approvals are handled automatically through the web app using the agent’s built-in approval process.
+> If you enable the Expense Agent, reports require approval. Submit reports through the web app. Approvers make decisions in the web app or in [!INCLUDE[prod_short](../includes/prod_short.md)]. For reports with an interim approver, complete both approval stages in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -67,7 +67,7 @@ Business Central selects a mileage rate for the **Expense Date**, **Vehicle Type
 
 If expense rules are enabled, [!INCLUDE [prod_short](../includes/prod_short.md)] checks each expense line against the applicable rules. Violations appear in the **Rule Violations** FactBox.
 
-Review all violations before you submit the report. While violations don't block submission, they show to the approver and might cause the report to be rejected.
+When **Apply Rules** is turned on, unresolved rule violations block release and submission. Correct the expense details or provide the required justification, and then try again. AI-assisted policy flags are separate advisory results that approvers can assess. Learn more in [How expense policy and rules compliance work](expense-agent-policy-compliance.md).
 
 ## Link a travel request
 
@@ -87,13 +87,19 @@ To make changes after you release a report, choose **Reopen**.
 
 ## Submit or resubmit an expense report for approval
 
+The following procedures use the approval workflow without Expense Agent. If Expense Agent is enabled, submit or resubmit through the web app instead. Learn more in [Create and submit expense reports in Expense Agent](expense-agent-expense-reports.md).
+
 1. On the **Expense Report** card, choose **Submit**.
 
-The report status changes to **Pending Approval**. You can track the status in the **Status** field on the report. If the report is rejected, you receive an approver comment that explains why. To make changes and resubmit:
+After submission, the report status changes to **Pending Approval**. You can track the status in the **Status** field on the report. When Expense Agent is enabled, an interim approver can be assigned on the submitted **Expense Report** card in [!INCLUDE[prod_short](../includes/prod_short.md)]. Learn more in [Assign an interim approver](expense-management-approve-reports.md#assign-an-interim-approver).
 
-1. Choose **Reopen** to change the status back to **Open**.
+If the report is rejected, review any feedback from the approver. To make changes and resubmit with the approval workflow:
+
+1. Choose **Reopen Submitted** to change the status back to **Open**.
 1. Make the needed changes.
 1. Release and submit again.
+
+If an interim approver is already assigned and is still eligible, resubmission restarts the interim stage. The report must pass interim approval and final approval again.
 
 ## Add an attestation
 

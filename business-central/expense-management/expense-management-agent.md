@@ -3,7 +3,7 @@ title: How the Expense Agent Processes Emails
 description: Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 author: jswymer
 ms.topic: concept-article
-ms.date: 10/02/2026
+ms.date: 11/04/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -37,7 +37,7 @@ Expense Agent runs on a schedule and performs three tasks:
 
 When the agent finds a relevant email, it extracts key details like the date, amount, merchant, and category. It then creates an expense record for the corresponding expense user.
 
-The agent also groups expenses into expense reports automatically based on the configured reporting period. Afterward, the agent sends a confirmation email back to the user. The confirmation includes a summary of the created expenses, the total amount, and a link to review the expense report directly in the Expense Agent web app.
+The agent also assigns expenses to a suitable draft expense report or creates a new report. Matching considers expense dates and, for travel-linked reports, the expected trip dates. If outgoing email is configured, the agent sends a confirmation email back to the user. The confirmation includes a summary of the created expenses, the total amount, and a link to review the expense report directly in the Expense Agent web app.
 
 > [!NOTE]
 > The agent suggests expense details based on the email content. Always review automatically created expenses to make sure the information is accurate before submitting the report.
@@ -46,8 +46,8 @@ The agent also groups expenses into expense reports automatically based on the c
 
 Before the agent can process emails, an administrator must:
 
-- Enable the agent on the **Expense Management Setup** page.
-- Configure a mailbox account that the agent monitors.
+- Use **Configure Expense Agent** to activate the agent.
+- Under **Access and submission**, turn on **Enable sending email with receipts** and configure the **Account** that the agent monitors. Incoming receipt processing is separate from outgoing email.
 - Activate the **Expense Agent** capability on the **Copilot & Agent Capabilities** page.
 - Accept the privacy notice.
 - Add users to the **Agent Access Control** list to specify who the agent can work on behalf of.
@@ -56,7 +56,7 @@ Before the agent can process emails, an administrator must:
 
 When enabled, the agent sends periodic reminders to expense users who have expense reports in **Open** status. The reminders help ensure that people submit reports on time.
 
-Administrators configure the reminder frequency (weekly, monthly, or custom) and schedule on the **Expense Management Setup** page. Learn more in [Configure notification settings](expense-management-setup.md#configure-notification-settings).
+Administrators configure reminders in **Communication** on the **Configure Expense Agent** page. Turn on outgoing email, select an **Account**, and enable **Notify users about unsubmitted reports**. Then configure the reminder frequency and schedule. The agent doesn't use the receipt mailbox as a fallback sender. Learn more in [Configure notification settings](expense-management-setup.md#configure-notification-settings).
 
 ## Security and access
 

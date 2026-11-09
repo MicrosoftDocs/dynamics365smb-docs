@@ -3,7 +3,7 @@ title: Create and Submit Expense Reports in Expense Agent
 description: Learn how to create expense reports, add expenses, move expenses between reports, and submit reports for approval in Expense Agent.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/07/2026
+ms.date: 11/04/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -25,9 +25,17 @@ Expense Agent allows grouping related expenses together so you can submit them f
 
 ## Create an expense report
 
-Expense reports are created automatically by the agent when you submit a new expense that falls outside the period covered by existing reports. No manual action is required to create a new expense report.
+When Expense Agent processes an expense, it adds the expense to a suitable draft report. If no suitable report exists, it creates a new report. No manual action is required for this report creation.
 
-All expenses within the same period are automatically grouped into a single expense report. Once created, the report is available in the **Drafts** tab.
+Report matching considers the expense date and existing draft reports. Expenses in the same period aren't necessarily assigned to the same report. Once created, the report is available in the **Drafts** tab.
+
+### Use a report created from a travel request
+
+If your environment supports travel requests, Business Central creates linked expense reports when a request is approved. You see your own linked report in **Drafts**. Report matching uses the request's expected trip dates instead of the report's calendar month. Receipts dated up to three days before or after the trip can also be considered.
+
+Review the assigned expenses and move any that belong in another report. Travel approval doesn't replace expense report approval. You still review and submit the report after you add your actual expenses.
+
+If your linked report was deleted, the approved travel request offers **Create expense report**. Learn more in [Plan and submit travel requests](expense-agent-travel-requests.md).
 
 ### Edit an expense report name
 
@@ -92,17 +100,22 @@ The report status changes to **Submitted**, and the approver is notified. The re
 
 ## View your expense report history
 
-Go to the **History** tab to see what happened to your past expense reports.
+Go to the **History** tab to see what happened to your expense reports. When travel requests are supported, their timelines also appear in history.
 
 1. Open Expense Agent and go to the **History** tab.
 1. Select a report to expand its activity timeline.
-1. Review the timeline for a record of key events, such as when the report was submitted, approved, sent back, or posted, who performed each action, and any comments.
+1. Review the timeline, which includes submission, the approver's decision with any comments, and the policy evaluation entry recorded at submission.
 
-The history also includes posted reports, so you can look back at a report after it's reimbursed.
+The policy evaluation entry reflects the results as they were at the time of submission, even if you later edit an expense or your organization updates a policy. Learn more in [How expense policy and rules compliance work](expense-agent-policy-compliance.md#review-the-submission-policy-snapshot). The history also includes posted reports, so you can look back at a report after it's reimbursed.
+
+For a report created from a travel request, the **Created** event identifies the approved request. The travel request has a separate timeline that records its approval and linked report creation.
 
 ## Related information
 
 [Expense Agent overview](expense-agent-overview.md)  
+
+[Plan and submit travel requests](expense-agent-travel-requests.md)
+
 [Approve or send back expense reports](expense-agent-approve-reports.md)  
 [Edit and manage expenses](expense-agent-edit-expenses.md)  
 [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  

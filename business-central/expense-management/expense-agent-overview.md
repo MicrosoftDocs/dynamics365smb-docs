@@ -1,9 +1,9 @@
 ---
 title: Expense Agent Overview for Business Central
-description: Learn about Expense Agent, an AI-powered tool that helps employees capture receipts, track expenses, and submit expense reports in Business Central.
+description: Use Expense Agent to capture receipts, track expenses, plan travel requests, and submit expense reports for approval with Business Central.
 author: jswymer
 ms.topic: overview
-ms.date: 10/02/2026
+ms.date: 11/04/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -31,8 +31,9 @@ Expense Agent handles the heavy lifting of expense management so you can focus o
 - **Mileage expenses** — Create mileage expenses directly from the dashboard. Enter your starting point and ending point, and the app calculates the distance and reimbursement amount based on your company's mileage rate.
 - **Expense tracking** — Keep all your business expenses in one place with full details, attachments, and policy status.
 - **Expense reports** — Group related expenses into reports and submit them for approval in a few steps.
+- **Travel requests**: Plan a trip, add travelers and estimated costs, and request approval before spending. When the connected Business Central environment supports travel requests, you can use them in both the web and mobile apps.
 - **Policy compliance** — Business Central checks deterministic rules, and Expense Agent can use AI to evaluate natural-language policies. Administrators configure AI-assisted policy evaluation through **Configure Expense Agent** assisted setup. Submitters can check draft reports when the action is available, and approvers can review the results.
-- **Approval workflows** — Approvers can review, approve, or send back expense reports with comments.
+- **Approval workflows**: Approvers can review, approve, or send back expense reports and travel requests. For reports that need interim approval before final approval, use [!INCLUDE[prod_short](../includes/prod_short.md)] to assign the interim approver and complete both stages.
 
 ## Open Expense Agent
 
@@ -60,7 +61,16 @@ Every expense moves through a straightforward lifecycle:
 1. You submit the report for approval. You can't edit the report while it is under review.
 1. The approver approves the report or sends it back with comments. If the report is sent back, you can correct and resubmit it.
 
+> [!IMPORTANT]
+> The web and mobile apps don't currently support the complete interim approval flow. For reports with an interim approver, use [!INCLUDE[prod_short](../includes/prod_short.md)] for both approval stages. Learn more in [Review and approve expense reports](expense-management-approve-reports.md#assign-an-interim-approver).
+
 Rule and policy compliance indicators are separate from this workflow. They show whether an expense has an unresolved rule violation, a potential policy issue, or a policy evaluation that isn't current. Learn more in [How expense policy and rules compliance work](expense-agent-policy-compliance.md).
+
+### Plan a trip before you incur expenses
+
+If your environment supports travel requests, you can submit the trip's purpose, dates, travelers, estimated costs, and optional per diem details for approval. Business Central creates linked expense reports when the request is approved. You then record actual expenses and submit your report for a separate expense approval.
+
+Learn more in [Plan and submit travel requests in Expense Agent](expense-agent-travel-requests.md).
 
 ## Get started with Expense Agent
 
@@ -77,6 +87,9 @@ Ready to dive in? Start with these articles:
 [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md)
 [Review and edit expenses in Expense Agent](expense-agent-edit-expenses.md)  
 [Create and submit expense reports](expense-agent-expense-reports.md)  
+
+[Plan and submit travel requests](expense-agent-travel-requests.md)
+
 [Approve or send back expense reports](expense-agent-approve-reports.md)  
 [How expense policy compliance works](expense-agent-policy-compliance.md)  
 [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)

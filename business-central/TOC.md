@@ -412,10 +412,10 @@ ms.service: dynamics-365-business-central
 #### [Prepare pre-closing reports](year-prepare-preclose-reports.md)
 #### [Close books](year-close-books.md)
 #### [Prepare closing statements](year-prepare-close-statement.md)
-#### [Prepare an audit PBC checklist](finance-prepare-audit-pbc-checklist.md)
 #### [Close accounting periods](year-close-account-periods.md)
 #### [Close income statement accounts](year-close-income-statement.md)
 #### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
+#### [Prepare for an audit](finance-prepare-audit-pbc-checklist.md)
 <!-- Closing years and periods     end -->
 
 <!-- CoA and G/L start -->

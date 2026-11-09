@@ -1,7 +1,7 @@
 ---
-title: Expense Agent overview for Business Central
+title: Expense Agent Overview in Business Central
 description: Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.
-ms.date: 10/02/2026
+ms.date: 11/04/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: altotovi
@@ -27,13 +27,15 @@ Employees submit expenses through a dedicated web app at [https://app.expenses.d
 
 All financial data, audit trails, and posting logic are processed within Business Central, so existing rules, permissions, and workflows continue to apply.
 
+When the connected Business Central environment supports travel requests, employees can also plan trips in the web and mobile apps before incurring expenses. They enter the purpose, dates, travelers, estimates, and optional per diem details. Approvers review requests alongside expense reports. Business Central manages the travel approval and creates linked expense reports on approval. Learn more in [Plan and submit travel requests in Expense Agent](expense-agent-travel-requests.md).
+
 ## Copilot availability and language support
 
 [!INCLUDE[copilot-geo-and-language-availability](../includes/copilot-geo-and-language-availability.md)]
 
 ## What the Expense Agent does
 
-The Expense Agent supports the expense lifecycle, from capturing receipts to preparing expense reports for approval and posting. The following sections outline each step in the process.  
+Expense Agent captures receipts and prepares expense reports for human review and approval. Approvers make approval decisions, and authorized users post approved reports in Business Central. When Expense Agent is enabled, Business Central supports an optional interim approval stage before final approval. The following sections outline each step in the process.
 
 ### Receipt intake
 
@@ -66,55 +68,55 @@ The agent automatically classifies each expense into the configured expense cate
 
 During this step, Expense Agent applies the configured expense categories and subcategories. Business Central checks deterministic expense rules during entry and submission. When an administrator enables AI-assisted policy evaluation, Expense Agent can evaluate applicable natural-language policies after submission.
 
-### Expense report line creation 
+### Expense report line creation
 
-The agent generates draft expense report lines from extracted data in both the web app and Business Central. The following fields are automatically populated: 
+The agent generates draft expense report lines from extracted data in both the web app and Business Central. The following fields are automatically populated:
 
-- Merchant  
-- Description  
-- Receipt number  
-- Amount  
-- Currency  
-- Payment method  
-- Expense date  
-- Expense category  
+- Merchant
+- Description
+- Receipt number
+- Amount
+- Currency
+- Payment method
+- Expense date
+- Expense category
 
-#### Itemization  
+#### Itemization
 
-If the selected category requires itemization, an additional tab is displayed in the web app. The agent extracts and assigns:   
+If the selected category requires itemization, the web app displays an additional tab. The agent extracts and assigns:   
 
-- Subcategories with corresponding amounts for each itemized line  
+- Subcategories with corresponding amounts for each itemized line
 
-#### Participants  
+#### Participants
 
-If the selected category requires participants, an additional tab is displayed in the web app where the user must provide:  
+If the selected category requires participants, the web app displays an additional tab where you must provide:  
 
 - Participants associated with the expense event  
 
 > [!NOTE]  
 > The user can automatically assign themselves as a participant and add additional guests, either internal (employees) or external. 
 
-#### Per diem expenses 
+#### Per diem expenses
 
-If the selected category is configured as a per diem type, the agent extracts additional details: 
+If the selected category is configured as a per diem type, the agent extracts more details: 
 
-- Expense location  
-- Start date and time  
-- End date and time  
+- Expense location
+- Start date and time
+- End date and time
 
-#### Mileage expenses 
+#### Mileage expenses
 
-For mileage-type expenses, a dedicated user interface is presented with the following fields:  
+For mileage-type expenses, the web app presents a dedicated user interface with the following fields:  
 
-- Starting point  
-- Ending point  
-- Mileage  
-- Same-day round trip  
+- Starting point
+- Ending point
+- Mileage
+- Round trip
 
-You must provide the starting and ending points. The agent calculates available routes and displays them, including the fastest and alternative options. You select the preferred route and can enable the **Same-day round trip** option if applicable. 
+You must provide the starting and ending points. The agent calculates available routes and displays them, including the fastest and alternative options. You select the preferred route and can enable the **Round trip** option if applicable. 
 
 > [!NOTE]
-> When the user selects a route and confirms the expense, a screenshot of the chosen route is captured and attached to the expense record. 
+> When you select a route and confirm the expense, the agent captures a screenshot of the chosen route and attaches it to the expense record.
 
 ### User review
 
@@ -124,18 +126,25 @@ You don't need a Business Central license unless you process expenses in Busines
 
 The user must review all expenses before submitting the report. As extraction and categorization are performed by the agent, the user is required to validate the accuracy of all data. After completing the review, the user can submit the expense report for approval.
 
-### Automated workflow
+### Expense workflow
 
 Expense processing follows this sequence:
 
 1. Receipt intake
-2. Data extraction
-3. Categorization and Itemization
-4. Expense creation
-5. Monthly expense report creation
-6. Submission for approval
-7. Approval policy validation
-8. Posting of approved expense reports
+1. Data extraction
+1. Categorization and itemization
+1. Expense creation
+1. Assignment to a suitable draft expense report, or creation of a new report
+1. Submission for approval
+1. Approval policy validation
+1. Optional interim approval in Business Central
+1. Final approval
+1. Manual posting of approved expense reports in Business Central
+
+For reports linked to an approved travel request, receipt matching uses the expected trip dates instead of the report's calendar month. Receipts dated up to three days before or after the trip can also be considered. Employees review the assignment before submitting their expense report.
+
+> [!IMPORTANT]
+> The web and mobile apps don't currently support the complete interim approval flow. For reports with an interim approver, assign the approver and complete both approval stages in Business Central.
 
 ## Setup and prerequisites
 
@@ -199,7 +208,9 @@ Users must resolve issues before they submit the expense.
 
 ### Expense report creation
 
-The agent creates monthly **Expense Reports** per employee, grouping all expenses for the period into a single report. The agent flags issues when:
+The agent assigns each expense to a suitable draft **Expense Report** or creates a new report. Matching considers expense dates and the existing reports. For reports linked to a travel request, matching uses the expected trip dates instead of the report's calendar month. Multiple reports can cover the same month. Review the assignment and [move an expense to another draft report](expense-agent-expense-reports.md#move-an-expense-to-a-different-report) if needed.
+
+The agent flags issues when:
 
 - Participants are required but not specified
 - An amount exceeds policy limits
@@ -207,7 +218,7 @@ The agent creates monthly **Expense Reports** per employee, grouping all expense
 - Required fields are missing
 - A justification is missing (when required by policy)
 
-Reports can be reviewed in the web app or in Business Central (for licensed users).
+You can review reports in the web app or in Business Central if you're a licensed user. If a report needs a two-stage review, assign an interim approver after submission on the **Expense Report** card in Business Central. The interim approver reviews the report first. After interim approval, the report goes to the final approver. Complete both approval stages in Business Central. Learn more in [Review and approve expense reports](expense-management-approve-reports.md#assign-an-interim-approver).
 
 Controllers and approvers can review and adjust:
 
@@ -218,7 +229,7 @@ Controllers and approvers can review and adjust:
 - Project and task numbers
 - Billable/non-billable status
 
-After approval, expense reports can be posted.
+After final approval and any required VAT reclaim review, expense reports can be posted.
 
 > [!NOTE]
 > If you fill in the **Project No.** and **Project Task No.** fields on an expense report line, posting that expense also creates a **Project Ledger Entry**.
@@ -241,6 +252,8 @@ After posting, you can reimburse the employee through **Payment Journals** using
 
 ## Related information
 
-[Configure Copilot and agent capabilities](../enable-ai.md)  
-[Responsible AI FAQ for Expense Agent](faqs-expense-agent.md)  
-[Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)  
+- [Configure Copilot and agent capabilities](../enable-ai.md)
+- [Responsible AI FAQ for Expense Agent](faqs-expense-agent.md)
+- [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

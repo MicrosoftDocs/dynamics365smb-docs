@@ -1416,7 +1416,8 @@ ms.service: dynamics-365-business-central
 #### [Use the Expense Agent mobile app](expense-management/expense-agent-mobile-app.md)
 #### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
 #### [Create and submit expense reports](expense-management/expense-agent-expense-reports.md)
-#### [Approve or send back expense reports](expense-management/expense-agent-approve-reports.md)
+#### [Plan and submit travel requests](expense-management/expense-agent-travel-requests.md)
+#### [Approve expense reports and travel requests](expense-management/expense-agent-approve-reports.md)
 
 ### Understand Expense Agent
 #### [Expense Agent capabilities and processing](expense-management/expense-agent.md)
@@ -2892,7 +2893,8 @@ ms.service: dynamics-365-business-central
 ### [Upload and process receipts](expense-management/expense-agent-upload-receipts.md)
 ### [Review and edit expenses](expense-management/expense-agent-edit-expenses.md)
 ### [Create and submit reports in Expense Agent](expense-management/expense-agent-expense-reports.md)
-### [Approve or send back reports in Expense Agent](expense-management/expense-agent-approve-reports.md)
+### [Plan and submit travel requests](expense-management/expense-agent-travel-requests.md)
+### [Approve expense reports and travel requests](expense-management/expense-agent-approve-reports.md)
 <!--### [Submit expenses using Copilot in Teams](expense-management/expense-agent-copilot-teams.md)-->
 ## Microsoft Copilot in Business Central (preview)
 ### [Use Microsoft Copilot in Business Central](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)

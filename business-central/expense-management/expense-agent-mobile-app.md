@@ -3,7 +3,7 @@ title: Use the Expense Agent Mobile App (preview)
 description: Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/07/2026
+ms.date: 11/04/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -26,7 +26,8 @@ The Expense Agent mobile app helps you stay productive by letting you create, re
 - **Review expenses**: Check AI-suggested details and edit them as needed.
 - **Create mileage expenses**: Enter trip details and let the app calculate distance and reimbursement.
 - **Submit expense reports**: Group expenses into reports and submit them for approval.
-- **Approve expense reports**: If you're set up as an approver, review and approve or send back reports from your phone.
+- **Plan travel**: If your environment supports travel requests, enter trip details, add travelers and estimated costs, and submit the request before spending.
+- **Approve expense reports and travel requests**: If you're set up as an approver, review and approve or send back submitted documents from your phone.
 - **Work offline**: View your expenses even when you don't have an internet connection. The app refreshes data when you reconnect.
 
 > [!TIP]
@@ -50,7 +51,7 @@ After the installation is complete, open the :::image type="icon" source="../med
 > If you're already signed in to other Microsoft apps on your device, the app might use those credentials automatically to speed up sign-in.
 
 > [!NOTE]
-> If you're set up as an approver, you also have an **Approvals** tab at the bottom of the screen. A badge on the tab shows how many reports are waiting for your review. Learn more in [Approve expense reports as an approver](#approve-expense-reports-as-an-approver).
+> If you're set up as an approver, you also have an **Approvals** tab at the bottom of the screen. A badge on the tab shows how many documents are waiting for your review. Travel requests are included when your environment supports them. Learn more in [Approve expense reports as an approver](#approve-expense-reports-as-an-approver).
 
 ### Give the app permission to use your camera, photos, and files
 
@@ -132,6 +133,23 @@ You can quickly add mileage to an expense.
 
 Expense Agent estimates the amount shown before you save by using the expense date and **Vehicle Type**. The preview doesn't consider currency-specific mileage rate records. When you save, Business Central performs the currency-aware calculation and stores the authoritative reimbursement amount. The saved amount can differ from the preview. Administrators configure mileage rates on the **Mileage Rate Setup** page and manage vehicle types on the **Vehicle Types** page. Learn more in [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md).
 
+## Create and manage travel requests
+
+When the connected Business Central environment supports travel requests, you can plan a trip from your phone.
+
+1. On **Expenses**, select **+**, and then select **Create travel request**.
+1. Enter the trip's purpose, expected dates, and currency. Add other travelers if needed.
+1. On **Estimated expenses**, select **Add estimated expense** and add at least one estimate. If the trip includes per diem, open **Per diem allowance** and provide the location and departure and return times.
+1. To request approval, open the menu next to **Create draft** and select **Submit**. To save without submitting, select **Create draft**.
+
+Use the document picker on **Expenses** to switch between draft expense reports and editable travel requests. On **Submitted**, the picker includes pending travel requests alongside reports. Select **All documents** to view them together.
+
+Approval creates linked expense reports in Business Central. You see your own report in **Expenses**, where you can add and review actual expenses. Travel approval doesn't replace the later expense report approval.
+
+Creating, editing, submitting, approving, and deleting travel requests require an internet connection. Previously loaded details can remain available for viewing offline.
+
+For the complete workflow, including returned requests and deleted reports, see [Plan and submit travel requests in Expense Agent](expense-agent-travel-requests.md).
+
 ## Review and edit an expense
 
 Review and verify an expense before you add it to an expense report.
@@ -207,13 +225,17 @@ To submit an expense report, follow these steps:
 
 If you're set up as an approver, the mobile app also includes an **Approvals** tab for reviewing reports submitted by others. The tab is only visible to users who are set up as approvers.
 
-1. Select **Approvals** at the bottom of the screen. A badge shows how many reports need your review.
-1. Select a report to review its details.
+When travel requests are supported, the document picker also lists requests awaiting your decision. Review the estimated costs and trip details before approving or sending a request back. A resubmitted request can include the employee's reply to your feedback.
+
+1. Select **Approvals** at the bottom of the screen. A badge shows how many documents need your review.
+1. Select an expense report or travel request to review its details.
 1. Select **Approve**, or select **Send back** and enter a comment for the submitter.
 
-To see reports you already approved or sent back, select **Archived**. Select **Back to approvals** to return to your pending reports.
+Sending a travel request back makes it editable again. Approving it creates linked expense reports, which employees later submit for a separate approval.
 
-Approving and sending back reports works the same way as in the web app. Learn more in [Approve or send back expense reports](expense-agent-approve-reports.md).
+To see documents you already approved or sent back, select **Archived**. Select **Back to approvals** to return to your pending documents.
+
+Approving and sending back reports and travel requests works the same way as in the web app. Learn more in [Approve or send back expense reports and travel requests](expense-agent-approve-reports.md).
 
 ## How the app works with offline mode
 
@@ -251,6 +273,9 @@ If you continue to have trouble, contact your administrator or refer to [Trouble
 
 [Manage expenses with Expense Agent](expense-agent-overview.md)  
 [Upload receipts and create expenses in Expense Agent](expense-agent-upload-receipts.md)  
+
+[Plan and submit travel requests](expense-agent-travel-requests.md)
+
 [Set up mileage rates for expense management](expense-management-mileage-rate-setup.md)
 
 [Troubleshoot common issues in Expense Agent](expense-agent-troubleshoot.md)

@@ -3,7 +3,7 @@ title: Set Up Expense Management in Business Central
 description: Learn how to configure Expense Agent, policies, payment methods, posting groups, VAT reclaim, and approval workflows for expenses in Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.date: 09/26/2026
+ms.date: 11/04/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -21,10 +21,10 @@ Before employees can record expenses and submit reports, an administrator must c
 
 ## Choose your setup path
 
-You can configure Expense Agent in two ways:
+Use these pages for different parts of setup:
 
-- **Assisted setup (recommended)**: Use **Configure Expense Agent** to get started quickly with guided steps and validation checks. Learn more in [Use Expense Agent (recommended)](#use-expense-agent-recommended).
-- **Manual setup (advanced)**: Use the **Expense Management Setup** page to configure each setting directly and fine-tune behavior after initial setup. Learn more in [Access expense management setup](#access-expense-management-setup).
+- **Assisted setup (recommended)**: Use **Configure Expense Agent** for guided setup and validation checks. Activate or deactivate the agent and configure receipt submission, AI-assisted policy evaluation, communication, and project tracking. Learn more in [Use Expense Agent (recommended)](#use-expense-agent-recommended).
+- **Manual setup (advanced)**: Use **Expense Management Setup** to configure accounting defaults, expense rules, numbering, and other expense management settings. This page doesn't replace assisted setup for agent-specific settings. Learn more in [Access expense management setup](#access-expense-management-setup).
 
 For most organizations, start with assisted setup, and then use this article for detailed settings and ongoing management.
 
@@ -54,9 +54,21 @@ Expense Agent is an AI‑powered capability that automates the most time‑inten
 
 If you haven't configured Expense Agent yet, we recommend that you use assisted setup first. Learn more in [Set up the Expense Agent](expense-agent-configuration-page.md).
 
+### Configure activation and receipt submission
+
+Use **Configure Expense Agent** for the following settings. The corresponding controls on **Expense Management Setup** are hidden.
+
+| Setting | Description |
+| --- | --- |
+| **Active** | Activates Expense Agent to process expense submissions. Turn off to deactivate the agent. |
+| **Enable sending email with receipts** | Specifies whether the agent reads its mailbox and processes incoming emails containing expense receipts. This option is under **Access and submission**. |
+| **Account** under **Enable sending email with receipts** | Specifies the mailbox that the agent monitors. You need permission to the mailbox to activate email-based receipt submission. |
+
+Configure incoming receipt processing and outgoing email separately. To send notifications, also [configure notification settings](#configure-notification-settings).
+
 ## Access expense management setup
 
-The **Expense Management Setup** page organizes all configuration settings on FastTabs. Except for the settings that are related to Expense Agent, the settings apply to expense management. The following sections describe the settings that are available on each FastTab.
+The **Expense Management Setup** page organizes expense management settings on FastTabs. Use this page for accounting and expense controls. Configure agent activation, receipt submission, communication, and project tracking through **Configure Expense Agent**.
 
 To get started, [!INCLUDE [open-search-lowercase](../includes/open-search-lowercase.md)], enter **Expense Management Setup**, and then choose the related link.
 
@@ -66,17 +78,11 @@ The following table describes the settings on the **General** FastTab.
 
 | Field | Description |
 | --- | --- |
-| **Enable agent** | Specifies whether Expense Agent can process expense submissions from email and the Expense Agent web app.|
-| **Mailbox Account** | Specifies the shared mailbox that the agent monitors. You need permission to the mailbox to activate the agent.|
-| **Process incoming emails with receipts** | Specifies whether the agent reads its mailbox and processes incoming emails containing expense receipts. Receipts are only processed when a mailbox is configured.|
 | **Exchange Rate for Expenses** | Controls whether foreign currency expenses use the rate from the expense date or the posting date. |
 | **Allow prepayment-cash advance** | Specifies whether prepayments and cash advances are allowed. |
 | **Allow Grouping of Transactions in Report** | Determines whether similar transactions are grouped together in expense reports automatically by the agent. |
-| **Expense Report Grouping** | Defines how expenses are grouped into expense reports, for example by period. |
 | **Expense Report Rounding Precision** | Sets rounding precision for report amounts. |
 | **Expense Report Rounding Type** | Rounding behavior: **Nearest**, **Up**, or **Down**. |
-| **Receipt No. Mandatory** | Requires entry of a receipt number for every expense. |
-| **Merchant Name Mandatory** | Requires entry of a merchant name for every expense. |
 | **Default Payment Methods Applied** | Indicates whether default payment methods have been applied (read-only). |
 | **Default Posting Groups Applied** | Indicates whether default posting groups have been applied (read-only). |
 | **Default No. Series Applied** | Indicates whether default number series have been applied (read-only). |
@@ -90,19 +96,28 @@ The following table describes the settings on the **General** FastTab.
 
 ### Configure rules and controls
 
-The following table describes the settings on the **Rule & Controls** FastTab. These settings control expense rules, AI-assisted policy evaluation, and approval behavior.
+The following table describes the settings on the **Rule & Controls** FastTab. These settings control expense rules and required expense details. Configure AI-assisted policy evaluation through **Configure Expense Agent**, as described in [Configure AI-assisted policy evaluation](#configure-ai-assisted-policy-evaluation).
 
 | Field | Description |
 | --- | --- |
+| **Receipt No. Mandatory** | Requires entry of a receipt number for every expense. |
+| **Merchant Name Mandatory** | Requires entry of a merchant name for every expense. |
 | **Apply Rules** | Turn on to enforce expense management rules during submission. |
 | **Do Not Allow Expenses Older Than** | Restricts how far back expenses can be dated (for example, `-90D` for 90 days). |
 | **If Expense Is Older Than Allowed** | Choose what happens when an expense falls outside the allowed range: **Warn**, **Require Justification**, or **Block Submission**. This field is hidden by default.|
 | **Check Category/Subcategory Usage** | Turn on to require that expenses use valid category and subcategory combinations during entry. |
 | **Display Anti-Corruption Attestation** | Turn on if your organization requires an attestation message that users must confirm before submitting expenses. |
-| **Enable Approval Workflow** | Turn on to require manager approval before expense reports can be posted. This setting applies only when the agent is not enabled, as the agent provides its own approval process. |
-| **Default Approver** |Specifies the name of the expense user who by default is set as approver.|
 
 To learn how to create rules and policies, go to [Set up expense categories, rules, and policies](expense-management-categories-rules.md). To learn how Business Central applies rules and Expense Agent evaluates policies, go to [How expense policy and rules compliance work](expense-agent-policy-compliance.md).
+
+### Configure approval settings
+
+The following settings are on the **Approval** FastTab.
+
+| Field | Description |
+| --- | --- |
+| **Use traditional approval workflow** | Turn on to require manager approval before expense reports can be posted when Expense Agent isn't enabled. Expense Agent provides its own approval process. |
+| **Default Approver** | Specifies the expense user assigned as approver by default. |
 
 ### Assign number series
 
@@ -121,26 +136,29 @@ Travel requests use the underlying spend request numbering. The **Spend Request 
 
 ### Configure notification settings
 
-When the agent is enabled, you can configure reminders about open expense reports on the **Communication** FastTab.
+On **Configure Expense Agent**, go to **Communication** to configure outgoing email and reminders about open expense reports. These controls aren't available on **Expense Management Setup**.
+
+Turn on outgoing email and select an **Account** under **Send mail**. This account is required for outgoing messages. The agent doesn't fall back to the mailbox used to receive receipts.
 
 | Field | Description |
 | --- | --- |
-| **Account** | Specifies the email account for all outgoing Expense Agent messages: pending-approval requests sent to approvers, approved or rejected notifications sent to submitters, reimbursement notifications, and the optional open report reminders. If you leave this field empty, the main mailbox account is used instead. When no email account is registered, the messages fail silently after the configured number of retries. |
-| **Notify users about unsubmitted reports** | Let [!INCLUDE [prod_short](../includes/prod_short.md)] notify you about open expense reports that might need attention. |
-| **Notification Frequency** | Specify whether to be notified on a weekly, monthly, or custom basis:<br><br>For weekly notifications, choose the day of the week in the **Notification Day of Week** field.<br>For monthly notifications, specify the number of the month in the **Notification Day in a Month** field.<br>For custom schedules, enter a date formula in the **Custom Notification Formula** field. Learn more in [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas).|
-| **Notification Day of Week** | Specifies the day of the week for weekly open report notifications.|
-| **Notification Day In A Month** | Specifies the day of the month for monthly open report notifications.|
-| **Custom Notification Formula** | Specifies a custom date formula to control when open report notifications are sent. For example, use CM for the last day of the current month or 1M‑CM for the first day of the next month.|
-| **Notify users about approval updates** | Specifies whether the system sends email notifications when expense reports are submitted, approved, or rejected. |
+| **Communication** | Controls whether the agent sends outgoing emails to users. Turning off outgoing email stops welcome emails, reimbursement notifications, approval updates, and open-report reminders. It also turns off the reminder and approval notification options. Incoming receipt processing is controlled separately. |
+| **Account** | Specifies the email account for all outgoing Expense Agent messages: welcome emails, pending-approval requests sent to approvers, approved or rejected notifications sent to submitters, reimbursement notifications, and optional open-report reminders. Outgoing email must be enabled and this account must be configured before messages can be sent. |
+| **Notify users about unsubmitted reports** | Enables reminders to expense users about open expense reports that might need attention. Outgoing email must also be enabled and an account configured. |
+| **Frequency** | Specify whether to send reminders on a weekly, monthly, or custom basis. For weekly reminders, choose **Day of week**. For monthly reminders, specify **Day of month**. For custom schedules, enter a date formula in **Custom formula**. Learn more in [Use date formulas](../ui-enter-date-ranges.md#use-date-formulas). |
+| **Day of week** | Specifies the day of the week for weekly open-report reminders. |
+| **Day of month** | Specifies the day of the month for monthly open-report reminders. |
+| **Custom formula** | Specifies a date formula for the next reminder date based on the last reminder run. For example, use `1D` for one day, `1W` for one week, or `1M` for one month. |
+| **Notify users about approval updates** | Specifies whether the agent sends email notifications when expense reports are submitted, approved, or rejected. Outgoing email must also be enabled and an account configured. |
 
 ### Configure projects
 
-The following table describes the settings on the **Projects** FastTab.
+On **Configure Expense Agent**, go to **Project tracking** to configure the following settings. These controls aren't available on **Expense Management Setup**.
 
 | Field | Description |
 | --- | --- |
-| **Enable Project Fields** | Specifies whether project and project task fields are visible in the expense web app for submitters. |
-| **Project Visibility** | Specifies which projects are visible to submitters: only projects assigned to the user, or all active projects. |
+| **Project tracking** | Specifies whether project and project task fields are visible in the expense web app for submitters. |
+| **Project visibility** | Specifies which projects are visible to submitters: only projects assigned to the user, or all active projects. |
 
 ### Manage agent access control
 
@@ -156,7 +174,7 @@ Payment methods define how you pay expenses, such as cash, credit card, or compa
 > [!NOTE]
 > When you create an expense payment method, you must assign a **Reimbursement Type** (**Employee Paid**, **Credit Card**, or **Company Paid**). Each reimbursement type can be used by only one payment method.
 
-Expenses with the **Employee Paid** reimbursement type are reimbursable because employees pay them out of pocket. Expenses with the **Credit Card** or **Company Paid** reimbursement type are posted but aren't reimbursable because the company pays them directly.
+Refundable expenses with the **Employee Paid** reimbursement type are reimbursable because employees pay them out of pocket. Expenses with the **Credit Card** or **Company Paid** reimbursement type aren't reimbursed because the company pays them directly. Nonrefundable company-paid amounts create accounting entries to recover money from the employee and appear as a negative **Reimbursable Amount**.
 
 ## Set up posting groups
 
@@ -186,6 +204,7 @@ Expense posting groups control how to post individual expense lines. In addition
 | Field | Description |
 | --- | --- |
 | **Refundable Debit Account** | The G/L account for posting refundable expense amounts. |
+| **Non-Refundable Debit Account** | The G/L account for posting nonrefundable company-paid amounts to recover from the employee. |
 | **Prepayment Credit Account** | The G/L account for crediting prepayments when applied to expenses. |
 | **Expense Debit Rounding Account** | The G/L account for debit rounding adjustments. |
 | **Expense Credit Rounding Account** | The G/L account for credit rounding adjustments. |
@@ -213,7 +232,7 @@ To control the VAT treatment for specific types of expenses, review the VAT defa
 Administrators configure approval workflows on the **Expense Management Setup** page.
 
 1. [!INCLUDE[open-search](../includes/open-search.md)], enter **Expense Management Setup**, and then choose the related link.
-1. Turn on **Enable Approval Workflow**.
+1. On the **Approval** FastTab, turn on **Use traditional approval workflow**.
 1. To configure approver assignments, [!INCLUDE [open-search-lowercase](../includes/open-search-lowercase.md)], enter **Expense Approvals Setup**, and then choose the related line.
 1. On the **Expense Approval Setup** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../includes/tooltip-inline-tip_md.md)]
 

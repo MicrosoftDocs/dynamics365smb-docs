@@ -3,7 +3,7 @@ title: Upload Receipts and Create Mileage Expenses
 description: Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
 author: jswymer
 ms.topic: how-to
-ms.date: 10/07/2026
+ms.date: 11/03/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -48,6 +48,10 @@ Expense Agent extracts and validates the receipt information.
 - If information is missing or invalid, the expense shows what needs attention. Open the expense, correct the affected fields, and save your changes. Expense Agent then continues processing and assigns the expense to a report when validation succeeds.
 
 Report matching uses the expense date and the contents of existing draft reports. It isn't limited to reports containing expenses with the exact same date.
+
+For a draft report linked to an approved travel request, matching uses the request's expected start and end dates instead of the report's calendar month. Receipts dated up to three days before or after the trip can also be considered. If several reports could match, Expense Agent evaluates which report is suitable. Check the assignment after processing and [move the expense to a different report](expense-agent-expense-reports.md#move-an-expense-to-a-different-report) if needed.
+
+Travel-linked reports are available only in environments that support travel requests. Learn more in [Plan and submit travel requests](expense-agent-travel-requests.md).
 
 ## Automatic currency conversion
 

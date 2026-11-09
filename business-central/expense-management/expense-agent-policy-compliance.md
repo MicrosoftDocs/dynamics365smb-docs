@@ -3,7 +3,7 @@ title: Understand Policy Compliance in Expense Agent
 description: Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
 author: jswymer
 ms.topic: overview
-ms.date: 10/02/2026
+ms.date: 10/07/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -81,6 +81,16 @@ Policy results correspond to the expense information and policy that Expense Age
 
 If policies are pending when an approver tries to approve a report, Expense Agent warns that one or more evaluations aren't current. The approver can cancel and wait for current results or continue with approval.
 
+### Review the submission policy snapshot
+
+Each time a report is submitted or resubmitted, Expense Agent records a policy evaluation entry in the report's activity timeline. Depending on the result, the entry shows:
+
+- The expense categories that had a flagged policy violation, or the number of violations if no category applies.
+- A cleared result, with the message **No policy violations found**.
+- A note that no policies applied, with the message **No applicable policies found**.
+
+This entry reflects the results that were current when the report was submitted. It stays in the timeline even if expenses or policies change afterward, and it's kept after the report is approved and posted. Use it to confirm what an approver saw at the time of a decision, without relying on results that might have since changed. Learn more in [View your expense report history](expense-agent-expense-reports.md#view-your-expense-report-history) or [Review your approval history](expense-agent-approve-reports.md#review-your-approval-history).
+
 ## Find and act on compliance information
 
 :::image type="content" source="../media/expense-agent-expense-illustration.svg" alt-text="Expense report with line-level policy badges and compliance status.":::
@@ -91,9 +101,9 @@ Submitters and approvers can find compliance information in these places:
 - **Expense details**: Open an expense and review the **Summary** section for its current status and policy explanations.
 - **Report summary**: If one or more expenses need attention, select the compliance warning to open **These expenses need your review**. Approvers don't see a report-level compliance indicator when all expenses are compliant.
 
-Submitters can run a check on a draft report when the action is available. They can then correct an expense or submit the report with the result for the approver to review. For instructions, go to [Optionally check policies before you submit](expense-agent-expense-reports.md#optionally-check-policies-before-you-submit).
+Submitters can run a check on a draft report when the action is available. They can then correct an expense or submit the report with the result for the approver to review. Learn more in [Optionally check policies before you submit](expense-agent-expense-reports.md#optionally-check-policies-before-you-submit).
 
-Approvers review current results and decide whether to approve the report or send it back. For instructions, go to [Approve or send back expense reports](expense-agent-approve-reports.md).
+Approvers review current results and decide whether to approve the report or send it back. Learn more in [Approve or send back expense reports](expense-agent-approve-reports.md).
 
 ## Configure policy evaluation
 

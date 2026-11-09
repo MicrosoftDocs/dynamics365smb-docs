@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Expense Agent (preview)
 description: Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.
-ms.date: 10/02/2026
+ms.date: 11/04/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -83,7 +83,8 @@ These signals are used to improve the agent’s accuracy over time while maintai
 -	**File formats and size limits**: The agent supports PDF and images (.jpg, .jpeg, .png, .gif, .webp, .heic, .heif) as file types. Both file types have a configurable default maximum size of 10 MB.
 -	**Volume Limitations**: Expense Agent processes up to 25 files per upload or email attachment, and up to 50MB as a batch. Complex files might exceed processing limits or timeout, triggering a request for human intervention.
 -	**Geographic and language availability**: [!INCLUDE[copilot-geo-and-language-availability](../includes/copilot-geo-and-language-availability.md)].
--	**System Limitations & Dependencies**: Only one Expense Agent can be configured per Business Central company. A single expanse user can't be enabled across multiple Expense Agents. The agent stops processing if AI services fail or mailbox access is lost. Complex approval systems with interim or conditional approvals isn't yet supported. Also, the post approval process, like posting and reimbursements, is beyond agent’s scope and is handled manually in [!INCLUDE [prod_short](../includes/prod_short.md)]. On-behalf expense submission isn't supported yet.
+- **System limitations and dependencies**: Only one Expense Agent can be configured per Business Central company. A single expense user can't be enabled across multiple Expense Agents. The agent stops processing if AI services fail or mailbox access is lost. On-behalf expense submission isn't supported yet.
+- **Approval and posting**: When Expense Agent is enabled, [!INCLUDE[prod_short](../includes/prod_short.md)] supports one optional interim approver before final approval. The web and mobile apps don't currently support the complete interim approval flow. Assign interim approvers and complete both approval stages in [!INCLUDE[prod_short](../includes/prod_short.md)]. Posting and reimbursement are outside the agent's scope and require manual processing in [!INCLUDE[prod_short](../includes/prod_short.md)]. Learn more in [Review and approve expense reports](expense-management-approve-reports.md).
 -	**AI Accuracy Limitations**: ai-assisted content, such as extracted data, suggested categories, or expense groupings, might be inaccurate; human review is required before submission or approval.
 
 ## What operational factors and settings allow for effective and responsible use of Expense Agent?
@@ -91,7 +92,7 @@ These signals are used to improve the agent’s accuracy over time while maintai
 -	**User Permissions and Controls**: The agent operates under Business Central’s standard security model with extra safeguards. When setting up the agent, administrators assign specific permission sets to define what the agent can access and modify, and they can also configure who might use the agent. The agent can only access data within these predefined boundaries and can't exceed the permissions granted to it.
 -	**Review and Approval Process**: Always review drafts before approval. The agent only creates drafts and never posts transactions automatically.
 -	**Admin Controls**: Administrators can disable Expense Agent per company at any time. The agent respects all existing Business Central security permissions, and users must review draft expense reports before approval.
--	**Traceability**: All actions are logged under the agent’s user ID, ensuring full traceability. Timely notifications alert users when agent tasks require review or approval.
+-	**Traceability**: Activity history identifies the user or agent responsible for each recorded event. Depending on the action, the actor can be an expense user, a Business Central user, or the agent. Email notifications alert users when review or approval is needed if outgoing email and the relevant notifications are configured.
 -	**Monitoring and Feedback**: Pay attention to notifications from Expense Agent when it needs assistance. Provide feedback on suggestions to help improve system accuracy over time.
 
 ## How do I provide feedback on Expense Agent?
@@ -118,3 +119,5 @@ For technical issues or questions about setup and configuration, contact Microso
 [Set up Expense Agent](expense-agent-configuration-page.md)  
 [Configure Copilot and agent capabilities](../enable-ai.md)  
 [Anthropic as a subprocessor for Microsoft Online Services (United States only)](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/copilot/connect-to-ai-subprocessor.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

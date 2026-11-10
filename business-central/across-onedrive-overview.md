@@ -1,10 +1,11 @@
 ---
 title: Business Central and OneDrive for Business Integration
-description: Learn how to use OneDrive for Business to store, manage, and share files—such as reports and attachments—in Business Central. Also covers scenarios where OneDrive may be spelled as "One Drive."
+description: Learn how OneDrive integration in Business Central helps you open, manage, and share reports, Excel workbooks, and files attached to business records.
 author: jswymer
 ms.topic: overview
 ms.search.keywords: OneDrive, OneDrive integration
-ms.date: 10/17/2025
+ms.date: 11/09/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -17,7 +18,7 @@ OneDrive for work or school (formerly known as OneDrive for Business) is a cloud
 
 ## Get started with OneDrive features
 
-If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, we've already created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, an administrator has to configure the connection before you can get started. Learn more at [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md).
+If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, the connection to OneDrive is configured automatically. Each user needs a OneDrive license as part of a Microsoft 365 plan and must have opened OneDrive at least once. Your administrator can turn OneDrive features on or off. With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, an administrator has to configure the connection before you can get started. Learn more at [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md).
 
 <!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
 
@@ -50,7 +51,7 @@ When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_
 2. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** action. 
 3. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
 
-The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in the content for OneDrive.
+The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. Learn more in [Share OneDrive files and folders](https://support.microsoft.com/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in the content for OneDrive.
 -->
 
 > [!NOTE]
@@ -61,3 +62,5 @@ The folder and its content are private until you decide to share them with other
 [Manage OneDrive Integration with Business Central](admin-onedrive-integration.md)  
 [Open Business Central Files in OneDrive](across-share-onedrive.md)  
 [OneDrive FAQ](admin-onedrive-faq.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

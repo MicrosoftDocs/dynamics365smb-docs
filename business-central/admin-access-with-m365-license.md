@@ -6,7 +6,8 @@ ms.author: mikebc
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: overview
-ms.date: 06/17/2026
+ai-usage: ai-assisted
+ms.date: 11/09/2026
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ms.search.form: 1978
@@ -46,12 +47,12 @@ Users are entitled to access [!INCLUDE [prod_short](includes/prod_short.md)] dat
 
 |Client accessing the [!INCLUDE [prod_short](includes/prod_short.md)] service |Access|
 |-|-|
-|[!INCLUDE [prod_short](includes/prod_short.md)] app for Microsoft Teams|![Yes](media/check.png)|
-|Business Central Web client |![No](media/x-icon.png ) |
-|[!INCLUDE [prod_short](includes/prod_short.md)] mobile apps|![No](media/x-icon.png )|
-|[!INCLUDE [prod_short](includes/prod_short.md)] APIs|![No](media/x-icon.png )|
-|[!INCLUDE [prod_short](includes/prod_short.md)] integrations with other Office applications|![No](media/x-icon.png )|
-|[!INCLUDE [prod_short](includes/prod_short.md)] embedded in any other applications |![No](media/x-icon.png )|
+|[!INCLUDE [prod_short](includes/prod_short.md)] app for Microsoft Teams|:::image type="icon" source="media/check.png"::: Yes|
+|Business Central Web client |:::image type="icon" source="media/x-icon.png"::: No |
+|[!INCLUDE [prod_short](includes/prod_short.md)] mobile apps|:::image type="icon" source="media/x-icon.png"::: No|
+|[!INCLUDE [prod_short](includes/prod_short.md)] APIs|:::image type="icon" source="media/x-icon.png"::: No|
+|[!INCLUDE [prod_short](includes/prod_short.md)] integrations with other Office applications|:::image type="icon" source="media/x-icon.png"::: No|
+|[!INCLUDE [prod_short](includes/prod_short.md)] embedded in any other applications |:::image type="icon" source="media/x-icon.png"::: No|
 
 ### Data access
 
@@ -61,6 +62,10 @@ Users are entitled to read table data but can't modify, create, or delete record
 
 Access with Microsoft 365 licenses doesn't restrict which [!INCLUDE [prod_short](includes/prod_short.md)] objects or object ranges can be accessed. Users are entitled to access the Microsoft base application and any extensions such as customizations and add-on apps.
 
+This entitlement doesn't grant access to every object or record. Assigned permission sets and security filters determine which data a user can read. They don't override the read-only restriction of Microsoft 365 access.
+
+These use rights don't grant permission to every object or record. Administrators must assign permission sets that allow access to the relevant pages and table data. Security filters also apply. Assigning a permission set with write access doesn't override the read-only restriction of the Microsoft 365 license.
+
 ## Simplified user interface
 
 Users are entitled to a reduced set of features and functions provided by [!INCLUDE [prod_short](includes/prod_short.md)] in Microsoft Teams. The following tables indicate noteworthy features. This list isn't exhaustive and is subject to change.
@@ -69,31 +74,31 @@ Features of the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams:
 
 |Feature  |Available|
 |-|-|
-|View [!INCLUDE [prod_short](includes/prod_short.md)] cards|![Yes](media/check.png)|
-|View card details |![Yes](media/check.png) |
-|Pin card details as a tab |![Yes](media/check.png)|
-|View [!INCLUDE [prod_short](includes/prod_short.md)] tabs|![Yes](media/check.png)|
-|Add a [!INCLUDE [prod_short](includes/prod_short.md)] tab|![No_](media/x-icon.png )|
-|Search for business contacts |![No](media/x-icon.png )|
-|Paste and share a link preview as a card|![No](media/x-icon.png )|
+|View [!INCLUDE [prod_short](includes/prod_short.md)] cards|:::image type="icon" source="media/check.png"::: Yes|
+|View card details |:::image type="icon" source="media/check.png"::: Yes |
+|Pin card details as a tab |:::image type="icon" source="media/check.png"::: Yes|
+|View [!INCLUDE [prod_short](includes/prod_short.md)] tabs|:::image type="icon" source="media/check.png"::: Yes|
+|Add a [!INCLUDE [prod_short](includes/prod_short.md)] tab|:::image type="icon" source="media/x-icon.png"::: No|
+|Search for business contacts |:::image type="icon" source="media/x-icon.png"::: No|
+|Paste and share a link preview as a card|:::image type="icon" source="media/x-icon.png"::: No|
 
 Functions of the [!INCLUDE [prod_short](includes/prod_short.md)] client embedded in Teams:
 
 |Function |Available|Example functions|
 |-|-|-|
-|Data manipulation system actions |![No](media/x-icon.png )|Edit, Create, Delete|
-|Basic functions in lists|![Yes](media/check.png)|Search, sort, change layout|
-|Advanced functions in lists|![No](media/x-icon.png )|Filter pane, views|
-|Drill down from list to card |![Yes](media/check.png)||
-|Access data from related tables|![No](media/x-icon.png )|FactBox pane, field drilldown, peek, look up |
-|Actions|![No](media/x-icon.png )|Action bar, action menus, page notification actions|
-|System-wide shortcuts|![No](media/x-icon.png )|My Settings, Role Explorer, Tell Me search  |
-|Copy|![Yes](media/check.png)|Copy rows, copy field value, copy link to page|
-|UI customization|![No](media/x-icon.png )|Personalize| 
-|Inline customization|![Yes](media/check.png)|Resize column, Expand/Collapse, Show more |
-|Data sharing |![No](media/x-icon.png )|Open or Edit in Excel, Share to Teams|
-|Inline user assistance|![Yes](media/check.png) |Tooltips, links to documentation|
-|Advanced user assistance |![No](media/x-icon.png )|Page and field teaching tips, Help pane|
+|Data manipulation system actions |:::image type="icon" source="media/x-icon.png"::: No|Edit, Create, Delete|
+|Basic functions in lists|:::image type="icon" source="media/check.png"::: Yes|Search, sort, change layout|
+|Advanced functions in lists|:::image type="icon" source="media/x-icon.png"::: No|Filter pane, views|
+|Drill down from list to card |:::image type="icon" source="media/check.png"::: Yes||
+|Access data from related tables|:::image type="icon" source="media/x-icon.png"::: No|FactBox pane, field drilldown, peek, look up |
+|Actions|:::image type="icon" source="media/x-icon.png"::: No|Action bar, action menus, page notification actions|
+|System-wide shortcuts|:::image type="icon" source="media/x-icon.png"::: No|My Settings, Role Explorer, Tell Me search  |
+|Copy|:::image type="icon" source="media/check.png"::: Yes|Copy rows, copy field value, copy link to page|
+|UI customization|:::image type="icon" source="media/x-icon.png"::: No|Personalize| 
+|Inline customization|:::image type="icon" source="media/check.png"::: Yes|Resize column, Expand/Collapse, Show more |
+|Data sharing |:::image type="icon" source="media/x-icon.png"::: No|Open or Edit in Excel, Share to Teams|
+|Inline user assistance|:::image type="icon" source="media/check.png"::: Yes |Tooltips, links to documentation|
+|Advanced user assistance |:::image type="icon" source="media/x-icon.png"::: No|Page and field teaching tips, Help pane|
 
 ## Minimum requirements
 
@@ -151,3 +156,5 @@ This section explains the minimum requirements for your organization to use Micr
 ## Related information
 
 [Business Central and Microsoft Teams Integration](across-teams-overview.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

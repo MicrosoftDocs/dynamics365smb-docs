@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: Word add-in, report layout, insert table, data binding, conditional content
 ms.search.form: 9660, 9666
-ms.date: 09/09/2026
+ms.date: 11/09/2026
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted
 ---
@@ -18,11 +18,13 @@ Use the Business Central add-in for Word to add report data to a Word layout. Th
 
 ## Install the Word add-in
 
-1. In Word, go to the **Home** tab, and then select **Get Add-ins**.
+1. In Word, select **Home** > **Add-ins** > **More Add-ins**.
 1. Search for *Dynamics 365 Business Central Word add-in*.
 1. Select the add-in, and then select **Add**.
 
 The **Business Central** tab appears on the ribbon.
+
+Learn more about the installation options in [View, manage, and install add-ins for Excel, PowerPoint, and Word](https://support.microsoft.com/office/start-using-your-office-add-in-82e665c4-6700-4b56-a3f3-ef5441996862).
 
 ## Get a Word layout that contains report metadata
 
@@ -167,6 +169,9 @@ After you finish editing a Word layout, replace the file on the [user-defined la
 1. Select the user-defined Word layout.
 1. Select **Replace Layout**, confirm the action, and then select the edited `.docx` file.
 1. Select **Run Report** to preview the result.
+
+> [!NOTE]
+> In version 29, replacing a layout sets its **Layout Status** to **Draft**. After testing, select **Layout** > **Layout Status** > **Set as Approved** to make the layout available for selection on report request pages.
 
 You can't replace an [extension-provided layout](ui-manage-report-layouts.md#layout-sources). Create a user-defined copy first, and then replace the file on the copy.
 

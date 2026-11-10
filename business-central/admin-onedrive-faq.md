@@ -2,21 +2,20 @@
 title: OneDrive in Business Central FAQ
 description: Get answers for some typical questions about working with OneDrive for work or school (formerly known as OneDrive for Business) and Business Central.
 author: jswymer
-ms.topic: get-started
+ms.topic: faq
 ms.devlang: al
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 01/28/2025
+ms.date: 11/09/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 # OneDrive in Business Central FAQ
 
-[!INCLUDE [online_only](includes/online_only.md)]
-
 This article answers common questions about using OneDrive for Business with [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Does this work with all [!INCLUDE[prod_short](includes/prod_short.md)] clients?
+## Does this work with all Business Central clients?
 
 Yes. You can open files in OneDrive from the [!INCLUDE[prod_short](includes/prod_short.md)] mobile apps, when viewing card details in Microsoft Teams, or even from the Outlook add-in.  
 
@@ -24,7 +23,7 @@ Yes. You can open files in OneDrive from the [!INCLUDE[prod_short](includes/prod
 
 No. OneDrive is private by default, allowing you to organize and share content, while SharePoint offers a shared file repository for your organization. Additionally, OneDrive is included in your Microsoft 365 subscription.
 
-## Does [!INCLUDE[prod_short](includes/prod_short.md)] support consumer OneDrive?
+## Does Business Central support consumer OneDrive?
 
 No. This integration is exclusively intended for OneDrive for Business and only supports your work account. 
 
@@ -36,27 +35,27 @@ No. This integration is exclusively intended for OneDrive for Business and only 
 
 Administrators can access the Service health dashboard in the Microsoft 365 admin center. The dashboard includes OneDrive's service availability. Visit the [Service health dashboard](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
 
-## Is OneDrive integration available to [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
+## Is OneDrive integration available to Business Central on-premises?
 
 Yes, but unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, it does require more setup. Learn more in [Configuring Business Central on-premises](admin-onedrive-integration-onpremises.md).  
 
-## Does [!INCLUDE[prod_short](includes/prod_short.md)] on premises connect with SharePoint Server?
+## Does Business Central on-premises connect with SharePoint Server?
 
 No. This deployment combination isn't supported, even if SharePoint Server is enabled with My Sites.  
 
-## Does [!INCLUDE[prod_short](includes/prod_short.md)] online connect with SharePoint Server?
+## Does Business Central online connect with SharePoint Server?
 
 No. This deployment combination isn't supported, even if SharePoint Server is enabled with My Sites.  
 
 ## How does this work in an organization with multiple environments?
 
-The integration assumes that company names are unique across [!INCLUDE[prod_short](includes/prod_short.md)] environments. When company names are unique across the organization, opening a file in OneDrive will copy the file to a folder named after the current company. If company names aren't unique across environments, files from identical company names might be placed together in the same folder.  
+The integration uses the company's display name for its folder in OneDrive, or the company name if no display name is set. Characters that aren't valid in folder names are removed. If the resulting folder names are identical across environments, files from those companies can be placed together in the same folder.
 
 ## We changed the company name. What happens to my previous files?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] doesn't automatically migrate files you opened earlier in OneDrive to the new folder. After you rename your company, the Open in OneDrive action will copy files to a folder that has the new company name.   
+[!INCLUDE[prod_short](includes/prod_short.md)] doesn't automatically migrate files you opened earlier in OneDrive to a new folder. If you change the display name used for the company folder, the **Open in OneDrive** action copies files to a folder based on that new display name. Changing only the company name doesn't change the folder if the display name stays the same.
 
-## When I want to attach a file in [!INCLUDE[prod_short](includes/prod_short.md)], how do I pick a file from OneDrive?
+## When I want to attach a file in Business Central, how do I pick a file from OneDrive?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] doesn't provide a cloud file picker. You must download the file from OneDrive to your device, and then upload it to [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -66,7 +65,7 @@ The integration assumes that company names are unique across [!INCLUDE[prod_shor
 
 ## How do I turn off integration to OneDrive?
 
-Run the **OneDrive Setup** assisted setup guide and turn off the **Use OneDrive for app features** and **Use OneDrive for system features** switches.
+Run the **OneDrive Setup** assisted setup guide and turn off the **Use with app features** and **Use with system features** switches.
 
 ## Should I use the SharePoint Connection Setup page to connect to SharePoint?
 
@@ -74,7 +73,7 @@ Run the **OneDrive Setup** assisted setup guide and turn off the **Use OneDrive 
 
 This page is a legacy feature where all [!INCLUDE[prod_short](includes/prod_short.md)] files from all users are sent to a single SharePoint folder. We recommend that you don't configure the Shared Documents FastTab on the **SharePoint Connection Setup** page because this page is [deprecated](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) and removed in 2023 release wave 2, version 23.0. We recommend that you use the **OneDrive Setup** instead.  
 
-## Which version of [!INCLUDE[prod_short](includes/prod_short.md)] supports OneDrive?
+## Which version of Business Central supports OneDrive?
 
 Integration with OneDrive became available in 2021 release wave 2.  
 
@@ -84,12 +83,12 @@ In the **OneDrive Setup** assisted setup guide for setting up OneDrive integrati
 
 |Option|Description|
 |------|----------|
-|**Use for app features**|If you turn on this option, the **Open in OneDrive** and **Share** actions are made available on files in Business Central, like files attached to documents or in the report inbox. These actions let users copy, open, and share files in OneDrive. Learn more in [Opening and Sharing Business Central Files in OneDrive](across-share-onedrive.md).
-|**Use for system features**|Turning on this option activates the following features:<ul><li> The **Open in Excel** and **Edit in Excel** actions on list pages automatically copy the Excel file to OneDrive, then open it in Excel Online. Learn more in [Viewing and Editing in Excel](across-work-with-excel.md).</li><li> Sending a report to an Excel or Word file automatically copies the file to OneDrive, then opens it in the Excel or Word online. Learn more in [Saving a report to a file](ui-work-report.md#save-a-report-to-a-file).|
+|**Use with app features**|If you turn on this option, the **Open in OneDrive** and **Share** actions are made available on files in Business Central, like files attached to documents or in the report inbox. These actions let users copy, open, and share files in OneDrive. Learn more in [Opening and Sharing Business Central Files in OneDrive](across-share-onedrive.md).|
+|**Use with system features**|Turning on this option activates the following features:<ul><li> The **Open in Excel** and **Edit in Excel** actions on list pages automatically copy the Excel file to OneDrive, then open it in Excel Online. Learn more in [Viewing and Editing in Excel](across-work-with-excel.md).</li><li> Sending a report to an Excel or Word file automatically copies the file to OneDrive, then opens it in Excel or Word online. Learn more in [Saving a report to a file](ui-work-report.md#save-a-report-to-a-file).</li></ul>|
 
 ## Will Microsoft continue to improve the integration to OneDrive?
 
-At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what's next for integrations with Microsoft 365 apps, see the [Dynamics 365 release plan](/dynamics365-release-plan/2021wave1).  
+At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what's next for integrations with Microsoft 365 apps, see the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
 If you want to participate in improving OneDrive integration, or have an idea that would improve file sharing and collaboration in [!INCLUDE[prod_short](includes/prod_short.md)], add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
@@ -101,7 +100,7 @@ If you're signed in as a delegated admin, files are downloaded instead of connec
 
 These limitations apply to all OneDrive-based features in Business Central, including file sharing, opening, or editing.
 
-## Troubleshooting
+## Troubleshoot OneDrive integration
 
 This section provides information about how to identify and fix problems you might experience when using OneDrive with [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -118,10 +117,12 @@ Learn more at [Can't share OneDrive files from Outlook.com](https://support.micr
 There are a couple things you can check:
 
 - Check that the application features for OneDrive are turned on in the **OneDrive Setup** assisted setup guide. Learn more in [Configure OneDrive using OneDrive Setup](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup).
-- Check that Microsoft OneDrive is set to **Agree** in the **Privacy Notices Status** page. Learn more in [Privacy Notices Status](privacy-notices-status.md).
+- Check that the OneDrive privacy notice hasn't been declined on the **Privacy Notices Status** page. A declined notice hides these actions. If the notice hasn't been agreed to, users are prompted when they first use a OneDrive feature. Learn more in [Privacy Notices Status](privacy-notices-status.md).
 
 ## Related information
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

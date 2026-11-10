@@ -1,10 +1,11 @@
 ---
-title: Opening Business Central Files in OneDrive
-description: Learn how you can share Business Central data through OneDrive for Business. 
+title: Open and Share Business Central Files in OneDrive
+description: Learn how to open and share Business Central reports and attachments in OneDrive, manage existing copies, and find your company's files in cloud storage.
 author: jswymer
 ms.topic: how-to
 ms.search.keywords: open files, share files, OneDrive
-ms.date: 10/21/2025
+ms.date: 11/09/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -38,14 +39,14 @@ The **Share** action copies the file to your OneDrive so you can see with whom y
 
 If you're familiar with OneDrive, you may recognize the above-referenced page. You'll see you have two options for sharing the file: **Send link** and **Copy link**.
 
-- **Send link** let's you share the files with specific people. The people you share the file get an email with a link to the file. The file also appears in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**. Include a message below the  **Name, group or email field**, if you want.
+- **Send link** lets you share the files with specific people. The people you share the file get an email with a link to the file. The file also appears in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**. Include a message below the  **Name, group or email field**, if you want.
 
   > [!TIP]
   > If you want to compose your message in Outlook, select the **Outlook** button. The link is inserted into a draft email and everyone you entered to share with will be in the **To** list. With this option, you can author emails using all of Outlook's features, including formatting text, adding other attachments, inserting pictures or tables, and adding CC or BCC recipients.
 
 - **Copy link** copies a file link you can use to share the file through applications such as Facebook, Twitter, or email. 
 
-Before you send or copy a file link, set the permission level you want people to have. You can see the current setting under **Send link** or **Copy link**. In most cases, it will be **Anyone with the link can edit**, depending on your administrator's settings. To change the permissions, select the link and make changes on the **Link Settings** page.
+Before you send or copy a file link, review who can use it and whether they can edit the file. The default link type depends on your organization's sharing settings. Select the settings (gear) icon in the sharing dialog to change these permissions. In OneDrive, use **Manage access** to review access and remove sharing links.
 
 The sharing feature in Business Central is based on OneDrive. Learn more about OneDrive sharing and permissions at [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
@@ -56,12 +57,12 @@ The sharing feature in Business Central is based on OneDrive. Learn more about O
 
 When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following things:
 
-1. Opens the **Please review terms and conditions** page. Read the page, and if you agree with the terms and conditions, select **Agree** to continue.
-2. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive. 
-3. Within the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates a folder with the same name as the company you're working in. If you work in more than one company, [!INCLUDE[prod_short](includes/prod_short.md)] creates a folder for each company you're working in when you use the **Open in OneDrive** or **Share** action. 
-4. Puts a copy of the file you selected in the company name folder, and then opens the file. 
+1. Asks you to review the privacy notice if it hasn't already been agreed to. Read the notice, and if you agree with the terms and conditions, select **Agree** to continue. Your administrator can agree to the notice for all users.
+1. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive.
+1. Within the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates a folder based on the display name of the company you're working in. If the company doesn't have a display name, its name is used instead. Characters that aren't valid in folder names are removed. If you work in more than one company, [!INCLUDE[prod_short](includes/prod_short.md)] creates a folder for each company when you use the **Open in OneDrive** or **Share** action.
+1. Puts a copy of the file you selected in the company folder, and then opens the file or the sharing window, depending on the action you selected.
 
-Then, the next time you use the **Open in OneDrive** or **Share** action, [!INCLUDE[prod_short](includes/prod_short.md)] only copies and opens the file. 
+The next time you use either action, [!INCLUDE[prod_short](includes/prod_short.md)] uses the existing folders. If a file with the same name already exists, you can choose how to handle the copy, as described in the next section.
 
 ## Manage multiple copies of a file
 
@@ -90,10 +91,12 @@ You can access your OneDrive from the **My Settings** page by choosing the link 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="The Cloud Storage field in My Settings":::
 
 <!--## Extending the Connection to OneDrive
-You can create an extension and connect it to... For more information, see...-->
+You can create an extension and connect it to... Learn more in...-->
 
 ## Related information
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Manage OneDrive Integration with Business Central](admin-onedrive-integration.md)  
 [OneDrive FAQ](admin-onedrive-faq.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

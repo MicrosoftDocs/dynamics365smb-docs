@@ -5,7 +5,8 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 10/23/2026
+ai-usage: ai-assisted
+ms.date: 11/10/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report, Excel
 ms.search.form: 490
@@ -43,9 +44,11 @@ To set up Excel integration for a financial report, follow these steps to create
 > [!NOTE]
 > If you make changes to the row or column definitions of the report you created a template for, you must update the template too. Each row and column in the Excel template must be in the same position as the generated report.
 
-## Using agentic Excel for formatting your report worksheet
+<a name="using-agentic-excel-for-formatting-your-report-worksheet"></a>
 
-When you export data from a financial report to Excel by using the **Open in Excel (using layout)** action, you can take advantage of **Agent Mode** in Excel to streamline data preparation and formatting. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the cleanup, transformation, or analysis steps automatically. 
+## Format your report worksheet with Copilot in Excel
+
+When you export data from a financial report to Excel by using the **Open in Excel (using layout)** action, you can use Copilot in Excel to help prepare and format the workbook. Describe the changes you want in natural language. Copilot can edit the workbook directly in edit mode or propose a plan first in plan mode. Review and verify its changes before you use the report.
 
 An example prompt could be (adjust to your style):
 
@@ -61,7 +64,7 @@ I want the report be formatted professionally with headers in bold, and amounts 
 Totals should have a line above them.
 ```
 
-To learn more, go to [Use Agentic Excel to enhance data tasks](across-work-with-excel.md#use-agentic-excel-to-enhance-data-tasks).
+Learn more in [Use Copilot in Excel to enhance data tasks](across-work-with-excel.md#use-copilot-in-excel-to-enhance-data-tasks).
 
 ## Example: Use and update an Excel template to create a monthly report
 
@@ -138,7 +141,7 @@ Microsoft maintains this article. The following contributors provided parts of t
 
 ## Related information
 
-[Use Agentic Excel to enhance data tasks](across-work-with-excel.md#use-agentic-excel-to-enhance-data-tasks)  
+[Use Copilot in Excel to enhance data tasks](across-work-with-excel.md#use-copilot-in-excel-to-enhance-data-tasks)  
 [View a financial report](finance-financial-reporting-view-a-report.md)  
 [Prepare financial reporting](bi-how-work-account-schedule.md)  
 [Financial analytics overview](bi.md)  

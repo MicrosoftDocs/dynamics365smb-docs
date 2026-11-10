@@ -1,23 +1,24 @@
 ---
-title: Viewing and editing in Excel from Business Central
-description: Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
+title: View and Edit Business Central Data in Excel
+description: Learn when to open Business Central lists in Excel for analysis and when to use the Excel add-in to edit records and publish your changes.
 author: jswymer
 ms.topic: concept-article
 ms.devlang: al
 ms.search.form: 1480,
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/26/2026
+ms.date: 11/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # View and edit in Excel from Business Central
 
-With pages that display a list of records in rows and columns, such as a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel and view it there. Depending on the page, you have two options for viewing in Excel. Both are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
+With pages that display a list of records in rows and columns, such as a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel and view it there. Depending on the page, you have two options for viewing in Excel. Both are available from the **Share** icon :::image type="icon" source="media/share-icon.png"::: at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
 
 > [!TIP]
->  When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using the **Open in Excel** or **Edit in Excel** actions, or with Excel templates/layouts in Financial Reporting, you can now take advantage of **Agent Mode** in Excel to streamline data preparation and analysis. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the required cleanup, transformation, or analysis steps automatically.
+> When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel, you can use Copilot in Excel to help prepare, format, and analyze the data. Availability depends on your Microsoft 365 license and your organization's tenant configuration. Learn more in [Use Copilot in Excel to enhance data tasks](#use-copilot-in-excel-to-enhance-data-tasks).
 
 ## Open in Excel
 
@@ -52,12 +53,12 @@ If the add-in doesn't install, either contact your admin or try to install it ma
 
 ### Work across environments and companies
 
-You can switch the company that you're working with. To switch a company, select the **Options** icon ![Excel add-in options.](media/cogwheel.png "Excel add-in options") in the Excel Add-in pane, then select the company from the **Company** field.  
+You can switch the company that you're working with. To switch a company, select the **Options** icon :::image type="icon" source="media/cogwheel.png"::: in the Excel Add-in pane, then select the company from the **Company** field.  
 
 > [!IMPORTANT]
 > When changing the company, make sure that the **Environment** field isn't empty. If it is, then set it to one of the available options; otherwise, the add-in doesn't work correctly.  
 
-If you make changes to the add-in, you must reload it to update the connection. To reload, use the ![Excel add-in menu](media/excel-addin-menu.png "Excel add-in menu") menu in the upper-right corner of the add-in. If you can't load the add-in, talk to your administrator. Refer to [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md) if you're the administrator.
+If you make changes to the add-in, you must reload it to update the connection. To reload, use the :::image type="icon" source="media/excel-addin-menu.png"::: menu in the upper-right corner of the add-in. If you can't load the add-in, talk to your administrator. Refer to [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md) if you're the administrator.
 
 > [!NOTE]
 > The add-in works with Excel for the web (online) from any device as long as you use a supported browser. It also works with the Excel app for Windows (PC), but not for macOS.
@@ -66,30 +67,35 @@ If you make changes to the add-in, you must reload it to update the connection. 
 
 ### Limits when using Excel for the web
 
-When **Edit in Excel** is used on list pages for tables with many columns, the resulting workbook might have too many columns for the file to be viewed in Excel for the web. [!INCLUDE[prod_short](includes/prod_short.md)] automatically limits the exported workbook to 100 columns when OneDrive is configured for system features.
+When **Edit in Excel** is used on list pages for tables with many columns, the resulting workbook might have too many columns for the file to be viewed in Excel for the web. [!INCLUDE[prod_short](includes/prod_short.md)] automatically limits the exported workbook to 99 columns when OneDrive is configured for system features.
 
 <!--## See the differences between the options
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
-## Use Agentic Excel to enhance data tasks
+<a name="use-agentic-excel-to-enhance-data-tasks"></a>
 
-When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using the **Open in Excel** or **Edit in Excel** actions, or with Excel templates/layouts in Financial Reporting, you can take advantage of **Agent Mode** in Excel to streamline data preparation and analysis. **Agent Mode** allows you to describe tasks in natural language. Depending on your instructions, Excel does the cleanup, transformation, or analysis steps automatically.
+## Use Copilot in Excel to enhance data tasks
+
+When you export data from [!INCLUDE[prod_short](includes/prod_short.md)] to Excel using **Open in Excel**, **Edit in Excel**, or financial report layouts, you can use Copilot in Excel to describe tasks in natural language. Copilot can edit the workbook directly in edit mode, propose a plan first in plan mode, or answer questions in chat mode. Review its output before using the results.
+
+> [!NOTE]
+> The workbook-editing capabilities previously called *Agent Mode* are now part of the regular Copilot in Excel experience.
 
 ### Scenario: Clean and prepare Business Central data
 
-Agent Mode can help you quickly prepare exported lists before you publish changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. You can use natural language instructions to:
+Copilot in Excel can help you prepare exported lists before you publish changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. You can use natural language instructions to:
 
 * Remove duplicates, standardize text formatting, or highlight anomalies and missing values.
 * Fill in missing fields, apply consistent naming conventions, or detect unexpected outliers in item, vendor, or pricing data.
-* Restructure worksheets, create new derived columns, or reshape data for import into configuration packages or templates.
+* Restructure a separate analysis worksheet or prepare data for a configuration package. Don't rename or remove the tables, bound columns, or key fields that the Excel add-in needs to publish changes.
 
-These capabilities reduce manual effort and help ensure high quality master data before you republish changes.
+Review the results before publishing changes to master data. Use **Open in Excel** when you want to explore or reshape data without a connection that can publish changes.
 
 ### Scenario: Analyze business data efficiently
 
-After you export data from [!INCLUDE[prod_short](includes/prod_short.md)], Agent Mode can help you accelerate analysis by creating:
+After you export data from [!INCLUDE[prod_short](includes/prod_short.md)], Copilot in Excel can help you analyze the data by creating:
 
 * Summaries and trends written in natural language.
 * Charts, PivotTables, and dashboards.
@@ -99,34 +105,34 @@ You can generate insights without building formulas or complex workbook structur
 
 ### Scenario: Support for iterative and multi-step workflows
 
-Agent Mode can do multi-step tasks that would otherwise require several manual operations. For example, you can:
+Copilot in Excel can do multistep tasks that would otherwise require several manual operations. For example, you can:
 
 1. Export a list of items from [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Ask Excel to clean inconsistent descriptions.
-3. Request grouping by item category and generate a chart of sales trends.
-4. Reformat the output to prepare it for re-import into a configuration package.
+1. Ask Excel to clean inconsistent descriptions.
+1. Request grouping by item category and generate a chart of sales trends.
+1. Reformat a separate copy of the output to prepare it for import into a configuration package.
 
 This conversational, iterative experience helps you refine results step-by-step without knowing specific Excel functions.
 
 ### Scenario: Format Excel templates for financial reports
 
-Agent Mode can help you format the raw Excel output for a financial report from the Financial Reporting feature. 
+Copilot in Excel can help you format the raw Excel output for a financial report from the Financial Reporting feature.
 
-To learn more, go to [Integrate financial reports with Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md#using-agentic-excel-for-formatting-your-report-worksheet).
+To learn more, go to [Format your report worksheet with Copilot in Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md).
 
 ### Considerations when working with data
 
-Agent Mode performs actions in Excel only. Changes aren’t written back to [!INCLUDE[prod_short](includes/prod_short.md)] until you publish them. Follow your organization’s data governance practices, especially when working with sensitive data.
+Copilot in Excel works in the workbook. If you use **Edit in Excel**, review the changes before choosing **Publish** in the Excel add-in. With **Open in Excel**, changes stay in the workbook and can't be published through the add-in. Configuration packages and report layouts have separate import procedures. Follow your organization's data governance practices, especially when working with sensitive data.
 
-### Availability of Agent Mode
+### Availability of Copilot in Excel
 
-Availability of Agent Mode depends on the country/region and licensing.
+Availability depends on your Microsoft 365 license and your organization's tenant configuration.
 
-To learn more, go to [Frequently asked questions about Agent Mode in Excel](https://support.microsoft.com/en-us/office/frequently-asked-questions-about-agent-mode-in-excel-1cfd906d-40b4-46be-8e2d-65b893e28a02)
+To learn more, go to [Frequently asked questions about Copilot in Excel](https://support.microsoft.com/en-us/excel/copilot/frequently-asked-questions-about-copilot-in-excel).
 
 ## Related information
 
-[Frequently asked questions about Agent Mode in Excel](https://support.microsoft.com/office/frequently-asked-questions-about-agent-mode-in-excel-1cfd906d-40b4-46be-8e2d-65b893e28a02)  
+[Frequently asked questions about Copilot in Excel](https://support.microsoft.com/en-us/excel/copilot/frequently-asked-questions-about-copilot-in-excel)  
 [Analyze list data using data analysis mode](analysis-mode.md)  
 [Work with Business Central](ui-work-product.md)  
 

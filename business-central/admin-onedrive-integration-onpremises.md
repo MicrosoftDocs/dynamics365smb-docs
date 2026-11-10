@@ -1,10 +1,11 @@
 ---
-title: Configuring OneDrive integration with Business Central on-premises
+title: Configure OneDrive for Business Central On-Premises
 description: Learn about how to set up Business Central on-premises to integrate with OneDrive for work or school (formerly known as OneDrive for Business).
 author: jswymer
 ms.topic: how-to
 ms.search.keywords: OneDrive, share, browser
-ms.date: 09/01/2024
+ms.date: 11/09/2026
+ai-usage: ai-assisted
 ms.author: jswymer
 ms.service: dynamics-365-op
 ms.reviewer: jswymer
@@ -16,7 +17,7 @@ This article explains how to configure OneDrive for work or school (formerly kno
 There are two tasks that need to be done to configure the OneDrive integration.
 
 - The first task involves registering an application (app) on your Microsoft Entra tenant of your Microsoft 365 plan. The registered app is used for authentication purposes. This task is typically done in the Azure portal and in Business Central web client.
-- The second task involves setting up the connection to the OneDrive URL and turning on the OneDrive features in the Business Central. This task in done in the Business Central web client. It's done differently for version 21 than for versions 19 and 20. Version 21 introduces a new **OneDrive Setup** that replaces the **SharePoint Connections Setup**.  
+- The second task involves setting up the connection to the OneDrive URL and turning on the OneDrive features in Business Central. This task is done in the Business Central web client. Version 21 and later use **OneDrive Setup** instead of the legacy **SharePoint Connection Setup** used in versions 19 and 20.
 
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] on-premises can only be connected to OneDrive hosted by Microsoft in the cloud. Connecting [!INCLUDE[prod_short](includes/prod_short.md)] on premises to the My Sites repository of SharePoint Server isn't supported.
@@ -54,26 +55,26 @@ Use this procedure if you're using Business Central 2022 release wave 2 (version
 
 ### Prerequisites
 
-- Indirect, modify, and delete (imd) permission on table **Document Service Scenario** as a minimum
+- Read permission and at least indirect insert, modify, and delete (imd) permission on table **Document Service Scenario**
 
 ### Run OneDrive setup
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **OneDrive Setup**, and then choose the related link.
-2. The first time you run the assisted setup, you see the **Your privacy**. Read the information on the page, and if you agree to the terms choose **Agree** to continue.
-3. On the **Configure file handling** page, you have the following options to choose from:
+1. Select **Next**. If the **Your privacy** page appears, read the information and, if you agree to the terms, choose **Agree** to continue.
+1. On the **Configure OneDrive file handling** page, you have the following options to choose from:
 
    [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
 
-4. On the **Configure Business Central** page, enter OneDrive's URL in the **OneDrive URL** field.
+1. Select **Next**. If you turned on either option, enter OneDrive's URL in the **OneDrive URL** field on the **Configure Business Central** page. If both options are off, select **Done** to finish without configuring a connection.
 
    [How do I find my OneDrive URL?](#url)
-5. Choose **Test Connection** and wait for the results.
+1. Choose **Test connection** and wait for the results.
    - If the test succeeds, choose **Done**, then you're ready to go.
    - If the test fails, you get a message that describes the problem. Typically the problem has to do with the URL that you provided. Choose **OK** to return to the **Configure Business Central** page, verify the URL, and try again.
    - If you haven't already set up the Microsoft Entra ID registered app, the **Set Up Microsoft Entra ID** guide opens.
-6. When completed, the privacy notice for OneDrive integration is agreed for all users. If you want to change it so users must agree or disagree for themselves, then go the **Privacy Notices Status** page and select **Let User Decide** for the OneDrive integration. Users will then be prompted to agree or disagree with the privacy notice the first time they use the OneDrive features. Learn more in [Privacy Notices](privacy-notices-status.md).
+1. When completed, the privacy notice for OneDrive integration is agreed to. If you have permission to approve notices for the organization, that approval applies to all users. Otherwise, it applies only to you. To let users decide individually, an administrator can go to **Privacy Notices Status** and select **Let User Decide** for the OneDrive integration. Users are then prompted to agree or disagree with the privacy notice the first time they use the OneDrive features. Learn more in [Privacy notices](privacy-notices-status.md).
 
-## Set up the connection in [!INCLUDE[prod_short](includes/prod_short.md)] version 19 and 20
+## Set up the connection in Business Central versions 19 and 20
 
 Use this procedure if you're using Business Central 2022 release wave 1 (version 20) or 2021 release wave 2 (version 19).
 > [!IMPORTANT]
@@ -93,15 +94,17 @@ Use this procedure if you're using Business Central 2022 release wave 1 (version
 6. In the **Client Secret** field, enter the secret from your registered app. 
 
 > [!IMPORTANT]
-> The **SharePoint Connection Setup** page is used to configure multiple legacy features. The **General** section configures the connection to OneDrive, and the **Shared Documents** section redirects files to SharePoint instead. The  **SharePoint Connection Setup** has been deprecated and will be removed in coming release. We recommend that you do not configure the **Shared Documents** section. Learn more in [Deprecated Features in the Base App ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
+> In versions 19 and 20, the **SharePoint Connection Setup** page configures multiple legacy features. The **General** section configures the connection to OneDrive, and the **Shared Documents** section redirects files to SharePoint instead. This setup is deprecated. We recommend that you don't configure the **Shared Documents** section. For current versions, use **OneDrive Setup**. Learn more in [Deprecated features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
 ## After upgrade to version 21
 
-When you upgrade to version 21 or later, the existing connection to OneDrive that's configured on the **SharePoint Connection Setup** page will still work. But because the **SharePoint Connection Setup** page will be removed in version 23, we recommend that you switch to the new OneDrive integration, as described in the next section. Making this switch now make it easier when the **SharePoint Connection Setup** is eventually removed. Plus, it enables you to use the **OneDrive Setup** assisted setup guide to manage the OneDrive features that are accessible to users.
+For upgrades to versions 21 and 22, the existing connection configured on the legacy **SharePoint Connection Setup** page can continue to work. Use **OneDrive Setup** to switch to the new integration and manage the OneDrive features that are accessible to users. The following sections describe that migration process.
 
-## Switching from legacy SharePoint to new OneDrive integration 
+## Switching from legacy SharePoint to new OneDrive integration
 
 To switch to the new OneDrive integration, you run the **OneDrive Setup** assisted setup guide, which you can open directly or from the legacy **SharePoint Connection Setup** page. The **OneDrive Setup** assisted setup leads you through the transition, providing information about the changes being made along the way.
+
+The references to **SharePoint Connection Setup** in this section apply only to older versions where that page is available. In current versions, open **OneDrive Setup** directly.
 
 Before you get started with the switch or as you're doing it, refer to the next section to learn about some aspects and considerations about the process. 
 
@@ -136,7 +139,7 @@ The **OneDrive Setup** assisted setup will always use the app that's configured 
 
    In **OneDrive Setup** while making the switch, you get a message similar to the following text:
 
-   **The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (aaaabbbb-0000-cccc-1111-dddd2222eeee).**
+   **The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (00001111-aaaa-2222-bbbb-3333cccc4444).**
 
 - If there's no app configured in the **Set up your Microsoft Entra accounts** setup, the OneDrive integration uses the same app as before.
 
@@ -149,19 +152,21 @@ The **OneDrive Setup** assisted setup will always use the app that's configured 
 ### Run OneDrive setup to switch to the new OneDrive integration
 
 1. Open either the **OneDrive Setup** page or the **SharePoint Connection Setup** page.
-2. If you're using the **SharePoint Connection Setup** page, choose **Go to new OneDrive setup** in the notification at the top of the page.
-3. Follow the **OneDrive Setup** assisted setup guide.
-4. When you get to the **Configure file handling** page, choose one of the following options for turning on features:
+1. If you're using the **SharePoint Connection Setup** page, choose **Go to new OneDrive setup** in the notification at the top of the page.
+1. Follow the **OneDrive Setup** assisted setup guide.
+1. When you get to the **Configure OneDrive file handling** page, choose one of the following options for turning on features:
 
    [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
 
-5. The **Configure Business Central** page shows the same URL that's used by the existing OneDrive integration. You can change the URL as needed.
-6. Select **Test Connection** and follow the instructions.
+1. The **Configure Business Central** page shows the same URL that's used by the existing OneDrive integration. You can change the URL as needed.
+1. Select **Test connection** and follow the instructions.
 
-   If the test succeeds, select **done**, and you're ready to go. Otherwise, use the messages on the page to help you fix the problem.
+   If the test succeeds, select **Done**, and you're ready to go. Otherwise, use the messages on the page to help you fix the problem.
 
 ## Related information
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  
 [OneDrive FAQ](admin-onedrive-faq.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

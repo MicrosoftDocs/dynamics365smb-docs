@@ -2,11 +2,11 @@
 title: Synchronize Contacts with Microsoft Outlook (Legacy)
 description: Set up legacy contact synchronization between Business Central version 27 or earlier and Microsoft Outlook, and choose which contacts to synchronize.
 author: brentholtorf
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311 
-ms.date: 05/21/2025
+ms.date: 11/09/2026
 ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
@@ -40,17 +40,17 @@ After you set up synchronization, sync changes manually. Business Central versio
 
 ## Synchronize contacts
 
-To sync contacts, select one of these actions on the **Exchange Sync. Setup** page:
+To sync contacts, open **Contact Sync. Setup** from the **Exchange Sync. Setup** page, then select one of these actions:
 
-- **Sync with Microsoft 365**
+- **Sync with Office 365**
 
   Synchronize all changes from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft 365 that were made after the last synchronization, based on the last modified date. Also, new contacts from Microsoft 365 are synchronized to [!INCLUDE[prod_short](includes/prod_short.md)]. Typically, this action is faster than a full sync. 
 
-- **Full Sync with Microsoft 365**
+- **Full Sync with Office 365**
 
   Synchronize all contacts in both directions, regardless of the last sync date and last modified date.  
 
-In both cases, contacts are only synchronized from Outlook if they have the required fields filled in. The required fields to synchronize to Microsoft 365 are **Name**, **Email address** and the contact must be of the type **Person**. [!INCLUDE[prod_short](includes/prod_short.md)] is the source of the contact information, so the [!INCLUDE[prod_short](includes/prod_short.md)] contact information is saved if there are duplicates.  
+To synchronize a Business Central contact to Microsoft 365, the contact must be of type **Person**, have an email address, and not be privacy blocked. Changes from Outlook can also update existing contacts in Business Central. Privacy-blocked contacts aren't updated.
 
 > [!NOTE]
 > If you delete a contact in Outlook, but keep it in [!INCLUDE[prod_short](includes/prod_short.md)], the contact will be recreated in Outlook the next time you sync.

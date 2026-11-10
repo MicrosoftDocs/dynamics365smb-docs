@@ -1,17 +1,18 @@
 ---
-title: View a test report before you post a sales or purchase document
+title: View a Test Report Before You Post
 description: Before you post a document, for example, an order or a credit memo, you can test and review it to check for errors that might block posting.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.form:
-ms.date: 10/15/2026
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 # View a test report before you post
+
 When you're ready to post a document, such as an order, invoice, or credit memo, use a test report to identify errors or missing information that might block posting.
 
 > [!NOTE]  

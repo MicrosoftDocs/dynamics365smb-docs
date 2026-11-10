@@ -1,15 +1,16 @@
 ---
-title: Add comments to cards and documents
+title: Add Comments to Cards and Documents
 description: Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: tasks, work
 ms.search.form: 124, 30
-ms.date: 10/16/2025
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Add comments to cards and documents
@@ -17,9 +18,9 @@ ms.reviewer: v-soumramani
 You can add extra information to G/L accounts, customers cards, or sales orders to communicate exceptions or special agreements to other users.
 Practically all cards and document have a **Comments** action, which opens the **Comment Sheet** page where you can write or read comments. On documents, you can also add comments to individual lines.
 
-Comments on ongoing documents are transferred to the related posted document. For example, a comment on a sales order is transferred to a resulting posted sales shipment.
+You can transfer comments on ongoing documents to related posted documents. For example, if you turn on **Copy Comments Order to Shpt.**, a comment on a sales order is transferred to the posted sales shipment.
 
-In addition, you can specify if you want comments to be transferred from one type of document to another resulting type of document, such as from a sales order to a sales invoice. You do this in the **Sales & Receivables** and the **Purchases & Payables** pages respectively.
+Use the **Sales & Receivables Setup** and **Purchases & Payables Setup** pages to specify which document types receive copied comments, such as from a sales order to a sales invoice.
 
 > [!NOTE]
 > Comments aren't printed or output to reports or externally-facing documents.

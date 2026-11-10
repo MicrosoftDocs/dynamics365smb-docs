@@ -1,5 +1,5 @@
 ---
-title: Change basic settings for the current user
+title: Change Basic Settings
 description: Learn how to change some basic settings in Business Central, for example, your role and Role Center, company, work date, and time zones.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9006, 9007, 9010, 9016, 9017, 3563_Primary, 9024_Primary
-ms.date: 03/26/2025
+ms.date: 11/10/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 # Change basic settings
 
@@ -26,22 +27,22 @@ The role determines the home page, a starting screen that is designed for the ne
 
 ### Change the role
 
-The default role is **Business Manager**, but you can select another role to use a role center that fits your needs better.  
+Your administrator determines the default role. You can select another available role to use a Role Center that fits your needs better.
 
-1. In the top right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **My Settings** action.
-2. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant**.
-3. Choose **OK**.
+1. In the top right corner, choose the **Settings** icon :::image type="icon" source="media/ui-experience/settings_icon_small.png":::, and then choose the **My Settings** action.
+1. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant**.
+1. Choose **OK**.
 
 ## <a name="company"></a>Company
 
-A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but only one can be selected at a time. The default company is called CRONUS and contains demonstration data only.
+A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but you work in one company at a time in each session.
 
 The **Company** field shows the company you're currently working in, and you can use it to switch to another company. The company name is always displayed at the upper-left corner and works as an action that you can choose to go back to the Role Center.
 
 > [!TIP]
-> You can also change the company by using the company switcher (Crtl+O). For more information about this feature and other ways to change company or environment, see [Switching to Another Company or Environment](ui-organization-switch.md).
+> You can also change the company by using the company switcher (<kbd>Ctrl</kbd>+<kbd>O</kbd>). For more information about this feature and other ways to change company or environment, see [Switching to Another Company or Environment](ui-organization-switch.md).
 
-The default company is called CRONUS and contains demonstration data only. You can create a new company with custom data. For more information, see [Creating New Companies](about-new-company.md).
+The CRONUS demonstration company contains sample data. You can create a new company with your own data. For more information, see [Creating New Companies](about-new-company.md).
 
 <!--
 ### To change the company name
@@ -70,7 +71,7 @@ The most commonly used work date is today's date. You might have to temporarily 
 > In all date fields, type **t** to quickly enter today's date, and type **w** to quickly enter the work date, which is the value in the **Work Date** field on the **My Settings** page.
 
 > [!IMPORTANT]  
-> After you change the work date, if you sign out or switch to another company, the work data reverts to the default work date. So the next time you sign in or switch back to the original company, you may have to set the work date again.
+> After you change the work date, if you sign out or switch to another company, the work date reverts to the default work date. So the next time you sign in or switch back to the original company, you may have to set the work date again.
 
 ### Work date indication
 
@@ -88,7 +89,7 @@ The **Region** setting determines how dates, times, numbers, and currencies are 
 
 ## <a name="language"></a> Language
 
-Changes the display language. This field appears only when there's more than one language to choose from.
+The **Language** setting changes the display language.
 
 When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], your administrator or your browser settings determine the initial language. The language that you set is used on all devices that you sign in from, such as a phone or tablet.
 
@@ -99,7 +100,7 @@ You can install more languages for [!INCLUDE[prod_short](includes/prod_short.md)
 
 ## Time zone
 
-Defines the time zone where you're located. When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], the time zone is set based on your company's address. Change it if it doesn't fit your physical location.  
+Defines the time zone where you're located. Change the **Time Zone** setting if it doesn't match your physical location.
 
 ## Notifications
 

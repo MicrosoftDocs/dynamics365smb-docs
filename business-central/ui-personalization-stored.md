@@ -1,5 +1,5 @@
 ---
-title: Where is personalization stored?
+title: Where Is Personalization Stored?
 description: Learn which UI adjustments are automatically saved and roam with you across devices and browsers, while others only affect your current browser.
 author: mikebc
 ms.author: mikebc
@@ -7,16 +7,17 @@ ms.reviewer: jswymer
 ms.topic: concept-article
 ms.custom: bap-template 
 ms.date: 02/14/2025
+ai-usage: ai-assisted
 ---
 # Where is personalization stored?
 
 When you interact with the Business Central web client to optimize your workspace, some user interface (UI) adjustments are automatically saved and roam with you across devices and browsers. Others are local and only affect your current browser.
 
-- *Roaming personalization* is stored in the Business Central service and affects your experience no matter which device or browser you sign in to. Personalizing in one browser or device immediately affects other browsers or devices that you use. Roaming personalization is typically infrequent, more permanent, or time-consuming to recreate. Roaming settings can only be reset by clearing personalization from the Business Central web client.
+- *Roaming personalization* is stored in the Business Central service and affects your experience no matter which device or browser you sign in to. Saved changes are available across browsers and devices, but don't assume that pages already open elsewhere update immediately. Roaming personalization is typically infrequent, more permanent, or time-consuming to recreate. Clearing browser data doesn't clear roaming personalization.
 - *Local personalization* is stored in your browser and only affects your experience when using different browser tabs in that same browser. It doesn't affect your Business Central experience on other devices, browsers, or browser profiles. UI adjustments that are saved locally are typically those adjustments that users frequently do and redo as they work in Business Central.  
 
   > [!NOTE]
-  > If you delete the browsing data in your browser, specifically cookies and site data, you also delete any local personalization that you've done. To avoid deleting local personalization, make sure that the browser isn't set up to clear cookies and site data every time you close the browser. For example, in Microsoft Edge, you turn off the **Cookies and other site data** toggle in the **Privacy, search, and services** settings. Learn more at [Manage cookies in Microsoft Edge](https://support.microsoft.com/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d#bkmk_deletecookieseverytimeyouclosethebrowser) or consult the documentation for your browser.
+  > If you delete the browsing data in your browser, specifically cookies and site data, you also delete any local personalization that you've done. To avoid deleting local personalization, make sure that the browser isn't set up to clear cookies and site data every time you close the browser. In Microsoft Edge, go to **Settings** > **Privacy, search, and services** > **Clear browsing data** > **Choose what to clear every time you close the browser**, and turn off **Cookies and other site data**. Learn more at [Manage cookies in Microsoft Edge](https://support.microsoft.com/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09) or consult the documentation for your browser.
 
 ## Roaming versus local UI adjustments
 
@@ -70,3 +71,5 @@ The following table indicates which UI adjustments are roaming, local, or both. 
 
 [Personalize your workspace](ui-personalization-user.md)  
 [Why a Page is Locked from Personalization](ui-personalization-locked.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

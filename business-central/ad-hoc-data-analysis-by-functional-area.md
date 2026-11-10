@@ -1,14 +1,15 @@
 ---
-title: Ad-hoc data analysis by functional area
-description: Provides an overview of functional area specific landing pages for ad-hoc data analysis in Business Central.
+title: Ad-Hoc Data Analysis by Functional Area
+description: Find guidance for analyzing Business Central data by functional area, including finance, sales, purchasing, inventory, sustainability, and auditing.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: get-started
+ms.topic: overview
 ms.search.keywords: feature overview
-ms.date: 05/01/2024
+ms.date: 11/10/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Ad-hoc data analysis by functional area

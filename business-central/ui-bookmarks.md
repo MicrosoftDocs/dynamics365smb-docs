@@ -1,8 +1,8 @@
 ---
-title: Bookmark link to page or report on role center
-description: Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your role center.
+title: Bookmark a Page or Report on Your Role Center
+description: Add bookmarks to the navigation menu on your Business Central Role Center so you can quickly open frequently used pages, reports, and business tasks.
 author: brentholtorf
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
@@ -10,6 +10,7 @@ ms.date: 07/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 # Bookmark a page or report on your role center
 
@@ -20,21 +21,21 @@ The bookmark icon is shown in the top-right corner of a page and also in the **T
 ## Bookmark the target page
 
 1. Open any page that you want a link for on your role center.
-2. Choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
+1. Choose the **Bookmark** icon :::image type="icon" source="media/ui_bookmark_icon.png":::.
 
 An action named after the page is now added to the navigation menu on your role center.
 
 ## Bookmark the target report
 
 1. Open any report request page that you want a link for on your role center.
-2. Choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
+1. Choose the **Bookmark** icon :::image type="icon" source="media/ui_bookmark_icon.png":::.
 
 An action named after the report is now added to the navigation menu on your role center.
 
 ## Bookmark a page or report from the Tell Me window
 
-1. Open the **Tell Me** window and enter, for example, **Sales Orders**.
-2. Hover over the search result for the **Sales Orders** page or report, and then choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter, for example, **Sales Orders**.
+1. Hover over the search result for the **Sales Orders** page or report, and then choose the **Bookmark** icon :::image type="icon" source="media/ui_bookmark_icon.png":::.
 
 An action named after the page or report is now added to the navigation menu on your role center.
 
@@ -56,7 +57,7 @@ When adding a bookmark to a page or report, the new action is added to the top n
 
 ### I don't have a bookmark icon. Is something wrong?
 
-The ability to bookmark a page or report is one of many user personalization features in Business Central. If the bookmark icon isn't displayed, it's likely that your administrator has disabled personalization.
+The ability to bookmark a page or report is one of many user personalization features in Business Central. If the bookmark icon isn't displayed, it's likely that your administrator has disabled personalization. The bookmark icon is also hidden while the page is in analysis mode.
 
 ### Why can't I bookmark certain pages or reports?
 
@@ -87,7 +88,7 @@ When you add a new action, any translated text that was available at the time is
 
 ### Why can't I add text in a page right after opening it with the bookmark?
 
-When a page is bookmarked, the page will always open in the view mode from the bookmark&mdash;even if it was in the edit mode when it was bookmarked. Selecting the **Make changes on the page** icon ![Shows the pencil icon for editing the page.](media/edit-pencil.png) will let you add text in the fields that are editable.
+When a page is bookmarked, the page will always open in the view mode from the bookmark&mdash;even if it was in the edit mode when it was bookmarked. Selecting the **Make changes on the page** icon :::image type="icon" source="media/edit-pencil.png"::: will let you add text in the fields that are editable.
 
 ## Related information
 

@@ -1,17 +1,18 @@
 ---
-title: Troubleshooting Microsoft Teams Integration
-description: Learn about what you can do as an administrator to control Microsoft Teams integration and fix problems.
+title: Troubleshoot Business Central Integration with Teams
+description: Identify and fix issues with Business Central in Microsoft Teams, including sign-in problems, missing card previews, permissions, and tab content.
 author: jswymer
-ms.topic: get-started
+ms.topic: troubleshooting
+ai-usage: ai-assisted
 ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/06/2025
+ms.date: 11/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Troubleshoot Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
+# Troubleshoot Microsoft Teams integration with Business Central
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -46,17 +47,17 @@ If you're experiencing this problem, here are a few things to try:
     To check, sign in to the Teams desktop app or Teams in the browser. Then, on the left side, select **Apps**, and search for **[!INCLUDE [prod_short](includes/prod_short.md)]**. When you find the **[!INCLUDE [prod_short](includes/prod_short.md)]** app, select it to open the app details page. If the **Add** button is shown, then the [!INCLUDE [prod_short](includes/prod_short.md)] app isn't installed. Learn more in [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 
     > [!NOTE]
-    > Guest users can't immediately install apps. Learn more in [FAQ about collaborating with guests](teams-faq.md?tabs=collaborating#language). 
+    > Guest users can't immediately install apps. Learn more in [How does a guest user install the Business Central app?](teams-faq.md?tabs=collaborating#how-does-a-guest-user-install-the-business-central-app).
 
-2. Next, check that you've signed in with the correct identity.
+1. Next, check that you've signed in with the correct identity.
 
     In Teams, go to any chat, and under the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] icon, then choose **Settings**. The window that appears states the user account that you’re signed in as. Verify that it’s the correct user account.
 
-3. Make sure codeunit 2718 **Page Summary Provider** is published as a web service.
+1. Make sure codeunit 2718 **Page Summary Provider** is published as a web service.
 
     Teams connects to [!INCLUDE [prod_short](includes/prod_short.md)] using an endpoint to this codeunit on the [!INCLUDE [prod_short](includes/prod_short.md)] service. Learn more in [Publish a Web Service](across-how-publish-web-service.md).
 
-4. Your organization can also restrict you from pasting links that expand into cards. Contact your administrator to understand the Teams organizational policies that apply to you.
+1. Your organization can also restrict you from pasting links that expand into cards. Contact your administrator to understand the Teams organizational policies that apply to you.
 
 ## My link sometimes doesn’t expand into a card 
 
@@ -91,7 +92,7 @@ This problem can be caused by a couple of things: lack of permissions in [!INCLU
 
     Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-2. Check your browser settings if using Teams in the browser.
+1. Check your browser settings if using Teams in the browser.
 
     - Your browser's pop-up blocker must be either turned off or set to allow pop-ups from the *businesscentral.dynamics.com* or *bc.dynamics.com* domains. Learn more in about allowing pop-ups for [!INCLUDE [prod_short](includes/prod_short.md)] in [Setting Up Your Browser](across-browser-settings.md#popup).
     - Your browser must have access to local browser storage for cookies and preferences as you work.
@@ -129,17 +130,17 @@ Changes you make to a field in the details windows are automatically saved when 
 
 ## A new tile appeared in the App Launcher. How do I remove it?
 
-When you view your apps on the Office 365 home page (https://home.office.com) or in the app launcher, a new tile named "Business Central Teams Integration Service Connector" will appear after installing the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. This tile provides no value in itself and can be safely hidden.
+When you view your apps on the Office 365 home page (https://home.office.com) or in the app launcher, a new tile named "Business Central Teams Integration Service Connector" appears after installing the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. This tile provides no value in itself and can be safely hidden.
 
-As an administrator, who has Microsoft Entra admin permissions, you can hide the tile by doing the following steps:
+As an admin, complete the follwoing steps to hide the tile:
 
-1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
-2. Select **Enterprise apps**, then select **Business Central Teams Integration Service Connector**.
-3. Select **Properties**, then set the **Visible To Users** switch to **No**.
-4. Select **Save**.
+1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/) as at least a **Cloud Application Administrator**.
+1. Go to **Entra ID** > **Enterprise apps** > **All applications**, then select **Business Central Teams Integration Service Connector**.
+1. Select **Properties**, then set **Visible to users?** to **No**.
+1. Select **Save**.
 
 > [!NOTE]
-> It will be a while before this change takes effect.
+> It can be a while before this change takes effect. Hiding an app doesn't remove users' permissions or prevent sign-in through other methods. Learn more in [Hide an enterprise application](/entra/identity/enterprise-apps/hide-application-from-user-portal).
 
 ## Duplicate text in the Share to Teams window
 
@@ -171,7 +172,9 @@ This problem is likely because you shared a list view that is a personal view. I
 [Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## Try Business Central
+
+[!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

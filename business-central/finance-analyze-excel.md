@@ -1,19 +1,22 @@
 ---
-title: Work with financial overviews in Excel (legacy)
-description: Learn about how you can open the financial statements in Microsoft Excel from Business Central for better analysis.
+title: Analyzing Financial Statements in Microsoft Excel (legacy)
+description: Learn about legacy Excel financial statement workbooks in Business Central and find current alternatives for financial reporting and analysis.
 author: brentholtorf
 ms.topic: overview
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027,
-ms.date: 02/13/2025
+ms.date: 11/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
-# Analyzing financial statements in Microsoft Excel (obsolete)
+# Analyzing financial statements in Microsoft Excel (legacy)
 
 > [!NOTE]
 > This feature is deprecated and will be removed in a later [!INCLUDE [prod_short](includes/prod_short.md)] release. Learn more in [Deprecated features in the base app](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1). Learn more about alternative finance reporting in [Financial analytics overview](bi.md).
+
+This article describes the legacy Excel financial statement workbooks. For current financial reporting, use [Excel layouts for financial reports](finance-financial-reporting-integrate-financial-reports-with-excel.md) or [Excel report layouts](ui-excel-report-layouts.md). The legacy actions described in this article aren't the same as those layout-based exports.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] provides KPIs and get overviews of your company's finances. The following are examples of ways to analyze KPIs and overviews in Excel:
 
@@ -48,7 +51,7 @@ The predefined Excel reports are based on the data in the current company. For e
 
 Other sheets in the Excel workbook show the data behind the report. To find out what's behind the groupings in the Excel reports, you might have to filter the lists in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## The [!INCLUDE [prod_short](includes/prod_short.md)] Excel add-in
+## Use the Excel add-in with legacy workbooks
 
 Your [!INCLUDE [prod_short](includes/prod_short.md)] experience includes an add-in for Excel. Depending on your subscription, you're signed in automatically, or you must provide your sign-in details for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Viewing and Editing in Excel From Business Central](across-work-with-excel.md).  
 

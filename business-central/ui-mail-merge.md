@@ -1,14 +1,15 @@
 ---
-title: Using Word templates for bulk communications
-description: Word templates can make it easy to bulk create documents that are personalized for specific entities.
+title: Use Word Templates for Business Central Communication
+description: Learn how to create Word templates in Business Central, select merge fields, and generate personalized documents or email content for business contacts.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 11/13/2024
+ms.date: 11/09/2026
 ms.custom: bap-template
 ms.search.forms: 9989_Primary, 13, 9992_Primary, 9983_Primary
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Use Word templates for bulk communication
@@ -20,7 +21,7 @@ Microsoft Word templates can make it easier to mass communicate in print or by e
 * Invitations to attract contacts to an upcoming event
 
 > [!NOTE]
-> When you set up Word templates, you must use a device with Microsoft Word 2019 or newer and have the Windows operating system installed.
+> To set up Business Central templates, use a [supported version of Microsoft Word](/lifecycle/products/?terms=word) for Windows. Word for the web preserves mail merge settings but can't edit them. Learn more in [Use mail merge for bulk email, letters, labels, and envelopes](https://support.microsoft.com/office/use-mail-merge-for-bulk-email-letters-labels-and-envelopes-f488ed5b-b849-4c11-9cff-932c49474705).
 
 ## Set up the source of data
 
@@ -29,10 +30,10 @@ Use entities in [!INCLUDE[prod_short](includes/prod_short.md)] as the source of 
 On the **Word Templates** page, when you create a new template an assisted setup guide helps you through the following steps:
 
 1. Choose one or more entities to use as the source of the data. For example, if you want to create a brochure for a sales campaign, you'd probably choose the Customer entity as the source.
-2. Choose other entities as extra sources of data. Learn more at [Add Entries that are Related or Unrelated to the Source Entity](#add-entries-that-are-related-or-unrelated-to-the-source-entity).
-3. Download a blank template. You can set up the template in Word right away, or you can upload the blank template and finish the guide. When your template's ready, use the **Upload** action on the **Word Templates** page to replace the blank template with your finished template. Learn more at [Set Up the Template in Word](#set-up-the-template-in-word).
-4. Upload the template you prepared.
-5. Enter a code and a name that identifies the template.
+1. Choose other entities as extra sources of data. Learn more at [Add Entries that are Related or Unrelated to the Source Entity](#add-entries-that-are-related-or-unrelated-to-the-source-entity).
+1. Download a blank template. You can set up the template in Word right away, or you can upload the blank template and finish the guide. When your template's ready, use the **Upload** action on the **Word Templates** page to replace the blank template with your finished template. Learn more at [Set Up the Template in Word](#set-up-the-template-in-word).
+1. Upload the template you prepared.
+1. Enter a code and a name that identifies the template, and review its **Language** field.
 
 When you download a template, you get a .zip file that includes two files.
 
@@ -68,10 +69,10 @@ For each entity, you can specify the fields that you want to be available for th
 > [!NOTE]
 > You or your Microsoft partner can add custom fields to entities. When you do, we prefix the name of the fields with **CALC** and give them the field type **Calculated**. The field type is called calculated to indicate the field can show different types of values, such as text, numbers, dates, and so on.
 
-## To create a Word template in Business Central
+## Create a Word template in Business Central
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Word Templates**, and then choose the related link.
-2. Choose **New**, then **Create a Template**, and then follow the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choose **New**, then **Create a Template**, and then follow the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
 > You can also create a template directly from the page for an entity by choosing the **Apply Word Template** action to open the assisted setup guide, and then **New Template**. When you do, the data source is chosen for you based on the type of entity.
@@ -84,7 +85,7 @@ When you're setting up a template in Word, on the **Mailings** tab you can add m
 
 ## Apply a template
 
-When your Word template is ready, on the **Word Templates** page you can choose **Apply** to generate the documents. When you apply a Word template to an entity, data from the merge fields is inserted in the document. You can either create one document that contains sections for each entity, or choose **Split** to create a new document for each entity.
+When your Word template is ready, On the **Word Templates** page you can choose **Apply** to generate the documents. When you apply a Word template to an entity, data from the merge fields is inserted in the document. You can either create one document that contains sections for each entity, or choose **Split** to create a new document for each entity.
 
 You can use the **Apply Word Templates** action to apply templates to one or more of the same type of entity, such as a customer, directly in the context of the page for the entity. For example, the **Customer** or **Vendor** pages.
 
@@ -109,3 +110,5 @@ You can make the following changes to your Word templates:
 
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set Up Email](admin-how-setup-email.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

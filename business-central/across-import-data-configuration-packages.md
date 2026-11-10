@@ -1,14 +1,15 @@
 ---
-title: Use Excel to import data
-description: Use the default configuration package to add customer data in Excel and import the data back into Business Central.
+title: Import Business Data into Business Central with Excel
+description: Learn how to prepare business data in Excel, import it through Business Central configuration packages, and validate the data before applying it.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
-ms.topic: article
+ms.topic: how-to
 ms.search.keywords: migration, Excel, business data import
-ms.date: 06/17/2026
+ms.date: 11/09/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Import business data from other finance systems
@@ -33,7 +34,7 @@ For larger implementation work, you can set up solution-specific configuration p
 > [!NOTE]  
 > Working with configuration packages is advanced functionality, and we recommend that you contact your reselling partner. Learn more in [Set Up Company Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (in English only).
 
-You can import master data and some transactional data from other finance systems based on the default configuration package in [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Configuration Packages** page, you can work with the package to import and validate the data before you apply the package. For example, you can export the configuration package to Excel and set up your data there. Then, you can import the data from Excel again. The package consists of 27 tables, including master data such as customers, vendors, items, and accounts. The package also contains other basic setup tables such as shipping methods, and transactions tables such as sales header and lines.  
+You can import master data and some transactional data from other finance systems based on the default configuration package in [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Configuration Packages** page, you can work with the package to import and validate the data before you apply the package. For example, you can export the configuration package to Excel and set up your data there. Then, you can import the data from Excel again. The tables in a package depend on how the package was created. Packages can include master data such as customers, vendors, items, and accounts, setup tables such as shipping methods, and transactional tables such as sales headers and lines. Review the tables and fields on the **Configuration Package Card** page before you export or import a workbook.
 
 When you export the default configuration package to Excel, the generated workbook contains a worksheet for each table in the package. To simplify your tasks, you can take advantage of the XML manipulation tools that are built into Excel. You can also use Excel built-in functions to help with data formatting and to put data in the correct cell. For example, add a blank worksheet and copy the legacy data to it. Then make an Excel formula to map data in the transformation worksheet between the fields in the exported worksheet and customer legacy data. After you map all of the data, copy the range of data onto the table worksheet.  
 
@@ -43,9 +44,9 @@ When you export the default configuration package to Excel, the generated workbo
 > [!NOTE]
 > Fields of type Blob can't be exported/imported using Excel.
 
-### Tables in the default configuration package
+### Examples of tables in configuration packages
 
-The default configuration package supports the following tables:
+Configuration packages can include tables such as:
 
 - Payment Terms
 - Customer Price Group
@@ -71,8 +72,8 @@ The default configuration package supports the following tables:
 - General Posting Setup
 - Territory
 - Item Category
-- Sales Price
-- Purchase Price
+- Price List Header
+- Price List Line
 
 ## Related information
 
@@ -81,6 +82,8 @@ The default configuration package supports the following tables:
 [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## Try Business Central for free
+
+[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

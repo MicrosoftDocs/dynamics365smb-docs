@@ -1,21 +1,22 @@
 ---
-title: Integrating with Office apps and Microsoft 365 
-description: Learn how to integrate Business Central with Office apps and Microsoft 365.
+title: Integrate Business Central with Microsoft 365 Apps
+description: Learn how Business Central integrates with Excel, OneDrive, Outlook, Teams, and Word to help you analyze data, share files, and work with customers.
 author: kennienp
 ms.reviewer: jswymer
 ms.topic: overview
 ms.author: kepontop
-ms.date: 06/19/2026
+ms.date: 11/09/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Integrating with Office apps and Microsoft 365
+# Integrate with Office apps and Microsoft 365
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integrates with [!INCLUDE[m365](includes/m365-name.md)] to gain extra features. This article introduces some of these features.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/m365-integrations-detail.svg" alt-text="Shows how Business Central integrates to Microsoft 365" lightbox="/dynamics365/business-central/dev-itpro/developer/media/m365-integrations-detail.svg":::
 
-## Using [!INCLUDE[m365_excel](includes/m365-excel-name.md)] with [!INCLUDE [prod_short](includes/prod_short.md)]
+## Use Excel with Business Central
 
 [!INCLUDE[m365_excel](includes/m365-excel-name.md)] is used in [!INCLUDE [prod_short](includes/prod_short.md)] in the following scenarios:
 
@@ -52,16 +53,16 @@ When an administrator enables [!INCLUDE[m365_onedrive_for_business](includes/m36
 
 Learn more at [Business Central and OneDrive Integration](across-onedrive-overview.md).
 
-## Use [!INCLUDE[m365_outlook](includes/m365-outlook-name.md)] with [!INCLUDE [prod_short](includes/prod_short.md)]
+## Use Outlook with Business Central
 
 With [!INCLUDE [prod_short](includes/prod_short.md)], you can manage business interactions with your customers and vendors directly in [!INCLUDE[m365_outlook](includes/m365-outlook-name.md)]. Install the [!INCLUDE [prod_short](includes/prod_short.md)] add-in for [!INCLUDE[m365_outlook](includes/m365-outlook-name.md)] to get the following capabilities:
 
 - **Contact insights**: This add-in lets you look up [!INCLUDE [prod_short](includes/prod_short.md)] customer or vendor information in [!INCLUDE[m365_outlook](includes/m365-outlook-name.md)] emails and calendar appointments. It also lets you create and send emails including [!INCLUDE [prod_short](includes/prod_short.md)] business documents, such as a sales quote or invoice to a contact.
 - **Document view**: When a business document is sent in an email, the add-in provides a direct link from the email to the actual business document in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-Learn more at [Get the Business Central Add-in for Outlook](/dynamics365/business-central/admin-outlook).
+Learn more at [Get the Business Central add-in for Outlook](admin-outlook.md).
 
-## Integrate with [!INCLUDE[m365_teams](includes/m365-teams-name.md)]
+## Integrate with Microsoft Teams
 
 [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects [!INCLUDE[m365_teams](includes/m365-teams-name.md)] to the data in [!INCLUDE [prod_short](includes/prod_short.md)] so that you can quickly share details across team members and respond faster to inquiries.
 
@@ -69,7 +70,7 @@ Learn more at [Get the Business Central Add-in for Outlook](/dynamics365/busines
 
 Learn more at [Share Business Central records and page links in Microsoft Teams](across-working-with-teams.md).
 
-## Using [!INCLUDE[m365_word](includes/m365-word-name.md)] with [!INCLUDE [prod_short](includes/prod_short.md)]
+## Use Word with Business Central
 
 Power users in [!INCLUDE [prod_short](includes/prod_short.md)] can use [!INCLUDE[m365_word](includes/m365-word-name.md)] for the following scenarios:
 
@@ -78,7 +79,7 @@ Power users in [!INCLUDE [prod_short](includes/prod_short.md)] can use [!INCLUDE
 
 If your organization wants to change the layout of its customer-facing documents, such as quotes, sales orders, or sales invoices, a power user can use Word as a design tool to change the layout. When [!INCLUDE [prod_short](includes/prod_short.md)] generates the document report, it merges the Word layout with data and sends the resulting PDF document to the user as a downloaded file (or to a printer). Learn more at [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
 
-To make it easy to mass communicate in print or email, power users can use mail merge commands in Word to use Word as the design tool to create the layout of the message. They can then upload the Word document to [!INCLUDE [prod_short](includes/prod_short.md)]. When you run the campaign, the [!INCLUDE [prod_short](includes/prod_short.md)] platform merges data from entities such as contacts, customers, and vendors with the template to produce the final documents to send to clients. Learn more at [Using Word Templates for Bulk Communication](ui-mail-merge.md).
+To make it easy to mass communicate in print or email, power users can use mail merge commands in Word to use Word as the design tool to create the layout of the message. They can then upload the Word document to [!INCLUDE [prod_short](includes/prod_short.md)]. When you apply the template, [!INCLUDE [prod_short](includes/prod_short.md)] merges data from entities such as contacts, customers, and vendors with the template to produce personalized documents. You can also use a template as email content or an attachment. Learn more at [Using Word Templates for Bulk Communication](ui-mail-merge.md).
 
 ## Related information
 
@@ -89,3 +90,5 @@ To make it easy to mass communicate in print or email, power users can use mail 
 [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)  
 [Use Word Templates for Bulk Communication](ui-mail-merge.md)  
 [Business Central integrations overview](integration-overview.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

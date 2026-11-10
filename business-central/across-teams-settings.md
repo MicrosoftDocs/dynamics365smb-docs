@@ -1,14 +1,15 @@
 ---
-title: Changing company and other settings in Teams 
-description: Learn how to change Business Central connection settings from Microsoft Teams.
+title: Change Company and Other Settings in Teams
+description: Change the Business Central environment and company connected to Microsoft Teams, check your signed-in account, or sign out and use another account.
 author: jswymer
-ms.topic: get-started
+ms.topic: how-to
+ai-usage: ai-assisted
 ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
-ms.date: 10/21/2025
+ms.date: 11/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Change company and other settings in Teams
@@ -21,11 +22,11 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 
 1. Next to the message compose box, select **+**, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] app icon, then select **Settings**.
 
-   ![Settings for Business Central from command box.](media/teams-settings-message-box-2.png)
+   :::image type="content" source="media/teams-settings-message-box-2.png" alt-text="Business Central app settings opened from the Teams message compose box.":::
 
-2. From the command box at the top, search for **/Business Central** and then select the [!INCLUDE [prod_short](includes/prod_short.md)] app icon. Then, in the message that appears the under the **[search for business contacts]** box, select **... (More options)** and then **Settings**. If the message isn't displayed, click the **[search for business contacts]** box.
+1. From the command box at the top, search for **/Business Central** and then select the [!INCLUDE [prod_short](includes/prod_short.md)] app icon. Then, in the message that appears the under the **[search for business contacts]** box, select **... (More options)** and then **Settings**. If the message isn't displayed, click the **[search for business contacts]** box.
 
-   ![Settings for Business Central from message box.](media/teams-settings-command-box-2.png)
+   :::image type="content" source="media/teams-settings-command-box-2.png" alt-text="Business Central app settings opened from the Teams command box.":::
 
 ## Related information
 
@@ -37,6 +38,8 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 [Troubleshoot Teams](admin-teams-troubleshooting.md)  
 [Develop for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## Try Business Central
+
+[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

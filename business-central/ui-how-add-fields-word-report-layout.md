@@ -5,10 +5,11 @@ author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Word layout, XML Mapping Pane, custom XML part, content control, report field
-ms.date: 09/09/2026
+ms.date: 11/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
+ai-usage: ai-assisted
 ---
 
 # Add report data with the XML Mapping pane in Word
@@ -108,6 +109,9 @@ Removing the content control removes the mapping. It doesn't automatically remov
 1. Select the user-defined Word layout.
 1. Select **Replace Layout**, confirm the action, and then select the edited file.
 1. Select **Run Report** to preview the result.
+
+> [!NOTE]
+> In version 29, replacing a layout sets its **Layout Status** to **Draft**. After testing, select **Layout** > **Layout Status** > **Set as Approved** to make the layout available for selection on report request pages.
 
 ## Understand the custom XML structure
 

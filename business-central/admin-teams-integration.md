@@ -1,10 +1,11 @@
 ---
-title: Managing Microsoft Teams Integration with Business Central| Microsoft Docs
-description: Manage Business Central integration with Microsoft Teams.
+title: Manage Microsoft Teams Integration with Business Central
+description: Manage Business Central integration with Microsoft Teams, configure access and deployment, and control whether shared cards display record data.
 author: jswymer
 ms.topic: overview
+ai-usage: ai-assisted
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/06/2025
+ms.date: 11/09/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.custom: bap-template
@@ -12,7 +13,7 @@ ms.service: dynamics-365-business-central
 ms.search.form: 2718_Primary
 ---
 
-# Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
+# Manage Microsoft Teams integration with Business Central
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -32,18 +33,18 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
     |What|[!INCLUDE [prod_short](includes/prod_short.md)] license|
     |----|---|
-    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark](media/check.png "check")|
-    |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "check")|
-    |Share a link from a page in [!INCLUDE [prod_short](includes/prod_short.md)] to Teams conversation.|![check mark](media/check.png "check")|
+    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|:::image type="icon" source="media/check.png"::: Yes|
+    |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|:::image type="icon" source="media/check.png"::: Yes|
+    |Share a link from a page in [!INCLUDE [prod_short](includes/prod_short.md)] to Teams conversation.|:::image type="icon" source="media/check.png"::: Yes|
     |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.||
-    |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "check")|
-    |Open a page link in [!INCLUDE [prod_short](includes/prod_short.md)] from a conversation.|![check mark](media/check.png "check")|
+    |View more details of a card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|A Business Central license or configured access with a Microsoft 365 license.|
+    |Open a page link in [!INCLUDE [prod_short](includes/prod_short.md)] from a conversation.|:::image type="icon" source="media/check.png"::: Yes|
 
-- Allow URL previews
+- URL previews
 
-    **Allow URL previews** policy setting must be turned on. Otherwise, a card can't be generated for [!INCLUDE [prod_short](includes/prod_short.md)] links pasted into a Teams conversation. Learn more about this setting in [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
+    The **URL previews** policy setting must be turned on. Otherwise, a card can't be generated for [!INCLUDE [prod_short](includes/prod_short.md)] links pasted into a Teams conversation. Learn more about this setting in [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
-### Managing the [!INCLUDE [prod_short](includes/prod_short.md)] app (optional)
+### Manage the Business Central app (optional)
 
 As a Teams administrator, you can manage all apps for your organization, including the [!INCLUDE [prod_short](includes/prod_short.md)] app. You can approve or install the [!INCLUDE [prod_short](includes/prod_short.md)] app for your organization, block user's from installing the app, and more.
 
@@ -52,7 +53,7 @@ Learn more in the Microsoft Teams documentation at:
 - [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps)
 - [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## In [!INCLUDE [prod_short](includes/prod_short.md)]
+## In Business Central
 
 ### Minimum requirements
 
@@ -68,60 +69,69 @@ Learn more in the Microsoft Teams documentation at:
 
   For the most part, the contact search, pages, and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-  - To search for contacts, users must have at least read permission to the **Contacts** table. 
-  - To paste a [!INCLUDE [prod_short](includes/prod_short.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on the page and its data.
+  - To search for contacts, users must have at least read permission to the `Contact` table.
+  - To paste a [!INCLUDE [prod_short](includes/prod_short.md)] link into a Teams conversation and have it expand into a card, users must have execute permission on the page and read permission on its data.
   - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to [!INCLUDE [prod_short](includes/prod_short.md)].
-  - To view more details for a card or open the record in [!INCLUDE [prod_short](includes/prod_short.md)], users must have read permission on the page and its data.
-  - To change data, user's need modify permissions.
+  - To view a card's details or open its record in [!INCLUDE [prod_short](includes/prod_short.md)], users need execute permission on the target page and read permission to the table data that the page displays.
+  - To create, modify, or delete records, users need the corresponding insert, modify, or delete permissions on the table data and a [!INCLUDE [prod_short](includes/prod_short.md)] license that allows the operation. Access with only a Microsoft 365 license is read-only. Assigning write permissions doesn't override this license restriction. Learn more in [Business Central access with Microsoft 365 licenses](admin-access-with-m365-license.md#data-access).
 
   Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-## Installing the Business Central app by using Centralized Deployment
+<a name="installing-the-business-central-app-by-using-centralized-deployment"></a>
 
-The Microsoft Teams admin center is where you configure Teams app setup policies for the organization. In the Teams admin center, you can use the Centralized Deployment feature to automatically install the Business Central app in Teams for all users in your organization, specific groups, or individual users.
+## Install the Business Central app centrally
+
+Use the Microsoft Teams admin center to install the Business Central app for all users, specific groups, or individual users. If your organization has migrated to app-centric management, manage installation from **Manage apps**. Otherwise, use an app setup policy. Installing the app and pinning it are separate tasks.
 
 > [!NOTE]
 > To set up Centralized Deployment, your Teams account must have at least the [Teams Administrator](/entra/identity/role-based-access-control/permissions-reference#teams-administrator) role.
 
-1. In Business Central, choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Teams App Centralized Deployment**, and then choose the related link. Or select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.
-2. Read the information on the **Set up the Business Central app for Teams**, then choose **Next** when ready.
-3. Open the [Teams admin center](https://go.microsoft.com/fwlink/?linkid=2163970), and complete the following steps.
-    1. Go to **Teams apps** > **Setup policies**.
-    2. Create a new policy or select the policy that you want to use to install the Business Central app, then select **Add apps**.
-    3. In the **Add installed apps** page, search for and select **Business Central**.
-    4. Choose **Add**.
+1. In Business Central, [!INCLUDE[open-search-lowercase](includes/open-search-lowercase.md)], enter **Teams App Centralized Deployment**, and then choose the related link. Or open [Teams App Centralized Deployment](https://businesscentral.dynamics.com/?page=1833) directly.
+1. Read the information on the **Set up the Business Central app for Teams**, then choose **Next** when ready.
+1. Open the [Teams admin center](https://go.microsoft.com/fwlink/?linkid=2163970), and use the method that applies to your organization.
 
-       Business Central should now appear under **Installed apps** for the policy.
-    5. Configure more settings as needed, then choose **Save**.
+    - **App-centric management:** Go to **Teams apps** > **Manage apps**. Find and select **Business Central**, and then select **Edit installs**. Choose the users or groups to install the app for, or choose everyone, and then select **Apply**.
+    - **App setup policy:** Complete the following steps only if your organization hasn't migrated app installation to app-centric management.
+        1. Go to **Teams apps** > **Setup policies**.
+        1. Create a new policy or select the policy that you want to use, then select **Add apps** under **Installed apps**.
+        1. In the **Add installed apps** pane, search for and select **Business Central**.
+        1. Choose **Add**.
 
-    Learn more in [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) in the Teams documentation.
-4. Go back to **Teams App Centralized Deployment** in Business Central and select **Done**.
+           Business Central should now appear under **Installed apps** for the policy.
+        1. Configure more settings as needed, then choose **Save**.
+
+    Learn more in [Preinstall Teams apps for your organization](/microsoftteams/install-teams-apps).
+1. Go back to **Teams App Centralized Deployment** in Business Central, select **Next**, and then select **Done**.
 
 > [!IMPORTANT]
 > It can take up to 24 hours for the app setup policy to be applied and the app deployed to users.
 
-## Managing privacy and compliance
+With app-centric management, installation makes the app available to the selected users and groups, so you don't need a separate availability assignment. Existing installation settings from app setup policies aren't automatically migrated.
+
+To pin the app for users, use **Pinned apps** in an app setup policy. Pinning remains managed through setup policies even when installation uses app-centric management. Learn more in [Pin apps in Teams](/microsoftteams/teams-app-setup-policies#pin-apps).
+
+## Manage privacy and compliance
 
 Microsoft Teams provides extensive controls for compliance and management of sensitive or personally identifiable data&mdash;including data added to chats and channels by the [!INCLUDE [prod_short](includes/prod_short.md)] app.
 
-### Understanding where [!INCLUDE [prod_short](includes/prod_short.md)] cards are stored
+### Understand where Business Central cards are stored
 
 After a card is sent to a chat, the card and the fields shown on the card are copied to Teams. This information is subject to the Teams policies for your organization, such as data retention policies. When displaying card details, none of the data in the details window is stored in Teams. The data remains stored in [!INCLUDE [prod_short](includes/prod_short.md)] and will only be retrieved by Teams when the user chooses to view the details. 
 
 - Learn more about where Teams stores that data at [Location of data in Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Learn more about retention policies in Teams at [Retention policies in Microsoft Teams](/microsoftteams/retention-policies).
 
-### Restricting sharing of cards 
+### Restrict sharing of cards
 
-You prevent specific users or groups from sending cards to chats or channels by setting up messaging policies that turn off the **URL Previews** setting. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams). 
+You prevent specific users or groups from sending cards to chats or channels by setting up messaging policies that turn off the **URL previews** setting. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
 You can also use information barriers to prevent individuals or groups from communicating with each other. To learn more, see [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
 Data loss prevention features in the Microsoft Purview can't be applied specifically to cards. But they can be applied to the chat messages that contain the cards.
 
-### Responding to data requests
+### Respond to data requests
 
-You allow team members and team owners to delete messages that contain sensitive cards by setting up messaging policies, like: **Owners can delete sent messages** and **Users can delete sent messages**. Learn more at [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
+Use **Delete sent messages** to let users delete their own messages that contain sensitive cards. Use **Owners can delete sent messages** to let owners delete messages sent by other users. Learn more at [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
 Content search and eDiscovery compliance features in the Microsoft Purview can also be applied to cards.
 
@@ -133,18 +143,22 @@ When a record is shared with others in a Teams chat or channel, a card with fiel
 
 |Record summary on|Record summary off|
 |-|-|
-|![Image that shows a card in Teams when the record summery is turned on.](media/card-settings-example-on.png)|![Image that shows a card in Teams when the record summery is turned off.](media/card-settings-example-off.png)|
+|:::image type="content" source="media/card-settings-example-on.png" alt-text="Image that shows a card in Teams when the record summary is turned on.":::|:::image type="content" source="media/card-settings-example-off.png" alt-text="Image that shows a card in Teams when the record summary is turned off.":::|
 
 You configure the setting per environment. So when you turn the record summary on or off, it affects all companies in the environment.
+
+The setting applies only to newly created cards. Cards that were shared previously aren't changed. Hiding the summary doesn't change access to card details, which still depends on the recipient's license and Business Central permissions.
+
+To run the guide, you need permission to read and change the **Page Summary Settings** table. The **Page Summary - Admin** permission set provides these permissions.
 
 1. In Business Central, open the environment that you want to change.
 
    > [!TIP]
    > To switch the environment, select <kbd>Ctrl</kbd>+<kbd>O</kbd>.
-2. Choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Card Settings**, and then choose the related link.
-3. Read the information on the **Card Settings**, then choose **Next** when ready.
-4. On the **Data Visibility** page, turn on the **Show record summary** switch to display data on the cards or off to hide the data.
-5. Select **Next** and follow the instructions to complete the setup guide.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Card Settings**, and then choose the related link.
+1. Read the information on the **Card Settings**, then choose **Next** when ready.
+1. On the **Data visibility** page, turn on the **Show record summary** switch to display data on the cards or off to hide the data.
+1. Select **Next** and follow the instructions to complete the setup guide.
 
 ## Related information
 
@@ -154,7 +168,9 @@ You configure the setting per environment. So when you turn the record summary o
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## Try Business Central
+
+[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

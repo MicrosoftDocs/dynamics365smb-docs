@@ -1,15 +1,16 @@
 ---
-title: Getting the Business Central add-in for Excel
-description: Learn how to get users the Business Central Add-in for Excel. 
+title: Deploy the Business Central Add-in for Excel
+description: Learn how to deploy the Business Central Excel add-in centrally, install it for yourself, configure connections, and troubleshoot editing data.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.form: 1480,
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 06/17/2026
+ms.date: 11/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 # Get the Business Central add-in for Excel
 
@@ -19,10 +20,10 @@ ms.reviewer: jswymer
 
 ### About the add-in
 
-The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from the [Office Store (Marketplace)](https://marketplace.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). Learn more about using the add-in at [View and Edit in Excel From Business Central](across-work-with-excel.md).
+The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from the [Office Store (Marketplace)](https://marketplace.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon :::image type="icon" source="media/share-icon.png":::. Learn more about using the add-in at [View and Edit in Excel From Business Central](across-work-with-excel.md).
 
 > [!NOTE]
-> The add-in works on Windows only.
+> The add-in works in Excel for Windows and Excel for the web. On macOS, use Excel for the web.
 
 ### About deployment as an admin
 
@@ -36,13 +37,13 @@ For the user, the installation experience is different for the two deployment sc
 
 With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. A third deployment option is a manual installation of the add-in directly from Excel. With this option, users need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="switch"></a>Switching from individual acquisition to Centralized Deployment or the other way around
+### <a name="switch"></a>Switch between deployment methods
 
 When you change from individual acquisition of the add-in to Centralized Deployment, or vice versa, it affects Excel files that users created before the transition. After the transition, users can still open any Excel worksheets previously created using the **Edit in Excel** action or created manually by configuring the Excel add-in. But they can't update the data in the file from Business Central or push updates to Business Central.
 
 This situation happens because each Excel file gets assigned an "add-in" identifier. In the transition to or from Centralized Deployment, a different ID is assigned, so the earlier ID becomes blocked.
 
-## Preparation (on-premises only)
+## Prepare an on-premises environment
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises requires that your environment is configured for the add-in. If not, the **Edit in Excel** action isn't available to users. Learn more in [Setting up the Business Central add-in for Excel in Business Central on-premises](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) in the Developer and IT Pro help.
 
@@ -54,6 +55,7 @@ Centralized Deployment is a feature in the Microsoft 365 admin center that you u
 
 - Learn more about preventing users from downloading from the Office store at [Manage add-ins in the admin center](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Verify that Centralized Deployment works for your organization. Learn more at [Determine if Centralized Deployment of add-ins works for your organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
+- Make sure that the deploying administrator meets the [centralized deployment admin requirements](/microsoft-365/admin/manage/centralized-deployment-of-add-ins#admin-requirements), including the Exchange administrator and app registration requirements.
 - Learn more about transitioning from individual acquisition at [Switching from individual acquisition to Centralized Deployment](#switch).
 
 > [!NOTE]
@@ -64,29 +66,29 @@ Centralized Deployment is a feature in the Microsoft 365 admin center that you u
 In this task, you work in both [!INCLUDE[prod_short](includes/prod_short.md)] and the Microsoft 365 admin center.
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Excel Add-in Centralized Deployment**, and then choose the related link.
-2. Read the information on the **Business Central Excel add-in setup** page and choose **Next**.
-3. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2163967) and go to **Integrated Apps**<!--**Add-ins**-->.
+1. Read the information on the **Business Central Excel add-in setup** page and choose **Next**.
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2163967) and go to **Settings** > **Integrated apps**<!--**Add-ins**-->.
 
     Complete the following steps to configure the add-in to deploy from the Office Store: 
     1. Choose **Get apps** to open Office Store (Marketplace). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->
-    2. Search for **Microsoft Dynamics Office Add-in**, then select **Get it now**. <!--On the **Select add-in** page, search for and select **Microsoft Dynamics Office Add-in** > **Add** > **Continue**.-->
-    3. On the **Add Users** page, specify the users that you want to deploy the add-in for, then choose **Next**.<!--On the **Configure add-in**, specify the users that you want to deploy the add-in for.-->
-    4. Review the **Accept permissions requests**, then choose **Next** > **Finish Deployment**.
-    5. Wait for the green check mark next to **Deployed** appears for the add-in, then choose **Done**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
+    1. Search for **Microsoft Dynamics Office Add-in**, then select **Get it now**. <!--On the **Select add-in** page, search for and select **Microsoft Dynamics Office Add-in** > **Add** > **Continue**.-->
+    1. On the **Add Users** page, specify the users that you want to deploy the add-in for, then choose **Next**.<!--On the **Configure add-in**, specify the users that you want to deploy the add-in for.-->
+    1. Review the **Accept permissions requests**, then choose **Next** > **Finish Deployment**.
+    1. Wait for the green check mark next to **Deployed** appears for the add-in, then choose **Done**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       The add-in appears on the **Add-ins** page. Learn more about deploying add-ins in the Microsoft 365 admin center at [Deploy add-ins in the admin center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
-4. Go back to **Excel Add-in Centralized Deployment** assisted setup in [!INCLUDE[prod_short](includes/prod_short.md)], and choose **Next**.
-5. Turn on **Use Centralized Deployment**, and choose **Finish**.
+       The add-in appears on the **Add-ins** page. Learn more about deploying add-ins in the Microsoft 365 admin center at [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins).
+1. Go back to **Excel Add-in Centralized Deployment** assisted setup in [!INCLUDE[prod_short](includes/prod_short.md)], and choose **Next**.
+1. Turn on **Use Centralized Deployment**, and choose **Finish**.
 
     If you don't turn on this switch, [!INCLUDE[prod_short](includes/prod_short.md)] gets the add-in directly from the Office Store.
 
-When finished, you can always change the deployment in the Microsoft 365 admin center, like assigning more users. Learn more about deploying add-ins in the admin center at [Deploy add-ins in the admin center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
+When finished, you can always change the deployment in the Microsoft 365 admin center, like assigning more users. Learn more about deploying add-ins in the admin center at [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins).
 
 > [!IMPORTANT]
 > If you have more than one environment, you must run the **Excel Add-in Centralized Deployment** assisted setup on each environment that you want to use Centralized Deployment. However, you don't have to configure the Centralized Deployment in Microsoft 365 again. The only thing you have to do is turn on the **Use Centralized Deployment** switch in the assisted setup. 
 
 > [!NOTE]
-> It can take up to 24 hours before the add-in deploys automatically in Excel for users.
+> It can take up to 24 hours, and in some cases up to 72 hours, before the add-in appears for users. Users might need to restart Excel. Learn more in [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins).
 
 ## <a name="install"></a>Individual acquisition: Install the add-in manually for your own use
 
@@ -102,11 +104,11 @@ When the add-in is installed, it shows up as a panel in Excel. Next, configure t
 
 If a user can't connect automatically, you can unblock them by asking them to follow these steps:
 
-1. In the **Microsoft Dynamics** add-in pane in Excel, choose **Add server information**. If the option isn't available, choose the ![More option button in Excel.](media/cogwheel.png) icon at the top to open the options dialog.
-2. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it to the URL of the web client, like `https://myBCserver/240`.
-3. Choose **OK**, and then confirm that the app reloads.
-4. When prompted, sign in with your [!INCLUDE [prod_short](includes/prod_short.md)] user name and password.
-5. Optionally, choose the environment and company that you want to connect to.
+1. In the **Microsoft Dynamics** add-in pane in Excel, choose **Add server information**. If the option isn't available, choose the :::image type="icon" source="media/cogwheel.png"::: icon at the top to open the options dialog.
+1. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it to the URL of the web client, like `https://myBCserver/240`.
+1. Choose **OK**, and then confirm that the app reloads.
+1. When prompted, sign in with your [!INCLUDE [prod_short](includes/prod_short.md)] user name and password.
+1. Optionally, choose the environment and company that you want to connect to.
 
 The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)], and you can edit data and publish the changes to [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -114,7 +116,7 @@ The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)], 
 
 Network services such as proxies or firewalls must allow routing between each client device on which the add-in is installed and many service endpoints. For a list of endpoints, go to [Preparing your network for the Excel add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
-## Troubleshooting
+## Troubleshoot the Excel add-in
 
 Sometimes, users run into problems with the Excel add-in. This section gives tips for how to unblock users in certain circumstances.
 
@@ -126,7 +128,7 @@ Sometimes, users run into problems with the Excel add-in. This section gives tip
 |The dates are wrong.  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] doesn't get messed up.|         |
 |For some list pages, editing multiple lines in Excel consistently causes errors. This condition can occur if OData calls include FlowFields and fields outside of the repeater control.|On the **Web Services** page, select the **Exclude Non-Editable FlowFields** and **Exclude Fields Outside of the Repeater** checkboxes for the published page. Selecting these checkboxes excludes noneditable FlowFields and fields from the eTag calculation. |These checkboxes are hidden by default. To show them on the **Web Services** page, use [personalization](/dynamics365/business-central/ui-personalization-user). |
 |Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might happen because of an update that we made to the add-in. Learn more at [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only.|
-| The add-in communicates using the API v2.0 for Dynamics 365 Business Central, and any limitations of this API are automatically inherited. An example limitation is if you try to edit a list and the underlying card uses a confirmation dialog in its AL logic, for example, as its validation logic. | Sometimes there's nothing to do because it's a design choice that the user must explicitly confirm the change. If the confirmation is negligible when using **Edit in Excel**, then you can wrap the confirmation dialog call in an if-conditional statement that checks whether the client type is different from ODataV4, for example, `if SESSION.CurrentClientType() <> ClientType::ODataV4 then`. | There might be other clients that you want to remove the confirmation dialog from, such as OData and SOAP. |
+| The add-in communicates through published page OData web services, not the standard Business Central API v2.0 endpoints. Page validation that opens a confirmation dialog or another page can fail because an OData session doesn't support interactive client callbacks. | Contact the extension developer to review the validation logic. If the confirmation isn't required for web service calls, the developer can guard the interactive code with `if GuiAllowed() then`. Don't bypass a required business validation. | The same restriction applies to other noninteractive clients. |
 | When you choose **Edit In Excel**, the following message displays: "Certain filters applied on the page are not available in Office, so more rows are shown compared to [!INCLUDE [prod_short](includes/prod_short.md)]. Removed Filters: ...".| If the removed filter applies to a field that you added through an AL extension, make sure that the page field name and the underlying table field name are identical. For example, for the page field ```field("Customer Name", Rec."Customer Name")```, the table field name "Customer Name" must be ```field(1; "Customer Name"; Text)```. If the removed filter relates to a field that Microsoft or a non-Microsoft vendor owns, even though the filter is removed in [!INCLUDE [prod_short](includes/prod_short.md)] it might still be available on the Office Add In's filter tab. The caveat of this is that it would need to be applied manually every time. To permanently fix fields you don't have control over, contact the owner of the extension. | |
 
 ## Known limitations in business logic
@@ -159,7 +161,7 @@ pageextension 50120 CustomerCardExtA extends "Customer Card"
     {
         addlast(content)
         {
-            part("Bing WebViewer"; "WebViewer")
+            part("Bing WebViewer"; "WebViewerA")
             {
                 ApplicationArea = All;
             }
@@ -184,7 +186,7 @@ page 50120 "WebViewerA"
                 #region ControlAddInReady
                 trigger ControlAddInReady(callbackUrl: Text)
                 begin
-                    CurrPage.WebViewer.Navigate('https://www.bing.com')
+                    CurrPage.WebViewer.Navigate('https://www.bing.com');
                 end;
                 #endregion ControlAddInReady
             }
@@ -200,7 +202,7 @@ pageextension 50120 CustomerCardExtB extends "Customer Card"
     {
         addlast(content)
         {
-            part("Bing WebViewer"; "WebViewer")
+            part("Bing WebViewer"; "WebViewerB")
             {
                 ApplicationArea = All;
             }
@@ -226,7 +228,7 @@ page 50120 "WebViewerB"
                 #region ControlAddInReady
                 trigger ControlAddInReady(callbackUrl: Text)
                 begin
-                    CurrPage.WebViewer.Navigate('https://www.bing.com')
+                    CurrPage.WebViewer.Navigate('https://www.bing.com');
                 end;
                 #endregion ControlAddInReady
             }
@@ -317,7 +319,7 @@ To resolve this issue, you need access to the code of at least one of the extens
 For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator can deploy the add-in for all users. But users can also install the add-in themselves, provided they have permission to configure their Office experience.  
 
 > [!TIP]
-> In some organizations, administrators cannot deploy add-ins centrally. For more information, see [Determine if Centralized Deployment of add-ins works for your organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).
+> In some organizations, administrators cannot deploy add-ins centrally. Learn more in [Determine if Centralized Deployment of add-ins works for your organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).
 
 ### To deploy the Excel add-in for all users
 
@@ -342,7 +344,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
-> In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
+> In certain deployments, the administrator must configure network access to unblock the Excel add-in. Learn more in [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
 ## Related information
 

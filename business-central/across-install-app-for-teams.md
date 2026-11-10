@@ -1,17 +1,18 @@
 ---
-title: Install the Business Central app in Microsoft Teams
-description: Learn how to install the Business Central app for Microsoft Teams using different methods.
+title: Install the Business Central App in Microsoft Teams
+description: Install the Business Central app for Microsoft Teams from Teams, a direct link, or Business Central to share records and look up contacts.
 author: jswymer
-ms.topic: get-started
+ms.topic: how-to
+ai-usage: ai-assisted
 ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/16/2025
+ms.date: 11/09/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
-# Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
+# Install the Business Central app for Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -22,11 +23,13 @@ In this article, you learn how to install the [!INCLUDE [prod_short](includes/pr
 
 ## Prerequisites
 
-- A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
+- You have an [!INCLUDE [prod_short](includes/prod_short.md)] online user account.
 
-  If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
+  If you're not sure whether you have an account, or if you don't know your credentials for signing in, contact your company administrator to help you get started.
 
-- Access to the Teams desktop app or Teams in the browser. You can't install the [!INCLUDE [prod_short](includes/prod_short.md)] by using Teams mobile app.
+  Installing the Teams app doesn't grant access to [!INCLUDE [prod_short](includes/prod_short.md)] data. Your administrator must give you the required access. Learn more in [Minimum requirements for Teams integration](admin-teams-integration.md#minimum-requirements).
+
+- You hav access to the Teams desktop app or Teams in the browser. You can't isntall from a mobile device. If you open the installation guide in [!INCLUDE [prod_short](includes/prod_short.md)] on a phone, it directs you to a desktop device instead.
 
 - Your organization's policies allow you to install apps in Microsoft Teams.
 
@@ -38,21 +41,23 @@ There are three ways to install the Business Central app:
 
 This option is the quickest way to install the app.
 
-1. Select this link: [https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29](https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29).
+1. Open the [Business Central app in Teams](https://aka.ms/bcGetTeamsApp).
 
-2. Wait for the Business Central app to appear.
+1. Wait for the Business Central app to appear.
 
-    ![Install Business Central app in Teams.](media/teams-install-app.png)
+   :::image type="content" source="media/teams-install-app.png" alt-text="Install Business Central app in Teams.":::
 
-3. Select **Add**.
+1. Select **Add**.
 
 **Option 2: From Teams**
 
 1. Open and sign in to Teams.
-2. In the left side, select **Apps**.
-3. Search for **Business Central**.
-4. Choose the app when you find it.
-5. Choose **Add**.
+1. In the left side, select **Apps**.
+1. Search for **Business Central**.
+1. Select the app when you find it.
+1. Select **Add**.
+
+Learn more in [Add an app to Microsoft Teams](https://support.microsoft.com/en-us/teams/apps-service/add-an-app-to-microsoft-teams).
 
 > [!TIP]
 > If you paste a link to a Business Central page into a Team conversation, and you don't have the app installed, you get a message like: **Business Central wants to show a preview of this link.** To install the app, select **Show Preview** and follow the instructions.
@@ -60,14 +65,16 @@ This option is the quickest way to install the app.
 **Option 3: From Business Central**
 
 1. Open Business Central.
-2. Choose the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Get the Business Central app for Teams**, and then choose the related link.  
-3. Choose **Get the app from store**.
-4. Wait for Teams to open and the Business Central app to appear, then choose **Add**.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Get the Business Central App for Teams**, and then select the related link.
+1. Select **Get the app from store**.
+1. Wait for Teams to open and the Business Central app to appear, then select **Add**.
 
 > [!NOTE]
-> With either option, you may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)]. Select the **sign in** link, and follow the instructions to enter sign-in name and password for [!INCLUDE [prod_short](includes/prod_short.md)].
+> With any installation method, you might be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)]. Follow the on-screen instructions to sign in with your work account.
 
-## Next step
+<a name="next-step"></a>
+
+## Start using Business Central in Teams
 
 You're now ready to use the app in Teams to search for contacts or share Business Central records. Learn more in [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) or [Share Records in Microsoft Teams](across-working-with-teams.md).
 
@@ -79,6 +86,8 @@ You're now ready to use the app in Teams to search for contacts or share Busines
 [Change Company and Other Settings in Teams](across-teams-settings.md)  
 [Develop for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## Try Business Central
+
+[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

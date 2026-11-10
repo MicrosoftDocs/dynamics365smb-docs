@@ -1,17 +1,16 @@
 ---
 title: Access with Microsoft 365 Licenses FAQ
-description: Get answers to common questions about accessing Business Central with Microsoft 365 licenses. 
+description: Find answers about permissions, setup, licensing, and read-only access when employees view Business Central data in Teams with Microsoft 365 licenses.
 author: mikebc
 ms.author: mikebc
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: faq
-ms.date: 09/28/2023
+ai-usage: ai-assisted
+ms.date: 11/09/2026
 ms.custom: bap-template 
 ---
-# Access with Microsoft 365 Licenses FAQ
-
-[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+# Access with Microsoft 365 licenses FAQ
 
 Users can access Business Central data in Microsoft Teams using their Microsoft 365 license. This article answers frequently asked questions from administrators, consultants and others. Developers should refer to the Developer FAQ. For questions about integrating Business Central with Microsoft Teams, go to [Teams FAQ](teams-faq.md).
 
@@ -23,7 +22,7 @@ Not at this time. Business Central only allows configuring one group of permissi
 
 ### Can I proactively configure permissions, profiles, and settings for individual users before they sign in?
 
-Yes. It can be achieved through security groups. By applying a security group to an environment, you define the total set of users that have access to that environment. This security group can include users with a Business Central license and users with a Microsoft 365 license. When you next update users from Microsoft 365 in the **Users** list, the Microsoft 365 user records will be created. You can then assign user groups, permissions, profiles, and other settings before they've signed in.
+Yes. It can be achieved through security groups. By applying a security group to an environment, you define the total set of users that have access to that environment. This security group can include users with a Business Central license and users with a Microsoft 365 license. When you next update users from Microsoft 365 in the **Users** list, the Microsoft 365 user records will be created. You can then configure their permission sets, profiles, and other settings before they've signed in. You can also manage their permissions through security groups.
 
 ### After a user signs in, can I change which objects they have access to?
 
@@ -33,9 +32,9 @@ Yes. After a user has signed in for the first time and their user record has bee
 
 Business Central offers a powerful and flexible permission model where administrators can define permission sets that grant access to specific objects, business processes or entire roles. To prevent access to sensitive tables, you can create custom permission sets that exclude permission to sensitive objects. For more information about exclude permissions, see [Create a permission set](ui-define-granular-permissions.md).  
 
-### Instead of customizing the License Configuration, can I customize a user group?
+### Instead of customizing the license configuration, can I use a security group?
 
-Yes. Adding permission sets to the Microsoft Teams Internal Users user group in Business Central, has the same net effect as adding permission sets to the Microsoft 365 license, as long as the Microsoft 365 license continues to map to this user group. This approach has the added benefit that permission sets are always synchronized with members of the group whenever you modify the user group.
+Yes. You can assign permission sets to a security group in Business Central to give its members access to the objects and data they need. The permission sets configured for the Microsoft 365 license still determine the starting permissions assigned to newly created users. Review both assignments to avoid granting broader access than intended. User groups were removed in version 25. Learn more in [Control access to Business Central using security groups](ui-security-groups.md).
 
 ### When a Business Central user shares a record in Teams, do they grant new permissions?
 
@@ -51,7 +50,7 @@ If you configure Business Central to assign a permission set that includes inser
 
 Even though Business Central provides this level of protection, we still recommend that you avoid permission sets with write access. Doing so prevents issues further downstream when users change role or acquire new licenses.  
 
-## [Setup and Configuration](#tab/setup)
+## [Setup and configuration](#tab/setup)
 
 ### Why is the setting to enable access not available for my environment?
 
@@ -65,9 +64,9 @@ No, it's not supported. Business Central displays an error when users try to acc
 
 The **Employee** profile displayed in the **Profiles (Roles)** list page was introduced with Update 21.1. It's the default profile assigned to users that access Business Central with their Microsoft 365 license. This profile's intended for people in an organization who don't have a specific role in Business Central and only need to view data that was shared with them.
 
-### What is the Teams Users user group?
+### What happened to the Teams Users user group?
 
-The **Microsoft Teams Internal Users** group displayed in the **User Groups** page was introduced with Update 21.1. This group is the default user group assigned to users that access Business Central with their Microsoft 365 license. The user group's intended for people within the same organization where Business Central is hosted that collaborate in Microsoft Teams.  
+The **Microsoft Teams Internal Users** user group was used in earlier versions. User groups were removed in version 25. Current versions assign permission sets through license configuration and can use security groups to manage permissions for groups of users.
 
 ### Do users that only have a Microsoft 365 license show up in the Users list in Business Central?
 
@@ -113,7 +112,7 @@ There are multiple ways. In the Microsoft 365 admin center, go to the **Active U
 
 ### How do I filter the Users list in Business Central to see users that only have a Microsoft 365 license?
 
-This task is currently not possible using a filter or list view. However, you can select a user in the list and view the Licenses FactBox that will include only Microsoft 365, if the user only has a Microsoft 365 license.
+On the **Users** page, select **User Identifier Overview**, and then select the **Users with Microsoft 365 license** view. This view includes users who have the Microsoft 365 license, even if they also have other licenses. Check the **User Plans** column or the user's **Licenses** FactBox to identify users who have only the Microsoft 365 license.
 
 ### What about users that have both a Microsoft 365 license and a Business Central license?
 
@@ -163,3 +162,5 @@ Users accessing Business Central with their Microsoft 365 license don't have the
 
 [Overview of Business Central Access with Microsoft 365 licenses](admin-access-with-m365-license.md#minimum-requirements)  
 [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

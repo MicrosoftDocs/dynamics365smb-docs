@@ -1,16 +1,16 @@
 ---
-title: Status Field on Documents
-description: Learn about the 'Open' and 'Released' status on quote, order, or credit memo documents.
+title: Understand Document Statuses
+description: Understand Open, Released, Pending Approval, and Pending Prepayment statuses on sales and purchase documents, and when you can change a document.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
-ms.search.form: 
-ms.date: 09/19/2022
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Status Field on Documents
+# Understand document statuses
 
 When you create a quote, order, or credit memo, the **Status** field on the document header contains the status **Open** by default.
 
@@ -21,9 +21,9 @@ After you've filled in the document, you can release it, and [!INCLUDE[prod_shor
 | Open   | You can make changes to the document. |
 | Released | The document has been released to the next stage of processing, and you can't make changes to lines of type *Item* and *Fixed Asset*.<br /><br />You can reopen a released document if you want to make changes to its contents. To move the adjusted document to the next stage of processing, you must once again release the document. |
 | Pending Approval   | The document is waiting to be approved. |
-| Pending Prepayment | A prepayment invoice has been posted for the document. |
+| Pending Prepayment | A required prepayment hasn't been fully invoiced, or a posted prepayment invoice has an outstanding amount and **Check Prepmt. when Posting** is turned on in sales or purchase setup. |
 
-## Release process
+## Use the document release process
 
 You can use the release process in different ways to ease your normal workflow, for example, to follow company procedures about approvals or to start warehouse activities.
 
@@ -43,7 +43,7 @@ If the order status is **Open**, the warehouse won't begin to prepare the shipme
 
 ## Reopen a released order
 
-You can make changes to a released order by reopening it. However, you can only increase the quantity of the lines already processed by the warehouse.
+You can make changes to a released order by reopening it. However, reopening doesn't remove warehouse restrictions. For example, you can't change the item, location, or unit of measure on a line while related warehouse lines exist.
 
 When you make the changes and release the order again, [!INCLUDE [prod_short](includes/prod_short.md)] recalculates the value-added tax (VAT) and the invoice discount.
 

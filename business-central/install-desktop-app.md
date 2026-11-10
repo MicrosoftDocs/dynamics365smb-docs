@@ -1,14 +1,15 @@
 ---
-title: Get Business Central on your desktop
-description: This article describes how to get the Business Central app on a Windows or MACiOS desktop.
+title: Get the Business Central Desktop App
+description: Install the Business Central desktop app from a browser on Windows or macOS, or from Microsoft Store on Windows, for online or on-premises use.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: get-started
 ms.search.keywords: phone, tablet
-ms.date: 04/26/2024
+ms.date: 11/10/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 # Get the Business Central desktop app
 
@@ -18,22 +19,20 @@ If you have a Windows (PC) or macOS computer, you can install a [!INCLUDE [prod_
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] app resembles the web client, but it provides a few benefits like:
 
-- The app is readily available from the **Start** menu, you can easily pin it to the task bar, or have it launch by default when you start your computer.
-- In general, the app also is a faster and smoother to render on screen, with no performance differences, compared to running [!INCLUDE[prod_short](includes/prod_short.md)] in the browser.
+- On Windows, the app is available from the **Start** menu, and you can pin it to the taskbar.
 - The app opens in its own window, independent of any browser windows. This feature makes it easier to find when running a large number many apps or browser tabs.
 - If there's more than one [!INCLUDE [prod_short](includes/prod_short.md)] environment (online only), you can install the app separately for each environment.
 
      When you open the app for specific environment, the environment name is included in the window title. When working across multiple [!INCLUDE[prod_short](includes/prod_short.md)] environments, each app window is displayed separately. The name makes it easier for you to see which window is associated with each environment.
 
-## Install the app for [!INCLUDE [prod_short](includes/prod_short.md)] online
+## Install the app for Business Central online
 
-There are two ways to install the app for [!INCLUDE [prod_short](includes/prod_short.md)] online. You can install it directly from the browser or from Microsoft Store. Whichever approach you use, it's the same app. The difference is that  installing from the browser lets you install the app for each environment when there's more than one.
+There are two ways to install the app for [!INCLUDE [prod_short](includes/prod_short.md)] online. You can install it directly from the browser on Windows or macOS, or from Microsoft Store on Windows. Whichever approach you use, it's the same app. The difference is that installing from the browser lets you install the app for each environment when there's more than one.
 
 ### From Microsoft Store
 
 1. Go to [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
-2. Choose **Get** > **Install**. 
-3. When the app has been installed, choose **Open**, then sign in to [!INCLUDE [prod_short](includes/prod_short.md)].
+1. Follow the Microsoft Store instructions to install and open the app, then sign in to [!INCLUDE [prod_short](includes/prod_short.md)].
 
 The next time you want to open the app, look for it in **Start** menu.
 
@@ -41,25 +40,25 @@ The next time you want to open the app, look for it in **Start** menu.
 
 1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] web client in either Microsoft Edge or Google Chrome.
 
-2. If the page for selecting the environment appears, you can do one of two things:
+1. If the page for selecting the environment appears, you can do one of two things:
 
    - Select the environment and go to the next step to install the app. In this case, the installed app will open the environment you select.
    - Don't select the environment, and just go to next step to install the app. In this case, the installed app will open the environment selection page, instead of a specific environment.
 
-3. To install the app, depending on your browser, select ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central**, then **Install**.
+1. To install the app, select **App available** :::image type="icon" source="media/ui-edge-install-app-icon.png"::: in Microsoft Edge, then **Install**. In Google Chrome, select **Install** :::image type="icon" source="media/ui-chrome-install-app-icon.png"::: in the address bar, then follow the on-screen instructions.
 
    | Microsoft Edge | Google Chrome |
    |--|--|
    | :::image type="content" source="media/ui-edge-install-app-v2.png" alt-text="illustration of a button for installing an app in Edge."::: | :::image type="content" source="media/ui-chrome-install-app-v2.png" alt-text="illustration of a button for installing an app in Chrome."::: |
 
   > [!TIP]
-  > With Edge, you can also install the app by going to the **Settings and more** menu in the browser, then selecting **Apps** > **Install this site as an app** > **Install**.
+  > For other installation options, see [Use Progressive Web Apps in Microsoft Edge](https://learn.microsoft.com/microsoft-edge/progressive-web-apps/ux) or [Use web apps in Google Chrome](https://support.google.com/chrome/answer/9658361).
 
-Once installed, the app appears in the **Start** menu. If you've selected a specific environment for the app, the environment name is added to the app name in the **Start** menu.
+On Windows, the installed app appears in the **Start** menu. If you've selected a specific environment for the app, the environment name is added to the app name in the **Start** menu.
 
-## Install the app for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
+## Install the app for Business Central on-premises
 
-Installing the desktop app when you're using [!INCLUDE [prod_short](includes/prod_short.md)] on-premises is done directly from the browser as [described above](#from-the-browser). If you only have one tenant, just open [!INCLUDE [prod_short](includes/prod_short.md)] in your browser, and select either ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** as shown above.
+Installing the desktop app when you're using [!INCLUDE [prod_short](includes/prod_short.md)] on-premises is done directly from the browser as [described above](#from-the-browser). Open the web client in your browser and use the install icon in the address bar. The web client must use HTTPS for browser installation to be offered.
 
 The difference is when you have multiple tenants. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, where you can install the app for different environments, you can only install the app for one tenant. So before you install the app when you have multiple tenants, be sure to switch to the correct tenant. Once installed, when you open the app, it will directly open the tenant.
 

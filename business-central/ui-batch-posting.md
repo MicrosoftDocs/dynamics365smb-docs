@@ -1,12 +1,12 @@
 ---
-title: Post multiple documents at the same time
-description: Learn how to select multiple nonposted documents in a list for immediate or scheduled batch posting in Business Central.
+title: Post Multiple Documents at the Same Time
+description: Learn how to select multiple unposted sales or purchase documents for immediate batch posting or schedule background posting in Business Central.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.form: 
 ms.reviewer: bholtorf
-ms.date: 07/03/2026
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -28,16 +28,16 @@ The following procedure explains how to post multiple purchase orders right away
 
 ## Batch post multiple purchase orders
 
-The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
+The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Post Batch** action is available.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Orders**, and then choose the related link.  
-2. On the **Purchase Orders** page, proceed to select all orders to be posted:
-3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
-4. Select the checkbox for all the lines representing orders that you want to post at the same time.
-5. Choose the **Posting** action, and then choose the **Post Batch** action.
-6. On the **Batch Post Purchase Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Choose the **OK** button.
-8. If there were issues, you can review them on the **Error Message Register** page.
+1. On the **Purchase Orders** page, select all orders to post:
+1. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
+1. Select the checkbox for all the lines representing orders that you want to post at the same time.
+1. Choose the **Posting** action, and then choose the **Post Batch** action.
+1. On the **Batch Post Purchase Orders** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choose the **OK** button.
+1. If there were issues, review them on the **Error Message Register** page.
 
 > [!NOTE]
 > Posting multiple documents might take some time and block other users. Consider enabling background posting. Learn more in [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
@@ -49,8 +49,8 @@ You can use the job queue to schedule business processes to run in the backgroun
 Before you can post a batch of documents though, there are a few things to set up. The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.
-2. On the **Sales & Receivables Setup** page, choose the **Post with Job Queue** checkbox.
-3. Choose the **Job Queue Category Code** field, and then specify the **SALESPOST** code.
+1. On the **Sales & Receivables Setup** page, select the **Post with Job Queue** checkbox.
+1. In **Job Queue Category Code**, select an existing category for sales posting or create one. Jobs in the same category run one at a time.
 
     > [!NOTE]
     > Some jobs change the same data. To avoid conflicting changes, you shouldn't run them at the same time. For example, background jobs for sales documents modify the same data at the same time. Job queue categories help prevent these kinds of conflicts. Categories ensure that when one job is running, another job that belongs to the same category waits until it finishes. For example, a job that belongs to a Sales job queue category waits until all other sales related jobs are done. You specify a job queue category on the **Background Posting** FastTab on the **Sales & Receivables Setup** page.
@@ -58,14 +58,14 @@ Before you can post a batch of documents though, there are a few things to set u
     > [!INCLUDE[prod_short](includes/prod_short.md)] provides job queue categories for sales, purchase, and general ledger posting. We recommend that one of these categories, or one that you create, is always specified. If you experience errors due to conflicts, consider setting up a category for all sales, purchase, and general ledger background posting.
 
     If you also want sales documents to be printed when they're posted, select the **Post & Print with Job Queue** checkbox on the **Sales & Receivables Setup** page.  
-    If you select **PDF** in the **Report Output Type** field, successfully posted purchase orders are available in the **Report Inbox** part on your Role Center.
+    If you select **PDF** in the **Report Output Type** field, the output from successfully posted sales documents is available in the **Report Inbox** part on your Role Center.
 
     > [!IMPORTANT]  
     > If you want to set up a job that posts and prints documents, we recommend that you don't use a printer setup that requires user interaction. For example, a display of printer dialog boxes that request credentials or show a warning about low printer ink. When that happens and someone isn't there to react, your document posts but doesn't print. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**.
 
     The next time that you post sales documents, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates a job queue entry for each document and run the jobs in the background, one by one.
 
-4. To verify that the job queue works as expected, post a sales order. Learn more in [Sell Products](sales-how-sell-products.md).
+1. To verify that the job queue works as expected, post a sales order. Learn more in [Sell Products](sales-how-sell-products.md).
     The sales order is added to a job queue entry that defines when the documents are posted.
 
 ## Create a job queue entry for batch posting of sales orders
@@ -75,9 +75,9 @@ Alternatively, you can postpone posting to happen at a time that's convenient fo
 The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post sales orders at 4 PM on weekdays.  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, and then choose the related link.  
-2. Choose the **New** action.  
-3. In the **Object Type to Run** field, select **Report**.  
-4. In the **Object ID to Run** field, select 296, **Batch Post Sales Orders**.
+1. Choose the **New** action.
+1. In the **Object Type to Run** field, select **Report**.
+1. In the **Object ID to Run** field, select 296, **Batch Post Sales Orders**.
 
    You can also use following reports:
   
@@ -94,16 +94,16 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
    * 6004 **Batch Post Service Invoices**
    * 6001 **Batch Post Service Orders**
 
-5. Select the **Report Request Page** checkbox.
-6. In the **Batch Post Sales Orders** request page, define what is included during automatic posting of sales orders, and then choose the **OK** button.
+1. Select the **Report Request Page** checkbox.
+1. In the **Batch Post Sales Orders** request page, define what is included during automatic posting of sales orders, and then choose the **OK** button.
 
     > [!IMPORTANT]
     > Remember to set strict filters. Otherwise, [!INCLUDE [prod_short](includes/prod_short.md)] posts all documents, even if they aren't ready. Consider setting a filter on the **Status** field for the value **Released**, and a filter on the **Posting Date** field for the value *..today*. Learn more in [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).
     >
-    > The **Posting Date** field can be tricky when you batch post recurring documents, such as recurring sales invoices. To use the document date, leave the field empty and don't turn on **Replace Posting Date**. If you specify a specific date, each recurrence for some documents uses that date. It's a good idea to double-check your setup to ensure that you use the correct posting date.
-7. Select the checkboxes for the days of the week on which the job runs.
-8. In the **Starting Time** field, enter the time of day the job starts. For example, **4 PM**.
-9. Choose the **Set Status to Ready** action.
+    > The **Posting Date** field can be tricky when you batch post recurring documents, such as recurring sales invoices. To keep each document's existing posting date, don't turn on **Replace Posting Date**. If you turn on **Replace Posting Date**, enter the posting date to use. Check your setup to ensure that each recurrence uses the correct posting date.
+1. Select the checkboxes for the days of the week on which the job runs.
+1. In the **Starting Time** field, enter the time of day the job starts. For example, **4 PM**.
+1. Choose the **Set Status to Ready** action.
 
 ### View status from a sales or purchase document
 

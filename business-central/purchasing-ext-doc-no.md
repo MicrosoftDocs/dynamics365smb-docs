@@ -1,21 +1,22 @@
 ---
-title: External document numbers on purchase documents
-description: Learn how to record vendor-assigned document numbers using the External Document Number or Your Reference fields, and understand the differences between these options.
+title: External Document Numbers on Purchase Documents
+description: Learn how to record vendor document numbers on purchase documents, make numbers mandatory, and use external document numbers to find posted entries.
 author: brentholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: external document number, your reference, purchase order, purchase invoice, purchase credit memo, vendor document number
 ms.date: 10/03/2025
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # External document numbers on purchase documents
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-You can also specify external document numbers on sales documents. Learn more in[External Document Numbers](sales-how-invoice-sales.md#external-document-numbers)
+You can also specify external document numbers on sales documents. Learn more in [External document numbers](sales-how-invoice-sales.md#external-document-numbers).
 
 ## Related information
 

@@ -1,50 +1,37 @@
 ---
-title: Adding Information to Records to Yourself | Microsoft Docs
-description: Attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note.
+title: Add and View Notes on Records
+description: Add notes to sales orders and other records in Business Central so that colleagues can find extra information and instructions when they work.
 author: jswymer
-
-    
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-    ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/01/2021
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/10/2026
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
-# Add and View Notes on Records
- You <!--OnPrem and your colleagues -->can add notes to records in the application. Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
- > [!NOTE]  
- >  This feature is currently not available.  
+# Add and view notes on records
 
-<!--OnPrem
-> [!NOTE]  
->  You can only select one recipient of the note.-->  
+You can add notes to records in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, use a note to add instructions that don't fit in the fields on a sales order. Other users who can access the record can read the note.
 
-<!--OnPrem
-## To work with notes on a record
+## Add a note to a sales order
 
-1.  Open a list of records, such as the **Sales Orders** page, or a card, such as the **Sales Order** page.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then select the related link.  
+1. Select the sales order, and then choose the **Attachments** tab in the FactBox pane.
+1. In the **Notes** section, choose the **+** icon.
+1. Enter the note, and then choose **OK**.
 
-    <!-- If **Notes** is not visible on the page, then you can customize the page to display the Notes FactBox. -->
-<!--
-2.  Choose the **Notes** action to open the **Notes** page. This page displays any current notes on the record. From here, you can do the following:
+To read a note, open the same record and view the **Notes** section. For more information about notes, files, and links, see [Manage attachments, links, and notes](ui-how-add-link-to-record.md#write-a-note-on-a-sales-order).
 
-    -   To view or edit the note, choose **...** and then **Edit**. You can also do this from the **Notes** FactBox if it is available on the page.
-    -   To add a note, choose the **+new** action, and then type your message in the **Note** box. You can enter a maximum of 30 lines of text in the note.
+> [!NOTE]
+> Record notes aren't workflow notifications. To configure notifications for approval workflows, see [Set up workflow notifications](across-setting-up-workflow-notifications.md).
 
-<!-- 5.  In the **To** field, enter a user ID (your own or someone else’s) to indicate who the note is for.  
-
-6.  Select the **Notify** field if you want to send a notification to the user in the **To** field.
-
-     If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
-<!--OnPrem
-3.  Choose the **OK** button.  -->
 ## Related information
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
+[Manage attachments, links, and notes on cards and documents](ui-how-add-link-to-record.md)
+
+[Work with Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

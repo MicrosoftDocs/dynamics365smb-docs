@@ -1,48 +1,48 @@
 ---
-title: Trace item-tracked items
-description: You can see where an item-tracked item was used, including how and when it was received, produced, or returned with Item Tracing and Find Entries features.
+title: Trace Item-Tracked Items
+description: Use Item Tracing to follow posted transactions for serial, lot, and package numbers. Find related posted entries and open records with Find Entries.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
-ms.search.forms: 6520,
-ms.date: 05/16/2024
+ms.search.form: 6520
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 # Trace item-tracked items
 
-You can see where an item-tracked item was used, including how and when it was received or produced, transferred, sold, consumed, or returned. You can also find all current instances of a specific serial or lot number in the database. You do this by using the Item Tracing and the [Find Entries](ui-find-entries.md) features.  
+You can see where an item-tracked item was used, including how and when it was received or produced, transferred, sold, consumed, or returned. Use **Item Tracing** to follow posted transactions for a serial, lot, or package number. Use [Find Entries](ui-find-entries.md) to find related posted entries and open records for a serial or lot number.
 
 These features can be useful in quality control when you need to find out which customers received products with a particular lot number or when you need to find out which lot a defective component came from.  
 
- On the **Item Tracing** page, you can trace forwards and backwards in a sequence of posted inventory transactions for the serial or lot number.  
+ On the **Item Tracing** page, you can trace forwards and backwards in a sequence of posted inventory transactions for a serial, lot, or package number.
 
- On the **Find Entries** page, you can't see the sequence of transactions, but you can see all records of the serial or lot number, both posted entries and open records.  
+ On the **Find Entries** page, you can't see the sequence of transactions, but you can see related records for the serial or lot number, including posted entries and open records.
 
  The two features can be used in combination by transferring a traced serial or lot number to the **Find Entries** page to finish a complete trace scenario. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
 ## To trace item-tracked items  
 
 1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Item Tracing**, and then choose the related link.  
-2.  In the filter fields at the top of the page, enter the specific item numbers or a filter on the item numbers that you would like to trace.  
-3.  In the **Show Components** field, select whether to also see where the components for the items came from. The following table describes the options.  
+1.  In the **Serial No. Filter**, **Lot No. Filter**, or **Package No. Filter** field, enter the tracking number or filter that you want to trace. Use **Item Filter** to limit the results to specific items.
+1.  In the **Show Components** field, select whether to also see where the components for the items came from. The following table describes the options.
 
     |Field|Description|  
     |----------------------------------|---------------------------------------|  
     |**No**|Don't show components.|  
-    |**Item-tracked Only**|Show only components that have lot or serial numbers.|  
+    |**Item-tracked Only**|Show only components that have serial, lot, or package numbers.|
     |**All**|Show all components.|  
 
-4.  In the **Trace Method** field, select the method to use for tracing the item. The following table describes the options.  
+1.  In the **Trace Method** field, select the method to use for tracing the item. The following table describes the options.
 
     |Field|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Usage->Origin**|Trace the item from where it was used to where it came from. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the sales shipment line first, which you can then expand to see from which production order it came.|  
-    |**Origin->Usage**|Trace the item from where it came into inventory to where it was used. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the finished production order first, which you can then expand to see the sale shipment lines where the item was used.|  
+    |**Usage -> Origin**|Trace the item from where it was used to where it came from. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the sales shipment line first, which you can then expand to see from which production order it came.|
+    |**Origin -> Usage**|Trace the item from where it came into inventory to where it was used. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the finished production order first, which you can then expand to see the sale shipment lines where the item was used.|
 
-5.  Choose the **Trace** action to run the trace.  
+1.  Choose the **Trace** action to run the trace.
 
 > [!NOTE]  
 >  Only applied transactions are shown. If you have received the same lot on multiple transactions, the **Item Tracing** page may not show all transactions.   
@@ -55,9 +55,9 @@ These features can be useful in quality control when you need to find out which 
 ## To find item-tracked items with Find Entries  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Find Entries**, and then select the related link.  
-2. Choose **Search for item references**.
-3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
-4. Choose the **Find** action to find all instances of the serial or lot number in the database.  
+1. In the **Search By** field, select **Search for item references**.
+1. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.
+1. Choose the **Find** action to find related posted entries and open records for the serial or lot number.
 
 ## Related information
 

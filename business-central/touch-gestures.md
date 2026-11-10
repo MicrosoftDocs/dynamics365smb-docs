@@ -1,6 +1,6 @@
 ---
-title: "Touch and pen gestures"
-description: "Learn about touch and pen gestures that help you work efficiently with your data from tablets and phones."
+title: Touch and Pen Gestures for Tablets and Phones
+description: Learn which touch and pen gestures help you use charts, scroll lists, open tile actions, and select Power BI reports on tablets and phones.
 author: jswymer
 
 ms.topic: article
@@ -10,9 +10,10 @@ ms.date: 04/29/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
-# Touch and Pen Gestures for Tablet and Phones 
+# Touch and pen gestures for tablets and phones
 
 This article provides some of the special gestures that you can use when working with [!INCLUDE[prod_short](includes/prod_short.md)] from a tablet or phone.
 
@@ -22,8 +23,8 @@ This article provides some of the special gestures that you can use when working
 |Lists|Scroll a list horizontally to move columns in and out of view|Swipe left or right on the list|Yes|No|
 ||Open the options menu on a tile|Tap and hold the tile|Yes|Yes|
 ||Take action on a tile or open a menu of swipe actions |Swipe left or right on the tile|No|Yes|
-|Power BI Reports|Enable a report from the **Power BI Report Selection** page |Swipe left on the report tile|No|Yes|
-||Disable a report from the **Power BI Report Selection** page |Swipe right on the report tile|No|Yes|
+|Power BI reports|Enable a report from the **Power BI Reports Selection** page |Swipe left on the report tile|No|Yes|
+||Disable a report from the **Power BI Reports Selection** page |Swipe right on the report tile|No|Yes|
 
 <!-- ## Charts
 

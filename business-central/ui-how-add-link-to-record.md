@@ -1,14 +1,15 @@
 ---
-title: Add attachments, links, and notes on records
-description: Attach a hyperlink to a document or a website to a specific record, such as a customer or document.
+title: Manage Attachments, Links, and Notes on Cards and Documents
+description: Attach files, add links, and write notes on Business Central records so colleagues can find supporting documents and instructions as they work.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/14/2026
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.search.form: 8896,
-ms-service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
 ---
 # Manage attachments, links, and notes on cards and documents
 
@@ -16,7 +17,7 @@ On most list pages, cards, and documents, you can attach files, add links, and w
 
 On the **Lines** FastTab, you can also use the **Attachments** action to attach documents to a specific line. For example, you might want to attach design specifications to an item on a purchase invoice.
 
-Attachments, links, and notes stay attached to the card or document while it's processed into other states. For example, from an ongoing sales order to a posted sales invoice. However, none of the attachment types are output from the system, for example, when printing or when saving to a file.
+Attachments can follow a card or document as you process it into other states, such as from a sales order to a posted sales invoice. Links and notes on sales and purchase documents are copied to posted documents according to the comment-copy settings on the **Sales & Receivables Setup** and **Purchases & Payables Setup** pages. However, the system doesn't output any of the attachment types, for example, when printing or when saving to a file.
 
 You can also add attachments to the emails you send from [!INCLUDE [prod_short](includes/prod_short.md)]. When you send an email directly from a document, such as a sales quote, the **Add file from source document** action lets you choose files that are attached to it. You can only choose files that are attached to the document. You can't choose files that are attached to lines.
 

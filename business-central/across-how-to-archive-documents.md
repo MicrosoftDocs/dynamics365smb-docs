@@ -1,11 +1,12 @@
 ---
-title: Archive sales, purchase, project, and service documents
-description: Archive sales, purchase, project, and service documents such as orders, quotes, return orders, and blanket orders.
+title: Archive Documents
+description: Archive sales, purchase, and service documents and projects to keep earlier versions. Restore eligible records and delete archives with retention policies.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/15/2025
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.service: dynamics-365-business-central
@@ -20,7 +21,7 @@ For sales documents, if the original still exists and isn't posted, you can use 
 > [!NOTE]
 > You can only restore sales documents and projects. The action isn't available for archived purchase documents.
 
-For archived documents where the original is deleted, you can reuse the content by copying the data, for example, by using the **Copy from Document** action.  
+For archived documents where the original is deleted, you can reuse the content by copying the data, for example, by using the **Copy Document** action.
 
 To explore archived documents, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Archive**, and then choose the related link. If the archive you're interested in doesn't display right away in the **Go to Reports and Analysis** section, you might need to choose **Show more**.
 
@@ -35,7 +36,7 @@ You can automate archiving to create a new version of the archived document when
 
 The following steps describe how to set up automatic archiving of sales documents from the **Sales & Receivables Setup** page. The steps are similar for purchase documents and projects.
 
-* For purchase documents, use the **Purchase & Payables** page.
+* For purchase documents, use the **Purchases & Payables Setup** page.
 * For projects, use the **Project Setup** page.
 * For services, use the **Service Management Setup** page.
 
@@ -58,11 +59,13 @@ The following procedure describes how to manually archive a sales order. The ste
 2. Open a sales order that you want to archive.  
 3. Choose the **Archive Document** action.
 
-The sales order is archived. You can view it on the **Archived Sales Orders** page.
+The sales order is archived. You can view it on the **Sales Order Archives** page.
 
 ## To restore a nonposted sales document or a project from the archive
 
-You can restore documents only if the original document isn't posted.
+You can restore a sales document only if the original still exists and its status is **Open**. A sales order must not have related posted shipments or invoices. Reopen a released document before you restore it.
+
+To restore a project, the original project must still exist and must not have the **Completed** status. It must not have project ledger entries or sales document lines linked to it.
 
 The following procedure describes how to restore an archived sales order to the original sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
@@ -77,7 +80,7 @@ Use a retention policy to clean up archived versions that you no longer need. Re
 
 There are a few things to note about creating retention policies for archived documents and projects:
 
-* If the original document isn’t deleted, [!INCLUDE [prod_short](includes/prod_short.md)] you can’t delete the archived versions. Archived versions don’t expire as long as the original exists.
+* If the original document isn't deleted, you can't delete its archived versions through the retention policy. Archived versions don't expire as long as the original exists.
 * When you set up the retention policy, you can specify that you want the policy to delete all archived versions except the most recent. For example, you might have 10 versions and want to keep a copy of the latest. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] calculates the expiration date for documents based on the date of the most recent archived version.
 

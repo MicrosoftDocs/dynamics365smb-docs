@@ -1,8 +1,8 @@
 ---
-title: Troubleshoot connectivity
+title: Troubleshoot Connectivity for Business Central
 description: Describes how to use the Troubleshoot Connectivity page to identify and fix problems connecting to Business Central online.
 author: jswymer
-ms.topic: get-started
+ms.topic: troubleshooting
 ms.devlang: al
 ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 01/09/2024
@@ -10,13 +10,14 @@ ms.author: jswymer
 ROBOTS: NOINDEX
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Troubleshoot connectivity for Business Central
 
 > **APPLIES TO:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
-> This feature is currently in preview. The functionality and documentation may change in later releases. If you would like to contribute to the documentation based on your own findings, please select ![Edit article in GitHub.](media/github-edit-pencil.png) **Edit**, and propose changes. Then we'll take a look!
+> This feature is currently in preview. The functionality and documentation may change in later releases. If you would like to contribute to the documentation based on your own findings, please select **Edit** :::image type="icon" source="media/github-edit-pencil.png":::, and propose changes. Then we'll take a look!
 
 [!INCLUDE[prod_short](includes/prod_short.md)] Online includes the **Troubleshooting Connectivity** page that you can use to identify problems with your connection to the online service. There are several things that affect connectivity to Business Central, like the firewall settings of your network or domain name service configuration. The page lets you run a list of checks that diagnose common Business Central connectivity issues. You can use the information to try to fix the problems yourself, or pass it on to your support representative.
 
@@ -26,7 +27,7 @@ ms.reviewer: jswymer
 ## Start the connectivity check 
 
 1. Open an Internet browser.
-2. In the address, enter the URL that you use to open Business Central and add `/connectivity` at the end. 
+1. In the address, enter the URL that you use to open Business Central and add `/connectivity` at the end.
 
     For example, if you use `https://businesscentral.dynamics.com`, then enter:
 
@@ -40,15 +41,15 @@ ms.reviewer: jswymer
     https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee/connectivity
     ```
  
-3. On the **Troubleshooting Connectivity** page, choose **Start check**.
+1. On the **Troubleshooting Connectivity** page, choose **Start check**.
 
     A series of checks is run, and the result of each check is shown:
 
-    - ![Connectivity check succeeded.](media/connectivity-check.png) indicates the check succeeded.
-    - ![Connectivity check failed.](media/connectivity-failed.png) indicates the check failed. Review the message below the check for more details.
-    - ![Connectivity check was not run.](media/connectivity-blocked.png) indicates the check wasn't run, typically because of a failure of a previous check. Review the message below the check for more details.
+    - **Succeeded** :::image type="icon" source="media/connectivity-check.png"::: indicates the check succeeded.
+    - **Failed** :::image type="icon" source="media/connectivity-failed.png"::: indicates the check failed. Review the message below the check for more details.
+    - **Not run** :::image type="icon" source="media/connectivity-blocked.png"::: indicates the check wasn't run, typically because of a failure of a previous check. Review the message below the check for more details.
 
-4. To run the check again, choose **Restart check**.
+1. To run the check again, choose **Restart check**.
 
 The following sections explain the checks that are run, and provide some tips for fixing any problems.
 

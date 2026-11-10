@@ -1,15 +1,16 @@
 ---
-title: Customizing Pages for Roles
+title: Customize Pages for Profiles
 description: Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
 author: jswymer
 ms.topic: how-to
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 9171
-ms.date: 06/13/2024
+ms.date: 11/10/2026
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 # Customize pages for profiles
 
@@ -22,27 +23,29 @@ Business Central provides both [personalization](ui-personalization-user.md) for
 
 Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
+Users can further personalize the customized layout unless personalization is disabled for their profile.
+
 ## Prerequisites
 
-- Your Business Central account must have the **D365 Profile Mgt.** permission set or equivalent permissions. 
+- Your Business Central account must have the **D365 PROFILE MGT** permission set or equivalent permissions.
 
-   The **D365 Profile Mgt.** permission set includes the execute permission on the system object **9026 Add Field to Table**. If you don't have this permission, you're not allowed to add fields on the page unless they're defined on the page object. 
+   The **D365 PROFILE MGT** permission set includes the execute permission on the system object **9026 Add Table Field To Page**. If you don't have this permission, you're not allowed to add fields on the page unless they're defined on the page object.
 
 ## Customize pages for a profile
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Profiles (Roles)**, and then choose the related link.
-2. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
-3. Choose the **Customize pages** action.
+1. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
+1. Choose the **Customize pages** action.
 
     [!INCLUDE[prod_short](includes/prod_short.md)] opens on a new browser tab for the selected profile with the **Customizing** banner activated. The **Customizing** banner offers the same functionality as the **Personalizing** banner that is available to users.
 
-4. Customize pages according to the needs of the role or department in question in the same way as a user would do when personalizing. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+1. Customize pages according to the needs of the role or department in question in the same way as a user would do when personalizing. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
     > [!NOTE]
     > To navigate during personalization, use <kbd>Ctrl</kbd>+<kbd>Click</kbd> on an action if it is highlighted by the arrowhead.
 
-5. When you have finished changing the layout on one or more pages, choose the **Done** button on the **Customizing** banner.
-6. Close the browser tab.
+1. When you have finished changing the layout on one or more pages, choose the **Done** button on the **Customizing** banner.
+1. Close the browser tab.
 
 The customization of pages is now recorded for the profile.
 
@@ -67,7 +70,7 @@ The layout on pages for the profile is reset to the default layout.
 You can delete individual page customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user aren't deleted. You can delete specific page personalizations with another action. For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#delete-personalizations-for-specific-pages).
 
 1. On the **Profile (Role)** page, choose the **Manage customized pages** action.
-2. On the **Customized Pages** page, select one or more lines for page customizations that you want to delete, and then choose the **Delete** action.
+1. On the **Customized Pages** page, select one or more lines for page customizations that you want to delete, and then choose the **Delete** action.
 
 The layout on the selected pages is adjusted to the changes you made.
 
@@ -92,7 +95,7 @@ Use the filter button above the list to change what category of fields are prese
 
 :::image type="content" source="media/customization-filter.svg" alt-text="Shows the filter button in the Add a field pane in the customization mode.":::
  
-### Add table field that's not on the page object
+### Add a table field that's not on the page object
 
 If you want to make a table-only field available on a page to users, you must first add it to the page. Once you've added the field, users can choose to show or hide the field by using personalization. There are couple ways to add a field.
 
@@ -115,7 +118,7 @@ To remove a field, select the arrowhead on the field in the page and then **Remo
 
 ## Lock and unlock editing
 
-Customization allows you to lock (allow editing) or unlock editing (prevent editing) of most fields on a page. To lock or unlock editing, select the field on the page, select the arrowhead, and then select **Lock editing** or **Unlock editing**. It's important to keep in mind a few rules about locking and unlocking fields:
+Customization allows you to lock editing to prevent changes to a field's value, or unlock editing to allow changes. To lock or unlock editing, select the field on the page, select the arrowhead, and then select **Lock editing** or **Unlock editing**. It's important to keep in mind a few rules about locking and unlocking fields:
 
 - Field's that were originally not on the page object but were added to the page by customization are always locked, and can't be unlocked using customization or personalization.
 - The design of the field can also prevent it from being edited. If the AL developer set the field's [Editable property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) to `false`, it's always locked and can't be unlocked.
@@ -125,7 +128,7 @@ Customization allows you to lock (allow editing) or unlock editing (prevent edit
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
 ## Important information and tips
 
-- Not all table fields may be available for customization from the **Add field to page** pane. The developer of a table can choose to prevent a field from appearing in customization by setting the field's [AllowInCustomization property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) to `Never`.
+- Not all table fields may be available for customization from the **Add field to page** pane. The developer of a table can choose to prevent a field from appearing in customization by setting the field's [AllowInCustomizations property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) to `Never`.
 - You can't customize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you switch to customization mode while the page is in analysis mode, then analyze mode is automatically switched off. 
 - Some pages have multiple page fields that map to the same source table. The **Add field to page** pane shows all of these page fields independently. You can show, hide, or move these fields independently without affecting the others.
 - If a part or group is hidden, you can still identify hidden fields inside the part or group, but you can't add, move or show fields in the part or group until they're made visible. 

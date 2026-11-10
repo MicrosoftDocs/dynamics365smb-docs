@@ -1,5 +1,5 @@
 ---
-title: Assistive features
+title: Accessibility and Keyboard Shortcuts
 description: This article provides information about keyboard shortcuts and other assistive features in Business Central for people with disabilities.
 author: jswymer
 
@@ -12,8 +12,9 @@ ms.author: jswymer
 
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
-# Accessibility and Keyboard Shortcuts
+# Accessibility and keyboard shortcuts
 
 This article provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities. [!INCLUDE[prod_short](includes/prod_short.md)] supports the following accessibility features:  
 
@@ -36,15 +37,15 @@ When you focus on an area that contains actions, like the navigation bar on the 
 
 By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the sign-in page.  
 
-## <a name="Headings"></a> Headings in Content
+## <a name="Headings"></a> Headings in content
 
-The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page. For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag. Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).  
+The web client uses semantic markup and accessibility attributes to help assistive technologies identify page structure and controls. The exact HTML elements vary by control. For example, a list can use accessibility roles rather than HTML table tags.
 
-## <a name="Images"></a> Image and Links
+## <a name="Images"></a> Images and links
 
-A descriptive text for images is set with the ALT attribute inside the IMG tag. A descriptive text for hyperlinks is set with the title attribute inside the A tag.  
+Images and links can provide descriptive text through text alternatives and accessible names. Icons can also be rendered without an HTML image element. Decorative icons can be hidden from assistive technologies.
 
-## <a name="AssistiveTech"></a> Assistive Technologies
+## <a name="AssistiveTech"></a> Assistive technologies
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.  
 
@@ -58,7 +59,7 @@ Tooltips are available on most elements in the user interface, like page fields 
 
 Tooltips are accessed in different ways, depending on the client (web or mobile) and the device that you're working with. Use the following table as a guide. Some tooltips can be read by screen-readers. In this case, you access the tooltips as described in the table, then use the screen reader to navigate to the tooltip as you would with any other element.
 
-#### Accessing tooltips
+### Access tooltips
 
 |Element|Mouse action for web client|Keyboard shortcut for web client|Touch gesture on tablet/phone for mobile app|Screen reader support|
 |-------|-----------------|------------|--------------------------|---------------------|

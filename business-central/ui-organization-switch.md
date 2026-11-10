@@ -1,6 +1,6 @@
 ---
 title: Switching to Another Company or Environment
-description: If you do work for multiple organizations, you can quickly switch between the environments and companies.
+description: Compare ways to switch Business Central companies and environments, including the company switcher, My Settings, app launcher, and Company Hub.
 author: jswymer
 ms.topic: how-to
 ms.search.keywords: environments, companies, tenants, organization
@@ -9,9 +9,10 @@ ms.date: 04/24/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
-# Switching to Another Company or Environment
+# Switching to another company or environment
 
 [!INCLUDE [prod_short](includes/prod_short.md)] is available in many different countries/regions and supports many different types of organizations. Your organization may choose to organize work in [!INCLUDE [prod_short](includes/prod_short.md)] into multiple *companies* and *environments*. This article helps you understand the key differences and how to work across them.
 
@@ -33,22 +34,22 @@ There are a few features you can use to switch the company or environment as you
 
 |Feature|Switch company|Switch environment|Switch in new browser tab| Available on-premises|
 |-------|--------------|------------------|-------------------------|----------------------|
-|[Company switcher](#use-the-company-switcher)|![check mark](media/check.png "check")|![check mark](media/check.png "check")|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
-|[App launcher](#use-the-app-launcher)||![check mark](media/check.png "check")|![check mark](media/check.png "check")||
-|[My Settings](#use-my-settings)|![check mark](media/check.png "check")|||![check mark](media/check.png "check")|
-|[Company Hub](#use-company-hub)|![check mark](media/check.png "check")|![check mark](media/check.png "check")|![check mark](media/check.png "check")||
+|[Company switcher](#use-the-company-switcher)|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/check.png"::: Yes|
+|[App launcher](#use-the-app-launcher)|:::image type="icon" source="media/x-icon.png"::: No|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/x-icon.png"::: No|
+|[My Settings](#use-my-settings)|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/x-icon.png"::: No|:::image type="icon" source="media/x-icon.png"::: No|:::image type="icon" source="media/check.png"::: Yes|
+|[Company Hub](#use-company-hub)|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/check.png"::: Yes|:::image type="icon" source="media/x-icon.png"::: No|
 
 ## Use the company switcher
 
 Using the company switcher is probably the quickest and most versatile way to switch company. The company switcher is a pane that's readily available from any page. The pane gives an overview of all companies in all environments that you have access to, and lets you switch directly to any one of them&mdash;either in the same browser tab or a new one. It's especially useful when you work in many companies across different environments.
 
-1. In upper-right corner, near the search icon, you'll see either the standard company icon, like ![company icon Launcher.](media/ui-experience/company-icon.png "Displays the company switcher icon used when there is a single environment") and ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Displays the company switcher icon used when there are multiple environments"), or a [custom badge](admin-company-information.md#badge) for the company you're currently working with. Select the icon to open the company switcher pane.
+1. In upper-right corner, near the search icon, you'll see either a standard company icon, such as :::image type="icon" source="media/ui-experience/company-icon.png"::: or :::image type="icon" source="media/ui-experience/company-icon-multi-env.png":::, or a [custom badge](admin-company-information.md#badge) for the company you're currently working with. Select the icon to open the company switcher pane.
 
    :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Shows the company switcher icon in the heading of the Business Central client.":::  
 
    > [!TIP]
-   > You can also use the <kbd>Crtl</kbd>+<kbd>O</kbd> keyboard shortcut to open the pane.
-2. In the **Available Companies** pane, select the company that you want to switch to, select the **Switch** arrow, then choose one of the following options:
+   > You can also use the <kbd>Ctrl</kbd>+<kbd>O</kbd> keyboard shortcut to open the pane.
+1. In the **Available Companies** pane, select the company that you want to switch to, select the **Switch** arrow, then choose one of the following options:
 
    |Option|Description|
    |------|-----------|
@@ -63,12 +64,12 @@ Using the company switcher is probably the quickest and most versatile way to sw
 
 When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Microsoft 365.  
 
-1. Select the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features").
-2. In the pane that opens, look for and choose [!INCLUDE[prod_short](includes/prod_short.md)]. If you don't see [!INCLUDE[prod_short](includes/prod_short.md)], choose **All apps**, then enter **Business Central** in the **Search** box.
+1. Select the **App Launcher** icon :::image type="icon" source="media/app-launcher-icon.png":::.
+1. In the pane that opens, look for and choose [!INCLUDE[prod_short](includes/prod_short.md)]. If you don't see [!INCLUDE[prod_short](includes/prod_short.md)], choose **All apps**, then enter **Business Central** in the **Search** box.
 
    :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="The Microsoft 365 app launcher showing the Business Central tile.":::  
 
-3. If there's more than one environment, you'll be asked to choose the environment to access.
+1. If there's more than one environment, you'll be asked to choose the environment to access.
 
 > [!NOTE]
 > App launcher isn't available if you're signed in to Business Central as a guest.
@@ -82,22 +83,22 @@ The following image shows tiles for accessing production and sandbox environment
 
 When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can quickly switch to another company in the same environment. After you make the switch, the company you choose becomes your default company and will open the next time you sign in.
 
-1. In the top-right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **My Settings** action.
+1. In the top-right corner, choose the **Settings** icon :::image type="icon" source="media/ui-experience/settings_icon_small.png":::, and then choose the **My Settings** action.
 
     > [!TIP]
     > You can also use the <kbd>Alt</kbd>+<kbd>T</kbd> keyboard shortcut to quickly open the My Settings page.
 
-2. On the **My Settings** page, in the **Company** field, select the company.  
-3. Choose the **OK** button.
+1. On the **My Settings** page, in the **Company** field, select the company.
+1. Choose the **OK** button.
 
 > [!TIP]
 > A good way to go directly to your default company when you sign in, and avoid having to specify an environment, is to add the URL to your list of favorites after you sign in.
 
 ## Use company hub
 
-*Company hub* is a highly specialized role center that gives a financial overview across companies and environments. Available as an [extension](ui-extensions-company-hub.md), company hub provides a dashboard with summary data for each company that you have access to. The home page displays financial KPIs and a direct link to the individual environments and companies. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).
+*Company hub* is a highly specialized role center that gives a financial overview across companies and environments. Available as an [extension](ui-extensions-company-hub.md), company hub provides a dashboard with summary data for companies that you connect to. The home page displays financial KPIs and a direct link to the individual environments and companies. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).
 
-[![Shows the company hub page that lists all companies.](media/company-hub.png)](media/company-hub.png#lightbox)  
+:::image type="content" source="media/company-hub.png" alt-text="Shows the company hub page that lists all companies." lightbox="media/company-hub.png":::
 
 ## Related information
 

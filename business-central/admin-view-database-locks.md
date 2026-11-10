@@ -1,27 +1,28 @@
 ---
 title: "View Database Locks"
-description: Learn how you can view information about customer database locks right from the client interface in Business Central.
+description: View a snapshot of database locks in Business Central to identify affected tables, sessions, users, and available details about the executing AL code.
 author: jswymer
 
-ms.topic: concept-article
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9511
-ms.date: 06/14/2021
+ms.date: 11/10/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
-# Viewing Database Locks
+# View database locks
 
 Database locking controls access by multiple users to the same data at the same time. To protect a transaction against other transactions modifying the same data, the first transaction puts a lock on the data. The lock remains until the transaction's done.
 
-Users may be blocked from completing transactions on the locked data. They'll typically get a message that indicates the lock condition.
+Other transactions might have to wait to access the locked data. If a transaction waits too long, the user can get a lock timeout message.
 
-## To view database locks
+## View current database locks
 
-Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Database Locks**, and then choose the related link.
+[!INCLUDE[open-search](includes/open-search.md)], enter **Database Locks**, and then choose the related link.
 
-The **Database Locks** page gives snapshot of all current database locks.
+The **Database Locks** page gives a snapshot of current database lock requests, including granted requests and requests that are waiting for a lock. Where available, it also shows the user, session, and executing AL code for each lock request.
 
 For more information about database locking, see [Monitoring Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) in the Business Central Developer and IT Pro help.
 

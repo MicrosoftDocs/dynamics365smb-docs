@@ -1,14 +1,15 @@
 ---
-title: Enter external document numbers
-description: Enter external document numbers for customers and vendors in sales and purchase orders, invoices, and credit memos. Use these numbers to easily find posted sales and purchase lines.
+title: Enter External Document Numbers
+description: Enter customer and vendor document numbers on sales and purchase documents so you can find related entries and avoid duplicate purchase invoices.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: external document numbers, vendor invoice numbers, purchase order, sales order
-ms.date: 10/14/2025
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
 ---
 
 # Enter external document numbers
@@ -16,18 +17,18 @@ ms.reviewer: v-soumramani
 You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.  
 
 > [!NOTE]
-> Specify the document number that your customer or vendor has specified. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't check if these external document numbers are unique or duplicates.
+> Use the document number assigned by your customer or vendor. When you post a purchase invoice or credit memo with an external document number, [!INCLUDE [prod_short](includes/prod_short.md)] checks vendor ledger entries for the same external document number, document type, and pay-to vendor. A matching entry that isn't reversed prevents posting.
 
 The following procedure explains how to specify an external document number on a sales order, but similar steps apply to other sales and purchase documents.
 
 ## To enter external document numbers in a sales order  
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
-2. Select the relevant sales order, and then choose the **Edit** action.  
-3. On the **General** FastTab, in the **External Document No.** field, enter the invoice number.  
+1. Select the relevant sales order, and then choose the **Edit** action.
+1. On the **General** FastTab, in the **External Document No.** field, enter the customer's document number, such as their purchase order number.
 
-    On purchase documents, the relevant field is the **Vendor Invoice No.** field.
-4. Fill in any other required fields.  
+    For a purchase invoice, use the **Vendor Invoice No.** field. For a purchase credit memo, use the **Vendor Cr. Memo No.** field.
+1. Fill in any other required fields.
 
 ## Related information
 

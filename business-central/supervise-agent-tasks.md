@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 10/02/2026
+ms.date: 11/10/2026
 ms.update-cycle: 180-days
 ai-usage: ai-assisted
 ms.custom:
@@ -80,6 +80,16 @@ The **Tasks** pane shows all tasks from a selected agent, organized by status. T
 1. When you're satisfied, select **Confirm** to let the agent continue with the task.
 
 After confirmation, the agent resumes work. When a new notification appears, follow the same flow to review the next step.
+
+### Filter the task timeline
+
+Use the filter buttons at the top of the task timeline to focus on the information you need:
+
+- **Messages**: Show incoming and outgoing email messages.
+- **Documents**: Show steps related to documents, such as quotes, orders, and invoices.
+- **Details**: Show all steps, including additional steps that are hidden by default. For example, these steps can include the Sales Order Agent checking item availability.
+
+Select **Messages** and **Documents** together to display the combined steps. When you don't select any filters, the timeline shows the main steps. A filter is unavailable if the task has no corresponding content.
 
 ### Resolve a permission request
 

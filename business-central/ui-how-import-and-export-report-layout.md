@@ -1,48 +1,51 @@
 ---
 title: (Obsolete) Import and Export Custom Report Layouts
-description: You can import and export an existing custom report layout as a file to and from a location on your computer and network.
+description: Export and import Word or RDLC layout files in versions of Business Central that still provide the legacy Custom Report Layouts page and its actions.
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
+ms.date: 11/11/2026
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
-# (Obsolete) Import and Export Custom Report Layouts
+# (Obsolete) Import and export custom report layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
+These procedures apply only to versions that still include the legacy pages. For the current workflow, learn more in [Get started creating report layouts](ui-get-started-layouts.md).
+
+You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then modify the layout and return the file to you so that you can import it back.
 
 > [!IMPORTANT]  
->  You cannot import or export built-in report layouts.  
+> You can't import a file to overwrite a built-in layout. Create a custom layout before importing a modified file.
 
-### To export a report layout to a file  
+## Export a report layout to a file
 
 1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.  
 
-2.  Select the row for the report that contains the custom report layout that you want to export, and then choose the **Custom Layouts** action.  
+1.  Select the row for the report that contains the custom report layout that you want to export, and then choose the **Custom Layouts** action.
 
-3.  On the **Report Layouts** page, select the report layout that you want to export to a file, and then choose the **Export Layout** action.  
+1.  On the **Custom Report Layouts** page, select the report layout that you want to export to a file, and then choose **Export Layout**.
 
-4.  In the **Export File** dialog box, choose the **Save** button, and then save the file to a location on your computer or network.  
+1.  Save the downloaded file to a location on your computer or network.
 
-### To import a report layout file  
+## Import a report layout file
 
 1.  Make sure that the relevant file that defines the report layout is available on your computer or network.  
 
      A Word report layout file must have the .docx file type extension. An RDLC report layout file must have the .rdlc or .rdl file type extension.  
 
-2.  [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.  
+1.  [!INCLUDE[open-search](includes/open-search.md)], enter **Report Layout Selection**, and then choose the related link.
 
-3.  Select the row for the report to which you want to import the report layout, and then choose the **Custom Layouts** action.  
+1.  Select the row for the report to which you want to import the report layout, and then choose the **Custom Layouts** action.
 
-4.  On the **Report Layouts** page, select the report layout to which you want to import the file, and then choose the **Import Layout** action.  
+1.  On the **Custom Report Layouts** page, select the report layout to which you want to import the file, and then choose **Import Layout**.
 
-5.  In the **Import** dialog box, select the document that defines the report layout, and then choose the **Open** button.  
+1.  In the **Import** dialog box, select the document that defines the report layout, and then choose **Open**.
 
  The original custom report layout is replaced with the imported report layout.  
 

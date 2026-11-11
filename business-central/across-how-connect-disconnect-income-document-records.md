@@ -1,13 +1,13 @@
 ---
-title: Create incoming document records from docs
-description: Attach external business documents to related incoming document records for easy storage and management.
+title: Create Incoming Document Records Directly from Documents and Entries
+description: Attach files to purchase invoices and ledger entries by creating incoming document records, and remove links to posted documents when needed.
 author: jswymer
 ms.topic: how-to
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/14/2025
+ms.date: 11/10/2026
 ms.author: jswymer
-ms.reviewer: v-soumramani
-ms-service: dynamics-365-business-central
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -25,29 +25,33 @@ The following procedures show how to attach a file to a vendor ledger entry or a
 ## Create and connect an incoming document record from a purchase invoice
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Purchase Invoices**, and then choose the related link.
-2. Select the line for a purchase invoice that you want to attach a file to, and then choose the **Create Incoming Document from File** action.
-3. Alternatively, select the line for a purchase invoice that you want to attach a file to, and then choose the **Attach File** action.
-4. On the **Insert File** page, do one of the following steps to attach a file that represents the incoming document in question:
+1. Select the line for a purchase invoice that you want to attach a file to.
+1. In the **Incoming Document Files** FactBox, choose **Upload main attachment**.
+1. In the **Insert File** dialog box, attach the file:
 
    [!INCLUDE[file-upload](includes/file-upload.md)]
+
+If the invoice already has a main attachment, use **Upload supporting attachments** in the FactBox to add more files.
 
 ## Create and connect an incoming document record from a vendor ledger entry
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Vendor Ledger Entries**, and then choose the related link.
-2. Select a line for a vendor ledger entry that you want to attach a file to, and then choose the **Create Incoming Document from File** action.
-3. Alternatively, select a line for a vendor ledger entry that you want to attach a file to, and then choose the **Attach File** action.
-4. On the **Insert File** page, do one of the following steps to attach a file that represents the incoming document in question:
+1. Select a line for a vendor ledger entry that you want to attach a file to, and then select the **Create Incoming Document from File** action.
+1. In the **Insert File** dialog box, attach the file:
 
    [!INCLUDE[file-upload](includes/file-upload.md)]
+
+Alternatively, use **Upload main attachment** in the **Incoming Document Files** FactBox. If a main attachment already exists, use **Upload supporting attachments**.
 
 ## Remove a connection from an incoming document record to a posted document
 
 You can remove file attachments from non-posted documents at any time by deleting the related incoming document record. If the document is posted, then you must first remove the connection from the incoming document record.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Incoming Documents**, and then choose the related link.
-2. Select the line for an incoming document record connected to a posted document that you want to remove, and then choose the **Remove Reference to Record** action.
+1. Select the line for an incoming document record connected to a posted document that you want to remove, and then select the **Remove Reference to Record** action.
+1. Confirm that you want to remove the reference.
 
-The connection to the posted document is removed. You can now proceed to connect another incoming document record to the posted document as described in this article.
+The reference from the incoming document record is removed. The record is set to unprocessed, and its status changes to **Released**. Review the posted document and correct its reference to the incoming document if needed.
 
 ## Related information
 

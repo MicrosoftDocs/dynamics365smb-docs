@@ -194,7 +194,9 @@ Follow these steps to modify an existing user-defined layout.
 
 1. To view how the report looks with the new layout, select the layout in the list, and then select **Run Report**.
 
-## <a name="replace"></a>Replace a layout
+<a name="replace"></a>
+
+## Replace a layout
 
 Follow these steps to replace the existing user-defined layout file with a new file.
 

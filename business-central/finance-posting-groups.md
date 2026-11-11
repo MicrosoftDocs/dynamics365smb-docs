@@ -1,20 +1,21 @@
 ---
-title: Posting group setup
-description: Learn how to use posting groups to save time and avoid mistakes when you post transactions.
+title: Set Up Posting Groups in Business Central
+description: Set up posting groups in Business Central to map transactions to G/L accounts, allow alternative groups, and troubleshoot missing account setup.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: install-set-up-deploy
+ms.topic: how-to
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 08/13/2025
+ms.date: 11/11/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Set up posting groups
+# Set up posting groups in Business Central
 
-Posting groups map entities to general ledger accounts. Examples of entities are customers, vendors, items, resources, and sales and purchase documents. Posting groups save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
+Posting groups map entities to general ledger accounts. Examples of entities are customers, vendors, items, resources, and sales and purchase documents. Posting groups save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. Learn more in [Set up the chart of accounts](finance-setup-chart-accounts.md).
 
 Posting groups are covered under three umbrellas:  
 
@@ -58,8 +59,8 @@ You can let people choose other customer, vendor, or employee posting groups tha
 
 To allow people to choose alternative posting groups, turn on the **Allow Multiple Posting Groups** toggle on the following pages:
 
-* **Sales & Receivable Setup** for customer posting groups. If you use service management features, also turn on the toggle on the **Service Management Setup** page.
-* **Purchase & Payables Setup** page for vendor posting groups.
+* **Sales & Receivables Setup** for customer posting groups. If you use service management features, also turn on the toggle on the **Service Management Setup** page.
+* **Purchases & Payables Setup** for vendor posting groups.
 * **Human Resources Setup** page for employee posting groups.
 
 On the **Customer Posting Groups**, **Vendor Posting Groups**, and **Employee Posting Groups** pages, you can use the **Alternative Groups** action to specify the posting groups to allow as substitutes.
@@ -72,13 +73,13 @@ When you apply, for example, an invoice and payment that are posted with differe
 
 ## Tax posting groups
 
-The following table describes the tax-related posting groups.
+The following table describes the VAT-related posting groups.
 
 | Type | Description |
 | --- | --- |
-| Tax Business Posting Groups |Determine how to calculate and post sales tax for customers and vendors. Set up these posting groups on the **Tax Business Posting Groups** page. When you do, think about how many groups you need. For example, it might depend on factors like local legislation, and whether you trade both domestically and internationally. |
-| Tax Product Posting Groups |Indicate the tax calculations needed for the types of items or resources you buy or sell. |
-| Tax Posting Setup |Combine tax business posting groups and tax product posting groups. When you fill in a general journal line, purchase line, or sales line, we look at the combination to identify the accounts to use. |
+| VAT Business Posting Groups |Determine how to calculate and post VAT for customers and vendors. Set up these posting groups on the **VAT Business Posting Groups** page. When you do, think about how many groups you need. For example, it might depend on factors like local legislation, and whether you trade both domestically and internationally. |
+| VAT Product Posting Groups |Indicate the VAT calculations needed for the types of items or resources you buy or sell. Set up these groups on the **VAT Product Posting Groups** page. |
+| VAT Posting Setup |Combine VAT business posting groups and VAT product posting groups. The combination determines the VAT calculation type, percentage, and accounts for a general journal line, purchase line, or sales line. |
 
 If your country/region uses value-added tax (VAT), see [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).  
 
@@ -100,7 +101,7 @@ When you create a sales document, the sales header uses the customer card inform
 
 * The revenue posting (income statement) is determined by the combination of the general business posting group and the general product posting group.  
 * The accounts receivable posting (balance sheet) is determined by the customer posting group.  
-* The inventory posting (balance sheet) is determined by the inventory posting group.  
+* The inventory posting (balance sheet) is determined by the combination of the inventory posting group and location.
 * The cost of goods sold posting (income statement) is determined by the combination of general business posting group and general product posting group.  
 
 Your setup determines when posting happens. For example, the timing is affected by when you do periodic activities, such as posting inventory cost or adjusting cost item entries.
@@ -116,9 +117,9 @@ To get users started faster, [!INCLUDE[prod_short](includes/prod_short.md)] can 
 This way, when you work on a document that uses a posting group or a setup that is missing a required general ledger account, you get a notification. Choose the link in the notification to open a page where you can make the relevant changes, provided you have permission to do so.  
 
 > [!NOTE]
-> In order to take you directly to the posting group or setup that is missing a general ledger account, [!INCLUDE[prod_short](includes/prod_short.md)] will create a placeholder posting group or setup. Posting groups and setups are a way for the accountant to control how entries are posted to the general ledger, so such the just-in-time creation of posting groups and setups might not be allowed in your organization.  
+> In order to take you directly to the posting group or setup that is missing a general ledger account, [!INCLUDE[prod_short](includes/prod_short.md)] will create a placeholder posting group or setup. Posting groups and setups are a way for the accountant to control how entries are posted to the general ledger, so the just-in-time creation of posting groups and setups might not be allowed in your organization.
 >
-> In that case, disable the *G/L Account is missing in posting group or setup* notification, and then work with your accountant to make the relevant changes to the posting group, setup, or your document. This is an important step, because after documents are posted, you can't delete incorrectly used posting groups or setups because general ledger entries are created for them.
+> In that case, disable the **G/L Account is missing in posting group or setup** notification, and then work with your accountant to make the relevant changes to the posting group, setup, or your document. This is an important step, because after documents are posted, you can't delete incorrectly used posting groups or setups because general ledger entries are created for them.
 
 Use the **Blocked** field in the **General Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings. 
 
@@ -132,7 +133,7 @@ If you want to access all accounts on the lines and in the field lookups, there 
 * On individual lines, to access all accounts in the field lookups, choose the **View All Accounts on Lookup** checkbox.
 
 > [!NOTE]
-> The **Show All Accounts** toggle might not seem to work on the **General Posting Setup** page. That's because [!INCLUDE [prod_short](includes/prod_short.md)] always shows all accounts as columns on the lines on that page.
+> The **Show All Accounts** toggle on the **General Posting Setup** page shows optional account columns that aren't already visible. If those columns are already visible, turning on the toggle doesn't change the columns shown.
 
 ## Troubleshooting posting group errors
 
@@ -147,7 +148,7 @@ When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will dis
 
 You can use the Change Log feature to capture changes users make to your posting group setup. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)]
 
-The following table lists the table for posting group and their IDs.
+The following table lists posting group tables and their IDs.
 
 | Table | Table ID |
 | ----- | -------- |

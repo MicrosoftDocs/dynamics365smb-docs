@@ -1,25 +1,24 @@
 ---
-title: Available fonts
-description: Learn about the preinstalled fonts that you can use for your externally facing reports.
+title: Available Fonts in Business Central
+description: Learn about fonts for Business Central report layouts, including document fonts, MICR and check security fonts, barcode fonts, and OCR fonts.
 author: brentholtorf
-ms.topic: article
+ms.topic: reference
 ms.devlang: al
-ms.search.keywords:
-ms.search.form:
 ms.date: 02/28/2025
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
-# Available fonts
+# Available fonts in Business Central
 
 The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains preinstalled fonts on the servers that can be used when generating reports. The following sections outline which fonts are available.
 
 > [!NOTE]
 > For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[prod_short](includes/prod_short.md)] environment.
 
-## Document fonts
+## Fonts for document layouts
 
 The following fonts are installed and available to use in Excel, Word, and RDL report layouts:
 
@@ -549,7 +548,7 @@ Magnetic Ink Character Recognition (MICR) fonts are installed and available to u
 
 In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a check has been printed.  
 
-For more information, see [Select a Check Layout](finance-how-define-check-layouts.md).  
+Learn more in [Select a check layout](finance-how-define-check-layouts.md).
 
 ## Fonts for barcodes
 
@@ -572,15 +571,15 @@ The following two-dimensional barcode symbologies are supported:
 * PDF417
 * QR
 
-For more information, see [Barcode Fonts with Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
+Learn more in [Barcode fonts with Business Central online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## Fonts to be used with Optical Character Recognition (OCR)
+## Fonts for optical character recognition
 
 Fonts to use for Optical Character Recognition (OCR) scenarios are installed and available to use in both Word and RDLC report layouts. Both OCR-a and OCR-b scenarios are supported.
 
-* The font `IDAutomationOCRa` is provided for OCR-a compatibility with ANSI X3.17 and IS0 1073/I. To learn more, go to [IDAutomation OCR-A & OCR-B Font Package](https://www.idautomation.com/ocr-a-and-ocr-b-fonts).
+* The font `IDAutomationOCRa` is provided for OCR-A compatibility with ANSI X3.17 and ISO 1073/I. Learn more in [IDAutomation OCR-A & OCR-B Font Package](https://www.idautomation.com/ocr-a-and-ocr-b-fonts).
 <!-- * OCR-b compatibility is achieved across current specifications with the curved-end font design. The OCR-b software fonts were created from ANSI INCITS 49-1975 (R2002), formerly ANSI X3.49-1975 (R2000) in agreement with the revised IS0 R 1073 standard. -->
-* The font `OCRB` is provided for OCR-b scenarios. To learn more, go to [OCRB font family](/typography/font-list/ocrb).
+* The font `OCRB` is provided for OCR-B scenarios. Learn more in [OCRB font family](/typography/font-list/ocrb).
 
 ## Related information
 

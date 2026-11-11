@@ -1,21 +1,22 @@
 ---
-title: Develop report layouts and datasets
-description: Provides an overview of Business Central data.
+title: Develop Business Central Report Layouts and Datasets
+description: Find guidance for customizing Business Central report layouts in Word, Excel, or RDLC, and learn when a developer must change the report dataset.
 author: kennieNP
-ms.topic: concept-article
+ms.topic: overview
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: feature overview
-ms.date: 02/03/2022
+ms.date: 11/11/2026
 ms.author: kepontop
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Develop Business Central report layouts and datasets
 
 Reports in [!INCLUDE[prod_short](includes/prod_short.md)] have a report object that defines their dataset and layouts. The dataset provides the data in the report, and the layouts control how the data is presented.  
 
-## Developing report layouts
+## Develop custom report layouts
 
 Want to modify the layout of a report? For Excel and Word layouts, you can do that yourself. If you want pixel-perfect RDLC layouts though, you might need help from a developer. 
 
@@ -27,14 +28,14 @@ The following table provides links to articles that describe options for customi
 | Learn how to create a new report layout. | [Create a new Layout](ui-get-started-layouts.md?tabs=copy#create) |
 | Learn which fonts in [!INCLUDE[prod_short](includes/prod_short.md)] online you can use in report layouts. | [Using fonts in Layouts](ui-fonts.md) |
 | Learn how to work with Word layouts. | [Work with Word Layouts](ui-how-add-fields-word-report-layout.md) |
-| Learn how to import and export layout files. | [Import/Export a Layout](ui-how-import-and-export-report-layout.md) |
-| Learn how to update a layout definition in [!INCLUDE[prod_short](includes/prod_short.md)] with a new layout file. | [Import/Export a Layout](ui-how-import-and-export-report-layout.md) |
-| Learn how to change the default layout for a report. | [Change the default Layout](ui-how-change-layout-currently-used-report.md) |
+| Learn how to import and export layout files. | [Export and import report layouts](ui-get-started-layouts.md#export-a-layout-copy-and-import-it-as-a-new-layout) |
+| Learn how to update a layout definition in [!INCLUDE[prod_short](includes/prod_short.md)] with a new layout file. | [Replace a report layout](ui-get-started-layouts.md#replace-a-layout) |
+| Learn how to change the default layout for a report. | [Set the layout used by a report](ui-set-report-layout.md) |
 <!-- | To learn how to work with Excel layouts | [Work with Excel Layouts](ui-how-add-fields-word-report-layout.md) | -->
 
-## Developing report datasets
+## Develop report datasets
 
- Datasets define the data that's available in a report. To change the dataset for a report, you need a developer that knows about the AL programming language and the tools to develop report objects and report extensions.
+Datasets define the data that's available in a report. To change the dataset for a report, you need a developer that knows about the AL programming language and the tools to develop report objects and report extensions.
 
 | To | Go to |
 |--|--|
@@ -43,6 +44,6 @@ The following table provides links to articles that describe options for customi
 
 ## Related information
 
-[Business Intelligence and Reporting Overview](reports-use-reports.md)
+[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

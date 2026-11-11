@@ -1,21 +1,22 @@
 ---
-title: Report selection in Business Central
-description: Learn how to set up the reports used for printing different types of documents in Business Central.
+title: Report Selection for Documents in Business Central
+description: Choose the reports and layouts Business Central uses to print or email sales, purchase, and service documents, and set their printing sequence.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
-ms.topic: article
+ms.reviewer: jswymer
+ms.topic: how-to
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 10/20/2025
+ms.date: 11/11/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Report selection for documents in Business Central
 
-You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices, and which layout is used. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page. You can then use the report when you send or print sales invoices.  
+You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices, and which layout is used. For example, if you have a specific layout for sales invoices, you can specify that report on the **Report Selection - Sales** page. You can then use the report when you send or print sales invoices.
 
-## Available report selections
+## Find report selection pages
 
 The **Report Selections** pages specify the reports to print in different situations and the layout to use. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example.
 
@@ -58,8 +59,8 @@ For example, on the **Report Selection - Sales** and **Report Selection - Purcha
 |-----------|-------------|
 |**Use for Email Body**| Insert summarized information, such as the invoice number, due date, or a link to a payment service in an email.|
 |**Use for Email Attachment**| Attach the related document to the email.|
-|**Email Body Layout Description**|Specify the email body layout to use. Typically, it's a custom report layout. |
-|**Report Layout**|Specify the layout to use for the report. Typically, it's a custom report layout. |
+|**Email Body Layout**|Specify the Word layout to use for the email body. You can select an extension-provided or user-defined layout. |
+|**Report Layout**|Specify the layout to use for the report. You can select an extension-provided or user-defined layout. |
 
 ## Report selection for finance reports
 

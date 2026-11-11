@@ -1,5 +1,5 @@
 ---
-title: Receive and convert electronic documents
+title: Receive and Convert Electronic Documents
 description: Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
 author: brentholtorf
 ms.topic: how-to
@@ -9,7 +9,8 @@ ms.search.form: 189, 190, 191
 ms.date: 10/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: jswymer
+ai-usage: ai-assisted
 ---
 
 # Receive and convert electronic documents
@@ -38,19 +39,19 @@ You can either start the conversion of electronic documents manually, as describ
 
 The following procedure describes how to receive a vendor invoice and convert it to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The procedure is the same when you convert a vendor invoice to a general journal line.  
 
-### Receive and convert an electronic invoice to a purchase invoice
+## Receive and convert an electronic invoice to a purchase invoice
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Incoming Documents**, and then choose the related link.  
 
-2. Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
+1. Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.
 
    On the **Incoming Document Card** page, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
 
-3. In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.  
+1. In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.
 
-4. To map text on the vendor invoice to a specific debit account, on the **Actions** tab, in the **General** group, choose **Map Text to Account**, and then fill the **Text-to-Account Mapping Worksheet** page.  
+1. To map text on the vendor invoice to a specific debit account, on the **Actions** tab, in the **General** group, choose **Map Text to Account**, and then fill the **Text-to-Account Mapping Worksheet** page.
 
-5. Choose the **Create Document** action.  
+1. Choose the **Create Document** action.
 
    A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic document.  
 

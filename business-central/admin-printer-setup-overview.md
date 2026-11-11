@@ -1,6 +1,6 @@
 ---
-title: Printer setup and management overview
-description: Learn about the different printer options in Business Central.  
+title: Printer Setup and Management Overview
+description: Compare Universal Print, email printing, and browser printing in Business Central, and find the setup steps for the printers your organization uses.
 author: jswymer 
 ms.author: jswymer 
 ms.reviewer: jswymer
@@ -9,6 +9,7 @@ ms.topic: overview
 ms.search.form: 2616_Primary
 ms.date: 01/31/2025
 ms.custom: bap-template 
+ai-usage: ai-assisted
 ---
 
 # Printer setup and management overview
@@ -21,16 +22,16 @@ To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offe
 
 |Feature|Description|Web client| Mobile app|App for Teams|
 |-------|-----------|----------|-----------|--------------|
-|Universal Print|Universal Print is a printer management solution available as a cloud service from Microsoft. With this feature, you can set up your printers in Universal Print, then register them for use in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature requires a Universal Print subscription and the **Universal Print Integration** extension.|![works online.](media/check.png)|![works online.](media/check.png)|![works online](media/check.png)|
-|Email Print|This feature lets you set up email-enabled printers. [!INCLUDE[prod_short](includes/prod_short.md)] then sends print jobs to a printer using the printer's email address. This feature requires email-enabled printers, and the **Send to Email Printer** extension.|![works online.](media/check.png)|![works online](media/check.png)|![works online](media/check.png)|
-|Browser printing|The print features of your browser handle the print jobs. If a cloud printer isn't installed and set up, or if an installed printer fails, then printing defaults to the printing options for the browser. The **Printer** field on the report request page displays *(Handled by the browser)*.|![works online](media/check.png)|||
+|Universal Print|Universal Print is a printer management solution available as a cloud service from Microsoft. With this feature, you can set up your printers in Universal Print, then register them for use in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature requires a Universal Print subscription and the **Universal Print Integration** extension.|:::image type="icon" source="media/check.png"::: **Yes**|:::image type="icon" source="media/check.png"::: **Yes**|:::image type="icon" source="media/check.png"::: **Yes**|
+|Email Print|This feature lets you set up email-enabled printers. [!INCLUDE[prod_short](includes/prod_short.md)] then sends print jobs to a printer using the printer's email address. This feature requires email-enabled printers, and the **Send to Email Printer** extension.|:::image type="icon" source="media/check.png"::: **Yes**|:::image type="icon" source="media/check.png"::: **Yes**|:::image type="icon" source="media/check.png"::: **Yes**|
+|Browser printing|The print features of your browser handle the print jobs. If a cloud printer isn't installed and set up, or if an installed printer fails, then printing defaults to the printing options for the browser. The **Printer** field on the report request page displays **(Handled by the browser)**.|:::image type="icon" source="media/check.png"::: **Yes**|**No**|**No**|
 
 Most of the work for setting up printers can be done from the **Printer Management** page in [!INCLUDE[prod_short](includes/prod_short.md)]. Although with Universal Print printers, you might also have to work in Microsoft 365 admin center or the Azure portal.
 
 > [!IMPORTANT]
 > For Business Central on-premises, Universal Print and Email Print require that Microsoft Entra ID or NavUserPassword authentication is used.
 
-## Custom printer extensions
+## Use custom printer extensions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports other custom printer extensions that add even more print features. So if you have any custom printer extensions installed, your application might include print features not described in this article.
 
@@ -41,3 +42,5 @@ If you're an AL developer and want to learn about how to create printer extensio
 - [Set Up Universal Print Printers](admin-printer-setup-universal-print.md)  
 - [Set Up Email Printers](admin-printer-setup-email.md)  
 - [Set Up Default Printers](ui-specify-printer-selection-reports.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

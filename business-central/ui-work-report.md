@@ -1,33 +1,35 @@
 ---
-title: Run and print reports in Business Central
-description: Learn how to add a report to the job queue and schedule it to run on a specific date and time.
+title: Run and Print Reports in Business Central
+description: Run, preview, print, and schedule Business Central reports, apply filters and saved settings, choose layouts, and adjust report language and limits.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.search.form:
-ms.date: 03/21/2025
+ms.date: 11/11/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Run and print reports in Business Central
 
-Reports help you collect and display data based on specific criteria. It organizes and presents the information in an easy-to-read format you can print or save as a file. There are many reports you can access throughout the application. The reports typically provide information related to the context of the page you're on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.
+Reports help you collect and display data based on specific criteria. They organize and present the information in an easy-to-read format you can print or save as a file. There are many reports you can access throughout the application. The reports typically provide information related to the context of the page you're on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.
 
 > [!NOTE]
 > Batch jobs and XMLports do more or less the same as reports, but are used more to process or export data. For example, the **Create Reminders** batch job creates reminder documents to send to customers with overdue payments. This article refers mainly to "reports", but similar information applies to batch jobs and XMLports.
 
-## Get started
+## Find and open reports
 
-You can find reports in the **Reports** menu on selected pages, lists, and cards. You can also use the search ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do.") to find reports by name. For an overview of built-in reports, you can use in [!INCLUDE[prod_short](includes/prod_short.md)], sorted by categories, go to [Report overview](reports-available-reports.md).
+You can find reports in the **Reports** menu on selected pages, lists, and cards. To find a report by name, [!INCLUDE[open-search-lowercase](includes/open-search-lowercase.md)], then enter the report name. Learn more about built-in reports, sorted by category, in [Report overview](reports-available-reports.md).
 
-When you choose a report, a request page titled after the report's name where you set various options and filters that determine what data is included is available. The following sections explain how to use the request page to build, preview, and print a report.
+When you choose a report, a request page opens with the report's name as its title. On this page, you set options and filters that determine what data is included. The following sections explain how to use the request page to build, preview, and print a report.
 
-## <a name="SavedSettings"></a>Use default values&mdash;predefined settings
+<a name="SavedSettings"></a>
 
-Most report request pages include the **Use default values from** field. With this field, you can select predefined settings for the report, which automatically set options and filters. Select an entry from the dropdown list to view the options and filters on the report request page change accordingly.
+## Use default values from predefined settings
+
+Most report request pages include the **Use default values from** field. With this field, you can select predefined settings for the report, which automatically set options and filters. Select an entry from the dropdown list to apply its options and filters to the report request page.
 
 The entry called **Last used options and filters** is always available. This entry sets the report to use the options and filters you used the last time you ran the report.
 
@@ -43,9 +45,7 @@ Use the fields under **Options** and **Filters** to change or limit the informat
 > [!CAUTION]
 > The **Filter** FastTab on a report request page provides a generic filtering capability for reports. These filters are optional.
 >
-> Some reports ignore any such filters, which means no matter what filter is set in the **Filter** FastTab, the output of the report is the same. It's not possible to provide a list of which fields are ignored in which reports, so you need to experiment with the filters when using them.
->
-> **Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** is ignored because filters are fixed for that batch job.
+> A report's processing logic can add or replace filters. Review the report's guidance and verify the output when you use a new filter combination.
 
 ## Preview a report
 
@@ -81,17 +81,19 @@ You can save a report to a PDF document, Microsoft Word document, Microsoft Exce
 If your organization configured OneDrive for system features, instead of being downloaded, Excel workbooks and Word documents are opened in your browser using either Excel or Word for the web.
 
 > [!TIP]
-> The **Microsoft Excel Document (data only)** and **XML Document** options are mostly for advanced purposes. You'd typically use these options to do detailed data analysis. Learn more at [Analyzing report data with Excel and XML](report-analyze-excel.md).
+> The **Microsoft Excel Document (data only)** and **XML Document** options are mostly for advanced purposes. You'd typically use these options to do detailed data analysis. Learn more in [Analyze report data with Excel and XML](report-analyze-excel.md).
 >
-> You can also use **Microsoft Excel Document (data only)** to create new Excel layouts for a given report. Learn more at [Working with Microsoft Excel layouts](ui-excel-report-layouts.md).  
+> You can also use **Microsoft Excel Document (data only)** to create new Excel layouts for a given report. Learn more in [Work with Microsoft Excel layouts](ui-excel-report-layouts.md).
 
-## <a name="ScheduleReport"></a> Schedule a report to run later or periodically
+<a name="ScheduleReport"></a>
 
-You can schedule a single or recurring report to run at a specific date and time. Scheduled reports are entered in the job queue and processed at the scheduled time, similar to other jobs. Select the **Schedule** option after selecting **Send to**, then enter information, such as the printer, and time and date. The report is added to the job queue and runs at the specified time. When the report is processed, the item is removed from the job queue. Learn more at [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md).  
+## Schedule a report to run later or periodically
 
-When you schedule a report to run, you can specify, for example, that it must run every Thursday by setting the **Next Run Date Formula** field to *D4*. Learn more in the [Use date formulas](ui-enter-date-ranges.md#use-date-formulas) section.  
+You can schedule a single or recurring report to run at a specific date and time. Scheduled reports are entered in the job queue and processed at the scheduled time, similar to other jobs. Select the **Schedule** option after selecting **Send to**, then enter information, such as the printer, and time and date. The report is added to the job queue and runs at the specified time. After a one-time report finishes successfully, its entry is removed from the job queue. A recurring report remains scheduled for its next run. Learn more in [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md).
 
-You can save the report to a file (such as Excel, Word, or PDF), print it, or only generate the report. If you save the report to a file, then the processed report is sent to the **Report Inbox** page on your Role Center for you to view it. Learn more at [Share and export reports with the report inbox](ui-work-report-inbox.md).
+When you schedule a report to run, you can specify, for example, that it must run every Thursday by setting the **Next Run Date Formula** field to `WD4`. Learn more in [Use date formulas](ui-enter-date-ranges.md#use-date-formulas).
+
+You can save the report to a file (such as Excel, Word, or PDF), print it, or run a processing-only report without creating a file. If you save the report to a file, the generated file is sent to your **Report Inbox**. Learn more in [Share and export reports with the report inbox](ui-work-report-inbox.md).
 
 ### Manage scheduled recurring reports
 
@@ -99,24 +101,28 @@ Batch jobs generate scheduled reports managed on the **Job Queue Entries** page.
 
 From the **Job Queue Entries** page, you can also change some report parameters, such as the output file type, recurrence, run date, and starting and ending times. Before you edit an existing scheduled report, however, it's necessary to put the report job queue on hold:
 
-1. Select the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do.") icon, enter **Job Queue Entries**, then select the related link.  
-2. On the **Job Queue Entries** page, select the desired report.
-3. Select the **Set On Hold** action.
-4. Open and edit the scheduled report by selecting its status (*On Hold*).
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Job Queue Entries**, then select the related link.
+1. On the **Job Queue Entries** page, select the report.
+1. Select the **Set On Hold** action.
+1. Open and edit the scheduled report by selecting its status, **On Hold**.
 
 After you edit the report options, repeat the first two steps and then select the **Set Status to Ready** action to resume generating the report.
 
-Learn more about job queue management at [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md).  
+Learn more in [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="PrintReport"></a>Print a report
+<a name="PrintReport"></a>
+
+## Print a report
 
 To print a report, select **Print** on the report request page or on the menu bar of the **Preview** page.
 
 When a report uses an Excel layout, you don't have the **Printer** field or **Print** or **Preview** buttons. Instead, there's a **Download** option. To print, select **Download**, then open the downloaded file in Excel and print from there.
 
-### <a name="Printer"></a>Printer
+<a name="Printer"></a>
 
-The **Printer** field on the request page shows the name of printer the report is sent to. To change a printer, just select the printer from the list.
+### Select a printer
+
+The **Printer** field on the request page shows the name of the printer the report is sent to. To change a printer, just select the printer from the list.
 
 > [!NOTE]
 > The **(Handled by the browser)** option indicates there's no designated printer for the report. In this case, the browser handles the printout and displays the standard printing steps, where you can choose a local printer connected to your computer. The **(Handled by the browser)** option isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or app for Microsoft Teams.
@@ -128,7 +134,7 @@ The **Printer** field on the request page shows the name of printer the report i
 
 Specifically for the Thai version of [!INCLUDE[prod_short](includes/prod_short.md)], the **Print** button can't print reports correctly because of limitations in the service that generates the printable PDF file. Instead, you can open the report in Word and then save the report as a printable PDF.  
 
-Or, you can ask your administrator to create a Word report layout for your most used reports. Learn more at [Report and document layouts overview](ui-manage-report-layouts.md).  
+Or, you can ask your administrator to create a Word report layout for your most used reports. Learn more in [Report and document layouts overview](ui-manage-report-layouts.md).
 
 ## Switch the report layout
 
@@ -137,7 +143,7 @@ A report layout controls how the content is arranged, the organization of the co
 - When you're setting up to run a report, view the current layout in the **Report Layout** field on the request page. To temporarily switch to a different layout, select the **Report Layout** field, then select from a list of available layouts for the report.
 - To change the default layout used by a report, go to either the **Report Layouts** or **Report Layout Selection** pages.
 
-Learn more at [Set the layout used by a report](ui-set-report-layout.md). Or, if you want to customize your own report layout, go to [Get started creating report layouts](ui-get-started-layouts.md).
+Learn more in [Set the layout used by a report](ui-set-report-layout.md). Or, if you want to customize your own report layout, go to [Get started creating report layouts](ui-get-started-layouts.md).
 
 ## Change language and format of numbers, dates, and times
 
@@ -146,20 +152,20 @@ By default, the language of text and format of numbers, dates, and times in a re
 Depending on where you specified the language and format settings, [!INCLUDE [prod_short](includes/prod_short.md)] determines the settings to use in the following order:
 
 1. The settings you specify when you generate a report.
-2. The settings specified on the document, which come from the customer or vendor's settings.
-3. The settings specified on the Report AL object.
-4. The settings defined in My Settings.
+1. The settings specified on the document, which come from the customer or vendor's settings.
+1. The settings specified on the report AL object.
+1. The settings defined in **My Settings**.
 
-For more information about the **My Settings** page, go to [Change basic settings](ui-change-basic-settings.md).
+Learn more in [Change basic settings](ui-change-basic-settings.md).
 
-## Advanced options
+## Adjust report resource limits
 
-The fields under the **Advanced** FastTab set limitations on the generated report to control printer resources. You typically don't need to change these settings, unless you're working with a large report. If a report exceeds these limitations when you try to preview or print, a message appears indicating which limitations are exceeded. You can then change the settings to suit your report. Each field, however, has a maximum value you should be aware of:
+The fields under the **Advanced** FastTab set limitations on the generated report to control the server resources used to generate it. You typically don't need to change these settings, unless you're working with a large report. If a report exceeds these limitations when you try to preview or print, a message appears indicating which limitations are exceeded. You can then change the settings to suit your report. Each field, however, has a maximum value. The following limits apply to Business Central online:
 
 |Field|Maximum value|
 |-----|-------------|
 |Maximum rendering time|12:00:00|
-|Maximum rows|1000000|
+|Maximum rows|10000000|
 |Maximum documents|500|
 
 > [!NOTE]
@@ -178,13 +184,13 @@ Many reports in [!INCLUDE[prod_short](includes/prod_short.md)] have a teaching t
 
 With teaching tips, the report creator helps you understand the logic relevant to the report, allowing you to start your reporting task immediately without being blocked. After you dismiss a teaching tip, you can select or hover over the report title on the request page to reopen the teaching tip.
 
-Learn more in [In-product tips](product-help-and-support.md#in-product-tips)
+Learn more in [In-product tips](product-help-and-support.md#in-product-tips).
 
 ### Help pane for a report
 
 When the report request page is open, select the **Help** question mark in the top-right corner of the role center to open the help pane. Here, you find the teaching tip text (if defined on the report). You also find relevant links to documentation articles that explain related topics in more depth.
 
-Learn more in [Help pane](product-help-and-support.md#help-pane)
+Learn more in [Help pane](product-help-and-support.md#help-pane).
 
 ## Related information
 

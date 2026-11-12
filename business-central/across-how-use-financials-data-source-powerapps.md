@@ -1,16 +1,17 @@
 ---
-title: Use your data to create an app| Microsoft Docs
-description: Make your Business Central data available as a data source in Power Apps by specifying the OData URL of your web services to build custom business apps.
+title: Build a Power Apps Canvas App with Business Central Data
+description: Connect a Power Apps canvas app to Business Central APIs to work with customers, items, and other business data in an app for your organization.
 author: jswymer
 ms.topic: how-to
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 10/16/2025
+ms.date: 11/12/2026
 ms.author: jswymer
 ms.reviewer: v-soumramani
 ---
 
-# Connect to your Business Central Data to build a business app using Power Apps
+# Build a Power Apps canvas app with Business Central data
 
 You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available as a data source in Power Apps.  
 
@@ -23,42 +24,25 @@ You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)
 
 ## Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
 
-These steps add a Business Central table, like customers or items, as the data source of a Power Apps app.
+These steps add data exposed by a Business Central API, like customers or items, as a data source in a canvas app.
 
-1. In your browser, go to [powerapps.microsoft.com](https://powerapps.microsoft.com/), and then sign in.
-2. In the navigation pane on the left side, select **+ Create**, and then select **More data sources** on the **Create app** page.
-  
-   <!-- This step opens Power Apps canavs. On first sign-in, you must specify the country/region.  -->
-3. The **Connections** the list shows any existing data connections you have.
-
-   - If there's a **Business Central** connection already, select it, and then select **Create**.
-
-   - If you don't see a Business Central connection, select **+ New connection**, search for and select **Business Central**, and then select **Create**.
-
-   > [!NOTE]
-   > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector.  
-  
-4. Power Apps connects to your [!INCLUDE[prod_short](includes/prod_short.md)]. Sign in using the Business Central account name and password. If you aren't an administrator of your [!INCLUDE[prod_short](includes/prod_short.md)], you may have to sign in with another account.  
-5. Once you've signed in, Power Apps displays a list of *Environments and companies* that are available from [!INCLUDE[prod_short](includes/prod_short.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company*.  
-6. Next, you're presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect**.
-
-These so-called tables are exposed as endpoints by the [!INCLUDE[prod_short](includes/prod_short.md)] connector for Power Apps.  
+1. In [Power Apps](https://make.powerapps.com/), create a blank canvas app or open an existing canvas app for editing. Learn more in [Create a blank canvas app](/powerapps/maker/canvas-apps/create-blank-app).
+1. In Power Apps Studio, select **Data** in the app authoring menu on the left.
+1. Select **Add data**, search for `Business Central`, and select the connector.
+1. Select an existing connection, or select **Add a connection** to create one. When prompted, sign in using the same username and password you use for [!INCLUDE[prod_short](includes/prod_short.md)].
+1. In the **Choose a table** pane, select the Business Central environment, company, API category, and table that contains the data you want to use.
 
 > [!NOTE]
-> If you want to include data from other tables in [!INCLUDE[prod_short](includes/prod_short.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE[prod_short](includes/prod_short.md)].  
+> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, use the separate **Business Central (on-premises)** connector. Learn more in [Dynamics 365 Business Central (on-premises) connector](/connectors/dynamicssmbonprem/).
 
-At this point, you have successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your Power App. You can always add more screens and connect to more data. Learn more at [Create a canvas app from a sample in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
+The connector exposes API endpoints as tables in Power Apps. Learn more in [Add a data connection to a canvas app in Power Apps](/powerapps/maker/canvas-apps/add-data-connection) and [Dynamics 365 Business Central connector](/connectors/dynamicssmbsaas/).
 
-When you have designed and built your app, you can share it with your colleagues. Learn more in [Save and publish a canvas app in Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
+> [!NOTE]
+> If the data you need isn't available through an existing API, work with a developer to expose it through a custom API. Learn more in [Developing a custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
-<!--
-## Sample apps to get started
+At this point, you have successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your Power App. You can always add more screens and connect to more data. Learn more in [Create a canvas app from a sample in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
-As a preview version, Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
-
-## Develop and maintain apps application lifecycle management
-
-As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that let you push and pull Power Platfrom changes to and from enviroments. You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE](https://github.com/BusinessCentralDemos/AL-Go-PTE). Learn more in [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm).-->
+When you have designed and built your app, you can share it with your colleagues. Learn more in [Share a canvas app in Power Apps](/powerapps/maker/canvas-apps/share-app).  
 
 ## Related information
 

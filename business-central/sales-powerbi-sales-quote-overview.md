@@ -1,18 +1,19 @@
 ---
-title: Sales Quote Overview (Power BI report)
-description: The Sales Quote Overview report provides detailed information on your organization's Sales Quote activities. 
+title: Sales Quote Overview Power BI Report
+description: Analyze sales quote counts, amounts, quantities, and adjusted profit in Power BI to monitor prospective sales by customer, salesperson, and item category.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37104_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Sales Quote Overview (Power BI Report)
+# Sales quote overview (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -61,7 +62,7 @@ Try the report here: [Sales Quote Overview](https://businesscentral.dynamics.com
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

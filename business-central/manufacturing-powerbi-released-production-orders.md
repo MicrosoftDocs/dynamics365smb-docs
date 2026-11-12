@@ -1,17 +1,18 @@
 ---
-title: Released Production Orders
+title: Released Production Orders Power BI Report
 description: The Released Production Orders report shows information about all released production orders, including expected versus finished quantities and the variance.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37049_Primary
-ms.date: 11/01/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Released Production Orders (Power BI Report)
+# Released production orders (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -27,7 +28,7 @@ Manufacturing managers use the report to track released production orders. By an
 
 Production supervisors use this report to monitor expected and finished quantities. This information helps you prioritize and schedule the next items for production. For example, if the finished quantity is close to the expected quantity, you can prioritize the next item for production. If the finished quantity is much lower than the expected quantity, you might need to adjust the production schedule to ensure you compete the order on time.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Released Production Orders* report includes the following KPIs and measures:
 
@@ -51,10 +52,18 @@ The *Released Production Orders* report includes the following KPIs and measures
 
 ## Data used in the report
 
-The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]>
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Item
 - Production Order
+- Prod. Order Line
+- Item Ledger Entry
+- Capacity Ledger Entry
+- Value Entry
+- Inventory Adjmt. Entry (Order)
+- Prod. Order Component
+- Prod. Order Routing Line
+- Work Center
 
 ## Try the report
 
@@ -64,7 +73,9 @@ Try the report here: [Released Production Orders](https://businesscentral.dynami
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

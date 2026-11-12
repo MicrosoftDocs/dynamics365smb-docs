@@ -1,18 +1,19 @@
 ---
-title: Machine Center Statistics
-description: The Machine Center Statistics report shows key performance indicators for each machine center.
+title: Machine Center Statistics Power BI Report
+description: Analyze machine center capacity, efficiency, costs, output, scrap, and stop time with the Machine Center Statistics Power BI report in Business Central.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37095_Primary 
-ms.date: 05/26/2025
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Machine Center Statistics (Power BI Report)
+# Machine center statistics (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -87,6 +88,9 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Prod Order Capacity Need
 - Calendar Entry
 - Machine Center
+- Value Entry
+- Work Center
+- Manufacturing Setup
   
 ## Try the report
 
@@ -96,7 +100,9 @@ Try the report here: [Machine Center Statistics](https://businesscentral.dynamic
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

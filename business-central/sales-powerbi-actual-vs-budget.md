@@ -1,22 +1,23 @@
 ---
-title: Actual vs Budget (Power BI Report)
-description: The Actual vs. Budget report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures.
+title: Sales Actual vs. Budget Power BI Report
+description: Compare actual sales amounts with budgets in the Power BI Sales app to track sales targets and analyze variances by item and item category.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37007_Primary
-ms.date: 10/26/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Actual vs Budget (Power BI Report)
+# Actual vs. budget for sales (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Actual vs. Budget** report provides a clear overview of your organization's sales performance by comparing the sales amounts and quantities you sold with the budget figures. This report helps the organization track progress towards sales targets and analyze sales data by item categories and items.
+The **Actual vs. Budget** report provides a clear overview of your organization's sales performance by comparing actual sales amounts with budget amounts. This report helps the organization track progress towards sales targets and analyze sales data by item categories and items.
 
 :::image type="content" source="media/powerbi/sales/sales-actual-vs-budget.png" alt-text="Screenshot of the Actual vs Budget Power BI report" lightbox="media/powerbi/sales/sales-actual-vs-budget.png":::
 
@@ -64,7 +65,7 @@ Try the report here: [Actual vs Budget](https://businesscentral.dynamics.com?pag
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

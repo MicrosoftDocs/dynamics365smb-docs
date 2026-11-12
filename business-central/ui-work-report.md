@@ -128,7 +128,7 @@ The **Printer** field on the request page shows the name of the printer the repo
 > The **(Handled by the browser)** option indicates there's no designated printer for the report. In this case, the browser handles the printout and displays the standard printing steps, where you can choose a local printer connected to your computer. The **(Handled by the browser)** option isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or app for Microsoft Teams.
 
 > [!TIP]
-> The printer selected for you by default is set up on the **Printer Selections** page. Learn more about how you can change the default printer in the [Set up default printers](ui-specify-printer-selection-reports.md#default) section.
+> The printer selected for you by default is set up on the **Printer Selections** page. Learn more about how you can change the default printer in the [Set up default printers](ui-specify-printer-selection-reports.md) section.
 
 ### Print reports in Thai
 

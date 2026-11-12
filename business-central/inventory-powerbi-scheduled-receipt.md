@@ -1,17 +1,17 @@
 ---
-title: Scheduled Receipt (Power BI report)
-description: The Scheduled Receipt report lets you view inbound inventory per document type. 
+title: Scheduled Receipt Power BI Report
+description: Review expected inbound inventory from purchases, production, assemblies, transfers, and sales returns using the Scheduled Receipt Power BI report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37028_Primary
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Scheduled Receipt (Power BI Report)
+# Scheduled receipt (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -27,7 +27,7 @@ Managers use the report to track inventory levels and ensure that stock levels k
 
 For warehouse receipt workers, this report offers detailed information about inbound stock from internal and external sources. This information can help you coordinate future purchasing and production levels.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Scheduled Receipt* report includes the following KPIs:
 
@@ -56,6 +56,13 @@ The report uses data from the following tables in [!INCLUDE [prod_short](include
 - Assembly Header
 - Production Order Lines
 - Transfer Lines
+- Item Ledger Entry
+- Assembly Line
+- Job Planning Line
+- Planning Component
+- Prod. Order Component
+- Service Line
+- Requisition Line
 
 ## Try the report
 
@@ -65,9 +72,11 @@ Try the report here: [Scheduled Receipt](https://businesscentral.dynamics.com?pa
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,18 +1,19 @@
 ---
-title: Sales by Item (Power BI Report)
-description: The Sales by Item report gives a clear picture of your organization's item sales.
+title: Sales by Item Analysis Power BI Report
+description: Analyze sales amounts, quantities, costs, and adjusted profit by item and item category in Power BI to identify trends and monitor item profitability.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37004_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Sales by Item (Power BI Report)
+# Sales by item (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -64,7 +65,7 @@ Try the report here: [Sales by Item](https://businesscentral.dynamics.com?page=3
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

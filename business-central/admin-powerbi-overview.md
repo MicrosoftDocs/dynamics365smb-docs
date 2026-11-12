@@ -1,27 +1,28 @@
 ---
-title: Power BI integration component and architecture overview for Business Central| Microsoft Docs
-description: Learn about the different aspects of Power BI integration with Business Central.
+title: Power BI Integration Architecture for Business Central
+description: Understand the components, data connections, read-only database access, and user workflow that support Power BI integration with Business Central.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/26/2024
+ms.date: 11/11/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 # Power BI integration component and architecture overview
 
 In this article, you'll learn about the different aspects of Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)] to help you understand its implementation and use.
 
-## Components
+## Components of Power BI integration
 
 The following table describes the major components involved with Power BI integration.
 
 |Component|Description|
 |---------|-----------|
 |Power BI|A cloud-based report hosting and management service.|
-|Power BI Desktop|An authoring tool for building reports and dashboards, and allows you to run reports. It's available as a free download on Microsoft Store and is installed locally.|
+|Power BI Desktop|An authoring tool for building and viewing reports. Download it for free from the Microsoft Store and install it locally. Create dashboards in the Power BI service.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Online or on-premises solution with connectors exposed to Power BI and the ability to embed a Power BI part.|
 
 ## What's available from the start
@@ -36,19 +37,19 @@ The following table describes available features.
 |Default Power BI reports on role centers deployed to Power BI|Online|
 |Power BI Apps on Microsoft Marketplace|Online|
 
-## Architecture
+## Architecture and data connections
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as API pages and OData web services.
+[!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector that uses OData. The data source for Power BI reports is exposed as API pages, API queries, and OData web services.
 
-:::image type="content" source="./media/power-bi-architecture.svg" alt-text="Image alt text." lightbox="./media/power-bi-architecture.svg":::
+:::image type="content" source="./media/power-bi-architecture.svg" alt-text="Diagram of Power BI connecting to Business Central data and displaying embedded reports." lightbox="./media/power-bi-architecture.svg":::
 
-Starting in February 2022, Power BI reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica. The database replica is part of the [read scale-out](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) capability in [!INCLUDE[prod_short](includes/prod_short.md)] online. This configuration frees up the main database for transactions, which enhances performance of the system. Connecting to the read-only database replica is an integral part of the Business Central online connector, and requires no extra setup on your part. All new reports will connect to the read-only database replica by default. Old reports will still use the main database. For more information, see [Business Central 2021 Release Wave 2 Plan](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
+Starting in February 2022, new Power BI reports for [!INCLUDE[prod_short](includes/prod_short.md)] online use a secondary, read-only database replica by default. The database replica is part of the [read scale-out](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) capability in [!INCLUDE[prod_short](includes/prod_short.md)] online. This configuration frees up the main database for transactions, which enhances the performance of the system. Connecting to the read-only database replica is an integral part of the Business Central online connector, and requires no extra setup on your part. Older reports might still use the main database. You can override the default with the connector's `UseReadOnlyReplica` option. Learn more in [Customize language, timeout, database replica, or page size](across-how-use-financials-data-source-powerbi.md#advanced-customize-language-timeout-database-replica-or-page-size-for-your-business-central-data-source).
 
-## General Flow
+## Workflow for connecting and publishing reports
 
 The following diagram illustrates the basic workflow for users when connecting [!INCLUDE[prod_short](includes/prod_short.md)] to Power BI.
 
-![Power BI workflow  for integration with Business Central.](./media/power-bi-flow-v2.svg)
+:::image type="content" source="./media/power-bi-flow-v2.svg" alt-text="Diagram of the workflow for connecting Business Central to Power BI and publishing reports.":::
 
 1. User signs up for a Power BI account.
 2. User connects to Power BI from [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -62,7 +63,7 @@ The following diagram illustrates the basic workflow for users when connecting [
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI for consumers](/power-bi/consumer/end-user-consumer)  
-[The 'new look' of the Power BI service](/power-bi/service-new-look)  
+[What is Power BI?](/power-bi/fundamentals/power-bi-overview)\
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI documentation](/power-bi/)  
 [Business Intelligence](bi.md)  

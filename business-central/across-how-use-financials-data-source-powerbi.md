@@ -1,14 +1,15 @@
 ---
-title: Building reports in Power BI Desktop to display Business Central data
-description: Learn how to make your data a Power BI source and build insightful business reports.
+title: Build Power BI Reports with Business Central Data
+description: Connect Power BI Desktop to Business Central data, build accessible reports, publish and share them, and configure advanced connection options.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/16/2025
+ms.date: 11/11/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Build [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for displaying [!INCLUDE [prod_long](includes/prod_long.md)] data
@@ -17,7 +18,7 @@ You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as
 
 This article describes how to start using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] or share them with all users in your organization. When the reports are in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], users with access can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## Get ready
+## Prepare to build Power BI reports
 
 - Sign up for the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)].
 
@@ -46,58 +47,41 @@ This article describes how to start using [!INCLUDE [powerbi-desktop-name](inclu
 
 ## <a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 
-The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)]. Once connected, you can start to build the report.
+The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)]. Once connected, you can start to build the report. The following steps use the new Get Data experience in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)]. Learn more about the new experience in [Get data in Power BI Desktop](/power-bi/connect-data/desktop-data-sources?tabs=new-experience).
 
 1. Start [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)].
-2. Select **Get Data**.
+1. Select **Get data** or **Get data from other sources**. If you don't see **Get data**, select the **File** menu, then **Get data**.
 
-   If you don't see **Get Data**, select the **File** menu, then **Get Data**.
-3. On the **Get Data** page, select **Online Services**.
-4. In the **Online Services** pane, do one of the following steps:
+   If you're prompted to sign in, sign in using the same work account that you use to sign in to [!INCLUDE [prod_short](includes/prod_short.md)].
 
-    - To connect to [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Dynamics 365 Business Central**, then **Connect**.
-    <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
+   > [!NOTE]
+   > The first time you connect to [!INCLUDE[prod_short](includes/prod_short.md)], you might be prompted to sign in. After you connect, you won't be prompted again unless you change or clear the account used for the connection. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms).
 
-5. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
+1. On the **Choose data source** page, search for *Business Central*, and then select **Dynamics 365 Business Central**.
+1. On the **Connect to data source** page, select **Next** to connect to [!INCLUDE [prod_short](includes/prod_short.md)].
 
-    If you aren't signed in to [!INCLUDE [prod_short](includes/prod_short.md)] from [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], you're prompted to sign in.
+1. On the **Choose data** page, expand the environment and company that contain the data you want to use in your report.
 
-    - For [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Sign in**, and then choose the relevant account. Use the same account that you use to sign into [!INCLUDE [prod_short](includes/prod_short.md)]. When done, select **Connect**.
+   The available data sources are grouped by environment and company as follows:
 
-    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the username and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
+   - **Environment name**
+     - **Company name**
+       - **Advanced APIs**
 
-    > [!NOTE]  
-    > After you connect to [!INCLUDE[prod_short](includes/prod_short.md)], you won't be prompted again to sign in. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
+         Lists advanced APIs published by Microsoft, such as the [Business Central automation APIs](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis), and APIs published by other organizations, also known as custom APIs. Custom APIs are further grouped according to the [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) properties of the API source code.
 
-6. When connected, [!INCLUDE [powerbi-name](includes/powerbi-name.md)] contacts the [!INCLUDE [prod_short](includes/prod_short.md)] service. The **Navigator** window displays the data sources that are available for building reports. Select a folder to expand it and show the available data sources.
+       - **Standard APIs v2.0**
 
-   These data sources represent all APIs and web services that are published for [!INCLUDE [prod_short](includes/prod_short.md)], grouped by environments and companies. With [!INCLUDE [prod_short](includes/prod_short.md)] online, **Navigator** has the following structure:
+         Lists the standard data APIs exposed by [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). These APIs provide access to [!INCLUDE[prod_short](includes/prod_short.md)] data, such as customers, vendors, items, general ledger entries, dimensions, payment methods, and units of measure.
 
-    - **Environment name**
-      - **Company name**
-        - **Advanced APIs**
+       - **Web services (legacy)**
 
-          This folder lists advanced APIs published by Microsoft, like the [Business Central automation APIs](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) and APIs published by other organizations (these APIs are called Custom APIs). Custom APIs are further grouped in folders according to the [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) properties of the API source code.
+         Lists pages and queries published as OData web services in [!INCLUDE[prod_short](includes/prod_short.md)]. Codeunits aren't available as OData data sources. We recommend using APIs instead of OData web services when possible.
 
-        - **Standard APIs v2.0**
+1. Select the data source or sources that you want to add to your data model, and then select **Load**.
+1. To add more [!INCLUDE [prod_short](includes/prod_short.md)] data later, repeat the previous steps.
 
-          This folder lists the data APIs exposed in the [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). You use these APIs to read data from the [!INCLUDE [prod_short](includes/prod_short.md)] database, such as master data (customer, vendor, item, and so on), transactions (general ledger entries, customer entries, and so on), or setup data (dimensions, payment methods, unit of measure, and so on).
-
-        - **Web services \(legacy)**
-
-          This folder lists pages, codeunits, and queries that are published as web services in [!INCLUDE [prod_short](includes/prod_short.md)]. Using this legacy method to read data from [!INCLUDE [prod_short](includes/prod_short.md)] is discouraged. We suggest using APIs instead.
-
-    <!--
-    > [!NOTE]
-    > The structure for Business Central on-premises is different because it doesn't support API pages.-->
-
-7. Select the data source or sources that you want to add to your data model, and then select the **Load** button.
-8. If later you want to add more Business Central data, you can repeat the previous steps.
-
-Once the data is loaded, you can see it in the right navigation on the page. At this point, you're connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data, and you can begin building your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] report.  
-
-> [!TIP]
-> Learn more in [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started) and for information about using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)].
+After the data is loaded, it appears in the **Data** pane on the right side of [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)]. You're now connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and can start building your [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] report.
 
 ## Create accessible reports
 
@@ -118,14 +102,14 @@ Before building your report, we recommend that you download and import the [!INC
 
 The theme file is available as a json file on Microsoft Power BI Community Themes Gallery. To download the theme file, do the following steps:
 
-1. Go to [Microsoft Power BI Community Themes Gallery for Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
+1. Visit [Microsoft Power BI Community Themes Gallery for Microsoft Dynamics 365 Business Central](https://community.fabric.microsoft.com/discussions/ThemesGallery/microsoft-dynamics-365-business-central/385875).
 2. Select the download attachment **Microsoft Dynamics Business Central.json**.
 
 ### Import the theme on a report
 
-After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. Learn more in [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, import it to your reports. In the ribbon, select **Design** > **Import theme**, and then browse for the **Microsoft Dynamics Business Central.json** file. Learn more in [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## Publish reports
+## <a name="publish-reports"></a>Publish reports to Power BI
 
 After you create or modify a report, you can publish the report to your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] and also share it with others in your organization. After you publish a report, it's available in [!INCLUDE [prod_short](includes/prod_short.md)]. The report also becomes available for selection in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -137,7 +121,7 @@ There are a couple of ways to share reports:
 
 - Share a report from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] (recommended)
 
-    If you have a [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] license or use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)], you can share the report directly from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Learn more in [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+    You need a Power BI Pro or Premium Per User (PPU) license to share reports from the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Recipients also need Pro or PPU unless both the report and its semantic model are hosted in Premium capacity or Fabric F64 or larger capacity. Content in a PPU workspace requires PPU licenses for recipients. Learn more in [Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 - Distribute reports as .pbix files.
 
@@ -196,7 +180,7 @@ in
 
 You can now manually edit this query to make the changes that suite your needs.
 
-### Function `Dynamics365BusinessCentral.ApiContentsWithOptions`
+### Connect with the ApiContentsWithOptions function
 
 In the query above, the function `Dynamics365BusinessCentral.ApiContentsWithOptions` is responsible for connecting to [!INCLUDE [prod_short](includes/prod_short.md)] and retrieve the data. This function has 4 optional parameters that aren't provided in the default query.
 
@@ -225,30 +209,30 @@ The [!INCLUDE [powerbi-connector-name](includes/powerbi-connector-name.md)] supp
 
 |Advanced Option|Description|Default|Learn more at|
 |-|-|-|-|
-|AcceptLanguage|This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. It sets the language in which the [!INCLUDE [prod_short](includes/prod_short.md)] API session runs. It influences the language of error messages, formatted values in AL, and other values that depend on language or culture.<br><br>Setting this parameter improves user satisfaction and makes the data more accessible and relevant.|*not specified*|[Use locale values in multiple-language Power BI reports](/power-bi/guidance/multiple-language-locale#load-a-report-in-power-bi).|
+|AcceptLanguage|This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. It sets the language in which the [!INCLUDE [prod_short](includes/prod_short.md)] API session runs. It influences the language of error messages, formatted values in AL, and other values that depend on language or culture.<br><br>This option doesn't select the display language of the Power BI report.|*not specified*|[Accept-Language HTTP header](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips#AcceptLanguage).|
 |ODataMaxPageSize|This parameter limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It sets the maximum number of records to return for each page when calling an API. For example, if your table **Customers** has 13,000 records and ODataMaxPageSize is set to 5000, Power BI makes 3 API calls to get your customers. The first call gets 5,000 records, the next one gets 5000 more, and the last call gets the remaining 3000. This option can't be higher than the maximum page size enforced by Business Central, which is 20000.<br><br>Setting this parameter ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service.|5000|[ODataPreferenceHeader.MaxPageSize Property](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize)|
-|Timeout|This parameter defines the maximum duration for a request before cancellation. It sets the timeout for each single API call to Business Central. Its value can't exceed the timeout enforced on the Business Central service, which is currently 10 minutes (00:10:00).<br><br>Setting this parameter helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. |00:08:00|[OData.Feed](/powerquery-m/odata-feed)|
+|Timeout|This parameter defines the maximum duration for a request before cancellation. It sets the timeout for each single API call to Business Central. Increasing this value doesn't extend the OData request timeout enforced by Business Central online, which is 8 minutes (00:08:00).<br><br>Setting this parameter helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. |00:08:00|[OData.Feed](/powerquery-m/odata-feed) and [Business Central online service limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online)|
 |UseReadOnlyReplica|This parameter determines whether requests target the primary database or a read-only replica. Offloading read operations from the primary database can significantly boost performance.<br><br> Setting this property leads to faster data retrieval and improved system stability, especially during peak usage times.|true||
 
 ### Configure the advanced options
 
 1. Follow the steps to view the Power Query code from Power BI Advanced Editor
-2. In **Advanced Editor**, locate the line that starts with `Source =`:
+1. In **Advanced Editor**, locate the line that starts with `Source =`.
 
    ```powerquery
    Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
    ```
 
-3. In the line, replace the fourth parameter of `Dynamics365BusinessCentral.ApiContentsWithOptions` with a Power Query record of properties and values you want to set, for example:
+1. In the line, replace the fourth parameter of `Dynamics365BusinessCentral.ApiContentsWithOptions` with a Power Query record of properties and values you want to set, for example:
 
    ```powerquery
-   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"]),
    ```
 
-4. Select **Done** to close **Advanced Editor**.
-5. Select **Close & Apply** to save the changes and close Power Query Editor.
+1. Select **Done** to close **Advanced Editor**.
+1. Select **Close & Apply** to save the changes and close Power Query Editor.
 
-## Fix problems
+## <a name="fix-problems"></a>Troubleshoot Power BI connections
 
 ### "Expression.Error: The environment 'Production' doesn't exist." error when specifying a Business Central environment
 

@@ -1,18 +1,18 @@
 ---
-title: Sales Demographics (Power BI report)
-description: The Sales Demographics provides a comprehensive analysis of sales performance across different demographic segments, offering valuable insights into customer behavior and preferences to optimize sales strategies.
+title: Sales Demographics Power BI Report
+description: Analyze sales and adjusted profit by customer location, posting group, document type, and item category in Power BI to understand sales patterns.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37100_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Sales Demographics (Power BI Report)
+# Sales demographics (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -32,7 +32,7 @@ Sales managers want to ensure that the team meets its revenue targets. You want 
 
 Using the report, you might find out that customers in the Corporate customer posting group are contributing significantly more to overall revenue than customers in Retail. Additionally, you might find that sales orders for ergonomic chairs are growing faster than leather office chairs. You use this information to direct your sales team to focus on up-selling ergonomic chairs to corporate clients.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The **Sales Demographics** report includes the following KPIs and measures:
 
@@ -65,7 +65,7 @@ Try the report here: [Sales Demographics](https://businesscentral.dynamics.com?p
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

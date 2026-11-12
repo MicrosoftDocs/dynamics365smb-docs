@@ -1,24 +1,25 @@
 ---
-title: Sales Month-to-Date (MTD) (Power BI Report)
-description: The *Month-to-Date (MTD)* report allows you to monitor the progress of their sales revenue for the current month
+title: Sales Month-to-Date (MTD) Power BI Report
+description: Track accumulated sales and profit for the current fiscal month in the Power BI Sales app and review the customers contributing to monthly revenue.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37003_Primary
-ms.date: 10/26/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Month-to-Date (MTD) (Power BI Report)
+# Month-to-date sales (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Month-to-Date (MTD)** report is a must-have report for executives and managers. The report helps them monitor the progress of their sales revenue for the current month. This report provides a detailed overview of the total revenue generated from sales activities from the start of the month up until the current date.
+The **Month-to-Date (MTD)** report helps executives and managers monitor sales revenue for the current fiscal month. It accumulates sales from the start of the fiscal month through the last date in the current date context.
 
 > [!NOTE]
-> The month to date (MTD) figure doesn't include revenue generated on the current date because sales activities might still be ongoing.
+> The figures depend on the data available at the last semantic model refresh and the report's date filters. The MTD calculation doesn't automatically exclude the current date.
 
 :::image type="content" source="media/powerbi/sales/sales-month-to-date.png" alt-text="Screenshot of the Month-to-Date (MTD) Power BI report" lightbox="media/powerbi/sales/sales-month-to-date.png":::
 
@@ -34,7 +35,7 @@ Sales managers can use the report to analyze and compare the organization's curr
 
 The report includes the following key performance indicators (KPI) and measures:
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)  
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)  
 - [**Sales Amount MTD (Fiscal)**](sales-powerbi-sales-kpis.md#sales-amount-mtd-fiscal)
 - [**Gross Profit MTD (Fiscal)**](sales-powerbi-sales-kpis.md#gross-profit-mtd-fiscal)
 
@@ -46,8 +47,10 @@ The report includes the following key performance indicators (KPI) and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Sales Line
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 - Customer
 
 ## Try the report
@@ -58,7 +61,7 @@ Try the report here: [Month-to-Date](https://businesscentral.dynamics.com?page=3
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

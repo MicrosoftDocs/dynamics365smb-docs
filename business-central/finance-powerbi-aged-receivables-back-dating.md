@@ -1,17 +1,18 @@
 ---
-title: Aged Receivables (Back Dating)
+title: Aged Receivables (Back Dating) Power BI Report
 description: The Aged Receivables (Back Dating) report provides an overview of outstanding customer invoices categorized by payment terms and grouped into aging buckets.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36993_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Aged Receivables (Back Dating) (Power BI report)
+# Aged receivables (back dating) (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -28,7 +29,7 @@ The audiences for the report are:
 
 Finance administrators use the report to identify overdue invoices and prioritize collection efforts. By reviewing the aging buckets, you can focus on customers with significant outstanding balances that don't align with payment terms. Expanding the report matrix can help you identify specific invoices that are past due and need action.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Aged Receivables (Back Dating)* report includes the following KPIs and measures: 
 
@@ -59,7 +60,7 @@ Try the report here: [Aged Receivables (Back Dating)](https://businesscentral.dy
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -68,3 +69,5 @@ Try the report here: [Aged Receivables (Back Dating)](https://businesscentral.dy
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

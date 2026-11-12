@@ -1,18 +1,18 @@
 ---
-title: Sustainability Overview
-description: The Sustainability Overview gives you a high-level view of all the key sustainability metrics.
+title: Sustainability Overview Power BI Report
+description: Review emissions, water usage, waste, and progress toward sustainability goals in Business Central with the Sustainability Overview Power BI report.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
-ms.search.form: 
-ms.date: 05/26/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-overview
 ---
 
-# Sustainability Overview (Power BI Report)
+# Sustainability overview (Power BI report)
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
@@ -41,8 +41,11 @@ The Sustainability Overview report includes the following KPIs and measures:
 - [Water Realized (%)](sustainability-powerbi-kpis.md#water-realized-)
 - [Waste Realized (%)](sustainability-powerbi-kpis.md#waste-realized-)
 - [CO2e Emissions](sustainability-powerbi-kpis.md#co2e-emissions)
-- [CO2 Baseline](sustainability-powerbi-kpis.md#co2e-emissions)
-- [CO2 Current Value](sustainability-powerbi-kpis.md#co2-current-value)
+- [CO2e Baseline](sustainability-powerbi-kpis.md#co2e-baseline)
+- [CO2e Current Value](sustainability-powerbi-kpis.md#co2e-current-value)
+- [CO2 Emissions](sustainability-powerbi-kpis.md#co2-emissions)
+- [Water Intensity](sustainability-powerbi-kpis.md#water-intensity)
+- [Waste Intensity](sustainability-powerbi-kpis.md#waste-intensity)
 
 Choose the link for a KPI to learn more about what it means, how it's calculated, and what data is used in the calculations.
 
@@ -53,16 +56,20 @@ Choose the link for a KPI to learn more about what it means, how it's calculated
 The Sustainability Overview report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Sustainability Ledger Entry
+- Sustainability Account
 - Sustainability Account Category
+- Sustainability Goals
 
 ## Try the report
 
-Try the report here: [Sustainability Overview](https://businesscentral.dynamics.com?page=37084)
+Try the report here: [Sustainability Overview](https://businesscentral.dynamics.com?page=6279)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Related information
 
-[Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)  
+[Sustainability Power BI app](sustainability-powerbi-app.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,18 @@
 ---
-title: Detailed Customer Ledger Entries (Power BI report)
-description: The Detailed Customer Ledger Entries report provides a detailed view of individual transactions from the Detailed Customer Ledger, enhanced with information from customer ledger entries.
+title: Detailed Customer Ledger Entries Power BI Report
+description: Review detailed customer transactions and related customer ledger information in Business Central with the Detailed Customer Ledger Entries Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36997_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Detailed Customer Ledger Entries (Power BI report)
+# Detailed customer ledger entries (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -49,7 +50,7 @@ Try the report here: [Detailed Customer Ledger Entries](https://businesscentral.
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -58,3 +59,5 @@ Try the report here: [Detailed Customer Ledger Entries](https://businesscentral.
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

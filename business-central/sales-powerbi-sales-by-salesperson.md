@@ -1,18 +1,19 @@
 ---
-title: Sales by Salesperson (Power BI Report)
-description: The Sales by Salesperson report provides an overview of sales performance broken down by salesperson.
+title: Sales by Salesperson Power BI Report
+description: Compare sales amounts, quantities, adjusted profit, and estimated opportunity value by salesperson in Power BI to monitor individual sales performance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37006_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Sales by Salesperson (Power BI Report)
+# Sales by salesperson (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -69,7 +70,7 @@ Try the report here: [Sales by Salesperson](https://businesscentral.dynamics.com
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

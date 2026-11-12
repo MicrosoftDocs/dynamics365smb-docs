@@ -1,14 +1,15 @@
 ---
-title: Use back links to explore aggregated data in visuals  
-description: When you're analyzing a visual in Power BI, back links let you go to the data behind the graphic.
+title: Use Power BI Back Links to Explore Business Central Data
+description: Use back links in Business Central Power BI reports to open the transactions behind a visual and validate, audit, or reconcile aggregated figures.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: privacy, trial, Microsoft services
-ms.date: 06/11/2025
+ms.date: 11/11/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Use back links to explore the data behind visuals
@@ -19,9 +20,9 @@ Back links make it easy to go from the aggregated data in reports in Power BI to
 
 Back links are added to tables and matrices that display aggregated values or detail entries in Power BI. Some examples include:
 
-- [**Daily Sales by Date**](sales-powerbi-daily-sales.md): Quickly go to detailed sales transactions for a specific day.
-- [**Income Statement by Month**](finance-powerbi-income-statement.md): View the underlying G/L entries for monthly financial summaries.
-- [**Moving Annual Total Details**](purchases-powerbi-moving-annual-total.md): Drill down to transaction-level details for moving annual totals.
+- [Daily Sales by Date](sales-powerbi-daily-sales.md): Quickly go to detailed sales transactions for a specific day.
+- [Income Statement by Month](finance-powerbi-income-statement.md): View the underlying G/L entries for monthly financial summaries.
+- [Moving Annual Total Details](purchases-powerbi-moving-annual-total.md): Drill down to transaction-level details for moving annual totals.
 
 ## How back links work
 
@@ -31,9 +32,9 @@ The DAX measure retrieves and concatenates the **Tenant ID**, **Environment Name
 
 The filter context in Power BI, such as the **Date** filter, and other key fields construct the URL. The URL filters the relevant transactions or documents in [!INCLUDE [prod_short](includes/prod_short.md)] that correspond to the data displayed in the Power BI report.
 
-## Example
+## Example of an income statement back link
 
-This example uses the [**Income Statement by Month**](finance-powerbi-income-statement.md) matrix in the Power BI Finance App to illustrate the advantages that back links provide.
+This example uses the [Income Statement by Month](finance-powerbi-income-statement.md) matrix in the Power BI Finance App to illustrate the advantages that back links provide.
 
 The **Income Statement by Month** matrix in Power BI shows aggregated financial figures by G/L accounts and months.
 
@@ -55,9 +56,11 @@ For example, to show the transactions that make up the figure of the "5460 Cost 
 
 :::image type="content" source="media/powerbi-back-links-filtered-gl-entries.png" alt-text="Screenshot of the General Ledger Entries that make up the aggregated figure in Power BI" lightbox="media/powerbi-back-links-filtered-gl-entries.png":::
 
-## Limitations
+## Limitations of back-link filters
 
-Currently, back links don't consider all visual and page filters applied in the Power BI report. The URL includes only **Date Filters**.
+Back links don't necessarily include every visual and page filter applied in the Power BI report. The filters depend on the DAX measure used by the link. For example, Finance app back links can include G/L account, posting date, and dimension set filters.
+
+If the generated URL exceeds 2,000 characters, a back link opens the target page without filters. Check the filters in [!INCLUDE[prod_short](includes/prod_short.md)] before you reconcile the entries with the report.
 
 ## Related information
 

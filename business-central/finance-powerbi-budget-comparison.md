@@ -1,17 +1,18 @@
 ---
-title: Budget Comparison
-description: The Budget Comparison report provides a comparative analysis of G/L amounts to G/L budget amounts by month. 
+title: Budget Comparison Power BI Report
+description: Compare actual general ledger amounts with monthly budgets in Business Central, and analyze variances with the Budget Comparison Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36987_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Budget Comparison (Power BI report)
+# Budget comparison (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -28,7 +29,7 @@ The audiences for the report are:
 
 Executive or finance managers use the report to monitor your company's financial performance. By filtering by different G/L budgets, shortcut dimensions, and fiscal periods, you can assess performance against various benchmarks. Analyzing the net change and variance metrics helps you identify accounts that need attention, ultimately leading to improved planning and more strategic decision-making.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Budget Comparison* report includes the following KPIs and measures: 
 
@@ -57,7 +58,7 @@ Try the report here: [Budget Comparison](https://businesscentral.dynamics.com?pa
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -66,3 +67,5 @@ Try the report here: [Budget Comparison](https://businesscentral.dynamics.com?pa
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

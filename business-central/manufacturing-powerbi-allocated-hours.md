@@ -1,21 +1,22 @@
 ---
-title: Allocated Hours
-description: The Allocated Hours report provides an overview of the allocated time, in hours, for each work center.
+title: Allocated Hours Manufacturing Power BI Report
+description: Analyze allocated production time by work center, source item, capacity type, and order status with the Allocated Hours Power BI report in Business Central.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37043_Primary
-ms.date: 11/01/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Allocated Time (Power BI Report)
+# Allocated hours (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Allocated Time** report gives an overview of the allocated time, in hours, for each work center. The view of allocated hours can help you identify over and underused work centers. Additionally, the report includes indicators such as the load percentage, allocated time (hours), and capacity available (hours) for a quick summary of resource use.
+The **Allocated Hours** report shows allocated production time by work center, source item, capacity type, and production order status. It excludes finished production orders. The report compares allocated time with expected capacity need for individual production orders. Time values use the **Show Capacity In** unit from **Manufacturing Setup**, so they aren't necessarily hours.
 
 :::image type="content" source="media/manufacturing/allocated-hours-v26.png" alt-text="Screenshot of the Allocated Hours Power BI Report" lightbox="media/manufacturing/allocated-hours-v26.png":::
 
@@ -25,9 +26,9 @@ Manufacturing managers use the report to plan and allocate resources effectively
 
 For example, if you notice that a work center is underused, you can assign more work orders to that center to optimize the use of its resources. Conversely, if a work center is over utilized, you can reallocate work orders or consider adding more resources to that work center.
 
-Manufacturing workers use this report to optimize the use of resources. You can analyze the allocated time in hours of each work center, and then plan your work accordingly.
+Manufacturing workers use this report to optimize the use of resources. You can analyze each work center's allocated time in the selected capacity unit, and then plan your work accordingly.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Allocated Hours* report includes the following KPIs and measures:
 
@@ -45,6 +46,8 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Production Order Capacity Need
 - Work Center
 - Work Center Group
+- Production Order
+- Manufacturing Setup
 
 ## Try the report
 
@@ -54,7 +57,9 @@ Try the report here: [Allocated Hours](https://businesscentral.dynamics.com?page
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,18 +1,19 @@
 ---
-title: Sales by Customer (Power BI Report)
-description: The *Sales by Customer* report gives a clear picture of your organization's customers and their sales activities.
+title: Sales by Customer Power BI Report
+description: Analyze sales, costs, and adjusted profit by customer in the Power BI Sales app to identify major customers and their contribution to profitability.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37005_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Sales by Customer (Power BI Report)
+# Sales by customer (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -67,7 +68,7 @@ Try the report here: [Sales by Customer](https://businesscentral.dynamics.com?pa
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

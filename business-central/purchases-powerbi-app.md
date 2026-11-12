@@ -1,14 +1,14 @@
 ---
-title: Power BI Purchase app
-description: The Power BI Purchases app provides comprehensive analytics on purchases to stakeholders at all levels of your organization.
+title: Power BI Purchases App for Purchasing Analytics
+description: Explore purchasing reports in the Power BI Purchases app to compare spending, track budgets, and analyze vendors, items, and purchasing trends.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
-ms.topic: concept-article
+ms.topic: overview
 ms.search.keywords: reporting
-ms.search.form: 37061_Primary, 37009, 37010, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37112, 37115, 37116, 37117, 37118, 36951,
-ms.date: 12/16/2025
+ms.search.form: 37061_Primary, 37009, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37112, 37115, 37116, 37117, 37118, 36951
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # [!INCLUDE [power-bi-purchasing-app-name](includes/power-bi-purchasing-app-name.md)]
@@ -66,7 +66,7 @@ As a purchaser for a manufacturing company, you source materials for production.
 
 You notice that the company spent significantly on a particular category of materials. The purchase amount increased compared to the previous year. You decide to investigate by looking at the [Purchases by Vendor](purchases-powerbi-purchases-by-vendor.md) report, which shows the breakdown of purchases by vendor.
 
-You identify that one vendor consistently provided the materials at a higher price than other vendors. To analyze spending and manage your supplier relationship, use the [Purchases by Vendor](purchases-powerbi-purchases-by-vendor.md) report. The report shows the purchasing activities for each vendor, including the amount spent, the number of transactions, and the vendors that supplied a specific category of material.
+You identify that one vendor consistently provided the materials at a higher price than other vendors. To analyze spending and manage your supplier relationship, use the [Purchases by Vendor](purchases-powerbi-purchases-by-vendor.md) report. The report shows purchase amounts and quantities for each vendor, including the vendors that supplied a specific category of material.
 
 :::image type="content" source="media/purchases/purchases-by-vendor-table.png" alt-text="Screenshot of the Purchases by Vendor table" lightbox="media/purchases/purchases-by-vendor-table.png":::
 
@@ -100,7 +100,7 @@ The following table describes how you can use the reports in the Power BI Purcha
 ## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
 [Purchasing analytics overview](purchasing-analytics-overview.md)  

@@ -1,17 +1,18 @@
 ---
-title: Year-Over-Year (Power BI Report)
-description: The Year-Over-Year report is an important tool that business leaders use to analyze purchasing performance and track spending trends over time.
+title: Year-Over-Year Power BI Report
+description: Compare current and previous fiscal year purchase amounts in Power BI to analyze spending changes and explore purchasing trends by item category.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37015_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Year-Over-Year (Power BI Report)
+# Year-over-year for purchases (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -31,11 +32,11 @@ COOs ensure that the purchasing department operates efficiently and effectively.
 
 Purchasing managers ensure that the company sources goods at the best price without compromising quality. Use this report to track purchasing trends across different categories and identify areas where you can save. For example, you might notice a rapid increase in purchases of a category of products. With this information in mind, you can work with the manufacturing team to identify whether to change item planning or supplier selection to optimize product cost and quality.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Year-Over-Year* report includes the following KPIs and measures: 
 
-- [**Current Year**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Current Year**](purchases-powerbi-kpis.md#purchase-lcy)
 - [**Previous Year (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-py-fiscal)
 - [**Purchase Amount YOY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-yoy-fiscal)
 - [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
@@ -62,7 +63,7 @@ Try the report here: [Year-Over-Year](https://businesscentral.dynamics.com?page=
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

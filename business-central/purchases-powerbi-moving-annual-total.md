@@ -1,17 +1,18 @@
 ---
-title: Moving Annual Total (MAT) (Power BI Report)
-description: The Moving Annual Total (MAT) report calculates a total of purchase over the last 12 months.
+title: Moving Annual Total (MAT) Power BI Report
+description: Compare rolling 12-month purchase totals with the previous year's totals in Power BI to monitor long-term spending trends and purchasing growth.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37013_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Moving Annual Total (MAT) (Power BI Report)
+# Moving annual total for purchases (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -28,11 +29,11 @@ CEOs can use the report to monitor the overall purchasing performance over the l
 Purchasing managers can use this report to analyze the purchasing data over the last 12 months, and analyze purchase amounts for specific periods. You can identify purchasing performance by analyzing the MAT growth and growth percentage in each month. These measures offer insight into how your team performs during each period. By identifying the areas where purchasing increased, you can take necessary actions to optimize the purchasing process and ensure you're using purchasing budget efficiently.
 
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
-- [**Moving Annual Total (MAT)**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
+- [**Moving Annual Total (MAT)**](purchases-powerbi-kpis.md#purchase-amount-mat-fiscal)
 - [**Previous Year Moving Annual Total (PYMAT)**](purchases-powerbi-kpis.md#purchase-amount-pymat-fiscal)
 - [**Moving Annual Total Growth**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
 - [**Moving Annual Total Growth %**](purchases-powerbi-kpis.md#purchase-amount-matg--fiscal)
@@ -58,7 +59,7 @@ Try the report here: [Moving Annual Total (MAT)](https://businesscentral.dynamic
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

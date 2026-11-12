@@ -1,17 +1,18 @@
 ---
-title: Expected Capacity Need (Power BI report)
-description: The Expected Capacity Need report provides insights into the capacity you expect to require for each work center.
+title: Expected Capacity Need Power BI Report
+description: Review expected production capacity needs by work center, machine center, item, and unfinished order with the Expected Capacity Need Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37044_Primary
-ms.date: 11/01/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Expected Capacity Need (Power BI report)
+# Expected capacity need (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -23,11 +24,11 @@ The **Expected Capacity Need** report provides insights into the capacity you ex
 
 The report is meant for manufacturing managers and supervisors.
 
-Manufacturing managers use the report to view the expected capacity needs of each work center. The data can help you allocate resources efficiently to meet production demands. This report shows the backlog of production orders and the work center availability to meet the demands. You can further break down production orders to see which orders are scheduled for each work center group and take actions to handle the expected capacity need.
+Manufacturing managers use the report to view expected capacity needs by work center, machine center, and source item. The report excludes finished orders and compares expected capacity need with actual usage by production order. Use this information to plan resources for unfinished orders.
 
 Production supervisors use this report to understand the workload on your work center group, and take action to handle the expected capacity need. The report provides insights into the expected capacity need, capacity used, and capacity used variance. These insights help you optimize the use of resources.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Expected Capacity Need* report includes the following KPIs and measures:
 
@@ -46,6 +47,10 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Production Order
 - Production Order Routing Line
 - Capacity Ledger Entry
+- Prod. Order Capacity Need
+- Work Center
+- Machine Center
+- Manufacturing Setup
 
 ## Try the report
 
@@ -55,7 +60,9 @@ Try the report here: [Expected Capacity Need](https://businesscentral.dynamics.c
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

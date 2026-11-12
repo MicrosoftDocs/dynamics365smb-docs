@@ -1,21 +1,22 @@
 ---
-title: Consumption Variance (Power BI report)
-description: The Consumption Variance report highlights the variance between expected and actual consumption costs on a monthly basis.
+title: Consumption Variance Power BI Report
+description: Compare actual material costs with expected and standard costs by production order and item using the Consumption Variance Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37046_Primary
-ms.date: 11/01/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Consumption Variance (Power BI Report)
+# Consumption variance (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Consumption Variance** report highlights the variance between expected and actual consumption costs on a monthly basis. The report can give a better understanding of consumption and ways to optimize production processes.
+The **Consumption Variance** report compares actual material costs with expected and standard costs by production order and item. It includes released and finished production orders. The report can give a better understanding of consumption and ways to optimize production processes.
 
 :::image type="content" source="media/manufacturing/consumption-variance-v26.png" alt-text="Screenshot of the Consumption Variance Power BI Report" lightbox="media/manufacturing/consumption-variance-v26.png":::
 
@@ -27,7 +28,7 @@ Manufacturing managers use the report to monitor and manage the consumption cost
 
 Production supervisors use this report to track the consumption costs of production lines and ensure they operate within budget. By tracking the actual costs against the expected costs, you can quickly find and report deviations so the manufacturing manager can address them.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Consumption Variance* report includes the following KPIs and measures:
 
@@ -49,6 +50,11 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Production Order
 - Item Ledger Entry
+- Value Entry
+- Prod. Order Component
+- Prod. Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
   
 ## Try the report
 
@@ -58,7 +64,9 @@ Try the report here: [Consumption Variance](https://businesscentral.dynamics.com
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

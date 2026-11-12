@@ -1,17 +1,16 @@
 ---
-title: Finance App KPIs and measures (Power BI)
-description: Get an overview of all the KPIs and measures in the semantic model for the Finance Power BI app.
+title: Finance App KPIs and Measures (Power BI)
+description: Explore finance KPIs and measures in the Business Central Power BI Finance app semantic model, including calculations and the data each measure uses.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
-ms.topic: article
+ms.topic: reference
+ai-usage: ai-assisted
 ms.search.keywords: reporting
-ms.search.form: 
 ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Power BI Finance app KPIs and measures
+# Power BI finance app KPIs and measures
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -39,7 +38,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - [No. of Days](#no-of-days)
 
 
-### % Change in Operating Profit - EBIT
+### % change in operating profit - EBIT
 **Formula**  
 ( [Operating Profit - EBIT (Balance at Date)](#operating-profit---ebit-balance-at-date) - [Operating Profit - EBIT (Beginning Balance)](#operating-profit---ebit-beginning-balance) ) / [Operating Profit - EBIT (Beginning Balance)](#operating-profit---ebit-beginning-balance)
 
@@ -47,7 +46,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### % Change in Revenue 
+### % change in revenue
 **Formula**  
 ( [Revenue (Balance at Date)](#revenue-balance-at-date) - [Revenue (Beginning Balance)](#revenue-beginning-balance) ) / [Revenue (Beginning Balance)](#revenue-beginning-balance)
 
@@ -55,7 +54,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### Asset Turnover Ratio 
+### Asset turnover ratio
 **Formula**  
 [Revenue](#revenue) / [Assets](#assets)
 
@@ -63,7 +62,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### Average Collection Period (Days) 
+### Average collection period (days)
 **Formula**  
 ( [No. of Days](#no-of-days) * [Accounts Receivable (Net Change)](#accounts-receivable-net-change) ) / [Revenue](#revenue)
 
@@ -72,7 +71,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### Cash Conversion Cycle - CCC 
+### Cash conversion cycle - CCC
 **Formula**  
 [Days Sales Of Inventory - DSI](#days-sales-of-inventory---dsi) + [Days Sales Outstanding - DSO](#days-sales-outstanding---dso) - [Days Payable Outstanding - DPO](#days-payable-outstanding---dpo)
 
@@ -80,7 +79,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### Days Payable Outstanding - DPO 
+### Days payable outstanding - DPO
 **Formula**  
  ( [Accounts Payable](#accounts-payable) / [Cost of Goods Sold](#cost-of-goods-sold) ) * [No. of Days](#no-of-days)
 
@@ -90,7 +89,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Account Category
 
  
-### Days Sales Of Inventory - DSI 
+### Days sales of inventory - DSI
 **Formula**  
 ( [Inventory](#inventory) / [Cost of Goods Sold](#cost-of-goods-sold) ) * [No. of Days](#no-of-days)
 
@@ -99,7 +98,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### Days Sales Outstanding - DSO 
+### Days sales outstanding - DSO
 **Formula**  
  ( [Accounts Receivable](#accounts-receivable) / [Revenue](#revenue) ) * [No. of Days](#no-of-days)
 
@@ -108,7 +107,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### Degree Of Operating Leverage - DOL 
+### Degree of operating leverage - DOL
 **Formula**  
 [% Change in Operating Profit - EBIT](#-change-in-operating-profit---ebit) / [% Change in Revenue](#-change-in-revenue)
 
@@ -116,7 +115,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### Inventory Turnover
+### Inventory turnover
 **Formula**  
 [Cost of Goods Sold](#cost-of-goods-sold) / [Inventory (Average)](#inventory-average)
 
@@ -124,7 +123,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 - G/L Entry
 - G/L Account Category
 
-### No. of Days
+### No. of days
 **Formula**
 
 The No. of Days measure calculates the total number of days within a selected period by counting the rows between the earliest (MIN) and latest (MAX) dates in the Date table. This measure provides a count of days for the specified date range in the context.
@@ -132,7 +131,7 @@ The No. of Days measure calculates the total number of days within a selected pe
 **Date Sources**
 - Date
 
-## Balance Sheet Measures
+## Balance sheet measures
 
 - [Accounts Payable](#accounts-payable)   
 - [Accounts Payable (Neg)](#accounts-payable-neg)   
@@ -159,7 +158,7 @@ The No. of Days measure calculates the total number of days within a selected pe
 - [Shareholders' Equity](#shareholders-equity)   
 - [Working Capital](#working-capital)   
 
-### Accounts Payable
+### Accounts payable
 **Formula**  
 The Accounts Payable measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Accounts Payable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Payable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
 
@@ -168,7 +167,7 @@ The Accounts Payable measure calculates the [Balance at Date](#balance-at-date) 
 - G/L Account Category
 - Account Categories
 
-### Accounts Payable (Neg)
+### Accounts payable (neg)
 **Formula**  
 The Accounts Payable measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Accounts Payable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Payable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -177,7 +176,7 @@ The Accounts Payable measure calculates the [Balance at Date](#balance-at-date) 
 - G/L Account Category
 - Account Categories
  
-### Accounts Receivable
+### Accounts receivable
 **Formula**  
 The Accounts Receivable measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Accounts Receivable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Receivable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -186,7 +185,7 @@ The Accounts Receivable measure calculates the [Balance at Date](#balance-at-dat
 - G/L Account Category
 - Account Categories
 
-### Accounts Receivable (Average) 
+### Accounts receivable (average)
 **Formula**  
 ( [Accounts Receivable (Beginning Balance)](#accounts-receivable-beginning-balance) + [Accounts Receivable](#accounts-receivable) ) / 2
 
@@ -195,16 +194,16 @@ The Accounts Receivable measure calculates the [Balance at Date](#balance-at-dat
 - G/L Account Category
 - Account Categories
 
-### Accounts Receivable (Beginning Balance) 
+### Accounts receivable (beginning balance)
 **Formula**  
-The Accounts Receivable (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [accounts receivable](#accounts-receivable) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The Accounts Receivable (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [accounts receivable](#accounts-receivable) before the earliest date in the selected period. It removes filters on the date column and includes only dates earlier than the first selected date.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Accounts Receivable (Net Change) 
+### Accounts receivable (net change)
 **Formula**  
 The Accounts Receivable (Net Change) measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Accounts Receivable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Receivable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -222,7 +221,7 @@ The Assets measure calculates the [Balance at Date](#balance-at-date) for genera
 - G/L Account Category
 - Account Categories
 
-### Current Assets
+### Current assets
 **Formula**  
 The Current Assets measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Current Assets* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Current Assets (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -231,7 +230,7 @@ The Current Assets measure calculates the [Balance at Date](#balance-at-date) fo
 - G/L Account Category
 - Account Categories
 
-### Fixed Assets
+### Fixed assets
 **Formula**  
 The Fixed Assets measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Fixed Assets* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Fixed Assets (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -249,7 +248,7 @@ The Inventory measure calculates the [Balance at Date](#balance-at-date) for gen
 - G/L Account Category
 - Account Categories
 
-### Inventory (Average)
+### Inventory (average)
 **Formula**  
 ( [Inventory (Beginning Balance)](#inventory-beginning-balance) + [Inventory](#inventory) ) / 2
 
@@ -258,16 +257,16 @@ The Inventory measure calculates the [Balance at Date](#balance-at-date) for gen
 - G/L Account Category
 - Account Categories
 
-### Inventory (Beginning Balance) 
+### Inventory (beginning balance)
 **Formula**  
-The Inventory (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Inventory](#inventory) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The Inventory (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Inventory](#inventory) before the earliest date in the selected period. It removes filters on the date column and includes only dates earlier than the first selected date.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Liquid Assets
+### Liquid assets
 **Formula**  
 The Liquid Assets measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Cash* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Liquid Assets (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -276,7 +275,7 @@ The Liquid Assets measure calculates the [Balance at Date](#balance-at-date) for
 - G/L Account Category
 - Account Categories
 
-### Capital Employed
+### Capital employed
 **Formula**  
 [Assets](#assets) - [Current Liabilities](#current-liabilities)
 
@@ -289,12 +288,14 @@ The Liquid Assets measure calculates the [Balance at Date](#balance-at-date) for
 **Formula**  
 The Equity measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Equity* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Equity (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
+It multiplies the balance by -1 to reverse the sign of credit balances.
+
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories 
 
-### Current Liabilities
+### Current liabilities
 **Formula**  
 The Current Liabilities measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Current Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Current Liabilities (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
 
@@ -312,7 +313,7 @@ The Liabilities measure calculates the [Balance at Date](#balance-at-date) for g
 - G/L Account Category
 - Account Categories 
  
-### Liabilities (Neg)
+### Liabilities (neg)
 **Formula**  
 The Liabilities measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Liabilities (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -321,7 +322,7 @@ The Liabilities measure calculates the [Balance at Date](#balance-at-date) for g
 - G/L Account Category
 - Account Categories 
 
-### Liabilities & Equity  
+### Liabilities & equity
 **Formula**  
 [Liabilities](#liabilities) + [Equity](#equity)
 
@@ -330,7 +331,7 @@ The Liabilities measure calculates the [Balance at Date](#balance-at-date) for g
 - G/L Account Category
 - Account Categories 
 
-### Longterm Liabilities  
+### Longterm liabilities
 **Formula**  
 The Longterm Liabilities measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Longterm Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Longterm Liabilities (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
 
@@ -339,7 +340,7 @@ The Longterm Liabilities measure calculates the [Balance at Date](#balance-at-da
 - G/L Account Category
 - Account Categories 
  
-### Payroll Liabilities   
+### Payroll liabilities
 **Formula**  
 The Payroll Liabilities measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Payroll Liabilities* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Payroll Liabilities (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
 
@@ -348,7 +349,7 @@ The Payroll Liabilities measure calculates the [Balance at Date](#balance-at-dat
 - G/L Account Category
 - Account Categories 
  
-### Purchase Prepayments   
+### Purchase prepayments
 **Formula**  
 The Purchase Prepayments measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Purchase Prepayments* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Purchase Prepayments (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -357,25 +358,29 @@ The Purchase Prepayments measure calculates the [Balance at Date](#balance-at-da
 - G/L Account Category
 - Account Categories 
  
-### Shareholders Equity   
+### Shareholders equity
 **Formula**  
 The Shareholders Equity measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Common Stock* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Shareholder's Equity (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
+
+It multiplies the balance by -1 to reverse the sign of credit balances.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories 
    
-### Working Capital 
+### Working capital
 **Formula**  
-[Current Assets](#current-assets) + [Current Liabilities](#current-liabilities)
+[Current Assets](#current-assets) - [Current Liabilities](#current-liabilities)
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories 
  
-## Income Statement Measures
+## Income statement measures
+
+The Revenue, Interest Revenue, FX Gains Revenue, and Extraordinary Revenue measures multiply the underlying net change by -1 to reverse the sign of credit balances. Their Balance at Date and Beginning Balance variants apply the same sign reversal to the corresponding balances.
 - [Cost of Goods Sold](#cost-of-goods-sold)
 - [Depreciation and Amortization](#depreciation-and-amortization)
 - [Expense](#expense) 
@@ -413,7 +418,7 @@ The Shareholders Equity measure calculates the [Balance at Date](#balance-at-dat
 - [Tax Expense (Balance at Date)](#tax-expense-balance-at-date)   
 - [Tax Expense (Beginning Balance)](#tax-expense-beginning-balance)   
 
-### Cost of Goods Sold
+### Cost of goods sold
 **Formula**  
 The Cost of Goods Sold measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Cost of Goods Sold* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Cost of Goods Sold (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -422,7 +427,7 @@ The Cost of Goods Sold measure calculates the [Net Change](#net-change) for gene
 - G/L Account Category
 - Account Categories
 
-### Depreciation and Amortization
+### Depreciation and amortization
 **Formula**  
 The Depreciation and Amortization measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Depreciation and Amortization* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Depreciation and Amortization Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -440,7 +445,7 @@ The Expense measure calculates the [Net Change](#net-change) for general ledger 
 - G/L Account Category
 - Account Categories
 
-### Expense (Balance at Date)  
+### Expense (balance at date)
 **Formula**  
 The Expense measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Expense (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -449,16 +454,16 @@ The Expense measure calculates the [Balance at Date](#balance-at-date) for gener
 - G/L Account Category
 - Account Categories
 
-### Expense (Beginning Balance)  
+### Expense (beginning balance)
 **Formula**  
-The Expense (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Expense](#expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The Expense (Beginning Balance) measure calculates [Expense (Balance at Date)](#expense-balance-at-date) using dates strictly before the first selected date.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Extraordinary Expense
+### Extraordinary expense
 **Formula**  
 The Extraordinary Expense measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Extraordinary Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -467,7 +472,7 @@ The Extraordinary Expense measure calculates the [Net Change](#net-change) for g
 - G/L Account Category
 - Account Categories
 
-### Extraordinary Expense (Balance at Date)
+### Extraordinary expense (balance at date)
 **Formula**  
 The Extraordinary Expense (Balance at Date) measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Extraordinary Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -476,16 +481,16 @@ The Extraordinary Expense (Balance at Date) measure calculates the [Balance at D
 - G/L Account Category
 - Account Categories
 
-### Extraordinary Expense (Beginning Balance)  
+### Extraordinary expense (beginning balance)
 **Formula**  
-The Extraordinary Expense (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Extraordinary Expense](#extraordinary-expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The Extraordinary Expense (Beginning Balance) measure calculates [Extraordinary Expense (Balance at Date)](#extraordinary-expense-balance-at-date) using dates strictly before the first selected date.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Extraordinary Revenue
+### Extraordinary revenue
 **Formula**  
 The Extraordinary Revenue measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Extraordinary Revenue* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
 
@@ -494,7 +499,7 @@ The Extraordinary Revenue measure calculates the [Net Change](#net-change) for g
 - G/L Account Category
 - Account Categories
 
-### Extraordinary Revenue (Balance at Date)
+### Extraordinary revenue (balance at date)
 **Formula**  
 The Extraordinary Revenue (Balance at Date) measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Extraordinary Revenue* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Extraordinary Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. It then multiplies the result by -1 to display the balance as a positive value.
 
@@ -503,9 +508,9 @@ The Extraordinary Revenue (Balance at Date) measure calculates the [Balance at D
 - G/L Account Category
 - Account Categories
 
-### Extraordinary Revenue (Beginning Balance)  
+### Extraordinary revenue (beginning balance)
 **Formula**  
-The Extraordinary Revenue (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Extraordinary Revenue](#extraordinary-revenue) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period. It then multiplies the result by -1 to display the balance as a positive value.
+The Extraordinary Revenue (Beginning Balance) measure calculates [Extraordinary Revenue (Balance at Date)](#extraordinary-revenue-balance-at-date) using dates strictly before the first selected date, including the revenue sign reversal.
 
 **Data Sources**
 - G/L Entry
@@ -513,7 +518,7 @@ The Extraordinary Revenue (Beginning Balance) measure calculates the [Balance at
 - Account Categories
 
 
-### FX Gains Revenue
+### FX gains revenue
 **Formula**  
 The FX Gains Revenue measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *FX Gains Revenue* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Gains Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -522,7 +527,7 @@ The FX Gains Revenue measure calculates the [Net Change](#net-change) for genera
 - G/L Account Category
 - Account Categories
 
-### FX Gains Revenue (Balance at Date)
+### FX gains revenue (balance at date)
 **Formula**  
 The FX Gains Revenue measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *FX Gains Revenue* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Gains Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -531,16 +536,16 @@ The FX Gains Revenue measure calculates the [Balance at Date](#balance-at-date) 
 - G/L Account Category
 - Account Categories
 
-### FX Gains Revenue (Beginning Balance)  
+### FX gains revenue (beginning balance)
 **Formula**  
-The FX Gains Revenue (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [FX Gains Revenue](#fx-gains-revenue) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The FX Gains Revenue (Beginning Balance) measure calculates [FX Gains Revenue (Balance at Date)](#fx-gains-revenue-balance-at-date) using dates strictly before the first selected date, including the revenue sign reversal.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### FX Losses Expense
+### FX losses expense
 **Formula**  
 The FX Losses Expense measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *FX Losses Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Losses (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -549,7 +554,7 @@ The FX Losses Expense measure calculates the [Net Change](#net-change) for gener
 - G/L Account Category
 - Account Categories
 
-### FX Losses Expense (Balance at Date)
+### FX losses expense (balance at date)
 **Formula**  
 The FX Losses Expense measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *FX Losses Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **FX Losses Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -558,16 +563,16 @@ The FX Losses Expense measure calculates the [Balance at Date](#balance-at-date)
 - G/L Account Category
 - Account Categories
 
-### FX Losses Expense (Beginning Balance)  
+### FX losses expense (beginning balance)
 **Formula**  
-The FX Losses Expense (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [FX Losses Expense](#fx-losses-expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The FX Losses Expense (Beginning Balance) measure calculates [FX Losses Expense (Balance at Date)](#fx-losses-expense-balance-at-date) using dates strictly before the first selected date.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Interest Expense
+### Interest expense
 **Formula**  
 The Interest Expense measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Interest Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Interest Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -576,7 +581,7 @@ The Interest Expense measure calculates the [Net Change](#net-change) for genera
 - G/L Account Category
 - Account Categories
 
-### Interest Expense (Balance at Date)  
+### Interest expense (balance at date)
 **Formula**  
 The Interest Expense measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Interest Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Interest Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -585,16 +590,16 @@ The Interest Expense measure calculates the [Balance at Date](#balance-at-date) 
 - G/L Account Category
 - Account Categories
 
-### Interest Expense (Beginning Balance)  
+### Interest expense (beginning balance)
 **Formula**  
-The Interest Expense (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Interest Expense](#interest-expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The Interest Expense (Beginning Balance) measure calculates [Interest Expense (Balance at Date)](#interest-expense-balance-at-date) using dates strictly before the first selected date.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Interest Revenue
+### Interest revenue
 **Formula**  
 The Interest Revenue measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Income, Interest* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Interest Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -603,7 +608,7 @@ The Interest Revenue measure calculates the [Net Change](#net-change) for genera
 - G/L Account Category
 - Account Categories
 
-### Interest Revenue (Balance at Date)
+### Interest revenue (balance at date)
 **Formula**  
 The Interest Revenue measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Income, Interest* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Interest Revenue (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -612,16 +617,16 @@ The Interest Revenue measure calculates the [Balance at Date](#balance-at-date) 
 - G/L Account Category
 - Account Categories
 
-### Interest Revenue (Beginning Balance)  
+### Interest revenue (beginning balance)
 **Formula**  
-The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Interest Revenue](#interest-revenue) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The Interest Revenue (Beginning Balance) measure calculates [Interest Revenue (Balance at Date)](#interest-revenue-balance-at-date) using dates strictly before the first selected date, including the revenue sign reversal.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Operating Expense - OPEX
+### Operating expense - OPEX
 **Formula**  
 [Expense](#expense) - [Interest Expense](#interest-expense) - [FX Losses Expense](#fx-losses-expense) - [Tax Expense](#tax-expense) - [Extraordinary Expense](#extraordinary-expense)
 
@@ -630,7 +635,7 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 - G/L Account Category
 - Account Categories
 
-### Operating Expense - OPEX (Balance at Date) 
+### Operating expense - OPEX (balance at date)
 **Formula**  
 [Expense (Balance at Date)](#expense-balance-at-date) - [Interest Expense (Balance at Date)](#interest-expense-balance-at-date) - [FX Losses Expense (Balance at Date)](#fx-losses-expense-balance-at-date) - [Tax Expense (Balance at Date)](#tax-expense-balance-at-date) - [Extraordinary Expense (Balance at Date)](#extraordinary-expense-balance-at-date)
 
@@ -639,7 +644,7 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 - G/L Account Category
 - Account Categories
 
-### Operating Expense - OPEX (Beginning Balance)  
+### Operating expense - OPEX (beginning balance)
 **Formula**  
 [Expense (Beginning Balance)](#expense-beginning-balance) - [Interest Expense (Beginning Balance)](#interest-expense-beginning-balance) - [FX Losses Expense (Beginning Balance)](#fx-losses-expense-beginning-balance) - [Tax Expense (Beginning Balance)](#tax-expense-beginning-balance) - [Extraordinary Expense (Beginning Balance)](#extraordinary-expense-beginning-balance)
 
@@ -648,7 +653,7 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 - G/L Account Category
 - Account Categories
 
-### Operating Revenue
+### Operating revenue
 **Formula**  
 [Revenue](#revenue) - [Interest Revenue](#interest-revenue) - [FX Gains Revenue](#fx-gains-revenue) - [Extraordinary Revenue](#extraordinary-revenue)
 
@@ -657,7 +662,7 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 - G/L Account Category
 - Account Categories
 
-### Operating Revenue (Balance at Date)  
+### Operating revenue (balance at date)
 **Formula**  
 [Revenue (Balance at Date)](#revenue-balance-at-date) - [Interest Revenue (Balance at Date)](#interest-revenue-balance-at-date) - [FX Gains Revenue (Balance at Date)](#fx-gains-revenue-balance-at-date) - [Extraordinary Revenue (Balance at Date)](#extraordinary-revenue-balance-at-date)
 
@@ -666,7 +671,7 @@ The Interest Revenue (Beginning Balance) measure calculates the [Balance at Date
 - G/L Account Category
 - Account Categories
 
-### Operating Revenue (Beginning Balance)  
+### Operating revenue (beginning balance)
 **Formula**  
 [Revenue (Beginning Balance)](#revenue-beginning-balance) - [Interest Revenue (Beginning Balance)](#interest-revenue-beginning-balance) - [FX Gains Revenue (Beginning Balance)](#fx-gains-revenue-beginning-balance) - [Extraordinary Revenue (Beginning Balance)](#extraordinary-revenue-beginning-balance)
 
@@ -693,7 +698,7 @@ The Revenue measure calculates the [Net Change](#net-change) for general ledger 
 - G/L Account Category
 - Account Categories
 
-### Revenue (Balance at Date)  
+### Revenue (balance at date)
 **Formula**  
 The Revenue measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Income* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Revenue (Level 1 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -702,16 +707,16 @@ The Revenue measure calculates the [Balance at Date](#balance-at-date) for gener
 - G/L Account Category
 - Account Categories
 
-### Revenue (Beginning Balance)  
+### Revenue (beginning balance)
 **Formula**  
-The Revenue (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Revenue](#revenue) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The Revenue (Beginning Balance) measure calculates [Revenue (Balance at Date)](#revenue-balance-at-date) using dates strictly before the first selected date, including the revenue sign reversal.
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Tax Expense
+### Tax expense
 **Formula**  
 The Tax Expense measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Tax Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Tax Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -720,7 +725,7 @@ The Tax Expense measure calculates the [Net Change](#net-change) for general led
 - G/L Account Category
 - Account Categories
 
-### Tax Expense (Balance at Date)  
+### Tax expense (balance at date)
 **Formula**  
 The Tax Expense measure calculates the [Balance at Date](#balance-at-date) for general ledger accounts categorized as *Tax Expense* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Tax Expense (Level 2 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
@@ -729,9 +734,9 @@ The Tax Expense measure calculates the [Balance at Date](#balance-at-date) for g
 - G/L Account Category
 - Account Categories
 
-### Tax Expense (Beginning Balance)  
+### Tax expense (beginning balance)
 **Formula**  
-The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [Tax Expense](#tax-expense) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+The Tax Expense (Beginning Balance) measure calculates [Tax Expense (Balance at Date)](#tax-expense-balance-at-date) using dates strictly before the first selected date.
 
 **Data Sources**
 - G/L Entry
@@ -743,7 +748,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - [Current Ratio](#current-ratio) 
 - [Quick Ratio](#quick-ratio) 
 
-### Cash Ratio
+### Cash ratio
 **Formula**  
 [Liquid Assets](#liquid-assets) / [Current Liabilities](#current-liabilities)
 
@@ -752,7 +757,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Current Ratio
+### Current ratio
 **Formula**  
 [Current Assets](#current-assets) / [Current Liabilities](#current-liabilities)
 
@@ -761,7 +766,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Quick Ratio
+### Quick ratio
 **Formula**  
  ( [Current Assets](#current-assets) - [Inventory](#inventory) - [Purchase Prepayments](#purchase-prepayments) ) / [Current Liabilities](#current-liabilities)
 
@@ -770,7 +775,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Profitability KPIs
+## Profitability KPIs
 - [Debt Ratio](#debt-ratio)
 - [Debt/Equity Ratio](#debtequity-ratio)  
 - [EBITDA](#ebitda)
@@ -788,7 +793,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - [Return On Net Assets - RONA](#return-on-net-assets---rona)  
 - [Shareholder Equity Ratio](#shareholder-equity-ratio)  
 
-### Debt Ratio 
+### Debt ratio
 **Formula**  
 [Liabilities](#liabilities) / [Assets](#assets)
 
@@ -797,7 +802,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Debt/Equity Ratio 
+### Debt/equity ratio
 **Formula**  
 [Liabilities](#liabilities) / [Shareholder's Equity](#shareholders-equity)
 
@@ -815,7 +820,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Gross Profit
+### Gross profit
 **Formula**  
 [Revenue](#revenue) - [Cost of Goods Sold](#cost-of-goods-sold)
 
@@ -824,7 +829,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Gross Profit Margin
+### Gross profit margin
 **Formula**  
 [Gross Profit](#gross-profit) / [Revenue](#revenue)
 
@@ -833,7 +838,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Net Profit
+### Net profit
 **Formula**  
 [Revenue](#revenue) - [Cost of Goods Sold](#cost-of-goods-sold) - [Expense](#expense)
 
@@ -842,7 +847,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Net Profit Margin
+### Net profit margin
 **Formula**  
 [Net Profit](#net-profit) / [Revenue](#revenue)
 
@@ -851,7 +856,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Operating Profit - EBIT
+### Operating profit - EBIT
 **Formula**  
 [Operating Revenue](#operating-revenue) - [Operating Expense - OPEX](#operating-expense---opex)
 
@@ -860,7 +865,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Operating Profit - EBIT (Balance at Date)
+### Operating profit - EBIT (balance at date)
 **Formula**  
 [Operating Revenue (Balance at Date)](#operating-revenue-balance-at-date) - [Operating Expense - OPEX (Balance at Date)](#operating-expense---opex-balance-at-date)
 
@@ -869,16 +874,16 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Operating Profit - EBIT (Beginning Balance)
+### Operating profit - EBIT (beginning balance)
 **Formula**  
-[Operating Revenue (Beginning Balance)](#operating-revenue-balance-at-date) - [Operating Expense - OPEX (Beginning Balance)](#operating-expense---opex-balance-at-date)
+[Operating Revenue (Beginning Balance)](#operating-revenue-beginning-balance) - [Operating Expense - OPEX (Beginning Balance)](#operating-expense---opex-beginning-balance)
 
 **Data Sources**
 - G/L Entry
 - G/L Account Category
 - Account Categories
 
-### Operating Profit Margin
+### Operating profit margin
 **Formula**  
 [Operating Profit - EBIT](#operating-profit---ebit) / [Operating Revenue](#operating-revenue)
 
@@ -887,7 +892,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Return On Assets - ROA
+### Return on assets - ROA
 **Formula**  
 [Net Profit](#net-profit) / [Assets](#assets)
 
@@ -896,7 +901,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Return On Capital Employed - ROCE 
+### Return on capital employed - ROCE
 **Formula**  
 [Operating Profit - EBIT](#operating-profit---ebit) / [Capital Employed](#capital-employed)
 
@@ -905,7 +910,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Return On Equity - ROE 
+### Return on equity - ROE
 **Formula**  
 [Net Profit](#net-profit) / [Shareholder's Equity](#shareholders-equity)
 
@@ -914,7 +919,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Return On Net Assets - RONA
+### Return on net assets - RONA
 **Formula**  
 [Net Profit](#net-profit) / ( [Fixed Assets](#fixed-assets) + [Working Capital](#working-capital) )
 
@@ -923,7 +928,7 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-### Shareholder Equity Ratio
+### Shareholder equity ratio
 **Formula**  
 [Shareholder's Equity](#shareholders-equity) / [Assets](#assets)
 
@@ -932,7 +937,9 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - G/L Account Category
 - Account Categories
 
-## Customer Ledger Measures
+## Customer ledger measures
+
+The Customer Ledger Entries model table combines detailed customer ledger entries with their customer ledger entries. Amounts come from detailed entries, so a payment document can contribute multiple rows.
 - [Bucket 1 (Receivables)](#bucket-1-receivables)
 - [Bucket 2 (Receivables)](#bucket-2-receivables)
 - [Bucket 3 (Receivables)](#bucket-3-receivables)
@@ -947,51 +954,51 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - [No. of Payments](#no-of-payments)
 - [No. of Late Payments](#no-of-late-payments)
 
-### Bucket 1 (Receivables)
+### Bucket 1 (receivables)
 **Formula**   
-The Bucket 1 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the first aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+The Bucket 1 (Receivables) measure calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) within the first aging bucket using the selected due date, posting date, or document date basis. The bucket ends one day before the latest selected date and spans the number of days in **Aging Bucket Period**.
 
 **Data Sources**
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 
-### Bucket 2 (Receivables)
+### Bucket 2 (receivables)
 **Formula**   
-The Bucket 2 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the second aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
-
-**Data Sources**
-- Customer Ledger Entry
-- Detailed Customer Ledger Entry
-- Date
-
-### Bucket 3 (Receivables)
-**Formula**   
-The Bucket 3 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the third aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+The Bucket 2 (Receivables) measure calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) in the period immediately before Bucket 1. It uses **Aging Bucket Period**, the latest selected date, and the selected due date, posting date, or document date basis.
 
 **Data Sources**
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 - Date
 
-### Bucket 4 (Receivables)
+### Bucket 3 (receivables)
 **Formula**   
-The Bucket 4 (Receivables) measure  calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) due, posted, or documented within the fourth aging bucket. The measure uses the value of the `Aging Bucket Period` to determine the length of each aging bucket, and then calculates the starting date for each bucket based on the current date.
+The Bucket 3 (Receivables) measure calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) in the period immediately before Bucket 2. It uses **Aging Bucket Period**, the latest selected date, and the selected due date, posting date, or document date basis.
 
 **Data Sources**
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 - Date
 
-### Current (Receivables)
+### Bucket 4 (receivables)
+**Formula**   
+The Bucket 4 (Receivables) measure calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) for dates earlier than Bucket 3. It includes all older dates, rather than one fixed-length period, using the selected due date, posting date, or document date basis.
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+- Date
+
+### Current (receivables)
 **Formula**
-Current (Receivables) measure calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) for the given period where the data is on or before the last date in the period.
+The Current (Receivables) measure calculates the [Amount Receivable (LCY)](#amount-receivable-lcy) where the selected due date, posting date, or document date is on or after the latest selected date.
 
 **Data Sources**
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 - Date
 
-### Amount Receivable (LCY)
+### Amount receivable (LCY)
 **Formula**   
 The Amount Receivable (LCY) measure calculates the total amount of receivables in the local currency for a given period. The measure sums up the amount (in local currency) of the Customer Ledger Entries table to determine the total amount of receivables.
 
@@ -999,7 +1006,7 @@ The Amount Receivable (LCY) measure calculates the total amount of receivables i
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 
-### Balance (Accounts Receivable)
+### Balance (accounts receivable)
 **Formula**   
 The Balance (Accounts Receivable) measure calculates the total balance of accounts receivable up to a specific date. The measure uses the [Amount Receivable (LCY)](#amount-receivable-lcy) measure and applies a filter to only include transactions on or before the selected date.
 
@@ -1008,7 +1015,7 @@ The Balance (Accounts Receivable) measure calculates the total balance of accoun
 - Detailed Customer Ledger Entry
 - Date
 
-### Original Amount (LCY)
+### Original amount (LCY)
 **Formula**   
 The Original Amount (LCY) measure calculates the total amount of original entries for customers in the local currency. The measure sums up the amount (in local currency) of the Customer Ledger Entries table, but only includes entries with the entry type of "Initial Entry".
 
@@ -1016,15 +1023,15 @@ The Original Amount (LCY) measure calculates the total amount of original entrie
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 
-### Late Payment Amount
+### Late payment amount
 **Formula**   
-The Late Payment Amount measure sums up the amount (in local currency) of the Customer Ledger Entries table, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
+The Late Payment Amount measure sums **Amount (LCY)** in the Customer Ledger Entries model table for payments where the detailed entry's posting date exceeds the customer ledger entry's due date, then multiplies the result by -1.
 
 **Data Sources**
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 
-### Late Payment Percent
+### Late payment percent
 **Formula**   
 The Late Payment % measure calculates the [No. of Late Payments](#no-of-late-payments) divided by the total [No. of Payments](#no-of-payments).
 
@@ -1032,7 +1039,7 @@ The Late Payment % measure calculates the [No. of Late Payments](#no-of-late-pay
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 
-### Average Days Late
+### Average days late
 **Formula**   
 The Average Days Late measure calculates the average number of days between the Due Date and Posting Date, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
 
@@ -1040,23 +1047,25 @@ The Average Days Late measure calculates the average number of days between the 
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 
-### No. of Payments
+### No. of payments
 **Formula**   
-The No. of Payments measure calculates a distinct count of the **Document No.** column, where **Document Type** is **Payment**.
+The No. of Payments measure calculates a distinct count of **Document No.** where **Document Type** is **Payment**. It removes filters on the **Late Payment** column.
 
 **Data Sources**
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 
-### No. of Late Payments
+### No. of late payments
 **Formula**   
-The No. of Late Payments measure calculates a distinct count of the **Document No.** column, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
+The No. of Late Payments measure counts rows in the Customer Ledger Entries model table where **Document Type** is **Payment** and the detailed entry's posting date exceeds the customer ledger entry's due date. Unlike **No. of Payments**, it doesn't count distinct document numbers.
 
 **Data Sources**
 - Customer Ledger Entry
 - Detailed Customer Ledger Entry
 
-## Vendor Ledger Measures
+## Vendor ledger measures
+
+The Vendor Ledger Entries model table combines detailed vendor ledger entries with their vendor ledger entries. Amounts come from detailed entries.
 - [Bucket 1 (Payables)](#bucket-1-payables)
 - [Bucket 2 (Payables)](#bucket-2-payables)
 - [Bucket 3 (Payables)](#bucket-3-payables)
@@ -1066,52 +1075,52 @@ The No. of Late Payments measure calculates a distinct count of the **Document N
 - [Balance (Accounts Payable)](#balance-accounts-payable)
 - [Original Amount](#original-amount)
 
-### Bucket 1 (Payables)
+### Bucket 1 (payables)
 **Formula**   
-The Bucket 1 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the first aging bucket. The first uses the `Aging Bucket Period` to determine the length of the first aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 1 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the first aging bucket using the selected due date, posting date, or document date basis. The bucket ends one day before the latest selected date and spans the number of days in **Aging Bucket Period**.
 
 **Data Sources**
 - Vendor Ledger Entry
 - Detailed Vendor Ledger Entry
 - Date
 
-### Bucket 2 (Payables)
+### Bucket 2 (payables)
 **Formula**   
-The Bucket 2 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the second aging bucket. The second uses the `Aging Bucket Period` to determine the length of the second aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 2 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) in the period immediately before Bucket 1. It uses **Aging Bucket Period**, the latest selected date, and the selected due date, posting date, or document date basis.
 
 **Data Sources**
 - Vendor Ledger Entry
 - Detailed Vendor Ledger Entry
 - Date
 
-### Bucket 3 (Payables)
+### Bucket 3 (payables)
 **Formula**   
-The Bucket 3 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the third aging bucket. The third uses the `Aging Bucket Period` to determine the length of the third aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 3 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) in the period immediately before Bucket 2. It uses **Aging Bucket Period**, the latest selected date, and the selected due date, posting date, or document date basis.
 
 **Data Sources**
 - Vendor Ledger Entry
 - Detailed Vendor Ledger Entry
 - Date
 
-### Bucket 4 (Payables)
+### Bucket 4 (payables)
 **Formula**   
-The Bucket 4 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) within the fourth aging bucket. The fourth uses the `Aging Bucket Period` to determine the length of the fourth aging bucket and calculates the starting date for the bucket based on the current date.
+The Bucket 4 (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) for dates earlier than Bucket 3. It includes all older dates, rather than one fixed-length period, using the selected due date, posting date, or document date basis.
 
 **Data Sources**
 - Vendor Ledger Entry
 - Detailed Vendor Ledger Entry
 - Date
 
-#### Current (Payables)
+### Current (payables)
 **Formula**
-Current Payables measures calculates the [Amount Payable (LCY)](#amount-payable-lcy) where the Due Date is on or after the last date in period.
+The Current (Payables) measure calculates the [Amount Payable (LCY)](#amount-payable-lcy) where the selected due date, posting date, or document date is on or after the latest selected date.
 
 **Data Sources**
 - Vendor Ledger Entry
 - Detailed Vendor Ledger Entry
 - Date
 
-### Amount Payable (LCY)
+### Amount payable (LCY)
 **Formula**   
 The Amount Payable (LCY) measure calculates the total amount of payables in the local currency for a given period. The measure sums up the values in the amount (in local currency) column of the Vendor Ledger Entry table to determine the total amount of payables.
 
@@ -1120,7 +1129,7 @@ The Amount Payable (LCY) measure calculates the total amount of payables in the 
 - Detailed Vendor Ledger Entry
 - Date
 
-### Balance (Accounts Payable)
+### Balance (accounts payable)
 **Formula**   
 The Balance (Accounts Payable) measure  calculates the total balance of accounts payable up to a specific date. The measure uses the [Amount Payable (LCY)](#amount-payable-lcy) measure and applies a filter to only include transactions on or before the selected date.
 
@@ -1128,7 +1137,7 @@ The Balance (Accounts Payable) measure  calculates the total balance of accounts
 - Vendor Ledger Entry
 - Detailed Vendor Ledger Entry
 
-### Original Amount
+### Original amount
 **Formula**   
 The Original Amount measure calculates the total amount of original entries for vendors. The measure uses the [Amount Payable (LCY)](#amount-payable-lcy) measure and applies a filter to the Vendor Ledger Entries table to only include entries with the Entry Type equal to "Initial Entry".
 
@@ -1136,7 +1145,7 @@ The Original Amount measure calculates the total amount of original entries for 
 - Vendor Ledger Entry
 - Detailed Vendor Ledger Entry
 
-## G/L Entry Measures
+## G/L entry measures
 - [Amount](#amount)
 - [Balance](#balance)
 - [Balance at Date](#balance-at-date)
@@ -1160,14 +1169,14 @@ The Balance measure calculates the total [Amount](#amount) across all dates, ign
 **Data Sources**
 - G/L Entry
 
-### Balance at Date
+### Balance at date
 **Formula**   
 The Balance at Date measure calculates the cumulative [Amount](#amount) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
 
 **Data Sources**
 - G/L Entry
 
-### Balance at Date (Neg)
+### Balance at date (neg)
 **Formula**   
 The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), shows the [Balance at Date](#balance-at-date) measure as a negative value.
 
@@ -1176,14 +1185,14 @@ The Balance at Date (Neg) measure, abbreviated for Balance at Date (Negative), s
 **Data Sources**
 - G/L Entry
 
-### Net Change
+### Net change
 **Formula**   
 The Net Change measure is a filtered version of [Amount](#amount), focusing on non-closing entries to show only the net activity. Net Change filters out entries where **Closing Entry** is TRUE, excluding closing entries from its calculation.
 
 **Data Sources**
 - G/L Entry
 
-### Net Change (Neg)
+### Net change (neg)
 **Formula**   
 The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the [Net Change](#net-change) measure as a negative value.
 
@@ -1192,7 +1201,7 @@ The Net Change (Neg) measure, abbreviated for Net Change (Negative), shows the [
 **Data Sources**
 - G/L Entry
 
-### Variance to Budget
+### Variance to budget
 **Formula**   
 The Variance to Budget measure calculates the difference between the actual net change and the budget amount.
 
@@ -1202,7 +1211,7 @@ The Variance to Budget measure calculates the difference between the actual net 
 - G/L Entry
 - G/L Budget Entry
 
-### Variance to Budget %
+### Variance to budget %
 **Formula**   
 *Variance to Budget % = [Variance to Budget](#variance-to-budget) / [Net Change](#net-change)*
 
@@ -1210,18 +1219,18 @@ The Variance to Budget measure calculates the difference between the actual net 
 - G/L Entry
 - G/L Budget Entry
 
-## G/L Budget Entry Measures
+## G/L budget entry measures
 - [Budget Amount](#budget-amount)
-- [Budget Amount at Date](#budget-amount-at-date)
+- [Budget Balance at Date](#budget-balance-at-date)
 
-### Budget Amount
+### Budget amount
 **Formula**   
 The Budget Amount measure sums up all the budgeted amounts from the G/L Budget Entry table.
 
 **Data Sources**
 - G/L Budget Entry
 
-### Budget Amount at Date
+### Budget balance at date
 **Formula**   
 The Budget Balance at Date measure calculates the budgeted balance at a specific date.
 
@@ -1230,7 +1239,7 @@ The Budget Balance at Date measure calculates the budgeted balance at a specific
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  

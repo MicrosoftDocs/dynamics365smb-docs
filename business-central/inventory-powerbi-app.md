@@ -1,13 +1,14 @@
 ---
-title: Inventory Power BI App Page (Power BI report)
-description: The Inventory Power BI contains different reports for an organizations inventory reporting needs
+title: Inventory Power BI App Reports and Analytics
+description: Explore inventory levels, item availability, demand, receipts, and bin contents with Power BI reports to support inventory decisions in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37064_Primary, 37022, 37024, 37023, 37025, 37026, 37027, 37028, 37029, 37030, 37031, 37032, 37110
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
@@ -63,12 +64,12 @@ The following table provides descriptions on how you can use each report in the 
 |To... | Open in Business Central (CTRL+select) | Learn more |
 |------|---------------------------------------|----------- |
 |Get a high-level view of your organizations inventory and view statistics on scheduled receipt, gross requirements, and inventory across locations. | [Inventory Overview](https://businesscentral.dynamics.com?page=37022) | [About Inventory Overview](inventory-powerbi-inventory-overview.md)|
-|Review inventory levels for items and gauge how many of an item are on different document types. | [Inventory by Item](https://businesscentral.dynamics.com?page=37024) | [About Inventory by Item](inventory-powerbi-inventory-by-item.md)|
-|Review inventory levels at a Location to identify where you keep stock. | [Inventory by Location](https://businesscentral.dynamics.com?page=37023) | [About Inventory by Location](inventory-powerbi-inventory-by-location.md)|
+|Review inventory levels for items and gauge how many of an item are on different document types. | [Inventory by Item](https://businesscentral.dynamics.com?page=37023) | [About Inventory by Item](inventory-powerbi-inventory-by-item.md)|
+|Review inventory levels at a Location to identify where you keep stock. | [Inventory by Location](https://businesscentral.dynamics.com?page=37024) | [About Inventory by Location](inventory-powerbi-inventory-by-location.md)|
 |Analyze sales and purchase quantities to meet supply and demand. | [Purchase and Sales Quantity](https://businesscentral.dynamics.com?page=37025) | [About Purchase and Sales Quantity](inventory-powerbi-purchase-and-sales-qty.md)|
 |Get a high-level view of inventory along with the gross requirements, scheduled receipts, and planned production volume. | [Item Availability](https://businesscentral.dynamics.com?page=37026) | [About Item Availability](inventory-powerbi-item-availability.md)|
 |Analyze the volume of stock required to meet demand broken down by document type. | [Gross Requirement](https://businesscentral.dynamics.com?page=37027) | [About Gross Requirement](inventory-powerbi-gross-requirement.md)|
-|Analyze the volume of stock you received broken down by document type. | [Scheduled Receipt](https://businesscentral.dynamics.com?page=37028) | [About Scheduled Receipt](inventory-powerbi-scheduled-receipt.md)|
+|Analyze the volume of stock you expect to receive broken down by document type. | [Scheduled Receipt](https://businesscentral.dynamics.com?page=37028) | [About Scheduled Receipt](inventory-powerbi-scheduled-receipt.md)|
 |View inventory quantities based on lot numbers. | [Inventory by Lot](https://businesscentral.dynamics.com?page=37029) | [About Inventory by Lot](inventory-powerbi-inventory-by-lot.md)|
 |View inventory quantities based on serial numbers. | [Inventory by Serial No.](https://businesscentral.dynamics.com?page=37030) | [About Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)|
 |Analyze inventory levels across different bins and identify bins that have active picks. | [Bin Contents](https://businesscentral.dynamics.com?page=37031) | [About Bin Contents](inventory-powerbi-bin-contents.md)|
@@ -81,7 +82,7 @@ The following table provides descriptions on how you can use each report in the 
 ## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  

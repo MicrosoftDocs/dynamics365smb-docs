@@ -1,22 +1,22 @@
 ---
-title: Realized Emissions vs Baseline
-description: The Realized Emissions by Baseline report breaks down your carbon emissions and allows for comparison against a defined baseline period. Track your progress against the baseline and monitor trends against a previous period.
+title: Realized Emissions vs Baseline Power BI Report
+description: Compare actual carbon emissions with a defined baseline period in Business Central using the Realized Emissions vs Baseline Power BI report.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
-ms.search.form: 
-ms.date: 05/26/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Realized Emissions vs Baseline (Power BI Report)
+# Realized emissions vs baseline (Power BI report)
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
-The Realized Emissions vs Baseline report lets you compare your actual emissions to a predefined baseline from the scorecard. You can compare different periods to ensure you're progressing toward the baseline.
+The Realized Emissions vs Baseline report lets you compare your actual emissions to a predefined baseline from the scorecard. The current and baseline values use the goal periods and baseline periods defined for the selected scorecards, rather than the report's selected date range.
 
 :::image type="content" source="media\sustainability\realized-emissions-vs-baseline.png" alt-text="Screenshot of the Realized Emissions vs Baseline Power BI report" lightbox="media\sustainability\realized-emissions-vs-baseline.png":::
 
@@ -37,7 +37,7 @@ The Realized Emissions vs Baseline report includes the following KPIs and measur
 - [CO2e Baseline](sustainability-powerbi-kpis.md#co2e-baseline)
 - [CO2 vs Baseline (%)](sustainability-powerbi-kpis.md#co2-vs-baseline-)
 - [CO2 Current Value](sustainability-powerbi-kpis.md#co2-current-value)
-- [CO2 Baseline](sustainability-powerbi-kpis.md#co2-vs-baseline-)
+- [CO2 Baseline](sustainability-powerbi-kpis.md#co2-baseline)
 - [CO2 Emissions](sustainability-powerbi-kpis.md#co2-emissions)
 - [CH4 vs Baseline (%)](sustainability-powerbi-kpis.md#ch4-vs-baseline-)
 - [CH4 Current Value](sustainability-powerbi-kpis.md#ch4-current-value)
@@ -57,11 +57,13 @@ Choose the link for a KPI to learn more about what it means, its calculation, an
 The Realized Emissions vs Baseline report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Sustainability Ledger Entry
+- Sustainability Account
 - Sustainability Account Category
+- Sustainability Goals
 
 ## Try the report
 
-Try the report here: [Realized Emissions vs Baseline](https://businesscentral.dynamics.com?page=37086)
+Try the report here: [Realized Emissions vs Baseline](https://businesscentral.dynamics.com?page=6306)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
@@ -70,3 +72,5 @@ Try the report here: [Realized Emissions vs Baseline](https://businesscentral.dy
 [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md) 
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

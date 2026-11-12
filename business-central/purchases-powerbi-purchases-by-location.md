@@ -1,17 +1,18 @@
 ---
-title: Purchases by Location (Power BI Report)
-description: The Purchases by Location report provides an overview of purchasing activities by location.
+title: Purchases by Location Power BI Report
+description: Analyze purchase amounts and quantities by warehouse location in Power BI to compare purchasing patterns and explore item and vendor details.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37019_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Purchases by Location (Power BI Report)
+# Purchases by location (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -25,10 +26,10 @@ The report is especially useful for purchasing managers and purchasers.
 
 Purchasing managers can use the report to analyze purchasing trends across different warehouse locations. For example, you can use the report to find the most frequently bought items and item categories in each warehouse. You and the warehousing team can gain insights into warehouses with consistently high or low purchasing activities.
 
-Purchasers can use this report to monitor purchasing activities across warehouse locations. For example, you can find item categories and items with low quantities that require attention to prevent stock-outs or disruptions in production. Use this information to plan ahead and work with your team to ensure that you meet purchase demand across locations.
+Purchasers can use this report to monitor purchasing activities across warehouse locations. For example, you can identify items with low purchased quantities for further investigation. These quantities represent purchases, not current inventory levels. Review inventory availability before deciding whether to replenish an item.
 
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Purchases by Location* report includes the following KPIs and measures: 
 
@@ -60,7 +61,7 @@ Try the report here: [Purchases by Location](https://businesscentral.dynamics.co
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

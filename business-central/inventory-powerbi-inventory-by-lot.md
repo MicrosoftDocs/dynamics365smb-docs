@@ -1,17 +1,18 @@
 ---
-title: Inventory by Lot No. (Power BI report)
-description: The Inventory by Lot No. report shows total inventory broken down per lot.
+title: Inventory by Lot No. Power BI Report
+description: Review inventory quantities, expiration dates, and expired stock by lot number with the Inventory by Lot No. Power BI report in Business Central.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37029_Primary
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Inventory by Lot No. (Power BI Report)
+# Inventory by lot no. (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -27,7 +28,7 @@ Inventory managers use the report to ensure each lot has an optimized stock leve
 
 The report helps warehouse staff members by providing a way to check inventory amounts in each lot. This information can help you make key decisions, ensure that inventory is properly managed, and avoid stock-outs.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Inventory by Lot No.* report includes the following KPIs:
 
@@ -55,9 +56,11 @@ Try the report here: [Inventory by Lot No.](https://businesscentral.dynamics.com
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

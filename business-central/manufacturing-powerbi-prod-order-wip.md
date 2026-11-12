@@ -1,18 +1,19 @@
 ---
-title: Production Order WIP    
-description: Learn how to benefit from using the Production Order WIP report.
+title: Production Order WIP Power BI Report
+description: Review work-in-progress inventory trends and beginning, consumption, capacity, output, and ending values with the Production Order WIP Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37107_Primary
-ms.date: 05/26/2025
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Production Order WIP (Power BI Report)
+# Production order WIP (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -38,6 +39,8 @@ The **Inventory Valuation - WIP** table gives you a detailed breakdown of produc
 Together, these visuals provide both high-level and detailed perspectives on WIP inventory.
 
 ## Use the report
+
+Manufacturing managers can compare beginning and ending WIP balances, then review consumption, capacity, and output values for individual production orders to understand changes during the selected period. Check the report's date filters to ensure they cover the period you want to analyze.
 
 ## Key performance indicators (KPIs)
 
@@ -68,7 +71,9 @@ Try the report here: [Production Order WIP](https://businesscentral.dynamics.com
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

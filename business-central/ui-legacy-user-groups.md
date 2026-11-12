@@ -1,14 +1,16 @@
 ---
-title: Manage permissions through user groups (legacy)
-description: This article describes how to use users groups to define user permissions.
+title: Manage Permissions Through User Groups (Legacy)
+description: Manage legacy user groups and permission sets in Business Central version 24 and earlier, and understand the transition to security groups.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: access, right, security, permissions
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862, 9875_Primary, 9874_Primary, 9873_Primary, 9872_Primary, 9877_Primary, 9869_Primary, 9868_Primary, 9871_Primary
-ms.date: 05/28/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
+ms.update-cycle: 3650-days
 ---
 
 # Manage permissions through user groups (legacy)
@@ -23,7 +25,7 @@ Permission sets assigned to a user through a user group stay synchronized. A cha
 
 ## Add users to a user group
 
-The following procedure explains how to create user groups manually. To learn how to create user groups automatically, go to [To copy a user group and all its permission sets](#copy-a-user-group-and-all-its-permission-sets).
+The following procedure explains how to add users to an existing user group. Learn more in [Copy a user group and all its permission sets](#copy-a-user-group-and-all-its-permission-sets).
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Groups**, and then choose the related link.
 
@@ -36,13 +38,13 @@ The following procedure explains how to create user groups manually. To learn ho
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
 
 > [!NOTE]
-> The user group members aren't copied to the new user group. You must add them manually afterwards. To learn more, go to [To add users to a user group](#add-users-to-a-user-group).
+> The user group members aren't copied to the new user group. You must add them manually. Learn more in [Add users to a user group](#add-users-to-a-user-group).
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
-The new user group is added to the **User Groups** page. Proceed to add users. To learn more, go to [To add users to a user group](#add-users-to-a-user-group) section.  
+The new user group is added to the **User Groups** page. Proceed to add users. Learn more in [Add users to a user group](#add-users-to-a-user-group).
 
 > [!IMPORTANT]
 > A validation error displays if you try to assign a user group that refers to a permission set which was defined in an extension that you uninstalled. It's because the App ID of the extension is validated whenever something references it. To assign that user group to a user, either:
@@ -69,22 +71,21 @@ The following procedure explains how to assign permission sets to a user group o
 3. On the **Permission Set by User Group** page, select the **[user group name]** field on a line for the relevant permission set to assign the set to the user group.
 4. Select the **All User Groups** checkbox to assign the permission set to all user groups.
 
-You can also assign permissions sets directly to a user.
-license configurations on the **License Configuration** page. Choose a license, and then delete all permission sets assigned to it.
+You can also assign permission sets directly to a user.
 
-## Convert users groups to security groups
+## Convert user groups to security groups
 
 > [!NOTE]
 > Security groups replace user groups in 2024 release wave 2 (version 25) and later. If you're using on-premises version 22, 23, or 24, use the assisted setup guide to convert user groups to permission sets and transition to security groups.
 
-Security groups are very similar to the user groups that are currently available. However, user groups are only relevant for [!INCLUDE [prod_short](includes/prod_short.md)]. Security groups are based on groups in Microsoft Entra ID or Windows Active Directory, depending on whether you're using [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises, respectively. Groups benefit administrators because they can use them with other Dynamics 365 apps. For example, if salespeople use [!INCLUDE [prod_short](includes/prod_short.md)] and SharePoint, administrators don't have to recreate the group and its members.
+Security groups are very similar to the user groups described in this article. However, user groups are only relevant for [!INCLUDE [prod_short](includes/prod_short.md)]. Security groups are based on groups in Microsoft Entra ID or Windows Active Directory, depending on whether you're using [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises, respectively. Groups benefit administrators because they can use them with other Dynamics 365 apps. For example, if salespeople use [!INCLUDE [prod_short](includes/prod_short.md)] and SharePoint, administrators don't have to recreate the group and its members.
 
 ### Convert user groups to permission sets
 
-In 2023 release wave 1 and later, you can convert user groups to permission sets in your tenant. The permission sets provide the same functionality as user groups. Here are some examples:
+In Business Central versions 22 through 24, you can convert user groups to permission sets in your tenant. The permission sets provide the same functionality as user groups. Microsoft removes user groups starting in version 25. Here are some examples:
 
 * You can use the **Users** FactBox to manage permissions for users.
-* You can drill down on the permission set name to add other permission sets to the set you're working on. To learn more, go to [To add other permission sets](ui-define-granular-permissions.md#to-add-other-permission-sets).
+* Drill down on the permission set name to add other permission sets to the set you're working on. Learn more in [Add other permission sets](ui-define-granular-permissions.md#to-add-other-permission-sets).
 
 Use the **User Group Migration** assisted setup guide to convert your groups. To start the guide, on the **Feature Management** page, find **Feature: Convert user group permissions**, and then choose **All Users** in the **Enabled For** field. The assisted setup guide offers the following options for the conversion.
 
@@ -97,7 +98,7 @@ Use the **User Group Migration** assisted setup guide to convert your groups. To
 
 You can configure permissions in [!INCLUDE [prod_short](includes/prod_short.md)] based on licenses. Those permissions are directly assigned to new users. These configurations still apply, even if you start using security groups.
 
-To use security groups exclusively, we recommend that you remove the license configurations. To learn more about license configurations, go to [Create Users According to Licenses](ui-how-users-permissions.md).
+To use security groups exclusively, remove the license configurations. Learn more in [Create users according to licenses](ui-how-users-permissions.md).
 
 You can remove license configurations on the **License Configuration** page. Choose a license, and then delete all permission sets assigned to it.
 
@@ -105,5 +106,7 @@ You can remove license configurations on the **License Configuration** page. Cho
 
 [Create Users According to Licenses](ui-how-users-permissions.md)  
 [Set Up Business Central Access in Teams with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  
-[Learn about groups and access rights in Microsoft Entra ID](/azure/active-directory/fundamentals/concept-learn-about-groups)  
-[Microsoft Entra security groups](/windows-server/identity/ad-ds/manage/understand-security-groups)  
+[Learn about groups and access rights in Microsoft Entra ID](/entra/fundamentals/concept-learn-about-groups)  
+[Active Directory security groups](/windows-server/identity/ad-ds/manage/understand-security-groups)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

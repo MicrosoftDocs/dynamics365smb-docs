@@ -1,13 +1,13 @@
 ---
-title: Inventory valuation landing page (Power BI report)
-description: The Inventory Landing Page gives an overview of how the Inventory Report works.
+title: Inventory Valuation Power BI App Reports
+description: Explore inventory value by item and location, compare balances with costs posted to the general ledger, and choose Inventory Valuation Power BI reports.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37065_Primary, 37056, 37057, 37058
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
@@ -44,7 +44,7 @@ The following table describes on how you can use each report in the app.
 ## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  

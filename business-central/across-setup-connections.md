@@ -1,18 +1,19 @@
 ---
-title: Connect Excel, Word, Outlook, OneDrive, Power BI, and more products to Business Central
-description: Learn how to set up connections to Business Central.
+title: Connect Business Central to Microsoft Apps and Services
+description: Find setup guidance for connecting Business Central to Excel, Outlook, Word, Teams, OneDrive, Power BI, Power Automate, and Power Apps.
 author: kennienp
-ms.topic: article
+ms.topic: overview
+ai-usage: ai-assisted
 ms.devlang: al
 ms.search.keywords: Excel, Word, Outlook, Onedrive, Power BI
-ms.date: 10/20/2025
+ms.date: 11/12/2026
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ms.custom: bap-template
 ---
 
-# Connect Excel, Outlook, Word, OneDrive, Power BI, and more products to Business Central
+# Connect Business Central to Microsoft apps and services
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supports integrations to other Microsoft products. The following table provides links to articles that describe how to set up the integrations.
 
@@ -25,7 +26,7 @@ ms.custom: bap-template
 | Integration to [!INCLUDE [onedrive-for-business-name](includes/onedrive-for-business-name.md)] | [OneDrive integration for Business Central](across-onedrive-overview.md) |
 | Integration to [!INCLUDE [powerbi-name](includes/powerbi-name.md)] | [Enable Power BI integration for Business Central](admin-powerbi-setup.md) |
 | Integration to Power Automate | [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md) |
-| Integration to Power Apps | [Use Power Apps with Business Central data](across-how-use-financials-data-source-powerapps.md) |
+| Integration to Power Apps | [Build a Power Apps canvas app with Business Central data](across-how-use-financials-data-source-powerapps.md) |
 
 ## Related information
 

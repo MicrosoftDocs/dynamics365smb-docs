@@ -1,17 +1,18 @@
 ---
-title: Daily Sales (Power BI report)
-description: The *Daily Sales* report provides a clear picture of your organization's sales activities over specific days. 
+title: Daily Sales Analysis Power BI Report
+description: Analyze daily sales amounts, quantities, costs, and profits in the Power BI Sales app to identify trends across days, weeks, months, and years.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 36999_Primary
-ms.date: 10/26/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Daily Sales (Power BI Report)
+# Daily sales (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -55,13 +56,13 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 ## Try the report
 
-Try the report here: [Report name](https://businesscentral.dynamics.com?page=36999)
+Try the report here: [Daily Sales](https://businesscentral.dynamics.com?page=36999)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

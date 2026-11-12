@@ -1,17 +1,18 @@
 ---
-title: Purchases by Vendor (Power BI Report)
-description: The Purchases by Vendor report provides an overview of purchasing activities by vendor.
+title: Purchases by Vendor Power BI Report
+description: Compare purchase amounts and quantities by vendor in Power BI to identify major suppliers and analyze purchasing trends and cumulative spending.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37018_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Purchases by Vendor (Power BI Report)
+# Purchases by vendor (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -27,7 +28,7 @@ Purchasing managers can use the report to analyze vendor performance. You can id
 
 Purchasers can use this report to monitor purchasing activities and identify the suppliers of specific products. For example, if you need a list of suppliers for the components of dining chair assemblies, you can view the purchase quantities and amounts spent on each vendor. The report can help you select the best vendor to buy from.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Purchases by Vendor* report includes the following KPIs and measures: 
 
@@ -60,7 +61,7 @@ Try the report here: [Purchases by Vendor](https://businesscentral.dynamics.com?
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

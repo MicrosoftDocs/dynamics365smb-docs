@@ -1,6 +1,6 @@
 ---
-title: Sales Overview (Power BI report)
-description: The Sales Overview report provides a high-level summary of your organization's sales activities.
+title: Sales Overview Analysis Power BI Report
+description: Review sales amounts, adjusted profit, and outstanding sales documents in Power BI to monitor performance across customers, items, and salespeople.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -10,10 +10,11 @@ ms.search.form: 36998_Primary
 ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 
-# Sales Overview (Power BI Report)
+# Sales overview (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -21,7 +22,7 @@ The **Sales Overview** report provides a high-level summary of your organization
 
 - The number of outstanding sales orders
 - Shipped-but-not-invoiced orders
-- Posted sales invoices
+- Unposted sales invoices
 
 It shows the monetary values for each KPI.
 
@@ -41,7 +42,7 @@ CEOs regularly monitor the organization's sales operations to ensure the busines
 
 - [Number of Outstanding Sales Orders](sales-powerbi-sales-kpis.md#no-of-outstanding-sales-orders)
 - [Number of Shipped Not Invoiced Sales Orders](sales-powerbi-sales-kpis.md#no-of-shipped-not-invoiced-sales-orders)
-- [Number of Posted Sales Invoices](sales-powerbi-sales-kpis.md#no-of-posted-sales-invoices)
+- [Number of Outstanding Invoices](sales-powerbi-sales-kpis.md#no-of-outstanding-invoices)
 
 It shows the monetary values for each KPI.
 
@@ -87,7 +88,7 @@ Try the report here: [Sales Overview](https://businesscentral.dynamics.com?page=
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

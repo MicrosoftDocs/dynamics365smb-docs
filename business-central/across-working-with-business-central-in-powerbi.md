@@ -1,21 +1,22 @@
 ---
-title: Connect to Power BI from Business Central on-premises| Microsoft Docs
-description: Get insight, business intelligence, and KPIs from your Business Central data on-premises using Power BI.
+title: Connect Power BI to Business Central On-Premises
+description: Set up Power BI integration for Business Central on-premises, connect to OData web services, and publish reports for viewing in Business Central.
 author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/23/2025
+ms.date: 11/11/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ai-usage: ai-assisted
 ---
 
 # Connect to Power BI from Business Central on-premises
 
-## Get started
+## Prepare for Power BI integration
 
-[!INCLUDE [prod_short](includes/prod_short.md)] on-premises must be enabled for Power BI integration. This task is typically done by an administrator. Learn more about enabling Power BI integration with Business Central online in [Set up Business Central on-premises for Power BI integration](admin-powerbi-setup.md).
+Enable [!INCLUDE [prod_short](includes/prod_short.md)] on-premises for Power BI integration. An administrator typically completes this task. Learn more in [Set up Business Central for Power BI integration](admin-powerbi-setup.md).
 
 Some features are only available with Business Central online, not on-premises. Learn more in [Introduction to Business Central and Power BI](admin-powerbi.md#get-ready-to-use-power-bi)
 
@@ -76,7 +77,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
    If you don't see **Get Data**, select the **File** menu, then **Get Data**.
 1. On the **Get Data** page, select **Online Services**.
 1. In the **Online Services** pane, connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.
-1. Sign-in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
+1. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
 
    If you're not signed in to [!INCLUDE [prod_short](includes/prod_short.md)] from Power BI desktop before, you're prompted to sign in.
 
@@ -87,10 +88,10 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
 1. Once connected, Power BI contacts the Business Central service. The **Navigator** windows appears and displays available data sources for building reports. Select a folder to expand it and see the available data sources.
 
-   These data sources represent all the web services and API pages published for [!INCLUDE [prod_short](includes/prod_short.md)]. The data sources are grouped by Business Central environments and companies.
+   The on-premises connector lists published OData web services, such as pages and queries, grouped by company.
 
    > [!NOTE]
-   > The structure for Business Central on-premises is different because it doesn't support API pages.
+   > The **Dynamics 365 Business Central (on-premises)** connector doesn't support API endpoints. Business Central on-premises itself supports APIs, which an administrator can enable separately.
 
 1. Select the data source or sources that you want to add to your data model, and then select the **Load** button.
 1. To add more Business Central data later, repeat the previous steps.
@@ -100,14 +101,14 @@ Once the data is loaded, view it in the right navigation on the page. At this po
 > [!TIP]
 > Learn more about Power BI Desktop in [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## Manage and modify reports
+## Manage and modify Power BI reports
 
 > [!NOTE]
-> You can't manage and modify reports.
+> Report upload and automatic deployment from within [!INCLUDE[prod_short](includes/prod_short.md)] are available only online. For on-premises deployments, manage reports in the Power BI service and modify them in Power BI Desktop.
 
-## Upload reports
+## <a name="upload-reports"></a>Upload reports to Power BI
 
-For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, there are no demo reports available, so you have to start from scratch by using Power BI Desktop. Alternatively, Power BI reports can be distributed as files that you can upload directly from Power BI online service. Learn more in [Upload the report to the service](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
+For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, no demo reports are available, so you need to start from scratch by using Power BI Desktop. Alternatively, distribute Power BI reports as .pbix files that you upload to the Power BI service. Learn more in [Publish semantic models and reports from Power BI Desktop](/power-bi/create-reports/desktop-upload-desktop-files).
 
 ## Related information
 

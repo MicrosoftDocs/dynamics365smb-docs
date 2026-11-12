@@ -1,16 +1,17 @@
 ---
-title: Troubleshoot your automated workflows
+title: Troubleshoot Business Central Power Automate Workflows
 description: Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
 author: jswymer
-ms.topic: troubleshooting-general
+ms.topic: troubleshooting
+ai-usage: ai-assisted
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate, 
-ms.date: 10/14/2025
+ms.date: 11/12/2026
 ms.author: jswymer
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ---
 
-# Troubleshoot your [!INCLUDE[prod_short](includes/prod_short.md)] automated workflows
+# Troubleshoot Business Central Power Automate workflows
 
 When you connect [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate to create automated workflows, you might run into error messages. This article provides suggested solutions to recurring problems.
 
@@ -22,22 +23,22 @@ If an event creates or changes many records, the flow doesn't run on some or all
 
 ### Possible cause
 
-Currently, there's a limit on how many records a flow can process. If more than 1000 records are created or changed within 30 seconds, the flow isn't triggered.
+The Business Central connector for Power Automate can't process webhook `collection` notifications. In Business Central online, if more than 1,000 records are created or changed within 30 seconds, Business Central sends a collection notification instead of individual notifications, and the associated flow isn't triggered. For Business Central on-premises, the thresholds depend on the server configuration.
 
 > [!NOTE]
-> For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. Learn more at [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in the Developer and Admin help.
+> Learn more in [Working with webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in the developer and IT pro help.
 
 ## "The response from the Business Central service is too large" error
 
 ### Problem
 
-When using an action that interacts with records (such as *Create record (V3)* and *Get record (V3)*), Power Automate might display an error similar to this one:
+When using an action that interacts with records (such as **Create record (V3)** and **Get record (V3)**), Power Automate might display an error similar to this one:
 
 `The response from the Business Central service is too large`
 
 ### Possible cause
 
-Even though Business Central has no set limit on the size of records returned by APIs, the Dynamics 365 Business Central connector for Power Automate can handle only records up to 8 MB.
+The Dynamics 365 Business Central connector for Power Automate requires records to be under 8 MB.
 
 All the Business Central APIs provided by Microsoft return records under this limit, but APIs provided by partners might not. If you see an error "The response from the Business Central service is too large," reach out to the partner who created the API you're using.
 
@@ -45,11 +46,11 @@ All the Business Central APIs provided by Microsoft return records under this li
 
 ### Problem
 
-When you create a new Power Automate flow using a [!INCLUDE[prod_short](includes/prod_short.md)] approval trigger, such as *When a purchase document approval is requested*, you might get an error message similar to this one:
+When you create a new Power Automate flow using a [!INCLUDE[prod_short](includes/prod_short.md)] approval trigger, such as **When a purchase document approval is requested**, you might get an error message similar to this one:
 
-`Entity set not found: \<name\>`
+`Entity set not found: <ServiceName>`
 
-The placeholder, `\<name\>`, is the service name of the missing web service, such as *workflowWebhookSubscriptions* or *workflowPurchaseDocumentLines*.
+The placeholder, `<ServiceName>`, is the service name of the missing web service, such as `workflowWebhookSubscriptions` or `workflowPurchaseDocumentLines`.
 
 ### Possible cause
 
@@ -61,7 +62,7 @@ Go to the **Web Services** page and make sure the following objects are publishe
 
 | Object Type | Object ID | Object Name | Service Name |
 |--|--|--|--|
-| Codeunit | 1544 | WorkflowWebhookSubscription | WorkflowActionResponse |
+| Codeunit | 1544 | Workflow Webhook Subscription | WorkflowActionResponse |
 | Page | 6408 | workflowCustomers | workflowCustomers |
 | Page | 6406 | workflowGenJournalBatches | workflowGenJournalBatches |
 | Page | 6407 | workflowGenJournalLines | workflowGenJournalLines |
@@ -76,7 +77,7 @@ Go to the **Web Services** page and make sure the following objects are publishe
 > [!NOTE]
 > The **Service Name** value must be exactly as shown in the table. Don't change or translate the service name.
 
-Learn more about publishing web services at [Publish a Web Service](across-how-publish-web-service.md).
+Learn more in [Publish a web service](across-how-publish-web-service.md).
 
 ## Related information
 

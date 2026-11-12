@@ -1,22 +1,22 @@
 ---
-title: Project Timeline (Power BI report)
-description: The Project Timeline monitors project timelines to ensure timely delivery, with insights into task durations, start and end dates, and critical paths.
+title: Project Timeline Power BI Report
+description: Review project task start dates, end dates, and durations derived from planning lines in Business Central with the Project Timeline Power BI report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37106_Primary
-ms.date: 04/29/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 
 ---
 
-# Project Timeline (Power BI Report)
+# Project timeline (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The **Project Timeline** report monitors project timelines to ensure timely delivery, with insights into task durations, dates, and critical paths. This report includes details about the project number, tasks number, description, starting and ending dates.
+The **Project Timeline** report shows task dates and durations based on project planning lines. A task's starting date is its earliest planning date, and its ending date is its latest planning date. The report includes the project number, task number, and description.
 
 :::image type="content" source="media/projects/project-timeline.png" alt-text="Screenshot of the Project Timeline Power BI Report" lightbox="media/projects/project-timeline.png":::
 
@@ -24,16 +24,18 @@ The **Project Timeline** report monitors project timelines to ensure timely deli
 
 Project managers and team members use the report to effectively monitor and plan project timelines.
 
-As a manager, you can leverage the report to monitor the duration of individual tasks within a project. By identifying potential bottlenecks and critical paths, you can proactively address issues, adjust timelines, and allocate resources effectively to ensure project success.
+As a manager, you can use the report to monitor the duration of individual tasks within a project. Review the dates to identify potential scheduling issues and decide whether to adjust timelines or resource allocations. The report doesn't calculate a critical path or task dependencies.
 
-For team members involved in project execution, the report serves as a tool for understanding their task timelines and dependencies. By referring to this report, staff can prioritize their tasks, collaborate with other team members effectively, and meet project deadlines.
+For team members involved in project execution, the report serves as a tool for understanding their task timelines. By referring to this report, staff can prioritize their tasks, collaborate with other team members effectively, and meet project deadlines.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
-The report includes the following key performance indicators (KPI) and measures:
+The report includes the following calculated date columns and duration measures:
 
 - [**Project Task Starting Date**](projects-powerbi-kpis.md#project-task-starting-date)
 - [**Project Task Ending Date**](projects-powerbi-kpis.md#project-task-ending-date)
+- [Project Task Duration Days](projects-powerbi-kpis.md#project-task-duration-days)
+- [Project Task Duration Weeks](projects-powerbi-kpis.md#project-task-duration-weeks)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -45,6 +47,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Job
 - Job Task
+- Job Planning Line
 
 ## Try the report
 
@@ -52,10 +55,12 @@ Try the report here: [Project Timeline](https://businesscentral.dynamics.com?pag
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

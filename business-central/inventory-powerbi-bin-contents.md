@@ -1,17 +1,18 @@
 ---
-title: Bin Contents (Power BI report)
-description: The Bin Contents report shows bin contents per location.
+title: Bin Contents Inventory Power BI Report
+description: Analyze warehouse quantities, available stock, picks, put-aways, and adjustments by bin with the Bin Contents Power BI report in Business Central.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37031_Primary
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Bin Contents (Power BI Report)
+# Bin contents (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -31,7 +32,7 @@ Manufacturing team members can use this report to gauge inventory levels across 
 
 The procurement team can use this report to gauge inventory levels across all bins and plan purchase orders to ensure that quantities in bins stay at a reasonable level.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Bin Contents* report includes the following KPIs:
 
@@ -70,9 +71,11 @@ Try the report here: [Bin Contents](https://businesscentral.dynamics.com?page=37
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

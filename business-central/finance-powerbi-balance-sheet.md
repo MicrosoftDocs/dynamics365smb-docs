@@ -1,17 +1,17 @@
 ---
-title: Balance Sheet by Month
-description: The Balance Sheet by Month report provides a month-to-month view of the balance at date for all balance sheet accounts. 
+title: Balance Sheet by Month Power BI Report
+description: Analyze monthly balances for balance sheet accounts in Business Central with the Power BI report, and explore the underlying general ledger entries.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36986_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Balance Sheet by Month (Power BI report)
+# Balance sheet by month (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -23,7 +23,7 @@ The **Balance Sheet by Month** report provides a detailed, month-to-month view o
 
 Executives or senior leaders can use the report to make informed decision about the company's financial health. You can effectively manage liquidity by comparing current assets to liabilities and ensure you can meet your short-term obligations. It also provides insights into debt levels relative to equity, which helps you make clearer decisions about your financing and capital structure.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The report includes the following KPIs and measures: 
 
@@ -48,7 +48,7 @@ Try the report here: [Balance Sheet by Month](https://businesscentral.dynamics.c
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -57,3 +57,5 @@ Try the report here: [Balance Sheet by Month](https://businesscentral.dynamics.c
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

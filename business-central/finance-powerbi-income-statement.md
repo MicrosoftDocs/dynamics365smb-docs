@@ -1,17 +1,18 @@
 ---
-title: Income Statement by Month
-description: The Income Statement by Month report provides a month-to-month view of the net change for all income statement accounts. 
+title: Income Statement by Month Power BI Report
+description: Analyze monthly net changes in income statement accounts in Business Central with the Power BI report, and explore the underlying ledger entries.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36985_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Income Statement by Month (Power BI report)
+# Income statement by month (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -28,7 +29,7 @@ CFOs use the report to analyze monthly profitability trends for the fiscal year.
 Finance administrators use the report to manage and review the operating expenses by a Department dimension. For example, if you spot an unexpected rise in costs, you could filter the report by department to identify the department responsible for the increased expenditure. This information can help you investigate and realign the department budget, if needed.
 
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The report includes the following KPIs and measures: 
 
@@ -54,7 +55,7 @@ Try the report here: [Income Statement by Month](https://businesscentral.dynamic
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -63,3 +64,5 @@ Try the report here: [Income Statement by Month](https://businesscentral.dynamic
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

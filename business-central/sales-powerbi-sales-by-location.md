@@ -1,18 +1,19 @@
 ---
-title: Sales by Location (Power BI Report)
-description: The Sales by Location report provides an overview of sales performance broken down by location.
+title: Sales by Location Power BI Report
+description: Compare sales amounts, quantities, costs, and adjusted profit by warehouse location in Power BI to identify trends and evaluate location performance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37066_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Sales by Location (Power BI Report)
+# Sales by location (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -62,7 +63,7 @@ Try the report here: [Sales by Location](https://businesscentral.dynamics.com?pa
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

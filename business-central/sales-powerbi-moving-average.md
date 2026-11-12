@@ -1,18 +1,19 @@
 ---
-title: Moving Average (Power BI Report)
-description: The Moving Average report provides a clear picture of your organization's average sales over a 30 day period.
+title: Moving Average Power BI Report
+description: Compare sales amounts with a 30-day moving average in the Power BI Sales app to identify recent revenue trends and changes in sales performance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37000_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Moving Average (Power BI Report)
+# Moving average for sales (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -56,7 +57,7 @@ Try the report here: [Moving Average](https://businesscentral.dynamics.com?page=
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

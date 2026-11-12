@@ -1,43 +1,43 @@
 ---
-title: Project Realization (Power BI report)
-description: The Project Realization report showcases the completion for each project.
+title: Project Realization Power BI Report
+description: Compare billable project prices with usage prices in Business Central, and analyze realization and price variances with the Project Realization report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37036_Primary
-ms.date: 09/25/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Project Realization (Power BI Report)
+# Project realization (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Project Realization** report shows how billing is performing against the costs.
+The **Project Realization** report compares billable prices from project planning lines with usage prices from project ledger entries.
 
-The report compares the total invoiced price to the total usage price, and highlights how much of each project was invoiced.
+The report calculates realization as total billable price divided by total usage price. Realization variance is total billable price minus total usage price. These measures don't show how much of a project has been invoiced.
 
 :::image type="content" source="media/projects/project-realization.png" alt-text="Screenshot of the Project Realization Power BI Report" lightbox="media/projects/project-realization.png":::
 
 ## Use the report
 
-Leadership and project managers use the report to identify which projects they need to invoice. CFOs also use this report.
+Leadership, project managers, and CFOs use the report to compare the billable value of projects with the value of recorded usage.
 
-CFOs can check which projects have low realization, and send invoices accordingly to ensure you meet monthly invoicing goals and have healthy turnover.
+CFOs can check which projects have low realization and investigate differences between billable planning lines and recorded usage.
 
-Project managers use this report to identify projects with completed work that isn't invoiced.
+Project managers use this report to identify projects where billable prices don't cover usage prices.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Project Realization* report includes the following KPIs:
 
 - [Realization (%)](projects-powerbi-kpis.md#realization-)
 - [Realization Variance](projects-powerbi-kpis.md#realization-variance)
 - [Total Usage Price](projects-powerbi-kpis.md#total-usage-price)
-- [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-price)
 - [Total Billable Price](projects-powerbi-kpis.md#total-billable-price)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
@@ -50,6 +50,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Job
 - Job Ledger Entries
+- Job Planning Line
 
 ## Try the report
 
@@ -59,8 +60,10 @@ Try the report here: [Project Realization](https://businesscentral.dynamics.com?
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

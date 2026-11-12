@@ -1,17 +1,18 @@
 ---
-title: Inventory by Serial No (Power BI report)
-description: The Inventory by Serial No. report shows your total inventory broken down per serial number.
+title: Inventory by Serial No. Power BI Report
+description: Track inventory quantities and transaction details for serial-tracked items with the Inventory by Serial No. Power BI report in Business Central.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37030_Primary
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Inventory by Serial No. (Power BI Report)
+# Inventory by serial no. (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -27,7 +28,7 @@ Inventory managers use the report to optimize stock levels for each serial numbe
 
 The report gives warehouse staff a clear picture of the quantities of each serial number, so you can manage inventory efficiently and avoid stock-outs.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Inventory by Serial No.* report includes the following KPIs:
 
@@ -54,9 +55,11 @@ Try the report here: [Inventory by Serial No.](https://businesscentral.dynamics.
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

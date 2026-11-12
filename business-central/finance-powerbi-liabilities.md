@@ -1,13 +1,14 @@
 ---
-title: Liabilities
+title: Liabilities Analysis Power BI Report
 description: The Liabilities report provides an overview of all liabilities broken down by current liabilities, payroll liabilities, and long-term liabilities. 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36990_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -35,7 +36,7 @@ Executives can use the report to evaluate your company's financial position befo
 
 Next, you could assess the debt ratio and debt-to-equity ratios. These key performance indicators provide insight into the company's leverage and risk profile. For example, a high debt-to-equity ratio could indicate that the company has a high reliance on borrowed funds. This type of data can help inform how you decide to finance the expansion project.  
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Liabilities* report includes the following KPIs and measures: 
 
@@ -68,7 +69,7 @@ Try the report here: [Liabilities](https://businesscentral.dynamics.com?page=369
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -77,3 +78,5 @@ Try the report here: [Liabilities](https://businesscentral.dynamics.com?page=369
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

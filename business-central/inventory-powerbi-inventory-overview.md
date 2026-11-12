@@ -1,17 +1,17 @@
 ---
-title: Inventory Overview (Power BI report)
-description: The Inventory Overview report provides a high-level summary of your organizations inventory.
+title: Inventory Overview Power BI Report
+description: Review stock quantities, gross requirements, scheduled receipts, and projected balances across locations with the Inventory Overview Power BI report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37022_Primary
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Inventory Overview (Power BI Report)
+# Inventory overview (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -20,7 +20,7 @@ The **Inventory Overview** report provides a high-level summary of your inventor
 - Inventory (Quantity)
 - Scheduled receipts
 - Gross requirements
-- Project available balance
+- Projected available balance
 
 The report can give you a high-level understanding of your inventory on a location by location basis, along with quantities across different types of documents.
 
@@ -32,7 +32,7 @@ Leadership and management can gauge inventory levels across locations and get an
 
 Management teams use the report to paint a picture of the stock information without having to drill down. The report gives a clear view of stock you're receiving and the demand that's currently in the system.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Inventory Overview* report includes the following KPIs:
 
@@ -75,7 +75,9 @@ The report uses data from the following tables in [!INCLUDE [prod_short](include
 - Assembly Lines
 - Planning Component Lines
 - Prod Order Component Lines
+- Production Order Lines
 - Transfer Lines
+- Requisition Line
 
 ## Try the report
 
@@ -85,9 +87,11 @@ Try the report here: [Inventory Overview](https://businesscentral.dynamics.com?p
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

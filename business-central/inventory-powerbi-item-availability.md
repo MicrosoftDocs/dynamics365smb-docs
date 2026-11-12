@@ -1,17 +1,17 @@
 ---
-title: Item Availability (Power BI report)
-description: The Item Availability report gives an overview of the availability of each item. 
+title: Item Availability Power BI Report
+description: Compare projected inventory balances with demand, scheduled receipts, and planned orders using the Item Availability Power BI report in Business Central.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37026_Primary
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Item Availability (Power BI Report)
+# Item availability (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -23,11 +23,11 @@ The **Item Availability** report gives an overview of the availability of each i
 
 The report is designed for management and customer service teams.
 
-Customer service teams use this report to identify availability of specific items for your customers. By having up-to-date information for each item, you can provide quick, accurate, and informed answers to estimates and avoid disappointing customers.
+Customer service teams use this report to identify availability of specific items for your customers. The information reflects the latest semantic model refresh, rather than live inventory changes. Check the refresh time before using the report to answer customer questions.
 
 For inventory management teams, the information in this report can help you keep adequate stock levels of each item. For example, the information can help you coordinate other teams to increase production of specific items, or create purchase orders to replenish stock.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Item Availability* report includes the following KPIs:
 
@@ -57,6 +57,9 @@ The report uses data from the following tables in [!INCLUDE [prod_short](include
 - Planning Component Lines
 - Assembly Lines
 - Purchase Lines
+- Production Order Lines
+- Assembly Header
+- Requisition Line
 
 ## Try the report
 
@@ -66,9 +69,11 @@ Try the report here: [Item Availability](https://businesscentral.dynamics.com?pa
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,24 @@
 ---
-title: Gross Requirement (Power BI report)
-description: The Gross Requirement report looks at all outbound transactions within the system to identify the quantity required per item. 
+title: Gross Requirement Power BI Report
+description: Compare outstanding inventory demand with projected available balances by item and document type using the Gross Requirement Power BI report.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37027_Primary
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Gross Requirement (Power BI Report)
+# Gross requirement (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Gross Requirement** report looks at all outbound transactions to determine the quantity required per item.
+The **Gross Requirement** report combines outstanding demand from sales, service, projects, production components, transfers, planning components, assembly components, and purchase returns to determine the quantity required per item.
 
-The report shows the gross requirement for an item and the different documents that include it. This information is coupled with the **Project Available Balance** that calculates the balance at any point in time.
+The report shows the gross requirement for an item and the different documents that include it. This information is coupled with the **Projected Available Balance** that calculates the balance at any point in time.
 
 :::image type="content" source="media/inventory/gross-requirement.png" alt-text="Screenshot of the Gross Requirement Power BI Report" lightbox="media/inventory/gross-requirement.png":::
 
@@ -29,12 +30,12 @@ Managers can use the report to ensure that stock levels are high enough to maint
 
 Procurement officers can view sales and production volumes and ensure your available balance meets the requirements for each item. With this information, you can make informed decisions on the items you should replenish.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Gross Requirement* report includes the following KPIs:
 
 - [**Gross Requirement**](inventory-powerbi-kpis.md#gross-requirement)
-- [**Project Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
+- [**Projected Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
 - [**Qty. on Sales Order**](inventory-powerbi-kpis.md#qty-on-sales-order)
 - [**Qty. on Purch. Return**](inventory-powerbi-kpis.md#qty-on-purch-return)
 - [**Qty. on Service Order**](inventory-powerbi-kpis.md#qty-on-service-order)
@@ -55,6 +56,7 @@ The report uses data from the following tables in [!INCLUDE [prod_short](include
 
 - Item
 - Item Ledger Entries
+- Planning Component
 - Assembly Lines
 - Job Planning Lines
 - Prod Order Component Line
@@ -72,9 +74,11 @@ Try the report here: [Gross Requirement](https://businesscentral.dynamics.com?pa
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

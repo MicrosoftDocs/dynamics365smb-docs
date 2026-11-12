@@ -1,30 +1,31 @@
 ---
-title: Production Scrap (Power BI report)
+title: Production Scrap Power BI Report
 description: The Production Scrap report shows the quantity of capacity scrap each month, with a breakdown by code, location, and item category.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37055_Primary
-ms.date: 05/26/2025
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Production Scrap (Power BI Report)
+# Production scrap (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The **Production Scrap** report presents important key performance indicators (KPIs) such as **Scrap %** and **Scrap Quantity by Work Center**, **Machine Center**, **Source No.**, and **Production Order**.
 
-The **Production Order Scrap %** KPI card highlights the relationship between **Finished Quantity** and **Scrap Quantity** to help clarify the drivers behind the production order scrap percent.
+The **Production Order Scrap %** KPI card divides **Production Order Scrap Quantity** by **Finished Quantity**. Both measures apply the top-level production order line filter, **Planning Level Code** 0.
 
 The **Scrap Quantity Over Time** chart shows how scrap quantity changes over time. This chart allows you to identify trends in production scrap as processes change.
 
-Work center and machine center statistics display in the KPI Bar. **Work Center Scrap %** and **Machine Center Scrap %** are derived from the **Work Center Scrap** and **Work Center Output** respectively. These figures help you understand the efficiency of your production facilities at a glance.
+Work center and machine center statistics display in the KPI Bar. **Work Center Scrap %** divides **Work Center Scrap** by **Work Center Output**. **Machine Center Scrap %** divides **Machine Center Scrap** by **Machine Center Output**. These figures help you understand the efficiency of your production facilities at a glance.
 
-The **Scrap % by Production Order** chart gives you an easy way to compare scrap rates across different productions orders. Cross filter this report by the **Scrap Quantity vs. Expected Scrap Quantity by Source No.** chart to identify which production orders contribute to the scrap rate.
+The **Scrap % by Production Order** chart gives you an easy way to compare scrap rates across different production orders. Select a source item in the **Scrap Quantity vs. Expected Scrap Quantity by Source No.** chart to highlight or filter related visuals and investigate which production orders contribute to the scrap rate.
 
 The **Scrap Quantity by Scrap Code** visual allows you to quickly compare and analyze why scrap occurred.
 
@@ -45,6 +46,7 @@ For manufacturing managers, this report reveals important measures about capacit
 The Production Scrap report includes the following KPIs and measures:
 
 - [**Production Order Scrap %**](manufacturing-powerbi-kpis.md#production-order-scrap-percent)
+- [**Production Order Scrap Quantity**](manufacturing-powerbi-kpis.md#production-order-scrap-quantity)
 - [**Finished Quantity**](manufacturing-powerbi-kpis.md#finished-quantity)
 - [**Scrap Quantity**](manufacturing-powerbi-kpis.md#scrap-quantity)
 - [**Work Center Scrap %**](manufacturing-powerbi-kpis.md#work-center-scrap-percent)
@@ -67,6 +69,9 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Production Order
 - Machine Center
 - Work Center
+- Item
+- Item Ledger Entry
+- Prod. Order Line
 
 ## Try the report
 
@@ -76,7 +81,9 @@ Try the report here: [Production Scrap](https://businesscentral.dynamics.com?pag
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

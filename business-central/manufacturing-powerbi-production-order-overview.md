@@ -1,17 +1,18 @@
 ---
-title: Production Order Overview
-description: The Production Order Overview report provides a high-level summary of your organization's production order activities.
+title: Production Order Overview Power BI Report
+description: Monitor unfinished production orders, completion ratios, and actual, expected, and standard costs with the Production Order Overview Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37098_Primary
-ms.date: 04/22/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Production Order Overview (Power BI Report)
+# Production order overview (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -31,7 +32,7 @@ The **Completion Ratios by Source No** chart shows the completion rate of each s
 
 The **Total Actual Cost Breakdown** pie chart divides total actual cost into its sub-components:
 
-- Actual Capacity Cost Overhead
+- Actual Capacity Overhead Cost
 - Actual Material Cost
 - Actual Capacity Cost
 - Actual Subcontracted Cost
@@ -42,11 +43,10 @@ This visualization helps manufacturing managers quickly understand where costs a
 The **Current Production Orders** table lists detailed information for each production order, including: 
 
 - Production Order Number
-- Status
 - Source No.
 - Planned Quantity
 - Finished Quantity
-- Starting Date
+- Total Actual Cost
 
 The table provides more context when interacting with other visuals in the report, helping you examine specific orders for deeper analysis.
 
@@ -64,10 +64,10 @@ Together, these visuals offer a comprehensive snapshot of production health, emp
 
 ## Key performance indicators (KPIs)
 
-The Machine Center Load report includes the following KPIs and measures:
+The Production Order Overview report includes the following KPIs and measures:
 
 - [**Actual Capacity Cost**](manufacturing-powerbi-kpis.md#actual-capacity-cost)
-- [**Actual Capacity Cost Overhead**](manufacturing-powerbi-kpis.md#actual-capacity-overhead-cost)
+- [**Actual Capacity Overhead Cost**](manufacturing-powerbi-kpis.md#actual-capacity-overhead-cost)
 - [**Actual Manufacturing Overhead Cost**](manufacturing-powerbi-kpis.md#actual-manufacturing-overhead-cost)
 - [**Actual Material Cost**](manufacturing-powerbi-kpis.md#actual-material-cost)
 - [**Actual Subcontracted Cost**](manufacturing-powerbi-kpis.md#actual-subcontracted-cost)
@@ -92,6 +92,10 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Value Entry
 - Inventory Adjustment Entry Order Line
 - Production Order
+- Item
+- Prod. Order Component
+- Prod. Order Routing Line
+- Work Center
   
 ## Try the report
 
@@ -101,7 +105,9 @@ Try the report here: [Production Order Overview](https://businesscentral.dynamic
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

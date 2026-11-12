@@ -1,23 +1,24 @@
 ---
-title: Project Overview (Power BI report)
-description: The Project Overview report highlights key high-level information about your organization's project activity.
+title: Project Overview Power BI Report
+description: Review project counts, usage costs, profit, and realization in Business Central with the Project Overview Power BI report for managers and leaders.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37033_Primary
-ms.date: 09/25/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Project Overview (Power BI Report)
+# Project overview (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Projects Overview** report shows key metrics based on all ongoing projects for your organization and high-level summaries.
+The **Projects Overview** report shows key metrics and high-level summaries for projects in your organization. The projects included depend on your filters.
 
-Use this report to investigate metrics such as the percent invoiced, percent complete, and other values that offer insights about the status your projects.
+Use this report to investigate metrics such as usage cost, profit, and realization that offer insights about the status of your projects.
 
 :::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/project-overview.png":::
 
@@ -29,17 +30,17 @@ People on leadership teams use the report to get a bird's eye view of your organ
 
 Project managers use the report to gain a better understanding of the health of all your projects. The report helps them understand what's going well and what isn't, and where to make changes.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Project Overview* report includes the following KPIs:
 
-- [Completed (%)](projects-powerbi-kpis.md#completed-)
-- [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
 - [Realization (%)](projects-powerbi-kpis.md#realization-)
-- [Actual Profit](projects-powerbi-kpis.md#actual-profit)
-- [Actual Profit Margin %](projects-powerbi-kpis.md#actual-profit-margin-)
-- [Actual (Total Cost)](projects-powerbi-kpis.md#actual-total-cost)
-- [Budget (Total Cost)](projects-powerbi-kpis.md#budget-total-cost)
+- [Total Usage Profit](projects-powerbi-kpis.md#total-usage-profit)
+- [Total Usage Profit Margin %](projects-powerbi-kpis.md#total-usage-profit-margin-)
+- [Total Invoiced Profit](projects-powerbi-kpis.md#total-invoiced-profit)
+- [Total Usage Cost](projects-powerbi-kpis.md#total-usage-cost)
+- [Total Billable Price](projects-powerbi-kpis.md#total-billable-price)
+- [Total Usage Price](projects-powerbi-kpis.md#total-usage-price)
 - [Project Count](projects-powerbi-kpis.md#project-count)
 - [No. of Completed Projects](projects-powerbi-kpis.md#no-of-completed-projects)
 
@@ -63,7 +64,9 @@ Try the report here: [Project Overview](https://businesscentral.dynamics.com?pag
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
 [Project management overview](projects-manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

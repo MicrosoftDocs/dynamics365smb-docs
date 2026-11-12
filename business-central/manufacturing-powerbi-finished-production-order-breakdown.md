@@ -1,21 +1,22 @@
 ---
-title: Finished Production Order Breakdown (Power BI report)
+title: Finished Production Order Breakdown Power BI Report
 description: The Finished Production Order Breakdown report provides insights into the expected quantity versus the finished quantity of production orders.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37045_Primary
-ms.date: 11/01/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Finished Production Order Breakdown (Power BI Report)
+# Finished production order breakdown (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Finished Production Order Breakdown** report provides insights into the expected quantity versus the finished quantity of production orders. It helps track work in progress and its status to meet expected demand.
+The **Finished Production Order Breakdown** report compares planned and finished quantities for production orders with the **Finished** status. It also breaks down actual costs and compares them with expected and standard costs.
 
 :::image type="content" source="media/manufacturing/finished-production-order-breakdown-v26.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown-v26.png":::
 
@@ -23,11 +24,11 @@ The **Finished Production Order Breakdown** report provides insights into the ex
 
 The report is meant for manufacturing managers and supervisors.
 
-Manufacturing managers use the report to track the progress of production orders and stay on top of production process. The report shows the expected quantity versus the finished quantity, which helps identify the quantity left to produce and the status of the production process. This information helps optimize the use of resources.
+Manufacturing managers use the report to review completed production orders. Comparing planned and finished quantities helps identify output variances. The cost breakdown helps you evaluate the cost of completed production.
 
-Production supervisors use this report to track the progress of production orders and ensure that the production process is running smoothly. The report provides insights into the expected quantity versus the finished quantity, which helps identify discrepancies.
+Production supervisors use this report to investigate discrepancies between planned and finished quantities on completed production orders.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Finished Production Order Breakdown* report includes the following KPIs and measures:
 
@@ -55,6 +56,14 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Item
 - Production Order
+- Prod. Order Line
+- Capacity Ledger Entry
+- Item Ledger Entry
+- Value Entry
+- Inventory Adjmt. Entry (Order)
+- Prod. Order Component
+- Prod. Order Routing Line
+- Work Center
 
 ## Try the report
 
@@ -64,7 +73,9 @@ Try the report here: [Finished Production Order Breakdown](https://businesscentr
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,18 @@
 ---
-title: Financial Overview
-description: The Financial Overview report gives a clear picture of your organization's finance activities.
+title: Financial Overview Power BI Report
+description: Monitor revenue, net profit, assets, and financial performance indicators in Business Central with the Financial Overview Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36984_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Financial Overview (Power BI report)
+# Financial overview (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -34,7 +35,7 @@ The audiences for the report are:
 - Other high-level decision makers
 
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Financial Overview* report includes the following KPIs and measures: 
 
@@ -57,6 +58,12 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - G/L Entry
 - Customer
 - Vendor
+- Cust. Ledger Entry
+- Detailed Cust. Ledg. Entry
+- Vendor Ledger Entry
+- Detailed Vendor Ledg. Entry
+- G/L Account
+- G/L Account Category
 
 ## Try the report
 
@@ -66,7 +73,7 @@ Try the report here: [Financial Overview](https://businesscentral.dynamics.com?p
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -75,3 +82,5 @@ Try the report here: [Financial Overview](https://businesscentral.dynamics.com?p
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

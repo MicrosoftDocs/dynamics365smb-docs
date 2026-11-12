@@ -1,17 +1,18 @@
 ---
-title: Aged Payables (Back Dating)
+title: Aged Payables (Back Dating) Power BI Report
 description: The Aged Payables (Back Dating) report provides an overview of outstanding vendor invoices categorized by payment terms and grouped into aging buckets.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36994_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Aged Payables (Back Dating) (Power BI report)
+# Aged payables (back dating) (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -28,7 +29,7 @@ The audiences for the report are:
 
 Finance administrators can use the report to prioritize vendor payments and take advantage of discounts for early payments. By aging the report based on due dates and setting the appropriate aging period buckets, you can effectively manage payment schedules. This approach enhances cash flow and strengthens relationships with key vendors.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Aged Payables (Back Dating)* report includes the following KPIs and measures: 
 
@@ -59,7 +60,7 @@ Try the report here: [Aged Payables (Back Dating)](https://businesscentral.dynam
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -68,3 +69,5 @@ Try the report here: [Aged Payables (Back Dating)](https://businesscentral.dynam
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

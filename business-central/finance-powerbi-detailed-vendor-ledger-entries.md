@@ -1,17 +1,18 @@
 ---
-title: Detailed Vendor Ledger Entries
-description: The Detailed Vendor Ledger Entries report provides a detailed view of individual transactions from the Detailed Vendor Ledger, enhanced with information from Vendor Ledger entries.
+title: Detailed Vendor Ledger Entries Power BI Report
+description: Review detailed vendor transactions and related vendor ledger information in Business Central with the Detailed Vendor Ledger Entries Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36996_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Detailed Vendor Ledger Entries (Power BI report)
+# Detailed vendor ledger entries (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -49,7 +50,7 @@ Try the report here: [Detailed Vendor Ledger Entries](https://businesscentral.dy
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -58,3 +59,5 @@ Try the report here: [Detailed Vendor Ledger Entries](https://businesscentral.dy
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

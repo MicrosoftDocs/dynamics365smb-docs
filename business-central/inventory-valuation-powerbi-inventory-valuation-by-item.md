@@ -1,17 +1,18 @@
 ---
-title: Inventory Valuation by Item (Power BI report)
-description: The Inventory Valuation by Item report shows item values on an item by item basis.
+title: Inventory Valuation by Item Power BI Report
+description: Review beginning and ending inventory values and changes during a selected period by item with the Inventory Valuation by Item Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37057_Primary
-ms.date: 10/30/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Inventory Valuation by Item (Power BI Report)
+# Inventory valuation by item (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -20,7 +21,7 @@ The **Inventory Valuation by Item** report shows item values on an item by item 
 The report focuses on the value of each item, and shows the following metrics for a period you specify:
 
 - Beginning balance value
-- Increases and decreases in value
+- Net change in value
 - End balance value
 
 :::image type="content" source="media/inventory-valuation/inventory-valuation-by-item.png" alt-text="Screenshot of the Inventory Valuation by Item Power BI Report" lightbox="media/inventory-valuation/inventory-valuation-by-item.png":::
@@ -33,15 +34,14 @@ Executives use this report to gain an overall understanding of your organization
 
 Managers use the report to monitor the value of on-hand inventory. This information can keep you informed about increases and decreases in the value of your stock over time.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Inventory Valuation by Item* report includes the following KPIs:
 
-- [**Ending Balance Quantity**](inventory-valuation-powerbi-kpis.md#ending-balance-qty)
 - [**Beginning Balance Value**](inventory-valuation-powerbi-kpis.md#beginning-balance-value)
 - [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
-- [**Increases Value**](inventory-valuation-powerbi-kpis.md#increases-value)
-- [**Decreases Value**](inventory-valuation-powerbi-kpis.md#decreases-value)
+- [**Net Balance Value**](inventory-valuation-powerbi-kpis.md#net-balance-value)
+- [**Ending Balance Posted to G/L**](inventory-valuation-powerbi-kpis.md#ending-balance-posted-to-gl)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -63,9 +63,11 @@ Try the report here: [Inventory Valuation by Item](https://businesscentral.dynam
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

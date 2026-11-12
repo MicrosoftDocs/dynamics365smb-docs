@@ -1,16 +1,17 @@
 ---
-title: Power BI apps FAQ
-description: FAQ for the Business Central Power BI apps.
+title: Business Central Power BI Apps FAQ
+description: Find answers about licensing, installation, data refresh, dimensions, languages, and source files for the Business Central Power BI apps.
 author: kennieNP
-ms.topic: get-started
+ms.topic: faq
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
 ms.search.form: 36951, 
-ms.date: 10/29/2025
+ms.date: 11/11/2026
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Frequently asked questions about the Power BI apps in Business Central
@@ -21,13 +22,9 @@ This article provides answers to frequently asked questions (FAQs) about the [!I
 
 ## What [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses do I need?
 
-To use the Power BI apps, you need [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] licenses for the following users:
+Users who install and distribute Power BI template apps need a Power BI Pro or Premium Per User (PPU) license.
 
-- Users who install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps.
-- Users who refresh the report data.
-- Users who access the reports.
-
-Alternatively, you can use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)].
+Users who view the reports also need Pro or PPU unless both the report and its semantic model are hosted in Premium capacity or Fabric F64 or larger capacity. In qualifying capacity, users with free licenses can view shared content with the required permissions, such as the workspace **Viewer** role. Content in a PPU workspace requires PPU licenses for viewers. Capacity doesn't replace the installer's paid license. Learn more in [Power BI license types](/power-bi/fundamentals/service-features-license-type).
 
 Learn more in [Installing Power BI apps for Business Central (prerequisites)](across-powerbi-install-business-central-apps.md#prerequisites).
 
@@ -38,7 +35,7 @@ You must have [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for t
 1. You must install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft Marketplace.
 2. You must share a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
 
-The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
+A free Power BI license lets you use your own reports in **My workspace**, but it doesn't let you install or distribute template apps. Free users can view shared app content hosted in qualifying capacity, as described in the previous answer.
 
 ## What Business Central licenses do I need?
 
@@ -70,12 +67,12 @@ All Power BI semantic models read dimension records from **PowerBI Flat Dim. Set
 
 The **PowerBI Flat Dim. Set Entry** table has flattened dimension set entry records that are purpose-built for PBI reporting. The **Update Dim. Set Entries** job queue entry (Codeunit 36952) periodically updates the table.
 
-This job queue entry is created automatically when you finish the **Connect to Power BI** assisted setup guide. If you haven't finished the guide, you can go to the **Power BI Report Setup** page and choose the **Schedule Power BI Dimension Refresh** action.
+This job queue entry is created automatically when you install the Power BI connector app or initialize a company. If the entry is missing or needs to be reset, go to the **Power BI Reports Setup** page and select **Schedule Power BI Dimension Refresh**. The job queue entry's description is **Update Power BI Dimension Set Entries**, and it runs codeunit 36952, **Update Dim. Set Entries**.
 
 ### Troubleshoot dimension data
 
-1. On the **Job Queue Entries** page, ensure that the **Update Dim. Set Entries** job queue entry is present and its status is **Ready**.
-1. Ensure that the **Update Dim. Set Entries** job queue entry ran successfully. To verify that the job works, select the job and then select the **Run once (foreground)** action.
+1. On the **Job Queue Entries** page, find the entry with the description **Update Power BI Dimension Set Entries** and codeunit ID **36952**, and ensure that its status is **Ready**.
+1. Ensure that the job queue entry ran successfully. To verify that the job works, select the job and then select the **Run once (foreground)** action.
 1. Open the **PowerBI Flat Dim. Set Entry** table in your browser to verify that records are present. If the table has data, you can refresh the semantic model and review the results.
 
 Learn more in [Job queue entry for updating dimension set entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries).
@@ -90,7 +87,7 @@ Learn more in [Update a Power BI app](across-powerbi-install-business-central-ap
 
 ## Are the apps available in multiple languages?
 
-Yes, all apps are multi-language for many of the languages that [!INCLUDE[prod_short](includes/prod_short.md)] supports. Learn more in [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
+Yes, all apps are multilingual for many of the languages that [!INCLUDE[prod_short](includes/prod_short.md)] supports. Learn more in [Multilanguage Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
 
 ## Can I get a copy of the source code (.pbix files) for the apps?
 
@@ -120,3 +117,5 @@ No. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are only available 
 [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

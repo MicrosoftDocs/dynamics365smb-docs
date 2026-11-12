@@ -1,16 +1,17 @@
 ---
-title: Moving Averages (Power BI Report)
-description: The Moving Averages report provides a comprehensive overview of your organization's average purchase over a 30-day period.
+title: Moving Averages Power BI Report
+description: Compare purchase amounts with a 30-day moving average in the Power BI Purchases app to identify spending trends and changes in purchasing activity.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37012_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
-# Moving Averages (Power BI Report)
+# Moving averages for purchases (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -29,7 +30,7 @@ Purchasing managers want to know which periods have a higher demand than others 
 For example, you might notice that purchasing demands are often higher towards the end of the year. You can work with your team to plan ahead and allocate staff to handle workload spikes.
 
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Moving Averages* report includes the following KPIs and measures: 
 
@@ -56,7 +57,7 @@ Try the report here: [Moving Averages](https://businesscentral.dynamics.com?page
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

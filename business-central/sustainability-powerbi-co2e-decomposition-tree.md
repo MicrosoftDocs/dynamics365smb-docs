@@ -1,22 +1,22 @@
 ---
-title: CO2e Decomposition Tree
-description: The CO2e Decomposition Tree report breaks down CO2e emission metrics into its key contributing components to help users understand what is driving changes in CO2 emissions and why.
+title: CO2e Decomposition Tree Power BI Report
+description: Explore factors that contribute to CO2e emissions in Business Central with the CO2e Decomposition Tree Power BI report for sustainability analysis.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
-ms.search.form: 
-ms.date: 05/26/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Co2e Decomposition Tree (Power BI Report)
+# CO2e decomposition tree (Power BI report)
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
-The Co2e Decomposition Tree report breaks down the CO2e emissions across multiple factors, and you can structure it to suit your business needs. The interactive nature of the decomposition tree lets you update and change hierarchical data to identify key factors that contribute to your organizations overall emissions.
+The CO2e Decomposition Tree report breaks down CO2e emissions across multiple factors. The decomposition tree lets you explore dimensions in different orders to identify factors that contribute to your organization's overall emissions. This exploration doesn't change the underlying data.
 
 :::image type="content" source="media\sustainability\decomposition-tree.png" alt-text="Screenshot of the CO2e Decomposition Tree Power BI report" lightbox="media\sustainability\decomposition-tree.png":::
 
@@ -41,12 +41,17 @@ Choose the link for a KPI to learn more about what it means, its calculation, an
 The CO2e Decomposition Tree report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Sustainability Ledger Entry
+- Sustainability Account
 - Sustainability Account Category
+- Sustainability Account Subcategory
+- Sustainability Goals
+- Responsibility Center
+- Emission Fee
 - Country/Region
 
 ## Try the report
 
-Try the report here: [CO2e Decomposition Tree](https://businesscentral.dynamics.com?page=37108)
+Try the report here: [CO2e Decomposition Tree](https://businesscentral.dynamics.com?page=6303)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
@@ -55,3 +60,5 @@ Try the report here: [CO2e Decomposition Tree](https://businesscentral.dynamics.
 [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

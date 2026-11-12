@@ -1,17 +1,18 @@
 ---
-title: Purchases Decomposition (Power BI Report)
-description: The Purchases Decomposition report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types.
+title: Purchases Decomposition Power BI Report
+description: Break down purchase amounts by vendor, item, location, fiscal period, and document type in Power BI to identify the main contributors to spending.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37010_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Purchases Decomposition (Power BI Report)
+# Purchases decomposition (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -31,13 +32,13 @@ Purchasers can use this report to analyze the purchasing activities for a specif
 - Drill down into the data and identify which suppliers provide the most cost-effective items.
 - Analyze the volume of purchases over time.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Purchases Decomposition* report includes the following KPIs and measures: 
 
 - [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 - [**%GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
-- [**%GT Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -64,7 +65,7 @@ Try the report here: [Purchases Decomposition](https://businesscentral.dynamics.
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

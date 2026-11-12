@@ -1,18 +1,19 @@
 ---
-title: Work Center Statistics
-description: The Work Center Statistics report shows key performance indicators for each work center.
+title: Work Center Statistics Power BI Report
+description: Review work center capacity, efficiency, actual costs, allocated time, and scrap indicators with the Work Center Statistics Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37094_Primary
-ms.date: 05/26/2025
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Work Center Statistics (Power BI Report)
+# Work center statistics (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -32,7 +33,7 @@ The KPI can help you assess resource utilization, identify bottlenecks, and eval
 
 The **Work Center Efficiency** chart shows the actual efficiency of each work center, organized by work center number. It provides a visual comparison of efficiency levels, enabling you to identify performance variations and target areas for operational improvements.
 
-The **Statistics Details** table provides a detailed summary of each work center, including its associated work center and a range of KPIs. The listed KPIs cover various aspects of performance, such as capacity, efficiency, cost, time allocation, output, scrap metrics, and runtime statistics. The KPIs include:
+The **Statistics Details** table provides a detailed summary of each work center. Its KPIs cover capacity, efficiency, cost, and time allocation. The KPIs include:
 
 - Work Center Capacity (Total)
 - Work Center Capacity (Effective)
@@ -78,6 +79,8 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Prod Order Capacity Need
 - Calendar Entry
 - Work Center
+- Value Entry
+- Manufacturing Setup
   
 ## Try the report
 
@@ -87,7 +90,9 @@ Try the report here: [Work Center Statistics](https://businesscentral.dynamics.c
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Actual vs. Budget (Power BI Report)
-description: The Actual vs. Budget report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures.
+title: Actual vs. Budget Power BI Report
+description: Compare actual purchase amounts with budgets in the Power BI Purchases app to identify spending variances by item and item category.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37021_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Actual vs. Budget (Power BI Report)
+# Actual vs. budget for purchases (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Actual vs. Budget** report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures. Use this report to analyze and monitor purchase data by item categories and items to get a detailed view of purchase budget and variance.
+The **Actual vs. Budget** report provides a clear overview of your organization's purchase performance by comparing actual purchase amounts with budget amounts. Use this report to analyze and monitor purchase data by item categories and items to get a detailed view of purchase budget and variance.
 
 :::image type="content" source="media/purchases/purchases-actual-vs-budget.png" alt-text="Screenshot of the Actual vs. Budget Power BI report" lightbox="media/purchases/purchases-actual-vs-budget.png":::
 
@@ -29,7 +29,7 @@ Purchasing managers can use this report to analyze purchasing data and make deci
 
 Purchasers can monitor the variance metrics to ensure that you're meeting your purchasing targets. Use this report to see the purchasing performance of specific item categories, and items that you purchase. With this information, you can identify opportunities to reduce cost and optimize your approach to purchasing specific items.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Actual vs Budget* report includes the following KPIs and measures: 
 
@@ -62,7 +62,7 @@ Try the report here: [Actual vs. Budget](https://businesscentral.dynamics.com?pa
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

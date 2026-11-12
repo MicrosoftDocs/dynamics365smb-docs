@@ -1,18 +1,18 @@
 ---
-title: Sustainability KPIs and measures (Power BI)
-description: Get an overview of all the KPIs and measures in the semantic model for the Sustainability Power BI app.
+title: Sustainability KPIs and Measures (Power BI)
+description: Explore sustainability KPIs and measures in the Business Central Power BI app semantic model, including emissions, workforce, water, and waste metrics.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: concept-article
+ms.topic: reference
+ai-usage: ai-assisted
 ms.search.keywords: reporting
-ms.search.form: 
-ms.date: 05/26/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Power BI Sustainability app KPIs and measures
+# Power BI sustainability app KPIs and measures
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
@@ -20,7 +20,11 @@ This article provides a list of the key performance indicators (KPIs) that are i
 
 Each KPI is described, including how they're calculated and what data the calculations use.
 
-## Emission Fees Table
+The measures use imported data from the latest semantic model refresh. If the date filters in **Power BI Reports Setup** limit the loaded data, include the goal and baseline periods needed for your comparisons.
+
+Percentage measures that divide by zero or a blank value return a blank result.
+
+## Emission fees table
 
 **Emissions Fees Measures**
 
@@ -29,7 +33,7 @@ Each KPI is described, including how they're calculated and what data the calcul
 - [N2O Carbon Equivalent](#n2o-carbon-equivalent)
 - [CO2e Target](#co2e-target)
 
-### CH4 Carbon Equivalent
+### CH4 carbon equivalent
 
 **Formula**  
 
@@ -39,7 +43,7 @@ A sum of the **Carbon Equivalent Factor** where the **Emission Type** is **CH4**
 
 - Emissions Fees
 
-### CO2 Carbon Equivalent
+### CO2 carbon equivalent
 
 **Formula**  
 
@@ -49,7 +53,7 @@ A sum of the **Carbon Equivalent Factor** where the **Emission Type** is **CO2**
 
 - Emissions Fees
 
-### N2O Carbon Equivalent
+### N2O carbon equivalent
 
 **Formula**  
 
@@ -59,52 +63,62 @@ A sum of the **Carbon Equivalent Factor** where the **Emission Type** is **N2O**
 
 - Emissions Fees
 
-### CO2e Target
+### CO2e target
 
 **Formula**  
 
-A calculation of all carbon equivalent factors and their targets shown as one figure.
+Converts the CO2, CH4, and N2O targets to CO2 equivalents and adds them together.
+
+([CO2 Target](#co2-target) \* [CO2 Carbon Equivalent](#co2-carbon-equivalent)) + ([CH4 Target](#ch4-target) \* [CH4 Carbon Equivalent](#ch4-carbon-equivalent)) + ([N2O Target](#n2o-target) \* [N2O Carbon Equivalent](#n2o-carbon-equivalent))
 
 **Data Sources**
 
 - Emissions Fees
 - Sustainability Goals
 
-## Employee Absences Table
+## Employee absences table
 
 **Employee Absences Measures**
 
 - [Employee Absences](#employee-absences)
 - [Employee Absences (%)](#employee-absences-)
 
-### Employee Absences
+### Employee absences
 
 **Formula**  
 
-A sum of **Employee Absences Quantity**.
+A sum of **Quantity (Base)** from **Employee Absence**.
 
 **Data Sources**
 
 - Employee Absence
 
-### Employee Absences (%)
+### Employee absences (%)
 
 **Formula**  
 
-A calculation of the [Employee Absences](#employee-absences) multiplied by [Active Employees](#active-employees) and divided by **Working Days** to calculate the percentage of **Absence Hours**.
+The semantic model names this measure **Absence Hours (%)**. It divides absence quantities for active employees by the number of active employees multiplied by the number of working days in the selected period.
+
+Employee Absences for Active Employees / ([Active Employees](#active-employees) \* Working Days)
+
+The numerator uses absence quantities in base units. The denominator counts employee working days, not working hours.
+
+The Date table filters the working-day count but isn't related to Employee Absences. A report date filter doesn't restrict the absence records included in the numerator.
 
 **Data Sources**
 
 - Employees
 - Employee Absence
+- Working Days
+- Date
 
-## Employee Ledger Entries Table
+## Employee ledger entries table
 
 **Employee Ledger Entries Measures**
 
 - [Employee Amount](#employee-amount)
 
-### Employee Amount
+### Employee amount
 
 **Formula**  
 
@@ -114,23 +128,23 @@ Sum of the **Amount** field from **Employee Ledger Entries**.
 
 - Employee Ledger Entries
 
-## Employee Qualifications Table
+## Employee qualifications table
 
 **Employee Qualifications Measures**
 
 - [Employee Qualifications](#employee-qualifications)
 
-### Employee Qualifications
+### Employee qualifications
 
 **Formula**  
 
-A count of the different qualifications per employee.
+A count of employee qualification records in the current filter context. It isn't a distinct count of qualification codes.
 
 **Data Sources**
 
 - Employee Qualifications
 
-## Employee Table
+## Employee table
 
 **Employee Measures**
 
@@ -145,7 +159,7 @@ A count of the different qualifications per employee.
 - [No. of Other Employees](#no-of-other-employees)
 - [Other Employees (%)](#other-employees-)
 
-### Active Employees
+### Active employees
 
 **Formula**  
 
@@ -159,26 +173,26 @@ A filter on the [No. of Employees](#no-of-employees) where the **Status** of the
 
 **Formula**  
 
-A calculated column for the **Employee** to determine the age of the employee based on their date of birth.
+A calculated column that determines an employee's age from their date of birth and the date of the semantic model refresh.
 
 **Data Sources**
 
 - Employee
 
-### Age Distribution
+### Age distribution
 
 **Formula**  
 
 A calculated column to group employees into one of three different age distributions.
 
-[!NOTE]
-> The age distribution is defined directly in Power BI. The grouping is under 30, between 30 and 50, and then over 50. You can't change the distributions.
+> [!NOTE]
+> The age distribution is defined in the semantic model. The bundled calculation groups ages under 30 as **Under 30**, ages 30 through 49 as **30 - 50**, and ages over 50 as **Over 50**. The current calculation leaves age 50 ungrouped.
 
 **Data Sources**
 
 - Employee
 
-### Female Employees (%)
+### Female employees (%)
 
 **Formula**  
 
@@ -190,7 +204,7 @@ The **No. of Female Employees** divided by the **No. of Employees**.
 
 - Employee
 
-### Male Employees (%)
+### Male employees (%)
 
 **Formula**  
 
@@ -202,7 +216,7 @@ The **No. of Male Employees** divided by the **No. of Employees**.
 
 - Employee
 
-### No. of Employees
+### No. of employees
 
 **Formula**  
 
@@ -212,7 +226,7 @@ A count of Employees.
 
 - Employee
 
-### No. of Female Employees
+### No. of female employees
 
 **Formula**  
 
@@ -222,7 +236,7 @@ A filter on the [No. of Employees](#no-of-employees) where the **Employee Gender
 
 - Employee
 
-### No. of Male Employees
+### No. of male employees
 
 **Formula**  
 
@@ -232,7 +246,7 @@ A filter on the [No. of Employees](#no-of-employees) where the **Employee Gender
 
 - Employee
 
-### No. of Other Employees
+### No. of other employees
 
 **Formula**  
 
@@ -242,7 +256,7 @@ A filter on the [No. of Employees](#no-of-employees) where the **Employee Gender
 
 - Employee
 
-### Other Employees (%)
+### Other employees (%)
 
 **Formula**  
 
@@ -254,56 +268,59 @@ The **No. of Other Employees** divided by the **No. of Employees**.
 
 - Employee
 
-## Responsibility Centre Table
+## Responsibility centre table
 
 **Responsibility Centre Measures**
 
-- [Facility Capactity](#facility-capactity)
+- [Facility Capacity](#facility-capacity)
 
-### Facility Capactity
+### Facility capacity
 
 **Formula**  
 
-Measures the water capacity of the facility (Responsibility Centre). The measure is based on the **Month in Period** when filtering.
+Multiplies the sum of the responsibility centers' **Water Capacity Quantity(Month)** values by the number of months from the earliest to the latest selected date, inclusive. A partial month counts as a month.
 
 **Data Sources**
 
 - Responsibility Centre
+- Date
 
-## Sustainability Goals Table
+## Sustainability goals table
 
 **Sustainability Goals Measures**
 
+Current values for CO2, CH4, N2O, CO2e, water, and waste ignore filters on the Date table. For each selected scorecard, they use the earliest goal start date and latest goal end date, then add the scorecard totals. The water and waste realized percentages use the selected period's intensity measures instead of these current-value measures.
+
 - [CO2 Current Value](#co2-current-value)
 - [CO2 Target](#co2-target)
-- [CO2 Realized (%)](#co2-target)
-- [CH4 Current Value](#ch4-target)
+- [CO2 Realized (%)](#co2-realized-)
+- [CH4 Current Value](#ch4-current-value)
 - [CH4 Target](#ch4-target)
-- [CH4 Realized (%)](#ch4-target)
+- [CH4 Realized (%)](#ch4-realized-)
 - [N2O Current Value](#n2o-current-value)
 - [N2O Target](#n2o-target)
-- [N2O Realized (%)](#n2o-target)
-- [Waste Current Value](#waste-target)
+- [N2O Realized (%)](#n2o-realized-)
+- [Waste Current Value](#waste-current-value)
 - [Waste Target](#waste-target)
-- [Waste Realized (%)](#waste-target)
-- [Water Current Value](#water-target)
+- [Waste Realized (%)](#waste-realized-)
+- [Water Current Value](#water-current-value)
 - [Water Target](#water-target)
-- [Water Realized (%)](#water-target)
+- [Water Realized (%)](#water-realized-)
 - [CO2e Current Value](#co2e-current-value)
 - [CO2e Realized (%)](#co2e-realized-)
 
-### CO2 Current Value
+### CO2 current value
 
 **Formula**  
 
-A sum of [CO2 Emissions](#co2-emissions) based on the start and dnd date from the selected scorecards.
+A sum of [CO2 Emissions](#co2-emissions) based on the start and end date from the selected scorecards.
 
 **Data Sources**
 
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### CO2 Target
+### CO2 target
 
 **Formula**  
 
@@ -313,11 +330,11 @@ Sum of the **Target Value** for **CO2**.
 
 - Sustainability Goals
 
-### CO2 Realized (%)
+### CO2 realized (%)
 
 **Formula**  
 
-The **CH4 Current Value** divided by the **CH4 Emissions**.
+The **CO2 Current Value** divided by the **CO2 Target**.
 
 [CO2 Current Value](#co2-current-value) / [CO2 Target](#co2-target)
 
@@ -326,7 +343,7 @@ The **CH4 Current Value** divided by the **CH4 Emissions**.
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### CH4 Current Value
+### CH4 current value
 
 **Formula**  
 
@@ -337,7 +354,7 @@ A sum of [CH4 Emissions](#ch4-emissions) based on the start and end date from th
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### CH4 Target
+### CH4 target
 
 **Formula**  
 
@@ -347,11 +364,11 @@ Sum of **Target Value** for **CH4**.
 
 - Sustainability Goals
 
-### CH4 Realized (%)
+### CH4 realized (%)
 
 **Formula**  
 
-The **CH4 Current Value** divided by the **CH4 Emissions**.
+The **CH4 Current Value** divided by the **CH4 Target**.
 
 [CH4 Current Value](#ch4-current-value) / [CH4 Target](#ch4-target)
 
@@ -360,7 +377,7 @@ The **CH4 Current Value** divided by the **CH4 Emissions**.
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### N2O Current Value
+### N2O current value
 
 **Formula**  
 
@@ -371,7 +388,7 @@ A sum of [N2O Emissions](#n2o-emissions) based on the start and end date from th
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### N2O Target
+### N2O target
 
 **Formula**  
 
@@ -381,11 +398,11 @@ A sum of **Target Value** for **N2O** from the **Sustainability Goals**.
 
 - Sustainability Goals
 
-### N2O Realized (%)
+### N2O realized (%)
 
 **Formula**  
 
-The **N2O Current Value** divided by the **N2O Emissions**.
+The **N2O Current Value** divided by the **N2O Target**.
 
 [N2O Current Value](#n2o-current-value) / [N2O Target](#n2o-target)
 
@@ -394,7 +411,7 @@ The **N2O Current Value** divided by the **N2O Emissions**.
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### Waste Current Value
+### Waste current value
 
 **Formula**  
 
@@ -405,7 +422,7 @@ A sum of [Waste Intensity](#waste-intensity) based on the start and end date fro
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### Waste Target
+### Waste target
 
 **Formula**  
 
@@ -415,20 +432,20 @@ A sum of **Target Value** for **Waste**.
 
 - Sustainability Goals
 
-### Waste Realized (%)
+### Waste realized (%)
 
 **Formula**  
 
-The **Waste Current Value** divided by the **Waste Emissions**.
+The **Waste Intensity** in the current filter context divided by the **Waste Target**.
 
-[Waste Current Value](#waste-current-value) / [Waste Target](#waste-target)
+[Waste Intensity](#waste-intensity) / [Waste Target](#waste-target)
 
 **Data Sources**
 
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### Water Current Value
+### Water current value
 
 **Formula**  
 
@@ -439,7 +456,7 @@ A sum of [Water Intensity](#water-intensity) based on the start and end date fro
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### Water Target
+### Water target
 
 **Formula**  
 
@@ -449,20 +466,20 @@ A sum of **Target Value** for **Water**.
 
 - Sustainability Goals
 
-### Water Realized (%)
+### Water realized (%)
 
 **Formula**  
 
-The **Water Current Value** divided by the **Water Emissions**.
+The **Water Intensity** in the current filter context divided by the **Water Target**.
 
-[Water Current Value](#water-current-value) / [Water Target](#water-target)
+[Water Intensity](#water-intensity) / [Water Target](#water-target)
 
 **Data Sources**
 
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### CO2e Current Value
+### CO2e current value
 
 **Formula**  
 
@@ -473,11 +490,11 @@ A sum of [CO2e Emissions](#co2e-emissions) based on the start and end date from 
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### CO2e Realized (%)
+### CO2e realized (%)
 
 **Formula**  
 
-The **CO2e Current Value** divided by the **CO2e Emissions**.
+The **CO2e Current Value** divided by the **CO2e Target**.
 
 [CO2e Current Value](#co2e-current-value) / [CO2e Target](#co2e-target)
 
@@ -485,10 +502,15 @@ The **CO2e Current Value** divided by the **CO2e Emissions**.
 
 - Sustainability Ledger Entries
 - Sustainability Goals
+- Emissions Fees
 
-## Sustainability Ledger Entries Table
+## Sustainability ledger entries table
 
 **Sustainability Ledger Entries Measures**
+
+Baseline measures ignore filters on the Date table and use the baseline dates from the selected sustainability goals. The CO2, CH4, N2O, and CO2e baselines calculate a total for each selected scorecard and add those totals. Water, waste, and discharged-water baselines use one period from the earliest selected baseline start date to the latest selected baseline end date.
+
+The semantic model names the water and waste baseline measures **Water Baseline** and **Waste Baseline**. Their comparison measures are **Water vs Baseline (%)** and **Waste vs Baseline (%)**.
 
 - [CO2 Emissions](#co2-emissions)
 - [CO2 Emissions Balance](#co2-emissions-balance)
@@ -512,7 +534,7 @@ The **CO2e Current Value** divided by the **CO2e Emissions**.
 - [CO2e Emissions (Excl Credits)](#co2e-emissions-excl-credits)
 - [CO2e Emissions Balance](#co2e-emissions-balance)
 - [CO2e Emissions Balance at Date](#co2e-emissions-balance-at-date)
-- [CO2e Baseline](#co2-baseline) 
+- [CO2e Baseline](#co2e-baseline) 
 - [CO2e vs Baseline (%)](#co2e-vs-baseline-)
 
 - [Discharged Into Water](#discharged-into-water)
@@ -526,8 +548,8 @@ The **CO2e Current Value** divided by the **CO2e Emissions**.
 - [Discharged Into Water vs Baseline (%)](#discharged-into-water-vs-baseline-)
 
 - [Water Intensity](#water-intensity)
-- [Water Intensity Baseline](#water-intensity-balance)
-- [Water Intensity Baseline at Date](#water-intensity-balance-at-date)
+- [Water Intensity Balance](#water-intensity-balance)
+- [Water Intensity Balance at Date](#water-intensity-balance-at-date)
 - [Water Intensity DOD](#water-intensity-dod)
 - [Water Intensity PD](#water-intensity-pd)
 - [Water Intensity PY](#water-intensity-py)
@@ -548,7 +570,7 @@ The **CO2e Current Value** divided by the **CO2e Emissions**.
 
 - [Purchased Carbon Credits](#purchased-carbon-credits)
 
-### CO2 Emissions
+### CO2 emissions
 
 **Formula**  
 
@@ -557,8 +579,9 @@ A sum of **CO2** from the **Sustainability Ledger Entry**.
 **Data Sources**
 
 - Sustainability Ledger Entry
+- Sustainability Goals
 
-### CO2 Emissions Balance
+### CO2 emissions balance
 
 **Formula**  
 
@@ -568,17 +591,17 @@ Calculates the total [CO2 Emissions](#co2-emissions) across all dates and ignore
 
 - Sustainability Ledger Entry
 
-### CO2 Emissions Balance at Date 
+### CO2 emissions balance at date
 
 **Formula**  
 
-Calculates the cumulative [CO2 Emissions](#co2-emissions) up to the latest date in the current filter. It removes all date filters, then re-applies a filter to include only dates up to and including the latest date in the selection, which gives a running balance up to the specified date.
+Calculates cumulative [CO2 Emissions](#co2-emissions) up to the latest date in the current selection. The calculation filters the Date column to dates up to and including that date.
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### CO2 Baseline
+### CO2 baseline
 
 **Formula**  
 
@@ -589,7 +612,7 @@ A sum of [CO2 Emissions](#co2-emissions) based on the **Baseline Start** and **E
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### CO2 vs Baseline (%)
+### CO2 vs baseline (%)
 
 **Formula**  
 
@@ -602,7 +625,7 @@ The **CO2 Current Value** divided by the **CO2 Baseline**.
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### CH4 Emissions
+### CH4 emissions
 
 **Formula**  
 
@@ -612,17 +635,17 @@ A sum of **CH4** from the **Sustainability Ledger Entry**.
 
 - Sustainability Ledger Entry
 
-### CH4 Emissions Balance at Date
+### CH4 emissions balance at date
 
 **Formula**  
 
-Calculates the cumulative [CH4 Emissions](#ch4-emissions) up to the latest date in the current filter. It removes all date filters, then re-applies a filter to include only dates up to and including the latest date in the selection, which gives a running balance up to the specified date.
+Calculates cumulative [CH4 Emissions](#ch4-emissions) up to the latest date in the current selection. The calculation filters the Date column to dates up to and including that date.
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### CH4 Emissions Balance 
+### CH4 emissions balance
 
 **Formula**  
 
@@ -632,7 +655,7 @@ Calculates the total [CH4 Emissions](#ch4-emissions) across all dates, and ignor
 
 - Sustainability Ledger Entry
 
-### CH4 Baseline
+### CH4 baseline
 
 **Formula**  
 
@@ -643,7 +666,7 @@ A sum of [CH4 Emissions](#ch4-emissions) based on the **Baseline Start** and **E
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### CH4 vs Baseline (%)
+### CH4 vs baseline (%)
 
 **Formula**  
 
@@ -656,7 +679,7 @@ The **CH4 Current Value** divided by the **CH4 Baseline**.
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### N2O Emissions
+### N2O emissions
 
 **Formula**  
 
@@ -666,17 +689,17 @@ A sum of **N2O** from the **Sustainability Ledger Entry**.
 
 - Sustainability Ledger Entry
 
-### N2O Emissions Balance at Date
+### N2O emissions balance at date
 
 **Formula**  
 
-Calculates the cumulative [N2O Emissions](#n2o-emissions) up to the latest date in the current filter. It removes all date filters, then re-applies a filter to include only dates up to and including the latest date in the selection, which gives a running balance up to the specified date.
+Calculates cumulative [N2O Emissions](#n2o-emissions) up to the latest date in the current selection. The calculation filters the Date column to dates up to and including that date.
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### N2O Emissions Balance
+### N2O emissions balance
 
 **Formula**  
 
@@ -686,7 +709,7 @@ Calculates the total [N2O Emissions](#n2o-emissions) across all dates, and ignor
 
 - Sustainability Ledger Entry
 
-### N2O Baseline
+### N2O baseline
 
 **Formula**  
 
@@ -697,7 +720,7 @@ A sum of [N2O Emissions](#n2o-emissions) based on the **Baseline Start** and **E
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### N2O vs Baseline (%)
+### N2O vs baseline (%)
 
 **Formula**  
 
@@ -710,7 +733,7 @@ The **N2O Current Value** divided by the **N2O Baseline**
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### CO2e Emissions
+### CO2e emissions
 
 **Formula**  
 
@@ -720,7 +743,7 @@ A sum of **CO2e** from the **Sustainability Ledger Entry**.
 
 - Sustainability Ledger Entry
 
-### CO2e Emissions (Excl Credits) 
+### CO2e emissions (excl credits)
 
 **Formula**  
 
@@ -730,17 +753,17 @@ Uses the existing [CO2e Emissions](#co2e-emissions) and filters to where the doc
 
 - Sustainability Ledger Entry
 
-### CO2e Emissions Balance at Date
+### CO2e emissions balance at date
 
 **Formula**  
 
-Calculates the cumulative [CO2e Emissions](#co2e-emissions) up to the latest date in the current filter. It removes all date filters, then re-applies a filter to include only dates up to and including the latest date in the selection, which gives a running balance up to the specified date.
+Calculates cumulative [CO2e Emissions](#co2e-emissions) up to the latest date in the current selection. The calculation filters the Date column to dates up to and including that date.
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### CO2e Emissions Balance
+### CO2e emissions balance
 
 **Formula**  
 
@@ -750,7 +773,7 @@ Calculates the total [CO2e Emissions](#co2e-emissions) across all dates, and ign
 
 - Sustainability Ledger Entry
 
-### CO2e Baseline
+### CO2e baseline
 
 **Formula**  
 
@@ -761,7 +784,7 @@ A sum of [CO2e Emissions](#co2e-emissions) based on the **Baseline Start** and *
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### CO2e vs Baseline (%)
+### CO2e vs baseline (%)
 
 **Formula**  
 
@@ -774,7 +797,7 @@ The **CO2e Current Value** divided by the **CO2e Baseline**.
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### Discharged Into Water
+### Discharged into water
 
 **Formula**  
 
@@ -784,7 +807,7 @@ A sum of **Discharged Into Water** from the **Sustainability Ledger Entry**.
 
 - Sustainability Ledger Entry
 
-### Discharged Into Water Balance
+### Discharged into water balance
 
 **Formula**  
 
@@ -794,29 +817,29 @@ Calculates the total [Discharged Into Water](#discharged-into-water) value acros
 
 - Sustainability Ledger Entry
 
-### Discharged Into Water Balance at Date 
+### Discharged into water balance at date
 
 **Formula**  
 
-Calculates the cumulative [Discharged Into Water](#discharged-into-water) up to the latest date in the current filter. It removes all date filters, then re-applies a filter to include only dates up to and including the latest date in the selection, which gives a running balance up to the specified date.
+Calculates cumulative [Discharged Into Water](#discharged-into-water) up to the latest date in the current selection. The calculation filters the Date column to dates up to and including that date.
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Discharged Into Water DOD
+### Discharged into water DOD
 
 **Formula**  
 
-Calculates the difference between the **Discharged Into Water** and the **Discharged Into Water PD**. It calculates the **Discharge Into Water** change directly in the measure as [Discharged Into Water PD](#discharged-into-water-pd) - [Discharged Into Water](#discharged-into-water)
+Calculates the percentage change from the prior day to the current period. A positive value indicates an increase.
 
-Discharge Into Water Change / [Discharged Into Water PD](#discharged-into-water)
+([Discharged Into Water](#discharged-into-water) - [Discharged Into Water PD](#discharged-into-water-pd)) / [Discharged Into Water PD](#discharged-into-water-pd)
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Discharged Into Water PD
+### Discharged into water PD
 
 **Formula**  
 
@@ -826,7 +849,7 @@ Calculates the [Discharged Into Water](#discharged-into-water) for the prior day
 
 - Sustainability Ledger Entry
 
-### Discharged Into Water PY
+### Discharged into water PY
 
 **Formula**  
 
@@ -836,19 +859,19 @@ Calculates the [Discharged Into Water](#discharged-into-water) for the prior yea
 
 - Sustainability Ledger Entry
 
-### Discharged Into Water YOY
+### Discharged into water YOY
 
 **Formula**  
 
-Calculates the difference between the **Discharged Into Water** and **Discharged Into Water PY**. It calculates the **Discharge Into Water** change directly in the measure as [Discharged Into Water PY](#discharged-into-water-py) - [Discharged Into Water](#discharged-into-water)
+Calculates the percentage change from the prior year to the current period. A positive value indicates an increase.
 
-Discharge Into Water Change / [Discharged Into Water PY](#discharged-into-water)
+([Discharged Into Water](#discharged-into-water) - [Discharged Into Water PY](#discharged-into-water-py)) / [Discharged Into Water PY](#discharged-into-water-py)
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Discharged Into Water Baseline
+### Discharged into water baseline
 
 **Formula**  
 
@@ -857,20 +880,21 @@ A sum of [Discharged Into Water](#discharged-into-water) based on the **Baseline
 **Data Sources**
 
 - Sustainability Ledger Entry
+- Sustainability Goals
 
-### Discharged Into Water vs Baseline (%)
+### Discharged into water vs baseline (%)
 
 **Formula**  
 
-The **Discharged Into Water** divided by the **Baseline**.
+The **Discharged Into Water** divided by the **Discharged Into Water Baseline**.
 
-[Discharged Into Water](#discharged-into-water) / [Baseline](#discharged-into-water-balance) 
+[Discharged Into Water](#discharged-into-water) / [Discharged Into Water Baseline](#discharged-into-water-baseline)
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Water Intensity
+### Water intensity
 
 **Formula**  
 
@@ -880,17 +904,17 @@ Sum of **Water Intensity** from the **Sustainability Ledger Entry**.
 
 - Sustainability Ledger Entry
 
-### Water Intensity Balance at Date
+### Water intensity balance at date
 
 **Formula**  
 
-Calculates the cumulative [Water Intensity](#water-intensity) up to the latest date in the current filter. It removes all date filters, then re-applies a filter to include only dates up to and including the latest date within the selection, which gives a running balance up to the specified date.
+Calculates cumulative [Water Intensity](#water-intensity) up to the latest date in the current selection. The calculation filters the Date column to dates up to and including that date.
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Water Intensity Balance
+### Water intensity balance
 
 **Formula**  
 
@@ -900,19 +924,19 @@ Calculates the total [Water Intensity](#water-intensity) across all dates, and i
 
 - Sustainability Ledger Entry
 
-### Water Intensity DOD
+### Water intensity DOD
 
 **Formula**  
 
-Calculates the difference between the **Water Intensity** and the **Water Intensity PD**. It calculates the **Water Intensity Change** directly in the measure as [Water Intensity PD](#water-intensity-pd) - [Water Intensity](#water-intensity)
+Calculates the percentage change from the prior day to the current period. A positive value indicates an increase.
 
-Water Intensity Change / [Water Intensity PD](#water-intensity-pd)
+([Water Intensity](#water-intensity) - [Water Intensity PD](#water-intensity-pd)) / [Water Intensity PD](#water-intensity-pd)
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Water Intensity PD
+### Water intensity PD
 
 **Formula**  
 
@@ -922,7 +946,7 @@ Calculates the [Water Intensity](#water-intensity) for the prior day.
 
 - Sustainability Ledger Entry
 
-### Water Intensity PY
+### Water intensity PY
 
 **Formula**  
 
@@ -932,19 +956,19 @@ Calculates the [Water Intensity](#water-intensity) for the prior year.
 
 - Sustainability Ledger Entry
 
-### Water Intensity YOY
+### Water intensity YOY
 
 **Formula**  
 
-Calculates the difference between the **Water Intensity** and the **Water Intensity PY**. It calculates the **Water Intensity Change** directly in the measure as [Water Intensity PY](#water-intensity-py) - [Water Intensity](#water-intensity)
+Calculates the percentage change from the prior year to the current period. A positive value indicates an increase.
 
-Water Intensity Change / [Water Intensity PY](#water-intensity-py)
+([Water Intensity](#water-intensity) - [Water Intensity PY](#water-intensity-py)) / [Water Intensity PY](#water-intensity-py)
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Water Intensity Baseline
+### Water intensity baseline
 
 **Formula**  
 
@@ -953,8 +977,9 @@ A sum of [Water Intensity](#water-intensity) based on the **Baseline Start** and
 **Data Sources**
 
 - Sustainability Ledger Entry
+- Sustainability Goals
 
-### Water Intensity vs Baseline (%)
+### Water intensity vs baseline (%)
 
 **Formula**  
 
@@ -965,20 +990,23 @@ The **Water Intensity** divided by the **Baseline**.
 **Data Sources**
 
 - Sustainability Ledger Entry
+- Sustainability Goals
 
-### Water Available
+### Water available
 
 **Formula**  
 
 Calculated as **Facility Capacity** minus **Water Intensity**.
 
-[Facility Capacity](#facility-capactity) - [Water Intensity](#water-intensity)
+[Facility Capacity](#facility-capacity) - [Water Intensity](#water-intensity)
 
 **Data Sources**
 
 - Sustainability Ledger Entry
+- Responsibility Centre
+- Date
 
-### Waste Intensity
+### Waste intensity
 
 **Formula**  
 
@@ -988,17 +1016,17 @@ A sum of **Waste Intensity** from the **Sustainability Ledger Entry**.
 
 - Sustainability Ledger Entry
 
-### Waste Intensity Balance at Date 
+### Waste intensity balance at date
 
 **Formula**  
 
-Calculates the cumulative [Water Intensity](#waste-intensity) up to the latest date in the current filter. It removes all date filters, then re-applies a filter to include only dates up to and including the latest date within the selection, which gives a running balance up to the specified date.
+Calculates cumulative [Waste Intensity](#waste-intensity) up to the latest date in the current selection. The calculation filters the Date column to dates up to and including that date.
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Waste Intensity Balance
+### Waste intensity balance
 
 **Formula**  
 
@@ -1008,19 +1036,19 @@ Calculates the total [Waste Intensity](#waste-intensity) across all dates, and i
 
 - Sustainability Ledger Entry
 
-### Waste Intensity DOD
+### Waste intensity DOD
 
 **Formula**  
 
-Calculates the difference between the **Waste Intensity** and the **Waste Intensity PD**. It calculates the **Waste Intensity** change directly in the measure as [Waste Intensity PD](#waste-intensity-pd) - [Waste Intensity](#waste-intensity)
+Calculates the percentage change from the prior day to the current period. A positive value indicates an increase.
 
-Waste Intensity Change / [Waste Intensity PD](#waste-intensity-pd)
+([Waste Intensity](#waste-intensity) - [Waste Intensity PD](#waste-intensity-pd)) / [Waste Intensity PD](#waste-intensity-pd)
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Waste Intensity PD
+### Waste intensity PD
 
 **Formula**  
 
@@ -1030,7 +1058,7 @@ Calculates the [Waste Intensity](#waste-intensity) for the prior day.
 
 - Sustainability Ledger Entry
 
-### Waste Intensity PY
+### Waste intensity PY
 
 **Formula**  
 
@@ -1040,19 +1068,19 @@ Calculates the [Waste Intensity](#waste-intensity) for the prior year.
 
 - Sustainability Ledger Entry
 
-### Waste Intensity YOY
+### Waste intensity YOY
 
 **Formula**  
 
-Calculates the difference between the **Waste Intensity** and the **Waste Intensity PY**. It calculates the **Waste Intensity** change directly in the measure as [Waste Intensity PY](#waste-intensity-py) - [Waste Intensity](#waste-intensity)
+Calculates the percentage change from the prior year to the current period. A positive value indicates an increase.
 
-Waste Intensity Change / [Waste Intensity PY](#waste-intensity-py)
+([Waste Intensity](#waste-intensity) - [Waste Intensity PY](#waste-intensity-py)) / [Waste Intensity PY](#waste-intensity-py)
 
 **Data Sources**
 
 - Sustainability Ledger Entry
 
-### Waste Intensity Baseline
+### Waste intensity baseline
 
 **Formula**  
 
@@ -1061,8 +1089,9 @@ A sum of [Waste Intensity](#waste-intensity) based on the **Baseline Start** and
 **Data Sources**
 
 - Sustainability Ledger Entry
+- Sustainability Goals
 
-### Waste Intensity vs Baseline (%)
+### Waste intensity vs baseline (%)
 
 **Formula**  
 
@@ -1073,8 +1102,9 @@ The **Waste Intensity** divided by the **Baseline**.
 **Data Sources**
 
 - Sustainability Ledger Entry
+- Sustainability Goals
 
-### Purchased Carbon Credits
+### Purchased carbon credits
 
 **Formula**  
 
@@ -1089,3 +1119,5 @@ Uses the existing [CO2e Emissions](#co2e-emissions) and filters to where the doc
 [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

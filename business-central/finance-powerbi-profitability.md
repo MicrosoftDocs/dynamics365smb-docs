@@ -1,13 +1,14 @@
 ---
-title: Profitability
-description: The Profitability report shows gross and net profits over time.
+title: Profitability Analysis Power BI Report
+description: Analyze gross profit, net profit, and profit margins over time in Business Central with the Profitability Power BI report for finance leaders.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36989_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -18,7 +19,7 @@ ms.service: dynamics-365-business-central
 The **Profitability** report helps executives and high-level decision-makers assess your company's financial success through key performance indicators (KPIs) for important profitability metrics, such as:
 
 - Net profit
-- Net profit mMargin
+- Net profit margin
 - Gross profit
 - Gross profit margin
 
@@ -36,7 +37,7 @@ The audiences for the report are:
 
 Executives use the report to analyze gross and net profits over time. Combining global and shortcut dimensions with fiscal period filters lets you quickly visualize trends and gain insights into key drivers of financial performance.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Profitability* report includes the following KPIs and measures: 
 
@@ -68,7 +69,7 @@ Try the report here: [Profitability](https://businesscentral.dynamics.com?page=3
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -77,3 +78,5 @@ Try the report here: [Profitability](https://businesscentral.dynamics.com?page=3
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

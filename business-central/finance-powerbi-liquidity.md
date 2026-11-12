@@ -1,13 +1,14 @@
 ---
-title: Liquidity
-description: The Liquidity report shows key liquidity metrics used to analyze an organization's ability to meet current liabilities.
+title: Liquidity Ratios Power BI Report
+description: Analyze current, quick, and cash ratios in Business Central with the Liquidity Power BI report to assess your ability to meet current liabilities.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36988_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -33,7 +34,7 @@ For a more conservative assessment, you can analyze the quick ratio, which remov
 
 Finally, you could review the cash ratio, which focuses on liquid assets to meet financial obligations. This perspective is the most conservative, and focuses on cash and cash equivalents to meet current liabilities.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Liquidity* report includes the following KPIs and measures: 
 
@@ -66,7 +67,7 @@ Try the report here: [Liquidity](https://businesscentral.dynamics.com?page=36988
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -75,3 +76,5 @@ Try the report here: [Liquidity](https://businesscentral.dynamics.com?page=36988
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

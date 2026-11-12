@@ -1,18 +1,19 @@
 ---
-title: Machine Center Load
-description: The Machine Center Load report shows the load and the allocated capacity of each machine center.
+title: Machine Center Load Power BI Report
+description: Compare allocated time with effective capacity and identify overloaded machine centers using the Machine Center Load Power BI report in Business Central.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37096_Primary 
-ms.date: 05/26/2025
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Machine Center Load (Power BI Report)
+# Machine center load (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -49,6 +50,8 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Calendar Entry
 - Prod Order Capacity Need
 - Machine Center
+- Work Center
+- Manufacturing Setup
   
 ## Try the report
 
@@ -58,7 +61,9 @@ Try the report here: [Machine Center Load](https://businesscentral.dynamics.com?
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

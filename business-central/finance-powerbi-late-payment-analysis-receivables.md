@@ -1,17 +1,18 @@
 ---
-title: Late Payments (Receivables)
-description: The Late Payments (Receivables) report provides insights into the behaviors of late paying customers.
+title: Late Payments (Receivables) Power BI Report
+description: Analyze late customer payments, payment delays, and cash flow risks in Business Central with the Late Payments (Receivables) Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37113_Primary
-ms.date: 09/30/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Late Payments (Receivables) (Power BI report)
+# Late payments (receivables) (Power BI report)
 
 [!INCLUDE[2025_releasewave2](includes/2025_releasewave2.md)]
 
@@ -30,7 +31,7 @@ Executives can use this report to track cash flow risks and customer reliability
 
 Finance managers can use this report to identify customers who pose a cash flow risk and monitor late payment behaviors. By using insights from the late payment analysis by customer and late payments over time, you can prioritize future collection efforts.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Late Payments (Receivables)* report includes the following KPIs and measures: 
 
@@ -49,17 +50,18 @@ The *Late Payments (Receivables)* report includes the following KPIs and measure
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Customer Ledger Entries
+- Detailed Cust. Ledg. Entry
 - Customer
 
 ## Try the report
 
-Try the report here: [Financial Overview](https://businesscentral.dynamics.com?page=37113)
+Try the report here: [Late Payments (Receivables)](https://businesscentral.dynamics.com?page=37113)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -68,3 +70,5 @@ Try the report here: [Financial Overview](https://businesscentral.dynamics.com?p
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

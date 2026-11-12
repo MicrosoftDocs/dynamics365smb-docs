@@ -2580,7 +2580,7 @@ ms.service: dynamics-365-business-central
 ### [Run reports](ui-work-report.md)
 ### [Bookmark a report](ui-bookmarks.md)
 ### [Analyze report data with Excel](report-analyze-excel.md)
-### [Print reports](ui-specify-printer-selection-reports.md#default)
+### [Print reports](ui-specify-printer-selection-reports.md)
 ### [Schedule reports](ui-work-report.md#ScheduleReport)
 ### [Share and export reports with the report inbox](ui-work-report-inbox.md)
 ### [Manage saved report settings](reports-saving-reusing-settings.md)

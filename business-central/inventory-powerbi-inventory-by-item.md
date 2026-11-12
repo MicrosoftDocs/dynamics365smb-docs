@@ -1,17 +1,17 @@
 ---
-title: Inventory by Item (Power BI report)
-description: The Inventory by Item report shows inventory levels per item or item category.
+title: Inventory by Item Power BI Report
+description: Compare stock on hand and quantities on purchase, sales, production, and other orders by item and category with the Inventory by Item Power BI report.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer: 
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: 37024_Primary
-ms.date: 10/28/2024
+ms.search.form: 37023_Primary
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Inventory by Item (Power BI Report)
+# Inventory by item (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -25,7 +25,7 @@ This report is meant to allow all users to explore the total inventory for an it
 
 Inventory managers use the report to get clear and concise information regarding each item. The report helps ensure you maintain consistent stock levels across all items. It shows inventory levels across a range of documents so you can track receipt, requirement, and production levels.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Inventory by Item* report includes the following KPIs:
 
@@ -64,15 +64,17 @@ The report uses data from the following tables in [!INCLUDE [prod_short](include
 
 ## Try the report
 
-Try the report here: [Inventory by Item](https://businesscentral.dynamics.com?page=37024)
+Try the report here: [Inventory by Item](https://businesscentral.dynamics.com?page=37023)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

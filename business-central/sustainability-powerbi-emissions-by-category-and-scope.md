@@ -1,18 +1,18 @@
 ---
-title: Emissions by Category and Scope
-description: The Emission by Scope report organizes emission types based on the account category and scope to show how they're tracking.
+title: Emissions by Category and Scope Power BI Report
+description: Analyze emissions by account category, subcategory, and scope in Business Central with the Emissions by Category and Scope Power BI report.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
-ms.search.form: 
-ms.date: 05/26/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Emissions by Category and Scope (Power BI Report)
+# Emissions by category and scope (Power BI report)
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
@@ -24,7 +24,7 @@ The Emission by Category and Scope report gives an overview of values for indivi
 
 Sustainability Managers use the report to get clear, concise information about the organization's emissions. The report can help identify irregularities based on a specific scope or a category.
 
-Procurement Managers use this report to analyze the impacts of Scope 3 emissions related to the purchase of goods and services. This analysis can help to identify key suppliers and prioritize partnerships with more sustainable vendors.
+Procurement Managers use this report to analyze the impacts of Scope 3 emissions related to the purchase of goods and services. This analysis can help identify purchase-related emission categories to address. The report doesn't provide a vendor breakdown.
 
 ## Key performance indicators (KPIs)
 
@@ -33,6 +33,7 @@ The Emission by Category and Scope report includes the following KPIs and measur
 - [CO2 Emissions](sustainability-powerbi-kpis.md#co2-emissions)
 - [CH4 Emissions](sustainability-powerbi-kpis.md#ch4-emissions)
 - [N2O Emissions](sustainability-powerbi-kpis.md#n2o-emissions)
+- [CO2e Emissions](sustainability-powerbi-kpis.md#co2e-emissions)
 
 Choose the link for a KPI to learn more about what it means, its calculation, and what data is used in the calculations.
 
@@ -43,11 +44,12 @@ Choose the link for a KPI to learn more about what it means, its calculation, an
 The Emission by Category and Scope report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Sustainability Ledger Entry
+- Sustainability Account
 - Sustainability Account Category
 
 ## Try the report
 
-Try the report here: [Emissions by Category and Scope](https://businesscentral.dynamics.com?page=37088)
+Try the report here: [Emissions by Category and Scope](https://businesscentral.dynamics.com?page=6305)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
@@ -56,3 +58,5 @@ Try the report here: [Emissions by Category and Scope](https://businesscentral.d
 [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

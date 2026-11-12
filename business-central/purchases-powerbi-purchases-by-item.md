@@ -1,17 +1,18 @@
 ---
-title: Purchases by Item (Power BI Report)
-description: The Purchases by Item report gives a clear picture of your organization's item purchases.
+title: Purchases by Item Power BI Report
+description: Analyze purchase amounts, quantities, and posted invoice counts by item and item category in Power BI to monitor spending and purchasing trends.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37016_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Purchases by Item (Power BI Report)
+# Purchases by item (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -27,7 +28,7 @@ Purchasing managers want a clear understanding of purchasing activities and how 
 
 Purchasers make purchasing decisions for specific items or categories. You want to ensure that you make informed decisions and get the best value for the organization. Use this report to track purchase amounts and quantities for items or categories.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Purchases by Item* report includes the following KPIs and measures: 
 
@@ -58,7 +59,7 @@ Try the report here: [Purchases by Item](https://businesscentral.dynamics.com?pa
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

@@ -1,20 +1,20 @@
 ---
 
-title: Social Analysis
-description: The Social Analysis report displays employee details as part of Social reporting for ESG. 
+title: Social Analysis for ESG Reporting Power BI Report
+description: Review employee absences, qualifications, and workforce distributions in Business Central with the Social Analysis Power BI report for ESG reporting.
 author: altotovi
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
-ms.search.form: 
-ms.date: 06/04/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 
-# Social Analysis (Power BI Report)
+# Social analysis (Power BI report)
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
@@ -24,9 +24,11 @@ The Social Analysis report expands the report pack beyond the environmental aspe
 
 ## Use the report
 
-The executive team can use the report to gain a clear understanding of employee turnover and better understand the distribution of employees through age, gender, and union affiliations.
+The executive team can use the report to review employee inactivity and grounds for termination, along with workforce distributions by age, gender, and union affiliation. The report doesn't calculate an employee turnover rate.
 
-HR Managers use the report for clear information about employee behavior. You can analyze employee qualifications, unions, gender distributions, and payment amounts for individual employees.
+HR Managers can analyze employee qualifications, unions, gender distributions, and employee ledger amounts. Employee ledger amounts aren't a measure of salary or payroll.
+
+Employee counts and statuses reflect the imported employee records, not a historical headcount for each reporting period. The Date table filters employee ledger amounts, but it doesn't filter employee absence records.
 
 ## Key performance indicators (KPIs)
 
@@ -55,7 +57,7 @@ The Social Analysis report uses data from the following tables in [!INCLUDE[prod
 
 ## Try the report
 
-Try the report here: [Social Analysis](https://businesscentral.dynamics.com?page=37091)
+Try the report here: [Social Analysis](https://businesscentral.dynamics.com?page=6278)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
@@ -64,3 +66,5 @@ Try the report here: [Social Analysis](https://businesscentral.dynamics.com?page
 [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

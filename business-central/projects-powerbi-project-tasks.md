@@ -1,18 +1,19 @@
 ---
-title: Project Tasks (Power BI report)
-description: The Project Tasks report breaks down each project and their tasks.
+title: Project Tasks for Project Managers Power BI Report
+description: Analyze usage costs, prices, profit, realization, and budgets by project task in Business Central with the Project Tasks Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37034_Primary
-ms.date: 09/25/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Project Tasks (Power BI Report)
+# Project tasks (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -24,18 +25,18 @@ The **Project Tasks** report breaks down each project and shows metrics for thei
 
 Project Managers use the report to track the progress of project tasks and make good decisions about the resources involved. This report can also provide cost and pricing information to ensure you stay within budget.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Project Tasks* report includes the following KPIs:
 
-- [Actual (Total Price)](projects-powerbi-kpis.md#actual-total-price)
-- [Actual (Total Cost)](projects-powerbi-kpis.md#actual-total-cost)
-- [Actual Profit](projects-powerbi-kpis.md#actual-profit)
-- [Actual Profit Margin %](projects-powerbi-kpis.md#actual-profit-margin-)
+- [Total Usage Price](projects-powerbi-kpis.md#total-usage-price)
+- [Total Usage Cost](projects-powerbi-kpis.md#total-usage-cost)
+- [Total Usage Profit](projects-powerbi-kpis.md#total-usage-profit)
+- [Total Usage Profit Margin %](projects-powerbi-kpis.md#total-usage-profit-margin-)
 - [Realization (%)](projects-powerbi-kpis.md#realization-)
-- [Billable (Invoiced Price)](projects-powerbi-kpis.md#billable-invoiced-price)
-- [Billable (Total Price)](projects-powerbi-kpis.md#billable-total-price)
-- [Budget (Total Cost)](projects-powerbi-kpis.md#budget-total-cost)
+- [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-price)
+- [Total Billable Price](projects-powerbi-kpis.md#total-billable-price)
+- [Total Budget Cost](projects-powerbi-kpis.md#total-budget-cost)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -58,8 +59,10 @@ Try the report here: [Project Task](https://businesscentral.dynamics.com?page=37
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

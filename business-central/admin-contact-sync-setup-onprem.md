@@ -1,26 +1,28 @@
 ---
 title: Set Up Legacy Outlook Contact Sync On-Premises
-description: Learn how to configure a Business Central on-premises environment to synchronize contacts in Business Central and Outlook.
+description: Configure OAuth authentication for legacy Outlook contact synchronization in Business Central on-premises version 27 and earlier.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-op
 ms.topic: how-to
-ms.date: 09/28/2023
+ms.date: 11/12/2026
 ai-usage: ai-assisted
 ms.custom: bap-template
 ---
 
-# Set up contact sync with Outlook for Business Central on-premises
+# Set up legacy Outlook contact sync on-premises
 
 > **APPLIES TO:**  [!INCLUDE[prod_short](includes/prod_short.md)] 2025 release wave 2 (v27) and earlier. For later versions, this setup isn't needed. Learn more in [Save business contacts to Microsoft Outlook](save-business-contacts-to-outlook.md).
 
+> [!IMPORTANT]
+> This legacy integration uses Exchange Web Services (EWS). Exchange Online starts disabling EWS in October 2026 and fully disables it in April 2027. Configuring OAuth doesn't prevent the EWS retirement from affecting contact synchronization. Learn more in [Deprecation of Exchange Web Services in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online). For Business Central version 28 and later, use [Save business contacts to Microsoft Outlook](save-business-contacts-to-outlook.md).
 
-In this article, you learn how to set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to synchronize contacts in [!INCLUDE[prod_short](includes/prod_short.md)] with contacts in Outlook. For more information the feature, go to [Synchronize Contacts in Business Central with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md).
+In this article, you learn how to set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to synchronize contacts in [!INCLUDE[prod_short](includes/prod_short.md)] with contacts in Outlook. Learn more in [Synchronize contacts in Business Central with contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
 ## Authentication requirements for legacy contact sync
 
-Contact synchronization requires using the OAuth 2.0 protocol for authentication with Exchange Online. Previously, basic authentication was also supported, but it's been deprecated and no longer supported with Exchange Online. You can read more about the deprecation at [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). This change means that contact synchronization in Business Central may have stopped working on your on-premises environment. This article will explain how to get it working again.
+Contact synchronization requires using the OAuth 2.0 protocol for authentication with Exchange Online. Previously, basic authentication was also supported, but it's been deprecated and is no longer supported with Exchange Online. Learn more in [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). The following steps configure OAuth authentication for the legacy integration.
 
 ## Prerequisites for legacy contact sync
 
@@ -36,7 +38,7 @@ Complete the following steps to set up contact sync. If you're running [!INCLUDE
 
    In this step, you add a registered app in the Microsoft Entra tenant of your Microsoft 365 or Exchange Online plan. Like other Azure services that work with Business Central, Exchange Online requires a registered app in Microsoft Entra ID. The registered app provides authentication and authorization services between Business Central and Exchange Online.
 
-   Follow the detailed instructions in the developer and IT pro help at [Register an application in Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). As you go through the instructions, remember the following points:
+   Learn more in [Register an application in Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-microsoft-entra-id) in the developer and IT pro help. As you go through the instructions, remember the following points:
 
    - If you've already registered an application as part of an integration with another Microsoft product, such as Power BI, then reuse that registered app. In this case, you'll just have to set up the app with the Office 365 Exchange Online permissions described in the next bullet.
 
@@ -45,15 +47,15 @@ Complete the following steps to set up contact sync. If you're running [!INCLUDE
      - Contacts.ReadWrite
      - EWS.AccessAsUser.All
 
-2. For [!INCLUDE[prod_short](includes/prod_short.md)] version 14, do one of the following tasks:
+1. For [!INCLUDE[prod_short](includes/prod_short.md)] version 14, do one of the following tasks:
 
-   - Modify page 6700 by changing `FALSE` to `TRUE` in the following line of code in the `OnPageOpen` trigger:
+   - Modify page 6700 by changing `FALSE` to `TRUE` in the following line of code in the `OnOpenPage` trigger:
 
      ```
      PasswordRequired := AzureADMgt.GetAccessToken(AzureADMgt.GetO365Resource,AzureADMgt.GetO365ResourceName,TRUE) = '';
      ```
 
-   - Create new page with the following code on the OnPageOpen trigger:
+   - Create a new page with the following code in the `OnOpenPage` trigger:
 
      ```
      PasswordRequired := AzureADMgt.GetAccessToken(AzureADMgt.GetO365Resource,AzureADMgt.GetO365ResourceName,TRUE) = '';

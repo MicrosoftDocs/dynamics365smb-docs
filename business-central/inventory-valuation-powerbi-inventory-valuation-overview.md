@@ -1,23 +1,24 @@
 ---
-title: Inventory Valuation Overview (Power BI report)
-description: The Inventory Valuation Overview report shows item values on a location by location basis.
+title: Inventory Valuation Overview Power BI Report
+description: Compare inventory value with costs posted to the general ledger, review variances, and analyze value by location with the Inventory Valuation Overview report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37056_Primary
-ms.date: 10/30/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Inventory Valuation Overview (Power BI Report)
+# Inventory valuation overview (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Inventory Valuation by Overview** report provides a high-level view of key valuation data for your organization. Use the report to identify key values across the organization and get a clear understanding on valuation movements.
+The **Inventory Valuation Overview** report provides a high-level view of key valuation data for your organization. It compares inventory value with costs posted to the general ledger, shows the variance over time, and breaks down inventory value by location.
 
-:::image type="content" source="media/inventory-valuation/inventory-valuation-by-location.png" alt-text="Screenshot of the Inventory Valuation by Location Power BI Report" lightbox="media/inventory-valuation/inventory-valuation-by-Location.png":::
+:::image type="content" source="media/inventory-valuation/inventory-valuation-by-location.png" alt-text="Screenshot of the Inventory Valuation by Location report, which provides a location-level view of inventory value." lightbox="media/inventory-valuation/inventory-valuation-by-location.png":::
 
 ## Use the report
 
@@ -27,16 +28,13 @@ Executives use the report to get a high-level view of the company's inventory va
 
 Managers use the report to get a clear picture of the total value of on-hand inventory. You can also use this report to see key movements.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Inventory Valuation Overview* report includes the following KPIs:
 
 - [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
 - [**Ending Balance Posted to G/L**](inventory-valuation-powerbi-kpis.md#ending-balance-posted-to-gl)
 - [**Variance**](inventory-valuation-powerbi-kpis.md#variance)
-- [**Invoiced Quantity**](inventory-valuation-powerbi-kpis.md#invoiced-quantity)
-- [**Increases Quantity**](inventory-valuation-powerbi-kpis.md#increases-qty)
-- [**Decrease Qty.**](inventory-valuation-powerbi-kpis.md#decrease-qty)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -57,9 +55,11 @@ Try the report here: [Inventory Valuation Overview](https://businesscentral.dyna
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,18 +1,19 @@
 ---
-title: Project Performance to Budget (Power BI Report)
-description: The Project Performance to Budget report helps you ensure your projects stay under budget. 
+title: Project Performance to Budget Power BI Report
+description: Compare project usage costs with budgeted costs in Business Central, and identify variances with the Project Performance to Budget Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37037_Primary
-ms.date: 09/25/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Project Performance to Budget (Power BI Report)
+# Project performance to budget (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -24,12 +25,11 @@ The **Project Performance to Budget** report can help you keep your projects und
 
 Project managers want a clear view of projects to ensure they're on budget. The report lets them compare the budget and usage costs of each project.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Project Performance to Budget* report includes the following KPIs:
 
 - [Completed (%)](projects-powerbi-kpis.md#completed-)
-- [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
 - [Total Usage Cost](projects-powerbi-kpis.md#total-usage-cost)
 - [Total Budget Cost](projects-powerbi-kpis.md#total-budget-cost)
 - [Total Cost Variance to Budget](projects-powerbi-kpis.md#total-cost-variance-to-budget)
@@ -55,8 +55,10 @@ Try the report here: [Project Performance to Budget](https://businesscentral.dyn
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

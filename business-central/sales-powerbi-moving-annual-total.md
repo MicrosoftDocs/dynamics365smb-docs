@@ -1,17 +1,18 @@
 ---
-title: Moving Annual Total (Power BI Report)
-description: The Moving Annual Total report provides a total of sales over the last 12 months. 
+title: Moving Annual Total Power BI Report
+description: Compare rolling 12-month sales totals with the previous year's totals in the Power BI Sales app to monitor long-term revenue trends and growth.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37001_Primary
-ms.date: 10/26/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Moving Annual Total (Power BI Report)
+# Moving annual total for sales (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -64,7 +65,7 @@ Try the report here: [Moving Annual Total](https://businesscentral.dynamics.com?
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

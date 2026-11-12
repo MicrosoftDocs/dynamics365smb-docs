@@ -1,5 +1,5 @@
 ---
-title: Return Order Overview (Power BI report)
+title: Sales Return Order Overview Power BI Report
 description: The Return Order Overview report tracks and analyzes return orders, providing insights into the financial effect on the organization.
 author: kennienp
 ms.author: kepontop
@@ -7,12 +7,13 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37105_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Return Order Overview (Power BI Report)
+# Return order overview for sales (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -28,7 +29,7 @@ For CEOs, you want to evaluate return trends to inform key business decisions. F
 
 As a product manager, you want to identify the item attributes which contribute the most to return orders, to inform future product development. By analyzing the return amount, you identify a specific item category with lower profitability. These insights help identify a persistent component fault and implement production process improvements to reduce item defects.
 
-As a salesperson, this report helps you monitor individual customer returns, to assist with managing client relationships. Using this report, you notice that a particular customer has the highest [Return Rate](sales-powerbi-sales-kpis.md#return-rate) and their return amount increased over the past month. Using this information, you decide to offer a special discount to rebuild client trust in the business.
+As a salesperson, this report helps you monitor individual customer returns, to assist with managing client relationships. Using this report, you notice that a particular customer has the highest [Return Rate (Amount)](sales-powerbi-sales-kpis.md#return-rate-amount) and their return amount increased over the past month. Using this information, you decide to offer a special discount to rebuild client trust in the business.
 
 ## Key performance indicators
 
@@ -51,6 +52,8 @@ The report includes the following key performance indicators (KPIs) and measures
 The report uses data from the following tables:
 
 - Sales Credit Lines
+- Sales Invoice Lines
+- Sales Lines
 - Sales Value Entries
 - Project Ledger Entries
 - Customer
@@ -68,7 +71,7 @@ Try the report here: [Return Order Overview](https://businesscentral.dynamics.co
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

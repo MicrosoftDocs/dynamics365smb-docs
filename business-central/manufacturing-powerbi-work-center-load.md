@@ -1,21 +1,23 @@
 ---
-title: Work Center Load
-description: The Work Center Load report shows the load and the allocated capacity of each work center.
+title: Work Center Load Manufacturing Power BI Report
+description: Compare allocated time with effective capacity, review order allocations, and identify overloaded work centers with the Work Center Load Power BI report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37042_Primary
-ms.date: 11/01/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Work Center Load (Power BI Report)
+# Work center load (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The **Work Center Load** report measures the load and the allocated capacity of each work center. Use this report to ensure that work centers aren't overloaded.
+
+The report includes planned, firm planned, and released production orders. Time values use the **Show Capacity In** unit from **Manufacturing Setup**.
 
 :::image type="content" source="media/manufacturing/work-center-load-v26.png" alt-text="Screenshot of the Work Center Load Power BI Report" lightbox="media/manufacturing/work-center-load-v26.png":::
 
@@ -27,7 +29,7 @@ Manufacturing managers use this report to ensure that loads on work centers don'
 
 Production supervisors use this report to analyze the load percentage and allocated time for work center loads and report them to the manufacturing manager. This information helps ensure that the workload is distributed evenly across all work centers so production runs smoothly.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Work Center Load* report includes the following KPIs and measures:
 
@@ -49,6 +51,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Prod Order Capacity Need
 - Production Order
 - Work Center
+- Manufacturing Setup
   
 ## Try the report
 
@@ -58,7 +61,9 @@ Try the report here: [Work Center Load](https://businesscentral.dynamics.com?pag
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

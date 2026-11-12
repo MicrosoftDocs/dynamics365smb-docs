@@ -1,21 +1,22 @@
 ---
-title: Average Collection Period
+title: Average Collection Period Power BI Report
 description: The Average Collection Period report provides a snapshot of the average number of days that were required to collect account receivable payments.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36992_Primary
-ms.date: 12/17/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
-# Average Collection Period (Power BI report)
+# Average collection period (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Average Collection Period** report shows the average number of days it takes for your company to receive payments from customers. The report can help you assess the efficiency of your receivables collection process.
+The **Average Collection Period** report calculates a collection-period indicator from the number of days in the selected period, the net change in accounts receivable, and revenue. It isn't an average of the days between individual invoices and payments. The report can help you assess the efficiency of your receivables collection process.
 
 :::image type="content" source="media/finance/average-collection-period-report-2025rw2.png" alt-text="Screenshot of the Average Collection Period report." lightbox="media/finance/average-collection-period-report-2025rw2.png":::
 
@@ -29,14 +30,14 @@ The audiences for the report are:
 
 Executive or finance managers use this report to monitor the effectiveness of your collection process. By analyzing and tracking the average collection period in days, you can identify trends that might affect cash flow. The report can help ensure that you collect receivables quickly enough to cover upcoming cash needs, and help you plan for better cash flow. By monitoring the average collection period, you can anticipate cash flow shortages.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Average Collection Period* report includes the following KPIs and measures: 
 
 - [Average Collection Period (Days)](finance-powerbi-kpis.md#average-collection-period-days)
 - [No. of Days](finance-powerbi-kpis.md#no-of-days)
 - [Revenue](finance-powerbi-kpis.md#revenue)
-- [Accounts Receivable (Average)](finance-powerbi-kpis.md#accounts-receivable-average)
+- [Accounts Receivable (Net Change)](finance-powerbi-kpis.md#accounts-receivable-net-change)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -58,7 +59,7 @@ Try the report here: [Average Collection Period](https://businesscentral.dynamic
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -67,3 +68,5 @@ Try the report here: [Average Collection Period](https://businesscentral.dynamic
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

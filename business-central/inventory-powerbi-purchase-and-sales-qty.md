@@ -1,17 +1,17 @@
 ---
-title: Purchase and Sales Quantity (Power BI report)
-description: The Purchase and Sales Quantity report shows purchase and sales quantities for an organization.
+title: Purchase and Sales Quantity Power BI Report
+description: Compare net purchased and sold quantities by item and category, alongside inventory availability, with the Purchase and Sales Quantity Power BI report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37025_Primary
-ms.date: 10/28/2024
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ---
 
-# Purchase and Sales Quantity (Power BI Report)
+# Purchase and sales quantity (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -29,7 +29,7 @@ The report helps leadership teams make informed strategic planning decisions by 
 
 Managers use the report to track key items. You can identify items that you purchase in large volumes and monitor their sales performance, or find items that you aren't purchasing enough of to keep up with demand.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Purchase and Sales Quantity* report includes the following KPIs:
 
@@ -53,6 +53,17 @@ The report uses data from the following tables in [!INCLUDE [prod_short](include
 
 - Item
 - Item Ledger Entries
+- Assembly Header
+- Assembly Line
+- Job Planning Line
+- Planning Component
+- Prod. Order Component
+- Prod. Order Line
+- Purchase Line
+- Sales Line
+- Service Line
+- Transfer Line
+- Requisition Line
 
 ## Try the report
 
@@ -62,9 +73,11 @@ Try the report here: [Purchase and Sales Quantity](https://businesscentral.dynam
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
 [Inventory overview](inventory-manage-inventory.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

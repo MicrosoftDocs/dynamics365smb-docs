@@ -1,18 +1,19 @@
 ---
-title: Project Invoiced Sales by Customer (Power BI report)
+title: Project Invoiced Sales by Customer Power BI Report
 description: The Project Invoiced Sales by Customer report describes your sales activities based on each project for specific customers.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37039_Primary
-ms.date: 09/25/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Project Invoiced Sales by Customer (Power BI Report)
+# Project invoiced sales by customer (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -30,12 +31,12 @@ Project managers use the report to track sales to each customer for each individ
 
 People in leadership teams want to a high-level view of your project sales and which customers you sell to. The report can give you a clear understanding of this data to help you make informed business decisions.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Project Invoiced Sales by Customer* report includes the following KPIs:
 
 - [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
-- [Quantity](projects-powerbi-kpis.md#quantity)
+- [Project Ledger Entry Quantity](projects-powerbi-kpis.md#project-ledger-entry-quantity)
 - [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-price)
 - [Total Billable Price](projects-powerbi-kpis.md#total-billable-price)
 
@@ -59,8 +60,10 @@ Try the report here: [Project Invoiced Sales by Customer](https://businesscentra
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

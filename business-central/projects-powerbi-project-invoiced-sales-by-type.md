@@ -1,18 +1,19 @@
 ---
-title: Project Invoiced Sales by Type (Power BI report)
+title: Project Invoiced Sales by Type Power BI Report
 description: The Project Invoiced Sales by Type report describes your sales activities based on each project and each type of sales line.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37038_Primary
-ms.date: 09/25/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Project Invoiced Sales by Type (Power BI Report)
+# Project invoiced sales by type (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -24,15 +25,17 @@ The **Project Invoiced Sales by Type** report breaks down your sales by each typ
 
 Project managers use the report to track the different type of sales entries. You can see how you charge for the different resources per project. Additionally, you can measure values for items and G/L accounts related to the project.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Project Invoiced Sales by Type* report includes the following KPIs:
 
 - [Invoiced (%)](projects-powerbi-kpis.md#invoiced-)
-- [Quantity](projects-powerbi-kpis.md#quantity)
+- [Project Ledger Entry Quantity](projects-powerbi-kpis.md#project-ledger-entry-quantity)
 - [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-price)
 - [Total Billable Price](projects-powerbi-kpis.md#total-billable-price)
-- [Total Usage Price](projects-powerbi-kpis.md#total-usage-price)
+- [Total Invoiced Costs](projects-powerbi-kpis.md#total-invoiced-costs)
+- [Total Invoiced Profit](projects-powerbi-kpis.md#total-invoiced-profit)
+- [Total Invoiced Profit Margin %](projects-powerbi-kpis.md#total-invoiced-profit-margin-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -44,6 +47,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Job
 - Job Ledger Entry
+- Job Planning Line
 
 ## Try the report
 
@@ -53,8 +57,10 @@ Try the report here: [Project Invoiced Sales by Type](https://businesscentral.dy
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

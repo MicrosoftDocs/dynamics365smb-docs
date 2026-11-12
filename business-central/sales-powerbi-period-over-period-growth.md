@@ -1,24 +1,25 @@
 ---
-title: Sales Period-Over-Period Growth (Power BI Report)
-description: The Period-Over-Period Growth report provides valuable insights into your organization's sales performance over time.
+title: Sales Period-Over-Period Growth Power BI Report
+description: Compare sales with the previous fiscal month, quarter, or year in Power BI to track revenue changes and evaluate period-over-period growth.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37002_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Period-Over-Period Growth (Power BI Report)
+# Period-over-period sales growth (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Period-Over-Period Growth** report provides valuable insights into your organization's sales performance over time. The report compares sales amounts for different time periods to the same period in the previous year, providing insight into growth trends and areas for improvement.
+The **Period-Over-Period Growth** report provides valuable insights into your organization's sales performance over time. The report compares sales amounts with the previous fiscal month, quarter, or year, depending on the level of detail, providing insight into growth trends and areas for improvement.
 
-For example, if the analysis scope is fiscal months, the report compares the sales amount in September 2023 to the sales amount in September 2022. If the analysis scope is fiscal years, the report compares the sales amount in fiscal year 2023 to the sale amount in fiscal year 2022.
+For example, at the fiscal month level, the report compares sales in September 2023 with August 2023. At the fiscal year level, it compares fiscal year 2023 with fiscal year 2022.
 
 :::image type="content" source="media/powerbi/sales/sales-period-over-period-growth.png" alt-text="Screenshot of the Period-Over-Period Growth Power BI report" lightbox="media/powerbi/sales/sales-period-over-period-growth.png":::
 
@@ -26,7 +27,7 @@ For example, if the analysis scope is fiscal months, the report compares the sal
 
 The report is meant for business leaders and managers.
 
-CEOs are responsible for making strategic decisions that drive growth for organizations. The report provides valuable insights into your organization's sales performance over time. By comparing sales amounts for different time periods to the same period in the previous year, this report helps you identify growth trends and areas for improvement.
+CEOs are responsible for making strategic decisions that drive growth for organizations. The report provides valuable insights into your organization's sales performance over time. By comparing sales amounts with the previous fiscal period, this report helps you identify growth trends and areas for improvement.
 
 For example, you might notice that sales consistently declined in a particular region or product category. You can use this information to make decisions about investments or changes to your sales strategy. Changes might include increasing your marketing efforts in that region, or improving your product offerings to be more competitive.
 
@@ -63,7 +64,7 @@ Try the report here: [Period-Over-Period Growth](https://businesscentral.dynamic
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

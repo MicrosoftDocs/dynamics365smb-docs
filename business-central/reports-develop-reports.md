@@ -25,13 +25,12 @@ The following table provides links to articles that describe options for customi
 | To | See |
 |--|--|
 | Learn about the different types of report layouts (Word, Excel, and RDLC) | [Layout types (Word, Excel, and RDLC)](ui-manage-report-layouts.md) |
-| Learn how to create a new report layout. | [Create a new Layout](ui-get-started-layouts.md?tabs=copy#create) |
+| Learn how to create a new report layout. | [Create a new Layout](ui-get-started-layouts.md#create) |
 | Learn which fonts in [!INCLUDE[prod_short](includes/prod_short.md)] online you can use in report layouts. | [Using fonts in Layouts](ui-fonts.md) |
 | Learn how to work with Word layouts. | [Work with Word Layouts](ui-how-add-fields-word-report-layout.md) |
-| Learn how to import and export layout files. | [Export and import report layouts](ui-get-started-layouts.md#export-a-layout-copy-and-import-it-as-a-new-layout) |
+| Learn how to import and export layout files. | [Export and import report layouts](ui-get-started-layouts.md#create) |
 | Learn how to update a layout definition in [!INCLUDE[prod_short](includes/prod_short.md)] with a new layout file. | [Replace a report layout](ui-get-started-layouts.md#replace-a-layout) |
 | Learn how to change the default layout for a report. | [Set the layout used by a report](ui-set-report-layout.md) |
-<!-- | To learn how to work with Excel layouts | [Work with Excel Layouts](ui-how-add-fields-word-report-layout.md) | -->
 
 ## Develop report datasets
 

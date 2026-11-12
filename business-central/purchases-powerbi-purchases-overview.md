@@ -1,6 +1,6 @@
 ---
-title: Purchases Overview (Power BI Report)
-description: The Purchases Overview report gives a clear picture of your organization's purchasing activities.
+title: Purchases Overview Power BI Report
+description: Review purchase amounts, outstanding documents, and received purchases in Power BI to monitor spending across vendors, locations, and item categories.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -9,9 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: 37009_Primary
 ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Purchases Overview (Power BI report)
+# Purchases overview (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -34,7 +35,7 @@ CEOs can use the report to keep track of purchasing activities. This report give
 Purchasing managers can identify where you might be overspending or underspending. For example, you might notice that your organization spent a lot on a specific item category, but the quantity of purchases was lower than expected. You might review vendor subscription contracts, find alternative vendors with better prices, or negotiate better terms with existing vendors. By taking these actions, you can optimize purchasing activities, reduce costs, and comply with the overall budget.
 
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Purchases Overview* report includes the following KPIs and measures: 
 
@@ -72,7 +73,7 @@ Try the report here: [Purchases Overview](https://businesscentral.dynamics.com?p
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

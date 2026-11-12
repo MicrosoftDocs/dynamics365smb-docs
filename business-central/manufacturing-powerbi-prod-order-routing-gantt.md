@@ -1,18 +1,19 @@
 ---
-title: Prod.Order Routing Gantt
-description: Learn how to benefit from using the Prod. Order Routing Gantt report.
+title: Production Order Routing Gantt Power BI Report
+description: Review scheduled production operations, routing timelines, work and machine centers, and posted output with the Prod. Order Routing Gantt Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37099_Primary
-ms.date: 05/26/2025
+ms.date: 11/12/2026
+ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Prod. Order Routing Gantt (Power BI Report)
+# Prod. order routing Gantt (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -26,24 +27,24 @@ The **Production Time Line (Gantt Chart Visual)** visualization provides a Gantt
    - *Parent:* Production orders serve as the primary grouping level.  
    - *Nested Tasks:* Routing line descriptions represent individual tasks in the process.  
 
-2. **Timeline Configuration:**  
+1. **Timeline Configuration:**  
    - By default, the timeline displays at a daily level.  
-   - Non-working days are highlighted in red for improved clarity.  
+   - Nonworking days are shaded for improved clarity.
 
-3. **Task Duration:**  
+1. **Task Duration:**  
    - Task durations calculate based on the routing line's starting and ending date-time values.  
 
-4. **Task Bar Representation:**  
+1. **Task Bar Representation:**  
    - The color of the task bars differentiates between routing through machine centers and work centers.  
    - Within each bar, the name of the machine center or work center displays, providing added context about where the task is done.  
 
-The **Routing Line Details** table is a tabular representation of production and routing data. It includes essential information such as the **Production Order No.** and the **Operations No.** which specifies individual operations within the process. The table also highlights the **Work Center/Machine Center No.**, identifying the location associated with each routing line task. Additionally, the table displays the **Starting Date Time** and **Ending Date Time**, outlining the scheduled start and completion times for tasks. The date times are used to calculate the **Total Duration Hours**, showing the time taken to execute tasks in hours, and the **Duration Total Days**, which represents the task duration in days for an alternative perspective. Together, these details ensure you have a clear and structured view of production processes.
+The **Routing Line Details** table shows production orders, routing and operation numbers, and work center or machine center names. **Starting Date Time** and **Ending Date Time** show the scheduled start and completion times. **Duration Total Hours** and **Duration Total Days** express the elapsed scheduled duration, not posted actual time. The table also shows posted output quantity and routing status.
 
 ## Use the report
 
-Manufacturing Managers use the report to gain an overview of production scheduling and routing processes. The **Production Time Line** Gantt chart helps you monitor task durations and sequencing. The bar colors and contextual information on machine centers or work centers allow you to quickly identify resource usage and task assignments. Paired with the **Routing Line Details** table, you can analyze production timelines, evaluate task completion dates, and compare actual durations with planned expectations. These details help you detect delays, optimize schedules, and ensure you allocate resources effectively across work centers and machine centers.  
+Manufacturing Managers use the report to gain an overview of production scheduling and routing processes. The **Production Time Line** Gantt chart helps you monitor task durations and sequencing. The bar colors and contextual information on machine centers or work centers allow you to quickly identify resource usage and task assignments. Paired with the **Routing Line Details** table, you can analyze scheduled production timelines and durations. These durations come from routing line start and end times, not posted actual time. These details help you detect scheduling conflicts, optimize schedules, and ensure you allocate resources effectively across work centers and machine centers.
 
-Production supervisors rely on the report to manage day-to-day production tasks and maintain operational efficiency. The Gantt chart shows production order tasks so that you can easily track which operations are occurring at what locations and for how long. The red-marked non-working days help you identify gaps or conflicts in scheduling and address potential bottlenecks. Meanwhile, the **Routing Line Details** table provides starting and ending date times with total task durations by day and by hours. Together, the Gantt visual and tabular components of the report support effective coordination for smooth production workflows.  
+Production supervisors rely on the report to manage day-to-day production tasks and maintain operational efficiency. The Gantt chart shows production order tasks so that you can easily track which operations are occurring at what locations and for how long. The shaded nonworking days help you identify gaps or conflicts in scheduling and address potential bottlenecks. Meanwhile, the **Routing Line Details** table provides starting and ending date times with total task durations by day and by hours. Together, the Gantt visual and tabular components of the report support effective coordination for smooth production workflows.
 
 ## Key performance indicators (KPIs)
 
@@ -63,6 +64,9 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Prod. Order Routing Line
 - Production Order
+- Capacity Ledger Entry
+- Work Center
+- Machine Center
   
 ## Try the report
 
@@ -72,7 +76,9 @@ Try the report here: [Prod. Order Routing Gantt](https://businesscentral.dynamic
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  
 [Manufacturing overview](production-manage-manufacturing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

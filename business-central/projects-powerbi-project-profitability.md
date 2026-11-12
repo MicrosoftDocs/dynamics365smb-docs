@@ -1,18 +1,19 @@
 ---
-title: Project Profitability (Power BI report)
-description: The Project Profitability report highlights cost and pricing information for each project.
+title: Project Profitability Power BI Report
+description: Compare project usage, budgeted, and invoiced costs and prices in Business Central with the Project Profitability Power BI report for project leaders.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 37035_Primary
-ms.date: 09/25/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Project Profitability (Power BI Report)
+# Project profitability (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -26,7 +27,7 @@ The statistics help you identify projects with low or no profit, and can point y
 
 Leadership teams use the report to identify high and low performing projects, and make changes to ensure profit goals are met.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Project Profitability* report includes the following KPIs:
 
@@ -40,7 +41,7 @@ The *Project Profitability* report includes the following KPIs:
 - [Total Budget Price](projects-powerbi-kpis.md#total-budget-price)
 - [Total Budget Cost](projects-powerbi-kpis.md#total-budget-cost)
 - [Total Invoiced Costs](projects-powerbi-kpis.md#total-invoiced-costs)
-- [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-profit)
+- [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-price)
 - [Budget Profit Margin %](projects-powerbi-kpis.md#budget-profit-margin-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
@@ -54,6 +55,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 - Job
 - Job Task
 - Job Ledger Entries
+- Job Planning Line
 
 ## Try the report
 
@@ -63,8 +65,10 @@ Try the report here: [Project Profitability](https://businesscentral.dynamics.co
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

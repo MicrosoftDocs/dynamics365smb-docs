@@ -1,23 +1,24 @@
 ---
-title: Period-Over-Period (Power BI Report)
-description: The Period-Over-Period report provides valuable insights into your organization's purchasing performance over time
+title: Period-Over-Period Power BI Report
+description: Compare purchases with the previous fiscal month, quarter, or year in Power BI to track spending changes and evaluate period-over-period growth.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37014_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Period-Over-Period (Power BI Report)
+# Period-over-period for purchases (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Period-Over-Period** report provides valuable insights into your purchasing performance over time. This report compares purchasing amounts for different time periods to the same period in the previous year, so you can identify growth trends and areas for improvement.
+The **Period-Over-Period** report provides valuable insights into your purchasing performance over time. This report compares purchasing amounts with the previous fiscal month, quarter, or year, depending on the level of detail, so you can identify growth trends and areas for improvement.
 
-For example, if the analysis scope is fiscal months, the report compares the purchasing amount in October 2023 to the purchasing amount in October 2022. If the scope is fiscal years, the report compares the purchasing amount in fiscal year 2023 to the purchasing amount in 2022.
+For example, at the fiscal month level, the report compares purchases in October 2023 with September 2023. At the fiscal year level, it compares fiscal year 2023 with fiscal year 2022.
 
 :::image type="content" source="media/purchases/purchases-period-over-period.png" alt-text="Screenshot of the Period-Over-Period Power BI report" lightbox="media/purchases/purchases-period-over-period.png":::
 
@@ -25,12 +26,12 @@ For example, if the analysis scope is fiscal months, the report compares the pur
 
 The report is meant for business leaders and managers.
 
-CEOs can get insights into your organization's purchase spending over time. By comparing purchase amounts for different time periods to the same period in the previous year, this report helps you identify purchasing trends and growth.
+CEOs can get insights into your organization's purchase spending over time. By comparing purchase amounts with the previous fiscal period, this report helps you identify purchasing trends and growth.
 
 Purchasing managers can use this report to analyze the growth amount and growth percentage, and evaluate spending over the current fiscal year in comparison to the previous fiscal year. This information can help you adjust purchasing plans and allocate budgets effectively.
 
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Period-Over-Period* report includes the following KPIs and measures: 
 
@@ -59,7 +60,7 @@ Try the report here: [Period-Over-Period](https://businesscentral.dynamics.com?p
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

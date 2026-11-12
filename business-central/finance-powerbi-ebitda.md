@@ -1,13 +1,14 @@
 ---
-title: EBITDA
-description: The EBITDA report provides an overview of your company's EBIT and EBITDA over time.
+title: EBITDA and EBIT Power BI Report
+description: Analyze earnings before interest and taxes, depreciation, and amortization over time in Business Central with the EBITDA Power BI report.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
+ai-usage: ai-assisted
 ms.search.keywords: reporting
 ms.search.form: 36991_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -31,11 +32,11 @@ Executives use the report to evaluate cash flow potential before making strategi
 
 EBITDA is good for comparing cash flow potential across similar businesses. EBIT offers a fuller picture of profit by including asset-related costs, which is essential for assessing long-term operational efficiency.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *EBITDA* report includes the following KPIs and measures: 
 
-- [**Operating Profit - EBIT**](finance-powerbi-kpis.md#-change-in-operating-profit---ebit)
+- [**Operating Profit - EBIT**](finance-powerbi-kpis.md#operating-profit---ebit)
 - [**EBITDA**](finance-powerbi-kpis.md#ebitda)
 - [**Revenue**](finance-powerbi-kpis.md#revenue)
 - [**Interest Revenue**](finance-powerbi-kpis.md#interest-revenue)
@@ -68,7 +69,7 @@ Try the report here: [EBITDA](https://businesscentral.dynamics.com?page=36991)
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
@@ -77,3 +78,5 @@ Try the report here: [EBITDA](https://businesscentral.dynamics.com?page=36991)
 [Built-in accounts payable reports](payables-reports.md)  
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

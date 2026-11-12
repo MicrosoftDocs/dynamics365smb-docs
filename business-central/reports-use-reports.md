@@ -21,7 +21,7 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 | Get an overview of available built-in reports. | [Report overview](reports-available-reports.md) |
 | Learn how to run a standard report using the request page. | [Run and print Reports](ui-work-report.md) |
 | Quickly find your favorite reports using bookmarks in your Role Center. | [Bookmarking a report](ui-bookmarks.md) |
-| Learn how to specify default printers for different reports. | [Set up default printers](ui-specify-printer-selection-reports.md#default) |
+| Learn how to specify default printers for different reports. | [Set up default printers](ui-specify-printer-selection-reports.md) |
 | Learn how to schedule reports right now or regularly on a specific weekday. | [Scheduling reports](ui-work-report.md#ScheduleReport) |
 | Download and share scheduled reports using OneDrive. | [Share and export reports with the Report Inbox](ui-work-report-inbox.md) |
 | Run a report with the same options and filters using saved settings on the request page. | [Managing saved report settings](reports-saving-reusing-settings.md)|

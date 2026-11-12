@@ -1,5 +1,5 @@
 ---
-title: Key Sales Influencers (Power BI Report)
+title: Key Sales Influencers Power BI Report
 description: Identify and analyze factors that influence sales performance. Explore the most impactful variables and trends based on sales data.
 author: kennieNP
 ms.author: kepontop
@@ -7,12 +7,13 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37102_Primary
-ms.date: 10/07/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
-# Key Sales Influencers (Power BI Report)
+# Key sales influencers (Power BI report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -30,7 +31,7 @@ Leadership and management teams use the report to identify the primary drivers o
 
 As the CEO of a furniture company, this report can help you identify the furniture categories that drive the highest sales. For example, you might discover that ergonomic chairs are a major revenue contributor, with sales figures typically three times higher than other types of chairs. This insight can guide your investment decisions and provide valuable data to share with stakeholders.
 
-As a sales manager, this report can help you identify the customer demographics behind sales trends. For instance, the **Key Influencers** visual might reveal that a significant number of office desk orders are placed by customers located in a certain region, with a higher likelihood of ordering quantities of five or more, which is twice as often as customers in other regions.
+As a sales manager, this report can help you identify the customer demographics behind sales trends. For instance, the **Key Influencers** visual might show that sales amounts are higher for customers in a particular region. The visual analyzes sales amounts, not the likelihood of customers ordering a particular quantity.
 
 Using this insight, you can develop targeted strategies. For example, offering bulk pricing discounts for office desks, encouraging larger purchases and strengthening customer loyalty. You can optimize your pricing strategy while catering to regional buying behaviors.
 
@@ -68,7 +69,7 @@ Try the report here: [Key Sales Influencers](https://businesscentral.dynamics.co
 
 ## Related information
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track your business KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
 [Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  

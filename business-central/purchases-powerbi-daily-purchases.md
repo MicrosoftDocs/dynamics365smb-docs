@@ -1,16 +1,16 @@
 ---
-title: Daily Purchases (Power BI Report)
-description: The Daily Purchases report provides a comprehensive overview of your organization's purchase activities on specific days.
+title: Daily Purchases Power BI Report
+description: Analyze daily purchase amounts and quantities in the Power BI Purchases app to identify spending patterns across days, weeks, months, and years.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37011_Primary
-ms.date: 10/31/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
-# Daily Purchases (Power BI Report)
+# Daily purchases (Power BI report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -27,7 +27,7 @@ Purchasing managers can analyze data to allocate budgets and staff, ensuring tha
 Purchasers track daily purchases and ensure they stay within budget. Use this report to monitor daily purchase activities and identify purchases or days that might exceed the budget.
 
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
 The *Daily Purchases* report includes the following KPIs and measures: 
 
@@ -55,7 +55,7 @@ Try the report here: [Daily Purchases](https://businesscentral.dynamics.com?page
 
 ## Related information
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Track KPIs with Power BI goals](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

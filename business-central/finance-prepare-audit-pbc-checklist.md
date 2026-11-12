@@ -170,6 +170,13 @@ Reports support the amounts in your evidence package, but they don't replace ext
 | Significant estimates, including bad debts, inventory reserves, and accruals. | Provide management's methodology, assumptions, calculations, and approval, supported by the relevant reports and entries. |
 | Related parties and related-party transactions. | Prepare management's list of related parties. Use identified customers, vendors, accounts, or dimensions to gather transaction details. Don't assume that a standard customer or vendor list identifies all related parties. |
 
+## Contributors
+
+Microsoft maintains this article. The following external contributors provided parts of its contents.
+
+- [Jennifer Bonenfant](https://www.linkedin.com/in/jenniferbonenfant/) | MBA, CPA, Microsoft MVP
+- [Cari Corozza](https://www.linkedin.com/in/cari-corozza-cpa) | CPA, Microsoft MVP
+
 ## Related information
 
 [Overview of tasks to close accounting periods](year-how-complete-period-end-processes.md)  

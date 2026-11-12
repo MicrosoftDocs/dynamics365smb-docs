@@ -1,58 +1,63 @@
 ---
 title: Privacy Notices Status in Business Central
-description: An overview of the Privacy Notices Status page in Business Central
+description: Review and manage privacy notice approvals for connected services in Business Central, including decisions for all users and individual user responses.
 author: brentholtorf
 ms.service: dynamics-365-business-central
 ms.topic: reference
-ms.search.keywords:
 ms.search.form: 1565
-audience: 
 ms.author: bholtorf
-ms.date: 07/21/2022
+ms.date: 11/12/2026
 ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
-# Privacy Notices Status in [!INCLUDE[prod_long](includes/prod_long.md)]
+# Privacy notices status in Business Central
 
 This article discusses what a privacy notice is and explains the purpose of the **Privacy Notices Status** page in [!INCLUDE[prod_short](includes/prod_short.md)]. You'll also learn how administrators can use this page.
 
-## Privacy notice
+## Understand privacy notices
 
-A privacy notice states the data collection, data processing, and data privacy policies followed by the organizations's data controller. It's a document that describes what data is collected and for what purposes, how the user's data is processed, how it's being stored, and who to contact if a user wants to ask something about their data. 
+A privacy notice states the data collection, data processing, and data privacy policies followed by the organization's data controller. It's a document that describes what data is collected and for what purposes, how the user's data is processed, how it's being stored, and who to contact if a user wants to ask something about their data.
 
-## Privacy Notices Status page
+## Manage privacy notices for all users
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], if users want to integrate their data with Microsoft Exchange, Microsoft OneDrive, and Microsoft Teams, they must accept the privacy notice for each entity. Or an admin can approve the privacy notices on their behalf. Admins can see the status of privacy notices on the **Privacy Notices Status** page. You can find the **Privacy Notices Status** page in the [!INCLUDE[prod_short](includes/prod_short.md)] by typing the name of the page in the search bar.  
+Connected features in [!INCLUDE[prod_short](includes/prod_short.md)] can require a privacy notice. Users can accept a notice for themselves, or an administrator can accept it for all users. Some notices can be accepted automatically, such as in evaluation companies. An administrator's decision takes precedence over individual user decisions.
 
-On that page, you'll find a table with approval options for each of the services mentioned above. 
+Administrators can review the notices on the **Privacy Notices Status** page. To manage approvals, you need permissions such as those in the **Privacy Notice - Admin** permission set.
+
+[!INCLUDE[open-search](includes/open-search.md)], enter **Privacy Notices Status**, and then choose the related link.
+
+The page lists the privacy notices for connected services and the decision for each notice.
 
 | Column | Description |
 | ----------- | ----------- | 
 | **Integration Name** | Name of the service, such as Microsoft OneDrive. |
-| **Agree for All** | An admin approves the privacy notice for all users. |
-| **Disagree for All** | An admin does not approve the privacy notice for all users. |
-| **Let User Decide** | Users decide to approve the privacy notice for the service or not. |
+| **Agree for Everyone** | An administrator accepts the privacy notice for all users. The notice can also be accepted automatically where the service permits it. |
+| **Disagree for Everyone** | An administrator declines the privacy notice for all users, preventing them from using the integration that requires it. |
+| **Let Users Decide** | Users decide whether to accept the privacy notice for themselves. This choice clears the administrator's decision for all users but doesn't clear existing individual decisions. |
 
 > [!NOTE]
-> You can only view the status of privacy notices on the main **Privacy Notices Status** page. To edit the responses, go to **Edit List** on the action bar of the page where options are now clickable and not greyed out.
+> To change the decisions on the **Privacy Notices Status** page, choose **Edit List**. The **Approve All** action accepts every privacy notice in the list for all users.
 
-## Privacy Notice Approvals
+## Review individual privacy notice approvals
 
-Admins can see individual approvals and manage them on the **Privacy Notice Approvals** subpage. Go to the *Action* bar of the **Privacy Notices Action** page, under *Actions*, to find the *Show individual approvals* option. This option goes to the **Privacy Notice Approvals** page.<br>
+On the **Privacy Notices Status** page, choose **Show individual approvals** to open the **Privacy Notice Approvals** page. Administrators can review individual and organization-wide decisions. The fields on this page are read-only.
 
-On that page, you'll find a table with approval options. 
+The page lists the recorded decisions.
 
 | Column | Description |
 | ----------- | ----------- | 
 | **Integration Name** | Name of the service, such as Microsoft OneDrive. |
-| **User Name** | The user who holds this approval. If *Organization* is written in the User Name column, approval belongs to the whole organization. 
-| **Agree** | The user approves the privacy notice. |
-| **Disagree** | The user does not approve the privacy notice. |
-| **Approver User Name** | The one who approves the privacy notice. |
+| **User Name** | The user whose decision is recorded. **\<Organization\>** indicates a decision for all users. |
+| **Agree** | The privacy notice is accepted for the user or organization. |
+| **Disagree** | The privacy notice is declined for the user or organization. |
+| **Approver User Name** | The user who recorded the agreement or disagreement. |
 
 ## Related information
 
 [Compliance Overview  ](/dynamics365/business-central/compliance/compliance-overview)  
-[Respond to Requests about Personal Data  ](/dynamics365/business-central/admin-responding-to-requests-about-personal-data)  
+[Respond to requests about personal data](admin-responding-to-requests-about-personal-data.md)  
 [Privacy Policy and Terms of Use ](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-i-privacypolicy-termsofuse)  
-[Data Retention Policies](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/define-retention-policies) 
+[Data retention policies](admin-data-retention-policies.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

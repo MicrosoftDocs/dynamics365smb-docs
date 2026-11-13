@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 01/26/2023
+ms.date: 11/12/2026
 ms.custom: bap-template
 ai-usage: ai-assisted
 ---

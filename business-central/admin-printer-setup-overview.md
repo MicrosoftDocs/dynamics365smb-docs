@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.topic: overview 
 ms.search.form: 2616_Primary
-ms.date: 01/31/2025
+ms.date: 11/12/2026
 ms.custom: bap-template 
 ai-usage: ai-assisted
 ---

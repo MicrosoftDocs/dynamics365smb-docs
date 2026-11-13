@@ -1,20 +1,21 @@
 ---
-title: Set up and process a subcontracting operation
+title: Set Up and Process a Subcontracting Operation
 description: Walkthrough to learn how to set up and process a subcontracting operation with component transfers, work-in-progress tracking, and returns in Business Central.
-ms.date: 10/16/2026
+ms.date: 11/12/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Set up and process a subcontracting operation
 
 This article illustrates ways to use the Contoso Coffee demo data with the Subcontracting app. The scenarios explain how to set up a production scenario where a subcontractor handles the first assembly operation, while you transfer components and track work-in-progress items and then receive the partially assembled output from the vendor for in-house finishing.
 
-## Scenario
+## Scenario for subcontracting Airpot body assembly
 
 You're the production planner at Contoso Coffee, and you need to produce 12 units of item **SP-SCM1009, Airpot**. You outsource the item's body assembly (the first routing operation) to a subcontractor, while you do the electrical wiring, testing, and packing in-house. You send components to the subcontractor, track the work-in-progress item as it moves between facilities, receive the subcontracted output, and return unused materials.
 
@@ -22,7 +23,7 @@ You're the production planner at Contoso Coffee, and you need to produce 12 unit
 
 To complete this scenario, you need:
 
-- The Contoso Coffee Manufacturing demo data installed with opening balances posted.
+- The **Manufacturing** module generated in **Contoso Demo Tool**, including its automatically posted opening inventory. Learn more in [Set up Contoso Coffee manufacturing data](contoso-coffee-manufacturing-intro.md#set-up-contoso-coffee-manufacturing-data).
 - The **Subcontracting** app installed from Marketplace. Here's a link to the app's [download page](https://marketplace.microsoft.com/product/PUBID.microsoftdynsmb%7CAID.subcontracting%7CPAPPID.1f32a50d-0057-4b95-b5df-cc04d7e89470).
 
 > [!IMPORTANT]
@@ -32,7 +33,7 @@ To complete this scenario, you need:
 
 ### Assign the subcontracting routing to the item
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Items**, and then select the related link.
 1. Open the item card page for item **SP-SCM1009, Airpot**.
 1. On the **Replenishment** FastTab, set the **Routing No.** field to **SP-SCM1009-SUB-1**.
 
@@ -56,14 +57,14 @@ To complete this scenario, you need:
    | **Routing Link Code** | 500 |
    | **Component Supply Method** | Transfer to Vendor |
 
-These two components are now linked to the subcontracting operation and will transfer to the subcontractor's location when needed.
+   These two components are now linked to the subcontracting operation and will transfer to the subcontractor's location when needed.
 
 1. In the **Status** field, choose **Certified**.
 1. Close the Production BOM.
 
 ### Set up work-in-progress transfer on the routing
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Routings**, and then select the related link.
 1. Open routing **SP-SCM1009-SUB-1**.
 1. In the **Status** field, choose **Under Development**.
 1. On operation **10** (Work Center 500, Body assembly), set the following fields:
@@ -73,14 +74,14 @@ These two components are now linked to the subcontracting operation and will tra
    | **Transfer WIP Item** | Yes |
    | **Transfer Description** | Airpot - body assembled (WIP) |
 
-When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](../../includes/prod_short.md)] includes a line for this work-in-progress item. The WIP item appears on transfer documents for tracking purposes but doesn't create item ledger entries.
+   When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](../../includes/prod_short.md)] includes a line for this work-in-progress item. The WIP item appears on transfer documents for tracking purposes but doesn't create item ledger entries.
 
 1. In the **Status** field, choose **Certified**.
 1. Close the routing.
 
 ### Set the subcontracting location code on the vendor
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Vendors**, and then select the related link.
 1. Open the vendor card for **82000, Bulk Assembly**.
 1. In the **Subcontracting Location Code** field, enter **S82000**.
 
@@ -88,7 +89,7 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
 
 ### Create and refresh the production order
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Orders**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Released Production Orders**, and then select the related link.
 1. Select the **New** action, and then fill in the fields as described in the following table.
 
    | Field | Value |
@@ -105,6 +106,7 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
 1. On the production order, select the **Components** action.
 
    The two components you configured with the **Transfer to Vendor** supply method (SP-BOM1101 and SP-BOM1102) have **MAIN** in the **Location Code** field. This is the location from which they transfer to the subcontractor.
+1. For both components, set **Flushing Method** to **Backward** so that receipt of the subcontracted output posts component consumption.
 1. Close the components and select the **Routing** action.
 
    The **Subcontracting Routing Details** FactBox shows the status of the subcontracting work for the selected routing line. It shows purchase order quantities, transfer order quantities, and quantities received.
@@ -119,7 +121,7 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
    A purchase order is created for vendor **82000, Bulk Assembly**.
 1. Open the purchase order.
 
-   The **Lines** FastTab shows the subcontracting work line. If you turn on the **Create Production Order Info Line** toggle on the **Manufacturing Setup** page, a comment line with the production order line description also appears.
+   The **Lines** FastTab shows the subcontracting work line. If you turn on the **Create Prod. Order Info Line** toggle on the **Manufacturing Setup** page, a comment line with the production order line description also appears.
 
    The **Subcontracting Details** FactBox (visible only on subcontracting orders) shows the related production order, routing, and component information.
 
@@ -132,8 +134,8 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
    - **Component lines**: the raw materials (SP-BOM1101 and SP-BOM1102) being transferred from **MAIN** to location **S82000, Bulk Assembly**.
    - **WIP item line**: the work-in-progress item (SP-SCM1009) with the description "Airpot - body assembled (WIP)" that you defined on the routing.
 
-1. Post the transfer order. Because it's set up as a direct transfer, it posts the shipment and receipt together.
-1. To verify, select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Ledger Entries**, and then select the related link. Filter on the transfer order number. There are shipment and receipt entries for the component items (SP-BOM1101 and SP-BOM1102). The WIP item doesn't appear in item ledger entries because it's tracked separately.
+1. Post the transfer order. With the default demo setup, the order is a direct transfer. If you use an existing transfer route with an in-transit location, complete both shipment and receipt before receiving the subcontracted output.
+1. To verify, [!INCLUDE [open-search-lowercase](../../includes/open-search-lowercase.md)], enter **Item Ledger Entries**, and then select the related link. Filter on the transfer order number. There are shipment and receipt entries for the component items (SP-BOM1101 and SP-BOM1102). The WIP item doesn't appear in item ledger entries because it's tracked separately.
 
 ### Receive subcontracted output
 
@@ -143,7 +145,7 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
 
 ### Return unused materials from the subcontractor
 
-1. Go back to the purchase order. Select the **Actions** action, and then select **Create Return from Subcontractor** under the **Subcontracting** group.  
+1. Go back to the purchase order. Select the **Actions** action, and then select **Create Return from Subcontractor** under the **Subcontracting** group.
 
    [!INCLUDE [prod_short](../../includes/prod_short.md)] calculates how many components were transferred versus how many were consumed by the 8 units received, and suggests returning the surplus quantity.
 1. Review the transfer order lines with the return quantities.
@@ -162,3 +164,5 @@ When you create a transfer order for the subcontractor, [!INCLUDE [prod_short](.
 [Use Different Component Supply Methods in Subcontracting](subcontracting-component-supply-methods.md)  
 [Set Up Subcontracting Prices and Allocate Item Charges](subcontracting-pricing-item-charges.md)  
 [Subcontracting overview](../../production-how-to-subcontract-manufacturing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

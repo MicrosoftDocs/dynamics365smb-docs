@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 11/11/2026
+ms.date: 11/12/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted

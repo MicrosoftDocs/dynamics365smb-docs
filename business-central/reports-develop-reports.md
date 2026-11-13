@@ -6,7 +6,7 @@ ms.topic: overview
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: feature overview
-ms.date: 11/11/2026
+ms.date: 11/12/2026
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted

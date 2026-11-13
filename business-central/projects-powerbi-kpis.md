@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: reference
 ai-usage: ai-assisted
 ms.search.keywords: reporting
-ms.date: 09/25/2025
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

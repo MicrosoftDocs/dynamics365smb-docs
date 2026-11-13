@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: troubleshooting
 ms.devlang: al
 ms.search.keywords: connectivity, troubleshooting, connection problems
-ms.date: 01/09/2024
+ms.date: 11/12/2026
 ms.author: jswymer
 ROBOTS: NOINDEX
 ms.service: dynamics-365-business-central

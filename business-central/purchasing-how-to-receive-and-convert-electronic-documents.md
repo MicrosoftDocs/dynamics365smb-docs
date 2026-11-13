@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: receive electronic documents, convert electronic documents, incoming documents, OCR service, PEPPOL format, purchase invoice, general journal line, document exchange service 
 ms.search.form: 189, 190, 191 
-ms.date: 10/03/2025
+ms.date: 11/12/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

@@ -5,7 +5,7 @@ author: kennienp
 ms.author: kepontop
 ms.topic: reference
 ms.search.keywords: reporting
-ms.date: 11/06/2024
+ms.date: 11/12/2026
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted
 ---

@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: jswymer
 ms.topic: concept-article
 ms.custom: bap-template 
-ms.date: 02/14/2025
+ms.date: 11/12/2026
 ai-usage: ai-assisted
 ---
 # Where is personalization stored?

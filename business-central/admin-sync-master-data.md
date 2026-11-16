@@ -6,11 +6,13 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 02/26/2025
+ms.date: 09/26/2026
 ms.custom: bap-template
 ms.search.form: 7230, 7233, 5338, 7236, 672, 7234
 ---
 # Manage master data synchronization
+
+This article describes the tools you can use to keep master data synchronization running smoothly.
 
 After you set up master data synchronization, when you synchronize for the first time [!INCLUDE [prod_short](includes/prod_short.md)] does the following:
 
@@ -19,17 +21,35 @@ After you set up master data synchronization, when you synchronize for the first
 
 The job queue entries automatically synchronize data in the subsidiary companies when someone makes a change in the source company. Otherwise, you don't need to do anything.
 
+## Find changes when synchronizing in the same environment or across environments 
+
+You can synchronize master data when the source and subsidiary companies are in the same [!INCLUDE [prod_short](includes/prod_short.md)] environment, or when they're in *different* environments in the same Microsoft Entra tenant.
+
+### How the system finds changes when synchronizing in the same environment 
+
+When you're synchronizing and the source and subsidiary companies are in the same environment, for the automatic synchronization to work, the user who makes the change in the source company must have:
+
+- A [!INCLUDE [prod_short](includes/prod_short.md)] license.
+- Permission sets that allow them to reschedule a background task in the subsidiary company. To learn more about the required license and permissions, go to [Before you start](admin-set-up-data-sync.md#before-you-start).
+
+Otherwise, the change happens in the next unconditional synchronization run. The unconditional synchronization is controlled by the **Inactivity Timeout Period** field on the job queue entry.
+
+### How the system finds changes when synchronizing across environments
+
+When the source and subsidiary companies are in different environments, changes can't trigger the subsidiary's job queue directly because the person who made the change in the source doesn't have rights in the subsidiary's environment. Instead, [!INCLUDE [prod_short](includes/prod_short.md)] adds a recurring cross-environment change detector job in the subsidiary when you enable cross-environment synchronization.
+
+The detector job runs about one time a minute, and asks the source which of the synchronized tables changed. For each changed table, it starts that table's synchronization job right away. Updates from the source are usually picked up within a minute or two. A table whose synchronization job is already running is left to finish. The detector job is created automatically when you set up and enable cross-environment synchronization, and removed when you choose the **Clear cross-environment setup** action or disable synchronization. You don't schedule it manually.
+
+After you enable the cross-environment setup, it's available among the recurring jobs on the **Job Queue Entries** page and has a "Master Data Management cross-environment change detection" description. The job runs codeunit 7245 "MDM Cross-Env Change Detector". 
+
+If the detector job can't reach the source environment, it skips that run and retries on the next one. The connector picks up changes on the next successful run or the next unconditional synchronization.
+To keep synchronizing changes from source environment in near-real-time, this recurring job queue entry must be in the **Ready** or **Processing** states. Otherwise, the synchronization jobs reschedule according to the frequency that is defined on their corresponding job queue entries.
+
 > [!NOTE]
-> For the automatic synchronization to work, the user who makes the change in the source company must have:
+> There are some limitations to be aware of:
 >
-> - A [!INCLUDE [prod_short](includes/prod_short.md)] license.
-> - Permission sets that allow them to reschedule a background task in the subsidiary company. To learn more about the required license and permissions, go to [Before you start](admin-set-up-data-sync.md#before-you-start).
->
-> Otherwise, the change happens in the next unconditional synchronization run. The unconditional synchronization is controlled by the **Inactivity Timeout Period** field on the job queue entry.
-
-However, sometimes things go wrong, and there might be situations that you need to manage or investigate. For example, if people change the same record in both the source company and a subsidiary, synchronization fails so that you can specify the change that's correct. Or, the source company might install an extension that changes the schema of one of the tables you're synchronizing by adding a field or two. If you want to synchronize the new fields in the subsidiaries, install the same extensions and update the table schemas in their setup.
-
-This article describes the tools you can use to keep synchronization running smoothly.
+> - Fields of the type `MediaSet`, such as item pictures, don't synchronize.
+> - Fields of the types `Media` and `Blob` synchronize, but their size must be less than or equal to 512 KB. Fields of those types whose size is greater than 512 KB don't synchronize.
 
 ## Overwrite local changes
 
@@ -94,6 +114,10 @@ If the source company installs a new extension, the subsidiary must also install
 
 > [!NOTE]
 > Some tables get data from related tables. If you add an extension that doesn't include related tables, the fields on those tables aren't available. Verify that you added all related tables.
+
+## Troubleshooting
+
+Sometimes things go wrong, and there might be situations that you need to manage or investigate. For example, if people change the same record in both the source company and a subsidiary, synchronization fails so that you can specify the change that's correct. Or, the source company might install an extension that changes the schema of one of the tables you're synchronizing by adding a field or two. If you want to synchronize the new fields in the subsidiaries, install the same extensions and update the table schemas in their setup.
 
 <!--
 ## Recreate a deleted job queue entry

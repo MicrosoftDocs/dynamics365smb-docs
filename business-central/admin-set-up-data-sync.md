@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 06/10/2025
+ms.date: 09/28/2026
 ms.custom: bap-template
 ms.search.form: 7230, 7233, 5338, 7236, 672, 7234, 7230_Primary, 7233_Primary, 7234_Primary, 7236_Primary
 ---
@@ -34,15 +34,22 @@ You can synchronize data only from the source company to the subsidiary companie
 
 ## Before you start
 
+You can synchronize master data in two ways:
+
+* Same environment: the source and subsidiary companies are in the same [!INCLUDE [prod_short](includes/prod_short.md)] environment.
+* Across environments: the source company is in a *different* environment in the same Microsoft Entra tenant. This option requires extra setup to create a secure connection. Learn more in [Specify the source company in a cross-environment scenario](#specify-the-source-company-in-a-cross-environment-scenario).
+
 The following are requirements for setting up synchronization.
 
 * All companies must be in the same environment.
-* The user who sets up the subsidiary must have the **Essential**, **Premium**, or **Basic ISV** license.
+* The user who sets up the subsidiary must have the Essential, Premium, or Basic ISV license. Team Member, Internal Administrator, and Delegated Admin licenses can't complete the setup.
+* Cross-environment synchronization is available only in [!INCLUDE [prod_short](includes/prod_short.md)] online.
+* To set up a cross-environment connection, you also need a Microsoft Entra admin who can access [!INCLUDE [prod_short](includes/prod_short.md)] in the source environment.
 
 > [!NOTE]
 > The Team Member and Internal Administrator licenses let you access but not modify records, so they can't be used to set up the synchronization. The Delegated Admin license doesn't let you schedule background tasks, so you can't complete the setup.
 
-## Specify the source company
+## Specify the source company in a single environment scenario
 
 The first steps are to specify the company that is the data source and enable synchronization. Subsidiary companies pull data from the source company.
 
@@ -56,6 +63,78 @@ The first steps are to specify the company that is the data source and enable sy
 
 The next step is to enable tables and fields for synchronization.
 
+## Specify the source company in a cross-environment scenario
+
+If the source company is in a different environment than the subsidiary, there are a few extra steps to create the connection. The connection uses a registered Microsoft Entra application to read data from the source environment. Because synchronization only connects to environments in the same Microsoft Entra tenant, you register a single-tenant application.
+
+There are three parts:
+
+1. Register an application in Microsoft Entra.
+1. Grant the application read access in the source environment.
+1. Connect the subsidiary to the source environment.
+
+> [!NOTE]
+> Someone who is both a Microsoft Entra tenant admin and has access to Business Central in the source environment must complete steps 1 and 2. Granting admin consent requires tenant admin rights, and enabling the app in the source environment requires Business Central access there.
+
+### Register an application in Microsoft Entra
+
+1. Go to the [Azure portal](https://portal.azure.com/#home), and then choose the Microsoft Entra ID service.
+1. Choose **App registrations**, and then **New registration**.
+1. Enter a name, such as *Master Data Management Cross-Environment*.
+1. For the account type, choose **Accounts** in this organizational directory only (Single tenant).
+1. For the redirect URI, choose **Web** as the platform and enter `https://businesscentral.dynamics.com/OAuthLanding.htm`. The redirect URI is used the first time an admin signs in to grant the app access in the source environment.
+1. Choose **Register**.
+1. On the app's API permissions page, choose **Add a permission**, then **Dynamics 365 Business Central**, then choose **Application permissions**, **API.ReadWrite.All**, and then add the permission.
+1. Choose **Grant admin consent** for your organization, and then confirm.
+1. On the **Certificates & secrets** page, choose **New client secret**, enter a description and expiry, and then add it.
+
+   > [!IMPORTANT]
+   > Copy the value in the secret's **Value** field immediately and store it safely. You can't retrieve it after you leave the page. Enter it in the cross-environment setup. Renew the secret before it expires, or synchronization stops.
+
+1. On the **Overview** page, copy the **Application (client) ID**.
+
+### Grant the application read access in the source environment
+
+Complete these steps in the source environment's [!INCLUDE [prod_short](includes/prod_short.md)]. Sign in with an account that can access [!INCLUDE [prod_short](includes/prod_short.md)] and is a Microsoft Entra tenant admin.
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Microsoft Entra Applications**, and then choose the related link.
+1. Choose **New**, and in the **Client ID** field, enter the application (client) ID you copied.
+1. In the **State** field, select **Enabled**, and then select the **Grant Consent** action. If prompted, sign in with the tenant admin account to grant consent. This sign-in uses the redirect URI from the app registration.
+1. Assign the read-only permission set. You can change the permission sets only while the app is disabled, so follow these steps in order:
+
+   1. In the **State** field, choose **Disabled**.
+   1. Add the **Master Data Mgt. - Cross Environment** permission set. This read-only permission set lets the app read master data but not change anything in the source.
+   1. In the **State** field, choose **Enabled**.
+
+   > [!NOTE]
+   > You must disable the app to edit its permission sets and then re-enable it. The permission sets are read-only while the app is enabled.
+
+1. Consent to the cross-environment privacy notice. You're not prompted for it automatically, so consent to it explicitly:
+
+   1. [!INCLUDE [open-search](includes/open-search.md)], enter **Privacy Notices**, and then choose the related link.
+   1. Choose the privacy notice for **Master Data Management**, and then consent to it.
+
+### Connect the subsidiary to the source environment
+
+Complete these steps in the subsidiary environment.
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Master Data Management Setup**, and then choose the related link.
+1. Choose the **Cross-environment setup** action to open the **Cross-Environment Connection Setup** guide.
+1. On the **Welcome** step, review and accept the privacy terms, and then choose **Next**.
+1. On the connection step, enter the following information:
+
+   * **Source Environment**: the name of the source [!INCLUDE [prod_short](includes/prod_short.md)] environment.
+   * **Source Company**: the company in the source environment to read from.
+   * **Client ID**: the application (client) ID of the registered app.
+   * **Client Secret**: the secret value you copied. It's stored securely and isn't shown again.
+
+1. Choose **Next**, and then optionally choose **Test connection** to verify that you can reach the source.
+1. Choose **Finish** to save the connection. You can turn on Enable Data Synchronization right away.
+
+After you set up the connection, the rest of the setup, including enabling tables and fields, coupling, initial synchronization, and import/export is the same as for same-environment synchronization.
+
+To change the source or credentials later, run the **Cross-environment setup** action again. To remove the connection and its stored credentials and return to same-environment synchronization, choose **Clear cross-environment setup**.
+
 ## Enable or disable tables and fields
 
 To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of tables that businesses often synchronize. By default, these tables are enabled for synchronization. You can modify, disable, or delete them as you see fit. As an extra time-saver, some fields on the tables are already disabled because they probably aren't relevant for the subsidiary.
@@ -67,10 +146,10 @@ To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of
 1. Choose the **Synchronization Tables** action.
 1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-> [!TIP]
-> The **Table Filter** field is helpful for controlling what to synchronize for a table. You can set up filters to synchronize only when certain conditions are met. For example, you can add filters that specify that you synchronize only vendors in a certain region. Or, customers that use a certain currency.
->
-> If the subsidiary already has data in their tables, another good way to set criteria for synchronization is to set up match-based coupling. To learn more about matching, go to [Use match-based coupling](#use-match-based-coupling).
+   > [!TIP]
+> The **Table Filter** field is helpful for controlling what to synchronize for a table. Set up filters to synchronize only when certain conditions are met. For example, you can add filters that specify that you synchronize only vendors in a certain region. Or, customers that use a certain currency.
+   >
+   > If the subsidiary already has data in their tables, another good way to set criteria for synchronization is to set up match-based coupling. To learn more about matching, go to [Use match-based coupling](#use-match-based-coupling).
 
 1. To enable fields for a table, choose the table, and then choose the **Fields** action.
 1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -113,9 +192,37 @@ To access details, such as the number of records that are inserted or modified, 
 > [!IMPORTANT]
 > Although tables that contain transactional data are available in the list, such as tables that contain ledger entries, you shouldn't choose them. Synchronization works only for tables that contain nontransactional data.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Synchronization tables**, and then choose the related link.
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Synchronization tables**, and then choose the related link.
 1. Choose **New**, and then choose the table to add.
-1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+1. If you're prompted to add related tables, consider adding them and respond accordingly.
+1. All fields of the added table are disabled. Choose the **Fields** action and enable the synchronization of fields as necessary.
+1. Depending on which fields of the main added table you enabled, consider enabling the corresponding related table. For example, if you add the **Item** table and you choose to synchronize the unit of measure fields, consider enabling the synchronization of related unit of measure tables too.
+
+> [!IMPORTANT]
+> Cross-environment synchronization only. The **Master Data Mgt. - Cross Environment** permission set grants the registered app read access to the default synchronization tables. If you add tables that aren't in the default set, the app can't read them in the source environment until you grant it access to those tables. Learn more about the steps in [Grant the app access to added tables (cross-environment)](#grant-the-app-access-to-added-tables-cross-environment).
+
+#### Grant the app access to added tables (cross-environment)
+
+When you add tables to synchronize across environments, you must also grant the registered app read access to those tables in the source environment. Do these steps in the source environment, and sign in with an account that can access [!INCLUDE [prod_short](includes/prod_short.md)] and is a Microsoft Entra tenant admin.
+
+1. Create a permission set that grants read access to the tables you added:
+
+   1. [!INCLUDE [open-search](includes/open-search.md)], enter **Permission Sets**, and then choose the related link.
+   1. Choose **New**, and give the permission set a name. For example, MDM Additional Tables.
+   1. Add `Read` access for each table that you added to the synchronization. Keep the permissions read-only so the app can't change data in the source.
+
+   > [!TIP]
+   > Reuse one permission set for all your extra tables. When you add more tables to synchronization later, add them to this same permission set instead of creating a new one each time.
+
+1. Assign the permission set to the registered app. Because you can only change the app's permission sets while the app is disabled, follow these steps in this order:
+
+   1. [!INCLUDE [open-search](includes/open-search.md)], enter **Microsoft Entra Applications**, choose the related link, and then open the registered app.
+   1. In the **State** field, choose **Disabled**. 
+   1. Add the permission set you created. For example, MDM Additional Tables.
+   1. In the **State** field, choose **Enabled**.
+
+   > [!NOTE]
+   > If synchronization of an added table fails with an access-denied error from the source environment, confirm the registered app has a permission set that grants read access to that table.
 
 ### Delete a table
 

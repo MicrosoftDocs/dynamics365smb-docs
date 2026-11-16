@@ -1,28 +1,31 @@
 ---
-title: Customer - Top 10 List Excel (Excel report)
-description: Review customers with the most transactions in a selected period directly in Excel. Identify sales trends and manage debt collections.
+title: Customer - Top List (Excel Report)
+description: Rank customers by sales amounts or balances in local currency in Excel. Choose the number of customers and posting-date filters for your analysis.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4409_Primary
-ms.date: 12/16/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 12/16/2024
-ai.usage: ai-assisted
+ai-seo-date: 12/16/2024
+ai-usage: ai-assisted
 ---
 
-# Customer - Top 10 List Excel (report)
+# Customer - Top List Excel (report)
 
-The **Customer - Top 10 List Excel** report shows summarized sales and balance data in local currency (LCY) for the number of customers and for the period specified in the request page's **Quantity** and **Datefilter** parameters. The Quantity parameter is the number of "top" customers to rank.
+The **Customer - Top List (Excel)** report ranks customers by sales amounts or balances in local currency (LCY), according to **Show**. It doesn't rank customers by transaction count. **Quantity** controls how many customers to include and defaults to 10.
 
-The report Excel workbook contains two worksheets that you can use to analyze your customers:
+The **Date Filter** applies to posting dates. With **Balance (LCY)**, a bounded date range gives the balance movement within that range. Use a filter through the ending date, such as `..12/31/2026`, to include earlier activity in an as-of balance.
 
-- Top Customer List
-- TopCustomerData
+The Excel layout includes these report and data worksheets:
+
+- Top Customer List (Print)
+- Top Customer List (Analysis)
+- TopCustomerData, hidden by default
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
@@ -30,9 +33,9 @@ The report Excel workbook contains two worksheets that you can use to analyze yo
 
 [!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
-## Top Customer List worksheet
+## Top customer list worksheets
 
-This worksheet shows current sales amounts and balance in LCY by customer.
+The **Top Customer List (Print)** and **Top Customer List (Analysis)** worksheets show sales amounts and balances in LCY for the selected customers. The dataset contains customer numbers, names, and amounts, but no due dates or regional breakdown.
 
 With filters and slicers, you can zoom in on a single customer or a group of customers.
 
@@ -40,7 +43,7 @@ With filters and slicers, you can zoom in on a single customer or a group of cus
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## TopCustomerData worksheet
+## TopCustomerData data worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
@@ -48,7 +51,7 @@ With filters and slicers, you can zoom in on a single customer or a group of cus
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
-## Other worksheets
+## Other worksheets in the workbook
 
 [!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
@@ -90,12 +93,12 @@ Please include your data sources and URLs
 Sales representatives use the report to:
 
 - Identify which customers bought the most within a selected period and prioritize follow-up.
-- Identify overdue payments or outstanding balances, and communicate updated payment timelines to customers.
+- Identify customers with large balances for follow-up. Use a separate aging report to check overdue amounts.
 - Identify sales trends and adjust sales strategies.
 
 Sales managers use the report to:
 
-- Analyze sales performance across customers and regions.
+- Analyze sales amounts across customers.
 - Determine which customers have the largest outstanding balances and prioritize follow-up.
 - Identify sales trends and make data-driven decisions to improve performance.
 
@@ -107,19 +110,19 @@ Credit or accounts receivable managers use the report to:
 
 Marketing managers use the report to:
 
-- Analyze sales trends across customers and regions.
+- Compare sales amounts across customers.
 - Identify the customers with the highest sales volume and target them for future marketing campaigns.
 - Identify sales trends and adjust marketing strategies.
 
 Customer success managers use the report to:
 
 - Identify the customers with the highest sales volume and provide them with personalized support.
-- Identify overdue payments or outstanding balances, and communicate updated payment timelines to customers.
+- Identify customers with large balances for follow-up. Use a separate aging report to check overdue amounts.
 - Identify sales trends and make data-driven decisions to improve customer satisfaction.
 
 ## Try the report
 
-Try the report here: [Customer - Top 10 List Excel](https://businesscentral.dynamics.com?report=4409)
+Try the report here: [Customer - Top List (Excel)](https://businesscentral.dynamics.com?report=4409)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
@@ -129,7 +132,7 @@ Try the report here: [Customer - Top 10 List Excel](https://businesscentral.dyna
 
 ## Alternative reports
 
-There are several other ways to analyze your customers. To learn more, go to:
+There are several other ways to analyze your customers. Learn more in the following articles:
 
 - [Power BI Sales app](../sales-powerbi-app.md)
 - [Using data analysis to analyze sales](../ad-hoc-analysis-sales.md)

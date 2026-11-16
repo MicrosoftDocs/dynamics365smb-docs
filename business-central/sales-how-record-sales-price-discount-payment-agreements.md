@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 08/25/2026
+ms.date: 11/16/2026
 ms.custom: bap-template
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
@@ -107,11 +107,11 @@ When you enable the **New sales pricing experience** feature update on the **Fea
 
 If you have many combinations, you get many price lists.
 
-If you already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchase & Payables**, or **Projects Setup** pages, set the price list as the default.
+If you already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchases & Payables Setup**, or **Projects Setup** pages, set the price list as the default.
 
 ### Editing active price lists
 
-To allow people to edit prices on active price lists for items, resources, customers, vendors, or other entities that use pricing, turn on the **Allow Editing Active Price** toggle on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.
+To allow people to edit prices on active price lists for items, resources, customers, vendors, or other entities that use pricing, turn on the **Allow Editing Active Price** toggle on the **Sales & Receivables Setup** and **Purchases & Payables Setup** pages.
 
 When the **Allow Editing Active Price** toggle is turned off, to update prices in a price list you must change the status of the price list to **Draft**, make your change, and then reactivate the price list.
 
@@ -261,7 +261,7 @@ Before you can use invoice discounts with sales, you must specify certain inform
 * Which customers get this type of discount?  
 * Which discount percentages do you use?  
 
-If you want invoice discounts to be calculated automatically, on the **Sales & Receivables Setup** page, turn on the **Calc Inv. Discount** toggle.  
+If you want invoice discounts to be calculated automatically, on the **Sales & Receivables Setup** page, turn on the **Calc. Inv. Discount** toggle.  
 
 You can specify whether you grant invoice discounts when an invoice meets certain criteria for each customer. For example, when the invoice amount is large enough. Invoice discounts can be in local currency for domestic customers, or in foreign currency for foreign customers.  
 
@@ -324,10 +324,10 @@ After you decide which customers are eligible for invoice discounts, enter the i
 Proceed to set up the new sales invoice discount terms.
 
 1. On the **Customers** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
-2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line apply to. Leave the field blank to set up invoice discount terms in USD.
+2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line apply to. Leave the field blank to set up invoice discount terms in local currency (LCY).
 3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
-5. Repeat steps 5 through 7 for each currency that you give the customer a different invoice discount for.
+5. Repeat steps 2 through 4 for each currency that you give the customer a different invoice discount for.
 
 ## Add or edit lines on price lists using Edit in Excel
 

@@ -1,25 +1,25 @@
 ---
-title: VAT Reconciliation Report (report)
-description: Use before tax filing to ensure that VAT amounts calculated on documents match what was posted to the general ledger. This report compares VAT calculated from documents with the amounts posted to the VAT G/L accounts. Use during tax preparation.
+title: VAT Reconciliation Report (Report)
+description: Review G/L entries and their linked posted VAT bases and amounts to support tax reconciliation without recalculating VAT from source documents.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: VAT, tax, reconciliation, general ledger, reporting
 ms.search.form: Report_743_Primary
-ms.date: 06/25/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/25/2025
+ai-usage: ai-assisted
 ---
 
 # VAT Reconciliation Report (report)
 
-The **VAT Reconciliation Report** is used to verify that VAT entries align with general ledger (G/L) accounts before tax submission. The report compares VAT calculated from documents with the amounts posted to the G/L accounts for VAT.
+The **VAT Reconciliation Report** shows general ledger (G/L) entries and their linked posted VAT entries. It breaks down sales, purchase, and reverse-charge VAT bases and amounts to support reconciliation before tax submission. It doesn't recalculate VAT from source documents.
 
-This report is useful during tax preparation because it helps ensure that posted VAT values are accurate and consistent across systems.
+Filter by **G/L Account No.** and **Posting Date**. Choose **Show Details** for entry-level information, and use **VAT Amount Type** to include nondeductible VAT or show deductible amounts only. **Show Transactions without VAT** can include linked entries with zero VAT amounts, but G/L entries without a VAT entry link aren't included.
 
 ## Use cases
 
@@ -28,9 +28,9 @@ This report is useful during tax preparation because it helps ensure that posted
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Use before tax filing to confirm that VAT amounts calculated on documents match what was posted to the G/L.
+> * Use before tax filing to review posted VAT amounts linked to G/L entries.
 > * Reconcile VAT ledger and transaction-level entries to verify accuracy.
-> * Identify discrepancies between calculated VAT and posted amounts to prevent reporting errors.
+> * Review differences between G/L amounts and linked VAT bases or amounts.
 > * Use this report as part of your tax preparation checklist to ensure compliance and accuracy.
 
 Accountants can use the report to:

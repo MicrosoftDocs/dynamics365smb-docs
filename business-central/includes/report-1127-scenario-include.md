@@ -1,1 +1,1 @@
-Compare actual costs to budgeted values to identify variances and improve forecasting. Select the relevant period and budget version to analyze where costs exceeded or fell below expectations.
+Compare actual cost amounts across up to seven cost centers or cost objects. Use the date filter to review cost distribution for a selected period.

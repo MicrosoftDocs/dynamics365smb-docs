@@ -1,1 +1,1 @@
-Analyze the costs and incurred costs for each project resource in a period.
+Analyze the direct and total costs for each resource in a period.

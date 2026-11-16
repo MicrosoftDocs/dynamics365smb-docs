@@ -1,25 +1,25 @@
 ---
-title: Fiscal Year Balance (report)
-description: Review opening and closing balances for each general ledger account within a selected fiscal year. Use this report to support fiscal year-end closing, reconciliation, and trend analysis.
+title: Fiscal Year Balance Overview (Report)
+description: Review fiscal-year opening balances, selected-period debit and credit movements, and ending balances by general ledger account.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, fiscal year, general ledger, reconciliation
 ms.search.form: Report_36_Primary
-ms.date: 06/21/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/21/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/21/2025
+ai-usage: ai-assisted
 ---
 
 # Fiscal Year Balance (report)
 
-The **Fiscal Year Balance** report displays the opening and closing balances for each general ledger (G/L) account within a selected fiscal year. The report helps ensure that balances are correctly carried forward and supports reconciliation and financial analysis across periods.
+The **Fiscal Year Balance** report shows the fiscal-year opening balance, debit and credit movements before and within a selected period, and balances at the period end for each general ledger (G/L) account. Closing balances are separated into balance sheet and income statement columns.
 
-You can filter the report by fiscal year and account type to focus on specific segments of your financial data.
+Enter **Starting Date** and **Ending Date** for the period. The starting date must be an accounting period start. You can filter by account and global dimensions, select an **Indentation Level** and **Rounding Factor**, and turn on **Show Totals**.
 
 ## Use cases
 

@@ -1,1 +1,1 @@
-Use during preparation for an audit or when tracing G/L entries by posting dates or users to verify financial transaction integrity.
+Use the report to prepare for an audit or trace G/L entries by register number, document reference, and posting date.

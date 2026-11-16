@@ -1,25 +1,27 @@
 ---
-title: Balance Comp. - Prev. Year (report)
-description: Compare account balances side-by-side across two fiscal years and identify trends and variances. Use this report to analyze year-over-year financial performance and support strategic decision-making.
+title: Balance Comp. - Prev. Year (Report)
+description: Compare debit and credit movements and ending balances for two date ranges, with account, dimension, rounding, and indentation options.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, year-over-year, comparison, fiscal year
 ms.search.form: Report_37_Primary
-ms.date: 06/21/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/21/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/21/2025
+ai-usage: ai-assisted
 ---
 
 # Balance Comp. - Prev. Year (report)
 
-The **Balance Comp. - Prev. Year** report provides a side-by-side view of account balances across two fiscal years. The report helps identify major variances and trends in financial performance by comparing current year figures with the prior year.
+The **Balance Comp. - Prev. Year** report compares debit and credit movements and ending balances for two date ranges. Use it to identify changes between a selected period and a comparison period, such as the same period in the prior year.
 
 To focus on specific areas of interest, you can filter the report by dimension or account range.
+
+Set **Starting Date** and **Ending Date**, then check **Previous Starting Date** and **Previous Ending Date**. The comparison dates initially move back one year when you change the selected period, but you can adjust them. Each date range must stay within one fiscal year. You can also choose a rounding factor and indentation level.
 
 ## Use cases
 

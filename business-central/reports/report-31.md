@@ -1,25 +1,25 @@
 ---
-title: VAT Exceptions (report)
-description: Identifies transactions where VAT was expected but not calculated or posted. Run this to catch inconsistencies before filing VAT returns.
+title: VAT Exceptions for VAT Differences (Report)
+description: Review posted VAT entries with VAT differences above a minimum threshold, with options for reversed entries and additional reporting currency.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: VAT, tax, exceptions, reporting, finance
 ms.search.form: Report_31_Primary
-ms.date: 06/25/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/25/2025
+ai-usage: ai-assisted
 ---
 
 # VAT Exceptions (report)
 
-The **VAT Exceptions** report helps identify posted transactions where VAT was expected but not calculated or posted. The report is useful for catching inconsistencies before you submit VAT returns.
+The **VAT Exceptions** report lists existing VAT entries whose recorded **VAT Difference** meets or exceeds the **Min. VAT Difference** threshold in either direction. It helps you review VAT adjustments before filing returns. It doesn't detect transactions that have no VAT entry.
 
-Use the report to validate your VAT setup and ensure that posted documents contain all required VAT data.
+Filter by **Posting Date** to select the period. You can include reversed entries and show amounts in the additional reporting currency. In that currency, the threshold applies to the additional-currency VAT difference.
 
 ## Use cases
 
@@ -28,24 +28,23 @@ Use the report to validate your VAT setup and ensure that posted documents conta
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Run the report when reviewing posted transactions that might be missing VAT data.
-> * Use it to validate VAT setup before filing returns to avoid compliance issues.
-> * Investigate flagged entries to correct VAT configuration or data entry errors.
-> * Helps prevent future tax submission issues by highlighting configuration gaps.
+> * Run the report when reviewing recorded VAT differences.
+> * Set a nonzero threshold to focus on larger differences.
+> * Investigate document references for entries that need explanation.
 
 Accountants can use the report to:
 
-* Ensure VAT is properly applied to all relevant transactions.
-* Catch and correct missing VAT entries before filing.
+* Review VAT differences on posted VAT entries.
+* Investigate larger adjustments before filing.
 
 Controllers can use the report to:
 
-* Monitor VAT compliance across departments.
+* Review the scale of VAT adjustments in the selected posting period.
 * Support internal audits and tax reporting accuracy.
 
 Auditors might reference the report to:
 
-* Verify VAT completeness and accuracy during compliance checks.
+* Identify VAT differences that need supporting explanations during an audit.
 
 ## Try the report
 

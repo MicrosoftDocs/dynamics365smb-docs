@@ -1,25 +1,28 @@
 ---
-title: Payments on Hold (report)
-description: Get a checklist of all vendor ledger entries where the invoice is in dispute and the On Hold field isn't blank.
+title: Payments on Hold Report in Business Central
+description: Review open vendor ledger entries with an On Hold value to follow up on held payments. Learn about alternatives to this obsolete report.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_319_Primary
-ms.date: 10/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/07/2024
 ---
 
 # Payments on Hold (report)
 
-The **Payments on Hold** report shows a checklist of all vendor ledger entries where the **On Hold** field isn't blank. The report helps you maintain transparency and efficiency when you handle vendor disputes, so that your employees can effectively manage and resolve issues.
+The **Payments on Hold** report shows open vendor ledger entries where the **On Hold** field isn't blank. Closed entries aren't included. Use the report to review payments that are on hold, including entries related to vendor disputes.
 
-To learn more, go to [Handling vendor payment disputes](../payables-how-handling-payment-disputes.md).
+> [!NOTE]
+> This report is obsolete. You can instead filter the **Vendor Ledger Entries** page by **Open** and **On Hold**, as described under [Alternative reports](#alternative-reports).
+
+Learn more in [Handling vendor payment disputes](../payables-how-handling-payment-disputes.md).
 
 ## Use cases
 
@@ -52,11 +55,11 @@ Please include your data sources and URLs
 
 Procurement coordinators use the report to:
 
-* Manage vendor disputes. The report provides a checklist of all vendor ledger entries where the **On Hold** field isn't blank. Use this information to manage vendor disputes effectively and ensure timely resolution.
+* Manage vendor disputes. The report provides a checklist of open vendor ledger entries where the **On Hold** field isn't blank. Use this information to investigate entries that need follow-up.
 
 Accounts payable specialists use the report to:
 
-* Streamline invoice processing. The report provides information about vendor ledger entries that are on hold because of disputes. Use this information to streamline invoice processing and avoid delays in payments.
+* Review held payments. The report provides information about open vendor ledger entries that are on hold. An **On Hold** value doesn't identify the reason for the hold.
 
 Controllers use the report to:
 
@@ -72,13 +75,12 @@ Try the report here: [Payments on Hold](https://businesscentral.dynamics.com?rep
 
 There are multiple other options for analyzing entries on hold. 
 
-For instance, on the **Vendor ledger entries** page you can set a filter on the **On Hold** field to this value
+For instance, on the **Vendor Ledger Entries** page, set **Open** to **Yes** and set a filter on the **On Hold** field to this value:
 ``` Filter
 <>''
 ```
 
-Or, you can take the vendor ledger entries list page into analysis mode and define an analysis tab. To learn more, go to
-[Using data analysis to show vendor ledger entries on hold](../ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)
+Or, you can take the vendor ledger entries list page into analysis mode and define an analysis tab. Learn more in [Using data analysis to show vendor ledger entries on hold](../ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)
 
 ## Contributors
 

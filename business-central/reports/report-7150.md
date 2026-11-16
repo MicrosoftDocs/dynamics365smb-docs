@@ -7,19 +7,19 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7150_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Item Dimensions - Detail (report)
 
 The **Item Dimensions - Detail** report shows a breakdown of value entries based on the dimension levels you specify.
 
-You specify dimension levels by selecting an analysis view configured with dimension codes, and then picking a hierarchy of how to combine the dimension groups under one another. The report automatically includes location as a dimension.
+You specify dimension levels by selecting an analysis view configured with dimension codes, and then picking a hierarchy of how to combine the dimension groups under one another. Use **Include Dimensions** to choose the grouping levels. Location is available as a grouping dimension; it isn't always included automatically.
 
 You can base this report on analysis view entries from sales, purchases, or inventory.
 

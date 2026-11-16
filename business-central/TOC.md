@@ -1110,7 +1110,7 @@ ms.service: dynamics-365-business-central
 ### Assembly analytics
 #### [Assembly report overview](assembly-reports.md)
 #### [Assembly BOMs](reports/report-801.md)
-#### [Item - Able to Make (Time)](reports/report-5871.md)
+#### [Item - Able to Make (Timeline)](reports/report-5871.md)
 #### [BOM Cost Share Distribution](reports/report-5872.md)
 #### [Where-used list](reports/report-809.md)
 #### [BOM - Raw Materials](reports/report-810.md)
@@ -1160,7 +1160,7 @@ ms.service: dynamics-365-business-central
 #### Built-in production reports
 ##### [Production report overview](production-reports.md)
 ##### [Production Order - WIP](reports/report-5802.md) 
-##### [Item - Able to Make (Time)](reports/report-5871.md) 
+##### [Item - Able to Make (Timeline)](reports/report-5871.md)
 ##### [BOM Cost Share Distribution](reports/report-5872.md) 
 ##### [Quantity Explosion of BOM](reports/report-99000753.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)

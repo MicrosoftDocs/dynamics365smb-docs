@@ -1,25 +1,25 @@
 ---
-title: Chart of Accounts (report)
-description: Review and manage your company’s general ledger structure by listing all G/L accounts with their types, balances, and categories.
+title: Chart of Accounts Setup (Report)
+description: Review your chart of accounts setup, including account types, totaling ranges, posting groups, and consolidation translation methods.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1_Primary
-ms.date: 06/16/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/16/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/16/2025
+ai-usage: ai-assisted
 ---
 
 # Chart of Accounts (report)
 
-The **Chart of Accounts** report provides a complete list of general ledger (G/L) accounts, grouped by category, including balances and account types.
+The **Chart of Accounts** report lists general ledger (G/L) accounts in account number order. It shows account types, totaling formulas, general posting groups, direct posting settings, and consolidation translation methods. It doesn't show account balances or group accounts by account category.
 
-You can filter the report by account categories, ranges, or balances to tailor the view for structural reviews, audits, or financial planning.
+Use the **No.** and **Account Type** filters to tailor the report for account structure reviews and audits.
 
 ## Use cases
 
@@ -28,8 +28,8 @@ You can filter the report by account categories, ranges, or balances to tailor t
 Controllers and finance teams can use the report to:
 
 * Set up or review the company’s account structure and ensure alignment with reporting requirements.
-* Verify posting groups and account categories for accuracy and consistency.
-* Prepare for audits or financial reporting by reviewing account balances and classifications.
+* Verify posting groups and account types for accuracy and consistency.
+* Prepare for audits or financial reporting by reviewing account setup and classifications.
 
 Auditors can use the report to:
 

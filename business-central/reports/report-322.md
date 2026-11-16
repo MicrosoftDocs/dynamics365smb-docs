@@ -1,5 +1,5 @@
 ---
-title: Aged Accounts Payable (report)
+title: Aged Accounts Payable (Report)
 description: Analyze vendor balances at the end of each period. Use this report to monitor unpaid invoices and prioritize payments for overdue accounts.
 author: kennieNP
 ms.author: kepontop
@@ -7,21 +7,24 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_322_Primary
-ms.date: 12/16/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/07/2024
+ai-usage: ai-assisted
 ---
 
 # Aged Accounts Payable (report)
 
 The **Aged Accounts Payable** report shows the amounts on outstanding invoices, credit memos, and payments for vendors.
 
-You can configure report aging to generate three periods of equal length as of a specified date (for example, the three preceding months from the end of the current month). The vendor's outstanding balance is calculated for each period, as are balances due before or after the three periods. You can name each period based on either the actual start and end dates, or the total number of days included (for example, 1–31 days).
+> [!NOTE]
+> Report 322 is marked obsolete from version 28.0 and is replaced by **Aged Accounts Payable (Excel)**. Its caption is **Aged Accounts Payable (Obsolete)** in versions where it remains available. Learn more in [Aged Accounts Payable Excel](report-4403.md).
 
-To help you easily identify the company's current financial health, total percentages of outstanding amounts are calculated for each date range.
+Set **Aged As Of**, **Period Length**, and **Aging by** to group balances by due date, posting date, or document date. The report shows three aging periods and an older balance; due-date aging also shows amounts that aren't due yet. **Heading Type** controls whether headings show date intervals or numbers of days.
+
+The report calculates the percentage of outstanding amounts in each date range to help you review the distribution of payables.
 
 The report can show either a summed balance for each vendor or a detailed breakdown of each outstanding document.
 
@@ -69,7 +72,7 @@ Procurement specialists use the report to:
 
 Vendor managers use the report to:
 
-* Monitor vendor performance. The report provides information about outstanding balances for each vendor. Use this information to monitor vendor performance and identify any potential issues that might affect the organization's procurement processes.
+* Review outstanding vendor balances. Use aged amounts to support discussions about payment timing.
 
 Accounts payable specialists use the report to:
 
@@ -77,7 +80,7 @@ Accounts payable specialists use the report to:
 
 Controllers use the report to:
 
-* Analyze financial health. The report calculates the total percentage of outstanding amounts for each date range, making it easy to identify the company's current financial health. Use this information to analyze the company's financial position and make informed decisions.
+* Analyze the aging of payables. Compare percentages across date ranges to see where outstanding amounts are concentrated.
 
 ## Try the report
 
@@ -87,7 +90,7 @@ Try the report here: [Aged Accounts Payable](https://businesscentral.dynamics.co
 
 ## Alternative reports
 
-There are several other ways to analyze aged accounts payable. To learn more, go to:
+There are several other ways to analyze aged accounts payable. Learn more in the following articles:
 
 * [Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)
 * [Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)

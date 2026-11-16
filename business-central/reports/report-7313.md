@@ -1,18 +1,18 @@
 ---
 title: Warehouse Shipment Status (report)
-description: Get an overview of source documents that are open and have items shipped or due to ship per location.
+description: Review open warehouse shipment documents by location. Check source documents, shipment status, bins, and shipped or outstanding item quantities.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7313_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Warehouse Shipment Status (report)
@@ -68,7 +68,7 @@ Customer service representatives use the report to:
 
 Supply chain managers use the report to:
 
-* Monitor the performance of different locations and bin codes in terms of shipment accuracy and timeliness.
+* Review outstanding shipment quantities by location and bin. The report shows current shipment status, not historical measures of delivery accuracy or timeliness.
 * Identify issues with shipment accuracy or timeliness and work with the relevant teams to address them.
 * Optimize shipment processes and reduce future errors and delays.
 

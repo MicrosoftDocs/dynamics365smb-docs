@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 6, 25, 440, 443, 448, 452
-ms.date: 08/26/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -20,21 +20,21 @@ When customer payments are registered and reconciled, the collections process of
 - Send statements to inform customers about their balances, overdue balances, and the relevant transactions. For example, either open entries or all entries posted in last year/quarter/month or other period. If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder. To learn more, go to [Statements](#statements).
 - Send reminders (also known as *dunning letters* or *payment requests*) to customers to inform them of overdue balances. The reminder can include both overdue and open entries, so the customer is also aware of upcoming due dates. You can also use reminders to calculate finance charges, such as interest or fees and include them on the reminder. You can automate the processes for creating, issuing, and posting reminders. To learn more, go to [Reminders](#reminders).  
 - Send finance charge memos to claim interest fees for overdue amounts. Use finance charge memos if you want to debit customers for interest or fees without reminding them of overdue amounts. To learn more, go to [Finance Charges](#finance-charges).
-- Communicate with customers over the phone or by e-mail regarding overdue balances and manage potential misunderstandings and disputes, or simply to remind customers to balance their accounts in a more direct manner. To learn more, go to [Use Copilot for Finance in Outlook to streamline manual collections work](#use-copilot-for-finance-in-outlook-to-streamline-manual-collections-work).
+- Communicate with customers over the phone or by e-mail regarding overdue balances and manage potential misunderstandings and disputes, or simply to remind customers to balance their accounts in a more direct manner. To learn more, go to [Use Finance Agent in Outlook to streamline manual collections work](#use-finance-agent-in-outlook-to-streamline-manual-collections-work).
 
-## Use Copilot for Finance in Outlook to streamline manual collections work
+## Use Finance Agent in Outlook to streamline manual collections work
 
 > [!NOTE]
-> Copilot for Finance is currently in preview and available in the United States. It's planned to become generally available in the second half of 2024, at which point pricing information is expected to be published.
+> Finance Agent in Microsoft 365 Outlook is currently in preview.
 
-When you're communicating with customers via e-mail about outstanding balances, chances are you need to look up customer and invoice related information in [!INCLUDE [prod_short](includes/prod_short.md)]. Copilot for Finance makes this task easier by ensuring that relevant customer data is on hand in Outlook. For example, for an email you received, Copilot for Finance can find the customer through the linked contact and display aged balance information and list outstanding invoices that you can easily attach to a reply. Copilot for Finance in Outlook also lets you:
+When you're communicating with customers via e-mail about outstanding balances, chances are you need to look up customer and invoice related information in [!INCLUDE [prod_short](includes/prod_short.md)]. Finance Agent makes this task easier by ensuring that relevant customer data is on hand in Outlook. For example, for an email you received, Finance Agent can find the customer through the linked contact and display aged balance information and list outstanding invoices that you can easily attach to a reply. Finance Agent in Outlook also lets you:
 
 - Access and update the **Dispute Status** and **Promise to Pay** date on invoices
 - Update contact information
-- Draft e-mail replies with Copilot
+- Draft e-mail replies with Finance Agent
 - Attach a statement and invoices directly from Outlook.
 
-To learn more, go to [Copilot for Finance](https://www.microsoft.com/microsoft-copilot/microsoft-copilot-for-finance) and [Deployment Guide for Copilot for Finance (preview)](/copilot/finance/get-started/deployment-guide).
+To learn more, go to [Finance Agent](/copilot/finance/) and [Deployment Guide for Finance Agent](/copilot/finance/get-started/deployment-guide).
 
 ## Statements
 
@@ -97,13 +97,13 @@ In some cases, you might want to modify the beginning and ending text for the fi
 
 After you create finance charge memos and make any needed modifications, you can either print test reports or issue the finance charge memos.
 
-When you issue a reminder, the entries post according to your specifications on the **Finance Charge Terms** page. This specification determines whether interest and/or additional fees post to the customer's account and the general ledger. Settings on the **Customer Posting Groups** page determine the accounts that interest or fees post to.
+When you issue a finance charge memo, the entries post according to your specifications on the **Finance Charge Terms** page. This specification determines whether interest and/or additional fees post to the customer's account and the general ledger. Settings on the **Customer Posting Groups** page determine the accounts that interest or fees post to.
 
 For each customer ledger entry on the finance charge memo, an entry is created on the **Reminder/Fin. Charge Entries** page.
 
 If the **Post Interest** or the **Post Additional Fee** checkboxes are selected on the **Finance Charge Terms** page, the following entries are also created:
 
-- One entry on the **Cust. Ledger Entries** page
+- One entry on the **Customer Ledger Entries** page
 - One receivables entry in the relevant G/L account
 - One interest and/or one additional fee entry in the relevant G/L account
 

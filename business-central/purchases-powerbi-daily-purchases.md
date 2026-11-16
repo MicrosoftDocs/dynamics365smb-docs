@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37011_Primary
-ms.date: 11/12/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted
 ---

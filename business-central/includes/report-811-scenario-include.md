@@ -1,1 +1,1 @@
-Get an overview of the components in a sub-assembly bill of materials, for both assembly and production.
+Get an overview of subassembly items that have an assembly bill of materials and are components in another assembly BOM.

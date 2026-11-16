@@ -1,23 +1,23 @@
 ---
-title: Warehouse Bin List (report)
-description: Get an overview of warehouse bins, their setup, and the quantity of items in them. 
+title: Warehouse Bin List Report in Business Central
+description: Review warehouse bins and their setup by location. Select Show Bin Contents to include item quantities, variants, and units of measure in the report.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7319_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Warehouse Bin List (report)
 
-The **Warehouse Bin List** report shows an overview of warehouse bins, their setup, and the quantity of items in them.
+The **Warehouse Bin List** report shows warehouse bins and their setup. Select **Show Bin Contents** to also include the items and quantities in each bin.
 
 This report covers all locations for which bins are mandatory.
 

@@ -1,1 +1,1 @@
-Calculate and post VAT that's payable or refundable at the end of a filing period by generating a journal based on posted entries. This report helps streamline tax settlement and compliance work.
+Calculate VAT payable or refundable from open VAT entries at the end of a filing period. Review a test report with **Post** turned off. Turn on **Post** to transfer the amount to the settlement account and close the settled VAT entries.

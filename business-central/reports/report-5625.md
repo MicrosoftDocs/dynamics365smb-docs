@@ -1,23 +1,27 @@
 ---
 title: Insurance - Tot. Value Insured (report)
-description: Ensure that your fixed assets are adequately insured by reviewing the total coverage amount for all insured assets.
+description: Review recorded insured amounts by fixed asset and insurance policy, using the insurance depreciation book and excluding inactive or disposed assets.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5625_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Insurance - Tot. Value Insured (report)
 
 The **Insurance - Tot. Value Insured** report shows which insurance policies cover each asset and by which amount.
+
+The report requires **Insurance Depr. Book** in **Fixed Asset Setup**. It excludes inactive and disposed assets and sums insurance coverage ledger entries that aren't marked **Disposed FA**. Assets without the required depreciation book and policies with a zero net amount aren't shown.
+
+These amounts are recorded insured values, not policy coverage limits. The report doesn't determine whether insurance is adequate.
 
 ## Use cases
 

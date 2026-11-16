@@ -1,1 +1,1 @@
-Validate whether value entries such as inventory or cost postings are correctly posted to the general ledger. Helps ensure posting integrity and supports accurate financial reporting.
+Find conflicts between default dimension value posting rules before posting documents. Review conflicting mandatory, same-code, and no-code requirements during setup or when troubleshooting dimension-related posting errors.

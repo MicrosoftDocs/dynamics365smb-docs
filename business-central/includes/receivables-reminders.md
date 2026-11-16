@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 03/12/2024
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -11,7 +11,7 @@ You can use reminders to remind customers about overdue amounts. You can also us
 > [!TIP]
 > The information in this article is accurate, however, it describes a mostly manual process. [!INCLUDE [prod_short](prod_short.md)] offers tools that you can use to automate the processes of creating, issuing, and sending reminders. Automating these steps can save you a considerable amount of time spent on collections. To learn more, go to [Automate reminders in collections](../finance-automate-reminders.md).
 
-Before you can create reminders, you must set up reminder terms and assign them to your customers. For more information, see [Set Up Reminder Terms and Levels](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] The contents of the **Finance Charge Terms** page determines whether interest is calculated on the reminder.  
+Before you can create reminders, you must set up reminder terms and assign them to your customers. For more information, see [Set Up Reminder Terms and Levels](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] The **Calculate Interest** field on the **Reminder Levels** page determines whether interest is calculated on the reminder.  
 
 You can periodically run the **Create Reminders** batch job to create reminders for all customers with overdue balances, or you can manually create a reminder for a specific customer and have the lines calculated and filled in automatically.  
 
@@ -26,7 +26,7 @@ After you have created reminders and made any needed modifications, you can eith
 A reminder is similar to an invoice. When you create a reminder, a reminder header as well as one or more reminder lines must be filled in. You can use a function to create reminders for all customers automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 0.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
-2. On the **Reminder** page, choose the **Create Reminders** action.
+2. On the **Reminders** page, choose the **Create Reminders** action.
 3. On the **Create Reminders** page, fill in the fields to define how and to whom the reminders are created.
 4. Choose the **OK** button.
 
@@ -64,7 +64,7 @@ When you issue a reminder, the data is transferred to a separate page for issued
 
 When a reminder is issued, the entries are posted according to your specifications on the **Reminder Terms** page. This specification determines whether interest and/or additional fees are posted to the customer's account and the general ledger. Setup on the **Customer Posting Groups** page determines which accounts are posted to.
 
-For each customer ledger entry on the finance charge memo, an entry is created on the **Reminder/Fin. Charge Entries** page.
+For each customer ledger entry on the reminder, an entry is created on the **Reminder/Fin. Charge Entries** page.
 
 If the **Post Interest** or the **Post Additional Fee** check boxes are selected on the **Reminder Terms** page, then the following entries are also created:
 

@@ -1,25 +1,27 @@
 ---
 title: Project Actual to Budget (report)
-description: Get an overview of actual vs. budgeted amounts for selected projects. 
+description: Compare budget planning lines with posted project usage by task, including quantity, cost, and line amount differences in local or foreign currency.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1009_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Project Actual to Budget (report)
 
-The **Project Actual to Budget** report shows scheduled and used amounts for selected projects. The lines of the selected projects show quantity, total cost, and line amount.
+The **Project Actual to Budget** report compares budget planning lines with posted usage for selected projects and posting tasks. It shows quantity, total cost, and line amount, with differences calculated as budget minus actual.
 
 You can choose whether the currency displays in local currency or foreign currency.
+
+Use **Planning Date Filter** for budget lines and **Posting Date Filter** for usage ledger entries. The comparison groups resources, items, and G/L accounts by number, unit of measure, and work type.
 
 This report is intended for completed projects, although you can use it at any time during a project.
 

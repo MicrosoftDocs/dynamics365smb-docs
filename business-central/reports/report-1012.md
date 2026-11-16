@@ -1,25 +1,27 @@
 ---
-title: Projects per Customer (report)
-description: Get an overview list of all projects, with focus on scheduled price, percentage of completion, and invoiced amounts for each customer.
+title: Projects per Customer (Report)
+description: Get an overview list of all projects, with a focus on budget price, percentage of completion, and invoiced amounts for each customer.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1012_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Projects per Customer (report)
 
 The **Projects per Customer** report shows a list of all projects, grouped by customer.
 
-Use the report to compare the scheduled price, the percentage of completion, the invoiced price, and the percentage of invoiced amounts for each **Bill-to Customer**.
+Use the report to compare budget, usage, billable, and invoiced prices for each **Bill-to Customer**. The completion percentage is usage price divided by budget price. The invoiced percentage is invoiced price divided by billable price. These percentages compare financial amounts, not physical progress or hours.
+
+Amounts are in local currency. **Planning Date Filter** limits budget and billable planning lines. **Posting Date Filter** limits usage and invoiced ledger entries.
 
 The report subtotals amounts for each customer. At the end of the report, all amounts are totaled.
 

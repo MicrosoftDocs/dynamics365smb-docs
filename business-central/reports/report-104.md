@@ -1,18 +1,18 @@
 ---
-title: Customer - Detail Trial Balance (report)
-description: Check whether all entries for a specific customer are accounted for, or for other internal checks on customer ledgers.
+title: Customer - Detail Trial Balance (Report)
+description: Review customer opening balances, ledger entries, remaining amounts, due dates, and running balances for reconciliation and account inquiries.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_104_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Customer - Detail Trial Balance (report)
@@ -20,6 +20,8 @@ ai.usage: ai-assisted
 The **Customer - Detail Trial Balance** report shows customer ledger entries filtered by a date you specify.
 
 Businesses often use this report to check whether all entries for a specific customer are accounted for, or for other internal checks on customer ledgers.
+
+The report includes an opening balance, document references, amounts, remaining amounts, due dates, and a running balance in local currency. Use **Show Amounts in LCY** to show entry amounts in local currency instead of the entry currency. You can start a new page per customer or exclude customers that have only an opening balance and no entries in the period.
 
 ## Use cases
 
@@ -57,13 +59,13 @@ Accountants use the report to:
 
 Financial analysts use the report to:
 
-* Analyze customer transactions over a specific date range to identify trends and patterns in customer behavior, such as preferred payment methods or order frequency.
+* Analyze customer transactions over a specific date range to identify trends and patterns in customer behavior.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Get data to prepare financial reports for stakeholders such as investors or executives.
 
 Customer service representatives use the report to:
 
-* Access customer transaction information, such as payment history or order details, to provide efficient and effective customer support.
+* Access customer transaction information, such as payment history or document references, to provide efficient and effective customer support.
 * Identify discrepancies or errors in customer transactions and follow up with the accounting or finance team to resolve them.
 * Get data to prepare customer account summaries or sales reports for internal or external stakeholders.
 

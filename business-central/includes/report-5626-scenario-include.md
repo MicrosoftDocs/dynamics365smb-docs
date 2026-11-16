@@ -1,1 +1,1 @@
-Check whether you forgot to assign a fixed asset to an insurance policy.
+Check whether you forgot to record insurance coverage for a fixed asset.

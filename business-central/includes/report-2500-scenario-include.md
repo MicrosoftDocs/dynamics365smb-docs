@@ -1,1 +1,1 @@
-Review all posted VAT transactions grouped by document date in a register-style format. The report can help you with tax audits, reconciliations, and historical analysis across sales and purchase documents.
+Review posted VAT entries by VAT reporting date and posting type. Use a date range of no more than one year to support tax reviews and reconciliations.

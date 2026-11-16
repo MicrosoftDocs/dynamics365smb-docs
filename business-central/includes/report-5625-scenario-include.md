@@ -1,1 +1,1 @@
-Ensure that your fixed assets are adequately insured by reviewing the total coverage amount for all insured assets.
+Review the total insured amount recorded for each asset and policy when checking whether your fixed assets are adequately insured.

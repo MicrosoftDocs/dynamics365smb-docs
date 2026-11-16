@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8059,
-ms.date: 02/06/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -45,7 +45,7 @@ When you ship an item on an order, a subscription is automatically created if **
 > [!NOTE]
 > In sales orders, the behavior of subscription items differs from *normal* items in [!INCLUDE [prod_short](../../includes/prod_short.md)]. During an audit, the differences should be noted and explained to the auditor.
 
-If subscription items were shipped in a sales order, they automatically display as invoiced. The **Invoiced Quantity** field lookup won't find a posted sales invoice. To avoid invoices with amount equals to 0 and to be able to delete the sales order, a sales invoice isn't created when you ship subscription items.
+If subscription items were shipped in a sales order, they automatically display as invoiced. The **Quantity Invoiced** field lookup won't find a posted sales invoice. To avoid invoices with amount equals to 0 and to be able to delete the sales order, a sales invoice isn't created when you ship subscription items.
 
 Subscription line items also display as invoiced in posted sales shipments, although there isn't a corresponding posted sales invoice and both the item and value ledger entry show the **Quantity invoiced** as 0.
 
@@ -66,12 +66,12 @@ The **Cancellation Period** fields calculate based on the **Subscription Line St
 
 * **Subscription Line Start Date** + **Initial Term** - **Notice Period**.
 
-The **Term until** field indicates the next potential end date of a subscription line upon regular termination. Its calculation is **Subscription Line Start Date** + **Notice Period**. If you use an **Initial Term**, it corresponds to **Service Start Date** + **Initial Term**.
+The **Term until** field indicates the next potential end date of a subscription line upon regular termination. Its calculation is **Subscription Line Start Date** + **Notice Period**. If you use an **Initial Term**, it corresponds to **Subscription Line Start Date** + **Initial Term**.
 
 > [!IMPORTANT]
 > The subscription line isn't automatically ended when the **Term until** date is reached.
 
-If there's an agreed end date for a subscription line, specify an **Initial Term** date and leave the **Subsequent Term** empty. This way, upon delivery, the **Subscription Line End Date** is automatically determined based on the **Subscription Line Start Date**.
+If there's an agreed end date for a subscription line, specify an **Initial Term** and leave the **Subsequent Term** empty. This way, upon delivery, the **Subscription Line End Date** is automatically determined based on the **Subscription Line Start Date**.
 
 To learn more about subscriptions and subscription lines, go to [Managing contracts, subscriptions, and subscription lines](../working-with-contracts/contracts-services-mgmt.md).
 

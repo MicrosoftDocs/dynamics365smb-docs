@@ -1,18 +1,18 @@
 ---
 title: Purchase Reservation Availability (report)
-description: View the availability of items for shipment on purchase documents, such as return orders. 
+description: Review reserved item availability on purchase documents. Choose document or line details and optionally update quantities on purchase order lines.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_409_Primary
-ms.date: 10/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/07/2024
 ---
 
 # Purchase Reservation Availability (report)
@@ -21,7 +21,7 @@ The **Purchase Reservation Availability** report shows the availability of items
 
 You determine whether the report indicates the status of each document or each purchase line.
 
-When you run the report, you can also update the quantity available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field indicates the quantity to ship. You can then use the report to determine which documents to ship.
+Select **Modify Qty. to Receive in Order Lines** if you want the report to update **Qty. to Receive** on purchase order lines with the quantity available for shipment. The update applies only to purchase orders and only when you select this option. On negative purchase order lines, **Qty. to Receive** indicates the quantity to ship. You can then use the report to determine which documents to ship.
 
 > [!NOTE]
 > This report isn't available for advanced warehouse functionality.

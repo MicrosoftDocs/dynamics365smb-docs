@@ -1,23 +1,25 @@
 ---
-title: Project per Item (report)
-description: Get an overview of the items you use in your projects. 
+title: Project Usage per Item (report)
+description: Find the projects that consumed each item, with posted usage quantities, costs, and line amounts grouped by project and unit of measure.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1014_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Project per Item (report)
 
-The **Project per Item** report shows overview about the items you use in your various projects. The report shows the items and an accumulated cost value. Depending on your reporting needs, you can set more filters.
+The **Project per Item** report lists the projects that consumed each selected item. It summarizes posted project usage entries by project and unit of measure, with quantities, costs, and line amounts in local currency.
+
+Filter the projects by project number or bill-to customer. Use **Posting Date Filter** to limit usage entries. Unlike **Items per Project**, this report starts with each item and then lists its projects. It doesn't show planned consumption.
 
 ## Use cases
 

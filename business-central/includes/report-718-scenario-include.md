@@ -1,1 +1,1 @@
-Get an overview of sales orders that you can't fulfill because items are out of stock.
+Find sales order lines with an outstanding quantity and a shipment date before the work date so you can follow up on overdue shipments.

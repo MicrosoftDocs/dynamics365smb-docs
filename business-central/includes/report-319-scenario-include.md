@@ -1,1 +1,1 @@
-Get a checklist of all vendor ledger entries where the invoice is in dispute and the **On Hold** field isn't blank.
+Get a checklist of open vendor ledger entries where the **On Hold** field isn't blank.

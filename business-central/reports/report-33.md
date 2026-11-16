@@ -1,18 +1,18 @@
 ---
-title: Reconcile Cust. and Vend. Accs. (report)
-description: Understand the transactions for control general ledger accounts, and find discrepancies between your general ledger and customer and vendor ledgers.
+title: Reconcile Cust. and Vend. Accs. (Report)
+description: Understand the transactions for general ledger control accounts, and find discrepancies between your general ledger and customer and vendor ledgers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_33_Primary
-ms.date: 06/18/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/18/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/18/2025
+ai-usage: ai-assisted
 ---
 
 # Reconcile Cust. and Vend. Accs. (report)
@@ -21,9 +21,9 @@ The **Reconcile Cust. and Vend. Accs.** report lists all general ledger (G/L) ac
 
 Total net change is calculated for the general ledger and customer and vendor ledgers for a given period. Differences between the two are highlighted.
 
-Customer and vendor ledger entries are separated by posting group and type to make it easy to find errors correct them.
+Customer and vendor ledger amounts are separated by posting group and type to make it easy to find errors and correct them.
 
-Realized gains and losses in foreign currency exchanges are totaled in the general ledger and compared to the gains and losses posted to the customer and vendor ledgers by currency.
+Realized and unrealized foreign exchange gains and losses are totaled in the general ledger and compared to the gains and losses posted to the customer and vendor ledgers by currency. Use **Date Filter** to select the period.
 
 ## Use cases
 
@@ -68,13 +68,13 @@ Accounts payable professionals can use the report to:
 
 * Reconcile vendor accounts and ensure that all vendor transactions are correct in the general ledger.
 * Identify discrepancies or errors in vendor transactions and investigate.
-* Use the report data to prepare vendor account statements.
+* Investigate differences in payables, discounts, tolerances, and rounding accounts.
 
 Accounts receivable professionals can use the report to:
 
 * Reconcile customer accounts to ensure that all customer transactions are correct in the general ledger.
 * Identify discrepancies or errors in customer transactions and investigate.
-* Use the data from the report to prepare customer account statements.
+* Investigate differences in receivables, discounts, tolerances, and rounding accounts.
 
 Financial accountants can use the report to:
 

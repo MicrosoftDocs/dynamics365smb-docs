@@ -1,23 +1,25 @@
 ---
-title: Project WIP to G/L (report)
-description: Get an overview of the status of ongoing projects in your company's financial statements.
+title: Project WIP to G/L Reconciliation (report)
+description: Reconcile project WIP G/L entries with general ledger amounts by account and project posting group, using the selected projects and posting date filter.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1010_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Project WIP to G/L (report)
 
 The **Project WIP to G/L** report shows the value of work in process (WIP) on the projects that you select compared to the amount that is posted in the general ledger (G/L).
+
+The project amounts come from **Project WIP G/L Entry** records that aren't reversed or marked **Project Complete**, not from unposted planning lines or a new WIP calculation. **Posting Date Filter** applies to both the WIP G/L entries and the G/L entries. The report groups the WIP amounts by G/L account and project posting group for comparison.
 
 ## Use cases
 

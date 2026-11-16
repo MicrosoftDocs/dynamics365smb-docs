@@ -1,18 +1,18 @@
 ---
-title: Fixed Asset Register (report)
-description: Get a detailed and organized overview of all your fixed asset transactions.
+title: Fixed Asset Register Entries (report)
+description: Review posted fixed asset ledger entries by register number, including documents, depreciation books, posting types, amounts, and G/L entry references.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5603_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Register (report)
@@ -28,7 +28,7 @@ You can explore information about all transactions posted for fixed assets, such
 * FA posting category and type
 * Amount, posting date, and entry number
 
-On the request page, you can set a filter for the relevant fixed asset. If you don't set filters, the report shows the register for all fixed assets.
+On the request page, filter **No.** to select the fixed asset register numbers. Each register includes the ledger entries between its **From Entry No.** and **To Entry No.** values. Without a filter, the report includes all registers.
 
 You can set up the report to become part of the posting process; that is, it can print when you post. To print the register when you post a journal, select the **Post and Print** action on the journal. You can use the report to document posted entries or for auditing.
 

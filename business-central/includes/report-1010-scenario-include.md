@@ -1,1 +1,1 @@
-Get an overview of the status of ongoing projects in your company's financial statements.
+Get an overview of posted work in process (WIP) for ongoing projects in your company's financial statements.

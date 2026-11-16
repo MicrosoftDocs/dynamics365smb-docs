@@ -1,25 +1,25 @@
 ---
-title: VAT Register (report)
-description: Use this report to review individual VAT entries before filing, or when investigating discrepancies in tax calculations. Displays all VAT entries from posted sales, purchases, and journals. Use filters such as posting date, VAT business posting group, or document number to drill into specific transactions.
+title: VAT Register for Posted Entries (Report)
+description: Review VAT entries associated with selected G/L registers, including VAT reporting dates, posting groups, bases, and tax amounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: tax, VAT, reporting, finance
 ms.search.form: Report_13_Primary
-ms.date: 06/25/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/25/2025
+ai-usage: ai-assisted
 ---
 
 # VAT Register (report)
 
-The **VAT Register** report lists all posted VAT transactions from sales, purchases, and journals to provide detailed visibility into how VAT is applied across the system.
+The **VAT Register** report lists posted VAT entries grouped by G/L register. It shows VAT reporting dates, document references, general posting groups, bases, VAT amounts, and whether entries are closed.
 
-You can apply filters such as posting date, VAT business posting group, or document number to review specific transactions and validate them.
+Use the G/L register **No.** filter to select posting batches. Turn on **Show Amounts in Add. Reporting Currency** to show bases and amounts in the additional reporting currency instead of local currency.
 
 ## Use cases
 
@@ -29,7 +29,7 @@ You can apply filters such as posting date, VAT business posting group, or docum
 > Here are some tips on how to use the report:
 >
 > - Review your VAT entries before you submit VAT returns.
-> - Use filters to isolate specific VAT entries by date, business posting group, or document number.
+> - Select the register numbers for the posting batches you want to review.
 > - Verify entry-level VAT details so you're ready for an audit.
 > - Ensure proper tax tracking and compliance with local regulations.
 

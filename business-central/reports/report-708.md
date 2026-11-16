@@ -1,25 +1,25 @@
 ---
 title: Inventory Order Details (report)
-description: Analyze outstanding sales orders to understand your expected sales volume for items. To highlight any overdue back orders, compare your overall outstanding shipments with the planned shipment date.
+description: Review outstanding sales order quantities, shipment dates, discounts, and amounts by item. Identify back orders relative to the work date.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_708_Primary
-ms.date: 10/03/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/07/2024
 ---
 
 # Inventory Order Details (report)
 
 The **Inventory Order Details** report shows each sales order and the line-level breakdown for each item (such as the order number, customer's name, shipment date, order quantity, delayed quantity, outstanding quantity, and unit price). The information includes unfulfilled shipments, applied line and invoice discounts, and the total amount on order.
 
-Lines with a shipment date in the past are included in the quantity on back order.
+Lines with a **Shipment Date** before the work date are included in the quantity on back order.
 
 ## Available layouts
 
@@ -70,7 +70,7 @@ Sales representatives use the report to:
 Sales managers use the report to:
 
 * Understand expected sales volumes for items by analyzing outstanding sales orders.
-* Highlight overdue back orders by comparing overall outstanding shipments with the planned shipment date.
+* Highlight overdue back orders by comparing the **Shipment Date** with the work date.
 * Address customer complaints proactively by identifying shipments that are delayed or at risk of being delayed.
 
 Logistics coordinators use the report to:

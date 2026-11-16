@@ -1,25 +1,25 @@
 ---
-title: G/L Consolidation Eliminations (report)
-description: Identifies and removes internal transactions between entities to prevent duplication in consolidated financial statements.
+title: G/L Consolidation Eliminations (Report)
+description: Preview prepared consolidation elimination journal lines alongside consolidated balances before posting the elimination journal.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, consolidation, intercompany
 ms.search.form: Report_16_Primary
-ms.date: 06/18/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/18/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/18/2025
+ai-usage: ai-assisted
 ---
 
 # G/L Consolidation Eliminations (report)
 
-The **G/L Consolidation Eliminations** report is used during intercompany (IC) financial consolidation to remove duplicate revenue and expense balances. It ensures consolidated financial statements are free of double counting by eliminating internal entries, which is essential for compliant reporting.
+The **G/L Consolidation Eliminations** report previews the effect of elimination entries during financial consolidation. It shows consolidated amounts, amounts for a selected business unit or posted eliminations, and unposted elimination lines from a general journal batch. It doesn't create or post elimination entries.
 
-Run this report after you post all intercompany (IC) transactions to ensure accuracy.
+Run the report after you consolidate business unit data and prepare elimination entries in a general journal. Enter the consolidation period, journal template, and journal batch. Choose **Net Change** or **Balance** in **Show**.
 
 ## Use cases
 
@@ -28,13 +28,13 @@ Run this report after you post all intercompany (IC) transactions to ensure accu
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Always run this report after all IC transactions are posted.
+> * Run the report before you post the elimination journal to review its effect.
 > * Review the output to ensure all expected eliminations are captured.
 > * Use with your consolidation schedule to maintain accuracy.
 
 Controllers and financial analysts can use the report to:
 
-* Eliminate internal transactions between entities during financial consolidation.
+* Review proposed eliminations of internal transactions between entities during financial consolidation.
 * Ensure group-level financial statements reflect only external transactions.
 * Maintain compliance with financial reporting standards by avoiding duplication.
 

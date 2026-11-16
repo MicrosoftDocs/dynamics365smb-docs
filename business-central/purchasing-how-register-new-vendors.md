@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: how-to
 ms.search.keywords: supplier, register vendor, vendor card, vendor template, create vendor, add vendor, new vendor, self-billing, self-billed invoice, vendor number series
 ms.search.form: Primary_26, 27, 34, 456, 457, 460, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 08/26/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

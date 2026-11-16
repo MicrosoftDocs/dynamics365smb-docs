@@ -1,23 +1,25 @@
 ---
 title: Project Planning Lines (report)
-description: Get an overview of planning and project tasks for a project.
+description: Review project planning lines by task, with budget and billable totals, quantities, costs, discounts, and amounts in local or foreign currency.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1006_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Project Planning Lines (report)
 
-The **Project Planning Lines** report shows the planning lines by project task for one or more projects. The report includes information such as the line type, quantities, unit of measure, total costs, and so on.
+The **Project Planning Lines** report shows the planning lines by project task for one or more projects. It includes the line type, quantities, unit of measure, total costs, line discounts, and line amounts, with separate totals for budget and billable lines.
+
+Use **Planning Date Filter** to limit the planning lines. The report shows planning data, not posted project ledger entries.
 
 You can choose whether the amounts display in local or foreign currency.
 

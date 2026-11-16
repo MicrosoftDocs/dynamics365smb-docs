@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: sales tax, local
-ms.date: 10/08/2026
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

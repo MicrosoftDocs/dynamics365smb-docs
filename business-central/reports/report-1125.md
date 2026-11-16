@@ -1,5 +1,5 @@
 ---
-title: Cost Types Details (report)
+title: Cost Types Details Report for Cost Entries
 description: Displays cost breakdowns by cost type, such as labor, materials, and overhead. Customize filters by period or cost center.
 author: kennieNP
 ms.author: kepontop
@@ -7,19 +7,19 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: cost types, cost breakdown, cost analysis, labor, materials, overhead
 ms.search.form: Report_1125_Primary
-ms.date: 06/23/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/23/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/23/2025
+ai-usage: ai-assisted
 ---
 
 # Cost Types Details (report)
 
-The **Cost Types Details** report provides a categorized view of all cost types to support detailed cost tracking and analysis. The report shows how each cost type, such as labor, materials, and overhead, contributes to total costs.
+The **Cost Types Details** report lists posted cost entries for each cost type. It shows the opening balance, posting dates, document numbers, descriptions, debit and credit amounts, cost centers, cost objects, and a running balance.
 
-You can filter the results by period or cost center to tailor the report to your analysis needs.
+You can filter by cost type, date, cost center, or cost object. Options let you include closing entries, include cost types that have an opening balance but no activity, start a new page per cost type, or show amounts in the additional reporting currency.
 
 ## Use cases
 

@@ -1,25 +1,29 @@
 ---
-title: G/L - VAT Reconciliation (report)
-description: Reconciles VAT amounts from the general ledger with VAT entries to ensure accurate tax filings. Use during VAT periods to validate that posted VAT entries match G/L amounts. Apply posting date and VAT period filters for precision.
+title: G/L - VAT Reconciliation (Report)
+description: Compare VAT statement account totals with VAT entries by G/L account, using posting dates for G/L entries and VAT reporting dates for VAT.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: VAT reconciliation, tax reconciliation, G/L, audit, filing
 ms.search.form: Report_11_Primary
-ms.date: 06/25/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/25/2025
+ai-usage: ai-assisted
 ---
 
 # G/L - VAT Reconciliation (report)
 
-The **G/L - VAT Reconciliation** report compares VAT postings in the general ledger to the underlying VAT entries. The report helps ensure you have transaction-level entries that support your reported VAT amounts.
+The **G/L - VAT Reconciliation** report uses VAT statement lines to show amounts and VAT by G/L account. It includes **Account Totaling** and **VAT Entry Totaling** lines to help you compare general ledger amounts with VAT entries. It doesn't list individual transactions.
 
 Use this report during VAT filing periods to validate that posted VAT entries match the VAT amounts in your general ledger. This report is important for accurate tax filings and audit readiness.
+
+Select the VAT statement name and enter **Starting Date** and **Ending Date**. G/L account totals use posting dates, while VAT entry totals use VAT reporting dates. Choose whether to include open, closed, or both states of VAT entries, and whether to include entries before the period. Reversed VAT entries are excluded.
+
+VAT entries must have a G/L account number for reconciliation. If the report can't determine the account for an entry, exclude the affected entry or ask your partner to help fix the data.
 
 ## Use cases
 
@@ -29,7 +33,7 @@ Use this report during VAT filing periods to validate that posted VAT entries ma
 > Here are some tips on how to use the report:
 >
 > * Catch discrepancies early by using the report during VAT filing periods.
-> * Apply filters to narrow the scope to specific VAT periods or posting dates.
+> * Check for differences between posting dates and VAT reporting dates when you compare amounts.
 > * Ensure all VAT entries are properly posted and reconciled with the G/L.
 > * Confirm VAT accuracy by using the report as part of your audit preparation checklist.
 
@@ -46,7 +50,7 @@ Controllers can use the report to:
 Auditors might reference the report to:
 
 * Confirm the completeness and accuracy of VAT filings.
-* Trace VAT amounts from the G/L to source entries.
+* Identify account totals that need further investigation in the ledger entries.
 
 ## Try the report
 

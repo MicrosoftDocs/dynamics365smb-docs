@@ -1,18 +1,18 @@
 ---
 title: Trial Balance/Previous Year (report)
-description: View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance compared to the same period in the previous year.
+description: Compare general ledger net changes and balances with the same period last year. Use the Trial Balance/Previous Year report to review financial performance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Trial Balance/Previous Year (report)

@@ -1,25 +1,26 @@
 ---
-title: Inventory Cost and price list (report)
-description: Analyze and manage your inventory costs and pricing strategies. 
+title: Inventory Cost and Price List (report)
+description: Compare average cost, standard cost, last direct cost, and item prices. Use the Inventory Cost and Price List report for items or stockkeeping units.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_716_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Inventory Cost and price list (report)
 
 The **Inventory Cost and price list** report shows price information for selected items or stock-keeping units: 
 
-* Direct unit cost
+* Average cost
+* Standard cost
 * Last direct cost
 * Unit price
 * Profit percentage
@@ -56,13 +57,13 @@ Please include your data sources and URLs
 
 Inventory managers use the report to:
 
-* Monitor the direct unit cost and last direct cost of items and ensure they're stored and managed efficiently.
+* Review average cost, standard cost, and last direct cost to support inventory cost analysis.
 * Analyze the profit percentage and profit of items and determine their profitability.
 * Determine whether to implement pricing strategies and increase profit margins.
 
 Purchasing managers use the report to:
 
-* Review the direct unit cost and last direct cost of items and ensure they're paying reasonable prices.
+* Review average cost, standard cost, and last direct cost when assessing purchase prices.
 * Analyze the profit percentage and profit of items and determine their profitability.
 * Determine whether to implement pricing strategies and increase profit margins.
 
@@ -74,7 +75,7 @@ Sales managers use the report to:
 
 Financial analysts use the report to:
 
-* Analyze the direct unit cost and last direct cost of items and determine the cost of goods sold.
+* Compare current item costs and prices. The report doesn't calculate cost of goods sold for a period.
 * Determine the profit percentage and profit of specific items and understand their profitability.
 * Identify trends and patterns in the cost and pricing information of specific items.
 

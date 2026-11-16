@@ -1,27 +1,27 @@
 ---
 title: Fixed Asset Book Value 02 (report)
-description: View the movement in valuation of assets over a period time with a breakdown of values under additions and disposals during the period.
+description: View the movement in valuation of assets over a period of time with a breakdown of values under additions and disposals during the period.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5606_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Book Value 02 (report)
 
 The **Fixed Asset Book Value 02** report shows the breakdown of fixed asset book value by changes in acquisition, depreciation, and appreciation within the period, with a further breakdown by additions and disposals within the period.
 
-To include information about Write-downs, Appreciation, Custom 1, and Custom 2 posting types in the report, select either the **Acquisition Type** or the **Depreciation Type* fields on the **FA Posting Type Setup** page.
+The report shows separate rows for acquisition cost, depreciation, write-downs, appreciation, and custom posting types when they have nonzero amounts. Unlike **Fixed Asset Book Value 01**, these rows don't depend on assigning the posting types to acquisition or depreciation in **FA Posting Type Setup**.
 
-You can include reclassified entries in the report. The report then shows the reclassification entries in a separate column.
+Select **Include Reclassification** to show acquisition cost and depreciation reclassifications in separate columns.
 
 If you select the **Budget Report** field, the report calculates the expected depreciation for the period.
 
@@ -30,7 +30,7 @@ Enter a group type if you want to group the fixed assets and show group totals. 
 Use this report to describe the changes in fixed assets for a given period when there are many changes across groups of fixed assets.
 
 
-## Fixed Asset Book Value reports
+## Fixed asset book value reports
 
 [!INCLUDE[report-5605-5606-difference](../includes/report-5605-5606-difference.md)]
 

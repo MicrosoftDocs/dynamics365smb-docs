@@ -8,7 +8,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 10/03/2025
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ---
 

@@ -1,1 +1,1 @@
-Reconcile VAT amounts in the general ledger with posted VAT entries. The report helps ensure accuracy when you file taxes. Use filters such as posting date and VAT period to validate that reported VAT aligns with transaction-level data. The alignment helps you be compliant and ready for audits.
+Compare general ledger amounts with VAT entry totals by G/L account, based on your VAT statement setup. G/L totals use posting dates, while VAT entry totals use VAT reporting dates. Investigate differences before you file VAT.

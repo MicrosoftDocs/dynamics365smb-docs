@@ -1,1 +1,1 @@
-Analyze outstanding sales orders to understand expected sales volumes for items. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates.
+Analyze outstanding sales orders to understand expected sales volumes for items. Identify overdue back orders from shipment dates before the work date.

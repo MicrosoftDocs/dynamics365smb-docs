@@ -1,1 +1,1 @@
-Review customers with the most transactions in a selected period directly in Excel. Identify sales trends and manage debt collections.
+Review customers with the highest sales amounts or balances directly in Excel. Identify sales trends and manage debt collections.

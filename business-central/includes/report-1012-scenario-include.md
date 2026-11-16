@@ -1,1 +1,1 @@
-Get an overview of all projects, with focus on scheduled price, percentage of completion, and invoiced amounts for each customer.
+Get an overview of all projects, with a focus on budget price, financial percentage of completion, and invoiced amounts for each customer.

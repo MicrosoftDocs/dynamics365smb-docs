@@ -1,18 +1,18 @@
 ---
 title: Fixed Asset Analysis (Excel report)
-description: Get an overview of your fixed asset, including book value, depreciation, and acquisitions for a given time period.
+description: Analyze fixed asset acquisitions, depreciation, and book values in Excel for a selected depreciation book and period, including projected depreciation.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4412_Primary
-ms.date: 12/26/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 12/26/2024
-ai.usage: ai-assisted
+ai-seo-date: 12/26/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Analysis Excel (report)
@@ -23,10 +23,11 @@ The **Fixed Asset Analysis Excel** report shows fixed asset details in given tim
 - Depreciation
 - Acquisitions
 
-You can specify the starting and ending dates for the report, whether to include only sold assets, or whether to include inactive fixed assets.
+Specify a depreciation book and valid starting and ending dates. You can include inactive fixed assets or select **Only Sold Assets** to include assets disposed of within the selected period. Select **Budget Report** to include calculated future depreciation and book value.
 
-The report Excel workbook contains three worksheets that you can use to analyze your fixed assets data:
+The report Excel workbook includes the following report and data worksheets:
 
+- Fixed Asset Analysis (Print)
 - Fixed Asset Analysis
 - Book Value
 - FixedAssetData
@@ -37,17 +38,17 @@ The report Excel workbook contains three worksheets that you can use to analyze 
 
 [!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
-## Fixed Asset Analysis worksheet
+## Fixed asset analysis worksheet
 
 This worksheet shows details about your fixed assets, such as fixed assets class, sub class, description, acquisition date, and disposal date. It also shows their value at the starting date and ending date of the specified period.
 
-The filters and slicers on the worksheet let you zoom in on a fixed asset's class, subclass, or location. You can also filter by department code or project code, if needed.
+The filters and slicers on the worksheet let you zoom in on a fixed asset's class, subclass, or location. You can also filter by the two global dimensions. The dimension names depend on your company's setup.
 
 :::image type="content" source="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png" alt-text="Screenshot of the Fixed Asset Analysis worksheet" lightbox="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png":::
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## Book Value worksheet
+## Book value worksheet
 
 This worksheet shows fixed asset details in the given time periods, such as:
 
@@ -55,13 +56,13 @@ This worksheet shows fixed asset details in the given time periods, such as:
 - Depreciations
 - Acquisitions
 
-The filters and slicers on the worksheet let you zoom in on a fixed assets class, sub class, or location. You can also filter by department code or project code, if needed.
+The filters and slicers on the worksheet let you zoom in on a fixed asset's class, subclass, or location. You can also filter by the two global dimensions. The dimension names depend on your company's setup.
 
-:::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Book Value worksheet" lightbox="../media/excel-fixed-assets-analysis-book-value.png":::
+:::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the fixed asset Book Value worksheet." lightbox="../media/excel-fixed-assets-analysis-book-value.png":::
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## FixedAssetData worksheet
+## Fixed asset data worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
@@ -69,7 +70,7 @@ The filters and slicers on the worksheet let you zoom in on a fixed assets class
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
-## Other worksheets
+## Supporting workbook worksheets
 
 [!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
@@ -89,10 +90,10 @@ Try the report here: [Fixed Asset Analysis Excel](https://businesscentral.dynami
 
 ## Alternative reports
 
-There are several other ways to analyze your fixed assets. To learn more, go to:
+There are several other ways to analyze your fixed assets. Learn more in the following articles:
 
 - [Fixed Asset Analysis (legacy report)](report-5600.md)
-- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
+- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)
 
 ## Contributors
 

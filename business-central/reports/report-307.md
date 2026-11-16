@@ -1,25 +1,25 @@
 ---
-title: Vendor - Order Summary (report)
-description: Analyze your outstanding purchase orders to understand your expected purchase volume.
+title: Vendor - Order Summary (Report)
+description: Review outstanding purchase order amounts by vendor and expected receipt date across three monthly periods to support purchasing and cost planning.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_307_Primary
-ms.date: 10/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/07/2024
+ai-usage: ai-assisted
 ---
 
 # Vendor - Order Summary (report)
 
-The **Vendor - Order Summary** report shows the purchase order details, including the quantity not yet received for each vendor in three periods of 30 days each, starting from the date that you specify.
+The **Vendor - Order Summary** report summarizes outstanding purchase order amounts for each vendor by expected receipt date. It shows three one-month periods, starting from the **Starting Date** that you specify.
 
-You can also explore orders to receive before and after the three periods, and the total order details for each customer.
+It also shows amounts for receipts expected before and after the three periods, and the total for each vendor. Amounts exclude VAT and reflect outstanding quantities. Choose **Show Amounts in LCY** to use local currency.
 
 > [!TIP]
 > For a detailed breakdown of each order line, use the **Vendor - Order Detail** report.

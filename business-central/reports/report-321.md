@@ -1,29 +1,29 @@
 ---
-title: Vendor - Balance to Date (report)
-description: Keep track of your outstanding payables and manage your vendor relationships.
+title: Vendor - Balance to Date (Report)
+description: Review vendor entries and balances as of a selected date, including later applications and unapplied entries, to support payables reconciliation.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_321_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Vendor - Balance to Date (report)
 
-The **Vendor - Balance to Date** report shows the vendor balance by the ending date of the specified date range.
+The **Vendor - Balance to Date** report shows vendor balances as of the ending date in the required **Date Filter**.
 
 You can choose to display the vendor balance in your local currency (LCY).
 
 Select the **Include Unapplied Entries** field to show entries that were closed by the ending date but were unapplied (opened) at a later date.
 
-Select **Show Entries with Zero Balance** to show vendors with a balance of zero by the ending date of the date filter. The date filter applies to the detailed vendor ledger entries for the entries in the report. If a payment was made after the ending date, and the payment was applied to invoices within the date range, the report includes the invoice. The report includes the invoice because it wasn't closed before the ending date.
+Select **Show Entries with Zero Balance** to include zero-balance ledger entries that meet the report's date and closing-entry conditions. This option isn't limited to showing vendors whose total balance is zero. The report calculates remaining amounts as of the ending date. For example, an invoice that was paid after that date can appear because it was still outstanding at the ending date.
 
 ## Use cases
 
@@ -66,13 +66,13 @@ Accounts payable professionals use the report to:
 
 Procurement officers use the report to:
 
-* Monitor vendor balances and payment history and ensure that all vendor transactions are accurate and complete.
+* Review vendor balances and entries that were outstanding as of a selected date.
 * Negotiate payment terms and discounts with vendors, optimize cost savings, and improve financial performance.
 * Get data to prepare financial reports for stakeholders such as investors or executives.
 
 Financial analysts use the report to:
 
-* Analyze vendor payment history to identify patterns or trends in late or missed payments and proactively address potential issues.
+* Analyze outstanding vendor balances at a selected date to support payment planning.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Get data to prepare financial reports for stakeholders such as investors or executives.
 
@@ -84,7 +84,7 @@ Try the report here: [Vendor - Balance to Date](https://businesscentral.dynamics
 
 ## Related information
 
-[Accounts receivable report overview](../receivables-reports.md)  
+[Accounts payable analytics](../payables-reports.md)
 [Key finance report overview](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

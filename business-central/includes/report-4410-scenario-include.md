@@ -1,1 +1,1 @@
-Use Excel to view a snapshot of your consolidated chart of accounts at a given point to check the debit and credit net change and closing balance. 
+Use Excel to view a snapshot of your consolidated chart of accounts at a given point to check the net change and closing balance.

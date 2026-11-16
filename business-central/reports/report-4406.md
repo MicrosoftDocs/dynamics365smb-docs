@@ -1,30 +1,31 @@
 ---
-title: Trial Balance/Budget (Excel report)
-description: Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance compared to the budget.
+title: Trial Balance/Budget (Excel Report)
+description: Use Excel to view a snapshot of your chart of accounts at a given point to check the net change and closing balance compared to the budget.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4406_Primary
-ms.date: 12/17/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 12/17/2024
-ai.usage: ai-assisted
+ai-seo-date: 12/17/2024
+ai-usage: ai-assisted
 ---
 
 # Trial Balance/Budget Excel (report)
 
 The **Trial Balance/Budget Excel** report shows general ledger data subtotaled by general ledger account for net change, percent of budget net, net budget, balance, percent of budget balance and budget balance. Amounts are in local currency (LCY).
 
-Data is aggregated for the period specified in the **Datefilter** parameter on the report's request page, and summarized by the two global dimensions per G/L account category.
+Set **Date Filter** to select the reporting period and **Budget Filter** to select the budget. Data is summarized by G/L account and the two global dimensions. Net budget covers the selected period, and budget balance covers dates through the ending date. The percentages show actual amounts divided by budget amounts, not percentage variances.
 
-The Excel workbook contains two worksheets that you can use to analyze your trial balance vs. budget:
+The Excel layout includes these report and data worksheets:
 
-- Trial Balance vs. Budget,
-- TrialBalanceBudgetData
+- Trial Balance Budget (Print)
+- Trial Balance Budget (Analysis)
+- TrialBalanceBudgetData, hidden by default
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
@@ -32,25 +33,25 @@ The Excel workbook contains two worksheets that you can use to analyze your tria
 
 [!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
-## Trial Balance vs. Budget worksheet
+## Trial balance budget worksheets
 
-This worksheet shows the trial balance vs. the budget with amounts in LCY.
+The **Trial Balance Budget (Print)** and **Trial Balance Budget (Analysis)** worksheets compare actual amounts with budget amounts in LCY. They don't provide separate debit and credit columns.
 
 Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 
-:::image type="content" source="../media/excel-trial-balance-vs-budget-worksheet.png" alt-text="Screenshot of the Trial Balance (LCY) worksheet":::
+:::image type="content" source="../media/excel-trial-balance-vs-budget-worksheet.png" alt-text="Screenshot of the Trial Balance vs. Budget analysis worksheet.":::
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## TrialBalanceBudgetData worksheet
+## TrialBalanceBudgetData data worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
-:::image type="content" source="../media/excel-trial-balance-vs-budget-data.png" alt-text="Screenshot of the TrialBalanceData worksheet":::
+:::image type="content" source="../media/excel-trial-balance-vs-budget-data.png" alt-text="Screenshot of the TrialBalanceBudgetData worksheet with report data.":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
-## Other worksheets
+## Other worksheets in the workbook
 
 [!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
@@ -96,7 +97,7 @@ Financial analysts use the report to:
 Accountants use the report to:
 
 - Use the report data in comparison with budget amounts to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
-- Verify the accuracy of the financial data by ensuring that debits and credits balance, and compare the actual vs. budgeted amounts.
+- Compare actual net changes and balances with budgeted amounts.
 - Analyze the financial health of the business. Review the variances between the actual and budgeted amounts of each account in the chart of accounts.
 
 Controllers use the report to:
@@ -117,7 +118,7 @@ Try the report here: [Trial Balance/Budget Excel](https://businesscentral.dynami
 
 ## Alternative reports
 
-There are several other ways to analyze your balance. To learn more, go to:
+There are several other ways to analyze your balance. Learn more in the following articles:
 
 - [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)
 - [Trial Balance/Budget (legacy)](../reports/report-9.md)

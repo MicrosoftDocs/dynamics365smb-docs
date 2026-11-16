@@ -1,25 +1,27 @@
 ---
-title: Consolidated Trial Balance (4) (report)
-description: Get a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Use this report to analyze consolidated financial data from multiple companies.
+title: Consolidated Trial Balance (4) (Report)
+description: Compare up to four business units in separate columns, with consolidated totals and eliminations, using previously imported financial data.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, consolidation, financial reporting
 ms.search.form: Report_18_Primary
-ms.date: 06/21/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/21/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/21/2025
+ai-usage: ai-assisted
 ---
 
 # Consolidated Trial Balance (4) (report)
 
-The **Consolidated Trial Balance (4)** report provides a four-column layout showing local company balances, converted values, eliminations, and consolidated totals. The report is ideal for financial reporting that requires a side-by-side view of company data, eliminations, and adjustments.
+The **Consolidated Trial Balance (4)** report shows up to four business units in separate columns, followed by combined amounts, eliminations, and consolidated totals. Amounts come from entries already imported into the consolidated company; the report doesn't show separate local-currency and converted-value columns.
 
 Before you run this report, ensure that your consolidation and currency exchange setups are properly configured.
+
+Enter the consolidation **Starting Date** and **Ending Date**, and choose **Net Change** or **Balance** in **Show**. Use **Business Unit Filter** to limit the report to four business units or fewer. You can show amounts in whole thousands.
 
 ## Use cases
 
@@ -35,9 +37,9 @@ Before you run this report, ensure that your consolidation and currency exchange
 Financial controllers and analysts can use this report to:
 
 * Analyze consolidated financial performance across multiple companies.
-* Review local balances, converted figures, and eliminations in a single view.
+* Compare up to four business units and review posted eliminations in a single view.
 * Ensure accuracy in consolidation by comparing adjustments and totals.
-* Prepare financial statements that reflect intercompany eliminations and currency conversions.
+* Review consolidated amounts after importing business unit data and posting eliminations.
 
 ## Try the report
 

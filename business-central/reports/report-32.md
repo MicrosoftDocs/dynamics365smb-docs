@@ -1,23 +1,25 @@
 ---
-title: VAT Registration No. Check (report)
-description: Cross-check VAT registration numbers against the EU VAT Information Exchange System (VIES). Best used before submitting EU sales reports. Ensures the accuracy of VAT numbers, helping prevent compliance issues with cross-border VAT reporting.
+title: VAT Registration No. Check (Report)
+description: Check VAT registration number formats and duplicates for customers, vendors, and contacts using country/region formats configured locally.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: VAT, tax compliance, EU sales, VIES, cross-border
 ms.search.form: Report_32_Primary
-ms.date: 06/25/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/25/2025
+ai-usage: ai-assisted
 ---
 
 # VAT Registration No. Check (report)
 
-The **VAT Registration No. Check** report verifies the validity of VAT numbers recorded for customers and vendors by cross-referencing them with the European Union (EU) VAT Information Exchange System (VIES). The report helps ensure compliance in cross-border transactions and prevents issues in VAT reporting.
+The **VAT Registration No. Check** report checks VAT registration number formats and duplicates for customers, vendors, and contacts. It compares numbers with the country/region formats configured in Business Central. It doesn't contact the European Union (EU) VAT Information Exchange System (VIES) or verify that a number is registered.
+
+Use **Format Check** to list numbers that don't match a configured format. Use **Duplicate Check** to find repeated numbers within customers, vendors, or contacts. Both options are initially selected. Records with blank VAT registration numbers are excluded.
 
 ## Use cases
 
@@ -28,12 +30,12 @@ The **VAT Registration No. Check** report verifies the validity of VAT numbers r
 >
 > * Run the report regularly to maintain up-to-date and accurate VAT number records.
 > * Use it as a pre-check before submitting EU sales reports to avoid compliance issues.
-> * Ensure that all customer and vendor VAT numbers are correctly formatted and registered in the VIES system.
-> * Helps identify and correct invalid or outdated VAT numbers proactively.
+> * Configure VAT registration number formats for the relevant countries/regions before checking formats.
+> * Investigate duplicate numbers to determine whether they are appropriate for the records involved.
 
 Finance teams and compliance officers can use this report to:
 
-* Validate VAT numbers for accuracy and format.
+* Check VAT number formats and identify duplicates.
 * Ensure readiness for EU cross-border reporting.
 * Reduce the risk of audit findings or penalties due to incorrect VAT data.
 

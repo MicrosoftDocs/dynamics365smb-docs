@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: external document number, your reference, purchase order, purchase invoice, purchase credit memo, vendor document number
-ms.date: 10/03/2025
+ms.date: 11/12/2026
 ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

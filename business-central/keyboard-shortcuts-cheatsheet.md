@@ -4,7 +4,7 @@ description: Use this print-friendly reference for common Business Central keybo
 author: jswymer
 ms.topic: article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/04/2025
+ms.date: 11/12/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

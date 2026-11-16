@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: feature overview
-ms.date: 11/11/2026
+ms.date: 11/12/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

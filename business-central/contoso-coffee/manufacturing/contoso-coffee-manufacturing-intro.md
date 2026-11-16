@@ -1,15 +1,16 @@
 ﻿---
 title: Introduction to Contoso Coffee Manufacturing
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
-ms.date: 07/16/2026
-ms.topic: article
+ms.date: 11/12/2026
+ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.form: 4765,
 author: brentholtorf
 ms.author: bholtorf
+ai-usage: ai-assisted
 ---
 
-# Introduction to Contoso Coffee Manufacturing
+# Introduction to Contoso Coffee manufacturing
 
 Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the manufacturing capabilities in Business Central.  
 
@@ -17,7 +18,7 @@ The app provides four products that are optimized for different scenarios:
 
 - **SP-SCM1009 Airpot**  
 
-  This product is a bill of material (BOM) with a subassembly, **Routing**. Use it to demonstrate the standard production flow. It's set up with alternative routings that you can use to demonstrate various scenarios that involve subcontractors. The costing method is *Standard*.  
+  This item has a production bill of materials (BOM) that includes the **SP-BOM2000, Reservoir Assembly** subassembly. Its default routing is **SP-SCM1009-SERIAL**. Use it to demonstrate the standard production flow. It's set up with alternative routings for parallel operations and subcontracting scenarios. The costing method is *Standard*.
 
 - **SP-SCM1011 Airpot Duo**  
 
@@ -25,29 +26,32 @@ The app provides four products that are optimized for different scenarios:
 
 - **SP-SCM1004 Autodrip**  
 
-  This product is a BOM with a subassembly, **Routing**. We recommend it to demonstrate the various flushing methods both for components and operations. The costing method is *Standard*.
+  This item has a production BOM with the **SP-BOM2000, Reservoir Assembly** subassembly and routing **SP-SCM1004**. We recommend it to demonstrate the various flushing methods both for components and operations. The costing method is *FIFO*.
 
 - **SP-SCM1006 AutoDripLite**
 
-  This product has three variants and three bills of material (BOMs) that can be assigned to stockkeeping units. The product uses the phantom BOM concept. The costing method is *Standard*.
+  This product has three variants and three color-specific production BOMs that can be assigned to stockkeeping units. Each color-specific BOM includes the **SP-SCM1006-BASE** phantom BOM. The costing method is *FIFO*.
 
-The manufacturing activities for all scenarios use the *MAIN* location.  
+The walkthroughs use the default **Manufacturing Location**, **MAIN**. If you configure another location, use that location instead.
 
 > [!IMPORTANT]
-> Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-manufacturing-data) section.
+> Generate the **Manufacturing** module before you start a walkthrough. Generation creates the items, certified production BOMs, routings, and work and machine centers. It also posts opening component inventory automatically. Installing the apps or choosing **Generate Setup Data** alone doesn't create these records.
 
-## Set up Contoso Coffee Manufacturing data
+## Set up Contoso Coffee manufacturing data
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
+
+Open the **Contoso Demo Tool** page, select **Manufacturing**, and choose **Configure**. The following table describes the settings:
 
 |Field  |Description  |
 |---------|---------|
 |**Manufacturing Location** |Specifies the warehouse that you want to use for production operations. The default is *MAIN*, but you can change it to suit your needs.|
+|**Subcontracting Location**|Specifies the location for subcontracting inventory posting setup. The default is **S82000, Bulk Assembly**. Generation also creates **S83000, Local Assembly**, for the other subcontractor.|
 
 
-When you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
+For shared settings such as the starting year and price factor, configure **Common**. Then return to **Contoso Demo Tool**, select **Manufacturing**, and choose **Generate**. Required dependency modules are generated automatically. Learn more in [Set up Contoso Coffee data](../contoso-coffee-intro.md#set-up-contoso-coffee-data).
 
-## Scenarios
+## Explore manufacturing scenarios
 
 The Contoso Coffee manufacturing demo data currently supports the following scenarios for test and training:
 
@@ -70,4 +74,6 @@ Read the steps for each scenario in the relevant article.
 ## Related information
 
 [Manufacturing](../../production-manage-manufacturing.md)  
-[Production Reports and Analytics in Business Central](../../production-reports.md)  
+[Production Reports and Analytics in Business Central](../../production-reports.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

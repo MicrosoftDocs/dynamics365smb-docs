@@ -6,7 +6,7 @@ author: jswymer
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: accessibility, shortcuts, charts, tiles
-ms.date: 04/29/2021
+ms.date: 11/12/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

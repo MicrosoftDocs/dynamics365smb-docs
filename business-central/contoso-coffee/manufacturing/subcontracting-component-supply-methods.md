@@ -1,20 +1,21 @@
 ---
-title: Use different component supply methods in subcontracting
+title: Use Different Component Supply Methods in Subcontracting
 description: Walkthrough to learn how the three component supply methods work in subcontracting and how they affect planning in Business Central.
-ms.date: 10/16/2026
+ms.date: 11/12/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Use different component supply methods in subcontracting
 
 This article illustrates how the three component supply methods work in the Subcontracting app. Using the Contoso Coffee demo data, you set up a production BOM where different components reach the subcontractor through different channels. Then, you explore how the planning system handles each method differently.
 
-## Scenario
+## Scenario for supplying Airpot components to a subcontractor
 
 You produce the **SP-SCM1009, Airpot** at Contoso Coffee. A subcontractor handles the full assembly. Different components reach the subcontractor through different channels:
 
@@ -28,17 +29,17 @@ You want to know how [!INCLUDE [prod_short](../../includes/prod_short.md)] handl
 
 To run this scenario, you need:
 
-- The Contoso Coffee Manufacturing demo data installed with opening balances posted.
+- The **Manufacturing** module generated in **Contoso Demo Tool**, including its automatically posted opening inventory. Learn more in [Set up Contoso Coffee manufacturing data](contoso-coffee-manufacturing-intro.md#set-up-contoso-coffee-manufacturing-data).
 - The **Subcontracting** app installed from Marketplace. Here's a link to the app's [download page](https://marketplace.microsoft.com/product/PUBID.microsoftdynsmb%7CAID.subcontracting%7CPAPPID.1f32a50d-0057-4b95-b5df-cc04d7e89470).
 
 > [!IMPORTANT]
-> This scenario changes the routing to SP-SCM1009-SUB-F and sets different component supply methods on the BOM. If you previously ran the [Set Up and Process a Subcontracting Operation](set-up-process-subcontracting-operation.md) scenario, you must change the routing back and clear the routing link codes before you proceed.
+> This scenario changes the routing to **SP-SCM1009-SUB-F** and sets different component supply methods on the BOM. If you previously ran [Set up and process a subcontracting operation](set-up-process-subcontracting-operation.md), clear the **Routing Link Code** and **Component Supply Method** for **SP-BOM1102, Coffee filter basket**. Then configure the three components described in this walkthrough. Leave the other BOM components unchanged.
 
 ## Set up the demo data
 
 ### Assign the routing and configure the BOM
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Items**, and then select the related link.
 1. Open the item card page for **SP-SCM1009, Airpot**.
 1. On the **Replenishment** FastTab, verify or set the **Routing No.** field to **SP-SCM1009-SUB-F**.
 
@@ -73,7 +74,7 @@ To run this scenario, you need:
     | **Routing Link Code** | 500 |
     | **Component Supply Method** | Vendor-Supplied |
 
-    The subcontractor provides this component. Exclud it from your planning.
+    The subcontractor provides this component. Production demand for this vendor-supplied component is excluded from planning.
 
 1. In the **Status** field, choose **Certified**.
 
@@ -81,7 +82,7 @@ To run this scenario, you need:
 
 ### Set the subcontracting location code on the vendor
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Vendors**, and then select the related link.
 1. Open the vendor card page for **83000, Local Assembly**.
 1. In the **Subcontracting Location Code** field, enter **S83000**.
 
@@ -89,7 +90,7 @@ To run this scenario, you need:
 
 ### Create the production order
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Orders**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Released Production Orders**, and then select the related link.
 1. Select the **New** action, and then fill in the fields as described in the following table.
 
     | Field | Value |
@@ -118,14 +119,14 @@ To run this scenario, you need:
 
 ### Explore how planning handles each method
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheets**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Planning Worksheets**, and then select the related link.
 1. Select the **Calculate Regenerative Plan** action.
-1. On the request page, set the **Item Filter** to **SP-BOM1101|SP-BOM1107|SP-BOM1108** to focus on the three components. select **OK**.
+1. On the request page, set the **Item Filter** to `SP-BOM1101|SP-BOM1107|SP-BOM1108` to focus on the three components. Select a planning period that includes the production order's component requirement dates, and then select **OK**.
 1. Review the results:
 
     - **SP-BOM1107 (Circuit board)**: the planning system suggests a purchase order with **S83000** in the **Location Code** field. The component is delivered directly to the subcontractor. Standard purchase planning rules (reorder policy, safety stock) apply to this location.
-    - **SP-BOM1101 (Housing)**: depending on available inventory at MAIN, a planning line might appear. The component is handled through a transfer order, not purchase planning.
-    - **SP-BOM1108 (Power cord)**: no planning line appears. The subcontractor provides this component, so your planning system ignores it.
+    - **SP-BOM1101 (Housing)**: demand remains at **MAIN** until you transfer the component to the subcontractor. Planning can suggest replenishment at **MAIN** if available inventory doesn't cover demand. The subcontracting transfer is created separately from the purchase order.
+    - **SP-BOM1108 (Power cord)**: no planning line is created for the vendor-supplied demand from this production order. Other demand for this item can still require planning.
 
 1. Select the planning line for **SP-BOM1107 (Circuit board)** and choose the **Carry Out Action Message** action. This action creates a purchase order for the circuit board at location **S83000**.
 1. Open the purchase order for **SP-BOM1107** and post the receipt. This makes the circuit board available at the subcontractor's location before the subcontracting work begins.
@@ -144,7 +145,7 @@ To run this scenario, you need:
 ### Receive the subcontracting output
 
 1. On the purchase order, select the **Post** action, and then select **Receive**.
-1. To verify component consumption, select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Ledger Entries**, and then select the related link. Filter on the production order number and then choose **Consumption** in the **Entry Type** field.
+1. To verify component consumption, [!INCLUDE [open-search-lowercase](../../includes/open-search-lowercase.md)], enter **Item Ledger Entries**, and then select the related link. Filter on the production order number and then choose **Consumption** in the **Entry Type** field.
 
     Consumption entries display for all three components, posted from location **S83000** (the subcontracting location). The housing was transferred there earlier, the circuit board was purchased directly to that location, and the power cord is vendor-supplied at that location. The backward flushing method posted consumption automatically when the subcontracting output was received.
 
@@ -153,4 +154,6 @@ To run this scenario, you need:
 [Introduction to Contoso Coffee Manufacturing](contoso-coffee-manufacturing-intro.md)  
 [Set Up and Process a Subcontracting Operation](set-up-process-subcontracting-operation.md)  
 [Set Up Subcontracting Prices and Allocate Item Charges](subcontracting-pricing-item-charges.md)  
-[Subcontracting overview](../../production-how-to-subcontract-manufacturing.md)  
+[Subcontracting overview](../../production-how-to-subcontract-manufacturing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

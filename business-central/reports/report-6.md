@@ -1,5 +1,5 @@
 ---
-title: Trial Balance (report)
+title: Trial Balance Overview (Report)
 description: View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance.
 author: kennieNP
 ms.author: kepontop
@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_6_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Trial Balance (report)
@@ -21,7 +21,10 @@ The **Trial Balance** report shows general ledger (G/L) accounts with a balance 
 
 You can filter the report by dimensions.
 
-The report also includes subtotaling accounts, and you can configure it to show figures in the additional reporting currency (ACY).
+The report also includes subtotaling accounts. Amounts are in local currency (LCY); this report doesn't have an additional reporting currency option.
+
+> [!NOTE]
+> This report is obsolete from version 28.0 and is replaced by [Trial Balance Excel](report-4405.md).
 
 ## Use cases
 
@@ -37,7 +40,7 @@ Try the report here: [Trial Balance](https://businesscentral.dynamics.com?report
 
 ## Alternative reports
 
-There are several other ways to analyze your balance. To learn more, go to:
+There are several other ways to analyze your balance. Learn more in the following articles:
 
 - [Trial Balance Excel](../reports/report-4405.md)
 - [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)

@@ -1,25 +1,25 @@
 ---
-title: Cost Acctg. Stmt. per Period (report)
-description: Analyze cost activity within specific periods, such as monthly or quarterly intervals. The report shows actual cost entries grouped by reporting periods. Use date filters and cost dimensions to view targeted results.
+title: Cost Acctg. Stmt. per Period (Report)
+description: Compare cost type balances or net changes for two periods, with differences and percentage comparisons, using cost center or cost object filters.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: cost accounting, reporting, period analysis
 ms.search.form: Report_1123_Primary
-ms.date: 06/23/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/23/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/23/2025
+ai-usage: ai-assisted
 ---
 
 # Cost Acctg. Stmt. per Period (report)
 
-The **Cost Acctg. Stmt. per Period** report generates a summary of posted cost entries grouped by reporting periods, such as months or quarters. It helps monitor trends and periodic spending.
+The **Cost Acctg. Stmt. per Period** report compares amounts by cost type for a current period and a comparison period. It shows the difference and the current amount as a percentage of the comparison amount.
 
-You can apply date filters and cost dimensions to narrow down the results and focus on specific cost centers or timeframes.
+Choose a **Comparison Type** and enter the current period's dates. Use **Free comparison** to enter both periods yourself. In **Amounts in**, choose **Balance** for balances at the ending dates or **Net Change** for activity within each period. You can filter by cost type, cost center, or cost object, and show amounts in the additional reporting currency.
 
 ## Use cases
 
@@ -28,10 +28,10 @@ You can apply date filters and cost dimensions to narrow down the results and fo
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Review costs grouped by accounting periods to understand how expenses are distributed over time.
+> * Compare cost amounts for two periods to understand how expenses changed.
 > * Monitor actual cost activity to identify trends, variances, or anomalies in spending.
 > * Use date filters to focus your analysis. Date filters can narrow the report to specific months or quarters to help isolate trends or anomalies.
-> * Apply cost dimensions for granular insights. Cost dimensions such as department, project, or cost center can break down cost data so you can better understand where spending is concentrated.
+> * Apply cost center or cost object filters to focus on the areas represented by those codes.
 > * Compare periods to spot trends. Run the report for consecutive periods, such as Q1 vs. Q2, to identify increases or decreases in cost activity and investigate the causes.
 
 Accountants can use the report to:

@@ -1,1 +1,1 @@
-Use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](excel-copilot-name.md)], or the What-if-analysis or Forecast Sheet tools.
+Use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](excel-copilot-name.md)] when it's available to you, or the what-if analysis tools. You can use **Forecast Sheet** in Excel for Windows if the data includes a date or time series with consistent intervals and corresponding numeric values.

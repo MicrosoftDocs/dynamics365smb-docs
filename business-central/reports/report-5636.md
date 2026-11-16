@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5636_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Document Nos. (report)
@@ -23,9 +23,10 @@ The **Fixed Asset Document Nos.** report shows a list of fixed asset ledger entr
 - Document number
 - Source code
 - Description
-- Number
+- Fixed asset number
+- Entry number
 
-A warning displays when there's a gap in the number series, or the documents weren't posted in their document-number order.
+A warning displays when a document's number series is missing, a document number is missing from the sequence, or the posting date is earlier than the previous entry's date in document-number order.
 
 ## Use cases
 

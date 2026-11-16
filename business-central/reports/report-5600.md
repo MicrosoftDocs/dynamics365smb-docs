@@ -1,23 +1,26 @@
 ---
-title: Fixed Asset Analysis (report)
-description: This report helps with tasks such as reconciling fixed asset values with your general ledger, or reviewing net values and write down values. You can also see information only for sold fixed assets.
+title: Fixed Asset Value Analysis (report)
+description: Analyze fixed asset values with configurable date and amount columns, group totals, and optional future depreciation for a selected depreciation book.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5600_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Analysis (report)
 
 The **Fixed Asset Analysis** report provides a comprehensive examination of an organization's fixed assets, such as property, plant, and equipment, for different purposes.
+
+> [!NOTE]
+> This legacy report is marked obsolete from version 28.0. Use [Fixed Asset Analysis (Excel report)](report-4412.md) for the replacement report.
 
 You can specify two date columns and three data columns to display in the report.
 
@@ -90,12 +93,14 @@ Try the report here: [Fixed Asset Analysis](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+The report uses fixed asset posting dates. When reconciling with the G/L, account for differences between fixed asset posting dates and general ledger posting dates. **Fixed Asset G/L Analysis** uses posting dates instead.
+
 ## Alternative reports
 
-There are several other ways to analyze your fixed assets. To learn more, go to:
+There are several other ways to analyze your fixed assets. Learn more in the following articles:
 
 - [Fixed Asset Analysis Excel](report-4412.md)
-- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
+- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)
 
 ## Related information
 

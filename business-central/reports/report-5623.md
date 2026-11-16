@@ -1,5 +1,5 @@
 ---
-title: Insurance Register (report)
+title: Insurance Register Entries (report)
 description: Review posted fixed assets insurance ledger entries sorted by register number. Use the report to document posted entries or for auditing.
 author: kennieNP
 ms.author: kepontop
@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5623_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-  - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Insurance Register (report)

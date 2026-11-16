@@ -1,14 +1,15 @@
 ---
 title: Fixed Asset Projected Value (report)
-description: Review projected depreciation amounts and book value for a future period for your fixed assets.
+description: Forecast fixed asset depreciation and book values for a future period, choose projection intervals, and optionally copy depreciation to a G/L budget.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5607_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Projected Value (report)
@@ -19,8 +20,10 @@ The report is a detailed analysis that forecasts the future value of an organiza
 
 Projected depreciation is calculated for two periods:
 
-- For the first period, the report uses the dates in the Posted Entries From field and the First Depreciation Date field. If you enter a date before the last posted depreciation entry, no depreciation is calculated as of the first depreciation date.
-- For the second period, the report uses the dates in the First Depreciation Date field and the Last Depreciation Date field. The depreciation amount calculated for the second period can show as a single amount, or as several amounts broken down by the time interval specified in the **Number of Days** field.
+- First, the report calculates depreciation up to **First Depreciation Date**, based on the asset's depreciation setup and existing depreciation entries. If that date is before the last posted depreciation date, no depreciation is calculated as of the first depreciation date.
+- The report then calculates depreciation through **Last Depreciation Date**. You can show a single amount or break the projection into intervals using **Number of Days** or **Use Accounting Period**.
+
+**Posted Entries From** limits the actual ledger entries included in the output. It doesn't set the start date for the depreciation calculation. Running the report doesn't post depreciation to the fixed asset ledger.
 
 You can explore the following budgeted depreciation information:
 
@@ -31,7 +34,10 @@ You can explore the following budgeted depreciation information:
 The report is useful, for example, when you have different depreciation methods and want to estimate depreciation for the next year.
 
 > [!NOTE]
-> You can use the report to create the budget amounts for depreciation by selecting a budget and the **Copy to G/L Budget** field.
+> You can create budget amounts for depreciation by selecting a budget in **Copy to G/L Budget Name**.
+
+> [!NOTE]
+> This legacy report is marked obsolete from version 28.0. Use [Fixed Asset Projected Value (Excel report)](report-4413.md) for the replacement report. The Excel report doesn't include the option to copy depreciation to a G/L budget.
 
 ## Use cases
 
@@ -45,10 +51,10 @@ Try the report here: [Fixed Asset Projected Value](https://businesscentral.dynam
 
 ## Alternative reports
 
-There are several other ways to analyze your fixed assets. To learn more, go to:
+There are several other ways to analyze your fixed assets. Learn more in the following articles:
 
 - [Fixed Asset Projected Value Excel](report-4413.md)
-- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
+- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)
 
 ## Related information
 

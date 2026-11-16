@@ -1,25 +1,25 @@
 ---
-title: Trial Balance by Period (report)
-description: Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account.
+title: Trial Balance by Period (Report)
+description: Review general ledger opening balances and net changes across up to 12 accounting periods to compare period movements and investigate trends.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_38_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Trial Balance by Period (report)
 
-The **Trial Balance by Period** report shows general ledger (G/L) accounts with a starting balance, and the closing balances for 12 accounting periods. You can filter the report by dimensions.
+The **Trial Balance by Period** report shows general ledger (G/L) accounts with an opening balance and net changes for up to 12 accounting periods. The period columns show movements, not cumulative closing balances. You can filter the report by dimensions.
 
-You can select an indentation level to view a summary of more details from your chart of accounts.
+Enter an accounting period start in **Starting Date**. You can select an **Indentation Level** to control the account detail and a **Rounding Factor** to show rounded amounts.
 
 ## Use cases
 
@@ -59,19 +59,19 @@ Please include your data sources and URLs
 
 Financial accountants can use the report to:
 
-* Verify the accuracy of the financial data. Review the movements in the selected period of month, quarter, or year, and ensure that the closing balances match the expected values.
+* Verify the accuracy of the financial data. Review the movements in the selected accounting periods and ensure that they match the expected values.
 * Identify discrepancies or errors in financial data and investigate them.
 * Use the report data to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
 
 Financial analysts can use the report to:
 
-* Analyze financial performance over specific periods by reviewing the movements in the selected period of month, quarter, or year, and identifying trends and variances.
+* Analyze financial performance over specific accounting periods by reviewing the movements and identifying trends and variances.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
 Financial controllers can use the report to:
 
-* Monitor the financial health of the business. Review the movements in the selected period of month, quarter, or year, and ensuring the closing balances are within the expected range.
+* Monitor the financial health of the business. Review the movements in the selected accounting periods and ensure that they are within the expected range.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
 

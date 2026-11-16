@@ -1,25 +1,25 @@
 ---
-title: Vendor/Item Purchases (report)
-description: Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
+title: Vendor/Item Purchases (Report)
+description: Analyze invoiced item quantities, actual costs, and discounts by vendor in local currency to review historical purchasing costs in Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_313_Primary
-ms.date: 10/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/07/2024
+ai-usage: ai-assisted
 ---
 
 # Vendor/Item Purchases (report)
 
 The **Vendor/Item Purchases** report shows a total of the items purchased from vendors in a given date period, grouped by vendor. The report sums the value entries for each combination of a vendor and an item to calculate the total invoiced quantity, cost amount, and discount amount.
 
-The calculated cost amount includes added costs, such as item charges.
+The calculated cost amount includes added costs, such as item charges. Amounts are in local currency. The report uses posted value entries and excludes expected costs.
 
 ## Use cases
 
@@ -61,8 +61,8 @@ Procurement managers use the report to:
 
 Controllers use the report to:
 
-* Forecast cash flow. The report provides a comprehensive view of item purchases per vendor in a selected period. Use this information to forecast cash flow, identify potential cashflow issues, and take necessary action to avoid any disruptions in cash flow.
-* Identify opportunities to save cost. The report provides information about possible discounts and the volume of item purchases. Use this information to identify ways to save cost and take action to realize the savings.
+* Forecast cash flow. The report provides a comprehensive view of item purchases per vendor in a selected period. Use this information to forecast cash flow, identify potential cash flow issues, and take necessary action to avoid any disruptions in cash flow.
+* Identify opportunities to save cost. Compare recorded discount amounts with purchase costs and quantities when reviewing purchasing terms.
 
 ## Try the report
 

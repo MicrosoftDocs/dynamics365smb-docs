@@ -1,18 +1,18 @@
 ---
-title: Customer - Balance to date (report)
-description: Get a detailed balance for selected customers at the close of an accounting period or fiscal year, for example.
+title: Customer - Balance to Date (Report)
+description: Review customer balances and supporting entries at a historical ending date, with options for currency, unapplied entries, and zero balances.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_121_Primary
-ms.date: 10/03/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/07/2024
+ai-usage: ai-assisted
 ---
 
 # Customer - Balance to date (report)
@@ -23,6 +23,8 @@ This report shows similar content to the customer statement, but it doesn't indi
 
 > [!NOTE]
 > The date filter applies to the detailed customer ledger entries. You might have payments that are later than the ending date, but that are applied to invoices within the date range. Those invoices appear in the report because they weren't closed by the ending date.
+
+Enter **Ending Date** to calculate historical remaining amounts. You can show amounts in local currency, include unapplied entries, show entries with zero balance, or start a new page per customer. Use an aged receivables report if you need overdue or aging information.
 
 ## Use cases
 
@@ -63,25 +65,25 @@ Please include your data sources and URLs
 
 Sales representatives use the report to:
 
-* Track the payment status of customers and follow up on overdue balances.
+* Review the balances that customers owed at the ending date.
 * Identify the customers with the highest outstanding balances and follow up to help collection efforts.
 
 Sales managers use the report to:
 
-* Monitor the performance of sales representatives in terms of collecting payments from customers.
-* Identify customers that might be bad for.
+* Review balances for selected customer accounts at period end.
+* Identify larger balances that need further investigation.
 
 Accounts receivable specialists use the report to:
 
-* Identify customers with overdue balances and take appropriate action to collect payments.
-* Review the payment history of customers and investigate discrepancies or potential issues.
-* Monitor the aging of customer balances and prioritize collection efforts based on the level of delinquency.
+* Review entries and applications that make up a balance at the ending date.
+* Investigate differences between historical balances and current balances.
+* Support reconciliation of receivables at period end.
 
 Finance managers use the report to:
 
-* Analyze the performance of the accounts receivable function, such as the average collection period and bad debt ratio.
+* Review total receivables as of an accounting period or fiscal year end.
 * Monitor the cash flow and liquidity of the company by reviewing the accounts receivable balance.
-* Review the customer aging report to identify trends and potential risks to the company's financial health.
+* Compare historical balances with other financial reports for the same ending date.
 
 ## Try the report
 

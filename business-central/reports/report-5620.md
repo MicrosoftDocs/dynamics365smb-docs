@@ -1,5 +1,5 @@
 ---
-title: Insurance - Analysis (report)
+title: Fixed Asset Insurance Analysis (report)
 description: Get an overview of your insurance policies, including annual premiums, policy coverage, and information about over or underinsured assets.
 author: kennieNP
 ms.author: kepontop
@@ -7,13 +7,16 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5620_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Insurance - Analysis (report)
 
-The **Insurance - Analysis** report shows information about insurance policies, such as annual premiums, policy coverage, and the amount that is over or under insured, based on the value of fixed assets that require insurance on the current date.
+The **Insurance - Analysis** report shows annual premiums, policy coverage, and the insured value recorded in insurance coverage ledger entries. **Over/Under Insured** is policy coverage minus the recorded insured value. A negative amount indicates that the recorded insured value exceeds the policy coverage.
+
+Recorded insured value excludes coverage entries marked **Disposed FA** and follows the insurance **Date Filter**, if specified. The report doesn't automatically apply today's date or determine market or replacement values.
 
 You can run the report to show amounts for each insurance policy.
 

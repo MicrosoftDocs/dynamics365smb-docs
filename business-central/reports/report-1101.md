@@ -1,22 +1,22 @@
 ---
-title: Resource – List (report)
-description: Analyze resource data to ensure it's accurate and up-to-date.
+title: Resource List and Setup (report)
+description: Review resource names, resource groups, product posting groups, and global dimensions to check resource setup before posting transactions.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1101_Primary
-ms.date: 02/18/2025
+ms.date: 11/13/2026
 ms.custom:
    - ai-gen-docs-bap
-   - ai-seo-date: 02/18/2025
-ai.usage: ai-assisted
+ai-seo-date: 02/18/2025
+ai-usage: ai-assisted
 ---
 
-# Resource – List (report)
+# Resource - List (report)
 
-The **Resource – List** report shows basic information about project resources. Use this report, for example, to maintain information about a resource.
+The **Resource - List** report shows basic information about resources. Use this report, for example, to maintain information about a resource.
 
 ## Use cases
 

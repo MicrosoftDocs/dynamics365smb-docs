@@ -1,23 +1,23 @@
 ---
-title: Statement of Cashflows (report)
-description: Get an Statement of Cashflows that shows an overview of operating activities, investment activities, and finance activities.
+title: Statement of Cashflows (Report)
+description: Get a Statement of Cashflows that shows an overview of operating activities, investing activities, and financing activities.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_155_Primary
-ms.date: 06/16/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 08/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 08/25/2025
+ai-usage: ai-assisted
 ---
 
 # Statement of Cashflows (report)
 
-The **Statement of Cashflows** report shows an overview of operating activities, investment activities, and finance activities.
+The **Statement of Cashflows** report shows an overview of operating activities, investing activities, and financing activities. The financial report selected for the cash flow statement in **General Ledger Setup** determines the rows and columns shown.
 
 Provide a start date and end date filter to define the period you want to explore.
 
@@ -35,7 +35,7 @@ Try the report here: [Statement of Cashflows](https://businesscentral.dynamics.c
 
 ## Alternative reports
 
-There are several other ways to analyze your cash flow. To learn more, go to:
+There are several other ways to analyze your cash flow. Learn more in the following articles:
 
 - [Cash flow overview](../finance-cash-flow-overview.md)  
 - [Analyze cash flow](../finance-analyze-cash-flow.md)  

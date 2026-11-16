@@ -1,18 +1,18 @@
 ---
-title: Inventory Valuation (report)
-description: Reconcile your inventory subledger with inventory accounts in the general ledger at the end of each period. Analyze the changes to expected costs posted during the period, and determine the value of on-hand inventory for financial reporting.
+title: Inventory Valuation Report in Business Central
+description: Review opening and closing inventory quantities and values. Compare actual and expected inventory costs with costs posted to the general ledger.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1001_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Inventory Valuation (report)
@@ -20,13 +20,13 @@ ai.usage: ai-assisted
 The **Inventory Valuation** report shows:
 
 * The beginning balance (quantity and value) based on a starting date you specify.
-* The closing balance based on an ending date you specify entered.
+* The closing balance based on an ending date you specify.
 
 You can also find decreases and increases in quantity and value in the period.
 
 If you use expected cost posting, you can choose to include expected costs that reconcile to your inventory (interim) accounts.
 
-The value in the **Cost Posted to G/L** column should equal the value in the **Ending Date Value** column. If it isn't, it's because you didn't run **Post Inventory Cost to G/L**.
+Compare **Cost Posted to G/L** with the ending inventory value to identify costs that haven't been posted to the general ledger. A difference can indicate that costs still need to be adjusted or posted. It doesn't establish that **Post Inventory Cost to G/L** was never run. Check the report's date filters and whether expected costs are included when you reconcile the amounts.
 
 Depending on settings on the **Inventory Posting Setup** page, you can run the report with different location filters and compare inventory posting group totals to the related G/L Accounts to ensure that your inventory subledger balances with the general ledger inventory balance sheet accounts.
 

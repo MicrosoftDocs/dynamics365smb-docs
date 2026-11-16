@@ -1,23 +1,23 @@
 ---
-title: Item - Able to Make (Time) (report)
-description: Check whether you can fulfill a sales order for an item by a specified date. Look at its current availability in combination with quantities that its components can supply if someone starts an assembly order. 
+title: Item - Able to Make (Timeline) (report)
+description: Review projected item availability over time, including quantities that can be assembled or produced. Set the starting date, interval, and number of periods.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5871_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/28/2024
 ---
 
-# Item - Able to Make (Time) (report)
+# Item - Able to Make (Timeline) (report)
 
-The **Item - Able to Make (Time)** report tracks the availability of bill of materials (BOM) items over time, based on five key figures that adjust according to supply and demand, and the availability of components for assembly or production.
+The **Item - Able to Make (Timeline)** report tracks the availability of bill of materials (BOM) items over time, based on five key figures that adjust according to supply and demand, and the availability of components for assembly or production.
 
 Use this report to determine whether you can fulfill a sales order by a certain date. The report looks at your current inventory and the amount you can produce from available parts.
 
@@ -76,7 +76,7 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [Item - Able to Make (Time)](https://businesscentral.dynamics.com?report=5871)
+Try the report here: [Item - Able to Make (Timeline)](https://businesscentral.dynamics.com?report=5871)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

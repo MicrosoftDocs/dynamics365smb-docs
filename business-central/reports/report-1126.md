@@ -1,25 +1,25 @@
 ---
-title: Cost Acctg. Statement (report)
-description: Summarizes all cost entries across selected dimensions such as departments or cost centers. Use filters for period, cost type, or cost object to refine the view and support operational analysis.
+title: Cost Acctg. Statement (Report)
+description: Review debit and credit net changes in the chart of cost types, filtered by date, cost center, or cost object, in local or additional currency.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: cost accounting, cost statement, cost center, department, operational analysis
 ms.search.form: Report_1126_Primary
-ms.date: 06/23/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/23/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/23/2025
+ai-usage: ai-assisted
 ---
 
 # Cost Acctg. Statement (report)
 
-The **Cost Acctg. Statement** report provides a summarized view of all posted cost data across selected dimensions, such as departments or cost centers. It is especially useful for gaining a high-level understanding of cost distribution and supporting operational analysis.
+The **Cost Acctg. Statement** report shows net changes by cost type in the structure of the chart of cost types. Debit and credit amounts appear in separate columns.
 
-You can apply filters for period, cost type, or cost object to tailor the report to your specific needs.
+You can filter by date, cost type, cost classification, cost center, or cost object. Choose **Show Amounts in Additional Currency** to use the additional reporting currency.
 
 ## Use cases
 
@@ -28,9 +28,9 @@ You can apply filters for period, cost type, or cost object to tailor the report
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Get an overview of total costs by dimension or category.
+> * Get an overview of net changes in the chart of cost types.
 > * Apply filters to focus on specific periods, cost types, or cost objects.
-> * Use cost dimensions to break down data by department, project, or cost center.
+> * Use cost center and cost object filters to focus on the areas represented by those codes.
 > * Support operational reviews and cost control efforts.
 
 Accountants can use the report to:

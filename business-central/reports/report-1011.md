@@ -1,25 +1,27 @@
 ---
 title: Project Suggested Billing (report)
-description: Get an overview of your projects, with focus on invoiced amounts and remaining amounts to invoice for each customer.
+description: Review billable and invoiced project costs and prices by customer, with suggested billing calculated as the remaining billable amounts for each task.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1011_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Project Suggested Billing (report)
 
 The **Project Suggested Billing** report shows a list of all projects, grouped by customer. It shows how much you already invoiced the customer, and how much remains to invoice. The remaining amount is the suggested billing.
 
-At the end of the report, all amounts are totaled.
+Suggested billing is billable planning line amounts minus invoiced amounts from project ledger entries, for both cost and price. **Planning Date Filter** applies to billable lines and **Posting Date Filter** applies to invoiced entries. It isn't a comparison of actual usage with amounts invoiced.
+
+The report totals amounts by customer and currency.
 
 You can choose whether the currency displays in local currency or foreign currency.
 

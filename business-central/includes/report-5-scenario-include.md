@@ -1,1 +1,1 @@
-Reconcile subledger balances for accounts receivable (AR) and accounts payable (AP) with their respective general ledger (G/L) control accounts. This report is especially useful during financial close or when investigating discrepancies between subledger and ledger data.
+Compare customer receivables and vendor payables by due-date period in local currency. Use the net change and cumulative net balance to identify potential cash shortfalls. The report doesn't reconcile these balances with general ledger control accounts.

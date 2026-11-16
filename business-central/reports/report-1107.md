@@ -1,22 +1,24 @@
 ---
 title: Resource - Cost Breakdown (report)
-description: Analyze the costs and incurred costs for each project resource in a period.
+description: Review posted resource usage quantities, direct unit costs, unit costs, and total costs by resource, with posting date and unit of measure filters.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1107_Primary
-ms.date: 02/18/2025
+ms.date: 11/13/2026
 ms.custom:
    - ai-gen-docs-bap
-   - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Resource - Cost Breakdown (report)
 
-The **Resource - Cost Breakdown** report shows each resource ledger of the type *usage* for entries that were posted within the posting date filter. It shows the quantity, direct and total costs for each entry, and a total cost per resource. The report output sets a new page per resource.
+The **Resource - Cost Breakdown** report shows resource ledger entries of type **Usage** within the posting date filter. It shows quantity, direct unit cost, unit cost, total direct cost, and total cost, with totals per resource. Total direct cost is quantity multiplied by direct unit cost. The report output sets a new page per resource.
+
+Filter by resource number, unit of measure, and posting date. Usage can come from the resource journal or the project journal; the report isn't limited to projects.
 
 ## Use cases
 

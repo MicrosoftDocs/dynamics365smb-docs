@@ -1,18 +1,18 @@
 ---
 title: Warehouse Adjustment Bin (report)
-description: Get an overview of adjustment bin usage (for advanced warehouse scenarios).
+description: Review remaining quantities in warehouse adjustment bins. Filter by location or item and optionally include items that currently have a zero quantity.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7320_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Warehouse Adjustment Bin (report)
@@ -21,10 +21,12 @@ The **Warehouse Adjustment Bin** report shows the remaining quantities in the ad
 
 This report is meant only for advanced warehouses.
 
-Typically, the adjustment bin should be empty. There are two reasons for it to contain a quantity:
+Typically, the adjustment bin should be empty. For example, it can contain a quantity:
 
 * When it's the result of physical counting process.
 * When quantities are removed or added to the warehouse.
+
+Select **Show Zero Quantity** to include items that were stored in the adjustment bin but currently have no quantity there.
 
 ## Use cases
 

@@ -1,14 +1,15 @@
 ---
 title: FA Posting Group - Net Change Report (report)
-description: Review the net change posted in the fixed asset ledger entries for the fixed asset (FA) posting group. 
+description: Compare fixed asset posting group net changes with general ledger account net changes for a selected period, including maintenance amounts and differences.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5611_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # FA Posting Group - Net Change Report (report)
@@ -18,6 +19,8 @@ The **FA Posting Group - Net Change Report** report shows the net change posted 
 The report contains two sections. The first section shows the net change for each general ledger account for each fixed asset posting group. The second section shows the total change in each general ledger account for all fixed asset posting groups.
 
 You can set filters to include only certain depreciation books, fixed assets, or fixed asset posting groups. You can also have the report only show the total change in each general ledger account for all fixed asset posting groups. This section is the second in the report.
+
+The report compares the fixed asset amounts, including maintenance, with the corresponding G/L account net changes and shows the differences. Set **Starting Date** and **Ending Date** for the period to reconcile.
 
 ## Use cases
 

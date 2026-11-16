@@ -1,18 +1,18 @@
 ---
 title: Fixed Asset G/L Analysis (report)
-description: Help reconciling fixed assets transactions to the general ledger and specifically for validating the disposal entries.
+description: Analyze fixed asset ledger amounts by posting date for reconciliation with the general ledger, including disposal and balancing disposal accounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5610_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset G/L Analysis (report)
@@ -23,9 +23,11 @@ The report assumes that you know which G/L accounts are specified in the posting
 
 The amounts in this report are calculated from fixed asset ledger entries based on the posting date. If you have set up integration to general ledger for the current depreciation book, you can find the same amounts in the corresponding general ledger entries. The **Fixed Asset - Analysis report**, which is similar, uses fixed asset posting dates.
 
+For disposal analysis, the **Disposal** and **Bal. Disposal** choices in the **Period** fields select disposal accounts and balancing disposal accounts. These choices aren't additional date ranges.
+
 ## Use cases
 
-[!INCLUDE[report-5608-scenario](../includes/report-5610-scenario-include.md)]
+[!INCLUDE[report-5610-scenario](../includes/report-5610-scenario-include.md)]
 
 <!-- 
 

@@ -1,1 +1,1 @@
-Verify the validity of VAT registration numbers for customers and vendors by cross-checking them against the EU VIES system. Use this report regularly, and especially before you submit EU sales reports, to ensure compliance with cross-border VAT regulations and avoid reporting errors.
+Check VAT registration number formats and find duplicates within customers, vendors, or contacts. Use the report to improve master data before EU sales reporting. The report doesn't validate numbers with VIES.

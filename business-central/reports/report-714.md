@@ -1,19 +1,19 @@
 ---
 title: Inventory Vendor Purchases (report)
-description: Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
+description: Analyze invoiced quantities, actual costs, and discounts by vendor and item. Use the Inventory Vendor Purchases report to review procurement spending.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_714_Primary
-ms.date: 10/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
 
+ai-usage: ai-assisted
+ai-seo-date: 10/07/2024
 ---
 
 # Inventory Vendor Purchases (report)

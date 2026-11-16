@@ -1,18 +1,18 @@
 ---
-title: Vendor - List (report)
-description: Use the report, for example, to maintain information about the vendor.
+title: Vendor List Report for Vendor Details
+description: Review vendor posting groups, payment terms, discounts, and balances in local currency with the legacy Vendor List report in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_301_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Vendor - List (report)
@@ -20,6 +20,9 @@ ai.usage: ai-assisted
 The **Vendor - List** report shows basic information for vendors, such as the vendor posting group, discount and payment information, and priority level.
 
 The report also shows the vendor's default currency, and their current balance in local currency.
+
+> [!NOTE]
+> Report 301 is marked obsolete from version 28.0 and is planned for removal. Its caption is **Vendor List (Obsolete)** in versions where it remains available.
 
 ## Use cases
 
@@ -53,21 +56,21 @@ Please include your data sources and URLs
 
 Procurement officers use the report to:
 
-* Manage vendor information, such as the vendor posting group, payment terms, and discount information, to ensure they process vendor transactions accurately and efficiently.
+* Manage vendor information, such as the vendor posting group, payment terms, and discount information, to ensure you process vendor transactions accurately and efficiently.
 * Identify opportunities to save cost or generate revenue by negotiating payment terms or discounts with vendors.
 * Get data to prepare vendor performance reports or dashboards for internal or external stakeholders.
 
 Vendor managers use the report to:
 
-* Monitor vendor information, such as the vendor's priority level and payment history, to ensure they manage vendor relationships effectively.
-* Identify areas for improvement in vendor performance and proactively address potential issues.
+* Monitor vendor information, such as the vendor's priority level and payment terms, to ensure you manage vendor relationships effectively.
+* Identify missing or unexpected vendor setup values.
 * Get data to prepare vendor scorecards or performance reports for internal or external stakeholders.
 
 Financial analysts use the report to:
 
 * Analyze vendor information, such as payment terms and discount rates, to identify opportunities to save cost or generate revenue.
 * Get data to prepare financial reports such as income statements or balance sheets for internal or external stakeholders.
-* Monitor vendor performance and identify potential risks to financial performance.
+* Identify vendors with large current balances for further investigation.
 
 ## Try the report
 

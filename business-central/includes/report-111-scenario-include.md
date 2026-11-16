@@ -1,1 +1,1 @@
-Review customers with the most transactions in a selected period to identify sales trends and manage debt collections.
+Review customers with the highest sales amounts in a selected period or the largest current balances to identify sales trends and manage debt collections.

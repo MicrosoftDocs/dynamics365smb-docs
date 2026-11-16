@@ -1,18 +1,18 @@
 ---
 title: Inventory Customer Sales (report)
-description: Analyze your customer sales per item to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and volume of item sales.
+description: Analyze invoiced quantities, sales amounts, discounts, and profit by customer and item. Use period filters to compare customer sales totals.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_713_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Inventory Customer Sales (report)
@@ -74,13 +74,13 @@ Sales representatives use the report to:
 
 * Identify the best-selling items over a selected period to focus sales efforts.
 * Analyze the sales performance of specific items for individual customers.
-* Determine which customers are buying specific items, and how often they buy.
+* Compare quantities and sales amounts for each customer and item. The report totals don't show how often a customer buys.
 
 Marketing analysts use the report to:
 
 * Identify the items that aren't selling well and require more marketing.
 * Analyze the sales trends of specific items over time.
-* Determine which customers are buying specific items, and how often they buy.
+* Compare customer and item sales totals across separate reporting periods.
 
 Financial analysts use the report to:
 

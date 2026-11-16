@@ -1,1 +1,1 @@
-Evaluate how costs are allocated across cost centers, cost objects, or dimensions using defined allocation rules. Use this report to understand cost distribution and support cost control efforts.
+Evaluate how costs are set up to be allocated across cost centers or cost objects using defined allocation rules. Use this report to understand cost distribution and support cost control efforts.

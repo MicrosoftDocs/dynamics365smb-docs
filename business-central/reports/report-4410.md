@@ -1,31 +1,36 @@
 ---
-title: Consolidated Trial Balance (Excel report)
-description: Use Excel to view a snapshot of your consolidated chart of accounts at a given point to check the debit and credit net change and closing balance.
+title: Consolidated Trial Balance (Excel Report)
+description: Use Excel to view a snapshot of your consolidated chart of accounts at a given point to check the net change and closing balance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4410_Primary
-ms.date: 01/03/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 12/13/2024
-ai.usage: ai-assisted
+ai-seo-date: 12/13/2024
+ai-usage: ai-assisted
 ---
 
 # Consolidated Trial Balance Excel (report)
 
 The **Consolidated Trial Balance Excel** report shows the net change or balances of general ledger accounts for a selected period, aggregated for each business unit.
 
+Run it in the consolidation company after consolidating the entries you want to review. Enter an **Ending Date** and, optionally, a **Starting Date**. At least one business unit must exist. The report reads the current company's G/L entries and groups amounts by business unit and the two global dimensions. It doesn't perform consolidation or show separate debit and credit columns.
+
 The Excel workbook contains worksheets that you can use to analyze your trial balance:
 
-- Trial-Balance (LCY)
-- By-Business-Unit (LCY)
-- Trial-Balance (ACY)
-- By-Business-Unit (ACY)
-- TrialBalanceData
+- Consolidated Trial Bal. (Print)
+- Trial Balance (LCY)
+- By Business Unit (LCY)
+- Trial Balance (ACY)
+- By Business Unit (ACY)
+- TrialBalanceData, hidden by default
+
+The **Consolidated Trial Bal. (Print)** worksheet provides a printable view.
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
@@ -35,7 +40,7 @@ The Excel workbook contains worksheets that you can use to analyze your trial ba
 
 Filters and slicers let you zoom in on the balance as seen from business units, global dimensions, or by account categories and subcategories.
 
-## Trial Balance (LCY) worksheet
+## Trial balance (LCY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in local currency (LCY).
 
@@ -43,7 +48,7 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## By Business Unit (LCY) worksheet
+## By business unit (LCY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in LCY for your business units.
 
@@ -51,7 +56,7 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## Trial Balance (ACY) worksheet
+## Trial balance (ACY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in additional reporting currency (ACY). The report requires that you use ACY. If you don't use ACY, the report doesn't show data.
 
@@ -59,7 +64,7 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## By Business Unit (ACY) worksheet
+## By business unit (ACY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in ACY for your business units.
 
@@ -67,7 +72,7 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## TrialBalanceData worksheet
+## TrialBalanceData data worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
@@ -75,7 +80,7 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
-## Other worksheets
+## Other worksheets in the workbook
 
 [!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
@@ -95,7 +100,7 @@ Try the report here: [Consolidated Trial Balance Excel](https://businesscentral.
 
 ## Alternative reports
 
-There are several other ways to analyze your balance. To learn more, go to:
+There are several other ways to analyze your balance. Learn more in the following articles:
 
 - [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)
 - [Income Statement (Power BI)](../finance-powerbi-income-statement.md)

@@ -1,23 +1,25 @@
 ---
-title: Cost Allocations (report)
-description: Displays how costs were split or assigned based on allocation rules. Use with cost centers or allocation bases. Explains cost distribution across entities using set allocation methods, ideal for cost control.
+title: Cost Allocations Setup Review (Report)
+description: Review allocation sources, targets, validity dates, and shares to check how costs are set up for distribution to cost centers and cost objects.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: cost accounting, cost allocations, cost centers, allocation rules, cost control
 ms.search.form: Report_1129_Primary
-ms.date: 06/23/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/23/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/23/2025
+ai-usage: ai-assisted
 ---
 
 # Cost Allocations (report)
 
-The **Cost Allocations** report is used to evaluate how costs were allocated across cost centers, cost objects, or dimensions. The report displays how costs were split or assigned based on allocation rules, helping organizations understand and control cost distribution.
+The **Cost Allocations** report lists allocation definitions, including allocation sources and their targets. Use it to review how costs are set up to be distributed to cost types, cost centers, and cost objects. It doesn't list posted allocation entries.
+
+Filter sources by ID, level, validity dates, or variant. You can also filter target cost types, cost centers, cost objects, allocation target types, or the date a share was updated. An option lets you skip sources without targets that match the filters.
 
 ## Use cases
 
@@ -27,7 +29,7 @@ The **Cost Allocations** report is used to evaluate how costs were allocated acr
 > Here are some tips on how to use the report:
 >
 > * Understand how costs are allocated across areas.
-> * Track how costs were distributed using defined allocation rules.
+> * Review source and target definitions before allocating costs.
 > * Do cost control and analysis across departments or projects.
 > * Get help to validate allocation methods and ensure consistency in cost reporting.
 
@@ -38,13 +40,13 @@ Finance teams can use the report to:
 
 Controllers can use the report to:
 
-* Monitor cost center performance.
+* Review allocation targets and shares.
 * Support internal audits and budget planning.
 
 Auditors might reference the report to:
 
-* Verify allocation accuracy.
-* Ensure compliance with internal policies
+* Review allocation definitions.
+* Check that allocation methods follow internal policies.
 
 ## Try the report
 

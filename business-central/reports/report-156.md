@@ -1,23 +1,23 @@
 ---
-title: Retained Earnings Statement (report)
-description: Get an Retained Earnings Statement that shows an overview of retained earnings from the start of a period, net income, and distributions to shareholders.
+title: Retained Earnings Statement (Report)
+description: Get a Retained Earnings Statement that shows an overview of retained earnings from the start of a period, net income, and distributions to shareholders.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_156_Primary
-ms.date: 06/16/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 08/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 08/25/2025
+ai-usage: ai-assisted
 ---
 
 # Retained Earnings Statement (report)
 
-The **Retained Earnings Statement** report shows retained earnings, net income, and distributions to shareholders from the start of a period you specify.
+The **Retained Earnings Statement** report shows retained earnings, net income, and distributions to shareholders from the start of a period you specify. The financial report selected for retained earnings in **General Ledger Setup** determines the rows and columns shown.
 
 Provide a start date and end date filter to define the period you want to explore.
 
@@ -35,11 +35,7 @@ Try the report here: [Retained Earnings Statement](https://businesscentral.dynam
 
 ## Alternative reports
 
-There are several other ways to analyze your cash flow. To learn more, go to:
-
-- [Cash flow overview](../finance-cash-flow-overview.md)  
-- [Analyze cash flow](../finance-analyze-cash-flow.md)  
-- [Financial Reporting](../bi-how-work-account-schedule.md)
+There are several other ways to analyze retained earnings. Learn more in [Financial reporting](../bi-how-work-account-schedule.md).
 
 ## Related information
 

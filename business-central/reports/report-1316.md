@@ -1,18 +1,18 @@
 ---
-title: Customer Statement (report)
-description: Send customers an overview of outstanding amounts, and also use as a payment reminder about overdue amounts.
+title: Customer Statement Report for Account Activity
+description: Send customers statements of account activity or open entries, review balances and overdue amounts, and schedule statements through the job queue.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1316_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Customer Statement (report)
@@ -24,7 +24,7 @@ You can choose to show the overdue amounts in a separate section.
 Similar to the **Aged Receivables** report, you can include an aging band. For the aging band, businesses often set **30D**. 30D means 30 day intervals such as 30, 60, and 90 days overdue. The intervals start from the ending date, or **1M+CM**. 1M+CM is the current month in a separate interval and then monthly intervals for the preceding months.
 
 > [!NOTE]
-> In the customer list, this report also has a **Scheduled Statements** action. This action doesn't filter to the selected customer. It's the same report, but you use it when you want to send statements to one or more customers. You can filter the report to only show open entries for the customer. To apply the filter when you're setting up the report, in the **Statement Style** field, choose **Open Items**
+> In the customer list, the **Scheduled Statements** action schedules statements through the job queue. This action doesn't filter to the selected customer. Set customer filters when you configure the statements. To include entries posted in the selected period that are still open at the ending date, choose **Open Item** in **Statement Style**.
 
 ## Use cases
 

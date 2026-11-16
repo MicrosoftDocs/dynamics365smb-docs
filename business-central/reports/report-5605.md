@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5605_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Book Value 01 (report)
@@ -27,7 +27,7 @@ The report shows the output structured over multiple columns and displays one li
 
 To print the report, use landscape orientation.
 
-## Fixed Asset Book Value reports
+## Fixed asset book value reports
 
 [!INCLUDE[report-5605-5606-difference](../includes/report-5605-5606-difference.md)]
 

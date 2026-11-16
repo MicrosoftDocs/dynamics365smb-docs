@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5622_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-  - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Insurance Journal - Test (report)
@@ -20,6 +20,8 @@ ai.usage: ai-assisted
 The **Insurance Journal - Test** report shows the journal lines in a fixed asset insurance journal.
 
 If you run the report from a fixed asset insurance journal, the report automatically filters by the current journal template and journal batch names. You can leave the request page blank. If you run the report from the report request page, you can set filters to define what to include.
+
+The report checks journal lines for issues such as missing document numbers, invalid fixed asset numbers, posting dates, and dimensions. It lists warnings without posting the journal.
 
 ## Use cases
 

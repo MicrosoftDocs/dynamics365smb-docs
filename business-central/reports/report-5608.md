@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5608_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset - Acquisition List (report)
@@ -20,6 +20,8 @@ ai.usage: ai-assisted
 The **Fixed Asset - Acquisition List** report lists all fixed assets acquired in a given date range. You can also include fixed assets that are created but aren't acquired.
 
 The report shows information such as the fixed asset number, description, responsible employee, fixed asset location code, serial number, and acquisition date.
+
+The acquisition date comes from the selected depreciation book. The report lists asset identification and acquisition dates, not acquisition cost or calculated depreciation.
 
 ## Use cases
 
@@ -65,14 +67,14 @@ Fixed asset managers use the report to:
 Finance managers use the report to:
 
 * Track the acquisition of fixed assets and ensure that they're accurate in financial statements.
-* Analyze the acquisition costs of fixed assets and identify opportunities for cost savings.
 * Monitor the acquisition process and ensure that it aligns with the organization's financial goals.
 
 Accountants use the report to:
 
-* Calculate depreciation expenses for newly acquired fixed assets.
-* Verify that the acquisition costs of fixed assets are accurate in financial statements.
+* Check acquisition dates and asset identification for a selected depreciation book.
 * Ensure that the acquisition process complies with accounting standards and regulations.
+
+Include assets not yet acquired to identify incomplete acquisition setup. Use a book value report to review acquisition costs and depreciation.
 
 ## Try the report
 

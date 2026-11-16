@@ -1,23 +1,23 @@
 ---
 title: Inventory Picking List (report)
-description: View which sales orders are covered when collecting items from inventory.
+description: Review sales order lines with a quantity to ship. Use the Inventory Picking List report to coordinate picking by item, location, bin, and shipment date.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_813_Primary
-ms.date: 10/03/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/07/2024
 ---
 
 # Inventory Picking List (report)
 
-The **Inventory Picking List** report shows a list of the sales orders that include a particular item.
+The **Inventory Picking List** report shows sales order lines for selected items where **Qty. to Ship** isn't zero.
 
 The report shows the following information for each item: 
 
@@ -30,7 +30,7 @@ The report shows the following information for each item:
 * Quantity to ship
 * Unit of measure
 
-The quantity to ship is a total for each item.
+Select **Print group totals** to include totals for the groups in the report.
 
 > [!NOTE]
 > This report isn't available for advanced warehouse functionality.

@@ -1,18 +1,18 @@
 ---
-title: Maintenance Register (report)
-description: Review posted fixed assets maintenance entries sorted by register number. You can use the report to document posted entries or for auditing.
+title: Maintenance Register Report in Business Central
+description: Review posted fixed asset maintenance entries sorted by register number. You can use the report to document posted entries or for auditing.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5633_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Maintenance Register (report)

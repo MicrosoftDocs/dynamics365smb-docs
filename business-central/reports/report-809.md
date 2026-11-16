@@ -1,23 +1,23 @@
 ---
-title: Where-used list (report)
-description: Get a list of the bill of materials (BOMs) that the selected items are components of. Use the report in case you must change a component in a BOM. For example, if your vendor can no longer deliver a specific item that you used for your assembly/production.
+title: Where-Used List Report in Business Central
+description: Find the assembly bills of materials that contain selected items. Review the parent items and component quantities before replacing a component.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_809_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/28/2024
 ---
 
 # Where-used list (report)
 
-The **Where-used list** report shows a list of the bills of materials (BOMs) that the selected items are components of. You can set a filter to find the component you want to analyze.
+The **Where-Used List** report shows a list of the assembly bills of materials (BOMs) that the selected items are components of. You can set a filter to find the component you want to analyze. For production BOMs, use the [Where-Used (Top Level) report](report-99000757.md).
 
 ## Use cases
 

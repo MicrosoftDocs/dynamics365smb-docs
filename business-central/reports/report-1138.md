@@ -1,23 +1,25 @@
 ---
-title: Cost Acctg. Balance/Budget (report)
-description: Use this report to analyze balances for cost accounts and budgets to support financial planning and control.
+title: Cost Acctg. Balance/Budget (Report)
+description: Compare current-period and year-to-date costs with budgets by cost type, and review full-year budget amounts using the fiscal-year dates you select.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: cost accounting, budget analysis, financial planning
 ms.search.form: Report_1138_Primary
-ms.date: 06/23/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/23/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/23/2025
+ai-usage: ai-assisted
 ---
 
 # Cost Acctg. Balance/Budget (report)
 
-The **Cost Acctg. Balance/Budget** report summarizes balances in cost and budget accounts. It supports financial planning and control by allowing you to filter by fiscal year, cost type, or budget version for accurate analysis.
+The **Cost Acctg. Balance/Budget** report compares actual costs with budgets by cost type for the current period and year to date. It also shows the full-year budget and year-to-date amounts as percentages of that budget.
+
+Enter the current period's **Starting Date** and **Ending Date**, and the fiscal year's **Year Starting Date** and **Year Ending Date**. The report initially fills month and calendar-year dates from the starting date, so check the fiscal-year dates before running it. Apply a **Budget Filter** and a cost center or cost object filter for a focused comparison.
 
 ## Use cases
 
@@ -26,7 +28,7 @@ The **Cost Acctg. Balance/Budget** report summarizes balances in cost and budget
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Tailor the report to your planning needs by filtering results by fiscal year, cost type, or budget version.
+> * Set the fiscal-year dates and apply cost type and budget filters to focus the comparison.
 > * Review and validate your cost and budget alignment across departments.
 > * Get a summarized view to support strategic decision-making and financial oversight.
 > * Compare actuals to budgeted figures to identify variances and adjust forecasts accordingly.

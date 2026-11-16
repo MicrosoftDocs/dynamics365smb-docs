@@ -1,5 +1,5 @@
 ---
-title: Aged Accounts Receivables (report)
+title: Aged Accounts Receivables (Report)
 description: Legacy report for analyzing customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
 author: kennieNP
 ms.author: kepontop
@@ -7,22 +7,24 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_120_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Aged Accounts Receivables (report)
 
 > [!NOTE]
-> This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables Excel** report instead. To learn more, go to [About *Aged Accounts Receivables Excel*](../reports/report-4402.md).
+> This report was marked obsolete in version 28. We recommend the Excel replacement. Learn more in [Aged Accounts Receivables Excel (report)](report-4402.md).
 
-The **Aged Accounts Receivables** report shows the number of outstanding customer invoices, credit memos, and payments.
+The **Aged Accounts Receivables** report shows the amounts outstanding on customer invoices, credit memos, and payments as of **Aged As Of**.
 
 You can configure the report's aging to generate three equal length periods as of a date you specify. For example, the periods might be the three previous months from the end of the current month. The report calculates the customer's outstanding balance for each period, and balances due before or after the three periods.
+
+Choose **Aging by** to age entries by **Due Date**, **Posting Date**, or **Document Date**. Use **Due Date** to distinguish overdue amounts from amounts that aren't due yet. Use **Print Amounts in LCY** to combine amounts in local currency, or leave it off for separate currency totals.
 
 > [!TIP]
 > Businesses often use the start and end dates as the names for each period, or the total number of days the periods include. For example, 1 - 31 days.
@@ -75,7 +77,7 @@ Please include your data sources and URLs
 
 Accounts receivable professionals use the report to:
 
-* Reconcile customer subledgers against the receivables accounts in the general ledger and ensure that all outstanding balances are accurate and complete.
+* Reconcile customer balances against receivables accounts in the general ledger. Use LCY and posting-date aging for the same ending date, and investigate direct postings or other differences.
 * Identify discrepancies or errors in customer transactions and investigate them.
 * Get data to prepare financial statements such as income statements or balance sheets.
 
@@ -99,13 +101,13 @@ Try the report here: [Aged Accounts Receivables](https://businesscentral.dynamic
 
 ## Alternative reports
 
-There are several other ways to analyze your aged accounts receivables. To learn more, go to:
+There are several other ways to analyze your aged accounts receivables. Learn more in the following articles:
 
 * [Aged Receivables (Back Dating) in Power BI](../finance-powerbi-aged-receivables-back-dating.md)
 * [Using data analysis to analyze accounts receivable](../ad-hoc-analysis-finance.md#example-finance-accounts-receivable)
 * [Aged Accounts Receivable Excel report](report-4402.md)
 
-## Learn more
+## Related information
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  

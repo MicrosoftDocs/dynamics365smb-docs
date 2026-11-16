@@ -1,25 +1,25 @@
 ---
 title: Inventory Top 10 List (report)
-description: Review the highest or lowest selling items based on quantity and amount over a selected period.
+description: Rank items by sales amounts in local currency or by inventory quantity. Choose the largest or smallest amounts to support purchase planning.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_711_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Inventory Top 10 List (report)
 
 The **Inventory Top 10 List** report lists the items with the highest or lowest sales within a selected period. You can exclude items that aren't in inventory or weren't sold.
 
-Items are sorted by sales amounts within the selected period. The list gives a quick overview of the items that sold best or worst, or the items with the most or least units in inventory.
+Choose whether to rank by **Sales (LCY)** or **Inventory**, and whether to show the largest or smallest amounts. Use **Quantity** to set how many items to include. The report doesn't rank items by the number of units sold.
 
 Use this report when you plan your purchasing.
 
@@ -82,8 +82,8 @@ Warehouse supervisors use the report to:
 
 Financial analysts use the report to:
 
-* Analyze revenue and profits for items over a selected period.
-* Determine the cost of goods sold for the highest and lowest selling items.
+* Compare sales amounts in local currency for items over a selected period.
+* Compare the selected items with the report totals. The report doesn't calculate profit or cost of goods sold.
 * Identify trends and patterns in the sales performance of specific items.
 
 ## Try the report

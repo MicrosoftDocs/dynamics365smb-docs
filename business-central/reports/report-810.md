@@ -1,23 +1,23 @@
 ---
-title: BOM - Raw Materials (report)
-description: Get an overview about the needed components for an items bill of material (BOM), both for assembly and for production.
+title: BOM - Raw Materials Report in Business Central
+description: Review items without an assembly bill of materials. Check their inventory, base units of measure, vendor numbers, and lead time calculations.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_810_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/28/2024
 ---
 
 # BOM - Raw Materials (report)
 
-The **BOM - Raw Materials** report shows the components in an items bill of materials (BOM), for both assembly and production.
+The **BOM - Raw Materials** report lists items that don't have an assembly bill of materials (BOM). The report isn't limited to items that are components of another item.
 
 You can explore inventory levels, the base unit of measure, the main vendor if one is specified for the item, and the lead time calculation.
 

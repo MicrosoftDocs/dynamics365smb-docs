@@ -1,27 +1,29 @@
 ---
-title: Fixed Asset List (report)
-description: Get a comprehensive list of all fixed assets that an organization owned at a specific point in time.
+title: Fixed Asset List and Setup (report)
+description: Review fixed asset identification, classification, dimensions, and depreciation setup for a selected depreciation book, excluding inactive assets.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5601_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset List (report)
 
 The **Fixed Asset List** report lists fixed assets and their setup information for a given depreciation book.
 
-The list includes asset information such as fixed asset class, subclass, and location code, customer group, and FA posting group. It also shows information about depreciation, such as the method, start/end date, and years and months.
+The list includes asset information such as fixed asset class, subclass, location code, global dimensions, and FA posting group. It also shows information about depreciation, such as the method, start/end date, and years and months.
 
 The report gets the information from the fixed asset cards and fixed asset depreciation books.
+
+Inactive assets are excluded. The report shows the current setup, not an inventory or valuation as of a historical date. Select **New Page per Asset** to print each asset separately.
 
 ## Use cases
 
@@ -65,31 +67,29 @@ Please include your data sources and URLs at the end of the answer.
 
 Accountants use the report to:
 
-* Track the value of fixed assets over time and reconcile the values with the general ledger.
-* Monitor the depreciation of fixed assets and ensure that it complies with accounting standards.
+* Review depreciation setup to check that it follows accounting standards.
 * Identify and correct discrepancies between the fixed asset list and other financial records.
 
 Controllers use the report to:
 
-* Analyze the fixed asset values for the organization and make strategic decisions.
-* Share a comprehensive overview of the organization's fixed assets with stakeholders such as investors or auditors.
+* Share an overview of the organization's active fixed assets with stakeholders such as investors or auditors.
 
 Compliance officers use the report to:
 
 * Verify that the organization's fixed asset information is accurate and complete, and follows relevant regulations.
-* Track changes to fixed asset information over time and ensure that they're documented and approved.
 * Prepare reports and other documentation for audits and regulatory inspections for fixed assets.
 
 Fixed asset managers use the report to:
 
-* Create an asset inventory of all fixed assets that an organization owned at a specific point in time.
+* Create a list of active fixed assets and their current setup.
 * Verify the accuracy of fixed asset records by comparing them with the information in the report.
 
 Facilities managers use the report to:
 
-* Track the location and status of fixed assets in an organization.
-* Identify opportunities for equipment upgrades or replacements based on the age and condition of fixed assets.
+* Track the location and setup of active fixed assets in an organization.
 * Plan for future capital expenditures related to fixed assets.
+
+Use a book value report to review posted asset values.
 
 ## Try the report
 

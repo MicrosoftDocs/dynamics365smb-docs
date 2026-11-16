@@ -1,30 +1,33 @@
 ---
-title: Aged Accounts Payables (Excel report)
-description: Analyze vendor balances at the end of each period. Helps ensure the reliability of what you owe your vendors.
+title: Aged Accounts Payable (Excel Report)
+description: Analyze vendor remaining amounts as of a selected date in Excel, with configurable aging periods, currency views, and document-level report data.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4403_Primary
-ms.date: 12/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 12/14/2024
-ai.usage: ai-assisted
+ai-seo-date: 12/14/2024
+ai-usage: ai-assisted
 ---
 
-# Aged Accounts Payables Excel (report)
+# Aged Accounts Payable Excel (report)
 
-The **Aged Accounts Payables Excel** report uses vendor ledger entries to aggregate and bucket data according to the Aged as of and Period length parameters in the report's request page. Data is summarized by the two global dimensions.
+The **Aged Accounts Payable (Excel)** report shows vendor ledger entries with remaining amounts as of **Aged As Of**. Choose **Aging by** to use due dates, posting dates, or document dates. **Period Length** and **Period Count** control the aging periods. The dataset includes document-level amounts and the two global dimension codes.
 
-The report Excel workbook contains four worksheets that you can use to analyze your aged accounts payable:
+The Excel layout includes these report and data worksheets:
 
-- By period (LCY)
+- Aged Accounts Payable (Print)
+- By Period (LCY)
 - By Period (FCY)
 - Due by Currencies
-- CustomerAgingData
+- VendorAgingData, hidden by default
+
+The **Aged Accounts Payable (Print)** worksheet provides a printable view. Select **Skip Vendors with Zero Balance** to omit vendors whose net balance in local currency is zero as of the selected date.
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
@@ -34,7 +37,7 @@ The report Excel workbook contains four worksheets that you can use to analyze y
 
 ## By period (LCY) worksheet
 
-This worksheet shows amounts in local currency (LCY) by vendor, and you can group data by a Year-Quarter-Month-Day hierarchy on the due date.
+This worksheet shows amounts in local currency (LCY) by vendor. Its date hierarchy uses the reporting date selected through **Aging by**.
 
 The filters and slicers let you zoom in on a single vendor or a group of vendors.
 
@@ -42,9 +45,9 @@ The filters and slicers let you zoom in on a single vendor or a group of vendors
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## By Period (FCY) worksheet
+## By period (FCY) worksheet
 
-This worksheet shows amounts in foreign currency (FCY) by vendor, and you can group data by a Year-Quarter-Month-Day hierarchy on the due date.
+This worksheet shows amounts in foreign currency (FCY) by vendor. Its date hierarchy uses the reporting date selected through **Aging by**.
 
 The filters and slicers let you zoom in on a vendor or a group of vendors. You can also filter by one or more currency codes, if needed.
 
@@ -52,7 +55,7 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## Due by Currencies worksheet
+## Due by currencies worksheet
 
 This worksheet shows amounts by currency code, and you can group data by a Year-Quarter-Month-Day hierarchy on the due date.
 
@@ -62,7 +65,7 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## VendorAgingData worksheet
+## VendorAgingData data worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
@@ -70,7 +73,7 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
-## Other worksheets
+## Other worksheets in the workbook
 
 [!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
@@ -80,7 +83,7 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 
 ## Try the report
 
-Try the report here: [Aged Accounts Payables Excel](https://businesscentral.dynamics.com?report=4403)
+Try the report here: [Aged Accounts Payable (Excel)](https://businesscentral.dynamics.com?report=4403)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
@@ -90,7 +93,7 @@ Try the report here: [Aged Accounts Payables Excel](https://businesscentral.dyna
 
 ## Alternative reports
 
-There are several other ways to analyze aged accounts payable. To learn more, go to:
+There are several other ways to analyze aged accounts payable. Learn more in the following articles:
 
 - [Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)
 - [Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)
@@ -103,7 +106,7 @@ There are several other ways to analyze aged accounts payable. To learn more, go
 
 ## Related information
 
-[Accounts payable analytics](../receivables-reports.md)  
+[Accounts payable analytics](../payables-reports.md)
 [Key finance report overview](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

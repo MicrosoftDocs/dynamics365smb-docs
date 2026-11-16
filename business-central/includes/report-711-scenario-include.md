@@ -1,1 +1,1 @@
-Review the highest or lowest selling items based on quantity and amount over a selected period to assist with purchase planning.
+Review the highest or lowest selling items based on sales amounts over a selected period, or rank items by inventory quantity, to assist with purchase planning.

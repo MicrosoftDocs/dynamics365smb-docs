@@ -11,7 +11,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 01/28/2025
+  ms.date: 11/12/2026
   hide_bc: true
 
 highlightedContent:
@@ -533,7 +533,7 @@ additionalContent:
     #    url: /dynamics365/business-central/application/    
     - title: Develop for integration
       links:
-      - text: Web services (OData, SOAP)
+      - text: Web services (OData, REST APIs)
         url: /dynamics365/business-central/dev-itpro/webservices/web-services
       - text: Connect apps 
         url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps 

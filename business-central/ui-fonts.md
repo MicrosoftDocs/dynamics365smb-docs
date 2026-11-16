@@ -4,7 +4,7 @@ description: Learn about fonts for Business Central report layouts, including do
 author: brentholtorf
 ms.topic: reference
 ms.devlang: al
-ms.date: 02/28/2025
+ms.date: 11/12/2026
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central

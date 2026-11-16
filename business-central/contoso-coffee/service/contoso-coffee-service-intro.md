@@ -1,13 +1,14 @@
 ---
-title: Introduction to Contoso Coffee service management
-description: This article introduces you to the Consoso Coffee demonstration data for service management.
+title: Introduction to Contoso Coffee Service Management
+description: Set up Contoso Coffee service demo data to explore repairs, loaners, service contracts, and resources with the right skills in Business Central.
 author: andreipanko
 ms.author: andreipa
 ms.topic: how-to
-ms.date: 07/16/2026
+ms.date: 11/12/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ai-usage: ai-assisted
 ---
 
 # Introduction to Contoso Coffee service management
@@ -24,27 +25,26 @@ This app provides several elements that are used for the main walkthroughs:
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
-Once the relevant apps are installed, go to the [Contoso Demo Tool](https://businesscentral.dynamics.com/?page=5194) page in [!INCLUDE [prod_short](../../includes/prod_short.md)], select the *Service Module* line and use the **Configure** action to prepare the  modules. The following table describes the settings:  
+Once the relevant apps are installed, go to the [Contoso Demo Tool](https://businesscentral.dynamics.com/?page=5194) page, select **Service**, and choose **Configure**. The following table describes the settings:
 
 |Field  |Description  |
 |---------|---------|
-|**Customer No.**  |The customer to use for the scenarios in sales operations.|
-|**Vendor No.**  |The vendor to use for all scenarios in purchasing operations.|
-|**Item 1 No.**  |The item to use for the repair and maintenance scenarios.|
-|**Service Item 1 No.**  |The item of type service to use repear scenario.|
-|**Service Item 2 No.**  |The item of type service to use repear scenario.|
-|**Resource 1 No.**  |The resource to use for the contract scenarios.|
-|**Resource 2 No.**  |The resource to use for the break/fix scenarios.|
-|**Service Location** |Specifies the warehouse that you want to use for service operations. The default is *MAIN*, but you can change it to suit your needs.|
+|**Customer No.**|Specifies the customer for the service scenarios. The default is **10000**.|
+|**Item 1 No.**|Specifies the inventory item used in repair and maintenance scenarios. The default is **S-100, S-100 Semi-Automatic**, which requires the plumbing skill.|
+|**Service Item 1 No.**|Specifies the service-type item used to charge an equipment fee. The default is **SER101, Equipment Fee**, with a unit of measure of **DAY**.|
+|**Service Item 2 No.**|Specifies the service-type item used to charge for repairs. The default is **SER102, Repair**, with a unit of measure of **HOUR**.|
+|**Resource 1 No.**|Specifies the first service resource. The default is **RESOURCE1**, with the electrical skill.|
+|**Resource 2 No.**|Specifies the second service resource. The default is **RESOURCE2**, with the plumbing skill required for item **S-100**.|
+|**Service Location**|Specifies the location for service operations. The default is **MAIN**, but you can change it to suit your needs.|
 
-Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
+When you're ready, return to **Contoso Demo Tool**, select **Service**, and choose **Generate**. Required dependency modules are generated automatically. **Generate Setup Data** creates only setup records, not the items, resources, or sales order needed for the walkthroughs. If you configure different identifiers, use your values instead of the defaults in the walkthroughs.
 
-## Scenarios
+## Explore service management scenarios
 
 The Contoso Coffee demo data currently supports the following service scenarios for test and training:
 
-1. Create service order for ad-hoc repair request, place and receive Loaners, register time, and invoice customers with [Walkthrough of Service Orders for Service Items](service-basic-flow-order.md)
-2. Create service contracts, generate service orders, invoice contract fees, and allocate resources with [Walkthrough of Service Contracts for Service Items](service-contract-flow.md)
+1. Create a service order for a repair request, lend and receive a loaner, and invoice the customer with [Walkthrough of service orders for service items](service-basic-flow-order.md).
+1. Create a service contract, invoice contract fees, and allocate a resource with the required skill with [Walkthrough of service contracts for service items](service-contract-flow.md).
 
 Read the steps for each scenario in the relevant article.  
 
@@ -55,3 +55,5 @@ Read the steps for each scenario in the relevant article.
 ## Related information
 
 [Service](../../service-service.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

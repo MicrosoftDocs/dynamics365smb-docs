@@ -1,20 +1,21 @@
 ---
-title: Set up subcontracting prices and allocate item charges
+title: Set Up Subcontracting Prices and Allocate Item Charges
 description: Walkthrough to learn how to set up subcontracting price lists and allocate extra costs using item charges in Business Central.
-ms.date: 10/19/2026
+ms.date: 11/12/2026
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Set up subcontracting prices and allocate item charges
 
 This article explains how to use the Contoso Coffee demo data to set up a subcontracting price list and allocate extra costs to subcontracted work using item charges. Instead of using a fixed cost on the routing, you can maintain a price list that [!INCLUDE [prod_short](../../includes/prod_short.md)] uses automatically when you create purchase orders.
 
-## Scenario
+## Scenario for pricing subcontracted Airpots and freight
 
 You work with the subcontractor that assembles Airpots for Contoso Coffee. The subcontractor charges per unit, but there's a minimum order amount of 100.00 in local currency (LCY). You must set up a price list so that [!INCLUDE [prod_short](../../includes/prod_short.md)] applies the correct price when you create subcontracting purchase orders.
 
@@ -24,17 +25,18 @@ After receiving the subcontracted work, a separate transport cost arrives from a
 
 To run this scenario, you need:
 
-- The Contoso Coffee Manufacturing demo data installed with opening balances posted.
+- The **Manufacturing** module generated in **Contoso Demo Tool**, including its automatically posted opening inventory. Learn more in [Set up Contoso Coffee manufacturing data](contoso-coffee-manufacturing-intro.md#set-up-contoso-coffee-manufacturing-data).
 - The **Subcontracting** app installed from the marketplace.
 - Item **SP-SCM1009** with **Routing No.** set to **SP-SCM1009-SUB-F** (single subcontracting operation on **Work Center 600, Local Assembly**, linked to vendor **83000, Local Assembly**). If you ran a previous walkthrough with routing SUB-1, change it back to SUB-F on the item card.
 - Vendor **83000, Local Assembly** with **Subcontracting Location Code** set to **S83000**. Learn more in [Set the subcontracting location code on the vendor](subcontracting-component-supply-methods.md#set-the-subcontracting-location-code-on-the-vendor).
+- Work center **600** with **Unit Cost Calculation** set to **Units**, as configured by the demo data. The prices in this walkthrough are per item, not per unit of capacity time.
 
 > [!IMPORTANT]
 > This scenario creates subcontracting price entries and posts purchase documents. If you want to repeat the scenario, delete the price entry and any open production or purchase orders from the previous run.
 
 ## Set up the subcontracting price list
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontractor Prices**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Subcontractor Prices**, and then choose the related link.
 1. On a new line, fill in the fields as described in the following table.
 
    | Field | Value |
@@ -48,11 +50,11 @@ To run this scenario, you need:
    The Vendor No., Item No., and Work Center No. fields are required. The **Minimum Amount** means that even if the unit price multiplied by quantity results in a lower amount, the purchase order line amount is at least 100.00.
 
    > [!TIP]
-   > For more granular pricing, define prices by **Variant Code**, **Standard Task Code**, and **Unit of Measure Code**. [!INCLUDE [prod_short](../../includes/prod_short.md)] resolves the most specific match.
+   > For more granular pricing, define prices by **Variant Code**, **Standard Task Code**, and **Unit of Measure Code**. Matching also considers the effective dates, currency, and minimum quantity. **Variant Code** is hidden by default. To reproduce this example, avoid competing price entries for the same vendor, item, and work center.
 
 ### Create the production order
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Orders**, and then choose the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Released Production Orders**, and then choose the related link.
 1. Select the **New** action, and then fill in the fields as described in the following table.
 
     | Field | Value |
@@ -70,8 +72,8 @@ To run this scenario, you need:
 1. Select the subcontracting operation, and then select **Functions**, **Create Subcontracting Order**.
 1. Open the purchase order.
 1. On the **Lines** FastTab, check the **Direct Unit Cost Excl. Tax** field. [!INCLUDE [prod_short](../../includes/prod_short.md)] got the price from the subcontracting price list, but because 5 × 15.00 = 75.00 is less than the minimum amount of 100.00, the unit cost is adjusted to **20.00** (100.00 ÷ 5) to meet the minimum.
-1. Check the **Line Amount** field. It shows **100.00** minus the minimum amount applies.
-1. The **Subcontracting Prices** FactBox shows matching price entries for this vendor, item, and work center combination.
+1. Check the **Line Amount** field on the subcontracting work line. It shows **100.00** because the minimum amount applies.
+1. In the **Subcontracting Details** FactBox, select **Subcontractor Prices** to view matching price entries for this vendor, item, and work center combination.
 
 ### Receive and invoice the subcontracting order
 
@@ -80,7 +82,7 @@ To run this scenario, you need:
 
 ### Allocate an item charge for transport costs
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.
+1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Purchase Invoices**, and then select the related link.
 1. Select the **New** action. In the **Vendor No.** field, select **10000, Fabrikam, Inc.**.
 1. In the **Vendor Invoice No.** field, enter an invoice number (for example, **TRANSPORT-001**).
 1. On the **Lines**, set the **Type** field to **Charge (Item)**.
@@ -109,4 +111,6 @@ To run this scenario, you need:
 [Set Up and Process a Subcontracting Operation](set-up-process-subcontracting-operation.md)  
 [Use Different Component Supply Methods in Subcontracting](subcontracting-component-supply-methods.md)  
 [Subcontracting prices](../../subcontract-prices.md)  
-[Subcontracting overview](../../production-how-to-subcontract-manufacturing.md)  
+[Subcontracting overview](../../production-how-to-subcontract-manufacturing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

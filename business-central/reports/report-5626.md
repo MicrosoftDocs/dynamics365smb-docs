@@ -1,23 +1,25 @@
 ---
 title: Insurance - Uninsured FAs (report)
-description: Check whether you forgot to assign a fixed asset to an insurance policy.
+description: Find active fixed assets without insurance coverage ledger entries, and review their acquisition cost, depreciation, and book value for insurance follow-up.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5626_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Insurance - Uninsured FAs (report)
 
-The **Insurance - Uninsured FAs** report shows fixed assets for which amounts aren't posted to the insurance coverage ledger.
+The **Insurance - Uninsured FAs** report shows active, undisposed fixed assets without an insurance coverage ledger entry that isn't marked **Disposed FA**. An asset with such an entry is considered insured even if its net insured amount is zero.
+
+The report requires **Insurance Depr. Book** in **Fixed Asset Setup**. It shows acquisition cost, depreciation, and book value from that book. Assets without that depreciation book are excluded. The report identifies missing coverage entries, not whether policy limits are adequate.
 
 ## Use cases
 

@@ -6,7 +6,7 @@ ms.author: solsen
 ms.reviewer: solsen
 ms.topic: concept-article
 ms.search.keywords: reporting
-ms.date: 07/03/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ai.usage: ai-assisted

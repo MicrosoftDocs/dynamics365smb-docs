@@ -4,7 +4,7 @@ description: Learn about payables and receivables features specific to the Czech
 author: ACMartinKunes
 ms.topic: article
 ms.search.keywords: Czech, Receivables, Payables, Finance, CZ, Cash
-ms.date: 10/08/2026
+ms.date: 11/16/2026
 ms.reviewer: bholtorf
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

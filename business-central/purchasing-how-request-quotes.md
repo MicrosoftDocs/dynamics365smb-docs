@@ -1,11 +1,11 @@
 ---
 title: Create a purchase quote to request an offer
-description: Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.
+description: Describes how to create a purchase quote or a request for quote (RFQ) document to request an offer from a vendor to buy products under certain terms.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346,
-ms.date: 03/27/2026
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

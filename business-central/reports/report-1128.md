@@ -1,25 +1,25 @@
 ---
-title: Cost Acctg. Journal (report)
-description: Run this report to review posted cost entries and ensure transactions were properly recorded in cost journals.
+title: Cost Accounting Journal (Report)
+description: Review unposted cost journal lines and optional error messages to check dates, documents, cost types, and cost assignments before posting.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: cost accounting, journal entries, cost validation
 ms.search.form: Report_1128_Primary
-ms.date: 06/23/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/23/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/23/2025
+ai-usage: ai-assisted
 ---
 
 # Cost Acctg. Journal (report)
 
-The **Cost Acctg. Journal** report displays journalized cost entries, including amounts, posting dates, and related dimensions. It helps validate that cost transactions were properly recorded in cost journals.
+The **Cost Acctg. Journal** report lists unposted cost journal lines, including amounts, posting dates, cost types, cost centers, and cost objects. Use it to check the journal before posting.
 
-You can filter the report by entry number or posting date to focus on specific transactions.
+Filter by journal template, journal batch, posting date, line number, cost center, or cost object. Choose **With Error Messages** to include checks for missing dates or document numbers, blocked or invalid cost types, and missing or conflicting cost center and cost object codes.
 
 ## Use cases
 
@@ -28,25 +28,25 @@ You can filter the report by entry number or posting date to focus on specific t
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Review cost entries recorded in journals to ensure accuracy and completeness.
-> * Use filters to isolate specific entries by date or entry number for targeted validation.
-> * Trace cost postings to confirm they align with expected financial activity.
-> * Validate journal entries as part of month-end or audit procedures.
+> * Review unposted cost journal lines for accuracy and completeness.
+> * Use filters to isolate specific lines by posting date or line number.
+> * Check the proposed cost amounts and balancing cost types.
+> * Review error messages before you post the journal.
 
 Accountants can use the report to:
 
-* Validate cost postings.
-* Ensure transactions are properly recorded in cost journals.
+* Validate proposed cost postings.
+* Check that journal lines are ready to post.
 
 Controllers can use the report to:
 
-* Trace cost activity.
+* Review planned cost activity.
 * Support internal controls and compliance reviews.
 
 Auditors may reference the report to:
 
-* Verify the accuracy of journal entries.
-* Confirm completeness of cost data during audits.
+* Review the accuracy of unposted journal lines.
+* Review proposed cost transactions before posting.
 
 ## Try the report
 

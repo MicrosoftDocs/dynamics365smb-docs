@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords:
-ms.date: 03/06/2024
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

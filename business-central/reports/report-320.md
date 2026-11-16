@@ -1,18 +1,18 @@
 ---
-title: Vendor Item catalog (report)
-description: Get a list of vendors by item or items per vendor.
+title: Vendor Item Catalog Report in Business Central
+description: Review vendor purchase prices, lead time calculations, and vendor item numbers with the Vendor Item Catalog report to support purchasing decisions.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_320_Primary
-ms.date: 10/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/07/2024
 ---
 
 # Vendor Item catalog (report)

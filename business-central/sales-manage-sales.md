@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: trade, sell
 ms.search.form: 253,
-ms.date: 04/07/2026
+ms.date: 11/16/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

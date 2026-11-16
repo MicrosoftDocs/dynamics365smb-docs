@@ -1,18 +1,18 @@
 ---
-title: Detail Trial Balance (report)
-description: Audit and reconcile your general ledger balances at the end of the period by viewing the net change, opening balance, each transaction in the period and the closing balance grouped by G/L account.
+title: Detail Trial Balance Overview (Report)
+description: Audit general ledger opening balances, transactions, running balances, and closing balances for a selected period and account range.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Detail Trial Balance (report)

@@ -1,23 +1,25 @@
 ---
-title: Foreign Currency Balance (report 503)
-description: Displays account balances in both local and foreign currencies for G/L, customer, or vendor accounts. Use it for monitoring and reconciling multi-currency transactions, especially during revaluation or when reviewing exchange rate impacts.
+title: Foreign Currency Balance (Report 503)
+description: Compare customer, vendor, and bank account currency balances with local currency values at the work-date exchange rate without posting adjustments.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, currency, revaluation, foreign exchange
 ms.search.form: Report_503_Primary
-ms.date: 06/21/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/21/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/21/2025
+ai-usage: ai-assisted
 ---
 
 # Foreign Currency Balance (report)
 
-The **Foreign Currency Balance** report displays account balances in both local and foreign currencies for G/L, customer, or vendor accounts and is especially useful for managing multi-currency accounts.
+The **Foreign Currency Balance** report shows customer and vendor balances by currency, together with foreign-currency bank account balances. It compares recorded local currency amounts with values converted at the exchange rate on the work date. It doesn't show G/L account balances or post exchange rate adjustments.
+
+Use the currency and date filters to focus the balances shown. The conversion rate is based on the work date, not the ending date of the date filter.
 
 ## Use cases
 
@@ -26,9 +28,9 @@ The **Foreign Currency Balance** report displays account balances in both local 
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Run the report for G/L, customer, or vendor accounts depending on your reconciliation needs.
+> * Review customer and vendor currency totals alongside individual bank account balances.
 > * Use it to identify discrepancies caused by exchange rate changes and to support revaluation adjustments.
-> * Us it for help to reconcile foreign currency transactions and supports currency revaluation or reporting.
+> * Use it to review exchange rate effects before you run any separate exchange rate adjustment process.
 
 Finance professionals, controllers, and accountants can use the report to:
 

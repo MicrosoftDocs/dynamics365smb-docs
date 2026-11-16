@@ -1,25 +1,25 @@
 ---
-title: Calculate and Post Tax Settlement (report)
-description: Used at the end of a VAT period to calculate and post the amount payable or receivable for tax filing. Calculates VAT based on posted entries and creates a journal to record the VAT settlement. Typically run monthly or quarterly depending on filing frequency.
+title: Calculate and Post Tax Settlement (Report)
+description: Calculate VAT settlement from open VAT entries, review a test report, or post the transfer to a settlement account and close the entries.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: VAT, tax, settlement, reporting, finance
 ms.search.form: Report_20_Primary
-ms.date: 06/25/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/25/2025
+ai-usage: ai-assisted
 ---
 
 # Calculate and Post Tax Settlement (report)
 
-The **Calculate and Post Tax Settlement** report helps with VAT settlement. The report calculates the net amount of VAT that's due or refundable and posts a journal to record the settlement. It streamlines end-of-period VAT processing and helps ensure accurate tax reporting.
+The **Calculate and Post Tax Settlement** report calculates the net amount of VAT that's due or refundable from open VAT entries. With **Post** turned on, it posts the transfer to the VAT settlement account and closes the settled VAT entries. With **Post** turned off, it only prints a test report. It doesn't save an unposted journal for later review.
 
-Typically, businesses use the report at the end of a monthly or quarterly VAT filing period. The report evaluates posted VAT entries and generates the journal entries for submission.
+Typically, businesses use the report at the end of a monthly or quarterly VAT filing period. Enter the starting and ending VAT reporting dates, posting date, document number, and settlement account. The report doesn't submit a tax return.
 
 ## Use cases
 
@@ -29,7 +29,7 @@ Typically, businesses use the report at the end of a monthly or quarterly VAT fi
 > Here are some tips on how to use the report:
 >
 > * Run the report at the end of each VAT period to automate settlement.
-> * Review the generated journal before posting to ensure accuracy.
+> * Run with **Post** turned off and review the test report before running again with **Post** turned on.
 > * Use filters to target specific VAT entries or periods.
 > * Coordinate with finance teams to align on filing schedules and thresholds.
 

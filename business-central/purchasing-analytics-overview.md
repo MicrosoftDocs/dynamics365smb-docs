@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 9306, 9307, 518, 29, 36996, 37009, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37025, Report_307, Report_308, Report_311, Report_312, Report_313, Report_409, Report_716, Report_319, Report_320, Report_707, Report_709, Report_714, Report_716, Report_720
-ms.date: 10/03/2025
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -25,7 +25,7 @@ Businesses capture lots of data during daily activities that supports business i
 - Power BI reports for purchasing
 - Ad-hoc analysis on lists
 - Ad-hoc analysis of data in Excel (using open in Excel)
-- Built-in sales reports
+- Built-in purchasing reports
 
 Each of these features has advantages and disadvantages, depending on the type of data analysis and the role of the user. Learn more in [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
@@ -73,7 +73,7 @@ Learn more about financial reports in [Prepare Financial Reports with Financial 
 
 ## Finance reporting across business units or legal entities (related to purchasing)
 
-Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for purchasing management, you might want to consolidate general ledger entries for your purchasing accounts to track sales KPIs across business units or legal entities.
+Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for purchasing management, you might want to consolidate general ledger entries for your purchasing accounts to track purchasing KPIs across business units or legal entities.
 
 Learn more in [Company consolidation](finance-consolidated-company-reporting.md).
 
@@ -86,11 +86,11 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 
 The **Data Analysis** feature lets you open almost any list page, such as **Purchase Orders**, **Posted Purchase Invoices**, **Vendor Ledger Entries**, or **General Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
-:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
+:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Vendor Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
 Similarly, you can use the **Open in Excel** action to open a list page, filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
-:::image type="content" source="media/open-in-excel-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries data using Excel." lightbox="media/open-in-excel-vendor-ledger-entries.png":::
+:::image type="content" source="media/open-in-excel-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Vendor Ledger Entries data using Excel." lightbox="media/open-in-excel-vendor-ledger-entries.png":::
 
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser.

@@ -1,27 +1,27 @@
 ---
 title: Project Task Transaction Detail (report)
-description: Get an overview of posted project tasks, such as resources and items. 
+description: Review posted project usage and sales transactions by task, including quantities, costs, prices, discounts, and amounts in local or foreign currency.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1007_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Project Task Transaction Detail (report)
 
-The **Project Task Transaction Detail** report shows an overview of posted project tasks, such as resources and items. It includes a detailed information about the total costs and total sales, plus information concerning line discounts, and so on.
+The **Project Task Transaction Detail** report shows posted transactions by project task, including resources, items, and G/L accounts. It lists quantities, documents, costs, prices, line discounts, and line amounts, with separate totals for usage and sales entries.
 
 You can choose whether the currency displays in local currency or foreign currency.
 
-The data the report shows comes from the project ledger entries.
+The data comes from project ledger entries and follows **Posting Date Filter**. Projects without usage entries are excluded.
 
 ## Use cases
 

@@ -1,25 +1,25 @@
 ---
-title: Receivables-Payables (report)
-description: Displays a side-by-side comparison of customer and vendor balances versus G/L control accounts to confirm consistency and highlight reconciliation issues.
+title: Receivables-Payables Overview (Report)
+description: Compare receivables and payables by due date in local currency to review expected incoming and outgoing amounts across selected periods.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5_Primary
-ms.date: 06/17/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/17/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/17/2025
+ai-usage: ai-assisted
 ---
 
 # Receivables-Payables (report)
 
-The **Receivables-Payables** report shows a summary of outstanding accounts receivable (AR) and accounts payable (AP) balances and compares them to the general ledger (G/L). You can select a posting date and currency to tailor the report.
+The **Receivables-Payables** report compares customer and vendor balances due across periods. It shows receivables, payables, the net change, and the cumulative net balance in local currency (LCY). It doesn't compare subledger balances with general ledger control accounts.
 
-The report displays a side-by-side comparison of customer and vendor balances versus their respective G/L control accounts. This helps confirm consistency and highlight reconciliation issues.
+Set **Starting Date**, **No. of Periods**, and **Period Length** to define the periods. Amounts are grouped by the original due dates of customer and vendor ledger entries, not by posting date. The report also shows amounts due before and after the selected periods.
 
 ## Use cases
 
@@ -27,15 +27,14 @@ The report displays a side-by-side comparison of customer and vendor balances ve
 
 Controllers and finance teams can use the report to:
 
-* Reconcile AR and AP subledger balances with their respective G/L control accounts during financial close.
-* Identify discrepancies between subledger and ledger balances.
-* Confirm consistency and highlight reconciliation issues.
-* Quickly verify if AR and AP subledgers match their respective control accounts in the G/L.
+* Compare receivables and payables due in each period.
+* Identify periods when amounts payable exceed amounts receivable.
+* Review the cumulative net balance to support short-term cash planning.
 
 Auditors can use the report to:
 
-* Verify that customer and vendor balances align with the G/L.
-* Investigate mismatches that could indicate posting errors or timing issues.
+* Review the distribution of customer and vendor balances by due date.
+* Investigate unexpectedly large amounts due in a period.
 
 
 ## Try the report

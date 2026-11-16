@@ -1,21 +1,25 @@
 ---
-title: Fixed Asset Details (report)
-description: Get detailed transaction information and reference data for your asset management.
+title: Fixed Asset Transaction Details (report)
+description: Review posted fixed asset transactions for a selected depreciation book and FA posting date filter, with an option to include reversed ledger entries.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5604_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Details (report)
 
-The **Fixed Asset Details** report shows fixed asset ledger entries for fixed assets. The report provides detailed information about each fixed asset, including acquisition cost, depreciation, and book value.
+The **Fixed Asset Details** report shows fixed asset ledger entries for a selected depreciation book. It lists transaction amounts, posting types, documents, depreciation days, and G/L entry references. It doesn't calculate a book value balance.
 
-You can choose to include reversed entries in the report.
+Use **FA Posting Date Filter** to limit the transactions by fixed asset posting date. You can choose to include reversed entries in the report. Inactive assets are excluded.
+
+> [!NOTE]
+> This legacy report is marked obsolete from version 28.0. Use [Fixed Asset Details (Excel report)](report-4411.md) for the replacement report.
 
 ## Use cases
 
@@ -29,10 +33,10 @@ Try the report here: [Fixed Asset Details](https://businesscentral.dynamics.com?
 
 ## Alternative reports
 
-There are several other ways to analyze your fixed assets. To learn more, go to:
+There are several other ways to analyze your fixed assets. Learn more in the following articles:
 
-- [Fixed Asset Details Excel](report-4411.md) 
-- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
+- [Fixed Asset Details Excel](report-4411.md)
+- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)
 
 ## Related information
 

@@ -1,1 +1,1 @@
-Remove internal transactions between companies during financial consolidation to avoid duplicate revenues and expenses. Run this report after posting all intercompany transactions to ensure accurate and compliant group-level financial statements. Use it to streamline consolidation and maintain the integrity of financial reporting.
+Preview how unposted elimination entries in a selected general journal batch affect consolidated amounts. Use the report to review eliminations before posting the journal. The report doesn't create or post elimination entries.

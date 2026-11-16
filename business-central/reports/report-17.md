@@ -1,5 +1,5 @@
 ---
-title: Consolidated Trial Balance (report)
+title: Consolidated Trial Balance (Report)
 description: Combines financial data across companies, allowing finance teams to analyze consolidated performance and ensure alignment across entities.
 author: kennieNP
 ms.author: kepontop
@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting, consolidation, trial balance
 ms.search.form: Report_17_Primary
-ms.date: 06/20/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/20/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/20/2025
+ai-usage: ai-assisted
 ---
 
 # Consolidated Trial Balance (report)
@@ -20,6 +20,8 @@ ai.usage: ai-assisted
 The **Consolidated Trial Balance** report summarizes general ledger account balances from multiple companies into one unified view. Use it to review combined financial information for multiple entities under a parent structure. The report supports high-level financial analysis across the group.
 
 To reflect accurate and aligned financial data, be sure to complete all consolidation steps before you generate the report.
+
+Run the report in the consolidated company after importing business unit data. Enter the consolidation **Starting Date** and **Ending Date**. For each G/L account, the report lists net change and balance by business unit, posted eliminations, and combined totals. You can show amounts in whole thousands.
 
 ## Use cases
 

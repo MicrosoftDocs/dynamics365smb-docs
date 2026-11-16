@@ -1,5 +1,5 @@
 ---
-title: Vendor - Trial Balance (report)
+title: Vendor - Trial Balance (Report)
 description: Analyze the closing balance of vendors at the end of the period and reconcile the vendor subledger against the payables accounts in the general ledger.
 author: kennieNP
 ms.author: kepontop
@@ -7,19 +7,19 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_329_Primary
-ms.date: 10/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/07/2024
+ai-usage: ai-assisted
 ---
 
 # Vendor - Trial Balance (report)
 
 The **Vendor - Trial Balance** report shows the beginning balance and net change for the mandatory date range that you select in the date filter.
 
-If you use accounting periods, the report shows the fiscal year amounts for the beginning balance, net change, and ending balance.
+The report also shows fiscal-year-to-date amounts in local currency. You must have an accounting period marked **New Fiscal Year** on or before the ending date. The report uses the latest such period to determine the fiscal-year start.
 
 The report is segmented for vendors in each vendor posting group. The grouping makes it easier to reconcile the ending balance against the general ledger payables accounts.
 
@@ -66,7 +66,7 @@ Accounts payable specialists use the report to:
 
 Controllers use the report to:
 
-* Monitor vendor performance. The report provides information about net changes for vendors for the period specified in the date filter. It also shows the year-to-date net change for the corresponding fiscal year. Use this information to monitor vendor performance and identify potential issues that might affect the procurement processes.
+* Review period and year-to-date balances. Compare changes by vendor posting group and investigate unexpected amounts before closing the period.
 
 ## Try the report
 

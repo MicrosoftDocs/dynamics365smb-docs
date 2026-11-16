@@ -1,25 +1,28 @@
 ---
-title: Customer - Top 10 list (report)
-description: Review customers with the most transactions within a selected period to identify sales trends and manage collectable debts.
+title: Customer - Top 10 List (Report)
+description: Rank customers by sales amount or current balance in local currency, select how many to show, and find the replacement Excel report.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_111_Primary
-ms.date: 10/03/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/07/2024
+ai-usage: ai-assisted
 ---
 
 # Customer - Top 10 list (report)
 
-The **Customer - Top 10 list** report shows a list of the customers with the most transactions within a selected period. If needed, you can display more than 10 customers.
+The **Customer - Top 10 list** report ranks customers by **Sales (LCY)** or **Balance (LCY)**, not by transaction count. Use **Number of Customers** to display more or fewer than 10 customers.
 
-The report sorts customers by sales amount within the selected period. The list gives a quick overview of the customers with the largest balances and the highest sales volume.
+Use **Date Filter** to restrict sales to a selected period. The balance is the customer's current balance, not a balance calculated as of the period end.
+
+> [!NOTE]
+> This report was marked obsolete in version 28. Use [Customer Top List Excel (report)](report-4409.md) for the replacement.
 
 You can display the calculated figures in a bar or pie chart.
 
@@ -41,7 +44,7 @@ Try the report here: [Customer - Top 10 list](https://businesscentral.dynamics.c
 
 ## Alternative reports
 
-There are several other ways to analyze your customers. To learn more, go to:
+There are several other ways to analyze your customers. Learn more in the following articles:
 
 - [Power BI Sales app](../sales-powerbi-app.md)
 - [Using data analysis to analyze sales](../ad-hoc-analysis-sales.md)

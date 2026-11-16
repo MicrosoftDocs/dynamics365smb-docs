@@ -1,18 +1,18 @@
 ---
-title: Assembly BOMs (report)
-description: Get an overview of Assembly Bill of Materials (BOMs), including BOMs that are part of the main BOM.
+title: Assembly BOMs Report in Business Central
+description: Review assembly bills of materials and their components. Check component quantities, units of measure, and whether components have an assembly BOM.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_801_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/28/2024
 ---
 
 # Assembly BOMs (report)

@@ -1,1 +1,1 @@
-Identify posted transactions where VAT was expected but not applied. The report helps ensure that your VAT setup is accurate, which prevents reporting errors before you file tax returns.
+Review recorded VAT differences that meet a minimum threshold in either direction. Investigate adjustments on existing VAT entries before filing returns. The report doesn't identify transactions with missing VAT entries.

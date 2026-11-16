@@ -5,7 +5,7 @@ author: brentholtorf
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: shipping advice, partial shipments, partial deliveries, trade, customer sales order 
-ms.date: 02/14/2024
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---

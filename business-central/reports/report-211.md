@@ -1,25 +1,25 @@
 ---
-title: Customer - Payment Receipt (report)
-description: View payment receipts for each customer ledger entry of the type Payment.
+title: Customer - Payment Receipt (Report)
+description: View receipts for customer payments and refunds in Business Central. Review applied entries, discounts, tolerances, and remaining unapplied amounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_211_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Customer - Payment Receipt (report)
 
-The **Customer - Payment Receipt** report shows a payment receipt for each customer ledger entry of type **Payment**. 
+The **Customer - Payment Receipt** report shows a receipt for customer ledger entries of type **Payment** or **Refund**. Filter by customer number, posting date, or document number to select the entries.
 
-If the payment was applied to invoices, the invoices are specified. Otherwise, it just states the payment amount as unapplied.
+The receipt shows entries applied to the payment or refund, including payment discounts and tolerances, and any remaining unapplied amount.
 
 ## Use cases
 

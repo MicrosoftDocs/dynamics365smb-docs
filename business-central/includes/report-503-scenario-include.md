@@ -1,1 +1,1 @@
-Monitor and reconcile foreign currency transactions, particularly during revaluation periods or when reviewing the impact of exchange rate fluctuations.
+Monitor and reconcile foreign currency balances, particularly during revaluation periods or when reviewing the impact of exchange rate fluctuations.

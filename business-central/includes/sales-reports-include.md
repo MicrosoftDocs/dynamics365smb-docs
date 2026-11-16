@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/18/2026
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -19,7 +19,7 @@ The following table describes some of the key reports for sales. The reports hel
 | [!INCLUDE [report-1307-scenario](../includes/report-1307-scenario-include.md)] | [Standard Sales - Credit Memo](https://businesscentral.dynamics.com?report=1307) | [About *Standard Sales - Credit Memo*](../reports/report-1307.md) | 1307 |
 | [!INCLUDE [report-1308-scenario](../includes/report-1308-scenario-include.md)] | [Standard Sales - Shipment](https://businesscentral.dynamics.com?report=1308) | [About *Standard Sales - Shipment*](../reports/report-1308.md) | 1308 |
 | [!INCLUDE [report-1309-scenario](../includes/report-1309-scenario-include.md)] | [Standard Sales - Return Rcpt.](https://businesscentral.dynamics.com?report=1309) | [About *Standard Sales - Return Rcpt.*](../reports/report-1309.md) | 1309 |
-| [!INCLUDE [report-4409-scenario](../includes/report-4409-scenario-include.md)] | [Customer - Top list Excel](https://businesscentral.dynamics.com?report=4409) | [About Customer - Top list Excel](../reports/report-4409.md) | 4409 |
+| [!INCLUDE [report-4409-scenario](../includes/report-4409-scenario-include.md)] | [Customer - Top 10 List Excel](https://businesscentral.dynamics.com?report=4409) | [About Customer - Top 10 List Excel](../reports/report-4409.md) | 4409 |
 | [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About Customer - Order Summary](../reports/report-107.md) | 107 |
 | [!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)] | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About Customer - Order Detail](../reports/report-108.md) | 108 |
 | [!INCLUDE [report-113-scenario](../includes/report-113-scenario-include.md)] | [Customer/Item Sales](https://businesscentral.dynamics.com?report=113) | [About Customer/Item Sales](../reports/report-113.md) | 113 |

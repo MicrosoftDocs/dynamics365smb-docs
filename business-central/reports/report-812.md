@@ -1,23 +1,23 @@
 ---
 title: Assembly BOM - End Items (report)
-description: Get a list of items or bill of materials (BOMs) that are not components of any other BOMs. 
+description: Find items that aren't components in any assembly bill of materials. Filter the Assembly BOM - End Items report to focus on the items you need.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_812_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/28/2024
 ---
 
 # Assembly BOM - End Items (report)
 
-The **Assembly BOM - End Items** report shows a list of items or bills of materials (BOMs) that aren't components in other BOMs.
+The **Assembly BOM - End Items** report lists items that aren't used as components in any assembly bill of materials (BOM). The report checks assembly BOMs, not production BOMs.
 
 > [!NOTE]
 > This report isn't restricted to BOMs only, so remember to set a filter in the **Assembly BOM** or **Replenishment System** fields.

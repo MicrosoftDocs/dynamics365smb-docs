@@ -1,18 +1,18 @@
 ---
 title: Item Expiration - Quantity (report)
-description: Find on-hand stock that is expired or soon will. 
+description: Review remaining inventory quantities by expiration date. Set periods and item or location filters to identify expired stock and stock nearing expiry.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5809_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Item Expiration - Quantity (report)

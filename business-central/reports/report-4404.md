@@ -1,32 +1,33 @@
 ---
-title: Vendor - Top 10 List Excel (Excel report)
-description: Analyze the effect of vendors on cash flow, and prioritize vendor payments.
+title: Vendor - Top List (Excel Report)
+description: Rank vendors by purchase amounts or balances in local currency in Excel. Choose the number of vendors and posting-date filters for your analysis.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4404_Primary
-ms.date: 12/15/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 12/15/2024
-ai.usage: ai-assisted
+ai-seo-date: 12/15/2024
+ai-usage: ai-assisted
 ---
 
-# Vendor - Top 10 List Excel (report)
+# Vendor - Top List Excel (report)
 
-The **Vendor - Top 10 List Excel** report shows summarized purchase and balance data in local currency (LCY) for the top number of vendors selected. 
+The **Vendor - Top List (Excel)** report ranks vendors by purchase amounts or balances in local currency (LCY), according to **Show**. It doesn't rank vendors by transaction count.
 
-You can specify how many vendors to include in the report.
+Use **Quantity** to specify how many vendors to include. The default is 10.
 
-Data is summarized for the period specified in the request page's **Date filter** parameters. 
+The **Date Filter** applies to posting dates. With **Balance (LCY)**, a bounded date range gives the balance movement within that range. Use a filter through the ending date, such as `..12/31/2026`, to include earlier activity in an as-of balance.
 
-The report Excel workbook contains two worksheets that you can use to analyze your vendors:
+The Excel layout includes these report and data worksheets:
 
-- Top Vendor List, 
-- TopVendorData
+- Top Vendor List (Print)
+- Top Vendor List (Analysis)
+- TopVendorData, hidden by default
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
@@ -34,9 +35,9 @@ The report Excel workbook contains two worksheets that you can use to analyze yo
 
 [!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
-## Top Vendor List worksheet
+## Top vendor list worksheets
 
-This worksheet shows current purchase amounts and balance in LCY by vendor. You can group data by a Year-Quarter-Month-Day hierarchy on the due date.
+The **Top Vendor List (Print)** and **Top Vendor List (Analysis)** worksheets show purchase amounts and balances in LCY for the selected vendors. The dataset contains vendor numbers, names, and amounts, but no due dates or transaction counts.
 
 With filters and slicers, you can zoom into a single vendor or a group of vendors.
 
@@ -44,7 +45,7 @@ With filters and slicers, you can zoom into a single vendor or a group of vendor
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## TopVendorData worksheet
+## TopVendorData data worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
@@ -52,7 +53,7 @@ With filters and slicers, you can zoom into a single vendor or a group of vendor
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
-## Other worksheets
+## Other worksheets in the workbook
 
 [!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
@@ -90,7 +91,7 @@ Please include your data sources and URLs
 
 Procurement managers use the report to:
 
-- Monitor vendor performance. The report provides a complete view of the vendors with the most transactions in a selected period. Use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
+- Review purchasing concentration. Identify vendors with the largest purchase amounts or balances for the selected filters.
 - Prioritize vendor payments. The report provides a quick overview of the vendors with the largest balance and the highest purchase volume. Use this information to prioritize vendor payments and manage cash flow effectively.
 
 Accounts payable specialists use the report to:
@@ -103,7 +104,7 @@ Controllers use the report to:
 
 ## Try the report
 
-Try the report here: [Vendor - Top 10 List Excel](https://businesscentral.dynamics.com?report=4404)
+Try the report here: [Vendor - Top List (Excel)](https://businesscentral.dynamics.com?report=4404)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
@@ -113,7 +114,7 @@ Try the report here: [Vendor - Top 10 List Excel](https://businesscentral.dynami
 
 ## Alternative reports
 
-There are several other ways to analyze your vendors. To learn more, go to:
+There are several other ways to analyze your vendors. Learn more in the following articles:
 
 - [Power BI Purchasing app](../purchases-powerbi-app.md)
 - [Using data analysis to analyze vendors](../ad-hoc-analysis-purchasing.md)
@@ -130,6 +131,6 @@ There are several other ways to analyze your vendors. To learn more, go to:
 [Using data analysis to analyze vendors](../ad-hoc-analysis-purchasing.md)  
 [Purchase reports](../purchase-reports.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
-[Accounts payable analytics](../receivables-reports.md)  
+[Accounts payable analytics](../payables-reports.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,32 @@
 ---
 title: Fixed Asset Projected Value (Excel report)
-description: TODO
+description: Review posted entries and projected depreciation in Excel for a fixed asset depreciation book, with running book values and configurable projection periods.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4413_Primary
-ms.date: 12/27/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 12/27/2024
-ai.usage: ai-assisted
+ai-seo-date: 12/27/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Projected Value Excel (report)
 
-The **Fixed Asset Projected Value Excel** report shows how fixed asset ledger entries would depreciate in the dates specified on the request page for a given depreciation book. You can choose to include projected disposals and use the accounting periods specified in the Accounting Period table in the report.
+The **Fixed Asset Projected Value Excel** report combines posted fixed asset ledger entries with calculated depreciation for a selected depreciation book. It shows a running book value and identifies projected entries. The calculations don't post depreciation to the fixed asset ledger.
 
-The report Excel workbook contains two worksheets that you can use to analyze your fixed assets data:
+Specify **First Depreciation Date** and **Last Depreciation Date** for the projection. **Posted Entries From** controls which actual entries are included, not when depreciation starts. Use **Number of Days** or **Use Accounting Period** to set the projection intervals. **No. of Days in First Period** overrides the days used for the first depreciation calculation.
 
-- Projected Value
+Select **Projected Disposal** to limit projections to the asset's projected disposal date when that date falls within the projection period. Inactive assets and assets already disposed of are excluded.
+
+The report Excel workbook includes the following report and data worksheets:
+
+- Projected Value (Print)
+- Projected Value (Analysis)
 - FixedAssetData
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
@@ -30,17 +35,17 @@ The report Excel workbook contains two worksheets that you can use to analyze yo
 
 [!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
-## Projected Value worksheet
+## Projected value worksheets
 
-This worksheet shows the projected posting date, posting type, number of depreciation days, amount, and book value for the fixed assets and period specified on the report request page.
+These worksheets show the fixed asset posting date, posting type, number of depreciation days, amount, and book value for the fixed assets and period specified on the report request page.
 
-The filters and slicers on the worksheet let you zoom in on a fixed asset's class, subclass, or location. You can also filter by department code or project code, if needed.
+The filters and slicers on the analysis worksheet let you zoom in on a fixed asset's class, subclass, or location. You can also filter by the two global dimensions. The dimension names depend on your company's setup.
 
-:::image type="content" source="../media/excel-Fixed-Asset-Projected-Value-Projected-Value.png" alt-text="Screenshot of the Fixed Asset Details worksheet" lightbox="../media/excel-Fixed-Asset-Projected-Value-Projected-Value.png":::
+:::image type="content" source="../media/excel-Fixed-Asset-Projected-Value-Projected-Value.png" alt-text="Screenshot of the Fixed Asset Projected Value worksheet." lightbox="../media/excel-Fixed-Asset-Projected-Value-Projected-Value.png":::
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## FixedAssetData worksheet
+## Fixed asset data worksheet
 
 This worksheet shows the raw data used in the report.
 
@@ -50,7 +55,7 @@ This worksheet shows the raw data used in the report.
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
-## Other worksheets
+## Supporting workbook worksheets
 
 [!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
@@ -97,7 +102,7 @@ Please include your data sources and URLs
 Fixed asset managers use the report to:
 
 - Estimate the amount of accumulated depreciation of your assets at the end of the selected period.
-- Plan for the replacement of assets whose projected book value is less than their actual value.
+- Plan for the replacement of assets based on their projected book value.
 - Determine which assets are due for depreciation and plan for adjustments.
 
 Finance managers use the report to:
@@ -109,8 +114,10 @@ Finance managers use the report to:
 Accountants use the report to:
 
 - Calculate the tax implications of the projected depreciation amounts.
-- Reconcile financial statements by comparing the projected book value of assets with the actual book value.
+- Review depreciation forecasts by comparing the projected book value of assets with their posted book value.
 - Determine whether to adjust financial statements based on the projected values of depreciation.
+
+The report doesn't write amounts to a G/L budget.
 
 ## Try the report
 
@@ -124,10 +131,10 @@ Try the report here: [Fixed Asset Projected Value Excel](https://businesscentral
 
 ## Alternative reports
 
-There are several other ways to analyze your fixed assets. To learn more, go to:
+There are several other ways to analyze your fixed assets. Learn more in the following articles:
 
 - [Fixed Asset Projected Value (legacy report)](report-5607.md)
-- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
+- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)
 
 ## Contributors
 

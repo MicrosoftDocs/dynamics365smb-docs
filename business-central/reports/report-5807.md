@@ -1,27 +1,27 @@
 ---
 title: Item Age Composition - Quantity (report)
-description: Review the age of stock in your warehouse by quantity and identify unused or slow moving inventory.
+description: Review current inventory quantities by age using the legacy Item Age Composition - Quantity report. Find the replacement Excel report for aging analysis.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5807_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Item Age Composition - Quantity (report)
 
-The **Item Age Composition - Quantity** report shows on-hand inventory aged by receipt date.
+The **Item Age Composition - Quantity** report shows current remaining inventory quantities aged by posting date.
 
 You can configure the report's aging to generate three equal length periods on an ending date. The inventory's age is calculated for each period, as well as before and after the period. The report also shows the total inventory.
 
-The values represent the remaining quantity for open inbound item ledger entries, which are usually a result of purchases, output, or positive adjustments. The posting date for entries determines the bucket their value is in.
+The values represent remaining quantities on open item ledger entries. Each entry's posting date determines its age bucket. The ending date defines the age buckets, not a historical snapshot of remaining quantities.
 
 To determine the age of inventory by warehouse, you can filter the report by location. You can also filter by item.
 
@@ -68,18 +68,18 @@ Please include your data sources and URLs
 Inventory and warehouse managers use the report to:
 
 * Review the age of stock in their inventory or warehouse by quantity to identify unused or slow-moving inventory.
-* Analyze inventory aging to identify which products are in high demand and they should reorder.
-* Monitor inventory aging to ensure that the warehouse isn't storing unused or expired items.
+* Identify older remaining inventory that needs review before you reorder.
+* Review older inventory. To check expiration dates, use the [Item Expiration - Quantity report](report-5809.md).
 
 Purchasing managers use the report to:
 
-* Analyze inventory aging to identify which products are in high demand and they should reorder.
+* Review the age of remaining inventory when planning purchases. The report doesn't measure demand.
 * Review the age of stock in their inventory or warehouse by quantity to identify unused or slow-moving inventory.
 * Negotiate better pricing with suppliers for slow-moving inventory.
 
 Financial analysts use the report to:
 
-* Monitor inventory aging to ensure that the warehouse isn't storing unused or expired items.
+* Review the age distribution of current inventory quantities.
 * Calculate inventory turnover ratios and days in inventory to ensure effective inventory management.
 
 ## Try the report
@@ -90,8 +90,7 @@ Try the report here: [Item Age Composition - Quantity](https://businesscentral.d
 
 ## Alternative reports
 
-There are several other ways to analyze your inventory. To learn more, go to:
-
+There are several other ways to analyze your inventory. Learn more in the following articles:
 - [ Item Age Composition by Quantity and Value (Excel)](report-5808.md)
 - [Power BI inventory app](../inventory-powerbi-app.md)
 - [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)

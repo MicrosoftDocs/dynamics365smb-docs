@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37116_Primary
-ms.date: 9/30/2025
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -38,7 +38,7 @@ The *Purchase Return Overview* report includes the following KPIs and measures:
 - [**Return Rate (Qty.)**](purchases-powerbi-kpis.md#return-rate-qty)
 - [**Total Credit (Amount)**](purchases-powerbi-kpis.md#total-credit-amount)
 - [**Total Credit (Qty.)**](purchases-powerbi-kpis.md#total-credit-qty)
-- [**Total Purchase (Amount)**](purchases-powerbi-kpis.md#total-credit-amount)
+- [**Total Purchase (Amount)**](purchases-powerbi-kpis.md#total-purchase-amount)
 - [**No. of Outstanding Return Orders**](purchases-powerbi-kpis.md#no-of-outstanding-return-orders)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 

@@ -1,23 +1,23 @@
 ---
-title: About the BOM - Sub-Assemblies (report)
-description: Get an overview of the components in a subassembly bill of materials, for both assembly and production.
+title: Assembly BOM - Sub-Assemblies (Report)
+description: Review items that have an assembly bill of materials and are components in another assembly. Check inventory, unit costs, and alternative item numbers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_811_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/28/2024
 ---
 
-# About BOM - Sub-Assemblies (report)
+# BOM - Sub-Assemblies (report)
 
-The **About BOM - Sub-Assemblies** report shows an overview of components, if you produce and/or assemble subassemblies.
+The **BOM - Sub-Assemblies** report lists items that have an assembly bill of materials (BOM) and are also used as components in another assembly BOM. It lists the subassembly items, not the components inside each subassembly.
 
 The report shows the base unit of measure, the inventory, unit costs, and an item that you can use as an alternative.
 
@@ -59,7 +59,7 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [About BOM - Sub-Assemblies](https://businesscentral.dynamics.com?report=811)
+Try the report here: [BOM - Sub-Assemblies](https://businesscentral.dynamics.com?report=811)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

@@ -1,1 +1,1 @@
-Analyze item entries with dimension totals by building a groups of dimensions for combinations of dimension values, and view a calculated total based on columns you define. For example, net change, balance at date, and actual vs. budget. 
+Analyze item entries with dimension totals by building groups of dimensions for combinations of dimension values. View a calculated total based on columns you define, such as net change, balance at date, and actual vs. budget.

@@ -1,33 +1,34 @@
 ---
-title: Trial Balance (Excel report)
-description: Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance. 
+title: Trial Balance Excel Report for G/L Accounts
+description: Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4405_Primary
-ms.date: 06/15/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 12/13/2024
-ai.usage: ai-assisted
+ai-seo-date: 12/13/2024
+ai-usage: ai-assisted
 ---
 
 # Trial Balance Excel (report)
 
 The **Trial Balance Excel** report shows aggregated and summarized general ledger data for a trial balance with debit and credit columns for net change and balance.
 
-Your trial balance shows in both your local currency (LCY) and additional reporting currency (ACY). However, the report only shows data for the latter if you have setup the additional reporting currency feature.
+Your trial balance shows in both your local currency (LCY) and additional reporting currency (ACY). However, the report only shows data for the latter if you have set up the additional reporting currency feature.
 
-Data is aggregated for the period specified by the Datefilter parameter on the report's request page and summarized by the two global dimensions per G/L account category.
+Set **Date Filter** to select the reporting period. Data is summarized by G/L account and the two global dimensions. The dataset includes opening balances, net changes for the period, and closing balances, with separate debit and credit amounts. **Hide Accounts with No Activity** lets you omit accounts without report data.
 
-The Excel workbook contains three worksheets that you can use to analyze your trial balance:
+The Excel layout includes these report and data worksheets:
 
-- Trial Balance (LCY)
-- Trial Balance (ACY)
-- TrialBalanceData
+- Trial Balance List (Print)
+- Trial Balance LCY (Analysis)
+- Trial Balance ACY (Analysis)
+- TrialBalanceData, hidden by default
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
@@ -35,9 +36,9 @@ The Excel workbook contains three worksheets that you can use to analyze your tr
 
 [!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
-## Trial Balance (LCY) worksheet
+## Trial balance LCY analysis worksheet
 
-This worksheet shows the trial balance with amounts in LCY. The accounts from the chart of account hierarchy don't display as a hierarchy in the report. You can't expand or collapse an account in the report to summarize its data.
+This worksheet shows the trial balance with amounts in LCY. The accounts from the chart of accounts hierarchy don't display as a hierarchy in the report. You can't expand or collapse an account in the report to summarize its data. The **Trial Balance List (Print)** worksheet provides a printable account list.
 
 Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 
@@ -45,9 +46,9 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## Trial Balance (ACY) worksheet
+## Trial balance ACY analysis worksheet
 
-This worksheet shows the trial balance with amounts in ACY. The report requires that you use ACY.
+This worksheet shows the trial balance with amounts in ACY. You must use ACY to get additional-currency amounts.
 
 Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 
@@ -55,7 +56,7 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 
 [!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
-## TrialBalanceData worksheet
+## TrialBalanceData data worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
@@ -63,7 +64,7 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
-## Other worksheets
+## Other worksheets in the workbook
 
 [!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
@@ -135,7 +136,7 @@ Try the report here: [Trial Balance Excel](https://businesscentral.dynamics.com?
 
 ## Alternative reports
 
-There are several other ways to analyze your balance. To learn more, go to:
+There are several other ways to analyze your balance. Learn more in the following articles:
 
 - [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)
 - [Trial Balance (legacy)](../reports/report-6.md)

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
-ms.date: 04/07/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -54,9 +54,9 @@ You can review the status of a blanket sales order on the **Sales Blanket Order 
 3.  On the **Sales Blanket Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket sales order lines.  
 
 - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the sales blanket order lines.  
-- On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the sales blanket order lines.  
+- On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Ship** fields on the sales blanket order lines.  
 - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
-- On the **Vendor** FastTab, you can see certain basic information about the vendor.
+- On the **Customer** FastTab, you can see certain basic information about the customer.
 
 ## To view unposted and posted blanket sales order lines
 

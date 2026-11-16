@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37018_Primary
-ms.date: 11/12/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted
 ---
@@ -35,7 +35,7 @@ The *Purchases by Vendor* report includes the following KPIs and measures:
 - [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 - [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
 - [**% GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
-- [**% GT Purchase Amount PY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-py-fiscal)
+- [**% GT Purchase Amount PY (Fiscal)**](purchases-powerbi-kpis.md#-gt-purchase-amount-py-fiscal)
 - [**Pareto Cumulative Purchase (LCY) %**](purchases-powerbi-kpis.md#pareto-cumulative-purchase-lcy-)
 - [**% GT Pareto Cumulative Purchase (LCY) %**](purchases-powerbi-kpis.md#pareto-cumulative-purchase-lcy-)
 

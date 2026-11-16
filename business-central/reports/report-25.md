@@ -1,29 +1,31 @@
 ---
-title: Financial Reporting (report)
-description: Analyze your chart of accounts with a configurable view of general ledger accounts. Simplifies reporting for typical scenarios such as balance sheets, income statements, and cash flow statements.
+title: Run Financial Report Overview (Report)
+description: Run a financial report using row and column definitions to analyze general ledger amounts, budgets, dimensions, and selected date ranges.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_25_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Financial Report (report)
 
-The **Financial Report** report shows general ledger (G/L) transactions in a given period, grouped by a setup (a report definition) you defined for rows and columns in the Financial Reporting feature.
+The **Financial Report** report shows calculated financial amounts for a given period, based on the row and column definitions in a financial report. It summarizes general ledger (G/L) data rather than listing individual transactions.
+
+Select **Financial Report**, **Starting Date**, and **Ending Date**. Depending on the definitions, you can filter by G/L budget and dimensions, show amounts in the additional reporting currency, and skip zero balance lines.
 
 ## Learn more about the Financial Reporting feature
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger accounts, and compare general ledger entries with budget entries. 
 
-For more information, see [Prepare financial reporting](../bi-how-work-account-schedule.md)
+Learn more in [Prepare financial reporting](../bi-how-work-account-schedule.md)
 
 ## Try the report
 
@@ -33,7 +35,7 @@ Try the report here: [Financial Reporting](https://businesscentral.dynamics.com?
 
 ## Alternative reports
 
-There are several other ways to analyze your general ledger (G/L) data. To learn more, go to:
+There are several other ways to analyze your general ledger (G/L) data. Learn more in the following articles:
 
 - [Analyze finance data from the Chart of Accounts page](../finance-general-ledger.md)
 - [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

@@ -1,18 +1,18 @@
 ---
 title: Fixed Asset Journal - Test (report)
-description: Review the journal lines in a fixed assets journal. You can use the report to check the lines before you post the journal.
+description: Review the journal lines in a fixed asset journal. You can use the report to check the lines before you post the journal.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5602_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-  - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/23/2024
+ai-usage: ai-assisted
 ---
 
 # Fixed Asset Journal - Test (report)
@@ -22,6 +22,8 @@ The **Fixed Asset Journal - Test** report shows the journal lines in a Fixed Ass
 You can use the report to have the lines checked before you post the journal.
 
 If you run the test report from a journal page, the report automatically filters on the current journal template and journal batch names. You can leave the request page blank.
+
+The report lists warnings for issues such as missing document numbers, blocked or inactive assets, invalid dimensions, and posting types that aren't allowed in the FA journal when G/L integration is enabled. It doesn't post the journal.
 
 ## Use cases
 

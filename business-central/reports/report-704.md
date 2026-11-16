@@ -1,18 +1,18 @@
 ---
 title: Inventory - Transaction Detail (report)
-description: Review all inventory movements for the selected items for a selected period. Audit historical inventory movements, such as sales, purchases, and stock transfers to determine the basis of a quantity that's currently in inventory.
+description: Review inventory quantities and item ledger entries for a selected period. Follow increases, decreases, and running balances for selected items.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_704_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Inventory - Transaction Detail (report)
@@ -83,8 +83,8 @@ Supply chain managers use the report to:
 
 Financial analysts use the report to:
 
-* Analyze the cost of goods sold for a period.
-* Determine the value of inventory at the beginning and end of a period.
+* Reconcile inventory quantities at the beginning and end of a period.
+* Investigate the item ledger entries behind quantity changes. For inventory values, use the [Inventory Valuation report](report-1001.md).
 * Identify slow-moving and fast-moving inventory items.
 
 ## Try the report
@@ -95,8 +95,7 @@ Try the report here: [Inventory - Transaction Detail](https://businesscentral.dy
 
 ## Alternative reports
 
-There are several other ways to analyze your inventory. To learn more, go to:
-
+There are several other ways to analyze your inventory. Learn more in the following articles:
 - [Power BI inventory app](../inventory-powerbi-app.md)
 - [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)
 

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: client
-ms.date: 10/22/2026
+ms.date: 11/16/2026
 ai-usage: ai-assisted
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

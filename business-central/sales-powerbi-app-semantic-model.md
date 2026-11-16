@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: reference
 ms.search.keywords: reporting
 ms.search.form: 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37066, 37100, 37101, 37102, 37103, 37104, 37105, 37109, 37119
-ms.date: 11/12/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ai-usage: ai-assisted

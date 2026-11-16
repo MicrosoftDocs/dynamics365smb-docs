@@ -1,18 +1,18 @@
 ---
-title: Project Analysis (report)
-description: Get a financial overview of your projects based on your input.
+title: Project Financial Analysis (report)
+description: Compare project budget, usage, billable, and invoiced prices, costs, or profit with eight configurable amount columns and a currency choice for each.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1008_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Project Analysis (report)
@@ -21,12 +21,12 @@ The **Project Analysis** report shows a financial overview of your projects base
 
 Use a combination of the available **Amount** fields to create your own analysis. For each field, select one of the following settings for prices, costs, or profit values:
 
-* Schedule
+* Budget
 * Usage
-* Contract
+* Billable
 * Invoiced
 
-Select whether the currency is in local currency or foreign currency.
+Configure up to eight amount columns. For each column, select local or foreign currency. **Planning Date Filter** limits budget and billable planning lines. **Posting Date Filter** limits usage and invoiced ledger entries. Profit is price minus cost for the selected amount type.
 
 ## Use cases
 

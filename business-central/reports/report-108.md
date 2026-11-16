@@ -1,25 +1,27 @@
 ---
-title: Customer - Order Detail (report)
-description: Analyze outstanding sales orders to understand your expected sales volume grouped by customer. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates.
+title: Customer - Order Detail (Report)
+description: Review outstanding sales order lines by bill-to customer, compare shipment dates with the work date, and identify quantities on back order.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_108_Primary
-ms.date: 10/03/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/07/2024
+ai-usage: ai-assisted
 ---
 
 # Customer - Order Detail (report)
 
 The **Customer - Order Detail** report shows each sales order and the line-level breakdown for each customer. The report includes information about unfulfilled shipments, applied line/invoice discounts, and outstanding amounts. 
 
-Lines that have a shipment date in the past are included in the quantity on back order.
+Lines with a **Shipment Date** on or before the work date are included in the quantity on back order. The report includes only sales order lines with an outstanding quantity and groups them by bill-to customer.
+
+Filter by sales order number or shipment date to focus on orders that need attention. Use **Show Amounts in LCY** to show amounts in local currency.
 
 ## Available layouts
 
@@ -74,7 +76,7 @@ Sales managers use the report to:
 Customer service representatives use the report to:
 
 * Identify overdue back orders and communicate updated shipping timelines to customers.
-* Analyze customer order history and identify any trends or patterns in their purchasing behavior.
+* Review outstanding order lines and identify shipments that need follow-up.
 * Determine which orders have the highest outstanding amounts and prioritize follow-up.
 
 ## Try the report

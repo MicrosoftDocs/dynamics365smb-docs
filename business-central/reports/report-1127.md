@@ -1,25 +1,25 @@
 ---
-title: Cost Acctg. Analysis (report)
-description: Presents a comparison of actual versus expected cost values. Choose the appropriate period and budget version before running. Highlights deviations between budgeted and actual cost performance to inform better forecasting.
+title: Cost Accounting Analysis (Report)
+description: Compare actual net changes by cost type across up to seven cost center or cost object columns to review cost distribution in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: cost accounting, variance analysis, budget comparison
 ms.search.form: Report_1127_Primary
-ms.date: 06/23/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/23/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/23/2025
+ai-usage: ai-assisted
 ---
 
 # Cost Acctg. Analysis (report)
 
-The **Cost Acctg. Analysis** report compares actual cost values with budgeted or expected values to support variance analysis and forecasting. The report helps identify where costs exceeded or fell below expectations.
+The **Cost Acctg. Analysis** report shows actual net changes by cost type across up to seven columns. Each column represents a cost center or a cost object. The rows follow the chart of cost types.
 
-Before you run the report, select the appropriate period and budget version to ensure accurate comparisons.
+Select a **Cost Center** or **Cost Object** for each column, and apply a **Date Filter**. Selecting a cost center clears the cost object in that column, and vice versa. Choose **Suppress cost types without amount** to omit cost types without amounts. This report doesn't compare actual costs with budgets.
 
 ## Use cases
 
@@ -28,14 +28,14 @@ Before you run the report, select the appropriate period and budget version to e
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Compare actual cost values with budget expectations.
-> * Find deviations between budgeted and actual cost performance.
-> * Get insights to inform better forecasting and cost control strategies.
+> * Compare actual costs across cost centers or cost objects.
+> * Find where costs are concentrated for the selected period.
+> * Review the distribution of costs before preparing future budgets.
 
 Finance professionals can use the report to:
 
-* Monitor cost performance against budgets.
-* Identify areas of overspending or underspending.
+* Monitor cost distribution across cost centers or cost objects.
+* Identify areas with higher or lower actual costs.
 * Support strategic planning and financial reviews.
 
 Controllers and analysts might also use the report to:

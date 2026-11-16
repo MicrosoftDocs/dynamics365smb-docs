@@ -5,7 +5,7 @@ author: kennienp
 ms.author: kepontop
 ms.topic: reference
 ms.search.keywords: reporting
-ms.date: 11/12/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ai-usage: ai-assisted
 ---
@@ -1009,7 +1009,7 @@ The Budget Amount AVG 3M (Fiscal) measure averages daily budget amounts over a m
 ### % GT purchase amount PY (fiscal)
 
 **Formula**  
-*% GT Purchase Amount = [Purchase Amount](#purchase-amount) / Grand Total Purchase Amount (Previous Year)*
+*% GT Purchase Amount PY (Fiscal) = [Purchase Amount](#purchase-amount) / Grand Total Purchase Amount (Previous Year)*
 
 **Data Sources**
 - Value Entry

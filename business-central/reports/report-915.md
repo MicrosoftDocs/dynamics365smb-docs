@@ -1,23 +1,23 @@
 ---
-title: About Assemble to order - Sales (report)
-description: Analyze the quantity, cost, sales, and profit figures of assembly components. Analyses can support decisions such as whether to price a kit differently, or to stop or start using a particular item in assemblies.
+title: Assemble to Order - Sales (report)
+description: Analyze quantities, costs, sales, and profit for assembly components. Compare assemble-to-order component sales with sales directly from inventory.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_915_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/28/2024
 ---
 
-# About Assemble to order - Sales (report)
+# Assemble to Order - Sales (report)
 
-The **About Assemble to order - Sales** report shows key sales figures for assembly component items that you sell both as parts of assemblies in assemble-to-order sales and as separate items directly from inventory.
+The **Assemble to Order - Sales** report shows key sales figures for assembly component items that you sell both as parts of assemblies in assemble-to-order sales and as separate items directly from inventory.
 
 The **In Assembly** row shows sales figures for the total quantity that is sold as part of an assembly item. The report shows the specific assembly item sales that sum up to this total if you select the **Show Assembly Details** field.
 
@@ -70,7 +70,7 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [About Assemble to order - Sales](https://businesscentral.dynamics.com?report=915)
+Try the report here: [Assemble to Order - Sales](https://businesscentral.dynamics.com?report=915)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

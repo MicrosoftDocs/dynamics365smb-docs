@@ -1,18 +1,18 @@
 ---
-title: Balance Sheet (report)
-description: Get an overview of your financials across assets, liabilities, and equity.
+title: Balance Sheet Overview (Report)
+description: Review assets, liabilities, and equity using the balance sheet financial report selected in General Ledger Setup and its row and column definitions.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_151_Primary
-ms.date: 06/16/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 08/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 08/25/2025
+ai-usage: ai-assisted
 ---
 
 # Balance Sheet (report)
@@ -20,6 +20,8 @@ ai.usage: ai-assisted
 The **Balance Sheet** report provides an overview of your balance across assets, liabilities, and equity.
 
 Provide a start date and end date filter to define the period for which you want to show the balance.
+
+The report runs the financial report selected in **Fin. Rep. for Balance Sheet** in **General Ledger Setup**. Its row and column definitions determine the accounts, calculations, and comparisons shown.
 
 [!INCLUDE[finance-report-selection-for-oob-finance-reports](../includes/finance-report-selection-for-oob-finance-reports.md)]
 
@@ -35,7 +37,7 @@ Try the report here: [Balance Sheet](https://businesscentral.dynamics.com?report
 
 ## Alternative reports
 
-There are several other ways to analyze your balance. To learn more, go to:
+There are several other ways to analyze your balance. Learn more in the following articles:
 
 - [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)
 - [Financial Reporting](../bi-how-work-account-schedule.md)

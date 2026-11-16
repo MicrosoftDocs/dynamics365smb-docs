@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: rfq
 ms.search.form: 41, 9300_Primary, 
-ms.date: 03/06/2026
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

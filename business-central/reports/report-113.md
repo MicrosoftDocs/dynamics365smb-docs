@@ -1,18 +1,18 @@
 ---
-title: Customer/Item Sales (report)
-description: Analyze your item sales per customer to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and the volume of item sales.
+title: Customer/Item Sales Overview (Report)
+description: Analyze invoiced item quantities, sales, discounts, and profit by customer, including related item charges and cost adjustments.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_113_Primary
-ms.date: 10/03/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/07/2024
+ai-usage: ai-assisted
 ---
 
 # Customer/Item Sales (report)
@@ -22,6 +22,8 @@ The **Customer/Item Sales** report shows a total of the items sold to customers 
 Value entries for each combination of a customer and an item are summed to calculate the total invoiced quantity, amount, discount, and profit.
 
 The calculated sales amount and profit margins include added costs, such as item charges.
+
+Filter **Posting Date** and **Item No.** to select the sales to analyze. For the selected item ledger entries, the report also includes related item charges and cost adjustments. These related amounts aren't restricted to the same posting date filter, so a later cost adjustment can affect profit for an earlier sales period.
 
 ## Available layouts
 

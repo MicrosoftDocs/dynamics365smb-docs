@@ -1,5 +1,5 @@
 ---
-title: Maintenance - Analysis (report)
+title: Maintenance - Analysis (Report)
 description: Review your maintenance expenses for fixed assets for different time periods broken down by maintenance types or other categories, such as fixed asset class.
 author: kennieNP
 ms.author: kepontop
@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5630_Primary
-ms.date: 11/11/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
 ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Maintenance - Analysis (report)
@@ -21,7 +21,7 @@ The **Maintenance - Analysis** report shows detailed maintenance expenses for fi
 
 You can choose whether to use posting dates or fixed asset posting dates to control the data the report shows.
 
-The report has three amount fields that can show maintenance amounts broken down by different maintenance types. Select the maintenance code for the maintenance type you want to include in the report.
+The report has three amount fields that can show maintenance amounts broken down by different maintenance types. Select the maintenance code for the maintenance type you want to include in the report. Leave a column's maintenance code blank to include all maintenance codes in that column.
 
 The report has three period fields in which you can select one of the following options:
 

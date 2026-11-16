@@ -1,27 +1,27 @@
 ---
 title: Item Age Composition by Quantity and Value Excel (report)
-description: Review the age of stock in your warehouse by value and identify unused or slow-moving inventory.
+description: Review the quantity and value of remaining inventory by age. Set an ending date and period length to group open item ledger entries into five buckets.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5808_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Item Age Composition by Quantity and Value (report)
 
-The **Item Age Composition by Quantity and Value** report shows the quantity and value of on-hand inventory aged by receipt date.
+The **Item Age Composition by Quantity and Value** report shows current remaining inventory quantities and values aged by posting date.
 
 You can configure the report's aging to generate three equal length periods on an ending date. The inventory's age is calculated for each period, as well as before and after the period. The report also shows total value of inventory.
 
-The values represent the total cost of the remaining quantity for open inbound item ledger entries, which are usually a result of purchases, output, or positive adjustments. The posting date of each entry determines the bucket they're in.
+The report uses remaining quantities on open item ledger entries. Each entry's posting date determines its age bucket. Values are calculated from the remaining quantities and costs, with a separate calculation for average-cost items. The ending date defines the age buckets, not a historical snapshot of remaining quantities.
 
 To determine the age of inventory by warehouse, you can filter the report by location. You can also filter by item.
 
@@ -74,12 +74,12 @@ Please include your data sources and URLs
 Warehouse managers use the report to:
 
 * Review the age of stock in your warehouse by value to identify unused or slow-moving inventory.
-* Analyze inventory aging to identify which items are in high demand and which aren't.
+* Review the quantities and values in each age bucket. Inventory age alone doesn't measure demand.
 * Plan promotions or markdowns to sell slow-moving inventory and improve sales.
 
 Sales and marketing managers use the report to:
 
-* Analyze inventory aging to identify which items are in high demand and which aren't.
+* Identify older inventory to review alongside sales and demand information.
 * Review the age of stock in your warehouse by value to identify unused or slow-moving inventory.
 * Plan promotions or markdowns to sell slow-moving inventory and improve sales.
 
@@ -89,7 +89,7 @@ Financial analysts use the report to:
 
 ## Try the report
 
-Try the report here: [Item Age Composition - Value](https://businesscentral.dynamics.com?report=5808)
+Try the report here: [Item Age Composition by Quantity and Value](https://businesscentral.dynamics.com?report=5808)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

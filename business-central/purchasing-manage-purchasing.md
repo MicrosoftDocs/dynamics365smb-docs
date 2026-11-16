@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: overview
 ms.search.keywords: procurement, supply, vendor order, purchsing
 ms.search.form: 460, 9307
-ms.date: 06/17/2026
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -62,7 +62,7 @@ If you need more complex purchase processes, the following table lists articles 
 
 | To... | Go to... |
 | --- | --- |
-| Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
+| Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you're returning to the vendor and which payment amount you collect. |[Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md) |
 |Manage your commitment to a vendor to purchase large quantities delivered in several shipments over time.|[Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)|
 
@@ -75,7 +75,7 @@ The following table describes how to deal with canceled orders, refunds, and ret
 |Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)|
 |Convert, for example, electronic invoices from your vendors to purchase invoices inside Business Central.|[Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
-## Other processes in sales
+## Other processes in purchasing
 
 The following table describes how to deal with other purchase processes.
 

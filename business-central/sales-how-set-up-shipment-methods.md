@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: incoterms
 ms.search.form: 11, 130
-ms.date: 04/01/2021
+ms.date: 11/16/2026
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central

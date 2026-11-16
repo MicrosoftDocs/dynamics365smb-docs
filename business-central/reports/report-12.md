@@ -1,18 +1,18 @@
 ---
-title: VAT Statement (report)
-description: Use during VAT filing to calculate and report VAT due or refundable to tax authorities. Presents a structured summary of VAT based on the VAT Statement setup. Select the statement name and period to run the report accurately.
+title: VAT Statement Overview (Report)
+description: Print VAT statement totals for a selected VAT reporting period, with options for entry status, rounding, currency, and country filters.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: tax, VAT, reporting, finance
 ms.search.form: Report_12_Primary
-ms.date: 06/25/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/25/2025
+ai-usage: ai-assisted
 ---
 
 # VAT Statement (report)
@@ -20,6 +20,8 @@ ai.usage: ai-assisted
 The **VAT Statement** report consolidates VAT posting information into a structured format based on the setup for your VAT statement. Typically, businesses use the report when they file VAT to calculate and report VAT that's due or refundable.
 
 You can select the VAT statement name and define the start and end date to generate accurate results. The report summarizes input and output VAT, totals, and applies your custom statement lines and posting groups.
+
+The report prints statement lines that have **Print** selected. For VAT entry totals, the period uses **VAT Reporting Date**. You can include open entries, closed entries, or both, and entries within the period or before and within the period. Other options let you round amounts to whole numbers, use the additional reporting currency, and filter VAT entries by country/region.
 
 ## Use cases
 

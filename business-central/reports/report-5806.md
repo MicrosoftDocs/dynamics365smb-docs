@@ -1,18 +1,18 @@
 ---
 title: Item Charges - Specification (report)
-description: Analyze posted sales or purchase item charges to assess added costs, such as freight and physical handling.
+description: Analyze posted sales or purchase item charges by item and inventory posting group. Include value entry details to review freight and handling costs.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5806_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Item Charges - Specification (report)

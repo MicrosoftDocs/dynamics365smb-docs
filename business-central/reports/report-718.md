@@ -1,29 +1,29 @@
 ---
 title: Inventory Sales Back Orders (report)
-description: Get an overview of sales orders that can't be fulfilled because of out-of-stock items. 
+description: Find sales order lines with outstanding quantities and shipment dates before the work date. Use the report to follow up on overdue shipments.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_718_Primary
-ms.date: 10/03/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/07/2024
 ---
 
 # Inventory Sales Back Orders (report)
 
-The **Inventory Sales Back Orders** report shows sales lines where you can't fulfill the outstanding quantity by the specified shipment date.
+The **Inventory Sales Back Orders** report shows sales order lines with an outstanding quantity and a shipment date before the work date. It identifies overdue shipments, not whether inventory is available to fulfill them.
 
 The report groups data by item and includes:
 
 * Customer details.
 * The ship date.
-* Other back-ordered items for the customer.
+* An indicator of whether the customer has other back-ordered items.
 
 The report shows the following data for individual orders for each item:
 

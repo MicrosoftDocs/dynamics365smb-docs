@@ -1,18 +1,18 @@
 ---
-title: Dimensions - Detail (report)
-description: Analyze your general ledger with dimension detail by building groups of dimensions for combinations of dimension values, and view a breakdown of general ledger entries for each segment.
+title: Dimensions - Detail Overview (Report)
+description: Review general ledger entries grouped by dimension combinations, with debit and credit totals for the analysis view and period you select.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_28_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Dimensions - Detail (report)
@@ -22,6 +22,8 @@ The **Dimensions - Detail** report shows a breakdown of general ledger (G/L) ent
 You specify dimension levels by selecting an analysis view configured with dimension codes, and then creating a hierarchy of dimension groups by arranging them under one another.
 
 You can choose to see only dimension combinations that have transactions, or a list of all combinations regardless of whether they have general ledger entries.
+
+Enter **Analysis View Code** and **Date Filter**, and use **Include Dimensions** to arrange the grouping levels. The report retrieves G/L entries through the analysis view, so make sure the view is up to date. You can show amounts in the additional reporting currency.
 
 ## Use cases
 
@@ -69,7 +71,7 @@ Financial analysts can use the report to:
 
 * Analyze financial performance by reviewing the breakdown of general ledger entries based on dimension levels for each transaction.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
-* Use the report data to pPrepare financial reports for stakeholders such as investors or executives.
+* Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
 Financial controllers can use the report to:
 

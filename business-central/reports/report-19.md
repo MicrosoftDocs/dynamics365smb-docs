@@ -1,25 +1,27 @@
 ---
-title: VAT- VIES Declaration Tax Auth (report)
-description: Creates a declaration of intra-community sales for submission to the VIES system. Make sure customer VAT numbers and country codes are correct before running. Prepares compliant VIES reports summarizing EU sales, helping meet legal obligations for cross-border transactions.
+title: VAT- VIES Declaration Tax Auth (Report)
+description: Review intra-EU sales totals by VAT registration number, with separate goods, services, and three-party trade amounts for tax reporting.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: VAT, VIES, EU sales, tax reporting, compliance
 ms.search.form: Report_19_Primary
-ms.date: 06/25/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/25/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/25/2025
+ai-usage: ai-assisted
 ---
 
 # VAT- VIES Declaration Tax Auth (report)
 
-The **VAT- VIES Declaration Tax Auth** report generates a declaration of intra-community sales for submission to the VIES system. The report ensures compliance with European Union (EU) regulations by summarizing sales to VAT-registered customers in other EU countries.
+The **VAT- VIES Declaration Tax Auth** report summarizes intra-community sales by VAT registration number and country/region. It separates goods, services, and EU three-party trade amounts to support European Union (EU) sales reporting. It doesn't submit data electronically to VIES or a tax authority.
 
 To avoid submission errors, verify that customer VAT numbers and country codes are accurate before you run the report.
+
+Enter **Start date** and **End date** to select VAT reporting dates. You can filter by VAT registration number and show amounts in the additional reporting currency. Check your country/region's submission requirements before using the output for a declaration.
 
 ## Use cases
 
@@ -30,7 +32,7 @@ To avoid submission errors, verify that customer VAT numbers and country codes a
 >
 > * Ensure all customer VAT numbers and country codes are correct before you run the report.
 > * Use the report to compile sales by customer for VIES reporting.
-> * Submit the report to the appropriate tax authority to meet EU compliance requirements.
+> * Use the output to prepare the declaration required by your tax authority.
 > * Run the report periodically so you're current with reporting obligations.
 
 Finance and tax professionals can use this report to:

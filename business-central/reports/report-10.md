@@ -1,25 +1,27 @@
 ---
-title: Closing Trial Balance (report)
-description: Check end of financial year figures, excluding closing entries, and compare this year and the previous year.
+title: Closing Trial Balance (Report)
+description: Review fiscal-year account totals and closing-entry treatment for income statement and balance sheet accounts in a closing trial balance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_10_Primary
-ms.date: 06/23/2025
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 06/18/2025
-ai.usage: ai-assisted
+ai-seo-date: 06/18/2025
+ai-usage: ai-assisted
 ---
 
 # Closing Trial Balance (report)
 
-The **Closing Trial Balance** report shows this year's and last year's general ledger (G/L) account debit and credit balances. For income statement accounts, the report shows balances without closing entries. The report lists closing entries on a fictitious date between the last day of one fiscal year and the first day of the next.
+The **Closing Trial Balance** report shows this year's and last year's general ledger (G/L) account debit and credit balances. For income statement accounts, the current-year amount excludes year-end closing entries. For balance sheet accounts, balances include closing entries through the year end. The report shows account totals, not individual closing entries.
 
 You typically post the closing of the income statement accounts at the end of a fiscal year.
+
+Enter **Fiscal Year Starting Date** for the year to review. The next fiscal year must be set up in accounting periods so the report can determine the year end. You can show amounts in the additional reporting currency.
 
 Use the report to verify that all financial transactions are accurate and that the total debits equal the total credits, so you're sure the books balance before you close the financial year.
 

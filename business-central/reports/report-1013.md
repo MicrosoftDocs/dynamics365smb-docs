@@ -1,23 +1,25 @@
 ---
-title: Items per Project (report)
-description: Get an overview of the items you use in a project. 
+title: Item Usage per Project (report)
+description: Review posted item usage by project and unit of measure, including quantities, accumulated costs, and line amounts filtered by posting date.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1013_Primary
-ms.date: 10/23/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/28/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/28/2024
+ai-usage: ai-assisted
 ---
 
 # Items per Project (report)
 
-The **Items per Project** report shows an overview of the items you use in a project. The report shows the items and an accumulated cost value. Depending on your reporting needs, you can set more filters.
+The **Items per Project** report summarizes item usage from posted project ledger entries for each project. It groups quantities, costs, and line amounts by item and unit of measure. Monetary amounts are in local currency.
+
+Use **Posting Date Filter** to limit the ledger entries and item filters to select the items. The report doesn't show planned item requirements or sales entries.
 
 ## Use cases
 

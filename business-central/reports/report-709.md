@@ -1,18 +1,18 @@
 ---
 title: Inventory Purchase Orders (report)
-description: Analyze your outstanding purchase orders to understand your expected purchase volume by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
+description: Review outstanding purchase order quantities, expected receipt dates, discounts, and amounts by item. Identify overdue receipts for follow-up.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_709_Primary
-ms.date: 10/14/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/07/2024
 ---
 
 # Inventory Purchase Orders (report)
@@ -23,7 +23,7 @@ The **Inventory Purchase Orders** report shows each purchase order and the line-
 * Applied line and invoice discounts.
 * Total amount on order, including value-added tax (VAT)
 
-Lines that have an expected receipt date in the past are included in the quantity on back order.
+Lines with an **Expected Receipt Date** before the work date are included in the quantity on back order.
 
 ## Available layouts
 

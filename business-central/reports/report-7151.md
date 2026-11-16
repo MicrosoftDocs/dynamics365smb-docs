@@ -1,25 +1,25 @@
 ---
 title: Item Dimensions - Total (report)
-description: Analyze item entries with dimension totals by building groups of dimensions for combinations of dimension values. View a calculated total based on columns you define. For example, net change, balance at date, and actual vs. budget.
+description: Analyze item totals by selected dimensions and periods. Use analysis column templates to compare quantities, amounts, and actual or budget figures.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7151_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
+ai-seo-date: 10/18/2024
 ---
 
 # Item Dimensions - Total (report)
 
 The **Item Dimensions - Total** report shows calculated item entry totals for the dimension levels you specify for a given period.
 
-You specify dimension levels by selecting an analysis view configured with dimension codes, and then picking a hierarchy of how to combine the dimension groups under one another. The report automatically includes location as a dimension.
+You specify dimension levels by selecting an analysis view configured with dimension codes, and then picking a hierarchy of how to combine the dimension groups under one another. Use **Include Dimensions** to choose the grouping levels. Location is available as a grouping dimension; it isn't always included automatically.
 
 You can base this report on analysis view entries from sales, purchases, or inventory.
 

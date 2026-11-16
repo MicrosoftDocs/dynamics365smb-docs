@@ -1,18 +1,18 @@
 ---
-title: Dimensions - Total (report)
-description: Analyze your general ledger with dimension totals by building groups of dimensions for combinations of dimension values, and calculate a general ledger balance total for each segment.
+title: Dimensions - Total Overview (Report)
+description: Analyze general ledger or cash flow totals by dimension combinations, using an analysis view, grouping levels, and a column definition.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_27_Primary
-ms.date: 10/18/2024
+ms.date: 11/13/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
-ai.usage: ai-assisted
+ai-seo-date: 10/18/2024
+ai-usage: ai-assisted
 ---
 
 # Dimensions - Total (report)
@@ -23,7 +23,9 @@ You specify dimension levels by selecting an analysis view configured with dimen
 
 You can select an Analysis View with a column layout that includes budget figures. This view shows general ledger actuals vs. budgets for each dimension level.
 
-You can also select an Analysis View with a cash flow account source. This view shows cash flow actuals vs. forecasts for each dimension level.
+You can select an analysis view with a cash flow account source and choose **Cash Flow Forecast No.** to analyze forecast entries by dimension level. The column layout determines the figures shown; selecting a cash flow analysis view doesn't automatically provide an actual-versus-forecast comparison.
+
+Enter **Analysis View Code**, **Column Layout Name**, and **Date Filter**, and use **Include Dimensions** to arrange the grouping levels. Turn on **Print Empty Lines** to include zero-balance combinations.
 
 ## Use cases
 

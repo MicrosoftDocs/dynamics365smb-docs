@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:
-ms.date: 10/02/2026
+ms.date: 11/16/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -40,7 +40,7 @@ Sales line suggestion can assist with creating lines on sales documents such as 
 
 ## Prerequisites
 
-- Your administrator activates the **Sales Line Suggestions** capability on the **Copilot & agents capabilities** page. Learn more at [Configure Copilot and agent capabilities](enable-ai.md).
+- Your administrator activates the **Sales Line Suggestions** capability on the **Copilot & agent capabilities** page. Learn more at [Configure Copilot and agent capabilities](enable-ai.md).
 
 ## Examples of prompts
 

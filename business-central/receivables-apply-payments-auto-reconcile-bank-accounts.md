@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1291, 1293, 1294
-ms.date: 07/25/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ---
 

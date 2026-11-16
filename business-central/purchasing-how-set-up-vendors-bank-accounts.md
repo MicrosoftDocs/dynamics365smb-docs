@@ -4,7 +4,7 @@ description: Learn how to associate bank accounts to vendors, including contact 
 author: brentholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 08/17/2026
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---

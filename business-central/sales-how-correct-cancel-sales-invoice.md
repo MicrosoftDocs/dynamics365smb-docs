@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: undo, credit memo, return
-ms.date: 06/10/2025
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

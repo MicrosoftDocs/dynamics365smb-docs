@@ -4,7 +4,7 @@ description: Learn how to set up customer discount groups and create sales line 
 author: brentholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 07/05/2024
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---

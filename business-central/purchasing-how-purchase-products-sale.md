@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: supply planning, sales demand, replenish
 ms.search.form: 50, 51, 56, 9308
-ms.date: 10/03/2025
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -51,7 +51,7 @@ To create a single purchase invoice for one or more lines on a sales document by
 > [!NOTE]  
 > This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it's created.  
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Invoices**, and then choose the related link.
 2. Open a sales invoice that you want to purchase items for.
 3. Select one or more sales invoice lines that you want to use on the purchase invoice. To use all the sales invoice lines, select either all of them or don't select any lines.
 4. Choose the **Create Purchase Invoice** action.

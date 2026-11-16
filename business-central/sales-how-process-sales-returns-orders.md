@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
-ms.date: 03/05/2024
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -25,7 +25,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:
 
     - Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line. This function is described in the following steps.    
-    - Use the **Copy from Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that isn't yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected on the **Sales & Receivables Setup** page.  
+    - Use the **Copy Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that isn't yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected on the **Sales & Receivables Setup** page.  
 
 5. Choose the **Process** action, then choose the **Get Posted Document Lines to Reverse** action.
 6. At the top of the **Posted Sales Document Lines** page, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that haven't yet been returned. For example, if a posted sales invoice quantity has already been returned, you might not want to return that quantity on a new sales return document.
@@ -39,7 +39,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 8. Select the lines that you would like to copy to the new document.  
 
     > [!NOTE]  
-    >  If you use <kbd>Ctrl</kbd>+<kbd>A</kbd> to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Quantity Only** field is selected, if you select <kbd>Ctrl</kbd>+<kbd>A</kbd> to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
+    >  If you use <kbd>Ctrl</kbd>+<kbd>A</kbd> to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Lines Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Lines Only** field is selected, if you select <kbd>Ctrl</kbd>+<kbd>A</kbd> to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
 
 9. Choose the **OK** button to copy the lines to the new document.  
 

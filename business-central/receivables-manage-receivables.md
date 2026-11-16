@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 07/08/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 
 ---

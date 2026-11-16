@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: email, PDF, electronic document
-ms.date: 04/01/2021
+ms.date: 11/16/2026
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central

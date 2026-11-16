@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: payment process, cash receipt
 ms.search.form: 25, 255
-ms.date: 06/17/2025
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -22,14 +22,14 @@ You can apply customer ledger entries in several ways:
 
 * Enter information on the following pages:
    * The **Payment Reconciliation Journals** page. To learn more, go to [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
-   * The **Payment Registration Setup** page. To learn more, go to [Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+   * The **Register Customer Payments** page. To learn more, go to [Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
    * The **Cash Receipt Journals** page. To learn more, go to [To fill and post a cash receipt journal](#to-fill-and-post-a-cash-receipt-journal).
 * By filling in the **Applies-to Doc. No.** field on sales credit memo documents. To learn more, go to [To apply a credit memo to a single customer ledger entry](#to-apply-a-credit-memo-to-a-single-customer-ledger-entry).
 * By using the **Set Applies-to ID** action on a customer ledger entry. To learn more, go to [To apply a payment to a single customer ledger entry](#to-apply-a-payment-to-a-single-customer-ledger-entry).
 * By using the **Apply Entries** action on the **Bank Deposit** page, and then entering the invoice number in the **Applies-to ID** field. To learn more, go to [Create Bank Deposits](bank-create-bank-deposits.md).
 
 > [!NOTE]  
-> If the **Application Method** field on the customer card contains **Apply to Oldest**, payments are applied to the oldest open credit entry, unless you manually specify an entry. If the application method is **Manual**, you always apply entries manually.
+> If the **Application Method** field on the customer card contains **Apply to Oldest**, payments are applied to the oldest open entry, unless you manually specify an entry. If the application method is **Manual**, you always apply entries manually.
 
 ## To fill and post a cash receipt journal
 
@@ -67,7 +67,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 9. In the **Amount to Apply** field, enter the amount you want to apply to the entry. If you don't enter an amount, the maximum amount is applied.
 
     The **Apply Customer Entries** page shows the specific amount in the **Applied Amount** field, and whether the application balances.  
-10. Choose the **OK** button. The **Cash Receipt Journal** page now shows the entry in the **Applies-to Doc. Type** and **Applies-to Doc. No.** fields.
+10. Choose the **OK** button. The **Cash Receipt Journals** page now shows the entry in the **Applies-to Doc. Type** and **Applies-to Doc. No.** fields.
 11. Post the cash receipt journal.
 
 ## To apply a payment to multiple customer ledger entries
@@ -139,15 +139,15 @@ Here's an example. You apply Entry A in one currency to Entry B in another curre
 
 Applying customer ledger entries in different currencies must be enabled. To learn more, go to [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cash Receipts Journal**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Cash Receipt Journals**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.
 3. Choose the **Apply Entries** action.
 4. Select the line with the entry you want to apply to the entry in the cash receipt journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.
 5. Choose the **OK** button to return to the cash receipt journal.
-6. Post the sales journal.  
+6. Post the cash receipt journal.  
 
 > [!IMPORTANT]  
-> When you apply entries in different currencies, the entries are converted to USD. Although the exchange rates for the two currencies are fixed, for example between USD and EUR, there might be a small residual amount when they convert to USD. These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** fields on the **Currencies** page. The **Amount (USD)** field is also adjusted on the vendor ledger entries.  
+> When you apply entries in different currencies, the entries are converted to your local currency (LCY). Even when the exchange rates between the two currencies are fixed, there might be a small residual amount when they convert to LCY. These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** fields on the **Currencies** page. The **Amount (LCY)** field is also adjusted on the customer ledger entries.  
 
 ## To correct an application of customer entries
 

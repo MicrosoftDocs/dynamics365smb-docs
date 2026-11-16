@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
-ms.date: 07/08/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -85,7 +85,7 @@ If a payment in the bank isn't represented by a document, you can open a prefill
 
 If you agree on a payment discount with your customer, payment amounts can be lower than the invoice amounts if payment occurs before the agreed discount date.  
 
-The following procedures explain ways to post discounted payments on the **Payment Registration** page.  
+The following procedures explain ways to post discounted payments on the **Register Customer Payments** page.  
 
 * The payment amount is equal to the remaining discounted amount, and the payment date is before the discount date. You post the payment as is.  
 * The payment amount is equal to the remaining discounted amount, but the payment date is after the discount date. You post the payment as partial. The document remains open to collect/pay the remaining amount. You can also set the discount date later to allow the payment in full.  
@@ -112,7 +112,7 @@ The following procedures explain ways to post discounted payments on the **Payme
 
    Date fields change to red font, and an error message is shown at the bottom of the page. The next two steps fix that.
 4. Choose the **Details** action.  
-5. On the **Payment Registration Details** page, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field on the **Payment Registration Setup** page.  
+5. On the **Payment Registration Details** page, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field on the **Register Customer Payments** page.  
 
     The error message and the red font disappear, and you can continue to process the discounted payment.
 6. Verify that the **Remaining Amount** field contains the amount that remains to pay the full invoice amount.  
@@ -185,7 +185,7 @@ If a payment in the bank isn't represented by a document, you can use the **Gene
 
 You can post the journal line to update the total on the balancing account. You can also leave the journal line unposted, and perhaps append it with a note that the payment needs more analysis.  
 
-If you don't post the journal line, its value is added to the value in the **Rem. Amount Incl. Discount** field on the **Payment Registration** page.  
+If you don't post the journal line, its value is added to the value in the **Rem. Amount Incl. Discount** field on the **Register Customer Payments** page.  
 
 ## Related information
 

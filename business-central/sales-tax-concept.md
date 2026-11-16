@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: tax, posting, sales tax
 ms.search.form: 10, 315, 466, 467, 468, 469, 10015, 10016, 10101
-ms.date: 07/11/2024
+ms.date: 11/16/2026
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

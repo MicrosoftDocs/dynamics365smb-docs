@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 03/03/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -807,7 +807,7 @@ The Sales CR/Adj Total Price measure calculates the [Total Price](#total-price) 
 
 **Formula**  
 
-The Sales CR/Adj Item Quantity measure calculates the [Project Ledger Item Quantity](#project-ledger-item-quantity) from the **Project Ledger Entries** table, where **Document Type** = **Posted Sales Invoice**.
+The Sales Invoice Item Quantity measure calculates the [Project Ledger Item Quantity](#project-ledger-item-quantity) from the **Project Ledger Entries** table, where **Document Type** = **Posted Sales Invoice**.
 
 **Data Source**  
 

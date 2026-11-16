@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: combine receipts, single invoice, purchase invoice, purchase receipt, purchase order, blanket purchase order, post purchase invoice, get receipt lines
 ms.search.form: 136, 145, 146, 9308
-ms.date: 09/27/2026
+ms.date: 11/16/2026
 ai-usage: ai-assisted
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

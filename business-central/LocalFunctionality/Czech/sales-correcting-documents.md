@@ -5,7 +5,7 @@ author: v-makune
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Payables, Localization, CZ
-ms.date: 10/08/2026
+ms.date: 11/16/2026
 ms.reviewer: bholtorf
 ms.author: bholtorf
 ai-usage: ai-assisted

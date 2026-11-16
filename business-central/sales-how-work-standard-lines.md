@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
-ms.date: 02/14/2024
+ms.date: 11/16/2026
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central

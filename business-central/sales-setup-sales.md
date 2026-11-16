@@ -8,7 +8,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
-ms.date: 06/06/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 
 ---

@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
-ms.date: 08/25/2026
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -78,7 +78,7 @@ When your vendors have informed you which invoice discounts they grant, enter th
 
     Proceed to set up new the purchase invoice discount terms.
 4. On the **Vendor Card** page, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** page opens.
-5. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
+5. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in local currency (LCY).
 6. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 7. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 8. Repeat steps 5 through 7 for each currency that the vendor receives a different invoice discount for.

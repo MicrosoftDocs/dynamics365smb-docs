@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
-ms.date: 10/03/2025
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 If you want to return items to your vendor or cancel services you purchased, you can create and post a purchase credit memo that specifies the requested change to the original purchase invoice. To include the correct purchase invoice information, you can create the purchase credit memo directly from the posted purchase invoice or you can create a new purchase credit memo with copied invoice information.
 
-If you need more control of the purchase return process, such as warehouse documents for the item handling or better overview when shipping back items from multiple purchase documents with one purchase return, then you can create purchase return orders. A purchase return order automatically issues the related purchase credit memo. Learn more at [Create a purchase return order based on one or more a posted purchase documents](purchasing-how-process-purchase-returns-cancellations.md#create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
+If you need more control of the purchase return process, such as warehouse documents for the item handling or better overview when shipping back items from multiple purchase documents with one purchase return, then you can create purchase return orders. A purchase return order automatically issues the related purchase credit memo. Learn more at [Create a purchase return order based on one or more a posted purchase documents](purchasing-how-process-purchase-returns-cancellations.md#create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).
 
 > [!NOTE]  
 > If a posted purchase invoice isn't paid, you can use the **Correct** or **Cancel** actions on the posted purchase invoice to automatically reverse the transactions. These actions only work for unpaid invoices, and they don't support partial returns or cancellations. Also, you can't correct or cancel purchase invoices that were posted with receipts from more than one purchase order. Learn more in [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -40,7 +40,7 @@ There are two actions that assign exact cost reversing automatically.
 |**Get Posted Document Lines to Reverse** action on the **Purchase Return Order** page|Copies lines of one or more posted documents to be reversed into the purchase return order. Learn more at [Create a purchase return order based on one or more posted purchase documents](purchasing-how-process-purchase-returns-cancellations.md#create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
 |**Copy from Document** action on the **Purchase Credit Memo** and **Purchase Return Order** pages|Copies both the header and lines of one posted document to reverse.<br/><br/> Requires that the **Exact Cost Reversing Mandatory** checkbox is selected on the **Purchases & Payables Setup** page.|
 
-To assign exact cost reversing manually, choose the **Appl.-from Item Entry** field on any type of return document line, and then select the number of the original purchase entry. This setting links the purchase credit memo or purchase return order to the original purchase sales entry. It also ensures that the item is valued at the original unit cost.
+To assign exact cost reversing manually, choose the **Appl.-to Item Entry** field on any type of return document line, and then select the number of the original purchase entry. This setting links the purchase credit memo or purchase return order to the original purchase entry. It also ensures that the item is valued at the original unit cost.
 
 Learn more in [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
@@ -52,7 +52,7 @@ Learn more in [Design Details: Inventory Costing](design-details-inventory-costi
     Most fields on the purchase credit memo header are filled with the information from the posted purchase invoice. You can edit all the fields, for example with new information that reflects the return agreement.
 3. Edit information on the lines according to the agreement, such as the number of items returned or the amount to be reimbursement.
 4. Choose the **Apply Entries** action.
-5. On the **Apply Vendor Entries** page, select the line with the posted purchase document that you want to apply the purchase credit memo to, and then choose the **Applies-to ID** action. The number of the purchase credit memo is inserted in the **Applies-to ID** field.
+5. On the **Apply Vendor Entries** page, select the line with the posted purchase document that you want to apply the purchase credit memo to, and then choose the **Set Applies-to ID** action. The number of the purchase credit memo is inserted in the **Applies-to ID** field.
 6. In the **Amount to Apply** field, enter the amount that you want to apply if smaller than the original amount.
 
     At the bottom of the **Apply Vendor Entries** page, you can see the total amount to apply to reverse all involved entries, namely when the value in the **Balance** field is zero.
@@ -83,7 +83,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:
 
     - Use the **Get Posted Document Lines to Reverse** action to copy one or more posted document lines from one or more posted documents. This action always exactly reverses the costs from the posted document line.
-    - Use the **Copy from Document** action to copy an entire existing document to the return order. It can be either a posted or unposted document. This action only enables exact cost reversing when the **Exact Cost Reversing Mandatory** checkbox is selected on the **Sales & Receivables Setup** page.  
+    - Use the **Copy from Document** action to copy an entire existing document to the return order. It can be either a posted or unposted document. This action only enables exact cost reversing when the **Exact Cost Reversing Mandatory** checkbox is selected on the **Purchases & Payables Setup** page.  
 
 5. Choose the **Get Posted Document Lines to Reverse** action.
 6. At the top of the **Posted Purchase Document Lines** page, select the **Show Reversible Lines Only** checkbox if you only want lines that have quantities that aren't yet returned. For example, if a posted purchase invoice quantity was already returned, you might not want to include that quantity on a new purchase return document.
@@ -97,7 +97,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 8. Select the lines that you want to copy to the new document.  
 
     > [!NOTE]  
-    > If you use <kbd>Ctrl</kbd>+<kbd>A</kbd> to select all lines, all lines within the filter you set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you filtered the lines to a particular document number with two lines, and one of which was already returned. Even if the **Show Reversible Quantity Only** field is selected, if you select <kbd>Ctrl</kbd>+<kbd>A</kbd> to copy all lines, both lines are copied, instead of only the one that isn't reversed.  
+    > If you use <kbd>Ctrl</kbd>+<kbd>A</kbd> to select all lines, all lines within the filter you set are copied, but the **Show Reversible Lines Only** filter is ignored. For example, suppose you filtered the lines to a particular document number with two lines, and one of which was already returned. Even if the **Show Reversible Lines Only** field is selected, if you select <kbd>Ctrl</kbd>+<kbd>A</kbd> to copy all lines, both lines are copied, instead of only the one that isn't reversed.  
 
 9. Choose the **OK** button to copy the lines to the new document.  
 
@@ -120,7 +120,7 @@ The purchase credit memo is removed and replaced with a new document in the list
     > [!NOTE]  
     > If part of the quantity of the posted document line is reversed, sold, or consumed, a line is created for the quantity that remains in inventory or that wasn't returned. If the full quantity of the posted document line was already reversed, a new document line isn't created.  
     >
-    > If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field isn't filled in because exact cost reversing isn't possible. For example, if you use the **Get Posted Document Lines to Reverse** action to get a posted purchase credit memo line for a new purchase credit memo, only the original posted credit memo line is copied to the new credit memo.  
+    > If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-to Item Entry** field isn't filled in because exact cost reversing isn't possible. For example, if you use the **Get Posted Document Lines to Reverse** action to get a posted purchase credit memo line for a new purchase credit memo, only the original posted credit memo line is copied to the new credit memo.  
 
 10. On the **Purchase Return Order** page, in the **Return Reason Code** field on each line, select the reason for the return.
 11. Choose the **Post** action.

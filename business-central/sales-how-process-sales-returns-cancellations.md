@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: undo, credit memo, return
 ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
-ms.date: 04/07/2026
+ms.date: 11/16/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -101,7 +101,7 @@ To combine return receipts, the **Combine Shipments** check box must be selected
 
     - To insert specific lines, select the lines, and then choose the **OK** button.  
 6.  If an incorrect shipment line was selected or you want to start over, you can delete the lines on the credit memo and rerun the **Get Return Receipt Lines** action.  
-7.  Post the invoice.  
+7.  Post the credit memo.  
 
 ### To automatically combine return receipts
 
@@ -109,7 +109,7 @@ You can automatically combine return receipts and have the option of automatical
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Combine Return Receipts**, and then choose the related link.
 2. On the **Combine Return Receipts** page, fill in the fields to select the relevant return receipts.
-3. Select the **Post Credit Memos** check box. If not, you must manually post the resulting purchase credit memos.
+3. Select the **Post Credit Memos** check box. If not, you must manually post the resulting sales credit memos.
 4. Choose the **OK** button.  
 
 ### To remove a received and invoiced return order

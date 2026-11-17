@@ -1,18 +1,17 @@
 ---
-title: Service Order (document report)
-description: Generate a service order that you can send to your customer.
+title: Service Order (Document Report)
+description: Generate a service order that you can send to your customer. Include customer details, service items, service lines, and amounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5900_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Order (document report)
@@ -22,7 +21,7 @@ Use the **Service Order** report to produce a service order that you can send to
 The report displays information such as:
 
 - Customer name
-- Service order numberD
+- Service order number
 - Description of the service order
 - Service order status
 - Order date and time
@@ -33,8 +32,8 @@ You can include either all or only selected service orders in the report.
 
 You can display amounts in two ways:
 
-- Quantity: The report shows the line amount, the amount including VAT, and the totals based on the difference between the values in the **Quantity** and the **Quantity Consumed** field on the service order's service line.
-- Quantity Invoiced: The amounts are based on the value in the **Quantity Invoiced** field on the service order's service line.
+- **Quantity**: The report shows the line amount, the amount including VAT, and the totals based on the value in the **Quantity** field minus the values in the **Quantity Consumed** and **Qty. to Consume** fields on the service order's service line.
+- **Quantity Invoiced**: The amounts are based on the value in the **Quantity Invoiced** field on the service order's service line.
 
 ## Use cases
 

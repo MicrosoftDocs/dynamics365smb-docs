@@ -1,17 +1,18 @@
 ---
-title: Using key performance indicators (KPIs) to meet your business goals
+title: Use Key Performance Indicators (KPIs) to Meet Business Goals
 description: Provides an overview of what key performance indicators (KPIs) are and how you can use them to meet your business goals.
 author: KennieNP
 ms.topic: get-started
 ms.search.keywords: kpi bi analytics
 ms.reviewer: bholtorf
 ms.search.form: 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993, 36994, 36995, 36996, 36997, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37009, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37022, 37023, 37024, 37025, 37026, 37027, 37028, 37029, 37030, 37031, 37032, 37033, 37034, 37035, 37036, 37037, 37038, 37039, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37056, 37057, 37058
-ms.date: 09/10/2024
+ms.date: 11/16/2026
 ms.author: kepontop
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
-# Using key performance indicators (KPIs) to meet your business goals
+# Use key performance indicators (KPIs) to meet your business goals
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Think of KPIs as your company’s scorecard, a way of measuring whether or not you’re delivering on your objectives.
 
@@ -32,7 +33,7 @@ So how do you begin to identify the KPIs that are important to your business? St
 
 These goals help you identify which KPIs matter for your company. Picking KPIs that are relevant depends entirely on these objectives and the ability you have to measure your performance against them.
 
-Next, identify the KPI targets that you’re working toward, and how you measure them. Keep in mind that targets can be short and long-term.
+Next, identify the KPI targets that you’re working toward, and how you measure them. Keep in mind that targets can be short- and long-term.
 
 Talk to your team and encourage open dialogue about the KPIs and their targets. Are they too aggressive? Too easy? Targets should be challenging but achievable. You should explore the activities and tactics your company uses to achieve them. Take time to understand your current state, so you have a starting point for your KPI.
 
@@ -48,7 +49,7 @@ Identifying which KPIs you should track becomes easier when you have a better un
 
 For each KPI that you choose to track, assign an owner and agree on tracking frequency. Whatever KPIs you decide to track, using a KPI platform or tool is key for collaborating with your team on KPI definitions. By collectively defining each KPI, then capturing contextual data and unifying it into a single view, you enable spot-on, real-time actions.
 
-## KPI reporting
+## Create KPI reports
 
 KPI reports take the information presented on the KPI dashboard to a new level. They go deeper into the data to pull out more detailed insights and analysis.
 
@@ -66,7 +67,7 @@ Other considerations for creating your KPI reports include:
 - Explore KPI report templates that might already be included in your KPI tool or platform.
 - Set a cadence for reporting frequency.
 - Decide whether your report is static or interactive, for more dynamic drill-downs into data.
-- Present only the relevant KPIs so you don’t overload the report with KPIs that don’t map back to the reporting - goals.
+- Present only the relevant KPIs so you don’t overload the report with KPIs that don’t map back to the reporting goals.
 - Make sure your reporting is clear, easy to understand, and actionable for the intended audience.
 
 ## Tools for implementing KPIs
@@ -77,7 +78,7 @@ The following table links to articles about how to use business intelligence and
 | --- | --- |
 | Use the Financial Reports feature to produce financial statements and KPIs. | [Using financial reporting to produce financial statements and KPIs](bi.md) |
 | Use Power BI to produce KPI dashboards. | [Work with Power BI reports](across-working-with-powerbi.md) | 
-| [Analyze financial statements with Microsoft Excel](finance-analyze-excel.md) |
+| Use Excel to analyze financial statements. | [Analyze financial statements with Microsoft Excel](finance-analyze-excel.md) |
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
 
 ## KPI best practices
@@ -102,7 +103,7 @@ Monitoring KPIs:
 Avoid these common KPI mistakes:
 
 - Selecting KPIs that aren’t key to your strategic goals. While it’s smart to track your relevant business metrics, not all of your metrics are worthy of KPI status.
-- Adopting poorly defined or vague KPIs. Collaborate with your team to define the KPIs with specific details on how they're measured. Having everyone onboard makes it easier to meet your goals.
+- Adopting poorly defined or vague KPIs. Collaborate with your team to define the KPIs with specific details on how they're measured. Having everyone on board makes it easier to meet your goals.
 - Setting lofty or unrealistic KPI targets. It’s better to set more realistic targets based on historical data, resources, and current tactics. Consider focusing on a specific timeframe or set short- and long-term targets.
 - Tracking KPIs without owners. Accountability matters, not just for the results but also for the process. Each KPI should have an owner responsible for monitoring, reporting, analysis, and action.
 - Failing to take action on your KPIs. Whether you’re meeting your goals or falling behind, KPIs are tools to help you make better decisions. So don’t track just for tracking’s sake—take action.

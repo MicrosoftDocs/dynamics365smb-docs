@@ -1,18 +1,17 @@
 ---
-title: Service Quote (document report)
-description: Generate a service quote document that you can send to your customer.
+title: Service Quote (Document Report)
+description: Generate a service quote document that you can send to your customer. Include the quote number, status, order date, and customer details.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5902_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Quote (document report)

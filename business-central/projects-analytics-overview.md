@@ -1,15 +1,16 @@
 ---
-title: Project analytics
-description: Business Central has features that can help you gather, analyze, and share data from your projects for business intelligence and decision-making in your organization.
+title: Project Analytics and Reporting
+description: Business Central has features that can help you gather, analyze, and share data from projects for business intelligence and decision-making in your organization.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 37062, 37033, 37034, 37035, 37036, 37037, 37039, Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014, Report_1015
-ms.date: 11/11/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Project analytics
@@ -28,13 +29,13 @@ Businesses capture lots of data during daily activities that supports business i
 - Built-in project analytics tools
 - Built-in project reports
 
-Each of these features has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
+Each of these features has its advantages and disadvantages, depending on the type of data analysis and the role of the user. Learn more in [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
 This article introduces how you can use these analytical features to gain insights into your projects.
 
 ## Analytics needs in projects
 
-When you think about the analytics needs in projects management, it might help to use a persona-based model that describes different analytics needs at a high-level.
+When you think about the analytics needs in project management, it might help to use a persona-based model that describes different analytics needs at a high level.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 
@@ -48,29 +49,29 @@ People in different roles have different needs when it comes to data, and they u
 |Project Manager     | Trends, summaries | Built-in managerial reports, ad-hoc analysis      |
 |Project participant | Detailed data     | Built-in operational reports, on-screen task data |
 
-## Using Power BI to monitor project KPIs
+## Use Power BI to monitor project KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In project management, people often use the following KPIs to monitor project performance:
 
 - % Complete
 - % Invoiced
 - Realization %
-- Actual Profit
-- Actual Profit Margin %
-- Actual (Total Cost)
-- Budget (Total Cost)
+- Total Invoiced Profit
+- Total Invoiced Profit Margin %
+- Total Usage Cost
+- Total Budget Cost
 
 :::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/project-overview.png":::
 
 These KPIs (and more) are available for projects in the Project Power BI app for [!INCLUDE [prod_short](includes/prod_short.md)].
 
-To learn more, go to [Power BI Projects app](projects-powerbi-app.md).
+Learn more in [Power BI Projects app](projects-powerbi-app.md).
 
 ### Reports in the Power BI Projects app
 
 [!INCLUDE [power-bi-projects-app](includes/power-bi-projects-app.md)]
 
-To learn more, go to [Power BI Projects app](projects-powerbi-app.md).
+Learn more in [Power BI Projects app](projects-powerbi-app.md).
 
 ## Ad-hoc analysis of project data
 
@@ -81,7 +82,7 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 
 The Data Analysis feature lets you open almost any list page, such as **Project Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
-Similarly, you can use the **Open in Excel** action to open a list page, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
+Similarly, you can use the **Open in Excel** action to open a list page, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, use features such as Analyze Data, What-If Analysis, or Forecast Sheet. For What-If Analysis or Forecast Sheet, use Excel for Windows.
 
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser.
@@ -96,7 +97,7 @@ To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc a
 
 [!INCLUDE [report-explorer-projects](includes/report-explorer-projects.md)]
 
-To learn more about reports that are relevant for project management, go to [Built-in project reports](project-reports.md).
+Learn more in [Built-in project reports](project-reports.md).
 
 ## On-screen project analytics
 

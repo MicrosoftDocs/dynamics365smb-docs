@@ -1,18 +1,17 @@
 ---
-title: Contract Gain/Loss Entries (report)
-description: Get an overview of shows all your service contract gain/loss entries.
+title: Contract Gain/Loss Entries (Report)
+description: Get an overview of all your service contract gain/loss entries, including reason codes, responsibility centers, customers, and types of change.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5983_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Contract Gain/Loss Entries (report)

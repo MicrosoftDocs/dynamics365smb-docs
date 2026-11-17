@@ -1,18 +1,17 @@
 ---
-title: Service Tasks (report)
-description: Get an overview of service tasks.
+title: Service Tasks in Business Central (Report)
+description: Get an overview of service tasks, including service order numbers, repair statuses, service item numbers, response dates, and priorities.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5904_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Tasks (report)
@@ -22,7 +21,6 @@ The **Service Tasks** report shows a list of service tasks.
 The report includes information such as: 
 
 - Service order number
-- Service item description
 - Repair status
 - Service item
 

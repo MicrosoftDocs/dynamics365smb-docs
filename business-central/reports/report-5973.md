@@ -1,18 +1,17 @@
 ---
-title: Service Contract Quote-Detail (report)
-description: Get an overview of all your service contract quotes.
+title: Service Contract Quote-Detail (Report)
+description: Get an overview of all your service contract quotes. View service items, service contract discounts, and quoted amounts summarized by contract.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5973_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Contract Quote-Detail (report)

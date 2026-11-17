@@ -1,18 +1,17 @@
 ---
-title: Service - Shipment (document report)
-description: Generate a service shipment document that you can send to your customer.
+title: Service - Shipment (Document Report)
+description: Generate a service shipment document that you can send to your customer. Include shipment details and an optional lot and serial number appendix.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5913_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service - Shipment (document report)
@@ -23,7 +22,7 @@ The report displays information such as:
 
 - Shipment number and date
 - Item description and quantity
-- Customer name, address, and contact number
+- Customer name, address, and customer number
 
 The report only includes posted shipments.
 

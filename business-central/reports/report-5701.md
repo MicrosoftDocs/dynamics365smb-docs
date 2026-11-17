@@ -1,18 +1,17 @@
 ---
-title: Item Substitutions (report)
-description: Help you manage and track item substitutions in production orders and bills of materials (BOMs). It allows you to specify substitute items that can be used when the preferred items aren't available, ensuring that production can continue smoothly without delays.
+title: Item Substitutions Report for Inventory
+description: Review substitute items, costs, quantities on hand, and interchangeability to help manage substitutions when preferred items aren't available.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5701_Primary
-ms.date: 11/1/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 11/1/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Item Substitutions (report)

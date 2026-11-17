@@ -1,18 +1,17 @@
 ---
-title: Service Contract-Detail (report)
-description: Get an overview of your service contracts.
+title: Service Contract-Detail (Report)
+description: Get an overview of your service contracts, including item numbers, serial numbers, service periods, contract values, discounts, and amounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5971_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Contract-Detail (report)
@@ -23,7 +22,6 @@ The report displays information such as:
 
 - Item number
 - Description
-- Variant code
 - Serial number
 - Service period
 - Contract value

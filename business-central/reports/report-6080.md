@@ -1,23 +1,22 @@
 ---
-title: Serv. Pricing Profitability (report)
-description: Analyze profit from your service pricing.
+title: Service Pricing Profitability (Report)
+description: Analyze profit from your service pricing, including usage amounts, invoice amounts, discount amounts, cost amounts, and profit percentages.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_6080_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
-# Serv. Pricing Profitability (report)
+# Service Pricing Profitability (report)
 
-The **Serv. Pricing Profitability** report shows a list of profit amounts for your service pricing.
+The **Service Pricing Profitability** report shows a list of profit amounts for your service pricing.
 
 The report displays information such as: 
 
@@ -63,7 +62,7 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [Serv. Pricing Profitability](https://businesscentral.dynamics.com?report=6080)
+Try the report here: [Service Pricing Profitability](https://businesscentral.dynamics.com?report=6080)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

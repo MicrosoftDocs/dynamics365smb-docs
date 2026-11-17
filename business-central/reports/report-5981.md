@@ -1,18 +1,17 @@
 ---
-title: Contr. Gain/Loss - Resp. Ctr. (report)
-description: Analyze gains and losses made on contracts attached to the different responsibility centers.
+title: Contr. Gain/Loss - Resp. Ctr. (Report)
+description: Analyze gains and losses made on contracts attached to responsibility centers. View contract numbers, change types, dates, and amounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5981_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Contr. Gain/Loss - Resp. Ctr. (report)
@@ -27,7 +26,7 @@ The report displays information such as:
 - Customer name
 - Contract group code
 - Contract number
-- Change status
+- Type of change
 - Change date
 - Amount
 

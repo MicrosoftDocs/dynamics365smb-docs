@@ -1,18 +1,17 @@
 ---
-title: Dispatch Board (report)
-description: Get an overview of your dispatch board.
+title: Dispatch Board in Business Central (Report)
+description: Get an overview of your dispatch board, including response dates and times, priorities, order numbers, service zones, and resource allocations.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5955_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Dispatch Board (report)

@@ -1,18 +1,17 @@
 ---
-title: Contr. Serv. Orders - Test (report)
-description: Analyze which service contracts include service items that are due for service within the specified period.
+title: Contr. Serv. Orders - Test (Report)
+description: Analyze which service contracts include service items that are due for service within the specified period, including contract and customer details.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5988_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Contr. Serv. Orders - Test (report)
@@ -24,7 +23,7 @@ The report displays information such as:
 - Numbers of contracts
 - Numbers and the names of customers
 
-The report also includes information about the service orders that are created for the period that you specified.
+The report also includes information about the service orders that would be created for the period that you specified.
 
 The report offers options for the output:
 

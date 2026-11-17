@@ -1,23 +1,24 @@
 ---
-title: Service Items Out of Warranty (report)
-description: Get an overview of service items that are out of warranty.
+title: Service Items Out of Warranty (Report)
+description: Get an overview of service items that are out of warranty, including warranty end dates, serial numbers, customer names, and active contracts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5937_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Items Out of Warranty (report)
 
 The **Service Items Out of Warranty** report shows a list of service items that are out of warranty.
+
+Set the **Warranty Ending Date (Parts)** filter to the date range you want to check. Without this filter, the report includes all service items with a parts warranty ending date, including dates in the future.
 
 The report displays information such as:
 

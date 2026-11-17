@@ -1,18 +1,17 @@
 ---
-title: Contract Price Update - Test (report)
-description: Get an overview of which service contracts need price updates up to the date that you specify.
+title: Contract Price Update - Test (Report)
+description: Get an overview of which service contracts need price updates up to the date that you specify, including amounts, update percentages, and errors.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5985_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Contract Price Update - Test (report)

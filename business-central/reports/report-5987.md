@@ -1,18 +1,17 @@
 ---
-title: Expired Contract Lines - Test (report)
-description: Analyze which contract lines are expired and need to be removed from service contracts up to the date that you specify.
+title: Expired Contract Lines - Test (Report)
+description: Analyze which contract lines are expired and need to be removed from service contracts up to the date that you specify. View line amounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5987_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Expired Contract Lines - Test (report)

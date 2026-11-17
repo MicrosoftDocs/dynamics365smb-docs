@@ -1,18 +1,17 @@
 ---
-title: Service Load Level (report)
-description: Get an overview of the service load of your resources.
+title: Service Load Level in Business Central (Report)
+description: Get an overview of the service load of your resources. View capacity, usage, unused capacity percentages, sales, and sales percentages.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5956_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Load Level (report)
@@ -25,7 +24,7 @@ The **Service Load Level** report shows information about a resource:
 - Sales
 - Sales percentage
 
-You can select whether you want the report to focus on quantity, costs, or sales.
+You can select whether you want the report to focus on quantity, costs, or prices.
 
 ## Use cases
 

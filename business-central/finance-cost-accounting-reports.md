@@ -1,15 +1,16 @@
 ---
-title: Built-in cost accounting reports in Business Central
-description: Explore the built-in cost accounting reports in the standard version of Business Central.
+title: Built-in Cost Accounting Reports in Business Central
+description: Explore the built-in cost accounting reports in the standard version of Business Central. Compare costs, budgets, and allocations.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: Report_1123, Report_1125, Report_1126, Report_1127, Report_1128, Report_1129, Report_1133, Report_1138, Report_4405, Report_1700, Report_1701, Report_1702, Report_10007, Report_10008
-ms.date: 06/23/2025
+ms.date: 11/16/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Built-in cost accounting reports in Business Central

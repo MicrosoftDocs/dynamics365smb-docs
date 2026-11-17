@@ -1,23 +1,22 @@
 ---
-title: Status (report)
-description: Helps you monitor and manage your inventory operations effectively by providing real-time insights into the current state of your inventory. Might allow you to optimize your supply chain processes and reduce cost associated with inventory.
+title: Status Report for Inventory Valuation
+description: Review inventory quantities, unit costs, and values as of a selected status date. Use the report to monitor inventory and support supply chain decisions.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_706_Primary
-ms.date: 11/1/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 11/1/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Status (report)
 
-The **Status** report shows the inventory valuation for a given item based on transactions from sales orders, purchase orders, and inventory. The valuation broken down by entry types, such as purchase, sale, transfer, and Adjustments.
+The **Status** report shows the inventory valuation for a given item as of the **Status Date**, based on posted inventory transactions. The valuation is broken down by entry types, such as purchase, sale, transfer, and adjustments.
 
 The report displays information such as:
 

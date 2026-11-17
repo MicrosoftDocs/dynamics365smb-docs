@@ -1,23 +1,22 @@
 ---
 title: Production Order - WIP (report)
-description: Helps you track the costs of the production process.
+description: Track the costs of the production process. Review consumption, capacity usage, output, and costs posted to the general ledger for production orders.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5802_Primary
-ms.date: 11/1/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 11/1/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Production Order - WIP (report)
 
-The **Production Order - WIP** report shows a detailed overview of the work-in-process (WIP) costs associated with released production orders. The costs are based on posted transactions, such as consumptions, capacity entries, and output for a given date.
+The **Production Order - WIP** report shows a detailed overview of the work-in-process (WIP) costs associated with released and finished production orders. The costs are based on posted transactions, such as consumptions, capacity entries, and output for the selected period.
 
 The report displays information such as:
 

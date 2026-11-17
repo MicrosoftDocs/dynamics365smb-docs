@@ -1,15 +1,16 @@
 ---
-title: Fixed assets analytics
-description: Learn how to gather, analyze, and share data about fixed assets for business intelligence.
+title: Fixed Assets Analytics and Reporting
+description: Learn how to gather, analyze, and share data about fixed assets for business intelligence. Explore analysis tools and built-in reports.
 author: brentholtorf
 ms.author: kepontop
 ms.reviewer: v-soumramani
 ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5601, 5600, 5615, 5616, 5617, Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
-ms.date: 10/03/2025
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Fixed assets analytics
@@ -17,7 +18,7 @@ ms.custom: bap-template
 Businesses with fixed assets capture a lot of data about them during daily activities. That data supports valuable business intelligence (BI) for fixed assets managers:
 
 - Asset acquisitions
-- Asset deprecation
+- Asset depreciation
 - Insurance and maintenance
 - Asset budgets
 
@@ -30,7 +31,7 @@ Businesses with fixed assets capture a lot of data about them during daily activ
 - Built-in fixed assets reports
 
 > [!NOTE]
-> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecation, and insurance, but also data about future (projected) data, such as depreciation and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
+> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, depreciation, and insurance, but also data about future (projected) data, such as depreciation and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
 
 Each feature has its advantages and disadvantages, depending on the type of data analysis and the role of the user. Learn more in [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
@@ -38,7 +39,7 @@ This article describes ways to use these analytical features to get insights int
 
 ## Analytics needs in asset management
 
-When thinking of analytics needs in asset management, it might help to use a persona-based model that describes their analytics needs at a high-level.
+When thinking of analytics needs in asset management, it might help to use a persona-based model that describes their analytics needs at a high level.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 
@@ -69,7 +70,7 @@ Learn more in [Prepare Financial Reports with Financial Data and Account Categor
 
 ## Finance reporting across business units or legal entities (related to fixed assets)
 
-Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for asset management, you might want to consolidate general ledger entries for your fixed assets accounts to be able to track fixed assets KPIs across business units or legal entities.
+Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for asset management, you might want to consolidate general ledger entries for your fixed assets accounts to be able to track fixed assets KPIs across business units or legal entities.
 
 Learn more in [Company consolidation](finance-consolidated-company-reporting.md).
 
@@ -80,11 +81,11 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 - Data analysis on ledger list pages
 - Open in Excel
 
-The data analysis feature lets you open almost any list page, such as **General Ledger Entries** or **Fixed Asset Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
+The data analysis feature lets you open almost any list page, such as **General Ledger Entries** or **FA Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Example of how to do data analysis on the **FA Ledger Entries** page to see asset value." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
-Similarly, you can use the **Open in Excel** action to open a list page for ledger entries, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
+Similarly, you can use the **Open in Excel** action to open a list page for ledger entries, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, use features such as Analyze Data, What-If Analysis, or Forecast Sheet. For What-If Analysis or Forecast Sheet, use Excel for Windows.
 
 <!-- :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png"::: -->
 
@@ -131,7 +132,7 @@ Dimensions are values that categorize entries so you can track and analyze them 
 
 So, instead of setting up separate general ledger accounts for each department or location, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts structure.
 
-Learn more in [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
+Learn more in [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 ## Related information
 

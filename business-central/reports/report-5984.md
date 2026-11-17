@@ -1,18 +1,17 @@
 ---
-title: Contract Invoicing - Test (report)
-description: See which service contracts are due for invoicing up to the date that you specify.
+title: Contract Invoicing - Test (Report)
+description: See which service contracts are due for invoicing up to the date that you specify. View contract invoice periods, amounts, and next invoice dates.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5984_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Contract Invoicing - Test (report)

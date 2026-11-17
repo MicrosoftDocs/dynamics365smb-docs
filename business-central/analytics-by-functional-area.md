@@ -1,14 +1,15 @@
 ---
-title: Analytics by functional area
-description: Provides an overview of functional area specific landing pages for analytics in Business Central.
+title: Analytics by Functional Area Overview
+description: Provides an overview of functional area specific landing pages for analytics in Business Central, including finance, sales, and inventory.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: feature overview
-ms.date: 05/01/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Analytics by functional area

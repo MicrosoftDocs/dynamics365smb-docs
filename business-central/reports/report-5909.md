@@ -1,18 +1,17 @@
 ---
-title: Service Profit (Resp. Centers) (report)
-description: Get an overview on profit for responsibility centers.
+title: Service Profit (Resp. Centers) (Report)
+description: Get an overview of profit for responsibility centers based on the difference between service amounts and service costs for service orders.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5909_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Profit (Resp. Centers) (report)

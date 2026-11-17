@@ -1,18 +1,17 @@
 ---
-title: Service Profit (Service Items) (report)
-description: Get an overview on profit for service items.
+title: Service Profit (Service Items) (Report)
+description: Get an overview of profit for service items, including service amounts, contract discounts, service discounts, service costs, and profit amounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5938_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Profit (Service Items) (report)

@@ -1,18 +1,17 @@
 ---
-title: Service - Credit Memo (document report)
-description: Generate a service credit memo document that you can send to your customer.
+title: Service - Credit Memo (Document Report)
+description: Generate a service credit memo document that you can send to your customer. Print all or selected posted service credit memos.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5912_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service - Credit Memo (document report)

@@ -1,18 +1,17 @@
 ---
-title: Service Profit (Serv. Orders) (report)
-description: Get an overview on profit for service orders.
+title: Service Profit (Serv. Orders) (Report)
+description: Get an overview of profit for service orders based on service amounts and service costs. View customer numbers and service ledger details.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5910_Primary
-ms.date: 11/2/2024
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - ai-gen-docs-bap
-ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Service Profit (Serv. Orders) (report)
@@ -22,11 +21,11 @@ The **Service Profit (Serv. Orders)** report shows information about profit for 
 The report includes information such as:
 
 - Customer number
-- Serial number
 - Description
 - Item number
-- Contract number
-- Contract amount
+- Service amount
+- Service cost amount
+- Profit amount
 
 ## Use cases
 

@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Starting December 2, 2026, Copilot item substitution suggestions won't be available. To find substitute items, choose **Use modern search** from the search menu on the **Items** page, and then add them as substitutes. Existing substitution records and the ability to manage substitutions manually aren't affected. Learn more about modern search, its prerequisites, and when to use legacy search in [Choose between modern search and legacy search](/dynamics365/business-central/ui-enter-criteria-filters#choose-between-modern-search-and-legacy-search).

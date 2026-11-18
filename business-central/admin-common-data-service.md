@@ -5,15 +5,23 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 06/17/2026
+ms.date: 11/17/2026
 ms.custom: bap-template
 ms.search.form: 7214_Primary
 ms.service: dynamics-365-business-central
+ai-usage: ai-assisted
 ---
 
 # Integrate with Microsoft Dataverse via data sync
 
 Business apps often use data from more than one source. [!INCLUDE[cds_long](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect [!INCLUDE[prod_short](includes/prod_short.md)] to other Dynamics 365 applications. For example, [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on [!INCLUDE[cds_long](includes/cds_long_md.md)]. To learn more about [!INCLUDE[cds_long](includes/cds_long_md.md)], go to [What is Dataverse?](/power-apps/maker/data-platform/data-platform-intro).
+
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/prod_short.md)] online can connect only to [!INCLUDE[cds_long](includes/cds_long_md.md)] environments that belong to the same Microsoft Entra tenant as the [!INCLUDE[prod_short](includes/prod_short.md)] environment. This requirement also applies to integrations with [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[field-service-short](includes/field-service-short.md)].
+>
+> Before signing in, [!INCLUDE[prod_short](includes/prod_short.md)] verifies that the environments belong to the same tenant. If the tenants differ, or [!INCLUDE[prod_short](includes/prod_short.md)] can't verify the tenant, it blocks the connection.
+>
+> This requirement doesn't apply to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 
 The following steps provide an overview of the steps to integrate [!INCLUDE[cds_long](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].
 

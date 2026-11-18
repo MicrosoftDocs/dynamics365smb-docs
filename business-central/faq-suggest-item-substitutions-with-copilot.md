@@ -6,7 +6,8 @@ ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: faq
 ms.search.form:
-ms.date: 10/02/2026
+ms.date: 11/16/2026
+ai-usage: ai-assisted
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -14,6 +15,10 @@ ms.custom: responsible-ai-faqs
 ---
 
 # FAQ for suggest item substitutions with Copilot
+
+[!INCLUDE [item-substitution-copilot-retirement](includes/item-substitution-copilot-retirement.md)]
+
+The answers in this FAQ describe the Copilot feature before its retirement. Learn more about manual substitutions in [Set up item substitutions](inventory-how-register-new-items.md#set-up-item-substitutions).
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.search.forms: 7200, 7201
-ms.date: 06/10/2025
+ms.date: 11/17/2026
 ms.service: dynamics-365-business-central
 ---
 # Connect to Microsoft Dataverse
@@ -100,7 +100,7 @@ The following procedure describes how to set up the connection manually on the *
 
     |Field|Description|
     |-----|-----|
-    |**Environment URL**|If you own environments in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], we find them for you when you run the setup guide. If you want to connect to a different environment in another tenant, you can enter the administrator credentials for the environment and we can find it too. |
+    |**Environment URL**|The URL of the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment that you want to connect to. The setup guide can find your environments for you. For [!INCLUDE[prod_short](includes/prod_short.md)] online, the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment must belong to the same Microsoft Entra tenant as your [!INCLUDE[prod_short](includes/prod_short.md)] environment.|
     |**Enabled**|Start using the integration. If you don't enable the connection now, the connection settings are saved but users can't access [!INCLUDE[cds_long_md](includes/cds_long_md.md)] data from [!INCLUDE[prod_short](includes/prod_short.md)]. You can return to this page and enable the connection later.  |
 
 3. In the **Ownership Model** field, choose whether you want a team table in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit displays in the **Coupled Business Unit** field.

@@ -108,7 +108,7 @@ We talk about new capabilities on [the Dynamics 365 Blog](https://www.microsoft.
 
 #### Capabilities coming soon
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every six months, and with monthly service updates. Choose the link to view the roadmap. Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every six months, and with monthly service updates. Choose the link to view the roadmap. Visit the [Microsoft Copilot Roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.  
 
 ### Do more with your trial
 

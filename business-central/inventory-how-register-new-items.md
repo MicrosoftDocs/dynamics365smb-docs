@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 04/07/2026
+ms.date: 11/16/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -68,9 +68,6 @@ Learn more about variants at [Manage Product Variants](inventory-item-variants.m
 ## Set up item substitutions
 
 You can set up items to have replacements, such as other items that can be used in place of the original item.
-
-> [!TIP]
-> If you know your item catalog well, or only have a few items, you might want to specify the substitute items yourself. However, if you have a larger portfolio, the suggest item substitutes capability for Copilot can help. Copilot can suggest substitute items based on item attributes. To learn more about the AI capability, go to [Find item substitutions faster with Copilot](suggest-item-substitutions-copilot.md).
 
 ### To make an item substitution
 

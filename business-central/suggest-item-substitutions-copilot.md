@@ -5,7 +5,8 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/02/2026
+ms.date: 11/16/2026
+ai-usage: ai-assisted
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -14,6 +15,10 @@ ms.search.form: 30, 31, 5716_Primary
 ---
 
 # Suggest substitute items with Copilot
+
+[!INCLUDE [item-substitution-copilot-retirement](includes/item-substitution-copilot-retirement.md)]
+
+The Copilot procedures in this article apply only while suggestions remain available. Learn how to add substitutes manually in [Set up item substitutions](inventory-how-register-new-items.md#set-up-item-substitutions).
 
 [!INCLUDE [preview-banner](includes/preview-banner.md)]
 

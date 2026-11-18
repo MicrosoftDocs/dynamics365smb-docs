@@ -24,17 +24,19 @@ Connect [!INCLUDE[prod_short](includes/prod_short.md)] online to an open mirrore
 
 Before you begin, make sure the following requirements are met.
 
-Business Central requirements:
+**Business Central requirements**
 
-- Your Business Central online environment supports the **Microsoft Fabric Mirroring (Preview)** extension. Check the extension's compatibility requirements for your environment version.
-- The **Microsoft Fabric Mirroring** extension is installed on the environment. Download the app from the [Microsoft Marketplace](https://go.microsoft.com/fwlink/?LinkId=2384210). Learn more in [Install extensions (apps) in Business Central](ui-extensions-install-uninstall.md).
+- Your Business Central online environment is version 29.1 or later.
+- The **Business Central Mirroring to Fabric** extension is installed on the environment. Download the app from the [Microsoft Marketplace](https://go.microsoft.com/fwlink/?LinkId=2384210). Learn more in [Install extensions (apps) in Business Central](ui-extensions-install-uninstall.md).
 - Your user account has the **MS Fabric Mirroring - Admin** permission set or equivalent permissions.
 
-Microsoft Fabric requirements:
+**Microsoft Fabric requirements**
 
-- The destination workspace is assigned to an active Microsoft Fabric capacity. A paused or deleted capacity stops Fabric replication.
-- You have at least the **Member** role in the Fabric workspace, so that you can add the mirroring service principal and assign it the Contributor role.
-- The Fabric workspace is in the same Microsoft Entra tenant as your Business Central environment.
+You have a Fabric workspace to receive the Business Central data that meets these requirements:
+
+- The workspace is assigned to an active Microsoft Fabric capacity. A paused or deleted capacity stops Fabric replication. Learn more in [Manage your capacities in the Admin portal](/fabric/admin/capacity-settings).
+- The workspace is in the same Microsoft Entra tenant as your Business Central environment.
+- You have at least the **Member** role in the workspace so that you can add the mirroring service principal and assign it the **Contributor** role.
 
 Learn more in [Create a workspace](/fabric/fundamentals/create-workspaces) and [Roles in workspaces](/fabric/fundamentals/roles-workspaces).
 
@@ -43,12 +45,13 @@ Learn more in [Create a workspace](/fabric/fundamentals/create-workspaces) and [
 Create the open mirrored database to receive your Business Central data.
 
 1. Sign in to [Microsoft Fabric](https://app.fabric.microsoft.com/).
-1. Open the workspace that will contain the Business Central data. If you don't have a workspace, learn more in [Create a workspace](/fabric/fundamentals/create-workspaces).
-1. Open the **Create** hub, select **Mirrored Database**, and then select **Other** to create an open-mirrored database.
+1. Open the workspace that you want to use for the Business Central data.
+1. Select **+ New item** or **Create**.
+1. Find and select the **Mirrored Database**.
 1. Enter a name for the database, and then select **Create**.
-1. Wait until Fabric finishes provisioning it.
+1. Wait until Fabric finishes creating the database.
 
-Learn more in [Open mirroring in Microsoft Fabric](/fabric/mirroring/open-mirroring) and [Tutorial: Configure Microsoft Fabric open mirrored databases](/fabric/mirroring/open-mirroring-tutorial).
+Learn more in [Tutorial: Configure Microsoft Fabric open mirrored databases](/fabric/mirroring/open-mirroring-tutorial) or [Create items in workspaces](/fabric/fundamentals/create-items-in-workspaces).
 
 ## Set up authentication
 
@@ -287,6 +290,40 @@ Learn more in [Configure synchronization behavior](admin-manage-fabric-export.md
 ## Secure the Fabric connection
 
 Business Central shows a privacy notice before it accesses Microsoft Fabric. An administrator must approve the notice before the connection or synchronization can start.
+
+## Troubleshoot setup
+
+### Business Central can't get an access token for Fabric
+
+**Symptom**: Business Central can't get an access token when it connects to Fabric. In the Microsoft Entra admin center, the **Dynamics 365 Business Central Fabric Export** enterprise application shows no permissions that you can grant.
+
+**Resolution**: Update the Microsoft Fabric Mirroring (Preview) extension to the latest version, and then run the setup again. Get the latest version from [Microsoft Marketplace](https://go.microsoft.com/fwlink/?LinkId=2384210).
+
+If you already started a synchronization, follow the steps in [Reset the connection after an update or failed setup](#reset-the-connection-after-an-update-or-failed-setup).
+
+### Setup doesn't complete, or synchronization doesn't behave as expected
+
+**Symptoms**: You might see one or more of these problems, often after you update the extension or after an earlier setup attempt failed:
+
+- **Setup Complete** doesn't get selected, even after you select **Refresh page**.
+- Every export run is a full export instead of an incremental one.
+- Columns for option fields contain the option value but no text. For example, the **Account Type** column for G/L accounts has a value, but the column next to it that should show the account type text is empty.
+
+**Resolution**: Reset the connection as described in the next section.
+
+### Reset the connection after an update or failed setup
+
+1. Open the **Microsoft Fabric Mirroring Setup (Preview)** page.
+1. If a synchronization is running, select **Stop synchronization**.
+1. Select **Connect to Fabric** again. Point it to the same open mirrored database you used before.
+1. After you select **Connect to Fabric**, it might take up to 10 minutes for **Setup Complete** to change to **True**. Select **Refresh page** until **Setup Complete** is selected.
+1. Select **Start synchronization**.
+1. Open **Fabric Synchronization Overview** to check the first export run and its result.
+
+> [!NOTE]
+> Resetting the connection doesn't change authentication. You don't have to create the service principal again or grant workspace access again.
+>
+> For tables whose schema changed, the first synchronization run after the reset is a snapshot. For other tables, incremental export continues from where it stopped.
 
 ## Related information
 

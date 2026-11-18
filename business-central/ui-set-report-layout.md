@@ -75,9 +75,6 @@ Companies where you don't select a default layout keep using the default layout 
 The page lists the available reports. The **Company Name** field determines the company for which you set the default layout. The **Layout Description** field shows the layout that the report currently uses in that company.
 
 1. Select the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then select **Advanced Settings**. In the **Manual Setup** section, select **Report layout selection**. Alternatively, [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Manual Setup**, select the related link, and then select **Report layout selection**.
-
-   > [!NOTE]
-   > The **Report Layout Selection** page doesn't appear in search results. Open it from **Manual Setup**.
 1. Set the **Company Name** field to the company for which you want to select the default layout.
 1. Find and select the report, and then use one of the following options:
 

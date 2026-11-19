@@ -88,7 +88,7 @@ In the **OneDrive Setup** assisted setup guide for setting up OneDrive integrati
 
 ## Will Microsoft continue to improve the integration to OneDrive?
 
-At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what's next for integrations with Microsoft 365 apps, see the [Dynamics 365 release plans](/dynamics365/release-plans/).
+At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what's next for integrations with Microsoft 365 apps, see the [roadmap](https://aka.ms/AIatWorkroadmap).
 
 If you want to participate in improving OneDrive integration, or have an idea that would improve file sharing and collaboration in [!INCLUDE[prod_short](includes/prod_short.md)], add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 

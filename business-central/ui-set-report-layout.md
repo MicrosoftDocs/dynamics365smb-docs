@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -47,6 +47,8 @@ You can set the layout for a report in several ways. Each method has advantages,
 
   The **Report Layouts** page displays all available layouts for each report in the current company. It's also used to specify the default layout for reports. It's easy to find a specific layout by sorting or filtering the list. Once you find the layout, you can set it for a report with a single selection.
 
+  The page always works on the company that you're signed in to. To set the default layout in another company, [switch to that company](ui-organization-switch.md) first, or use the **Report Layout Selection** page.
+
   > [!NOTE]
   > You can't use the **Report Layouts** page for Word and RDLC layouts that you created by using the legacy [Custom Layouts feature](ui-how-create-custom-report-layout.md). You won't see these custom layouts listed on the **Report Layouts** page. For these layouts, you can only set them by using the **Report Layout Selection** page.
 
@@ -56,11 +58,23 @@ You can set the layout for a report in several ways. Each method has advantages,
 1. Find and select the layout in the list.
 1. Select **Layout** > **Set as default**.
 
+The layout is set as the default for the company that you're currently signed in to. The **Default** check box is selected for the layout.
+
+### Use a different default layout in each company
+
+The default layout is stored for each company. For example, if an extension provides several layouts for a report and one company needs a customized layout, you can select a different default layout in that company only.
+
+1. [Switch to the company](ui-organization-switch.md) where you want to set the default layout.
+1. Set the default layout as described in the previous procedure.
+1. Repeat for each company that needs a different default layout.
+
+Companies where you don't select a default layout keep using the default layout of the report.
+
 ## Set the layout from the Report Layout Selection page
 
 The page lists the available reports. The **Company Name** field determines the company for which you set the default layout. The **Layout Description** field shows the layout that the report currently uses in that company.
 
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Report Layout Selection**, and then select the related link.
+1. Select the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then select **Advanced Settings**. In the **Manual Setup** section, select **Report layout selection**. Alternatively, [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Manual Setup**, select the related link, and then select **Report layout selection**.
 1. Set the **Company Name** field to the company for which you want to select the default layout.
 1. Find and select the report, and then use one of the following options:
 

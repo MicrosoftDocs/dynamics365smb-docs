@@ -136,7 +136,7 @@ To remove the app that you installed for yourself, go to any chat compose box, f
 
 ### Will Microsoft continue to improve the Business Central app for Teams?
 
-At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what's next for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, see the [Dynamics 365 release plans](/dynamics365/release-plans/).
+At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what's next for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, see the [roadmap](https://aka.ms/AIatWorkroadmap).
 
 If you want to participate in improving the app for Teams, or have an idea that would help simplify your work or collaborative experiences in Teams, add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 

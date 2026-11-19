@@ -59,7 +59,6 @@ The following table provides links to articles where you can learn about the loc
 [Get Ready for Doing Business](ui-get-ready-business.md)  
 [Compliance overview](compliance/compliance-overview.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
-[International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -24,7 +24,7 @@ The Business Central Copilot and agent capabilities covered by this article use 
 
 You manage consent for this processing by using the **Allow data movement** setting on the **Copilot & agent capabilities** page. Capabilities that require this cross-geography processing aren't available if you don't allow data movement. Learn how to provide consent in [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).
 
-Individual Copilot capabilities might not be available in all geographies. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external). Copilot and generative AI features from non-Microsoft publishers, such as those originating from customizations or Marketplace apps you install, each define their own specific Azure OpenAI Service regions. Consult with the extension publisher to understand which regional Azure services are used by the extension.
+Individual Copilot capabilities might not be available in all geographies. Copilot and generative AI features from non-Microsoft publishers, such as those originating from customizations or Marketplace apps you install, each define their own specific Azure OpenAI Service regions. Consult with the extension publisher to understand which regional Azure services are used by the extension.
 
 ## How data movement across geographies works
 

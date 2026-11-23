@@ -2649,7 +2649,7 @@ ms.service: dynamics-365-business-central
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
-### Microsoft Fabric
+### Microsoft Fabric (preview)
 #### [Data mirroring to Microsoft Fabric](admin-fabric.md)
 #### [Set up data mirroring to Microsoft Fabric](admin-set-up-fabric-mirroring.md)
 #### [Manage data synchronization with Microsoft Fabric](admin-manage-fabric-export.md)

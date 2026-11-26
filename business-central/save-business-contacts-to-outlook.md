@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 11/09/2026
+ms.date: 11/25/2026
 ai-usage: ai-assisted
 ms.custom: bap-template #Required; don't change.
 ---
@@ -103,9 +103,15 @@ The following steps guide you through copying contacts stored in Business Centra
 
   Because contacts change over time in both Business Central and Outlook or Teams, contact information and duplicate contacts can sometimes become problematic for synchronization. Turn on **Force full sync** under **Advanced** to retrieve the contacts in the selected Outlook folder again instead of using changes since the last synchronization. This option doesn't overwrite contacts that already have a matching email address. If Business Central reports an expired synchronization token, run a full synchronization.
 
-  To start over with synchronization tracking, select **Clear last sync details** under **Advanced**. This action clears your internal synchronization history without changing contacts in Business Central or Outlook.
+  If you get the error "The Delta URL must be an HTTPS Microsoft Graph URL.", clear your synchronization state to remove the invalid delta link, and then run a full synchronization. Learn more in [Reset synchronization tracking](#reset-synchronization-tracking).
 
   If the completion page shows contacts that failed to synchronize, select the failure count to review them.
+
+## Reset synchronization tracking
+
+To start over with synchronization tracking, select **Clear last sync details** under **Advanced**. This action clears the saved synchronization state for your user without changing contacts in Business Central or Outlook, including contacts you already synchronized.
+
+After you clear the synchronization state, you must run a full synchronization once. Delta synchronization, which retrieves only changes since the last synchronization, isn't available for the next synchronization. Turn on **Force full sync** to establish a new synchronization baseline. Subsequent synchronizations can use delta synchronization again.
 
 ## Updating Business Central by saving contacts from Outlook and Teams
 

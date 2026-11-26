@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 10/29/2026
+ms.date: 11/24/2026
 ms.update-cycle: 180-days
 ai-usage: ai-assisted
 ms.custom: 
@@ -26,6 +26,8 @@ Manually entering data can be time-consuming and error-prone, both for casual us
 
 Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts productivity, and eliminates tedious tasks. Copilot uses AI to suggest and fill out field values automatically on your page, instead of typing or looking up things across screens. You can choose to keep or discard the suggestions. 
 
+With **Auto paste**, you can also get suggestions based on text that you copied to your clipboard. Copilot matches the copied information to supported fields on a card or document page.
+
 ## What are the capabilities of Autofill?
 
 [!INCLUDE[autofill-suggestions-source](includes/autofill-suggestions-source.md)]
@@ -44,6 +46,8 @@ When you choose to keep a suggestion, you're saving the change to Business Centr
 When you leave the page or record, any suggestions that you didn't choose to keep are automatically discarded. 
 
 Suggested values are displayed directly within the field editing experience, making it easy for you to review each suggestion and choose to keep, discard, or replace the suggestion. 
+
+The same review and acceptance requirements apply to **Auto paste**. Copy only text that you intend to use with Copilot, and check that the suggested values match the copied information before accepting them.
 
 ## How was Autofill evaluated? What metrics are used to measure performance? 
 
@@ -76,6 +80,16 @@ You provide feedback by using the **like** (thumbs up) or **dislike** (thumbs do
 - Certain industry, product, and subject limitations
 
   Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality or limited output from Copilot due to the sensitive nature of that domain.
+
+- Clipboard suggestions
+
+  **Auto paste** requires clipboard access in your browser and text on the clipboard. It doesn't extract information from an image copied without text. Copilot might match copied information to the wrong field or suggest an incorrect value, so review each suggestion before accepting it. Date and time fields and currency code fields can receive clipboard suggestions even though they don't offer the field-level Copilot icon. Other field restrictions still apply. Learn more in [Autofill fields with Copilot](autofill-fields-with-copilot.md#availability).
+
+## How does Auto paste use my clipboard?
+
+Business Central reads text from your clipboard to show it in the **Clipboard** pane when clipboard access is allowed. When you select **Auto paste**, the clipboard text is sent with the request to the Copilot service to generate field suggestions. Granting clipboard access doesn't automatically save copied information to a record.
+
+You can hide the copied text in the pane by turning off **Show content**. This setting only controls whether the pane displays the text. It doesn't prevent the text from being used when you select **Auto paste**. To prevent Business Central from reading the clipboard, block clipboard access in your browser's site settings.
   
 ## How does Autofill treat data residency?
 
@@ -105,3 +119,5 @@ Learn more about how Copilot searches the web in [Searching the web with Copilot
 [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  
 [Azure OpenAI Service and Business Central data](azure-openai-data.md)  
 [Copilot data movement across geographies](ai-copilot-data-movement.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

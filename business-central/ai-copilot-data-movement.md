@@ -37,7 +37,7 @@ When you use Copilot capabilities, your inputs (prompts) and outputs (results), 
 
 ## Azure OpenAI routing for Business Central-native capabilities
 
-The following table shows the Azure OpenAI geography used by the Business Central Copilot and agent capabilities covered by this article. The table doesn't identify where Microsoft Copilot interactions are processed or stored.
+The following table shows the Azure OpenAI geography used by the Business Central Copilot and agent capabilities covered by this article. The table doesn't identify where Microsoft Copilot interactions are processed or stored. 
 For Microsoft Copilot residency commitments, see [Data Residency for Microsoft 365 Copilot](/microsoft-365/enterprise/m365-dr-service-copilot).
 
 > [!NOTE]
@@ -47,8 +47,8 @@ For Microsoft Copilot residency commitments, see [Data Residency for Microsoft 3
 |-|-|-|-|
 |<ul><li>United States (Central, East, North Central, South Central, West)</li></ul>|United States|No|No action required. Data doesn't move across geographies in this scenario.|
 |<ul><li>Europe (West, North)</li><li>France (Central, South)</li><li>Germany (North, West Central)</li><li>Norway (East, West)</li><li>Sweden (Central, South)</li><li>Switzerland (North, West)</li></ul>|Within [EU Data Boundary](/privacy/eudb/eu-data-boundary-learn#eu-data-boundary-countries-and-datacenter-locations) (covers multiple geographies)|Yes|Processing can occur across geographies within the EU boundary. By default, the **Allow data movement** toggle on the **Copilot & agent capabilities** page is on.<br><br>If you don't want to provide consent to data movement, turn off the toggle. In this case, Copilot features won't be available to your organization.|
-|<ul><li>United Kingdom (South, West)</li></ul>|Copilot features within the same geographic area as the Business Central environment.<br><br>Agent features within EU Data Boundary (covers multiple geographies)|Yes|Agent processing can occur across geographies within the EU boundary. By default, the **Allow data movement** toggle on the **Copilot & agent capabilities** page is on.<br><br>If you don't want to provide consent to data movement for agents, turn off the toggle. In this case, neither Copilot or agent features will be available to your organization. Alternatively, turn on the toggle to allow using Copilot features, but turn off all agent features.|
-|<ul><li>Australia (South East)</li><li>India (Central, South)</li></ul>|Copilot features within the same geographic area as the Business Central environment.<br><br>Agent features within United States|Yes|Agent processing can occur across geographies within the EU boundary. By default, the **Allow data movement** toggle on the **Copilot & agent capabilities** page is on.<br><br>If you don't want to provide consent to data movement for agents, turn off the toggle. In this case, neither Copilot or agent features will be available to your organization. Alternatively, turn on the toggle to allow using Copilot features, but deactivate all agent features.|
+|<ul><li>United Kingdom (South, West)</li></ul>|Within EU Data Boundary (covers multiple geographies)|Yes|Processing can occur outside the United Kingdom within the EU Data Boundary. By default, the **Allow data movement** toggle on the **Copilot & agent capabilities** page is on.<br><br>If you don't want to provide consent to data movement, turn off the toggle. In this case, Copilot and agent features won't be available to your organization.|
+|<ul><li>Australia (South East)</li><li>India (Central, South)</li></ul>|United States|Yes|Processing can occur in the United States. By default, the **Allow data movement** toggle on the **Copilot & agent capabilities** page is on.<br><br>If you don't want to provide consent to data movement, turn off the toggle. In this case, Copilot and agent features won't be available to your organization.|
 |<ul><li>Asia (East, South East)</li></li><li>Brazil (South)</li><li>Canada (Central, East)</li><li>Japan (East, West)</li><li>Korea (Central, South)</li><li>South Africa (North, West)</li><li>United Arab Emirates (North, West)</li></ul> |United States|Yes|By default, the **Allow data movement** toggle on the **Copilot & agent capabilities** page is on.<br><br>If you don't want to provide consent to data movement, turn off the toggle. In this case, Copilot features won't be available to your organization.|
 
 ## How to find the Azure region of a Business Central environment (data residency)
@@ -63,12 +63,12 @@ This section provides detailed information about the geographic factors that aff
 
 ### Business Central country/region version
 
-**What it is**: The localized version of Business Central used on an environment specified by an admin when the environment was created.
+**What it is**: The localized version of Business Central used on an environment that an admin specifies when creating the environment.
 
 **Why it matters**:
 
 - Controls which regulatory features, tax calculations, and reporting formats are available.
-- Determines which localization-specific functionality you have access to.
+- Determines which localization-specific functionality you can access.
 - Automatically determines the Azure region where Business Central data is stored.
 - Can't be changed after environment creation.
 
@@ -83,7 +83,7 @@ This section provides detailed information about the geographic factors that aff
 **Why it matters**:
 
 - Determines physical location of your business data.
-- Automatically determined by environment's country/region setting chosen by admin when environment created.
+- Automatically determined by environment's country/region setting chosen by admin when creating the environment.
 - Affects data residency compliance and regulations.
 - Can result in cross-geography data movement if Azure OpenAI Service operates in a different geography.
 

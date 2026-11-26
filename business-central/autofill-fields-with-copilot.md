@@ -1,11 +1,12 @@
 ---
 title: Autofill fields with Copilot (preview)
-description: Learn how to use Copilot's autofill feature to assist you in filling in fields on card and document pages.
+description: Learn how to use Copilot to suggest field values or autofill fields from copied text on card and document pages in Business Central.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/02/2026
+ms.date: 11/24/2026
+ai-usage: ai-assisted
 ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
@@ -16,7 +17,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Copilot's autofill feature assists you by automatically filling in editable blank fields on your page. Use autofill when creating or modifying a record to get suggestions for field values that you can choose to keep or discard. These suggestions can be based on your Business Central data, AI-generated, or based on information from the web.
+Copilot's autofill feature helps you by automatically filling in editable blank fields on your page. Use autofill when creating or modifying a record to get suggestions for field values that you can choose to keep or discard. These suggestions can be based on your Business Central data, AI-generated, or based on information from the web. Use **Auto paste** to get suggestions based on text that you copied to your clipboard.
 
 When Copilot generates suggestions, it only accesses the business data you can access. Copilot never saves suggestions automatically but presents them for you to decide what to keep. Copilot uses AI, and suggestions might not be correct.
 
@@ -28,6 +29,7 @@ When Copilot generates suggestions, it only accesses the business data you can a
 
 - Autofill is activated, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 - To enhance suggestions with results from the web, turn on **Enable Bing Search** in the **Copilot and agent capabilities** page. Learn more in [Searching the web with Copilot](ai-search-web-copilot.md).
+- To use **Auto paste**, allow Business Central to read the clipboard in your browser.
 
 ## Supported languages
 
@@ -58,33 +60,65 @@ The autofill feature isn't available on these fields regardless of the page type
 - Fields in rows and columns.
 - Multiline text fields.
 - Masked fields like passwords and secrets.
-- Date and time fields.
-- Currency code fields.
+- Date and time fields, except when using **Auto paste**.
+- Currency code fields, except when using **Auto paste**.
 - Fields that uniquely identify a record like IDs and numbers from a series.
 - Certain fields depending on your Business Central environment settings. For example, Copilot can't make suggestions for address fields until your admin enables Bing Search with Copilot.
 - Toggle switches.
 
 ## Use autofill on fields
 
-Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon or press <kbd>Alt</kbd>+<kbd>I</kbd>. If the icon doesn't appear, autofill isn't available for the field, so try another field.
+Open the page for editing, select a field, and then select the :::image type="icon" source="media/copilot-star-unfilled.png"::: **Suggest a value for this field and related fields** icon or press <kbd>Alt</kbd>+<kbd>I</kbd>. If the icon doesn't appear, this way of requesting suggestions isn't available for the field, so try another field. Date and time fields and currency code fields can receive suggestions from **Auto paste**, but don't offer this icon or shortcut.
 
-![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg)
+:::image type="content" source="media/autofill-field.svg" alt-text="Shows a card page with a Copilot icon for generating suggestions for field values.":::
 
-Suggestions are generated only for fields in the FastTab that you are on. When Copilot finds suggestions, they're automatically entered in the fields in italics along with the ![Shows the details icon for a suggestion](media/autofill-info.png) **Show details** icon. Fields remain unchanged if suggestions aren't found or they don't support the autofill feature.
+When you request suggestions from a field, Copilot generates suggestions only for fields in the FastTab that you're on. When Copilot finds suggestions, it automatically enters them in the fields in italics along with the :::image type="icon" source="media/autofill-info.png"::: **Show details** icon. Fields remain unchanged if Copilot doesn't find suggestions or if the fields don't support the autofill feature.
 
-![Shows a suggested field with the accept and discard buttons.](media/autofill-suggested-value-field.svg)
+:::image type="content" source="media/autofill-suggested-value-field.svg" alt-text="Shows a suggested field with the accept and discard buttons.":::
 
-When you hover over or select a field that includes a suggestion, the ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** and ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** buttons appear.
+When you hover over or select a field that includes a suggestion, the :::image type="icon" source="media/autofill-accept.png"::: **Accept the suggestion** and :::image type="icon" source="media/autofill-discard.png"::: **Discard the suggestion** buttons appear.
 
-### Review suggestions
+## Autofill fields from copied text
+
+Use **Auto paste** to suggest field values from text that you copied from another application. For example, copy text about a customer from an email, then use **Auto paste** on the **Customer card** to suggest values for supported fields.
+
+Unlike pasting into a single field, **Auto paste** uses Copilot to match the copied information to fields on the page. Your cursor position doesn't determine which fields receive suggestions, so you don't need to select a field first.
+
+**Auto paste** can suggest values for date and time fields and currency code fields. It can also suggest values for eligible fields in collapsed FastTabs and fields normally revealed by **Show more**. Expand the FastTabs or select **Show more** to review those suggestions.
+
+1. Copy the text that you want to use.
+1. Open a supported card or document page to create or edit a record.
+1. In the page header, select the clipboard button. Its label or tooltip is :::image type="icon" source="media/autofill-clipboard-ready-icon.png"::: **Auto paste ready** when clipboard access is allowed, or :::image type="icon" source="media/autofill-clipboard-access-required-icon.png"::: **Clipboard access required** when access hasn't been allowed.
+1. If prompted, allow clipboard access in your browser. After access is granted, select **Auto paste ready** again to open the **Clipboard** pane.
+1. Review the copied text in the **Clipboard** pane, then select **Auto paste**.
+
+Copilot displays the suggested values in the fields for you to review. Suggestions aren't saved until you accept them. Learn more in [Review suggestions](#review-suggestions).
+
+> [!TIP]
+> If the page header is too narrow to show the clipboard button, open the page header's context menu and select **Auto paste**.
+
+### Control clipboard access and visibility
+
+The **Clipboard** pane has a **Show content** toggle that shows or hides the copied text. Business Central remembers your choice for the next time you open the pane. Hiding the text doesn't prevent **Auto paste** from using it.
+
+If you previously blocked clipboard access, change the clipboard permission for Business Central in your browser's site settings. The clipboard button continues to show **Clipboard access required** until access is allowed. The permission prompt and available settings depend on your browser.
+
+## Troubleshoot autofill with Copilot
+
+- **The Copilot icon doesn't appear**: Ensure the page is open for editing and that autofill is activated with the required permissions. Check [Prerequisites](#prerequisites) and [Availability](#availability). Date and time fields and currency code fields support **Auto paste**, but don't offer the field-level Copilot icon.
+- **Copilot is already working**: You can't start another autofill request while Copilot is generating suggestions for the page. Wait for the request to finish, then review and accept or discard its suggestions before starting another request.
+- **A field has no suggestion**: Copilot might not find a suitable value, or the field might not support autofill. Check the field restrictions in [Availability](#availability). When you request suggestions from a field, only fields in that FastTab are considered.
+- **There's nothing to paste with Auto paste**: **Auto paste ready** means that clipboard access is allowed, not that the clipboard contains usable text. If the clipboard is empty or contains only unsupported content, such as an image, the pane shows "There's nothing on the clipboard that can be pasted here." Copy text and reopen the pane.
+
+## Review suggestions
 
 Review the suggestion for each field and take appropriate action. Suggestions aren't saved until you accept them.
 
-- To learn more about a suggestion, select the ![Shows the details icon for a suggestion](media/autofill-info.png) **Show details** icon next to the field, or press <kbd>Alt</kbd>+<kbd>Up arrow</kbd>. The details include the source of the suggestion, like the most frequently or recently used value. Use the thumbs-up and thumbs-down icons to give feedback.
+- To learn more about a suggestion, select the :::image type="icon" source="media/autofill-info.png"::: **Show details** icon next to the field, or press <kbd>Alt</kbd>+<kbd>Up arrow</kbd>. The details include the source of the suggestion, like the most frequently or recently used value, or **Clipboard**. Use the thumbs-up and thumbs-down icons to give feedback.
 
   Suggestions that originate from searching the web include a reference link to the source website where the suggested field information was found. This link opens the source website in a new browser tab.
-- To keep a suggestion, select ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** or press <kbd>Enter</kbd>.
-- To reject a suggestion and keep the original value, select ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** or press <kbd>Delete</kbd>.
+- To keep a suggestion, select :::image type="icon" source="media/autofill-accept.png"::: **Accept the suggestion** or press <kbd>Enter</kbd>.
+- To reject a suggestion and keep the original value, select :::image type="icon" source="media/autofill-discard.png"::: **Discard the suggestion** or press <kbd>Delete</kbd>.
 - To change a suggestion, select **Change** in the details or press <kbd>F2</kbd>.
 
 You can also use the **Keep all** button in the upper right corner of the page to accept or discard suggestions on all fields.
@@ -122,3 +156,5 @@ If both Copilot and another feature set a value for the same field, the other fe
 [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Searching the web with Copilot](ai-search-web-copilot.md)  
 [Keyboard shortcuts](keyboard-shortcuts.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
